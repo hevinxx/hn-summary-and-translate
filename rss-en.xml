@@ -6,78 +6,92 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Oct 2025 18:28:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 21:18:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>NanoChat – The best ChatGPT that $100 can buy</title>
-      <link>https://github.com/karpathy/nanochat</link>
-      <description>📝 nanochat The best ChatGPT that $100 can buy. log): screen -L -Logfile speedrun. log -S speedrun bash speedrun.
+      <title>Dutch government takes control of Chinese-owned chipmaker Nexperia</title>
+      <link>https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html</link>
+      <description>📝 Key PointsThe Dutch government has invoked control of Nexperia, a Chinese-owned semiconductor maker based in the Netherlands, under its Goods Availability Act. Wingtech Chairman Zhang Xuezheng had been immediately suspended from his roles as executive director of Nexperia Holdings and nonexecutive director of Nexperia after the ministerial order, according to the filing. The move could also further strain trade relations between China and the Netherlands, following years of restrictions on Dutch company ASML's exports of advanced semiconductor manufacturing equipment to China.
 
-🔗 Read more: https://github.com/karpathy/nanochat</description>
-      <guid isPermaLink="true">https://github.com/karpathy/nanochat</guid>
-      <pubDate>Mon, 13 Oct 2025 15:22:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45569350</comments>
+🔗 Read more: https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html</guid>
+      <pubDate>Mon, 13 Oct 2025 10:03:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566644</comments>
     </item>
     <item>
-      <title>Environment variables are a legacy mess: Let's dive deep into them</title>
-      <link>https://allvpv.org/haotic-journey-through-envvars/</link>
-      <description>📝 00:00:00 \_ sshd-session 1616. 00:00:00 \_ sshd-session 5521 pts/0 00:00:00 \_ bash 5545 pts/0 00:00:00 \_ nu 5549 pts/0 00:00:00 \_ bash 5560 pts/0 00:00:00 \_ ps On Linux, a program must use the execve syscall to execute another program. SYSCALL_DEFINE3(execve, const char __user *, filename, const char __user *const __user *, argv, const char __user *const __user *, envp) This system call takes three arguments: filename, argv, envp.
+      <title>Why did containers happen?</title>
+      <link>https://buttondown.com/justincormack/archive/ignore-previous-directions-8-devopsdays/</link>
+      <description>📝 Were containers just lightweight VMs. Companies were hiring more and more developers and they were writing more and more applications. And VM images were big, and networks were slower.
 
-🔗 Read more: https://allvpv.org/haotic-journey-through-envvars/</description>
-      <guid isPermaLink="true">https://allvpv.org/haotic-journey-through-envvars/</guid>
-      <pubDate>Mon, 13 Oct 2025 16:49:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45570537</comments>
+🔗 Read more: https://buttondown.com/justincormack/archive/ignore-previous-directions-8-devopsdays/</description>
+      <guid isPermaLink="true">https://buttondown.com/justincormack/archive/ignore-previous-directions-8-devopsdays/</guid>
+      <pubDate>Mon, 13 Oct 2025 11:37:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45567241</comments>
     </item>
     <item>
-      <title>Optery (YC W22) – Hiring Tech Lead with Node.js Experience (U.S. &amp; Latin America)</title>
-      <link>https://www.optery.com/careers/</link>
-      <description>📝 Careers - Optery Skip to content Use promo code: 04SxyxNX at checkout for 20% Off 🎉 with Optery’s Fall Sale. 🍁 Careers Ready to safeguard your personal data. Join the movement of people strengthening their privacy Sign Up Free.
-
-🔗 Read more: https://www.optery.com/careers/</description>
-      <guid isPermaLink="true">https://www.optery.com/careers/</guid>
-      <pubDate>Mon, 13 Oct 2025 17:03:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45570720</comments>
+      <title>Don't Be a Sucker (1943) [video]</title>
+      <link>https://www.youtube.com/watch?v=vGAqYNFQdZ4</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=vGAqYNFQdZ4</guid>
+      <pubDate>Mon, 13 Oct 2025 20:31:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45573025</comments>
     </item>
     <item>
-      <title>AI and the Future of American Politics</title>
-      <link>https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html</link>
-      <description>📝 Such tactics were sometimes deployed as publicity stunts in the 2024 cycle; they were firsts that got attention. Strategists are also turning to AI to interpret public opinion data and provide more fine-grained insight into the perspective of different voters. A recent survey by the American Association of Political Consultants found that a majority of their members’ firms already use AI regularly in their work, and more than 40 percent believe it will “fundamentally transform” the future of their profession.
+      <title>Abstraction, not syntax</title>
+      <link>https://ruudvanasseldonk.com/2025/abstraction-not-syntax</link>
+      <description>📝 We don’t want to click around, so we’ll set this up using an infrastructure-as-code tool using the following hypothetical configuration file:{ "buckets": [ { "name": "alpha-hourly", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 345600 } }, { "name": "alpha-daily", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 2592000 } }, { "name": "alpha-monthly", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 31536000 } }, { "name": "bravo-hourly", "region": "us-west", "lifecycle_policy": { "delete_after_seconds": 345600 } }, { "name": "bravo-daily", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 259200 } }, { "name": "bravo-monthly", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 31536000 } } ] }Yes, this file would look friendlier in a different format. I’ll even throw in some comments for clarity:buckets: - name: "alpha-hourly" region: "eu-west" lifecycle_policy: delete_after_seconds: 345600 # 4 days - name: "alpha-daily" region: "eu-west" lifecycle_policy: delete_after_seconds: 2592000 # 30 days - name: "alpha-monthly" region: "eu-west" lifecycle_policy: delete_after_seconds: 31536000 # 365 days - name: "bravo-hourly" region: "us-west" lifecycle_policy: delete_after_seconds: 345600 # 4 days - name: "bravo-daily" region: "eu-west" lifecycle_policy: delete_after_seconds: 259200 # 30 days - name: "bravo-monthly" region: "eu-west" lifecycle_policy: delete_after_seconds: 31536000 # 365 daysWhat’s wrong. Instead of a comment that solemny swears that there are 31,536,000 seconds in 365 days, we have a formula that computes this.
 
-🔗 Read more: https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html</description>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html</guid>
-      <pubDate>Mon, 13 Oct 2025 14:51:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45568955</comments>
+🔗 Read more: https://ruudvanasseldonk.com/2025/abstraction-not-syntax</description>
+      <guid isPermaLink="true">https://ruudvanasseldonk.com/2025/abstraction-not-syntax</guid>
+      <pubDate>Mon, 13 Oct 2025 08:45:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566198</comments>
     </item>
     <item>
-      <title>Android's sideloading limits are its most anti-consumer move yet</title>
-      <link>https://www.makeuseof.com/androids-sideloading-limits-are-anti-consumer-move-yet/</link>
-      <description>📝 Apps will be blocked from installing on most mainstream phones if their developer can't complete this verification. This is a valid question because security checks already exist. Google Play Protect makes Android secure by scanning sideloaded apps.
-
-🔗 Read more: https://www.makeuseof.com/androids-sideloading-limits-are-anti-consumer-move-yet/</description>
-      <guid isPermaLink="true">https://www.makeuseof.com/androids-sideloading-limits-are-anti-consumer-move-yet/</guid>
-      <pubDate>Mon, 13 Oct 2025 15:24:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45569371</comments>
+      <title>Strudel REPL – a music live coding environment living in the browser</title>
+      <link>https://strudel.cc</link>
+      <guid isPermaLink="true">https://strudel.cc</guid>
+      <pubDate>Mon, 13 Oct 2025 18:37:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45571822</comments>
     </item>
     <item>
-      <title>Jeep software update bricks vehicles, leaves owners stranded</title>
-      <link>https://www.thestack.technology/jeep-software-update-bricks-vehicles-leaves-owners-stranded/</link>
-      <description>📝 A Jeep customer support representative on a 4XE forum posted Saturday: “Please exercise extreme caution this evening if you have completed the update. Jeep software update issueSome described losing power abruptly whilst driving in the wake of the update. "What's the worst that could happen, right.
+      <title>Modern iOS Security Features – A Deep Dive into SPTM, TXM, and Exclaves</title>
+      <link>https://arxiv.org/abs/2510.09272</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
 
-🔗 Read more: https://www.thestack.technology/jeep-software-update-bricks-vehicles-leaves-owners-stranded/</description>
-      <guid isPermaLink="true">https://www.thestack.technology/jeep-software-update-bricks-vehicles-leaves-owners-stranded/</guid>
-      <pubDate>Mon, 13 Oct 2025 16:08:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45569966</comments>
+🔗 Read more: https://arxiv.org/abs/2510.09272</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.09272</guid>
+      <pubDate>Mon, 13 Oct 2025 18:23:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45571688</comments>
     </item>
     <item>
-      <title>Roger Dean – His legendary artwork in gaming history (Psygnosis)</title>
-      <link>https://spillhistorie.no/2025/10/03/legends-of-the-games-industry-roger-dean/</link>
-      <description>📝 The Black Onyx cover image by Roger Dean. Roger Dean created the famous owl logo for Psygnosis. *laughs* Barbarian cover by Roger Dean.
+      <title>Reverse Engineering a 1979 Camera's Spec</title>
+      <link>https://blog.mano.lol/posts/film/</link>
+      <description>📝 And yeah, I think that is really all the history that we need to know about this camera. 35 mm refers to the film that can be used with this camera. Aperture – This controls the amount of light that the lens receives inside itself.
 
-🔗 Read more: https://spillhistorie.no/2025/10/03/legends-of-the-games-industry-roger-dean/</description>
-      <guid isPermaLink="true">https://spillhistorie.no/2025/10/03/legends-of-the-games-industry-roger-dean/</guid>
-      <pubDate>Mon, 13 Oct 2025 14:29:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45568708</comments>
+🔗 Read more: https://blog.mano.lol/posts/film/</description>
+      <guid isPermaLink="true">https://blog.mano.lol/posts/film/</guid>
+      <pubDate>Mon, 13 Oct 2025 18:45:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45571918</comments>
+    </item>
+    <item>
+      <title>Programming in Assembly Is Brutal, Beautiful, and Maybe Even a Path to Better AI</title>
+      <link>https://www.wired.com/story/programming-assembly-artificial-intelligence/</link>
+      <description>📝 To build a complex computer game from assembly is like weaving a tapestry from shedded cat fur. We both knew that wasn’t the real reason, though. Assembly is brutal and beautiful that way.
+
+🔗 Read more: https://www.wired.com/story/programming-assembly-artificial-intelligence/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/programming-assembly-artificial-intelligence/</guid>
+      <pubDate>Mon, 13 Oct 2025 18:37:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45571814</comments>
+    </item>
+    <item>
+      <title>AWS Service Availability Updates</title>
+      <link>https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability/</link>
+      <description>📝 These changes fall into three lifecycle categories: Services and Capabilities moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting Nov 7, 2025. Amazon Cloud Directory Amazon CodeCatalyst Amazon CodeGuru Reviewer Amazon Fraud Detector Amazon Glacier Amazon S3 Object Lambda Amazon Workspaces Web Access Client for PCoIP (STXHD) AWS Application Discovery Service AWS HealthOmics - Variant and Annotation Store AWS IoT SiteWise Edge Data Processing Pack AWS IoT SiteWise Monitor AWS Mainframe Modernization Service AWS Migration Hub AWS Snowball Edge Compute Optimized AWS Snowball Edge Storage Optimized AWS Systems Manager - Change Manager AWS Systems Manager - Incident Manager AWS Thinkbox Deadline 10. Amazon FinSpace Amazon Lookout for Equipment AWS IoT Greengrass v1 AWS Proton Services Reaching End of Support The following services have reached end of support and are no longer available as of October 7, 2025.
+
+🔗 Read more: https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability/</description>
+      <guid isPermaLink="true">https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability/</guid>
+      <pubDate>Mon, 13 Oct 2025 19:52:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45572613</comments>
     </item>
   </channel>
 </rss>
