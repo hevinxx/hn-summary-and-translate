@@ -3,383 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hacker News RSS feed with AI-powered summaries and translations in multiple languages">
-    <meta name="keywords" content="Hacker News, RSS, Translation, Summary, Korean, Japanese, Chinese, AI">
-    <meta property="og:title" content="HN RSS Translator">
-    <meta property="og:description" content="AI-powered Hacker News RSS feed with summaries and translations">
+    <meta name="description" content="Hacker News articles automatically summarized and translated into multiple languages (Korean, English, Japanese, Chinese (Simplified)). Get multilingual tech news via RSS feeds.">
+    <meta name="keywords" content="Hacker News, RSS, translation, Korean, English, Japanese, Chinese (Simplified), tech news, summarization, multilingual">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="HN RSS Translator - Multilingual Hacker News Feeds">
+    <meta property="og:description" content="Get Hacker News in your language with automatic summarization and translation">
     <meta property="og:type" content="website">
-    <title>HN RSS Translator - AI Summaries & Translations</title>
+    <meta property="og:url" content="https://hevinxx.github.io/hn-summary-and-translate/">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="HN RSS Translator">
+    <meta name="twitter:description" content="Multilingual Hacker News RSS feeds with AI summarization">
+
+    <title>HN RSS Translator - Multilingual Hacker News Feeds (Korean, English, Japanese, and 1 more)</title>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "HN RSS Translator",
+      "description": "Hacker News articles automatically summarized and translated into multiple languages",
+      "url": "https://hevinxx.github.io/hn-summary-and-translate/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://hevinxx.github.io/hn-summary-and-translate/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
         }
-
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 30px;
-            text-align: center;
-        }
-
         h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            color: #ff6600;
         }
-
-        .subtitle {
-            font-size: 1.1em;
-            opacity: 0.95;
+        .feed-list {
+            list-style: none;
+            padding: 0;
         }
-
-        main {
-            padding: 40px 30px;
-        }
-
-        .intro {
-            margin-bottom: 40px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-        }
-
-        .feeds {
-            margin-top: 30px;
-        }
-
-        h2 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-            border-bottom: 2px solid #667eea;
-            padding-bottom: 10px;
-        }
-
         .feed-item {
-            margin-bottom: 25px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 15px 0;
+            padding: 15px;
+            background: #f6f6f6;
+            border-radius: 8px;
         }
-
-        .feed-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        .feed-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
         }
-
-        .feed-title {
-            font-size: 1.3em;
-            color: #667eea;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
+        .feed-link:hover {
+            text-decoration: underline;
         }
-
         .feed-url-container {
             display: flex;
             align-items: center;
             gap: 10px;
-            margin-top: 10px;
-            background: white;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #dee2e6;
+            margin-top: 5px;
         }
-
         .feed-url {
-            flex: 1;
-            font-family: 'Courier New', monospace;
+            color: #666;
             font-size: 0.9em;
-            color: #495057;
             word-break: break-all;
-            padding: 5px;
-            background: #f8f9fa;
-            border-radius: 3px;
+            flex: 1;
         }
-
         .copy-btn {
-            background: #667eea;
+            padding: 6px 12px;
+            background: #ff6600;
             color: white;
             border: none;
-            padding: 8px 16px;
-            border-radius: 5px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 0.9em;
-            transition: background 0.2s, transform 0.1s;
+            font-size: 0.85em;
             white-space: nowrap;
+            transition: background 0.2s;
         }
-
         .copy-btn:hover {
-            background: #764ba2;
-            transform: scale(1.05);
+            background: #ff8533;
         }
-
         .copy-btn:active {
-            transform: scale(0.95);
+            background: #cc5200;
         }
-
         .copy-btn.copied {
             background: #28a745;
         }
-
-        .flag {
-            font-size: 1.2em;
-        }
-
-        .features {
-            margin-top: 40px;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            border: 1px solid #dee2e6;
-        }
-
-        .features h3 {
-            color: #667eea;
-            margin-bottom: 15px;
-        }
-
-        .features ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .features li {
-            padding: 8px 0;
-            padding-left: 25px;
-            position: relative;
-        }
-
-        .features li::before {
-            content: "•";
-            position: absolute;
-            left: 0;
-            font-weight: bold;
-            color: #667eea;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: #f8f9fa;
+        .updated {
             color: #666;
-            border-top: 1px solid #dee2e6;
-        }
-
-        footer a {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            .feed-url-container {
-                flex-direction: column;
-            }
-
-            .feed-url {
-                width: 100%;
-            }
-
-            .copy-btn {
-                width: 100%;
-            }
+            font-size: 0.9em;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>HN RSS Translator</h1>
-            <p class="subtitle">AI-Powered Hacker News Summaries & Translations</p>
-        </header>
+    <h1>🗞️ HN RSS Translator</h1>
+    <p>Hacker News articles automatically summarized and translated into multiple languages.</p>
 
-        <main>
-            <div class="intro">
-                <p>Welcome to HN RSS Translator! This service automatically fetches the latest Hacker News stories, summarizes them using AI, and translates them into multiple languages.</p>
-                <p style="margin-top: 10px;">Updates every 3 hours | Powered by BART & Google Translate | Multi-language support</p>
+    <h2>Available Feeds</h2>
+    <ul class="feed-list">
+
+        <li class="feed-item">
+            <a href="rss-ko.xml" class="feed-link">📡 Korean</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml', this)">📋 Copy</button>
             </div>
+        </li>
 
-            <section class="feeds">
-                <h2>Available RSS Feeds</h2>
-                <div id="feed-list">
-                    <!-- Feeds will be populated by JavaScript -->
-                </div>
-            </section>
-
-            <div class="features">
-                <h3>Features</h3>
-                <ul>
-                    <li>Automatic summarization using BART AI model</li>
-                    <li>Multi-language translation support</li>
-                    <li>Updates every 3 hours via GitHub Actions</li>
-                    <li>Free and open-source - no API keys required</li>
-                    <li>Hosted on GitHub Pages</li>
-                    <li>RSS 2.0 compatible format</li>
-                </ul>
+        <li class="feed-item">
+            <a href="rss-en.xml" class="feed-link">📡 English</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml', this)">📋 Copy</button>
             </div>
+        </li>
 
-            <p class="updated" style="margin-top: 20px; color: #666; font-size: 0.9em;">
-                Last updated: 2025-10-13 00:51:02 UTC
-            </p>
-        </main>
+        <li class="feed-item">
+            <a href="rss-ja.xml" class="feed-link">📡 Japanese</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml', this)">📋 Copy</button>
+            </div>
+        </li>
 
-        <footer>
-            <p>
-                <a href="https://github.com/hevinxx/hn-summary-and-translate" target="_blank">View on GitHub</a>
-                |
-                <a href="https://news.ycombinator.com" target="_blank">Hacker News</a>
-            </p>
-            <p style="margin-top: 10px; font-size: 0.9em;">
-                Made with love using GitHub Actions & AI
-            </p>
-        </footer>
-    </div>
+        <li class="feed-item">
+            <a href="rss-zh.xml" class="feed-link">📡 Chinese (Simplified)</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml', this)">📋 Copy</button>
+            </div>
+        </li>
+
+    </ul>
+
+    <section style="margin-top: 30px; line-height: 1.8; background: white; padding: 20px; border-radius: 8px;">
+        <h2 style="color: #ff6600;">Why Use HN RSS Translator?</h2>
+        <ul style="margin-left: 20px;">
+            <li><strong>Automatic Translation</strong>: Get Hacker News articles in Korean, English, Japanese, and 1 more</li>
+            <li><strong>AI Summarization</strong>: BART model provides concise summaries of long articles</li>
+            <li><strong>Fresh Content</strong>: Updated every 3 hours with latest tech news</li>
+            <li><strong>Free & Open Source</strong>: No API keys required, runs on GitHub infrastructure</li>
+        </ul>
+
+        <h3 style="color: #ff6600; margin-top: 20px;">Supported Languages</h3>
+        <p>We currently support feeds in: <strong>Korean, English, Japanese, Chinese (Simplified)</strong>.</p>
+
+        <h3 style="color: #ff6600; margin-top: 20px;">How to Use</h3>
+        <p>Simply copy one of the RSS feed URLs above and add it to your favorite RSS reader such as Feedly, Inoreader, NetNewsWire, or any other RSS client.</p>
+    </section>
+
+    <p class="updated">Last updated: 2025-10-13 01:25:45 UTC</p>
+
+    <hr>
+    <p style="text-align: center; color: #666; font-size: 0.9em;">
+        <a href="https://github.com/hevinxx/hn-summary-and-translate">GitHub</a> |
+        Powered by BART summarization and Google Translate
+    </p>
 
     <script>
-        // Language configuration
-        const languages = [{"code": "ko", "name": "Korean", "feed_name": "rss-ko.xml"}, {"code": "ja", "name": "Japanese", "feed_name": "rss-ja.xml"}, {"code": "zh-CN", "name": "Chinese (Simplified)", "feed_name": "rss-zh-cn.xml"}, {"code": "zh-TW", "name": "Chinese (Traditional)", "feed_name": "rss-zh-tw.xml"}, {"code": "en", "name": "English", "feed_name": "rss-en.xml", "skip_translation": true}];
-
-        // Flag emoji mapping - using Unicode code points to generate flags dynamically
-        const flagMap = {
-            'ko': String.fromCodePoint(0x1F1F0, 0x1F1F7),  // KR flag
-            'ja': String.fromCodePoint(0x1F1EF, 0x1F1F5),  // JP flag
-            'zh-CN': String.fromCodePoint(0x1F1E8, 0x1F1F3),  // CN flag
-            'zh-TW': String.fromCodePoint(0x1F1F9, 0x1F1FC),  // TW flag
-            'en': String.fromCodePoint(0x1F1EC, 0x1F1E7)  // GB flag
-        };
-
-        // Get the username from the URL dynamically
-        function getUsername() {
-            const hostname = window.location.hostname;
-            if (hostname.includes('github.io')) {
-                // Format: username.github.io
-                return hostname.split('.')[0];
-            }
-            // For local development or custom domains
-            return 'username';
-        }
-
-        // Get the repository name from the URL
-        function getRepoName() {
-            const pathname = window.location.pathname;
-            const parts = pathname.split('/').filter(p => p);
-            if (parts.length > 0 && parts[0] !== '') {
-                return parts[0];
-            }
-            return 'hn-summary-and-translate';
-        }
-
-        // Generate feed URL dynamically
-        function generateFeedUrl(feedName) {
-            const username = getUsername();
-            const repoName = getRepoName();
-
-            if (window.location.hostname === 'localhost' ||
-                window.location.hostname === '127.0.0.1' ||
-                window.location.hostname === '') {
-                // For local development
-                return feedName;
-            }
-
-            // For GitHub Pages
-            return `https://${username}.github.io/${repoName}/${feedName}`;
-        }
-
-        // Copy to clipboard function
-        async function copyToClipboard(feedName) {
-            const url = generateFeedUrl(feedName);
-            const button = event.target;
-
-            try {
-                await navigator.clipboard.writeText(url);
-
-                // Visual feedback
-                button.textContent = 'Copied!';
-                button.classList.add('copied');
-
-                // Reset after 2 seconds
-                setTimeout(() => {
-                    button.textContent = 'Copy';
-                    button.classList.remove('copied');
-                }, 2000);
-            } catch (err) {
-                // Fallback for older browsers
-                const textArea = document.createElement("textarea");
-                textArea.value = url;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textArea);
-
-                button.textContent = 'Copied!';
+        function copyToClipboard(text, button) {
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = button.textContent;
+                button.textContent = '✅ Copied!';
                 button.classList.add('copied');
 
                 setTimeout(() => {
-                    button.textContent = 'Copy';
+                    button.textContent = originalText;
                     button.classList.remove('copied');
                 }, 2000);
-            }
-        }
-
-        // Generate feed items HTML
-        function generateFeedItems() {
-            const feedList = document.getElementById('feed-list');
-            let html = '';
-
-            languages.forEach(lang => {
-                const flag = flagMap[lang.code] || String.fromCodePoint(0x1F310);  // 🌐
-                const url = generateFeedUrl(lang.feed_name);
-
-                html += '<div class="feed-item">' +
-                    '<div class="feed-title">' +
-                    '<span class="flag">' + flag + '</span>' +
-                    '<span>' + lang.name + '</span>' +
-                    '</div>' +
-                    '<div class="feed-url-container">' +
-                    '<div class="feed-url">' + url + '</div>' +
-                    '<button class="copy-btn" onclick="copyToClipboard('' + lang.feed_name + '')">Copy</button>' +
-                    '</div>' +
-                    '</div>';
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+                alert('Failed to copy to clipboard');
             });
-
-            feedList.innerHTML = html;
         }
-
-        // Initialize on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            generateFeedItems();
-        });
     </script>
 </body>
 </html>

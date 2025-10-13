@@ -1,18 +1,6 @@
-# Robots.txt for HN RSS Translator
-# Allow all bots to crawl the site
-
 User-agent: *
 Allow: /
+Sitemap: https://hevinxx.github.io/hn-summary-and-translate/sitemap.xml
 
-# Sitemap location
-Sitemap: https://username.github.io/hn-rss-translator/sitemap.xml
-
-# Crawl delay (be nice to the server)
-Crawl-delay: 1
-
-# Disallow access to cache and temporary directories
+# Exclude cache directory
 Disallow: /cache/
-Disallow: /temp/
-Disallow: /.git/
-Disallow: /src/
-Disallow: /tests/
