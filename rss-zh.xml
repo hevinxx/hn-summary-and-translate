@@ -6,34 +6,151 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Oct 2025 09:24:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 12:41:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>聚焦 pdfly，PDF 文件的瑞士军刀</title>
-      <link>https://chezsoi.org/lucas/blog/spotlight-on-pdfly.html</link>
-      <description>📝 示例：$ pdfly 元最小文档。 pdfly 包含一些从 PDF 文件中提取特定内容的命令：pdfly extract-images 和 pdfly extract-annotated-text。 pdfly 旋转 旋转文档的特定页面。
+      <title>美国太阳能发电场</title>
+      <link>https://tech.marksblogg.com/american-solar-farms.html</link>
+      <description>📝 这是一个 15K 阵列，2。在这篇文章中，我将探索 GM-SEUS 的太阳能发电场数据集。这将使远程（例如从 AWS S3）处理该数据集变得更加容易。
 
 
-🔤 Original: Spotlight on pdfly, the Swiss Army knife for PDF files
+🔤 Original: American solar farms
 
-🔗 Read more: https://chezsoi.org/lucas/blog/spotlight-on-pdfly.html</description>
-      <guid isPermaLink="true">https://chezsoi.org/lucas/blog/spotlight-on-pdfly.html</guid>
-      <pubDate>Mon, 13 Oct 2025 08:36:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45566139</comments>
+🔗 Read more: https://tech.marksblogg.com/american-solar-farms.html</description>
+      <guid isPermaLink="true">https://tech.marksblogg.com/american-solar-farms.html</guid>
+      <pubDate>Mon, 13 Oct 2025 10:02:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566638</comments>
     </item>
     <item>
-      <title>HTTP3 解释</title>
-      <link>https://http3-explained.haxx.se</link>
-      <description>📝 HTTP/3 解释是记录 HTTP/3 和 QUIC 协议的协作努力。每次提交到此 git 存储库时，内容都会自动更新。 HTTP/3 解释涵盖下一篇英语最后更新于 1 年前这有帮助吗？
+      <title>矩阵可以成为你的朋友</title>
+      <link>https://www.sjbaker.org/steve/omniv/matrices_can_be_your_friends.html</link>
+      <description>📝 想象一下原点有一个小立方体 - 假装它牢固地附着在您的模型上。想想当模型移动时立方体最终会到达哪里 - 写下它的顶点最终会到达哪里，这就是你的矩阵。只要想想那个小立方体的轴最终在哪里 - 把它们写下来就可以了。
 
 
-🔤 Original: HTTP3 Explained
+🔤 Original: Matrices can be your Friends
 
-🔗 Read more: https://http3-explained.haxx.se</description>
-      <guid isPermaLink="true">https://http3-explained.haxx.se</guid>
-      <pubDate>Mon, 13 Oct 2025 07:15:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45565646</comments>
+🔗 Read more: https://www.sjbaker.org/steve/omniv/matrices_can_be_your_friends.html</description>
+      <guid isPermaLink="true">https://www.sjbaker.org/steve/omniv/matrices_can_be_your_friends.html</guid>
+      <pubDate>Mon, 13 Oct 2025 10:23:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566766</comments>
+    </item>
+    <item>
+      <title>现代 Linux 工具</title>
+      <link>https://ikrima.dev/dev-notes/linux/linux-modern-tools/</link>
+      <description>📝 现代Linux工具#其他资源#现代unix：现代/更快/更健全的常见unix命令替代品新的命令行工具秘密知识书：各种材料/备忘单/工具很棒的linux软件：很棒的linux应用程序列表archlinux实用程序：带有描述的综合列表CLI替换#bat cat克隆与语法突出显示和git集成exa现代替代ls/tree，不维护eza现代 ls/tree 基于 exa fork lsd 下一代 ls，向后兼容 git 和 diff 输出的 delta 查看器 ncdu 直观的 du 与 ncurses 界面 Dust 更直观的 du 版本，用 rust 编写 duf 更好的 df 替代 broot 更好的树，带导航支持 fd 简单、快速且用户友好的替代方案，用于查找 ripgrep 极其快速的 grep 替代方案，尊重您的 gitignore ag 代码搜索工具，类似于 ack，但速度更快 fzf 通用命令行模糊查找 bfs 广度优先查找替代方案 mcfly 浏览您的 shell 历史记录 选择人性化且快速的替代方案来剪切和（有时）awk jq sed 用于 JSON 数据 sd 直观的查找/替换 CLI。 sed 替代bottom 另一个跨平台图形进程/系统监视器扫视top/htop 替代gtop 用于终端的系统监控仪表板 超精细命令行基准测试工具 gping 带图形的 ping procs ps rust 替代 httpie 现代、用户友好的 API 时代命令行 HTTP 客户端 curlie 的力量curl，httpie 的易用性 xh 专注于性能的替代 httpie zride smarter cd 命令的灵感来自 z micro 现代终端文本编辑器 nnn 快速精益终端文件管理器 新的 CLI 工具# up Pipes 具有即时实时预览 帮助工具# ManKier 用简洁漂亮的手册页解释 shell 命令 tldr 带有实际示例的简明手册页 tealdeer tldr 快速 rust 实现explainshell 将命令行参数与其帮助文本相匹配。 sh 与 tldr 页面统一备忘单 GUI 工具# baobab gui 磁盘使用分析器 stacer gui 系统优化器/监控。
+
+
+🔤 Original: Modern Linux tools
+
+🔗 Read more: https://ikrima.dev/dev-notes/linux/linux-modern-tools/</description>
+      <guid isPermaLink="true">https://ikrima.dev/dev-notes/linux/linux-modern-tools/</guid>
+      <pubDate>Mon, 13 Oct 2025 09:44:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566548</comments>
+    </item>
+    <item>
+      <title>一些石墨烯公司已经发挥了潜力，但其他公司却在苦苦挣扎</title>
+      <link>https://www.theguardian.com/business/2025/oct/13/lab-to-fab-are-promises-of-a-graphene-revolution-finally-coming-true</link>
+      <description>📝 由于某些光波长被抑制，图像呈现橙色光芒。由于某些光波长被抑制，图像呈现橙色光芒。单石墨烯晶体。
+
+
+🔤 Original: Some graphene firms have reaped its potential but others are struggling
+
+🔗 Read more: https://www.theguardian.com/business/2025/oct/13/lab-to-fab-are-promises-of-a-graphene-revolution-finally-coming-true</description>
+      <guid isPermaLink="true">https://www.theguardian.com/business/2025/oct/13/lab-to-fab-are-promises-of-a-graphene-revolution-finally-coming-true</guid>
+      <pubDate>Mon, 13 Oct 2025 08:53:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566253</comments>
+    </item>
+    <item>
+      <title>LaTeXpOsEd：预印本档案信息泄露的系统分析</title>
+      <link>https://arxiv.org/abs/2510.03761</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
+
+
+🔤 Original: LaTeXpOsEd: A Systematic Analysis of Information Leakage in Preprint Archives
+
+🔗 Read more: https://arxiv.org/abs/2510.03761</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.03761</guid>
+      <pubDate>Mon, 13 Oct 2025 08:33:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566123</comments>
+    </item>
+    <item>
+      <title>瑞典央行纪念阿尔弗雷德·诺贝尔经济科学奖 2025</title>
+      <link>https://www.nobelprize.org/prizes/economic-sciences/2025/summary/</link>
+      <description>📝 导航至：摘要 - Joel Mokyr - Philippe Aghion - Peter Howitt 获奖公告 新闻稿 热门信息 高级信息 Ill. Niklas Elmehed © 诺贝尔奖外展 Joel Mokyr 奖项份额：1/2 Ill. Niklas Elmehed © 诺贝尔奖外展 Philippe Aghion 奖项份额：1/4 Ill. Niklas Elmehed © 诺贝尔奖外展 Philippe Aghion 奖项份额：1/4
+
+
+🔤 Original: The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2025
+
+🔗 Read more: https://www.nobelprize.org/prizes/economic-sciences/2025/summary/</description>
+      <guid isPermaLink="true">https://www.nobelprize.org/prizes/economic-sciences/2025/summary/</guid>
+      <pubDate>Mon, 13 Oct 2025 11:23:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45567153</comments>
+    </item>
+    <item>
+      <title>实现内存安全的两条途径：CHERI 和 OMA</title>
+      <link>https://ednutting.com/2025/10/05/cheri-vs-oma.html</link>
+      <description>📝 当这个过程出错时，就会出现内存安全漏洞。软件在内存分配（房间预订）方面也存在同样的问题。内存安全分为三类： 引用安全确保指针真正引用分配的内存并且无法伪造。
+
+
+🔤 Original: Two Paths to Memory Safety: CHERI and OMA
+
+🔗 Read more: https://ednutting.com/2025/10/05/cheri-vs-oma.html</description>
+      <guid isPermaLink="true">https://ednutting.com/2025/10/05/cheri-vs-oma.html</guid>
+      <pubDate>Mon, 13 Oct 2025 10:05:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566660</comments>
+    </item>
+    <item>
+      <title>gsay：从 Google 获取英语词汇的发音</title>
+      <link>https://github.com/pvonmoradi/gsay</link>
+      <description>📝 gsay 一个简单的 shell 脚本，用于从 Google 获取英语单词的发音。不要播放他们的音频 [--no-cache | -n] 禁用缓存模式：忽略缓存并且不保存到缓存目录默认：启用缓存模式。缓存/gsay [--调试| -v] 增加日志详细程度以进行调试 [--version | -V] 打印版本 [--help | -h] 显示帮助消息 示例 gsay legend gsay -y 2024 -a us Leicester gsay -n -y 2020 -a gb Forte gsay Pneumonoultramicroscopesilicovolcanoconiosis gsay -l Perfect gsay carte blanche 注释 我可能是错的，但 2024/04/19 的发音对我来说听起来是合成的。
+
+
+🔤 Original: gsay: Fetch pronunciation of English vocabulary from Google
+
+🔗 Read more: https://github.com/pvonmoradi/gsay</description>
+      <guid isPermaLink="true">https://github.com/pvonmoradi/gsay</guid>
+      <pubDate>Mon, 13 Oct 2025 09:39:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566532</comments>
+    </item>
+    <item>
+      <title>适用于 Linux 的 MPTCP</title>
+      <link>https://www.mptcp.dev/</link>
+      <description>📝 图 TD；子图 MPTCP 方向 LR C_1(&lt;div style="display: inline-block; min-width: 32px"&gt;&lt;font size="7"&gt;fa:fa-mobile&lt;/font&gt;&lt;/div&gt;) S_1((&lt;div style="display: inline-block; min-width: 55px"&gt;&lt;font size="7"&gt;fa:fa-cloud&lt;/font&gt;&lt;/div&gt;)) 结束子图 TCP 方向 LR C_2(&lt;div style="display: inline-block; min-width: 32px"&gt;&lt;font size="7"&gt;fa:fa-mobile&lt;/font&gt;&lt;/div&gt;) S_2((&lt;div style="display: inline-block; min-width: 55px"&gt;&lt;font size="7"&gt;fa:fa-cloud&lt;/font&gt;&lt;/div&gt;)) end C_1 &lt;== "5G" ==&gt; S_1 C_1 &lt;== "Wi-Fi&lt;br /&gt;&lt;br /&gt;多个路径（&lt;i&gt;子流&lt;/i&gt;）&lt;br /&gt;同时" ==&gt; S_1 C_2 x-。图 LR； C_1(&lt;div style="display: inline-block; min-width: 35px"&gt;&lt;font size="7"&gt;fa:fa-mobile&lt;/font&gt;&lt;/div&gt;) S_1((&lt;div style="display: inline-block; min-width: 60px"&gt;&lt;font size="7"&gt;fa:fa-cloud&lt;/font&gt;&lt;/div&gt;)) C_1 -.使用内核或用户空间路径管理器进行路径管理。
+
+
+🔤 Original: MPTCP for Linux
+
+🔗 Read more: https://www.mptcp.dev/</description>
+      <guid isPermaLink="true">https://www.mptcp.dev/</guid>
+      <pubDate>Mon, 13 Oct 2025 09:25:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566441</comments>
+    </item>
+    <item>
+      <title>已经切换到柔术：教程</title>
+      <link>https://www.stavros.io/posts/switch-to-jujutsu-already-a-tutorial/</link>
+      <description>📝 另外，你将在这里读到一些关于柔术喜欢做那些会冒犯你的事情的事情，你的第一反应将是“疯狂，这不可能行得通”。 git 您对 git 的心理模型可能类似于装配线。相比之下，柔术更像是玩培乐多。
+
+
+🔤 Original: Switch to Jujutsu Already: A Tutorial
+
+🔗 Read more: https://www.stavros.io/posts/switch-to-jujutsu-already-a-tutorial/</description>
+      <guid isPermaLink="true">https://www.stavros.io/posts/switch-to-jujutsu-already-a-tutorial/</guid>
+      <pubDate>Mon, 13 Oct 2025 09:22:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45566421</comments>
+    </item>
+    <item>
+      <title>我们（至少）需要符合人体工程学的明确手柄</title>
+      <link>https://smallcultfollowing.com/babysteps/blog/2025/10/13/ergonomic-explicit-handles/</link>
+      <description>📝 这篇博客认为，我们应该使其符合人体工程学，变得明确。那次谈话中让我印象深刻的关键词是：Rust 不应该让你感到惊讶。一些看似简单的代码隐藏着微妙而复杂的交互。
+
+
+🔤 Original: We need (at least) ergonomic, explicit handles
+
+🔗 Read more: https://smallcultfollowing.com/babysteps/blog/2025/10/13/ergonomic-explicit-handles/</description>
+      <guid isPermaLink="true">https://smallcultfollowing.com/babysteps/blog/2025/10/13/ergonomic-explicit-handles/</guid>
+      <pubDate>Mon, 13 Oct 2025 12:08:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45567443</comments>
     </item>
   </channel>
 </rss>
