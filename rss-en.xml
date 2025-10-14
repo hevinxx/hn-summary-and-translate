@@ -6,92 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Oct 2025 21:18:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 01:22:53 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Dutch government takes control of Chinese-owned chipmaker Nexperia</title>
-      <link>https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html</link>
-      <description>📝 Key PointsThe Dutch government has invoked control of Nexperia, a Chinese-owned semiconductor maker based in the Netherlands, under its Goods Availability Act. Wingtech Chairman Zhang Xuezheng had been immediately suspended from his roles as executive director of Nexperia Holdings and nonexecutive director of Nexperia after the ministerial order, according to the filing. The move could also further strain trade relations between China and the Netherlands, following years of restrictions on Dutch company ASML's exports of advanced semiconductor manufacturing equipment to China.
+      <title>DDoS Botnet Aisuru Blankets US ISPs in Record DDoS</title>
+      <link>https://krebsonsecurity.com/2025/10/ddos-botnet-aisuru-blankets-us-isps-in-record-ddos/</link>
+      <description>📝 Ferguson told KrebsOnSecurity that on October 8, TCPShield was walloped with a blitz from Aisuru that flooded its network with more than 15 terabits of junk data per second. Multiple DDoS attacks from Aisuru can be seen against the Minecraft host Cosmic on Sept. The sharp downward spikes correspond to brief but enormous attacks from Aisuru.
 
-🔗 Read more: https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html</guid>
-      <pubDate>Mon, 13 Oct 2025 10:03:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45566644</comments>
+🔗 Read more: https://krebsonsecurity.com/2025/10/ddos-botnet-aisuru-blankets-us-isps-in-record-ddos/</description>
+      <guid isPermaLink="true">https://krebsonsecurity.com/2025/10/ddos-botnet-aisuru-blankets-us-isps-in-record-ddos/</guid>
+      <pubDate>Mon, 13 Oct 2025 23:21:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45574393</comments>
     </item>
     <item>
-      <title>Why did containers happen?</title>
-      <link>https://buttondown.com/justincormack/archive/ignore-previous-directions-8-devopsdays/</link>
-      <description>📝 Were containers just lightweight VMs. Companies were hiring more and more developers and they were writing more and more applications. And VM images were big, and networks were slower.
+      <title>Sony PlayStation 2 fixing frenzy</title>
+      <link>https://retrohax.net/sony-playstation-2-fixing-frenzy/</link>
+      <description>📝 I’ve bought some on Aliexpress. I’ve bought some brand new 1TB SATA drives along with HDD adapters that are easily available. Hopefully, about the machine that I’ve worked on recently, and I still remember all the details 😀 Share this: Click to share on X (Opens in new window) X Click to share on Facebook (Opens in new window) Facebook Click to share on LinkedIn (Opens in new window) LinkedIn Click to share on Tumblr (Opens in new window) Tumblr Click to email a link to a friend (Opens in new window) Email Click to share on Reddit (Opens in new window) Reddit Click to share on WhatsApp (Opens in new window) WhatsApp Click to share on Pinterest (Opens in new window) Pinterest Like this:Like Loading.
 
-🔗 Read more: https://buttondown.com/justincormack/archive/ignore-previous-directions-8-devopsdays/</description>
-      <guid isPermaLink="true">https://buttondown.com/justincormack/archive/ignore-previous-directions-8-devopsdays/</guid>
-      <pubDate>Mon, 13 Oct 2025 11:37:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45567241</comments>
+🔗 Read more: https://retrohax.net/sony-playstation-2-fixing-frenzy/</description>
+      <guid isPermaLink="true">https://retrohax.net/sony-playstation-2-fixing-frenzy/</guid>
+      <pubDate>Mon, 13 Oct 2025 23:02:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45574247</comments>
     </item>
     <item>
-      <title>Don't Be a Sucker (1943) [video]</title>
-      <link>https://www.youtube.com/watch?v=vGAqYNFQdZ4</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=vGAqYNFQdZ4</guid>
-      <pubDate>Mon, 13 Oct 2025 20:31:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45573025</comments>
-    </item>
-    <item>
-      <title>Abstraction, not syntax</title>
-      <link>https://ruudvanasseldonk.com/2025/abstraction-not-syntax</link>
-      <description>📝 We don’t want to click around, so we’ll set this up using an infrastructure-as-code tool using the following hypothetical configuration file:{ "buckets": [ { "name": "alpha-hourly", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 345600 } }, { "name": "alpha-daily", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 2592000 } }, { "name": "alpha-monthly", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 31536000 } }, { "name": "bravo-hourly", "region": "us-west", "lifecycle_policy": { "delete_after_seconds": 345600 } }, { "name": "bravo-daily", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 259200 } }, { "name": "bravo-monthly", "region": "eu-west", "lifecycle_policy": { "delete_after_seconds": 31536000 } } ] }Yes, this file would look friendlier in a different format. I’ll even throw in some comments for clarity:buckets: - name: "alpha-hourly" region: "eu-west" lifecycle_policy: delete_after_seconds: 345600 # 4 days - name: "alpha-daily" region: "eu-west" lifecycle_policy: delete_after_seconds: 2592000 # 30 days - name: "alpha-monthly" region: "eu-west" lifecycle_policy: delete_after_seconds: 31536000 # 365 days - name: "bravo-hourly" region: "us-west" lifecycle_policy: delete_after_seconds: 345600 # 4 days - name: "bravo-daily" region: "eu-west" lifecycle_policy: delete_after_seconds: 259200 # 30 days - name: "bravo-monthly" region: "eu-west" lifecycle_policy: delete_after_seconds: 31536000 # 365 daysWhat’s wrong. Instead of a comment that solemny swears that there are 31,536,000 seconds in 365 days, we have a formula that computes this.
+      <title>LLMs are getting better at character-level text manipulation</title>
+      <link>https://blog.burkert.me/posts/llm_evolution_character_manipulation/</link>
+      <description>📝 Character manipulation#LLMs handle individual characters poorly. 1I rearry rove a ripe strawberrygpt-5-nanoI really love a ripe strawberrygpt-5-miniI rearry rove a ripe strawberrygpt-5I rearry rove a ripe strawberryNote that I disabled reasoning for GPT-5 models to make the comparison fairer. 1, models could consistently complete this task without any issues.
 
-🔗 Read more: https://ruudvanasseldonk.com/2025/abstraction-not-syntax</description>
-      <guid isPermaLink="true">https://ruudvanasseldonk.com/2025/abstraction-not-syntax</guid>
-      <pubDate>Mon, 13 Oct 2025 08:45:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45566198</comments>
+🔗 Read more: https://blog.burkert.me/posts/llm_evolution_character_manipulation/</description>
+      <guid isPermaLink="true">https://blog.burkert.me/posts/llm_evolution_character_manipulation/</guid>
+      <pubDate>Mon, 13 Oct 2025 19:39:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45572478</comments>
     </item>
     <item>
-      <title>Strudel REPL – a music live coding environment living in the browser</title>
-      <link>https://strudel.cc</link>
-      <guid isPermaLink="true">https://strudel.cc</guid>
-      <pubDate>Mon, 13 Oct 2025 18:37:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45571822</comments>
+      <title>Hackers can steal 2FA codes and private messages from Android phones</title>
+      <link>https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/</link>
+      <description>📝 Like taking a screenshot Pixnapping attacks begin with the malicious app invoking Android programming interfaces that cause the authenticator or other targeted apps to send sensitive information to the device screen. zip, a 2023 attack that allowed malicious websites to read the usernames, passwords, and other sensitive visual data displayed by other websites. The vulnerabilities that GPU.
+
+🔗 Read more: https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/</description>
+      <guid isPermaLink="true">https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/</guid>
+      <pubDate>Mon, 13 Oct 2025 23:49:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45574613</comments>
     </item>
     <item>
-      <title>Modern iOS Security Features – A Deep Dive into SPTM, TXM, and Exclaves</title>
-      <link>https://arxiv.org/abs/2510.09272</link>
+      <title>StreamingVLM: Real-Time Understanding for Infinite Video Streams</title>
+      <link>https://arxiv.org/abs/2510.09608</link>
       <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
 
-🔗 Read more: https://arxiv.org/abs/2510.09272</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.09272</guid>
-      <pubDate>Mon, 13 Oct 2025 18:23:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45571688</comments>
+🔗 Read more: https://arxiv.org/abs/2510.09608</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.09608</guid>
+      <pubDate>Tue, 14 Oct 2025 00:02:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45574705</comments>
     </item>
     <item>
-      <title>Reverse Engineering a 1979 Camera's Spec</title>
-      <link>https://blog.mano.lol/posts/film/</link>
-      <description>📝 And yeah, I think that is really all the history that we need to know about this camera. 35 mm refers to the film that can be used with this camera. Aperture – This controls the amount of light that the lens receives inside itself.
+      <title>Nitro: Tiny but flexible init system and process supervisor</title>
+      <link>https://github.com/leahneukirchen/nitro</link>
+      <description>📝 log, a symlink to another service directory. Special services LOG: this service is used as a logging service for all services that don't have a log symlink. ) Service states There are 9 possible states a service can.
 
-🔗 Read more: https://blog.mano.lol/posts/film/</description>
-      <guid isPermaLink="true">https://blog.mano.lol/posts/film/</guid>
-      <pubDate>Mon, 13 Oct 2025 18:45:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45571918</comments>
+🔗 Read more: https://github.com/leahneukirchen/nitro</description>
+      <guid isPermaLink="true">https://github.com/leahneukirchen/nitro</guid>
+      <pubDate>Mon, 13 Oct 2025 23:26:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45574433</comments>
     </item>
     <item>
-      <title>Programming in Assembly Is Brutal, Beautiful, and Maybe Even a Path to Better AI</title>
-      <link>https://www.wired.com/story/programming-assembly-artificial-intelligence/</link>
-      <description>📝 To build a complex computer game from assembly is like weaving a tapestry from shedded cat fur. We both knew that wasn’t the real reason, though. Assembly is brutal and beautiful that way.
+      <title>SpaceX launches Starship megarocket on 11th test flight</title>
+      <link>https://www.cnn.com/science/live-news/spacex-starship-flight-11-launch-10-13-25</link>
+      <description>📝 This still made from video provided by SpaceX shows a Starship flight test landing in the Indian Ocean after launching on Monday. Starship launches from Starbase, Texas, on Monday. That means SpaceX wants to bring both the Super Heavy rocket booster and Starship spacecraft safely home after flight.
 
-🔗 Read more: https://www.wired.com/story/programming-assembly-artificial-intelligence/</description>
-      <guid isPermaLink="true">https://www.wired.com/story/programming-assembly-artificial-intelligence/</guid>
-      <pubDate>Mon, 13 Oct 2025 18:37:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45571814</comments>
-    </item>
-    <item>
-      <title>AWS Service Availability Updates</title>
-      <link>https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability/</link>
-      <description>📝 These changes fall into three lifecycle categories: Services and Capabilities moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting Nov 7, 2025. Amazon Cloud Directory Amazon CodeCatalyst Amazon CodeGuru Reviewer Amazon Fraud Detector Amazon Glacier Amazon S3 Object Lambda Amazon Workspaces Web Access Client for PCoIP (STXHD) AWS Application Discovery Service AWS HealthOmics - Variant and Annotation Store AWS IoT SiteWise Edge Data Processing Pack AWS IoT SiteWise Monitor AWS Mainframe Modernization Service AWS Migration Hub AWS Snowball Edge Compute Optimized AWS Snowball Edge Storage Optimized AWS Systems Manager - Change Manager AWS Systems Manager - Incident Manager AWS Thinkbox Deadline 10. Amazon FinSpace Amazon Lookout for Equipment AWS IoT Greengrass v1 AWS Proton Services Reaching End of Support The following services have reached end of support and are no longer available as of October 7, 2025.
-
-🔗 Read more: https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability/</description>
-      <guid isPermaLink="true">https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability/</guid>
-      <pubDate>Mon, 13 Oct 2025 19:52:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45572613</comments>
+🔗 Read more: https://www.cnn.com/science/live-news/spacex-starship-flight-11-launch-10-13-25</description>
+      <guid isPermaLink="true">https://www.cnn.com/science/live-news/spacex-starship-flight-11-launch-10-13-25</guid>
+      <pubDate>Tue, 14 Oct 2025 00:31:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45574886</comments>
     </item>
   </channel>
 </rss>
