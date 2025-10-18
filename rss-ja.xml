@@ -6,41 +6,68 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Oct 2025 12:35:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 15:17:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>。/時計</title>
-      <link>https://dotslashwatch.com/</link>
-      <guid isPermaLink="true">https://dotslashwatch.com/</guid>
-      <pubDate>Sat, 18 Oct 2025 09:55:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45626130</comments>
+      <title>30 年前にあった IDE ...そして失われてしまった</title>
+      <link>https://blogsystem5.substack.com/p/the-ides-we-had-30-years-ago-and</link>
+      <guid isPermaLink="true">https://blogsystem5.substack.com/p/the-ides-we-had-30-years-ago-and</guid>
+      <pubDate>Sat, 18 Oct 2025 12:44:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45626910</comments>
     </item>
     <item>
-      <title>GPU 上で 3 次ベジェ曲線までの距離を高速計算</title>
-      <link>https://blog.pkh.me/p/46-fast-calculation-of-the-distance-to-cubic-bezier-curves-on-the-gpu.html</link>
-      <description>📝 Virgil フォントのグリフ。複数のベジェ曲線で構成されています。この距離フィールドがあると、多くのレンダリングの可能性が広がります。難しいですが、それは可能です。これが実際の証拠です: 3次ベジェ曲線までの距離 この視覚化では、デバイスのリソースを借用して、単一ピクセルごとに曲線までの距離を計算しています。ランダムな点から曲線の重要なテスト点までの距離 青いフィールド内の赤い点は、空間内のランダムな点です。
-
-
-🔤 Original: Fast calculation of the distance to cubic Bezier curves on the GPU
-
-🔗 Read more: https://blog.pkh.me/p/46-fast-calculation-of-the-distance-to-cubic-bezier-curves-on-the-gpu.html</description>
-      <guid isPermaLink="true">https://blog.pkh.me/p/46-fast-calculation-of-the-distance-to-cubic-bezier-curves-on-the-gpu.html</guid>
-      <pubDate>Sat, 18 Oct 2025 09:25:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45626037</comments>
+      <title>1,180 のルート システム図面</title>
+      <link>https://images.wur.nl/digital/collection/coll13/search</link>
+      <guid isPermaLink="true">https://images.wur.nl/digital/collection/coll13/search</guid>
+      <pubDate>Sat, 18 Oct 2025 13:52:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45627394</comments>
     </item>
     <item>
-      <title>私がスマホを捨てた経緯</title>
-      <link>https://discuss.techlore.tech/t/how-i-ditched-smartphones/15315</link>
-      <description>📝 将来的には、アプリケーションを操作しやすいように、完全に Linux で動作する携帯電話を購入する予定です。新しい IMEI には古い IMSI が適用されるため、同じ SIM カードで IMEI を変更しても無駄です。この構成には多くの注意事項があることは理解していますが、これは徹底的なプライバシーの世界への旅の始まりにすぎません。
+      <title>避けるべきSQLアンチパターン</title>
+      <link>https://datamethods.substack.com/p/sql-anti-patterns-you-should-avoid</link>
+      <guid isPermaLink="true">https://datamethods.substack.com/p/sql-anti-patterns-you-should-avoid</guid>
+      <pubDate>Sat, 18 Oct 2025 12:56:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45626985</comments>
+    </item>
+    <item>
+      <title>リップグレップ 15.0.0</title>
+      <link>https://github.com/BurntSushi/ripgrep/releases/tag/15.0.0</link>
+      <description>📝 このページをリロードしてください。このページをリロードしてください。機能 #1872: -r/--replace が --json で機能するようにします。
 
 
-🔤 Original: How I ditched smartphones
+🔤 Original: Ripgrep 15.0.0
 
-🔗 Read more: https://discuss.techlore.tech/t/how-i-ditched-smartphones/15315</description>
-      <guid isPermaLink="true">https://discuss.techlore.tech/t/how-i-ditched-smartphones/15315</guid>
-      <pubDate>Sat, 18 Oct 2025 04:55:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45625018</comments>
+🔗 Read more: https://github.com/BurntSushi/ripgrep/releases/tag/15.0.0</description>
+      <guid isPermaLink="true">https://github.com/BurntSushi/ripgrep/releases/tag/15.0.0</guid>
+      <pubDate>Sat, 18 Oct 2025 13:44:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45627324</comments>
+    </item>
+    <item>
+      <title>Lux: Lua 用の豪華なパッケージ マネージャー</title>
+      <link>https://github.com/lumen-oss/lux</link>
+      <description>📝 完全な互換性 既存の luarocks パッケージと連携します。事前に構築されたバイナリ リリース アーティファクトは、lux-lua にバンドルされています。補完をビルドするには: Cargo xtask dist-completions マニュアル ページをビルドするには: Cargo xtask dist-man プラットフォーム用のバイナリ ディストリビューションをビルドするには、comple にバンドルされています。
+
+
+🔤 Original: Lux: A luxurious package manager for Lua
+
+🔗 Read more: https://github.com/lumen-oss/lux</description>
+      <guid isPermaLink="true">https://github.com/lumen-oss/lux</guid>
+      <pubDate>Sat, 18 Oct 2025 12:53:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45626961</comments>
+    </item>
+    <item>
+      <title>O_DIRECT を使用すると、MD RAID または DRBD がユーザー空間から破壊される可能性がある</title>
+      <link>https://bugzilla.kernel.org/show_bug.cgi?id=99171</link>
+      <description>📝 Anubis では最新の JavaScript 機能を使用する必要があるため、JShelter などのプラグインでは無効になることに注意してください。このドメインの JShelter またはその他の同様のプラグインを無効にしてください。この Web サイトは Anubis バージョン 1 を実行しています。
+
+
+🔤 Original: MD RAID or DRBD can be broken from userspace when using O_DIRECT
+
+🔗 Read more: https://bugzilla.kernel.org/show_bug.cgi?id=99171</description>
+      <guid isPermaLink="true">https://bugzilla.kernel.org/show_bug.cgi?id=99171</guid>
+      <pubDate>Sat, 18 Oct 2025 11:39:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45626549</comments>
     </item>
   </channel>
 </rss>
