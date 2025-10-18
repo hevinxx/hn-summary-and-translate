@@ -6,109 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Oct 2025 01:19:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 03:29:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>リングカメラは法執行機関とますます仲良くなりつつある</title>
-      <link>https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</link>
-      <description>📝 フロック社は、地元の法執行機関のユーザーが「今後数か月以内にリングコミュニティリクエストにアクセスできるようになる。フロックを通じたリングコミュニティリクエストのプロセスは、特定の積極的な捜査のために地元の公安機関のみが利用できる。しかし、連邦機関が最終的にフロックを通じてリングの映像にアクセスすることになるのではないかという懸念は依然としてある」と述べた。
+      <title>HN を表示: ServiceRadar – オープンソースのネットワーク監視プラットフォーム</title>
+      <link>https://github.com/carverauto/serviceradar</link>
+      <description>📝 yml # カスタム構成 docker-compose -f docker-compose を使用してデプロイします。 yml -f docker-compose。 Cloud ドキュメントのトピックには以下が含まれます。 詳細なインストール手順 構成ガイド セキュリティ セットアップ (mTLS) SNMP ポーリング構成 ネットワーク スキャン 夕暮れノードの監視 その他。
 
 
-🔤 Original: Ring cameras are about to get increasingly chummy with law enforcement
+🔤 Original: Show HN: ServiceRadar – open-source Network Observability Platform
 
-🔗 Read more: https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</guid>
-      <pubDate>Sat, 18 Oct 2025 00:23:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623679</comments>
+🔗 Read more: https://github.com/carverauto/serviceradar</description>
+      <guid isPermaLink="true">https://github.com/carverauto/serviceradar</guid>
+      <pubDate>Sat, 18 Oct 2025 01:49:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45624186</comments>
     </item>
     <item>
-      <title>Smalltalk メソッドとしての Unix 実行可能ファイル (および Unix と Smalltalk の統合) [pdf]</title>
-      <link>https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</link>
-      <description>📝 /\� Z溮�E�\�`��v%��ZVN̞o%��)���sy� j�D=。 ׶��T#����^�� ۀ:������b^xm j;��S��}X麽�ʾ��9�1。 5 ] /フィルター /FlateDecode /フォームタイプ 1 /グループ 500 0 R /PTEX。
-
-
-🔤 Original: The Unix Executable as a Smalltalk Method (and Unix-Smalltalk Unification) [pdf]
-
-🔗 Read more: https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</description>
-      <guid isPermaLink="true">https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</guid>
-      <pubDate>Sat, 18 Oct 2025 01:03:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623917</comments>
-    </item>
-    <item>
-      <title>WebMCP</title>
-      <link>https://github.com/jasonjmcghee/WebMCP</link>
-      <description>📝 Web サイトは、リクエストを行うための独自のセッション トークンを受け取ります。 MCP クライアントは、サーバー トークンを使用して /mcp パスに接続します。ツールを呼び出して)、同じパスを介して結果を送り返す 複数の Web ページに、それぞれ独自のツールとトークンのセットを使用して同時に接続できます。 MCP クライアントは、すべてのツールを統合リストとして認識し、名前の衝突を避けるためのチャネル プレフィックスを付けます。 sequenceDiagram 参加者 ユーザー参加者 MCP としての MCP クライアント参加者 サーバーとして MCP サーバー参加者 WS として WebSocket サーバー参加者 Web として Web サイト %% 初期接続 MCP-&gt;&gt;サーバー: 内部サーバー トークンを使用して /mcp に接続します %% Web サイト登録トークン User-&gt;&gt;MCP: 登録トークンの要求 MCP-&gt;&gt;Server: 登録トークンの要求 Server--&gt;&gt;MCP: 登録トークンの返却 MCP--&gt;&gt;User: 登録トークンの表示 %% Web サイト登録 User-&gt;&gt;Web: 登録トークンの貼り付け Web-&gt;&gt;WS: トークンとドメインで /register に接続 (登録トークンは削除) WS--&gt;&gt;Web: チャネルとセッション トークンの割り当て Web-&gt;&gt;WS: 割り当てられたチャネルに接続します。 %% ツール インタラクション MCP-&gt;&gt;サーバー: ツール リストの要求 サーバー-&gt;&gt;WS: 要求の転送 WS-&gt;&gt;Web: ツールの要求 Web--&gt;&gt;WS: ツール リストの返信 WS-&gt;&gt;サーバー: ツール リストの転送 サーバー--&gt;&gt;MCP: ツール リストの返信 %% ツール実行 MCP-&gt;&gt;サーバー: ツール リクエスト サーバー-&gt;&gt;WS: リクエストの転送 WS-&gt;&gt;Web: ツールの実行 Web--&gt;&gt;WS: 結果を返す WS--&gt;&gt;サーバー: 結果を転送 サーバー--&gt;&gt;MCP: 結果を返す %% 切断 ユーザー-&gt;&gt;Web: 切断 Web-&gt;&gt;WS: 接続を閉じる セキュリティの読み込み中 これは超初期のプロジェクトです。
-
-🔗 Read more: https://github.com/jasonjmcghee/WebMCP</description>
-      <guid isPermaLink="true">https://github.com/jasonjmcghee/WebMCP</guid>
-      <pubDate>Fri, 17 Oct 2025 21:57:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622604</comments>
-    </item>
-    <item>
-      <title>雰囲気でコード化されたすべての Web サイトは、同じページに異なる単語が含まれています。それで私はそれを作りました</title>
-      <link>https://vibe-coded.lol/</link>
-      <description>📝 実際に自分でコーディングを学びたい。ブラウザを開いて、Claude または ChatGPT に「Web サイトを作成してください」と入力するだけで準備完了です。 AI でコーディングされたすべてのサイトが同じに見えることには誰も気づかないでしょう。
-
-
-🔤 Original: Every vibe-coded website is the same page with different words. So I made that
-
-🔗 Read more: https://vibe-coded.lol/</description>
-      <guid isPermaLink="true">https://vibe-coded.lol/</guid>
-      <pubDate>Fri, 17 Oct 2025 22:36:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622944</comments>
-    </item>
-    <item>
-      <title>日曜日に昇進、月曜日に解雇: NASA オフィスの突然の閉鎖の内部</title>
-      <link>https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</link>
-      <description>📝 それは、主任研究員室全体が閉鎖され、彼らの仕事がすべてなくなると告げられたときの彼らの反応を彼が見ていたということだ。デビッド・ドレイパー バージニア州アーリントンで開催された宇宙生成会議に出席したデビッド・ドレイパー。ワシントンD.のNASA本部前でNASAマムタ・パテル・ナガラジャから解雇。
-
-
-🔤 Original: Promoted on Sunday, Fired on Monday: Inside a NASA Office's Sudden Closure
-
-🔗 Read more: https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</description>
-      <guid isPermaLink="true">https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</guid>
-      <pubDate>Fri, 17 Oct 2025 22:34:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622923</comments>
-    </item>
-    <item>
-      <title>ゲイリー・ラーソンの新作</title>
-      <link>https://www.thefarside.com/new-stuff</link>
-      <description>📝 「（その話には触れないでください。繰り返しますが、私はただ探検し、実験し、試しているだけだということを覚えておいてください。帰る前に最後に一つだけ言いたいことがあります。ありがとう、詰まったペン。」
-
-
-🔤 Original: New Work by Gary Larson
-
-🔗 Read more: https://www.thefarside.com/new-stuff</description>
-      <guid isPermaLink="true">https://www.thefarside.com/new-stuff</guid>
-      <pubDate>Fri, 17 Oct 2025 21:34:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622365</comments>
-    </item>
-    <item>
-      <title>ジープ ラングラーのオーナー、アップデートで車が壊れてから一週間答えを待っている</title>
-      <link>https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</link>
-      <description>📝 この 4xeforums によると、このドライブはソフトウェアを以前のバージョンに戻すはずです。4xe をお持ちでない方はいらっしゃいますか。
-
-
-🔤 Original: Jeep Wrangler Owners Waiting for Answers Week After an Update Bricked Their Cars
-
-🔗 Read more: https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</description>
-      <guid isPermaLink="true">https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</guid>
-      <pubDate>Fri, 17 Oct 2025 23:58:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623526</comments>
-    </item>
-    <item>
-      <title>ネクストコンピュータオフィス</title>
-      <link>https://archive.org/details/NeXTComputerOffices</link>
-      <description>📝 NeXT Computer Offices アイテム プレビュー Local_1。 jpg NeXT コンピュータ オフィス - 900 チェサピーク ドクター jpg NeXT コンピュータ オフィス - 900 チェサピーク ドクター
-
-
-🔤 Original: NeXT Computer Offices
-
-🔗 Read more: https://archive.org/details/NeXTComputerOffices</description>
-      <guid isPermaLink="true">https://archive.org/details/NeXTComputerOffices</guid>
-      <pubDate>Sat, 18 Oct 2025 00:15:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623630</comments>
+      <title>ウィキペディアのボランティアが会議でガンマンを倒し悲劇を回避</title>
+      <link>https://www.nytimes.com/2025/10/17/nyregion/wikipedia-conference-gunman.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/17/nyregion/wikipedia-conference-gunman.html</guid>
+      <pubDate>Sat, 18 Oct 2025 00:58:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45623883</comments>
     </item>
   </channel>
 </rss>

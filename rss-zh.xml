@@ -6,112 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Oct 2025 01:19:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 03:29:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>环形摄像机将与执法部门越来越密切</title>
-      <link>https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</link>
-      <description>📝 Flock 表示，当地执法用户将在“未来几个月内获得 Ring 社区请求”的访问权限。通过 Flock 进行的 Ring 社区请求流程仅适用于当地公共安全机构进行具体的主动调查。但仍然有人担心联邦机构最终将通过 Flock 访问 Ring 录像。
+      <title>Show HN：ServiceRadar – 开源网络观测平台</title>
+      <link>https://github.com/carverauto/serviceradar</link>
+      <description>📝 yml # 使用自定义配置进行部署 docker-compose -f docker-compose.yml yml -f docker-compose.yml云 文档主题包括： 详细安装说明 配置指南 安全设置 (mTLS) SNMP 轮询配置 网络扫描 Dusk 节点监控 等等。
 
 
-🔤 Original: Ring cameras are about to get increasingly chummy with law enforcement
+🔤 Original: Show HN: ServiceRadar – open-source Network Observability Platform
 
-🔗 Read more: https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</guid>
-      <pubDate>Sat, 18 Oct 2025 00:23:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623679</comments>
+🔗 Read more: https://github.com/carverauto/serviceradar</description>
+      <guid isPermaLink="true">https://github.com/carverauto/serviceradar</guid>
+      <pubDate>Sat, 18 Oct 2025 01:49:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45624186</comments>
     </item>
     <item>
-      <title>作为 Smalltalk 方法的 Unix 可执行文件（以及 Unix-Smalltalk 统一）[pdf]</title>
-      <link>https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</link>
-      <description>📝 /\� Z溮�E�\�`��v%��ZVN̞o%��)����sy� j�D=. �T#���^�� �:���b^xm j;�S��}X��ʾ��9�1. 5] /Filter /FlateDecode /FormType 1 /Group 500 0 R /PTEX。
-
-
-🔤 Original: The Unix Executable as a Smalltalk Method (and Unix-Smalltalk Unification) [pdf]
-
-🔗 Read more: https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</description>
-      <guid isPermaLink="true">https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</guid>
-      <pubDate>Sat, 18 Oct 2025 01:03:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623917</comments>
-    </item>
-    <item>
-      <title>网络MCP</title>
-      <link>https://github.com/jasonjmcghee/WebMCP</link>
-      <description>📝 该网站将收到自己的会话令牌来发出请求。 MCP 客户端使用服务器令牌连接到 /mcp 路径。调用工具）并通过同一路径发送回结果 可以同时连接多个网页，每个网页都有自己的一组工具和令牌 MCP 客户端将所有工具视为统一列表，并带有通道前缀以避免名称冲突equenceDiagram 参与者 用户参与者 MCP 作为 MCP 客户端参与者 服务器作为 MCP 服务器参与者 WS 作为 WebSocket 服务器参与者 Web 作为网站 %% 初始连接 MCP-&gt;&gt;Server：使用内部服务器连接到 /mcp token %% 网站注册令牌 用户-&gt;&gt;MCP：请求注册令牌 MCP-&gt;&gt;服务器：请求注册令牌 服务器--&gt;&gt;MCP：返回注册令牌 MCP--&gt;&gt;用户：显示注册令牌 %% 网站注册 用户-&gt;&gt;Web：粘贴注册令牌 Web-&gt;&gt;WS：使用令牌和域连接/注册（注册令牌已删除） WS--&gt;&gt;Web：分配通道和会话令牌 Web-&gt;&gt;WS：连接到分配的通道 %% 工具交互 MCP-&gt;&gt;服务器：请求工具列表 服务器-&gt;&gt;WS：转发请求 WS-&gt;&gt;Web：请求工具 Web--&gt;&gt;WS：返回工具列表 WS--&gt;&gt;服务器：转发工具列表 服务器--&gt;&gt;MCP：返回工具列表 %% 工具执行 MCP-&gt;&gt;服务器：工具请求 服务器-&gt;&gt;WS：转发请求 WS-&gt;&gt;Web：执行工具 Web--&gt;&gt;WS：返回结果 WS--&gt;&gt;服务器：转发结果 服务器--&gt;&gt;MCP：返回结果 %% 断开连接 用户-&gt;&gt;Web：断开连接 Web-&gt;&gt;WS：关闭连接 Loading Security 这是一个超级早期的项目。
-
-
-🔤 Original: WebMCP
-
-🔗 Read more: https://github.com/jasonjmcghee/WebMCP</description>
-      <guid isPermaLink="true">https://github.com/jasonjmcghee/WebMCP</guid>
-      <pubDate>Fri, 17 Oct 2025 21:57:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622604</comments>
-    </item>
-    <item>
-      <title>每个振动编码的网站都是相同的页面，但有不同的文字。所以我做了那个</title>
-      <link>https://vibe-coded.lol/</link>
-      <description>📝 想真正学习自己编码。只需打开浏览器并在 Claude 或 ChatGPT 中输入“make me a website”即可。没有人会注意到每个人工智能编码的网站看起来都是一样的。
-
-
-🔤 Original: Every vibe-coded website is the same page with different words. So I made that
-
-🔗 Read more: https://vibe-coded.lol/</description>
-      <guid isPermaLink="true">https://vibe-coded.lol/</guid>
-      <pubDate>Fri, 17 Oct 2025 22:36:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622944</comments>
-    </item>
-    <item>
-      <title>周日晋升，周一解雇：NASA 办公室突然关闭的内部</title>
-      <link>https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</link>
-      <description>📝 这意味着当他们被告知整个首席科学家办公室将被关闭、所有工作岗位被取消时，他看到了他们的反应。大卫·德雷珀 (David Draper) 大卫·德雷珀 (David Draper) 在弗吉尼亚州阿灵顿举行的太空一代大会上。从位于华盛顿特区的 NASA 总部外的 NASA Mamta Patel Nagaraja 发射。
-
-
-🔤 Original: Promoted on Sunday, Fired on Monday: Inside a NASA Office's Sudden Closure
-
-🔗 Read more: https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</description>
-      <guid isPermaLink="true">https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</guid>
-      <pubDate>Fri, 17 Oct 2025 22:34:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622923</comments>
-    </item>
-    <item>
-      <title>加里·拉尔森的新作</title>
-      <link>https://www.thefarside.com/new-stuff</link>
-      <description>📝 （我们不谈这个了。再次请记住，我只是在探索、实验和尝试。在我离开之前我只有最后一件事要说：谢谢你，堵塞的笔。
-
-
-🔤 Original: New Work by Gary Larson
-
-🔗 Read more: https://www.thefarside.com/new-stuff</description>
-      <guid isPermaLink="true">https://www.thefarside.com/new-stuff</guid>
-      <pubDate>Fri, 17 Oct 2025 21:34:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622365</comments>
-    </item>
-    <item>
-      <title>吉普牧马人车主在更新后一周等待答案，他们的车被堵住了</title>
-      <link>https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</link>
-      <description>📝 ” 该驱动器根据此 4xeforums。这应该将软件恢复到以前的版本。您是否没有 4xe.
-
-
-🔤 Original: Jeep Wrangler Owners Waiting for Answers Week After an Update Bricked Their Cars
-
-🔗 Read more: https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</description>
-      <guid isPermaLink="true">https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</guid>
-      <pubDate>Fri, 17 Oct 2025 23:58:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623526</comments>
-    </item>
-    <item>
-      <title>NeXT 计算机办公室</title>
-      <link>https://archive.org/details/NeXTComputerOffices</link>
-      <description>📝 NeXT 计算机办公室项目预览 Local_1。 jpg NeXT 计算机办公室 - 切萨皮克博士 900 号 jpg NeXT 计算机办公室 - 切萨皮克博士 900 号
-
-
-🔤 Original: NeXT Computer Offices
-
-🔗 Read more: https://archive.org/details/NeXTComputerOffices</description>
-      <guid isPermaLink="true">https://archive.org/details/NeXTComputerOffices</guid>
-      <pubDate>Sat, 18 Oct 2025 00:15:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623630</comments>
+      <title>维基百科志愿者在会议上击毙枪手避免悲剧</title>
+      <link>https://www.nytimes.com/2025/10/17/nyregion/wikipedia-conference-gunman.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/17/nyregion/wikipedia-conference-gunman.html</guid>
+      <pubDate>Sat, 18 Oct 2025 00:58:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45623883</comments>
     </item>
   </channel>
 </rss>

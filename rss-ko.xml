@@ -6,109 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 18 Oct 2025 01:19:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 03:29:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>링 카메라는 법 집행 기관과 점점 친해지게 될 것입니다.</title>
-      <link>https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</link>
-      <description>📝 Flock은 현지 법 집행 기관 사용자가 "앞으로 몇 달 안에 Ring Community Requests에 액세스할 수 있게 될 것입니다. Flock을 통한 Ring Community Requests 프로세스는 구체적이고 적극적인 조사를 위해 지역 공공 안전 기관에서만 사용할 수 있습니다. 그러나 연방 기관이 결국 Flock을 통해 Ring 영상에 액세스하게 될 것이라는 우려는 여전히 있습니다.
+      <title>HN 표시: ServiceRadar – 오픈 소스 네트워크 관찰 플랫폼</title>
+      <link>https://github.com/carverauto/serviceradar</link>
+      <description>📝 yml # 사용자 정의 구성 docker-compose -f docker-compose를 사용하여 배포합니다. yml -f 도커 작성. 클라우드 문서 주제는 다음과 같습니다. 자세한 설치 지침 구성 가이드 보안 설정(mTLS) SNMP 폴링 구성 네트워크 스캐닝 Dusk 노드 모니터링 기타.
 
 
-🔤 Original: Ring cameras are about to get increasingly chummy with law enforcement
+🔤 Original: Show HN: ServiceRadar – open-source Network Observability Platform
 
-🔗 Read more: https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</guid>
-      <pubDate>Sat, 18 Oct 2025 00:23:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623679</comments>
+🔗 Read more: https://github.com/carverauto/serviceradar</description>
+      <guid isPermaLink="true">https://github.com/carverauto/serviceradar</guid>
+      <pubDate>Sat, 18 Oct 2025 01:49:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45624186</comments>
     </item>
     <item>
-      <title>스몰토크 방법으로서의 Unix 실행 파일(및 Unix-Smalltalk 통합) [pdf]</title>
-      <link>https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</link>
-      <description>📝 /\� Z溮�E�\�`��v%��ZVN̞o%��)����sy� j�D=. ׶��T#����^�� ԃ���b^xm j;�S��}X麽�ʾ��9�1. 5 ] /필터 /FlateDecode /FormType 1 /그룹 500 0 R /PTEX.
-
-
-🔤 Original: The Unix Executable as a Smalltalk Method (and Unix-Smalltalk Unification) [pdf]
-
-🔗 Read more: https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</description>
-      <guid isPermaLink="true">https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</guid>
-      <pubDate>Sat, 18 Oct 2025 01:03:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623917</comments>
-    </item>
-    <item>
-      <title>WebMCP</title>
-      <link>https://github.com/jasonjmcghee/WebMCP</link>
-      <description>📝 웹사이트는 요청을 위해 자체 세션 토큰을 받습니다. MCP 클라이언트는 서버 토큰을 사용하여 /mcp 경로에 연결합니다. 호출 도구) 및 동일한 경로를 통해 결과를 다시 보냅니다. 여러 웹 페이지는 각각 고유한 도구 및 토큰 세트를 사용하여 동시에 연결될 수 있습니다. MCP 클라이언트는 모든 도구를 이름 충돌을 피하기 위해 채널 접두사가 있는 통합 목록으로 봅니다. %% 웹사이트 등록 토큰 사용자-&gt;&gt;MCP: 등록 토큰 요청 MCP-&gt;&gt;서버: 등록 토큰 요청 서버--&gt;&gt;MCP: 등록 토큰 반환 MCP--&gt;&gt;사용자: 등록 토큰 표시 %% 웹사이트 등록 사용자-&gt;&gt;웹: 등록 토큰 붙여넣기 웹-&gt;&gt;WS: 토큰 및 도메인으로 연결/등록(등록 토큰 삭제됨) WS--&gt;&gt;Web: 채널 및 세션 토큰 할당 Web-&gt;&gt;WS: 할당된 채널에 연결 %% 도구 상호 작용 MCP-&gt;&gt;Server: 도구 목록 요청 Server-&gt;&gt;WS: 요청 전달 WS-&gt;&gt;Web: 도구 요청 Web--&gt;&gt;WS: 도구 목록 반환 WS--&gt;&gt;Server: 전달 도구 목록 Server--&gt;&gt;MCP: 도구 목록 반환 %% 도구 실행 MCP-&gt;&gt;Server: 도구 요청 서버-&gt;&gt;WS: 요청 전달 WS-&gt;&gt;Web: 도구 실행 Web--&gt;&gt;WS: 결과 반환 WS--&gt;&gt;Server: 결과 전달 Server--&gt;&gt;MCP: 결과 반환 %% Disconnection User-&gt;&gt;Web: Disconnect Web-&gt;&gt;WS: 연결 닫기 Loading Security 이것은 매우 초기 프로젝트입니다.
-
-🔗 Read more: https://github.com/jasonjmcghee/WebMCP</description>
-      <guid isPermaLink="true">https://github.com/jasonjmcghee/WebMCP</guid>
-      <pubDate>Fri, 17 Oct 2025 21:57:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622604</comments>
-    </item>
-    <item>
-      <title>모든 바이브 코딩된 웹사이트는 다른 단어로 구성된 동일한 페이지입니다. 그래서 내가 만들었지</title>
-      <link>https://vibe-coded.lol/</link>
-      <description>📝 실제로 코딩을 직접 배우고 싶습니다. 브라우저를 열고 Claude 또는 ChatGPT에 "make me a website"를 입력하기만 하면 됩니다. AI로 코딩된 모든 사이트가 동일하게 보인다는 사실은 누구도 눈치 채지 못할 것입니다.
-
-
-🔤 Original: Every vibe-coded website is the same page with different words. So I made that
-
-🔗 Read more: https://vibe-coded.lol/</description>
-      <guid isPermaLink="true">https://vibe-coded.lol/</guid>
-      <pubDate>Fri, 17 Oct 2025 22:36:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622944</comments>
-    </item>
-    <item>
-      <title>일요일에 승진하고 월요일에 해고됨: NASA 사무실의 갑작스런 폐쇄 내부</title>
-      <link>https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</link>
-      <description>📝 이는 수석 과학자 사무실 전체가 폐쇄되고 모든 일자리가 사라진다는 말을 들었을 때 그들의 반응을 보았다는 것을 의미합니다. David Draper 버지니아 주 알링턴에서 열린 우주 세대 의회의 David Draper. 워싱턴 D에 있는 NASA 본부 밖의 NASA Mamta Patel Nagaraja에서 해고되었습니다.
-
-
-🔤 Original: Promoted on Sunday, Fired on Monday: Inside a NASA Office's Sudden Closure
-
-🔗 Read more: https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</description>
-      <guid isPermaLink="true">https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</guid>
-      <pubDate>Fri, 17 Oct 2025 22:34:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622923</comments>
-    </item>
-    <item>
-      <title>게리 라슨(Gary Larson)의 새 작품</title>
-      <link>https://www.thefarside.com/new-stuff</link>
-      <description>📝 ” (그 이야기는 하지 마세요. 저는 단지 탐구하고, 실험하고, 시도하는 중이라는 점을 다시 한 번 기억해 주십시오. 떠나기 전에 마지막으로 드릴 말씀이 하나 있습니다. 막힌 펜 감사합니다.
-
-
-🔤 Original: New Work by Gary Larson
-
-🔗 Read more: https://www.thefarside.com/new-stuff</description>
-      <guid isPermaLink="true">https://www.thefarside.com/new-stuff</guid>
-      <pubDate>Fri, 17 Oct 2025 21:34:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45622365</comments>
-    </item>
-    <item>
-      <title>업데이트 후 몇 주 동안 답변을 기다리는 지프 랭글러 소유자가 차량을 망가뜨렸습니다.</title>
-      <link>https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</link>
-      <description>📝 " 이 4xeforums에 따른 드라이브. 소프트웨어를 이전 버전으로 되돌려야 합니다. 4xe가 없습니까?
-
-
-🔤 Original: Jeep Wrangler Owners Waiting for Answers Week After an Update Bricked Their Cars
-
-🔗 Read more: https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</description>
-      <guid isPermaLink="true">https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</guid>
-      <pubDate>Fri, 17 Oct 2025 23:58:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623526</comments>
-    </item>
-    <item>
-      <title>NeXT 컴퓨터 사무실</title>
-      <link>https://archive.org/details/NeXTComputerOffices</link>
-      <description>📝 NeXT 컴퓨터 사무실 항목 미리보기 Local_1. jpg NeXT 컴퓨터 사무실 - 900 Chesapeake Dr. jpg NeXT 컴퓨터 사무실 - 900 Chesapeake Dr.
-
-
-🔤 Original: NeXT Computer Offices
-
-🔗 Read more: https://archive.org/details/NeXTComputerOffices</description>
-      <guid isPermaLink="true">https://archive.org/details/NeXTComputerOffices</guid>
-      <pubDate>Sat, 18 Oct 2025 00:15:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45623630</comments>
+      <title>Wikipedia 자원봉사자들이 회의에서 총잡이를 쓰러뜨려 비극을 막았습니다</title>
+      <link>https://www.nytimes.com/2025/10/17/nyregion/wikipedia-conference-gunman.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/17/nyregion/wikipedia-conference-gunman.html</guid>
+      <pubDate>Sat, 18 Oct 2025 00:58:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45623883</comments>
     </item>
   </channel>
 </rss>
