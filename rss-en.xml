@@ -6,72 +6,88 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Oct 2025 21:18:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 01:19:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Asking AI to build scrapers should be easy right?</title>
-      <link>https://www.skyvern.com/blog/asking-ai-to-build-scrapers-should-be-easy-right/</link>
-      <description>📝 When does this matter. But that abstraction doesn’t exist for an agent. We don’t want to hard code every single edge case when compiling an agent into a deterministic script.
+      <title>Ring cameras are about to get increasingly chummy with law enforcement</title>
+      <link>https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</link>
+      <description>📝 Flock said its local law enforcement users will gain access to Ring Community Requests in “the coming months. The Ring Community Requests process through Flock is only available for local public safety agencies for specific, active investigations. But there’s still concern that federal agencies will end up accessing Ring footage through Flock.
 
-🔗 Read more: https://www.skyvern.com/blog/asking-ai-to-build-scrapers-should-be-easy-right/</description>
-      <guid isPermaLink="true">https://www.skyvern.com/blog/asking-ai-to-build-scrapers-should-be-easy-right/</guid>
-      <pubDate>Fri, 17 Oct 2025 19:03:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45620653</comments>
+🔗 Read more: https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</description>
+      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/ring-cameras-are-about-to-get-increasingly-chummy-with-law-enforcement/</guid>
+      <pubDate>Sat, 18 Oct 2025 00:23:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45623679</comments>
     </item>
     <item>
-      <title>Making Every Windows 11 PC an AI PC</title>
-      <link>https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/</link>
-      <description>📝 1 The magic unlock with Copilot Voice and Copilot Vision is the ease of interaction. You’ll see the Copilot microphone appear on your screen, along with a chime to indicate that Copilot is listening. Copilot Vision on Windows is now available worldwide We’re also making Copilot Vision on Windows available in all markets where Copilot is offered.
+      <title>The Unix Executable as a Smalltalk Method (and Unix-Smalltalk Unification) [pdf]</title>
+      <link>https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</link>
+      <description>📝 /\�Z溮�E�\�`��v%��ZVN̞o%��)����sy�j�D=. ׶��T#���^��ۀ:ԃ���b^xmj;�S��}X麽�ʾ��9�1. 5 ] /Filter /FlateDecode /FormType 1 /Group 500 0 R /PTEX.
 
-🔗 Read more: https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/</description>
-      <guid isPermaLink="true">https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/</guid>
-      <pubDate>Fri, 17 Oct 2025 19:51:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45621246</comments>
+🔗 Read more: https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</description>
+      <guid isPermaLink="true">https://programmingmadecomplicated.wordpress.com/wp-content/uploads/2025/10/onward25-jakubovic.pdf</guid>
+      <pubDate>Sat, 18 Oct 2025 01:03:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45623917</comments>
     </item>
     <item>
-      <title>GOG Has Had to Hire Private Investigators to Track Down IP Rights Holders</title>
-      <link>https://www.thegamer.com/gog-private-investigators-off-the-grid-ip-rights-holders/</link>
-      <description>📝 Pacyznski suggests that triple-A developers remove DRM from games after a few years to make life easier for future game preservationists. Of course, this will never happen because executives don't care about preserving games. Your Rating close 10 stars 9 stars 8 stars 7 stars 6 stars 5 stars 4 stars 3 stars 2 stars 1 star Rate Now 0/10 Your comment has not been saved Like Heroes of Might and Magic III: The Restoration of Erathia Turn-Based Strategy Systems 10/10 Released March 3, 1999 Developer(s) New World Computing Publisher(s) The 3DO Company Powered by Expand Collapse Close.
+      <title>WebMCP</title>
+      <link>https://github.com/jasonjmcghee/WebMCP</link>
+      <description>📝 The website will receive its own session token for making requests. The MCP client connects to the /mcp path using the server token from. call tool) and sends the result back through the same path Multiple web pages can be connected simultaneously, each with their own set of tools and tokens The MCP client sees all tools as a unified list, with channel prefixes to avoid name collisions sequenceDiagram participant User participant MCP as MCP Client participant Server as MCP Server participant WS as WebSocket Server participant Web as Website %% Initial connection MCP-&gt;&gt;Server: Connect to /mcp with internal server token %% Website registration token User-&gt;&gt;MCP: Request registration token MCP-&gt;&gt;Server: Request registration token Server--&gt;&gt;MCP: Return registration token MCP--&gt;&gt;User: Display registration token %% Website registration User-&gt;&gt;Web: Paste registration token Web-&gt;&gt;WS: Connect to /register with token &amp; domain (registration token deleted) WS--&gt;&gt;Web: Assign channel &amp; session token Web-&gt;&gt;WS: Connect to assigned channel %% Tool interaction MCP-&gt;&gt;Server: Request tools list Server-&gt;&gt;WS: Forward request WS-&gt;&gt;Web: Request tools Web--&gt;&gt;WS: Return tools list WS--&gt;&gt;Server: Forward tools list Server--&gt;&gt;MCP: Return tools list %% Tool execution MCP-&gt;&gt;Server: Tool request Server-&gt;&gt;WS: Forward request WS-&gt;&gt;Web: Execute tool Web--&gt;&gt;WS: Return result WS--&gt;&gt;Server: Forward result Server--&gt;&gt;MCP: Return result %% Disconnection User-&gt;&gt;Web: Disconnect Web-&gt;&gt;WS: Close connection Loading Security This is a super early project.
 
-🔗 Read more: https://www.thegamer.com/gog-private-investigators-off-the-grid-ip-rights-holders/</description>
-      <guid isPermaLink="true">https://www.thegamer.com/gog-private-investigators-off-the-grid-ip-rights-holders/</guid>
-      <pubDate>Fri, 17 Oct 2025 18:44:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45620394</comments>
+🔗 Read more: https://github.com/jasonjmcghee/WebMCP</description>
+      <guid isPermaLink="true">https://github.com/jasonjmcghee/WebMCP</guid>
+      <pubDate>Fri, 17 Oct 2025 21:57:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45622604</comments>
     </item>
     <item>
-      <title>The Pivot</title>
-      <link>https://www.antipope.org/charlie/blog-static/2025/10/the-pivot-1.html</link>
-      <guid isPermaLink="true">https://www.antipope.org/charlie/blog-static/2025/10/the-pivot-1.html</guid>
-      <pubDate>Fri, 17 Oct 2025 19:37:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45621074</comments>
-    </item>
-    <item>
-      <title>Show HN: We packaged an MCP server inside Chromium</title>
-      <link>https://github.com/browseros-ai/BrowserOS/blob/main/docs/browseros-mcp/how-to-guide.mdx</link>
-      <guid isPermaLink="true">https://github.com/browseros-ai/BrowserOS/blob/main/docs/browseros-mcp/how-to-guide.mdx</guid>
-      <pubDate>Fri, 17 Oct 2025 16:22:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45618536</comments>
-    </item>
-    <item>
-      <title>Forgejo v13.0 Is Available</title>
-      <link>https://forgejo.org/2025-10-release-v13-0/</link>
-      <description>📝 Migration from Pagure Repositories from Pagure can be migrated to Forgejo. Logger mode settings LOGGER_&lt;NAME&gt;_MODE The logger settings were renamed from logger. org/forgejo/forgejo:13 Configuration files using logger.
+      <title>Every vibe-coded website is the same page with different words. So I made that</title>
+      <link>https://vibe-coded.lol/</link>
+      <description>📝 Want to actually learn to code yourself. Just open up your browser and type "make me a website" into Claude or ChatGPT, and you're on your way. No one will notice that every AI-coded site looks identical.
 
-🔗 Read more: https://forgejo.org/2025-10-release-v13-0/</description>
-      <guid isPermaLink="true">https://forgejo.org/2025-10-release-v13-0/</guid>
-      <pubDate>Fri, 17 Oct 2025 18:39:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45620333</comments>
+🔗 Read more: https://vibe-coded.lol/</description>
+      <guid isPermaLink="true">https://vibe-coded.lol/</guid>
+      <pubDate>Fri, 17 Oct 2025 22:36:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45622944</comments>
     </item>
     <item>
-      <title>Republicans use deepfake video of Chuck Schumer in new attack ad</title>
-      <link>https://www.theguardian.com/us-news/2025/oct/17/republican-ad-deepfake-video-chuck-schumer</link>
-      <description>📝 Chuck Schumer speaks at the Capitol on Wednesday. Photograph: J Scott Applewhite/APRepublicans use deepfake video of Chuck Schumer in new attack ad It is not the party’s first foray into the dystopian territory, with Trump having posted AI videos of his ownThe National Republican Senatorial Committee crossed into dystopian new territory for political campaigning on Friday after releasing an attack ad that features an artificially generated video of the Senate minority leader, Chuck Schumer. ”The video comes weeks after Donald Trump posted his own AI-generated deepfake to Truth Social, depicting Schumer and Hakeem Jeffries, the House minority leader, making crude and made-up statements about immigration and voter fraud that neither lawmaker uttered.
+      <title>Promoted on Sunday, Fired on Monday: Inside a NASA Office's Sudden Closure</title>
+      <link>https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</link>
+      <description>📝 That meant he saw their reactions when they were told that the entire Office of the Chief Scientist was being shut down, and all of their jobs eliminated. David Draper David Draper at the Space Generation Congress in Arlington, Virginia. Fired from NASA Mamta Patel Nagaraja outside NASA Headquarters in Washington, D.
 
-🔗 Read more: https://www.theguardian.com/us-news/2025/oct/17/republican-ad-deepfake-video-chuck-schumer</description>
-      <guid isPermaLink="true">https://www.theguardian.com/us-news/2025/oct/17/republican-ad-deepfake-video-chuck-schumer</guid>
-      <pubDate>Fri, 17 Oct 2025 20:32:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45621693</comments>
+🔗 Read more: https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</description>
+      <guid isPermaLink="true">https://www.planetary.org/articles/promoted-on-sunday-fired-on-monday-inside-a-nasa-offices-sudden-closure</guid>
+      <pubDate>Fri, 17 Oct 2025 22:34:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45622923</comments>
+    </item>
+    <item>
+      <title>New Work by Gary Larson</title>
+      <link>https://www.thefarside.com/new-stuff</link>
+      <description>📝 ” (Let’s not get into that. Again, please remember, I’m just exploring, experimenting, and trying stuff. I have just one last thing to say before I go: thank you, clogged pen.
+
+🔗 Read more: https://www.thefarside.com/new-stuff</description>
+      <guid isPermaLink="true">https://www.thefarside.com/new-stuff</guid>
+      <pubDate>Fri, 17 Oct 2025 21:34:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45622365</comments>
+    </item>
+    <item>
+      <title>Jeep Wrangler Owners Waiting for Answers Week After an Update Bricked Their Cars</title>
+      <link>https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</link>
+      <description>📝 ” The Drive According to this 4xeforums. This should revert the software to the previous version. Are you without your 4xe.
+
+🔗 Read more: https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</description>
+      <guid isPermaLink="true">https://www.thedrive.com/news/jeep-wrangler-4xe-owners-still-waiting-for-answers-a-week-after-an-update-bricked-their-cars</guid>
+      <pubDate>Fri, 17 Oct 2025 23:58:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45623526</comments>
+    </item>
+    <item>
+      <title>NeXT Computer Offices</title>
+      <link>https://archive.org/details/NeXTComputerOffices</link>
+      <description>📝 NeXT Computer Offices Item Preview Local_1. jpg NeXT Computer Offices - 900 Chesapeake Dr. jpg NeXT Computer Offices - 900 Chesapeake Dr.
+
+🔗 Read more: https://archive.org/details/NeXTComputerOffices</description>
+      <guid isPermaLink="true">https://archive.org/details/NeXTComputerOffices</guid>
+      <pubDate>Sat, 18 Oct 2025 00:15:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45623630</comments>
     </item>
   </channel>
 </rss>
