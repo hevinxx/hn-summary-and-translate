@@ -6,60 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 20 Oct 2025 12:41:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 15:21:29 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>상태 기반 및 신호 기반 렌더링</title>
-      <link>https://jovidecroock.com/blog/state-vs-signals/</link>
-      <description>📝 Node.js 트리거는 상태가 소비되는 곳에서만 렌더링됩니다. const CountContext = createContext(); const 공급자 = ({ 하위 }) =&gt; { const count = useSignal(0); const 이름 = useSignal(''); return ( &lt;CountContext.js) 신호 기반 렌더링에서는 실제로 신호 값을 읽는 구성 요소만 다시 렌더링됩니다.
+      <title>BERT는 단일 텍스트 확산 단계일 뿐입니다.</title>
+      <link>https://nathan.rs/posts/roberta-diffusion/</link>
+      <description>📝 BERT는 단일 텍스트 확산 단계일 뿐입니다. 2025년 10월 20일기계 학습A 얼마 전 Google DeepMind는 확산을 사용하여 텍스트를 생성하는 실험적 언어 모델인 Gemini Diffusion을 공개했습니다. 나는 Large Language Diffusion Models라는 논문을 읽었고 이산 언어 확산이 우리가 2018년부터 해왔던 MLM(Masked Language Modeling)의 일반화에 불과하다는 사실에 놀랐습니다. 이산 언어 확산 모델#확산 모델은 이미지 생성에서 처음 대중화되었습니다.
 
 
-🔤 Original: State-based vs Signal-based rendering
+🔤 Original: BERT Is Just a Single Text Diffusion Step
 
-🔗 Read more: https://jovidecroock.com/blog/state-vs-signals/</description>
-      <guid isPermaLink="true">https://jovidecroock.com/blog/state-vs-signals/</guid>
-      <pubDate>Mon, 20 Oct 2025 09:36:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45641892</comments>
+🔗 Read more: https://nathan.rs/posts/roberta-diffusion/</description>
+      <guid isPermaLink="true">https://nathan.rs/posts/roberta-diffusion/</guid>
+      <pubDate>Mon, 20 Oct 2025 14:31:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45644328</comments>
     </item>
     <item>
-      <title>AWS 중단: 단일 클라우드 지역이 세상을 무너뜨려서는 안 됩니다. 하지만 그랬다</title>
-      <link>https://faun.dev/c/news/devopslinks/aws-outage-a-single-cloud-region-shouldnt-take-down-the-world-but-it-did/</link>
-      <description>📝 탭을 닫고 마음을 열어 둘 수 있습니다. GitHub로 계속하기 Twitter로 계속하기🎯 JoinPrivacy-first – 스팸 방지 – 항상 무료입니다. 이미 계정이 있습니다.
+      <title>매트릭스 컨퍼런스 2025 하이라이트</title>
+      <link>https://element.io/blog/the-matrix-conference-a-seminal-moment-for-matrix/</link>
+      <description>📝 주문형 매트릭스 컨퍼런스 매트릭스 컨퍼런스에서 제공되는 모든 프리젠테이션은 여기에서 볼 수 있습니다. 정부는 다음과 같은 커뮤니케이션을 원합니다.1. 수많은 경쟁 공급업체가 Matrix 컨퍼런스를 후원하고 참석했다는 사실은 Matrix 생태계의 건전성을 강조합니다.
 
 
-🔤 Original: AWS Outage: A Single Cloud Region Shouldn't Take Down the World. But It Did
+🔤 Original: Matrix Conference 2025 Highlights
 
-🔗 Read more: https://faun.dev/c/news/devopslinks/aws-outage-a-single-cloud-region-shouldnt-take-down-the-world-but-it-did/</description>
-      <guid isPermaLink="true">https://faun.dev/c/news/devopslinks/aws-outage-a-single-cloud-region-shouldnt-take-down-the-world-but-it-did/</guid>
-      <pubDate>Mon, 20 Oct 2025 12:05:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45642951</comments>
+🔗 Read more: https://element.io/blog/the-matrix-conference-a-seminal-moment-for-matrix/</description>
+      <guid isPermaLink="true">https://element.io/blog/the-matrix-conference-a-seminal-moment-for-matrix/</guid>
+      <pubDate>Mon, 20 Oct 2025 12:00:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45642923</comments>
     </item>
     <item>
-      <title>비버가 설계한 체코의 댐</title>
-      <link>https://en.wikipedia.org/wiki/Beaver-engineered_dam_in_the_Czech_Republic</link>
-      <description>📝 비버가 건설한 댐으로 체코 정부는 약 미화 1달러를 절약했습니다. 비버는 자신만의 것을 만들었습니다." ^ "이 열성적인 비버는 체코 정부에 1달러를 절약해 주었습니다.
+      <title>서보 v0.0.1 출시</title>
+      <link>https://github.com/servo/servo</link>
+      <description>📝 uv 설치: 컬 -LsSf https://astral. /mach bootstrap 서보쉘 빌드:. /mach bootstrap 서보쉘 빌드:.
 
 
-🔤 Original: Beaver-engineered dam in the Czech Republic
+🔤 Original: Servo v0.0.1 Released
 
-🔗 Read more: https://en.wikipedia.org/wiki/Beaver-engineered_dam_in_the_Czech_Republic</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Beaver-engineered_dam_in_the_Czech_Republic</guid>
-      <pubDate>Mon, 20 Oct 2025 11:08:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45642562</comments>
+🔗 Read more: https://github.com/servo/servo</description>
+      <guid isPermaLink="true">https://github.com/servo/servo</guid>
+      <pubDate>Mon, 20 Oct 2025 12:55:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45643357</comments>
     </item>
     <item>
-      <title>어린이 TV가 너무 평범해진 이유</title>
-      <link>https://slate.com/life/2025/10/kids-tv-movies-best-ratings-parents-disney.html</link>
-      <description>📝 불편함과 편안함이 공존합니다. 외로움과 결합된 연결. 무거운 합금과 가벼운 합금.
+      <title>미국 전역에서 법적으로 준수되는 임대료 연체료 계산</title>
+      <link>https://www.RentLateFee.com</link>
+      <guid isPermaLink="true">https://www.RentLateFee.com</guid>
+      <pubDate>Mon, 20 Oct 2025 12:11:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45642995</comments>
+    </item>
+    <item>
+      <title>다른 사람의 마음을 코드로 모델링하기</title>
+      <link>https://arxiv.org/abs/2510.01272</link>
+      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
 
 
-🔤 Original: How Kids' TV Got Way Too Normal
+🔤 Original: Modeling Others' Minds as Code
 
-🔗 Read more: https://slate.com/life/2025/10/kids-tv-movies-best-ratings-parents-disney.html</description>
-      <guid isPermaLink="true">https://slate.com/life/2025/10/kids-tv-movies-best-ratings-parents-disney.html</guid>
-      <pubDate>Mon, 20 Oct 2025 11:24:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45642668</comments>
+🔗 Read more: https://arxiv.org/abs/2510.01272</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.01272</guid>
+      <pubDate>Mon, 20 Oct 2025 13:54:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45643976</comments>
+    </item>
+    <item>
+      <title>코모도어 64 얼티밋</title>
+      <link>https://www.commodore.net/product-page/commodore-64-ultimate-basic-beige-batch1</link>
+      <guid isPermaLink="true">https://www.commodore.net/product-page/commodore-64-ultimate-basic-beige-batch1</guid>
+      <pubDate>Mon, 20 Oct 2025 14:55:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45644654</comments>
+    </item>
+    <item>
+      <title>HN 표시: Claude Code의 극작가 기술 – 극작가-MCP보다 맥락이 적습니다.</title>
+      <link>https://github.com/lackeyjb/playwright-skill</link>
+      <description>📝 Claude Code를 위한 극작가 기술 Claude 기술로서의 범용 브라우저 자동화 Claude가 간단한 페이지 테스트부터 복잡한 다단계 흐름에 이르기까지 모든 극작가 자동화를 즉석에서 작성하고 실행할 수 있게 해주는 Claude 기술입니다. claude/skills # 스킬 복제 git clone https://github. 이 기술은 헤드가 없는 한 표시되는 브라우저로 기본 설정됩니다.
+
+
+🔤 Original: Show HN: Playwright Skill for Claude Code – Less context than playwright-MCP
+
+🔗 Read more: https://github.com/lackeyjb/playwright-skill</description>
+      <guid isPermaLink="true">https://github.com/lackeyjb/playwright-skill</guid>
+      <pubDate>Mon, 20 Oct 2025 11:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45642911</comments>
     </item>
   </channel>
 </rss>

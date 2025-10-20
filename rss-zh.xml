@@ -6,60 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Oct 2025 12:41:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 15:21:29 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>基于状态与基于信号的渲染</title>
-      <link>https://jovidecroock.com/blog/state-vs-signals/</link>
-      <description>📝 Node.js 触发器仅在消耗状态的地方呈现。 const CountContext = createContext(); const Provider = ({ 孩子 }) =&gt; { const count = useSignal(0); const 名称 = useSignal(''); return (&lt;CountContext.js) 在基于信号的渲染中，只有实际读取信号值的组件才会重新渲染。
+      <title>BERT 只是一个文本扩散步骤</title>
+      <link>https://nathan.rs/posts/roberta-diffusion/</link>
+      <description>📝 BERT 只是单一文本扩散步骤 2025 年 10 月 20 日机器学习 不久前，Google DeepMind 推出了 Gemini Diffusion，这是一种使用扩散生成文本的实验性语言模型。我读了《大型语言扩散模型》这篇论文，惊讶地发现离散语言扩散只是屏蔽语言模型（MLM）的推广，这是我们自 2018 年以来一直在做的事情。离散语言扩散模型#扩散模型首先在图像生成中普及。
 
 
-🔤 Original: State-based vs Signal-based rendering
+🔤 Original: BERT Is Just a Single Text Diffusion Step
 
-🔗 Read more: https://jovidecroock.com/blog/state-vs-signals/</description>
-      <guid isPermaLink="true">https://jovidecroock.com/blog/state-vs-signals/</guid>
-      <pubDate>Mon, 20 Oct 2025 09:36:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45641892</comments>
+🔗 Read more: https://nathan.rs/posts/roberta-diffusion/</description>
+      <guid isPermaLink="true">https://nathan.rs/posts/roberta-diffusion/</guid>
+      <pubDate>Mon, 20 Oct 2025 14:31:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45644328</comments>
     </item>
     <item>
-      <title>AWS 中断：单一云区域不应该摧毁世界。但它做到了</title>
-      <link>https://faun.dev/c/news/devopslinks/aws-outage-a-single-cloud-region-shouldnt-take-down-the-world-but-it-did/</link>
-      <description>📝 这样您就可以保持关闭状态并保持开放的心态。继续使用 GitHub 继续使用 Twitter🎯 加入隐私第一 – 无垃圾邮件 – 始终免费。已经有一个帐户。
+      <title>Matrix会议2025亮点</title>
+      <link>https://element.io/blog/the-matrix-conference-a-seminal-moment-for-matrix/</link>
+      <description>📝 Matrix 会议点播 The Matrix 会议上的所有演示文稿均可在此处获取。政府希望的沟通是：1。如此多的竞争供应商赞助并参加了 Matrix 会议，这突显了 Matrix 生态系统的健康状况。
 
 
-🔤 Original: AWS Outage: A Single Cloud Region Shouldn't Take Down the World. But It Did
+🔤 Original: Matrix Conference 2025 Highlights
 
-🔗 Read more: https://faun.dev/c/news/devopslinks/aws-outage-a-single-cloud-region-shouldnt-take-down-the-world-but-it-did/</description>
-      <guid isPermaLink="true">https://faun.dev/c/news/devopslinks/aws-outage-a-single-cloud-region-shouldnt-take-down-the-world-but-it-did/</guid>
-      <pubDate>Mon, 20 Oct 2025 12:05:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45642951</comments>
+🔗 Read more: https://element.io/blog/the-matrix-conference-a-seminal-moment-for-matrix/</description>
+      <guid isPermaLink="true">https://element.io/blog/the-matrix-conference-a-seminal-moment-for-matrix/</guid>
+      <pubDate>Mon, 20 Oct 2025 12:00:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45642923</comments>
     </item>
     <item>
-      <title>捷克共和国海狸设计的水坝</title>
-      <link>https://en.wikipedia.org/wiki/Beaver-engineered_dam_in_the_Czech_Republic</link>
-      <description>📝 海狸建造的水坝为捷克政府节省了大约 1 美元。海狸自己建造了”。^“这些热心的海狸为捷克政府节省了 1 美元。
+      <title>伺服 v0.0.1 发布</title>
+      <link>https://github.com/servo/servo</link>
+      <description>📝 安装 uv：curl -LsSf https://astral。 /mach bootstrap 构建servoshell：。 /mach bootstrap 构建servoshell：。
 
 
-🔤 Original: Beaver-engineered dam in the Czech Republic
+🔤 Original: Servo v0.0.1 Released
 
-🔗 Read more: https://en.wikipedia.org/wiki/Beaver-engineered_dam_in_the_Czech_Republic</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Beaver-engineered_dam_in_the_Czech_Republic</guid>
-      <pubDate>Mon, 20 Oct 2025 11:08:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45642562</comments>
+🔗 Read more: https://github.com/servo/servo</description>
+      <guid isPermaLink="true">https://github.com/servo/servo</guid>
+      <pubDate>Mon, 20 Oct 2025 12:55:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45643357</comments>
     </item>
     <item>
-      <title>儿童电视为何变得过于普通</title>
-      <link>https://slate.com/life/2025/10/kids-tv-movies-best-ratings-parents-disney.html</link>
-      <description>📝 舒适与不适交织在一起。连接与孤独融为一体。轻质重合金。
+      <title>计算美国各州合法合规的租金滞纳金</title>
+      <link>https://www.RentLateFee.com</link>
+      <guid isPermaLink="true">https://www.RentLateFee.com</guid>
+      <pubDate>Mon, 20 Oct 2025 12:11:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45642995</comments>
+    </item>
+    <item>
+      <title>将他人的思想建模为代码</title>
+      <link>https://arxiv.org/abs/2510.01272</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
 
 
-🔤 Original: How Kids' TV Got Way Too Normal
+🔤 Original: Modeling Others' Minds as Code
 
-🔗 Read more: https://slate.com/life/2025/10/kids-tv-movies-best-ratings-parents-disney.html</description>
-      <guid isPermaLink="true">https://slate.com/life/2025/10/kids-tv-movies-best-ratings-parents-disney.html</guid>
-      <pubDate>Mon, 20 Oct 2025 11:24:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45642668</comments>
+🔗 Read more: https://arxiv.org/abs/2510.01272</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.01272</guid>
+      <pubDate>Mon, 20 Oct 2025 13:54:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45643976</comments>
+    </item>
+    <item>
+      <title>Commodore 64 终极版</title>
+      <link>https://www.commodore.net/product-page/commodore-64-ultimate-basic-beige-batch1</link>
+      <guid isPermaLink="true">https://www.commodore.net/product-page/commodore-64-ultimate-basic-beige-batch1</guid>
+      <pubDate>Mon, 20 Oct 2025 14:55:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45644654</comments>
+    </item>
+    <item>
+      <title>Show HN：克劳德·代码的剧作家技巧 – 比剧作家-MCP 更少的背景</title>
+      <link>https://github.com/lackeyjb/playwright-skill</link>
+      <description>📝 Claude 代码的 Playwright 技能 作为 Claude 技能的通用浏览器自动化 Claude 技能使 Claude 能够即时编写和执行任何 Playwright 自动化 - 从简单的页面测试到复杂的多步骤流程。 claude/skills # 克隆技能 git clone https://github.com该技能默认为可见浏览器，除非标题。
+
+
+🔤 Original: Show HN: Playwright Skill for Claude Code – Less context than playwright-MCP
+
+🔗 Read more: https://github.com/lackeyjb/playwright-skill</description>
+      <guid isPermaLink="true">https://github.com/lackeyjb/playwright-skill</guid>
+      <pubDate>Mon, 20 Oct 2025 11:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45642911</comments>
     </item>
   </channel>
 </rss>
