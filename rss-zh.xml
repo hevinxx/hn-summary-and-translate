@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 21 Oct 2025 01:25:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 03:39:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>仅使用两个 UNIX 信号构建消息队列</title>
-      <link>https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</link>
-      <description>📝 不能被捕获或忽略 SIGCONT - 恢复被 SIGSTOP 暂停的进程 SIGCHLD - 当子进程终止或停止时发送到父进程 SIGUSR1 和 SIGUSR2 - 用户定义的信号，应用程序可以将其用于自定义目的 使用信号发送消息 好的，我们知道信号是 IPC 的原始形式。类UNIX系统提供了一个名为kill的系统调用，它向进程发送信号。毕竟，我们不能使用信号来发送消息。
+      <title>尽管美国干预，阿根廷比索仍跌至新低</title>
+      <link>https://www.ft.com/content/815ef487-0d0e-430c-b140-9bc39dbd1a53</link>
+      <description>📝 对质量分析和专家见解的完整数字访问，并辅以我们屡获殊荣的周末印刷版。选择包含内容平日印刷版FT周末FT数字版：我们的数字化印刷版全球新闻与分析专家意见特殊功能独家FT分析加上高级数字印刷中的所有内容第一年的FT报纸周一至周六交付为409美元，现为99美元，另外周一至周六交付到您的设备的FT数字版。选择包含内容 平日印刷版《金融时报》周末《金融时报》数字版：我们的数字化印刷版全球新闻与分析专家意见特殊功能独家《金融时报》分析检查您是否已通过您的大学或组织访问。
 
 
-🔤 Original: Building a message queue with only two UNIX signals
+🔤 Original: Argentine peso weakens to fresh low despite US interventions
 
-🔗 Read more: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</description>
-      <guid isPermaLink="true">https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</guid>
-      <pubDate>Mon, 20 Oct 2025 22:22:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45650178</comments>
+🔗 Read more: https://www.ft.com/content/815ef487-0d0e-430c-b140-9bc39dbd1a53</description>
+      <guid isPermaLink="true">https://www.ft.com/content/815ef487-0d0e-430c-b140-9bc39dbd1a53</guid>
+      <pubDate>Tue, 21 Oct 2025 01:35:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45651516</comments>
     </item>
     <item>
-      <title>今天是亚马逊人才流失导致 AWS 陷入困境的时候</title>
-      <link>https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</link>
-      <description>📝 当部落知识消失时，您将不得不重新发明大量不想参与 RTO 游戏或在本周期再次玩裁员轮盘赌的内部专业知识。我怀疑那一天就是今天。因此，我知道如果我按原样发表这篇文章，那是不行的。
+      <title>维基百科表示，由于人工智能搜索摘要和社交视频，流量正在下降</title>
+      <link>https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/</link>
+      <description>📝 （谷歌对人工智能摘要减少搜索流量的说法提出了异议。）因此，他认为使用维基百科内容的人工智能、搜索和社交公司“必须鼓励更多访问者”访问网站本身。带上他们，可以节省 60% 的通行证。
 
 
-🔤 Original: Today is when the Amazon brain drain sent AWS down the spout
+🔤 Original: Wikipedia says traffic is falling due to AI search summaries and social video
 
-🔗 Read more: https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</description>
-      <guid isPermaLink="true">https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</guid>
-      <pubDate>Mon, 20 Oct 2025 20:50:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45649178</comments>
-    </item>
-    <item>
-      <title>为什么 UUID 无法保护您的秘密</title>
-      <link>https://alexsci.com/blog/uuids-and-idor/</link>
-      <description>📝 即使 URL 无法猜测，也不意味着攻击者无法了解它们。但敏感 URL 可能仍然存在于其浏览器历史记录中。它们会污染它们接触到的任何东西。
-
-
-🔤 Original: Why UUIDs won't protect your secrets
-
-🔗 Read more: https://alexsci.com/blog/uuids-and-idor/</description>
-      <guid isPermaLink="true">https://alexsci.com/blog/uuids-and-idor/</guid>
-      <pubDate>Mon, 20 Oct 2025 23:16:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45650617</comments>
-    </item>
-    <item>
-      <title>旧计算机挑战 – ZX Spectrum 的现代网络</title>
-      <link>https://0x00.cl/blog/2025/occ-2025/</link>
-      <description>📝 在这种情况下，您可以按“S”访问搜索。您将看到标题、发布该评论的用户、时间以及带有评论数量的评论部分，在本例中为 42。评论部分的问题在于，某些评论线程可能会深入并具有不同的分支，因为多个用户会回复。
-
-
-🔤 Original: Old Computer Challenge – Modern Web for the ZX Spectrum
-
-🔗 Read more: https://0x00.cl/blog/2025/occ-2025/</description>
-      <guid isPermaLink="true">https://0x00.cl/blog/2025/occ-2025/</guid>
-      <pubDate>Mon, 20 Oct 2025 23:40:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45650792</comments>
+🔗 Read more: https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/</description>
+      <guid isPermaLink="true">https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/</guid>
+      <pubDate>Tue, 21 Oct 2025 01:29:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45651485</comments>
     </item>
   </channel>
 </rss>

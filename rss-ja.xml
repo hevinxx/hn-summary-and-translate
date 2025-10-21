@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Oct 2025 01:25:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 03:39:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>2 つの UNIX シグナルのみを使用してメッセージ キューを構築する</title>
-      <link>https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</link>
-      <description>📝 トラップまたは無視はできません SIGCONT - SIGSTOP によって一時停止されたプロセスを再開します SIGCHLD - 子プロセスが終了または停止するときに親プロセスに送信されます SIGUSR1 および SIGUSR2 - アプリケーションがカスタム目的に使用できるユーザー定義のシグナル シグナルを使用したメッセージの送信 シグナルが IPC の原始的な形式であることはわかりました。 UNIX のようなシステムでは、プロセスにシグナルを送信する kill と呼ばれるシステムコールが提供されます。結局のところ、信号を使用してメッセージを送信することはできません。
+      <title>米国の介入にもかかわらず、アルゼンチンペソが安値に下落</title>
+      <link>https://www.ft.com/content/815ef487-0d0e-430c-b140-9bc39dbd1a53</link>
+      <description>📝 受賞歴のあるWeekend Print版で補完された、品質分析と専門家の洞察への完全なデジタルアクセス。選択内容Print のすべてWeekday Print EditionFT WeekendFT Digital Edition: デジタル化された印刷版グローバル ニュースと分析専門家の意見特別な機能独占的な FT 分析PlusPremium DigitalPrint のすべてが 409 ドルでしたが、初年度は 99 ドルになりましたFT 新聞が月曜日から土曜日に配信され、さらに FT デジタル版が月曜日から土曜日にデバイスに配信されます。選択してください内容 Weekday Print EditionFT WeekendFT Digital Edition: デジタル化された印刷版グローバル ニュースと分析専門家の意見特別な機能独占的な FT 分析大学または組織を通じて既にアクセス権があるかどうかを確認してください。
 
 
-🔤 Original: Building a message queue with only two UNIX signals
+🔤 Original: Argentine peso weakens to fresh low despite US interventions
 
-🔗 Read more: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</description>
-      <guid isPermaLink="true">https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</guid>
-      <pubDate>Mon, 20 Oct 2025 22:22:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45650178</comments>
+🔗 Read more: https://www.ft.com/content/815ef487-0d0e-430c-b140-9bc39dbd1a53</description>
+      <guid isPermaLink="true">https://www.ft.com/content/815ef487-0d0e-430c-b140-9bc39dbd1a53</guid>
+      <pubDate>Tue, 21 Oct 2025 01:35:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45651516</comments>
     </item>
     <item>
-      <title>今日は、Amazon の頭脳流出が AWS を注ぎ込んだ日です</title>
-      <link>https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</link>
-      <description>📝 その部族の知識がなくなると、RTO ゲームに参加したくなかった社内の膨大な専門知識を再発明しなければならなくなるか、このサイクルでまたレイオフ ルーレットをプレイする必要があります。その日は今日ではないかと思います。その結果、この作品をこのまま出版してもダメだとわかりました。
+      <title>ウィキペディアによると、AI検索概要とソーシャルビデオのせいでトラフィックが減少している</title>
+      <link>https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/</link>
+      <description>📝 (Google は、AI 概要が検索からのトラフィックを減らすという主張に異議を唱えています。) そのため、ウィキペディアのコンテンツを使用する AI、検索、ソーシャル企業は、Web サイト自体への「より多くの訪問者を奨励する必要がある」と彼は主張しています。これらの企業を連れて行けば、パスが 60% 割引になります。
 
 
-🔤 Original: Today is when the Amazon brain drain sent AWS down the spout
+🔤 Original: Wikipedia says traffic is falling due to AI search summaries and social video
 
-🔗 Read more: https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</description>
-      <guid isPermaLink="true">https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</guid>
-      <pubDate>Mon, 20 Oct 2025 20:50:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45649178</comments>
-    </item>
-    <item>
-      <title>UUID が秘密を保護しない理由</title>
-      <link>https://alexsci.com/blog/uuids-and-idor/</link>
-      <description>📝 URL が推測不可能であっても、攻撃者が URL を学習できないわけではありません。ただし、機密性の高い URL がブラウザ履歴にまだ存在している可能性があります。彼らは触れるものすべてを汚します。
-
-
-🔤 Original: Why UUIDs won't protect your secrets
-
-🔗 Read more: https://alexsci.com/blog/uuids-and-idor/</description>
-      <guid isPermaLink="true">https://alexsci.com/blog/uuids-and-idor/</guid>
-      <pubDate>Mon, 20 Oct 2025 23:16:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45650617</comments>
-    </item>
-    <item>
-      <title>オールド コンピューター チャレンジ – ZX スペクトラム向けの最新 Web</title>
-      <link>https://0x00.cl/blog/2025/occ-2025/</link>
-      <description>📝 この場合、「S」を押すと検索にアクセスできます。タイトル、投稿したユーザー、時刻、コメントの量 (この場合は 42) が表示されるコメント セクションが表示されます。 コメント セクションの問題は、複数のユーザーが返信するため、一部のコメント スレッドが深くなり、異なる分岐を持つ可能性があることです。
-
-
-🔤 Original: Old Computer Challenge – Modern Web for the ZX Spectrum
-
-🔗 Read more: https://0x00.cl/blog/2025/occ-2025/</description>
-      <guid isPermaLink="true">https://0x00.cl/blog/2025/occ-2025/</guid>
-      <pubDate>Mon, 20 Oct 2025 23:40:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45650792</comments>
+🔗 Read more: https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/</description>
+      <guid isPermaLink="true">https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/</guid>
+      <pubDate>Tue, 21 Oct 2025 01:29:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45651485</comments>
     </item>
   </channel>
 </rss>
