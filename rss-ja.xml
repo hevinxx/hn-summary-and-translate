@@ -6,132 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Oct 2025 21:19:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 01:25:41 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ウェブ上のクロード・コード</title>
-      <link>https://www.anthropic.com/news/claude-code-on-the-web</link>
-      <description>📝 あらゆるワークフローに柔軟に対応 Web インターフェイスは、既存の Claude Code ワークフローを補完します。セキュリティ優先のクラウド実行すべてのクロード コード タスクは、ネットワークとファイル システムの制限がある分離されたサンドボックス環境で実行されます。クラウドベースのセッションは、他のすべてのクロード コードの使用とレート制限を共有します。
+      <title>2 つの UNIX シグナルのみを使用してメッセージ キューを構築する</title>
+      <link>https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</link>
+      <description>📝 トラップまたは無視はできません SIGCONT - SIGSTOP によって一時停止されたプロセスを再開します SIGCHLD - 子プロセスが終了または停止するときに親プロセスに送信されます SIGUSR1 および SIGUSR2 - アプリケーションがカスタム目的に使用できるユーザー定義のシグナル シグナルを使用したメッセージの送信 シグナルが IPC の原始的な形式であることはわかりました。 UNIX のようなシステムでは、プロセスにシグナルを送信する kill と呼ばれるシステムコールが提供されます。結局のところ、信号を使用してメッセージを送信することはできません。
 
 
-🔤 Original: Claude Code on the web
+🔤 Original: Building a message queue with only two UNIX signals
 
-🔗 Read more: https://www.anthropic.com/news/claude-code-on-the-web</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-on-the-web</guid>
-      <pubDate>Mon, 20 Oct 2025 18:12:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45647166</comments>
+🔗 Read more: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</description>
+      <guid isPermaLink="true">https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</guid>
+      <pubDate>Mon, 20 Oct 2025 22:22:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45650178</comments>
     </item>
     <item>
-      <title>x86-64 Playground – オンライン アセンブリ エディターおよび GDB のようなデバッガー</title>
-      <link>https://x64.halb.it/</link>
-      <description>📝 ご自身のプログラムを持ち込むことも可能です。応答性の高いデバッガーを見たことがありますか。ガイドに従って、ASM エディターとデバッガーの両方を Web サイトに埋め込みます。
+      <title>今日は、Amazon の頭脳流出が AWS を注ぎ込んだ日です</title>
+      <link>https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</link>
+      <description>📝 その部族の知識がなくなると、RTO ゲームに参加したくなかった社内の膨大な専門知識を再発明しなければならなくなるか、このサイクルでまたレイオフ ルーレットをプレイする必要があります。その日は今日ではないかと思います。その結果、この作品をこのまま出版してもダメだとわかりました。
 
 
-🔤 Original: x86-64 Playground – An online assembly editor and GDB-like debugger
+🔤 Original: Today is when the Amazon brain drain sent AWS down the spout
 
-🔗 Read more: https://x64.halb.it/</description>
-      <guid isPermaLink="true">https://x64.halb.it/</guid>
-      <pubDate>Mon, 20 Oct 2025 17:55:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45646958</comments>
+🔗 Read more: https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</description>
+      <guid isPermaLink="true">https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</guid>
+      <pubDate>Mon, 20 Oct 2025 20:50:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45649178</comments>
     </item>
     <item>
-      <title>目に見えないコードを使用した初の自己増殖ワームが OpenVSX および VS Code に侵入</title>
-      <link>https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace</link>
-      <description>📝 それは悪意のあるコードです。手動によるコード検査。 GlassWorm は、その仮定が間違っていることを証明しました。
+      <title>UUID が秘密を保護しない理由</title>
+      <link>https://alexsci.com/blog/uuids-and-idor/</link>
+      <description>📝 URL が推測不可能であっても、攻撃者が URL を学習できないわけではありません。ただし、機密性の高い URL がブラウザ履歴にまだ存在している可能性があります。彼らは触れるものすべてを汚します。
 
 
-🔤 Original: First Self-Propagating Worm Using Invisible Code Hits OpenVSX and VS Code
+🔤 Original: Why UUIDs won't protect your secrets
 
-🔗 Read more: https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace</description>
-      <guid isPermaLink="true">https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace</guid>
-      <pubDate>Mon, 20 Oct 2025 19:05:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45647853</comments>
+🔗 Read more: https://alexsci.com/blog/uuids-and-idor/</description>
+      <guid isPermaLink="true">https://alexsci.com/blog/uuids-and-idor/</guid>
+      <pubDate>Mon, 20 Oct 2025 23:16:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45650617</comments>
     </item>
     <item>
-      <title>Show HN: JJ VCS (Git 互換) のクロスプラットフォーム GUI を作成しました</title>
-      <link>https://judojj.com</link>
-      <description>📝 macOS macOS 用のダウンロード Windows 用のダウンロード Linux (Ubuntu/Debian) Linux 用のダウンロード 操作ログを使用して、リポジトリを任意の時点に復元します。複数のコミットの結合された差分、またはコミット間の差分を表示します。 任意の差分、ファイル、コミット、または複数のコミットのハンクを一度に適用または元に戻します。 カスタム Revset を使用して、表示するコミットを選択します。ドラッグ アンド ドロップのリベース 複製、分割、破棄、元に戻す、吸収、潰しなど ブックマークを管理します。
+      <title>オールド コンピューター チャレンジ – ZX スペクトラム向けの最新 Web</title>
+      <link>https://0x00.cl/blog/2025/occ-2025/</link>
+      <description>📝 この場合、「S」を押すと検索にアクセスできます。タイトル、投稿したユーザー、時刻、コメントの量 (この場合は 42) が表示されるコメント セクションが表示されます。 コメント セクションの問題は、複数のユーザーが返信するため、一部のコメント スレッドが深くなり、異なる分岐を持つ可能性があることです。
 
 
-🔤 Original: Show HN: I created a cross-platform GUI for the JJ VCS (Git compatible)
+🔤 Original: Old Computer Challenge – Modern Web for the ZX Spectrum
 
-🔗 Read more: https://judojj.com</description>
-      <guid isPermaLink="true">https://judojj.com</guid>
-      <pubDate>Mon, 20 Oct 2025 15:35:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45645120</comments>
-    </item>
-    <item>
-      <title>JPモルガンのOpenAI融資は奇妙だ</title>
-      <link>https://marketunpack.com/j-p-morgans-openai-loan-is-strange/</link>
-      <description>📝 投資家の帽子をかぶって、OpenAI に 1,000 ドルを投資した場合に見込まれる収益は次のようになります。 費用: 1,000 ドル ケース 1 (90%): OpenAI が破産。リターン: $0 ケース 2 (9%): OpenAI は大成功を収めた企業​​となり、10 倍に成長します。リターン: $10,000 ケース 3 (1%): OpenAI が大きな新機能となり、100 倍になります。
-
-
-🔤 Original: J.P. Morgan's OpenAI loan is strange
-
-🔗 Read more: https://marketunpack.com/j-p-morgans-openai-loan-is-strange/</description>
-      <guid isPermaLink="true">https://marketunpack.com/j-p-morgans-openai-loan-is-strange/</guid>
-      <pubDate>Mon, 20 Oct 2025 19:38:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648258</comments>
-    </item>
-    <item>
-      <title>スタジアムがあらゆるものに AI を追加すると、誰にとっても最悪の体験になります</title>
-      <link>https://a.wholelottanothing.org/bmo-stadium-in-la-added-ai-to-everything-and-what-they-got-was-a-worse-experience-for-everyone/</link>
-      <description>📝 好例: 昨年の BMO での私のお気に入りの売店について話しましょう。ロティサリー チキンとワッフル フライドポテトやチキン サンドイッチを提供するお店です。昨日、同じ売店に戻ってきました。新しいメニューは次のとおりです。 チェックアウト スタンドがコンピュータ ビジョンに依存している場合、ファンが楽しめる 6 種類の異なるメニュー項目があるとおそらく混乱するでしょう。ここはクイックサービスの「マーケット」スタイルの場所で、昨年は棚から商品を手に取り、複数のレジでスタッフに素早くチェックアウトするだけでした。
-
-
-🔤 Original: When a stadium adds AI to everything, it's worse experience for everyone
-
-🔗 Read more: https://a.wholelottanothing.org/bmo-stadium-in-la-added-ai-to-everything-and-what-they-got-was-a-worse-experience-for-everyone/</description>
-      <guid isPermaLink="true">https://a.wholelottanothing.org/bmo-stadium-in-la-added-ai-to-everything-and-what-they-got-was-a-worse-experience-for-everyone/</guid>
-      <pubDate>Mon, 20 Oct 2025 19:38:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648249</comments>
-    </item>
-    <item>
-      <title>子どもたちのピーナッツアレルギーは激減した</title>
-      <link>https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html</guid>
-      <pubDate>Mon, 20 Oct 2025 18:09:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45647133</comments>
-    </item>
-    <item>
-      <title>ピーター・ティールはそれを失いつつあるようだ</title>
-      <link>https://futurism.com/future-society/peter-thiel-antichrist-lectures</link>
-      <description>📝 「実際、ティール氏は流出した講演の中で、反キリストがすでに私たちの中にいるのではないかと疑っていると述べました。そして、あなたが反キリストが権力を掌握し、テクノロジーの変化への恐怖を利用して世界に秩序を押し付けるという話を私に話すとき、その反キリストがあなたが構築しているツールを使用しているのではないかと感じます…それは心配ではありませんか。それは歴史の皮肉ではないでしょうか、あのママ。」
-
-
-🔤 Original: It Kind of Seems Like Peter Thiel Is Losing It
-
-🔗 Read more: https://futurism.com/future-society/peter-thiel-antichrist-lectures</description>
-      <guid isPermaLink="true">https://futurism.com/future-society/peter-thiel-antichrist-lectures</guid>
-      <pubDate>Mon, 20 Oct 2025 20:14:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648726</comments>
-    </item>
-    <item>
-      <title>iOS 26.1 ではユーザーが液体ガラスの透明度を制御できるようになりました</title>
-      <link>https://www.macrumors.com/2025/10/20/ios-26-1-liquid-glass-toggle/</link>
-      <description>📝 1. Apple は、ユーザーが液体ガラスの外観をカスタマイズできるように設計された新しい設定を導入しました。トグルを使用すると、ユーザーは液体ガラスの透明な外観または着色された外観から選択できます。クリアは現在の液体ガラスのデザインで、より透明度が高く、ボタン、バー、メニューの下に背景が表示されます。一方、色付きは液体ガラスの不透明度を高め、コントラストを高めます。
-
-
-🔤 Original: iOS 26.1 lets users control Liquid Glass transparency
-
-🔗 Read more: https://www.macrumors.com/2025/10/20/ios-26-1-liquid-glass-toggle/</description>
-      <guid isPermaLink="true">https://www.macrumors.com/2025/10/20/ios-26-1-liquid-glass-toggle/</guid>
-      <pubDate>Mon, 20 Oct 2025 19:39:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648266</comments>
-    </item>
-    <item>
-      <title>私のコンピュータ上でローカルに動作していると思っていた Postman がダウンしました</title>
-      <link>https://status.postman.com</link>
-      <description>📝 OTP を再送信 購読すると、当社のプライバシー ポリシーに同意したものとみなされます。国コード: アフガニスタン (+93) アルバニア (+355) アルジェリア (+213) アメリカ領サモア (+1) アンドラ (+376) アンゴラ (+244) アンギラ (+1) アンティグア・バーブーダ (+1) アルゼンチン (+54) アルメニア (+374) アルバ (+297) オーストラリア/ココス/クリスマス島(+61) オーストリア (+43) アゼルバイジャン (+994) バハマ (+1) バーレーン (+973) バングラデシュ (+880) バルバドス (+1) ベラルーシ (+375) ベルギー (+32) ベリーズ (+501) ベナン (+229) バミューダ (+1) ボリビア (+591) ボスニア・ヘルツェゴビナ (+387) ボツワナ (+267) ブラジル (+55) ブルネイ (+673) ブルガリア (+359) ブルキナファソ (+226) ブルンジ (+257) カンボジア (+855) カメルーン (+237) カナダ (+1) カーボベルデ (+238) ケイマン諸島 (+1) 中央アフリカ (+236) チャド (+235) チリ (+56) 中国 (+86) コロンビア (+57) コモロ (+269) コンゴ (+242) コンゴ、民主共和国 (+243) コスタリカ (+506) クロアチア (+385) キプロス (+357) チェコ共和国 (+420) デンマーク (+45) ジブチ (+253) ドミニカ (+1) ドミニカ共和国 (+1) エジプト (+20) エルサルバドル (+503) 赤道ギニア (+240) エストニア (+372) エチオピア (+251) フェロー諸島 (+298) フィジー (+679) フィンランド/オーランド諸島 (+358) フランス (+33) 仏領ギアナ (+594) 仏領ポリネシア (+689) ガボン (+241) ガンビア (+220) ジョージア (+995) ドイツ (+49) ガーナ (+233) ジブラルタル (+350) ギリシャ (+30) グリーンランド (+299) グレナダ (+1) グアドループ (+590) グアム (+1) グアテマラ (+502) ギニア (+224) ガイアナ (+592) ハイチ (+509) ホンジュラス (+504) 香港 (+852) ハンガリー (+36) アイスランド (+354) インド (+91) インドネシア (+62) イラク (+964) アイルランド (+353) イスラエル (+972) イタリア (+39) ジャマイカ (+1) 日本 (+81) ヨルダン (+962) ケニア (+254) 韓国 (+82) コソボ (+383) クウェート (+965) キルギスタン (+996) ラオス (+856) ラトビア (+371) レバノン (+961) レソト (+266) リベリア (+231) リビア (+218) リヒテンシュタイン (+423) リトアニア (+370) ルクセンブルク (+352) マカオ (+853) マケドニア (+389) マダガスカル (+261) マラウイ (+265) マレーシア (+60) モルディブ (+960) マリ (+223) マルタ (+356) マルティニーク (+596) モーリタニア (+222) モーリシャス (+230) メキシコ (+52) モナコ (+377) モンゴル (+976) モンテネグロ (+382) モントセラト (+1) モロッコ/西サハラ (+212) モザンビーク (+258) ナミビア (+264) ネパール (+977) オランダ (+31) ニュージーランド (+64) ニカラグア (+505) ニジェール (+227) ナイジェリア (+234) ノルウェー (+47) オマーン (+968) パキスタン (+92) パレスチナ自治区 (+970) パナマ (+507) パラグアイ (+595) ペルー (+51) フィリピン (+63) ポーランド (+48) ポルトガル (+351) プエルトリコ (+1) カタール (+974) レユニオン/マヨット (+262) ルーマニア (+40) ロシア/カザフスタン (+7) ルワンダ (+250) サモア (+685) サンマリノ (+378) サウジアラビア (+966) セネガル (+221) セルビア (+381) セイシェル (+248) シエラレオネ (+232) シンガポール (+65) スロバキア (+421) スロベニア (+386) 南アフリカ (+27) スペイン (+34) スリランカ (+94) セントクリストファー・ネイビス (+1) セントルシア (+1) セントビンセント・グレナディーン (+1) スーダン (+249) スリナム (+597) スワジランド (+268) スウェーデン (+46) スイス (+41) 台湾 (+886) タジキスタン (+992) タンザニア (+255) タイ (+66) トーゴ (+228) トンガ (+676) トリニダード・トバゴ (+1) チュニジア (+216) トルコ (+90) タークス・カイコス諸島 (+1) ウガンダ (+256) ウクライナ (+380) アラブ首長国連邦 (+971) 英国 (+44) 米国 (+1) ウルグアイ (+598) ウズベキスタン (+998) ベネズエラ (+58) ベトナム (+84) バージン諸島、イギリス (+1) バージン諸島、U. Slack 経由で購読する 購読することにより、当社のプライバシー ポリシーに同意したものとみなされます。
-
-
-🔤 Original: Postman which I thought worked locally on my computer, is down
-
-🔗 Read more: https://status.postman.com</description>
-      <guid isPermaLink="true">https://status.postman.com</guid>
-      <pubDate>Mon, 20 Oct 2025 15:40:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45645172</comments>
+🔗 Read more: https://0x00.cl/blog/2025/occ-2025/</description>
+      <guid isPermaLink="true">https://0x00.cl/blog/2025/occ-2025/</guid>
+      <pubDate>Mon, 20 Oct 2025 23:40:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45650792</comments>
     </item>
   </channel>
 </rss>

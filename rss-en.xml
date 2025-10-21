@@ -6,105 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Oct 2025 21:19:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 01:25:41 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Claude Code on the web</title>
-      <link>https://www.anthropic.com/news/claude-code-on-the-web</link>
-      <description>📝 Flexible for every workflowThe web interface complements your existing Claude Code workflow. Security-first cloud executionEvery Claude Code task runs in an isolated sandbox environment with network and filesystem restrictions. Cloud-based sessions share rate limits with all other Claude Code usage.
+      <title>Building a message queue with only two UNIX signals</title>
+      <link>https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</link>
+      <description>📝 Cannot be trapped or ignored SIGCONT - resumes a process that was paused by SIGSTOP SIGCHLD - sent to a parent process when a child process terminates or stops SIGUSR1 and SIGUSR2 - user-defined signals that applications can use for custom purposes Sending messages using signals Okay, we know that signals are a primitive form of IPC. UNIX-like systems provide a syscall called kill that sends signals to processes. After all, we cannot send messages using signals.
 
-🔗 Read more: https://www.anthropic.com/news/claude-code-on-the-web</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-on-the-web</guid>
-      <pubDate>Mon, 20 Oct 2025 18:12:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45647166</comments>
+🔗 Read more: https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</description>
+      <guid isPermaLink="true">https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals</guid>
+      <pubDate>Mon, 20 Oct 2025 22:22:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45650178</comments>
     </item>
     <item>
-      <title>x86-64 Playground – An online assembly editor and GDB-like debugger</title>
-      <link>https://x64.halb.it/</link>
-      <description>📝 You can bring your own programs. Have you ever seen a responsive debugger. Follow the guide to embed in your website both the asm editor and debugger.
+      <title>Today is when the Amazon brain drain sent AWS down the spout</title>
+      <link>https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</link>
+      <description>📝 When that tribal knowledge departs, you're left having to reinvent an awful lot of in-house expertise that didn't want to participate in your RTO games, or play Layoff Roulette yet again this cycle. I suspect that day is today. As a result, I know that if I publish this piece as it stands no.
 
-🔗 Read more: https://x64.halb.it/</description>
-      <guid isPermaLink="true">https://x64.halb.it/</guid>
-      <pubDate>Mon, 20 Oct 2025 17:55:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45646958</comments>
+🔗 Read more: https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</description>
+      <guid isPermaLink="true">https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/</guid>
+      <pubDate>Mon, 20 Oct 2025 20:50:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45649178</comments>
     </item>
     <item>
-      <title>First Self-Propagating Worm Using Invisible Code Hits OpenVSX and VS Code</title>
-      <link>https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace</link>
-      <description>📝 That's malicious code. Manual code inspection. GlassWorm just proved that assumption wrong.
+      <title>Why UUIDs won't protect your secrets</title>
+      <link>https://alexsci.com/blog/uuids-and-idor/</link>
+      <description>📝 Even when URLs are unguessable, that doesn’t mean an attacker can’t learn them. But sensitive URLs may still exist in their browser history. They taint anything they touch.
 
-🔗 Read more: https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace</description>
-      <guid isPermaLink="true">https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace</guid>
-      <pubDate>Mon, 20 Oct 2025 19:05:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45647853</comments>
+🔗 Read more: https://alexsci.com/blog/uuids-and-idor/</description>
+      <guid isPermaLink="true">https://alexsci.com/blog/uuids-and-idor/</guid>
+      <pubDate>Mon, 20 Oct 2025 23:16:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45650617</comments>
     </item>
     <item>
-      <title>Show HN: I created a cross-platform GUI for the JJ VCS (Git compatible)</title>
-      <link>https://judojj.com</link>
-      <description>📝 macOS Download for macOS Windows Download for Windows Linux (Ubuntu/Debian) Download for Linux Restore your repo to any point in time with the Operation Log. View combined diffs of multiple commits, or the diff between commits Apply or revert hunks of any diff, files, commits, or even multiple commits at once Use custom revsets to select which commits are shown. Drag and drop rebase Duplicate, split, abandon, revert, absorb, squash, and more Keep your bookmarks managed.
+      <title>Old Computer Challenge – Modern Web for the ZX Spectrum</title>
+      <link>https://0x00.cl/blog/2025/occ-2025/</link>
+      <description>📝 In this case you can access Search by pressing “S”. You’ll see the title, user that posted it, time and the comment section with the amount of comments, in this case 42. The problem with the comment section is that some comment threads can go deep and have different branches as multiple users will reply.
 
-🔗 Read more: https://judojj.com</description>
-      <guid isPermaLink="true">https://judojj.com</guid>
-      <pubDate>Mon, 20 Oct 2025 15:35:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45645120</comments>
-    </item>
-    <item>
-      <title>J.P. Morgan's OpenAI loan is strange</title>
-      <link>https://marketunpack.com/j-p-morgans-openai-loan-is-strange/</link>
-      <description>📝 Putting our investor hat on, the possible returns for investing $1,000 into OpenAI look like this:Cost: $1,000Case 1 (90%): OpenAI goes bankrupt. Return: $0Case 2 (9%): OpenAI becomes a big successful company and goes 10x. Return: $10,000Case 3 (1%): OpenAI becomes the big new thing and goes 100x.
-
-🔗 Read more: https://marketunpack.com/j-p-morgans-openai-loan-is-strange/</description>
-      <guid isPermaLink="true">https://marketunpack.com/j-p-morgans-openai-loan-is-strange/</guid>
-      <pubDate>Mon, 20 Oct 2025 19:38:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648258</comments>
-    </item>
-    <item>
-      <title>When a stadium adds AI to everything, it's worse experience for everyone</title>
-      <link>https://a.wholelottanothing.org/bmo-stadium-in-la-added-ai-to-everything-and-what-they-got-was-a-worse-experience-for-everyone/</link>
-      <description>📝 Case in point: Let's talk about my favorite concession stand at BMO last year, a place that served rotisserie chicken with waffle fries and chicken sandwiches. I returned to the same concession stand yesterday and here's their new menu:When your checkout stand relies on computer vision, it's probably confusing to have half a dozen different menu items that fans can enjoy. This was a quick service "market" style place and last year, you'd just grab stuff off a shelf, and checkout quickly from staff at multiple registers.
-
-🔗 Read more: https://a.wholelottanothing.org/bmo-stadium-in-la-added-ai-to-everything-and-what-they-got-was-a-worse-experience-for-everyone/</description>
-      <guid isPermaLink="true">https://a.wholelottanothing.org/bmo-stadium-in-la-added-ai-to-everything-and-what-they-got-was-a-worse-experience-for-everyone/</guid>
-      <pubDate>Mon, 20 Oct 2025 19:38:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648249</comments>
-    </item>
-    <item>
-      <title>Peanut allergies have plummeted in children</title>
-      <link>https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html</guid>
-      <pubDate>Mon, 20 Oct 2025 18:09:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45647133</comments>
-    </item>
-    <item>
-      <title>It Kind of Seems Like Peter Thiel Is Losing It</title>
-      <link>https://futurism.com/future-society/peter-thiel-antichrist-lectures</link>
-      <description>📝 ” In fact, Thiel said during the leaked lecture that he’s suspicious the Antichrist is already among us. And it just seems to me that when you tell me a story about the Antichrist coming to power and using the fear of technological change to impose order on the world, I feel like that Antichrist would maybe be using the tools that you are building… Isn’t that a concern. Wouldn’t that be the irony of history, that the ma.
-
-🔗 Read more: https://futurism.com/future-society/peter-thiel-antichrist-lectures</description>
-      <guid isPermaLink="true">https://futurism.com/future-society/peter-thiel-antichrist-lectures</guid>
-      <pubDate>Mon, 20 Oct 2025 20:14:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648726</comments>
-    </item>
-    <item>
-      <title>iOS 26.1 lets users control Liquid Glass transparency</title>
-      <link>https://www.macrumors.com/2025/10/20/ios-26-1-liquid-glass-toggle/</link>
-      <description>📝 1, Apple has introduced a new setting that's designed to allow users to customize the look of Liquid Glass. The toggle lets users select from a clear look for Liquid Glass, or a tinted look. Clear is the current Liquid Glass design, which is more transparent and shows the background underneath buttons, bars, and menus, while tinted increases the opacity of Liquid Glass and adds more contrast.
-
-🔗 Read more: https://www.macrumors.com/2025/10/20/ios-26-1-liquid-glass-toggle/</description>
-      <guid isPermaLink="true">https://www.macrumors.com/2025/10/20/ios-26-1-liquid-glass-toggle/</guid>
-      <pubDate>Mon, 20 Oct 2025 19:39:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45648266</comments>
-    </item>
-    <item>
-      <title>Postman which I thought worked locally on my computer, is down</title>
-      <link>https://status.postman.com</link>
-      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. Country code: Afghanistan (+93) Albania (+355) Algeria (+213) American Samoa (+1) Andorra (+376) Angola (+244) Anguilla (+1) Antigua and Barbuda (+1) Argentina (+54) Armenia (+374) Aruba (+297) Australia/Cocos/Christmas Island (+61) Austria (+43) Azerbaijan (+994) Bahamas (+1) Bahrain (+973) Bangladesh (+880) Barbados (+1) Belarus (+375) Belgium (+32) Belize (+501) Benin (+229) Bermuda (+1) Bolivia (+591) Bosnia and Herzegovina (+387) Botswana (+267) Brazil (+55) Brunei (+673) Bulgaria (+359) Burkina Faso (+226) Burundi (+257) Cambodia (+855) Cameroon (+237) Canada (+1) Cape Verde (+238) Cayman Islands (+1) Central Africa (+236) Chad (+235) Chile (+56) China (+86) Colombia (+57) Comoros (+269) Congo (+242) Congo, Dem Rep (+243) Costa Rica (+506) Croatia (+385) Cyprus (+357) Czech Republic (+420) Denmark (+45) Djibouti (+253) Dominica (+1) Dominican Republic (+1) Egypt (+20) El Salvador (+503) Equatorial Guinea (+240) Estonia (+372) Ethiopia (+251) Faroe Islands (+298) Fiji (+679) Finland/Aland Islands (+358) France (+33) French Guiana (+594) French Polynesia (+689) Gabon (+241) Gambia (+220) Georgia (+995) Germany (+49) Ghana (+233) Gibraltar (+350) Greece (+30) Greenland (+299) Grenada (+1) Guadeloupe (+590) Guam (+1) Guatemala (+502) Guinea (+224) Guyana (+592) Haiti (+509) Honduras (+504) Hong Kong (+852) Hungary (+36) Iceland (+354) India (+91) Indonesia (+62) Iraq (+964) Ireland (+353) Israel (+972) Italy (+39) Jamaica (+1) Japan (+81) Jordan (+962) Kenya (+254) Korea, Republic of (+82) Kosovo (+383) Kuwait (+965) Kyrgyzstan (+996) Laos (+856) Latvia (+371) Lebanon (+961) Lesotho (+266) Liberia (+231) Libya (+218) Liechtenstein (+423) Lithuania (+370) Luxembourg (+352) Macao (+853) Macedonia (+389) Madagascar (+261) Malawi (+265) Malaysia (+60) Maldives (+960) Mali (+223) Malta (+356) Martinique (+596) Mauritania (+222) Mauritius (+230) Mexico (+52) Monaco (+377) Mongolia (+976) Montenegro (+382) Montserrat (+1) Morocco/Western Sahara (+212) Mozambique (+258) Namibia (+264) Nepal (+977) Netherlands (+31) New Zealand (+64) Nicaragua (+505) Niger (+227) Nigeria (+234) Norway (+47) Oman (+968) Pakistan (+92) Palestinian Territory (+970) Panama (+507) Paraguay (+595) Peru (+51) Philippines (+63) Poland (+48) Portugal (+351) Puerto Rico (+1) Qatar (+974) Reunion/Mayotte (+262) Romania (+40) Russia/Kazakhstan (+7) Rwanda (+250) Samoa (+685) San Marino (+378) Saudi Arabia (+966) Senegal (+221) Serbia (+381) Seychelles (+248) Sierra Leone (+232) Singapore (+65) Slovakia (+421) Slovenia (+386) South Africa (+27) Spain (+34) Sri Lanka (+94) St Kitts and Nevis (+1) St Lucia (+1) St Vincent Grenadines (+1) Sudan (+249) Suriname (+597) Swaziland (+268) Sweden (+46) Switzerland (+41) Taiwan (+886) Tajikistan (+992) Tanzania (+255) Thailand (+66) Togo (+228) Tonga (+676) Trinidad and Tobago (+1) Tunisia (+216) Turkey (+90) Turks and Caicos Islands (+1) Uganda (+256) Ukraine (+380) United Arab Emirates (+971) United Kingdom (+44) United States (+1) Uruguay (+598) Uzbekistan (+998) Venezuela (+58) Vietnam (+84) Virgin Islands, British (+1) Virgin Islands, U. Subscribe via Slack By subscribing you acknowledge our Privacy Policy.
-
-🔗 Read more: https://status.postman.com</description>
-      <guid isPermaLink="true">https://status.postman.com</guid>
-      <pubDate>Mon, 20 Oct 2025 15:40:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45645172</comments>
+🔗 Read more: https://0x00.cl/blog/2025/occ-2025/</description>
+      <guid isPermaLink="true">https://0x00.cl/blog/2025/occ-2025/</guid>
+      <pubDate>Mon, 20 Oct 2025 23:40:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45650792</comments>
     </item>
   </channel>
 </rss>
