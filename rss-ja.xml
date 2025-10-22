@@ -6,61 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Oct 2025 01:27:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 03:45:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>rlsw – 5k LOC 未満の Raylib ソフトウェア OpenGL レンダラー</title>
-      <link>https://github.com/raysan5/raylib/blob/master/src/external/rlsw.h</link>
-      <guid isPermaLink="true">https://github.com/raysan5/raylib/blob/master/src/external/rlsw.h</guid>
-      <pubDate>Tue, 21 Oct 2025 21:00:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45661638</comments>
+      <title>OpenBSD 7.8 リリース</title>
+      <link>https://cdn.openbsd.org/pub/OpenBSD/7.8/ANNOUNCEMENT</link>
+      <description>📝 AMD CPUを搭載したさまざまなThinkPadの電源ボタンを修正します。 o 膨大な数の CPU を搭載したマシン向けに mtx_enter() を改善しました。サスペンド sysctl は、「S0ix」サスペンドを強制し、inteldrm(4) と amdgpu(4) のサスペンドをスキップして、サスペンド中にディスプレイがオンのままになるようにします。
+
+
+🔤 Original: OpenBSD 7.8 Released
+
+🔗 Read more: https://cdn.openbsd.org/pub/OpenBSD/7.8/ANNOUNCEMENT</description>
+      <guid isPermaLink="true">https://cdn.openbsd.org/pub/OpenBSD/7.8/ANNOUNCEMENT</guid>
+      <pubDate>Wed, 22 Oct 2025 02:02:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45664147</comments>
     </item>
     <item>
-      <title>「尻呼吸」はすぐに本当の治療法になるかもしれない</title>
-      <link>https://arstechnica.com/science/2025/10/butt-breathing-might-soon-be-a-real-medical-treatment/</link>
-      <description>📝 ドジョウは（ナマコと同様に）腸呼吸を行っています（i. 結果：どちらの治療法も、大きな合併症もなく呼吸不全を防ぐのに非常に効果的でした。ジェニファーは配偶者の物理学者ショーン・M・ジャスティンと一緒にボルチモアに住んでいます。
+      <title>ナイアガラの滝の隠された工学</title>
+      <link>https://practical.engineering/blog/2025/10/21/the-hidden-engineering-of-niagara-falls</link>
+      <description>📝 しばらくの間、ナイアガラ断崖はエリー湖とオンタリオ湖の間の自然のボトルネックとなり、上層の湖と大西洋の間で物資が直接移動するのを妨げていました。エリー運河は 1825 年に始まり、オンタリオ湖を迂回してこの問題をある程度解決しました。エリー湖からオンタリオ湖に向かう下流では、船舶交通が自然の川の上を通る水道橋を通過します。
 
 
-🔤 Original: "Butt breathing" might soon be a real medical treatment
+🔤 Original: The Hidden Engineering of Niagara Falls
 
-🔗 Read more: https://arstechnica.com/science/2025/10/butt-breathing-might-soon-be-a-real-medical-treatment/</description>
-      <guid isPermaLink="true">https://arstechnica.com/science/2025/10/butt-breathing-might-soon-be-a-real-medical-treatment/</guid>
-      <pubDate>Tue, 21 Oct 2025 23:00:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45662831</comments>
+🔗 Read more: https://practical.engineering/blog/2025/10/21/the-hidden-engineering-of-niagara-falls</description>
+      <guid isPermaLink="true">https://practical.engineering/blog/2025/10/21/the-hidden-engineering-of-niagara-falls</guid>
+      <pubDate>Tue, 21 Oct 2025 22:43:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45662668</comments>
     </item>
     <item>
-      <title>Daniel J. Bernstein が cdb (定数データベース) を 4GB を超えるように更新しました</title>
-      <link>https://cdb.cr.yp.to/</link>
-      <description>📝 Alex J の CDB::TinyCDB。Boris Sukholitko の pure-cdb: Haskell 実装。 David Wilson の python-pure-cdb: Python の実装。
+      <title>CDB: cdb64 のサポートを追加</title>
+      <link>https://cdb.cr.yp.to/download.html</link>
+      <description>📝 さまざまな uint32、fmt、scan 関数を num 関数に置き換えます。一部のラッパーを削除します: str_len、alloc、uint32、exit、error、systype。コードを調整して、壁からの苦情を回避します。
 
 
-🔤 Original: Daniel J. Bernstein updated cdb (Constant database) to go beyond 4GB
+🔤 Original: Cdb: Add support for cdb64
 
-🔗 Read more: https://cdb.cr.yp.to/</description>
-      <guid isPermaLink="true">https://cdb.cr.yp.to/</guid>
+🔗 Read more: https://cdb.cr.yp.to/download.html</description>
+      <guid isPermaLink="true">https://cdb.cr.yp.to/download.html</guid>
       <pubDate>Wed, 22 Oct 2025 00:11:09 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=45663435</comments>
-    </item>
-    <item>
-      <title>OpenFGA を純粋な Postgres で書き直しました</title>
-      <link>https://getrover.substack.com/p/how-we-rewrote-openfga-in-pure-postgres</link>
-      <guid isPermaLink="true">https://getrover.substack.com/p/how-we-rewrote-openfga-in-pure-postgres</guid>
-      <pubDate>Tue, 21 Oct 2025 20:52:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45661547</comments>
-    </item>
-    <item>
-      <title>あらゆるものを宝くじでフィクション化</title>
-      <link>https://www.dopaminemarkets.com/p/the-lottery-fication-of-everything</link>
-      <description>📝 上値が非対称な、小さくて確率の低い賭け。ゼロデイ オプションゼロデイ オプションは、同日内に期限が切れる短期オプション契約です。個人消費者はゼロデイ オプションを好みますが、ロビンフッドのような証券会社はそれをさらに好みます。
-
-
-🔤 Original: The Lottery-fication of Everything
-
-🔗 Read more: https://www.dopaminemarkets.com/p/the-lottery-fication-of-everything</description>
-      <guid isPermaLink="true">https://www.dopaminemarkets.com/p/the-lottery-fication-of-everything</guid>
-      <pubDate>Tue, 21 Oct 2025 21:05:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45661698</comments>
     </item>
   </channel>
 </rss>

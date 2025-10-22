@@ -6,61 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 22 Oct 2025 01:27:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 03:45:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>rlsw – Raylib 软件 OpenGL 渲染器，小于 5k LOC</title>
-      <link>https://github.com/raysan5/raylib/blob/master/src/external/rlsw.h</link>
-      <guid isPermaLink="true">https://github.com/raysan5/raylib/blob/master/src/external/rlsw.h</guid>
-      <pubDate>Tue, 21 Oct 2025 21:00:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45661638</comments>
+      <title>OpenBSD 7.8 发布</title>
+      <link>https://cdn.openbsd.org/pub/OpenBSD/7.8/ANNOUNCEMENT</link>
+      <description>📝 修复了各种配备 AMD CPU 的 ThinkPad 上的电源按钮。 o 针对具有大量 CPU 的机器改进 mtx_enter()。挂起 sysctl，这将强制“S0ix”挂起并跳过 inteldrm(4) 和 amdgpu(4) 的挂起，以便显示器在挂起期间保持打开状态。
+
+
+🔤 Original: OpenBSD 7.8 Released
+
+🔗 Read more: https://cdn.openbsd.org/pub/OpenBSD/7.8/ANNOUNCEMENT</description>
+      <guid isPermaLink="true">https://cdn.openbsd.org/pub/OpenBSD/7.8/ANNOUNCEMENT</guid>
+      <pubDate>Wed, 22 Oct 2025 02:02:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45664147</comments>
     </item>
     <item>
-      <title>“屁股呼吸”可能很快就会成为一种真正的医疗方法</title>
-      <link>https://arstechnica.com/science/2025/10/butt-breathing-might-soon-be-a-real-medical-treatment/</link>
-      <description>📝 泥鳅（以及海参）采用肠道呼吸（即：结果：这两种治疗方法在避免呼吸衰竭方面都非常有效，而且没有出现重大并发症。詹妮弗和她的配偶、物理学家肖恩·M·詹妮弗住在巴尔的摩。
+      <title>尼亚加拉大瀑布的隐藏工程</title>
+      <link>https://practical.engineering/blog/2025/10/21/the-hidden-engineering-of-niagara-falls</link>
+      <description>📝 尼亚加拉悬崖一度成为伊利湖和安大略湖之间的天然瓶颈，阻止货物直接在上游湖泊和大西洋之间流动。伊利运河从 1825 年开始绕过安大略湖，在一定程度上解决了这个问题。在从伊利湖下游到安大略湖的途中，航运交通经过天然河流上的渡槽。
 
 
-🔤 Original: "Butt breathing" might soon be a real medical treatment
+🔤 Original: The Hidden Engineering of Niagara Falls
 
-🔗 Read more: https://arstechnica.com/science/2025/10/butt-breathing-might-soon-be-a-real-medical-treatment/</description>
-      <guid isPermaLink="true">https://arstechnica.com/science/2025/10/butt-breathing-might-soon-be-a-real-medical-treatment/</guid>
-      <pubDate>Tue, 21 Oct 2025 23:00:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45662831</comments>
+🔗 Read more: https://practical.engineering/blog/2025/10/21/the-hidden-engineering-of-niagara-falls</description>
+      <guid isPermaLink="true">https://practical.engineering/blog/2025/10/21/the-hidden-engineering-of-niagara-falls</guid>
+      <pubDate>Tue, 21 Oct 2025 22:43:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45662668</comments>
     </item>
     <item>
-      <title>Daniel J. Bernstein 更新了 cdb（常量数据库），使其超过 4GB</title>
-      <link>https://cdb.cr.yp.to/</link>
-      <description>📝 Alex J 的 CDB::TinyCDB。 Boris Sukholitko 的 pure-cdb：Haskell 实现。 David Wilson 的 python-pure-cdb：Python 实现。
+      <title>Cdb：添加对 cdb64 的支持</title>
+      <link>https://cdb.cr.yp.to/download.html</link>
+      <description>📝 用 num 函数替换各种 uint32、fmt、scan 函数。消除一些包装器：str_len、alloc、uint32、exit、error、systype。调整代码以避免 -Wall 投诉。
 
 
-🔤 Original: Daniel J. Bernstein updated cdb (Constant database) to go beyond 4GB
+🔤 Original: Cdb: Add support for cdb64
 
-🔗 Read more: https://cdb.cr.yp.to/</description>
-      <guid isPermaLink="true">https://cdb.cr.yp.to/</guid>
+🔗 Read more: https://cdb.cr.yp.to/download.html</description>
+      <guid isPermaLink="true">https://cdb.cr.yp.to/download.html</guid>
       <pubDate>Wed, 22 Oct 2025 00:11:09 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=45663435</comments>
-    </item>
-    <item>
-      <title>我们用纯 Postgres 重写了 OpenFGA</title>
-      <link>https://getrover.substack.com/p/how-we-rewrote-openfga-in-pure-postgres</link>
-      <guid isPermaLink="true">https://getrover.substack.com/p/how-we-rewrote-openfga-in-pure-postgres</guid>
-      <pubDate>Tue, 21 Oct 2025 20:52:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45661547</comments>
-    </item>
-    <item>
-      <title>一切都被彩票化了</title>
-      <link>https://www.dopaminemarkets.com/p/the-lottery-fication-of-everything</link>
-      <description>📝 小额、低概率的赌注，上行空间不对称。零日期权零日期权是在同一天内到期的短期期权合约。零售消费者喜欢零日选项，而像 Robinhood 这样的经纪商更喜欢它们。
-
-
-🔤 Original: The Lottery-fication of Everything
-
-🔗 Read more: https://www.dopaminemarkets.com/p/the-lottery-fication-of-everything</description>
-      <guid isPermaLink="true">https://www.dopaminemarkets.com/p/the-lottery-fication-of-everything</guid>
-      <pubDate>Tue, 21 Oct 2025 21:05:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45661698</comments>
     </item>
   </channel>
 </rss>
