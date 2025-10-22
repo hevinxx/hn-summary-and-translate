@@ -6,80 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 22 Oct 2025 12:53:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 15:21:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>互联网最大的烦恼：Cookie 法律应该针对浏览器，而不是网站</title>
-      <link>https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</link>
-      <description>📝 你做出一次选择。您的浏览器成为您的个人隐私执行者，法律要求它代表您行事。你的选择将是有意义的，因为你会深思熟虑地做出一次。
+      <title>Cloudflare Circl FourQ 实施中的加密问题 (CVE-2025-8556)</title>
+      <link>https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</link>
+      <description>📝 FourQ 是具有 128 位安全性的椭圆曲线，由微软研究院开发，由扭曲的爱德华兹曲线方程定义。此外，FourQ 曲线定义了两个自同态或结构保持函数，它们充当更有效地在曲线上执行计算的“捷径”。椭圆曲线 Diffie-Hellman 或 ECDH 涉及每一方采用秘密标量 \(k\) 并将其与固定生成点 \(G\) 相乘以计算点 \(Q = k*G\)。
 
 
-🔤 Original: Internet's biggest annoyance: Cookie laws should target browsers, not websites
+🔤 Original: Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556)
 
-🔗 Read more: https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</description>
-      <guid isPermaLink="true">https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:12:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667866</comments>
+🔗 Read more: https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</description>
+      <guid isPermaLink="true">https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</guid>
+      <pubDate>Wed, 22 Oct 2025 14:22:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669593</comments>
     </item>
     <item>
-      <title>古腾堡计划首席执行官格雷格·纽比去世</title>
-      <link>https://www.pgdp.net/wiki/In_Memoriam/gbnewby</link>
-      <description>📝 纽比担任古腾堡文学档案基金会首席执行官 20 多年，在此期间，他与分布式校对员密切合作。 Newby 与微软和麻省理工学院合作制作了由人工智能讲述的有声读物的古腾堡开放有声读物集。纽比和他对古腾堡计划的不懈领导是分布式校对者的密切合作伙伴，我们将非常怀念他。
+      <title>重新审视 Linux 功能</title>
+      <link>https://dfir.ch/posts/linux_capabilities/</link>
+      <description>📝 Python 后门 命令 setcap 设置可执行文件的文件功能。使用命令 getcap -r 可以枚举具有功能集的所有二进制文件：# getcap -r / 2&gt;/dev/null /usr/lib/x86_64-linux-gnu/gstreamer1。 12 cap_setuid=ep /proc 目录内： # cat /proc/1143966/status | grep Cap 其中： CapInh = 继承的功能 CapPrm = 允许的功能 CapEff = 有效的功能 CapBnd = 边界集 CapAmb = 环境功能集 利用命令 capsh，我们按如下方式解码功能： # capsh --decode=0000000000000080 0x0000000000000080=cap_setuid 或者使用命令 getpcaps，传递PID 作为 参数： # getpcaps 1143966 `1143966' 的功能：= cap_setuid+ep 使用 setcap -r 从二进制文件中删除功能 # setcap -r /usr/bin/python3.
 
 
-🔤 Original: Greg Newby, CEO of Project Gutenberg, has died
+🔤 Original: Linux Capabilities Revisited
 
-🔗 Read more: https://www.pgdp.net/wiki/In_Memoriam/gbnewby</description>
-      <guid isPermaLink="true">https://www.pgdp.net/wiki/In_Memoriam/gbnewby</guid>
-      <pubDate>Wed, 22 Oct 2025 09:05:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45666510</comments>
+🔗 Read more: https://dfir.ch/posts/linux_capabilities/</description>
+      <guid isPermaLink="true">https://dfir.ch/posts/linux_capabilities/</guid>
+      <pubDate>Wed, 22 Oct 2025 13:50:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669142</comments>
     </item>
     <item>
-      <title>Infracost (YC W21) 聘请首位开发倡导者以推动 FinOps 左移</title>
-      <link>https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</link>
-      <description>📝 Infracost 帮助工程师在花费任何资金之前了解代码更改的成本 - 我们参与工程工作流程，显示成本影响并提出优化建议。我们正在招聘第一位开发者倡导者，以帮助更多工程师发现并爱上 Infracost。我们使他们能够在投入生产之前主动发现并解决云成本问题。
+      <title>MinIO 停止分发免费 Docker 镜像</title>
+      <link>https://github.com/minio/minio/issues/21647#issuecomment-3418675115</link>
+      <description>📝 #21647新问题复制链接新问题复制链接ClosedClosedDocker 版本。 #21647复制链接标签社区按预期工作描述neil-lcv-cs于 2025 年 10 月 18 日开放问题主体操作您好，我没有找到安全版本 Security/CVE RELEASE 的新映像。 👍与 👍22Weetile、dpieski、expilu、justsomescripts、StrangePeanut 和其他 17 个元数据元数据分配者没有人分配标签社区按预期工作类型没有类型项目没有项目里程碑没有里程碑关系还没有开发没有分支或拉取请求问题操作。
 
 
-🔤 Original: Infracost (YC W21) Hiring First Dev Advocate to Shift FinOps Left
+🔤 Original: MinIO stops distributing free Docker images
 
-🔗 Read more: https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</guid>
-      <pubDate>Wed, 22 Oct 2025 12:02:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667770</comments>
+🔗 Read more: https://github.com/minio/minio/issues/21647#issuecomment-3418675115</description>
+      <guid isPermaLink="true">https://github.com/minio/minio/issues/21647#issuecomment-3418675115</guid>
+      <pubDate>Wed, 22 Oct 2025 06:17:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45665452</comments>
     </item>
     <item>
-      <title>次贷机构 PrimaLend 在债券违约后进入破产</title>
-      <link>https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</link>
-      <description>📝 MarketsFacebookXLinkedInEmailLinkGiftExpand客户在加利福尼亚州科尔马的一家经销店查看二手福特汽车。摄影师：David Paul Morris/BloombergFacebookXLinkedInEmailLinkGift赠送本文联系我们：提供新闻反馈或报告错误机密提示。 PrimaLend 为迎合次级借款人需求的汽车经销商提供融资，根据其在德克萨斯州北区提交的法庭文件，该公司列出的估计资产和负债均低于 5 亿美元。
+      <title>为腐烂的东西设计软件</title>
+      <link>https://drobinin.com/posts/designing-software-for-things-that-rot/</link>
+      <description>📝 为腐烂的东西设计软件 2025 年 10 月 20 日 发酵 iOS Home Assistant 决策树 HACCP 白色霉菌很好。就在那时，我突然意识到：我一直把发酵当作烹饪来对待，而我本应该把它当作基础设施来对待。低酸、低氧、长时间腌制的肉类和油浸大蒜等技术使情况发生了变化，有毒的东西不会有异味或味道。
 
 
-🔤 Original: Subprime Lender PrimaLend Enters Bankruptcy After Bond Default
+🔤 Original: Designing software for things that rot
 
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</guid>
-      <pubDate>Wed, 22 Oct 2025 12:21:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667949</comments>
+🔗 Read more: https://drobinin.com/posts/designing-software-for-things-that-rot/</description>
+      <guid isPermaLink="true">https://drobinin.com/posts/designing-software-for-things-that-rot/</guid>
+      <pubDate>Tue, 21 Oct 2025 22:10:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45662368</comments>
     </item>
     <item>
-      <title>星云</title>
-      <link>https://blogs.nvidia.com/blog/starcloud/</link>
-      <description>📝 NVIDIA 和 Google Cloud 加速企业 AI 和工业数字化 NVIDIA 和 Google Cloud 正在扩展加速计算的访问范围，以转变从视觉计算到代理和物理 AI 的全方位企业工作负载。谷歌云今天宣布。
+      <title>AI 助手 45% 的时间会歪曲新闻内容</title>
+      <link>https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</link>
+      <description>📝 尽管有了一些改进，但很明显这些助手仍然存在重大问题。最终，这些错误可能会对人们对新闻和新闻品牌的信任产生负面影响。时事通讯 媒体中心的最新消息 所有新闻 显示更多 按标签搜索：用最新新闻标记 最新新闻。
 
 
-🔤 Original: Starcloud
+🔤 Original: AI assistants misrepresent news content 45% of the time
 
-🔗 Read more: https://blogs.nvidia.com/blog/starcloud/</description>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/starcloud/</guid>
-      <pubDate>Wed, 22 Oct 2025 11:23:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667458</comments>
+🔗 Read more: https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</guid>
+      <pubDate>Wed, 22 Oct 2025 13:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668990</comments>
     </item>
     <item>
-      <title>捷豹路虎黑客攻击英国经济估计损失 $2.5B</title>
-      <link>https://www.reuters.com/sustainability/boards-policy-regulation/jaguar-land-rover-hack-cost-uk-economy-25-billion-report-says-2025-10-22/</link>
-      <guid isPermaLink="true">https://www.reuters.com/sustainability/boards-policy-regulation/jaguar-land-rover-hack-cost-uk-economy-25-billion-report-says-2025-10-22/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:27:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668008</comments>
+      <title>本地法学硕士的安全悖论</title>
+      <link>https://quesma.com/blog/local-llms-security-paradox/</link>
+      <description>📝 当攻击者提示他们包含漏洞时，本地模型的成功率高达 95%。我们提出了攻击者利用本地 LLM 生成恶意代码的两种方法。第二个强制在人工智能辅助编码会话期间立即执行代码。
+
+
+🔤 Original: The security paradox of local LLMs
+
+🔗 Read more: https://quesma.com/blog/local-llms-security-paradox/</description>
+      <guid isPermaLink="true">https://quesma.com/blog/local-llms-security-paradox/</guid>
+      <pubDate>Wed, 22 Oct 2025 12:48:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668264</comments>
+    </item>
+    <item>
+      <title>幼龙：变形金刚和大脑模型之间缺失的环节</title>
+      <link>https://arxiv.org/abs/2509.26507</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
+
+
+🔤 Original: The Dragon Hatchling: The missing link between the transformer and brain models
+
+🔗 Read more: https://arxiv.org/abs/2509.26507</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.26507</guid>
+      <pubDate>Wed, 22 Oct 2025 13:00:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668408</comments>
+    </item>
+    <item>
+      <title>特斯拉因电池断电风险召回近 13,000 辆电动汽车</title>
+      <link>https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</link>
+      <description>📝 IndustriesTransportationFacebookXLinkedInEmailLinkGiftExpand一辆装有特斯拉 Model Y 车辆的车辆运输卡车停在该公司位于加利福尼亚州科尔马的商店内。特斯拉在美国国家公路交通安全管理局网站上发布的文件中表示，该问题源于电池组连接部分的故障，这可能会导致在没有警告的情况下失去推进力。该公司正在召回今年 3 月至 8 月生产的近 8,000 辆 Model Y SUV 和略多于 5,000 辆 Model 3 轿车。
+
+
+🔤 Original: Tesla Recalls Almost 13,000 EVs over Risk of Battery Power Loss
+
+🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</description>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</guid>
+      <pubDate>Wed, 22 Oct 2025 12:28:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668022</comments>
+    </item>
+    <item>
+      <title>走私香烟气球迫使立陶宛机场关闭</title>
+      <link>https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</link>
+      <description>📝 本月早些时候发布的一张未注明日期的照片显示，一名边境官员正在检查一个用于运载香烟进入立陶宛的气球。照片：APC香烟走私气球迫使立陶宛机场关闭 维尔纽斯机场因安全原因在白俄罗斯气球最近入侵后连夜关闭 走私者使用数十个气球将香烟从白俄罗斯运入立陶宛，迫使维尔纽斯机场连夜临时关闭。探索有关这些主题的更多信息立陶宛白俄罗斯欧洲新闻分享重复使用此内容。
+
+
+🔤 Original: Cigarette-smuggling balloons force closure of Lithuanian airport
+
+🔗 Read more: https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</description>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</guid>
+      <pubDate>Wed, 22 Oct 2025 13:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668805</comments>
+    </item>
+    <item>
+      <title>SourceFS：使用虚拟文件系统，2h+ Android 构建变成了 15m 的任务</title>
+      <link>https://www.source.dev/journal/sourcefs</link>
+      <guid isPermaLink="true">https://www.source.dev/journal/sourcefs</guid>
+      <pubDate>Wed, 22 Oct 2025 12:39:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668160</comments>
+    </item>
+    <item>
+      <title>Apple 的围墙花园如何保护 ICE</title>
+      <link>https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</link>
+      <description>📝 苹果的诉讼使特朗普政府有可能关闭 ICEBlock 应用程序。苹果的诉讼使特朗普政府有可能关闭 ICEBlock 应用程序。你本可以消除苹果的杠杆点。
+
+
+🔤 Original: How Apple's walled garden protects ICE
+
+🔗 Read more: https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</description>
+      <guid isPermaLink="true">https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</guid>
+      <pubDate>Wed, 22 Oct 2025 14:38:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669796</comments>
     </item>
   </channel>
 </rss>

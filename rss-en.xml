@@ -6,65 +6,115 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Oct 2025 12:53:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 15:21:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Internet's biggest annoyance: Cookie laws should target browsers, not websites</title>
-      <link>https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</link>
-      <description>📝 You make your choice once. Your browser becomes your personal privacy enforcer, and the law would require it to act on your behalf. Your choice would be meaningful because you’d make it once, thoughtfully.
+      <title>Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556)</title>
+      <link>https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</link>
+      <description>📝 FourQ is an elliptic curve with 128-bit security, developed by Microsoft Research and is defined by a twisted Edwards curve equation. In addition, the FourQ curve defines two endomorphisms, or structure-preserving functions, which serve as "shortcuts" to perform computations on the curve more efficiently. Elliptic Curve Diffie-Hellman or ECDH involves each side taking a secret scalar \(k\) and multiplying it with a fixed generator point \(G\) to compute the point \(Q = k*G\).
 
-🔗 Read more: https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</description>
-      <guid isPermaLink="true">https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:12:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667866</comments>
+🔗 Read more: https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</description>
+      <guid isPermaLink="true">https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</guid>
+      <pubDate>Wed, 22 Oct 2025 14:22:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669593</comments>
     </item>
     <item>
-      <title>Greg Newby, CEO of Project Gutenberg, has died</title>
-      <link>https://www.pgdp.net/wiki/In_Memoriam/gbnewby</link>
-      <description>📝 Newby was CEO of the Project Gutenberg Literary Archive Foundation for more than 20 years and, in that role, worked very closely with Distributed Proofreaders. Newby collaborated with Microsoft and MIT to produce the Project Gutenberg Open Audiobook Collection of AI-narrated audiobooks. Newby and his tireless leadership of Project Gutenberg was a close partner of Distributed Proofreaders and will be greatly missed here.
+      <title>Linux Capabilities Revisited</title>
+      <link>https://dfir.ch/posts/linux_capabilities/</link>
+      <description>📝 Backdooring Python The command setcap sets file capabilities on an executable. Enumerating all binaries with capabilities set is possible with the command getcap -r: # getcap -r / 2&gt;/dev/null /usr/lib/x86_64-linux-gnu/gstreamer1. 12 cap_setuid=ep Inside the /proc directory: # cat /proc/1143966/status | grep Cap where: CapInh = Inherited capabilities CapPrm = Permitted capabilities CapEff = Effective capabilities CapBnd = Bounding set CapAmb = Ambient capabilities set Utilising the command capsh, we decode the capabilities as follows: # capsh --decode=0000000000000080 0x0000000000000080=cap_setuid Or with the command getpcaps, passing the PID as an argument: # getpcaps 1143966 Capabilities for `1143966': = cap_setuid+ep Remove the capabilities from a binary with setcap -r # setcap -r /usr/bin/python3.
 
-🔗 Read more: https://www.pgdp.net/wiki/In_Memoriam/gbnewby</description>
-      <guid isPermaLink="true">https://www.pgdp.net/wiki/In_Memoriam/gbnewby</guid>
-      <pubDate>Wed, 22 Oct 2025 09:05:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45666510</comments>
+🔗 Read more: https://dfir.ch/posts/linux_capabilities/</description>
+      <guid isPermaLink="true">https://dfir.ch/posts/linux_capabilities/</guid>
+      <pubDate>Wed, 22 Oct 2025 13:50:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669142</comments>
     </item>
     <item>
-      <title>Infracost (YC W21) Hiring First Dev Advocate to Shift FinOps Left</title>
-      <link>https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</link>
-      <description>📝 Infracost helps engineers see the cost of their code changes before any money has been spent - we sit in the engineering workflow, show the cost impact, and suggest optimizations. We’re hiring our first Developer Advocate to help more engineers discover and fall in love with Infracost. We enable them to proactively find and fix cloud cost issues before they hit production.
+      <title>MinIO stops distributing free Docker images</title>
+      <link>https://github.com/minio/minio/issues/21647#issuecomment-3418675115</link>
+      <description>📝 #21647New issueCopy linkNew issueCopy linkClosedClosedDocker release. #21647Copy linkLabelscommunityworking as intendedDescriptionneil-lcv-csopened on Oct 18, 2025Issue body actionsHello, I did not find a new image for the security release Security/CVE RELEASE. 👍React with 👍22Weetile, dpieski, expilu, justsomescripts, StrangePeanut and 17 moreMetadataMetadataAssigneesNo one assignedLabelscommunityworking as intendedTypeNo typeProjectsNo projectsMilestoneNo milestoneRelationshipsNone yetDevelopmentNo branches or pull requestsIssue actions.
 
-🔗 Read more: https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</guid>
-      <pubDate>Wed, 22 Oct 2025 12:02:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667770</comments>
+🔗 Read more: https://github.com/minio/minio/issues/21647#issuecomment-3418675115</description>
+      <guid isPermaLink="true">https://github.com/minio/minio/issues/21647#issuecomment-3418675115</guid>
+      <pubDate>Wed, 22 Oct 2025 06:17:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45665452</comments>
     </item>
     <item>
-      <title>Subprime Lender PrimaLend Enters Bankruptcy After Bond Default</title>
-      <link>https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</link>
-      <description>📝 MarketsFacebookXLinkedInEmailLinkGiftExpandCustomers view used Ford vehicles at a dealership in Colma, California. Photographer: David Paul Morris/BloombergFacebookXLinkedInEmailLinkGiftGift this articleContact us:Provide news feedback or report an errorConfidential tip. PrimaLend, which provides financing to auto dealerships that cater to subprime borrowers, listed estimated assets and liabilities below $500 million each, according to court documents it filed in the Northern District of Texas.
+      <title>Designing software for things that rot</title>
+      <link>https://drobinin.com/posts/designing-software-for-things-that-rot/</link>
+      <description>📝 Designing Software for Things that Rot 20 Oct 2025 Fermentation iOS Home Assistant decision trees HACCP The white mold was good. That's when it clicked: I'd been treating fermentation like cooking when I should have been treating it like infrastructure. Things change with low-acid, low-oxygen, long cures of meat and things like garlic-in-oil, where something poisonous won't have off-smells or flavours.
 
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</guid>
-      <pubDate>Wed, 22 Oct 2025 12:21:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667949</comments>
+🔗 Read more: https://drobinin.com/posts/designing-software-for-things-that-rot/</description>
+      <guid isPermaLink="true">https://drobinin.com/posts/designing-software-for-things-that-rot/</guid>
+      <pubDate>Tue, 21 Oct 2025 22:10:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45662368</comments>
     </item>
     <item>
-      <title>Starcloud</title>
-      <link>https://blogs.nvidia.com/blog/starcloud/</link>
-      <description>📝 NVIDIA and Google Cloud Accelerate Enterprise AI and Industrial Digitalization NVIDIA and Google Cloud are expanding access to accelerated computing to transform the full spectrum of enterprise workloads, from visual computing to agentic and physical AI. Google Cloud today announced.
+      <title>AI assistants misrepresent news content 45% of the time</title>
+      <link>https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</link>
+      <description>📝 Despite some improvements, it’s clear that there are still significant issues with these assistants. Ultimately, these errors could negatively impact people’s trust in news and news brands. Newsletter Latest from the Media Centre All news Show more Search by Tag: Tagged with Latest News Latest News.
 
-🔗 Read more: https://blogs.nvidia.com/blog/starcloud/</description>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/starcloud/</guid>
-      <pubDate>Wed, 22 Oct 2025 11:23:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667458</comments>
+🔗 Read more: https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</guid>
+      <pubDate>Wed, 22 Oct 2025 13:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668990</comments>
     </item>
     <item>
-      <title>Jaguar Land Rover hack cost UK economy an estimated $2.5B</title>
-      <link>https://www.reuters.com/sustainability/boards-policy-regulation/jaguar-land-rover-hack-cost-uk-economy-25-billion-report-says-2025-10-22/</link>
-      <guid isPermaLink="true">https://www.reuters.com/sustainability/boards-policy-regulation/jaguar-land-rover-hack-cost-uk-economy-25-billion-report-says-2025-10-22/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:27:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668008</comments>
+      <title>The security paradox of local LLMs</title>
+      <link>https://quesma.com/blog/local-llms-security-paradox/</link>
+      <description>📝 When attackers prompt them to include vulnerabilities, local models comply with up to 95% success rate. We present two ways attackers can exploit local LLMs to generate malicious code. The second forces immediate code execution during your AI-assisted coding session.
+
+🔗 Read more: https://quesma.com/blog/local-llms-security-paradox/</description>
+      <guid isPermaLink="true">https://quesma.com/blog/local-llms-security-paradox/</guid>
+      <pubDate>Wed, 22 Oct 2025 12:48:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668264</comments>
+    </item>
+    <item>
+      <title>The Dragon Hatchling: The missing link between the transformer and brain models</title>
+      <link>https://arxiv.org/abs/2509.26507</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
+
+🔗 Read more: https://arxiv.org/abs/2509.26507</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.26507</guid>
+      <pubDate>Wed, 22 Oct 2025 13:00:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668408</comments>
+    </item>
+    <item>
+      <title>Tesla Recalls Almost 13,000 EVs over Risk of Battery Power Loss</title>
+      <link>https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</link>
+      <description>📝 IndustriesTransportationFacebookXLinkedInEmailLinkGiftExpandA vehicle transport truck with Tesla Model Y vehicles at the company's store in Colma, California. The problem stems from a faulty battery pack connection part, which can lead to loss of propulsion without warning, Tesla said in documents posted to the National Highway Traffic Safety Administration’s website. The company is recalling almost 8,000 Model Y SUVs and just over 5,000 Model 3 sedans produced from March through August of this year.
+
+🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</description>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</guid>
+      <pubDate>Wed, 22 Oct 2025 12:28:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668022</comments>
+    </item>
+    <item>
+      <title>Cigarette-smuggling balloons force closure of Lithuanian airport</title>
+      <link>https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</link>
+      <description>📝 A border officer inspects a balloon used to carry cigarettes into Lithuania, in an undated photo issued earlier this month. Photograph: APCigarette-smuggling balloons force closure of Lithuanian airportVilnius airport closed overnight for safety reasons after latest incursion of balloons from Belarus Dozens of balloons used by smugglers to transport cigarettes from Belarus into Lithuania forced the temporary closure of Vilnius airport overnight. Explore more on these topicsLithuaniaBelarusEuropenewsShareReuse this content.
+
+🔗 Read more: https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</description>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</guid>
+      <pubDate>Wed, 22 Oct 2025 13:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668805</comments>
+    </item>
+    <item>
+      <title>SourceFS: A 2h+ Android build becomes a 15m task with a virtual filesystem</title>
+      <link>https://www.source.dev/journal/sourcefs</link>
+      <guid isPermaLink="true">https://www.source.dev/journal/sourcefs</guid>
+      <pubDate>Wed, 22 Oct 2025 12:39:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668160</comments>
+    </item>
+    <item>
+      <title>How Apple's walled garden protects ICE</title>
+      <link>https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</link>
+      <description>📝 Apple lawsuit made it possible for the Trump administration to shut down the ICEBlock app. Apple lawsuit made it possible for the Trump administration to shut down the ICEBlock app. You could have removed the leverage point on Apple.
+
+🔗 Read more: https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</description>
+      <guid isPermaLink="true">https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</guid>
+      <pubDate>Wed, 22 Oct 2025 14:38:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669796</comments>
     </item>
   </channel>
 </rss>

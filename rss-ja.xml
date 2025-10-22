@@ -6,80 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Oct 2025 12:53:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 15:21:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>インターネットの最大の問題: Cookie 法は Web サイトではなくブラウザを対象にする必要があります</title>
-      <link>https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</link>
-      <description>📝 あなたは一度選択します。ブラウザは個人のプライバシー執行者となり、法律でブラウザがあなたに代わって行動することが義務付けられます。あなたの選択は、一度は考えて行うものであるため、意味のあるものとなるでしょう。
+      <title>CloudflareのCircl FourQ実装における暗号化の問題 (CVE-2025-8556)</title>
+      <link>https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</link>
+      <description>📝 FourQ は、Microsoft Research によって開発された 128 ビット セキュリティを備えた楕円曲線であり、ツイスト エドワーズ曲線方程式によって定義されます。さらに、FourQ 曲線は、曲線上の計算をより効率的に実行するための「ショートカット」として機能する 2 つの準同型性、または構造保存関数を定義します。楕円曲線ディフィー ヘルマン (ECDH) では、各側が秘密スカラー \(k\) を取得し、それに固定生成点 \(G\) を乗算して点 \(Q = k*G\) を計算します。
 
 
-🔤 Original: Internet's biggest annoyance: Cookie laws should target browsers, not websites
+🔤 Original: Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556)
 
-🔗 Read more: https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</description>
-      <guid isPermaLink="true">https://nednex.com/en/the-internets-biggest-annoyance-why-cookie-laws-should-target-browsers-not-websites/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:12:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667866</comments>
+🔗 Read more: https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</description>
+      <guid isPermaLink="true">https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</guid>
+      <pubDate>Wed, 22 Oct 2025 14:22:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669593</comments>
     </item>
     <item>
-      <title>プロジェクト・グーテンベルグCEOのグレッグ・ニュービー氏が死去</title>
-      <link>https://www.pgdp.net/wiki/In_Memoriam/gbnewby</link>
-      <description>📝 Newby は、20 年以上にわたり Project Gutenberg Literary Archive Foundation の CEO を務め、その役割において分散校正者と非常に緊密に連携しました。 Newby は Microsoft および MIT と協力して、AI ナレーション付きオーディオブックの Project Gutenberg Open Audiobook Collection を制作しました。ニュービー氏とプロジェクト グーテンベルクのたゆまぬリーダーシップは分散校正者の密接なパートナーであり、ここで惜しまれることになるでしょう。
+      <title>Linux の機能を再考する</title>
+      <link>https://dfir.ch/posts/linux_capabilities/</link>
+      <description>📝 バックドア Python コマンド setcap は、実行可能ファイルのファイル機能を設定します。機能が設定されたすべてのバイナリを列挙するには、コマンド getcap -r: # getcap -r / 2&gt;/dev/null /usr/lib/x86_64-linux-gnu/gstreamer1 を使用します。 12 cap_setuid=ep /proc ディレクトリ内: # cat /proc/1143966/status | grep Cap ここで、 CapInh = 継承された機能 CapPrm = 許可された機能 CapEff = 有効な機能 CapBnd = 境界セット CapAmb = アンビエント機能セット capsh コマンドを使用して、次のように機能をデコードします。 # capsh --decode=0000000000000080 0x0000000000000080=cap_setuid または次のコマンドを使用します。 getpcaps、PID を 引数: # getpcaps 1143966 `1143966' の機能: = cap_setuid+ep setcap -r # setcap -r /usr/bin/python3 を使用してバイナリから機能を削除します。
 
 
-🔤 Original: Greg Newby, CEO of Project Gutenberg, has died
+🔤 Original: Linux Capabilities Revisited
 
-🔗 Read more: https://www.pgdp.net/wiki/In_Memoriam/gbnewby</description>
-      <guid isPermaLink="true">https://www.pgdp.net/wiki/In_Memoriam/gbnewby</guid>
-      <pubDate>Wed, 22 Oct 2025 09:05:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45666510</comments>
+🔗 Read more: https://dfir.ch/posts/linux_capabilities/</description>
+      <guid isPermaLink="true">https://dfir.ch/posts/linux_capabilities/</guid>
+      <pubDate>Wed, 22 Oct 2025 13:50:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669142</comments>
     </item>
     <item>
-      <title>インフラコスト (YC W21) FinOps をシフトレフトするために最初の開発擁護者を採用</title>
-      <link>https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</link>
-      <description>📝 Infracost は、エンジニアがお金を費やす前にコード変更のコストを確認できるようにします。私たちはエンジニアリング ワークフローに参加し、コストへの影響を示し、最適化を提案します。私たちは、より多くのエンジニアが Infracost を発見し、気に入っていただけるよう、最初の開発者アドボケートを採用しています。クラウドのコストの問題を、本番環境に移行する前に積極的に発見して修正できるようにします。
+      <title>MinIO は無料の Docker イメージの配布を停止します</title>
+      <link>https://github.com/minio/minio/issues/21647#issuecomment-3418675115</link>
+      <description>📝 #21647新しい問題リンクをコピー新しい問題リンクをコピー閉じるクローズドDocker リリース。 #21647リンクをコピーラベルコミュニティは意図したとおりに機能説明neil-lcv-cs2025 年 10 月 18 日にオープン本体アクションの発行こんにちは、セキュリティ リリース Security/CVE RELEASE の新しいイメージが見つかりませんでした。 👍22Weetile、dpieski、expilu、justsomescripts、StrangePeanut など 17 件で反応しますメタデータメタデータ担当者誰も割り当てられていないラベルコミュニティ意図したとおりに機能している種類タイプなしプロジェクトなしプロジェクトなしマイルストーンマイルストーンなし関係まだなし開発ブランチやプルリクエストなし問題アクション。
 
 
-🔤 Original: Infracost (YC W21) Hiring First Dev Advocate to Shift FinOps Left
+🔤 Original: MinIO stops distributing free Docker images
 
-🔗 Read more: https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</guid>
-      <pubDate>Wed, 22 Oct 2025 12:02:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667770</comments>
+🔗 Read more: https://github.com/minio/minio/issues/21647#issuecomment-3418675115</description>
+      <guid isPermaLink="true">https://github.com/minio/minio/issues/21647#issuecomment-3418675115</guid>
+      <pubDate>Wed, 22 Oct 2025 06:17:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45665452</comments>
     </item>
     <item>
-      <title>サブプライム金融業者PrimaLend、社債デフォルトで破産へ</title>
-      <link>https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</link>
-      <description>📝 MarketsFacebookXLinkedInEmailLink GiftExpand顧客は、カリフォルニア州コルマのディーラーでフォードの中古車を閲覧します。写真家: David Paul Morris/BloombergFacebookXLinkedInEmailLinkギフトこの記事をギフトにするお問い合わせ:ニュースのフィードバックを送信するか、エラーを報告してください機密情報。テキサス州北部地区に提出した裁判所文書によると、サブプライムの借り手に対応する自動車販売店に融資を提供するプリマレンドは、推定資産と負債がそれぞれ5億ドル未満と記載されていた。
+      <title>腐るもののためのソフトウェアを設計する</title>
+      <link>https://drobinin.com/posts/designing-software-for-things-that-rot/</link>
+      <description>📝 腐るもののためのソフトウェアの設計 2025 年 10 月 20 日 発酵 iOS ホームアシスタント デシジョン ツリー HACCP 白カビは良好でした。その時、ピンと来たのです。私は発酵をインフラストラクチャーのように扱うべきところを、料理のように扱っていました。低酸、低酸素、長時間熟成させた肉や、油中ニンニクのようなものでは、有毒物質の異臭や風味がなくなり、状況は変わります。
 
 
-🔤 Original: Subprime Lender PrimaLend Enters Bankruptcy After Bond Default
+🔤 Original: Designing software for things that rot
 
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/subprime-lender-primalend-enters-bankruptcy-after-bond-default</guid>
-      <pubDate>Wed, 22 Oct 2025 12:21:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667949</comments>
+🔗 Read more: https://drobinin.com/posts/designing-software-for-things-that-rot/</description>
+      <guid isPermaLink="true">https://drobinin.com/posts/designing-software-for-things-that-rot/</guid>
+      <pubDate>Tue, 21 Oct 2025 22:10:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45662368</comments>
     </item>
     <item>
-      <title>スタークラウド</title>
-      <link>https://blogs.nvidia.com/blog/starcloud/</link>
-      <description>📝 NVIDIA と Google Cloud がエンタープライズ AI と産業デジタル化を加速 NVIDIA と Google Cloud は、アクセラレーテッド コンピューティングへのアクセスを拡大し、ビジュアル コンピューティングからエージェント的および物理的な AI に至るまで、エンタープライズ ワークロードの全領域を変革しています。 Google Cloud が本日発表されました。
+      <title>AI アシスタントは 45% の確率でニュース コンテンツを誤って伝えます</title>
+      <link>https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</link>
+      <description>📝 いくつかの改善はあったものの、これらのアシスタントには依然として重大な問題があることは明らかです。最終的に、これらの間違いはニュースやニュース ブランドに対する人々の信頼に悪影響を与える可能性があります。ニュースレター メディア センターからの最新情報 すべてのニュース さらに表示 タグで検索: 最新ニュースのタグが付けられています。
 
 
-🔤 Original: Starcloud
+🔤 Original: AI assistants misrepresent news content 45% of the time
 
-🔗 Read more: https://blogs.nvidia.com/blog/starcloud/</description>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/starcloud/</guid>
-      <pubDate>Wed, 22 Oct 2025 11:23:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45667458</comments>
+🔗 Read more: https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</guid>
+      <pubDate>Wed, 22 Oct 2025 13:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668990</comments>
     </item>
     <item>
-      <title>ジャガー・ランドローバーのハッキングによる英国経済への被害は推定25億ドル</title>
-      <link>https://www.reuters.com/sustainability/boards-policy-regulation/jaguar-land-rover-hack-cost-uk-economy-25-billion-report-says-2025-10-22/</link>
-      <guid isPermaLink="true">https://www.reuters.com/sustainability/boards-policy-regulation/jaguar-land-rover-hack-cost-uk-economy-25-billion-report-says-2025-10-22/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:27:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668008</comments>
+      <title>ローカル LLM のセキュリティのパラドックス</title>
+      <link>https://quesma.com/blog/local-llms-security-paradox/</link>
+      <description>📝 攻撃者が脆弱性を含めるように要求した場合、ローカル モデルは最大 95% の成功率に準拠します。攻撃者がローカル LLM を悪用して悪意のあるコードを生成する 2 つの方法を紹介します。 2 つ目は、AI 支援コーディング セッション中にコードを即座に実行することを強制します。
+
+
+🔤 Original: The security paradox of local LLMs
+
+🔗 Read more: https://quesma.com/blog/local-llms-security-paradox/</description>
+      <guid isPermaLink="true">https://quesma.com/blog/local-llms-security-paradox/</guid>
+      <pubDate>Wed, 22 Oct 2025 12:48:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668264</comments>
+    </item>
+    <item>
+      <title>ドラゴンの孵化: トランスフォーマーと脳モデルの間のミッシングリンク</title>
+      <link>https://arxiv.org/abs/2509.26507</link>
+      <description>📝 ) 接続されたペーパー 接続されたペーパーを切り替えます (接続されたペーパーとは何ですか。) リットマップ リットマップを切り替えます (リットマップとは。) コードへのリンク コード付きペーパーを切り替えます (コード付きペーパーとは。)
+
+
+🔤 Original: The Dragon Hatchling: The missing link between the transformer and brain models
+
+🔗 Read more: https://arxiv.org/abs/2509.26507</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.26507</guid>
+      <pubDate>Wed, 22 Oct 2025 13:00:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668408</comments>
+    </item>
+    <item>
+      <title>テスラ、バッテリー切れのリスクを理由に約13,000台のEVをリコール</title>
+      <link>https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</link>
+      <description>📝 IndustriesTransportationFacebookXLinkedInEmailLinkギフトExpandカリフォルニア州コルマにある同社の店舗にあるテスラ モデル Y 車を積んだ車両輸送トラック。テスラは米国道路交通安全局のウェブサイトに掲載された文書で、この問題はバッテリーパックの接続部分の欠陥が原因で、警告なしに推進力が失われる可能性があると述べた。同社は、今年3月から8月までに生産されたモデルY SUV約8,000台とモデル3セダン5,000台強をリコールする。
+
+
+🔤 Original: Tesla Recalls Almost 13,000 EVs over Risk of Battery Power Loss
+
+🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</description>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</guid>
+      <pubDate>Wed, 22 Oct 2025 12:28:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668022</comments>
+    </item>
+    <item>
+      <title>タバコ密輸風船でリトアニア空港閉鎖へ</title>
+      <link>https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</link>
+      <description>📝 今月初めに発行された日付不明の写真で、リトアニアにタバコを運ぶために使用された気球を検査する国境職員。写真：APCタバコ密輸気球がリトアニア空港を強制閉鎖ベラルーシからの最近の風船侵入を受け、ビリニュス空港は安全上の理由で一晩閉鎖された ベラルーシからリトアニアにタバコを輸送するために密輸業者が使用した数十個の風船により、ビリニュス空港は一晩で一時閉鎖された。これらのトピックについてさらに詳しく見るリトアニアベラルーシヨーロッパニュース共有このコンテンツを再利用します。
+
+
+🔤 Original: Cigarette-smuggling balloons force closure of Lithuanian airport
+
+🔗 Read more: https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</description>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</guid>
+      <pubDate>Wed, 22 Oct 2025 13:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668805</comments>
+    </item>
+    <item>
+      <title>SourceFS: 2 時間以上の Android ビルドが、仮想ファイル システムを使用すると 15 分かかるタスクになる</title>
+      <link>https://www.source.dev/journal/sourcefs</link>
+      <guid isPermaLink="true">https://www.source.dev/journal/sourcefs</guid>
+      <pubDate>Wed, 22 Oct 2025 12:39:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45668160</comments>
+    </item>
+    <item>
+      <title>Apple の壁に囲まれた庭園が ICE を守る方法</title>
+      <link>https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</link>
+      <description>📝 Appleの訴訟により、トランプ政権はICEBlockアプリを閉鎖することが可能となった。 Appleの訴訟により、トランプ政権はICEBlockアプリを閉鎖することが可能となった。 Apple のレバレッジポイントを削除することもできたはずです。
+
+
+🔤 Original: How Apple's walled garden protects ICE
+
+🔗 Read more: https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</description>
+      <guid isPermaLink="true">https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</guid>
+      <pubDate>Wed, 22 Oct 2025 14:38:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669796</comments>
     </item>
   </channel>
 </rss>
