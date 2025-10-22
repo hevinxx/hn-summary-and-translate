@@ -6,115 +6,135 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Oct 2025 15:21:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 18:31:54 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556)</title>
-      <link>https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</link>
-      <description>📝 FourQ is an elliptic curve with 128-bit security, developed by Microsoft Research and is defined by a twisted Edwards curve equation. In addition, the FourQ curve defines two endomorphisms, or structure-preserving functions, which serve as "shortcuts" to perform computations on the curve more efficiently. Elliptic Curve Diffie-Hellman or ECDH involves each side taking a secret scalar \(k\) and multiplying it with a fixed generator point \(G\) to compute the point \(Q = k*G\).
+      <title>Willow quantum chip demonstrates verifiable quantum advantage on hardware</title>
+      <link>https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</link>
+      <description>📝 Our Quantum Echoes algorithm is a big step toward real-world applications for quantum computing Oct 22, 2025 · Share Twitter Facebook LinkedIn Mail Copy link Our Willow quantum chip demonstrates the first-ever algorithm to achieve verifiable quantum advantage on hardware. The Quantum Echoes algorithm, a verifiable quantum advantageThis is the first time in history that any quantum computer has successfully run a verifiable algorithm that surpasses the ability of supercomputers. This implementation of the Quantum Echoes algorithm is enabled by the advances in quantum hardware of our Willow chip.
 
-🔗 Read more: https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</description>
-      <guid isPermaLink="true">https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</guid>
-      <pubDate>Wed, 22 Oct 2025 14:22:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669593</comments>
+🔗 Read more: https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</description>
+      <guid isPermaLink="true">https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</guid>
+      <pubDate>Wed, 22 Oct 2025 15:16:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670443</comments>
     </item>
     <item>
-      <title>Linux Capabilities Revisited</title>
-      <link>https://dfir.ch/posts/linux_capabilities/</link>
-      <description>📝 Backdooring Python The command setcap sets file capabilities on an executable. Enumerating all binaries with capabilities set is possible with the command getcap -r: # getcap -r / 2&gt;/dev/null /usr/lib/x86_64-linux-gnu/gstreamer1. 12 cap_setuid=ep Inside the /proc directory: # cat /proc/1143966/status | grep Cap where: CapInh = Inherited capabilities CapPrm = Permitted capabilities CapEff = Effective capabilities CapBnd = Bounding set CapAmb = Ambient capabilities set Utilising the command capsh, we decode the capabilities as follows: # capsh --decode=0000000000000080 0x0000000000000080=cap_setuid Or with the command getpcaps, passing the PID as an argument: # getpcaps 1143966 Capabilities for `1143966': = cap_setuid+ep Remove the capabilities from a binary with setcap -r # setcap -r /usr/bin/python3.
+      <title>HP SitePrint</title>
+      <link>https://www.hp.com/us-en/printers/site-print/layout-robot.html</link>
+      <description>📝 Reduce layout and floor deviation marking costs with autonomous technology. Handle projects seamlessly with an all-in-one construction layout and floor deviation marking management solution. HP and Topcon have collaborated to integrate HP SitePrint with the Topcon Layout Navigator (LN-150), Topcon GT-600, and Topcon GT-1200.
 
-🔗 Read more: https://dfir.ch/posts/linux_capabilities/</description>
-      <guid isPermaLink="true">https://dfir.ch/posts/linux_capabilities/</guid>
-      <pubDate>Wed, 22 Oct 2025 13:50:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669142</comments>
+🔗 Read more: https://www.hp.com/us-en/printers/site-print/layout-robot.html</description>
+      <guid isPermaLink="true">https://www.hp.com/us-en/printers/site-print/layout-robot.html</guid>
+      <pubDate>Wed, 22 Oct 2025 17:18:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672235</comments>
     </item>
     <item>
-      <title>MinIO stops distributing free Docker images</title>
-      <link>https://github.com/minio/minio/issues/21647#issuecomment-3418675115</link>
-      <description>📝 #21647New issueCopy linkNew issueCopy linkClosedClosedDocker release. #21647Copy linkLabelscommunityworking as intendedDescriptionneil-lcv-csopened on Oct 18, 2025Issue body actionsHello, I did not find a new image for the security release Security/CVE RELEASE. 👍React with 👍22Weetile, dpieski, expilu, justsomescripts, StrangePeanut and 17 moreMetadataMetadataAssigneesNo one assignedLabelscommunityworking as intendedTypeNo typeProjectsNo projectsMilestoneNo milestoneRelationshipsNone yetDevelopmentNo branches or pull requestsIssue actions.
+      <title>Look, Another AI Browser</title>
+      <link>https://manuelmoreale.com/thoughts/look-another-ai-browser</link>
+      <description>📝 To the surprise of literally nobody, it’s Chromium with AI slapped on top. I think Opera also has one of those Chromium browsers with AI slapped on top. Because these are not new browsers: these are Chromium frames with AI slapped on top.
 
-🔗 Read more: https://github.com/minio/minio/issues/21647#issuecomment-3418675115</description>
-      <guid isPermaLink="true">https://github.com/minio/minio/issues/21647#issuecomment-3418675115</guid>
-      <pubDate>Wed, 22 Oct 2025 06:17:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45665452</comments>
+🔗 Read more: https://manuelmoreale.com/thoughts/look-another-ai-browser</description>
+      <guid isPermaLink="true">https://manuelmoreale.com/thoughts/look-another-ai-browser</guid>
+      <pubDate>Wed, 22 Oct 2025 17:15:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672199</comments>
     </item>
     <item>
-      <title>Designing software for things that rot</title>
-      <link>https://drobinin.com/posts/designing-software-for-things-that-rot/</link>
-      <description>📝 Designing Software for Things that Rot 20 Oct 2025 Fermentation iOS Home Assistant decision trees HACCP The white mold was good. That's when it clicked: I'd been treating fermentation like cooking when I should have been treating it like infrastructure. Things change with low-acid, low-oxygen, long cures of meat and things like garlic-in-oil, where something poisonous won't have off-smells or flavours.
+      <title>JMAP for Calendars, Contacts and Files Now in Stalwart</title>
+      <link>https://stalw.art/blog/jmap-collaboration/</link>
+      <description>📝 JMAP for File Storage – A replacement for WebDAV-based file storage. JMAP Sharing – A modern successor to WebDAV ACL. Client Support and EcosystemAs Stalwart is the first complete JMAP server to support these new protocols, client support is still emerging.
 
-🔗 Read more: https://drobinin.com/posts/designing-software-for-things-that-rot/</description>
-      <guid isPermaLink="true">https://drobinin.com/posts/designing-software-for-things-that-rot/</guid>
-      <pubDate>Tue, 21 Oct 2025 22:10:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45662368</comments>
+🔗 Read more: https://stalw.art/blog/jmap-collaboration/</description>
+      <guid isPermaLink="true">https://stalw.art/blog/jmap-collaboration/</guid>
+      <pubDate>Wed, 22 Oct 2025 17:26:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672336</comments>
     </item>
     <item>
-      <title>AI assistants misrepresent news content 45% of the time</title>
-      <link>https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</link>
-      <description>📝 Despite some improvements, it’s clear that there are still significant issues with these assistants. Ultimately, these errors could negatively impact people’s trust in news and news brands. Newsletter Latest from the Media Centre All news Show more Search by Tag: Tagged with Latest News Latest News.
+      <title>Meta is axing 600 roles across its AI division</title>
+      <link>https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</link>
+      <description>📝 But Meta is still hiring for its team tasked with achieving superintelligence, according to a report from Axios. Meta will allow impacted employees to apply for other roles within the company, Axios reports. Update, October 22nd: Added confirmation from Meta.
 
-🔗 Read more: https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</guid>
-      <pubDate>Wed, 22 Oct 2025 13:39:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668990</comments>
+🔗 Read more: https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</description>
+      <guid isPermaLink="true">https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</guid>
+      <pubDate>Wed, 22 Oct 2025 16:44:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45671778</comments>
     </item>
     <item>
-      <title>The security paradox of local LLMs</title>
-      <link>https://quesma.com/blog/local-llms-security-paradox/</link>
-      <description>📝 When attackers prompt them to include vulnerabilities, local models comply with up to 95% success rate. We present two ways attackers can exploit local LLMs to generate malicious code. The second forces immediate code execution during your AI-assisted coding session.
+      <title>Bild AI (YC W25) Is Hiring a Founding AI Engineer</title>
+      <link>https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</link>
+      <description>📝 Puneet and I (Roop) founded Bild AI to tackle the mess that is blueprint reading, cost estimation, and permit applications in construction. It's a tough technical problem that requires the newest CV and AI approaches, and we’re impact-driven to make it more efficient to build more houses, hospitals, and schools. We're building blueprint understanding with a model-garden approach, so there is a lots of ground to break.
 
-🔗 Read more: https://quesma.com/blog/local-llms-security-paradox/</description>
-      <guid isPermaLink="true">https://quesma.com/blog/local-llms-security-paradox/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:48:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668264</comments>
+🔗 Read more: https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</guid>
+      <pubDate>Wed, 22 Oct 2025 17:02:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672035</comments>
     </item>
     <item>
-      <title>The Dragon Hatchling: The missing link between the transformer and brain models</title>
-      <link>https://arxiv.org/abs/2509.26507</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
+      <title>Introducing Galaxy XR, the first Android XR headset</title>
+      <link>https://blog.google/products/android/samsung-galaxy-xr/</link>
+      <description>📝 With Google Photos, you can convert your entire existing library of 2D photos and videos into 3D, letting you step into your memories. Turn any room into your private movie theater with Google TV. With the Galaxy XR, your workspace is infinite.
 
-🔗 Read more: https://arxiv.org/abs/2509.26507</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.26507</guid>
-      <pubDate>Wed, 22 Oct 2025 13:00:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668408</comments>
+🔗 Read more: https://blog.google/products/android/samsung-galaxy-xr/</description>
+      <guid isPermaLink="true">https://blog.google/products/android/samsung-galaxy-xr/</guid>
+      <pubDate>Wed, 22 Oct 2025 16:50:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45671871</comments>
     </item>
     <item>
-      <title>Tesla Recalls Almost 13,000 EVs over Risk of Battery Power Loss</title>
-      <link>https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</link>
-      <description>📝 IndustriesTransportationFacebookXLinkedInEmailLinkGiftExpandA vehicle transport truck with Tesla Model Y vehicles at the company's store in Colma, California. The problem stems from a faulty battery pack connection part, which can lead to loss of propulsion without warning, Tesla said in documents posted to the National Highway Traffic Safety Administration’s website. The company is recalling almost 8,000 Model Y SUVs and just over 5,000 Model 3 sedans produced from March through August of this year.
+      <title>42,600 ton ship to break the world record for the deepest drill at 7 miles</title>
+      <link>https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</link>
+      <description>📝 Engineers designed this massive platform specifically to achieve what previous drilling attempts could never accomplish. This technological innovation ensures sample integrity throughout extended drilling campaigns. The mission’s scientific implications extend beyond geological curiosity.
 
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</guid>
-      <pubDate>Wed, 22 Oct 2025 12:28:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668022</comments>
+🔗 Read more: https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</description>
+      <guid isPermaLink="true">https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</guid>
+      <pubDate>Wed, 22 Oct 2025 17:56:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672788</comments>
     </item>
     <item>
-      <title>Cigarette-smuggling balloons force closure of Lithuanian airport</title>
-      <link>https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</link>
-      <description>📝 A border officer inspects a balloon used to carry cigarettes into Lithuania, in an undated photo issued earlier this month. Photograph: APCigarette-smuggling balloons force closure of Lithuanian airportVilnius airport closed overnight for safety reasons after latest incursion of balloons from Belarus Dozens of balloons used by smugglers to transport cigarettes from Belarus into Lithuania forced the temporary closure of Vilnius airport overnight. Explore more on these topicsLithuaniaBelarusEuropenewsShareReuse this content.
+      <title>Scripts I wrote that I use all the time</title>
+      <link>https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</link>
+      <description>📝 I use this every few days. Many of the scripts in this post were made with this helper. I use this every few days.
 
-🔗 Read more: https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</description>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</guid>
-      <pubDate>Wed, 22 Oct 2025 13:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668805</comments>
+🔗 Read more: https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</description>
+      <guid isPermaLink="true">https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</guid>
+      <pubDate>Wed, 22 Oct 2025 14:53:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670052</comments>
     </item>
     <item>
-      <title>SourceFS: A 2h+ Android build becomes a 15m task with a virtual filesystem</title>
-      <link>https://www.source.dev/journal/sourcefs</link>
-      <guid isPermaLink="true">https://www.source.dev/journal/sourcefs</guid>
-      <pubDate>Wed, 22 Oct 2025 12:39:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668160</comments>
+      <title>The Logarithmic Time Perception Hypothesis</title>
+      <link>http://www.kafalas.com/Logtime.html</link>
+      <description>📝 Logtime: Logarithmic Time Perception With Aging Logtime: The Subjective Scale of Life The Logarithmic Time Perception Hypothesis By James Main Kenney Time scarcer. Years getting shorter. A simple mathematical analysis shows that our time perception should be logarithmic, giving us a subjective scale of life very different from that of the calendar.
+
+🔗 Read more: http://www.kafalas.com/Logtime.html</description>
+      <guid isPermaLink="true">http://www.kafalas.com/Logtime.html</guid>
+      <pubDate>Wed, 22 Oct 2025 15:20:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670516</comments>
     </item>
     <item>
-      <title>How Apple's walled garden protects ICE</title>
-      <link>https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</link>
-      <description>📝 Apple lawsuit made it possible for the Trump administration to shut down the ICEBlock app. Apple lawsuit made it possible for the Trump administration to shut down the ICEBlock app. You could have removed the leverage point on Apple.
+      <title>Show HN: Create interactive diagrams with pop-up content</title>
+      <link>https://vexlio.com/features/interactive-diagrams-with-popups/</link>
+      <description>📝 Create Interactive Diagrams with Pop-up Content Breathe interactivity into your diagrams. Interactive diagram creator. Explore diagrams interactively.
 
-🔗 Read more: https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</description>
-      <guid isPermaLink="true">https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</guid>
-      <pubDate>Wed, 22 Oct 2025 14:38:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669796</comments>
+🔗 Read more: https://vexlio.com/features/interactive-diagrams-with-popups/</description>
+      <guid isPermaLink="true">https://vexlio.com/features/interactive-diagrams-with-popups/</guid>
+      <pubDate>Wed, 22 Oct 2025 14:45:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669906</comments>
+    </item>
+    <item>
+      <title>How do LLM's trade off lives between different categories?</title>
+      <link>https://arctotherium.substack.com/p/llm-exchange-rates-updated</link>
+      <guid isPermaLink="true">https://arctotherium.substack.com/p/llm-exchange-rates-updated</guid>
+      <pubDate>Wed, 22 Oct 2025 17:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672405</comments>
+    </item>
+    <item>
+      <title>Rivian's Also E-bike is like nothing you've ever seen</title>
+      <link>https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</link>
+      <description>📝 NewsTransportationRideablesRivian’s first e-bike is unlike anything you’ve ever seenThe TM-B electric bike is launching alongside the TM-Q pedal-assisted quad and Alpha Wave helmet. The TM-B electric bike is launching alongside the TM-Q pedal-assisted quad and Alpha Wave helmet. PreviousNext1/2Image: AlsoAlso also unveiled its Alpha Wave helmet.
+
+🔗 Read more: https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</description>
+      <guid isPermaLink="true">https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</guid>
+      <pubDate>Wed, 22 Oct 2025 18:00:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672844</comments>
     </item>
   </channel>
 </rss>

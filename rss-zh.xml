@@ -6,145 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 22 Oct 2025 15:21:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 18:31:54 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Cloudflare Circl FourQ 实施中的加密问题 (CVE-2025-8556)</title>
-      <link>https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</link>
-      <description>📝 FourQ 是具有 128 位安全性的椭圆曲线，由微软研究院开发，由扭曲的爱德华兹曲线方程定义。此外，FourQ 曲线定义了两个自同态或结构保持函数，它们充当更有效地在曲线上执行计算的“捷径”。椭圆曲线 Diffie-Hellman 或 ECDH 涉及每一方采用秘密标量 \(k\) 并将其与固定生成点 \(G\) 相乘以计算点 \(Q = k*G\)。
+      <title>Willow 量子芯片在硬件上展示了可验证的量子优势</title>
+      <link>https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</link>
+      <description>📝 我们的 Quantum Echoes 算法是迈向量子计算实际应用的一大步 2025 年 10 月 22 日 · 分享 Twitter Facebook LinkedIn 邮件 复制链接 我们的 Willow 量子芯片展示了有史以来第一个在硬件上实现可验证量子优势的算法。量子回声算法，可验证的量子优势这是历史上第一次任何量子计算机成功运行超越超级计算机能力的可验证算法。量子回声算法的实现是通过我们的 Willow 芯片的量子硬件的进步实现的。
 
 
-🔤 Original: Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556)
+🔤 Original: Willow quantum chip demonstrates verifiable quantum advantage on hardware
 
-🔗 Read more: https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</description>
-      <guid isPermaLink="true">https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</guid>
-      <pubDate>Wed, 22 Oct 2025 14:22:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669593</comments>
+🔗 Read more: https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</description>
+      <guid isPermaLink="true">https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</guid>
+      <pubDate>Wed, 22 Oct 2025 15:16:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670443</comments>
     </item>
     <item>
-      <title>重新审视 Linux 功能</title>
-      <link>https://dfir.ch/posts/linux_capabilities/</link>
-      <description>📝 Python 后门 命令 setcap 设置可执行文件的文件功能。使用命令 getcap -r 可以枚举具有功能集的所有二进制文件：# getcap -r / 2&gt;/dev/null /usr/lib/x86_64-linux-gnu/gstreamer1。 12 cap_setuid=ep /proc 目录内： # cat /proc/1143966/status | grep Cap 其中： CapInh = 继承的功能 CapPrm = 允许的功能 CapEff = 有效的功能 CapBnd = 边界集 CapAmb = 环境功能集 利用命令 capsh，我们按如下方式解码功能： # capsh --decode=0000000000000080 0x0000000000000080=cap_setuid 或者使用命令 getpcaps，传递PID 作为 参数： # getpcaps 1143966 `1143966' 的功能：= cap_setuid+ep 使用 setcap -r 从二进制文件中删除功能 # setcap -r /usr/bin/python3.
+      <title>惠普网站打印</title>
+      <link>https://www.hp.com/us-en/printers/site-print/layout-robot.html</link>
+      <description>📝 利用自主技术降低布局和地板偏差标记成本。使用一体化的施工布局和楼层偏差标记管理解决方案无缝处理项目。 HP 和 Topcon 合作将 HP SitePrint 与 Topcon Layout Navigator (LN-150)、Topcon GT-600 和 Topcon GT-1200 集成。
 
 
-🔤 Original: Linux Capabilities Revisited
+🔤 Original: HP SitePrint
 
-🔗 Read more: https://dfir.ch/posts/linux_capabilities/</description>
-      <guid isPermaLink="true">https://dfir.ch/posts/linux_capabilities/</guid>
-      <pubDate>Wed, 22 Oct 2025 13:50:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669142</comments>
+🔗 Read more: https://www.hp.com/us-en/printers/site-print/layout-robot.html</description>
+      <guid isPermaLink="true">https://www.hp.com/us-en/printers/site-print/layout-robot.html</guid>
+      <pubDate>Wed, 22 Oct 2025 17:18:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672235</comments>
     </item>
     <item>
-      <title>MinIO 停止分发免费 Docker 镜像</title>
-      <link>https://github.com/minio/minio/issues/21647#issuecomment-3418675115</link>
-      <description>📝 #21647新问题复制链接新问题复制链接ClosedClosedDocker 版本。 #21647复制链接标签社区按预期工作描述neil-lcv-cs于 2025 年 10 月 18 日开放问题主体操作您好，我没有找到安全版本 Security/CVE RELEASE 的新映像。 👍与 👍22Weetile、dpieski、expilu、justsomescripts、StrangePeanut 和其他 17 个元数据元数据分配者没有人分配标签社区按预期工作类型没有类型项目没有项目里程碑没有里程碑关系还没有开发没有分支或拉取请求问题操作。
+      <title>看，另一个人工智能浏览器</title>
+      <link>https://manuelmoreale.com/thoughts/look-another-ai-browser</link>
+      <description>📝 几乎没有人感到惊讶的是，它是 Chromium 加上人工智能。我认为 Opera 也有一款带有 AI 的 Chromium 浏览器。因为这些不是新的浏览器：这些是带有 AI 的 Chromium 框架。
 
 
-🔤 Original: MinIO stops distributing free Docker images
+🔤 Original: Look, Another AI Browser
 
-🔗 Read more: https://github.com/minio/minio/issues/21647#issuecomment-3418675115</description>
-      <guid isPermaLink="true">https://github.com/minio/minio/issues/21647#issuecomment-3418675115</guid>
-      <pubDate>Wed, 22 Oct 2025 06:17:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45665452</comments>
+🔗 Read more: https://manuelmoreale.com/thoughts/look-another-ai-browser</description>
+      <guid isPermaLink="true">https://manuelmoreale.com/thoughts/look-another-ai-browser</guid>
+      <pubDate>Wed, 22 Oct 2025 17:15:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672199</comments>
     </item>
     <item>
-      <title>为腐烂的东西设计软件</title>
-      <link>https://drobinin.com/posts/designing-software-for-things-that-rot/</link>
-      <description>📝 为腐烂的东西设计软件 2025 年 10 月 20 日 发酵 iOS Home Assistant 决策树 HACCP 白色霉菌很好。就在那时，我突然意识到：我一直把发酵当作烹饪来对待，而我本应该把它当作基础设施来对待。低酸、低氧、长时间腌制的肉类和油浸大蒜等技术使情况发生了变化，有毒的东西不会有异味或味道。
+      <title>用于日历、联系人和文件的 JMAP 现已在 Stalwart 中提供</title>
+      <link>https://stalw.art/blog/jmap-collaboration/</link>
+      <description>📝 JMAP 文件存储 – 基于 WebDAV 的文件存储的替代品。 JMAP 共享 – WebDAV ACL 的现代继承者。客户端支持和生态系统由于 Stalwart 是第一个支持这些新协议的完整 JMAP 服务器，因此客户端支持仍在不断涌现。
 
 
-🔤 Original: Designing software for things that rot
+🔤 Original: JMAP for Calendars, Contacts and Files Now in Stalwart
 
-🔗 Read more: https://drobinin.com/posts/designing-software-for-things-that-rot/</description>
-      <guid isPermaLink="true">https://drobinin.com/posts/designing-software-for-things-that-rot/</guid>
-      <pubDate>Tue, 21 Oct 2025 22:10:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45662368</comments>
+🔗 Read more: https://stalw.art/blog/jmap-collaboration/</description>
+      <guid isPermaLink="true">https://stalw.art/blog/jmap-collaboration/</guid>
+      <pubDate>Wed, 22 Oct 2025 17:26:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672336</comments>
     </item>
     <item>
-      <title>AI 助手 45% 的时间会歪曲新闻内容</title>
-      <link>https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</link>
-      <description>📝 尽管有了一些改进，但很明显这些助手仍然存在重大问题。最终，这些错误可能会对人们对新闻和新闻品牌的信任产生负面影响。时事通讯 媒体中心的最新消息 所有新闻 显示更多 按标签搜索：用最新新闻标记 最新新闻。
+      <title>Meta 正在削减其 AI 部门的 600 个职位</title>
+      <link>https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</link>
+      <description>📝 但根据 Axios 的一份报告，Meta 仍在为其负责实现超级智能的团队进行招聘。据 Axios 报道，Meta 将允许受影响的员工申请公司内的其他职位。 10 月 22 日更新：添加了来自 Meta 的确认。
 
 
-🔤 Original: AI assistants misrepresent news content 45% of the time
+🔤 Original: Meta is axing 600 roles across its AI division
 
-🔗 Read more: https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</guid>
-      <pubDate>Wed, 22 Oct 2025 13:39:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668990</comments>
+🔗 Read more: https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</description>
+      <guid isPermaLink="true">https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</guid>
+      <pubDate>Wed, 22 Oct 2025 16:44:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45671778</comments>
     </item>
     <item>
-      <title>本地法学硕士的安全悖论</title>
-      <link>https://quesma.com/blog/local-llms-security-paradox/</link>
-      <description>📝 当攻击者提示他们包含漏洞时，本地模型的成功率高达 95%。我们提出了攻击者利用本地 LLM 生成恶意代码的两种方法。第二个强制在人工智能辅助编码会话期间立即执行代码。
+      <title>Bild AI (YC W25) 正在招聘一位人工智能创始工程师</title>
+      <link>https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</link>
+      <description>📝 Puneet 和我 (Roop) 创立了 Bild AI，以解决蓝图阅读、成本估算和建筑许可应用等混乱问题。这是一个棘手的技术问题，需要最新的计算机视觉和人工智能方法，我们以影响为导向，以提高建造更多房屋、医院和学校的效率。我们正在使用模型花园方法构建蓝图理解，因此还有很多基础需要突破。
 
 
-🔤 Original: The security paradox of local LLMs
+🔤 Original: Bild AI (YC W25) Is Hiring a Founding AI Engineer
 
-🔗 Read more: https://quesma.com/blog/local-llms-security-paradox/</description>
-      <guid isPermaLink="true">https://quesma.com/blog/local-llms-security-paradox/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:48:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668264</comments>
+🔗 Read more: https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</guid>
+      <pubDate>Wed, 22 Oct 2025 17:02:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672035</comments>
     </item>
     <item>
-      <title>幼龙：变形金刚和大脑模型之间缺失的环节</title>
-      <link>https://arxiv.org/abs/2509.26507</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
+      <title>推出首款 Android XR 耳机 Galaxy XR</title>
+      <link>https://blog.google/products/android/samsung-galaxy-xr/</link>
+      <description>📝 借助 Google 相册，您可以将整个现有 2D 照片和视频库转换为 3D，让您走进回忆。使用 Google TV 将任何房间变成您的私人电影院。有了 Galaxy XR，您的工作空间将变得无限。
 
 
-🔤 Original: The Dragon Hatchling: The missing link between the transformer and brain models
+🔤 Original: Introducing Galaxy XR, the first Android XR headset
 
-🔗 Read more: https://arxiv.org/abs/2509.26507</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.26507</guid>
-      <pubDate>Wed, 22 Oct 2025 13:00:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668408</comments>
+🔗 Read more: https://blog.google/products/android/samsung-galaxy-xr/</description>
+      <guid isPermaLink="true">https://blog.google/products/android/samsung-galaxy-xr/</guid>
+      <pubDate>Wed, 22 Oct 2025 16:50:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45671871</comments>
     </item>
     <item>
-      <title>特斯拉因电池断电风险召回近 13,000 辆电动汽车</title>
-      <link>https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</link>
-      <description>📝 IndustriesTransportationFacebookXLinkedInEmailLinkGiftExpand一辆装有特斯拉 Model Y 车辆的车辆运输卡车停在该公司位于加利福尼亚州科尔马的商店内。特斯拉在美国国家公路交通安全管理局网站上发布的文件中表示，该问题源于电池组连接部分的故障，这可能会导致在没有警告的情况下失去推进力。该公司正在召回今年 3 月至 8 月生产的近 8,000 辆 Model Y SUV 和略多于 5,000 辆 Model 3 轿车。
+      <title>42,600吨级船舶打破7海里最深钻探世界纪录</title>
+      <link>https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</link>
+      <description>📝 工程师专门设计了这个巨大的平台，以实现以前的钻探尝试永远无法实现的目标。这项技术创新确保了整个钻井活动中样品的完整性。该任务的科学意义超出了地质好奇心。
 
 
-🔤 Original: Tesla Recalls Almost 13,000 EVs over Risk of Battery Power Loss
+🔤 Original: 42,600 ton ship to break the world record for the deepest drill at 7 miles
 
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</guid>
-      <pubDate>Wed, 22 Oct 2025 12:28:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668022</comments>
+🔗 Read more: https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</description>
+      <guid isPermaLink="true">https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</guid>
+      <pubDate>Wed, 22 Oct 2025 17:56:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672788</comments>
     </item>
     <item>
-      <title>走私香烟气球迫使立陶宛机场关闭</title>
-      <link>https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</link>
-      <description>📝 本月早些时候发布的一张未注明日期的照片显示，一名边境官员正在检查一个用于运载香烟进入立陶宛的气球。照片：APC香烟走私气球迫使立陶宛机场关闭 维尔纽斯机场因安全原因在白俄罗斯气球最近入侵后连夜关闭 走私者使用数十个气球将香烟从白俄罗斯运入立陶宛，迫使维尔纽斯机场连夜临时关闭。探索有关这些主题的更多信息立陶宛白俄罗斯欧洲新闻分享重复使用此内容。
+      <title>我写的我一直使用的脚本</title>
+      <link>https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</link>
+      <description>📝 我每隔几天就使用这个。这篇文章中的许多脚本都是用这个助手编写的。我每隔几天就使用这个。
 
 
-🔤 Original: Cigarette-smuggling balloons force closure of Lithuanian airport
+🔤 Original: Scripts I wrote that I use all the time
 
-🔗 Read more: https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</description>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</guid>
-      <pubDate>Wed, 22 Oct 2025 13:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668805</comments>
+🔗 Read more: https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</description>
+      <guid isPermaLink="true">https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</guid>
+      <pubDate>Wed, 22 Oct 2025 14:53:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670052</comments>
     </item>
     <item>
-      <title>SourceFS：使用虚拟文件系统，2h+ Android 构建变成了 15m 的任务</title>
-      <link>https://www.source.dev/journal/sourcefs</link>
-      <guid isPermaLink="true">https://www.source.dev/journal/sourcefs</guid>
-      <pubDate>Wed, 22 Oct 2025 12:39:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668160</comments>
+      <title>对数时间感知假说</title>
+      <link>http://www.kafalas.com/Logtime.html</link>
+      <description>📝 Logtime：随着衰老的对数时间感知 Logtime：生活的主观尺度 对数时间感知假说 作者：James Main Kenney 时间越来越稀缺。岁月越来越短。一个简单的数学分析表明，我们的时间感知应该是对数的，这给了我们一个与日历截然不同的主观生活尺度。
+
+
+🔤 Original: The Logarithmic Time Perception Hypothesis
+
+🔗 Read more: http://www.kafalas.com/Logtime.html</description>
+      <guid isPermaLink="true">http://www.kafalas.com/Logtime.html</guid>
+      <pubDate>Wed, 22 Oct 2025 15:20:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670516</comments>
     </item>
     <item>
-      <title>Apple 的围墙花园如何保护 ICE</title>
-      <link>https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</link>
-      <description>📝 苹果的诉讼使特朗普政府有可能关闭 ICEBlock 应用程序。苹果的诉讼使特朗普政府有可能关闭 ICEBlock 应用程序。你本可以消除苹果的杠杆点。
+      <title>Show HN：使用弹出内容创建交互式图表</title>
+      <link>https://vexlio.com/features/interactive-diagrams-with-popups/</link>
+      <description>📝 创建带有弹出内容的交互式图表 将交互性融入您的图表中。交互式图表创建者。以交互方式探索图表。
 
 
-🔤 Original: How Apple's walled garden protects ICE
+🔤 Original: Show HN: Create interactive diagrams with pop-up content
 
-🔗 Read more: https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</description>
-      <guid isPermaLink="true">https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</guid>
-      <pubDate>Wed, 22 Oct 2025 14:38:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669796</comments>
+🔗 Read more: https://vexlio.com/features/interactive-diagrams-with-popups/</description>
+      <guid isPermaLink="true">https://vexlio.com/features/interactive-diagrams-with-popups/</guid>
+      <pubDate>Wed, 22 Oct 2025 14:45:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669906</comments>
+    </item>
+    <item>
+      <title>LLM 的学生如何在不同类别之间权衡生活？</title>
+      <link>https://arctotherium.substack.com/p/llm-exchange-rates-updated</link>
+      <guid isPermaLink="true">https://arctotherium.substack.com/p/llm-exchange-rates-updated</guid>
+      <pubDate>Wed, 22 Oct 2025 17:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672405</comments>
+    </item>
+    <item>
+      <title>Rivian 的 Also E-bike 是你前所未见的</title>
+      <link>https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</link>
+      <description>📝 新闻交通骑行Rivian 的第一辆电动自行车与您见过的任何自行车都不一样TM-B 电动自行车与 TM-Q 踏板辅助四轮驱动自行车和 Alpha Wave 头盔一起推出。 TM-B 电动自行车与 TM-Q 踏板辅助四轮驱动自行车和 Alpha Wave 头盔一起推出。 PreviousNext1/2Image：Always还推出了其Alpha Wave头盔。
+
+
+🔤 Original: Rivian's Also E-bike is like nothing you've ever seen
+
+🔗 Read more: https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</description>
+      <guid isPermaLink="true">https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</guid>
+      <pubDate>Wed, 22 Oct 2025 18:00:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672844</comments>
     </item>
   </channel>
 </rss>

@@ -6,145 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 22 Oct 2025 15:21:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 18:31:54 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Cloudflare의 Circl FourQ 구현 시 암호화 문제(CVE-2025-8556)</title>
-      <link>https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</link>
-      <description>📝 FourQ는 Microsoft Research에서 개발한 128비트 보안을 갖춘 타원 곡선이며 꼬인 Edwards 곡선 방정식으로 정의됩니다. 또한 FourQ 곡선은 곡선에서 계산을 보다 효율적으로 수행하기 위한 "단축" 역할을 하는 두 가지 내형성 또는 구조 보존 함수를 정의합니다. 타원 곡선 Diffie-Hellman 또는 ECDH는 각 측면에서 비밀 스칼라 \(k\)를 취하고 고정된 생성기 점 \(G\)과 곱하여 점 \(Q = k*G\)을 계산합니다.
+      <title>Willow 양자 칩은 하드웨어에서 검증 가능한 양자 이점을 보여줍니다.</title>
+      <link>https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</link>
+      <description>📝 우리의 Quantum Echoes 알고리즘은 양자 컴퓨팅을 위한 실제 응용 프로그램을 향한 큰 진전입니다. 2025년 10월 22일 · Share Twitter Facebook LinkedIn 메일 복사 링크 우리의 Willow 양자 칩은 하드웨어에서 검증 가능한 양자 이점을 달성하기 위한 최초의 알고리즘을 보여줍니다. 검증 가능한 양자 장점, 퀀텀 에코(Quantum Echoes) 알고리즘 슈퍼컴퓨터의 능력을 뛰어넘는 검증 가능한 알고리즘을 양자컴퓨터가 성공적으로 실행한 것은 역사상 처음이다. Quantum Echoes 알고리즘의 이러한 구현은 Willow 칩의 양자 하드웨어 발전을 통해 가능해졌습니다.
 
 
-🔤 Original: Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556)
+🔤 Original: Willow quantum chip demonstrates verifiable quantum advantage on hardware
 
-🔗 Read more: https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</description>
-      <guid isPermaLink="true">https://www.botanica.software/blog/cryptographic-issues-in-cloudflares-circl-fourq-implementation</guid>
-      <pubDate>Wed, 22 Oct 2025 14:22:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669593</comments>
+🔗 Read more: https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</description>
+      <guid isPermaLink="true">https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/</guid>
+      <pubDate>Wed, 22 Oct 2025 15:16:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670443</comments>
     </item>
     <item>
-      <title>Linux 기능 재검토</title>
-      <link>https://dfir.ch/posts/linux_capabilities/</link>
-      <description>📝 Python 백도어링 setcap 명령은 실행 파일의 파일 기능을 설정합니다. getcap -r 명령을 사용하면 기능 세트가 있는 모든 바이너리를 열거할 수 있습니다: # getcap -r / 2&gt;/dev/null /usr/lib/x86_64-linux-gnu/gstreamer1. 12 cap_setuid=ep /proc 디렉토리 내부: # cat /proc/1143966/status | grep Cap 여기서: CapInh = 상속된 기능 CapPrm = 허용된 기능 CapEff = 유효 기능 CapBnd = 경계 세트 CapAmb = 주변 기능 세트 capsh 명령을 활용하여 다음과 같이 기능을 디코딩합니다. # capsh --decode=0000000000000080 0x0000000000000080=cap_setuid 또는 명령 사용 getpcaps, PID를 다음과 같이 전달 인수: # getpcaps 1143966 `1143966'에 대한 기능: = cap_setuid+ep setcap -r # setcap -r /usr/bin/python3을 사용하여 바이너리에서 기능을 제거합니다.
+      <title>HP 사이트프린트</title>
+      <link>https://www.hp.com/us-en/printers/site-print/layout-robot.html</link>
+      <description>📝 자율 기술로 레이아웃 및 바닥 편차 표시 비용을 줄입니다. 올인원 건축 레이아웃과 바닥 편차 표시 관리 솔루션으로 프로젝트를 원활하게 처리하세요. HP와 Topcon은 HP SitePrint를 Topcon Layout Navigator(LN-150), Topcon GT-600 및 Topcon GT-1200과 통합하기 위해 협력했습니다.
 
 
-🔤 Original: Linux Capabilities Revisited
+🔤 Original: HP SitePrint
 
-🔗 Read more: https://dfir.ch/posts/linux_capabilities/</description>
-      <guid isPermaLink="true">https://dfir.ch/posts/linux_capabilities/</guid>
-      <pubDate>Wed, 22 Oct 2025 13:50:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669142</comments>
+🔗 Read more: https://www.hp.com/us-en/printers/site-print/layout-robot.html</description>
+      <guid isPermaLink="true">https://www.hp.com/us-en/printers/site-print/layout-robot.html</guid>
+      <pubDate>Wed, 22 Oct 2025 17:18:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672235</comments>
     </item>
     <item>
-      <title>MinIO는 무료 Docker 이미지 배포를 중단합니다.</title>
-      <link>https://github.com/minio/minio/issues/21647#issuecomment-3418675115</link>
-      <description>📝 #21647새 문제링크 복사새 문제링크 복사ClosedClosedDocker 릴리스입니다. #21647링크 복사라벨커뮤니티의도대로 작동설명neil-lcv-cs2025년 10월 18일에 열림문제 본문 작업안녕하세요. 보안 릴리스 Security/CVE RELEASE에 대한 새 이미지를 찾지 못했습니다. 👍22Weetile, dpieski, expilu, justsomescripts, StrangePeanut 외 17개 이상으로 반응합니다. 메타데이터메타데이터담당자 할당된 사람 없음레이블커뮤니티의도한 대로 작동유형 없음프로젝트 프로젝트 없음마일스톤 마일스톤 없음관계아직 없음개발분기 또는 풀 요청 없음문제 작업.
+      <title>보세요, 또 다른 AI 브라우저</title>
+      <link>https://manuelmoreale.com/thoughts/look-another-ai-browser</link>
+      <description>📝 말 그대로 누구도 놀랍게도 AI가 탑재된 Chromium입니다. 나는 Opera에도 AI가 탑재된 Chromium 브라우저 중 하나가 있다고 생각합니다. 이것은 새로운 브라우저가 아니기 때문에 AI가 위에 올려진 Chromium 프레임입니다.
 
 
-🔤 Original: MinIO stops distributing free Docker images
+🔤 Original: Look, Another AI Browser
 
-🔗 Read more: https://github.com/minio/minio/issues/21647#issuecomment-3418675115</description>
-      <guid isPermaLink="true">https://github.com/minio/minio/issues/21647#issuecomment-3418675115</guid>
-      <pubDate>Wed, 22 Oct 2025 06:17:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45665452</comments>
+🔗 Read more: https://manuelmoreale.com/thoughts/look-another-ai-browser</description>
+      <guid isPermaLink="true">https://manuelmoreale.com/thoughts/look-another-ai-browser</guid>
+      <pubDate>Wed, 22 Oct 2025 17:15:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672199</comments>
     </item>
     <item>
-      <title>썩어가는 것들을 위한 소프트웨어 설계</title>
-      <link>https://drobinin.com/posts/designing-software-for-things-that-rot/</link>
-      <description>📝 부패하는 것을 위한 소프트웨어 설계 2025년 10월 20일 발효 iOS 홈어시스턴트 결정 트리 HACCP 흰색 곰팡이가 좋았습니다. 그때 생각이 났습니다. 저는 발효를 인프라처럼 다루어야 했는데도 발효를 요리처럼 다루었습니다. 저산성, 저산소, 고기의 장기 치료 및 기름에 마늘을 넣은 것과 같은 것으로 상황은 변합니다. 이러한 곳에서는 유독한 것이 냄새나 맛이 나지 않습니다.
+      <title>이제 Stalwart에서 캘린더, 연락처, 파일용 JMAP를 사용할 수 있습니다.</title>
+      <link>https://stalw.art/blog/jmap-collaboration/</link>
+      <description>📝 파일 저장소용 JMAP – WebDAV 기반 파일 저장소를 대체합니다. JMAP 공유 – WebDAV ACL의 최신 후속 제품입니다. 클라이언트 지원 및 생태계 Stalwart는 이러한 새로운 프로토콜을 지원하는 최초의 완전한 JMAP 서버이므로 클라이언트 지원은 계속해서 등장하고 있습니다.
 
 
-🔤 Original: Designing software for things that rot
+🔤 Original: JMAP for Calendars, Contacts and Files Now in Stalwart
 
-🔗 Read more: https://drobinin.com/posts/designing-software-for-things-that-rot/</description>
-      <guid isPermaLink="true">https://drobinin.com/posts/designing-software-for-things-that-rot/</guid>
-      <pubDate>Tue, 21 Oct 2025 22:10:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45662368</comments>
+🔗 Read more: https://stalw.art/blog/jmap-collaboration/</description>
+      <guid isPermaLink="true">https://stalw.art/blog/jmap-collaboration/</guid>
+      <pubDate>Wed, 22 Oct 2025 17:26:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672336</comments>
     </item>
     <item>
-      <title>AI 비서는 45%의 시간 동안 뉴스 콘텐츠를 왜곡합니다.</title>
-      <link>https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</link>
-      <description>📝 일부 개선에도 불구하고 이러한 보조자에는 여전히 심각한 문제가 있다는 것이 분명합니다. 궁극적으로 이러한 오류는 뉴스와 뉴스 브랜드에 대한 사람들의 신뢰에 부정적인 영향을 미칠 수 있습니다. 뉴스레터 미디어 센터의 최신 소식 모든 뉴스 더 보기 태그로 검색: 태그됨 최신 뉴스 최신 뉴스.
+      <title>Meta는 AI 부문에서 600개의 역할을 축소합니다.</title>
+      <link>https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</link>
+      <description>📝 그러나 Axios의 보고서에 따르면 Meta는 여전히 초지능 달성을 담당할 팀을 채용하고 있습니다. Meta는 영향을 받는 직원이 회사 내 다른 역할에 지원할 수 있도록 허용할 것이라고 Axios가 보고했습니다. 10월 22일 업데이트: Meta의 확인을 추가했습니다.
 
 
-🔤 Original: AI assistants misrepresent news content 45% of the time
+🔤 Original: Meta is axing 600 roles across its AI division
 
-🔗 Read more: https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content</guid>
-      <pubDate>Wed, 22 Oct 2025 13:39:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668990</comments>
+🔗 Read more: https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</description>
+      <guid isPermaLink="true">https://www.theverge.com/news/804253/meta-ai-research-layoffs-fair-superintelligence</guid>
+      <pubDate>Wed, 22 Oct 2025 16:44:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45671778</comments>
     </item>
     <item>
-      <title>로컬 LLM의 보안 역설</title>
-      <link>https://quesma.com/blog/local-llms-security-paradox/</link>
-      <description>📝 공격자가 취약점을 포함하라는 메시지를 표시하면 로컬 모델은 최대 95%의 성공률을 따릅니다. 우리는 공격자가 로컬 LLM을 악용하여 악성 코드를 생성할 수 있는 두 가지 방법을 제시합니다. 두 번째는 AI 지원 코딩 세션 중에 즉시 코드를 실행하도록 합니다.
+      <title>Bild AI(YC W25), 창립 AI 엔지니어 채용</title>
+      <link>https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</link>
+      <description>📝 Puneet과 나(Roop)는 건축 시 청사진 판독, 비용 추정, 허가 신청 등의 혼란스러운 문제를 해결하기 위해 Bild AI를 설립했습니다. 이는 최신 CV와 AI 접근 방식이 필요한 어려운 기술적 문제이며, 우리는 더 많은 주택, 병원, 학교를 건설하는 데 더 효율적으로 임팩트 중심을 두고 있습니다. 우리는 모델 가든 접근 방식을 통해 청사진 이해를 구축하고 있으므로 깨뜨릴 수 있는 기반이 많습니다.
 
 
-🔤 Original: The security paradox of local LLMs
+🔤 Original: Bild AI (YC W25) Is Hiring a Founding AI Engineer
 
-🔗 Read more: https://quesma.com/blog/local-llms-security-paradox/</description>
-      <guid isPermaLink="true">https://quesma.com/blog/local-llms-security-paradox/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:48:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668264</comments>
+🔗 Read more: https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</guid>
+      <pubDate>Wed, 22 Oct 2025 17:02:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672035</comments>
     </item>
     <item>
-      <title>The Dragon Hatchling: 트랜스포머와 뇌 모델 사이의 잃어버린 연결고리</title>
-      <link>https://arxiv.org/abs/2509.26507</link>
-      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
+      <title>최초의 Android XR 헤드셋인 Galaxy XR을 소개합니다.</title>
+      <link>https://blog.google/products/android/samsung-galaxy-xr/</link>
+      <description>📝 Google 포토를 사용하면 기존의 2D 사진 및 동영상 라이브러리 전체를 3D로 변환하여 추억 속으로 ​​들어갈 수 있습니다. Google TV를 사용하면 어떤 방이든 나만의 영화관으로 바꿀 수 있습니다. Galaxy XR을 사용하면 작업 공간이 무한해집니다.
 
 
-🔤 Original: The Dragon Hatchling: The missing link between the transformer and brain models
+🔤 Original: Introducing Galaxy XR, the first Android XR headset
 
-🔗 Read more: https://arxiv.org/abs/2509.26507</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.26507</guid>
-      <pubDate>Wed, 22 Oct 2025 13:00:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668408</comments>
+🔗 Read more: https://blog.google/products/android/samsung-galaxy-xr/</description>
+      <guid isPermaLink="true">https://blog.google/products/android/samsung-galaxy-xr/</guid>
+      <pubDate>Wed, 22 Oct 2025 16:50:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45671871</comments>
     </item>
     <item>
-      <title>Tesla, 배터리 전원 손실 위험으로 약 13,000대의 EV를 리콜</title>
-      <link>https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</link>
-      <description>📝 IndustriesTransportationFacebookXLinkedInEmailLinkGiftExpand캘리포니아 콜마에 있는 회사 매장에서 Tesla Model Y 차량을 갖춘 차량 운송 트럭. 이 문제는 배터리 팩 연결 부품 결함으로 인해 발생하며, 이로 인해 경고 없이 추진력이 상실될 수 있다고 Tesla는 미국 고속도로 교통 안전국(National Highway Traffic Safety Administration) 웹사이트에 게시한 문서에서 밝혔습니다. 회사는 올해 3월부터 8월까지 생산된 거의 8,000대의 모델 Y SUV와 5,000대가 조금 넘는 모델 3 세단을 리콜할 예정입니다.
+      <title>42,600톤급 선박, 7마일에서 가장 깊은 드릴로 세계 기록 경신</title>
+      <link>https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</link>
+      <description>📝 엔지니어들은 이전의 시추 시도가 결코 달성할 수 없었던 것을 달성하기 위해 특별히 이 대규모 플랫폼을 설계했습니다. 이 기술 혁신은 확장된 시추 캠페인 전반에 걸쳐 샘플 무결성을 보장합니다. 임무의 과학적 의미는 지질학적 호기심을 넘어 확장됩니다.
 
 
-🔤 Original: Tesla Recalls Almost 13,000 EVs over Risk of Battery Power Loss
+🔤 Original: 42,600 ton ship to break the world record for the deepest drill at 7 miles
 
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-10-22/tesla-recalls-almost-13-000-evs-over-risk-of-battery-power-loss</guid>
-      <pubDate>Wed, 22 Oct 2025 12:28:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668022</comments>
+🔗 Read more: https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</description>
+      <guid isPermaLink="true">https://blog.bostonorganics.com/chinas-42600-ton-meng-xiang-aims-drill-7-miles-deep-breaking-records/</guid>
+      <pubDate>Wed, 22 Oct 2025 17:56:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672788</comments>
     </item>
     <item>
-      <title>담배 밀수 풍선으로 리투아니아 공항 폐쇄</title>
-      <link>https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</link>
-      <description>📝 이번 달 초에 발행된 날짜가 기재되지 않은 사진에서 국경 관리관이 리투아니아로 담배를 운반하는 데 사용되는 풍선을 검사하고 있습니다. 사진: APC담배 밀수 풍선으로 인해 리투아니아 공항 폐쇄 빌니우스 공항은 최근 벨로루시에서 풍선이 침입한 후 안전상의 이유로 밤새 폐쇄되었습니다. 벨로루시에서 리투아니아로 담배를 운반하기 위해 밀수업자들이 사용하는 수십 개의 풍선으로 인해 빌니우스 공항이 밤새 일시적으로 폐쇄되었습니다. 다음 주제에 대해 자세히 알아보세요. 리투아니아벨라루스유럽뉴스공유이 콘텐츠를 재사용하세요.
+      <title>내가 항상 사용하는 스크립트</title>
+      <link>https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</link>
+      <description>📝 나는 이것을 며칠마다 사용합니다. 이 게시물의 많은 스크립트는 이 도우미를 사용하여 만들어졌습니다. 나는 이것을 며칠마다 사용합니다.
 
 
-🔤 Original: Cigarette-smuggling balloons force closure of Lithuanian airport
+🔤 Original: Scripts I wrote that I use all the time
 
-🔗 Read more: https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</description>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2025/oct/22/cigarette-smuggling-balloons-force-closure-vilnius-airport-lithuania</guid>
-      <pubDate>Wed, 22 Oct 2025 13:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668805</comments>
+🔗 Read more: https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</description>
+      <guid isPermaLink="true">https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/</guid>
+      <pubDate>Wed, 22 Oct 2025 14:53:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670052</comments>
     </item>
     <item>
-      <title>SourceFS: 2시간 이상의 Android 빌드가 가상 파일 시스템을 사용하면 1,500만 작업이 됩니다.</title>
-      <link>https://www.source.dev/journal/sourcefs</link>
-      <guid isPermaLink="true">https://www.source.dev/journal/sourcefs</guid>
-      <pubDate>Wed, 22 Oct 2025 12:39:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45668160</comments>
+      <title>로그 시간 인식 가설</title>
+      <link>http://www.kafalas.com/Logtime.html</link>
+      <description>📝 로그타임: 노화에 따른 대수적 시간 인식 로그타임: 삶의 주관적 규모 제임스 메인 케니(James Main Kenney)의 대수적 시간 인식 가설 시간 희소성. 해가 점점 짧아지고 있습니다. 간단한 수학적 분석에 따르면 우리의 시간 인식은 로그 형식이어야 하며 달력과 매우 다른 주관적인 삶의 척도를 제공해야 합니다.
+
+
+🔤 Original: The Logarithmic Time Perception Hypothesis
+
+🔗 Read more: http://www.kafalas.com/Logtime.html</description>
+      <guid isPermaLink="true">http://www.kafalas.com/Logtime.html</guid>
+      <pubDate>Wed, 22 Oct 2025 15:20:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45670516</comments>
     </item>
     <item>
-      <title>Apple의 벽으로 둘러싸인 정원이 ICE를 보호하는 방법</title>
-      <link>https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</link>
-      <description>📝 Apple 소송으로 인해 트럼프 행정부는 ICEBlock 앱을 종료할 수 있었습니다. Apple 소송으로 인해 트럼프 행정부는 ICEBlock 앱을 종료할 수 있었습니다. Apple의 레버리지 포인트를 제거했을 수도 있습니다.
+      <title>Show HN: 팝업 콘텐츠로 대화형 다이어그램 만들기</title>
+      <link>https://vexlio.com/features/interactive-diagrams-with-popups/</link>
+      <description>📝 팝업 콘텐츠로 대화형 다이어그램을 만드세요. 다이어그램에 상호작용성을 불어넣으세요. 대화형 다이어그램 작성자. 다이어그램을 대화형으로 탐색해 보세요.
 
 
-🔤 Original: How Apple's walled garden protects ICE
+🔤 Original: Show HN: Create interactive diagrams with pop-up content
 
-🔗 Read more: https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</description>
-      <guid isPermaLink="true">https://www.theverge.com/column/803693/ice-epic-games-apple-app-store</guid>
-      <pubDate>Wed, 22 Oct 2025 14:38:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45669796</comments>
+🔗 Read more: https://vexlio.com/features/interactive-diagrams-with-popups/</description>
+      <guid isPermaLink="true">https://vexlio.com/features/interactive-diagrams-with-popups/</guid>
+      <pubDate>Wed, 22 Oct 2025 14:45:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45669906</comments>
+    </item>
+    <item>
+      <title>LLM은 서로 다른 범주 간의 삶을 어떻게 교환합니까?</title>
+      <link>https://arctotherium.substack.com/p/llm-exchange-rates-updated</link>
+      <guid isPermaLink="true">https://arctotherium.substack.com/p/llm-exchange-rates-updated</guid>
+      <pubDate>Wed, 22 Oct 2025 17:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672405</comments>
+    </item>
+    <item>
+      <title>Rivian의 또한 E-바이크는 지금까지 본 적이 없는 제품입니다.</title>
+      <link>https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</link>
+      <description>📝 뉴스교통RideablesRivian의 첫 번째 전자 자전거는 지금까지 본 것과는 다릅니다. TM-B 전기 자전거는 TM-Q 페달 지원 쿼드 및 Alpha Wave 헬멧과 함께 출시됩니다. TM-B 전기 자전거는 TM-Q 페달 보조 쿼드 및 Alpha Wave 헬멧과 함께 출시됩니다. 이전다음1/2이미지: 또한Alpha Wave 헬멧도 공개했습니다.
+
+
+🔤 Original: Rivian's Also E-bike is like nothing you've ever seen
+
+🔗 Read more: https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</description>
+      <guid isPermaLink="true">https://www.theverge.com/news/804157/rivian-tm-b-electric-bike-price-specs-helmet-quad</guid>
+      <pubDate>Wed, 22 Oct 2025 18:00:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45672844</comments>
     </item>
   </channel>
 </rss>
