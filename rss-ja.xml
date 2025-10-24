@@ -6,120 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Oct 2025 01:22:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 03:34:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>メモリ マップ (mmap) が Go でファイル アクセスを高速化する仕組み</title>
-      <link>https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</link>
-      <description>📝 メモリ マップの欠点 メモリ マップの欠点は、実際にはメモリ マップに書き込むことができないことです。それでも、メモリ マップを介した書き込みは、Varnish Cache が当初行っていたことです。 com/perbu/mmaps-in-go メモリ マップを含む CDB64 ファイル: https://github.
+      <title>存在しないが、存在すべきコンピュータ サイエンスのコース (2015)</title>
+      <link>https://prog21.dadgum.com/210.html</link>
+      <description>📝 それは自分のアイデアを実行できるかどうかです。 CSCI 2170: コマンド ライン ツールのユーザー エクスペリエンス クラス プロジェクトとして設計されたコマンド ライン プログラムに適用される UX 原則の紹介。プログラミングに執着しないプログラミングと組織化スキル Beat Algorithmic Wizardry は良い出発点です。
 
 
-🔤 Original: How memory maps (mmap) deliver faster file access in Go
+🔤 Original: Computer Science Courses That Don't Exist, but Should (2015)
 
-🔗 Read more: https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</description>
-      <guid isPermaLink="true">https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</guid>
-      <pubDate>Thu, 23 Oct 2025 21:56:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45687796</comments>
-    </item>
-    <item>
-      <title>/dev/null は ACID 準拠のデータベースです</title>
-      <link>https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</link>
-      <description>📝 " /dev/null に書き込んだものはすべて完全に消えます。/dev/null は常に一貫した状態 (空) のままです。/dev/null はデータを「永続的に」無にコミットします。
-
-
-🔤 Original: /dev/null is an ACID compliant database
-
-🔗 Read more: https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</description>
-      <guid isPermaLink="true">https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</guid>
-      <pubDate>Thu, 23 Oct 2025 21:28:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45687458</comments>
-    </item>
-    <item>
-      <title>React Flow、React または Svelte を使用したノードベースの UI 用のオープンソース ライブラリ</title>
-      <link>https://github.com/xyflow/xyflow</link>
-      <description>📝 React Flow · Svelte Flow · React Flow Pro · Discord xyflow モノ リポジトリ xyflow リポジトリは 4 つのパッケージのホームです: React Flow 12 @xyflow/reactpackages/react React Flow 11 リアクトフロー v11 ブランチ Svelte Flow @xyflow/svelte Packages/svelte 共有ヘルパー ライブラリ @xyflow/system Packages/system 商用利用 React Flow または Svelte Flow を使用していますか?個人的なプロジェクト。はじめに 始めるための最良の方法は、React Flow または Svelte Flow の学習セクションを確認することです。ライセンス React Flow と Svelte Flow は MIT ライセンスを取得しています。
-
-
-🔤 Original: React Flow, open source libraries for node-based UIs with React or Svelte
-
-🔗 Read more: https://github.com/xyflow/xyflow</description>
-      <guid isPermaLink="true">https://github.com/xyflow/xyflow</guid>
-      <pubDate>Thu, 23 Oct 2025 23:33:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688836</comments>
-    </item>
-    <item>
-      <title>言葉を使わずに考えたほうが良いのはどんなときですか?</title>
-      <link>https://www.henrikkarlsson.xyz/p/wordless-thought</link>
-      <description>📝 言葉を使わずに考えたほうがよいのはどんなときですか。 1940年代、フランスの数学者ジャック・アダマールが優れた数学者たちに、難しい問題の解決策をどのように思いついたのか尋ねたところ、彼らはほぼ例外なく、言葉で考えていないと答えた。彼らはイメージや方程式で考えることもありませんでした。問題に取り組むことは、自分が何を知っていて、何を知らないのかについてのメンタル モデルを構築するのに役立ち、潜在意識に作業用の構成要素を提供します。
-
-
-🔤 Original: When is it better to think without words?
-
-🔗 Read more: https://www.henrikkarlsson.xyz/p/wordless-thought</description>
-      <guid isPermaLink="true">https://www.henrikkarlsson.xyz/p/wordless-thought</guid>
-      <pubDate>Thu, 23 Oct 2025 21:26:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45687441</comments>
-    </item>
-    <item>
-      <title>AI は人間の専門家よりも 5 倍高速な MoE 負荷分散アルゴリズムを発見</title>
-      <link>https://adrs-ucb.notion.site/moe-load-balancing</link>
-      <guid isPermaLink="true">https://adrs-ucb.notion.site/moe-load-balancing</guid>
-      <pubDate>Thu, 23 Oct 2025 22:35:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688236</comments>
-    </item>
-    <item>
-      <title>ポピュリズムの速さと遅さ</title>
-      <link>https://josephheath.substack.com/p/populism-fast-and-slow</link>
-      <guid isPermaLink="true">https://josephheath.substack.com/p/populism-fast-and-slow</guid>
-      <pubDate>Thu, 23 Oct 2025 22:43:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688340</comments>
-    </item>
-    <item>
-      <title>Apple、英国App Store独占訴訟で敗訴、違約金は20億ドル近くの可能性</title>
-      <link>https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</link>
-      <description>📝 AAPL 社の App Store Apple が英国 App Store 独占訴訟で敗訴、罰金は 20 億ドル近くになる可能性 Ryan Christoffel | ライアン・クリストフェル2025年10月23日 - 太平洋時間午前10時33分 3 コメント Apple の App Store の慣行に関する英国における画期的な訴訟が判決を下したばかりで、Apple に最大 20 億ドルの損害を与える可能性のある訴訟で、同社に対するロンドン裁判所の判決が下された。 Appleがアプリ開発者に不当な手数料を何年にもわたって過大請求していたとするロンドン法廷の判決、サム・トービン氏がロイターに書いている：Appleはアプリ開発者に不当な手数料を請求することで優越的地位を乱用したとロンドン法廷は木曜日に判決を下し、米国を離れる可能性がある打撃となった。独占記事、レビュー、ハウツーをご覧になり、YouTubeチャンネルに登録してください。Appleニュースの詳細については、YouTubeで9to5Macをチェックしてください。 コメントを展開する コメントを閉じる 拡大する コメントを閉じる AAPL 会社ガイド クパチーノからの最新ニュース。
-
-
-🔤 Original: Apple loses UK App Store monopoly case, penalty might near $2B
-
-🔗 Read more: https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</description>
-      <guid isPermaLink="true">https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</guid>
-      <pubDate>Thu, 23 Oct 2025 22:11:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688006</comments>
-    </item>
-    <item>
-      <title>Zram パフォーマンス分析</title>
-      <link>https://notes.xeome.dev/notes/Zram</link>
-      <description>📝 圧縮アルゴリズムの比較 次の表は、圧縮時間、データ サイズ、圧縮サイズ、合計サイズ、および圧縮率の観点から、Zram で使用されるさまざまな圧縮アルゴリズムのパフォーマンスを比較しています。 Linux レビューからのデータ: AlgorithmCp timeDataCompressedTotalRatiolzo4。 961 u/VenditatioDelendaEst からのデータ: algopage-clusterMiB/sIOPSMean Latency (ns)99% Latency (ns)comp_ratio058211490274242874562。
-
-
-🔤 Original: Zram Performance Analysis
-
-🔗 Read more: https://notes.xeome.dev/notes/Zram</description>
-      <guid isPermaLink="true">https://notes.xeome.dev/notes/Zram</guid>
-      <pubDate>Thu, 23 Oct 2025 19:58:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45686280</comments>
-    </item>
-    <item>
-      <title>尤度の概念とその応用の紹介 (2018)</title>
-      <link>https://journals.sagepub.com/doi/10.1177/2515245917744314</link>
-      <guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/2515245917744314</guid>
-      <pubDate>Thu, 23 Oct 2025 22:52:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688443</comments>
-    </item>
-    <item>
-      <title>Counter-Strike のプレイヤー経済は数十億ドルのフリーフォールに陥っています</title>
-      <link>https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</link>
-      <description>📝 他のプレイヤーとの取引や Steam コミュニティ マーケットからの購入によっても入手できます。以前は、ナイフと手袋はトレードアップ契約では入手できず、非常に人気のあるアイテムとしてその価値が飛躍的に高まりました。ブルームバーグは、カウンターストライクの化粧品市場が水曜夜から木曜朝にかけて一晩で25％下落したと報じた。
-
-
-🔤 Original: Counter-Strike's player economy is in a multi-billion dollar freefall
-
-🔗 Read more: https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</description>
-      <guid isPermaLink="true">https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</guid>
-      <pubDate>Fri, 24 Oct 2025 00:24:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45689241</comments>
+🔗 Read more: https://prog21.dadgum.com/210.html</description>
+      <guid isPermaLink="true">https://prog21.dadgum.com/210.html</guid>
+      <pubDate>Fri, 24 Oct 2025 02:22:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45690045</comments>
     </item>
   </channel>
 </rss>

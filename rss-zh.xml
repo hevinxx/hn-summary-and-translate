@@ -6,120 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Oct 2025 01:22:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 03:34:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>内存映射 (mmap) 如何在 Go 中提供更快的文件访问</title>
-      <link>https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</link>
-      <description>📝 内存映射的缺点 内存映射的缺点是您实际上无法写入内存映射。不过，Varnish Cache 最初所做的仍然是通过内存映射进行写入。 com/perbu/mmaps-in-go 带有内存映射的 CDB64 文件：https://github。
+      <title>不存在但应该存在的计算机科学课程 (2015)</title>
+      <link>https://prog21.dadgum.com/210.html</link>
+      <description>📝 这是关于能够实现你的想法。 CSCI 2170：命令行工具的用户体验 介绍应用于设计为类项目的命令行程序的 UX 原则。不沉迷于编程和组织技能击败算法魔法是很好的起点。
 
 
-🔤 Original: How memory maps (mmap) deliver faster file access in Go
+🔤 Original: Computer Science Courses That Don't Exist, but Should (2015)
 
-🔗 Read more: https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</description>
-      <guid isPermaLink="true">https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</guid>
-      <pubDate>Thu, 23 Oct 2025 21:56:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45687796</comments>
-    </item>
-    <item>
-      <title>/dev/null 是符合 ACID 的数据库</title>
-      <link>https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</link>
-      <description>📝 “您写入 /dev/null 的任何内容都会完全消失。/dev/null 始终保持一致状态（空）。/dev/null “持久地”将您的数据提交为虚无。
-
-
-🔤 Original: /dev/null is an ACID compliant database
-
-🔗 Read more: https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</description>
-      <guid isPermaLink="true">https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</guid>
-      <pubDate>Thu, 23 Oct 2025 21:28:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45687458</comments>
-    </item>
-    <item>
-      <title>React Flow，用于使用 React 或 Svelte 的基于节点的 UI 的开源库</title>
-      <link>https://github.com/xyflow/xyflow</link>
-      <description>📝 React Flow · Svelte Flow · React Flow Pro · Discord xyflow mono 存储库 xyflow 存储库是四个包的主页： React Flow 12 @xyflow/react packages/react React Flow 11 reactflow v11 分支 Svelte Flow @xyflow/svelte packages/svelte 共享帮助程序库 @xyflow/system packages/system 商业用途 您是否在个人项目中使用 React Flow 或 Svelte Flow。入门 最好的入门方法是查看 React Flow 或 Svelte Flow 学习部分。许可 React Flow 和 Svelte Flow 已获得 MIT 许可。
-
-
-🔤 Original: React Flow, open source libraries for node-based UIs with React or Svelte
-
-🔗 Read more: https://github.com/xyflow/xyflow</description>
-      <guid isPermaLink="true">https://github.com/xyflow/xyflow</guid>
-      <pubDate>Thu, 23 Oct 2025 23:33:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688836</comments>
-    </item>
-    <item>
-      <title>什么时候最好不用言语思考？</title>
-      <link>https://www.henrikkarlsson.xyz/p/wordless-thought</link>
-      <description>📝 什么时候最好不用言语思考。 20 世纪 40 年代，当法国数学家雅克·阿达玛 (Jacques Hadamard) 询问优秀数学家如何提出难题的解决方案时，他们几乎一致回答说，他们不会用语言思考；而是用语言来思考。他们也不用图像或方程来思考。解决问题可以帮助你建立一个关于你知道什么和你不知道什么的心理模型——为潜意识提供可以使用的构建块。
-
-
-🔤 Original: When is it better to think without words?
-
-🔗 Read more: https://www.henrikkarlsson.xyz/p/wordless-thought</description>
-      <guid isPermaLink="true">https://www.henrikkarlsson.xyz/p/wordless-thought</guid>
-      <pubDate>Thu, 23 Oct 2025 21:26:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45687441</comments>
-    </item>
-    <item>
-      <title>AI 发现了比人类专家快 5 倍的 MoE 负载平衡算法</title>
-      <link>https://adrs-ucb.notion.site/moe-load-balancing</link>
-      <guid isPermaLink="true">https://adrs-ucb.notion.site/moe-load-balancing</guid>
-      <pubDate>Thu, 23 Oct 2025 22:35:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688236</comments>
-    </item>
-    <item>
-      <title>民粹主义快与慢</title>
-      <link>https://josephheath.substack.com/p/populism-fast-and-slow</link>
-      <guid isPermaLink="true">https://josephheath.substack.com/p/populism-fast-and-slow</guid>
-      <pubDate>Thu, 23 Oct 2025 22:43:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688340</comments>
-    </item>
-    <item>
-      <title>苹果在英国应用商店垄断案中败诉，罚款可能接近 2B 美元</title>
-      <link>https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</link>
-      <description>📝 AAPL 公司 App Store 苹果在英国 App Store 垄断案中败诉，罚款可能接近 20 亿美元2025 年 10 月 23 日 - 太平洋时间上午 10:33 3 条评论 英国有关苹果 App Store 做法的具有里程碑意义的案件刚刚判决，伦敦法庭对该公司做出了不利于该公司的裁决，此举可能使苹果损失高达 20 亿美元。伦敦法庭裁定苹果多年来向应用程序开发者收取不公平佣金 Sam Tobin 在路透社撰文：伦敦法庭于周四做出裁决，通过向应用程序开发者收取不公平佣金，苹果滥用了其主导地位，这可能会给美国带来打击。查看我们的独家故事、评论、操作方法，并订阅我们的 YouTube 频道 在 YouTube 上查看 9to5Mac 了解更多苹果新闻： 评论 展开 关闭评论 展开关闭评论 指南 AAPL 公司来自库比蒂诺的突发新闻。
-
-
-🔤 Original: Apple loses UK App Store monopoly case, penalty might near $2B
-
-🔗 Read more: https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</description>
-      <guid isPermaLink="true">https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</guid>
-      <pubDate>Thu, 23 Oct 2025 22:11:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688006</comments>
-    </item>
-    <item>
-      <title>兹拉姆性能分析</title>
-      <link>https://notes.xeome.dev/notes/Zram</link>
-      <description>📝 压缩算法比较 下表比较了 Zram 中使用的不同压缩算法的性能，包括压缩时间、数据大小、压缩大小、总大小和压缩率。来自 Linux 评论的数据：AlgorithmCp timeDataCompressedTotalRatiolzo4。第 961 部分
-
-
-🔤 Original: Zram Performance Analysis
-
-🔗 Read more: https://notes.xeome.dev/notes/Zram</description>
-      <guid isPermaLink="true">https://notes.xeome.dev/notes/Zram</guid>
-      <pubDate>Thu, 23 Oct 2025 19:58:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45686280</comments>
-    </item>
-    <item>
-      <title>可能性概念及其应用简介（2018）</title>
-      <link>https://journals.sagepub.com/doi/10.1177/2515245917744314</link>
-      <guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/2515245917744314</guid>
-      <pubDate>Thu, 23 Oct 2025 22:52:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45688443</comments>
-    </item>
-    <item>
-      <title>《反恐精英》的玩家经济正直线下降数十亿美元</title>
-      <link>https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</link>
-      <description>📝 它们也可以通过与其他玩家交易以及从 Steam 社区市场购买来获得。此前，刀具和手套无法通过升级合约获得，这使得它们作为备受追捧的物品的价值成倍增加。彭博社报道称，从周三晚上到周四早上，《反恐精英》化妆品市场一夜之间下跌了 25%。
-
-
-🔤 Original: Counter-Strike's player economy is in a multi-billion dollar freefall
-
-🔗 Read more: https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</description>
-      <guid isPermaLink="true">https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</guid>
-      <pubDate>Fri, 24 Oct 2025 00:24:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45689241</comments>
+🔗 Read more: https://prog21.dadgum.com/210.html</description>
+      <guid isPermaLink="true">https://prog21.dadgum.com/210.html</guid>
+      <pubDate>Fri, 24 Oct 2025 02:22:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45690045</comments>
     </item>
   </channel>
 </rss>
