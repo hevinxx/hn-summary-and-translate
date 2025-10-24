@@ -6,107 +6,120 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Oct 2025 21:18:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 01:22:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>特朗普赦免被定罪的币安创始人</title>
-      <link>https://www.wsj.com/finance/currencies/trump-pardons-convicted-binance-founder-7509bd63</link>
-      <guid isPermaLink="true">https://www.wsj.com/finance/currencies/trump-pardons-convicted-binance-founder-7509bd63</guid>
-      <pubDate>Thu, 23 Oct 2025 15:41:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45683152</comments>
+      <title>内存映射 (mmap) 如何在 Go 中提供更快的文件访问</title>
+      <link>https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</link>
+      <description>📝 内存映射的缺点 内存映射的缺点是您实际上无法写入内存映射。不过，Varnish Cache 最初所做的仍然是通过内存映射进行写入。 com/perbu/mmaps-in-go 带有内存映射的 CDB64 文件：https://github。
+
+
+🔤 Original: How memory maps (mmap) deliver faster file access in Go
+
+🔗 Read more: https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</description>
+      <guid isPermaLink="true">https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go</guid>
+      <pubDate>Thu, 23 Oct 2025 21:56:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45687796</comments>
     </item>
     <item>
-      <title>“第二次生命”电动汽车电池能否用作电网规模的储能？</title>
-      <link>https://www.volts.wtf/p/can-second-life-ev-batteries-work</link>
-      <description>📝 与红木能源公司科林·坎贝尔的对话。大卫·罗伯茨（David Roberts） 当雷德伍德开始时，周围没有那么多电动汽车电池。基本上都是锂离子电池。
+      <title>/dev/null 是符合 ACID 的数据库</title>
+      <link>https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</link>
+      <description>📝 “您写入 /dev/null 的任何内容都会完全消失。/dev/null 始终保持一致状态（空）。/dev/null “持久地”将您的数据提交为虚无。
 
 
-🔤 Original: Can "second life" EV batteries work as grid-scale energy storage?
+🔤 Original: /dev/null is an ACID compliant database
 
-🔗 Read more: https://www.volts.wtf/p/can-second-life-ev-batteries-work</description>
-      <guid isPermaLink="true">https://www.volts.wtf/p/can-second-life-ev-batteries-work</guid>
-      <pubDate>Thu, 23 Oct 2025 18:15:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45685007</comments>
+🔗 Read more: https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</description>
+      <guid isPermaLink="true">https://jyu.dev/blog/why-dev-null-is-an-acid-compliant-database/</guid>
+      <pubDate>Thu, 23 Oct 2025 21:28:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45687458</comments>
     </item>
     <item>
-      <title>Apple 传奇般的对细节的关注怎么了？</title>
-      <link>https://blog.johnozbay.com/what-happened-to-apples-attention-to-detail.html</link>
-      <description>📝 单击这个具有讽刺意味的通知弹出窗口。因此，如果您尝试搜索某些内容，则首先必须搜索搜索栏本身。好吧，也许透明度的降低破坏了一些东西。
+      <title>React Flow，用于使用 React 或 Svelte 的基于节点的 UI 的开源库</title>
+      <link>https://github.com/xyflow/xyflow</link>
+      <description>📝 React Flow · Svelte Flow · React Flow Pro · Discord xyflow mono 存储库 xyflow 存储库是四个包的主页： React Flow 12 @xyflow/react packages/react React Flow 11 reactflow v11 分支 Svelte Flow @xyflow/svelte packages/svelte 共享帮助程序库 @xyflow/system packages/system 商业用途 您是否在个人项目中使用 React Flow 或 Svelte Flow。入门 最好的入门方法是查看 React Flow 或 Svelte Flow 学习部分。许可 React Flow 和 Svelte Flow 已获得 MIT 许可。
 
 
-🔤 Original: What happened to Apple's legendary attention to detail?
+🔤 Original: React Flow, open source libraries for node-based UIs with React or Svelte
 
-🔗 Read more: https://blog.johnozbay.com/what-happened-to-apples-attention-to-detail.html</description>
-      <guid isPermaLink="true">https://blog.johnozbay.com/what-happened-to-apples-attention-to-detail.html</guid>
-      <pubDate>Thu, 23 Oct 2025 19:05:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45685551</comments>
+🔗 Read more: https://github.com/xyflow/xyflow</description>
+      <guid isPermaLink="true">https://github.com/xyflow/xyflow</guid>
+      <pubDate>Thu, 23 Oct 2025 23:33:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45688836</comments>
     </item>
     <item>
-      <title>Show HN：OpenSnowcat – Snowplow 的一个分支，可保持开放分析的活力</title>
-      <link>https://opensnowcat.io/</link>
-      <description>📝 0 许可证，与 Snowplow 和 Segment SDK 完全兼容。与云服务集成，可简化平台管理并经济高效且可靠地大规模运行。与 Snowplow 和其他 SDK 兼容，以便现有实施可以继续推动价值以及 Snowplow 之间的无缝可移植性。
+      <title>什么时候最好不用言语思考？</title>
+      <link>https://www.henrikkarlsson.xyz/p/wordless-thought</link>
+      <description>📝 什么时候最好不用言语思考。 20 世纪 40 年代，当法国数学家雅克·阿达玛 (Jacques Hadamard) 询问优秀数学家如何提出难题的解决方案时，他们几乎一致回答说，他们不会用语言思考；而是用语言来思考。他们也不用图像或方程来思考。解决问题可以帮助你建立一个关于你知道什么和你不知道什么的心理模型——为潜意识提供可以使用的构建块。
 
 
-🔤 Original: Show HN: OpenSnowcat – A fork of Snowplow to keep open analytics alive
+🔤 Original: When is it better to think without words?
 
-🔗 Read more: https://opensnowcat.io/</description>
-      <guid isPermaLink="true">https://opensnowcat.io/</guid>
-      <pubDate>Thu, 23 Oct 2025 19:24:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45685793</comments>
+🔗 Read more: https://www.henrikkarlsson.xyz/p/wordless-thought</description>
+      <guid isPermaLink="true">https://www.henrikkarlsson.xyz/p/wordless-thought</guid>
+      <pubDate>Thu, 23 Oct 2025 21:26:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45687441</comments>
     </item>
     <item>
-      <title>Show HN：LLM 的 Git – 上下文管理界面</title>
-      <link>https://twigg.ai</link>
-      <guid isPermaLink="true">https://twigg.ai</guid>
-      <pubDate>Thu, 23 Oct 2025 15:12:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45682776</comments>
+      <title>AI 发现了比人类专家快 5 倍的 MoE 负载平衡算法</title>
+      <link>https://adrs-ucb.notion.site/moe-load-balancing</link>
+      <guid isPermaLink="true">https://adrs-ucb.notion.site/moe-load-balancing</guid>
+      <pubDate>Thu, 23 Oct 2025 22:35:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45688236</comments>
     </item>
     <item>
-      <title>美国调查 Waymo 机器人出租车校车安全问题</title>
-      <link>https://www.yahoo.com/news/articles/us-investigates-waymo-robotaxis-over-102015308.html</link>
-      <description>📝 资料图片：一辆 Waymo 无人驾驶汽车在洛杉矶市中心的交通中拍摄。作者：大卫·谢泼德森 (David Shepardson) 和阿卡什·斯里拉姆 (Akash Sriram) 华盛顿（路透社）——美国国家公路交通安全管理局周一表示，在有报道称该公司的自动驾驶出租车可能未能在一辆停泊的校车周围遵守交通安全法后，已对约 2,000 辆 Waymo 自动驾驶汽车展开初步调查。报告称，Waymo 车辆最初停下来，然后绕过公交车，在学生下车时经过了伸出的停车臂。 Waymo 表示，其机器人出租车车队数量超过 1,500 辆，在美国主要城市运营。
-
-
-🔤 Original: US probes Waymo robotaxis over school bus safety
-
-🔗 Read more: https://www.yahoo.com/news/articles/us-investigates-waymo-robotaxis-over-102015308.html</description>
-      <guid isPermaLink="true">https://www.yahoo.com/news/articles/us-investigates-waymo-robotaxis-over-102015308.html</guid>
-      <pubDate>Thu, 23 Oct 2025 12:40:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45681147</comments>
+      <title>民粹主义快与慢</title>
+      <link>https://josephheath.substack.com/p/populism-fast-and-slow</link>
+      <guid isPermaLink="true">https://josephheath.substack.com/p/populism-fast-and-slow</guid>
+      <pubDate>Thu, 23 Oct 2025 22:43:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45688340</comments>
     </item>
     <item>
-      <title>“纸片女孩”的肌肉同情心</title>
-      <link>https://www.newyorker.com/books/page-turner/the-muscular-compassion-of-paper-girl</link>
-      <description>📝 许多人的生活因毒瘾和监禁而受到蹂躏。塞拉斯在人生的关键时刻遇见了梅西。梅西担心他可能永远无法毕业。
+      <title>苹果在英国应用商店垄断案中败诉，罚款可能接近 2B 美元</title>
+      <link>https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</link>
+      <description>📝 AAPL 公司 App Store 苹果在英国 App Store 垄断案中败诉，罚款可能接近 20 亿美元2025 年 10 月 23 日 - 太平洋时间上午 10:33 3 条评论 英国有关苹果 App Store 做法的具有里程碑意义的案件刚刚判决，伦敦法庭对该公司做出了不利于该公司的裁决，此举可能使苹果损失高达 20 亿美元。伦敦法庭裁定苹果多年来向应用程序开发者收取不公平佣金 Sam Tobin 在路透社撰文：伦敦法庭于周四做出裁决，通过向应用程序开发者收取不公平佣金，苹果滥用了其主导地位，这可能会给美国带来打击。查看我们的独家故事、评论、操作方法，并订阅我们的 YouTube 频道 在 YouTube 上查看 9to5Mac 了解更多苹果新闻： 评论 展开 关闭评论 展开关闭评论 指南 AAPL 公司来自库比蒂诺的突发新闻。
 
 
-🔤 Original: The Muscular Compassion of "Paper Girl"
+🔤 Original: Apple loses UK App Store monopoly case, penalty might near $2B
 
-🔗 Read more: https://www.newyorker.com/books/page-turner/the-muscular-compassion-of-paper-girl</description>
-      <guid isPermaLink="true">https://www.newyorker.com/books/page-turner/the-muscular-compassion-of-paper-girl</guid>
-      <pubDate>Thu, 23 Oct 2025 19:43:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45686083</comments>
+🔗 Read more: https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</description>
+      <guid isPermaLink="true">https://9to5mac.com/2025/10/23/apple-loses-uk-app-store-monopoly-case-penalty-might-near-2-billion/</guid>
+      <pubDate>Thu, 23 Oct 2025 22:11:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45688006</comments>
     </item>
     <item>
-      <title>扩大我们对 Google Cloud TPU 和服务的使用</title>
-      <link>https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services</link>
-      <description>📝 此次扩张将帮助我们满足快速增长的客户需求。这种多平台方法确保我们能够继续提升 Claude 的能力，同时在整个行业保持强大的合作伙伴关系。 Anthropic 将继续投资额外的计算能力，以确保我们的模型和能力保持在前沿。
+      <title>兹拉姆性能分析</title>
+      <link>https://notes.xeome.dev/notes/Zram</link>
+      <description>📝 压缩算法比较 下表比较了 Zram 中使用的不同压缩算法的性能，包括压缩时间、数据大小、压缩大小、总大小和压缩率。来自 Linux 评论的数据：AlgorithmCp timeDataCompressedTotalRatiolzo4。第 961 部分
 
 
-🔤 Original: Expanding Our Use of Google Cloud TPUs and Services
+🔤 Original: Zram Performance Analysis
 
-🔗 Read more: https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services</guid>
-      <pubDate>Thu, 23 Oct 2025 20:39:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45686790</comments>
+🔗 Read more: https://notes.xeome.dev/notes/Zram</description>
+      <guid isPermaLink="true">https://notes.xeome.dev/notes/Zram</guid>
+      <pubDate>Thu, 23 Oct 2025 19:58:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45686280</comments>
     </item>
     <item>
-      <title>我写了关于并行提示的文章：从 3D 鞋子渲染到可滑动的视频</title>
-      <link>https://www.widgens.com/blog/parallel-prompting</link>
-      <guid isPermaLink="true">https://www.widgens.com/blog/parallel-prompting</guid>
-      <pubDate>Thu, 23 Oct 2025 20:32:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45686704</comments>
+      <title>可能性概念及其应用简介（2018）</title>
+      <link>https://journals.sagepub.com/doi/10.1177/2515245917744314</link>
+      <guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/2515245917744314</guid>
+      <pubDate>Thu, 23 Oct 2025 22:52:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45688443</comments>
+    </item>
+    <item>
+      <title>《反恐精英》的玩家经济正直线下降数十亿美元</title>
+      <link>https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</link>
+      <description>📝 它们也可以通过与其他玩家交易以及从 Steam 社区市场购买来获得。此前，刀具和手套无法通过升级合约获得，这使得它们作为备受追捧的物品的价值成倍增加。彭博社报道称，从周三晚上到周四早上，《反恐精英》化妆品市场一夜之间下跌了 25%。
+
+
+🔤 Original: Counter-Strike's player economy is in a multi-billion dollar freefall
+
+🔗 Read more: https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</description>
+      <guid isPermaLink="true">https://www.polygon.com/counter-strike-cs-player-economy-multi-billion-dollar-freefall/</guid>
+      <pubDate>Fri, 24 Oct 2025 00:24:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45689241</comments>
     </item>
   </channel>
 </rss>
