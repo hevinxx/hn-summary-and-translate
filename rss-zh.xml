@@ -6,41 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Oct 2025 09:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 12:42:03 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>阿拉斯加航空关于 IT 中断的声明</title>
-      <link>https://news.alaskaair.com/on-the-record/alaska-statement-on-it-outage/</link>
-      <description>📝 太平洋时间阿拉斯加航空在一次严重的 IT 中断导致阿拉斯加和地平线航班全系统地面停止后已恢复运营。 IT 中断不会影响 Hawaiian Airlines 的航班。对于今天旅行计划被打乱的客人，我们深表歉意。
+      <title>Twake Drive – Google Drive 的开源替代品</title>
+      <link>https://github.com/linagora/twake-drive</link>
+      <description>📝 Twake Drive Google Drive 的开源替代品。 com/linagora/twake-drive 使用 Docker cd tdrive docker compose -f docker-compose 运行它。 x) MongoDB Yarn（推荐）设置 使用 docker run -p 27017:27017 -d mongo 启动 MongoDB 使用 cd tdrive/frontend/ 启动前端； yarn dev:start 使用 cd tdrive/backend/node/ 启动后端； SEARCH_DRIVER=mongodb DB_DRIVER=mongodb PUBSUB_TYPE=local \ DB_MONGO_URI=mongodb://localhost:27017 STORAGE_LOCAL_PATH=/[full-path-to-store-documents]/documents \ NODE_ENV=development Yarn dev 如果需要更多参数，请创建/编辑 tdrive/backend/node/config/development。
 
 
-🔤 Original: Alaska Airlines' statement on IT outage
+🔤 Original: Twake Drive – An open-source alternative to Google Drive
 
-🔗 Read more: https://news.alaskaair.com/on-the-record/alaska-statement-on-it-outage/</description>
-      <guid isPermaLink="true">https://news.alaskaair.com/on-the-record/alaska-statement-on-it-outage/</guid>
-      <pubDate>Fri, 24 Oct 2025 05:32:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45691127</comments>
+🔗 Read more: https://github.com/linagora/twake-drive</description>
+      <guid isPermaLink="true">https://github.com/linagora/twake-drive</guid>
+      <pubDate>Fri, 24 Oct 2025 10:16:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45692984</comments>
     </item>
     <item>
-      <title>ChatGPT 推出“公司知识”</title>
-      <link>https://openai.com/index/introducing-company-knowledge/</link>
-      <guid isPermaLink="true">https://openai.com/index/introducing-company-knowledge/</guid>
-      <pubDate>Fri, 24 Oct 2025 08:24:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692241</comments>
+      <title>ChunkLLM：用于加速 LLM 推理的轻量级可插入框架</title>
+      <link>https://arxiv.org/abs/2510.02361</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
+
+
+🔤 Original: ChunkLLM: A Lightweight Pluggable Framework for Accelerating LLMs Inference
+
+🔗 Read more: https://arxiv.org/abs/2510.02361</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.02361</guid>
+      <pubDate>Fri, 24 Oct 2025 11:41:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693591</comments>
     </item>
     <item>
-      <title>英国纹身最多的男人说英国的年龄检查告诉他“去掉他的脸”</title>
-      <link>https://www.dexerto.com/entertainment/britains-most-tattooed-man-says-uks-age-check-system-told-him-to-remove-his-face-3232920/</link>
-      <description>📝 英国纹身最多的男子表示，英国的年龄检查系统要求他“摘掉自己的脸”，作者：Michael Gwilliam 发布时间：2025年7月31日，20:50留待稍后保存 稍后保存 Instagram/kingofinklandkingbodyart 英国纹身最多的男子表示，英国新的在线年龄检查系统不会让他进入，因为它认为他满是纹身的脸是一个面具。 Instagram/kingofinklandkingbodyart 英国新的在线安全过滤器拒绝脸部纹身男子在尝试访问网络摄像头网站时，系统将他的脸部标记为面具，并完全屏蔽了纹身名人。一些在线用户找到了使用超现实游戏角色（例如《死亡搁浅》中诺曼·瑞杜斯扮演的萨姆·波特·布里奇斯）来欺骗面部识别的解决方法。
+      <title>Mesh2Motion – 用于制作 3D 模型动画的开源 Web 应用程序</title>
+      <link>https://mesh2motion.org/</link>
+      <description>📝 让您的 3D 模型栩栩如生 Mesh2Motion 是一款免费的开源 Web 应用程序，用于为您的 3D 模型制作动画。尝试一下 🥳 人类和动物装备 支持导入 GLB、GLTF 和 FBX 模型 人类和动物骨骼选项 直观的骨骼定位 出错时撤消/重做系统 ✔️ 导出动画 一次导出多个动画 使用广泛支持的 GLB 格式 Quaternius Video Walkthrough 中的人类动画库 免费和开源 Mesh2Motion 是一个开源项目。 com/scottpetrovic/mesh2motion-app @scottpetrovic @scottpetrovic。
 
 
-🔤 Original: Britain's most tattooed man says UK's age check told him to "remove his face"
+🔤 Original: Mesh2Motion – Open-source web application to animate 3D models
 
-🔗 Read more: https://www.dexerto.com/entertainment/britains-most-tattooed-man-says-uks-age-check-system-told-him-to-remove-his-face-3232920/</description>
-      <guid isPermaLink="true">https://www.dexerto.com/entertainment/britains-most-tattooed-man-says-uks-age-check-system-told-him-to-remove-his-face-3232920/</guid>
-      <pubDate>Fri, 24 Oct 2025 08:10:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692163</comments>
+🔗 Read more: https://mesh2motion.org/</description>
+      <guid isPermaLink="true">https://mesh2motion.org/</guid>
+      <pubDate>Fri, 24 Oct 2025 11:01:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693325</comments>
+    </item>
+    <item>
+      <title>Debian 技术委员会推翻了 systemd 变更</title>
+      <link>https://lwn.net/Articles/1041316/</link>
+      <description>📝 他说，折衷方案可能是使目录可由拨出组写入，而不是全局可写。 systemd 维护者 Luca Boccassi 认为 /run 中的全局可写目录存在安全风险，而不是暂时恢复该行为。 Boccassi 在对 Debian systemd bug 的回应中也表达了同样的观点。
+
+
+🔤 Original: Debian Technical Committee overrides systemd change
+
+🔗 Read more: https://lwn.net/Articles/1041316/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1041316/</guid>
+      <pubDate>Fri, 24 Oct 2025 10:07:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45692915</comments>
+    </item>
+    <item>
+      <title>前往黑洞的星际任务</title>
+      <link>https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</link>
+      <description>📝 这意味着许多可能的目标。然而，大多数黑洞被认为是孤立的。后者假设一个旋转黑洞，而其他解决方案，如史瓦西的解决方案，描述了一个非旋转黑洞。
+
+
+🔤 Original: Interstellar Mission to a Black Hole
+
+🔗 Read more: https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</description>
+      <guid isPermaLink="true">https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</guid>
+      <pubDate>Fri, 24 Oct 2025 09:17:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45692585</comments>
+    </item>
+    <item>
+      <title>Padlet (YC W13) 正在旧金山和新加坡招聘</title>
+      <link>https://padlet.jobs</link>
+      <description>📝 记录您第一步的相机。你的每一个安慰，每一个欢乐，每一个记忆。试图寻找停车位。
+
+
+🔤 Original: Padlet (YC W13) Is Hiring in San Francisco and Singapore
+
+🔗 Read more: https://padlet.jobs</description>
+      <guid isPermaLink="true">https://padlet.jobs</guid>
+      <pubDate>Fri, 24 Oct 2025 12:01:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693743</comments>
     </item>
   </channel>
 </rss>
