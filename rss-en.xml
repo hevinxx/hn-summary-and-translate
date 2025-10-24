@@ -6,68 +6,75 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Oct 2025 12:42:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 15:21:33 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Twake Drive – An open-source alternative to Google Drive</title>
-      <link>https://github.com/linagora/twake-drive</link>
-      <description>📝 Twake Drive The open-source alternative to Google Drive. com/linagora/twake-drive Run it with Docker cd tdrive docker compose -f docker-compose. x) MongoDB Yarn (recommended) Setup Launch MongoDB using docker run -p 27017:27017 -d mongo Launch frontend with cd tdrive/frontend/; yarn dev:start Launch backend with cd tdrive/backend/node/; SEARCH_DRIVER=mongodb DB_DRIVER=mongodb PUBSUB_TYPE=local \ DB_MONGO_URI=mongodb://localhost:27017 STORAGE_LOCAL_PATH=/[full-path-to-store-documents]/documents \ NODE_ENV=development yarn dev If you need more parameters, create/edit tdrive/backend/node/config/development.
-
-🔗 Read more: https://github.com/linagora/twake-drive</description>
-      <guid isPermaLink="true">https://github.com/linagora/twake-drive</guid>
-      <pubDate>Fri, 24 Oct 2025 10:16:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692984</comments>
+      <title>A sharded DuckDB on 63 nodes runs 1T row aggregation challenge in 5 sec</title>
+      <link>https://gizmodata.com/blog/gizmoedge-one-trillion-row-challenge</link>
+      <guid isPermaLink="true">https://gizmodata.com/blog/gizmoedge-one-trillion-row-challenge</guid>
+      <pubDate>Fri, 24 Oct 2025 12:54:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694122</comments>
     </item>
     <item>
-      <title>ChunkLLM: A Lightweight Pluggable Framework for Accelerating LLMs Inference</title>
-      <link>https://arxiv.org/abs/2510.02361</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
+      <title>Typst 0.14</title>
+      <link>https://typst.app/blog/2025/typst-0.14/</link>
+      <description>📝 14: Now accessible Typst 0. Typst now generates accessible documents by default, with opt-in support for stricter checks. Unlike many other tools, PDF files created with Typst 0.
 
-🔗 Read more: https://arxiv.org/abs/2510.02361</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.02361</guid>
-      <pubDate>Fri, 24 Oct 2025 11:41:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45693591</comments>
+🔗 Read more: https://typst.app/blog/2025/typst-0.14/</description>
+      <guid isPermaLink="true">https://typst.app/blog/2025/typst-0.14/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:33:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693978</comments>
     </item>
     <item>
-      <title>Mesh2Motion – Open-source web application to animate 3D models</title>
-      <link>https://mesh2motion.org/</link>
-      <description>📝 Bring Your 3D Models to Life Mesh2Motion is a FREE &amp; open-source web application to animate your 3D models. Try it out 🥳 Human &amp; Animal rigs Supports importing GLB, GLTF, and FBX models Human and animal skeleton options Intuitive skeleton positioning Undo/Redo system when you make mistakes ✔️ Export Animations Export multiple animations at once Uses widely-supported GLB format Human animation library from Quaternius Video Walkthrough FREE &amp; Open-Source Mesh2Motion is an open-source project. com/scottpetrovic/mesh2motion-app @scottpetrovic @scottpetrovic.
+      <title>Show HN: I built an 8-bit CPU simulator in Python from scratch</title>
+      <link>https://github.com/sql-hkr/tiny8</link>
+      <description>📝 Installation Tiny8 supports Python 3. From PyPI (stable) uv add tiny8 Examples Bubble sort This example demonstrates a simple bubble sort algorithm implemented in assembly language for the Tiny8 CPU. asm: ; Bubble sort using RAM (addresses 100.
 
-🔗 Read more: https://mesh2motion.org/</description>
-      <guid isPermaLink="true">https://mesh2motion.org/</guid>
-      <pubDate>Fri, 24 Oct 2025 11:01:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45693325</comments>
+🔗 Read more: https://github.com/sql-hkr/tiny8</description>
+      <guid isPermaLink="true">https://github.com/sql-hkr/tiny8</guid>
+      <pubDate>Fri, 24 Oct 2025 13:13:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694272</comments>
     </item>
     <item>
-      <title>Debian Technical Committee overrides systemd change</title>
-      <link>https://lwn.net/Articles/1041316/</link>
-      <description>📝 He said that a compromise might be to make the directory writable by the dialout group rather than world-writable. Rather than temporarily reverting the behavior, systemd maintainer Luca Boccassi argued that a world-writable directory in /run is a security risk. Boccassi echoed that sentiment in his response to the Debian systemd bug.
+      <title>Asahi Linux Still Working on Apple M3 Support, M1n1 Bootloader Going Rust</title>
+      <link>https://www.phoronix.com/news/Asahi-Linux-M3-m1n1-Update</link>
+      <description>📝 Asahi Linux developers have kept working on new kernel patches and some being upstreamed for Linux 6. Asahi Linux developers are also working on moving toward the Rust programming language with their important m1n1 bootloader for Apple Silicon. Asahi Linux developers have also made progress on getting more games working on Apple Silicon devices.
 
-🔗 Read more: https://lwn.net/Articles/1041316/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/1041316/</guid>
-      <pubDate>Fri, 24 Oct 2025 10:07:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692915</comments>
+🔗 Read more: https://www.phoronix.com/news/Asahi-Linux-M3-m1n1-Update</description>
+      <guid isPermaLink="true">https://www.phoronix.com/news/Asahi-Linux-M3-m1n1-Update</guid>
+      <pubDate>Fri, 24 Oct 2025 14:03:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694767</comments>
     </item>
     <item>
-      <title>Interstellar Mission to a Black Hole</title>
-      <link>https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</link>
-      <description>📝 That means many possible targets. Most black holes, though, are thought to be isolated. The latter assumes a rotating black hole, whereas other solutions, like that of Schwarzschild, describe a non-rotating black hole.
+      <title>Poker fraud used X-ray tables, high-tech glasses and NBA players</title>
+      <link>https://www.bbc.com/news/articles/cz6nd9wnzn6o</link>
+      <description>📝 They were "fishes" allegedly being targeted by the mafia in an elaborate poker gambling scheme that included X-ray card tables, secret cameras, analysers in chip trays and sunglasses and contact lenses that could read their hand. Former professional athletes, described by prosecutors as "face cards", were enlisted to help in the scheme and entice victims into playing. That person would then secretly signal to others, prosecutors allege, effectively stealing money and making it impossible for victims to win.
 
-🔗 Read more: https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</description>
-      <guid isPermaLink="true">https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</guid>
-      <pubDate>Fri, 24 Oct 2025 09:17:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692585</comments>
+🔗 Read more: https://www.bbc.com/news/articles/cz6nd9wnzn6o</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/cz6nd9wnzn6o</guid>
+      <pubDate>Fri, 24 Oct 2025 11:42:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693599</comments>
     </item>
     <item>
-      <title>Padlet (YC W13) Is Hiring in San Francisco and Singapore</title>
-      <link>https://padlet.jobs</link>
-      <description>📝 The camera that recorded your first steps. Your every comfort, every joy, every memory. Trying to find parking.
+      <title>Show HN: A fast, privacy-first image converter that runs in browser</title>
+      <link>https://imageconverter.dev/</link>
+      <description>📝 The file never leaves your browser. Image converter FAQEverything you need to know about switching image formats in your browserIs the image converter free to use. Will the converter reduce image quality.
 
-🔗 Read more: https://padlet.jobs</description>
-      <guid isPermaLink="true">https://padlet.jobs</guid>
-      <pubDate>Fri, 24 Oct 2025 12:01:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45693743</comments>
+🔗 Read more: https://imageconverter.dev/</description>
+      <guid isPermaLink="true">https://imageconverter.dev/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:21:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693904</comments>
+    </item>
+    <item>
+      <title>Traffic Light Protocol</title>
+      <link>https://www.first.org/tlp/</link>
+      <description>📝 Information sharing happens from an information source, towards one or more recipients. Recipients may therefore not share TLP:RED information with anyone else. Recipients may share TLP:AMBER i.
+
+🔗 Read more: https://www.first.org/tlp/</description>
+      <guid isPermaLink="true">https://www.first.org/tlp/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:52:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694111</comments>
     </item>
   </channel>
 </rss>

@@ -6,86 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 24 Oct 2025 12:42:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 15:21:33 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Twake Drive – Google Drive의 오픈 소스 대안</title>
-      <link>https://github.com/linagora/twake-drive</link>
-      <description>📝 Twake Drive Google Drive의 오픈 소스 대안입니다. com/linagora/twake-drive Docker cd tdrive docker compose -f docker-compose로 실행하세요. x) MongoDB Yarn(권장) 설정 docker run -p 27017:27017 -d mongo를 사용하여 MongoDB를 시작합니다. cd tdrive/frontend/로 프런트엔드를 시작합니다. Yarn dev:start cd tdrive/backend/node/로 백엔드 실행; SEARCH_DRIVER=mongodb DB_DRIVER=mongodb PUBSUB_TYPE=local \ DB_MONGO_URI=mongodb://localhost:27017 STORAGE_LOCAL_PATH=/[full-path-to-store-documents]/documents \ NODE_ENV=development Yarn dev 더 많은 매개변수가 필요한 경우 tdrive/backend/node/config/development를 생성/편집하세요.
-
-
-🔤 Original: Twake Drive – An open-source alternative to Google Drive
-
-🔗 Read more: https://github.com/linagora/twake-drive</description>
-      <guid isPermaLink="true">https://github.com/linagora/twake-drive</guid>
-      <pubDate>Fri, 24 Oct 2025 10:16:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692984</comments>
+      <title>63개 노드의 샤딩된 DuckDB는 5초 안에 1T 행 집계 챌린지를 실행합니다.</title>
+      <link>https://gizmodata.com/blog/gizmoedge-one-trillion-row-challenge</link>
+      <guid isPermaLink="true">https://gizmodata.com/blog/gizmoedge-one-trillion-row-challenge</guid>
+      <pubDate>Fri, 24 Oct 2025 12:54:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694122</comments>
     </item>
     <item>
-      <title>ChunkLLM: LLM 추론을 가속화하기 위한 경량 플러그형 프레임워크</title>
-      <link>https://arxiv.org/abs/2510.02361</link>
-      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
+      <title>타이프스트 0.14</title>
+      <link>https://typst.app/blog/2025/typst-0.14/</link>
+      <description>📝 14: 이제 Typst 0에 액세스할 수 있습니다. Typst는 이제 더 엄격한 검사를 위한 선택 지원을 통해 기본적으로 액세스 가능한 문서를 생성합니다. 다른 많은 도구와 달리 Typst 0으로 만든 PDF 파일은
 
 
-🔤 Original: ChunkLLM: A Lightweight Pluggable Framework for Accelerating LLMs Inference
+🔤 Original: Typst 0.14
 
-🔗 Read more: https://arxiv.org/abs/2510.02361</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.02361</guid>
-      <pubDate>Fri, 24 Oct 2025 11:41:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45693591</comments>
+🔗 Read more: https://typst.app/blog/2025/typst-0.14/</description>
+      <guid isPermaLink="true">https://typst.app/blog/2025/typst-0.14/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:33:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693978</comments>
     </item>
     <item>
-      <title>Mesh2Motion – 3D 모델 애니메이션을 위한 오픈 소스 웹 애플리케이션</title>
-      <link>https://mesh2motion.org/</link>
-      <description>📝 3D 모델을 생생하게 구현 Mesh2Motion은 3D 모델에 애니메이션을 적용할 수 있는 무료 오픈 소스 웹 애플리케이션입니다. 사용해 보세요 🥳 인간 및 동물 리그 GLB, GLTF 및 FBX 모델 가져오기 지원 인간 및 동물 골격 옵션 직관적인 골격 위치 지정 실수 시 실행 취소/다시 실행 시스템 ✔️ 애니메이션 내보내기 여러 애니메이션을 한 번에 내보내기 널리 지원되는 GLB 형식 사용 Quaternius의 인간 애니메이션 라이브러리 비디오 연습 무료 및 오픈 소스 Mesh2Motion은 오픈 소스 프로젝트입니다. com/scottpetrovic/mesh2motion-app @scottpetrovic @scottpetrovic.
+      <title>Show HN: 처음부터 Python으로 8비트 CPU 시뮬레이터를 구축했습니다.</title>
+      <link>https://github.com/sql-hkr/tiny8</link>
+      <description>📝 설치 Tiny8은 Python 3을 지원합니다. PyPI(안정적)에서 uv addtiny8 예제 버블 정렬 이 예제에서는 Tiny8 CPU용 어셈블리 언어로 구현된 간단한 버블 정렬 알고리즘을 보여줍니다. asm: ; RAM을 사용한 버블 정렬(주소 100.
 
 
-🔤 Original: Mesh2Motion – Open-source web application to animate 3D models
+🔤 Original: Show HN: I built an 8-bit CPU simulator in Python from scratch
 
-🔗 Read more: https://mesh2motion.org/</description>
-      <guid isPermaLink="true">https://mesh2motion.org/</guid>
-      <pubDate>Fri, 24 Oct 2025 11:01:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45693325</comments>
+🔗 Read more: https://github.com/sql-hkr/tiny8</description>
+      <guid isPermaLink="true">https://github.com/sql-hkr/tiny8</guid>
+      <pubDate>Fri, 24 Oct 2025 13:13:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694272</comments>
     </item>
     <item>
-      <title>데비안 기술위원회는 시스템 변경을 무시합니다</title>
-      <link>https://lwn.net/Articles/1041316/</link>
-      <description>📝 그는 디렉터리를 전 세계적으로 쓰기 가능하게 하기보다는 다이얼아웃 그룹에서 쓰기 가능하게 만드는 것이 절충안이 될 수 있다고 말했습니다. 일시적으로 동작을 되돌리기보다는 시스템 관리자 Luca Boccassi는 /run에 있는 모든 쓰기 가능한 디렉토리가 보안 위험이라고 주장했습니다. Boccassi는 데비안 시스템 버그에 대한 반응에서 그러한 감정을 반영했습니다.
+      <title>Asahi Linux는 여전히 Apple M3 지원을 위해 노력하고 있으며 M1n1 부트로더는 녹슬고 있습니다.</title>
+      <link>https://www.phoronix.com/news/Asahi-Linux-M3-m1n1-Update</link>
+      <description>📝 Asahi Linux 개발자는 새로운 커널 패치 작업을 계속해 왔으며 일부는 Linux 6용으로 업스트림되었습니다. Asahi Linux 개발자는 또한 Apple Silicon용 중요한 m1n1 부트로더를 사용하여 Rust 프로그래밍 언어로 전환하기 위해 노력하고 있습니다. Asahi Linux 개발자는 Apple Silicon 장치에서 더 많은 게임을 작동시키는 데에도 진전을 이루었습니다.
 
 
-🔤 Original: Debian Technical Committee overrides systemd change
+🔤 Original: Asahi Linux Still Working on Apple M3 Support, M1n1 Bootloader Going Rust
 
-🔗 Read more: https://lwn.net/Articles/1041316/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/1041316/</guid>
-      <pubDate>Fri, 24 Oct 2025 10:07:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692915</comments>
+🔗 Read more: https://www.phoronix.com/news/Asahi-Linux-M3-m1n1-Update</description>
+      <guid isPermaLink="true">https://www.phoronix.com/news/Asahi-Linux-M3-m1n1-Update</guid>
+      <pubDate>Fri, 24 Oct 2025 14:03:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694767</comments>
     </item>
     <item>
-      <title>블랙홀로의 성간 임무</title>
-      <link>https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</link>
-      <description>📝 이는 가능한 목표가 많다는 것을 의미합니다. 그러나 대부분의 블랙홀은 고립된 것으로 생각됩니다. 후자는 회전하는 블랙홀을 가정하는 반면, Schwarzschild의 솔루션과 같은 다른 솔루션은 회전하지 않는 블랙홀을 설명합니다.
+      <title>엑스레이 테이블, 하이테크 안경 및 NBA 선수를 사용한 포커 사기</title>
+      <link>https://www.bbc.com/news/articles/cz6nd9wnzn6o</link>
+      <description>📝 그들은 엑스레이 카드 테이블, 비밀 카메라, 칩 트레이의 분석기, 선글라스 및 손을 읽을 수 있는 콘택트 렌즈를 포함하는 정교한 포커 도박 계획을 통해 마피아의 표적이 된 것으로 알려진 "물고기"였습니다. 검찰이 "얼굴 카드"로 묘사한 전직 프로 운동선수들이 이 계획을 돕고 피해자들을 경기에 참여하도록 유도하기 위해 참여했습니다. 그런 다음 그 사람은 다른 사람에게 비밀리에 신호를 보내 효과적으로 돈을 훔치고 피해자의 승소를 불가능하게 만든다고 검찰은 주장합니다.
 
 
-🔤 Original: Interstellar Mission to a Black Hole
+🔤 Original: Poker fraud used X-ray tables, high-tech glasses and NBA players
 
-🔗 Read more: https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</description>
-      <guid isPermaLink="true">https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/</guid>
-      <pubDate>Fri, 24 Oct 2025 09:17:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45692585</comments>
+🔗 Read more: https://www.bbc.com/news/articles/cz6nd9wnzn6o</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/cz6nd9wnzn6o</guid>
+      <pubDate>Fri, 24 Oct 2025 11:42:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693599</comments>
     </item>
     <item>
-      <title>Padlet (YC W13)이 샌프란시스코와 싱가포르에서 채용 중입니다</title>
-      <link>https://padlet.jobs</link>
-      <description>📝 당신의 첫 걸음을 기록하는 카메라. 당신의 모든 위안, 모든 기쁨, 모든 추억. 주차장을 찾으려고 합니다.
+      <title>Show HN: 브라우저에서 실행되는 빠른 개인 정보 보호 우선 이미지 변환기</title>
+      <link>https://imageconverter.dev/</link>
+      <description>📝 파일은 브라우저를 떠나지 않습니다. 이미지 변환기 FAQ브라우저에서 이미지 형식을 전환하는 데 대해 알아야 할 모든 것이미지 변환기를 무료로 사용할 수 있습니까? 변환기로 인해 이미지 품질이 저하됩니까?
 
 
-🔤 Original: Padlet (YC W13) Is Hiring in San Francisco and Singapore
+🔤 Original: Show HN: A fast, privacy-first image converter that runs in browser
 
-🔗 Read more: https://padlet.jobs</description>
-      <guid isPermaLink="true">https://padlet.jobs</guid>
-      <pubDate>Fri, 24 Oct 2025 12:01:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45693743</comments>
+🔗 Read more: https://imageconverter.dev/</description>
+      <guid isPermaLink="true">https://imageconverter.dev/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:21:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45693904</comments>
+    </item>
+    <item>
+      <title>신호등 프로토콜</title>
+      <link>https://www.first.org/tlp/</link>
+      <description>📝 정보 공유는 정보 소스에서 한 명 이상의 수신자를 대상으로 이루어집니다. 따라서 수신자는 TLP:RED 정보를 다른 누구와도 공유할 수 없습니다. 수신자는 TLP:AMBER i를 공유할 수 있습니다.
+
+
+🔤 Original: Traffic Light Protocol
+
+🔗 Read more: https://www.first.org/tlp/</description>
+      <guid isPermaLink="true">https://www.first.org/tlp/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:52:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45694111</comments>
     </item>
   </channel>
 </rss>
