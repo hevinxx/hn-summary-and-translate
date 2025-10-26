@@ -6,112 +6,31 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Oct 2025 01:30:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 03:42:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Linux 启动过程：从电源按钮到内核</title>
-      <link>https://www.0xkato.xyz/linux-boot/</link>
-      <description>📝 Femboy 模式 此模式以柔和的粉红色 Hello Kitty 为主题，改变整个网站。一切都会变成粉红色、柔和的、可爱的。准备进入femboy模式了。
+      <title>Pico-Banana-400k</title>
+      <link>https://github.com/apple/pico-banana-400k</link>
+      <description>📝 🍌 Pico-Banana-400K：用于文本引导图像编辑的大型数据集 [📖 论文] Pico-Banana-400K 是一个由约 400K 文本-图像-编辑三元组组成的大型数据集，旨在推进文本引导图像编辑的研究。多轮编辑图像清单文件：多轮链接🖼️ 3. 源图像 下载源图像的 URL 以及 sft 链接、首选项链接和多轮链接中的编辑说明一起提供。
 
-
-🔤 Original: The Linux Boot Process: From Power Button to Kernel
-
-🔗 Read more: https://www.0xkato.xyz/linux-boot/</description>
-      <guid isPermaLink="true">https://www.0xkato.xyz/linux-boot/</guid>
-      <pubDate>Sat, 25 Oct 2025 23:04:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45707658</comments>
+🔗 Read more: https://github.com/apple/pico-banana-400k</description>
+      <guid isPermaLink="true">https://github.com/apple/pico-banana-400k</guid>
+      <pubDate>Sun, 26 Oct 2025 02:01:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45708524</comments>
     </item>
     <item>
-      <title>一名工人掉入核反应堆水池</title>
-      <link>https://www.nrc.gov/reading-rm/doc-collections/event-status/event/2025/20251022en?brid=vscAjql9kZL1FfGE7TYHVw#en57996:~:text=TRANSPORT%20OF%20CONTAMINATED%20PERSON%20OFFSITE</link>
-      <description>📝 佩恩总部 OPS 官员：Josue Ramirez 通知日期：2025 年 10 月 21 日 通知时间：14:37 [ET] 事件日期：2025 年 10 月 21 日 事件时间：06:10 [CDT] 最后更新日期：2025 年 10 月 21 日 紧急类别：非紧急 10 CFR 部分：50. 动力反应堆事件编号：57996 设施：Palisades地区：3 状态：MI 单位：[1] [] [] RX 类型：[1] CE NRC 通知人：Scott Moore 总部 OPS 官员：Josue Ramirez 通知日期：2025 年 10 月 21 日 通知时间：16:52 [东部时间] 事件日期：2025 年 10 月 21 日 事件时间：16:32 [美国东部时间] 最后更新日期：2025 年 10 月 21 日 紧急类别：非紧急 10 CFR 部分：50.“动力反应堆事件编号： 57997 设施：北安娜地区： 2 州：VA 单位：[1] [] [] 接收类型：[1] W-3-LP、[2] W-3-LP、[3] M-4-LP NRC 通知人：Nick Wilson 总部 OPS 官员：Josue Ramirez 通知日期：10/21/2025 通知时间：23:10 [ET] 活动日期：10/21/2025 活动时间：21:08 [东部夏令时间] 最后更新日期： 2025 年 10 月 21 日紧急类别：非紧急 10 CFR 部分：50。
+      <title>PCB 边缘 USB C 连接器库</title>
+      <link>https://github.com/AnasMalas/pcb-edge-usb-c</link>
+      <description>📝 该存储库包括包含 10 和 14 引脚版本的 KiCAD 和 EasyEDA 库。 EasyEDA 要在 EasyEDA pro 中使用此库，请导入 .导入后，在 KiCAD 或 EasyEDA 中仔细检查相同的封装。
 
 
-🔤 Original: A worker fell into a nuclear reactor pool
+🔤 Original: PCB Edge USB C Connector Library
 
-🔗 Read more: https://www.nrc.gov/reading-rm/doc-collections/event-status/event/2025/20251022en?brid=vscAjql9kZL1FfGE7TYHVw#en57996:~:text=TRANSPORT%20OF%20CONTAMINATED%20PERSON%20OFFSITE</description>
-      <guid isPermaLink="true">https://www.nrc.gov/reading-rm/doc-collections/event-status/event/2025/20251022en?brid=vscAjql9kZL1FfGE7TYHVw#en57996:~:text=TRANSPORT%20OF%20CONTAMINATED%20PERSON%20OFFSITE</guid>
-      <pubDate>Sun, 26 Oct 2025 01:15:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45708292</comments>
-    </item>
-    <item>
-      <title>程序如何运行：ELF 二进制文件 (2015)</title>
-      <link>https://lwn.net/Articles/631631/</link>
-      <description>📝 内核只真正关心三种类型的程序头条目。设置新程序的过程从调用flush_old_exec()开始，它清除内核中引用前一个程序的状态。当程序文件在当前凭据下无法读取时，转储也会被禁用。
-
-
-🔤 Original: How programs get run: ELF binaries (2015)
-
-🔗 Read more: https://lwn.net/Articles/631631/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/631631/</guid>
-      <pubDate>Sat, 25 Oct 2025 21:03:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45706938</comments>
-    </item>
-    <item>
-      <title>TinyKVM 的更新</title>
-      <link>https://fwsgonzo.medium.com/an-update-on-tinykvm-7a38518e57e9</link>
-      <description>📝 类似 Jailer + TinyKVM + Deno + 每个请求隔离。按请求隔离 按请求隔离显然并不常见。每个请求的隔离是非常非常昂贵的。
-
-
-🔤 Original: An Update on TinyKVM
-
-🔗 Read more: https://fwsgonzo.medium.com/an-update-on-tinykvm-7a38518e57e9</description>
-      <guid isPermaLink="true">https://fwsgonzo.medium.com/an-update-on-tinykvm-7a38518e57e9</guid>
-      <pubDate>Sat, 25 Oct 2025 20:51:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45706866</comments>
-    </item>
-    <item>
-      <title>D2：图表脚本语言</title>
-      <link>https://d2lang.com/tour/intro/</link>
-      <description>📝 infoD2 的源代码托管在此处：https://github。这些文档的源代码位于：https://github。有一些例外，例如使用导入的片段。
-
-
-🔤 Original: D2: Diagram Scripting Language
-
-🔗 Read more: https://d2lang.com/tour/intro/</description>
-      <guid isPermaLink="true">https://d2lang.com/tour/intro/</guid>
-      <pubDate>Sat, 25 Oct 2025 22:40:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45707539</comments>
-    </item>
-    <item>
-      <title>自我的有效实施 (1989) [pdf]</title>
-      <link>https://courses.cs.washington.edu/courses/cse501/15sp/papers/chambers.pdf</link>
-      <description>📝 3 %���� 1672 0 obj &lt;&lt; /线性化 1 /O 1674 /H [ 2174 632 ] /L 2405711 /E 110798 /N 22 /T 2372151 &gt;&gt; endobj 外部参照 1672 88 0000000016 00000 n 0000002115 00000 n 0000002806 00000 n 0000003043 00000 n 0000003588 00000n 0000003694 00000n 0000003717 00000n 0000004823 00000n 0000005094 00000n 0000005454 00000n 0000005478 00000 0000006683 00000 0000006707 00000 0000007987 00000 n 0000008011 00000 n 0000009339 00000 n 0000009363 00000 n 0000010716 00000 n 0000010740 00000 n 0000012121 00000 n 0000012145 00000n 0000012430 00000n 0000012699 00000n 0000014085 00000n 0000014109 00000n 0000014131 00000n 0000014153 00000n 0000015728 00000n 0000015752 00000n 0000017236 00000n 0000017260 00000n 0000018900 00000n 0000018924 00000n 0000021122 00000n 0000021145 00000n 0000022242 00000n 0000022266 00000n 0000023570 00000n 0000023593 00000n 0000024443 00000n 0000024467 00000 0000026493 00000 0000026516 00000 0000027460 00000 n 0000027484 00000 n 0000031866 00000 n 0000031890 00000 n 0000036302 00000 n 0000036326 00000 n 0000039571 00000 n 0000039595 00000 0000044274 00000 0000044298 00000 0000048886 00000 n 0000048910 00000 n 0000053534 00000 n 0000053558 00000 n 0000057837 00000 n 0000057861 00000 n 0000062188 00000 n 0000062212 00000 0000066594 00000 0000066618 00000 0000071303 00000n 0000071327 00000n 0000075838 00000n 0000075862 00000n 0000077145 00000n 0000077169 00000n 0000081870 00000n 0000081894 00000 n 0000086385 00000 n 0000086409 00000 n 0000089018 00000n 0000089042 00000n 0000092710 00000n 0000092734 00000n 0000095378 00000n 0000095402 00000n 0000100796 00000n 0000100820 00000n 0000105940 00000n 0000105964 00000n 0000109386 00000 n 0000109409 00000 n 0000110529 00000 n 0000002174 00000 n 0000002783 00000 n 拖车 &lt;&lt; /Size 1760 /Info 1667 0 R /Root 1673 0 R /上一个 2372139 /ID[] &gt;&gt; startxref 0 %%EOF 1673 0 obj &lt;&lt; /类型 /Catalog /Pages 1666 0 R &gt;&gt; endobj 1758 0 obj &lt;&lt; /S 414 /T 606 /Filter /FlateDecode /Length 1759 0 R &gt;&gt; 流 H�b``pa`�c`e`xQ� � � , �@��4e�"�㔅 g�f� �9my �~*⻟� }�N�̯��E  ���y���IgoFmQ �{���]\$�kEǊUY�Vttt@�]。 DO0w. ���n&gt;�� �� 8r�����g� �� O@�D=�Q Eρ�������Ͻ �w+��� � `���@8�� �{��*�  6�V/0 M0�T 2�����g�N���g�A��3�)。 �E_b�T�y� 5�Rƌc�M�I�=��@�� ;�x.
-
-
-🔤 Original: An Efficient Implementation of SELF (1989) [pdf]
-
-🔗 Read more: https://courses.cs.washington.edu/courses/cse501/15sp/papers/chambers.pdf</description>
-      <guid isPermaLink="true">https://courses.cs.washington.edu/courses/cse501/15sp/papers/chambers.pdf</guid>
-      <pubDate>Sat, 25 Oct 2025 21:01:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45706924</comments>
-    </item>
-    <item>
-      <title>我淹没在我从未要求过的人工智能功能中，而且我讨厌它</title>
-      <link>https://www.makeuseof.com/ai-features-being-rammed-down-our-throats/</link>
-      <description>📝 此时，人工智能甚至不再是改进产品。同样的空虚正在到处蔓延。生成式人工智能将所有这些都扁平化为看似真实但并非真实的毫无生气的内容。
-
-
-🔤 Original: I'm drowning in AI features I never asked for and I hate it
-
-🔗 Read more: https://www.makeuseof.com/ai-features-being-rammed-down-our-throats/</description>
-      <guid isPermaLink="true">https://www.makeuseof.com/ai-features-being-rammed-down-our-throats/</guid>
-      <pubDate>Sun, 26 Oct 2025 00:29:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45708066</comments>
-    </item>
-    <item>
-      <title>被贬低的杂志：索卡尔事件三十年后</title>
-      <link>https://thebaffler.com/salvos/belittled-magazine-robbins</link>
-      <description>📝 然而，他们确信，他们在水中闻到的是血腥味。让女性和有色人种保持原样的刻板印象（当时是这样称呼的）并不是世界上可验证的真相。该杂志的起源无疑是马克思主义的。
-
-
-🔤 Original: Belittled Magazine: Thirty years after the Sokal affair
-
-🔗 Read more: https://thebaffler.com/salvos/belittled-magazine-robbins</description>
-      <guid isPermaLink="true">https://thebaffler.com/salvos/belittled-magazine-robbins</guid>
-      <pubDate>Sat, 25 Oct 2025 21:37:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45707194</comments>
+🔗 Read more: https://github.com/AnasMalas/pcb-edge-usb-c</description>
+      <guid isPermaLink="true">https://github.com/AnasMalas/pcb-edge-usb-c</guid>
+      <pubDate>Sun, 26 Oct 2025 02:31:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45708686</comments>
     </item>
   </channel>
 </rss>
