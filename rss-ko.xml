@@ -6,106 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 27 Oct 2025 21:18:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 01:24:05 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>PSF는 미국 정부 보조금 프로그램에 대한 150만 달러 제안을 철회했습니다.</title>
-      <link>https://simonwillison.net/2025/Oct/27/psf-withdrawn-proposal/</link>
-      <description>📝 최근 기사 비디오: 웹용 Claude Code를 사용하여 터미널 세션을 복사하여 붙여넣는 도구 구축 - 2025년 10월 23일 ChatGPT Atlas의 프롬프트 주입 위험에 대한 Dane Stuckey(OpenAI CISO) - 2025년 10월 22일 Claude와 함께 위험하게 살기 - 2025년 10월 22일.
+      <title>이로흐 얼룩</title>
+      <link>https://www.iroh.computer/blog/iroh-blobs-0-95-new-features</link>
+      <description>📝 연결 풀 util::connection_pool에 새로운 연결 풀이 있습니다. get_or_connect는 풀에서 기존 연결을 얻으려고 시도합니다. /// 여기서 ConnectionRef가 삭제되고 풀은 연결이 유휴 상태인 것으로 간주합니다.
 
 
-🔤 Original: The PSF has withdrawn a $1.5M proposal to US Government grant program
+🔤 Original: Iroh-blobs
 
-🔗 Read more: https://simonwillison.net/2025/Oct/27/psf-withdrawn-proposal/</description>
-      <guid isPermaLink="true">https://simonwillison.net/2025/Oct/27/psf-withdrawn-proposal/</guid>
-      <pubDate>Mon, 27 Oct 2025 20:52:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45726137</comments>
+🔗 Read more: https://www.iroh.computer/blog/iroh-blobs-0-95-new-features</description>
+      <guid isPermaLink="true">https://www.iroh.computer/blog/iroh-blobs-0-95-new-features</guid>
+      <pubDate>Mon, 27 Oct 2025 23:28:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45727557</comments>
     </item>
     <item>
-      <title>Easy RISC-V: RISC-V 어셈블리 프로그래밍에 대한 대화형 소개</title>
-      <link>https://dramforever.github.io/easyriscv/</link>
-      <description>📝 다른 것들은 패턴이 있는 것처럼 보일 것입니다. 축하합니다. 첫 번째 RISC-V 어셈블리 프로그램을 실행했습니다. 코드에 문제가 있으면 이에 대해 알려주고 에뮬레이터는 시작되지 않습니다.
+      <title>이게 진짜 CVE인가요? dnsmasq의 VulDB 항목은 구성 파일 교체에 의존합니다.</title>
+      <link>https://seclists.org/oss-sec/2025/q4/79</link>
+      <description>📝 oss-sec 메일링 목록 아카이브 날짜별 스레드 Re: dnsmasq에 대해 의심스러운 CVE가 보고됨 보낸 사람: Moritz Mühlenhoff &lt;jmm () inutil org&gt; 날짜: 2025년 10월 27일 월요일 19:21:54 +0000 2025년 10월 27일 월요일 오전 9시 34분 3초 -0700에 Alan Coopersmith가 쓴 내용: 새로운 내용 중 이번 주말에 게시된 CVE는 VulDB에서 가져온 것입니다. CNA: 세 가지 버그 모두에 대해 문서화된 "악용"에는 "기본 구성 파일(/etc/dnsmasq.conf)을 제공된 악성 파일로 교체해야 합니다. 건배, Moritz By Date By Thread 현재 스레드: dnsmasq에 대해 의심스러운 CVE가 보고되었습니다. Alan Coopersmith(10월 27일) Re: dnsmasq에 대해 의심스러운 CVE가 보고되었습니다. Jeremy Stanley(10월 27일) Re: 의심스러운 CVE가 dnsmasq에 대해 보고했습니다. dnsmasq Andrew Latham(10월 27일) 답장: dnsmasq Sebastian Pipping에 대해 의심스러운 CVE가 보고됨(10월 27일) 답장: dnsmasq Stuart Henderson에 대해 의심스러운 CVE가 보고됨(10월 27일) 답장: dnsmasq에 대해 의심스러운 CVE가 보고됨 Sebastian Pipping(10월 27일) 답장: dnsmasq에 대해 의심스러운 CVE가 보고됨 Matthew Fernandez (10월 27일) 답장: 의문스럽습니다 dnsmasq에 대해 보고된 CVE Jeffrey Walton(10월 27일) 답장: dnsmasq Moritz Mühlenhoff에 대해 보고된 의심스러운 CVE(10월 27일) 답: dnsmasq에 대해 보고된 의심스러운 CVE Collin Funk(10월 27일) 답변: dnsmasq에 대해 의심스러운 CVE가 보고됨 Michael Orlitzky(10월 27일) 답변: dnsmasq Hank에 대해 의심스러운 CVE가 보고됨 라이닝거 (10월 27일).
 
 
-🔤 Original: Easy RISC-V: An interactive introduction to RISC-V assembly programming
+🔤 Original: Are these real CVEs? VulDB entries for dnsmasq rely on replacing config files
 
-🔗 Read more: https://dramforever.github.io/easyriscv/</description>
-      <guid isPermaLink="true">https://dramforever.github.io/easyriscv/</guid>
-      <pubDate>Mon, 27 Oct 2025 20:57:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45726192</comments>
+🔗 Read more: https://seclists.org/oss-sec/2025/q4/79</description>
+      <guid isPermaLink="true">https://seclists.org/oss-sec/2025/q4/79</guid>
+      <pubDate>Mon, 27 Oct 2025 22:35:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45727137</comments>
     </item>
     <item>
-      <title>연구에 따르면 소셜 서클의 성장이 양극화를 촉진할 수 있습니다.</title>
-      <link>https://phys.org/news/2025-10-friends-division-social-circles-fuel.html</link>
-      <description>📝 역설: 더 많은 연결, 더 많은 분열 이 두 가지 발전은 서로 연관되어 있습니까? 친한 친구가 많아지면 소셜 네트워크가 더 조밀해지며 네트워크가 분열되고 궁극적으로 사회적 양극화로 이어집니다. “사람들이 서로 더 많이 연결될수록 다른 의견을 더 자주 접하게 됩니다.
+      <title>AI는 코딩은 할 수 있지만 소프트웨어를 만들 수는 없습니다.</title>
+      <link>https://bytesauna.com/post/coding-vs-software-engineering</link>
+      <description>📝 왜 이 사람들에게 내가 필요할까요? 제가 이러한 요청을 받는다는 사실은 소프트웨어 엔지니어링에 대해 뭔가를 말해줍니다. 코딩은 쉽고 소프트웨어 엔지니어링은 어렵다는 오래된 지혜가 있습니다.
 
 
-🔤 Original: Study finds growing social circles may fuel polarization
+🔤 Original: AI can code, but it can't build software
 
-🔗 Read more: https://phys.org/news/2025-10-friends-division-social-circles-fuel.html</description>
-      <guid isPermaLink="true">https://phys.org/news/2025-10-friends-division-social-circles-fuel.html</guid>
-      <pubDate>Mon, 27 Oct 2025 19:06:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45725009</comments>
+🔗 Read more: https://bytesauna.com/post/coding-vs-software-engineering</description>
+      <guid isPermaLink="true">https://bytesauna.com/post/coding-vs-software-engineering</guid>
+      <pubDate>Mon, 27 Oct 2025 23:41:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45727664</comments>
     </item>
     <item>
-      <title>전천후 드라이버 만들기</title>
-      <link>https://waymo.com/blog/2025/10/creating-an-all-weather-driver</link>
-      <description>📝 전 세계적으로 우리는 눈이 많이 내리는 겨울 날씨에 대한 능력을 향상시키기 위해 이러한 조건에 대해 Waymo Driver를 검증할 수 있는 동일한 체계적이고 과학적인 접근 방식을 적용하고 있습니다. 일반화 가능한 솔루션 설계 Waymo에서는 다양한 조건에서 작동하는 하나의 자율 시스템을 구축하고 있습니다. 안개가 자욱한 샌프란시스코를 탐색하는 동일한 Waymo Driver가 눈 덮인 덴버를 탐색할 수 있습니다. 겨울 날씨는 복잡하지만, 우리는 라이더에게 가장 필요할 때 안정적인 서비스를 제공하기 위해 최선을 다하고 있습니다.
+      <title>Show HN: Dlog – 무엇이 웰빙을 이끄는지 배우는 저널링 및 AI 코치(Mac)</title>
+      <link>https://dlog.pro/</link>
+      <description>📝 Dlog는 모든 생산성 도구를 한 곳에 모아줍니다. Dlog의 코치는 귀하의 성격, 성격, 자원 및 웰빙과 어떻게 상호 작용하는지 보여줍니다. Coach는 귀하의 저널에 접근할 수 있습니다.
 
 
-🔤 Original: Creating an all-weather driver
+🔤 Original: Show HN: Dlog – Journaling and AI coach that learns what drives wellbeing (Mac)
 
-🔗 Read more: https://waymo.com/blog/2025/10/creating-an-all-weather-driver</description>
-      <guid isPermaLink="true">https://waymo.com/blog/2025/10/creating-an-all-weather-driver</guid>
-      <pubDate>Mon, 27 Oct 2025 18:57:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45724913</comments>
-    </item>
-    <item>
-      <title>AI 기반 코딩의 새로운 계산법</title>
-      <link>https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based-coding.html</link>
-      <description>📝 나는 항상 효율적인 코더였으며 제한된 시간에도 코드를 작성할 시간을 찾았으며 지난 몇 년 동안 코딩에 전념할 수 있었습니다. 좋은 테스트와 엔지니어링 방식을 사용하더라도 버그가 발생하는 경우가 있습니다. 예를 들어, 나는 통제된 환경에서 완전히 조립된 시스템을 테스트하는 "풍동" 스타일 테스트를 항상 좋아했습니다.
-
-
-🔤 Original: The new calculus of AI-based coding
-
-🔗 Read more: https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based-coding.html</description>
-      <guid isPermaLink="true">https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based-coding.html</guid>
-      <pubDate>Mon, 27 Oct 2025 17:17:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45723686</comments>
-    </item>
-    <item>
-      <title>TOON – 토큰 지향 객체 표기법</title>
-      <link>https://github.com/johannschopplich/toon</link>
-      <description>📝 JSON: 균일하지 않은 데이터에 가장 적합합니다. 63 }, { "날짜": "2025-01-02", "조회수": 6940, "클릭수": 323, "전환수": 37, "수익": 9086. 36 }, { "날짜": "2025-01-03", "조회수": 4390, "클릭수": 346, "전환수": 26, "수익": 6360.
-
-
-🔤 Original: TOON – Token Oriented Object Notation
-
-🔗 Read more: https://github.com/johannschopplich/toon</description>
-      <guid isPermaLink="true">https://github.com/johannschopplich/toon</guid>
-      <pubDate>Sun, 26 Oct 2025 22:19:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45715632</comments>
-    </item>
-    <item>
-      <title>항상 DNS는 아닙니다.</title>
-      <link>https://notes.pault.ag/its-not-always-dns/</link>
-      <description>📝 DNS 오류는 가장 먼저 수행해야 할 작업 중 하나이기 때문에 가장 먼저 관찰 가능한 문제인 경우가 많습니다. 이는 업데이트된 이름을 IP 매핑에 배포하는 방법에 관계없이 발생합니다. 이 역시 이름을 IP 매핑에 어떻게 배포하든 관계없이 발생합니다.
-
-
-🔤 Original: It's not always DNS
-
-🔗 Read more: https://notes.pault.ag/its-not-always-dns/</description>
-      <guid isPermaLink="true">https://notes.pault.ag/its-not-always-dns/</guid>
-      <pubDate>Mon, 27 Oct 2025 17:25:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45723809</comments>
-    </item>
-    <item>
-      <title>'완벽한' 코드가 실패하는 경우</title>
-      <link>https://marma.dev/articles/2025/when-perfect-code-fails</link>
-      <guid isPermaLink="true">https://marma.dev/articles/2025/when-perfect-code-fails</guid>
-      <pubDate>Mon, 27 Oct 2025 14:19:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45721302</comments>
+🔗 Read more: https://dlog.pro/</description>
+      <guid isPermaLink="true">https://dlog.pro/</guid>
+      <pubDate>Mon, 27 Oct 2025 17:14:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45723646</comments>
     </item>
   </channel>
 </rss>
