@@ -6,86 +6,139 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 28 Oct 2025 12:40:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 15:24:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>아마존, 기업 부문에서 14,000명의 일자리 손실 확인</title>
-      <link>https://www.bbc.com/news/articles/c1m3zm9jnl1o</link>
-      <description>📝 그녀는 회사의 실적이 좋은 점을 고려할 때 일부 사람들이 이러한 움직임에 의문을 제기할 것이라는 점을 인정했습니다. 퇴직금 등 '전환 지원'을 받을 수 없는 사람은 제외된다고 밝혔다. 회사는 1개 이상을 보유하고 있습니다.
+      <title>EuroLLM: 유럽에서 제작된 LLM은 24개의 공식 EU 언어를 모두 지원하도록 제작되었습니다.</title>
+      <link>https://eurollm.io/</link>
+      <description>📝 EuroLLM-9B 당사의 현재 주력 모델입니다. HUGGING FACE에서 모델 사용해 보기 &gt; 자세히 알아보기 EuroLLM 릴리스 Hugging Face LINK에 대한 기사 EuroLLM용 기술 보고서 ​​1. MareNostrum 5 슈퍼컴퓨터에서 훈련된 EuroLLM은 비슷한 크기의 모델보다 성능이 뛰어납니다.
 
 
-🔤 Original: Amazon confirms 14,000 job losses in corporate division
+🔤 Original: EuroLLM: LLM made in Europe built to support all 24 official EU languages
 
-🔗 Read more: https://www.bbc.com/news/articles/c1m3zm9jnl1o</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c1m3zm9jnl1o</guid>
-      <pubDate>Tue, 28 Oct 2025 11:39:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45731539</comments>
+🔗 Read more: https://eurollm.io/</description>
+      <guid isPermaLink="true">https://eurollm.io/</guid>
+      <pubDate>Tue, 28 Oct 2025 14:58:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45733707</comments>
     </item>
     <item>
-      <title>최악의 .NET 취약점 이해</title>
-      <link>https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/</link>
-      <description>📝 요청 밀수를 통해 공격자는 추가 요청을 다른 요청 안에 숨길 수 있으며 숨겨진 요청이 수행할 수 있는 작업은 애플리케이션마다 다릅니다. 밀수 요청은 어떻게 이루어지나요? 공격자가 다음과 같은 HTTP 요청을 보낸다고 가정해 보겠습니다. POST /some_script.
+      <title>Sick: JSON과 유사한 데이터 구조를 위한 색인화된 중복 제거 바이너리 저장소</title>
+      <link>https://github.com/7mind/sick</link>
+      <description>📝 따라서 JSON에 대한 효율적인 스트리밍 파서를 구현하는 것은 불가능합니다. 대기업 제품에 대한 일반적인 JSON 구성 파일을 상상해 보십시오. 아이디어 작은 JSON이 있다고 가정해 보겠습니다. [ {"some key": "some value"}, {"some key": "some value"}, {"some value": "some key"}, ] JSON의 모든 고유 값에 대한 테이블을 구축해 보겠습니다. [객체:0, 객체:0, 객체:1] 예(파일.
 
 
-🔤 Original: Understanding the Worst .NET Vulnerability
+🔤 Original: Sick: Indexed deduplicated binary storage for JSON-like data structures
 
-🔗 Read more: https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/</description>
-      <guid isPermaLink="true">https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/</guid>
-      <pubDate>Tue, 28 Oct 2025 11:03:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45731315</comments>
+🔗 Read more: https://github.com/7mind/sick</description>
+      <guid isPermaLink="true">https://github.com/7mind/sick</guid>
+      <pubDate>Tue, 28 Oct 2025 13:22:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45732552</comments>
     </item>
     <item>
-      <title>HN 표시: Bash 화면 보호기</title>
-      <link>https://github.com/attogram/bash-screensavers</link>
-      <description>📝 Bash Screensavers 지루하고 오래된 터미널에 지쳤습니다. sh Bash 스크린 세이버 v0. sh 특정 화면 보호기로 시작합니다.
-
-
-🔤 Original: Show HN: Bash Screensavers
-
-🔗 Read more: https://github.com/attogram/bash-screensavers</description>
-      <guid isPermaLink="true">https://github.com/attogram/bash-screensavers</guid>
-      <pubDate>Tue, 28 Oct 2025 11:12:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45731366</comments>
+      <title>난수의 간략한 역사</title>
+      <link>https://crates.io/crates/oorandom#a-brief-history-of-random-numbers</link>
+      <guid isPermaLink="true">https://crates.io/crates/oorandom#a-brief-history-of-random-numbers</guid>
+      <pubDate>Tue, 28 Oct 2025 14:34:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45733412</comments>
     </item>
     <item>
-      <title>주름의 기하학과 물리학(2003) [pdf]</title>
-      <link>https://softmath.seas.harvard.edu/wp-content/uploads/2019/10/2003-03.pdf</link>
-      <description>📝 � ��b; +e*���U�]��@� �5,�W�j&gt; K� [�� [�%�i���zUo� �D�i }�_G �rd� ��G/'� � � ��r Z�r�ɛ䃄 �   �VW������&gt;��, ,X�Wt8|��R� 7� �q � 3&lt; � `)�2 ��2� �{�l �/ �j(������������. CP ��G����A�\�@x-s�*/��zK hj. aV`�6�����ϬJ�Qf}r� U� _��Y�� � �5�CE� ��E= ���'��sPpD�\�2� �� i�L�-����ؗ���������� ��x2 .
+      <title>유비쿼터스 SFP 마법사</title>
+      <link>https://blog.ui.com/article/welcome-to-sfp-liberation-day</link>
+      <description>📝 완전히 새로운 SFP 마법사로 구동되는 개방형 SFP 연결을 축하하는 SFP 해방의 날에 오신 것을 환영합니다. 속도, 정밀도 및 단순성을 중시하는 네트워킹 전문가를 위해 설계된 이 소형 휴대용 장치는 광케이블 모듈을 완벽하게 제어할 수 있습니다. 진단부터 프로그래밍까지 설치 작업 흐름을 더욱 원활하고 스마트하게 만들도록 제작되었습니다.
 
 
-🔤 Original: Geometry and Physics of Wrinkling (2003) [pdf]
+🔤 Original: Ubiquiti SFP Wizard
 
-🔗 Read more: https://softmath.seas.harvard.edu/wp-content/uploads/2019/10/2003-03.pdf</description>
-      <guid isPermaLink="true">https://softmath.seas.harvard.edu/wp-content/uploads/2019/10/2003-03.pdf</guid>
-      <pubDate>Tue, 28 Oct 2025 09:02:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45730607</comments>
+🔗 Read more: https://blog.ui.com/article/welcome-to-sfp-liberation-day</description>
+      <guid isPermaLink="true">https://blog.ui.com/article/welcome-to-sfp-liberation-day</guid>
+      <pubDate>Tue, 28 Oct 2025 13:48:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45732874</comments>
     </item>
     <item>
-      <title>너의 바이브 코딩된 슬롭 PR은 환영받지 못 해</title>
-      <link>https://samsaffron.com/archive/2025/10/27/your-vibe-coded-slop-pr-is-not-welcome</link>
-      <description>📝 한쪽에는 단순히 아이디어를 보여주는 프로토타입이 있습니다. 언제 프로토타입을 작성해야 합니까? 프로토타입은 언제 적절한가?
+      <title>워싱턴 포스트(Washington Post) 사설에서는 베조스의 금융 관계에 대한 핵심 공개를 생략했습니다.</title>
+      <link>https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties</link>
+      <description>📝 " The Post는 Bezos가 관심을 갖고 있는 문제에 초점을 맞추고 있음을 공개하지 않은 최근 여러 사설을 발표했습니다. 그러나 Post는 처음에 이를 공개하지 않았습니다. 최고 오피니언 페이지 편집자는 사임했습니다.
 
 
-🔤 Original: Your vibe coded slop PR is not welcome
+🔤 Original: Washington Post editorials omit a key disclosure: Bezos' financial ties
 
-🔗 Read more: https://samsaffron.com/archive/2025/10/27/your-vibe-coded-slop-pr-is-not-welcome</description>
-      <guid isPermaLink="true">https://samsaffron.com/archive/2025/10/27/your-vibe-coded-slop-pr-is-not-welcome</guid>
-      <pubDate>Tue, 28 Oct 2025 11:03:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45731321</comments>
+🔗 Read more: https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties</description>
+      <guid isPermaLink="true">https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties</guid>
+      <pubDate>Tue, 28 Oct 2025 14:16:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45733197</comments>
     </item>
     <item>
-      <title>적합한 소프트웨어 - Clay Shirky(2004)</title>
-      <link>http://shirky.com/essays/situated-software/</link>
-      <description>📝 학생들이 특정 사회적 상황에 맞는 소프트웨어를 만드는 것을 지켜보고 있습니다. 그리고 웹스쿨 애플리케이션은 규모에 따른 가치를 우선시함으로써 다른 종류의 가치, 특히 사회적 가치를 실현할 수 없습니다. 우리는 오랫동안 "확장되지 않을 것"이라는 말로 소프트웨어에 대한 대화를 중단시켜 왔고 확장 문제가 본질적으로 치명적이지 않다는 사실을 잊어버렸습니다.
+      <title>Microsoft-OpenAI 파트너십의 다음 장</title>
+      <link>https://openai.com/index/next-chapter-of-microsoft-openai-partnership/</link>
+      <guid isPermaLink="true">https://openai.com/index/next-chapter-of-microsoft-openai-partnership/</guid>
+      <pubDate>Tue, 28 Oct 2025 13:05:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45732350</comments>
+    </item>
+    <item>
+      <title>오스트리아 정부, Nextcloud를 선호하여 Microsoft 퇴출</title>
+      <link>https://news.itsfoss.com/austrian-ministry-kicks-out-microsoft/</link>
+      <description>📝 지난달 오스트리아군은 16,000대의 워크스테이션을 Microsoft Office에서 LibreOffice로 마이그레이션했습니다. 현재 국방부는 민감한 정부 데이터를 처리하기 위해 외국 클라우드 제공업체로부터 벗어나 오스트리아가 통제하는 인프라에서 운영되고 있습니다. 직원들의 반응은 상당히 긍정적이었고 일상 업무에 지장을 최소화했습니다.
 
 
-🔤 Original: Situated Software – Clay Shirky (2004)
+🔤 Original: Austrian Ministry Kicks Out Microsoft in Favor of Nextcloud
 
-🔗 Read more: http://shirky.com/essays/situated-software/</description>
-      <guid isPermaLink="true">http://shirky.com/essays/situated-software/</guid>
-      <pubDate>Tue, 28 Oct 2025 10:20:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45731069</comments>
+🔗 Read more: https://news.itsfoss.com/austrian-ministry-kicks-out-microsoft/</description>
+      <guid isPermaLink="true">https://news.itsfoss.com/austrian-ministry-kicks-out-microsoft/</guid>
+      <pubDate>Tue, 28 Oct 2025 13:16:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45732485</comments>
+    </item>
+    <item>
+      <title>Text2SQL은 죽었습니다 – 오래 살아라 text2SQL</title>
+      <link>https://www.exasol.com/blog/text-to-sql-governance/</link>
+      <description>📝 두 번째 시도에서는 자연어 질문을 SQL 문으로 변환하는 원샷 변환기를 구현하여 이 프로세스를 온프레미스에서 완전히 실행했습니다. 그러나 이 서버의 특성상 주로 기술 사용자를 대상으로 합니다. 그러나 Text-to-SQL 기능을 포함하는 MCP 서버 버전을 사용할 수 있습니다(https://gith.
+
+
+🔤 Original: Text2SQL is dead – long live text2SQL
+
+🔗 Read more: https://www.exasol.com/blog/text-to-sql-governance/</description>
+      <guid isPermaLink="true">https://www.exasol.com/blog/text-to-sql-governance/</guid>
+      <pubDate>Tue, 28 Oct 2025 14:43:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45733525</comments>
+    </item>
+    <item>
+      <title>비타민 D는 수치가 낮은 사람들의 경우 감기 발병률과 기간을 줄입니다.</title>
+      <link>https://ijmpr.in/article/the-role-of-vitamin-d-supplementation-in-the-prevention-of-acute-respiratory-infections-a-double-blind-randomized-controlled-trial-1327/</link>
+      <description>📝 (2017)은 11,000명이 넘는 참가자를 대상으로 한 25건의 무작위 대조 시험에 대한 메타 분석을 실시했으며, 그 결과 비타민 D 보충이 특히 심각한 결핍증(&lt;10ng/mL)이 있는 개인과 매일 또는 매주 복용하는 사람들 사이에서 ARI의 위험을 감소시키는 것으로 나타났습니다. 따라서 호흡기 건강에 대한 비타민 D 보충의 임상적 관련성은 이러한 교란 변수를 설명하는 잘 설계된 대조 시험을 통해 엄격한 평가를 보장합니다[6]. 이러한 면역학적 메커니즘과 전 세계적으로 지속되는 비타민 D 결핍의 확산을 고려할 때, 일일 비타민 D 보충이 ARI에 대한 측정 가능한 보호를 제공하는지 여부를 조사하는 것은 여전히 ​​높은 임상적 및 공중 보건 중요성의 문제로 남아 있습니다. 이중 맹검 무작위 대조 시험.
+
+
+🔤 Original: Vitamin D reduces incidence and duration of colds in those with low levels
+
+🔗 Read more: https://ijmpr.in/article/the-role-of-vitamin-d-supplementation-in-the-prevention-of-acute-respiratory-infections-a-double-blind-randomized-controlled-trial-1327/</description>
+      <guid isPermaLink="true">https://ijmpr.in/article/the-role-of-vitamin-d-supplementation-in-the-prevention-of-acute-respiratory-infections-a-double-blind-randomized-controlled-trial-1327/</guid>
+      <pubDate>Tue, 28 Oct 2025 13:31:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45732670</comments>
+    </item>
+    <item>
+      <title>iOS용 v0 – AI로 무엇이든 구축</title>
+      <link>https://apps.apple.com/us/app/v0/id6745097949</link>
+      <description>📝 7 MB 카테고리 개발자 도구 호환성 iPhone에는 iOS 18이 필요합니다. 가격 무료 개발자 웹사이트 앱 지원 개인정보 보호정책 개발자 웹사이트 앱 지원 개인정보 보호정책 다음도 좋아할 것입니다 AI App Maker - a0. dev 개발자 도구 Zeitgeist 개발자 도구 Supanator: Supabase Manager 개발자 도구 Teste - API, 스크립트, 터미널 개발자 도구 ColorSlurp 개발자 도구 Pastel 개발자 도구.
+
+
+🔤 Original: v0 for iOS – Build anything with AI
+
+🔗 Read more: https://apps.apple.com/us/app/v0/id6745097949</description>
+      <guid isPermaLink="true">https://apps.apple.com/us/app/v0/id6745097949</guid>
+      <pubDate>Tue, 28 Oct 2025 14:34:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45733415</comments>
+    </item>
+    <item>
+      <title>안녕하세요. 저는 Wikipedia입니다. 사과할 준비가 되어 있습니다.</title>
+      <link>https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology</link>
+      <description>📝 글쎄요, 수고했어요, 천재들. (참조: Ridgeview University Wikipedia Controversy. (또한 참조: 기술-봉건주의 정보사이드.
+
+
+🔤 Original: Hi, It's Me, Wikipedia, and I Am Ready for Your Apology
+
+🔗 Read more: https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology</description>
+      <guid isPermaLink="true">https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology</guid>
+      <pubDate>Tue, 28 Oct 2025 14:35:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45733430</comments>
     </item>
   </channel>
 </rss>
