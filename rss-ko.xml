@@ -6,132 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 29 Oct 2025 01:30:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 03:49:16 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>생성적 AI 이미지 편집 대결</title>
-      <link>https://genai-showdown.specr.net/image-editing</link>
-      <guid isPermaLink="true">https://genai-showdown.specr.net/image-editing</guid>
-      <pubDate>Tue, 28 Oct 2025 20:58:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45739080</comments>
+      <title>프로젝트 섀도우글래스</title>
+      <link>https://shadowglassgame.com</link>
+      <description>📝 그림자 속으로 들어가세요. 그림자 속으로 들어가세요. 이메일 주소 나오면 알려주세요.
+
+
+🔤 Original: Project Shadowglass
+
+🔗 Read more: https://shadowglassgame.com</description>
+      <guid isPermaLink="true">https://shadowglassgame.com</guid>
+      <pubDate>Wed, 29 Oct 2025 01:06:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45741391</comments>
     </item>
     <item>
-      <title>팅커링은 좋은 맛을 얻는 방법이다</title>
-      <link>https://seated.ro/blog/tinkering-a-lost-art</link>
-      <description>📝 수년에 걸쳐 나는 너무 많은 일을 해왔기 때문에 돌이켜보면 프로그래밍에 대해 더 감사하게 되었지만 엄밀히 말하면 완전히 "불필요한" 일이었습니다. 그리고 나는 이제 이러한 것들에 대해 더 많이 알고 있습니다. 다양한 것을 시도하지 않으면 좋은 맛을 얻을 수 없습니다.
+      <title>데이터베이스 백업, 덤프 파일 및 Restic</title>
+      <link>https://strugglers.net/posts/2025/database-backups-dump-files-and-restic/</link>
+      <description>📝 이에 대한 몇 가지 참고 사항은 다음과 같습니다. 새로운 /srv/backup/mariadb/all. gz를 입력한 후 그날 어느 시점에 백업 시스템이 해당 파일을 선택합니다.
 
 
-🔤 Original: Tinkering is a way to acquire good taste
+🔤 Original: Database backups, dump files and restic
 
-🔗 Read more: https://seated.ro/blog/tinkering-a-lost-art</description>
-      <guid isPermaLink="true">https://seated.ro/blog/tinkering-a-lost-art</guid>
-      <pubDate>Tue, 28 Oct 2025 21:31:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45739499</comments>
+🔗 Read more: https://strugglers.net/posts/2025/database-backups-dump-files-and-restic/</description>
+      <guid isPermaLink="true">https://strugglers.net/posts/2025/database-backups-dump-files-and-restic/</guid>
+      <pubDate>Wed, 29 Oct 2025 00:13:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45741050</comments>
     </item>
     <item>
-      <title>빠르고 안전한 인터넷 유지: 머클트리 인증서 도입</title>
-      <link>https://blog.cloudflare.com/bootstrap-mtc/</link>
-      <description>📝 암호화 101부터 시작하겠습니다. 이러한 방식으로 서버는 클라이언트에게 동일한 대화를 했음을 확인합니다. 서버만이 유효한 서명을 생성할 수 있기 때문입니다. 그러나 클라이언트는 공개 키가 실제로 서버에 속해 있다는 것을 어떻게 알 수 있습니까?
+      <title>Rockylinux.org는 Rocky Linux에서 호스팅되지 않습니다.</title>
+      <link>https://rockylinux-org.vercel.app/</link>
+      <description>📝 Rocky Linux는 CentOS 프로젝트의 창립자인 Gregory Kurtzer가 이끌고 있습니다. CentOS 프로젝트는 최근 CentOS 전략의 변화를 발표했습니다. Rocky Linux는 CentOS가 이전에 했던 것처럼 다운스트림 빌드로 기능하는 것을 목표로 하며, 이전이 아닌 업스트림 공급업체가 릴리스를 추가한 후에 릴리스를 빌드합니다.
 
 
-🔤 Original: Keeping the Internet fast and secure: introducing Merkle Tree Certificates
+🔤 Original: Rockylinux.org not hosted on Rocky Linux
 
-🔗 Read more: https://blog.cloudflare.com/bootstrap-mtc/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/bootstrap-mtc/</guid>
-      <pubDate>Tue, 28 Oct 2025 22:39:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45740214</comments>
-    </item>
-    <item>
-      <title>HN 표시: 버터 – LLM을 위한 동작 캐시</title>
-      <link>https://www.butter.dev/</link>
-      <description>📝 또한 결정론적이므로 AI 시스템이 과거 동작을 일관되게 반복할 수 있습니다. from openai import OpenAI # 클라이언트 재지정 client = OpenAI( base_url="https://proxy. (그러나 현재는 무료입니다).
-
-
-🔤 Original: Show HN: Butter – A Behavior Cache for LLMs
-
-🔗 Read more: https://www.butter.dev/</description>
-      <guid isPermaLink="true">https://www.butter.dev/</guid>
-      <pubDate>Tue, 28 Oct 2025 19:39:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45737948</comments>
-    </item>
-    <item>
-      <title>기본적으로 HTTPS</title>
-      <link>https://security.googleblog.com/2025/10/https-by-default.html</link>
-      <description>📝 즉, Chrome은 HTTPS가 없는 공개 사이트에 처음 액세스하기 전에 사용자의 허가를 요청합니다. 10년 넘게 Google은 HTTPS를 사용하는 Chrome 탐색 비율을 추적하는 HTTPS 투명성 보고서를 발표했습니다. 즉, Chrome은 사용자에게 탐색 50개 중 1개에 대해 경고하는 대신 사용자가 HTTPS를 사용하지 않고 새로운(또는 최근 방문하지 않은) 사이트를 방문할 때만 경고합니다.
-
-
-🔤 Original: HTTPS by default
-
-🔗 Read more: https://security.googleblog.com/2025/10/https-by-default.html</description>
-      <guid isPermaLink="true">https://security.googleblog.com/2025/10/https-by-default.html</guid>
-      <pubDate>Tue, 28 Oct 2025 18:04:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45736499</comments>
-    </item>
-    <item>
-      <title>엔비디아, 노키아 지분 10억 달러 인수</title>
-      <link>https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html</link>
-      <description>📝 Key PointsNokia는 화요일에 Nvidia가 Nokia의 새로운 주식을 10억 달러에 매입할 것이라고 발표했습니다. 이 소식이 전해지자 노키아 주가는 22% 급등했다. Nokia는 Nvidia가 미래 AI 인프라 계획에 자사 기술을 통합하는 것을 고려할 것이라고 말했습니다.
-
-
-🔤 Original: Nvidia takes $1B stake in Nokia
-
-🔗 Read more: https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html</guid>
-      <pubDate>Tue, 28 Oct 2025 15:53:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45734486</comments>
-    </item>
-    <item>
-      <title>일탈의 쇠퇴</title>
-      <link>https://www.experimental-history.com/p/the-decline-of-deviance</link>
-      <description>📝 요즘 아이들은 안전벨트를 착용하는 경우가 훨씬 더 많습니다. 어른들도 줄을 섰습니다. 어른들도 예전보다 덜 행동하고 있습니다. 나는 항상 모든 미국인 세대가 이전 세대보다 더 많이 움직일 가능성이 있다고 생각했습니다.
-
-
-🔤 Original: The decline of deviance
-
-🔗 Read more: https://www.experimental-history.com/p/the-decline-of-deviance</description>
-      <guid isPermaLink="true">https://www.experimental-history.com/p/the-decline-of-deviance</guid>
-      <pubDate>Tue, 28 Oct 2025 16:01:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45734620</comments>
-    </item>
-    <item>
-      <title>1X Neo – 홈 로봇 - 사전 주문</title>
-      <link>https://www.1x.tech/order</link>
-      <description>📝 원격 제어모바일 앱 및 VR 장치를 통해 전 세계 어디에서나 NEO를 조종하십시오. )Boom Box집 안 어디에서나 NEO를 모바일 블루투스 스피커로 활용해보세요. 메모리는 귀하의 경험을 개인화하기 위한 정보를 보유합니다.
-
-
-🔤 Original: 1X Neo – Home Robot - Pre Order
-
-🔗 Read more: https://www.1x.tech/order</description>
-      <guid isPermaLink="true">https://www.1x.tech/order</guid>
-      <pubDate>Tue, 28 Oct 2025 18:01:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45736457</comments>
-    </item>
-    <item>
-      <title>토르 브라우저 15.0</title>
-      <link>https://blog.torproject.org/new-release-tor-browser-150/</link>
-      <description>📝 데스크톱 Tor 브라우저 15. Tor 브라우저 탭은 여전히 ​​개인 탭이며 브라우저를 닫으면 지워집니다. 이는 Tor 브라우저 15를 의미합니다.
-
-
-🔤 Original: Tor Browser 15.0
-
-🔗 Read more: https://blog.torproject.org/new-release-tor-browser-150/</description>
-      <guid isPermaLink="true">https://blog.torproject.org/new-release-tor-browser-150/</guid>
-      <pubDate>Tue, 28 Oct 2025 21:33:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45739515</comments>
-    </item>
-    <item>
-      <title>Windows 게임의 거의 90%가 이제 Linux에서 실행됩니다.</title>
-      <link>https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</link>
-      <description>📝 최신 증류 데이터에 따르면 현재 Windows 게임의 거의 90%가 Linux에서 실행되고 있습니다. Boiling Steam 플래티넘(녹색) 등급은 구입 즉시 완벽하게 실행되는 게임을 나타냅니다. 90%는 부팅되는 게임의 양입니다.
-
-
-🔤 Original: Nearly 90% of Windows Games Now Run on Linux
-
-🔗 Read more: https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</guid>
-      <pubDate>Tue, 28 Oct 2025 18:37:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45736925</comments>
+🔗 Read more: https://rockylinux-org.vercel.app/</description>
+      <guid isPermaLink="true">https://rockylinux-org.vercel.app/</guid>
+      <pubDate>Wed, 29 Oct 2025 02:20:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45741877</comments>
     </item>
   </channel>
 </rss>

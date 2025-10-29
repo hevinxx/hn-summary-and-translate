@@ -6,132 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Oct 2025 01:30:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 03:49:16 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>生成式 AI 图像编辑对决</title>
-      <link>https://genai-showdown.specr.net/image-editing</link>
-      <guid isPermaLink="true">https://genai-showdown.specr.net/image-editing</guid>
-      <pubDate>Tue, 28 Oct 2025 20:58:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45739080</comments>
+      <title>影子玻璃计划</title>
+      <link>https://shadowglassgame.com</link>
+      <description>📝 走进阴影。走进阴影。电子邮件地址 发布后请告诉我。
+
+
+🔤 Original: Project Shadowglass
+
+🔗 Read more: https://shadowglassgame.com</description>
+      <guid isPermaLink="true">https://shadowglassgame.com</guid>
+      <pubDate>Wed, 29 Oct 2025 01:06:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45741391</comments>
     </item>
     <item>
-      <title>修补是获得良好品味的一种方式</title>
-      <link>https://seated.ro/blog/tinkering-a-lost-art</link>
-      <description>📝 这些年来我做了很多事情，事后看来让我更加欣赏编程，但从严格意义上来说完全是“不必要的”。现在我对这些事情了解得更多了。如果你不尝试各种事物，你就不会获得好的品味。
+      <title>数据库备份、转储文件和restic</title>
+      <link>https://strugglers.net/posts/2025/database-backups-dump-files-and-restic/</link>
+      <description>📝 这是一些关于此的注释。新的/srv/backup/mariadb/all. gz，然后在当天的某个时刻，备份系统会拾取该文件。
 
 
-🔤 Original: Tinkering is a way to acquire good taste
+🔤 Original: Database backups, dump files and restic
 
-🔗 Read more: https://seated.ro/blog/tinkering-a-lost-art</description>
-      <guid isPermaLink="true">https://seated.ro/blog/tinkering-a-lost-art</guid>
-      <pubDate>Tue, 28 Oct 2025 21:31:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45739499</comments>
+🔗 Read more: https://strugglers.net/posts/2025/database-backups-dump-files-and-restic/</description>
+      <guid isPermaLink="true">https://strugglers.net/posts/2025/database-backups-dump-files-and-restic/</guid>
+      <pubDate>Wed, 29 Oct 2025 00:13:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45741050</comments>
     </item>
     <item>
-      <title>保持互联网快速安全：引入 Merkle 树证书</title>
-      <link>https://blog.cloudflare.com/bootstrap-mtc/</link>
-      <description>📝 让我们从密码学 101 开始。通过这种方式，服务器向客户端确认他们进行了相同的对话，因为只有服务器可以生成有效的签名。但是客户端如何知道公钥实际上属于服务器。
+      <title>Rockylinux.org 未托管在 Rocky Linux 上</title>
+      <link>https://rockylinux-org.vercel.app/</link>
+      <description>📝 Rocky Linux 由 CentOS 项目的创始人 Gregory Kurtzer 领导。 CentOS 项目最近宣布了 CentOS 战略的转变。 Rocky Linux 的目标是像 CentOS 之前那样充当下游构建，在上游供应商添加之后构建版本，而不是之前。
 
 
-🔤 Original: Keeping the Internet fast and secure: introducing Merkle Tree Certificates
+🔤 Original: Rockylinux.org not hosted on Rocky Linux
 
-🔗 Read more: https://blog.cloudflare.com/bootstrap-mtc/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/bootstrap-mtc/</guid>
-      <pubDate>Tue, 28 Oct 2025 22:39:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45740214</comments>
-    </item>
-    <item>
-      <title>Show HN：Butter——法学硕士的行为缓存</title>
-      <link>https://www.butter.dev/</link>
-      <description>📝 它也是确定性的，允许您的人工智能系统不断重复过去的行为。 from openai import OpenAI # 重新指向你的客户端 client = OpenAI( base_url="https://proxy. (但目前是免费的).
-
-
-🔤 Original: Show HN: Butter – A Behavior Cache for LLMs
-
-🔗 Read more: https://www.butter.dev/</description>
-      <guid isPermaLink="true">https://www.butter.dev/</guid>
-      <pubDate>Tue, 28 Oct 2025 19:39:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45737948</comments>
-    </item>
-    <item>
-      <title>默认使用 HTTPS</title>
-      <link>https://security.googleblog.com/2025/10/https-by-default.html</link>
-      <description>📝 这意味着 Chrome 在首次访问任何没有 HTTPS 的公共网站之前都会征求用户的许可。十多年来，Google 一直发布 HTTPS 透明度报告，该报告跟踪 Chrome 中使用 HTTPS 的导航百分比。这意味着 Chrome 不会警告用户 50 次导航中的 1 次，而是仅在用户访问新的（或最近未访问过的）网站而不使用 HTTPS 时发出警告。
-
-
-🔤 Original: HTTPS by default
-
-🔗 Read more: https://security.googleblog.com/2025/10/https-by-default.html</description>
-      <guid isPermaLink="true">https://security.googleblog.com/2025/10/https-by-default.html</guid>
-      <pubDate>Tue, 28 Oct 2025 18:04:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45736499</comments>
-    </item>
-    <item>
-      <title>Nvidia 入股诺基亚 10 亿美元</title>
-      <link>https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html</link>
-      <description>📝 诺基亚周二宣布，英伟达将购买价值 10 亿美元的诺基亚新股。消息传出后，诺基亚股价飙升 22%。诺基亚表示，英伟达将考虑将其技术纳入其未来的人工智能基础设施计划中。
-
-
-🔤 Original: Nvidia takes $1B stake in Nokia
-
-🔗 Read more: https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html</guid>
-      <pubDate>Tue, 28 Oct 2025 15:53:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45734486</comments>
-    </item>
-    <item>
-      <title>偏差的减少</title>
-      <link>https://www.experimental-history.com/p/the-decline-of-deviance</link>
-      <description>📝 如今，孩子们更有可能使用安全带。成年人的行为也比以前少了。我一直认为每一代美国人都比上一代更有可能搬家。
-
-
-🔤 Original: The decline of deviance
-
-🔗 Read more: https://www.experimental-history.com/p/the-decline-of-deviance</description>
-      <guid isPermaLink="true">https://www.experimental-history.com/p/the-decline-of-deviance</guid>
-      <pubDate>Tue, 28 Oct 2025 16:01:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45734620</comments>
-    </item>
-    <item>
-      <title>1X Neo – 家庭机器人 – 预订</title>
-      <link>https://www.1x.tech/order</link>
-      <description>📝 远程控制通过您的移动应用程序和 VR 设备从世界任何地方驾驶您的 NEO。 )Boom Box 将 NEO 用作家中任何地方的移动蓝牙扬声器。内存保留信息以个性化您的体验。
-
-
-🔤 Original: 1X Neo – Home Robot - Pre Order
-
-🔗 Read more: https://www.1x.tech/order</description>
-      <guid isPermaLink="true">https://www.1x.tech/order</guid>
-      <pubDate>Tue, 28 Oct 2025 18:01:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45736457</comments>
-    </item>
-    <item>
-      <title>托尔浏览器 15.0</title>
-      <link>https://blog.torproject.org/new-release-tor-browser-150/</link>
-      <description>📝 桌面 Tor 浏览器 15. 请注意，Tor 浏览器选项卡仍然是私人选项卡，当您关闭浏览器时将会清除。这意味着 Tor 浏览器 15。
-
-
-🔤 Original: Tor Browser 15.0
-
-🔗 Read more: https://blog.torproject.org/new-release-tor-browser-150/</description>
-      <guid isPermaLink="true">https://blog.torproject.org/new-release-tor-browser-150/</guid>
-      <pubDate>Tue, 28 Oct 2025 21:33:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45739515</comments>
-    </item>
-    <item>
-      <title>近 90% 的 Windows 游戏现在在 Linux 上运行</title>
-      <link>https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</link>
-      <description>📝 最新的统计数据显示，几乎 90% 的 Windows 游戏现在都在 Linux 上运行。 Boiling Steam 白金（绿色）排名表示游戏可以完美运行，开箱即用。 90% 是启动的游戏数量。
-
-
-🔤 Original: Nearly 90% of Windows Games Now Run on Linux
-
-🔗 Read more: https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</guid>
-      <pubDate>Tue, 28 Oct 2025 18:37:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45736925</comments>
+🔗 Read more: https://rockylinux-org.vercel.app/</description>
+      <guid isPermaLink="true">https://rockylinux-org.vercel.app/</guid>
+      <pubDate>Wed, 29 Oct 2025 02:20:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45741877</comments>
     </item>
   </channel>
 </rss>
