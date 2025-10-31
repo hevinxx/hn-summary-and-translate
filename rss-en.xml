@@ -6,19 +6,9 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Oct 2025 06:30:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 09:22:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
-    <item>
-      <title>AMD Could Enter ARM Market with Sound Wave APU Built on TSMC 3nm Process</title>
-      <link>https://www.guru3d.com/story/amd-enters-arm-market-with-sound-wave-apu-built-on-tsmc-3nm-process/</link>
-      <description>📝 News Comments 5 AMD is expanding its processor portfolio beyond the x86 architecture with its first ARM-based APU, internally known as “Sound Wave. With industry interest in efficient, ARM-based computing accelerating, “Sound Wave” could help AMD diversify its portfolio while leveraging its strengths in graphics and AI acceleration. If reports are accurate, the processor will enter production in late 2025, with commercial devices expected the following year.
-
-🔗 Read more: https://www.guru3d.com/story/amd-enters-arm-market-with-sound-wave-apu-built-on-tsmc-3nm-process/</description>
-      <guid isPermaLink="true">https://www.guru3d.com/story/amd-enters-arm-market-with-sound-wave-apu-built-on-tsmc-3nm-process/</guid>
-      <pubDate>Fri, 31 Oct 2025 03:07:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45767916</comments>
-    </item>
     <item>
       <title>ANTML: Anthropic’s Markup Language</title>
       <link>https://karashiiro.leaflet.pub/3m4gf7geefs2l</link>
@@ -26,8 +16,289 @@
 
 🔗 Read more: https://karashiiro.leaflet.pub/3m4gf7geefs2l</description>
       <guid isPermaLink="true">https://karashiiro.leaflet.pub/3m4gf7geefs2l</guid>
-      <pubDate>Fri, 31 Oct 2025 04:37:42 +0000</pubDate>
+      <pubDate>2025-10-31 04:37:42</pubDate>
       <comments>https://news.ycombinator.com/item?id=45768482</comments>
+    </item>
+    <item>
+      <title>AMD Could Enter ARM Market with Sound Wave APU Built on TSMC 3nm Process</title>
+      <link>https://www.guru3d.com/story/amd-enters-arm-market-with-sound-wave-apu-built-on-tsmc-3nm-process/</link>
+      <description>📝 News Comments 5 AMD is expanding its processor portfolio beyond the x86 architecture with its first ARM-based APU, internally known as “Sound Wave. With industry interest in efficient, ARM-based computing accelerating, “Sound Wave” could help AMD diversify its portfolio while leveraging its strengths in graphics and AI acceleration. If reports are accurate, the processor will enter production in late 2025, with commercial devices expected the following year.
+
+🔗 Read more: https://www.guru3d.com/story/amd-enters-arm-market-with-sound-wave-apu-built-on-tsmc-3nm-process/</description>
+      <guid isPermaLink="true">https://www.guru3d.com/story/amd-enters-arm-market-with-sound-wave-apu-built-on-tsmc-3nm-process/</guid>
+      <pubDate>2025-10-31 03:07:48</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45767916</comments>
+    </item>
+    <item>
+      <title>Chromium Browser DoS Attack via Document.title Exploitation</title>
+      <link>https://github.com/jofpin/brash</link>
+      <description>📝 Brash Chromium Browser DoS Attack via document. Vulnerable (Chromium/Blink) All Chromium-based browsers are vulnerable because the flaw exists in the core of the Blink rendering engine: Chrome — crashes in 15-30 seconds Edge — crashes in 15-25 seconds Vivaldi — crashes in 15-30 seconds Arc Browser — crashes in 15-30 seconds Dia Browser — crashes in 15-30 seconds Opera — crashes in ~60 seconds Perplexity Comet — crashes in 15-35 seconds ChatGPT Atlas — crashes in 15-60 seconds Brave — crashes in 30-125 seconds Not Vulnerable (Using Other Engines) Firefox (Gecko engine) — immune to the attack Safari (WebKit engine) — immune to the attack iOS browsers (all use WebKit) — immune to the attack due to Apple's mandatory policy requiring all iOS browsers to use WebKit as their rendering engine, making Chromium-based browsers impossible on iOS How It Works Brash exploits a fundamental architectural flaw in the Blink rendering engine: the absence of throttling on document. Blink processes each document.
+
+🔗 Read more: https://github.com/jofpin/brash</description>
+      <guid isPermaLink="true">https://github.com/jofpin/brash</guid>
+      <pubDate>2025-10-31 01:16:14</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45767343</comments>
+    </item>
+    <item>
+      <title>Roadmap for Improving the Type Checker</title>
+      <link>https://forums.swift.org/t/roadmap-for-improving-the-type-checker/82952</link>
+      <description>📝 This includes changes that have already shipped in Swift 6. Constraint solving The Swift compiler implements overload resolution by transforming expression type checking into a constraint solving problem. For a more detailed overview of constraint solving in the Swift type checker, see swift/docs/TypeChecker.
+
+🔗 Read more: https://forums.swift.org/t/roadmap-for-improving-the-type-checker/82952</description>
+      <guid isPermaLink="true">https://forums.swift.org/t/roadmap-for-improving-the-type-checker/82952</guid>
+      <pubDate>2025-10-31 01:00:45</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45767257</comments>
+    </item>
+    <item>
+      <title>Show HN: Quibbler – A critic for your coding agent that learns what you want</title>
+      <link>https://github.com/fulcrumresearch/quibbler</link>
+      <description>📝 Quibbler Quibbler is a critic for your coding agent. Configure MCP Server Add Quibbler to your agent's MCP server configuration. Start Quibbler Hook Server In a terminal, start the Quibbler hook server: export ANTHROPIC_API_KEY="your-api-key-here" quibbler hook server # Or specify a custom port: quibbler hook server 8081 Keep this server running in the background.
+
+🔗 Read more: https://github.com/fulcrumresearch/quibbler</description>
+      <guid isPermaLink="true">https://github.com/fulcrumresearch/quibbler</guid>
+      <pubDate>2025-10-31 00:43:57</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45767162</comments>
+    </item>
+    <item>
+      <title>Ground stop at JFK due to staffing</title>
+      <link>https://www.fly.faa.gov/adv/adv_otherdis?advn=13&amp;adv_date=10312025&amp;facId=JFK&amp;title=ATCSCC%20ADVZY%20013%20JFK/ZNY%2010/31/2025%20CDM%20GROUND%20STOP&amp;titleDate=10/31/2025</link>
+      <description>📝 ATCSCC Advisory FAA Home Air Traffic Control System Command Center ATCSCC Home | Products | What's New | Site Map | ATCSCC FAQ | Diversion Forums | Text-Only Version ATCSCC Advisory ATCSCC ADVZY 013 JFK/ZNY 10/31/2025 CDM GROUND STOP MESSAGE: CTL ELEMENT: JFK ELEMENT TYPE: APT ADL TIME: 0124Z GROUND STOP PERIOD: 31/0114Z - 31/0230Z CUMULATIVE PROGRAM PERIOD: 30/1613Z - 31/0359Z DEP FACILITIES INCLUDED: (Manual) ZTL ZDC ZJX ZMA ZME ZID PREVIOUS TOTAL, MAXIMUM, AVERAGE DELAYS: 6796 / 549 / 227 NEW TOTAL, MAXIMUM, AVERAGE DELAYS: 7920 / 609 / 264 PROBABILITY OF EXTENSION: MEDIUM IMPACTING CONDITION: STAFFING / STAFFING COMMENTS: EFFECTIVE TIME: 310127-310330 SIGNATURE: 25/10/31 01:27 FAA. gov Home | Privacy Policy | Web Policies &amp; Notices | Contact Us Readers &amp; Viewers: PDF Reader | MS Word Viewer | MS PowerPoint Viewer | MS Excel Viewer | WinZip.
+
+🔗 Read more: https://www.fly.faa.gov/adv/adv_otherdis?advn=13&amp;adv_date=10312025&amp;facId=JFK&amp;title=ATCSCC%20ADVZY%20013%20JFK/ZNY%2010/31/2025%20CDM%20GROUND%20STOP&amp;titleDate=10/31/2025</description>
+      <guid isPermaLink="true">https://www.fly.faa.gov/adv/adv_otherdis?advn=13&amp;adv_date=10312025&amp;facId=JFK&amp;title=ATCSCC%20ADVZY%20013%20JFK/ZNY%2010/31/2025%20CDM%20GROUND%20STOP&amp;titleDate=10/31/2025</guid>
+      <pubDate>2025-10-31 01:48:39</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45767505</comments>
+    </item>
+    <item>
+      <title>ICE and the Smartphone Panopticon</title>
+      <link>https://www.newyorker.com/culture/infinite-scroll/ice-and-the-smartphone-panopticon</link>
+      <description>📝 Save this storySave this storySave this storySave this storyLast week, as ICE raids ramped up in New York, city residents set about resisting in the ways they had available: confronting agents directly on sidewalks, haranguing them as they processed down blocks, and recording them on phone cameras held aloft. Pritzker, told residents to “record and narrate what you see—put it on social media. ICE itself is also working to monitor social media.
+
+🔗 Read more: https://www.newyorker.com/culture/infinite-scroll/ice-and-the-smartphone-panopticon</description>
+      <guid isPermaLink="true">https://www.newyorker.com/culture/infinite-scroll/ice-and-the-smartphone-panopticon</guid>
+      <pubDate>2025-10-31 01:13:56</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45767325</comments>
+    </item>
+    <item>
+      <title>John Carmack on Mutable Variables</title>
+      <link>https://twitter.com/id_aa_carmack/status/1983593511703474196</link>
+      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2025 X Corp.
+
+🔗 Read more: https://twitter.com/id_aa_carmack/status/1983593511703474196</description>
+      <guid isPermaLink="true">https://twitter.com/id_aa_carmack/status/1983593511703474196</guid>
+      <pubDate>2025-10-31 02:34:36</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45767725</comments>
+    </item>
+    <item>
+      <title>Show HN: ekoAcademic – Convert ArXiv papers to interactive podcasts</title>
+      <link>https://www.wadamczyk.io/projects/ekoacademic/index.html</link>
+      <description>📝 This works in many languages. Feedback We'd love to receive any feedback from this community: Does this solve a pain you have. We built this because we felt this need ourselves - if others feel it too, maybe this can be a small tool to help.
+
+🔗 Read more: https://www.wadamczyk.io/projects/ekoacademic/index.html</description>
+      <guid isPermaLink="true">https://www.wadamczyk.io/projects/ekoacademic/index.html</guid>
+      <pubDate>2025-10-30 21:03:46</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45765328</comments>
+    </item>
+    <item>
+      <title>PlanetScale Offering $5 Databases</title>
+      <link>https://planetscale.com/blog/5-dollar-planetscale</link>
+      <description>📝 Single node is perfect for development, testing, and non-critical workloads. Customers will be able to vertically scale a single node to meet their needs without having to add replicas or sacrifice durability. You can sign up here to be notified when single node releases.
+
+🔗 Read more: https://planetscale.com/blog/5-dollar-planetscale</description>
+      <guid isPermaLink="true">https://planetscale.com/blog/5-dollar-planetscale</guid>
+      <pubDate>2025-10-30 15:20:37</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45761027</comments>
+    </item>
+    <item>
+      <title>A change of address led to our Wise accounts being shut down</title>
+      <link>https://shaun.nz/why-were-never-using-wise-again-a-cautionary-tale-from-a-business-burned/</link>
+      <description>📝 “You should find a local shared workspace, lease a desk under your company name, change your registered office to that address, and use that lease document to verify your address with us. That request was refused. My personal Wise account was locked too.
+
+🔗 Read more: https://shaun.nz/why-were-never-using-wise-again-a-cautionary-tale-from-a-business-burned/</description>
+      <guid isPermaLink="true">https://shaun.nz/why-were-never-using-wise-again-a-cautionary-tale-from-a-business-burned/</guid>
+      <pubDate>2025-10-30 22:41:50</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45766253</comments>
+    </item>
+    <item>
+      <title>Kimi Linear: An Expressive, Efficient Attention Architecture</title>
+      <link>https://github.com/MoonshotAI/Kimi-Linear</link>
+      <description>📝 0 performance with similar speed as full attention. (b) Kimi Linear achieves 6. Overview Kimi Linear is a hybrid linear attention architecture that outperforms traditional full attention methods across various contexts, including short, long, and reinforcement learning (RL) scaling regimes.
+
+🔗 Read more: https://github.com/MoonshotAI/Kimi-Linear</description>
+      <guid isPermaLink="true">https://github.com/MoonshotAI/Kimi-Linear</guid>
+      <pubDate>2025-10-31 00:07:36</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45766937</comments>
+    </item>
+    <item>
+      <title>Denmark reportedly withdraws Chat Control proposal following controversy</title>
+      <link>https://therecord.media/demark-reportedly-withdraws-chat-control-proposal</link>
+      <description>📝 Danish Justice Minister Peter Hummelgaard told reporters on Thursday that his office will support voluntary CSAM detections. "This will mean that the search warrant will not be part of the EU presidency's new compromise proposal, and that it will continue to be voluntary for the tech giants to search for child sexual abuse material," Hummelgaard said, according to local news reports. The current model allowing for voluntary scanning expires in April, Hummelgaard said.
+
+🔗 Read more: https://therecord.media/demark-reportedly-withdraws-chat-control-proposal</description>
+      <guid isPermaLink="true">https://therecord.media/demark-reportedly-withdraws-chat-control-proposal</guid>
+      <pubDate>2025-10-30 21:35:42</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45765664</comments>
+    </item>
+    <item>
+      <title>Phone numbers for use in TV shows, films and creative works</title>
+      <link>https://www.acma.gov.au/phone-numbers-use-tv-shows-films-and-creative-works</link>
+      <guid isPermaLink="true">https://www.acma.gov.au/phone-numbers-use-tv-shows-films-and-creative-works</guid>
+      <pubDate>2025-10-30 21:49:11</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45765787</comments>
+    </item>
+    <item>
+      <title>I have released a 69.0MB version of Windows 7 x86</title>
+      <link>https://twitter.com/XenoPanther/status/1983477707968291075</link>
+      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2025 X Corp.
+
+🔗 Read more: https://twitter.com/XenoPanther/status/1983477707968291075</description>
+      <guid isPermaLink="true">https://twitter.com/XenoPanther/status/1983477707968291075</guid>
+      <pubDate>2025-10-30 18:05:39</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45763076</comments>
+    </item>
+    <item>
+      <title>Taking money off the table</title>
+      <link>https://zachholman.com/posts/money-off-the-table</link>
+      <description>📝 Two massive motivators in this decision: It’s way easier to make more money when you already have money. ) All of this to say: it’s easy to become delusional while at a startup — in fact, you could argue that the best startups have that cult-like delusion built into their DNA. There have been hundreds or thousands of startups over the decades, staffed with the best and brightest, with revenue, with customers… and they’ve still bitten the bullet.
+
+🔗 Read more: https://zachholman.com/posts/money-off-the-table</description>
+      <guid isPermaLink="true">https://zachholman.com/posts/money-off-the-table</guid>
+      <pubDate>2025-10-30 18:50:11</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45763769</comments>
+    </item>
+    <item>
+      <title>NPM flooded with malicious packages downloaded more than 86k times</title>
+      <link>https://arstechnica.com/security/2025/10/npm-flooded-with-malicious-packages-downloaded-more-than-86000-times/</link>
+      <description>📝 “Remote Dynamic Dependencies aren’t visible to static analysis. The code downloads malicious dependencies from URLs, including http://packages. Koi said these dependencies are “invisible” to developers and many security scanners.
+
+🔗 Read more: https://arstechnica.com/security/2025/10/npm-flooded-with-malicious-packages-downloaded-more-than-86000-times/</description>
+      <guid isPermaLink="true">https://arstechnica.com/security/2025/10/npm-flooded-with-malicious-packages-downloaded-more-than-86000-times/</guid>
+      <pubDate>2025-10-30 00:37:33</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45755027</comments>
+    </item>
+    <item>
+      <title>Apple reports fourth quarter results</title>
+      <link>https://www.apple.com/newsroom/2025/10/apple-reports-fourth-quarter-results/</link>
+      <description>📝 PRESS RELEASE October 30, 2025 Apple reports fourth quarter results September quarter records for total company revenue, iPhone revenue and EPSServices revenue reaches new all-time high CUPERTINO, CALIFORNIA Apple today announced financial results for its fiscal 2025 fourth quarter ended September 27, 2025. com (408) 974-3123 © 2025 Apple Inc. Apple and the Apple logo are trademarks of Apple.
+
+🔗 Read more: https://www.apple.com/newsroom/2025/10/apple-reports-fourth-quarter-results/</description>
+      <guid isPermaLink="true">https://www.apple.com/newsroom/2025/10/apple-reports-fourth-quarter-results/</guid>
+      <pubDate>2025-10-30 20:34:02</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45764986</comments>
+    </item>
+    <item>
+      <title>TruthWave – A platform for corporate whistleblowers</title>
+      <link>https://www.truthwave.com</link>
+      <description>📝 TruthWave is rewriting this narrative by creating a platform that financially compensates whistleblowers for courageously stepping forward while leveraging a global community built around justice. At its core, TruthWave is an information platform that allows those who possess or locate vital information about corporate wrongdoing to share it securely and anonymously. If you know about corporate wrongdoing, submit a tip to bring those responsible to justice.
+
+🔗 Read more: https://www.truthwave.com</description>
+      <guid isPermaLink="true">https://www.truthwave.com</guid>
+      <pubDate>2025-10-30 18:57:39</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45763858</comments>
+    </item>
+    <item>
+      <title>Minecraft HDL, an HDL for Redstone</title>
+      <link>https://github.com/itsfrank/MinecraftHDL</link>
+      <description>📝 Minecraft HDL Minecraft HDL is a digital synthesis flow for minecraft redstone circuits. It is an attempt to use industry standard design tools and methods to generate digital circuits with redstone. Example: This file multiplexer4_1.
+
+🔗 Read more: https://github.com/itsfrank/MinecraftHDL</description>
+      <guid isPermaLink="true">https://github.com/itsfrank/MinecraftHDL</guid>
+      <pubDate>2025-10-30 18:59:02</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45763877</comments>
+    </item>
+    <item>
+      <title>Jujutsu at Google [video]</title>
+      <link>https://www.youtube.com/watch?v=v9Ob5yPpC0A</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=v9Ob5yPpC0A</guid>
+      <pubDate>2025-10-30 13:00:58</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45759572</comments>
+    </item>
+    <item>
+      <title>SF neighborhood mourns loss of bodega cat allegedly killed by Waymo</title>
+      <link>https://www.sfgate.com/local/article/sf-neighborhood-mourns-cat-waymo-21127713.php</link>
+      <description>📝 KitKat lounges on the counter at Randa’s Market. AdvertisementArticle continues below this ad“He was a blessing, man,” Mike Zeidan, owner of Randa’s Market, told SFGATE. ”AdvertisementArticle continues below this adMike extended thanks to the store’s customers for the kindness they showed KitKat over the years.
+
+🔗 Read more: https://www.sfgate.com/local/article/sf-neighborhood-mourns-cat-waymo-21127713.php</description>
+      <guid isPermaLink="true">https://www.sfgate.com/local/article/sf-neighborhood-mourns-cat-waymo-21127713.php</guid>
+      <pubDate>2025-10-30 18:19:12</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45763267</comments>
+    </item>
+    <item>
+      <title>Moderna, the company that helped save the world, has unraveled</title>
+      <link>https://www.statnews.com/2025/10/30/moderna-rise-fall-biotech-analysis-from-pandemic-rise-to-mrna-crash/</link>
+      <description>📝 At the end of this year, the company will still have $6 billion in the bank, a Covid shot with more than $1 billion in sales annually, and a cancer vaccine that has tantalized oncologists and analysts alike with its potential to revive that moribund field. STAT+ Exclusive Story Already have an account. Already have an account.
+
+🔗 Read more: https://www.statnews.com/2025/10/30/moderna-rise-fall-biotech-analysis-from-pandemic-rise-to-mrna-crash/</description>
+      <guid isPermaLink="true">https://www.statnews.com/2025/10/30/moderna-rise-fall-biotech-analysis-from-pandemic-rise-to-mrna-crash/</guid>
+      <pubDate>2025-10-30 16:50:19</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45762136</comments>
+    </item>
+    <item>
+      <title>Qt Creator 18 Released</title>
+      <link>https://www.qt.io/blog/qt-creator-18-released</link>
+      <description>📝 Qt Creator 18 adds experimental support for Development Containers and many more improvements. user" files that contain the Qt Creator specific project settings into the ". Other Improvements Qt Creator 18 comes with many more improvements and fixes.
+
+🔗 Read more: https://www.qt.io/blog/qt-creator-18-released</description>
+      <guid isPermaLink="true">https://www.qt.io/blog/qt-creator-18-released</guid>
+      <pubDate>2025-10-30 16:23:56</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45761789</comments>
+    </item>
+    <item>
+      <title>GooglePlay reports latest F-Droid version of Aves Libre as potential malware</title>
+      <link>https://github.com/deckerst/aves/issues/1802</link>
+      <description>📝 Notifications You must be signed in to change notification settings Fork 148 Star 4k GooglePlay scanner reports latest F-Droid version of Aves Libre as potential malware #1802New issueCopy linkNew issueCopy linkClosedClosedGooglePlay scanner reports latest F-Droid version of Aves Libre as potential malware#1802Copy linkLabelstype:bugSomething isn't workingSomething isn't workingDescriptionarty-nameopened on Oct 16, 2025Issue body actionsDescribe the bug When Droid-ify tried to update Aves Libre to 1. To Reproduce Steps to reproduce the behavior: Enable security scanner in Google Play Attempt to install Aves Libre 1. droidify Aves version: 1.
+
+🔗 Read more: https://github.com/deckerst/aves/issues/1802</description>
+      <guid isPermaLink="true">https://github.com/deckerst/aves/issues/1802</guid>
+      <pubDate>2025-10-30 18:23:09</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45763327</comments>
+    </item>
+    <item>
+      <title>ZOZO's Contact Solver for physics-based simulations</title>
+      <link>https://github.com/st-tech/ppf-contact-solver</link>
+      <description>📝 ipynb) [(Video)](https://drive. ipynb) [(Video)](https://drive. ipynb) [(Video)](https://drive.
+
+🔗 Read more: https://github.com/st-tech/ppf-contact-solver</description>
+      <guid isPermaLink="true">https://github.com/st-tech/ppf-contact-solver</guid>
+      <pubDate>2025-10-30 15:21:46</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45761042</comments>
+    </item>
+    <item>
+      <title>Free software scares normal people</title>
+      <link>https://danieldelaney.net/normal/</link>
+      <description>📝 Normal people often struggle with converting video. Opening it makes normal people feel unpleasant feelings. Great stuff normal people don’t use.
+
+🔗 Read more: https://danieldelaney.net/normal/</description>
+      <guid isPermaLink="true">https://danieldelaney.net/normal/</guid>
+      <pubDate>2025-10-30 15:07:15</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45760878</comments>
+    </item>
+    <item>
+      <title>Falling panel prices lead to global solar boom, except for the US</title>
+      <link>https://arstechnica.com/science/2025/10/theres-a-global-boom-in-solar-except-in-the-united-states/</link>
+      <description>📝 Solar power developers want to cover an area larger than Washington, DC, with silicon panels and batteries, converting sunlight into electricity that will power air conditioners in sweltering Las Vegas along with millions of other homes and businesses. There is already more than four times that capacity, with about half of it in China. That has led some to argue that renewables are merely helping to meet climbing energy demand, rather than replacing fossil fuels.
+
+🔗 Read more: https://arstechnica.com/science/2025/10/theres-a-global-boom-in-solar-except-in-the-united-states/</description>
+      <guid isPermaLink="true">https://arstechnica.com/science/2025/10/theres-a-global-boom-in-solar-except-in-the-united-states/</guid>
+      <pubDate>2025-10-30 16:32:22</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45761902</comments>
+    </item>
+    <item>
+      <title>Show HN: I made a heatmap diff viewer for code reviews</title>
+      <link>https://0github.com</link>
+      <description>📝 Examples:https://0github. com/tinygrad/tinygrad/pull/12999https://0github. com/simonw/datasette/pull/2548https://0github.
+
+🔗 Read more: https://0github.com</description>
+      <guid isPermaLink="true">https://0github.com</guid>
+      <pubDate>2025-10-30 14:21:58</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45760321</comments>
+    </item>
+    <item>
+      <title>Launch HN: Propolis (YC X25) – Browser agents that QA your web app autonomously</title>
+      <link>https://app.propolis.tech/#/launch</link>
+      <guid isPermaLink="true">https://app.propolis.tech/#/launch</guid>
+      <pubDate>2025-10-30 16:40:02</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45762012</comments>
     </item>
   </channel>
 </rss>
