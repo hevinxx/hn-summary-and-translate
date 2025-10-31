@@ -6,106 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Oct 2025 18:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 21:17:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>AI スクレイパーはコメント付きスクリプトを要求します</title>
-      <link>https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</link>
-      <description>📝 これらのいくつかは、明らかに悪意のあるユーザー エージェントからのものです: Gulper Web Bot 0。 この動作の慈善的な解釈は、スクレイパーは HTML を正しく解析しているものの、コメントのテキストを掘り下げて再帰的に解析して、無効になっている可能性のある URL を検索しているというものです。偶然に検出できるボットの動作は数多くありますが、それらは偶然であると考えられます。つまり、作成者は、ボットの効果が低下することに気付いた場合、それらの動作を簡単に変更できます。
+      <title>Futurelock: 非同期 Rust の微妙なリスク</title>
+      <link>https://rfd.shared.oxide.computer/rfd/0609</link>
+      <description>📝 この関数は、 // バックグラウンド タスクでロックが取得された場合にのみ戻ります。タスクがロックを保持すると戻ります。この時点では、バックグラウンド タスクがロックを保持しており、メイン タスクは tokio::select でブロックされています。
 
 
-🔤 Original: AI scrapers request commented scripts
+🔤 Original: Futurelock: A subtle risk in async Rust
 
-🔗 Read more: https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</description>
-      <guid isPermaLink="true">https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</guid>
-      <pubDate>Fri, 31 Oct 2025 15:44:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45773347</comments>
+🔗 Read more: https://rfd.shared.oxide.computer/rfd/0609</description>
+      <guid isPermaLink="true">https://rfd.shared.oxide.computer/rfd/0609</guid>
+      <pubDate>Fri, 31 Oct 2025 16:49:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774086</comments>
     </item>
     <item>
-      <title>x86 アーキテクチャ 1 バイトのオペコード</title>
-      <link>https://www.sandpile.org/x86/opc_1.htm</link>
-      <description>📝 REX2 JODf64Jb JNODf64Jb JBDf64Jb JNBDf64Jb JZDf64 Jb JNZDf64 Jb JBEDf64Jb JNBEDf64Jb JKZDv64 vKw,Jbv(K1OM) JKNZDv64 vKw,Jbv(K1OM) 8xh グループ #1Eb,Ib グループ#1Ev,Iz グループ #1*I64Eb,Ib グループ #1Ev,Ib TESTEb,Gb TESTEv,Gv XCHGEb,Gb XCHGEv,Gv 9xh (F3h) PAUSEXCHG rAX,rAX XCHG rCX,rAX XCHG r9,rAX XCHG r17,rAXXCHG r25,rAX XCHG rDX,rAX XCHG r10、rAX XCHG r18、rAXXCHG r26、rAX XCHG rBX、rAX XCHG r11、rAX XCHG r19、rAXXCHG r27、rAX XCHG rSP、rAX XCHG r12、rAX XCHG r20、rAXXCHG r28、rAX XCHG rBP、rAX XCHG r13、rAX XCHG r21、rAXXCHG r29、rAX XCHG rSI、rAX XCHG r14、rAX XCHG r22、rAXXCHG r30、rAX XCHG rDI、rAX XCHG r15、rAX XCHG r23、rAXXCHG r31、rAX XCHG r8、rAXXCHG r16、rAXXCHG r24、rAX Axh。 REX) MOV BH,Ib(REX) MOV DIL,IbMOV R15B,IbMOV R23B,IbMOV R31B,Ib Cxh グループ #2Eb,Ib(80186+) グループ #2Ev,Ib(80186+) RET NearDf64Iw RET NearDf64 LESI64 Gv,Mp (w:v) LDSI64 Gv,Mp (w:v) グループ #11Eb,Ib グループ #11Ev,Iz VEX3 VEX2 Dxh グループ #2Eb,1 グループ #2Ev,1 グループ #2Eb,CL グループ #2Ev,CL AAMI64 Ib AADI64 Ib S(ET)ALCI64 XLAT 予約 REX2 L1OM UDB Exh. XCHG eAX,eAX – 幅の広い 32 ビット NOP (80386) XCHG rAX、rAX – 幅の広い 64 ビット NOP (x86-64) O32 を備えた PM64 では、XCHG EAX,EAX は RAX の上位 32 ビットをゼロにしてはなりません。
+      <title>DuckDB-WASM を使用してブラウザで TB のデータをクエリする</title>
+      <link>https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</link>
+      <description>📝 パブリック データ プロジェクトの一環として、LIL は最近 Data を立ち上げました。ただし、静的ホスティングでは、豊富なデータを検出する能力が低下することがよくあります。その仕組みは次のとおりです: データ ストレージ: データを保存します。
 
 
-🔤 Original: x86 architecture 1 byte opcodes
+🔤 Original: Use DuckDB-WASM to query TB of data in browser
 
-🔗 Read more: https://www.sandpile.org/x86/opc_1.htm</description>
-      <guid isPermaLink="true">https://www.sandpile.org/x86/opc_1.htm</guid>
-      <pubDate>Fri, 31 Oct 2025 17:49:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774724</comments>
+🔗 Read more: https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</description>
+      <guid isPermaLink="true">https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</guid>
+      <pubDate>Fri, 31 Oct 2025 17:37:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774571</comments>
     </item>
     <item>
-      <title>デジタル主権が勢いを増す中、別の欧州機関が米国のテクノロジーからシフト</title>
-      <link>https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</link>
-      <description>📝 これは、ビッグテックから離れようとするヨーロッパの傾向における最新の動きである。欧州の政府や機関は機密データの管理を望んでいます。 Microsoft 365 などの外資系独自のクラウド サービスから、ヨーロッパを拠点とするオープンソースのクラウド サービスへの移行は、ヨーロッパの政府や機関の間で拡大する傾向と一致しています。
+      <title>Perfetto: Linux クライアント トレース用のスイス アーミー ナイフ</title>
+      <link>https://lalitm.com/perfetto-swiss-army-knife/</link>
+      <description>📝 まず、ペルフェットとは何ですか。これは protobuf 形式を解析する C++ ライブラリですが、その他の広く使用されているトレース形式も解析します。 Perfetto UI は Web ベースですが、すべてがブラウザ内で行われ、トレース データがシステムの外に出ることは決してないことに注意することが非常に重要です。
 
 
-🔤 Original: Another European agency shifts off US Tech as digital sovereignty gains steam
+🔤 Original: Perfetto: Swiss army knife for Linux client tracing
 
-🔗 Read more: https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</description>
-      <guid isPermaLink="true">https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</guid>
-      <pubDate>Fri, 31 Oct 2025 16:39:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45773974</comments>
+🔗 Read more: https://lalitm.com/perfetto-swiss-army-knife/</description>
+      <guid isPermaLink="true">https://lalitm.com/perfetto-swiss-army-knife/</guid>
+      <pubDate>Fri, 31 Oct 2025 11:54:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45771019</comments>
     </item>
     <item>
-      <title>Fire TV: Amazonは将来的に海賊版アプリをブロックする予定</title>
-      <link>https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</link>
-      <description>📝 背景には、Amazonが本日金曜日からこうした海賊版アプリに対して積極的に対策を講じることが挙げられる。彼らは、これが開発者にとって貴重なツールであることを理解しています。 Fire TV プレーヤーは、IPTV または VoD コンテンツへの無料アクセスを可能にすることを目的とした著作権侵害アプリとともにインターネット上で繰り返し提供されています。
+      <title>どの Pixel が Cellebrite の電話ハッキングに対して脆弱であるかをリーカーが明らかに</title>
+      <link>https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</link>
+      <description>📝 スクリーンショットには、Pixel 6、Pixel 7、Pixel 8、Pixel 9 ファミリーのデータが含まれています。このぼやけたスクリーンショットは、Cellebrite デバイスがハッキングできる Pixel スマートフォンをリストしているように見えます。クレジット: rogueFed このぼやけたスクリーンショットは、Cellebrite デバイスがハッキングできる Pixel スマートフォンをリストしているように見えます。
 
 
-🔤 Original: Fire TV: Amazon to block piracy apps in the future
+🔤 Original: Leaker reveals which Pixels are vulnerable to Cellebrite phone hacking
 
-🔗 Read more: https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</description>
-      <guid isPermaLink="true">https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</guid>
-      <pubDate>Fri, 31 Oct 2025 17:08:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774284</comments>
+🔗 Read more: https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</description>
+      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</guid>
+      <pubDate>Thu, 30 Oct 2025 23:12:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45766501</comments>
     </item>
     <item>
-      <title>Pangolin (YC S25) はフルスタック ソフトウェア エンジニア (オープンソース) を募集しています</title>
-      <link>https://docs.pangolin.net/careers/software-engineer-full-stack</link>
-      <description>📝 資本 5% 経験年数: 3 以上 スキル: TypeScript、Go、SQL (PostgreSQL、SQLite)、NextJS、AWS Pangolin について Pangolin は、安全なリバース トンネリングから始まり、内部アプリおよびサービスへの ID 認識型リモート アクセスを提供し、より広範なゼロトラスト ネットワーキングに向けて進化しています。主に、UI、API、スキーマなどを備えた中央サーバーである Pangolin コンテナーで作業します。履歴書/CV を送信 GitHub プロフィールを送信し、過去のプロジェクトを強調表示します。
+      <title>サイロを構築し、意図的にコラボレーションを減らす方法</title>
+      <link>https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</link>
+      <description>📝 コラボレーションの増加は害を及ぼす可能性がある 一般に、チーム内のコラボレーションを最大化し、チーム間のコラボレーションを最小限に抑えることを目指す必要があります。チーム内のコラボレーションを最大限に高める理由。なぜチーム間のコラボレーションを最小限に抑えるのか。
 
 
-🔤 Original: Pangolin (YC S25) Is Hiring a Full Stack Software Engineer (Open-Source)
+🔤 Original: How to build silos and decrease collaboration on purpose
 
-🔗 Read more: https://docs.pangolin.net/careers/software-engineer-full-stack</description>
-      <guid isPermaLink="true">https://docs.pangolin.net/careers/software-engineer-full-stack</guid>
-      <pubDate>Fri, 31 Oct 2025 17:00:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774198</comments>
+🔗 Read more: https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</description>
+      <guid isPermaLink="true">https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</guid>
+      <pubDate>Fri, 31 Oct 2025 19:16:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45775642</comments>
     </item>
     <item>
-      <title>ボタンを使うだけ</title>
-      <link>https://gomakethings.com/just-use-a-button/</link>
-      <description>📝 これの何が問題なのか。キーボードでは &lt;div&gt; にフォーカスすることはできません。真剣に、フォーカスの順序を気にしないでください。
+      <title>Android 開発者検証を回避する理論的な方法</title>
+      <link>https://enaix.github.io/2025/10/30/developer-verification.html</link>
+      <description>📝 Android ドキュメントへのリンク、FAQ へのリンク なぜこれが悪いのか これはすでに ArsTechnica やいくつかのスレッド (厳選されたもの) で議論されています: reddit、ycombinator、hackaday。この質問に対する私の答えは、私を含めた小規模な開発者がアプリを配布できなくなるだけだということです。これは、ターゲット apk バイトコードにパッチを適用することで実現できます。
 
 
-🔤 Original: Just Use a Button
+🔤 Original: A theoretical way to circumvent Android developer verification
 
-🔗 Read more: https://gomakethings.com/just-use-a-button/</description>
-      <guid isPermaLink="true">https://gomakethings.com/just-use-a-button/</guid>
-      <pubDate>Fri, 31 Oct 2025 16:59:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774182</comments>
+🔗 Read more: https://enaix.github.io/2025/10/30/developer-verification.html</description>
+      <guid isPermaLink="true">https://enaix.github.io/2025/10/30/developer-verification.html</guid>
+      <pubDate>Fri, 31 Oct 2025 20:20:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45776269</comments>
     </item>
     <item>
-      <title>クロードの機能停止</title>
-      <link>https://status.claude.com/incidents/s5f75jhwjs6g</link>
-      <description>📝 クロードのエラーが増加しました。投稿 2025 年 10 月 31 日 - 10:18 UTC 調査中 この問題は現在調査中です。投稿 2025 年 10 月 31 日 - 09:25 UTC このインシデントの影響を受ける人: クロード。
+      <title>パイロットが脱出した場合、自動操縦装置は何をするようにプログラムされていますか? (2018)</title>
+      <link>https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</link>
+      <description>📝 その時点では自動操縦でできることは何もありません。あなたの質問に関連する有名な事件が 2 件ありましたが、どちらも Auto Pilot とは関係がありませんでした。したがって、その質問に対する答えがなくて申し訳ありません。
 
 
-🔤 Original: Claude outage
+🔤 Original: If a pilot ejects, what is the autopilot programmed to do? (2018)
 
-🔗 Read more: https://status.claude.com/incidents/s5f75jhwjs6g</description>
-      <guid isPermaLink="true">https://status.claude.com/incidents/s5f75jhwjs6g</guid>
-      <pubDate>Fri, 31 Oct 2025 10:15:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45770317</comments>
-    </item>
-    <item>
-      <title>依存症市場: 企業運営のギャンブルを廃止する</title>
-      <link>https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</link>
-      <guid isPermaLink="true">https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</guid>
-      <pubDate>Fri, 31 Oct 2025 17:42:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774640</comments>
+🔗 Read more: https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</description>
+      <guid isPermaLink="true">https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</guid>
+      <pubDate>Thu, 30 Oct 2025 21:27:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45765596</comments>
     </item>
   </channel>
 </rss>
