@@ -6,108 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Oct 2025 15:21:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 18:29:59 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Nix Derivation Madness</title>
-      <link>https://fzakaria.com/2025/10/29/nix-derivation-madness</link>
-      <description>📝 Is this derivation wrong somehow. This is the derivation Nix believes that produced this Ruby binary from the sqlite database. What about the derivation that leverages it.
+      <title>AI scrapers request commented scripts</title>
+      <link>https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</link>
+      <description>📝 A few of these came from user-agents that were obviously malicious: Gulper Web Bot 0. A charitable interpretation for this behaviour is that the scrapers are correctly parsing HTML, but then digging into the text of comments and parsing that recursively to search for URLs that might have been disabled. There are many trivially detectable bot behaviours that I would consider incidental, which is to say that their authors could easily modify those behaviours if they realized that it made their bots less effective.
 
-🔗 Read more: https://fzakaria.com/2025/10/29/nix-derivation-madness</description>
-      <guid isPermaLink="true">https://fzakaria.com/2025/10/29/nix-derivation-madness</guid>
-      <pubDate>Fri, 31 Oct 2025 14:28:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772347</comments>
+🔗 Read more: https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</description>
+      <guid isPermaLink="true">https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</guid>
+      <pubDate>Fri, 31 Oct 2025 15:44:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45773347</comments>
     </item>
     <item>
-      <title>Attention lapses due to sleep deprivation due to flushing fluid from brain</title>
-      <link>https://news.mit.edu/2025/your-brain-without-sleep-1029</link>
-      <description>📝 New research shows attention lapses due to sleep deprivation coincide with a flushing of fluid from the brain — a process that normally occurs during sleep. During sleep, the cerebrospinal fluid that cushions the brain helps to remove waste that has built up during the day. “The results are suggesting that at the moment that attention fails, this fluid is actually being expelled outward away from the brain.
+      <title>x86 architecture 1 byte opcodes</title>
+      <link>https://www.sandpile.org/x86/opc_1.htm</link>
+      <description>📝 REX2 JODf64Jb JNODf64Jb JBDf64Jb JNBDf64Jb JZDf64 Jb JNZDf64 Jb JBEDf64Jb JNBEDf64Jb JKZDv64 vKw,Jbv(K1OM) JKNZDv64 vKw,Jbv(K1OM) 8xh group #1Eb,Ib group #1Ev,Iz group #1*I64Eb,Ib group #1Ev,Ib TESTEb,Gb TESTEv,Gv XCHGEb,Gb XCHGEv,Gv 9xh (F3h) PAUSEXCHG rAX,rAX XCHG rCX,rAX XCHG r9,rAX XCHG r17,rAXXCHG r25,rAX XCHG rDX,rAX XCHG r10,rAX XCHG r18,rAXXCHG r26,rAX XCHG rBX,rAX XCHG r11,rAX XCHG r19,rAXXCHG r27,rAX XCHG rSP,rAX XCHG r12,rAX XCHG r20,rAXXCHG r28,rAX XCHG rBP,rAX XCHG r13,rAX XCHG r21,rAXXCHG r29,rAX XCHG rSI,rAX XCHG r14,rAX XCHG r22,rAXXCHG r30,rAX XCHG rDI,rAX XCHG r15,rAX XCHG r23,rAXXCHG r31,rAX XCHG r8,rAXXCHG r16,rAXXCHG r24,rAX Axh. REX) MOV BH,Ib(REX) MOV DIL,IbMOV R15B,IbMOV R23B,IbMOV R31B,Ib Cxh group #2Eb,Ib(80186+) group #2Ev,Ib(80186+) RET nearDf64Iw RET nearDf64 LESI64 Gv,Mp (w:v) LDSI64 Gv,Mp (w:v) group #11Eb,Ib group #11Ev,Iz VEX3 VEX2 Dxh group #2Eb,1 group #2Ev,1 group #2Eb,CL group #2Ev,CL AAMI64 Ib AADI64 Ib S(ET)ALCI64 XLAT reserved REX2 L1OM UDB Exh. XCHG eAX,eAX – wider 32-bit NOP (80386) XCHG rAX, rAX – wider 64-bit NOP (x86-64) In PM64 with O32, XCHG EAX,EAX must not zero the upper 32 bits of RAX.
 
-🔗 Read more: https://news.mit.edu/2025/your-brain-without-sleep-1029</description>
-      <guid isPermaLink="true">https://news.mit.edu/2025/your-brain-without-sleep-1029</guid>
-      <pubDate>Fri, 31 Oct 2025 13:14:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771636</comments>
+🔗 Read more: https://www.sandpile.org/x86/opc_1.htm</description>
+      <guid isPermaLink="true">https://www.sandpile.org/x86/opc_1.htm</guid>
+      <pubDate>Fri, 31 Oct 2025 17:49:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774724</comments>
     </item>
     <item>
-      <title>Sustainable memristors from shiitake mycelium for high-frequency bioelectronics</title>
-      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</link>
-      <description>📝 Data Availability: The data is available at this repository: https://github. Memristors Memristor devices offer substantial advantages in robotic, industrial, and transport applications due to their unique electrical properties and ability to mimic neural functions. This capability enables robots and autonomous vehicles to learn from their environment and adapt in real time, enhancing their ability to navigate complex situations effectively.
+      <title>Another European agency shifts off US Tech as digital sovereignty gains steam</title>
+      <link>https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</link>
+      <description>📝 It's the latest move in a European trend to shift away from Big Tech. European governments and agencies want to control sensitive data. This shift away from proprietary, foreign-owned cloud services, such as Microsoft 365, to an open-source, European-based cloud service aligns with a growing trend among European governments and agencies.
 
-🔗 Read more: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</description>
-      <guid isPermaLink="true">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</guid>
-      <pubDate>Fri, 31 Oct 2025 13:32:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771796</comments>
+🔗 Read more: https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</description>
+      <guid isPermaLink="true">https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</guid>
+      <pubDate>Fri, 31 Oct 2025 16:39:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45773974</comments>
     </item>
     <item>
-      <title>OpenAI Uses Complex and Circular Deals to Fuel Its Multibillion-Dollar Rise</title>
-      <link>https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</link>
-      <description>📝 OpenAI Microsoft CoreWeave SoftBank $20 billion data centers Oracle U. OpenAI Microsoft CoreWeave $20 billion data centers SoftBank U. OpenAI Microsoft CoreWeave SoftBank Chip purchases $100 billion funding Oracle U.
+      <title>Fire TV: Amazon to block piracy apps in the future</title>
+      <link>https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</link>
+      <description>📝 The background is that Amazon will actively take action against such piracy apps starting today, Friday. They understand that this is a valuable tool for developers. Fire TV players are repeatedly offered on the internet with piracy apps that are supposed to enable free access to IPTV or VoD content.
 
-🔗 Read more: https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</description>
-      <guid isPermaLink="true">https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</guid>
-      <pubDate>Fri, 31 Oct 2025 13:03:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771538</comments>
+🔗 Read more: https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</description>
+      <guid isPermaLink="true">https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</guid>
+      <pubDate>Fri, 31 Oct 2025 17:08:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774284</comments>
     </item>
     <item>
-      <title>Nim 2.2.6</title>
-      <link>https://nim-lang.org//blog/2025/10/31/nim-226.html</link>
-      <description>📝 Bugfixes Fixed “=destroy for non-var failed to compile when JS” (#24914) Fixed “{. 2 regression)” (#25117) Fixed “filterIt wrongly results in rvalue” (#25078) Fixed “@ extremely slow for trivial types” (#25063) Fixed “withValue for immut tab wrong chk cond” (#25162) Fixed “Invalid C codegen refc with generic types containing gc memory” (#24844) Fixed “SinglyLinkedList. }” (#25205) Fixed “Uninitialized variable usage in resize__system_u.
+      <title>Pangolin (YC S25) Is Hiring a Full Stack Software Engineer (Open-Source)</title>
+      <link>https://docs.pangolin.net/careers/software-engineer-full-stack</link>
+      <description>📝 5% equity Years of experience: 3+ Skills: TypeScript, Go, SQL (PostgreSQL, SQLite), NextJS, AWS About Pangolin Pangolin delivers identity-aware remote access to internal apps and services, starting with secure reverse tunneling, and is evolving toward broader zero‑trust networking. You’ll work primarily on the Pangolin container, the central server with the UI, APIs, schemas, and more. Send your resume/CV Send your GitHub profile and highlight any past projects.
 
-🔗 Read more: https://nim-lang.org//blog/2025/10/31/nim-226.html</description>
-      <guid isPermaLink="true">https://nim-lang.org//blog/2025/10/31/nim-226.html</guid>
-      <pubDate>Fri, 31 Oct 2025 14:15:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772224</comments>
+🔗 Read more: https://docs.pangolin.net/careers/software-engineer-full-stack</description>
+      <guid isPermaLink="true">https://docs.pangolin.net/careers/software-engineer-full-stack</guid>
+      <pubDate>Fri, 31 Oct 2025 17:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774198</comments>
     </item>
     <item>
-      <title>Rotating Workforce Scheduling in MiniZinc</title>
-      <link>https://zayenz.se/blog/post/rotating-workforce-scheduling/</link>
-      <description>📝 What is a rotating schedule. This ensures fairness: everyone eventually experiences each schedule pattern. In the model the Employees will correspond to one week schedule each.
+      <title>Just Use a Button</title>
+      <link>https://gomakethings.com/just-use-a-button/</link>
+      <description>📝 } What’s wrong with this. You can’t focus on a &lt;div&gt; with a keyboard. Seriously, just don’t fuck with focus order.
 
-🔗 Read more: https://zayenz.se/blog/post/rotating-workforce-scheduling/</description>
-      <guid isPermaLink="true">https://zayenz.se/blog/post/rotating-workforce-scheduling/</guid>
-      <pubDate>Fri, 31 Oct 2025 14:09:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772153</comments>
+🔗 Read more: https://gomakethings.com/just-use-a-button/</description>
+      <guid isPermaLink="true">https://gomakethings.com/just-use-a-button/</guid>
+      <pubDate>Fri, 31 Oct 2025 16:59:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774182</comments>
     </item>
     <item>
-      <title>The cryptography behind electronic passports</title>
-      <link>https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</link>
-      <description>📝 Such passports display a small symbol indicating an electronic machine-readable travel document (eMRTD), which digitally stores the same personal data printed in traditional passport booklets in its embedded filesystem. Electronic passport basicsA passport serves as official identity documentation, primarily for international travel. Figure 5: Example passport with MRZ (ICAO Doc 9303 Part 3)Digging into the threat modelElectronic passports operate under a straightforward threat model that categorizes attackers based on physical access: those who hold a passport versus those who don’t.
+      <title>Claude outage</title>
+      <link>https://status.claude.com/incidents/s5f75jhwjs6g</link>
+      <description>📝 Elevated errors on claude. Posted Oct 31, 2025 - 10:18 UTC Investigating We are currently investigating this issue. Posted Oct 31, 2025 - 09:25 UTC This incident affects: claude.
 
-🔗 Read more: https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</description>
-      <guid isPermaLink="true">https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</guid>
-      <pubDate>Fri, 31 Oct 2025 11:33:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45770875</comments>
+🔗 Read more: https://status.claude.com/incidents/s5f75jhwjs6g</description>
+      <guid isPermaLink="true">https://status.claude.com/incidents/s5f75jhwjs6g</guid>
+      <pubDate>Fri, 31 Oct 2025 10:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45770317</comments>
     </item>
     <item>
-      <title>Immutable releases are now generally available on GitHub</title>
-      <link>https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</link>
-      <description>📝 About immutable releases Immutable releases offer: Immutable assets: Once you publish a release as immutable, its assets can’t be added, modified, or deleted. Once enabled: All new releases are immutable (i. They remain immutable.
-
-🔗 Read more: https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</description>
-      <guid isPermaLink="true">https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</guid>
-      <pubDate>Fri, 31 Oct 2025 13:59:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772064</comments>
-    </item>
-    <item>
-      <title>Git CLI tool for intelligently creating branch names</title>
-      <link>https://github.com/ytreister/gibr</link>
-      <description>📝 See alias command for more details Commands init alias issues create init gibr includes an init command to help you create your. See the following usage example: $ gibr init Welcome to gibr setup. Branch naming convention gibr uses the branch_name_format from your.
-
-🔗 Read more: https://github.com/ytreister/gibr</description>
-      <guid isPermaLink="true">https://github.com/ytreister/gibr</guid>
-      <pubDate>Fri, 31 Oct 2025 13:37:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771843</comments>
-    </item>
-    <item>
-      <title>Ask HN: Who uses open LLMs and coding assistants locally? Share setup and laptop</title>
-      <link>https://news.ycombinator.com/item?id=45771870</link>
-      <description>📝 Dear Hackers, I’m interested in your real-world workflows for using open-source LLMs and open-source coding assistants on your laptop (not just cloud/enterprise SaaS). , Ollama, LM Studio, or others) and which open-source coding assistant/integration (for example, a VS Code plugin) you’re using. What laptop hardware do you have (CPU, GPU/NPU, memory, whether discrete GPU or integrated, OS) and how it performs for your workflow.
-
-🔗 Read more: https://news.ycombinator.com/item?id=45771870</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45771870</guid>
-      <pubDate>Fri, 31 Oct 2025 13:39:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771870</comments>
+      <title>Addiction Markets: Abolish Corporate-Run Gambling</title>
+      <link>https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</link>
+      <guid isPermaLink="true">https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</guid>
+      <pubDate>Fri, 31 Oct 2025 17:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774640</comments>
     </item>
   </channel>
 </rss>

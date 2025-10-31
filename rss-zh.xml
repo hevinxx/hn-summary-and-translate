@@ -6,138 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 Oct 2025 15:21:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 18:29:59 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>尼克斯衍生疯狂</title>
-      <link>https://fzakaria.com/2025/10/29/nix-derivation-madness</link>
-      <description>📝 这个推导是否有什么错误？ Nix 认为这是从 sqlite 数据库生成此 Ruby 二进制文件的派生。那么利用它的推导又如何呢？
+      <title>AI 抓取工具请求评论脚本</title>
+      <link>https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</link>
+      <description>📝 其中一些来自明显恶意的用户代理：Gulper Web Bot 0。对此行为的宽容解释是，抓取工具正确解析 HTML，但随后深入挖掘评论文本并递归解析该文本以搜索可能已被禁用的 URL。有许多微不足道的可检测机器人行为，我认为它们是偶然的，也就是说，如果它们的作者意识到这些行为会降低机器人的效率，他们可以轻松修改这些行为。
 
 
-🔤 Original: Nix Derivation Madness
+🔤 Original: AI scrapers request commented scripts
 
-🔗 Read more: https://fzakaria.com/2025/10/29/nix-derivation-madness</description>
-      <guid isPermaLink="true">https://fzakaria.com/2025/10/29/nix-derivation-madness</guid>
-      <pubDate>Fri, 31 Oct 2025 14:28:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772347</comments>
+🔗 Read more: https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</description>
+      <guid isPermaLink="true">https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</guid>
+      <pubDate>Fri, 31 Oct 2025 15:44:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45773347</comments>
     </item>
     <item>
-      <title>大脑冲洗液导致睡眠不足，注意力不集中</title>
-      <link>https://news.mit.edu/2025/your-brain-without-sleep-1029</link>
-      <description>📝 新的研究表明，由于睡眠不足而导致的注意力缺失与大脑中液体的流出同时发生——这一过程通常发生在睡眠期间。在睡眠期间，缓冲大脑的脑脊液有助于清除白天积累的废物。 “结果表明，当注意力不集中时，这种液体实际上是从大脑中向外排出的。
+      <title>x86 架构 1 字节操作码</title>
+      <link>https://www.sandpile.org/x86/opc_1.htm</link>
+      <description>📝 REX2 JODf64Jb JNODf64Jb JBDf64Jb JNBDf64Jb JZDf64 Jb JNZDf64 Jb JBEDf64Jb JNBEDf64Jb JKZDv64 vKw,Jbv(K1OM) JKNZDv64 vKw,Jbv(K1OM) 8xh 组 #1Eb,Ib 组#1Ev,Iz 组 #1*I64Eb,Ib 组 #1Ev,Ib TESTEb,Gb TESTEv,Gv XCHGEb,Gb XCHGEv,Gv 9xh (F3h) PAUSEXCHG rAX,rAX XCHG rCX,rAX XCHG r9,rAX XCHG r17,rAXXCHG r25,rAX XCHG rDX,rAX XCHG r10,rAX XCHG r18,rAXXCHG r26,rAX XCHG rBX,rAX XCHG r11,rAX XCHG r19,rAXXCHG r27,rAX XCHG rSP,rAX XCHG r12,rAX XCHG r20,rAXXCHG r28,rAX XCHG rBP,rAX XCHG r13,rAX XCHG r21,rAXXCHG r29,rAX XCHG rSI,rAX XCHG r14,rAX XCHG r22,rAXXCHG r30,rAX XCHG rDI,rAX XCHG r15,rAX XCHG r23,rAXXCHG r31,rAX XCHG r8,rAXXCHG r16,rAXXCHG r24,rAX Axh。 REX) MOV BH,Ib(REX) MOV DIL,IbMOV R15B,IbMOV R23B,IbMOV R31B,Ib Cxh 组 #2Eb,Ib(80186+) 组 #2Ev,Ib(80186+) RET 近 Df64Iw RET 近 Df64 LESI64 Gv,Mp (w:v) LDSI64 Gv,Mp (w:v) 组 #11Eb,Ib 组 #11Ev,Iz VEX3 VEX2 Dxh 组 #2Eb,1 组 #2Ev,1 组 #2Eb,CL 组 #2Ev,CL AAMI64 Ib AADI64 Ib S(ET)ALCI64 XLAT 保留 REX2 L1OM UDB Exh。 XCHG eAX,eAX – 更宽的 32 位 NOP (80386) XCHG rAX, rAX – 更宽的 64 位 NOP (x86-64) 在具有 O32 的 PM64 中，XCHG EAX,EAX 不得将 RAX 的高 32 位归零。
 
 
-🔤 Original: Attention lapses due to sleep deprivation due to flushing fluid from brain
+🔤 Original: x86 architecture 1 byte opcodes
 
-🔗 Read more: https://news.mit.edu/2025/your-brain-without-sleep-1029</description>
-      <guid isPermaLink="true">https://news.mit.edu/2025/your-brain-without-sleep-1029</guid>
-      <pubDate>Fri, 31 Oct 2025 13:14:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771636</comments>
+🔗 Read more: https://www.sandpile.org/x86/opc_1.htm</description>
+      <guid isPermaLink="true">https://www.sandpile.org/x86/opc_1.htm</guid>
+      <pubDate>Fri, 31 Oct 2025 17:49:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774724</comments>
     </item>
     <item>
-      <title>用于高频生物电子学的香菇菌丝体可持续忆阻器</title>
-      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</link>
-      <description>📝 数据可用性：数据可在此存储库中获取：https://github。忆阻器 忆阻器器件由于其独特的电气特性和模拟神经功能的能力，在机器人、工业和运输应用中具有显着的优势。这种能力使机器人和自动驾驶车辆能够从环境中学习并实时适应，从而增强它们有效应对复杂情况的能力。
+      <title>随着数字主权的发展，另一个欧洲机构不再关注美国科技</title>
+      <link>https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</link>
+      <description>📝 这是欧洲摆脱大型科技趋势的最新举措。欧洲政府和机构希望控制敏感数据。这种从 Microsoft 365 等专有的外资云服务向基于欧洲的开源云服务的转变符合欧洲政府和机构日益增长的趋势。
 
 
-🔤 Original: Sustainable memristors from shiitake mycelium for high-frequency bioelectronics
+🔤 Original: Another European agency shifts off US Tech as digital sovereignty gains steam
 
-🔗 Read more: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</description>
-      <guid isPermaLink="true">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</guid>
-      <pubDate>Fri, 31 Oct 2025 13:32:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771796</comments>
+🔗 Read more: https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</description>
+      <guid isPermaLink="true">https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</guid>
+      <pubDate>Fri, 31 Oct 2025 16:39:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45773974</comments>
     </item>
     <item>
-      <title>OpenAI 利用复杂和循环的交易来推动其数十亿美元的增长</title>
-      <link>https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</link>
-      <description>📝 OpenAI Microsoft CoreWeave SoftBank 价值 200 亿美元的数据中心 Oracle U. OpenAI Microsoft CoreWeave 价值 200 亿美元的数据中心 SoftBank U. OpenAI Microsoft CoreWeave SoftBank Chip 购买了 1000 亿美元资金资助 Oracle U.
+      <title>Fire TV：亚马逊未来将阻止盗版应用</title>
+      <link>https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</link>
+      <description>📝 背景是，亚马逊将从今天周五开始，积极对此类盗版应用程序采取行动。他们明白这对于开发人员来说是一个有价值的工具。 Fire TV 播放器在互联网上反复出现盗版应用程序，这些应用程序应该可以免费访问 IPTV 或 VoD 内容。
 
 
-🔤 Original: OpenAI Uses Complex and Circular Deals to Fuel Its Multibillion-Dollar Rise
+🔤 Original: Fire TV: Amazon to block piracy apps in the future
 
-🔗 Read more: https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</description>
-      <guid isPermaLink="true">https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</guid>
-      <pubDate>Fri, 31 Oct 2025 13:03:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771538</comments>
+🔗 Read more: https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</description>
+      <guid isPermaLink="true">https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</guid>
+      <pubDate>Fri, 31 Oct 2025 17:08:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774284</comments>
     </item>
     <item>
-      <title>尼姆2.2.6</title>
-      <link>https://nim-lang.org//blog/2025/10/31/nim-226.html</link>
-      <description>📝 错误修复 修复了“=destroy for non-var 在 JS 时无法编译” (#24914) 修复了“{.2 回归)” (#25117) 修复了“filterIt 错误地导致了右值” (#25078) 修复了“@ 对于普通类型来说非常慢” (#25063) 修复了“immut tab 的 withValue 错误 chk cond” (#25162) 修复了“无效的 C codegen refc”包含 gc 内存的泛型类型” (#24844) 修复了“SinglyLinkedList }” (#25205) 修复了“resize__system_u 中未初始化的变量使用”。
+      <title>Pangolin (YC S25) 正在招聘一名全栈软件工程师（开源）</title>
+      <link>https://docs.pangolin.net/careers/software-engineer-full-stack</link>
+      <description>📝 5% 股权 经验年数：3 年以上 技能：TypeScript、Go、SQL（PostgreSQL、SQLite）、NextJS、AWS 关于 Pangolin Pangolin 从安全反向隧道开始，提供对内部应用程序和服务的身份识别远程访问，并正在向更广泛的零信任网络发展。您将主要处理 Pangolin 容器，即具有 UI、API、模式等的中央服务器。发送您的简历 发送您的 GitHub 个人资料并突出显示任何过去的项目。
 
 
-🔤 Original: Nim 2.2.6
+🔤 Original: Pangolin (YC S25) Is Hiring a Full Stack Software Engineer (Open-Source)
 
-🔗 Read more: https://nim-lang.org//blog/2025/10/31/nim-226.html</description>
-      <guid isPermaLink="true">https://nim-lang.org//blog/2025/10/31/nim-226.html</guid>
-      <pubDate>Fri, 31 Oct 2025 14:15:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772224</comments>
+🔗 Read more: https://docs.pangolin.net/careers/software-engineer-full-stack</description>
+      <guid isPermaLink="true">https://docs.pangolin.net/careers/software-engineer-full-stack</guid>
+      <pubDate>Fri, 31 Oct 2025 17:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774198</comments>
     </item>
     <item>
-      <title>MiniZinc 中的轮换劳动力调度</title>
-      <link>https://zayenz.se/blog/post/rotating-workforce-scheduling/</link>
-      <description>📝 什么是轮换时间表。这确保了公平性：每个人最终都会经历每种时间表模式。在模型中，员工将各自对应一周的时间表。
+      <title>只需使用一个按钮</title>
+      <link>https://gomakethings.com/just-use-a-button/</link>
+      <description>📝 这有什么问题。您无法使用键盘将焦点集中在 &lt;div&gt; 上。说真的，别搞乱焦点顺序。
 
 
-🔤 Original: Rotating Workforce Scheduling in MiniZinc
+🔤 Original: Just Use a Button
 
-🔗 Read more: https://zayenz.se/blog/post/rotating-workforce-scheduling/</description>
-      <guid isPermaLink="true">https://zayenz.se/blog/post/rotating-workforce-scheduling/</guid>
-      <pubDate>Fri, 31 Oct 2025 14:09:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772153</comments>
+🔗 Read more: https://gomakethings.com/just-use-a-button/</description>
+      <guid isPermaLink="true">https://gomakethings.com/just-use-a-button/</guid>
+      <pubDate>Fri, 31 Oct 2025 16:59:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774182</comments>
     </item>
     <item>
-      <title>电子护照背后的密码学</title>
-      <link>https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</link>
-      <description>📝 此类护照上有一个小符号，表示电子机读旅行证件 (eMRTD)，该证件以数字方式将打印在传统护照小册子上的相同个人数据存储在其嵌入式文件系统中。电子护照基础知识护照作为官方身份证明文件，主要用于国际旅行。图 5：带有机读区的护照示例（ICAO Doc 9303 第 3 部分）深入研究威胁模型电子护照在简单的威胁模型下运行，该模型根据物理访问对攻击者进行分类：持有护照的人和不持有护照的人。
+      <title>克劳德停电</title>
+      <link>https://status.claude.com/incidents/s5f75jhwjs6g</link>
+      <description>📝 克劳德失误增多。发布于 2025 年 10 月 31 日 - 10:18 UTC 调查 我们目前正在调查此问题。发布于 2025 年 10 月 31 日 - 09:25 UTC 此事件影响：claude。
 
 
-🔤 Original: The cryptography behind electronic passports
+🔤 Original: Claude outage
 
-🔗 Read more: https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</description>
-      <guid isPermaLink="true">https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</guid>
-      <pubDate>Fri, 31 Oct 2025 11:33:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45770875</comments>
+🔗 Read more: https://status.claude.com/incidents/s5f75jhwjs6g</description>
+      <guid isPermaLink="true">https://status.claude.com/incidents/s5f75jhwjs6g</guid>
+      <pubDate>Fri, 31 Oct 2025 10:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45770317</comments>
     </item>
     <item>
-      <title>不可变版本现已在 GitHub 上普遍提供</title>
-      <link>https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</link>
-      <description>📝 关于不可变版本 不可变版本提供： 不可变资产：一旦将版本发布为不可变版本，就无法添加、修改或删除其资产。一旦启用：所有新版本都是不可变的（即它们保持不可变。
-
-
-🔤 Original: Immutable releases are now generally available on GitHub
-
-🔗 Read more: https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</description>
-      <guid isPermaLink="true">https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</guid>
-      <pubDate>Fri, 31 Oct 2025 13:59:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772064</comments>
-    </item>
-    <item>
-      <title>用于智能创建分支名称的 Git CLI 工具</title>
-      <link>https://github.com/ytreister/gibr</link>
-      <description>📝 有关更多详细信息，请参阅 alias 命令 命令 init alias issues create init gibr 包含一个 init 命令来帮助您创建您的 .请参阅以下用法示例： $ gibr init 欢迎使用 gibr 设置。分支命名约定 gibr 使用您的分支命名格式。
-
-
-🔤 Original: Git CLI tool for intelligently creating branch names
-
-🔗 Read more: https://github.com/ytreister/gibr</description>
-      <guid isPermaLink="true">https://github.com/ytreister/gibr</guid>
-      <pubDate>Fri, 31 Oct 2025 13:37:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771843</comments>
-    </item>
-    <item>
-      <title>问 HN：谁在本地使用开放式法学硕士和编码助理？共享设置和笔记本电脑</title>
-      <link>https://news.ycombinator.com/item?id=45771870</link>
-      <description>📝 亲爱的黑客，我对你们在笔记本电脑上使用开源 LLM 和开源编码助手（不仅仅是云/企业 SaaS）的实际工作流程感兴趣。 、Ollama、LM Studio 或其他）以及您正在使用的开源编码助手/集成（例如 VS Code 插件）。您拥有哪些笔记本电脑硬件（CPU、GPU/NPU、内存、独立 GPU 还是集成 GPU、操作系统）以及它如何执行您的工作流程。
-
-
-🔤 Original: Ask HN: Who uses open LLMs and coding assistants locally? Share setup and laptop
-
-🔗 Read more: https://news.ycombinator.com/item?id=45771870</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45771870</guid>
-      <pubDate>Fri, 31 Oct 2025 13:39:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771870</comments>
+      <title>成瘾市场：废除企业经营的赌博</title>
+      <link>https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</link>
+      <guid isPermaLink="true">https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</guid>
+      <pubDate>Fri, 31 Oct 2025 17:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774640</comments>
     </item>
   </channel>
 </rss>

@@ -6,138 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Oct 2025 15:21:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 18:29:59 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ニックス派生マッドネス</title>
-      <link>https://fzakaria.com/2025/10/29/nix-derivation-madness</link>
-      <description>📝 この導出は何か間違っていますか。これは、Nix がこの Ruby バイナリを sqlite データベースから生成したと信じている派生です。それを活かした派生はどうでしょうか。
+      <title>AI スクレイパーはコメント付きスクリプトを要求します</title>
+      <link>https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</link>
+      <description>📝 これらのいくつかは、明らかに悪意のあるユーザー エージェントからのものです: Gulper Web Bot 0。 この動作の慈善的な解釈は、スクレイパーは HTML を正しく解析しているものの、コメントのテキストを掘り下げて再帰的に解析して、無効になっている可能性のある URL を検索しているというものです。偶然に検出できるボットの動作は数多くありますが、それらは偶然であると考えられます。つまり、作成者は、ボットの効果が低下することに気付いた場合、それらの動作を簡単に変更できます。
 
 
-🔤 Original: Nix Derivation Madness
+🔤 Original: AI scrapers request commented scripts
 
-🔗 Read more: https://fzakaria.com/2025/10/29/nix-derivation-madness</description>
-      <guid isPermaLink="true">https://fzakaria.com/2025/10/29/nix-derivation-madness</guid>
-      <pubDate>Fri, 31 Oct 2025 14:28:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772347</comments>
+🔗 Read more: https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</description>
+      <guid isPermaLink="true">https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</guid>
+      <pubDate>Fri, 31 Oct 2025 15:44:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45773347</comments>
     </item>
     <item>
-      <title>睡眠不足により脳から体液が流出して注意力が失われる</title>
-      <link>https://news.mit.edu/2025/your-brain-without-sleep-1029</link>
-      <description>📝 新しい研究によると、睡眠不足による注意力の低下は、通常睡眠中に起こる脳からの体液の排出と同時に起こることがわかっています。睡眠中、脳のクッションとなる脳脊髄液は、日中に蓄積した老廃物の除去を助けます。 「この結果は、注意力が失われる瞬間に、この体液が実際に脳から外側に排出されていることを示唆しています。
+      <title>x86 アーキテクチャ 1 バイトのオペコード</title>
+      <link>https://www.sandpile.org/x86/opc_1.htm</link>
+      <description>📝 REX2 JODf64Jb JNODf64Jb JBDf64Jb JNBDf64Jb JZDf64 Jb JNZDf64 Jb JBEDf64Jb JNBEDf64Jb JKZDv64 vKw,Jbv(K1OM) JKNZDv64 vKw,Jbv(K1OM) 8xh グループ #1Eb,Ib グループ#1Ev,Iz グループ #1*I64Eb,Ib グループ #1Ev,Ib TESTEb,Gb TESTEv,Gv XCHGEb,Gb XCHGEv,Gv 9xh (F3h) PAUSEXCHG rAX,rAX XCHG rCX,rAX XCHG r9,rAX XCHG r17,rAXXCHG r25,rAX XCHG rDX,rAX XCHG r10、rAX XCHG r18、rAXXCHG r26、rAX XCHG rBX、rAX XCHG r11、rAX XCHG r19、rAXXCHG r27、rAX XCHG rSP、rAX XCHG r12、rAX XCHG r20、rAXXCHG r28、rAX XCHG rBP、rAX XCHG r13、rAX XCHG r21、rAXXCHG r29、rAX XCHG rSI、rAX XCHG r14、rAX XCHG r22、rAXXCHG r30、rAX XCHG rDI、rAX XCHG r15、rAX XCHG r23、rAXXCHG r31、rAX XCHG r8、rAXXCHG r16、rAXXCHG r24、rAX Axh。 REX) MOV BH,Ib(REX) MOV DIL,IbMOV R15B,IbMOV R23B,IbMOV R31B,Ib Cxh グループ #2Eb,Ib(80186+) グループ #2Ev,Ib(80186+) RET NearDf64Iw RET NearDf64 LESI64 Gv,Mp (w:v) LDSI64 Gv,Mp (w:v) グループ #11Eb,Ib グループ #11Ev,Iz VEX3 VEX2 Dxh グループ #2Eb,1 グループ #2Ev,1 グループ #2Eb,CL グループ #2Ev,CL AAMI64 Ib AADI64 Ib S(ET)ALCI64 XLAT 予約 REX2 L1OM UDB Exh. XCHG eAX,eAX – 幅の広い 32 ビット NOP (80386) XCHG rAX、rAX – 幅の広い 64 ビット NOP (x86-64) O32 を備えた PM64 では、XCHG EAX,EAX は RAX の上位 32 ビットをゼロにしてはなりません。
 
 
-🔤 Original: Attention lapses due to sleep deprivation due to flushing fluid from brain
+🔤 Original: x86 architecture 1 byte opcodes
 
-🔗 Read more: https://news.mit.edu/2025/your-brain-without-sleep-1029</description>
-      <guid isPermaLink="true">https://news.mit.edu/2025/your-brain-without-sleep-1029</guid>
-      <pubDate>Fri, 31 Oct 2025 13:14:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771636</comments>
+🔗 Read more: https://www.sandpile.org/x86/opc_1.htm</description>
+      <guid isPermaLink="true">https://www.sandpile.org/x86/opc_1.htm</guid>
+      <pubDate>Fri, 31 Oct 2025 17:49:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774724</comments>
     </item>
     <item>
-      <title>高周波バイオエレクトロニクスのためのシイタケ菌糸体からの持続可能なメモリスター</title>
-      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</link>
-      <description>📝 データの利用可能性: データはこのリポジトリ: https://github で入手できます。 Memristor Memristor デバイスは、その独特の電気的特性と神経機能を模倣する能力により、ロボット、産業、および輸送用途に大きな利点をもたらします。この機能により、ロボットや自動運転車は環境から学習してリアルタイムに適応できるようになり、複雑な状況を効果的にナビゲートする能力が強化されます。
+      <title>デジタル主権が勢いを増す中、別の欧州機関が米国のテクノロジーからシフト</title>
+      <link>https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</link>
+      <description>📝 これは、ビッグテックから離れようとするヨーロッパの傾向における最新の動きである。欧州の政府や機関は機密データの管理を望んでいます。 Microsoft 365 などの外資系独自のクラウド サービスから、ヨーロッパを拠点とするオープンソースのクラウド サービスへの移行は、ヨーロッパの政府や機関の間で拡大する傾向と一致しています。
 
 
-🔤 Original: Sustainable memristors from shiitake mycelium for high-frequency bioelectronics
+🔤 Original: Another European agency shifts off US Tech as digital sovereignty gains steam
 
-🔗 Read more: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</description>
-      <guid isPermaLink="true">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965</guid>
-      <pubDate>Fri, 31 Oct 2025 13:32:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771796</comments>
+🔗 Read more: https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</description>
+      <guid isPermaLink="true">https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/</guid>
+      <pubDate>Fri, 31 Oct 2025 16:39:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45773974</comments>
     </item>
     <item>
-      <title>OpenAI、複雑かつ循環的な取引を利用して数十億ドル規模の成長を促進</title>
-      <link>https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</link>
-      <description>📝 OpenAI Microsoft CoreWeave ソフトバンク 200 億ドルのデータセンター Oracle U. OpenAI Microsoft CoreWeave 200 億ドルのデータセンター ソフトバンク U. OpenAI Microsoft CoreWeave ソフトバンクチップが 1,000 億ドルの資金調達で Oracle U.
+      <title>Fire TV: Amazonは将来的に海賊版アプリをブロックする予定</title>
+      <link>https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</link>
+      <description>📝 背景には、Amazonが本日金曜日からこうした海賊版アプリに対して積極的に対策を講じることが挙げられる。彼らは、これが開発者にとって貴重なツールであることを理解しています。 Fire TV プレーヤーは、IPTV または VoD コンテンツへの無料アクセスを可能にすることを目的とした著作権侵害アプリとともにインターネット上で繰り返し提供されています。
 
 
-🔤 Original: OpenAI Uses Complex and Circular Deals to Fuel Its Multibillion-Dollar Rise
+🔤 Original: Fire TV: Amazon to block piracy apps in the future
 
-🔗 Read more: https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</description>
-      <guid isPermaLink="true">https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html</guid>
-      <pubDate>Fri, 31 Oct 2025 13:03:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771538</comments>
+🔗 Read more: https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</description>
+      <guid isPermaLink="true">https://www.heise.de/en/news/Fire-TV-Amazon-to-block-piracy-apps-in-the-future-10964878.html</guid>
+      <pubDate>Fri, 31 Oct 2025 17:08:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774284</comments>
     </item>
     <item>
-      <title>ニム 2.2.6</title>
-      <link>https://nim-lang.org//blog/2025/10/31/nim-226.html</link>
-      <description>📝 バグ修正 「JS のときに非 var の =destroy がコンパイルに失敗する」を修正 (#24914) 「{.2 回帰)」を修正 (#25117) 「filterIt が rvalue を誤って結果とする」を修正 (#25078) 「自明な型に対して @ が非常に遅い」を修正 (#25063) 「immut タブの chk cond が間違っている withValue」を修正 (#25162) 「無効な C」を修正gc メモリを含むジェネリック型を使用した codegen refc」 (#24844) 「SinglyLinkedList. }」 (#25205) 「resize__system_u での初期化されていない変数の使用」を修正しました。
+      <title>Pangolin (YC S25) はフルスタック ソフトウェア エンジニア (オープンソース) を募集しています</title>
+      <link>https://docs.pangolin.net/careers/software-engineer-full-stack</link>
+      <description>📝 資本 5% 経験年数: 3 以上 スキル: TypeScript、Go、SQL (PostgreSQL、SQLite)、NextJS、AWS Pangolin について Pangolin は、安全なリバース トンネリングから始まり、内部アプリおよびサービスへの ID 認識型リモート アクセスを提供し、より広範なゼロトラスト ネットワーキングに向けて進化しています。主に、UI、API、スキーマなどを備えた中央サーバーである Pangolin コンテナーで作業します。履歴書/CV を送信 GitHub プロフィールを送信し、過去のプロジェクトを強調表示します。
 
 
-🔤 Original: Nim 2.2.6
+🔤 Original: Pangolin (YC S25) Is Hiring a Full Stack Software Engineer (Open-Source)
 
-🔗 Read more: https://nim-lang.org//blog/2025/10/31/nim-226.html</description>
-      <guid isPermaLink="true">https://nim-lang.org//blog/2025/10/31/nim-226.html</guid>
-      <pubDate>Fri, 31 Oct 2025 14:15:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772224</comments>
+🔗 Read more: https://docs.pangolin.net/careers/software-engineer-full-stack</description>
+      <guid isPermaLink="true">https://docs.pangolin.net/careers/software-engineer-full-stack</guid>
+      <pubDate>Fri, 31 Oct 2025 17:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774198</comments>
     </item>
     <item>
-      <title>MiniZinc でのローテーション従業員のスケジュール設定</title>
-      <link>https://zayenz.se/blog/post/rotating-workforce-scheduling/</link>
-      <description>📝 ローテーションスケジュールとは何ですか。これにより公平性が確保され、最終的には誰もがそれぞれのスケジュール パターンを経験することになります。このモデルでは、従業員はそれぞれ 1 週間のスケジュールに対応します。
+      <title>ボタンを使うだけ</title>
+      <link>https://gomakethings.com/just-use-a-button/</link>
+      <description>📝 これの何が問題なのか。キーボードでは &lt;div&gt; にフォーカスすることはできません。真剣に、フォーカスの順序を気にしないでください。
 
 
-🔤 Original: Rotating Workforce Scheduling in MiniZinc
+🔤 Original: Just Use a Button
 
-🔗 Read more: https://zayenz.se/blog/post/rotating-workforce-scheduling/</description>
-      <guid isPermaLink="true">https://zayenz.se/blog/post/rotating-workforce-scheduling/</guid>
-      <pubDate>Fri, 31 Oct 2025 14:09:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772153</comments>
+🔗 Read more: https://gomakethings.com/just-use-a-button/</description>
+      <guid isPermaLink="true">https://gomakethings.com/just-use-a-button/</guid>
+      <pubDate>Fri, 31 Oct 2025 16:59:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774182</comments>
     </item>
     <item>
-      <title>電子パスポートの背後にある暗号化</title>
-      <link>https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</link>
-      <description>📝 このようなパスポートには、電子機械可読渡航書類 (eMRTD) を示す小さなシンボルが表示されます。eMRTD には、従来のパスポートの小冊子に印刷されているのと同じ個人データが、埋め込まれたファイル システムにデジタル的に保存されます。電子パスポートの基本パスポートは、主に海外旅行の際に公式の身分証明書として機能します。図 5: MRZ を使用したパスポートの例 (ICAO Doc 9303 Part 3)脅威モデルの詳細電子パスポートは、物理的なアクセスに基づいて攻撃者を分類する単純な脅威モデル (パスポートを保持している者とそうでない者) に基づいて動作します。
+      <title>クロードの機能停止</title>
+      <link>https://status.claude.com/incidents/s5f75jhwjs6g</link>
+      <description>📝 クロードのエラーが増加しました。投稿 2025 年 10 月 31 日 - 10:18 UTC 調査中 この問題は現在調査中です。投稿 2025 年 10 月 31 日 - 09:25 UTC このインシデントの影響を受ける人: クロード。
 
 
-🔤 Original: The cryptography behind electronic passports
+🔤 Original: Claude outage
 
-🔗 Read more: https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</description>
-      <guid isPermaLink="true">https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</guid>
-      <pubDate>Fri, 31 Oct 2025 11:33:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45770875</comments>
+🔗 Read more: https://status.claude.com/incidents/s5f75jhwjs6g</description>
+      <guid isPermaLink="true">https://status.claude.com/incidents/s5f75jhwjs6g</guid>
+      <pubDate>Fri, 31 Oct 2025 10:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45770317</comments>
     </item>
     <item>
-      <title>不変リリースが GitHub で一般公開されました</title>
-      <link>https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</link>
-      <description>📝 不変リリースについて 不変リリースが提供するもの: 不変アセット: リリースを不変として公開すると、そのアセットは追加、変更、削除できなくなります。有効にすると、すべての新しいリリースは不変になります (i. 不変のままです。
-
-
-🔤 Original: Immutable releases are now generally available on GitHub
-
-🔗 Read more: https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</description>
-      <guid isPermaLink="true">https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/</guid>
-      <pubDate>Fri, 31 Oct 2025 13:59:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45772064</comments>
-    </item>
-    <item>
-      <title>ブランチ名をインテリジェントに作成するための Git CLI ツール</title>
-      <link>https://github.com/ytreister/gibr</link>
-      <description>📝 詳細については、alias コマンドを参照してください。 コマンド init alias の問題 create init gibr には、alias コマンドの作成に役立つ init コマンドが含まれています。次の使用例を参照してください。 $ gibr init gibr セットアップへようこそ。ブランチの命名規則 gibr は、ブランチの Branch_name_format を使用します。
-
-
-🔤 Original: Git CLI tool for intelligently creating branch names
-
-🔗 Read more: https://github.com/ytreister/gibr</description>
-      <guid isPermaLink="true">https://github.com/ytreister/gibr</guid>
-      <pubDate>Fri, 31 Oct 2025 13:37:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771843</comments>
-    </item>
-    <item>
-      <title>HN に質問: ローカルでオープン LLM とコーディング アシスタントを使用しているのは誰ですか?セットアップとラップトップを共有する</title>
-      <link>https://news.ycombinator.com/item?id=45771870</link>
-      <description>📝 ハッカーの皆様、私はラップトップ上で (クラウド/エンタープライズ SaaS だけでなく) オープンソース LLM とオープンソース コーディング アシスタントを使用するための実際のワークフローに興味があります。 、Ollama、LM Studio など）と、使用しているオープンソースのコーディング アシスタント/統合 (VS Code プラグインなど)。どのようなラップトップ ハードウェア (CPU、GPU/NPU、メモリ、ディスクリート GPU か統合型か、OS) とそれがワークフローでどのようにパフォーマンスするか。
-
-
-🔤 Original: Ask HN: Who uses open LLMs and coding assistants locally? Share setup and laptop
-
-🔗 Read more: https://news.ycombinator.com/item?id=45771870</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45771870</guid>
-      <pubDate>Fri, 31 Oct 2025 13:39:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771870</comments>
+      <title>依存症市場: 企業運営のギャンブルを廃止する</title>
+      <link>https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</link>
+      <guid isPermaLink="true">https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate</guid>
+      <pubDate>Fri, 31 Oct 2025 17:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45774640</comments>
     </item>
   </channel>
 </rss>
