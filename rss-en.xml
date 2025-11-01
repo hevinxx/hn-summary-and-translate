@@ -6,78 +6,58 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Oct 2025 21:17:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 01:30:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Futurelock: A subtle risk in async Rust</title>
-      <link>https://rfd.shared.oxide.computer/rfd/0609</link>
-      <description>📝 This function only // returns once the lock has been taken in the background task. Returns once the task is holding the lock. At this point:the background task holds the lockthe main task is blocked in tokio::select.
+      <title>Show HN: Strange Attractors</title>
+      <link>https://blog.shashanktomar.com/posts/strange-attractors</link>
+      <description>📝 The Basics: Dynamical Systems and Chaos Theory Dynamical Systems are a mathematical way to understand how things change over time. Chaos Theory deals with systems that exhibit irregular and unpredictable behavior over time, even though they follow deterministic rules. As discussed earlier, dynamical systems are all about change over time.
 
-🔗 Read more: https://rfd.shared.oxide.computer/rfd/0609</description>
-      <guid isPermaLink="true">https://rfd.shared.oxide.computer/rfd/0609</guid>
-      <pubDate>Fri, 31 Oct 2025 16:49:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774086</comments>
+🔗 Read more: https://blog.shashanktomar.com/posts/strange-attractors</description>
+      <guid isPermaLink="true">https://blog.shashanktomar.com/posts/strange-attractors</guid>
+      <pubDate>Fri, 31 Oct 2025 23:23:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777810</comments>
     </item>
     <item>
-      <title>Use DuckDB-WASM to query TB of data in browser</title>
-      <link>https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</link>
-      <description>📝 As part of our Public Data Project, LIL recently launched Data. However, static hosting often diminishes the capacity for rich data discovery. Here’s how it works: Data storage: We store Data.
+      <title>S.a.r.c.a.s.m: Slightly Annoying Rubik's Cube Automatic Solving Machine</title>
+      <link>https://github.com/vindar/SARCASM</link>
+      <description>📝 M Slightly Annoying Rubik's Cube Automatic Solving Machine S. ILI9341 display with custom 2D&amp;3D graphics, animations, and lip-sync. Stepper + servos for cube handling with position sensors to detect faults.
 
-🔗 Read more: https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</description>
-      <guid isPermaLink="true">https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</guid>
-      <pubDate>Fri, 31 Oct 2025 17:37:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774571</comments>
+🔗 Read more: https://github.com/vindar/SARCASM</description>
+      <guid isPermaLink="true">https://github.com/vindar/SARCASM</guid>
+      <pubDate>Fri, 31 Oct 2025 23:03:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777682</comments>
     </item>
     <item>
-      <title>Perfetto: Swiss army knife for Linux client tracing</title>
-      <link>https://lalitm.com/perfetto-swiss-army-knife/</link>
-      <description>📝 First, what is Perfetto. It’s a C++ library that parses the protobuf format, but also a bunch of other widely used trace formats. It’s very important to note that even though the Perfetto UI is web-based, everything happens inside your browser and trace data never leaves your system.
+      <title>My Impressions of the MacBook Pro M4</title>
+      <link>https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</link>
+      <description>📝 Online, I read from other MacBook Pro owners that the fan mostly stays off. The previous MacBook Air M1 had amazing all-day battery life already, and this MacBook Pro M4 lasts even longer. So if you’re working with a system that has &lt;8ms.
 
-🔗 Read more: https://lalitm.com/perfetto-swiss-army-knife/</description>
-      <guid isPermaLink="true">https://lalitm.com/perfetto-swiss-army-knife/</guid>
-      <pubDate>Fri, 31 Oct 2025 11:54:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771019</comments>
+🔗 Read more: https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</description>
+      <guid isPermaLink="true">https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</guid>
+      <pubDate>Fri, 31 Oct 2025 10:13:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45770304</comments>
     </item>
     <item>
-      <title>Leaker reveals which Pixels are vulnerable to Cellebrite phone hacking</title>
-      <link>https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</link>
-      <description>📝 The screenshot includes data on the Pixel 6, Pixel 7, Pixel 8, and Pixel 9 family. This blurry screenshot appears to list which Pixel phones Cellebrite devices can hack. Credit: rogueFed This blurry screenshot appears to list which Pixel phones Cellebrite devices can hack.
+      <title>Tim Bray on Grokipedia</title>
+      <link>https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</link>
+      <description>📝 Style · The writing has that LLM view-from-nowhere flat-affect semi-academic flavor. I don’t like it but the evidence suggests that some people do. But still, it’s broadly doing what they advertise: Pushing back against “woke” positions, in this case the position that monopolization is bad.
 
-🔗 Read more: https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</guid>
-      <pubDate>Thu, 30 Oct 2025 23:12:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45766501</comments>
+🔗 Read more: https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</description>
+      <guid isPermaLink="true">https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</guid>
+      <pubDate>Fri, 31 Oct 2025 21:41:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777015</comments>
     </item>
     <item>
-      <title>How to build silos and decrease collaboration on purpose</title>
-      <link>https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</link>
-      <description>📝 Increasing collaboration can do harm In general, you should aim to maximize collaboration within teams, and minimize collaboration between teams. Why maximize collaboration within teams. Why minimize collaboration between teams.
+      <title>Photographing the rare brown hyena stalking a diamond mining ghost town</title>
+      <link>https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</link>
+      <description>📝 The brown hyena is the rarest species of hyena in the world. During his initial visits, he became convinced that a brown hyena was roaming the ghost town at night. The brown hyena is a shy animal, mainly active at night.
 
-🔗 Read more: https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</description>
-      <guid isPermaLink="true">https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</guid>
-      <pubDate>Fri, 31 Oct 2025 19:16:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45775642</comments>
-    </item>
-    <item>
-      <title>A theoretical way to circumvent Android developer verification</title>
-      <link>https://enaix.github.io/2025/10/30/developer-verification.html</link>
-      <description>📝 Link to the Android documentation, link to FAQ Why this is bad This has already been discussed by ArsTechnica and on some threads (some cherry-picked ones): reddit, ycombinator, hackaday. My answer to this question is that it would simply prevent small developers from distributing their apps, including myself. This can be achieved by patching the target apk bytecode:.
-
-🔗 Read more: https://enaix.github.io/2025/10/30/developer-verification.html</description>
-      <guid isPermaLink="true">https://enaix.github.io/2025/10/30/developer-verification.html</guid>
-      <pubDate>Fri, 31 Oct 2025 20:20:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45776269</comments>
-    </item>
-    <item>
-      <title>If a pilot ejects, what is the autopilot programmed to do? (2018)</title>
-      <link>https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</link>
-      <description>📝 There is nothing much autopilot can do at that point. There have been two famous incidents that are related to your question but afaik neither of them involve Auto Pilot. Hence I'm sorry I don't have an answer to that question.
-
-🔗 Read more: https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</description>
-      <guid isPermaLink="true">https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</guid>
-      <pubDate>Thu, 30 Oct 2025 21:27:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45765596</comments>
+🔗 Read more: https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</description>
+      <guid isPermaLink="true">https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</guid>
+      <pubDate>Fri, 31 Oct 2025 23:03:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777683</comments>
     </item>
   </channel>
 </rss>

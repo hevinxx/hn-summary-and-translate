@@ -6,99 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Oct 2025 21:17:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 01:30:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Futurelock: 非同期 Rust の微妙なリスク</title>
-      <link>https://rfd.shared.oxide.computer/rfd/0609</link>
-      <description>📝 この関数は、 // バックグラウンド タスクでロックが取得された場合にのみ戻ります。タスクがロックを保持すると戻ります。この時点では、バックグラウンド タスクがロックを保持しており、メイン タスクは tokio::select でブロックされています。
+      <title>HN を表示: 奇妙なアトラクター</title>
+      <link>https://blog.shashanktomar.com/posts/strange-attractors</link>
+      <description>📝 基礎: 力学システムとカオス理論 力学システムは、物事が時間の経過とともにどのように変化するかを理解するための数学的方法です。カオス理論は、決定論的なルールに従っているにもかかわらず、時間の経過とともに不規則で予測不可能な動作を示すシステムを扱います。前述したように、動的システムは時間の経過とともに変化します。
 
 
-🔤 Original: Futurelock: A subtle risk in async Rust
+🔤 Original: Show HN: Strange Attractors
 
-🔗 Read more: https://rfd.shared.oxide.computer/rfd/0609</description>
-      <guid isPermaLink="true">https://rfd.shared.oxide.computer/rfd/0609</guid>
-      <pubDate>Fri, 31 Oct 2025 16:49:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774086</comments>
+🔗 Read more: https://blog.shashanktomar.com/posts/strange-attractors</description>
+      <guid isPermaLink="true">https://blog.shashanktomar.com/posts/strange-attractors</guid>
+      <pubDate>Fri, 31 Oct 2025 23:23:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777810</comments>
     </item>
     <item>
-      <title>DuckDB-WASM を使用してブラウザで TB のデータをクエリする</title>
-      <link>https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</link>
-      <description>📝 パブリック データ プロジェクトの一環として、LIL は最近 Data を立ち上げました。ただし、静的ホスティングでは、豊富なデータを検出する能力が低下することがよくあります。その仕組みは次のとおりです: データ ストレージ: データを保存します。
+      <title>S.a.r.c.a.s.m: ちょっと面倒なルービックキューブ自動解答機</title>
+      <link>https://github.com/vindar/SARCASM</link>
+      <description>📝 M ちょっと迷惑なルービック キューブ自動解決機 S. カスタム 2D&amp;3D グラフィックス、アニメーション、リップシンクを備えた ILI9341 ディスプレイ。障害を検出する位置センサーを備えたキューブ処理用のステッパー + サーボ。
 
 
-🔤 Original: Use DuckDB-WASM to query TB of data in browser
+🔤 Original: S.a.r.c.a.s.m: Slightly Annoying Rubik's Cube Automatic Solving Machine
 
-🔗 Read more: https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</description>
-      <guid isPermaLink="true">https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</guid>
-      <pubDate>Fri, 31 Oct 2025 17:37:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774571</comments>
+🔗 Read more: https://github.com/vindar/SARCASM</description>
+      <guid isPermaLink="true">https://github.com/vindar/SARCASM</guid>
+      <pubDate>Fri, 31 Oct 2025 23:03:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777682</comments>
     </item>
     <item>
-      <title>Perfetto: Linux クライアント トレース用のスイス アーミー ナイフ</title>
-      <link>https://lalitm.com/perfetto-swiss-army-knife/</link>
-      <description>📝 まず、ペルフェットとは何ですか。これは protobuf 形式を解析する C++ ライブラリですが、その他の広く使用されているトレース形式も解析します。 Perfetto UI は Web ベースですが、すべてがブラウザ内で行われ、トレース データがシステムの外に出ることは決してないことに注意することが非常に重要です。
+      <title>MacBook Pro M4の感想</title>
+      <link>https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</link>
+      <description>📝 オンラインで他の MacBook Pro 所有者から聞いた話によると、ファンはほとんど停止しているそうです。以前の MacBook Air M1 はすでに驚くべき一日中バッテリー寿命を持っていましたが、この MacBook Pro M4 はさらに長持ちします。したがって、8ms 未満のシステムを使用している場合は、
 
 
-🔤 Original: Perfetto: Swiss army knife for Linux client tracing
+🔤 Original: My Impressions of the MacBook Pro M4
 
-🔗 Read more: https://lalitm.com/perfetto-swiss-army-knife/</description>
-      <guid isPermaLink="true">https://lalitm.com/perfetto-swiss-army-knife/</guid>
-      <pubDate>Fri, 31 Oct 2025 11:54:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771019</comments>
+🔗 Read more: https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</description>
+      <guid isPermaLink="true">https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</guid>
+      <pubDate>Fri, 31 Oct 2025 10:13:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45770304</comments>
     </item>
     <item>
-      <title>どの Pixel が Cellebrite の電話ハッキングに対して脆弱であるかをリーカーが明らかに</title>
-      <link>https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</link>
-      <description>📝 スクリーンショットには、Pixel 6、Pixel 7、Pixel 8、Pixel 9 ファミリーのデータが含まれています。このぼやけたスクリーンショットは、Cellebrite デバイスがハッキングできる Pixel スマートフォンをリストしているように見えます。クレジット: rogueFed このぼやけたスクリーンショットは、Cellebrite デバイスがハッキングできる Pixel スマートフォンをリストしているように見えます。
+      <title>ティム・ブレイ (Grokipedia)</title>
+      <link>https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</link>
+      <description>📝 スタイル · 文章には、どこからともなく平坦な LLM の視点があり、半学術的な風味が漂っています。私はそれが好きではありませんが、証拠によれば、そう思う人もいるそうです。しかしそれでも、彼らが宣伝していることを広範に実行している。つまり、「目覚めた」立場、この場合は独占が悪いという立場に対して反発している。
 
 
-🔤 Original: Leaker reveals which Pixels are vulnerable to Cellebrite phone hacking
+🔤 Original: Tim Bray on Grokipedia
 
-🔗 Read more: https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</guid>
-      <pubDate>Thu, 30 Oct 2025 23:12:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45766501</comments>
+🔗 Read more: https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</description>
+      <guid isPermaLink="true">https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</guid>
+      <pubDate>Fri, 31 Oct 2025 21:41:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777015</comments>
     </item>
     <item>
-      <title>サイロを構築し、意図的にコラボレーションを減らす方法</title>
-      <link>https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</link>
-      <description>📝 コラボレーションの増加は害を及ぼす可能性がある 一般に、チーム内のコラボレーションを最大化し、チーム間のコラボレーションを最小限に抑えることを目指す必要があります。チーム内のコラボレーションを最大限に高める理由。なぜチーム間のコラボレーションを最小限に抑えるのか。
+      <title>ダイヤモンド採掘のゴーストタウンを闊歩する珍しいカッショクハイエナを撮影</title>
+      <link>https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</link>
+      <description>📝 カッショクハイエナは、世界で最も希少なハイエナの種です。最初の訪問中に、彼は夜のゴーストタウンをカッショクハイエナが徘徊していると確信した。カッショクハイエナは内気な動物で、主に夜に活動します。
 
 
-🔤 Original: How to build silos and decrease collaboration on purpose
+🔤 Original: Photographing the rare brown hyena stalking a diamond mining ghost town
 
-🔗 Read more: https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</description>
-      <guid isPermaLink="true">https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</guid>
-      <pubDate>Fri, 31 Oct 2025 19:16:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45775642</comments>
-    </item>
-    <item>
-      <title>Android 開発者検証を回避する理論的な方法</title>
-      <link>https://enaix.github.io/2025/10/30/developer-verification.html</link>
-      <description>📝 Android ドキュメントへのリンク、FAQ へのリンク なぜこれが悪いのか これはすでに ArsTechnica やいくつかのスレッド (厳選されたもの) で議論されています: reddit、ycombinator、hackaday。この質問に対する私の答えは、私を含めた小規模な開発者がアプリを配布できなくなるだけだということです。これは、ターゲット apk バイトコードにパッチを適用することで実現できます。
-
-
-🔤 Original: A theoretical way to circumvent Android developer verification
-
-🔗 Read more: https://enaix.github.io/2025/10/30/developer-verification.html</description>
-      <guid isPermaLink="true">https://enaix.github.io/2025/10/30/developer-verification.html</guid>
-      <pubDate>Fri, 31 Oct 2025 20:20:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45776269</comments>
-    </item>
-    <item>
-      <title>パイロットが脱出した場合、自動操縦装置は何をするようにプログラムされていますか? (2018)</title>
-      <link>https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</link>
-      <description>📝 その時点では自動操縦でできることは何もありません。あなたの質問に関連する有名な事件が 2 件ありましたが、どちらも Auto Pilot とは関係がありませんでした。したがって、その質問に対する答えがなくて申し訳ありません。
-
-
-🔤 Original: If a pilot ejects, what is the autopilot programmed to do? (2018)
-
-🔗 Read more: https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</description>
-      <guid isPermaLink="true">https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</guid>
-      <pubDate>Thu, 30 Oct 2025 21:27:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45765596</comments>
+🔗 Read more: https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</description>
+      <guid isPermaLink="true">https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</guid>
+      <pubDate>Fri, 31 Oct 2025 23:03:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777683</comments>
     </item>
   </channel>
 </rss>

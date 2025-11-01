@@ -6,99 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 Oct 2025 21:17:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 01:30:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Futurelock：异步 Rust 中的一个微妙风险</title>
-      <link>https://rfd.shared.oxide.computer/rfd/0609</link>
-      <description>📝 // 一旦在后台任务中获取了锁，该函数才会返回。一旦任务持有锁就返回。此时：后台任务持有锁，主任务被阻塞在 tokio::select 中。
+      <title>显示 HN：奇怪的吸引力</title>
+      <link>https://blog.shashanktomar.com/posts/strange-attractors</link>
+      <description>📝 基础知识：动力系统和混沌理论动力系统是一种理解事物如何随时间变化的数学方法。混沌理论涉及随着时间的推移表现出不规则和不可预测行为的系统，即使它们遵循确定性规则。如前所述，动态系统都是随时间变化的。
 
 
-🔤 Original: Futurelock: A subtle risk in async Rust
+🔤 Original: Show HN: Strange Attractors
 
-🔗 Read more: https://rfd.shared.oxide.computer/rfd/0609</description>
-      <guid isPermaLink="true">https://rfd.shared.oxide.computer/rfd/0609</guid>
-      <pubDate>Fri, 31 Oct 2025 16:49:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774086</comments>
+🔗 Read more: https://blog.shashanktomar.com/posts/strange-attractors</description>
+      <guid isPermaLink="true">https://blog.shashanktomar.com/posts/strange-attractors</guid>
+      <pubDate>Fri, 31 Oct 2025 23:23:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777810</comments>
     </item>
     <item>
-      <title>使用DuckDB-WASM在浏览器中查询TB级数据</title>
-      <link>https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</link>
-      <description>📝 作为我们公共数据项目的一部分，LIL 最近推出了 Data。然而，静态托管通常会降低发现丰富数据的能力。它的工作原理如下： 数据存储：我们存储数据。
+      <title>S.a.r.c.a.s.m：有点烦人的魔方自动解算机</title>
+      <link>https://github.com/vindar/SARCASM</link>
+      <description>📝 M 有点烦人的魔方自动解算机 S. ILI9341 显示屏，具有自定义 2D 和 3D 图形、动画和口型同步功能。步进+伺服系统用于立方体处理，并带有位置传感器来检测故障。
 
 
-🔤 Original: Use DuckDB-WASM to query TB of data in browser
+🔤 Original: S.a.r.c.a.s.m: Slightly Annoying Rubik's Cube Automatic Solving Machine
 
-🔗 Read more: https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</description>
-      <guid isPermaLink="true">https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/</guid>
-      <pubDate>Fri, 31 Oct 2025 17:37:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45774571</comments>
+🔗 Read more: https://github.com/vindar/SARCASM</description>
+      <guid isPermaLink="true">https://github.com/vindar/SARCASM</guid>
+      <pubDate>Fri, 31 Oct 2025 23:03:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777682</comments>
     </item>
     <item>
-      <title>Perfetto：用于 Linux 客户端跟踪的瑞士军刀</title>
-      <link>https://lalitm.com/perfetto-swiss-army-knife/</link>
-      <description>📝 首先，什么是Perfetto。它是一个 C++ 库，可以解析 protobuf 格式，还可以解析许多其他广泛使用的跟踪格式。需要注意的是，尽管 Perfetto UI 是基于 Web 的，但一切都发生在您的浏览器内，并且跟踪数据永远不会离开您的系统。
+      <title>我对 MacBook Pro M4 的印象</title>
+      <link>https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</link>
+      <description>📝 在网上，我从其他 MacBook Pro 用户那里了解到，风扇大多处于关闭状态。之前的 MacBook Air M1 已经拥有惊人的全天电池续航时间，而这款 MacBook Pro M4 的续航时间甚至更长。因此，如果您正在使用 &lt;8ms 的系统。
 
 
-🔤 Original: Perfetto: Swiss army knife for Linux client tracing
+🔤 Original: My Impressions of the MacBook Pro M4
 
-🔗 Read more: https://lalitm.com/perfetto-swiss-army-knife/</description>
-      <guid isPermaLink="true">https://lalitm.com/perfetto-swiss-army-knife/</guid>
-      <pubDate>Fri, 31 Oct 2025 11:54:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45771019</comments>
+🔗 Read more: https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</description>
+      <guid isPermaLink="true">https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/</guid>
+      <pubDate>Fri, 31 Oct 2025 10:13:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45770304</comments>
     </item>
     <item>
-      <title>Leaker 揭示了哪些 Pixel 容易受到 Cellebrite 电话黑客攻击</title>
-      <link>https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</link>
-      <description>📝 该屏幕截图包含 Pixel 6、Pixel 7、Pixel 8 和 Pixel 9 系列的数据。这张模糊的屏幕截图似乎列出了 Cellebrite 设备可以破解的 Pixel 手机。图片来源：rogueFed 这张模糊的屏幕截图似乎列出了 Cellebrite 设备可以破解的 Pixel 手机。
+      <title>蒂姆·布雷 (Tim Bray) 在 Grokipedia 上的发言</title>
+      <link>https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</link>
+      <description>📝 风格 · 写作具有法学硕士平淡无奇的半学术风格。我不喜欢它，但有证据表明有些人喜欢。但它仍然在广泛地做他们所宣传的事情：反对“觉醒”的立场，在这种情况下，垄断是不好的立场。
 
 
-🔤 Original: Leaker reveals which Pixels are vulnerable to Cellebrite phone hacking
+🔤 Original: Tim Bray on Grokipedia
 
-🔗 Read more: https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/</guid>
-      <pubDate>Thu, 30 Oct 2025 23:12:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45766501</comments>
+🔗 Read more: https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</description>
+      <guid isPermaLink="true">https://www.tbray.org/ongoing/When/202x/2025/10/28/Grokipedia</guid>
+      <pubDate>Fri, 31 Oct 2025 21:41:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777015</comments>
     </item>
     <item>
-      <title>如何故意建立孤岛并减少协作</title>
-      <link>https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</link>
-      <description>📝 增加协作可能会造成伤害 一般来说，您应该致力于最大限度地提高团队内部的协作，并最大限度地减少团队之间的协作。为什么要最大化团队内部的协作。为什么要最小化团队之间的协作。
+      <title>拍摄罕见的棕色鬣狗跟踪钻石采矿鬼城</title>
+      <link>https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</link>
+      <description>📝 棕色鬣狗是世界上最稀有的鬣狗品种。在最初的访问中，他确信一只棕色鬣狗在夜间在鬼城里游荡。棕鬣狗是一种害羞的动物，主要在夜间活动。
 
 
-🔤 Original: How to build silos and decrease collaboration on purpose
+🔤 Original: Photographing the rare brown hyena stalking a diamond mining ghost town
 
-🔗 Read more: https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</description>
-      <guid isPermaLink="true">https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/</guid>
-      <pubDate>Fri, 31 Oct 2025 19:16:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45775642</comments>
-    </item>
-    <item>
-      <title>一种绕过Android开发者验证的理论方法</title>
-      <link>https://enaix.github.io/2025/10/30/developer-verification.html</link>
-      <description>📝 链接到 Android 文档，链接到常见问题解答 为什么这很糟糕 这已经由 ArsTechnica 和一些线程（一些精心挑选的线程）讨论过：reddit、ycombinator、hackaday。我对这个问题的回答是，它只会阻止小型开发人员分发他们的应用程序，包括我自己。这可以通过修补目标 apk 字节码来实现：
-
-
-🔤 Original: A theoretical way to circumvent Android developer verification
-
-🔗 Read more: https://enaix.github.io/2025/10/30/developer-verification.html</description>
-      <guid isPermaLink="true">https://enaix.github.io/2025/10/30/developer-verification.html</guid>
-      <pubDate>Fri, 31 Oct 2025 20:20:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45776269</comments>
-    </item>
-    <item>
-      <title>如果飞行员弹射，自动驾驶仪会做什么？ (2018)</title>
-      <link>https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</link>
-      <description>📝 到那时，自动驾驶仪就无能为力了。有两起著名事件与您的问题相关，但据我所知，它们都不涉及自动驾驶仪。因此，很抱歉我没有这个问题的答案。
-
-
-🔤 Original: If a pilot ejects, what is the autopilot programmed to do? (2018)
-
-🔗 Read more: https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</description>
-      <guid isPermaLink="true">https://aviation.stackexchange.com/questions/52862/if-a-pilot-ejects-what-is-the-autopilot-programmed-to-do</guid>
-      <pubDate>Thu, 30 Oct 2025 21:27:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45765596</comments>
+🔗 Read more: https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</description>
+      <guid isPermaLink="true">https://www.bbc.com/future/article/20251014-the-rare-hyena-stalking-a-diamond-mining-ghost-town</guid>
+      <pubDate>Fri, 31 Oct 2025 23:03:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45777683</comments>
     </item>
   </channel>
 </rss>
