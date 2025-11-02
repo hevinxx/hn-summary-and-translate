@@ -6,99 +6,109 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 02 Nov 2025 18:25:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 21:17:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>最后你使用 Git bisect</title>
-      <link>https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</link>
-      <description>📝 git bisect - 使用二分搜索查找引入错误引用的提交。 /usr/bin/env bash set -e pytest -q 提交历史记录示例（按时间顺序）： 提交 1：初始提交（好） 提交 2：小重构（仍然好） 提交 3：引入错误（坏） 提交 4. sh' b982ed9373fe235fe61c74b15faf264bc7142398 是第一个错误提交b982ed9373fe235fe61c74b15faf264bc7142398 作者：Kevin 日期：2025 年 11 月 2 日星期日 10:54:47 2025 -0500 提交 3：引入了错误计算。
+      <title>使用 FreeBSD 让自托管再次变得有趣</title>
+      <link>https://jsteuernagel.de/posts/using-freebsd-to-make-self-hosting-fun-again/</link>
+      <description>📝 所以我也可以在 CLI 上收集这些信息，哦，好吧。重要的是我现在正在享受乐趣，学习新事物。我会看看什么能长期坚持。
 
 
-🔤 Original: At the end you use Git bisect
+🔤 Original: Using FreeBSD to make self-hosting fun again
 
-🔗 Read more: https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</description>
-      <guid isPermaLink="true">https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</guid>
-      <pubDate>Sun, 02 Nov 2025 17:24:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45791882</comments>
+🔗 Read more: https://jsteuernagel.de/posts/using-freebsd-to-make-self-hosting-fun-again/</description>
+      <guid isPermaLink="true">https://jsteuernagel.de/posts/using-freebsd-to-make-self-hosting-fun-again/</guid>
+      <pubDate>Sun, 02 Nov 2025 11:01:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45789424</comments>
     </item>
     <item>
-      <title>“为什么不使用依赖类型呢？”</title>
-      <link>https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</link>
-      <description>📝 “ 2025 年 11 月 2 日 [ 记忆 AUTOMATH LCF 类型理论 Martin-Löf 类型理论 NG de Bruijn ALEXANDRIA ] 公平地说，没有人问我这个确切的问题。我得到了一个完全不同的类型理论的答案。我花了几年的时间研究 Martin-Löf 类型理论。
+      <title>Lisp：关于它的过去和未来的笔记 (1980)</title>
+      <link>https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html</link>
+      <description>📝 1999 注：这篇文章被收录在 1980 年在斯坦福举行的 Lisp 会议上。简介 LISP 改进的延续 证明 LISP 程序的正确性 谜团和其他问题 参考资料 参考资料 关于本文档。 1999 注：这篇文章被收录在 1980 年在斯坦福举行的 Lisp 会议上。
 
 
-🔤 Original: "Why don't you use dependent types?"
+🔤 Original: Lisp: Notes on its Past and Future (1980)
 
-🔗 Read more: https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</description>
-      <guid isPermaLink="true">https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</guid>
-      <pubDate>Sun, 02 Nov 2025 15:06:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790827</comments>
+🔗 Read more: https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html</description>
+      <guid isPermaLink="true">https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html</guid>
+      <pubDate>Sun, 02 Nov 2025 19:05:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792579</comments>
     </item>
     <item>
-      <title>X.org 安全公告：X.Org X 服务器和 Xwayland 存在多个安全问题</title>
-      <link>https://lists.x.org/archives/xorg-announce/2025-October/003635.html</link>
-      <description>📝 组织安全建议：多个安全问题 X. 组织安全建议：多个安全问题 X.org/xorg/xserver/-/commit/5a4286b1 发现者：Jan-Niklas Sohn 与趋势科技零日计划合作。
+      <title>Steam 上的 Linux 玩家突破了 3% 大关</title>
+      <link>https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/</link>
+      <description>📝 截至 2025 年 10 月 Steam 硬件和软件调查，Steam 上的 Linux 玩家已经突破了难以捉摸的 3% 大关。来源：Valve 文章取自 GamingOnLinux。 _Mars 7 小时前 Flag Link 我很高兴 Steam Deck 只占用户群的一小部分。
 
 
-🔤 Original: X.org Security Advisory: multiple security issues X.Org X server and Xwayland
+🔤 Original: Linux gamers on Steam cross over the 3% mark
 
-🔗 Read more: https://lists.x.org/archives/xorg-announce/2025-October/003635.html</description>
-      <guid isPermaLink="true">https://lists.x.org/archives/xorg-announce/2025-October/003635.html</guid>
-      <pubDate>Sun, 02 Nov 2025 13:07:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790015</comments>
+🔗 Read more: https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/</description>
+      <guid isPermaLink="true">https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/</guid>
+      <pubDate>Sun, 02 Nov 2025 18:54:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792503</comments>
     </item>
     <item>
-      <title>用 C 语言编写 FreeDOS 程序</title>
-      <link>https://www.freedos.org/books/cprogramming/</link>
-      <description>📝 该项目得到了 Patreon 支持者的支持 该网络编程指南最初是 YouTube 上的一个视频系列，并得到 Patreon 的支持。 “C 编程”级别及以上级别的订阅者 (Patreon) 可以访问这些额外内容： 提前访问“C 编程”视频 独家访问“编程指南”的其余部分，其中包含视频中未包含的更多详细信息和信息 每周一次的 Patreon 论坛，询问有关本周“C 编程”主题的问题（如果您正在关注视频并需要帮助，这里就是提问的地方） 视频系列结束后，我将编程指南编辑为“自学”编程》一书，由出版合作伙伴 Lulu 提供。读者可以按成本价购买这本书。
+      <title>使用模型检查器重现 AWS 中断竞争条件</title>
+      <link>https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/</link>
+      <description>📝 然后它应用该计划并调用清理过程。我们将创建一个用于生成计划的 DNS Planner 进程，以及用于获取计划的 DNS Enactor 进程。事件报告还指出，清理过程删除了“比刚刚应用的计划早得多的计划”。
 
 
-🔤 Original: Writing FreeDOS Programs in C
+🔤 Original: Reproducing the AWS Outage Race Condition with a Model Checker
 
-🔗 Read more: https://www.freedos.org/books/cprogramming/</description>
-      <guid isPermaLink="true">https://www.freedos.org/books/cprogramming/</guid>
-      <pubDate>Sun, 02 Nov 2025 13:43:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790293</comments>
+🔗 Read more: https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/</description>
+      <guid isPermaLink="true">https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/</guid>
+      <pubDate>Sun, 02 Nov 2025 18:37:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792373</comments>
     </item>
     <item>
-      <title>反网络犯罪法正在被武器化以压制新闻业</title>
-      <link>https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</link>
-      <description>📝 《网络犯罪法》的出台是为了打击尼日利亚境内日益增长的互联网欺诈和其他犯罪活动趋势，但它却经常被用来压制在线发布的新闻报道。据保护记者委员会称，在尼日利亚，有超过两打记者根据《网络犯罪法》面临起诉。在大多数情况下，记者被指控网络欺凌、网络跟踪或试图推翻政府。
+      <title>您的蓝牙芯片是否通过射频信号泄露秘密？</title>
+      <link>https://www.semanticscholar.org/paper/Is-Your-Bluetooth-Chip-Leaking-Secrets-via-RF-Ji-Dubrova/c1d3ceb47ea6f9cc4f29929e2f97d36862a260a2</link>
+      <description>📝 @article{Ji2025IsYB, title={你的蓝牙芯片是否通过射频信号泄露秘密。展开172极具影响力的PDF4摘录保存了解尖叫通道：从详细分析到改进攻击乔瓦尼·卡穆拉蒂奥雷利恩·弗朗西隆弗朗索瓦-泽维尔·斯坦达特计算机科学，工程IACR Trans。杜布罗瓦计算机科学、工程IACR Cryptol。
 
 
-🔤 Original: Anti-cybercrime laws are being weaponized to repress journalism
+🔤 Original: Is Your Bluetooth Chip Leaking Secrets via RF Signals?
 
-🔗 Read more: https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</description>
-      <guid isPermaLink="true">https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</guid>
-      <pubDate>Sun, 02 Nov 2025 18:12:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45792209</comments>
+🔗 Read more: https://www.semanticscholar.org/paper/Is-Your-Bluetooth-Chip-Leaking-Secrets-via-RF-Ji-Dubrova/c1d3ceb47ea6f9cc4f29929e2f97d36862a260a2</description>
+      <guid isPermaLink="true">https://www.semanticscholar.org/paper/Is-Your-Bluetooth-Chip-Leaking-Secrets-via-RF-Ji-Dubrova/c1d3ceb47ea6f9cc4f29929e2f97d36862a260a2</guid>
+      <pubDate>Sun, 02 Nov 2025 18:06:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792166</comments>
     </item>
     <item>
-      <title>韩国新国家法律将把大型停车场改造成太阳能发电场</title>
-      <link>https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</link>
-      <description>📝 太阳能 韩国新的国家法律将把大型停车场变成太阳能发电厂 Jo Borrás | 2025 年 11 月 2 日 - 太平洋时间凌晨 4:09 29 条评论 从本月开始，韩国拥有超过 80 个停车位的停车场将被要求安装太阳能雨篷和车棚。它可以在这里工作 太阳能车库；由标准太阳能公司提供。评论 展开 关闭评论 展开关闭评论 指南 太阳能 韩国 作者 Jo Borrás volvojo1 我一直在附近。
+      <title>“这是一件大事”——科技公司押注于电气化铁路</title>
+      <link>https://www.bbc.com/news/articles/czdjg92y00no</link>
+      <description>📝 不仅如此，默里先生表示，它是目前该国唯一直接向铁路输送电力以驱动火车的太阳能电池阵列。为了实现电动化，铁路运营商传统上有两种选择：电气化铁路，或者火车通过屋顶上的手臂状受电弓连接的架空线路。这就是为什么他认为太阳能电池板对于铁路电气化项目如此有用。
 
 
-🔤 Original: New South Korean national law will turn large parking lots into solar farms
+🔤 Original: 'This is the big one' – tech firms bet on electrifying rail
 
-🔗 Read more: https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</description>
-      <guid isPermaLink="true">https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</guid>
-      <pubDate>Sun, 02 Nov 2025 15:12:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790867</comments>
+🔗 Read more: https://www.bbc.com/news/articles/czdjg92y00no</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/czdjg92y00no</guid>
+      <pubDate>Sun, 02 Nov 2025 20:04:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792958</comments>
     </item>
     <item>
-      <title>我自己建造的监狱</title>
-      <link>https://jsteuernagel.de/posts/a-prison-of-my-own-making/</link>
-      <description>📝 我不能再只安装一个程序了。许多使得与多人一起工作变得更加容易。我在这里不需要纯洁。
+      <title>MTurk 今天已经 20 岁了——你用它创造了什么？</title>
+      <link>https://news.ycombinator.com/item?id=45792951</link>
+      <description>📝 人们花了几天时间才发现它并流行起来，但随后事情就变得忙碌起来。当时，AWS 大约有 100 人（当你随叫随到时，你对所有 AWS 都随叫随到），亚马逊刚刚达到 10,000 人，S3 仍处于内测阶段，EC2 还处于白皮书阶段。您与 MTurk 及其背后极其耐心、勤奋的员工团队一起创造了什么。
 
 
-🔤 Original: A prison of my own making
+🔤 Original: MTurk is 20 years old today – what did you create with it?
 
-🔗 Read more: https://jsteuernagel.de/posts/a-prison-of-my-own-making/</description>
-      <guid isPermaLink="true">https://jsteuernagel.de/posts/a-prison-of-my-own-making/</guid>
-      <pubDate>Sun, 02 Nov 2025 13:14:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790061</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=45792951</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45792951</guid>
+      <pubDate>Sun, 02 Nov 2025 20:02:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792951</comments>
+    </item>
+    <item>
+      <title>React-Native-Godot</title>
+      <link>https://github.com/borndotcom/react-native-godot</link>
+      <description>📝 诞生 React Native Godot React Native Godot 允许将 Godot 引擎嵌入到 React Native 应用程序中。 sh Yarn ios # 或 YARN Android 您的第一个 React Native Godot 应用程序诞生了 React Native Godot，它分布在 NPM 上。在您的应用程序代码中导入 React Native Godot import { RTNGodot, RTNGodotView, runOnGodotThread } from "@borndotcom/react-native-godot";将 Godot 视图添加到您的视图中，例如。
+
+🔗 Read more: https://github.com/borndotcom/react-native-godot</description>
+      <guid isPermaLink="true">https://github.com/borndotcom/react-native-godot</guid>
+      <pubDate>Sun, 02 Nov 2025 18:45:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792429</comments>
     </item>
   </channel>
 </rss>

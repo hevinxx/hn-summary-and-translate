@@ -6,99 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 02 Nov 2025 18:25:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 21:17:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>마지막에는 Git bisect를 사용합니다.</title>
-      <link>https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</link>
-      <description>📝 git bisect - 바이너리 검색을 사용하여 버그 참조를 가져온 커밋을 찾습니다. /usr/bin/env bash set -e pytest -q 커밋 내역 예(연대순): 커밋 1: 초기 커밋(양호) 커밋 2: 작은 리팩터링(아직 양호) 커밋 3: 버그 도입(나쁨) 커밋 4. sh' b982ed9373fe235fe61c74b15faf264bc7142398은 첫 번째 잘못된 커밋입니다. b982ed9373fe235fe61c74b15faf264bc7142398 작성자: Kevin 날짜: 11월 2일 일요일 10:54:47 2025 -0500 커밋 3: 버그 계산이 도입되었습니다.
+      <title>FreeBSD를 사용하여 자체 호스팅을 다시 재미있게 만들기</title>
+      <link>https://jsteuernagel.de/posts/using-freebsd-to-make-self-hosting-fun-again/</link>
+      <description>📝 따라서 CLI에서 해당 정보를 수집할 수도 있었습니다. 중요한 것은 내가 지금 즐겁고 새로운 것을 배우고 있다는 것입니다. 장기적으로 무엇이 지속되는지 살펴 보겠습니다.
 
 
-🔤 Original: At the end you use Git bisect
+🔤 Original: Using FreeBSD to make self-hosting fun again
 
-🔗 Read more: https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</description>
-      <guid isPermaLink="true">https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</guid>
-      <pubDate>Sun, 02 Nov 2025 17:24:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45791882</comments>
+🔗 Read more: https://jsteuernagel.de/posts/using-freebsd-to-make-self-hosting-fun-again/</description>
+      <guid isPermaLink="true">https://jsteuernagel.de/posts/using-freebsd-to-make-self-hosting-fun-again/</guid>
+      <pubDate>Sun, 02 Nov 2025 11:01:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45789424</comments>
     </item>
     <item>
-      <title>"종속 유형을 사용하지 않는 이유는 무엇입니까?"</title>
-      <link>https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</link>
-      <description>📝 " 2025년 11월 2일 [ 추억 AUTOMATH LCF 유형 이론 Martin-Löf 유형 이론 NG de Bruijn ALEXANDRIA ] 공정하게 말하면 아무도 나에게 정확한 질문을 하지 않습니다. 나는 상당히 다른 유형 이론에 대한 답을 얻었습니다. 저는 Martin-Löf 유형 이론에 수년간 연구를 바쳤습니다.
+      <title>Lisp: 과거와 미래에 대한 노트(1980)</title>
+      <link>https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html</link>
+      <description>📝 1999년 참고: 이 기사는 1980년 스탠포드에서 열린 Lisp 컨퍼런스에 포함되었습니다. 소개 LISP의 생존 개선 LISP 프로그램의 정확성 입증 미스터리 및 기타 문제 참고 자료 이 문서에 대하여. 1999년 참고: 이 기사는 1980년 스탠포드에서 열린 Lisp 컨퍼런스에 포함되었습니다.
 
 
-🔤 Original: "Why don't you use dependent types?"
+🔤 Original: Lisp: Notes on its Past and Future (1980)
 
-🔗 Read more: https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</description>
-      <guid isPermaLink="true">https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</guid>
-      <pubDate>Sun, 02 Nov 2025 15:06:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790827</comments>
+🔗 Read more: https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html</description>
+      <guid isPermaLink="true">https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html</guid>
+      <pubDate>Sun, 02 Nov 2025 19:05:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792579</comments>
     </item>
     <item>
-      <title>X.org 보안 권고: 여러 보안 문제 X.Org X 서버 및 Xwayland</title>
-      <link>https://lists.x.org/archives/xorg-announce/2025-October/003635.html</link>
-      <description>📝 조직 보안 권고: 여러 보안 문제 X. 조직 보안 권고: 여러 보안 문제 X. org/xorg/xserver/-/commit/5a4286b1 발견자: Trend Micro Zero Day Initiative에 참여하는 Jan-Niklas Sohn.
+      <title>Steam의 Linux 게이머는 3%를 넘었습니다.</title>
+      <link>https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/</link>
+      <description>📝 2025년 10월 Steam 하드웨어 및 소프트웨어 설문조사를 기준으로 Steam을 사용하는 Linux 게이머는 3%를 넘었습니다. 출처: GamingOnLinux에서 가져온 Valve 기사. _Mars 7시간 전 Flag Link Steam Deck이 사용자 기반의 극히 일부만을 차지한다는 것이 기쁘네요.
 
 
-🔤 Original: X.org Security Advisory: multiple security issues X.Org X server and Xwayland
+🔤 Original: Linux gamers on Steam cross over the 3% mark
 
-🔗 Read more: https://lists.x.org/archives/xorg-announce/2025-October/003635.html</description>
-      <guid isPermaLink="true">https://lists.x.org/archives/xorg-announce/2025-October/003635.html</guid>
-      <pubDate>Sun, 02 Nov 2025 13:07:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790015</comments>
+🔗 Read more: https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/</description>
+      <guid isPermaLink="true">https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/</guid>
+      <pubDate>Sun, 02 Nov 2025 18:54:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792503</comments>
     </item>
     <item>
-      <title>C로 FreeDOS 프로그램 작성</title>
-      <link>https://www.freedos.org/books/cprogramming/</link>
-      <description>📝 이 프로젝트는 Patreon 후원자들의 지원을 받았습니다. 이 웹 프로그래밍 가이드는 Patreon을 통해 지원되는 YouTube의 비디오 시리즈로 시작되었습니다. "C 프로그래밍" 수준 이상의 후원자(Patreon)는 다음 추가 콘텐츠에 액세스할 수 있습니다. "C 프로그래밍" 비디오에 대한 조기 액세스 비디오에 포함되지 않은 더 자세한 내용과 정보가 포함된 나머지 "프로그래밍 가이드"에 대한 독점 액세스 해당 주의 "C 프로그래밍" 주제에 대해 질문할 수 있는 주간 Patreon 포럼(비디오를 따라가고 도움이 필요한 경우 이곳에서 질문할 수 있습니다.) 비디오 시리즈가 끝난 후 프로그래밍 가이드를 "스스로 가르치기"로 편집했습니다. 프로그래밍" 책, 출판 파트너 Lulu를 통해. 후원자는 책을 유료로 구입할 수 있습니다.
+      <title>모델 검사기를 사용하여 AWS 중단 경합 상태 재현</title>
+      <link>https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/</link>
+      <description>📝 그런 다음 계획을 적용하고 정리 프로세스를 호출합니다. 계획을 생성하는 DNS Planner 프로세스와 이를 선택하는 DNS Enactor 프로세스를 생성하겠습니다. 사고 보고서는 또한 정리 과정에서 "방금 적용한 것보다 상당히 오래된 계획"을 삭제한다고 언급합니다.
 
 
-🔤 Original: Writing FreeDOS Programs in C
+🔤 Original: Reproducing the AWS Outage Race Condition with a Model Checker
 
-🔗 Read more: https://www.freedos.org/books/cprogramming/</description>
-      <guid isPermaLink="true">https://www.freedos.org/books/cprogramming/</guid>
-      <pubDate>Sun, 02 Nov 2025 13:43:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790293</comments>
+🔗 Read more: https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/</description>
+      <guid isPermaLink="true">https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/</guid>
+      <pubDate>Sun, 02 Nov 2025 18:37:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792373</comments>
     </item>
     <item>
-      <title>저널리즘을 탄압하기 위해 사이버 범죄 방지법이 무기화되고 있습니다.</title>
-      <link>https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</link>
-      <description>📝 사이버 범죄법은 나이지리아 내에서 증가하는 인터넷 사기 및 기타 범죄 활동 추세에 맞서기 위해 도입되었지만 대신 온라인에 게시되는 저널리즘을 억제하는 데 자주 사용되었습니다. " 언론인 보호 위원회에 따르면 나이지리아에서는 20명 이상의 언론인이 사이버 범죄법에 따라 기소되었습니다. 대부분의 경우 언론인은 사이버 괴롭힘, 사이버 스토킹 또는 정부 전복 시도 혐의로 기소되었습니다.
+      <title>Bluetooth 칩이 RF 신호를 통해 비밀을 유출하고 있습니까?</title>
+      <link>https://www.semanticscholar.org/paper/Is-Your-Bluetooth-Chip-Leaking-Secrets-via-RF-Ji-Dubrova/c1d3ceb47ea6f9cc4f29929e2f97d36862a260a2</link>
+      <description>📝 @article{Ji2025IsYB, title={귀하의 블루투스 칩이 RF 신호를 통해 비밀을 유출하고 있습니까? 확장172매우 영향력이 큰PDF4 발췌저장비명 채널 이해: 상세한 분석에서 향상된 공격까지Giovanni CamuratiAurélien FrancillonFrançois-Xavier Standaert컴퓨터 과학, 엔지니어링IACR Trans. Dubrova컴퓨터 과학, 공학IACR Cryptol.
 
 
-🔤 Original: Anti-cybercrime laws are being weaponized to repress journalism
+🔤 Original: Is Your Bluetooth Chip Leaking Secrets via RF Signals?
 
-🔗 Read more: https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</description>
-      <guid isPermaLink="true">https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</guid>
-      <pubDate>Sun, 02 Nov 2025 18:12:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45792209</comments>
+🔗 Read more: https://www.semanticscholar.org/paper/Is-Your-Bluetooth-Chip-Leaking-Secrets-via-RF-Ji-Dubrova/c1d3ceb47ea6f9cc4f29929e2f97d36862a260a2</description>
+      <guid isPermaLink="true">https://www.semanticscholar.org/paper/Is-Your-Bluetooth-Chip-Leaking-Secrets-via-RF-Ji-Dubrova/c1d3ceb47ea6f9cc4f29929e2f97d36862a260a2</guid>
+      <pubDate>Sun, 02 Nov 2025 18:06:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792166</comments>
     </item>
     <item>
-      <title>새로운 한국법은 대형 주차장을 태양광 발전소로 전환할 것입니다.</title>
-      <link>https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</link>
-      <description>📝 태양광 발전 한국 새로운 국가법에 따라 대규모 주차장이 태양광 발전소로 전환됩니다 Jo Borrás | 2025년 11월 2일 - 오전 4:09 PT 29 댓글 이번 달부터 80대 이상의 대한민국 주차장에 태양광 캐노피와 간이 차고를 설치해야 합니다. 여기서는 작동할 수 있습니다. 태양열 간이 차고; 스탠다드 솔라에 의해. 댓글 펼치기 댓글 닫기 펼치기 댓글 닫기 가이드 태양광 발전 한국 저자 Jo Borrás volvojo1 저는 여기 저기 다녀왔습니다.
+      <title>'이것이 가장 큰 것' – 기술 회사들이 전기 철도에 베팅했습니다</title>
+      <link>https://www.bbc.com/news/articles/czdjg92y00no</link>
+      <description>📝 그뿐만 아니라 머레이 씨는 현재 이 태양열 어레이가 열차 이동을 위해 철도에 직접 전력을 공급하는 미국 유일의 태양광 어레이라고 말합니다. 전기를 사용하기 위해 철도 운영업체에는 전통적으로 두 가지 옵션이 있었습니다. 즉, 전기화된 철도 또는 지붕에 팔 모양의 팬터그래프를 사용하여 기차가 연결되는 가공선입니다. 이것이 바로 그가 태양광 패널이 철도 전기화 프로젝트를 가능하게 하는 데 매우 유용하다고 보는 이유입니다.
 
 
-🔤 Original: New South Korean national law will turn large parking lots into solar farms
+🔤 Original: 'This is the big one' – tech firms bet on electrifying rail
 
-🔗 Read more: https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</description>
-      <guid isPermaLink="true">https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</guid>
-      <pubDate>Sun, 02 Nov 2025 15:12:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790867</comments>
+🔗 Read more: https://www.bbc.com/news/articles/czdjg92y00no</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/czdjg92y00no</guid>
+      <pubDate>Sun, 02 Nov 2025 20:04:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792958</comments>
     </item>
     <item>
-      <title>내가 만드는 감옥</title>
-      <link>https://jsteuernagel.de/posts/a-prison-of-my-own-making/</link>
-      <description>📝 더 이상 프로그램만 설치할 수는 없습니다. 많은 사람들이 여러 사람과 함께 작업하는 것을 훨씬 더 쉽게 만듭니다. 여기서는 순결이 필요하지 않습니다.
+      <title>MTurk는 현재 20주년을 맞이했습니다. 이를 통해 무엇을 창조하셨나요?</title>
+      <link>https://news.ycombinator.com/item?id=45792951</link>
+      <description>📝 사람들이 그것을 발견하고 따라잡는 데 며칠이 걸렸지만 그 이후에는 일이 바빠졌습니다. 당시 AWS는 약 100명(당시 AWS 전체에 대한 통화 중)이었고, Amazon은 이제 막 10,000명을 돌파했고, S3는 아직 프라이빗 베타 버전이었고, EC2는 백서였습니다. MTurk와 그 뒤에 있는 믿을 수 없을 만큼 인내심을 갖고 열심히 일하는 인력으로 무엇을 창조하셨나요?
 
 
-🔤 Original: A prison of my own making
+🔤 Original: MTurk is 20 years old today – what did you create with it?
 
-🔗 Read more: https://jsteuernagel.de/posts/a-prison-of-my-own-making/</description>
-      <guid isPermaLink="true">https://jsteuernagel.de/posts/a-prison-of-my-own-making/</guid>
-      <pubDate>Sun, 02 Nov 2025 13:14:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45790061</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=45792951</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45792951</guid>
+      <pubDate>Sun, 02 Nov 2025 20:02:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792951</comments>
+    </item>
+    <item>
+      <title>반응 네이티브 Godot</title>
+      <link>https://github.com/borndotcom/react-native-godot</link>
+      <description>📝 Born React Native Godot React Native Godot를 사용하면 Godot 엔진을 React Native 애플리케이션에 내장할 수 있습니다. sh 털실 ios # 또는 털실 안드로이드 첫 번째 React Native Godot 앱 탄생 React Native Godot는 NPM에 배포됩니다. 앱 코드에서 React Native Godot 가져오기 import { RTNGodot, RTNGodotView, runOnGodotThread } from "@borndotcom/react-native-godot"; 보기에 Godot 보기를 추가하세요. e.
+
+
+🔤 Original: React-Native-Godot
+
+🔗 Read more: https://github.com/borndotcom/react-native-godot</description>
+      <guid isPermaLink="true">https://github.com/borndotcom/react-native-godot</guid>
+      <pubDate>Sun, 02 Nov 2025 18:45:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792429</comments>
     </item>
   </channel>
 </rss>
