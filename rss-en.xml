@@ -6,92 +6,38 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Nov 2025 01:39:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 03:46:40 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>SailfishOS: A Linux-based European alternative to dominant mobile OSes</title>
-      <link>https://sailfishos.org/info/</link>
-      <description>📝 Info Sailfish OS history Sailfish OS’s heritage lies in Nokia times, especially in the MeeGo operating system. In 2015, Sailfish OS 2. The Jolla team is supported by a worldwide Sailfish community contributing to the open source codebase.
-
-🔗 Read more: https://sailfishos.org/info/</description>
-      <guid isPermaLink="true">https://sailfishos.org/info/</guid>
-      <pubDate>Sat, 01 Nov 2025 22:05:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45785840</comments>
-    </item>
-    <item>
-      <title>OS maintained by a single developer since 1997: Visopsys</title>
-      <link>https://visopsys.org/</link>
-      <description>📝 Visopsys is an alternative operating system for PC compatible computers. In development since 1997, this system is small, fast, and open source. Features of Visopsys Small &amp; fast Graphical user interface Fully multitasking 100% protected mode Open source, free software News [21.
-
-🔗 Read more: https://visopsys.org/</description>
-      <guid isPermaLink="true">https://visopsys.org/</guid>
-      <pubDate>Sat, 01 Nov 2025 22:07:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45785858</comments>
-    </item>
-    <item>
-      <title>Policy, privacy and post-quantum: anonymous credentials for everyone</title>
-      <link>https://blog.cloudflare.com/private-rate-limiting/</link>
-      <description>📝 Soon, you might just ask your phone to order a pizza that matches your preferences. We started addressing this problem earlier this year. This is still early days.
-
-🔗 Read more: https://blog.cloudflare.com/private-rate-limiting/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/private-rate-limiting/</guid>
-      <pubDate>Sun, 02 Nov 2025 00:45:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45786914</comments>
-    </item>
-    <item>
-      <title>Why "Everyone Dies" Gets AGI All Wrong</title>
-      <link>https://bengoertzel.substack.com/p/why-everyone-dies-gets-agi-all-wrong</link>
-      <guid isPermaLink="true">https://bengoertzel.substack.com/p/why-everyone-dies-gets-agi-all-wrong</guid>
-      <pubDate>Sun, 02 Nov 2025 00:40:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45786888</comments>
-    </item>
-    <item>
       <title>Pomelli</title>
-      <link>https://labs.google.com/pomelli/about/</link>
-      <guid isPermaLink="true">https://labs.google.com/pomelli/about/</guid>
+      <link>https://blog.google/technology/google-labs/pomelli/</link>
+      <description>📝 Build your business DNAEnter your website, and Pomelli will analyze it and create a "Business DNA" profile for your brand. Generate tailored campaign ideasOnce your Business DNA is established, Pomelli generates tailored campaign ideas specifically for your business. Edit and create high-quality, branded creativesFinally, Pomelli creates a set of high-quality, on-brand marketing assets designed to help grow your brand across various channels, like your social media, your site and your ads.
+
+🔗 Read more: https://blog.google/technology/google-labs/pomelli/</description>
+      <guid isPermaLink="true">https://blog.google/technology/google-labs/pomelli/</guid>
       <pubDate>Sat, 01 Nov 2025 23:09:25 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=45786324</comments>
     </item>
     <item>
-      <title>OpenDesk by the Centre for Digital Sovereignty</title>
-      <link>https://www.opendesk.eu/en/product</link>
-      <description>📝 reading time Use case: MPK relies on openDesk for secure collaboration With its target of 160,000 licences across Germany’s public administration by the end of 2025, openDesk is proving its strength not only in major institutions such as the Robert Koch Institute, but also in smaller, strategically important settings.
+      <title>Crossfire: High-performance lockless spsc/mpsc/mpmc channels for Rust</title>
+      <link>https://github.com/frostyplanet/crossfire-rs</link>
+      <description>📝 Crossfire High-performance lockless spsc/mpsc/mpmc channels. It supports async contexts, and communication between async and blocking contexts. 1 cron_master_tokio_x86 STABLE async-std cron_master_async_std_x86 STABLE smol cron_master_smol-x86 STABLE arm threaded cron_master_threaded_arm STABLE tokio &gt;= 1.
 
-🔗 Read more: https://www.opendesk.eu/en/product</description>
-      <guid isPermaLink="true">https://www.opendesk.eu/en/product</guid>
-      <pubDate>Sat, 01 Nov 2025 22:26:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45785986</comments>
+🔗 Read more: https://github.com/frostyplanet/crossfire-rs</description>
+      <guid isPermaLink="true">https://github.com/frostyplanet/crossfire-rs</guid>
+      <pubDate>Sun, 02 Nov 2025 03:07:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45787571</comments>
     </item>
     <item>
-      <title>Show HN: KeyLeak Detector – Scan websites for exposed API keys and secrets</title>
-      <link>https://github.com/Amal-David/keyleak-detector</link>
-      <description>📝 This tool helps developers and security professionals identify and fix security vulnerabilities in their web applications. Enter the URL you want to scan in the input field and click "Scan Now" View the results, which will show any potential security issues found How It Works The application uses a combination of browser automation and network traffic analysis to find secrets: Browser Automation: Uses Playwright to load the target website in a headless browser Network Monitoring: Intercepts HTTP requests and responses using mitmproxy Content Analysis: Analyzes JavaScript, HTML, headers, and dynamic content Pattern Matching: Uses regex patterns to detect various types of secrets Smart Filtering: Filters false positives using context-aware analysis Categorization: Groups findings by severity (Critical, High, Medium, Low) Patterns Detected The scanner detects 50+ types of sensitive information including: Cloud Provider Credentials: AWS Access Keys &amp; Secret Keys Google API Keys &amp; OAuth Tokens Google Cloud Service Account Keys Google Vertex AI API Keys Firebase API Keys Heroku API Keys Service Credentials: Stripe API Keys Slack Tokens GitHub Tokens &amp; OAuth GitLab Tokens Mailgun, Mailchimp, Twilio API Keys npm Tokens LLM/AI Inference Provider Keys: OpenAI API Keys (GPT-4, ChatGPT, etc. ) Anthropic API Keys (Claude) Google Gemini &amp; Vertex AI API Keys Hugging Face Tokens Cohere API Keys OpenRouter API Keys Replicate API Keys Together AI API Keys Perplexity AI API Keys Mistral AI API Keys AI21 Labs API Keys Anyscale API Keys DeepInfra API Keys Groq API Keys Fireworks AI API Keys Database Credentials: MongoDB, PostgreSQL, MySQL, Redis connection strings SQL Server connection strings Authentication: JWT Tokens Bearer Tokens OAuth Tokens Session Tokens Basic Auth credentials API Keys Sensitive Data: Private SSH Keys Credit Card Numbers Social Security Numbers Email Addresses Phone Numbers Other: Webhook URLs Callback URLs Hardcoded passwords Encrypted credentials in JavaScript Findings and Recommendations When the scanner detects potential secrets, it provides: Severity classification (Critical, High, Medium, Low) Context information showing where the secret was found Actionable recommendations for remediation Best practices for secure credential management ⚠️ Disclaimer FOR EDUCATIONAL AND AUTHORIZED TESTING PURPOSES ONLY This tool is provided for educational purposes and authorized security testing only.
+      <title>A Few Words About Async</title>
+      <link>https://yoric.github.io/post/quite-a-few-words-about-async/</link>
+      <description>📝 This kind of performance is called throughput. If you’re writing a web server, you have more leeway. Well, that’s what this entire post is all about.
 
-🔗 Read more: https://github.com/Amal-David/keyleak-detector</description>
-      <guid isPermaLink="true">https://github.com/Amal-David/keyleak-detector</guid>
-      <pubDate>Sat, 01 Nov 2025 22:52:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45786192</comments>
-    </item>
-    <item>
-      <title>Show HN: Duper – The Format That's Super</title>
-      <link>https://duper.dev.br/</link>
-      <description>📝 A human-friendly extension of JSON with quality-of-life improvements, extra types, and semantic identifiers. Tuples, bytes, raw strings, and more beyond basic JSON. Every valid JSON file is automatically valid Duper.
-
-🔗 Read more: https://duper.dev.br/</description>
-      <guid isPermaLink="true">https://duper.dev.br/</guid>
-      <pubDate>Sat, 01 Nov 2025 23:41:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45786533</comments>
-    </item>
-    <item>
-      <title>How I Use Every Claude Code Feature</title>
-      <link>https://blog.sshh.io/p/how-i-use-every-claude-code-feature</link>
-      <description>📝 How I Use Every Claude Code FeatureA brain dump of all the ways I've been using Claude Code. mdThe single most important file in your codebase for using Claude Code effectively is the root CLAUDE. The Takeaway: Treat your CLAUDE.
-
-🔗 Read more: https://blog.sshh.io/p/how-i-use-every-claude-code-feature</description>
-      <guid isPermaLink="true">https://blog.sshh.io/p/how-i-use-every-claude-code-feature</guid>
-      <pubDate>Sun, 02 Nov 2025 00:13:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45786738</comments>
+🔗 Read more: https://yoric.github.io/post/quite-a-few-words-about-async/</description>
+      <guid isPermaLink="true">https://yoric.github.io/post/quite-a-few-words-about-async/</guid>
+      <pubDate>Sun, 02 Nov 2025 01:10:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45787036</comments>
     </item>
   </channel>
 </rss>
