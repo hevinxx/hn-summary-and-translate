@@ -6,48 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Nov 2025 15:18:37 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 18:25:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Tongyi DeepResearch – open-source 30B MoE Model that rivals OpenAI DeepResearch</title>
-      <link>https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/</link>
-      <description>📝 We propose AgentFounder, a systematic and scalable solution for large‑scale data synthesis that creates a data flywheel with data from the post‑training pipeline. Data Reorganization and Question Construction. Based on diverse problems and historical trajectories, we construct first‑order action synthesis data and higher‑order action synthesis data.
+      <title>At the end you use Git bisect</title>
+      <link>https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</link>
+      <description>📝 git bisect - Use binary search to find the commit that introduced a bug ref. /usr/bin/env bash set -e pytest -q Example commit history (chronological): Commit 1: Initial commit (good) Commit 2: Small refactor (still good) Commit 3: Bug introduced (bad) Commits 4. sh' b982ed9373fe235fe61c74b15faf264bc7142398 is the first bad commit commit b982ed9373fe235fe61c74b15faf264bc7142398 Author: Kevin Date: Sun Nov 2 10:54:47 2025 -0500 Commit 3: introduced bug calc.
 
-🔗 Read more: https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/</description>
-      <guid isPermaLink="true">https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/</guid>
-      <pubDate>Sun, 02 Nov 2025 11:43:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45789602</comments>
+🔗 Read more: https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</description>
+      <guid isPermaLink="true">https://kevin3010.github.io/git/2025/11/02/At-the-end-you-use-git-bisect.html</guid>
+      <pubDate>Sun, 02 Nov 2025 17:24:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45791882</comments>
     </item>
     <item>
-      <title>Matched Clean Power Index</title>
-      <link>https://matched.energy/blog/matched-clean-power-index-is-live</link>
-      <description>📝 Here's what that reveals. Good Energy is 88% renewable. The Matched Clean Power Index shows that it's possible to align renewable generation with consumption - several suppliers are already doing it.
+      <title>"Why don't you use dependent types?"</title>
+      <link>https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</link>
+      <description>📝 " 02 Nov 2025 [ memories AUTOMATH LCF type theory Martin-Löf type theory NG de Bruijn ALEXANDRIA ] To be fair, nobody asks me this exact question. I got that answer for a quite different type theory. I devoted several years of research to Martin-Löf type theory.
 
-🔗 Read more: https://matched.energy/blog/matched-clean-power-index-is-live</description>
-      <guid isPermaLink="true">https://matched.energy/blog/matched-clean-power-index-is-live</guid>
-      <pubDate>Sun, 02 Nov 2025 11:52:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45789640</comments>
+🔗 Read more: https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</description>
+      <guid isPermaLink="true">https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html</guid>
+      <pubDate>Sun, 02 Nov 2025 15:06:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45790827</comments>
     </item>
     <item>
-      <title>HyperRogue – A non-Euclidean roguelike</title>
-      <link>https://roguetemple.com/z/hyper/</link>
-      <description>📝 Or just ignore your quest and collect smaller treasures. A very infinite world With more space than anything Euclidean. Play together with your friend (shmup mode is recommended).
+      <title>X.org Security Advisory: multiple security issues X.Org X server and Xwayland</title>
+      <link>https://lists.x.org/archives/xorg-announce/2025-October/003635.html</link>
+      <description>📝 Org Security Advisory: multiple security issues X. Org Security Advisory: multiple security issues X. org/xorg/xserver/-/commit/5a4286b1 Found by: Jan-Niklas Sohn working with Trend Micro Zero Day Initiative.
 
-🔗 Read more: https://roguetemple.com/z/hyper/</description>
-      <guid isPermaLink="true">https://roguetemple.com/z/hyper/</guid>
-      <pubDate>Sun, 02 Nov 2025 11:40:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45789596</comments>
+🔗 Read more: https://lists.x.org/archives/xorg-announce/2025-October/003635.html</description>
+      <guid isPermaLink="true">https://lists.x.org/archives/xorg-announce/2025-October/003635.html</guid>
+      <pubDate>Sun, 02 Nov 2025 13:07:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45790015</comments>
     </item>
     <item>
-      <title>Stop 'reactions' to email by adding a postfix header (2024)</title>
-      <link>https://neilzone.co.uk/2024/07/attempting-to-stop-microsoft-users-sending-reactions-to-email-from-me-by-adding-a-postfix-header/</link>
-      <description>📝 It is annoying that I need to set a specific header for this. But at least there is this header. I added # add header to deal with unwanted Microsoft reactions (2024-07-16) /^Date:/i PREPEND x-ms-reactions: disallow (Edit: originally, I put this line before the Content-Transfer-Encoding header.
+      <title>Writing FreeDOS Programs in C</title>
+      <link>https://www.freedos.org/books/cprogramming/</link>
+      <description>📝 This project was backed by Patreon supporters This web programming guide started out as a video series on YouTube, supported through Patreon. Patrons at the "C programming" level and above (Patreon) got access to these extras: Early access to the "C programming" videos Exclusive access to the rest of the "programming guide" with more detail and information that didn't make it into the videos A weekly Patreon forum to ask questions about that week's "C programming" topics (if you were following along with the videos and need help, this was the place to ask) After the video series was finished, I edited the programming guide into a "teach yourself programming" book, via publishing partner Lulu. Patrons could purchase the book at cost.
 
-🔗 Read more: https://neilzone.co.uk/2024/07/attempting-to-stop-microsoft-users-sending-reactions-to-email-from-me-by-adding-a-postfix-header/</description>
-      <guid isPermaLink="true">https://neilzone.co.uk/2024/07/attempting-to-stop-microsoft-users-sending-reactions-to-email-from-me-by-adding-a-postfix-header/</guid>
-      <pubDate>Sun, 02 Nov 2025 12:42:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45789896</comments>
+🔗 Read more: https://www.freedos.org/books/cprogramming/</description>
+      <guid isPermaLink="true">https://www.freedos.org/books/cprogramming/</guid>
+      <pubDate>Sun, 02 Nov 2025 13:43:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45790293</comments>
+    </item>
+    <item>
+      <title>Anti-cybercrime laws are being weaponized to repress journalism</title>
+      <link>https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</link>
+      <description>📝 The Cybercrime Act was introduced to combat a growing trend of internet fraud and other criminal activity within Nigeria, but it has instead frequently been used to suppress journalism published online. ” In Nigeria, more than two dozen journalists have faced prosecution under the Cybercrime Act, according to the Committee to Protect Journalists. In most cases, the journalists have been accused of cyberbullying, cyberstalking, or attempting to overthrow the government.
+
+🔗 Read more: https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</description>
+      <guid isPermaLink="true">https://www.cjr.org/analysis/nigeria-pakistan-jordan-cybercrime-laws-journalism.php</guid>
+      <pubDate>Sun, 02 Nov 2025 18:12:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45792209</comments>
+    </item>
+    <item>
+      <title>New South Korean national law will turn large parking lots into solar farms</title>
+      <link>https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</link>
+      <description>📝 Solar power South Korea New national law will turn large parking lots into solar power farms Jo Borrás | Nov 2 2025 - 4:09 am PT 29 Comments Starting this month, parking lots in South Korea with more than 80 spaces will be required to install solar canopies and carports. It could work here Solar carport; by Standard Solar. Comments Expand Close comments Expand Close comments Guides Solar power South Korea Author Jo Borrás volvojo1 I’ve been in and around.
+
+🔗 Read more: https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</description>
+      <guid isPermaLink="true">https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/</guid>
+      <pubDate>Sun, 02 Nov 2025 15:12:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45790867</comments>
+    </item>
+    <item>
+      <title>A prison of my own making</title>
+      <link>https://jsteuernagel.de/posts/a-prison-of-my-own-making/</link>
+      <description>📝 I can't just install a program anymore. Many make working on something with multiple people way easier. I don't need purity here.
+
+🔗 Read more: https://jsteuernagel.de/posts/a-prison-of-my-own-making/</description>
+      <guid isPermaLink="true">https://jsteuernagel.de/posts/a-prison-of-my-own-making/</guid>
+      <pubDate>Sun, 02 Nov 2025 13:14:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45790061</comments>
     </item>
   </channel>
 </rss>
