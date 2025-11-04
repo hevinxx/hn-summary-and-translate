@@ -6,81 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 04 Nov 2025 15:24:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 18:30:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>优化 GPU 数据记录</title>
-      <link>https://danglingpointers.substack.com/p/optimizing-datalog-for-the-gpu</link>
-      <guid isPermaLink="true">https://danglingpointers.substack.com/p/optimizing-datalog-for-the-gpu</guid>
-      <pubDate>Tue, 04 Nov 2025 14:31:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45811447</comments>
+      <title>Pg_lake：具有 Iceberg 和数据湖访问权限的 Postgres</title>
+      <link>https://github.com/Snowflake-Labs/pg_lake</link>
+      <description>📝 pg_lake：用于 Iceberg 和数据湖的 Postgres pg_lake 将 Iceberg 和数据湖文件集成到 Postgres 中。使用 pg_lake 创建 Iceberg 表 您可以通过将 USINGiceberg 添加到 CREATE TABLE 语句来创建 Iceberg 表。 -- 使用 parquet 格式将数据从 Postgres 复制到 S3 -- 从任何数据源读取，包括冰山表、堆表或任何查询结果 COPY (SELE.
+
+
+🔤 Original: Pg_lake: Postgres with Iceberg and data lake access
+
+🔗 Read more: https://github.com/Snowflake-Labs/pg_lake</description>
+      <guid isPermaLink="true">https://github.com/Snowflake-Labs/pg_lake</guid>
+      <pubDate>Tue, 04 Nov 2025 16:12:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45812606</comments>
     </item>
     <item>
-      <title>使用浏览器代理链接 FFmpeg</title>
-      <link>https://100x.bot/a/chaining-ffmpeg-with-browser-agent</link>
-      <guid isPermaLink="true">https://100x.bot/a/chaining-ffmpeg-with-browser-agent</guid>
-      <pubDate>Tue, 04 Nov 2025 12:52:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45810430</comments>
+      <title>启动 HN：Plexe (YC X25) – 根据提示构建生产级 ML 模型</title>
+      <link>https://www.plexe.ai/</link>
+      <description>📝 为您的行业量身定制的机器学习解决方案，可立即部署。为您的行业量身定制的机器学习解决方案，可立即部署。利用人工智能在可疑活动成为问题之前发现它，从而保护您的客户和您的利润。
+
+
+🔤 Original: Launch HN: Plexe (YC X25) – Build production-grade ML models from prompts
+
+🔗 Read more: https://www.plexe.ai/</description>
+      <guid isPermaLink="true">https://www.plexe.ai/</guid>
+      <pubDate>Tue, 04 Nov 2025 17:07:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45813310</comments>
     </item>
     <item>
-      <title>Show HN：我为 iOS 构建了本地优先的每日计划程序</title>
-      <link>https://apps.apple.com/ca/app/to-do-list-planner-zesfy/id6479947874</link>
-      <description>📝 亮点：轻松计划您的重要任务。我们在此版本中进行了多项改进。 - 安排会话时显示插入的任务。
+      <title>探索天基、可扩展的人工智能基础设施系统设计</title>
+      <link>https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/</link>
+      <description>📝 这种轨道选择可以最大限度地收集太阳能，并减少对重型机载电池的需求。要提供与地面数据中心相当的性能，需要支持每秒数十太比特的卫星之间的链路。我们的分析表明，这应该可以通过多通道密集波分复用 (DWDM) 收发器和空间复用实现。
 
 
-🔤 Original: Show HN: I built a local-first daily planner for iOS
+🔤 Original: Exploring a space-based, scalable AI infrastructure system design
 
-🔗 Read more: https://apps.apple.com/ca/app/to-do-list-planner-zesfy/id6479947874</description>
-      <guid isPermaLink="true">https://apps.apple.com/ca/app/to-do-list-planner-zesfy/id6479947874</guid>
-      <pubDate>Tue, 04 Nov 2025 13:34:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45810856</comments>
+🔗 Read more: https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/</description>
+      <guid isPermaLink="true">https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/</guid>
+      <pubDate>Tue, 04 Nov 2025 17:04:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45813267</comments>
     </item>
     <item>
-      <title>Show HN：纯 CSS 地形生成器</title>
-      <link>https://terra.layoutit.com</link>
-      <description>📝 Layoutit Terra - CSS 地形生成器 CSS 地形生成器 重新生成 重新启动 撤消 重做 导入 导出 高度图 CSS VOX TXT PNG 复制嵌入 打开 Codepen 下载代码 移动提高大约世界大小 ✕ ✕ 陆地覆盖范围 小 中 大 地形类型 潘帕斯丘陵 登山生物群落 温带 北极沙漠 相机设置 旋转 x 45° 倾斜 y 60° 缩放 50% 平移 x 0px 提升 y 0px 动画重置为默认小地图高度图矩阵 v0。
+      <title>我们正在开源 Jupyter Notebook 的继任者</title>
+      <link>https://deepnote.com/blog/were-open-sourcing-the-successor-of-jupyter-notebook</link>
+      <description>📝 “然而，它让现代数据团队、数据代理和……数据本身失败了。团队需要反应性、协作性和人工智能就绪的笔记本。今天，我们宣布 Deepnote 将开源。
 
 
-🔤 Original: Show HN: A CSS-Only Terrain Generator
+🔤 Original: We're open-sourcing the successor of Jupyter notebook
 
-🔗 Read more: https://terra.layoutit.com</description>
-      <guid isPermaLink="true">https://terra.layoutit.com</guid>
-      <pubDate>Tue, 04 Nov 2025 13:58:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45811093</comments>
+🔗 Read more: https://deepnote.com/blog/were-open-sourcing-the-successor-of-jupyter-notebook</description>
+      <guid isPermaLink="true">https://deepnote.com/blog/were-open-sourcing-the-successor-of-jupyter-notebook</guid>
+      <pubDate>Tue, 04 Nov 2025 18:06:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45813994</comments>
     </item>
     <item>
-      <title>雅达利的艺术 (2016)</title>
-      <link>http://www.artofatari.com</link>
-      <description>📝 雅达利的艺术 |炸药现已上市。可通过当地的独立书店购买。 © Atari 和 Atari 徽标是 Atari Interactive Inc. 的注册商标。
+      <title>1988 年的今天，Morris 蠕虫病毒在 24 小时内感染了 10% 的互联网</title>
+      <link>https://www.tomshardware.com/tech-industry/cyber-security/on-this-day-in-1988-the-morris-worm-slithered-out-and-sparked-a-new-era-in-cybersecurity-10-percent-of-the-internet-was-infected-within-24-hours</link>
+      <description>📝 莫里斯蠕虫解剖 众所周知，莫里斯是个恶作剧者，他一定对将他的“无辜”程序释放到野外感到有些不祥的预感。值得庆幸的是，莫里斯蠕虫并不是为了损坏文件而编写的。莫里斯蠕虫被安全地隔离在软盘上。
 
 
-🔤 Original: The Art of Atari (2016)
+🔤 Original: This Day in 1988, the Morris worm infected 10% of the Internet within 24 hours
 
-🔗 Read more: http://www.artofatari.com</description>
-      <guid isPermaLink="true">http://www.artofatari.com</guid>
-      <pubDate>Tue, 04 Nov 2025 13:15:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45810676</comments>
+🔗 Read more: https://www.tomshardware.com/tech-industry/cyber-security/on-this-day-in-1988-the-morris-worm-slithered-out-and-sparked-a-new-era-in-cybersecurity-10-percent-of-the-internet-was-infected-within-24-hours</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/cyber-security/on-this-day-in-1988-the-morris-worm-slithered-out-and-sparked-a-new-era-in-cybersecurity-10-percent-of-the-internet-was-infected-within-24-hours</guid>
+      <pubDate>Tue, 04 Nov 2025 15:23:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45812024</comments>
     </item>
     <item>
-      <title>Google Cloud 出于 3 种不同原因暂停了客户的帐号 3 次</title>
-      <link>https://www.theregister.com/2025/11/04/google_cloud_suspended_customers_account/</link>
-      <description>📝 谷歌后来恢复了访问权限。上周五，谷歌再次暂停了 SSLMate 的账户。他现在认为 SSLMate 需要放弃 Google Cloud。
+      <title>Michael Burry 又名“大空头”，披露了 1.1 亿美元做空 Nvidia 和 Palantir 的赌注</title>
+      <link>https://sherwood.news/markets/michael-burry-big-short-discloses-1-1-billion-options-bet-against-nvidia-palantir-puts/</link>
+      <description>📝 周一发布的 13-F 文件显示，Burry 的基金 Scion Asset Management 购买了约 500 万股 Palantir 股票（价值 9.12 亿美元）和 100 万股 Nvidia 股票（价值 1.87 亿美元）的看跌期权。 Scion 还披露了辉瑞 (Pfizer) 和哈里伯顿 (Halliburton) 的看涨期权，以及 Lululemon、布鲁克 (Bruker)、Molina Healthcare 和 Sallie Mae 的持股。“大空头”迈克尔·伯里 (Michael Burry) 做空 Palantir 和 Nvidia。周一发布的 13-F 文件显示，伯里的基金 Scion Asset Management 购买了约 500 万股 Palantir 股票（价值 9.12 亿美元）和 100 万股 Nvidia 股票（价值 1.87 亿美元）的看跌期权。
 
 
-🔤 Original: Google Cloud suspended customer's account 3 times, for 3 different reasons
+🔤 Original: Michael Burry a.k.a. "Big Short",discloses $1.1B bet against Nvidia&amp;Palantir
 
-🔗 Read more: https://www.theregister.com/2025/11/04/google_cloud_suspended_customers_account/</description>
-      <guid isPermaLink="true">https://www.theregister.com/2025/11/04/google_cloud_suspended_customers_account/</guid>
-      <pubDate>Tue, 04 Nov 2025 14:48:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45811624</comments>
+🔗 Read more: https://sherwood.news/markets/michael-burry-big-short-discloses-1-1-billion-options-bet-against-nvidia-palantir-puts/</description>
+      <guid isPermaLink="true">https://sherwood.news/markets/michael-burry-big-short-discloses-1-1-billion-options-bet-against-nvidia-palantir-puts/</guid>
+      <pubDate>Tue, 04 Nov 2025 17:44:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45813734</comments>
     </item>
     <item>
-      <title>特斯拉的“机器人出租车”不断崩溃——即使船上有人类“安全监视器”</title>
-      <link>https://www.miamiherald.com/news/business/article312728957.html</link>
-      <guid isPermaLink="true">https://www.miamiherald.com/news/business/article312728957.html</guid>
-      <pubDate>Tue, 04 Nov 2025 14:48:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45811623</comments>
+      <title>Rust 基金会维护者基金</title>
+      <link>https://rustfoundation.org/media/announcing-the-rust-foundation-maintainers-fund/</link>
+      <description>📝 Rust 基金会维护者基金是我们通过正在进行的 Rust 项目合作透明地应对这一紧迫问题的承诺。为了实现这一使命，Rust 基金会维护者基金将直接投资于使 Rust 保持强大的人员和项目。 Rust 基金会维护者基金将在 Rust 项目和 Rust 基金会共享的治理框架内运作，确保各个层面的协调和监督。
+
+
+🔤 Original: The Rust Foundation Maintainers Fund
+
+🔗 Read more: https://rustfoundation.org/media/announcing-the-rust-foundation-maintainers-fund/</description>
+      <guid isPermaLink="true">https://rustfoundation.org/media/announcing-the-rust-foundation-maintainers-fund/</guid>
+      <pubDate>Tue, 04 Nov 2025 17:15:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45813417</comments>
+    </item>
+    <item>
+      <title>devtools 如何将缩小的 JS 代码映射回 TypeScript 源代码</title>
+      <link>https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals</link>
+      <description>📝 js:1:27698源图查找原始源位置src/index.js js:1:27698源图查找原始源位置src/index.js log(`Fibonacci(10) = ${result}`);现阶段没有源映射上一页下一页源映射文件格式源映射使用 JSON 格式，通常带有 .
+
+
+🔤 Original: How devtools map minified JS code back to your TypeScript source code
+
+🔗 Read more: https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals</description>
+      <guid isPermaLink="true">https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals</guid>
+      <pubDate>Tue, 04 Nov 2025 15:21:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45812000</comments>
+    </item>
+    <item>
+      <title>512KB 俱乐部</title>
+      <link>https://512kb.club/</link>
+      <description>📝 为什么任何网站都需要那么大。你真的需要那段额外的 JavaScript 吗？您的未压缩 Web 资源总量不得超过 512KB。
+
+
+🔤 Original: The 512KB Club
+
+🔗 Read more: https://512kb.club/</description>
+      <guid isPermaLink="true">https://512kb.club/</guid>
+      <pubDate>Tue, 04 Nov 2025 16:04:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45812499</comments>
+    </item>
+    <item>
+      <title>美国核武器试验可能会永远伤害一个国家。问问马绍尔岛就知道了</title>
+      <link>https://www.cnn.com/2025/11/04/asia/nuclear-testing-marshall-islands-legacy-intl-hnk-dst</link>
+      <description>📝 他了解核武器的工作原理吗？美国的核对手将如何反应。悲惨的核遗产 在马绍尔群岛，核试验的创伤仍然未愈合。
+
+
+🔤 Original: US nuclear weapons testing can forever scar a nation.Just ask Marshall Island
+
+🔗 Read more: https://www.cnn.com/2025/11/04/asia/nuclear-testing-marshall-islands-legacy-intl-hnk-dst</description>
+      <guid isPermaLink="true">https://www.cnn.com/2025/11/04/asia/nuclear-testing-marshall-islands-legacy-intl-hnk-dst</guid>
+      <pubDate>Tue, 04 Nov 2025 16:59:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45813195</comments>
+    </item>
+    <item>
+      <title>瑞典主要软件供应商的数据泄露影响了 150 万人</title>
+      <link>https://www.bleepingcomputer.com/news/security/data-breach-at-major-swedish-software-supplier-impacts-15-million/</link>
+      <description>📝 瑞典主要软件供应商的数据泄露影响 1. 数据泄露警报服务报告称，泄露的数据涉及 87 万人，大约是 IMY 提供的数据的一半。 1 月份数据泄露影响 200 万患者电子巨头安富利 (Avnet) 确认数据泄露，称被盗数据无法读取。
+
+
+🔤 Original: Data breach at major Swedish software supplier impacts 1.5M
+
+🔗 Read more: https://www.bleepingcomputer.com/news/security/data-breach-at-major-swedish-software-supplier-impacts-15-million/</description>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/data-breach-at-major-swedish-software-supplier-impacts-15-million/</guid>
+      <pubDate>Tue, 04 Nov 2025 16:54:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45813148</comments>
+    </item>
+    <item>
+      <title>由于 AI 引发的内存短缺冲击超大规模企业，服务器 DRAM 价格飙升 50%</title>
+      <link>https://www.tomshardware.com/pc-components/storage/server-dram-prices-surge-50-percent</link>
+      <description>📝 这导致 DDR5 零售价格攀升，且在年底前没有稳定的迹象。除非需求意外降温或收益率大幅提高，否则到 2026 年，除顶级买家之外的所有人的 DRAM 分配都将受到限制。 2 条评论 来自论坛的评论 这也导致台式机和笔记本电脑 DRAM 价格大幅上涨。
+
+
+🔤 Original: Server DRAM prices surge 50% as AI-induced memory shortage hits hyperscalers
+
+🔗 Read more: https://www.tomshardware.com/pc-components/storage/server-dram-prices-surge-50-percent</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/storage/server-dram-prices-surge-50-percent</guid>
+      <pubDate>Tue, 04 Nov 2025 15:55:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45812403</comments>
+    </item>
+    <item>
+      <title>YouTube 人工智能错误使创建者因涉嫌链接到日本帐户而损失了他的频道</title>
+      <link>https://piunikaweb.com/2025/11/04/youtube-ai-error-terminates-enderman-channel/</link>
+      <guid isPermaLink="true">https://piunikaweb.com/2025/11/04/youtube-ai-error-terminates-enderman-channel/</guid>
+      <pubDate>Tue, 04 Nov 2025 16:36:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45812901</comments>
     </item>
   </channel>
 </rss>
