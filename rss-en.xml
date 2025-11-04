@@ -6,55 +6,65 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Nov 2025 09:23:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 12:44:04 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>You can't cURL a Border</title>
-      <link>https://drobinin.com/posts/you-cant-curl-a-border/</link>
-      <description>📝 Any government form that asked "where have you been. ¶ That twenty-minute panic before buying a flight comes from one basic problem: none of the systems that judge you will tell you your state. None of that is easily exposed.
+      <title>What Is a Manifold?</title>
+      <link>https://www.quantamagazine.org/what-is-a-manifold-20251103/</link>
+      <description>📝 Mathematicians call these shapes manifolds. Introduced by Bernhard Riemann in the mid-19th century, manifolds transformed how mathematicians think about space. A concept that would change how mathematicians view space.
 
-🔗 Read more: https://drobinin.com/posts/you-cant-curl-a-border/</description>
-      <guid isPermaLink="true">https://drobinin.com/posts/you-cant-curl-a-border/</guid>
-      <pubDate>Tue, 04 Nov 2025 00:37:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45806263</comments>
+🔗 Read more: https://www.quantamagazine.org/what-is-a-manifold-20251103/</description>
+      <guid isPermaLink="true">https://www.quantamagazine.org/what-is-a-manifold-20251103/</guid>
+      <pubDate>Tue, 04 Nov 2025 09:58:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45809193</comments>
     </item>
     <item>
-      <title>Lessons from 70 interviews on deploying AI Agents in production</title>
-      <link>https://mmc.vc/research/state-of-agentic-ai-founders-edition/</link>
-      <description>📝 As the ecosystem is in such nascent stages, most (52%) startups are building their agentic infrastructure fully or predominantly in-house. Autonomy: AI agents act independently without needing constant inputs/instructions from humans; they make decisions and take actions (via tool calling) based on the changing world around them. Given the nascence of GenAI-powered agents and assorted reliability issues around them (and enterprise practitioners’ caution around deploying fully autonomous systems), our definition of agents does not require full autonomy.
+      <title>This Month in Ladybird – October 2025</title>
+      <link>https://ladybird.org/newsletter/2025-10-31/</link>
+      <description>📝 This month, we’re excited to welcome the following new sponsors: Axeptio with $10,000 (their announcement) Gravwell with $5,000 We’re incredibly grateful for their support. Performance work We’ve made a number of performance improvements this month. evaluate was added this month.
 
-🔗 Read more: https://mmc.vc/research/state-of-agentic-ai-founders-edition/</description>
-      <guid isPermaLink="true">https://mmc.vc/research/state-of-agentic-ai-founders-edition/</guid>
-      <pubDate>Tue, 04 Nov 2025 07:26:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45808308</comments>
+🔗 Read more: https://ladybird.org/newsletter/2025-10-31/</description>
+      <guid isPermaLink="true">https://ladybird.org/newsletter/2025-10-31/</guid>
+      <pubDate>Tue, 04 Nov 2025 11:52:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45809897</comments>
     </item>
     <item>
-      <title>Some software bloat is OK</title>
-      <link>https://waspdev.com/articles/2025-11-04/some-software-bloat-is-ok</link>
-      <description>📝 Windows 11 Calculator alone consumes more than 30MiB of RAM. Modern software tends to be more complicated. This didn't exist much in older era software.
+      <title>Studio Ghibli, Bandai Namco, Square Enix Demand OpenAI to Stop Using Their IP</title>
+      <link>https://www.theverge.com/news/812545/coda-studio-ghibli-sora-2-copyright-infringement</link>
+      <description>📝 NewsAIEntertainmentStudio Ghibli, Bandai Namco, Square Enix demand OpenAI stop using their content to train AI﻿Japanese trade association CODA says Sora 2’s opt-out policy may have violated copyright law. ﻿Japanese trade association CODA says Sora 2’s opt-out policy may have violated copyright law. The Content Overseas Distribution Association (CODA), an anti-piracy organization representing Japanese IP holders like Studio Ghibli and Bandai Namco, released a letter last week asking OpenAI to stop using its members’ content to train Sora 2, as reported by Automaton.
 
-🔗 Read more: https://waspdev.com/articles/2025-11-04/some-software-bloat-is-ok</description>
-      <guid isPermaLink="true">https://waspdev.com/articles/2025-11-04/some-software-bloat-is-ok</guid>
-      <pubDate>Tue, 04 Nov 2025 08:27:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45808690</comments>
+🔗 Read more: https://www.theverge.com/news/812545/coda-studio-ghibli-sora-2-copyright-infringement</description>
+      <guid isPermaLink="true">https://www.theverge.com/news/812545/coda-studio-ghibli-sora-2-copyright-infringement</guid>
+      <pubDate>Tue, 04 Nov 2025 11:47:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45809876</comments>
     </item>
     <item>
-      <title>Pain Points of OCaml</title>
-      <link>https://quamserena.com/2025-11-03/pain-points-of-ocaml</link>
-      <description>📝 I think that Rust was definitely correct for making type annotations for function parameters and return values explicit despite also being based on Hindley-Milner type inference. My gripe with these is that they are two DSLs that opaquely compile to OCaml source files and have their own (separate) semantics and grammar. They also emit errors where the entire diagnostic is just "Syntax Error", which is difficult to debug considering that these are DSLs with OCaml embedded within them.
+      <title>Bloom filters are good for search that does not scale</title>
+      <link>https://notpeerreviewed.com/blog/bloom-filters/</link>
+      <description>📝 At each branch node, we construct an aggregate filter that encodes all documents that are reachable from the branch. the filter for document 6-10, we can discard that entire branch of the tree for this query. For our seach index that means that even when using this tree, we would still need to search almost every document for every query.
 
-🔗 Read more: https://quamserena.com/2025-11-03/pain-points-of-ocaml</description>
-      <guid isPermaLink="true">https://quamserena.com/2025-11-03/pain-points-of-ocaml</guid>
-      <pubDate>Tue, 04 Nov 2025 05:41:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45807735</comments>
+🔗 Read more: https://notpeerreviewed.com/blog/bloom-filters/</description>
+      <guid isPermaLink="true">https://notpeerreviewed.com/blog/bloom-filters/</guid>
+      <pubDate>Tue, 04 Nov 2025 09:25:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45808998</comments>
     </item>
     <item>
-      <title>Show HN: MyTimers.app offline-first PWA with no build step and zero dependencies</title>
-      <link>https://mytimers.app/</link>
-      <guid isPermaLink="true">https://mytimers.app/</guid>
-      <pubDate>Tue, 04 Nov 2025 04:46:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45807502</comments>
+      <title>Show HN: Yourshoesmells.com – Find the most smelly boulder gym</title>
+      <link>https://yourshoesmells.com</link>
+      <description>📝 Your Shoe Smells 💨 Stinky ✨ Login 💨 TOP 5 Stink 💨 Top 5 Stinky Gyms 💨 Top 5 Stinky Gyms 💡 Request a feature Feedback ☕ Buy me a coffee Support 🔒 Register / Login ✕ Username Letters, numbers, underscores, or hyphens only; 3-20 characters Password at least 6 characters Register 🌍 Farthest Gym Calculating. 🏋️ Gyms Visited Loading. 📍 Gyms by Region Loading chart.
+
+🔗 Read more: https://yourshoesmells.com</description>
+      <guid isPermaLink="true">https://yourshoesmells.com</guid>
+      <pubDate>Tue, 04 Nov 2025 09:11:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45808918</comments>
+    </item>
+    <item>
+      <title>Former US Vice-President Cheney Dies</title>
+      <link>https://www.reuters.com/world/us/former-us-vp-dick-cheney-dead-84-punchbowl-news-says-2025-11-04/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/us/former-us-vp-dick-cheney-dead-84-punchbowl-news-says-2025-11-04/</guid>
+      <pubDate>Tue, 04 Nov 2025 11:56:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45809932</comments>
     </item>
   </channel>
 </rss>
