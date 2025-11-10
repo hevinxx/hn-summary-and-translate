@@ -6,94 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Nov 2025 01:30:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 03:52:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>下班后工作：一位失业的应届毕业生目睹就业市场崩溃的笔记</title>
-      <link>https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/</link>
-      <description>📝 我跟随了正确的人。这种缓慢的压力很重要。经合组织的数据显示，与更多依赖社交技能或身体存在的职业相比，那些具有更多常规、可编码任务的职业增长幅度较小，薪资也较低。
+      <title>开源项目中 LLM 产生的问题日益严重</title>
+      <link>https://github.com/opencontainers/runc/issues/4990</link>
+      <description>📝 我个人的观点是我们不应该接受任何 LLM 生成的东西，但这可能不是大多数 @opencontainers/runc-maintainers 的共同立场，所以我们应该单独考虑 LLM 生成的代码和问题。恕我直言，我们应该将所有 LLM 生成的问题作为垃圾邮件关闭，因为即使它们描述的是真正的问题，整个问题描述也包含很多不需要的（并且可能不正确）信息，如果他们只是将 LLM 提示作为问题提供，那就更好了。 ，他们了解补丁的作用并且能够自己编写代码）。
 
 
-🔤 Original: Work After Work: Notes from an Unemployed New Grad Watching the Job Market Break
+🔤 Original: Open source has a growing problem with LLM generated issues
 
-🔗 Read more: https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/</description>
-      <guid isPermaLink="true">https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/</guid>
-      <pubDate>Mon, 10 Nov 2025 00:43:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45870863</comments>
+🔗 Read more: https://github.com/opencontainers/runc/issues/4990</description>
+      <guid isPermaLink="true">https://github.com/opencontainers/runc/issues/4990</guid>
+      <pubDate>Mon, 10 Nov 2025 02:10:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45871531</comments>
     </item>
     <item>
-      <title>问 HN：您在做什么？ （2025 年 11 月）</title>
-      <link>https://news.ycombinator.com/item?id=45869146</link>
-      <description>📝 希望得到其他建设者的反馈。希望得到其他建设者的反馈。希望得到其他建设者的反馈。
+      <title>Itiner-e：罗马道路的谷歌地图</title>
+      <link>https://itiner-e.org/</link>
+      <description>📝 欢迎来到 Itiner-e – 古代道路数字地图集 Itiner-e 旨在托管整个罗马帝国最详细的开放道路数字数据集。数据创建是一个由学术界编辑的正在进行的协作项目。 Itiner-e允许您查看、查询和下载道路。
 
 
-🔤 Original: Ask HN: What Are You Working On? (Nov 2025)
+🔤 Original: Itiner-e: the Google Maps of Roman Roads
 
-🔗 Read more: https://news.ycombinator.com/item?id=45869146</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45869146</guid>
-      <pubDate>Sun, 09 Nov 2025 21:02:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45869146</comments>
+🔗 Read more: https://itiner-e.org/</description>
+      <guid isPermaLink="true">https://itiner-e.org/</guid>
+      <pubDate>Sun, 09 Nov 2025 09:46:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45864341</comments>
     </item>
     <item>
-      <title>近视流行中如何保持良好视力</title>
-      <link>https://ssathe.substack.com/p/vision-in-the-digital-age</link>
-      <guid isPermaLink="true">https://ssathe.substack.com/p/vision-in-the-digital-age</guid>
-      <pubDate>Mon, 10 Nov 2025 01:20:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45871107</comments>
-    </item>
-    <item>
-      <title>我的 Git 历史记录是一团乱七八糟的“更新”和“修复”——所以我让 AI 来清理它</title>
-      <link>https://github.com/f/git-rewrite-commits</link>
-      <description>📝 $ npx git-rewrite-commits 使用 GPT 的 AI 驱动的 git 提交消息重写器 使用 AI 使用更好的传统提交消息自动重写整个 git 提交历史记录。 git/hooks/post-commit 自动改进您的最后提交消息：#。 /bin/sh # 在推送之前清理最后 5 个提交 echo "🔧 在推送之前改进提交消息。
-
-
-🔤 Original: My Git history was a mess of 'update' and 'fix' – so I made AI clean it up
-
-🔗 Read more: https://github.com/f/git-rewrite-commits</description>
-      <guid isPermaLink="true">https://github.com/f/git-rewrite-commits</guid>
-      <pubDate>Mon, 10 Nov 2025 01:17:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45871084</comments>
-    </item>
-    <item>
-      <title>水危机袭击德黑兰，伊朗面临前所未有的干旱</title>
-      <link>https://www.bbc.com/news/articles/cy4p2yzmem0o</link>
-      <description>📝 随着危机的加深，官员们恳求公民节约用水。 “有些晚上我们可能会将水流量减少到零，”他说。 “人们早就预见到的伊朗水危机已经酝酿了几十年。
-
-
-🔤 Original: Iran faces unprecedented drought as water crisis hits Tehran
-
-🔗 Read more: https://www.bbc.com/news/articles/cy4p2yzmem0o</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cy4p2yzmem0o</guid>
-      <pubDate>Mon, 10 Nov 2025 01:11:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45871043</comments>
-    </item>
-    <item>
-      <title>Show HN：DroidDock – 一款时尚的 macOS 应用，用于通过 ADB 浏览 Android 设备文件</title>
-      <link>https://rajivm1991.github.io/DroidDock/</link>
-      <description>📝 DroidDock 在 macOS 上浏览 Android 文件，风格美观，原生 macOS 应用程序，用于通过 ADB 浏览和管理 Android 设备文件。快速、直观且强大。 📦 下载 macOS ⭐ 在 GitHub 版本 0 上查看。
-
-
-🔤 Original: Show HN: DroidDock – A sleek macOS app for browsing Android device files via ADB
-
-🔗 Read more: https://rajivm1991.github.io/DroidDock/</description>
-      <guid isPermaLink="true">https://rajivm1991.github.io/DroidDock/</guid>
-      <pubDate>Mon, 10 Nov 2025 00:51:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45870925</comments>
-    </item>
-    <item>
-      <title>如果你不活跃，你就生病了——只是你还不知道而已</title>
-      <link>https://howardluksmd.substack.com/p/if-youre-not-active-youre-sick-you</link>
-      <guid isPermaLink="true">https://howardluksmd.substack.com/p/if-youre-not-active-youre-sick-you</guid>
-      <pubDate>Sun, 09 Nov 2025 21:56:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45869587</comments>
-    </item>
-    <item>
-      <title>被任天堂起诉</title>
-      <link>https://www.suedbynintendo.com/</link>
-      <guid isPermaLink="true">https://www.suedbynintendo.com/</guid>
-      <pubDate>Mon, 10 Nov 2025 00:13:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45870675</comments>
+      <title>Show HN：Trilogy Studio，基于浏览器的开源 SQL 编辑器和可视化工具</title>
+      <link>https://trilogydata.dev/trilogy-studio-core/#screen=dashboard-import&amp;import=https%3A%2F%2Ftrilogy-data.github.io%2Ftrilogy-public-models%2Fstudio%2Fdemo-model.json&amp;dashboard=demo_dashboard&amp;modelName=demo-model&amp;connection=duckdb</link>
+      <guid isPermaLink="true">https://trilogydata.dev/trilogy-studio-core/#screen=dashboard-import&amp;import=https%3A%2F%2Ftrilogy-data.github.io%2Ftrilogy-public-models%2Fstudio%2Fdemo-model.json&amp;dashboard=demo_dashboard&amp;modelName=demo-model&amp;connection=duckdb</guid>
+      <pubDate>Sun, 09 Nov 2025 23:26:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45870334</comments>
     </item>
   </channel>
 </rss>

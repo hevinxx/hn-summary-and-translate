@@ -6,94 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Nov 2025 01:30:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 03:52:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>仕事の後の仕事: 就職市場の崩壊を目の当たりにした新卒失業者のメモ</title>
-      <link>https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/</link>
-      <description>📝 適切な人をフォローしました。このゆっくりとした圧力が重要です。 OECDのデータによると、定型化できる定型的な業務が多い職業は、社会的スキルや物理的存在に依存する職業に比べて成長が鈍く、賃金も低いことが示されている。
+      <title>オープンソースでは、LLM によって生成される問題が深刻化しています</title>
+      <link>https://github.com/opencontainers/runc/issues/4990</link>
+      <description>📝 私の個人的な意見は、LLM で生成されたものは何も受け入れるべきではないということですが、これはおそらくほとんどの @opencontainers/runc-maintainers の一般的な立場ではないため、おそらく LLM で生成されたコードと問題を別々に検討する必要があります。私見ですが、LLM が生成した問題はすべてスパムとして閉じるべきです。たとえ実際の問題について説明しているとしても、問題の説明全体に不必要な (そしておそらくは間違った) 情報が非常に多く含まれているため、問題として LLM プロンプトを提供するだけの方がよいでしょう。 、彼らはパッチが何をするのかを理解しており、自分でコードを書くことができました）。
 
 
-🔤 Original: Work After Work: Notes from an Unemployed New Grad Watching the Job Market Break
+🔤 Original: Open source has a growing problem with LLM generated issues
 
-🔗 Read more: https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/</description>
-      <guid isPermaLink="true">https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/</guid>
-      <pubDate>Mon, 10 Nov 2025 00:43:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45870863</comments>
+🔗 Read more: https://github.com/opencontainers/runc/issues/4990</description>
+      <guid isPermaLink="true">https://github.com/opencontainers/runc/issues/4990</guid>
+      <pubDate>Mon, 10 Nov 2025 02:10:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45871531</comments>
     </item>
     <item>
-      <title>HN に質問してください。何に取り組んでいますか? (2025年11月)</title>
-      <link>https://news.ycombinator.com/item?id=45869146</link>
-      <description>📝 ビルダー仲間からのフィードバックをお待ちしています。ビルダー仲間からのフィードバックをお待ちしています。ビルダー仲間からのフィードバックをお待ちしています。
+      <title>Itiner-e: ローマ街道の Google マップ</title>
+      <link>https://itiner-e.org/</link>
+      <description>📝 Itiner-e へようこそ – 古代道路のデジタル アトラス Itiner-e は、ローマ帝国全体の道路に関する最も詳細なオープン デジタル データセットをホストすることを目的としています。データの作成は、学術コミュニティによって編集され、共同で進行中のプロジェクトです。 Itiner-e を使用すると、道路を表示、クエリ、ダウンロードできます。
 
 
-🔤 Original: Ask HN: What Are You Working On? (Nov 2025)
+🔤 Original: Itiner-e: the Google Maps of Roman Roads
 
-🔗 Read more: https://news.ycombinator.com/item?id=45869146</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45869146</guid>
-      <pubDate>Sun, 09 Nov 2025 21:02:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45869146</comments>
+🔗 Read more: https://itiner-e.org/</description>
+      <guid isPermaLink="true">https://itiner-e.org/</guid>
+      <pubDate>Sun, 09 Nov 2025 09:46:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45864341</comments>
     </item>
     <item>
-      <title>近視の蔓延の中で良好な視力を維持する方法</title>
-      <link>https://ssathe.substack.com/p/vision-in-the-digital-age</link>
-      <guid isPermaLink="true">https://ssathe.substack.com/p/vision-in-the-digital-age</guid>
-      <pubDate>Mon, 10 Nov 2025 01:20:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45871107</comments>
-    </item>
-    <item>
-      <title>私の Git 履歴は「更新」と「修正」でごちゃ混ぜだったので、AI にクリーンアップさせました</title>
-      <link>https://github.com/f/git-rewrite-commits</link>
-      <description>📝 $ npx git-rewrite-commits GPT を使用した AI を活用した git コミット メッセージ リライター AI を使用して、git コミット履歴全体をより優れた従来のコミット メッセージに自動的に書き換えます。 git/hooks/post-commit を使用して、最後のコミット メッセージを自動的に改善します: #. /bin/sh # プッシュする前に最後の 5 つのコミットをクリーンアップする echo "🔧 プッシュする前のコミット メッセージを改善します。
-
-
-🔤 Original: My Git history was a mess of 'update' and 'fix' – so I made AI clean it up
-
-🔗 Read more: https://github.com/f/git-rewrite-commits</description>
-      <guid isPermaLink="true">https://github.com/f/git-rewrite-commits</guid>
-      <pubDate>Mon, 10 Nov 2025 01:17:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45871084</comments>
-    </item>
-    <item>
-      <title>テヘランを水危機が襲い、イランは前例のない干ばつに直面</title>
-      <link>https://www.bbc.com/news/articles/cy4p2yzmem0o</link>
-      <description>📝 危機が深まる中、当局は水を節約するよう国民に訴えている。 「夜によっては水の流量をゼロにするかもしれない」と彼は言う。 「イランの水危機は何十年も前から予見されていた危機だ。
-
-
-🔤 Original: Iran faces unprecedented drought as water crisis hits Tehran
-
-🔗 Read more: https://www.bbc.com/news/articles/cy4p2yzmem0o</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cy4p2yzmem0o</guid>
-      <pubDate>Mon, 10 Nov 2025 01:11:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45871043</comments>
-    </item>
-    <item>
-      <title>HN を表示: DroidDock – ADB 経由で Android デバイス ファイルを参照するための洗練された macOS アプリ</title>
-      <link>https://rajivm1991.github.io/DroidDock/</link>
-      <description>📝 DroidDock macOS 上で Android ファイルをスタイリッシュに参照 ADB 経由で Android デバイス ファイルを参照および管理するための美しいネイティブ macOS アプリケーション。高速、直感的、そして強力です。 📦 macOS 用にダウンロード ⭐ GitHub バージョン 0 で表示します。
-
-
-🔤 Original: Show HN: DroidDock – A sleek macOS app for browsing Android device files via ADB
-
-🔗 Read more: https://rajivm1991.github.io/DroidDock/</description>
-      <guid isPermaLink="true">https://rajivm1991.github.io/DroidDock/</guid>
-      <pubDate>Mon, 10 Nov 2025 00:51:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45870925</comments>
-    </item>
-    <item>
-      <title>活動的でないなら、あなたは病気です - あなたはまだそれに気づいていないだけです</title>
-      <link>https://howardluksmd.substack.com/p/if-youre-not-active-youre-sick-you</link>
-      <guid isPermaLink="true">https://howardluksmd.substack.com/p/if-youre-not-active-youre-sick-you</guid>
-      <pubDate>Sun, 09 Nov 2025 21:56:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45869587</comments>
-    </item>
-    <item>
-      <title>任天堂に訴えられる</title>
-      <link>https://www.suedbynintendo.com/</link>
-      <guid isPermaLink="true">https://www.suedbynintendo.com/</guid>
-      <pubDate>Mon, 10 Nov 2025 00:13:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45870675</comments>
+      <title>Show HN: Trilogy Studio、オープンソースのブラウザベースの SQL エディターおよびビジュアライザー</title>
+      <link>https://trilogydata.dev/trilogy-studio-core/#screen=dashboard-import&amp;import=https%3A%2F%2Ftrilogy-data.github.io%2Ftrilogy-public-models%2Fstudio%2Fdemo-model.json&amp;dashboard=demo_dashboard&amp;modelName=demo-model&amp;connection=duckdb</link>
+      <guid isPermaLink="true">https://trilogydata.dev/trilogy-studio-core/#screen=dashboard-import&amp;import=https%3A%2F%2Ftrilogy-data.github.io%2Ftrilogy-public-models%2Fstudio%2Fdemo-model.json&amp;dashboard=demo_dashboard&amp;modelName=demo-model&amp;connection=duckdb</guid>
+      <pubDate>Sun, 09 Nov 2025 23:26:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45870334</comments>
     </item>
   </channel>
 </rss>
