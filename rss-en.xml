@@ -6,142 +6,108 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Nov 2025 18:30:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 21:20:19 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Unexpected things that are people</title>
-      <link>https://bengoldhaber.substack.com/p/unexpected-things-that-are-people</link>
-      <guid isPermaLink="true">https://bengoldhaber.substack.com/p/unexpected-things-that-are-people</guid>
-      <pubDate>Mon, 10 Nov 2025 16:05:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877257</comments>
+      <title>The lazy Git UI you didn't know you need</title>
+      <link>https://www.bwplotka.dev/2025/lazygit/</link>
+      <description>📝 What we can all learn from lazygit around designing incredible software with seamless UX. Other projects add more magic (e. What’s amazing in lazygit.
+
+🔗 Read more: https://www.bwplotka.dev/2025/lazygit/</description>
+      <guid isPermaLink="true">https://www.bwplotka.dev/2025/lazygit/</guid>
+      <pubDate>Mon, 10 Nov 2025 17:50:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878578</comments>
     </item>
     <item>
-      <title>Asus Ascent GX10</title>
-      <link>https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</link>
-      <description>📝 ASUS Ascent GX10 Overview Tech Specs Support ASUS Ascent GX10 Compact Desktop AI Supercomputer, powered by the NVIDIA® GB10 Grace Blackwell Superchip and NVIDIA DGX™ Spark. Extreme AI Performance: Powered by NVIDIA® GB10 Grace Blackwell Superchip delivering 1 petaFLOP of AI performance and 128GB memory for 200B model fine-tuning. NVIDIA® GB10 Grace Blackwell Superchip NVIDIA® Blackwell GPU128 GB Unified memory QuietFlow Cooling Three fans &amp; dual Vapor Chamber Support up to Five 4K Displays NVIDIA DLSS 4 Supreme Speed.
+      <title>Vibe Code Warning – A personal casestudy</title>
+      <link>https://github.com/jackdoe/pico2-swd-riscv</link>
+      <description>📝 After about 3-4k lines of code I completely lost track of what is going on, and I woudn't consider this code that I have written, but adding more and more tests felt "nice", or at least reassuring. In this case it happened when the code grew about 4x, from 1k to 4k lines. When reading human code the symbols have a purpose, someone thought "I will put this in a variable, later I will check its status.
 
-🔗 Read more: https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</description>
-      <guid isPermaLink="true">https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:56:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877149</comments>
+🔗 Read more: https://github.com/jackdoe/pico2-swd-riscv</description>
+      <guid isPermaLink="true">https://github.com/jackdoe/pico2-swd-riscv</guid>
+      <pubDate>Mon, 10 Nov 2025 11:45:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45874987</comments>
+    </item>
+    <item>
+      <title>Memory Safety for Skeptics</title>
+      <link>https://queue.acm.org/detail.cfm?id=3773095</link>
+      <description>📝 Rust, more than just promising memory safety, was demonstrably translating safety guarantees into practical improvements in software security. The benefits, supporters argue, are clear: comparable performance, modern tooling, and memory safety. Reflexive rejection of a move to memory safety is misguided, especially when the benefits of memory safety can be achieved in a cost- and schedule-efficient way.
+
+🔗 Read more: https://queue.acm.org/detail.cfm?id=3773095</description>
+      <guid isPermaLink="true">https://queue.acm.org/detail.cfm?id=3773095</guid>
+      <pubDate>Mon, 10 Nov 2025 18:23:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879012</comments>
+    </item>
+    <item>
+      <title>Error ABI</title>
+      <link>https://matklad.github.io/2025/11/09/error-ABI.html</link>
+      <description>📝 A follow-up on the “strongly typed error codes” article. Error virality is key here — just a single large error on however rare code path leads to worse code everywhere. Conclusion Your error ABI probably wants to be special, so the compiler needs to know about errors.
+
+🔗 Read more: https://matklad.github.io/2025/11/09/error-ABI.html</description>
+      <guid isPermaLink="true">https://matklad.github.io/2025/11/09/error-ABI.html</guid>
+      <pubDate>Mon, 10 Nov 2025 02:31:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45871688</comments>
+    </item>
+    <item>
+      <title>Head in the Zed Cloud</title>
+      <link>https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</link>
+      <description>📝 Why Cloudflare Workers. At the heart of this framework is the Platform trait:pub trait Platform: Sized + Clone + 'static { type Cache: cache::Cache; type Clock: Clock; type KvStore: KvStore&lt;Self&gt;; type ServiceBinding: Fetcher&lt;Self&gt;; type DurableObjectNamespace: durable_object::DurableObjectNamespace&lt;Self&gt;; type DurableObjectStub: durable_object::DurableObjectStub&lt;Self&gt;; type DurableObjectState: durable_object::DurableObjectState&lt;Self&gt;; type RateLimiter: rate_limiter::RateLimiter&lt;Self&gt;; type SqlStorage: sql::SqlStorage; type PostgresConnection&lt;T&gt;: postgres::PostgresConnection&lt;Self, T&gt;; type PostgresTransaction&lt;T&gt;: postgres::PostgresTransaction&lt;Self, T&gt;; type ExecutionContext: ExecutionContext + Clone + Unpin; type Environment: Environment&lt;Self&gt; + Clone + Unpin; type ClientWebSocket: websocket::ClientWebSocket; type ServerWebSocket: websocket::ServerWebSocket&lt;Self&gt;; type WebSocketReceiver: websocket::WebSocketReceiver; type WebSocketSender: websocket::WebSocketSender; type HttpClient: http_client::HttpClient&lt;Platform = Self&gt;; type Queue&lt;T: Serialize + 'static&gt;: queue::Queue&lt;Self, T&gt;; type RawQueueMessageBatch: queue::RawQueueMessageBatch&lt;Self&gt;; type QueueMessageBatch&lt;T: DeserializeOwned + 'static&gt;: queue::QueueMessageBatch&lt;Self, T&gt;; type QueueMessage&lt;T: DeserializeOwned + 'static&gt;: queue::QueueMessage&lt;Self, T&gt;; type Rng: Clone + RngCore; fn websocket_pair() -&gt; Result&lt;(Self::ClientWebSocket, Self::ServerWebSocket)&gt;; } This trait allows us to write our code in a platform-agnostic way while still leveraging all of the functionality that Cloudflare Workers has to offer. We have a cloudflare_bindings crate2 that contains wasm_bindgen bindings to the Cloudflare Workers JS runtime.
+
+🔗 Read more: https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</description>
+      <guid isPermaLink="true">https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</guid>
+      <pubDate>Mon, 10 Nov 2025 14:23:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45876308</comments>
     </item>
     <item>
       <title>Launch HN: Hypercubic (YC F25) – AI for COBOL and Mainframes</title>
-      <link>https://www.hypercubic.ai/</link>
-      <description>📝 Mainframes and COBOL from the 1960s. Hypercubic uses AI to understand complex mainframe systems and preserve the human expertise behind them — making every line of legacy code that runs the world understandable and future-proof.
+      <link>https://news.ycombinator.com/item?id=45877517</link>
+      <description>📝 Hypercubic is an AI platform that helps Fortune 500 companies understand, preserve, and modernize their mainframe systems. These are the systems that run COBOL from the 1960s that still quietly power banking, insurance, airlines, and governments today. HyperDocs ingests that code and reconstructs it into readable, living documentation that shows how the black box system works.
 
-🔗 Read more: https://www.hypercubic.ai/</description>
-      <guid isPermaLink="true">https://www.hypercubic.ai/</guid>
+🔗 Read more: https://news.ycombinator.com/item?id=45877517</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45877517</guid>
       <pubDate>Mon, 10 Nov 2025 16:23:24 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=45877517</comments>
     </item>
     <item>
-      <title>Benchmarking leading AI agents against Google reCAPTCHA v2</title>
-      <link>https://research.roundtable.ai/captcha-benchmarking/</link>
-      <description>📝 In general, all models performed best on Static challenges and worst on Cross-tile challenges. Compared to Static challenges, all models performed worse on Reload and Cross-tile challenges. More reasoning isn't always better.
+      <title>Omnilingual ASR: Advancing automatic speech recognition for 1600 languages</title>
+      <link>https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</link>
+      <description>📝 Automatic speech recognition (ASR) systems aim to make spoken language universally accessible by transcribing speech into text that can be searched, analyzed, and shared. We’re also open sourcing Omnilingual wav2vec 2. Our general-purpose speech foundation model wav2vec 2.
 
-🔗 Read more: https://research.roundtable.ai/captcha-benchmarking/</description>
-      <guid isPermaLink="true">https://research.roundtable.ai/captcha-benchmarking/</guid>
-      <pubDate>Mon, 10 Nov 2025 16:38:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877698</comments>
+🔗 Read more: https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</description>
+      <guid isPermaLink="true">https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</guid>
+      <pubDate>Mon, 10 Nov 2025 18:10:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878826</comments>
     </item>
     <item>
-      <title>Cops Can Get Your Private Online Data</title>
-      <link>https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</link>
-      <description>📝 Español Can the cops get your online data. They can even outright buy information from online data brokers. This can cover any private information your service provider can access.
+      <title>Redmond, WA, turns off Flock Safety cameras after ICE arrests</title>
+      <link>https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</link>
+      <description>📝 The city suspended its Flock system because city officials could not guarantee they wouldn’t be forced to release data collected by those devices someday, she said. Their concerns may have been prescient. Police officials in Renton, Auburn, Mukilteo and Lakewood, Pierce County, changed their Flock settings after the UW report showed federal agencies had accessed their Flock data.
 
-🔗 Read more: https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</guid>
-      <pubDate>Mon, 10 Nov 2025 16:01:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877206</comments>
+🔗 Read more: https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</description>
+      <guid isPermaLink="true">https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</guid>
+      <pubDate>Mon, 10 Nov 2025 18:30:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879101</comments>
     </item>
     <item>
-      <title>LLMs are steroids for your Dunning-Kruger</title>
-      <link>https://bytesauna.com/post/dunning-kruger</link>
-      <description>📝 Even when I acknowledge this illusion, I can’t help chasing the wonderful feeling of conviction these models give. This summarizes my experience. It’s getting even comical sometimes.
+      <title>European Commission plans “digital omnibus” package to simplify its tech laws</title>
+      <link>https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</link>
+      <description>📝 “The Commission should be fully aware that this is undermining European standards dramatically. European privacy regulators have already been spoiling Big Tech's AI party in recent years. Advertisement In past months, Commission officials have sought to preempt worries that it was overhauling the privacy rulebook.
 
-🔗 Read more: https://bytesauna.com/post/dunning-kruger</description>
-      <guid isPermaLink="true">https://bytesauna.com/post/dunning-kruger</guid>
-      <pubDate>Mon, 10 Nov 2025 15:14:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876744</comments>
+🔗 Read more: https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</guid>
+      <pubDate>Mon, 10 Nov 2025 17:29:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878311</comments>
     </item>
     <item>
-      <title>Time to start de-Appling</title>
-      <link>https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</link>
-      <description>📝 So what does that mean for you. Again, from their September update: Withdrawing Advanced Data Protection from the UK will not affect the 15 iCloud data categories that are end-to-end encrypted by default. Data like iCloud Keychain and Health remains protected with full end-to-end encryption.
+      <title>Using Generative AI in Content Production</title>
+      <link>https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</link>
+      <description>📝 What should we consider before using GenAI for talent enhancement. What use cases always require written approval. Data Use Protecting personal data and creative rights is essential when working with GenAI.
 
-🔗 Read more: https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</description>
-      <guid isPermaLink="true">https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</guid>
-      <pubDate>Mon, 10 Nov 2025 14:57:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876598</comments>
-    </item>
-    <item>
-      <title>Games Preservation Is Hard and Sometimes Involves Private Detectives</title>
-      <link>https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</link>
-      <description>📝 A page of preserved games. ” It’s not just as simple as fixing issues with the games not launching, but more specific issues within. Sign me up Leave this field empty if you're human: You May Also Like CultureNews GOG’s Fall Sale Is Live And Includes Over 4,000 PC Games Classic games like Fallout 3, Dungeon Keeper 2, Theme Hospital, Medal of Honor, Tron 2.
-
-🔗 Read more: https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</description>
-      <guid isPermaLink="true">https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</guid>
-      <pubDate>Mon, 10 Nov 2025 15:48:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877060</comments>
-    </item>
-    <item>
-      <title>Zig and the design choices within</title>
-      <link>https://blueberrywren.dev/blog/on-zig/</link>
-      <description>📝 When writing code with others, that goes down. I have decided that that is not a constructive discussion of Zig. As a result, I am inclined to believe that Zig's comptime is a very large and all-encompassing feature that ultimately brings very little to the table that smaller features cannot.
-
-🔗 Read more: https://blueberrywren.dev/blog/on-zig/</description>
-      <guid isPermaLink="true">https://blueberrywren.dev/blog/on-zig/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:42:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876990</comments>
-    </item>
-    <item>
-      <title>Reminder to passengers ahead of move to 100% digital boarding passes</title>
-      <link>https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</link>
-      <description>📝 1 airline, today (Thurs, 6 Nov) reminded passengers that from Wed (12 Nov) it will move to 100% digital boarding passes. Alternative Flight Options: Real-time alternative flight options during disruption. More RYANAIR LAUNCHES PRAGUE – PAPHOS &amp; KOSICE ROUTES.
-
-🔗 Read more: https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</description>
-      <guid isPermaLink="true">https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:46:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877027</comments>
-    </item>
-    <item>
-      <title>Hacker News Headlines (game)</title>
-      <link>https://projects.peercy.net/projects/hn-oracle/index.html</link>
-      <description>📝 Hacker News Headlines Hacker News Headlines You'll see 5 headlines. Guess how many upvotes each received. Start Loading stories from Hacker News.
-
-🔗 Read more: https://projects.peercy.net/projects/hn-oracle/index.html</description>
-      <guid isPermaLink="true">https://projects.peercy.net/projects/hn-oracle/index.html</guid>
-      <pubDate>Mon, 10 Nov 2025 17:47:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45878545</comments>
-    </item>
-    <item>
-      <title>Multistable thin-shell metastructures for multiresponsive metabots</title>
-      <link>https://www.science.org/doi/10.1126/sciadv.adx4359</link>
-      <guid isPermaLink="true">https://www.science.org/doi/10.1126/sciadv.adx4359</guid>
-      <pubDate>Mon, 10 Nov 2025 14:01:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876098</comments>
-    </item>
-    <item>
-      <title>ClickHouse acquires LibreChat, open-source AI chat platform</title>
-      <link>https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</link>
-      <description>📝 Who is building agentic analytics already. The team at cBioPortal recently launched the chat-based cBioAgent that allows users to interact with genomics datasets in plain text (example interaction). Now that ClickHouse and LibreChat has joined forces will provide even more seamless interaction to our use case in building Agentic Analytics.
-
-🔗 Read more: https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</description>
-      <guid isPermaLink="true">https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</guid>
-      <pubDate>Mon, 10 Nov 2025 16:44:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877770</comments>
-    </item>
-    <item>
-      <title>Canadian military will rely on army of public servants to grow its ranks by 300k</title>
-      <link>https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</link>
-      <description>📝 Article contentArticle contentThe training focus would be on “basic skills (e. Article contentThe current reserve force would jump from 23,561 to 100,000 for the mobilization plan. Article contentArticle content“Defence will not acco.
-
-🔗 Read more: https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</description>
-      <guid isPermaLink="true">https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</guid>
-      <pubDate>Mon, 10 Nov 2025 16:55:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877892</comments>
+🔗 Read more: https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</description>
+      <guid isPermaLink="true">https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</guid>
+      <pubDate>Mon, 10 Nov 2025 19:28:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879793</comments>
     </item>
   </channel>
 </rss>

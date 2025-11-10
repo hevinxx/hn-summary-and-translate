@@ -6,178 +6,138 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Nov 2025 18:30:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 21:20:19 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>意想不到的事情是人们</title>
-      <link>https://bengoldhaber.substack.com/p/unexpected-things-that-are-people</link>
-      <guid isPermaLink="true">https://bengoldhaber.substack.com/p/unexpected-things-that-are-people</guid>
-      <pubDate>Mon, 10 Nov 2025 16:05:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877257</comments>
+      <title>您不知道自己需要的懒惰 Git UI</title>
+      <link>https://www.bwplotka.dev/2025/lazygit/</link>
+      <description>📝 我们都可以从lazygit 中学到如何设计具有无缝用户体验的令人难以置信的软件。其他项目增添了更多魔力（例如，lazygit 中的神奇之处。
+
+
+🔤 Original: The lazy Git UI you didn't know you need
+
+🔗 Read more: https://www.bwplotka.dev/2025/lazygit/</description>
+      <guid isPermaLink="true">https://www.bwplotka.dev/2025/lazygit/</guid>
+      <pubDate>Mon, 10 Nov 2025 17:50:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878578</comments>
     </item>
     <item>
-      <title>华硕Ascent GX10</title>
-      <link>https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</link>
-      <description>📝 ASUS Ascent GX10 概述技术规格支持 ASUS Ascent GX10 紧凑型桌面 AI 超级计算机，由 NVIDIA® GB10 Grace Blackwell Superchip 和 NVIDIA DGX™ Spark 提供支持。极致 AI 性能：由 NVIDIA® GB10 Grace Blackwell Superchip 提供支持，可提供 1 petaFLOP 的 AI 性能和用于 200B 模型微调的 128GB 内存。 NVIDIA® GB10 Grace Blackwell Superchip NVIDIA® Blackwell GPU128 GB 统一内存 QuietFlow 冷却 三个风扇和双均热板 支持多达五个 4K 显示器 NVIDIA DLSS 4 最高速度。
+      <title>Vibe 代码警告 – 个人案例研究</title>
+      <link>https://github.com/jackdoe/pico2-swd-riscv</link>
+      <description>📝 在大约 3-4k 行代码之后，我完全不知道发生了什么，并且我不会考虑我编写的这段代码，但添加越来越多的测试感觉“很好”，或者至少让人放心。在本例中，当代码增长约 4 倍（从 1k 行增加到 4k 行）时，就会发生这种情况。当阅读人类代码时，符号有一个目的，有人想“我将把它放在一个变量中，稍后我会检查它的状态。
 
 
-🔤 Original: Asus Ascent GX10
+🔤 Original: Vibe Code Warning – A personal casestudy
 
-🔗 Read more: https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</description>
-      <guid isPermaLink="true">https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:56:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877149</comments>
+🔗 Read more: https://github.com/jackdoe/pico2-swd-riscv</description>
+      <guid isPermaLink="true">https://github.com/jackdoe/pico2-swd-riscv</guid>
+      <pubDate>Mon, 10 Nov 2025 11:45:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45874987</comments>
+    </item>
+    <item>
+      <title>怀疑论者的内存安全</title>
+      <link>https://queue.acm.org/detail.cfm?id=3773095</link>
+      <description>📝 Rust 不仅承诺内存安全，而且明显将安全保证转化为软件安全的实际改进。支持者认为，其好处是显而易见的：可比较的性能、现代工具和内存安全。本能地拒绝转向内存安全是错误的，特别是当内存安全的好处可以通过成本和进度有效的方式实现时。
+
+
+🔤 Original: Memory Safety for Skeptics
+
+🔗 Read more: https://queue.acm.org/detail.cfm?id=3773095</description>
+      <guid isPermaLink="true">https://queue.acm.org/detail.cfm?id=3773095</guid>
+      <pubDate>Mon, 10 Nov 2025 18:23:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879012</comments>
+    </item>
+    <item>
+      <title>错误 ABI</title>
+      <link>https://matklad.github.io/2025/11/09/error-ABI.html</link>
+      <description>📝 “强类型错误代码”文章的后续内容。错误病毒式传播是这里的关键——无论多么罕见的代码路径上的一个大错误都会导致到处都是更糟糕的代码。结论 您的错误 ABI 可能想要特殊，因此编译器需要了解错误。
+
+
+🔤 Original: Error ABI
+
+🔗 Read more: https://matklad.github.io/2025/11/09/error-ABI.html</description>
+      <guid isPermaLink="true">https://matklad.github.io/2025/11/09/error-ABI.html</guid>
+      <pubDate>Mon, 10 Nov 2025 02:31:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45871688</comments>
+    </item>
+    <item>
+      <title>前往 Zed 云</title>
+      <link>https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</link>
+      <description>📝 为什么选择 Cloudflare Workers。这个框架的核心是 Platform Trait:pub Trait Platform: Sized + Clone + 'static { type Cache: cache::Cache;类型时钟：时钟；类型 KvStore: KvStore&lt;Self&gt;;类型 ServiceBinding: Fetcher&lt;Self&gt;;类型 DurableObjectNamespace: Durable_object::DurableObjectNamespace&lt;Self&gt;;类型 DurableObjectStub: Durable_object::DurableObjectStub&lt;Self&gt;;类型 DurableObjectState: Durable_object::DurableObjectState&lt;Self&gt;;类型 RateLimiter:rate_limiter::RateLimiter&lt;Self&gt;;类型 SqlStorage: sql::SqlStorage;类型 PostgresConnection&lt;T&gt;: postgres::PostgresConnection&lt;Self, T&gt;;类型 PostgresTransaction&lt;T&gt;: postgres::PostgresTransaction&lt;Self, T&gt;;类型 ExecutionContext：ExecutionContext + 克隆 + 取消固定；类型环境：环境&lt;Self&gt; + 克隆 + 取消固定；类型 ClientWebSocket: websocket::ClientWebSocket;类型 ServerWebSocket: websocket::ServerWebSocket&lt;Self&gt;;类型 WebSocketReceiver: websocket::WebSocketReceiver;类型 WebSocketSender: websocket::WebSocketSender;类型 HttpClient: http_client::HttpClient&lt;Platform = Self&gt;;类型 Queue&lt;T: Serialize + 'static&gt;: 队列::Queue&lt;Self, T&gt;;类型 RawQueueMessageBatch: 队列::RawQueueMessageBatch&lt;Self&gt;;类型 QueueMessageBatch&lt;T: DeserializeOwned + 'static&gt;: 队列::QueueMessageBatch&lt;Self, T&gt;;类型 QueueMessage&lt;T: DeserializeOwned + 'static&gt;: 队列::QueueMessage&lt;Self, T&gt;;类型 Rng：克隆 + RngCore； fn websocket_pair() -&gt; Result&lt;(Self::ClientWebSocket, Self::ServerWebSocket)&gt;;这一特性使我们能够以与平台无关的方式编写代码，同时仍然利用 Cloudflare Workers 提供的所有功能。我们有一个 cloudflare_bindings crate2，其中包含与 Cloudflare Workers JS 运行时的 wasm_bindgen 绑定。
+
+
+🔤 Original: Head in the Zed Cloud
+
+🔗 Read more: https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</description>
+      <guid isPermaLink="true">https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</guid>
+      <pubDate>Mon, 10 Nov 2025 14:23:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45876308</comments>
     </item>
     <item>
       <title>推出 HN：Hypercubic (YC F25) – 适用于 COBOL 和大型机的 AI</title>
-      <link>https://www.hypercubic.ai/</link>
-      <description>📝 20 世纪 60 年代的大型机和 COBOL。 Hypercubic 使用 AI 来理解复杂的大型机系统并保留其背后的人类专业知识 - 使运行世界的每一行遗留代码都易于理解且面向未来。
+      <link>https://news.ycombinator.com/item?id=45877517</link>
+      <description>📝 Hypercubic 是一个人工智能平台，可帮助财富 500 强公司了解、保存和现代化其大型机系统。这些系统自 20 世纪 60 年代起就运行 COBOL，至今仍在悄悄为银行、保险、航空公司和政府提供支持。 HyperDocs 提取该代码并将其重建为可读的、生动的文档，展示黑匣子系统的工作原理。
 
 
 🔤 Original: Launch HN: Hypercubic (YC F25) – AI for COBOL and Mainframes
 
-🔗 Read more: https://www.hypercubic.ai/</description>
-      <guid isPermaLink="true">https://www.hypercubic.ai/</guid>
+🔗 Read more: https://news.ycombinator.com/item?id=45877517</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45877517</guid>
       <pubDate>Mon, 10 Nov 2025 16:23:24 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=45877517</comments>
     </item>
     <item>
-      <title>针对 Google reCAPTCHA v2 对领先的 AI 代理进行基准测试</title>
-      <link>https://research.roundtable.ai/captcha-benchmarking/</link>
-      <description>📝 一般来说，所有模型在静态挑战中表现最好，在跨平铺挑战中表现最差。与静态挑战相比，所有模型在重新加载和跨平铺挑战中的表现都较差。更多的推理并不总是更好。
+      <title>全语言 ASR：推进 1600 种语言的自动语音识别</title>
+      <link>https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</link>
+      <description>📝 自动语音识别 (ASR) 系统旨在通过将语音转录为可搜索、分析和共享的文本，使口语变得普遍可用。我们还开源了全语言 wav2vec 2。我们的通用语音基础模型 wav2vec 2。
 
 
-🔤 Original: Benchmarking leading AI agents against Google reCAPTCHA v2
+🔤 Original: Omnilingual ASR: Advancing automatic speech recognition for 1600 languages
 
-🔗 Read more: https://research.roundtable.ai/captcha-benchmarking/</description>
-      <guid isPermaLink="true">https://research.roundtable.ai/captcha-benchmarking/</guid>
-      <pubDate>Mon, 10 Nov 2025 16:38:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877698</comments>
+🔗 Read more: https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</description>
+      <guid isPermaLink="true">https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</guid>
+      <pubDate>Mon, 10 Nov 2025 18:10:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878826</comments>
     </item>
     <item>
-      <title>警察可以获取您的私人在线数据</title>
-      <link>https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</link>
-      <description>📝 警察可以获取您的在线数据吗？他们甚至可以直接从在线数据经纪人那里购买信息。这可以涵盖您的服务提供商可以访问的任何私人信息。
+      <title>华盛顿州雷德蒙德在 ICE 逮捕后关闭了 Flock 安全摄像头</title>
+      <link>https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</link>
+      <description>📝 她说，该市暂停了 Flock 系统，因为市政府官员无法保证他们有一天不会被迫公布这些设备收集的数据。他们的担忧可能是有先见之明的。在华盛顿大学的报告显示联邦机构访问了他们的 Flock 数据后，伦顿、奥本、马基尔蒂奥和莱克伍德、皮尔斯县的警察改变了他们的 Flock 设置。
 
 
-🔤 Original: Cops Can Get Your Private Online Data
+🔤 Original: Redmond, WA, turns off Flock Safety cameras after ICE arrests
 
-🔗 Read more: https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</guid>
-      <pubDate>Mon, 10 Nov 2025 16:01:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877206</comments>
+🔗 Read more: https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</description>
+      <guid isPermaLink="true">https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</guid>
+      <pubDate>Mon, 10 Nov 2025 18:30:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879101</comments>
     </item>
     <item>
-      <title>法学硕士是你的邓宁-克鲁格的类固醇</title>
-      <link>https://bytesauna.com/post/dunning-kruger</link>
-      <description>📝 即使我承认这种错觉，我也会情不自禁地去追逐这些模型所带来的美妙的信念感。这是我的经验总结。有时甚至变得滑稽。
+      <title>欧盟委员会计划推出“数字综合”一揽子计划以简化其技术法律</title>
+      <link>https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</link>
+      <description>📝 “委员会应该充分意识到，这正在极大地破坏欧洲标准。近年来，欧洲隐私监管机构已经在破坏大型科技公司的人工智能派对。过去​​几个月，委员会官员一直试图消除人们对其正在彻底修改隐私规则手册的担忧。
 
 
-🔤 Original: LLMs are steroids for your Dunning-Kruger
+🔤 Original: European Commission plans “digital omnibus” package to simplify its tech laws
 
-🔗 Read more: https://bytesauna.com/post/dunning-kruger</description>
-      <guid isPermaLink="true">https://bytesauna.com/post/dunning-kruger</guid>
-      <pubDate>Mon, 10 Nov 2025 15:14:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876744</comments>
+🔗 Read more: https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</guid>
+      <pubDate>Mon, 10 Nov 2025 17:29:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878311</comments>
     </item>
     <item>
-      <title>是时候开始去应用了</title>
-      <link>https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</link>
-      <description>📝 那么这对你来说意味着什么。同样，从他们 9 月份的更新来看：从英国撤回高级数据保护不会影响默认情况下端到端加密的 15 个 iCloud 数据类别。 iCloud 钥匙串和健康状况等数据仍然受到完整的端到端加密的保护。
+      <title>在内容制作中使用生成式人工智能</title>
+      <link>https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</link>
+      <description>📝 在使用GenAI进行人才培养之前我们应该考虑什么？哪些用例始终需要书面批准。数据使用 在与 GenAI 合作时，保护个人数据和创作权至关重要。
 
 
-🔤 Original: Time to start de-Appling
+🔤 Original: Using Generative AI in Content Production
 
-🔗 Read more: https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</description>
-      <guid isPermaLink="true">https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</guid>
-      <pubDate>Mon, 10 Nov 2025 14:57:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876598</comments>
-    </item>
-    <item>
-      <title>游戏保护很困难，有时需要私家侦探</title>
-      <link>https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</link>
-      <description>📝 保存的游戏页面。 “这不仅仅是解决游戏未启动的问题那么简单，而是其中更具体的问题。如果您是人类，请将此字段留空：您可能还会喜欢 CultureNews GOG 秋季特卖现已上线，包括超过 4,000 款 PC 游戏 经典游戏，如《辐射 3》、《地下城守护者 2》、《主题医院》、《荣誉勋章》、《创 2》。
-
-
-🔤 Original: Games Preservation Is Hard and Sometimes Involves Private Detectives
-
-🔗 Read more: https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</description>
-      <guid isPermaLink="true">https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</guid>
-      <pubDate>Mon, 10 Nov 2025 15:48:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877060</comments>
-    </item>
-    <item>
-      <title>Zig 和其中的设计选择</title>
-      <link>https://blueberrywren.dev/blog/on-zig/</link>
-      <description>📝 当与其他人一起编写代码时，这种情况就会下降。我认为这不是对 Zig 的建设性讨论。因此，我倾向于相信 Zig 的 comptime 是一个非常大且包罗万象的功能，但最终带来的功能却很少，而较小的功能则无法做到这一点。
-
-
-🔤 Original: Zig and the design choices within
-
-🔗 Read more: https://blueberrywren.dev/blog/on-zig/</description>
-      <guid isPermaLink="true">https://blueberrywren.dev/blog/on-zig/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:42:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876990</comments>
-    </item>
-    <item>
-      <title>在转向 100% 数字登机牌之前提醒乘客</title>
-      <link>https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</link>
-      <description>📝 1 航空公司今天（11 月 6 日星期四）提醒乘客，从星期三（11 月 12 日）起，该航空公司将转向 100% 数字登机牌。替代航班选项：中断期间的实时替代航班选项。更多 瑞安航空开通布拉格 - 帕福斯和科希策航线。
-
-
-🔤 Original: Reminder to passengers ahead of move to 100% digital boarding passes
-
-🔗 Read more: https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</description>
-      <guid isPermaLink="true">https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:46:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877027</comments>
-    </item>
-    <item>
-      <title>黑客新闻头条（游戏）</title>
-      <link>https://projects.peercy.net/projects/hn-oracle/index.html</link>
-      <description>📝 黑客新闻头条 黑客新闻头条 您将看到 5 个头条新闻。猜猜每个人收到了多少票。开始从黑客新闻加载故事。
-
-
-🔤 Original: Hacker News Headlines (game)
-
-🔗 Read more: https://projects.peercy.net/projects/hn-oracle/index.html</description>
-      <guid isPermaLink="true">https://projects.peercy.net/projects/hn-oracle/index.html</guid>
-      <pubDate>Mon, 10 Nov 2025 17:47:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45878545</comments>
-    </item>
-    <item>
-      <title>用于多响应元机器人的多稳定薄壳元结构</title>
-      <link>https://www.science.org/doi/10.1126/sciadv.adx4359</link>
-      <guid isPermaLink="true">https://www.science.org/doi/10.1126/sciadv.adx4359</guid>
-      <pubDate>Mon, 10 Nov 2025 14:01:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876098</comments>
-    </item>
-    <item>
-      <title>ClickHouse 收购开源人工智能聊天平台 LibreChat</title>
-      <link>https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</link>
-      <description>📝 谁已经在构建代理分析了。 cBioPortal 的团队最近推出了基于聊天的 cBioAgent，允许用户以纯文本方式与基因组数据集进行交互（交互示例）。现在，ClickHouse 和 LibreChat 已经联手，将为我们构建代理分析的用例提供更加无缝的交互。
-
-
-🔤 Original: ClickHouse acquires LibreChat, open-source AI chat platform
-
-🔗 Read more: https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</description>
-      <guid isPermaLink="true">https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</guid>
-      <pubDate>Mon, 10 Nov 2025 16:44:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877770</comments>
-    </item>
-    <item>
-      <title>加拿大军队将依靠公务员队伍将其队伍增加30万</title>
-      <link>https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</link>
-      <description>📝 文章内容文章内容训练重点将是“基本技能”（如。文章内容根据动员计划，现有预备役部队将从23561人跃升至10万人。文章内容文章内容“国防将不符合。”）
-
-
-🔤 Original: Canadian military will rely on army of public servants to grow its ranks by 300k
-
-🔗 Read more: https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</description>
-      <guid isPermaLink="true">https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</guid>
-      <pubDate>Mon, 10 Nov 2025 16:55:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877892</comments>
+🔗 Read more: https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</description>
+      <guid isPermaLink="true">https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</guid>
+      <pubDate>Mon, 10 Nov 2025 19:28:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879793</comments>
     </item>
   </channel>
 </rss>

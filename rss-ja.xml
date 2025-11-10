@@ -6,178 +6,138 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Nov 2025 18:30:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 21:20:19 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>人という思いがけないもの</title>
-      <link>https://bengoldhaber.substack.com/p/unexpected-things-that-are-people</link>
-      <guid isPermaLink="true">https://bengoldhaber.substack.com/p/unexpected-things-that-are-people</guid>
-      <pubDate>Mon, 10 Nov 2025 16:05:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877257</comments>
+      <title>必要だと知らなかった遅延 Git UI</title>
+      <link>https://www.bwplotka.dev/2025/lazygit/</link>
+      <description>📝 シームレスな UX を備えた素晴らしいソフトウェアの設計に関して、lazygit から私たち全員が学べること。他のプロジェクトでは、さらに魔法が追加されます (例: Lazygit のすごいところ。
+
+
+🔤 Original: The lazy Git UI you didn't know you need
+
+🔗 Read more: https://www.bwplotka.dev/2025/lazygit/</description>
+      <guid isPermaLink="true">https://www.bwplotka.dev/2025/lazygit/</guid>
+      <pubDate>Mon, 10 Nov 2025 17:50:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878578</comments>
     </item>
     <item>
-      <title>Asus アセント GX10</title>
-      <link>https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</link>
-      <description>📝 ASUS Ascent GX10 の概要 技術仕様 サポート NVIDIA® GB10 Grace Blackwell スーパーチップと NVIDIA DGX™ Spark を搭載した ASUS Ascent GX10 コンパクト デスクトップ AI スーパーコンピューター。究極の AI パフォーマンス: NVIDIA® GB10 Grace Blackwell Superchip を搭載し、1 ペタフロップの AI パフォーマンスと 200B モデルの微調整用の 128GB メモリを実現します。 NVIDIA® GB10 Grace Blackwell スーパーチップ NVIDIA® Blackwell GPU128 GB ユニファイド メモリ QuietFlow 冷却 3 つのファンとデュアル ベイパー チャンバー 最大 5 台の 4K ディスプレイをサポート NVIDIA DLSS 4 最高速度。
+      <title>バイブコード警告 – 個人的なケーススタディ</title>
+      <link>https://github.com/jackdoe/pico2-swd-riscv</link>
+      <description>📝 コードを 3 ～ 4,000 行ほど書いた後、何が起こっているのか完全にわからなくなり、自分が書いたこのコードを考慮するつもりはありませんでしたが、テストをどんどん追加するのは「いい感じ」、または少なくとも安心感がありました。このケースでは、コードが 1k 行から 4k 行へと約 4 倍に増加したときに発生しました。人間のコードを読むとき、シンボルには目的があり、誰かが「これを変数に入れて、後でその状態をチェックしよう」と考えました。
 
 
-🔤 Original: Asus Ascent GX10
+🔤 Original: Vibe Code Warning – A personal casestudy
 
-🔗 Read more: https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</description>
-      <guid isPermaLink="true">https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:56:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877149</comments>
+🔗 Read more: https://github.com/jackdoe/pico2-swd-riscv</description>
+      <guid isPermaLink="true">https://github.com/jackdoe/pico2-swd-riscv</guid>
+      <pubDate>Mon, 10 Nov 2025 11:45:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45874987</comments>
+    </item>
+    <item>
+      <title>懐疑論者のための記憶の安全性</title>
+      <link>https://queue.acm.org/detail.cfm?id=3773095</link>
+      <description>📝 Rust は、メモリの安全性を約束するだけでなく、安全性の保証をソフトウェア セキュリティの実際的な改善に変えていることは明らかです。支持者らは、同等のパフォーマンス、最新のツール、メモリの安全性などの利点は明白であると主張しています。メモリ安全性への移行を反射的に拒否することは、特にコスト効率とスケジュール効率の高い方法でメモリ安全性の利点を達成できる場合には、誤った判断となります。
+
+
+🔤 Original: Memory Safety for Skeptics
+
+🔗 Read more: https://queue.acm.org/detail.cfm?id=3773095</description>
+      <guid isPermaLink="true">https://queue.acm.org/detail.cfm?id=3773095</guid>
+      <pubDate>Mon, 10 Nov 2025 18:23:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879012</comments>
+    </item>
+    <item>
+      <title>エラーABI</title>
+      <link>https://matklad.github.io/2025/11/09/error-ABI.html</link>
+      <description>📝 「厳密に型指定されたエラー コード」記事の続報です。ここではエラーのウイルス性が重要です。たとえまれなコード パスでも、たった 1 つの大きなエラーがあれば、あらゆる場所でコードが悪くなる可能性があります。結論 エラー ABI はおそらく特殊なものにする必要があるため、コンパイラはエラーについて知る必要があります。
+
+
+🔤 Original: Error ABI
+
+🔗 Read more: https://matklad.github.io/2025/11/09/error-ABI.html</description>
+      <guid isPermaLink="true">https://matklad.github.io/2025/11/09/error-ABI.html</guid>
+      <pubDate>Mon, 10 Nov 2025 02:31:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45871688</comments>
+    </item>
+    <item>
+      <title>Zed クラウドに向かう</title>
+      <link>https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</link>
+      <description>📝 なぜ Cloudflare ワーカーなのか。このフレームワークの中心となるのは、Platform trait:pub trait Platform: Sized + Clone + 'static { type Cache:cache::Cache; です。タイプ クロック: クロック;タイプ KvStore: KvStore&lt;Self&gt;;タイプ ServiceBinding: Fetcher&lt;Self&gt;;タイプ DurableObjectNamespace:durable_object::DurableObjectNamespace&lt;Self&gt;;タイプ DurableObjectStub:durable_object::DurableObjectStub&lt;Self&gt;;タイプ DurableObjectState:durable_object::DurableObjectState&lt;Self&gt;;タイプ RateLimiter: rate_limiter::RateLimiter&lt;Self&gt;;タイプ SqlStorage: sql::SqlStorage;タイプ PostgresConnection&lt;T&gt;: postgres::PostgresConnection&lt;Self, T&gt;;タイプ PostgresTransaction&lt;T&gt;: postgres::PostgresTransaction&lt;Self, T&gt;;タイプ ExecutionContext: ExecutionContext + クローン + 固定解除;タイプ環境:Environment&lt;Self&gt; + クローン + 固定解除;タイプ ClientWebSocket: websocket::ClientWebSocket; ServerWebSocket を入力: websocket::ServerWebSocket&lt;Self&gt;;タイプ WebSocketReceiver: websocket::WebSocketReceiver;タイプ WebSocketSender: websocket::WebSocketSender; HttpClient を入力: http_client::HttpClient&lt;Platform = Self&gt;; type Queue&lt;T: Serialize + 'static&gt;: queue::Queue&lt;Self, T&gt;;タイプ RawQueueMessageBatch: キュー::RawQueueMessageBatch&lt;Self&gt;; type QueueMessageBatch&lt;T: DeserializeOwned + 'static&gt;: queue::QueueMessageBatch&lt;Self, T&gt;; type QueueMessage&lt;T: DeserializeOwned + 'static&gt;: queue::QueueMessage&lt;Self, T&gt;;タイプ Rng: クローン + RngCore; fn websocket_pair() -&gt; 結果&lt;(Self::ClientWebSocket, Self::ServerWebSocket)&gt;;この特性により、Cloudflare Workers が提供するすべての機能を活用しながら、プラットフォームに依存しない方法でコードを書くことができます。 Cloudflare Workers JS ランタイムへの wasm_bindgen バインディングを含む Cloudflare_bindings crate2 があります。
+
+
+🔤 Original: Head in the Zed Cloud
+
+🔗 Read more: https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</description>
+      <guid isPermaLink="true">https://maxdeviant.com/posts/2025/head-in-the-zed-cloud/</guid>
+      <pubDate>Mon, 10 Nov 2025 14:23:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45876308</comments>
     </item>
     <item>
       <title>HN: Hypercubic (YC F25) – COBOL およびメインフレーム用 AI の発売</title>
-      <link>https://www.hypercubic.ai/</link>
-      <description>📝 1960 年代のメインフレームと COBOL。 Hypercubic は、AI を使用して複雑なメインフレーム システムを理解し、その背後にある人間の専門知識を保存し、世界を実行するレガシー コードのすべての行を理解しやすく、将来も使い続けられるようにします。
+      <link>https://news.ycombinator.com/item?id=45877517</link>
+      <description>📝 Hypercubic は、Fortune 500 企業が自社のメインフレーム システムを理解し、維持し、最新化するのに役立つ AI プラットフォームです。これらは 1960 年代の COBOL を実行するシステムであり、現在でも銀行、保険、航空会社、政府に静かに影響を与えています。 HyperDocs はそのコードを取り込み、ブラック ボックス システムがどのように機能するかを示す、読みやすい生きたドキュメントに再構築します。
 
 
 🔤 Original: Launch HN: Hypercubic (YC F25) – AI for COBOL and Mainframes
 
-🔗 Read more: https://www.hypercubic.ai/</description>
-      <guid isPermaLink="true">https://www.hypercubic.ai/</guid>
+🔗 Read more: https://news.ycombinator.com/item?id=45877517</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45877517</guid>
       <pubDate>Mon, 10 Nov 2025 16:23:24 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=45877517</comments>
     </item>
     <item>
-      <title>Google reCAPTCHA v2 に対する主要な AI エージェントのベンチマーク</title>
-      <link>https://research.roundtable.ai/captcha-benchmarking/</link>
-      <description>📝 一般に、すべてのモデルは静的チャレンジで最高のパフォーマンスを示し、クロスタイル チャレンジでは最低のパフォーマンスを示しました。静的チャレンジと比較して、リロードおよびクロスタイル チャレンジではすべてのモデルのパフォーマンスが低下しました。推論が多ければ多いほど良いとは限りません。
+      <title>オムニリンガル ASR: 1600 言語の自動音声認識の進歩</title>
+      <link>https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</link>
+      <description>📝 自動音声認識 (ASR) システムは、音声を検索、分析、共有できるテキストに転写することで、話し言葉を誰でもアクセスできるようにすることを目的としています。また、オムニリンガル wav2vec 2 をオープンソース化しています。汎用音声基盤モデル wav2vec 2。
 
 
-🔤 Original: Benchmarking leading AI agents against Google reCAPTCHA v2
+🔤 Original: Omnilingual ASR: Advancing automatic speech recognition for 1600 languages
 
-🔗 Read more: https://research.roundtable.ai/captcha-benchmarking/</description>
-      <guid isPermaLink="true">https://research.roundtable.ai/captcha-benchmarking/</guid>
-      <pubDate>Mon, 10 Nov 2025 16:38:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877698</comments>
+🔗 Read more: https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</description>
+      <guid isPermaLink="true">https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?_fb_noscript=1</guid>
+      <pubDate>Mon, 10 Nov 2025 18:10:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878826</comments>
     </item>
     <item>
-      <title>警察はあなたの個人的なオンラインデータを入手する可能性があります</title>
-      <link>https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</link>
-      <description>📝 警察はあなたのオンライン データを入手できますか?オンライン データ ブローカーから情報を完全に購入することもできます。これには、サービス プロバイダーがアクセスできるあらゆる個人情報が含まれます。
+      <title>ワシントン州レドモンド、ICEの逮捕を受けてフロックの安全カメラを停止</title>
+      <link>https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</link>
+      <description>📝 同市がFlockシステムを停止したのは、市当局がいつかこれらの機器で収集したデータを公開せざるを得なくなると保証できないからだ、と彼女は語った。彼らの懸念は先見の明があったのかもしれない。ピアス郡のレントン、オーバーン、マキルティオ、レイクウッドの警察当局は、連邦機関がフロックのデータにアクセスしたことがUWの報告書で明らかになった後、フロックの設定を変更した。
 
 
-🔤 Original: Cops Can Get Your Private Online Data
+🔤 Original: Redmond, WA, turns off Flock Safety cameras after ICE arrests
 
-🔗 Read more: https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data</guid>
-      <pubDate>Mon, 10 Nov 2025 16:01:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877206</comments>
+🔗 Read more: https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</description>
+      <guid isPermaLink="true">https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/</guid>
+      <pubDate>Mon, 10 Nov 2025 18:30:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879101</comments>
     </item>
     <item>
-      <title>LLM はダニング・クルーガーにとってのステロイドです</title>
-      <link>https://bytesauna.com/post/dunning-kruger</link>
-      <description>📝 この幻想を認めたとしても、私はこれらのモデルが与える素晴らしい確信感を追い求めずにはいられません。これは私の経験を要約したものです。時にはコミカルなことさえあります。
+      <title>欧州委員会、テクノロジー関連法を簡素化する「デジタルオムニバス」パッケージを計画</title>
+      <link>https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</link>
+      <description>📝 「欧州委員会は、これが欧州の基準を劇的に損なっていることを十分に認識すべきだ。欧州のプライバシー規制当局は、近年すでにビッグテックのAI党を台無しにしてきた。過去数カ月間、欧州委員会当局者らは、プライバシーのルールブックを全面的に見直しているのではないかという懸念を先取りしようとしてきた。」
 
 
-🔤 Original: LLMs are steroids for your Dunning-Kruger
+🔤 Original: European Commission plans “digital omnibus” package to simplify its tech laws
 
-🔗 Read more: https://bytesauna.com/post/dunning-kruger</description>
-      <guid isPermaLink="true">https://bytesauna.com/post/dunning-kruger</guid>
-      <pubDate>Mon, 10 Nov 2025 15:14:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876744</comments>
+🔗 Read more: https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/brussels-knifes-privacy-to-feed-the-ai-boom-gdpr-digital-omnibus/</guid>
+      <pubDate>Mon, 10 Nov 2025 17:29:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45878311</comments>
     </item>
     <item>
-      <title>アプリケーションの削除を開始する時期です</title>
-      <link>https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</link>
-      <description>📝 それはあなたにとって何を意味しますか。繰り返しますが、9 月のアップデートから: 英国から Advanced Data Protection を撤回しても、デフォルトでエンドツーエンド暗号化されている 15 の iCloud データ カテゴリには影響しません。 iCloud キーチェーンやヘルスケアなどのデータは、完全なエンドツーエンド暗号化によって引き続き保護されます。
+      <title>コンテンツ制作における生成 AI の使用</title>
+      <link>https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</link>
+      <description>📝 人材育成のために GenAI を使用する前に考慮すべきことは何ですか。常に書面による承認が必要なユースケースは何か。データの使用 GenAI と連携する場合、個人データと創作上の権利を保護することが不可欠です。
 
 
-🔤 Original: Time to start de-Appling
+🔤 Original: Using Generative AI in Content Production
 
-🔗 Read more: https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</description>
-      <guid isPermaLink="true">https://heatherburns.tech/2025/11/10/time-to-start-de-appling/</guid>
-      <pubDate>Mon, 10 Nov 2025 14:57:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876598</comments>
-    </item>
-    <item>
-      <title>ゲームの保存は難しく、時には私立探偵が関与することもあります</title>
-      <link>https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</link>
-      <description>📝 保存されたゲームのページ。 「それは、ゲームが起動しない問題を解決するのと同じくらい単純ではなく、内部のより具体的な問題です。 サインアップしてください あなたが人間である場合は、このフィールドを空にしてください: あなたも好きかもしれません CultureNews GOG の秋のセールが開催され、4,000 以上の PC ゲームが含まれます Fallout 3、Dungeon Keeper 2、Theme Hospital、Medal of Honor、Tron 2 などの古典的なゲームが含まれます。
-
-
-🔤 Original: Games Preservation Is Hard and Sometimes Involves Private Detectives
-
-🔗 Read more: https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</description>
-      <guid isPermaLink="true">https://kotaku.com/gog-preservation-program-private-detectives-drm-2000635611</guid>
-      <pubDate>Mon, 10 Nov 2025 15:48:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877060</comments>
-    </item>
-    <item>
-      <title>Zig とその中のデザインの選択肢</title>
-      <link>https://blueberrywren.dev/blog/on-zig/</link>
-      <description>📝 他の人と一緒にコードを書くと、それが減ります。私は、それはジグに関して建設的な議論ではないと判断しました。その結果、私は Zig のコンプタイムが非常に大規模で包括的な機能であり、最終的には小規模な機能では得られないものをほとんど提供しないと考える傾向にあります。
-
-
-🔤 Original: Zig and the design choices within
-
-🔗 Read more: https://blueberrywren.dev/blog/on-zig/</description>
-      <guid isPermaLink="true">https://blueberrywren.dev/blog/on-zig/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:42:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876990</comments>
-    </item>
-    <item>
-      <title>100% デジタル搭乗券への移行に先立って乗客に注意喚起</title>
-      <link>https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</link>
-      <description>📝 ある航空会社は本日（11月6日木）、乗客に対し、11月12日（水）からは100％デジタル搭乗券に移行することを通知した。代替便オプション: 混乱時のリアルタイムの代替便オプション。ライアンエアーがプラハ～パフォス＆コシツェ線を運航開始。
-
-
-🔤 Original: Reminder to passengers ahead of move to 100% digital boarding passes
-
-🔗 Read more: https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</description>
-      <guid isPermaLink="true">https://corporate.ryanair.com/news/ryanair-issues-reminder-to-passengers-ahead-of-move-to-100-digital-boarding-passes-from-wednesday-12-nov/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:46:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877027</comments>
-    </item>
-    <item>
-      <title>ハッカーニュースのヘッドライン (ゲーム)</title>
-      <link>https://projects.peercy.net/projects/hn-oracle/index.html</link>
-      <description>📝 ハッカー ニュースのヘッドライン ハッカー ニュースのヘッドライン 5 つのヘッドラインが表示されます。それぞれが受け取った賛成票の数を推測してください。 Hacker News から記事の読み込みを開始します。
-
-
-🔤 Original: Hacker News Headlines (game)
-
-🔗 Read more: https://projects.peercy.net/projects/hn-oracle/index.html</description>
-      <guid isPermaLink="true">https://projects.peercy.net/projects/hn-oracle/index.html</guid>
-      <pubDate>Mon, 10 Nov 2025 17:47:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45878545</comments>
-    </item>
-    <item>
-      <title>多重応答性メタボットのための多重安定性の薄いシェル メタ構造</title>
-      <link>https://www.science.org/doi/10.1126/sciadv.adx4359</link>
-      <guid isPermaLink="true">https://www.science.org/doi/10.1126/sciadv.adx4359</guid>
-      <pubDate>Mon, 10 Nov 2025 14:01:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45876098</comments>
-    </item>
-    <item>
-      <title>ClickHouse がオープンソース AI チャット プラットフォーム LibreChat を買収</title>
-      <link>https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</link>
-      <description>📝 すでにエージェント分析を構築しているのは誰ですか。 cBioPortal のチームは最近、ユーザーがプレーン テキストでゲノミクス データセットと対話できるようにするチャットベースの cBioAgent を開始しました (対話例)。 ClickHouse と LibreChat が連携したことで、Agentic Analytics の構築におけるユースケースにさらにシームレスなインタラクションが提供されるようになります。
-
-
-🔤 Original: ClickHouse acquires LibreChat, open-source AI chat platform
-
-🔗 Read more: https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</description>
-      <guid isPermaLink="true">https://clickhouse.com/blog/librechat-open-source-agentic-data-stack</guid>
-      <pubDate>Mon, 10 Nov 2025 16:44:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877770</comments>
-    </item>
-    <item>
-      <title>カナダ軍は兵員を30万人増やすために公務員の軍隊に依存する</title>
-      <link>https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</link>
-      <description>📝 記事の内容記事の内容訓練の焦点は「基本的なスキル（e. 記事の内容現在の予備兵力は、動員計画のために 23,561 人から 100,000 人に跳ね上がるでしょう。）記事の内容記事の内容「防衛は認められない」。
-
-
-🔤 Original: Canadian military will rely on army of public servants to grow its ranks by 300k
-
-🔗 Read more: https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</description>
-      <guid isPermaLink="true">https://ottawacitizen.com/public-service/defence-watch/canadian-military-public-servants</guid>
-      <pubDate>Mon, 10 Nov 2025 16:55:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45877892</comments>
+🔗 Read more: https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</description>
+      <guid isPermaLink="true">https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</guid>
+      <pubDate>Mon, 10 Nov 2025 19:28:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45879793</comments>
     </item>
   </channel>
 </rss>
