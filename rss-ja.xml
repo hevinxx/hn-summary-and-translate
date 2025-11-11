@@ -6,47 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 11 Nov 2025 09:23:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 12:41:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ソフトバンクがエヌビディアの全株式を58億3000万ドルで売却</title>
-      <link>https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</link>
-      <description>📝 チップメーカーのNvidiaが5ドル。同社は決算報告で32株を売却したと発表した。また、Tモバイル株の一部を9ドルで売却したことも明らかにした。
-
-
-🔤 Original: SoftBank sells its entire stake in Nvidia for $5.83B
-
-🔗 Read more: https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</guid>
-      <pubDate>Tue, 11 Nov 2025 07:32:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45884937</comments>
+      <title>OpenAIはライセンスなしで歌詞を使用できない、ドイツの裁判所規則</title>
+      <link>https://www.reuters.com/world/german-court-sides-with-plaintiff-copyright-case-against-openai-2025-11-11/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/german-court-sides-with-plaintiff-copyright-case-against-openai-2025-11-11/</guid>
+      <pubDate>Tue, 11 Nov 2025 11:20:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886131</comments>
     </item>
     <item>
-      <title>最後に書き込み、最初に読み取りのルール</title>
-      <link>https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</link>
-      <description>📝 記録システムを指定する必要があります。ここにアカウントが存在する場合、そのアカウントはシステム レベルで存在します。つまり、どのシステムが記録システムであり、どちらが参照システムなのかということです。
+      <title>なぜ努力が創造的な仕事の質に応じて超直線的に増加するのか</title>
+      <link>https://markusstrasser.org/creative-work-landscapes.html</link>
+      <description>📝 検証のレイテンシーとレート歪みが組み合わされて、知覚される品質に応じて超線形にスケールされる精度税が発生します。このネストされた検索に労力がかかります。 、より正確な編集が必要になります。
 
 
-🔤 Original: The Write Last, Read First Rule
+🔤 Original: Why Effort Scales Superlinearly with the Perceived Quality of Creative Work
 
-🔗 Read more: https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</description>
-      <guid isPermaLink="true">https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</guid>
-      <pubDate>Tue, 11 Nov 2025 06:30:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45884658</comments>
+🔗 Read more: https://markusstrasser.org/creative-work-landscapes.html</description>
+      <guid isPermaLink="true">https://markusstrasser.org/creative-work-landscapes.html</guid>
+      <pubDate>Tue, 11 Nov 2025 08:29:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45885242</comments>
     </item>
     <item>
-      <title>Show HN: PhantomCollect – Python のオープンソース Web データ収集フレームワーク</title>
-      <link>https://github.com/xsser01/phantomcollect</link>
-      <description>📝 👻 PhantomCollect 高度なステルス Web データ収集フレームワーク 🎯 機能 📍 正確な GPS 位置追跡 🌐 パブリック IP および地理的位置検出 💻 完全なデバイスのフィンガープリンティング 📡 ネットワークおよび接続情報 🔋 バッテリーステータスおよび電源管理 🛡️ ステルスデータ収集 💾 複数のストレージ バックエンド (SQLite、JSON) 📊 リアルタイムターミナル表示 🚀 クイック スタート インストール pip install phantomcollect 基本的な使用法 ```bash phantomcollect AUR (Arch Linux) から: yay -S phantomcollect インターフェイス http://localhost:8080 にアクセス 🔧 高度な使用法 公開する (Ngrok) phantomcollect &amp; ngrok http 8080 カスタム ポート phantomcollect --port 8081 📁 データ収集データ タイプ 詳細 場所 GPS 座標、IP ベースの位置 デバイス ハードウェア仕様、画面情報、プラットフォーム ネットワーク 接続タイプ、速度、IP アドレス ブラウザ ユーザー エージェント、言語、タイムゾーン バッテリー レベル、充電ステータス、タイミング ⚠️ 法的免責事項 このツールは、教育および認可されたセキュリティ テストのみを目的としています。ユーザーは、適用されるすべての法律を遵守することに単独で責任を負います。 🔐 セキュリティ機能 · 外部依存関係なし · ローカル データ ストレージのみ · 透過的なデータ収集通知 · 教育への重点 👨‍💻 開発者 xsser01 - セキュリティ研究者 📄 ライセンス このプロジェクトは MIT ライセンスに基づいてライセンスされています - 詳細については、LICENSE ファイルを参照してください。
+      <title>Z-Machine 上のコードの出現</title>
+      <link>https://entropicthoughts.com/advent-of-code-on-z-machine</link>
+      <description>📝 代わりに、zil を生成する Lisp マクロを使用しました。 Inform 6 は、Z マシンのバイトコードにコンパイルされる別の言語です。これを In[4] で Z マシンのバイトコードにコンパイルします。
 
 
-🔤 Original: Show HN: PhantomCollect – Open-Source Web Data Collection Framework in Python
+🔤 Original: Advent of Code on the Z-Machine
 
-🔗 Read more: https://github.com/xsser01/phantomcollect</description>
-      <guid isPermaLink="true">https://github.com/xsser01/phantomcollect</guid>
-      <pubDate>Tue, 11 Nov 2025 07:45:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45885013</comments>
+🔗 Read more: https://entropicthoughts.com/advent-of-code-on-z-machine</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/advent-of-code-on-z-machine</guid>
+      <pubDate>Tue, 11 Nov 2025 11:34:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886194</comments>
+    </item>
+    <item>
+      <title>Zig / C++ 相互運用性</title>
+      <link>https://tuple.app/blog/zig-cpp-interop</link>
+      <description>📝 const c = @cImport({ @cInclude("cppstuff.shared_ptr_std_string_data(&amp;my_string); const size: usize = c.SharedPtrStdString) void; 型を移動したりデータにアクセスしたりするために必要な関数を C++ から定義していることに注目してください。
+
+
+🔤 Original: Zig / C++ Interop
+
+🔗 Read more: https://tuple.app/blog/zig-cpp-interop</description>
+      <guid isPermaLink="true">https://tuple.app/blog/zig-cpp-interop</guid>
+      <pubDate>Tue, 11 Nov 2025 08:09:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45885135</comments>
+    </item>
+    <item>
+      <title>Hazel (YC W24) はフルスタック エンジニアを募集しています</title>
+      <link>https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</link>
+      <description>📝 ヘイゼルは公益のために AI を構築します。ヘイゼルは、政府調達、つまり政府機関が商業ベンダーから商品やサービスを購入する方法を変革しています。 Hazel は、起動速度と公共サービスの使命の焦点を組み合わせています。
+
+
+🔤 Original: Hazel (YC W24) Is Hiring Full Stack Engineers
+
+🔗 Read more: https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</guid>
+      <pubDate>Tue, 11 Nov 2025 12:00:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886350</comments>
+    </item>
+    <item>
+      <title>AIの過剰宣伝はやめろと科学者らがフォンデアライエンに語る</title>
+      <link>https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</link>
+      <description>📝 [NurPhoto / Getty Images] 科学者グループは、ウルズラ・フォン・デア・ライエン委員長に対し、人工知能が間もなく人間の知能と同等に達すると示唆した今年初めの発言を撤回するよう求めた。 「現在、これはすでに来年にも起こると予想されています。「これらは、経験的証拠や正式な証拠ではなく、利益動機とイデオロギーに基づいたマーケティング声明です」と科学者たちは書簡の中で書いています。
+
+
+🔤 Original: Stop overhyping AI, scientists tell von der Leyen
+
+🔗 Read more: https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</description>
+      <guid isPermaLink="true">https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</guid>
+      <pubDate>Tue, 11 Nov 2025 12:00:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886344</comments>
+    </item>
+    <item>
+      <title>「依存関係カットアウト」ワークフロー パターン</title>
+      <link>https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</link>
+      <description>📝 FooApp はあなたの仕事です。 LibBar は (せいぜい) あなたの趣味です。ベンダーの LibBar をコードベースに組み込み、ベンダーのバージョンを修正します。 LibBar にモンキーパッチを適用して修正を含めます。
+
+
+🔤 Original: The "Dependency Cutout" Workflow Pattern
+
+🔗 Read more: https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</description>
+      <guid isPermaLink="true">https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</guid>
+      <pubDate>Tue, 11 Nov 2025 07:34:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45884951</comments>
     </item>
   </channel>
 </rss>

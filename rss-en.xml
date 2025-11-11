@@ -6,38 +6,75 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Nov 2025 09:23:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 12:41:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>SoftBank sells its entire stake in Nvidia for $5.83B</title>
-      <link>https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</link>
-      <description>📝 chipmaker Nvidia for $5. The firm said in its earnings statement that it sold 32. It also disclosed that it sold part of its T-Mobile stake for $9.
-
-🔗 Read more: https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</guid>
-      <pubDate>Tue, 11 Nov 2025 07:32:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45884937</comments>
+      <title>OpenAI may not use lyrics without license, German court rules</title>
+      <link>https://www.reuters.com/world/german-court-sides-with-plaintiff-copyright-case-against-openai-2025-11-11/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/german-court-sides-with-plaintiff-copyright-case-against-openai-2025-11-11/</guid>
+      <pubDate>Tue, 11 Nov 2025 11:20:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886131</comments>
     </item>
     <item>
-      <title>The Write Last, Read First Rule</title>
-      <link>https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</link>
-      <description>📝 We must designate a: System of Record. If the account exists here, the account exists on a system level. So which system is the system of record and which is the system of reference.
+      <title>Why Effort Scales Superlinearly with the Perceived Quality of Creative Work</title>
+      <link>https://markusstrasser.org/creative-work-landscapes.html</link>
+      <description>📝 Verification latency and rate–distortion combine into a precision tax that scales superlinearly with perceived quality. That nested search is where the effort goes. , it demands more precision edits.
 
-🔗 Read more: https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</description>
-      <guid isPermaLink="true">https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</guid>
-      <pubDate>Tue, 11 Nov 2025 06:30:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45884658</comments>
+🔗 Read more: https://markusstrasser.org/creative-work-landscapes.html</description>
+      <guid isPermaLink="true">https://markusstrasser.org/creative-work-landscapes.html</guid>
+      <pubDate>Tue, 11 Nov 2025 08:29:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45885242</comments>
     </item>
     <item>
-      <title>Show HN: PhantomCollect – Open-Source Web Data Collection Framework in Python</title>
-      <link>https://github.com/xsser01/phantomcollect</link>
-      <description>📝 👻 PhantomCollect Advanced Stealth Web Data Collection Framework 🎯 Features 📍 Precise GPS Location Tracking 🌐 Public IP &amp; Geo-Location Detection 💻 Complete Device Fingerprinting 📡 Network &amp; Connection Information 🔋 Battery Status &amp; Power Management 🛡️ Stealth Data Collection 💾 Multiple Storage Backends (SQLite, JSON) 📊 Real-time Terminal Display 🚀 Quick Start Installation pip install phantomcollect Basic Usage ```bash phantomcollect From AUR (Arch Linux): yay -S phantomcollect Access the Interface http://localhost:8080 🔧 Advanced Usage Make it Public (Ngrok) phantomcollect &amp; ngrok http 8080 Custom Port phantomcollect --port 8081 📁 Data Collected Data Type Details Location GPS coordinates, IP-based location Device Hardware specs, screen info, platform Network Connection type, speed, IP address Browser User agent, languages, timezone Battery Level, charging status, timing ⚠️ Legal Disclaimer This tool is for educational and authorized security testing purposes only. Users are solely responsible for complying with all applicable laws. 🔐 Security Features · No external dependencies · Local data storage only · Transparent data collection notification · Educational focus 👨‍💻 Developer xsser01 - Security Researcher 📄 License This project is licensed under the MIT License - see the LICENSE file for details.
+      <title>Advent of Code on the Z-Machine</title>
+      <link>https://entropicthoughts.com/advent-of-code-on-z-machine</link>
+      <description>📝 Instead, they used Lisp macros that generated zil. Inform 6 is another language that compiles to Z-machine bytecode. We compile this to Z-machine bytecode with In[4]: $ inform hello.
 
-🔗 Read more: https://github.com/xsser01/phantomcollect</description>
-      <guid isPermaLink="true">https://github.com/xsser01/phantomcollect</guid>
-      <pubDate>Tue, 11 Nov 2025 07:45:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45885013</comments>
+🔗 Read more: https://entropicthoughts.com/advent-of-code-on-z-machine</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/advent-of-code-on-z-machine</guid>
+      <pubDate>Tue, 11 Nov 2025 11:34:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886194</comments>
+    </item>
+    <item>
+      <title>Zig / C++ Interop</title>
+      <link>https://tuple.app/blog/zig-cpp-interop</link>
+      <description>📝 const c = @cImport({ @cInclude("cppstuff. shared_ptr_std_string_data(&amp;my_string); const size: usize = c. SharedPtrStdString) void; Notice that we’ve defined any function we need from C++ to move types around or access data.
+
+🔗 Read more: https://tuple.app/blog/zig-cpp-interop</description>
+      <guid isPermaLink="true">https://tuple.app/blog/zig-cpp-interop</guid>
+      <pubDate>Tue, 11 Nov 2025 08:09:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45885135</comments>
+    </item>
+    <item>
+      <title>Hazel (YC W24) Is Hiring Full Stack Engineers</title>
+      <link>https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</link>
+      <description>📝 Hazel builds AI for the public interest. Hazel is transforming government procurement – how government agencies purchase goods and services from commercial vendors. Hazel combines startup speed with the mission focus of public service.
+
+🔗 Read more: https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</guid>
+      <pubDate>Tue, 11 Nov 2025 12:00:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886350</comments>
+    </item>
+    <item>
+      <title>Stop overhyping AI, scientists tell von der Leyen</title>
+      <link>https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</link>
+      <description>📝 [NurPhoto / Getty Images] A group of scientists has called on Commission President Ursula von der Leyen to retract a statement she made earlier this year when she suggested artificial intelligence would soon reach parity with human intelligence. “Now we expect this to happen already next year. “These are marketing statements driven by profit-motive and ideology rather than empirical evidence and formal proof,” the scientists write in the letter.
+
+🔗 Read more: https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</description>
+      <guid isPermaLink="true">https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</guid>
+      <pubDate>Tue, 11 Nov 2025 12:00:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886344</comments>
+    </item>
+    <item>
+      <title>The "Dependency Cutout" Workflow Pattern</title>
+      <link>https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</link>
+      <description>📝 FooApp is your job; LibBar is (at best) your hobby. Vendor LibBar into your codebase and fix your vendored version. Monkey-patch LibBar to include your fix.
+
+🔗 Read more: https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</description>
+      <guid isPermaLink="true">https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</guid>
+      <pubDate>Tue, 11 Nov 2025 07:34:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45884951</comments>
     </item>
   </channel>
 </rss>

@@ -6,47 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 11 Nov 2025 09:23:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 12:41:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>软银以 $5.83B 出售其在 Nvidia 的全部股份</title>
-      <link>https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</link>
-      <description>📝 芯片制造商Nvidia售价5美元。该公司在收益报告中表示，已出售 32 台。该公司还透露，以 9 美元的价格出售了部分 T-Mobile 股份。
-
-
-🔤 Original: SoftBank sells its entire stake in Nvidia for $5.83B
-
-🔗 Read more: https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</guid>
-      <pubDate>Tue, 11 Nov 2025 07:32:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45884937</comments>
+      <title>德国法院规定 OpenAI 未经许可不得使用歌词</title>
+      <link>https://www.reuters.com/world/german-court-sides-with-plaintiff-copyright-case-against-openai-2025-11-11/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/german-court-sides-with-plaintiff-copyright-case-against-openai-2025-11-11/</guid>
+      <pubDate>Tue, 11 Nov 2025 11:20:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886131</comments>
     </item>
     <item>
-      <title>最后写、先读规则</title>
-      <link>https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</link>
-      <description>📝 我们必须指定一个： 记录系统。如果此处存在该帐户，则该帐户存在于系统级别。那么哪个系统是记录系统，哪个系统是参考系统。
+      <title>为什么努力与创造性工作的感知质量呈超线性关系</title>
+      <link>https://markusstrasser.org/creative-work-landscapes.html</link>
+      <description>📝 验证延迟和率失真结合成一种精确税，随着感知质量超线性扩展。嵌套搜索就是努力的地方。 ，它需要更精确的编辑。
 
 
-🔤 Original: The Write Last, Read First Rule
+🔤 Original: Why Effort Scales Superlinearly with the Perceived Quality of Creative Work
 
-🔗 Read more: https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</description>
-      <guid isPermaLink="true">https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</guid>
-      <pubDate>Tue, 11 Nov 2025 06:30:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45884658</comments>
+🔗 Read more: https://markusstrasser.org/creative-work-landscapes.html</description>
+      <guid isPermaLink="true">https://markusstrasser.org/creative-work-landscapes.html</guid>
+      <pubDate>Tue, 11 Nov 2025 08:29:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45885242</comments>
     </item>
     <item>
-      <title>Show HN：PhantomCollect – Python 中的开源 Web 数据收集框架</title>
-      <link>https://github.com/xsser01/phantomcollect</link>
-      <description>📝 👻 PhantomCollect 高级隐形 Web 数据收集框架 🎯 功能 📍 精确的 GPS 位置跟踪 🌐 公共 IP 和地理位置检测 💻 完整的设备指纹识别 📡 网络和连接信息 🔋 电池状态和电源管理 🛡️ 隐形数据收集 💾 多个存储后端（SQLite、JSON） 📊 实时终端显示🚀 快速入门安装 pip install phantomcollect 基本用法 ```bash phantomcollect 来自 AUR (Arch Linux): yay -S phantomcollect 访问接口 http://localhost:8080 🔧 高级用法 公开 (Ngrok) phantomcollect &amp; ngrok http 8080 自定义端口 phantomcollect --port 8081 📁 数据收集 数据类型详细信息 位置 GPS 坐标、基于 IP 的位置 设备硬件规格、屏幕信息、平台 网络连接类型、速度、IP 地址 浏览器 用户代理、语言、时区 电池电量、充电状态、计时 ⚠️ 法律免责声明 该工具仅用于教育和授权安全测试目的。用户全权负责遵守所有适用法律。 🔐 安全功能 · 无外部依赖 · 仅本地数据存储 · 透明的数据收集通知 · 教育重点 👨‍💻 开发者 xsser01 - 安全研究员 📄 许可证 该项目已获得 MIT 许可证授权 - 有关详细信息，请参阅许可证文件。
+      <title>Z 机器上代码的出现</title>
+      <link>https://entropicthoughts.com/advent-of-code-on-z-machine</link>
+      <description>📝 相反，他们使用生成 zil 的 Lisp 宏。 Inform 6 是另一种编译为 Z 机字节码的语言。我们使用 In[4] 将其编译为 Z 机器字节码： $ inform hello。
 
 
-🔤 Original: Show HN: PhantomCollect – Open-Source Web Data Collection Framework in Python
+🔤 Original: Advent of Code on the Z-Machine
 
-🔗 Read more: https://github.com/xsser01/phantomcollect</description>
-      <guid isPermaLink="true">https://github.com/xsser01/phantomcollect</guid>
-      <pubDate>Tue, 11 Nov 2025 07:45:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45885013</comments>
+🔗 Read more: https://entropicthoughts.com/advent-of-code-on-z-machine</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/advent-of-code-on-z-machine</guid>
+      <pubDate>Tue, 11 Nov 2025 11:34:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886194</comments>
+    </item>
+    <item>
+      <title>Zig / C++ 互操作</title>
+      <link>https://tuple.app/blog/zig-cpp-interop</link>
+      <description>📝 const c = @cImport({ @cInclude("cppstuff.shared_ptr_std_string_data(&amp;my_string); const size: usize = c.SharedPtrStdString) void; 请注意，我们已经定义了 C++ 中移动类型或访问数据所需的任何函数。
+
+
+🔤 Original: Zig / C++ Interop
+
+🔗 Read more: https://tuple.app/blog/zig-cpp-interop</description>
+      <guid isPermaLink="true">https://tuple.app/blog/zig-cpp-interop</guid>
+      <pubDate>Tue, 11 Nov 2025 08:09:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45885135</comments>
+    </item>
+    <item>
+      <title>Hazel (YC W24) 正在招聘全栈工程师</title>
+      <link>https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</link>
+      <description>📝 Hazel 为公共利益构建人工智能。 Hazel 正在改变政府采购——政府机构从商业供应商那里购买商品和服务的方式。 Hazel 将启动速度与公共服务的使命重点结合起来。
+
+
+🔤 Original: Hazel (YC W24) Is Hiring Full Stack Engineers
+
+🔗 Read more: https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/hazel-2/jobs/fCdGOZw-full-stack-engineer</guid>
+      <pubDate>Tue, 11 Nov 2025 12:00:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886350</comments>
+    </item>
+    <item>
+      <title>科学家告诉冯德莱恩，停止过度炒作人工智能</title>
+      <link>https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</link>
+      <description>📝 [NurPhoto / Getty Images] 一群科学家呼吁委员会主席乌苏拉·冯德莱恩 (Ursula von der Leyen) 撤回她今年早些时候发表的一项声明，当时她表示人工智能将很快达到与人类智力相当的水平。 “现在我们预计这种情况会在明年发生。”科学家们在信中写道，“这些是由利润动机和意识形态驱动的营销声明，而不是经验证据和正式证据。”
+
+
+🔤 Original: Stop overhyping AI, scientists tell von der Leyen
+
+🔗 Read more: https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</description>
+      <guid isPermaLink="true">https://www.euractiv.com/news/stop-overhyping-ai-scientists-tell-von-der-leyen/</guid>
+      <pubDate>Tue, 11 Nov 2025 12:00:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45886344</comments>
+    </item>
+    <item>
+      <title>“依赖性切除”工作流程模式</title>
+      <link>https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</link>
+      <description>📝 FooApp 是你的工作； LibBar（充其量）只是您的爱好。将供应商 LibBar 添加到您的代码库中并修复您的供应商版本。对 LibBar 进行猴子补丁以包含您的修复。
+
+
+🔤 Original: The "Dependency Cutout" Workflow Pattern
+
+🔗 Read more: https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</description>
+      <guid isPermaLink="true">https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html</guid>
+      <pubDate>Tue, 11 Nov 2025 07:34:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45884951</comments>
     </item>
   </channel>
 </rss>
