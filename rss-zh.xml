@@ -6,185 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 14 Nov 2025 18:30:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 21:20:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Forgejo 和荷兰政府通过 Git 提交的会议记录</title>
-      <link>https://codeberg.org/forgejo/sustainability/pulls/137/files</link>
-      <description>📝 请注意，Anubis 需要使用现代 JavaScript 功能，而 JShelter 等插件将禁用这些功能。请为此域禁用 JShelter 或其他此类插件。该网站运行的是 Anubis 版本 1。
+      <title>人工智能世界时钟</title>
+      <link>https://clocks.brianmoore.com/</link>
+      <description>📝 每个模型可以使用 2000 个代币来生成其时钟。以下是其提示：创建显示 ${time} 的模拟时钟的 HTML/CSS。仅返回不带 Markdown 格式的 HTML/CSS 代码。
 
 
-🔤 Original: Meeting notes between Forgejo and the Dutch government via Git commits
+🔤 Original: AI World Clocks
 
-🔗 Read more: https://codeberg.org/forgejo/sustainability/pulls/137/files</description>
-      <guid isPermaLink="true">https://codeberg.org/forgejo/sustainability/pulls/137/files</guid>
-      <pubDate>Fri, 14 Nov 2025 17:35:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929247</comments>
+🔗 Read more: https://clocks.brianmoore.com/</description>
+      <guid isPermaLink="true">https://clocks.brianmoore.com/</guid>
+      <pubDate>Fri, 14 Nov 2025 18:35:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930151</comments>
     </item>
     <item>
-      <title>我们发现了 Aurora RDS 中的竞争条件</title>
-      <link>https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</link>
-      <description>📝 AWS Aurora RDS 用于客户事件的实时流式传输和仓库交付的中央数据存储使用 Amazon Aurora PostgreSQL。 Aurora 集群由以下部分组成： 一个处理所有写入操作的主写入器实例 处理只读查询的多个只读副本实例 所有实例都访问的共享存储层，自动跨多个可用区复制 该架构可实现快速故障转移和高效的读取扩展，但正如我们发现的，它还引入了独特的故障模式。 Hightouch Events 如何使用 Aurora 计划 这是我们的升级计划：添加另一个只读副本（实例 #3）以在升级期间保持读取容量。
+      <title>午餐女士们的所有赞美</title>
+      <link>https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</link>
+      <description>📝 2025 年 11 月 4 日 奶奶用政府奶酪赢得了我的青睐。尽可能多地从头开始做饭，但也会利用提供给她的一切资源。奶奶试图谨慎地确保那些孩子们有足够的钱。
 
 
-🔤 Original: We Uncovered a Race Condition in Aurora RDS
+🔤 Original: All Praise to the Lunch Ladies
 
-🔗 Read more: https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</description>
-      <guid isPermaLink="true">https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</guid>
-      <pubDate>Fri, 14 Nov 2025 18:20:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929921</comments>
+🔗 Read more: https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</description>
+      <guid isPermaLink="true">https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</guid>
+      <pubDate>Fri, 14 Nov 2025 19:54:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45931403</comments>
     </item>
     <item>
-      <title>回到平铺 WM – XMonad</title>
-      <link>https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</link>
-      <description>📝 这是我第一次使用窗口管理器。这会添加一个带有格式化颜色的标题栏。这看起来比窗口周围有边框更好。
+      <title>Claude 开发者平台 (API) 上的结构化输出</title>
+      <link>https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</link>
+      <description>📝 指南：为金融服务构建 AI 代理了解 NBIM、Brex 等团队如何与 Claude 在 AWS Bedrock 上构建可靠的 AI 代理。了解更多阅读更多阅读更多指南：为金融服务构建 AI 代理下一页了解 NBIM、Brex 等团队如何与 Claude 在 AWS Bedrock 上构建可靠的 AI 代理。了解更多阅读更多阅读更多 NextNext 指南：为金融服务构建 AI 代理了解 NBIM、Brex 等团队如何与 Claude 在 AWS Bedrock 上构建可靠的 AI 代理。
 
 
-🔤 Original: Moving Back to a Tiling WM – XMonad
+🔤 Original: Structured Outputs on the Claude Developer Platform (API)
 
-🔗 Read more: https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</description>
-      <guid isPermaLink="true">https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</guid>
-      <pubDate>Fri, 14 Nov 2025 17:04:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928873</comments>
+🔗 Read more: https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</description>
+      <guid isPermaLink="true">https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</guid>
+      <pubDate>Fri, 14 Nov 2025 19:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930598</comments>
     </item>
     <item>
-      <title>挪威的财富税引发资本外流</title>
-      <link>https://citizenx.com/insights/norway-wealth-exodus/</link>
-      <description>📝 比特币税席卷欧洲：法国加入意大利行列 法国刚刚宣布将把比特币作为应税资产纳入财富税中，这意味着法国居民将为其比特币的未实现资本利得纳税。亚历克斯·雷库索 10 月 5 日·新闻。
+      <title>休斯顿，我们有一个问题：人类驾驭人工波浪 – BIML</title>
+      <link>https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</link>
+      <description>📝 是的，又是人择。关于 Anthropic 最新的安全故事，媒体应该问什么问题？他也写了关于人择的故事：https://arstechnica。
 
 
-🔤 Original: Norway's Wealth Tax Unchains a Capital Exodus
+🔤 Original: Houston, We Have a Problem: Anthropic Rides an Artificial Wave – BIML
 
-🔗 Read more: https://citizenx.com/insights/norway-wealth-exodus/</description>
-      <guid isPermaLink="true">https://citizenx.com/insights/norway-wealth-exodus/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:39:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929304</comments>
+🔗 Read more: https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</description>
+      <guid isPermaLink="true">https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</guid>
+      <pubDate>Fri, 14 Nov 2025 20:06:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45931552</comments>
     </item>
     <item>
-      <title>Bitchat for Gaza – 无需互联网即可发送消息</title>
-      <link>https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</link>
-      <description>📝 在它旁边，您将看到一个图标，其中包含网络中连接的用户数量。这些在连接到互联网时效果最佳。然后您网络内的用户就可以加入它。
+      <title>Mentra (YC W25) 正在招聘：增长主管，以使智能眼镜成为主流</title>
+      <link>https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</link>
+      <description>📝 构建开源智能眼镜操作系统。 Mentra 正在构建智能眼镜的操作系统。这就像智能眼镜的 Android 一样。
 
 
-🔤 Original: Bitchat for Gaza – messaging without internet
+🔤 Original: Mentra (YC W25) Is Hiring: Head of Growth to Make Smart Glasses Mainstream
 
-🔗 Read more: https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</description>
-      <guid isPermaLink="true">https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929358</comments>
+🔗 Read more: https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</guid>
+      <pubDate>Fri, 14 Nov 2025 21:00:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45932131</comments>
     </item>
     <item>
-      <title>锰是莱姆病的双刃剑</title>
-      <link>https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</link>
-      <description>📝 Daly 说：“锰对伯氏杆菌来说，它们还会杀死有益的肠道细菌。锰太少，细菌就会失去防御机制。这一发现为莱姆病的新疗法带来了潜力。”
+      <title>Minisforum 将整个手臂家庭实验室纳入 MS-R1</title>
+      <link>https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</link>
+      <description>📝 但这件事的其他一切都不同。硬件概述 让我们开始了解硬件。您有一个 12 核 Arm CPU 和 Mali G720 iGPU。
 
 
-🔤 Original: Manganese is Lyme disease's double-edge sword
+🔤 Original: Minisforum Stuffs Entire Arm Homelab in the MS-R1
 
-🔗 Read more: https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</description>
-      <guid isPermaLink="true">https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</guid>
-      <pubDate>Fri, 14 Nov 2025 16:51:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928709</comments>
+🔗 Read more: https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</description>
+      <guid isPermaLink="true">https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</guid>
+      <pubDate>Fri, 14 Nov 2025 18:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930284</comments>
     </item>
     <item>
-      <title>你误解了贫穷的意义</title>
-      <link>https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</link>
-      <description>📝 人们普遍认为穷人一定不聪明。我应该永远没有私人时间吗？说这种话的人只有经历过破产的经历。
+      <title>显示 HN：Chirp – 使用 ParakeetV3 进行本地 Windows 听写，无需可执行文件</title>
+      <link>https://github.com/Whamp/chirp</link>
+      <description>📝 git cd chirp uv run python -m chirp. exe 启动器）： uv run python -m chirp.主要详细/调试日志记录：uv run python -m chirp。
 
 
-🔤 Original: You misunderstand what it means to be poor
+🔤 Original: Show HN: Chirp – Local Windows dictation with ParakeetV3 no executable required
 
-🔗 Read more: https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</description>
-      <guid isPermaLink="true">https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:08:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928912</comments>
+🔗 Read more: https://github.com/Whamp/chirp</description>
+      <guid isPermaLink="true">https://github.com/Whamp/chirp</guid>
+      <pubDate>Fri, 14 Nov 2025 19:07:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930659</comments>
     </item>
     <item>
-      <title>RetailReady (YC W24) 正在招聘</title>
-      <link>https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</link>
-      <description>📝 我们是 RetailReady (YC W24)，这是一个人工智能驱动的供应链合规引擎，撼动了一个过时的（是的，不吸引人的）行业。 RetailReady 是第一个专为零售供应链设计的人工智能驱动的合规引擎。 RetailReady 正在构建人工智能驱动的供应链合规引擎。
-
-
-🔤 Original: RetailReady (YC W24) Is Hiring
-
-🔗 Read more: https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</guid>
-      <pubDate>Fri, 14 Nov 2025 17:00:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928822</comments>
-    </item>
-    <item>
-      <title>线性代数解释了为什么有些单词实际上是不可翻译的</title>
-      <link>https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</link>
-      <description>📝 你可以说我疯了，但我认为语言翻译就像线性代数基础的改变。 3）这些数字是该基中向量的坐标。相同的向量，不同的基础：数字不同。
-
-
-🔤 Original: Linear Algebra Explains Why Some Words Are Effectively Untranslatable
-
-🔗 Read more: https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</description>
-      <guid isPermaLink="true">https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</guid>
-      <pubDate>Fri, 14 Nov 2025 14:46:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927210</comments>
-    </item>
-    <item>
-      <title>不到一个月，聊天控制又回到了欧盟</title>
-      <link>https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</link>
-      <guid isPermaLink="true">https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</guid>
-      <pubDate>Fri, 14 Nov 2025 17:54:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929511</comments>
-    </item>
-    <item>
-      <title>德国将禁止华为参与未来 6G 网络以推动主权</title>
-      <link>https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</link>
-      <description>📝 在柏林 IFA 消费电子展期间，员工在华为展台等待参观者。摄影师：Jacobia Dahm/BloombergFacebookXLinkedInEmailLinkGiftGift 赠送本文联系我们：提供新闻反馈或报告错误机密提示。默茨周四在柏林举行的一次商业会议上表示：“我们在政府内部决定，在任何可能的地方，我们都将用我们自己生产的组件来更换组件，例如 5G 网络中的组件。”
-
-
-🔤 Original: Germany to Ban Huawei from Future 6G Network in Sovereignty Push
-
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</guid>
-      <pubDate>Fri, 14 Nov 2025 17:19:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929052</comments>
-    </item>
-    <item>
-      <title>甲骨文因押注人工智能而遭受华尔街科技股抛售的沉重打击</title>
-      <link>https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</link>
-      <description>📝 在任何设备上以数字方式完整访问高质量的《金融时报》新闻。选择包含内容 全球新闻与分析 专家意见 FT Android 和 iOS 版应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精心策划的时事通讯 通过 myFTFT 视频和播客关注主题并设置提醒 20 篇每月赠送文章可供分享 Lex：FT 的旗舰投资专栏 15 多篇由领先专家撰写的高级时事通讯 FT 数字版：我们的数字化印刷版标准数字每月 45 美元 获取优质 FT 的基本数字访问权限任何设备上的新闻报道。选择包含内容 全球新闻与分析 专家意见 Android 和 iOS 上的 FT 应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精心策划的时事通讯 通过 myFTFT 视频和播客关注主题并设置提醒 10 篇每月赠送文章可供分享 优质数字版完整报道 每月 75 美元 通过行业领导者的专家分析以数字方式全面获取优质 FT 新闻报道。
-
-
-🔤 Original: Oracle hit hard in Wall Street's tech sell-off over its AI bet
-
-🔗 Read more: https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</description>
-      <guid isPermaLink="true">https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</guid>
-      <pubDate>Fri, 14 Nov 2025 15:04:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927435</comments>
-    </item>
-    <item>
-      <title>《没有人永生》已经 25 岁了，你仍然无法合法购买它</title>
-      <link>https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</link>
-      <description>📝 “所以我们回到动视公司，在多次来回通信之后，他们回答说他们认为自己可能拥有一些权利，但任何记录都早于数字存储。他们承认，他们没有亲手掌握这些权利。他们甚至不确定自己是否拥有任何这些权利。
-
-
-🔤 Original: 'No One Lives Forever' Turns 25 and You Still Can't Buy It Legitimately
-
-🔗 Read more: https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</description>
-      <guid isPermaLink="true">https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</guid>
-      <pubDate>Fri, 14 Nov 2025 16:31:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928492</comments>
-    </item>
-    <item>
-      <title>美国科技市场树状图</title>
-      <link>https://caplocus.com/</link>
-      <guid isPermaLink="true">https://caplocus.com/</guid>
-      <pubDate>Fri, 14 Nov 2025 16:42:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928620</comments>
-    </item>
-    <item>
-      <title>科学之后会发生什么？</title>
-      <link>https://www.science.org/doi/10.1126/science.aec7650</link>
-      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.aec7650</guid>
-      <pubDate>Fri, 14 Nov 2025 14:32:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927042</comments>
+      <title>Show HN：愚蠢的商业想法</title>
+      <link>https://dumbassideas.com</link>
+      <guid isPermaLink="true">https://dumbassideas.com</guid>
+      <pubDate>Fri, 14 Nov 2025 18:18:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929888</comments>
     </item>
   </channel>
 </rss>

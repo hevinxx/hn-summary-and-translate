@@ -6,185 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Nov 2025 18:30:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 21:20:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Git 커밋을 통한 Forgejo와 네덜란드 정부 간의 회의 메모</title>
-      <link>https://codeberg.org/forgejo/sustainability/pulls/137/files</link>
-      <description>📝 Anubis에서는 JShelter와 같은 플러그인이 비활성화되는 최신 JavaScript 기능을 사용해야 합니다. 이 도메인에 대해 JShelter 또는 기타 플러그인을 비활성화하십시오. 이 웹사이트는 Anubis 버전 1을 실행하고 있습니다.
+      <title>AI 세계 시계</title>
+      <link>https://clocks.brianmoore.com/</link>
+      <description>📝 각 모델에는 시계를 생성하는 데 2000개의 토큰이 허용됩니다. 프롬프트는 다음과 같습니다. ${time}을 표시하는 아날로그 시계의 HTML/CSS를 만듭니다. 마크다운 형식 없이 HTML/CSS 코드만 반환합니다.
 
 
-🔤 Original: Meeting notes between Forgejo and the Dutch government via Git commits
+🔤 Original: AI World Clocks
 
-🔗 Read more: https://codeberg.org/forgejo/sustainability/pulls/137/files</description>
-      <guid isPermaLink="true">https://codeberg.org/forgejo/sustainability/pulls/137/files</guid>
-      <pubDate>Fri, 14 Nov 2025 17:35:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929247</comments>
+🔗 Read more: https://clocks.brianmoore.com/</description>
+      <guid isPermaLink="true">https://clocks.brianmoore.com/</guid>
+      <pubDate>Fri, 14 Nov 2025 18:35:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930151</comments>
     </item>
     <item>
-      <title>Aurora RDS에서 경쟁 조건을 발견했습니다.</title>
-      <link>https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</link>
-      <description>📝 AWS Aurora RDS 고객 이벤트의 실시간 스트리밍 및 웨어하우스 전달을 위한 중앙 데이터 스토어는 Amazon Aurora PostgreSQL을 사용합니다. Aurora 클러스터는 다음으로 구성됩니다. 모든 쓰기 작업을 처리하는 하나의 기본 작성자 인스턴스읽기 전용 쿼리를 처리하는 여러 읽기 복제본 인스턴스모든 인스턴스가 액세스하는 공유 스토리지 계층은 여러 가용 영역에 걸쳐 자동으로 복제됩니다. 이 아키텍처는 빠른 장애 조치와 효율적인 읽기 확장을 가능하게 하지만 우리가 발견한 바와 같이 고유한 실패 모드도 도입합니다. Hightouch Events가 Aurora를 사용하는 방법 계획 이것이 우리의 업그레이드 계획이었습니다. 업그레이드 중에 읽기 용량을 유지하기 위해 또 다른 읽기 복제본(인스턴스 #3)을 추가합니다.
+      <title>점심 아가씨들에게 모든 찬사를 보내라</title>
+      <link>https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</link>
+      <description>📝 2025년 11월 4일 할머니가 정부 치즈로 나를 설득했습니다. 가능한 한 자주 처음부터 요리하는 동시에 그녀에게 제공된 모든 자원을 활용합니다. 할머니는 그 아이들이 풍족한지 확인하기 위해 신중하게 노력했습니다.
 
 
-🔤 Original: We Uncovered a Race Condition in Aurora RDS
+🔤 Original: All Praise to the Lunch Ladies
 
-🔗 Read more: https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</description>
-      <guid isPermaLink="true">https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</guid>
-      <pubDate>Fri, 14 Nov 2025 18:20:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929921</comments>
+🔗 Read more: https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</description>
+      <guid isPermaLink="true">https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</guid>
+      <pubDate>Fri, 14 Nov 2025 19:54:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45931403</comments>
     </item>
     <item>
-      <title>타일링 WM으로 다시 이동 - XMonad</title>
-      <link>https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</link>
-      <description>📝 창 관리자에 대한 나의 첫 경험이었습니다. 서식이 지정된 색상이 포함된 제목 표시줄이 추가됩니다. 창 주위에 테두리를 두는 것이 더 멋져 보입니다.
+      <title>Claude 개발자 플랫폼(API)의 구조화된 출력</title>
+      <link>https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</link>
+      <description>📝 가이드: 금융 서비스용 AI 에이전트 구축 NBIM, Brex 등의 팀이 AWS Bedrock에서 Claude를 사용하여 안정적인 AI 에이전트를 구축하는 방법을 알아보세요. 자세히 읽기자세히 읽기가이드: 금융 서비스용 AI 에이전트 구축다음다음NBIM, Brex 등의 팀이 AWS Bedrock에서 Claude를 사용하여 안정적인 AI 에이전트를 구축하는 방법을 알아보세요. 더 읽기자세히 읽기 다음다음 가이드: 금융 서비스용 AI 에이전트 구축 NBIM, Brex 등의 팀이 AWS Bedrock에서 Claude를 사용하여 안정적인 AI 에이전트를 구축하는 방법을 알아보십시오.
 
 
-🔤 Original: Moving Back to a Tiling WM – XMonad
+🔤 Original: Structured Outputs on the Claude Developer Platform (API)
 
-🔗 Read more: https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</description>
-      <guid isPermaLink="true">https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</guid>
-      <pubDate>Fri, 14 Nov 2025 17:04:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928873</comments>
+🔗 Read more: https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</description>
+      <guid isPermaLink="true">https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</guid>
+      <pubDate>Fri, 14 Nov 2025 19:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930598</comments>
     </item>
     <item>
-      <title>노르웨이의 부유세로 인한 자본 탈출</title>
-      <link>https://citizenx.com/insights/norway-wealth-exodus/</link>
-      <description>📝 유럽 ​​전역에 퍼지는 비트코인 ​​세금: 프랑스, ​​이탈리아 합류 프랑스는 방금 비트코인을 부유세의 과세 대상 자산으로 포함할 것이라고 발표했습니다. 이는 프랑스 거주자들이 비트코인의 미실현 자본 이득에 대해 세금을 납부한다는 의미입니다. Alex Recouso 10월 5일 ·뉴스.
+      <title>휴스턴, 우리에게는 문제가 있습니다: 인류가 인공 파도를 탄다 – BIML</title>
+      <link>https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</link>
+      <description>📝 네, 또 인류학입니다. 언론은 Anthropic의 최신 보안 기사에 대해 어떤 질문을 했어야 했을까요? 그는 인류 이야기에 대해서도 썼습니다: https://arstechnica.
 
 
-🔤 Original: Norway's Wealth Tax Unchains a Capital Exodus
+🔤 Original: Houston, We Have a Problem: Anthropic Rides an Artificial Wave – BIML
 
-🔗 Read more: https://citizenx.com/insights/norway-wealth-exodus/</description>
-      <guid isPermaLink="true">https://citizenx.com/insights/norway-wealth-exodus/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:39:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929304</comments>
+🔗 Read more: https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</description>
+      <guid isPermaLink="true">https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</guid>
+      <pubDate>Fri, 14 Nov 2025 20:06:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45931552</comments>
     </item>
     <item>
-      <title>Bitchat for Gaza – 인터넷 없이 메시징</title>
-      <link>https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</link>
-      <description>📝 그 옆에는 네트워크에 연결된 사용자 수가 표시된 아이콘이 표시됩니다. 인터넷에 연결되어 있을 때 가장 잘 작동합니다. 그러면 네트워크 내의 사용자가 참여할 수 있습니다.
+      <title>Mentra(YC W25) 채용: 스마트 안경을 주류로 만들기 위한 성장 책임자</title>
+      <link>https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</link>
+      <description>📝 오픈소스 스마트 안경 운영체제 구축. Mentra는 스마트 안경용 운영체제를 구축하고 있습니다. 스마트 안경용 안드로이드와 같습니다.
 
 
-🔤 Original: Bitchat for Gaza – messaging without internet
+🔤 Original: Mentra (YC W25) Is Hiring: Head of Growth to Make Smart Glasses Mainstream
 
-🔗 Read more: https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</description>
-      <guid isPermaLink="true">https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929358</comments>
+🔗 Read more: https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</guid>
+      <pubDate>Fri, 14 Nov 2025 21:00:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45932131</comments>
     </item>
     <item>
-      <title>망간은 라임병의 양날의 검이다</title>
-      <link>https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</link>
-      <description>📝 망간이 너무 적으면 박테리아가 방어 메커니즘을 잃게 됩니다. 이 발견은 새로운 라임병 치료법의 가능성을 제시합니다.
+      <title>Minisforum은 MS-R1로 전체 팔 홈랩을 채웁니다.</title>
+      <link>https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</link>
+      <description>📝 하지만 이 문제에 관한 다른 모든 것은 다릅니다. 하드웨어 개요 하드웨어부터 시작해 보겠습니다. Mali G720 iGPU가 포함된 12코어 Arm CPU가 있습니다.
 
 
-🔤 Original: Manganese is Lyme disease's double-edge sword
+🔤 Original: Minisforum Stuffs Entire Arm Homelab in the MS-R1
 
-🔗 Read more: https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</description>
-      <guid isPermaLink="true">https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</guid>
-      <pubDate>Fri, 14 Nov 2025 16:51:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928709</comments>
+🔗 Read more: https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</description>
+      <guid isPermaLink="true">https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</guid>
+      <pubDate>Fri, 14 Nov 2025 18:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930284</comments>
     </item>
     <item>
-      <title>당신은 가난하다는 것이 무엇을 의미하는지 오해하고 있습니다.</title>
-      <link>https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</link>
-      <description>📝 가난한 사람은 똑똑하면 안 된다는 생각이 사람들 사이에 있습니다. 절대 개인 시간이 없어야 할까요. 이런 말을 하는 사람들은 파산을 경험해 본 적이 없을 것입니다.
+      <title>HN 표시: Chirp – 실행 파일이 필요하지 않은 ParakeetV3를 사용한 로컬 Windows 받아쓰기</title>
+      <link>https://github.com/Whamp/chirp</link>
+      <description>📝 git cd chirp uv python -m chirp를 실행합니다. exe 실행 프로그램): uv run python -m chirp. main 자세한 정보/디버그 로깅: uv run python -m chirp.
 
 
-🔤 Original: You misunderstand what it means to be poor
+🔤 Original: Show HN: Chirp – Local Windows dictation with ParakeetV3 no executable required
 
-🔗 Read more: https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</description>
-      <guid isPermaLink="true">https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:08:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928912</comments>
+🔗 Read more: https://github.com/Whamp/chirp</description>
+      <guid isPermaLink="true">https://github.com/Whamp/chirp</guid>
+      <pubDate>Fri, 14 Nov 2025 19:07:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930659</comments>
     </item>
     <item>
-      <title>RetailReady(YC W24)에서 채용 중</title>
-      <link>https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</link>
-      <description>📝 우리는 AI 기반 공급망 규정 준수 엔진인 RetailReady(YC W24)입니다. 낡고 섹시하지 않은 업계를 뒤흔들고 있습니다. RetailReady는 소매 공급망을 위해 설계된 최초의 AI 기반 규정 준수 엔진입니다. RetailReady는 AI 기반 공급망 규정 준수 엔진을 구축하고 있습니다.
-
-
-🔤 Original: RetailReady (YC W24) Is Hiring
-
-🔗 Read more: https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</guid>
-      <pubDate>Fri, 14 Nov 2025 17:00:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928822</comments>
-    </item>
-    <item>
-      <title>선형 대수학은 일부 단어가 효과적으로 번역할 수 없는 이유를 설명합니다.</title>
-      <link>https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</link>
-      <description>📝 미쳤다고 하겠지만, 언어 번역은 선형 대수학의 기초를 바꾸는 것과 같다고 생각합니다. 3) 그 숫자는 해당 기저의 벡터 좌표입니다. 동일한 벡터, 다른 기준: 숫자가 다릅니다.
-
-
-🔤 Original: Linear Algebra Explains Why Some Words Are Effectively Untranslatable
-
-🔗 Read more: https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</description>
-      <guid isPermaLink="true">https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</guid>
-      <pubDate>Fri, 14 Nov 2025 14:46:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927210</comments>
-    </item>
-    <item>
-      <title>한 달도 지나지 않아 채팅 제어 기능이 EU에 다시 포함되었습니다.</title>
-      <link>https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</link>
-      <guid isPermaLink="true">https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</guid>
-      <pubDate>Fri, 14 Nov 2025 17:54:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929511</comments>
-    </item>
-    <item>
-      <title>독일, 주권 추진으로 미래 6G 네트워크에서 화웨이 금지</title>
-      <link>https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</link>
-      <description>📝 TechnologyFacebookXLinkedInEmailLinkGiftExpand직원들이 베를린에서 열린 IFA 소비자 가전 박람회 동안 Huawei 스탠드에서 방문객을 기다리고 있습니다. 사진 작가: Jacobia Dahm/BloombergFacebookXLinkedInEmailLinkGift이 기사 선물하기연락처:뉴스 피드백을 제공하거나 오류를 신고하세요기밀 정보입니다. 머츠는 목요일 베를린에서 열린 비즈니스 컨퍼런스에서 "우리는 5G 네트워크 등 가능한 모든 곳에서 부품을 우리가 직접 생산한 부품으로 교체하기로 정부 내에서 결정했다"고 말했다.
-
-
-🔤 Original: Germany to Ban Huawei from Future 6G Network in Sovereignty Push
-
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</guid>
-      <pubDate>Fri, 14 Nov 2025 17:19:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929052</comments>
-    </item>
-    <item>
-      <title>오라클은 AI 베팅으로 인해 월스트리트의 기술 매각에 큰 타격을 입었습니다.</title>
-      <link>https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</link>
-      <description>📝 모든 기기에서 고품질 FT 저널리즘에 대한 완전한 디지털 액세스를 제공합니다. 선택포함 내용 글로벌 뉴스 및 분석전문가 의견Android 및 iOS의 FT 앱FT 편집: iOS 및 웹에서 액세스FirstFT: 그날의 가장 큰 이야기20개 이상의 엄선된 뉴스레터myFTFT 비디오 및 팟캐스트로 주제 팔로우 및 알림 설정공유할 월간 선물 기사 20개Lex: FT의 주력 투자 칼럼15개 이상의 프리미엄 뉴스레터FT Digital Edition: 디지털 인쇄판Standard Digital월 $45고품질 FT에 대한 필수 디지털 액세스 모든 기기에서 저널리즘을 경험하세요. 포함된 내용 글로벌 뉴스 및 분석전문가 의견Android 및 iOSFT의 FT 앱 편집: iOS 및 웹에서 액세스FirstFT: 오늘의 가장 큰 뉴스 20개 이상의 엄선된 뉴스레터myFTFT 비디오 및 팟캐스트로 주제 팔로우 및 알림 설정월별 선물 기사 10개 공유프리미엄 디지털전체 보도 자료$75/월업계 리더의 전문 분석을 통해 고품질 FT 저널리즘에 대한 디지털 액세스를 완료하세요.
-
-
-🔤 Original: Oracle hit hard in Wall Street's tech sell-off over its AI bet
-
-🔗 Read more: https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</description>
-      <guid isPermaLink="true">https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</guid>
-      <pubDate>Fri, 14 Nov 2025 15:04:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927435</comments>
-    </item>
-    <item>
-      <title>'누구도 영원히 살지 않는다'가 25주년이 되었지만 여전히 합법적으로 구입할 수는 없습니다.</title>
-      <link>https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</link>
-      <description>📝 "그래서 우리는 Activision으로 돌아가서 여러 번 주고받은 서신을 통해 그들은 자신들이 어떤 권리를 가질 수 있다고 생각하지만 모든 기록은 디지털 저장 이전의 것이라고 답했습니다. 그리고 그들은 그것에 대해 [그들의] 손이 없다고 고백했습니다. 그리고 그들은 그러한 권리가 있는지조차 확신하지 못했습니다.
-
-
-🔤 Original: 'No One Lives Forever' Turns 25 and You Still Can't Buy It Legitimately
-
-🔗 Read more: https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</description>
-      <guid isPermaLink="true">https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</guid>
-      <pubDate>Fri, 14 Nov 2025 16:31:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928492</comments>
-    </item>
-    <item>
-      <title>미국 기술 시장 트리맵</title>
-      <link>https://caplocus.com/</link>
-      <guid isPermaLink="true">https://caplocus.com/</guid>
-      <pubDate>Fri, 14 Nov 2025 16:42:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928620</comments>
-    </item>
-    <item>
-      <title>과학 다음에는 무엇이 오는가?</title>
-      <link>https://www.science.org/doi/10.1126/science.aec7650</link>
-      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.aec7650</guid>
-      <pubDate>Fri, 14 Nov 2025 14:32:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927042</comments>
+      <title>Show HN: 멍청한 사업 아이디어</title>
+      <link>https://dumbassideas.com</link>
+      <guid isPermaLink="true">https://dumbassideas.com</guid>
+      <pubDate>Fri, 14 Nov 2025 18:18:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929888</comments>
     </item>
   </channel>
 </rss>

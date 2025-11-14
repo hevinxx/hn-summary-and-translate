@@ -6,149 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Nov 2025 18:30:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 21:20:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Meeting notes between Forgejo and the Dutch government via Git commits</title>
-      <link>https://codeberg.org/forgejo/sustainability/pulls/137/files</link>
-      <description>📝 Please note that Anubis requires the use of modern JavaScript features that plugins like JShelter will disable. Please disable JShelter or other such plugins for this domain. This website is running Anubis version 1.
+      <title>AI World Clocks</title>
+      <link>https://clocks.brianmoore.com/</link>
+      <description>📝 Each model is allowed 2000 tokens to generate its clock. Here is its prompt: Create HTML/CSS of an analog clock showing ${time}. Return ONLY the HTML/CSS code with no markdown formatting.
 
-🔗 Read more: https://codeberg.org/forgejo/sustainability/pulls/137/files</description>
-      <guid isPermaLink="true">https://codeberg.org/forgejo/sustainability/pulls/137/files</guid>
-      <pubDate>Fri, 14 Nov 2025 17:35:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929247</comments>
+🔗 Read more: https://clocks.brianmoore.com/</description>
+      <guid isPermaLink="true">https://clocks.brianmoore.com/</guid>
+      <pubDate>Fri, 14 Nov 2025 18:35:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930151</comments>
     </item>
     <item>
-      <title>We Uncovered a Race Condition in Aurora RDS</title>
-      <link>https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</link>
-      <description>📝 AWS Aurora RDS The central datastore for real-time streaming and warehouse delivery of customer events uses Amazon Aurora PostgreSQL. An Aurora cluster consists of: One primary writer instance that handles all write operationsMultiple read replica instances that handle read-only queriesA shared storage layer that all instances access, automatically replicated across multiple availability zones This architecture enables fast failovers and efficient read scaling, but as we'd discover, it also introduces unique failure modes. How Hightouch Events uses Aurora The Plan This was our upgrade plan: Add another read replica (instance #3) to maintain read capacity during the upgrade.
+      <title>All Praise to the Lunch Ladies</title>
+      <link>https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</link>
+      <description>📝 November 4, 2025 Granny won me over with the government cheese. In cooking from scratch as often as possible but also making do with every resource provided to her. Granny tried to be discreet in making sure those kids had plent.
 
-🔗 Read more: https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</description>
-      <guid isPermaLink="true">https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</guid>
-      <pubDate>Fri, 14 Nov 2025 18:20:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929921</comments>
+🔗 Read more: https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</description>
+      <guid isPermaLink="true">https://bittersoutherner.com/issue-no-12/all-praise-to-the-lunch-ladies</guid>
+      <pubDate>Fri, 14 Nov 2025 19:54:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45931403</comments>
     </item>
     <item>
-      <title>Moving Back to a Tiling WM – XMonad</title>
-      <link>https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</link>
-      <description>📝 It was my first experience with any window manager. This adds a title bar with formatted colors. This looks nicer that having a border surrounding the window.
+      <title>Structured Outputs on the Claude Developer Platform (API)</title>
+      <link>https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</link>
+      <description>📝 Guide: Building AI agents for financial servicesLearn how teams at NBIM, Brex, and more build reliable AI agents with Claude on AWS Bedrock. Read moreRead moreRead moreGuide: Building AI agents for financial servicesNextNextLearn how teams at NBIM, Brex, and more build reliable AI agents with Claude on AWS Bedrock. Read moreRead moreRead more NextNext Guide: Building AI agents for financial servicesLearn how teams at NBIM, Brex, and more build reliable AI agents with Claude on AWS Bedrock.
 
-🔗 Read more: https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</description>
-      <guid isPermaLink="true">https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</guid>
-      <pubDate>Fri, 14 Nov 2025 17:04:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928873</comments>
+🔗 Read more: https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</description>
+      <guid isPermaLink="true">https://www.claude.com/blog/structured-outputs-on-the-claude-developer-platform</guid>
+      <pubDate>Fri, 14 Nov 2025 19:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930598</comments>
     </item>
     <item>
-      <title>Norway's Wealth Tax Unchains a Capital Exodus</title>
-      <link>https://citizenx.com/insights/norway-wealth-exodus/</link>
-      <description>📝 Bitcoin Taxes spreading across Europe: France to join Italy France just announced they will include Bitcoin as a taxable asset under the wealth tax, which means that French residents will pay taxes on the unrealized capital gains of their Bitcoin. Alex Recouso Oct 5 ·News.
+      <title>Houston, We Have a Problem: Anthropic Rides an Artificial Wave – BIML</title>
+      <link>https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</link>
+      <description>📝 Yeah, it’s Anthropic again. What question should the press have asked Anthropic about their latest security story. He wrote about the Anthropic story too: https://arstechnica.
 
-🔗 Read more: https://citizenx.com/insights/norway-wealth-exodus/</description>
-      <guid isPermaLink="true">https://citizenx.com/insights/norway-wealth-exodus/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:39:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929304</comments>
+🔗 Read more: https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</description>
+      <guid isPermaLink="true">https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</guid>
+      <pubDate>Fri, 14 Nov 2025 20:06:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45931552</comments>
     </item>
     <item>
-      <title>Bitchat for Gaza – messaging without internet</title>
-      <link>https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</link>
-      <description>📝 Next to it you will see an icon with the number of users connected within your network. These work best when connected to the internet. Users within your network can then join it.
+      <title>Mentra (YC W25) Is Hiring: Head of Growth to Make Smart Glasses Mainstream</title>
+      <link>https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</link>
+      <description>📝 Building the open source smart glasses operating system. Mentra is building the operating system for smart glasses. It's like Android for smart glasses.
 
-🔗 Read more: https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</description>
-      <guid isPermaLink="true">https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929358</comments>
+🔗 Read more: https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/mentra/jobs/2YbQCRw-make-smart-glasses-mainstream-head-of-growth</guid>
+      <pubDate>Fri, 14 Nov 2025 21:00:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45932131</comments>
     </item>
     <item>
-      <title>Manganese is Lyme disease's double-edge sword</title>
-      <link>https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</link>
-      <description>📝 burgdorferi, they also kill beneficial gut bacteria,” Daly said. Too little manganese and the bacteria lose their defense mechanisms. This discovery holds potential for new Lyme disease therapies.
+      <title>Minisforum Stuffs Entire Arm Homelab in the MS-R1</title>
+      <link>https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</link>
+      <description>📝 But everything else about this thing is different. Hardware overview Let's get started with the hardware. You have a 12 core Arm CPU with a Mali G720 iGPU.
 
-🔗 Read more: https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</description>
-      <guid isPermaLink="true">https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</guid>
-      <pubDate>Fri, 14 Nov 2025 16:51:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928709</comments>
+🔗 Read more: https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</description>
+      <guid isPermaLink="true">https://www.jeffgeerling.com/blog/2025/minisforum-stuffs-entire-arm-homelab-ms-r1</guid>
+      <pubDate>Fri, 14 Nov 2025 18:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930284</comments>
     </item>
     <item>
-      <title>You misunderstand what it means to be poor</title>
-      <link>https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</link>
-      <description>📝 There is this mindset from folks that poor people must not be smart. Should I never have any personal time. Folks who say things like this have only ever experienced being broke.
+      <title>Show HN: Chirp – Local Windows dictation with ParakeetV3 no executable required</title>
+      <link>https://github.com/Whamp/chirp</link>
+      <description>📝 git cd chirp uv run python -m chirp. exe launchers): uv run python -m chirp. main Verbose/debug logging: uv run python -m chirp.
 
-🔗 Read more: https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</description>
-      <guid isPermaLink="true">https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:08:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928912</comments>
+🔗 Read more: https://github.com/Whamp/chirp</description>
+      <guid isPermaLink="true">https://github.com/Whamp/chirp</guid>
+      <pubDate>Fri, 14 Nov 2025 19:07:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45930659</comments>
     </item>
     <item>
-      <title>RetailReady (YC W24) Is Hiring</title>
-      <link>https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</link>
-      <description>📝 We’re RetailReady (YC W24), an AI-powered supply chain compliance engine shaking up an antiquated (and yes, unsexy) industry. RetailReady is the first AI-powered compliance engine designed for retail supply chains. RetailReady is building an AI-powered supply chain compliance engine.
-
-🔗 Read more: https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</guid>
-      <pubDate>Fri, 14 Nov 2025 17:00:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928822</comments>
-    </item>
-    <item>
-      <title>Linear Algebra Explains Why Some Words Are Effectively Untranslatable</title>
-      <link>https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</link>
-      <description>📝 Call me crazy, but I think that language translation is like a change of basis in linear algebra. 3) Those numbers are the coordinates of the vectors in that basis. Same vectors, different basis: the numbers are different.
-
-🔗 Read more: https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</description>
-      <guid isPermaLink="true">https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</guid>
-      <pubDate>Fri, 14 Nov 2025 14:46:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927210</comments>
-    </item>
-    <item>
-      <title>Not even a month passed and Chat Control is back in the EU</title>
-      <link>https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</link>
-      <guid isPermaLink="true">https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</guid>
-      <pubDate>Fri, 14 Nov 2025 17:54:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929511</comments>
-    </item>
-    <item>
-      <title>Germany to Ban Huawei from Future 6G Network in Sovereignty Push</title>
-      <link>https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</link>
-      <description>📝 TechnologyFacebookXLinkedInEmailLinkGiftExpandEmployees wait for visitors at the Huawei stand during the IFA Consumer Electronics Show in Berlin. Photographer: Jacobia Dahm/BloombergFacebookXLinkedInEmailLinkGiftGift this articleContact us:Provide news feedback or report an errorConfidential tip. “We have decided within the government that everywhere it’s possible we’ll replace components, for example in the 5G network, with components we have produced ourselves,” Merz told a business conference in Berlin on Thursday.
-
-🔗 Read more: https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</description>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</guid>
-      <pubDate>Fri, 14 Nov 2025 17:19:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45929052</comments>
-    </item>
-    <item>
-      <title>Oracle hit hard in Wall Street's tech sell-off over its AI bet</title>
-      <link>https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</link>
-      <description>📝 Complete digital access to quality FT journalism on any device. SelectWhat's included Global news &amp; analysisExpert opinionFT App on Android &amp; iOSFT Edit: Access on iOS and webFirstFT: the day's biggest stories20+ curated newslettersFollow topics &amp; set alerts with myFTFT Videos &amp; Podcasts20 monthly gift articles to shareLex: FT's flagship investment column15+ Premium newsletters by leading expertsFT Digital Edition: our digitised print editionStandard Digital$45 per monthEssential digital access to quality FT journalism on any device. SelectWhat's included Global news &amp; analysisExpert opinionFT App on Android &amp; iOSFT Edit: Access on iOS and webFirstFT: the day's biggest stories20+ curated newslettersFollow topics &amp; set alerts with myFTFT Videos &amp; Podcasts10 monthly gift articles to sharePremium DigitalComplete coverage$75 per monthComplete digital access to quality FT journalism with expert analysis from industry leaders.
-
-🔗 Read more: https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</description>
-      <guid isPermaLink="true">https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</guid>
-      <pubDate>Fri, 14 Nov 2025 15:04:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927435</comments>
-    </item>
-    <item>
-      <title>'No One Lives Forever' Turns 25 and You Still Can't Buy It Legitimately</title>
-      <link>https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</link>
-      <description>📝 “So we went back to Activision and, [after] numerous correspondence going back and forth, they replied that they thought they might have some rights, but that any records predated digital storage. And they confessed, they didn’t have [their] hands on it. And they weren’t sure that they even had any of those rights.
-
-🔗 Read more: https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</description>
-      <guid isPermaLink="true">https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</guid>
-      <pubDate>Fri, 14 Nov 2025 16:31:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928492</comments>
-    </item>
-    <item>
-      <title>US Tech Market Treemap</title>
-      <link>https://caplocus.com/</link>
-      <guid isPermaLink="true">https://caplocus.com/</guid>
-      <pubDate>Fri, 14 Nov 2025 16:42:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45928620</comments>
-    </item>
-    <item>
-      <title>What Comes After Science?</title>
-      <link>https://www.science.org/doi/10.1126/science.aec7650</link>
-      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.aec7650</guid>
-      <pubDate>Fri, 14 Nov 2025 14:32:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45927042</comments>
+      <title>Show HN: Dumbass Business Ideas</title>
+      <link>https://dumbassideas.com</link>
+      <guid isPermaLink="true">https://dumbassideas.com</guid>
+      <pubDate>Fri, 14 Nov 2025 18:18:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929888</comments>
     </item>
   </channel>
 </rss>
