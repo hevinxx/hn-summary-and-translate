@@ -6,119 +6,185 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 14 Nov 2025 15:20:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 18:30:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我认为没有人想要 Firefox 和 Mozilla 中的人工智能</title>
-      <link>https://manualdousuario.net/en/mozilla-firefox-window-ai/</link>
-      <description>📝 Mozilla 正在为 Firefox 开发内置 AI 助手，该助手将作为普通和私人选项卡之外的第三种浏览模式提供。我们专注于打造最好的浏览器，这意味着要认识到每个人都有不同的需求。无论您如何选择，使用 Firefox，一切尽在您的掌控之中。
+      <title>Forgejo 和荷兰政府通过 Git 提交的会议记录</title>
+      <link>https://codeberg.org/forgejo/sustainability/pulls/137/files</link>
+      <description>📝 请注意，Anubis 需要使用现代 JavaScript 功能，而 JShelter 等插件将禁用这些功能。请为此域禁用 JShelter 或其他此类插件。该网站运行的是 Anubis 版本 1。
 
 
-🔤 Original: I think nobody wants AI in Firefox, Mozilla
+🔤 Original: Meeting notes between Forgejo and the Dutch government via Git commits
 
-🔗 Read more: https://manualdousuario.net/en/mozilla-firefox-window-ai/</description>
-      <guid isPermaLink="true">https://manualdousuario.net/en/mozilla-firefox-window-ai/</guid>
-      <pubDate>Fri, 14 Nov 2025 14:05:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926779</comments>
+🔗 Read more: https://codeberg.org/forgejo/sustainability/pulls/137/files</description>
+      <guid isPermaLink="true">https://codeberg.org/forgejo/sustainability/pulls/137/files</guid>
+      <pubDate>Fri, 14 Nov 2025 17:35:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929247</comments>
     </item>
     <item>
-      <title>AGI 幻想是实际工程的障碍</title>
-      <link>https://www.tomwphillips.co.uk/2025/11/agi-fantasy-is-a-blocker-to-actual-engineering/</link>
-      <description>📝 马斯克明确表示，OpenAI 对 DeepMind 来说是好事。郝写道，GPT-2 是对“纯语言”假设的赌注，该假设断言，既然我们通过语言进行交流，那么 AGI 应该从仅基于语言的模型训练中出现。成功将 GPT 扩展到 GPT-2 让 OpenAI 的足够多的人相信纯语言假设是有效的。
+      <title>我们发现了 Aurora RDS 中的竞争条件</title>
+      <link>https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</link>
+      <description>📝 AWS Aurora RDS 用于客户事件的实时流式传输和仓库交付的中央数据存储使用 Amazon Aurora PostgreSQL。 Aurora 集群由以下部分组成： 一个处理所有写入操作的主写入器实例 处理只读查询的多个只读副本实例 所有实例都访问的共享存储层，自动跨多个可用区复制 该架构可实现快速故障转移和高效的读取扩展，但正如我们发现的，它还引入了独特的故障模式。 Hightouch Events 如何使用 Aurora 计划 这是我们的升级计划：添加另一个只读副本（实例 #3）以在升级期间保持读取容量。
 
 
-🔤 Original: AGI fantasy is a blocker to actual engineering
+🔤 Original: We Uncovered a Race Condition in Aurora RDS
 
-🔗 Read more: https://www.tomwphillips.co.uk/2025/11/agi-fantasy-is-a-blocker-to-actual-engineering/</description>
-      <guid isPermaLink="true">https://www.tomwphillips.co.uk/2025/11/agi-fantasy-is-a-blocker-to-actual-engineering/</guid>
-      <pubDate>Fri, 14 Nov 2025 13:21:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926469</comments>
+🔗 Read more: https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</description>
+      <guid isPermaLink="true">https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</guid>
+      <pubDate>Fri, 14 Nov 2025 18:20:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929921</comments>
     </item>
     <item>
-      <title>EDE：小型且快速的桌面环境</title>
-      <link>https://edeproject.org/</link>
-      <description>📝 EDE - 轻量且快速的桌面环境 EDE 小型且快速的桌面环境 EDE 是一种小型桌面环境，旨在响应迅速、资源使用量轻并具有熟悉的外观和感觉。它可以在 Linux、*BSD、Solaris、Minix、Zaurus 甚至 Xbox 上运行。新闻：Bugzilla 问题已解决博客：秋季清理新闻档案 |关于 |画廊 |维基 |报告错误。
+      <title>回到平铺 WM – XMonad</title>
+      <link>https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</link>
+      <description>📝 这是我第一次使用窗口管理器。这会添加一个带有格式化颜色的标题栏。这看起来比窗口周围有边框更好。
 
 
-🔤 Original: EDE: Small and Fast Desktop Environment
+🔤 Original: Moving Back to a Tiling WM – XMonad
 
-🔗 Read more: https://edeproject.org/</description>
-      <guid isPermaLink="true">https://edeproject.org/</guid>
-      <pubDate>Fri, 14 Nov 2025 12:51:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926263</comments>
+🔗 Read more: https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</description>
+      <guid isPermaLink="true">https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</guid>
+      <pubDate>Fri, 14 Nov 2025 17:04:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928873</comments>
     </item>
     <item>
-      <title>Magit 手册再次在线提供</title>
-      <link>https://github.com/magit/magit/issues/5472</link>
-      <description>📝 请重新加载此页面。我很沮丧#5472新问题复制链接新问题复制链接ClosedClosedmagit。 👍与 👍3bo0ts、drichardson 和 tasmo 进行反应元数据元数据分配者没有人分配标签没有标签没有标签类型没有类型项目没有项目里程碑没有里程碑关系还没有开发没有分支或拉取请求问题操作。
+      <title>挪威的财富税引发资本外流</title>
+      <link>https://citizenx.com/insights/norway-wealth-exodus/</link>
+      <description>📝 比特币税席卷欧洲：法国加入意大利行列 法国刚刚宣布将把比特币作为应税资产纳入财富税中，这意味着法国居民将为其比特币的未实现资本利得纳税。亚历克斯·雷库索 10 月 5 日·新闻。
 
 
-🔤 Original: Magit manuals are available online again
+🔤 Original: Norway's Wealth Tax Unchains a Capital Exodus
 
-🔗 Read more: https://github.com/magit/magit/issues/5472</description>
-      <guid isPermaLink="true">https://github.com/magit/magit/issues/5472</guid>
-      <pubDate>Fri, 14 Nov 2025 12:09:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926037</comments>
+🔗 Read more: https://citizenx.com/insights/norway-wealth-exodus/</description>
+      <guid isPermaLink="true">https://citizenx.com/insights/norway-wealth-exodus/</guid>
+      <pubDate>Fri, 14 Nov 2025 17:39:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929304</comments>
     </item>
     <item>
-      <title>Nvidia 正准备销售服务器而不仅仅是 GPU 和组件</title>
-      <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/jp-morgan-says-nvidia-is-gearing-up-to-sell-entire-ai-servers-instead-of-just-ai-gpus-and-componentry-jensens-master-plan-of-vertical-integration-will-boost-profits-purportedly-starting-with-vera-rubin</link>
-      <description>📝 此举将使主要的 ODM 厂商只需很少的设计或集成工作，让他们的生活变得更轻松，但也会削减他们的利润，以支持 Nvidia 的利润。如果信息正确，并且 Nvidia 确实将为其合作伙伴提供 L10 计算托盘（这可能占服务器成本的 90%），那么 Nvidia 只会留给其合作伙伴机架级集成，而不是服务器设计。然而，Nvidia 的合作伙伴将从系统设计师转变为系统集成商、安装商和支持提供商。
+      <title>Bitchat for Gaza – 无需互联网即可发送消息</title>
+      <link>https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</link>
+      <description>📝 在它旁边，您将看到一个图标，其中包含网络中连接的用户数量。这些在连接到互联网时效果最佳。然后您网络内的用户就可以加入它。
 
 
-🔤 Original: Nvidia is gearing up to sell servers instead of just GPUs and components
+🔤 Original: Bitchat for Gaza – messaging without internet
 
-🔗 Read more: https://www.tomshardware.com/tech-industry/artificial-intelligence/jp-morgan-says-nvidia-is-gearing-up-to-sell-entire-ai-servers-instead-of-just-ai-gpus-and-componentry-jensens-master-plan-of-vertical-integration-will-boost-profits-purportedly-starting-with-vera-rubin</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/jp-morgan-says-nvidia-is-gearing-up-to-sell-entire-ai-servers-instead-of-just-ai-gpus-and-componentry-jensens-master-plan-of-vertical-integration-will-boost-profits-purportedly-starting-with-vera-rubin</guid>
-      <pubDate>Fri, 14 Nov 2025 13:18:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926439</comments>
+🔗 Read more: https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</description>
+      <guid isPermaLink="true">https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</guid>
+      <pubDate>Fri, 14 Nov 2025 17:43:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929358</comments>
     </item>
     <item>
-      <title>2025 年第 3 季度 Backblaze 驱动器统计数据</title>
-      <link>https://www.backblaze.com/blog/backblaze-drive-stats-for-q3-2025/</link>
-      <description>📝 每个季度，Drive Stats 都会向我们提供相关数字。驱动器统计数据：摘要版本 2025 年第三季度硬盘故障率 在 2025 年第三季度，我们跟踪了 328,348 个存储驱动器。 ) 新的驱动器能源：向 24TB 东芝 MG11ACA24TE 问好，加入驱动器池，拥有 2,400 个驱动器和 24,148 个驱动器天数。
+      <title>锰是莱姆病的双刃剑</title>
+      <link>https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</link>
+      <description>📝 Daly 说：“锰对伯氏杆菌来说，它们还会杀死有益的肠道细菌。锰太少，细菌就会失去防御机制。这一发现为莱姆病的新疗法带来了潜力。”
 
 
-🔤 Original: Backblaze Drive Stats for Q3 2025
+🔤 Original: Manganese is Lyme disease's double-edge sword
 
-🔗 Read more: https://www.backblaze.com/blog/backblaze-drive-stats-for-q3-2025/</description>
-      <guid isPermaLink="true">https://www.backblaze.com/blog/backblaze-drive-stats-for-q3-2025/</guid>
-      <pubDate>Fri, 14 Nov 2025 13:10:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926383</comments>
+🔗 Read more: https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</description>
+      <guid isPermaLink="true">https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</guid>
+      <pubDate>Fri, 14 Nov 2025 16:51:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928709</comments>
     </item>
     <item>
-      <title>适用于 OS/X 的 Winamp</title>
-      <link>https://github.com/mgreenwood1001/winamp</link>
-      <description>📝 Winamp macOS 一款原生 macOS 应用程序，可重现播放 MP3 和 FLAC 音频文件的经典 Winamp 体验。 0 或更高版本 使用 Xcode 构建 打开 Winamp。 sh --run 也可以使用 Swift Package Manager swift build swift run 。
+      <title>你误解了贫穷的意义</title>
+      <link>https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</link>
+      <description>📝 人们普遍认为穷人一定不聪明。我应该永远没有私人时间吗？说这种话的人只有经历过破产的经历。
 
 
-🔤 Original: Winamp for OS/X
+🔤 Original: You misunderstand what it means to be poor
 
-🔗 Read more: https://github.com/mgreenwood1001/winamp</description>
-      <guid isPermaLink="true">https://github.com/mgreenwood1001/winamp</guid>
-      <pubDate>Fri, 14 Nov 2025 12:44:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926224</comments>
+🔗 Read more: https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</description>
+      <guid isPermaLink="true">https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</guid>
+      <pubDate>Fri, 14 Nov 2025 17:08:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928912</comments>
     </item>
     <item>
-      <title>不要关闭你的大脑</title>
-      <link>https://computingeducationthings.substack.com/p/22-dont-turn-your-brain-off</link>
-      <guid isPermaLink="true">https://computingeducationthings.substack.com/p/22-dont-turn-your-brain-off</guid>
-      <pubDate>Fri, 14 Nov 2025 13:12:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926395</comments>
+      <title>RetailReady (YC W24) 正在招聘</title>
+      <link>https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</link>
+      <description>📝 我们是 RetailReady (YC W24)，这是一个人工智能驱动的供应链合规引擎，撼动了一个过时的（是的，不吸引人的）行业。 RetailReady 是第一个专为零售供应链设计的人工智能驱动的合规引擎。 RetailReady 正在构建人工智能驱动的供应链合规引擎。
+
+
+🔤 Original: RetailReady (YC W24) Is Hiring
+
+🔗 Read more: https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</guid>
+      <pubDate>Fri, 14 Nov 2025 17:00:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928822</comments>
     </item>
     <item>
-      <title>到达雷达</title>
-      <link>https://entropicthoughts.com/arrival-radar</link>
-      <description>📝 进场雷达 您的目标是让飞机尽快着陆，同时保持飞机之间的距离，为此您可以为飞机分配到达最终进场的航线。这种限制带来了一些挑战，因为飞机随机到达，并且最终往往会违反最小间隔，除非您巧妙且积极地分配路线。为了防止冲突，您必须熟练地重新分配航线并要求飞机在特定航路点加入其航线。
+      <title>线性代数解释了为什么有些单词实际上是不可翻译的</title>
+      <link>https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</link>
+      <description>📝 你可以说我疯了，但我认为语言翻译就像线性代数基础的改变。 3）这些数字是该基中向量的坐标。相同的向量，不同的基础：数字不同。
 
 
-🔤 Original: Arrival Radar
+🔤 Original: Linear Algebra Explains Why Some Words Are Effectively Untranslatable
 
-🔗 Read more: https://entropicthoughts.com/arrival-radar</description>
-      <guid isPermaLink="true">https://entropicthoughts.com/arrival-radar</guid>
-      <pubDate>Fri, 14 Nov 2025 12:23:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926105</comments>
+🔗 Read more: https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</description>
+      <guid isPermaLink="true">https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</guid>
+      <pubDate>Fri, 14 Nov 2025 14:46:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45927210</comments>
+    </item>
+    <item>
+      <title>不到一个月，聊天控制又回到了欧盟</title>
+      <link>https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</link>
+      <guid isPermaLink="true">https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</guid>
+      <pubDate>Fri, 14 Nov 2025 17:54:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929511</comments>
+    </item>
+    <item>
+      <title>德国将禁止华为参与未来 6G 网络以推动主权</title>
+      <link>https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</link>
+      <description>📝 在柏林 IFA 消费电子展期间，员工在华为展台等待参观者。摄影师：Jacobia Dahm/BloombergFacebookXLinkedInEmailLinkGiftGift 赠送本文联系我们：提供新闻反馈或报告错误机密提示。默茨周四在柏林举行的一次商业会议上表示：“我们在政府内部决定，在任何可能的地方，我们都将用我们自己生产的组件来更换组件，例如 5G 网络中的组件。”
+
+
+🔤 Original: Germany to Ban Huawei from Future 6G Network in Sovereignty Push
+
+🔗 Read more: https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</description>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</guid>
+      <pubDate>Fri, 14 Nov 2025 17:19:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929052</comments>
+    </item>
+    <item>
+      <title>甲骨文因押注人工智能而遭受华尔街科技股抛售的沉重打击</title>
+      <link>https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</link>
+      <description>📝 在任何设备上以数字方式完整访问高质量的《金融时报》新闻。选择包含内容 全球新闻与分析 专家意见 FT Android 和 iOS 版应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精心策划的时事通讯 通过 myFTFT 视频和播客关注主题并设置提醒 20 篇每月赠送文章可供分享 Lex：FT 的旗舰投资专栏 15 多篇由领先专家撰写的高级时事通讯 FT 数字版：我们的数字化印刷版标准数字每月 45 美元 获取优质 FT 的基本数字访问权限任何设备上的新闻报道。选择包含内容 全球新闻与分析 专家意见 Android 和 iOS 上的 FT 应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精心策划的时事通讯 通过 myFTFT 视频和播客关注主题并设置提醒 10 篇每月赠送文章可供分享 优质数字版完整报道 每月 75 美元 通过行业领导者的专家分析以数字方式全面获取优质 FT 新闻报道。
+
+
+🔤 Original: Oracle hit hard in Wall Street's tech sell-off over its AI bet
+
+🔗 Read more: https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</description>
+      <guid isPermaLink="true">https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</guid>
+      <pubDate>Fri, 14 Nov 2025 15:04:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45927435</comments>
+    </item>
+    <item>
+      <title>《没有人永生》已经 25 岁了，你仍然无法合法购买它</title>
+      <link>https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</link>
+      <description>📝 “所以我们回到动视公司，在多次来回通信之后，他们回答说他们认为自己可能拥有一些权利，但任何记录都早于数字存储。他们承认，他们没有亲手掌握这些权利。他们甚至不确定自己是否拥有任何这些权利。
+
+
+🔤 Original: 'No One Lives Forever' Turns 25 and You Still Can't Buy It Legitimately
+
+🔗 Read more: https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</description>
+      <guid isPermaLink="true">https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</guid>
+      <pubDate>Fri, 14 Nov 2025 16:31:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928492</comments>
+    </item>
+    <item>
+      <title>美国科技市场树状图</title>
+      <link>https://caplocus.com/</link>
+      <guid isPermaLink="true">https://caplocus.com/</guid>
+      <pubDate>Fri, 14 Nov 2025 16:42:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928620</comments>
+    </item>
+    <item>
+      <title>科学之后会发生什么？</title>
+      <link>https://www.science.org/doi/10.1126/science.aec7650</link>
+      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.aec7650</guid>
+      <pubDate>Fri, 14 Nov 2025 14:32:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45927042</comments>
     </item>
   </channel>
 </rss>

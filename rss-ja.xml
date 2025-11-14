@@ -6,119 +6,185 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 14 Nov 2025 15:20:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 18:30:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Firefox や Mozilla に AI を望んでいる人はいないと思います</title>
-      <link>https://manualdousuario.net/en/mozilla-firefox-window-ai/</link>
-      <description>📝 Mozilla は、Firefox 用の組み込み AI アシスタントを開発中です。これは、通常タブとプライベート タブと並んで 3 番目のブラウジング モードとして提供される予定です。私たちは最高のブラウザーを作ることに重点を置いています。これは、人それぞれに異なるニーズがあることを認識していることを意味します。どちらを選択しても、Firefox では自分でコントロールできます。
+      <title>Git コミットを介した Forgejo とオランダ政府の間の会議記録</title>
+      <link>https://codeberg.org/forgejo/sustainability/pulls/137/files</link>
+      <description>📝 Anubis では最新の JavaScript 機能を使用する必要があるため、JShelter などのプラグインでは無効になることに注意してください。このドメインの JShelter またはその他の同様のプラグインを無効にしてください。この Web サイトは Anubis バージョン 1 を実行しています。
 
 
-🔤 Original: I think nobody wants AI in Firefox, Mozilla
+🔤 Original: Meeting notes between Forgejo and the Dutch government via Git commits
 
-🔗 Read more: https://manualdousuario.net/en/mozilla-firefox-window-ai/</description>
-      <guid isPermaLink="true">https://manualdousuario.net/en/mozilla-firefox-window-ai/</guid>
-      <pubDate>Fri, 14 Nov 2025 14:05:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926779</comments>
+🔗 Read more: https://codeberg.org/forgejo/sustainability/pulls/137/files</description>
+      <guid isPermaLink="true">https://codeberg.org/forgejo/sustainability/pulls/137/files</guid>
+      <pubDate>Fri, 14 Nov 2025 17:35:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929247</comments>
     </item>
     <item>
-      <title>AGI の幻想は実際のエンジニアリングの妨げとなります</title>
-      <link>https://www.tomwphillips.co.uk/2025/11/agi-fantasy-is-a-blocker-to-actual-engineering/</link>
-      <description>📝 マスク氏は、OpenAI が DeepMind の悪に対する善であることを明白に明らかにするでしょう。ハオ氏は、GPT-2 は「純粋言語」仮説への賭けだったと書いています。この仮説は、私たちは言語を通じてコミュニケーションを行っているため、AGI は言語のみに基づいてモデルをトレーニングすることから生まれるはずだと主張しています。 GPT を GPT-2 にスケーリングすることに成功したことで、OpenAI の十分な数の人々が純粋言語仮説が有効であると確信しました。
+      <title>Aurora RDS の競合状態を発見しました</title>
+      <link>https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</link>
+      <description>📝 AWS Aurora RDS 顧客イベントのリアルタイムストリーミングとウェアハウス配信のための中央データストアは、Amazon Aurora PostgreSQL を使用します。 Aurora クラスターは次のもので構成されます。 すべての書き込み操作を処理する 1 つのプライマリ ライター インスタンス 読み取り専用クエリを処理する複数のリードレプリカ インスタンス すべてのインスタンスがアクセスし、複数のアベイラビリティ ゾーン間で自動的にレプリケートされる共有ストレージ レイヤー このアーキテクチャにより、高速フェイルオーバーと効率的な読み取りスケーリングが可能になりますが、後でわかるように、固有の障害モードも導入されます。 Hightouch Events による Aurora の使用方法 計画 これは私たちのアップグレード計画でした。アップグレード中に読み取り容量を維持するために、別のリードレプリカ (インスタンス #3) を追加します。
 
 
-🔤 Original: AGI fantasy is a blocker to actual engineering
+🔤 Original: We Uncovered a Race Condition in Aurora RDS
 
-🔗 Read more: https://www.tomwphillips.co.uk/2025/11/agi-fantasy-is-a-blocker-to-actual-engineering/</description>
-      <guid isPermaLink="true">https://www.tomwphillips.co.uk/2025/11/agi-fantasy-is-a-blocker-to-actual-engineering/</guid>
-      <pubDate>Fri, 14 Nov 2025 13:21:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926469</comments>
+🔗 Read more: https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</description>
+      <guid isPermaLink="true">https://hightouch.com/blog/uncovering-a-race-condition-in-aurora-rds</guid>
+      <pubDate>Fri, 14 Nov 2025 18:20:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929921</comments>
     </item>
     <item>
-      <title>EDE: 小型で高速なデスクトップ環境</title>
-      <link>https://edeproject.org/</link>
-      <description>📝 EDE - 軽量で高速なデスクトップ環境 EDE 小型で高速なデスクトップ環境 EDE は、応答性が高く、リソース使用量が少なく、見慣れた外観と操作性を備えた小規模なデスクトップ環境です。 Linux、*BSD、Solaris、Minix、Zaurus、さらには XBox 上でも動作します。ニュース: Bugzilla の問題が解決されました ブログ: 秋のクリーンアップ ホーム |ニュースアーカイブ |概要 |ギャラリー |ウィキ |バグを報告してください。
+      <title>タイリング WM に戻る – XMonad</title>
+      <link>https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</link>
+      <description>📝 ウィンドウマネージャーを使用するのは初めての経験でした。これにより、書式設定された色を含むタイトル バーが追加されます。これは、ウィンドウを囲む境界線を設けるよりも見栄えが良くなります。
 
 
-🔤 Original: EDE: Small and Fast Desktop Environment
+🔤 Original: Moving Back to a Tiling WM – XMonad
 
-🔗 Read more: https://edeproject.org/</description>
-      <guid isPermaLink="true">https://edeproject.org/</guid>
-      <pubDate>Fri, 14 Nov 2025 12:51:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926263</comments>
+🔗 Read more: https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</description>
+      <guid isPermaLink="true">https://wssite.vercel.app/blog/moving-back-to-a-tiling-wm-xmonad</guid>
+      <pubDate>Fri, 14 Nov 2025 17:04:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928873</comments>
     </item>
     <item>
-      <title>Magit マニュアルがオンラインで再び入手可能になりました</title>
-      <link>https://github.com/magit/magit/issues/5472</link>
-      <description>📝 このページをリロードしてください。私はダウンしています #5472新着号 リンクをコピー新着号 リンクをコピークローズクローズクローズmagit。 👍3bo0ts、drichardson、tasmo に反応しますメタデータメタデータ担当者誰も割り当てられていませんラベルなしラベルなしタイプなしプロジェクトなしプロジェクトなしマイルストーンなしマイルストーンなし関係まだなし開発ブランチまたはプルリクエストなしアクションを発行します。
+      <title>ノルウェーの富裕税が資本流出の連鎖を解く</title>
+      <link>https://citizenx.com/insights/norway-wealth-exodus/</link>
+      <description>📝 ヨーロッパ全土に広がるビットコイン税：フランスもイタリアに加わる フランスは富裕税の課税対象資産にビットコインを含めると発表したばかりで、これはフランス居住者がビットコインの含み益キャピタルゲインに対して税金を支払うことを意味する。 Alex Recouso 10月5日 ·ニュース。
 
 
-🔤 Original: Magit manuals are available online again
+🔤 Original: Norway's Wealth Tax Unchains a Capital Exodus
 
-🔗 Read more: https://github.com/magit/magit/issues/5472</description>
-      <guid isPermaLink="true">https://github.com/magit/magit/issues/5472</guid>
-      <pubDate>Fri, 14 Nov 2025 12:09:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926037</comments>
+🔗 Read more: https://citizenx.com/insights/norway-wealth-exodus/</description>
+      <guid isPermaLink="true">https://citizenx.com/insights/norway-wealth-exodus/</guid>
+      <pubDate>Fri, 14 Nov 2025 17:39:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929304</comments>
     </item>
     <item>
-      <title>NvidiaはGPUやコンポーネントだけでなくサーバーの販売も準備中</title>
-      <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/jp-morgan-says-nvidia-is-gearing-up-to-sell-entire-ai-servers-instead-of-just-ai-gpus-and-componentry-jensens-master-plan-of-vertical-integration-will-boost-profits-purportedly-starting-with-vera-rubin</link>
-      <description>📝 この動きにより、大手 ODM は設計や統合の作業がほとんどなくなり、業務が楽になりますが、利益率も縮小して Nvidia に有利になることになります。情報が正しく、Nvidia が実際に L10 コンピューティング トレイ (おそらくサーバーのコストの 90% を占める) をパートナーに出荷する場合、Nvidia はサーバーの設計ではなくラックレベルの統合のみをパートナーに残すことになります。ただし、Nvidia のパートナーはシステム設計者から、システム インテグレーター、インストーラー、サポート プロバイダーへと移行することになります。
+      <title>ガザのBitchat – インターネットなしでメッセージング</title>
+      <link>https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</link>
+      <description>📝 その横に、ネットワーク内で接続しているユーザーの数を示すアイコンが表示されます。これらは、インターネットに接続されている場合に最適に機能します。ネットワーク内のユーザーはネットワークに参加できるようになります。
 
 
-🔤 Original: Nvidia is gearing up to sell servers instead of just GPUs and components
+🔤 Original: Bitchat for Gaza – messaging without internet
 
-🔗 Read more: https://www.tomshardware.com/tech-industry/artificial-intelligence/jp-morgan-says-nvidia-is-gearing-up-to-sell-entire-ai-servers-instead-of-just-ai-gpus-and-componentry-jensens-master-plan-of-vertical-integration-will-boost-profits-purportedly-starting-with-vera-rubin</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/jp-morgan-says-nvidia-is-gearing-up-to-sell-entire-ai-servers-instead-of-just-ai-gpus-and-componentry-jensens-master-plan-of-vertical-integration-will-boost-profits-purportedly-starting-with-vera-rubin</guid>
-      <pubDate>Fri, 14 Nov 2025 13:18:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926439</comments>
+🔗 Read more: https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</description>
+      <guid isPermaLink="true">https://updates.techforpalestine.org/bitchat-for-gaza-messaging-without-internet/</guid>
+      <pubDate>Fri, 14 Nov 2025 17:43:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929358</comments>
     </item>
     <item>
-      <title>2025 年第 3 四半期の Backblaze ドライブ統計</title>
-      <link>https://www.backblaze.com/blog/backblaze-drive-stats-for-q3-2025/</link>
-      <description>📝 Drive Stats は四半期ごとに数値を提供します。ドライブ統計: 2025 年第 3 四半期のハード ドライブの故障率のダイジェスト バージョン 2025 年第 3 四半期、当社は 328,348 台のストレージ ドライブを追跡しました。 ) その新しいドライブ エネルギー: 24 TB Toshiba MG11ACA24TE が、2,400 ドライブと 24,148 ドライブ日のドライブ プールに加わりました。
+      <title>マンガンはライム病の諸刃の剣</title>
+      <link>https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</link>
+      <description>📝 「マンガンが少なすぎると、細菌は防御機構を失います。この発見は、新しいライム病治療法につながる可能性を秘めています。」とデーリー博士は語った。
 
 
-🔤 Original: Backblaze Drive Stats for Q3 2025
+🔤 Original: Manganese is Lyme disease's double-edge sword
 
-🔗 Read more: https://www.backblaze.com/blog/backblaze-drive-stats-for-q3-2025/</description>
-      <guid isPermaLink="true">https://www.backblaze.com/blog/backblaze-drive-stats-for-q3-2025/</guid>
-      <pubDate>Fri, 14 Nov 2025 13:10:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926383</comments>
+🔗 Read more: https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</description>
+      <guid isPermaLink="true">https://news.northwestern.edu/stories/2025/11/manganese-is-lyme-diseases-double-edge-sword</guid>
+      <pubDate>Fri, 14 Nov 2025 16:51:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928709</comments>
     </item>
     <item>
-      <title>OS/X用Winamp</title>
-      <link>https://github.com/mgreenwood1001/winamp</link>
-      <description>📝 Winamp macOS MP3 および FLAC オーディオ ファイルを再生するためのクラシックな Winamp エクスペリエンスを再現するネイティブ macOS アプリケーション。 0 以降 Xcode を使用したビルド Winamp を開きます。 sh --run Swift パッケージ マネージャーを使用して、swift build swift run を代わりに使用します。
+      <title>あなたは貧しいということが何を意味するのか誤解しています</title>
+      <link>https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</link>
+      <description>📝 貧しい人は賢くてはいけないという考え方が人々の間にあります。個人的な時間は絶対に持たないほうがいいでしょうか。このようなことを言う人は、破産した経験しかありません。
 
 
-🔤 Original: Winamp for OS/X
+🔤 Original: You misunderstand what it means to be poor
 
-🔗 Read more: https://github.com/mgreenwood1001/winamp</description>
-      <guid isPermaLink="true">https://github.com/mgreenwood1001/winamp</guid>
-      <pubDate>Fri, 14 Nov 2025 12:44:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926224</comments>
+🔗 Read more: https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</description>
+      <guid isPermaLink="true">https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/</guid>
+      <pubDate>Fri, 14 Nov 2025 17:08:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928912</comments>
     </item>
     <item>
-      <title>脳のスイッチを切らないでください</title>
-      <link>https://computingeducationthings.substack.com/p/22-dont-turn-your-brain-off</link>
-      <guid isPermaLink="true">https://computingeducationthings.substack.com/p/22-dont-turn-your-brain-off</guid>
-      <pubDate>Fri, 14 Nov 2025 13:12:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926395</comments>
+      <title>RetailReady (YC W24) が人材を募集しています</title>
+      <link>https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</link>
+      <description>📝 私たちは RetailReady (YC W24) です。AI を活用したサプライ チェーン コンプライアンス エンジンで、時代遅れの (そして、確かに魅力的ではない) 業界に変革をもたらします。 RetailReady は、小売サプライ チェーン向けに設計された初の AI を活用したコンプライアンス エンジンです。 RetailReady は、AI を活用したサプライ チェーン コンプライアンス エンジンを構築しています。
+
+
+🔤 Original: RetailReady (YC W24) Is Hiring
+
+🔗 Read more: https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/retailready/jobs/kGHAith-support-engineer</guid>
+      <pubDate>Fri, 14 Nov 2025 17:00:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928822</comments>
     </item>
     <item>
-      <title>到着レーダー</title>
-      <link>https://entropicthoughts.com/arrival-radar</link>
-      <description>📝 到着レーダー あなたの目的は、飛行機間の距離を維持しながらできるだけ早く飛行機を着陸させることであり、これを行うには、最終進入に向かうルートを飛行機に割り当てます。この制約により、飛行機はランダムに到着し、ルートを賢明かつ積極的に割り当てない限り、最終的に最小分離距離に違反する傾向があるため、いくつかの課題が生じます。競合を防ぐには、ルートを再割り当てし、飛行機に特定のウェイポイントでルートに参加するよう巧みに依頼する必要があります。
+      <title>一部の単語が事実上翻訳不可能である理由を線形代数が説明する</title>
+      <link>https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</link>
+      <description>📝 頭がおかしいと言われるかもしれませんが、私は言語翻訳は線形代数における基底の変更に似ていると考えています。 3) これらの数値は、その基底におけるベクトルの座標です。同じベクトル、異なる基底: 数値が異なります。
 
 
-🔤 Original: Arrival Radar
+🔤 Original: Linear Algebra Explains Why Some Words Are Effectively Untranslatable
 
-🔗 Read more: https://entropicthoughts.com/arrival-radar</description>
-      <guid isPermaLink="true">https://entropicthoughts.com/arrival-radar</guid>
-      <pubDate>Fri, 14 Nov 2025 12:23:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45926105</comments>
+🔗 Read more: https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</description>
+      <guid isPermaLink="true">https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable</guid>
+      <pubDate>Fri, 14 Nov 2025 14:46:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45927210</comments>
+    </item>
+    <item>
+      <title>1 か月も経たないうちにチャット コントロールが EU に戻ってきました</title>
+      <link>https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</link>
+      <guid isPermaLink="true">https://reclaimthenet.org/the-disguised-return-of-the-eus-private-message-scanning-plot</guid>
+      <pubDate>Fri, 14 Nov 2025 17:54:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929511</comments>
+    </item>
+    <item>
+      <title>ドイツ、主権主張で将来の6Gネットワ​​ークからファーウェイを禁止へ</title>
+      <link>https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</link>
+      <description>📝 ベルリンで開催中の IFA コンシューマー エレクトロニクス ショーの期間中、ファーウェイのスタンドで来場者を待つ従業員。写真家: Jacobia Dahm/BloombergFacebookXLinkedInEmailLinkギフトこの記事を贈るお問い合わせ:ニュースのフィードバックを提供するか、エラーを報告してください機密情報。メルツ氏は木曜日、ベルリンで開催されたビジネスカンファレンスで、「政府内で、例えば5Gネットワ​​ークなどのコンポーネントを可能な限り、自社で製造したコンポーネントに置き換えることを決定した」と語った。
+
+
+🔤 Original: Germany to Ban Huawei from Future 6G Network in Sovereignty Push
+
+🔗 Read more: https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</description>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2025-11-13/germany-to-ban-huawei-from-future-6g-network-in-sovereignty-push</guid>
+      <pubDate>Fri, 14 Nov 2025 17:19:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45929052</comments>
+    </item>
+    <item>
+      <title>オラクルはAIへの投資を巡るウォール街のテクノロジー株下落で大打撃を受けた</title>
+      <link>https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</link>
+      <description>📝 あらゆるデバイスから高品質の FT ジャーナリズムに完全にデジタル アクセスできます。含まれるものを選択グローバル ニュースと分析専門家の意見Android および iOS の FT アプリFT 編集: iOS および Web でアクセスファーストFT: その日の最大のニュース 20 件以上の厳選されたニュースレターmyFTFT ビデオとポッドキャストでトピックをフォローし、アラートを設定20 件の月間ギフト記事を共有Lex: FT の主力投資コラム一流の専門家による 15 件以上のプレミアム ニュースレターFT デジタル版: デジタル化された印刷版スタンダード デジタル質の高い FT ジャーナリズムへの必須のデジタル アクセスどのデバイスでも。含まれるものを選択グローバル ニュースと分析専門家の意見Android および iOS の FT アプリFT 編集: iOS および Web でアクセスファーストFT: その日の最大のストーリー 20 以上の厳選されたニュースレターmyFTFT ビデオとポッドキャストでトピックをフォローし、アラートを設定共有できる毎月のギフト記事 10 件プレミアム デジタル完全な報道月額 75 ドル業界リーダーによる専門分析を備えた、質の高い FT ジャーナリズムへの完全なデジタル アクセス。
+
+
+🔤 Original: Oracle hit hard in Wall Street's tech sell-off over its AI bet
+
+🔗 Read more: https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</description>
+      <guid isPermaLink="true">https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e</guid>
+      <pubDate>Fri, 14 Nov 2025 15:04:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45927435</comments>
+    </item>
+    <item>
+      <title>『No One Lives Forever』は25周年を迎えてもまだ合法的に購入できない</title>
+      <link>https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</link>
+      <description>📝 「そこで私たちはアクティビジョンに戻り、何度もやりとりを行った後、彼らは、自分たちには何らかの権利があるかもしれないが、記録はデジタル保存される以前のものであると答えました。そして彼らは、それを手にしていなかった、と告白しました。そして、自分たちがそれらの権利を持っているかどうかさえ確信が持てませんでした。」
+
+
+🔤 Original: 'No One Lives Forever' Turns 25 and You Still Can't Buy It Legitimately
+
+🔗 Read more: https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</description>
+      <guid isPermaLink="true">https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/</guid>
+      <pubDate>Fri, 14 Nov 2025 16:31:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928492</comments>
+    </item>
+    <item>
+      <title>米国テクノロジー市場ツリーマップ</title>
+      <link>https://caplocus.com/</link>
+      <guid isPermaLink="true">https://caplocus.com/</guid>
+      <pubDate>Fri, 14 Nov 2025 16:42:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45928620</comments>
+    </item>
+    <item>
+      <title>科学の後に何が来るのか？</title>
+      <link>https://www.science.org/doi/10.1126/science.aec7650</link>
+      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.aec7650</guid>
+      <pubDate>Fri, 14 Nov 2025 14:32:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45927042</comments>
     </item>
   </channel>
 </rss>
