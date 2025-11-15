@@ -6,34 +6,100 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 15 Nov 2025 15:19:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 18:26:30 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>C でタイプセーフなジェネリックスを記述する方法</title>
-      <link>https://raphgl.github.io/blog/generics-in-c.html</link>
-      <description>📝 ヘッダーのインスタンス化は次のようになります。 #define VEC_ITEM_TYPE long long #define VEC_SUFFIX num #include "vector. #define G(name) name##_##VEC_ITEM_TYPE ただし、これは機能しません。そこで、VEC_SUFFIX を導入します。 #ifndef VEC_ITEM_TYPE #error VEC_ITEM_TYPE が定義されていません #endif #ifndef VEC_SUFFIX #define VEC_SUFFIX VEC_ITEM_TYPE #endif #define __G(name, type) name##_##type #define _G(name, type) __G(name, type) #define G(name) _G(name, VEC_SUFFIX) これで、ライブラリを自由に実装できるようになりました。
-
-
-🔤 Original: How to write type-safe generics in C
-
-🔗 Read more: https://raphgl.github.io/blog/generics-in-c.html</description>
-      <guid isPermaLink="true">https://raphgl.github.io/blog/generics-in-c.html</guid>
-      <pubDate>Sat, 15 Nov 2025 13:58:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937518</comments>
+      <title>Windows 11 用 Windhawk Windows クラシック テーマ MOD</title>
+      <link>https://windhawk.net/mods/classic-theme-enable</link>
+      <guid isPermaLink="true">https://windhawk.net/mods/classic-theme-enable</guid>
+      <pubDate>Sat, 15 Nov 2025 16:53:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938723</comments>
     </item>
     <item>
-      <title>Kagi Bloopers – 検索結果が間違っています</title>
-      <link>https://help.kagi.com/kagi/bloopers/</link>
-      <description>📝 ハッカー 元々はマストドンにいた。ハーフポニー 元々はDiscordにいたものです。もともと X にありました。
+      <title>Fujitsu Lifebook U729 上の Linux</title>
+      <link>https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</link>
+      <description>📝 これはラップトップに付属していました。富士通製BIOSアップデートツールです。新しい BIOS バージョンが必要です。
 
 
-🔤 Original: Kagi Bloopers – Search Results Gone Wrong
+🔤 Original: Linux on the Fujitsu Lifebook U729
 
-🔗 Read more: https://help.kagi.com/kagi/bloopers/</description>
-      <guid isPermaLink="true">https://help.kagi.com/kagi/bloopers/</guid>
-      <pubDate>Sat, 15 Nov 2025 12:23:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936964</comments>
+🔗 Read more: https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</description>
+      <guid isPermaLink="true">https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</guid>
+      <pubDate>Sat, 15 Nov 2025 15:19:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45937989</comments>
+    </item>
+    <item>
+      <title>分散を最小限に抑えるために平均に重み付けをする</title>
+      <link>https://www.johndcook.com/blog/2025/11/12/minimum-variance/</link>
+      <description>📝 A が B よりもボラティリティが高いとします。この問題を形式化し、最適な割り当てを決定し、問題をより多くの資産に一般化します。複数の変数 ここで、1 から n まで実行される n 個の独立した確率変数 Xi for i があり、変数の少なくとも 1 つが定数ではないと仮定します。
+
+
+🔤 Original: Weighting an average to minimize variance
+
+🔗 Read more: https://www.johndcook.com/blog/2025/11/12/minimum-variance/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/12/minimum-variance/</guid>
+      <pubDate>Sat, 15 Nov 2025 15:25:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938027</comments>
+    </item>
+    <item>
+      <title>富</title>
+      <link>https://saul.pw/mag/wealth/</link>
+      <description>📝 一般に、誰かの富のレベルはその純資産から推測できます。車の外で生活していない場合は、カウチサーフィンをしています。定住住所を持っている場合は、他の誰かと一緒に住んでおり、低額または柔軟な家賃を払っています。 ↑2富hの人。
+
+
+🔤 Original: Wealth
+
+🔗 Read more: https://saul.pw/mag/wealth/</description>
+      <guid isPermaLink="true">https://saul.pw/mag/wealth/</guid>
+      <pubDate>Sat, 15 Nov 2025 16:16:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938427</comments>
+    </item>
+    <item>
+      <title>Trellis AI (YC W24) が採用中: 救命治療へのアクセスを合理化</title>
+      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</link>
+      <description>📝 私たちはこれを、文書の取り込み、事前の承認、および大規模な申し立てを自動化することで、業務を合理化し、ケアを加速することによって実現します。 Trellis は、医療提供者がサービス前の事務手続きを排除しながら、より多くの患者をより迅速に治療できるように支援します。当社は文書の取り込み、事前の承認、異議申し立てを大規模に自動化して、業務を合理化し、ケアを迅速化します。
+
+
+🔤 Original: Trellis AI (YC W24) Is Hiring: Streamline access to life-saving therapies
+
+🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</guid>
+      <pubDate>Sat, 15 Nov 2025 17:00:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938785</comments>
+    </item>
+    <item>
+      <title>ISO 42001 認定の AI ガバナンス プログラムを 6 か月で導入しました</title>
+      <link>https://beabytes.com/iso42001-certified-ai-governance/</link>
+      <guid isPermaLink="true">https://beabytes.com/iso42001-certified-ai-governance/</guid>
+      <pubDate>Sat, 15 Nov 2025 17:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938815</comments>
+    </item>
+    <item>
+      <title>迷惑なことを我慢する方法</title>
+      <link>https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</link>
+      <description>📝 これらはあなたの人生の流れを混乱させるような種類の出来事ではありません。それらは通常、予期せずやって来て、ストレスを引き起こし、流れを中断します。それがすべてを変えました。
+
+
+🔤 Original: How to tolerate annoying things
+
+🔗 Read more: https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</description>
+      <guid isPermaLink="true">https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</guid>
+      <pubDate>Sat, 15 Nov 2025 14:53:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45937816</comments>
+    </item>
+    <item>
+      <title>マイティ・シンプレックス (2023)</title>
+      <link>https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</link>
+      <description>📝 シンプレックス ジオメトリ このブログでは、ジオメトリを通常のシンプレックスに限定します。各ノードは同等であり、相互にリンクされています。各ノードは料金です。
+
+
+🔤 Original: The Mighty Simplex (2023)
+
+🔗 Read more: https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</description>
+      <guid isPermaLink="true">https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</guid>
+      <pubDate>Sat, 15 Nov 2025 16:49:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938698</comments>
     </item>
   </channel>
 </rss>

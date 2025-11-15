@@ -6,34 +6,100 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Nov 2025 15:19:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 18:26:30 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>如何用 C 语言编写类型安全的泛型</title>
-      <link>https://raphgl.github.io/blog/generics-in-c.html</link>
-      <description>📝 标头实例化应该如下所示： #define VEC_ITEM_TYPE long long #define VEC_SUFFIX num #include "vector. #define G(name) name##_##VEC_ITEM_TYPE 但是，这不起作用。所以我们将引入一个 VEC_SUFFIX： #ifndef VEC_ITEM_TYPE #error VEC_ITEM_TYPE was not Defined #endif #ifndef VEC_SUFFIX #define VEC_SUFFIX VEC_ITEM_TYPE #endif #define __G(name, type) name##_##type #define _G(name, type) __G(name, type) #define G(name) _G(name, VEC_SUFFIX) 现在我们可以自由地实现我们的库了。
-
-
-🔤 Original: How to write type-safe generics in C
-
-🔗 Read more: https://raphgl.github.io/blog/generics-in-c.html</description>
-      <guid isPermaLink="true">https://raphgl.github.io/blog/generics-in-c.html</guid>
-      <pubDate>Sat, 15 Nov 2025 13:58:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937518</comments>
+      <title>适用于 Windows 11 的 Windhawk Windows 经典主题 mod</title>
+      <link>https://windhawk.net/mods/classic-theme-enable</link>
+      <guid isPermaLink="true">https://windhawk.net/mods/classic-theme-enable</guid>
+      <pubDate>Sat, 15 Nov 2025 16:53:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938723</comments>
     </item>
     <item>
-      <title>Kagi Bloopers – 搜索结果出错</title>
-      <link>https://help.kagi.com/kagi/bloopers/</link>
-      <description>📝 黑客最初是在 Mastodon 上。半马 最初出现在 Discord 上。公司最初位于X。
+      <title>富士通 Lifebook U729 上的 Linux</title>
+      <link>https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</link>
+      <description>📝 这是笔记本电脑附带的。这是富士通 BIOS 更新工具。您应该有一个新的 BIOS 版本。
 
 
-🔤 Original: Kagi Bloopers – Search Results Gone Wrong
+🔤 Original: Linux on the Fujitsu Lifebook U729
 
-🔗 Read more: https://help.kagi.com/kagi/bloopers/</description>
-      <guid isPermaLink="true">https://help.kagi.com/kagi/bloopers/</guid>
-      <pubDate>Sat, 15 Nov 2025 12:23:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936964</comments>
+🔗 Read more: https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</description>
+      <guid isPermaLink="true">https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</guid>
+      <pubDate>Sat, 15 Nov 2025 15:19:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45937989</comments>
+    </item>
+    <item>
+      <title>加权平均值以最小化方差</title>
+      <link>https://www.johndcook.com/blog/2025/11/12/minimum-variance/</link>
+      <description>📝 假设A比B波动性更大。我们将这个问题形式化并确定最优配置，然后将问题推广到更多资产。多变量 现在假设我们有 n 个独立的随机变量 Xi，其中 i 从 1 运行到 n，并且至少有一个变量不是常数。
+
+
+🔤 Original: Weighting an average to minimize variance
+
+🔗 Read more: https://www.johndcook.com/blog/2025/11/12/minimum-variance/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/12/minimum-variance/</guid>
+      <pubDate>Sat, 15 Nov 2025 15:25:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938027</comments>
+    </item>
+    <item>
+      <title>财富</title>
+      <link>https://saul.pw/mag/wealth/</link>
+      <description>📝 一般来说，一个人的财富水平可以从他们的净资产推断出来。如果他们不是住在车里，那就是沙发冲浪；如果他们有永久地址，则他们与其他人住在一起并支付较低或灵活的租金。财富值↑2的人 h.
+
+
+🔤 Original: Wealth
+
+🔗 Read more: https://saul.pw/mag/wealth/</description>
+      <guid isPermaLink="true">https://saul.pw/mag/wealth/</guid>
+      <pubDate>Sat, 15 Nov 2025 16:16:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938427</comments>
+    </item>
+    <item>
+      <title>Trellis AI (YC W24) 正在招聘：简化获得救生疗法的途径</title>
+      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</link>
+      <description>📝 我们通过自动化文件接收、事先授权和大规模上诉来实现这一目标，以简化运营并加速护理。 Trellis 帮助医疗保健提供者更快地治疗更多患者，同时消除服务前的文书工作。我们大规模自动化文件接收、事先授权和上诉，以简化运营并加速护理。
+
+
+🔤 Original: Trellis AI (YC W24) Is Hiring: Streamline access to life-saving therapies
+
+🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</guid>
+      <pubDate>Sat, 15 Nov 2025 17:00:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938785</comments>
+    </item>
+    <item>
+      <title>我在 6 个月内实施了经过 ISO 42001 认证的人工智能治理计划</title>
+      <link>https://beabytes.com/iso42001-certified-ai-governance/</link>
+      <guid isPermaLink="true">https://beabytes.com/iso42001-certified-ai-governance/</guid>
+      <pubDate>Sat, 15 Nov 2025 17:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938815</comments>
+    </item>
+    <item>
+      <title>如何忍受烦人的事情</title>
+      <link>https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</link>
+      <description>📝 这些事件不会扰乱你的生活。它们通常会出乎意料地出现，给你带来一些压力，并打断你的心流。这让一切变得不同。
+
+
+🔤 Original: How to tolerate annoying things
+
+🔗 Read more: https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</description>
+      <guid isPermaLink="true">https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</guid>
+      <pubDate>Sat, 15 Nov 2025 14:53:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45937816</comments>
+    </item>
+    <item>
+      <title>强大的单纯体 (2023)</title>
+      <link>https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</link>
+      <description>📝 单纯形几何 在本博客中，我将几何限制为常规单纯形。每个节点都是等价的并且相互链接。每个节点都是一个电荷。
+
+
+🔤 Original: The Mighty Simplex (2023)
+
+🔗 Read more: https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</description>
+      <guid isPermaLink="true">https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</guid>
+      <pubDate>Sat, 15 Nov 2025 16:49:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45938698</comments>
     </item>
   </channel>
 </rss>
