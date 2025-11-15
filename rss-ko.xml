@@ -6,54 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 15 Nov 2025 06:28:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 09:19:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>AMD GPU가 Brrr로 이동합니다.</title>
-      <link>https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr</link>
-      <description>📝 아래에는 MI355X 메모리 계층 구조가 나와 있습니다. SpecNVIDIA B200 SXM5AMD MI355X OAMBF16 매트릭스/텐서2. 프로세서 내 스케줄링: 깊은 파이프라인을 설정하고 메모리 비용을 숨기기 위해 공유 메모리 및 부피가 큰 wgmma/tcgen05 명령어 대신 레지스터 파일과 작은 매트릭스 코어 명령어를 사용해야 합니다.
+      <title>사양 중심 개발: 폭포의 역습</title>
+      <link>https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html</link>
+      <description>📝 이중 코드 검토: 기술 사양에 이미 코드가 포함되어 있습니다. 대부분의 코딩 에이전트에는 이미 계획 모드와 작업 목록이 있습니다. ”개발자를 코딩 에이전트로 교체하고 세심한 계획으로 에이전트를 보호함으로써 이를 수행합니다.
 
 
-🔤 Original: AMD GPUs Go Brrr
+🔤 Original: Spec-Driven Development: The Waterfall Strikes Back
 
-🔗 Read more: https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr</description>
-      <guid isPermaLink="true">https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr</guid>
-      <pubDate>Sat, 15 Nov 2025 02:06:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45934416</comments>
+🔗 Read more: https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html</description>
+      <guid isPermaLink="true">https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html</guid>
+      <pubDate>Sat, 15 Nov 2025 07:48:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935763</comments>
     </item>
     <item>
-      <title>더 이상 Grafana를 추천할 수 없습니다</title>
-      <link>https://henrikgerdes.me/blog/2025-11-grafana-mess/</link>
-      <description>📝 Loki, Prometheus 및 Grafana가 포함된 yaml. 같은 날 그들은 Grafana Agent를 더 이상 사용하지 않고 Grafana Alloy를 발표했습니다. Grafana가 방금 Mim을 석방했습니다.
+      <title>인터넷은 멋지다. 감사합니다, TCP님</title>
+      <link>https://cefboud.com/posts/tcp-deep-dive-internals/</link>
+      <description>📝 네트워크 스택은 물리적 –&gt; 데이터 링크(이더넷/Wi-Fi 등) –&gt; 네트워크(IP) –&gt; 전송(TCP/UDP)으로 진행됩니다. 그것이 바로 인터넷이 작동하는 방식입니다. 흐름 및 혼잡 제어 한 걸음 물러나 네트워크 통신에 대해 생각해 보면 우리가 실제로 하려는 일은 다음과 같습니다. 시스템 A가 시스템 B에 데이터를 보냅니다.
 
 
-🔤 Original: I can't recommend Grafana anymore
+🔤 Original: The Internet Is Cool. Thank You, TCP
 
-🔗 Read more: https://henrikgerdes.me/blog/2025-11-grafana-mess/</description>
-      <guid isPermaLink="true">https://henrikgerdes.me/blog/2025-11-grafana-mess/</guid>
-      <pubDate>Sat, 15 Nov 2025 03:58:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45934940</comments>
+🔗 Read more: https://cefboud.com/posts/tcp-deep-dive-internals/</description>
+      <guid isPermaLink="true">https://cefboud.com/posts/tcp-deep-dive-internals/</guid>
+      <pubDate>Sat, 15 Nov 2025 06:37:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935503</comments>
     </item>
     <item>
-      <title>국회의원들은 VPN을 금지하고 싶어하지만 그들이 무엇을 하는지 전혀 모릅니다.</title>
-      <link>https://www.eff.org/deeplinks/2025/11/lawmakers-want-ban-vpns-and-they-have-no-idea-what-theyre-doing</link>
-      <description>📝 기업은 VPN을 통해 운영됩니다. 학생들에게는 학교용 VPN이 필요합니다. 가정 학대 생존자는 VPN을 사용하여 학대자로부터 자신의 위치를 ​​숨깁니다.
+      <title>그렇다면 자신만의 언어를 디자인하고 싶으신가요? (2017)</title>
+      <link>https://cs.lmu.edu/~ray/notes/languagedesignnotes/</link>
+      <description>📝 언어 디자인 그래서 당신은 자신만의 언어를 디자인하고 싶습니다. ) 자신의 프로그래밍 언어. 프로그래밍 언어 개념.
 
 
-🔤 Original: Lawmakers want to ban VPNs and have no idea what they're doing
+🔤 Original: So, you want to design your own language? (2017)
 
-🔗 Read more: https://www.eff.org/deeplinks/2025/11/lawmakers-want-ban-vpns-and-they-have-no-idea-what-theyre-doing</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2025/11/lawmakers-want-ban-vpns-and-they-have-no-idea-what-theyre-doing</guid>
-      <pubDate>Fri, 14 Nov 2025 06:39:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45924483</comments>
+🔗 Read more: https://cs.lmu.edu/~ray/notes/languagedesignnotes/</description>
+      <guid isPermaLink="true">https://cs.lmu.edu/~ray/notes/languagedesignnotes/</guid>
+      <pubDate>Sat, 15 Nov 2025 05:44:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935342</comments>
     </item>
     <item>
-      <title>영어에 대한 과도한 의존은 인지 과학을 방해합니다</title>
-      <link>https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(22)00236-4</link>
-      <guid isPermaLink="true">https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(22)00236-4</guid>
-      <pubDate>Sat, 15 Nov 2025 02:58:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45934683</comments>
+      <title>스크래퍼 봇을 이용한 장난</title>
+      <link>https://herman.bearblog.dev/messing-with-bots/</link>
+      <description>📝 이 게시물은 그것에 관한 것이 아닙니다. 이번 포스팅은 반격에 관한 포스팅입니다. 이 방법을 직접 사용하세요.
+
+
+🔤 Original: Messing with Scraper Bots
+
+🔗 Read more: https://herman.bearblog.dev/messing-with-bots/</description>
+      <guid isPermaLink="true">https://herman.bearblog.dev/messing-with-bots/</guid>
+      <pubDate>Sat, 15 Nov 2025 07:38:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935729</comments>
+    </item>
+    <item>
+      <title>옴 에디터</title>
+      <link>https://ohmjs.org/editor/</link>
+      <description>📝 Ohm Editor 설명 구문 공백 표시 × GitHub에 로그인 사용자 이름: 비밀번호: × 문법을 다른 이름으로 저장 문법 이름: 산술 { Exp = AddExp AddExp = AddExp "+" MulExp -- 플러스 | AddExp "-" MulExp -- 빼기 | MulExp MulExp = MulExp "*" ExpExp -- 시간 | MulExp "/" ExpExp -- 나누기 | ExpExp ExpExp = PriExp "^" ExpExp -- 전력 | PriExp PriExp = "(" Exp ")" -- paren | "+" PriExp -- pos | "-" PriExp -- 부정 | 신원 | 숫자 ident(식별자) = 문자 alnum* 숫자(숫자) = 숫자* ". " 숫자+ -- 분수 | 숫자+ -- 전체 } 2 * (42 - 1) / 9 1+2*3 아 안돼 ( 123 ) (2+4)*7.
+
+
+🔤 Original: Ohm Editor
+
+🔗 Read more: https://ohmjs.org/editor/</description>
+      <guid isPermaLink="true">https://ohmjs.org/editor/</guid>
+      <pubDate>Sat, 15 Nov 2025 06:01:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935398</comments>
+    </item>
+    <item>
+      <title>저수지를 만나보세요 - 세계에서 가장 똑똑한 온수기</title>
+      <link>https://www.reservoirhome.com/</link>
+      <description>📝 Reservoir를 만나보세요 세계에서 가장 똑똑한 온수기. 어떤 사람들은 특히 방문자에 대해 더 많은 통제권을 원합니다. 어떤 사람들은 특히 방문자에 대해 더 많은 통제권을 원합니다.
+
+
+🔤 Original: Meet Reservoir – The World's Smartest Water Heater
+
+🔗 Read more: https://www.reservoirhome.com/</description>
+      <guid isPermaLink="true">https://www.reservoirhome.com/</guid>
+      <pubDate>Sat, 15 Nov 2025 03:50:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45934912</comments>
     </item>
   </channel>
 </rss>

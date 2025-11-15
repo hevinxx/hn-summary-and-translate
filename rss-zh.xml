@@ -6,54 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Nov 2025 06:28:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 09:19:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>AMD GPU 继续前进</title>
-      <link>https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr</link>
-      <description>📝 下面我们展示了 MI355X 内存层次结构。规格NVIDIA B200 SXM5AMD MI355X OAMBF16 矩阵/张量2。处理器内的调度：我们需要依靠寄存器文件和小型矩阵核心指令，而不是共享内存和庞大的 wgmma/tcgen05 指令来建立深度管道并隐藏内存成本。
+      <title>规范驱动的开发：瀑布的反击</title>
+      <link>https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html</link>
+      <description>📝 双重代码审查：技术规范已包含代码。大多数编码代理已经有计划模式和任务列表。它通过用编码代理取代开发人员并通过精心规划来保护这些代理来实现这一目标。
 
 
-🔤 Original: AMD GPUs Go Brrr
+🔤 Original: Spec-Driven Development: The Waterfall Strikes Back
 
-🔗 Read more: https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr</description>
-      <guid isPermaLink="true">https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr</guid>
-      <pubDate>Sat, 15 Nov 2025 02:06:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45934416</comments>
+🔗 Read more: https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html</description>
+      <guid isPermaLink="true">https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html</guid>
+      <pubDate>Sat, 15 Nov 2025 07:48:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935763</comments>
     </item>
     <item>
-      <title>我不能再推荐 Grafana</title>
-      <link>https://henrikgerdes.me/blog/2025-11-grafana-mess/</link>
-      <description>📝 yaml 与 Loki、Prometheus 和 Grafana。在他们弃用 Grafana Agent 的同一天，他们宣布了 Grafana Alloy。 Grafana 刚刚释放了 Mim。
+      <title>互联网很酷。谢谢你，TCP</title>
+      <link>https://cefboud.com/posts/tcp-deep-dive-internals/</link>
+      <description>📝 请记住，网络堆栈为：物理 –&gt; 数据链路（以太网/Wi-Fi 等） –&gt; 网络 (IP) –&gt; 传输 (TCP/UDP)。这就是互联网的运作方式。流量和拥塞控制当您退一步思考网络通信时，这就是我们真正想做的事情：机器 A 向机器 B 发送数据。
 
 
-🔤 Original: I can't recommend Grafana anymore
+🔤 Original: The Internet Is Cool. Thank You, TCP
 
-🔗 Read more: https://henrikgerdes.me/blog/2025-11-grafana-mess/</description>
-      <guid isPermaLink="true">https://henrikgerdes.me/blog/2025-11-grafana-mess/</guid>
-      <pubDate>Sat, 15 Nov 2025 03:58:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45934940</comments>
+🔗 Read more: https://cefboud.com/posts/tcp-deep-dive-internals/</description>
+      <guid isPermaLink="true">https://cefboud.com/posts/tcp-deep-dive-internals/</guid>
+      <pubDate>Sat, 15 Nov 2025 06:37:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935503</comments>
     </item>
     <item>
-      <title>立法者想要禁止 VPN，但不知道他们在做什么</title>
-      <link>https://www.eff.org/deeplinks/2025/11/lawmakers-want-ban-vpns-and-they-have-no-idea-what-theyre-doing</link>
-      <description>📝 企业在 VPN 上运行。学生在学校需要 VPN。家庭暴力幸存者使用 VPN 向施暴者隐藏自己的位置。
+      <title>那么，你想设计自己的语言吗？ (2017)</title>
+      <link>https://cs.lmu.edu/~ray/notes/languagedesignnotes/</link>
+      <description>📝 语言设计 所以，你想设计你自己的语言。 ）您自己的编程语言。编程语言概念。
 
 
-🔤 Original: Lawmakers want to ban VPNs and have no idea what they're doing
+🔤 Original: So, you want to design your own language? (2017)
 
-🔗 Read more: https://www.eff.org/deeplinks/2025/11/lawmakers-want-ban-vpns-and-they-have-no-idea-what-theyre-doing</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2025/11/lawmakers-want-ban-vpns-and-they-have-no-idea-what-theyre-doing</guid>
-      <pubDate>Fri, 14 Nov 2025 06:39:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45924483</comments>
+🔗 Read more: https://cs.lmu.edu/~ray/notes/languagedesignnotes/</description>
+      <guid isPermaLink="true">https://cs.lmu.edu/~ray/notes/languagedesignnotes/</guid>
+      <pubDate>Sat, 15 Nov 2025 05:44:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935342</comments>
     </item>
     <item>
-      <title>过度依赖英语阻碍认知科学</title>
-      <link>https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(22)00236-4</link>
-      <guid isPermaLink="true">https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(22)00236-4</guid>
-      <pubDate>Sat, 15 Nov 2025 02:58:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45934683</comments>
+      <title>与刮板机器人打交道</title>
+      <link>https://herman.bearblog.dev/messing-with-bots/</link>
+      <description>📝 这篇文章不是关于这个的。这篇文章是关于反击的。直接使用这个方法。
+
+
+🔤 Original: Messing with Scraper Bots
+
+🔗 Read more: https://herman.bearblog.dev/messing-with-bots/</description>
+      <guid isPermaLink="true">https://herman.bearblog.dev/messing-with-bots/</guid>
+      <pubDate>Sat, 15 Nov 2025 07:38:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935729</comments>
+    </item>
+    <item>
+      <title>欧姆编辑器</title>
+      <link>https://ohmjs.org/editor/</link>
+      <description>📝 Ohm 编辑器 解释 parse 显示空格 × 登录 GitHub 用户名： 密码： × 将语法另存为 语法名称： Arithmetic { Exp = AddExp AddExp = AddExp "+" MulExp -- plus | AddExp "-" MulExp -- 减 | MulExp MulExp = MulExp "*" ExpExp -- 次| MulExp "/" ExpExp -- 除 | ExpExp ExpExp = PriExp "^" ExpExp -- 幂 | PriExp PriExp = "(" Exp ")" -- 括号 | “+” PriExp -- pos | “-” PriExp -- 否定 |身份 |数字 ident（标识符）= 字母 alnum* 数字（数字）= 数字* "." 数字+ -- fract |数字+ -- 整数 } 2 * (42 - 1) / 9 1+2*3 哦，不 ( 123 ) (2+4)*7。
+
+
+🔤 Original: Ohm Editor
+
+🔗 Read more: https://ohmjs.org/editor/</description>
+      <guid isPermaLink="true">https://ohmjs.org/editor/</guid>
+      <pubDate>Sat, 15 Nov 2025 06:01:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935398</comments>
+    </item>
+    <item>
+      <title>认识一下水库——世界上最智能的热水器</title>
+      <link>https://www.reservoirhome.com/</link>
+      <description>📝 了解 Reservoir 世界上最智能的热水器。有些人想要更多的控制权，尤其是对于访客。有些人想要更多的控制权，尤其是对于访客。
+
+
+🔤 Original: Meet Reservoir – The World's Smartest Water Heater
+
+🔗 Read more: https://www.reservoirhome.com/</description>
+      <guid isPermaLink="true">https://www.reservoirhome.com/</guid>
+      <pubDate>Sat, 15 Nov 2025 03:50:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45934912</comments>
     </item>
   </channel>
 </rss>
