@@ -6,100 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Nov 2025 18:26:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 21:18:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>适用于 Windows 11 的 Windhawk Windows 经典主题 mod</title>
-      <link>https://windhawk.net/mods/classic-theme-enable</link>
-      <guid isPermaLink="true">https://windhawk.net/mods/classic-theme-enable</guid>
-      <pubDate>Sat, 15 Nov 2025 16:53:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938723</comments>
+      <title>跨代表观遗传：习得性回避的故事</title>
+      <link>https://elifesciences.org/articles/109427</link>
+      <description>📝 线虫以避免特定细菌。然而，当线虫在回避测定之前接触 PA14 时，它们会在测定期间避开 PA14（第二行）。重要的是，在亲代之后，蠕虫在测试之前不会遇到 PA14，但它们保留了亲代的习得性回避。
+
+
+🔤 Original: Transgenerational Epigenetic Inheritance: the story of learned avoidance
+
+🔗 Read more: https://elifesciences.org/articles/109427</description>
+      <guid isPermaLink="true">https://elifesciences.org/articles/109427</guid>
+      <pubDate>Sat, 15 Nov 2025 18:40:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939550</comments>
     </item>
     <item>
-      <title>富士通 Lifebook U729 上的 Linux</title>
-      <link>https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</link>
-      <description>📝 这是笔记本电脑附带的。这是富士通 BIOS 更新工具。您应该有一个新的 BIOS 版本。
+      <title>阿基米德——用于硬件工程的 Python 工具包</title>
+      <link>https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</link>
+      <description>📝 简而言之，Archimedes 是一个 Python 框架，可让您在 NumPy 中开发和分析算法，并自动为嵌入式系统生成优化的 C 代码。关键：Python → C 代码生成¶ 阿基米德从以下问题开始：“在 Python 中实际进行实际控制系统开发需要什么。 h&gt; #define N_STATES 4 typedef struct { float H[N_STATES]; // 测量矩阵 (1 x n) float R; // 测量噪声协方差（标量） } kf_params_t; typedef struct { float x[N_STATES]; // 状态估计 float P[N_STATES][N_STATES]; // 估计协方差 } kf_state_t; // 卡尔曼增益 (n x 1) float M[N_STATES][N_STATES]; // M * P 临时 float MPMT[N_STATES][N_STATES]; M^T 临时 float KRKT[N_STATES][N_STATES]; // K * R * K^T 临时 } kf_work_t; /** * 卡尔曼滤波器更新步骤（标量测量情况） * * 数学公式： * y = z - H·x（新值） * S = H·P·H^T + R（新值协方差） * K = P·H^T·S^(-1)（卡尔曼增益） * x' = x + K·y（状态更新） * P' = (I-KH)·P·(I-KH)^T + K·R·K^T（约瑟夫形式协方差） * * @param z：最新测量 * @param kf_state：指向卡尔曼滤波器状态结构的指针 * @param kf_params：指向卡尔曼滤波器参数结构的指针 * @param kf_work：指向卡尔曼滤波器工作结构的指针（对于临时） * @return: 0 表示成功，-1 表示错误 */ int kalman_update(float z, kf_state_t *kf_sta.
 
 
-🔤 Original: Linux on the Fujitsu Lifebook U729
+🔤 Original: Archimedes – A Python toolkit for hardware engineering
 
-🔗 Read more: https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</description>
-      <guid isPermaLink="true">https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</guid>
-      <pubDate>Sat, 15 Nov 2025 15:19:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937989</comments>
+🔗 Read more: https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</description>
+      <guid isPermaLink="true">https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</guid>
+      <pubDate>Sat, 15 Nov 2025 19:29:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939938</comments>
     </item>
     <item>
-      <title>加权平均值以最小化方差</title>
-      <link>https://www.johndcook.com/blog/2025/11/12/minimum-variance/</link>
-      <description>📝 假设A比B波动性更大。我们将这个问题形式化并确定最优配置，然后将问题推广到更多资产。多变量 现在假设我们有 n 个独立的随机变量 Xi，其中 i 从 1 运行到 n，并且至少有一个变量不是常数。
+      <title>J. M. Coetzee 早期编程生涯的计算机诗篇</title>
+      <link>https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</link>
+      <description>📝 库切的早期诗歌几乎无法解读。我相信这段经历虽然短暂，但对于库切写作计划的发展至关重要。库切的计算机代码诗，日期为 1965 年 5 月 30 日。
 
 
-🔤 Original: Weighting an average to minimize variance
+🔤 Original: The computer poetry of J. M. Coetzee's early programming career
 
-🔗 Read more: https://www.johndcook.com/blog/2025/11/12/minimum-variance/</description>
-      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/12/minimum-variance/</guid>
-      <pubDate>Sat, 15 Nov 2025 15:25:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938027</comments>
+🔗 Read more: https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</description>
+      <guid isPermaLink="true">https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:44:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939569</comments>
     </item>
     <item>
-      <title>财富</title>
-      <link>https://saul.pw/mag/wealth/</link>
-      <description>📝 一般来说，一个人的财富水平可以从他们的净资产推断出来。如果他们不是住在车里，那就是沙发冲浪；如果他们有永久地址，则他们与其他人住在一起并支付较低或灵活的租金。财富值↑2的人 h.
-
-
-🔤 Original: Wealth
-
-🔗 Read more: https://saul.pw/mag/wealth/</description>
-      <guid isPermaLink="true">https://saul.pw/mag/wealth/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:16:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938427</comments>
+      <title>饮用或戒断含咖啡因的咖啡可减少心房颤动</title>
+      <link>https://jamanetwork.com/journals/jama/fullarticle/2841253</link>
+      <guid isPermaLink="true">https://jamanetwork.com/journals/jama/fullarticle/2841253</guid>
+      <pubDate>Sat, 15 Nov 2025 19:43:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940030</comments>
     </item>
     <item>
-      <title>Trellis AI (YC W24) 正在招聘：简化获得救生疗法的途径</title>
-      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</link>
-      <description>📝 我们通过自动化文件接收、事先授权和大规模上诉来实现这一目标，以简化运营并加速护理。 Trellis 帮助医疗保健提供者更快地治疗更多患者，同时消除服务前的文书工作。我们大规模自动化文件接收、事先授权和上诉，以简化运营并加速护理。
+      <title>联邦调查局局长免除对三名高级职员的测谎安全检查</title>
+      <link>https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</link>
+      <description>📝 ProPublica 无法确定邦吉诺是否参加了测谎仪检查或检查结果如何。当 ProPublica 向联邦调查局寻求评论时，该机构否认邦吉诺或其他高级工作人员未通过测谎仪测试。联邦调查局副局长丹·邦吉诺 (Dan Bongino) 与帕特尔交谈。
 
 
-🔤 Original: Trellis AI (YC W24) Is Hiring: Streamline access to life-saving therapies
+🔤 Original: FBI Director Waived Polygraph Security Screening for Three Senior Staff
 
-🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</guid>
-      <pubDate>Sat, 15 Nov 2025 17:00:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938785</comments>
+🔗 Read more: https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</description>
+      <guid isPermaLink="true">https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</guid>
+      <pubDate>Sat, 15 Nov 2025 18:03:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939266</comments>
     </item>
     <item>
-      <title>我在 6 个月内实施了经过 ISO 42001 认证的人工智能治理计划</title>
-      <link>https://beabytes.com/iso42001-certified-ai-governance/</link>
-      <guid isPermaLink="true">https://beabytes.com/iso42001-certified-ai-governance/</guid>
-      <pubDate>Sat, 15 Nov 2025 17:04:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938815</comments>
+      <title>AWS 弃用了两打服务（其中大部分您从未听说过）</title>
+      <link>https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</link>
+      <description>📝 S3 对象 Lambda 一直有点奇怪。剩下的就是 Snowball Edge。阅读有关 Amazon Q 的更多信息：现在具有有用的 AI 驱动的自毁功能 获取新闻通讯。
+
+
+🔤 Original: AWS deprecates two dozen services (most of which you've never heard of)
+
+🔗 Read more: https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</description>
+      <guid isPermaLink="true">https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:55:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939678</comments>
     </item>
     <item>
-      <title>如何忍受烦人的事情</title>
-      <link>https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</link>
-      <description>📝 这些事件不会扰乱你的生活。它们通常会出乎意料地出现，给你带来一些压力，并打断你的心流。这让一切变得不同。
+      <title>AMD 继续蚕食英特尔 x86 市场份额</title>
+      <link>https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</link>
+      <description>📝 英特尔仍然占据 74 的份额。（图片来源：Mercury Research 的数据，由 Tom's Hardware 编译）AMD 的客户端单位份额在台式 PC 市场上的份额从 32 上升至 25. 6%。
 
 
-🔤 Original: How to tolerate annoying things
+🔤 Original: AMD continues to chip away at Intel's x86 market share
 
-🔗 Read more: https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</description>
-      <guid isPermaLink="true">https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</guid>
-      <pubDate>Sat, 15 Nov 2025 14:53:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937816</comments>
+🔗 Read more: https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</guid>
+      <pubDate>Sat, 15 Nov 2025 20:35:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940413</comments>
     </item>
     <item>
-      <title>强大的单纯体 (2023)</title>
-      <link>https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</link>
-      <description>📝 单纯形几何 在本博客中，我将几何限制为常规单纯形。每个节点都是等价的并且相互链接。每个节点都是一个电荷。
+      <title>美国为韩国建造核潜艇开绿灯</title>
+      <link>https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</link>
+      <description>📝 特朗普总统宣布韩国核潜艇将在美国建造的公告截图。随后，核潜艇的建造标志着与过去的努力的背离，因为此前韩国潜艇的建造主要集中在常规动力潜艇上。与此同时，由于美国的制裁，韩国核潜艇建设项目在一段时间内仍处于悬而未决的状态。
 
 
-🔤 Original: The Mighty Simplex (2023)
+🔤 Original: USA gives South Korea green light to build nuclear submarines
 
-🔗 Read more: https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</description>
-      <guid isPermaLink="true">https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:49:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938698</comments>
+🔗 Read more: https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</description>
+      <guid isPermaLink="true">https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:29:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939459</comments>
     </item>
   </channel>
 </rss>

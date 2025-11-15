@@ -6,100 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 15 Nov 2025 18:26:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 21:18:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Windows 11 用 Windhawk Windows クラシック テーマ MOD</title>
-      <link>https://windhawk.net/mods/classic-theme-enable</link>
-      <guid isPermaLink="true">https://windhawk.net/mods/classic-theme-enable</guid>
-      <pubDate>Sat, 15 Nov 2025 16:53:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938723</comments>
+      <title>世代を超えたエピジェネティックな継承: 学習された回避の物語</title>
+      <link>https://elifesciences.org/articles/109427</link>
+      <description>📝 エレガンスは特定の細菌を避けるために寄生します。ただし、回避アッセイの前に線虫が PA14 に曝露されると、線虫はアッセイ中に PA14 を回避します (2 番目の行)。重要なのは、親世代の後、ワームはテスト前に PA14 に遭遇することはありませんが、親世代で学習した回避能力を保持していることです。
+
+
+🔤 Original: Transgenerational Epigenetic Inheritance: the story of learned avoidance
+
+🔗 Read more: https://elifesciences.org/articles/109427</description>
+      <guid isPermaLink="true">https://elifesciences.org/articles/109427</guid>
+      <pubDate>Sat, 15 Nov 2025 18:40:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939550</comments>
     </item>
     <item>
-      <title>Fujitsu Lifebook U729 上の Linux</title>
-      <link>https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</link>
-      <description>📝 これはラップトップに付属していました。富士通製BIOSアップデートツールです。新しい BIOS バージョンが必要です。
+      <title>Archimedes – ハードウェア エンジニアリング用の Python ツールキット</title>
+      <link>https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</link>
+      <description>📝 つまり、Archimedes は、NumPy でアルゴリズムを開発および分析し、組み込みシステム用に最適化された C コードを自動的に生成できる Python フレームワークです。要点: Python → C コード生成¶ アルキメデスは、「実際に Python で実際の制御システム開発を行うには何が必要になるでしょうか。 h&gt; #define N_STATES 4 typedef struct { float H[N_STATES]; // 測定行列 (1 x n) float R; // 測定ノイズ共分散 (スカラー) } kf_params_t; typedef struct { float x[N_STATES]; // 状態推定 float P[N_STATES][N_STATES]; // 共分散を推定する } kf_state_t; float K[N_STATES] // カルマンゲイン (n x 1) float M[N_STATES][N_STATES]; // M * P 一時浮動小数点数 MPMT[N_STATES][N_STATES]; // M * P * M^T 一時浮動小数点 KRKT[N_STATES][N_STATES]; // K * R * K^T 一時的 } kf_work_t; /** * カルマン フィルター更新ステップ (スカラー測定の場合) * * 数学的定式化: * y = z - H·x (イノベーション) * S = H·P·H^T + R (イノベーションの共分散) * K = P・H^T・S^(-1) (カルマンゲイン) * x' = x + K・y (状態更新) * P' = (I-KH)・P・(I-KH)^T + K・R・K^T (ジョセフ形式共分散) * * @param z: 最新の測定値 * @param kf_state: カルマン フィルター状態構造体へのポインター * @param kf_params: カルマン フィルター パラメーター構造体へのポインター* @param kf_work: カルマン フィルター作業構造体へのポインター (一時的) * @return: 成功時は 0、エラー時は -1 */ int kalman_update(float z, kf_state_t *kf_sta.
 
 
-🔤 Original: Linux on the Fujitsu Lifebook U729
+🔤 Original: Archimedes – A Python toolkit for hardware engineering
 
-🔗 Read more: https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</description>
-      <guid isPermaLink="true">https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</guid>
-      <pubDate>Sat, 15 Nov 2025 15:19:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937989</comments>
+🔗 Read more: https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</description>
+      <guid isPermaLink="true">https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</guid>
+      <pubDate>Sat, 15 Nov 2025 19:29:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939938</comments>
     </item>
     <item>
-      <title>分散を最小限に抑えるために平均に重み付けをする</title>
-      <link>https://www.johndcook.com/blog/2025/11/12/minimum-variance/</link>
-      <description>📝 A が B よりもボラティリティが高いとします。この問題を形式化し、最適な割り当てを決定し、問題をより多くの資産に一般化します。複数の変数 ここで、1 から n まで実行される n 個の独立した確率変数 Xi for i があり、変数の少なくとも 1 つが定数ではないと仮定します。
+      <title>J. M. クッツェーの初期プログラミング キャリアを描いたコンピューター詩</title>
+      <link>https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</link>
+      <description>📝 クッツェーの初期の詩はほとんど解読不可能です。この経験は、短いものではありましたが、クッツェーの作家プロジェクトの発展にとって極めて重要なものだったと私は信じています。クッツェーのコンピューター コード詩、1965 年 5 月 30 日付け。
 
 
-🔤 Original: Weighting an average to minimize variance
+🔤 Original: The computer poetry of J. M. Coetzee's early programming career
 
-🔗 Read more: https://www.johndcook.com/blog/2025/11/12/minimum-variance/</description>
-      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/12/minimum-variance/</guid>
-      <pubDate>Sat, 15 Nov 2025 15:25:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938027</comments>
+🔗 Read more: https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</description>
+      <guid isPermaLink="true">https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:44:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939569</comments>
     </item>
     <item>
-      <title>富</title>
-      <link>https://saul.pw/mag/wealth/</link>
-      <description>📝 一般に、誰かの富のレベルはその純資産から推測できます。車の外で生活していない場合は、カウチサーフィンをしています。定住住所を持っている場合は、他の誰かと一緒に住んでおり、低額または柔軟な家賃を払っています。 ↑2富hの人。
-
-
-🔤 Original: Wealth
-
-🔗 Read more: https://saul.pw/mag/wealth/</description>
-      <guid isPermaLink="true">https://saul.pw/mag/wealth/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:16:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938427</comments>
+      <title>心房細動を軽減するためのカフェイン入りコーヒーの摂取または断酒</title>
+      <link>https://jamanetwork.com/journals/jama/fullarticle/2841253</link>
+      <guid isPermaLink="true">https://jamanetwork.com/journals/jama/fullarticle/2841253</guid>
+      <pubDate>Sat, 15 Nov 2025 19:43:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940030</comments>
     </item>
     <item>
-      <title>Trellis AI (YC W24) が採用中: 救命治療へのアクセスを合理化</title>
-      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</link>
-      <description>📝 私たちはこれを、文書の取り込み、事前の承認、および大規模な申し立てを自動化することで、業務を合理化し、ケアを加速することによって実現します。 Trellis は、医療提供者がサービス前の事務手続きを排除しながら、より多くの患者をより迅速に治療できるように支援します。当社は文書の取り込み、事前の承認、異議申し立てを大規模に自動化して、業務を合理化し、ケアを迅速化します。
+      <title>FBI長官、上級職員3名に対するポリグラフセキュリティ検査を免除</title>
+      <link>https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</link>
+      <description>📝 プロパブリカは、ボンジーノがポリグラフ検査を受けたかどうか、またその結果がどうなったかを判断できなかった。プロパブリカがFBIにコメントを求めたところ、同局はボンジーノや他の幹部職員がポリグラフ検査に失敗したことを否定した。 FBI副長官ダン・ボンジーノがパテルと話す。
 
 
-🔤 Original: Trellis AI (YC W24) Is Hiring: Streamline access to life-saving therapies
+🔤 Original: FBI Director Waived Polygraph Security Screening for Three Senior Staff
 
-🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</guid>
-      <pubDate>Sat, 15 Nov 2025 17:00:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938785</comments>
+🔗 Read more: https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</description>
+      <guid isPermaLink="true">https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</guid>
+      <pubDate>Sat, 15 Nov 2025 18:03:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939266</comments>
     </item>
     <item>
-      <title>ISO 42001 認定の AI ガバナンス プログラムを 6 か月で導入しました</title>
-      <link>https://beabytes.com/iso42001-certified-ai-governance/</link>
-      <guid isPermaLink="true">https://beabytes.com/iso42001-certified-ai-governance/</guid>
-      <pubDate>Sat, 15 Nov 2025 17:04:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938815</comments>
+      <title>AWS、24 のサービスを廃止 (そのほとんどは聞いたことがないサービス)</title>
+      <link>https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</link>
+      <description>📝 S3 Object Lambda は常に少し奇妙です。これでスノーボールエッジは残ります。 Amazon について詳しく読む Q: 便利な AI を活用した自己破壊機能が追加されました ニュースレターを入手してください。
+
+
+🔤 Original: AWS deprecates two dozen services (most of which you've never heard of)
+
+🔗 Read more: https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</description>
+      <guid isPermaLink="true">https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:55:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939678</comments>
     </item>
     <item>
-      <title>迷惑なことを我慢する方法</title>
-      <link>https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</link>
-      <description>📝 これらはあなたの人生の流れを混乱させるような種類の出来事ではありません。それらは通常、予期せずやって来て、ストレスを引き起こし、流れを中断します。それがすべてを変えました。
+      <title>AMDはIntelのx86市場シェアを削り続けている</title>
+      <link>https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</link>
+      <description>📝 Intel は依然として 74 位を占めています。(画像クレジット: Mercury Research によるデータ、Tom's Hardware によって編集)AMD のクライアント ユニット シェアは、デスクトップ PC 市場の 32 位から 25.6% のシェアに上昇しました。
 
 
-🔤 Original: How to tolerate annoying things
+🔤 Original: AMD continues to chip away at Intel's x86 market share
 
-🔗 Read more: https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</description>
-      <guid isPermaLink="true">https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</guid>
-      <pubDate>Sat, 15 Nov 2025 14:53:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937816</comments>
+🔗 Read more: https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</guid>
+      <pubDate>Sat, 15 Nov 2025 20:35:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940413</comments>
     </item>
     <item>
-      <title>マイティ・シンプレックス (2023)</title>
-      <link>https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</link>
-      <description>📝 シンプレックス ジオメトリ このブログでは、ジオメトリを通常のシンプレックスに限定します。各ノードは同等であり、相互にリンクされています。各ノードは料金です。
+      <title>米国、韓国に原子力潜水艦建造にゴーサインを与える</title>
+      <link>https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</link>
+      <description>📝 韓国の原子力潜水艦が米国で建造されると述べたトランプ大統領の発表のスクリーンショット。その後の原子力潜水艦の建造は、これまでの韓国の潜水艦建造が主に通常動力潜水艦に焦点を当てていたため、過去の取り組みからの脱却を示すものとなった。これと並行して、韓国の原子力潜水艦建造プロジェクトは、米国の要求によりしばらくの間、行き詰まったままになっている。
 
 
-🔤 Original: The Mighty Simplex (2023)
+🔤 Original: USA gives South Korea green light to build nuclear submarines
 
-🔗 Read more: https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</description>
-      <guid isPermaLink="true">https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:49:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938698</comments>
+🔗 Read more: https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</description>
+      <guid isPermaLink="true">https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:29:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939459</comments>
     </item>
   </channel>
 </rss>

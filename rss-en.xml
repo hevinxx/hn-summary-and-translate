@@ -6,82 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Nov 2025 18:26:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 21:18:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Windhawk Windows classic theme mod for Windows 11</title>
-      <link>https://windhawk.net/mods/classic-theme-enable</link>
-      <guid isPermaLink="true">https://windhawk.net/mods/classic-theme-enable</guid>
-      <pubDate>Sat, 15 Nov 2025 16:53:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938723</comments>
-    </item>
-    <item>
-      <title>Linux on the Fujitsu Lifebook U729</title>
-      <link>https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</link>
-      <description>📝 This came with the laptop. This is the Fujitsu BIOS update tool. You should have a new BIOS version.
+      <title>Transgenerational Epigenetic Inheritance: the story of learned avoidance</title>
+      <link>https://elifesciences.org/articles/109427</link>
+      <description>📝 elegans worms to avoid specific bacteria. However, when worms are exposed to PA14 before the avoidance assay, they avoid PA14 during the assay (second row). Importantly, after the parental generation, worms do not encounter PA14 before testing, but they retain the learned avoidance of the parental generation.
 
-🔗 Read more: https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</description>
-      <guid isPermaLink="true">https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</guid>
-      <pubDate>Sat, 15 Nov 2025 15:19:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937989</comments>
+🔗 Read more: https://elifesciences.org/articles/109427</description>
+      <guid isPermaLink="true">https://elifesciences.org/articles/109427</guid>
+      <pubDate>Sat, 15 Nov 2025 18:40:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939550</comments>
     </item>
     <item>
-      <title>Weighting an average to minimize variance</title>
-      <link>https://www.johndcook.com/blog/2025/11/12/minimum-variance/</link>
-      <description>📝 Suppose A is more volatile than B. We will formalize this problem and determine the optimal allocation, then generalize the problem to more assets. Multiple variables Now suppose we have n independent random variables Xi for i running from 1 to n, and at least one of the variables is not constant.
+      <title>Archimedes – A Python toolkit for hardware engineering</title>
+      <link>https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</link>
+      <description>📝 In short, Archimedes is a Python framework that lets you develop and analyze algorithms in NumPy and automatically generate optimized C code for embedded systems. The Linchpin: Python → C Code Generation¶ Archimedes started with the question, “What would you need to actually do practical control systems development in Python. h&gt; #define N_STATES 4 typedef struct { float H[N_STATES]; // Measurement matrix (1 x n) float R; // Measurement noise covariance (scalar) } kf_params_t; typedef struct { float x[N_STATES]; // State estimate float P[N_STATES][N_STATES]; // Estimate covariance } kf_state_t; typedef struct { float K[N_STATES]; // Kalman gain (n x 1) float M[N_STATES][N_STATES]; // I - K * H temporary float MP[N_STATES][N_STATES]; // M * P temporary float MPMT[N_STATES][N_STATES]; // M * P * M^T temporary float KRKT[N_STATES][N_STATES]; // K * R * K^T temporary } kf_work_t; /** * Kalman filter update step (scalar measurement case) * * Mathematical formulation: * y = z - H·x (innovation) * S = H·P·H^T + R (innovation covariance) * K = P·H^T·S^(-1) (Kalman gain) * x' = x + K·y (state update) * P' = (I-KH)·P·(I-KH)^T + K·R·K^T (Joseph form covariance) * * @param z: Latest measurement * @param kf_state: Pointer to Kalman filter state struct * @param kf_params: Pointer to Kalman filter parameters struct * @param kf_work: Pointer to Kalman filter work struct (for temporaries) * @return: 0 on success, -1 on error */ int kalman_update(float z, kf_state_t *kf_sta.
 
-🔗 Read more: https://www.johndcook.com/blog/2025/11/12/minimum-variance/</description>
-      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/12/minimum-variance/</guid>
-      <pubDate>Sat, 15 Nov 2025 15:25:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938027</comments>
+🔗 Read more: https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</description>
+      <guid isPermaLink="true">https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</guid>
+      <pubDate>Sat, 15 Nov 2025 19:29:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939938</comments>
     </item>
     <item>
-      <title>Wealth</title>
-      <link>https://saul.pw/mag/wealth/</link>
-      <description>📝 Generally, someone’s wealth level can be inferred from their net worth. If not living out of their car, they are couch-surfing; if they have a permanent address, they are living with someone else and paying a low or flexible amount of rent. People at ↑2 wealth h.
+      <title>The computer poetry of J. M. Coetzee's early programming career</title>
+      <link>https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</link>
+      <description>📝 Coetzee’s early poetry is almost undecipherable. I believe that this experience, while short, was vital for the development of Coetzee’s writerly project. Coetzee’s computer code poetry, dated May 30, 1965.
 
-🔗 Read more: https://saul.pw/mag/wealth/</description>
-      <guid isPermaLink="true">https://saul.pw/mag/wealth/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:16:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938427</comments>
+🔗 Read more: https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</description>
+      <guid isPermaLink="true">https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:44:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939569</comments>
     </item>
     <item>
-      <title>Trellis AI (YC W24) Is Hiring: Streamline access to life-saving therapies</title>
-      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</link>
-      <description>📝 We do this by automating document intake, prior authorizations, and appeals at scale to streamline operations and accelerate care. Trellis helps healthcare providers treat more patients, faster—while eliminating pre-service paperwork. We automate document intake, prior authorizations, and appeals at scale to streamline operations and accelerate care.
+      <title>Caffeinated coffee consumption or abstinence to reduce atrial fibrillation</title>
+      <link>https://jamanetwork.com/journals/jama/fullarticle/2841253</link>
+      <guid isPermaLink="true">https://jamanetwork.com/journals/jama/fullarticle/2841253</guid>
+      <pubDate>Sat, 15 Nov 2025 19:43:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940030</comments>
+    </item>
+    <item>
+      <title>FBI Director Waived Polygraph Security Screening for Three Senior Staff</title>
+      <link>https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</link>
+      <description>📝 ProPublica could not determine whether Bongino sat for a polygraph exam or what its results were. When ProPublica sought comment from the FBI, the agency denied that Bongino or the other senior staff members failed polygraph tests. Dan Bongino, deputy director of the FBI, speaks with Patel.
 
-🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</guid>
-      <pubDate>Sat, 15 Nov 2025 17:00:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938785</comments>
+🔗 Read more: https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</description>
+      <guid isPermaLink="true">https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</guid>
+      <pubDate>Sat, 15 Nov 2025 18:03:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939266</comments>
     </item>
     <item>
-      <title>I implemented an ISO 42001-certified AI Governance program in 6 months</title>
-      <link>https://beabytes.com/iso42001-certified-ai-governance/</link>
-      <guid isPermaLink="true">https://beabytes.com/iso42001-certified-ai-governance/</guid>
-      <pubDate>Sat, 15 Nov 2025 17:04:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938815</comments>
-    </item>
-    <item>
-      <title>How to tolerate annoying things</title>
-      <link>https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</link>
-      <description>📝 These are not the kind of events that disrupt the course of your life. They usually come your way unexpectedly, cause you some stress, and interrupt your flow. That made all the difference.
+      <title>AWS deprecates two dozen services (most of which you've never heard of)</title>
+      <link>https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</link>
+      <description>📝 S3 Object Lambdas have always been a bit weird. That leaves Snowball Edge. Read More about Amazon Q: Now with Helpful AI-Powered Self-Destruct Capabilities Get the newsletter.
 
-🔗 Read more: https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</description>
-      <guid isPermaLink="true">https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</guid>
-      <pubDate>Sat, 15 Nov 2025 14:53:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937816</comments>
+🔗 Read more: https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</description>
+      <guid isPermaLink="true">https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:55:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939678</comments>
     </item>
     <item>
-      <title>The Mighty Simplex (2023)</title>
-      <link>https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</link>
-      <description>📝 Simplex Geometry In this blog, I will restrict the geometry to the regular simplex. Each node is equivalent and is linked to each other. Each node is a charge.
+      <title>AMD continues to chip away at Intel's x86 market share</title>
+      <link>https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</link>
+      <description>📝 Intel still commands 74. (Image credit: Data by Mercury Research, Compiled by Tom's Hardware)AMD's client unit share rose to 25. 6% share of the desktop PC market, up from 32.
 
-🔗 Read more: https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</description>
-      <guid isPermaLink="true">https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:49:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938698</comments>
+🔗 Read more: https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</guid>
+      <pubDate>Sat, 15 Nov 2025 20:35:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940413</comments>
+    </item>
+    <item>
+      <title>USA gives South Korea green light to build nuclear submarines</title>
+      <link>https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</link>
+      <description>📝 Screenshot of an announcement made by President Trump stating that South Korean Nuclear submarines will be built in the United States. Subsequently, the construction of Nuclear submarines marks a departure from past efforts, as previous South Korean submarine construction has focused primarily on conventionally powered submarines. In tandem with this, South Korean Nuclear Submarine construction projects have remained in limbo for sometime as the U.
+
+🔗 Read more: https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</description>
+      <guid isPermaLink="true">https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:29:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939459</comments>
     </item>
   </channel>
 </rss>

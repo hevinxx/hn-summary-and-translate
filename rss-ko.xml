@@ -6,100 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 15 Nov 2025 18:26:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 21:18:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Windows 11용 Windhawk Windows 클래식 테마 모드</title>
-      <link>https://windhawk.net/mods/classic-theme-enable</link>
-      <guid isPermaLink="true">https://windhawk.net/mods/classic-theme-enable</guid>
-      <pubDate>Sat, 15 Nov 2025 16:53:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938723</comments>
+      <title>세대 간 후성 유전: 학습된 회피 이야기</title>
+      <link>https://elifesciences.org/articles/109427</link>
+      <description>📝 특정 박테리아를 피하기 위해 엘레강스 벌레를 제거합니다. 그러나 회피 분석 전에 벌레가 PA14에 노출되면 분석 중에 PA14를 피합니다(두 번째 행). 중요한 것은 부모 세대 이후 웜은 테스트 전에 PA14를 만나지 않지만 부모 세대의 학습된 회피를 유지한다는 것입니다.
+
+
+🔤 Original: Transgenerational Epigenetic Inheritance: the story of learned avoidance
+
+🔗 Read more: https://elifesciences.org/articles/109427</description>
+      <guid isPermaLink="true">https://elifesciences.org/articles/109427</guid>
+      <pubDate>Sat, 15 Nov 2025 18:40:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939550</comments>
     </item>
     <item>
-      <title>Fujitsu Lifebook U729의 Linux</title>
-      <link>https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</link>
-      <description>📝 이건 노트북과 함께 온 거예요. 이것은 Fujitsu BIOS 업데이트 도구입니다. 새로운 BIOS 버전이 있어야 합니다.
+      <title>아르키메데스 – 하드웨어 엔지니어링을 위한 Python 툴킷</title>
+      <link>https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</link>
+      <description>📝 간단히 말해서, Archimedes는 NumPy에서 알고리즘을 개발 및 분석하고 임베디드 시스템에 최적화된 C 코드를 자동으로 생성할 수 있는 Python 프레임워크입니다. 핵심핀: Python → C 코드 생성¶ 아르키메데스는 "실제로 Python에서 실제 제어 시스템 개발을 수행하려면 무엇이 필요합니까? h&gt; #define N_STATES 4 typedef struct { float H[N_STATES]; // 측정 행렬(1 x n) float R; // 측정 잡음 공분산(스칼라) } kf_params_t; typedef struct { float x[N_STATES]; // 상태 추정 float P[N_STATES][N_STATES]; // 공분산 추정 } kf_state_t; float K[N_STATES]; // 칼만 이득(n x 1) float M[N_STATES][N_STATES]; // I - K * H 임시 float MPMT[N_STATES][N_STATES]; // M^T temporary float KRKT[N_STATES][N_STATES]; // K * R * K^T temporary } kf_work_t; /** * 칼만 필터 업데이트 단계(스칼라 측정 사례) * * 수학적 공식: * y = z - H·x(혁신) * S = H·P·H^T + R(혁신 공분산) * K = P·H^T·S^(-1) (칼만 이득) * x' = x + K·y(상태 업데이트) * P' = (I-KH)·P·(I-KH)^T + K·R·K^T(요셉 형식 공분산) * * @param z: 최신 측정 * @param kf_state: 칼만 필터 상태 구조체에 대한 포인터 * @param kf_params: 칼만 필터 매개변수 구조체에 대한 포인터 * @param kf_work: 칼만 필터 작업 구조체에 대한 포인터(for) 임시) * @return: 성공 시 0, 오류 시 -1 */ int kalman_update(float z, kf_state_t *kf_sta.
 
 
-🔤 Original: Linux on the Fujitsu Lifebook U729
+🔤 Original: Archimedes – A Python toolkit for hardware engineering
 
-🔗 Read more: https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</description>
-      <guid isPermaLink="true">https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729</guid>
-      <pubDate>Sat, 15 Nov 2025 15:19:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937989</comments>
+🔗 Read more: https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</description>
+      <guid isPermaLink="true">https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</guid>
+      <pubDate>Sat, 15 Nov 2025 19:29:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939938</comments>
     </item>
     <item>
-      <title>분산을 최소화하기 위해 평균에 가중치 부여</title>
-      <link>https://www.johndcook.com/blog/2025/11/12/minimum-variance/</link>
-      <description>📝 A가 B보다 변동성이 더 크다고 가정합니다. 우리는 이 문제를 공식화하고 최적의 배분을 결정한 다음 문제를 더 많은 자산에 일반화할 것입니다. 다중 변수 이제 i에 대해 1부터 n까지 실행되는 n개의 독립 확률 변수 Xi가 있고 변수 중 적어도 하나가 상수가 아니라고 가정합니다.
+      <title>J. M. Coetzee의 초기 프로그래밍 경력에 대한 컴퓨터 시</title>
+      <link>https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</link>
+      <description>📝 Coetzee의 초기 시는 거의 해독이 불가능합니다. 나는 이 경험이 짧았지만 Coetzee의 작가 프로젝트 개발에 필수적이었다고 믿습니다. Coetzee의 컴퓨터 코드 시, 1965년 5월 30일자.
 
 
-🔤 Original: Weighting an average to minimize variance
+🔤 Original: The computer poetry of J. M. Coetzee's early programming career
 
-🔗 Read more: https://www.johndcook.com/blog/2025/11/12/minimum-variance/</description>
-      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/12/minimum-variance/</guid>
-      <pubDate>Sat, 15 Nov 2025 15:25:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938027</comments>
+🔗 Read more: https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</description>
+      <guid isPermaLink="true">https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:44:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939569</comments>
     </item>
     <item>
-      <title>재산</title>
-      <link>https://saul.pw/mag/wealth/</link>
-      <description>📝 일반적으로 누군가의 부 수준은 순자산을 통해 추론할 수 있습니다. 차에서 생활하지 않는다면 그들은 카우치 서핑을 하고 있습니다. 영구 주소가 있는 경우 다른 사람과 함께 거주하며 저렴하거나 유연한 임대료를 지불하고 있는 것입니다. ↑2 부의 사람들 h.
-
-
-🔤 Original: Wealth
-
-🔗 Read more: https://saul.pw/mag/wealth/</description>
-      <guid isPermaLink="true">https://saul.pw/mag/wealth/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:16:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938427</comments>
+      <title>심방세동을 줄이기 위한 카페인 커피 섭취 또는 금욕</title>
+      <link>https://jamanetwork.com/journals/jama/fullarticle/2841253</link>
+      <guid isPermaLink="true">https://jamanetwork.com/journals/jama/fullarticle/2841253</guid>
+      <pubDate>Sat, 15 Nov 2025 19:43:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940030</comments>
     </item>
     <item>
-      <title>Trellis AI(YC W24) 채용: 생명을 구하는 치료법에 대한 접근 간소화</title>
-      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</link>
-      <description>📝 우리는 문서 접수, 사전 승인, 대규모 항소를 자동화하여 운영을 간소화하고 치료를 가속화함으로써 이를 수행합니다. Trellis는 의료 서비스 제공자가 서비스 전 서류 작업을 없애면서 더 많은 환자를 더 빠르게 치료할 수 있도록 돕습니다. 우리는 문서 접수, 사전 승인 및 이의 제기를 대규모로 자동화하여 운영을 간소화하고 치료를 가속화합니다.
+      <title>FBI 국장은 고위 직원 3명에 대한 거짓말 탐지기 보안 검사를 면제했습니다.</title>
+      <link>https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</link>
+      <description>📝 ProPublica는 Bongino가 거짓말 탐지기 시험에 응시했는지 여부와 그 결과가 무엇인지 확인할 수 없었습니다. ProPublica가 FBI에 의견을 구했을 때 FBI는 Bongino나 다른 고위 직원이 거짓말 탐지기 테스트에 실패했다는 사실을 부인했습니다. FBI 부국장 Dan Bongino가 Patel과 대화를 나누고 있습니다.
 
 
-🔤 Original: Trellis AI (YC W24) Is Hiring: Streamline access to life-saving therapies
+🔤 Original: FBI Director Waived Polygraph Security Screening for Three Senior Staff
 
-🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/f4GWvH0-forward-deployed-engineer-full-time</guid>
-      <pubDate>Sat, 15 Nov 2025 17:00:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938785</comments>
+🔗 Read more: https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</description>
+      <guid isPermaLink="true">https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</guid>
+      <pubDate>Sat, 15 Nov 2025 18:03:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939266</comments>
     </item>
     <item>
-      <title>ISO 42001 인증 AI 거버넌스 프로그램을 6개월 만에 구현했습니다.</title>
-      <link>https://beabytes.com/iso42001-certified-ai-governance/</link>
-      <guid isPermaLink="true">https://beabytes.com/iso42001-certified-ai-governance/</guid>
-      <pubDate>Sat, 15 Nov 2025 17:04:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938815</comments>
+      <title>AWS는 24개 서비스를 더 이상 사용하지 않습니다(대부분 들어본 적도 없음).</title>
+      <link>https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</link>
+      <description>📝 S3 객체 Lambda는 항상 약간 이상했습니다. 그러면 Snowball Edge가 남습니다. Amazon Q에 대해 자세히 알아보십시오. 이제 유용한 AI 기반 자폭 기능이 제공됩니다. 뉴스레터를 받으세요.
+
+
+🔤 Original: AWS deprecates two dozen services (most of which you've never heard of)
+
+🔗 Read more: https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</description>
+      <guid isPermaLink="true">https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:55:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939678</comments>
     </item>
     <item>
-      <title>짜증나는 일을 참는 방법</title>
-      <link>https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</link>
-      <description>📝 이것은 당신의 삶의 과정을 방해하는 종류의 사건이 아닙니다. 그들은 대개 예기치 않게 나타나서 스트레스를 주고 흐름을 방해합니다. 그것이 모든 변화를 가져왔습니다.
+      <title>AMD는 Intel의 x86 시장 점유율을 계속해서 깎아내리고 있습니다.</title>
+      <link>https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</link>
+      <description>📝 Intel은 여전히 ​​74위를 차지하고 있습니다. (이미지 제공: Mercury Research 데이터, Tom's Hardware 컴파일)AMD의 클라이언트 장치 점유율은 25위로 올랐습니다. 데스크톱 PC 시장 점유율은 32위에서 6%로 증가했습니다.
 
 
-🔤 Original: How to tolerate annoying things
+🔤 Original: AMD continues to chip away at Intel's x86 market share
 
-🔗 Read more: https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</description>
-      <guid isPermaLink="true">https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</guid>
-      <pubDate>Sat, 15 Nov 2025 14:53:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45937816</comments>
+🔗 Read more: https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</guid>
+      <pubDate>Sat, 15 Nov 2025 20:35:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940413</comments>
     </item>
     <item>
-      <title>마이티 심플렉스 (2023)</title>
-      <link>https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</link>
-      <description>📝 심플렉스 기하학(Simplex Geometry) 이 블로그에서는 기하학을 일반 심플렉스로 제한하겠습니다. 각 노드는 동일하며 서로 연결되어 있습니다. 각 노드에는 요금이 부과됩니다.
+      <title>미국, 한국에 핵잠수함 건조 허가 승인</title>
+      <link>https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</link>
+      <description>📝 한국형 핵잠수함이 미국에서 건조될 것이라고 트럼프 대통령이 발표한 내용의 스크린샷. 그 후, 한국의 이전 잠수함 건조는 주로 재래식 추진 잠수함에 중점을 두었기 때문에 핵잠수함 건조는 과거의 노력에서 벗어났습니다. 이에 따라 한국의 핵잠수함 건조사업도 미국의 반발로 한동안 답보 상태에 빠졌다.
 
 
-🔤 Original: The Mighty Simplex (2023)
+🔤 Original: USA gives South Korea green light to build nuclear submarines
 
-🔗 Read more: https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</description>
-      <guid isPermaLink="true">https://galileo-unbound.blog/2023/05/03/the-mighty-simplex/</guid>
-      <pubDate>Sat, 15 Nov 2025 16:49:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45938698</comments>
+🔗 Read more: https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</description>
+      <guid isPermaLink="true">https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</guid>
+      <pubDate>Sat, 15 Nov 2025 18:29:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939459</comments>
     </item>
   </channel>
 </rss>
