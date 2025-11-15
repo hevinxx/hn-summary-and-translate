@@ -6,54 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Nov 2025 12:36:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 15:19:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>一只手键盘</title>
-      <link>https://github.com/htx-studio/One-Handed-Keyboard</link>
-      <description>📝 6mm，四层板，层压结构JLC04161H-3313，阻抗管控+/-20%。 1-左手键盘-焊板(小)：FR-4，板厚1. 6mm，四层板，层压结构JLC04161H-3313，阻抗管控+/-20%。 2-TypeC：板材FR-4，板厚1. 5mm。定位板棉条：单面留胶。夹心棉：推荐材料poron，厚3.
+      <title>如何用 C 语言编写类型安全的泛型</title>
+      <link>https://raphgl.github.io/blog/generics-in-c.html</link>
+      <description>📝 标头实例化应该如下所示： #define VEC_ITEM_TYPE long long #define VEC_SUFFIX num #include "vector. #define G(name) name##_##VEC_ITEM_TYPE 但是，这不起作用。所以我们将引入一个 VEC_SUFFIX： #ifndef VEC_ITEM_TYPE #error VEC_ITEM_TYPE was not Defined #endif #ifndef VEC_SUFFIX #define VEC_SUFFIX VEC_ITEM_TYPE #endif #define __G(name, type) name##_##type #define _G(name, type) __G(name, type) #define G(name) _G(name, VEC_SUFFIX) 现在我们可以自由地实现我们的库了。
 
 
-🔤 Original: One Handed Keyboard
+🔤 Original: How to write type-safe generics in C
 
-🔗 Read more: https://github.com/htx-studio/One-Handed-Keyboard</description>
-      <guid isPermaLink="true">https://github.com/htx-studio/One-Handed-Keyboard</guid>
-      <pubDate>Sat, 15 Nov 2025 09:44:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936262</comments>
+🔗 Read more: https://raphgl.github.io/blog/generics-in-c.html</description>
+      <guid isPermaLink="true">https://raphgl.github.io/blog/generics-in-c.html</guid>
+      <pubDate>Sat, 15 Nov 2025 13:58:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45937518</comments>
     </item>
     <item>
-      <title>我们对 Archive.today 上的可疑压力进行调查</title>
-      <link>https://adguard-dns.io/en/blog/archive-today-adguard-dns-block-demand.html</link>
-      <description>📝 他们要求我们封锁域名档案。此外，他们还暗示存档。这个时间表根本不合适。
+      <title>Kagi Bloopers – 搜索结果出错</title>
+      <link>https://help.kagi.com/kagi/bloopers/</link>
+      <description>📝 黑客最初是在 Mastodon 上。半马 最初出现在 Discord 上。公司最初位于X。
 
 
-🔤 Original: Our investigation into the suspicious pressure on Archive.today
+🔤 Original: Kagi Bloopers – Search Results Gone Wrong
 
-🔗 Read more: https://adguard-dns.io/en/blog/archive-today-adguard-dns-block-demand.html</description>
-      <guid isPermaLink="true">https://adguard-dns.io/en/blog/archive-today-adguard-dns-block-demand.html</guid>
-      <pubDate>Sat, 15 Nov 2025 10:30:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936460</comments>
-    </item>
-    <item>
-      <title>Activeloop（YC S18）正在招聘MTS（后端）和AI搜索工程师</title>
-      <link>https://careers.activeloop.ai/</link>
-      <guid isPermaLink="true">https://careers.activeloop.ai/</guid>
-      <pubDate>Sat, 15 Nov 2025 12:01:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936837</comments>
-    </item>
-    <item>
-      <title>北约结束俄罗斯对爱沙尼亚的空袭</title>
-      <link>https://themilitaryanalyst.com/2025/11/13/the-real-story-how-nato-ended-russias-estonian-air-incursions/</link>
-      <description>📝 北约飞机将抵达，护送俄罗斯人离开他们的领空，或者如果他们在国际空间，就坐在他们旁边。我们永远不会向他们退缩，他们总是知道我们会来。北约的 Mig-31 猎狐犬拦截机知道这一点。
-
-
-🔤 Original: NATO Ended Russia's Estonian Air Incursions
-
-🔗 Read more: https://themilitaryanalyst.com/2025/11/13/the-real-story-how-nato-ended-russias-estonian-air-incursions/</description>
-      <guid isPermaLink="true">https://themilitaryanalyst.com/2025/11/13/the-real-story-how-nato-ended-russias-estonian-air-incursions/</guid>
-      <pubDate>Sat, 15 Nov 2025 09:14:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936111</comments>
+🔗 Read more: https://help.kagi.com/kagi/bloopers/</description>
+      <guid isPermaLink="true">https://help.kagi.com/kagi/bloopers/</guid>
+      <pubDate>Sat, 15 Nov 2025 12:23:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45936964</comments>
     </item>
   </channel>
 </rss>

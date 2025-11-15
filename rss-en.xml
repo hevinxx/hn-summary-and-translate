@@ -6,45 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Nov 2025 12:36:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 15:19:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>One Handed Keyboard</title>
-      <link>https://github.com/htx-studio/One-Handed-Keyboard</link>
-      <description>📝 6mm，四层板，层压结构JLC04161H-3313，阻抗管控+/-20%。 1-左手键盘-焊板(小)：板材FR-4，板厚1. 6mm，四层板，层压结构JLC04161H-3313，阻抗管控+/-20%。 2-TypeC：板材FR-4，板厚1. 5mm。 定位板棉条：单面留胶。 夹心棉：推荐材料poron，厚3.
+      <title>How to write type-safe generics in C</title>
+      <link>https://raphgl.github.io/blog/generics-in-c.html</link>
+      <description>📝 The header instantiation should look like this: #define VEC_ITEM_TYPE long long #define VEC_SUFFIX num #include "vector. #define G(name) name##_##VEC_ITEM_TYPE Except, this doesn’t work. So we’ll introduce a VEC_SUFFIX: #ifndef VEC_ITEM_TYPE #error VEC_ITEM_TYPE was not defined #endif #ifndef VEC_SUFFIX #define VEC_SUFFIX VEC_ITEM_TYPE #endif #define __G(name, type) name##_##type #define _G(name, type) __G(name, type) #define G(name) _G(name, VEC_SUFFIX) Now we’re free to implement our library.
 
-🔗 Read more: https://github.com/htx-studio/One-Handed-Keyboard</description>
-      <guid isPermaLink="true">https://github.com/htx-studio/One-Handed-Keyboard</guid>
-      <pubDate>Sat, 15 Nov 2025 09:44:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936262</comments>
+🔗 Read more: https://raphgl.github.io/blog/generics-in-c.html</description>
+      <guid isPermaLink="true">https://raphgl.github.io/blog/generics-in-c.html</guid>
+      <pubDate>Sat, 15 Nov 2025 13:58:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45937518</comments>
     </item>
     <item>
-      <title>Our investigation into the suspicious pressure on Archive.today</title>
-      <link>https://adguard-dns.io/en/blog/archive-today-adguard-dns-block-demand.html</link>
-      <description>📝 They demanded that we block the domain archive. Moreover, they hinted that Archive. That timeline simply doesn’t fit.
+      <title>Kagi Bloopers – Search Results Gone Wrong</title>
+      <link>https://help.kagi.com/kagi/bloopers/</link>
+      <description>📝 Hacker Originally on Mastodon. Half pony Originally on Discord. Corporation Originally on X.
 
-🔗 Read more: https://adguard-dns.io/en/blog/archive-today-adguard-dns-block-demand.html</description>
-      <guid isPermaLink="true">https://adguard-dns.io/en/blog/archive-today-adguard-dns-block-demand.html</guid>
-      <pubDate>Sat, 15 Nov 2025 10:30:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936460</comments>
-    </item>
-    <item>
-      <title>Activeloop (YC S18) Is Hiring MTS(Back End)and AI Search Engineer</title>
-      <link>https://careers.activeloop.ai/</link>
-      <guid isPermaLink="true">https://careers.activeloop.ai/</guid>
-      <pubDate>Sat, 15 Nov 2025 12:01:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936837</comments>
-    </item>
-    <item>
-      <title>NATO Ended Russia's Estonian Air Incursions</title>
-      <link>https://themilitaryanalyst.com/2025/11/13/the-real-story-how-nato-ended-russias-estonian-air-incursions/</link>
-      <description>📝 The NATO aircraft would arrive, escort the Russians out of their airspace or just sit next to them if they were in international space. We would never back down from them and they always knew we would come. The Mig-31 Foxhound Interceptor NATO knew this.
-
-🔗 Read more: https://themilitaryanalyst.com/2025/11/13/the-real-story-how-nato-ended-russias-estonian-air-incursions/</description>
-      <guid isPermaLink="true">https://themilitaryanalyst.com/2025/11/13/the-real-story-how-nato-ended-russias-estonian-air-incursions/</guid>
-      <pubDate>Sat, 15 Nov 2025 09:14:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45936111</comments>
+🔗 Read more: https://help.kagi.com/kagi/bloopers/</description>
+      <guid isPermaLink="true">https://help.kagi.com/kagi/bloopers/</guid>
+      <pubDate>Sat, 15 Nov 2025 12:23:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45936964</comments>
     </item>
   </channel>
 </rss>
