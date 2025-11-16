@@ -6,106 +6,165 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Nov 2025 21:18:10 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 01:42:30 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>跨代表观遗传：习得性回避的故事</title>
-      <link>https://elifesciences.org/articles/109427</link>
-      <description>📝 线虫以避免特定细菌。然而，当线虫在回避测定之前接触 PA14 时，它们会在测定期间避开 PA14（第二行）。重要的是，在亲代之后，蠕虫在测试之前不会遇到 PA14，但它们保留了亲代的习得性回避。
+      <title>IDEmacs：Emacs 的 Visual Studio Code 克隆</title>
+      <link>https://codeberg.org/IDEmacs/IDEmacs</link>
+      <description>📝 GZ 下载 BUNDLE 用 VS Code 打开 用 VSCodium 打开 用 Intellij IDEA 打开 引用此存储库 BibTeX 取消 contrapunctus e1db4094f4 在依赖项中提及字体 2025-11-16 06:43:19 +05:30 img 更新屏幕截图 2024-06-27 00:53:52 +05:30 vscode 将 Bitstream Vera 替换为似曾相识 2025-11-16 06:40:45 +05:30。 VSCode 配置（WIP） 这是第一个也是目前唯一提供的 IDE 配置。常规键绑定 VSCode 说明 IDEmacs-VSCode c．
 
 
-🔤 Original: Transgenerational Epigenetic Inheritance: the story of learned avoidance
+🔤 Original: IDEmacs: A Visual Studio Code clone for Emacs
 
-🔗 Read more: https://elifesciences.org/articles/109427</description>
-      <guid isPermaLink="true">https://elifesciences.org/articles/109427</guid>
-      <pubDate>Sat, 15 Nov 2025 18:40:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45939550</comments>
+🔗 Read more: https://codeberg.org/IDEmacs/IDEmacs</description>
+      <guid isPermaLink="true">https://codeberg.org/IDEmacs/IDEmacs</guid>
+      <pubDate>Sun, 16 Nov 2025 00:56:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941835</comments>
     </item>
     <item>
-      <title>阿基米德——用于硬件工程的 Python 工具包</title>
-      <link>https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</link>
-      <description>📝 简而言之，Archimedes 是一个 Python 框架，可让您在 NumPy 中开发和分析算法，并自动为嵌入式系统生成优化的 C 代码。关键：Python → C 代码生成¶ 阿基米德从以下问题开始：“在 Python 中实际进行实际控制系统开发需要什么。 h&gt; #define N_STATES 4 typedef struct { float H[N_STATES]; // 测量矩阵 (1 x n) float R; // 测量噪声协方差（标量） } kf_params_t; typedef struct { float x[N_STATES]; // 状态估计 float P[N_STATES][N_STATES]; // 估计协方差 } kf_state_t; // 卡尔曼增益 (n x 1) float M[N_STATES][N_STATES]; // M * P 临时 float MPMT[N_STATES][N_STATES]; M^T 临时 float KRKT[N_STATES][N_STATES]; // K * R * K^T 临时 } kf_work_t; /** * 卡尔曼滤波器更新步骤（标量测量情况） * * 数学公式： * y = z - H·x（新值） * S = H·P·H^T + R（新值协方差） * K = P·H^T·S^(-1)（卡尔曼增益） * x' = x + K·y（状态更新） * P' = (I-KH)·P·(I-KH)^T + K·R·K^T（约瑟夫形式协方差） * * @param z：最新测量 * @param kf_state：指向卡尔曼滤波器状态结构的指针 * @param kf_params：指向卡尔曼滤波器参数结构的指针 * @param kf_work：指向卡尔曼滤波器工作结构的指针（对于临时） * @return: 0 表示成功，-1 表示错误 */ int kalman_update(float z, kf_state_t *kf_sta.
+      <title>AirPods 从苹果生态系统中解放出来</title>
+      <link>https://github.com/kavishdevar/librepods</link>
+      <description>📝 LibrePods 在非 Apple 设备上解锁 Apple 独有的 AirPods 功能。设备兼容性状态 设备功能 ✅ AirPods Pro（第 2 代）完全支持并经过测试 ✅ AirPods Pro（第 3 代）完全支持（心率监测除外） ⚠️ 其他 AirPods 型号 基本功能（电池状态、耳朵检测）应该可以使用 大多数功能应该适用于任何 AirPods。当其他设备接管时，Android 还会显示一个弹出窗口。
 
 
-🔤 Original: Archimedes – A Python toolkit for hardware engineering
+🔤 Original: AirPods libreated from Apple's ecosystem
 
-🔗 Read more: https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</description>
-      <guid isPermaLink="true">https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html</guid>
-      <pubDate>Sat, 15 Nov 2025 19:29:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45939938</comments>
+🔗 Read more: https://github.com/kavishdevar/librepods</description>
+      <guid isPermaLink="true">https://github.com/kavishdevar/librepods</guid>
+      <pubDate>Sun, 16 Nov 2025 00:01:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941596</comments>
     </item>
     <item>
-      <title>J. M. Coetzee 早期编程生涯的计算机诗篇</title>
-      <link>https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</link>
-      <description>📝 库切的早期诗歌几乎无法解读。我相信这段经历虽然短暂，但对于库切写作计划的发展至关重要。库切的计算机代码诗，日期为 1965 年 5 月 30 日。
+      <title>libwifi：用 C 语言编写的 802.11 帧解析和生成库</title>
+      <link>https://libwifi.so/</link>
+      <description>📝 void parse_packet(unsigned char *args, const struct pcap_pkthdr *header, const unsigned char *packet) { unsigned long data_len = header-&gt;caplen; unsigned char *data = (unsigned char *) 数据包；结构 libwifi_frame 框架 = {0}; int ret = libwifi_get_wifi_frame(&amp;frame, data, data_len, got_radiotap); if (ret.type == TYPE_MANAGEMENT &amp;&amp; frame.int main(int argc, char **argv) { struct libwifi_beacon beacon = {0}; static unsigned char bcast[] = "\xFF\xFF\xFF\xFF\xFF\xFF"; static unsigned char tx[] = "\x00\x20\x91\xAA\xBB\CC"; int ret = libwifi_create_beacon(&amp;beacon, bcast, tx, tx, "wifi-beacon", 11); if (ret.
 
 
-🔤 Original: The computer poetry of J. M. Coetzee's early programming career
+🔤 Original: libwifi: an 802.11 frame parsing and generation library written in C
 
-🔗 Read more: https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</description>
-      <guid isPermaLink="true">https://sites.utexas.edu/ransomcentermagazine/2017/06/28/the-computer-poetry-of-j-m-coetzees-early-programming-career/</guid>
-      <pubDate>Sat, 15 Nov 2025 18:44:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45939569</comments>
+🔗 Read more: https://libwifi.so/</description>
+      <guid isPermaLink="true">https://libwifi.so/</guid>
+      <pubDate>Sat, 15 Nov 2025 22:16:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941025</comments>
     </item>
     <item>
-      <title>饮用或戒断含咖啡因的咖啡可减少心房颤动</title>
-      <link>https://jamanetwork.com/journals/jama/fullarticle/2841253</link>
-      <guid isPermaLink="true">https://jamanetwork.com/journals/jama/fullarticle/2841253</guid>
-      <pubDate>Sat, 15 Nov 2025 19:43:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45940030</comments>
+      <title>当 UPS 对我价值 355 美元的老式电脑零件收取 684 美元关税时</title>
+      <link>http://oldvcr.blogspot.com/2025/11/when-ups-charged-me-684-tariff-on-355.html</link>
+      <description>📝 这些都是苹果服务包装中的新旧库存物品，因为显然苹果几十年来没有制造或销售任何这些零件。即使运费已增加到 30，这也远远低于之前的最低限度豁免，这是卖家在所有四件商品上标记的。
+
+
+🔤 Original: When UPS charged me a $684 tariff on $355 of vintage computer parts
+
+🔗 Read more: http://oldvcr.blogspot.com/2025/11/when-ups-charged-me-684-tariff-on-355.html</description>
+      <guid isPermaLink="true">http://oldvcr.blogspot.com/2025/11/when-ups-charged-me-684-tariff-on-355.html</guid>
+      <pubDate>Sat, 15 Nov 2025 23:55:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941563</comments>
     </item>
     <item>
-      <title>联邦调查局局长免除对三名高级职员的测谎安全检查</title>
-      <link>https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</link>
-      <description>📝 ProPublica 无法确定邦吉诺是否参加了测谎仪检查或检查结果如何。当 ProPublica 向联邦调查局寻求评论时，该机构否认邦吉诺或其他高级工作人员未通过测谎仪测试。联邦调查局副局长丹·邦吉诺 (Dan Bongino) 与帕特尔交谈。
+      <title>没有做事的事情</title>
+      <link>https://strangestloop.io/essays/things-that-arent-doing-the-thing</link>
+      <description>📝 那些没有起到作用的事情 准备做某事并不是在做事情。读这篇文章并没有做到这一点。唯一要做的事情就是做事情。
 
 
-🔤 Original: FBI Director Waived Polygraph Security Screening for Three Senior Staff
+🔤 Original: Things that aren't doing the thing
 
-🔗 Read more: https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</description>
-      <guid isPermaLink="true">https://www.propublica.org/article/fbi-kash-patel-dan-bongino-waived-polygraph</guid>
-      <pubDate>Sat, 15 Nov 2025 18:03:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45939266</comments>
+🔗 Read more: https://strangestloop.io/essays/things-that-arent-doing-the-thing</description>
+      <guid isPermaLink="true">https://strangestloop.io/essays/things-that-arent-doing-the-thing</guid>
+      <pubDate>Sat, 15 Nov 2025 18:24:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939431</comments>
     </item>
     <item>
-      <title>AWS 弃用了两打服务（其中大部分您从未听说过）</title>
-      <link>https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</link>
-      <description>📝 S3 对象 Lambda 一直有点奇怪。剩下的就是 Snowball Edge。阅读有关 Amazon Q 的更多信息：现在具有有用的 AI 驱动的自毁功能 获取新闻通讯。
+      <title>ASCII数学</title>
+      <link>https://asciimath.org/</link>
+      <description>📝 首先加载默认的 AsciiMath 配置： &lt;script src="https://cdnjs。语法 大多数 AsciiMath 符号都会尝试在文本中模仿它们呈现的样子，例如 oo 代表 `oo`。 in` subsubset`sub`supset`sup`subesubseteq`sube`supseteq`supe` -= equalv`-=` ~= cong`~=` ~~ approx `~~` prop propto `prop` 逻辑符号类型TeX alt 请参阅 and `and` 或 `or` not neg `not` =&gt; 意味着 `=&gt;` if `if` &lt;=&gt; iff `iff` AA forall `AA` EE 存在 `EE` _|_ bot `_|_` TT top `TT` |-- vdash `|--` |== models `|==` 分组括号 类型 TeX alt See ( `(` ) `)` [ `[` ] `]` { `{` } `}` (: langle `(:` :) rangle `:)` &lt;&lt; `&lt;&lt;` &gt;&gt; `&gt;&gt;` {: x ) `{: x )` ( x :} `( x :}`ABS(x)`abs(x)`floor(x)`floor(x)`ceil(x)`ceil(x)`norm(vecx)`norm(vecx)` 箭头类型 TeX alt 参见 uarr向上箭头`uarr` darr 向下箭头`darr` rarr 右箭头`rarr` -&gt; 到`-&gt;` &gt;&gt;-&gt; rightarrowtail `&gt;-&gt;` -&gt;&gt; twoheadrightarrow `-&gt;&gt;` &gt;&gt;-&gt;&gt; Twoheadrightarrowtail `&gt;-&gt;&gt;` |-&gt; 映射到`|-&gt;` larr leftarrow `larr` harr leftrightarrow `harr` rArr 右箭头`rArr` lArr 左箭头`lArr` hArr Leftrightarrow `hArr` 重音符号类型 TeX alt 请参见 hat x `hat x` bar x 上划线 x `bar x` ul x 下划线 x `ul x` vec x `vec x` tilde x `tilde x` dot x `dot x` ddot x `ddot x` overset(x)(=) overset(x)(=) `overset(x)(=)` underset(x)(=) `underset(x)(=)` ubrace(1+2) underbrace(1+2) `ubrace(1+2)` obrace(1+2) overbrace(1+2) `obrace(1+2)` overarc(AB) overparen(AB) `overarc(AB)` color(red)(x) `color(red)(x)` cancel(x) `cancel(x)` 希腊字母 类型 请参见类型 请参见 alpha `alpha` beta `beta` gamma `gamma` Gamma `Gamma` delta `delta` Delta `Delta` epsilon `epsilon` varepsilon `varepsilon` zeta `zeta` eta `eta` theta `theta` Theta `Theta` vartheta `vartheta` iota `iota` kappa `kappa` lambda `lambda` Lambda `Lambda` mu `mu` nu `nu` xi `xi` Xi `Xi` pi `pi` Pi `Pi` rho `rho` sigma `sigma` Sigma `Sigma` tau `tau` upsilon `upsilon` phi `phi` Phi `Phi` varphi `varphi` chi `chi` psi `psi` Psi `Psi` omega `omega` Omega `Omega` 字体命令 类型 TeX alt 请参阅 bb "AaBbCc" mathbf "AaBbCc" `bb "AaBbCc"` bbb "AaBbCc" mathbb "AaBbCc" `bbb "AaBbCc"` cc "AaBbCc" mathcal "AaBbCc" `cc "AaBbCc"` tt "AaBbCc" mathtt "AaBbCc" `tt "AaBbCc"` fr "AaBbCc" mathfrak "AaBbCc" `fr "AaBbCc"` sf "AaBbCc" mathsf "AaBbCc" `sf "AaBbCc"` 标准函数 sin, cos, tan, sec, csc, cot, arcsin, arccos, arctan, sinh, cosh, tanh, sech, csch, coth, exp,。
 
 
-🔤 Original: AWS deprecates two dozen services (most of which you've never heard of)
+🔤 Original: AsciiMath
 
-🔗 Read more: https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</description>
-      <guid isPermaLink="true">https://www.lastweekinaws.com/blog/aws-deprecates-two-dozen-services-most-of-which-youve-never-heard-of/</guid>
-      <pubDate>Sat, 15 Nov 2025 18:55:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45939678</comments>
+🔗 Read more: https://asciimath.org/</description>
+      <guid isPermaLink="true">https://asciimath.org/</guid>
+      <pubDate>Sat, 15 Nov 2025 21:22:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940706</comments>
     </item>
     <item>
-      <title>AMD 继续蚕食英特尔 x86 市场份额</title>
-      <link>https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</link>
-      <description>📝 英特尔仍然占据 74 的份额。（图片来源：Mercury Research 的数据，由 Tom's Hardware 编译）AMD 的客户端单位份额在台式 PC 市场上的份额从 32 上升至 25. 6%。
+      <title>Rust 不可思议的类型：如何确保自借安全（2024）</title>
+      <link>https://blog.polybdenum.com/2024/06/07/the-inconceivable-types-of-rust-how-to-make-self-borrows-safe.html</link>
+      <description>📝 Rust 简史 Rust 1. 然而，没过多久，人们就意识到不可移动类型实际上非常有用。特别是，异步函数几乎总是产生不可移动的未来类型，因此如果不以某种方式支持不可移动类型，就不可能拥有异步 Rust。
 
 
-🔤 Original: AMD continues to chip away at Intel's x86 market share
+🔤 Original: The inconceivable types of Rust: How to make self-borrows safe (2024)
 
-🔗 Read more: https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/cpus/amd-continues-to-chip-away-at-intels-x86-market-share-company-now-sells-over-25-percent-of-all-x86-chips-and-powers-33-percent-of-all-desktop-systems</guid>
-      <pubDate>Sat, 15 Nov 2025 20:35:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45940413</comments>
+🔗 Read more: https://blog.polybdenum.com/2024/06/07/the-inconceivable-types-of-rust-how-to-make-self-borrows-safe.html</description>
+      <guid isPermaLink="true">https://blog.polybdenum.com/2024/06/07/the-inconceivable-types-of-rust-how-to-make-self-borrows-safe.html</guid>
+      <pubDate>Sat, 15 Nov 2025 23:31:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941443</comments>
     </item>
     <item>
-      <title>美国为韩国建造核潜艇开绿灯</title>
-      <link>https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</link>
-      <description>📝 特朗普总统宣布韩国核潜艇将在美国建造的公告截图。随后，核潜艇的建造标志着与过去的努力的背离，因为此前韩国潜艇的建造主要集中在常规动力潜艇上。与此同时，由于美国的制裁，韩国核潜艇建设项目在一段时间内仍处于悬而未决的状态。
+      <title>无需 JavaScript 即可阻止 LLM 爬虫</title>
+      <link>https://www.owl.is/blogg/blocking-crawlers-without-javascript/</link>
+      <guid isPermaLink="true">https://www.owl.is/blogg/blocking-crawlers-without-javascript/</guid>
+      <pubDate>Sat, 15 Nov 2025 23:30:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941441</comments>
+    </item>
+    <item>
+      <title>EyesOff：我如何构建屏幕接触检测模型</title>
+      <link>https://ym2132.github.io/building_EyesOff_part2_model_training</link>
+      <description>📝 我正在为 EyesOff 构建这个模型。这是一个可以检测人们正在看你的屏幕的应用程序。这是一个很好的起点，我从这里拍摄并标记了 3400 张图像。
 
 
-🔤 Original: USA gives South Korea green light to build nuclear submarines
+🔤 Original: EyesOff: How I built a screen contact detection model
 
-🔗 Read more: https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</description>
-      <guid isPermaLink="true">https://www.navalnews.com/naval-news/2025/10/usa-gives-south-korea-green-light-to-build-nuclear-submarines/</guid>
-      <pubDate>Sat, 15 Nov 2025 18:29:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45939459</comments>
+🔗 Read more: https://ym2132.github.io/building_EyesOff_part2_model_training</description>
+      <guid isPermaLink="true">https://ym2132.github.io/building_EyesOff_part2_model_training</guid>
+      <pubDate>Sat, 15 Nov 2025 08:42:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45935970</comments>
+    </item>
+    <item>
+      <title>报道：蒂姆·库克可能“最快明年”辞去苹果首席执行官职务</title>
+      <link>https://9to5mac.com/2025/11/14/tim-cook-step-down-as-apple-ceo-as-soon-as-next-year-report/</link>
+      <description>📝 在他最大的成就中，我要强调的是 Apple Silicon。您正在阅读 9to5Mac——专家们日复一日地报道有关苹果及其周边生态系统的新闻。查看我们的独家故事、评论、操作方法，并订阅我们的 YouTube 频道 在 YouTube 上查看 9to5Mac，了解更多 Apple 新闻： 评论 展开关闭评论 展开关闭评论 指南 AAPL 公司来自库比蒂诺的突发新闻。
+
+
+🔤 Original: Report: Tim Cook could step down as Apple CEO 'as soon as next year'
+
+🔗 Read more: https://9to5mac.com/2025/11/14/tim-cook-step-down-as-apple-ceo-as-soon-as-next-year-report/</description>
+      <guid isPermaLink="true">https://9to5mac.com/2025/11/14/tim-cook-step-down-as-apple-ceo-as-soon-as-next-year-report/</guid>
+      <pubDate>Sat, 15 Nov 2025 21:18:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45940681</comments>
+    </item>
+    <item>
+      <title>解决欧拉计划 #45</title>
+      <link>https://loriculus.org/blog/euler-45/</link>
+      <guid isPermaLink="true">https://loriculus.org/blog/euler-45/</guid>
+      <pubDate>Sun, 16 Nov 2025 00:04:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941613</comments>
+    </item>
+    <item>
+      <title>内华达州州长办公室掩盖了 Boring Co 的安全违规行为</title>
+      <link>https://fortune.com/2025/11/12/elon-musk-boring-company-tunnels-injuries-osha-citations-fines-rescinded-nevada-governor-office-documents-altered/</link>
+      <description>📝 关于这次会议，威廉姆斯表示，州长办公室“经常收到雇主的投诉和询问”，并且州长办公室联系领导层以协助处理投诉和询问是“标准做法”。 （要阅读内华达州 OSHA 对本文的完整回应，请点击此处。“这绝对不合适，”2021 年之前负责内华达州 OSHA 的杰西·兰克福德 (Jess Lankford) 说。
+
+
+🔤 Original: Nevada Governor's office covered up Boring Co safety violations
+
+🔗 Read more: https://fortune.com/2025/11/12/elon-musk-boring-company-tunnels-injuries-osha-citations-fines-rescinded-nevada-governor-office-documents-altered/</description>
+      <guid isPermaLink="true">https://fortune.com/2025/11/12/elon-musk-boring-company-tunnels-injuries-osha-citations-fines-rescinded-nevada-governor-office-documents-altered/</guid>
+      <pubDate>Sat, 15 Nov 2025 19:10:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45939798</comments>
+    </item>
+    <item>
+      <title>科技资本家不关心人类</title>
+      <link>https://jacobin.com/2025/11/musk-thiel-altman-ai-tescrealism/</link>
+      <description>📝 埃米尔·托雷斯（Émile Torres）我从来没有说过这是一个漂亮的词。这个想法是，如果宇宙本身具有更多价值，它就会变得更好。这个想法是 TESCREAL 运动不可或缺的一部分。
+
+
+🔤 Original: Tech Capitalists Don't Care About Humans
+
+🔗 Read more: https://jacobin.com/2025/11/musk-thiel-altman-ai-tescrealism/</description>
+      <guid isPermaLink="true">https://jacobin.com/2025/11/musk-thiel-altman-ai-tescrealism/</guid>
+      <pubDate>Sun, 16 Nov 2025 00:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45941717</comments>
     </item>
   </channel>
 </rss>
