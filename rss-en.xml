@@ -6,79 +6,98 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Nov 2025 12:37:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 15:19:49 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Anthropic's report smells a lot like bullshit</title>
-      <link>https://djnn.sh/posts/anthropic-s-paper-smells-like-bullshit/</link>
-      <guid isPermaLink="true">https://djnn.sh/posts/anthropic-s-paper-smells-like-bullshit/</guid>
-      <pubDate>Sun, 16 Nov 2025 11:32:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944296</comments>
-    </item>
-    <item>
-      <title>Maybe You're Not Actually Trying</title>
-      <link>https://usefulfictions.substack.com/p/maybe-youre-not-actually-trying</link>
-      <guid isPermaLink="true">https://usefulfictions.substack.com/p/maybe-youre-not-actually-trying</guid>
-      <pubDate>Sun, 16 Nov 2025 10:14:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45943979</comments>
-    </item>
-    <item>
-      <title>UK's first small nuclear power station to be built in north Wales</title>
-      <link>https://www.bbc.com/news/articles/c051y3d7myzo</link>
-      <description>📝 Visiting a further education college in north Wales on Thursday, Sir Keir said the development would bring jobs for "decades to come" and that work would begin "virtually straight away". Mims Davies MP, the Shadow Secretary of State for Wales, said it will bring much-needed jobs and investment but "the current plan will only generate a fraction of the power that a Gigawatt-powered plant would". The company will report back by autumn 2026, officials said.
+      <title>Brimstone: ES2025 JavaScript engine written in Rust</title>
+      <link>https://github.com/Hans-Halverson/brimstone</link>
+      <description>📝 Brimstone Brimstone is a JavaScript engine written from scratch in Rust, aiming to have full support for the JavaScript language. Brimstone chooses to implement almost all components of the engine from scratch with minimal dependencies, with the notable exception of ICU4X. cargo build to build the bs executable cargo run to run from source JavaScript files can be executed with bs: # Build brimstone cargo build # Execute a JavaScript file.
 
-🔗 Read more: https://www.bbc.com/news/articles/c051y3d7myzo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c051y3d7myzo</guid>
-      <pubDate>Sun, 16 Nov 2025 10:38:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944056</comments>
+🔗 Read more: https://github.com/Hans-Halverson/brimstone</description>
+      <guid isPermaLink="true">https://github.com/Hans-Halverson/brimstone</guid>
+      <pubDate>Sun, 16 Nov 2025 11:41:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944337</comments>
     </item>
     <item>
-      <title>Facebook Text Log Between Mark Zuckerberg and Kevin Systrom(Instagram Cofounder)</title>
-      <link>https://www.dropbox.com/scl/fo/0e4qbvj7w8cwxdlpo010c/AHCMfNHmj03nPnJ-VKDYRvA?dl=0&amp;e=1&amp;noscript=1&amp;preview=Facebook%2Btext%2Blog%2Bbetween%2BMark%2BZuckerberg%2Band%2BKevin%2BSystrom.pdf&amp;rlkey=43f3smc5zi5v82h986hujmvfb</link>
-      <guid isPermaLink="true">https://www.dropbox.com/scl/fo/0e4qbvj7w8cwxdlpo010c/AHCMfNHmj03nPnJ-VKDYRvA?dl=0&amp;e=1&amp;noscript=1&amp;preview=Facebook%2Btext%2Blog%2Bbetween%2BMark%2BZuckerberg%2Band%2BKevin%2BSystrom.pdf&amp;rlkey=43f3smc5zi5v82h986hujmvfb</guid>
-      <pubDate>Sun, 16 Nov 2025 07:55:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45943486</comments>
-    </item>
-    <item>
-      <title>Bypassing the Branch Predictor</title>
-      <link>https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html</link>
-      <description>📝 Those attributes will typically just reorder some labels/paths around to make sure that the path which we mark as [[likely]] will require less jumps. L2: pop rbx jmp abandon(Transaction*) It won’t really matter that the send() branch doesn’t need to do the jump at line 7, because the branch predictor will be primed to assume the abandon() branch nonetheless. We have to do this enough times such that the mocked transaction data becomes the vast majority over the real data, so the branch predictor will be primed to assume that the send() path will be executed practically on every resolve() call.
+      <title>Running the "Reflections on Trusting Trust" Compiler</title>
+      <link>https://research.swtch.com/nih</link>
+      <description>📝 In this post, we will run the backdoored compiler using Ken’s actual code. Step 1: Write a Self-Reproducing Program Step 1 is to write a program that prints its own source code. Recognize the compiler itself and insert the code for these two changes.
 
-🔗 Read more: https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html</description>
-      <guid isPermaLink="true">https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html</guid>
-      <pubDate>Sun, 16 Nov 2025 06:51:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45943279</comments>
+🔗 Read more: https://research.swtch.com/nih</description>
+      <guid isPermaLink="true">https://research.swtch.com/nih</guid>
+      <pubDate>Sun, 16 Nov 2025 13:59:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945202</comments>
     </item>
     <item>
-      <title>An exposed .git folder let us dox a phishing campaign</title>
-      <link>https://news.ycombinator.com/item?id=45943802</link>
-      <description>📝 This past Friday afternoon, a member in our Discord server reported a phishing email pointing to a fake login page. With the source code, repo and the active Telegram bot token, we filed detailed abuse reports:- GitHub: We reported the repository containing the phishing kit's source code. The crowdsourced speed and collaboration helped us take this down very fast.
+      <title>The politics of purely client-side apps</title>
+      <link>https://pfrazee.leaflet.pub/3m5hwua4sh22v</link>
+      <description>📝 The Bluesky app still uses Option 1, but now that OAuth is here the guidance we've been giving is Option 2. Is that the right call. Subscribe with Bluesky.
 
-🔗 Read more: https://news.ycombinator.com/item?id=45943802</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=45943802</guid>
-      <pubDate>Sun, 16 Nov 2025 09:29:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45943802</comments>
+🔗 Read more: https://pfrazee.leaflet.pub/3m5hwua4sh22v</description>
+      <guid isPermaLink="true">https://pfrazee.leaflet.pub/3m5hwua4sh22v</guid>
+      <pubDate>Sun, 16 Nov 2025 13:45:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945113</comments>
     </item>
     <item>
-      <title>Why I Don't Need a Steam Machine</title>
-      <link>https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/</link>
-      <description>📝 That you don’t like playing. You don’t have time to play games anyway. Your MacBook can emulate Windows games just fine.
+      <title>The Internet Is No Longer a Safe Haven</title>
+      <link>https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</link>
+      <description>📝 0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537. 36 (KHTML, like Gecko) Chrome/140. 0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.
 
-🔗 Read more: https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/</description>
-      <guid isPermaLink="true">https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/</guid>
-      <pubDate>Sun, 16 Nov 2025 10:21:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45943992</comments>
+🔗 Read more: https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</description>
+      <guid isPermaLink="true">https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</guid>
+      <pubDate>Sun, 16 Nov 2025 13:12:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944870</comments>
     </item>
     <item>
-      <title>Is our death from a hydrogen sulfide event inevitable in climate warming? (2005)</title>
-      <link>https://www.psu.edu/news/research/story/global-warming-led-climatic-hydrogen-sulfide-and-permian-extinction</link>
-      <description>📝 These bacteria strip oxygen from the compounds and produce hydrogen sulfide. Hydrogen sulfide kills aerobic organisms. The hydrogen sulfide dispersing in the atmosphere would kill most terrestrial life.
+      <title>My mum was a 17-year-old free spirit so she was locked up and put in a coma</title>
+      <link>https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</link>
+      <description>📝 They were so conservative they wouldn't even let Mariona wear trousers. They didn't take her home. They weren't criminals - they were females deemed in need of "re-education".
 
-🔗 Read more: https://www.psu.edu/news/research/story/global-warming-led-climatic-hydrogen-sulfide-and-permian-extinction</description>
-      <guid isPermaLink="true">https://www.psu.edu/news/research/story/global-warming-led-climatic-hydrogen-sulfide-and-permian-extinction</guid>
-      <pubDate>Sun, 16 Nov 2025 04:02:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45942649</comments>
+🔗 Read more: https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</guid>
+      <pubDate>Sun, 16 Nov 2025 13:44:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945101</comments>
+    </item>
+    <item>
+      <title>Iran begins cloud seeding operations as drought bites</title>
+      <link>https://www.arabnews.com/node/2622812/middle-east</link>
+      <description>📝 Iran begins cloud seeding operations as severe drought bites Iranian women pray for rain following a drought crisis at Imamzadeh Saleh shrine in Tehran, Iran. news/rkv7w Updated 23 sec ago AFP November 16, 2025 07:14 Follow Iran begins cloud seeding operations as severe drought bites Cloud seeding involves spraying particles such as silver iodide and salt into clouds from aircraft to trigger rain Updated 23 sec ago AFP November 16, 2025 07:14 Follow TEHRAN: Iranian authorities have launched cloud seeding operations to induce rainfall as the country faces its worst drought in decades, state media reported. Cloud seeding involves spraying particles such as silver iodide and salt into clouds from aircraft to trigger rain.
+
+🔗 Read more: https://www.arabnews.com/node/2622812/middle-east</description>
+      <guid isPermaLink="true">https://www.arabnews.com/node/2622812/middle-east</guid>
+      <pubDate>Sun, 16 Nov 2025 13:57:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945188</comments>
+    </item>
+    <item>
+      <title>Why use OpenBSD?</title>
+      <link>https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</link>
+      <description>📝 Please note that Anubis requires the use of modern JavaScript features that plugins like JShelter will disable. Please disable JShelter or other such plugins for this domain. This website is running Anubis version devel.
+
+🔗 Read more: https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</description>
+      <guid isPermaLink="true">https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</guid>
+      <pubDate>Sun, 16 Nov 2025 12:25:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944595</comments>
+    </item>
+    <item>
+      <title>Garbage Collection Is Useful</title>
+      <link>https://dubroy.com/blog/garbage-collection-is-useful/</link>
+      <description>📝 the problem Using this machinery, I tried making an pmNodes attribute that produced a ProseMirror document for a given input. When the text document is edited, it produces a new tree which shares a bunch of nodes with the previous one. Intuitively, the difference is that tracing operates on live objects, or “matter”, while reference counting operates on dead objects, or “anti-matter”.
+
+🔗 Read more: https://dubroy.com/blog/garbage-collection-is-useful/</description>
+      <guid isPermaLink="true">https://dubroy.com/blog/garbage-collection-is-useful/</guid>
+      <pubDate>Sun, 16 Nov 2025 13:25:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944969</comments>
+    </item>
+    <item>
+      <title>“The Fall of Icarus”: Photograph of a falling skydiver in front of the Sun</title>
+      <link>https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</link>
+      <description>📝 Brown produced an image like we have never seen before. View this post on InstagramA post shared by Gabriel C. Brown (@blackgryph0n)ⓘ IFLScience is not responsible for content shared from external sites.
+
+🔗 Read more: https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</description>
+      <guid isPermaLink="true">https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</guid>
+      <pubDate>Sun, 16 Nov 2025 11:02:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944158</comments>
     </item>
   </channel>
 </rss>
