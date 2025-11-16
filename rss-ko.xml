@@ -6,100 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 16 Nov 2025 18:27:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 21:19:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Heretic: 언어 모델에 대한 자동 검열 제거</title>
-      <link>https://github.com/p-e-w/heretic</link>
-      <description>📝 이 접근 방식을 사용하면 Heretic이 완전히 자동으로 작동할 수 있습니다. Heretic을 사용하는 데는 변압기 내부에 대한 이해가 필요하지 않습니다. heretic --model google/gemma-3-12b-it --evaluate-model p-e-w/gemma-3-12b-it-heretic.
+      <title>62장 오픈소스 Zig book</title>
+      <link>https://www.zigbook.net</link>
+      <description>📝 Zig를 배우는 것은 단순히 이력서에 언어를 추가하는 것이 아닙니다. 이는 소프트웨어에 대한 생각을 근본적으로 바꾸는 것입니다. netZigbook에 오신 것을 환영합니다 🦎소프트웨어에 대한 생각을 바꿀 준비가 되었습니다.
 
 
-🔤 Original: Heretic: Automatic censorship removal for language models
+🔤 Original: 62 chapter open-source Zig book
 
-🔗 Read more: https://github.com/p-e-w/heretic</description>
-      <guid isPermaLink="true">https://github.com/p-e-w/heretic</guid>
-      <pubDate>Sun, 16 Nov 2025 15:00:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945587</comments>
+🔗 Read more: https://www.zigbook.net</description>
+      <guid isPermaLink="true">https://www.zigbook.net</guid>
+      <pubDate>Sun, 16 Nov 2025 19:44:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947810</comments>
     </item>
     <item>
-      <title>AI 제품은 세 가지만 작동한다</title>
-      <link>https://www.seangoedecke.com/ai-products/</link>
-      <description>📝 챗봇의 문제점은 최고의 챗봇 제품이 모델 자체라는 것입니다. 이런 제품에는 심각한 윤리적 문제가 있다고 생각합니다. 당신의 챗봇이 왜 패배할까요?
+      <title>'소형' 오픈소스의 운명</title>
+      <link>https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/</link>
+      <description>📝 훨씬 더 장황하기는 하지만 readAsArrayBuffer가 실제로 ArrayBuffer를 제공하는지 불필요하게 확인합니다(이렇게 하면 TypeScript가 만족스럽기는 하지만). (이것은 더 이상 문서화되어 있습니까? 이는 이러한 라이브러리를 사용자 교육의 발판으로 사용할 기회가 적다는 것을 의미합니다(Underscore.
 
 
-🔤 Original: Only three kinds of AI products work
+🔤 Original: The fate of "small" open source
 
-🔗 Read more: https://www.seangoedecke.com/ai-products/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/ai-products/</guid>
-      <pubDate>Sun, 16 Nov 2025 16:56:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45946498</comments>
+🔗 Read more: https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/</description>
+      <guid isPermaLink="true">https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/</guid>
+      <pubDate>Sun, 16 Nov 2025 19:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947639</comments>
     </item>
     <item>
-      <title>FPGA 기반 IBM-PC-XT</title>
-      <link>https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</link>
-      <description>📝 예시적인 메모리 쓰기 버스 사이클 타이밍 다이어그램. 예를 들어 BIOS는 FPGA 블록 램에 로드되므로 CPU 메모리 읽기는 시스템 SRAM 칩이 아닌 FPGA 블록 램에서 이루어집니다. 이는 비디오 메모리 내용을 표시하기 위해 VGA 신호 발생기가 사용할 수 있는 비디오 블록 램에 여분의 읽기 포트가 있음을 의미합니다.
+      <title>시크릿 모드에서도 파비콘으로 사용자 추적</title>
+      <link>https://github.com/jonasstrehle/supercookie</link>
+      <description>📝 Node.js 복제 저장소 git clone https://github. 이 태그가 존재하는 경우 브라우저는 미리 정의된 소스에서 아이콘을 요청하고 서버 응답에 적절하게 렌더링할 수 있는 유효한 아이콘 파일이 포함되어 있으면 이 아이콘이 브라우저에 표시됩니다. 웹 서버는 브라우저가 이미 파비콘을 로드했는지 여부에 대한 결론을 도출할 수 있습니다. 따라서 브라우저가 웹 페이지를 요청할 때 파비콘이 로컬 F 캐시에 없으면 파비콘에 대한 또 다른 요청이 이루어집니다.
 
 
-🔤 Original: FPGA Based IBM-PC-XT
+🔤 Original: Tracking users with favicons, even in incognito mode
 
-🔗 Read more: https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</description>
-      <guid isPermaLink="true">https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</guid>
-      <pubDate>Sun, 16 Nov 2025 15:26:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945784</comments>
+🔗 Read more: https://github.com/jonasstrehle/supercookie</description>
+      <guid isPermaLink="true">https://github.com/jonasstrehle/supercookie</guid>
+      <pubDate>Sun, 16 Nov 2025 19:39:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947770</comments>
     </item>
     <item>
-      <title>데 브루인 숫자</title>
-      <link>https://text.marvinborner.de/2023-08-22-22.html</link>
-      <description>📝 이 숫자 체계의 숫자를 다른 체계로 변환하려면 함수가 필요합니다. 이 인코딩에 대한 전체 pred 함수가 있는지 확실하지 않습니다. 물론 이는 이 인코딩에 대한 옵션이 아닙니다.
+      <title>Python의 Z3 API: 20줄 미만으로 스도쿠에서 N-Queens까지</title>
+      <link>https://ericpony.github.io/z3py-tutorial/guide-examples.htm</link>
+      <description>📝 Z3은 비선형 다항식 제약 조건을 풀 수 있습니다. 다음 예에서는 다항식 제약 조건과 부울 제약 조건의 조합을 사용합니다. 다음 예는 Z3가 해결할 수 없는 예를 보여줍니다.
 
 
-🔤 Original: De Bruijn Numerals
+🔤 Original: Z3 API in Python: From Sudoku to N-Queens in Under 20 Lines
 
-🔗 Read more: https://text.marvinborner.de/2023-08-22-22.html</description>
-      <guid isPermaLink="true">https://text.marvinborner.de/2023-08-22-22.html</guid>
-      <pubDate>Sun, 16 Nov 2025 15:22:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945750</comments>
+🔗 Read more: https://ericpony.github.io/z3py-tutorial/guide-examples.htm</description>
+      <guid isPermaLink="true">https://ericpony.github.io/z3py-tutorial/guide-examples.htm</guid>
+      <pubDate>Sun, 16 Nov 2025 18:38:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947301</comments>
     </item>
     <item>
-      <title>PgFirstAid: 안정성과 성능 향상을 위한 PostgreSQL 기능</title>
-      <link>https://github.com/randoneering/pgFirstAid</link>
-      <description>📝 몇 초 만에 PostgreSQL 데이터베이스에서 실행 가능한 건강 정보를 얻으세요. 사용자 테이블에 기본 키가 없습니다. HIGH 통계 누락된 통계 공개.
+      <title>다크 패턴 게임</title>
+      <link>https://www.darkpattern.games</link>
+      <description>📝 중독된 게이머가 되도록 조작하기 위해 심리적인 속임수를 사용하지 않는 게임을 찾는 데 도움을 주는 게임 리뷰 웹사이트입니다. 게임 디자이너가 귀중한 시간과 돈을 낭비하기 위해 사용하는 어두운 패턴에 대해 알아보세요. 사회적 어둠의 패턴은 게임에 이익을 주기 위해 친구 및 가족과의 관계를 이용합니다.
 
 
-🔤 Original: PgFirstAid: PostgreSQL function for improving stability and performance
+🔤 Original: Dark Pattern Games
 
-🔗 Read more: https://github.com/randoneering/pgFirstAid</description>
-      <guid isPermaLink="true">https://github.com/randoneering/pgFirstAid</guid>
-      <pubDate>Sun, 16 Nov 2025 13:23:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944951</comments>
+🔗 Read more: https://www.darkpattern.games</description>
+      <guid isPermaLink="true">https://www.darkpattern.games</guid>
+      <pubDate>Sun, 16 Nov 2025 19:38:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947761</comments>
     </item>
     <item>
-      <title>빈티지 대형 언어 모델</title>
-      <link>https://owainevans.github.io/talk-transcript.html</link>
-      <description>📝 당시 사람들이 직접 보고 경험할 수 있었던 것들을 포함할 수 있습니다. 과거에도 여전히 남아 있는 건물과 유물의 사진을 볼 수도 있습니다. 현재 사람들에게 잘 작동하는 동일한 최적화 기술을 적용하여 과거 사람들과의 대화를 시뮬레이션할 수 있습니다.
+      <title>OCaml을 통해 Linux 모드 설정</title>
+      <link>https://roscidus.com/blog/blog/2025/11/16/libdrm-ocaml/</link>
+      <description>📝 com/talex5/libdrm-ocaml cd libdrm-ocaml nix 개발 dune utop OCaml 표현식을 입력할 수 있는 utop # 프롬프트가 표시되어야 합니다. 1 2 유탑 # 1+1;; - : int = 2 대안으로 opam(OCaml의 패키지 관리자)을 사용하여 설치할 수 있습니다: opam install libdrm utop utop 그런 다음 utop 프롬프트에서 #require "libdrm";;을 입력합니다. (선행 # 포함). 커넥터는 물리적 커넥터에 해당합니다(예:
 
 
-🔤 Original: Vintage Large Language Models
+🔤 Original: Linux mode setting, from the comfort of OCaml
 
-🔗 Read more: https://owainevans.github.io/talk-transcript.html</description>
-      <guid isPermaLink="true">https://owainevans.github.io/talk-transcript.html</guid>
-      <pubDate>Sun, 16 Nov 2025 13:15:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944906</comments>
+🔗 Read more: https://roscidus.com/blog/blog/2025/11/16/libdrm-ocaml/</description>
+      <guid isPermaLink="true">https://roscidus.com/blog/blog/2025/11/16/libdrm-ocaml/</guid>
+      <pubDate>Sun, 16 Nov 2025 19:45:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947822</comments>
     </item>
     <item>
-      <title>Podman Quadlet을 사용한 프로덕션급 컨테이너 배포 – Larvitz Blog</title>
-      <link>https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</link>
-      <guid isPermaLink="true">https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</guid>
-      <pubDate>Sun, 16 Nov 2025 13:59:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945200</comments>
+      <title>Coinbase가 공개되기 몇 달 전에 위반 사실을 알고 있었다는 것을 증명하는 녹음 파일이 있습니다.</title>
+      <link>https://jonathanclark.com/posts/coinbase-breach-timeline.html</link>
+      <description>📝 4개월 동안 저는 공격자가 상세한 Coinbase 고객 데이터를 보유하고 있다는 구체적인 증거를 확보했습니다. 그리고 Coinbase는 언제 처음으로 뭔가 잘못되었다는 것을 알게 되었습니까? com DKIM 서명 분석: 이메일이 두 코인베이스 모두에 대해 DKIM 검증을 통과했다는 문서입니다.
+
+
+🔤 Original: I have recordings proving Coinbase knew about breach months before disclosure
+
+🔗 Read more: https://jonathanclark.com/posts/coinbase-breach-timeline.html</description>
+      <guid isPermaLink="true">https://jonathanclark.com/posts/coinbase-breach-timeline.html</guid>
+      <pubDate>Sun, 16 Nov 2025 20:18:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45948058</comments>
     </item>
     <item>
-      <title>무리의 안전 분석: 당신을 추적하는 카메라는 보안의 악몽입니다 [동영상]</title>
-      <link>https://www.youtube.com/watch?v=uB0gr7Fh6lY</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=uB0gr7Fh6lY</guid>
-      <pubDate>Sun, 16 Nov 2025 15:50:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945960</comments>
+      <title>마침내 Cloudflare Zero Trust 터널을 이해했습니다.</title>
+      <link>https://david.coffee/cloudflare-zero-trust-tunnels</link>
+      <description>📝 저는 Warp 변환 기능을 갖춘 완전한 Cloudflare Zero Trust이며 Tailscale을 병렬로 실행하고 있지만 지금 제가 하는 거의 모든 작업은 Zero Trust 터널을 통과합니다. 이는 제로 트러스트 네트워크에 클라이언트를 추가하고 정책을 시행하도록 구성하는 것입니다. 제로 트러스트 네트워크에 연결되지 않은 일회용 터널을 생성할 수도 있습니다.
+
+
+🔤 Original: I finally understand Cloudflare Zero Trust tunnels
+
+🔗 Read more: https://david.coffee/cloudflare-zero-trust-tunnels</description>
+      <guid isPermaLink="true">https://david.coffee/cloudflare-zero-trust-tunnels</guid>
+      <pubDate>Sun, 16 Nov 2025 17:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45946865</comments>
+    </item>
+    <item>
+      <title>라이프니츠 표기법 디코딩(2024)</title>
+      <link>https://www.spakhm.com/leibniz</link>
+      <description>📝 나는 라이프니츠 표기법을 이해하기 위해 이 글을 썼습니다. 이를 라이프니츠 표기법이라고 합니다. 그러면 라이프니츠 표기법의 2차 도함수는 dg(x)dx=g′=f′′=g'=f'′dxdg(x)=g′=f′′입니다.
+
+
+🔤 Original: Decoding Leibniz Notation (2024)
+
+🔗 Read more: https://www.spakhm.com/leibniz</description>
+      <guid isPermaLink="true">https://www.spakhm.com/leibniz</guid>
+      <pubDate>Sun, 16 Nov 2025 18:47:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947374</comments>
+    </item>
+    <item>
+      <title>MCP가 전혀 필요하지 않다면 어떻게 될까요?</title>
+      <link>https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/</link>
+      <description>📝 이렇게 많은 도구는 특히 다른 MCP 서버 및 내장 도구와 결합될 때 에이전트를 혼란스럽게 합니다. ## Chrome \`\`\`bash를 시작합니다. ts --profile # Chro로 시작합니다.
+
+
+🔤 Original: What if you don't need MCP at all?
+
+🔗 Read more: https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/</description>
+      <guid isPermaLink="true">https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/</guid>
+      <pubDate>Sun, 16 Nov 2025 18:58:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947444</comments>
+    </item>
+    <item>
+      <title>실용주의 프로그래머: 20주년 기념판</title>
+      <link>https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html</link>
+      <description>📝 이 책에 대해 제가 감사하게 생각하는 것 중 하나는 그들이 소프트웨어 엔지니어링뿐만 아니라 책을 쓰는 데에도 원칙을 적용하는 것에 대해 이야기한다는 것입니다. 아마도 이 책의 가장 좋은 점은 저자가 책 전반에 걸쳐 강조된 짧은 팁으로 자신의 요점을 요약한다는 것입니다. 귀하의 소프트웨어는 필요하지 않습니다.
+
+
+🔤 Original: The Pragmatic Programmer: 20th Anniversary Edition
+
+🔗 Read more: https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html</description>
+      <guid isPermaLink="true">https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html</guid>
+      <pubDate>Sun, 16 Nov 2025 20:46:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45948254</comments>
+    </item>
+    <item>
+      <title>웹의 죽음을 계속 예측하는 남자</title>
+      <link>https://tedium.co/2025/10/25/web-dead-predictions-george-colony/</link>
+      <guid isPermaLink="true">https://tedium.co/2025/10/25/web-dead-predictions-george-colony/</guid>
+      <pubDate>Sun, 16 Nov 2025 17:50:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45946937</comments>
+    </item>
+    <item>
+      <title>유한 필드에 허수 단위 추가</title>
+      <link>https://www.johndcook.com/blog/2025/11/16/finite-field-i/</link>
+      <description>📝 그런 다음 정수 mod p는 유한 필드를 형성합니다. 이는 49개 요소가 있는 필드에는 작동하지만 25개 요소가 있는 필드에는 작동하지 않습니다. i 요소가 인접한 Fp 필드.
+
+
+🔤 Original: Adding an imaginary unit to a finite field
+
+🔗 Read more: https://www.johndcook.com/blog/2025/11/16/finite-field-i/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/16/finite-field-i/</guid>
+      <pubDate>Sun, 16 Nov 2025 19:46:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947827</comments>
     </item>
   </channel>
 </rss>

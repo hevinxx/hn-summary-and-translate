@@ -6,100 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Nov 2025 18:27:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 21:19:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>異端者: 言語モデルの自動検閲除去</title>
-      <link>https://github.com/p-e-w/heretic</link>
-      <description>📝 このアプローチにより、Heretic は完全に自動的に動作することが可能になります。 Heretic を使用する場合、トランスの内部構造を理解する必要はありません。 heretic --model google/gemma-3-12b-it --evaluate-model p-e-w/gemma-3-12b-it-heretic。
+      <title>62 章のオープンソース Zig ブック</title>
+      <link>https://www.zigbook.net</link>
+      <description>📝 Zig を学ぶことは、単に履歴書に言語を追加することだけではありません。それはソフトウェアに対する考え方を根本的に変えることです。 netZigbook へようこそ 🦎ソフトウェアに対する考え方を変える準備ができました。
 
 
-🔤 Original: Heretic: Automatic censorship removal for language models
+🔤 Original: 62 chapter open-source Zig book
 
-🔗 Read more: https://github.com/p-e-w/heretic</description>
-      <guid isPermaLink="true">https://github.com/p-e-w/heretic</guid>
-      <pubDate>Sun, 16 Nov 2025 15:00:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945587</comments>
+🔗 Read more: https://www.zigbook.net</description>
+      <guid isPermaLink="true">https://www.zigbook.net</guid>
+      <pubDate>Sun, 16 Nov 2025 19:44:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947810</comments>
     </item>
     <item>
-      <title>AI製品は3種類のみ動作する</title>
-      <link>https://www.seangoedecke.com/ai-products/</link>
-      <description>📝 チャットボットの問題は、最良のチャットボット製品はモデルそのものであることです。この種の製品には重大な倫理的問題があると思います。なぜあなたのチャットボットは負けてしまうのでしょうか？
+      <title>「小規模」オープンソースの運命</title>
+      <link>https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/</link>
+      <description>📝 これははるかに冗長ですが、readAsArrayBuffer が実際に ArrayBuffer を提供するかどうかを不必要にチェックします (ただし、これにより TypeScript は満足します)。 (これはもはやドキュメントです。これは、これらのライブラリをユーザー教育の出発点として使用する機会が減っていることを意味します (アンダースコア.
 
 
-🔤 Original: Only three kinds of AI products work
+🔤 Original: The fate of "small" open source
 
-🔗 Read more: https://www.seangoedecke.com/ai-products/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/ai-products/</guid>
-      <pubDate>Sun, 16 Nov 2025 16:56:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45946498</comments>
+🔗 Read more: https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/</description>
+      <guid isPermaLink="true">https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/</guid>
+      <pubDate>Sun, 16 Nov 2025 19:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947639</comments>
     </item>
     <item>
-      <title>FPGAベースのIBM-PC-XT</title>
-      <link>https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</link>
-      <description>📝 メモリ書き込みバスサイクルのタイミング図の例。たとえば、BIOS は FPGA ブロック RAM にロードされるため、CPU メモリの読み取りはシステム SRAM チップではなくそこから行われます。これは、ビデオ ブロック RAM に予備の読み取りポートがあり、VGA 信号発生器がビデオ メモリの内容を表示するために使用できることを意味します。
+      <title>シークレット モードでもファビコンを使用してユーザーを追跡する</title>
+      <link>https://github.com/jonasstrehle/supercookie</link>
+      <description>📝 js クローン リポジトリ git clone https://github.このタグが存在する場合、ブラウザは事前定義されたソースからアイコンを要求し、サーバー応答に適切にレンダリングできる有効なアイコン ファイルが含まれている場合、このアイコンはブラウザによって表示されます。 Web サーバーは、ブラウザーがファビコンを既にロードしているかどうかについて結論を導き出すことができます。つまり、ブラウザーが Web ページをリクエストするときに、ファビコンがローカル F キャッシュにない場合は、ファビコンに対する別のリクエストが行われます。
 
 
-🔤 Original: FPGA Based IBM-PC-XT
+🔤 Original: Tracking users with favicons, even in incognito mode
 
-🔗 Read more: https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</description>
-      <guid isPermaLink="true">https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</guid>
-      <pubDate>Sun, 16 Nov 2025 15:26:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945784</comments>
+🔗 Read more: https://github.com/jonasstrehle/supercookie</description>
+      <guid isPermaLink="true">https://github.com/jonasstrehle/supercookie</guid>
+      <pubDate>Sun, 16 Nov 2025 19:39:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947770</comments>
     </item>
     <item>
-      <title>デ・ブルーイン数字</title>
-      <link>https://text.marvinborner.de/2023-08-22-22.html</link>
-      <description>📝 任意の数値をこの記数法から別の記数法に変換するには、関数が必要です。このエンコーディング用の完全な pred 関数が存在するかどうかはわかりません。もちろん、これはこのエンコーディングのオプションではありません。
+      <title>Python の Z3 API: 20 行未満で Sudoku から N-Queens まで</title>
+      <link>https://ericpony.github.io/z3py-tutorial/guide-examples.htm</link>
+      <description>📝 Z3 は非線形多項式制約を解決できます。次の例では、多項式制約とブール制約を組み合わせて使用​​します。次の例は、Z3 では解決できない例を示しています。
 
 
-🔤 Original: De Bruijn Numerals
+🔤 Original: Z3 API in Python: From Sudoku to N-Queens in Under 20 Lines
 
-🔗 Read more: https://text.marvinborner.de/2023-08-22-22.html</description>
-      <guid isPermaLink="true">https://text.marvinborner.de/2023-08-22-22.html</guid>
-      <pubDate>Sun, 16 Nov 2025 15:22:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945750</comments>
+🔗 Read more: https://ericpony.github.io/z3py-tutorial/guide-examples.htm</description>
+      <guid isPermaLink="true">https://ericpony.github.io/z3py-tutorial/guide-examples.htm</guid>
+      <pubDate>Sun, 16 Nov 2025 18:38:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947301</comments>
     </item>
     <item>
-      <title>PgFirstAid: 安定性とパフォーマンスを向上させるための PostgreSQL 関数</title>
-      <link>https://github.com/randoneering/pgFirstAid</link>
-      <description>📝 PostgreSQL データベースから実用的な健康に関する洞察を数秒で取得します。 users テーブルに主キーがありません。 HIGH 統計 公開統計がありません。
+      <title>ダークパターンゲーム</title>
+      <link>https://www.darkpattern.games</link>
+      <description>📝 あなたを中毒ゲーマーに誘導する心理的トリックを使用しないゲームを見つけるのを助けることに特化したゲーム レビュー ウェブサイト。ゲームデザイナーがあなたの貴重な時間とお金を無駄にするために使用する暗いパターンについて学びましょう。ソーシャル ダーク パターンは、友人や家族との関係を利用してゲームに利益をもたらします。
 
 
-🔤 Original: PgFirstAid: PostgreSQL function for improving stability and performance
+🔤 Original: Dark Pattern Games
 
-🔗 Read more: https://github.com/randoneering/pgFirstAid</description>
-      <guid isPermaLink="true">https://github.com/randoneering/pgFirstAid</guid>
-      <pubDate>Sun, 16 Nov 2025 13:23:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944951</comments>
+🔗 Read more: https://www.darkpattern.games</description>
+      <guid isPermaLink="true">https://www.darkpattern.games</guid>
+      <pubDate>Sun, 16 Nov 2025 19:38:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947761</comments>
     </item>
     <item>
-      <title>ビンテージの大規模言語モデル</title>
-      <link>https://owainevans.github.io/talk-transcript.html</link>
-      <description>📝 当時の人々が見たり体験したりできるものを含めることもできます。過去に残っている建物や工芸品の写真を保管することもできます。現在の人々に有効であるのと同じ最適化手法を適用して、過去の人々との会話をシミュレートすることができます。
+      <title>OCaml の快適さによる Linux モード設定</title>
+      <link>https://roscidus.com/blog/blog/2025/11/16/libdrm-ocaml/</link>
+      <description>📝 com/talex5/libdrm-ocaml cd libdrm-ocaml nix Development dune utop utop # プロンプトが表示され、ここに OCaml 式を入力できます。 1 2 ユートップ # 1+1;; - : int = 2 あるいは、opam (OCaml のパッケージ マネージャー) を使用してインストールすることもできます。 opam install libdrm utop utop 次に、utop プロンプトで #require "libdrm";; と入力します。 (先頭の # を含む)。コネクタは物理コネクタに対応します (例:
 
 
-🔤 Original: Vintage Large Language Models
+🔤 Original: Linux mode setting, from the comfort of OCaml
 
-🔗 Read more: https://owainevans.github.io/talk-transcript.html</description>
-      <guid isPermaLink="true">https://owainevans.github.io/talk-transcript.html</guid>
-      <pubDate>Sun, 16 Nov 2025 13:15:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944906</comments>
+🔗 Read more: https://roscidus.com/blog/blog/2025/11/16/libdrm-ocaml/</description>
+      <guid isPermaLink="true">https://roscidus.com/blog/blog/2025/11/16/libdrm-ocaml/</guid>
+      <pubDate>Sun, 16 Nov 2025 19:45:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947822</comments>
     </item>
     <item>
-      <title>Podman Quadlets を使用した本番グレードのコンテナーのデプロイメント – Larvitz Blog</title>
-      <link>https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</link>
-      <guid isPermaLink="true">https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</guid>
-      <pubDate>Sun, 16 Nov 2025 13:59:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945200</comments>
+      <title>Coinbaseが情報漏洩の数カ月前に知っていたことを証明する録音がある</title>
+      <link>https://jonathanclark.com/posts/coinbase-breach-timeline.html</link>
+      <description>📝 4 か月間、私は攻撃者が Coinbase の詳細な顧客データを所有しているという具体的な証拠を入手しました。そして、Coinbase が最初に何かが間違っていることに気づいたのはいつですか。 com DKIM 署名分析: 電子メールが両方のコインベースの DKIM 検証に合格したことを示す文書。
+
+
+🔤 Original: I have recordings proving Coinbase knew about breach months before disclosure
+
+🔗 Read more: https://jonathanclark.com/posts/coinbase-breach-timeline.html</description>
+      <guid isPermaLink="true">https://jonathanclark.com/posts/coinbase-breach-timeline.html</guid>
+      <pubDate>Sun, 16 Nov 2025 20:18:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45948058</comments>
     </item>
     <item>
-      <title>群れの安全を解剖する: あなたを追跡するカメラはセキュリティ上の悪夢です [ビデオ]</title>
-      <link>https://www.youtube.com/watch?v=uB0gr7Fh6lY</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=uB0gr7Fh6lY</guid>
-      <pubDate>Sun, 16 Nov 2025 15:50:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945960</comments>
+      <title>Cloudflareのゼロトラストトンネルをようやく理解しました</title>
+      <link>https://david.coffee/cloudflare-zero-trust-tunnels</link>
+      <description>📝 私は、Warp Convert を備えた完全な Cloudflare ゼロトラストです。Tailscale を並行して実行していますが、現在行っているほとんどすべての作業がゼロトラスト トンネルを通過しています。これは、ゼロ トラスト ネットワークにクライアントを追加し、ポリシーを適用するために構成するものです。ゼロトラスト ネットワークに接続されていない 1 回限りのトンネルを作成することもできます。
+
+
+🔤 Original: I finally understand Cloudflare Zero Trust tunnels
+
+🔗 Read more: https://david.coffee/cloudflare-zero-trust-tunnels</description>
+      <guid isPermaLink="true">https://david.coffee/cloudflare-zero-trust-tunnels</guid>
+      <pubDate>Sun, 16 Nov 2025 17:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45946865</comments>
+    </item>
+    <item>
+      <title>ライプニッツ記法の解読 (2024)</title>
+      <link>https://www.spakhm.com/leibniz</link>
+      <description>📝 これはライプニッツの記法を理解するために自分のために書きました。これをライプニッツ記法といいます。次に、ライプニッツ表記の 2 階導関数は dg(x)dx=g'=f''=g'=f''dxdg(x)=g'=f'' となります。
+
+
+🔤 Original: Decoding Leibniz Notation (2024)
+
+🔗 Read more: https://www.spakhm.com/leibniz</description>
+      <guid isPermaLink="true">https://www.spakhm.com/leibniz</guid>
+      <pubDate>Sun, 16 Nov 2025 18:47:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947374</comments>
+    </item>
+    <item>
+      <title>MCP がまったく必要ない場合はどうすればよいでしょうか?</title>
+      <link>https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/</link>
+      <description>📝 これだけ多くのツールがあると、特に他の MCP サーバーや組み込みツールと組み合わせた場合、エージェントが混乱してしまいます。 ## Chrome \`\`\`bash を起動します。 ts --profile # Chro から始めます。
+
+
+🔤 Original: What if you don't need MCP at all?
+
+🔗 Read more: https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/</description>
+      <guid isPermaLink="true">https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/</guid>
+      <pubDate>Sun, 16 Nov 2025 18:58:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947444</comments>
+    </item>
+    <item>
+      <title>プラグマティック プログラマー: 20 周年記念版</title>
+      <link>https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html</link>
+      <description>📝 この本について私が感謝している点の 1 つは、ソフトウェア エンジニアリングだけでなく、本の執筆にも原則を適用することについて語っていることです。おそらくこの本の最も良い点は、著者が自分の要点を短いヒントに要約し、本の中で強調表示されていることです。あなたのソフトウェアには必要ありません。
+
+
+🔤 Original: The Pragmatic Programmer: 20th Anniversary Edition
+
+🔗 Read more: https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html</description>
+      <guid isPermaLink="true">https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html</guid>
+      <pubDate>Sun, 16 Nov 2025 20:46:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45948254</comments>
+    </item>
+    <item>
+      <title>ウェブの死を予言し続ける男</title>
+      <link>https://tedium.co/2025/10/25/web-dead-predictions-george-colony/</link>
+      <guid isPermaLink="true">https://tedium.co/2025/10/25/web-dead-predictions-george-colony/</guid>
+      <pubDate>Sun, 16 Nov 2025 17:50:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45946937</comments>
+    </item>
+    <item>
+      <title>有限体に虚数単位を追加する</title>
+      <link>https://www.johndcook.com/blog/2025/11/16/finite-field-i/</link>
+      <description>📝 次に、整数 mod p は有限体を形成します。これは 49 要素のフィールドでは機能しますが、25 要素のフィールドでは機能しません。要素 i が隣接するフィールド Fp。
+
+
+🔤 Original: Adding an imaginary unit to a finite field
+
+🔗 Read more: https://www.johndcook.com/blog/2025/11/16/finite-field-i/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/16/finite-field-i/</guid>
+      <pubDate>Sun, 16 Nov 2025 19:46:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45947827</comments>
     </item>
   </channel>
 </rss>
