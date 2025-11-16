@@ -6,125 +6,100 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Nov 2025 15:19:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 18:27:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Brimstone: Rust で書かれた ES2025 JavaScript エンジン</title>
-      <link>https://github.com/Hans-Halverson/brimstone</link>
-      <description>📝 Brimstone Brimstone は、JavaScript 言語を完全にサポートすることを目的として、Rust で最初から書かれた JavaScript エンジンです。 Brimstone は、ICU4X を除く、エンジンのほぼすべてのコンポーネントを依存関係を最小限に抑えて最初から実装することを選択しました。 bs 実行可能ファイルをビルドするにはカーゴ ビルド ソースから実行するにはカーゴ ラン JavaScript ファイルは bs で実行できます。 # ブリムストーンのビルド カーゴ ビルド # JavaScript ファイルを実行します。
+      <title>異端者: 言語モデルの自動検閲除去</title>
+      <link>https://github.com/p-e-w/heretic</link>
+      <description>📝 このアプローチにより、Heretic は完全に自動的に動作することが可能になります。 Heretic を使用する場合、トランスの内部構造を理解する必要はありません。 heretic --model google/gemma-3-12b-it --evaluate-model p-e-w/gemma-3-12b-it-heretic。
 
 
-🔤 Original: Brimstone: ES2025 JavaScript engine written in Rust
+🔤 Original: Heretic: Automatic censorship removal for language models
 
-🔗 Read more: https://github.com/Hans-Halverson/brimstone</description>
-      <guid isPermaLink="true">https://github.com/Hans-Halverson/brimstone</guid>
-      <pubDate>Sun, 16 Nov 2025 11:41:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944337</comments>
+🔗 Read more: https://github.com/p-e-w/heretic</description>
+      <guid isPermaLink="true">https://github.com/p-e-w/heretic</guid>
+      <pubDate>Sun, 16 Nov 2025 15:00:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945587</comments>
     </item>
     <item>
-      <title>「Reflections on Trusting Trust」コンパイラの実行</title>
-      <link>https://research.swtch.com/nih</link>
-      <description>📝 この投稿では、Ken の実際のコードを使用してバックドア コンパイラを実行します。ステップ 1: 自己複製プログラムを作成する ステップ 1 では、独自のソース コードを出力するプログラムを作成します。コンパイラ自体を認識し、これら 2 つの変更のコードを挿入します。
+      <title>AI製品は3種類のみ動作する</title>
+      <link>https://www.seangoedecke.com/ai-products/</link>
+      <description>📝 チャットボットの問題は、最良のチャットボット製品はモデルそのものであることです。この種の製品には重大な倫理的問題があると思います。なぜあなたのチャットボットは負けてしまうのでしょうか？
 
 
-🔤 Original: Running the "Reflections on Trusting Trust" Compiler
+🔤 Original: Only three kinds of AI products work
 
-🔗 Read more: https://research.swtch.com/nih</description>
-      <guid isPermaLink="true">https://research.swtch.com/nih</guid>
-      <pubDate>Sun, 16 Nov 2025 13:59:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945202</comments>
+🔗 Read more: https://www.seangoedecke.com/ai-products/</description>
+      <guid isPermaLink="true">https://www.seangoedecke.com/ai-products/</guid>
+      <pubDate>Sun, 16 Nov 2025 16:56:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45946498</comments>
     </item>
     <item>
-      <title>純粋にクライアント側のアプリのポリシー</title>
-      <link>https://pfrazee.leaflet.pub/3m5hwua4sh22v</link>
-      <description>📝 Bluesky アプリはまだオプション 1 を使用していますが、OAuth が導入された現在、私たちが提供しているガイダンスはオプション 2 です。これは正しい呼び出しですか。ブルースカイで購読してください。
+      <title>FPGAベースのIBM-PC-XT</title>
+      <link>https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</link>
+      <description>📝 メモリ書き込みバスサイクルのタイミング図の例。たとえば、BIOS は FPGA ブロック RAM にロードされるため、CPU メモリの読み取りはシステム SRAM チップではなくそこから行われます。これは、ビデオ ブロック RAM に予備の読み取りポートがあり、VGA 信号発生器がビデオ メモリの内容を表示するために使用できることを意味します。
 
 
-🔤 Original: The politics of purely client-side apps
+🔤 Original: FPGA Based IBM-PC-XT
 
-🔗 Read more: https://pfrazee.leaflet.pub/3m5hwua4sh22v</description>
-      <guid isPermaLink="true">https://pfrazee.leaflet.pub/3m5hwua4sh22v</guid>
-      <pubDate>Sun, 16 Nov 2025 13:45:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945113</comments>
+🔗 Read more: https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</description>
+      <guid isPermaLink="true">https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</guid>
+      <pubDate>Sun, 16 Nov 2025 15:26:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945784</comments>
     </item>
     <item>
-      <title>インターネットはもはや安全な場所ではない</title>
-      <link>https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</link>
-      <description>📝 0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537。 36 (KHTML、Gecko など) Chrome/140。 0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537。
+      <title>デ・ブルーイン数字</title>
+      <link>https://text.marvinborner.de/2023-08-22-22.html</link>
+      <description>📝 任意の数値をこの記数法から別の記数法に変換するには、関数が必要です。このエンコーディング用の完全な pred 関数が存在するかどうかはわかりません。もちろん、これはこのエンコーディングのオプションではありません。
 
 
-🔤 Original: The Internet Is No Longer a Safe Haven
+🔤 Original: De Bruijn Numerals
 
-🔗 Read more: https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</description>
-      <guid isPermaLink="true">https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</guid>
-      <pubDate>Sun, 16 Nov 2025 13:12:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944870</comments>
+🔗 Read more: https://text.marvinborner.de/2023-08-22-22.html</description>
+      <guid isPermaLink="true">https://text.marvinborner.de/2023-08-22-22.html</guid>
+      <pubDate>Sun, 16 Nov 2025 15:22:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945750</comments>
     </item>
     <item>
-      <title>私の母は17歳の自由な精神を持っていたため、監禁され昏睡状態にされました。</title>
-      <link>https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</link>
-      <description>📝 彼らは非常に保守的だったので、マリオナにズボンさえ履かせませんでした。彼らは彼女を家に連れて帰らなかった。彼らは犯罪者ではなく、「再教育」が必要とみなされた女性たちだった。
+      <title>PgFirstAid: 安定性とパフォーマンスを向上させるための PostgreSQL 関数</title>
+      <link>https://github.com/randoneering/pgFirstAid</link>
+      <description>📝 PostgreSQL データベースから実用的な健康に関する洞察を数秒で取得します。 users テーブルに主キーがありません。 HIGH 統計 公開統計がありません。
 
 
-🔤 Original: My mum was a 17-year-old free spirit so she was locked up and put in a coma
+🔤 Original: PgFirstAid: PostgreSQL function for improving stability and performance
 
-🔗 Read more: https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</guid>
-      <pubDate>Sun, 16 Nov 2025 13:44:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945101</comments>
+🔗 Read more: https://github.com/randoneering/pgFirstAid</description>
+      <guid isPermaLink="true">https://github.com/randoneering/pgFirstAid</guid>
+      <pubDate>Sun, 16 Nov 2025 13:23:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944951</comments>
     </item>
     <item>
-      <title>干ばつが深刻化する中、イランがクラウドシーディング作戦を開始</title>
-      <link>https://www.arabnews.com/node/2622812/middle-east</link>
-      <description>📝 イラン、テヘランのイマームザデ・サーレハ神社での干ばつ危機を受け、イラン女性が雨乞いを祈る深刻な干ばつを受けてクラウドシーディング作戦を開始。 news/rkv7w 23秒前更新 AFP 2025年11月16日 07時14分 フォロー イラン、深刻な干ばつに見舞われクラウドシーディング作戦を開始 クラウドシーディングには、雨を誘発するために航空機から雲にヨウ化銀や塩などの粒子を散布することが含まれる 23秒前更新 AFP 2025年11月16日 07時14分 フォローする テヘラン：イラン当局は、降雨を誘発するためクラウドシーディング作戦を開始した。この国はここ数十年で最悪の干ばつに直面していると国営メディアが報じた。クラウドシーディングでは、ヨウ化銀や塩などの粒子を航空機から雲に噴霧して雨を引き起こします。
+      <title>ビンテージの大規模言語モデル</title>
+      <link>https://owainevans.github.io/talk-transcript.html</link>
+      <description>📝 当時の人々が見たり体験したりできるものを含めることもできます。過去に残っている建物や工芸品の写真を保管することもできます。現在の人々に有効であるのと同じ最適化手法を適用して、過去の人々との会話をシミュレートすることができます。
 
 
-🔤 Original: Iran begins cloud seeding operations as drought bites
+🔤 Original: Vintage Large Language Models
 
-🔗 Read more: https://www.arabnews.com/node/2622812/middle-east</description>
-      <guid isPermaLink="true">https://www.arabnews.com/node/2622812/middle-east</guid>
-      <pubDate>Sun, 16 Nov 2025 13:57:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945188</comments>
+🔗 Read more: https://owainevans.github.io/talk-transcript.html</description>
+      <guid isPermaLink="true">https://owainevans.github.io/talk-transcript.html</guid>
+      <pubDate>Sun, 16 Nov 2025 13:15:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944906</comments>
     </item>
     <item>
-      <title>なぜ OpenBSD を使用するのでしょうか?</title>
-      <link>https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</link>
-      <description>📝 Anubis では最新の JavaScript 機能を使用する必要があるため、JShelter などのプラグインでは無効になることに注意してください。このドメインの JShelter またはその他の同様のプラグインを無効にしてください。このWebサイトはAnubisバージョンの開発を実行しています。
-
-
-🔤 Original: Why use OpenBSD?
-
-🔗 Read more: https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</description>
-      <guid isPermaLink="true">https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</guid>
-      <pubDate>Sun, 16 Nov 2025 12:25:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944595</comments>
+      <title>Podman Quadlets を使用した本番グレードのコンテナーのデプロイメント – Larvitz Blog</title>
+      <link>https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</link>
+      <guid isPermaLink="true">https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</guid>
+      <pubDate>Sun, 16 Nov 2025 13:59:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945200</comments>
     </item>
     <item>
-      <title>ガベージコレクションは便利です</title>
-      <link>https://dubroy.com/blog/garbage-collection-is-useful/</link>
-      <description>📝 問題 この機構を使用して、指定された入力に対して ProseMirror ドキュメントを生成する pmNodes 属性を作成してみました。テキストドキュメントを編集すると、以前のドキュメントと多数のノードを共有する新しいツリーが生成されます。直感的に見て、違いは、トレースは生きているオブジェクト、つまり「物質」に対して行われるのに対し、参照カウントは死んだオブジェクト、つまり「反物質」に対して行われるということです。
-
-
-🔤 Original: Garbage Collection Is Useful
-
-🔗 Read more: https://dubroy.com/blog/garbage-collection-is-useful/</description>
-      <guid isPermaLink="true">https://dubroy.com/blog/garbage-collection-is-useful/</guid>
-      <pubDate>Sun, 16 Nov 2025 13:25:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944969</comments>
-    </item>
-    <item>
-      <title>「イカロスの墜落」: 太陽の前で落下するスカイダイバーの写真</title>
-      <link>https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</link>
-      <description>📝 ブラウンは、これまで見たことのないようなイメージを生み出しました。この投稿を Instagram で表示Gabriel C. Brown (@blackgryph0n) がシェアした投稿ⓘ IFLScience は、外部サイトから共有されたコンテンツについては責任を負いません。
-
-
-🔤 Original: “The Fall of Icarus”: Photograph of a falling skydiver in front of the Sun
-
-🔗 Read more: https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</description>
-      <guid isPermaLink="true">https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</guid>
-      <pubDate>Sun, 16 Nov 2025 11:02:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944158</comments>
+      <title>群れの安全を解剖する: あなたを追跡するカメラはセキュリティ上の悪夢です [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=uB0gr7Fh6lY</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=uB0gr7Fh6lY</guid>
+      <pubDate>Sun, 16 Nov 2025 15:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945960</comments>
     </item>
   </channel>
 </rss>

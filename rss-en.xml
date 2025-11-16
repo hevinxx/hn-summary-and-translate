@@ -6,98 +6,82 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Nov 2025 15:19:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 18:27:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Brimstone: ES2025 JavaScript engine written in Rust</title>
-      <link>https://github.com/Hans-Halverson/brimstone</link>
-      <description>📝 Brimstone Brimstone is a JavaScript engine written from scratch in Rust, aiming to have full support for the JavaScript language. Brimstone chooses to implement almost all components of the engine from scratch with minimal dependencies, with the notable exception of ICU4X. cargo build to build the bs executable cargo run to run from source JavaScript files can be executed with bs: # Build brimstone cargo build # Execute a JavaScript file.
+      <title>Heretic: Automatic censorship removal for language models</title>
+      <link>https://github.com/p-e-w/heretic</link>
+      <description>📝 This approach enables Heretic to work completely automatically. Using Heretic does not require an understanding of transformer internals. heretic --model google/gemma-3-12b-it --evaluate-model p-e-w/gemma-3-12b-it-heretic.
 
-🔗 Read more: https://github.com/Hans-Halverson/brimstone</description>
-      <guid isPermaLink="true">https://github.com/Hans-Halverson/brimstone</guid>
-      <pubDate>Sun, 16 Nov 2025 11:41:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944337</comments>
+🔗 Read more: https://github.com/p-e-w/heretic</description>
+      <guid isPermaLink="true">https://github.com/p-e-w/heretic</guid>
+      <pubDate>Sun, 16 Nov 2025 15:00:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945587</comments>
     </item>
     <item>
-      <title>Running the "Reflections on Trusting Trust" Compiler</title>
-      <link>https://research.swtch.com/nih</link>
-      <description>📝 In this post, we will run the backdoored compiler using Ken’s actual code. Step 1: Write a Self-Reproducing Program Step 1 is to write a program that prints its own source code. Recognize the compiler itself and insert the code for these two changes.
+      <title>Only three kinds of AI products work</title>
+      <link>https://www.seangoedecke.com/ai-products/</link>
+      <description>📝 The problem with chatbots is that the best chatbot product is the model itself. I think there are serious ethical problems with this kind of product. Why will your chatbot lose.
 
-🔗 Read more: https://research.swtch.com/nih</description>
-      <guid isPermaLink="true">https://research.swtch.com/nih</guid>
-      <pubDate>Sun, 16 Nov 2025 13:59:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945202</comments>
+🔗 Read more: https://www.seangoedecke.com/ai-products/</description>
+      <guid isPermaLink="true">https://www.seangoedecke.com/ai-products/</guid>
+      <pubDate>Sun, 16 Nov 2025 16:56:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45946498</comments>
     </item>
     <item>
-      <title>The politics of purely client-side apps</title>
-      <link>https://pfrazee.leaflet.pub/3m5hwua4sh22v</link>
-      <description>📝 The Bluesky app still uses Option 1, but now that OAuth is here the guidance we've been giving is Option 2. Is that the right call. Subscribe with Bluesky.
+      <title>FPGA Based IBM-PC-XT</title>
+      <link>https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</link>
+      <description>📝 An example memory write bus cycle timing diagram. The bios, for example, is loaded into an FPGA block ram, so that CPU memory reads will come from that rather than the system SRAM chip. This then means that I have a spare read port on the video block ram that can then be used by the VGA signal generator to display the video memory contents.
 
-🔗 Read more: https://pfrazee.leaflet.pub/3m5hwua4sh22v</description>
-      <guid isPermaLink="true">https://pfrazee.leaflet.pub/3m5hwua4sh22v</guid>
-      <pubDate>Sun, 16 Nov 2025 13:45:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945113</comments>
+🔗 Read more: https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</description>
+      <guid isPermaLink="true">https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</guid>
+      <pubDate>Sun, 16 Nov 2025 15:26:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945784</comments>
     </item>
     <item>
-      <title>The Internet Is No Longer a Safe Haven</title>
-      <link>https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</link>
-      <description>📝 0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537. 36 (KHTML, like Gecko) Chrome/140. 0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.
+      <title>De Bruijn Numerals</title>
+      <link>https://text.marvinborner.de/2023-08-22-22.html</link>
+      <description>📝 function is required in order to convert any number from this numeral system to another system. I’m not sure if there exists a total pred function for this encoding. Of course, this is not an option for this encoding.
 
-🔗 Read more: https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</description>
-      <guid isPermaLink="true">https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</guid>
-      <pubDate>Sun, 16 Nov 2025 13:12:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944870</comments>
+🔗 Read more: https://text.marvinborner.de/2023-08-22-22.html</description>
+      <guid isPermaLink="true">https://text.marvinborner.de/2023-08-22-22.html</guid>
+      <pubDate>Sun, 16 Nov 2025 15:22:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945750</comments>
     </item>
     <item>
-      <title>My mum was a 17-year-old free spirit so she was locked up and put in a coma</title>
-      <link>https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</link>
-      <description>📝 They were so conservative they wouldn't even let Mariona wear trousers. They didn't take her home. They weren't criminals - they were females deemed in need of "re-education".
+      <title>PgFirstAid: PostgreSQL function for improving stability and performance</title>
+      <link>https://github.com/randoneering/pgFirstAid</link>
+      <description>📝 Get actionable health insights from your PostgreSQL database in seconds. users Table missing a primary key. HIGH Statistics Missing Statistics public.
 
-🔗 Read more: https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</guid>
-      <pubDate>Sun, 16 Nov 2025 13:44:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945101</comments>
+🔗 Read more: https://github.com/randoneering/pgFirstAid</description>
+      <guid isPermaLink="true">https://github.com/randoneering/pgFirstAid</guid>
+      <pubDate>Sun, 16 Nov 2025 13:23:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944951</comments>
     </item>
     <item>
-      <title>Iran begins cloud seeding operations as drought bites</title>
-      <link>https://www.arabnews.com/node/2622812/middle-east</link>
-      <description>📝 Iran begins cloud seeding operations as severe drought bites Iranian women pray for rain following a drought crisis at Imamzadeh Saleh shrine in Tehran, Iran. news/rkv7w Updated 23 sec ago AFP November 16, 2025 07:14 Follow Iran begins cloud seeding operations as severe drought bites Cloud seeding involves spraying particles such as silver iodide and salt into clouds from aircraft to trigger rain Updated 23 sec ago AFP November 16, 2025 07:14 Follow TEHRAN: Iranian authorities have launched cloud seeding operations to induce rainfall as the country faces its worst drought in decades, state media reported. Cloud seeding involves spraying particles such as silver iodide and salt into clouds from aircraft to trigger rain.
+      <title>Vintage Large Language Models</title>
+      <link>https://owainevans.github.io/talk-transcript.html</link>
+      <description>📝 You could include things people at the time could see and experience themselves. You could also have pictures of buildings and artifacts that we still have from the past. You could apply the same optimization techniques that work well for present people to simulate conversations with people from the past.
 
-🔗 Read more: https://www.arabnews.com/node/2622812/middle-east</description>
-      <guid isPermaLink="true">https://www.arabnews.com/node/2622812/middle-east</guid>
-      <pubDate>Sun, 16 Nov 2025 13:57:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945188</comments>
+🔗 Read more: https://owainevans.github.io/talk-transcript.html</description>
+      <guid isPermaLink="true">https://owainevans.github.io/talk-transcript.html</guid>
+      <pubDate>Sun, 16 Nov 2025 13:15:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944906</comments>
     </item>
     <item>
-      <title>Why use OpenBSD?</title>
-      <link>https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</link>
-      <description>📝 Please note that Anubis requires the use of modern JavaScript features that plugins like JShelter will disable. Please disable JShelter or other such plugins for this domain. This website is running Anubis version devel.
-
-🔗 Read more: https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</description>
-      <guid isPermaLink="true">https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</guid>
-      <pubDate>Sun, 16 Nov 2025 12:25:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944595</comments>
+      <title>Production-Grade Container Deployment with Podman Quadlets – Larvitz Blog</title>
+      <link>https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</link>
+      <guid isPermaLink="true">https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</guid>
+      <pubDate>Sun, 16 Nov 2025 13:59:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945200</comments>
     </item>
     <item>
-      <title>Garbage Collection Is Useful</title>
-      <link>https://dubroy.com/blog/garbage-collection-is-useful/</link>
-      <description>📝 the problem Using this machinery, I tried making an pmNodes attribute that produced a ProseMirror document for a given input. When the text document is edited, it produces a new tree which shares a bunch of nodes with the previous one. Intuitively, the difference is that tracing operates on live objects, or “matter”, while reference counting operates on dead objects, or “anti-matter”.
-
-🔗 Read more: https://dubroy.com/blog/garbage-collection-is-useful/</description>
-      <guid isPermaLink="true">https://dubroy.com/blog/garbage-collection-is-useful/</guid>
-      <pubDate>Sun, 16 Nov 2025 13:25:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944969</comments>
-    </item>
-    <item>
-      <title>“The Fall of Icarus”: Photograph of a falling skydiver in front of the Sun</title>
-      <link>https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</link>
-      <description>📝 Brown produced an image like we have never seen before. View this post on InstagramA post shared by Gabriel C. Brown (@blackgryph0n)ⓘ IFLScience is not responsible for content shared from external sites.
-
-🔗 Read more: https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</description>
-      <guid isPermaLink="true">https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</guid>
-      <pubDate>Sun, 16 Nov 2025 11:02:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944158</comments>
+      <title>Dissecting Flock Safety: The Cameras Tracking You Are a Security Nightmare [video]</title>
+      <link>https://www.youtube.com/watch?v=uB0gr7Fh6lY</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=uB0gr7Fh6lY</guid>
+      <pubDate>Sun, 16 Nov 2025 15:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945960</comments>
     </item>
   </channel>
 </rss>

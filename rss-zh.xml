@@ -6,125 +6,100 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 16 Nov 2025 15:19:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 18:27:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Brimstone：用 Rust 编写的 ES2025 JavaScript 引擎</title>
-      <link>https://github.com/Hans-Halverson/brimstone</link>
-      <description>📝 Brimstone Brimstone 是一个用 Rust 从头开始​​编写的 JavaScript 引擎，旨在完全支持 JavaScript 语言。 Brimstone 选择以最小的依赖性从头开始实现引擎的几乎所有组件，但 ICU4X 是一个明显的例外。 Cargo build 用于构建 bs 可执行文件 Cargo Run 从源代码运行 JavaScript 文件可以使用 bs 执行： # Build brimstone Cargo build # 执行 JavaScript 文件。
+      <title>异端：自动删除语言模型的审查</title>
+      <link>https://github.com/p-e-w/heretic</link>
+      <description>📝 这种方法使 Heretic 能够完全自动地工作。使用 Heretic 不需要了解变压器的内部结构。异端--模型谷歌/gemma-3-12b-it--评估模型p-e-w/gemma-3-12b-it-异端。
 
 
-🔤 Original: Brimstone: ES2025 JavaScript engine written in Rust
+🔤 Original: Heretic: Automatic censorship removal for language models
 
-🔗 Read more: https://github.com/Hans-Halverson/brimstone</description>
-      <guid isPermaLink="true">https://github.com/Hans-Halverson/brimstone</guid>
-      <pubDate>Sun, 16 Nov 2025 11:41:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944337</comments>
+🔗 Read more: https://github.com/p-e-w/heretic</description>
+      <guid isPermaLink="true">https://github.com/p-e-w/heretic</guid>
+      <pubDate>Sun, 16 Nov 2025 15:00:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945587</comments>
     </item>
     <item>
-      <title>运行“对信任信任的反思”编译器</title>
-      <link>https://research.swtch.com/nih</link>
-      <description>📝 在这篇文章中，我们将使用 Ken 的实际代码运行后门编译器。第 1 步：编写一个自我复制程序 第 1 步是编写一个打印自己源代码的程序。识别编译器本身并插入这两个更改的代码。
+      <title>只有三种AI产品有效</title>
+      <link>https://www.seangoedecke.com/ai-products/</link>
+      <description>📝 聊天机器人的问题在于，最好的聊天机器人产品是模型本身。我认为这种产品存在严重的道德问题。为什么你的聊天机器人会输。
 
 
-🔤 Original: Running the "Reflections on Trusting Trust" Compiler
+🔤 Original: Only three kinds of AI products work
 
-🔗 Read more: https://research.swtch.com/nih</description>
-      <guid isPermaLink="true">https://research.swtch.com/nih</guid>
-      <pubDate>Sun, 16 Nov 2025 13:59:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945202</comments>
+🔗 Read more: https://www.seangoedecke.com/ai-products/</description>
+      <guid isPermaLink="true">https://www.seangoedecke.com/ai-products/</guid>
+      <pubDate>Sun, 16 Nov 2025 16:56:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45946498</comments>
     </item>
     <item>
-      <title>纯粹客户端应用程序的政治</title>
-      <link>https://pfrazee.leaflet.pub/3m5hwua4sh22v</link>
-      <description>📝 Bluesky 应用程序仍然使用选项 1，但现在 OAuth 已经出现，我们给出的指导是选项 2。这是正确的选择吗？订阅蓝天。
+      <title>基于 FPGA 的 IBM-PC-XT</title>
+      <link>https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</link>
+      <description>📝 存储器写总线周期时序图示例。例如，BIOS 被加载到 FPGA 块 RAM 中，因此 CPU 内存读取将来自该块而不是系统 SRAM 芯片。这意味着我在视频块 RAM 上有一个备用读取端口，VGA 信号发生器可以使用它来显示视频内存内容。
 
 
-🔤 Original: The politics of purely client-side apps
+🔤 Original: FPGA Based IBM-PC-XT
 
-🔗 Read more: https://pfrazee.leaflet.pub/3m5hwua4sh22v</description>
-      <guid isPermaLink="true">https://pfrazee.leaflet.pub/3m5hwua4sh22v</guid>
-      <pubDate>Sun, 16 Nov 2025 13:45:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945113</comments>
+🔗 Read more: https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</description>
+      <guid isPermaLink="true">https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/</guid>
+      <pubDate>Sun, 16 Nov 2025 15:26:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945784</comments>
     </item>
     <item>
-      <title>互联网不再是避风港</title>
-      <link>https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</link>
-      <description>📝 0（Macintosh；英特尔 Mac OS X 10_15_7）AppleWebKit/537。 36（KHTML，如 Gecko）Chrome/140。 0（Macintosh；英特尔 Mac OS X 10_15_7）AppleWebKit/537。
+      <title>德布鲁因数字</title>
+      <link>https://text.marvinborner.de/2023-08-22-22.html</link>
+      <description>📝 需要函数才能将任何数字从该数字系统转换为另一个系统。我不确定这种编码是否存在总 pred 函数。当然，这不是此编码的一个选项。
 
 
-🔤 Original: The Internet Is No Longer a Safe Haven
+🔤 Original: De Bruijn Numerals
 
-🔗 Read more: https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</description>
-      <guid isPermaLink="true">https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/</guid>
-      <pubDate>Sun, 16 Nov 2025 13:12:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944870</comments>
+🔗 Read more: https://text.marvinborner.de/2023-08-22-22.html</description>
+      <guid isPermaLink="true">https://text.marvinborner.de/2023-08-22-22.html</guid>
+      <pubDate>Sun, 16 Nov 2025 15:22:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945750</comments>
     </item>
     <item>
-      <title>我妈妈 17 岁，精神自由，所以她被关起来并处于昏迷状态</title>
-      <link>https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</link>
-      <description>📝 他们非常保守，甚至不让玛丽安娜穿裤子。他们没有带她回家。她们不是罪犯——她们是被认为需要“再教育”的女性。
+      <title>PgFirstAid：用于提高稳定性和性能的 PostgreSQL 函数</title>
+      <link>https://github.com/randoneering/pgFirstAid</link>
+      <description>📝 在几秒钟内从 PostgreSQL 数据库获取可操作的健康见解。 users 表缺少主键。高统计数据 缺失统计数据公开。
 
 
-🔤 Original: My mum was a 17-year-old free spirit so she was locked up and put in a coma
+🔤 Original: PgFirstAid: PostgreSQL function for improving stability and performance
 
-🔗 Read more: https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cr43vx0rrwvo</guid>
-      <pubDate>Sun, 16 Nov 2025 13:44:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945101</comments>
+🔗 Read more: https://github.com/randoneering/pgFirstAid</description>
+      <guid isPermaLink="true">https://github.com/randoneering/pgFirstAid</guid>
+      <pubDate>Sun, 16 Nov 2025 13:23:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944951</comments>
     </item>
     <item>
-      <title>伊朗因干旱而开始人工降雨作业</title>
-      <link>https://www.arabnews.com/node/2622812/middle-east</link>
-      <description>📝 伊朗德黑兰伊玛目扎德萨利赫圣地发生干旱危机后，伊朗妇女因严重干旱而祈祷下雨，伊朗开始播云作业。 news/rkv7w 更新于 23 秒前 法新社 2025 年 11 月 16 日 07:14 关注 伊朗因严重干旱而开始播云作业 播云涉及从飞机上向云中喷洒碘化银和盐等颗粒以引发降雨 更新于 23 秒前 法新社 2025 年 11 月 16 日 07:14 关注德黑兰：伊朗当局已启动播云作业，以诱导降雨，因为该国面临数十年来最严重的干旱，官方媒体报道。人工降雨包括从飞机上向云中喷洒碘化银和盐等颗粒以引发降雨。
+      <title>复古大型语言模型</title>
+      <link>https://owainevans.github.io/talk-transcript.html</link>
+      <description>📝 你可以包括当时人们可以亲眼看到和体验到的东西。您还可以拥有我们仍然拥有的过去的建筑物和文物的照片。您可以应用对现在的人有效的相同优化技术来模拟与过去的人的对话。
 
 
-🔤 Original: Iran begins cloud seeding operations as drought bites
+🔤 Original: Vintage Large Language Models
 
-🔗 Read more: https://www.arabnews.com/node/2622812/middle-east</description>
-      <guid isPermaLink="true">https://www.arabnews.com/node/2622812/middle-east</guid>
-      <pubDate>Sun, 16 Nov 2025 13:57:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45945188</comments>
+🔗 Read more: https://owainevans.github.io/talk-transcript.html</description>
+      <guid isPermaLink="true">https://owainevans.github.io/talk-transcript.html</guid>
+      <pubDate>Sun, 16 Nov 2025 13:15:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45944906</comments>
     </item>
     <item>
-      <title>为什么使用 OpenBSD？</title>
-      <link>https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</link>
-      <description>📝 请注意，Anubis 需要使用现代 JavaScript 功能，而 JShelter 等插件将禁用这些功能。请为此域禁用 JShelter 或其他此类插件。该网站运行的是 Anubis 版本 devel。
-
-
-🔤 Original: Why use OpenBSD?
-
-🔗 Read more: https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</description>
-      <guid isPermaLink="true">https://www.tumfatig.net/2025/why-are-you-still-using-openbsd/</guid>
-      <pubDate>Sun, 16 Nov 2025 12:25:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944595</comments>
+      <title>使用 Podman Quadlets 进行生产级容器部署 – Larvitz 博客</title>
+      <link>https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</link>
+      <guid isPermaLink="true">https://blog.hofstede.it/production-grade-container-deployment-with-podman-quadlets/index.html</guid>
+      <pubDate>Sun, 16 Nov 2025 13:59:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945200</comments>
     </item>
     <item>
-      <title>垃圾收集很有用</title>
-      <link>https://dubroy.com/blog/garbage-collection-is-useful/</link>
-      <description>📝 问题 使用这个机制，我尝试创建一个 pmNodes 属性，为给定的输入生成一个 ProseMirror 文档。编辑文本文档时，它会生成一棵新树，该树与前一个树共享一堆节点。直观上，区别在于跟踪对活对象（或“物质”）进行操作，而引用计数对死对象（或“反物质”）进行操作。
-
-
-🔤 Original: Garbage Collection Is Useful
-
-🔗 Read more: https://dubroy.com/blog/garbage-collection-is-useful/</description>
-      <guid isPermaLink="true">https://dubroy.com/blog/garbage-collection-is-useful/</guid>
-      <pubDate>Sun, 16 Nov 2025 13:25:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944969</comments>
-    </item>
-    <item>
-      <title>“伊卡洛斯的坠落”：一名跳伞运动员在太阳前坠落的照片</title>
-      <link>https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</link>
-      <description>📝 布朗创造了一幅我们以前从未见过的图像。在 Instagram 上查看此帖子 Gabriel C. Brown (@blackgryph0n) 分享的帖子ⓘ IFLScience 不对从外部网站共享的内容负责。
-
-
-🔤 Original: “The Fall of Icarus”: Photograph of a falling skydiver in front of the Sun
-
-🔗 Read more: https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</description>
-      <guid isPermaLink="true">https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570</guid>
-      <pubDate>Sun, 16 Nov 2025 11:02:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45944158</comments>
+      <title>剖析鸡群安全：跟踪您的摄像头是安全噩梦 [视频]</title>
+      <link>https://www.youtube.com/watch?v=uB0gr7Fh6lY</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=uB0gr7Fh6lY</guid>
+      <pubDate>Sun, 16 Nov 2025 15:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45945960</comments>
     </item>
   </channel>
 </rss>
