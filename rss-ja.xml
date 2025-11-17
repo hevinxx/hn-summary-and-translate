@@ -6,171 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 17 Nov 2025 18:30:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 21:20:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ボーモル効果とジェボンズのパラドックスは関連しています</title>
-      <link>https://www.a16z.news/p/why-ac-is-cheap-but-ac-repair-is</link>
-      <description>📝 これらの現象にはそれぞれ名前があります。ジェボンズのパラドックスは、「生産性が高くなるものにもっとお金をかける」という意味で、ボーモル効果は、「生産性が上がらないものにもっとお金をかけることになります。AI の影響が比較的小さい他の商品やサービスはより高価になります。そして、いずれにせよ、私たちはそれらをより多く消費するでしょう。それは青い線で示されています。より多くの雇用、より多くの機会を生み出す方法で、どこが安くなっているのか、そして、より多くの出費。
+      <title>Rubyを機械語にコンパイルする</title>
+      <link>https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</link>
+      <description>📝 ) YJIT ブロック Ruby プログラムのコンパイル中に、YJIT は作成した機械語命令を YJIT ブロックに保存します。各 Ruby 関数またはブロックは通常、複数の YJIT ブロックで構成されます。 YJIT は、Ruby YARV 命令をコンパイルまたは変換します。
 
 
-🔤 Original: The Baumol Effect and Jevons paradox are related
+🔤 Original: Compiling Ruby to Machine Language
 
-🔗 Read more: https://www.a16z.news/p/why-ac-is-cheap-but-ac-repair-is</description>
-      <guid isPermaLink="true">https://www.a16z.news/p/why-ac-is-cheap-but-ac-repair-is</guid>
-      <pubDate>Mon, 17 Nov 2025 17:36:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955879</comments>
+🔗 Read more: https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</description>
+      <guid isPermaLink="true">https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</guid>
+      <pubDate>Mon, 17 Nov 2025 20:04:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45957629</comments>
     </item>
     <item>
-      <title>新しい本は効果的な利他主義の起源を回想します</title>
-      <link>https://newrepublic.com/article/202433/happened-effective-altruism</link>
-      <description>📝 これは彼の有名な思考実験のインスピレーションとなった風景でした。ピーター・シンガーは、「そのことを心配する必要がありますか？」と尋ねます。そして、ピーター・シンガーは、この非常に物議を醸す CL を作成します。
-
-
-🔤 Original: A new book recovers the origins of Effective Altruism
-
-🔗 Read more: https://newrepublic.com/article/202433/happened-effective-altruism</description>
-      <guid isPermaLink="true">https://newrepublic.com/article/202433/happened-effective-altruism</guid>
-      <pubDate>Mon, 17 Nov 2025 17:37:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955889</comments>
+      <title>Show HN: PrinceJS – 2.8 kB の 19,200 req/s Bun フレームワーク (13 歳で構築)</title>
+      <link>https://princejs.vercel.app</link>
+      <guid isPermaLink="true">https://princejs.vercel.app</guid>
+      <pubDate>Mon, 17 Nov 2025 19:45:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45957402</comments>
     </item>
     <item>
-      <title>プロジェクト・ジェミニ</title>
-      <link>https://geminiprotocol.net/</link>
-      <description>📝 Project Gemini Gemini 100 語で表す Gemini は、相互接続されたテキスト ドキュメントの電子ライブラリをサポートする新しいインターネット テクノロジです。ジェミニは革新や破壊的なものではなく、インターネットがすでに十分に破壊されていると感じている人々にいくらかの休息を提供することです。さらに詳しく知りたい場合は、よくある質問をお読みください。または、こちらのビデオ概要をご覧ください。 公式リソース Project Gemini ニュース Project Gemini ドキュメント Project Gemini の歴史 既知の Gemini ソフトウェア すべてのコンテンツは geminiprotocol にあります。
+      <title>HN を表示: ESPectre – Wi-Fi スペクター分析に基づくモーション検出</title>
+      <link>https://github.com/francescopace/espectre</link>
+      <description>📝 🛜 ESPectre 👻 ホーム アシスタントと統合された、Wi-Fi スペクター分析 (CSI) に基づくモーション検出システム。 📑 3 つのポイントでの目次 数学的アプローチ 必要なもの クイック スタート 仕組み 仕組み センサー配置ガイド システム アーキテクチャ FAQ セキュリティとプライバシー 技術的な詳細 将来の進化 参考資料 変更ログ ライセンス 著者 🎯 3 つのポイントで説明 機能: Wi-Fi を使用して自宅の動きを検出 (カメラなし、マイクなし) 必要なもの: ~10 ユーロのデバイス (ESP32-S3) + ホーム アシスタントまたは MQTT サーバー + ESP-IDF 開発ツール セットアップ時間: 30 ～ 45 分 (初回、ESP-IDF セットアップを含む) 🔬 数学的アプローチ このプロジェクトは現在、機械学習モデルを使用していません。 md 🚀 クイック スタート セットアップ時間: ~30 ～ 45 分 (初回) 難易度: 中級 (ESP-IDF セットアップが必要) セットアップとインストール: セットアップの完全なガイドに従ってください。
 
 
-🔤 Original: Project Gemini
+🔤 Original: Show HN: ESPectre – Motion detection based on Wi-Fi spectre analysis
 
-🔗 Read more: https://geminiprotocol.net/</description>
-      <guid isPermaLink="true">https://geminiprotocol.net/</guid>
-      <pubDate>Mon, 17 Nov 2025 15:50:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954640</comments>
+🔗 Read more: https://github.com/francescopace/espectre</description>
+      <guid isPermaLink="true">https://github.com/francescopace/espectre</guid>
+      <pubDate>Mon, 17 Nov 2025 14:40:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45953977</comments>
     </item>
     <item>
-      <title>WBlock: Safari 用の新しい広告ブロッカー</title>
-      <link>https://github.com/0xCUB3/wBlock</link>
-      <description>📝 宣言型コンテンツ ブロック ルールを利用した macOS、iOS、iPadOS 用の Safari コンテンツ ブロッカー。 wBlock は、AdGuard 互換のフィルター リストをサポートします。 wBlock は Safari を遅くしますか?
+      <title>北朝鮮の公式地図帳</title>
+      <link>https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</link>
+      <description>📝 北朝鮮の公式地図帳地球上で最も孤立した国の 1 つである国の視点から世界を示す北朝鮮の地図帳。そして地図、たくさんの地図。まず、敵専用のマップ。
 
 
-🔤 Original: WBlock: A New Ad-Blocker for Safari
+🔤 Original: An official atlas of North Korea
 
-🔗 Read more: https://github.com/0xCUB3/wBlock</description>
-      <guid isPermaLink="true">https://github.com/0xCUB3/wBlock</guid>
-      <pubDate>Mon, 17 Nov 2025 15:48:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954626</comments>
+🔗 Read more: https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</description>
+      <guid isPermaLink="true">https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</guid>
+      <pubDate>Mon, 17 Nov 2025 18:07:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45956176</comments>
     </item>
     <item>
-      <title>WeatherNext 2: 最も先進的な天気予報モデル</title>
-      <link>https://blog.google/technology/google-deepmind/weathernext-2/</link>
-      <description>📝 このモデルは、99 の以前の WeatherNext モデルを上回っています。WeatherNext テクノロジーを組み込むことで、Search、Gemini、Pixel Weather、Google Maps Platform の Weather API の天気予報がアップグレードされました。全体として、WeatherNext 2 は、99 の以前の最先端の WeatherNext モデルを上回っています。
+      <title>サムスンの携帯電話にプリロードされているイスラエル設立のアプリが物議を醸している</title>
+      <link>https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</link>
+      <description>📝 当社の SAMSUNG 専門家によるベストピック 2025 年のベスト Samsung Galaxy イヤホン 2025 年のベスト Samsung Galaxy 携帯電話 2025 年のベスト Samsung ウォッチ 2025 年のベスト Samsung Galaxy タブレット 2025 年に人気の Samsung 製の格安 Android スマートフォンA36 Galaxy Z Flip FE Galaxy Ring 2 Galaxy Watch 8 Galaxy S24 Ultra ソーシャルメディアでフォローしてください Android の王様を注文してください。今すぐ購入 最新のレビュー Samsung Galaxy Watch 8 レビュー Samsung Bespoke AI Jet Ultra レビュー Samsung Galaxy Z Fold 7 レビュー Samsung Galaxy Z Flip 7 レビュー Samsung Galaxy S25 Edge レビュー Samsung S95F OLED TV レビュー Samsung Q7F QLED TV レビュー: 低価格で迷わず購入 Samsung S90F OLED TV レビュー: 非現実的なコストパフォーマンス Samsung Galaxy S25+ レビュー: 大型携帯電話の基本を完璧に理解ソーシャルメディア Galaxy AI のパワーを手のひらで感じてください。 Samsung からの贈り物 Samsung Galaxy AI vs.
 
 
-🔤 Original: WeatherNext 2: Our most advanced weather forecasting model
+🔤 Original: Israeli-founded app preloaded on Samsung phones is attracting controversy
 
-🔗 Read more: https://blog.google/technology/google-deepmind/weathernext-2/</description>
-      <guid isPermaLink="true">https://blog.google/technology/google-deepmind/weathernext-2/</guid>
-      <pubDate>Mon, 17 Nov 2025 15:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954210</comments>
+🔗 Read more: https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</description>
+      <guid isPermaLink="true">https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</guid>
+      <pubDate>Mon, 17 Nov 2025 16:54:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45955424</comments>
     </item>
     <item>
-      <title>Linux ネットワーク スタックから逃れる方法</title>
-      <link>https://blog.cloudflare.com/so-long-and-thanks-for-all-the-fish-how-to-escape-the-linux-networking-stack/</link>
-      <description>📝 このサービスの唯一の役割は、ソフト ユニキャスト アドレス空間を使用して IP パケットをプロキシし、それらのアドレスのリースを管理することです。衝突の回避 ソフト ユニキャスト アドレス スライス 198 があるとします。ソケットをバインドする場合とは異なり、Netfilter は単に conntrack テーブル内の最初の空きスペースを選択します。
+      <title>オルダス・ハクスリー、アデロールを予言し代替療法を擁護</title>
+      <link>https://angadh.com/inkhaven-7</link>
+      <description>📝 ハクスリーが論じているかなりよく知られた自己実現手段としては、アレクサンダー・テクニックとゲシュタルト療法があります。理想を提案し、その理想を実現するための手段を提供します。ジョン・デューイを言い換えたオルダス・ハクスリー これは彼の講義のかなり後半で言及されていますが、今日のハクスリーのような人物は、そのようなアプローチの重要性と妥当性を伝えるために、この部分で講義を主導する必要があるかもしれません。
 
 
-🔤 Original: How to escape the Linux networking stack
+🔤 Original: Aldous Huxley predicts Adderall and champions alternative therapies
 
-🔗 Read more: https://blog.cloudflare.com/so-long-and-thanks-for-all-the-fish-how-to-escape-the-linux-networking-stack/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/so-long-and-thanks-for-all-the-fish-how-to-escape-the-linux-networking-stack/</guid>
-      <pubDate>Mon, 17 Nov 2025 15:49:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954638</comments>
+🔗 Read more: https://angadh.com/inkhaven-7</description>
+      <guid isPermaLink="true">https://angadh.com/inkhaven-7</guid>
+      <pubDate>Mon, 17 Nov 2025 14:57:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45954140</comments>
     </item>
     <item>
-      <title>大規模監視記録を公開しなければならないことに都市がパニックに陥る</title>
-      <link>https://www.nakedcapitalism.com/2025/11/cities-panic-over-having-to-release-mass-surveillance-recordings.html</link>
-      <description>📝 「Flock カメラは車を監視するように設計されています。Flock は目に映るものすべてを捉えます。このどこにでもあるカメラにとって、すべてがすべてを意味します。」
+      <title>アスリートと非アスリートにおける脳波ベースのニューロフィードバック</title>
+      <link>https://www.mdpi.com/2306-5354/12/11/1202</link>
+      <description>📝 org Google Scholar 1,*、Darshika Thejani BulathwattaDarshika Thejani Bulathwatta SciProfiles Scilit Preprints。 org Google Scholar 2、Ilona Bidzan-BlumaIlona Bidzan-Bluma SciProfiles Scilit Preprints。 org Google Scholar 1 および João Mendonça CorreiaJoão Mendonça Correia SciProfiles Scilit Preprints。
 
 
-🔤 Original: Cities Panic over Having to Release Mass Surveillance Recordings
+🔤 Original: EEG-based neurofeedback in athletes and non-athletes
 
-🔗 Read more: https://www.nakedcapitalism.com/2025/11/cities-panic-over-having-to-release-mass-surveillance-recordings.html</description>
-      <guid isPermaLink="true">https://www.nakedcapitalism.com/2025/11/cities-panic-over-having-to-release-mass-surveillance-recordings.html</guid>
-      <pubDate>Mon, 17 Nov 2025 17:23:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955745</comments>
+🔗 Read more: https://www.mdpi.com/2306-5354/12/11/1202</description>
+      <guid isPermaLink="true">https://www.mdpi.com/2306-5354/12/11/1202</guid>
+      <pubDate>Mon, 17 Nov 2025 17:40:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45955921</comments>
     </item>
     <item>
-      <title>Google はオープンウェブを殺している、パート 2</title>
-      <link>https://wok.oblomov.eu/tecnologia/google-killing-open-web-2/</link>
-      <description>📝 最終的にサービスを停止する前にあらゆる場所に強制的にインストールされた Pocket 統合と比較対照してください。彼らが言うように、行動は言葉よりも雄弁です。そして、それに対する最善の防御は、攻撃し、その機能の使用をさらに強力に推進することです。代わりに、ブラウザ内 XSLT サポートを復活させるリクエストを問題トラッカーに大量に送信します。
+      <title>Show HN: Io_uring および Completion Based IO を使用した Apache Iggy での WebSocket の構築</title>
+      <link>https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</link>
+      <description>📝 ただし、より広範な Rust エコシステムと統合する場合には、さまざまな課題も発生します。彼らは共有バッファと準備ベースの I/O を期待していますが、所有バッファを必要とする compio の完了ベースのモデルとは基本的に互換性がありません。 compio の所有バッファ非同期 I/O で動作する タングステンナイトに同期読み取り/書き込み特性を提供する 同期世界と非同期世界を効率的に橋渡しする タングステンナイトへの挑戦 タングステンナイトは、事実上の Rust WebSocket プロトコル実装です。
 
 
-🔤 Original: Google is killing the open web, part 2
+🔤 Original: Show HN: Building WebSocket in Apache Iggy with Io_uring and Completion Based IO
 
-🔗 Read more: https://wok.oblomov.eu/tecnologia/google-killing-open-web-2/</description>
-      <guid isPermaLink="true">https://wok.oblomov.eu/tecnologia/google-killing-open-web-2/</guid>
-      <pubDate>Mon, 17 Nov 2025 15:41:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954560</comments>
+🔗 Read more: https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</description>
+      <guid isPermaLink="true">https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</guid>
+      <pubDate>Mon, 17 Nov 2025 18:00:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45956111</comments>
     </item>
     <item>
-      <title>映画のロジックに囚われていませんか？</title>
-      <link>https://usefulfictions.substack.com/p/are-you-stuck-in-movie-logic</link>
-      <guid isPermaLink="true">https://usefulfictions.substack.com/p/are-you-stuck-in-movie-logic</guid>
-      <pubDate>Mon, 17 Nov 2025 12:06:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45952890</comments>
-    </item>
-    <item>
-      <title>2025 年に最高の Sun Microsystems エコシステム生活を送りましょう</title>
-      <link>https://www.osnews.com/story/143570/living-my-best-sun-microsystems-ecosystem-life-in-2025/</link>
-      <description>📝 この記事の執筆には、まったく生成的な「AI」が使用されていないことに注意してください。この激動の時代に、さまざまな商用 UNIX ベンダーはいずれも、それぞれの UNIX ワークステーション シリーズの最後の大作となるシステムを世に送り出しました。 – x86 の兄弟とのエンクロージャの。
+      <title>DESI の目もくらむような結果</title>
+      <link>https://www.universetoday.com/articles/desis-dizzying-results</link>
+      <description>📝 これは銀河の調査であり、この調査を達成するために、望遠鏡の下にロボット制御された 5,000 本の光ファイバー ケーブルが設置されています。他の緻密な物質と同様に、宇宙を横切る音波、つまり圧力の波がありました。彼らはそこに留まり、ゆっくりとゆっくりと何十億年もかけて、周囲の地域よりも多くの物質がそれらの貝殻に蓄積されました。
 
 
-🔤 Original: Living my best Sun Microsystems ecosystem life in 2025
+🔤 Original: DESI's Dizzying Results
 
-🔗 Read more: https://www.osnews.com/story/143570/living-my-best-sun-microsystems-ecosystem-life-in-2025/</description>
-      <guid isPermaLink="true">https://www.osnews.com/story/143570/living-my-best-sun-microsystems-ecosystem-life-in-2025/</guid>
-      <pubDate>Mon, 17 Nov 2025 16:24:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955077</comments>
-    </item>
-    <item>
-      <title>AWS がダウンしたとき、私たちはそうではありませんでした</title>
-      <link>https://authress.io/knowledge-base/articles/2025/11/01/how-we-prevent-aws-downtime-impacts</link>
-      <description>📝 これは非常に異常なことだと思うので、この記事を通じて皆さんに念頭に置いていただきたいのは、「それは実際に可能なのか」ということです。私がファイブナインと言うときは、99 を意味します。つまり、機能だけに焦点を当てたアーキテクチャですが、これをできるだけシンプルに構築するにはどうすればよいでしょうか。
-
-
-🔤 Original: When AWS was down, we were not
-
-🔗 Read more: https://authress.io/knowledge-base/articles/2025/11/01/how-we-prevent-aws-downtime-impacts</description>
-      <guid isPermaLink="true">https://authress.io/knowledge-base/articles/2025/11/01/how-we-prevent-aws-downtime-impacts</guid>
-      <pubDate>Mon, 17 Nov 2025 17:07:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955565</comments>
-    </item>
-    <item>
-      <title>英国政府の取り締まりで営利目的のチケット転売が違法に</title>
-      <link>https://www.theguardian.com/money/2025/nov/17/reselling-tickets-for-profit-to-be-outlawed-in-uk-government-crackdown</link>
-      <description>📝 しかし、ガーディアン紙は、客引きや一般消費者は、最初にチケットを購入したときの価格以上の料金を請求することはできなくなることを理解しています。再販プラットフォームは、その価格に加えて手数料を請求することが許可されます。チケットを転売する人は、元の興行会社が設定した制限内で調達できる以上のチケットを提供することも禁止されます。
-
-
-🔤 Original: Reselling tickets for profit to be outlawed in UK government crackdown
-
-🔗 Read more: https://www.theguardian.com/money/2025/nov/17/reselling-tickets-for-profit-to-be-outlawed-in-uk-government-crackdown</description>
-      <guid isPermaLink="true">https://www.theguardian.com/money/2025/nov/17/reselling-tickets-for-profit-to-be-outlawed-in-uk-government-crackdown</guid>
-      <pubDate>Mon, 17 Nov 2025 18:06:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956173</comments>
-    </item>
-    <item>
-      <title>アマゾンでフォードの中古車が買えるようになりました</title>
-      <link>https://www.theverge.com/news/821258/ford-amazon-auto-online-sales-certified-preowned</link>
-      <description>📝 フォードは、ヒュンダイに次いでアマゾンの新車購入サイトに自社車を掲載する2番目のブランドとなる。本日より、顧客は Amazon Autos を通じてオンラインでフォードの認定中古車を閲覧、融資、購入できるようになり、地元のフォード ディーラーでの直接受け取りが可能になります。フォードは、ヒュンダイに次いで同サイトに自社車両を掲載する2番目のブランド名である。
-
-
-🔤 Original: You can now buy used Ford vehicles on Amazon
-
-🔗 Read more: https://www.theverge.com/news/821258/ford-amazon-auto-online-sales-certified-preowned</description>
-      <guid isPermaLink="true">https://www.theverge.com/news/821258/ford-amazon-auto-online-sales-certified-preowned</guid>
-      <pubDate>Mon, 17 Nov 2025 16:49:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955367</comments>
+🔗 Read more: https://www.universetoday.com/articles/desis-dizzying-results</description>
+      <guid isPermaLink="true">https://www.universetoday.com/articles/desis-dizzying-results</guid>
+      <pubDate>Mon, 17 Nov 2025 17:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45955904</comments>
     </item>
   </channel>
 </rss>
