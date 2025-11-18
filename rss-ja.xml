@@ -6,119 +6,67 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 17 Nov 2025 21:20:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 01:28:14 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Rubyを機械語にコンパイルする</title>
-      <link>https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</link>
-      <description>📝 ) YJIT ブロック Ruby プログラムのコンパイル中に、YJIT は作成した機械語命令を YJIT ブロックに保存します。各 Ruby 関数またはブロックは通常、複数の YJIT ブロックで構成されます。 YJIT は、Ruby YARV 命令をコンパイルまたは変換します。
+      <title>Azureが50万のIPアドレスを使用した15 TbpsのDDoS攻撃に見舞われた</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</link>
+      <description>📝 500,000 を超える IP アドレスから開始された 72 テラビット/秒 (Tbps) の DDoS 攻撃。 「攻撃の発信元は Aisuru ボットネット。2 テラビット/秒 (Tbps) の DDoS 攻撃が 10 に達しました。
 
 
-🔤 Original: Compiling Ruby to Machine Language
+🔤 Original: Azure hit by 15 Tbps DDoS attack using 500k IP addresses
 
-🔗 Read more: https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</description>
-      <guid isPermaLink="true">https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</guid>
-      <pubDate>Mon, 17 Nov 2025 20:04:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957629</comments>
+🔗 Read more: https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</description>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</guid>
+      <pubDate>Mon, 17 Nov 2025 17:39:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45955900</comments>
     </item>
     <item>
-      <title>Show HN: PrinceJS – 2.8 kB の 19,200 req/s Bun フレームワーク (13 歳で構築)</title>
-      <link>https://princejs.vercel.app</link>
-      <guid isPermaLink="true">https://princejs.vercel.app</guid>
-      <pubDate>Mon, 17 Nov 2025 19:45:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957402</comments>
+      <title>最新のハードウェアで古代の Unix を実行する</title>
+      <link>https://github.com/felipenlunkes/run-ancient-unix</link>
+      <description>📝 このリポジトリで利用可能な UNIX バージョンは、このリポジトリで利用可能な Cal​​dera ライセンスに基づいてオープン ソースとしてリリースされています。再利用する前にこのデータを確認してください。セクション 2 このリポジトリのクローンをコンピュータに作成する必要があります。
+
+
+🔤 Original: Run ancient Unix on modern hardware
+
+🔗 Read more: https://github.com/felipenlunkes/run-ancient-unix</description>
+      <guid isPermaLink="true">https://github.com/felipenlunkes/run-ancient-unix</guid>
+      <pubDate>Mon, 17 Nov 2025 21:46:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958717</comments>
     </item>
     <item>
-      <title>HN を表示: ESPectre – Wi-Fi スペクター分析に基づくモーション検出</title>
-      <link>https://github.com/francescopace/espectre</link>
-      <description>📝 🛜 ESPectre 👻 ホーム アシスタントと統合された、Wi-Fi スペクター分析 (CSI) に基づくモーション検出システム。 📑 3 つのポイントでの目次 数学的アプローチ 必要なもの クイック スタート 仕組み 仕組み センサー配置ガイド システム アーキテクチャ FAQ セキュリティとプライバシー 技術的な詳細 将来の進化 参考資料 変更ログ ライセンス 著者 🎯 3 つのポイントで説明 機能: Wi-Fi を使用して自宅の動きを検出 (カメラなし、マイクなし) 必要なもの: ~10 ユーロのデバイス (ESP32-S3) + ホーム アシスタントまたは MQTT サーバー + ESP-IDF 開発ツール セットアップ時間: 30 ～ 45 分 (初回、ESP-IDF セットアップを含む) 🔬 数学的アプローチ このプロジェクトは現在、機械学習モデルを使用していません。 md 🚀 クイック スタート セットアップ時間: ~30 ～ 45 分 (初回) 難易度: 中級 (ESP-IDF セットアップが必要) セットアップとインストール: セットアップの完全なガイドに従ってください。
+      <title>Ion: Rust の最新システム シェル</title>
+      <link>https://github.com/redox-os/ion</link>
+      <description>📝 org/redox-os/ion/ cd ion カーゴ ビルド --release sudo DESTDIR=/usr/local/bin bash/install。 Vim/NeoVim 構文強調表示プラグイン vim/nvim ユーザー向けに、公式にサポートされている構文強調表示プラグインがあります。プラグイン「vmchale/ion-vim」 Emacs 構文強調表示プラグイン emacs ユーザー向けに、親切にサポートされている構文強調表示プラグインがあります。
 
 
-🔤 Original: Show HN: ESPectre – Motion detection based on Wi-Fi spectre analysis
+🔤 Original: Ion: Modern System Shell in Rust
 
-🔗 Read more: https://github.com/francescopace/espectre</description>
-      <guid isPermaLink="true">https://github.com/francescopace/espectre</guid>
-      <pubDate>Mon, 17 Nov 2025 14:40:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45953977</comments>
+🔗 Read more: https://github.com/redox-os/ion</description>
+      <guid isPermaLink="true">https://github.com/redox-os/ion</guid>
+      <pubDate>Mon, 17 Nov 2025 21:56:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958815</comments>
     </item>
     <item>
-      <title>北朝鮮の公式地図帳</title>
-      <link>https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</link>
-      <description>📝 北朝鮮の公式地図帳地球上で最も孤立した国の 1 つである国の視点から世界を示す北朝鮮の地図帳。そして地図、たくさんの地図。まず、敵専用のマップ。
+      <title>Show HN: Parqeye – Parquet ファイルを視覚化して検査する CLI ツール</title>
+      <link>https://github.com/kaushiksrini/parqeye</link>
+      <description>📝 parqeye parqeye では、Parquet ファイルの内部を覗くことができます。端末から直接、コンテンツ、スキーマ、メタデータを即座に検査します。ソースからビルドする リポジトリをダウンロードして次のコマンドを実行することで、ソースからビルドできます。 カーゴ ビルド --release Cargo からビルドする Rust を使用する場合は、クレートから直接ビルドします。
 
 
-🔤 Original: An official atlas of North Korea
+🔤 Original: Show HN: Parqeye – A CLI tool to visualize and inspect Parquet files
 
-🔗 Read more: https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</description>
-      <guid isPermaLink="true">https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</guid>
-      <pubDate>Mon, 17 Nov 2025 18:07:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956176</comments>
+🔗 Read more: https://github.com/kaushiksrini/parqeye</description>
+      <guid isPermaLink="true">https://github.com/kaushiksrini/parqeye</guid>
+      <pubDate>Mon, 17 Nov 2025 23:45:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45959780</comments>
     </item>
     <item>
-      <title>サムスンの携帯電話にプリロードされているイスラエル設立のアプリが物議を醸している</title>
-      <link>https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</link>
-      <description>📝 当社の SAMSUNG 専門家によるベストピック 2025 年のベスト Samsung Galaxy イヤホン 2025 年のベスト Samsung Galaxy 携帯電話 2025 年のベスト Samsung ウォッチ 2025 年のベスト Samsung Galaxy タブレット 2025 年に人気の Samsung 製の格安 Android スマートフォンA36 Galaxy Z Flip FE Galaxy Ring 2 Galaxy Watch 8 Galaxy S24 Ultra ソーシャルメディアでフォローしてください Android の王様を注文してください。今すぐ購入 最新のレビュー Samsung Galaxy Watch 8 レビュー Samsung Bespoke AI Jet Ultra レビュー Samsung Galaxy Z Fold 7 レビュー Samsung Galaxy Z Flip 7 レビュー Samsung Galaxy S25 Edge レビュー Samsung S95F OLED TV レビュー Samsung Q7F QLED TV レビュー: 低価格で迷わず購入 Samsung S90F OLED TV レビュー: 非現実的なコストパフォーマンス Samsung Galaxy S25+ レビュー: 大型携帯電話の基本を完璧に理解ソーシャルメディア Galaxy AI のパワーを手のひらで感じてください。 Samsung からの贈り物 Samsung Galaxy AI vs.
-
-
-🔤 Original: Israeli-founded app preloaded on Samsung phones is attracting controversy
-
-🔗 Read more: https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</description>
-      <guid isPermaLink="true">https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</guid>
-      <pubDate>Mon, 17 Nov 2025 16:54:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955424</comments>
-    </item>
-    <item>
-      <title>オルダス・ハクスリー、アデロールを予言し代替療法を擁護</title>
-      <link>https://angadh.com/inkhaven-7</link>
-      <description>📝 ハクスリーが論じているかなりよく知られた自己実現手段としては、アレクサンダー・テクニックとゲシュタルト療法があります。理想を提案し、その理想を実現するための手段を提供します。ジョン・デューイを言い換えたオルダス・ハクスリー これは彼の講義のかなり後半で言及されていますが、今日のハクスリーのような人物は、そのようなアプローチの重要性と妥当性を伝えるために、この部分で講義を主導する必要があるかもしれません。
-
-
-🔤 Original: Aldous Huxley predicts Adderall and champions alternative therapies
-
-🔗 Read more: https://angadh.com/inkhaven-7</description>
-      <guid isPermaLink="true">https://angadh.com/inkhaven-7</guid>
-      <pubDate>Mon, 17 Nov 2025 14:57:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954140</comments>
-    </item>
-    <item>
-      <title>アスリートと非アスリートにおける脳波ベースのニューロフィードバック</title>
-      <link>https://www.mdpi.com/2306-5354/12/11/1202</link>
-      <description>📝 org Google Scholar 1,*、Darshika Thejani BulathwattaDarshika Thejani Bulathwatta SciProfiles Scilit Preprints。 org Google Scholar 2、Ilona Bidzan-BlumaIlona Bidzan-Bluma SciProfiles Scilit Preprints。 org Google Scholar 1 および João Mendonça CorreiaJoão Mendonça Correia SciProfiles Scilit Preprints。
-
-
-🔤 Original: EEG-based neurofeedback in athletes and non-athletes
-
-🔗 Read more: https://www.mdpi.com/2306-5354/12/11/1202</description>
-      <guid isPermaLink="true">https://www.mdpi.com/2306-5354/12/11/1202</guid>
-      <pubDate>Mon, 17 Nov 2025 17:40:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955921</comments>
-    </item>
-    <item>
-      <title>Show HN: Io_uring および Completion Based IO を使用した Apache Iggy での WebSocket の構築</title>
-      <link>https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</link>
-      <description>📝 ただし、より広範な Rust エコシステムと統合する場合には、さまざまな課題も発生します。彼らは共有バッファと準備ベースの I/O を期待していますが、所有バッファを必要とする compio の完了ベースのモデルとは基本的に互換性がありません。 compio の所有バッファ非同期 I/O で動作する タングステンナイトに同期読み取り/書き込み特性を提供する 同期世界と非同期世界を効率的に橋渡しする タングステンナイトへの挑戦 タングステンナイトは、事実上の Rust WebSocket プロトコル実装です。
-
-
-🔤 Original: Show HN: Building WebSocket in Apache Iggy with Io_uring and Completion Based IO
-
-🔗 Read more: https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</description>
-      <guid isPermaLink="true">https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</guid>
-      <pubDate>Mon, 17 Nov 2025 18:00:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956111</comments>
-    </item>
-    <item>
-      <title>DESI の目もくらむような結果</title>
-      <link>https://www.universetoday.com/articles/desis-dizzying-results</link>
-      <description>📝 これは銀河の調査であり、この調査を達成するために、望遠鏡の下にロボット制御された 5,000 本の光ファイバー ケーブルが設置されています。他の緻密な物質と同様に、宇宙を横切る音波、つまり圧力の波がありました。彼らはそこに留まり、ゆっくりとゆっくりと何十億年もかけて、周囲の地域よりも多くの物質がそれらの貝殻に蓄積されました。
-
-
-🔤 Original: DESI's Dizzying Results
-
-🔗 Read more: https://www.universetoday.com/articles/desis-dizzying-results</description>
-      <guid isPermaLink="true">https://www.universetoday.com/articles/desis-dizzying-results</guid>
-      <pubDate>Mon, 17 Nov 2025 17:39:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955904</comments>
+      <title>HN を表示: Kalendis – スケジューリング API (UI はそのままにして、タイムゾーン/DST を処理します)</title>
+      <link>https://kalendis.dev</link>
+      <guid isPermaLink="true">https://kalendis.dev</guid>
+      <pubDate>Mon, 17 Nov 2025 18:05:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45956154</comments>
     </item>
   </channel>
 </rss>

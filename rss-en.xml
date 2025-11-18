@@ -6,95 +6,55 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Nov 2025 21:20:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 01:28:14 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Compiling Ruby to Machine Language</title>
-      <link>https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</link>
-      <description>📝 ) YJIT Blocks While compiling your Ruby program, YJIT saves the machine language instructions it creates into YJIT blocks. Each Ruby function or block typically consists of several YJIT blocks. YJIT compiles or translates the Ruby YARV instructions.
+      <title>Azure hit by 15 Tbps DDoS attack using 500k IP addresses</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</link>
+      <description>📝 72 terabits per second (Tbps) DDoS attack, launched from over 500,000 IP addresses. "The attack originated from Aisuru botnet. 2 terabits per second (Tbps) DDoS attack that reached 10.
 
-🔗 Read more: https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</description>
-      <guid isPermaLink="true">https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</guid>
-      <pubDate>Mon, 17 Nov 2025 20:04:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957629</comments>
+🔗 Read more: https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</description>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</guid>
+      <pubDate>Mon, 17 Nov 2025 17:39:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45955900</comments>
     </item>
     <item>
-      <title>Show HN: PrinceJS – 19,200 req/s Bun framework in 2.8 kB (built by a 13yo)</title>
-      <link>https://princejs.vercel.app</link>
-      <guid isPermaLink="true">https://princejs.vercel.app</guid>
-      <pubDate>Mon, 17 Nov 2025 19:45:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957402</comments>
+      <title>Run ancient Unix on modern hardware</title>
+      <link>https://github.com/felipenlunkes/run-ancient-unix</link>
+      <description>📝 The UNIX versions available in this repository have been released as open source under the Caldera license available in this repository. Check this data before reuse. Section 2 You must clone this repository to your computer.
+
+🔗 Read more: https://github.com/felipenlunkes/run-ancient-unix</description>
+      <guid isPermaLink="true">https://github.com/felipenlunkes/run-ancient-unix</guid>
+      <pubDate>Mon, 17 Nov 2025 21:46:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958717</comments>
     </item>
     <item>
-      <title>Show HN: ESPectre – Motion detection based on Wi-Fi spectre analysis</title>
-      <link>https://github.com/francescopace/espectre</link>
-      <description>📝 🛜 ESPectre 👻 Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration. 📑 Table of Contents In 3 Points Mathematical Approach What You Need Quick Start How It Works What You Can Do With It Sensor Placement Guide System Architecture FAQ Security and Privacy Technical Deep Dive Future Evolutions References Changelog License Author 🎯 In 3 Points What it does: Detects movement at home using Wi-Fi (no cameras, no microphones) What you need: A ~€10 device (ESP32-S3) + Home Assistant or MQTT server + ESP-IDF development tools Setup time: 30-45 minutes (first time, including ESP-IDF setup) 🔬 Mathematical Approach This project currently does NOT use Machine Learning models. md 🚀 Quick Start Setup time: ~30-45 minutes (first time) Difficulty: Intermediate (requires ESP-IDF setup) Setup &amp; Installation: Follow the complete guide in SETUP.
+      <title>Ion: Modern System Shell in Rust</title>
+      <link>https://github.com/redox-os/ion</link>
+      <description>📝 org/redox-os/ion/ cd ion cargo build --release sudo DESTDIR=/usr/local/bin bash/install. Vim/NeoVim Syntax Highlighting Plugin For vim/nvim users there is an officially-supported syntax highlighting plugin. Plugin 'vmchale/ion-vim' Emacs Syntax Highlighting Plugin For emacs users there is a kindly-supported syntax highlighting plugin.
 
-🔗 Read more: https://github.com/francescopace/espectre</description>
-      <guid isPermaLink="true">https://github.com/francescopace/espectre</guid>
-      <pubDate>Mon, 17 Nov 2025 14:40:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45953977</comments>
+🔗 Read more: https://github.com/redox-os/ion</description>
+      <guid isPermaLink="true">https://github.com/redox-os/ion</guid>
+      <pubDate>Mon, 17 Nov 2025 21:56:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958815</comments>
     </item>
     <item>
-      <title>An official atlas of North Korea</title>
-      <link>https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</link>
-      <description>📝 An official atlas of North KoreaA North Korean atlas that shows the world from the perspective of one of the most isolated countries on the planet. And maps, lots of maps. First, the maps dedicated to enemies.
+      <title>Show HN: Parqeye – A CLI tool to visualize and inspect Parquet files</title>
+      <link>https://github.com/kaushiksrini/parqeye</link>
+      <description>📝 parqeye parqeye lets you peek inside your Parquet files. Instantly inspect their contents, schema, and metadata — right from your terminal. Build from Source You can build from source by downloading the repository and running the following command: cargo build --release Build from Cargo If you use Rust, build directly from crates.
 
-🔗 Read more: https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</description>
-      <guid isPermaLink="true">https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</guid>
-      <pubDate>Mon, 17 Nov 2025 18:07:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956176</comments>
+🔗 Read more: https://github.com/kaushiksrini/parqeye</description>
+      <guid isPermaLink="true">https://github.com/kaushiksrini/parqeye</guid>
+      <pubDate>Mon, 17 Nov 2025 23:45:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45959780</comments>
     </item>
     <item>
-      <title>Israeli-founded app preloaded on Samsung phones is attracting controversy</title>
-      <link>https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</link>
-      <description>📝 BEST PICKS BY OUR SAMSUNG EXPERTS Best Samsung Galaxy Earbuds in 2025 Best Samsung Galaxy Phones in 2025 Best Samsung Watch in 2025 Best Samsung Galaxy Tablets in 2025 Best cheap Android phones 2025 by Samsung HOT RIGHT NOW Galaxy Z Flip 7 Galaxy Z Fold 7 Galaxy S25 Ultra Galaxy S25 Edge Galaxy A56 Galaxy A36 Galaxy Z Flip FE Galaxy Ring 2 Galaxy Watch 8 Galaxy S24 Ultra Follow us on social media Order the King of Android. Buy now Latest reviews Samsung Galaxy Watch 8 review Samsung Bespoke AI Jet Ultra review Samsung Galaxy Z Fold 7 review Samsung Galaxy Z Flip 7 review Samsung Galaxy S25 Edge review Samsung S95F OLED TV review Samsung Q7F QLED TV review: A no-brainer purchase at its low price Samsung S90F OLED TV review: Unreal value for money Samsung Galaxy S25+ review: Nails the big phone basics Follow us on social media Feel the power of Galaxy AI in the palm of your hands. Gifts from Samsung Samsung Galaxy AI vs.
-
-🔗 Read more: https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</description>
-      <guid isPermaLink="true">https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</guid>
-      <pubDate>Mon, 17 Nov 2025 16:54:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955424</comments>
-    </item>
-    <item>
-      <title>Aldous Huxley predicts Adderall and champions alternative therapies</title>
-      <link>https://angadh.com/inkhaven-7</link>
-      <description>📝 Some fairly well known means for self-actualisation that Huxley discusses are Alexander technique and Gestalt therapy. It proposes an ideal and provides means whereby that ideal can be realised. Aldous Huxley paraphrasing John Dewey While this is mentioned much later in his lecture, a Huxley-like figure today might need to lead their lecture with this part to convey the import and validity of such approaches.
-
-🔗 Read more: https://angadh.com/inkhaven-7</description>
-      <guid isPermaLink="true">https://angadh.com/inkhaven-7</guid>
-      <pubDate>Mon, 17 Nov 2025 14:57:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954140</comments>
-    </item>
-    <item>
-      <title>EEG-based neurofeedback in athletes and non-athletes</title>
-      <link>https://www.mdpi.com/2306-5354/12/11/1202</link>
-      <description>📝 org Google Scholar 1,*, Darshika Thejani BulathwattaDarshika Thejani Bulathwatta SciProfiles Scilit Preprints. org Google Scholar 2, Ilona Bidzan-BlumaIlona Bidzan-Bluma SciProfiles Scilit Preprints. org Google Scholar 1 and João Mendonça CorreiaJoão Mendonça Correia SciProfiles Scilit Preprints.
-
-🔗 Read more: https://www.mdpi.com/2306-5354/12/11/1202</description>
-      <guid isPermaLink="true">https://www.mdpi.com/2306-5354/12/11/1202</guid>
-      <pubDate>Mon, 17 Nov 2025 17:40:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955921</comments>
-    </item>
-    <item>
-      <title>Show HN: Building WebSocket in Apache Iggy with Io_uring and Completion Based IO</title>
-      <link>https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</link>
-      <description>📝 However, it also presents different challenges when integrating with the wider Rust ecosystem. They expect shared buffers and readiness-based I/O, fundamentally incompatible with compio's completion-based model that requires owned buffers. We need an adapter that: Works with compio's owned-buffer async I/O Presents synchronous Read/Write traits to tungstenite Efficiently bridges sync and async world Challenge with Tungstenite Tungstenite is the de-facto Rust WebSocket protocol implementation.
-
-🔗 Read more: https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</description>
-      <guid isPermaLink="true">https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</guid>
-      <pubDate>Mon, 17 Nov 2025 18:00:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956111</comments>
-    </item>
-    <item>
-      <title>DESI's Dizzying Results</title>
-      <link>https://www.universetoday.com/articles/desis-dizzying-results</link>
-      <description>📝 It’s a galaxy survey, and to accomplish this survey they have 5,000 robotically controlled fiber optic cables underneath the telescope. Like any dense material, there were sound waves – waves of pressure that crisscrossed the universe. They stuck around, and slowly slowly slowly over billions of years more matter accumulated on those shells than the surrounding regions.
-
-🔗 Read more: https://www.universetoday.com/articles/desis-dizzying-results</description>
-      <guid isPermaLink="true">https://www.universetoday.com/articles/desis-dizzying-results</guid>
-      <pubDate>Mon, 17 Nov 2025 17:39:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955904</comments>
+      <title>Show HN: Kalendis – Scheduling API (keep your UI, we handle timezones/DST)</title>
+      <link>https://kalendis.dev</link>
+      <guid isPermaLink="true">https://kalendis.dev</guid>
+      <pubDate>Mon, 17 Nov 2025 18:05:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45956154</comments>
     </item>
   </channel>
 </rss>

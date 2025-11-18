@@ -6,119 +6,67 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 17 Nov 2025 21:20:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 01:28:14 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Ruby를 기계어로 컴파일하기</title>
-      <link>https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</link>
-      <description>📝 ) YJIT 블록 Ruby 프로그램을 컴파일하는 동안 YJIT는 생성된 기계어 명령어를 YJIT 블록에 저장합니다. 각 Ruby 함수 또는 블록은 일반적으로 여러 YJIT 블록으로 구성됩니다. YJIT는 Ruby YARV 지침을 컴파일하거나 번역합니다.
+      <title>Azure는 500,000개의 IP 주소를 사용하는 15Tbps DDoS 공격을 받았습니다.</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</link>
+      <description>📝 500,000개가 넘는 IP 주소에서 초당 72테라비트(Tbps)의 DDoS 공격이 시작되었습니다. "공격은 Aisuru 봇넷에서 시작되었습니다. 초당 2테라비트(Tbps) DDoS 공격이 10에 도달했습니다.
 
 
-🔤 Original: Compiling Ruby to Machine Language
+🔤 Original: Azure hit by 15 Tbps DDoS attack using 500k IP addresses
 
-🔗 Read more: https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</description>
-      <guid isPermaLink="true">https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</guid>
-      <pubDate>Mon, 17 Nov 2025 20:04:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957629</comments>
+🔗 Read more: https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</description>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</guid>
+      <pubDate>Mon, 17 Nov 2025 17:39:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45955900</comments>
     </item>
     <item>
-      <title>HN 표시: PrinceJS – 2.8kB의 19,200 요청/초 Bun 프레임워크(13세 어린이가 구축)</title>
-      <link>https://princejs.vercel.app</link>
-      <guid isPermaLink="true">https://princejs.vercel.app</guid>
-      <pubDate>Mon, 17 Nov 2025 19:45:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957402</comments>
+      <title>최신 하드웨어에서 고대 Unix 실행</title>
+      <link>https://github.com/felipenlunkes/run-ancient-unix</link>
+      <description>📝 이 저장소에서 사용 가능한 UNIX 버전은 이 저장소에서 사용 가능한 Caldera 라이센스에 따라 오픈 소스로 출시되었습니다. 재사용하기 전에 이 데이터를 확인하세요. 섹션 2 이 저장소를 컴퓨터에 복제해야 합니다.
+
+
+🔤 Original: Run ancient Unix on modern hardware
+
+🔗 Read more: https://github.com/felipenlunkes/run-ancient-unix</description>
+      <guid isPermaLink="true">https://github.com/felipenlunkes/run-ancient-unix</guid>
+      <pubDate>Mon, 17 Nov 2025 21:46:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958717</comments>
     </item>
     <item>
-      <title>HN 표시: ESPectre – Wi-Fi 스펙트럼 분석을 기반으로 한 동작 감지</title>
-      <link>https://github.com/francescopace/espectre</link>
-      <description>📝 🛜 ESPectre 👻 Wi-Fi 스펙터 분석(CSI)을 기반으로 홈어시스턴트가 통합된 동작 감지 시스템입니다. 📑 목차 3가지 수학적 접근 필요한 것 빠른 시작 작동 방법 가능한 작업 센서 배치 가이드 시스템 아키텍처 FAQ 보안 및 개인 정보 보호 기술 심층 분석 미래 진화 참조 변경 로그 라이센스 작성자 🎯 3가지 포인트 기능: Wi-Fi를 사용하여 집에서 움직임 감지(카메라, 마이크 없음) 필요한 것: ~€10 장치(ESP32-S3) + 홈 어시스턴트 또는 MQTT 서버 + ESP-IDF 개발 도구 설정 시간: 30~45분(처음, ESP-IDF 설정 포함) 🔬 수학적 접근 이 프로젝트는 현재 기계 학습 모델을 사용하지 않습니다. md 🚀 빠른 시작 설정 시간: ~30-45분(처음) 난이도: 중급(ESP-IDF 설정 필요) 설정 및 설치: 설정의 전체 가이드를 따르세요.
+      <title>Ion: Rust의 최신 시스템 셸</title>
+      <link>https://github.com/redox-os/ion</link>
+      <description>📝 org/redox-os/ion/ cd ion 화물 빌드 --release sudo DESTDIR=/usr/local/bin bash/install. Vim/NeoVim 구문 강조 플러그인 vim/nvim 사용자를 위해 공식적으로 지원되는 구문 강조 플러그인이 있습니다. 플러그인 'vmchale/ion-vim' Emacs 구문 강조 플러그인 Emacs 사용자를 위해 친절하게 지원되는 구문 강조 플러그인이 있습니다.
 
 
-🔤 Original: Show HN: ESPectre – Motion detection based on Wi-Fi spectre analysis
+🔤 Original: Ion: Modern System Shell in Rust
 
-🔗 Read more: https://github.com/francescopace/espectre</description>
-      <guid isPermaLink="true">https://github.com/francescopace/espectre</guid>
-      <pubDate>Mon, 17 Nov 2025 14:40:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45953977</comments>
+🔗 Read more: https://github.com/redox-os/ion</description>
+      <guid isPermaLink="true">https://github.com/redox-os/ion</guid>
+      <pubDate>Mon, 17 Nov 2025 21:56:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958815</comments>
     </item>
     <item>
-      <title>북한의 공식 지도집</title>
-      <link>https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</link>
-      <description>📝 북한 공식 지도 지구상에서 가장 고립된 국가 중 하나의 관점에서 세계를 보여주는 북한 지도입니다. 그리고 지도, 지도가 많아요. 첫째, 적 전용 지도입니다.
+      <title>Show HN: Parqeye – Parquet 파일을 시각화하고 검사하는 CLI 도구</title>
+      <link>https://github.com/kaushiksrini/parqeye</link>
+      <description>📝 parqeye parqeye를 사용하면 Parquet 파일 내부를 엿볼 수 있습니다. 터미널에서 바로 콘텐츠, 스키마, 메타데이터를 즉시 검사하세요. 소스에서 빌드 저장소를 다운로드하고 다음 명령을 실행하여 소스에서 빌드할 수 있습니다: Cargo build --release Cargo에서 빌드 Rust를 사용하는 경우 크레이트에서 직접 빌드하세요.
 
 
-🔤 Original: An official atlas of North Korea
+🔤 Original: Show HN: Parqeye – A CLI tool to visualize and inspect Parquet files
 
-🔗 Read more: https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</description>
-      <guid isPermaLink="true">https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</guid>
-      <pubDate>Mon, 17 Nov 2025 18:07:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956176</comments>
+🔗 Read more: https://github.com/kaushiksrini/parqeye</description>
+      <guid isPermaLink="true">https://github.com/kaushiksrini/parqeye</guid>
+      <pubDate>Mon, 17 Nov 2025 23:45:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45959780</comments>
     </item>
     <item>
-      <title>삼성 휴대폰에 사전 탑재된 이스라엘 기반 앱이 논란을 불러일으키고 있습니다.</title>
-      <link>https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</link>
-      <description>📝 삼성 전문가가 선정한 최고의 추천 2025년 최고의 삼성 갤럭시 이어버드 2025년 최고의 삼성 갤럭시 휴대폰 2025년 최고의 삼성 시계 2025년 최고의 삼성 갤럭시 태블릿 Samsung HOT RIGHT NOW가 선정한 2025년 최고의 저렴한 안드로이드 휴대폰 Galaxy Z Flip 7 Galaxy Z Fold 7 Galaxy S25 Ultra Galaxy S25 Edge Galaxy A56 Galaxy A36 Galaxy Z Flip FE Galaxy Ring 2 Galaxy Watch 8 Galaxy S24 Ultra 소셜 미디어에서 팔로우하세요. Android의 왕을 주문하세요. 지금 구매 최신 리뷰 Samsung Galaxy Watch 8 리뷰 Samsung Bespoke AI Jet Ultra 리뷰 Samsung Galaxy Z Fold 7 리뷰 Samsung Galaxy Z Flip 7 리뷰 Samsung Galaxy S25 Edge 리뷰 Samsung S95F OLED TV 리뷰 Samsung Q7F QLED TV 리뷰: 저렴한 가격에 고민할 필요 없는 구매 Samsung S90F OLED TV 리뷰: 가격 대비 비현실적인 가치 Samsung Galaxy S25+ 리뷰: 대형 휴대폰의 기본 사항을 완벽하게 충족 소셜 미디어에서 팔로우하기 갤럭시 AI의 성능을 손바닥에서 느껴보세요. 삼성이 주는 선물 삼성 갤럭시 AI vs.
-
-
-🔤 Original: Israeli-founded app preloaded on Samsung phones is attracting controversy
-
-🔗 Read more: https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</description>
-      <guid isPermaLink="true">https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</guid>
-      <pubDate>Mon, 17 Nov 2025 16:54:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955424</comments>
-    </item>
-    <item>
-      <title>Aldous Huxley는 Adderall을 예측하고 대체 요법을 옹호합니다.</title>
-      <link>https://angadh.com/inkhaven-7</link>
-      <description>📝 Huxley가 논의한 꽤 잘 알려진 자기실현 방법으로는 알렉산더 기법과 게슈탈트 요법이 있습니다. 이는 이상을 제안하고 그 이상을 실현할 수 있는 수단을 제공합니다. John Dewey를 의역한 Aldous Huxley 이 내용은 강의 뒷부분에서 언급되지만 오늘날 Huxley와 같은 인물은 그러한 접근 방식의 중요성과 타당성을 전달하기 위해 이 부분으로 강의를 이끌어야 할 수도 있습니다.
-
-
-🔤 Original: Aldous Huxley predicts Adderall and champions alternative therapies
-
-🔗 Read more: https://angadh.com/inkhaven-7</description>
-      <guid isPermaLink="true">https://angadh.com/inkhaven-7</guid>
-      <pubDate>Mon, 17 Nov 2025 14:57:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954140</comments>
-    </item>
-    <item>
-      <title>운동선수와 비운동선수의 EEG 기반 뉴로피드백</title>
-      <link>https://www.mdpi.com/2306-5354/12/11/1202</link>
-      <description>📝 org Google Scholar 1,*, Darshika Thejani BulathwattaDarshika Thejani Bulathwatta SciProfiles Scilit Preprints. org Google Scholar 2, Ilona Bidzan-BlumaIlona Bidzan-Bluma SciProfiles Scilit Preprints. org Google Scholar 1 및 João Mendonça CorreiaJoão Mendonça Correia SciProfiles Scilit Preprints.
-
-
-🔤 Original: EEG-based neurofeedback in athletes and non-athletes
-
-🔗 Read more: https://www.mdpi.com/2306-5354/12/11/1202</description>
-      <guid isPermaLink="true">https://www.mdpi.com/2306-5354/12/11/1202</guid>
-      <pubDate>Mon, 17 Nov 2025 17:40:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955921</comments>
-    </item>
-    <item>
-      <title>HN 표시: Io_uring 및 완료 기반 IO를 사용하여 Apache Iggy에서 WebSocket 구축</title>
-      <link>https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</link>
-      <description>📝 그러나 더 넓은 Rust 생태계와 통합할 때 다른 과제도 제시됩니다. 그들은 소유된 버퍼가 필요한 compio의 완성 기반 모델과 근본적으로 호환되지 않는 공유 버퍼 및 준비 기반 I/O를 기대합니다. 우리는 다음과 같은 어댑터가 필요합니다: compio의 소유 버퍼 비동기 I/O와 작동 동기 읽기/쓰기 특성을 텅스텐나이트에 제공 동기 및 비동기 세계를 효율적으로 연결 Tungstenite와의 과제 Tungstenite는 사실상 Rust WebSocket 프로토콜 구현입니다.
-
-
-🔤 Original: Show HN: Building WebSocket in Apache Iggy with Io_uring and Completion Based IO
-
-🔗 Read more: https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</description>
-      <guid isPermaLink="true">https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</guid>
-      <pubDate>Mon, 17 Nov 2025 18:00:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956111</comments>
-    </item>
-    <item>
-      <title>DESI의 어지러운 결과</title>
-      <link>https://www.universetoday.com/articles/desis-dizzying-results</link>
-      <description>📝 이것은 은하계 조사이며, 이 조사를 수행하기 위해 망원경 아래에 로봇으로 제어되는 5,000개의 광섬유 케이블이 있습니다. 다른 밀도 있는 물질과 마찬가지로 음파, 즉 우주를 가로지르는 압력의 파동이 있었습니다. 그들은 주변에 머물면서 천천히 천천히 수십억 년에 걸쳐 주변 지역보다 그 껍질에 더 많은 물질이 축적되었습니다.
-
-
-🔤 Original: DESI's Dizzying Results
-
-🔗 Read more: https://www.universetoday.com/articles/desis-dizzying-results</description>
-      <guid isPermaLink="true">https://www.universetoday.com/articles/desis-dizzying-results</guid>
-      <pubDate>Mon, 17 Nov 2025 17:39:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955904</comments>
+      <title>HN 표시: Kalendis – 예약 API(UI 유지, 시간대/DST 처리)</title>
+      <link>https://kalendis.dev</link>
+      <guid isPermaLink="true">https://kalendis.dev</guid>
+      <pubDate>Mon, 17 Nov 2025 18:05:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45956154</comments>
     </item>
   </channel>
 </rss>

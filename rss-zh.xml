@@ -6,119 +6,67 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 17 Nov 2025 21:20:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 01:28:14 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>将 Ruby 编译为机器语言</title>
-      <link>https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</link>
-      <description>📝 ) YJIT 块 在编译 Ruby 程序时，YJIT 将其创建的机器语言指令保存到 YJIT 块中。每个 Ruby 函数或块通常由多个 YJIT 块组成。 YJIT 编译或翻译 Ruby YARV 指令。
+      <title>Azure 遭受使用 500k IP 地址的 15 Tbps DDoS 攻击</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</link>
+      <description>📝 从超过 500,000 个 IP 地址发起每秒 72 太比特 (Tbps) 的 DDoS 攻击。 “该攻击源自Aisuru僵尸网络。每秒2太比特（Tbps）的DDoS攻击达到10次。
 
 
-🔤 Original: Compiling Ruby to Machine Language
+🔤 Original: Azure hit by 15 Tbps DDoS attack using 500k IP addresses
 
-🔗 Read more: https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</description>
-      <guid isPermaLink="true">https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language</guid>
-      <pubDate>Mon, 17 Nov 2025 20:04:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957629</comments>
+🔗 Read more: https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</description>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/</guid>
+      <pubDate>Mon, 17 Nov 2025 17:39:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45955900</comments>
     </item>
     <item>
-      <title>显示 HN：PrinceJS – 19,200 req/s Bun 框架，2.8 kB（由 13 岁的人构建）</title>
-      <link>https://princejs.vercel.app</link>
-      <guid isPermaLink="true">https://princejs.vercel.app</guid>
-      <pubDate>Mon, 17 Nov 2025 19:45:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45957402</comments>
+      <title>在现代硬件上运行古老的 Unix</title>
+      <link>https://github.com/felipenlunkes/run-ancient-unix</link>
+      <description>📝 此存储库中提供的 UNIX 版本已根据此存储库中提供的 Caldera 许可证作为开源版本发布。重复使用之前检查此数据。第 2 部分 您必须将此存储库克隆到您的计算机。
+
+
+🔤 Original: Run ancient Unix on modern hardware
+
+🔗 Read more: https://github.com/felipenlunkes/run-ancient-unix</description>
+      <guid isPermaLink="true">https://github.com/felipenlunkes/run-ancient-unix</guid>
+      <pubDate>Mon, 17 Nov 2025 21:46:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958717</comments>
     </item>
     <item>
-      <title>显示 HN：ESPectre – 基于 Wi-Fi 频谱分析的运动检测</title>
-      <link>https://github.com/francescopace/espectre</link>
-      <description>📝 🛜 ESPectre 👻 基于 Wi-Fi 频谱分析 (CSI) 的运动检测系统，与 Home Assistant 集成。 📑 目录，分 3 点 数学方法 您需要什么 快速入门 工作原理 您可以用它做什么 传感器放置指南 系统架构常见问题解答 安全和隐私 技术深入探讨 未来发展 参考资料 变更日志 许可证作者 🎯 分 3 点 它的作用：使用 Wi-Fi 检测家中的运动（无摄像头、无麦克风） 您需要什么：一台约 10 欧元的设备 (ESP32-S3) + Home Assistant 或 MQTT 服务器+ ESP-IDF 开发工具 设置时间：30-45 分钟（第一次，包括 ESP-IDF 设置） 🔬 数学方法 该项目目前不使用机器学习模型。 md 🚀 快速入门 设置时间：~30-45 分钟（第一次） 难度：中级（需要 ESP-IDF 设置） 设置和安装：遵循 SETUP 中的完整指南。
+      <title>Ion：Rust 中的现代系统外壳</title>
+      <link>https://github.com/redox-os/ion</link>
+      <description>📝 org/redox-os/ion/ cd ion Cargo build --release sudo DESTDIR=/usr/local/bin bash/install. Vim/NeoVim 语法突出显示插件 对于 vim/nvim 用户，有一个官方支持的语法突出显示插件。插件 'vmchale/ion-vim' Emacs 语法突出显示插件 对于 emacs 用户，有一个友好支持的语法突出显示插件。
 
 
-🔤 Original: Show HN: ESPectre – Motion detection based on Wi-Fi spectre analysis
+🔤 Original: Ion: Modern System Shell in Rust
 
-🔗 Read more: https://github.com/francescopace/espectre</description>
-      <guid isPermaLink="true">https://github.com/francescopace/espectre</guid>
-      <pubDate>Mon, 17 Nov 2025 14:40:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45953977</comments>
+🔗 Read more: https://github.com/redox-os/ion</description>
+      <guid isPermaLink="true">https://github.com/redox-os/ion</guid>
+      <pubDate>Mon, 17 Nov 2025 21:56:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45958815</comments>
     </item>
     <item>
-      <title>朝鲜官方地图集</title>
-      <link>https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</link>
-      <description>📝 朝鲜官方地图集朝鲜地图集从地球上最孤立的国家之一的角度展示了世界。还有地图，很多地图。首先，专门针对敌人的地图。
+      <title>Show HN：Parqeye – 用于可视化和检查 Parquet 文件的 CLI 工具</title>
+      <link>https://github.com/kaushiksrini/parqeye</link>
+      <description>📝 parqeye parqeye 可让您查看 Parquet 文件内部。直接从您的终端立即检查其内容、架构和元数据。从源代码构建 您可以通过下载存储库并运行以下命令从源代码构建：cargo build --release 从 Cargo 构建如果您使用 Rust，请直接从 crate 构建。
 
 
-🔤 Original: An official atlas of North Korea
+🔤 Original: Show HN: Parqeye – A CLI tool to visualize and inspect Parquet files
 
-🔗 Read more: https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</description>
-      <guid isPermaLink="true">https://www.cartographerstale.com/p/an-official-atlas-of-north-korea</guid>
-      <pubDate>Mon, 17 Nov 2025 18:07:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956176</comments>
+🔗 Read more: https://github.com/kaushiksrini/parqeye</description>
+      <guid isPermaLink="true">https://github.com/kaushiksrini/parqeye</guid>
+      <pubDate>Mon, 17 Nov 2025 23:45:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45959780</comments>
     </item>
     <item>
-      <title>以色列创建的应用程序预装在三星手机上引发争议</title>
-      <link>https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</link>
-      <description>📝 我们三星专家的最佳选择 2025 年最佳三星 Galaxy 耳机 2025 年最佳三星 Galaxy 手机 2025 年最佳三星手表 2025 年最佳三星 Galaxy 平板电脑 2025 年三星最便宜的 Android 手机 现在热门 Galaxy Z Flip 7 Galaxy Z Fold 7 Galaxy S25 Ultra Galaxy S25 Edge Galaxy A56 Galaxy A36 Galaxy Z Flip FE Galaxy Ring 2 Galaxy Watch 8 Galaxy S24 Ultra 在社交媒体上关注我们 订购 Android 之王。立即购买 最新评论 三星 Galaxy Watch 8 评论 三星 Bespoke AI Jet Ultra 评论 三星 Galaxy Z Fold 7 评论 三星 Galaxy Z Flip 7 评论 三星 Galaxy S25 Edge 评论 三星 S95F OLED 电视评论 三星 Q7F QLED 电视评论：以低价轻松购买 三星 S90F OLED 电视评论：物超所值 三星 Galaxy S25+ 评论：掌握大手机基础知识 在社交媒体上关注我们 在手掌中感受 Galaxy AI 的力量。三星的礼物 三星 Galaxy AI vs.
-
-
-🔤 Original: Israeli-founded app preloaded on Samsung phones is attracting controversy
-
-🔗 Read more: https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</description>
-      <guid isPermaLink="true">https://www.sammobile.com/news/israeli-app-app-cloud-samsung-phones-controversy/</guid>
-      <pubDate>Mon, 17 Nov 2025 16:54:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955424</comments>
-    </item>
-    <item>
-      <title>奥尔德斯·赫胥黎预测阿得拉并倡导替代疗法</title>
-      <link>https://angadh.com/inkhaven-7</link>
-      <description>📝 赫胥黎讨论的一些相当著名的自我实现方法是亚历山大技术和格式塔疗法。它提出了一种理想，并提供了实现该理想的方法。奥尔德斯·赫胥黎（Aldous Huxley）释义约翰·杜威（John Dewey）虽然这一点在他的演讲中稍后提到，但今天类似赫胥黎的人物可能需要用这部分来引导他们的演讲，以传达此类方法的重要性和有效性。
-
-
-🔤 Original: Aldous Huxley predicts Adderall and champions alternative therapies
-
-🔗 Read more: https://angadh.com/inkhaven-7</description>
-      <guid isPermaLink="true">https://angadh.com/inkhaven-7</guid>
-      <pubDate>Mon, 17 Nov 2025 14:57:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45954140</comments>
-    </item>
-    <item>
-      <title>运动员和非运动员基于脑电图的神经反馈</title>
-      <link>https://www.mdpi.com/2306-5354/12/11/1202</link>
-      <description>📝 org Google Scholar 1,*, Darshika Thejani BulathwattaDarshika Thejani Bulathwatta SciProfiles Scilit 预印本。 org Google Scholar 2、Ilona Bidzan-BlumaIlona Bidzan-Bluma SciProfiles Scilit 预印本。 org Google Scholar 1 和 João Mendonça CorreiaJoão Mendonça Correia SciProfiles Scilit 预印本。
-
-
-🔤 Original: EEG-based neurofeedback in athletes and non-athletes
-
-🔗 Read more: https://www.mdpi.com/2306-5354/12/11/1202</description>
-      <guid isPermaLink="true">https://www.mdpi.com/2306-5354/12/11/1202</guid>
-      <pubDate>Mon, 17 Nov 2025 17:40:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955921</comments>
-    </item>
-    <item>
-      <title>Show HN：使用 Io_uring 和基于完成的 IO 在 Apache Iggy 中构建 WebSocket</title>
-      <link>https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</link>
-      <description>📝 然而，在与更广泛的 Rust 生态系统集成时，它也带来了不同的挑战。他们期望共享缓冲区和基于就绪的 I/O，这与需要自有缓冲区的 compio 基于完成的模型根本不兼容。我们需要一个适配器，它： 与 compio 拥有的缓冲区异步 I/O 配合使用 向 tungstenite 提供同步读/写特征 有效地桥接同步和异步世界 Tungstenite 面临的挑战 Tungstenite 是事实上的 Rust WebSocket 协议实现。
-
-
-🔤 Original: Show HN: Building WebSocket in Apache Iggy with Io_uring and Completion Based IO
-
-🔗 Read more: https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</description>
-      <guid isPermaLink="true">https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/</guid>
-      <pubDate>Mon, 17 Nov 2025 18:00:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45956111</comments>
-    </item>
-    <item>
-      <title>DESI 令人眼花缭乱的结果</title>
-      <link>https://www.universetoday.com/articles/desis-dizzying-results</link>
-      <description>📝 这是一项星系调查，为了完成这项调查，他们在望远镜下方放置了 5,000 根机器人控制的光缆。与任何致密物质一样，声波也存在——纵横宇宙的压力波。它们停留在周围，数十亿年来，这些贝壳上积累的物质比周围区域多。
-
-
-🔤 Original: DESI's Dizzying Results
-
-🔗 Read more: https://www.universetoday.com/articles/desis-dizzying-results</description>
-      <guid isPermaLink="true">https://www.universetoday.com/articles/desis-dizzying-results</guid>
-      <pubDate>Mon, 17 Nov 2025 17:39:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45955904</comments>
+      <title>显示 HN：Kalendis – 调度 API（保留您的 UI，我们处理时区/DST）</title>
+      <link>https://kalendis.dev</link>
+      <guid isPermaLink="true">https://kalendis.dev</guid>
+      <pubDate>Mon, 17 Nov 2025 18:05:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45956154</comments>
     </item>
   </channel>
 </rss>
