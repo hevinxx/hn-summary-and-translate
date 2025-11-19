@@ -6,55 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Nov 2025 09:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 12:42:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>퀀트 트레이더로서 대규모 언어 모델의 한계 탐구</title>
-      <link>https://nof1.ai/blog/TechPost1</link>
-      <guid isPermaLink="true">https://nof1.ai/blog/TechPost1</guid>
-      <pubDate>Wed, 19 Nov 2025 07:36:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976832</comments>
-    </item>
-    <item>
-      <title>니코틴이 뇌에 미치는 영향</title>
-      <link>https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</link>
-      <guid isPermaLink="true">https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</guid>
-      <pubDate>Wed, 19 Nov 2025 07:20:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976734</comments>
-    </item>
-    <item>
-      <title>다운 디텍터용 다운 디텍터를 만들었습니다.</title>
-      <link>https://downdetectorsdowndetector.com</link>
-      <guid isPermaLink="true">https://downdetectorsdowndetector.com</guid>
-      <pubDate>Wed, 19 Nov 2025 00:05:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45974012</comments>
-    </item>
-    <item>
-      <title>Strace-macOS: macOS용 strace 명령의 복제본</title>
-      <link>https://github.com/Mic92/strace-macos</link>
-      <description>📝 txt /usr/local/bin/git status # JSON 출력 strace --json /usr/local/bin/git status &gt; 추적. jsonl # 이름으로 시스템 호출 필터링 strace -e Trace=open,close /usr/local/bin/git status # 범주별로 필터링* strace -e Trace=file /usr/local/bin/git status # 모든 파일 작업 strace -e Trace=network /usr/local/bin/curl https://example. com # 네트워크 syscall만 strace -e Trace=process /usr/local/bin/git status # 프로세스 수명주기 syscalls * 지원되는 모든 범주에 대해서는 Syscall 필터링을 참조하세요.
+      <title>사고 인식 편집 및 생성을 위한 다중 모드 확산 언어 모델</title>
+      <link>https://github.com/tyfeld/MMaDA-Parallel</link>
+      <description>📝 환경 설정 먼저, 토치 2가 있는 토치 환경부터 시작합니다. MMaDA-Parallel-A는 토크나이저 Amused-VQ로 훈련되고, MMaDA-Parallel-M은 토크나이저 Magvitv2로 훈련됩니다. MMaDA-Parallel-M cd MMaDA-Parallel-M Python 추론을 사용한 병렬 생성.
 
 
-🔤 Original: Strace-macOS: A clone of the strace command for macOS
+🔤 Original: Multimodal Diffusion Language Models for Thinking-Aware Editing and Generation
 
-🔗 Read more: https://github.com/Mic92/strace-macos</description>
-      <guid isPermaLink="true">https://github.com/Mic92/strace-macos</guid>
-      <pubDate>Wed, 19 Nov 2025 01:18:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45974681</comments>
-    </item>
-    <item>
-      <title>다운 감지기의 다운 감지기에 대한 다운 감지기</title>
-      <link>https://downdetectorsdowndetectorsdowndetector.com/</link>
-      <description>📝 다운디텍터의 다운디텍터의 다운디텍터 다운디텍터의 다운디텍터의 다운디텍터 작은 독립 상태 검사기입니다. 모든 시스템 운영 다운디텍터의 다운디텍터는 모든 지역에서 정상적으로 응답하고 있습니다. 지역별 확인 지역 상태 HTTP 지연 시간 런던, GB ● 최대 200,304ms 시드니, AU ● 최대 200,542ms, 미국 뉴저지 ● 최대 200,178ms 마지막 확인: 2분 전 - 3개 지역.
-
-
-🔤 Original: A down detector for down detector's down detector
-
-🔗 Read more: https://downdetectorsdowndetectorsdowndetector.com/</description>
-      <guid isPermaLink="true">https://downdetectorsdowndetectorsdowndetector.com/</guid>
-      <pubDate>Wed, 19 Nov 2025 07:09:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976670</comments>
+🔗 Read more: https://github.com/tyfeld/MMaDA-Parallel</description>
+      <guid isPermaLink="true">https://github.com/tyfeld/MMaDA-Parallel</guid>
+      <pubDate>Wed, 19 Nov 2025 09:27:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45977542</comments>
     </item>
   </channel>
 </rss>

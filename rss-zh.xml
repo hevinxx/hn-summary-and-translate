@@ -6,55 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 19 Nov 2025 09:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 12:42:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>作为量化交易者探索大型语言模型的局限性</title>
-      <link>https://nof1.ai/blog/TechPost1</link>
-      <guid isPermaLink="true">https://nof1.ai/blog/TechPost1</guid>
-      <pubDate>Wed, 19 Nov 2025 07:36:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976832</comments>
-    </item>
-    <item>
-      <title>尼古丁对你的大脑有什么作用</title>
-      <link>https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</link>
-      <guid isPermaLink="true">https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</guid>
-      <pubDate>Wed, 19 Nov 2025 07:20:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976734</comments>
-    </item>
-    <item>
-      <title>我为下降探测器做了一个下降探测器</title>
-      <link>https://downdetectorsdowndetector.com</link>
-      <guid isPermaLink="true">https://downdetectorsdowndetector.com</guid>
-      <pubDate>Wed, 19 Nov 2025 00:05:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45974012</comments>
-    </item>
-    <item>
-      <title>Strace-macOS：macOS 的 strace 命令的克隆</title>
-      <link>https://github.com/Mic92/strace-macos</link>
-      <description>📝 txt /usr/local/bin/git status # JSON 输出 strace --json /usr/local/bin/git status &gt; trace. jsonl # 按名称过滤系统调用 strace -e trace=open,close /usr/local/bin/git status # 按类别过滤* strace -e trace=file /usr/local/bin/git status # 所有文件操作 strace -e trace=network /usr/local/bin/curl https://example. com # 仅网络系统调用 strace -e trace=process /usr/local/bin/git status # 进程生命周期系统调用 * 请参阅系统调用过滤以了解所有支持的类别。
+      <title>用于思维感知编辑和生成的多模态扩散语言模型</title>
+      <link>https://github.com/tyfeld/MMaDA-Parallel</link>
+      <description>📝 环境设置 首先，从带有 torch 2 的 torch 环境开始。MMaDA-Parallel-A 使用分词器 Amused-VQ 进行训练，MMaDA-Parallel-M 使用分词器 Magvitv2 进行训练。带有 MMaDA-Parallel-M 的并行生成 cd MMaDA-Parallel-M python 推理。
 
 
-🔤 Original: Strace-macOS: A clone of the strace command for macOS
+🔤 Original: Multimodal Diffusion Language Models for Thinking-Aware Editing and Generation
 
-🔗 Read more: https://github.com/Mic92/strace-macos</description>
-      <guid isPermaLink="true">https://github.com/Mic92/strace-macos</guid>
-      <pubDate>Wed, 19 Nov 2025 01:18:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45974681</comments>
-    </item>
-    <item>
-      <title>下降检测器 下降检测器 下降检测器</title>
-      <link>https://downdetectorsdowndetectorsdowndetector.com/</link>
-      <description>📝 DownDetector's DownDetector's Down detector DownDetector's DownDetector's DownDetector 一个小型独立状态检查器。所有系统运行 Down detector 的 Down detector 从所有区域都正常响应。按区域检查 区域状态 HTTP 延迟 英国伦敦 ● 增加 200 304 毫秒 澳大利亚悉尼 ● 增加 200 542 毫秒 美国新泽西州 ● 增加 200 178 毫秒 最后检查：2 分钟前 - 3 个区域。
-
-
-🔤 Original: A down detector for down detector's down detector
-
-🔗 Read more: https://downdetectorsdowndetectorsdowndetector.com/</description>
-      <guid isPermaLink="true">https://downdetectorsdowndetectorsdowndetector.com/</guid>
-      <pubDate>Wed, 19 Nov 2025 07:09:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976670</comments>
+🔗 Read more: https://github.com/tyfeld/MMaDA-Parallel</description>
+      <guid isPermaLink="true">https://github.com/tyfeld/MMaDA-Parallel</guid>
+      <pubDate>Wed, 19 Nov 2025 09:27:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45977542</comments>
     </item>
   </channel>
 </rss>

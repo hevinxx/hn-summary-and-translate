@@ -6,55 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Nov 2025 09:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 12:42:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>クオンツトレーダーとして大規模言語モデルの限界を探る</title>
-      <link>https://nof1.ai/blog/TechPost1</link>
-      <guid isPermaLink="true">https://nof1.ai/blog/TechPost1</guid>
-      <pubDate>Wed, 19 Nov 2025 07:36:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976832</comments>
-    </item>
-    <item>
-      <title>ニコチンが脳に与える影響</title>
-      <link>https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</link>
-      <guid isPermaLink="true">https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</guid>
-      <pubDate>Wed, 19 Nov 2025 07:20:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976734</comments>
-    </item>
-    <item>
-      <title>ダウンディテクタ用のダウンディテクタを作りました</title>
-      <link>https://downdetectorsdowndetector.com</link>
-      <guid isPermaLink="true">https://downdetectorsdowndetector.com</guid>
-      <pubDate>Wed, 19 Nov 2025 00:05:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45974012</comments>
-    </item>
-    <item>
-      <title>Strace-macOS: macOS 用の strace コマンドのクローン</title>
-      <link>https://github.com/Mic92/strace-macos</link>
-      <description>📝 txt /usr/local/bin/git status # JSON 出力 strace --json /usr/local/bin/git status &gt; トレース。 jsonl # syscall を名前でフィルターします strace -e trace=open,close /usr/local/bin/git status # カテゴリでフィルターします* strace -e trace=file /usr/local/bin/git status # すべてのファイル操作 strace -e trace=network /usr/local/bin/curl https://example. com # ネットワーク syscall のみ strace -e track=process /usr/local/bin/git status # プロセス ライフサイクル syscall * サポートされているすべてのカテゴリについては、「Syscall フィルタリング」を参照してください。
+      <title>思考を意識した編集と生成のためのマルチモーダル拡散言語モデル</title>
+      <link>https://github.com/tyfeld/MMaDA-Parallel</link>
+      <description>📝 環境セットアップ まず、トーチ 2 を使用してトーチ環境から始めます。MMaDA-Parallel-A はトークナイザー Amused-VQ でトレーニングされ、MMaDA-Parallel-M はトークナイザー Magvitv2 でトレーニングされます。 MMaDA-Parallel-M cd MMaDA-Parallel-M Python 推論による Parallel Gen。
 
 
-🔤 Original: Strace-macOS: A clone of the strace command for macOS
+🔤 Original: Multimodal Diffusion Language Models for Thinking-Aware Editing and Generation
 
-🔗 Read more: https://github.com/Mic92/strace-macos</description>
-      <guid isPermaLink="true">https://github.com/Mic92/strace-macos</guid>
-      <pubDate>Wed, 19 Nov 2025 01:18:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45974681</comments>
-    </item>
-    <item>
-      <title>ダウンディテクタのダウンディテクタのためのダウンディテクタ</title>
-      <link>https://downdetectorsdowndetectorsdowndetector.com/</link>
-      <description>📝 Downdetector の Downdetector の Downdetector Downdetector の Downdetector の Downdetector 小さな独立したステータス チェッカー。すべてのシステムが動作中 Downdetector の Downdetector はすべてのリージョンから正常に応答しています。地域別のチェック 地域ステータス HTTP 遅延 イギリス、ロンドン ● 増加 200 304 ミリ秒 オーストラリア、シドニー ● 増加 200 542 ミリ秒 米国、ニュージャージー ● 増加 200 178 ミリ秒 最終チェック日: 2 分前 - 3 地域。
-
-
-🔤 Original: A down detector for down detector's down detector
-
-🔗 Read more: https://downdetectorsdowndetectorsdowndetector.com/</description>
-      <guid isPermaLink="true">https://downdetectorsdowndetectorsdowndetector.com/</guid>
-      <pubDate>Wed, 19 Nov 2025 07:09:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45976670</comments>
+🔗 Read more: https://github.com/tyfeld/MMaDA-Parallel</description>
+      <guid isPermaLink="true">https://github.com/tyfeld/MMaDA-Parallel</guid>
+      <pubDate>Wed, 19 Nov 2025 09:27:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45977542</comments>
     </item>
   </channel>
 </rss>
