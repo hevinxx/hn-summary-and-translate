@@ -6,21 +6,55 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Nov 2025 06:30:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 09:23:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>난 그냥 RCS 메시지를 제대로 보내고 싶을 뿐이야</title>
-      <link>https://wt.gd/i-just-want-my-rcs-messaging-to-work</link>
-      <description>📝 간단히 말해서 Apple이나 Google일 가능성이 높으며 Apple의 책임은 전혀 없습니다. 이동통신사는 이러한 종류의 상호 운용성에 무능하며 자체 RCS 서버 실행을 포기하여 Google이 Google Jibe라는 서비스를 통해 이를 수행하도록 했습니다. 이에 대해서는 곧 이야기하겠습니다. 이는 단지 자신의 장치를 어느 정도 제어하려는 사용자에게 피해를 주는 것을 목표로 합니다.
+      <title>퀀트 트레이더로서 대규모 언어 모델의 한계 탐구</title>
+      <link>https://nof1.ai/blog/TechPost1</link>
+      <guid isPermaLink="true">https://nof1.ai/blog/TechPost1</guid>
+      <pubDate>Wed, 19 Nov 2025 07:36:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45976832</comments>
+    </item>
+    <item>
+      <title>니코틴이 뇌에 미치는 영향</title>
+      <link>https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</link>
+      <guid isPermaLink="true">https://economist.com/science-and-technology/2025/09/12/what-nicotine-does-to-your-brain</guid>
+      <pubDate>Wed, 19 Nov 2025 07:20:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45976734</comments>
+    </item>
+    <item>
+      <title>다운 디텍터용 다운 디텍터를 만들었습니다.</title>
+      <link>https://downdetectorsdowndetector.com</link>
+      <guid isPermaLink="true">https://downdetectorsdowndetector.com</guid>
+      <pubDate>Wed, 19 Nov 2025 00:05:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45974012</comments>
+    </item>
+    <item>
+      <title>Strace-macOS: macOS용 strace 명령의 복제본</title>
+      <link>https://github.com/Mic92/strace-macos</link>
+      <description>📝 txt /usr/local/bin/git status # JSON 출력 strace --json /usr/local/bin/git status &gt; 추적. jsonl # 이름으로 시스템 호출 필터링 strace -e Trace=open,close /usr/local/bin/git status # 범주별로 필터링* strace -e Trace=file /usr/local/bin/git status # 모든 파일 작업 strace -e Trace=network /usr/local/bin/curl https://example. com # 네트워크 syscall만 strace -e Trace=process /usr/local/bin/git status # 프로세스 수명주기 syscalls * 지원되는 모든 범주에 대해서는 Syscall 필터링을 참조하세요.
 
 
-🔤 Original: I just want working RCS messaging
+🔤 Original: Strace-macOS: A clone of the strace command for macOS
 
-🔗 Read more: https://wt.gd/i-just-want-my-rcs-messaging-to-work</description>
-      <guid isPermaLink="true">https://wt.gd/i-just-want-my-rcs-messaging-to-work</guid>
-      <pubDate>Wed, 19 Nov 2025 01:41:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=45974869</comments>
+🔗 Read more: https://github.com/Mic92/strace-macos</description>
+      <guid isPermaLink="true">https://github.com/Mic92/strace-macos</guid>
+      <pubDate>Wed, 19 Nov 2025 01:18:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45974681</comments>
+    </item>
+    <item>
+      <title>다운 감지기의 다운 감지기에 대한 다운 감지기</title>
+      <link>https://downdetectorsdowndetectorsdowndetector.com/</link>
+      <description>📝 다운디텍터의 다운디텍터의 다운디텍터 다운디텍터의 다운디텍터의 다운디텍터 작은 독립 상태 검사기입니다. 모든 시스템 운영 다운디텍터의 다운디텍터는 모든 지역에서 정상적으로 응답하고 있습니다. 지역별 확인 지역 상태 HTTP 지연 시간 런던, GB ● 최대 200,304ms 시드니, AU ● 최대 200,542ms, 미국 뉴저지 ● 최대 200,178ms 마지막 확인: 2분 전 - 3개 지역.
+
+
+🔤 Original: A down detector for down detector's down detector
+
+🔗 Read more: https://downdetectorsdowndetectorsdowndetector.com/</description>
+      <guid isPermaLink="true">https://downdetectorsdowndetectorsdowndetector.com/</guid>
+      <pubDate>Wed, 19 Nov 2025 07:09:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=45976670</comments>
     </item>
   </channel>
 </rss>
