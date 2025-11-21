@@ -6,28 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 21 Nov 2025 09:22:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 12:40:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Olmo 3：通过模型流程绘制一条路径来引领开源人工智能</title>
-      <link>https://allenai.org/blog/olmo3</link>
-      <description>📝 Olmo 3-Base（7B、32B）是我们迄今为止最强大的基础型号。 Olmo 3-Think（7B、32B）是我们基于 Olmo 3-Base 构建的旗舰训练后推理集。 Olmo 3-Instruct (7B) 是 Olmo 3-Base 的一个专注于聊天和快速响应的后期培训，可处理多回合、指令遵循、工具使用等。
+      <title>FAWK：法学硕士可以编写语言解释器</title>
+      <link>https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</link>
+      <description>📝 如果 AWK 有一流的数组会怎样？ } function parse(arr) { arr[0] = 100 print arr[0] # --&gt; 100, only inside this function } 如果 AWK 有一流的函数和 lambda 会怎样？我愿意支付这个费用。
 
 
-🔤 Original: Olmo 3: Charting a path through the model flow to lead open-source AI
+🔤 Original: FAWK: LLMs can write a language interpreter
 
-🔗 Read more: https://allenai.org/blog/olmo3</description>
-      <guid isPermaLink="true">https://allenai.org/blog/olmo3</guid>
-      <pubDate>Fri, 21 Nov 2025 06:50:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46001889</comments>
+🔗 Read more: https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</description>
+      <guid isPermaLink="true">https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</guid>
+      <pubDate>Fri, 21 Nov 2025 10:28:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46003144</comments>
     </item>
     <item>
-      <title>构建振荡器很困难</title>
-      <link>https://lcamtuf.substack.com/p/its-hard-to-build-an-oscillator</link>
-      <guid isPermaLink="true">https://lcamtuf.substack.com/p/its-hard-to-build-an-oscillator</guid>
-      <pubDate>Fri, 21 Nov 2025 07:45:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46002161</comments>
+      <title>圆桌会议 (YC S23) 正在招聘两名销售开发代表 (SDR)</title>
+      <link>https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</link>
+      <description>📝 D’s，圆桌会议为我们客户的平台提供无摩擦、持续的验证。 Roundtable 是一家研究和部署公司，致力于构建数字身份的人类证明层。圆桌会议致力于开展高影响力的研究，并将这些研究成果转化为机器人检测、欺诈预防和持续身份验证方面的研究成果。
+
+
+🔤 Original: Roundtable (YC S23) Is Hiring Two Sales Development Representatives (SDRs)
+
+🔗 Read more: https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</guid>
+      <pubDate>Fri, 21 Nov 2025 12:00:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46003686</comments>
+    </item>
+    <item>
+      <title>惠普和戴尔禁用笔记本电脑 CPU 内置的 HEVC 支持</title>
+      <link>https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</link>
+      <description>📝 配备第六代 Intel Core 及更高版本处理器的笔记本电脑具有对 HEVC 解码和编码的内置硬件支持。例如，戴尔 16 Plus 二合一的产品页面禁用了 HEVC 硬件解码，但没有提及 HEVC。检查您首选的视频播放器是否支持 HEVC 软件。
+
+
+🔤 Original: HP and Dell disable HEVC support built into their laptops' CPUs
+
+🔗 Read more: https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</description>
+      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</guid>
+      <pubDate>Fri, 21 Nov 2025 10:01:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46002989</comments>
+    </item>
+    <item>
+      <title>Qtile 窗口管理器：Python 驱动的平铺体验</title>
+      <link>https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</link>
+      <description>📝 我想从那时起我就成长了。此外，我不同意安装 Qtile 的默认方式。然后，是时候安装 qtile 了。
+
+
+🔤 Original: The Qtile Window Manager: A Python-Powered Tiling Experience
+
+🔗 Read more: https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</description>
+      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</guid>
+      <pubDate>Fri, 21 Nov 2025 07:41:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46002138</comments>
     </item>
   </channel>
 </rss>
