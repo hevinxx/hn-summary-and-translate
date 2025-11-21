@@ -6,60 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 21 Nov 2025 12:40:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 15:19:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>FAWK：法学硕士可以编写语言解释器</title>
-      <link>https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</link>
-      <description>📝 如果 AWK 有一流的数组会怎样？ } function parse(arr) { arr[0] = 100 print arr[0] # --&gt; 100, only inside this function } 如果 AWK 有一流的函数和 lambda 会怎样？我愿意支付这个费用。
+      <title>PNG 中的 EXIF 方向信息不用于图像方向</title>
+      <link>https://bugzilla.mozilla.org/show_bug.cgi?id=1627423</link>
+      <description>📝 Safari 确实尊重图像数据之前出现的 EXIF 方向信息，但 Firefox 和 Chrome 则不然。 eXIf 定义了 eXif 表。 ) 严重性：正常 → S3 Timothy Nikkel (:tnikkel) 更新 • 2 年前 区块：1821750 Timothy Nikkel (:tnikkel) 更新 • 1 年前 区块：1682759 Timothy Nikkel (:tnikkel) 更新 • 1 年前 区块：1904236 Ksenia Berezina [:ksenia] 更新 • 1 年前 区块： 1917547 Ksenia Berezina [:ksenia] 更新 • 1 年前 关键字：webcompat:platform-bug Jeff Muizelaar [:jrmuizel] 评论 5 • 1 年前 这是 PNG-3 https://www. 中指定的。
 
 
-🔤 Original: FAWK: LLMs can write a language interpreter
+🔤 Original: EXIF orientation info in PNGs isn't used for image-orientation
 
-🔗 Read more: https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</description>
-      <guid isPermaLink="true">https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</guid>
-      <pubDate>Fri, 21 Nov 2025 10:28:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46003144</comments>
+🔗 Read more: https://bugzilla.mozilla.org/show_bug.cgi?id=1627423</description>
+      <guid isPermaLink="true">https://bugzilla.mozilla.org/show_bug.cgi?id=1627423</guid>
+      <pubDate>Fri, 21 Nov 2025 13:29:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46004364</comments>
     </item>
     <item>
-      <title>圆桌会议 (YC S23) 正在招聘两名销售开发代表 (SDR)</title>
-      <link>https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</link>
-      <description>📝 D’s，圆桌会议为我们客户的平台提供无摩擦、持续的验证。 Roundtable 是一家研究和部署公司，致力于构建数字身份的人类证明层。圆桌会议致力于开展高影响力的研究，并将这些研究成果转化为机器人检测、欺诈预防和持续身份验证方面的研究成果。
+      <title>从头开始构建最小可行的 Armv7 模拟器</title>
+      <link>https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/</link>
+      <description>📝 从头开始构建一个最小可行的 Armv7 模拟器 20258336 年 11 月 19 日 Words40 分钟阅读目录标签：ArmRustTip 或 TLDR - 我在 Rust 中构建了一个微型、零依赖的 armv7 用户空间模拟器 我在 1. 3ms 内编写了一个最小可行的 Armv7 模拟器（因此，stinkarm 比本机 armv7 执行速度慢约 100-1000 倍）。 （“{} 的汇编程序失败”，输入。
 
 
-🔤 Original: Roundtable (YC S23) Is Hiring Two Sales Development Representatives (SDRs)
+🔤 Original: Building a Minimal Viable Armv7 Emulator from Scratch
 
-🔗 Read more: https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</guid>
-      <pubDate>Fri, 21 Nov 2025 12:00:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46003686</comments>
+🔗 Read more: https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/</description>
+      <guid isPermaLink="true">https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/</guid>
+      <pubDate>Fri, 21 Nov 2025 13:30:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46004386</comments>
     </item>
     <item>
-      <title>惠普和戴尔禁用笔记本电脑 CPU 内置的 HEVC 支持</title>
-      <link>https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</link>
-      <description>📝 配备第六代 Intel Core 及更高版本处理器的笔记本电脑具有对 HEVC 解码和编码的内置硬件支持。例如，戴尔 16 Plus 二合一的产品页面禁用了 HEVC 硬件解码，但没有提及 HEVC。检查您首选的视频播放器是否支持 HEVC 软件。
-
-
-🔤 Original: HP and Dell disable HEVC support built into their laptops' CPUs
-
-🔗 Read more: https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</guid>
-      <pubDate>Fri, 21 Nov 2025 10:01:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46002989</comments>
-    </item>
-    <item>
-      <title>Qtile 窗口管理器：Python 驱动的平铺体验</title>
-      <link>https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</link>
-      <description>📝 我想从那时起我就成长了。此外，我不同意安装 Qtile 的默认方式。然后，是时候安装 qtile 了。
-
-
-🔤 Original: The Qtile Window Manager: A Python-Powered Tiling Experience
-
-🔗 Read more: https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</description>
-      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</guid>
-      <pubDate>Fri, 21 Nov 2025 07:41:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46002138</comments>
+      <title>制作一个小型角色扮演游戏</title>
+      <link>https://jslegenddev.substack.com/p/making-a-small-rpg</link>
+      <guid isPermaLink="true">https://jslegenddev.substack.com/p/making-a-small-rpg</guid>
+      <pubDate>Fri, 21 Nov 2025 13:23:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46004293</comments>
     </item>
   </channel>
 </rss>

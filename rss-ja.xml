@@ -6,60 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 21 Nov 2025 12:40:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 15:19:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>FAWK: LLM は言語インタープリタを作成できる</title>
-      <link>https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</link>
-      <description>📝 AWK にファーストクラスの配列があった場合はどうなるでしょうか。 } functionanalyze(arr) { arr[0] = 100 print arr[0] # --&gt; 100、この関数内のみ } AWK にファーストクラス関数とラムダがある場合はどうなるでしょうか。私はその費用を喜んで支払います。
+      <title>PNG 内の EXIF 方向情報は画像の方向には使用されません</title>
+      <link>https://bugzilla.mozilla.org/show_bug.cgi?id=1627423</link>
+      <description>📝 Safari は画像データの前に表示される EXIF 方向情報を尊重しますが、Firefox と Chrome は尊重しません。 eXIf: eXif テーブルを定義します。 ) 重大度: 通常 → S3 ティモシー ニッケル (:tnikkel) 更新済み • 2 年前 ブロック: 1821750 ティモシー ニッケル (:tnikkel) 更新済み • 1 年前 ブロック: 1682759 ティモシー ニッケル (:tnikkel) 更新済み • 1 年前 ブロック: 1904236 クセニア ベレジナ [:ksenia] 更新済み • 1 年前 ブロック: 1917547 Ksenia Berezina [:ksenia] 更新済み • 1 年前 キーワード: webcompat:platform-bug Jeff Muizelaar [:jrmuizel] コメント 5 • 1 年前 これは PNG-3 https://www で仕様化されています。
 
 
-🔤 Original: FAWK: LLMs can write a language interpreter
+🔤 Original: EXIF orientation info in PNGs isn't used for image-orientation
 
-🔗 Read more: https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</description>
-      <guid isPermaLink="true">https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</guid>
-      <pubDate>Fri, 21 Nov 2025 10:28:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46003144</comments>
+🔗 Read more: https://bugzilla.mozilla.org/show_bug.cgi?id=1627423</description>
+      <guid isPermaLink="true">https://bugzilla.mozilla.org/show_bug.cgi?id=1627423</guid>
+      <pubDate>Fri, 21 Nov 2025 13:29:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46004364</comments>
     </item>
     <item>
-      <title>Roundtable (YC S23) は 2 人の営業開発担当者 (SDR) を雇用しています</title>
-      <link>https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</link>
-      <description>📝 D's、Roundtable は、クライアントのプラットフォームにスムーズな継続的な検証を提供します。 Roundtable は、デジタル アイデンティティにおける人間の証明レイヤーを構築する研究開発会社です。 Roundtable は、影響力の高い研究を生み出し、ボット検出、詐欺防止、継続的認証においてこの研究を製品化することを目指しています。
+      <title>最小限の実行可能な Armv7 エミュレータを最初から構築する</title>
+      <link>https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/</link>
+      <description>📝 スクラッチから実行可能な最小限の Armv7 エミュレータを構築する11 月 19 日、20258336 文字40 分で読めます目次タグ:ArmRustTip または TLDR - Rust で依存関係のない小さな armv7 ユーザー空間エミュレータを構築しました私は実行可能な最小限の armv7 エミュレータを 1. 3 ミリ秒で書きました (したがって、stinkarm はネイティブの armv7 実行より ~100 ～ 1000 倍遅いです)。 (「アセンブラーは {} で失敗しました」、入力。
 
 
-🔤 Original: Roundtable (YC S23) Is Hiring Two Sales Development Representatives (SDRs)
+🔤 Original: Building a Minimal Viable Armv7 Emulator from Scratch
 
-🔗 Read more: https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</guid>
-      <pubDate>Fri, 21 Nov 2025 12:00:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46003686</comments>
+🔗 Read more: https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/</description>
+      <guid isPermaLink="true">https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/</guid>
+      <pubDate>Fri, 21 Nov 2025 13:30:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46004386</comments>
     </item>
     <item>
-      <title>HP と Dell はラップトップの CPU に組み込まれている HEVC サポートを無効にします</title>
-      <link>https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</link>
-      <description>📝 第 6 世代 Intel Core 以降のプロセッサーを搭載したラップトップには、HEVC デコーディングおよびエンコーディングのハードウェア サポートが組み込まれています。たとえば、Dell 16 Plus 2-in-1 の製品ページでは、HEVC ハードウェア デコードが無効になっていますが、HEVC については言及されていません。 HEVC ソフトウェアのサポートについては、お好みのビデオ プレーヤーを確認してください。
-
-
-🔤 Original: HP and Dell disable HEVC support built into their laptops' CPUs
-
-🔗 Read more: https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</guid>
-      <pubDate>Fri, 21 Nov 2025 10:01:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46002989</comments>
-    </item>
-    <item>
-      <title>Qtile ウィンドウ マネージャー: Python を利用したタイル エクスペリエンス</title>
-      <link>https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</link>
-      <description>📝 あの時より成長できたと思います。さらに、私は Qtile をインストールするデフォルトの方法にも同意しませんでした。次に、qtile をインストールします。
-
-
-🔤 Original: The Qtile Window Manager: A Python-Powered Tiling Experience
-
-🔗 Read more: https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</description>
-      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/</guid>
-      <pubDate>Fri, 21 Nov 2025 07:41:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46002138</comments>
+      <title>小さなRPGを作る</title>
+      <link>https://jslegenddev.substack.com/p/making-a-small-rpg</link>
+      <guid isPermaLink="true">https://jslegenddev.substack.com/p/making-a-small-rpg</guid>
+      <pubDate>Fri, 21 Nov 2025 13:23:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46004293</comments>
     </item>
   </channel>
 </rss>
