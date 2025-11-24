@@ -6,67 +6,178 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 23 Nov 2025 21:19:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 01:43:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Fran Sans – 샌프란시스코 경전철 디스플레이에서 영감을 받은 글꼴</title>
-      <link>https://emilysneddon.com/fran-sans-essay</link>
-      <description>📝 이는 샌프란시스코 시내를 운행하는 일부 경전철 차량에 표시되는 목적지 표시를 해석한 것입니다. Armando는 표지판이 어떻게 작동하는지 보여주었습니다. 이 표지판은 Trans-Lite, Inc.에서 디자인하고 제조했습니다.
+      <title>HN 표시: C로 최소 메모리 할당자를 작성했습니다.</title>
+      <link>https://github.com/t9nzin/memory</link>
+      <description>📝 개요 이 프로젝트는 작은 할당에는 sbrk를 사용하고 큰 할당에는 mmap을 사용하여 처음부터 메모리 할당자를 구현합니다. 이 할당자는 스레드로부터 안전하지 않습니다. c # 할당자 └── 테스트 ├── 벤치마크.
 
 
-🔤 Original: Fran Sans – font inspired by San Francisco light rail displays
+🔤 Original: Show HN: I wrote a minimal memory allocator in C
 
-🔗 Read more: https://emilysneddon.com/fran-sans-essay</description>
-      <guid isPermaLink="true">https://emilysneddon.com/fran-sans-essay</guid>
-      <pubDate>Sun, 23 Nov 2025 18:20:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46025942</comments>
+🔗 Read more: https://github.com/t9nzin/memory</description>
+      <guid isPermaLink="true">https://github.com/t9nzin/memory</guid>
+      <pubDate>Sun, 23 Nov 2025 22:25:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46027962</comments>
     </item>
     <item>
-      <title>지난 5주 동안 78만 명의 Windows 사용자가 Linux Distro Zorin OS를 다운로드했습니다.</title>
-      <link>https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/loaded-this-linux-distro-in-a-month/</link>
-      <guid isPermaLink="true">https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/loaded-this-linux-distro-in-a-month/</guid>
+      <title>µcad: 2D 스케치와 3D를 생성할 수 있는 새로운 오픈 소스 프로그래밍 언어</title>
+      <link>https://microcad.xyz/</link>
+      <description>📝 µcad 프로그래밍 언어 µcad 웹사이트에 오신 것을 환영합니다. BookCodePrintReleaseUpdatesVideoAlpha 릴리스 0. 오늘 아침에 우리는 릴리스를 추진하고 싶었지만 문제 #289로 어려움을 겪게 되었습니다... 릴리스, 업데이트Spirograph처음에는 미니멀리스트 크리스마스 장식처럼 보일 수 있지만 성공적으로 수행한 5개 부분으로 구성된 Spirograph입니다...코드, 인쇄, 업데이트Lego BricksLive Coding Video of Lego BricksCode, VideoGearsLive Coding Video of GearsCode, Video.
+
+
+🔤 Original: µcad: New open source programming language that can generate 2D sketches and 3D
+
+🔗 Read more: https://microcad.xyz/</description>
+      <guid isPermaLink="true">https://microcad.xyz/</guid>
+      <pubDate>Sun, 23 Nov 2025 20:51:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46027216</comments>
+    </item>
+    <item>
+      <title>격리된 병렬 에이전트 개발을 위한 데스크톱 앱</title>
+      <link>https://github.com/coder/mux</link>
+      <description>📝 탄젠트 탐색: 주요 작업에서 떨어진 mux에서 탄젠트 실행 기능 git 분기에 대한 중앙 보기가 있는 격리된 작업 공간 로컬: 로컬 시스템의 git 작업 트리(docs) SSH: 원격 서버의 일반 git 복제(docs) 다중 모델(sonnet-4-*, grok-*, gpt-5-*, opus-4-*) 로컬 LLM에 대해 Ollama 지원(docs) LLM의 롱테일에 대해 OpenRouter 지원 (문서) VS Code 확장: VS Code에서 직접 mux 작업 공간으로 이동합니다. (문서) 에이전트 제품군을 효율적으로 관리하기 위한 UI 및 키 바인드 지원 풍부한 마크다운 출력(인어 다이어그램, LaTeX 등) 개발 에이전트를 참조하세요. 자세한 내용은 라이센스를 참조하세요.
+
+
+🔤 Original: A desktop app for isolated, parallel agentic development
+
+🔗 Read more: https://github.com/coder/mux</description>
+      <guid isPermaLink="true">https://github.com/coder/mux</guid>
+      <pubDate>Sun, 23 Nov 2025 22:24:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46027947</comments>
+    </item>
+    <item>
+      <title>입자 생명 – 샌드박스 과학</title>
+      <link>https://sandbox-science.com/particle-life</link>
+      <description>📝 반경 모든 유형세계 설정 입자 번호 색상 번호 깊이 제한 벽 설정: 직사각형 원 없음 랩 화면 반발 x1. 5 x4 x5 직사각형 크기 xyPhysics 설정 반발력 힘 계수 마찰 계수 랜덤마이저 설정 Min. 반경 그래픽 설정 일반 설정 :원형 모양 입자 크기 3D 설정 :깊이 크기 깊이 불투명도 Min.
+
+
+🔤 Original: Particle Life – Sandbox Science
+
+🔗 Read more: https://sandbox-science.com/particle-life</description>
+      <guid isPermaLink="true">https://sandbox-science.com/particle-life</guid>
+      <pubDate>Sun, 23 Nov 2025 21:54:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46027722</comments>
+    </item>
+    <item>
+      <title>Liva AI (YC S25) 채용 중</title>
+      <link>https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</link>
+      <description>📝 지역사회 성장 인턴을 적극적으로 채용하고 있습니다. 대규모 온라인 커뮤니티 구축에 중점을 두고 Liva AI에서 커뮤니티를 육성하는 데 도움을 주실 것입니다. 우리는 세계에서 가장 풍부한 인간 음성 및 비디오 데이터 라이브러리를 구축하여 차세대 현실적인 AI를 촉진함으로써 이 문제를 해결하고 있습니다.
+
+
+🔤 Original: Liva AI (YC S25) Is Hiring
+
+🔗 Read more: https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</guid>
+      <pubDate>Sun, 23 Nov 2025 22:36:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46028046</comments>
+    </item>
+    <item>
+      <title>Supermaven이 일몰되는 중</title>
+      <link>https://supermaven.com/blog/sunsetting-supermaven</link>
+      <description>📝 2025년 11월 21일 Supermaven 종료 가까운 미래에 기존 고객에게 무료 자동 완성 추론을 제공할 예정입니다. 가까운 미래에 기존 고객에게 무료 자동 완성 추론을 제공할 예정입니다. 우리는 이러한 기존 고객에게 자동 완성 추론을 무료로 계속 제공할 것입니다.
+
+
+🔤 Original: Sunsetting Supermaven
+
+🔗 Read more: https://supermaven.com/blog/sunsetting-supermaven</description>
+      <guid isPermaLink="true">https://supermaven.com/blog/sunsetting-supermaven</guid>
+      <pubDate>Sun, 23 Nov 2025 22:33:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46028033</comments>
+    </item>
+    <item>
+      <title>아이오와시티는 버스를 무료로 운영했습니다. 교통도 맑아졌고 공기도 맑아졌습니다</title>
+      <link>https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html</guid>
+      <pubDate>Sun, 23 Nov 2025 22:06:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46027833</comments>
+    </item>
+    <item>
+      <title>Doge는 설립 기간이 8개월 남았으며 '존재하지 않습니다'</title>
+      <link>https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/</guid>
+      <pubDate>Mon, 24 Nov 2025 00:05:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46028721</comments>
+    </item>
+    <item>
+      <title>Zorin OS 18 다운로드 100만 회</title>
+      <link>https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/</link>
+      <description>📝 Zorin OS 17에서 18로 업그레이드 또한 오늘 Zorin OS 17에서 18로의 업그레이드를 공식적으로 출시한다는 소식을 발표하게 되어 기쁩니다. 이 업그레이드 경로는 기존 Zorin OS 17 사용자가 운영 체제를 다시 설치할 필요 없이 컴퓨터를 Zorin OS 18로 직접 업그레이드할 수 있도록 설계되었습니다. Zorin 뉴스레터를 구독하세요. Zorin 블로그 Zorin의 최신 뉴스와 업데이트를 확인하세요.
+
+
+🔤 Original: 1M Downloads of Zorin OS 18
+
+🔗 Read more: https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/</description>
+      <guid isPermaLink="true">https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/</guid>
       <pubDate>Sun, 23 Nov 2025 19:38:15 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=46026579</comments>
     </item>
     <item>
-      <title>"훌륭한 엔지니어링 관리"는 유행입니다</title>
-      <link>https://lethain.com/good-eng-mgmt-is-a-fad/</link>
-      <description>📝 이것은 또한 귀하의 회사가 성과 주기마다 귀하에 대해 묻는 질문이기도 합니다. 이 엔지니어링 관리자는 회사나 조직의 발전을 위해 효과적으로 시간을 보내고 있습니까? 그런 다음 2022년 후반에 시작된 현재 시대에 대해 생각해 보십시오. 높은 금리로 인해 ZIRP(제로 금리 정책)가 사라지고 제품화된 대규모 언어 모델이 딥 엔지니어링 조직을 죽이는 것으로 자리매김하고 있습니다. 2020년대에는 관료적인 중간 관리가 조직을 낡고 비효율적으로 만들었다는 도덕 이야기가 있습니다.
+      <title>ISP는 CG-NAT를 통해 연결하는 네티즌을 제한할 가능성이 더 높습니다: Cloudflare</title>
+      <link>https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/</link>
+      <description>📝 CGNAT IP가 아닌 IP는 CGNAT IP보다 봇일 가능성이 더 높지만 ISP는 CGNAT IP의 트래픽을 제한할 가능성이 더 높기 때문에 이러한 노력으로 편향의 지표가 발견되었습니다. “트래픽이 인간 사용자로부터 발생할 가능성이 더 높다는 것을 나타내는 봇 점수에도 불구하고 CGNAT IP는 CGNAT가 아닌 IP보다 3배 더 자주 속도 제한을 받습니다.”라고 두 사람은 썼습니다. 저자는 또한 세계가 IPv6로 전환하면 이러한 모든 문제가 사라질 것이며 그렇게 될 때까지 CGNAT가 네트워크 운영자를 압도해야 한다는 점을 인정합니다.
 
 
-🔤 Original: "Good engineering management" is a fad
+🔤 Original: ISPs more likely to throttle netizens who connect through CG-NAT: Cloudflare
 
-🔗 Read more: https://lethain.com/good-eng-mgmt-is-a-fad/</description>
-      <guid isPermaLink="true">https://lethain.com/good-eng-mgmt-is-a-fad/</guid>
-      <pubDate>Sun, 23 Nov 2025 20:16:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46026939</comments>
+🔗 Read more: https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/</description>
+      <guid isPermaLink="true">https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/</guid>
+      <pubDate>Sun, 23 Nov 2025 23:53:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46028627</comments>
     </item>
     <item>
-      <title>Claude가 홈 네트워크를 구축하도록 했습니다. ISP 두 곳을 연결하여 연간 $312 절약</title>
-      <link>https://jonathanclark.com/posts/bonded-internet-connection-ai.html</link>
-      <description>📝 결합된 인터넷 연결이란 무엇입니까? 결합된 인터넷 연결은 여러 인터넷 연결(ISP)을 단일 통합 연결로 결합합니다. 기존 다중 WAN: 서로 다른 연결은 서로 다른 ISP를 사용합니다(연결별 로드 밸런싱) 결합된 연결: 단일 연결은 여러 ISP를 동시에 사용합니다(패킷 집계별). 인터넷 연결을 결합해야 하는 이유입니다.
+      <title>X의 새로운 원산지 기능으로 인해 많은 '미국' 계정이 외국에서 운영되고 있음이 드러났습니다.</title>
+      <link>https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html</link>
+      <description>📝 해당 계정이 운영되고 있는 국가를 표시합니다. 해당 계정의 팔로어는 52,000명이 넘습니다. '트럼프에 반대하는 공화당원'은 팔로어가 978,000명이 넘습니다.
 
 
-🔤 Original: I Let Claude Build My Home Network: Two ISPs Bonded, $312/Year Saved
+🔤 Original: X's new country-of-origin feature reveals many 'US' accounts to be foreign-run
 
-🔗 Read more: https://jonathanclark.com/posts/bonded-internet-connection-ai.html</description>
-      <guid isPermaLink="true">https://jonathanclark.com/posts/bonded-internet-connection-ai.html</guid>
-      <pubDate>Sun, 23 Nov 2025 20:14:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46026919</comments>
+🔗 Read more: https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html</description>
+      <guid isPermaLink="true">https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html</guid>
+      <pubDate>Sun, 23 Nov 2025 23:25:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46028422</comments>
     </item>
     <item>
-      <title>애플, 내년 iOS 27에서 '품질과 기본 성능'에 집중</title>
-      <link>https://9to5mac.com/2025/11/23/apple-focusing-on-software-quality-improvements-ios-27-next-year-report/</link>
-      <description>📝 이러한 극적인 재설계와 지난 몇 년 동안의 수많은 기능 출시로 인해 많은 Apple 사용자가 Apple 소프트웨어의 전반적인 품질에 대해 불평하게 되었습니다. 그러나 Apple은 2009년 OS X Snow Leopard에서 주장했던 것처럼 '새로운 기능 없음'을 출시하지는 않을 것입니다. 이미 USB-C가 장착되어 있으며 지속적으로 새로운 소프트웨어 기능이 추가됩니다.
+      <title>'보이지 않는' 미세플라스틱, 지구 오염물질로 하늘에 퍼진다</title>
+      <link>https://www.asahi.com/ajw/articles/16137995</link>
+      <description>📝 일본, 지난해보다 환자 급증에 독감 경보 발령 100년 된 도쿄 서점, 희귀 발견의 벽으로 팬들 끌어모으다 키하라, 대만 발언 '호도'에 주의 촉구 개정된 지침에 따라 복지 혜택 축소 아오모리 마을, 야생곰 고기를 지역 특산품으로 홍보 도쿄는 네팔 남성 사망 39배 인상 명령 일본, 성적 동의 연령을 13세에서 16세로 높임 표면 기형 심해어 복원 선박 건조 VOX POPULI: 누구나 진정으로 이해할 수 있겠습니까? 머스크의 1조 달러 급여 패키지 규모. 다카이치 내각은 최대 규모의 코로나19 이후 경기부양 계획을 승인했습니다.
 
 
-🔤 Original: Apple to focus on 'quality and underlying performance' with iOS 27 next year
+🔤 Original: 'Invisible' microplastics spread in skies as global pollutant
 
-🔗 Read more: https://9to5mac.com/2025/11/23/apple-focusing-on-software-quality-improvements-ios-27-next-year-report/</description>
-      <guid isPermaLink="true">https://9to5mac.com/2025/11/23/apple-focusing-on-software-quality-improvements-ios-27-next-year-report/</guid>
-      <pubDate>Sun, 23 Nov 2025 18:19:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46025933</comments>
+🔗 Read more: https://www.asahi.com/ajw/articles/16137995</description>
+      <guid isPermaLink="true">https://www.asahi.com/ajw/articles/16137995</guid>
+      <pubDate>Mon, 24 Nov 2025 00:18:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46028827</comments>
+    </item>
+    <item>
+      <title>Rust의 몇 가지 핵심 문제</title>
+      <link>https://bykozy.me/blog/rust-is-a-disappointment/</link>
+      <description>📝 Rust는 stackoverflow 설문조사에서 가장 사랑받는 언어로 1위를 차지했습니다. 불행하게도 Rust를 빠르게 컴파일하는 것은 불가능합니다. 나는 Rust 디자이너라고 주장해야합니다.
+
+
+🔤 Original: Several core problems with Rust
+
+🔗 Read more: https://bykozy.me/blog/rust-is-a-disappointment/</description>
+      <guid isPermaLink="true">https://bykozy.me/blog/rust-is-a-disappointment/</guid>
+      <pubDate>Sun, 23 Nov 2025 21:52:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46027709</comments>
+    </item>
+    <item>
+      <title>Jakks Atari 패들에게 회전 주기</title>
+      <link>https://nicole.express/2025/paddle-me-atari.html</link>
+      <description>📝 아, 그리고 Atari 2600도요. 이 블로그를 염두에 두고 있었던 것 같군요. 따라서 이 제품이 원래 Atari 2600 게임을 실행하고 있지 않다는 것은 매우 분명합니다.
+
+
+🔤 Original: Giving the Jakks Atari Paddle a Spin
+
+🔗 Read more: https://nicole.express/2025/paddle-me-atari.html</description>
+      <guid isPermaLink="true">https://nicole.express/2025/paddle-me-atari.html</guid>
+      <pubDate>Sun, 23 Nov 2025 20:31:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46027065</comments>
     </item>
   </channel>
 </rss>
