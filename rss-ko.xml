@@ -6,178 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Nov 2025 01:43:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 03:58:05 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>HN 표시: C로 최소 메모리 할당자를 작성했습니다.</title>
-      <link>https://github.com/t9nzin/memory</link>
-      <description>📝 개요 이 프로젝트는 작은 할당에는 sbrk를 사용하고 큰 할당에는 mmap을 사용하여 처음부터 메모리 할당자를 구현합니다. 이 할당자는 스레드로부터 안전하지 않습니다. c # 할당자 └── 테스트 ├── 벤치마크.
+      <title>일주일 동안 로드맵 작업을 중단하고 189개의 버그를 수정했습니다.</title>
+      <link>https://lalitm.com/fixits-are-good-for-the-soul/</link>
+      <description>📝 이는 "무엇을 만들어야 하는지"와 같은 큰 질문을 하는 것을 의미합니다. Fixit은 초기 경력에 대한 느낌을 줍니다. 질문이 "우리가 무엇을 해야 하는가"가 아닌 일에 대해 깊은 만족감을 주는 것이 있습니다.
 
 
-🔤 Original: Show HN: I wrote a minimal memory allocator in C
+🔤 Original: We stopped roadmap work for a week and fixed 189 bugs
 
-🔗 Read more: https://github.com/t9nzin/memory</description>
-      <guid isPermaLink="true">https://github.com/t9nzin/memory</guid>
-      <pubDate>Sun, 23 Nov 2025 22:25:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46027962</comments>
+🔗 Read more: https://lalitm.com/fixits-are-good-for-the-soul/</description>
+      <guid isPermaLink="true">https://lalitm.com/fixits-are-good-for-the-soul/</guid>
+      <pubDate>Mon, 24 Nov 2025 02:36:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46029772</comments>
     </item>
     <item>
-      <title>µcad: 2D 스케치와 3D를 생성할 수 있는 새로운 오픈 소스 프로그래밍 언어</title>
-      <link>https://microcad.xyz/</link>
-      <description>📝 µcad 프로그래밍 언어 µcad 웹사이트에 오신 것을 환영합니다. BookCodePrintReleaseUpdatesVideoAlpha 릴리스 0. 오늘 아침에 우리는 릴리스를 추진하고 싶었지만 문제 #289로 어려움을 겪게 되었습니다... 릴리스, 업데이트Spirograph처음에는 미니멀리스트 크리스마스 장식처럼 보일 수 있지만 성공적으로 수행한 5개 부분으로 구성된 Spirograph입니다...코드, 인쇄, 업데이트Lego BricksLive Coding Video of Lego BricksCode, VideoGearsLive Coding Video of GearsCode, Video.
+      <title>루비</title>
+      <link>https://computer.rip/2025-11-22-RuBee.html</link>
+      <description>📝 RuBee는 Visible Assets Inc.의 제품입니다. 그러나 VAI는 RuBee를 설명하기 위해 가시성 네트워크라는 용어를 만들었습니다. 하지만 이것이 반드시 장점처럼 들리지는 않습니다.
 
 
-🔤 Original: µcad: New open source programming language that can generate 2D sketches and 3D
+🔤 Original: RuBee
 
-🔗 Read more: https://microcad.xyz/</description>
-      <guid isPermaLink="true">https://microcad.xyz/</guid>
-      <pubDate>Sun, 23 Nov 2025 20:51:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46027216</comments>
+🔗 Read more: https://computer.rip/2025-11-22-RuBee.html</description>
+      <guid isPermaLink="true">https://computer.rip/2025-11-22-RuBee.html</guid>
+      <pubDate>Mon, 24 Nov 2025 03:08:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46029932</comments>
     </item>
     <item>
-      <title>격리된 병렬 에이전트 개발을 위한 데스크톱 앱</title>
-      <link>https://github.com/coder/mux</link>
-      <description>📝 탄젠트 탐색: 주요 작업에서 떨어진 mux에서 탄젠트 실행 기능 git 분기에 대한 중앙 보기가 있는 격리된 작업 공간 로컬: 로컬 시스템의 git 작업 트리(docs) SSH: 원격 서버의 일반 git 복제(docs) 다중 모델(sonnet-4-*, grok-*, gpt-5-*, opus-4-*) 로컬 LLM에 대해 Ollama 지원(docs) LLM의 롱테일에 대해 OpenRouter 지원 (문서) VS Code 확장: VS Code에서 직접 mux 작업 공간으로 이동합니다. (문서) 에이전트 제품군을 효율적으로 관리하기 위한 UI 및 키 바인드 지원 풍부한 마크다운 출력(인어 다이어그램, LaTeX 등) 개발 에이전트를 참조하세요. 자세한 내용은 라이센스를 참조하세요.
-
-
-🔤 Original: A desktop app for isolated, parallel agentic development
-
-🔗 Read more: https://github.com/coder/mux</description>
-      <guid isPermaLink="true">https://github.com/coder/mux</guid>
-      <pubDate>Sun, 23 Nov 2025 22:24:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46027947</comments>
+      <title>B-트리: 모든 데이터베이스가 B-트리를 사용하는 이유</title>
+      <link>https://mehmetgoekce.substack.com/p/b-trees-why-every-database-uses-them</link>
+      <guid isPermaLink="true">https://mehmetgoekce.substack.com/p/b-trees-why-every-database-uses-them</guid>
+      <pubDate>Mon, 24 Nov 2025 02:35:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46029765</comments>
     </item>
     <item>
-      <title>입자 생명 – 샌드박스 과학</title>
-      <link>https://sandbox-science.com/particle-life</link>
-      <description>📝 반경 모든 유형세계 설정 입자 번호 색상 번호 깊이 제한 벽 설정: 직사각형 원 없음 랩 화면 반발 x1. 5 x4 x5 직사각형 크기 xyPhysics 설정 반발력 힘 계수 마찰 계수 랜덤마이저 설정 Min. 반경 그래픽 설정 일반 설정 :원형 모양 입자 크기 3D 설정 :깊이 크기 깊이 불투명도 Min.
+      <title>성화봉송 – 나의 마지막 루트 DNSSEC KSK 암호화 담당자로서의 시상식 4</title>
+      <link>https://technotes.seastrom.com/2025/11/23/passing-the-torch.html</link>
+      <description>📝 이러한 환경에서 DNS가 탄생했습니다. 초기 버전은 배포가 어려웠습니다. 이러한 이유로 ICANN은 신뢰와 투명성을 촉진하는 프레임워크를 구축하기로 결정했습니다.
 
 
-🔤 Original: Particle Life – Sandbox Science
+🔤 Original: Passing the Torch – My Last Root DNSSEC KSK Ceremony as Crypto Officer 4
 
-🔗 Read more: https://sandbox-science.com/particle-life</description>
-      <guid isPermaLink="true">https://sandbox-science.com/particle-life</guid>
-      <pubDate>Sun, 23 Nov 2025 21:54:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46027722</comments>
+🔗 Read more: https://technotes.seastrom.com/2025/11/23/passing-the-torch.html</description>
+      <guid isPermaLink="true">https://technotes.seastrom.com/2025/11/23/passing-the-torch.html</guid>
+      <pubDate>Mon, 24 Nov 2025 02:16:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46029649</comments>
     </item>
     <item>
-      <title>Liva AI (YC S25) 채용 중</title>
-      <link>https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</link>
-      <description>📝 지역사회 성장 인턴을 적극적으로 채용하고 있습니다. 대규모 온라인 커뮤니티 구축에 중점을 두고 Liva AI에서 커뮤니티를 육성하는 데 도움을 주실 것입니다. 우리는 세계에서 가장 풍부한 인간 음성 및 비디오 데이터 라이브러리를 구축하여 차세대 현실적인 AI를 촉진함으로써 이 문제를 해결하고 있습니다.
+      <title>HN에게 물어보세요: 보청기 착용자, 무엇이 핫합니까?</title>
+      <link>https://news.ycombinator.com/item?id=46029699</link>
+      <description>📝 최근에 업그레이드했거나 그렇게 할 생각을 하고 있다면 현재 보청기를 무엇으로 사용하시겠습니까? 약간의 손실, 수년 동안 착용해 왔으며 음악과 자연 감상을 즐기지만 회의 및 시끄러운 환경에서도 도움이 필요합니다. 비용에 대해 걱정하지 않고 은퇴하기 전에 직장 보험에서 한 번 더 좋은 거래를 받고 싶습니다.
 
 
-🔤 Original: Liva AI (YC S25) Is Hiring
+🔤 Original: Ask HN: Hearing aid wearers, what's hot?
 
-🔗 Read more: https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</guid>
-      <pubDate>Sun, 23 Nov 2025 22:36:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46028046</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46029699</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46029699</guid>
+      <pubDate>Mon, 24 Nov 2025 02:25:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46029699</comments>
     </item>
     <item>
-      <title>Supermaven이 일몰되는 중</title>
-      <link>https://supermaven.com/blog/sunsetting-supermaven</link>
-      <description>📝 2025년 11월 21일 Supermaven 종료 가까운 미래에 기존 고객에게 무료 자동 완성 추론을 제공할 예정입니다. 가까운 미래에 기존 고객에게 무료 자동 완성 추론을 제공할 예정입니다. 우리는 이러한 기존 고객에게 자동 완성 추론을 무료로 계속 제공할 것입니다.
+      <title>Cloudflare 중단은 좋은 일이었습니다</title>
+      <link>https://gist.github.com/jbreckmckye/32587f2907e473dd06d68b0362fb0048</link>
+      <description>📝 그리고 그것은 좋은 것일 수도 있습니다. 영향을 받은 것은 Twitter나 League of Legends와 같은 "사소한" 항목만이 아닙니다. 한 종류의 바나나를 키우다가 바나나가 멸종될 뻔한 것처럼, 우리는 디지털 인프라 없이는 생존할 수 없는 사회를 향해 가고 있습니다. 두세 명의 핵심 플레이어 없이는 작동할 수 없는 디지털 인프라입니다.
 
 
-🔤 Original: Sunsetting Supermaven
+🔤 Original: The Cloudflare outage was a good thing
 
-🔗 Read more: https://supermaven.com/blog/sunsetting-supermaven</description>
-      <guid isPermaLink="true">https://supermaven.com/blog/sunsetting-supermaven</guid>
-      <pubDate>Sun, 23 Nov 2025 22:33:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46028033</comments>
+🔗 Read more: https://gist.github.com/jbreckmckye/32587f2907e473dd06d68b0362fb0048</description>
+      <guid isPermaLink="true">https://gist.github.com/jbreckmckye/32587f2907e473dd06d68b0362fb0048</guid>
+      <pubDate>Mon, 24 Nov 2025 03:04:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46029908</comments>
     </item>
     <item>
-      <title>아이오와시티는 버스를 무료로 운영했습니다. 교통도 맑아졌고 공기도 맑아졌습니다</title>
-      <link>https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html</guid>
-      <pubDate>Sun, 23 Nov 2025 22:06:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46027833</comments>
-    </item>
-    <item>
-      <title>Doge는 설립 기간이 8개월 남았으며 '존재하지 않습니다'</title>
-      <link>https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/</link>
-      <guid isPermaLink="true">https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/</guid>
-      <pubDate>Mon, 24 Nov 2025 00:05:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46028721</comments>
-    </item>
-    <item>
-      <title>Zorin OS 18 다운로드 100만 회</title>
-      <link>https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/</link>
-      <description>📝 Zorin OS 17에서 18로 업그레이드 또한 오늘 Zorin OS 17에서 18로의 업그레이드를 공식적으로 출시한다는 소식을 발표하게 되어 기쁩니다. 이 업그레이드 경로는 기존 Zorin OS 17 사용자가 운영 체제를 다시 설치할 필요 없이 컴퓨터를 Zorin OS 18로 직접 업그레이드할 수 있도록 설계되었습니다. Zorin 뉴스레터를 구독하세요. Zorin 블로그 Zorin의 최신 뉴스와 업데이트를 확인하세요.
+      <title>고성능을 위한 ncurses 기반 명령줄 토렌트 클라이언트</title>
+      <link>https://github.com/rakshasa/rtorrent</link>
+      <description>📝 rTorrent 개발에 기부하기 Paypal Patreon SubscribeStar Bitcoin: 1MpmXm5AHtdBoDaLZstJw8nupJJaeKu8V8 Ethereum: 0x9AB1e3C3d8a875e870f161b3e9287Db0E6DAfF78 Litecoin: LdyaVR67LBnTf6mAT4QJnjSG2Zk67qxmfQ Cardano: addr1qytaslmqmk6dspltw06sp0zf83dh09u79j49ceh5y26zdcccgq4ph7nmx6kgmzeldauj43254ey97f3x4xw49d86aguqwfhlte 도움말 유지 rTorrent 개발은 제작자에게 기부하여 진행됩니다. BUILDING github 복제 디렉터리로 이동 cd rtorrent 빌드 종속성 설치 동일한 버전의 rTorrent로 libtorrent를 설치합니다. 구성 스크립트 생성: autoreconf -ivf 선택적으로 매뉴얼 페이지 생성: docbook2man rtorrent.
 
 
-🔤 Original: 1M Downloads of Zorin OS 18
+🔤 Original: A ncurses-based command line torrent client for high performance
 
-🔗 Read more: https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/</description>
-      <guid isPermaLink="true">https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/</guid>
-      <pubDate>Sun, 23 Nov 2025 19:38:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46026579</comments>
-    </item>
-    <item>
-      <title>ISP는 CG-NAT를 통해 연결하는 네티즌을 제한할 가능성이 더 높습니다: Cloudflare</title>
-      <link>https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/</link>
-      <description>📝 CGNAT IP가 아닌 IP는 CGNAT IP보다 봇일 가능성이 더 높지만 ISP는 CGNAT IP의 트래픽을 제한할 가능성이 더 높기 때문에 이러한 노력으로 편향의 지표가 발견되었습니다. “트래픽이 인간 사용자로부터 발생할 가능성이 더 높다는 것을 나타내는 봇 점수에도 불구하고 CGNAT IP는 CGNAT가 아닌 IP보다 3배 더 자주 속도 제한을 받습니다.”라고 두 사람은 썼습니다. 저자는 또한 세계가 IPv6로 전환하면 이러한 모든 문제가 사라질 것이며 그렇게 될 때까지 CGNAT가 네트워크 운영자를 압도해야 한다는 점을 인정합니다.
-
-
-🔤 Original: ISPs more likely to throttle netizens who connect through CG-NAT: Cloudflare
-
-🔗 Read more: https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/</description>
-      <guid isPermaLink="true">https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/</guid>
-      <pubDate>Sun, 23 Nov 2025 23:53:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46028627</comments>
-    </item>
-    <item>
-      <title>X의 새로운 원산지 기능으로 인해 많은 '미국' 계정이 외국에서 운영되고 있음이 드러났습니다.</title>
-      <link>https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html</link>
-      <description>📝 해당 계정이 운영되고 있는 국가를 표시합니다. 해당 계정의 팔로어는 52,000명이 넘습니다. '트럼프에 반대하는 공화당원'은 팔로어가 978,000명이 넘습니다.
-
-
-🔤 Original: X's new country-of-origin feature reveals many 'US' accounts to be foreign-run
-
-🔗 Read more: https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html</description>
-      <guid isPermaLink="true">https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html</guid>
-      <pubDate>Sun, 23 Nov 2025 23:25:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46028422</comments>
-    </item>
-    <item>
-      <title>'보이지 않는' 미세플라스틱, 지구 오염물질로 하늘에 퍼진다</title>
-      <link>https://www.asahi.com/ajw/articles/16137995</link>
-      <description>📝 일본, 지난해보다 환자 급증에 독감 경보 발령 100년 된 도쿄 서점, 희귀 발견의 벽으로 팬들 끌어모으다 키하라, 대만 발언 '호도'에 주의 촉구 개정된 지침에 따라 복지 혜택 축소 아오모리 마을, 야생곰 고기를 지역 특산품으로 홍보 도쿄는 네팔 남성 사망 39배 인상 명령 일본, 성적 동의 연령을 13세에서 16세로 높임 표면 기형 심해어 복원 선박 건조 VOX POPULI: 누구나 진정으로 이해할 수 있겠습니까? 머스크의 1조 달러 급여 패키지 규모. 다카이치 내각은 최대 규모의 코로나19 이후 경기부양 계획을 승인했습니다.
-
-
-🔤 Original: 'Invisible' microplastics spread in skies as global pollutant
-
-🔗 Read more: https://www.asahi.com/ajw/articles/16137995</description>
-      <guid isPermaLink="true">https://www.asahi.com/ajw/articles/16137995</guid>
-      <pubDate>Mon, 24 Nov 2025 00:18:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46028827</comments>
-    </item>
-    <item>
-      <title>Rust의 몇 가지 핵심 문제</title>
-      <link>https://bykozy.me/blog/rust-is-a-disappointment/</link>
-      <description>📝 Rust는 stackoverflow 설문조사에서 가장 사랑받는 언어로 1위를 차지했습니다. 불행하게도 Rust를 빠르게 컴파일하는 것은 불가능합니다. 나는 Rust 디자이너라고 주장해야합니다.
-
-
-🔤 Original: Several core problems with Rust
-
-🔗 Read more: https://bykozy.me/blog/rust-is-a-disappointment/</description>
-      <guid isPermaLink="true">https://bykozy.me/blog/rust-is-a-disappointment/</guid>
-      <pubDate>Sun, 23 Nov 2025 21:52:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46027709</comments>
-    </item>
-    <item>
-      <title>Jakks Atari 패들에게 회전 주기</title>
-      <link>https://nicole.express/2025/paddle-me-atari.html</link>
-      <description>📝 아, 그리고 Atari 2600도요. 이 블로그를 염두에 두고 있었던 것 같군요. 따라서 이 제품이 원래 Atari 2600 게임을 실행하고 있지 않다는 것은 매우 분명합니다.
-
-
-🔤 Original: Giving the Jakks Atari Paddle a Spin
-
-🔗 Read more: https://nicole.express/2025/paddle-me-atari.html</description>
-      <guid isPermaLink="true">https://nicole.express/2025/paddle-me-atari.html</guid>
-      <pubDate>Sun, 23 Nov 2025 20:31:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46027065</comments>
+🔗 Read more: https://github.com/rakshasa/rtorrent</description>
+      <guid isPermaLink="true">https://github.com/rakshasa/rtorrent</guid>
+      <pubDate>Mon, 24 Nov 2025 01:30:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46029312</comments>
     </item>
   </channel>
 </rss>
