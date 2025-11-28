@@ -6,275 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 28 Nov 2025 18:31:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 21:18:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>2,800만 개의 Hacker News 댓글이 벡터 임베딩 검색 데이터세트로 사용됨</title>
-      <link>https://clickhouse.com/docs/getting-started/example-datasets/hackernews-vector-search-dataset</link>
-      <description>📝 7,400만 개의 게시물과 벡터 임베딩. 벡터 유사성 색인 작성벡터 유사성 색인 작성다음 SQL을 실행하여 hackernews 테이블의 벡터 열에 벡터 유사성 색인을 정의하고 작성하십시오.ALTER TABLE hackernews ADD INDEX 벡터_index 벡터 TYPE 벡터_similarity('hnsw', 'cosineDistance', 384, 'bf16', 64, 512); ALTER TABLE hackernews MATERIALIZE INDEX 벡터_인덱스 설정 mutations_sync = 2; 인덱스 생성 및 검색에 대한 매개변수 및 성능 고려 사항은 설명서에 설명되어 있습니다. 이 HackerNews 데이터 세트의 데이터 세트에는 all-MiniLM-L6-v2 모델에서 생성된 벡터 임베딩이 포함되어 있습니다.
+      <title>Molly: 향상된 Signal 앱</title>
+      <link>https://molly.im/</link>
+      <description>📝 개선된 Signal 앱 Get Molly Molly는 향상된 기능을 갖춘 Android용 독립 Signal 포크입니다. 완전히 FOSS Signal Encrypted와 달리 독점 blob이 포함되어 있지 않습니다. 암호 암호화로 데이터베이스를 보호합니다. 다중 장치 여러 장치를 단일 계정에 연결합니다. Material You 장치 팔레트를 따르는 추가 테마 UnifiedPush 검색되지 않은 알림 시스템 자동 잠금 일정 기간 동안 자리를 비울 때 RAM 파쇄 민감한 데이터를 안전하게 파쇄합니다. 브라우저 Tor 지원 Orbot을 통해 SOCKS 프록시 및 Tor 지원 더 많은 새롭고 향상된 기능 Molly github 다운로드 [#142] 기부하세요.
 
 
-🔤 Original: 28M Hacker News comments as vector embedding search dataset
+🔤 Original: Molly: An Improved Signal App
 
-🔗 Read more: https://clickhouse.com/docs/getting-started/example-datasets/hackernews-vector-search-dataset</description>
-      <guid isPermaLink="true">https://clickhouse.com/docs/getting-started/example-datasets/hackernews-vector-search-dataset</guid>
-      <pubDate>Fri, 28 Nov 2025 18:02:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46081053</comments>
+🔗 Read more: https://molly.im/</description>
+      <guid isPermaLink="true">https://molly.im/</guid>
+      <pubDate>Fri, 28 Nov 2025 17:48:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080916</comments>
     </item>
     <item>
-      <title>그럼 로컬 RAG를 만들고 싶나요?</title>
-      <link>https://blog.yakkomajuri.com/blog/local-rag</link>
-      <description>📝 이것이 오늘날 우리가 갖고 있는 것입니다: 벡터 DB: Postgres + pgVector. 또한 bge-m3(더 큰, 다중 언어)로 Skald를 실행하고 이 게시물의 뒷부분에서 결과를 공유합니다. 그런 관점에서 볼 때 이것은 큰 성공이었습니다.
+      <title>장기 실행 에이전트를 위한 효과적인 하네스</title>
+      <link>https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</link>
+      <description>📝 우리는 Claude Agent SDK가 여러 컨텍스트 창에서 효과적으로 작동할 수 있도록 두 가지 솔루션을 개발했습니다. 첫 번째 실행 시 환경을 설정하는 초기화 에이전트와 모든 세션에서 점진적인 진행을 수행하는 동시에 다음 세션을 위해 명확한 아티팩트를 남기는 코딩 에이전트입니다. 이는 압축의 경우에도 발생하며 항상 다음 에이전트에게 완벽하게 명확한 지침을 전달하지는 않습니다. ” 이 "다른 프롬프트"는 초기화 에이전트가 향후 코딩 에이전트가 효과적으로 작동하는 데 필요한 모든 필수 컨텍스트로 환경을 설정하도록 요청합니다.
 
 
-🔤 Original: So you wanna build a local RAG?
+🔤 Original: Effective harnesses for long-running agents
 
-🔗 Read more: https://blog.yakkomajuri.com/blog/local-rag</description>
-      <guid isPermaLink="true">https://blog.yakkomajuri.com/blog/local-rag</guid>
-      <pubDate>Fri, 28 Nov 2025 16:54:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080364</comments>
+🔗 Read more: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
+      <pubDate>Fri, 28 Nov 2025 19:05:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46081704</comments>
     </item>
     <item>
-      <title>내 맞춤 취미 OS의 C++ 웹 서버</title>
-      <link>https://oshub.org/projects/retros-32/posts/getting-a-webserver-running</link>
-      <description>📝 get("/home", [&amp;fileRepo](const http::Request&amp; req, http::Response&amp; res) { (void)req; res.get("/about", [&amp;fileRepo](const http::Request&amp; req, http::Response&amp; res) { (void)req; res.get("/status", [&amp;fileRepo](const http::Request&amp; req, http::Response&amp; res) { (공허) 요청;
+      <title>Airloom – 3D 비행 추적기</title>
+      <link>https://objectiveunclear.com/airloom.html</link>
+      <description>📝 검색 반경(km) 100 - + 비행/항공기 검색 통계 검색 항공기: 0 업데이트: -- 컨트롤 및 내비게이션 재설정 트레일 지우기 비행 모드(WASD) 보기 유휴 후 자동 회전(10초) 나침반 표시 비행 팔로우 활성화 비행 팔로우 서핑 모드 선택하려면 항공기를 클릭하세요. • 서핑은 다음 항공편을 자동 전환합니다. -- 디스플레이 설정 트레일 길이 1000 선 두께 2 속도별 색상(고도 대비) 공항 라벨 표시 도시 이름 표시 스탠딩 방향 지도 및 지형 지도 레이어 없음 어두움 (레이블) 어두움(레이블 없음) 3D - 어두움(레이블) 3D - 어두움(레이블 없음) 위성 와이어프레임 GPS 고도: -- ft 경계 표시 공역 표시 공역 클래스 B(주요) 클래스 C(중간) 클래스 D(소) 초점 반경만 와이어프레임만(채우기 없음) 공역 불투명도 0. 3 데이터 설정 업데이트 속도(초) 1 필터 필터링된 항공기 제거(대 숨기기) 호출 부호 / Hex 항공기 유형 최소 고도 (ft) 최대 고도 (ft) 지상 표시 필터 재설정 기록 및 재생 기록 시작 기록 재생 ▶ 재생 ⏹ 중지 저장 기록 기록 로드 기록 기록 지우기 기록: 비활성 기간: 0:00 메모리: 0 MB 재생 타임라인 0:00 0:00 재생 속도 0. 2 지상 고도(ft) 0 안개 거리 20000 좌표 축 표시 지상 그리드 표시 초점 모드(검색 반경 내 표시) 지도 밝기 90% 와이어프레임 밀도 낮음(빠름) 중간 높음 매우 높음 색상 색조 0°(회색) 밝기 50% 고도 그라데이션 그라데이션 강도 2.
 
 
-🔤 Original: C++ Web Server on my custom hobby OS
+🔤 Original: Airloom – 3D Flight Tracker
 
-🔗 Read more: https://oshub.org/projects/retros-32/posts/getting-a-webserver-running</description>
-      <guid isPermaLink="true">https://oshub.org/projects/retros-32/posts/getting-a-webserver-running</guid>
-      <pubDate>Fri, 28 Nov 2025 17:15:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080579</comments>
+🔗 Read more: https://objectiveunclear.com/airloom.html</description>
+      <guid isPermaLink="true">https://objectiveunclear.com/airloom.html</guid>
+      <pubDate>Fri, 28 Nov 2025 16:49:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080289</comments>
     </item>
     <item>
-      <title>이해하기 쉬운 JSON 스키마: 방언, 어휘 및 메타스키마</title>
-      <link>https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/</link>
-      <description>📝 스키마는 다른 JSON 문서에 대한 제약 조건을 설명하는 JSON 문서입니다. JSON 스키마 메타스키마는 자체 설명이 가능하도록 설계되었습니다. 그러나 JSON 스키마는 시간이 지남에 따라 발전했습니다.
+      <title>원래 ABC 언어, Python의 전신(1991)</title>
+      <link>https://github.com/gvanrossum/abc-unix</link>
+      <description>📝 저는 cwi에서 이 소스를 다운로드했습니다. 나는 결국 Steven Pemberton과 협상을 시도할 것입니다(MIT가 되길 바랍니다). 저자 Eddy Boeve, Frank van Dijk, Leo Geurts, Timo Krijnen, Lambert Meertens, Steven Pemberton, Guido van Rossum.
 
 
-🔤 Original: JSON Schema Demystified: Dialects, Vocabularies and Metaschemas
+🔤 Original: The original ABC language, Python's predecessor (1991)
 
-🔗 Read more: https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/</description>
-      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/</guid>
-      <pubDate>Fri, 28 Nov 2025 17:34:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080769</comments>
+🔗 Read more: https://github.com/gvanrossum/abc-unix</description>
+      <guid isPermaLink="true">https://github.com/gvanrossum/abc-unix</guid>
+      <pubDate>Fri, 28 Nov 2025 19:58:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46082204</comments>
     </item>
     <item>
-      <title>잡아당기지 마세요. 무엇에 붙어 있을지 절대 알 수 없습니다(2016)</title>
-      <link>https://blog.plover.com/2016/07/01/#tmpdir</link>
-      <description>📝 수학적인 과거는 외국이다. 달 위의 야구 아카이브: 2025: JFMAMJ JAS 2024: JFMAMJ JASOND 2023: JFMAMJ JASOND 2022: JFMAMJ JASOND 2021: JFMAMJ JASOND 2020: JFMAMJ JASOND 2019: JFMAMJ JASOND 2018: JFMAMJ JASOND 2017: JFMAMJ JASOND 2016: JFMAMJ JASOND 2015: JFMAMJ JASOND 2014: JFMAMJ JASOND 2013: JFMAMJ JASOND 2012: JFMAMJ JASOND 2011: JFMAMJ JASOND 2010: JFMAMJ JASOND 2009: JFMAMJ JASOND 2008: JFMAMJ JASOND 2007: JFMAMJ JASOND 2006: JFMAMJ JASOND 2005: OND 수학245 프로그래밍99 언어95 기타75 Book50 Tech49 어원35 Haskell33 Oops30 Unix27 Cosmic Call25 수학 SE25 법칙22 물리학21 Perl17 생물학16 두뇌15 달력15 음식15 그걸 잡아당기지 마세요, 그게 무엇에 붙어 있을지 절대 모르죠. 어제 제가 추적한 아주 흥미로운 버그에 대한 이야기입니다. 주요 emacs가 실행 중입니다. (소켓은 프로세스 간 통신(이 경우 emacs와 emacsclient 사이)을 가능하게 하는 시설입니다.
-
-
-🔤 Original: Don't tug on that, you never know what it might be attached to (2016)
-
-🔗 Read more: https://blog.plover.com/2016/07/01/#tmpdir</description>
-      <guid isPermaLink="true">https://blog.plover.com/2016/07/01/#tmpdir</guid>
-      <pubDate>Fri, 28 Nov 2025 16:01:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46079785</comments>
+      <title>Show HN: Pulse 2.0 – 누구나 DJ가 될 수 있는 라이브 공동 청취실</title>
+      <link>https://473999.net/pulse</link>
+      <guid isPermaLink="true">https://473999.net/pulse</guid>
+      <pubDate>Fri, 28 Nov 2025 18:39:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46081443</comments>
     </item>
     <item>
-      <title>섹시함을 되찾다. 인터넷 감시가 에로티시즘을 죽였다</title>
-      <link>https://lux-magazine.com/article/privacy-eroticism/</link>
-      <description>📝 하지만 그들은 권리가 있다고 내 친구는 주장했습니다. 내가 아는 사람들 사이에서 사랑과 섹스에 대한 개념이 근본적으로 바뀌었다는 것을 암시하는 다른 대화도 있었습니다. 나는 마지막 친구에게 이렇게 물었습니다. “당신은 누구로부터 자신을 방어하고 있습니까?
+      <title>좋은 엔지니어는 대기업에서 나쁜 코드를 작성합니다.</title>
+      <link>https://www.seangoedecke.com/bad-code-at-big-companies/</link>
+      <description>📝 몇 년마다 누군가는 대규모 기술 회사가 때때로 놀라울 정도로 엉성한 코드를 생성한다는 사실을 알아차립니다. 거대 기술 기업은 많은 유능한 엔지니어를 유치할 수 있을 만큼 충분한 비용을 지불합니다. 이는 많은 대형 기술 엔지니어들이 끊임없이 "그것을 알아내고 있다"는 것을 의미합니다.
 
 
-🔤 Original: Bringing Sexy Back. Internet surveillance has killed eroticism
+🔤 Original: Good engineers write bad code at big companies
 
-🔗 Read more: https://lux-magazine.com/article/privacy-eroticism/</description>
-      <guid isPermaLink="true">https://lux-magazine.com/article/privacy-eroticism/</guid>
-      <pubDate>Fri, 28 Nov 2025 17:05:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080473</comments>
-    </item>
-    <item>
-      <title>Imgur가 영국을 지리적으로 차단했기 때문에 내 네트워크의 지리적 차단을 해제했습니다.</title>
-      <link>https://blog.tymscar.com/posts/imgurukproxy/</link>
-      <description>📝 대부분의 셰이더 페이지에는 Imgur에서 호스팅되는 미리보기 이미지가 포함되어 있습니다. 하지만 그 접근 방식에는 몇 가지 문제가 있습니다. 이로 인해 Nginx는 Gluetun의 네트워크 스택을 공유하므로 모든 트래픽이 자동으로 VPN 터널을 통과합니다.
-
-
-🔤 Original: Imgur Geo-Blocked the UK, So I Geo-Unblocked My Network
-
-🔗 Read more: https://blog.tymscar.com/posts/imgurukproxy/</description>
-      <guid isPermaLink="true">https://blog.tymscar.com/posts/imgurukproxy/</guid>
-      <pubDate>Fri, 28 Nov 2025 18:15:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46081188</comments>
-    </item>
-    <item>
-      <title>Yggdrasil 네트워크 상의 진정한 P2P 이메일</title>
-      <link>https://github.com/JB-SelfCompany/Tyr</link>
-      <description>📝 우리는 이메일이 서버를 거쳐야 한다고 배웠습니다. 이메일의 자유는 말 그대로 당신의 손에 달려 있습니다. 귀하의 메일 주소는 공개 키에서 파생되어 &lt;64-hex-characters&gt;@yggmail이 됩니다.
-
-
-🔤 Original: True P2P Email on Top of Yggdrasil Network
-
-🔗 Read more: https://github.com/JB-SelfCompany/Tyr</description>
-      <guid isPermaLink="true">https://github.com/JB-SelfCompany/Tyr</guid>
-      <pubDate>Fri, 28 Nov 2025 16:35:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080143</comments>
-    </item>
-    <item>
-      <title>네덜란드 대학은 Microsoft 없이도 할 수 있습니까?</title>
-      <link>https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft</link>
-      <description>📝 형사 법원은 미국의 거대 소프트웨어 회사인 네덜란드 대학이 Microsoft 없이도 할 수 있는지에 대해 문제를 제기합니다. 사진: Pixabay 네덜란드 고등 교육 기관이 Microsoft와 헤어질 수 있습니까? 네덜란드 교육 및 연구 기관의 IT 협동조합인 SURF의 Wladimir Mufty에 따르면 이는 네덜란드 고등 교육에도 적용됩니다.
-
-
-🔤 Original: Can Dutch universities do without Microsoft?
-
-🔗 Read more: https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft</description>
-      <guid isPermaLink="true">https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft</guid>
-      <pubDate>Fri, 28 Nov 2025 15:53:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46079721</comments>
-    </item>
-    <item>
-      <title>Meta는 고급 기하학을 사용하여 270억 달러의 부채를 숨겼습니다.</title>
-      <link>https://stohl.substack.com/p/exclusive-credit-report-shows-meta</link>
-      <guid isPermaLink="true">https://stohl.substack.com/p/exclusive-credit-report-shows-meta</guid>
-      <pubDate>Fri, 28 Nov 2025 16:09:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46079868</comments>
-    </item>
-    <item>
-      <title>HN 표시: PCB 회로도 실수를 포착하기 위한 LLM 기반 도구</title>
-      <link>https://netlist.io/</link>
-      <description>📝 EffortLow월 사용량을 크게 늘립니다.MediumHigh속도 제한을 빠르게 소모합니다11. 레이아웃 제안은 논리만을 기반으로 합니다. 레이아웃 파일은 Netlist에 표시되지 않습니다. EffortLow월 사용량을 크게 늘립니다.MediumHigh는 속도 제한을 빠르게 소모합니다27.
-
-
-🔤 Original: Show HN: An LLM-Powered Tool to Catch PCB Schematic Mistakes
-
-🔗 Read more: https://netlist.io/</description>
-      <guid isPermaLink="true">https://netlist.io/</guid>
-      <pubDate>Fri, 28 Nov 2025 17:30:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080737</comments>
-    </item>
-    <item>
-      <title>AI 채택률이 정체되기 시작함</title>
-      <link>https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/</link>
-      <description>📝 Apollo는 그러한 변경 사항을 설명하기 위해 이 프레젠테이션을 업데이트할 책임이 없습니다. 이 프레젠테이션에서 논의된 추세가 계속될 것이라는 보장은 없습니다. 본 프레젠테이션 전반에 걸쳐 작성된 특정 진술은 본질적으로 "미래 지향적"일 수 있습니다.
-
-
-🔤 Original: AI Adoption Rates Starting to Flatten Out
-
-🔗 Read more: https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/</description>
-      <guid isPermaLink="true">https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/</guid>
-      <pubDate>Fri, 28 Nov 2025 16:21:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46079987</comments>
-    </item>
-    <item>
-      <title>랍스터 인터뷰</title>
-      <link>https://susam.net/my-lobsters-interview.html</link>
-      <description>📝 페이스트빈은 Common Lisp로 작성되었습니다. 나도 활동적인 Emacs Lisp 프로그래머입니다. 저는 Common Lisp를 통해 Emacs를 발견했습니다.
-
-
-🔤 Original: Lobsters Interview
-
-🔗 Read more: https://susam.net/my-lobsters-interview.html</description>
-      <guid isPermaLink="true">https://susam.net/my-lobsters-interview.html</guid>
-      <pubDate>Fri, 28 Nov 2025 16:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080218</comments>
-    </item>
-    <item>
-      <title>LLM 작업 중 안티패턴</title>
-      <link>https://instavm.io/blog/llm-anti-patterns</link>
-      <description>📝 안티패턴이란 단순히 LLM으로 작업할 때 피해야 할 패턴이나 행동을 의미합니다. 또 다른 예를 들면, Cloudflare는 최근 도구를 호출하는 코드로 작성될 때 도구 호출이 더 좋다는 것을 깨달았습니다. 그들은 널리 논의된 주제에 대해 좋은 성과를 냈습니다.
-
-
-🔤 Original: Anti-patterns while working with LLMs
-
-🔗 Read more: https://instavm.io/blog/llm-anti-patterns</description>
-      <guid isPermaLink="true">https://instavm.io/blog/llm-anti-patterns</guid>
-      <pubDate>Fri, 28 Nov 2025 17:16:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080597</comments>
-    </item>
-    <item>
-      <title>Poll HN: 주로 어떤 운영 체제를 개발하시나요?</title>
-      <link>https://news.ycombinator.com/item?id=46081063</link>
-      <description>📝 Wokwi는 또한 해당 분야에서 흥미로운 후보자입니다. Wokwi는 또한 해당 분야에서 흥미로운 후보자입니다. 나는 결코 리눅스 매니아가 아니었습니다.
-
-
-🔤 Original: Poll HN: What operating system do you primarily develop on?
-
-🔗 Read more: https://news.ycombinator.com/item?id=46081063</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46081063</guid>
-      <pubDate>Fri, 28 Nov 2025 18:02:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46081063</comments>
-    </item>
-    <item>
-      <title>Stellantis는 신차 할인을 위한 팝업 광고로 소유자 화면을 스팸하고 있습니다.</title>
-      <link>https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts</link>
-      <description>📝 사진이 튀어나오기 시작했고 얼마 지나지 않아 다른 사람들도 자신의 화면에 전송된 동일한 광고를 공유하기 시작했습니다. com/pHEjLAuYEj — Zerin Dube(@SpeedSportLife) 2025년 11월 18일 $1,500 로열티 보너스는 Stellantis 딜러가 더 많은 장치를 이동하기 위해 쌓는 많은 할인 중 하나일 뿐입니다. 마지막으로 이런 일이 발생했을 때 Stellantis는 인포테인먼트를 통해 소유자에게 연장 보증을 광고했습니다.
-
-
-🔤 Original: Stellantis Is Spamming Owners' Screens with Pop-Up Ads for New Car Discounts
-
-🔗 Read more: https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts</description>
-      <guid isPermaLink="true">https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts</guid>
-      <pubDate>Fri, 28 Nov 2025 16:37:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080161</comments>
-    </item>
-    <item>
-      <title>가위바위보 솔리테어</title>
-      <link>https://klezlab.it/rock-paper-scissors-solitaire.html</link>
-      <description>📝 게시일: 2022-03-12 심심하시죠? 그리고 내 말은, 정말 지루하다는 거죠. 가위바위보 솔리테어를 플레이할 수 있습니다.
-
-
-🔤 Original: Rock Paper Scissors Solitaire
-
-🔗 Read more: https://klezlab.it/rock-paper-scissors-solitaire.html</description>
-      <guid isPermaLink="true">https://klezlab.it/rock-paper-scissors-solitaire.html</guid>
-      <pubDate>Fri, 28 Nov 2025 17:54:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080972</comments>
-    </item>
-    <item>
-      <title>애플과 인텔이 맥 칩에서 협력할 것이라는 소문</title>
-      <link>https://www.macrumors.com/2025/11/28/intel-rumored-to-supply-new-mac-chip/</link>
-      <description>📝 그러나 이전 Mac용 Intel 칩은 Intel에서 설계하고 x86 아키텍처를 기반으로 한 반면, M 시리즈 칩은 Apple에서 설계하고 Arm 아키텍처를 사용합니다. 인텔은 제조에만 지원합니다. TSMC는 Apple의 M 시리즈 칩 대부분을 계속 공급할 것입니다.
-
-
-🔤 Original: Apple and Intel Rumored to Partner on Mac Chips
-
-🔗 Read more: https://www.macrumors.com/2025/11/28/intel-rumored-to-supply-new-mac-chip/</description>
-      <guid isPermaLink="true">https://www.macrumors.com/2025/11/28/intel-rumored-to-supply-new-mac-chip/</guid>
-      <pubDate>Fri, 28 Nov 2025 17:00:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080424</comments>
-    </item>
-    <item>
-      <title>신호는 소음이다</title>
-      <link>https://www.magazine.dirt.fyi/p/the-signal-is-the-noise</link>
-      <description>📝 예측 시장의 가치 제안은 상대적으로 간단합니다. 게임 속 스킨을 사용하면 거래자는 자신이 원하는 것 대신 일어날 것이라고 생각하는 것에 따라 거래하도록 동기를 부여받습니다. 이는 이미 정치적 보도에 영향을 미쳤습니다.
-
-
-🔤 Original: The Signal Is the Noise
-
-🔗 Read more: https://www.magazine.dirt.fyi/p/the-signal-is-the-noise</description>
-      <guid isPermaLink="true">https://www.magazine.dirt.fyi/p/the-signal-is-the-noise</guid>
-      <pubDate>Fri, 28 Nov 2025 16:09:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46079860</comments>
-    </item>
-    <item>
-      <title>텍스트에서 3D 메시 생성</title>
-      <link>https://cprimozic.net/notes/posts/generating-3d-meshes-from-text/</link>
-      <description>📝 Fontkit은 글꼴 엔진을 구현하는 또 다른 순수 JavaScript 라이브러리입니다. lyon_extra 크레이트에는 해당 경로를 기본 그리기 명령으로 구문 분석하는 작업을 처리하는 SVG 경로 파서가 포함되어 있습니다. 남은 유일한 부분은 3D로 압출하는 것입니다.
-
-
-🔤 Original: Generating 3D Meshes from Text
-
-🔗 Read more: https://cprimozic.net/notes/posts/generating-3d-meshes-from-text/</description>
-      <guid isPermaLink="true">https://cprimozic.net/notes/posts/generating-3d-meshes-from-text/</guid>
-      <pubDate>Fri, 28 Nov 2025 15:40:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46079567</comments>
-    </item>
-    <item>
-      <title>글쓰기는 두뇌를 변화시켜 일상적인 도전에 대한 회복력을 키워줍니다</title>
-      <link>https://scienceclock.com/writing-builds-resilience-in-everyday-challenges-by-changing-your-brain/</link>
-      <description>📝 그들의 글쓰기 습관은 글쓰기가 탄력성을 키워준다는 것을 암시합니다. 글쓰기는 또한 심리적 상태를 조절합니다. 글쓰기를 통한 회복력 구축 This Research-ba.
-
-
-🔤 Original: Writing Builds Resilience in Everyday Challenges by Changing Your Brain
-
-🔗 Read more: https://scienceclock.com/writing-builds-resilience-in-everyday-challenges-by-changing-your-brain/</description>
-      <guid isPermaLink="true">https://scienceclock.com/writing-builds-resilience-in-everyday-challenges-by-changing-your-brain/</guid>
-      <pubDate>Fri, 28 Nov 2025 13:43:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46078566</comments>
+🔗 Read more: https://www.seangoedecke.com/bad-code-at-big-companies/</description>
+      <guid isPermaLink="true">https://www.seangoedecke.com/bad-code-at-big-companies/</guid>
+      <pubDate>Fri, 28 Nov 2025 19:59:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46082223</comments>
     </item>
   </channel>
 </rss>
