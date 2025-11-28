@@ -6,52 +6,215 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Nov 2025 15:22:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 18:31:14 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Petition to formally recognize open source work as civic service in Germany</title>
-      <link>https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main</link>
-      <description>📝 Anerkennung als Ehrenamt würde Rechtsklarheit schaffen Dies schafft Transparenz, Rechtssicherheit und Nachhaltigkeit im digitalen Ehrenamt. Petition started: 11/24/2025 Collection ends: 05/23/2026 Region: Germany Topic: Internet Wir arbeiten viel mit Open-Source-Software. Petition started: 11/24/2025 Collection ends: 05/23/2026 Region: Germany Topic: Internet.
+      <title>28M Hacker News comments as vector embedding search dataset</title>
+      <link>https://clickhouse.com/docs/getting-started/example-datasets/hackernews-vector-search-dataset</link>
+      <description>📝 74 million postings and their vector embeddings. Build a vector similarity indexBuild a vector similarity indexRun the following SQL to define and build a vector similarity index on the vector column of the hackernews table:ALTER TABLE hackernews ADD INDEX vector_index vector TYPE vector_similarity('hnsw', 'cosineDistance', 384, 'bf16', 64, 512); ALTER TABLE hackernews MATERIALIZE INDEX vector_index SETTINGS mutations_sync = 2; The parameters and performance considerations for index creation and search are described in the documentation. The dataset in this HackerNews dataset contains vector emebeddings generated from the all-MiniLM-L6-v2 model.
 
-🔗 Read more: https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main</description>
-      <guid isPermaLink="true">https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main</guid>
-      <pubDate>Fri, 28 Nov 2025 14:08:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46078770</comments>
+🔗 Read more: https://clickhouse.com/docs/getting-started/example-datasets/hackernews-vector-search-dataset</description>
+      <guid isPermaLink="true">https://clickhouse.com/docs/getting-started/example-datasets/hackernews-vector-search-dataset</guid>
+      <pubDate>Fri, 28 Nov 2025 18:02:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46081053</comments>
     </item>
     <item>
-      <title>A Remarkable Assertion from A16Z</title>
-      <link>https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z</link>
-      <guid isPermaLink="true">https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z</guid>
-      <pubDate>Fri, 28 Nov 2025 12:41:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46078138</comments>
-    </item>
-    <item>
-      <title>SQLite as an Application File Format</title>
-      <link>https://sqlite.org/appfileformat.html</link>
-      <description>📝 What Is An Application File Format. Pile-of-Files Formats. Wrapped Pile-of-Files Formats.
+      <title>So you wanna build a local RAG?</title>
+      <link>https://blog.yakkomajuri.com/blog/local-rag</link>
+      <description>📝 This is what we have today: Vector DB: Postgres + pgvector. I also ran Skald with bge-m3 (larger, multi-language) and share the results later in this post. From that perspective, this was a great success.
 
-🔗 Read more: https://sqlite.org/appfileformat.html</description>
-      <guid isPermaLink="true">https://sqlite.org/appfileformat.html</guid>
-      <pubDate>Fri, 28 Nov 2025 08:15:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46076642</comments>
+🔗 Read more: https://blog.yakkomajuri.com/blog/local-rag</description>
+      <guid isPermaLink="true">https://blog.yakkomajuri.com/blog/local-rag</guid>
+      <pubDate>Fri, 28 Nov 2025 16:54:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080364</comments>
     </item>
     <item>
-      <title>A trillion dollars (potentially) wasted on gen-AI</title>
-      <link>https://garymarcus.substack.com/p/a-trillion-dollars-is-a-terrible</link>
-      <guid isPermaLink="true">https://garymarcus.substack.com/p/a-trillion-dollars-is-a-terrible</guid>
-      <pubDate>Fri, 28 Nov 2025 13:21:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46078407</comments>
-    </item>
-    <item>
-      <title>Louvre to hike ticket prices for most non-EU tourists by 45%</title>
-      <link>https://www.bbc.com/news/articles/clyd4llgrego</link>
-      <description>📝 Louvre to hike ticket prices for most non-EU tourists by 45%6 hours agoShareSaveOsmond ChiaBusiness reporterShareSaveGetty ImagesThe Louvre museum received nearly 9 million visitors in 2024Ticket prices for the Louvre museum in Paris will rise by 45% for most non-European Union visitors, the museum's board decided on Thursday. Non-EU visitors in groups with accredited guides will also have to pay €28 starting next year, the Louvre told the BBC. The Louvre received nearly 9 million visitors last year, with the majority coming from abroad.
+      <title>C++ Web Server on my custom hobby OS</title>
+      <link>https://oshub.org/projects/retros-32/posts/getting-a-webserver-running</link>
+      <description>📝 get("/home", [&amp;fileRepo](const http::Request&amp; req, http::Response&amp; res) { (void)req; res. get("/about", [&amp;fileRepo](const http::Request&amp; req, http::Response&amp; res) { (void)req; res. get("/status", [&amp;fileRepo](const http::Request&amp; req, http::Response&amp; res) { (void)req; res.
 
-🔗 Read more: https://www.bbc.com/news/articles/clyd4llgrego</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/clyd4llgrego</guid>
-      <pubDate>Fri, 28 Nov 2025 14:41:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46079067</comments>
+🔗 Read more: https://oshub.org/projects/retros-32/posts/getting-a-webserver-running</description>
+      <guid isPermaLink="true">https://oshub.org/projects/retros-32/posts/getting-a-webserver-running</guid>
+      <pubDate>Fri, 28 Nov 2025 17:15:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080579</comments>
+    </item>
+    <item>
+      <title>JSON Schema Demystified: Dialects, Vocabularies and Metaschemas</title>
+      <link>https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/</link>
+      <description>📝 A schema is just a JSON document that describes constraints on other JSON documents. The JSON Schema metaschema is designed to be self-describing. But JSON Schema has evolved over time.
+
+🔗 Read more: https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/</description>
+      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/</guid>
+      <pubDate>Fri, 28 Nov 2025 17:34:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080769</comments>
+    </item>
+    <item>
+      <title>Don't tug on that, you never know what it might be attached to (2016)</title>
+      <link>https://blog.plover.com/2016/07/01/#tmpdir</link>
+      <description>📝 The mathematical past is a foreign country Baseball on the Moon Archive: 2025: JFMAMJ JAS 2024: JFMAMJ JASOND 2023: JFMAMJ JASOND 2022: JFMAMJ JASOND 2021: JFMAMJ JASOND 2020: JFMAMJ JASOND 2019: JFMAMJ JASOND 2018: JFMAMJ JASOND 2017: JFMAMJ JASOND 2016: JFMAMJ JASOND 2015: JFMAMJ JASOND 2014: JFMAMJ JASOND 2013: JFMAMJ JASOND 2012: JFMAMJ JASOND 2011: JFMAMJ JASOND 2010: JFMAMJ JASOND 2009: JFMAMJ JASOND 2008: JFMAMJ JASOND 2007: JFMAMJ JASOND 2006: JFMAMJ JASOND 2005: OND Mathematics245 Programming99 Language95 Miscellaneous75 Book50 Tech49 Etymology35 Haskell33 Oops30 Unix27 Cosmic Call25 Math SE25 Law22 Physics21 Perl17 Biology16 Brain15 Calendar15 Food15 Don't tug on that, you never know what it might be attached to This is a story about a very interesting bug that I tracked down yesterday. You have your main emacs running. (A socket is a facility that enables interprocess communication, in this case between emacs and emacsclient.
+
+🔗 Read more: https://blog.plover.com/2016/07/01/#tmpdir</description>
+      <guid isPermaLink="true">https://blog.plover.com/2016/07/01/#tmpdir</guid>
+      <pubDate>Fri, 28 Nov 2025 16:01:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46079785</comments>
+    </item>
+    <item>
+      <title>Bringing Sexy Back. Internet surveillance has killed eroticism</title>
+      <link>https://lux-magazine.com/article/privacy-eroticism/</link>
+      <description>📝 But they did have the right, my friend argued. There were other conversations, too, that suggested to me that conceptions of love and sex have changed fundamentally among people I know. This last friend I asked: “Who are you defending yourself against.
+
+🔗 Read more: https://lux-magazine.com/article/privacy-eroticism/</description>
+      <guid isPermaLink="true">https://lux-magazine.com/article/privacy-eroticism/</guid>
+      <pubDate>Fri, 28 Nov 2025 17:05:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080473</comments>
+    </item>
+    <item>
+      <title>Imgur Geo-Blocked the UK, So I Geo-Unblocked My Network</title>
+      <link>https://blog.tymscar.com/posts/imgurukproxy/</link>
+      <description>📝 Most shader pages embed preview images hosted on Imgur. But I have a few issues with that approach. This makes Nginx share Gluetun’s network stack, so all its traffic automatically goes through the VPN tunnel.
+
+🔗 Read more: https://blog.tymscar.com/posts/imgurukproxy/</description>
+      <guid isPermaLink="true">https://blog.tymscar.com/posts/imgurukproxy/</guid>
+      <pubDate>Fri, 28 Nov 2025 18:15:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46081188</comments>
+    </item>
+    <item>
+      <title>True P2P Email on Top of Yggdrasil Network</title>
+      <link>https://github.com/JB-SelfCompany/Tyr</link>
+      <description>📝 We're taught that email must go through servers. Email freedom is literally in your hands. Your mail address is derived from your public key, making it: &lt;64-hex-characters&gt;@yggmail.
+
+🔗 Read more: https://github.com/JB-SelfCompany/Tyr</description>
+      <guid isPermaLink="true">https://github.com/JB-SelfCompany/Tyr</guid>
+      <pubDate>Fri, 28 Nov 2025 16:35:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080143</comments>
+    </item>
+    <item>
+      <title>Can Dutch universities do without Microsoft?</title>
+      <link>https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft</link>
+      <description>📝 Criminal court ditches American software giant Can Dutch universities do without Microsoft. Photo: Pixabay Can Dutch higher education part ways with Microsoft. This also applies to Dutch higher education, according to Wladimir Mufty, from SURF, the IT cooperative of Dutch education and research institutions.
+
+🔗 Read more: https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft</description>
+      <guid isPermaLink="true">https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft</guid>
+      <pubDate>Fri, 28 Nov 2025 15:53:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46079721</comments>
+    </item>
+    <item>
+      <title>Meta hiding $27B in debt using advanced geometry</title>
+      <link>https://stohl.substack.com/p/exclusive-credit-report-shows-meta</link>
+      <guid isPermaLink="true">https://stohl.substack.com/p/exclusive-credit-report-shows-meta</guid>
+      <pubDate>Fri, 28 Nov 2025 16:09:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46079868</comments>
+    </item>
+    <item>
+      <title>Show HN: An LLM-Powered Tool to Catch PCB Schematic Mistakes</title>
+      <link>https://netlist.io/</link>
+      <description>📝 EffortLowGreatly extends monthly usageMediumHighConsumes rate limits quickly11. Layout suggestions are based on logic-only; layout files aren't visible to Netlist. EffortLowGreatly extends monthly usageMediumHighConsumes rate limits quickly27.
+
+🔗 Read more: https://netlist.io/</description>
+      <guid isPermaLink="true">https://netlist.io/</guid>
+      <pubDate>Fri, 28 Nov 2025 17:30:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080737</comments>
+    </item>
+    <item>
+      <title>AI Adoption Rates Starting to Flatten Out</title>
+      <link>https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/</link>
+      <description>📝 Apollo does not have any responsibility to update this presentation to account for such changes. There can be no assurance that any trends discussed during this presentation will continue. Certain statements made throughout this presentation may be “forward-looking” in nature.
+
+🔗 Read more: https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/</description>
+      <guid isPermaLink="true">https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/</guid>
+      <pubDate>Fri, 28 Nov 2025 16:21:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46079987</comments>
+    </item>
+    <item>
+      <title>Lobsters Interview</title>
+      <link>https://susam.net/my-lobsters-interview.html</link>
+      <description>📝 The pastebin was written in Common Lisp. I am an active Emacs Lisp programmer too. I discovered Emacs through Common Lisp.
+
+🔗 Read more: https://susam.net/my-lobsters-interview.html</description>
+      <guid isPermaLink="true">https://susam.net/my-lobsters-interview.html</guid>
+      <pubDate>Fri, 28 Nov 2025 16:42:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080218</comments>
+    </item>
+    <item>
+      <title>Anti-patterns while working with LLMs</title>
+      <link>https://instavm.io/blog/llm-anti-patterns</link>
+      <description>📝 By anti-patterns, I simply mean patterns or behaviors we should avoid when working with LLMs. Take another example, Cloudflare recently realised that tool calling is better when its written as code that calls them. They perform well on topics which have been widely discussed.
+
+🔗 Read more: https://instavm.io/blog/llm-anti-patterns</description>
+      <guid isPermaLink="true">https://instavm.io/blog/llm-anti-patterns</guid>
+      <pubDate>Fri, 28 Nov 2025 17:16:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080597</comments>
+    </item>
+    <item>
+      <title>Poll HN: What operating system do you primarily develop on?</title>
+      <link>https://news.ycombinator.com/item?id=46081063</link>
+      <description>📝 Wokwi also makes for an interesting candidate in that area. Wokwi also makes for an interesting candidate in that area. I was never a Linux fanatic.
+
+🔗 Read more: https://news.ycombinator.com/item?id=46081063</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46081063</guid>
+      <pubDate>Fri, 28 Nov 2025 18:02:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46081063</comments>
+    </item>
+    <item>
+      <title>Stellantis Is Spamming Owners' Screens with Pop-Up Ads for New Car Discounts</title>
+      <link>https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts</link>
+      <description>📝 The photo started popping off, and before long, others were sharing the same ad that was sent to their screens. com/pHEjLAuYEj— Zerin Dube (@SpeedSportLife) November 18, 2025 The $1,500 loyalty bonus is just one of many discounts that Stellantis dealers are stacking in order to move more units. The last time this happened, Stellantis was advertising extended warranties to owners via their infotainment.
+
+🔗 Read more: https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts</description>
+      <guid isPermaLink="true">https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts</guid>
+      <pubDate>Fri, 28 Nov 2025 16:37:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080161</comments>
+    </item>
+    <item>
+      <title>Rock Paper Scissors Solitaire</title>
+      <link>https://klezlab.it/rock-paper-scissors-solitaire.html</link>
+      <description>📝 Published: 2022-03-12 Are you bored. And I mean, really bored. You could play Rock Paper Scissors solitaire.
+
+🔗 Read more: https://klezlab.it/rock-paper-scissors-solitaire.html</description>
+      <guid isPermaLink="true">https://klezlab.it/rock-paper-scissors-solitaire.html</guid>
+      <pubDate>Fri, 28 Nov 2025 17:54:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080972</comments>
+    </item>
+    <item>
+      <title>Apple and Intel Rumored to Partner on Mac Chips</title>
+      <link>https://www.macrumors.com/2025/11/28/intel-rumored-to-supply-new-mac-chip/</link>
+      <description>📝 However, while previous Intel chips for Macs were designed by Intel and based on x86 architecture, M-series chips are designed by Apple and use Arm architecture. Intel would only assist with manufacturing. TSMC would continue to supply the majority of Apple's M-series chips.
+
+🔗 Read more: https://www.macrumors.com/2025/11/28/intel-rumored-to-supply-new-mac-chip/</description>
+      <guid isPermaLink="true">https://www.macrumors.com/2025/11/28/intel-rumored-to-supply-new-mac-chip/</guid>
+      <pubDate>Fri, 28 Nov 2025 17:00:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46080424</comments>
+    </item>
+    <item>
+      <title>The Signal Is the Noise</title>
+      <link>https://www.magazine.dirt.fyi/p/the-signal-is-the-noise</link>
+      <description>📝 The value proposition behind prediction markets is relatively simple. With skin in the game, traders are motivated to trade based on what they think will happen instead of what they want. This has already impacted political reporting.
+
+🔗 Read more: https://www.magazine.dirt.fyi/p/the-signal-is-the-noise</description>
+      <guid isPermaLink="true">https://www.magazine.dirt.fyi/p/the-signal-is-the-noise</guid>
+      <pubDate>Fri, 28 Nov 2025 16:09:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46079860</comments>
+    </item>
+    <item>
+      <title>Generating 3D Meshes from Text</title>
+      <link>https://cprimozic.net/notes/posts/generating-3d-meshes-from-text/</link>
+      <description>📝 Fontkit is another pure JavaScript library that implements a font engine. The lyon_extra crate includes an SVG path parser which handles parsing that path into the underlying draw commands. The only part that remains is extruding it into 3D.
+
+🔗 Read more: https://cprimozic.net/notes/posts/generating-3d-meshes-from-text/</description>
+      <guid isPermaLink="true">https://cprimozic.net/notes/posts/generating-3d-meshes-from-text/</guid>
+      <pubDate>Fri, 28 Nov 2025 15:40:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46079567</comments>
+    </item>
+    <item>
+      <title>Writing Builds Resilience in Everyday Challenges by Changing Your Brain</title>
+      <link>https://scienceclock.com/writing-builds-resilience-in-everyday-challenges-by-changing-your-brain/</link>
+      <description>📝 Their writing habits suggest that writing fosters resilience. Writing also regulates your psychological state. Building resilience through writing These research-ba.
+
+🔗 Read more: https://scienceclock.com/writing-builds-resilience-in-everyday-challenges-by-changing-your-brain/</description>
+      <guid isPermaLink="true">https://scienceclock.com/writing-builds-resilience-in-everyday-challenges-by-changing-your-brain/</guid>
+      <pubDate>Fri, 28 Nov 2025 13:43:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46078566</comments>
     </item>
   </channel>
 </rss>
