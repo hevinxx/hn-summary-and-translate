@@ -6,54 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 29 Nov 2025 12:38:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 15:21:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>研究发现，严重的空气污染可能会使运动的益处减少 50%</title>
-      <link>https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/</link>
-      <description>📝 包括伦敦大学学院 (UCL) 的研究人员在内的一个国际团队分析了超过 1 个国家的健康数据。在污染较严重的地区，运动的保护作用甚至进一步减弱。请检查您的收件箱并确认您的订阅。
+      <title>DNS LOC 记录 (2014)</title>
+      <link>https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records/</link>
+      <description>📝 文本格式相当简单。与 TXT 记录不同，LOC 记录数据被解析并转换为固定大小的二进制格式。返回 RFC 1876：MSB LSB +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 0|版本 |尺寸| +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 2|水平前 |垂直前 | +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 4|纬度 | +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 6|纬度 | +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 8|经度| +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 10|经度| +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 12|海拔高度 | +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 14|海拔高度 | +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+ 所以，32 位的纬度、经度和高度，然后是三个 8 位的大小和精度值。
 
 
-🔤 Original: High Air Pollution Could Diminish Exercise Benefits by 50%, Study Finds
+🔤 Original: DNS LOC Record (2014)
 
-🔗 Read more: https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/</description>
-      <guid isPermaLink="true">https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/</guid>
-      <pubDate>Sat, 29 Nov 2025 10:54:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46086624</comments>
+🔗 Read more: https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records/</guid>
+      <pubDate>Sat, 29 Nov 2025 14:02:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46087596</comments>
     </item>
     <item>
-      <title>比利时警方揭露利用僵尸网络操纵欧盟数据法影响评估</title>
-      <link>https://old.reddit.com/r/europe/comments/1p9kxhm/belgian_federal_police_forgot_to_turn_their_vpn/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/europe/comments/1p9kxhm/belgian_federal_police_forgot_to_turn_their_vpn/</guid>
-      <pubDate>Sat, 29 Nov 2025 11:10:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46086681</comments>
+      <title>笨蛋，永远都是过程</title>
+      <link>https://its.promp.td/its-always-the-process-stupid/</link>
+      <description>📝 现在，这个玩具就是人工智能。只有业务流程优化（BPO）。依赖非结构化数据的流程通常是非结构化流程。
+
+
+🔤 Original: It's Always the Process, Stupid
+
+🔗 Read more: https://its.promp.td/its-always-the-process-stupid/</description>
+      <guid isPermaLink="true">https://its.promp.td/its-always-the-process-stupid/</guid>
+      <pubDate>Sat, 29 Nov 2025 14:20:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46087737</comments>
     </item>
     <item>
-      <title>Leak 证实 OpenAI 正在 ChatGPT 上准备广告以供公开发布</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/</link>
-      <description>📝 2026 年 CISO 预算基准 现在是预算季节。该报告汇集了他们的见解，让读者能够在进入 2026 年时对策略进行基准测试、识别新兴趋势并比较他们的优先事项。1 Reasoning 和 GPT-5。
+      <title>Hachi：图像搜索引擎</title>
+      <link>https://eagledot.xyz/hachi.md.html</link>
+      <description>📝 此类“个人”数据从本地硬盘存储到公司控制的云中心，这使其本质上是分布式的。当前的实现仅支持“图像”，但最终目标还包括支持视频、文本和音频等其他模态，一些代码将被共享，而需要一些新代码来更好地提取每种模态的特征。如果重用现有的有能力的项目/数据库中的一些代码是可行的，我会这样做，但大多数此类项目都被设计为与应用程序代码分离，这是有充分理由的，因为它们应该提供更多的保证，并且即使在重负载下也能保持稳健。
 
 
-🔤 Original: Leak confirms OpenAI is preparing ads on ChatGPT for public roll out
+🔤 Original: Hachi: An Image Search Engine
 
-🔗 Read more: https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/</description>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/</guid>
-      <pubDate>Sat, 29 Nov 2025 11:31:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46086771</comments>
+🔗 Read more: https://eagledot.xyz/hachi.md.html</description>
+      <guid isPermaLink="true">https://eagledot.xyz/hachi.md.html</guid>
+      <pubDate>Sat, 29 Nov 2025 13:56:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46087549</comments>
     </item>
     <item>
-      <title>我知道我们正处于人工智能泡沫中，因为没人想要我</title>
-      <link>https://petewarden.com/2025/11/29/i-know-were-in-an-ai-bubble-because-nobody-wants-me-%f0%9f%98%ad/</link>
-      <description>📝 甚至无法保证能够找到一个好的答案，因此这个过程本身可能会令人无限沮丧。我永远不能保证我会找到解决方案，但我的安慰始终是我比开始时对世界有了更好的理解。当我最终找到一种运行速度更快或使用更少资源的方法时，我会感到最深的满足感。
+      <title>太空中的数据中心是一个非常非常糟糕的主意</title>
+      <link>https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/</link>
+      <description>📝 事实并非如此。事实是，太空实际上并没有温度。只有物质才有温度。
 
 
-🔤 Original: I Know We're in an AI Bubble Because Nobody Wants Me
+🔤 Original: Datacenters in space are a terrible, horrible, no good idea
 
-🔗 Read more: https://petewarden.com/2025/11/29/i-know-were-in-an-ai-bubble-because-nobody-wants-me-%f0%9f%98%ad/</description>
-      <guid isPermaLink="true">https://petewarden.com/2025/11/29/i-know-were-in-an-ai-bubble-because-nobody-wants-me-%f0%9f%98%ad/</guid>
-      <pubDate>Sat, 29 Nov 2025 10:08:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46086410</comments>
+🔗 Read more: https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/</description>
+      <guid isPermaLink="true">https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/</guid>
+      <pubDate>Sat, 29 Nov 2025 14:05:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46087616</comments>
+    </item>
+    <item>
+      <title>Show HN：我构建了 Magiclip – 一个一体化的 AI 工作室</title>
+      <link>https://magiclip.io/</link>
+      <description>📝 1复制您的 YouTube 网址只需复制并粘贴您的 YouTube 视频的链接2上传您的视频将您的视频文件直接上传到我们的平台3自动创建在几秒钟内为 TikTok 准备好您的剪辑创建一个帐户您的 TikTok 可获利视频的快捷方式借助 AI 辅助掌握 TikTok 趋势YouTube 创建 AI 优化的 YouTube Shorts Instagram 使用 AI 支持的 Instagram ReelsViews 转换您的内容1。生成带字幕的剪辑将长视频转换为带有自动字幕的有影响力的剪辑。如何取消您的订阅。
+
+
+🔤 Original: Show HN: I built Magiclip – an all-in-one AI studio
+
+🔗 Read more: https://magiclip.io/</description>
+      <guid isPermaLink="true">https://magiclip.io/</guid>
+      <pubDate>Sat, 29 Nov 2025 12:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46086920</comments>
+    </item>
+    <item>
+      <title>Chainaanalysis 成功对门罗币进行去匿名化攻击</title>
+      <link>https://darkwebinformer.com/chainalysis-successful-deanonymization-attack-on-monero-2/</link>
+      <description>📝 Chainaanalysis：通过其全球运营和自己的管理员运行大量有毒的门罗币节点。目前还没有办法识别那些被中毒的门罗币节点，这些节点被天真的门罗币用户用作远程节点。如果用户使用 Chainaanalysis 中毒的门罗币节点，该节点可以为用户的交易提供中毒的诱饵，从而使门罗币的 RingCT 功能变得毫无用处。
+
+
+🔤 Original: Chainalysis Successful Deanonymization Attack on Monero
+
+🔗 Read more: https://darkwebinformer.com/chainalysis-successful-deanonymization-attack-on-monero-2/</description>
+      <guid isPermaLink="true">https://darkwebinformer.com/chainalysis-successful-deanonymization-attack-on-monero-2/</guid>
+      <pubDate>Sat, 29 Nov 2025 12:26:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46087029</comments>
+    </item>
+    <item>
+      <title>DMT 引起的临界性变化与自溶解相关</title>
+      <link>https://www.jneurosci.org/content/early/2025/10/24/JNEUROSCI.0344-25.2025</link>
+      <description>📝 2025 Mona Irrmischer 1GGZ Research，创伤与人格学术中心，阿姆斯特丹，荷兰在 Google Scholar 上查找该作者在 PubMed 上查找该作者在此网站上搜索该作者Marco Aqil 2DMT 研究小组，迷幻研究中心，伦敦帝国学院，伦敦，英国在 Google Scholar 上查找该作者在 PubMed 上查找该作者在此网站上搜索该作者Lisa Luan 2DMT英国伦敦帝国理工学院迷幻研究中心研究组在 Google Scholar 上查找该作者在 PubMed 上查找该作者在本网站上搜索该作者Tongyu Wang 3Department of Integrative Neurophysicalology, Centre for Neurogenomics and Cognitive Research (CNCR),Amsterdam Neuroscience, Vrije Universiteit 阿姆斯特丹，阿姆斯特丹，荷兰在 Google Scholar 上查找该作者在 PubMed 上查找该作者在该网站上搜索该作者站点Hessel Engelbregt 1GGZ Research，创伤与人格学术中心，阿姆斯特丹，荷兰在 Google Scholar 上查找该作者在 PubMed 上查找该作者在此站点上搜索该作者Robin Carhart-Harris 4Weill Institute for Neurosciences, University of California San Francisco, San Francisco, CA, United States of America在 Google Scholar 上查找该作者在 PubMed 上查找该作者在此站点上搜索该作者Klaus Linkenkaer-Hansen 3 综合神经生理学系，神经基因组学和认知研究中心 (CNCR)，阿姆斯特丹神经科学，阿姆斯特丹自由大学，荷兰阿姆斯特丹 在 Google Scholar 上查找该作者 在 PubMed 上查找该作者 在本网站上搜索该作者 Christopher Timmermann 2DMT 研究小组，迷幻研究中心，伦敦帝国理工学院，伦敦，英国 5 伦敦大学学院意识研究中心，实验心理学，伦敦大学学院，伦敦 WC1H 0AP，英国 在 Google Scholar 上查找该作者 在 PubMed 上查找该作者 在本网站上搜索该作者 ArticleInfo &amp; MetricseLetters PDF 摘要迷幻药深刻地改变了主观体验和大脑动力学。在这种情况下，熵增加，同时复杂性降低。这项研究的资金来自帕特里克·弗农向迷幻研究中心的捐款。
+
+
+🔤 Original: DMT-induced shifts in criticality correlate with self-dissolution
+
+🔗 Read more: https://www.jneurosci.org/content/early/2025/10/24/JNEUROSCI.0344-25.2025</description>
+      <guid isPermaLink="true">https://www.jneurosci.org/content/early/2025/10/24/JNEUROSCI.0344-25.2025</guid>
+      <pubDate>Sat, 29 Nov 2025 11:52:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46086863</comments>
+    </item>
+    <item>
+      <title>CRDT 字典：无冲突复制数据类型的现场指南</title>
+      <link>https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/</link>
+      <description>📝 我忘记了什么。 ）……每一个都有微妙的权衡。本指南有望解决这个问题。
+
+
+🔤 Original: The CRDT Dictionary: A Field Guide to Conflict-Free Replicated Data Types
+
+🔗 Read more: https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/</description>
+      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/</guid>
+      <pubDate>Sat, 29 Nov 2025 12:25:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46087022</comments>
     </item>
   </channel>
 </rss>
