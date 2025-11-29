@@ -6,80 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 28 Nov 2025 21:18:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 01:27:00 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Molly: 改良された Signal アプリ</title>
-      <link>https://molly.im/</link>
-      <description>📝 改良された Signal アプリ Get Molly Molly は、改善された機能を備えた Android 用の独立した Signal フォークです。 Signal Encrypted とは異なり、独自の BLOB が含まれていません。 パスフレーズ暗号化によるデータベースの保護 マルチデバイス 複数のデバイスを 1 つのアカウントにペアリング マテリアル ユー デバイス パレットに従う追加テーマ UnifiedPush Ungoogled 通知システム 自動ロック 一定期間の不在時の RAM シュレッディング 機密データを安全にシュレッディングtorbrowser Tor サポート SOCKS プロキシと Orbot 経由の Tor をサポート その他、より優れた新機能が登場します Molly github をダウンロード [#142] 寄付してください。
+      <title>内角の和がゼロになる三角形</title>
+      <link>https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/</link>
+      <description>📝 小さな三角形の内角和は π に近くなります。面積 = D = π − 内角の合計。下の図は、双曲幾何学における内角の和が 0 で、面積が π です。
 
 
-🔤 Original: Molly: An Improved Signal App
+🔤 Original: A triangle whose interior angles sum to zero
 
-🔗 Read more: https://molly.im/</description>
-      <guid isPermaLink="true">https://molly.im/</guid>
-      <pubDate>Fri, 28 Nov 2025 17:48:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080916</comments>
+🔗 Read more: https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/</guid>
+      <pubDate>Sat, 29 Nov 2025 00:26:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46084122</comments>
     </item>
     <item>
-      <title>長期稼働エージェント向けの効果的なハーネス</title>
-      <link>https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</link>
-      <description>📝 私たちは、Claude Agent SDK が多くのコンテキスト ウィンドウ間で効果的に動作できるようにするための 2 つのソリューションを開発しました。1 つは最初の実行時に環境をセットアップするイニシャライザー エージェント、もう 1 つは次のセッションに明確なアーティファクトを残しながら、すべてのセッションで段階的に進行するタスクを負うコーディング エージェントです。これは圧縮でも発生しますが、圧縮では必ずしも完全に明確な指示が次のエージェントに渡されるわけではありません。この「別のプロンプト」は、初期化エージェントが、将来のコーディング エージェントが効果的に動作するために必要なすべてのコンテキストを備えた環境をセットアップすることを要求します。
+      <title>エアバス A320 – 強烈な日射により、飛行に重要なデータが破損する可能性があります</title>
+      <link>https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action</link>
+      <description>📝 その結果、エアバスは現在運航している相当数のA320ファミリー航空機が影響を受ける可能性があることを特定した。エアバスは、これらの推奨事項が乗客と顧客の運航の混乱につながることを認めています。関連資産ダウンロードドキュメントA320 ファミリーの予防的フリート行動に関するエアバスの最新情報ドキュメントA320 ファミリーの予防的フリートの行動に関するエアバスの最新情報連絡先Guillaume SteuerAIRBUS +33 6 73 82 11 68 guillaume。
 
 
-🔤 Original: Effective harnesses for long-running agents
+🔤 Original: Airbus A320 – intense solar radiation may corrupt data critical for flight
 
-🔗 Read more: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</description>
-      <guid isPermaLink="true">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
-      <pubDate>Fri, 28 Nov 2025 19:05:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46081704</comments>
+🔗 Read more: https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action</description>
+      <guid isPermaLink="true">https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action</guid>
+      <pubDate>Fri, 28 Nov 2025 21:40:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083004</comments>
     </item>
     <item>
-      <title>Airloom – 3D フライト追跡</title>
-      <link>https://objectiveunclear.com/airloom.html</link>
-      <description>📝 検索半径 (km) 100 - + フライト/航空機の検索 統計の検索 航空機: 0 更新: -- コントロールとナビゲーション 表示のリセット 航跡のクリア 飛行モード (WASD) アイドル後の自動回転 (10 秒) コンパスの表示 飛行追跡 飛行追跡サーフモードを有効にする 航空機をクリックして選択 • サーフによりフライトが自動的に切り替わります 以下: -- 表示設定 航跡の長さ 1000 線の太さ 2 速度別の色 (対高度) 空港ラベルの表示 都市名の表示 立っている方向 地図と地形図レイヤー なし 暗い (ラベル) 暗い (ラベルなし) 3D - 暗い (ラベル) 3D - 暗い (ラベルなし) 衛星ワイヤーフレーム GPS 標高: -- フィート 境界線を表示 空域 空域を表示 クラス B (メジャー) クラス C (中) クラス D (小) 焦点半径のみ ワイヤーフレームのみ (塗りつぶしなし) 空域の不透明度 0. 3 データ設定 更新レート (秒) 1 フィルター フィルターされた航空機を削除 (vs)非表示) コールサイン / ヘックス 航空機タイプ 最小高度 (フィート) 最大高度 (フィート) 地上に表示 フィルターのリセット 録音と再生 録音開始 録音再生 ▶ 再生 ⏹ 停止 録音の保存 録音のロード 録音のクリア 録音: 非アクティブ 継続時間: 0:00 メモリー: 0 MB 再生タイムライン 0:00 0:00 再生速度 0. 2 地上高 (フィート) 0 霧の距離 20000 座標軸の表示 表示グラウンド グリッド 集中モード (検索半径内を表示) マップの明るさ 90% ワイヤーフレーム密度 低 (速い) 中 高 非常に高い 色相 0° (グレー) 明るさ 50% 高低勾配 勾配強度 2.
+      <title>ソフトウェア開発者の告白: もう自己検閲は不要</title>
+      <link>https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/</link>
+      <description>📝 まさにその無知から、知識への意欲が芽生えます。私は 2012 年から表向きオブジェクト指向ソフトウェアを書いています。それは非現実的ではありませんか。
 
 
-🔤 Original: Airloom – 3D Flight Tracker
+🔤 Original: Confessions of a Software Developer: No More Self-Censorship
 
-🔗 Read more: https://objectiveunclear.com/airloom.html</description>
-      <guid isPermaLink="true">https://objectiveunclear.com/airloom.html</guid>
-      <pubDate>Fri, 28 Nov 2025 16:49:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080289</comments>
+🔗 Read more: https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/</description>
+      <guid isPermaLink="true">https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/</guid>
+      <pubDate>Fri, 28 Nov 2025 22:21:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083303</comments>
     </item>
     <item>
-      <title>Python の前身であるオリジナルの ABC 言語 (1991 年)</title>
-      <link>https://github.com/gvanrossum/abc-unix</link>
-      <description>📝 これらのソースを cwi からダウンロードしました。最終的には Steven Pemberton と交渉してみます (できれば MIT)。著者はエディ・ボーヴェ、フランク・ファン・ダイク、レオ・ゲルツ、ティモ・クライネン、ランバート・メルテンス、スティーブン・ペンバートン、グイド・ヴァン・ロッサム。
+      <title>UBI ブースターが陥り続ける致命的な罠</title>
+      <link>https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/</link>
+      <description>📝 支援者は、保証された収入から得られるすべての利益に焦点を当てる必要があります。一方、UBIの支持者たちは、たとえUBIが労働努力を増加させるという調査結果を指摘したとしても、真っ先に批判者の罠にはまってしまう。タブスのコメントは、ストックトンさんの労働努力の増加が自明の理であると描写することで、人々の労働時間が減少する可能性が高いという結果を報告するための、より大きな助成金が関係する可能性のある将来の実験をより困難なものにしている。
 
 
-🔤 Original: The original ABC language, Python's predecessor (1991)
+🔤 Original: The Fatal Trap UBI Boosters Keep Falling Into
 
-🔗 Read more: https://github.com/gvanrossum/abc-unix</description>
-      <guid isPermaLink="true">https://github.com/gvanrossum/abc-unix</guid>
-      <pubDate>Fri, 28 Nov 2025 19:58:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46082204</comments>
+🔗 Read more: https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/</description>
+      <guid isPermaLink="true">https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/</guid>
+      <pubDate>Fri, 28 Nov 2025 23:24:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083730</comments>
     </item>
     <item>
-      <title>Show HN: Pulse 2.0 – 誰でも DJ になれるライブ コリスニング ルーム</title>
-      <link>https://473999.net/pulse</link>
-      <guid isPermaLink="true">https://473999.net/pulse</guid>
-      <pubDate>Fri, 28 Nov 2025 18:39:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46081443</comments>
+      <title>Django の新しいバックグラウンド タスクの概要</title>
+      <link>https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/</link>
+      <description>📝 タスクの定義 これが新しいフレームワークの主な目標です。タスク キュー固有のデコレータやその他のメソッドを使用するのではなく、Django の標準 API を使用してタスクを定義することです。タスクをキューに入れる タスクをキューに追加するのは簡単です: task_result = send_notification。タスクで get_result(result_id) を呼び出すだけです。
+
+
+🔤 Original: A first look at Django's new background tasks
+
+🔗 Read more: https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/</description>
+      <guid isPermaLink="true">https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/</guid>
+      <pubDate>Fri, 28 Nov 2025 21:46:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083051</comments>
     </item>
     <item>
-      <title>大企業では優秀なエンジニアがひどいコードを書く</title>
-      <link>https://www.seangoedecke.com/bad-code-at-big-companies/</link>
-      <description>📝 数年ごとに、大手テクノロジー企業が驚くほどずさんなコードを作成していることに気づく人がいます。大手テクノロジー企業は、多くの有能なエンジニアを惹きつけるのに十分な給料を払っています。それは、多くの大手テクノロジーエンジニアが常に「それを見つけ出している」ことを意味します。
+      <title>エアバスが6,000機の改修要請で運航中断警告</title>
+      <link>https://www.bbc.com/news/live/cvg4y6g74ert</link>
+      <description>📝 ニュージーランド航空は以前の声明の更新を発表し、航空機に必要なソフトウェアアップデートを開始する前に、「可能な場合には」今日からA320便の運航が可能になると述べた。同紙によると、欧州連合航空安全局（EASA）から新たなガイダンスが配布され、「航空機が目的地に到着し混乱を最小限に抑える」ため、航空機は現地時間11月30日12時59分（グリニッジ標準時、11月29日23時59分）まで運航を継続できるとしている。同航空は、A320機の運航は安全であり、ソフトウェアアップデートは予防的なものであると繰り返した。
 
 
-🔤 Original: Good engineers write bad code at big companies
+🔤 Original: Flight disruption warning as Airbus requests modifications to 6k planes
 
-🔗 Read more: https://www.seangoedecke.com/bad-code-at-big-companies/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/bad-code-at-big-companies/</guid>
-      <pubDate>Fri, 28 Nov 2025 19:59:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46082223</comments>
+🔗 Read more: https://www.bbc.com/news/live/cvg4y6g74ert</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/live/cvg4y6g74ert</guid>
+      <pubDate>Fri, 28 Nov 2025 21:16:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46082825</comments>
+    </item>
+    <item>
+      <title>ファブリックプロジェクト</title>
+      <link>https://github.com/Fabric-Project/Fabric</link>
+      <description>📝 ファブリックは、Satin 3D エンジン @Reza Ali によって作成されたサテン レンダリング エンジンを使用します。要件警告ファブリックは現在大規模に建設中であることに注意してください。 Fabric Editor は Swift および SwiftUI で書かれています。
+
+
+🔤 Original: Fabric Project
+
+🔗 Read more: https://github.com/Fabric-Project/Fabric</description>
+      <guid isPermaLink="true">https://github.com/Fabric-Project/Fabric</guid>
+      <pubDate>Fri, 28 Nov 2025 22:32:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083375</comments>
+    </item>
+    <item>
+      <title>最も活況な企業を空売りする方法</title>
+      <link>https://www.economist.com/finance-and-economics/2025/11/26/how-to-short-the-bubbliest-firms</link>
+      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2025/11/26/how-to-short-the-bubbliest-firms</guid>
+      <pubDate>Fri, 28 Nov 2025 21:56:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083137</comments>
     </item>
   </channel>
 </rss>

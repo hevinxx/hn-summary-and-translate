@@ -6,80 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 28 Nov 2025 21:18:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 01:27:00 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Molly：改进的信号应用程序</title>
-      <link>https://molly.im/</link>
-      <description>📝 改进的 Signal 应用程序 Get Molly Molly 是 Android 的独立 Signal 分支，具有改进的功能： 完全自由和开放源码软件 与 Signal Encrypted 不同，不包含专有 blob 使用密码加密保护数据库 多设备将多个设备与单个帐户配对 Material You 遵循您的设备调色板的额外主题 UnifiedPush Ungoogled 通知系统 自动锁定 当您离开一段时间后 RAM 粉碎 安全地粉碎 torbrowser 的敏感数据 Tor 支持 通过 SOCKS 代理和 Tor 支持Orbot 以及更多新的和更好的功能即将推出 下载 Molly github [#142] 捐赠。
+      <title>内角和为零的三角形</title>
+      <link>https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/</link>
+      <description>📝 小三角形的内角和接近 π。面积 = D = π − 内角和。下图双曲几何中的内角和为 0，面积为 π。
 
 
-🔤 Original: Molly: An Improved Signal App
+🔤 Original: A triangle whose interior angles sum to zero
 
-🔗 Read more: https://molly.im/</description>
-      <guid isPermaLink="true">https://molly.im/</guid>
-      <pubDate>Fri, 28 Nov 2025 17:48:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080916</comments>
+🔗 Read more: https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/</guid>
+      <pubDate>Sat, 29 Nov 2025 00:26:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46084122</comments>
     </item>
     <item>
-      <title>长期运行代理的有效利用</title>
-      <link>https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</link>
-      <description>📝 我们开发了一个两重解决方案，使 Claude Agent SDK 能够在多个上下文窗口中有效工作：一个初始化程序代理在第一次运行时设置环境，另一个编码代理的任务是在每个会话中取得增量进展，同时为下一个会话留下清晰的工件。即使使用压缩也会发生这种情况，压缩并不总是能将完全清晰的指令传递给下一个代理。这种“不同的提示”要求初始化程序代理设置具有未来编码代理有效工作所需的所有必要上下文的环境。
+      <title>空客 A320 – 强烈的太阳辐射可能会损坏对飞行至关重要的数据</title>
+      <link>https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action</link>
+      <description>📝 因此，空中客车公司发现目前正在使用的大量 A320 系列飞机可能会受到影响。空中客车公司承认这些建议将导致乘客和客户的运营中断。相关资产下载文件空中客车公司关于 A320 家庭预防性机队行动的更新文件空中客车公司关于 A320 家庭预防性机队行动的更新联系人Guillaume SteuerAIRBUS +33 6 73 82 11 68 guillaume。
 
 
-🔤 Original: Effective harnesses for long-running agents
+🔤 Original: Airbus A320 – intense solar radiation may corrupt data critical for flight
 
-🔗 Read more: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</description>
-      <guid isPermaLink="true">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
-      <pubDate>Fri, 28 Nov 2025 19:05:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46081704</comments>
+🔗 Read more: https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action</description>
+      <guid isPermaLink="true">https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action</guid>
+      <pubDate>Fri, 28 Nov 2025 21:40:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083004</comments>
     </item>
     <item>
-      <title>Airloom – 3D 飞行跟踪器</title>
-      <link>https://objectiveunclear.com/airloom.html</link>
-      <description>📝 搜索半径（公里） 100 - + 航班/飞机搜索 搜索统计 飞机：0 更新： -- 控制和导航 重置视图 清除轨迹 飞行模式（WASD） 空闲后自动旋转（10 秒） 显示罗盘 飞行跟随 启用飞行跟随 冲浪模式 单击飞机进行选择 • 冲浪自动切换航班跟随： -- 显示设置 轨迹长度 1000 线粗细 2 按速度着色（与高度） 显示机场标签 显示城市名称 站立方向 地图和地形图图层 无 深色（标签） 深色（无标签） 3D - 深色（标签） 3D - 深色（无标签） 卫星线框 GPS 高程： -- ft 显示边界 空域 显示空域 B 级（大） C 级（中） D 级（小） 仅聚焦半径 仅线框（无填充） 空域不透明度 0. 3 数据设置 更新速率（秒） 1 过滤器 删除过滤的飞机（与隐藏） 呼号/十六进制飞机类型 最低海拔 (ft) 最高海拔 (ft) 在地面上显示 重置过滤器 录制和播放 开始录制 播放录制 ▶ 播放 ⏹ 停止 保存录制 加载录制 清除录制 录制: 不活动 持续时间: 0:00 内存: 0 MB 播放时间线 0:00 0:00 播放速度 0. 2 地面高程 (ft) 0 雾距 20000 显示坐标轴 显示地面网格 聚焦模式 (显示在搜索半径内） 地图亮度 90% 线框密度 低（快） 中 高 非常高 色调 0°（灰色） 亮度 50% 高程梯度 梯度强度 2。
+      <title>软件开发人员的自白：不再有自我审查</title>
+      <link>https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/</link>
+      <description>📝 正是从这种无知中萌生了求知的动力。自 2012 年以来，我一直在编写表面上面向对象的软件。这不是不现实吗？
 
 
-🔤 Original: Airloom – 3D Flight Tracker
+🔤 Original: Confessions of a Software Developer: No More Self-Censorship
 
-🔗 Read more: https://objectiveunclear.com/airloom.html</description>
-      <guid isPermaLink="true">https://objectiveunclear.com/airloom.html</guid>
-      <pubDate>Fri, 28 Nov 2025 16:49:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46080289</comments>
+🔗 Read more: https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/</description>
+      <guid isPermaLink="true">https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/</guid>
+      <pubDate>Fri, 28 Nov 2025 22:21:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083303</comments>
     </item>
     <item>
-      <title>最初的 ABC 语言，Python 的前身（1991）</title>
-      <link>https://github.com/gvanrossum/abc-unix</link>
-      <description>📝 我从 cwi 下载了这些资源。我最终会尝试与史蒂文·彭伯顿（希望是麻省理工学院）谈判。作者埃迪·博伊夫、弗兰克·范迪克、利奥·格尔茨、蒂莫·克里尼恩、兰伯特·梅尔滕斯、史蒂文·彭伯顿、吉多·范罗苏姆。
+      <title>UBI支持者不断陷入的致命陷阱</title>
+      <link>https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/</link>
+      <description>📝 支持者需要关注有保障的收入所带来的所有好处。与此同时，全民基本收入的支持者却一头扎进了批评者的陷阱，即使他们指出全民基本收入增加了劳动强度。塔布斯的评论将斯托克顿的劳动努力的上升描述为不言而喻的好事，这使得未来可能需要更多拨款的实验更难报告人们工作时间减少的可能结果。
 
 
-🔤 Original: The original ABC language, Python's predecessor (1991)
+🔤 Original: The Fatal Trap UBI Boosters Keep Falling Into
 
-🔗 Read more: https://github.com/gvanrossum/abc-unix</description>
-      <guid isPermaLink="true">https://github.com/gvanrossum/abc-unix</guid>
-      <pubDate>Fri, 28 Nov 2025 19:58:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46082204</comments>
+🔗 Read more: https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/</description>
+      <guid isPermaLink="true">https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/</guid>
+      <pubDate>Fri, 28 Nov 2025 23:24:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083730</comments>
     </item>
     <item>
-      <title>Show HN：Pulse 2.0 – 任何人都可以成为 DJ 的现场共同聆听室</title>
-      <link>https://473999.net/pulse</link>
-      <guid isPermaLink="true">https://473999.net/pulse</guid>
-      <pubDate>Fri, 28 Nov 2025 18:39:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46081443</comments>
+      <title>Django 新后台任务初探</title>
+      <link>https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/</link>
+      <description>📝 定义任务 这是新框架的主要目标：使用 Django 的标准 API 定义任务，而不是使用任务队列特定的装饰器或其他方法。将任务加入队列 将任务添加到队列很简单：task_result = send_notification。只需在您的任务上调用 get_result(result_id) 即可。
+
+
+🔤 Original: A first look at Django's new background tasks
+
+🔗 Read more: https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/</description>
+      <guid isPermaLink="true">https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/</guid>
+      <pubDate>Fri, 28 Nov 2025 21:46:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083051</comments>
     </item>
     <item>
-      <title>优秀的工程师在大公司写出糟糕的代码</title>
-      <link>https://www.seangoedecke.com/bad-code-at-big-companies/</link>
-      <description>📝 每隔几年，就会有人注意到大型科技公司有时会编写出令人惊讶的草率代码。大型科技公司的薪酬足以吸引许多有能力的工程师。这意味着许多大型科技工程师都在不断“弄清楚”。
+      <title>空中客车公司要求修改 6k 架飞机，发出航班中断警告</title>
+      <link>https://www.bbc.com/news/live/cvg4y6g74ert</link>
+      <description>📝 新西兰航空公司对之前的声明进行了更新，并表示他们今天将能够“在可能的情况下”运营 A320 服务，然后再开始对其飞机进行所需的软件更新。据称，欧盟航空安全局 (EASA) 已发布新指南，称飞机可以继续运营至 11 月 30 日当地时间 12 点 59 分（格林尼治标准时间 11 月 29 日 23 点 59 分），以“让飞机抵达目的地并尽量减少干扰”。该航空公司重申，其 A320 机队运行安全，软件更新是预防性的。
 
 
-🔤 Original: Good engineers write bad code at big companies
+🔤 Original: Flight disruption warning as Airbus requests modifications to 6k planes
 
-🔗 Read more: https://www.seangoedecke.com/bad-code-at-big-companies/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/bad-code-at-big-companies/</guid>
-      <pubDate>Fri, 28 Nov 2025 19:59:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46082223</comments>
+🔗 Read more: https://www.bbc.com/news/live/cvg4y6g74ert</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/live/cvg4y6g74ert</guid>
+      <pubDate>Fri, 28 Nov 2025 21:16:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46082825</comments>
+    </item>
+    <item>
+      <title>面料项目</title>
+      <link>https://github.com/Fabric-Project/Fabric</link>
+      <description>📝 Fabric使用@Reza Ali编写的Satin 3D引擎Satin渲染引擎。要求 警告请注意 Fabric 正在大量建设中。 Fabric Editor 是用 Swift 和 SwiftUI 编写的。
+
+
+🔤 Original: Fabric Project
+
+🔗 Read more: https://github.com/Fabric-Project/Fabric</description>
+      <guid isPermaLink="true">https://github.com/Fabric-Project/Fabric</guid>
+      <pubDate>Fri, 28 Nov 2025 22:32:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083375</comments>
+    </item>
+    <item>
+      <title>如何做空最有泡沫的公司</title>
+      <link>https://www.economist.com/finance-and-economics/2025/11/26/how-to-short-the-bubbliest-firms</link>
+      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2025/11/26/how-to-short-the-bubbliest-firms</guid>
+      <pubDate>Fri, 28 Nov 2025 21:56:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46083137</comments>
     </item>
   </channel>
 </rss>
