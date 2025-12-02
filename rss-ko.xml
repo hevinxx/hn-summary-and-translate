@@ -6,99 +6,161 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 02 Dec 2025 15:25:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 18:34:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>내 어린 시절과 초기 경력에 대한 일련의 삽화</title>
-      <link>https://www.jasonscheirer.com/weblog/vignettes/</link>
-      <description>📝 소프트웨어는 멀티미디어를 지원해야 합니다. 이것이 바로 새로운 표준입니다. "멀티미디어"는 "소리와 비디오"를 의미합니다.
+      <title>Bun이 Anthropic에 인수되었습니다.</title>
+      <link>https://bun.com/blog/bun-joins-anthropic</link>
+      <description>📝 Bun이 깨지면 Claude Code도 깨집니다. 기본 애드온과 함께 작동합니다. Claude Code에 푹 빠져서 Claude Code를 직접 사용하기 시작했습니다.
 
 
-🔤 Original: A series of vignettes from my childhood and early career
+🔤 Original: Bun has been acquired by Anthropic
 
-🔗 Read more: https://www.jasonscheirer.com/weblog/vignettes/</description>
-      <guid isPermaLink="true">https://www.jasonscheirer.com/weblog/vignettes/</guid>
-      <pubDate>Tue, 02 Dec 2025 12:28:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46120549</comments>
+🔗 Read more: https://bun.com/blog/bun-joins-anthropic</description>
+      <guid isPermaLink="true">https://bun.com/blog/bun-joins-anthropic</guid>
+      <pubDate>Tue, 02 Dec 2025 18:05:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46124267</comments>
     </item>
     <item>
-      <title>동료와의 근접성은 장기적 개발을 증가시키고 단기 성과를 감소시킵니다.</title>
-      <link>https://pallais.scholars.harvard.edu/publications/power-proximity-coworkers-training-tomorrow-or-productivity-today</link>
-      <description>📝 사무실이 열려 있을 때 모든 팀원과 같은 건물에서 일하는 엔지니어는 멀리 떨어져 있는 팀원과 함께 일하는 엔지니어보다 온라인 피드백을 22% 더 많이 받았습니다. 근접성으로 인한 상쇄는 동료와 가까이 있을 때 더 많은 멘토링을 하고 더 많은 멘토링을 받는 여성의 경우 더 심각합니다. 이러한 결과는 국가적 추세를 설명하는 데 도움이 될 수 있습니다. 멘토링이 자주 필요한 20대 근로자와 멘토링을 자주 제공하는 40대 이상 근로자의 직장 복귀 가능성이 더 높습니다.
+      <title>10억 행에 대한 100000 TPS: SQLite의 비합리적인 효율성</title>
+      <link>https://andersmurphy.com/2025/12/02/100000-tps-over-a-billion-rows-the-unreasonable-effectiveness-of-sqlite.html</link>
+      <description>📝 PreludeFor the code examples I will be using Clojure. By interactive transactions I mean transactions where you execute some queries, run some application code and then execute more queries. 거래의 95%는 0으로 이루어집니다.
 
 
-🔤 Original: Proximity to coworkers increases long-run development, lowers short-term output
+🔤 Original: 100000 TPS over a billion rows: the unreasonable effectiveness of SQLite
 
-🔗 Read more: https://pallais.scholars.harvard.edu/publications/power-proximity-coworkers-training-tomorrow-or-productivity-today</description>
-      <guid isPermaLink="true">https://pallais.scholars.harvard.edu/publications/power-proximity-coworkers-training-tomorrow-or-productivity-today</guid>
-      <pubDate>Tue, 02 Dec 2025 14:01:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46121243</comments>
+🔗 Read more: https://andersmurphy.com/2025/12/02/100000-tps-over-a-billion-rows-the-unreasonable-effectiveness-of-sqlite.html</description>
+      <guid isPermaLink="true">https://andersmurphy.com/2025/12/02/100000-tps-over-a-billion-rows-the-unreasonable-effectiveness-of-sqlite.html</guid>
+      <pubDate>Tue, 02 Dec 2025 17:59:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46124205</comments>
     </item>
     <item>
-      <title>Python 데이터 과학 핸드북</title>
-      <link>https://jakevdp.github.io/PythonDataScienceHandbook/</link>
-      <description>📝 Pandas를 사용한 데이터 조작¶ Pandas 개체 소개 데이터 인덱싱 및 선택 Pandas의 데이터 작업 누락된 데이터 처리 계층적 인덱싱 데이터 세트 결합: 연결 및 추가 데이터 세트 결합: 병합 및 조인 집계 및 그룹화 피벗 테이블 벡터화된 문자열 작업 시계열 고성능 Pandas 작업: eval() 및 query() 추가 리소스 4. Matplotlib를 사용한 시각화¶ 단순 라인 플롯 단순 산점도 오류 시각화 밀도 및 등고선 플롯 히스토그램, 비닝 및 밀도 플롯 범례 사용자 정의 컬러바 사용자 정의 다중 하위 플롯 텍스트 및 주석 눈금 사용자 정의 Matplotlib 사용자 정의: 구성 및 스타일시트 Matplotlib의 3차원 플로팅 Seaborn을 사용한 베이스맵 시각화를 사용한 지리적 데이터 추가 리소스 5. 기계 학습¶ 기계 학습이란 무엇입니까?
+      <title>The Junior Hiring Crisis</title>
+      <link>https://people-work.io/blog/junior-hiring-crisis/</link>
+      <description>📝 Students are telling advisors that they are struggling with getting that first job, and hopelessness looms. The most common answer from career services professionals when asked what they needed was more staff. People right out of college don’t have years of experience to know that they should, also.
 
-
-🔤 Original: Python Data Science Handbook
-
-🔗 Read more: https://jakevdp.github.io/PythonDataScienceHandbook/</description>
-      <guid isPermaLink="true">https://jakevdp.github.io/PythonDataScienceHandbook/</guid>
-      <pubDate>Tue, 02 Dec 2025 12:38:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46120611</comments>
+🔗 Read more: https://people-work.io/blog/junior-hiring-crisis/</description>
+      <guid isPermaLink="true">https://people-work.io/blog/junior-hiring-crisis/</guid>
+      <pubDate>Tue, 02 Dec 2025 17:48:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46124063</comments>
     </item>
     <item>
-      <title>HN 표시: Marmot – 단일 바이너리 데이터 카탈로그(Kafka 없음, Elasticsearch 없음)</title>
-      <link>https://github.com/marmotdata/marmot</link>
-      <description>📝 Marmot 모든 데이터 자산에 대한 오픈 소스 카탈로그를 몇 초 만에 전체 조직의 모든 데이터 자산으로 검색할 수 있습니다. Marmot는 기업의 복잡성 없이 강력한 데이터 검색을 원하는 팀을 위해 설계된 오픈 소스 데이터 카탈로그입니다. 전체 팀이 데이터 자산에 대한 중앙 집중식 지식을 유지하도록 하세요.
+      <title>Nixtml: Nix로 작성된 정적 웹사이트 및 블로그 생성기</title>
+      <link>https://github.com/arnarg/nixtml</link>
+      <description>📝 Content By setting website. html in the final website derivation. Create a collection under website.
 
 
-🔤 Original: Show HN: Marmot – Single-binary data catalog (no Kafka, no Elasticsearch)
+🔤 Original: Nixtml: Static website and blog generator written in Nix
 
-🔗 Read more: https://github.com/marmotdata/marmot</description>
-      <guid isPermaLink="true">https://github.com/marmotdata/marmot</guid>
-      <pubDate>Tue, 02 Dec 2025 14:59:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46121860</comments>
+🔗 Read more: https://github.com/arnarg/nixtml</description>
+      <guid isPermaLink="true">https://github.com/arnarg/nixtml</guid>
+      <pubDate>Tue, 02 Dec 2025 14:54:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46121799</comments>
     </item>
     <item>
-      <title>비동기 프로그램에 대한 Zig의 새로운 계획</title>
-      <link>https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/</link>
-      <description>📝 이제 프로젝트는 함수 색상 지정 문제를 해결하고 동기 또는 비동기 I/O를 사용하여 올바르게 실행되는 코드를 작성할 수 있는 비동기 I/O에 대한 새로운 접근 방식을 Zig SHOWTIME 비디오에서 발표했습니다. 많은 언어(Python, JavaScript 및 Rust 포함)에서 비동기 코드는 특수 구문을 사용합니다. 동기 코드는 Io 아래로 이동된 표준 라이브러리 함수를 사용하는 것 외에는 크게 변경되지 않았다고 그는 설명했습니다.
+      <title>Poka Labs (YC S24)에서 창립 엔지니어를 채용합니다</title>
+      <link>https://www.ycombinator.com/companies/poka-labs/jobs/RCQgmqB-founding-engineer</link>
+      <description>📝 화학 제조를 위한 최신 운영 체제입니다. AI는 이 분야의 운영 방식을 변화시킬 수 있습니다. 우리는 현대 제조의 인텔리전스 계층을 구축하고 있으며 이것이 흥미롭다면 이야기를 나누고 싶습니다.
 
 
-🔤 Original: Zig's new plan for asynchronous programs
+🔤 Original: Poka Labs (YC S24) Is Hiring a Founding Engineer
 
-🔗 Read more: https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/</description>
-      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/</guid>
-      <pubDate>Tue, 02 Dec 2025 14:31:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46121539</comments>
+🔗 Read more: https://www.ycombinator.com/companies/poka-labs/jobs/RCQgmqB-founding-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/poka-labs/jobs/RCQgmqB-founding-engineer</guid>
+      <pubDate>Tue, 02 Dec 2025 17:00:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46123374</comments>
     </item>
     <item>
-      <title>Mistral 3 제품군 출시</title>
-      <link>https://mistral.ai/news/mistral-3</link>
-      <description>📝 Mistral 3Mistral 3Mistral 3Mistral 3Mistral 3Mistral 3Mistral 3Mistral 3Mistral 3차세대 개방형 멀티모달 및 다국어 AIMistral 3소개오늘 차세대 Mistral 모델인 Mistral 3를 발표합니다. Mistral Large 3: 최첨단 개방형 모델 Mistral Large 3는 NVIDIA의 H200 GPU 3000개에서 처음부터 훈련된 세계 최고의 개방형 무게 모델 중 하나입니다. 한 가지 더… Mistral AI를 통한 사용자 정의 맞춤형 AI 솔루션을 찾는 조직을 위해 Mistral AI는 사용자 정의 모델 트레를 제공합니다.
+      <title>430만 개의 브라우저가 감염되었습니다: ShadyPanda의 7년간의 악성코드 캠페인 내부</title>
+      <link>https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign</link>
+      <description>📝 com, ShadyPanda의 확장 프로그램은 자동으로 제휴 추적 코드를 삽입했습니다. 3단계: Long GameFive 확장. 완전한 브라우저 감시 현재 페이로드는 모든 웹사이트 방문을 모니터링합니다.
 
 
-🔤 Original: Mistral 3 family of models released
+🔤 Original: 4.3M Browsers Infected: Inside ShadyPanda's 7-Year Malware Campaign
 
-🔗 Read more: https://mistral.ai/news/mistral-3</description>
-      <guid isPermaLink="true">https://mistral.ai/news/mistral-3</guid>
-      <pubDate>Tue, 02 Dec 2025 15:01:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46121889</comments>
+🔗 Read more: https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign</description>
+      <guid isPermaLink="true">https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign</guid>
+      <pubDate>Tue, 02 Dec 2025 16:30:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46122957</comments>
     </item>
     <item>
-      <title>집합 이론 유형에 대한 Lazier 이진 결정 다이어그램</title>
-      <link>https://elixir-lang.org/blog/2025/12/02/lazier-bdds-for-set-theoretic-types/</link>
-      <description>📝 이 문서에서는 유형 시스템의 구현 세부 사항을 다룹니다. , 8개의 고유한 조합이 있습니다. 19에서는 익명 함수의 유형 추론이 도입되면서 유형 시스템에서 부정이 더 널리 퍼져 기하급수적인 증가가 더 자주 발생했습니다.
+      <title>IBM CEO는 AI 데이터 센터에 대한 투자가 성과를 거둘 '방법'이 없다고 말했습니다.</title>
+      <link>https://www.businessinsider.com/ibm-ceo-big-tech-ai-capex-data-center-spending-2025-12</link>
+      <description>📝 By Henry Chandonnet You're currently following this author. 새로운 작가를 팔로우하고 스토리를 놓치지 마세요. Follow Henry Chandonnet Every time Henry publishes a story, you’ll get an alert straight to your inbox.
 
 
-🔤 Original: Lazier Binary Decision Diagrams for set-theoretic types
+🔤 Original: IBM CEO says there is 'no way' spending on AI data centers will pay off
 
-🔗 Read more: https://elixir-lang.org/blog/2025/12/02/lazier-bdds-for-set-theoretic-types/</description>
-      <guid isPermaLink="true">https://elixir-lang.org/blog/2025/12/02/lazier-bdds-for-set-theoretic-types/</guid>
-      <pubDate>Tue, 02 Dec 2025 12:37:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46120603</comments>
+🔗 Read more: https://www.businessinsider.com/ibm-ceo-big-tech-ai-capex-data-center-spending-2025-12</description>
+      <guid isPermaLink="true">https://www.businessinsider.com/ibm-ceo-big-tech-ai-capex-data-center-spending-2025-12</guid>
+      <pubDate>Tue, 02 Dec 2025 18:10:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46124324</comments>
+    </item>
+    <item>
+      <title>애플이 14년 만에 스마트폰 출하량에서 삼성을 제쳤다.</title>
+      <link>https://sherwood.news/tech/apple-to-beat-samsung-in-smartphone-shipments-for-first-time-in-14-years/</link>
+      <description>📝 보고서에 따르면 세계 시장 점유율은 7%입니다. 유리한 업그레이드 주기와 내년에 예상되는 저가형 보급형 iPhone은 Apple이 향후 몇 년간 선두를 유지할 것으로 예상되는 요인 중 하나입니다. 애플 아이폰 출하량이 14년 만에 처음으로 삼성을 앞질 것이라는 보고서에 따르면 삼성전자는 2억 3500만 대의 휴대폰을 출하해 애플 뒤를 이어 18위를 차지할 것으로 보인다.
+
+
+🔤 Original: Apple to beat Samsung in smartphone shipments for first time in 14 years
+
+🔗 Read more: https://sherwood.news/tech/apple-to-beat-samsung-in-smartphone-shipments-for-first-time-in-14-years/</description>
+      <guid isPermaLink="true">https://sherwood.news/tech/apple-to-beat-samsung-in-smartphone-shipments-for-first-time-in-14-years/</guid>
+      <pubDate>Tue, 02 Dec 2025 17:24:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46123747</comments>
+    </item>
+    <item>
+      <title>인류는 롤빵을 획득</title>
+      <link>https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone</link>
+      <description>📝 Claude Code는 에이전트 코딩의 새로운 시대를 대표하며 팀이 소프트웨어를 구축하는 방식을 근본적으로 변화시킵니다. 그리고 오늘 우리는 Anthropic이 Claude Code를 더욱 가속화하기 위해 획기적인 JavaScript 런타임인 Bun을 인수했음을 발표합니다. 자세히 알아보기 Claude Opus 4를 소개합니다.
+
+
+🔤 Original: Anthropic Acquires Bun
+
+🔗 Read more: https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone</guid>
+      <pubDate>Tue, 02 Dec 2025 18:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46124258</comments>
+    </item>
+    <item>
+      <title>Show HN: RunMat – 치밀한 수학을 위한 자동 CPU/GPU 라우팅이 포함된 런타임</title>
+      <link>https://github.com/runmat-org/runmat</link>
+      <description>📝 4K Image Pipeline Perf Sweep (B = image batch size) B RunMat (ms) PyTorch (ms) NumPy (ms) NumPy ÷ RunMat PyTorch ÷ RunMat 4 217. 54x Monte Carlo Perf Sweep (M = paths) M RunMat (ms) PyTorch (ms) NumPy (ms) NumPy ÷ RunMat PyTorch ÷ RunMat 250 000 179. 54x Elementwise Math Perf Sweep (points) points RunMat (ms) PyTorch (ms) NumPy (ms) NumPy ÷ RunMat PyTorch ÷ RunMat 1 000 000 197.
+
+
+🔤 Original: Show HN: RunMat – runtime with auto CPU/GPU routing for dense math
+
+🔗 Read more: https://github.com/runmat-org/runmat</description>
+      <guid isPermaLink="true">https://github.com/runmat-org/runmat</guid>
+      <pubDate>Tue, 02 Dec 2025 15:07:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46121951</comments>
+    </item>
+    <item>
+      <title>Memtest86+ v8.00 출시</title>
+      <link>https://github.com/memtest86plus/memtest86plus/releases/tag/v8.00</link>
+      <description>📝 필터 로드 중 죄송합니다. 문제가 발생했습니다. 이 페이지를 새로고침하세요. 이 페이지를 새로고침하세요.
+
+
+🔤 Original: Memtest86+ v8.00 Released
+
+🔗 Read more: https://github.com/memtest86plus/memtest86plus/releases/tag/v8.00</description>
+      <guid isPermaLink="true">https://github.com/memtest86plus/memtest86plus/releases/tag/v8.00</guid>
+      <pubDate>Tue, 02 Dec 2025 16:50:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46123238</comments>
+    </item>
+    <item>
+      <title>TypeScript 7의 진행 상황 – 2025년 12월</title>
+      <link>https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/</link>
+      <description>📝 여기에는 다음이 포함됩니다. 코드 완성(자동 가져오기 포함) 컴파일러 TypeScript 컴파일러는 기본 포트에서도 상당한 발전을 이루었습니다. 보다 구체적으로 이것이 의미하는 바는 그 뿐만이 아닙니다.
+
+
+🔤 Original: Progress on TypeScript 7 – December 2025
+
+🔗 Read more: https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/</guid>
+      <pubDate>Tue, 02 Dec 2025 17:37:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46123921</comments>
     </item>
   </channel>
 </rss>
