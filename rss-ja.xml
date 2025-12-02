@@ -6,73 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Dec 2025 09:28:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 12:44:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Apple、オープンウェイトビデオモデルをリリース</title>
-      <link>https://starflow-v.github.io</link>
-      <description>📝 TL;DR STARFlow-V は、最初の正規化フローベースの因果ビデオ ジェネレーターであり、フローの正規化が視覚的な品質においてビデオ拡散モデルと一致し、同時にエンドツーエンドのトレーニング、正確な尤度推定、および T2V/I2V/V2V 世代にわたるネイティブ マルチタスク サポートを提供できることを実証します。さらに、フロー スコア マッチングを提案します。これにより、モデルに軽量の因果的デノイザーが装備され、自己回帰方式でビデオ生成の一貫性が向上します。 2 フロー スコア マッチングのノイズ除去 フロー最大尤度の正規化とノイズ除去のためのフロー スコア マッチングを組み合わせた統合トレーニング フレームワーク。
+      <title>追加の状況に対処する</title>
+      <link>https://xania.org/202512/02-adding-integers</link>
+      <description>📝 では、コンパイラはこの制限をどのように回避するのでしょうか。なぜこれが加算に役立つのか。この投稿に添付されているビデオをご覧ください。
 
 
-🔤 Original: Apple Releases Open Weights Video Model
+🔤 Original: Addressing the adding situation
 
-🔗 Read more: https://starflow-v.github.io</description>
-      <guid isPermaLink="true">https://starflow-v.github.io</guid>
-      <pubDate>Tue, 02 Dec 2025 05:10:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117802</comments>
+🔗 Read more: https://xania.org/202512/02-adding-integers</description>
+      <guid isPermaLink="true">https://xania.org/202512/02-adding-integers</guid>
+      <pubDate>Tue, 02 Dec 2025 11:30:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46120181</comments>
     </item>
     <item>
-      <title>Rust でのルートレス Ping</title>
-      <link>https://bou.ke/blog/rust-ping/</link>
-      <description>📝 Rust でのルートレス ping ICMP ソケットを作成して ping を送信するには、通常、ルートが必要です。ルートなしでは、ICMP パケットを送信する生のソケットを作成できません。 SIMPLE プロトコルを使用して、socket2 クレートを使用して UDP ソケットを作成します。 [0u8; 64]; let (size, from_addr) = ソケット。
+      <title>コンパイラ最適化の到来 2025</title>
+      <link>https://xania.org/202511/advent-of-compiler-optimisation</link>
+      <description>📝 2025 年コンパイラー最適化の到来について 今日私は、約 1 年間にわたって準備が進められてきたプロジェクトを発表します。今年の 12 月はコンパイラー最適化の到来です。毎日 1 つのブログ投稿とビデオをリリースします。それぞれのブログ投稿とビデオでは、コンパイラーで実行できる楽しくて興味深い C または C++ の最適化について詳しく説明します。ここでは、非常に低レベルのアーキテクチャ固有のトリックと、より大規模で高レベルの最適化について説明します。
 
 
-🔤 Original: Rootless Pings in Rust
+🔤 Original: Advent of Compiler Optimisations 2025
 
-🔗 Read more: https://bou.ke/blog/rust-ping/</description>
-      <guid isPermaLink="true">https://bou.ke/blog/rust-ping/</guid>
-      <pubDate>Tue, 02 Dec 2025 07:01:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118432</comments>
+🔗 Read more: https://xania.org/202511/advent-of-compiler-optimisation</description>
+      <guid isPermaLink="true">https://xania.org/202511/advent-of-compiler-optimisation</guid>
+      <pubDate>Tue, 02 Dec 2025 09:51:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119500</comments>
     </item>
     <item>
-      <title>ブライアン・イーノはどのようにしてアンビエント 1 を作成したか: 空港のための音楽 (2019)</title>
-      <link>https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</link>
-      <description>📝 あなたは彼がどのように働いているかを非常によく説明してくれました。いくつかのことは私が知っていましたが、他のことは私にとってまったく初めてでした。周囲のプールに飛び込むのは素晴らしいことです。当時のイーノスのアルバムで私が気に入っているのは、そのアルバムが持つ特別なサウンドであり、これはおそらくテープマシンの影響が大きいと思われます。
+      <title>2025 年後半のランタイム全体での AWS Lambda ARM64 と x86_64 のパフォーマンスの比較</title>
+      <link>https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</link>
+      <description>📝 最近のベンチマーク実行の結果もそのリポジトリに公開されます。ベンチマーク方法私の目標は、2023 AWS Lambda ベンチマーク ブログ投稿と同様の更新されたベンチマークを作成することでした。 CPU 集中型: コンピューティング使用率に負荷をかけるワークロード。
 
 
-🔤 Original: How Brian Eno Created Ambient 1: Music for Airports (2019)
+🔤 Original: Comparing AWS Lambda ARM64 vs. x86_64 Performance Across Runtimes in Late 2025
 
-🔗 Read more: https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</description>
-      <guid isPermaLink="true">https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</guid>
-      <pubDate>Tue, 02 Dec 2025 07:46:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118722</comments>
+🔗 Read more: https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</description>
+      <guid isPermaLink="true">https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</guid>
+      <pubDate>Tue, 02 Dec 2025 09:11:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119214</comments>
     </item>
     <item>
-      <title>ReplicateがCloudflareに参加する理由</title>
-      <link>https://blog.cloudflare.com/why-replicate-joining-cloudflare/</link>
-      <description>📝 AI アプリはもはやモデルを実行するだけのものではありません。 Replicate には、モデルを実行するためのツールとプリミティブが含まれています。私たちは Replicate で構築したものを誇りに思っています。
+      <title>幹細胞移植後にHIVが予期せず治癒した男性</title>
+      <link>https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</link>
+      <description>📝 「これらの HIV 耐性幹細胞を使用することが不可欠であると考えられていました」とゲーブラー氏は言います。 「本質的に、感染するための宿主細胞のプールが枯渇してしまうのです」とゲイブラー氏は言う。これらにより、ドナー細胞は残存レシピエント細胞を排除すべき脅威として認識するようになる、とゲーブラー氏は言う。
 
 
-🔤 Original: Why Replicate is joining Cloudflare
+🔤 Original: Man unexpectedly cured of HIV after stem cell transplant
 
-🔗 Read more: https://blog.cloudflare.com/why-replicate-joining-cloudflare/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/why-replicate-joining-cloudflare/</guid>
-      <pubDate>Tue, 02 Dec 2025 05:40:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117993</comments>
-    </item>
-    <item>
-      <title>Windows Update後、パスワードアイコンが表示されなくなり、以前あった場所をクリックします</title>
-      <link>https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</link>
-      <description>📝 Windows セキュア ブート証明書の有効期限重要: ほとんどの Windows デバイスで使用されるセキュア ブート証明書は、2026 年 6 月から期限切れになります。 Windows 更新プログラムの用語については、Windows 更新プログラムの種類と月次品質更新プログラムの種類に関するページを参照してください。修正: Windows Hello はログイン画面であなたの顔を認識する可能性がありますが、実際には認識されます。
-
-
-🔤 Original: After Windows Update, Password icon invisible, click where it used to be
-
-🔗 Read more: https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</description>
-      <guid isPermaLink="true">https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</guid>
-      <pubDate>Tue, 02 Dec 2025 02:12:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46116567</comments>
+🔗 Read more: https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</description>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</guid>
+      <pubDate>Tue, 02 Dec 2025 10:20:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119699</comments>
     </item>
   </channel>
 </rss>

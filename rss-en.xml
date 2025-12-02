@@ -6,58 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Dec 2025 09:28:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 12:44:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Apple Releases Open Weights Video Model</title>
-      <link>https://starflow-v.github.io</link>
-      <description>📝 TL;DR STARFlow-V is the first normalizing flow-based causal video generator demonstrating that normalizing flows can match video diffusion models in visual quality while offering end-to-end training, exact likelihood estimation, and native multi-task support across T2V/I2V/V2V generation. Additionally, we propose flow-score matching, which equips the model with a light-weight causal denoiser to improve the video generation consistency in an autoregressive fashion. 2 Flow-Score Matching Denoising A unified training framework that combines normalizing flow maximum likelihood with flow-score matching for denoising.
+      <title>Addressing the adding situation</title>
+      <link>https://xania.org/202512/02-adding-integers</link>
+      <description>📝 So how do compilers work around this limitation. Why is this useful for addition. See the video that accompanies this post.
 
-🔗 Read more: https://starflow-v.github.io</description>
-      <guid isPermaLink="true">https://starflow-v.github.io</guid>
-      <pubDate>Tue, 02 Dec 2025 05:10:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117802</comments>
+🔗 Read more: https://xania.org/202512/02-adding-integers</description>
+      <guid isPermaLink="true">https://xania.org/202512/02-adding-integers</guid>
+      <pubDate>Tue, 02 Dec 2025 11:30:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46120181</comments>
     </item>
     <item>
-      <title>Rootless Pings in Rust</title>
-      <link>https://bou.ke/blog/rust-ping/</link>
-      <description>📝 Rootless pings in Rust Sending a ping by creating an ICMP socket normally requires root: you can’t create a raw socket to send ICMP packets without it. Create a UDP socket with ICMP protocol Using the socket2 crate. [0u8; 64]; let (size, from_addr) = socket.
+      <title>Advent of Compiler Optimisations 2025</title>
+      <link>https://xania.org/202511/advent-of-compiler-optimisation</link>
+      <description>📝 Introducing the Advent of Compiler Optimisations 2025 Today I’m announcing a project that’s been in the making for around a year. This December will be the Advent of Compiler Optimisations: I’ll release one blog post and video each day, each detailing a fun and interesting C or C++ optimisation that your compiler can do. I’ll be covering some very low-level, architecture-specific tricks as well as larger, more high-level optimisations.
 
-🔗 Read more: https://bou.ke/blog/rust-ping/</description>
-      <guid isPermaLink="true">https://bou.ke/blog/rust-ping/</guid>
-      <pubDate>Tue, 02 Dec 2025 07:01:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118432</comments>
+🔗 Read more: https://xania.org/202511/advent-of-compiler-optimisation</description>
+      <guid isPermaLink="true">https://xania.org/202511/advent-of-compiler-optimisation</guid>
+      <pubDate>Tue, 02 Dec 2025 09:51:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119500</comments>
     </item>
     <item>
-      <title>How Brian Eno Created Ambient 1: Music for Airports (2019)</title>
-      <link>https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</link>
-      <description>📝 You explained very well how he was working, some things I knew, others were completely new to me. Its great that you dive into the ambient pool. What I love about Enos albums from that time is the special sound they have, which probably owns a lot to the tape machines which where involved.
+      <title>Comparing AWS Lambda ARM64 vs. x86_64 Performance Across Runtimes in Late 2025</title>
+      <link>https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</link>
+      <description>📝 The results of a recent benchmark run are also published to that repo. Benchmark MethodologyMy goal was to create an updated benchmark similar to the 2023 AWS Lambda benchmark blog post. CPU-intensive: A workload that stresses compute utilization.
 
-🔗 Read more: https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</description>
-      <guid isPermaLink="true">https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</guid>
-      <pubDate>Tue, 02 Dec 2025 07:46:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118722</comments>
+🔗 Read more: https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</description>
+      <guid isPermaLink="true">https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</guid>
+      <pubDate>Tue, 02 Dec 2025 09:11:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119214</comments>
     </item>
     <item>
-      <title>Why Replicate is joining Cloudflare</title>
-      <link>https://blog.cloudflare.com/why-replicate-joining-cloudflare/</link>
-      <description>📝 AI apps are no longer just about running models. Replicate has the tools and primitives for running models. We’re proud of what we’ve built at Replicate.
+      <title>Man unexpectedly cured of HIV after stem cell transplant</title>
+      <link>https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</link>
+      <description>📝 “The belief was that using these HIV-resistant stem cells was essential,” says Gaebler. “Essentially, the pool of host cells to infect runs dry,” says Gaebler. These make the donor cells recognise residual recipient cells as a threat to eliminate, says Gaebler.
 
-🔗 Read more: https://blog.cloudflare.com/why-replicate-joining-cloudflare/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/why-replicate-joining-cloudflare/</guid>
-      <pubDate>Tue, 02 Dec 2025 05:40:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117993</comments>
-    </item>
-    <item>
-      <title>After Windows Update, Password icon invisible, click where it used to be</title>
-      <link>https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</link>
-      <description>📝 Windows Secure Boot certificate expirationImportant: Secure Boot certificates used by most Windows devices are set to expire starting in June 2026. To learn about Windows update terminology, see the pages on types of Windows updates and monthly quality update types. Fixed: Windows Hello might recognize your face on the login screen, however it would.
-
-🔗 Read more: https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</description>
-      <guid isPermaLink="true">https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</guid>
-      <pubDate>Tue, 02 Dec 2025 02:12:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46116567</comments>
+🔗 Read more: https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</description>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</guid>
+      <pubDate>Tue, 02 Dec 2025 10:20:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119699</comments>
     </item>
   </channel>
 </rss>

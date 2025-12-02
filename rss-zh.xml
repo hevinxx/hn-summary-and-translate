@@ -6,73 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 02 Dec 2025 09:28:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 12:44:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>苹果发布开放重量视频模型</title>
-      <link>https://starflow-v.github.io</link>
-      <description>📝 TL;DR STARFlow-V 是第一个基于归一化流的因果视频生成器，证明归一化流可以在视觉质量上匹配视频扩散模型，同时提供端到端训练、精确似然估计和跨 T2V/I2V/V2V 生成的本机多任务支持。此外，我们提出了流分数匹配，它为模型配备了轻量级因果降噪器，以自回归方式提高视频生成的一致性。 2 流分数匹配去噪 一个统一的训练框架，将归一化流最大似然与流分数匹配相结合以进行去噪。
+      <title>解决添加情况</title>
+      <link>https://xania.org/202512/02-adding-integers</link>
+      <description>📝 那么编译器如何解决这个限制呢？为什么这对于加法有用。请参阅本文附带的视频。
 
 
-🔤 Original: Apple Releases Open Weights Video Model
+🔤 Original: Addressing the adding situation
 
-🔗 Read more: https://starflow-v.github.io</description>
-      <guid isPermaLink="true">https://starflow-v.github.io</guid>
-      <pubDate>Tue, 02 Dec 2025 05:10:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117802</comments>
+🔗 Read more: https://xania.org/202512/02-adding-integers</description>
+      <guid isPermaLink="true">https://xania.org/202512/02-adding-integers</guid>
+      <pubDate>Tue, 02 Dec 2025 11:30:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46120181</comments>
     </item>
     <item>
-      <title>Rust 中的无根 Ping</title>
-      <link>https://bou.ke/blog/rust-ping/</link>
-      <description>📝 Rust 中的无根 ping 通过创建 ICMP 套接字发送 ping 通常需要 root：如果没有它，您无法创建原始套接字来发送 ICMP 数据包。使用 socket2 crate 创建具有 ICMP 协议的 UDP 套接字。 [0u8; 64]；让（大小，from_addr）=套接字。
+      <title>2025 年编译器优化的到来</title>
+      <link>https://xania.org/202511/advent-of-compiler-optimisation</link>
+      <description>📝 介绍 2025 年编译器优化的到来 今天，我宣布一个已经酝酿了大约一年的项目。今年 12 月将是编译器优化的来临：我每天都会发布一篇博客文章和视频，每一篇都详细介绍了编译器可以进行的有趣的 C 或 C++ 优化。我将介绍一些非常低级的、特定于架构的技巧以及更大、更高级别的优化。
 
 
-🔤 Original: Rootless Pings in Rust
+🔤 Original: Advent of Compiler Optimisations 2025
 
-🔗 Read more: https://bou.ke/blog/rust-ping/</description>
-      <guid isPermaLink="true">https://bou.ke/blog/rust-ping/</guid>
-      <pubDate>Tue, 02 Dec 2025 07:01:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118432</comments>
+🔗 Read more: https://xania.org/202511/advent-of-compiler-optimisation</description>
+      <guid isPermaLink="true">https://xania.org/202511/advent-of-compiler-optimisation</guid>
+      <pubDate>Tue, 02 Dec 2025 09:51:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119500</comments>
     </item>
     <item>
-      <title>Brian Eno 如何创作 Ambient 1：机场音乐 (2019)</title>
-      <link>https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</link>
-      <description>📝 你很好地解释了他是如何工作的，有些事情我知道，有些事情对我来说是全新的。跳进环境泳池真是太棒了。从那时起，我喜欢 Enos 专辑的原因是它们所具有的特殊声音，这可能很大程度上归功于所涉及的磁带机。
+      <title>2025 年末比较 AWS Lambda ARM64 与 x86_64 跨运行时的性能</title>
+      <link>https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</link>
+      <description>📝 最近的基准测试运行结果也发布到该存储库中。基准方法我的目标是创建一个类似于 2023 AWS Lambda 基准博客文章的更新基准。 CPU 密集型：强调计算利用率的工作负载。
 
 
-🔤 Original: How Brian Eno Created Ambient 1: Music for Airports (2019)
+🔤 Original: Comparing AWS Lambda ARM64 vs. x86_64 Performance Across Runtimes in Late 2025
 
-🔗 Read more: https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</description>
-      <guid isPermaLink="true">https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</guid>
-      <pubDate>Tue, 02 Dec 2025 07:46:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118722</comments>
+🔗 Read more: https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</description>
+      <guid isPermaLink="true">https://chrisebert.net/comparing-aws-lambda-arm64-vs-x86_64-performance-across-multiple-runtimes-in-late-2025/</guid>
+      <pubDate>Tue, 02 Dec 2025 09:11:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119214</comments>
     </item>
     <item>
-      <title>为什么 Replicate 加入 Cloudflare</title>
-      <link>https://blog.cloudflare.com/why-replicate-joining-cloudflare/</link>
-      <description>📝 人工智能应用程序不再仅仅是运行模型。 Replicate 具有用于运行模型的工具和原语。我们为 Replicate 所构建的产品感到自豪。
+      <title>男子在干细胞移植后意外治愈了艾滋病毒</title>
+      <link>https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</link>
+      <description>📝 “人们相信使用这些抗艾滋病毒干细胞是至关重要的，”盖布勒说。 “从本质上讲，可供感染的宿主细胞池已经枯竭，”盖布勒说。盖布勒说，这些使得供体细胞将残留的受体细胞视为威胁并予以消除。
 
 
-🔤 Original: Why Replicate is joining Cloudflare
+🔤 Original: Man unexpectedly cured of HIV after stem cell transplant
 
-🔗 Read more: https://blog.cloudflare.com/why-replicate-joining-cloudflare/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/why-replicate-joining-cloudflare/</guid>
-      <pubDate>Tue, 02 Dec 2025 05:40:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117993</comments>
-    </item>
-    <item>
-      <title>Windows更新后，密码图标不可见，单击原来的位置</title>
-      <link>https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</link>
-      <description>📝 Windows 安全启动证书过期重要提示：大多数 Windows 设备使用的安全启动证书将于 2026 年 6 月开始过期。要了解 Windows 更新术语，请参阅有关 Windows 更新类型和每月质量更新类型的页面。已修复：Windows Hello 可能会在登录屏幕上识别您的脸部，但它确实会识别。
-
-
-🔤 Original: After Windows Update, Password icon invisible, click where it used to be
-
-🔗 Read more: https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</description>
-      <guid isPermaLink="true">https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</guid>
-      <pubDate>Tue, 02 Dec 2025 02:12:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46116567</comments>
+🔗 Read more: https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</description>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2506595-man-unexpectedly-cured-of-hiv-after-stem-cell-transplant/</guid>
+      <pubDate>Tue, 02 Dec 2025 10:20:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46119699</comments>
     </item>
   </channel>
 </rss>
