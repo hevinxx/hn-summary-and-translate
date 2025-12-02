@@ -6,61 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Dec 2025 06:33:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 09:28:16 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Beej のコンピューター サイエンス学習ガイド</title>
-      <link>https://beej.us/guide/bglcs/html/split/</link>
-      <guid isPermaLink="true">https://beej.us/guide/bglcs/html/split/</guid>
-      <pubDate>Tue, 02 Dec 2025 03:47:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117280</comments>
+      <title>Apple、オープンウェイトビデオモデルをリリース</title>
+      <link>https://starflow-v.github.io</link>
+      <description>📝 TL;DR STARFlow-V は、最初の正規化フローベースの因果ビデオ ジェネレーターであり、フローの正規化が視覚的な品質においてビデオ拡散モデルと一致し、同時にエンドツーエンドのトレーニング、正確な尤度推定、および T2V/I2V/V2V 世代にわたるネイティブ マルチタスク サポートを提供できることを実証します。さらに、フロー スコア マッチングを提案します。これにより、モデルに軽量の因果的デノイザーが装備され、自己回帰方式でビデオ生成の一貫性が向上します。 2 フロー スコア マッチングのノイズ除去 フロー最大尤度の正規化とノイズ除去のためのフロー スコア マッチングを組み合わせた統合トレーニング フレームワーク。
+
+
+🔤 Original: Apple Releases Open Weights Video Model
+
+🔗 Read more: https://starflow-v.github.io</description>
+      <guid isPermaLink="true">https://starflow-v.github.io</guid>
+      <pubDate>Tue, 02 Dec 2025 05:10:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46117802</comments>
     </item>
     <item>
-      <title>Beej の C プログラミング ガイド</title>
-      <link>https://beej.us/guide/bgc/</link>
-      <description>📝 ) 読者向けの内容: DuckDuckGo で HTML ガイドを検索: DDG を検索 Google で HTML ガイドを検索: HTML: HTML HTML、ワイドスクリーン HTML、単一ページ HTML、単一ページ、ワイドスクリーン HTML ZIP HTML ZIP、ワイドスクリーン PDF: US Letter、片面、構文ハイライト US Letter、両面、構文ハイライト A4、片面、構文ハイライト A4、両面、構文の強調表示 US Letter、片面、白黒 US Letter、両面、白黒 A4、片面、白黒 A4、両面、白黒 例: Loose C サンプルのダウンロード (make to build を実行します。) 読者向けの内容: DuckDuckGo で HTML ガイドを検索: DDG を検索 Google で HTML ガイドを検索: HTML: HTML HTML、ワイドスクリーン HTML、単一ページ HTML、単一ページ、ワイドスクリーン HTML ZIP HTML ZIP、ワイドスクリーン PDF: US レター、片面、構文ハイライト US レター、両面、構文ハイライト A4、片面、構文ハイライト A4、両面、構文ハイライト US レター、片面、白黒 US レター、両面、白黒 A4、片面、白黒 A4、両面、白黒 例: Loose C サンプルのダウンロード (make を実行) ) 読者向けの内容: DuckDuckGo で HTML ガイドを検索: DDG を検索 Google で HTML ガイドを検索: HTML: HTML HTML、ワイドスクリーン HTML、単一ページ HTML、単一ページ、ワイドスクリーン HTML ZIP HTML ZIP、ワイドスクリーン PDF: US Letter、片面、構文ハイライト US Letter、両面、構文ハイライト A4、片面、構文ハイライト A4、両面構文の強調表示 US レター、片面、白黒 US レター、両面、白黒 A4、片面、白黒 A4、両面、白黒 例: Loose C サンプルのダウンロード (make を実行してビルドします。
+      <title>Rust でのルートレス Ping</title>
+      <link>https://bou.ke/blog/rust-ping/</link>
+      <description>📝 Rust でのルートレス ping ICMP ソケットを作成して ping を送信するには、通常、ルートが必要です。ルートなしでは、ICMP パケットを送信する生のソケットを作成できません。 SIMPLE プロトコルを使用して、socket2 クレートを使用して UDP ソケットを作成します。 [0u8; 64]; let (size, from_addr) = ソケット。
 
 
-🔤 Original: Beej's Guide to C Programming
+🔤 Original: Rootless Pings in Rust
 
-🔗 Read more: https://beej.us/guide/bgc/</description>
-      <guid isPermaLink="true">https://beej.us/guide/bgc/</guid>
-      <pubDate>Tue, 02 Dec 2025 06:19:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118195</comments>
+🔗 Read more: https://bou.ke/blog/rust-ping/</description>
+      <guid isPermaLink="true">https://bou.ke/blog/rust-ping/</guid>
+      <pubDate>Tue, 02 Dec 2025 07:01:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46118432</comments>
     </item>
     <item>
-      <title>証明書の有効期間を 45 日に短縮</title>
-      <link>https://letsencrypt.org/2025/12/02/from-90-to-45.html</link>
-      <description>📝 2026 年 5 月 13 日: Let’s Encrypt は tlsserver ACME プロファイルを切り替えて、45 日間の証明書を発行します。必要なアクション 証明書を自動的に発行する Let’s Encrypt のほとんどのユーザーは、何も変更する必要はありません。ただし、自動化が有効期間の短い証明書と互換性があることを確認する必要があります。
+      <title>ブライアン・イーノはどのようにしてアンビエント 1 を作成したか: 空港のための音楽 (2019)</title>
+      <link>https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</link>
+      <description>📝 あなたは彼がどのように働いているかを非常によく説明してくれました。いくつかのことは私が知っていましたが、他のことは私にとってまったく初めてでした。周囲のプールに飛び込むのは素晴らしいことです。当時のイーノスのアルバムで私が気に入っているのは、そのアルバムが持つ特別なサウンドであり、これはおそらくテープマシンの影響が大きいと思われます。
 
 
-🔤 Original: Decreasing Certificate Lifetimes to 45 Days
+🔤 Original: How Brian Eno Created Ambient 1: Music for Airports (2019)
 
-🔗 Read more: https://letsencrypt.org/2025/12/02/from-90-to-45.html</description>
-      <guid isPermaLink="true">https://letsencrypt.org/2025/12/02/from-90-to-45.html</guid>
-      <pubDate>Tue, 02 Dec 2025 03:24:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117126</comments>
+🔗 Read more: https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</description>
+      <guid isPermaLink="true">https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</guid>
+      <pubDate>Tue, 02 Dec 2025 07:46:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46118722</comments>
     </item>
     <item>
-      <title>一輪車に関するよくある質問</title>
-      <link>https://vale.rocks/posts/unicycle-faq</link>
-      <description>📝 自転車に乗るよりも難しいです。一輪車に乗る場合も同様です。一輪車に乗るのは自転車に乗るよりも危険が少ないと思います。
+      <title>ReplicateがCloudflareに参加する理由</title>
+      <link>https://blog.cloudflare.com/why-replicate-joining-cloudflare/</link>
+      <description>📝 AI アプリはもはやモデルを実行するだけのものではありません。 Replicate には、モデルを実行するためのツールとプリミティブが含まれています。私たちは Replicate で構築したものを誇りに思っています。
 
 
-🔤 Original: Frequently Asked Unicycling Questions
+🔤 Original: Why Replicate is joining Cloudflare
 
-🔗 Read more: https://vale.rocks/posts/unicycle-faq</description>
-      <guid isPermaLink="true">https://vale.rocks/posts/unicycle-faq</guid>
-      <pubDate>Tue, 02 Dec 2025 05:27:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117900</comments>
+🔗 Read more: https://blog.cloudflare.com/why-replicate-joining-cloudflare/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/why-replicate-joining-cloudflare/</guid>
+      <pubDate>Tue, 02 Dec 2025 05:40:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46117993</comments>
     </item>
     <item>
-      <title>ブータンについてのメモ</title>
-      <link>https://apropos.substack.com/p/notes-on-bhutan</link>
-      <guid isPermaLink="true">https://apropos.substack.com/p/notes-on-bhutan</guid>
-      <pubDate>Tue, 02 Dec 2025 01:30:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46116179</comments>
+      <title>Windows Update後、パスワードアイコンが表示されなくなり、以前あった場所をクリックします</title>
+      <link>https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</link>
+      <description>📝 Windows セキュア ブート証明書の有効期限重要: ほとんどの Windows デバイスで使用されるセキュア ブート証明書は、2026 年 6 月から期限切れになります。 Windows 更新プログラムの用語については、Windows 更新プログラムの種類と月次品質更新プログラムの種類に関するページを参照してください。修正: Windows Hello はログイン画面であなたの顔を認識する可能性がありますが、実際には認識されます。
+
+
+🔤 Original: After Windows Update, Password icon invisible, click where it used to be
+
+🔗 Read more: https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</description>
+      <guid isPermaLink="true">https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</guid>
+      <pubDate>Tue, 02 Dec 2025 02:12:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46116567</comments>
     </item>
   </channel>
 </rss>

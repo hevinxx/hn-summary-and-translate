@@ -6,61 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 02 Dec 2025 06:33:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 09:28:16 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Beej 的计算机科学学习指南</title>
-      <link>https://beej.us/guide/bglcs/html/split/</link>
-      <guid isPermaLink="true">https://beej.us/guide/bglcs/html/split/</guid>
-      <pubDate>Tue, 02 Dec 2025 03:47:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117280</comments>
+      <title>苹果发布开放重量视频模型</title>
+      <link>https://starflow-v.github.io</link>
+      <description>📝 TL;DR STARFlow-V 是第一个基于归一化流的因果视频生成器，证明归一化流可以在视觉质量上匹配视频扩散模型，同时提供端到端训练、精确似然估计和跨 T2V/I2V/V2V 生成的本机多任务支持。此外，我们提出了流分数匹配，它为模型配备了轻量级因果降噪器，以自回归方式提高视频生成的一致性。 2 流分数匹配去噪 一个统一的训练框架，将归一化流最大似然与流分数匹配相结合以进行去噪。
+
+
+🔤 Original: Apple Releases Open Weights Video Model
+
+🔗 Read more: https://starflow-v.github.io</description>
+      <guid isPermaLink="true">https://starflow-v.github.io</guid>
+      <pubDate>Tue, 02 Dec 2025 05:10:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46117802</comments>
     </item>
     <item>
-      <title>Beej 的 C 编程指南</title>
-      <link>https://beej.us/guide/bgc/</link>
-      <description>📝 ) 为读者提供的内容： 在 DuckDuckGo 上搜索 HTML 指南： 搜索 DDG 在 Google 上搜索 HTML 指南： HTML：HTML HTML、宽屏 HTML、单页 HTML、单页、宽屏 HTML ZIP HTML ZIP、宽屏 PDF：US Letter，单面，语法突出显示 US Letter，双面，语法突出显示 A4，单面，语法突出显示 A4，双面，语法突出显示 US Letter，单面，黑白 US Letter，两张双面，黑白 A4，单面，黑白 A4，双面，黑白 示例：Loose C 示例下载（运行 make to build。） 为读者提供的内容：在 DuckDuckGo 上搜索 HTML 指南：搜索 DDG 在 Google 上搜索 HTML 指南： HTML：HTML HTML、宽屏 HTML、单页 HTML、单页、宽屏 HTML ZIP HTML ZIP、宽屏 PDF：US Letter，单面，语法突出显示 US Letter，双面，语法高亮 A4，单面，语法高亮 A4，双面，语法高亮 US Letter，单面，黑白 US Letter，双面，黑白 A4，单面，黑白 A4，双面，黑白 示例：Loose C 示例下载（运行 make to build。） 为读者提供的内容： 在 DuckDuckGo 上搜索 HTML 指南：搜索 DDG 在 Google 上搜索 HTML 指南： HTML：HTML HTML、宽屏 HTML、单页 HTML、单页、宽屏 HTML ZIP HTML ZIP、宽屏 PDF： US Letter，单面，语法突出显示 US Letter，双面，语法突出显示 A4，单面，语法突出显示 A4，双面，语法突出显示 US Letter，单面，黑白 US Letter，双面，黑白 A4，单面，黑白 A4，双面，黑白 示例：Loose C 示例下载（运行 make to build.txt）
+      <title>Rust 中的无根 Ping</title>
+      <link>https://bou.ke/blog/rust-ping/</link>
+      <description>📝 Rust 中的无根 ping 通过创建 ICMP 套接字发送 ping 通常需要 root：如果没有它，您无法创建原始套接字来发送 ICMP 数据包。使用 socket2 crate 创建具有 ICMP 协议的 UDP 套接字。 [0u8; 64]；让（大小，from_addr）=套接字。
 
 
-🔤 Original: Beej's Guide to C Programming
+🔤 Original: Rootless Pings in Rust
 
-🔗 Read more: https://beej.us/guide/bgc/</description>
-      <guid isPermaLink="true">https://beej.us/guide/bgc/</guid>
-      <pubDate>Tue, 02 Dec 2025 06:19:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46118195</comments>
+🔗 Read more: https://bou.ke/blog/rust-ping/</description>
+      <guid isPermaLink="true">https://bou.ke/blog/rust-ping/</guid>
+      <pubDate>Tue, 02 Dec 2025 07:01:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46118432</comments>
     </item>
     <item>
-      <title>将证书生命周期缩短至 45 天</title>
-      <link>https://letsencrypt.org/2025/12/02/from-90-to-45.html</link>
-      <description>📝 2026 年 5 月 13 日：Let’s Encrypt 将切换我们的 tlsserver ACME 配置文件以颁发 45 天证书。所需操作 大多数自动颁发证书的 Let’s Encrypt 用户无需进行任何更改。但是，您应该验证您的自动化是否与有效期较短的证书兼容。
+      <title>Brian Eno 如何创作 Ambient 1：机场音乐 (2019)</title>
+      <link>https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</link>
+      <description>📝 你很好地解释了他是如何工作的，有些事情我知道，有些事情对我来说是全新的。跳进环境泳池真是太棒了。从那时起，我喜欢 Enos 专辑的原因是它们所具有的特殊声音，这可能很大程度上归功于所涉及的磁带机。
 
 
-🔤 Original: Decreasing Certificate Lifetimes to 45 Days
+🔤 Original: How Brian Eno Created Ambient 1: Music for Airports (2019)
 
-🔗 Read more: https://letsencrypt.org/2025/12/02/from-90-to-45.html</description>
-      <guid isPermaLink="true">https://letsencrypt.org/2025/12/02/from-90-to-45.html</guid>
-      <pubDate>Tue, 02 Dec 2025 03:24:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117126</comments>
+🔗 Read more: https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</description>
+      <guid isPermaLink="true">https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</guid>
+      <pubDate>Tue, 02 Dec 2025 07:46:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46118722</comments>
     </item>
     <item>
-      <title>独轮车常见问题</title>
-      <link>https://vale.rocks/posts/unicycle-faq</link>
-      <description>📝 这比骑自行车还难。这同样适用于骑独轮车。我相信骑独轮车比骑自行车危险性小。
+      <title>为什么 Replicate 加入 Cloudflare</title>
+      <link>https://blog.cloudflare.com/why-replicate-joining-cloudflare/</link>
+      <description>📝 人工智能应用程序不再仅仅是运行模型。 Replicate 具有用于运行模型的工具和原语。我们为 Replicate 所构建的产品感到自豪。
 
 
-🔤 Original: Frequently Asked Unicycling Questions
+🔤 Original: Why Replicate is joining Cloudflare
 
-🔗 Read more: https://vale.rocks/posts/unicycle-faq</description>
-      <guid isPermaLink="true">https://vale.rocks/posts/unicycle-faq</guid>
-      <pubDate>Tue, 02 Dec 2025 05:27:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46117900</comments>
+🔗 Read more: https://blog.cloudflare.com/why-replicate-joining-cloudflare/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/why-replicate-joining-cloudflare/</guid>
+      <pubDate>Tue, 02 Dec 2025 05:40:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46117993</comments>
     </item>
     <item>
-      <title>关于不丹的注释</title>
-      <link>https://apropos.substack.com/p/notes-on-bhutan</link>
-      <guid isPermaLink="true">https://apropos.substack.com/p/notes-on-bhutan</guid>
-      <pubDate>Tue, 02 Dec 2025 01:30:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46116179</comments>
+      <title>Windows更新后，密码图标不可见，单击原来的位置</title>
+      <link>https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</link>
+      <description>📝 Windows 安全启动证书过期重要提示：大多数 Windows 设备使用的安全启动证书将于 2026 年 6 月开始过期。要了解 Windows 更新术语，请参阅有关 Windows 更新类型和每月质量更新类型的页面。已修复：Windows Hello 可能会在登录屏幕上识别您的脸部，但它确实会识别。
+
+
+🔤 Original: After Windows Update, Password icon invisible, click where it used to be
+
+🔗 Read more: https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</description>
+      <guid isPermaLink="true">https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93</guid>
+      <pubDate>Tue, 02 Dec 2025 02:12:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46116567</comments>
     </item>
   </channel>
 </rss>
