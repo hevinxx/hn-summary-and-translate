@@ -6,86 +6,133 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 04 Dec 2025 15:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 18:35:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>透明领导胜过仆人式领导</title>
-      <link>https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</link>
-      <description>📝 在我看来，仆人式领导很像冰壶式育儿：领导者/家长预见问题并为他们的直接下属/孩子扫清道路。在我的书中，优秀的领导者会指导人们，联系人们，教人们有条不紊地解决问题，解释组织所信奉的价值观和原则，以帮助他们自己做出一致的决策，在供需之间建立直接联系（而不是故意让自己成为中间人），通过逐步接管领导职责来允许他们的直接下属职业发展，不断培训他们的继任者，并且通常会让他们自己变得多余。这可以让经理的技能保持新鲜感，并让他们从报告中获得更多尊重。
+      <title>Multivox：体积显示</title>
+      <link>https://github.com/AncientJames/multivox</link>
+      <description>📝 Multivox 这是我目前用来驱动体积显示器的代码。布局 此代码有两部分：驱动程序，它在共享内存中创建体素缓冲区并与旋转同步扫描其内容；以及客户端代码，它生成内容并将其写入体素缓冲区。 py——接收从 vortexstream 流式传输的点云。
 
 
-🔤 Original: Transparent Leadership Beats Servant Leadership
+🔤 Original: Multivox: Volumetric Display
 
-🔗 Read more: https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</description>
-      <guid isPermaLink="true">https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</guid>
-      <pubDate>Thu, 04 Dec 2025 13:40:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147540</comments>
+🔗 Read more: https://github.com/AncientJames/multivox</description>
+      <guid isPermaLink="true">https://github.com/AncientJames/multivox</guid>
+      <pubDate>Thu, 04 Dec 2025 16:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149813</comments>
     </item>
     <item>
-      <title>作为一名工程师，我忽略了聚光灯</title>
-      <link>https://lalitm.com/software-engineering-outside-the-spotlight/</link>
-      <description>📝 在这种环境下，我们与领导的关系非常不同。此外，我们的反馈直接来自工程师。高管们通过考虑我们对更多面向产品的团队的影响来确保我们真正解决这些问题。
-
-
-🔤 Original: I ignore the spotlight as a staff engineer
-
-🔗 Read more: https://lalitm.com/software-engineering-outside-the-spotlight/</description>
-      <guid isPermaLink="true">https://lalitm.com/software-engineering-outside-the-spotlight/</guid>
-      <pubDate>Thu, 04 Dec 2025 11:36:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146451</comments>
+      <title>推出 HN: Browser Buddy (YC W24) – 互联网写作推荐系统</title>
+      <link>https://www.browserbuddy.com/</link>
+      <guid isPermaLink="true">https://www.browserbuddy.com/</guid>
+      <pubDate>Thu, 04 Dec 2025 16:52:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149727</comments>
     </item>
     <item>
-      <title>函数四叉树</title>
-      <link>https://lbjgruppen.com/en/posts/functional-quadtree-clojure</link>
-      <description>📝 [ 节点相机 ] （和（太近了。（w/postwalk (fn [e] (prn "看着：" e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "看着：" :rootval "看着：" 1 "看着：" [:rootval 1] "看着：" :node1 "看着：" :data “正在查看：” “foo” “正在查看：” [:data “foo”] “正在查看：” :vec “正在查看：” 1 “正在查看：” 2 “正在查看：” 3 “正在查看：” [1 2 3] “正在查看：” [:vec [1 2 3]] “正在查看：” {:data "foo", :vec [1 2 3]} “正在查看：” [:node1 {:data "foo", :vec [1 2 3]}] "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}我希望这是一种直观的方式来查看 postwalk 所采取的路径。 prewalk:(w/prewalk (fn [e] (prn "正在查看：" e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "正在查看：" {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} "正在查看：" [:rootval 1] "正在查看：" :rootval "正在查看：" 1 "正在查看：" [:node1 {:data "foo", :vec [1 2 3]}] "正在查看：" :node1 "正在查看：" {:data "foo", :vec [1 2 3]} "正在查看：" [:data "foo"] "正在查看：" :data "正在查看：" "foo" "正在查看：" [:vec [1 2 3]] "Looking at: " :vec "Looking at: " [1 2 3] "Looking at: " 1 "Looking at: " 2 "Looking at: " 3 {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}Prewalk 以相同的方式检查相同的元素，但路径是我们所说的前序遍历，这意味着您看到节点的内容在元素之前 - 暗示着，您可以交换这些节点，然后访问元素。
-
-
-🔤 Original: Functional Quadtrees
-
-🔗 Read more: https://lbjgruppen.com/en/posts/functional-quadtree-clojure</description>
-      <guid isPermaLink="true">https://lbjgruppen.com/en/posts/functional-quadtree-clojure</guid>
-      <pubDate>Thu, 04 Dec 2025 13:18:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147341</comments>
+      <title>显示 HN：OnlyRecipe 2.0 – 我添加了 HN 请求的所有功能 – 4 年后</title>
+      <link>https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903</link>
+      <guid isPermaLink="true">https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903</guid>
+      <pubDate>Thu, 04 Dec 2025 15:06:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148460</comments>
     </item>
     <item>
-      <title>日本四缸发动机如此可靠 25 年后仍在生产</title>
-      <link>https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</link>
-      <description>📝 本田在 JDM 独家 2001 Honda Stream 中首次推出了 K 系列 K20A。相关 你忘记的本田思域为 Type R 铺平了道路 这是第一款配备著名的 B16A VTEC 发动机的本田思域。这也是一种重新设计，以满足更严格的全球排放规则和现代涡轮增压带来的更严格的热要求。
+      <title>Converge (YC S23) 正在纽约市招聘一名营销技术专家</title>
+      <link>https://www.runconverge.com/careers/technical-customer-success-manager</link>
+      <description>📝 成功运作并与世界上最好的 DTC 增长团队合作。案例访谈（1小时）：我们将模拟真实的客户情况。我们的 ARR 业务规模超过 100 万美元，客户数量超过 200 名，团队仅有 9 人。
 
 
-🔤 Original: Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years
+🔤 Original: Converge (YC S23) is hiring a martech expert in NYC
 
-🔗 Read more: https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</description>
-      <guid isPermaLink="true">https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</guid>
-      <pubDate>Thu, 04 Dec 2025 12:09:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146740</comments>
+🔗 Read more: https://www.runconverge.com/careers/technical-customer-success-manager</description>
+      <guid isPermaLink="true">https://www.runconverge.com/careers/technical-customer-success-manager</guid>
+      <pubDate>Thu, 04 Dec 2025 17:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149849</comments>
     </item>
     <item>
-      <title>RAM这么贵，三星都不卖给三星了</title>
-      <link>https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</link>
-      <description>📝 三星生产从冰箱到超大油轮的各种产品。 ，以及生产内存和其他芯片并供应全球市场的三星半导体全球公司。三星子公司在需要零部件时自然会首先寻求三星半导体。
+      <title>费曼与计算机</title>
+      <link>https://entropicthoughts.com/feynman-vs-computer</link>
+      <description>📝 它们的总面积为 0。这说明了积分和期望值之间的清晰对应。 6916867623261724 这相当接近 0。
 
 
-🔤 Original: RAM is so expensive, Samsung won't even sell it to Samsung
+🔤 Original: Feynman vs. Computer
 
-🔗 Read more: https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</description>
-      <guid isPermaLink="true">https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</guid>
-      <pubDate>Thu, 04 Dec 2025 13:20:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147353</comments>
+🔗 Read more: https://entropicthoughts.com/feynman-vs-computer</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/feynman-vs-computer</guid>
+      <pubDate>Thu, 04 Dec 2025 16:03:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149066</comments>
     </item>
     <item>
-      <title>研究表明，人类头发的生长是通过“拉”而不是推</title>
-      <link>https://phys.org/news/2025-12-human-hair.html</link>
-      <description>📝 几十年来，人们一直认为头发是被毛球中的分裂细胞推出的。来自同一欧莱雅团队的另一位主要作者 Thomas Bornschlögl 补充道：“这表明毛发生长不仅仅由细胞分裂驱动，相反，外根鞘主动将毛发向上拉。更多信息：Nicolas Tissot 等人，绘制人类离体毛囊中的细胞动力学表明毛发生长的拉动机制，《自然通讯》（2025 年）。
+      <title>为什么 38% 的斯坦福大学学生说他们是残疾人？</title>
+      <link>https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</link>
+      <description>📝 然而，令人震惊的是，他们中的比例惊人地要求为有学习障碍的学生提供学术住宿。这些学生中的大多数都声称存在心理健康问题和学习障碍，例如焦虑、抑郁和多动症。对于大多数收到它们的精英大学学生来说。
 
 
-🔤 Original: Human hair grows through 'pulling' not pushing, study shows
+🔤 Original: Why Are 38 Percent of Stanford Students Saying They're Disabled?
 
-🔗 Read more: https://phys.org/news/2025-12-human-hair.html</description>
-      <guid isPermaLink="true">https://phys.org/news/2025-12-human-hair.html</guid>
-      <pubDate>Thu, 04 Dec 2025 13:22:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147371</comments>
+🔗 Read more: https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</description>
+      <guid isPermaLink="true">https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</guid>
+      <pubDate>Thu, 04 Dec 2025 18:04:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46150715</comments>
+    </item>
+    <item>
+      <title>引导加载程序解锁耻辱之墙</title>
+      <link>https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</link>
+      <description>📝 以下制造商已经让他们的设备在没有解决方法的情况下完全无法解锁。运营商锁定设备是您与您选择的运营商做出承诺后获得的设备。 com 引导加载程序解锁部分。
+
+
+🔤 Original: Bootloader Unlock Wall of Shame
+
+🔗 Read more: https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</description>
+      <guid isPermaLink="true">https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</guid>
+      <pubDate>Thu, 04 Dec 2025 15:57:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149019</comments>
+    </item>
+    <item>
+      <title>销售人员未完成配额后，微软将人工智能销售目标下调了一半</title>
+      <link>https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</link>
+      <description>📝 该部门只有不到五分之一的销售人员达到了代工销售增长目标。 7 月，微软将本财年的增长目标下调至 25% 左右。微软的 Copilot 本身也面临着品牌偏好的挑战：今年早些时候，彭博社报道称，微软销售人员在向企业推销 Copilot 时遇到了困难，因为许多员工更喜欢 ChatGPT。
+
+
+🔤 Original: Microsoft drops AI sales targets in half after salespeople miss their quotas
+
+🔗 Read more: https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</description>
+      <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</guid>
+      <pubDate>Thu, 04 Dec 2025 15:31:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148748</comments>
+    </item>
+    <item>
+      <title>Proxmox 数据中心管理器 1.0 可用</title>
+      <link>https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</link>
+      <description>📝 Proxmox 数据中心管理器 0。 Proxmox Datacenter Manager 提供了用于管理、监控和扩展 Proxmox VE 和 Proxmox 备份服务器的整体单一管理平台视图，其主要目标是为管理员提供全面、无缝的控制。 Proxmox Datacenter Manager 的开发是为了应对这一扩展挑战的战略答案。
+
+
+🔤 Original: Proxmox Datacenter Manager 1.0 available
+
+🔗 Read more: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</description>
+      <guid isPermaLink="true">https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</guid>
+      <pubDate>Thu, 04 Dec 2025 15:31:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148744</comments>
+    </item>
+    <item>
+      <title>火车测试分裂的结束</title>
+      <link>https://folio.benguzovsky.com/train-test</link>
+      <description>📝 D 中的内容政策团队。你的数据科学蜘蛛侠意识令人兴奋。复杂分类任务的核心问题 政策专家编写抽象规则。
+
+
+🔤 Original: The End of the Train-Test Split
+
+🔗 Read more: https://folio.benguzovsky.com/train-test</description>
+      <guid isPermaLink="true">https://folio.benguzovsky.com/train-test</guid>
+      <pubDate>Thu, 04 Dec 2025 16:53:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149740</comments>
+    </item>
+    <item>
+      <title>自闭症不应被视为单一病症</title>
+      <link>https://www.economist.com/science-and-technology/2025/12/03/why-autism-should-not-be-treated-as-a-single-condition</link>
+      <guid isPermaLink="true">https://www.economist.com/science-and-technology/2025/12/03/why-autism-should-not-be-treated-as-a-single-condition</guid>
+      <pubDate>Thu, 04 Dec 2025 16:25:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149375</comments>
     </item>
   </channel>
 </rss>

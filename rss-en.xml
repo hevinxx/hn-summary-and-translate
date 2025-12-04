@@ -6,68 +6,109 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 15:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 18:35:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Transparent Leadership Beats Servant Leadership</title>
-      <link>https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</link>
-      <description>📝 Servant leadership seems to me a lot like curling parenting: the leader/parent anticipate problems and sweep the way for their direct reports/children. In my book, a good leader coaches people, connects people, teaches people methodical problem solving, explains values and principles embraced by the organisation to aid them in making aligned decisions on their own, creates direct links between supply and demand (instead of deliberately making themselves a middle man), allows their direct reports career growth by gradually taking over leadership responsibilities, continuously trains their replacement, and generally makes themselves redundant. This keeps the manager’s skills fresh and gets them more respect from their reports.
+      <title>Multivox: Volumetric Display</title>
+      <link>https://github.com/AncientJames/multivox</link>
+      <description>📝 Multivox This is the code I currently use to drive my volumetric displays. Layout There are two parts to this code - the driver, which creates a voxel buffer in shared memory and scans its contents out in sync with rotation, and the client code which generates content and writes it into the voxel buffer. py -- receive point clouds streamed from vortexstream.
 
-🔗 Read more: https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</description>
-      <guid isPermaLink="true">https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</guid>
-      <pubDate>Thu, 04 Dec 2025 13:40:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147540</comments>
+🔗 Read more: https://github.com/AncientJames/multivox</description>
+      <guid isPermaLink="true">https://github.com/AncientJames/multivox</guid>
+      <pubDate>Thu, 04 Dec 2025 16:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149813</comments>
     </item>
     <item>
-      <title>I ignore the spotlight as a staff engineer</title>
-      <link>https://lalitm.com/software-engineering-outside-the-spotlight/</link>
-      <description>📝 In this environment, our relationship with leadership is very different. Also, our feedback comes directly from engineers. Execs ensure that we’re actually solving these problems by considering our impact on more product facing teams.
-
-🔗 Read more: https://lalitm.com/software-engineering-outside-the-spotlight/</description>
-      <guid isPermaLink="true">https://lalitm.com/software-engineering-outside-the-spotlight/</guid>
-      <pubDate>Thu, 04 Dec 2025 11:36:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146451</comments>
+      <title>Launch HN: Browser Buddy (YC W24) – A recommendation system for Internet writing</title>
+      <link>https://www.browserbuddy.com/</link>
+      <guid isPermaLink="true">https://www.browserbuddy.com/</guid>
+      <pubDate>Thu, 04 Dec 2025 16:52:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149727</comments>
     </item>
     <item>
-      <title>Functional Quadtrees</title>
-      <link>https://lbjgruppen.com/en/posts/functional-quadtree-clojure</link>
-      <description>📝 [ node camera ] (and (too-close. (w/postwalk (fn [e] (prn "Looking at: " e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "Looking at: " :rootval "Looking at: " 1 "Looking at: " [:rootval 1] "Looking at: " :node1 "Looking at: " :data "Looking at: " "foo" "Looking at: " [:data "foo"] "Looking at: " :vec "Looking at: " 1 "Looking at: " 2 "Looking at: " 3 "Looking at: " [1 2 3] "Looking at: " [:vec [1 2 3]] "Looking at: " {:data "foo", :vec [1 2 3]} "Looking at: " [:node1 {:data "foo", :vec [1 2 3]}] "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}I hope this is an intuitive way to see the path postwalk takes. Now compare that with prewalk:(w/prewalk (fn [e] (prn "Looking at: " e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} "Looking at: " [:rootval 1] "Looking at: " :rootval "Looking at: " 1 "Looking at: " [:node1 {:data "foo", :vec [1 2 3]}] "Looking at: " :node1 "Looking at: " {:data "foo", :vec [1 2 3]} "Looking at: " [:data "foo"] "Looking at: " :data "Looking at: " "foo" "Looking at: " [:vec [1 2 3]] "Looking at: " :vec "Looking at: " [1 2 3] "Looking at: " 1 "Looking at: " 2 "Looking at: " 3 {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}Prewalk examines the same elements and in the same way, but the path is what we call a pre-order traversal, which means you see contents of nodes before the elements - And by implication, you can swap those nodes and then visit the elements.
-
-🔗 Read more: https://lbjgruppen.com/en/posts/functional-quadtree-clojure</description>
-      <guid isPermaLink="true">https://lbjgruppen.com/en/posts/functional-quadtree-clojure</guid>
-      <pubDate>Thu, 04 Dec 2025 13:18:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147341</comments>
+      <title>Show HN: OnlyRecipe 2.0 – I added all features HN requested – 4 years later</title>
+      <link>https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903</link>
+      <guid isPermaLink="true">https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903</guid>
+      <pubDate>Thu, 04 Dec 2025 15:06:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148460</comments>
     </item>
     <item>
-      <title>Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years</title>
-      <link>https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</link>
-      <description>📝 Honda debuted the first K-Series K20A in the JDM-exclusive 2001 Honda Stream. Related The Honda Civic You Forgot About That Paved The Way For The Type R This was the first-ever Honda Civic to come with the famed B16A VTEC engine. It's also a redesign that meets stricter global emissions rules and tighter thermal demands that come with modern turbocharging.
+      <title>Converge (YC S23) is hiring a martech expert in NYC</title>
+      <link>https://www.runconverge.com/careers/technical-customer-success-manager</link>
+      <description>📝 success function and work with the world's best DTC growth teams. Case interview (1 hour): We will simulate a real customer situation. We operate a &gt;$1M ARR business with &gt;200 customers with a team of just 9 people.
 
-🔗 Read more: https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</description>
-      <guid isPermaLink="true">https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</guid>
-      <pubDate>Thu, 04 Dec 2025 12:09:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146740</comments>
+🔗 Read more: https://www.runconverge.com/careers/technical-customer-success-manager</description>
+      <guid isPermaLink="true">https://www.runconverge.com/careers/technical-customer-success-manager</guid>
+      <pubDate>Thu, 04 Dec 2025 17:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149849</comments>
     </item>
     <item>
-      <title>RAM is so expensive, Samsung won't even sell it to Samsung</title>
-      <link>https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</link>
-      <description>📝 Samsung makes everything from refrigerators to supermassive oil tankers. , and Samsung Semiconductor Global, which manufactures memory and other chips and supplies the global market. Samsung subsidiaries are, naturally, going to look to Samsung Semiconductor first when they need parts.
+      <title>Feynman vs. Computer</title>
+      <link>https://entropicthoughts.com/feynman-vs-computer</link>
+      <description>📝 Their total area is 0. This illustrates a neat correspondence between integrals and expected values. 6916867623261724 This is fairly close to 0.
 
-🔗 Read more: https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</description>
-      <guid isPermaLink="true">https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</guid>
-      <pubDate>Thu, 04 Dec 2025 13:20:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147353</comments>
+🔗 Read more: https://entropicthoughts.com/feynman-vs-computer</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/feynman-vs-computer</guid>
+      <pubDate>Thu, 04 Dec 2025 16:03:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149066</comments>
     </item>
     <item>
-      <title>Human hair grows through 'pulling' not pushing, study shows</title>
-      <link>https://phys.org/news/2025-12-human-hair.html</link>
-      <description>📝 For decades, it was assumed that hair was pushed out by the dividing cells in the hair bulb. Thomas Bornschlögl, another lead author, from the same L'Oréal team adds, "This reveals that hair growth is not driven only by cell division—instead, the outer root sheath actively pulls the hair upward. More information: Nicolas Tissot et al, Mapping cell dynamics in human ex vivo hair follicles suggests pulling mechanism of hair growth, Nature Communications (2025).
+      <title>Why Are 38 Percent of Stanford Students Saying They're Disabled?</title>
+      <link>https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</link>
+      <description>📝 And yet, shocking percentages of them are claiming academic accommodations designed for students with learning disabilities. Most of these students are claiming mental health conditions and learning disabilities, like anxiety, depression, and ADHD. For most of the elite-college students who receive them,.
 
-🔗 Read more: https://phys.org/news/2025-12-human-hair.html</description>
-      <guid isPermaLink="true">https://phys.org/news/2025-12-human-hair.html</guid>
-      <pubDate>Thu, 04 Dec 2025 13:22:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147371</comments>
+🔗 Read more: https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</description>
+      <guid isPermaLink="true">https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</guid>
+      <pubDate>Thu, 04 Dec 2025 18:04:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46150715</comments>
+    </item>
+    <item>
+      <title>Bootloader Unlock Wall of Shame</title>
+      <link>https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</link>
+      <description>📝 The following manufacturers have made it completely impossible to unlock their devices without a workaround. Carrier locked devices are the ones you get after making a commitment with a carrier of your choice. com the bootloader unlock section.
+
+🔗 Read more: https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</description>
+      <guid isPermaLink="true">https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</guid>
+      <pubDate>Thu, 04 Dec 2025 15:57:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149019</comments>
+    </item>
+    <item>
+      <title>Microsoft drops AI sales targets in half after salespeople miss their quotas</title>
+      <link>https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</link>
+      <description>📝 Less than a fifth of salespeople in that unit met their Foundry sales growth targets. In July, Microsoft lowered those targets to roughly 25 percent growth for the current fiscal year. And Microsoft’s Copilot itself has faced a brand preference challenge: Earlier this year, Bloomberg reported that Microsoft salespeople were having trouble selling Copilot to enterprises because many employees prefer ChatGPT instead.
+
+🔗 Read more: https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</description>
+      <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</guid>
+      <pubDate>Thu, 04 Dec 2025 15:31:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148748</comments>
+    </item>
+    <item>
+      <title>Proxmox Datacenter Manager 1.0 available</title>
+      <link>https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</link>
+      <description>📝 0 of Proxmox Datacenter Manager. Proxmox Datacenter Manager offers a holistic single pane of glass view for the administration, monitoring, and scaling of Proxmox VE and Proxmox Backup Server, with the primary goal of providing administrators with comprehensive and seamless control. Proxmox Datacenter Manager was developed as the strategic answer to this scaling challenge.
+
+🔗 Read more: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</description>
+      <guid isPermaLink="true">https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</guid>
+      <pubDate>Thu, 04 Dec 2025 15:31:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148744</comments>
+    </item>
+    <item>
+      <title>The End of the Train-Test Split</title>
+      <link>https://folio.benguzovsky.com/train-test</link>
+      <description>📝 The content policy team in D. Your data science spidey-sense tingles. Core problems with complex classification tasks Policy Experts write abstract rules.
+
+🔗 Read more: https://folio.benguzovsky.com/train-test</description>
+      <guid isPermaLink="true">https://folio.benguzovsky.com/train-test</guid>
+      <pubDate>Thu, 04 Dec 2025 16:53:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149740</comments>
+    </item>
+    <item>
+      <title>Autism should not be treated as a single condition</title>
+      <link>https://www.economist.com/science-and-technology/2025/12/03/why-autism-should-not-be-treated-as-a-single-condition</link>
+      <guid isPermaLink="true">https://www.economist.com/science-and-technology/2025/12/03/why-autism-should-not-be-treated-as-a-single-condition</guid>
+      <pubDate>Thu, 04 Dec 2025 16:25:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149375</comments>
     </item>
   </channel>
 </rss>

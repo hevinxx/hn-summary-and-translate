@@ -6,86 +6,133 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Dec 2025 15:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 18:35:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>透明性のあるリーダーシップがサーバント・リーダーシップに勝つ</title>
-      <link>https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</link>
-      <description>📝 サーバント・リーダーシップは、カーリング・ペアレンティングによく似ているように私には思えます。リーダー/親は問題を予測し、直属の部下/子供たちのために道を切り開きます。私の本の中で、優れたリーダーとは、人々を指導し、人々を結びつけ、体系的な問題解決を教え、組織が受け入れている価値観と原則を説明して、組織が自ら調整した意思決定を行えるよう支援し、需要と供給の間に直接的なつながりを作り（自らを意図的に仲介者にするのではなく）、徐々にリーダーシップの責任を引き継ぐことで直属の部下のキャリア成長を可能にし、後任の人材を継続的に訓練し、一般的に自分自身を余剰人員にする、と述べています。これにより、マネージャーのスキルが常に新鮮に保たれ、レポートからの評価が高まります。
+      <title>マルチボックス: ボリュームディスプレイ</title>
+      <link>https://github.com/AncientJames/multivox</link>
+      <description>📝 Multivox これは、ボリューム ディスプレイを駆動するために現在使用しているコードです。レイアウト このコードには 2 つの部分があります。共有メモリにボクセル バッファーを作成し、回転と同期してその内容をスキャンするドライバーと、コンテンツを生成してボクセル バッファーに書き込むクライアント コードです。 py -- vortexstream からストリーミングされた点群を受信します。
 
 
-🔤 Original: Transparent Leadership Beats Servant Leadership
+🔤 Original: Multivox: Volumetric Display
 
-🔗 Read more: https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</description>
-      <guid isPermaLink="true">https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</guid>
-      <pubDate>Thu, 04 Dec 2025 13:40:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147540</comments>
+🔗 Read more: https://github.com/AncientJames/multivox</description>
+      <guid isPermaLink="true">https://github.com/AncientJames/multivox</guid>
+      <pubDate>Thu, 04 Dec 2025 16:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149813</comments>
     </item>
     <item>
-      <title>スタッフエンジニアとしてスポットライトを無視する</title>
-      <link>https://lalitm.com/software-engineering-outside-the-spotlight/</link>
-      <description>📝 この環境では、リーダーと私たちの関係は大きく異なります。また、フィードバックはエンジニアから直接得られます。幹部は、製品に関わるより多くのチームへの影響を考慮することで、実際にこれらの問題を解決していることを確認します。
-
-
-🔤 Original: I ignore the spotlight as a staff engineer
-
-🔗 Read more: https://lalitm.com/software-engineering-outside-the-spotlight/</description>
-      <guid isPermaLink="true">https://lalitm.com/software-engineering-outside-the-spotlight/</guid>
-      <pubDate>Thu, 04 Dec 2025 11:36:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146451</comments>
+      <title>HN: Browser Buddy (YC W24) を開始 – インターネット書き込みのための推奨システム</title>
+      <link>https://www.browserbuddy.com/</link>
+      <guid isPermaLink="true">https://www.browserbuddy.com/</guid>
+      <pubDate>Thu, 04 Dec 2025 16:52:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149727</comments>
     </item>
     <item>
-      <title>機能的な四分木</title>
-      <link>https://lbjgruppen.com/en/posts/functional-quadtree-clojure</link>
-      <description>📝 [ ノードカメラ ] (そして (近すぎます。(w/postwalk (fn [e] (prn "参照: " e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "参照: " :rootval "参照: " 1 "参照: " [:rootval 1] "参照: " :node1 "参照: " :data "見ているところ: " "foo" "見ているところ: " [:data "foo"] "見ているところ: " :vec "見ているところ: " 1 "見ているところ: " 2 "見ているところ: " 3 "見ているところ: " [1 2 3] "見ているところ: " [:vec [1 2 3]] "見ているところ: " {:data "foo", :vec [1 2 3]} "Looking at: " [:node1 {:data "foo", :vec [1 2 3]}] "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}これがウォーク後のパスを確認する直感的な方法であることを願っています次に、それを prewalk と比較します:(w/prewalk (fn [e] (prn "Looking at: " e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} "Looking at: " [:rootval 1] "参照: " :rootval "参照: " 1 "参照: " [:node1 {:data "foo", :vec [1 2 3]}] "参照: " :node1 "参照: " {:data "foo", :vec [1 2 3]} "参照: " [:data "foo"] "参照: " :data "参照: " "foo" "Looking at: " [:vec [1 2 3]] "Looking at: " :vec "Looking at: " [1 2 3] "Looking at: " 1 "Looking at: " 2 "Looking at: " 3 {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}Prewalk は同じ要素を同じ方法で調べますが、パスはこれは、事前順序トラバーサルと呼ばれるもので、要素の前にノードの内容が表示されることを意味します。暗黙的に、それらのノードを交換してから要素にアクセスできます。
-
-
-🔤 Original: Functional Quadtrees
-
-🔗 Read more: https://lbjgruppen.com/en/posts/functional-quadtree-clojure</description>
-      <guid isPermaLink="true">https://lbjgruppen.com/en/posts/functional-quadtree-clojure</guid>
-      <pubDate>Thu, 04 Dec 2025 13:18:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147341</comments>
+      <title>Show HN: OnlyRecipe 2.0 – HN が要求したすべての機能を追加しました – 4 年後</title>
+      <link>https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903</link>
+      <guid isPermaLink="true">https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903</guid>
+      <pubDate>Thu, 04 Dec 2025 15:06:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148460</comments>
     </item>
     <item>
-      <title>日本の4気筒エンジンは25年経った今も生産されている信頼性の高いエンジンです</title>
-      <link>https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</link>
-      <description>📝 ホンダは、JDM 専用の 2001 ホンダ ストリームで最初の K シリーズ K20A をデビューさせました。関連 忘れ去られていたホンダ シビックがタイプ R への道を拓いた これは、有名な B16A VTEC エンジンを搭載した史上初のホンダ シビックでした。また、より厳格化された世界的な排ガス規制と、最新のターボチャージャーに伴うより厳しい熱需要を満たすための再設計でもあります。
+      <title>Converge (YC S23) はニューヨーク市でマーテックの専門家を募集しています</title>
+      <link>https://www.runconverge.com/careers/technical-customer-success-manager</link>
+      <description>📝 成功に向けて機能し、世界最高の DTC 成長チームと協力します。ケースインタビュー（1時間）：実際のお客様の状況をシミュレーションさせていただきます。当社はわずか 9 人のチームで 200 社を超える顧客を抱え、ARR 100 万ドルを超えるビジネスを運営しています。
 
 
-🔤 Original: Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years
+🔤 Original: Converge (YC S23) is hiring a martech expert in NYC
 
-🔗 Read more: https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</description>
-      <guid isPermaLink="true">https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</guid>
-      <pubDate>Thu, 04 Dec 2025 12:09:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146740</comments>
+🔗 Read more: https://www.runconverge.com/careers/technical-customer-success-manager</description>
+      <guid isPermaLink="true">https://www.runconverge.com/careers/technical-customer-success-manager</guid>
+      <pubDate>Thu, 04 Dec 2025 17:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149849</comments>
     </item>
     <item>
-      <title>RAMは非常に高価なので、SamsungはそれをSamsungに販売することさえしません</title>
-      <link>https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</link>
-      <description>📝 サムスンは冷蔵庫から超巨大石油タンカーまであらゆる製品を製造しています。 、およびメモリおよびその他のチップを製造し、世界市場に供給するSamsung Semiconductor Global。サムスンの子会社が部品を必要とする場合、当然のことながら、まずサムスン半導体に頼ることになる。
+      <title>ファインマン対コンピューター</title>
+      <link>https://entropicthoughts.com/feynman-vs-computer</link>
+      <description>📝 それらの合計面積は 0 です。これは、積分と期待値の間のきちんとした対応を示しています。 6916867623261724 これはかなり 0 に近いです。
 
 
-🔤 Original: RAM is so expensive, Samsung won't even sell it to Samsung
+🔤 Original: Feynman vs. Computer
 
-🔗 Read more: https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</description>
-      <guid isPermaLink="true">https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</guid>
-      <pubDate>Thu, 04 Dec 2025 13:20:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147353</comments>
+🔗 Read more: https://entropicthoughts.com/feynman-vs-computer</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/feynman-vs-computer</guid>
+      <pubDate>Thu, 04 Dec 2025 16:03:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149066</comments>
     </item>
     <item>
-      <title>人間の髪の毛は押すのではなく「引く」ことで成長することが研究で判明</title>
-      <link>https://phys.org/news/2025-12-human-hair.html</link>
-      <description>📝 何十年もの間、毛髪は毛球内の細胞分裂によって押し出されるのだと考えられていました。同じロレアルチームのもう一人の筆頭著者であるトーマス・ボルンシュレーグル氏は、「これは、毛髪の成長が細胞分裂のみによって引き起こされているわけではないことを明らかにしている。代わりに、外側の毛根鞘が毛髪を積極的に上方に引っ張っている。詳細情報: Nicolas Tissot et al、Mapping cell Dynamic in human ex vivo Hair follicles sinners (Nature Communications (2025))。
+      <title>スタンフォード大学の学生の 38% が障害があると答えているのはなぜですか?</title>
+      <link>https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</link>
+      <description>📝 しかし、驚くべき割合の学生が、学習障害のある学生向けに設計された学業上の配慮を要求しています。これらの学生のほとんどは、不安、うつ病、ADHDなどの精神的健康状態や学習障害を主張しています。それらを受け取るほとんどのエリート大学の学生にとって、
 
 
-🔤 Original: Human hair grows through 'pulling' not pushing, study shows
+🔤 Original: Why Are 38 Percent of Stanford Students Saying They're Disabled?
 
-🔗 Read more: https://phys.org/news/2025-12-human-hair.html</description>
-      <guid isPermaLink="true">https://phys.org/news/2025-12-human-hair.html</guid>
-      <pubDate>Thu, 04 Dec 2025 13:22:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46147371</comments>
+🔗 Read more: https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</description>
+      <guid isPermaLink="true">https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/</guid>
+      <pubDate>Thu, 04 Dec 2025 18:04:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46150715</comments>
+    </item>
+    <item>
+      <title>ブートローダーが恥の壁のロックを解除する</title>
+      <link>https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</link>
+      <description>📝 以下のメーカーは、回避策なしではデバイスのロックを解除することを完全に不可能にしています。キャリアロックデバイスは、選択したキャリアと契約を結んだ後に入手できるデバイスです。 com のブートローダーのロック解除セクションを参照してください。
+
+
+🔤 Original: Bootloader Unlock Wall of Shame
+
+🔗 Read more: https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</description>
+      <guid isPermaLink="true">https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame</guid>
+      <pubDate>Thu, 04 Dec 2025 15:57:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149019</comments>
+    </item>
+    <item>
+      <title>Microsoft、営業担当者がノルマを達成できなかったため、AI の販売目標を半減</title>
+      <link>https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</link>
+      <description>📝 ファウンドリーの売上成長目標を達成したのは、その部門の営業担当者の 5 分の 1 未満でした。 Microsoftは7月に、今年度の成長率目標を約25％に引き下げた。そして、Microsoft の Copilot 自体も、ブランド優先の課題に直面しています。今年初め、Bloomberg は、従業員の多くが ChatGPT を好むため、Microsoft の営業担当者が企業に Copilot を販売するのに苦労していると報じました。
+
+
+🔤 Original: Microsoft drops AI sales targets in half after salespeople miss their quotas
+
+🔗 Read more: https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</description>
+      <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</guid>
+      <pubDate>Thu, 04 Dec 2025 15:31:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148748</comments>
+    </item>
+    <item>
+      <title>Proxmox データセンター マネージャー 1.0 が利用可能</title>
+      <link>https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</link>
+      <description>📝 Proxmox データセンター マネージャーの 0。 Proxmox Datacenter Manager は、管理者に包括的かつシームレスな制御を提供することを主な目的として、Proxmox VE および Proxmox Backup Server の管理、監視、スケーリングのための総合的な単一画面ビューを提供します。 Proxmox Datacenter Manager は、このスケーリングの課題に対する戦略的な解決策として開発されました。
+
+
+🔤 Original: Proxmox Datacenter Manager 1.0 available
+
+🔗 Read more: https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</description>
+      <guid isPermaLink="true">https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0</guid>
+      <pubDate>Thu, 04 Dec 2025 15:31:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46148744</comments>
+    </item>
+    <item>
+      <title>トレーニングとテストの分割の終わり</title>
+      <link>https://folio.benguzovsky.com/train-test</link>
+      <description>📝 D のコンテンツ ポリシー チーム。データ サイエンスのスパイシーな感覚がうずきます。複雑な分類タスクに伴う中核的な問題 ポリシーの専門家は抽象的なルールを作成します。
+
+
+🔤 Original: The End of the Train-Test Split
+
+🔗 Read more: https://folio.benguzovsky.com/train-test</description>
+      <guid isPermaLink="true">https://folio.benguzovsky.com/train-test</guid>
+      <pubDate>Thu, 04 Dec 2025 16:53:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149740</comments>
+    </item>
+    <item>
+      <title>自閉症を単一の病気として扱ってはなりません</title>
+      <link>https://www.economist.com/science-and-technology/2025/12/03/why-autism-should-not-be-treated-as-a-single-condition</link>
+      <guid isPermaLink="true">https://www.economist.com/science-and-technology/2025/12/03/why-autism-should-not-be-treated-as-a-single-condition</guid>
+      <pubDate>Thu, 04 Dec 2025 16:25:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46149375</comments>
     </item>
   </channel>
 </rss>
