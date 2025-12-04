@@ -6,93 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 04 Dec 2025 12:45:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 15:25:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>PGlite – 嵌入式 Postgres</title>
-      <link>https://pglite.dev/</link>
-      <description>📝 在 WASM 中本地运行完整的 Postgres 数据库，具有反应性和实时同步功能。动态扩展加载机制，包括对 pgvector 的支持。使用 Supabase 在 PGlite 上构建的 AI 创建和发布 Postgres 数据库：这是在浏览器中运行的完整 PGlite Postgres。
+      <title>透明领导胜过仆人式领导</title>
+      <link>https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</link>
+      <description>📝 在我看来，仆人式领导很像冰壶式育儿：领导者/家长预见问题并为他们的直接下属/孩子扫清道路。在我的书中，优秀的领导者会指导人们，联系人们，教人们有条不紊地解决问题，解释组织所信奉的价值观和原则，以帮助他们自己做出一致的决策，在供需之间建立直接联系（而不是故意让自己成为中间人），通过逐步接管领导职责来允许他们的直接下属职业发展，不断培训他们的继任者，并且通常会让他们自己变得多余。这可以让经理的技能保持新鲜感，并让他们从报告中获得更多尊重。
 
 
-🔤 Original: PGlite – Embeddable Postgres
+🔤 Original: Transparent Leadership Beats Servant Leadership
 
-🔗 Read more: https://pglite.dev/</description>
-      <guid isPermaLink="true">https://pglite.dev/</guid>
-      <pubDate>Thu, 04 Dec 2025 10:52:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146133</comments>
+🔗 Read more: https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</guid>
+      <pubDate>Thu, 04 Dec 2025 13:40:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147540</comments>
     </item>
     <item>
-      <title>是时候释放 JavaScript 了</title>
-      <link>https://javascript.tm/letter</link>
-      <description>📝 Oracle 对 JavaScript 商标的持有显然符合商标放弃的法律定义。 Netscape、Sun、Oracle JavaScript 商标目前由 Oracle America, Inc. 持有。Oracle 从未认真提供过名为 JavaScript 的产品。
+      <title>作为一名工程师，我忽略了聚光灯</title>
+      <link>https://lalitm.com/software-engineering-outside-the-spotlight/</link>
+      <description>📝 在这种环境下，我们与领导的关系非常不同。此外，我们的反馈直接来自工程师。高管们通过考虑我们对更多面向产品的团队的影响来确保我们真正解决这些问题。
 
 
-🔤 Original: It’s time to free JavaScript
+🔤 Original: I ignore the spotlight as a staff engineer
 
-🔗 Read more: https://javascript.tm/letter</description>
-      <guid isPermaLink="true">https://javascript.tm/letter</guid>
-      <pubDate>Thu, 04 Dec 2025 09:01:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46145365</comments>
+🔗 Read more: https://lalitm.com/software-engineering-outside-the-spotlight/</description>
+      <guid isPermaLink="true">https://lalitm.com/software-engineering-outside-the-spotlight/</guid>
+      <pubDate>Thu, 04 Dec 2025 11:36:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46146451</comments>
     </item>
     <item>
-      <title>NextJS 安全漏洞</title>
-      <link>https://nextjs.org/blog/CVE-2025-66478</link>
-      <description>📝 该漏洞源自上游 React 实现 (CVE-2025-55182)。 x npm 安装 next@15。 x npm 安装 next@15。
+      <title>函数四叉树</title>
+      <link>https://lbjgruppen.com/en/posts/functional-quadtree-clojure</link>
+      <description>📝 [ 节点相机 ] （和（太近了。（w/postwalk (fn [e] (prn "看着：" e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "看着：" :rootval "看着：" 1 "看着：" [:rootval 1] "看着：" :node1 "看着：" :data “正在查看：” “foo” “正在查看：” [:data “foo”] “正在查看：” :vec “正在查看：” 1 “正在查看：” 2 “正在查看：” 3 “正在查看：” [1 2 3] “正在查看：” [:vec [1 2 3]] “正在查看：” {:data "foo", :vec [1 2 3]} “正在查看：” [:node1 {:data "foo", :vec [1 2 3]}] "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}我希望这是一种直观的方式来查看 postwalk 所采取的路径。 prewalk:(w/prewalk (fn [e] (prn "正在查看：" e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "正在查看：" {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} "正在查看：" [:rootval 1] "正在查看：" :rootval "正在查看：" 1 "正在查看：" [:node1 {:data "foo", :vec [1 2 3]}] "正在查看：" :node1 "正在查看：" {:data "foo", :vec [1 2 3]} "正在查看：" [:data "foo"] "正在查看：" :data "正在查看：" "foo" "正在查看：" [:vec [1 2 3]] "Looking at: " :vec "Looking at: " [1 2 3] "Looking at: " 1 "Looking at: " 2 "Looking at: " 3 {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}Prewalk 以相同的方式检查相同的元素，但路径是我们所说的前序遍历，这意味着您看到节点的内容在元素之前 - 暗示着，您可以交换这些节点，然后访问元素。
 
 
-🔤 Original: NextJS Security Vulnerability
+🔤 Original: Functional Quadtrees
 
-🔗 Read more: https://nextjs.org/blog/CVE-2025-66478</description>
-      <guid isPermaLink="true">https://nextjs.org/blog/CVE-2025-66478</guid>
-      <pubDate>Thu, 04 Dec 2025 11:14:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146266</comments>
+🔗 Read more: https://lbjgruppen.com/en/posts/functional-quadtree-clojure</description>
+      <guid isPermaLink="true">https://lbjgruppen.com/en/posts/functional-quadtree-clojure</guid>
+      <pubDate>Thu, 04 Dec 2025 13:18:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147341</comments>
     </item>
     <item>
-      <title>虚幻竞技场 2004 回归</title>
-      <link>https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/</guid>
-      <pubDate>Thu, 04 Dec 2025 10:06:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46145834</comments>
+      <title>日本四缸发动机如此可靠 25 年后仍在生产</title>
+      <link>https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</link>
+      <description>📝 本田在 JDM 独家 2001 Honda Stream 中首次推出了 K 系列 K20A。相关 你忘记的本田思域为 Type R 铺平了道路 这是第一款配备著名的 B16A VTEC 发动机的本田思域。这也是一种重新设计，以满足更严格的全球排放规则和现代涡轮增压带来的更严格的热要求。
+
+
+🔤 Original: Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years
+
+🔗 Read more: https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</description>
+      <guid isPermaLink="true">https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</guid>
+      <pubDate>Thu, 04 Dec 2025 12:09:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46146740</comments>
     </item>
     <item>
-      <title>编程达到顶峰</title>
-      <link>https://functional.computer/blog/programming-peaked</link>
-      <description>📝 2025 年编程 这是 2025 年。合并后，我们将 JavaScript 打包到“容器”中，这是“厨房水槽”的一个奇特词。我们都同意这是最好的编程方式。
+      <title>RAM这么贵，三星都不卖给三星了</title>
+      <link>https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</link>
+      <description>📝 三星生产从冰箱到超大油轮的各种产品。 ，以及生产内存和其他芯片并供应全球市场的三星半导体全球公司。三星子公司在需要零部件时自然会首先寻求三星半导体。
 
 
-🔤 Original: Programming Peaked
+🔤 Original: RAM is so expensive, Samsung won't even sell it to Samsung
 
-🔗 Read more: https://functional.computer/blog/programming-peaked</description>
-      <guid isPermaLink="true">https://functional.computer/blog/programming-peaked</guid>
-      <pubDate>Thu, 04 Dec 2025 10:01:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46145797</comments>
+🔗 Read more: https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</description>
+      <guid isPermaLink="true">https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</guid>
+      <pubDate>Thu, 04 Dec 2025 13:20:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147353</comments>
     </item>
     <item>
-      <title>30 年前的今天“Netscape 和 Sun 宣布 JavaScript”</title>
-      <link>https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html</link>
-      <description>📝 JavaScript 语言是对Java 的补充，Java 是Sun 业界领先的面向对象的跨平台编程语言。页面可能包含在客户端和服务器上运行的 JavaScript 脚本。网景导航器黄金版 2。
+      <title>研究表明，人类头发的生长是通过“拉”而不是推</title>
+      <link>https://phys.org/news/2025-12-human-hair.html</link>
+      <description>📝 几十年来，人们一直认为头发是被毛球中的分裂细胞推出的。来自同一欧莱雅团队的另一位主要作者 Thomas Bornschlögl 补充道：“这表明毛发生长不仅仅由细胞分裂驱动，相反，外根鞘主动将毛发向上拉。更多信息：Nicolas Tissot 等人，绘制人类离体毛囊中的细胞动力学表明毛发生长的拉动机制，《自然通讯》（2025 年）。
 
 
-🔤 Original: 30 years ago today "Netscape and Sun announce JavaScript"
+🔤 Original: Human hair grows through 'pulling' not pushing, study shows
 
-🔗 Read more: https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html</description>
-      <guid isPermaLink="true">https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html</guid>
-      <pubDate>Thu, 04 Dec 2025 11:32:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146406</comments>
-    </item>
-    <item>
-      <title>在 Rails 中构建乐观的 UI（并学习自定义元素）</title>
-      <link>https://railsdesigner.com/custom-elements/</link>
-      <description>📝 什么是自定义元素。自定义元素允许您定义具有自定义行为的自己的 HTML 标签。这可以防止与未来的 HTML 元素发生冲突。
-
-
-🔤 Original: Building optimistic UI in Rails (and learn custom elements)
-
-🔗 Read more: https://railsdesigner.com/custom-elements/</description>
-      <guid isPermaLink="true">https://railsdesigner.com/custom-elements/</guid>
-      <pubDate>Thu, 04 Dec 2025 11:03:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146204</comments>
+🔗 Read more: https://phys.org/news/2025-12-human-hair.html</description>
+      <guid isPermaLink="true">https://phys.org/news/2025-12-human-hair.html</guid>
+      <pubDate>Thu, 04 Dec 2025 13:22:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147371</comments>
     </item>
   </channel>
 </rss>

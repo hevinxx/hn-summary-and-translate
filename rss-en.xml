@@ -6,75 +6,68 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 12:45:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 15:25:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>PGlite – Embeddable Postgres</title>
-      <link>https://pglite.dev/</link>
-      <description>📝 Run a full Postgres database locally in WASM with reactivity and live sync. Dynamic extension loading mechanism, including support for pgvector. Create and publish a Postgres database using AI built on PGlite by Supabase: This is a full PGlite Postgres running in your browser.
+      <title>Transparent Leadership Beats Servant Leadership</title>
+      <link>https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</link>
+      <description>📝 Servant leadership seems to me a lot like curling parenting: the leader/parent anticipate problems and sweep the way for their direct reports/children. In my book, a good leader coaches people, connects people, teaches people methodical problem solving, explains values and principles embraced by the organisation to aid them in making aligned decisions on their own, creates direct links between supply and demand (instead of deliberately making themselves a middle man), allows their direct reports career growth by gradually taking over leadership responsibilities, continuously trains their replacement, and generally makes themselves redundant. This keeps the manager’s skills fresh and gets them more respect from their reports.
 
-🔗 Read more: https://pglite.dev/</description>
-      <guid isPermaLink="true">https://pglite.dev/</guid>
-      <pubDate>Thu, 04 Dec 2025 10:52:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146133</comments>
+🔗 Read more: https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/transparent-leadership-beats-servant-leadership</guid>
+      <pubDate>Thu, 04 Dec 2025 13:40:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147540</comments>
     </item>
     <item>
-      <title>It’s time to free JavaScript</title>
-      <link>https://javascript.tm/letter</link>
-      <description>📝 Oracle’s hold on the JavaScript trademark clearly fits the legal definition of trademark abandonment. Netscape, Sun, Oracle The JavaScript trademark is currently held by Oracle America, Inc. Oracle has never seriously offered a product called JavaScript.
+      <title>I ignore the spotlight as a staff engineer</title>
+      <link>https://lalitm.com/software-engineering-outside-the-spotlight/</link>
+      <description>📝 In this environment, our relationship with leadership is very different. Also, our feedback comes directly from engineers. Execs ensure that we’re actually solving these problems by considering our impact on more product facing teams.
 
-🔗 Read more: https://javascript.tm/letter</description>
-      <guid isPermaLink="true">https://javascript.tm/letter</guid>
-      <pubDate>Thu, 04 Dec 2025 09:01:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46145365</comments>
+🔗 Read more: https://lalitm.com/software-engineering-outside-the-spotlight/</description>
+      <guid isPermaLink="true">https://lalitm.com/software-engineering-outside-the-spotlight/</guid>
+      <pubDate>Thu, 04 Dec 2025 11:36:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46146451</comments>
     </item>
     <item>
-      <title>NextJS Security Vulnerability</title>
-      <link>https://nextjs.org/blog/CVE-2025-66478</link>
-      <description>📝 This vulnerability originates in the upstream React implementation (CVE-2025-55182). x npm install next@15. x npm install next@15.
+      <title>Functional Quadtrees</title>
+      <link>https://lbjgruppen.com/en/posts/functional-quadtree-clojure</link>
+      <description>📝 [ node camera ] (and (too-close. (w/postwalk (fn [e] (prn "Looking at: " e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "Looking at: " :rootval "Looking at: " 1 "Looking at: " [:rootval 1] "Looking at: " :node1 "Looking at: " :data "Looking at: " "foo" "Looking at: " [:data "foo"] "Looking at: " :vec "Looking at: " 1 "Looking at: " 2 "Looking at: " 3 "Looking at: " [1 2 3] "Looking at: " [:vec [1 2 3]] "Looking at: " {:data "foo", :vec [1 2 3]} "Looking at: " [:node1 {:data "foo", :vec [1 2 3]}] "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}I hope this is an intuitive way to see the path postwalk takes. Now compare that with prewalk:(w/prewalk (fn [e] (prn "Looking at: " e) e) {:rootval 1 :node1 {:data "foo" :vec [1 2 3]}}) "Looking at: " {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}} "Looking at: " [:rootval 1] "Looking at: " :rootval "Looking at: " 1 "Looking at: " [:node1 {:data "foo", :vec [1 2 3]}] "Looking at: " :node1 "Looking at: " {:data "foo", :vec [1 2 3]} "Looking at: " [:data "foo"] "Looking at: " :data "Looking at: " "foo" "Looking at: " [:vec [1 2 3]] "Looking at: " :vec "Looking at: " [1 2 3] "Looking at: " 1 "Looking at: " 2 "Looking at: " 3 {:rootval 1, :node1 {:data "foo", :vec [1 2 3]}}Prewalk examines the same elements and in the same way, but the path is what we call a pre-order traversal, which means you see contents of nodes before the elements - And by implication, you can swap those nodes and then visit the elements.
 
-🔗 Read more: https://nextjs.org/blog/CVE-2025-66478</description>
-      <guid isPermaLink="true">https://nextjs.org/blog/CVE-2025-66478</guid>
-      <pubDate>Thu, 04 Dec 2025 11:14:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146266</comments>
+🔗 Read more: https://lbjgruppen.com/en/posts/functional-quadtree-clojure</description>
+      <guid isPermaLink="true">https://lbjgruppen.com/en/posts/functional-quadtree-clojure</guid>
+      <pubDate>Thu, 04 Dec 2025 13:18:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147341</comments>
     </item>
     <item>
-      <title>Unreal Tournament 2004 is back</title>
-      <link>https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/</guid>
-      <pubDate>Thu, 04 Dec 2025 10:06:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46145834</comments>
+      <title>Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years</title>
+      <link>https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</link>
+      <description>📝 Honda debuted the first K-Series K20A in the JDM-exclusive 2001 Honda Stream. Related The Honda Civic You Forgot About That Paved The Way For The Type R This was the first-ever Honda Civic to come with the famed B16A VTEC engine. It's also a redesign that meets stricter global emissions rules and tighter thermal demands that come with modern turbocharging.
+
+🔗 Read more: https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</description>
+      <guid isPermaLink="true">https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/</guid>
+      <pubDate>Thu, 04 Dec 2025 12:09:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46146740</comments>
     </item>
     <item>
-      <title>Programming Peaked</title>
-      <link>https://functional.computer/blog/programming-peaked</link>
-      <description>📝 Programming in 2025 It’s 2025. Once it’s merged, we take that JavaScript and package it into a “container”, which is a fancy word for “kitchen sink”. We all agree that this is the best kind of programming.
+      <title>RAM is so expensive, Samsung won't even sell it to Samsung</title>
+      <link>https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</link>
+      <description>📝 Samsung makes everything from refrigerators to supermassive oil tankers. , and Samsung Semiconductor Global, which manufactures memory and other chips and supplies the global market. Samsung subsidiaries are, naturally, going to look to Samsung Semiconductor first when they need parts.
 
-🔗 Read more: https://functional.computer/blog/programming-peaked</description>
-      <guid isPermaLink="true">https://functional.computer/blog/programming-peaked</guid>
-      <pubDate>Thu, 04 Dec 2025 10:01:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46145797</comments>
+🔗 Read more: https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</description>
+      <guid isPermaLink="true">https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html</guid>
+      <pubDate>Thu, 04 Dec 2025 13:20:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147353</comments>
     </item>
     <item>
-      <title>30 years ago today "Netscape and Sun announce JavaScript"</title>
-      <link>https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html</link>
-      <description>📝 The JavaScript language complements Java, Sun's industry-leading object-oriented, cross-platform programming language. A page might contain JavaScript scripts that run on both the client and the server. Netscape Navigator Gold 2.
+      <title>Human hair grows through 'pulling' not pushing, study shows</title>
+      <link>https://phys.org/news/2025-12-human-hair.html</link>
+      <description>📝 For decades, it was assumed that hair was pushed out by the dividing cells in the hair bulb. Thomas Bornschlögl, another lead author, from the same L'Oréal team adds, "This reveals that hair growth is not driven only by cell division—instead, the outer root sheath actively pulls the hair upward. More information: Nicolas Tissot et al, Mapping cell dynamics in human ex vivo hair follicles suggests pulling mechanism of hair growth, Nature Communications (2025).
 
-🔗 Read more: https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html</description>
-      <guid isPermaLink="true">https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html</guid>
-      <pubDate>Thu, 04 Dec 2025 11:32:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146406</comments>
-    </item>
-    <item>
-      <title>Building optimistic UI in Rails (and learn custom elements)</title>
-      <link>https://railsdesigner.com/custom-elements/</link>
-      <description>📝 What are custom elements. Custom elements let you define your own HTML tags with custom behavior. This prevents conflicts with future HTML elements.
-
-🔗 Read more: https://railsdesigner.com/custom-elements/</description>
-      <guid isPermaLink="true">https://railsdesigner.com/custom-elements/</guid>
-      <pubDate>Thu, 04 Dec 2025 11:03:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46146204</comments>
+🔗 Read more: https://phys.org/news/2025-12-human-hair.html</description>
+      <guid isPermaLink="true">https://phys.org/news/2025-12-human-hair.html</guid>
+      <pubDate>Thu, 04 Dec 2025 13:22:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46147371</comments>
     </item>
   </channel>
 </rss>
