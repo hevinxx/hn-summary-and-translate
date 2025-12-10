@@ -6,88 +6,38 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Dec 2025 21:20:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 01:46:56 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>10 Years of Let's Encrypt</title>
-      <link>https://letsencrypt.org/2025/12/09/10-years</link>
-      <description>📝 In March 2016, we issued our one millionth certificate. Just two years later, in September 2018, we were issuing a million certificates every day. In 2020 we reached a billion total certificates issued and as of late 2025 we’re frequently issuing ten million certificates per day.
+      <title>Qt, Linux and everything: Debugging Qt WebAssembly</title>
+      <link>http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</link>
+      <description>📝 Emscripten embeds DWARF symbols in the wasm binaries. NOTE: Debugging wasm files with DWARF works only in the Chrome browser with the help of a browser extension. The javascript console will soon contain file source file paths and sources.
 
-🔗 Read more: https://letsencrypt.org/2025/12/09/10-years</description>
-      <guid isPermaLink="true">https://letsencrypt.org/2025/12/09/10-years</guid>
-      <pubDate>Tue, 09 Dec 2025 18:54:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208962</comments>
+🔗 Read more: http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</description>
+      <guid isPermaLink="true">http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</guid>
+      <pubDate>Tue, 09 Dec 2025 21:19:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46210806</comments>
     </item>
     <item>
-      <title>Django: What's new in 6.0 – Adam Johnson</title>
-      <link>https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</link>
-      <description>📝 Reuse partials within the same templateThe below template reuses a partial called filter_controls within the same template. &lt;/li&gt; {% endfor %} &lt;/ul&gt; {% partial filter_controls %} &lt;/section&gt; Reach for this pattern any time you find yourself repeating template code within the same template. html#view_count", {"video": video}) The initial video view renders the full template video.
+      <title>Linux CVEs, more than you ever wanted to know</title>
+      <link>http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</link>
+      <description>📝 It’s been almost 2 full years since Linux became a CNA (Certificate Numbering Authority) which meant that we (i. I’ve given a number of talks over the past years about this, starting with the Open Source security podcast right after we became a CNA and then the Kernel Recipes 2024 talk, “CVEs are alive, but do not panic” and then a talk at OSS Hong Kong 2024 about the same topic with updated numbers and later a talk at OSS Japan 2024 with more info about the same topic and finally for 2024 a talk with more detail that I can’t find the online version. how to handle reports at scale): Linux kernel versions, how the Linux kernel releases are numbered.
 
-🔗 Read more: https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</description>
-      <guid isPermaLink="true">https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</guid>
-      <pubDate>Tue, 09 Dec 2025 20:33:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210240</comments>
+🔗 Read more: http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</description>
+      <guid isPermaLink="true">http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</guid>
+      <pubDate>Tue, 09 Dec 2025 22:47:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46211802</comments>
     </item>
     <item>
-      <title>So you want to speak at software conferences?</title>
-      <link>https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</link>
-      <description>📝 Then give it at local user group. Give it at another user group. Events like this are your chance to get noticed.
+      <title>OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution</title>
+      <link>https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</link>
+      <description>📝 Candidate programs are produced via LLM-guided edits (diff-based by default), evaluated with user-defined metrics, and organized using MAP-Elites while an island model with migration supports parallel, diversified exploration. Program Database: Implements MAP-Elites per island, binning programs along configurable feature dimensions (defaults include complexity and diversity; custom dimensions are taken from evaluator metrics). Cascade Evaluation Evaluation proceeds in stages with configurable thresholds.
 
-🔗 Read more: https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</description>
-      <guid isPermaLink="true">https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</guid>
-      <pubDate>Tue, 09 Dec 2025 18:42:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208773</comments>
-    </item>
-    <item>
-      <title>Agentic AI Foundation</title>
-      <link>https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</link>
-      <description>📝 Without collaborative open development, we risk missing the full potential of agentic AI where everyone benefits thanks to open standards, open protocols, and open systems on which other tools are built. What AAIF Will DoThe Agentic AI Foundation provides a neutral home where companies, researchers, and independent developers can collaborate on open source agentic AI. Founding ProjectsAAIF launches with contributions from Block, Anthropic, and OpenAI:goose, Block's open source agentic AI framework, will transition to community governance under AAIF.
-
-🔗 Read more: https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</description>
-      <guid isPermaLink="true">https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</guid>
-      <pubDate>Tue, 09 Dec 2025 20:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46209846</comments>
-    </item>
-    <item>
-      <title>The stack circuitry of the Intel 8087 floating point chip, reverse-engineered</title>
-      <link>https://www.righto.com/2025/12/8087-stack-circuitry.html</link>
-      <description>📝 The stack circuitry of the Intel 8087 floating point chip, reverse-engineered Early microprocessors were very slow when operating with floating-point numbers. At the right are the eight registers that form the stack, along with the stack control circuitry. The stack on the 8087.
-
-🔗 Read more: https://www.righto.com/2025/12/8087-stack-circuitry.html</description>
-      <guid isPermaLink="true">https://www.righto.com/2025/12/8087-stack-circuitry.html</guid>
-      <pubDate>Tue, 09 Dec 2025 18:16:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208409</comments>
-    </item>
-    <item>
-      <title>I misused LLMs to diagnose myself and ended up bedridden for a week</title>
-      <link>https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</link>
-      <description>📝 Does this sound right. I sure felt reassured that I was right about everything. This is not rational behavior.
-
-🔗 Read more: https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</description>
-      <guid isPermaLink="true">https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</guid>
-      <pubDate>Tue, 09 Dec 2025 21:07:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210661</comments>
-    </item>
-    <item>
-      <title>"The Matilda Effect": Pioneering Women Scientists Written Out of Science History</title>
-      <link>https://www.openculture.com/2025/12/matilda-effect.html</link>
-      <description>📝 women sci­en­tists inspired the His­to­ry of Sci­ence Soci­ety to name a pres­ti­gious prize after her. Instead, “Meit­ner led the research that ulti­mate­ly dis­cov­ered nuclear fis­sion. Instead, Uni­ver­si­ty Pres­i­dent Dr.
-
-🔗 Read more: https://www.openculture.com/2025/12/matilda-effect.html</description>
-      <guid isPermaLink="true">https://www.openculture.com/2025/12/matilda-effect.html</guid>
-      <pubDate>Tue, 09 Dec 2025 17:57:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208160</comments>
-    </item>
-    <item>
-      <title>Launch HN: Mentat (YC F24) – Controlling LLMs with Runtime Intervention</title>
-      <link>https://news.ycombinator.com/item?id=46207017</link>
-      <description>📝 This often fails in two ways. This proved the model had the knowledge but was suppressing it. Most startups in this space are observability tools that tell you only after the model failed.
-
-🔗 Read more: https://news.ycombinator.com/item?id=46207017</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46207017</guid>
-      <pubDate>Tue, 09 Dec 2025 16:37:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46207017</comments>
+🔗 Read more: https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</description>
+      <guid isPermaLink="true">https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</guid>
+      <pubDate>Tue, 09 Dec 2025 22:54:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46211861</comments>
     </item>
   </channel>
 </rss>

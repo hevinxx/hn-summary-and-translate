@@ -6,112 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Dec 2025 21:20:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 01:46:56 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>让我们加密 10 年</title>
-      <link>https://letsencrypt.org/2025/12/09/10-years</link>
-      <description>📝 2016 年 3 月，我们颁发了第一百万张证书。仅仅两年后，即 2018 年 9 月，我们每天发行一百万张证书。 2020 年，我们发行的证书总数达到了 10 亿个，截至 2025 年末，我们每天经常发行 1000 万个证书。
+      <title>Qt、Linux 和一切：调试 Qt WebAssembly</title>
+      <link>http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</link>
+      <description>📝 Emscripten 在 wasm 二进制文件中嵌入 DWARF 符号。注意：使用 DWARF 调试 wasm 文件只能在 Chrome 浏览器中借助浏览器扩展进行。 javascript 控制台很快将包含文件源文件路径和源。
 
 
-🔤 Original: 10 Years of Let's Encrypt
+🔤 Original: Qt, Linux and everything: Debugging Qt WebAssembly
 
-🔗 Read more: https://letsencrypt.org/2025/12/09/10-years</description>
-      <guid isPermaLink="true">https://letsencrypt.org/2025/12/09/10-years</guid>
-      <pubDate>Tue, 09 Dec 2025 18:54:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208962</comments>
+🔗 Read more: http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</description>
+      <guid isPermaLink="true">http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</guid>
+      <pubDate>Tue, 09 Dec 2025 21:19:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46210806</comments>
     </item>
     <item>
-      <title>Django：6.0 中的新功能 – Adam Johnson</title>
-      <link>https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</link>
-      <description>📝 在同一模板中重用部分下面的模板在同一模板中重用了名为 filter_controls 的部分。 &lt;/li&gt; {% endfor %} &lt;/ul&gt; {%partial filter_controls %} &lt;/section&gt; 每当您发现自己在同一模板中重复模板代码时，请使用此模式。 html#view_count", {"video": video}) 初始视频视图呈现完整的模板视频。
+      <title>Linux CVE，比您想知道的还要多</title>
+      <link>http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</link>
+      <description>📝 Linux 成为 CNA（证书编号机构）已经过去了整整 2 年，这意味着我们（即，过去几年我对此进行了多次演讲，从我们成为 CNA 后的开源安全播客开始，然后是 Kernel Recipes 2024 演讲“CVE 还活着，但不要惊慌”，然后在 OSS Hong Kong 2024 上关于同一主题的演讲（更新了数字），以及后来在 OSS Japan 上的演讲2024 年将提供有关同一主题的更多信息，最后将在 2024 年进行更详细的讨论（我找不到如何大规模处理报告的在线版本）：Linux 内核版本，Linux 内核版本的编号方式。
 
 
-🔤 Original: Django: What's new in 6.0 – Adam Johnson
+🔤 Original: Linux CVEs, more than you ever wanted to know
 
-🔗 Read more: https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</description>
-      <guid isPermaLink="true">https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</guid>
-      <pubDate>Tue, 09 Dec 2025 20:33:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210240</comments>
+🔗 Read more: http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</description>
+      <guid isPermaLink="true">http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</guid>
+      <pubDate>Tue, 09 Dec 2025 22:47:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46211802</comments>
     </item>
     <item>
-      <title>那么您想在软件会议上发言吗？</title>
-      <link>https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</link>
-      <description>📝 然后将其交给本地用户组。将其交给另一个用户组。此类活动是您引起注意的机会。
+      <title>OpenEvolve：教授法学硕士通过进化发现算法</title>
+      <link>https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</link>
+      <description>📝 候选程序是通过 LLM 引导的编辑（默认情况下基于差异）生成的，使用用户定义的指标进行评估，并使用 MAP-Elites 进行组织，而具有迁移的岛屿模型支持并行、多样化的探索。项目数据库：为每个岛屿实施 MAP-Elites，按照可配置的特征维度对项目进行分箱（默认包括复杂性和多样性；自定义维度取自评估器指标）。级联评估 评估分阶段进行，阈值可配置。
 
 
-🔤 Original: So you want to speak at software conferences?
+🔤 Original: OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution
 
-🔗 Read more: https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</description>
-      <guid isPermaLink="true">https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</guid>
-      <pubDate>Tue, 09 Dec 2025 18:42:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208773</comments>
-    </item>
-    <item>
-      <title>代理人工智能基金会</title>
-      <link>https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</link>
-      <description>📝 如果没有协作式开放开发，我们就有可能无法充分发挥代理人工智能的潜力，而在代理人工智能中，由于开放标准、开放协议和构建其他工具的开放系统，每个人都受益。 AAIF 将做什么代理人工智能基金会提供一个中立的家园，公司、研究人员和独立开发人员可以在开源代理人工智能方面进行合作。创始项目 AAIF 在 Block、Anthropic 和 OpenAI 的贡献下启动：Block 的开源代理 AI 框架 goose 将过渡到 AAIF 下的社区治理。
-
-
-🔤 Original: Agentic AI Foundation
-
-🔗 Read more: https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</description>
-      <guid isPermaLink="true">https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</guid>
-      <pubDate>Tue, 09 Dec 2025 20:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46209846</comments>
-    </item>
-    <item>
-      <title>Intel 8087 浮点芯片的堆栈电路，逆向工程</title>
-      <link>https://www.righto.com/2025/12/8087-stack-circuitry.html</link>
-      <description>📝 Intel 8087 浮点芯片的堆栈电路，逆向工程 早期微处理器在处理浮点数时速度非常慢。右侧是形成堆栈的八个寄存器以及堆栈控制电路。 8087 上的堆栈。
-
-
-🔤 Original: The stack circuitry of the Intel 8087 floating point chip, reverse-engineered
-
-🔗 Read more: https://www.righto.com/2025/12/8087-stack-circuitry.html</description>
-      <guid isPermaLink="true">https://www.righto.com/2025/12/8087-stack-circuitry.html</guid>
-      <pubDate>Tue, 09 Dec 2025 18:16:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208409</comments>
-    </item>
-    <item>
-      <title>我滥用法学硕士来诊断自己，结果卧床一周</title>
-      <link>https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</link>
-      <description>📝 这听起来对吗？我确实感到放心，我的一切都是对的。这不是理性行为。
-
-
-🔤 Original: I misused LLMs to diagnose myself and ended up bedridden for a week
-
-🔗 Read more: https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</description>
-      <guid isPermaLink="true">https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</guid>
-      <pubDate>Tue, 09 Dec 2025 21:07:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210661</comments>
-    </item>
-    <item>
-      <title>“玛蒂尔达效应”：科学史中的先驱女科学家</title>
-      <link>https://www.openculture.com/2025/12/matilda-effect.html</link>
-      <description>📝 女科学家启发科学史学会以她的名字命名了一个享有盛誉的奖项。相反，“迈特纳领导了最终发现核裂变的研究。相反，大学校长博士。
-
-
-🔤 Original: "The Matilda Effect": Pioneering Women Scientists Written Out of Science History
-
-🔗 Read more: https://www.openculture.com/2025/12/matilda-effect.html</description>
-      <guid isPermaLink="true">https://www.openculture.com/2025/12/matilda-effect.html</guid>
-      <pubDate>Tue, 09 Dec 2025 17:57:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208160</comments>
-    </item>
-    <item>
-      <title>启动 HN：Mentat (YC F24) – 通过运行时干预控制法学硕士</title>
-      <link>https://news.ycombinator.com/item?id=46207017</link>
-      <description>📝 这通常会以两种方式失败。这证明模型拥有知识，但抑制了它。这个领域的大多数初创公司都是可观察性工具，只有在模型失败后才会告诉你。
-
-
-🔤 Original: Launch HN: Mentat (YC F24) – Controlling LLMs with Runtime Intervention
-
-🔗 Read more: https://news.ycombinator.com/item?id=46207017</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46207017</guid>
-      <pubDate>Tue, 09 Dec 2025 16:37:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46207017</comments>
+🔗 Read more: https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</description>
+      <guid isPermaLink="true">https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</guid>
+      <pubDate>Tue, 09 Dec 2025 22:54:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46211861</comments>
     </item>
   </channel>
 </rss>

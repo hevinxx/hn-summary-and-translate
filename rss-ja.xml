@@ -6,112 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 09 Dec 2025 21:20:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 01:46:56 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Let's Encrypt の 10 年間</title>
-      <link>https://letsencrypt.org/2025/12/09/10-years</link>
-      <description>📝 2016 年 3 月に、100 万件目の証明書を発行しました。わずか 2 年後の 2018 年 9 月には、毎日 100 万件の証明書を発行していました。 2020 年に、発行される証明書の総数は 10 億に達し、2025 年後半の時点では、1 日あたり 1,000 万の証明書を頻繁に発行しています。
+      <title>Qt、Linux、その他すべて: Qt WebAssembly のデバッグ</title>
+      <link>http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</link>
+      <description>📝 Emscripten は DWARF シンボルを wasm バイナリに埋め込みます。注: DWARF を使用した wasm ファイルのデバッグは、ブラウザ拡張機能を使用した Chrome ブラウザでのみ機能します。 JavaScript コンソールには間もなく、ファイル ソースのファイル パスとソースが含まれるようになります。
 
 
-🔤 Original: 10 Years of Let's Encrypt
+🔤 Original: Qt, Linux and everything: Debugging Qt WebAssembly
 
-🔗 Read more: https://letsencrypt.org/2025/12/09/10-years</description>
-      <guid isPermaLink="true">https://letsencrypt.org/2025/12/09/10-years</guid>
-      <pubDate>Tue, 09 Dec 2025 18:54:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208962</comments>
+🔗 Read more: http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</description>
+      <guid isPermaLink="true">http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</guid>
+      <pubDate>Tue, 09 Dec 2025 21:19:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46210806</comments>
     </item>
     <item>
-      <title>Django: 6.0 の新機能 – アダム ジョンソン</title>
-      <link>https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</link>
-      <description>📝 同じテンプレート内でパーシャルを再利用する以下のテンプレートは、同じテンプレート内で filter_controls というパーシャルを再利用します。 &lt;/li&gt; {% endfor %} &lt;/ul&gt; {%partial filter_controls %} &lt;/section&gt; 同じテンプレート内でテンプレート コードを繰り返していることに気付いたときはいつでも、このパターンを使用してください。 html#view_count", {"video": video}) 最初のビデオ ビューでは、完全なテンプレート ビデオがレンダリングされます。
+      <title>Linux CVE、あなたが知りたかった以上のこと</title>
+      <link>http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</link>
+      <description>📝 Linux が CNA (証明書番号発行局) になってから丸 2 年近くが経過しました。これは、私たちがこれについて過去数年間にわたって何度も講演してきました。CNA になった直後のオープンソース セキュリティ ポッドキャストから始まり、次にカーネル レシピ 2024 での「CVE は生きていますが、パニックにならないでください」という講演、そして更新された番号付きの同じトピックについての OSS 香港 2024 での講演、その後 OSS Japan での講演と続きました。 2024 年には同じトピックに関する詳細情報が記載されており、最後に 2024 年については、オンライン バージョンが見つからないため、大規模なレポートの処理方法に関する詳細が説明されています。Linux カーネルのバージョン、Linux カーネル リリースの番号付け方法。
 
 
-🔤 Original: Django: What's new in 6.0 – Adam Johnson
+🔤 Original: Linux CVEs, more than you ever wanted to know
 
-🔗 Read more: https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</description>
-      <guid isPermaLink="true">https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/</guid>
-      <pubDate>Tue, 09 Dec 2025 20:33:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210240</comments>
+🔗 Read more: http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</description>
+      <guid isPermaLink="true">http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</guid>
+      <pubDate>Tue, 09 Dec 2025 22:47:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46211802</comments>
     </item>
     <item>
-      <title>それで、ソフトウェアカンファレンスで講演したいですか?</title>
-      <link>https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</link>
-      <description>📝 次に、ローカル ユーザー グループでそれを与えます。別のユーザーグループで渡してください。このようなイベントは注目を集めるチャンスです。
+      <title>OpenEvolve: 進化を通じてアルゴリズムを発見するように LLM を教える</title>
+      <link>https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</link>
+      <description>📝 候補プログラムは、LLM ガイド付き編集 (デフォルトでは差分ベース) によって作成され、ユーザー定義のメトリクスで評価され、MAP-Elites を使用して編成されます。一方、移行を伴うアイランド モデルは並行した多様な探索をサポートします。プログラム データベース: アイランドごとに MAP-Elite を実装し、構成可能な機能ディメンションに沿ってプログラムをビニングします (デフォルトには複雑さと多様性が含まれます。カスタム ディメンションは評価者のメトリクスから取得されます)。カスケード評価 評価は、構成可能なしきい値を使用して段階的に進められます。
 
 
-🔤 Original: So you want to speak at software conferences?
+🔤 Original: OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution
 
-🔗 Read more: https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</description>
-      <guid isPermaLink="true">https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</guid>
-      <pubDate>Tue, 09 Dec 2025 18:42:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208773</comments>
-    </item>
-    <item>
-      <title>エージェントティック AI 財団</title>
-      <link>https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</link>
-      <description>📝 協力的なオープン開発がなければ、オープン スタンダード、オープン プロトコル、他のツールが構築されているオープン システムのおかげで誰もが恩恵を受けるエージェント AI の可能性を最大限に逃すリスクがあります。 AAIF が行うこと Agentic AI Foundation は、企業、研究者、独立系開発者がオープンソースのエージェントティック AI で共同作業できる中立的な拠点を提供します。設立プロジェクトAAIF は、Block、Anthropic、および OpenAI:goose の貢献により開始され、Block のオープンソース エージェント AI フレームワークは、AAIF の下でコミュニティ ガバナンスに移行します。
-
-
-🔤 Original: Agentic AI Foundation
-
-🔗 Read more: https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</description>
-      <guid isPermaLink="true">https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation</guid>
-      <pubDate>Tue, 09 Dec 2025 20:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46209846</comments>
-    </item>
-    <item>
-      <title>リバースエンジニアリングされたインテル 8087 浮動小数点チップのスタック回路</title>
-      <link>https://www.righto.com/2025/12/8087-stack-circuitry.html</link>
-      <description>📝 リバース エンジニアリングされた初期のマイクロプロセッサである Intel 8087 浮動小数点チップのスタック回路は、浮動小数点数で動作すると非常に遅くなりました。右側には、スタックを形成する 8 つのレジスタとスタック制御回路があります。 8087 のスタック。
-
-
-🔤 Original: The stack circuitry of the Intel 8087 floating point chip, reverse-engineered
-
-🔗 Read more: https://www.righto.com/2025/12/8087-stack-circuitry.html</description>
-      <guid isPermaLink="true">https://www.righto.com/2025/12/8087-stack-circuitry.html</guid>
-      <pubDate>Tue, 09 Dec 2025 18:16:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208409</comments>
-    </item>
-    <item>
-      <title>自分自身を診断するために LLM を誤用してしまい、1 週間寝たきりになってしまった</title>
-      <link>https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</link>
-      <description>📝 これは正しいと思いますか？私はすべてについて正しかったと確信しました。これは合理的な行動ではありません。
-
-
-🔤 Original: I misused LLMs to diagnose myself and ended up bedridden for a week
-
-🔗 Read more: https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</description>
-      <guid isPermaLink="true">https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/</guid>
-      <pubDate>Tue, 09 Dec 2025 21:07:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210661</comments>
-    </item>
-    <item>
-      <title>「マチルダ効果」: 科学史から書かれた先駆的な女性科学者</title>
-      <link>https://www.openculture.com/2025/12/matilda-effect.html</link>
-      <description>📝 女性科学者たちは、科学史協会に名誉ある賞を彼女の名にちなんで命名するよう促しました。代わりに、「マイトナーは最終的に核分裂を発見した研究を主導しました。代わりに、大学学長の博士が主導しました。」
-
-
-🔤 Original: "The Matilda Effect": Pioneering Women Scientists Written Out of Science History
-
-🔗 Read more: https://www.openculture.com/2025/12/matilda-effect.html</description>
-      <guid isPermaLink="true">https://www.openculture.com/2025/12/matilda-effect.html</guid>
-      <pubDate>Tue, 09 Dec 2025 17:57:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46208160</comments>
-    </item>
-    <item>
-      <title>HN の起動: Mentat (YC F24) – ランタイム介入による LLM の制御</title>
-      <link>https://news.ycombinator.com/item?id=46207017</link>
-      <description>📝 これは多くの場合、2 つの点で失敗します。これは、モデルが知識を持っていたにもかかわらず、それを抑圧していたことを証明しました。この分野のスタートアップのほとんどは、モデルが失敗した後にのみ通知する可観測性ツールです。
-
-
-🔤 Original: Launch HN: Mentat (YC F24) – Controlling LLMs with Runtime Intervention
-
-🔗 Read more: https://news.ycombinator.com/item?id=46207017</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46207017</guid>
-      <pubDate>Tue, 09 Dec 2025 16:37:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46207017</comments>
+🔗 Read more: https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</description>
+      <guid isPermaLink="true">https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</guid>
+      <pubDate>Tue, 09 Dec 2025 22:54:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46211861</comments>
     </item>
   </channel>
 </rss>
