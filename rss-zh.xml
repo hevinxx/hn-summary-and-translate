@@ -6,47 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Dec 2025 01:46:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 03:57:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Qt、Linux 和一切：调试 Qt WebAssembly</title>
-      <link>http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</link>
-      <description>📝 Emscripten 在 wasm 二进制文件中嵌入 DWARF 符号。注意：使用 DWARF 调试 wasm 文件只能在 Chrome 浏览器中借助浏览器扩展进行。 javascript 控制台很快将包含文件源文件路径和源。
+      <title>Rust 内核实验结束</title>
+      <link>https://lwn.net/Articles/1049831/</link>
+      <description>📝 （请继续关注我们的维护者峰会报道中的详细信息。）发表评论 版权所有 © 2025，Eklektix, Inc。评论和公共帖子的版权归其创建者所有。
 
 
-🔤 Original: Qt, Linux and everything: Debugging Qt WebAssembly
+🔤 Original: The end of the kernel Rust experiment
 
-🔗 Read more: http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</description>
-      <guid isPermaLink="true">http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</guid>
-      <pubDate>Tue, 09 Dec 2025 21:19:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210806</comments>
+🔗 Read more: https://lwn.net/Articles/1049831/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1049831/</guid>
+      <pubDate>Wed, 10 Dec 2025 03:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213585</comments>
     </item>
     <item>
-      <title>Linux CVE，比您想知道的还要多</title>
-      <link>http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</link>
-      <description>📝 Linux 成为 CNA（证书编号机构）已经过去了整整 2 年，这意味着我们（即，过去几年我对此进行了多次演讲，从我们成为 CNA 后的开源安全播客开始，然后是 Kernel Recipes 2024 演讲“CVE 还活着，但不要惊慌”，然后在 OSS Hong Kong 2024 上关于同一主题的演讲（更新了数字），以及后来在 OSS Japan 上的演讲2024 年将提供有关同一主题的更多信息，最后将在 2024 年进行更详细的讨论（我找不到如何大规模处理报告的在线版本）：Linux 内核版本，Linux 内核版本的编号方式。
+      <title>纽约市拥堵收费在六个月内将空气污染减少了五分之一</title>
+      <link>https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</link>
+      <description>📝 这驳斥了拥堵收费只会将交通及其相关污染推向邻近社区的说法。事实上，交通数据也证明了这一点。这告诉我们，拥堵收费并不是简单地通过改变交通路线将空气污染转移到郊区。
 
 
-🔤 Original: Linux CVEs, more than you ever wanted to know
+🔤 Original: NYC congestion pricing cuts air pollution by a fifth in six months
 
-🔗 Read more: http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</description>
-      <guid isPermaLink="true">http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</guid>
-      <pubDate>Tue, 09 Dec 2025 22:47:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46211802</comments>
+🔗 Read more: https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</description>
+      <guid isPermaLink="true">https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</guid>
+      <pubDate>Wed, 10 Dec 2025 02:58:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213504</comments>
     </item>
     <item>
-      <title>OpenEvolve：教授法学硕士通过进化发现算法</title>
-      <link>https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</link>
-      <description>📝 候选程序是通过 LLM 引导的编辑（默认情况下基于差异）生成的，使用用户定义的指标进行评估，并使用 MAP-Elites 进行组织，而具有迁移的岛屿模型支持并行、多样化的探索。项目数据库：为每个岛屿实施 MAP-Elites，按照可配置的特征维度对项目进行分箱（默认包括复杂性和多样性；自定义维度取自评估器指标）。级联评估 评估分阶段进行，阈值可配置。
+      <title>后变换器推理：Llama-70B 的 224 倍压缩，精度更高</title>
+      <link>https://zenodo.org/records/17873275</link>
+      <description>📝 轻量级压缩器 (AN1) 将这些字段减少了 224 倍，平均 +1。这项工作将场处理单元（FPU）建立为后变换器计算原语，用浅场运算取代深度矩阵乘法。文件 Post-Transformer_Inference.
 
 
-🔤 Original: OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution
+🔤 Original: Post-transformer inference: 224× compression of Llama-70B with improved accuracy
 
-🔗 Read more: https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</description>
-      <guid isPermaLink="true">https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</guid>
-      <pubDate>Tue, 09 Dec 2025 22:54:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46211861</comments>
+🔗 Read more: https://zenodo.org/records/17873275</description>
+      <guid isPermaLink="true">https://zenodo.org/records/17873275</guid>
+      <pubDate>Wed, 10 Dec 2025 01:25:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46212969</comments>
+    </item>
+    <item>
+      <title>使用 Cloudflare 错误页面显示您的所有应用程序错误</title>
+      <link>https://github.com/donlon/cloudflare-error-page</link>
+      <description>📝 Cloudflare 错误页面生成器 📢 更新 (2025/12/09)：错误页面中使用的所有图标已完全重新绘制为矢量资源。该项目创建模仿众所周知的 Cloudflare 错误页面的自定义错误页面。 &lt;/p&gt;", } 演示 Web 服务器正在工作 params = { "title": "Web 服务器正在工作", "error_code": 200, "more_information": { "hidden": True, }, "browser_status": { "status": "ok", "status_text": "似乎正在工作", }, "cloudflare_status": { "status": "ok", "status_text": "经常工作", }, "host_status": { "status": "ok", "location": "示例。
+
+
+🔤 Original: Show all your application error using Cloudflare Error Page
+
+🔗 Read more: https://github.com/donlon/cloudflare-error-page</description>
+      <guid isPermaLink="true">https://github.com/donlon/cloudflare-error-page</guid>
+      <pubDate>Wed, 10 Dec 2025 02:18:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213273</comments>
+    </item>
+    <item>
+      <title>人工智能教育死亡螺旋，又名“让孩子们作弊”</title>
+      <link>https://anandsanwal.me/ai-education-death-spiral/</link>
+      <description>📝 学生假装写作。这篇文章的作者以这个幽默的结论结束了这篇文章。我们以前见过这个。
+
+
+🔤 Original: The AI-Education Death Spiral a.k.a. Let the Kids Cheat
+
+🔗 Read more: https://anandsanwal.me/ai-education-death-spiral/</description>
+      <guid isPermaLink="true">https://anandsanwal.me/ai-education-death-spiral/</guid>
+      <pubDate>Wed, 10 Dec 2025 01:36:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213045</comments>
     </item>
   </channel>
 </rss>

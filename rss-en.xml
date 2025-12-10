@@ -6,38 +6,58 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 01:46:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 03:57:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Qt, Linux and everything: Debugging Qt WebAssembly</title>
-      <link>http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</link>
-      <description>📝 Emscripten embeds DWARF symbols in the wasm binaries. NOTE: Debugging wasm files with DWARF works only in the Chrome browser with the help of a browser extension. The javascript console will soon contain file source file paths and sources.
+      <title>The end of the kernel Rust experiment</title>
+      <link>https://lwn.net/Articles/1049831/</link>
+      <description>📝 (Stay tuned for details in our Maintainers Summit coverage. ) to post comments Copyright © 2025, Eklektix, Inc. Comments and public postings are copyrighted by their creators.
 
-🔗 Read more: http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</description>
-      <guid isPermaLink="true">http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</guid>
-      <pubDate>Tue, 09 Dec 2025 21:19:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210806</comments>
+🔗 Read more: https://lwn.net/Articles/1049831/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1049831/</guid>
+      <pubDate>Wed, 10 Dec 2025 03:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213585</comments>
     </item>
     <item>
-      <title>Linux CVEs, more than you ever wanted to know</title>
-      <link>http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</link>
-      <description>📝 It’s been almost 2 full years since Linux became a CNA (Certificate Numbering Authority) which meant that we (i. I’ve given a number of talks over the past years about this, starting with the Open Source security podcast right after we became a CNA and then the Kernel Recipes 2024 talk, “CVEs are alive, but do not panic” and then a talk at OSS Hong Kong 2024 about the same topic with updated numbers and later a talk at OSS Japan 2024 with more info about the same topic and finally for 2024 a talk with more detail that I can’t find the online version. how to handle reports at scale): Linux kernel versions, how the Linux kernel releases are numbered.
+      <title>NYC congestion pricing cuts air pollution by a fifth in six months</title>
+      <link>https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</link>
+      <description>📝 This refutes claims that congestion pricing merely pushes traffic and its associated pollution to neighboring communities. Indeed, traffic data supports this. This tells us that congestion pricing didn’t simply relocate air pollution to the suburbs by rerouting traffic.
 
-🔗 Read more: http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</description>
-      <guid isPermaLink="true">http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</guid>
-      <pubDate>Tue, 09 Dec 2025 22:47:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46211802</comments>
+🔗 Read more: https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</description>
+      <guid isPermaLink="true">https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</guid>
+      <pubDate>Wed, 10 Dec 2025 02:58:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213504</comments>
     </item>
     <item>
-      <title>OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution</title>
-      <link>https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</link>
-      <description>📝 Candidate programs are produced via LLM-guided edits (diff-based by default), evaluated with user-defined metrics, and organized using MAP-Elites while an island model with migration supports parallel, diversified exploration. Program Database: Implements MAP-Elites per island, binning programs along configurable feature dimensions (defaults include complexity and diversity; custom dimensions are taken from evaluator metrics). Cascade Evaluation Evaluation proceeds in stages with configurable thresholds.
+      <title>Post-transformer inference: 224× compression of Llama-70B with improved accuracy</title>
+      <link>https://zenodo.org/records/17873275</link>
+      <description>📝 A lightweight compressor (AN1) reduces these fields by 224× with an average +1. This work establishes Field Processing Units (FPUs) as a post-transformer compute primitive that replaces deep matrix multiplication with shallow field operations. Files Post-Transformer_Inference.
 
-🔗 Read more: https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</description>
-      <guid isPermaLink="true">https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</guid>
-      <pubDate>Tue, 09 Dec 2025 22:54:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46211861</comments>
+🔗 Read more: https://zenodo.org/records/17873275</description>
+      <guid isPermaLink="true">https://zenodo.org/records/17873275</guid>
+      <pubDate>Wed, 10 Dec 2025 01:25:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46212969</comments>
+    </item>
+    <item>
+      <title>Show all your application error using Cloudflare Error Page</title>
+      <link>https://github.com/donlon/cloudflare-error-page</link>
+      <description>📝 Cloudflare Error Page Generator 📢 Update (2025/12/09): All icons used in the error page have been fully redrawn as vector assets. This project creates customized error pages that mimics the well-known Cloudflare error page. &lt;/p&gt;", } Demo Web server is working params = { "title": "Web server is working", "error_code": 200, "more_information": { "hidden": True, }, "browser_status": { "status": "ok", "status_text": "Seems Working", }, "cloudflare_status": { "status": "ok", "status_text": "Often Working", }, "host_status": { "status": "ok", "location": "example.
+
+🔗 Read more: https://github.com/donlon/cloudflare-error-page</description>
+      <guid isPermaLink="true">https://github.com/donlon/cloudflare-error-page</guid>
+      <pubDate>Wed, 10 Dec 2025 02:18:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213273</comments>
+    </item>
+    <item>
+      <title>The AI-Education Death Spiral a.k.a. Let the Kids Cheat</title>
+      <link>https://anandsanwal.me/ai-education-death-spiral/</link>
+      <description>📝 Students pretend to write. The author of this post ended it with this humorous conclusion. We’ve seen this before.
+
+🔗 Read more: https://anandsanwal.me/ai-education-death-spiral/</description>
+      <guid isPermaLink="true">https://anandsanwal.me/ai-education-death-spiral/</guid>
+      <pubDate>Wed, 10 Dec 2025 01:36:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213045</comments>
     </item>
   </channel>
 </rss>

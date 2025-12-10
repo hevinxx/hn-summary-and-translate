@@ -6,47 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 10 Dec 2025 01:46:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 03:57:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Qt、Linux、その他すべて: Qt WebAssembly のデバッグ</title>
-      <link>http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</link>
-      <description>📝 Emscripten は DWARF シンボルを wasm バイナリに埋め込みます。注: DWARF を使用した wasm ファイルのデバッグは、ブラウザ拡張機能を使用した Chrome ブラウザでのみ機能します。 JavaScript コンソールには間もなく、ファイル ソースのファイル パスとソースが含まれるようになります。
+      <title>カーネルRust実験の終わり</title>
+      <link>https://lwn.net/Articles/1049831/</link>
+      <description>📝 (詳細については、Maintainers Summit の記事をご覧ください。) コメントを投稿するには Copyright © 2025, Eklektix, Inc. コメントおよび公開投稿は、その作成者に著作権があります。
 
 
-🔤 Original: Qt, Linux and everything: Debugging Qt WebAssembly
+🔤 Original: The end of the kernel Rust experiment
 
-🔗 Read more: http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</description>
-      <guid isPermaLink="true">http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html</guid>
-      <pubDate>Tue, 09 Dec 2025 21:19:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46210806</comments>
+🔗 Read more: https://lwn.net/Articles/1049831/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1049831/</guid>
+      <pubDate>Wed, 10 Dec 2025 03:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213585</comments>
     </item>
     <item>
-      <title>Linux CVE、あなたが知りたかった以上のこと</title>
-      <link>http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</link>
-      <description>📝 Linux が CNA (証明書番号発行局) になってから丸 2 年近くが経過しました。これは、私たちがこれについて過去数年間にわたって何度も講演してきました。CNA になった直後のオープンソース セキュリティ ポッドキャストから始まり、次にカーネル レシピ 2024 での「CVE は生きていますが、パニックにならないでください」という講演、そして更新された番号付きの同じトピックについての OSS 香港 2024 での講演、その後 OSS Japan での講演と続きました。 2024 年には同じトピックに関する詳細情報が記載されており、最後に 2024 年については、オンライン バージョンが見つからないため、大規模なレポートの処理方法に関する詳細が説明されています。Linux カーネルのバージョン、Linux カーネル リリースの番号付け方法。
+      <title>ニューヨーク市の渋滞料金設定により、大気汚染が6か月で5分の1に減少</title>
+      <link>https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</link>
+      <description>📝 これは、渋滞料金設定が交通とそれに伴う汚染を近隣のコミュニティに押しやるだけであるという主張に反論します。実際、交通データがこれを裏付けています。このことから、渋滞料金設定は単に交通のルートを変更することで大気汚染を郊外に移しただけではないことがわかります。
 
 
-🔤 Original: Linux CVEs, more than you ever wanted to know
+🔤 Original: NYC congestion pricing cuts air pollution by a fifth in six months
 
-🔗 Read more: http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</description>
-      <guid isPermaLink="true">http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/</guid>
-      <pubDate>Tue, 09 Dec 2025 22:47:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46211802</comments>
+🔗 Read more: https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</description>
+      <guid isPermaLink="true">https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</guid>
+      <pubDate>Wed, 10 Dec 2025 02:58:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213504</comments>
     </item>
     <item>
-      <title>OpenEvolve: 進化を通じてアルゴリズムを発見するように LLM を教える</title>
-      <link>https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</link>
-      <description>📝 候補プログラムは、LLM ガイド付き編集 (デフォルトでは差分ベース) によって作成され、ユーザー定義のメトリクスで評価され、MAP-Elites を使用して編成されます。一方、移行を伴うアイランド モデルは並行した多様な探索をサポートします。プログラム データベース: アイランドごとに MAP-Elite を実装し、構成可能な機能ディメンションに沿ってプログラムをビニングします (デフォルトには複雑さと多様性が含まれます。カスタム ディメンションは評価者のメトリクスから取得されます)。カスケード評価 評価は、構成可能なしきい値を使用して段階的に進められます。
+      <title>変圧器後の推論: 精度が向上した Llama-70B の 224 倍圧縮</title>
+      <link>https://zenodo.org/records/17873275</link>
+      <description>📝 軽量コンプレッサー (AN1) は、これらのフィールドを 224 倍、平均 +1 で削減します。この研究では、フィールド プロセッシング ユニット (FPU) を、深い行列乗算を浅いフィールド演算に置き換えるポストトランスフォーマーの計算プリミティブとして確立します。ファイル Post-Transformer_Inference。
 
 
-🔤 Original: OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution
+🔤 Original: Post-transformer inference: 224× compression of Llama-70B with improved accuracy
 
-🔗 Read more: https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</description>
-      <guid isPermaLink="true">https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html</guid>
-      <pubDate>Tue, 09 Dec 2025 22:54:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46211861</comments>
+🔗 Read more: https://zenodo.org/records/17873275</description>
+      <guid isPermaLink="true">https://zenodo.org/records/17873275</guid>
+      <pubDate>Wed, 10 Dec 2025 01:25:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46212969</comments>
+    </item>
+    <item>
+      <title>Cloudflareエラーページを使用してすべてのアプリケーションエラーを表示する</title>
+      <link>https://github.com/donlon/cloudflare-error-page</link>
+      <description>📝 Cloudflare エラー ページ ジェネレーター 📢 アップデート (2025/12/09): エラー ページで使用されるすべてのアイコンがベクター アセットとして完全に再描画されました。このプロジェクトは、よく知られている Cloudflare エラー ページを模倣したカスタマイズされたエラー ページを作成します。 &lt;/p&gt;", } デモ Web サーバーは動作しています params = { "title": "Web サーバーは動作しています", "error_code": 200, "more_information": { "hidden": True, }, "browser_status": { "status": "ok", "status_text": "動作しているようです", }, "cloudflare_status": { "status": "ok", "status_text": "頻繁に動作しています", }, "host_status": { "status": "ok", "location": "例。
+
+
+🔤 Original: Show all your application error using Cloudflare Error Page
+
+🔗 Read more: https://github.com/donlon/cloudflare-error-page</description>
+      <guid isPermaLink="true">https://github.com/donlon/cloudflare-error-page</guid>
+      <pubDate>Wed, 10 Dec 2025 02:18:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213273</comments>
+    </item>
+    <item>
+      <title>AI 教育デススパイラル、別名「Let the Kids Cheat」</title>
+      <link>https://anandsanwal.me/ai-education-death-spiral/</link>
+      <description>📝 生徒たちは書くふりをします。この投稿の著者は、このユーモラスな結論で締めくくりました。これは前にも見たことがあります。
+
+
+🔤 Original: The AI-Education Death Spiral a.k.a. Let the Kids Cheat
+
+🔗 Read more: https://anandsanwal.me/ai-education-death-spiral/</description>
+      <guid isPermaLink="true">https://anandsanwal.me/ai-education-death-spiral/</guid>
+      <pubDate>Wed, 10 Dec 2025 01:36:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213045</comments>
     </item>
   </channel>
 </rss>
