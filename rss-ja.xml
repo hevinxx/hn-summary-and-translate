@@ -6,73 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 10 Dec 2025 03:57:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 06:34:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>カーネルRust実験の終わり</title>
-      <link>https://lwn.net/Articles/1049831/</link>
-      <description>📝 (詳細については、Maintainers Summit の記事をご覧ください。) コメントを投稿するには Copyright © 2025, Eklektix, Inc. コメントおよび公開投稿は、その作成者に著作権があります。
+      <title>「利用可能なソース」はオープンソースではありません（それは問題ありません）</title>
+      <link>https://dri.es/source-available-is-not-open-source-and-that-is-okay</link>
+      <description>📝 同氏は続けて、「オープンソースとは、ソースがオープンであることを指します。彼は、オープンソース・イニシアチブの定義を無視することはできないと主張しました。それは擁護可能で寛大ですが、それはオープンソースではありません。
 
 
-🔤 Original: The end of the kernel Rust experiment
+🔤 Original: 'Source available' is not open source (and that's okay)
 
-🔗 Read more: https://lwn.net/Articles/1049831/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/1049831/</guid>
-      <pubDate>Wed, 10 Dec 2025 03:15:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46213585</comments>
+🔗 Read more: https://dri.es/source-available-is-not-open-source-and-that-is-okay</description>
+      <guid isPermaLink="true">https://dri.es/source-available-is-not-open-source-and-that-is-okay</guid>
+      <pubDate>Wed, 10 Dec 2025 03:33:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46213709</comments>
     </item>
     <item>
-      <title>ニューヨーク市の渋滞料金設定により、大気汚染が6か月で5分の1に減少</title>
-      <link>https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</link>
-      <description>📝 これは、渋滞料金設定が交通とそれに伴う汚染を近隣のコミュニティに押しやるだけであるという主張に反論します。実際、交通データがこれを裏付けています。このことから、渋滞料金設定は単に交通のルートを変更することで大気汚染を郊外に移しただけではないことがわかります。
+      <title>信頼できるC</title>
+      <link>https://dependablec.org/</link>
+      <description>📝 これは、C で書かれたコードはより多くのプログラマーによって変更できることを意味します。最新の言語機能よりも、コンパイルと正しく動作することが保証されたコードを書くことを重視する人はいません。ただし、非常にまれに、このガイドでは、実際には信頼できるコードであるため、技術的に UB のコードの記述が許可される場所を強調します。
 
 
-🔤 Original: NYC congestion pricing cuts air pollution by a fifth in six months
+🔤 Original: Dependable C
 
-🔗 Read more: https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</description>
-      <guid isPermaLink="true">https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/</guid>
-      <pubDate>Wed, 10 Dec 2025 02:58:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46213504</comments>
-    </item>
-    <item>
-      <title>変圧器後の推論: 精度が向上した Llama-70B の 224 倍圧縮</title>
-      <link>https://zenodo.org/records/17873275</link>
-      <description>📝 軽量コンプレッサー (AN1) は、これらのフィールドを 224 倍、平均 +1 で削減します。この研究では、フィールド プロセッシング ユニット (FPU) を、深い行列乗算を浅いフィールド演算に置き換えるポストトランスフォーマーの計算プリミティブとして確立します。ファイル Post-Transformer_Inference。
-
-
-🔤 Original: Post-transformer inference: 224× compression of Llama-70B with improved accuracy
-
-🔗 Read more: https://zenodo.org/records/17873275</description>
-      <guid isPermaLink="true">https://zenodo.org/records/17873275</guid>
-      <pubDate>Wed, 10 Dec 2025 01:25:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46212969</comments>
-    </item>
-    <item>
-      <title>Cloudflareエラーページを使用してすべてのアプリケーションエラーを表示する</title>
-      <link>https://github.com/donlon/cloudflare-error-page</link>
-      <description>📝 Cloudflare エラー ページ ジェネレーター 📢 アップデート (2025/12/09): エラー ページで使用されるすべてのアイコンがベクター アセットとして完全に再描画されました。このプロジェクトは、よく知られている Cloudflare エラー ページを模倣したカスタマイズされたエラー ページを作成します。 &lt;/p&gt;", } デモ Web サーバーは動作しています params = { "title": "Web サーバーは動作しています", "error_code": 200, "more_information": { "hidden": True, }, "browser_status": { "status": "ok", "status_text": "動作しているようです", }, "cloudflare_status": { "status": "ok", "status_text": "頻繁に動作しています", }, "host_status": { "status": "ok", "location": "例。
-
-
-🔤 Original: Show all your application error using Cloudflare Error Page
-
-🔗 Read more: https://github.com/donlon/cloudflare-error-page</description>
-      <guid isPermaLink="true">https://github.com/donlon/cloudflare-error-page</guid>
-      <pubDate>Wed, 10 Dec 2025 02:18:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46213273</comments>
-    </item>
-    <item>
-      <title>AI 教育デススパイラル、別名「Let the Kids Cheat」</title>
-      <link>https://anandsanwal.me/ai-education-death-spiral/</link>
-      <description>📝 生徒たちは書くふりをします。この投稿の著者は、このユーモラスな結論で締めくくりました。これは前にも見たことがあります。
-
-
-🔤 Original: The AI-Education Death Spiral a.k.a. Let the Kids Cheat
-
-🔗 Read more: https://anandsanwal.me/ai-education-death-spiral/</description>
-      <guid isPermaLink="true">https://anandsanwal.me/ai-education-death-spiral/</guid>
-      <pubDate>Wed, 10 Dec 2025 01:36:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46213045</comments>
+🔗 Read more: https://dependablec.org/</description>
+      <guid isPermaLink="true">https://dependablec.org/</guid>
+      <pubDate>Wed, 10 Dec 2025 04:29:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46214091</comments>
     </item>
   </channel>
 </rss>
