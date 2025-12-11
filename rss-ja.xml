@@ -6,21 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 11 Dec 2025 09:27:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 12:46:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>C でのクロージャのコスト</title>
-      <link>https://thephd.dev/the-cost-of-a-closure-in-c-c2y</link>
-      <description>📝 この場合のクロージャは、入力 (引数) や結果 (戻り値) に直接関係しない命令と一緒にデータを含むプログラミング言語の構造です。 、引数と戻り値以外の場所から取得される、この追加のスパイシーなデータを含まないクロージャのセット)。これは、Donald Knuth の「Man-or-Boy」テスト コードなど、もう少し複雑な関数やデータを使用して処理を行う場合にさらに顕著になります。
+      <title>Python の「凍結された」辞書</title>
+      <link>https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/</link>
+      <description>📝 frozendict アイデアは非常に単純です。frozendict を新しい不変型として言語の組み込みモジュールに追加します。 frozendict の反復は期待どおりに機能します。型はコレクションを実装します。フリーズ() メソッドは、基本的に dict オブジェクトの型を frozendict に変更するだけです。
 
 
-🔤 Original: The Cost of a Closure in C
+🔤 Original: A "frozen" dictionary for Python
 
-🔗 Read more: https://thephd.dev/the-cost-of-a-closure-in-c-c2y</description>
-      <guid isPermaLink="true">https://thephd.dev/the-cost-of-a-closure-in-c-c2y</guid>
-      <pubDate>Thu, 11 Dec 2025 07:21:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46228597</comments>
+🔗 Read more: https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/</description>
+      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/</guid>
+      <pubDate>Thu, 11 Dec 2025 09:51:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46229467</comments>
+    </item>
+    <item>
+      <title>メタ社、中絶アドバイスや奇妙なコンテンツに関連する世界的なアカウントを閉鎖</title>
+      <link>https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content</link>
+      <description>📝 活動家らは、FacebookやInstagramなどのメタアプリによる多くの中絶やリプロダクティブヘルスアカウントに対する制限を強化していると報告しているが、メタはいかなる検閲も否定した。写真: Anna Barclay/Getty Images 画像を全画面表示で見る キャンペーン参加者らは、FacebookやInstagramなどのメタアプリによる多くの中絶やリプロダクティブヘルスアカウントに対する制限を強化していると報告したが、メタはいかなる検閲も否定した。メタは、このメッセージは送信していないと述べた。
+
+
+🔤 Original: Meta shuts down global accounts linked to abortion advice and queer content
+
+🔗 Read more: https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content</description>
+      <guid isPermaLink="true">https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content</guid>
+      <pubDate>Thu, 11 Dec 2025 11:26:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46230072</comments>
     </item>
   </channel>
 </rss>
