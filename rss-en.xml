@@ -6,18 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Dec 2025 03:58:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:35:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Patterns.dev</title>
-      <link>https://www.patterns.dev/</link>
-      <description>📝 React Logo React Patterns Patterns focused on React and Next. js Introduction Introduction to Vue Patterns Components Self-contained modules that couple markup (HTML), logic (JS), and styles (CSS) within them Async Components Optimize web app performance by asynchronously loading components. Composables Functions to encapsulate and reuse stateful logic among multiple components Container/Presentational Pattern Enforce separation of concerns by separating the view from the application logic Data Provider Pattern Utilize renderless components for managing and providing data Dynamic Components Dynamically switch between components with the special &lt;component&gt; element Provide/Inject Have nested components access data without using props Render functions Create component templates with programmatic JavaScript Renderless components Components that don't render their own markup &lt;script setup&gt; Compile-time syntactic sugar for using the Composition API State Management Manage application level state between components.
+      <title>Incomplete list of mistakes in the design of CSS</title>
+      <link>https://wiki.csswg.org/ideas/mistakes</link>
+      <description>📝 Table layout should be sane. word-wrap/overflow-wrap should not exist. border-radius should have been corner-radius.
 
-🔗 Read more: https://www.patterns.dev/</description>
-      <guid isPermaLink="true">https://www.patterns.dev/</guid>
-      <pubDate>Thu, 11 Dec 2025 01:18:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46226483</comments>
+🔗 Read more: https://wiki.csswg.org/ideas/mistakes</description>
+      <guid isPermaLink="true">https://wiki.csswg.org/ideas/mistakes</guid>
+      <pubDate>Thu, 11 Dec 2025 04:20:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46227619</comments>
+    </item>
+    <item>
+      <title>Show HN: Wirebrowser – A JavaScript debugger with breakpoint-driven heap search</title>
+      <link>https://github.com/fcavallarin/wirebrowser</link>
+      <description>📝 Memory Inspect, search, and modify JavaScript memory using both live heap analysis and heap snapshots, with full support for object identity search, primitive search (via snapshots), structural matching, and runtime patching. Live Object Search — Search all live JavaScript objects using regex or structural matching, and patch matched objects at runtime to alter state or behavior dynamically. Memory — Live Object Search Search and patch live JS objects using regex or structural matching.
+
+🔗 Read more: https://github.com/fcavallarin/wirebrowser</description>
+      <guid isPermaLink="true">https://github.com/fcavallarin/wirebrowser</guid>
+      <pubDate>Wed, 10 Dec 2025 14:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46218101</comments>
     </item>
   </channel>
 </rss>

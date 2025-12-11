@@ -6,21 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Dec 2025 03:58:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:35:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>模式.dev</title>
-      <link>https://www.patterns.dev/</link>
-      <description>📝 React 徽标 React Patterns 专注于 React 和 Next 的模式。 Node.js 简介 Vue 模式简介 组件 自包含模块，将标记 (HTML)、逻辑 (JS) 和样式 (CSS) 耦合在其中 异步组件 通过异步加载组件来优化 Web 应用程序性能。可组合性 在多个组件之间封装和重用有状态逻辑的函数 容器/呈现模式 通过将视图与应用程序逻辑分离来强制关注点分离 数据提供者模式 利用无渲染组件来管理和提供数据 动态组件 使用特殊的 &lt;component&gt; 元素在组件之间动态切换 提供/注入 让嵌套组件在不使用 props 的情况下访问数据 渲染函数 使用编程 JavaScript 创建组件模板 无渲染组件 不渲染自己的标记的组件 &lt;script setup&gt; 编译时语法糖使用组合 API 状态管理 管理组件之间的应用程序级别状态。
+      <title>CSS设计中的错误不完整列表</title>
+      <link>https://wiki.csswg.org/ideas/mistakes</link>
+      <description>📝 表格布局应该合理。自动换行/溢出换行不应该存在。边界半径应该是角半径。
 
 
-🔤 Original: Patterns.dev
+🔤 Original: Incomplete list of mistakes in the design of CSS
 
-🔗 Read more: https://www.patterns.dev/</description>
-      <guid isPermaLink="true">https://www.patterns.dev/</guid>
-      <pubDate>Thu, 11 Dec 2025 01:18:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46226483</comments>
+🔗 Read more: https://wiki.csswg.org/ideas/mistakes</description>
+      <guid isPermaLink="true">https://wiki.csswg.org/ideas/mistakes</guid>
+      <pubDate>Thu, 11 Dec 2025 04:20:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46227619</comments>
+    </item>
+    <item>
+      <title>Show HN：Wirebrowser – 具有断点驱动堆搜索的 JavaScript 调试器</title>
+      <link>https://github.com/fcavallarin/wirebrowser</link>
+      <description>📝 内存 使用实时堆分析和堆快照检查、搜索和修改 JavaScript 内存，完全支持对象标识搜索、基元搜索（通过快照）、结构匹配和运行时修补。实时对象搜索 - 使用正则表达式或结构匹配搜索所有实时 JavaScript 对象，并在运行时修补匹配的对象以动态改变状态或行为。内存 — 实时对象搜索 使用正则表达式或结构匹配搜索和修补实时 JS 对象。
+
+
+🔤 Original: Show HN: Wirebrowser – A JavaScript debugger with breakpoint-driven heap search
+
+🔗 Read more: https://github.com/fcavallarin/wirebrowser</description>
+      <guid isPermaLink="true">https://github.com/fcavallarin/wirebrowser</guid>
+      <pubDate>Wed, 10 Dec 2025 14:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46218101</comments>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 11 Dec 2025 03:58:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:35:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>パターン.dev</title>
-      <link>https://www.patterns.dev/</link>
-      <description>📝 React ロゴ React パターン React と Next に焦点を当てたパターン。 js の概要 Vue パターンの概要 コンポーネント マークアップ (HTML)、ロジック (JS)、スタイル (CSS) を内部で結合する自己完結型モジュール 非同期コンポーネント コンポーネントを非同期的に読み込むことで、Web アプリのパフォーマンスを最適化します。コンポーザブル 複数のコンポーネント間でステートフル ロジックをカプセル化して再利用する機能 コンテナ/プレゼンテーション パターン アプリケーション ロジックからビューを分離することで懸念事項の分離を強制する データ プロバイダー パターン データの管理と提供にレンダリングレス コンポーネントを利用する 動的コンポーネント 特別な &lt;component&gt; 要素を使用してコンポーネント間を動的に切り替える Provide/Inject ネストされたコンポーネントが props を使用せずにデータにアクセスできるようにする レンダリング関数 プログラムによる JavaScript でコンポーネント テンプレートを作成する レンダリングレス コンポーネント レンダリングしないコンポーネント独自のマークアップ &lt;script setup&gt; コンポジション API を使用するためのコンパイル時構文シュガー 状態管理 コンポーネント間のアプリケーション レベルの状態を管理します。
+      <title>CSS 設計における不完全な間違いのリスト</title>
+      <link>https://wiki.csswg.org/ideas/mistakes</link>
+      <description>📝 テーブルのレイアウトは適切である必要があります。 word-wrap/overflow-wrap は存在してはなりません。 border-radius は、corner-radius であるべきでした。
 
 
-🔤 Original: Patterns.dev
+🔤 Original: Incomplete list of mistakes in the design of CSS
 
-🔗 Read more: https://www.patterns.dev/</description>
-      <guid isPermaLink="true">https://www.patterns.dev/</guid>
-      <pubDate>Thu, 11 Dec 2025 01:18:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46226483</comments>
+🔗 Read more: https://wiki.csswg.org/ideas/mistakes</description>
+      <guid isPermaLink="true">https://wiki.csswg.org/ideas/mistakes</guid>
+      <pubDate>Thu, 11 Dec 2025 04:20:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46227619</comments>
+    </item>
+    <item>
+      <title>Show HN: Wirebrowser – ブレークポイント駆動のヒープ検索を備えた JavaScript デバッガー</title>
+      <link>https://github.com/fcavallarin/wirebrowser</link>
+      <description>📝 メモリ ライブ ヒープ分析とヒープ スナップショットの両方を使用して、JavaScript メモリを検査、検索、変更します。オブジェクト ID 検索、プリミティブ検索 (スナップショット経由)、構造マッチング、ランタイム パッチ適用が完全にサポートされます。ライブ オブジェクト検索 — 正規表現または構造一致を使用してすべてのライブ JavaScript オブジェクトを検索し、一致したオブジェクトを実行時にパッチして状態や動作を動的に変更します。メモリ — ライブ オブジェクト検索 正規表現または構造一致を使用してライブ JS オブジェクトを検索し、パッチを適用します。
+
+
+🔤 Original: Show HN: Wirebrowser – A JavaScript debugger with breakpoint-driven heap search
+
+🔗 Read more: https://github.com/fcavallarin/wirebrowser</description>
+      <guid isPermaLink="true">https://github.com/fcavallarin/wirebrowser</guid>
+      <pubDate>Wed, 10 Dec 2025 14:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46218101</comments>
     </item>
   </channel>
 </rss>
