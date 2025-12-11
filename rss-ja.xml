@@ -6,101 +6,107 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 11 Dec 2025 18:31:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 21:24:39 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>最後の GitHub インシデントからの日数</title>
-      <link>https://github-incidents.pages.dev/</link>
-      <guid isPermaLink="true">https://github-incidents.pages.dev/</guid>
-      <pubDate>Thu, 11 Dec 2025 16:52:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46233798</comments>
+      <title>React Server Components におけるサービス拒否とソースコードの公開</title>
+      <link>https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components</link>
+      <description>📝 ブログ React サーバー コンポーネントのサービス拒否とソース コードの露出 2025 年 12 月 11 日、React チーム セキュリティ研究者は、先週の重大な脆弱性のパッチを悪用しようとした際に、React サーバー コンポーネントにさらに 2 つの脆弱性を発見し、公開しました。 React Native Monorepo や React-dom を使用していない React Native ユーザーの場合は、React バージョンをパッケージに固定する必要があります。アプリが React Server Function エンドポイントを実装していない場合でも、アプリが React Server コンポーネントをサポートしている場合は依然として脆弱である可能性があります。
+
+
+🔤 Original: Denial of service and source code exposure in React Server Components
+
+🔗 Read more: https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components</description>
+      <guid isPermaLink="true">https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components</guid>
+      <pubDate>Thu, 11 Dec 2025 20:46:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46236924</comments>
     </item>
     <item>
-      <title>ライトストリーム VFS</title>
-      <link>https://fly.io/blog/litestream-vfs/</link>
-      <description>📝 SQLite を開き、次の操作を行います。 テキストを折り返す クリップボードにコピー $ sqlite3 SQLite バージョン 3. Litestream VFS を使用すると、これが簡単になります。以前の Litestream は生の SQLite ページ全体をオブジェクト ストレージとの間で盲目的に送信していましたが、LTX は順序付けられたページのセットを送信します。
-
-
-🔤 Original: Litestream VFS
-
-🔗 Read more: https://fly.io/blog/litestream-vfs/</description>
-      <guid isPermaLink="true">https://fly.io/blog/litestream-vfs/</guid>
-      <pubDate>Thu, 11 Dec 2025 17:59:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46234710</comments>
+      <title>必要なのはSVGだけです</title>
+      <link>https://jon.recoil.org/blog/2025/12/an-svg-is-all-you-need.html</link>
+      <guid isPermaLink="true">https://jon.recoil.org/blog/2025/12/an-svg-is-all-you-need.html</guid>
+      <pubDate>Thu, 11 Dec 2025 19:25:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46235959</comments>
     </item>
     <item>
-      <title>上司に言いたいこと</title>
-      <link>https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss</link>
-      <description>📝 ケアはソフトなものではないことを理解することです。それは良いPRだからではありません。それはあなたの仕事だからです。
+      <title>HN を表示: Sim – Apache-2.0 n8n 代替</title>
+      <link>https://github.com/simstudioai/sim</link>
+      <description>📝 docker compose -f docker-compose を使用してさらにモデルを追加します。内部:11434 docker compose -f docker-compose。 env パッケージ/db/を更新します。
 
 
-🔤 Original: Things I want to say to my boss
+🔤 Original: Show HN: Sim – Apache-2.0 n8n alternative
 
-🔗 Read more: https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss</description>
-      <guid isPermaLink="true">https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss</guid>
-      <pubDate>Thu, 11 Dec 2025 16:35:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46233570</comments>
+🔗 Read more: https://github.com/simstudioai/sim</description>
+      <guid isPermaLink="true">https://github.com/simstudioai/sim</guid>
+      <pubDate>Thu, 11 Dec 2025 17:20:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46234186</comments>
     </item>
     <item>
-      <title>HN を起動: BrowserBook (YC F24) – 確定的なブラウザ自動化のための IDE</title>
-      <link>https://news.ycombinator.com/item?id=46232434</link>
-      <description>📝 これを構築した理由: YC を運営していたとき、私たちはバックオフィスの医療ワークフローを自動化する会社でした。 BrowserBook では、私たちは「最悪の環境を受け入れ」、この「攻撃的なプログラミング」環境を認めようとしています。 BrowserBook は、次の Web サイトからダウンロードできます: https://browserbook。
+      <title>Almond (YC X25) は SWE と MechE を雇用しています</title>
+      <link>https://www.ycombinator.com/companies/almond-2/jobs</link>
+      <description>📝 私たちの使命は、ロボットによって人間を肉体労働から解放することです。その未来を築くために、私たちはハードウェアからゼロからスタートしています。それを囲むように、私たちは高度な制御、直感的なデータ収集、実際の産業環境への導入を容易にする完全な AI スタックを開発しています。
 
 
-🔤 Original: Launch HN: BrowserBook (YC F24) – IDE for deterministic browser automation
+🔤 Original: Almond (YC X25) Is Hiring SWEs and MechEs
 
-🔗 Read more: https://news.ycombinator.com/item?id=46232434</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46232434</guid>
-      <pubDate>Thu, 11 Dec 2025 15:18:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46232434</comments>
+🔗 Read more: https://www.ycombinator.com/companies/almond-2/jobs</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/almond-2/jobs</guid>
+      <pubDate>Thu, 11 Dec 2025 21:00:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46237081</comments>
     </item>
     <item>
-      <title>GPT-5.2</title>
-      <link>https://platform.openai.com/docs/guides/latest-model</link>
-      <guid isPermaLink="true">https://platform.openai.com/docs/guides/latest-model</guid>
-      <pubDate>Thu, 11 Dec 2025 18:04:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46234788</comments>
+      <title>私の生産性向上アプリは終わりのない .txt ファイルです (2020)</title>
+      <link>https://jeffhuang.com/productivity_text_file/</link>
+      <description>📝 以下は、カレンダーから 1 日のスケジュールを移動するとどうなるかを確認できるように、名前を置き換えた例です。 2021-11-31 午前 11 時、ヘッド TA とミーティング - ポートフォリオレビュー担当者を招いての状況はどうなっているのか。午前11時30分 学生エンヤと会う（研究に興味がある）レビューとリリース A/Bテスト課題の採点 午後12時 HCIグループ会議 - 研究室の軽食に投票 CHIの外部査読者にリマインダーを送信 大ざっぱな草案を読む ゼルダがアイトラッカーを手に取る - 署名してもらう Co-PIのバイオスケッチを更新 午後3時15分 アンブレラ社および業界パートナーシップスタッフとの電話会議に参加 午後3時45分 アドバイス オプラと会う 午後4時リアーナの講演（368 CIT） 午後5時 ビヨンセと1対1 #phdadvisee 午後6時 教員インタビュー マドンナとのディナー 記録として：その毎日のToDoリストは私がメモを取る場所でもあるので、ToDoリストが完了したことリストに変わります。
+
+
+🔤 Original: My productivity app is a never-ending .txt file (2020)
+
+🔗 Read more: https://jeffhuang.com/productivity_text_file/</description>
+      <guid isPermaLink="true">https://jeffhuang.com/productivity_text_file/</guid>
+      <pubDate>Thu, 11 Dec 2025 19:30:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46236037</comments>
     </item>
     <item>
-      <title>GPT-5.2</title>
-      <link>https://openai.com/index/introducing-gpt-5-2/</link>
-      <guid isPermaLink="true">https://openai.com/index/introducing-gpt-5-2/</guid>
-      <pubDate>Thu, 11 Dec 2025 18:12:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46234874</comments>
+      <title>「悪くない」アーキテクチャ: 虚空の中国語ソースコードを解読する</title>
+      <link>https://suggger.substack.com/p/the-architecture-of-not-bad-decoding</link>
+      <guid isPermaLink="true">https://suggger.substack.com/p/the-architecture-of-not-bad-decoding</guid>
+      <pubDate>Thu, 11 Dec 2025 14:21:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46231709</comments>
     </item>
     <item>
-      <title>ポップが人口を増やす？</title>
-      <link>https://xania.org/202512/11-pop-goes-the-weasel-er-count</link>
-      <description>📝 あなたとそれ自体の値が減少します。この投稿に添付されているビデオをご覧ください。 xor eax, eax は、この依存関係を解消します。
+      <title>スノーデン文書を読み解く、パート 1</title>
+      <link>https://libroot.org/posts/going-through-snowden-documents-part-1/</link>
+      <description>📝 この文書は、専用の説明がなく、「この記事とともに公開された文書」セクションにのみ表示されます。それぞれに 1 つの電子メールが含まれます)。ストラット[編集済] | 2009-10-10 05:15:10 | CNE | lms-ms-デーモン | zh のインドの上級連絡先 28 ～ 10 人 | 0kqe00g01mrdii@mail。
 
 
-🔤 Original: Pop Goes the Population Count?
+🔤 Original: Going Through Snowden Documents, Part 1
 
-🔗 Read more: https://xania.org/202512/11-pop-goes-the-weasel-er-count</description>
-      <guid isPermaLink="true">https://xania.org/202512/11-pop-goes-the-weasel-er-count</guid>
-      <pubDate>Thu, 11 Dec 2025 14:30:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46231829</comments>
+🔗 Read more: https://libroot.org/posts/going-through-snowden-documents-part-1/</description>
+      <guid isPermaLink="true">https://libroot.org/posts/going-through-snowden-documents-part-1/</guid>
+      <pubDate>Thu, 11 Dec 2025 18:52:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46235412</comments>
     </item>
     <item>
-      <title>Show HN: PTX/OpenCL にコンパイルされた GPULlama3.java Llama が Quarkus に統合されました</title>
-      <link>https://news.ycombinator.com/item?id=46233009</link>
-      <description>📝 com/beehive-lab/TornadoVM/releases/download/v。 0-opencl" export PATH=$TORNADO_SDK/bin:$PATHtornado --devices tornado --version# プロジェクト ディレクトリ cd GPULlama3 に移動します。/llama-tornado --gpu --verbose-init --opencl --model beehive-llama-3。
+      <title>あなたが思っているように非推奨にする</title>
+      <link>https://entropicthoughts.com/deprecate-like-you-mean-it</link>
+      <description>📝 最初は、間違った結果が返されるべきではありません。しかし、非推奨になってから数か月が経過すると、たとえば 100 万回の呼び出しごとに間違った結果が返されるようになります。 1 年後、1,000 回の呼び出しごとに間違ったものを返すようにします。
 
 
-🔤 Original: Show HN: GPULlama3.java Llama Compilied to PTX/OpenCL Now Integrated in Quarkus
+🔤 Original: Deprecate like you mean it
 
-🔗 Read more: https://news.ycombinator.com/item?id=46233009</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46233009</guid>
-      <pubDate>Thu, 11 Dec 2025 15:59:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46233009</comments>
+🔗 Read more: https://entropicthoughts.com/deprecate-like-you-mean-it</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/deprecate-like-you-mean-it</guid>
+      <pubDate>Thu, 11 Dec 2025 15:52:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46232898</comments>
     </item>
     <item>
-      <title>iPhoneのタイプミス？あなただけではありません – iOS キーボードが壊れています [ビデオ]</title>
-      <link>https://www.youtube.com/watch?v=hksVvXONrIo</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=hksVvXONrIo</guid>
-      <pubDate>Thu, 11 Dec 2025 15:25:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46232528</comments>
+      <title>ウォルト・ディズニー・カンパニーと OpenAI が Sora で提携</title>
+      <link>https://openai.com/index/disney-sora-agreement/</link>
+      <guid isPermaLink="true">https://openai.com/index/disney-sora-agreement/</guid>
+      <pubDate>Thu, 11 Dec 2025 14:05:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46231493</comments>
     </item>
   </channel>
 </rss>
