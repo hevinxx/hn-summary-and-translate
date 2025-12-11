@@ -6,34 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 11 Dec 2025 06:35:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 09:27:23 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>CSS 設計における不完全な間違いのリスト</title>
-      <link>https://wiki.csswg.org/ideas/mistakes</link>
-      <description>📝 テーブルのレイアウトは適切である必要があります。 word-wrap/overflow-wrap は存在してはなりません。 border-radius は、corner-radius であるべきでした。
+      <title>C でのクロージャのコスト</title>
+      <link>https://thephd.dev/the-cost-of-a-closure-in-c-c2y</link>
+      <description>📝 この場合のクロージャは、入力 (引数) や結果 (戻り値) に直接関係しない命令と一緒にデータを含むプログラミング言語の構造です。 、引数と戻り値以外の場所から取得される、この追加のスパイシーなデータを含まないクロージャのセット)。これは、Donald Knuth の「Man-or-Boy」テスト コードなど、もう少し複雑な関数やデータを使用して処理を行う場合にさらに顕著になります。
 
 
-🔤 Original: Incomplete list of mistakes in the design of CSS
+🔤 Original: The Cost of a Closure in C
 
-🔗 Read more: https://wiki.csswg.org/ideas/mistakes</description>
-      <guid isPermaLink="true">https://wiki.csswg.org/ideas/mistakes</guid>
-      <pubDate>Thu, 11 Dec 2025 04:20:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46227619</comments>
-    </item>
-    <item>
-      <title>Show HN: Wirebrowser – ブレークポイント駆動のヒープ検索を備えた JavaScript デバッガー</title>
-      <link>https://github.com/fcavallarin/wirebrowser</link>
-      <description>📝 メモリ ライブ ヒープ分析とヒープ スナップショットの両方を使用して、JavaScript メモリを検査、検索、変更します。オブジェクト ID 検索、プリミティブ検索 (スナップショット経由)、構造マッチング、ランタイム パッチ適用が完全にサポートされます。ライブ オブジェクト検索 — 正規表現または構造一致を使用してすべてのライブ JavaScript オブジェクトを検索し、一致したオブジェクトを実行時にパッチして状態や動作を動的に変更します。メモリ — ライブ オブジェクト検索 正規表現または構造一致を使用してライブ JS オブジェクトを検索し、パッチを適用します。
-
-
-🔤 Original: Show HN: Wirebrowser – A JavaScript debugger with breakpoint-driven heap search
-
-🔗 Read more: https://github.com/fcavallarin/wirebrowser</description>
-      <guid isPermaLink="true">https://github.com/fcavallarin/wirebrowser</guid>
-      <pubDate>Wed, 10 Dec 2025 14:30:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46218101</comments>
+🔗 Read more: https://thephd.dev/the-cost-of-a-closure-in-c-c2y</description>
+      <guid isPermaLink="true">https://thephd.dev/the-cost-of-a-closure-in-c-c2y</guid>
+      <pubDate>Thu, 11 Dec 2025 07:21:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46228597</comments>
     </item>
   </channel>
 </rss>
