@@ -6,99 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 21:20:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 01:28:35 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>GNU Unifont</title>
-      <link>https://unifoundry.com/unifont/index.html</link>
-      <guid isPermaLink="true">https://unifoundry.com/unifont/index.html</guid>
-      <pubDate>Fri, 12 Dec 2025 20:57:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46248859</comments>
+      <title>macOS 26.2 enables fast AI clusters with RDMA over Thunderbolt</title>
+      <link>https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt</link>
+      <guid isPermaLink="true">https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt</guid>
+      <pubDate>Fri, 12 Dec 2025 20:41:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46248644</comments>
     </item>
     <item>
-      <title>Security issues with electronic invoices</title>
-      <link>https://invoice.secvuln.info/</link>
-      <description>📝 The problem with XSLT 2. Those validation artifacts require XSLT 2. de E-Rechnung-Viewer XXE Reported: 2025-03-30, fixed: 2025-03-31 EPO E-Invoice Viewer XXE Reported: 2025-10-13, fixed: 2025-10-14 portinvoice XXE Reported: 2025-10-29, fixed: 2025-10-29 xrechnung-erstellen.
+      <title>OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI</title>
+      <link>https://simonwillison.net/2025/Dec/12/openai-skills/</link>
+      <description>📝 Skills in ChatGPT I learned about this from Elias Judin this morning. Here’s ChatGPT’s PDF in that tool. text=hello page that displays a pre with cowsay from PyPI saying that text It worked perfectly.
 
-🔗 Read more: https://invoice.secvuln.info/</description>
-      <guid isPermaLink="true">https://invoice.secvuln.info/</guid>
-      <pubDate>Fri, 12 Dec 2025 20:28:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46248470</comments>
+🔗 Read more: https://simonwillison.net/2025/Dec/12/openai-skills/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2025/Dec/12/openai-skills/</guid>
+      <pubDate>Fri, 12 Dec 2025 23:30:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46250332</comments>
     </item>
     <item>
-      <title>Motion (YC W20) Is Hiring Senior Staff Front End Engineers</title>
-      <link>https://jobs.ashbyhq.com/motion/715d9646-27d4-44f6-9229-61eb0380ae39</link>
-      <guid isPermaLink="true">https://jobs.ashbyhq.com/motion/715d9646-27d4-44f6-9229-61eb0380ae39</guid>
-      <pubDate>Fri, 12 Dec 2025 21:00:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46248892</comments>
-    </item>
-    <item>
-      <title>New Kindle feature uses AI to answer questions about books</title>
-      <link>https://reactormag.com/new-kindle-feature-ai-answer-questions-books-authors/</link>
-      <description>📝 Home / New Kindle Feature Uses AI to Answer Questions About Books—And Authors Can’t Opt Out Comment 0 Share New Share News Amazon New Kindle Feature Uses AI to Answer Questions About Books—And Authors Can’t Opt Out The new feature, called Ask this Book, is already drawing controversy and unanswered questions. ” Publishing industry resource Publishers Lunch noticed Ask this Book earlier this week, and asked Amazon about it. Learn More About Molly See All Posts About Amazon books news.
+      <title>Show HN: Tiny VM sandbox in C with apps in Rust, C and Zig</title>
+      <link>https://github.com/ringtailsoftware/uvm32</link>
+      <description>📝 A minimal example of a host to run code in is at host-mini. Example A simple VM host from host-mini #include &lt;stdio. code); break; } break; case UVM32_EVT_ERR: printf("UVM32_EVT_ERR '%s' (%d)\n", evt.
 
-🔗 Read more: https://reactormag.com/new-kindle-feature-ai-answer-questions-books-authors/</description>
-      <guid isPermaLink="true">https://reactormag.com/new-kindle-feature-ai-answer-questions-books-authors/</guid>
-      <pubDate>Fri, 12 Dec 2025 20:24:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46248417</comments>
+🔗 Read more: https://github.com/ringtailsoftware/uvm32</description>
+      <guid isPermaLink="true">https://github.com/ringtailsoftware/uvm32</guid>
+      <pubDate>Fri, 12 Dec 2025 22:02:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46249538</comments>
     </item>
     <item>
-      <title>Rats Play Doom</title>
-      <link>https://ratsplaydoom.com/</link>
-      <description>📝 Visual Interface The headset wraps around the rat’s head with a foldable AMOLED screen. It maximizes immersion without obstructing whisker space. Additionally, the design includes placeholders for miniature speakers near each ear, intended for future implementation of stereo audio cues.
+      <title>Capsudo: Rethinking Sudo with Object Capabilities</title>
+      <link>https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</link>
+      <description>📝 Delegating root privilege with object capabilities What does that look like in practice. We will grant capabilities to that mountd user to then invoke using capsudo by running a few instances of the capsudod daemon. This means that the /run/user/mountd/cap/mount capability cannot run any other command besides mount.
 
-🔗 Read more: https://ratsplaydoom.com/</description>
-      <guid isPermaLink="true">https://ratsplaydoom.com/</guid>
-      <pubDate>Fri, 12 Dec 2025 20:15:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46248323</comments>
+🔗 Read more: https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</description>
+      <guid isPermaLink="true">https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</guid>
+      <pubDate>Fri, 12 Dec 2025 21:42:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46249337</comments>
     </item>
     <item>
-      <title>Home Depot GitHub token exposed for a year, granted access to internal systems</title>
-      <link>https://techcrunch.com/2025/12/12/home-depot-exposed-access-to-internal-systems-for-a-year-says-researcher/</link>
-      <description>📝 A security researcher said Home Depot exposed access to its internal systems for a year after one of its employees published a private access token online, likely by mistake. Zimmermann said he sent several emails to Home Depot but didn’t hear back. Topics cybersecurity, data breach, Exclusive, GitHub, home depot, Security Zack Whittaker Security Editor Zack Whittaker is the security editor at TechCrunch.
+      <title>50 years of proof assistants</title>
+      <link>https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</link>
+      <description>📝 They admit that computing is an exception: they don’t pretend that my personal 32GB laptop is not an advance over the 16MB mainframe that served the whole Caltech community when I was there. LCF-style proof assistants are a world away from mainstream computing, so let’s look at 50 years of progress there. It introduced proof tactics and also tacticals: operators for combining tactics.
 
-🔗 Read more: https://techcrunch.com/2025/12/12/home-depot-exposed-access-to-internal-systems-for-a-year-says-researcher/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2025/12/12/home-depot-exposed-access-to-internal-systems-for-a-year-says-researcher/</guid>
-      <pubDate>Fri, 12 Dec 2025 18:23:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46247000</comments>
+🔗 Read more: https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</description>
+      <guid isPermaLink="true">https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</guid>
+      <pubDate>Fri, 12 Dec 2025 23:26:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46250309</comments>
     </item>
     <item>
-      <title>The true story of the Windows 3.1 'Hot Dog Stand' color scheme</title>
-      <link>https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/</link>
-      <description>📝 "The truly funny thing about this color scheme is that all the other Windows 3. (Image credit: Microsoft)Did Windows 3. 1 really ship with a garish color scheme that was dared into being.
+      <title>Freeing a Xiaomi humidifier from the cloud</title>
+      <link>https://0l.de/blog/2025/11/xiaomi-humidifier/</link>
+      <description>📝 Replace the firmware of a smart humidifier with my own source code. Xiaomi Mi Smart Antibacterial Humidifier. Bottom view of Humidifier.
 
-🔗 Read more: https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/</description>
-      <guid isPermaLink="true">https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/</guid>
-      <pubDate>Fri, 12 Dec 2025 19:13:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46247605</comments>
+🔗 Read more: https://0l.de/blog/2025/11/xiaomi-humidifier/</description>
+      <guid isPermaLink="true">https://0l.de/blog/2025/11/xiaomi-humidifier/</guid>
+      <pubDate>Fri, 12 Dec 2025 06:17:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46241368</comments>
     </item>
     <item>
-      <title>Nuclear energy key to decarbonising Europe, says EESC</title>
-      <link>https://www.eesc.europa.eu/en/news-media/news/nuclear-energy-key-decarbonising-europe-says-eesc</link>
-      <description>📝 Nuclear energy key to decarbonising Europe, says EESC 11/12/2025 601 Press &amp; Media The EESC has adopted an opinion pointing out that nuclear energy is an essential component of the clean energy mix which is needed to phase out fossil fuels. ‘The European nuclear industry sustains more than 1. In addition, the EESC advises applying the same facilities to investment in nuclear energy as for renewables.
+      <title>Sick of smart TVs? Here are your best options</title>
+      <link>https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/</link>
+      <description>📝 Credit: Jeff Dunn Your best option. You’re likely to use an Apple TV box with the Apple TV app or with an Apple account, which means sending some data to Apple. Dumb TVs also usually have shorter (one-year) warranties.
 
-🔗 Read more: https://www.eesc.europa.eu/en/news-media/news/nuclear-energy-key-decarbonising-europe-says-eesc</description>
-      <guid isPermaLink="true">https://www.eesc.europa.eu/en/news-media/news/nuclear-energy-key-decarbonising-europe-says-eesc</guid>
-      <pubDate>Fri, 12 Dec 2025 17:32:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46246395</comments>
+🔗 Read more: https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/</description>
+      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/</guid>
+      <pubDate>Fri, 12 Dec 2025 12:51:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46243655</comments>
     </item>
     <item>
-      <title>Benn Jordan’s flock camera jammer will send you to jail in Florida now [video]</title>
-      <link>https://www.youtube.com/watch?v=qEllWdK4l_A</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=qEllWdK4l_A</guid>
-      <pubDate>Fri, 12 Dec 2025 18:58:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46247415</comments>
-    </item>
-    <item>
-      <title>The Average Founder Ages 6 Months Each Year</title>
-      <link>https://tomtunguz.com/founder-age-median-trend/</link>
-      <description>📝 2 AI founders skew older. B2B founders benefit from established relationships with potential team members, design partners &amp; expertise selling to enterprises. Perhaps venture capitalists should start funding reverse aging programs.
+      <title>Building small Docker images faster</title>
+      <link>https://sgt.hootr.club/blog/docker-protips/</link>
+      <description>📝 hello}/bin/hello" ]; } You can build that with nix-build docker-test. It's the parameter that you pass after docker build, generally. I didn't know Docker could do that.
 
-🔗 Read more: https://tomtunguz.com/founder-age-median-trend/</description>
-      <guid isPermaLink="true">https://tomtunguz.com/founder-age-median-trend/</guid>
-      <pubDate>Fri, 12 Dec 2025 19:41:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46247919</comments>
+🔗 Read more: https://sgt.hootr.club/blog/docker-protips/</description>
+      <guid isPermaLink="true">https://sgt.hootr.club/blog/docker-protips/</guid>
+      <pubDate>Fri, 12 Dec 2025 10:23:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46242700</comments>
     </item>
   </channel>
 </rss>
