@@ -6,106 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 13 Dec 2025 01:28:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 03:50:11 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>macOS 26.2 は RDMA over Thunderbolt による高速 AI クラスターを有効にします</title>
-      <link>https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt</link>
-      <guid isPermaLink="true">https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt</guid>
-      <pubDate>Fri, 12 Dec 2025 20:41:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46248644</comments>
-    </item>
-    <item>
-      <title>OpenAI は密かにスキルを採用しており、ChatGPT と Codex CLI で利用できるようになりました</title>
-      <link>https://simonwillison.net/2025/Dec/12/openai-skills/</link>
-      <description>📝 ChatGPT のスキル 今朝、Elias Judin からこのことについて学びました。これがそのツール内の ChatGPT の PDF です。 text=hello ページは、テキストが完全に機能したことを示す PyPI からのカウセイを含むプレを表示します。
+      <title>チェッカーボード</title>
+      <link>https://99percentinvisible.org/episode/650-the-checkerboard/</link>
+      <description>📝 彼らは公共の土地から始めて、すべての公共の広場が接する角で新しい広場に斜めに交差して、公共の土地に留まるようにしました。その時点から、彼らはチェッカーボード内の公共の土地に完全に滞在し、エルクマウンテンでヘラジカを狩りながら、ある公共広場から別の公共広場へと角を横切りました。しかし狩猟者たちは、チェッカーボード内も含め、一般の人々は公有地にアクセスする権利があるべきだと信じていた。
 
 
-🔤 Original: OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI
+🔤 Original: The Checkerboard
 
-🔗 Read more: https://simonwillison.net/2025/Dec/12/openai-skills/</description>
-      <guid isPermaLink="true">https://simonwillison.net/2025/Dec/12/openai-skills/</guid>
-      <pubDate>Fri, 12 Dec 2025 23:30:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46250332</comments>
-    </item>
-    <item>
-      <title>HN を表示: Rust、C、Zig のアプリを使用した C の小さな VM サンドボックス</title>
-      <link>https://github.com/ringtailsoftware/uvm32</link>
-      <description>📝 コードを実行するホストの最小限の例は、host-mini にあります。例 host-mini #include &lt;stdio からの単純な VM ホスト。コード）;壊す; } 壊す; case UVM32_EVT_ERR: printf("UVM32_EVT_ERR '%s' (%d)\n", evt.
-
-
-🔤 Original: Show HN: Tiny VM sandbox in C with apps in Rust, C and Zig
-
-🔗 Read more: https://github.com/ringtailsoftware/uvm32</description>
-      <guid isPermaLink="true">https://github.com/ringtailsoftware/uvm32</guid>
-      <pubDate>Fri, 12 Dec 2025 22:02:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46249538</comments>
-    </item>
-    <item>
-      <title>Capsudo: オブジェクト機能を使用して Sudo を再考する</title>
-      <link>https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</link>
-      <description>📝 オブジェクト機能を使用した root 権限の委任は、実際にはどのようなものになるでしょうか。その mountd ユーザーに、capsudod デーモンのインスタンスをいくつか実行することで、capsudo を使用して呼び出す機能を付与します。これは、/run/user/mountd/cap/mount 機能では mount 以外のコマンドを実行できないことを意味します。
-
-
-🔤 Original: Capsudo: Rethinking Sudo with Object Capabilities
-
-🔗 Read more: https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</description>
-      <guid isPermaLink="true">https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</guid>
-      <pubDate>Fri, 12 Dec 2025 21:42:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46249337</comments>
-    </item>
-    <item>
-      <title>50年間にわたる証明アシスタントの実績</title>
-      <link>https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</link>
-      <description>📝 彼らはコンピューティングが例外であることを認めています。彼らは、私がカリフォルニア工科大学にいたときにカリフォルニア工科大学コミュニティ全体にサービスを提供していた 16MB のメインフレームよりも、私の私用の 32GB ラップトップが進歩していないとは言いません。 LCF スタイルの証明アシスタントは、主流のコンピューティングとはかけ離れた世界であるため、そこでの 50 年間の進歩を見てみましょう。証明戦術と戦術、つまり戦術を組み合わせるための演算子も紹介しました。
-
-
-🔤 Original: 50 years of proof assistants
-
-🔗 Read more: https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</description>
-      <guid isPermaLink="true">https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</guid>
-      <pubDate>Fri, 12 Dec 2025 23:26:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46250309</comments>
-    </item>
-    <item>
-      <title>Xiaomi 加湿器をクラウドから解放する</title>
-      <link>https://0l.de/blog/2025/11/xiaomi-humidifier/</link>
-      <description>📝 スマート加湿器のファームウェアを独自のソース コードに置き換えます。 Xiaomi Mi スマート抗菌加湿器。加湿器を下から見た図。
-
-
-🔤 Original: Freeing a Xiaomi humidifier from the cloud
-
-🔗 Read more: https://0l.de/blog/2025/11/xiaomi-humidifier/</description>
-      <guid isPermaLink="true">https://0l.de/blog/2025/11/xiaomi-humidifier/</guid>
-      <pubDate>Fri, 12 Dec 2025 06:17:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46241368</comments>
-    </item>
-    <item>
-      <title>スマートテレビにはうんざりしていませんか?最良の選択肢は次のとおりです</title>
-      <link>https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/</link>
-      <description>📝 クレジット: Jeff Dunn 最良の選択肢です。 Apple TV アプリまたは Apple アカウントで Apple TV ボックスを使用する可能性があります。これは、一部のデータを Apple に送信することを意味します。ダムテレビの保証期間も通常は短い (1 年) です。
-
-
-🔤 Original: Sick of smart TVs? Here are your best options
-
-🔗 Read more: https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/</guid>
-      <pubDate>Fri, 12 Dec 2025 12:51:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46243655</comments>
-    </item>
-    <item>
-      <title>小さな Docker イメージをより速く構築する</title>
-      <link>https://sgt.hootr.club/blog/docker-protips/</link>
-      <description>📝 hello}/bin/hello" ]; } これは nix-build docker-test でビルドできます。これは、通常、docker build の後に渡すパラメーターです。Docker でそれができるとは知りませんでした。
-
-
-🔤 Original: Building small Docker images faster
-
-🔗 Read more: https://sgt.hootr.club/blog/docker-protips/</description>
-      <guid isPermaLink="true">https://sgt.hootr.club/blog/docker-protips/</guid>
-      <pubDate>Fri, 12 Dec 2025 10:23:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46242700</comments>
+🔗 Read more: https://99percentinvisible.org/episode/650-the-checkerboard/</description>
+      <guid isPermaLink="true">https://99percentinvisible.org/episode/650-the-checkerboard/</guid>
+      <pubDate>Sat, 13 Dec 2025 00:50:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46250862</comments>
     </item>
   </channel>
 </rss>
