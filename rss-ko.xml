@@ -6,87 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 13 Dec 2025 21:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 01:48:11 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>VPN 위치 주장이 실제 트래픽 출구와 일치하지 않습니다.</title>
-      <link>https://ipinfo.io/blog/vpn-location-mismatch-report</link>
-      <description>📝 20개의 인기 VPN에 대한 대규모 분석에서 IPinfo는 해당 VPN 중 17개가 주장한 것과 다른 국가에서 트래픽을 빠져나가는 것을 발견했습니다. 즉, 우리가 분석한 대부분의 VPN 제공업체는 자신이 주장하는 국가를 통해 트래픽을 라우팅하지 않으며 실제로 지원하는 것보다 더 많은 국가를 주장합니다. 137개 가능한 이탈 국가에서 150,000개가 넘는 이탈 IP를 분석하고 공급자가 주장하는 것과 IPinfo가 측정하는 것을 비교한 결과, 20개 공급자 중 17명은 다른 국가에서 나가는 트래픽이 있는 것으로 나타났습니다.
+      <title>Linux 샌드박스 및 Fil-C</title>
+      <link>https://fil-c.org/seccomp</link>
+      <description>📝 Linux 샌드박스 및 Fil-C 메모리 안전과 샌드박싱은 서로 다른 두 가지입니다. 이 프로그램은 메모리에 안전하더라도 상당히 위험할 수 있습니다. 이 문서에서는 OpenSSH의 seccomp 기반 Linux 샌드박스 코드를 Fil-C로 포팅하는 데 필요한 사항을 설명하여 샌드박싱과 Fil-C의 메모리 안전을 결합하는 방법을 설명합니다.
 
 
-🔤 Original: VPN location claims don't match real traffic exits
+🔤 Original: Linux Sandboxes and Fil-C
 
-🔗 Read more: https://ipinfo.io/blog/vpn-location-mismatch-report</description>
-      <guid isPermaLink="true">https://ipinfo.io/blog/vpn-location-mismatch-report</guid>
-      <pubDate>Sat, 13 Dec 2025 19:46:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257339</comments>
+🔗 Read more: https://fil-c.org/seccomp</description>
+      <guid isPermaLink="true">https://fil-c.org/seccomp</guid>
+      <pubDate>Sat, 13 Dec 2025 22:58:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259064</comments>
     </item>
     <item>
-      <title>HN에게 물어보세요: 여러 대상을 위한 릴리스 노트를 어떻게 처리합니까?</title>
-      <link>https://news.ycombinator.com/item?id=46257486</link>
-      <description>📝 예를 들면 다음과 같습니다. • 개발자를 위한 기술 버전 • 최종 사용자를 위한 단순화된 버전 • 이해관계자를 위한 보다 높은 수준의 버전 등… 현재 직위에서 저는 팀은 물론 제가 현재 일하고 있는 회사에서도 이 문제를 해결하는 다양한 방법을 보았습니다. 원시 GitHub 변경 로그를 고객 이메일에 붙여넣습니다(현재 이 작업을 수행하는 경우 권장하지 않음). 2. 작업이 너무 많기 때문에 릴리스 노트를 완전히 건너뜁니다. 따라서 제 질문은 다음과 같습니다. 귀하 또는 귀하의 회사는 현재 두 세트 이상의 릴리스 노트를 어떻게 처리하고 있으며, 두 세트 이상이 필요하다고 생각하십니까?
+      <title>Win32 창 프로시저로서의 클로저</title>
+      <link>https://nullprogram.com/blog/2025/12/12/</link>
+      <description>📝 이 기사에서는 다섯 번째 인수를 사용하여 Win32 창 프로시저 콜백을 강화하여 추가 컨텍스트를 보다 직접적으로 전달할 수 있도록 하겠습니다. 그러면 이 프로시저가 프로그램 상태에 어떻게 액세스합니까? 이 포인터는 CREATESTRUCT를 통해 간접적으로 전달됩니다.
 
 
-🔤 Original: Ask HN: How do you handle release notes for multiple audiences?
+🔤 Original: Closures as Win32 Window Procedures
 
-🔗 Read more: https://news.ycombinator.com/item?id=46257486</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46257486</guid>
-      <pubDate>Sat, 13 Dec 2025 20:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257486</comments>
+🔗 Read more: https://nullprogram.com/blog/2025/12/12/</description>
+      <guid isPermaLink="true">https://nullprogram.com/blog/2025/12/12/</guid>
+      <pubDate>Sat, 13 Dec 2025 23:39:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259334</comments>
     </item>
     <item>
-      <title>나는 24년간의 블로그 게시물을 Markov 모델에 입력했습니다.</title>
-      <link>https://susam.net/fed-24-years-of-posts-to-markov-model.html</link>
-      <description>📝 1980년대 셰니 프로그램. 효율성보다 단순성을 선호하는 매우 작은 프로그램입니다. 이러한 방식으로 모델은 각 쌍 바로 뒤에 오는 단어와 함께 인접한 단어의 각 쌍을 캡처합니다.
+      <title>Twilio 세그먼트가 마이크로서비스에서 다시 모놀리스로 전환된 이유</title>
+      <link>https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</link>
+      <description>📝 이 아키텍처의 본질적인 이점은 부담이 되었습니다. Twilio Segment는 모든 대상 엔드포인트에 대한 요청을 처리합니다. 이 마이크로서비스 스타일 아키텍처는 대상을 서로 격리했는데, 이는 한 대상에서 자주 발생하는 문제가 발생할 때 매우 중요했습니다.
 
 
-🔤 Original: I fed 24 years of my blog posts to a Markov model
+🔤 Original: Why Twilio Segment moved from microservices back to a monolith
 
-🔗 Read more: https://susam.net/fed-24-years-of-posts-to-markov-model.html</description>
-      <guid isPermaLink="true">https://susam.net/fed-24-years-of-posts-to-markov-model.html</guid>
-      <pubDate>Sat, 13 Dec 2025 20:19:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257607</comments>
+🔗 Read more: https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</description>
+      <guid isPermaLink="true">https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</guid>
+      <pubDate>Sat, 13 Dec 2025 20:30:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257714</comments>
     </item>
     <item>
-      <title>선거를 좌우하고 싶나요? 가짜 온라인 계정의 비용은 다음과 같습니다.</title>
-      <link>https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost</link>
-      <guid isPermaLink="true">https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost</guid>
-      <pubDate>Sat, 13 Dec 2025 20:48:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257871</comments>
+      <title>Anthony Bourdain의 (실제로) 잃어버린 Li.st를 복구하는 중</title>
+      <link>https://sandyuraz.com/blogs/bourdain/</link>
+      <description>📝 심지어 우리 제작팀도 그 옷을 입었습니다. 저도 그렇지만 쇼요롤과 함께요. 나는 이것들 중 하나도 가지고 있지 않습니다.
+
+
+🔤 Original: Recovering Anthony Bourdain's (really) lost Li.st's
+
+🔗 Read more: https://sandyuraz.com/blogs/bourdain/</description>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/bourdain/</guid>
+      <pubDate>Sat, 13 Dec 2025 21:18:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46258163</comments>
     </item>
     <item>
-      <title>HN에게 물어보세요: 프로그래밍에 AI를 사용하는 능력을 어떻게 향상시킬 수 있나요?</title>
-      <link>https://news.ycombinator.com/item?id=46255285</link>
-      <description>📝 여기에는 div 스팸 대신 시맨틱 HTML을 사용하고, div의 div에 div를 래핑하지 않고, 부트스트랩을 최소한의 tailwind로 바꾸는 등의 작업이 포함됩니다. 여러 뷰에 부울 플래그를 사용하여 템플릿을 구성 가능한 Svelte 구성 요소로 바꾸는 것과 같은 것입니다. 기껏해야 Claude Code를 통해 Svelte에서 약간 덜 스파게티 코드를 다시 만들 수 있습니다.
+      <title>컴퓨터 게임의 부상, 1부: 모험</title>
+      <link>https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</link>
+      <description>📝 [1] 초기 게임과 시장 컴퓨터 소유자는 세 가지 방법 중 하나로 게임을 손에 넣었습니다. 중앙값 입력은 이와 같은 단순한 게임 또는 그래픽 데모였습니다. [3] 1980년경의 일반적인 컴퓨터 게임 패키지 내용.
 
 
-🔤 Original: Ask HN: How can I get better at using AI for programming?
+🔤 Original: The Rise of Computer Games, Part I: Adventure
 
-🔗 Read more: https://news.ycombinator.com/item?id=46255285</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46255285</guid>
-      <pubDate>Sat, 13 Dec 2025 15:37:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46255285</comments>
+🔗 Read more: https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</description>
+      <guid isPermaLink="true">https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:19:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257599</comments>
     </item>
     <item>
-      <title>우리는 영원히 동일한 데스크톱 UX에 갇혀 있습니까? [동영상]</title>
-      <link>https://www.youtube.com/watch?v=1fZTOjd_bOQ</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=1fZTOjd_bOQ</guid>
-      <pubDate>Sat, 13 Dec 2025 18:39:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46256834</comments>
+      <title>llamafile: 단일 파일로 LLM 배포 및 실행</title>
+      <link>https://github.com/mozilla-ai/llamafile</link>
+      <description>📝 llamafile을 사용하면 단일 파일로 LLM을 배포하고 실행할 수 있습니다. llamafile은 Mozilla Builders 프로젝트입니다. llamafile # 실행 가능하게 만듭니다(macOS/Linux/BSD) chmod +x llava-v1.
+
+
+🔤 Original: llamafile: Distribute and Run LLMs with a Single File
+
+🔗 Read more: https://github.com/mozilla-ai/llamafile</description>
+      <guid isPermaLink="true">https://github.com/mozilla-ai/llamafile</guid>
+      <pubDate>Sat, 13 Dec 2025 19:22:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257125</comments>
     </item>
     <item>
-      <title>거대한 공이 이 남자가 빙산에서 1년 동안 살아남는 데 도움이 될 것입니다</title>
-      <link>https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</link>
-      <description>📝 거대한 공이 이 남자가 빙산에서 1년 동안 생존하는 데 어떻게 도움이 될까요? 생존 캡슐 내부 살펴보기 이탈리아 탐험가 알렉스 벨리니(Alex Bellini)는 그에게 전례 없는 업적을 달성할 수 있도록 도와달라고 의뢰했습니다. 빙산이 대서양으로 녹아 들어가는 동안 1년을 보내는 것입니다. Bellini는 “이 모험은 어떤 일이 일어나기를 기다리는 것입니다.”라고 말합니다. Bellini는 “저는 캡슐과 사랑에 빠졌습니다.”라고 말합니다.
+      <title>플랫팩 세탁기가 만드는 공정한 미래</title>
+      <link>https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</link>
+      <description>📝 Navjot Sawhney가 Divya 기계 사용을 시연합니다. 중요한 고려 사항 중 하나는 Divyas가 사용되는 위치에 적합한지 확인하는 것이었습니다. 이 프로젝트는 또한 기계를 조립하고 배포할 수 있는 '허브'를 시험하고 있으며 훈련, 워크숍, 교육 활동도 제공하여 Divya 기계로 절약된 시간의 효과를 확대하고 있습니다. 긍정적인 뉴스를 지원하세요.
 
 
-🔤 Original: A Giant Ball Will Help This Man Survive a Year on an Iceberg
+🔤 Original: Flat-pack washing machine spins a fairer future
 
-🔗 Read more: https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</description>
-      <guid isPermaLink="true">https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</guid>
-      <pubDate>Sat, 13 Dec 2025 15:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46255175</comments>
+🔗 Read more: https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</description>
+      <guid isPermaLink="true">https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</guid>
+      <pubDate>Sat, 13 Dec 2025 22:38:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46258906</comments>
+    </item>
+    <item>
+      <title>제거WindowsAI</title>
+      <link>https://github.com/zoicware/RemoveWindowsAI</link>
+      <description>📝 Windows Ai 이유를 제거하세요. 이 가이드에서는 비활성화할 추가 AI 기능을 보여줍니다. com/zoicware/RemoveWindowsAI/main/RemoveWindowsAi.
+
+
+🔤 Original: RemoveWindowsAI
+
+🔗 Read more: https://github.com/zoicware/RemoveWindowsAI</description>
+      <guid isPermaLink="true">https://github.com/zoicware/RemoveWindowsAI</guid>
+      <pubDate>Sat, 13 Dec 2025 23:04:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259095</comments>
     </item>
   </channel>
 </rss>

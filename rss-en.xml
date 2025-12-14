@@ -6,72 +6,88 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Dec 2025 21:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 01:48:11 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>VPN location claims don't match real traffic exits</title>
-      <link>https://ipinfo.io/blog/vpn-location-mismatch-report</link>
-      <description>📝 In a large-scale analysis of 20 popular VPNs, IPinfo found that 17 of those VPNs exit traffic from different countries than they claim. That means the majority of VPN providers we analyzed don’t route your traffic via the countries they claim to, and they claim many more countries than they actually support. Analyzing over 150,000 exit IPs across 137 possible exit countries, and comparing what providers claim to what IPinfo measures, shows that:17 in 20 providers had traffic exiting in a different country.
+      <title>Linux Sandboxes and Fil-C</title>
+      <link>https://fil-c.org/seccomp</link>
+      <description>📝 Linux Sandboxes And Fil-C Memory safety and sandboxing are two different things. This program can be quite dangerous even if it is memory safe. This document describes how to combine sandboxing and Fil-C's memory safety by explaining what it takes to port OpenSSH's seccomp-based Linux sandbox code to Fil-C.
 
-🔗 Read more: https://ipinfo.io/blog/vpn-location-mismatch-report</description>
-      <guid isPermaLink="true">https://ipinfo.io/blog/vpn-location-mismatch-report</guid>
-      <pubDate>Sat, 13 Dec 2025 19:46:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257339</comments>
+🔗 Read more: https://fil-c.org/seccomp</description>
+      <guid isPermaLink="true">https://fil-c.org/seccomp</guid>
+      <pubDate>Sat, 13 Dec 2025 22:58:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259064</comments>
     </item>
     <item>
-      <title>Ask HN: How do you handle release notes for multiple audiences?</title>
-      <link>https://news.ycombinator.com/item?id=46257486</link>
-      <description>📝 For example: • technical version for developers • simplified version for end users • something more high-level for stakeholders etc…In my current position I’ve seen a plethora of different ways teams, and even the company I currently work for, go about this. paste raw GitHub changelogs into customer emails (highly wouldn’t recommend if you’re currently doing this ) 2. skip release notes entirely because it’s too much workSo I guess my question is: How do you or your company currently go about handling more than one set of release notes, and do you feel like more than one set is needed.
+      <title>Closures as Win32 Window Procedures</title>
+      <link>https://nullprogram.com/blog/2025/12/12/</link>
+      <description>📝 In this article I will enhance Win32 window procedure callbacks with a fifth argument, allowing us to more directly pass extra context. So how does this procedure access the program state. This pointer is passed indirectly, through a CREATESTRUCT.
 
-🔗 Read more: https://news.ycombinator.com/item?id=46257486</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46257486</guid>
-      <pubDate>Sat, 13 Dec 2025 20:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257486</comments>
+🔗 Read more: https://nullprogram.com/blog/2025/12/12/</description>
+      <guid isPermaLink="true">https://nullprogram.com/blog/2025/12/12/</guid>
+      <pubDate>Sat, 13 Dec 2025 23:39:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259334</comments>
     </item>
     <item>
-      <title>I fed 24 years of my blog posts to a Markov model</title>
-      <link>https://susam.net/fed-24-years-of-posts-to-markov-model.html</link>
-      <description>📝 Shaney program from the 1980s. It is a very small program that favours simplicity over efficiency. In this way, the model captures each pair of adjacent words along with the words that immediately follow each pair.
+      <title>Why Twilio Segment moved from microservices back to a monolith</title>
+      <link>https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</link>
+      <description>📝 Essential benefits of this architecture became burdens. Twilio Segment handles making the request to every destination endpoint. This microservice-style architecture isolated the destinations from one another, which was crucial when one destination experienced issues as they often do.
 
-🔗 Read more: https://susam.net/fed-24-years-of-posts-to-markov-model.html</description>
-      <guid isPermaLink="true">https://susam.net/fed-24-years-of-posts-to-markov-model.html</guid>
-      <pubDate>Sat, 13 Dec 2025 20:19:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257607</comments>
+🔗 Read more: https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</description>
+      <guid isPermaLink="true">https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</guid>
+      <pubDate>Sat, 13 Dec 2025 20:30:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257714</comments>
     </item>
     <item>
-      <title>Want to sway an election? Here’s how much fake online accounts cost</title>
-      <link>https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost</link>
-      <guid isPermaLink="true">https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost</guid>
-      <pubDate>Sat, 13 Dec 2025 20:48:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257871</comments>
-    </item>
-    <item>
-      <title>Ask HN: How can I get better at using AI for programming?</title>
-      <link>https://news.ycombinator.com/item?id=46255285</link>
-      <description>📝 This includes things like using semantic HTML instead of div-spamming, not wrapping divs in divs in divs, and replacing bootstrap with minimal tailwind. Things like replacing templates using boolean flags for multiple views with composable Svelte components. At most, I can only get Claude Code to recreate some slightly less spaghetti code in Svelte.
+      <title>Recovering Anthony Bourdain's (really) lost Li.st's</title>
+      <link>https://sandyuraz.com/blogs/bourdain/</link>
+      <description>📝 Even my production team have taken to wearing them. I’m like that but with Shoyoroll. I don’t have one of these.
 
-🔗 Read more: https://news.ycombinator.com/item?id=46255285</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46255285</guid>
-      <pubDate>Sat, 13 Dec 2025 15:37:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46255285</comments>
+🔗 Read more: https://sandyuraz.com/blogs/bourdain/</description>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/bourdain/</guid>
+      <pubDate>Sat, 13 Dec 2025 21:18:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46258163</comments>
     </item>
     <item>
-      <title>Are we stuck with the same Desktop UX forever? [video]</title>
-      <link>https://www.youtube.com/watch?v=1fZTOjd_bOQ</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=1fZTOjd_bOQ</guid>
-      <pubDate>Sat, 13 Dec 2025 18:39:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46256834</comments>
-    </item>
-    <item>
-      <title>A Giant Ball Will Help This Man Survive a Year on an Iceberg</title>
-      <link>https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</link>
-      <description>📝 How a Giant Ball Will Help This Man Survive a Year on an Iceberg A look inside the survival capsule Italian explorer Alex Bellini has commissioned to help him achieve an unprecedented feat: Spend a year on an iceberg as it melts into the Atlantic. “This adventure is about waiting for something to happen,” says Bellini. “I fell in love with the capsule,” says Bellini.
+      <title>The Rise of Computer Games, Part I: Adventure</title>
+      <link>https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</link>
+      <description>📝 [1] The Early Games and Their Market Computer owners got their hands on games in one of three ways. The median type-in was a simplistic game or graphical demo like this. [3] Contents of a typical computer game package circa 1980.
 
-🔗 Read more: https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</description>
-      <guid isPermaLink="true">https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</guid>
-      <pubDate>Sat, 13 Dec 2025 15:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46255175</comments>
+🔗 Read more: https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</description>
+      <guid isPermaLink="true">https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:19:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257599</comments>
+    </item>
+    <item>
+      <title>llamafile: Distribute and Run LLMs with a Single File</title>
+      <link>https://github.com/mozilla-ai/llamafile</link>
+      <description>📝 llamafile lets you distribute and run LLMs with a single file. llamafile is a Mozilla Builders project. llamafile # Make it executable (macOS/Linux/BSD) chmod +x llava-v1.
+
+🔗 Read more: https://github.com/mozilla-ai/llamafile</description>
+      <guid isPermaLink="true">https://github.com/mozilla-ai/llamafile</guid>
+      <pubDate>Sat, 13 Dec 2025 19:22:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257125</comments>
+    </item>
+    <item>
+      <title>Flat-pack washing machine spins a fairer future</title>
+      <link>https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</link>
+      <description>📝 Navjot Sawhney demonstrates using the Divya machine One crucial consideration was making sure Divyas were fit for the locations where they would be used. The project is also piloting ‘Hubs’, where machines can be assembled and distributed, but also offering training, workshops, and educational activities, extending the impact of the time saved by Divya machines. Support Positive News.
+
+🔗 Read more: https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</description>
+      <guid isPermaLink="true">https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</guid>
+      <pubDate>Sat, 13 Dec 2025 22:38:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46258906</comments>
+    </item>
+    <item>
+      <title>RemoveWindowsAI</title>
+      <link>https://github.com/zoicware/RemoveWindowsAI</link>
+      <description>📝 Remove Windows Ai Why. This guide will show additional AI features to disable. com/zoicware/RemoveWindowsAI/main/RemoveWindowsAi.
+
+🔗 Read more: https://github.com/zoicware/RemoveWindowsAI</description>
+      <guid isPermaLink="true">https://github.com/zoicware/RemoveWindowsAI</guid>
+      <pubDate>Sat, 13 Dec 2025 23:04:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259095</comments>
     </item>
   </channel>
 </rss>

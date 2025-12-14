@@ -6,87 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Dec 2025 21:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 01:48:11 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>VPN 位置声明与实际流量出口不符</title>
-      <link>https://ipinfo.io/blog/vpn-location-mismatch-report</link>
-      <description>📝 IPinfo 对 20 个流行 VPN 进行了大规模分析，发现其中 17 个 VPN 的流量出口国家/地区与他们声称的不同。这意味着我们分析的大多数 VPN 提供商不会通过他们声称的国家/地区路由您的流量，而且他们声称的国家/地区比他们实际支持的国家/地区要多得多。通过分析 137 个可能退出国家/地区的超过 150,000 个退出 IP，并将提供商声称的内容与 IPinfo 衡量的内容进行比较，结果表明：20 个提供商中有 17 个的流量在不同国家/地区退出。
+      <title>Linux 沙箱和 Fil-C</title>
+      <link>https://fil-c.org/seccomp</link>
+      <description>📝 Linux 沙箱和 Fil-C 内存安全和沙箱是两个不同的东西。即使该程序是内存安全的，它也可能非常危险。本文档通过解释如何将 OpenSSH 的基于 seccomp 的 Linux 沙箱代码移植到 Fil-C 来描述如何将沙箱和 Fil-C 的内存安全结合起来。
 
 
-🔤 Original: VPN location claims don't match real traffic exits
+🔤 Original: Linux Sandboxes and Fil-C
 
-🔗 Read more: https://ipinfo.io/blog/vpn-location-mismatch-report</description>
-      <guid isPermaLink="true">https://ipinfo.io/blog/vpn-location-mismatch-report</guid>
-      <pubDate>Sat, 13 Dec 2025 19:46:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257339</comments>
+🔗 Read more: https://fil-c.org/seccomp</description>
+      <guid isPermaLink="true">https://fil-c.org/seccomp</guid>
+      <pubDate>Sat, 13 Dec 2025 22:58:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259064</comments>
     </item>
     <item>
-      <title>询问 HN：您如何处理针对多个受众的发行说明？</title>
-      <link>https://news.ycombinator.com/item?id=46257486</link>
-      <description>📝 例如： • 面向开发人员的技术版本 • 面向最终用户的简化版本 • 面向利益相关者的更高级别的版本等......在我目前的职位上，我看到团队甚至我目前工作的公司有多种不同的方式来解决这个问题。将原始 GitHub 变更日志粘贴到客户电子邮件中（如果您当前正在这样做，强烈不建议这样做） 2. 完全跳过发行说明，因为它的工作量太大所以我想我的问题是：您或您的公司目前如何处理多于一套发行说明，您是否觉得需要多套发行说明。
+      <title>作为 Win32 窗口过程的闭包</title>
+      <link>https://nullprogram.com/blog/2025/12/12/</link>
+      <description>📝 在本文中，我将使用第五个参数增强 Win32 窗口过程回调，使我们能够更直接地传递额外的上下文。那么这个过程是如何访问程序状态的呢？该指针通过 CREATESTRUCT 间接传递。
 
 
-🔤 Original: Ask HN: How do you handle release notes for multiple audiences?
+🔤 Original: Closures as Win32 Window Procedures
 
-🔗 Read more: https://news.ycombinator.com/item?id=46257486</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46257486</guid>
-      <pubDate>Sat, 13 Dec 2025 20:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257486</comments>
+🔗 Read more: https://nullprogram.com/blog/2025/12/12/</description>
+      <guid isPermaLink="true">https://nullprogram.com/blog/2025/12/12/</guid>
+      <pubDate>Sat, 13 Dec 2025 23:39:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259334</comments>
     </item>
     <item>
-      <title>我将 24 年的博客文章输入马尔可夫模型</title>
-      <link>https://susam.net/fed-24-years-of-posts-to-markov-model.html</link>
-      <description>📝 20 世纪 80 年代的谢尼计划。这是一个非常小的程序，注重简单性而不是效率。通过这种方式，模型捕获每对相邻单词以及紧随每对单词之后的单词。
+      <title>为什么 Twilio Segment 从微服务迁移回单体应用</title>
+      <link>https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</link>
+      <description>📝 这种架构的基本优势变成了负担。 Twilio Segment 处理向每个目标端点发出的请求。这种微服务式架构将目的地彼此隔离，当一个目的地经常遇到问题时，这一点至关重要。
 
 
-🔤 Original: I fed 24 years of my blog posts to a Markov model
+🔤 Original: Why Twilio Segment moved from microservices back to a monolith
 
-🔗 Read more: https://susam.net/fed-24-years-of-posts-to-markov-model.html</description>
-      <guid isPermaLink="true">https://susam.net/fed-24-years-of-posts-to-markov-model.html</guid>
-      <pubDate>Sat, 13 Dec 2025 20:19:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257607</comments>
+🔗 Read more: https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</description>
+      <guid isPermaLink="true">https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices</guid>
+      <pubDate>Sat, 13 Dec 2025 20:30:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257714</comments>
     </item>
     <item>
-      <title>想左右选举吗？这是虚假在线帐户的成本</title>
-      <link>https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost</link>
-      <guid isPermaLink="true">https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost</guid>
-      <pubDate>Sat, 13 Dec 2025 20:48:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46257871</comments>
+      <title>找回 Anthony Bourdain（真正）丢失的 Li.st 的作品</title>
+      <link>https://sandyuraz.com/blogs/bourdain/</link>
+      <description>📝 甚至我的制作团队也开始佩戴它们。我就是这样，但和 Shoyoroll 在一起。我没有其中之一。
+
+
+🔤 Original: Recovering Anthony Bourdain's (really) lost Li.st's
+
+🔗 Read more: https://sandyuraz.com/blogs/bourdain/</description>
+      <guid isPermaLink="true">https://sandyuraz.com/blogs/bourdain/</guid>
+      <pubDate>Sat, 13 Dec 2025 21:18:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46258163</comments>
     </item>
     <item>
-      <title>询问 HN：我怎样才能更好地使用人工智能进行编程？</title>
-      <link>https://news.ycombinator.com/item?id=46255285</link>
-      <description>📝 这包括使用语义 HTML 而不是 div 垃圾邮件、不在 div 中包装 div 以及用最小的 tailwind 替换 bootstrap 等。例如，使用可组合 Svelte 组件的多个视图的布尔标志替换模板。我最多只能让 Claude Code 在 Svelte 中重新创建一些稍微不那么意大利面条式的代码。
+      <title>电脑游戏的兴起，第一部分：冒险</title>
+      <link>https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</link>
+      <description>📝 [1] 早期游戏及其市场 计算机所有者通过以下三种方式之一获得游戏。中间的输入是一个简单的游戏或像这样的图形演示。 [3] 1980 年左右典型电脑游戏包的内容。
 
 
-🔤 Original: Ask HN: How can I get better at using AI for programming?
+🔤 Original: The Rise of Computer Games, Part I: Adventure
 
-🔗 Read more: https://news.ycombinator.com/item?id=46255285</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46255285</guid>
-      <pubDate>Sat, 13 Dec 2025 15:37:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46255285</comments>
+🔗 Read more: https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</description>
+      <guid isPermaLink="true">https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:19:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257599</comments>
     </item>
     <item>
-      <title>我们是否永远都坚持相同的桌面用户体验？ [视频]</title>
-      <link>https://www.youtube.com/watch?v=1fZTOjd_bOQ</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=1fZTOjd_bOQ</guid>
-      <pubDate>Sat, 13 Dec 2025 18:39:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46256834</comments>
+      <title>llamafile：使用单个文件分发和运行 LLM</title>
+      <link>https://github.com/mozilla-ai/llamafile</link>
+      <description>📝 llamafile 允许您使用单个文件分发和运行 LLM。 llamafile 是 Mozilla Builders 项目。 llamafile # 使其可执行 (macOS/Linux/BSD) chmod +x llava-v1.
+
+
+🔤 Original: llamafile: Distribute and Run LLMs with a Single File
+
+🔗 Read more: https://github.com/mozilla-ai/llamafile</description>
+      <guid isPermaLink="true">https://github.com/mozilla-ai/llamafile</guid>
+      <pubDate>Sat, 13 Dec 2025 19:22:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46257125</comments>
     </item>
     <item>
-      <title>一个巨大的球将帮助这个人在冰山上生存一年</title>
-      <link>https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</link>
-      <description>📝 一个巨大的球将如何帮助这个人在冰山上生存一年 意大利探险家亚历克斯·贝利尼委托救生舱内部一探究竟，以帮助他实现一项前所未有的壮举：在冰山融化进入大西洋时在冰山上度过一年。 “这次冒险就是等待事情发生，”贝利尼说。 “我爱上了这个胶囊，”贝利尼说。
+      <title>平板洗衣机纺出更美好的未来</title>
+      <link>https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</link>
+      <description>📝 Navjot Sawhney 演示如何使用 Divya 机器 一个重要的考虑因素是确保 Divya 适合其使用地点。该项目还在试点“中心”，在那里可以组装和分发机器，同时还提供培训、研讨会和教育活动，扩大 Divya 机器节省的时间的影响。支持正面消息。
 
 
-🔤 Original: A Giant Ball Will Help This Man Survive a Year on an Iceberg
+🔤 Original: Flat-pack washing machine spins a fairer future
 
-🔗 Read more: https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</description>
-      <guid isPermaLink="true">https://www.outsideonline.com/outdoor-adventure/exploration-survival/how-giant-ball-will-help-man-survive-year-iceberg/</guid>
-      <pubDate>Sat, 13 Dec 2025 15:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46255175</comments>
+🔗 Read more: https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</description>
+      <guid isPermaLink="true">https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/</guid>
+      <pubDate>Sat, 13 Dec 2025 22:38:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46258906</comments>
+    </item>
+    <item>
+      <title>删除WindowsAI</title>
+      <link>https://github.com/zoicware/RemoveWindowsAI</link>
+      <description>📝 删除Windows艾为什么。本指南将显示要禁用的其他 AI 功能。 com/zoicware/RemoveWindowsAI/main/RemoveWindowsAi。
+
+
+🔤 Original: RemoveWindowsAI
+
+🔗 Read more: https://github.com/zoicware/RemoveWindowsAI</description>
+      <guid isPermaLink="true">https://github.com/zoicware/RemoveWindowsAI</guid>
+      <pubDate>Sat, 13 Dec 2025 23:04:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46259095</comments>
     </item>
   </channel>
 </rss>
