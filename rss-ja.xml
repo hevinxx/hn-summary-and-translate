@@ -6,73 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Dec 2025 15:26:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 18:34:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>NES のトップガンでの空母着陸</title>
-      <link>https://relaxing.run/blag/posts/top-gun-landing/</link>
-      <description>📝 MFD に「200 / 速度 288」のテキストが表示されます。高度と速度はどちらもスロットル入力とピッチ角によって制御されます。自宅でフォローしている人のために、注釈付きの逆アセンブリを以下に示します。 landing_skill_check: 06:B6EA: LDA $3E ; ロード高度 High cent 06:B6EC: BEQ $B724 ; High cent == 0 (高度 &lt; 100) の場合に分岐06:B6EE: CMP #$03 06:B6F0: BCS $B720 ; 高セント &gt;= 3 (高度 &gt;= 300) の場合分岐 06:B6F2: LDA $41 06:B6F4: CMP #$04 06:B6F6: BCS $B720 ; 高セント &gt;= 04 (速度 &gt;=) の場合分岐400) 06:B6F8: CMP #$02 06:B6FA: BCC $B724 ; ハイセントが &lt; 02 (スピード &lt; 200) の場合に分岐 06:B6FC: BEQ $B706 ; ハイセント == 02 (スピード &gt;= 200 &amp;&amp; スピード &lt;= 299) の場合に分岐$40 ; ロード速度 Low cent 06:B700: CMP #$38 06:B702: BCS $B720 ; Low cent &gt;= 38 (speed &gt;= 338) の場合分岐 06:B704: BCC $B70C ; Low cent &lt; 38 (speed &lt; 338) の場合分岐$40 06:B708: CMP #$38 06:B70A: BCC $B724 ; 速度 &lt; 238 の場合は分岐します Speed_ok: 06:B70C: LDA $FD ; 見出し 06:B70E: BMI $B718 ; 見出し &lt; 0 (左すぎる) の場合は分岐します06:B712: BCS $B71C ; 方向が 8 (右すぎる) の場合に分岐 06:B714: LDX #$00 ; 速度は正常、方向は正常; 06:B716: BEQ $B726 ; 左端に戻る場合: 06:B718: LDX #$02 06:B71A: BNE $B726 too_far_right: 06:B71C: LDX #$04 06:B71E: BNE $B726 too_fast_or_too_high: 06:B720: LDX #$08 06:B722: BNE $B726 too_slow_or_too_low: 06:B724: LDX #$04 return: 06:B726: STX $9E 06:B728: RTS さあ、外に出て、3 本目のワイヤーを引っ掛けてください。
+      <title>民主派香港の実業家ジミー・ライ氏、国家安全保障裁判で有罪判決</title>
+      <link>https://www.bbc.com/news/articles/cp844kjj37vo</link>
+      <description>📝 民主派香港の大物実業家ジミー・ライ氏、注目の国家安全保障裁判で有罪判決6 時間前シェア保存ケリー・ン、コーイー・リー、ダニー・ビンセント、香港シェア保存ウォッチ: ジミー・ライ判決の判決は香港の民主主義にとって何を意味するのか。香港の民主化活動家でメディア王の黎智英（ジミー・ライ）氏が、物議を醸している香港国家安全維持法（NSL）に基づき外国勢力と共謀した罪で有罪判決を受けた。英国や米国を含む西側諸国政府は長年、頼氏の釈放を求めてきたが、中国政府と香港はこれを拒否している。
 
 
-🔤 Original: Carrier Landing in Top Gun for the NES
+🔤 Original: Pro-democracy HK tycoon Jimmy Lai convicted in national security trial
 
-🔗 Read more: https://relaxing.run/blag/posts/top-gun-landing/</description>
-      <guid isPermaLink="true">https://relaxing.run/blag/posts/top-gun-landing/</guid>
-      <pubDate>Mon, 15 Dec 2025 14:16:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46274822</comments>
+🔗 Read more: https://www.bbc.com/news/articles/cp844kjj37vo</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/cp844kjj37vo</guid>
+      <pubDate>Mon, 15 Dec 2025 16:36:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46276740</comments>
     </item>
     <item>
-      <title>OpenAIが[証明書の透明性]ログをスクレイピングしているようです</title>
-      <link>https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</link>
-      <description>📝 176µs" statuscode=404 proto=http/2.182:38242 tlsinfo=tls1.com/searchbot" Referrr= size=19 cid=19b14416d95。
-
-
-🔤 Original: It seems that OpenAI is scraping [certificate transparency] logs
-
-🔗 Read more: https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</description>
-      <guid isPermaLink="true">https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</guid>
-      <pubDate>Mon, 15 Dec 2025 13:48:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46274478</comments>
+      <title>過去の超新星爆発の宇宙線浴が地球に似た惑星を誕生させる</title>
+      <link>https://www.science.org/doi/10.1126/sciadv.adx7892</link>
+      <guid isPermaLink="true">https://www.science.org/doi/10.1126/sciadv.adx7892</guid>
+      <pubDate>Mon, 15 Dec 2025 17:01:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46277090</comments>
     </item>
     <item>
-      <title>何千人もの米国の農家がパーキンソン病を患っています。彼らは致死性の殺虫剤のせいだとしている</title>
-      <link>https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</link>
-      <description>📝 農家はパーキンソン病を患っています。パーキンソン病との関連を主張する数千件の訴訟の対象となっている。シンジェンタは、パラコートがパーキンソン病を引き起こすという証拠はないと強調した。
+      <title>悪い会社は潰せ。悪い組合幹部を交代させる</title>
+      <link>https://pluralistic.net/2025/12/15/class-war-labor-peace/</link>
+      <description>📝 ありがたいことに、組合員たちは、この問題の解決策は指導者を解雇し、一部の組合員だけでなく労働者のことを気遣う好戦的で原則ある指導者に置き換えることだと理解した。 com/2023/04/07/deconstructed-union-dhl-teamsters-uaw/ 過激派がこの10年間に狙いを定めた、生活を破壊する組織は腐敗した労働組合だけではない。しかし、腐敗した労働組合に対する解決策は、労働組合の幹部を解雇し、より良い幹部と交代させることだ。
 
 
-🔤 Original: Thousands of U.S. farmers have Parkinson's. They blame a deadly pesticide
+🔤 Original: Break up bad companies; replace bad union bosses
 
-🔗 Read more: https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</description>
-      <guid isPermaLink="true">https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</guid>
-      <pubDate>Mon, 15 Dec 2025 14:37:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46275079</comments>
+🔗 Read more: https://pluralistic.net/2025/12/15/class-war-labor-peace/</description>
+      <guid isPermaLink="true">https://pluralistic.net/2025/12/15/class-war-labor-peace/</guid>
+      <pubDate>Mon, 15 Dec 2025 17:21:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46277381</comments>
     </item>
     <item>
-      <title>バージニア州住民の埋立地寿命を延ばす米国最大のリサイクルプロジェクト</title>
-      <link>https://ampsortation.com/articles/largest-us-recycling-project-spsa</link>
-      <description>📝 SPSA 独自の廃棄物特性調査では、ハンプトン ローズの廃棄物の流れでは、路上でリサイクルを行っている地域であっても、リサイクル可能な物、主にプラスチックと金属が高い割合で含まれていることが判明しました。 AMP は、単一ストリームのリサイクルと都市固形廃棄物を処理するための、コスト競争力の高い先進的な施設を設計、建設、運営しています。 3 つの本格的な施設と 400 以上の AI システムが北米全土に展開されています。
+      <title>$50 の PlanetScale Metal が Postgres 向けに GA になりました</title>
+      <link>https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres</link>
+      <description>📝 4 つのサイズの 16 GiB の RAM から 1 GiB までフロアを下げ、これらを 10 GB から 1 までの 8 つのストレージ容量と組み合わせました。CPU、RAM、およびストレージの分離このリリースは、PlanetScale Metal の利点をすべて維持しながら、CPU と RAM をストレージ容量から分離するための最初のステップです。 PlanetScale Metal を立ち上げて以来、お客様は 2 つのことを声高に求めてきました。開始価格の引き下げ。本日、月額 589 ドルから 50 ドルに値下げします。
 
 
-🔤 Original: Largest U.S. recycling project to extend landfill life for Virginia residents
+🔤 Original: $50 PlanetScale Metal Is GA for Postgres
 
-🔗 Read more: https://ampsortation.com/articles/largest-us-recycling-project-spsa</description>
-      <guid isPermaLink="true">https://ampsortation.com/articles/largest-us-recycling-project-spsa</guid>
-      <pubDate>Mon, 15 Dec 2025 11:58:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273344</comments>
+🔗 Read more: https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres</description>
+      <guid isPermaLink="true">https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres</guid>
+      <pubDate>Mon, 15 Dec 2025 16:11:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46276378</comments>
     </item>
     <item>
-      <title>MIT 2026 年度欠席学期</title>
-      <link>https://missing.csail.mit.edu/2026/</link>
-      <description>📝 2026 年の講義 · 不足している学期 2026 年の講義 1/12: コース概要 + シェルの概要 1/13: コマンドライン環境 1/14: 開発環境とツール 1/15: デバッグとプロファイリング 1/16: バージョン管理 (Git) 1/20: パッケージングと出荷コード 1/21: コードの品質と継続的インテグレーション 1/22: コードを超えて1/23: 質疑応答。
+      <title>Show HN: M2 MacBook Air でレンダリングされた 1 億のスプラット、町全体</title>
+      <link>https://twitter.com/AKurian001/status/1986979144014701026</link>
+      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x の使用を続けるには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2025 X Corp.
 
 
-🔤 Original: MIT Missing Semester 2026
+🔤 Original: Show HN: 100 Million splats, a whole town, rendered in M2 MacBook Air
 
-🔗 Read more: https://missing.csail.mit.edu/2026/</description>
-      <guid isPermaLink="true">https://missing.csail.mit.edu/2026/</guid>
-      <pubDate>Mon, 15 Dec 2025 12:45:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273762</comments>
+🔗 Read more: https://twitter.com/AKurian001/status/1986979144014701026</description>
+      <guid isPermaLink="true">https://twitter.com/AKurian001/status/1986979144014701026</guid>
+      <pubDate>Mon, 15 Dec 2025 17:27:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46277477</comments>
+    </item>
+    <item>
+      <title>私たちは群れを監視下に置きます: 行動を変えさせてください [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=W420BOqga_s</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=W420BOqga_s</guid>
+      <pubDate>Mon, 15 Dec 2025 14:57:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46275328</comments>
+    </item>
+    <item>
+      <title>サムスンは近いうちにSATA SSDの生産を終了する可能性がある</title>
+      <link>https://www.techradar.com/computing/storage-backup/looking-for-a-cheap-ssd-dont-wait-samsung-could-stop-producing-budget-models-soon</link>
+      <description>📝 なぜサムスンはこのような動きをするのでしょうか。全体的に最高: WD_Black SN81002。最適な予算: オリコ O70003。
+
+
+🔤 Original: Samsung may end SATA SSD production soon
+
+🔗 Read more: https://www.techradar.com/computing/storage-backup/looking-for-a-cheap-ssd-dont-wait-samsung-could-stop-producing-budget-models-soon</description>
+      <guid isPermaLink="true">https://www.techradar.com/computing/storage-backup/looking-for-a-cheap-ssd-dont-wait-samsung-could-stop-producing-budget-models-soon</guid>
+      <pubDate>Mon, 15 Dec 2025 14:51:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46275258</comments>
     </item>
   </channel>
 </rss>

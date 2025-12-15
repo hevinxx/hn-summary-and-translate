@@ -6,58 +6,72 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 15:26:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 18:34:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Carrier Landing in Top Gun for the NES</title>
-      <link>https://relaxing.run/blag/posts/top-gun-landing/</link>
-      <description>📝 200 / Speed 288” text on your MFD. Altitude and speed are both controlled by throttle input and pitch angle. Here’s my annotated disassembly for those following along at home: landing_skill_check: 06:B6EA: LDA $3E ; Load altitude High cent 06:B6EC: BEQ $B724 ; Branch if High cent == 0 (altitude &lt; 100) 06:B6EE: CMP #$03 06:B6F0: BCS $B720 ; Branch if High cent &gt;= 3 (altitude &gt;= 300) 06:B6F2: LDA $41 06:B6F4: CMP #$04 06:B6F6: BCS $B720 ; Branch if High cent is &gt;= 04 (speed &gt;= 400) 06:B6F8: CMP #$02 06:B6FA: BCC $B724 ; Branch if High cent is &lt; 02 (speed &lt; 200) 06:B6FC: BEQ $B706 ; Branch if High cent == 02 (speed &gt;= 200 &amp;&amp; speed &lt;= 299) speed_300s: 06:B6FE: LDA $40 ; Load speed Low cent 06:B700: CMP #$38 06:B702: BCS $B720 ; Branch if Low cent &gt;= 38 (speed &gt;= 338) 06:B704: BCC $B70C ; Branch if Low cent &lt; 38 (speed &lt; 338) speed_200s: 06:B706: LDA $40 06:B708: CMP #$38 06:B70A: BCC $B724 ; Branch if speed &lt; 238 speed_ok: 06:B70C: LDA $FD ; Load heading 06:B70E: BMI $B718 ; Branch if heading &lt; 0 (too far left) 06:B710: CMP #$08 06:B712: BCS $B71C ; Branch if heading &gt;= 8 (too far right) 06:B714: LDX #$00 ; speed ok, heading ok; 0 == success 06:B716: BEQ $B726 ; Branch to return too_far_left: 06:B718: LDX #$02 06:B71A: BNE $B726 too_far_right: 06:B71C: LDX #$04 06:B71E: BNE $B726 too_fast_or_too_high: 06:B720: LDX #$08 06:B722: BNE $B726 too_slow_or_too_low: 06:B724: LDX #$04 return: 06:B726: STX $9E 06:B728: RTS Now get out there, and snag that third wire.
+      <title>Pro-democracy HK tycoon Jimmy Lai convicted in national security trial</title>
+      <link>https://www.bbc.com/news/articles/cp844kjj37vo</link>
+      <description>📝 Pro-democracy Hong Kong tycoon Jimmy Lai convicted in high-profile national security trial6 hours agoShareSaveKelly Ng,Koey LeeandDanny Vincent,Hong KongShareSaveWatch: What does the Jimmy Lai verdict mean for democracy in Hong Kong. Hong Kong pro-democracy campaigner and media tycoon Jimmy Lai has been found guilty of colluding with foreign forces under the city's controversial national security law (NSL). Western governments, including the UK and US, have for years called for Lai's release, which Beijing and Hong Kong have rejected.
 
-🔗 Read more: https://relaxing.run/blag/posts/top-gun-landing/</description>
-      <guid isPermaLink="true">https://relaxing.run/blag/posts/top-gun-landing/</guid>
-      <pubDate>Mon, 15 Dec 2025 14:16:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46274822</comments>
+🔗 Read more: https://www.bbc.com/news/articles/cp844kjj37vo</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/cp844kjj37vo</guid>
+      <pubDate>Mon, 15 Dec 2025 16:36:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46276740</comments>
     </item>
     <item>
-      <title>It seems that OpenAI is scraping [certificate transparency] logs</title>
-      <link>https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</link>
-      <description>📝 176µs" statuscode=404 proto=http/2. 182:38242 tlsinfo=tls1. com/searchbot" referrr= size=19 cid=19b14416d95.
-
-🔗 Read more: https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</description>
-      <guid isPermaLink="true">https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</guid>
-      <pubDate>Mon, 15 Dec 2025 13:48:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46274478</comments>
+      <title>Cosmic-ray bath in a past supernova gives birth to Earth-like planets</title>
+      <link>https://www.science.org/doi/10.1126/sciadv.adx7892</link>
+      <guid isPermaLink="true">https://www.science.org/doi/10.1126/sciadv.adx7892</guid>
+      <pubDate>Mon, 15 Dec 2025 17:01:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46277090</comments>
     </item>
     <item>
-      <title>Thousands of U.S. farmers have Parkinson's. They blame a deadly pesticide</title>
-      <link>https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</link>
-      <description>📝 farmers have Parkinson’s. It's the subject of thousands of lawsuits claiming it’s linked to Parkinson’s disease. Syngenta has emphasized there is no evidence that paraquat causes Parkinson’s disease.
+      <title>Break up bad companies; replace bad union bosses</title>
+      <link>https://pluralistic.net/2025/12/15/class-war-labor-peace/</link>
+      <description>📝 Thankfully, union workers figured out that the answer to this problem was firing their leaders and replacing them with militant, principled leaders who cared about workers, not just a subsection of their members. com/2023/04/07/deconstructed-union-dhl-teamsters-uaw/ Corrupt unions aren't the only life-destroying institutions that radicals have set their sights on this decade. But the answer to a corrupt union is to fire the union bosses and replace them with better ones.
 
-🔗 Read more: https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</description>
-      <guid isPermaLink="true">https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</guid>
-      <pubDate>Mon, 15 Dec 2025 14:37:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46275079</comments>
+🔗 Read more: https://pluralistic.net/2025/12/15/class-war-labor-peace/</description>
+      <guid isPermaLink="true">https://pluralistic.net/2025/12/15/class-war-labor-peace/</guid>
+      <pubDate>Mon, 15 Dec 2025 17:21:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46277381</comments>
     </item>
     <item>
-      <title>Largest U.S. recycling project to extend landfill life for Virginia residents</title>
-      <link>https://ampsortation.com/articles/largest-us-recycling-project-spsa</link>
-      <description>📝 SPSA’s own waste characterization study found high rates of recyclables, mainly plastics and metals, in the Hampton Roads waste stream—even in communities with curbside recycling. AMP designs, builds, and operates advanced, cost-competitive facilities to process single-stream recycling and municipal solid waste. With three full-scale facilities and more than 400 AI systems deployed across North America,.
+      <title>$50 PlanetScale Metal Is GA for Postgres</title>
+      <link>https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres</link>
+      <description>📝 We’ve lowered the floor from 16GiB of RAM with four sizes all the way to 1GiB and paired these with eight storage capacities ranging from 10GB to 1. Decoupling CPU, RAM, and StorageThis release is the first step towards decoupling CPU and RAM from storage capacity, while maintaining all the benefits of PlanetScale Metal. Since we launched PlanetScale Metal, customers have asked loudly for two things:A lower starting price, which we’re reducing today from $589 per month to $50 per month.
 
-🔗 Read more: https://ampsortation.com/articles/largest-us-recycling-project-spsa</description>
-      <guid isPermaLink="true">https://ampsortation.com/articles/largest-us-recycling-project-spsa</guid>
-      <pubDate>Mon, 15 Dec 2025 11:58:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273344</comments>
+🔗 Read more: https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres</description>
+      <guid isPermaLink="true">https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres</guid>
+      <pubDate>Mon, 15 Dec 2025 16:11:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46276378</comments>
     </item>
     <item>
-      <title>MIT Missing Semester 2026</title>
-      <link>https://missing.csail.mit.edu/2026/</link>
-      <description>📝 2026 Lectures · Missing Semester 2026 Lectures 1/12: Course Overview + Introduction to the Shell 1/13: Command-line Environment 1/14: Development Environment and Tools 1/15: Debugging and Profiling 1/16: Version Control (Git) 1/20: Packaging and Shipping Code 1/21: Code Quality and Continuous Integration 1/22: Beyond the Code 1/23: Q&amp;A.
+      <title>Show HN: 100 Million splats, a whole town, rendered in M2 MacBook Air</title>
+      <link>https://twitter.com/AKurian001/status/1986979144014701026</link>
+      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2025 X Corp.
 
-🔗 Read more: https://missing.csail.mit.edu/2026/</description>
-      <guid isPermaLink="true">https://missing.csail.mit.edu/2026/</guid>
-      <pubDate>Mon, 15 Dec 2025 12:45:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273762</comments>
+🔗 Read more: https://twitter.com/AKurian001/status/1986979144014701026</description>
+      <guid isPermaLink="true">https://twitter.com/AKurian001/status/1986979144014701026</guid>
+      <pubDate>Mon, 15 Dec 2025 17:27:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46277477</comments>
+    </item>
+    <item>
+      <title>We Put Flock Under Surveillance: Go Make Them Behave Differently [video]</title>
+      <link>https://www.youtube.com/watch?v=W420BOqga_s</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=W420BOqga_s</guid>
+      <pubDate>Mon, 15 Dec 2025 14:57:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46275328</comments>
+    </item>
+    <item>
+      <title>Samsung may end SATA SSD production soon</title>
+      <link>https://www.techradar.com/computing/storage-backup/looking-for-a-cheap-ssd-dont-wait-samsung-could-stop-producing-budget-models-soon</link>
+      <description>📝 Why is Samsung making this move. Best overall: WD_Black SN81002. Best budget: Orico O70003.
+
+🔗 Read more: https://www.techradar.com/computing/storage-backup/looking-for-a-cheap-ssd-dont-wait-samsung-could-stop-producing-budget-models-soon</description>
+      <guid isPermaLink="true">https://www.techradar.com/computing/storage-backup/looking-for-a-cheap-ssd-dont-wait-samsung-could-stop-producing-budget-models-soon</guid>
+      <pubDate>Mon, 15 Dec 2025 14:51:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46275258</comments>
     </item>
   </channel>
 </rss>
