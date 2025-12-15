@@ -6,35 +6,58 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 12:46:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 15:26:23 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>I'm Kenyan. I Don't Write Like ChatGPT. ChatGPT Writes Like Me</title>
-      <link>https://marcusolang.substack.com/p/im-kenyan-i-dont-write-like-chatgpt</link>
-      <guid isPermaLink="true">https://marcusolang.substack.com/p/im-kenyan-i-dont-write-like-chatgpt</guid>
-      <pubDate>Mon, 15 Dec 2025 12:12:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273466</comments>
+      <title>Carrier Landing in Top Gun for the NES</title>
+      <link>https://relaxing.run/blag/posts/top-gun-landing/</link>
+      <description>📝 200 / Speed 288” text on your MFD. Altitude and speed are both controlled by throttle input and pitch angle. Here’s my annotated disassembly for those following along at home: landing_skill_check: 06:B6EA: LDA $3E ; Load altitude High cent 06:B6EC: BEQ $B724 ; Branch if High cent == 0 (altitude &lt; 100) 06:B6EE: CMP #$03 06:B6F0: BCS $B720 ; Branch if High cent &gt;= 3 (altitude &gt;= 300) 06:B6F2: LDA $41 06:B6F4: CMP #$04 06:B6F6: BCS $B720 ; Branch if High cent is &gt;= 04 (speed &gt;= 400) 06:B6F8: CMP #$02 06:B6FA: BCC $B724 ; Branch if High cent is &lt; 02 (speed &lt; 200) 06:B6FC: BEQ $B706 ; Branch if High cent == 02 (speed &gt;= 200 &amp;&amp; speed &lt;= 299) speed_300s: 06:B6FE: LDA $40 ; Load speed Low cent 06:B700: CMP #$38 06:B702: BCS $B720 ; Branch if Low cent &gt;= 38 (speed &gt;= 338) 06:B704: BCC $B70C ; Branch if Low cent &lt; 38 (speed &lt; 338) speed_200s: 06:B706: LDA $40 06:B708: CMP #$38 06:B70A: BCC $B724 ; Branch if speed &lt; 238 speed_ok: 06:B70C: LDA $FD ; Load heading 06:B70E: BMI $B718 ; Branch if heading &lt; 0 (too far left) 06:B710: CMP #$08 06:B712: BCS $B71C ; Branch if heading &gt;= 8 (too far right) 06:B714: LDX #$00 ; speed ok, heading ok; 0 == success 06:B716: BEQ $B726 ; Branch to return too_far_left: 06:B718: LDX #$02 06:B71A: BNE $B726 too_far_right: 06:B71C: LDX #$04 06:B71E: BNE $B726 too_fast_or_too_high: 06:B720: LDX #$08 06:B722: BNE $B726 too_slow_or_too_low: 06:B724: LDX #$04 return: 06:B726: STX $9E 06:B728: RTS Now get out there, and snag that third wire.
+
+🔗 Read more: https://relaxing.run/blag/posts/top-gun-landing/</description>
+      <guid isPermaLink="true">https://relaxing.run/blag/posts/top-gun-landing/</guid>
+      <pubDate>Mon, 15 Dec 2025 14:16:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46274822</comments>
     </item>
     <item>
-      <title>Avoid UUIDv4 Primary Keys</title>
-      <link>https://andyatkinson.com/avoid-uuid-version-4-primary-keys</link>
-      <description>📝 What’s the core issue with UUID v4. What use cases for UUID are there. The UUID could also identify the database a value came from later, vs.
+      <title>It seems that OpenAI is scraping [certificate transparency] logs</title>
+      <link>https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</link>
+      <description>📝 176µs" statuscode=404 proto=http/2. 182:38242 tlsinfo=tls1. com/searchbot" referrr= size=19 cid=19b14416d95.
 
-🔗 Read more: https://andyatkinson.com/avoid-uuid-version-4-primary-keys</description>
-      <guid isPermaLink="true">https://andyatkinson.com/avoid-uuid-version-4-primary-keys</guid>
-      <pubDate>Mon, 15 Dec 2025 10:08:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46272487</comments>
+🔗 Read more: https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</description>
+      <guid isPermaLink="true">https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</guid>
+      <pubDate>Mon, 15 Dec 2025 13:48:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46274478</comments>
     </item>
     <item>
-      <title>Optery (YC W22) Hiring CISO, Release Manager, Tech Lead (Node), Full Stack Eng</title>
-      <link>https://www.optery.com/careers/</link>
-      <description>📝 Careers 💡Page not loading. Optery’s Career page uses Cookies to display the full page content. If you’re not seeing anything, try opening the cookie banner (cookie icon in the bottom left corner) and Accept Personalization cookies.
+      <title>Thousands of U.S. farmers have Parkinson's. They blame a deadly pesticide</title>
+      <link>https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</link>
+      <description>📝 farmers have Parkinson’s. It's the subject of thousands of lawsuits claiming it’s linked to Parkinson’s disease. Syngenta has emphasized there is no evidence that paraquat causes Parkinson’s disease.
 
-🔗 Read more: https://www.optery.com/careers/</description>
-      <guid isPermaLink="true">https://www.optery.com/careers/</guid>
-      <pubDate>Mon, 15 Dec 2025 12:00:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273372</comments>
+🔗 Read more: https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</description>
+      <guid isPermaLink="true">https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</guid>
+      <pubDate>Mon, 15 Dec 2025 14:37:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46275079</comments>
+    </item>
+    <item>
+      <title>Largest U.S. recycling project to extend landfill life for Virginia residents</title>
+      <link>https://ampsortation.com/articles/largest-us-recycling-project-spsa</link>
+      <description>📝 SPSA’s own waste characterization study found high rates of recyclables, mainly plastics and metals, in the Hampton Roads waste stream—even in communities with curbside recycling. AMP designs, builds, and operates advanced, cost-competitive facilities to process single-stream recycling and municipal solid waste. With three full-scale facilities and more than 400 AI systems deployed across North America,.
+
+🔗 Read more: https://ampsortation.com/articles/largest-us-recycling-project-spsa</description>
+      <guid isPermaLink="true">https://ampsortation.com/articles/largest-us-recycling-project-spsa</guid>
+      <pubDate>Mon, 15 Dec 2025 11:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46273344</comments>
+    </item>
+    <item>
+      <title>MIT Missing Semester 2026</title>
+      <link>https://missing.csail.mit.edu/2026/</link>
+      <description>📝 2026 Lectures · Missing Semester 2026 Lectures 1/12: Course Overview + Introduction to the Shell 1/13: Command-line Environment 1/14: Development Environment and Tools 1/15: Debugging and Profiling 1/16: Version Control (Git) 1/20: Packaging and Shipping Code 1/21: Code Quality and Continuous Integration 1/22: Beyond the Code 1/23: Q&amp;A.
+
+🔗 Read more: https://missing.csail.mit.edu/2026/</description>
+      <guid isPermaLink="true">https://missing.csail.mit.edu/2026/</guid>
+      <pubDate>Mon, 15 Dec 2025 12:45:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46273762</comments>
     </item>
   </channel>
 </rss>

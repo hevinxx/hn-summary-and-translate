@@ -6,41 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 15 Dec 2025 12:46:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 15:26:23 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我是肯尼亚人。我不像 ChatGPT 那样写作。 ChatGPT 像我一样写作</title>
-      <link>https://marcusolang.substack.com/p/im-kenyan-i-dont-write-like-chatgpt</link>
-      <guid isPermaLink="true">https://marcusolang.substack.com/p/im-kenyan-i-dont-write-like-chatgpt</guid>
-      <pubDate>Mon, 15 Dec 2025 12:12:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273466</comments>
+      <title>NES 版《Top Gun》中的航母登陆</title>
+      <link>https://relaxing.run/blag/posts/top-gun-landing/</link>
+      <description>📝 MFD 上显示“200 / 速度 288” 文本。高度和速度均由油门输入和俯仰角度控制。这是我为那些在家中关注的人提供的带注释的反汇编：landing_skill_check: 06:B6EA: LDA $3E ; 加载高度 High cent 06:B6EC: BEQ $B724 ; 如果 High cent == 0 (高度 &lt; 100) 06:B6EE: CMP 则分支#$03 06:B6F0: BCS $B720 ; 如果高分 &gt;= 3 (高度 &gt;= 300) 则转移 06:B6F2: LDA $41 06:B6F4: CMP #$04 06:B6F6: BCS $B720 ; 如果高分 &gt;= 04 (速度 &gt;= 400) 则转移 06:B6F8: CMP #$02 06:B6FA: BCC $B724 ; 如果高分 &lt; 02 (速度 &lt; 200) 则转移 06:B6FC: BEQ $B706 ; 如果高分 == 02 (速度 &gt;= 200 &amp;&amp; 速度 &lt;= 299) 则转移 speed_300s: 06:B6FE: LDA $40 ; 加载速度低分 06:B700: CMP #$38 06:B702: BCS $B720 ; 如果低分 &gt;= 38 (速度 &gt;= 338) 则转移 06:B704: BCC $B70C ; 如果低分 &lt; 38 (速度 &lt; 338) 则转移 speed_200s: 06:B706: LDA $40 06:B708: CMP #$38 06:B70A: BCC $B724 ; 如果速度 &lt; 238 speed_ok: 06:B70C: LDA $FD ; 加载航向 06:B70E: BMI $B718 ; 如果航向 &lt; 0 (太左) 则分支 06:B710: CMP #$08 06:B712: BCS $B71C ; 如果航向 &gt;= 8 (太右) 06:B714: LDX #$00 ; 0 == success 06:B716: BEQ $B726 ; 分支返回too_far_left: 06:B718: LDX #$02 06:B71A: BNE $B726 Too_far_right: 06:B71C: LDX #$04 06:B71E: BNE $B726 Too_fast_or_too_high: 06:B720: LDX #$08 06:B722: BNE $B726 Too_slow_or_too_low: 06:B724: LDX #$04 return: 06:B726: STX $9E 06:B728: RTS 现在出去，然后抓住第三根电线。
+
+
+🔤 Original: Carrier Landing in Top Gun for the NES
+
+🔗 Read more: https://relaxing.run/blag/posts/top-gun-landing/</description>
+      <guid isPermaLink="true">https://relaxing.run/blag/posts/top-gun-landing/</guid>
+      <pubDate>Mon, 15 Dec 2025 14:16:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46274822</comments>
     </item>
     <item>
-      <title>避免使用 UUIDv4 主键</title>
-      <link>https://andyatkinson.com/avoid-uuid-version-4-primary-keys</link>
-      <description>📝 UUID v4 的核心问题是什么？ UUID 有哪些用例。 UUID 还可以识别值后来来自的数据库，而不是后来的数据库。
+      <title>OpenAI 似乎正在抓取 [证书透明度] 日志</title>
+      <link>https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</link>
+      <description>📝 176μs“statuscode=404 proto=http/2。182：38242 tlsinfo=tls1.com/searchbot”referrr=size=19 cid=19b14416d95。
 
 
-🔤 Original: Avoid UUIDv4 Primary Keys
+🔤 Original: It seems that OpenAI is scraping [certificate transparency] logs
 
-🔗 Read more: https://andyatkinson.com/avoid-uuid-version-4-primary-keys</description>
-      <guid isPermaLink="true">https://andyatkinson.com/avoid-uuid-version-4-primary-keys</guid>
-      <pubDate>Mon, 15 Dec 2025 10:08:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46272487</comments>
+🔗 Read more: https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</description>
+      <guid isPermaLink="true">https://benjojo.co.uk/u/benjojo/h/Gxy2qrCkn1Y327Y6D3</guid>
+      <pubDate>Mon, 15 Dec 2025 13:48:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46274478</comments>
     </item>
     <item>
-      <title>Optery (YC W22) 招聘 CISO、发布经理、技术主管（节点）、全栈工程师</title>
-      <link>https://www.optery.com/careers/</link>
-      <description>📝 职业💡页面未加载。 Optery 的职业页面使用 Cookie 来显示整页内容。如果您没有看到任何内容，请尝试打开 Cookie 横幅（左下角的 Cookie 图标）并接受个性化 Cookie。
+      <title>成千上万的美国农民患有帕金森氏症。他们归咎于致命的农药</title>
+      <link>https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</link>
+      <description>📝 农民患有帕金森氏症。这是数千起诉讼的主题，声称它与帕金森病有关。先正达强调，没有证据表明百草枯会导致帕金森病。
 
 
-🔤 Original: Optery (YC W22) Hiring CISO, Release Manager, Tech Lead (Node), Full Stack Eng
+🔤 Original: Thousands of U.S. farmers have Parkinson's. They blame a deadly pesticide
 
-🔗 Read more: https://www.optery.com/careers/</description>
-      <guid isPermaLink="true">https://www.optery.com/careers/</guid>
-      <pubDate>Mon, 15 Dec 2025 12:00:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46273372</comments>
+🔗 Read more: https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</description>
+      <guid isPermaLink="true">https://www.mlive.com/news/2025/12/thousands-of-us-farmers-have-parkinsons-they-blame-a-deadly-pesticide.html</guid>
+      <pubDate>Mon, 15 Dec 2025 14:37:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46275079</comments>
+    </item>
+    <item>
+      <title>美国最大的回收项目，旨在延长弗吉尼亚州居民垃圾填埋场的寿命</title>
+      <link>https://ampsortation.com/articles/largest-us-recycling-project-spsa</link>
+      <description>📝 SPSA 自己的废物特征研究发现，汉普顿路废物流中的可回收物（主要是塑料和金属）比例很高，即使在有路边回收的社区也是如此。 AMP 设计、建造和运营先进的、具有成本竞争力的设施来处理单流回收和城市固体废物。在北美地区部署了三个全面的设施和 400 多个人工智能系统。
+
+
+🔤 Original: Largest U.S. recycling project to extend landfill life for Virginia residents
+
+🔗 Read more: https://ampsortation.com/articles/largest-us-recycling-project-spsa</description>
+      <guid isPermaLink="true">https://ampsortation.com/articles/largest-us-recycling-project-spsa</guid>
+      <pubDate>Mon, 15 Dec 2025 11:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46273344</comments>
+    </item>
+    <item>
+      <title>麻省理工学院缺席 2026 年学期</title>
+      <link>https://missing.csail.mit.edu/2026/</link>
+      <description>📝 2026 年讲座·缺课 2026 年讲座 1/12：课程概述 + Shell 简介 1/13：命令行环境 1/14：开发环境和工具 1/15：调试和分析 1/16：版本控制 (Git) 1/20：打包和运输代码 1/21：代码质量和持续集成 1/22：超越代码 1/23：问答。
+
+
+🔤 Original: MIT Missing Semester 2026
+
+🔗 Read more: https://missing.csail.mit.edu/2026/</description>
+      <guid isPermaLink="true">https://missing.csail.mit.edu/2026/</guid>
+      <pubDate>Mon, 15 Dec 2025 12:45:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46273762</comments>
     </item>
   </channel>
 </rss>
