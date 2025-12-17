@@ -6,113 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Dec 2025 21:22:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 01:29:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>グラフィック API なし</title>
-      <link>https://www.sebastianaaltonen.com/blog/no-graphics-api</link>
-      <description>📝 私は 30 年間グラフィック コードを書いてきました。低レベル グラフィックス API が業界を変える10 年前、新しい低レベル PC グラフィックス API の導入により、リアルタイム コンピュータ グラフィックスに大きな変化が起こりました。当時の PC グラフィックス API、DirectX 11 と OpenGL 4。
+      <title>AI により形式的検証が主流になる</title>
+      <link>https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html</link>
+      <description>📝 そしてそれが実現すると、正式な検証の経済性は完全に変わってしまいます。それは、ソフトウェアに突然バグがなくなるという意味ではありません。 AI が生成したコードは、人間によるレビューを省略しても機能することを確認できるように、正式な検証が必要です。 3.
 
 
-🔤 Original: No Graphics API
+🔤 Original: AI will make formal verification go mainstream
 
-🔗 Read more: https://www.sebastianaaltonen.com/blog/no-graphics-api</description>
-      <guid isPermaLink="true">https://www.sebastianaaltonen.com/blog/no-graphics-api</guid>
-      <pubDate>Tue, 16 Dec 2025 19:20:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46293062</comments>
+🔗 Read more: https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html</description>
+      <guid isPermaLink="true">https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html</guid>
+      <pubDate>Tue, 16 Dec 2025 21:14:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46294574</comments>
     </item>
     <item>
-      <title>GPT イメージ 1.5</title>
-      <link>https://openai.com/index/new-chatgpt-images-is-here/</link>
-      <guid isPermaLink="true">https://openai.com/index/new-chatgpt-images-is-here/</guid>
-      <pubDate>Tue, 16 Dec 2025 18:07:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46291941</comments>
+      <title>ty のベータ版リリースの発表</title>
+      <link>https://astral.sh/blog/ty</link>
+      <description>📝 本日、Astral ツールチェーンの次のツールである ty のベータ リリースを発表します。ty は、Rust で書かれた非常に高速な Python 型チェッカーおよび言語サーバーです。 ty のインクリメンタル アーキテクチャは、ライブ アップデートを非常に高速に実行できるように設計されています。 ) であり、言語サーバー プロトコルを実装する任意のエディターで実行されます。
+
+
+🔤 Original: Announcing the Beta release of ty
+
+🔗 Read more: https://astral.sh/blog/ty</description>
+      <guid isPermaLink="true">https://astral.sh/blog/ty</guid>
+      <pubDate>Tue, 16 Dec 2025 20:52:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46294289</comments>
     </item>
     <item>
-      <title>薄い欲望が命を蝕む</title>
-      <link>https://www.joanwestenberg.com/thin-desires-are-eating-your-life/</link>
-      <description>📝 薄い願望とは、そうでない願望です。厚い欲望は不便です。決してスケールせず、決して収益化せず、決してユーザーを引きつけないものを構築してください。
+      <title>Codex CLI と GPT-5.2 を使用して、数時間で JustHTML を Python から JavaScript に移植しました</title>
+      <link>https://simonwillison.net/2025/Dec/15/porting-justhtml/</link>
+      <description>📝 最近の記事 JustHTML は、実際に動作しているバイブ エンジニアリングの魅力的な例です - 2025 年 12 月 14 日 OpenAI は静かにスキルを採用しており、ChatGPT と Codex CLI で利用可能になりました - 2025 年 12 月 12 日
 
 
-🔤 Original: Thin desires are eating life
+🔤 Original: I ported JustHTML from Python to JavaScript with Codex CLI and GPT-5.2 in hours
 
-🔗 Read more: https://www.joanwestenberg.com/thin-desires-are-eating-your-life/</description>
-      <guid isPermaLink="true">https://www.joanwestenberg.com/thin-desires-are-eating-your-life/</guid>
-      <pubDate>Tue, 16 Dec 2025 00:50:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46283276</comments>
+🔗 Read more: https://simonwillison.net/2025/Dec/15/porting-justhtml/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2025/Dec/15/porting-justhtml/</guid>
+      <pubDate>Tue, 16 Dec 2025 22:48:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46295771</comments>
     </item>
     <item>
-      <title>Qt、QML、Rust を使用して露骨な Telegram クローンを作成します。そしてC++</title>
-      <link>https://kemble.net/blog/provoke/</link>
-      <description>📝 それは後で役立つかもしれません。 qmetaobject-rs cxx-qt 他にも、その上にアプリを構築するにはあまり良くないと思われるものがいくつかあります。皆さん、ごめんなさい。 Svelteを何年も使ってきた私はこれに我慢できません。
+      <title>Sei AI (YC W22) が採用中です</title>
+      <link>https://www.ycombinator.com/companies/sei/jobs/TYbKqi0-llm-engineer-mid-senior</link>
+      <description>📝 継続的な 360 度フィードバック: 全員が、創設者を含む他の全員と建設的で重要なフィードバックを共有することが期待されます。製品志向: 全員が製品の所有権を共有しているため、全員が顧客への働きかけ、サポート、顧客との会話に参加してフィードバックを収集し、新機能を特定することを期待しています。最近読んだオープンソースの貢献/サイドプロジェクト/ブログ投稿。
 
 
-🔤 Original: Writing a blatant Telegram clone using Qt, QML and Rust. And C++
+🔤 Original: Sei AI (YC W22) Is Hiring
 
-🔗 Read more: https://kemble.net/blog/provoke/</description>
-      <guid isPermaLink="true">https://kemble.net/blog/provoke/</guid>
-      <pubDate>Tue, 16 Dec 2025 15:41:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46289918</comments>
+🔗 Read more: https://www.ycombinator.com/companies/sei/jobs/TYbKqi0-llm-engineer-mid-senior</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/sei/jobs/TYbKqi0-llm-engineer-mid-senior</guid>
+      <pubDate>Wed, 17 Dec 2025 01:00:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46296926</comments>
     </item>
     <item>
-      <title>世界幸福度報告書には方法論的な問題がつきまとっている</title>
-      <link>https://yaschamounk.substack.com/p/the-world-happiness-report-is-a-sham</link>
-      <guid isPermaLink="true">https://yaschamounk.substack.com/p/the-world-happiness-report-is-a-sham</guid>
-      <pubDate>Tue, 16 Dec 2025 00:06:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46282874</comments>
+      <title>ここに AI* はありません – Mozilla の次の章への応答</title>
+      <link>https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/</link>
+      <description>📝 彼らがあなたのデータをどのように扱うのかを正確に理解することはできません。ブラウザとは何のためにあるのか。 Waterfox が代わりに提供するもの Waterfox が存在するのは、一部のユーザーが単にブラウザとして機能するブラウザを望んでいるからです。
+
+
+🔤 Original: No AI* Here – A Response to Mozilla's Next Chapter
+
+🔗 Read more: https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/</description>
+      <guid isPermaLink="true">https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/</guid>
+      <pubDate>Tue, 16 Dec 2025 22:07:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46295268</comments>
     </item>
     <item>
-      <title>幅ゼロのジョイナーを使用したカスタムの黄色の握手絵文字の作成</title>
-      <link>https://blog.alexbeals.com/posts/custom-yellow-handshake-emojis-with-zero-width-joiners</link>
-      <description>📝 ただし、これらの握手の絵文字は似ていますが、1 あなたにとってこれらが似ているかどうかはわかりません。 7 残念ながら、これらの絵文字は、iOS/macOS では大きな単一メッセージとして表示されません。 ↩︎ 残念ながら、これらの絵文字は iOS/macOS では大きな単一メッセージを表示しません。
+      <title>Dafny: 検証を意識したプログラミング言語</title>
+      <link>https://dafny.org/</link>
+      <description>📝 Dafny は、洗練された自動推論と使い慣れたプログラミング イディオムやツールを融合することで、開発者が正しいと証明できるコードを作成できるようにします (w. また、Dafny コードを C#、Java、JavaScript、Go、Python (さらに追加予定) などの使い慣れた開発環境にコンパイルするため、Dafny は既存のワークフローと統合できます。Dafny は Visual Studio Code で実行されます。
 
 
-🔤 Original: Creating custom yellow handshake emojis with zero-width joiners
+🔤 Original: Dafny: Verification-Aware Programming Language
 
-🔗 Read more: https://blog.alexbeals.com/posts/custom-yellow-handshake-emojis-with-zero-width-joiners</description>
-      <guid isPermaLink="true">https://blog.alexbeals.com/posts/custom-yellow-handshake-emojis-with-zero-width-joiners</guid>
-      <pubDate>Tue, 16 Dec 2025 00:25:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46283052</comments>
+🔗 Read more: https://dafny.org/</description>
+      <guid isPermaLink="true">https://dafny.org/</guid>
+      <pubDate>Tue, 16 Dec 2025 22:50:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46295792</comments>
     </item>
     <item>
-      <title>日本、70年ぶりにローマ字表記ルールを改定へ</title>
-      <link>https://www.japantimes.co.jp/news/2025/08/21/japan/panel-hepburn-style-romanization/</link>
-      <description>📝 日本 日本、ローマ字表記ルールを70年ぶりに改定へ 文化庁は、政府が長年導入してきた訓令体系を、より広く使われているヘボン式綴りに置き換えることを推奨している。同庁は、政府の長年にわたる訓令システムを、より広く使用されているヘボン式綴りに置き換えることを推奨している。翻訳：The Japan Times KEYWORDS 文化庁(https://www.
+      <title>Chat-tails: Tailscale に基づいて構築された、昔ながらのターミナル チャット</title>
+      <link>https://tailscale.com/blog/chat-tails-terminal-chat</link>
+      <description>📝 彼のチャットのインスピレーション (チャットのインスピレーション。しかし、ターミナルベースのチャット アプリの場合、それは実際には単なる TCP と UDP であり、実際に扱っているのは単純な接続だけです。Tailscale を使用して、きちんとしたものを構築しました。
 
 
-🔤 Original: Japan to revise romanization rules for first time in 70 years
+🔤 Original: Chat-tails: Throwback terminal chat, built on Tailscale
 
-🔗 Read more: https://www.japantimes.co.jp/news/2025/08/21/japan/panel-hepburn-style-romanization/</description>
-      <guid isPermaLink="true">https://www.japantimes.co.jp/news/2025/08/21/japan/panel-hepburn-style-romanization/</guid>
-      <pubDate>Tue, 16 Dec 2025 08:54:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46286292</comments>
+🔗 Read more: https://tailscale.com/blog/chat-tails-terminal-chat</description>
+      <guid isPermaLink="true">https://tailscale.com/blog/chat-tails-terminal-chat</guid>
+      <pubDate>Tue, 16 Dec 2025 21:16:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46294592</comments>
     </item>
     <item>
-      <title>バイブコーディングは疲労を引き起こす?</title>
-      <link>https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue</link>
-      <description>📝 これにより、脳に何が起こっているかを処理する時間が与えられます。コーディングではコンテキストの切り替えに制限があります。これには時間とエネルギーがかかります。
+      <title>Show HN: TheAuditor v2.0 – AI コーディング エージェント用の「フライト コンピューター」</title>
+      <link>https://github.com/TheAuditorTool/Auditor</link>
+      <description>📝 TheAuditor データベースファーストの静的分析とコード コンテキスト インテリジェンス Python、JavaScript/TypeScript、Go、Rust、Bash、Terraform/HCL プロジェクトの厳密なデータ忠実性保証を備えた多言語セキュリティ分析プラットフォーム 🔒 プライバシー第一: すべてのコード分析はローカルで実行されます。ソースコードがマシンから離れることはありません。 TypeScript コンパイラーは、IDE と同じセマンティック分析を提供します。
 
 
-🔤 Original: Vibe coding creates fatigue?
+🔤 Original: Show HN: TheAuditor v2.0 – A ”Flight Computer“ for AI Coding Agents
 
-🔗 Read more: https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue</description>
-      <guid isPermaLink="true">https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue</guid>
-      <pubDate>Tue, 16 Dec 2025 18:32:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46292365</comments>
+🔗 Read more: https://github.com/TheAuditorTool/Auditor</description>
+      <guid isPermaLink="true">https://github.com/TheAuditorTool/Auditor</guid>
+      <pubDate>Tue, 16 Dec 2025 13:50:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46288453</comments>
     </item>
     <item>
-      <title>Liskell – Lisp 構文を使用した Haskell セマンティクス [pdf]</title>
-      <link>http://clemens.endorphin.org/ILC07-Liskell-draft.pdf</link>
-      <description>📝 2) &gt;&gt; endobj 28 0 obj (式) endobj 29 0 obj &lt;&lt; /S /GoTo /D (サブセクション 3) &gt;&gt; endobj 32 0 obj (パターン) endobj 33 0 obj &lt;&lt; /S /GoTo /D (サブセクション 2) &gt;&gt; endobj 64 0 obj (定義) endobj 65 0 obj &lt;&lt; /S /GoTo /D (サブセクション。
+      <title>マサチューセッツ州の自宅で銃撃されたMIT教授死亡</title>
+      <link>https://www.bbc.com/news/articles/cly08y25688o</link>
+      <description>📝 ロウレイロ氏は2016年にMITの教員に加わり、2024年にMITのプラズマ科学・核融合センターの所長に任命された。MITの物理学科長ディープト・チャクラバーティ氏も同様の意見で、ロウレイロ氏はプラズマ物理学の擁護者であり、彼の最近の研究は「特に刺激的な新しい科学の方向性」であると述べた。訂正 12 月 16 日: この記事の以前のバージョンでは、ロウレイロ教授が研究したプラズマの種類が誤って定義されていました。
 
 
-🔤 Original: Liskell – Haskell Semantics with Lisp Syntax [pdf]
+🔤 Original: MIT professor shot at his Massachusetts home dies
 
-🔗 Read more: http://clemens.endorphin.org/ILC07-Liskell-draft.pdf</description>
-      <guid isPermaLink="true">http://clemens.endorphin.org/ILC07-Liskell-draft.pdf</guid>
-      <pubDate>Mon, 15 Dec 2025 21:41:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46281119</comments>
+🔗 Read more: https://www.bbc.com/news/articles/cly08y25688o</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/cly08y25688o</guid>
+      <pubDate>Tue, 16 Dec 2025 21:52:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46295071</comments>
+    </item>
+    <item>
+      <title>レッタコード</title>
+      <link>https://www.letta.com/blog/letta-code</link>
+      <description>📝 2025/07/07エージェント メモリ: 学習して記憶するエージェントを構築する方法従来の LLM はステートレス パラダイムで動作します。つまり、各対話は分離して存在し、以前の会話から引き継がれた知識はありません。エージェントのメモリはこの問題を解決します。
+
+
+🔤 Original: Letta Code
+
+🔗 Read more: https://www.letta.com/blog/letta-code</description>
+      <guid isPermaLink="true">https://www.letta.com/blog/letta-code</guid>
+      <pubDate>Tue, 16 Dec 2025 20:51:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46294274</comments>
+    </item>
+    <item>
+      <title>WikiFlix は 100 年前の Netflix がどのようになっていたかを示しています</title>
+      <link>https://wikiflix.toolforge.org/#/</link>
+      <guid isPermaLink="true">https://wikiflix.toolforge.org/#/</guid>
+      <pubDate>Wed, 17 Dec 2025 00:20:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46296627</comments>
     </item>
   </channel>
 </rss>
