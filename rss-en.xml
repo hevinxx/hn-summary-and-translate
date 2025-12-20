@@ -6,38 +6,65 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Dec 2025 15:20:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 18:28:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Immersa: Open-source Web-based 3D Presentation Tool</title>
-      <link>https://github.com/ertugrulcetin/immersa</link>
-      <description>📝 This file contains all slide data and can be loaded later. cljs # Scene initialization │ │ └── slide. edn # Build configuration Data Storage All data is stored locally in your browser using IndexedDB: Presentations: Slide data and structure Thumbnails: Slide preview images Files: Uploaded images and 3D models Data persists across sessions.
+      <title>Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates</title>
+      <link>https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</link>
+      <description>📝 This also allowed me to dump out simulated frames to create the above video. I would later use this SDL VGA verilator testbench for the other projects. This design ended up using 3374 total cells (breakdown of cell use and 3D viewer here) and filling just about every square nanometer.
 
-🔗 Read more: https://github.com/ertugrulcetin/immersa</description>
-      <guid isPermaLink="true">https://github.com/ertugrulcetin/immersa</guid>
-      <pubDate>Sat, 20 Dec 2025 13:38:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46336097</comments>
+🔗 Read more: https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</description>
+      <guid isPermaLink="true">https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</guid>
+      <pubDate>Sat, 20 Dec 2025 16:45:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337438</comments>
     </item>
     <item>
-      <title>Reflections on AI at the End of 2025</title>
-      <link>https://antirez.com/news/157</link>
-      <description>📝 It is likely that AGI can be reached independently with many radically different architectures. They say, because of CoT, LLMs are now a different thing. It is still the same architecture with the same next token target, and the CoT is created exactly like that, token after token.
+      <title>Go ahead, self-host Postgres</title>
+      <link>https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</link>
+      <description>📝 You had your application server and your database server, often on the same physical machine. Running your own database became associated with legacy thinking. It's the same Postgres running the same SQL queries with the same performance characteristics.
 
-🔗 Read more: https://antirez.com/news/157</description>
-      <guid isPermaLink="true">https://antirez.com/news/157</guid>
-      <pubDate>Sat, 20 Dec 2025 09:38:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46334819</comments>
+🔗 Read more: https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</description>
+      <guid isPermaLink="true">https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</guid>
+      <pubDate>Sat, 20 Dec 2025 15:43:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46336947</comments>
     </item>
     <item>
-      <title>TailwindSQL – Like TailwindCSS, but for SQL Queries in React Server Components</title>
-      <link>https://github.com/mmarinovic/tailwindsql</link>
-      <description>📝 TailwindSQL 🎨 Like TailwindCSS, but for SQL queries in React Server Components. TailwindSQL lets you write SQL queries using Tailwind-style class names. Just use className to query your database directly in React Server Components.
+      <title>OpenSCAD Is Kinda Neat</title>
+      <link>https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</link>
+      <description>📝 OpenSCAD Is Kinda Neat Published December 20, 2025 Designing a simple battery holder in OpenSCAD. (The first cube() draws the main box, then difference() subtracts the battery holes via the second cube() as their quantity and location (via translate()) is iterated. I don’t understand this…) While this probably won’t be very helpful for more complicated designs, I can see this being super useful for bearing drifts, spacers, and other similar simple (yet incredibly useful in real life) geometric shapes.
 
-🔗 Read more: https://github.com/mmarinovic/tailwindsql</description>
-      <guid isPermaLink="true">https://github.com/mmarinovic/tailwindsql</guid>
-      <pubDate>Sat, 20 Dec 2025 13:54:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46336213</comments>
+🔗 Read more: https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</description>
+      <guid isPermaLink="true">https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</guid>
+      <pubDate>Sat, 20 Dec 2025 17:45:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337984</comments>
+    </item>
+    <item>
+      <title>Depot (YC W23) Is Hiring an Enterprise Support Engineer (Remote/US)</title>
+      <link>https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</link>
+      <description>📝 Depot is a build acceleration and developer productivity platform that saves companies like PostHog, Wistia, Semgrep, and Secoda thousands of hours in build time every week. They slow down innovation. We help folks save literal years in build time every single week.
+
+🔗 Read more: https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</guid>
+      <pubDate>Sat, 20 Dec 2025 18:06:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46338156</comments>
+    </item>
+    <item>
+      <title>Show HN: Claude Code Plugin to play music when waiting on user input</title>
+      <link>https://github.com/Sevii/agent-marketplace/blob/main/plugins/elevator-music/README.md</link>
+      <guid isPermaLink="true">https://github.com/Sevii/agent-marketplace/blob/main/plugins/elevator-music/README.md</guid>
+      <pubDate>Sat, 20 Dec 2025 16:06:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337118</comments>
+    </item>
+    <item>
+      <title>Over 40% of Deceased Drivers in Vehicle Crashes Test Positive for THC: Study</title>
+      <link>https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</link>
+      <description>📝 Research News Over 40% of Deceased Drivers in Motor Vehicle Crashes Test Positive for THC, Study Shows Six-year analysis in a major Ohio county shows no change in THC positivity after legalization October 3, 2025 3 Min Print Share Bookmark.
+
+🔗 Read more: https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</description>
+      <guid isPermaLink="true">https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</guid>
+      <pubDate>Sat, 20 Dec 2025 16:07:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337123</comments>
     </item>
   </channel>
 </rss>

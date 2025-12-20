@@ -6,47 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Dec 2025 15:20:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 18:28:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Immersa: オープンソースの Web ベース 3D プレゼンテーション ツール</title>
-      <link>https://github.com/ertugrulcetin/immersa</link>
-      <description>📝 このファイルにはすべてのスライド データが含まれており、後でロードできます。 cljs # シーンの初期化 │ │ └─ スライド。 edn # ビルド構成 データ ストレージ すべてのデータは、IndexedDB を使用してブラウザにローカルに保存されます。 プレゼンテーション: スライド データと構造 サムネイル: スライド プレビュー画像 ファイル: アップロードされた画像と 3D モデル データはセッション間で保持されます。
+      <title>ピュア シリコン デモ コーディング: CPU、メモリなし、わずか 4k ゲート</title>
+      <link>https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</link>
+      <description>📝 これにより、シミュレートされたフレームをダンプして上記のビデオを作成することもできました。後でこの SDL VGA ベリレーター テストベンチを他のプロジェクトに使用することになります。この設計では、最終的に合計 3374 個のセル (セルの使用と 3D ビューアの内訳はここにあります) を使用し、ほぼすべての平方ナノメートルを埋めました。
 
 
-🔤 Original: Immersa: Open-source Web-based 3D Presentation Tool
+🔤 Original: Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates
 
-🔗 Read more: https://github.com/ertugrulcetin/immersa</description>
-      <guid isPermaLink="true">https://github.com/ertugrulcetin/immersa</guid>
-      <pubDate>Sat, 20 Dec 2025 13:38:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46336097</comments>
+🔗 Read more: https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</description>
+      <guid isPermaLink="true">https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</guid>
+      <pubDate>Sat, 20 Dec 2025 16:45:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337438</comments>
     </item>
     <item>
-      <title>2025 年末の AI について考える</title>
-      <link>https://antirez.com/news/157</link>
-      <description>📝 AGI は、多くの根本的に異なるアーキテクチャで独立して達成できる可能性があります。 CoT のせいで、LLM は別物になった、と彼らは言います。これは、同じ次のトークン ターゲットを持つ同じアーキテクチャであり、CoT はまったく同じようにトークンからトークンへと作成されます。
+      <title>さあ、セルフホスト Postgres</title>
+      <link>https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</link>
+      <description>📝 アプリケーション サーバーとデータベース サーバーは、多くの場合、同じ物理マシン上にありました。独自のデータベースを実行することは、従来の考え方と関連付けられるようになりました。これは、同じパフォーマンス特性を持つ同じ SQL クエリを実行する同じ Postgres です。
 
 
-🔤 Original: Reflections on AI at the End of 2025
+🔤 Original: Go ahead, self-host Postgres
 
-🔗 Read more: https://antirez.com/news/157</description>
-      <guid isPermaLink="true">https://antirez.com/news/157</guid>
-      <pubDate>Sat, 20 Dec 2025 09:38:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46334819</comments>
+🔗 Read more: https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</description>
+      <guid isPermaLink="true">https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</guid>
+      <pubDate>Sat, 20 Dec 2025 15:43:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46336947</comments>
     </item>
     <item>
-      <title>TailwindSQL – TailwindCSS と似ていますが、React サーバー コンポーネントの SQL クエリ用</title>
-      <link>https://github.com/mmarinovic/tailwindsql</link>
-      <description>📝 TailwindSQL 🎨 TailwindCSS に似ていますが、React Server コンポーネントの SQL クエリ用です。 TailwindSQL を使用すると、Tailwind スタイルのクラス名を使用して SQL クエリを作成できます。 className を使用して、React Server Components でデータベースを直接クエリするだけです。
+      <title>OpenSCAD はかなり優れています</title>
+      <link>https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</link>
+      <description>📝 OpenSCAD はとてもきちんとしています 2025 年 12 月 20 日公開 OpenSCAD でのシンプルなバッテリー ホルダーの設計。 (最初の cube() はメイン ボックスを描画し、次に相違点() は、数量と位置 (translate() 経由) が反復されるにつれて 2 番目の cube() 経由でバッテリー ホールを減算します。これは理解できません…) これはおそらく、より複雑な設計にはあまり役に立ちませんが、ベアリング ドリフト、スペーサー、およびその他の同様の単純な (それでも実生活では信じられないほど便利な) 幾何学的形状には非常に便利であることがわかります。
 
 
-🔤 Original: TailwindSQL – Like TailwindCSS, but for SQL Queries in React Server Components
+🔤 Original: OpenSCAD Is Kinda Neat
 
-🔗 Read more: https://github.com/mmarinovic/tailwindsql</description>
-      <guid isPermaLink="true">https://github.com/mmarinovic/tailwindsql</guid>
-      <pubDate>Sat, 20 Dec 2025 13:54:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46336213</comments>
+🔗 Read more: https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</description>
+      <guid isPermaLink="true">https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</guid>
+      <pubDate>Sat, 20 Dec 2025 17:45:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337984</comments>
+    </item>
+    <item>
+      <title>デポ (YC W23) がエンタープライズ サポート エンジニア (リモート/米国) を募集しています</title>
+      <link>https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</link>
+      <description>📝 Depot は、PostHog、Wistia、Semgrep、Secoda などの企業が毎週何千時間ものビルド時間を節約するビルド アクセラレーションおよび開発者の生産性プラットフォームです。それらはイノベーションを遅らせます。私たちは人々が毎週ビルド時間を文字通り何年も節約できるよう支援します。
+
+
+🔤 Original: Depot (YC W23) Is Hiring an Enterprise Support Engineer (Remote/US)
+
+🔗 Read more: https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</guid>
+      <pubDate>Sat, 20 Dec 2025 18:06:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46338156</comments>
+    </item>
+    <item>
+      <title>HN を表示: ユーザー入力を待っているときに音楽を再生するための Claude Code プラグイン</title>
+      <link>https://github.com/Sevii/agent-marketplace/blob/main/plugins/elevator-music/README.md</link>
+      <guid isPermaLink="true">https://github.com/Sevii/agent-marketplace/blob/main/plugins/elevator-music/README.md</guid>
+      <pubDate>Sat, 20 Dec 2025 16:06:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337118</comments>
+    </item>
+    <item>
+      <title>自動車事故で死亡したドライバーの40％以上がTHC陽性反応：研究</title>
+      <link>https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</link>
+      <description>📝 研究ニュース 自動車事故で死亡したドライバーの40％以上がTHC検査で陽性反応、研究でオハイオ州の主要郡での6年間の分析で合法化後もTHC陽性率に変化がないことが判明 2025年10月3日 3分 印刷 シェア ブックマーク。
+
+
+🔤 Original: Over 40% of Deceased Drivers in Vehicle Crashes Test Positive for THC: Study
+
+🔗 Read more: https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</description>
+      <guid isPermaLink="true">https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</guid>
+      <pubDate>Sat, 20 Dec 2025 16:07:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337123</comments>
     </item>
   </channel>
 </rss>

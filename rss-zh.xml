@@ -6,44 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 20 Dec 2025 15:20:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 18:28:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Immersa：基于 Web 的开源 3D 演示工具</title>
-      <link>https://github.com/ertugrulcetin/immersa</link>
-      <description>📝 该文件包含所有幻灯片数据，可以稍后加载。 cljs # 场景初始化 │ │ └── slip. edn # 构建配置 数据存储 所有数据都使用 IndexedDB 本地存储在浏览器中： 演示文稿：幻灯片数据和结构 缩略图：幻灯片预览图像 文件：上传的图像和 3D 模型 数据在会话中保留。
+      <title>纯硅演示编码：没有 CPU，没有内存，只有 4k 门</title>
+      <link>https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</link>
+      <description>📝 这也使我能够转储模拟帧来创建上述视频。我稍后会将这个 SDL VGA verilator 测试平台用于其他项目。该设计最终总共使用了 3374 个单元（此处为单元使用细目和 3D 查看器），并且几乎填充了每平方纳米。
 
 
-🔤 Original: Immersa: Open-source Web-based 3D Presentation Tool
+🔤 Original: Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates
 
-🔗 Read more: https://github.com/ertugrulcetin/immersa</description>
-      <guid isPermaLink="true">https://github.com/ertugrulcetin/immersa</guid>
-      <pubDate>Sat, 20 Dec 2025 13:38:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46336097</comments>
+🔗 Read more: https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</description>
+      <guid isPermaLink="true">https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html</guid>
+      <pubDate>Sat, 20 Dec 2025 16:45:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337438</comments>
     </item>
     <item>
-      <title>Reflections on AI at the End of 2025</title>
-      <link>https://antirez.com/news/157</link>
-      <description>📝 AGI 很可能可以通过许多完全不同的架构独立实现。他们说，由于 CoT，法学硕士现在是另一回事了。它仍然是相同的架构，具有相同的下一个令牌目标，并且 CoT 的创建与此完全相同，一个又一个令牌。
+      <title>来吧，自托管 Postgres</title>
+      <link>https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</link>
+      <description>📝 您的应用程序服务器和数据库服务器通常位于同一台物理计算机上。运行自己的数据库与传统思维联系在一起。它是相同的 Postgres，运行具有相同性能特征的相同 SQL 查询。
 
-🔗 Read more: https://antirez.com/news/157</description>
-      <guid isPermaLink="true">https://antirez.com/news/157</guid>
-      <pubDate>Sat, 20 Dec 2025 09:38:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46334819</comments>
+
+🔤 Original: Go ahead, self-host Postgres
+
+🔗 Read more: https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</description>
+      <guid isPermaLink="true">https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1</guid>
+      <pubDate>Sat, 20 Dec 2025 15:43:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46336947</comments>
     </item>
     <item>
-      <title>TailwindSQL – 与 TailwindCSS 类似，但用于 React 服务器组件中的 SQL 查询</title>
-      <link>https://github.com/mmarinovic/tailwindsql</link>
-      <description>📝 TailwindSQL 🎨 与 TailwindCSS 类似，但用于 React Server 组件中的 SQL 查询。 TailwindSQL 允许您使用 Tailwind 样式的类名编写 SQL 查询。只需使用 className 直接在 React Server Components 中查询数据库即可。
+      <title>OpenSCAD 有点简洁</title>
+      <link>https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</link>
+      <description>📝 OpenSCAD 有点简洁 2025 年 12 月 20 日发布 在 OpenSCAD 中设计一个简单的电池座。 （第一个cube()绘制主框，然后difference()通过第二个cube()减去电池孔，因为它们的数量和位置（通过translate()）被迭代。我不明白这一点……）虽然这对于更复杂的设计可能没有多大帮助，但我可以看到这对于轴承漂移，垫片和其他类似的简单（但在现实生活中非常有用）几何形状非常有用。
 
 
-🔤 Original: TailwindSQL – Like TailwindCSS, but for SQL Queries in React Server Components
+🔤 Original: OpenSCAD Is Kinda Neat
 
-🔗 Read more: https://github.com/mmarinovic/tailwindsql</description>
-      <guid isPermaLink="true">https://github.com/mmarinovic/tailwindsql</guid>
-      <pubDate>Sat, 20 Dec 2025 13:54:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46336213</comments>
+🔗 Read more: https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</description>
+      <guid isPermaLink="true">https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/</guid>
+      <pubDate>Sat, 20 Dec 2025 17:45:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337984</comments>
+    </item>
+    <item>
+      <title>Depot (YC W23) 正在招聘一名企业支持工程师（远程/美国）</title>
+      <link>https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</link>
+      <description>📝 Depot 是一个构建加速和开发人员生产力平台，每周可为 PostHog、Wistia、Semgrep 和 Secoda 等公司节省数千小时的构建时间。他们放慢了创新速度。我们每周都会帮助人们节省数年的构建时间。
+
+
+🔤 Original: Depot (YC W23) Is Hiring an Enterprise Support Engineer (Remote/US)
+
+🔗 Read more: https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer</guid>
+      <pubDate>Sat, 20 Dec 2025 18:06:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46338156</comments>
+    </item>
+    <item>
+      <title>显示 HN：克劳德代码插件，在等待用户输入时播放音乐</title>
+      <link>https://github.com/Sevii/agent-marketplace/blob/main/plugins/elevator-music/README.md</link>
+      <guid isPermaLink="true">https://github.com/Sevii/agent-marketplace/blob/main/plugins/elevator-music/README.md</guid>
+      <pubDate>Sat, 20 Dec 2025 16:06:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337118</comments>
+    </item>
+    <item>
+      <title>研究显示，超过 40% 的车祸死亡驾驶员 THC 检测呈阳性</title>
+      <link>https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</link>
+      <description>📝 研究新闻 研究显示，超过 40% 的机动车碰撞事故死亡驾驶员 THC 检测呈阳性，研究显示，俄亥俄州一个主要县的六年分析显示，合法化后 THC 阳性率没有变化 2025 年 10 月 3 日 3 分钟 打印 分享书签。
+
+
+🔤 Original: Over 40% of Deceased Drivers in Vehicle Crashes Test Positive for THC: Study
+
+🔗 Read more: https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</description>
+      <guid isPermaLink="true">https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/</guid>
+      <pubDate>Sat, 20 Dec 2025 16:07:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46337123</comments>
     </item>
   </channel>
 </rss>
