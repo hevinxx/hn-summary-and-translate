@@ -6,60 +6,44 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 20 Dec 2025 12:39:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 15:20:17 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>SSD 数据库是什么样的？</title>
-      <link>https://brooker.co.za/blog/2025/12/15/database-for-ssd.html</link>
-      <description>📝 自从 Postgres 等数据库首次设计以来，出现的不仅仅是 SSD。如果在下次预期重复使用之前保留它更便宜，那么您应该保留更多。如果从存储中重新加载比保留更便宜，那么您应该保留较少的1。
+      <title>Immersa：基于 Web 的开源 3D 演示工具</title>
+      <link>https://github.com/ertugrulcetin/immersa</link>
+      <description>📝 该文件包含所有幻灯片数据，可以稍后加载。 cljs # 场景初始化 │ │ └── slip. edn # 构建配置 数据存储 所有数据都使用 IndexedDB 本地存储在浏览器中： 演示文稿：幻灯片数据和结构 缩略图：幻灯片预览图像 文件：上传的图像和 3D 模型 数据在会话中保留。
 
 
-🔤 Original: What Does a Database for SSDs Look Like?
+🔤 Original: Immersa: Open-source Web-based 3D Presentation Tool
 
-🔗 Read more: https://brooker.co.za/blog/2025/12/15/database-for-ssd.html</description>
-      <guid isPermaLink="true">https://brooker.co.za/blog/2025/12/15/database-for-ssd.html</guid>
-      <pubDate>Sat, 20 Dec 2025 10:13:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46334990</comments>
+🔗 Read more: https://github.com/ertugrulcetin/immersa</description>
+      <guid isPermaLink="true">https://github.com/ertugrulcetin/immersa</guid>
+      <pubDate>Sat, 20 Dec 2025 13:38:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46336097</comments>
     </item>
     <item>
-      <title>技能正式进入 Codex</title>
-      <link>https://developers.openai.com/codex/skills/</link>
-      <description>📝 在哪里保存技能 Codex 从这些位置加载技能。 SYSTEM与 Codex 捆绑在一起。 Codex 技能建立在特工技能规范之上。
+      <title>Reflections on AI at the End of 2025</title>
+      <link>https://antirez.com/news/157</link>
+      <description>📝 AGI 很可能可以通过许多完全不同的架构独立实现。他们说，由于 CoT，法学硕士现在是另一回事了。它仍然是相同的架构，具有相同的下一个令牌目标，并且 CoT 的创建与此完全相同，一个又一个令牌。
 
-
-🔤 Original: Skills Officially Comes to Codex
-
-🔗 Read more: https://developers.openai.com/codex/skills/</description>
-      <guid isPermaLink="true">https://developers.openai.com/codex/skills/</guid>
-      <pubDate>Sat, 20 Dec 2025 08:09:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46334424</comments>
+🔗 Read more: https://antirez.com/news/157</description>
+      <guid isPermaLink="true">https://antirez.com/news/157</guid>
+      <pubDate>Sat, 20 Dec 2025 09:38:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46334819</comments>
     </item>
     <item>
-      <title>Raycaster (YC F24) 正在招聘一名研究工程师（纽约市，亲自）</title>
-      <link>https://news.ycombinator.com/item?id=46335552</link>
-      <description>📝 该产品将杂乱的版本化文档（PDF、Word 红线、表格）转变为结构化的工作空间，客服人员可以在其中搜索、引用、协调更改并帮助起草。我们正在招聘一名研究工程师，他既可以 (1) 交付生产系统，也可以 (2) 帮助确定公司的研究方向。你将做什么： - 构建和交付核心代理工作流程：编排、检索、工具使用、护栏、评估 - 处理文档管道+版本控制+可靠性/可观察性 - 将研究想法转化为生产功能（有时是另一个方向） - 帮助设计高风险文档任务的基准/数据集；潜在发布我们正在寻找的： - 强大的工程基础（分布式系统/性能/可靠性） - 轻松实施和迭代评估（不仅仅是演示） - 产品品味：您注意到用户体验细节，并且可以端到端构建 - 能够快速学习一个领域并提出尖锐的问题+ 创始人级别股权（详情正在处理中）如需申请，请发送电子邮件至：Founders [at] raycaster。
+      <title>TailwindSQL – 与 TailwindCSS 类似，但用于 React 服务器组件中的 SQL 查询</title>
+      <link>https://github.com/mmarinovic/tailwindsql</link>
+      <description>📝 TailwindSQL 🎨 与 TailwindCSS 类似，但用于 React Server 组件中的 SQL 查询。 TailwindSQL 允许您使用 Tailwind 样式的类名编写 SQL 查询。只需使用 className 直接在 React Server Components 中查询数据库即可。
 
 
-🔤 Original: Raycaster (YC F24) Is Hiring a Research Engineer (NYC, In-Person)
+🔤 Original: TailwindSQL – Like TailwindCSS, but for SQL Queries in React Server Components
 
-🔗 Read more: https://news.ycombinator.com/item?id=46335552</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46335552</guid>
-      <pubDate>Sat, 20 Dec 2025 12:00:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46335552</comments>
-    </item>
-    <item>
-      <title>异常信号：“没有什么可隐瞒的”对我们所有人都是一个威胁</title>
-      <link>https://thompson2026.com/blog/deviancy-signal/</link>
-      <description>📝 他们下载加密的信使。他们开始掩盖自己的踪迹。然后他们会和你说话。
-
-
-🔤 Original: The Deviancy Signal: Having "Nothing to Hide" Is a Threat to Us All
-
-🔗 Read more: https://thompson2026.com/blog/deviancy-signal/</description>
-      <guid isPermaLink="true">https://thompson2026.com/blog/deviancy-signal/</guid>
-      <pubDate>Sat, 20 Dec 2025 05:24:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46333830</comments>
+🔗 Read more: https://github.com/mmarinovic/tailwindsql</description>
+      <guid isPermaLink="true">https://github.com/mmarinovic/tailwindsql</guid>
+      <pubDate>Sat, 20 Dec 2025 13:54:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46336213</comments>
     </item>
   </channel>
 </rss>
