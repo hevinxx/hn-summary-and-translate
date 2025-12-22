@@ -6,21 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 22 Dec 2025 04:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 06:36:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>86박스 v5.3</title>
-      <link>https://86box.net/2025/12/21/86box-v5-3.html</link>
-      <description>📝 지난 릴리스에 추가된 플로피 드라이브 사운드 기능은 특히 헤드 탐색의 정확도가 향상되고 두 3의 새로운 녹음으로 큰 업데이트를 받았습니다. 자산 팩 변경 외에도 v5의 Mitsumi 및 Teac 플로피 드라이브 녹음이 있습니다. 변경 로그 에뮬레이터 Universal C Runtime으로 업그레이드하여 Windows 호스트의 전반적인 성능 향상 플로피 드라이브 사운드 및 기타 향후 기능을 위한 자산 팩 추가 전체 화면 모드에서 사용자 인터페이스를 표시하거나 숨기기 위해 사용자 정의 가능한 Ctrl+Alt+Page Down 키보드 단축키 추가 문제가 있는 응용 프로그램에 대해 동적 재컴파일러를 일시적으로 비활성화하는 도구 모음 버튼, 작업 메뉴 옵션 및 사용자 정의 가능한 Ctrl+Alt+I 키보드 단축키 추가 86Box 응용 프로그램 옆 또는 컴퓨터 폴더보다 한 수준 위에 있는 디스크 이미지에 상대 경로 변환 추가(휴대용) 설정) 스크린샷을 찍을 때 OpenGL 렌더러가 에뮬레이터와 충돌하는 문제 수정 에뮬레이트된 디스플레이 해상도 변경이 가끔 에뮬레이터와 충돌하는 문제 수정 사용자 인터페이스 관리자에 빠른 명령이 포함된 도구 모음 추가 일부 메뉴 항목에 아이콘 추가 Voodoo 추가 기능 카드가 활성화될 때 부정확한 숫자를 표시하는 새로 고침 빈도 표시기 수정 CPU 프레임 크기 옵션 전체에서 일관되도록 에뮬레이션 속도 표시기 변경 많은 번역 업데이트 및 정리 기계 808x Multitech PC-500에 실시간 시계 I/O 포트 및 IRQ 구성 추가 및 PC-500 플러스 일부 게임에서 사용되는 Tandy 1000 제품군 디스플레이 흔들림 효과 수정 286 C&amp;T PC/AT 시스템에서 확장 메모리 지원 수정 PS/2 마우스가 에뮬레이트될 때 Amstrad PC5286 키보드 문제 수정 386 IBM PS/55 모델 5550-V에 소켓 1 486 CPU 지원 추가 IBM PS/55 모델 5550-T를 5550-S/T Stage II로 이름 변경 IBM PS/55 모델 5550-V의 이름을 5550-V0/V1로 변경하고 범주를 386DX/486 486으로 변경했습니다. IBM PS/ValuePoint 433DX/Si 586에서 잘못된 온보드 비디오 BIOS를 수정했습니다. 추가된 소켓 5 시스템: HP Pavilion 50x0/70xx 추가된 소켓 7 시스템: ASUS TX97-XV, HP Pavilion 51xx/7070/7090/71xx, 52xx/53xx/71xx/72xx, 73xx/74xx Intel Advanced/AS, Advanced/ATX 및 Advanced/MA에 온보드 Crystal CS4232 사운드 추가 AOpen AX6BC에 RM Accelerator 350P2XB/450P3XB BIOS 변형 옵션 추가 MSI에 Award BIOS 옵션 추가 MS-5124 및 MS-5146 Intel Advanced/ATX 686의 직렬 및 병렬 포트에 대한 고정 BIOS 설정 슬롯 1 머신 추가: MSI MS-6199VA(Compaq 및 Packard Bell BIOS 변형 포함) 소켓 370 머신 추가: MSI MS-6318(Elonex, Fujitsu-Siemens, HP 및 Medion BIOS 변형 포함), Samsung CAIRO-5 ABIT에 더 많은 BIOS 버전 옵션 추가 AB-BX6 Supermicro P6SBA에 Leadtek WinFast 8000BX BIOS 변형 옵션을 추가했습니다. AOpen AP61 하드웨어 코어의 최대 RAM 변경 특히 MMX 애플리케이션에서 ARM 호스트의 CPU 성능이 향상되었습니다.
+      <title>Rust 및 Iced를 사용하여 Android 앱 빌드</title>
+      <link>https://github.com/ibaryshnikov/android-iced-example</link>
+      <description>📝 iced를 사용하여 Android 앱을 빌드하는 예 여기에 NativeActivity 및 GameActivity 예가 있습니다. 몇 가지 다른 예를 기반으로 합니다: android-activity의 na-mainloop 및 agdk-mainloop Rust-android-examples의 통합 iced의 통합 미리보기 iced 통합 예 또한 iced에서 대부분의 예를 실행할 수도 있습니다. iced는 기본적으로 Android를 지원하지 않지만 통합 예에 표시된 것처럼 기존 그래픽 파이프라인과 통합될 수 있습니다.
 
 
-🔤 Original: 86Box v5.3
+🔤 Original: Build Android apps using Rust and Iced
 
-🔗 Read more: https://86box.net/2025/12/21/86box-v5-3.html</description>
-      <guid isPermaLink="true">https://86box.net/2025/12/21/86box-v5-3.html</guid>
-      <pubDate>Mon, 22 Dec 2025 01:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46350477</comments>
+🔗 Read more: https://github.com/ibaryshnikov/android-iced-example</description>
+      <guid isPermaLink="true">https://github.com/ibaryshnikov/android-iced-example</guid>
+      <pubDate>Mon, 22 Dec 2025 02:14:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46350641</comments>
+    </item>
+    <item>
+      <title>Show HN: Rust/WASM 조명 데이터 툴킷 - 레거시 형식을 구문 분석하고 SVG를 생성합니다.</title>
+      <link>https://eulumdat.icu</link>
+      <guid isPermaLink="true">https://eulumdat.icu</guid>
+      <pubDate>Sun, 21 Dec 2025 20:56:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46348344</comments>
+    </item>
+    <item>
+      <title>저주받은 회로 #3: 진정한 수학</title>
+      <link>https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</link>
+      <guid isPermaLink="true">https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</guid>
+      <pubDate>Mon, 22 Dec 2025 04:34:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46351345</comments>
+    </item>
+    <item>
+      <title>구름의 변화에 ​​관한 루크 하워드의 에세이(1865)</title>
+      <link>https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</link>
+      <description>📝 인쇄하기 전에 전체 페이지를 스크롤하여 모든 이미지를 다운로드하세요. Luke Howard의 Nimbus 구름 연구에서 적운과 수증기가 흘러나오는 모루를 보여줍니다. 인쇄하기 전에 전체 페이지를 스크롤하여 모든 이미지를 다운로드하세요.
+
+
+🔤 Original: Luke Howard’s essay on the modification of clouds (1865)
+
+🔗 Read more: https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</description>
+      <guid isPermaLink="true">https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</guid>
+      <pubDate>Sun, 21 Dec 2025 12:38:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46344412</comments>
     </item>
   </channel>
 </rss>

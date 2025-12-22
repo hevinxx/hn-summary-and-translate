@@ -6,21 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 22 Dec 2025 04:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 06:36:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>86盒v5.3</title>
-      <link>https://86box.net/2025/12/21/86box-v5-3.html</link>
-      <description>📝 上一个版本添加的软盘驱动器声音功能进行了重大更新，提高了准确性，特别是在头部搜索方面，以及来自两个 3 的新录音。除了资源包更改之外，还从 v5 开始，Mitsumi 和 Teac 软盘驱动器录音。更改日志 仿真器 通过升级到通用 C 运行时，提高了 Windows 主机上的整体性能 添加了软盘驱动器声音和其他未来功能的资源包 添加了可自定义的 Ctrl+Alt+Page Down 键盘快捷键，以在全屏模式下显示或隐藏用户界面 添加了工具栏按钮、操作菜单选项和可自定义的 Ctrl+Alt+I 键盘快捷键，以暂时禁用麻烦的应用程序的动态重新编译器 添加了到位于 86Box 应用程序旁边或机器文件夹上方一级的磁盘映像的相对路径转换（对于便携式设置） 修复了 OpenGL截取屏幕截图时渲染器使模拟器崩溃 修复了模拟显示分辨率更改偶尔导致模拟器崩溃的问题 用户界面 添加了一个包含快速命令的工具栏 向管理器添加了图标 向某些菜单项添加了图标 修复了 Voodoo 附加卡激活时显示不准确数字的刷新率指示器 更改了仿真速度指示器，使其在 CPU 帧大小选项之间保持一致 更新并清理了许多翻译 机器 808x 为 Multitech PC-500 和 PC-500 plus 添加了实时时钟 I/O 端口和 IRQ 配置修复了某些游戏使用的 Tandy 1000 系列显示抖动效果 286 修复了 C&amp;T PC/AT 机器上的扩展内存支持 修复了模拟 PS/2 鼠标时的 Amstrad PC5286 键盘问题 386 为 IBM PS/55 型号 5550-V 重命名为 IBM PS/55 型号 5550-T 至 5550-S/T Stage II 增加了 Socket 1 486 CPU 支持 重命名为 IBM PS/55型号 5550-V 更改为 5550-V0/V1，并将类别更改为 386DX/486 486 修复了 IBM PS/ValuePoint 433DX/Si 586 上不正确的板载视频 BIOS 添加了 Socket 5 计算机：HP Pavilion 50x0/70xx 添加了 Socket 7 计算机：ASUS TX97-XV、HP Pavilion 51xx/7070/7090/71xx、 52xx/53xx/71xx/72xx、73xx/74xx 为 Intel Advanced/AS、Advanced/ATX 和 Advanced/MA 添加了板载 Crystal CS4232 声音 为 AOpen AX6BC 添加了 RM Accelerator 350P2XB/450P3XB BIOS 变体选项 为 MSI MS-5124 和 MS-5146 添加了 Award BIOS 选项 修复了 Intel Advanced/ATX 串行和并行端口的 BIOS 设置686 添加了插槽 1 机器：MSI MS-6199VA（加上 Compaq 和 Packard Bell BIOS 变体） 添加了 Socket 370 机器：MSI MS-6318（加上 Elonex、Fujitsu-Siemens、HP 和 Medion BIOS 变体）、Samsung CAIRO-5 在 ABIT AB-BX6 中添加了更多 BIOS 版本选项 在 Supermicro P6SBA 中添加了 Leadtek WinFast 8000BX BIOS 变体选项 更改了最大值AOpen AP61 硬件核心上的 RAM 改进了 ARM 主机上的 CPU 性能，特别是在 MMX 应用程序上。
+      <title>使用 Rust 和 Iced 构建 Android 应用</title>
+      <link>https://github.com/ibaryshnikov/android-iced-example</link>
+      <description>📝 使用iced构建android应用程序的示例这里有NativeActivity和GameActivity示例。基于其他几个示例：来自 android-activity 的 na-mainloop 和 agdk-mainloop 来自 rust-android-examples 的 na-winit-wgpu 来自iced 的集成 预览iced 集成示例 您还可以从iced 运行大多数示例。 iced 不支持开箱即用的 android，但它可以与现有的图形管道集成，如集成示例所示。
 
 
-🔤 Original: 86Box v5.3
+🔤 Original: Build Android apps using Rust and Iced
 
-🔗 Read more: https://86box.net/2025/12/21/86box-v5-3.html</description>
-      <guid isPermaLink="true">https://86box.net/2025/12/21/86box-v5-3.html</guid>
-      <pubDate>Mon, 22 Dec 2025 01:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46350477</comments>
+🔗 Read more: https://github.com/ibaryshnikov/android-iced-example</description>
+      <guid isPermaLink="true">https://github.com/ibaryshnikov/android-iced-example</guid>
+      <pubDate>Mon, 22 Dec 2025 02:14:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46350641</comments>
+    </item>
+    <item>
+      <title>Show HN：Rust/WASM 照明数据工具包 – 解析遗留格式，生成 SVG</title>
+      <link>https://eulumdat.icu</link>
+      <guid isPermaLink="true">https://eulumdat.icu</guid>
+      <pubDate>Sun, 21 Dec 2025 20:56:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46348344</comments>
+    </item>
+    <item>
+      <title>被诅咒的电路#3：真正的数学</title>
+      <link>https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</link>
+      <guid isPermaLink="true">https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</guid>
+      <pubDate>Mon, 22 Dec 2025 04:34:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46351345</comments>
+    </item>
+    <item>
+      <title>卢克·霍华德 (Luke Howard) 关于云变化的文章 (1865)</title>
+      <link>https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</link>
+      <description>📝 打印前滚动浏览整个页面以下载所有图像。卢克·霍华德 (Luke Howard) 对雨云的云研究显示，大约有积云和水蒸气流出的铁砧。打印前滚动浏览整个页面以下载所有图像。
+
+
+🔤 Original: Luke Howard’s essay on the modification of clouds (1865)
+
+🔗 Read more: https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</description>
+      <guid isPermaLink="true">https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</guid>
+      <pubDate>Sun, 21 Dec 2025 12:38:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46344412</comments>
     </item>
   </channel>
 </rss>

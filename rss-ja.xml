@@ -6,21 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Dec 2025 04:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 06:36:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>86ボックス v5.3</title>
-      <link>https://86box.net/2025/12/21/86box-v5-3.html</link>
-      <description>📝 前回のリリースで追加されたフロッピー ドライブ サウンド機能は大幅に更新され、特にヘッド シークの精度が向上し、2 つの 3 からの新しい録音が追加されました。アセット パックの変更に加えて、v5 からのミツミとティアックのフロッピー ドライブ録音が追加されました。 Changelog エミュレータ ユニバーサル C ランタイムへのアップグレードにより、Windows ホスト上の全体的なパフォーマンスが向上 フロッピー ドライブ サウンドおよびその他の将来の機能用のアセット パックを追加 全画面モードでユーザー インターフェイスを表示または非表示にするカスタマイズ可能な Ctrl+Alt+Page Down キーボード ショートカットを追加 ツールバー ボタン、アクション メニュー オプション、および問題のあるアプリケーションの動的リコンパイラを一時的に無効にするカスタマイズ可能な Ctrl+Alt+I キーボード ショートカットを追加 86Box アプリケーションまたは 1 つのレベルの隣にあるディスク イメージへの相対パス変換を追加マシン フォルダの上 (ポータブル セットアップ用) スクリーンショットを撮るときにエミュレータをクラッシュさせる OpenGL レンダラーを修正しました エミュレートされたディスプレイ解像度の変更で時々エミュレータがクラッシュする問題を修正しました ユーザー インターフェイス マネージャにクイック コマンドを含むツールバーを追加しました 一部のメニュー エントリにアイコンを追加しました Voodoo アドイン カードがアクティブなときに不正確な数値を表示するリフレッシュ レート インジケータを修正しました CPU フレーム サイズ オプション全体で一貫性を保つようにエミュレーション速度インジケータを変更しました 多くの翻訳を更新およびクリーンアップしました マシン 808x にリアルタイム クロック I/O ポートと IRQ 設定を追加しましたMultitech PC-500 および PC-500 plus 一部のゲームで使用される Tandy 1000 ファミリのディスプレイの揺れ効果を修正 286 C&amp;T PC/AT マシンでの拡張メモリ サポートを修正 PS/2 マウスをエミュレートする際の Amstrad PC5286 キーボードの問題を修正 386 IBM PS/55 モデル 5550-V にソケット 1 486 CPU サポートを追加 IBM PS/55 モデル 5550-T を IBM PS/55 モデル 5550-T に名前変更5550-S/T Stage II IBM PS/55 モデル 5550-V を 5550-V0/V1 に名前変更し、カテゴリを 386DX/486 に変更しました。 486 IBM PS/ValuePoint 433DX/Si 586 の誤ったオンボード ビデオ BIOS を修正しました。 ソケット 5 マシンを追加しました: HP Pavilion 50x0/70xx ソケット 7 マシンを追加しました: ASUS TX97-XV、HP Pavilion 51xx/7070/7090/71xx、52xx/53xx/71xx/72xx、73xx/74xx オンボード Crystal CS4232 サウンドを Intel Advanced/AS、Advanced/ATX および Advanced/MA に追加 AOpen AX6BC に RM アクセラレータ 350P2XB/450P3XB BIOS バリアント オプションを追加 賞を追加MSI MS-5124 および MS-5146 への BIOS オプション シリアル ポートおよびパラレル ポートの BIOS 設定を修正 Intel Advanced/ATX 686 スロット 1 マシンを追加: MSI MS-6199VA (さらに Compaq および Packard Bell BIOS バリアント) 追加 Socket 370 マシン: MSI MS-6318 (さらに Elonex、Fujitsu-Siemens、HP および Medion BIOS バリアント)、Samsung CAIRO-5 BIOS を追加ABIT AB-BX6 にバージョン オプションを追加 Supermicro P6SBA に Leadtek WinFast 8000BX BIOS バリアント オプションを追加 AOpen AP61 ハードウェア コアの最大 RAM を変更 ARM ホスト、特に MMX アプリケーションでの CPU パフォーマンスが向上しました。
+      <title>Rust と Iced を使用して Android アプリを構築する</title>
+      <link>https://github.com/ibaryshnikov/android-iced-example</link>
+      <description>📝 Iced を使用した Android アプリの構築の例 ここには NativeActivity と GameActivity の例があります。他のいくつかの例に基づいています: android-activity の na-mainloop および agdk-mainloop rust-android-examples の na-winit-wgpu Iced からの統合 Iced 統合サンプルのプレビュー また、ほとんどの例は、iced から実行できます。 Iced はそのままでは Android をサポートしませんが、統合例に示すように、既存のグラフィックス パイプラインと統合できます。
 
 
-🔤 Original: 86Box v5.3
+🔤 Original: Build Android apps using Rust and Iced
 
-🔗 Read more: https://86box.net/2025/12/21/86box-v5-3.html</description>
-      <guid isPermaLink="true">https://86box.net/2025/12/21/86box-v5-3.html</guid>
-      <pubDate>Mon, 22 Dec 2025 01:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46350477</comments>
+🔗 Read more: https://github.com/ibaryshnikov/android-iced-example</description>
+      <guid isPermaLink="true">https://github.com/ibaryshnikov/android-iced-example</guid>
+      <pubDate>Mon, 22 Dec 2025 02:14:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46350641</comments>
+    </item>
+    <item>
+      <title>Show HN: Rust/WASM 照明データ ツールキット – レガシー形式を解析し、S​​VG を生成</title>
+      <link>https://eulumdat.icu</link>
+      <guid isPermaLink="true">https://eulumdat.icu</guid>
+      <pubDate>Sun, 21 Dec 2025 20:56:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46348344</comments>
+    </item>
+    <item>
+      <title>呪われた回路 #3: 真の数学</title>
+      <link>https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</link>
+      <guid isPermaLink="true">https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</guid>
+      <pubDate>Mon, 22 Dec 2025 04:34:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46351345</comments>
+    </item>
+    <item>
+      <title>雲の修正に関するルーク・ハワードのエッセイ (1865 年)</title>
+      <link>https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</link>
+      <description>📝 印刷する前にページ全体をスクロールしてすべての画像をダウンロードします。ルーク・ハワードによるニンバスの雲の研究。積雲と水蒸気が流れ出る金床を示している。印刷する前にページ全体をスクロールしてすべての画像をダウンロードします。
+
+
+🔤 Original: Luke Howard’s essay on the modification of clouds (1865)
+
+🔗 Read more: https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</description>
+      <guid isPermaLink="true">https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</guid>
+      <pubDate>Sun, 21 Dec 2025 12:38:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46344412</comments>
     </item>
   </channel>
 </rss>

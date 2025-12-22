@@ -6,18 +6,42 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Dec 2025 04:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 06:36:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>86Box v5.3</title>
-      <link>https://86box.net/2025/12/21/86box-v5-3.html</link>
-      <description>📝 The floppy drive sounds feature added last release got a big update, with improved accuracy especially in head seeks, and new recordings from two 3. On top of the asset pack change, the Mitsumi and Teac floppy drive recordings from v5. Changelog Emulator Improved overall performance on Windows hosts by upgrading to the Universal C Runtime Added asset pack for floppy drive sounds and other future features Added customizable Ctrl+Alt+Page Down keyboard shortcut to show or hide the user interface in full screen mode Added toolbar button, Action menu option and customizable Ctrl+Alt+I keyboard shortcut to temporarily disable the dynamic recompiler for troublesome applications Added relative path conversion to disk images located next to the 86Box application or one level above the machine folder (for portable setups) Fixed OpenGL renderer crashing the emulator when taking screenshots Fixed emulated display resolution changes occasionally crashing the emulator User interface Added a toolbar with quick commands to the manager Added icons to some menu entries Fixed refresh rate indicator displaying inaccurate numbers when a Voodoo add-in card is active Changed emulation speed indicator to be consistent across CPU frame size options Updated and cleaned up many translations Machines 808x Added real time clock I/O port and IRQ configuration to the Multitech PC-500 and PC-500 plus Fixed Tandy 1000 family display shake effect used by some games 286 Fixed extended memory support on C&amp;T PC/AT machines Fixed Amstrad PC5286 keyboard issues when a PS/2 mouse is emulated 386 Added Socket 1 486 CPU support to the IBM PS/55 model 5550-V Renamed IBM PS/55 model 5550-T to 5550-S/T Stage II Renamed IBM PS/55 model 5550-V to 5550-V0/V1 and changed category to 386DX/486 486 Fixed incorrect on-board video BIOS on the IBM PS/ValuePoint 433DX/Si 586 Added Socket 5 machine: HP Pavilion 50x0/70xx Added Socket 7 machines: ASUS TX97-XV, HP Pavilion 51xx/7070/7090/71xx, 52xx/53xx/71xx/72xx, 73xx/74xx Added on-board Crystal CS4232 sound to the Intel Advanced/AS, Advanced/ATX and Advanced/MA Added RM Accelerator 350P2XB/450P3XB BIOS variant option to the AOpen AX6BC Added Award BIOS option to the MSI MS-5124 and MS-5146 Fixed BIOS settings for serial and parallel ports the Intel Advanced/ATX 686 Added Slot 1 machine: MSI MS-6199VA (plus Compaq and Packard Bell BIOS variants) Added Socket 370 machines: MSI MS-6318 (plus Elonex, Fujitsu-Siemens, HP and Medion BIOS variants), Samsung CAIRO-5 Added more BIOS version options to the ABIT AB-BX6 Added Leadtek WinFast 8000BX BIOS variant option to the Supermicro P6SBA Changed maximum RAM on the AOpen AP61 Hardware Core Improved CPU performance on ARM hosts, especially on MMX applicati.
+      <title>Build Android apps using Rust and Iced</title>
+      <link>https://github.com/ibaryshnikov/android-iced-example</link>
+      <description>📝 Example of building android app with iced There are NativeActivity and GameActivity examples here. Based on several other examples: na-mainloop and agdk-mainloop from android-activity na-winit-wgpu from rust-android-examples integration from iced Preview iced integration example You can also run most of the examples from iced. iced doesn't support android out of the box, but it can be integrated with existing graphics pipelines, as shown in integration example.
 
-🔗 Read more: https://86box.net/2025/12/21/86box-v5-3.html</description>
-      <guid isPermaLink="true">https://86box.net/2025/12/21/86box-v5-3.html</guid>
-      <pubDate>Mon, 22 Dec 2025 01:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46350477</comments>
+🔗 Read more: https://github.com/ibaryshnikov/android-iced-example</description>
+      <guid isPermaLink="true">https://github.com/ibaryshnikov/android-iced-example</guid>
+      <pubDate>Mon, 22 Dec 2025 02:14:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46350641</comments>
+    </item>
+    <item>
+      <title>Show HN: Rust/WASM lighting data toolkit – parses legacy formats, generates SVGs</title>
+      <link>https://eulumdat.icu</link>
+      <guid isPermaLink="true">https://eulumdat.icu</guid>
+      <pubDate>Sun, 21 Dec 2025 20:56:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46348344</comments>
+    </item>
+    <item>
+      <title>Cursed circuits #3: true mathematics</title>
+      <link>https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</link>
+      <guid isPermaLink="true">https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics</guid>
+      <pubDate>Mon, 22 Dec 2025 04:34:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46351345</comments>
+    </item>
+    <item>
+      <title>Luke Howard’s essay on the modification of clouds (1865)</title>
+      <link>https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</link>
+      <description>📝 Scroll through the whole page to download all images before printing. Luke Howard’s cloud study of Nimbus showing anvil with cumulus and water vapour streaming out, ca. Scroll through the whole page to download all images before printing.
+
+🔗 Read more: https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</description>
+      <guid isPermaLink="true">https://publicdomainreview.org/collection/essay-on-the-modification-of-clouds/</guid>
+      <pubDate>Sun, 21 Dec 2025 12:38:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46344412</comments>
     </item>
   </channel>
 </rss>
