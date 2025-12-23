@@ -6,65 +6,68 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Dec 2025 18:32:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 21:21:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Fabrice Bellard Releases MicroQuickJS</title>
-      <link>https://github.com/bellard/mquickjs/blob/main/README.md</link>
-      <guid isPermaLink="true">https://github.com/bellard/mquickjs/blob/main/README.md</guid>
-      <pubDate>Tue, 23 Dec 2025 17:33:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46367224</comments>
+      <title>Terrence Malick's Disciples</title>
+      <link>https://yalereview.org/article/bilge-ebiri-terrence-malick</link>
+      <description>📝 Ross’s explanation was simple: because one of them had produced Terrence Malick’s 2011 film, The Tree of Life. Many of Malick’s films have been critically acclaimed, and two have received Oscar nominations for Best Picture (albeit without much chance of winning). So what accounts for Malick’s impact on twenty-first-century American film.
+
+🔗 Read more: https://yalereview.org/article/bilge-ebiri-terrence-malick</description>
+      <guid isPermaLink="true">https://yalereview.org/article/bilge-ebiri-terrence-malick</guid>
+      <pubDate>Tue, 23 Dec 2025 19:35:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46368557</comments>
     </item>
     <item>
-      <title>Meta is using the Linux scheduler designed for Valve's Steam Deck on its servers</title>
-      <link>https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server</link>
-      <description>📝 Meta Is Using The Linux Scheduler Designed For Valve's Steam Deck On Its Servers Written by Michael Larabel in Linux Kernel on 23 December 2025 at 06:10 AM EST. 13 Comments An interesting anecdote from this month's Linux Plumbers Conference in Tokyo is that Meta (Facebook) is using the Linux scheduler originally designed for the needs of Valve's Steam Deck. Meta has found that the scheduler can actually adapt and work very well on the hyperscaler's large servers.
+      <title>Help My c64 caught on fire</title>
+      <link>https://c0de517e.com/026_c64fire.htm</link>
+      <description>📝 Yes, I used to program with one. That's what made me want to write this post. Of course though this wou.
 
-🔗 Read more: https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server</description>
-      <guid isPermaLink="true">https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server</guid>
-      <pubDate>Tue, 23 Dec 2025 17:08:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46366998</comments>
+🔗 Read more: https://c0de517e.com/026_c64fire.htm</description>
+      <guid isPermaLink="true">https://c0de517e.com/026_c64fire.htm</guid>
+      <pubDate>Tue, 23 Dec 2025 19:09:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46368300</comments>
     </item>
     <item>
-      <title>We replaced H.264 streaming with JPEG screenshots (and it worked better)</title>
-      <link>https://blog.helix.ml/p/we-mass-deployed-15-year-old-screen</link>
-      <description>📝 “The video doesn’t connect. Configure enterprise proxies. Work with IT departments.
+      <title>Un-Redactor</title>
+      <link>https://github.com/kvthweatt/unredactor</link>
+      <description>📝 This tool is for forensics purposes. It does not "recover" data truly destroyed by redaction tools. I am not responsible for your use of this tool.
 
-🔗 Read more: https://blog.helix.ml/p/we-mass-deployed-15-year-old-screen</description>
-      <guid isPermaLink="true">https://blog.helix.ml/p/we-mass-deployed-15-year-old-screen</guid>
-      <pubDate>Tue, 23 Dec 2025 18:00:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46367475</comments>
+🔗 Read more: https://github.com/kvthweatt/unredactor</description>
+      <guid isPermaLink="true">https://github.com/kvthweatt/unredactor</guid>
+      <pubDate>Tue, 23 Dec 2025 19:26:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46368471</comments>
     </item>
     <item>
-      <title>Towards a secure peer-to-peer app platform for Clan</title>
-      <link>https://clan.lol/blog/towards-app-platform-vmtech/</link>
-      <description>📝 Meanwhile in the FOSS world, it’s still extremely common to run software with full access to the user’s account. Meanwhile local software often doesn’t have a global database, but when it does, it can be impossible to make it multi-instance without advanced knowledge; Commercial apps come with their own always-online remote servers. For our platform development, we have indeed adopted muvm (after submitting some changes that make it more useful for us), combining it with namespace-based Bubblewrap to make a script that runs NixOS system closures in microVMs.
+      <title>HTTP Caching, a Refresher</title>
+      <link>https://danburzo.ro/http-caching-refresher/</link>
+      <description>📝 Cache-Control response directives max-age=&lt;number&gt; The max-age response directive defines the response’s freshness timeline in seconds, after which the response should be considered stale. 1 must-revalidate The must-revalidate response directive indicates that the cache must not reuse a stale response until it’s been successfully validated by the origin server. 2 If the server throws an error, the cache must surface that instead of reusing a stale response.
 
-🔗 Read more: https://clan.lol/blog/towards-app-platform-vmtech/</description>
-      <guid isPermaLink="true">https://clan.lol/blog/towards-app-platform-vmtech/</guid>
-      <pubDate>Tue, 23 Dec 2025 17:34:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46367232</comments>
+🔗 Read more: https://danburzo.ro/http-caching-refresher/</description>
+      <guid isPermaLink="true">https://danburzo.ro/http-caching-refresher/</guid>
+      <pubDate>Tue, 23 Dec 2025 19:41:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46368616</comments>
     </item>
     <item>
-      <title>Stop Slopware</title>
-      <link>https://stopslopware.net/</link>
-      <description>📝 If someone thinks your project is slopware, don’t despair, you have a chance to fix your work and prove them wrong. You have better things to do with your time; and yet, it’s important to inform project authors why their work isn’t being received well. For a more detailed discussion, consider reading the article your project sucks.
+      <title>An initial analysis of the discovered Unix V4 tape</title>
+      <link>https://www.spinellis.gr/blog/20251223/?yc261223</link>
+      <description>📝 The Fourth Research Edition Unix came out of the famous AT&amp;T Bell Laboratories in November 1973. Some have claimed that the tape’s contents are very close to the Fifth Edition rather to what really was the Fourth Edition. This shows that 52 thousand lines of the Fourth Edition are indeed part of the Fifth Edition, but the Fifth Edition also introduces about eleven new thousand lines of code.
 
-🔗 Read more: https://stopslopware.net/</description>
-      <guid isPermaLink="true">https://stopslopware.net/</guid>
-      <pubDate>Tue, 23 Dec 2025 15:51:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46366285</comments>
+🔗 Read more: https://www.spinellis.gr/blog/20251223/?yc261223</description>
+      <guid isPermaLink="true">https://www.spinellis.gr/blog/20251223/?yc261223</guid>
+      <pubDate>Tue, 23 Dec 2025 18:22:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46367744</comments>
     </item>
     <item>
-      <title>When irate product support customers demand to speak to Bill Gates</title>
-      <link>https://devblogs.microsoft.com/oldnewthing/20251223-00/?p=111896</link>
-      <description>📝 ” They weren’t actually in Bill Gates’s office. They were just pretending to be Bill Gates’s secretary. The information went back into the product support channel with a note that the customer was escalated to “Bill Gates’s office.
+      <title>Fuck You, I Won't Use Tailwind</title>
+      <link>https://fuckyouiwontusetailwind.com</link>
+      <description>📝 You suck at CSS It's not that fucking hard. Coming up with class names is not hard. Get off your high horse and stop obsessing over a fucking hammer, I promise your life is not full of nails.
 
-🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20251223-00/?p=111896</description>
-      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20251223-00/?p=111896</guid>
-      <pubDate>Tue, 23 Dec 2025 16:43:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46366761</comments>
+🔗 Read more: https://fuckyouiwontusetailwind.com</description>
+      <guid isPermaLink="true">https://fuckyouiwontusetailwind.com</guid>
+      <pubDate>Tue, 23 Dec 2025 20:54:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46369356</comments>
     </item>
   </channel>
 </rss>
