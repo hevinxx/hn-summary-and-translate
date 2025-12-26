@@ -6,75 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Dec 2025 18:31:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 21:20:19 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>C/C++ Embedded Files (2013)</title>
-      <link>https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</link>
-      <description>📝 global incbin_" STR(name) "_start\n" \ ". type incbin_" STR(name) "_start, @object\n" \ ". global incbin_" STR(name) "_end\n" \ ".
+      <title>How uv got so fast</title>
+      <link>https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html</link>
+      <description>📝 toml, giving packages a place to declare build dependencies without code execution. Packages declare python&lt;4. Optimizations that don’t need Rust Some of uv’s speed comes from Rust.
 
-🔗 Read more: https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</description>
-      <guid isPermaLink="true">https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</guid>
-      <pubDate>Fri, 26 Dec 2025 17:06:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46393924</comments>
+🔗 Read more: https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html</description>
+      <guid isPermaLink="true">https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html</guid>
+      <pubDate>Fri, 26 Dec 2025 17:13:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393992</comments>
     </item>
     <item>
-      <title>Show HN: AutoLISP interpreter in Rust/WASM – a CAD workflow invented 33 yrs ago</title>
-      <link>https://acadlisp.de/noscript.html</link>
-      <description>📝 It runs AutoLISP code directly in the browser - no AutoCAD installation required. What makes LISP special. Technical Details Language: Rust Target: WebAssembly (WASM) Output formats: SVG, DXF (AutoCAD R12/AC1009) Supported AutoLISP functions: defun, setq, if, while, cond, +, -, *, /, sin, cos, sqrt, car, cdr, list, nth, command, princ, and more Example Code ; Draw a rectangle (defun draw-box (x y w h) (command "LINE" (list x y) (list (+ x w) y) "") (command "LINE" (list (+ x w) y) (list (+ x w) (+ y h)) "") (command "LINE" (list (+ x w) (+ y h)) (list x (+ y h)) "") (command "LINE" (list x (+ y h)) (list x y) "")) (draw-box 10 10 100 50) Links Interactive Demo (requires JavaScript) Source code on GitHub.
+      <title>How Lewis Carroll computed determinants</title>
+      <link>https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/</link>
+      <description>📝 If the original matrix has all integer entries, then the division in Dodgson’s condensation algorithm is exact. Gaussian elimination takes O(n³) operations, and so does Dodgson’s condensation algorithm. Condensation does not.
 
-🔗 Read more: https://acadlisp.de/noscript.html</description>
-      <guid isPermaLink="true">https://acadlisp.de/noscript.html</guid>
-      <pubDate>Fri, 26 Dec 2025 15:56:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46393271</comments>
+🔗 Read more: https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/</guid>
+      <pubDate>Fri, 26 Dec 2025 19:03:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395106</comments>
     </item>
     <item>
-      <title>A Proclamation Regarding the Restoration of the Em-Dash</title>
-      <link>https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</link>
-      <description>📝 A Proclamation Regarding the Restoration of the Dash Posted on Fri 26 December 2025 WHEREAS, the em—dash (—) has long served as the elegant scaffolding of the English sentence, providing the necessary breadth for parenthetical thought, sudden turns of phrase, and rhythmic pause; WHEREAS, a modern and unfounded prejudice has arisen, wherein the presence of the em—dash is viewed with suspicion and cited as the “tell—tale sign” of the unthinking machine; WHEREAS, the Large Language Model has merely mimicked a sophistication it cannot truly possess, thereby unfairly maligning a mark of punctuation that predates the silicon chip by centuries; WHEREAS, the humble hyphen (-) is a utilitarian stitch for compound words and line—breaks, yet is increasingly used as a cowardly substitute for the bold, expansive stroke of the em—dash; WHEREAS, I refuse to cede the beauty of classical punctuation to the algorithms, nor shall I allow my prose to be flattened by the fear of looking “artificial”; NOW, THEREFORE, BE IT RESOLVED, that I reclaim this mark from the domain of the bot and return it to the hand of the writer. I HEREBY DECREE that henceforth, within the borders of this blog, the hyphen shall be banished from all roles of punctuation and pause—to be replaced, in every instance of stylistic flair, by the glorious, unrepentant em—dash. Even ones that really should just be hyphens.
+      <title>Experts explore new mushroom which causes fairytale-like hallucinations</title>
+      <link>https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations</link>
+      <description>📝 Conversing with sellers to find and purchase samples for scientific study of the psychoactive mushroom known as Jian shou qing. One elder tribesman in Papua New Guinea describes this effect, explaining how “he saw tiny people with mushrooms around their faces. Colin Domnauer As recently as 2014, the taxonomic identity of the psychoactive Jian shou qing mushroom remained un.
 
-🔗 Read more: https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</description>
-      <guid isPermaLink="true">https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</guid>
-      <pubDate>Fri, 26 Dec 2025 17:29:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46394169</comments>
+🔗 Read more: https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations</description>
+      <guid isPermaLink="true">https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations</guid>
+      <pubDate>Fri, 26 Dec 2025 17:07:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393936</comments>
     </item>
     <item>
-      <title>High School Student Discovers 1.5M Potential New Astronomical Objects</title>
-      <link>https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</link>
-      <description>📝 Rosenbaum after winning the Regeneron Science Talent Search award. model that sorted through the raw data in search of tiny changes in infrared radiation, which could indicate the presence of variable objects. He adds that Caltech researchers are already making use of Paz’s catalog of potential variable objects, called VarWISE, to study binary star systems.
+      <title>I Think about Kubernetes</title>
+      <link>https://garnaudov.com/writings/how-i-think-about-kubernetes/</link>
+      <description>📝 That object becomes durable state. Kubernetes doesn’t just try once. GitOps states that true desired state lives in Git.
 
-🔗 Read more: https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</guid>
-      <pubDate>Fri, 26 Dec 2025 15:13:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46392815</comments>
+🔗 Read more: https://garnaudov.com/writings/how-i-think-about-kubernetes/</description>
+      <guid isPermaLink="true">https://garnaudov.com/writings/how-i-think-about-kubernetes/</guid>
+      <pubDate>Fri, 26 Dec 2025 20:44:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46396043</comments>
     </item>
     <item>
-      <title>Show HN: Xcc700: Self-hosting mini C compiler for ESP32 (Xtensa) in 700 lines</title>
-      <link>https://github.com/valdanylchuk/xcc700</link>
-      <description>📝 xcc700: Self-hosting mini C compiler for esp32 / Xtensa Why look into this project. Compile with gcc xcc700. Run with ESP-IDF elf_loader.
-
-🔗 Read more: https://github.com/valdanylchuk/xcc700</description>
-      <guid isPermaLink="true">https://github.com/valdanylchuk/xcc700</guid>
-      <pubDate>Fri, 26 Dec 2025 15:07:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46392736</comments>
+      <title>My insulin pump controller uses the Linux kernel. It also violates the GPL</title>
+      <link>https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</link>
+      <guid isPermaLink="true">https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</guid>
+      <pubDate>Fri, 26 Dec 2025 19:13:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395184</comments>
     </item>
     <item>
-      <title>ICE's interest in high-tech gear raises new questions: 'What is it for?'</title>
-      <link>https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</link>
-      <guid isPermaLink="true">https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</guid>
-      <pubDate>Fri, 26 Dec 2025 17:37:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46394228</comments>
+      <title>Gaussian Splatting 3 Ways</title>
+      <link>https://github.com/NullandKale/NullSplats</link>
+      <description>📝 backend/ - frame extraction, COLMAP pipeline, splat training. Training tab runs gsplat training and streams live previews. COLMAP Tab ui/tab_colmap.
+
+🔗 Read more: https://github.com/NullandKale/NullSplats</description>
+      <guid isPermaLink="true">https://github.com/NullandKale/NullSplats</guid>
+      <pubDate>Fri, 26 Dec 2025 19:23:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395273</comments>
     </item>
     <item>
-      <title>ZJIT is now available in Ruby 4.0</title>
-      <link>https://railsatscale.com/2025-12-24-launch-zjit/</link>
-      <description>📝 This is a very new compiler. More code Back in May, we could only run a handful of small benchmarks. C methods Back in May, we could not even optimize calls to built-in C methods.
+      <title>MongoBleed</title>
+      <link>https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py</link>
+      <guid isPermaLink="true">https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py</guid>
+      <pubDate>Fri, 26 Dec 2025 18:17:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394620</comments>
+    </item>
+    <item>
+      <title>FFmpeg has issued a DMCA takedown on GitHub</title>
+      <link>https://twitter.com/FFmpeg/status/2004599109559496984</link>
+      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2025 X Corp.
 
-🔗 Read more: https://railsatscale.com/2025-12-24-launch-zjit/</description>
-      <guid isPermaLink="true">https://railsatscale.com/2025-12-24-launch-zjit/</guid>
-      <pubDate>Fri, 26 Dec 2025 17:04:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46393906</comments>
+🔗 Read more: https://twitter.com/FFmpeg/status/2004599109559496984</description>
+      <guid isPermaLink="true">https://twitter.com/FFmpeg/status/2004599109559496984</guid>
+      <pubDate>Fri, 26 Dec 2025 17:48:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394327</comments>
+    </item>
+    <item>
+      <title>Show HN: Witr – Explain why a process is running on your Linux system</title>
+      <link>https://github.com/pranshuparmar/witr</link>
+      <description>📝 witr (why-is-this-running) 1. witr makes that causality explicit. 2 PID witr --pid 14233 Explains why a specific process exists.
+
+🔗 Read more: https://github.com/pranshuparmar/witr</description>
+      <guid isPermaLink="true">https://github.com/pranshuparmar/witr</guid>
+      <pubDate>Fri, 26 Dec 2025 15:20:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46392910</comments>
+    </item>
+    <item>
+      <title>NYC phone ban reveals some students can't read clocks</title>
+      <link>https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks</link>
+      <description>📝 “They just forgot that skill because they never used it, because they always pulled out their phone,” said Cheyenne Francis, 14. Because sometimes they don’t set the proper time. ”Several students said clocks in their school are often broken.
+
+🔗 Read more: https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks</description>
+      <guid isPermaLink="true">https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks</guid>
+      <pubDate>Fri, 26 Dec 2025 20:18:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395757</comments>
+    </item>
+    <item>
+      <title>Ask HN: What did you read in 2025?</title>
+      <link>https://news.ycombinator.com/item?id=46391572</link>
+      <description>📝 Heinlein, "Methuselah's Children" (pretty good, required to understand "Time Enough for Love")Richard K. Morgan, "Altered Carbon" (very good)Robert A. Heinlein, "Methuselah's Children" (pretty good, required to understand "Time Enough for Love")Richard K.
+
+🔗 Read more: https://news.ycombinator.com/item?id=46391572</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46391572</guid>
+      <pubDate>Fri, 26 Dec 2025 12:55:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46391572</comments>
     </item>
   </channel>
 </rss>

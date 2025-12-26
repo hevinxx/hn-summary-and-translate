@@ -6,93 +6,139 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Dec 2025 18:31:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 21:20:19 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>C/C++ 임베디드 파일(2013)</title>
-      <link>https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</link>
-      <description>📝 global incbin_" STR(이름) "_start\n" \ ". incbin_" STR(name) "_start, @object\n" \ "를 입력하세요. global incbin_" STR(이름) "_end\n" \ ".
+      <title>자외선이 어떻게 그렇게 빨리 왔는지</title>
+      <link>https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html</link>
+      <description>📝 toml을 사용하면 패키지에 코드 실행 없이 빌드 종속성을 선언할 수 있는 장소가 제공됩니다. 패키지는 python&lt;4를 선언합니다. Rust가 필요 없는 최적화 uv의 속도 중 일부는 Rust에서 비롯됩니다.
 
 
-🔤 Original: C/C++ Embedded Files (2013)
+🔤 Original: How uv got so fast
 
-🔗 Read more: https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</description>
-      <guid isPermaLink="true">https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</guid>
-      <pubDate>Fri, 26 Dec 2025 17:06:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46393924</comments>
+🔗 Read more: https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html</description>
+      <guid isPermaLink="true">https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html</guid>
+      <pubDate>Fri, 26 Dec 2025 17:13:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393992</comments>
     </item>
     <item>
-      <title>HN 표시: Rust/WASM의 AutoLISP 해석기 – 33년 전에 발명된 CAD 작업 흐름</title>
-      <link>https://acadlisp.de/noscript.html</link>
-      <description>📝 브라우저에서 직접 AutoLISP 코드를 실행하므로 AutoCAD를 설치할 필요가 없습니다. LISP를 특별하게 만드는 것. 기술 세부 정보 언어: Rust 대상: WebAssembly(WASM) 출력 형식: SVG, DXF(AutoCAD R12/AC1009) 지원되는 AutoLISP 함수: defun, setq, if, while, cond, +, -, *, /, sin, cos, sqrt, car, cdr, list, nth, command, princ 등 예제 코드 ; 직사각형 그리기 (defun 그리기 상자 (x y w h) (명령 "LINE" (list x y) (list (+ x w) y) "") (명령 "LINE" (list (+ x w) y) (list (+ x w) (+ y h)) "") (명령 "LINE" (list (+ x w) (+ y h)) (list x (+ y h)) "") (명령 "LINE" (list x (+ y h)) (list x y) "")) (draw-box 10 10 100 50) 링크 대화형 데모(JavaScript 필요) GitHub의 소스 코드입니다.
+      <title>루이스 캐롤이 행렬식을 계산한 방법</title>
+      <link>https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/</link>
+      <description>📝 원래 행렬에 모든 정수 항목이 있는 경우 Dodgson 응축 알고리즘의 나눗셈은 정확합니다. 가우스 소거에는 O(n³) 연산이 필요하며 Dodgson의 압축 알고리즘도 마찬가지입니다. 응축은 그렇지 않습니다.
 
 
-🔤 Original: Show HN: AutoLISP interpreter in Rust/WASM – a CAD workflow invented 33 yrs ago
+🔤 Original: How Lewis Carroll computed determinants
 
-🔗 Read more: https://acadlisp.de/noscript.html</description>
-      <guid isPermaLink="true">https://acadlisp.de/noscript.html</guid>
-      <pubDate>Fri, 26 Dec 2025 15:56:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46393271</comments>
+🔗 Read more: https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/</description>
+      <guid isPermaLink="true">https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/</guid>
+      <pubDate>Fri, 26 Dec 2025 19:03:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395106</comments>
     </item>
     <item>
-      <title>Em-Dash의 복원에 관한 선언문</title>
-      <link>https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</link>
-      <description>📝 2025년 12월 26일 금요일에 게시된 대시 복원에 관한 선언문 em-dash(—)는 오랫동안 영어 문장의 우아한 발판 역할을 하여 삽입 생각, 문구의 갑작스러운 전환 및 리드미컬한 일시 정지에 필요한 폭을 제공했습니다. 현대적이고 근거 없는 편견이 생겨났는데, 엠-대쉬의 존재가 의심스러운 것으로 간주되고 생각 없는 기계의 "말할 수 있는 신호"로 인용되는 것입니다. 대형 언어 모델은 단지 자신이 실제로 가질 수 없는 정교함을 모방했을 뿐이므로 실리콘 칩보다 몇 세기 앞서는 구두점을 부당하게 훼손했습니다. 겸손한 하이픈(-)은 복합어와 줄 바꿈을 위한 실용적인 스티치이지만 em 대시의 대담하고 넓은 스트로크를 비겁하게 대체하는 용도로 점점 더 많이 사용되고 있습니다. 나는 고전적인 구두점의 아름다움을 알고리즘에 양보하는 것을 거부하며, "인공적"으로 보일 것이라는 두려움으로 인해 내 산문이 밋밋해지는 것을 허용하지 않습니다. 그러므로 이제 이 마크를 봇의 도메인에서 회수하여 작성자의 손에 반환하는 것을 해결하겠습니다. 나는 이제부터 이 블로그의 경계 내에서 하이픈을 모든 구두점 및 정지 역할에서 제거하고, 문체가 있는 모든 경우에 영광스럽고 회개하지 않는 엠 대시로 대체할 것을 선언합니다. 심지어 하이픈만 사용해야 하는 경우도 있습니다.
+      <title>전문가들, 동화 같은 환각을 일으키는 새로운 버섯 탐색</title>
+      <link>https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations</link>
+      <description>📝 Jian shou qing으로 알려진 향정신성 버섯에 대한 과학적 연구를 위한 샘플을 찾고 구매하기 위해 판매자와 대화합니다. 파푸아뉴기니의 한 노인 부족민은 이 효과를 설명하면서 "그는 얼굴 주위에 버섯이 있는 작은 사람들을 보았습니다. Colin Domnauer 최근 2014년까지 정신 활성 Jian shou qing 버섯의 분류학적 정체성은 아직 남아 있었습니다. "라고 설명했습니다.
 
 
-🔤 Original: A Proclamation Regarding the Restoration of the Em-Dash
+🔤 Original: Experts explore new mushroom which causes fairytale-like hallucinations
 
-🔗 Read more: https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</description>
-      <guid isPermaLink="true">https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</guid>
-      <pubDate>Fri, 26 Dec 2025 17:29:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46394169</comments>
+🔗 Read more: https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations</description>
+      <guid isPermaLink="true">https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations</guid>
+      <pubDate>Fri, 26 Dec 2025 17:07:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393936</comments>
     </item>
     <item>
-      <title>고등학생, 150만 개의 잠재적인 새로운 천체 발견</title>
-      <link>https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</link>
-      <description>📝 Regeneron Science Talent Search 상을 수상한 후 Rosenbaum. 가변 물체의 존재를 나타낼 수 있는 적외선 복사의 작은 변화를 찾기 위해 원시 데이터를 분류한 모델입니다. 그는 Caltech 연구원들이 이미 쌍성계를 연구하기 위해 VarWISE라고 불리는 Paz의 잠재적 가변 물체 카탈로그를 활용하고 있다고 덧붙였습니다.
+      <title>쿠버네티스에 대해 생각합니다</title>
+      <link>https://garnaudov.com/writings/how-i-think-about-kubernetes/</link>
+      <description>📝 해당 개체는 내구성 있는 상태가 됩니다. Kubernetes는 한 번만 시도하지 않습니다. GitOps는 진정한 원하는 상태가 Git에 있다고 말합니다.
 
 
-🔤 Original: High School Student Discovers 1.5M Potential New Astronomical Objects
+🔤 Original: I Think about Kubernetes
 
-🔗 Read more: https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</guid>
-      <pubDate>Fri, 26 Dec 2025 15:13:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46392815</comments>
+🔗 Read more: https://garnaudov.com/writings/how-i-think-about-kubernetes/</description>
+      <guid isPermaLink="true">https://garnaudov.com/writings/how-i-think-about-kubernetes/</guid>
+      <pubDate>Fri, 26 Dec 2025 20:44:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46396043</comments>
     </item>
     <item>
-      <title>HN 표시: Xcc700: 700줄의 ESP32(Xtensa)용 자체 호스팅 미니 C 컴파일러</title>
-      <link>https://github.com/valdanylchuk/xcc700</link>
-      <description>📝 xcc700: esp32/Xtensa용 자체 호스팅 미니 C 컴파일러 이 프로젝트를 살펴봐야 하는 이유. gcc xcc700으로 컴파일합니다. ESP-IDF elf_loader로 실행합니다.
-
-
-🔤 Original: Show HN: Xcc700: Self-hosting mini C compiler for ESP32 (Xtensa) in 700 lines
-
-🔗 Read more: https://github.com/valdanylchuk/xcc700</description>
-      <guid isPermaLink="true">https://github.com/valdanylchuk/xcc700</guid>
-      <pubDate>Fri, 26 Dec 2025 15:07:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46392736</comments>
+      <title>내 인슐린 펌프 컨트롤러는 Linux 커널을 사용합니다. 또한 GPL을 위반합니다.</title>
+      <link>https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</link>
+      <guid isPermaLink="true">https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</guid>
+      <pubDate>Fri, 26 Dec 2025 19:13:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395184</comments>
     </item>
     <item>
-      <title>첨단 장비에 대한 ICE의 관심은 '무엇을 위한 것인가?'라는 새로운 질문을 제기합니다.</title>
-      <link>https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</link>
-      <guid isPermaLink="true">https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</guid>
-      <pubDate>Fri, 26 Dec 2025 17:37:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46394228</comments>
+      <title>가우스 스플래팅 3가지 방법</title>
+      <link>https://github.com/NullandKale/NullSplats</link>
+      <description>📝 백엔드/ - 프레임 추출, COLMAP 파이프라인, 표시 훈련. 훈련 탭은 gsplat 훈련을 실행하고 실시간 미리보기를 스트리밍합니다. COLMAP 탭 ui/tab_colmap.
+
+
+🔤 Original: Gaussian Splatting 3 Ways
+
+🔗 Read more: https://github.com/NullandKale/NullSplats</description>
+      <guid isPermaLink="true">https://github.com/NullandKale/NullSplats</guid>
+      <pubDate>Fri, 26 Dec 2025 19:23:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395273</comments>
     </item>
     <item>
-      <title>이제 ZJIT를 Ruby 4.0에서 사용할 수 있습니다.</title>
-      <link>https://railsatscale.com/2025-12-24-launch-zjit/</link>
-      <description>📝 이것은 매우 새로운 컴파일러입니다. 더 많은 코드 지난 5월에는 소수의 소규모 벤치마크만 실행할 수 있었습니다. C 메소드 지난 5월에는 내장 C 메소드 호출을 최적화할 수도 없었습니다.
+      <title>몽고블리드</title>
+      <link>https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py</link>
+      <guid isPermaLink="true">https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py</guid>
+      <pubDate>Fri, 26 Dec 2025 18:17:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394620</comments>
+    </item>
+    <item>
+      <title>FFmpeg는 GitHub에서 DMCA 게시 중단을 발표했습니다.</title>
+      <link>https://twitter.com/FFmpeg/status/2004599109559496984</link>
+      <description>📝 이 브라우저에서는 JavaScript가 비활성화되어 있는 것으로 감지되었습니다. x를 계속 사용하려면 JavaScript를 활성화하거나 지원되는 브라우저로 전환하세요. 서비스 약관 개인 ​​정보 보호 정책 쿠키 정책 간기 광고 정보 © 2025 X Corp.
 
 
-🔤 Original: ZJIT is now available in Ruby 4.0
+🔤 Original: FFmpeg has issued a DMCA takedown on GitHub
 
-🔗 Read more: https://railsatscale.com/2025-12-24-launch-zjit/</description>
-      <guid isPermaLink="true">https://railsatscale.com/2025-12-24-launch-zjit/</guid>
-      <pubDate>Fri, 26 Dec 2025 17:04:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46393906</comments>
+🔗 Read more: https://twitter.com/FFmpeg/status/2004599109559496984</description>
+      <guid isPermaLink="true">https://twitter.com/FFmpeg/status/2004599109559496984</guid>
+      <pubDate>Fri, 26 Dec 2025 17:48:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394327</comments>
+    </item>
+    <item>
+      <title>Show HN: Witr – Linux 시스템에서 프로세스가 실행되는 이유를 설명합니다.</title>
+      <link>https://github.com/pranshuparmar/witr</link>
+      <description>📝 witr(이것이 실행되는 이유) 1. witr은 인과관계를 명시적으로 만듭니다. 2 PID witr --pid 14233 특정 프로세스가 존재하는 이유를 설명합니다.
+
+
+🔤 Original: Show HN: Witr – Explain why a process is running on your Linux system
+
+🔗 Read more: https://github.com/pranshuparmar/witr</description>
+      <guid isPermaLink="true">https://github.com/pranshuparmar/witr</guid>
+      <pubDate>Fri, 26 Dec 2025 15:20:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46392910</comments>
+    </item>
+    <item>
+      <title>뉴욕시 전화 금지로 일부 학생들이 시계를 읽을 수 없다는 사실이 밝혀졌습니다.</title>
+      <link>https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks</link>
+      <description>📝 샤이엔 프랜시스(14세)는 “그들은 그 기술을 한 번도 사용하지 않았기 때문에 잊어버렸을 뿐이다. 왜냐하면 그들은 항상 전화기를 꺼냈기 때문”이라고 말했다. 왜냐하면 때로는 적절한 시간을 정하지 않기 때문이다. ”몇몇 학생들은 학교의 시계가 자주 고장난다고 말했습니다.
+
+
+🔤 Original: NYC phone ban reveals some students can't read clocks
+
+🔗 Read more: https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks</description>
+      <guid isPermaLink="true">https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks</guid>
+      <pubDate>Fri, 26 Dec 2025 20:18:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46395757</comments>
+    </item>
+    <item>
+      <title>HN에게 물어보세요: 2025년에 무엇을 읽었나요?</title>
+      <link>https://news.ycombinator.com/item?id=46391572</link>
+      <description>📝 Heinlein, "Methuselah's Children"(아주 좋음, "Time Enough for Love"를 이해하는 데 필요)Richard K. Morgan, "Altered Carbon"(매우 좋음)Robert A. Heinlein, "Methuselah's Children"(아주 좋음, "Time Enough for Love"를 이해하는 데 필요)Richard K.
+
+
+🔤 Original: Ask HN: What did you read in 2025?
+
+🔗 Read more: https://news.ycombinator.com/item?id=46391572</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46391572</guid>
+      <pubDate>Fri, 26 Dec 2025 12:55:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46391572</comments>
     </item>
   </channel>
 </rss>
