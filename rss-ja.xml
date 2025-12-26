@@ -6,97 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Dec 2025 15:23:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 18:31:28 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>パッケージマネージャーは Git をデータベースとして使い続けるが、決してうまくいかない</title>
-      <link>https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html</link>
-      <description>📝 ビルドごと、毎回。 vcpkg vcpkg は、Microsoft の C++ パッケージ マネージャーです。 GitHub Actions はデフォルトでシャロー クローンを使用します。
+      <title>C/C++ 埋め込みファイル (2013)</title>
+      <link>https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</link>
+      <description>📝 グローバル incbin_" STR(name) "_start\n" \ "。 incbin_" STR(name) "_start, @object\n" \ " と入力します。グローバル incbin_" STR(name) "_end\n" \ "。
 
 
-🔤 Original: Package managers keep using Git as a database, it never works out
+🔤 Original: C/C++ Embedded Files (2013)
 
-🔗 Read more: https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html</description>
-      <guid isPermaLink="true">https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html</guid>
-      <pubDate>Fri, 26 Dec 2025 12:46:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391514</comments>
+🔗 Read more: https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</description>
+      <guid isPermaLink="true">https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</guid>
+      <pubDate>Fri, 26 Dec 2025 17:06:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393924</comments>
     </item>
     <item>
-      <title>LearnixOS</title>
-      <link>https://www.learnix-os.com</link>
-      <description>📝 基礎知識 この本は技術的なもので、多少のプログラミング知識を前提としていますが、必ずしも Rust の知識を持っているわけではありません。低レベルのプログラミング知識がなくても大丈夫です。必要となる基本的な知識の一部: アセンブリの知識。私自身、Rust についてもう少し勉強していますが、この本では、Rust の優れた機能についても説明します。
+      <title>Show HN: Rust/WASM の AutoLISP インタープリタ – 33 年前に発明された CAD ワークフロー</title>
+      <link>https://acadlisp.de/noscript.html</link>
+      <description>📝 AutoLISP コードはブラウザ内で直接実行されます。AutoCAD のインストールは必要ありません。 LISP の特別な点。技術的な詳細 言語: Rust ターゲット: WebAssembly (WASM) 出力形式: SVG、DXF (AutoCAD R12/AC1009) サポートされている AutoLISP 関数: defun、setq、if、while、cond、+、-、*、/、sin、cos、sqrt、car、cdr、list、nth、command、princ など サンプル コード ;長方形を描く (defundraw-box (x y w h) (コマンド "LINE" (list x y) (list (+ x w) y) "") (コマンド "LINE" (list (+ x w) y) (list (+ x w) (+ y h)) "") (コマンド "LINE" (list (+ x w) (+ y h)) (list x (+ y h)) "") (コマンド"LINE" (list x (+ y h)) (list x y) "")) (draw-box 10 10 100 50) リンク インタラクティブ デモ (JavaScript が必要) GitHub のソース コード。
 
-🔗 Read more: https://www.learnix-os.com</description>
-      <guid isPermaLink="true">https://www.learnix-os.com</guid>
-      <pubDate>Fri, 26 Dec 2025 12:59:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391599</comments>
+
+🔤 Original: Show HN: AutoLISP interpreter in Rust/WASM – a CAD workflow invented 33 yrs ago
+
+🔗 Read more: https://acadlisp.de/noscript.html</description>
+      <guid isPermaLink="true">https://acadlisp.de/noscript.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:56:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393271</comments>
     </item>
     <item>
-      <title>私はラップトップの変人なので、新しい Framework 13 が気に入っています。</title>
-      <link>https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</link>
-      <description>📝 160 GB HDD ただし、これについては何かできるかもしれません。タッチスクリーンを追加することもできます。繰り返し壊して作り直すことができる装置を持っていました。
+      <title>エムダッシュ復活に関する宣言</title>
+      <link>https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</link>
+      <description>📝 ダッシュの復元に関する宣言 2025 年 12 月 26 日金曜日掲載 一方、エムダッシュ (—) は長い間、英語の文章のエレガントな足場として機能し、括弧で囲まれた思考、突然の語句の転換、リズミカルな休止に必要な幅を提供してきました。一方、現代の根拠のない偏見が生じており、エムダッシュの存在は疑いの目で見られ、思考を持たない機械の「物語の兆候」として引用されています。一方、大規模言語モデルは、実際には持つことのできない高度な機能を模倣しているだけであり、それによってシリコン チップより何世紀も前の句読点を不当に中傷することになります。一方、謙虚なハイフン (-) は複合語や改行の実用的なステッチですが、全角ダッシュの太字で広がりのあるストロークの卑劣な代替品として使用されることが増えています。一方、私は古典的な句読点の美しさをアルゴリズムに明け渡すことを拒否します。また、「人工的」に見えることを恐れて私の散文が平板になることも許しません。したがって、今、私はこのマークをボットのドメインから回収し、作者の手に戻すことにしました。今後、このブログの範囲内では、ハイフンを句読点とポーズのすべての役割から追放し、文体のセンスが発揮されるすべての場合において、輝かしく悔い改めないエムダッシュに置き換えることをここに宣言します。本当はハイフンだけでいいものも。
 
 
-🔤 Original: I'm a laptop weirdo and that's why I like my new Framework 13
+🔤 Original: A Proclamation Regarding the Restoration of the Em-Dash
 
-🔗 Read more: https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</description>
-      <guid isPermaLink="true">https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:27:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391410</comments>
+🔗 Read more: https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</description>
+      <guid isPermaLink="true">https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</guid>
+      <pubDate>Fri, 26 Dec 2025 17:29:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394169</comments>
     </item>
     <item>
-      <title>ロブ・パイク、GenAIをめぐって核武装へ</title>
-      <link>https://skyview.social/?url=https%3A%2F%2Fbsky.app%2Fprofile%2Frobpike.io%2Fpost%2F3matwg6w3ic2s&amp;viewtype=tree</link>
-      <guid isPermaLink="true">https://skyview.social/?url=https%3A%2F%2Fbsky.app%2Fprofile%2Frobpike.io%2Fpost%2F3matwg6w3ic2s&amp;viewtype=tree</guid>
-      <pubDate>Fri, 26 Dec 2025 14:08:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46392115</comments>
+      <title>高校生が150万個の潜在的な新天体を発見</title>
+      <link>https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</link>
+      <description>📝 Regeneron Science Talent Search 賞を受賞したローゼンバウム氏。このモデルは、可変オブジェクトの存在を示す可能性のある赤外線放射の小さな変化を探して生データを分類しました。同氏は、カリフォルニア工科大学の研究者らはすでに、VarWISEと呼ばれるパスの潜在的な変光天体のカタログを利用して連星系を研究していると付け加えた。
+
+
+🔤 Original: High School Student Discovers 1.5M Potential New Astronomical Objects
+
+🔗 Read more: https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</description>
+      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</guid>
+      <pubDate>Fri, 26 Dec 2025 15:13:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46392815</comments>
     </item>
     <item>
-      <title>バイトコードにコンパイルされた Unix の「検索」式</title>
-      <link>https://nullprogram.com/blog/2025/12/23/</link>
-      <description>📝 したがって、次のように書くこともできます: $ find. exe拡張子：$ find。または、-o: $ find を使用しても同様です。
+      <title>HN を表示: Xcc700: ESP32 (Xtensa) 用のセルフホスティング ミニ C コンパイラー (700 行)</title>
+      <link>https://github.com/valdanylchuk/xcc700</link>
+      <description>📝 xcc700: esp32 / Xtensa 用のセルフホスティング ミニ C コンパイラー このプロジェクトを検討する理由。 gcc xcc700 でコンパイルします。 ESP-IDF elf_loader で実行します。
 
 
-🔤 Original: Unix "find" expressions compiled to bytecode
+🔤 Original: Show HN: Xcc700: Self-hosting mini C compiler for ESP32 (Xtensa) in 700 lines
 
-🔗 Read more: https://nullprogram.com/blog/2025/12/23/</description>
-      <guid isPermaLink="true">https://nullprogram.com/blog/2025/12/23/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:35:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391448</comments>
+🔗 Read more: https://github.com/valdanylchuk/xcc700</description>
+      <guid isPermaLink="true">https://github.com/valdanylchuk/xcc700</guid>
+      <pubDate>Fri, 26 Dec 2025 15:07:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46392736</comments>
     </item>
     <item>
-      <title>何年もリクエストがあった後も、ChatGPT の会話にはタイムスタンプがありません</title>
-      <link>https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3</link>
-      <guid isPermaLink="true">https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3</guid>
-      <pubDate>Fri, 26 Dec 2025 12:39:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391472</comments>
+      <title>ICE のハイテク機器への関心は、「それは何のためにあるのか?」という新たな疑問を引き起こします。</title>
+      <link>https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</link>
+      <guid isPermaLink="true">https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</guid>
+      <pubDate>Fri, 26 Dec 2025 17:37:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394228</comments>
     </item>
     <item>
-      <title>最初の Web サーバー</title>
-      <link>https://dfarq.homeip.net/the-first-web-server/</link>
-      <description>📝 2006 年 8 月、CERN は最初の Web ページと最初の Web サーバーを記念し、それに関するページを作成しました。共有 共有 保存 共有 共有 共有 ポケット 共有 電子メール RSS フィード Dave FarquharDavid Farquhar は、コンピュータ セキュリティの専門家、起業家、作家です。彼は 1991 年からコンピュータについて専門的に執筆しており、レトロ コンピュータがまだ新しい頃から記事を書いていました。
+      <title>ZJIT が Ruby 4.0 で利用可能になりました</title>
+      <link>https://railsatscale.com/2025-12-24-launch-zjit/</link>
+      <description>📝 これは非常に新しいコンパイラです。さらなるコード 5 月に遡ると、少数の小さなベンチマークしか実行できませんでした。 C メソッド 5 月時点では、組み込み C メソッドの呼び出しを最適化することさえできませんでした。
 
 
-🔤 Original: The First Web Server
+🔤 Original: ZJIT is now available in Ruby 4.0
 
-🔗 Read more: https://dfarq.homeip.net/the-first-web-server/</description>
-      <guid isPermaLink="true">https://dfarq.homeip.net/the-first-web-server/</guid>
-      <pubDate>Fri, 26 Dec 2025 11:12:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391077</comments>
-    </item>
-    <item>
-      <title>CalibreがAI「ディスカッション」機能を追加</title>
-      <link>https://lwn.net/Articles/1049886/</link>
-      <description>📝 同氏は、一部の口径ユーザーを悩ませる可能性があるという考えを却下し、テヘラーニにこの機能のプルリクエストを送信するよう提案した。 「Quoth」は、この機能が廃止されるまでキャリバーを更新しないと述べた。ユーザーがそれを行わずにこれを使用しようとすると、Calibre は最初にプロバイダーを構成するようにユーザーに指示するダイアログを表示します。
-
-
-🔤 Original: Calibre adds AI "discussion" feature
-
-🔗 Read more: https://lwn.net/Articles/1049886/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/1049886/</guid>
-      <pubDate>Fri, 26 Dec 2025 10:22:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46390848</comments>
+🔗 Read more: https://railsatscale.com/2025-12-24-launch-zjit/</description>
+      <guid isPermaLink="true">https://railsatscale.com/2025-12-24-launch-zjit/</guid>
+      <pubDate>Fri, 26 Dec 2025 17:04:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393906</comments>
     </item>
   </channel>
 </rss>

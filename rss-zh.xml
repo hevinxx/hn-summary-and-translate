@@ -6,100 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Dec 2025 15:23:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 18:31:28 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>包管理器一直使用 Git 作为数据库，但从来没有成功过</title>
-      <link>https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html</link>
-      <description>📝 每一次构建，每一次。 vcpkg vcpkg 是 Microsoft 的 C++ 包管理器。 GitHub Actions 默认使用浅克隆。
+      <title>C/C++ 嵌入式文件 (2013)</title>
+      <link>https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</link>
+      <description>📝 全局 incbin_" STR(name) "_start\n" \ "。输入 incbin_" STR(name) "_start, @object\n" \ "。全局 incbin_" STR(name) "_end\n" \ "。
 
 
-🔤 Original: Package managers keep using Git as a database, it never works out
+🔤 Original: C/C++ Embedded Files (2013)
 
-🔗 Read more: https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html</description>
-      <guid isPermaLink="true">https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html</guid>
-      <pubDate>Fri, 26 Dec 2025 12:46:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391514</comments>
+🔗 Read more: https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</description>
+      <guid isPermaLink="true">https://www.4rknova.com//blog/2013/01/27/cpp-embedded-files</guid>
+      <pubDate>Fri, 26 Dec 2025 17:06:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393924</comments>
     </item>
     <item>
-      <title>Learnix操作系统</title>
-      <link>https://www.learnix-os.com</link>
-      <description>📝 基础知识这本书将是技术性的，并且将假设有一点编程知识背景，但不一定是 rust 如果您没有低级编程知识，那也没关系。您需要具备的一些基础知识： 一些装配知识。我自己对 Rust 有更多的学习，在这本书中我还将解释它的一些很棒的功能。
+      <title>Show HN：Rust/WASM 中的 AutoLISP 解释器 – 33 年前发明的 CAD 工作流程</title>
+      <link>https://acadlisp.de/noscript.html</link>
+      <description>📝 它直接在浏览器中运行 AutoLISP 代码 - 无需安装 AutoCAD。 LISP 有何特别之处。技术细节 语言：Rust 目标：WebAssembly (WASM) 输出格式：SVG、DXF (AutoCAD R12/AC1009) 支持的 AutoLISP 函数：defun、setq、if、while、cond、+、-、*、/、sin、cos、sqrt、car、cdr、list、nth、command、princ 等 示例代码；绘制一个矩形 (defun draw-box (x y w h) (命令 "LINE" (list x y) (list (+ x w) y) "") (命令 "LINE" (list (+ x w) y) (list (+ x w) (+ y h)) "") (命令 "LINE" (list (+ x w) (+ y h)) (list x (+ y h)) "") (命令 "LINE" (list x (+ y h)) (list x y) "")) (draw-box 10 10 100 50) 链接交互式演示（需要 JavaScript） GitHub 上的源代码。
 
 
-🔤 Original: LearnixOS
+🔤 Original: Show HN: AutoLISP interpreter in Rust/WASM – a CAD workflow invented 33 yrs ago
 
-🔗 Read more: https://www.learnix-os.com</description>
-      <guid isPermaLink="true">https://www.learnix-os.com</guid>
-      <pubDate>Fri, 26 Dec 2025 12:59:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391599</comments>
+🔗 Read more: https://acadlisp.de/noscript.html</description>
+      <guid isPermaLink="true">https://acadlisp.de/noscript.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:56:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393271</comments>
     </item>
     <item>
-      <title>我是一个笔记本电脑怪人，这就是为什么我喜欢我的新 Framework 13</title>
-      <link>https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</link>
-      <description>📝 160 GB HDD 不过，可以对此采取一些措施。您可以添加触摸屏。我有一个可以反复破坏和改造的设备。
+      <title>关于恢复 Em-Dash 的公告</title>
+      <link>https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</link>
+      <description>📝 关于恢复破折号的公告 发布于 2025 年 12 月 26 日星期五 鉴于，破折号 (—) 长期以来一直充当英语句子的优雅支架，为插入式思维、突然的短语转换和有节奏的停顿提供必要的广度；鉴于，一种现代的、毫无根据的偏见已经出现，其中破折号的存在被怀疑地看待，并被认为是不思考的机器的“泄密标志”；鉴于，大型语言模型只是模仿了它无法真正拥有的复杂性，从而不公平地诽谤了早于硅芯片几个世纪的标点符号；鉴于，不起眼的连字符 (-) 是复合词和换行符的实用针法，但越来越多地被用作粗体、宽大的破折号的替代品；鉴于，我拒绝将古典标点符号的美让给算法，也不会让我的散文因担心看起来“人造”而变得扁平化；因此，现在决定，我从机器人的领域收回这个标记，并将其返回到作者的手中。我特此下令，从此以后，在本博客的范围内，连字符将不再具有标点符号和停顿的所有作用，而在每一个风格天赋的实例中，都将被光荣的、不屈不挠的破折号所取代。即使那些实际上应该只是连字符的。
 
 
-🔤 Original: I'm a laptop weirdo and that's why I like my new Framework 13
+🔤 Original: A Proclamation Regarding the Restoration of the Em-Dash
 
-🔗 Read more: https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</description>
-      <guid isPermaLink="true">https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:27:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391410</comments>
+🔗 Read more: https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</description>
+      <guid isPermaLink="true">https://blog.nawaz.org/posts/2025/Dec/a-proclamation-regarding-the-restoration-of-the-dash/</guid>
+      <pubDate>Fri, 26 Dec 2025 17:29:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394169</comments>
     </item>
     <item>
-      <title>Rob Pike 对 GenAI 的态度更加坚定</title>
-      <link>https://skyview.social/?url=https%3A%2F%2Fbsky.app%2Fprofile%2Frobpike.io%2Fpost%2F3matwg6w3ic2s&amp;viewtype=tree</link>
-      <guid isPermaLink="true">https://skyview.social/?url=https%3A%2F%2Fbsky.app%2Fprofile%2Frobpike.io%2Fpost%2F3matwg6w3ic2s&amp;viewtype=tree</guid>
-      <pubDate>Fri, 26 Dec 2025 14:08:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46392115</comments>
+      <title>高中生发现了 150 万个潜在的新天体</title>
+      <link>https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</link>
+      <description>📝 罗森鲍姆荣获再生元科学人才搜寻奖。该模型对原始数据进行排序，寻找红外辐射的微小变化，这可以表明可变物体的存在。他补充说，加州理工学院的研究人员已经在利用 Paz 的潜在可变天体目录（称为 VarWISE）来研究双星系统。
+
+
+🔤 Original: High School Student Discovers 1.5M Potential New Astronomical Objects
+
+🔗 Read more: https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</description>
+      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/</guid>
+      <pubDate>Fri, 26 Dec 2025 15:13:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46392815</comments>
     </item>
     <item>
-      <title>Unix“查找”表达式编译为字节码</title>
-      <link>https://nullprogram.com/blog/2025/12/23/</link>
-      <description>📝 所以我们也可以这样写： $ find 。 exe 扩展名：$find.exe或者与 -o: $ find 等效。
+      <title>显示 HN：Xcc700：ESP32 (Xtensa) 的自托管迷你 C 编译器（700 行）</title>
+      <link>https://github.com/valdanylchuk/xcc700</link>
+      <description>📝 xcc700：适用于 esp32 / Xtensa 的自托管迷你 C 编译器 为什么要研究这个项目。使用 gcc xcc700 编译。使用 ESP-IDF elf_loader 运行。
 
 
-🔤 Original: Unix "find" expressions compiled to bytecode
+🔤 Original: Show HN: Xcc700: Self-hosting mini C compiler for ESP32 (Xtensa) in 700 lines
 
-🔗 Read more: https://nullprogram.com/blog/2025/12/23/</description>
-      <guid isPermaLink="true">https://nullprogram.com/blog/2025/12/23/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:35:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391448</comments>
+🔗 Read more: https://github.com/valdanylchuk/xcc700</description>
+      <guid isPermaLink="true">https://github.com/valdanylchuk/xcc700</guid>
+      <pubDate>Fri, 26 Dec 2025 15:07:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46392736</comments>
     </item>
     <item>
-      <title>经过多年的请求，ChatGPT 对话仍然缺乏时间戳</title>
-      <link>https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3</link>
-      <guid isPermaLink="true">https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3</guid>
-      <pubDate>Fri, 26 Dec 2025 12:39:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391472</comments>
+      <title>ICE 对高科技装备的兴趣引发了新的问题：“它的用途是什么？”</title>
+      <link>https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</link>
+      <guid isPermaLink="true">https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</guid>
+      <pubDate>Fri, 26 Dec 2025 17:37:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46394228</comments>
     </item>
     <item>
-      <title>第一个网络服务器</title>
-      <link>https://dfarq.homeip.net/the-first-web-server/</link>
-      <description>📝 2006 年 8 月，CERN 纪念了第一个网页和第一个网络服务器，并附有相关页面。分享 分享 保存 分享 分享 口袋 分享 电子邮件 RSS feed Dave FarquharDavid Farquhar 是一位计算机安全专家、企业家和作家。自 1991 年以来，他一直在撰写有关计算机的专业文章，因此他在复古计算机还很新的时候就撰写了有关它们的文章。
+      <title>ZJIT 现已在 Ruby 4.0 中提供</title>
+      <link>https://railsatscale.com/2025-12-24-launch-zjit/</link>
+      <description>📝 这是一个非常新的编译器。更多代码 早在五月份，我们只能运行少量的小型基准测试。 C 方法 早在 5 月份，我们甚至无法优化对内置 C 方法的调用。
 
 
-🔤 Original: The First Web Server
+🔤 Original: ZJIT is now available in Ruby 4.0
 
-🔗 Read more: https://dfarq.homeip.net/the-first-web-server/</description>
-      <guid isPermaLink="true">https://dfarq.homeip.net/the-first-web-server/</guid>
-      <pubDate>Fri, 26 Dec 2025 11:12:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46391077</comments>
-    </item>
-    <item>
-      <title>Calibre新增AI“讨论”功能</title>
-      <link>https://lwn.net/Articles/1049886/</link>
-      <description>📝 他否认了这可能会困扰一些 calibre 用户的想法，并建议 Tehrani 提交该功能的拉取请求。 “Quoth”表示，在该功能被废弃之前，他们不会更新 calibre。如果用户尝试在不这样做的情况下使用它，calibre 会显示一个对话框，指导用户首先配置提供程序。
-
-
-🔤 Original: Calibre adds AI "discussion" feature
-
-🔗 Read more: https://lwn.net/Articles/1049886/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/1049886/</guid>
-      <pubDate>Fri, 26 Dec 2025 10:22:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46390848</comments>
+🔗 Read more: https://railsatscale.com/2025-12-24-launch-zjit/</description>
+      <guid isPermaLink="true">https://railsatscale.com/2025-12-24-launch-zjit/</guid>
+      <pubDate>Fri, 26 Dec 2025 17:04:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46393906</comments>
     </item>
   </channel>
 </rss>
