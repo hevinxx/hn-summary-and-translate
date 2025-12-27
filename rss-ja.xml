@@ -6,47 +6,113 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 27 Dec 2025 15:20:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 18:30:15 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Apple、2D 写真を瞬時に 3D ビューに変換するオープンソース モデルをリリース</title>
-      <link>https://github.com/apple/ml-sharp</link>
-      <description>📝 1 秒未満のシャープな単眼ビュー合成 このソフトウェア プロジェクトには、研究論文が付属しています。「1 秒未満のシャープな単眼ビュー合成」 by Lars Mescheder、Wei Dong、Shiwei Li、Xuyang Bai、Marcel Santos、Peiyun Hu、Bruno Lecouat、Mingmin Zhen、Amaël Delaunoy、Tian Fang、Yanghai Tsin、Stephan Richter およびヴラドレン・コルトゥン。実験結果は、SHARP がデータセット全体にわたって堅牢なゼロショット汎化を実現することを示しています。 Sharp detect -i /path/to/input/images -o /path/to/output/gaussians --render # または中間ガウスから: Sharp render -i /path/to/output/gaussians -o /path/to/output/renderings 評価 定量的評価と定性的評価の両方については、論文を参照してください。
+      <title>ジャネット・ジャクソンはラップトップ・コンピューターをクラッシュさせる力を持っていた (2022)</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994</link>
+      <description>📝 大手コンピュータ メーカーは、ジャネット ジャクソンの「リズム ネイション」のミュージック ビデオを再生すると、特定のモデルのラップトップがクラッシュすることを発見しました。調査中に発見されたことの 1 つは、ミュージック ビデオを再生すると、競合他社のラップトップの一部もクラッシュしたということです。そして、彼らは非常に奇妙なことを発見しました。1 台のラップトップでミュージック ビデオを再生すると、他のラップトップではビデオが再生されていないにもかかわらず、近くにあったラップトップがクラッシュしました。
 
 
-🔤 Original: Apple releases open-source model that instantly turns 2D photos into 3D views
+🔤 Original: Janet Jackson had the power to crash laptop computers (2022)
 
-🔗 Read more: https://github.com/apple/ml-sharp</description>
-      <guid isPermaLink="true">https://github.com/apple/ml-sharp</guid>
-      <pubDate>Sat, 27 Dec 2025 12:58:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46401539</comments>
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994</guid>
+      <pubDate>Sat, 27 Dec 2025 17:16:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46403291</comments>
     </item>
     <item>
-      <title>ヴェルディヒトゥン</title>
-      <link>https://alexeygy.github.io/blog/verdichtung/</link>
-      <description>📝 2025-12-26 - Verdichtung Verdichtung は、大まかに「高密度化」を意味するドイツ語です。上記を見ると、ほとんどのシナリオで、Verdichtung は個人所有から民間企業または協同組合、個人の賃貸への移行につながることがわかります。ただし、Verdichtung にはいくつかの利点もあります。
-
-
-🔤 Original: Verdichtung
-
-🔗 Read more: https://alexeygy.github.io/blog/verdichtung/</description>
-      <guid isPermaLink="true">https://alexeygy.github.io/blog/verdichtung/</guid>
-      <pubDate>Sat, 27 Dec 2025 08:42:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46400242</comments>
+      <title>フロア796</title>
+      <link>https://floor796.com/</link>
+      <guid isPermaLink="true">https://floor796.com/</guid>
+      <pubDate>Sat, 27 Dec 2025 13:13:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46401612</comments>
     </item>
     <item>
-      <title>OrangePi 6 Plus レビュー: ARM64 SBC パフォーマンスの新境地</title>
-      <link>https://boilingsteam.com/orange-pi-6-plus-review/</link>
-      <description>📝 私たちが話しているのは、明らかに大型で、統合されたヒートシンクが直接付属しているものです。では、これで何ができるのかを見ていきましょう。フォーマットを見れば、ハードウェアに対する期待が高まることがわかります。
+      <title>GPG.失敗</title>
+      <link>https://gpg.fail</link>
+      <guid isPermaLink="true">https://gpg.fail</guid>
+      <pubDate>Sat, 27 Dec 2025 17:05:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46403200</comments>
+    </item>
+    <item>
+      <title>NMHベーシック</title>
+      <link>https://t3x.org/nmhbasic/index.html</link>
+      <description>📝 1、90KB) | man ページ これは、1990 年代初頭に私が作成した小さな BASIC インタプリタです。私は当初インタプリタに 12K-BASIC という名前を付けていましたが、すぐに他の人が私よりも前にそのアイデアを持っていたことを知りました。 CP/M で実行されるインタプリタの簡易バージョンもあります。
 
 
-🔤 Original: OrangePi 6 Plus Review: The New Frontier for ARM64 SBC Performance
+🔤 Original: NMH BASIC
 
-🔗 Read more: https://boilingsteam.com/orange-pi-6-plus-review/</description>
-      <guid isPermaLink="true">https://boilingsteam.com/orange-pi-6-plus-review/</guid>
-      <pubDate>Sat, 27 Dec 2025 12:51:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46401499</comments>
+🔗 Read more: https://t3x.org/nmhbasic/index.html</description>
+      <guid isPermaLink="true">https://t3x.org/nmhbasic/index.html</guid>
+      <pubDate>Sat, 27 Dec 2025 14:05:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46401938</comments>
+    </item>
+    <item>
+      <title>この PNG は、Chrome でロードされた場合と Safari でロードされた場合では異なるバージョンを表示します。</title>
+      <link>https://lr0.org/blog/p/pngchanges/</link>
+      <description>📝 Chrome はデスクトップ アプリとは異なるガンマ演算を適用しているはずです。 pngResult: まだ霧がかかっています。その色空間のピクセル値を sRGB 3 に変換します。
+
+
+🔤 Original: This PNG shows a different version when loaded in Chrome than in Safari
+
+🔗 Read more: https://lr0.org/blog/p/pngchanges/</description>
+      <guid isPermaLink="true">https://lr0.org/blog/p/pngchanges/</guid>
+      <pubDate>Sat, 27 Dec 2025 16:48:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46403048</comments>
+    </item>
+    <item>
+      <title>世界準備通貨としての米ドルのシェアが1994年以来最低に低下</title>
+      <link>https://wolfstreet.com/2025/12/26/status-of-the-us-dollar-as-global-reserve-currency-usd-share-drops-to-lowest-since-1994/</link>
+      <description>📝 中央銀行は保有資産を数十の小規模な「非伝統的準備通貨」に分散させている。他の中央銀行が保有する米ドル建て資産の割合は56.41兆ユーロ資産（EUR）：2ドルに低下した。
+
+
+🔤 Original: USD Share as Global Reserve Currency Drops to Lowest Since 1994
+
+🔗 Read more: https://wolfstreet.com/2025/12/26/status-of-the-us-dollar-as-global-reserve-currency-usd-share-drops-to-lowest-since-1994/</description>
+      <guid isPermaLink="true">https://wolfstreet.com/2025/12/26/status-of-the-us-dollar-as-global-reserve-currency-usd-share-drops-to-lowest-since-1994/</guid>
+      <pubDate>Sat, 27 Dec 2025 17:14:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46403276</comments>
+    </item>
+    <item>
+      <title>ネーターの定理の一世紀</title>
+      <link>https://arxiv.org/abs/1902.01989</link>
+      <description>📝 ) 接続されたペーパー 接続されたペーパーを切り替えます (接続されたペーパーとは何ですか。) リットマップ リットマップを切り替えます (リットマップとは。) コードへのリンク コード付きペーパーを切り替えます (コード付きペーパーとは。)
+
+
+🔤 Original: A Century of Noether's Theorem
+
+🔗 Read more: https://arxiv.org/abs/1902.01989</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/1902.01989</guid>
+      <pubDate>Sat, 27 Dec 2025 15:42:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46402611</comments>
+    </item>
+    <item>
+      <title>平文署名は有害であると考えられる</title>
+      <link>https://gnupg.org/blog/20251226-cleartext-signatures.html</link>
+      <description>📝 asc または gpgv -o 署名付き。しかし、今でも平文の署名付きメールを受け取ることがあります。平文で署名されたメッセージのいくつかの落とし穴 30 年間、平文で署名されたメッセージは攻撃されやすいことが知られていました。
+
+
+🔤 Original: Cleartext Signatures Considered Harmful
+
+🔗 Read more: https://gnupg.org/blog/20251226-cleartext-signatures.html</description>
+      <guid isPermaLink="true">https://gnupg.org/blog/20251226-cleartext-signatures.html</guid>
+      <pubDate>Sat, 27 Dec 2025 18:03:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46403741</comments>
+    </item>
+    <item>
+      <title>Nvidia は収益目標を 75% 達成できなかった企業に 200 億ドルを支払ったところです</title>
+      <link>https://blog.drjoshcsimmons.com/p/nvidia-just-paid-20-billion-for-a</link>
+      <description>📝 「考え方。Groq はこの方法を高速化するハードウェアとソフトウェアに特化しています。次のように考えてください。」
+
+
+🔤 Original: Nvidia just paid $20B for a company that missed its revenue target by 75%
+
+🔗 Read more: https://blog.drjoshcsimmons.com/p/nvidia-just-paid-20-billion-for-a</description>
+      <guid isPermaLink="true">https://blog.drjoshcsimmons.com/p/nvidia-just-paid-20-billion-for-a</guid>
+      <pubDate>Sat, 27 Dec 2025 16:47:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46403041</comments>
     </item>
   </channel>
 </rss>
