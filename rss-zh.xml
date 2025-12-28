@@ -6,145 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 28 Dec 2025 01:52:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 04:09:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>用 HTML 替换 JavaScript</title>
-      <link>https://www.htmhell.dev/adventcalendar/2025/27/</link>
-      <description>📝 &lt;/details&gt;在所有相关详细信息（如单选按钮）上使用相同的名称属性，以限制一次只能打开一个面板：&lt;details name="foo" open&gt; &lt;summary&gt;最初打开，单击其他内容将关闭此内容&lt;/summary&gt; 内容最初可见，但可以通过单击摘要隐藏；一次只能打开一个面板。 &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;最初关闭，点击将打开此，关闭其他内容&lt;/summary&gt; 内容最初是隐藏的，但可以通过点击摘要显示；一次只能打开一个面板。 &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;最初关闭，点击将打开此，关闭其他内容&lt;/summary&gt; 内容最初是隐藏的，但可以通过点击摘要显示；一次只能打开一个面板。
+      <title>父亲的选择可能会被包装在精子 RNA 中并遗传下来</title>
+      <link>https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</link>
+      <description>📝 首页 爸爸的健康状况如何通过精子 RNA 进行包装和传递 评论 保存文章 稍后阅读 分享 Facebook 已复制。 Quanta 杂志的 Myriam Wares 简介 标准的精子与卵子相遇的故事认为，精子细胞只不过是一束用收缩膜包裹的带有尾巴的 DNA。他说，这个故事的一些要素很清楚：研究人员有重要证据表明环境可以调节精子 RNA，这些分子将性状传递给后代，并且它们可以调节受精后的胚胎发育。
 
 
-🔤 Original: Replacing JavaScript with Just HTML
+🔤 Original: Fathers’ choices may be packaged and passed down in sperm RNA
 
-🔗 Read more: https://www.htmhell.dev/adventcalendar/2025/27/</description>
-      <guid isPermaLink="true">https://www.htmhell.dev/adventcalendar/2025/27/</guid>
-      <pubDate>Sun, 28 Dec 2025 01:07:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46407337</comments>
+🔗 Read more: https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</description>
+      <guid isPermaLink="true">https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</guid>
+      <pubDate>Sun, 28 Dec 2025 01:33:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46407502</comments>
     </item>
     <item>
-      <title>为什么可靠性需要函数式编程</title>
-      <link>https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</link>
-      <description>📝 产品类型示例 (* OCaml *) type user = { id : int;名称：字符串； email：字符串选项； (* 某些 "[email protected]" 或 None *) } // TypeScript 类型 User = Readonly&lt;{ id: number;名称：字符串；电子邮件。 ： 细绳; // 我们将使用 Option next 来改进这一点 }&gt;; Sum 类型示例 (* OCaml *) 类型 payment = |现金|字符串卡（* 最后 4 位数字 *）|字符串的像素 // TypeScript 可区分的联合类型 Payment = | { 种类：“现金” } | { 种类：“卡”；最后 4: 字符串 } | { 种类：“像素”；键：字符串}；有了这种形状，“paypal”就不能作为付款而存在。使用 ADT (* OCaml *) 修复类型 failure_reason = |资金不足|合规保留|字符串类型的网络错误 txn_state = |待定 |已结算字符串 (* ledger_id *) |失败或failure_reason | string (*original_ledger_id*) 的反转 type txn = { id : string; amount_cents : int;状态：txn_state； } // TypeScript 类型 FailureReason = | { kind: "资金不足" } | { kind: "complianceHold" } | { 种类：“网络错误”；消息：字符串 } 类型 TxnState = | { 种类：“待定” } | { kind: "解决"; ledgerId: 字符串 } | { 种类：“失败”；原因：失败原因 } | { 种类：“反转”； OriginalLedgerId: string } type Txn = Readonly&lt;{ id: string amountCents: number state: TxnState }&gt; 转换成为总函数。
+      <title>在 ESP32 上解放蓝牙</title>
+      <link>https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</link>
+      <description>📝 您的网络浏览器中的 JavaScript 似乎已被阻止或禁用。很抱歉，PeerTube 似乎与您的网络浏览器不兼容。请尝试使用最新版本的 Mozilla Firefox。
 
 
-🔤 Original: Why Reliability Demands Functional Programming
+🔤 Original: Liberating Bluetooth on the ESP32
 
-🔗 Read more: https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</description>
-      <guid isPermaLink="true">https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</guid>
-      <pubDate>Sun, 28 Dec 2025 00:05:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406901</comments>
-    </item>
-    <item>
-      <title>《彩虹六号：围攻》遭遇黑客攻击，玩家获得数十亿积分并被随机封禁</title>
-      <link>https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</link>
-      <description>📝 突发事件：育碧《彩虹六号：围攻》服务器遭到破坏。我们了解到目前影响《彩虹六号：围攻》的事件。一些玩家还质疑为什么游戏会保持在线数小时，而账户却在实时更改。
-
-
-🔤 Original: Rainbow Six Siege hacked as players get billions of credits and random bans
-
-🔗 Read more: https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</description>
-      <guid isPermaLink="true">https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</guid>
-      <pubDate>Sat, 27 Dec 2025 19:45:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46404597</comments>
-    </item>
-    <item>
-      <title>显示 HN：Waycore – 一款开源、离线优先的模块化现场计算机</title>
-      <link>https://news.ycombinator.com/item?id=46406486</link>
-      <description>📝 AI 的目的是：通过离线知识使用应用程序和核心 API 读取实时传感器数据（GPS、指南针、环境），并协助导航、安全检查、日志记录和通信主要项目存储库（操作系统和架构）：https://github。 com/dmitry-grechko/waycore 还有一个单独的存储库，其中包含可免费下载的生存和户外 PDF 供离线使用：https://github。 com/dmitry-grechko/waycore-knowledge我正在寻找以下方面的反馈和贡献者：坚固耐用的触摸设备的 UI/UX 硬件模块化和接口离线/边缘代理架构在没有互联网的情况下也能正常工作的小型模型高质量的公共领域或宽容的生存知识源乐于回答问题或听到批评。
-
-
-🔤 Original: Show HN: Waycore – an open-source, offline-first modular field computer
-
-🔗 Read more: https://news.ycombinator.com/item?id=46406486</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46406486</guid>
-      <pubDate>Sat, 27 Dec 2025 23:16:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406486</comments>
-    </item>
-    <item>
-      <title>SSL 证书的危险</title>
-      <link>https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</link>
-      <description>📝 事实上，这个案例就是自动证书续订系统失败的一个例子。证书不会经常出现问题，特别是当您使用自动证书续订时。也就是说，直到它停止工作。
-
-
-🔤 Original: The Dangers of SSL Certificates
-
-🔗 Read more: https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</description>
-      <guid isPermaLink="true">https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</guid>
-      <pubDate>Sat, 27 Dec 2025 22:41:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406129</comments>
-    </item>
-    <item>
-      <title>7 段和 14 段字体“DSEG”</title>
-      <link>https://www.keshikan.net/fonts.html</link>
-      <description>📝 30以前はSIL开放字体授权ではないため、同梱のライセンスをよく読みお使いください。引き続き使用は可能です。 Javascript+CSS3でコーディングしたデジタル时计のサンプルです。コロン(U+003A)":"と半角suペーsu(U+0020)" "のfuォntto幅を同じにしているため、コロンを半角supesuに置き换えるだけで点灭表现ができます。上の「2. プurikeーション例」を参照。ピriオド(U+002E)"。を実施して下さい。 「DSEG」の転载时や「DSEGを改変したもの」を配布する际は、ライセンsuを変えず、SIL开放字体许可证1.
-
-
-🔤 Original: 7- and 14-segment fonts "DSEG"
-
-🔗 Read more: https://www.keshikan.net/fonts.html</description>
-      <guid isPermaLink="true">https://www.keshikan.net/fonts.html</guid>
-      <pubDate>Sat, 27 Dec 2025 22:49:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406213</comments>
-    </item>
-    <item>
-      <title>辉瑞最终在 90 年代初（2024 年）传承了我的 GLP-1 工作</title>
-      <link>https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</link>
-      <description>📝 STAT+ 独家故事 已经有一个帐户。已经有一个帐户。 2-10 个用户 每位用户每年 300 美元 每年 300 美元 开始使用 每位用户每年 300 美元 查看所有计划 要阅读本文的其余部分，请订阅 STAT+。
-
-
-🔤 Original: Pfizer ended up passing on my GLP-1 work back in the early '90s (2024)
-
-🔗 Read more: https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</description>
-      <guid isPermaLink="true">https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:36:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405480</comments>
-    </item>
-    <item>
-      <title>Richard Stallman 在 1984 年第一届黑客大会上 [视频]</title>
-      <link>https://www.youtube.com/watch?v=Hf2pfzzWPYE</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=Hf2pfzzWPYE</guid>
-      <pubDate>Sat, 27 Dec 2025 21:15:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405306</comments>
-    </item>
-    <item>
-      <title>我们如何发现 COINTELPRO (2014)</title>
-      <link>https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</link>
-      <description>📝 本期还有《当代资本主义中法西斯主义的回归》《华尔街的犯罪行为》《生态健全和社会公正的经济》《阅读障碍的政治经济学》《资本主义》一词已经失去了激进的边缘《生活在（右翼）媒体中》《飞行模式》马丁·奥本海默的书籍《白领政治》作者马丁·奥本海默。
-
-
-🔤 Original: How We Found Out About COINTELPRO (2014)
-
-🔗 Read more: https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</description>
-      <guid isPermaLink="true">https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:36:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405481</comments>
-    </item>
-    <item>
-      <title>对 NHS 中的 Palantir 说不</title>
-      <link>https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</link>
-      <description>📝 我们使用有限的 cookie 我们在必要时使用 cookie，以便我们了解人们如何与我们的网站和内容互动，以便我们能够继续改进我们的服务。我们只收到匿名信息，无法在其他网站上跟踪您。查看我们的隐私政策。
-
-
-🔤 Original: Say No to Palantir in the NHS
-
-🔗 Read more: https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</description>
-      <guid isPermaLink="true">https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:15:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405309</comments>
-    </item>
-    <item>
-      <title>旅行社用了10年才倒闭。开发商已投入3年时间</title>
-      <link>https://martinalderson.com/posts/travel-agents-developers/</link>
-      <description>📝 历史 有趣的是，在研究本文时，还有一些重要的其他因素在起作用。我确实觉得现在软件工程职位和合同正在发生这种情况。我认为这对于软件工程来说是一个非常有说服力的故事。
-
-
-🔤 Original: Travel agents took 10 years to collapse. Developers are 3 years in
-
-🔗 Read more: https://martinalderson.com/posts/travel-agents-developers/</description>
-      <guid isPermaLink="true">https://martinalderson.com/posts/travel-agents-developers/</guid>
-      <pubDate>Sat, 27 Dec 2025 20:02:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46404753</comments>
+🔗 Read more: https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</description>
+      <guid isPermaLink="true">https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</guid>
+      <pubDate>Sat, 27 Dec 2025 22:37:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46406098</comments>
     </item>
   </channel>
 </rss>

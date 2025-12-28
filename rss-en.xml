@@ -6,115 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Dec 2025 01:52:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 04:09:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Replacing JavaScript with Just HTML</title>
-      <link>https://www.htmhell.dev/adventcalendar/2025/27/</link>
-      <description>📝 &lt;/details&gt;Use the same name attribute on all related details (like radio buttons) to restrict only one open panel at a time:&lt;details name="foo" open&gt; &lt;summary&gt;Initially open, clicking others will close this&lt;/summary&gt; Content is initially visible, but can be hidden by clicking the summary; only one panel can be open at a time. &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;Initially closed, clicking will open this, and close others&lt;/summary&gt; Content is initially hidden, but can be revealed by clicking the summary; only one panel can be open at a time. &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;Initially closed, clicking will open this, and close others&lt;/summary&gt; Content is initially hidden, but can be revealed by clicking the summary; only one panel can be open at a time.
+      <title>Fathers’ choices may be packaged and passed down in sperm RNA</title>
+      <link>https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</link>
+      <description>📝 Home How Dad’s Fitness May Be Packaged and Passed Down in Sperm RNA Comment Save Article Read Later Share Facebook Copied. Myriam Wares for Quanta Magazine Introduction The standard sperm-meets-egg story posits that sperm cells are hardly more than bundles of shrink-wrapped DNA with tails. Some elements of the story are clear, he said: Researchers have significant evidence that the environment can regulate sperm RNAs, that these molecules transmit traits to offspring and that they can regulate embryonic development after fertilization.
 
-🔗 Read more: https://www.htmhell.dev/adventcalendar/2025/27/</description>
-      <guid isPermaLink="true">https://www.htmhell.dev/adventcalendar/2025/27/</guid>
-      <pubDate>Sun, 28 Dec 2025 01:07:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46407337</comments>
+🔗 Read more: https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</description>
+      <guid isPermaLink="true">https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</guid>
+      <pubDate>Sun, 28 Dec 2025 01:33:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46407502</comments>
     </item>
     <item>
-      <title>Why Reliability Demands Functional Programming</title>
-      <link>https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</link>
-      <description>📝 Product type example (* OCaml *) type user = { id : int; name : string; email : string option; (* Some "[email protected]" or None *) } // TypeScript type User = Readonly&lt;{ id: number; name: string; email. : string; // we will improve this with Option next }&gt;; Sum type example (* OCaml *) type payment = | Cash | Card of string (* last 4 digits *) | Pix of string // TypeScript discriminated union type Payment = | { kind: "cash" } | { kind: "card"; last4: string } | { kind: "pix"; key: string }; With this shape, "paypal" cannot exist as a Payment. Fix with ADTs (* OCaml *) type failure_reason = | InsufficientFunds | ComplianceHold | NetworkError of string type txn_state = | Pending | Settled of string (* ledger_id *) | Failed of failure_reason | Reversed of string (* original_ledger_id *) type txn = { id : string; amount_cents : int; state : txn_state; } // TypeScript type FailureReason = | { kind: "insufficientFunds" } | { kind: "complianceHold" } | { kind: "networkError"; message: string } type TxnState = | { kind: "pending" } | { kind: "settled"; ledgerId: string } | { kind: "failed"; reason: FailureReason } | { kind: "reversed"; originalLedgerId: string } type Txn = Readonly&lt;{ id: string amountCents: number state: TxnState }&gt; Transitions become total functions.
+      <title>Liberating Bluetooth on the ESP32</title>
+      <link>https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</link>
+      <description>📝 It seems JavaScript is either blocked or disabled in your web browser. We are sorry but it seems that PeerTube is not compatible with your web browser. Please try with the latest version of Mozilla Firefox.
 
-🔗 Read more: https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</description>
-      <guid isPermaLink="true">https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</guid>
-      <pubDate>Sun, 28 Dec 2025 00:05:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406901</comments>
-    </item>
-    <item>
-      <title>Rainbow Six Siege hacked as players get billions of credits and random bans</title>
-      <link>https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</link>
-      <description>📝 BREAKING: Ubisoft Rainbow Six Siege servers have been breached. We’re aware of an incident currently affecting Rainbow Six Siege. Some players also questioned why the game remained online for hours while accounts were being altered in real time.
-
-🔗 Read more: https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</description>
-      <guid isPermaLink="true">https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</guid>
-      <pubDate>Sat, 27 Dec 2025 19:45:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46404597</comments>
-    </item>
-    <item>
-      <title>Show HN: Waycore – an open-source, offline-first modular field computer</title>
-      <link>https://news.ycombinator.com/item?id=46406486</link>
-      <description>📝 The AI is intended to:read live sensor data (GPS, compass, environment)reason over offline knowledgeuse apps and core APIsassist with navigation, safety checks, logging, and communicationMain project repo (OS &amp; architecture): https://github. com/dmitry-grechko/waycoreThere’s also a separate repo curating freely downloadable survival &amp; outdoor PDFs for offline use: https://github. com/dmitry-grechko/waycore-knowledgeI’m looking for feedback and contributors around:UI/UX for rugged touch deviceshardware modularity &amp; interfacesoffline/edge agent architecturessmall models that work well without internethigh-quality public-domain or permissive survival knowledge sourcesHappy to answer questions or hear critique.
-
-🔗 Read more: https://news.ycombinator.com/item?id=46406486</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46406486</guid>
-      <pubDate>Sat, 27 Dec 2025 23:16:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406486</comments>
-    </item>
-    <item>
-      <title>The Dangers of SSL Certificates</title>
-      <link>https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</link>
-      <description>📝 In fact, this very case is an example of an automated certificate renewal system that failed. And things don’t go wrong that often with certificates, especially if you’re using automated cert renewal. That is, until it stops working.
-
-🔗 Read more: https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</description>
-      <guid isPermaLink="true">https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</guid>
-      <pubDate>Sat, 27 Dec 2025 22:41:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406129</comments>
-    </item>
-    <item>
-      <title>7- and 14-segment fonts "DSEG"</title>
-      <link>https://www.keshikan.net/fonts.html</link>
-      <description>📝 30以前はSIL Open Font Licenseではないため、同梱のライセンスをよく読みお使いください。引き続き使用は可能です。 Javascript+CSS3でコーディングしたデジタル時計のサンプルです。フォントをwoff形式で読み込んでおり、画像は使っていません。 コロン(U+003A)":"と半角スペース(U+0020)" "のフォント幅を同じにしているため、 コロンを半角スペースに置き換えるだけで点滅表現ができます。上の「2. アプリケーション例」を参照。 ピリオド(U+002E)". を実施して下さい。 「DSEG」の転載時や「DSEGを改変したもの」を配布する際は、ライセンスを変えず、SIL Open Font License 1.
-
-🔗 Read more: https://www.keshikan.net/fonts.html</description>
-      <guid isPermaLink="true">https://www.keshikan.net/fonts.html</guid>
-      <pubDate>Sat, 27 Dec 2025 22:49:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406213</comments>
-    </item>
-    <item>
-      <title>Pfizer ended up passing on my GLP-1 work back in the early '90s (2024)</title>
-      <link>https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</link>
-      <description>📝 STAT+ Exclusive Story Already have an account. Already have an account. 2-10 Users $300 Annually per user $300/year Get Started $300 Annually per user View All Plans To read the rest of this story subscribe to STAT+.
-
-🔗 Read more: https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</description>
-      <guid isPermaLink="true">https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:36:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405480</comments>
-    </item>
-    <item>
-      <title>Richard Stallman at the First Hackers Conference in 1984 [video]</title>
-      <link>https://www.youtube.com/watch?v=Hf2pfzzWPYE</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=Hf2pfzzWPYE</guid>
-      <pubDate>Sat, 27 Dec 2025 21:15:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405306</comments>
-    </item>
-    <item>
-      <title>How We Found Out About COINTELPRO (2014)</title>
-      <link>https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</link>
-      <description>📝 Also in this issue The Return of Fascism in Contemporary Capitalism The Criminality of Wall Street An Ecologically Sound and Socially Just Economy The Political Economy of Dyslexia The Term 'Capitalism' Has Lost Its Radical Edge Living in the (Right-Wing) Media Glare Flying Patterns Books by Martin Oppenheimer White Collar Politics by Martin Oppenheimer.
-
-🔗 Read more: https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</description>
-      <guid isPermaLink="true">https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:36:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405481</comments>
-    </item>
-    <item>
-      <title>Say No to Palantir in the NHS</title>
-      <link>https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</link>
-      <description>📝 We use limited cookies We use cookies where necessary to allow us to understand how people interact with our website and content, so that we can continue to improve our service. We only ever receive anonymous information, and cannot track you across other websites. View our privacy policy.
-
-🔗 Read more: https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</description>
-      <guid isPermaLink="true">https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:15:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405309</comments>
-    </item>
-    <item>
-      <title>Travel agents took 10 years to collapse. Developers are 3 years in</title>
-      <link>https://martinalderson.com/posts/travel-agents-developers/</link>
-      <description>📝 The history Interestingly, while researching this article there are some significant other factors at play. I do feel this is happening with software engineering positions and contracts right now. I think this is a very telling tale for software engineering.
-
-🔗 Read more: https://martinalderson.com/posts/travel-agents-developers/</description>
-      <guid isPermaLink="true">https://martinalderson.com/posts/travel-agents-developers/</guid>
-      <pubDate>Sat, 27 Dec 2025 20:02:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46404753</comments>
+🔗 Read more: https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</description>
+      <guid isPermaLink="true">https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</guid>
+      <pubDate>Sat, 27 Dec 2025 22:37:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46406098</comments>
     </item>
   </channel>
 </rss>

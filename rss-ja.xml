@@ -6,145 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 28 Dec 2025 01:52:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 04:09:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>JavaScript を HTML だけで置き換える</title>
-      <link>https://www.htmhell.dev/adventcalendar/2025/27/</link>
-      <description>📝 &lt;/details&gt;関連するすべての詳細 (ラジオ ボタンなど) で同じ name 属性を使用して、一度に開くパネルを 1 つだけ制限します。&lt;details name="foo" open&gt; &lt;summary&gt;最初は開いており、他のものをクリックするとこれが閉じます&lt;/summary&gt; コンテンツは最初は表示されますが、概要をクリックすると非表示にできます。一度に開くことができるパネルは 1 つだけです。 &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;最初は閉じられています。クリックするとこれが開き、他が閉じます。&lt;/summary&gt; コンテンツは最初は非表示ですが、概要をクリックすると表示されます。一度に開くことができるパネルは 1 つだけです。 &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;最初は閉じられています。クリックするとこれが開き、他が閉じます。&lt;/summary&gt; コンテンツは最初は非表示ですが、概要をクリックすると表示されます。一度に開くことができるパネルは 1 つだけです。
+      <title>父親の選択は精子のRNAにパッケージ化されて受け継がれる可能性がある</title>
+      <link>https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</link>
+      <description>📝 ホーム 父親のフィットネスはどのようにして精子 RNA にパッケージ化され、受け継がれるのか コメント 記事を保存 後で読む シェア Facebook コピーしました。 Myriam Wares が Quanta Magazine に寄稿 はじめに 標準的な精子と卵子の出会いの話では、精子細胞はシュリンクラップされた尾の付いた DNA の束にすぎないと想定されています。この物語のいくつかの要素は明らかである、と同氏は述べた。研究者らは、環境が精子のRNAを調節できること、これらの分子が子孫に形質を伝達すること、そして受精後の胚の発育を調節できることについて重要な証拠を持っていると述べた。
 
 
-🔤 Original: Replacing JavaScript with Just HTML
+🔤 Original: Fathers’ choices may be packaged and passed down in sperm RNA
 
-🔗 Read more: https://www.htmhell.dev/adventcalendar/2025/27/</description>
-      <guid isPermaLink="true">https://www.htmhell.dev/adventcalendar/2025/27/</guid>
-      <pubDate>Sun, 28 Dec 2025 01:07:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46407337</comments>
+🔗 Read more: https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</description>
+      <guid isPermaLink="true">https://www.quantamagazine.org/how-dads-fitness-may-be-packaged-and-passed-down-in-sperm-rna-20251222/</guid>
+      <pubDate>Sun, 28 Dec 2025 01:33:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46407502</comments>
     </item>
     <item>
-      <title>信頼性のために関数型プログラミングが必要な理由</title>
-      <link>https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</link>
-      <description>📝 製品タイプの例 (* OCaml *) type user = { id : int;名前 : 文字列;電子メール: 文字列オプション; (* 一部の "[email protected]" または None *) } // TypeScript タイプ User = Readonly&lt;{ id:number;名前: 文字列;メール。 ： 弦; // 次のオプションでこれを改善します }&gt;;合計タイプの例 (* OCaml *) typepayment = |現金 |文字列のカード (* 下 4 桁 *) |文字列の Pix // TypeScript の共用体型を判別する Payment = | { 種類: "現金" } | { 種類: "カード"; last4: 文字列 } | { 種類: "ピクス";キー: 文字列 };この形状では、Paypal は Payment として存在できません。 ADT (* OCaml *) type Failure_reason = | で修正します。資金が足りない |コンプライアンス保留 |文字列型 txn_state = | の NetworkError保留中 |文字列 (*ledger_id *) の決済 |失敗 (failure_reason) |文字列 (*original_ledger_id *) 型の反転 txn = { id : string;金額セント: int;状態: txn_state; } // TypeScript タイプ FailureReason = | { 種類: "資金不足" } | { 種類: "コンプライアンスホールド" } | { 種類: "ネットワークエラー";メッセージ: 文字列 } type TxnState = | { 種類: "保留中" } | { 種類: "解決済み";元帳 ID: 文字列 } | { 種類: "失敗";理由: 失敗理由 } | { 種類: "反転"; originalLedgerId: string } type Txn = Readonly&lt;{ id: string amountCents:number state: TxnState }&gt; 遷移は合計関数になります。
+      <title>ESP32 の Bluetooth の解放</title>
+      <link>https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</link>
+      <description>📝 お使いの Web ブラウザーで JavaScript がブロックされているか、無効になっているようです。申し訳ございませんが、PeerTube はお使いの Web ブラウザと互換性がないようです。最新バージョンの Mozilla Firefox でお試しください。
 
 
-🔤 Original: Why Reliability Demands Functional Programming
+🔤 Original: Liberating Bluetooth on the ESP32
 
-🔗 Read more: https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</description>
-      <guid isPermaLink="true">https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</guid>
-      <pubDate>Sun, 28 Dec 2025 00:05:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406901</comments>
-    </item>
-    <item>
-      <title>レインボーシックス シージがハッキングされ、プレイヤーは数十億のクレジットとランダムな禁止を取得</title>
-      <link>https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</link>
-      <description>📝 速報: Ubisoft Rainbow Six Siegeサーバーが侵害されました。現在レインボーシックス シージに影響を与えているインシデントを認識しています。一部のプレイヤーは、アカウントがリアルタイムで変更されている間、なぜゲームが何時間もオンラインのままになっているのか疑問に思っていました。
-
-
-🔤 Original: Rainbow Six Siege hacked as players get billions of credits and random bans
-
-🔗 Read more: https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</description>
-      <guid isPermaLink="true">https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</guid>
-      <pubDate>Sat, 27 Dec 2025 19:45:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46404597</comments>
-    </item>
-    <item>
-      <title>Show HN: Waycore – オープンソースのオフラインファーストのモジュラーフィールドコンピューター</title>
-      <link>https://news.ycombinator.com/item?id=46406486</link>
-      <description>📝 AI の目的は次のとおりです。ライブ センサー データ (GPS、コンパス、環境) を読み取り、オフラインの知識を基に推論する。アプリとコア API を使用する。ナビゲーション、安全性チェック、ロギング、通信を支援する。メイン プロジェクト リポジトリ (OS とアーキテクチャ): https://github. com/dmitry-grechko/waycore また、オフラインで使用できる、自由にダウンロードできるサバイバルおよびアウトドア関連の PDF をまとめた別のリポジトリもあります: https://github. com/dmitry-grechko/waycore-knowledge 以下に関するフィードバックと貢献者を探しています。堅牢なタッチ デバイスの UI/UX ハードウェアのモジュール性とインターフェイスオフライン/エッジ エージェント アーキテクチャインターネットなしでも適切に動作する小規模モデル高品質のパブリック ドメインまたは寛容なサバイバル ナレッジ ソース質問に答えたり、批判を聞いたりすることに喜んで応じます。
-
-
-🔤 Original: Show HN: Waycore – an open-source, offline-first modular field computer
-
-🔗 Read more: https://news.ycombinator.com/item?id=46406486</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46406486</guid>
-      <pubDate>Sat, 27 Dec 2025 23:16:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406486</comments>
-    </item>
-    <item>
-      <title>SSL証明書の危険性</title>
-      <link>https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</link>
-      <description>📝 実際、このケースは、自動証明書更新システムが失敗した例です。また、特に自動証明書更新を使用している場合は、証明書に関して問題が発生することはそれほど多くありません。つまり、機能しなくなるまでです。
-
-
-🔤 Original: The Dangers of SSL Certificates
-
-🔗 Read more: https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</description>
-      <guid isPermaLink="true">https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</guid>
-      <pubDate>Sat, 27 Dec 2025 22:41:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406129</comments>
-    </item>
-    <item>
-      <title>7セグメントおよび14セグメントフォント「DSEG」</title>
-      <link>https://www.keshikan.net/fonts.html</link>
-      <description>📝 30以前はSIL Open Font Licenseではないため、同梱のライセンスをよく読んでお使いください。引き続き使用は可能です。 Javascript+CSS3で挿入したデジタル時計のサンプルです。フォントをwoff形式で読み込んでおり、画像は使っていません。コロンを半角スペースに置き換えるだけで結局表現ができます。 「アプリケーション例」を参照。 ピリオド(U+002E)」を実施して下さい。
-
-
-🔤 Original: 7- and 14-segment fonts "DSEG"
-
-🔗 Read more: https://www.keshikan.net/fonts.html</description>
-      <guid isPermaLink="true">https://www.keshikan.net/fonts.html</guid>
-      <pubDate>Sat, 27 Dec 2025 22:49:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46406213</comments>
-    </item>
-    <item>
-      <title>ファイザーは結局、90年代初頭に遡る私のGLP-1研究を継承することになった（2024年）</title>
-      <link>https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</link>
-      <description>📝 STAT+ 限定ストーリー すでにアカウントをお持ちです。すでにアカウントをお持ちです。 2 ～ 10 ユーザー ユーザーあたり年間 $300 ユーザーあたり年間 $300 はじめる ユーザーあたり年間 $300 すべてのプランを表示 このストーリーの続きを読むには、STAT+ に登録してください。
-
-
-🔤 Original: Pfizer ended up passing on my GLP-1 work back in the early '90s (2024)
-
-🔗 Read more: https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</description>
-      <guid isPermaLink="true">https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:36:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405480</comments>
-    </item>
-    <item>
-      <title>1984 年の第 1 回ハッカー会議でのリチャード・ストールマン [ビデオ]</title>
-      <link>https://www.youtube.com/watch?v=Hf2pfzzWPYE</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=Hf2pfzzWPYE</guid>
-      <pubDate>Sat, 27 Dec 2025 21:15:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405306</comments>
-    </item>
-    <item>
-      <title>COINTELPRO を知った経緯 (2014)</title>
-      <link>https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</link>
-      <description>📝 この号にも掲載されています 現代資本主義におけるファシズムの復活 ウォール街の犯罪性 生態学的に健全で社会的に公正な経済 ディスレクシアの政治経済学 「資本主義」という用語は急進的なエッジを失った (右翼) メディアに生きる グレア・フライング・パターン マーティン・オッペンハイマー著 ホワイトカラー政治 マーティン・オッペンハイマー著。
-
-
-🔤 Original: How We Found Out About COINTELPRO (2014)
-
-🔗 Read more: https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</description>
-      <guid isPermaLink="true">https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:36:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405481</comments>
-    </item>
-    <item>
-      <title>NHSのパランティアに「ノー」と言おう</title>
-      <link>https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</link>
-      <description>📝 当社は限定的な Cookie を使用します。当社は、サービスを継続的に改善できるように、ユーザーが当社の Web サイトやコンテンツとどのようにやり取りするかを理解できるように、必要に応じて Cookie を使用します。当社が受け取るのは匿名の情報のみであり、他の Web サイト全体でお客様を追跡することはできません。当社のプライバシーポリシーをご覧ください。
-
-
-🔤 Original: Say No to Palantir in the NHS
-
-🔗 Read more: https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</description>
-      <guid isPermaLink="true">https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</guid>
-      <pubDate>Sat, 27 Dec 2025 21:15:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46405309</comments>
-    </item>
-    <item>
-      <title>旅行代理店が潰れるまでに10年かかった。開発者は入社3年目</title>
-      <link>https://martinalderson.com/posts/travel-agents-developers/</link>
-      <description>📝 歴史 興味深いことに、この記事を調査していると、いくつかの重要な他の要因が関与していることがわかります。現在、ソフトウェア エンジニアリングのポジションや契約でこれが起こっていると感じています。これはソフトウェア エンジニアリングにとって非常に示唆に富んだ話だと思います。
-
-
-🔤 Original: Travel agents took 10 years to collapse. Developers are 3 years in
-
-🔗 Read more: https://martinalderson.com/posts/travel-agents-developers/</description>
-      <guid isPermaLink="true">https://martinalderson.com/posts/travel-agents-developers/</guid>
-      <pubDate>Sat, 27 Dec 2025 20:02:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46404753</comments>
+🔗 Read more: https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</description>
+      <guid isPermaLink="true">https://exquisite.tube/w/mEzF442Q4hUXnhQ8HmfZuq</guid>
+      <pubDate>Sat, 27 Dec 2025 22:37:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46406098</comments>
     </item>
   </channel>
 </rss>
