@@ -6,67 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 27 Dec 2025 21:19:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 01:52:33 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>엔터테인먼트와의 커뮤니케이션이 어떻게 중단되었는지</title>
-      <link>https://ploum.net/2025-12-15-communication-entertainment.html</link>
-      <description>📝 많은 Pixelfed 사용자도 Mastodon 계정을 가지고 있으며 이에 대해 결코 의문을 제기하지 않았습니다. com) 더 이상 소통은 없습니다. 하지만 소셜 네트워크도 소통 네트워크는 아니죠. 잃어버린 메시지 내 해석은 소셜 미디어 사용자들이 메시지를 잃어도 개의치 않는다는 것입니다. 메시지는 항상 그렇게 하는 알고리즘 플랫폼에서 제기되었기 때문입니다.
+      <title>JavaScript를 HTML만으로 대체하기</title>
+      <link>https://www.htmhell.dev/adventcalendar/2025/27/</link>
+      <description>📝 &lt;/details&gt;모든 관련 세부정보(예: 라디오 버튼)에 동일한 이름 속성을 사용하여 한 번에 하나의 패널만 열도록 제한합니다.&lt;details name="foo" open&gt; &lt;summary&gt;처음에는 열리며 다른 항목을 클릭하면 이 패널이 닫힙니다.&lt;/summary&gt; 콘텐츠는 처음에는 표시되지만 요약을 클릭하면 숨길 수 있습니다. 한 번에 하나의 패널만 열 수 있습니다. &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;처음에는 닫혀 있으며, 클릭하면 이 내용이 열리고 다른 내용도 닫힙니다.&lt;/summary&gt; 처음에는 콘텐츠가 숨겨져 있지만 요약을 클릭하면 표시될 수 있습니다. 한 번에 하나의 패널만 열 수 있습니다. &lt;/details&gt;&lt;details name="foo"&gt; &lt;summary&gt;처음에는 닫혀 있으며, 클릭하면 이 내용이 열리고 다른 내용도 닫힙니다.&lt;/summary&gt; 처음에는 콘텐츠가 숨겨져 있지만 요약을 클릭하면 표시될 수 있습니다. 한 번에 하나의 패널만 열 수 있습니다.
 
 
-🔤 Original: How we lost communication to entertainment
+🔤 Original: Replacing JavaScript with Just HTML
 
-🔗 Read more: https://ploum.net/2025-12-15-communication-entertainment.html</description>
-      <guid isPermaLink="true">https://ploum.net/2025-12-15-communication-entertainment.html</guid>
-      <pubDate>Sat, 27 Dec 2025 20:15:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46404848</comments>
+🔗 Read more: https://www.htmhell.dev/adventcalendar/2025/27/</description>
+      <guid isPermaLink="true">https://www.htmhell.dev/adventcalendar/2025/27/</guid>
+      <pubDate>Sun, 28 Dec 2025 01:07:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46407337</comments>
     </item>
     <item>
-      <title>엔비디아의 200억 달러 독점 금지 허점</title>
-      <link>https://ossa-ma.github.io/blog/groq</link>
-      <description>📝 " 49일 후 Nvidia는 Groq의 자산에 대해 200억 달러를 지불하고 Ross를 그의 전체 경영진과 함께 고용했습니다. Nvidia가 거래를 성사시킨 내용이 왜 이런 일이 발생했는지에 대한 모든 것을 알려주기 때문입니다. 이것은 제한된 모델 크기 지원을 갖춘 추론 전용 아키텍처입니다.
+      <title>신뢰성에 함수형 프로그래밍이 필요한 이유</title>
+      <link>https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</link>
+      <description>📝 제품 유형 예시(* OCaml *) type user = { id : int; 이름 : 문자열; 이메일 : 문자열 옵션; (* 일부 "[email protected]" 또는 None *) } // TypeScript 유형 User = Readonly&lt;{ id: number; 이름: 문자열; 이메일. : 끈; // Option next로 이를 개선하겠습니다 }&gt;; 합계 유형 예(* OCaml *) 유형 지불 = | 현금 | 문자열의 카드 (* 마지막 4자리 *) | 문자열의 Pix // TypeScript로 구별되는 공용체 유형 Payment = | { 종류: "현금" } | { 종류: "카드"; last4: 문자열 } | { 종류: "픽스"; 키: 문자열 }; 이 형태에서는 "paypal"이 결제 수단으로 존재할 수 없습니다. ADT(* OCaml *) 유형으로 수정 failure_reason = | 자금 부족 | 규정 준수 보류 | 문자열 유형의 NetworkError txn_state = | 보류 중 | 문자열 정산(*ledger_id*) | failure_reason으로 인해 실패 | 문자열의 역순(* original_ledger_id *) type txn = { id : string; amount_cents : 정수; 상태 : txn_state; } // TypeScript 유형 FailureReason = | { 종류: "불충분한 자금" } | { 종류: "complianceHold" } | { 종류: "네트워크 오류"; 메시지: 문자열 } type TxnState = | { 종류: "보류 중" } | { 종류: "정착됨"; ledgerId: 문자열 } | { 종류: "실패"; 이유: FailureReason } | { 종류: "역전"; originalLedgerId: string } type Txn = Readonly&lt;{ id: string amountCents: number state: TxnState }&gt; 전환은 전체 함수가 됩니다.
 
 
-🔤 Original: Nvidia's $20B antitrust loophole
+🔤 Original: Why Reliability Demands Functional Programming
 
-🔗 Read more: https://ossa-ma.github.io/blog/groq</description>
-      <guid isPermaLink="true">https://ossa-ma.github.io/blog/groq</guid>
-      <pubDate>Sat, 27 Dec 2025 17:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46403559</comments>
+🔗 Read more: https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</description>
+      <guid isPermaLink="true">https://blog.rastrian.dev/post/why-reliability-demands-functional-programming-adts-safety-and-critical-infrastructure</guid>
+      <pubDate>Sun, 28 Dec 2025 00:05:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46406901</comments>
     </item>
     <item>
-      <title>Apricot PC/Xi용 Windows 2</title>
-      <link>https://www.ninakalinina.com/notes/win2apri/</link>
-      <description>📝 Windows 1은 사라진 것으로 생각되었습니다. Windows 1 메모장의 스크린샷. Apricot에 Windows 2 포팅 빠르고 느린 부팅 오늘날에도 소프트웨어 역사가들은 여전히 ​​Windows 2가 맞는지 논쟁을 벌이고 있습니다.
+      <title>Rainbow Six Siege가 해킹되어 플레이어가 수십억 크레딧을 받고 무작위로 금지되었습니다.</title>
+      <link>https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</link>
+      <description>📝 속보: Ubisoft Rainbow Six Siege 서버가 침해되었습니다. 현재 Rainbow Six Siege에 영향을 미치는 사건에 대해 알고 있습니다. 일부 플레이어는 계정이 실시간으로 변경되는 동안 게임이 몇 시간 동안 온라인 상태로 유지되는 이유에 대해 의문을 제기하기도 했습니다.
 
 
-🔤 Original: Windows 2 for the Apricot PC/Xi
+🔤 Original: Rainbow Six Siege hacked as players get billions of credits and random bans
 
-🔗 Read more: https://www.ninakalinina.com/notes/win2apri/</description>
-      <guid isPermaLink="true">https://www.ninakalinina.com/notes/win2apri/</guid>
-      <pubDate>Sat, 27 Dec 2025 18:22:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46403915</comments>
+🔗 Read more: https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</description>
+      <guid isPermaLink="true">https://www.shanethegamer.com/esports-news/rainbow-six-siege-hacked-global-server-outage/</guid>
+      <pubDate>Sat, 27 Dec 2025 19:45:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46404597</comments>
     </item>
     <item>
-      <title>미국에 유료도로가 확산되고 있다</title>
-      <link>https://www.economist.com/united-states/2025/12/18/toll-roads-are-spreading-in-america</link>
-      <guid isPermaLink="true">https://www.economist.com/united-states/2025/12/18/toll-roads-are-spreading-in-america</guid>
-      <pubDate>Sat, 27 Dec 2025 18:31:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46403992</comments>
+      <title>HN 표시: Waycore – 오픈 소스, 오프라인 우선 모듈형 필드 컴퓨터</title>
+      <link>https://news.ycombinator.com/item?id=46406486</link>
+      <description>📝 AI는 오프라인 지식을 통해 실시간 센서 데이터(GPS, 나침반, 환경)를 읽고 앱 및 핵심 API를 사용하여 탐색, 안전 확인, 로깅 및 통신을 지원합니다. 주요 프로젝트 저장소(OS 및 아키텍처): https://github. com/dmitry-grechko/waycore 오프라인 사용을 위해 무료로 다운로드할 수 있는 생존 및 야외 PDF를 큐레이팅하는 별도의 저장소도 있습니다: https://github. com/dmitry-grechko/waycore-knowledge다음에 대한 피드백과 기여자를 찾고 있습니다. 견고한 터치 장치를 위한 UI/UX하드웨어 모듈성 및 인터페이스오프라인/에지 에이전트 아키텍처인터넷 없이도 잘 작동하는 소형 모델고품질 공개 도메인 또는 허용적 생존 지식 소스질문에 답변하거나 비평을 듣고 싶습니다.
+
+
+🔤 Original: Show HN: Waycore – an open-source, offline-first modular field computer
+
+🔗 Read more: https://news.ycombinator.com/item?id=46406486</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46406486</guid>
+      <pubDate>Sat, 27 Dec 2025 23:16:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46406486</comments>
     </item>
     <item>
-      <title>과학자들이 살아있는 사람의 유전자를 편집해 그의 생명을 구했다</title>
-      <link>https://www.popularmechanics.com/science/health/a64815804/crispr-therapy/</link>
-      <description>📝 수십 년간의 의학 연구 덕분에 최초의 생체 내 유전자 치료법을 개발했습니다. 이 놀라운 의학적 업적을 달성하기 위해 의사들은 세계 최초의 생체 내 관습(즉, 이 기술은 U.
+      <title>SSL 인증서의 위험성</title>
+      <link>https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</link>
+      <description>📝 실제로 이 사례는 자동 인증서 갱신 시스템이 실패한 사례이다. 특히 자동화된 인증서 갱신을 사용하는 경우에는 인증서에 문제가 자주 발생하지 않습니다. 즉, 작동이 멈출 때까지입니다.
 
 
-🔤 Original: Scientists edited genes in a living person and saved his life
+🔤 Original: The Dangers of SSL Certificates
 
-🔗 Read more: https://www.popularmechanics.com/science/health/a64815804/crispr-therapy/</description>
-      <guid isPermaLink="true">https://www.popularmechanics.com/science/health/a64815804/crispr-therapy/</guid>
-      <pubDate>Sat, 27 Dec 2025 18:26:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46403955</comments>
+🔗 Read more: https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</description>
+      <guid isPermaLink="true">https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/</guid>
+      <pubDate>Sat, 27 Dec 2025 22:41:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46406129</comments>
+    </item>
+    <item>
+      <title>7세그먼트 및 14세그먼트 글꼴 "DSEG"</title>
+      <link>https://www.keshikan.net/fonts.html</link>
+      <description>📝 30일 이전에는 SIL Open Font License가 동일하지 않으며, 같은 라이센스를 사용하는 것이 좋습니다. Javascript+CSS3로 코딩한 디자인은 시계의 산프르입니다.폰트をwoff 모양의 형태로 된 형태로 볼 수 있습니다.、画imageは使たていません。 코론(U+003A)":"と半角스페이스(U+0020)" "이것은 글꼴과 동일하게 되어 있으며, 코론을 を半角스페이스에 置木換えりだけり点滅表現が데키마스입니다. 상 の 「2. 앱리케이션예」を参光。 피리오드(U+002E)". を実施して下い。 「DSEG」の転載時や「DSEGを改変したもの」を配布suuru際は、라이센스を変えず、SIL 오픈 글꼴 라이선스 1.
+
+
+🔤 Original: 7- and 14-segment fonts "DSEG"
+
+🔗 Read more: https://www.keshikan.net/fonts.html</description>
+      <guid isPermaLink="true">https://www.keshikan.net/fonts.html</guid>
+      <pubDate>Sat, 27 Dec 2025 22:49:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46406213</comments>
+    </item>
+    <item>
+      <title>화이자는 결국 90년대 초반(2024년)에 나의 GLP-1 연구를 넘겨주었습니다.</title>
+      <link>https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</link>
+      <description>📝 STAT+ 독점 스토리 이미 계정이 있습니다. 이미 계정이 있습니다. 사용자 2~10명 사용자당 연간 $300 연간 $300 시작하기 사용자당 연간 $300 모든 플랜 보기 이 이야기의 나머지 부분을 읽으려면 STAT+를 구독하세요.
+
+
+🔤 Original: Pfizer ended up passing on my GLP-1 work back in the early '90s (2024)
+
+🔗 Read more: https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</description>
+      <guid isPermaLink="true">https://www.statnews.com/2024/09/09/glp-1-history-pfizer-john-baxter-jeffrey-flier-calbio-metabio/</guid>
+      <pubDate>Sat, 27 Dec 2025 21:36:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46405480</comments>
+    </item>
+    <item>
+      <title>1984년 제1차 해커스 컨퍼런스에 참석한 Richard Stallman [동영상]</title>
+      <link>https://www.youtube.com/watch?v=Hf2pfzzWPYE</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=Hf2pfzzWPYE</guid>
+      <pubDate>Sat, 27 Dec 2025 21:15:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46405306</comments>
+    </item>
+    <item>
+      <title>COINTELPRO에 대해 알아낸 방법(2014)</title>
+      <link>https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</link>
+      <description>📝 또한 이번 호에는 현대 자본주의에서 파시즘의 귀환 월스트리트의 범죄성 생태학적으로 건전하고 사회적으로 정의로운 경제 난독증의 정치 경제 '자본주의'라는 용어는 급진적인 우위를 잃었습니다. (우익) 미디어에 살고 있습니다. 눈부신 비행 패턴 책 마틴 오펜하이머 화이트 칼라 정치.
+
+
+🔤 Original: How We Found Out About COINTELPRO (2014)
+
+🔗 Read more: https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</description>
+      <guid isPermaLink="true">https://monthlyreview.org/articles/how-we-found-out-about-cointelpro/</guid>
+      <pubDate>Sat, 27 Dec 2025 21:36:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46405481</comments>
+    </item>
+    <item>
+      <title>NHS에서는 Palantir를 거부하세요</title>
+      <link>https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</link>
+      <description>📝 당사는 제한된 쿠키를 사용합니다. 당사는 사람들이 당사 웹사이트 및 콘텐츠와 상호 작용하는 방식을 이해하여 서비스를 지속적으로 개선하기 위해 필요한 경우 쿠키를 사용합니다. 당사는 익명의 정보만 수신하며 다른 웹사이트에서는 귀하를 추적할 수 없습니다. 당사의 개인정보 보호정책을 확인하세요.
+
+
+🔤 Original: Say No to Palantir in the NHS
+
+🔗 Read more: https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</description>
+      <guid isPermaLink="true">https://notopalantir.goodlawproject.org/email-to-target/stop-palantir-in-the-nhs/</guid>
+      <pubDate>Sat, 27 Dec 2025 21:15:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46405309</comments>
+    </item>
+    <item>
+      <title>여행사가 무너지는 데 10년이 걸렸다. 개발자는 3년차</title>
+      <link>https://martinalderson.com/posts/travel-agents-developers/</link>
+      <description>📝 역사 흥미롭게도 이 기사를 조사하는 동안 몇 가지 중요한 다른 요소가 작용하고 있습니다. 나는 지금 소프트웨어 엔지니어링 직위와 계약에서 이런 일이 일어나고 있다고 생각합니다. 나는 이것이 소프트웨어 엔지니어링에 있어서 매우 중요한 이야기라고 생각합니다.
+
+
+🔤 Original: Travel agents took 10 years to collapse. Developers are 3 years in
+
+🔗 Read more: https://martinalderson.com/posts/travel-agents-developers/</description>
+      <guid isPermaLink="true">https://martinalderson.com/posts/travel-agents-developers/</guid>
+      <pubDate>Sat, 27 Dec 2025 20:02:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46404753</comments>
     </item>
   </channel>
 </rss>
