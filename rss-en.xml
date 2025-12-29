@@ -6,35 +6,72 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Dec 2025 09:31:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 12:46:03 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Show HN: Z80-μLM, a 'Conversational AI' That Fits in 40KB</title>
-      <link>https://github.com/HarryR/z80ai</link>
-      <description>📝 With easy self-hosted distribution. Responds to greetings, questions about itself, and general banter with terse personality-driven answers. Features Trigram hash encoding: Input text is hashed into 128 buckets - typo-tolerant, word-order invariant 2-bit weight quantization: Each weight is {-2, -1, 0, +1}, packed 4 per byte 16-bit integer inference: All math uses Z80-native 16-bit signed arithmetic ~40KB.
+      <title>I Was Kidnapped by Deutsche Bahn and All I Got Was 1.50 EUR</title>
+      <link>https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/</link>
+      <description>📝 We are approaching Troisdorf. “The train couldn’t stop. There are fifteen stations between Troisdorf and Neuwied.
 
-🔗 Read more: https://github.com/HarryR/z80ai</description>
-      <guid isPermaLink="true">https://github.com/HarryR/z80ai</guid>
-      <pubDate>Mon, 29 Dec 2025 05:41:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46417815</comments>
+🔗 Read more: https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/</description>
+      <guid isPermaLink="true">https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/</guid>
+      <pubDate>Mon, 29 Dec 2025 12:24:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419970</comments>
     </item>
     <item>
-      <title>Show HN: My not-for-profit search engine with no ads, no AI, &amp; all DDG bangs</title>
-      <link>https://nilch.org</link>
-      <guid isPermaLink="true">https://nilch.org</guid>
-      <pubDate>Mon, 29 Dec 2025 05:25:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46417748</comments>
+      <title>CIA Star Gate Project: An Overview (1993) [pdf]</title>
+      <link>https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R002800180001-2.pdf</link>
+      <guid isPermaLink="true">https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R002800180001-2.pdf</guid>
+      <pubDate>Mon, 29 Dec 2025 03:16:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46417110</comments>
     </item>
     <item>
-      <title>Panoramas of Star Trek Sets</title>
-      <link>https://mijofr.github.io/st-panorama/</link>
-      <description>📝 Duis gravida massa vitae purus sodales, sit amet aliquet sem varius. Nullam varius mi vitae felis imperdiet, ac pharetra nulla porttitor. Aliquam fringilla mauris non commodo placerat.
+      <title>Feynman's Hughes Lectures: 950 pages of notes</title>
+      <link>https://thehugheslectures.info/the-lectures/</link>
+      <description>📝 Feynman lectured prior to this period and continued on after 1971. This 1966-1967 lecture series focused on these subjects. This volume is unique since, as far as I can tell, Feynman did not lecture on this subject matter at CalTech.
 
-🔗 Read more: https://mijofr.github.io/st-panorama/</description>
-      <guid isPermaLink="true">https://mijofr.github.io/st-panorama/</guid>
-      <pubDate>Mon, 29 Dec 2025 05:26:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46417752</comments>
+🔗 Read more: https://thehugheslectures.info/the-lectures/</description>
+      <guid isPermaLink="true">https://thehugheslectures.info/the-lectures/</guid>
+      <pubDate>Mon, 29 Dec 2025 10:43:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419273</comments>
+    </item>
+    <item>
+      <title>Linux DAW: Help Linux musicians to quickly and easily find the tools they need</title>
+      <link>https://linuxdaw.org/</link>
+      <guid isPermaLink="true">https://linuxdaw.org/</guid>
+      <pubDate>Mon, 29 Dec 2025 12:23:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419968</comments>
+    </item>
+    <item>
+      <title>Kubernetes egress control with squid proxy</title>
+      <link>https://interlaye.red/kubernetes_002degress_002dsquid.html</link>
+      <description>📝 Squid logs everything that passes through. That’s it, and this gives us: I used Squid deliberately because it predates Kubernetes and most “cloud-native” tooling, but still does exactly what this problem requires: explicit HTTP/HTTPS egress control, logging, and policy enforcement. Without the proxy environment variables configured, workloads in this namespace cannot reach the outside world.
+
+🔗 Read more: https://interlaye.red/kubernetes_002degress_002dsquid.html</description>
+      <guid isPermaLink="true">https://interlaye.red/kubernetes_002degress_002dsquid.html</guid>
+      <pubDate>Mon, 29 Dec 2025 11:33:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419659</comments>
+    </item>
+    <item>
+      <title>Asking Gemini 3 to generate Brainfuck code results in an infinite loop</title>
+      <link>https://teodordyakov.github.io/brainfuck-agi/</link>
+      <description>📝 Asking Gemini 3 to generate Brainf*ck code results in an infinite loop, akin amost to a DDoS attack: That is fascinating. Consider this typical snippet: &gt;++++++++[&lt;+++++++++&gt;-]&lt;. So, is Brainf*ck the ultimate test for LLMs.
+
+🔗 Read more: https://teodordyakov.github.io/brainfuck-agi/</description>
+      <guid isPermaLink="true">https://teodordyakov.github.io/brainfuck-agi/</guid>
+      <pubDate>Mon, 29 Dec 2025 09:40:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46418966</comments>
+    </item>
+    <item>
+      <title>Market design can feed the poor</title>
+      <link>https://worksinprogress.co/issue/how-market-design-can-feed-the-poor/</link>
+      <description>📝 The system operated in ignorance of what food banks needed. Food banks received an average of 20 percent of their food from Feeding America with the rest coming from local sources that headquarters knew nothing about. Donors often gave food close to expiration dates, and the centralized system couldn’t quickly match time-sensitive donations with food banks that needed them.
+
+🔗 Read more: https://worksinprogress.co/issue/how-market-design-can-feed-the-poor/</description>
+      <guid isPermaLink="true">https://worksinprogress.co/issue/how-market-design-can-feed-the-poor/</guid>
+      <pubDate>Mon, 29 Dec 2025 10:44:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419282</comments>
     </item>
   </channel>
 </rss>

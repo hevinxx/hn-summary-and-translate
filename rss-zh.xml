@@ -6,41 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Dec 2025 09:31:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 12:46:03 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Show HN：Z80-μLM，一个大小为 40KB 的“对话式 AI”</title>
-      <link>https://github.com/HarryR/z80ai</link>
-      <description>📝 通过简单的自托管分发。用简洁的、个性化的答案来回应问候、关于自己的问题和一般的玩笑。功能 Trigram 哈希编码：输入文本被哈希到 128 个存储桶中 - 拼写错误、字序不变 2 位权重量化：每个权重为 {-2, -1, 0, +1}，每个字节打包 4 个 16 位整数推理：所有数学都使用 Z80 原生 16 位有符号算术 ~40KB。
+      <title>我被德国铁路绑架了，我只得到了 1.50 欧元</title>
+      <link>https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/</link>
+      <description>📝 我们正在接近特罗斯多夫。 “火车无法停下来。特罗斯多夫和新维德之间有十五个车站。
 
 
-🔤 Original: Show HN: Z80-μLM, a 'Conversational AI' That Fits in 40KB
+🔤 Original: I Was Kidnapped by Deutsche Bahn and All I Got Was 1.50 EUR
 
-🔗 Read more: https://github.com/HarryR/z80ai</description>
-      <guid isPermaLink="true">https://github.com/HarryR/z80ai</guid>
-      <pubDate>Mon, 29 Dec 2025 05:41:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46417815</comments>
+🔗 Read more: https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/</description>
+      <guid isPermaLink="true">https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/</guid>
+      <pubDate>Mon, 29 Dec 2025 12:24:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419970</comments>
     </item>
     <item>
-      <title>Show HN：我的非营利搜索引擎，没有广告，没有人工智能，所有 DDG 刘海</title>
-      <link>https://nilch.org</link>
-      <guid isPermaLink="true">https://nilch.org</guid>
-      <pubDate>Mon, 29 Dec 2025 05:25:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46417748</comments>
+      <title>中央情报局星门计划：概述 (1993) [pdf]</title>
+      <link>https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R002800180001-2.pdf</link>
+      <guid isPermaLink="true">https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R002800180001-2.pdf</guid>
+      <pubDate>Mon, 29 Dec 2025 03:16:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46417110</comments>
     </item>
     <item>
-      <title>星际迷航布景全景图</title>
-      <link>https://mijofr.github.io/st-panorama/</link>
-      <description>📝 Duis gravida Massa vitae purus sodales，坐 amet aliquet sem varius。 Nullam varius mi vitae felis imperdiet，ac pharetra nulla porttitor。 Aliquam fringilla mauris non commodo placerat。
+      <title>费曼的休斯讲座：950 页笔记</title>
+      <link>https://thehugheslectures.info/the-lectures/</link>
+      <description>📝 费曼在此期间之前进行了演讲，并在 1971 年之后继续进行。这个 1966 年至 1967 年的系列讲座重点关注这些主题。这本书是独一无二的，因为据我所知，费曼没有在加州理工学院讲授过这个主题。
 
 
-🔤 Original: Panoramas of Star Trek Sets
+🔤 Original: Feynman's Hughes Lectures: 950 pages of notes
 
-🔗 Read more: https://mijofr.github.io/st-panorama/</description>
-      <guid isPermaLink="true">https://mijofr.github.io/st-panorama/</guid>
-      <pubDate>Mon, 29 Dec 2025 05:26:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46417752</comments>
+🔗 Read more: https://thehugheslectures.info/the-lectures/</description>
+      <guid isPermaLink="true">https://thehugheslectures.info/the-lectures/</guid>
+      <pubDate>Mon, 29 Dec 2025 10:43:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419273</comments>
+    </item>
+    <item>
+      <title>Linux DAW：帮助Linux音乐家快速轻松地找到他们需要的工具</title>
+      <link>https://linuxdaw.org/</link>
+      <guid isPermaLink="true">https://linuxdaw.org/</guid>
+      <pubDate>Mon, 29 Dec 2025 12:23:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419968</comments>
+    </item>
+    <item>
+      <title>使用鱿鱼代理进行 Kubernetes 出口控制</title>
+      <link>https://interlaye.red/kubernetes_002degress_002dsquid.html</link>
+      <description>📝 Squid 记录经过的所有内容。就是这样，这给了我们：我故意使用 Squid，因为它早于 Kubernetes 和大多数“云原生”工具，但仍然完全满足了这个问题的需要：显式 HTTP/HTTPS 出口控制、日志记录和策略执行。如果没有配置代理环境变量，该命名空间中的工作负载将无法到达外界。
+
+
+🔤 Original: Kubernetes egress control with squid proxy
+
+🔗 Read more: https://interlaye.red/kubernetes_002degress_002dsquid.html</description>
+      <guid isPermaLink="true">https://interlaye.red/kubernetes_002degress_002dsquid.html</guid>
+      <pubDate>Mon, 29 Dec 2025 11:33:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419659</comments>
+    </item>
+    <item>
+      <title>要求 Gemini 3 生成 Brainfuck 代码会导致无限循环</title>
+      <link>https://teodordyakov.github.io/brainfuck-agi/</link>
+      <description>📝 要求 Gemini 3 生成 Brainf*ck 代码会导致无限循环，类似于 DDoS 攻击：这很有趣。考虑这个典型的片段：&gt;++++++++[&lt;+++++++++&gt;-]&lt;。那么，Brainf*ck 是法学硕士的终极测试吗？
+
+
+🔤 Original: Asking Gemini 3 to generate Brainfuck code results in an infinite loop
+
+🔗 Read more: https://teodordyakov.github.io/brainfuck-agi/</description>
+      <guid isPermaLink="true">https://teodordyakov.github.io/brainfuck-agi/</guid>
+      <pubDate>Mon, 29 Dec 2025 09:40:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46418966</comments>
+    </item>
+    <item>
+      <title>市场设计可以养活穷人</title>
+      <link>https://worksinprogress.co/issue/how-market-design-can-feed-the-poor/</link>
+      <description>📝 该系统在不了解食品银行需要什么的情况下运行。食品银行平均有 20% 的食物来自 Feeding America，其余的则来自总部一无所知的当地来源。捐赠者经常提供接近过期日期的食物，而集中式系统无法快速将时间敏感的捐赠与需要它们的食品银行相匹配。
+
+
+🔤 Original: Market design can feed the poor
+
+🔗 Read more: https://worksinprogress.co/issue/how-market-design-can-feed-the-poor/</description>
+      <guid isPermaLink="true">https://worksinprogress.co/issue/how-market-design-can-feed-the-poor/</guid>
+      <pubDate>Mon, 29 Dec 2025 10:44:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46419282</comments>
     </item>
   </channel>
 </rss>
