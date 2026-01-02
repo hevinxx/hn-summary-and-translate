@@ -6,34 +6,164 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Jan 2026 18:31:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 21:18:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>问 HN：谁在招聘？ （2026 年 1 月）</title>
-      <link>https://news.ycombinator.com/item?id=46466074</link>
-      <description>📝 请说明位置，并包括 REMOTE（表示远程工作）、REMOTE（美国）或类似名称（如果国家/地区受到限制）以及 ONSITE（如果无法进行远程工作）。评论者：请不要回复职位帖子来抱怨某些事情。读者：如果您个人对这份工作感兴趣，请仅发送电子邮件。
+      <title>在您自己的网站上发布，在其他地方联合发布</title>
+      <link>https://indieweb.org/POSSE</link>
+      <description>📝 拥有您内容的规范 URL。您的内容的规范 URL 位于您的域中。为您的原创帖子提供更好的排名。
 
 
-🔤 Original: Ask HN: Who is hiring? (January 2026)
+🔤 Original: Publish (On Your) Own Site, Syndicate Elsewhere
 
-🔗 Read more: https://news.ycombinator.com/item?id=46466074</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46466074</guid>
-      <pubDate>Fri, 02 Jan 2026 16:00:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46466074</comments>
+🔗 Read more: https://indieweb.org/POSSE</description>
+      <guid isPermaLink="true">https://indieweb.org/POSSE</guid>
+      <pubDate>Fri, 02 Jan 2026 19:48:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46468600</comments>
     </item>
     <item>
-      <title>美国政府要求访问欧洲警察数据库和生物识别技术[视频]</title>
-      <link>https://media.ccc.de/v/39c3-trump-government-demands-access-to-european-police-databases-and-biometrics</link>
-      <description>📝 0 下载视频 AV1 MP4 WebM 下载 1080p eng-deu-fra 376 MB 下载 576p eng-deu-fra 203 MB 下载 1080p eng-deu-fra 1408 MB 下载 576p eng-deu-fra 172 MB 下载 1080p eng-deu-fra 493 MB 这些文件包含多种语言。本次演讲被翻译成多种语言。音频 下载 mp3 eng 36 MB 下载 mp3 deu 36 MB 下载 opus eng 22 MB 下载 opus deu 23 MB 嵌入 &lt;iframe width="1024" height="576" src="https://media.
+      <title>Unix v4 (1973) – 实时终端</title>
+      <link>https://unixv4.dev/</link>
+      <description>📝 分享您对 Unix v4 和本网站的看法。您的反馈很有价值，有助于我们改善体验。您的消息已保存，很快就会出现在下面。
 
 
-🔤 Original: US Government demands access to European police databases and biometrics [video]
+🔤 Original: Unix v4 (1973) – Live Terminal
 
-🔗 Read more: https://media.ccc.de/v/39c3-trump-government-demands-access-to-european-police-databases-and-biometrics</description>
-      <guid isPermaLink="true">https://media.ccc.de/v/39c3-trump-government-demands-access-to-european-police-databases-and-biometrics</guid>
-      <pubDate>Fri, 02 Jan 2026 14:15:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46464929</comments>
+🔗 Read more: https://unixv4.dev/</description>
+      <guid isPermaLink="true">https://unixv4.dev/</guid>
+      <pubDate>Fri, 02 Jan 2026 19:18:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46468283</comments>
+    </item>
+    <item>
+      <title>点击通讯器</title>
+      <link>https://www.clicksphone.com/en/communicator</link>
+      <description>📝 Communicator 是一款完全独立的智能手机，运行 Android 16，具有所有应用程序、5G 连接和 Wi-fi。我们认为很多人会用它作为主要手机，而其他人则会用它作为旗舰 iPhone、Galaxy、Pixel 等的补充。
+
+
+🔤 Original: Clicks Communicator
+
+🔗 Read more: https://www.clicksphone.com/en/communicator</description>
+      <guid isPermaLink="true">https://www.clicksphone.com/en/communicator</guid>
+      <pubDate>Fri, 02 Jan 2026 17:22:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46467057</comments>
+    </item>
+    <item>
+      <title>TinyTinyTPU：部署在 FPGA 上的 2×2 脉动阵列 TPU 式矩阵乘法单元</title>
+      <link>https://github.com/Alanma23/tinytinyTPU-co</link>
+      <description>📝 txt 仿真和测试 运行测试 所有仿真命令必须从 sim/ 目录运行： cd sim # 运行所有测试 make test # 运行所有波形生成测试 make test WAVES=1 # 运行特定模块测试 make test_pe make test_mmu make test_mlp make test_uart make test_tpu_system # 运行波形 make test_pe WAVES=1 测试覆盖率 测试文件 模块覆盖率 test_pe.txt py 2×2 脉动数组权重加载，矩阵乘以 test_weight_fifo。 py 推理演示 inference_demo。
+
+
+🔤 Original: TinyTinyTPU: 2×2 systolic-array TPU-style matrix-multiply unit deployed on FPGA
+
+🔗 Read more: https://github.com/Alanma23/tinytinyTPU-co</description>
+      <guid isPermaLink="true">https://github.com/Alanma23/tinytinyTPU-co</guid>
+      <pubDate>Fri, 02 Jan 2026 19:13:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46468237</comments>
+    </item>
+    <item>
+      <title>以毒攻毒：可扩展的口试</title>
+      <link>https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html</link>
+      <description>📝 2025 年 12 月 29 日星期一以毒攻毒：使用 ElevenLabs 语音 AI 代理进行可扩展的口语考试这一切都始于陌生电话。所以我们开始在课堂上随机给学生打电话。同样，RAG 将有助于提供更丰富的案例细节。
+
+
+🔤 Original: Fighting Fire with Fire: Scalable Oral Exams
+
+🔗 Read more: https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html</description>
+      <guid isPermaLink="true">https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html</guid>
+      <pubDate>Fri, 02 Jan 2026 18:18:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46467677</comments>
+    </item>
+    <item>
+      <title>IPv6 刚刚度过 30 岁生日，但仍未占领世界</title>
+      <link>https://www.theregister.com/2025/12/31/ipv6_at_30/</link>
+      <description>📝 对于许多人来说，决定使用哪种协议很容易，因为 IPv6 没有添加代表重大改进的功能。另一项意味着 IPv6 意义不大的创新是网络地址转换 (NAT)，它允许许多设备共享单个公共 IPv4 地址。由于 NAT 阻碍了 IPv6 的采用，供应商并没有团结起来支持新协议。
+
+
+🔤 Original: IPv6 just turned 30 and still hasn't taken over the world
+
+🔗 Read more: https://www.theregister.com/2025/12/31/ipv6_at_30/</description>
+      <guid isPermaLink="true">https://www.theregister.com/2025/12/31/ipv6_at_30/</guid>
+      <pubDate>Fri, 02 Jan 2026 14:55:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46465327</comments>
+    </item>
+    <item>
+      <title>朋克特。推出 MC03 智能手机</title>
+      <link>https://www.punkt.ch/blogs/news/punkt-unveils-mc03</link>
+      <description>📝 MC03，用户可以将隐私放在首位，使用两个定义的存储库来存储数据。使用 MC03，您可以付费保留数据，而不是用数据付费。分享 阅读更多 Punkt。
+
+
+🔤 Original: Punkt. Unveils MC03 Smartphone
+
+🔗 Read more: https://www.punkt.ch/blogs/news/punkt-unveils-mc03</description>
+      <guid isPermaLink="true">https://www.punkt.ch/blogs/news/punkt-unveils-mc03</guid>
+      <pubDate>Fri, 02 Jan 2026 16:23:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46466364</comments>
+    </item>
+    <item>
+      <title>询问 HN：谁想被雇用？ （2026 年 1 月）</title>
+      <link>https://news.ycombinator.com/item?id=46466073</link>
+      <description>📝 如果您正在找工作，请分享您的信息。请使用以下格式： 地点： 远程： 愿意搬迁： 技术： 简历： 电子邮件： 仅当您个人寻找工作时才可发帖。读者：请仅向这些地址发送电子邮件以讨论工作机会。
+
+
+🔤 Original: Ask HN: Who wants to be hired? (January 2026)
+
+🔗 Read more: https://news.ycombinator.com/item?id=46466073</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46466073</guid>
+      <pubDate>Fri, 02 Jan 2026 16:00:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46466073</comments>
+    </item>
+    <item>
+      <title>计算机科学家会计 (2011)</title>
+      <link>https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html</link>
+      <description>📝 就像数学、科学、编程、音乐、文学、历史等等，这些东西肯定不会那么难。让我们把它们统称为“食物”。
+
+
+🔤 Original: Accounting for Computer Scientists (2011)
+
+🔗 Read more: https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html</description>
+      <guid isPermaLink="true">https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html</guid>
+      <pubDate>Fri, 02 Jan 2026 18:16:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46467651</comments>
+    </item>
+    <item>
+      <title>rsync 算法 (1996) [pdf]</title>
+      <link>https://www.andrew.cmu.edu/course/15-749/READINGS/required/cas/tridgell96.pdf</link>
+      <description>📝 ����d����ͦ]��W���y��A�W�#4��Y���) �. O =�kdj` �� p��+� ���。 ���� j���u|����z�R G ���;R���͝ � )�#U6 Yj;��6��=���。
+
+
+🔤 Original: The rsync algorithm (1996) [pdf]
+
+🔗 Read more: https://www.andrew.cmu.edu/course/15-749/READINGS/required/cas/tridgell96.pdf</description>
+      <guid isPermaLink="true">https://www.andrew.cmu.edu/course/15-749/READINGS/required/cas/tridgell96.pdf</guid>
+      <pubDate>Fri, 02 Jan 2026 16:56:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46466734</comments>
+    </item>
+    <item>
+      <title>Jank Lang 击中阿尔法</title>
+      <link>https://github.com/jank-lang/jank</link>
+      <description>📝 最简单地说，jank 是 LLVM 上具有 C++ 互操作性的 Clojure 方言。 jank 的目标是与 Clojure 强兼容。真的} ;许多用于处理不可变数据的核心函数。
+
+
+🔤 Original: Jank Lang Hit Alpha
+
+🔗 Read more: https://github.com/jank-lang/jank</description>
+      <guid isPermaLink="true">https://github.com/jank-lang/jank</guid>
+      <pubDate>Fri, 02 Jan 2026 19:39:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46468517</comments>
+    </item>
+    <item>
+      <title>我编写了一个批处理脚本，让我的 2011 ThinkPad 保持 24/7 流式传输状态</title>
+      <link>https://github.com/patrick48001/ThinkPad-Stream-Sentinel-VLC-Video-Source-reset-disable-stream-shutter</link>
+      <description>📝 ThinkPad-Stream-Sentinel-VLC-Video-Source-reset-disable-stream-shutter 此代码修复了 VLC 视频源音频快门或在低端/旧设备上流式传输视频源几分钟后 CPU 节流的问题。请务必检查自述文件。初始设置之前的 txt 文件。
+
+
+🔤 Original: I wrote a batch script to keep my 2011 ThinkPad alive for 24/7 streaming
+
+🔗 Read more: https://github.com/patrick48001/ThinkPad-Stream-Sentinel-VLC-Video-Source-reset-disable-stream-shutter</description>
+      <guid isPermaLink="true">https://github.com/patrick48001/ThinkPad-Stream-Sentinel-VLC-Video-Source-reset-disable-stream-shutter</guid>
+      <pubDate>Fri, 02 Jan 2026 19:30:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46468411</comments>
     </item>
   </channel>
 </rss>
