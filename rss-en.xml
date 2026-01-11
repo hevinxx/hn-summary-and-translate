@@ -6,65 +6,55 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jan 2026 04:11:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 06:33:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Show HN: Ferrite – Markdown editor in Rust with native Mermaid diagram rendering</title>
-      <link>https://github.com/OlaProeis/Ferrite</link>
-      <description>📝 Screenshots Raw Editor Rendered View Split View Zen Mode Features Core Editing WYSIWYG Markdown Editing - Edit markdown with live preview, click-to-edit formatting, and syntax highlighting Multi-Format Support - Native support for Markdown, JSON, YAML, and TOML files Tree Viewer - Hierarchical view for JSON/YAML/TOML with inline editing, expand/collapse, and path copying Find &amp; Replace - Search with regex support and match highlighting Undo/Redo - Full undo/redo support per tab View Modes Split View - Side-by-side raw editor and rendered preview with resizable divider Zen Mode - Distraction-free writing with centered text column Sync Scrolling - Bidirectional scroll sync between raw and rendered views Editor Features Syntax Highlighting - Full-file syntax highlighting for 40+ languages (Rust, Python, JavaScript, Go, etc. /target/release/ferrite # Open a specific file. /target/release/ferrite path/to/folder/ View Modes Ferrite supports three view modes for Markdown files: Raw - Plain text editing with syntax highlighting Rendered - WYSIWYG editing with rendered markdown Split - Side-by-side raw editor and live preview Toggle between modes using the toolbar buttons or keyboard shortcuts.
-
-🔗 Read more: https://github.com/OlaProeis/Ferrite</description>
-      <guid isPermaLink="true">https://github.com/OlaProeis/Ferrite</guid>
-      <pubDate>Sun, 11 Jan 2026 01:50:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46571980</comments>
+      <title>My Home Fibre Network Disintegrated</title>
+      <link>https://alienchow.dev/post/fibre_disintegration/</link>
+      <guid isPermaLink="true">https://alienchow.dev/post/fibre_disintegration/</guid>
+      <pubDate>Sun, 11 Jan 2026 04:19:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46572679</comments>
     </item>
     <item>
-      <title>Show HN: VAM Seek – 2D video navigation grid, 15KB, zero server load</title>
-      <link>https://github.com/unhaya/vam-seek</link>
-      <description>📝 VAM Seek - 2D Video Seek Marker demo-trimmed. mp4 A lightweight 2D video seek grid library for video streaming sites. Traditional Seek Bar VAM Seek 1D timeline, trial-and-error 2D grid, instant visual navigation Server-generated thumbnails Client-side canvas extraction Heavy infrastructure Zero server load, ~15KB JS Complex integration One-line setup Keywords: video player, video seek, thumbnail grid, video navigation, HTML5 video, JavaScript library, video streaming, media player, video controls, video thumbnails, seek bar alternative, video UX Quick Start (For External Sites) &lt;.
+      <title>'The answer cannot be nothing': The battle over Canada's mystery brain disease</title>
+      <link>https://www.bbc.com/news/articles/c623r47d67lo</link>
+      <description>📝 Patients reported excessive sweating and excessive drooling. Marrero ordered test after test. Except, hundreds of the patients disagree.
 
-🔗 Read more: https://github.com/unhaya/vam-seek</description>
-      <guid isPermaLink="true">https://github.com/unhaya/vam-seek</guid>
-      <pubDate>Sun, 11 Jan 2026 02:57:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46572304</comments>
+🔗 Read more: https://www.bbc.com/news/articles/c623r47d67lo</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c623r47d67lo</guid>
+      <pubDate>Sun, 11 Jan 2026 04:45:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46572769</comments>
     </item>
     <item>
-      <title>A Year of Work on the Arch Linux Package Management (ALPM) Project</title>
-      <link>https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/</link>
-      <description>📝 We have worked on six milestones with focus on various aspects of the package management ecosystem, ranging from formalizing, parsing and writing of file formats, over cryptographic verification of distribution artifacts, to package file and system package management handling: "Formal specifications for packaging data formats" "Basic OpenPGP verification of artifacts" "Rust library for handling of individual packages" "Python bindings for alpm-srcinfo" "Distribution-agnostic OpenPGP stack for the verification of distribution artifacts" "Rust library for system package management" We are considering ourselves as part of a larger free software ecosystem. Interested developers and package maintainers are encouraged to browse them by file formats or concepts. We hope this empowers a much larger group of contributors to participate in discussions about the concepts behind Arch Linux's package management.
+      <title>The Concise TypeScript Book</title>
+      <link>https://github.com/gibbok/typescript-book</link>
+      <description>📝 The Concise TypeScript Book The Concise TypeScript Book provides a comprehensive and succinct overview of TypeScript's capabilities. io/typescript-book Table of Contents The Concise TypeScript Book Translations Downloads and website Table of Contents Introduction About the Author TypeScript Introduction What is TypeScript. TypeScript and JavaScript TypeScript Code Generation Modern JavaScript Now (Downleveling) Getting Started With TypeScript Installation Configuration TypeScript Configuration File target lib strict module moduleResolution esModuleInterop jsx skipLibCheck files include exclude importHelpers Migration to TypeScript Advice Exploring the Type System The TypeScript Language Service Structural Typing TypeScript Fundamental Comparison Rules Types as Sets Assign a type: Type Declarations and Type Assertions Type Declaration Type Assertion Ambient Declarations Property Checking and Excess Property Checking Weak Types Strict Object Literal Checking (Freshness) Type Inference More Advanced Inferences Type Widening Const Const Modifier on Type Parameters Const assertion Explicit Type Annotation Type Narrowing Conditions Throwing or returning Discriminated Union User-Defined Type Guards Primitive Types string boolean number bigInt Symbol null and undefined Array any Type Annotations Optional Properties Readonly Properties Index Signatures Extending Types Literal Types Literal Inference strictNullChecks Enums Numeric enums String enums Constant enums Reverse mapping Ambient enums Computed and constant members Narrowing typeof type guards Truthiness narrowing Equality narrowing In Operator narrowing instanceof narrowing Assignments Control Flow Analysis Type Predicates Discriminated Unions The never Type Exhaustiveness checking Object Types Tuple Type (Anonymous) Named Tuple Type (Labeled) Fixed Length Tuple Union Type Intersection Types Type Indexing Type from Value Type from Func Return Type from Module Mapped Types Mapped Type Modifiers Conditional Types Distributive Conditional Types infer Type Inference in Conditional Types Predefined Conditional Types Template Union Types Any type Unknown type Void type Never type Interface and Type Common Syntax Basic Types Objects and Interfaces Union and Intersection Types Built-in Type Primitives Common Built-in JS Objects Overloads Merging and Extension Differences between Type and Interface Class Class Common Syntax Constructor Private and Protected Constructors Access Modifiers Get and Set Auto-Accessors in Classes this Parameter Properties Abstract Classes With Generics Decorators Class Decorators Property Decorator Method Decorator Getter and Setter Decorators Decorator Metadata Inheritance Statics Property initialization Method overloading Generics Generic Type Generic Classes Generic Constraints Generic contextual narrowing Erased Structural Types Namespacing Symbols Triple-Slash Directives Type Manipulation Creating Types from Types Indexed Access Types Utility Types Awaited&lt;T&gt; Partial&lt;T&gt; Required&lt;T&gt; Readonly&lt;T&gt; Record&lt;K, T&gt; Pick&lt;T, K&gt; Omit&lt;T, K&gt; Exclude&lt;T, U&gt; Extract&lt;T, U&gt; NonNullable&lt;T&gt; Parameters&lt;T&gt; ConstructorParameters&lt;T&gt; ReturnType&lt;T&gt; InstanceType&lt;T&gt; ThisParameterType&lt;T&gt; OmitThisParameter&lt;T&gt; ThisType&lt;T&gt; Uppercase&lt;T&gt; Lowercase&lt;T&gt; Capitalize&lt;T&gt; Uncapitalize&lt;T&gt; NoInfer&lt;T&gt; Others Errors and Exception Handling Mixin classes Asynchronous Language Features Iterators and Generators TsDocs JSDoc Reference @types JSX ES6 Modules ES7 Exponentiation Operator The for-await-of Statement New target meta-property Dynamic Import Expressions "tsc –watch" Non-null Assertion Operator Defaulted declarations Optional Chaining Nullish coalescing operator Template Literal Types Function overloading Recursive Types Recursive Conditional Types ECMAScript Module Support in Node Assertion Functions Variadic Tuple Types Boxed types Covariance and Contravariance in TypeScript Optional Variance Annotations for Type Par.
 
-🔗 Read more: https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/</description>
-      <guid isPermaLink="true">https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/</guid>
-      <pubDate>Sun, 11 Jan 2026 02:08:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46572060</comments>
+🔗 Read more: https://github.com/gibbok/typescript-book</description>
+      <guid isPermaLink="true">https://github.com/gibbok/typescript-book</guid>
+      <pubDate>Sun, 11 Jan 2026 05:42:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46573001</comments>
     </item>
     <item>
-      <title>Sisyphus Now Lives in Oh My Claude</title>
-      <link>https://github.com/Yeachan-Heo/oh-my-claude-sisyphus</link>
-      <description>📝 A multi-agent orchestration system. md # /sisyphus-default command │ ├── ultrawork. md # /cancel-ralph command └── CLAUDE.
+      <title>Show HN: PrintReadyBook</title>
+      <link>https://printreadybook.com/</link>
+      <description>📝 Get a full manuscript with cover art, ready for publishing. Make a Book 📚 Full Manuscript Complete chapters with professional formatting 🎨 AI Cover Art Unique cover image generated for your book 📄 Print-Ready PDFs Manuscript and cover ready for publishing What You Get 📖 Complete Manuscript PDF Print-ready, professionally formatted with chapters, title page, and copyright 📄 Editable DOCX File Microsoft Word format for making edits Note: Editing your story will require reformatting for print. 🎨 AI-Generated Cover Art Unique cover image designed for your book's genre and concept 📖 Print-Ready Cover PDF Full wraparound cover with spine, sized for your trim size.
 
-🔗 Read more: https://github.com/Yeachan-Heo/oh-my-claude-sisyphus</description>
-      <guid isPermaLink="true">https://github.com/Yeachan-Heo/oh-my-claude-sisyphus</guid>
-      <pubDate>Sun, 11 Jan 2026 02:00:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46572032</comments>
+🔗 Read more: https://printreadybook.com/</description>
+      <guid isPermaLink="true">https://printreadybook.com/</guid>
+      <pubDate>Sun, 11 Jan 2026 03:56:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46572593</comments>
     </item>
     <item>
-      <title>Workers at Redmond SpaceX lab exposed to toxic chemicals</title>
-      <link>https://www.fox13seattle.com/video/fmc-w1ga4pk97gxq0hj5</link>
-      <guid isPermaLink="true">https://www.fox13seattle.com/video/fmc-w1ga4pk97gxq0hj5</guid>
-      <pubDate>Sun, 11 Jan 2026 03:15:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46572392</comments>
-    </item>
-    <item>
-      <title>Kodbox: Open-source cloud desktop with multi-storage fusion and web IDE</title>
-      <link>https://github.com/kalcaddle/kodbox</link>
-      <description>📝 Self-hosted file management system with muilt-cloud support. Global drag and drop: drag and drop files and folders to move and copy; drag and drop local files/folders to upload; drag and drop to the desktop to automatically download; drag and drop to the folder to automatically enter, drag and drop multiple file management windows to each other. Multi-dimensional document management: Favorites; document tags; file classification; recent documents; albums; recycle bin; department document public tags; personal file private safe.
+      <title>Ripple: The Elegant TypeScript UI Framework</title>
+      <link>https://jsdev.space/meet-ripple/</link>
+      <description>📝 Reactive by Default ts Copy Copied. json Verify Setup ts Copy Copied. TodoInput Component ts Copy Copied.
 
-🔗 Read more: https://github.com/kalcaddle/kodbox</description>
-      <guid isPermaLink="true">https://github.com/kalcaddle/kodbox</guid>
-      <pubDate>Sun, 11 Jan 2026 01:12:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46571760</comments>
+🔗 Read more: https://jsdev.space/meet-ripple/</description>
+      <guid isPermaLink="true">https://jsdev.space/meet-ripple/</guid>
+      <pubDate>Sun, 11 Jan 2026 04:32:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46572723</comments>
     </item>
   </channel>
 </rss>
