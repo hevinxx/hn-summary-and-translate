@@ -6,86 +6,113 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 10 Jan 2026 21:20:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 01:53:52 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Show HN: Claude Code를 사용하여 100권의 책 사이의 연관성을 발견했습니다.</title>
-      <link>https://trails.pieterma.es/</link>
-      <description>📝 표준화는 확장을 가능하게 하지만 현지 지식을 파괴합니다. 모호한 개념을 테스트 가능한 프레임워크로 변환합니다. 단순화는 혁신을 가능하게 하거나 가치를 파괴합니다.
+      <title>사모펀드 회사들은 지난 10년 동안 500개 이상의 자폐증 센터를 인수했습니다: 연구</title>
+      <link>https://www.brown.edu/news/2026-01-07/private-equity-autism-centers</link>
+      <description>📝 [브라운 대학] — 사모 펀드 회사는 미국 전역에서 500개 이상의 자폐 치료 센터를 인수했습니다. 미국 내에서 자폐증 진단이 이루어졌습니다. 공기업과 달리 사모 펀드 회사와 민간 관행은 인수 내역을 공개할 필요가 없기 때문에 데이터 수집이 어렵고 노동 집약적입니다.
 
 
-🔤 Original: Show HN: I used Claude Code to discover connections between 100 books
+🔤 Original: Private equity firms acquired more than 500 autism centers in past decade: study
 
-🔗 Read more: https://trails.pieterma.es/</description>
-      <guid isPermaLink="true">https://trails.pieterma.es/</guid>
-      <pubDate>Sat, 10 Jan 2026 16:56:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46567400</comments>
+🔗 Read more: https://www.brown.edu/news/2026-01-07/private-equity-autism-centers</description>
+      <guid isPermaLink="true">https://www.brown.edu/news/2026-01-07/private-equity-autism-centers</guid>
+      <pubDate>Sat, 10 Jan 2026 23:36:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46571095</comments>
     </item>
     <item>
-      <title>날아다니는 박쥐를 사냥하는 쥐들이 카메라에 잡혔습니다.</title>
-      <link>https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/</link>
-      <description>📝 ) 북부 독일에서 연구원들은 비행 중에 박쥐를 잡기 위해 동굴 선반에서 뛰어오르는 갈색 쥐(Rattus norvegicus)를 촬영했습니다. 이는 설치류가 날아다니는 포유류를 가로막을 수 있다는 최초의 증거입니다. 갈색쥐는 일반적으로 느리게 움직이는 표적을 청소하거나 잡아먹는 잡식성 동물입니다. (2025), 글로벌 생태학과 보존(Global Ecology and Conservation)에 게재됨.
+      <title>HN 표시: G Books, ISBNDB 등을 집계하는 도서 메타데이터 API인 Librario</title>
+      <link>https://news.ycombinator.com/item?id=46571149</link>
+      <description>📝 TLDR: Librario는 Google Books, ISBNDB 및 Hardcover의 데이터를 단일 응답으로 집계하여 완전한 도서 정보를 보유한 단일 소스가 없는 문제를 해결하는 도서 메타데이터 API입니다. 하나는 시리즈를 제공하고, 다른 하나는 장르를 제공하고, 다른 하나는 좋은 커버를 제공할 수 있지만 모든 것을 제공하는 것은 없습니다. 다양한 소스(Google Books, ISBNDB, Hardcover)에서 책에 대한 정보를 가져옵니다.
 
 
-🔤 Original: Rats caught on camera hunting flying bats
+🔤 Original: Show HN: Librario, a book metadata API that aggregates G Books, ISBNDB, and more
 
-🔗 Read more: https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/</description>
-      <guid isPermaLink="true">https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/</guid>
-      <pubDate>Sat, 10 Jan 2026 18:44:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46568662</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46571149</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46571149</guid>
+      <pubDate>Sat, 10 Jan 2026 23:45:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46571149</comments>
     </item>
     <item>
-      <title>Ghostty의 가장 큰 메모리 누수를 찾아서 해결하기</title>
-      <link>https://mitchellh.com/writing/ghostty-memory-leak-fix</link>
-      <description>📝 PageList는 터미널 콘텐츠(문자, 스타일, 하이퍼링크 등)를 저장하는 메모리 페이지의 이중 링크 목록입니다. 풀은 페이지에 대한 표준 크기를 사용합니다. 그러나 때때로 터미널에는 표준 페이지가 제공하는 것보다 더 많은 메모리가 필요합니다.
-
-
-🔤 Original: Finding and Fixing Ghostty's Largest Memory Leak
-
-🔗 Read more: https://mitchellh.com/writing/ghostty-memory-leak-fix</description>
-      <guid isPermaLink="true">https://mitchellh.com/writing/ghostty-memory-leak-fix</guid>
-      <pubDate>Sat, 10 Jan 2026 18:58:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46568794</comments>
+      <title>HN 보기: LLM과 함께 포커를 플레이하거나 서로 대결하는 모습을 지켜보세요</title>
+      <link>https://llmholdem.com/</link>
+      <guid isPermaLink="true">https://llmholdem.com/</guid>
+      <pubDate>Sat, 10 Jan 2026 19:27:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46569061</comments>
     </item>
     <item>
-      <title>Bichon: WebUI를 갖춘 경량의 고성능 Rust 이메일 아카이버</title>
-      <link>https://github.com/rustmailer/bichon</link>
-      <description>📝 Bichon WebUI를 갖춘 경량의 고성능 Rust 이메일 아카이버 Bichon은 IMAP 서버의 이메일을 동기화하고 전체 텍스트 검색을 위해 색인화하며 프로그래밍 방식 액세스를 위한 REST API를 제공하는 오픈 소스 이메일 보관 시스템입니다. 이메일 클라이언트와 달리 Bichon은 이메일 보내기/받기보다는 보관 및 검색을 위해 설계되었습니다. 비숑은 완전 무료입니다.
+      <title>코드는 점토이다</title>
+      <link>https://campedersen.com/code-is-clay</link>
+      <description>📝 구현이 실패하더라도 아이디어는 살아남습니다. 점토가 사라졌을 거라고 생각하실 겁니다. 점점 더 흥미로워지고 있습니다.
 
 
-🔤 Original: Bichon: A lightweight, high-performance Rust email archiver with WebUI
+🔤 Original: Code Is Clay
 
-🔗 Read more: https://github.com/rustmailer/bichon</description>
-      <guid isPermaLink="true">https://github.com/rustmailer/bichon</guid>
-      <pubDate>Sat, 10 Jan 2026 19:29:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46569075</comments>
+🔗 Read more: https://campedersen.com/code-is-clay</description>
+      <guid isPermaLink="true">https://campedersen.com/code-is-clay</guid>
+      <pubDate>Sat, 10 Jan 2026 19:43:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46569225</comments>
     </item>
     <item>
-      <title>송전선에서 직접 충전하는 드론</title>
-      <link>https://www.ycombinator.com/companies/voltair</link>
-      <description>📝 그는 워싱턴 대학교에서 전기 및 컴퓨터 공학을 전공하고 전력전자 분야에 집중했습니다. 그는 Seattle City Light에서 시스템 보호 엔지니어링 업무를 2년 동안 수행했으며 나중에 SEL(Schweitzer Engineering Laboratories)에서 R&amp;D 업무를 수행했습니다. 그는 워싱턴 대학교에서 전기 및 컴퓨터 공학을 전공하고 전력전자 분야에 집중했습니다.
+      <title>Show HN: GlyphLang – AI 우선 프로그래밍 언어</title>
+      <link>https://news.ycombinator.com/item?id=46571166</link>
+      <description>📝 GlyphLangGlyphLang은 자세한 키워드를 보다 효율적으로 토큰화하는 기호로 대체합니다. # Python @app. query("SELECT * FROM users WHERE id =. query("SELECT * FROM users WHERE id =.
 
 
-🔤 Original: Drones that recharge directly on transmission lines
+🔤 Original: Show HN: GlyphLang – An AI-first programming language
 
-🔗 Read more: https://www.ycombinator.com/companies/voltair</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/voltair</guid>
-      <pubDate>Sat, 10 Jan 2026 16:43:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46567218</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46571166</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46571166</guid>
+      <pubDate>Sat, 10 Jan 2026 23:46:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46571166</comments>
     </item>
     <item>
-      <title>싱클레어 C5</title>
-      <link>https://en.wikipedia.org/wiki/Sinclair_C5</link>
-      <description>📝 Wikipedia에서 무료 백과사전 1인용 전기 자동차(1985) 자동차 Sinclair C5개요제조업체Sinclair VehiclesProduction1985; 41년 전(1985)AssemblyMerthyr Tydfil, Wales바디 및 섀시클래스배터리 전기 자동차레이아웃세발자전거Powertrain전기 모터250W(배터리 포함 0.45kg(99lb)) Sinclair C5는 기술적으로 "전기 보조 페달 사이클"인 소형 1인용 배터리 전기 기댄 삼륜차입니다. [7] C5는 12V 납산 전기로 구동됩니다. 배터리는 연속 정격 250와트, 분당 최대 4,100회전으로 모터를 구동합니다.
+      <title>생산 언어 모델에서 도서 추출(2026)</title>
+      <link>https://arxiv.org/abs/2601.02671</link>
+      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
 
 
-🔤 Original: Sinclair C5
+🔤 Original: Extracting books from production language models (2026)
 
-🔗 Read more: https://en.wikipedia.org/wiki/Sinclair_C5</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Sinclair_C5</guid>
-      <pubDate>Sat, 10 Jan 2026 20:31:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46569640</comments>
+🔗 Read more: https://arxiv.org/abs/2601.02671</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2601.02671</guid>
+      <pubDate>Sat, 10 Jan 2026 20:50:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46569799</comments>
+    </item>
+    <item>
+      <title>'공급 충격'으로 인해 미국에서 과다 복용 사망이 감소하고 있습니다: 연구</title>
+      <link>https://www.economist.com/united-states/2026/01/08/why-overdose-deaths-are-falling-in-america</link>
+      <guid isPermaLink="true">https://www.economist.com/united-states/2026/01/08/why-overdose-deaths-are-falling-in-america</guid>
+      <pubDate>Sat, 10 Jan 2026 19:54:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46569312</comments>
+    </item>
+    <item>
+      <title>영국, Ofcom에 암호화 백도어 탐색 명령</title>
+      <link>https://reclaimthenet.org/uk-orders-ofcom-to-explore-encryption-backdoors</link>
+      <description>📝 엔드투엔드 암호화는 개인 메시지를 비공개로 유지하는 것입니다. 이것은 어떤 결과가 아닙니다. 그리고 모든 정부 도구와 마찬가지로 해당 도구도 "용도 변경"될 것입니다.
+
+
+🔤 Original: UK Orders Ofcom to Explore Encryption Backdoors
+
+🔗 Read more: https://reclaimthenet.org/uk-orders-ofcom-to-explore-encryption-backdoors</description>
+      <guid isPermaLink="true">https://reclaimthenet.org/uk-orders-ofcom-to-explore-encryption-backdoors</guid>
+      <pubDate>Sat, 10 Jan 2026 21:36:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46570158</comments>
+    </item>
+    <item>
+      <title>그레이트풀 데드(Grateful Dead) 공동 창립자 밥 위어(Bob Weir)가 78세의 나이로 사망했습니다.</title>
+      <link>https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/</link>
+      <description>📝 Weir는 David Nelson과 미래의 Jefferson Airplane 멤버인 Jorma Kaukonen에게서 첫 기타 연주를 받았습니다. 1968년 Weir와 동료 창립 멤버인 Ron "Pigpen" McKernan은 음악적 결함으로 인해 밴드에서 쫓겨났지만 둘 다 몇 달 안에 돌아왔습니다. 케네디의 손녀, 35세에 사망 1972년 Pigpen이 사망하자 Weir는 순조롭게 두 번째 보컬 역할을 맡았습니다.
+
+
+🔤 Original: Grateful Dead co-founder Bob Weir has died at age 78
+
+🔗 Read more: https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/</description>
+      <guid isPermaLink="true">https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/</guid>
+      <pubDate>Sun, 11 Jan 2026 01:04:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46571707</comments>
     </item>
   </channel>
 </rss>
