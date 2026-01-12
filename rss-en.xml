@@ -6,58 +6,105 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jan 2026 12:48:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 15:28:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Lightpanda migrate DOM implementation to Zig</title>
-      <link>https://lightpanda.io/blog/posts/migrating-our-dom-to-zig</link>
-      <description>📝 Another larger challenge, was integrating support for Custom Elements and ShadowDOM, written in Zig, with LibDOM. In the spirit of experimentation, this prototype also replaced V8 with QuickJS-NG. While this adds lookup overhead, it removes ~6 pointers from every element.
-
-🔗 Read more: https://lightpanda.io/blog/posts/migrating-our-dom-to-zig</description>
-      <guid isPermaLink="true">https://lightpanda.io/blog/posts/migrating-our-dom-to-zig</guid>
-      <pubDate>Mon, 12 Jan 2026 09:42:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46586179</comments>
+      <title>Floppy disks turn out to be the greatest TV remote for kids</title>
+      <link>https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/</link>
+      <guid isPermaLink="true">https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/</guid>
+      <pubDate>Mon, 12 Jan 2026 13:07:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46587934</comments>
     </item>
     <item>
-      <title>Fossil versus Git</title>
-      <link>https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</link>
-      <description>📝 Whenever Fossil is told to modify the local checkout in some destructive way (fossil rm, fossil update, fossil revert, etc. ) Fossil remembers the prior state and is able to return the check-out directory to that state with a fossil undo command. Fossil is small, complete, and self-contained.
+      <title>Zen-C: Write like a high-level language, run like C</title>
+      <link>https://github.com/z-libs/Zen-C</link>
+      <description>📝 Aggregate Types Arrays Fixed-size arrays with value semantics. 1; Structs Data structures with optional bitfields. Memory Management Zen C allows manual memory management with ergonomic aids.
 
-🔗 Read more: https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</description>
-      <guid isPermaLink="true">https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</guid>
-      <pubDate>Mon, 12 Jan 2026 10:10:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46586385</comments>
+🔗 Read more: https://github.com/z-libs/Zen-C</description>
+      <guid isPermaLink="true">https://github.com/z-libs/Zen-C</guid>
+      <pubDate>Mon, 12 Jan 2026 12:57:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46587804</comments>
     </item>
     <item>
-      <title>How to Build Reactive Declarative UI in Vanilla JavaScript</title>
-      <link>https://jsdev.space/howto/reactive-vanilla-js/</link>
-      <description>📝 onDelete = onDelete return this. wrap(value, fullPath) this. path, key] delete target[key] this.
+      <title>LLVM: The Bad Parts</title>
+      <link>https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html</link>
+      <description>📝 ) What LLVM does suffer from is insufficient review capacity. This is simultaneously a great strength and weakness of LLVM. LLVM is a huge project.
 
-🔗 Read more: https://jsdev.space/howto/reactive-vanilla-js/</description>
-      <guid isPermaLink="true">https://jsdev.space/howto/reactive-vanilla-js/</guid>
-      <pubDate>Mon, 12 Jan 2026 11:31:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46587033</comments>
+🔗 Read more: https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html</description>
+      <guid isPermaLink="true">https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html</guid>
+      <pubDate>Mon, 12 Jan 2026 14:18:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588837</comments>
     </item>
     <item>
-      <title>Ai, Japanese chimpanzee who counted and painted dies at 49</title>
-      <link>https://www.bbc.com/news/articles/cj9r3zl2ywyo</link>
-      <description>📝 When she was not participating in cognitive tests, Ai was known to enjoy drawing and painting. Japanese media outlet Kyodo news reported that she once escaped with another primate - using a key to unlock her cage. Dame Jane Goodall revolutionised our understanding of our closest primate cousinsChimpanzees more empathetic than assumed - studyWild chimpanzees filmed using forest 'first aid'AsiaJapan.
+      <title>Reproducing DeepSeek's MHC: When Residual Connections Explode</title>
+      <link>https://taylorkolasinski.com/notes/mhc-reproduction/</link>
+      <description>📝 Those mixing matrices are unconstrained. This is why unconstrained mixing matrices break at scale. This procedure is differentiable.
 
-🔗 Read more: https://www.bbc.com/news/articles/cj9r3zl2ywyo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cj9r3zl2ywyo</guid>
-      <pubDate>Mon, 12 Jan 2026 09:10:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46585947</comments>
+🔗 Read more: https://taylorkolasinski.com/notes/mhc-reproduction/</description>
+      <guid isPermaLink="true">https://taylorkolasinski.com/notes/mhc-reproduction/</guid>
+      <pubDate>Mon, 12 Jan 2026 13:57:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588572</comments>
     </item>
     <item>
-      <title>Launch a Debugging Terminal into GitHub Actions</title>
-      <link>https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/</link>
-      <description>📝 What about a Peer-to-Peer connection. WithKeySet(keySet), jwtx. WithIssuer(githubOIDCIssuer), jwtx.
+      <title>Windows 8 Desktop Environment for Linux</title>
+      <link>https://github.com/er-bharat/Win8DE</link>
+      <description>📝 can drag from all apps to tiles. drag app from all apps to botom to hide start screen and put icon any where that supports like desktop. desktop file like this example.
 
-🔗 Read more: https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/</description>
-      <guid isPermaLink="true">https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/</guid>
-      <pubDate>Mon, 12 Jan 2026 12:25:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46587498</comments>
+🔗 Read more: https://github.com/er-bharat/Win8DE</description>
+      <guid isPermaLink="true">https://github.com/er-bharat/Win8DE</guid>
+      <pubDate>Mon, 12 Jan 2026 13:22:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588132</comments>
+    </item>
+    <item>
+      <title>Why Ontario Digital Service couldn't procure '98% safe' LLMs (15M Canadians)</title>
+      <link>https://rosetta-labs-erb.github.io/authority-boundary-ledger/</link>
+      <description>📝 Not because these tools were risky, but because they were unproven in our context. This isn’t perfectionism. They were infrastructure that made adoption possible.
+
+🔗 Read more: https://rosetta-labs-erb.github.io/authority-boundary-ledger/</description>
+      <guid isPermaLink="true">https://rosetta-labs-erb.github.io/authority-boundary-ledger/</guid>
+      <pubDate>Mon, 12 Jan 2026 14:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46589386</comments>
+    </item>
+    <item>
+      <title>Ireland fast tracks Bill to criminalise harmful voice or image misuse</title>
+      <link>https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/</link>
+      <description>📝 The strength of laws in Ireland to criminalise AI-generated non-consensual intimate images and child sex abuse images are being examined by the Attorney General. Ms Gallagher also questioned whether Ireland’s protections holding social media platforms to account were sufficient. So this is also a gender-based violence issue.
+
+🔗 Read more: https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/</description>
+      <guid isPermaLink="true">https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/</guid>
+      <pubDate>Mon, 12 Jan 2026 13:38:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588319</comments>
+    </item>
+    <item>
+      <title>2025 marked a record-breaking year for Apple services</title>
+      <link>https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/</link>
+      <description>📝 UPDATE January 12, 2026 2025 marked a record‑breaking year for Apple services Apple’s Eddy Cue reflects on an outstanding year for Apple services 2025 was a record-breaking year for Apple services, marked by remarkable growth, global expansion, and continuous innovation. From Apple TV, Apple Music, and Apple News, to daily essentials like Apple Pay and iCloud, we delivered enriching experiences to users worldwide. Apple Wallet leveraged Apple Intelligence to make it easier for users to keep track of their orders, and Apple Maps made users’ Preferred Routes and Visited Places easily accessible using on-device intelligence.
+
+🔗 Read more: https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/</description>
+      <guid isPermaLink="true">https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/</guid>
+      <pubDate>Mon, 12 Jan 2026 14:30:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46589009</comments>
+    </item>
+    <item>
+      <title>Ozempic reduced grocery spending by an average of 5.3% in the US</title>
+      <link>https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy</link>
+      <description>📝 “The data show clear changes in food spending following adoption,” Hristakeva said. That combination allowed the team to compare adopters with similar households that did not use the drugs, isolating changes that occurred after medication began. However, evidence from clinical trials, combined with the observed reversion in spending after discontinuation, suggests appetite suppression is likely a key mechanism behind the spending changes.
+
+🔗 Read more: https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy</description>
+      <guid isPermaLink="true">https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy</guid>
+      <pubDate>Mon, 12 Jan 2026 12:29:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46587536</comments>
+    </item>
+    <item>
+      <title>Keychron's Nape Pro turns your keyboard into a laptop‑style trackball rig</title>
+      <link>https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/</link>
+      <description>📝 They are using quiet Huano micro switches for the six buttons, which makes sense for a device meant to live right under your palms where an accidental loud click would be infuriating. It is clearly designed for thumb operation, keeping your fingers on the home row and eliminating that constant, inefficient travel between keyboard and mouse. SHARE Click to share on Facebook (Opens in new window) Facebook Click to share on X (Opens in new window) X Click to share on Pinterest (Opens in new window) Pinterest Click to share on Reddit (Opens in new window) Reddit Click to share on LinkedIn (Opens in new window) LinkedIn Click to share on Tumblr (Opens in new window) Tumblr Click to share on Pocket (Opens in new window) Pocket Click to email a link to a friend (Opens in new window) Email Click to print (Opens in new window) Print More Click to share on Telegram (Opens in new window) Telegram Click to share on Threads (Opens in new window) Threads Click to share on WhatsApp (Opens in new window) WhatsApp Click to share on Mastodon (Opens in new window) Mastodon Click to share on Bluesky (Opens in new window) Bluesky Click to share on Nextdoor (Opens in new window) Nextdoor 44 Shares ChatGPT-Powered Desk Mic gives your Existing Laptop Realtime Translation and Agentic Powers The most interesting AI hardware this year might not be a new screen or headset.
+
+🔗 Read more: https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/</description>
+      <guid isPermaLink="true">https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/</guid>
+      <pubDate>Mon, 12 Jan 2026 14:50:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46589279</comments>
     </item>
   </channel>
 </rss>

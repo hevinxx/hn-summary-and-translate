@@ -6,73 +6,132 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Jan 2026 12:48:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 15:28:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Lightpanda 将 DOM 实现迁移到 Zig</title>
-      <link>https://lightpanda.io/blog/posts/migrating-our-dom-to-zig</link>
-      <description>📝 另一个更大的挑战是将对用 Zig 编写的自定义元素和 ShadowDOM 的支持与 LibDOM 集成。本着实验的精神，这个原型还用 QuickJS-NG 取代了 V8。虽然这增加了查找开销，但它从每个元素中删除了约 6 个指针。
-
-
-🔤 Original: Lightpanda migrate DOM implementation to Zig
-
-🔗 Read more: https://lightpanda.io/blog/posts/migrating-our-dom-to-zig</description>
-      <guid isPermaLink="true">https://lightpanda.io/blog/posts/migrating-our-dom-to-zig</guid>
-      <pubDate>Mon, 12 Jan 2026 09:42:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46586179</comments>
+      <title>软盘被证明是最适合孩子的电视遥控器</title>
+      <link>https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/</link>
+      <guid isPermaLink="true">https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/</guid>
+      <pubDate>Mon, 12 Jan 2026 13:07:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46587934</comments>
     </item>
     <item>
-      <title>Fossil 与 Git</title>
-      <link>https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</link>
-      <description>📝 每当 Fossil 被告知以某种破坏性方式修改本地签出（fossil rm、fossil 更新、fossil 恢复等）时，Fossil 都会记住先前的状态，并能够使用 Fossil 撤消命令将签出目录返回到该状态。化石体积小、完整且独立。
+      <title>Zen-C：像高级语言一样编写，像C一样运行</title>
+      <link>https://github.com/z-libs/Zen-C</link>
+      <description>📝 聚合类型 数组 具有值语义的固定大小数组。 1;结构 具有可选位域的数据结构。内存管理 Zen C 允许使用符合人体工程学的辅助工具进行手动内存管理。
 
 
-🔤 Original: Fossil versus Git
+🔤 Original: Zen-C: Write like a high-level language, run like C
 
-🔗 Read more: https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</description>
-      <guid isPermaLink="true">https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki</guid>
-      <pubDate>Mon, 12 Jan 2026 10:10:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46586385</comments>
+🔗 Read more: https://github.com/z-libs/Zen-C</description>
+      <guid isPermaLink="true">https://github.com/z-libs/Zen-C</guid>
+      <pubDate>Mon, 12 Jan 2026 12:57:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46587804</comments>
     </item>
     <item>
-      <title>如何在 Vanilla JavaScript 中构建响应式声明式 UI</title>
-      <link>https://jsdev.space/howto/reactive-vanilla-js/</link>
-      <description>📝 onDelete = onDelete 返回这个。包装（值，完整路径）这个。路径，键]删除目标[键]这个。
+      <title>LLVM：不好的部分</title>
+      <link>https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html</link>
+      <description>📝 ） LLVM 确实遇到的问题是审核能力不足。这同时也是 LLVM 的一大优点和缺点。 LLVM 是一个巨大的项目。
 
 
-🔤 Original: How to Build Reactive Declarative UI in Vanilla JavaScript
+🔤 Original: LLVM: The Bad Parts
 
-🔗 Read more: https://jsdev.space/howto/reactive-vanilla-js/</description>
-      <guid isPermaLink="true">https://jsdev.space/howto/reactive-vanilla-js/</guid>
-      <pubDate>Mon, 12 Jan 2026 11:31:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46587033</comments>
+🔗 Read more: https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html</description>
+      <guid isPermaLink="true">https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html</guid>
+      <pubDate>Mon, 12 Jan 2026 14:18:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588837</comments>
     </item>
     <item>
-      <title>日本黑猩猩艾未未去世，享年 49 岁</title>
-      <link>https://www.bbc.com/news/articles/cj9r3zl2ywyo</link>
-      <description>📝 当艾未未参加认知测试时，她喜欢绘画。日本媒体共同社报道称，她曾与另一只灵长类动物一起逃跑——用钥匙打开笼子。简·古道尔夫人彻底改变了我们对灵长类近亲黑猩猩的理解，黑猩猩比想象中更有同情心——研究使用亚洲日本森林“急救”拍摄的野生黑猩猩。
+      <title>重现 DeepSeek 的 MHC：当残余连接爆炸时</title>
+      <link>https://taylorkolasinski.com/notes/mhc-reproduction/</link>
+      <description>📝 这些混合矩阵是不受约束的。这就是无约束混合矩阵大规模破坏的原因。这个过程是可微分的。
 
 
-🔤 Original: Ai, Japanese chimpanzee who counted and painted dies at 49
+🔤 Original: Reproducing DeepSeek's MHC: When Residual Connections Explode
 
-🔗 Read more: https://www.bbc.com/news/articles/cj9r3zl2ywyo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cj9r3zl2ywyo</guid>
-      <pubDate>Mon, 12 Jan 2026 09:10:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46585947</comments>
+🔗 Read more: https://taylorkolasinski.com/notes/mhc-reproduction/</description>
+      <guid isPermaLink="true">https://taylorkolasinski.com/notes/mhc-reproduction/</guid>
+      <pubDate>Mon, 12 Jan 2026 13:57:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588572</comments>
     </item>
     <item>
-      <title>在 GitHub Actions 中启动调试终端</title>
-      <link>https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/</link>
-      <description>📝 点对点连接怎么样？ WithKeySet(keySet), jwtx. WithIssuer(githubOIDCIssuer), jwtx.
+      <title>适用于 Linux 的 Windows 8 桌面环境</title>
+      <link>https://github.com/er-bharat/Win8DE</link>
+      <description>📝 可以从所有应用程序拖动到图块。将应用程序从所有应用程序拖到底部以隐藏开始屏幕，并将图标放置在任何支持桌面的位置。像这个例子一样的桌面文件。
 
 
-🔤 Original: Launch a Debugging Terminal into GitHub Actions
+🔤 Original: Windows 8 Desktop Environment for Linux
 
-🔗 Read more: https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/</description>
-      <guid isPermaLink="true">https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/</guid>
-      <pubDate>Mon, 12 Jan 2026 12:25:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46587498</comments>
+🔗 Read more: https://github.com/er-bharat/Win8DE</description>
+      <guid isPermaLink="true">https://github.com/er-bharat/Win8DE</guid>
+      <pubDate>Mon, 12 Jan 2026 13:22:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588132</comments>
+    </item>
+    <item>
+      <title>为什么安大略数字服务无法获得“98% 安全”的法学硕士（1500 万加拿大人）</title>
+      <link>https://rosetta-labs-erb.github.io/authority-boundary-ledger/</link>
+      <description>📝 并不是因为这些工具有风险，而是因为它们在我们的环境中未经证实。这不是完美主义。它们是使采用成为可能的基础设施。
+
+
+🔤 Original: Why Ontario Digital Service couldn't procure '98% safe' LLMs (15M Canadians)
+
+🔗 Read more: https://rosetta-labs-erb.github.io/authority-boundary-ledger/</description>
+      <guid isPermaLink="true">https://rosetta-labs-erb.github.io/authority-boundary-ledger/</guid>
+      <pubDate>Mon, 12 Jan 2026 14:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46589386</comments>
+    </item>
+    <item>
+      <title>爱尔兰快速跟踪法案将有害的声音或图像滥用定为犯罪</title>
+      <link>https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/</link>
+      <description>📝 爱尔兰司法部长正在审查将人工智能生成的未经同意的亲密图像和儿童性虐待图像定为犯罪的法律力度。加拉格尔女士还质疑爱尔兰对社交媒体平台的保护措施是否足够。所以这也是一个基于性别的暴力问题。
+
+
+🔤 Original: Ireland fast tracks Bill to criminalise harmful voice or image misuse
+
+🔗 Read more: https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/</description>
+      <guid isPermaLink="true">https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/</guid>
+      <pubDate>Mon, 12 Jan 2026 13:38:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588319</comments>
+    </item>
+    <item>
+      <title>2025 年是 Apple 服务破纪录的一年</title>
+      <link>https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/</link>
+      <description>📝 更新 2026 年 1 月 12 日 2025 年是 Apple 服务破纪录的一年 Apple 的 Eddy Cue 回顾了 Apple 服务的出色一年 2025 年是 Apple 服务破纪录的一年，其特点是显着的增长、全球扩张和持续创新。从 Apple TV、Apple Music 和 Apple News，到 Apple Pay 和 iCloud 等日常必需品，我们为全球用户提供了丰富的体验。 Apple Wallet 利用 Apple Intelligence 让用户更轻松地跟踪订单，Apple Maps 利用设备上的智能轻松访问用户的首选路线和访问过的地点。
+
+
+🔤 Original: 2025 marked a record-breaking year for Apple services
+
+🔗 Read more: https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/</description>
+      <guid isPermaLink="true">https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/</guid>
+      <pubDate>Mon, 12 Jan 2026 14:30:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46589009</comments>
+    </item>
+    <item>
+      <title>Ozempic 将美国的杂货支出平均减少了 5.3%</title>
+      <link>https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy</link>
+      <description>📝 “数据显示，采用后食品支出发生了明显变化，”赫里斯塔科娃说。这种组合使团队能够将收养者与未使用药物的类似家庭进行比较，从而隔离药物开始后发生的变化。然而，临床试验的证据，再加上停药后观察到的支出逆转，表明食欲抑制可能是支出变化背后的关键机制。
+
+
+🔤 Original: Ozempic reduced grocery spending by an average of 5.3% in the US
+
+🔗 Read more: https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy</description>
+      <guid isPermaLink="true">https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy</guid>
+      <pubDate>Mon, 12 Jan 2026 12:29:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46587536</comments>
+    </item>
+    <item>
+      <title>Keychron 的 Nape Pro 将您的键盘变成笔记本电脑式轨迹球装置</title>
+      <link>https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/</link>
+      <description>📝 他们在六个按钮上使用了安静的华诺微动开关，这对于一个需要放在手掌下的设备来说是有意义的，因为意外的大声点击会让人恼火。它显然是为拇指操作而设计的，使您的手指保持在主行上，并消除了键盘和鼠标之间持续、低效的移动。分享 点击在 Facebook 上分享（在新窗口中打开） Facebook 点击在 X 上分享（在新窗口中打开） X 点击在 Pinterest 上分享（在新窗口中打开） Pinterest 点击在 Reddit 上分享（在新窗口中打开） Reddit 点击在 LinkedIn 上分享（在新窗口中打开） LinkedIn 点击在 Tumblr 上分享（在新窗口中打开） Tumblr 点击在 Pocket 上分享（在新窗口中打开） Pocket 点击通过电子邮件将链接发送给朋友（在新窗口中打开）新窗口） 电子邮件 点击打印（在新窗口中打开） 打印 更多 点击在 Telegram 上分享（在新窗口中打开） Telegram 点击在 Threads 上分享（在新窗口中打开） Threads 点击在 WhatsApp 上分享（在新窗口中打开） WhatsApp 点击在 Mastodon 上分享（在新窗口中打开） Mastodon 点击在 Bluesky 上分享（在新窗口中打开） Bluesky 点击在 Nextdoor 上分享（在新窗口中打开） Nextdoor 44 分享ChatGPT 支持的桌面麦克风为您现有的笔记本电脑提供实时翻译和代理能力今年最有趣的人工智能硬件可能不是新屏幕或耳机。
+
+
+🔤 Original: Keychron's Nape Pro turns your keyboard into a laptop‑style trackball rig
+
+🔗 Read more: https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/</description>
+      <guid isPermaLink="true">https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/</guid>
+      <pubDate>Mon, 12 Jan 2026 14:50:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46589279</comments>
     </item>
   </channel>
 </rss>
