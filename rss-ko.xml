@@ -6,171 +6,139 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 12 Jan 2026 18:35:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 21:23:23 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>TimeCapsuleLLM: 1800년부터 1875년까지의 데이터에 대해서만 교육된 LLM</title>
-      <link>https://github.com/haykgrigo3/TimeCapsuleLLM</link>
-      <description>📝 모델은 10,000단계로만 훈련되었습니다. 아직 Jack Pickett의 말을 인용하지 않은 내용입니다. 이런 상황에서는 적어도 그 방을 떠났다고 해도 과언이 아니다.
+      <title>Cowork: 나머지 작업은 Claude Code가 담당합니다.</title>
+      <link>https://claude.com/blog/cowork-research-preview</link>
+      <description>📝 그러면 Claude는 해당 폴더에 있는 파일을 읽거나, 편집하거나, 만들 수 있습니다. Chrome에서 Cowork와 Claude를 페어링하면 Claude는 브라우저 액세스가 필요한 작업도 완료할 수 있습니다. Claude가 귀하의 지침을 잘못 해석할 가능성이 항상 있으므로 이와 같은 사항에 대해 Claude에게 매우 명확한 지침을 제공해야 합니다.
 
 
-🔤 Original: TimeCapsuleLLM: LLM trained only on data from 1800-1875
+🔤 Original: Cowork: Claude Code for the rest of your work
 
-🔗 Read more: https://github.com/haykgrigo3/TimeCapsuleLLM</description>
-      <guid isPermaLink="true">https://github.com/haykgrigo3/TimeCapsuleLLM</guid>
-      <pubDate>Mon, 12 Jan 2026 16:04:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46590280</comments>
+🔗 Read more: https://claude.com/blog/cowork-research-preview</description>
+      <guid isPermaLink="true">https://claude.com/blog/cowork-research-preview</guid>
+      <pubDate>Mon, 12 Jan 2026 19:27:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46593022</comments>
     </item>
     <item>
-      <title>날짜는 종료되고 임시는 종료됩니다.</title>
-      <link>https://piccalil.li/blog/date-is-out-and-temporal-is-in/</link>
-      <description>📝 log( new Date(2026, 1, 1) ); // 결과: 날짜 Sun Feb 01 2026 00:00:00 GMT-0500(동부 표준시) 날짜 생성자입니다. log( 새 날짜( "100" ) ); // 결과: 날짜 Fri Jan 01 0100 00:00:00 GMT-0456 (Eastern Standard Time) 나는 날짜를 엄청나게 싫어한다. log( new Date('2026-01-02') ); // 결과: 날짜 Thu Jan 01 2026 19:00:00 GMT-0500 (Eastern Standard Time) 날짜가 형편없습니다.
+      <title>Fabrice Bellard의 TS Zip</title>
+      <link>https://www.bellard.org/ts_zip/</link>
+      <description>📝 ts_zip: 대규모 언어 모델을 사용한 텍스트 압축 ts_zip: 대규모 언어 모델을 사용한 텍스트 압축 ts_zip 유틸리티는 대규모 언어 모델을 사용하여 텍스트 파일을 압축할 수 있습니다. 압축 비율은 다른 압축 도구보다 훨씬 높습니다. 압축 비율 압축 비율은 바이트당 비트(bpb) 단위로 제공됩니다.
 
 
-🔤 Original: Date is out, Temporal is in
+🔤 Original: Fabrice Bellard's TS Zip
 
-🔗 Read more: https://piccalil.li/blog/date-is-out-and-temporal-is-in/</description>
-      <guid isPermaLink="true">https://piccalil.li/blog/date-is-out-and-temporal-is-in/</guid>
-      <pubDate>Mon, 12 Jan 2026 15:20:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46589658</comments>
+🔗 Read more: https://www.bellard.org/ts_zip/</description>
+      <guid isPermaLink="true">https://www.bellard.org/ts_zip/</guid>
+      <pubDate>Mon, 12 Jan 2026 20:26:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46593802</comments>
     </item>
     <item>
-      <title>우편 차익거래</title>
-      <link>https://walzr.com/postal-arbitrage</link>
-      <guid isPermaLink="true">https://walzr.com/postal-arbitrage</guid>
-      <pubDate>Mon, 12 Jan 2026 17:41:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46591708</comments>
+      <title>OpenCode에서 인증되지 않은 원격 코드 실행</title>
+      <link>https://cy.md/opencode-rce/</link>
+      <description>📝 10에서는 시작 시 자동으로 HTTP 서버(기본 포트 4096+)를 생성했습니다. 실행 시 서버는 다음에 대한 엔드포인트를 노출합니다. 이 서버에는 인증이 없습니다. 서버가 실행 중일 때는 사용자에게 표시되는 표시가 없습니다.
+
+
+🔤 Original: Unauthenticated remote code execution in OpenCode
+
+🔗 Read more: https://cy.md/opencode-rce/</description>
+      <guid isPermaLink="true">https://cy.md/opencode-rce/</guid>
+      <pubDate>Sun, 11 Jan 2026 22:33:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46581095</comments>
     </item>
     <item>
-      <title>HN 표시: SolidWorks의 AI</title>
-      <link>https://www.trylad.com</link>
-      <description>📝 AI를 사용하여 자연어로 설계하는 SolidWorks 애드인 일반 언어로 설계를 설명하면 LAD가 이를 SolidWorks 작업으로 변환하고 자연스러운 대화를 통해 스케치, 기능 및 어셈블리를 생성합니다. 매크로를 작성할 때 LAD는 API를 더 잘 이해하기 위해 SolidWorks 문서와 예제를 검색합니다. LAD(Language-Aided Designer)는 SolidWorks에 애드인으로 직접 통합되어 스케치, 기능, 매크로 및 기타 CAD 객체를 생성할 수 있는 시스템입니다.
-
-
-🔤 Original: Show HN: AI in SolidWorks
-
-🔗 Read more: https://www.trylad.com</description>
-      <guid isPermaLink="true">https://www.trylad.com</guid>
-      <pubDate>Mon, 12 Jan 2026 16:56:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46591100</comments>
+      <title>Delta Air Lines의 체스 봇이 당신을 파괴할 것입니다(2024) [동영상]</title>
+      <link>https://www.youtube.com/watch?v=c0mLhHDcY3I</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=c0mLhHDcY3I</guid>
+      <pubDate>Mon, 12 Jan 2026 19:57:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46593395</comments>
     </item>
     <item>
-      <title>메시지 대기열: 비유가 포함된 간단한 안내서</title>
-      <link>https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html</link>
-      <description>📝 데이터베이스와 마찬가지로 메시지 대기열도 일부 저장 기능을 수행합니다. 하지만 데이터베이스가 있는데 왜 데이터 저장을 위해 메시지 대기열을 사용합니까? 메시지 대기열의 작동 방식 일반적으로 생산자와 소비자는 메시지 대기열이 지원하는 일부 프로토콜을 통해 메시지 대기열에 연결하고 통신합니다.
+      <title>HN 표시: 제국 대리인: OpenCode 및 Claude Code 세션 관리자</title>
+      <link>https://github.com/njbrake/agent-of-empires</link>
+      <description>📝 생성하는 각 AI 코딩 세션은 실제로 내부적으로는 tmux 세션입니다. json # 세션 데이터 │ └── 그룹. 권장되는 접근 방식은 tmux 세션 내에서 aoe를 실행하는 것입니다. # tmux 세션을 먼저 시작합니다. tmux new-session -s main # 그런 다음 그 안에서 aoe를 실행합니다. aoe 에이전트 세션에 연결하면 tmux가 해당 세션으로 전환합니다.
 
 
-🔤 Original: Message Queues: A Simple Guide with Analogies
+🔤 Original: Show HN: Agent-of-empires: OpenCode and Claude Code session manager
 
-🔗 Read more: https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html</description>
-      <guid isPermaLink="true">https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html</guid>
-      <pubDate>Mon, 12 Jan 2026 17:17:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46591402</comments>
+🔗 Read more: https://github.com/njbrake/agent-of-empires</description>
+      <guid isPermaLink="true">https://github.com/njbrake/agent-of-empires</guid>
+      <pubDate>Mon, 12 Jan 2026 14:23:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46588905</comments>
     </item>
     <item>
-      <title>SCION 협회를 위한 25Gbit/s 워크스테이션 구축</title>
-      <link>https://github.com/scionassociation/blog-25gbit-workstation</link>
-      <description>📝 SCION에 대해 더 자세히 알고 싶다면 scion을 확인해보세요. 보더 라우터 성능 이 글을 쓰는 시점에서 SCION OSS 보더 라우터 성능은 초당 약 400k-500k 패킷의 최고치에 도달했습니다. 이는 대략 1500바이트 MTU에서 5-6Gbit/s에 해당합니다. Linux 네트워킹 스택 SCION OSS 경계 라우터는 Linux 사용자 공간 프로그램입니다.
+      <title>Clearspace(YC W23)에서 응용 연구원(ML)을 채용하고 있습니다.</title>
+      <link>https://www.ycombinator.com/companies/clearspace/jobs/GOWiDwp-research-engineer-at-clearspace</link>
+      <description>📝 기기와 더 나은 관계를 원하는 사람들은 의지력 외에는 의지할 곳이 없습니다. 우리는 자연어 규칙에 따라 네트워크 트래픽을 처리하고 필터링하여 모든 장치에서 이를 달성하는 에이전트를 구축하고 있습니다. 모델에 대해서만 생각하는 것이 아니라 "어떻게 하면 더 많은 데이터 볼륨을 얻을 수 있을까요?" "어떻게 데이터를 지능적으로 기능화할 수 있습니까?"; "작업과 원하는 모델 크기를 기준으로 데이터 요구 사항은 무엇입니까?", 추론 요구 사항을 거꾸로 구축하는 것과 같습니다.
 
 
-🔤 Original: Building a 25 Gbit/s workstation for the SCION Association
+🔤 Original: Clearspace (YC W23) Is Hiring an Applied Researcher (ML)
 
-🔗 Read more: https://github.com/scionassociation/blog-25gbit-workstation</description>
-      <guid isPermaLink="true">https://github.com/scionassociation/blog-25gbit-workstation</guid>
-      <pubDate>Mon, 12 Jan 2026 16:20:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46590541</comments>
+🔗 Read more: https://www.ycombinator.com/companies/clearspace/jobs/GOWiDwp-research-engineer-at-clearspace</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/clearspace/jobs/GOWiDwp-research-engineer-at-clearspace</guid>
+      <pubDate>Mon, 12 Jan 2026 18:41:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46592461</comments>
     </item>
     <item>
-      <title>Carma(YC W24 클라이언트, 6개월 후 A) 엔지니어 고용: 5000억 달러 규모의 인간 함대 작전을 AI로 대체</title>
-      <link>https://news.ycombinator.com/item?id=46591170</link>
-      <description>📝 요약: Fortune 500대 고객이 매일 사용하는 실제 제품; 수익 후 실제 운영을 통해 오늘 실제 문제를 해결합니다. 현재: - 전국적으로 여러 Fortune 500대 고객이 이미 사용하고 있는 라이브 제품 - 매달 새로운 기업 고객과 계약 - $5. 풀스택 엔지니어 구성 요소 창립: $200K + 3% 자기자본 https://www.
+      <title>Show HN: JavaScript 로드를 보면서 잠들다</title>
+      <link>https://github.com/sarusso/bedtime</link>
+      <description>📝 취침 시간 JavaScript 로드를 보면서 잠들기 이 작은 장난감 프로젝트는 Liora와 그 작은 동반자에 대한 취침 시간 이야기를 점진적으로 전달하는 동시에 잠에 들 수 있도록 돕는 것 외에 다른 이유 없이 의도적으로 JavaScript 로더를 회전시킵니다. 스토리를 진행하면서 로더가 회전하는 시간과 텍스트가 나타나는 속도가 증가하므로 이상적으로는 끝까지 도달하지 않는 것이 좋습니다(정말로 원하지 않는 한). 어느 날 밤 잠이 오지 않고 웹 플랫폼에서 데이터 분석 결과를 검색하던 중 스피너가 실제로 나를 졸리게 만드는 것을 발견했습니다.
 
 
-🔤 Original: Carma (YC W24 clients, A in 6mo) Eng hiring: Replace $500B human fleet ops with AI
+🔤 Original: Show HN: Fall asleep by watching JavaScript load
 
-🔗 Read more: https://news.ycombinator.com/item?id=46591170</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46591170</guid>
-      <pubDate>Mon, 12 Jan 2026 17:00:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46591170</comments>
+🔗 Read more: https://github.com/sarusso/bedtime</description>
+      <guid isPermaLink="true">https://github.com/sarusso/bedtime</guid>
+      <pubDate>Mon, 12 Jan 2026 18:36:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46592376</comments>
     </item>
     <item>
-      <title>Anthropic은 제3자 클라이언트를 차단하는 실수를 저질렀습니다.</title>
-      <link>https://archaeologist.dev/artifacts/anthropic</link>
-      <description>📝 그럼에도 불구하고 (아마도) 의심하지 않는 많은 Anthropic 고객은 OpenCode를 이런 방식으로 사용했습니다. 그들의 관점에서 볼 때 그들은 단지 자신이 선호하는 코딩 도구를 사용하여 이미 비용을 지불하고 있던 것과 동일한 서비스를 사용하고 있었던 것입니다. 그러나 Anthropic은 분명히 그것을 이런 식으로 보지 않았습니다. 진실은 Anthropic이 원하는 것을 ToS에 자유롭게 넣을 수 있으며 고객은 이를 준수하거나 떠나야 한다는 것입니다.
+      <title>텍사스에 배포되는 앱의 연령 요건 업데이트</title>
+      <link>https://developer.apple.com/news/?id=8jzbigf4</link>
+      <description>📝 텍사스에서 배포되는 앱의 연령 요구 사항 업데이트 2025년 12월 23일 최근 지방 법원이 발부한 금지 명령으로 앱 마켓플레이스 및 개발자에 대한 연령 보증 요구 사항을 도입한 텍사스 주법 SB2420의 집행이 중단되었습니다. 이번 판결에 따라 Apple은 이전에 발표한 구현 계획을 일시 중지하고 진행 중인 법적 절차를 모니터링할 예정입니다. 개발자가 규정 준수 의무를 이행하는 데 도움이 되도록 이전에 발표한 도구는 다음을 포함하여 샌드박스 테스트에 계속 사용할 수 있습니다. PermissionKit에서 선언된 연령 범위 API 중요한 변경 API StoreKit 앱 스토어 서버 알림의 새로운 연령 등급 속성 유형 이러한 도구는 2026년 유타와 루이지애나에서 발효되는 법률에 따라 개발자의 의무를 이행하는 데 도움을 주는 데도 사용할 수 있습니다.
 
 
-🔤 Original: Anthropic made a mistake in cutting off third-party clients
+🔤 Original: Update on age requirements for apps distributed in Texas
 
-🔗 Read more: https://archaeologist.dev/artifacts/anthropic</description>
-      <guid isPermaLink="true">https://archaeologist.dev/artifacts/anthropic</guid>
-      <pubDate>Mon, 12 Jan 2026 10:57:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46586766</comments>
+🔗 Read more: https://developer.apple.com/news/?id=8jzbigf4</description>
+      <guid isPermaLink="true">https://developer.apple.com/news/?id=8jzbigf4</guid>
+      <pubDate>Mon, 12 Jan 2026 20:27:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46593819</comments>
     </item>
     <item>
-      <title>이란은 현재 96시간 동안 오프라인 상태입니다.</title>
-      <link>https://twitter.com/netblocks/status/2010750871274160361</link>
-      <description>📝 이 브라우저에서는 JavaScript가 비활성화되어 있는 것으로 감지되었습니다. x를 계속 사용하려면 JavaScript를 활성화하거나 지원되는 브라우저로 전환하세요. 서비스 약관 개인 ​​정보 보호 정책 쿠키 정책 간기 광고 정보 © 2026 X Corp.
+      <title>HN 표시: Yolobox – 홈 디렉토리를 누킹하지 않고 전체 sudo로 AI 코딩 에이전트를 실행합니다.</title>
+      <link>https://github.com/finbarr/yolobox</link>
+      <description>📝 홈 디렉토리는 집에 유지됩니다. 실제 홈 디렉토리. 위협 모델 yolobox가 보호하는 것: 홈 디렉터리 fr.
 
 
-🔤 Original: Iran has now been offline for 96 hours
+🔤 Original: Show HN: Yolobox – Run AI coding agents with full sudo without nuking home dir
 
-🔗 Read more: https://twitter.com/netblocks/status/2010750871274160361</description>
-      <guid isPermaLink="true">https://twitter.com/netblocks/status/2010750871274160361</guid>
-      <pubDate>Mon, 12 Jan 2026 18:03:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46591974</comments>
+🔗 Read more: https://github.com/finbarr/yolobox</description>
+      <guid isPermaLink="true">https://github.com/finbarr/yolobox</guid>
+      <pubDate>Mon, 12 Jan 2026 18:34:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46592344</comments>
     </item>
     <item>
-      <title>연방준비은행 의장의 성명</title>
-      <link>https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink</link>
-      <description>📝 공식 웹사이트 사용. gov 웹사이트는 HTTPSA 잠금(LockLocked 자물쇠 아이콘)을 사용합니다. 또는 https://는 안전하게 연결되었음을 의미합니다. 공식적이고 안전한 웹사이트에서만 민감한 정보를 공유하세요.
+      <title>인간이었던 컴퓨터</title>
+      <link>https://digitalseams.com/blog/computers-that-used-to-be-human</link>
+      <description>📝 기타 컴퓨터 Arthur B. 기타 컴퓨터 John R. 기타 컴퓨터 Charles E.
 
 
-🔤 Original: Statement from Federal Reserve Chair
+🔤 Original: Computers that used to be human
 
-🔗 Read more: https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink</description>
-      <guid isPermaLink="true">https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink</guid>
-      <pubDate>Mon, 12 Jan 2026 15:05:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46589489</comments>
+🔗 Read more: https://digitalseams.com/blog/computers-that-used-to-be-human</description>
+      <guid isPermaLink="true">https://digitalseams.com/blog/computers-that-used-to-be-human</guid>
+      <pubDate>Mon, 12 Jan 2026 15:09:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46589543</comments>
     </item>
     <item>
-      <title>Apple, Siri 구동을 위해 Google의 Gemini 선택</title>
-      <link>https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html</link>
-      <description>📝 구글은 CNBC에 공동성명을 언급했습니다. Google은 이미 iPhone의 기본 검색 엔진으로 Apple에 매년 수십억 달러를 지불하고 있습니다. 주식 차트 아이콘주식 차트 아이콘알파벳 및 Apple 일일 주식 차트입니다.
-
-
-🔤 Original: Apple picks Google's Gemini to power Siri
-
-🔗 Read more: https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html</guid>
-      <pubDate>Mon, 12 Jan 2026 15:22:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46589675</comments>
-    </item>
-    <item>
-      <title>스키마 기반 문서 추출의 계산 복잡성</title>
-      <link>https://www.runpulse.com/blog/computational-complexity-of-schema</link>
-      <description>📝 정규 표현식과 같은 간단한 제약 조건의 경우 이는 효율적입니다. 문서 추출의 의미는 무엇입니까? 제한된 디코딩은 컴퓨팅 비용만 드는 것이 아닙니다.
-
-
-🔤 Original: Computational complexity of schema-guided document extraction
-
-🔗 Read more: https://www.runpulse.com/blog/computational-complexity-of-schema</description>
-      <guid isPermaLink="true">https://www.runpulse.com/blog/computational-complexity-of-schema</guid>
-      <pubDate>Mon, 12 Jan 2026 15:13:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46589576</comments>
-    </item>
-    <item>
-      <title>Show HN: Pane – 스프레드시트를 편집하는 에이전트</title>
-      <link>https://paneapp.com</link>
-      <description>📝 간단한 명령으로 데이터를 정렬, 필터링, 계산 및 변환합니다. 한 번의 클릭으로 기존 데이터를 가져옵니다. 데이터를 즉시 시각화하세요.
-
-
-🔤 Original: Show HN: Pane – An agent that edits spreadsheets
-
-🔗 Read more: https://paneapp.com</description>
-      <guid isPermaLink="true">https://paneapp.com</guid>
-      <pubDate>Mon, 12 Jan 2026 15:41:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46589926</comments>
+      <title>HN 표시: 상황을 모니터링하기 위한 사용자 정의 가능한 OSINT 대시보드</title>
+      <link>https://sr.ericli.tech/?d=N4IgbiBcCMA0IHcoG1QBcogEYngGxQAZZiAOWUgXXgGMpQBHTASwCcBDAO1xAAcoAzIWGEAvqNjpMAWx4FIycsWjKAbNRB1IoLcgEAmAHSqALAHYArAOgnYFk4YumBF6OvgAvKGfgBnKGisAK4ApvDckCAAkhzc4pIgGJEhckQU6VS09CBMkWxcIPFSkfz4KNBKsKqwZhpaoP6RNi5mAjwhSSAA0gAW7NIhnCHMAAQA9kFoI+y+IwDKQbysIQMjADIh7AAmIazjAGYjMVwjWACeIwBSXEHsrBfWAPyFEsUgZ6kKFTVVsACcdWyQUwPTQaF4vkgAHooQg4YYzhM0EEsCFDDQxtJYew0DQeo8wABeNYAfX2NFYAHlEQB1ABapBelFEQA</link>
+      <guid isPermaLink="true">https://sr.ericli.tech/?d=N4IgbiBcCMA0IHcoG1QBcogEYngGxQAZZiAOWUgXXgGMpQBHTASwCcBDAO1xAAcoAzIWGEAvqNjpMAWx4FIycsWjKAbNRB1IoLcgEAmAHSqALAHYArAOgnYFk4YumBF6OvgAvKGfgBnKGisAK4ApvDckCAAkhzc4pIgGJEhckQU6VS09CBMkWxcIPFSkfz4KNBKsKqwZhpaoP6RNi5mAjwhSSAA0gAW7NIhnCHMAAQA9kFoI+y+IwDKQbysIQMjADIh7AAmIazjAGYjMVwjWACeIwBSXEHsrBfWAPyFEsUgZ6kKFTVVsACcdWyQUwPTQaF4vkgAHooQg4YYzhM0EEsCFDDQxtJYew0DQeo8wABeNYAfX2NFYAHlEQB1ABapBelFEQA</guid>
+      <pubDate>Mon, 12 Jan 2026 17:32:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46591589</comments>
     </item>
   </channel>
 </rss>
