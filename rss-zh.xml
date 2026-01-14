@@ -6,152 +6,210 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 13 Jan 2026 21:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 01:49:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>无需管理：早期工程团队中的反模式</title>
-      <link>https://www.ablg.io/blog/no-management-needed</link>
-      <description>📝 不要试图“激励”你的工程师 许多创始人共同关心的问题是确保他们的工程师努力工作。这可能意味着投入很长时间，比竞争对手工作更多，完成英勇的代码库重写等。您唯一的工作就是雇用这些工程师，然后维护一个让他们能够发挥最佳水平的环境。
+      <title>40 行修复消除了 400 倍的性能差距</title>
+      <link>https://questdb.com/blog/jvm-current-thread-user-time/</link>
+      <description>📝 getCurrentThreadUserTime()。 tv_nsec);} 只需一次clock_gettime() 调用。但如果将这些低位翻转为 01 (VIRT)，clock_gettime() 将仅返回用户时间。
 
 
-🔤 Original: No management needed: anti-patterns in early-stage engineering teams
+🔤 Original: A 40-line fix eliminated a 400x performance gap
 
-🔗 Read more: https://www.ablg.io/blog/no-management-needed</description>
-      <guid isPermaLink="true">https://www.ablg.io/blog/no-management-needed</guid>
-      <pubDate>Tue, 13 Jan 2026 18:54:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46605854</comments>
+🔗 Read more: https://questdb.com/blog/jvm-current-thread-user-time/</description>
+      <guid isPermaLink="true">https://questdb.com/blog/jvm-current-thread-user-time/</guid>
+      <pubDate>Tue, 13 Jan 2026 23:00:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46609630</comments>
     </item>
     <item>
-      <title>人工智能生成的音乐被 Bandcamp 禁止</title>
-      <link>https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/</guid>
-      <pubDate>Tue, 13 Jan 2026 18:31:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46605490</comments>
+      <title>每个 GitHub 对象都有两个 ID</title>
+      <link>https://www.greptile.com/blog/github-ids</link>
+      <description>📝 我们一直在使用 GitHub 的 GraphQL API，它返回类似 PRRC_kwDOL4aMSs6Tkzl8 的节点 ID。 GitHub 的文档提到节点 ID 是 base64 编码的。数据库 ID 只是解码后的节点 ID 的最后 32 位。
+
+
+🔤 Original: Every GitHub object has two IDs
+
+🔗 Read more: https://www.greptile.com/blog/github-ids</description>
+      <guid isPermaLink="true">https://www.greptile.com/blog/github-ids</guid>
+      <pubDate>Tue, 13 Jan 2026 15:52:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46602591</comments>
     </item>
     <item>
-      <title>Games Workshop 禁止员工使用人工智能，管理层对这项技术不感兴趣</title>
-      <link>https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech</link>
-      <description>📝 《战锤 40,000：500 个世界》Warhammer Maker Games Workshop 禁止其员工在其内容或设计中使用人工智能，表示其高级管理人员目前对皇帝保护的技术都不感兴趣。事实上，Games Workshop 出售昂贵的《战锤 40,000》“法典”规则手册，其中充满了令人惊叹的官方艺术和传说。图片来源：游戏工作室。
+      <title>$LANG 编程语言</title>
+      <link>https://news.ycombinator.com/item?id=46610557</link>
+      <description>📝 id=934142 - 2009 年 11 月（219 条评论）Rust 编程语言 - https://news。 id=1498528 - 2010 年 7 月（44 条评论）Julia 编程语言 - https://news。 id=3606380 - 2012 年 2 月（203 条评论）Swift 编程语言 - https://news。
 
 
-🔤 Original: Games Workshop bans staff from using AI, management not excited about the tech
+🔤 Original: The $LANG Programming Language
 
-🔗 Read more: https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech</description>
-      <guid isPermaLink="true">https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech</guid>
-      <pubDate>Tue, 13 Jan 2026 20:45:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46607681</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46610557</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46610557</guid>
+      <pubDate>Wed, 14 Jan 2026 00:17:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46610557</comments>
     </item>
     <item>
-      <title>如何制作一个该死的网站 (2024)</title>
-      <link>https://lmnt.me/blog/how-to-make-a-damn-website.html</link>
-      <description>📝 甚至不要设计或概述您的网站。相反，只需撰写您的第一篇博客文章即可。写一篇实际的博客文章。
+      <title>vLLM 大规模服务：DeepSeek 2.2k tok/s/h200 with Wide-ep</title>
+      <link>https://blog.vllm.ai/2025/12/17/large-scale-serving.html</link>
+      <description>📝 Wide-EP 令牌路由 Wide-EP 将 EP 与数据并行性 (DP) 结合起来。有关 vLLM 中可用的所有后端的信息，请参阅 vLLM MoE 内核文档。 vLLM 全部到所有后端 双批次重叠 (DBO) vLLM 集成了对 DeepSeek 微批处理策略的支持，作为双批次重叠 (DBO)，可通过命令行中的 --enable-dbo 标志获得。
 
 
-🔤 Original: How to make a damn website (2024)
+🔤 Original: vLLM large scale serving: DeepSeek 2.2k tok/s/h200 with wide-ep
 
-🔗 Read more: https://lmnt.me/blog/how-to-make-a-damn-website.html</description>
-      <guid isPermaLink="true">https://lmnt.me/blog/how-to-make-a-damn-website.html</guid>
-      <pubDate>Tue, 13 Jan 2026 17:23:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46604250</comments>
+🔗 Read more: https://blog.vllm.ai/2025/12/17/large-scale-serving.html</description>
+      <guid isPermaLink="true">https://blog.vllm.ai/2025/12/17/large-scale-serving.html</guid>
+      <pubDate>Tue, 13 Jan 2026 15:59:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46602737</comments>
     </item>
     <item>
-      <title>Show HN：Ayder – 用 C 编写的 HTTP 原生持久事件日志（curl 作为客户端）</title>
-      <link>https://github.com/A1darbek/ayder</link>
-      <description>📝 wrk（最大吞吐量）— 吞吐量测试指标值 吞吐量 93,807 msg/s P50 3. 92MB 完整 wrk2 输出（3 节点集群，速率受限） 运行 1m 测试 @ http://10。第999章）环境吞吐量服务器P99。
+      <title>2026 年摩根大通医疗保健会议背后的真相</title>
+      <link>https://www.owlposting.com/p/the-truth-behind-the-2026-jp-morgan</link>
+      <description>📝 摩根医疗保健会议2。他们假设有人去了。摩根医疗保健会议。
 
 
-🔤 Original: Show HN: Ayder – HTTP-native durable event log written in C (curl as client)
+🔤 Original: The truth behind the 2026 J.P. Morgan Healthcare Conference
 
-🔗 Read more: https://github.com/A1darbek/ayder</description>
-      <guid isPermaLink="true">https://github.com/A1darbek/ayder</guid>
-      <pubDate>Tue, 13 Jan 2026 17:55:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46604862</comments>
+🔗 Read more: https://www.owlposting.com/p/the-truth-behind-the-2026-jp-morgan</description>
+      <guid isPermaLink="true">https://www.owlposting.com/p/the-truth-behind-the-2026-jp-morgan</guid>
+      <pubDate>Tue, 13 Jan 2026 18:22:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46605332</comments>
     </item>
     <item>
-      <title>两个头比一个头好吗？</title>
-      <link>https://eieio.games/blog/two-heads-arent-better-than-one/</link>
-      <description>📝 80% 的情况下你都是对的。相信 Alice，你在 80% 的情况下都是对的。大多数（~94%）发生这种情况时，他们说的是实话。
+      <title>Sei (YC W22) 正在招聘一名 DevOps 工程师（印度/办公室/钦奈/古尔冈）</title>
+      <link>https://www.ycombinator.com/companies/sei/jobs/Rn0KPXR-devops-platform-ai-infrastructure-engineer</link>
+      <description>📝 我们目前正在与众多企业客户和银行合作，并且正在经历快速增长。最近阅读的开源贡献/副项目/博客文章。在你的下一个职位中，最不可协商的三件事是什么？
 
 
-🔤 Original: Are two heads better than one?
+🔤 Original: Sei (YC W22) Is Hiring a DevOps Engineer (India/In-Office/Chennai/Gurgaon)
 
-🔗 Read more: https://eieio.games/blog/two-heads-arent-better-than-one/</description>
-      <guid isPermaLink="true">https://eieio.games/blog/two-heads-arent-better-than-one/</guid>
-      <pubDate>Tue, 13 Jan 2026 16:22:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46603111</comments>
+🔗 Read more: https://www.ycombinator.com/companies/sei/jobs/Rn0KPXR-devops-platform-ai-infrastructure-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/sei/jobs/Rn0KPXR-devops-platform-ai-infrastructure-engineer</guid>
+      <pubDate>Wed, 14 Jan 2026 01:01:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46610967</comments>
     </item>
     <item>
-      <title>信号领导者警告代理人工智能是一种不安全、不可靠的监视风险</title>
-      <link>https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/</link>
-      <description>📝 为什么复杂的代理任务不可靠 Whittaker 强调，代理人工智能不仅具有侵入性并且容易受到威胁；这也是不可靠的。她说人工智能代理是概率性的，而不是确定性的，他们在任务中采取的每一步都会降低他们的准确性和最终行动。她表示，如果人工智能代理能够以 95% 的准确率执行每一步（目前这是不可能的），那么 10 步任务将产生约 59 分的动作。
+      <title>当硬件报废时，公司需要开源软件</title>
+      <link>https://www.marcia.no/words/eol</link>
+      <description>📝 我在读这篇文章时想到了这一点。 Bose 这样做很棒，但很少见。普通用户现在实际上可以修改这些东西了。
 
 
-🔤 Original: Signal leaders warn agentic AI is an insecure, unreliable surveillance risk
+🔤 Original: When hardware goes end-of-life, companies need to open-source the software
 
-🔗 Read more: https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/</description>
-      <guid isPermaLink="true">https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/</guid>
-      <pubDate>Tue, 13 Jan 2026 18:35:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46605553</comments>
+🔗 Read more: https://www.marcia.no/words/eol</description>
+      <guid isPermaLink="true">https://www.marcia.no/words/eol</guid>
+      <pubDate>Tue, 13 Jan 2026 22:49:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46609492</comments>
     </item>
     <item>
-      <title>Show HN：Nogic – VS Code 扩展，可将代码库可视化为图表</title>
-      <link>https://marketplace.visualstudio.com/items?itemName=Nogic.nogic</link>
-      <description>📝 Nogic - Visual Studio 市场市场登录 Visual Studio Code&gt;其他&gt;NogicVisual Studio Code 新手。复制复制到剪贴板更多信息概述版本历史Q &amp; ARating &amp; Review🔍Nogic 通过交互式图表可视化您的代码库结构📦支持的语言更多语言和框架即将推出。 🎉 🚀 入门 打开命令面板（Cmd+Shift+P / Ctrl+Shift+P） 运行 Nogic：打开 Visualizer 右键单击​​资源管理器中的文件或文件夹，然后选择添加到 Nogic Board 如果获得许可，当您打开可视化工具时，您的代码库会自动索引。
+      <title>由于人工智能抓取工具，我们无法拥有美好的事物</title>
+      <link>https://blog.metabrainz.org/2025/12/11/we-cant-have-nice-things-because-of-ai-scrapers/</link>
+      <description>📝 为了防止我们的服务过载，我们进行了以下更改： /metadata/lookup API 端点（GET 和 POST 版本）现在要求调用者发送授权令牌才能使该端点正常工作。 mbid-mapping、mbid-mapping-release 和 mbid-mapping-explain 的 ListenBrainz Labs API 端点已被删除。 LB Radio 现在要求用户登录才能使用它（API 端点用户需要发送授权标头）。
 
 
-🔤 Original: Show HN: Nogic – VS Code extension that visualizes your codebase as a graph
+🔤 Original: We can't have nice things because of AI scrapers
 
-🔗 Read more: https://marketplace.visualstudio.com/items?itemName=Nogic.nogic</description>
-      <guid isPermaLink="true">https://marketplace.visualstudio.com/items?itemName=Nogic.nogic</guid>
-      <pubDate>Tue, 13 Jan 2026 18:43:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46605675</comments>
+🔗 Read more: https://blog.metabrainz.org/2025/12/11/we-cant-have-nice-things-because-of-ai-scrapers/</description>
+      <guid isPermaLink="true">https://blog.metabrainz.org/2025/12/11/we-cant-have-nice-things-because-of-ai-scrapers/</guid>
+      <pubDate>Tue, 13 Jan 2026 21:57:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46608840</comments>
     </item>
     <item>
-      <title>一所大学被禁止使用 Linux 内核（2021 年）</title>
-      <link>https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source</link>
-      <description>📝 十五天后，明尼苏达大学被禁止为 Linux 内核做出贡献。从根本上讲，Linux 内核是任何 Linux 操作系统的核心。这些实验往往涉及报告错误、向 Linux 内核维护者提交补丁以及报告他们的接受率。
+      <title>Show HN: Microwave – 用于 ATproto 上视频的原生 iOS 应用程序</title>
+      <link>https://testflight.apple.com/join/cVxV1W3g</link>
+      <description>📝 安装首先，在您将用于测试的设备上安装 TestFlight。然后，接受您的电子邮件邀请或按照公共链接邀请安装测试版应用程序。如果您有符合条件的设备，则可以在该设备上安装 TestFlight，然后接受 Beta 邀请。
 
 
-🔤 Original: A university got itself banned from the Linux kernel (2021)
+🔤 Original: Show HN: Microwave – Native iOS app for videos on ATproto
 
-🔗 Read more: https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source</description>
-      <guid isPermaLink="true">https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source</guid>
-      <pubDate>Tue, 13 Jan 2026 18:58:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46605950</comments>
+🔗 Read more: https://testflight.apple.com/join/cVxV1W3g</description>
+      <guid isPermaLink="true">https://testflight.apple.com/join/cVxV1W3g</guid>
+      <pubDate>Tue, 13 Jan 2026 17:14:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46604067</comments>
     </item>
     <item>
-      <title>选择学习而不是自动驾驶</title>
-      <link>https://anniecherkaev.com/choosing-learning-over-autopilot</link>
-      <description>📝 它们打开了大门，让我可以做一些仅靠人类双手无法完成的事情。这使我能够以以前令人望而却步的速度边做边学。更多并不总是更好。
+      <title>这是一个笑话吗？</title>
+      <link>https://novalis.org/blog/2025-11-06-is-it-a-joke.html</link>
+      <description>📝 这是一款根本不存在的游戏——罗斯·萨瑟兰 (Ross Sutherland) 刚刚制作了它，然后录制了一整集关于它的播客。这一集在任何时候都没有承认该游戏是假的。我真的很喜欢读埃及乌纳什的 IF 风格的《蓝色王子》场景。
 
 
-🔤 Original: Choosing learning over autopilot
+🔤 Original: Is it a joke?
 
-🔗 Read more: https://anniecherkaev.com/choosing-learning-over-autopilot</description>
-      <guid isPermaLink="true">https://anniecherkaev.com/choosing-learning-over-autopilot</guid>
-      <pubDate>Tue, 13 Jan 2026 18:46:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46605716</comments>
+🔗 Read more: https://novalis.org/blog/2025-11-06-is-it-a-joke.html</description>
+      <guid isPermaLink="true">https://novalis.org/blog/2025-11-06-is-it-a-joke.html</guid>
+      <pubDate>Tue, 13 Jan 2026 21:55:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46608811</comments>
     </item>
     <item>
-      <title>Show HN：自托管 Reddit – 2.38B 帖子，离线工作，永远属于您</title>
-      <link>https://github.com/19-84/redd-archiver</link>
-      <description>📝 Redd-Archiver 通过灵活的部署选项将压缩数据转储转换为可浏览的 HTML 存档。 Redd-Archiver 支持通过排序索引页面进行离线浏览或通过 Docker 部署进行全文搜索。具有移动优先设计、多平台支持以及 PostgreSQL 全文索引的企业级性能。
+      <title>Revup：上传一次即可创建多个相关的 GitHub PR</title>
+      <link>https://github.com/Skydio/revup</link>
+      <description>📝 Revup 需要它来创建和修改拉取请求。要覆盖此设置并始终上传，请运行 revup upload --rebase。 revup --远程名称起源。
 
 
-🔤 Original: Show HN: Self-host Reddit – 2.38B posts, works offline, yours forever
+🔤 Original: Revup: Upload once to create multiple, relative GitHub PRs
 
-🔗 Read more: https://github.com/19-84/redd-archiver</description>
-      <guid isPermaLink="true">https://github.com/19-84/redd-archiver</guid>
-      <pubDate>Tue, 13 Jan 2026 15:35:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46602324</comments>
+🔗 Read more: https://github.com/Skydio/revup</description>
+      <guid isPermaLink="true">https://github.com/Skydio/revup</guid>
+      <pubDate>Tue, 13 Jan 2026 17:20:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46604200</comments>
     </item>
     <item>
-      <title>Confer – 端到端加密人工智能聊天</title>
-      <link>https://confer.to/</link>
-      <guid isPermaLink="true">https://confer.to/</guid>
-      <pubDate>Tue, 13 Jan 2026 13:45:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46600839</comments>
+      <title>法学硕士最大化主义者的不安全传福音</title>
+      <link>https://lewiscampbell.tech/blog/260114.html</link>
+      <description>📝 为什么他们不能自己活，也让别人活。难道他们的编程能力比我好得多吗？他们只是受到威胁。
+
+
+🔤 Original: The insecure evangelism of LLM maximalists
+
+🔗 Read more: https://lewiscampbell.tech/blog/260114.html</description>
+      <guid isPermaLink="true">https://lewiscampbell.tech/blog/260114.html</guid>
+      <pubDate>Tue, 13 Jan 2026 22:57:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46609591</comments>
+    </item>
+    <item>
+      <title>Terra - 滚动发布的 Fedora 存储库</title>
+      <link>https://terra.fyralabs.com/</link>
+      <description>📝 Terra Terra Fedora 不提供 1000+1000+ 个软件包。 Install Contribute Modern Terra 构建在 Andaman 工具链上，这是我们基于 Rust 的现代包元构建系统。这确保了包装的高质量。
+
+
+🔤 Original: Terra - A rolling-release Fedora repository
+
+🔗 Read more: https://terra.fyralabs.com/</description>
+      <guid isPermaLink="true">https://terra.fyralabs.com/</guid>
+      <pubDate>Tue, 13 Jan 2026 22:07:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46608971</comments>
+    </item>
+    <item>
+      <title>老实说，生成式人工智能的进展并不顺利</title>
+      <link>https://garymarcus.substack.com/p/lets-be-honest-generative-ai-isnt</link>
+      <guid isPermaLink="true">https://garymarcus.substack.com/p/lets-be-honest-generative-ai-isnt</guid>
+      <pubDate>Tue, 13 Jan 2026 18:37:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46605587</comments>
+    </item>
+    <item>
+      <title>显示 HN：AsciiSketch 一个基于浏览器的免费 ASCII 艺术和图表编辑器</title>
+      <link>https://files.littlebird.com.au/ascii-sketch.html</link>
+      <description>📝 画布宽度： 高度： 元素 X： Y： 宽度： H： 文本内容： 对齐方式： 位置： 字体： 无（纯文本） 标准横幅 Big Block Bubble Digital Doom 史诗 Ivrit Lean Mini Script Shadow Slant Small Smscript Smshadow Smslant Speed Star Wars 边框内文本 填充： 顶部 底部 左侧 右侧 填充字符： 边框类型： 单（浅）双重圆形 ASCII (+|-) 混合边框显示 边框样式： 单（浅）双重圆形 ASCII (+|-) 混合填充 填充背景字符： 线型：直线 正交 (H→V) 正交 (V→H) 正交 (H→V→H) 正交 (V→H→V) 样式：单（浅）双重 ASCII (+|-) 开始：无 箭头 三角形 菱形 圆形 | （一）&lt;（多）结束：无箭头三角形菱形圆圈| （一）&lt;（多）标签：混合铅笔字符：保存绘图加载绘图导出为文本透明画布。
+
+
+🔤 Original: Show HN: AsciiSketch a free browser-based ASCII art and diagram editor
+
+🔗 Read more: https://files.littlebird.com.au/ascii-sketch.html</description>
+      <guid isPermaLink="true">https://files.littlebird.com.au/ascii-sketch.html</guid>
+      <pubDate>Tue, 13 Jan 2026 22:39:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46609389</comments>
+    </item>
+    <item>
+      <title>大规模精益运行</title>
+      <link>https://harmonic.fun/news#blog-post-lean</link>
+      <description>📝 随着数据规模的增长，我们开始遇到标准 Python 实现的限制。 py，它从 Google 的 Protobuf 编译器编译的现有模块中读取消息描述符。 so文件）Python可以直接导入。
+
+
+🔤 Original: Running Lean at Scale
+
+🔗 Read more: https://harmonic.fun/news#blog-post-lean</description>
+      <guid isPermaLink="true">https://harmonic.fun/news#blog-post-lean</guid>
+      <pubDate>Tue, 13 Jan 2026 21:50:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46608731</comments>
     </item>
   </channel>
 </rss>
