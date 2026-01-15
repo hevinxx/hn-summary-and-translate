@@ -6,132 +6,139 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Jan 2026 18:38:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 21:24:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>影响 Svelte 生态系统的 CVE</title>
-      <link>https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</link>
-      <description>📝 由于内存/CPU 耗尽而受影响的软件包： devalue 如果出现以下情况，您就会受到影响： 您正在使用 devalue 版本 5.) 受影响的软件包： devalue 如果出现以下情况，您就会受到影响： 您正在使用 devalue 版本 5. parse 如果您没有启用远程功能，SvelteKit 不会受到攻击 CVE-2026-22803：远程函数二进制形式解串器中的内存放大 DoS 受影响的软件包： @sveltejs/kit 如果出现以下情况，您就会受到影响：您正在使用 SvelteKit 版本 2。
+      <title>JuiceFS 是一个构建在 Redis 和 S3 之上的分布式 POSIX 文件系统</title>
+      <link>https://github.com/juicedata/juicefs</link>
+      <description>📝 JuiceFS 是在 Apache License 2 下发布的高性能 POSIX 文件系统。通过 JuiceFS 存储的数据将持久化在对象存储中（即 JuiceFS 可以将文件系统的元数据存储在不同的元数据引擎上，如 Redis，它是一种快速、开源、内存中键值数据存储，特别适合存储元数据；同时，所有数据将通过 JuiceFS 客户端存储在对象存储中。
 
 
-🔤 Original: CVEs Affecting the Svelte Ecosystem
+🔤 Original: JuiceFS is a distributed POSIX file system built on top of Redis and S3
 
-🔗 Read more: https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</description>
-      <guid isPermaLink="true">https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</guid>
-      <pubDate>Thu, 15 Jan 2026 17:51:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636387</comments>
+🔗 Read more: https://github.com/juicedata/juicefs</description>
+      <guid isPermaLink="true">https://github.com/juicedata/juicefs</guid>
+      <pubDate>Thu, 15 Jan 2026 18:45:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637165</comments>
     </item>
     <item>
-      <title>精灵的设计与实现</title>
-      <link>https://fly.io/blog/design-and-implementation/</link>
-      <description>📝 Sprites 是新事物：没有 Docker 没有 Docker 的 Docker。这篇文章是关于它们如何工作的。 Sprite 是 Linux 虚拟机。
+      <title>通过 SSH 的 Linux 盒子：断开连接时暂停</title>
+      <link>https://shellbox.dev/</link>
+      <description>📝 dev 连接 dev1 $ ssh -t shellbox.开发计费帐户余额================================ 添加资金：30 美元。当余额低于 5 美元时，盒子会停止，并在 0 美元时删除。
 
 
-🔤 Original: Design and Implementation of Sprites
+🔤 Original: Linux boxes via SSH: suspended when disconected
 
-🔗 Read more: https://fly.io/blog/design-and-implementation/</description>
-      <guid isPermaLink="true">https://fly.io/blog/design-and-implementation/</guid>
-      <pubDate>Thu, 15 Jan 2026 15:59:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46634450</comments>
+🔗 Read more: https://shellbox.dev/</description>
+      <guid isPermaLink="true">https://shellbox.dev/</guid>
+      <pubDate>Thu, 15 Jan 2026 20:20:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46638629</comments>
     </item>
     <item>
-      <title>发现：中世纪货船——有史以来最大的同类船只</title>
-      <link>https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</link>
-      <description>📝 丹麦维京船博物馆的海洋考古学家在勘测海底时发现了这艘沉船。 “我们有很多城堡的图纸，但它们从未被发现，因为通常只有船底幸存下来，”奥丹姆说。研究人员还震惊地发现了 Svaelget 2 号砖砌厨房的遗迹，船员们在那里准备食物。
+      <title>Aviator (YC S21) 正在招聘构建多人人工智能编码平台</title>
+      <link>https://www.ycombinator.com/companies/aviator/jobs</link>
+      <description>📝 我们的最新产品 Runbooks 是一个协作式 AI 代理平台，可让工程团队通过自然语言规范和共享上下文自动执行复杂的工作流程。需要几天时间的复杂工作流程将在几分钟内完成。我们正在建设这样的未来。
 
 
-🔤 Original: Found: Medieval Cargo Ship – Largest Vessel of Its Kind Ever
+🔤 Original: Aviator (YC S21) is hiring to build multiplayer AI coding platform
 
-🔗 Read more: https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</guid>
-      <pubDate>Thu, 15 Jan 2026 15:09:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46633574</comments>
+🔗 Read more: https://www.ycombinator.com/companies/aviator/jobs</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/aviator/jobs</guid>
+      <pubDate>Thu, 15 Jan 2026 21:00:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46639248</comments>
     </item>
     <item>
-      <title>丹麦与硅谷决裂的斗争</title>
-      <link>https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</link>
-      <description>📝 “甚至在特朗普之前，这种情况就已经发生了变化。作为回应，丹麦媒体成立了工会。“我们非常清楚丹麦是一个小国家，”伦德说。
+      <title>Show HN：高瘦网络的 Hessian 矩阵很容易反转</title>
+      <link>https://github.com/a-rahimi/hessian</link>
+      <description>📝 高瘦网络的 Hessian 矩阵很容易求逆 该包展示了如何将深度网络的 Hessian 矩阵的逆矩阵与向量相乘。简单地解决这个系统需要大量的操作，这些操作与深层网络中的参数数量成立方比例，这对于大多数现代网络来说是不切实际的。例如，它使用块是块对角矩阵的分区矩阵，以及块是分区矩阵的三对角矩阵。
 
 
-🔤 Original: Denmark's struggle to break up with Silicon Valley
+🔤 Original: Show HN: The Hessian of tall-skinny networks is easy to invert
 
-🔗 Read more: https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</description>
-      <guid isPermaLink="true">https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</guid>
-      <pubDate>Thu, 15 Jan 2026 17:55:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636445</comments>
+🔗 Read more: https://github.com/a-rahimi/hessian</description>
+      <guid isPermaLink="true">https://github.com/a-rahimi/hessian</guid>
+      <pubDate>Thu, 15 Jan 2026 20:36:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46638894</comments>
     </item>
     <item>
-      <title>问HN：我们如何解决孤独感流行病？</title>
-      <link>https://news.ycombinator.com/item?id=46635345</link>
-      <description>📝 无数无声的人每天独自坐着，没有人可以交谈，各个年龄段的人都不觉得自己可以加入任何当地团体。因此，当他们不上班或上学的时候，他们整天都坐在社交媒体上。我们该如何解决这个问题。
+      <title>英国海上风电价格创纪录拍卖价格比天然气便宜40%</title>
+      <link>https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/</link>
+      <description>📝 4吉瓦（GW）的海上风电容量，使其成为欧洲有史以来规模最大的海上风电拍卖。 4吉瓦的新增海上风电容量将为消费者节省近1英镑。此次拍卖总共授予了六个底部固定式海上风电项目和两个浮动式风电项目的合同。
 
 
-🔤 Original: Ask HN: How can we solve the loneliness epidemic?
+🔤 Original: UK offshore wind prices come in 40% cheaper than gas in record auction
 
-🔗 Read more: https://news.ycombinator.com/item?id=46635345</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46635345</guid>
-      <pubDate>Thu, 15 Jan 2026 16:49:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46635345</comments>
+🔗 Read more: https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/</description>
+      <guid isPermaLink="true">https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/</guid>
+      <pubDate>Thu, 15 Jan 2026 19:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637399</comments>
     </item>
     <item>
-      <title>GitHub 事件</title>
-      <link>https://www.githubstatus.com/incidents/q987xpbqjbpl</link>
-      <description>📝 重新发送 OTP 订阅即表示您同意我们的隐私政策。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。
+      <title>Show HN：Tusk Drift – 将生产流量转化为 API 测试</title>
+      <link>https://github.com/Use-Tusk/tusk-drift-cli</link>
+      <description>📝 该 CLI 协调本地和 CI 测试运行，与 Tusk Drift SDK 和 Tusk Drift Cloud 协调。 tusk/traces tusk run --trace-文件路径/to/trace。用法列表跟踪： # 本地跟踪 tusk list tusk list --trace-dir。
 
 
-🔤 Original: GitHub Incident
+🔤 Original: Show HN: Tusk Drift – Turn production traffic into API tests
 
-🔗 Read more: https://www.githubstatus.com/incidents/q987xpbqjbpl</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/incidents/q987xpbqjbpl</guid>
-      <pubDate>Thu, 15 Jan 2026 17:00:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46635550</comments>
+🔗 Read more: https://github.com/Use-Tusk/tusk-drift-cli</description>
+      <guid isPermaLink="true">https://github.com/Use-Tusk/tusk-drift-cli</guid>
+      <pubDate>Thu, 15 Jan 2026 18:54:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637322</comments>
     </item>
     <item>
-      <title>问 HN：有人对现代 Mac 到传统 SCSI 转换器有好的解决方案吗？</title>
-      <link>https://news.ycombinator.com/item?id=46636571</link>
-      <description>📝 Thunderbolt 到 Firewire 到 SCSI。它是一个加密狗 Rapunzel，您依赖设备外壳来供电。配备原生 PCI-e 或 PCI HBA 和 700W 电源以及垃圾级 ATX Linux 机器来提供网络共享可能会更好。
+      <title>问 HN：一个 IP，全球多个不切实际的地点访问我的网站</title>
+      <link>https://news.ycombinator.com/item?id=46636861</link>
+      <description>📝 背景：我管理一个电子商务网站。这些 IP 地址没有用于反向查找的 DNS 记录，当我在 cloudflare 中映射请求时，一个地址显示为来自美国各地不同数据中心的请求。 0美国芝加哥 (ORD)340 请求美国圣何塞 (SJC)330 请求美国洛杉矶 (LAX)310 请求美国亚特兰大 (ATL)310 请求美国达拉斯-沃斯堡 (DFW)290 请求美国纽瓦克 (EWR)280 请求美国华盛顿 (IAD)230 请求美国迈阿密 (MIA)210请求美国波士顿 (BOS) 140 请求新加坡新加坡 (SIN) 130 请求感谢您的想法。
 
 
-🔤 Original: Ask HN: Anyone have a good solution for modern Mac to legacy SCSI converters?
+🔤 Original: Ask HN: One IP, multiple unrealistic locations worldwide hitting my website
 
-🔗 Read more: https://news.ycombinator.com/item?id=46636571</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46636571</guid>
-      <pubDate>Thu, 15 Jan 2026 18:04:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636571</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46636861</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46636861</guid>
+      <pubDate>Thu, 15 Jan 2026 18:25:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636861</comments>
     </item>
     <item>
-      <title>Zuck#：一种连接世界的编程语言。并收获它</title>
-      <link>https://jayzalowitz.github.io/zucksharp/</link>
-      <description>📝 ifPIVOT_TO_VIDEO记住视频是何时的策略。 elseifPIVOT_TO_REELS则卷轴发生 elsePIVOT_TO_METAVERSE当前数据透视结束ifEND_PIVOTD完成数据透视（暂时）而MOVE_FAST座右铭结束而BREAK_THINGSGROWTH_HACK座右铭的另一半必须获得这些 DAU 结束forPLATEAUGrowth 对每个HARVEST_USERS都有限制（据称）在用户群中进行迭代endforeachUSERS_HARVESTEDD一次收获开关A_B_TEST测试所有变体caseVARIANT一个可能的路径默认CONTROL_GROUP基线breakRAGE_QUITE愤怒地退出循环继续SCROLL_PAST跳到下一次迭代。
-
-
-🔤 Original: Zuck#: A programming language for connecting the world. And harvesting it
-
-🔗 Read more: https://jayzalowitz.github.io/zucksharp/</description>
-      <guid isPermaLink="true">https://jayzalowitz.github.io/zucksharp/</guid>
-      <pubDate>Thu, 15 Jan 2026 18:17:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636738</comments>
+      <title>显示 HN：Munimet.ro – 旧金山当地地铁基于机器学习的状态页面</title>
+      <link>https://munimet.ro/</link>
+      <guid isPermaLink="true">https://munimet.ro/</guid>
+      <pubDate>Thu, 15 Jan 2026 18:51:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637283</comments>
     </item>
     <item>
-      <title>意大利隐私监管机构成为美国大型科技公司的祸害，受到腐败调查的打击</title>
-      <link>https://www.reuters.com/sustainability/boards-policy-regulation/italys-privacy-watchdog-scourge-us-big-tech-hit-by-corruption-probe-2026-01-15/</link>
-      <guid isPermaLink="true">https://www.reuters.com/sustainability/boards-policy-regulation/italys-privacy-watchdog-scourge-us-big-tech-hit-by-corruption-probe-2026-01-15/</guid>
-      <pubDate>Thu, 15 Jan 2026 17:35:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636193</comments>
+      <title>数据是唯一的护城河</title>
+      <link>https://frontierai.substack.com/p/data-is-your-only-moat</link>
+      <guid isPermaLink="true">https://frontierai.substack.com/p/data-is-your-only-moat</guid>
+      <pubDate>Thu, 15 Jan 2026 18:54:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637328</comments>
     </item>
     <item>
-      <title>供应链漏洞危害 AWS GitHub 核心存储库并威胁 AWS 控制台</title>
-      <link>https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</link>
-      <description>📝 防止不受信任的拉取请求触发特权构建：启用新的拉取请求评论批准构建门。考虑使用专用的非特权 GitHub 帐户进行 CodeBuild 集成。与 WizWiz 一起查找易受攻击的 CodeBuild 项目 客户可以使用 Wiz 威胁情报中心中的此预构建查询来查找基于不受信任的拉取请求触发构建的 CodeBuild 项目。
+      <title>“ELITE”：ICE 使用 Palantir 应用程序寻找要袭击的社区</title>
+      <link>https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</link>
+      <description>📝 想象一下为这家公司工作，开发这款产品。每两周的冲刺，你都会承担一些有助于使这个引擎变得更好的任务。你对你的家人说什么。
 
 
-🔤 Original: Supply Chain Vuln Compromised Core AWS GitHub Repos &amp; Threatened the AWS Console
+🔤 Original: ‘ELITE’: The Palantir app ICE uses to find neighborhoods to raid
 
-🔗 Read more: https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</description>
-      <guid isPermaLink="true">https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</guid>
-      <pubDate>Thu, 15 Jan 2026 17:30:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636093</comments>
+🔗 Read more: https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</description>
+      <guid isPermaLink="true">https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</guid>
+      <pubDate>Thu, 15 Jan 2026 18:42:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637127</comments>
+    </item>
+    <item>
+      <title>我学到了关于编程的一切</title>
+      <link>https://agentultra.com/blog/how-i-learned-everything-i-know/index.html</link>
+      <description>📝 我很清楚不同的人有不同的学习策略。你仍然不需要法学硕士来学习编程。我们对教导人们感到兴奋。
+
+
+🔤 Original: I Learned Everything I Know About Programming
+
+🔗 Read more: https://agentultra.com/blog/how-i-learned-everything-i-know/index.html</description>
+      <guid isPermaLink="true">https://agentultra.com/blog/how-i-learned-everything-i-know/index.html</guid>
+      <pubDate>Thu, 15 Jan 2026 19:54:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46638241</comments>
     </item>
   </channel>
 </rss>

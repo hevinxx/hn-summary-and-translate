@@ -6,132 +6,139 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Jan 2026 18:38:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 21:24:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Svelte エコシステムに影響を与える CVE</title>
-      <link>https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</link>
-      <description>📝 メモリ/CPU 枯渇による解析 影響を受けるパッケージ: devalue 次の場合に影響を受ける: devalue バージョン 5 を使用している。) 影響を受けるパッケージ: devalue 次の場合に影響を受ける: devalue バージョン 5 を使用している。 parse リモート機能が有効になっていない場合、SvelteKit は脆弱ではありません CVE-2026-22803: リモート関数バイナリ形式デシリアライザーでのメモリ増幅 DoS 影響を受けるパッケージ: @sveltejs/kit 次の場合に影響を受けます: SvelteKit バージョン 2 を使用している。
+      <title>JuiceFS は、Redis および S3 上に構築された分散 POSIX ファイル システムです。</title>
+      <link>https://github.com/juicedata/juicefs</link>
+      <description>📝 JuiceFS は、Apache License 2 に基づいてリリースされた高性能 POSIX ファイル システムです。 JuiceFS 経由で保存されたデータは、オブジェクト ストレージに保存されます (つまり、JuiceFS は、メタデータの保存に特に適した高速なオープンソースのインメモリ キー/値データ ストレージである Redis など、さまざまなメタデータ エンジンにファイル システムのメタデータを保存できます。その間、すべてのデータは JuiceFS クライアントを通じてオブジェクト ストレージに保存されます)。
 
 
-🔤 Original: CVEs Affecting the Svelte Ecosystem
+🔤 Original: JuiceFS is a distributed POSIX file system built on top of Redis and S3
 
-🔗 Read more: https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</description>
-      <guid isPermaLink="true">https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</guid>
-      <pubDate>Thu, 15 Jan 2026 17:51:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636387</comments>
+🔗 Read more: https://github.com/juicedata/juicefs</description>
+      <guid isPermaLink="true">https://github.com/juicedata/juicefs</guid>
+      <pubDate>Thu, 15 Jan 2026 18:45:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637165</comments>
     </item>
     <item>
-      <title>スプライトの設計と実装</title>
-      <link>https://fly.io/blog/design-and-implementation/</link>
-      <description>📝 スプライトは何か新しいものです。Docker なしの Docker なしの Docker です。この投稿では、それらがどのように機能するかについて説明します。スプライトは Linux 仮想マシンです。
+      <title>SSH 経由の Linux ボックス: 切断時に一時停止</title>
+      <link>https://shellbox.dev/</link>
+      <description>📝 dev connect dev1 $ ssh -t シェルボックス。 dev 請求先アカウント残高 ============================== 追加された資金: $30。残高が 5 ドルを下回るとボックスは停止し、0 ドルになると削除されます。
 
 
-🔤 Original: Design and Implementation of Sprites
+🔤 Original: Linux boxes via SSH: suspended when disconected
 
-🔗 Read more: https://fly.io/blog/design-and-implementation/</description>
-      <guid isPermaLink="true">https://fly.io/blog/design-and-implementation/</guid>
-      <pubDate>Thu, 15 Jan 2026 15:59:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46634450</comments>
+🔗 Read more: https://shellbox.dev/</description>
+      <guid isPermaLink="true">https://shellbox.dev/</guid>
+      <pubDate>Thu, 15 Jan 2026 20:20:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46638629</comments>
     </item>
     <item>
-      <title>発見：中世の貨物船 – この種の船としては史上最大</title>
-      <link>https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</link>
-      <description>📝 デンマークのバイキング船博物館の海洋考古学者は、海底を調査中に難破船に遭遇しました。 「私たちは城の絵をたくさん持っていますが、通常は船の底だけが残っているため、まだ見つかっていません」とウルドゥム氏は言います。研究者らはまた、乗組員が食事を準備していたスヴァールゲット 2 号のレンガ造りの調理室の残骸を見つけたことにも衝撃を受けました。
+      <title>Aviator (YC S21) はマルチプレイヤー AI コーディング プラットフォームを構築するために人材を募集しています</title>
+      <link>https://www.ycombinator.com/companies/aviator/jobs</link>
+      <description>📝 そして、当社の最新製品である Runbook は、自然言語仕様と共有コンテキストを通じてエンジニアリング チームが複雑なワークフローを自動化できる協調的な AI エージェント プラットフォームです。数日かかった複雑なワークフローが数分で完了します。私たちはその未来を築いています。
 
 
-🔤 Original: Found: Medieval Cargo Ship – Largest Vessel of Its Kind Ever
+🔤 Original: Aviator (YC S21) is hiring to build multiplayer AI coding platform
 
-🔗 Read more: https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</guid>
-      <pubDate>Thu, 15 Jan 2026 15:09:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46633574</comments>
+🔗 Read more: https://www.ycombinator.com/companies/aviator/jobs</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/aviator/jobs</guid>
+      <pubDate>Thu, 15 Jan 2026 21:00:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46639248</comments>
     </item>
     <item>
-      <title>シリコンバレーとの決別を目指すデンマークの苦闘</title>
-      <link>https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</link>
-      <description>📝 「トランプ大統領以前でさえ、状況は変わりつつあった。これに応じて、デンマークのメディアは労働組合を結成した。「デンマークが小さな国であることを私たちはよく認識していた」とロンデ氏は語った。
+      <title>Show HN: 背が高く細いネットワークのヘッセ行列は簡単に反転できます</title>
+      <link>https://github.com/a-rahimi/hessian</link>
+      <description>📝 トールスキニーネットワークのヘッセ行列は簡単に逆算できます。 このパッケージは、ディープネットワークのヘッセ行列の逆行列にベクトルを乗算する方法を示します。このシステムを単純に解くには、ディープ ネットのパラメーターの数に応じて 3 次的にスケールする多数の操作が必要ですが、これはほとんどの最新のネットワークでは現実的ではありません。たとえば、ブロックがブロック対角である分割行列や、ブロックが分割行列である三重対角行列を利用します。
 
 
-🔤 Original: Denmark's struggle to break up with Silicon Valley
+🔤 Original: Show HN: The Hessian of tall-skinny networks is easy to invert
 
-🔗 Read more: https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</description>
-      <guid isPermaLink="true">https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</guid>
-      <pubDate>Thu, 15 Jan 2026 17:55:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636445</comments>
+🔗 Read more: https://github.com/a-rahimi/hessian</description>
+      <guid isPermaLink="true">https://github.com/a-rahimi/hessian</guid>
+      <pubDate>Thu, 15 Jan 2026 20:36:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46638894</comments>
     </item>
     <item>
-      <title>HN に質問してください: 孤独の蔓延をどのように解決できますか?</title>
-      <link>https://news.ycombinator.com/item?id=46635345</link>
-      <description>📝 無数の声なき人々が毎日一人で座っており、話し相手もおらず、あらゆる年齢層の人々が、地元のどのグループにも参加できるとは感じていません。そのため、彼らは仕事や学校以外の時間は一日中ソーシャルメディアを見続けています。どうすればこれを解決できるでしょうか。
+      <title>英国の洋上風力発電の価格は記録的なオークションでガスより40％安い</title>
+      <link>https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/</link>
+      <description>📝 洋上風力発電容量は4ギガワット（GW）で、欧州史上最大の洋上風力発電オークションとなる。 4 GW の新しい洋上風力発電容量により、消費者は 1 ポンド近く節約できます。合計すると、オークションでは 6 件の着底風力発電プロジェクトと 2 件の浮体式風力発電プロジェクトが契約を獲得しました。
 
 
-🔤 Original: Ask HN: How can we solve the loneliness epidemic?
+🔤 Original: UK offshore wind prices come in 40% cheaper than gas in record auction
 
-🔗 Read more: https://news.ycombinator.com/item?id=46635345</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46635345</guid>
-      <pubDate>Thu, 15 Jan 2026 16:49:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46635345</comments>
+🔗 Read more: https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/</description>
+      <guid isPermaLink="true">https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/</guid>
+      <pubDate>Thu, 15 Jan 2026 19:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637399</comments>
     </item>
     <item>
-      <title>GitHub インシデント</title>
-      <link>https://www.githubstatus.com/incidents/q987xpbqjbpl</link>
-      <description>📝 OTP を再送信 購読すると、当社のプライバシー ポリシーに同意したものとみなされます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。
+      <title>Show HN: Tusk Drift – 本番トラフィックを API テストに変える</title>
+      <link>https://github.com/Use-Tusk/tusk-drift-cli</link>
+      <description>📝 この CLI は、Tusk Drift SDK および Tusk Drift Cloud と連携して、ローカルおよび CI テストの実行を調整します。 tusk/traces tusk run --trace-file path/to/trace.使用法 トレースのリスト: # ローカル トレース タスク リスト タスク リスト --trace-dir。
 
 
-🔤 Original: GitHub Incident
+🔤 Original: Show HN: Tusk Drift – Turn production traffic into API tests
 
-🔗 Read more: https://www.githubstatus.com/incidents/q987xpbqjbpl</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/incidents/q987xpbqjbpl</guid>
-      <pubDate>Thu, 15 Jan 2026 17:00:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46635550</comments>
+🔗 Read more: https://github.com/Use-Tusk/tusk-drift-cli</description>
+      <guid isPermaLink="true">https://github.com/Use-Tusk/tusk-drift-cli</guid>
+      <pubDate>Thu, 15 Jan 2026 18:54:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637322</comments>
     </item>
     <item>
-      <title>HN に質問: 最新の Mac からレガシー SCSI へのコンバータに適したソリューションを持っている人はいますか?</title>
-      <link>https://news.ycombinator.com/item?id=46636571</link>
-      <description>📝 Thunderbolt から Firewire 、そして SCSI へ。これはドングル Rapunzel であり、電源はデバイス エンクロージャに依存しています。ネイティブ PCI-e または PCI HBA、700W 電源、およびネットワーク共有を提供するジャンク ATX Linux マシンを使用すると、より良い場合があります。
+      <title>HN に質問: 1 つの IP で、世界中の複数の非現実的な場所が私の Web サイトにアクセスしています</title>
+      <link>https://news.ycombinator.com/item?id=46636861</link>
+      <description>📝 背景: 私は e コマース Web サイトを管理しています。これらの IP アドレスには逆引き参照用の DNS レコードがなく、cloudflare でリクエストをマップすると、1 つのアドレスが米国中のさまざまなデータセンターからのリクエストとして表示されます。 0アメリカ合衆国、シカゴ (ORD)340 リクエストアメリカ合衆国サンノゼ (SJC)330 リクエストアメリカ合衆国ロサンゼルス (LAX)310 リクエストアメリカ合衆国アトランタ (ATL)310 リクエストアメリカ合衆国ダラス・フォートワース (DFW)290 リクエストアメリカ合衆国ニューアーク (EWR)280 リクエストアメリカ合衆国ワシントン (IAD)230 リクエストアメリカ合衆国マイアミ (MIA)210リクエスト米国ボストン (BOS)140 リクエストシンガポール、シンガポール (SIN)130 リクエストアイデアありがとうございます。
 
 
-🔤 Original: Ask HN: Anyone have a good solution for modern Mac to legacy SCSI converters?
+🔤 Original: Ask HN: One IP, multiple unrealistic locations worldwide hitting my website
 
-🔗 Read more: https://news.ycombinator.com/item?id=46636571</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46636571</guid>
-      <pubDate>Thu, 15 Jan 2026 18:04:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636571</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46636861</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46636861</guid>
+      <pubDate>Thu, 15 Jan 2026 18:25:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636861</comments>
     </item>
     <item>
-      <title>Zuck#: 世界をつなぐプログラミング言語。そしてそれを収穫する</title>
-      <link>https://jayzalowitz.github.io/zucksharp/</link>
-      <description>📝 ifPIVOT_TO_VIDEOビデオが戦略だったときのことを思い出してください。 elseifPIVOT_TO_REELSTリールが発生したelsePIVOT_TO_METAVERSE現在のピボットの終了ifEND_PIVOTD(今のところ)ピボット中MOVE_FASTモットーの終了BREAK_THINGSGROWTH_HACKのモットーの残りの半分DAUを取得する必要がありますPLATEAUGの終了には成長には制限があります(おそらく)HARVEST_USERSユーザーベースを反復処理しますendforeachUSERS_HARVESTEDDoneハーベスティングswitchA_B_TESTTすべてのバリアントをテストしますcaseVARIANT1つの可能なパスdefaultCONTROL_GROUPベースラインbreakRAGE_QUITE怒ってループを終了しますContinueSCROLL_PASTSkip次の反復に進みます。
-
-
-🔤 Original: Zuck#: A programming language for connecting the world. And harvesting it
-
-🔗 Read more: https://jayzalowitz.github.io/zucksharp/</description>
-      <guid isPermaLink="true">https://jayzalowitz.github.io/zucksharp/</guid>
-      <pubDate>Thu, 15 Jan 2026 18:17:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636738</comments>
+      <title>HN を表示: Munimet.ro – SF の地方地下鉄の ML ベースのステータス ページ</title>
+      <link>https://munimet.ro/</link>
+      <guid isPermaLink="true">https://munimet.ro/</guid>
+      <pubDate>Thu, 15 Jan 2026 18:51:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637283</comments>
     </item>
     <item>
-      <title>イタリアのプライバシー監視機関、米国大手ハイテク企業の惨状、汚職捜査の打撃を受ける</title>
-      <link>https://www.reuters.com/sustainability/boards-policy-regulation/italys-privacy-watchdog-scourge-us-big-tech-hit-by-corruption-probe-2026-01-15/</link>
-      <guid isPermaLink="true">https://www.reuters.com/sustainability/boards-policy-regulation/italys-privacy-watchdog-scourge-us-big-tech-hit-by-corruption-probe-2026-01-15/</guid>
-      <pubDate>Thu, 15 Jan 2026 17:35:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636193</comments>
+      <title>データは唯一の堀です</title>
+      <link>https://frontierai.substack.com/p/data-is-your-only-moat</link>
+      <guid isPermaLink="true">https://frontierai.substack.com/p/data-is-your-only-moat</guid>
+      <pubDate>Thu, 15 Jan 2026 18:54:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637328</comments>
     </item>
     <item>
-      <title>サプライチェーンの脆弱性によりコア AWS GitHub リポジトリが侵害され、AWS コンソールが脅かされる</title>
-      <link>https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</link>
-      <description>📝 信頼できないプル リクエストによる特権ビルドのトリガーを防ぐ: 新しいプル リクエスト コメント承認ビルド ゲートを有効にします。 CodeBuild 統合には、専用の非特権 GitHub アカウントの使用を検討してください。 Wiz で脆弱な CodeBuild プロジェクトを見つけるWiz のお客様は、Wiz Threat Intel Center で事前に構築されたこのクエリを使用して、信頼できないプル リクエストに基づいてビルドをトリガーする CodeBuild プロジェクトを見つけることができます。
+      <title>「ELITE」: ICEが襲撃する近隣地域を見つけるために使用するPalantirアプリ</title>
+      <link>https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</link>
+      <description>📝 この会社でこの製品に取り組んでいることを想像してみてください。 2 週間のスプリントごとに、このエンジンの改善に役立つタスクに取り組みます。家族に何と言いますか。
 
 
-🔤 Original: Supply Chain Vuln Compromised Core AWS GitHub Repos &amp; Threatened the AWS Console
+🔤 Original: ‘ELITE’: The Palantir app ICE uses to find neighborhoods to raid
 
-🔗 Read more: https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</description>
-      <guid isPermaLink="true">https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</guid>
-      <pubDate>Thu, 15 Jan 2026 17:30:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46636093</comments>
+🔗 Read more: https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</description>
+      <guid isPermaLink="true">https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</guid>
+      <pubDate>Thu, 15 Jan 2026 18:42:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46637127</comments>
+    </item>
+    <item>
+      <title>プログラミングについて知っていることはすべて学びました</title>
+      <link>https://agentultra.com/blog/how-i-learned-everything-i-know/index.html</link>
+      <description>📝 さまざまな人がさまざまな戦略で学習していることを私はよく知っています。プログラミングを学ぶのに LLM はまだ必要ありません。私たちは人々に教えることに興奮しています。
+
+
+🔤 Original: I Learned Everything I Know About Programming
+
+🔗 Read more: https://agentultra.com/blog/how-i-learned-everything-i-know/index.html</description>
+      <guid isPermaLink="true">https://agentultra.com/blog/how-i-learned-everything-i-know/index.html</guid>
+      <pubDate>Thu, 15 Jan 2026 19:54:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46638241</comments>
     </item>
   </channel>
 </rss>
