@@ -6,126 +6,132 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 15 Jan 2026 15:27:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 18:38:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Nvidia가 중심 무대를 차지함에 따라 Apple은 TSMC 용량을 위해 싸우고 있습니다.</title>
-      <link>https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc</link>
-      <description>📝 TSMC의 매출은 지난해 36% 증가한 1,220억 달러를 기록했다고 목요일 발표했습니다. 2018년 TSMC 매출은 그해 Apple의 점진적인 구매가 없었다면 심지어 감소했을 것입니다. 스마트폰 매출은 전년도 23%보다 느린 11% 증가에 그쳤습니다.
+      <title>Svelte 생태계에 영향을 미치는 CVE</title>
+      <link>https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</link>
+      <description>📝 메모리/CPU 소모로 인해 구문 분석 영향을 받는 패키지: 가치 저하 영향을 받는 경우: 가치 저하 버전을 사용하는 경우 5. ) 영향을 받는 패키지: 가치 저하 영향을 받는 경우: 가치 저하 버전을 사용하는 경우 5. 구문 분석 원격 기능이 활성화되지 않은 경우 SvelteKit은 취약하지 않습니다. CVE-2026-22803: 원격 기능 바이너리 형식 deserializer의 메모리 증폭 DoS 영향을 받는 패키지: @sveltejs/kit 다음과 같은 경우 영향을 받습니다. SvelteKit 버전 2를 사용하고 있습니다.
 
 
-🔤 Original: Apple Is Fighting for TSMC Capacity as Nvidia Takes Center Stage
+🔤 Original: CVEs Affecting the Svelte Ecosystem
 
-🔗 Read more: https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc</description>
-      <guid isPermaLink="true">https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc</guid>
-      <pubDate>Thu, 15 Jan 2026 15:02:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46633488</comments>
+🔗 Read more: https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</description>
+      <guid isPermaLink="true">https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem</guid>
+      <pubDate>Thu, 15 Jan 2026 17:51:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636387</comments>
     </item>
     <item>
-      <title>HN 표시: TinyCity – MicroPython용 작은 도시 SIM(Thumby 마이크로 콘솔)</title>
-      <link>https://github.com/chrisdiana/TinyCity</link>
-      <description>📝 TinyCity TinyCity는 MicroPython을 실행하는 Raspberry Pi RP2040용 SimCity에서 영감을 받은 도시 시뮬레이션 게임입니다. 이 작은 도시 시뮬레이션에서 성장하는 대도시를 건설하고 관리하세요. 구역과 자원의 균형을 맞추고, 목표를 달성하여 보너스를 얻고, 무작위로 발생하는 재해를 헤쳐나가세요. 선택할 수 있는 3가지 지형 또는 무작위로 생성된 지도 주거용, 상업 및 산업 구역 예산 관리 인구 증가 및 밀도, 전력망, 범죄 및 오염 무작위 이벤트가 포함된 재난 시스템 마일스톤 및 숨겨진 보너스 저장/로드 기능 경찰 및 소방서, 발전소, 경기장 등.
+      <title>스프라이트의 설계 및 구현</title>
+      <link>https://fly.io/blog/design-and-implementation/</link>
+      <description>📝 스프라이트는 새로운 것입니다. Docker가 없는 Docker입니다. 이 게시물은 작동 방식에 관한 것입니다. 스프라이트는 Linux 가상 머신입니다.
 
 
-🔤 Original: Show HN: TinyCity – A tiny city SIM for MicroPython (Thumby micro console)
+🔤 Original: Design and Implementation of Sprites
 
-🔗 Read more: https://github.com/chrisdiana/TinyCity</description>
-      <guid isPermaLink="true">https://github.com/chrisdiana/TinyCity</guid>
-      <pubDate>Thu, 15 Jan 2026 14:11:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46632768</comments>
+🔗 Read more: https://fly.io/blog/design-and-implementation/</description>
+      <guid isPermaLink="true">https://fly.io/blog/design-and-implementation/</guid>
+      <pubDate>Thu, 15 Jan 2026 15:59:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46634450</comments>
     </item>
     <item>
-      <title>HN 표시: 확률적 스토리 그래프를 위해 100개 영화에서 Qwen2.5-7B를 미세 조정함</title>
-      <link>https://cinegraphs.ai/</link>
-      <description>📝 CineGraphs - 그래프를 통해 영화 조각하기 그래프를 통해 영화 조각하기 내러티브 아이디어를 확률적 스토리 분기로 변환하세요. 텍스트를 입력하고, AI 생성 경로를 탐색하고, 그래프 이론을 통해 시나리오를 조각해 보세요. Pro 월별 유연한 월별 청구 $ 15 /월 언제든지 취소 무제한 프로젝트 AI 기반 브랜치 생성 Fountain 내보내기 우선 지원 시작 Pro 월별 최고의 가치 Pro 연간 전문 시나리오 작가용 $ 99 /년 월간 대비 45% 절약 무제한 프로젝트 AI 기반 브랜치 생성 Fountain 내보내기 우선 지원 Start Pro Annual Free CineGraphs를 시험해 보는 데 적합 $ 0 영원히 무료 3개의 시나리오 프로젝트 AI 기반 브랜치 생성 Fountain 내보내기 3개 프로젝트로 제한 시작하기 귀하의 브라우저는 비디오 태그를 지원하지 않습니다.
+      <title>발견됨: 중세 화물선 – 동종 선박 중 가장 큰 선박</title>
+      <link>https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</link>
+      <description>📝 덴마크 바이킹 선박 박물관의 해양 고고학자들이 해저를 조사하던 중 난파선을 발견했습니다. Uldum은 "우리는 성 그림을 많이 가지고 있지만 일반적으로 배의 바닥만 남아 있기 때문에 발견된 적이 없습니다."라고 말합니다. 연구원들은 또한 승무원들이 음식을 준비했던 Svaelget 2호의 벽돌 조리실 유적을 발견하고 충격을 받았습니다.
 
 
-🔤 Original: Show HN: Fine-tuned Qwen2.5-7B on 100 films for probabilistic story graphs
+🔤 Original: Found: Medieval Cargo Ship – Largest Vessel of Its Kind Ever
 
-🔗 Read more: https://cinegraphs.ai/</description>
-      <guid isPermaLink="true">https://cinegraphs.ai/</guid>
-      <pubDate>Thu, 15 Jan 2026 05:15:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46628336</comments>
+🔗 Read more: https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</description>
+      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</guid>
+      <pubDate>Thu, 15 Jan 2026 15:09:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46633574</comments>
     </item>
     <item>
-      <title>미니애폴리스의 ICE 습격을 돕는 Palantir 앱</title>
-      <link>https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</link>
-      <description>📝 오레곤 주 ICE 관계자의 선서 증언에 따르면 ELITE는 이미 ICE에서 특정 지역을 표적으로 삼는 데 사용되었습니다. 404미디어는 법원에서 JB의 증언 녹취록을 구입했습니다. ” Woodburn의 급습에서 JB는 이민국 직원이 ELITE를 사용하여 리드를 생성할 것을 제안했습니다.
+      <title>실리콘밸리와 결별하려는 덴마크의 투쟁</title>
+      <link>https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</link>
+      <description>📝 "트럼프 이전에도 상황은 바뀌고 있었습니다. 이에 대응하여 덴마크 언론은 노동조합을 결성했습니다. "우리는 덴마크가 작은 나라라는 것을 잘 알고 있었습니다."라고 Rønde는 말했습니다.
 
 
-🔤 Original: The Palantir app helping ICE raids in Minneapolis
+🔤 Original: Denmark's struggle to break up with Silicon Valley
 
-🔗 Read more: https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</description>
-      <guid isPermaLink="true">https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</guid>
-      <pubDate>Thu, 15 Jan 2026 14:54:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46633378</comments>
+🔗 Read more: https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/</guid>
+      <pubDate>Thu, 15 Jan 2026 17:55:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636445</comments>
     </item>
     <item>
-      <title>프로그래밍, 진화: 교훈과 관찰</title>
-      <link>https://github.com/kulesh/dotfiles/blob/main/dev/dev/docs/programming-evolved.md</link>
-      <guid isPermaLink="true">https://github.com/kulesh/dotfiles/blob/main/dev/dev/docs/programming-evolved.md</guid>
-      <pubDate>Thu, 15 Jan 2026 13:18:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46632039</comments>
+      <title>HN에게 물어보세요: 외로움이라는 전염병을 어떻게 해결할 수 있습니까?</title>
+      <link>https://news.ycombinator.com/item?id=46635345</link>
+      <description>📝 말을 할 사람도 없고, 말을 할 사람도 없는, 말을 할 수 없는 수많은 사람들이 매일매일 혼자 앉아 있고, 모든 연령층의 사람들은 어떤 지역 단체에도 가입할 수 없다고 느낍니다. 그래서 그들은 직장이나 학교에 가지 않을 때 하루 종일 소셜 미디어에 앉아 있습니다. 어떻게 해결할 수 있나요?
+
+
+🔤 Original: Ask HN: How can we solve the loneliness epidemic?
+
+🔗 Read more: https://news.ycombinator.com/item?id=46635345</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46635345</guid>
+      <pubDate>Thu, 15 Jan 2026 16:49:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46635345</comments>
     </item>
     <item>
-      <title>위키피디아 25년</title>
-      <link>https://wikipedia25.org</link>
-      <guid isPermaLink="true">https://wikipedia25.org</guid>
-      <pubDate>Thu, 15 Jan 2026 13:17:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46632023</comments>
+      <title>GitHub 사건</title>
+      <link>https://www.githubstatus.com/incidents/q987xpbqjbpl</link>
+      <description>📝 OTP 재전송 구독하시면 개인정보 보호정책에 동의하시는 것으로 간주됩니다. 이 사이트는 reCAPTCHA로 보호되며 Google 개인정보 보호정책 및 서비스 약관이 적용됩니다. 이 사이트는 reCAPTCHA로 보호되며 Google 개인정보 보호정책 및 서비스 약관이 적용됩니다.
+
+
+🔤 Original: GitHub Incident
+
+🔗 Read more: https://www.githubstatus.com/incidents/q987xpbqjbpl</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/incidents/q987xpbqjbpl</guid>
+      <pubDate>Thu, 15 Jan 2026 17:00:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46635550</comments>
     </item>
     <item>
-      <title>Nvidia는 GeForce RTX 5070 Ti 생산을 종료하고 다음 RTX 5060 Ti 16GB 생산을 중단한다고 합니다.</title>
-      <link>https://www.techpowerup.com/345224/nvidia-reportedly-ends-geforce-rtx-5070-ti-production-rtx-5060-ti-16-gb-next</link>
-      <description>📝 ASUS는 Hardware Unboxed와 독점 정보를 공유하여 NVIDIA가 GeForce RTX 5070 Ti에 대한 공급 부족을 발생시켜 사실상 생산을 종료했음을 밝혔습니다. 어제의 소문에 따르면 일반 RTX 5060이 해당 부문에서 NVIDIA의 우선순위 카드가 될 것이라는 사실도 확인되었습니다. AMD가 이를 따르지 않는다는 점에 손가락이 교차했습니다.
+      <title>HN에게 물어보세요: 최신 Mac에서 레거시 SCSI 변환기로 전환하는 데 적합한 솔루션을 갖고 있는 사람이 있습니까?</title>
+      <link>https://news.ycombinator.com/item?id=46636571</link>
+      <description>📝 Thunderbolt에서 Firewire, SCSI로. 동글 Rapunzel이며 전원을 공급하기 위해 장치 인클로저에 의존합니다. 기본 PCI-e 또는 PCI HBA 및 700W 전원 공급 장치와 정커 ATX Linux 시스템을 사용하여 네트워크 공유를 제공하는 것이 더 나을 수 있습니다.
 
 
-🔤 Original: Nvidia Reportedly Ends GeForce RTX 5070 Ti Production, RTX 5060 Ti 16 GB Next
+🔤 Original: Ask HN: Anyone have a good solution for modern Mac to legacy SCSI converters?
 
-🔗 Read more: https://www.techpowerup.com/345224/nvidia-reportedly-ends-geforce-rtx-5070-ti-production-rtx-5060-ti-16-gb-next</description>
-      <guid isPermaLink="true">https://www.techpowerup.com/345224/nvidia-reportedly-ends-geforce-rtx-5070-ti-production-rtx-5060-ti-16-gb-next</guid>
-      <pubDate>Thu, 15 Jan 2026 14:24:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46632955</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46636571</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46636571</guid>
+      <pubDate>Thu, 15 Jan 2026 18:04:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636571</comments>
     </item>
     <item>
-      <title>50만 톤 오타: 데이터 센터 구리 수학이 합산되지 않는 이유</title>
-      <link>https://investinglive.com/news/the-500000-ton-typo-why-data-center-copper-math-doesnt-add-up-20260113/</link>
-      <description>📝 Nvidia의 주장에 따르면 단일 1기가와트(GW) 데이터 센터의 랙 버스바에는 최대 50만 톤의 구리가 필요할 수 있습니다. 단일 1기가와트(GW) 데이터 센터의 랙 버스바에만 최대 50만 톤의 구리가 필요할 수 있습니다. 구리에 대한 실제 강세 사례는 여전히 설득력이 있습니다.
+      <title>Zuck#: 세상을 연결하기 위한 프로그래밍 언어입니다. 그리고 그걸 수확해서</title>
+      <link>https://jayzalowitz.github.io/zucksharp/</link>
+      <description>📝 ifPIVOT_TO_VIDEO비디오가 전략이었던 시절을 기억하세요. elseifPIVOT_TO_REELSThen 릴이 발생했습니다 elsePIVOT_TO_METAVERSE현재 피벗 종료END_PIVOTD피버팅 완료(현재) whileMOVE_FAST모토 종료동안BREAK_THINGSGROWTH_HACK에 대한 모토의 나머지 절반 endforPLATEAU성장에는 (아마도) 각 HARVEST_USERS에 대한 제한이 있습니다. endforeachUSERS_HARVESTED수집 스위치 완료A_B_TEST모든 변형 테스트 케이스VARIANT가능한 경로 1개 기본값Control_GROUP기준 breakRAGE_QUIT화가 나서 루프를 종료 계속SCROLL_PAST다음 반복으로 건너뜁니다.
 
 
-🔤 Original: The 500k-ton typo: Why data center copper math doesn't add up
+🔤 Original: Zuck#: A programming language for connecting the world. And harvesting it
 
-🔗 Read more: https://investinglive.com/news/the-500000-ton-typo-why-data-center-copper-math-doesnt-add-up-20260113/</description>
-      <guid isPermaLink="true">https://investinglive.com/news/the-500000-ton-typo-why-data-center-copper-math-doesnt-add-up-20260113/</guid>
-      <pubDate>Thu, 15 Jan 2026 12:53:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46631728</comments>
+🔗 Read more: https://jayzalowitz.github.io/zucksharp/</description>
+      <guid isPermaLink="true">https://jayzalowitz.github.io/zucksharp/</guid>
+      <pubDate>Thu, 15 Jan 2026 18:17:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636738</comments>
     </item>
     <item>
-      <title>프랑스 법원, 반대에도 불구하고 인기 VPN에 더 많은 해적 사이트를 차단하라고 명령</title>
-      <link>https://torrentfreak.com/french-court-orders-popular-vpns-to-block-more-pirate-sites-despite-opposition/</link>
-      <description>📝 이러한 VPN 제공업체는 불법 복제된 스포츠 스트림에 대한 액세스를 제공하는 여러 도메인에 대한 액세스를 차단해야 합니다. 법원은 이러한 VPN이 사람들이 기존 사이트 차단 조치를 우회하여 ISP 차단을 무효화하는 데 도움이 된다고 결론지었습니다. 따라서 프랑스 사용자에 대해서만 액세스를 차단하라는 법원 명령은 계약상의 의무를 위반하는 것입니다.
-
-
-🔤 Original: French Court Orders Popular VPNs to Block More Pirate Sites, Despite Opposition
-
-🔗 Read more: https://torrentfreak.com/french-court-orders-popular-vpns-to-block-more-pirate-sites-despite-opposition/</description>
-      <guid isPermaLink="true">https://torrentfreak.com/french-court-orders-popular-vpns-to-block-more-pirate-sites-despite-opposition/</guid>
-      <pubDate>Thu, 15 Jan 2026 13:15:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46632004</comments>
+      <title>이탈리아의 개인 정보 보호 감시 기관, 미국 거대 기술 기업의 재앙, 부패 조사로 타격</title>
+      <link>https://www.reuters.com/sustainability/boards-policy-regulation/italys-privacy-watchdog-scourge-us-big-tech-hit-by-corruption-probe-2026-01-15/</link>
+      <guid isPermaLink="true">https://www.reuters.com/sustainability/boards-policy-regulation/italys-privacy-watchdog-scourge-us-big-tech-hit-by-corruption-probe-2026-01-15/</guid>
+      <pubDate>Thu, 15 Jan 2026 17:35:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636193</comments>
     </item>
     <item>
-      <title>OBS Studio 32.1.0 베타 1 사용 가능</title>
-      <link>https://github.com/obsproject/obs-studio/releases/tag/32.1.0-beta1</link>
-      <description>📝 우편번호: 6b77f572f3afe80d35e4b21f4f93ccda8e8e11b36aad26b279973dab53fc24a9 OBS-Studio-32. 우편번호: fe89de2f94f3eee6ec8a54e8267f3ab783d0e6d84da6aef68593311de571e2e9 OBS-Studio-32. 우편번호: 4af2d8cc4941cddb96c123a3e77c021e7fac37490a39416f50a7c6ddc5474afd OBS-Studio-32.
+      <title>공급망 취약성이 핵심 AWS GitHub 저장소를 침해하고 AWS 콘솔을 위협함</title>
+      <link>https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</link>
+      <description>📝 신뢰할 수 없는 끌어오기 요청이 권한 있는 빌드를 트리거하는 것을 방지: 새로운 끌어오기 요청 설명 승인 빌드 게이트를 활성화합니다. CodeBuild 통합을 위해 권한이 없는 전용 GitHub 계정을 사용하는 것을 고려하십시오. WizWiz와 함께 취약한 CodeBuild 프로젝트 찾기 고객은 Wiz Threat Intel Center에서 사전 구축된 쿼리를 사용하여 신뢰할 수 없는 풀 요청을 기반으로 빌드를 트리거하는 CodeBuild 프로젝트를 찾을 수 있습니다.
 
 
-🔤 Original: OBS Studio 32.1.0 Beta 1 available
+🔤 Original: Supply Chain Vuln Compromised Core AWS GitHub Repos &amp; Threatened the AWS Console
 
-🔗 Read more: https://github.com/obsproject/obs-studio/releases/tag/32.1.0-beta1</description>
-      <guid isPermaLink="true">https://github.com/obsproject/obs-studio/releases/tag/32.1.0-beta1</guid>
-      <pubDate>Thu, 15 Jan 2026 14:57:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46633429</comments>
+🔗 Read more: https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</description>
+      <guid isPermaLink="true">https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild</guid>
+      <pubDate>Thu, 15 Jan 2026 17:30:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46636093</comments>
     </item>
   </channel>
 </rss>
