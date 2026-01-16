@@ -6,34 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Jan 2026 09:28:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 12:45:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>더 나은 Bugbot 구축</title>
-      <link>https://cursor.com/blog/building-bugbot</link>
-      <description>📝 이는 PR당 해결된 버그 수가 대략 0에서 두 배 이상 증가했음을 의미합니다. 해결 속도는 Bugbot이 엔지니어가 수정하는 실제 문제를 찾는지 여부를 직접적으로 대답합니다. #Hill-climbing 해결 속도를 정의하면 Bugbot 구축 방식이 변경되었습니다.
+      <title>그냥 브라우저</title>
+      <link>https://justthebrowser.com/</link>
+      <description>📝 Mozilla Firefox macOS(범용) Windows 64비트 x86(amd64) Windows 32비트 x86 Windows 64비트 ARM(ARM64) 어떤 링크를 사용할지 확실하지 않습니다. Microsoft Edge macOS(범용) Windows 64비트 x86(amd64) Windows 32비트 x86 Windows 64비트 ARM(ARM64) 어떤 링크를 사용할지 확실하지 않습니다. 이것이 웹 브라우저를 수정하는 것입니까?
 
 
-🔤 Original: Building a better Bugbot
+🔤 Original: Just the Browser
 
-🔗 Read more: https://cursor.com/blog/building-bugbot</description>
-      <guid isPermaLink="true">https://cursor.com/blog/building-bugbot</guid>
-      <pubDate>Fri, 16 Jan 2026 06:52:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46643737</comments>
+🔗 Read more: https://justthebrowser.com/</description>
+      <guid isPermaLink="true">https://justthebrowser.com/</guid>
+      <pubDate>Fri, 16 Jan 2026 12:03:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46645615</comments>
     </item>
     <item>
-      <title>HN 표시: BGP Scout – BGP 네트워크 브라우저</title>
-      <link>https://bgpscout.io/</link>
-      <description>📝 전 세계 수천 개의 네트워크에서 포괄적인 Border Gateway Protocol 데이터에 액세스하십시오. 라이브 피드 시스템을 통해 BGP 라우팅 변경 사항에 액세스하십시오. 포괄적인 기록 데이터베이스로 라우팅 추세를 분석하십시오. 강력한 API를 사용하여 BGP 데이터를 애플리케이션에 직접 통합하십시오.
+      <title>격리 범위: 베어메탈에서 WebAssembly까지</title>
+      <link>https://buildsoftwaresystems.com/post/guide-to-execution-environments/</link>
+      <description>📝 하드웨어(CPU, 메모리, 디스크 등): 물리적 머신에 의해 고유하게 제공됩니다. 장점: 최대 성능, 하드웨어에 대한 완전한 제어. 운영 체제: 가상 머신에서 고유하게 제공됩니다.
 
 
-🔤 Original: Show HN: BGP Scout – BGP Network Browser
+🔤 Original: The spectrum of isolation: From bare metal to WebAssembly
 
-🔗 Read more: https://bgpscout.io/</description>
-      <guid isPermaLink="true">https://bgpscout.io/</guid>
-      <pubDate>Fri, 16 Jan 2026 00:52:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46641663</comments>
+🔗 Read more: https://buildsoftwaresystems.com/post/guide-to-execution-environments/</description>
+      <guid isPermaLink="true">https://buildsoftwaresystems.com/post/guide-to-execution-environments/</guid>
+      <pubDate>Fri, 16 Jan 2026 09:27:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644661</comments>
+    </item>
+    <item>
+      <title>대화형 eBPF</title>
+      <link>https://ebpf.party/</link>
+      <description>📝 실습을 통해 eBPF를 알아보세요. 브라우저에서 직접 프로그램을 작성하고, 컴파일하고, 실행할 수 있습니다. 0장: 소개0x00 eBPF0x01 소개 플랫폼 개요1장: 개념 친숙화0x00 프로세스 컨텍스트0x01 이벤트 데이터 읽기0x02 시스템 호출 추적0x03 syscall 배열 읽기2장: 상태 저장 eBPF0x00 맵 및 다중 프로그램0x01 syscall 버퍼 읽기0x02 교차 syscall 상태 추적0x03 네트워크 연결 추적3장: 커널 프로브0x00 소개0x01 TCP 패킷 읽기 문제를 찾았거나 새로운 연습에 대한 아이디어가 있습니까?
+
+
+🔤 Original: Interactive eBPF
+
+🔗 Read more: https://ebpf.party/</description>
+      <guid isPermaLink="true">https://ebpf.party/</guid>
+      <pubDate>Fri, 16 Jan 2026 08:01:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644181</comments>
+    </item>
+    <item>
+      <title>pf: af-to를 덜 마술적으로 만드세요</title>
+      <link>https://undeadly.org/cgi?action=article;sid=20260116085115</link>
+      <description>📝 이 차이는 af-to가 pf에서 많이 특수하게 사용된다는 것을 의미합니다. 나는 우리가 af-to를 덜 특별하게 만드는 것이 더 좋을 것이라고 주장하고 있습니다. 이것이 바로 이 차이점이 하는 일입니다. 이 차이점은 이 상태 시스템이 ip_input 및 ip6_input 측에서 작동하여 af-to를 지원하도록 만듭니다.
+
+
+🔤 Original: pf: Make af-to less magical
+
+🔗 Read more: https://undeadly.org/cgi?action=article;sid=20260116085115</description>
+      <guid isPermaLink="true">https://undeadly.org/cgi?action=article;sid=20260116085115</guid>
+      <pubDate>Fri, 16 Jan 2026 09:06:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644541</comments>
+    </item>
+    <item>
+      <title>붕괴의 시대에 인간 존재하기(2022) [pdf]</title>
+      <link>https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</link>
+      <description>📝 5 %���� 5 0 obj &lt;&lt; /Length 2587 /Filter /FlateDecode &gt;&gt; 스트림 xڕXYs� ~ׯ��PU;4 �t ��p ��ı��� ��f`q�Y #+�. 25) /CreationDate (D:20221130141139-08'00') /ModDate (D:20221130141139-08'00') /Title (슬라이드. 0) /저자 (Rogaway) &gt;&gt; endobj 15 0 obj &lt;&lt; /Type /ExtGState /SA true &gt;&gt; endobj 16 0 obj &lt;&lt; /Type /ExtGState /OPM 1 &gt;&gt; endobj 17 0 obj &lt;&lt; /Subtype /Image /ColorSpace /DeviceCMYK /Width 219 /Height 113 /BitsPerComponent 8 /Filter /DCTDecode /Length 11996 &gt;&gt; stream ���� Adobe d �� C $ ,.
+
+
+🔤 Original: On Being a Human Being in the Time of Collapse (2022) [pdf]
+
+🔗 Read more: https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</description>
+      <guid isPermaLink="true">https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</guid>
+      <pubDate>Fri, 16 Jan 2026 10:19:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644962</comments>
+    </item>
+    <item>
+      <title>신호 제작자인 Moxie Marlinspike는 메시징 분야에서 했던 일을 AI에서도 하고 싶어합니다.</title>
+      <link>https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</link>
+      <description>📝 사용자가 보낸 데이터와 대화 및 LLM의 결과 응답은 TEE(신뢰할 수 있는 실행 환경)에서 암호화되므로 서버 관리자도 이를 엿보거나 조작할 수 없습니다. 시그널이 그 틀을 깨뜨렸습니다. 데이터 개인 정보 보호 전문가인 Em(그녀는 인터넷에서 성을 공개하지 않음)은 AI 비서를 데이터 개인 정보 보호의 "천적"이라고 불렀습니다. 그 이유는 AI 비서의 유틸리티가 개인을 포함하여 수많은 소스로부터 막대한 양의 데이터를 수집하는 데 의존하기 때문입니다.
+
+
+🔤 Original: Signal creator Moxie Marlinspike wants to do for AI what he did for messaging
+
+🔗 Read more: https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</description>
+      <guid isPermaLink="true">https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</guid>
+      <pubDate>Fri, 16 Jan 2026 11:36:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46645430</comments>
     </item>
   </channel>
 </rss>

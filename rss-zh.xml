@@ -6,34 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Jan 2026 09:28:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 12:45:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>构建一个更好的 Bugbot</title>
-      <link>https://cursor.com/blog/building-bugbot</link>
-      <description>📝 这意味着每个 PR 解决的错误数量从大约 0 增加了一倍多。解决率直接回答了 Bugbot 是否发现了工程师修复的真正问题。 #Hill-climbing 定义分辨率改变了我们构建 Bugbot 的方式。
+      <title>只是浏览器</title>
+      <link>https://justthebrowser.com/</link>
+      <description>📝 Mozilla Firefox macOS（通用） Windows 64 位 x86 (amd64) Windows 32 位 x86 Windows 64 位 ARM (ARM64) 不确定使用哪个链接。 Microsoft Edge macOS（通用） Windows 64 位 x86 (amd64) Windows 32 位 x86 Windows 64 位 ARM (ARM64) 不确定使用哪个链接。这是修改网络浏览器吗？
 
 
-🔤 Original: Building a better Bugbot
+🔤 Original: Just the Browser
 
-🔗 Read more: https://cursor.com/blog/building-bugbot</description>
-      <guid isPermaLink="true">https://cursor.com/blog/building-bugbot</guid>
-      <pubDate>Fri, 16 Jan 2026 06:52:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46643737</comments>
+🔗 Read more: https://justthebrowser.com/</description>
+      <guid isPermaLink="true">https://justthebrowser.com/</guid>
+      <pubDate>Fri, 16 Jan 2026 12:03:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46645615</comments>
     </item>
     <item>
-      <title>显示 HN：BGP Scout – BGP 网络浏览器</title>
-      <link>https://bgpscout.io/</link>
-      <description>📝 访问来自全球数千个网络的全面边界网关协议数据 通过我们的实时馈送系统访问 BGP 路由变化 使用我们全面的历史数据库分析路由趋势 使用我们强大的 API 将 BGP 数据直接集成到您的应用程序中。
+      <title>隔离范围：从裸机到 WebAssembly</title>
+      <link>https://buildsoftwaresystems.com/post/guide-to-execution-environments/</link>
+      <description>📝 硬件（CPU、内存、磁盘……）：由物理机唯一提供。优点：最高性能、对硬件的完全控制。操作系统：由虚拟机独特提供。
 
 
-🔤 Original: Show HN: BGP Scout – BGP Network Browser
+🔤 Original: The spectrum of isolation: From bare metal to WebAssembly
 
-🔗 Read more: https://bgpscout.io/</description>
-      <guid isPermaLink="true">https://bgpscout.io/</guid>
-      <pubDate>Fri, 16 Jan 2026 00:52:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46641663</comments>
+🔗 Read more: https://buildsoftwaresystems.com/post/guide-to-execution-environments/</description>
+      <guid isPermaLink="true">https://buildsoftwaresystems.com/post/guide-to-execution-environments/</guid>
+      <pubDate>Fri, 16 Jan 2026 09:27:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644661</comments>
+    </item>
+    <item>
+      <title>交互式eBPF</title>
+      <link>https://ebpf.party/</link>
+      <description>📝 通过实践练习来学习 eBPF。直接从浏览器编写、编译和运行程序。第 0 章：简介0x00 eBPF 简介0x01 平台概述第 1 章：概念熟悉0x00 流程上下文0x01 读取事件数据0x02 跟踪系统调用0x03 读取系统调用数组第2 章：有状态eBPF0x00 映射和多个程序0x01 读取系统调用缓冲区0x02 跨系统调用状态跟踪0x03 跟踪网络连接第3 章：内核探针0x00 简介0x01 读取 TCP 数据包 您是否发现问题或有新练习的想法。
+
+
+🔤 Original: Interactive eBPF
+
+🔗 Read more: https://ebpf.party/</description>
+      <guid isPermaLink="true">https://ebpf.party/</guid>
+      <pubDate>Fri, 16 Jan 2026 08:01:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644181</comments>
+    </item>
+    <item>
+      <title>pf：让af-to不再那么神奇</title>
+      <link>https://undeadly.org/cgi?action=article;sid=20260116085115</link>
+      <description>📝 这种差异意味着 af-to 在 pf 中存在很多特殊情况。我认为如果我们让 af-to 不那么特别的话会更好，这就是这个 diff 所做的。此差异使该状态机在 ip_input 和 ip6_input 端工作以支持 af-to。
+
+
+🔤 Original: pf: Make af-to less magical
+
+🔗 Read more: https://undeadly.org/cgi?action=article;sid=20260116085115</description>
+      <guid isPermaLink="true">https://undeadly.org/cgi?action=article;sid=20260116085115</guid>
+      <pubDate>Fri, 16 Jan 2026 09:06:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644541</comments>
+    </item>
+    <item>
+      <title>论崩溃时期的人性 (2022) [pdf]</title>
+      <link>https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</link>
+      <description>📝 5 %���� 5 0 obj &lt;&lt; /Length 2587 /Filter /FlateDecode &gt;&gt; 流 x 带 XYs� ~ׯ��PU;4 �t ��p ��ı��� ��f`q�Y #+�. 25) /CreationDate (D:20221130141139-08'00') /ModDate (D:20221130141139-08'00') /Title (幻灯片.0) /作者 (Rogaway) &gt;&gt; endobj 15 0 obj &lt;&lt; /Type /ExtGState /SA true &gt;&gt; endobj 16 0 obj &lt;&lt; /Type /ExtGState /OPM 1 &gt;&gt; endobj 17 0 obj &lt;&lt; /Subtype /Image /ColorSpace /DeviceCMYK /Width 219 /Height 113 /BitsPerComponent 8 /Filter /DCTDecode /Length 11996 &gt;&gt; 流 ���� Adobe d �� C $ ,.
+
+
+🔤 Original: On Being a Human Being in the Time of Collapse (2022) [pdf]
+
+🔗 Read more: https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</description>
+      <guid isPermaLink="true">https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</guid>
+      <pubDate>Fri, 16 Jan 2026 10:19:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644962</comments>
+    </item>
+    <item>
+      <title>Signal 的创造者 Moxie Marlinspike 希望为 AI 做他在消息传递方面所做的事情</title>
+      <link>https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</link>
+      <description>📝 来自用户的数据和对话以及 LLM 产生的响应在可信执行环境 (TEE) 中进行加密，甚至可以防止服务器管理员偷看或篡改它们。信号打破了这个模式。数据隐私专家 Em（她在互联网上保留自己的姓氏）称人工智能助手是数据隐私的“大敌”，因为它们的效用依赖于从包括个人在内的无数来源收集大量数据。
+
+
+🔤 Original: Signal creator Moxie Marlinspike wants to do for AI what he did for messaging
+
+🔗 Read more: https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</description>
+      <guid isPermaLink="true">https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</guid>
+      <pubDate>Fri, 16 Jan 2026 11:36:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46645430</comments>
     </item>
   </channel>
 </rss>

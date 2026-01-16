@@ -6,34 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Jan 2026 09:28:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 12:45:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>より優れた Bugbot の構築</title>
-      <link>https://cursor.com/blog/building-bugbot</link>
-      <description>📝 これは、PR あたりの解決されたバグの数が、およそ 0 から 2 倍以上になったことを意味します。解決率は、エンジニアが修正する実際の問題を Bugbot が見つけているかどうかに直接答えます。 #Hill-climbing 解像度レートの定義により、Bugbot の構築方法が変わりました。
+      <title>ブラウザだけ</title>
+      <link>https://justthebrowser.com/</link>
+      <description>📝 Mozilla Firefox macOS (ユニバーサル) Windows 64 ビット x86 (amd64) Windows 32 ビット x86 Windows 64 ビット ARM (ARM64) どのリンクを使用すればよいかわかりません。 Microsoft Edge macOS (ユニバーサル) Windows 64 ビット x86 (amd64) Windows 32 ビット x86 Windows 64 ビット ARM (ARM64) どのリンクを使用すればよいかわかりません。これはWebブラウザを変更しているのでしょうか。
 
 
-🔤 Original: Building a better Bugbot
+🔤 Original: Just the Browser
 
-🔗 Read more: https://cursor.com/blog/building-bugbot</description>
-      <guid isPermaLink="true">https://cursor.com/blog/building-bugbot</guid>
-      <pubDate>Fri, 16 Jan 2026 06:52:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46643737</comments>
+🔗 Read more: https://justthebrowser.com/</description>
+      <guid isPermaLink="true">https://justthebrowser.com/</guid>
+      <pubDate>Fri, 16 Jan 2026 12:03:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46645615</comments>
     </item>
     <item>
-      <title>HN を表示: BGP Scout – BGP ネットワーク ブラウザ</title>
-      <link>https://bgpscout.io/</link>
-      <description>📝 世界中の何千ものネットワークから包括的なボーダー ゲートウェイ プロトコル データにアクセスします。 ライブ フィード システムを使用して、発生した BGP ルーティングの変更にアクセスします。 包括的な履歴データベースでルーティングの傾向を分析します。 当社の堅牢な API を使用して、BGP データをアプリケーションに直接統合します。
+      <title>分離の範囲: ベアメタルから WebAssembly まで</title>
+      <link>https://buildsoftwaresystems.com/post/guide-to-execution-environments/</link>
+      <description>📝 ハードウェア (CPU、メモリ、ディスクなど): 物理マシンによって独自に提供されます。長所: 最大のパフォーマンス、ハードウェアの完全な制御。オペレーティング システム: 仮想マシンによって独自に提供されます。
 
 
-🔤 Original: Show HN: BGP Scout – BGP Network Browser
+🔤 Original: The spectrum of isolation: From bare metal to WebAssembly
 
-🔗 Read more: https://bgpscout.io/</description>
-      <guid isPermaLink="true">https://bgpscout.io/</guid>
-      <pubDate>Fri, 16 Jan 2026 00:52:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46641663</comments>
+🔗 Read more: https://buildsoftwaresystems.com/post/guide-to-execution-environments/</description>
+      <guid isPermaLink="true">https://buildsoftwaresystems.com/post/guide-to-execution-environments/</guid>
+      <pubDate>Fri, 16 Jan 2026 09:27:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644661</comments>
+    </item>
+    <item>
+      <title>インタラクティブ eBPF</title>
+      <link>https://ebpf.party/</link>
+      <description>📝 実践的な演習を通じて eBPF を学習します。ブラウザから直接プログラムを作成、コンパイル、実行します。第 0 章: 概要0x00 eBPF の概要0x01 プラットフォームの概要第 1 章: 概念の理解0x00 プロセス コンテキスト0x01 イベント データの読み取り0x02 システム コールのトレース0x03 システムコール アレイの読み取り第 2 章: ステートフル eBPF0x00 マップと複数のプログラム0x01 システムコール バッファーの読み取り0x02 クロス システムコール状態の追跡0x03 ネットワーク接続の追跡第章3: カーネル プローブ0x00 はじめに0x01 TCP パケットの読み取り 問題が見つかりましたか、または新しい演習のアイデアがありましたか。
+
+
+🔤 Original: Interactive eBPF
+
+🔗 Read more: https://ebpf.party/</description>
+      <guid isPermaLink="true">https://ebpf.party/</guid>
+      <pubDate>Fri, 16 Jan 2026 08:01:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644181</comments>
+    </item>
+    <item>
+      <title>pf: af-to の魔法を軽減する</title>
+      <link>https://undeadly.org/cgi?action=article;sid=20260116085115</link>
+      <description>📝 この違いは、af-to が pf では特殊なケースであることを意味します。私は af-to をあまり特別なものにしないほうが良いのではないかと主張していますが、それがこの diff の目的です。この差分により、このステート マシンは ip_input および ip6_input 側で動作し、af-to をサポートします。
+
+
+🔤 Original: pf: Make af-to less magical
+
+🔗 Read more: https://undeadly.org/cgi?action=article;sid=20260116085115</description>
+      <guid isPermaLink="true">https://undeadly.org/cgi?action=article;sid=20260116085115</guid>
+      <pubDate>Fri, 16 Jan 2026 09:06:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644541</comments>
+    </item>
+    <item>
+      <title>崩壊の時代における人間であることについて（2022年） [pdf]</title>
+      <link>https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</link>
+      <description>📝 5 %���� 5 0 obj &lt;&lt; /Length 2587 /Filter /FlateDecode &gt;&gt; ストリーム xڕXYs� ~ׯ��PU;4 �t ��p ��ı��� �f`q�Y #+�。 25) /CreationDate (D:20221130141139-08'00') /ModDate (D:20221130141139-08'00') /Title (slides. 0) /Author (Rogai) &gt;&gt; endobj 15 0 obj &lt;&lt; /Type /ExtGState /SA true &gt;&gt; endobj 16 0 obj &lt;&lt; /Type /ExtGState /OPM 1 &gt;&gt; endobj 17 0 obj &lt;&lt; /Subtype /Image /ColorSpace /DeviceCMYK /Width 219 /Height 113 /BitsPerComponent 8 /Filter /DCTDecode /Length 11996 &gt;&gt; stream ���� Adobe d�� C $ ,.
+
+
+🔤 Original: On Being a Human Being in the Time of Collapse (2022) [pdf]
+
+🔗 Read more: https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</description>
+      <guid isPermaLink="true">https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</guid>
+      <pubDate>Fri, 16 Jan 2026 10:19:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46644962</comments>
+    </item>
+    <item>
+      <title>Sign の作成者である Moxie Marlinspike 氏は、メッセージングで行ったことを AI でも実現したいと考えています</title>
+      <link>https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</link>
+      <description>📝 ユーザーから発信されたデータと会話、および結果として LLM からの応答は、信頼された実行環境 (TEE) で暗号化され、サーバー管理者であってもそれらを覗き見したり改ざんしたりすることはできません。 Signal はその型を打ち破りました。データ プライバシーの専門家であるエム (彼女は名字をインターネットには公開していません) は、AI アシスタントの有用性が個人を含む無数のソースから大量のデータを収集することに依存しているため、AI アシスタントをデータ プライバシーの「宿敵」と呼んでいます。
+
+
+🔤 Original: Signal creator Moxie Marlinspike wants to do for AI what he did for messaging
+
+🔗 Read more: https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</description>
+      <guid isPermaLink="true">https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</guid>
+      <pubDate>Fri, 16 Jan 2026 11:36:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46645430</comments>
     </item>
   </channel>
 </rss>
