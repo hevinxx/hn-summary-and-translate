@@ -6,28 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 17 Jan 2026 03:57:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 06:31:53 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>问 HN：软件初创公司还值得吗？</title>
-      <link>https://news.ycombinator.com/item?id=46654726</link>
-      <description>📝 这是一个基本的商业障碍，从一开始就存在。这是一个总是能结出果实的想法。写一些既节省精力、时间又简单的东西，人们就会为此付费。
+      <title>无人机黑客攻击第 1 部分：转储固件和暴力破解 ECC</title>
+      <link>https://neodyme.io/en/blog/drone_hacking_part_1/</link>
+      <description>📝 如果是这种情况，那么只需焊接 NAND 芯片就会留下无法使用的加密数据。幸运的是，正如我们稍后发现的那样，Atom 2 的 NAND 内容并未加密。转储 NAND 芯片¶ 转储 NAND 芯片通常总是遵循相同的模式： 识别 NAND 芯片 将其从主板上取下 识别 NAND 芯片的数据引脚和通信协议 将 NAND 芯片连接到某种读取设备 读取 NAND 内容 将读取的内容重新组装成工作固件 - 通常包含一个或多个文件系统 识别 NAND 芯片¶ Atom 2 有多个板： 无人机的顶部 无人机的底部，包括主板及其一些部件RF 屏蔽已经移除 我们主要对主板感兴趣，因为那是 NAND 闪存所在的位置。
 
 
-🔤 Original: Ask HN: Is it still worth pursuing a software startup?
+🔤 Original: Drone Hacking Part 1: Dumping Firmware and Bruteforcing ECC
 
-🔗 Read more: https://news.ycombinator.com/item?id=46654726</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46654726</guid>
-      <pubDate>Sat, 17 Jan 2026 02:29:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46654726</comments>
+🔗 Read more: https://neodyme.io/en/blog/drone_hacking_part_1/</description>
+      <guid isPermaLink="true">https://neodyme.io/en/blog/drone_hacking_part_1/</guid>
+      <pubDate>Sat, 17 Jan 2026 02:35:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46654749</comments>
     </item>
     <item>
-      <title>美国出生率暴跌导致太多大学孩子太少</title>
-      <link>https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/</link>
-      <guid isPermaLink="true">https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/</guid>
-      <pubDate>Sat, 17 Jan 2026 02:30:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46654728</comments>
+      <title>仅限本地的 Marstek Venus 电子电池与 Home Assistant 集成</title>
+      <link>https://du.nkel.dev/blog/2026-01-11_marstek-battery-homeassistant/</link>
+      <description>📝 仅限本地的 Marstek Venus E 电池与家庭助理集成 发布：2026-01-11，修订：2026-01-17 TL;DR 将廉价（约 1050 欧元）5kWh 交流耦合电池集成到现有 30kWp 光伏系统中。这使得 Home Assistant 能够使用 Modbus TCP，而 Waveshare 则负责将电池转换为 Modbus RTU（串行）。输出：Marstek 电池调整其充电/放电速率。
+
+
+🔤 Original: Local-only Marstek Venus e-battery integration with Home Assistant
+
+🔗 Read more: https://du.nkel.dev/blog/2026-01-11_marstek-battery-homeassistant/</description>
+      <guid isPermaLink="true">https://du.nkel.dev/blog/2026-01-11_marstek-battery-homeassistant/</guid>
+      <pubDate>Fri, 16 Jan 2026 06:46:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46643699</comments>
     </item>
   </channel>
 </rss>
