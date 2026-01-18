@@ -6,85 +6,92 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Jan 2026 18:29:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 21:20:40 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>The Nobel Prize and the Laureate Are Inseparable</title>
-      <link>https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable</link>
-      <description>📝 A Nobel Peace Prize can also never be revoked. Christian Lous Lange (Peace Prize 1921): The medal of Norway’s first Nobel Peace Prize laureate has been on long-term loan from the Lange family to the Nobel Peace Center in Oslo since 2005. This is the highest price ever paid for a Nobel Prize medal.
+      <title>Flux 2 Klein pure C inference</title>
+      <link>https://github.com/antirez/flux2.c</link>
+      <description>📝 png, and later processed with image to image generation via. /flux -d flux-klein-model -i /tmp/woman. png -S 1705612345 Building Choose a backend when building: make # Show available backends make generic # Pure C, no dependencies (slow) make blas # BLAS acceleration (~30x faster) make mps # Apple Silicon Metal GPU (fastest, macOS only) Recommended: macOS Apple Silicon: make mps macOS Intel: make blas Linux with OpenBLAS: make blas Linux without OpenBLAS: make generic For make blas on Linux, install OpenBLAS first: # Ubuntu/Debian sudo apt install libopenblas-dev # Fedora sudo dnf install openblas-devel Other targets: make clean # Clean build artifacts make info # Show availabl.
 
-🔗 Read more: https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable</description>
-      <guid isPermaLink="true">https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable</guid>
-      <pubDate>Sun, 18 Jan 2026 16:50:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46669404</comments>
+🔗 Read more: https://github.com/antirez/flux2.c</description>
+      <guid isPermaLink="true">https://github.com/antirez/flux2.c</guid>
+      <pubDate>Sun, 18 Jan 2026 18:01:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46670279</comments>
     </item>
     <item>
-      <title>Gaussian Splatting – A$AP Rocky Helicopter Music Video</title>
-      <link>https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting</link>
-      <description>📝 Chris told me he’d been tracking volumetric performance capture for years, fascinated by emerging techniques that could enable visuals that simply weren’t possible before. It’s a workflow that more closely resembles simulation than traditional filming. Chris also discovered that Octane’s Houdini integration had matured, and that Octane’s early splat support was far enough along to enable relighting.
-
-🔗 Read more: https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting</description>
-      <guid isPermaLink="true">https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting</guid>
-      <pubDate>Sun, 18 Jan 2026 17:40:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46670024</comments>
+      <title>Breaking the Zimmermann Telegram (2018)</title>
+      <link>https://medium.com/lapsed-historian/breaking-the-zimmermann-telegram-b34ed1d73614</link>
+      <guid isPermaLink="true">https://medium.com/lapsed-historian/breaking-the-zimmermann-telegram-b34ed1d73614</guid>
+      <pubDate>Sun, 18 Jan 2026 19:19:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46671174</comments>
     </item>
     <item>
-      <title>How the Lobsters front page works</title>
-      <link>https://atharvaraykar.com/lobsters/</link>
-      <description>📝 OrderThe value of \( \textbf{order} \) is derived from the engagement that a story gets. This was mostly vibecoded, with me verifying that the results match the algorithm. Over time, age always dominates upvotes, so no story can really stick around that long in the front page.
+      <title>Stirling Cycle Machine Analysis</title>
+      <link>https://ohioopen.library.ohio.edu/opentextbooks/9/</link>
+      <description>📝 Chapter 4: Ideal Adiabatic Analysis We find that the Ideal Isothermal analysis predicts that the heat exchangers of a Stirling engine are redundant, thus we cannot seriously use this model to predict the ideal performance of an actual machine. This learning resource includes a set of tutorial MATLAB computer program modules for simulating specific Stirling engine configurations. zip (sea = stirling engine analysis).
 
-🔗 Read more: https://atharvaraykar.com/lobsters/</description>
-      <guid isPermaLink="true">https://atharvaraykar.com/lobsters/</guid>
-      <pubDate>Sun, 18 Jan 2026 17:38:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46669996</comments>
+🔗 Read more: https://ohioopen.library.ohio.edu/opentextbooks/9/</description>
+      <guid isPermaLink="true">https://ohioopen.library.ohio.edu/opentextbooks/9/</guid>
+      <pubDate>Sun, 18 Jan 2026 20:45:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46671982</comments>
     </item>
     <item>
-      <title>A Social Filesystem</title>
-      <link>https://overreacted.io/a-social-filesystem/</link>
-      <description>📝 Apps create and read your files on your behalf, but files don’t belong to the apps. To do that reliably, apps need your files to be structured. In this paradigm, apps are reactive to files.
+      <title>Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup</title>
+      <link>https://cua.ai/docs/lume/guide/getting-started/introduction</link>
+      <description>📝 LumeGuideGetting StartedWhat is Lume. lume create test-vm --os macos --ipsw latest lume run test-vm A single binary with an HTTP API. Automating macOS tasks — Combine Lume with Unattended Setup to create pre-configured VMs.
 
-🔗 Read more: https://overreacted.io/a-social-filesystem/</description>
-      <guid isPermaLink="true">https://overreacted.io/a-social-filesystem/</guid>
-      <pubDate>Sun, 18 Jan 2026 08:18:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46665839</comments>
+🔗 Read more: https://cua.ai/docs/lume/guide/getting-started/introduction</description>
+      <guid isPermaLink="true">https://cua.ai/docs/lume/guide/getting-started/introduction</guid>
+      <pubDate>Sun, 18 Jan 2026 17:53:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46670181</comments>
     </item>
     <item>
-      <title>Overlapping Markup</title>
-      <link>https://en.wikipedia.org/wiki/Overlapping_markup</link>
-      <description>📝 A document with overlapping markup cannot be represented as a tree. Non-contiguous overlap may require document fragmentation. [14] The Text Encoding Initiative, as an XML-based markup scheme, cannot directly represent overlapping markup.
+      <title>Show HN: Xenia – A monospaced font built with a custom Python engine</title>
+      <link>https://github.com/Loretta1982/xenia</link>
+      <description>📝 xenia monofont I made this because monofont shouldn't have to be fugly. enjoy :) Installation download xenia_regular. ) or Terminal, set your font face to xenia Features 700+ glyphs: deep support for symbols and math.
 
-🔗 Read more: https://en.wikipedia.org/wiki/Overlapping_markup</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Overlapping_markup</guid>
-      <pubDate>Sun, 18 Jan 2026 10:37:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46666650</comments>
+🔗 Read more: https://github.com/Loretta1982/xenia</description>
+      <guid isPermaLink="true">https://github.com/Loretta1982/xenia</guid>
+      <pubDate>Sun, 18 Jan 2026 10:39:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46666661</comments>
     </item>
     <item>
-      <title>Sins of the Children (Adrian Tchaikovsky)</title>
-      <link>https://asteriskmag.com/issues/07/sins-of-the-children</link>
-      <description>📝 It jumped and came down on eight legs that must have been shock absorbers par excellence. Chelicer life doesn’t quite have a front or a back, built around that hub of legs. Right then we were more concerned with what it did to Merrit.
+      <title>Show HN: HTTP:COLON – A quick HTTP header/directive inspector and reference</title>
+      <link>https://httpcolon.dev/</link>
+      <description>📝 GETPOSTPUTDELETETABGO © 2023 HTTP:COLON // All rights reserved✨ Made in San FranciscoHTTP:DOCS What are HTTP Headers. HTTP headers are a fundamental component of the HTTP protocol, which is the backbone of the internet. Moreover, HTTP headers play a critical role in API integrations, allowing developers to communicate with external services and systems.
 
-🔗 Read more: https://asteriskmag.com/issues/07/sins-of-the-children</description>
-      <guid isPermaLink="true">https://asteriskmag.com/issues/07/sins-of-the-children</guid>
-      <pubDate>Sun, 18 Jan 2026 17:08:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46669663</comments>
+🔗 Read more: https://httpcolon.dev/</description>
+      <guid isPermaLink="true">https://httpcolon.dev/</guid>
+      <pubDate>Sun, 18 Jan 2026 18:03:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46670290</comments>
     </item>
     <item>
-      <title>Stop using MySQL in 2026, it is not true open source</title>
-      <link>https://optimizedbyotto.com/post/reasons-to-stop-using-mysql/</link>
-      <description>📝 The first actual new major release MySQL 8. Many also reported degraded performance with newer MySQL versions, for example the benchmark by famous MySQL performance expert Mark Callaghan below shows that on write-heavy workloads MySQL 9. Due to newer MySQL versions deprecating many features, a lot of users also complained about significant struggles regarding both MySQL 5.
+      <title>Evolution Unleashed (2018)</title>
+      <link>https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</link>
+      <description>📝 That is not supposed to happen. Much of the data implies that evolution is more complex than we once assumed. He maintained that scientists should strive to carry out critical experiments that could potentially falsify their theories.
 
-🔗 Read more: https://optimizedbyotto.com/post/reasons-to-stop-using-mysql/</description>
-      <guid isPermaLink="true">https://optimizedbyotto.com/post/reasons-to-stop-using-mysql/</guid>
-      <pubDate>Sun, 18 Jan 2026 16:43:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46669289</comments>
+🔗 Read more: https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</description>
+      <guid isPermaLink="true">https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</guid>
+      <pubDate>Sun, 18 Jan 2026 19:21:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46671191</comments>
     </item>
     <item>
-      <title>Purdue blocks admission of many Chinese grad students in unwritten policy</title>
-      <link>https://www.science.org/content/article/purdue-blocks-admission-many-chinese-grad-students-unwritten-policy</link>
-      <guid isPermaLink="true">https://www.science.org/content/article/purdue-blocks-admission-many-chinese-grad-students-unwritten-policy</guid>
-      <pubDate>Sun, 18 Jan 2026 15:55:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46668801</comments>
+      <title>Police Invested Millions in Shadowy Phone-Tracking Software Won't Say How Used</title>
+      <link>https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</link>
+      <guid isPermaLink="true">https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</guid>
+      <pubDate>Sun, 18 Jan 2026 21:05:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46672150</comments>
+    </item>
+    <item>
+      <title>Echo Chess: The Quest for Solvability (2023)</title>
+      <link>https://web.archive.org/web/20230920164939/https://samiramly.com/chess</link>
+      <description>📝 But what’s wrong with people associating it with Chess. Chess pieces are a universal language. Soon “the game” looked more like this.
+
+🔗 Read more: https://web.archive.org/web/20230920164939/https://samiramly.com/chess</description>
+      <guid isPermaLink="true">https://web.archive.org/web/20230920164939/https://samiramly.com/chess</guid>
+      <pubDate>Sun, 18 Jan 2026 10:24:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46666574</comments>
     </item>
   </channel>
 </rss>
