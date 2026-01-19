@@ -6,113 +6,68 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 18 Jan 2026 21:20:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 01:50:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Flux 2 Klein 纯 C 推理</title>
-      <link>https://github.com/antirez/flux2.c</link>
-      <description>📝 png，然后通过图像到图像生成进行处理。 /flux -d Flux-klein-model -i /tmp/woman. png -S 1705612345 Building 构建时选择后端： make # 显示可用后端 make generic # 纯 C，无依赖项（慢） make blas # BLAS 加速（快约 30 倍） make mps # Apple Silicon Metal GPU（最快，仅限 macOS） 推荐：macOS Apple Silicon：make mps macOS Intel：make blas Linux with OpenBLAS：make blas Linux without OpenBLAS：make generic 对于 make blas Linux，首先安装 OpenBLAS： # Ubuntu/Debian sudo apt install libopenblas-dev # Fedora sudo dnf install openblas-devel 其他目标： make clean # 清理构建工件 make info # 显示可用信息。
+      <title>死亡互联网理论</title>
+      <link>https://kudmitry.com/articles/dead-internet-theory/</link>
+      <description>📝 如果人们在现实生活中确实使用破折号怎么办？这还是真人吗。评论的人都是真实的吗？
 
 
-🔤 Original: Flux 2 Klein pure C inference
+🔤 Original: Dead Internet Theory
 
-🔗 Read more: https://github.com/antirez/flux2.c</description>
-      <guid isPermaLink="true">https://github.com/antirez/flux2.c</guid>
-      <pubDate>Sun, 18 Jan 2026 18:01:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46670279</comments>
+🔗 Read more: https://kudmitry.com/articles/dead-internet-theory/</description>
+      <guid isPermaLink="true">https://kudmitry.com/articles/dead-internet-theory/</guid>
+      <pubDate>Sun, 18 Jan 2026 20:19:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46671731</comments>
     </item>
     <item>
-      <title>破解齐默尔曼电报 (2018)</title>
-      <link>https://medium.com/lapsed-historian/breaking-the-zimmermann-telegram-b34ed1d73614</link>
-      <guid isPermaLink="true">https://medium.com/lapsed-historian/breaking-the-zimmermann-telegram-b34ed1d73614</guid>
-      <pubDate>Sun, 18 Jan 2026 19:19:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46671174</comments>
+      <title>预测：微软将做你能想象到的最有趣的事情</title>
+      <link>https://gamesbymason.com/blog/2026/microsoft/</link>
+      <guid isPermaLink="true">https://gamesbymason.com/blog/2026/microsoft/</guid>
+      <pubDate>Sun, 18 Jan 2026 23:24:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46673264</comments>
     </item>
     <item>
-      <title>斯特林循环机分析</title>
-      <link>https://ohioopen.library.ohio.edu/opentextbooks/9/</link>
-      <description>📝 第四章：理想绝热分析​​ 我们发现理想等温分析预测斯特林发动机的热交换器是多余的，因此我们不能认真地使用这个模型来预测实际机器的理想性能。该学习资源包括一组用于模拟特定斯特林发动机配置的教程 MATLAB 计算机程序模块。 zip（海 = 斯特林发动机分析）。
+      <title>Show HN：Dock – Slack 减去膨胀、税收和 90 天记忆损失</title>
+      <link>https://getdock.io/</link>
+      <description>📝 您的数据归您所有。当您的团队成长时，这并不奇怪。尊重您的时间和预算的团队聊天。
 
 
-🔤 Original: Stirling Cycle Machine Analysis
+🔤 Original: Show HN: Dock – Slack minus the bloat, tax, and 90-day memory loss
 
-🔗 Read more: https://ohioopen.library.ohio.edu/opentextbooks/9/</description>
-      <guid isPermaLink="true">https://ohioopen.library.ohio.edu/opentextbooks/9/</guid>
-      <pubDate>Sun, 18 Jan 2026 20:45:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46671982</comments>
+🔗 Read more: https://getdock.io/</description>
+      <guid isPermaLink="true">https://getdock.io/</guid>
+      <pubDate>Sun, 18 Jan 2026 20:42:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46671952</comments>
     </item>
     <item>
-      <title>Show HN：Lume 0.2 – 通过无人值守设置构建和运行 macOS VM</title>
-      <link>https://cua.ai/docs/lume/guide/getting-started/introduction</link>
-      <description>📝 LumeGuide入门什么是 Lume。 lume create test-vm --os macos --ipswlatest lume run test-vm 具有 HTTP API 的单个二进制文件。自动化 macOS 任务 - 将 Lume 与无人值守设置相结合以创建预配置的虚拟机。
-
-
-🔤 Original: Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup
-
-🔗 Read more: https://cua.ai/docs/lume/guide/getting-started/introduction</description>
-      <guid isPermaLink="true">https://cua.ai/docs/lume/guide/getting-started/introduction</guid>
-      <pubDate>Sun, 18 Jan 2026 17:53:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46670181</comments>
+      <title>马铃薯上的简单 GIS</title>
+      <link>https://github.com/blue-monads/potato-apps/tree/master/cimple-gis</link>
+      <guid isPermaLink="true">https://github.com/blue-monads/potato-apps/tree/master/cimple-gis</guid>
+      <pubDate>Sun, 18 Jan 2026 22:15:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46672701</comments>
     </item>
     <item>
-      <title>显示 HN：Xenia – 使用自定义 Python 引擎构建的等宽字体</title>
-      <link>https://github.com/Loretta1982/xenia</link>
-      <description>📝 xenia monofont 我做这个是因为 monofont 不应该是丑陋的。享受吧：）安装下载xenia_regular。 ）或终端，将字体设置为 xenia 功能 700 多个字形：对符号和数学的深入支持。
+      <title>Show HN：Beats，一款基于网络的鼓机</title>
+      <link>https://beats.lasagna.pizza</link>
+      <description>📝 beatsbeatsNEW SAVEDELABOUT SHARE BPM+MENU PLAY BEATCONFIRMCANCEL OKALERTOKSAVE BEATCANCEL SAVE AS SAVEINPUTCANCEL OKSHARE 通过此 URL 分享您的节拍：COPY OKABOUTBEATSA 基于网络的鼓机，灵感源自 Teenage Engineering Pocket Operators。制作人员：• 由@kinduff 撰写• 用语气构建。 js• 具有出色的 VT323 字体感谢：• andiam03 转换模式并激发灵感。
 
 
-🔤 Original: Show HN: Xenia – A monospaced font built with a custom Python engine
+🔤 Original: Show HN: Beats, a web-based drum machine
 
-🔗 Read more: https://github.com/Loretta1982/xenia</description>
-      <guid isPermaLink="true">https://github.com/Loretta1982/xenia</guid>
-      <pubDate>Sun, 18 Jan 2026 10:39:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46666661</comments>
+🔗 Read more: https://beats.lasagna.pizza</description>
+      <guid isPermaLink="true">https://beats.lasagna.pizza</guid>
+      <pubDate>Sun, 18 Jan 2026 21:10:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46672181</comments>
     </item>
     <item>
-      <title>Show HN: HTTP:COLON – 快速 HTTP 标头/指令检查器和参考</title>
-      <link>https://httpcolon.dev/</link>
-      <description>📝 GETPOSTPUTDELETETABGO © 2023 HTTP:COLON // 保留所有权利✨ 旧金山制造HTTP:DOCS 什么是 HTTP 标头。 HTTP 标头是 HTTP 协议的基本组成部分，HTTP 协议是互联网的支柱。此外，HTTP 标头在 API 集成中发挥着关键作用，允许开发人员与外部服务和系统进行通信。
-
-
-🔤 Original: Show HN: HTTP:COLON – A quick HTTP header/directive inspector and reference
-
-🔗 Read more: https://httpcolon.dev/</description>
-      <guid isPermaLink="true">https://httpcolon.dev/</guid>
-      <pubDate>Sun, 18 Jan 2026 18:03:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46670290</comments>
-    </item>
-    <item>
-      <title>进化的释放 (2018)</title>
-      <link>https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</link>
-      <description>📝 这是不应该发生的。许多数据表明进化比我们曾经假设的更复杂。他坚持认为，科学家应该努力进行可能会证伪他们理论的关键实验。
-
-
-🔤 Original: Evolution Unleashed (2018)
-
-🔗 Read more: https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</description>
-      <guid isPermaLink="true">https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</guid>
-      <pubDate>Sun, 18 Jan 2026 19:21:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46671191</comments>
-    </item>
-    <item>
-      <title>警方投资数百万美元购买神秘电话追踪软件，但未透露其用途</title>
-      <link>https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</link>
-      <guid isPermaLink="true">https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</guid>
-      <pubDate>Sun, 18 Jan 2026 21:05:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46672150</comments>
-    </item>
-    <item>
-      <title>Echo Chess：寻求可解性 (2023)</title>
-      <link>https://web.archive.org/web/20230920164939/https://samiramly.com/chess</link>
-      <description>📝 但人们将其与国际象棋联系起来有什么问题呢？棋子是一种通用语言。很快，“游戏”看起来就更像这样了。
-
-
-🔤 Original: Echo Chess: The Quest for Solvability (2023)
-
-🔗 Read more: https://web.archive.org/web/20230920164939/https://samiramly.com/chess</description>
-      <guid isPermaLink="true">https://web.archive.org/web/20230920164939/https://samiramly.com/chess</guid>
-      <pubDate>Sun, 18 Jan 2026 10:24:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46666574</comments>
+      <title>预测市场正在迎来一个新闻变成赌博的世界</title>
+      <link>https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb</link>
+      <guid isPermaLink="true">https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb</guid>
+      <pubDate>Sun, 18 Jan 2026 18:20:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46670524</comments>
     </item>
   </channel>
 </rss>

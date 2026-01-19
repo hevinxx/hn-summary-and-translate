@@ -6,113 +6,68 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 18 Jan 2026 21:20:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 01:50:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Flux 2 Klein の純粋な C 推論</title>
-      <link>https://github.com/antirez/flux2.c</link>
-      <description>📝 png として保存され、その後画像生成経由で画像処理が行われます。 /flux -d flux-klein-model -i /tmp/女性。 png -S 1705612345 ビルド ビルド時にバックエンドを選択します: make # 利用可能なバックエンドを表示します make generic # Pure C、依存関係なし (遅い) make blas # BLAS アクセラレーション (~30 倍高速) make mps # Apple Silicon Metal GPU (最速、macOS のみ) 推奨: macOS Apple Silicon: make mps macOS Intel: make blas Linux with OpenBLAS: make blas Linux without OpenBLAS: make generic make blas の場合Linux では、最初に OpenBLAS をインストールします。 # Ubuntu/Debian sudo apt install libopenblas-dev # Fedora sudo dnf install openblas-devel その他のターゲット: make clean # Clean build artifacts make info # Show availabl。
+      <title>死んだインターネット理論</title>
+      <link>https://kudmitry.com/articles/dead-internet-theory/</link>
+      <description>📝 もし人々が実生活で全角ダッシュを使用していたらどうなるでしょうか。これも実在の人物なのでしょうか。コメントしてる人達は本物なの？
 
 
-🔤 Original: Flux 2 Klein pure C inference
+🔤 Original: Dead Internet Theory
 
-🔗 Read more: https://github.com/antirez/flux2.c</description>
-      <guid isPermaLink="true">https://github.com/antirez/flux2.c</guid>
-      <pubDate>Sun, 18 Jan 2026 18:01:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46670279</comments>
+🔗 Read more: https://kudmitry.com/articles/dead-internet-theory/</description>
+      <guid isPermaLink="true">https://kudmitry.com/articles/dead-internet-theory/</guid>
+      <pubDate>Sun, 18 Jan 2026 20:19:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46671731</comments>
     </item>
     <item>
-      <title>ツィンマーマン電報を破る (2018)</title>
-      <link>https://medium.com/lapsed-historian/breaking-the-zimmermann-telegram-b34ed1d73614</link>
-      <guid isPermaLink="true">https://medium.com/lapsed-historian/breaking-the-zimmermann-telegram-b34ed1d73614</guid>
-      <pubDate>Sun, 18 Jan 2026 19:19:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46671174</comments>
+      <title>予測: Microsoft は想像できる限り最もおかしなことをやろうとしている</title>
+      <link>https://gamesbymason.com/blog/2026/microsoft/</link>
+      <guid isPermaLink="true">https://gamesbymason.com/blog/2026/microsoft/</guid>
+      <pubDate>Sun, 18 Jan 2026 23:24:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46673264</comments>
     </item>
     <item>
-      <title>スターリングサイクル機械の解析</title>
-      <link>https://ohioopen.library.ohio.edu/opentextbooks/9/</link>
-      <description>📝 第 4 章: 理想断熱解析 理想等温解析ではスターリング エンジンの熱交換器が冗長であることが予測されるため、このモデルを実際の機械の理想的な性能を予測するために本格的に使用することはできないことがわかりました。この学習リソースには、特定のスターリング エンジン構成をシミュレートするための一連のチュートリアル MATLAB コンピューター プログラム モジュールが含まれています。 zip (海 = スターリング エンジン分析)。
+      <title>HN を表示: Dock – Slack から肥大化、税金、90 日間の記憶喪失を差し引いたもの</title>
+      <link>https://getdock.io/</link>
+      <description>📝 あなたのデータはあなたのもののままです。チームが成長しても驚くことはありません。時間と予算を尊重したチーム チャット。
 
 
-🔤 Original: Stirling Cycle Machine Analysis
+🔤 Original: Show HN: Dock – Slack minus the bloat, tax, and 90-day memory loss
 
-🔗 Read more: https://ohioopen.library.ohio.edu/opentextbooks/9/</description>
-      <guid isPermaLink="true">https://ohioopen.library.ohio.edu/opentextbooks/9/</guid>
-      <pubDate>Sun, 18 Jan 2026 20:45:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46671982</comments>
+🔗 Read more: https://getdock.io/</description>
+      <guid isPermaLink="true">https://getdock.io/</guid>
+      <pubDate>Sun, 18 Jan 2026 20:42:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46671952</comments>
     </item>
     <item>
-      <title>HN を表示: Lume 0.2 – 無人セットアップによる macOS VM の構築と実行</title>
-      <link>https://cua.ai/docs/lume/guide/getting-started/introduction</link>
-      <description>📝 LumeガイドはじめにLumeとは何ですか。 lume create test-vm --os macos --ipsw 最新 lume run test-vm HTTP API を備えた単一のバイナリ。 macOS タスクの自動化 — Lume と無人セットアップを組み合わせて、事前構成された VM を作成します。
-
-
-🔤 Original: Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup
-
-🔗 Read more: https://cua.ai/docs/lume/guide/getting-started/introduction</description>
-      <guid isPermaLink="true">https://cua.ai/docs/lume/guide/getting-started/introduction</guid>
-      <pubDate>Sun, 18 Jan 2026 17:53:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46670181</comments>
+      <title>ジャガイモのシンプルな GIS</title>
+      <link>https://github.com/blue-monads/potato-apps/tree/master/cimple-gis</link>
+      <guid isPermaLink="true">https://github.com/blue-monads/potato-apps/tree/master/cimple-gis</guid>
+      <pubDate>Sun, 18 Jan 2026 22:15:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46672701</comments>
     </item>
     <item>
-      <title>Show HN: Xenia – カスタム Python エンジンで構築された等幅フォント</title>
-      <link>https://github.com/Loretta1982/xenia</link>
-      <description>📝 xenia monofont モノフォントはゴツくてもいけないので作りました。お楽しみください:) インストールは xenia_normal をダウンロードします。 ) またはターミナルで、フォント フェイスを xenia に設定します。 700 以上のグリフ機能: 記号と数学を深くサポートします。
+      <title>Show HN: Beats、ウェブベースのドラムマシン</title>
+      <link>https://beats.lasagna.pizza</link>
+      <description>📝 ビートビートNEW SAVEDELABOUT SHARE BPM+MENU PLAY BEATCONFIRMCANCEL OKALERTOKSAVE BEATCANCEL SAVE AS SAVEINPUTCANCEL OKSHAREこの URL でビートを共有します:COPY OKABOUTBEATTeenage Engineering Pocket Operators からインスピレーションを得た Web ベースのドラム マシンです。クレジット:• @kinduff が執筆• Tone で構築。 js• 素晴らしい VT323 フォントを使用しました。ありがとうございます:• パターンを転置してインスピレーションを与えてくれた andiam03。
 
 
-🔤 Original: Show HN: Xenia – A monospaced font built with a custom Python engine
+🔤 Original: Show HN: Beats, a web-based drum machine
 
-🔗 Read more: https://github.com/Loretta1982/xenia</description>
-      <guid isPermaLink="true">https://github.com/Loretta1982/xenia</guid>
-      <pubDate>Sun, 18 Jan 2026 10:39:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46666661</comments>
+🔗 Read more: https://beats.lasagna.pizza</description>
+      <guid isPermaLink="true">https://beats.lasagna.pizza</guid>
+      <pubDate>Sun, 18 Jan 2026 21:10:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46672181</comments>
     </item>
     <item>
-      <title>Show HN: HTTP:COLON – 簡単な HTTP ヘッダー/ディレクティブ インスペクターとリファレンス</title>
-      <link>https://httpcolon.dev/</link>
-      <description>📝 GETPOSTPUTDELETETABGO © 2023 HTTP:COLON // 全著作権所有✨ Made in San FranciscoHTTP:DOCS HTTP ヘッダーとは。 HTTP ヘッダーは、インターネットのバックボーンである HTTP プロトコルの基本コンポーネントです。さらに、HTTP ヘッダーは API 統合において重要な役割を果たし、開発者が外部サービスやシステムと通信できるようにします。
-
-
-🔤 Original: Show HN: HTTP:COLON – A quick HTTP header/directive inspector and reference
-
-🔗 Read more: https://httpcolon.dev/</description>
-      <guid isPermaLink="true">https://httpcolon.dev/</guid>
-      <pubDate>Sun, 18 Jan 2026 18:03:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46670290</comments>
-    </item>
-    <item>
-      <title>エボリューション アンリーシュド (2018)</title>
-      <link>https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</link>
-      <description>📝 そんなことはあってはならないことです。データの多くは、進化が私たちがかつて想定していたよりも複雑であることを示唆しています。同氏は、科学者は理論を偽る可能性がある重要な実験を実施するよう努めるべきだと主張した。
-
-
-🔤 Original: Evolution Unleashed (2018)
-
-🔗 Read more: https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</description>
-      <guid isPermaLink="true">https://aeon.co/essays/science-in-flux-is-a-revolution-brewing-in-evolutionary-theory</guid>
-      <pubDate>Sun, 18 Jan 2026 19:21:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46671191</comments>
-    </item>
-    <item>
-      <title>警察、怪しい電話追跡ソフトに数百万ドルを投資 使用方法は明らかにせず</title>
-      <link>https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</link>
-      <guid isPermaLink="true">https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</guid>
-      <pubDate>Sun, 18 Jan 2026 21:05:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46672150</comments>
-    </item>
-    <item>
-      <title>エコー チェス: 解決可能性の探求 (2023)</title>
-      <link>https://web.archive.org/web/20230920164939/https://samiramly.com/chess</link>
-      <description>📝 しかし、人々がそれをチェスと結びつけるのは何が悪いのでしょう。チェスの駒は世界共通の言語です。すぐに「ゲーム」はこのようなものになりました。
-
-
-🔤 Original: Echo Chess: The Quest for Solvability (2023)
-
-🔗 Read more: https://web.archive.org/web/20230920164939/https://samiramly.com/chess</description>
-      <guid isPermaLink="true">https://web.archive.org/web/20230920164939/https://samiramly.com/chess</guid>
-      <pubDate>Sun, 18 Jan 2026 10:24:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46666574</comments>
+      <title>予測市場により、ニュースがギャンブルに関するものになる世界が到来</title>
+      <link>https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb</link>
+      <guid isPermaLink="true">https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb</guid>
+      <pubDate>Sun, 18 Jan 2026 18:20:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46670524</comments>
     </item>
   </channel>
 </rss>
