@@ -6,67 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 20 Jan 2026 04:08:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 06:38:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>F-16 Falcon Strike，适用于 Atari XL/XE 的现代战斗飞行 SIM</title>
-      <link>https://webchrono.pl/F16FalconStrike/index.html</link>
-      <description>📝 2 于 2026-01-18 发布 最新文档更新于 2026-01-18。 1 关于成为波兰空军 F-16 飞行员保卫 E. 链接到关于 F-16 Falcon Strike 的英语 AtariAge 论坛帖子 链接到关于 F-16 Falcon Strike 的波兰 AtariAge 论坛帖子 如果您撰写了此游戏的评论或流媒体游戏，请告诉我 - 我真的很想了解人们对这款游戏的看法以及他们如何玩它。
+      <title>3D 打印我的笔记本电脑人体工学设置</title>
+      <link>https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</link>
+      <description>📝 为什么要做更多的改变。为什么我要对此设置进行更多更改。这种设置的最大好处是它非常轻。
 
 
-🔤 Original: F-16 Falcon Strike, modern combat flight SIM for Atari XL/XE
+🔤 Original: 3D printing my laptop ergonomic setup
 
-🔗 Read more: https://webchrono.pl/F16FalconStrike/index.html</description>
-      <guid isPermaLink="true">https://webchrono.pl/F16FalconStrike/index.html</guid>
-      <pubDate>Tue, 20 Jan 2026 03:26:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687588</comments>
+🔗 Read more: https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</description>
+      <guid isPermaLink="true">https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</guid>
+      <pubDate>Mon, 19 Jan 2026 23:39:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46686131</comments>
     </item>
     <item>
-      <title>Nova Launcher 添加了 Facebook 和 Google 广告跟踪</title>
-      <link>https://lemdro.id/post/lemdro.id/35049920</link>
-      <guid isPermaLink="true">https://lemdro.id/post/lemdro.id/35049920</guid>
-      <pubDate>Tue, 20 Jan 2026 01:03:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46686655</comments>
+      <title>x86 前缀和转义操作码流程图</title>
+      <link>https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</link>
+      <description>📝 最后更新于 2025 年 4 月 27 日 从这里开始 | v ╔═════════════════════════ ═════════════════════════╗ ╔═════════════════════════ ══════════════════════╤══╗ ║ 2 字节指令（旧版映射 1） ║ ║ 1 字节指令（旧版映射 0） │0F-------------&gt;║ ║ ║ └──╢ ║ 指定操作数类型 ┌──┐ ┌──┐ ║ ╟──────────────────────────────────────────────────╢。 --------&gt;║ 通过强制前缀 │38│ │3A----------------。 ) - W 扩展操作数大小 - M 选择传统映射 0 或传统映射 1 - R 扩展寄存器位 - R 扩展寄存器位 - X 扩展 SIB 字节中的索引 - X 扩展 SIB 字节中的索引 - B 扩展 SIB 字节中的基址 - B 扩展 SIB 字节中的基址 - W 扩展操作数大小┏──┯──┯──┯──┯──┯──┯──┯──┳──┯──┯──┯──┯──┯──┯──┯──┓ ┏──┯──┯──┯──┯──┯──┯──┯──┳──┯──┯──┯──┯──┯──┯──┯──┳──┯──┯──┯──┯──┯──┯──┯──┓ ┃1 1 0 0 0 1 0 1┃Ṙ ⩒ ⩒ ⩒ ⩒ L p p┃ ┃1 1 0 0 0 1 0 0┃Ṙ Ẋ Ḃ m mm mm m┃W ⩒ ⩒ ⩒ ⩒ L p p┃ ┗´┷´┷´┷´┷´┷´┷´┷´┻´┷´┷´┷´┷´┷´┷´┷´┛ ┗┷‚┷‚┷‚┷‚┷–┷–┷–┻–┷–┷–┷–┷–┷–┷–┷–┻–┷–┷–┷–┷––┷–┷–┷–┛ VEX（2 字节前缀）AVX (2008/2011) VEX (3 字节前缀) AVX (2008/2011) - R 扩展寄存器位 - R 扩展寄存器位 - v 编码附加源寄存器 - X 扩展 SIB 字节中的索引 - L 选择向量长度 (0: 128 位 | 1: 256 位) - B 扩展 SIB 字节中的基址 - p 编码强制前缀 - m 选择指令映射 (1: 0F | 2: 0F38 | 3: 0F3A) (0: 无 | 1: 66 | 2: F2 | 3: F3) - W 扩展操作数大小 - 隐含指令映射 0F（传统映射 1） - v 编码附加源寄存器 - L 选择向量长度（0: 128 位、1: 256 位） - p 编码强制前缀（0: 无 | 1: 66 | 2: F2 | 3: F3） ┏──┯──┯──┯──┯──┯──┯──┯──┳──┯──┯──┯──┯──┯──┯──┯── ┳──┯──┯──┯──┯──┯──┯──┯──┳──┯──┯──┯──┯──┯──┯──┯──┓注： ┃0 1 1 0 0 0 1 0┃Ṙ Ẋ Ḃ Ṙ B mm m m┃W ⩒ ⩒ ⩒ ⩒ Ẋ p p┃z Ŀ L b ⩒ a a a┃ - 指令集扩展后的年数┗──┷──┷──┷──┷──┷──┷──┷──┻──┷──┷──┷──┷──┷──┷──┷── ┻ー┷ー┷ー┷ー┷ー┷ー┷ー┷ー┻ー┷ー┷ー┷ー┷ー┷ー┷ー┷ー┛表示首次宣布/发货的 EVEX（4 字节前缀）AVX-512 (2013/2017) - 上面带点的字母表示 - R 扩展寄存器位前缀包含反转形式的位 - X 扩展 SIB 字节中的索引 - 该图省略了转义字节 D8 至 DF - B 扩展了 SIB 字节中的基址 - EVEX 前缀有其他变化 - m 选择指令映射 (1: 0F | 2: 0F38 | 3: 0F3A | 5) 此处未显示编码 - W 扩展操作数大小 - VEX 指令 - v 编码附加源寄存器 - 旧指令 - p 编码强制前缀（0：无 | 1：66 | 2：F2 | 4：F3） - 条件 CMP/TEST - z 选择合并模式（0：零 | 1：合并） - Ŀ 选择向量长度（512 位）或舍入控制模式（带 L） - L 选择向量长度（256 位） - b 编码源广播或舍入控制（带 Ŀ 和 L）或异常抑制。
+
+
+🔤 Original: x86 prefixes and escape opcodes flowchart
+
+🔗 Read more: https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</description>
+      <guid isPermaLink="true">https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</guid>
+      <pubDate>Tue, 20 Jan 2026 03:47:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46687705</comments>
     </item>
     <item>
-      <title>扩展长时间运行的自主编码</title>
-      <link>https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/</link>
-      <description>📝 最近的文章 Anthropic 总代理 Claude Cowork 的第一印象 - 2026 年 1 月 12 日 我对我提出的关于使用法学硕士移植开源代码的问题的回答 - 2026 年 1 月 11 日 Fly 的新 Sprites。 dev 同时解决开发者沙箱和 API 沙箱问题 - 2026 年 1 月 9 日。
+      <title>在浏览器中显示 HN：人造常春藤</title>
+      <link>https://da.nmcardle.com/grow</link>
+      <description>📝 随着时间的推移，细胞反​​复决定是否生长和/或分裂。到了一定年龄后，细胞就会进入休眠状态。增加阈值意味着更多的细胞将处于活动状态。
 
 
-🔤 Original: Scaling long-running autonomous coding
+🔤 Original: Show HN: Artificial Ivy in the Browser
 
-🔗 Read more: https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/</description>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/</guid>
-      <pubDate>Tue, 20 Jan 2026 00:23:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46686418</comments>
+🔗 Read more: https://da.nmcardle.com/grow</description>
+      <guid isPermaLink="true">https://da.nmcardle.com/grow</guid>
+      <pubDate>Tue, 20 Jan 2026 03:14:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46687504</comments>
     </item>
     <item>
-      <title>拉丁美洲初创企业的法律结构（2021 年）</title>
-      <link>https://latamlist.com/legal-structures-for-latin-american-startups/</link>
-      <description>📝 大多数拉丁美洲初创公司应该遵循相当清晰的轮廓。在考虑公司结构时，您应该始终与律师和会计师合作。让我们从一个故事开始。
+      <title>X For You Feed 算法</title>
+      <link>https://github.com/xai-org/x-algorithm</link>
+      <description>📝 它将网络内内容（来自您关注的帐户）与网络外内容（通过基于 ML 的检索发现）结合起来，并使用基于 Grok 的转换器模型对所有内容进行排名。目录 概述 系统架构组件 主页 Mixer Thunder Phoenix 候选人管道 工作原理 管道阶段 评分和排名 过滤关键设计决策 许可证概述 For You 提要算法检索、排名和过滤来自两个来源的帖子： 网络内 (Thunder)：来自您关注帐户的帖子 网络外（Phoenix 检索）：从全球语料库中发现的帖子 使用 Phoenix（一种基于 Grok 的变压器模型，用于预测参与度）将两个来源组合在一起并进行排名每个帖子的概率。我们已经消除了系统中的每一个手工设计的功能和大多数启发式方法。
 
 
-🔤 Original: Legal Structures for Latin American Startups (2021)
+🔤 Original: X For You Feed Algorithm
 
-🔗 Read more: https://latamlist.com/legal-structures-for-latin-american-startups/</description>
-      <guid isPermaLink="true">https://latamlist.com/legal-structures-for-latin-american-startups/</guid>
-      <pubDate>Tue, 20 Jan 2026 01:21:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46686745</comments>
+🔗 Read more: https://github.com/xai-org/x-algorithm</description>
+      <guid isPermaLink="true">https://github.com/xai-org/x-algorithm</guid>
+      <pubDate>Tue, 20 Jan 2026 05:16:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688173</comments>
     </item>
     <item>
-      <title>Go 1.26 互动导览</title>
-      <link>https://antonz.org/go-1-26/</link>
-      <description>📝 type List[T any] struct {} // 就地反转切片。 func Reverse[T any](s []T) 我们可以通过使用类型约束来进一步限制这些类型参数:// 映射键必须具有可比较的类型。 ，输入 MySlice []int)。
+      <title>聊天机器人精神病</title>
+      <link>https://en.wikipedia.org/wiki/Chatbot_psychosis</link>
+      <description>📝 人工智能研究员 Eliezer Yudkowsky 认为，聊天机器人可能会产生错觉，因为它们是为“参与”而构建的，这鼓励创建让人们着迷的对话。 [5] 在某些情况下，聊天机器人的设计方式被发现是有害的。 [12] 2025年10月，OpenAI表示，大约为0。
 
 
-🔤 Original: Go 1.26 Interactive Tour
+🔤 Original: Chatbot Psychosis
 
-🔗 Read more: https://antonz.org/go-1-26/</description>
-      <guid isPermaLink="true">https://antonz.org/go-1-26/</guid>
-      <pubDate>Tue, 20 Jan 2026 01:58:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46686972</comments>
+🔗 Read more: https://en.wikipedia.org/wiki/Chatbot_psychosis</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Chatbot_psychosis</guid>
+      <pubDate>Tue, 20 Jan 2026 05:08:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688122</comments>
+    </item>
+    <item>
+      <title>有针对性的赌注：另一种求职方法</title>
+      <link>https://www.seanmuirhead.com/blog/targeted-bets</link>
+      <description>📝 发送多封电子邮件很重要。再次强调，发送多封电子邮件。求职之外的有针对性的投注有针对性的投注不仅仅适用于求职。
+
+
+🔤 Original: Targeted Bets: An alternative approach to the job hunt
+
+🔗 Read more: https://www.seanmuirhead.com/blog/targeted-bets</description>
+      <guid isPermaLink="true">https://www.seanmuirhead.com/blog/targeted-bets</guid>
+      <pubDate>Mon, 19 Jan 2026 21:35:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46684815</comments>
+    </item>
+    <item>
+      <title>我是前 0.01% Cursor 用户，然后切换到 Claude Code 2.0</title>
+      <link>https://blog.silennai.com/claude-code</link>
+      <description>📝 您已为 6-7 篇有关 Claude Code 的文章添加了书签。这是来自 2021 年以来一直在使用 AI 编码并阅读所有 Claude Code 指南的人编写的综合指南，因此您无需阅读。读完这篇文章后你就会站在正确的一边读完这篇文章后你就会站在正确的一边这是一本结合了以下内容的指南：我使用 AI 进行 5 年编码的经验我使用 Claude Code 的经验 10 多篇文章和无数的 X 帖子我整理了有关 Claude Code 的内容（参考文献在底部）我的设置高级提示在这篇文章之后，唯一的限制是您自己的想法。
+
+
+🔤 Original: I was a top 0.01% Cursor user, then switched to Claude Code 2.0
+
+🔗 Read more: https://blog.silennai.com/claude-code</description>
+      <guid isPermaLink="true">https://blog.silennai.com/claude-code</guid>
+      <pubDate>Mon, 19 Jan 2026 09:00:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46676554</comments>
     </item>
   </channel>
 </rss>
