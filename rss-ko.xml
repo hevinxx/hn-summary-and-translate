@@ -6,99 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 20 Jan 2026 06:38:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 09:34:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>3D 프린팅 내 노트북 ​​인체공학적 설정</title>
-      <link>https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</link>
-      <description>📝 왜 더 많은 변화를 주어야 할까요? 이 설정을 더 많이 변경하는 이유는 무엇입니까? 이 설정의 가장 큰 장점은 매우 가볍다는 것입니다.
+      <title>Shadcn 라디오 버튼의 복잡성</title>
+      <link>https://paulmakeswebsites.com/writing/shadcn-radio-button/</link>
+      <description>📝 바로 라디오 버튼이죠. 라디오 버튼은 내장된 HTML 요소입니다. Radix 입력 Shadcn 구성 요소는 Radix라는 다른 라이브러리에서 구성 요소를 가져옵니다.
 
 
-🔤 Original: 3D printing my laptop ergonomic setup
+🔤 Original: The Overcomplexity of the Shadcn Radio Button
 
-🔗 Read more: https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</description>
-      <guid isPermaLink="true">https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</guid>
-      <pubDate>Mon, 19 Jan 2026 23:39:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46686131</comments>
+🔗 Read more: https://paulmakeswebsites.com/writing/shadcn-radio-button/</description>
+      <guid isPermaLink="true">https://paulmakeswebsites.com/writing/shadcn-radio-button/</guid>
+      <pubDate>Tue, 20 Jan 2026 07:35:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688971</comments>
     </item>
     <item>
-      <title>x86 접두사 및 이스케이프 opcode 순서도</title>
-      <link>https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</link>
-      <description>📝 2025년 4월 27일에 마지막 업데이트됨 여기에서 시작 | v ╔뚜껑 ║ 2바이트 명령어(레거시 맵 1) ║ ║ 1바이트 명령어(레거시 맵 0) │0F-------------&gt;║ ║ ║ └──╢ ║ 피연산자 유형 지정 ┌──┐ ┌──┐ ║ ╟───────────────────────────────────────────────╢. -------&gt;║ 필수 접두사를 통해 │38│ │3A---------------. ) - W 피연산자 크기 확장 - M은 레거시 맵 0 또는 레거시 맵 1 선택 - R은 레지스터 비트 확장 - R은 레지스터 비트 확장 - X는 SIB 바이트에서 인덱스 확장 - X는 SIB 바이트에서 인덱스 확장 - B는 SIB 바이트에서 베이스 확장 - B는 SIB 바이트에서 베이스 확장 - W는 피연산자 크기 확장 ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓ ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯┯━┯━┯━┓ ┃1 1 0 0 0 1 0 1┃Ṙ ⩒ ⩒ ⩒ ⩒ L p p┃ ┃1 1 0 0 0 1 0 0┃Ṙ Ẋ Ḃ m m mm m m┃W ⩒ ⩒ ⩒ ⩒ L p p┃ ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ VEX(2바이트 접두어) AVX (2008/2011) VEX(3바이트 접두사) AVX(2008/2011) - R은 레지스터 비트를 확장합니다. - R은 레지스터 비트를 확장합니다. - v는 추가 소스 레지스터를 인코딩합니다. - X는 SIB 바이트에서 인덱스를 확장합니다. - L은 벡터 길이를 선택합니다(0: 128비트 | 1: 256비트) - B는 SIB 바이트에서 기본을 확장합니다. - p는 필수 접두사를 인코딩합니다. - m은 명령어 맵을 선택합니다(1: 0F | 2: 0F38 | 3: 0F3A) (0: 없음 | 1: 66 | 2: F2 | 3: F3) - W는 피연산자 크기 확장 - 명령어 맵 0F(레거시 맵 1) 암시 - v는 추가 소스 레지스터를 인코딩합니다. - L은 벡터 길이를 선택합니다(0: 128비트, 1: 256비트) - p는 필수 접두사를 인코딩합니다(0: 없음 | 1: 66 | 2: F2 |3: F3) ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━ ┳━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓ 참고: ┃0 1 1 0 0 0 1 0┃Ṙ Ẋ Ḃ Ṙ B m m m┃W ⩒ ⩒ ⩒ ⩒ Ẋ p p┃z Ŀ L b ⩒ a a a┃ - 명령어 세트 확장 후 년 ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━ ┻━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ EVEX(4바이트 접두사) AVX-512(2013/2017) - 위에 점이 있는 문자는 - R 확장 레지스터 비트 접두사가 반전된 형식의 비트를 포함함을 나타냅니다. - X는 SIB 바이트의 인덱스 확장 - 다이어그램에서는 이스케이프 바이트를 D8에서 DF까지 제거합니다. - B는 SIB 바이트에서 베이스를 확장합니다. - EVEX 접두사는 추가 변형이 있습니다. - m은 명령어 맵을 선택합니다(1: 0F | 2: 0F38 | 3: 0F3A | 4 | 5 | 6) 인코딩에 대해 여기에 표시되지 않음 - VEX 명령어 - v는 추가 소스 레지스터를 인코딩 - 레거시 명령어 - p는 필수 접두사를 인코딩(0: 없음 | 1: 66 | 2: F2 | 3: F3) - z는 병합 모드 선택(0: 0 | 1: 병합) (512비트) 또는 반올림 제어 모드(L 사용) - L은 벡터 길이(256비트)를 선택합니다. - b는 소스 브로드캐스트 또는 반올림 제어(Ŀ 및 L 사용) 또는 예외 억제를 인코딩합니다.
+      <title>챗봇 시대의 대학 시험 제공</title>
+      <link>https://ploum.net/2026-01-19-exam-with-chatbots.html</link>
+      <description>📝 이 마지막 규칙은 정말 대단합니다. 하지만 챗봇은 어떨까요? 대부분의 학생들은 챗봇 사용을 원하지 않습니다. 올해 1월에는 60명의 학생을 보았습니다.
 
 
-🔤 Original: x86 prefixes and escape opcodes flowchart
+🔤 Original: Giving University Exams in the Age of Chatbots
 
-🔗 Read more: https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</description>
-      <guid isPermaLink="true">https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</guid>
-      <pubDate>Tue, 20 Jan 2026 03:47:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687705</comments>
+🔗 Read more: https://ploum.net/2026-01-19-exam-with-chatbots.html</description>
+      <guid isPermaLink="true">https://ploum.net/2026-01-19-exam-with-chatbots.html</guid>
+      <pubDate>Tue, 20 Jan 2026 07:32:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688954</comments>
     </item>
     <item>
-      <title>HN 표시: 브라우저의 인공 아이비</title>
-      <link>https://da.nmcardle.com/grow</link>
-      <description>📝 시간이 지남에 따라 세포는 성장 및/또는 분할 여부를 반복적으로 결정합니다. 특정 연령이 지나면 세포는 휴면 상태가 됩니다. 임계값을 높이면 더 많은 셀이 활성화됩니다.
+      <title>폴란드 크라쿠프, 전 세계 최악의 대기질 상위 5위</title>
+      <link>https://www.iqair.com/world-air-quality-ranking</link>
+      <description>📝 팔로워 2천명11쿠웨이트 쿠웨이트시153130만명 팔로워12폴란드 바르샤바152626명 팔로워 9K57멕시코시티69515. 팔로워 3K88미국 솔트레이크시티44179.
 
 
-🔤 Original: Show HN: Artificial Ivy in the Browser
+🔤 Original: Kraków, Poland in top 5 worst air quality worldwide
 
-🔗 Read more: https://da.nmcardle.com/grow</description>
-      <guid isPermaLink="true">https://da.nmcardle.com/grow</guid>
-      <pubDate>Tue, 20 Jan 2026 03:14:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687504</comments>
+🔗 Read more: https://www.iqair.com/world-air-quality-ranking</description>
+      <guid isPermaLink="true">https://www.iqair.com/world-air-quality-ranking</guid>
+      <pubDate>Tue, 20 Jan 2026 08:16:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689204</comments>
     </item>
     <item>
-      <title>X For You 피드 알고리즘</title>
-      <link>https://github.com/xai-org/x-algorithm</link>
-      <description>📝 이는 네트워크 내 콘텐츠(팔로잉 계정의)와 네트워크 외부 콘텐츠(ML 기반 검색을 통해 검색됨)를 결합하고 Grok 기반 변환기 모델을 사용하여 모든 항목의 순위를 매깁니다. 목차 개요 시스템 아키텍처 구성 요소 홈 믹서 Thunder Phoenix 후보 파이프라인 작동 방식 파이프라인 단계 점수 매기기 및 순위 지정 필터링 주요 디자인 결정 라이센스 개요 For You 피드 알고리즘은 두 가지 소스에서 게시물을 검색하고 순위를 매기고 필터링합니다. 네트워크 내(Thunder): 팔로우하는 계정의 게시물 네트워크 외부(Phoenix 검색): 글로벌 코퍼스에서 검색된 게시물 두 소스 모두 참여를 예측하는 Grok 기반 변환기 모델인 Phoenix를 사용하여 결합되고 순위가 지정됩니다. 각 게시물의 확률. 우리는 시스템에서 모든 단일 엔지니어링 기능과 대부분의 경험적 방법을 제거했습니다.
+      <title>미국은 천천히 폴리마켓 재난에 빠져들고 있다</title>
+      <link>https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</link>
+      <description>📝 올해 예수님은 다시 오실 것입니다. 이스라엘은 내일 가자지구를 공격할 것인가? 지난주 MoviePass는 베팅 플랫폼 테스트를 시작할 것이라고 발표했습니다.
 
 
-🔤 Original: X For You Feed Algorithm
+🔤 Original: America Is Slow-Walking into a Polymarket Disaster
 
-🔗 Read more: https://github.com/xai-org/x-algorithm</description>
-      <guid isPermaLink="true">https://github.com/xai-org/x-algorithm</guid>
-      <pubDate>Tue, 20 Jan 2026 05:16:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46688173</comments>
+🔗 Read more: https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</description>
+      <guid isPermaLink="true">https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</guid>
+      <pubDate>Tue, 20 Jan 2026 08:05:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689143</comments>
     </item>
     <item>
-      <title>챗봇 정신병</title>
-      <link>https://en.wikipedia.org/wiki/Chatbot_psychosis</link>
-      <description>📝 AI 연구원인 Eliezer Yudkowsky는 챗봇이 사람들을 사로잡는 대화를 생성하도록 장려하는 "참여"를 위해 만들어졌기 때문에 망상을 즐겁게 할 준비가 되어 있을 수 있다고 제안했습니다. [5] 어떤 경우에는 챗봇이 유해한 것으로 밝혀진 방식으로 특별히 설계되었습니다. [12] 2025년 10월 OpenAI는 약 0.0이라고 밝혔습니다.
+      <title>사용자 공간의 PCIe 장치 에뮬레이션을 위한 Linux 커널 프레임워크</title>
+      <link>https://github.com/cakehonolulu/pciem</link>
+      <description>📝 사용자 공간 전체에서 합성 PCIe 장치 에뮬레이션을 위한 Linux 커널 프레임워크입니다. io/introducing-pciem/ https://cakehonolulu. io/docs/pciem/ PCIem이 무엇인가요?
 
 
-🔤 Original: Chatbot Psychosis
+🔤 Original: Linux kernel framework for PCIe device emulation, in userspace
 
-🔗 Read more: https://en.wikipedia.org/wiki/Chatbot_psychosis</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Chatbot_psychosis</guid>
-      <pubDate>Tue, 20 Jan 2026 05:08:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46688122</comments>
-    </item>
-    <item>
-      <title>타겟 베팅: 구직에 대한 대안적 접근 방식</title>
-      <link>https://www.seanmuirhead.com/blog/targeted-bets</link>
-      <description>📝 하나 이상의 이메일을 보내는 것이 중요합니다. 다시 한 번 이메일을 두 개 이상 보내세요. 구직 이외의 타겟 베팅 타겟 베팅은 구직 활동 그 이상에 적용됩니다.
-
-
-🔤 Original: Targeted Bets: An alternative approach to the job hunt
-
-🔗 Read more: https://www.seanmuirhead.com/blog/targeted-bets</description>
-      <guid isPermaLink="true">https://www.seanmuirhead.com/blog/targeted-bets</guid>
-      <pubDate>Mon, 19 Jan 2026 21:35:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46684815</comments>
-    </item>
-    <item>
-      <title>저는 상위 0.01% 커서 사용자였지만 Claude Code 2.0으로 전환했습니다.</title>
-      <link>https://blog.silennai.com/claude-code</link>
-      <description>📝 Claude Code에 관한 기사가 6-7개 북마크되어 있습니다. 다음은 2021년부터 코딩 AI를 사용해 온 누군가가 제공하는 포괄적인 가이드입니다. Claude Code 가이드를 모두 읽어보세요. 이 글을 읽고 나면 오른쪽에 있을 것입니다. 이 글을 읽고 나면 오른쪽에 있을 것입니다. 이 가이드는 다음을 결합한 가이드입니다. 5년간의 AI 코딩 경험 Claude Code에 대한 나의 경험 10개 이상의 기사와 Claude Code에 대해 통합한 셀 수 없이 많은 X 게시물(하단 참조)내 설정 고급 팁 이 기사 이후에는 자신의 아이디어가 유일한 한계입니다.
-
-
-🔤 Original: I was a top 0.01% Cursor user, then switched to Claude Code 2.0
-
-🔗 Read more: https://blog.silennai.com/claude-code</description>
-      <guid isPermaLink="true">https://blog.silennai.com/claude-code</guid>
-      <pubDate>Mon, 19 Jan 2026 09:00:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46676554</comments>
+🔗 Read more: https://github.com/cakehonolulu/pciem</description>
+      <guid isPermaLink="true">https://github.com/cakehonolulu/pciem</guid>
+      <pubDate>Tue, 20 Jan 2026 07:51:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689065</comments>
     </item>
   </channel>
 </rss>

@@ -6,99 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Jan 2026 06:38:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 09:34:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ラップトップの人間工学に基づいたセットアップを 3D プリントする</title>
-      <link>https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</link>
-      <description>📝 さらに変更を加える理由。この設定にさらに変更を加えているのはなぜですか。このセットアップの大きな利点は、非常に軽いことです。
+      <title>Shadcn ラジオ ボタンの複雑すぎる</title>
+      <link>https://paulmakeswebsites.com/writing/shadcn-radio-button/</link>
+      <description>📝 それはただのラジオボタンです。ラジオ ボタンは組み込みの HTML 要素です。 Radix の入力 Shadcn コンポーネントは、Radix という別のライブラリからコンポーネントをインポートします。
 
 
-🔤 Original: 3D printing my laptop ergonomic setup
+🔤 Original: The Overcomplexity of the Shadcn Radio Button
 
-🔗 Read more: https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</description>
-      <guid isPermaLink="true">https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</guid>
-      <pubDate>Mon, 19 Jan 2026 23:39:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46686131</comments>
+🔗 Read more: https://paulmakeswebsites.com/writing/shadcn-radio-button/</description>
+      <guid isPermaLink="true">https://paulmakeswebsites.com/writing/shadcn-radio-button/</guid>
+      <pubDate>Tue, 20 Jan 2026 07:35:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688971</comments>
     </item>
     <item>
-      <title>x86 プレフィックスとエスケープ オペコードのフローチャート</title>
-      <link>https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</link>
-      <description>📝 最終更新日: 2025 年 4 月 27 日 ここから開始 | v ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ ═============================= ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ ═=============================== ║ 2 バイト命令 (レガシー マップ 1) ║ ║ 1 バイト命令 (レガシー マップ 0) │0F-------------&gt;║ ║ ║ └──╢ ║ オペランド タイプが指定されました ┌──┐ ┌──┐ ║ ╟──────────╢ ╢。 -------&gt;║ 必須の接頭辞経由 │38│ │3A--------------。 ) - W はオペランド サイズを拡張します - M はレガシー マップ 0 またはレガシー マップ 1 を選択します - R はレジスタ ビットを拡張します - R はレジスタ ビットを拡張します - X は SIB バイトのインデックスを拡張します - X は SIB バイトのインデックスを拡張します - B は SIB バイトのベースを拡張します - B は SIB バイトのベースを拡張します - W はオペランド サイズを拡張します┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓ ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓ ┃1 1 0 0 0 1 0 1 ┃Ṙ ⩒ ⩒ ⩒ ⩒ L p p ┃ ┃1 1 0 0 0 1 0 0 ┃Ṙ Ẋ Ḃ m m m m ┃W ⩒ ⩒ ⩒ ⩒ L p p ┃ ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ VEX（2バイト接頭語） AVX (2008/2011) VEX (3 バイト プレフィックス) AVX (2008/2011) - R はレジスタ ビットを拡張 - R はレジスタ ビットを拡張 - v 追加のソース レジスタをエンコード - X は SIB バイトのインデックスを拡張 - L はベクトル長を選択 (0: 128 ビット | 1: 256 ビット) - B は SIB バイトでベースを拡張 - p は必須のプレフィックスをエンコード - m は命令マップを選択(1: 0F | 2: 0F38 | 3: 0F3A) (0: なし | 1: 66 | 2: F2 | 3: F3) - W はオペランド サイズを拡張します - 命令マップ 0F (レガシー マップ 1) が暗黙的に示されます - v 追加のソース レジスタをエンコードします - L はベクトル長を選択します (0: 128 ビット、1: 256 ビット) - p は必須のプレフィックスをエンコードします (0: なし | 1: 66 | 2: F2 | 3: F3) 1:66 | 2:F2 | 3:F3) ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━ ┳━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓注: ┃0 1 1 0 0 0 1 0┃Ṙ Ẋ Ḃ Ṙ B m m m┃W ⩒ ⩒ ⩒ ⩒ Ẋ p p┃z Ŀ L b ⩒ a a a┃ - 命令セット拡張から数年後┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━ ┻━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛最初に発表/出荷された時期を示します EVEX (4 バイトのプレフィックス) AVX-512 (2013/2017) - 上のドットが付いた文字は、 - R はレジスタ ビットのプレフィックスを拡張し、反転形式のビットが含まれることを示します - X は SIB バイトのインデックスを拡張します - 図ではエスケープ バイト D8 から DF が省略されています - B は SIB バイトのベースを拡張します - EVEX プレフィックスには追加のバリエーションがあります - m が選択されます命令マップ (1: 0F | 2: 0F38 | 3: 0F3A | 4 | 5 | 6) はここではエンコード用に示されていません - W はオペランド サイズを拡張します - VEX 命令 - v 追加のソース レジスタをエンコードします - レガシー命令 - p 必須のプレフィックスをエンコードします (0: なし | 1: 66 | 2: F2 | 3: F3) - 条件付き CMP/TEST - z マージ モードを選択します (0: ゼロ | 2: 0F38 | 3: 0F3A | 4 | 5 | 6) 1: マージ) - Ŀ はベクトル長 (512 ビット) または丸め制御モード (L を使用) を選択します。 - L はベクトル長 (256 ビット) を選択します。 - b はソース ブロードキャストまたは丸め制御 (Ŀ と L を使用) または例外抑制をエンコードします。
+      <title>チャットボット時代の大学試験</title>
+      <link>https://ploum.net/2026-01-19-exam-with-chatbots.html</link>
+      <description>📝 この最後のルールは素晴らしいですね。しかし、チャットボットはどうでしょうか。ほとんどの学生はチャットボットの使用を望んでいません 今年 1 月、私は 60 人の学生を見ました。
 
 
-🔤 Original: x86 prefixes and escape opcodes flowchart
+🔤 Original: Giving University Exams in the Age of Chatbots
 
-🔗 Read more: https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</description>
-      <guid isPermaLink="true">https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</guid>
-      <pubDate>Tue, 20 Jan 2026 03:47:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687705</comments>
+🔗 Read more: https://ploum.net/2026-01-19-exam-with-chatbots.html</description>
+      <guid isPermaLink="true">https://ploum.net/2026-01-19-exam-with-chatbots.html</guid>
+      <pubDate>Tue, 20 Jan 2026 07:32:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688954</comments>
     </item>
     <item>
-      <title>HN: 人工アイビーをブラウザに表示</title>
-      <link>https://da.nmcardle.com/grow</link>
-      <description>📝 時間の経過とともに、細胞は成長するか分裂するか、あるいはその両方かどうかを繰り返し決定します。一定の年齢を過ぎると、細胞は休眠状態になります。しきい値を増やすと、より多くのセルがアクティブになることを意味します。
+      <title>ポーランドのクラクフ、世界で最悪の大気質トップ5</title>
+      <link>https://www.iqair.com/world-air-quality-ranking</link>
+      <description>📝 2,000 人のフォロワー 11 人クウェート、クウェート シティ 153,130 人のフォロワー 12 人ポーランド、ワルシャワ 152,626 人フォロワー 9,000 人 57 人、メキシコ、メキシコシティ 69,515 人。フォロワー 3K 人 88 人、米国ソルトレイクシティ 44179 人。
 
 
-🔤 Original: Show HN: Artificial Ivy in the Browser
+🔤 Original: Kraków, Poland in top 5 worst air quality worldwide
 
-🔗 Read more: https://da.nmcardle.com/grow</description>
-      <guid isPermaLink="true">https://da.nmcardle.com/grow</guid>
-      <pubDate>Tue, 20 Jan 2026 03:14:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687504</comments>
+🔗 Read more: https://www.iqair.com/world-air-quality-ranking</description>
+      <guid isPermaLink="true">https://www.iqair.com/world-air-quality-ranking</guid>
+      <pubDate>Tue, 20 Jan 2026 08:16:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689204</comments>
     </item>
     <item>
-      <title>X For You フィード アルゴリズム</title>
-      <link>https://github.com/xai-org/x-algorithm</link>
-      <description>📝 これは、ネットワーク内のコンテンツ (フォローしているアカウントからの) とネットワーク外のコンテンツ (ML ベースの検索によって検出された) を組み合わせ、Grok ベースのトランスフォーマー モデルを使用してすべてをランク付けします。目次 概要 システム アーキテクチャ コンポーネント ホーム ミキサー Thunder Phoenix 候補パイプライン 仕組み パイプライン ステージ スコアリングとランキング フィルタリング 主な設計上の決定事項 ライセンスの概要 For You フィード アルゴリズムは、次の 2 つのソースから投稿を取得、ランク付け、フィルタリングします。 ネットワーク内 (Thunder): フォローしているアカウントからの投稿 ネットワーク外 (Phoenix 取得): グローバル コーパスから検出された投稿 両方のソースは、以下を使用して結合され、ランク付けされます。 Phoenix は、各投稿のエンゲージメント確率を予測する Grok ベースのトランスフォーマー モデルです。私たちは、手作業で設計されたすべての機能とほとんどのヒューリスティックをシステムから排除しました。
+      <title>アメリカはポリマーケットの惨状にゆっくりと歩みを進めている</title>
+      <link>https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</link>
+      <description>📝 イエスは今年戻ってくるでしょうか。イスラエルは明日ガザを攻撃するだろうか。先週、MoviePassは賭博プラットフォームのテストを開始すると発表した。
 
 
-🔤 Original: X For You Feed Algorithm
+🔤 Original: America Is Slow-Walking into a Polymarket Disaster
 
-🔗 Read more: https://github.com/xai-org/x-algorithm</description>
-      <guid isPermaLink="true">https://github.com/xai-org/x-algorithm</guid>
-      <pubDate>Tue, 20 Jan 2026 05:16:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46688173</comments>
+🔗 Read more: https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</description>
+      <guid isPermaLink="true">https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</guid>
+      <pubDate>Tue, 20 Jan 2026 08:05:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689143</comments>
     </item>
     <item>
-      <title>チャットボット精神病</title>
-      <link>https://en.wikipedia.org/wiki/Chatbot_psychosis</link>
-      <description>📝 AI研究者のエリーザー・ユドコウスキー氏は、チャットボットは人々を夢中にさせる会話の創出を促す「エンゲージメント」を目的として作られているため、チャットボットは妄想を楽しむように仕向けられている可能性があると示唆した。 [5] 場合によっては、チャットボットは有害であることが判明した方法で特別に設計されています。 [12] OpenAI は 2025 年 10 月に約 0 であると述べました。
+      <title>ユーザー空間での PCIe デバイス エミュレーション用の Linux カーネル フレームワーク</title>
+      <link>https://github.com/cakehonolulu/pciem</link>
+      <description>📝 ユーザー空間内で完全に合成 PCIe デバイス エミュレーションを行うための Linux カーネル フレームワーク。 io/introducing-pciem/ https://cakehonolulu. io/docs/pciem/ PCIem とは何ですか。
 
 
-🔤 Original: Chatbot Psychosis
+🔤 Original: Linux kernel framework for PCIe device emulation, in userspace
 
-🔗 Read more: https://en.wikipedia.org/wiki/Chatbot_psychosis</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Chatbot_psychosis</guid>
-      <pubDate>Tue, 20 Jan 2026 05:08:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46688122</comments>
-    </item>
-    <item>
-      <title>ターゲットを絞った賭け: 就職活動への別のアプローチ</title>
-      <link>https://www.seanmuirhead.com/blog/targeted-bets</link>
-      <description>📝 複数のメールを送信することが重要です。繰り返しますが、複数のメールを送信します。就職活動を超えたターゲットを絞ったベットターゲットを絞ったベットは、就職活動以外にも適用されます。
-
-
-🔤 Original: Targeted Bets: An alternative approach to the job hunt
-
-🔗 Read more: https://www.seanmuirhead.com/blog/targeted-bets</description>
-      <guid isPermaLink="true">https://www.seanmuirhead.com/blog/targeted-bets</guid>
-      <pubDate>Mon, 19 Jan 2026 21:35:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46684815</comments>
-    </item>
-    <item>
-      <title>私は上位 0.01% Cursor ユーザーでしたが、その後 Claude Code 2.0 に切り替えました。</title>
-      <link>https://blog.silennai.com/claude-code</link>
-      <description>📝 クロード・コードに関する記事が 6 ～ 7 件ブックマークされています。これは、2021 年からコーディング AI を使用しており、Claude Code ガイドをすべて読んでいる人による包括的なガイドです。そうする必要はありません。これを読んだ後は正しい方向に進みますこれを読んだ後は正しい方向に進みますこれは以下を組み合わせたガイドです: AI を使用した 5 年間のコーディングからの私の経験 Claude Code に関する私の経験 10 以上の記事と無数の X の投稿 Claude Code について統合しました (参照は下部にあります) 私のセットアップ高度なヒント この記事の後には、独自のアイデアを使用することが唯一の制限です。
-
-
-🔤 Original: I was a top 0.01% Cursor user, then switched to Claude Code 2.0
-
-🔗 Read more: https://blog.silennai.com/claude-code</description>
-      <guid isPermaLink="true">https://blog.silennai.com/claude-code</guid>
-      <pubDate>Mon, 19 Jan 2026 09:00:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46676554</comments>
+🔗 Read more: https://github.com/cakehonolulu/pciem</description>
+      <guid isPermaLink="true">https://github.com/cakehonolulu/pciem</guid>
+      <pubDate>Tue, 20 Jan 2026 07:51:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689065</comments>
     </item>
   </channel>
 </rss>

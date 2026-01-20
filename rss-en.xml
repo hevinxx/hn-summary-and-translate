@@ -6,78 +6,58 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Jan 2026 06:38:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 09:34:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>3D printing my laptop ergonomic setup</title>
-      <link>https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</link>
-      <description>📝 Why make more changes. Why am making I yet more changes to this setup. The big benefit of this setup was that it was extremely light.
+      <title>The Overcomplexity of the Shadcn Radio Button</title>
+      <link>https://paulmakeswebsites.com/writing/shadcn-radio-button/</link>
+      <description>📝 It's just a radio button right. Radio buttons are a built-in HTML element. Enter Radix The Shadcn components import components from another library called Radix.
 
-🔗 Read more: https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</description>
-      <guid isPermaLink="true">https://www.ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</guid>
-      <pubDate>Mon, 19 Jan 2026 23:39:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46686131</comments>
+🔗 Read more: https://paulmakeswebsites.com/writing/shadcn-radio-button/</description>
+      <guid isPermaLink="true">https://paulmakeswebsites.com/writing/shadcn-radio-button/</guid>
+      <pubDate>Tue, 20 Jan 2026 07:35:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688971</comments>
     </item>
     <item>
-      <title>x86 prefixes and escape opcodes flowchart</title>
-      <link>https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</link>
-      <description>📝 Last updated on 2025-04-27 start here | v ╔══════════════════════════════════════════════════╗ ╔═══════════════════════════════════════════════╤══╗ ║ 2-byte instructions (legacy map 1) ║ ║ 1-byte instructions (legacy map 0) │0F-------------&gt;║ ║ ║ └──╢ ║ operand type specified ┌──┐ ┌──┐ ║ ╟──────────────────────────────────────────────────╢. -------&gt;║ via mandatory prefixes │38│ │3A--------------. ) - W extends operand size - M selects legacy map 0 or legacy map 1 - R extends register bits - R extends register bits - X extends index in SIB byte - X extends index in SIB byte - B extends base in SIB byte - B extends base in SIB byte - W extends operand size ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓ ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓ ┃1 1 0 0 0 1 0 1┃Ṙ ⩒ ⩒ ⩒ ⩒ L p p┃ ┃1 1 0 0 0 1 0 0┃Ṙ Ẋ Ḃ m m m m m┃W ⩒ ⩒ ⩒ ⩒ L p p┃ ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ VEX (2-byte prefix) AVX (2008/2011) VEX (3-byte prefix) AVX (2008/2011) - R extends register bits - R extends register bits - v encodes additional source register - X extends index in SIB byte - L selects vector length (0: 128bit | 1: 256bit) - B extends base in SIB byte - p encodes mandatory prefixes - m selects instruction map (1: 0F | 2: 0F38 | 3: 0F3A) (0: none | 1: 66 | 2: F2 | 3: F3) - W extends operand size - instruction map 0F (legacy map 1) implied - v encodes additional source register - L selects vector length (0: 128bit, 1: 256bit) - p encodes mandatory prefixes (0: none | 1: 66 | 2: F2 | 3: F3) ┏━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┳━┯━┯━┯━┯━┯━┯━┯━┓ Notes: ┃0 1 1 0 0 0 1 0┃Ṙ Ẋ Ḃ Ṙ B m m m┃W ⩒ ⩒ ⩒ ⩒ Ẋ p p┃z Ŀ L b ⩒ a a a┃ - years after the instruction set extension ┗━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┻━┷━┷━┷━┷━┷━┷━┷━┛ denote when it was first announced/shipped EVEX (4-byte prefix) AVX-512 (2013/2017) - letters with a dot above denote that the - R extends register bits prefix contains the bit in inverted form - X extends index in SIB byte - the diagram elides escape bytes D8 til DF - B extends base in SIB byte - the EVEX prefix has additional variations - m selects instruction map (1: 0F | 2: 0F38 | 3: 0F3A | 4 | 5 | 6) not shown here for encoding - W extends operand size - VEX instructions - v encodes additional source register - legacy instructions - p encodes mandatory prefixes (0: none | 1: 66 | 2: F2 | 3: F3) - conditional CMP/TEST - z selects merge mode (0: zero | 1: merge) - Ŀ selects vector length (512bit) or rounding control mode (with L) - L selects vector length (256bit) - b encodes source broadcast or rounding control (with Ŀ and L) or exception suppression.
+      <title>Giving University Exams in the Age of Chatbots</title>
+      <link>https://ploum.net/2026-01-19-exam-with-chatbots.html</link>
+      <description>📝 This last rule is awesome. But what about chatbots. Most Students Don’t Want to Use Chatbots This January, I saw 60 students.
 
-🔗 Read more: https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</description>
-      <guid isPermaLink="true">https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart.html</guid>
-      <pubDate>Tue, 20 Jan 2026 03:47:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687705</comments>
+🔗 Read more: https://ploum.net/2026-01-19-exam-with-chatbots.html</description>
+      <guid isPermaLink="true">https://ploum.net/2026-01-19-exam-with-chatbots.html</guid>
+      <pubDate>Tue, 20 Jan 2026 07:32:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46688954</comments>
     </item>
     <item>
-      <title>Show HN: Artificial Ivy in the Browser</title>
-      <link>https://da.nmcardle.com/grow</link>
-      <description>📝 Over time, cells repeatedly decide whether to grow and/or split. After a certain age, cells become dormant. Increasing the threshold means more cells will be active.
+      <title>Kraków, Poland in top 5 worst air quality worldwide</title>
+      <link>https://www.iqair.com/world-air-quality-ranking</link>
+      <description>📝 2K followers11Kuwait City, Kuwait153130K followers12Warsaw, Poland152626. 9K followers57Mexico City, Mexico69515. 3K followers88Salt Lake City, USA44179.
 
-🔗 Read more: https://da.nmcardle.com/grow</description>
-      <guid isPermaLink="true">https://da.nmcardle.com/grow</guid>
-      <pubDate>Tue, 20 Jan 2026 03:14:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687504</comments>
+🔗 Read more: https://www.iqair.com/world-air-quality-ranking</description>
+      <guid isPermaLink="true">https://www.iqair.com/world-air-quality-ranking</guid>
+      <pubDate>Tue, 20 Jan 2026 08:16:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689204</comments>
     </item>
     <item>
-      <title>X For You Feed Algorithm</title>
-      <link>https://github.com/xai-org/x-algorithm</link>
-      <description>📝 It combines in-network content (from accounts you follow) with out-of-network content (discovered through ML-based retrieval) and ranks everything using a Grok-based transformer model. Table of Contents Overview System Architecture Components Home Mixer Thunder Phoenix Candidate Pipeline How It Works Pipeline Stages Scoring and Ranking Filtering Key Design Decisions License Overview The For You feed algorithm retrieves, ranks, and filters posts from two sources: In-Network (Thunder): Posts from accounts you follow Out-of-Network (Phoenix Retrieval): Posts discovered from a global corpus Both sources are combined and ranked together using Phoenix, a Grok-based transformer model that predicts engagement probabilities for each post. We have eliminated every single hand-engineered feature and most heuristics from the system.
+      <title>America Is Slow-Walking into a Polymarket Disaster</title>
+      <link>https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</link>
+      <description>📝 Will Jesus return this year. Will Israel strike Gaza tomorrow. Last week, MoviePass announced that it will begin testing a betting platform.
 
-🔗 Read more: https://github.com/xai-org/x-algorithm</description>
-      <guid isPermaLink="true">https://github.com/xai-org/x-algorithm</guid>
-      <pubDate>Tue, 20 Jan 2026 05:16:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46688173</comments>
+🔗 Read more: https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</description>
+      <guid isPermaLink="true">https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/</guid>
+      <pubDate>Tue, 20 Jan 2026 08:05:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689143</comments>
     </item>
     <item>
-      <title>Chatbot Psychosis</title>
-      <link>https://en.wikipedia.org/wiki/Chatbot_psychosis</link>
-      <description>📝 AI researcher Eliezer Yudkowsky suggested that chatbots may be primed to entertain delusions because they are built for "engagement", which encourages creating conversations that keep people hooked. [5] In some cases, chatbots have been specifically designed in ways that were found to be harmful. [12] In October 2025, OpenAI stated that around 0.
+      <title>Linux kernel framework for PCIe device emulation, in userspace</title>
+      <link>https://github.com/cakehonolulu/pciem</link>
+      <description>📝 A Linux kernel framework for synthetic PCIe device emulation entirely in userspace. io/introducing-pciem/ https://cakehonolulu. io/docs/pciem/ What is PCIem.
 
-🔗 Read more: https://en.wikipedia.org/wiki/Chatbot_psychosis</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Chatbot_psychosis</guid>
-      <pubDate>Tue, 20 Jan 2026 05:08:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46688122</comments>
-    </item>
-    <item>
-      <title>Targeted Bets: An alternative approach to the job hunt</title>
-      <link>https://www.seanmuirhead.com/blog/targeted-bets</link>
-      <description>📝 It is important that you send more than one email. Again, send more than one email. Targeted bets beyond job searchesTargeted bets apply to more than just the job search.
-
-🔗 Read more: https://www.seanmuirhead.com/blog/targeted-bets</description>
-      <guid isPermaLink="true">https://www.seanmuirhead.com/blog/targeted-bets</guid>
-      <pubDate>Mon, 19 Jan 2026 21:35:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46684815</comments>
-    </item>
-    <item>
-      <title>I was a top 0.01% Cursor user, then switched to Claude Code 2.0</title>
-      <link>https://blog.silennai.com/claude-code</link>
-      <description>📝 You have 6-7 articles bookmarked about Claude Code. Here's a comprehensive guide from someone who's been using coding AI since 2021 and read all those Claude Code guides so you don't have to. You'll be on the right side after reading thisYou'll be on the right side after reading thisThis is a guide that combines:my experience from 5 years of coding with AImy experience with Claude Code10+ articles and countless X posts I consolidated about Claude Code (references at the bottom)my setupadvanced tipsAfter this article, the only limit to be your own ideas.
-
-🔗 Read more: https://blog.silennai.com/claude-code</description>
-      <guid isPermaLink="true">https://blog.silennai.com/claude-code</guid>
-      <pubDate>Mon, 19 Jan 2026 09:00:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46676554</comments>
+🔗 Read more: https://github.com/cakehonolulu/pciem</description>
+      <guid isPermaLink="true">https://github.com/cakehonolulu/pciem</guid>
+      <pubDate>Tue, 20 Jan 2026 07:51:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46689065</comments>
     </item>
   </channel>
 </rss>
