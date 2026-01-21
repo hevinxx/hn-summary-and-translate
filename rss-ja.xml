@@ -6,204 +6,100 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Jan 2026 01:50:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 04:08:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Claude Chill: ターミナルでの Claude Code のちらつきを修正</title>
-      <link>https://github.com/davidbeesley/claude-chill</link>
-      <description>📝 claude-chill VT ベースのレンダリングを使用して、Claude Code の大規模なターミナル更新を制御する PTY プロキシ。問題のクロード コードは、同期出力を使用して端末をアトミックに更新します。ソリューション claude-chill は端末とクロード コードの間にあります。 同期ブロックをインターセプト - これらの大規模なアトミック アップデートをキャッチします。 VT ベースのレンダリング - VT100 エミュレータを使用して画面の状態を追跡し、差異のみをレンダリングします。 履歴を保持します。 - ルックバック用にバッファにコンテンツを蓄積します。 ルックバックを有効にします。 - キーを押してクロードを一時停止し、完全な履歴バッファを表示します。 インストール カーゴ インストール --path crates/claude-chill 使用法 claude-chill claude claude-chill -- claude --verbose # コマンド フラグに -- を使用します。 コマンド ライン ヘルプ $ claude-chill --help クロード コードの大規模なターミナル更新を制御する PTY プロキシ 使用法: claude-chill [OPTIONS] &lt;COMMAND&gt; [ARGS]。
+      <title>一般の人のための防災計画 (2015)</title>
+      <link>https://lcamtuf.coredump.cx/prep/index-old.shtml</link>
+      <description>📝 私たちがそのような危険を無視してしまうのは、それが現実離れしているように見えるからだけでなく、それを心配することで無力感や喪失感を感じるからでもあるのではないかと思います。最先端の素粒子物理学、神のようなコンピューターハッカー、政府の巨大な陰謀、ポップソングに隠された地球外のメッセージなどを扱う人気の終末予測があります。その可能性を完全に排除することはできないと思いますが、過去のデータによれば、はしごから落ちたり、車に轢かれたりすることを心配するほうがはるかにメリットがあることが示唆されています。
 
 
-🔤 Original: Claude Chill: Fix Claude Code's Flickering in Terminal
+🔤 Original: Disaster planning for regular folks (2015)
 
-🔗 Read more: https://github.com/davidbeesley/claude-chill</description>
-      <guid isPermaLink="true">https://github.com/davidbeesley/claude-chill</guid>
-      <pubDate>Tue, 20 Jan 2026 23:26:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46699072</comments>
+🔗 Read more: https://lcamtuf.coredump.cx/prep/index-old.shtml</description>
+      <guid isPermaLink="true">https://lcamtuf.coredump.cx/prep/index-old.shtml</guid>
+      <pubDate>Wed, 21 Jan 2026 03:38:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46700809</comments>
     </item>
     <item>
-      <title>カリフォルニアは25年ぶりに干ばつから解放された</title>
-      <link>https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</link>
-      <description>📝 その前、カリフォルニアは 2012 年から 2016 年にかけて深刻な干ばつに見舞われました。 気候と環境 気候変動が L. 史上最も破壊的な山火事をどのように悪化させたか カリフォルニアの山火事は、極度に乾燥した状況の中で発生しました。
+      <title>Anthropic のオリジナルの持ち帰り課題がオープンソース化</title>
+      <link>https://github.com/anthropics/original_performance_takehome</link>
+      <description>📝 シミュレートされたマシンからのクロック サイクルで測定されたパフォーマンス ベンチマーク: 2164 サイクル: テスト時計算ハーネスで何時間も使用した後の Claude Opus 4 1790 サイクル: 2 時間を超えるテスト時間計算後の Claude Opus 4.5 1487 サイクル: Claude Opus 4. ハーネスで 5 時間使用した後 1363 サイクル: Claude Opus 4。
 
 
-🔤 Original: California is free of drought for the first time in 25 years
+🔤 Original: Anthropic's original take home assignment open sourced
 
-🔗 Read more: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</description>
-      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</guid>
-      <pubDate>Tue, 20 Jan 2026 22:39:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698660</comments>
+🔗 Read more: https://github.com/anthropics/original_performance_takehome</description>
+      <guid isPermaLink="true">https://github.com/anthropics/original_performance_takehome</guid>
+      <pubDate>Wed, 21 Jan 2026 02:54:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46700594</comments>
     </item>
     <item>
-      <title>実行追跡を通じて悪意のある動作を明らかにする</title>
-      <link>https://arxiv.org/abs/2512.13821</link>
-      <description>📝 ) 接続されたペーパー 接続されたペーパーを切り替えます (接続されたペーパーとは何ですか。) リットマップ リットマップを切り替えます (リットマップとは。) コードへのリンク コード付きペーパーを切り替えます (コード付きペーパーとは。)
+      <title>Verizon、携帯電話のロックを解除する前に 365 日間の有料サービスを要求し始める</title>
+      <link>https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</link>
+      <description>📝 本日より前にスマートフォンを購入したお客様は、60 日後でもロックを解除することができます。 AT&amp;T のポリシーでは、後払いプランの電話機のロック解除は、デバイスの料金が全額支払われた場合は 60 日後、プリペイド プランの電話機の場合は 6 か月後に許可されています。 T-Mobile のポリシーでは、後払いプランの携帯電話のロック解除は、デバイスの料金が全額支払われた場合は 40 日後、プリペイド プランの携帯電話の場合は 365 日後に許可されています。
 
 
-🔤 Original: Provably unmasking malicious behavior through execution traces
+🔤 Original: Verizon starts requiring 365 days of paid service before it will unlock phones
 
-🔗 Read more: https://arxiv.org/abs/2512.13821</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.13821</guid>
-      <pubDate>Tue, 20 Jan 2026 22:18:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698469</comments>
+🔗 Read more: https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</description>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</guid>
+      <pubDate>Wed, 21 Jan 2026 01:37:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46700146</comments>
     </item>
     <item>
-      <title>どのAIが最も嘘をつきますか?ジョン・ナッシュが考案したゲーム理論の古典</title>
-      <link>https://so-long-sucker.vercel.app/</link>
-      <description>📝 162 のゲームでどの AI が最も嘘をつくかを分析しました。ジョン・ナッシュが考案した、勝つためには裏切りが必要なゲーム理論の古典。プレイヤーあたり 3 → 5 → 7 チップ AI の総決定数 15,736 交換されたメッセージ 4,768 回 ガスライティング フレーズ 237 回 AI リードリサーチと対戦。
-
-
-🔤 Original: Which AI Lies Best? A game theory classic designed by John Nash
-
-🔗 Read more: https://so-long-sucker.vercel.app/</description>
-      <guid isPermaLink="true">https://so-long-sucker.vercel.app/</guid>
-      <pubDate>Tue, 20 Jan 2026 22:09:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698370</comments>
+      <title>カーニー氏「古い秩序は戻ってこない」とダボス会議で演説</title>
+      <link>https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725</link>
+      <guid isPermaLink="true">https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725</guid>
+      <pubDate>Tue, 20 Jan 2026 17:08:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46694482</comments>
     </item>
     <item>
-      <title>論理的な削除の課題</title>
-      <link>https://atlas9.dev/blog/soft-delete.html</link>
-      <description>📝 アーカイブされたデータが望ましくないときに誤って漏洩するリスクが常にあります。移行では、アーカイブされたデータも処理する必要があります。これらのアプローチはすべて、アーカイブされたデータをライブ データとは別に保存します。つまり、別のデータベース テーブル、別のデータベース、オブジェクト ストレージなどになります。
+      <title>IPv6 は NAT がないので安全ではありません</title>
+      <link>https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</link>
+      <description>📝 最新のルーターには、NAT が使用されていない場合でも、デフォルトで受信トラフィックを拒否するファイアウォール ポリシーが付属しています。ファイアウォールは、パケットを書き換えるかルーティングするかを検討する前に、予期しない宛先のパケットをドロップします。たとえば、UniFi ルーターには、次のデフォルトの IPv6 ファイアウォール ルールが付属しています。 確立/関連トラフィック (アウトバウンド リターン トラフィック) を許可する 無効なトラフィックをブロックする その他のすべてのトラフィックをブロックする したがって、ルーターの背後でホストされている IPv6 デバイスへの一方的な受信トラフィックを許可するには、NAT を使用するかどうかに関係なく、トラフィックを許可するファイアウォール ルールを明示的に追加する必要があります。
 
 
-🔤 Original: The challenges of soft delete
+🔤 Original: IPv6 is not insecure because it lacks a NAT
 
-🔗 Read more: https://atlas9.dev/blog/soft-delete.html</description>
-      <guid isPermaLink="true">https://atlas9.dev/blog/soft-delete.html</guid>
-      <pubDate>Tue, 20 Jan 2026 21:36:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698061</comments>
+🔗 Read more: https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</description>
+      <guid isPermaLink="true">https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</guid>
+      <pubDate>Tue, 20 Jan 2026 19:03:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696303</comments>
     </item>
     <item>
-      <title>年齢予測に対する当社のアプローチ</title>
-      <link>https://openai.com/index/our-approach-to-age-prediction/</link>
-      <guid isPermaLink="true">https://openai.com/index/our-approach-to-age-prediction/</guid>
-      <pubDate>Tue, 20 Jan 2026 19:34:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696699</comments>
+      <title>HN を表示: Twitter アルゴリズムでの並列エージェント検索</title>
+      <link>https://www.morphllm.com/playground/na/warpgrep?repo=xai-org%2Fx-algorithm</link>
+      <guid isPermaLink="true">https://www.morphllm.com/playground/na/warpgrep?repo=xai-org%2Fx-algorithm</guid>
+      <pubDate>Tue, 20 Jan 2026 22:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698684</comments>
     </item>
     <item>
-      <title>ビジネス向け RCS</title>
-      <link>https://developers.google.com/business-communications/rcs-business-messaging</link>
-      <description>📝 詳細はこちら RCS for Business パートナーになる準備ができました。パートナーのお問い合わせフォーム arrow_forward パートナー開発者ドキュメント 最新の開発者ドキュメントを確認してください。詳細 開発者コンソール Business Communications 開発者コンソールを開きます。
+      <title>HN に聞く: ほとんど停止した Discord サーバーを復活させる</title>
+      <link>https://news.ycombinator.com/item?id=46697735</link>
+      <description>📝 おそらく 10 ～ 15 人ほどが、何が起こっているかに注意を払っているでしょう。もともと DevOps に焦点を当てた Discord です。人々はもう Discord サーバーに興味を持っているのでしょうか。
 
 
-🔤 Original: RCS for Business
+🔤 Original: Ask HN: Revive a mostly dead Discord server
 
-🔗 Read more: https://developers.google.com/business-communications/rcs-business-messaging</description>
-      <guid isPermaLink="true">https://developers.google.com/business-communications/rcs-business-messaging</guid>
-      <pubDate>Tue, 20 Jan 2026 04:14:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687841</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46697735</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46697735</guid>
+      <pubDate>Tue, 20 Jan 2026 21:05:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46697735</comments>
     </item>
     <item>
-      <title>メンテナンス: すべて、パート 1</title>
-      <link>https://press.stripe.com/maintenance-part-one</link>
-      <description>📝 味わい深い良い本。 『The Rational Optimist』の著者マット・リドリー もう一度、スチュワート・ブランドが新しい視点で私たちの世界観を再構築します。この本はスチュワート・ブランドの最高傑作です。
+      <title>HN の表示: エージェント スキル リーダーボード</title>
+      <link>https://skills.sh</link>
+      <description>📝 スキル リーダーボード/全時間トレンド (24 時間)#SkillInstalls1vercel-react-best-practicesvercel-labs/agent-skills22。 5K2web-design-guidelinesvercel-labs/agent-skills17. 0K7deploymentexpo/skills9758api-routesexpo/skills9389use-domexpo/skills90810cicd-workflowsexpo/skills90311tailwind-setupexpo/skills87412better-auth -ベスト プラクティスBetter-auth/skills85013スキル クリエーター人文学/スキル73314リアクト ネイティブ-ベスト プラクティスcallstackincubator/エージェント-スキル68515create-auth- skillbetter-auth/skills64816frontend-designanthropics/skills60517remotion-best-practicesremotion-dev/skills59218agent-browservercel-labs/agent-brows er45919baoyu-article-illustratorjimliu/baoyu-skills42220baoyu-cover-imagejimliu/baoyu-skills42021baoyu-slide-deckjimliu/baoyu-skills41822baoyu-comic jimliu/baoyu-skills39123baoyu-xhs-imagesjimliu/baoyu-skills37124baoyu-post-to-wechatjimliu/baoyu-skills35025copywritingcoreyhaines31/marketingskills 34526baoyu-post-to-xjimliu/baoyu-skills34327pdf人類学/スキル33128seo-auditcoreyhaines31/marketingskills31429programmatic-seocoreyhaines31/market ingskills29530webapp-testinganthropics/skills28831marketing-psychologycoreyhaines31/marketingskills28632marketing-ideascoreyhaines31/marketingskills 28233mcp-builderanthropics/skills28134copy-editingcoreyhaines31/marketingskills27935xlsxanthropics/skills27836docxanthropics/skills27737page-crocore yhaines31/marketingskills27738humanizer-zhop7418/Humanizer-zh27439pricing-strategycoreyhaines31/marketingskills27140competitor-alternativescoreyhai nes31/marketingskills26741pptxanthropics/skills26742social-contentcoreyhaines31/marketingskills26543canvas-designanthropics/skills26544launch-strate gycoreyhaines31/marketingskills26445email-sequencecoreyhaines31/marketingskills25846onboarding-crocoreyhaines31/marketingskills25647release-skillsji mliu/baoyu-skills25548brainstorminggobra/superpowers25249analytics-trackingcoreyhaines31/marketingskills24950schema-markupcoreyhaines31/marketingskill ls24951signup-flow-crocoreyhaines31/marketingskills24752paid-adscoreyhaines31/marketingskills24753form-crocoreyhaines31/marketingskills24454free-too l-strategycoreyhaines31/marketingskills24355baoyu-danger-gemini-webjimliu/baoyu-skills24356referral-programcoreyhaines31/marketingskills23857popup-c rocoreyhaines31/marketingskills23758ab-test-setupcoreyhaines31/marketingskills23559paywall-upgrade-crocoreyhaines31/marketingskills23260baoyu-compre ss-imagejimliu/baoyu-skills23261theme-factoryanthropics/skills22962vueonmax/nuxt-skills22463baoyu-danger-x-to-markdownjimliu/baoyu-skills21764Betterオースベストプラクティスより良い認証/スキル20665社内コミュニケーション人間性/スキル20666nuxtonmax/nuxt-スキル20567ブランド ガイドライン人間性/スキーlls20468テスト駆動開発obra/superpowers20069web-artifacts-builderanthropics/skills20070doc-coauthoringanthropics/skill ls19971系統的デバッグゴブラ/スーパーパワー19772アルゴリズム-芸術家/スキル19373完了前の検証オブラ/スーパーパワー18474テンプレート-スキル人道/スキル18475ライティングスキルソブラ/スーパーパワー18376ライティングプランソブラ/スーパーパワー18377実行g-plansobra/superpowers18278slack-gif-creatoranthropics/skills18079ui-ux-pro-maxnextlevelbuilder/ui-ux-pro-max-skill18080subagent-driven-developmentobra/superpowers17981using-superpowersobra/superpowers17982requesting-code-reviewobra/superpowers1778 3受信コードレビューobra/superpowers17584ディスパッチングパラレルエージェントsobra/superpowers17385nuxt-uionmax/nuxt-skills16886fini shing-a-development-branchbra/superpowers16787using-git-worktreesobra/superpowers16688ts-libraryyonmax/nuxt-skills13889Create認証Skillbetter-auth/skills13490baoyu-gemini-webjimliu/baoyu-skills12891reka-uionmax/nuxt-skills12292planning-with-filesOthmanAdi/planning-with-files11393obsidian-markdownk epano/obsidian-skills9694obsidian-baseskepano/obsidian-skills9395nuxt-modulesonmax/nuxt-skills9396ui-skillsibelick/ui-skills9397json-canvaskepano/obsidian-skills9398buil ding-native-uiexpo/skills9299document-writeronmax/nuxt-skills91100elysiajselysiajs/skills87101nuxt-contentonmax/nuxt-skills85102nuxt-better-authonmax/nuxt-skills82103nu xthubonmax/nuxt-skills73104expo-tailwind-setupexpo/skills72105expo-deploymentexpo/skills72106native-data-fetchingexpo/skills71107expo-api-routesexpo/skills69108ask-quest ions-if-underspecifiedtrailofbits/skills68109motiononmax/nuxt-skills68110expo-dev-clientexpo/skills64111expo-cicd-workflowsexpo/skills62112genpaku-contextubie-inc/agent -skills58113three-best-practicesemalorenzo/three-agent-skills57114code-reviewskillcreatorai/Ai-Agent-Skills57115notebooklmPleasePrompto/notebooklm-skill56116openrouter-t ypescript-sdkOpenRouterTeam/agent-skills53117semgreptrailofbits/skills52118solana-vulnerability-scannertrailofbits/skills51119spec-to-code-compliancetrailofbits/skills51 120codexubie-inc/agent-skills51121r3f-best-practicesemalorenzo/three-agent-skills50122secure-workflow-guidetrailofbits/skills50123property-based-testingtrailofbits/skill。
 
 
-🔤 Original: Maintenance: Of Everything, Part One
+🔤 Original: Show HN: Agent Skills Leaderboard
 
-🔗 Read more: https://press.stripe.com/maintenance-part-one</description>
-      <guid isPermaLink="true">https://press.stripe.com/maintenance-part-one</guid>
-      <pubDate>Tue, 20 Jan 2026 19:01:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696276</comments>
-    </item>
-    <item>
-      <title>月電波望遠鏡が宇宙の謎を解き明かす</title>
-      <link>https://spectrum.ieee.org/lunar-radio-telescope</link>
-      <description>📝 電波望遠鏡を設置するのにこれ以上に適した、そしてさらに寂しい場所があるだろうか。彼は、月に行くことができる電波望遠鏡の無数の設計の提案に参加しました。月ベースの電波望遠鏡は、宇宙科学における最大の謎のいくつかを解明するのに役立つ可能性があります。
-
-
-🔤 Original: Lunar Radio Telescope to Unlock Cosmic Mysteries
-
-🔗 Read more: https://spectrum.ieee.org/lunar-radio-telescope</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/lunar-radio-telescope</guid>
-      <pubDate>Tue, 20 Jan 2026 22:36:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698623</comments>
-    </item>
-    <item>
-      <title>Cloudflare ゼロデイ: あらゆるホストにグローバルにアクセス</title>
-      <link>https://fearsoff.org/research/cloudflare-acme</link>
-      <description>📝 FearsOff は、サイバーセキュリティにおける究極のソリューションです。デジタル セキュリティを次のレベルに引き上げる準備はできていますか。当社のエリート情報セキュリティ専門家が、あらゆるサイバー攻撃に耐えられるよう組織を支援します。
-
-
-🔤 Original: Cloudflare zero-day: Accessing any host globally
-
-🔗 Read more: https://fearsoff.org/research/cloudflare-acme</description>
-      <guid isPermaLink="true">https://fearsoff.org/research/cloudflare-acme</guid>
-      <pubDate>Tue, 20 Jan 2026 16:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46693728</comments>
-    </item>
-    <item>
-      <title>Skill.md 用の Dockerhub</title>
-      <link>https://skillregistry.io/</link>
-      <description>📝 mdHubClaude、ChatGPT、および AI エージェントのスキルを検索してインストールします。 SKILLS の最終的なレジストリ。 skillCopy インストール コマンドSkillRegistry Statistics61AI 利用可能なスキル 509総ダウンロード数 19スキル貢献者。
-
-
-🔤 Original: Dockerhub for Skill.md
-
-🔗 Read more: https://skillregistry.io/</description>
-      <guid isPermaLink="true">https://skillregistry.io/</guid>
-      <pubDate>Tue, 20 Jan 2026 15:19:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46692692</comments>
-    </item>
-    <item>
-      <title>日本のスナックの世界</title>
-      <link>https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</link>
-      <description>📝 「多くの観光客が想像するバーやナイトクラブとは異なり、スナック・バーは温かく、家庭的な場所です」と、2021年から旅行者向けに日本中のスナック・バーのツアーを提供しているスナック横丁カルチャー社の五十嵐真由子社長兼取締役は語る。「スナック・バーは、第二次世界大戦後の日本の復興期に誕生した。ミシェル・グロス多くのスナック・バーは、いくつかのスツールと小さなキッチンが付いたカウンターにすぎない（提供：ミシェル）」グロス）1960年代後半までに、女性が経営するスナック・バーが全国的に急増しました。
-
-
-🔤 Original: The world of Japanese snack bars
-
-🔗 Read more: https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</description>
-      <guid isPermaLink="true">https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</guid>
-      <pubDate>Tue, 20 Jan 2026 21:34:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698038</comments>
-    </item>
-    <item>
-      <title>ルドルフの鼻の所有者は誰ですか?</title>
-      <link>https://creativelawcenter.com/copyright-rudolph-reindeer/</link>
-      <guid isPermaLink="true">https://creativelawcenter.com/copyright-rudolph-reindeer/</guid>
-      <pubDate>Wed, 21 Jan 2026 00:21:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46699597</comments>
-    </item>
-    <item>
-      <title>Show HN: TopicRadar – HN、GitHub、ArXiv など全体でトレンドのトピックを追跡します</title>
-      <link>https://apify.com/mick-johnson/topic-radar</link>
-      <description>📝 クイック トレンド チェック トレンドのトピックを使用して即座に洞察を得る: { "searchMode": "trending-startup"} 2. 市場調査 競合他社、業界トレンド、および新興テクノロジーを追跡します: { "searchMode": "custom", "topics": ["your-competitor-name", "industry-trend"], "sources": ["hackernews", "github"], "timeRange": "7d"} 3.コンテンツの作成 コンテンツのアイデアに関するトレンドのトピックや人気のディスカッションを検索します: { "searchMode": "trending-dev", "rankingStrategy": "engagement"} 4.
-
-
-🔤 Original: Show HN: TopicRadar – Track trending topics across HN, GitHub, ArXiv, and more
-
-🔗 Read more: https://apify.com/mick-johnson/topic-radar</description>
-      <guid isPermaLink="true">https://apify.com/mick-johnson/topic-radar</guid>
-      <pubDate>Tue, 20 Jan 2026 14:47:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46692347</comments>
-    </item>
-    <item>
-      <title>Show HN: Git ブランチング モデルを備えた macOS ネイティブ DAW</title>
-      <link>https://www.scratchtrackaudio.com</link>
-      <description>📝 機能するものをマージして戻します。あなたの作品はいつでもアクセスできます。 01セッションを録音する自動テイク管理でマルチトラック録音をキャプチャします。
-
-
-🔤 Original: Show HN: macOS native DAW with Git branching model
-
-🔗 Read more: https://www.scratchtrackaudio.com</description>
-      <guid isPermaLink="true">https://www.scratchtrackaudio.com</guid>
-      <pubDate>Wed, 21 Jan 2026 00:05:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46699441</comments>
-    </item>
-    <item>
-      <title>AIコーディングエージェントの電力使用量</title>
-      <link>https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</link>
-      <description>📝 コアシステムのプロンプト。これは Web 専用ですか、API 専用ですか、その両方ですか。クロード・コードはこれとどう違うのか。
-
-
-🔤 Original: Electricity use of AI coding agents
-
-🔗 Read more: https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</description>
-      <guid isPermaLink="true">https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</guid>
-      <pubDate>Tue, 20 Jan 2026 18:02:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46695415</comments>
+🔗 Read more: https://skills.sh</description>
+      <guid isPermaLink="true">https://skills.sh</guid>
+      <pubDate>Tue, 20 Jan 2026 21:22:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46697908</comments>
     </item>
   </channel>
 </rss>

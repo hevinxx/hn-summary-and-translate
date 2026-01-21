@@ -6,204 +6,100 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 21 Jan 2026 01:50:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 04:08:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Claude Chill：修复 Claude Code 在终端中的闪烁问题</title>
-      <link>https://github.com/davidbeesley/claude-chill</link>
-      <description>📝 claude-chill 一个 PTY 代理，使用基于 VT 的渲染来控制 Claude Code 的大量终端更新。问题克劳德代码使用同步输出来自动更新终端。解决方案 claude-chill 位于您的终端和 Claude 代码之间： 拦截同步块 - 捕获那些大量的原子更新 基于 VT 的渲染 - 使用 VT100 模拟器跟踪屏幕状态并仅渲染差异 保留历史记录 - 累积缓冲区中的内容以进行回溯 启用回溯 - 按一个键暂停 Claude 并查看完整的历史缓冲区 安装 Cargo install --path crates/claude-chill 用法 claude-chill claude claude-chill -- claude --verbose # 使用 -- 作为命令标志 命令行帮助 $ claude-chill --help 驯服 Claude Code 大量终端更新的 PTY 代理 用法：claude-chill [OPTIONS] &lt;COMMAND&gt; [ARGS]。
+      <title>普通人的灾难规划（2015）</title>
+      <link>https://lcamtuf.coredump.cx/prep/index-old.shtml</link>
+      <description>📝 我怀疑我们忽视这些危险不仅是因为它们看起来超现实，而且还因为担心它们会让人感到无助和迷失。流行的世界末日预测涉及尖端粒子物理学、神一般的计算机黑客、巨大的政府阴谋或隐藏在流行歌曲中的外星信息。我想我们不能真正排除这种情况，但历史数据表明，担心从梯子上摔下来或被车撞到有更多的好处。
 
 
-🔤 Original: Claude Chill: Fix Claude Code's Flickering in Terminal
+🔤 Original: Disaster planning for regular folks (2015)
 
-🔗 Read more: https://github.com/davidbeesley/claude-chill</description>
-      <guid isPermaLink="true">https://github.com/davidbeesley/claude-chill</guid>
-      <pubDate>Tue, 20 Jan 2026 23:26:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46699072</comments>
+🔗 Read more: https://lcamtuf.coredump.cx/prep/index-old.shtml</description>
+      <guid isPermaLink="true">https://lcamtuf.coredump.cx/prep/index-old.shtml</guid>
+      <pubDate>Wed, 21 Jan 2026 03:38:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46700809</comments>
     </item>
     <item>
-      <title>加州25年来首次摆脱干旱</title>
-      <link>https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</link>
-      <description>📝 在此之前，加州在 2012 年至 2016 年期间经历了严重干旱。 气候与环境 气候变化如何加剧了加州历史上最具破坏性的野火 加州大火是在极其干燥的条件下爆发的。
+      <title>Anthropic 原创的带回家作业开源</title>
+      <link>https://github.com/anthropics/original_performance_takehome</link>
+      <description>📝 模拟机器的时钟周期测量的性能基准：2164 个周期：Claude Opus 4 在测试时间计算工具中进行多个小时后 1790 个周期：Claude Opus 4。5 在超过 2 小时的测试时间计算后 1487 个周期：Claude Opus 4。在工具中进行 5 小时 1363 个周期：Claude Opus 4。
 
 
-🔤 Original: California is free of drought for the first time in 25 years
+🔤 Original: Anthropic's original take home assignment open sourced
 
-🔗 Read more: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</description>
-      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</guid>
-      <pubDate>Tue, 20 Jan 2026 22:39:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698660</comments>
+🔗 Read more: https://github.com/anthropics/original_performance_takehome</description>
+      <guid isPermaLink="true">https://github.com/anthropics/original_performance_takehome</guid>
+      <pubDate>Wed, 21 Jan 2026 02:54:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46700594</comments>
     </item>
     <item>
-      <title>通过执行跟踪证明揭露恶意行为</title>
-      <link>https://arxiv.org/abs/2512.13821</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
+      <title>Verizon 开始要求提供 365 天的付费服务才能解锁手机</title>
+      <link>https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</link>
+      <description>📝 今天之前购买手机的客户在 60 天后仍有资格解锁。 AT&amp;T 的政策允许在设备已全额付款的情况下在 60 天后解锁后付费计划的手机，或者在预付费计划的手机六个月后解锁。 T-Mobile 的政策允许在设备全额付款后 40 天后解锁后付费套餐的手机，或者对于预付费套餐的手机在 365 天后解锁。
 
 
-🔤 Original: Provably unmasking malicious behavior through execution traces
+🔤 Original: Verizon starts requiring 365 days of paid service before it will unlock phones
 
-🔗 Read more: https://arxiv.org/abs/2512.13821</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.13821</guid>
-      <pubDate>Tue, 20 Jan 2026 22:18:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698469</comments>
+🔗 Read more: https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</description>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</guid>
+      <pubDate>Wed, 21 Jan 2026 01:37:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46700146</comments>
     </item>
     <item>
-      <title>哪种人工智能最谎言？约翰·纳什设计的博弈论经典</title>
-      <link>https://so-long-sucker.vercel.app/</link>
-      <description>📝 162 款游戏分析了哪些 AI 最为出色。约翰·纳什设计的博弈论经典，需要背叛才能获胜。 3 → 5 → 7 每个玩家的筹码 15,736 个 AI 决策总数 4,768 条交换消息 237 个煤气灯短语对抗 AI 阅读研究。
-
-
-🔤 Original: Which AI Lies Best? A game theory classic designed by John Nash
-
-🔗 Read more: https://so-long-sucker.vercel.app/</description>
-      <guid isPermaLink="true">https://so-long-sucker.vercel.app/</guid>
-      <pubDate>Tue, 20 Jan 2026 22:09:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698370</comments>
+      <title>卡尼在达沃斯演讲中表示，“旧秩序不会回来”</title>
+      <link>https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725</link>
+      <guid isPermaLink="true">https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725</guid>
+      <pubDate>Tue, 20 Jan 2026 17:08:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46694482</comments>
     </item>
     <item>
-      <title>软删除的挑战</title>
-      <link>https://atlas9.dev/blog/soft-delete.html</link>
-      <description>📝 归档数据在不需要时始终存在意外泄漏的风险。迁移还必须处理存档数据。所有这些方法都将归档数据与实时数据分开存储——可能是单独的数据库表、单独的数据库、对象存储等。
+      <title>IPv6 并非不安全，因为它缺少 NAT</title>
+      <link>https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</link>
+      <description>📝 现代路由器附带的防火墙策略默认拒绝入站流量，即使未使用 NAT 也是如此。防火墙会在考虑是否重写或路由数据包之前丢弃具有意外目的地的数据包。例如，UniFi 路由器附带以下默认 IPv6 防火墙规则： 允许已建立/相关流量（出站返回流量） 阻止无效流量 阻止所有其他流量 因此，为了允许未经请求的入站流量流向路由器后面托管的任何 IPv6 设备，您必须显式添加防火墙规则以允许该流量，无论是否使用 NAT。
 
 
-🔤 Original: The challenges of soft delete
+🔤 Original: IPv6 is not insecure because it lacks a NAT
 
-🔗 Read more: https://atlas9.dev/blog/soft-delete.html</description>
-      <guid isPermaLink="true">https://atlas9.dev/blog/soft-delete.html</guid>
-      <pubDate>Tue, 20 Jan 2026 21:36:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698061</comments>
+🔗 Read more: https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</description>
+      <guid isPermaLink="true">https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</guid>
+      <pubDate>Tue, 20 Jan 2026 19:03:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696303</comments>
     </item>
     <item>
-      <title>我们的年龄预测方法</title>
-      <link>https://openai.com/index/our-approach-to-age-prediction/</link>
-      <guid isPermaLink="true">https://openai.com/index/our-approach-to-age-prediction/</guid>
-      <pubDate>Tue, 20 Jan 2026 19:34:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696699</comments>
+      <title>Show HN：Twitter 算法上的并行代理搜索</title>
+      <link>https://www.morphllm.com/playground/na/warpgrep?repo=xai-org%2Fx-algorithm</link>
+      <guid isPermaLink="true">https://www.morphllm.com/playground/na/warpgrep?repo=xai-org%2Fx-algorithm</guid>
+      <pubDate>Tue, 20 Jan 2026 22:42:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698684</comments>
     </item>
     <item>
-      <title>商业 RCS</title>
-      <link>https://developers.google.com/business-communications/rcs-business-messaging</link>
-      <description>📝 了解更多 准备成为 RCS 业务合作伙伴。合作伙伴兴趣表 arrow_forward 合作伙伴开发人员文档 查看最新的开发人员文档。了解更多 开发人员控制台 打开业务通信开发人员控制台。
+      <title>询问 HN：恢复几乎已经死亡的 Discord 服务器</title>
+      <link>https://news.ycombinator.com/item?id=46697735</link>
+      <description>📝 更有可能有大约 10-15 个人正在关注正在发生的任何事情。这是一个最初专注于 DevOps 的 Discord。人们对 Discord 服务器不再感兴趣了吗？
 
 
-🔤 Original: RCS for Business
+🔤 Original: Ask HN: Revive a mostly dead Discord server
 
-🔗 Read more: https://developers.google.com/business-communications/rcs-business-messaging</description>
-      <guid isPermaLink="true">https://developers.google.com/business-communications/rcs-business-messaging</guid>
-      <pubDate>Tue, 20 Jan 2026 04:14:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46687841</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46697735</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46697735</guid>
+      <pubDate>Tue, 20 Jan 2026 21:05:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46697735</comments>
     </item>
     <item>
-      <title>维护：一切，第一部分</title>
-      <link>https://press.stripe.com/maintenance-part-one</link>
-      <description>📝 一本美味的好书。马特·里德利 (Matt Ridley) 《理性乐观主义者》一书的作者 斯图尔特·布兰德 (Stewart Brand) 再次以新的视角重塑了我们的世界观。这本书是斯图尔特·布兰德的巅峰之作。
+      <title>显示 HN：代理技能排行榜</title>
+      <link>https://skills.sh</link>
+      <description>📝 技能排行榜/所有时间趋势（24 小时）#SkillInstalls1vercel-react-best-practicesvercel-labs/agent-skills22。 5K2 网页设计指南 vercel-labs/agent-skills17。 0K7deploymentexpo/skills9758api-routesexpo/skills9389use-domexpo/skills90810cicd-workflowsexpo/skills90311tailwind-setupexpo/skills87412better-auth -最佳实践better-auth/skills85013skill-creatoranthropics/skills73314react-native-best-practicescallstackincubator/agent-skills68515create-auth- Skillbetter-auth/skills64816frontend-designanthropics/skills60517remotion-best-practicesremotion-dev/skills59218agent-browservercel-labs/agent-brows er45919baoyu-article-illustratorjimliu/baoyu-skills42220baoyu-cover-imagejimliu/baoyu-skills42021baoyu-slide-deckjimliu/baoyu-skills41822baoyu-comic jimliu/baoyu-skills39123baoyu-xhs-imagesjimliu/baoyu-skills37124baoyu-发微信jimliu/baoyu-skills35025copywritingcoreyhaines31/marketingskills 34526baoyu-post-to-xjimliu/baoyu-skills34327pdfanthropics/skills33128seo-auditcoreyhaines31/marketingskills31429programmatic-seocoreyhaines31/market ingskills29530webapp-testinganthropics/skills28831营销心理学coreyhaines31/marketingskills28632营销-ideacoreyhaines31/marketingskills 28233mcp-builderanthropics/技能28134复制编辑coreyhaines31/marketingskills27935xlsxanthropics/技能27836docxanthropics/技能27737page-crocore yhaines31/marketingskills27738 humanizer-zhop7418/Humanizer-zh27439定价策略coreyhaines31/marketingskills27140竞争对手-替代scoreyhai nes31/marketingskills26741pptxanthropics/skills26742social-contentcoreyhaines31/marketingskills26543canvas-designanthropics/skills26544launch-strate gycoreyhaines31/marketingskills26445电子邮件序列coreyhaines31/marketingskills25846onboarding-crocoreyhaines31/marketingskills25647release-skillsji mliu/baoyu-skills25548brainstormingobra/superpowers25249analytics-trackingcoreyhaines31/marketingskills24950schema-markupcoreyhaines31/marketingskill ls24951signup-flow-crocoreyhaines31/marketingskills24752paid-adscoreyhaines31/marketingskills24753form-crocoreyhaines31/marketingskills24454free-too l-strategycoreyhaines31/marketingskills24355baoyu-danger-gemini-webjimliu/baoyu-skills24356referral-programcoreyhaines31/marketingskills23857popup-c rocoreyhaines31/marketingskills23758ab-测试-setupcoreyhaines31/marketingskills23559paywall-upgrade-crocoreyhaines31/marketingskills23260baoyu-compre ss-imagejimliu/baoyu-skills23261theme-factoryanthropics/skills22962vueonmax/nuxt-skills22463baoyu-danger-x-to-markdownjimliu/baoyu-skills21764Better授权最佳实践更好的身份验证/技能20665内部通信人类学/技能20666nuxtonmax/nuxt-技能20567品牌指南人类学/滑雪lls20468测试驱动开发obra/superpowers20069web-artifacts-builderanthropics/skills20070doc-coauthoringanthropics/skill ls19971系统调试obra/superpowers19772算法-artanthropics/技能19373完成前验证obra/superpowers18474模板-skillanthropics/技能18475写作技能sobra/superpowers18376写作计划sobra/superpowers18377执行g-plansobra/superpowers18278slack-gif-creatoranthropics/skills18079ui-ux-pro-maxnextlevelbuilder/ui-ux-pro-max-skill18080子代理驱动开发obra/superpowers17981使用-superpowersobra/superpowers17982请求代码审查obra/superpowers1778 3接收代码审查obra/superpowers17584调度并行代理sobra/superpowers17385nuxt-uionmax/nuxt-skills16886fini shing-a-development-branchobra/superpowers16787using-git-worktreesobra/superpowers16688ts-libraryonmax/nuxt-skills13889Create授权Skillbetter-auth/skills13490baoyu-gemini-webjimliu/baoyu-skills12891reka-uionmax/nuxt-skills12292planning-with-filesOthmanAdi/planning-with-files11393obsidian-markdownk epano/黑曜石-skills9694黑曜石-baseskepano/黑曜石-skills9395nuxt-modulesonmax/nuxt-skills9396ui-skillsibelick/ui-skills9397json-canvaskepano/黑曜石-skills9398buil ding-native-uiexpo/skills9299document-writeronmax/nuxt-skills91100elysiajselysiajs/skills87101nuxt-contentonmax/nuxt-skills85102nuxt-better-authonmax/nuxt-skills82103nu xthubonmax/nuxt-skills73104expo-tailwind-setupexpo/skills72105expo-deploymentexpo/skills72106native-data-fetchingexpo/skills71107expo-api-routesexpo/skills69108ask-quest ions-if-underspecifiedtrailofbits/skills68109motiononmax/nuxt-skills68110expo-dev-clientexpo/skills64111expo-cicd-workflowsexpo/skills62112genpaku-contextubie-inc/agent -skills58113三最佳实践semalorenzo/三代理技能57114code-reviewskillcreatorai/Ai-Agent-Skills57115notebooklmPleasePrompto/notebooklm-skill56116openrouter-t ypescript-sdkOpenRouterTeam/agent-skills53117semgreptrailofbits/skills52118solana-vulnerability-scannertrailofbits/skills51119规范到代码合规性trailofbits/skills51 120codexubie-inc/agent-skills51121r3f-best-practicesemalorenzo/三代理技能50122secure-workflow-guidetrailofbits/skills50123基于属性的测试trailofbits/技能。
 
 
-🔤 Original: Maintenance: Of Everything, Part One
+🔤 Original: Show HN: Agent Skills Leaderboard
 
-🔗 Read more: https://press.stripe.com/maintenance-part-one</description>
-      <guid isPermaLink="true">https://press.stripe.com/maintenance-part-one</guid>
-      <pubDate>Tue, 20 Jan 2026 19:01:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696276</comments>
-    </item>
-    <item>
-      <title>月球射电望远镜将解开宇宙之谜</title>
-      <link>https://spectrum.ieee.org/lunar-radio-telescope</link>
-      <description>📝 难道还有更好、更偏僻的地方来放置射电望远镜吗？他参与提出了无数可以前往月球的射电望远镜的设计方案。月球射电望远镜可以帮助解开空间科学中一些最大的谜团。
-
-
-🔤 Original: Lunar Radio Telescope to Unlock Cosmic Mysteries
-
-🔗 Read more: https://spectrum.ieee.org/lunar-radio-telescope</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/lunar-radio-telescope</guid>
-      <pubDate>Tue, 20 Jan 2026 22:36:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698623</comments>
-    </item>
-    <item>
-      <title>Cloudflare 零日：访问全球任何主机</title>
-      <link>https://fearsoff.org/research/cloudflare-acme</link>
-      <description>📝 FearsOff 是您网络安全的终极解决方案。您准备好将您的数字安全提升到新的水平了吗？让我们的精英信息安全专家协助您的组织做好抵御任何网络攻击的准备。
-
-
-🔤 Original: Cloudflare zero-day: Accessing any host globally
-
-🔗 Read more: https://fearsoff.org/research/cloudflare-acme</description>
-      <guid isPermaLink="true">https://fearsoff.org/research/cloudflare-acme</guid>
-      <pubDate>Tue, 20 Jan 2026 16:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46693728</comments>
-    </item>
-    <item>
-      <title>Skill.md 的 Dockerhub</title>
-      <link>https://skillregistry.io/</link>
-      <description>📝 mdHub查找并安装 Claude、ChatGPT 和 AI 代理的技能。技能的权威注册表。技能复制安装命令技能注册表统计61可用AI技能509总下载19技能贡献者。
-
-
-🔤 Original: Dockerhub for Skill.md
-
-🔗 Read more: https://skillregistry.io/</description>
-      <guid isPermaLink="true">https://skillregistry.io/</guid>
-      <pubDate>Tue, 20 Jan 2026 15:19:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46692692</comments>
-    </item>
-    <item>
-      <title>日本小吃店的世界</title>
-      <link>https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</link>
-      <description>📝 “与许多游客想象中的酒吧或夜总会不同，小吃店是温馨、像家一样的地方，”Snack Yokocho Culture Inc 总裁兼董事 Mayuko Igarashi 说，该公司自 2021 年以来一直为游客提供日本各地小吃店之旅。“小吃店是在日本二战后经济复苏期间出现的。米歇尔·格罗斯（Michelle Gross）许多小吃店只不过是一个带有几张凳子和一个小厨房的柜台（图片来源：Michelle）到 20 世纪 60 年代末，女性经营的小吃店在全国范围内激增。
-
-
-🔤 Original: The world of Japanese snack bars
-
-🔗 Read more: https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</description>
-      <guid isPermaLink="true">https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</guid>
-      <pubDate>Tue, 20 Jan 2026 21:34:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698038</comments>
-    </item>
-    <item>
-      <title>谁拥有鲁道夫的鼻子？</title>
-      <link>https://creativelawcenter.com/copyright-rudolph-reindeer/</link>
-      <guid isPermaLink="true">https://creativelawcenter.com/copyright-rudolph-reindeer/</guid>
-      <pubDate>Wed, 21 Jan 2026 00:21:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46699597</comments>
-    </item>
-    <item>
-      <title>Show HN：TopicRadar – 跟踪 HN、GitHub、ArXiv 等的热门主题</title>
-      <link>https://apify.com/mick-johnson/topic-radar</link>
-      <description>📝 快速趋势检查 使用趋势主题即时洞察： { "searchMode": "trending-startup"} 2. 市场研究 跟踪竞争对手、行业趋势和新兴技术： { "searchMode": "custom", "topics": ["your-competitor-name", "industry-trend"], "sources": ["hackernews", "github"], "timeRange": "7d"} 3. 内容创建 查找趋势主题以及内容创意的热门讨论：{ "searchMode": "trending-dev", "rankingStrategy": "engagement"} 4.
-
-
-🔤 Original: Show HN: TopicRadar – Track trending topics across HN, GitHub, ArXiv, and more
-
-🔗 Read more: https://apify.com/mick-johnson/topic-radar</description>
-      <guid isPermaLink="true">https://apify.com/mick-johnson/topic-radar</guid>
-      <pubDate>Tue, 20 Jan 2026 14:47:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46692347</comments>
-    </item>
-    <item>
-      <title>Show HN：具有 Git 分支模型的 macOS 原生 DAW</title>
-      <link>https://www.scratchtrackaudio.com</link>
-      <description>📝 合并回有效的内容。您的工作始终可以访问。 01录制您的会话通过自动录音管理捕获多轨录音。
-
-
-🔤 Original: Show HN: macOS native DAW with Git branching model
-
-🔗 Read more: https://www.scratchtrackaudio.com</description>
-      <guid isPermaLink="true">https://www.scratchtrackaudio.com</guid>
-      <pubDate>Wed, 21 Jan 2026 00:05:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46699441</comments>
-    </item>
-    <item>
-      <title>AI编码代理的用电</title>
-      <link>https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</link>
-      <description>📝 核心系统提示。这是仅限 Web 的、仅限 API 的，还是两者兼而有之。克劳德·科德与此有何不同。
-
-
-🔤 Original: Electricity use of AI coding agents
-
-🔗 Read more: https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</description>
-      <guid isPermaLink="true">https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</guid>
-      <pubDate>Tue, 20 Jan 2026 18:02:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46695415</comments>
+🔗 Read more: https://skills.sh</description>
+      <guid isPermaLink="true">https://skills.sh</guid>
+      <pubDate>Tue, 20 Jan 2026 21:22:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46697908</comments>
     </item>
   </channel>
 </rss>
