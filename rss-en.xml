@@ -6,82 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 04:08:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 06:38:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Disaster planning for regular folks (2015)</title>
-      <link>https://lcamtuf.coredump.cx/prep/index-old.shtml</link>
-      <description>📝 I suspect that we dismiss such hazards not only because they seem surreal, but also because worrying about them can make one feel helpless and lost. There are popular doomsday predictions that deal with cutting-edge particle physics, god-like computer hackers, vast government conspiracies, or extraterrestrial messages hidden in pop songs. I suppose we can't really rule that stuff out, but historical data suggests that there's a lot more merit in worrying about falling off a ladder or getting hit by a car.
+      <title>Libbbf: Bound Book Format, A high-performance container for comics and manga</title>
+      <link>https://github.com/ef1500/libbbf</link>
+      <description>📝 High-Speed Parallel Verification Integrity checks utilize Parallel XXH3. Asset Table: A registry of physical data blobs with XXH3 hashes. Page Table: The logical reading order, mapping logical pages to assets.
 
-🔗 Read more: https://lcamtuf.coredump.cx/prep/index-old.shtml</description>
-      <guid isPermaLink="true">https://lcamtuf.coredump.cx/prep/index-old.shtml</guid>
-      <pubDate>Wed, 21 Jan 2026 03:38:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46700809</comments>
+🔗 Read more: https://github.com/ef1500/libbbf</description>
+      <guid isPermaLink="true">https://github.com/ef1500/libbbf</guid>
+      <pubDate>Wed, 21 Jan 2026 04:27:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46701114</comments>
     </item>
     <item>
-      <title>Anthropic's original take home assignment open sourced</title>
-      <link>https://github.com/anthropics/original_performance_takehome</link>
-      <description>📝 Performance benchmarks measured in clock cycles from the simulated machine: 2164 cycles: Claude Opus 4 after many hours in the test-time compute harness 1790 cycles: Claude Opus 4. 5 after many more than 2 hours of test-time compute 1487 cycles: Claude Opus 4. 5 hours in the harness 1363 cycles: Claude Opus 4.
+      <title>Curl removes bug bounties because of AI slop</title>
+      <link>https://etn.se/index.php/nyheter/72808-curl-removes-bug-bounties.html</link>
+      <description>📝 MER LĂ„SNING: Ryzen fĂ¶r fordon och fysisk AISvenskt drĂ¶narskydd i DavosMercedes utmanar Teslas sjĂ¤lvkĂ¶rningFinansieringsproblem sinkar Lytens kĂ¶p av NorthvoltSiemens kĂ¶per franskt verktyg fĂ¶r korttestAlla pĂĄ Volvos gigafabrik fĂĄr sparkenHalvledarmarknaden vĂ¤xte 21 procent i fjolLinkĂ¶pings mikroskĂ¤rm tankar kassanIndiskt kretsbolag gĂĄr all-in pĂĄ RiscfemVĂ¤rldens minsta sensor nu i volym.
 
-🔗 Read more: https://github.com/anthropics/original_performance_takehome</description>
-      <guid isPermaLink="true">https://github.com/anthropics/original_performance_takehome</guid>
-      <pubDate>Wed, 21 Jan 2026 02:54:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46700594</comments>
-    </item>
-    <item>
-      <title>Verizon starts requiring 365 days of paid service before it will unlock phones</title>
-      <link>https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</link>
-      <description>📝 Customers who bought phones before today are still eligible for unlocks after 60 days. AT&amp;T’s policy allows unlocking of phones on postpaid plans after 60 days if the device has been paid in full, or after six months for phones on prepaid plans. T-Mobile’s policy allows unlocking of phones on postpaid plans after 40 days if the device has been paid in full, or after 365 days for phones on prepaid plans.
-
-🔗 Read more: https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</description>
-      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</guid>
-      <pubDate>Wed, 21 Jan 2026 01:37:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46700146</comments>
-    </item>
-    <item>
-      <title>'The old order is not coming back,' Carney says in speech at Davos</title>
-      <link>https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725</link>
-      <guid isPermaLink="true">https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725</guid>
-      <pubDate>Tue, 20 Jan 2026 17:08:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46694482</comments>
-    </item>
-    <item>
-      <title>IPv6 is not insecure because it lacks a NAT</title>
-      <link>https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</link>
-      <description>📝 Modern routers ship with firewall policies that deny inbound traffic by default, even when a NAT is not being used. The firewall will drop packets with an unexpected destination before even considering whether to rewrite or route the packets. For example, UniFi routers ship with these default IPv6 firewall rules: Allow Established/Related Traffic (outbound return traffic) Block Invalid Traffic Block All Other Traffic Therefore, in order to allow unsolicited inbound traffic to any IPv6 device hosted behind the router, you must explicitly add a firewall rule to allow the traffic, whether using a NAT or not.
-
-🔗 Read more: https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</description>
-      <guid isPermaLink="true">https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/</guid>
-      <pubDate>Tue, 20 Jan 2026 19:03:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696303</comments>
-    </item>
-    <item>
-      <title>Show HN: Parallel Agentic Search on the Twitter Algorithm</title>
-      <link>https://www.morphllm.com/playground/na/warpgrep?repo=xai-org%2Fx-algorithm</link>
-      <guid isPermaLink="true">https://www.morphllm.com/playground/na/warpgrep?repo=xai-org%2Fx-algorithm</guid>
-      <pubDate>Tue, 20 Jan 2026 22:42:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46698684</comments>
-    </item>
-    <item>
-      <title>Ask HN: Revive a mostly dead Discord server</title>
-      <link>https://news.ycombinator.com/item?id=46697735</link>
-      <description>📝 It's more likely there's about 10-15 that are paying attention to anything happening. It's a Discord that originally focused on DevOps. Are people even interested in Discord servers any more.
-
-🔗 Read more: https://news.ycombinator.com/item?id=46697735</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46697735</guid>
-      <pubDate>Tue, 20 Jan 2026 21:05:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46697735</comments>
-    </item>
-    <item>
-      <title>Show HN: Agent Skills Leaderboard</title>
-      <link>https://skills.sh</link>
-      <description>📝 Skills Leaderboard/All TimeTrending (24h)#SkillInstalls1vercel-react-best-practicesvercel-labs/agent-skills22. 5K2web-design-guidelinesvercel-labs/agent-skills17. 0K7deploymentexpo/skills9758api-routesexpo/skills9389use-domexpo/skills90810cicd-workflowsexpo/skills90311tailwind-setupexpo/skills87412better-auth-best-practicesbetter-auth/skills85013skill-creatoranthropics/skills73314react-native-best-practicescallstackincubator/agent-skills68515create-auth-skillbetter-auth/skills64816frontend-designanthropics/skills60517remotion-best-practicesremotion-dev/skills59218agent-browservercel-labs/agent-browser45919baoyu-article-illustratorjimliu/baoyu-skills42220baoyu-cover-imagejimliu/baoyu-skills42021baoyu-slide-deckjimliu/baoyu-skills41822baoyu-comicjimliu/baoyu-skills39123baoyu-xhs-imagesjimliu/baoyu-skills37124baoyu-post-to-wechatjimliu/baoyu-skills35025copywritingcoreyhaines31/marketingskills34526baoyu-post-to-xjimliu/baoyu-skills34327pdfanthropics/skills33128seo-auditcoreyhaines31/marketingskills31429programmatic-seocoreyhaines31/marketingskills29530webapp-testinganthropics/skills28831marketing-psychologycoreyhaines31/marketingskills28632marketing-ideascoreyhaines31/marketingskills28233mcp-builderanthropics/skills28134copy-editingcoreyhaines31/marketingskills27935xlsxanthropics/skills27836docxanthropics/skills27737page-crocoreyhaines31/marketingskills27738humanizer-zhop7418/Humanizer-zh27439pricing-strategycoreyhaines31/marketingskills27140competitor-alternativescoreyhaines31/marketingskills26741pptxanthropics/skills26742social-contentcoreyhaines31/marketingskills26543canvas-designanthropics/skills26544launch-strategycoreyhaines31/marketingskills26445email-sequencecoreyhaines31/marketingskills25846onboarding-crocoreyhaines31/marketingskills25647release-skillsjimliu/baoyu-skills25548brainstormingobra/superpowers25249analytics-trackingcoreyhaines31/marketingskills24950schema-markupcoreyhaines31/marketingskills24951signup-flow-crocoreyhaines31/marketingskills24752paid-adscoreyhaines31/marketingskills24753form-crocoreyhaines31/marketingskills24454free-tool-strategycoreyhaines31/marketingskills24355baoyu-danger-gemini-webjimliu/baoyu-skills24356referral-programcoreyhaines31/marketingskills23857popup-crocoreyhaines31/marketingskills23758ab-test-setupcoreyhaines31/marketingskills23559paywall-upgrade-crocoreyhaines31/marketingskills23260baoyu-compress-imagejimliu/baoyu-skills23261theme-factoryanthropics/skills22962vueonmax/nuxt-skills22463baoyu-danger-x-to-markdownjimliu/baoyu-skills21764Better Auth Best Practicesbetter-auth/skills20665internal-commsanthropics/skills20666nuxtonmax/nuxt-skills20567brand-guidelinesanthropics/skills20468test-driven-developmentobra/superpowers20069web-artifacts-builderanthropics/skills20070doc-coauthoringanthropics/skills19971systematic-debuggingobra/superpowers19772algorithmic-artanthropics/skills19373verification-before-completionobra/superpowers18474template-skillanthropics/skills18475writing-skillsobra/superpowers18376writing-plansobra/superpowers18377executing-plansobra/superpowers18278slack-gif-creatoranthropics/skills18079ui-ux-pro-maxnextlevelbuilder/ui-ux-pro-max-skill18080subagent-driven-developmentobra/superpowers17981using-superpowersobra/superpowers17982requesting-code-reviewobra/superpowers17783receiving-code-reviewobra/superpowers17584dispatching-parallel-agentsobra/superpowers17385nuxt-uionmax/nuxt-skills16886finishing-a-development-branchobra/superpowers16787using-git-worktreesobra/superpowers16688ts-libraryonmax/nuxt-skills13889Create Auth Skillbetter-auth/skills13490baoyu-gemini-webjimliu/baoyu-skills12891reka-uionmax/nuxt-skills12292planning-with-filesOthmanAdi/planning-with-files11393obsidian-markdownkepano/obsidian-skills9694obsidian-baseskepano/obsidian-skills9395nuxt-modulesonmax/nuxt-skills9396ui-skillsibelick/ui-skills9397json-canvaskepano/obsidian-skills9398building-native-uiexpo/skills9299document-writeronmax/nuxt-skills91100elysiajselysiajs/skills87101nuxt-contentonmax/nuxt-skills85102nuxt-better-authonmax/nuxt-skills82103nuxthubonmax/nuxt-skills73104expo-tailwind-setupexpo/skills72105expo-deploymentexpo/skills72106native-data-fetchingexpo/skills71107expo-api-routesexpo/skills69108ask-questions-if-underspecifiedtrailofbits/skills68109motiononmax/nuxt-skills68110expo-dev-clientexpo/skills64111expo-cicd-workflowsexpo/skills62112genpaku-contextubie-inc/agent-skills58113three-best-practicesemalorenzo/three-agent-skills57114code-reviewskillcreatorai/Ai-Agent-Skills57115notebooklmPleasePrompto/notebooklm-skill56116openrouter-typescript-sdkOpenRouterTeam/agent-skills53117semgreptrailofbits/skills52118solana-vulnerability-scannertrailofbits/skills51119spec-to-code-compliancetrailofbits/skills51120codexubie-inc/agent-skills51121r3f-best-practicesemalorenzo/three-agent-skills50122secure-workflow-guidetrailofbits/skills50123property-based-testingtrailofbits/skil.
-
-🔗 Read more: https://skills.sh</description>
-      <guid isPermaLink="true">https://skills.sh</guid>
-      <pubDate>Tue, 20 Jan 2026 21:22:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46697908</comments>
+🔗 Read more: https://etn.se/index.php/nyheter/72808-curl-removes-bug-bounties.html</description>
+      <guid isPermaLink="true">https://etn.se/index.php/nyheter/72808-curl-removes-bug-bounties.html</guid>
+      <pubDate>Wed, 21 Jan 2026 06:07:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46701733</comments>
     </item>
   </channel>
 </rss>
