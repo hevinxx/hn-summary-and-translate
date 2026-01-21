@@ -6,80 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 20 Jan 2026 21:22:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 01:50:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>LLM을 벤치마킹하지 않으면 5~10배의 초과 지불이 발생할 가능성이 높습니다.</title>
-      <link>https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</link>
-      <description>📝 2단계: 예상 출력 정의 각 예에서 친구의 실제 응답을 예상 출력으로 사용했습니다. 50개 이상의 모델에서 이를 실행하면 모델당 프롬프트, 예상 응답 및 실제 응답이 포함된 데이터 프레임이 제공됩니다. 따라서 이것은 이 목록에서 제안하는 것보다 더 반복적이었습니다.
+      <title>Claude Chill: 터미널에서 Claude Code의 깜박임 수정</title>
+      <link>https://github.com/davidbeesley/claude-chill</link>
+      <description>📝 claude-chill VT 기반 렌더링을 사용하여 Claude Code의 대규모 터미널 업데이트를 관리하는 PTY 프록시입니다. 문제 클로드 코드는 동기화된 출력을 사용하여 터미널을 원자적으로 업데이트합니다. 솔루션 claude-chill은 터미널과 Claude 코드 사이에 있습니다. 동기화 블록을 가로채기 - 대규모 원자 업데이트를 포착합니다. VT 기반 렌더링 - VT100 에뮬레이터를 사용하여 화면 상태를 추적하고 차이점만 렌더링합니다. 기록 보존 - 조회를 위해 버퍼에 콘텐츠를 축적합니다. 조회 활성화 - 키를 눌러 Claude를 일시 중지하고 전체 기록 버퍼를 봅니다. 설치 화물 설치 --path crates/claude-chill 사용법 claude-chill claude claude-chill -- claude --verbose # 명령 플래그에 -- 사용 명령줄 도움말 $ claude-chill --help Claude Code의 대규모 터미널 업데이트를 관리하는 PTY 프록시 사용법: claude-chill [OPTIONS] &lt;COMMAND&gt; [ARGS].
 
 
-🔤 Original: Without benchmarking LLMs, you're likely overpaying 5-10x
+🔤 Original: Claude Chill: Fix Claude Code's Flickering in Terminal
 
-🔗 Read more: https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</description>
-      <guid isPermaLink="true">https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</guid>
-      <pubDate>Tue, 20 Jan 2026 19:03:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696300</comments>
+🔗 Read more: https://github.com/davidbeesley/claude-chill</description>
+      <guid isPermaLink="true">https://github.com/davidbeesley/claude-chill</guid>
+      <pubDate>Tue, 20 Jan 2026 23:26:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699072</comments>
     </item>
     <item>
-      <title>Instabridge가 Nova Launcher를 인수했습니다.</title>
-      <link>https://novalauncher.com/nova-is-here-to-stay</link>
-      <description>📝 Nova는 여전히 Nova처럼 느껴질까요? Nova Prime은 광고 없이도 유지됩니다. Nova는 오픈 소스가 될까요?
+      <title>캘리포니아는 25년 만에 처음으로 가뭄이 사라졌습니다.</title>
+      <link>https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</link>
+      <description>📝 그 전에 캘리포니아는 2012년부터 2016년까지 극심한 가뭄에 시달렸습니다. 기후와 환경 L. 역사상 가장 파괴적인 산불은 기후변화로 인해 더욱 악화되었습니다. 캘리포니아 산불은 극도로 건조한 환경에서 발생했습니다.
 
 
-🔤 Original: Instabridge has acquired Nova Launcher
+🔤 Original: California is free of drought for the first time in 25 years
 
-🔗 Read more: https://novalauncher.com/nova-is-here-to-stay</description>
-      <guid isPermaLink="true">https://novalauncher.com/nova-is-here-to-stay</guid>
-      <pubDate>Tue, 20 Jan 2026 19:06:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696357</comments>
+🔗 Read more: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</description>
+      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</guid>
+      <pubDate>Tue, 20 Jan 2026 22:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698660</comments>
     </item>
     <item>
-      <title>HN 표시: Gatsby 개발자의 오픈 소스 JavaScript 에이전트 프레임워크인 Mastra 1.0</title>
-      <link>https://github.com/mastra-ai/mastra</link>
-      <description>📝 Mastra Mastra는 최신 TypeScript 스택을 사용하여 AI 기반 애플리케이션 및 에이전트를 구축하기 위한 프레임워크입니다. Mastra는 React, Next와 같은 프런트엔드 및 백엔드 프레임워크와 통합됩니다. 에이전트 - LLM 및 도구를 사용하여 개방형 작업을 해결하는 자율 에이전트를 구축합니다.
+      <title>실행 추적을 통해 악의적인 행위를 입증할 수 있음</title>
+      <link>https://arxiv.org/abs/2512.13821</link>
+      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
 
 
-🔤 Original: Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs
+🔤 Original: Provably unmasking malicious behavior through execution traces
 
-🔗 Read more: https://github.com/mastra-ai/mastra</description>
-      <guid isPermaLink="true">https://github.com/mastra-ai/mastra</guid>
-      <pubDate>Tue, 20 Jan 2026 16:38:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46693959</comments>
+🔗 Read more: https://arxiv.org/abs/2512.13821</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.13821</guid>
+      <pubDate>Tue, 20 Jan 2026 22:18:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698469</comments>
     </item>
     <item>
-      <title>"좋아요자"가 비공개로 전환되는 경우: X에서 평판이 위험한 콘텐츠에 대한 참여</title>
-      <link>https://arxiv.org/abs/2601.11140</link>
-      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위 코드란 무엇입니까?
+      <title>어떤 AI가 가장 거짓말을 잘하는가? John Nash가 디자인한 게임 이론의 고전</title>
+      <link>https://so-long-sucker.vercel.app/</link>
+      <description>📝 162개의 게임에서 어떤 AI가 가장 거짓말을 하는지 분석했습니다. 승리하려면 배신이 필요하다는 John Nash가 디자인한 게임 이론의 고전입니다. 3 → 5 → 7 플레이어당 칩 15,736 총 AI 결정 4,768 메시지 교환 237 가스라이팅 문구 AI 반대 플레이 연구 읽기.
 
 
-🔤 Original: When "Likers'' Go Private: Engagement with Reputationally Risky Content on X
+🔤 Original: Which AI Lies Best? A game theory classic designed by John Nash
 
-🔗 Read more: https://arxiv.org/abs/2601.11140</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.11140</guid>
-      <pubDate>Tue, 20 Jan 2026 18:40:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46695978</comments>
+🔗 Read more: https://so-long-sucker.vercel.app/</description>
+      <guid isPermaLink="true">https://so-long-sucker.vercel.app/</guid>
+      <pubDate>Tue, 20 Jan 2026 22:09:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698370</comments>
     </item>
     <item>
-      <title>사기꾼의 청사진: 사이버범죄자들이 일주일 안에 목표물을 털려고 계획하는 방법</title>
-      <link>https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</link>
-      <description>📝 PAOCC는 그들 중 다수가 인신매매 피해자였다고 말했습니다. 로이터는 두 매뉴얼 중 어느 것이든 사기에 사용되었는지 여부를 확인할 수 없었습니다. 사기를 연구하고 로이터 통신의 해당 매뉴얼을 검토한 심리학자에 따르면, 로맨스 사기꾼은 종종 여성 피해자를 표적으로 삼을 때 권위 있는 인물을 사칭한 다음 그들을 통제하는 것으로 나타났습니다.
+      <title>일시 삭제의 과제</title>
+      <link>https://atlas9.dev/blog/soft-delete.html</link>
+      <description>📝 원치 않는 경우 보관된 데이터가 실수로 유출될 위험은 항상 존재합니다. 마이그레이션에서는 보관된 데이터도 처리해야 합니다. 이러한 모든 접근 방식은 보관된 데이터를 라이브 데이터와 별도로 저장합니다. 즉, 별도의 데이터베이스 테이블, 별도의 데이터베이스, 객체 스토리지 등이 될 수 있습니다.
 
 
-🔤 Original: A scammer's blueprint: How cybercriminals plot to rob a target in a week
+🔤 Original: The challenges of soft delete
 
-🔗 Read more: https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</description>
-      <guid isPermaLink="true">https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</guid>
-      <pubDate>Tue, 20 Jan 2026 20:23:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46697287</comments>
+🔗 Read more: https://atlas9.dev/blog/soft-delete.html</description>
+      <guid isPermaLink="true">https://atlas9.dev/blog/soft-delete.html</guid>
+      <pubDate>Tue, 20 Jan 2026 21:36:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698061</comments>
     </item>
     <item>
-      <title>우리가 아직도 이해하지 못하는 중세의 비밀 터널</title>
-      <link>https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</link>
-      <guid isPermaLink="true">https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</guid>
-      <pubDate>Tue, 20 Jan 2026 19:32:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696683</comments>
+      <title>연령 예측에 대한 우리의 접근 방식</title>
+      <link>https://openai.com/index/our-approach-to-age-prediction/</link>
+      <guid isPermaLink="true">https://openai.com/index/our-approach-to-age-prediction/</guid>
+      <pubDate>Tue, 20 Jan 2026 19:34:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696699</comments>
+    </item>
+    <item>
+      <title>비즈니스용 RCS</title>
+      <link>https://developers.google.com/business-communications/rcs-business-messaging</link>
+      <description>📝 자세히 알아보기 RCS for Business 파트너가 될 준비가 되었습니다. 파트너 관심 양식 arrow_forward 파트너 개발자 문서 최신 개발자 문서를 검토하세요. 자세히 알아보기 개발자 콘솔 비즈니스 커뮤니케이션 개발자 콘솔을 엽니다.
+
+
+🔤 Original: RCS for Business
+
+🔗 Read more: https://developers.google.com/business-communications/rcs-business-messaging</description>
+      <guid isPermaLink="true">https://developers.google.com/business-communications/rcs-business-messaging</guid>
+      <pubDate>Tue, 20 Jan 2026 04:14:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46687841</comments>
+    </item>
+    <item>
+      <title>유지 관리: 모든 것, 1부</title>
+      <link>https://press.stripe.com/maintenance-part-one</link>
+      <description>📝 맛있게 잘 먹은 책. The Rational Optimist의 Matt Ridley 저자 Stewart Brand는 다시 한 번 우리의 세계관을 새로운 관점으로 재구성합니다. 이 책은 스튜어트 브랜드의 최고의 작품이다.
+
+
+🔤 Original: Maintenance: Of Everything, Part One
+
+🔗 Read more: https://press.stripe.com/maintenance-part-one</description>
+      <guid isPermaLink="true">https://press.stripe.com/maintenance-part-one</guid>
+      <pubDate>Tue, 20 Jan 2026 19:01:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696276</comments>
+    </item>
+    <item>
+      <title>우주의 신비를 풀기 위한 달 전파 망원경</title>
+      <link>https://spectrum.ieee.org/lunar-radio-telescope</link>
+      <description>📝 전파 망원경을 놓기에 이보다 더 좋고 더 외로운 장소가 있을까요? 그는 달에 갈 수 있는 전파 망원경에 대한 수많은 디자인을 제안하는 데 동참했습니다. 달 기반 전파 망원경은 우주 과학의 가장 큰 미스터리를 푸는 데 도움이 될 수 있습니다.
+
+
+🔤 Original: Lunar Radio Telescope to Unlock Cosmic Mysteries
+
+🔗 Read more: https://spectrum.ieee.org/lunar-radio-telescope</description>
+      <guid isPermaLink="true">https://spectrum.ieee.org/lunar-radio-telescope</guid>
+      <pubDate>Tue, 20 Jan 2026 22:36:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698623</comments>
+    </item>
+    <item>
+      <title>Cloudflare 제로데이: 전 세계적으로 모든 호스트에 액세스</title>
+      <link>https://fearsoff.org/research/cloudflare-acme</link>
+      <description>📝 FearsOff는 사이버 보안의 궁극적인 솔루션입니다. 디지털 보안을 한 단계 더 발전시킬 준비가 되셨습니까? 당사의 엘리트 정보 보안 전문가가 귀하의 조직이 사이버 공격에 대비할 수 있도록 지원해 드립니다.
+
+
+🔤 Original: Cloudflare zero-day: Accessing any host globally
+
+🔗 Read more: https://fearsoff.org/research/cloudflare-acme</description>
+      <guid isPermaLink="true">https://fearsoff.org/research/cloudflare-acme</guid>
+      <pubDate>Tue, 20 Jan 2026 16:25:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46693728</comments>
+    </item>
+    <item>
+      <title>Skill.md용 Dockerhub</title>
+      <link>https://skillregistry.io/</link>
+      <description>📝 mdHubClaude, ChatGPT, AI 에이전트용 기술을 찾아 설치하세요. SKILLS에 대한 최종 레지스트리입니다. SkillCopy 설치 명령SkillRegistry 통계61사용 가능한 AI 스킬 수509총 다운로드 수19스킬 기여자.
+
+
+🔤 Original: Dockerhub for Skill.md
+
+🔗 Read more: https://skillregistry.io/</description>
+      <guid isPermaLink="true">https://skillregistry.io/</guid>
+      <pubDate>Tue, 20 Jan 2026 15:19:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692692</comments>
+    </item>
+    <item>
+      <title>일본 스낵바의 세계</title>
+      <link>https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</link>
+      <description>📝 2021년부터 여행자를 위해 일본 전역의 스낵바 투어를 제공해 온 Snack Yokocho Culture Inc의 사장이자 이사인 이가라시 마유코(Mayuko Igarashi)는 "많은 관광객이 상상하는 바와 나이트클럽과는 달리 스낵바는 따뜻하고 집과 같은 곳입니다."라고 말했습니다. "스낵바는 일본이 2차 세계 대전 이후 복구 과정에서 등장했습니다. Michelle GrossMany 스낵바는 의자 몇 개와 작은 주방이 있는 카운터에 불과합니다. (제공: Michelle 총) 1960년대 후반에는 여성이 운영하는 스낵바가 전국적으로 확산되었다.
+
+
+🔤 Original: The world of Japanese snack bars
+
+🔗 Read more: https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</description>
+      <guid isPermaLink="true">https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</guid>
+      <pubDate>Tue, 20 Jan 2026 21:34:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698038</comments>
+    </item>
+    <item>
+      <title>루돌프의 코는 누구의 소유입니까?</title>
+      <link>https://creativelawcenter.com/copyright-rudolph-reindeer/</link>
+      <guid isPermaLink="true">https://creativelawcenter.com/copyright-rudolph-reindeer/</guid>
+      <pubDate>Wed, 21 Jan 2026 00:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699597</comments>
+    </item>
+    <item>
+      <title>HN 표시: TopicRadar – HN, GitHub, ArXiv 등에서 인기 주제를 추적합니다.</title>
+      <link>https://apify.com/mick-johnson/topic-radar</link>
+      <description>📝 빠른 추세 확인 즉각적인 통찰력을 위해 인기 있는 주제 사용: { "searchMode": "trending-startup"} 2. 시장 조사 경쟁사, 업계 동향 및 신흥 기술 추적: { "searchMode": "custom", "topics": ["your-competitor-name", "industry-trend"], "sources": ["hackernews", "github"], "timeRange": "7d"} 3. 콘텐츠 생성 인기 있는 주제 및 인기 찾기 콘텐츠 아이디어에 대한 토론: { "searchMode": "trending-dev", "rankingStrategy": "engagement"} 4.
+
+
+🔤 Original: Show HN: TopicRadar – Track trending topics across HN, GitHub, ArXiv, and more
+
+🔗 Read more: https://apify.com/mick-johnson/topic-radar</description>
+      <guid isPermaLink="true">https://apify.com/mick-johnson/topic-radar</guid>
+      <pubDate>Tue, 20 Jan 2026 14:47:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692347</comments>
+    </item>
+    <item>
+      <title>HN 표시: Git 분기 모델이 포함된 macOS 기본 DAW</title>
+      <link>https://www.scratchtrackaudio.com</link>
+      <description>📝 작동하는 것을 다시 병합하십시오. 귀하의 작업은 항상 접근 가능합니다. 01세션 녹음자동 테이크 관리로 멀티 트랙 녹음을 캡처하세요.
+
+
+🔤 Original: Show HN: macOS native DAW with Git branching model
+
+🔗 Read more: https://www.scratchtrackaudio.com</description>
+      <guid isPermaLink="true">https://www.scratchtrackaudio.com</guid>
+      <pubDate>Wed, 21 Jan 2026 00:05:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699441</comments>
+    </item>
+    <item>
+      <title>AI 코딩 에이전트의 전력 사용</title>
+      <link>https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</link>
+      <description>📝 핵심 시스템 프롬프트. 웹 전용인가요, API 전용인가요, 둘 다인가요? ” 클로드 코드는 이것과 어떻게 다른가요?
+
+
+🔤 Original: Electricity use of AI coding agents
+
+🔗 Read more: https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</description>
+      <guid isPermaLink="true">https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</guid>
+      <pubDate>Tue, 20 Jan 2026 18:02:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46695415</comments>
     </item>
   </channel>
 </rss>

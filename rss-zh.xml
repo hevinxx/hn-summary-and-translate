@@ -6,80 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 20 Jan 2026 21:22:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 01:50:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>如果没有对 LLM 进行基准测试，您可能会多付 5-10 倍的费用</title>
-      <link>https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</link>
-      <description>📝 步骤 2：定义预期输出 对于每个示例，我们使用我朋友的实际响应作为预期输出。在 50 多个模型上运行此模型为我们提供了一个数据框，其中包含：每个模型的提示、预期响应和实际响应。所以这比这个列表建议的更迭代。
+      <title>Claude Chill：修复 Claude Code 在终端中的闪烁问题</title>
+      <link>https://github.com/davidbeesley/claude-chill</link>
+      <description>📝 claude-chill 一个 PTY 代理，使用基于 VT 的渲染来控制 Claude Code 的大量终端更新。问题克劳德代码使用同步输出来自动更新终端。解决方案 claude-chill 位于您的终端和 Claude 代码之间： 拦截同步块 - 捕获那些大量的原子更新 基于 VT 的渲染 - 使用 VT100 模拟器跟踪屏幕状态并仅渲染差异 保留历史记录 - 累积缓冲区中的内容以进行回溯 启用回溯 - 按一个键暂停 Claude 并查看完整的历史缓冲区 安装 Cargo install --path crates/claude-chill 用法 claude-chill claude claude-chill -- claude --verbose # 使用 -- 作为命令标志 命令行帮助 $ claude-chill --help 驯服 Claude Code 大量终端更新的 PTY 代理 用法：claude-chill [OPTIONS] &lt;COMMAND&gt; [ARGS]。
 
 
-🔤 Original: Without benchmarking LLMs, you're likely overpaying 5-10x
+🔤 Original: Claude Chill: Fix Claude Code's Flickering in Terminal
 
-🔗 Read more: https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</description>
-      <guid isPermaLink="true">https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</guid>
-      <pubDate>Tue, 20 Jan 2026 19:03:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696300</comments>
+🔗 Read more: https://github.com/davidbeesley/claude-chill</description>
+      <guid isPermaLink="true">https://github.com/davidbeesley/claude-chill</guid>
+      <pubDate>Tue, 20 Jan 2026 23:26:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699072</comments>
     </item>
     <item>
-      <title>Instabridge 收购了 Nova Launcher</title>
-      <link>https://novalauncher.com/nova-is-here-to-stay</link>
-      <description>📝 Nova 还会像 Nova 一样吗？ Nova Prime 也将保持无广告状态。 Nova 会开源吗？
+      <title>加州25年来首次摆脱干旱</title>
+      <link>https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</link>
+      <description>📝 在此之前，加州在 2012 年至 2016 年期间经历了严重干旱。 气候与环境 气候变化如何加剧了加州历史上最具破坏性的野火 加州大火是在极其干燥的条件下爆发的。
 
 
-🔤 Original: Instabridge has acquired Nova Launcher
+🔤 Original: California is free of drought for the first time in 25 years
 
-🔗 Read more: https://novalauncher.com/nova-is-here-to-stay</description>
-      <guid isPermaLink="true">https://novalauncher.com/nova-is-here-to-stay</guid>
-      <pubDate>Tue, 20 Jan 2026 19:06:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696357</comments>
+🔗 Read more: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</description>
+      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</guid>
+      <pubDate>Tue, 20 Jan 2026 22:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698660</comments>
     </item>
     <item>
-      <title>Show HN：Mastra 1.0，来自 Gatsby 开发人员的开源 JavaScript 代理框架</title>
-      <link>https://github.com/mastra-ai/mastra</link>
-      <description>📝 Mastra Mastra 是一个框架，用于使用现代 TypeScript 堆栈构建人工智能驱动的应用程序和代理。 Mastra 与 React、Next 等前端和后端框架集成。代理 - 构建使用法学硕士和工具来解决开放式任务的自主代理。
-
-
-🔤 Original: Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs
-
-🔗 Read more: https://github.com/mastra-ai/mastra</description>
-      <guid isPermaLink="true">https://github.com/mastra-ai/mastra</guid>
-      <pubDate>Tue, 20 Jan 2026 16:38:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46693959</comments>
-    </item>
-    <item>
-      <title>当“点赞者”私有化时：参与 X 上有声誉风险的内容</title>
-      <link>https://arxiv.org/abs/2601.11140</link>
+      <title>通过执行跟踪证明揭露恶意行为</title>
+      <link>https://arxiv.org/abs/2512.13821</link>
       <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
 
 
-🔤 Original: When "Likers'' Go Private: Engagement with Reputationally Risky Content on X
+🔤 Original: Provably unmasking malicious behavior through execution traces
 
-🔗 Read more: https://arxiv.org/abs/2601.11140</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.11140</guid>
-      <pubDate>Tue, 20 Jan 2026 18:40:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46695978</comments>
+🔗 Read more: https://arxiv.org/abs/2512.13821</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.13821</guid>
+      <pubDate>Tue, 20 Jan 2026 22:18:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698469</comments>
     </item>
     <item>
-      <title>诈骗者的蓝图：网络犯罪分子如何密谋在一周内抢劫目标</title>
-      <link>https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</link>
-      <description>📝 PAOCC 表示，其中许多人是人口贩卖的受害者。路透社无法确定这两本手册是否曾被用于诈骗。研究诈骗并为路透社审阅该手册的心理学家表示，她的研究发现，浪漫诈骗者在瞄准女性受害者时经常冒充权威人物，然后对她们进行控制。
+      <title>哪种人工智能最谎言？约翰·纳什设计的博弈论经典</title>
+      <link>https://so-long-sucker.vercel.app/</link>
+      <description>📝 162 款游戏分析了哪些 AI 最为出色。约翰·纳什设计的博弈论经典，需要背叛才能获胜。 3 → 5 → 7 每个玩家的筹码 15,736 个 AI 决策总数 4,768 条交换消息 237 个煤气灯短语对抗 AI 阅读研究。
 
 
-🔤 Original: A scammer's blueprint: How cybercriminals plot to rob a target in a week
+🔤 Original: Which AI Lies Best? A game theory classic designed by John Nash
 
-🔗 Read more: https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</description>
-      <guid isPermaLink="true">https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</guid>
-      <pubDate>Tue, 20 Jan 2026 20:23:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46697287</comments>
+🔗 Read more: https://so-long-sucker.vercel.app/</description>
+      <guid isPermaLink="true">https://so-long-sucker.vercel.app/</guid>
+      <pubDate>Tue, 20 Jan 2026 22:09:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698370</comments>
     </item>
     <item>
-      <title>我们仍然不了解的秘密中世纪隧道</title>
-      <link>https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</link>
-      <guid isPermaLink="true">https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</guid>
-      <pubDate>Tue, 20 Jan 2026 19:32:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696683</comments>
+      <title>软删除的挑战</title>
+      <link>https://atlas9.dev/blog/soft-delete.html</link>
+      <description>📝 归档数据在不需要时始终存在意外泄漏的风险。迁移还必须处理存档数据。所有这些方法都将归档数据与实时数据分开存储——可能是单独的数据库表、单独的数据库、对象存储等。
+
+
+🔤 Original: The challenges of soft delete
+
+🔗 Read more: https://atlas9.dev/blog/soft-delete.html</description>
+      <guid isPermaLink="true">https://atlas9.dev/blog/soft-delete.html</guid>
+      <pubDate>Tue, 20 Jan 2026 21:36:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698061</comments>
+    </item>
+    <item>
+      <title>我们的年龄预测方法</title>
+      <link>https://openai.com/index/our-approach-to-age-prediction/</link>
+      <guid isPermaLink="true">https://openai.com/index/our-approach-to-age-prediction/</guid>
+      <pubDate>Tue, 20 Jan 2026 19:34:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696699</comments>
+    </item>
+    <item>
+      <title>商业 RCS</title>
+      <link>https://developers.google.com/business-communications/rcs-business-messaging</link>
+      <description>📝 了解更多 准备成为 RCS 业务合作伙伴。合作伙伴兴趣表 arrow_forward 合作伙伴开发人员文档 查看最新的开发人员文档。了解更多 开发人员控制台 打开业务通信开发人员控制台。
+
+
+🔤 Original: RCS for Business
+
+🔗 Read more: https://developers.google.com/business-communications/rcs-business-messaging</description>
+      <guid isPermaLink="true">https://developers.google.com/business-communications/rcs-business-messaging</guid>
+      <pubDate>Tue, 20 Jan 2026 04:14:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46687841</comments>
+    </item>
+    <item>
+      <title>维护：一切，第一部分</title>
+      <link>https://press.stripe.com/maintenance-part-one</link>
+      <description>📝 一本美味的好书。马特·里德利 (Matt Ridley) 《理性乐观主义者》一书的作者 斯图尔特·布兰德 (Stewart Brand) 再次以新的视角重塑了我们的世界观。这本书是斯图尔特·布兰德的巅峰之作。
+
+
+🔤 Original: Maintenance: Of Everything, Part One
+
+🔗 Read more: https://press.stripe.com/maintenance-part-one</description>
+      <guid isPermaLink="true">https://press.stripe.com/maintenance-part-one</guid>
+      <pubDate>Tue, 20 Jan 2026 19:01:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696276</comments>
+    </item>
+    <item>
+      <title>月球射电望远镜将解开宇宙之谜</title>
+      <link>https://spectrum.ieee.org/lunar-radio-telescope</link>
+      <description>📝 难道还有更好、更偏僻的地方来放置射电望远镜吗？他参与提出了无数可以前往月球的射电望远镜的设计方案。月球射电望远镜可以帮助解开空间科学中一些最大的谜团。
+
+
+🔤 Original: Lunar Radio Telescope to Unlock Cosmic Mysteries
+
+🔗 Read more: https://spectrum.ieee.org/lunar-radio-telescope</description>
+      <guid isPermaLink="true">https://spectrum.ieee.org/lunar-radio-telescope</guid>
+      <pubDate>Tue, 20 Jan 2026 22:36:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698623</comments>
+    </item>
+    <item>
+      <title>Cloudflare 零日：访问全球任何主机</title>
+      <link>https://fearsoff.org/research/cloudflare-acme</link>
+      <description>📝 FearsOff 是您网络安全的终极解决方案。您准备好将您的数字安全提升到新的水平了吗？让我们的精英信息安全专家协助您的组织做好抵御任何网络攻击的准备。
+
+
+🔤 Original: Cloudflare zero-day: Accessing any host globally
+
+🔗 Read more: https://fearsoff.org/research/cloudflare-acme</description>
+      <guid isPermaLink="true">https://fearsoff.org/research/cloudflare-acme</guid>
+      <pubDate>Tue, 20 Jan 2026 16:25:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46693728</comments>
+    </item>
+    <item>
+      <title>Skill.md 的 Dockerhub</title>
+      <link>https://skillregistry.io/</link>
+      <description>📝 mdHub查找并安装 Claude、ChatGPT 和 AI 代理的技能。技能的权威注册表。技能复制安装命令技能注册表统计61可用AI技能509总下载19技能贡献者。
+
+
+🔤 Original: Dockerhub for Skill.md
+
+🔗 Read more: https://skillregistry.io/</description>
+      <guid isPermaLink="true">https://skillregistry.io/</guid>
+      <pubDate>Tue, 20 Jan 2026 15:19:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692692</comments>
+    </item>
+    <item>
+      <title>日本小吃店的世界</title>
+      <link>https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</link>
+      <description>📝 “与许多游客想象中的酒吧或夜总会不同，小吃店是温馨、像家一样的地方，”Snack Yokocho Culture Inc 总裁兼董事 Mayuko Igarashi 说，该公司自 2021 年以来一直为游客提供日本各地小吃店之旅。“小吃店是在日本二战后经济复苏期间出现的。米歇尔·格罗斯（Michelle Gross）许多小吃店只不过是一个带有几张凳子和一个小厨房的柜台（图片来源：Michelle）到 20 世纪 60 年代末，女性经营的小吃店在全国范围内激增。
+
+
+🔤 Original: The world of Japanese snack bars
+
+🔗 Read more: https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</description>
+      <guid isPermaLink="true">https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</guid>
+      <pubDate>Tue, 20 Jan 2026 21:34:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698038</comments>
+    </item>
+    <item>
+      <title>谁拥有鲁道夫的鼻子？</title>
+      <link>https://creativelawcenter.com/copyright-rudolph-reindeer/</link>
+      <guid isPermaLink="true">https://creativelawcenter.com/copyright-rudolph-reindeer/</guid>
+      <pubDate>Wed, 21 Jan 2026 00:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699597</comments>
+    </item>
+    <item>
+      <title>Show HN：TopicRadar – 跟踪 HN、GitHub、ArXiv 等的热门主题</title>
+      <link>https://apify.com/mick-johnson/topic-radar</link>
+      <description>📝 快速趋势检查 使用趋势主题即时洞察： { "searchMode": "trending-startup"} 2. 市场研究 跟踪竞争对手、行业趋势和新兴技术： { "searchMode": "custom", "topics": ["your-competitor-name", "industry-trend"], "sources": ["hackernews", "github"], "timeRange": "7d"} 3. 内容创建 查找趋势主题以及内容创意的热门讨论：{ "searchMode": "trending-dev", "rankingStrategy": "engagement"} 4.
+
+
+🔤 Original: Show HN: TopicRadar – Track trending topics across HN, GitHub, ArXiv, and more
+
+🔗 Read more: https://apify.com/mick-johnson/topic-radar</description>
+      <guid isPermaLink="true">https://apify.com/mick-johnson/topic-radar</guid>
+      <pubDate>Tue, 20 Jan 2026 14:47:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692347</comments>
+    </item>
+    <item>
+      <title>Show HN：具有 Git 分支模型的 macOS 原生 DAW</title>
+      <link>https://www.scratchtrackaudio.com</link>
+      <description>📝 合并回有效的内容。您的工作始终可以访问。 01录制您的会话通过自动录音管理捕获多轨录音。
+
+
+🔤 Original: Show HN: macOS native DAW with Git branching model
+
+🔗 Read more: https://www.scratchtrackaudio.com</description>
+      <guid isPermaLink="true">https://www.scratchtrackaudio.com</guid>
+      <pubDate>Wed, 21 Jan 2026 00:05:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699441</comments>
+    </item>
+    <item>
+      <title>AI编码代理的用电</title>
+      <link>https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</link>
+      <description>📝 核心系统提示。这是仅限 Web 的、仅限 API 的，还是两者兼而有之。克劳德·科德与此有何不同。
+
+
+🔤 Original: Electricity use of AI coding agents
+
+🔗 Read more: https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</description>
+      <guid isPermaLink="true">https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</guid>
+      <pubDate>Tue, 20 Jan 2026 18:02:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46695415</comments>
     </item>
   </channel>
 </rss>

@@ -6,65 +6,162 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Jan 2026 21:22:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 01:50:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Without benchmarking LLMs, you're likely overpaying 5-10x</title>
-      <link>https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</link>
-      <description>📝 Step 2: Define the expected output For each example, we used my friend's actual response as the expected output. Running this across 50+ models gave us a dataframe with: prompt, expected response, and actual response per model. So this was more iterative than this list suggests.
+      <title>Claude Chill: Fix Claude Code's Flickering in Terminal</title>
+      <link>https://github.com/davidbeesley/claude-chill</link>
+      <description>📝 claude-chill A PTY proxy that tames Claude Code's massive terminal updates using VT-based rendering. The Problem Claude Code uses synchronized output to update the terminal atomically. The Solution claude-chill sits between your terminal and Claude Code: Intercepts sync blocks - Catches those massive atomic updates VT-based rendering - Uses a VT100 emulator to track screen state and renders only the differences Preserves history - Accumulates content in a buffer for lookback Enables lookback - Press a key to pause Claude and view the full history buffer Installation cargo install --path crates/claude-chill Usage claude-chill claude claude-chill -- claude --verbose # Use -- for command flags Command Line Help $ claude-chill --help A PTY proxy that tames Claude Code's massive terminal updates Usage: claude-chill [OPTIONS] &lt;COMMAND&gt; [ARGS].
 
-🔗 Read more: https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</description>
-      <guid isPermaLink="true">https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</guid>
-      <pubDate>Tue, 20 Jan 2026 19:03:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696300</comments>
+🔗 Read more: https://github.com/davidbeesley/claude-chill</description>
+      <guid isPermaLink="true">https://github.com/davidbeesley/claude-chill</guid>
+      <pubDate>Tue, 20 Jan 2026 23:26:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699072</comments>
     </item>
     <item>
-      <title>Instabridge has acquired Nova Launcher</title>
-      <link>https://novalauncher.com/nova-is-here-to-stay</link>
-      <description>📝 Will Nova still feel like Nova. Nova Prime will also remain ad free. Will Nova become open source.
+      <title>California is free of drought for the first time in 25 years</title>
+      <link>https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</link>
+      <description>📝 Before that, California was in a severe drought from 2012 through 2016. Climate &amp; Environment How climate change worsened the most destructive wildfires in L. history The California fires erupted amid extremely dry conditions.
 
-🔗 Read more: https://novalauncher.com/nova-is-here-to-stay</description>
-      <guid isPermaLink="true">https://novalauncher.com/nova-is-here-to-stay</guid>
-      <pubDate>Tue, 20 Jan 2026 19:06:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696357</comments>
+🔗 Read more: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</description>
+      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</guid>
+      <pubDate>Tue, 20 Jan 2026 22:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698660</comments>
     </item>
     <item>
-      <title>Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs</title>
-      <link>https://github.com/mastra-ai/mastra</link>
-      <description>📝 Mastra Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack. Mastra integrates with frontend and backend frameworks like React, Next. Agents - Build autonomous agents that use LLMs and tools to solve open-ended tasks.
-
-🔗 Read more: https://github.com/mastra-ai/mastra</description>
-      <guid isPermaLink="true">https://github.com/mastra-ai/mastra</guid>
-      <pubDate>Tue, 20 Jan 2026 16:38:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46693959</comments>
-    </item>
-    <item>
-      <title>When "Likers'' Go Private: Engagement with Reputationally Risky Content on X</title>
-      <link>https://arxiv.org/abs/2601.11140</link>
+      <title>Provably unmasking malicious behavior through execution traces</title>
+      <link>https://arxiv.org/abs/2512.13821</link>
       <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
 
-🔗 Read more: https://arxiv.org/abs/2601.11140</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.11140</guid>
-      <pubDate>Tue, 20 Jan 2026 18:40:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46695978</comments>
+🔗 Read more: https://arxiv.org/abs/2512.13821</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.13821</guid>
+      <pubDate>Tue, 20 Jan 2026 22:18:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698469</comments>
     </item>
     <item>
-      <title>A scammer's blueprint: How cybercriminals plot to rob a target in a week</title>
-      <link>https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</link>
-      <description>📝 Many of them were trafficking victims, PAOCC said. Reuters could not establish if either manual was ever used in a scam. -based psychologist who studies scams and reviewed that manual for Reuters, said her research found that romance scammers often impersonated authority figures when targeting female victims, and then used control against them.
+      <title>Which AI Lies Best? A game theory classic designed by John Nash</title>
+      <link>https://so-long-sucker.vercel.app/</link>
+      <description>📝 162 Games Analyzed Which AI Lies Best. A game theory classic designed by John Nash that requires betrayal to win. 3 → 5 → 7 Chips Per Player 15,736 Total AI Decisions 4,768 Messages Exchanged 237 Gaslighting Phrases Play Against AI Read Research.
 
-🔗 Read more: https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</description>
-      <guid isPermaLink="true">https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</guid>
-      <pubDate>Tue, 20 Jan 2026 20:23:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46697287</comments>
+🔗 Read more: https://so-long-sucker.vercel.app/</description>
+      <guid isPermaLink="true">https://so-long-sucker.vercel.app/</guid>
+      <pubDate>Tue, 20 Jan 2026 22:09:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698370</comments>
     </item>
     <item>
-      <title>The secret medieval tunnels that we still don't understand</title>
-      <link>https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</link>
-      <guid isPermaLink="true">https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</guid>
-      <pubDate>Tue, 20 Jan 2026 19:32:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696683</comments>
+      <title>The challenges of soft delete</title>
+      <link>https://atlas9.dev/blog/soft-delete.html</link>
+      <description>📝 There's always a risk that archived data accidentally leaks in when it's not wanted. Migrations have to deal with archived data too. All these approaches store archived data separately from live data – that may be a separate database table, a separate database, object storage, etc.
+
+🔗 Read more: https://atlas9.dev/blog/soft-delete.html</description>
+      <guid isPermaLink="true">https://atlas9.dev/blog/soft-delete.html</guid>
+      <pubDate>Tue, 20 Jan 2026 21:36:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698061</comments>
+    </item>
+    <item>
+      <title>Our approach to age prediction</title>
+      <link>https://openai.com/index/our-approach-to-age-prediction/</link>
+      <guid isPermaLink="true">https://openai.com/index/our-approach-to-age-prediction/</guid>
+      <pubDate>Tue, 20 Jan 2026 19:34:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696699</comments>
+    </item>
+    <item>
+      <title>RCS for Business</title>
+      <link>https://developers.google.com/business-communications/rcs-business-messaging</link>
+      <description>📝 Learn more Ready to become an RCS for Business partner. Partner interest form arrow_forward Partner developer docs Review the latest developer documentation. Learn more Developer Console Open the Business Communications Developer Console.
+
+🔗 Read more: https://developers.google.com/business-communications/rcs-business-messaging</description>
+      <guid isPermaLink="true">https://developers.google.com/business-communications/rcs-business-messaging</guid>
+      <pubDate>Tue, 20 Jan 2026 04:14:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46687841</comments>
+    </item>
+    <item>
+      <title>Maintenance: Of Everything, Part One</title>
+      <link>https://press.stripe.com/maintenance-part-one</link>
+      <description>📝 A deliciously good book. Matt Ridley author of The Rational Optimist Once again, Stewart Brand reframes our worldview with a new perspective. This book is Stewart Brand at his best.
+
+🔗 Read more: https://press.stripe.com/maintenance-part-one</description>
+      <guid isPermaLink="true">https://press.stripe.com/maintenance-part-one</guid>
+      <pubDate>Tue, 20 Jan 2026 19:01:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696276</comments>
+    </item>
+    <item>
+      <title>Lunar Radio Telescope to Unlock Cosmic Mysteries</title>
+      <link>https://spectrum.ieee.org/lunar-radio-telescope</link>
+      <description>📝 Could there be a better, even lonelier place to put a radio telescope. He’s joined in proposing myriad designs for radio telescopes that could go to the moon. A moon-based radio telescope could help unravel some of the greatest mysteries in space science.
+
+🔗 Read more: https://spectrum.ieee.org/lunar-radio-telescope</description>
+      <guid isPermaLink="true">https://spectrum.ieee.org/lunar-radio-telescope</guid>
+      <pubDate>Tue, 20 Jan 2026 22:36:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698623</comments>
+    </item>
+    <item>
+      <title>Cloudflare zero-day: Accessing any host globally</title>
+      <link>https://fearsoff.org/research/cloudflare-acme</link>
+      <description>📝 FearsOff is your ultimate solution in cybersecurity. Are you ready to take your digital security to the next level. Let our elite information security experts assist your organization in preparing to withstand any cyber attack.
+
+🔗 Read more: https://fearsoff.org/research/cloudflare-acme</description>
+      <guid isPermaLink="true">https://fearsoff.org/research/cloudflare-acme</guid>
+      <pubDate>Tue, 20 Jan 2026 16:25:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46693728</comments>
+    </item>
+    <item>
+      <title>Dockerhub for Skill.md</title>
+      <link>https://skillregistry.io/</link>
+      <description>📝 mdHubFind and install skills for Claude, ChatGPT, and AI agents. The definitive registry for SKILLS. skillCopy install commandSkillRegistry Statistics61AI Skills Available509Total Downloads19Skill Contributors.
+
+🔗 Read more: https://skillregistry.io/</description>
+      <guid isPermaLink="true">https://skillregistry.io/</guid>
+      <pubDate>Tue, 20 Jan 2026 15:19:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692692</comments>
+    </item>
+    <item>
+      <title>The world of Japanese snack bars</title>
+      <link>https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</link>
+      <description>📝 "Unlike the bars or nightclubs many tourists may imagine, snack bars are warm, home-like places," said Mayuko Igarashi, president and director of Snack Yokocho Culture Inc, which has been offering tours of snack bars across Japan for travellers since 2021. "Snack bars emerged during Japan's post-World War Two-era recovery. Michelle GrossMany snack bars are little more than a counter with a few stools and a small kitchen (Credit: Michelle Gross)By the late 1960s, women-run snack bars had proliferated nationwide.
+
+🔗 Read more: https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</description>
+      <guid isPermaLink="true">https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</guid>
+      <pubDate>Tue, 20 Jan 2026 21:34:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698038</comments>
+    </item>
+    <item>
+      <title>Who Owns Rudolph's Nose?</title>
+      <link>https://creativelawcenter.com/copyright-rudolph-reindeer/</link>
+      <guid isPermaLink="true">https://creativelawcenter.com/copyright-rudolph-reindeer/</guid>
+      <pubDate>Wed, 21 Jan 2026 00:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699597</comments>
+    </item>
+    <item>
+      <title>Show HN: TopicRadar – Track trending topics across HN, GitHub, ArXiv, and more</title>
+      <link>https://apify.com/mick-johnson/topic-radar</link>
+      <description>📝 Quick Trend Check Use trending topics for instant insights: { "searchMode": "trending-startup"} 2. Market Research Track competitors, industry trends, and emerging technologies: { "searchMode": "custom", "topics": ["your-competitor-name", "industry-trend"], "sources": ["hackernews", "github"], "timeRange": "7d"} 3. Content Creation Find trending topics and popular discussions for content ideas: { "searchMode": "trending-dev", "rankingStrategy": "engagement"} 4.
+
+🔗 Read more: https://apify.com/mick-johnson/topic-radar</description>
+      <guid isPermaLink="true">https://apify.com/mick-johnson/topic-radar</guid>
+      <pubDate>Tue, 20 Jan 2026 14:47:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692347</comments>
+    </item>
+    <item>
+      <title>Show HN: macOS native DAW with Git branching model</title>
+      <link>https://www.scratchtrackaudio.com</link>
+      <description>📝 Merge back what works. Your work is always accessible. 01Record your sessionCapture multi-track recordings with automatic take management.
+
+🔗 Read more: https://www.scratchtrackaudio.com</description>
+      <guid isPermaLink="true">https://www.scratchtrackaudio.com</guid>
+      <pubDate>Wed, 21 Jan 2026 00:05:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699441</comments>
+    </item>
+    <item>
+      <title>Electricity use of AI coding agents</title>
+      <link>https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</link>
+      <description>📝 The core system prompt. Is this Web-only, API-only, both. ” How is Claude Code different from this.
+
+🔗 Read more: https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</description>
+      <guid isPermaLink="true">https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</guid>
+      <pubDate>Tue, 20 Jan 2026 18:02:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46695415</comments>
     </item>
   </channel>
 </rss>

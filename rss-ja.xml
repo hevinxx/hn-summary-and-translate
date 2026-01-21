@@ -6,80 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Jan 2026 21:22:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 01:50:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>LLM のベンチマークを行わないと、5 ～ 10 倍の支払いを過剰に支払うことになる可能性があります</title>
-      <link>https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</link>
-      <description>📝 ステップ 2: 期待される出力を定義する 各例では、友人の実際の応答を期待される出力として使用しました。これを 50 以上のモデルで実行すると、プロンプト、期待される応答、モデルごとの実際の応答を含むデータフレームが得られました。したがって、これはこのリストが示すよりも反復的でした。
+      <title>Claude Chill: ターミナルでの Claude Code のちらつきを修正</title>
+      <link>https://github.com/davidbeesley/claude-chill</link>
+      <description>📝 claude-chill VT ベースのレンダリングを使用して、Claude Code の大規模なターミナル更新を制御する PTY プロキシ。問題のクロード コードは、同期出力を使用して端末をアトミックに更新します。ソリューション claude-chill は端末とクロード コードの間にあります。 同期ブロックをインターセプト - これらの大規模なアトミック アップデートをキャッチします。 VT ベースのレンダリング - VT100 エミュレータを使用して画面の状態を追跡し、差異のみをレンダリングします。 履歴を保持します。 - ルックバック用にバッファにコンテンツを蓄積します。 ルックバックを有効にします。 - キーを押してクロードを一時停止し、完全な履歴バッファを表示します。 インストール カーゴ インストール --path crates/claude-chill 使用法 claude-chill claude claude-chill -- claude --verbose # コマンド フラグに -- を使用します。 コマンド ライン ヘルプ $ claude-chill --help クロード コードの大規模なターミナル更新を制御する PTY プロキシ 使用法: claude-chill [OPTIONS] &lt;COMMAND&gt; [ARGS]。
 
 
-🔤 Original: Without benchmarking LLMs, you're likely overpaying 5-10x
+🔤 Original: Claude Chill: Fix Claude Code's Flickering in Terminal
 
-🔗 Read more: https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</description>
-      <guid isPermaLink="true">https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying</guid>
-      <pubDate>Tue, 20 Jan 2026 19:03:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696300</comments>
+🔗 Read more: https://github.com/davidbeesley/claude-chill</description>
+      <guid isPermaLink="true">https://github.com/davidbeesley/claude-chill</guid>
+      <pubDate>Tue, 20 Jan 2026 23:26:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699072</comments>
     </item>
     <item>
-      <title>Instabridge が Nova Launcher を買収</title>
-      <link>https://novalauncher.com/nova-is-here-to-stay</link>
-      <description>📝 ノヴァは今でもノヴァらしく感じるだろうか。 Nova Prime も広告なしのままです。 Novaはオープンソースになるのでしょうか？
+      <title>カリフォルニアは25年ぶりに干ばつから解放された</title>
+      <link>https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</link>
+      <description>📝 その前、カリフォルニアは 2012 年から 2016 年にかけて深刻な干ばつに見舞われました。 気候と環境 気候変動が L. 史上最も破壊的な山火事をどのように悪化させたか カリフォルニアの山火事は、極度に乾燥した状況の中で発生しました。
 
 
-🔤 Original: Instabridge has acquired Nova Launcher
+🔤 Original: California is free of drought for the first time in 25 years
 
-🔗 Read more: https://novalauncher.com/nova-is-here-to-stay</description>
-      <guid isPermaLink="true">https://novalauncher.com/nova-is-here-to-stay</guid>
-      <pubDate>Tue, 20 Jan 2026 19:06:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696357</comments>
+🔗 Read more: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</description>
+      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years</guid>
+      <pubDate>Tue, 20 Jan 2026 22:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698660</comments>
     </item>
     <item>
-      <title>Show HN: Mastra 1.0、Gatsby 開発者によるオープンソース JavaScript エージェント フレームワーク</title>
-      <link>https://github.com/mastra-ai/mastra</link>
-      <description>📝 Mastra Mastra は、最新の TypeScript スタックを使用して AI を活用したアプリケーションとエージェントを構築するためのフレームワークです。 Mastra は、React、Next などのフロントエンドおよびバックエンド フレームワークと統合します。エージェント - LLM とツールを使用して、無制限のタスクを解決する自律エージェントを構築します。
-
-
-🔤 Original: Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs
-
-🔗 Read more: https://github.com/mastra-ai/mastra</description>
-      <guid isPermaLink="true">https://github.com/mastra-ai/mastra</guid>
-      <pubDate>Tue, 20 Jan 2026 16:38:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46693959</comments>
-    </item>
-    <item>
-      <title>「いいね！」が非公開になるとき: X での危険と評判のコンテンツへの関与</title>
-      <link>https://arxiv.org/abs/2601.11140</link>
+      <title>実行追跡を通じて悪意のある動作を明らかにする</title>
+      <link>https://arxiv.org/abs/2512.13821</link>
       <description>📝 ) 接続されたペーパー 接続されたペーパーを切り替えます (接続されたペーパーとは何ですか。) リットマップ リットマップを切り替えます (リットマップとは。) コードへのリンク コード付きペーパーを切り替えます (コード付きペーパーとは。)
 
 
-🔤 Original: When "Likers'' Go Private: Engagement with Reputationally Risky Content on X
+🔤 Original: Provably unmasking malicious behavior through execution traces
 
-🔗 Read more: https://arxiv.org/abs/2601.11140</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.11140</guid>
-      <pubDate>Tue, 20 Jan 2026 18:40:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46695978</comments>
+🔗 Read more: https://arxiv.org/abs/2512.13821</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.13821</guid>
+      <pubDate>Tue, 20 Jan 2026 22:18:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698469</comments>
     </item>
     <item>
-      <title>詐欺師の青写真: サイバー犯罪者が 1 週間でターゲットから強盗を計画する方法</title>
-      <link>https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</link>
-      <description>📝 PAOCCによると、彼らの多くは人身売買の被害者だった。ロイターは、どちらのマニュアルも詐欺に使用されたかどうかを立証できなかった。詐欺を研究し、ロイター通信向けにそのマニュアルをレビューした、アメリカを拠点とする心理学者は、ロマンス詐欺師が女性の被害者をターゲットにする際にしばしば権威者になりすまし、その後、女性をコントロールしようとすることが研究で判明したと述べた。
+      <title>どのAIが最も嘘をつきますか?ジョン・ナッシュが考案したゲーム理論の古典</title>
+      <link>https://so-long-sucker.vercel.app/</link>
+      <description>📝 162 のゲームでどの AI が最も嘘をつくかを分析しました。ジョン・ナッシュが考案した、勝つためには裏切りが必要なゲーム理論の古典。プレイヤーあたり 3 → 5 → 7 チップ AI の総決定数 15,736 交換されたメッセージ 4,768 回 ガスライティング フレーズ 237 回 AI リードリサーチと対戦。
 
 
-🔤 Original: A scammer's blueprint: How cybercriminals plot to rob a target in a week
+🔤 Original: Which AI Lies Best? A game theory classic designed by John Nash
 
-🔗 Read more: https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</description>
-      <guid isPermaLink="true">https://www.reuters.com/graphics/SOUTHEASTASIA-SCAMS/MANUALS/klpyjlqelvg/</guid>
-      <pubDate>Tue, 20 Jan 2026 20:23:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46697287</comments>
+🔗 Read more: https://so-long-sucker.vercel.app/</description>
+      <guid isPermaLink="true">https://so-long-sucker.vercel.app/</guid>
+      <pubDate>Tue, 20 Jan 2026 22:09:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698370</comments>
     </item>
     <item>
-      <title>未だ解明されていない中世の秘密のトンネル</title>
-      <link>https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</link>
-      <guid isPermaLink="true">https://weirdmedievalguys.substack.com/p/the-secret-medieval-tunnels-that</guid>
-      <pubDate>Tue, 20 Jan 2026 19:32:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46696683</comments>
+      <title>論理的な削除の課題</title>
+      <link>https://atlas9.dev/blog/soft-delete.html</link>
+      <description>📝 アーカイブされたデータが望ましくないときに誤って漏洩するリスクが常にあります。移行では、アーカイブされたデータも処理する必要があります。これらのアプローチはすべて、アーカイブされたデータをライブ データとは別に保存します。つまり、別のデータベース テーブル、別のデータベース、オブジェクト ストレージなどになります。
+
+
+🔤 Original: The challenges of soft delete
+
+🔗 Read more: https://atlas9.dev/blog/soft-delete.html</description>
+      <guid isPermaLink="true">https://atlas9.dev/blog/soft-delete.html</guid>
+      <pubDate>Tue, 20 Jan 2026 21:36:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698061</comments>
+    </item>
+    <item>
+      <title>年齢予測に対する当社のアプローチ</title>
+      <link>https://openai.com/index/our-approach-to-age-prediction/</link>
+      <guid isPermaLink="true">https://openai.com/index/our-approach-to-age-prediction/</guid>
+      <pubDate>Tue, 20 Jan 2026 19:34:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696699</comments>
+    </item>
+    <item>
+      <title>ビジネス向け RCS</title>
+      <link>https://developers.google.com/business-communications/rcs-business-messaging</link>
+      <description>📝 詳細はこちら RCS for Business パートナーになる準備ができました。パートナーのお問い合わせフォーム arrow_forward パートナー開発者ドキュメント 最新の開発者ドキュメントを確認してください。詳細 開発者コンソール Business Communications 開発者コンソールを開きます。
+
+
+🔤 Original: RCS for Business
+
+🔗 Read more: https://developers.google.com/business-communications/rcs-business-messaging</description>
+      <guid isPermaLink="true">https://developers.google.com/business-communications/rcs-business-messaging</guid>
+      <pubDate>Tue, 20 Jan 2026 04:14:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46687841</comments>
+    </item>
+    <item>
+      <title>メンテナンス: すべて、パート 1</title>
+      <link>https://press.stripe.com/maintenance-part-one</link>
+      <description>📝 味わい深い良い本。 『The Rational Optimist』の著者マット・リドリー もう一度、スチュワート・ブランドが新しい視点で私たちの世界観を再構築します。この本はスチュワート・ブランドの最高傑作です。
+
+
+🔤 Original: Maintenance: Of Everything, Part One
+
+🔗 Read more: https://press.stripe.com/maintenance-part-one</description>
+      <guid isPermaLink="true">https://press.stripe.com/maintenance-part-one</guid>
+      <pubDate>Tue, 20 Jan 2026 19:01:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46696276</comments>
+    </item>
+    <item>
+      <title>月電波望遠鏡が宇宙の謎を解き明かす</title>
+      <link>https://spectrum.ieee.org/lunar-radio-telescope</link>
+      <description>📝 電波望遠鏡を設置するのにこれ以上に適した、そしてさらに寂しい場所があるだろうか。彼は、月に行くことができる電波望遠鏡の無数の設計の提案に参加しました。月ベースの電波望遠鏡は、宇宙科学における最大の謎のいくつかを解明するのに役立つ可能性があります。
+
+
+🔤 Original: Lunar Radio Telescope to Unlock Cosmic Mysteries
+
+🔗 Read more: https://spectrum.ieee.org/lunar-radio-telescope</description>
+      <guid isPermaLink="true">https://spectrum.ieee.org/lunar-radio-telescope</guid>
+      <pubDate>Tue, 20 Jan 2026 22:36:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698623</comments>
+    </item>
+    <item>
+      <title>Cloudflare ゼロデイ: あらゆるホストにグローバルにアクセス</title>
+      <link>https://fearsoff.org/research/cloudflare-acme</link>
+      <description>📝 FearsOff は、サイバーセキュリティにおける究極のソリューションです。デジタル セキュリティを次のレベルに引き上げる準備はできていますか。当社のエリート情報セキュリティ専門家が、あらゆるサイバー攻撃に耐えられるよう組織を支援します。
+
+
+🔤 Original: Cloudflare zero-day: Accessing any host globally
+
+🔗 Read more: https://fearsoff.org/research/cloudflare-acme</description>
+      <guid isPermaLink="true">https://fearsoff.org/research/cloudflare-acme</guid>
+      <pubDate>Tue, 20 Jan 2026 16:25:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46693728</comments>
+    </item>
+    <item>
+      <title>Skill.md 用の Dockerhub</title>
+      <link>https://skillregistry.io/</link>
+      <description>📝 mdHubClaude、ChatGPT、および AI エージェントのスキルを検索してインストールします。 SKILLS の最終的なレジストリ。 skillCopy インストール コマンドSkillRegistry Statistics61AI 利用可能なスキル 509総ダウンロード数 19スキル貢献者。
+
+
+🔤 Original: Dockerhub for Skill.md
+
+🔗 Read more: https://skillregistry.io/</description>
+      <guid isPermaLink="true">https://skillregistry.io/</guid>
+      <pubDate>Tue, 20 Jan 2026 15:19:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692692</comments>
+    </item>
+    <item>
+      <title>日本のスナックの世界</title>
+      <link>https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</link>
+      <description>📝 「多くの観光客が想像するバーやナイトクラブとは異なり、スナック・バーは温かく、家庭的な場所です」と、2021年から旅行者向けに日本中のスナック・バーのツアーを提供しているスナック横丁カルチャー社の五十嵐真由子社長兼取締役は語る。「スナック・バーは、第二次世界大戦後の日本の復興期に誕生した。ミシェル・グロス多くのスナック・バーは、いくつかのスツールと小さなキッチンが付いたカウンターにすぎない（提供：ミシェル）」グロス）1960年代後半までに、女性が経営するスナック・バーが全国的に急増しました。
+
+
+🔤 Original: The world of Japanese snack bars
+
+🔗 Read more: https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</description>
+      <guid isPermaLink="true">https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</guid>
+      <pubDate>Tue, 20 Jan 2026 21:34:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46698038</comments>
+    </item>
+    <item>
+      <title>ルドルフの鼻の所有者は誰ですか?</title>
+      <link>https://creativelawcenter.com/copyright-rudolph-reindeer/</link>
+      <guid isPermaLink="true">https://creativelawcenter.com/copyright-rudolph-reindeer/</guid>
+      <pubDate>Wed, 21 Jan 2026 00:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699597</comments>
+    </item>
+    <item>
+      <title>Show HN: TopicRadar – HN、GitHub、ArXiv など全体でトレンドのトピックを追跡します</title>
+      <link>https://apify.com/mick-johnson/topic-radar</link>
+      <description>📝 クイック トレンド チェック トレンドのトピックを使用して即座に洞察を得る: { "searchMode": "trending-startup"} 2. 市場調査 競合他社、業界トレンド、および新興テクノロジーを追跡します: { "searchMode": "custom", "topics": ["your-competitor-name", "industry-trend"], "sources": ["hackernews", "github"], "timeRange": "7d"} 3.コンテンツの作成 コンテンツのアイデアに関するトレンドのトピックや人気のディスカッションを検索します: { "searchMode": "trending-dev", "rankingStrategy": "engagement"} 4.
+
+
+🔤 Original: Show HN: TopicRadar – Track trending topics across HN, GitHub, ArXiv, and more
+
+🔗 Read more: https://apify.com/mick-johnson/topic-radar</description>
+      <guid isPermaLink="true">https://apify.com/mick-johnson/topic-radar</guid>
+      <pubDate>Tue, 20 Jan 2026 14:47:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46692347</comments>
+    </item>
+    <item>
+      <title>Show HN: Git ブランチング モデルを備えた macOS ネイティブ DAW</title>
+      <link>https://www.scratchtrackaudio.com</link>
+      <description>📝 機能するものをマージして戻します。あなたの作品はいつでもアクセスできます。 01セッションを録音する自動テイク管理でマルチトラック録音をキャプチャします。
+
+
+🔤 Original: Show HN: macOS native DAW with Git branching model
+
+🔗 Read more: https://www.scratchtrackaudio.com</description>
+      <guid isPermaLink="true">https://www.scratchtrackaudio.com</guid>
+      <pubDate>Wed, 21 Jan 2026 00:05:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46699441</comments>
+    </item>
+    <item>
+      <title>AIコーディングエージェントの電力使用量</title>
+      <link>https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</link>
+      <description>📝 コアシステムのプロンプト。これは Web 専用ですか、API 専用ですか、その両方ですか。クロード・コードはこれとどう違うのか。
+
+
+🔤 Original: Electricity use of AI coding agents
+
+🔗 Read more: https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</description>
+      <guid isPermaLink="true">https://www.simonpcouch.com/blog/2026-01-20-cc-impact/</guid>
+      <pubDate>Tue, 20 Jan 2026 18:02:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46695415</comments>
     </item>
   </channel>
 </rss>
