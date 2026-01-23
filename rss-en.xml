@@ -6,18 +6,45 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Jan 2026 09:31:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 12:47:49 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Proton Spam and the AI Consent Problem</title>
-      <link>https://dbushell.com/2026/01/22/proton-spam/</link>
-      <description>📝 There is a problem with this email. Not the “Lumo product updates” newsletter. Even before Copilot I disabled every possible GitHub email notification.
+      <title>Ghostty's AI Policy</title>
+      <link>https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md</link>
+      <guid isPermaLink="true">https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md</guid>
+      <pubDate>Fri, 23 Jan 2026 09:50:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46730504</comments>
+    </item>
+    <item>
+      <title>Replacing Protobuf with Rust to go 5 times faster</title>
+      <link>https://pgdog.dev/blog/replace-protobuf-with-rust</link>
+      <description>📝 Protobuf is fast, but not using Protobuf is faster. rs is a Rust wrapper around libpg_query which uses Protobuf for (de)serialization. Replace Protobuf with bindgen-generated Rust structs that map directly to the Postgres AST.
 
-🔗 Read more: https://dbushell.com/2026/01/22/proton-spam/</description>
-      <guid isPermaLink="true">https://dbushell.com/2026/01/22/proton-spam/</guid>
-      <pubDate>Fri, 23 Jan 2026 07:01:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46729368</comments>
+🔗 Read more: https://pgdog.dev/blog/replace-protobuf-with-rust</description>
+      <guid isPermaLink="true">https://pgdog.dev/blog/replace-protobuf-with-rust</guid>
+      <pubDate>Fri, 23 Jan 2026 09:03:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46730214</comments>
+    </item>
+    <item>
+      <title>The State of Modern AI Text to Speech Systems for Screen Reader Users</title>
+      <link>https://stuff.interfree.ca/2026/01/05/ai-tts-for-screenreaders.html</link>
+      <description>📝 The needs of a blind text to speech user are vastly different than those of a sighted user. While sighted users prefer voices that are natural, conversational, and as human-like as possible, blind users tend to prefer voices that are fast, clear, predictable, and efficient. As most modern text to speech voices are created by and for sighted users, blind users begin to find that the voices available in less popular languages are inefficient, overly conversational, slow, and otherwise unsatisfactory.
+
+🔗 Read more: https://stuff.interfree.ca/2026/01/05/ai-tts-for-screenreaders.html</description>
+      <guid isPermaLink="true">https://stuff.interfree.ca/2026/01/05/ai-tts-for-screenreaders.html</guid>
+      <pubDate>Fri, 23 Jan 2026 09:24:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46730346</comments>
+    </item>
+    <item>
+      <title>Booting a PC from a Vinyl Record</title>
+      <link>https://boginjr.com/it/sw/dev/vinyl-boot/</link>
+      <description>📝 Why don’t we try to boot from a record player for a change. floppy disk and the hard drive. The boot image is the same 64K BOOTDISK.
+
+🔗 Read more: https://boginjr.com/it/sw/dev/vinyl-boot/</description>
+      <guid isPermaLink="true">https://boginjr.com/it/sw/dev/vinyl-boot/</guid>
+      <pubDate>Fri, 23 Jan 2026 10:39:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46730885</comments>
     </item>
   </channel>
 </rss>
