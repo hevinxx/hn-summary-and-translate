@@ -6,102 +6,75 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Jan 2026 21:23:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 01:43:09 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Route leak incident on January 22, 2026</title>
-      <link>https://blog.cloudflare.com/route-leak-incident-january-22-2026/</link>
-      <description>📝 While the route leak caused some impact to Cloudflare customers, multiple external parties were also affected because their traffic was accidentally funnelled through our Miami data center location. BGP route leaks We have written multiple times about BGP route leaks, and we even record route leak events on Cloudflare Radar for anyone to view and learn from. This change generated the following diff (a program that compares configuration files in order to determine how or whether they differ): [edit policy-options policy-statement 6-COGENT-ACCEPT-EXPORT term ADV-SITELOCAL-GRE-RECEIVER from] - prefix-list 6-BOG04-SITE-LOCAL; [edit policy-options policy-statement 6-COMCAST-ACCEPT-EXPORT term ADV-SITELOCAL-GRE-RECEIVER from] - prefix-list 6-BOG04-SITE-LOCAL; [edit policy-options policy-statement 6-GTT-ACCEPT-EXPORT term ADV-SITELOCAL-GRE-RECEIVER from] - prefix-list 6-BOG04-SITE-LOCAL; [edit policy-options policy-statement 6-LEVEL3-ACCEPT-EXPORT term ADV-SITELOCAL-GRE-RECEIVER from] - prefix-list 6-BOG04-SITE-LOCAL; [edit policy-options policy-statement 6-PRIVATE-PEER-ANYCAST-OUT term ADV-SITELOCAL from] - prefix-list 6-BOG04-SITE-LOCAL; [edit policy-options policy-st.
+      <title>Banned C++ features in Chromium</title>
+      <link>https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md</link>
+      <description>📝 , build support is ready), a standard is declared “initially supported”, with new language/library features banned pending discussion but not yet allowed. The current status of existing standards and Abseil features is:C++11: Default allowed; see banned features belowC++14: Default allowedC++17: Default allowed; see banned features belowC++20: Initially supported November 13, 2023; see allowed/banned/TBD features belowC++23: Initially supported January 2026; see allowed/banned/TBD features belowC++26: Not yet supportedAbseil: Default allowed; see banned/TBD features below. ContentsBanned features and third-party codeC++11 Banned Language FeaturesInline Namespaces [banned]long long Type [banned]User-Defined Literals [banned]C++11 Banned Library Features&lt;cctype&gt;, &lt;ctype.
 
-🔗 Read more: https://blog.cloudflare.com/route-leak-incident-january-22-2026/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/route-leak-incident-january-22-2026/</guid>
-      <pubDate>Fri, 23 Jan 2026 17:54:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735489</comments>
+🔗 Read more: https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md</description>
+      <guid isPermaLink="true">https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md</guid>
+      <pubDate>Fri, 23 Jan 2026 20:27:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46737447</comments>
     </item>
     <item>
-      <title>Unrolling the Codex Agent Loop</title>
-      <link>https://openai.com/index/unrolling-the-codex-agent-loop/</link>
-      <guid isPermaLink="true">https://openai.com/index/unrolling-the-codex-agent-loop/</guid>
-      <pubDate>Fri, 23 Jan 2026 20:42:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46737630</comments>
-    </item>
-    <item>
-      <title>Notes on the Intel 8086 processor's arithmetic-logic unit</title>
-      <link>https://www.righto.com/2026/01/notes-on-intel-8086-processors.html</link>
-      <description>📝 First, a machine code instruction results in the execution of multiple microcode instructions. Microcode The 8086 processor implements most machine instructions in microcode, with a micro-instruction for each step of the machine instruction. This microcode consists of three micro-instructions.
+      <title>Noora Health (YC W14) Is Hiring AI/ML Engineer</title>
+      <link>https://www.ycombinator.com/companies/noora-health/jobs/2B4RxLG-ai-ml-engineer</link>
+      <description>📝 Training patients and their families with health skills Noora Health India Private Limited is a key partner in Noora Health’s mission is to improve outcomes and strengthen health systems by equipping family caregivers with the skills they need to care for their loved ones. Noora Health trains patient families with high-impact health skills that improve outcomes and save lives. By 2028, Noora Health will expand to reach over 70 million caregivers and patients.
 
-🔗 Read more: https://www.righto.com/2026/01/notes-on-intel-8086-processors.html</description>
-      <guid isPermaLink="true">https://www.righto.com/2026/01/notes-on-intel-8086-processors.html</guid>
-      <pubDate>Fri, 23 Jan 2026 17:26:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735133</comments>
+🔗 Read more: https://www.ycombinator.com/companies/noora-health/jobs/2B4RxLG-ai-ml-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/noora-health/jobs/2B4RxLG-ai-ml-engineer</guid>
+      <pubDate>Sat, 24 Jan 2026 01:00:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46740028</comments>
     </item>
     <item>
-      <title>TrueVault (YC W14) is hiring a Growth Lead to test different growth channels</title>
-      <link>https://www.ycombinator.com/companies/truevault/jobs/njvSGDj-growth-lead</link>
-      <description>📝 Just software that works. Experimentation is central to this role. TrueVault builds software tools that help businesses comply with consumer data privacy laws.
+      <title>Mental Models (2018)</title>
+      <link>https://fs.blog/mental-models/</link>
+      <description>📝 Your circle of competence is your personal sphere of expertise, where your knowledge and skills are concentrated. Celebrate your expertise, but also acknowledge your limitations. First principles thinking is not easy.
 
-🔗 Read more: https://www.ycombinator.com/companies/truevault/jobs/njvSGDj-growth-lead</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/truevault/jobs/njvSGDj-growth-lead</guid>
-      <pubDate>Fri, 23 Jan 2026 21:01:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46737870</comments>
+🔗 Read more: https://fs.blog/mental-models/</description>
+      <guid isPermaLink="true">https://fs.blog/mental-models/</guid>
+      <pubDate>Fri, 23 Jan 2026 21:08:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46737957</comments>
     </item>
     <item>
-      <title>Waypoint-1: Real-Time Interactive Video Diffusion from Overworld</title>
-      <link>https://huggingface.co/blog/waypoint-1</link>
-      <description>📝 Each frame is generated with your controls as context. Waypoint-1 was pre-trained via diffusion forcing, a technique with which the model learns to denoise future frames given past frames. The Inference Library: WorldEngine WorldEngine is Overworld’s high‑performance inference library for interactive world model streaming.
+      <title>TikTok Is Now Collecting More Data About Its Users</title>
+      <link>https://www.wired.com/story/tiktok-new-privacy-policy/</link>
+      <description>📝 Old Privacy Policy:We collect information about your approximate location, including location information based on your SIM card and/or IP address. location information about your approximate location based on your device and network information, such as SIM card region, IP address, and device system settings. Also, if you choose to enable location services for the TikTok app within your device settings, we collect approximate or precise location information from your device.
 
-🔗 Read more: https://huggingface.co/blog/waypoint-1</description>
-      <guid isPermaLink="true">https://huggingface.co/blog/waypoint-1</guid>
-      <pubDate>Fri, 23 Jan 2026 15:03:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46733301</comments>
+🔗 Read more: https://www.wired.com/story/tiktok-new-privacy-policy/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/tiktok-new-privacy-policy/</guid>
+      <pubDate>Fri, 23 Jan 2026 22:51:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46739078</comments>
     </item>
     <item>
-      <title>Neko: History of a Software Pet (2022)</title>
-      <link>https://eliotakira.com/neko/</link>
-      <description>📝 IBM bundled Neko with OS/2 2. Many of the images were extracted from an archaic file format called. icl, then converted from.
+      <title>Certificate Transparency Log Explorer</title>
+      <link>https://certs.swerdlow.dev</link>
+      <guid isPermaLink="true">https://certs.swerdlow.dev</guid>
+      <pubDate>Fri, 23 Jan 2026 19:57:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46737076</comments>
+    </item>
+    <item>
+      <title>Ask HN: What's the current best local/open speech-to-speech setup?</title>
+      <link>https://news.ycombinator.com/item?id=46731068</link>
+      <description>📝 Qwen3 Omni looks perfect on paper (“real-time”, speech-to-speech, etc). What are people actually using in 2026 if they want open + local voice. If you did get Qwen3 Omni speech-to-speech working: what stack (transformers / vLLM-omni / something else), what hardware, and is it actually realtime.
 
-🔗 Read more: https://eliotakira.com/neko/</description>
-      <guid isPermaLink="true">https://eliotakira.com/neko/</guid>
-      <pubDate>Fri, 23 Jan 2026 21:01:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46737865</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46731068</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46731068</guid>
+      <pubDate>Fri, 23 Jan 2026 11:04:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46731068</comments>
     </item>
     <item>
-      <title>New YC homepage</title>
-      <link>https://www.ycombinator.com/</link>
-      <guid isPermaLink="true">https://www.ycombinator.com/</guid>
-      <pubDate>Fri, 23 Jan 2026 18:08:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735644</comments>
-    </item>
-    <item>
-      <title>Nobody likes lag: How to make low-latency dev sandboxes</title>
-      <link>https://www.compyle.ai/blog/nobody-likes-lag/</link>
-      <description>📝 There are three main concerns with running a coding agent sandbox. Startup time Latency Security I can confidently say that this architecture does pretty poorly on the first two categories. io’s private network addresses to route the request by machine id from the socket server.
+      <title>voyage-multimodal-3.5: a new multimodal retrieval frontier with video support</title>
+      <link>https://blog.voyageai.com/2026/01/15/voyage-multimodal-3-5/</link>
+      <description>📝 We evaluate voyage-multimodal-3. For the visual document retrieval and standard text retrieval tasks, we evaluate voyage-multimodal-3. For the video retrieval task, we evaluate voyage-multimodal-3.
 
-🔗 Read more: https://www.compyle.ai/blog/nobody-likes-lag/</description>
-      <guid isPermaLink="true">https://www.compyle.ai/blog/nobody-likes-lag/</guid>
-      <pubDate>Fri, 23 Jan 2026 17:26:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735139</comments>
-    </item>
-    <item>
-      <title>Zotero 8</title>
-      <link>https://www.zotero.org/blog/zotero-8/</link>
-      <description>📝 The new dialog has two modes: List mode and Library mode. List mode lets you quickly search for citations from across your Zotero libraries by title, creator, and year. Reading Mode for Webpage Snapshots Reading Mode reformats.
-
-🔗 Read more: https://www.zotero.org/blog/zotero-8/</description>
-      <guid isPermaLink="true">https://www.zotero.org/blog/zotero-8/</guid>
-      <pubDate>Fri, 23 Jan 2026 18:05:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735616</comments>
-    </item>
-    <item>
-      <title>The tech monoculture is finally breaking</title>
-      <link>http://www.jasonwillems.com/technology/2025/12/17/Tech-Is-Fun-Again/</link>
-      <description>📝 Console gaming became PlayStation or Nintendo. Phones became Android or iOS. PC gaming became synonymous with Steam.
-
-🔗 Read more: http://www.jasonwillems.com/technology/2025/12/17/Tech-Is-Fun-Again/</description>
-      <guid isPermaLink="true">http://www.jasonwillems.com/technology/2025/12/17/Tech-Is-Fun-Again/</guid>
-      <pubDate>Fri, 23 Jan 2026 15:26:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46733624</comments>
+🔗 Read more: https://blog.voyageai.com/2026/01/15/voyage-multimodal-3-5/</description>
+      <guid isPermaLink="true">https://blog.voyageai.com/2026/01/15/voyage-multimodal-3-5/</guid>
+      <pubDate>Fri, 23 Jan 2026 22:51:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46739075</comments>
     </item>
   </channel>
 </rss>

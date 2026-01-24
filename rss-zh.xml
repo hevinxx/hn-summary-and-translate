@@ -6,126 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Jan 2026 21:23:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 01:43:09 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>2026年1月22日路由泄露事件</title>
-      <link>https://blog.cloudflare.com/route-leak-incident-january-22-2026/</link>
-      <description>📝 虽然路由泄漏对 Cloudflare 客户造成了一些影响，但多个外部方也受到了影响，因为他们的流量意外地通过了我们的迈阿密数据中心位置。 BGP 路由泄漏 我们已经多次撰写有关 BGP 路由泄漏的文章，我们甚至在 Cloudflare Radar 上记录了路由泄漏事件，供任何人查看和学习。此更改生成了以下差异（比较配置文件以确定它们如何或是否不同的程序）：[编辑策略选项策略语句 6-COGENT-ACCEPT-EXPORT 术语 ADV-SITELOCAL-GRE-RECEIVER 来自] - 前缀列表 6-BOG04-SITE-LOCAL； [编辑策略选项策略声明 6-COMCAST-ACCEPT-EXPORT 术语 ADV-SITELOCAL-GRE-RECEIVER 来自] - 前缀列表 6-BOG04-SITE-LOCAL； [编辑策略选项策略声明 6-GTT-ACCEPT-EXPORT 术语 ADV-SITELOCAL-GRE-RECEIVER 来自] - 前缀列表 6-BOG04-SITE-LOCAL； [编辑策略选项策略声明 6-LEVEL3-ACCEPT-EXPORT 术语 ADV-SITELOCAL-GRE-RECEIVER 来自] - 前缀列表 6-BOG04-SITE-LOCAL； [编辑策略选项策略声明 6-PRIVATE-PEER-ANYCAST-OUT 术语 ADV-SITELOCAL from] - 前缀列表 6-BOG04-SITE-LOCAL； [编辑政策选项政策-st。
+      <title>Chromium 中禁用的 C++ 功能</title>
+      <link>https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md</link>
+      <description>📝 ，构建支持已准备就绪），标准被声明为“初步支持”，新的语言/库功能被禁止等待讨论，但尚未允许。现有标准和 Abseil 功能的当前状态是：C++11：默认允许；请参阅下面禁止的功能 C++14：默认允许 C++17：默认允许；请参阅下面的禁用功能 C++20：最初支持于 2023 年 11 月 13 日；请参阅下面允许/禁止/待定的功能 C++23：最初于 2026 年 1 月支持；请参阅下面允许/禁止/待定的功能 C++26：尚不支持 Abseil：默认允许；请参阅下面的禁止/待定功能。内容禁止的功能和第三方代码C++11 禁止的语言功能内联命名空间 [banned]long long 类型 [banned]用户定义的文字 [banned]C++11 禁止的库功能&lt;cctype&gt;, &lt;ctype.
 
 
-🔤 Original: Route leak incident on January 22, 2026
+🔤 Original: Banned C++ features in Chromium
 
-🔗 Read more: https://blog.cloudflare.com/route-leak-incident-january-22-2026/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/route-leak-incident-january-22-2026/</guid>
-      <pubDate>Fri, 23 Jan 2026 17:54:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735489</comments>
+🔗 Read more: https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md</description>
+      <guid isPermaLink="true">https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md</guid>
+      <pubDate>Fri, 23 Jan 2026 20:27:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46737447</comments>
     </item>
     <item>
-      <title>展开 Codex 代理循环</title>
-      <link>https://openai.com/index/unrolling-the-codex-agent-loop/</link>
-      <guid isPermaLink="true">https://openai.com/index/unrolling-the-codex-agent-loop/</guid>
-      <pubDate>Fri, 23 Jan 2026 20:42:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46737630</comments>
+      <title>Noora Health (YC W14) 正在招聘 AI/ML 工程师</title>
+      <link>https://www.ycombinator.com/companies/noora-health/jobs/2B4RxLG-ai-ml-engineer</link>
+      <description>📝 对患者及其家人进行健康技能培训 Noora Health India Private Limited 是 Noora Health 的重要合作伙伴，其使命是通过为家庭护理人员提供照顾亲人所需的技能来改善结果并加强卫生系统。 Noora Health 为患者家属提供高影响力的健康技能培训，以改善治疗结果并挽救生命。到 2028 年，Noora Health 将覆盖超过 7000 万护理人员和患者。
+
+
+🔤 Original: Noora Health (YC W14) Is Hiring AI/ML Engineer
+
+🔗 Read more: https://www.ycombinator.com/companies/noora-health/jobs/2B4RxLG-ai-ml-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/noora-health/jobs/2B4RxLG-ai-ml-engineer</guid>
+      <pubDate>Sat, 24 Jan 2026 01:00:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46740028</comments>
     </item>
     <item>
-      <title>Intel 8086 处理器算术逻辑单元的注释</title>
-      <link>https://www.righto.com/2026/01/notes-on-intel-8086-processors.html</link>
-      <description>📝 首先，机器代码指令导致多个微代码指令的执行。微代码 8086 处理器以微代码实现大多数机器指令，机器指令的每一步都有一条微指令。该微代码由三个微指令组成。
+      <title>心智模型 (2018)</title>
+      <link>https://fs.blog/mental-models/</link>
+      <description>📝 你的能力圈是你个人的专业领域，是你的知识和技能集中的地方。赞扬你的专业知识，但也承认你的局限性。第一性原理思考并不容易。
 
 
-🔤 Original: Notes on the Intel 8086 processor's arithmetic-logic unit
+🔤 Original: Mental Models (2018)
 
-🔗 Read more: https://www.righto.com/2026/01/notes-on-intel-8086-processors.html</description>
-      <guid isPermaLink="true">https://www.righto.com/2026/01/notes-on-intel-8086-processors.html</guid>
-      <pubDate>Fri, 23 Jan 2026 17:26:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735133</comments>
+🔗 Read more: https://fs.blog/mental-models/</description>
+      <guid isPermaLink="true">https://fs.blog/mental-models/</guid>
+      <pubDate>Fri, 23 Jan 2026 21:08:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46737957</comments>
     </item>
     <item>
-      <title>TrueVault (YC W14) 正在聘请一位增长主管来测试不同的增长渠道</title>
-      <link>https://www.ycombinator.com/companies/truevault/jobs/njvSGDj-growth-lead</link>
-      <description>📝 只是有效的软件。实验是这个角色的核心。 TrueVault 构建软件工具来帮助企业遵守消费者数据隐私法。
+      <title>TikTok 现在正在收集更多有关其用户的数据</title>
+      <link>https://www.wired.com/story/tiktok-new-privacy-policy/</link>
+      <description>📝 旧隐私政策：我们收集有关您大致位置的信息，包括基于您的 SIM 卡和/或 IP 地址的位置信息。基于您的设备和网络信息（例如 SIM 卡区域、IP 地址和设备系统设置）的有关您大致位置的位置信息。此外，如果您选择在设备设置中启用 TikTok 应用的位置服务，我们会从您的设备收集大致或精确的位置信息。
 
 
-🔤 Original: TrueVault (YC W14) is hiring a Growth Lead to test different growth channels
+🔤 Original: TikTok Is Now Collecting More Data About Its Users
 
-🔗 Read more: https://www.ycombinator.com/companies/truevault/jobs/njvSGDj-growth-lead</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/truevault/jobs/njvSGDj-growth-lead</guid>
-      <pubDate>Fri, 23 Jan 2026 21:01:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46737870</comments>
+🔗 Read more: https://www.wired.com/story/tiktok-new-privacy-policy/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/tiktok-new-privacy-policy/</guid>
+      <pubDate>Fri, 23 Jan 2026 22:51:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46739078</comments>
     </item>
     <item>
-      <title>Waypoint-1：来自主世界的实时交互式视频扩散</title>
-      <link>https://huggingface.co/blog/waypoint-1</link>
-      <description>📝 每个框架都是以您的控件作为上下文生成的。 Waypoint-1 通过扩散强迫进行预训练，该技术使模型能够学习对给定过去帧的未来帧进行去噪。推理库：WorldEngine WorldEngine 是 Overworld 的用于交互式世界模型流的高性能推理库。
-
-
-🔤 Original: Waypoint-1: Real-Time Interactive Video Diffusion from Overworld
-
-🔗 Read more: https://huggingface.co/blog/waypoint-1</description>
-      <guid isPermaLink="true">https://huggingface.co/blog/waypoint-1</guid>
-      <pubDate>Fri, 23 Jan 2026 15:03:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46733301</comments>
+      <title>证书透明度日志浏览器</title>
+      <link>https://certs.swerdlow.dev</link>
+      <guid isPermaLink="true">https://certs.swerdlow.dev</guid>
+      <pubDate>Fri, 23 Jan 2026 19:57:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46737076</comments>
     </item>
     <item>
-      <title>Neko：软件宠物的历史 (2022)</title>
-      <link>https://eliotakira.com/neko/</link>
-      <description>📝 IBM 将 Neko 与 OS/2 2 捆绑在一起。许多图像是从一种古老的文件格式中提取的。 icl，然后转换而来。
+      <title>询问 HN：当前最好的本地/开放语音到语音设置是什么？</title>
+      <link>https://news.ycombinator.com/item?id=46731068</link>
+      <description>📝 Qwen3 Omni 在纸面上看起来很完美（“实时”、语音到语音等）。如果人们想要开放+本地语音，那么到 2026 年人们实际上会使用什么。如果您确实让 Qwen3 Omni 语音转语音工作正常：什么堆栈（变压器/vLLM-omni/其他东西），什么硬件，以及它是否真的是实时的。
 
 
-🔤 Original: Neko: History of a Software Pet (2022)
+🔤 Original: Ask HN: What's the current best local/open speech-to-speech setup?
 
-🔗 Read more: https://eliotakira.com/neko/</description>
-      <guid isPermaLink="true">https://eliotakira.com/neko/</guid>
-      <pubDate>Fri, 23 Jan 2026 21:01:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46737865</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46731068</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46731068</guid>
+      <pubDate>Fri, 23 Jan 2026 11:04:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46731068</comments>
     </item>
     <item>
-      <title>新YC主页</title>
-      <link>https://www.ycombinator.com/</link>
-      <guid isPermaLink="true">https://www.ycombinator.com/</guid>
-      <pubDate>Fri, 23 Jan 2026 18:08:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735644</comments>
-    </item>
-    <item>
-      <title>没有人喜欢延迟：如何制作低延迟开发沙箱</title>
-      <link>https://www.compyle.ai/blog/nobody-likes-lag/</link>
-      <description>📝 运行编码代理沙箱存在三个主要问题。启动时间 延迟 安全性 我可以自信地说，该架构在前两个类别上的表现相当差。 io 的专用网络地址，用于根据来自套接字服务器的机器 ID 路由请求。
+      <title>voyage-multimodal-3.5：具有视频支持的新多模态检索前沿</title>
+      <link>https://blog.voyageai.com/2026/01/15/voyage-multimodal-3-5/</link>
+      <description>📝 我们评估 voyage-multimodal-3。对于视觉文档检索和标准文本检索任务，我们评估 voyage-multimodal-3。对于视频检索任务，我们评估 voyage-multimodal-3。
 
 
-🔤 Original: Nobody likes lag: How to make low-latency dev sandboxes
+🔤 Original: voyage-multimodal-3.5: a new multimodal retrieval frontier with video support
 
-🔗 Read more: https://www.compyle.ai/blog/nobody-likes-lag/</description>
-      <guid isPermaLink="true">https://www.compyle.ai/blog/nobody-likes-lag/</guid>
-      <pubDate>Fri, 23 Jan 2026 17:26:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735139</comments>
-    </item>
-    <item>
-      <title>佐特罗8</title>
-      <link>https://www.zotero.org/blog/zotero-8/</link>
-      <description>📝 新对话框有两种模式：列表模式和库模式。列表模式可让您按标题、创建者和年份快速搜索 Zotero 图书馆中的引文。网页快照的阅读模式 阅读模式重新格式化。
-
-
-🔤 Original: Zotero 8
-
-🔗 Read more: https://www.zotero.org/blog/zotero-8/</description>
-      <guid isPermaLink="true">https://www.zotero.org/blog/zotero-8/</guid>
-      <pubDate>Fri, 23 Jan 2026 18:05:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46735616</comments>
-    </item>
-    <item>
-      <title>科技单一文化终于被打破</title>
-      <link>http://www.jasonwillems.com/technology/2025/12/17/Tech-Is-Fun-Again/</link>
-      <description>📝 控制台游戏变成了 PlayStation 或任天堂。手机变成了 Android 或 iOS。 PC 游戏成为 Steam 的代名词。
-
-
-🔤 Original: The tech monoculture is finally breaking
-
-🔗 Read more: http://www.jasonwillems.com/technology/2025/12/17/Tech-Is-Fun-Again/</description>
-      <guid isPermaLink="true">http://www.jasonwillems.com/technology/2025/12/17/Tech-Is-Fun-Again/</guid>
-      <pubDate>Fri, 23 Jan 2026 15:26:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46733624</comments>
+🔗 Read more: https://blog.voyageai.com/2026/01/15/voyage-multimodal-3-5/</description>
+      <guid isPermaLink="true">https://blog.voyageai.com/2026/01/15/voyage-multimodal-3-5/</guid>
+      <pubDate>Fri, 23 Jan 2026 22:51:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46739075</comments>
     </item>
   </channel>
 </rss>
