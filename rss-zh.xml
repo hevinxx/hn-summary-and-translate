@@ -6,93 +6,81 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Jan 2026 15:22:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 18:31:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我如何评估软件工程师的工作</title>
-      <link>https://www.seangoedecke.com/how-i-estimate-work/</link>
-      <description>📝 每个经验丰富的软件工程师都知道，准确地估计软件项目是不可能的。我还承认，有时你可以准确地估计软件工作，只要该工作非常容易理解并且范围很小。因此不可能提前准确地估计软件项目。
+      <title>迷宫算法 (2017)</title>
+      <link>http://www.jamisbuck.org/mazes/</link>
+      <description>📝 递归回溯 递归回溯（并行种子） Eller 算法 Kruskal 算法 Prim 算法 递归除法“Blobby” 递归细分算法 阈值：小 中 大 Aldous-Broder 算法 Wilson 算法 Houston 算法 该算法结合了 Aldous-Broder 和 Wilson 算法，以获得最佳结果两者的表现。 “猎杀”算法 生长树算法 E. 生长二叉树算法 E.
 
 
-🔤 Original: How I Estimate Work as a Staff Software Engineer
+🔤 Original: Maze Algorithms (2017)
 
-🔗 Read more: https://www.seangoedecke.com/how-i-estimate-work/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/how-i-estimate-work/</guid>
-      <pubDate>Sat, 24 Jan 2026 10:22:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46742389</comments>
+🔗 Read more: http://www.jamisbuck.org/mazes/</description>
+      <guid isPermaLink="true">http://www.jamisbuck.org/mazes/</guid>
+      <pubDate>Fri, 23 Jan 2026 20:07:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46737202</comments>
     </item>
     <item>
-      <title>SQLite 中许多小查询都很高效</title>
-      <link>https://www.sqlite.org/np1queryprob.html</link>
-      <description>📝 SQLite 还可以高效地执行大型且复杂的查询，就像客户端/服务器数据库一样。但 SQLite 也可以高效地执行许多较小的查询。票证需要另一组查询。
-
-
-🔤 Original: Many Small Queries Are Efficient in SQLite
-
-🔗 Read more: https://www.sqlite.org/np1queryprob.html</description>
-      <guid isPermaLink="true">https://www.sqlite.org/np1queryprob.html</guid>
-      <pubDate>Sat, 24 Jan 2026 11:15:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46742635</comments>
+      <title>《道德经》——乌苏拉·K·勒古恩 (Ursula K. Le Guin) 译</title>
+      <link>https://github.com/nrrb/tao-te-ching/blob/master/Ursula%20K%20Le%20Guin.md</link>
+      <guid isPermaLink="true">https://github.com/nrrb/tao-te-ching/blob/master/Ursula%20K%20Le%20Guin.md</guid>
+      <pubDate>Sat, 24 Jan 2026 17:01:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46745233</comments>
     </item>
     <item>
-      <title>MS 确认，如果 FBI 询问，它将向 FBI 提供您的 Windows PC 数据加密密钥</title>
-      <link>https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare</link>
-      <description>📝 默认情况下，Windows PC 会将其加密密钥备份到云端，并且如果需要，微软也不会害怕与 FBI 共享这些密钥。您的 Windows PC 可能在您没有意识到的情况下备份了您的加密密钥。 （图片来源：Microsoft）坦率地说，令人震惊的是，上传到 Microsoft 的加密密钥也没有在云端进行加密。
+      <title>Servo 12 月：多个窗口、代理支持、更好的缓存等等</title>
+      <link>https://servo.org/blog/2026/01/23/december-in-servo/</link>
+      <description>📝 客户端信息（@Taym95，#41111）。我们还改进了“wheel”事件（@mrobinson，#41182）、“hashchange”事件（@Taym95，#41325）、&lt;input&gt; 上的“dblclick”事件（@Taym95，#41319）、&lt;video&gt; 上的“resize”事件（@tharkum，#40940）、&lt;video&gt; 和 &lt;audio&gt; 上的“seeked”事件的一致性（@tharkum，#40981），以及 getCompulatedStyle() 中的“transform”属性（@mrobinson，#41187）。嵌入 API Servo 现在对 HTTP 代理提供基本支持（@Narfinger，#40941）。
 
 
-🔤 Original: MS confirms it will give the FBI your Windows PC data encryption key if asked
+🔤 Original: December in Servo: multiple windows, proxy support, better caching, and more
 
-🔗 Read more: https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare</description>
-      <guid isPermaLink="true">https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare</guid>
-      <pubDate>Sat, 24 Jan 2026 12:55:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46743154</comments>
+🔗 Read more: https://servo.org/blog/2026/01/23/december-in-servo/</description>
+      <guid isPermaLink="true">https://servo.org/blog/2026/01/23/december-in-servo/</guid>
+      <pubDate>Sat, 24 Jan 2026 17:03:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46745259</comments>
     </item>
     <item>
-      <title>我喜欢亚搏体育app</title>
-      <link>https://www.whileforloop.com/en/blog/2026/01/21/i-like-gitlab/</link>
-      <description>📝 Docker 注册表的东西每个 GitLab 项目都带有一个容器注册表。我的工作流程我的所有私人项目都位于 GitLab 上。有些人在 GitLab 上做所有事情。
-
-
-🔤 Original: I Like GitLab
-
-🔗 Read more: https://www.whileforloop.com/en/blog/2026/01/21/i-like-gitlab/</description>
-      <guid isPermaLink="true">https://www.whileforloop.com/en/blog/2026/01/21/i-like-gitlab/</guid>
-      <pubDate>Sat, 24 Jan 2026 10:32:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46742432</comments>
+      <title>Raspberry Pi Drag Race：Pi 1 到 Pi 5 – 性能比较</title>
+      <link>https://the-diy-life.com/raspberry-pi-drag-race-pi-1-to-pi-5-performance-comparison/</link>
+      <guid isPermaLink="true">https://the-diy-life.com/raspberry-pi-drag-race-pi-1-to-pi-5-performance-comparison/</guid>
+      <pubDate>Sat, 24 Jan 2026 18:06:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46745922</comments>
     </item>
     <item>
-      <title>JVIC：新的基于 Web 的 Commodore VIC 20 模拟器</title>
-      <link>https://vic20.games/#/basic/24k</link>
-      <guid isPermaLink="true">https://vic20.games/#/basic/24k</guid>
-      <pubDate>Sat, 24 Jan 2026 11:53:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46742828</comments>
+      <title>Metriport (YC S22) 正在招聘一名安全工程师来强化医疗数据基础设施</title>
+      <link>https://www.ycombinator.com/companies/metriport/jobs/XC2AF8s-senior-security-engineer</link>
+      <description>📝 医疗保健数据智能开源平台 Metriport 是一个开源数据智能平台，可帮助医疗保健组织实时访问和交换患者数据。我们与美国所有主要医疗保健 IT 系统集成，并利用 3 亿多人的综合医疗数据。 Metriport 是一个用于医疗保健数据智能的开源平台。
+
+
+🔤 Original: Metriport (YC S22) is hiring a security eng to harden healthcare data infra
+
+🔗 Read more: https://www.ycombinator.com/companies/metriport/jobs/XC2AF8s-senior-security-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/metriport/jobs/XC2AF8s-senior-security-engineer</guid>
+      <pubDate>Sat, 24 Jan 2026 17:00:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46745224</comments>
     </item>
     <item>
-      <title>询问 HN：代理可以接受生产构建的许可证吗？</title>
-      <link>https://news.ycombinator.com/item?id=46743867</link>
-      <description>📝 例如，Android 构建转向使用“sdkmanager --licenses”。这是在其训练数据中多次存在的流程（代表其自身有趣的皱纹）。以这种方式接受的协议的法律地位是什么 - 也许更重要的是 - 考虑到你采取的任何立场都会被恶意~~演员~~代理人利用，法律地位应该是什么。
-
-
-🔤 Original: Ask HN: May an Agent accepts a license to produce a build?
-
-🔗 Read more: https://news.ycombinator.com/item?id=46743867</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46743867</guid>
-      <pubDate>Sat, 24 Jan 2026 14:31:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46743867</comments>
+      <title>现在我们都是抄袭者吗？</title>
+      <link>https://www.economist.com/culture/2026/01/22/are-we-all-plagiarists-now</link>
+      <guid isPermaLink="true">https://www.economist.com/culture/2026/01/22/are-we-all-plagiarists-now</guid>
+      <pubDate>Sat, 24 Jan 2026 16:34:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46744968</comments>
     </item>
     <item>
-      <title>克劳德·科德的新隐藏功能：群体</title>
-      <link>https://twitter.com/NicerInPerson/status/2014989679796347375</link>
-      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
+      <title>问 HN：Gmail 垃圾邮件过滤突然将所有内容标记为垃圾邮件？</title>
+      <link>https://news.ycombinator.com/item?id=46744807</link>
+      <description>📝 ）我不需要提供“角色帐户”的电子邮件地址，除非我“使用 Google 登录”各种服务。因此，我根本不发送/接收来自他们的电子邮件，除非我与自己共享链接或文档（执行此跨帐户的最佳方法仍然是经常使用电子邮件。）我不需要提供“角色帐户”的电子邮件地址，除非我“使用 Google 登录”各种服务。
 
 
-🔤 Original: Claude Code's new hidden feature: Swarms
+🔤 Original: Ask HN: Gmail spam filtering suddenly marking everything as spam?
 
-🔗 Read more: https://twitter.com/NicerInPerson/status/2014989679796347375</description>
-      <guid isPermaLink="true">https://twitter.com/NicerInPerson/status/2014989679796347375</guid>
-      <pubDate>Sat, 24 Jan 2026 14:35:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46743908</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46744807</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46744807</guid>
+      <pubDate>Sat, 24 Jan 2026 16:16:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46744807</comments>
     </item>
   </channel>
 </rss>
