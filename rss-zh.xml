@@ -6,99 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Jan 2026 15:22:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 18:31:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>联合国宣布世界已进入“全球水破产”时代</title>
-      <link>https://www.smithsonianmag.com/smart-news/united-nations-declares-that-the-world-has-entered-an-era-of-global-water-bankruptcy-180988045/</link>
-      <description>📝 在中东和北非，严重的水资源压力和气候脆弱性与复杂的政治经济交织在一起。美国西南部是另一个存在严重水问题的地区。报告呼吁全球采取行动解决普遍存在的水问题。
+      <title>一款 macOS 应用，当你弯腰驼背时，屏幕会变得模糊</title>
+      <link>https://github.com/tldev/posturr</link>
+      <description>📝 Posturr 一款 macOS 应用，当你弯腰驼背时，它会模糊你的屏幕。 Posturr 使用 Mac 的摄像头和 Apple 的 Vision 框架来实时监控您的姿势。摄像头权限 Posturr 需要摄像头访问权限才能监控您的姿势。
 
 
-🔤 Original: UN Declares That the World Has Entered an Era of 'Global Water Bankruptcy'
+🔤 Original: A macOS app that blurs your screen when you slouch
 
-🔗 Read more: https://www.smithsonianmag.com/smart-news/united-nations-declares-that-the-world-has-entered-an-era-of-global-water-bankruptcy-180988045/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/united-nations-declares-that-the-world-has-entered-an-era-of-global-water-bankruptcy-180988045/</guid>
-      <pubDate>Sun, 25 Jan 2026 15:02:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754600</comments>
+🔗 Read more: https://github.com/tldev/posturr</description>
+      <guid isPermaLink="true">https://github.com/tldev/posturr</guid>
+      <pubDate>Sun, 25 Jan 2026 15:34:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46754944</comments>
     </item>
     <item>
-      <title>据当地卫生官员称，伊朗抗议死亡人数可能超过 3 万人</title>
-      <link>https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/</link>
-      <description>📝 卫生部两天的数据与医生和急救人员收集的数据大致一致，并且也与《时代》杂志分享。他说，从一月份开始的周末开始，周五的更新就基于该研究，情况发生了变化。
+      <title>使用 PostgreSQL 作为事件驱动系统的死信队列</title>
+      <link>https://www.diljitpr.net/blog-post-postgresql-dlq</link>
+      <description>📝 索引 CREATE INDEX idx_dlq_status ON dlq_events (status);创建索引 idx_dlq_status_retry_after ON dlq_events (status, retry_after);创建索引 idx_dlq_event_type ON dlq_events (event_type);创建索引 idx_dlq_created_at ON dlq_events (created_at);这些索引允许重试调度程序有效地定位合格的事件，同时仍然支持快速调试和基于时间的分析，而无需全表扫描。带有 ShedLock 的 DLQ 重试机制 持久化失败事件解决了可见性问题，但我们仍然需要一种安全可靠的方法来重试它们。调度程序定期扫描 DLQ 表以查找符合重试条件的 PENDING 事件，并尝试再次处理它们。
 
 
-🔤 Original: Iran Protest Death Toll Could Top 30k, According to Local Health Officials
+🔤 Original: Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems
 
-🔗 Read more: https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/</description>
-      <guid isPermaLink="true">https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/</guid>
-      <pubDate>Sun, 25 Jan 2026 13:59:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754132</comments>
+🔗 Read more: https://www.diljitpr.net/blog-post-postgresql-dlq</description>
+      <guid isPermaLink="true">https://www.diljitpr.net/blog-post-postgresql-dlq</guid>
+      <pubDate>Sun, 25 Jan 2026 15:51:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46755115</comments>
     </item>
     <item>
-      <title>《毁灭战士》已被移植到耳塞式耳机上</title>
-      <link>https://doombuds.com</link>
-      <description>📝 是的，但它不仅仅可以在任何旧耳塞上运行，这只适用于 Pinebuds Pro，这是唯一具有开源固件的耳塞。唯一可行的方法是将视频作为 MJPEG 流发送。有了这个 wad 文件，一切都可以轻松地放入闪存中。
+      <title>ICE 使用以医疗补助数据为基础的 Palantir 工具</title>
+      <link>https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</link>
+      <description>📝 EFF 去年夏天要求联邦法官阻止联邦政府使用医疗补助数据来识别和驱逐移民。不同的政府机构必然会收集信息来提供基本服务或征税，但当政府开始汇集这些数据并出于与收集目的无关的原因使用这些数据时，就会出现危险。这种政府记录的整合提供了可能被滥用的巨大政府权力。
 
 
-🔤 Original: Doom has been ported to an earbud
+🔤 Original: ICE Using Palantir Tool That Feeds on Medicaid Data
 
-🔗 Read more: https://doombuds.com</description>
-      <guid isPermaLink="true">https://doombuds.com</guid>
-      <pubDate>Sun, 25 Jan 2026 12:22:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46753484</comments>
+🔗 Read more: https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</description>
+      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</guid>
+      <pubDate>Sun, 25 Jan 2026 17:36:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46756117</comments>
     </item>
     <item>
-      <title>仿照 Deluxe Paint 设计的基于网络的图像编辑器</title>
-      <link>https://github.com/steffest/DPaint-js</link>
-      <description>📝 除了现代图像格式之外，还有 DPaint。 be/dpaint/docs/ 离线运行 Dpaint。话虽这么说：DPaint。
+      <title>世界上最有影响力的文学评论家在 TikTok 上</title>
+      <link>https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</link>
+      <description>📝 2020年牛津大学拒绝了他的硕士申请时，爱德华兹发布了一段自己哭泣的视频，标题为“牛津大学拒绝了我的硕士申请……（抱歉这个视频很悲伤）”。社交媒体奖励坦白。在此注册 选择并输入您的电子邮件地址 周六 每周六阅读您的每周指南，了解关于思想、政治、书籍和文化的最佳写作。
 
 
-🔤 Original: Web-based image editor modeled after Deluxe Paint
+🔤 Original: World’s most powerful literary critic is on TikTok
 
-🔗 Read more: https://github.com/steffest/DPaint-js</description>
-      <guid isPermaLink="true">https://github.com/steffest/DPaint-js</guid>
-      <pubDate>Sun, 25 Jan 2026 12:54:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46753708</comments>
+🔗 Read more: https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</description>
+      <guid isPermaLink="true">https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</guid>
+      <pubDate>Sun, 25 Jan 2026 06:06:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46751231</comments>
     </item>
     <item>
-      <title>弥合 PLECS 和 SPICE 之间的差距</title>
-      <link>https://erickschulz.dev/posts/plecs-spice/</link>
-      <description>📝 PLECS Spice 终于来了。 PLECS Spice 将 SPICE 器件级仿真直接引入 PLECS。 PLECS Spice 可以模拟包含标准 PLECS 和 SPICE 电路的混合系统。
+      <title>Show HN：Netfence – 就像 eBPF 过滤器的 Envoy</title>
+      <link>https://github.com/danthegoodman1/netfence</link>
+      <description>📝 您的控制平面会推送 ALLOW * 等网络规则。连接）加载和管理 eBPF 程序 启动守护进程： # 使用默认配置启动 netfenced start # 使用自定义配置文件启动 netfenced start --config /etc/netfence/config.conf --metadata container_id=xyz # 附加元数据 netfenced Attach --interface eth0 --metadatatenant=acme,env=prod 守护进程将 eBPF 过滤器附加到目标 守护进程将 Subscribed{id, target, type,metadata} 发送到控制平面并等待具有初始配置（模式、CIDR、DNS 规则）的 SubscribedAck 如果控制平面在超时（默认 5 秒，可通过 control_plane 配置）内没有响应。
 
 
-🔤 Original: Bridging the Gap Between PLECS and SPICE
+🔤 Original: Show HN: Netfence – Like Envoy for eBPF Filters
 
-🔗 Read more: https://erickschulz.dev/posts/plecs-spice/</description>
-      <guid isPermaLink="true">https://erickschulz.dev/posts/plecs-spice/</guid>
-      <pubDate>Sun, 25 Jan 2026 10:44:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46752841</comments>
+🔗 Read more: https://github.com/danthegoodman1/netfence</description>
+      <guid isPermaLink="true">https://github.com/danthegoodman1/netfence</guid>
+      <pubDate>Sun, 25 Jan 2026 15:13:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46754724</comments>
     </item>
     <item>
-      <title>警报过载正在破坏海上安全，船员面临数千个警报</title>
-      <link>https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/</link>
-      <description>📝 新闻稿 2026 年 1 月 20 日 新研究显示，船员每天面临数以万计的警报，警报超载正在破坏海上安全。 数字化转型 海员咨询服务 对超过 4000 万个警报相关事件的分析表明，大多数警报几乎没有什么操作价值，会扰乱休息，并迫使船员采取危险的解决方法。海事行业的有效警报管理：基于 LR 海事行业有效警报管理报告（2024 年 9 月发布）对 4000 万艘船舶警报的见解，超越诊断，展示在实践中可以实现的目标。英国劳氏全球技术主管邓肯·达菲 (Duncan Duffy) 表示：“我们的研究发现，如果报警系统管理不善，其本身就会成为安全风险。
+      <title>Wine-Staging 11.1 添加了在 Linux 上启用最新 Photoshop 版本的补丁</title>
+      <link>https://www.phoronix.com/news/Wine-Staging-11.1</link>
+      <description>📝 除了将这 250 多个补丁重新调整到最新的 Wine Git 状态之外，最新的 VKD3D Git 代码也被拉入 Wine-Staging 11。这些补丁在 Photoshop Creative Cloud 2019 屏幕周围的上游 Wine 的 Bug 47015 中引用了这些补丁，并遇到了 MSXML3 错误。上游 Wine Git 尚未采用这些补丁，但现在它们已包含在 Wine-Staging 11 中。
 
 
-🔤 Original: Alarm overload is undermining safety at sea as crews face thousands of alerts
+🔤 Original: Wine-Staging 11.1 Adds Patches for Enabling Recent Photoshop Versions on Linux
 
-🔗 Read more: https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/</description>
-      <guid isPermaLink="true">https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/</guid>
-      <pubDate>Sun, 25 Jan 2026 12:40:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46753611</comments>
+🔗 Read more: https://www.phoronix.com/news/Wine-Staging-11.1</description>
+      <guid isPermaLink="true">https://www.phoronix.com/news/Wine-Staging-11.1</guid>
+      <pubDate>Sun, 25 Jan 2026 14:42:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46754427</comments>
     </item>
     <item>
-      <title>索尼数据光盘机</title>
-      <link>https://huguesjohnson.com/random/sony-ebook/</link>
-      <description>📝 我想这意味着我们可以撕掉它们（很快就会有更多内容）。启动画面提醒您这仅供私人使用。我怀疑这会阻止任何人。
+      <title>15 万行振动代码 Elixir: The Good, the Bad and the Ugly</title>
+      <link>https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</link>
+      <description>📝 Elixir 使用的标记比大多数语言都要少。它重复已经编写的代码。 Elixir 看起来像 Ruby。
 
 
-🔤 Original: Sony Data Discman
+🔤 Original: 150k lines of vibe coded Elixir: The Good, the Bad and the Ugly
 
-🔗 Read more: https://huguesjohnson.com/random/sony-ebook/</description>
-      <guid isPermaLink="true">https://huguesjohnson.com/random/sony-ebook/</guid>
-      <pubDate>Sun, 25 Jan 2026 08:23:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46751906</comments>
+🔗 Read more: https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</description>
+      <guid isPermaLink="true">https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</guid>
+      <pubDate>Sun, 25 Jan 2026 10:54:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46752907</comments>
     </item>
   </channel>
 </rss>

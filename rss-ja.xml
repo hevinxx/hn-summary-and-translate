@@ -6,99 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 25 Jan 2026 15:22:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 18:31:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>国連、世界は「世界的な水破産」の時代に入ったと宣言</title>
-      <link>https://www.smithsonianmag.com/smart-news/united-nations-declares-that-the-world-has-entered-an-era-of-global-water-bankruptcy-180988045/</link>
-      <description>📝 中東と北アフリカでは、高い水ストレスと気候の脆弱性が複雑な政治経済と交差しています。 「アメリカ南西部も深刻な水問題を抱えている地域です。報告書は、広範な水問題に取り組むために世界的な行動をとるよう求めています。」
+      <title>前かがみになると画面がぼやける macOS アプリ</title>
+      <link>https://github.com/tldev/posturr</link>
+      <description>📝 Posturr 前かがみになると画面がぼやける macOS アプリ。 Posturr は、Mac のカメラと Apple の Vision フレームワークを使用して、リアルタイムで姿勢を監視します。カメラの許可 Posturr では、姿勢を監視するためにカメラへのアクセスが必要です。
 
 
-🔤 Original: UN Declares That the World Has Entered an Era of 'Global Water Bankruptcy'
+🔤 Original: A macOS app that blurs your screen when you slouch
 
-🔗 Read more: https://www.smithsonianmag.com/smart-news/united-nations-declares-that-the-world-has-entered-an-era-of-global-water-bankruptcy-180988045/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/united-nations-declares-that-the-world-has-entered-an-era-of-global-water-bankruptcy-180988045/</guid>
-      <pubDate>Sun, 25 Jan 2026 15:02:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754600</comments>
+🔗 Read more: https://github.com/tldev/posturr</description>
+      <guid isPermaLink="true">https://github.com/tldev/posturr</guid>
+      <pubDate>Sun, 25 Jan 2026 15:34:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46754944</comments>
     </item>
     <item>
-      <title>地元保健当局によると、イランの抗議活動による死者数は3万人を超える可能性がある</title>
-      <link>https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/</link>
-      <description>📝 保健省の 2 日間の数字は、医師や初期対応者が収集し、TIME とも共有したカウントとほぼ一致しています。その調査に基づいた1月金曜日のアップデートが始まる週末の間に状況は変わった、と同氏は語った。
+      <title>イベント駆動型システムのデッドレターキューとして PostgreSQL を使用する</title>
+      <link>https://www.diljitpr.net/blog-post-postgresql-dlq</link>
+      <description>📝 インデックス CREATE INDEX idx_dlq_status ON dlq_events (ステータス); CREATE INDEX idx_dlq_status_retry_after ON dlq_events (ステータス、retry_after); CREATE INDEX idx_dlq_event_type ON dlq_events (event_type); CREATE INDEX idx_dlq_created_at ON dlq_events (created_at);これらのインデックスにより、再試行スケジューラは対象となるイベントを効率的に特定できると同時に、テーブル全体のスキャンを行わずに高速なデバッグと時間ベースの分析をサポートできます。 ShedLock を使用した DLQ 再試行メカニズム 失敗したイベントを永続化することで可視性の問題は解決されましたが、安全かつ信頼性の高い再試行方法が依然として必要でした。スケジューラは、DLQ テーブルを定期的にスキャンして、再試行の対象となる PENDING イベントを探し、それらのイベントを再度処理しようとします。
 
 
-🔤 Original: Iran Protest Death Toll Could Top 30k, According to Local Health Officials
+🔤 Original: Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems
 
-🔗 Read more: https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/</description>
-      <guid isPermaLink="true">https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/</guid>
-      <pubDate>Sun, 25 Jan 2026 13:59:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754132</comments>
+🔗 Read more: https://www.diljitpr.net/blog-post-postgresql-dlq</description>
+      <guid isPermaLink="true">https://www.diljitpr.net/blog-post-postgresql-dlq</guid>
+      <pubDate>Sun, 25 Jan 2026 15:51:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46755115</comments>
     </item>
     <item>
-      <title>Doom がイヤホンに移植されました</title>
-      <link>https://doombuds.com</link>
-      <description>📝 はい、でも古いイヤフォンだけで動作するわけではありません。オープンソース ファームウェアを搭載した唯一のイヤフォンである Pinebuds Pro でのみ動作します。唯一実現可能な方法は、ビデオを MJPEG ストリームとして送信することです。この wad ファイルを使用すると、すべてがフラッシュに快適に収まります。
+      <title>メディケイド データをフィードする Palantir ツールを使用する ICE</title>
+      <link>https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</link>
+      <description>📝 EFFは昨年夏、連邦判事に対し、連邦政府が移民の特定と国外追放にメディケイドのデータを利用することを阻止するよう求めた。さまざまな政府機関は、必要不可欠なサービスを提供したり税金を徴収したりするために必然的に情報を収集しますが、政府がそのデータをプールし、収集した目的とは関係のない理由で使用し始めると危険が生じます。この種の政府記録の統合は、悪用される可能性のある巨大な政府権力を提供します。
 
 
-🔤 Original: Doom has been ported to an earbud
+🔤 Original: ICE Using Palantir Tool That Feeds on Medicaid Data
 
-🔗 Read more: https://doombuds.com</description>
-      <guid isPermaLink="true">https://doombuds.com</guid>
-      <pubDate>Sun, 25 Jan 2026 12:22:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46753484</comments>
+🔗 Read more: https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</description>
+      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</guid>
+      <pubDate>Sun, 25 Jan 2026 17:36:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46756117</comments>
     </item>
     <item>
-      <title>Deluxe Paint をモデルにした Web ベースの画像エディター</title>
-      <link>https://github.com/steffest/DPaint-js</link>
-      <description>📝 最新の画像形式の次は DPaint です。 be/dpaint/docs/ オフラインで Dpaint を実行します。そうは言っても、Dペイント。
+      <title>世界で最も影響力のある文芸評論家が TikTok に登場</title>
+      <link>https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</link>
+      <description>📝 2020年にオックスフォード大学が修士課程の申請を拒否したとき、エドワーズさんは「オックスフォード大学が私の修士課程の申請を拒否した…（このビデオは悲しいです）」と題して、泣いている自分の動画を投稿した。ソーシャルメディアは告白に報酬を与えます。ここでサインアップしてください。メール アドレスを選択して入力してください。 The Saturday Read Your Weekly ガイドでは、毎週土曜日にアイデア、政治、本、文化に関する最高の記事を掲載しています。
 
 
-🔤 Original: Web-based image editor modeled after Deluxe Paint
+🔤 Original: World’s most powerful literary critic is on TikTok
 
-🔗 Read more: https://github.com/steffest/DPaint-js</description>
-      <guid isPermaLink="true">https://github.com/steffest/DPaint-js</guid>
-      <pubDate>Sun, 25 Jan 2026 12:54:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46753708</comments>
+🔗 Read more: https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</description>
+      <guid isPermaLink="true">https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</guid>
+      <pubDate>Sun, 25 Jan 2026 06:06:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46751231</comments>
     </item>
     <item>
-      <title>PLECS と SPICE の間のギャップを埋める</title>
-      <link>https://erickschulz.dev/posts/plecs-spice/</link>
-      <description>📝 PLECSスパイスがついに登場しました。 PLECS Spice は、SPICE デバイスレベルのシミュレーションを PLECS に直接導入します。 PLECS Spice は、標準 PLECS 回路と SPICE 回路の両方を含むハイブリッド システムをシミュレートできます。
+      <title>Show HN: Netfence – eBPF フィルターの Envoy のようなもの</title>
+      <link>https://github.com/danthegoodman1/netfence</link>
+      <description>📝 コントロール プレーンは、ALLOW * などのネットワーク ルールをプッシュします。 Connect) eBPF プログラムをロードして管理します。 デーモンを起動します。 # デフォルト設定で開始 netfenced start # カスタム設定ファイルで開始 netfenced start --config /etc/netfence/config. --metadatacontainer_id=xyz # メタデータを使用してアタッチします netfencedattach --interface eth0 --metadata tenant=acme,env=prod デーモンは eBPF フィルターをターゲットにアタッチします デーモンは Subscribed{id, target, type, metadata} をコントロール プレーンに送信し、初期設定 (モード、CIDR、DNS ルール) で SubscribedAck を待ちます コントロール プレーンがタイムアウト内に応答しない場合 (デフォルトは 5 秒、 control_plane 経由で設定可能。
 
 
-🔤 Original: Bridging the Gap Between PLECS and SPICE
+🔤 Original: Show HN: Netfence – Like Envoy for eBPF Filters
 
-🔗 Read more: https://erickschulz.dev/posts/plecs-spice/</description>
-      <guid isPermaLink="true">https://erickschulz.dev/posts/plecs-spice/</guid>
-      <pubDate>Sun, 25 Jan 2026 10:44:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46752841</comments>
+🔗 Read more: https://github.com/danthegoodman1/netfence</description>
+      <guid isPermaLink="true">https://github.com/danthegoodman1/netfence</guid>
+      <pubDate>Sun, 25 Jan 2026 15:13:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46754724</comments>
     </item>
     <item>
-      <title>乗組員は何千もの警報に直面しており、警報の過負荷が海上の安全を損なっている</title>
-      <link>https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/</link>
-      <description>📝 プレスリリース 2026 年 1 月 20 日 警報の過負荷が海上の安全を損なう新たな研究で、乗組員は毎日数万件の警報に直面していることが示されている デジタルトランスフォーメーション 船員アドバイザリーサービス 4,000 万件を超える警報関連イベントの分析では、ほとんどの警報は運用上の価値がほとんどなく、休息を妨げ、乗組員を危険な回避策に向かわせることが示されています。海事産業における効果的な警報管理: 4,000 万件の船舶警報からの洞察は、LR の「海事業界における効果的な警報管理」レポート (2024 年 9 月リリース) に基づいており、診断を超えて実際に何が達成できるかを実証しています。 LR のグローバル技術責任者、ダンカン・ダフィー氏は次のように述べています。「私たちの調査では、警報システムは管理が不十分だと、それ自体が安全上のリスクになることが判明しました。
+      <title>Wine-Staging 11.1 は、Linux 上で Photoshop の最新バージョンを有効にするパッチを追加します</title>
+      <link>https://www.phoronix.com/news/Wine-Staging-11.1</link>
+      <description>📝 これらの 250 以上のパッチを最新の Wine Git 状態にリベースするだけでなく、最新の VKD3D Git コードも Wine-Staging 11 に取り込まれます。これらのパッチは、Photoshop Creative Cloud 2019 画面で MSXML3 エラーが発生するアップストリーム Wine のバグ 47015 で引用されています。アップストリームの Wine Git にはまだこれらのパッチが適用されていませんが、現在は Wine-Staging 11 に含まれています。
 
 
-🔤 Original: Alarm overload is undermining safety at sea as crews face thousands of alerts
+🔤 Original: Wine-Staging 11.1 Adds Patches for Enabling Recent Photoshop Versions on Linux
 
-🔗 Read more: https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/</description>
-      <guid isPermaLink="true">https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/</guid>
-      <pubDate>Sun, 25 Jan 2026 12:40:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46753611</comments>
+🔗 Read more: https://www.phoronix.com/news/Wine-Staging-11.1</description>
+      <guid isPermaLink="true">https://www.phoronix.com/news/Wine-Staging-11.1</guid>
+      <pubDate>Sun, 25 Jan 2026 14:42:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46754427</comments>
     </item>
     <item>
-      <title>ソニーデータディスクマン</title>
-      <link>https://huguesjohnson.com/random/sony-ebook/</link>
-      <description>📝 それは私たちがそれらをリッピングできることを意味すると思います（これについてはすぐに説明します）。これが個人使用のみであることを通知するスプラッシュ画面。しかし、それで誰も止められるとは思えません。
+      <title>150,000 行のバイブコード化された Elixir: 良いもの、悪いもの、そして醜いもの</title>
+      <link>https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</link>
+      <description>📝 Elixir は、ほとんどの言語よりもトークンの使用量が少なくなります。すでに書かれたコードを繰り返します。エリクサーはルビーに似ています。
 
 
-🔤 Original: Sony Data Discman
+🔤 Original: 150k lines of vibe coded Elixir: The Good, the Bad and the Ugly
 
-🔗 Read more: https://huguesjohnson.com/random/sony-ebook/</description>
-      <guid isPermaLink="true">https://huguesjohnson.com/random/sony-ebook/</guid>
-      <pubDate>Sun, 25 Jan 2026 08:23:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46751906</comments>
+🔗 Read more: https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</description>
+      <guid isPermaLink="true">https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</guid>
+      <pubDate>Sun, 25 Jan 2026 10:54:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46752907</comments>
     </item>
   </channel>
 </rss>
