@@ -6,78 +6,72 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Jan 2026 18:31:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 21:20:51 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>A macOS app that blurs your screen when you slouch</title>
-      <link>https://github.com/tldev/posturr</link>
-      <description>📝 Posturr A macOS app that blurs your screen when you slouch. Posturr uses your Mac's camera and Apple's Vision framework to monitor your posture in real-time. Camera Permission Posturr requires camera access to monitor your posture.
+      <title>First, make me care</title>
+      <link>https://gwern.net/blog/2026/make-me-care</link>
+      <description>📝 Writing advice: some nonfiction fails because it opens with background instead of a hook—readers leave before reaching the good material. Find the single anomaly or question that makes your topic interesting, lead with that, and let the background follow once you’ve earned attention. [Return to blog index].
 
-🔗 Read more: https://github.com/tldev/posturr</description>
-      <guid isPermaLink="true">https://github.com/tldev/posturr</guid>
-      <pubDate>Sun, 25 Jan 2026 15:34:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754944</comments>
+🔗 Read more: https://gwern.net/blog/2026/make-me-care</description>
+      <guid isPermaLink="true">https://gwern.net/blog/2026/make-me-care</guid>
+      <pubDate>Sun, 25 Jan 2026 19:03:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757067</comments>
     </item>
     <item>
-      <title>Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems</title>
-      <link>https://www.diljitpr.net/blog-post-postgresql-dlq</link>
-      <description>📝 Indexes CREATE INDEX idx_dlq_status ON dlq_events (status); CREATE INDEX idx_dlq_status_retry_after ON dlq_events (status, retry_after); CREATE INDEX idx_dlq_event_type ON dlq_events (event_type); CREATE INDEX idx_dlq_created_at ON dlq_events (created_at); These indexes allow the retry scheduler to efficiently locate eligible events while still supporting fast debugging and time-based analysis without full table scans. DLQ Retry Mechanism with ShedLock Persisting failed events solved the visibility problem, but we still needed a safe and reliable way to retry them. The scheduler periodically scans the DLQ table for PENDING events that are eligible for retry and attempts to process them again.
-
-🔗 Read more: https://www.diljitpr.net/blog-post-postgresql-dlq</description>
-      <guid isPermaLink="true">https://www.diljitpr.net/blog-post-postgresql-dlq</guid>
-      <pubDate>Sun, 25 Jan 2026 15:51:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46755115</comments>
+      <title>OnePlus update blocks downgrades and custom ROMs by blowing a fuse</title>
+      <link>https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback</link>
+      <guid isPermaLink="true">https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback</guid>
+      <pubDate>Sun, 25 Jan 2026 20:39:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757944</comments>
     </item>
     <item>
-      <title>ICE Using Palantir Tool That Feeds on Medicaid Data</title>
-      <link>https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</link>
-      <description>📝 EFF last summer asked a federal judge to block the federal government from using Medicaid data to identify and deport immigrants. Different government agencies necessarily collect information to provide essential services or collect taxes, but the danger comes when the government begins pooling that data and using it for reasons unrelated to the purpose it was collected. This kind of consolidation of government records provides enormous government power that can be abused.
+      <title>Spanish track was fractured before high-speed train disaster, report finds</title>
+      <link>https://www.bbc.com/news/articles/c1m77dmxlvlo</link>
+      <description>📝 Spanish track was fractured before high-speed train disaster, report finds2 days agoShareSaveHafsa KhalilShareSaveSpain's CIAFGrooves were found on wheels of the Iryo train that had already passed over the track before the derailmentA fracture in a straight section of track "occurred prior to the passage" of a high-speed train that derailed, causing last Sunday's rail disaster in which 45 people died, an initial report has found. The CIAF rail investigation commission said not only did Iryo train's front carriages which stayed on the track have "notches" in their wheels, but three earlier trains that went over the track earlier did too. The train's last three carriages - carriages six to eight - derailed and collided with the Huelva-bound Renfe train.
 
-🔗 Read more: https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</guid>
-      <pubDate>Sun, 25 Jan 2026 17:36:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46756117</comments>
+🔗 Read more: https://www.bbc.com/news/articles/c1m77dmxlvlo</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c1m77dmxlvlo</guid>
+      <pubDate>Sun, 25 Jan 2026 19:12:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757162</comments>
     </item>
     <item>
-      <title>World’s most powerful literary critic is on TikTok</title>
-      <link>https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</link>
-      <description>📝 When Oxford University rejected his master’s application in 2020, Edwards posted a video of himself crying, entitled “oxford university rejected my masters application… (sorry this video is sad)”. Social media rewards confession. Sign up here Select and enter your email address The Saturday Read Your weekly guide to the best writing on ideas, politics, books and culture every Saturday.
+      <title>I was right about ATProto key management</title>
+      <link>https://notes.nora.codes/atproto-again/</link>
+      <description>📝 So, today, I tried that. With that did:web, upload the did. Support from the company that I am supposedly free from using.
 
-🔗 Read more: https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</description>
-      <guid isPermaLink="true">https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</guid>
-      <pubDate>Sun, 25 Jan 2026 06:06:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46751231</comments>
+🔗 Read more: https://notes.nora.codes/atproto-again/</description>
+      <guid isPermaLink="true">https://notes.nora.codes/atproto-again/</guid>
+      <pubDate>Sun, 25 Jan 2026 19:31:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757357</comments>
     </item>
     <item>
-      <title>Show HN: Netfence – Like Envoy for eBPF Filters</title>
-      <link>https://github.com/danthegoodman1/netfence</link>
-      <description>📝 Your control plane pushes network rules like ALLOW *. Connect) Loads and manages eBPF programs Start the daemon: # Start with default config netfenced start # Start with custom config file netfenced start --config /etc/netfence/config. --metadata container_id=xyz # Attach with metadata netfenced attach --interface eth0 --metadata tenant=acme,env=prod Daemon attaches eBPF filter to the target Daemon sends Subscribed{id, target, type, metadata} to control plane and waits for SubscribedAck with initial config (mode, CIDRs, DNS rules) If the control plane doesn't respond within the timeout (default 5s, configurable via control_plane.
+      <title>AI Tribalism</title>
+      <link>https://nolanlawson.com/2026/01/24/ai-tribalism/</link>
+      <description>📝 And since politics long ago devolved into tribalism, that means it’s become tribalism. “What about performance. “What about accessibility.
 
-🔗 Read more: https://github.com/danthegoodman1/netfence</description>
-      <guid isPermaLink="true">https://github.com/danthegoodman1/netfence</guid>
-      <pubDate>Sun, 25 Jan 2026 15:13:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754724</comments>
+🔗 Read more: https://nolanlawson.com/2026/01/24/ai-tribalism/</description>
+      <guid isPermaLink="true">https://nolanlawson.com/2026/01/24/ai-tribalism/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:01:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46758175</comments>
     </item>
     <item>
-      <title>Wine-Staging 11.1 Adds Patches for Enabling Recent Photoshop Versions on Linux</title>
-      <link>https://www.phoronix.com/news/Wine-Staging-11.1</link>
-      <description>📝 Besides re-basing those 250+ patches to the latest Wine Git state, the latest VKD3D Git code is also pulled into Wine-Staging 11. Those patches were cited in Bug 47015 for upstream Wine around the Photoshop Creative Cloud 2019 screen hitting MSXML3 errors. Upstream Wine Git hasn't yet taken those patches but now they are in Wine-Staging 11.
-
-🔗 Read more: https://www.phoronix.com/news/Wine-Staging-11.1</description>
-      <guid isPermaLink="true">https://www.phoronix.com/news/Wine-Staging-11.1</guid>
-      <pubDate>Sun, 25 Jan 2026 14:42:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754427</comments>
+      <title>Data Leak Exposes 149M Logins, Including Gmail, Facebook</title>
+      <link>https://www.techrepublic.com/article/news-149-million-passwords-exposed-infostealer-database/</link>
+      <guid isPermaLink="true">https://www.techrepublic.com/article/news-149-million-passwords-exposed-infostealer-database/</guid>
+      <pubDate>Sun, 25 Jan 2026 19:45:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757465</comments>
     </item>
     <item>
-      <title>150k lines of vibe coded Elixir: The Good, the Bad and the Ugly</title>
-      <link>https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</link>
-      <description>📝 Elixir uses fewer tokens than most languages. It repeats code it’s already written. Elixir looks like Ruby.
+      <title>FAA institutes nationwide drone no-fly zones around ICE operations</title>
+      <link>https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs</link>
+      <description>📝 FAA institutes nationwide drone no-fly zones around ICE operationsByStephen PopeJanuary 22, 2026, 22:41 (UTC +3) 1 comment Drones DJI The Federal Aviation Administration has issued a nationwide security notice, effectively creating a moving drone no-fly zone around operations conducted by Immigration and Customs Enforcement (ICE) and other components of the Department of Homeland Security. Because ICE operates under DHS and routinely conducts enforcement actions using mobile vehicle convoys in public spaces, the restriction functions as a drone no-fly zone around ICE operations, including arrests, transport activities and other field actions. The new NOTAM replaces an earlier security notice, FDC 5/6378, which covered similar federal agencies but was less explicit about mobile operations.
 
-🔗 Read more: https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</description>
-      <guid isPermaLink="true">https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</guid>
-      <pubDate>Sun, 25 Jan 2026 10:54:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46752907</comments>
+🔗 Read more: https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs</description>
+      <guid isPermaLink="true">https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs</guid>
+      <pubDate>Sun, 25 Jan 2026 17:24:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46755999</comments>
     </item>
   </channel>
 </rss>

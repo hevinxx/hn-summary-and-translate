@@ -6,99 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 25 Jan 2026 18:31:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 21:20:51 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>구부정하게 앉아 있으면 화면이 흐려지는 macOS 앱</title>
-      <link>https://github.com/tldev/posturr</link>
-      <description>📝 Posturr 구부정하게 앉아 있으면 화면이 흐려지는 macOS 앱입니다. Posturr는 Mac의 카메라와 Apple의 Vision 프레임워크를 사용하여 실시간으로 자세를 모니터링합니다. 카메라 권한 Posturr는 자세를 모니터링하기 위해 카메라 액세스가 필요합니다.
+      <title>먼저, 나에게 관심을 가져라</title>
+      <link>https://gwern.net/blog/2026/make-me-care</link>
+      <description>📝 글쓰기 조언: 일부 논픽션은 연결 고리 대신 배경으로 열리기 때문에 실패합니다. 독자는 좋은 자료에 도달하기 전에 떠나게 됩니다. 주제를 흥미롭게 만드는 단일 예외 사항이나 질문을 찾아 이를 시작하고 관심을 얻은 후에는 배경을 따르십시오. [블로그 색인으로 돌아가기].
 
 
-🔤 Original: A macOS app that blurs your screen when you slouch
+🔤 Original: First, make me care
 
-🔗 Read more: https://github.com/tldev/posturr</description>
-      <guid isPermaLink="true">https://github.com/tldev/posturr</guid>
-      <pubDate>Sun, 25 Jan 2026 15:34:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754944</comments>
+🔗 Read more: https://gwern.net/blog/2026/make-me-care</description>
+      <guid isPermaLink="true">https://gwern.net/blog/2026/make-me-care</guid>
+      <pubDate>Sun, 25 Jan 2026 19:03:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757067</comments>
     </item>
     <item>
-      <title>이벤트 기반 시스템을 위한 데드 레터 큐로 PostgreSQL 사용</title>
-      <link>https://www.diljitpr.net/blog-post-postgresql-dlq</link>
-      <description>📝 인덱스 CREATE INDEX idx_dlq_status ON dlq_events (상태); CREATE INDEX idx_dlq_status_retry_after ON dlq_events (상태, retry_after); CREATE INDEX idx_dlq_event_type ON dlq_events (event_type); CREATE INDEX idx_dlq_created_at ON dlq_events (created_at); 이러한 인덱스를 사용하면 재시도 스케줄러가 적격 이벤트를 효율적으로 찾는 동시에 전체 테이블 스캔 없이도 빠른 디버깅 및 시간 기반 분석을 지원할 수 있습니다. ShedLock을 사용한 DLQ 재시도 메커니즘 실패한 이벤트를 지속하면 가시성 문제가 해결되었지만 여전히 재시도할 수 있는 안전하고 안정적인 방법이 필요했습니다. 스케줄러는 DLQ 테이블에서 재시도할 수 있는 PENDING 이벤트를 주기적으로 스캔하고 이를 다시 처리하려고 시도합니다.
-
-
-🔤 Original: Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems
-
-🔗 Read more: https://www.diljitpr.net/blog-post-postgresql-dlq</description>
-      <guid isPermaLink="true">https://www.diljitpr.net/blog-post-postgresql-dlq</guid>
-      <pubDate>Sun, 25 Jan 2026 15:51:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46755115</comments>
+      <title>OnePlus 업데이트는 퓨즈를 끊어서 다운그레이드 및 사용자 정의 ROM을 차단합니다.</title>
+      <link>https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback</link>
+      <guid isPermaLink="true">https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback</guid>
+      <pubDate>Sun, 25 Jan 2026 20:39:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757944</comments>
     </item>
     <item>
-      <title>Medicaid 데이터를 제공하는 Palantir 도구를 사용하는 ICE</title>
-      <link>https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</link>
-      <description>📝 지난 여름 EFF는 연방정부가 이민자를 식별하고 추방하기 위해 Medicaid 데이터를 사용하는 것을 차단해달라고 연방 판사에게 요청했습니다. 다양한 정부 기관이 필수적인 서비스를 제공하거나 세금을 징수하기 위해 반드시 정보를 수집하지만, 정부가 해당 데이터를 모아서 수집 목적과 무관한 이유로 사용하기 시작하면 위험이 따릅니다. 이러한 종류의 정부 기록 통합은 남용될 수 있는 막대한 정부 권한을 제공합니다.
+      <title>스페인 선로, 고속열차 참사 직전 파손됐다</title>
+      <link>https://www.bbc.com/news/articles/c1m77dmxlvlo</link>
+      <description>📝 스페인의 선로가 고속 열차 참사 이전에 파손됐다는 보고가 이틀 전 발견됐다.ShareSaveHafsa KhalilShareSaveSpain의 CIAF그루브는 탈선 이전에 이미 선로를 지나갔던 Iryo 열차의 바퀴에서 발견됐다. 탈선한 고속 열차의 직선 구간에서 선로의 균열이 탈선해 45명이 사망한 지난 일요일 철도 참사를 초래했다고 초기 보고서가 밝혔다. CIAF 철도 조사위원회는 선로에 머물렀던 이료(Iryo) 열차의 앞객차 바퀴에 "노치(notch)"가 있었을 뿐만 아니라 이전에 선로를 지나간 3대의 열차도 바퀴에 "노치(notch)"가 있었다고 말했습니다. 열차의 마지막 3량(객차 6~8량)이 탈선하여 우엘바행 렌페 열차와 충돌했습니다.
 
 
-🔤 Original: ICE Using Palantir Tool That Feeds on Medicaid Data
+🔤 Original: Spanish track was fractured before high-speed train disaster, report finds
 
-🔗 Read more: https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data</guid>
-      <pubDate>Sun, 25 Jan 2026 17:36:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46756117</comments>
+🔗 Read more: https://www.bbc.com/news/articles/c1m77dmxlvlo</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c1m77dmxlvlo</guid>
+      <pubDate>Sun, 25 Jan 2026 19:12:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757162</comments>
     </item>
     <item>
-      <title>세계에서 가장 강력한 문학 평론가가 TikTok에 있습니다</title>
-      <link>https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</link>
-      <description>📝 2020년 옥스퍼드 대학이 석사 지원서를 거부했을 때 Edwards는 "옥스퍼드 대학이 내 석사 지원서를 거부했습니다...(이 비디오는 슬프지만)"라는 제목으로 자신이 울고 있는 영상을 게시했습니다. 소셜 미디어는 고백에 보상을 줍니다. 여기에서 가입하십시오. 이메일 주소를 선택하고 입력하십시오. 토요일 매주 토요일마다 아이디어, 정치, 도서 및 문화에 관한 최고의 글쓰기에 대한 주간 가이드를 읽으십시오.
+      <title>ATProto 키 관리에 대해서는 내가 옳았습니다</title>
+      <link>https://notes.nora.codes/atproto-again/</link>
+      <description>📝 그래서 오늘은 그걸 시도해 봤습니다. did:web을 사용하여 did를 업로드하세요. 내가 무료로 사용할 수 있는 회사의 지원.
 
 
-🔤 Original: World’s most powerful literary critic is on TikTok
+🔤 Original: I was right about ATProto key management
 
-🔗 Read more: https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</description>
-      <guid isPermaLink="true">https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok</guid>
-      <pubDate>Sun, 25 Jan 2026 06:06:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46751231</comments>
+🔗 Read more: https://notes.nora.codes/atproto-again/</description>
+      <guid isPermaLink="true">https://notes.nora.codes/atproto-again/</guid>
+      <pubDate>Sun, 25 Jan 2026 19:31:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757357</comments>
     </item>
     <item>
-      <title>HN 표시: Netfence – eBPF 필터용 Envoy와 유사</title>
-      <link>https://github.com/danthegoodman1/netfence</link>
-      <description>📝 제어 영역은 ALLOW *와 같은 네트워크 규칙을 푸시합니다. 연결) eBPF 프로그램 로드 및 관리 데몬을 시작합니다: # 기본 구성으로 시작 netfenced start # 사용자 정의 구성 파일로 시작 netfenced start --config /etc/netfence/config. --metadata Container_id=xyz # 메타데이터로 연결 netfenced attachment --interface eth0 --metadatatenant=acme,env=prod 데몬은 eBPF 필터를 대상에 연결합니다. 데몬은 Subscribed{id, target, type,metadata}를 제어 플레인에 보내고 초기 구성(모드, CIDR, DNS 규칙)으로 SubscribedAck를 기다립니다. 제어 플레인이 제한 시간(기본값 5초, 다음을 통해 구성 가능) 내에 응답하지 않는 경우 제어 평면.
+      <title>AI 부족주의</title>
+      <link>https://nolanlawson.com/2026/01/24/ai-tribalism/</link>
+      <description>📝 그리고 오래 전에 정치가 부족주의로 전락했기 때문에 그것은 그것이 부족주의가 되었음을 의미합니다. “성능은 어떻습니까?”접근성은 어떻습니까?
 
 
-🔤 Original: Show HN: Netfence – Like Envoy for eBPF Filters
+🔤 Original: AI Tribalism
 
-🔗 Read more: https://github.com/danthegoodman1/netfence</description>
-      <guid isPermaLink="true">https://github.com/danthegoodman1/netfence</guid>
-      <pubDate>Sun, 25 Jan 2026 15:13:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754724</comments>
+🔗 Read more: https://nolanlawson.com/2026/01/24/ai-tribalism/</description>
+      <guid isPermaLink="true">https://nolanlawson.com/2026/01/24/ai-tribalism/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:01:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46758175</comments>
     </item>
     <item>
-      <title>Wine-Staging 11.1, Linux에서 최신 Photoshop 버전을 활성화하기 위한 패치 추가</title>
-      <link>https://www.phoronix.com/news/Wine-Staging-11.1</link>
-      <description>📝 250개 이상의 패치를 최신 Wine Git 상태로 리베이스하는 것 외에도 최신 VKD3D Git 코드도 Wine-Staging 11로 가져옵니다. 이러한 패치는 MSXML3 오류가 발생하는 Photoshop Creative Cloud 2019 화면 주변의 업스트림 Wine에 대한 버그 47015에서 인용되었습니다. Upstream Wine Git은 아직 해당 패치를 적용하지 않았지만 현재 Wine-Staging 11에 있습니다.
-
-
-🔤 Original: Wine-Staging 11.1 Adds Patches for Enabling Recent Photoshop Versions on Linux
-
-🔗 Read more: https://www.phoronix.com/news/Wine-Staging-11.1</description>
-      <guid isPermaLink="true">https://www.phoronix.com/news/Wine-Staging-11.1</guid>
-      <pubDate>Sun, 25 Jan 2026 14:42:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46754427</comments>
+      <title>데이터 유출로 Gmail, Facebook을 포함한 1억 4900만 개의 로그인 노출</title>
+      <link>https://www.techrepublic.com/article/news-149-million-passwords-exposed-infostealer-database/</link>
+      <guid isPermaLink="true">https://www.techrepublic.com/article/news-149-million-passwords-exposed-infostealer-database/</guid>
+      <pubDate>Sun, 25 Jan 2026 19:45:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46757465</comments>
     </item>
     <item>
-      <title>15만 라인의 바이브 코드 Elixir: The Good, the Bad and the Ugly</title>
-      <link>https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</link>
-      <description>📝 Elixir는 대부분의 언어보다 더 적은 양의 토큰을 사용합니다. 이미 작성된 코드를 반복합니다. 엘릭서는 루비처럼 보입니다.
+      <title>FAA는 ICE 작전 주변에 전국적으로 드론 비행 금지 구역을 설정했습니다.</title>
+      <link>https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs</link>
+      <description>📝 FAA는 ICE 작전 주변에 전국적인 드론 비행 금지 구역을 제정합니다. ByStephen Pope2026년 1월 22일, 22:41(UTC +3) 댓글 1개 ICE는 DHS에 따라 운영되고 공공 장소에서 이동 차량 호송대를 사용하여 정기적으로 단속 조치를 수행하기 때문에 제한은 체포, 운송 활동 및 기타 현장 조치를 포함하여 ICE 운영 주변의 드론 비행 금지 구역 역할을 합니다. 새로운 항공고시보(NOTAM)는 유사한 연방 기관을 다루었지만 모바일 운영에 대해서는 덜 명시적인 이전 보안 공지인 FDC 5/6378을 대체합니다.
 
 
-🔤 Original: 150k lines of vibe coded Elixir: The Good, the Bad and the Ugly
+🔤 Original: FAA institutes nationwide drone no-fly zones around ICE operations
 
-🔗 Read more: https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</description>
-      <guid isPermaLink="true">https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly</guid>
-      <pubDate>Sun, 25 Jan 2026 10:54:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46752907</comments>
+🔗 Read more: https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs</description>
+      <guid isPermaLink="true">https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs</guid>
+      <pubDate>Sun, 25 Jan 2026 17:24:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46755999</comments>
     </item>
   </channel>
 </rss>
