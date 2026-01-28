@@ -6,47 +6,93 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Jan 2026 15:34:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 18:39:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>マイクロソフトが私に Linux への切り替えを強制しました</title>
-      <link>https://www.himthe.dev/blog/microsoft-to-linux</link>
-      <description>📝 Windowsを再インストールしました。 NVIDIAはMicrosoftを非難した。 Windows との違いは、コンピューティングと積極的に戦いながら、すべての作業を行うことです。
+      <title>Elixir のジョブ処理フレームワークである Oban が Python に登場しました</title>
+      <link>https://www.dimamik.com/posts/oban_py/</link>
+      <description>📝 Surface Level# Oban を使用すると、データベースのみを使用してジョブを挿入および処理できます。 state == "available"} 自分自身を待ちます。 Exception("キュー %s のプロデューサーでエラー", self.
 
 
-🔤 Original: Microsoft forced me to switch to Linux
+🔤 Original: Oban, the job processing framework from Elixir, has come to Python
 
-🔗 Read more: https://www.himthe.dev/blog/microsoft-to-linux</description>
-      <guid isPermaLink="true">https://www.himthe.dev/blog/microsoft-to-linux</guid>
-      <pubDate>Wed, 28 Jan 2026 14:28:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46795864</comments>
+🔗 Read more: https://www.dimamik.com/posts/oban_py/</description>
+      <guid isPermaLink="true">https://www.dimamik.com/posts/oban_py/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:32:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46797594</comments>
     </item>
     <item>
-      <title>翼型 (2024)</title>
-      <link>https://ciechanow.ski/airfoil/</link>
-      <description>📝 多くは失敗しましたが、最終的にはその目標を達成することに成功した人もいます。この視点から見ると、すべてのブレードは風と局所的に揃った短い線を形成します。その流れによって押し流される小さなマーカーを使用して、これらの軽いオブジェクトの動作を再現できます。
+      <title>Android の完全なデスクトップ インターフェイスがリーク: 新しいステータス バー、Chrome 拡張機能</title>
+      <link>https://9to5google.com/2026/01/27/android-desktop-leak/</link>
+      <description>📝 Android Android の完全なデスクトップ インターフェイスがリーク: 新しいステータス バー、Chrome 拡張機能など [ビデオ] Abner Li | Abner Li | 2026年1月27日 - 午後2時02分 PT 46 コメント 今日の Chromium Issue Tracker に関する Google のバグレポートにより、Android デスクトップ インターフェイスが初めて誤って漏洩しました。 Google Chrome インターフェイスは、現在デスクトップ ブラウザでのみ利用できる [拡張機能] ボタンを除き、現在の大画面 Android バージョンとほぼ一致しています。私たちの特別なストーリー、レビュー、ハウツーをチェックし、YouTube チャンネルに登録してください。 YouTube で 9to5Google をチェックして、さらなるニュースをご覧ください: コメント 展開 コメントを閉じる 展開 コメントを閉じる ガイド Android Android 向けのニュース速報。
 
 
-🔤 Original: Airfoil (2024)
+🔤 Original: Android's full desktop interface leaks: New status bar, Chrome Extensions
 
-🔗 Read more: https://ciechanow.ski/airfoil/</description>
-      <guid isPermaLink="true">https://ciechanow.ski/airfoil/</guid>
-      <pubDate>Wed, 28 Jan 2026 14:32:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46795908</comments>
+🔗 Read more: https://9to5google.com/2026/01/27/android-desktop-leak/</description>
+      <guid isPermaLink="true">https://9to5google.com/2026/01/27/android-desktop-leak/</guid>
+      <pubDate>Wed, 28 Jan 2026 03:34:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46790740</comments>
     </item>
     <item>
-      <title>ブラウザエージェントの検証レイヤー: Amazon の事例</title>
-      <link>https://sentienceapi.com/blog/verification-layer-amazon-case-study</link>
-      <description>📝 主な発見結果証拠 (ログ/レポートから) 検証が各ステップでゲートされると、完全に自律的な実行がローカル モデルで完了できます。具体的には: DeepSeek-R1 (プランナー) + ~3B クラスのローカル エグゼキューター。Sentience がステップ間の検証ゲートを提供します。信頼性は検証層から得られます。各アクションの後には、成功をゲートして制限付き再試行を推進するスナップショットとアサーションが続きます。
+      <title>Mousefood – マイクロコントローラー用の組み込みターミナル UI を構築する</title>
+      <link>https://github.com/ratatui/mousefood</link>
+      <description>📝 Mousefood - Ratatui 用の非標準組み込みグラフィックス バックエンド。 Mousefood はデフォルトで、embedded-graphics-unicodefonts を使用します。これにより、より多くの文字セットを含む埋め込みグラフィック フォントが提供されます。このドライバーには追加の構成が必要です。
 
 
-🔤 Original: A verification layer for browser agents: Amazon case study
+🔤 Original: Mousefood – Build embedded terminal UIs for microcontrollers
 
-🔗 Read more: https://sentienceapi.com/blog/verification-layer-amazon-case-study</description>
-      <guid isPermaLink="true">https://sentienceapi.com/blog/verification-layer-amazon-case-study</guid>
-      <pubDate>Wed, 28 Jan 2026 02:08:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46790127</comments>
+🔗 Read more: https://github.com/ratatui/mousefood</description>
+      <guid isPermaLink="true">https://github.com/ratatui/mousefood</guid>
+      <pubDate>Wed, 28 Jan 2026 17:20:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46798402</comments>
+    </item>
+    <item>
+      <title>Show HN: C++ で小さなブラウザ エンジンを一から構築しました</title>
+      <link>https://github.com/beginner-jhj/mini_browser</link>
+      <description>📝 ビルド make # ビルドが完了したら、実行可能:。 /browser # ビルド ディレクトリから実行します。コアクラス: NODE (/html/node.
+
+
+🔤 Original: Show HN: I built a small browser engine from scratch in C++
+
+🔗 Read more: https://github.com/beginner-jhj/mini_browser</description>
+      <guid isPermaLink="true">https://github.com/beginner-jhj/mini_browser</guid>
+      <pubDate>Wed, 28 Jan 2026 14:03:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46795540</comments>
+    </item>
+    <item>
+      <title>Show HN: エージェント用のサンドボックスを構築しました</title>
+      <link>https://github.com/vrn21/bouvet.com</link>
+      <guid isPermaLink="true">https://github.com/vrn21/bouvet.com</guid>
+      <pubDate>Wed, 28 Jan 2026 16:50:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46797895</comments>
+    </item>
+    <item>
+      <title>電子メールはそうはいきません、HSBC</title>
+      <link>https://danq.me/2026/01/28/hsbc-dont-understand-email/</link>
+      <description>📝 あるいは、彼らが言いたいのは「対応が必要です: メールアドレスが正しいことを確認してください」ということかもしれません。 HSBC からの 1 年前のメールを読み返してみると、彼らはそれについて知りたいと言っています。これは電子メールが機能するように設計された方法であり、送信者が電子メールが機能することを確信できる唯一の方法です。
+
+
+🔤 Original: That's Not How Email Works, HSBC
+
+🔗 Read more: https://danq.me/2026/01/28/hsbc-dont-understand-email/</description>
+      <guid isPermaLink="true">https://danq.me/2026/01/28/hsbc-dont-understand-email/</guid>
+      <pubDate>Wed, 28 Jan 2026 18:12:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46799304</comments>
+    </item>
+    <item>
+      <title>ぐるぐる回る: やめてください – スピン ロックに関する一般的な問題</title>
+      <link>https://www.siliceum.com/en/blog/post/spinning-around/</link>
+      <description>📝 Exchange(1)` ThreadA: 1 を書き込み、1 を参照 | ThreadB: 1 を書き込み、0 を参照 ThreadA: 1 を書き込み、1 を参照 | ThreadB: 現在、ロックを所有しています。 | ThreadB: `unlock()`、0 を書き込み ThreadA: 1 を書き込み、0 を参照 |スレッドB:。 ThreadA: 現在、ロックを所有しています。
+
+
+🔤 Original: Spinning around: Please don't – Common problems with spin locks
+
+🔗 Read more: https://www.siliceum.com/en/blog/post/spinning-around/</description>
+      <guid isPermaLink="true">https://www.siliceum.com/en/blog/post/spinning-around/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:48:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46797868</comments>
     </item>
   </channel>
 </rss>
