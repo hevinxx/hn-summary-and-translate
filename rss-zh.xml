@@ -6,190 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Feb 2026 18:54:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 21:35:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>伟大的放松</title>
-      <link>https://occupywallst.com/yen</link>
-      <description>📝 华尔街已经失去了对日元套利交易平仓的控制。加密货币的价值已缩水 40%。当日本加息时，它们就会被清算；当美联储降低利率时，它们就会被清算；当日元升值时，他们就会被清算；当科技股上涨不够时，他们就会被清算，而这四件事都是同时发生的。
+      <title>基础设施领域的克劳德·代码</title>
+      <link>https://www.fluid.sh/</link>
+      <description>📝 50 状态：正在运行 正在运行：cat /etc/os-release v run_command exit: 0 NAME="Ubuntu" VERSION="22.（另外 2 行） 正在运行：apt install -y apache2 v run_command exit:0 正在读取软件包列表。html v run_command exit:0 正在运行：systemctl status apache2 v run_command exit:0 ● apache2.
 
 
-🔤 Original: The Great Unwind
+🔤 Original: Claude Code for Infrastructure
 
-🔗 Read more: https://occupywallst.com/yen</description>
-      <guid isPermaLink="true">https://occupywallst.com/yen</guid>
-      <pubDate>Wed, 04 Feb 2026 17:49:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46889008</comments>
+🔗 Read more: https://www.fluid.sh/</description>
+      <guid isPermaLink="true">https://www.fluid.sh/</guid>
+      <pubDate>Wed, 04 Feb 2026 18:34:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46889703</comments>
     </item>
     <item>
-      <title>Voxtral 转录 2</title>
-      <link>https://mistral.ai/news/voxtral-transcribe-2</link>
-      <description>📝 该系列包括用于批量转录的 Voxtral Mini Transcribe V2 和用于实时应用的 Voxtral Realtime。 Voxtral Mini Transcribe V2：最先进的转录功能，具有 13 种语言的说话人分类、上下文偏差和单词级时间戳。 Voxtral 迷你转录 V2。
+      <title>技术统治2.0</title>
+      <link>https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</link>
+      <description>📝 城市人口激增，政治上对美国生活的未来充满了分歧。他们被笼统地称为进步运动。然而，人们越来越怀疑的不仅仅是政治。
 
 
-🔤 Original: Voxtral Transcribe 2
+🔤 Original: Technocracy 2.0
 
-🔗 Read more: https://mistral.ai/news/voxtral-transcribe-2</description>
-      <guid isPermaLink="true">https://mistral.ai/news/voxtral-transcribe-2</guid>
-      <pubDate>Wed, 04 Feb 2026 15:08:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46886735</comments>
+🔗 Read more: https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</description>
+      <guid isPermaLink="true">https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</guid>
+      <pubDate>Wed, 04 Feb 2026 20:06:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890899</comments>
     </item>
     <item>
-      <title>从头开始构建 24 位街机 CRT 显示适配器</title>
-      <link>https://www.scd31.com/posts/building-an-arcade-display-adapter</link>
-      <description>📝 我顺便提到，我可以构建一个 CRT 显示适配器，通过 USB 与普通计算机连接。 comHSYNC 脉冲发生在水平线之间，VSYNC 脉冲发生在帧之间。 wrap_target", "set Y, 6", "a_outer:", "set X, 31", "a:", "wait 1 irq 0", "irq set 2", "jmp X-- a", // 每个内部循环 32 行 "jmp Y-- a_outer", // 7 个外部循环 = 224 "set X, 15", // 另外 16 行 = 240 "z:" "wait 1 irq 0", "irq set 2", "jmp X-- z", "wait 1 irq 0", // 等待最后一个 rgb 行结束 "wait 1 irq 0", // 前廊还有 2 行 "wait 1 irq 0", "set X, 2 side 0", // 断言 vsync "b:", "wait 1 irq 0", "jmp X-- b", // 等待 3 行 "set X, 20 side 1", // 解除垂直同步 "c:", "wait 1 irq 0", "jmp X-- c" // 等待 21 行（后沿） ".
+      <title>将任何网站变成实时的结构化数据源</title>
+      <link>https://www.meter.sh/</link>
+      <description>📝 停止重新抓取未更改的页面。我们检测真实的内容更改（而不是布局噪音），因此您只需重新处理新内容。智能变更检测仅差异处理包含反机器人和代理0+监控的URL0+已完成的作业。
 
 
-🔤 Original: Building a 24-bit arcade CRT display adapter from scratch
+🔤 Original: Turn any website into a live, structured data feed
 
-🔗 Read more: https://www.scd31.com/posts/building-an-arcade-display-adapter</description>
-      <guid isPermaLink="true">https://www.scd31.com/posts/building-an-arcade-display-adapter</guid>
-      <pubDate>Wed, 04 Feb 2026 17:35:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888795</comments>
+🔗 Read more: https://www.meter.sh/</description>
+      <guid isPermaLink="true">https://www.meter.sh/</guid>
+      <pubDate>Wed, 04 Feb 2026 19:12:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890261</comments>
     </item>
     <item>
-      <title>研究：社交媒体的情感支持可以减少焦虑</title>
-      <link>https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</link>
-      <description>📝 来自社交媒体的情感支持被发现可以减少焦虑 一月。例如，社交媒体情感支持可能会降低焦虑，或者焦虑可能会降低感知到的社交媒体情感支持。它确实表明了人们对社交媒体情感支持的看法存在性别差异。
+      <title>Show HN: EpsteIn – 在 Epstein 文件中搜索您的 LinkedIn 联系人</title>
+      <link>https://github.com/cfinke/EpsteIn</link>
+      <description>📝 搜索公开发布的爱泼斯坦法庭文件，查找是否提及您的 LinkedIn 联系人。 csv 文件 用法 python EpsteIn.csv csv 自定义输出文件：python EpsteIn.csv
 
 
-🔤 Original: Study: emotional support from social media found to reduce anxiety
+🔤 Original: Show HN: EpsteIn – Search the Epstein files for your LinkedIn connections
 
-🔗 Read more: https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</description>
-      <guid isPermaLink="true">https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</guid>
-      <pubDate>Wed, 04 Feb 2026 17:16:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888532</comments>
+🔗 Read more: https://github.com/cfinke/EpsteIn</description>
+      <guid isPermaLink="true">https://github.com/cfinke/EpsteIn</guid>
+      <pubDate>Wed, 04 Feb 2026 19:24:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890401</comments>
     </item>
     <item>
-      <title>拖拉机</title>
-      <link>https://incoherency.co.uk/blog/stories/tractor.html</link>
-      <description>📝 后轴是实心的，这意味着两个后轮始终一起转动。方向盘是我自己做的。后轴 后轮是骑乘式割草机后轮。
+      <title>杰夫·贝索斯如何打垮《华盛顿邮报》</title>
+      <link>https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</link>
+      <description>📝 2013 年 9 月 4 日，亚马逊创始人杰夫·贝佐斯与《华盛顿邮报》的员工举行了第一次会议，一个月前他同意以 2.5 亿美元从格雷厄姆家族手中收购该报纸。 “回顾那一刻，我会想：事情怎么会变成这样。在这方面，我是溺爱的父母。
 
 
-🔤 Original: Tractor
+🔤 Original: How Jeff Bezos Brought Down the Washington Post
 
-🔗 Read more: https://incoherency.co.uk/blog/stories/tractor.html</description>
-      <guid isPermaLink="true">https://incoherency.co.uk/blog/stories/tractor.html</guid>
-      <pubDate>Tue, 03 Feb 2026 21:04:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46877278</comments>
+🔗 Read more: https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</description>
+      <guid isPermaLink="true">https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</guid>
+      <pubDate>Wed, 04 Feb 2026 18:56:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890034</comments>
     </item>
     <item>
-      <title>RS-SDK：使用 Claude 代码驱动 RuneScape</title>
-      <link>https://github.com/MaxBittker/rs-sdk</link>
-      <description>📝 请不要在演示服务器上手动进行游戏。 LostCity Server 是经过数小时的研究和同行评审后从头开始编写的。许可证 该项目根据 MIT 许可证获得许可。
-
-
-🔤 Original: RS-SDK: Drive RuneScape with Claude Code
-
-🔗 Read more: https://github.com/MaxBittker/rs-sdk</description>
-      <guid isPermaLink="true">https://github.com/MaxBittker/rs-sdk</guid>
-      <pubDate>Wed, 04 Feb 2026 16:47:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888142</comments>
+      <title>Show HN：交互式加州预算（作者：Claude Code）</title>
+      <link>https://california-budget.com</link>
+      <guid isPermaLink="true">https://california-budget.com</guid>
+      <pubDate>Wed, 04 Feb 2026 20:33:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46891290</comments>
     </item>
     <item>
-      <title>Converge (YC S23) 正在招聘产品工程师（纽约，亲自）</title>
-      <link>https://www.runconverge.com/careers/product-engineer</link>
-      <description>📝 您将交付端到端产品并直接与客户合作。完全端到端地交付产品。直接与客户合作。
-
-
-🔤 Original: Converge (YC S23) Is Hiring Product Engineers (NYC, In-Person)
-
-🔗 Read more: https://www.runconverge.com/careers/product-engineer</description>
-      <guid isPermaLink="true">https://www.runconverge.com/careers/product-engineer</guid>
-      <pubDate>Wed, 04 Feb 2026 17:01:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888331</comments>
-    </item>
-    <item>
-      <title>克劳德是一个思考的空间</title>
-      <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
-      <description>📝 与克劳德的对话不是其中之一。但在与克劳德的对话中加入广告将与我们希望克劳德成为的人不相容：一个真正有帮助的工作和深入思考的助手。基于广告的商业模式会引入可能违背这一原则的激励措施。
-
-
-🔤 Original: Claude Is a Space to Think
-
-🔗 Read more: https://www.anthropic.com/news/claude-is-a-space-to-think</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-is-a-space-to-think</guid>
-      <pubDate>Wed, 04 Feb 2026 12:08:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46884883</comments>
-    </item>
-    <item>
-      <title>英特尔将开始生产GPU</title>
-      <link>https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/</link>
-      <description>📝 TechCrunch 联系了英特尔以获取更多信息。与处于相似成长阶段的同行建立联系。与处于相似成长阶段的同行建立联系。
-
-
-🔤 Original: Intel will start making GPUs
-
-🔗 Read more: https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/</guid>
-      <pubDate>Wed, 04 Feb 2026 17:40:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888877</comments>
-    </item>
-    <item>
-      <title>Arcan-A12：编织不一样的网</title>
-      <link>https://www.divergent-desktop.org/blog/2026/01/26/a12web/</link>
-      <description>📝 文档浏览是通过单独的工具生成签名的、可共享的应用程序包的编译步骤。最初的发现是通过朋友的朋友口口相传。二次发现来自于管理员自己策划的站点列表，或者有人转储到共享上传目录或潜入打包在某些可下载软件中的“发布信息”文件中。
-
-
-🔤 Original: Arcan-A12: Weaving a Different Web
-
-🔗 Read more: https://www.divergent-desktop.org/blog/2026/01/26/a12web/</description>
-      <guid isPermaLink="true">https://www.divergent-desktop.org/blog/2026/01/26/a12web/</guid>
-      <pubDate>Wed, 04 Feb 2026 15:50:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46887326</comments>
-    </item>
-    <item>
-      <title>国土安全部追捕一名在电子邮件中批评他们的 67 岁美国公民</title>
-      <link>https://newrepublic.com/post/206088/homeland-security-67-year-old-us-citizen-criticized-email</link>
-      <description>📝 我们有状态说我赢了那场我没有赢的比赛。约翰逊接着声称特朗普其实并不是这个意思。 “不，不，”约翰逊说。
-
-
-🔤 Original: DHS Hunts Down 67-Year-Old U.S. Citizen Who Criticized Them in Email
-
-🔗 Read more: https://newrepublic.com/post/206088/homeland-security-67-year-old-us-citizen-criticized-email</description>
-      <guid isPermaLink="true">https://newrepublic.com/post/206088/homeland-security-67-year-old-us-citizen-criticized-email</guid>
-      <pubDate>Wed, 04 Feb 2026 17:55:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46889108</comments>
-    </item>
-    <item>
-      <title>启动农村最低收入保障计划</title>
-      <link>https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/</link>
-      <description>📝 你吃饱了吗。你有医疗保健吗？我们确实拥有我们需要的一切。
-
-
-🔤 Original: Launching the Rural Guaranteed Minimum Income Initiative
-
-🔗 Read more: https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/</description>
-      <guid isPermaLink="true">https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/</guid>
-      <pubDate>Wed, 04 Feb 2026 17:01:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888339</comments>
-    </item>
-    <item>
-      <title>人工智能正在扼杀 B2B SaaS</title>
-      <link>https://nmn.gl/blog/ai-killing-b2b-saas</link>
-      <description>📝 无论他们建造什么，都可以正常工作。如果客户觉得他们没有得到完全符合他们想要的服务，他们就更有可能流失。这一切背后的原因是客户对 B2B 供应商的要求更高，因为他们知道什么是可能的。
-
-
-🔤 Original: AI Is Killing B2B SaaS
-
-🔗 Read more: https://nmn.gl/blog/ai-killing-b2b-saas</description>
-      <guid isPermaLink="true">https://nmn.gl/blog/ai-killing-b2b-saas</guid>
-      <pubDate>Wed, 04 Feb 2026 17:09:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888441</comments>
-    </item>
-    <item>
-      <title>批评 Palantir 和 Peter Thiel 后，法国流媒体被 Qonto 取消银行账户</title>
-      <link>https://twitter.com/Ced_haurus/status/2018716889191498172</link>
-      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
-
-
-🔤 Original: French streamer unbanked by Qonto after criticizing Palantir and Peter Thiel
-
-🔗 Read more: https://twitter.com/Ced_haurus/status/2018716889191498172</description>
-      <guid isPermaLink="true">https://twitter.com/Ced_haurus/status/2018716889191498172</guid>
-      <pubDate>Wed, 04 Feb 2026 17:09:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888438</comments>
+      <title>教授们受到监视：“我们从未见过如此多的监视”</title>
+      <link>https://www.nytimes.com/2026/02/04/us/professors-classroom-surveillance-politics.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/02/04/us/professors-classroom-surveillance-politics.html</guid>
+      <pubDate>Wed, 04 Feb 2026 19:31:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890487</comments>
     </item>
   </channel>
 </rss>

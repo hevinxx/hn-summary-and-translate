@@ -6,190 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Feb 2026 18:54:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 21:35:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>素晴らしいくつろぎ</title>
-      <link>https://occupywallst.com/yen</link>
-      <description>📝 ウォール街は日本円キャリートレードの巻き戻しを制御できなくなった。暗号通貨はその価値の 40% を失いました。日本が金利を上げると彼らは清算される。連邦準備制度が金利を引き下げると、彼らは清算される。日本円の価値が上昇すると清算されます。ハイテク株が十分に上昇しない場合には清算されるが、これら4つのことが同時に起こっている。
+      <title>インフラストラクチャ用のクロード コード</title>
+      <link>https://www.fluid.sh/</link>
+      <description>📝 50 状態: RUNNING 実行中: cat /etc/os-release v run_command exit: 0 NAME="Ubuntu" VERSION="22. (さらに 2 行) 実行中: apt install -y apache2 v run_command exit: 0 Reading package lists. html v run_command exit: 0 実行中: systemctl status apache2 v run_command exit: 0 ● apache2。
 
 
-🔤 Original: The Great Unwind
+🔤 Original: Claude Code for Infrastructure
 
-🔗 Read more: https://occupywallst.com/yen</description>
-      <guid isPermaLink="true">https://occupywallst.com/yen</guid>
-      <pubDate>Wed, 04 Feb 2026 17:49:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46889008</comments>
+🔗 Read more: https://www.fluid.sh/</description>
+      <guid isPermaLink="true">https://www.fluid.sh/</guid>
+      <pubDate>Wed, 04 Feb 2026 18:34:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46889703</comments>
     </item>
     <item>
-      <title>Voxtral 転写 2</title>
-      <link>https://mistral.ai/news/voxtral-transcribe-2</link>
-      <description>📝 このファミリーには、バッチ文字起こし用の Voxtral Mini Transcribe V2 とライブ アプリケーション用の Voxtral Realtime が含まれています。 Voxtral Mini Transcribe V2: 話者ダイアライゼーション、コンテキスト バイアス、および 13 言語の単語レベルのタイムスタンプを備えた最先端の文字起こし。 Voxtral Mini Transcribe V2。
+      <title>テクノクラシー 2.0</title>
+      <link>https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</link>
+      <description>📝 都市では人口が急増し、政治ではアメリカ人の生活がどうなるのかをめぐって不和が蔓延していた。彼らは大まかに進歩運動と呼ばれていました。しかし、疑惑の目で見られるようになったのは政治だけではなかった。
 
 
-🔤 Original: Voxtral Transcribe 2
+🔤 Original: Technocracy 2.0
 
-🔗 Read more: https://mistral.ai/news/voxtral-transcribe-2</description>
-      <guid isPermaLink="true">https://mistral.ai/news/voxtral-transcribe-2</guid>
-      <pubDate>Wed, 04 Feb 2026 15:08:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46886735</comments>
+🔗 Read more: https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</description>
+      <guid isPermaLink="true">https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</guid>
+      <pubDate>Wed, 04 Feb 2026 20:06:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890899</comments>
     </item>
     <item>
-      <title>24 ビット アーケード CRT ディスプレイ アダプターを最初から構築する</title>
-      <link>https://www.scd31.com/posts/building-an-arcade-display-adapter</link>
-      <description>📝 突然ですが、USB 経由で通常のコンピュータと接続する CRT ディスプレイ アダプタを構築できると述べました。 comHSYNC パルスは水平ライン間で発生し、VSYNC パルスはフレーム間で発生します。 Wrap_target", "set Y, 6", "a_outer:", "set X, 31", "a:", "wait 1 irq 0", "irq set 2", "jmp X-- a", // 内側ループあたり 32 行 "jmp Y-- a_outer", // 外側ループ 7 個 = 224 "set X, 15", // さらに 16 行 = 240 "z:" "wait 1 irq 0", "irq set 2", "jmp X-- z", "wait 1 irq 0", // 最後のRGBラインの終わりを待つ "wait 1 irq 0", // フロントポーチ用にさらに2行 "wait 1 irq 0", "set X, 2 side 0", // vsyncをアサートする "b:", "wait 1 irq 0", "jmp X-- b", // 3 行を待ちます "set X, 20 side 1", // vsync をディアサート "c:", "wait 1 irq 0", "jmp X-- c" // 21 行を待ちます (バックポーチ) "。
+      <title>あらゆる Web サイトをライブの構造化データ フィードに変える</title>
+      <link>https://www.meter.sh/</link>
+      <description>📝 変更されていないページを再スクレイピングするのはやめてください。レイアウトのノイズではなく、実際のコンテンツの変更を検出するため、新しいもののみを再処理します。スマートな変更検出差分のみの処理アンチボットとプロキシが含まれる0+監視されたURL0+完了したジョブ。
 
 
-🔤 Original: Building a 24-bit arcade CRT display adapter from scratch
+🔤 Original: Turn any website into a live, structured data feed
 
-🔗 Read more: https://www.scd31.com/posts/building-an-arcade-display-adapter</description>
-      <guid isPermaLink="true">https://www.scd31.com/posts/building-an-arcade-display-adapter</guid>
-      <pubDate>Wed, 04 Feb 2026 17:35:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888795</comments>
+🔗 Read more: https://www.meter.sh/</description>
+      <guid isPermaLink="true">https://www.meter.sh/</guid>
+      <pubDate>Wed, 04 Feb 2026 19:12:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890261</comments>
     </item>
     <item>
-      <title>研究: ソーシャルメディアによる感情的サポートが不安を軽減することが判明</title>
-      <link>https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</link>
-      <description>📝 ソーシャルメディアからの感情的サポートが不安を軽減することが判明 1月 たとえば、ソーシャルメディアの感情的サポートは不安を軽減する可能性があり、または不安がソーシャルメディアの感情的サポートの認識を低下させる可能性があります。これは、ソーシャルメディアの感情的サポートがどのように認識されるかについて、性差があることを示唆しています。
+      <title>HN を表示: EpsteIn – LinkedIn 接続の Epstein ファイルを検索します</title>
+      <link>https://github.com/cfinke/EpsteIn</link>
+      <description>📝 公開されたエプスタインの法廷文書を検索して、LinkedIn とのつながりに関する言及を見つけてください。 csvファイルの使い方Python EpsteIn. csv カスタム出力ファイル: python EpsteIn。
 
 
-🔤 Original: Study: emotional support from social media found to reduce anxiety
+🔤 Original: Show HN: EpsteIn – Search the Epstein files for your LinkedIn connections
 
-🔗 Read more: https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</description>
-      <guid isPermaLink="true">https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</guid>
-      <pubDate>Wed, 04 Feb 2026 17:16:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888532</comments>
+🔗 Read more: https://github.com/cfinke/EpsteIn</description>
+      <guid isPermaLink="true">https://github.com/cfinke/EpsteIn</guid>
+      <pubDate>Wed, 04 Feb 2026 19:24:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890401</comments>
     </item>
     <item>
-      <title>トラクター</title>
-      <link>https://incoherency.co.uk/blog/stories/tractor.html</link>
-      <description>📝 後車軸はしっかりしているため、2 つの後輪が常に一緒に回転します。ハンドルも自作しました。リアアクスル 後輪は乗用芝刈り機の後輪です。
+      <title>ジェフ・ベゾスはいかにしてワシントン・ポストを崩壊させたか</title>
+      <link>https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</link>
+      <description>📝 このストーリーを保存このストーリーを保存このストーリーを保存2013 年 9 月 4 日、Amazon の創設者ジェフ ベゾスは、1 か月前にグラハム家から 2 億 5,000 万ドルで購入することに同意していた新聞ワシントン ポストのスタッフと初会合を開きました。 「あの瞬間を振り返ると、どうしてこんなことになってしまったのかと不思議に思います。その点では、私は溺愛する親です。
 
 
-🔤 Original: Tractor
+🔤 Original: How Jeff Bezos Brought Down the Washington Post
 
-🔗 Read more: https://incoherency.co.uk/blog/stories/tractor.html</description>
-      <guid isPermaLink="true">https://incoherency.co.uk/blog/stories/tractor.html</guid>
-      <pubDate>Tue, 03 Feb 2026 21:04:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46877278</comments>
+🔗 Read more: https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</description>
+      <guid isPermaLink="true">https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</guid>
+      <pubDate>Wed, 04 Feb 2026 18:56:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890034</comments>
     </item>
     <item>
-      <title>RS-SDK: クロード コードで RuneScape を駆動する</title>
-      <link>https://github.com/MaxBittker/rs-sdk</link>
-      <description>📝 デモサーバーで手動でプレイしないでください。 LostCity Server は、何時間もの調査とピアレビューを経て、ゼロから作成されました。ライセンス このプロジェクトは MIT ライセンスに基づいてライセンスされています。
-
-
-🔤 Original: RS-SDK: Drive RuneScape with Claude Code
-
-🔗 Read more: https://github.com/MaxBittker/rs-sdk</description>
-      <guid isPermaLink="true">https://github.com/MaxBittker/rs-sdk</guid>
-      <pubDate>Wed, 04 Feb 2026 16:47:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888142</comments>
+      <title>HN を表示: インタラクティブなカリフォルニア予算 (クロード コードによる)</title>
+      <link>https://california-budget.com</link>
+      <guid isPermaLink="true">https://california-budget.com</guid>
+      <pubDate>Wed, 04 Feb 2026 20:33:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46891290</comments>
     </item>
     <item>
-      <title>Converge (YC S23) はプロダクト エンジニアを募集しています (ニューヨーク市、対面)</title>
-      <link>https://www.runconverge.com/careers/product-engineer</link>
-      <description>📝 エンドツーエンドの製品を出荷し、顧客と直接連携することになります。製品を完全にエンドツーエンドで出荷します。顧客と直接協力します。
-
-
-🔤 Original: Converge (YC S23) Is Hiring Product Engineers (NYC, In-Person)
-
-🔗 Read more: https://www.runconverge.com/careers/product-engineer</description>
-      <guid isPermaLink="true">https://www.runconverge.com/careers/product-engineer</guid>
-      <pubDate>Wed, 04 Feb 2026 17:01:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888331</comments>
-    </item>
-    <item>
-      <title>クロードは考えるための空間です</title>
-      <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
-      <description>📝 クロードとの会話はその中には含まれていません。しかし、クロードとの会話に広告を含めることは、私たちがクロードに望んでいること、つまり仕事や深く考えるための真に役立つアシスタントとは相容れません。広告ベースのビジネス モデルでは、この原則に反するインセンティブが導入される可能性があります。
-
-
-🔤 Original: Claude Is a Space to Think
-
-🔗 Read more: https://www.anthropic.com/news/claude-is-a-space-to-think</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-is-a-space-to-think</guid>
-      <pubDate>Wed, 04 Feb 2026 12:08:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46884883</comments>
-    </item>
-    <item>
-      <title>IntelがGPUの製造を開始する</title>
-      <link>https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/</link>
-      <description>📝 TechCrunch は詳細についてインテルに問い合わせました。同じような成長段階を歩んでいる仲間とつながりましょう。同じような成長段階を歩んでいる仲間とつながりましょう。
-
-
-🔤 Original: Intel will start making GPUs
-
-🔗 Read more: https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/</guid>
-      <pubDate>Wed, 04 Feb 2026 17:40:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888877</comments>
-    </item>
-    <item>
-      <title>Arcan-A12: 異なるウェブを織る</title>
-      <link>https://www.divergent-desktop.org/blog/2026/01/26/a12web/</link>
-      <description>📝 ドキュメントの参照は、署名された共有可能なアプリケーション パッケージを生成する別のツールによるコンパイル ステップです。最初の発見は友人の友人を通しての口コミでした。二次的な発見は、シスオペが自ら厳選したサイトリスト、または誰かが共有アップロード ディレクトリにダンプしたか、ダウンロード可能なソフトウェア内にパッケージ化された「リリース情報」ファイルに忍び込んだサイトリストを通じて行われました。
-
-
-🔤 Original: Arcan-A12: Weaving a Different Web
-
-🔗 Read more: https://www.divergent-desktop.org/blog/2026/01/26/a12web/</description>
-      <guid isPermaLink="true">https://www.divergent-desktop.org/blog/2026/01/26/a12web/</guid>
-      <pubDate>Wed, 04 Feb 2026 15:50:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46887326</comments>
-    </item>
-    <item>
-      <title>DHS、電子メールで批判した67歳米国人を追跡</title>
-      <link>https://newrepublic.com/post/206088/homeland-security-67-year-old-us-citizen-criticized-email</link>
-      <description>📝 私が勝った州もありますが、勝てなかったことがわかります。ジョンソン氏はさらに、トランプ氏は本心ではそんなつもりはなかったと主張した。 「いや、いや」とジョンソンは言った。
-
-
-🔤 Original: DHS Hunts Down 67-Year-Old U.S. Citizen Who Criticized Them in Email
-
-🔗 Read more: https://newrepublic.com/post/206088/homeland-security-67-year-old-us-citizen-criticized-email</description>
-      <guid isPermaLink="true">https://newrepublic.com/post/206088/homeland-security-67-year-old-us-citizen-criticized-email</guid>
-      <pubDate>Wed, 04 Feb 2026 17:55:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46889108</comments>
-    </item>
-    <item>
-      <title>農村部の最低所得保証イニシアチブの開始</title>
-      <link>https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/</link>
-      <description>📝 食べるのは十分ですか。医療はありますか。必要なものはすべて揃っています。
-
-
-🔤 Original: Launching the Rural Guaranteed Minimum Income Initiative
-
-🔗 Read more: https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/</description>
-      <guid isPermaLink="true">https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/</guid>
-      <pubDate>Wed, 04 Feb 2026 17:01:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888339</comments>
-    </item>
-    <item>
-      <title>AI が B2B SaaS を滅ぼす</title>
-      <link>https://nmn.gl/blog/ai-killing-b2b-saas</link>
-      <description>📝 彼らが構築したものは何でも簡単に機能します。顧客が希望どおりのサービスが提供されていないと感じると、離脱する可能性が高くなります。このすべての背後にある理由は、顧客が B2B ベンダーに対して、何が可能であるかを知っているため、より多くのことを要求しているためです。
-
-
-🔤 Original: AI Is Killing B2B SaaS
-
-🔗 Read more: https://nmn.gl/blog/ai-killing-b2b-saas</description>
-      <guid isPermaLink="true">https://nmn.gl/blog/ai-killing-b2b-saas</guid>
-      <pubDate>Wed, 04 Feb 2026 17:09:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888441</comments>
-    </item>
-    <item>
-      <title>パランティアとピーター・ティールを批判したフランスのストリーマーがクオントによって銀行口座を解除された</title>
-      <link>https://twitter.com/Ced_haurus/status/2018716889191498172</link>
-      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x を引き続き使用するには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
-
-
-🔤 Original: French streamer unbanked by Qonto after criticizing Palantir and Peter Thiel
-
-🔗 Read more: https://twitter.com/Ced_haurus/status/2018716889191498172</description>
-      <guid isPermaLink="true">https://twitter.com/Ced_haurus/status/2018716889191498172</guid>
-      <pubDate>Wed, 04 Feb 2026 17:09:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46888438</comments>
+      <title>教授たちは監視されている：「これほど厳しい監視は見たことがない」</title>
+      <link>https://www.nytimes.com/2026/02/04/us/professors-classroom-surveillance-politics.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/02/04/us/professors-classroom-surveillance-politics.html</guid>
+      <pubDate>Wed, 04 Feb 2026 19:31:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46890487</comments>
     </item>
   </channel>
 </rss>
