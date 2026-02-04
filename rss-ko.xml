@@ -6,34 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 04 Feb 2026 09:44:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 13:00:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>HN 표시: Ghidra MCP 서버 – AI 지원 리버스 엔지니어링을 위한 110가지 도구</title>
-      <link>https://github.com/bethington/ghidra-mcp</link>
-      <description>📝 🌟 기능 핵심 MCP 통합 완전한 MCP 호환성 - 모델 컨텍스트 프로토콜 110개의 MCP 도구 사용 가능 - 바이너리 분석을 위한 포괄적인 API 표면 생산 준비 신뢰성 - 테스트된 배치 작업 및 원자 트랜잭션 실시간 분석 - Ghidra 분석 엔진과의 실시간 통합 바이너리 분석 기능 기능 분석 - 디컴파일, 호출 그래프, 상호 참조 데이터 구조 검색 - 자동 구조체/공용체/열거 생성 문자열 추출 - 포괄적인 문자열 분석 및 분류 가져오기/내보내기 분석 - 기호 테이블 및 라이브러리 종속성 매핑 메모리 매핑 - 완전한 메모리 레이아웃 문서화 교차 바이너리 문서화 - 바이너리 버전 간의 함수 해시 일치 개발 및 자동화 자동화된 개발 주기 - 완전한 빌드-테스트-배포-검증 파이프라인 Ghidra 스크립트 관리 - MCP 다중 프로그램 지원을 통해 Ghidra 스크립트 생성, 실행 및 관리 다중 프로그램 지원 - 여러 열려 있는 프로그램 간 전환 및 비교 배치 작업 - 효율적인 대량 이름 바꾸기, 주석 달기 및 입력 🚀 빠른 시작 전제 조건 Java 21 LTS(OpenJDK 권장) Apache Maven 3. 1:8080/ 기본 📊 프로덕션 성능 MCP 도구: 완전히 구현된 110개 도구 속도: 대부분의 작업에 대해 1초 미만의 응답 효율성: 배치 작업을 통해 API 호출 93% 감소 신뢰성: 전부 아니면 전무의 의미를 지닌 원자적 트랜잭션 배포: 자동화된 버전 인식 배포 스크립트 🛠️ API 참조 핵심 작업 check_connection - MCP 연결 확인 get_metadata - 프로그램 메타데이터 및 정보 get_version - 서버 버전 정보 get_entry_points - 바이너리 진입점 검색 함수 분석 list_functions - 모든 함수 나열(페이지 매김) search_functions_by_name - 이름/패턴으로 함수 검색 search_functions_enhanced - 필터를 사용한 고급 함수 검색 decompile_function - 함수를 C 의사 코드로 디컴파일 get_decompiled_code - 주소로 디컴파일된 코드 가져오기 get_function_callers - 함수 가져오기 callers get_function_callees - 함수 피호출자 가져오기 get_function_call_graph - 함수 관계 그래프 get_full_call_graph - 프로그램에 대한 전체 호출 그래프 analyze_function_complete - 포괄적인 함수 분석 analyze_function_completeness - 문서화 완전성 점수 메모리 및 데이터 list_segments - 메모리 세그먼트 및 레이아웃 get_function_by_address - 주소의 함수 disassemble_function - 디스어셈블리 목록 disassemble_bytes - 원시 바이트 디스어셈블리 get_xrefs_to - 주소 get_xrefs_from - 주소의 상호 참조 get_bulk_xrefs - 대량 상호 참조 조회 analyze_data_region - 메모리 영역 구조 분석 Inspection_memory_content - 원시 메모리 내용 보기 detector_array_bounds - 배열 경계 감지 Cross-Binary Documentation(v1.4+) get_function_hash - 정규화된 함수 opcode의 SHA-256 해시 get_bulk_function_hashes - 필터를 사용하여 페이지를 매긴 대량 해싱 get_function_documentation - 전체 함수 문서 내보내기 apply_function_documentation - 대상 함수로 문서 가져오기 build_function_hash_index - 영구 JSON 인덱스 구축 lookup_function_by_hash - 인덱스에서 일치하는 함수 찾기 propagate_documentation - 일치하는 모든 인스턴스에 문서 적용 데이터 유형 및 구조 list_data_types - 사용 가능한 데이터 유형 search_data_types - 데이터 유형 검색 create_struct - 사용자 정의 구조 생성 add_struct_field - 구조에 필드 추가 수정_struct_field - 기존 필드 수정 Remove_struct_field - 구조에서 필드 제거 create_enum - 열거 생성 get_enum_values - 열거 값 가져오기 create_array_type - 배열 데이터 유형 생성 apply_data_type - 유형 적용.
+      <title>깨진 증명과 깨진 증명</title>
+      <link>https://lawrencecpaulson.github.io/2026/01/15/Broken_proofs.html</link>
+      <description>📝 게다가 증명 보조자에게도 버그가 있습니다. 이사벨이 여기서 도움을 주었을 것입니다. 운이 좋으면 정의에 대해 증명해야 하는 보조정리에서 오류가 드러날 것입니다.
 
 
-🔤 Original: Show HN: Ghidra MCP Server – 110 tools for AI-assisted reverse engineering
+🔤 Original: Broken Proofs and Broken Provers
 
-🔗 Read more: https://github.com/bethington/ghidra-mcp</description>
-      <guid isPermaLink="true">https://github.com/bethington/ghidra-mcp</guid>
-      <pubDate>Wed, 04 Feb 2026 06:51:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46882389</comments>
-    </item>
-    <item>
-      <title>1997년부터 현재까지 Windows 위젯의 전체 역사</title>
-      <link>https://xakpc.dev/windows-widgets/history/</link>
-      <description>📝 Microsoft는 위젯을 출시합니다. Microsoft는 이를 Active Desktop이라고 불렀습니다. 1b - 액티브 데스크톱 액티브 데스크톱이 작동 중입니다.
-
-
-🔤 Original: The full history of Windows widgets, from 1997 to today
-
-🔗 Read more: https://xakpc.dev/windows-widgets/history/</description>
-      <guid isPermaLink="true">https://xakpc.dev/windows-widgets/history/</guid>
-      <pubDate>Wed, 04 Feb 2026 06:22:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46882184</comments>
+🔗 Read more: https://lawrencecpaulson.github.io/2026/01/15/Broken_proofs.html</description>
+      <guid isPermaLink="true">https://lawrencecpaulson.github.io/2026/01/15/Broken_proofs.html</guid>
+      <pubDate>Wed, 04 Feb 2026 09:00:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46883337</comments>
     </item>
   </channel>
 </rss>

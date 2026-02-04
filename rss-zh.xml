@@ -6,34 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Feb 2026 09:44:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 13:00:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Show HN：Ghidra MCP 服务器 – 110 个用于 AI 辅助逆向工程的工具</title>
-      <link>https://github.com/bethington/ghidra-mcp</link>
-      <description>📝 🌟 功能 核心 MCP 集成 完全 MCP 兼容性 - 完全实现模型上下文协议 提供 110 个 MCP 工具 - 用于二进制分析的综合 API 界面 生产就绪的可靠性 - 经过测试的批处理操作和原子事务 实时分析 - 与 Ghidra 分析引擎实时集成 二进制分析功能 函数分析 - 反编译、调用图、交叉引用 数据结构发现 - 自动创建结构/联合/枚举 字符串提取 - 全面的字符串分析和分类导入/导出分析 - 符号表和库依赖关系映射 内存映射 - 完整的内存布局文档 跨二进制文档 - 跨二进制版本的函数哈希匹配 开发和自动化 自动化开发周期 - 完整的构建-测试-部署-验证管道 Ghidra 脚本管理 - 通过 MCP 创建、运行和管理 Ghidra 脚本 多程序支持 - 在多个打开的程序之间切换和比较 批量操作 - 高效的批量重命名、注释和输入 🚀 快速入门先决条件 Java 21 LTS（推荐 OpenJDK）Apache Maven 3. 1:8080/ 默认 📊 生产性能 MCP 工具：完全实现了 110 个工具 速度：大多数操作的亚秒级响应 效率：通过批处理操作减少 93% 的 API 调用 可靠性：具有全有或全无语义的原子事务 部署：自动版本感知部署脚本 🛠️ API 参考核心操作 check_connection - 验证 MCP 连接get_metadata - 程序元数据和信息 get_version - 服务器版本信息 get_entry_points - 二进制入口点发现 函数分析 list_functions - 列出所有函数（分页） search_functions_by_name - 按名称/模式搜索函数 search_functions_enhanced - 使用过滤器进行高级函数搜索 decompile_function - 将函数反编译为 C 伪代码 get_decompiled_code - 按地址获取反编译代码 get_function_callers - 获取函数调用者get_function_callees - 获取函数被调用者 get_function_call_graph - 函数关系图 get_full_call_graph - 程序的完整调用图analyze_function_complete - 综合函数分析analyze_function_completeness - 文档完整性得分 Memory &amp; Data list_segments - 内存段和布局 get_function_by_address - 地址处的函数 disassemble_function - 反汇编列表 disassemble_bytes - 原始字节反汇编 get_xrefs_to - 地址的交叉引用get_xrefs_from - 地址的交叉引用 get_bulk_xrefs - 批量交叉引用查找analyze_data_region - 分析内存区域结构inspect_memory_content - 查看原始内存内容 detector_array_bounds - 检测数组边界跨二进制文档 (v1.4+) get_function_hash - 标准化函数操作码的 SHA-256 哈希 get_bulk_function_hashes - 带过滤器的分页批量哈希get_function_documentation - 导出完整的函数文档 apply_function_documentation - 将文档导入到目标函数 build_function_hash_index - 构建持久性 JSON 索引lookup_function_by_hash - 在索引中查找匹配函数propagate_documentation - 将文档应用到所有匹配实例数据类型和结构list_data_types - 可用数据类型search_data_types - 搜索数据类型create_struct - 创建自定义结构add_struct_field - 将字段添加到结构modify_struct_field - 修改现有字段remove_struct_field - 从结构中删除字段 create_enum - 创建枚举 get_enum_values - 获取枚举值 create_array_type - 创建数组数据类型 apply_data_type - 应用类型。
+      <title>损坏的证明和损坏的证明者</title>
+      <link>https://lawrencecpaulson.github.io/2026/01/15/Broken_proofs.html</link>
+      <description>📝 另外，证明助手也有缺陷。伊莎贝尔会在这方面提供帮助。幸运的是，您必须证明定义的引理将揭示任何错误。
 
 
-🔤 Original: Show HN: Ghidra MCP Server – 110 tools for AI-assisted reverse engineering
+🔤 Original: Broken Proofs and Broken Provers
 
-🔗 Read more: https://github.com/bethington/ghidra-mcp</description>
-      <guid isPermaLink="true">https://github.com/bethington/ghidra-mcp</guid>
-      <pubDate>Wed, 04 Feb 2026 06:51:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46882389</comments>
-    </item>
-    <item>
-      <title>Windows 小部件的完整历史，从 1997 年至今</title>
-      <link>https://xakpc.dev/windows-widgets/history/</link>
-      <description>📝 微软发布了小部件。微软将其称为“活动桌面”。 1b - 活动桌面 活动桌面正在运行。
-
-
-🔤 Original: The full history of Windows widgets, from 1997 to today
-
-🔗 Read more: https://xakpc.dev/windows-widgets/history/</description>
-      <guid isPermaLink="true">https://xakpc.dev/windows-widgets/history/</guid>
-      <pubDate>Wed, 04 Feb 2026 06:22:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46882184</comments>
+🔗 Read more: https://lawrencecpaulson.github.io/2026/01/15/Broken_proofs.html</description>
+      <guid isPermaLink="true">https://lawrencecpaulson.github.io/2026/01/15/Broken_proofs.html</guid>
+      <pubDate>Wed, 04 Feb 2026 09:00:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46883337</comments>
     </item>
   </channel>
 </rss>
