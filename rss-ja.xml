@@ -6,21 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Feb 2026 06:53:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 09:44:28 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ドイツにおけるオープンソースでの活動をボランティアとして認めることを求める請願</title>
-      <link>https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany</link>
-      <description>📝 ボランティアとしての認識により、法的な明確さが生まれる正式な認識によって考えられる結果: これにより、デジタル ボランティア活動の透明性、法的な明確性、持続可能性が生まれます。これで状況は変わります。請願開始日: 2025 年 11 月 27 日 回収終了日: 2026 年 5 月 23 日 地域: ドイツ トピック: インターネット。
+      <title>HN を表示: Ghidra MCP サーバー – AI 支援リバース エンジニアリング用の 110 ツール</title>
+      <link>https://github.com/bethington/ghidra-mcp</link>
+      <description>📝 🌟 機能 コア MCP 統合 MCP の完全な互換性 - モデル コンテキスト プロトコルの完全な実装 110 個の MCP ツールが利用可能 - バイナリ分析のための包括的な API サーフェス 本番対応の信頼性 - テスト済みのバッチ操作とアトミック トランザクション リアルタイム分析 - Ghidra の分析エンジンとのライブ統合 バイナリ分析機能 関数分析 - 逆コンパイル、コール グラフ、相互参照 データ構造の検出 - 構造体/共用体/列挙型の自動作成 文字列抽出 - 包括的な文字列分析と分類 インポート/エクスポート分析 - シンボル テーブルとライブラリの依存関係マッピング メモリ マッピング - 完全なメモリ レイアウト ドキュメント クロスバイナリ ドキュメント - バイナリ バージョン間での関数ハッシュ マッチング 開発と自動化 自動化された開発サイクル - 完全なビルド、テスト、デプロイ、検証パイプライン Ghidra スクリプト管理 - MCP 経由で Ghidra スクリプトを作成、実行、管理 マルチプログラム サポート - 複数の開いているプログラム間の切り替えと比較 バッチ操作 -効率的な一括名前変更、コメント付け、および入力 🚀 クイック スタートの前提条件 Java 21 LTS (OpenJDK 推奨) Apache Maven 3. デフォルトで 1:8080/ 📊 運用パフォーマンス MCP ツール: 完全に実装された 110 のツール 速度: ほとんどの操作で 1 秒未満の応答 効率: バッチ操作による API 呼び出しの 93% 削減 信頼性: オール オアナッシング セマンティクスによるアトミック トランザクションデプロイメント: 自動化されたバージョン認識デプロイメント スクリプト 🛠️ API リファレンス コア オペレーション check_connection - MCP 接続の確認 get_metadata - プログラムのメタデータと情報 get_version - サーバーのバージョン情報 get_entry_points - バイナリ エントリ ポイントの検出 関数分析 list_functions - すべての関数のリスト (ページ分割) search_functions_by_name - 名前/パターンによる関数の検索 search_functions_enhanced - フィルターによる高度な関数検索decompile_function - 関数を C 疑似コードに逆コンパイルする get_decompiled_code - アドレスによって逆コンパイルされたコードを取得する get_function_callers - 関数呼び出し元を取得する get_function_callees - 関数呼び出し先を取得する get_function_call_graph - 関数関係グラフ get_full_call_graph - プログラムの完全な呼び出しグラフ Analyze_function_complete - 包括的な関数分析 Analyzer_function_completeness - ドキュメントの完全性スコア Memory &amp; Data list_segments - メモリ セグメントとレイアウトget_function_by_address - アドレスの関数 disassemble_function - 逆アセンブリ リスト disassemble_bytes - 生バイトの逆アセンブリ get_xrefs_to - アドレスへの相互参照 get_xrefs_from - アドレスからの相互参照 get_bulk_xrefs - 一括相互参照検索analyze_data_region - メモリ領域構造の分析inspect_memory_content - 生のメモリ内容の表示 detect_array_bounds - 検出配列境界 クロスバイナリ ドキュメント (v1. 4+) get_function_hash - 正規化された関数オペコードの SHA-256 ハッシュ get_bulk_function_hashes - フィルターを使用したページ分割された一括ハッシュ get_function_documentation - 完全な関数ドキュメントのエクスポート apply_function_documentation - ターゲット関数へのドキュメントのインポート build_function_hash_index - 永続的な JSON インデックスの構築 lookup_function_by_hash - インデックス内の一致する関数の検索propagate_documentation - 一致するすべてのインスタンスにドキュメントを適用します。 データ型と構造体 list_data_types - 使用可能なデータ型 search_data_types - データ型を検索します。 create_struct - カスタム構造体を作成します。 add_struct_field - 構造体にフィールドを追加します。 apply_data_type - 適用タイプ。
 
 
-🔤 Original: Petition for Recognition of Work on Open-Source as Volunteering in Germany
+🔤 Original: Show HN: Ghidra MCP Server – 110 tools for AI-assisted reverse engineering
 
-🔗 Read more: https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany</description>
-      <guid isPermaLink="true">https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany</guid>
-      <pubDate>Wed, 04 Feb 2026 04:46:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46881568</comments>
+🔗 Read more: https://github.com/bethington/ghidra-mcp</description>
+      <guid isPermaLink="true">https://github.com/bethington/ghidra-mcp</guid>
+      <pubDate>Wed, 04 Feb 2026 06:51:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46882389</comments>
+    </item>
+    <item>
+      <title>1997 年から現在までの Windows ウィジェットの全歴史</title>
+      <link>https://xakpc.dev/windows-widgets/history/</link>
+      <description>📝 Microsoft はウィジェットを一般公開します。 Microsoft ではこれをアクティブ デスクトップと呼んでいました。 1b - アクティブ デスクトップ アクティブ デスクトップが動作中。
+
+
+🔤 Original: The full history of Windows widgets, from 1997 to today
+
+🔗 Read more: https://xakpc.dev/windows-widgets/history/</description>
+      <guid isPermaLink="true">https://xakpc.dev/windows-widgets/history/</guid>
+      <pubDate>Wed, 04 Feb 2026 06:22:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46882184</comments>
     </item>
   </channel>
 </rss>

@@ -6,18 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 06:53:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 09:44:28 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Petition for Recognition of Work on Open-Source as Volunteering in Germany</title>
-      <link>https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany</link>
-      <description>📝 Recognition as volunteering would create legal clarityPossible results of formal recognition: This creates transparency, legal clarity and sustainability in digital volunteer work. This will change that. Petition started: 11/27/2025 Collection ends: 05/23/2026 Region: Germany Topic: Internet.
+      <title>Show HN: Ghidra MCP Server – 110 tools for AI-assisted reverse engineering</title>
+      <link>https://github.com/bethington/ghidra-mcp</link>
+      <description>📝 🌟 Features Core MCP Integration Full MCP Compatibility - Complete implementation of Model Context Protocol 110 MCP Tools Available - Comprehensive API surface for binary analysis Production-Ready Reliability - Tested batch operations and atomic transactions Real-time Analysis - Live integration with Ghidra's analysis engine Binary Analysis Capabilities Function Analysis - Decompilation, call graphs, cross-references Data Structure Discovery - Automatic struct/union/enum creation String Extraction - Comprehensive string analysis and categorization Import/Export Analysis - Symbol table and library dependency mapping Memory Mapping - Complete memory layout documentation Cross-Binary Documentation - Function hash matching across binary versions Development &amp; Automation Automated Development Cycle - Complete build-test-deploy-verify pipeline Ghidra Script Management - Create, run, and manage Ghidra scripts via MCP Multi-Program Support - Switch between and compare multiple open programs Batch Operations - Efficient bulk renaming, commenting, and typing 🚀 Quick Start Prerequisites Java 21 LTS (OpenJDK recommended) Apache Maven 3. 1:8080/ by default 📊 Production Performance MCP Tools: 110 tools fully implemented Speed: Sub-second response for most operations Efficiency: 93% reduction in API calls via batch operations Reliability: Atomic transactions with all-or-nothing semantics Deployment: Automated version-aware deployment script 🛠️ API Reference Core Operations check_connection - Verify MCP connectivity get_metadata - Program metadata and info get_version - Server version information get_entry_points - Binary entry points discovery Function Analysis list_functions - List all functions (paginated) search_functions_by_name - Search functions by name/pattern search_functions_enhanced - Advanced function search with filters decompile_function - Decompile function to C pseudocode get_decompiled_code - Get decompiled code by address get_function_callers - Get function callers get_function_callees - Get function callees get_function_call_graph - Function relationship graph get_full_call_graph - Complete call graph for program analyze_function_complete - Comprehensive function analysis analyze_function_completeness - Documentation completeness score Memory &amp; Data list_segments - Memory segments and layout get_function_by_address - Function at address disassemble_function - Disassembly listing disassemble_bytes - Raw byte disassembly get_xrefs_to - Cross-references to address get_xrefs_from - Cross-references from address get_bulk_xrefs - Bulk cross-reference lookup analyze_data_region - Analyze memory region structure inspect_memory_content - View raw memory content detect_array_bounds - Detect array boundaries Cross-Binary Documentation (v1. 4+) get_function_hash - SHA-256 hash of normalized function opcodes get_bulk_function_hashes - Paginated bulk hashing with filter get_function_documentation - Export complete function documentation apply_function_documentation - Import documentation to target function build_function_hash_index - Build persistent JSON index lookup_function_by_hash - Find matching functions in index propagate_documentation - Apply docs to all matching instances Data Types &amp; Structures list_data_types - Available data types search_data_types - Search for data types create_struct - Create custom structure add_struct_field - Add field to structure modify_struct_field - Modify existing field remove_struct_field - Remove field from structure create_enum - Create enumeration get_enum_values - Get enumeration values create_array_type - Create array data type apply_data_type - Apply type.
 
-🔗 Read more: https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany</description>
-      <guid isPermaLink="true">https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany</guid>
-      <pubDate>Wed, 04 Feb 2026 04:46:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46881568</comments>
+🔗 Read more: https://github.com/bethington/ghidra-mcp</description>
+      <guid isPermaLink="true">https://github.com/bethington/ghidra-mcp</guid>
+      <pubDate>Wed, 04 Feb 2026 06:51:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46882389</comments>
+    </item>
+    <item>
+      <title>The full history of Windows widgets, from 1997 to today</title>
+      <link>https://xakpc.dev/windows-widgets/history/</link>
+      <description>📝 Microsoft releases widgets into the wild. Microsoft called it Active Desktop. 1b - Active Desktop Active Desktop in action.
+
+🔗 Read more: https://xakpc.dev/windows-widgets/history/</description>
+      <guid isPermaLink="true">https://xakpc.dev/windows-widgets/history/</guid>
+      <pubDate>Wed, 04 Feb 2026 06:22:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46882184</comments>
     </item>
   </channel>
 </rss>
