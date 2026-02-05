@@ -6,127 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Feb 2026 18:49:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 21:30:53 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GPT-5.3-法典</title>
-      <link>https://openai.com/index/introducing-gpt-5-3-codex/</link>
-      <guid isPermaLink="true">https://openai.com/index/introducing-gpt-5-3-codex/</guid>
-      <pubDate>Thu, 05 Feb 2026 18:08:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902638</comments>
+      <title>我们委托 Opus 4.6 使用代理团队构建 C 编译器</title>
+      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
+      <description>📝 运行多个 Claude 代理可以实现专业化。我对并行 Claude 的实现很简单。与 Claude 代理团队一起编程的经验教训脚手架在循环中运行 Claude，但只有当 Claude 能够告诉如何取得进展时，该循环才有用。
+
+
+🔤 Original: We tasked Opus 4.6 using agent teams to build a C Compiler
+
+🔗 Read more: https://www.anthropic.com/engineering/building-c-compiler</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-c-compiler</guid>
+      <pubDate>Thu, 05 Feb 2026 19:07:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903616</comments>
     </item>
     <item>
-      <title>克劳德作品 4.6</title>
-      <link>https://www.anthropic.com/news/claude-opus-4-6</link>
-      <description>📝 公告介绍 Claude Opus 4。这使 Claude 更能胜任日常工作。第一印象我们用克劳德打造克劳德。
+      <title>LinkedIn 检查 2953 个浏览器扩展</title>
+      <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
+      <description>📝 LinkedIn Chrome 扩展程序指纹识别 LinkedIn 在每次页面加载时都会默默地探测 2,953 个 Chrome 扩展程序。 Node.js 从 Chrome Web Store 获取扩展名称，并使用 Extpose 回退来删除/不可用的扩展。 # 获取所有扩展节点 fetch_extension_names.
 
 
-🔤 Original: Claude Opus 4.6
+🔤 Original: LinkedIn checks for 2953 browser extensions
 
-🔗 Read more: https://www.anthropic.com/news/claude-opus-4-6</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-6</guid>
-      <pubDate>Thu, 05 Feb 2026 17:38:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902223</comments>
+🔗 Read more: https://github.com/mdp/linkedin-extension-fingerprinting</description>
+      <guid isPermaLink="true">https://github.com/mdp/linkedin-extension-fingerprinting</guid>
+      <pubDate>Thu, 05 Feb 2026 20:00:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46904361</comments>
     </item>
     <item>
-      <title>未密封的法庭文件显示青少年成瘾是大型科技公司的“首要任务”</title>
-      <link>https://techoversight.org/2026/01/25/top-report-mdl-jan-25/</link>
-      <description>📝 3047 部分未密封的元展品：案卷 #2648，于 2026 年 1 月 20 日提交，*所有展品编号均以“修订”为前缀 内部文件：展品 44：2016 年青少年成长电子邮件 电子邮件说明“马克已决定公司 2017 年上半年的首要任务是青少年” 展品 63：2016 年 7 月内部电子邮件关于 Facebook 参与 Lifestage 应用程序的广泛讨论表明，该应用程序在推出时几乎没有出于内部担忧而采取任何保障措施。图表 69：2018 年“高中目录 – 产品消息传递和发布文档” 图表 53：2023 年“Contr.”
+      <title>我的人工智能采用之旅</title>
+      <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
+      <description>📝 我想大家对AI的第一次体验就是聊天界面。很明显，这比我自己做的工作效率低得多。我阅读了博客文章，观看了视频，但没有留下深刻的印象。
 
 
-🔤 Original: Unsealed Court Documents Show Teen Addiction Was Big Tech's "Top Priority"
+🔤 Original: My AI Adoption Journey
 
-🔗 Read more: https://techoversight.org/2026/01/25/top-report-mdl-jan-25/</description>
-      <guid isPermaLink="true">https://techoversight.org/2026/01/25/top-report-mdl-jan-25/</guid>
-      <pubDate>Thu, 05 Feb 2026 18:00:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902512</comments>
+🔗 Read more: https://mitchellh.com/writing/my-ai-adoption-journey</description>
+      <guid isPermaLink="true">https://mitchellh.com/writing/my-ai-adoption-journey</guid>
+      <pubDate>Thu, 05 Feb 2026 19:04:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903558</comments>
     </item>
     <item>
-      <title>克劳德·代码代理团队</title>
-      <link>https://code.claude.com/docs/en/agent-teams</link>
-      <description>📝 代理团队可让您协调多个 Claude Code 实例一起工作。团队成员独立工作，每个人都在自己的上下文窗口中，并直接相互沟通。启用代理团队 默认情况下禁用代理团队。
+      <title>一个由构建者为构建者提供的小型共享技能库。 （人和代理人）</title>
+      <link>https://github.com/PsiACE/skills</link>
+      <description>📝 这个仓库包含我和我的朋友的技能。 me/ 安装 pnpx Skills add PsiACE/skills --skill='*' 或全局安装： pnpx Skills add PsiACE/skills --skill='*' -g 技能说明Friendly-Python 编写、重构和审查友好 Python 代码的实用指南 Piglet 基于 One Python Craftsman fast-rust 的实用 Python 工匠精神指南 编写、重构和审查快速、可靠和可维护的 Rust 代码的实用指南 文档使用 uv 安装文档依赖项并在本地预览： uvsync --group docs uv run mkdocsserve -f mkdocs。 yml 构建静态站点： uv run mkdocs build -f mkdocs.yml
 
 
-🔤 Original: Claude Code Agent Teams
+🔤 Original: A small, shared skill library by builders, for builders. (human and agent)
 
-🔗 Read more: https://code.claude.com/docs/en/agent-teams</description>
-      <guid isPermaLink="true">https://code.claude.com/docs/en/agent-teams</guid>
-      <pubDate>Thu, 05 Feb 2026 17:49:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902368</comments>
+🔗 Read more: https://github.com/PsiACE/skills</description>
+      <guid isPermaLink="true">https://github.com/PsiACE/skills</guid>
+      <pubDate>Thu, 05 Feb 2026 18:17:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902789</comments>
     </item>
     <item>
-      <title>欧盟委员会试验矩阵更换团队</title>
-      <link>https://www.euractiv.com/news/commission-trials-european-open-source-communications-software/</link>
-      <guid isPermaLink="true">https://www.euractiv.com/news/commission-trials-european-open-source-communications-software/</guid>
-      <pubDate>Thu, 05 Feb 2026 16:33:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46901452</comments>
+      <title>心理测量越狱揭示前沿模型中的内部冲突</title>
+      <link>https://arxiv.org/abs/2512.04124</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
+
+
+🔤 Original: Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models
+
+🔗 Read more: https://arxiv.org/abs/2512.04124</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.04124</guid>
+      <pubDate>Thu, 05 Feb 2026 18:21:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902855</comments>
     </item>
     <item>
-      <title>Maihem (YC W24)：招聘高级机器人感知工程师（伦敦，现场）</title>
-      <link>https://jobs.ashbyhq.com/maihem/8da3fa8b-5544-45de-a99e-888021519758</link>
-      <guid isPermaLink="true">https://jobs.ashbyhq.com/maihem/8da3fa8b-5544-45de-a99e-888021519758</guid>
-      <pubDate>Thu, 05 Feb 2026 17:00:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46901768</comments>
+      <title>超网络：分层数据的神经网络</title>
+      <link>https://blog.sturdystatistics.com/posts/hnet_part_I/</link>
+      <description>📝 分层数据提醒我们事实并非如此。标准神经网络在这种情况下会严重失败。在所有数据集上训练一个模型，它会模糊差异，对不应该平均的函数进行平均。
+
+
+🔤 Original: Hypernetworks: Neural Networks for Hierarchical Data
+
+🔗 Read more: https://blog.sturdystatistics.com/posts/hnet_part_I/</description>
+      <guid isPermaLink="true">https://blog.sturdystatistics.com/posts/hnet_part_I/</guid>
+      <pubDate>Thu, 05 Feb 2026 16:55:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901716</comments>
     </item>
     <item>
-      <title>通过 Claude Opus 4.6 推进金融发展</title>
-      <link>https://claude.com/blog/opus-4-6-finance</link>
-      <description>📝 与 Claude Opus 4 一起推进金融。与 Claude Opus 4 一起。在研究方面，Claude Opus 4。
+      <title>Claude Opus 4.6 额外使用促销</title>
+      <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
+      <description>📝 如果未启用额外使用：您需要启用额外使用才能索取积分。出现提示时启用额外使用。一旦额外使用有效，您的 50 美元积分将被应用。
 
 
-🔤 Original: Advancing finance with Claude Opus 4.6
+🔤 Original: Claude Opus 4.6 extra usage promo
 
-🔗 Read more: https://claude.com/blog/opus-4-6-finance</description>
-      <guid isPermaLink="true">https://claude.com/blog/opus-4-6-finance</guid>
-      <pubDate>Thu, 05 Feb 2026 17:42:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902273</comments>
+🔗 Read more: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</description>
+      <guid isPermaLink="true">https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
+      <pubDate>Thu, 05 Feb 2026 20:15:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46904569</comments>
     </item>
     <item>
-      <title>Anthropic 的 Claude Opus 4.6 发现开源代码中的 500 个零日缺陷</title>
-      <link>https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</link>
-      <guid isPermaLink="true">https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</guid>
-      <pubDate>Thu, 05 Feb 2026 18:25:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902909</comments>
-    </item>
-    <item>
-      <title>中央情报局突然停止出版并删除《世界概况》的档案</title>
-      <link>https://simonwillison.net/2026/Feb/5/the-world-factbook/</link>
-      <description>📝 最近的文章使用 go-to-wheel 通过 PyPI 分发像 sqlite-scanner 这样的 Go 二进制文件 - 2026 年 2 月 4 日 Moltbook 是目前互联网上最有趣的地方 - 2026 年 1 月 30 日向积极缓存的网站添加动态功能 - 2026 年 1 月 28 日。
-
-
-🔤 Original: CIA suddenly stops publishing, removes archives of The World Factbook
-
-🔗 Read more: https://simonwillison.net/2026/Feb/5/the-world-factbook/</description>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/5/the-world-factbook/</guid>
-      <pubDate>Thu, 05 Feb 2026 14:11:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46899808</comments>
-    </item>
-    <item>
-      <title>Ardour 9.0发布</title>
-      <link>https://ardour.org/whatsnew.html</link>
-      <description>📝 毫无疑问，某些事情会让人感到高兴和失望——不要假设我们不知道自己在做什么，请在论坛上给我们留下反馈，以便 Ardor 随着时间的推移变得更好。将打开一个钢琴卷帘区域，允许与编辑器时间线上可用的 MIDI 编辑操作完全相同。 1/8 音符拨弦每 1/4 音符。
-
-
-🔤 Original: Ardour 9.0 Released
-
-🔗 Read more: https://ardour.org/whatsnew.html</description>
-      <guid isPermaLink="true">https://ardour.org/whatsnew.html</guid>
-      <pubDate>Thu, 05 Feb 2026 18:30:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903001</comments>
-    </item>
-    <item>
-      <title>每个人都在偷电视</title>
-      <link>https://www.theverge.com/streaming/873416/piracy-streaming-boxes</link>
-      <description>📝 流媒体小工具政策人人都在偷看电视 由于订阅价格不断上涨，观众们纷纷拥抱流氓流媒体盒子。这是不可持续的，”她说。“来自阿拉巴马州的加油站修理工詹姆斯估计，他以前每月为流媒体订阅支付约 125 美元。
-
-
-🔤 Original: Everyone Is Stealing TV
-
-🔗 Read more: https://www.theverge.com/streaming/873416/piracy-streaming-boxes</description>
-      <guid isPermaLink="true">https://www.theverge.com/streaming/873416/piracy-streaming-boxes</guid>
-      <pubDate>Thu, 05 Feb 2026 17:18:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46901974</comments>
+      <title>Flock 首席执行官称 Delock 为“恐怖组织”[视频]（2025）</title>
+      <link>https://www.youtube.com/watch?v=l-kZGrDz7PU</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=l-kZGrDz7PU</guid>
+      <pubDate>Thu, 05 Feb 2026 19:04:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903556</comments>
     </item>
   </channel>
 </rss>
