@@ -6,54 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 06 Feb 2026 06:56:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 09:43:24 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>유닉스가 원자적으로 할 수 있는 일 (2010)</title>
-      <link>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</link>
-      <description>📝 newpath가 이미 존재하는 경우 오류 코드 EEXIST와 함께 실패하므로 이는 newpath라는 이름에 모두 동의할 수 있는 스레드나 프로세스 사이에서 파일을 잠그는 데 유용한 메커니즘이 됩니다. newpath가 이미 존재하는 경우 오류 코드 EEXIST와 함께 실패하므로 이는 디렉토리에도 작동하는 link(2)와 완벽하게 유사합니다. ) O_EXCL은 경로명이 존재하는 경우 오류 코드 EEXIST와 함께 실패하도록 지시합니다.
+      <title>Show HN: Calfkit – Kafka에서 분산형 이벤트 기반 AI 에이전트를 구축하기 위한 SDK</title>
+      <link>https://github.com/calf-ai/calfkit-sdk</link>
+      <description>📝 py는 calfkit에서 asyncio를 가져옵니다. 노드는 calfkit에서 Agent_tool을 가져옵니다. 브로커는 calfkit에서 BrokerClient를 가져옵니다.
 
 
-🔤 Original: Things Unix can do atomically (2010)
+🔤 Original: Show HN: Calfkit – an SDK to build distributed, event-driven AI agents on Kafka
 
-🔗 Read more: https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</description>
-      <guid isPermaLink="true">https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</guid>
-      <pubDate>Fri, 06 Feb 2026 05:29:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46909468</comments>
-    </item>
-    <item>
-      <title>시스템 사고</title>
-      <link>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</link>
-      <description>📝 그들이 지금 겪고 있는 모든 종류의 추악한 문제는 존재하지 않을 것입니다. 더 많은 시간, 더 많은 노력, 더 많은 생각. 코드가 제대로 작동하지 않으며 아마도 결코 작동하지 않을 것이라는 사실을 아는 데서 발생하는 심각한 마지막 순간의 패닉입니다.
-
-
-🔤 Original: Systems Thinking
-
-🔗 Read more: http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</description>
-      <guid isPermaLink="true">http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</guid>
-      <pubDate>Fri, 06 Feb 2026 05:24:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46909439</comments>
-    </item>
-    <item>
-      <title>HN 표시: Artifact Keeper – Rust의 오픈 소스 Artifactory/Nexus 대안</title>
-      <link>https://github.com/artifact-keeper</link>
-      <description>📝 WASM 플러그인 시스템 — WebAssembly를 통해 사용자 정의 형식 핸들러로 확장합니다. 리포지토리별 권한이 있는 RBAC. 빠른 시작 # Docker Compose git clone https://github로 복제하고 시작합니다.
-
-
-🔤 Original: Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust
-
-🔗 Read more: https://github.com/artifact-keeper</description>
-      <guid isPermaLink="true">https://github.com/artifact-keeper</guid>
-      <pubDate>Fri, 06 Feb 2026 04:12:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46909037</comments>
-    </item>
-    <item>
-      <title>Postgres 19를 기다리며: 경로 생성 전략에 대한 더 나은 플래너 힌트 [동영상]</title>
-      <link>https://www.youtube.com/watch?v=QLb3nhIy2Lc</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=QLb3nhIy2Lc</guid>
-      <pubDate>Fri, 06 Feb 2026 03:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46908700</comments>
+🔗 Read more: https://github.com/calf-ai/calfkit-sdk</description>
+      <guid isPermaLink="true">https://github.com/calf-ai/calfkit-sdk</guid>
+      <pubDate>2026-02-05 23:10:12</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906737</comments>
     </item>
     <item>
       <title>생성적 펜 훈련 변환기</title>
@@ -65,21 +32,342 @@
 
 🔗 Read more: https://theodore.net/projects/Polargraph/</description>
       <guid isPermaLink="true">https://theodore.net/projects/Polargraph/</guid>
-      <pubDate>Fri, 06 Feb 2026 04:28:08 +0000</pubDate>
+      <pubDate>2026-02-06 04:28:08</pubDate>
       <comments>https://news.ycombinator.com/item?id=46909122</comments>
     </item>
     <item>
-      <title>Show HN: Calfkit – Kafka에서 분산형 이벤트 기반 AI 에이전트를 구축하기 위한 SDK</title>
-      <link>https://github.com/calf-ai/calfkit-sdk</link>
-      <description>📝 py는 calfkit에서 asyncio를 가져옵니다. 노드는 calfkit에서 Agent_tool을 가져옵니다. 브로커는 calfkit에서 BrokerClient를 가져옵니다.
+      <title>Postgres 19를 기다리며: 경로 생성 전략에 대한 더 나은 플래너 힌트 [동영상]</title>
+      <link>https://www.youtube.com/watch?v=QLb3nhIy2Lc</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=QLb3nhIy2Lc</guid>
+      <pubDate>2026-02-06 03:25:51</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908700</comments>
+    </item>
+    <item>
+      <title>HN 표시: Artifact Keeper – Rust의 오픈 소스 Artifactory/Nexus 대안</title>
+      <link>https://github.com/artifact-keeper</link>
+      <description>📝 WASM 플러그인 시스템 — WebAssembly를 통해 사용자 정의 형식 핸들러로 확장합니다. 리포지토리별 권한이 있는 RBAC. 빠른 시작 # Docker Compose git clone https://github로 복제하고 시작합니다.
 
 
-🔤 Original: Show HN: Calfkit – an SDK to build distributed, event-driven AI agents on Kafka
+🔤 Original: Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust
 
-🔗 Read more: https://github.com/calf-ai/calfkit-sdk</description>
-      <guid isPermaLink="true">https://github.com/calf-ai/calfkit-sdk</guid>
-      <pubDate>Thu, 05 Feb 2026 23:10:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46906737</comments>
+🔗 Read more: https://github.com/artifact-keeper</description>
+      <guid isPermaLink="true">https://github.com/artifact-keeper</guid>
+      <pubDate>2026-02-06 04:12:59</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909037</comments>
+    </item>
+    <item>
+      <title>시스템 사고</title>
+      <link>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</link>
+      <description>📝 그들이 지금 겪고 있는 모든 종류의 추악한 문제는 존재하지 않을 것입니다. 더 많은 시간, 더 많은 노력, 더 많은 생각. 코드가 제대로 작동하지 않으며 아마도 결코 작동하지 않을 것이라는 사실을 아는 데서 발생하는 심각한 마지막 순간의 패닉입니다.
+
+
+🔤 Original: Systems Thinking
+
+🔗 Read more: http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</description>
+      <guid isPermaLink="true">http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</guid>
+      <pubDate>2026-02-06 05:24:36</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909439</comments>
+    </item>
+    <item>
+      <title>유닉스가 원자적으로 할 수 있는 일 (2010)</title>
+      <link>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</link>
+      <description>📝 newpath가 이미 존재하는 경우 오류 코드 EEXIST와 함께 실패하므로 이는 newpath라는 이름에 모두 동의할 수 있는 스레드나 프로세스 사이에서 파일을 잠그는 데 유용한 메커니즘이 됩니다. newpath가 이미 존재하는 경우 오류 코드 EEXIST와 함께 실패하므로 이는 디렉토리에도 작동하는 link(2)와 완벽하게 유사합니다. ) O_EXCL은 경로명이 존재하는 경우 오류 코드 EEXIST와 함께 실패하도록 지시합니다.
+
+
+🔤 Original: Things Unix can do atomically (2010)
+
+🔗 Read more: https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</description>
+      <guid isPermaLink="true">https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</guid>
+      <pubDate>2026-02-06 05:29:55</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909468</comments>
+    </item>
+    <item>
+      <title>제프리 엡스타인을 만나지 못했던 시절</title>
+      <link>https://scottaaronson.blog/?p=9534</link>
+      <description>📝 그가 지금 갖고 있는 악명은 1%다. 당신은 돈에 그다지 관심이 없기 때문에 적어도 당신을 살 수는 없습니다. 놀랍게도 나는 어젯밤까지 이런 일이 있었다는 사실을 완전히 잊어버렸습니다.
+
+
+🔤 Original: The time I didn't meet Jeffrey Epstein
+
+🔗 Read more: https://scottaaronson.blog/?p=9534</description>
+      <guid isPermaLink="true">https://scottaaronson.blog/?p=9534</guid>
+      <pubDate>2026-02-05 19:29:41</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903929</comments>
+    </item>
+    <item>
+      <title>Tower of Fantasy의 치트 방지 드라이버를 반대로 했습니다. BYOVD 툴킷이 로드되지 않았습니다.</title>
+      <link>https://vespalec.com/blog/tower-of-flaws/</link>
+      <description>📝 커널 치트 방지에 대한 실제 관심사는 감시가 아니라 가장 높은 권한 수준에서 실행되는 보안에 중요한 코드라는 것입니다. 제대로 작성되지 않으면 공격 표면이 되고, 실패하면 전체 시스템이 다운될 수 있습니다(예: VMProtect를 사용하더라도 이러한 취약점은 여전히 ​​존재합니다.
+
+
+🔤 Original: I reversed Tower of Fantasy's anti-cheat driver: a BYOVD toolkit never loaded
+
+🔗 Read more: https://vespalec.com/blog/tower-of-flaws/</description>
+      <guid isPermaLink="true">https://vespalec.com/blog/tower-of-flaws/</guid>
+      <pubDate>2026-02-06 03:22:29</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908671</comments>
+    </item>
+    <item>
+      <title>GitHub Actions가 천천히 엔지니어링 팀을 죽이고 있습니다.</title>
+      <link>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</link>
+      <description>📝 그것은 단지 당신의 플레이크를 보는 것입니다. 지금이 당신의 오후입니다. 페이지에서 귀하의 요청을 고려합니다.
+
+
+🔤 Original: GitHub Actions is slowly killing engineering teams
+
+🔗 Read more: https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</description>
+      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</guid>
+      <pubDate>2026-02-06 02:58:31</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908491</comments>
+    </item>
+    <item>
+      <title>C는 더 이상 프로그래밍 언어가 아닙니다(2022)</title>
+      <link>https://faultlore.com/blah/c-isnt-a-language/</link>
+      <description>📝 그건 형편없지만 그 자체로는 내 문제가 되지 않습니다. 우리의 언어가 외부 함수를 호출할 수 있게 해주는 일종의 인터페이스가 필요합니다. 의미 있게 파싱한다는 점을 명심하세요.
+
+
+🔤 Original: C isn't a programming language anymore (2022)
+
+🔗 Read more: https://faultlore.com/blah/c-isnt-a-language/</description>
+      <guid isPermaLink="true">https://faultlore.com/blah/c-isnt-a-language/</guid>
+      <pubDate>2026-02-06 00:15:55</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46907350</comments>
+    </item>
+    <item>
+      <title>테스트 작성이 즐거운 경험이라면 어떨까요? (2023)</title>
+      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
+      <description>📝 테스트 작성이 즐거운 경험이라면 어떨까요? fibonacci(15)는 무엇과 동일합니까? 나의 주요 주장은 결정하고 입력하는 모든 작업이 실제로 테스트 작성을 방해할 정도로 고통스럽다는 것입니다.
+
+
+🔤 Original: What if writing tests was a joyful experience? (2023)
+
+🔗 Read more: https://blog.janestreet.com/the-joy-of-expect-tests/</description>
+      <guid isPermaLink="true">https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
+      <pubDate>2026-02-05 21:51:51</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905896</comments>
+    </item>
+    <item>
+      <title>HN 표시: RTX 3080의 로컬 작업 분류자 및 디스패처</title>
+      <link>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</link>
+      <description>📝 빠른 시작 # venv python -m venv를 만듭니다. bat # 오케스트레이터 API run_ui를 시작합니다. bat # NiceGUI 인터페이스를 시작합니다.
+
+
+🔤 Original: Show HN: Local task classifier and dispatcher on RTX 3080
+
+🔗 Read more: https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</description>
+      <guid isPermaLink="true">https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
+      <pubDate>2026-02-05 23:31:01</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906967</comments>
+    </item>
+    <item>
+      <title>AMD가 수정하지 않는 RCE</title>
+      <link>https://mrbruh.com/amd/</link>
+      <description>📝 제가 가장 먼저 발견한 것은 업데이트 URL을 프로그램 앱에 저장한다는 것입니다. 이는 네트워크의 악의적인 공격자 또는 ISP에 액세스할 수 있는 국가가 쉽게 MITM 공격을 수행하고 네트워크 응답을 자신이 선택한 악성 실행 파일로 대체할 수 있음을 의미합니다. 나는 AMD가 서명되지 않은 실행 파일을 다운로드하고 실행할 수 없도록 하기 위해 일종의 인증서 유효성 검사가 있기를 바랐습니다. 그러나 디컴파일된 코드를 잠깐 살펴보면 AutoUpdate 소프트웨어가 그러한 유효성 검사를 수행하지 않고 다운로드한 파일을 즉시 실행한다는 사실이 드러났습니다.
+
+
+🔤 Original: The RCE that AMD won't fix
+
+🔗 Read more: https://mrbruh.com/amd/</description>
+      <guid isPermaLink="true">https://mrbruh.com/amd/</guid>
+      <pubDate>2026-02-05 23:29:18</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906947</comments>
+    </item>
+    <item>
+      <title>Isaac Asimov의 1984년 리뷰(1980)</title>
+      <link>https://www.newworker.org/ncptrory/1984.htm</link>
+      <description>📝 1984년의 저술 1949년에 1984라는 제목의 책이 출판되었습니다. 이 책은 많은 호평을 받았고 오웰은 은퇴하고 그의 걸작인 1984에 전념할 만큼 충분히 번영했습니다. 그 책은 사회를 1930년대 스탈린주의 러시아의 광대한 전 세계적 확장으로 묘사했으며 경쟁적인 좌파 종파의 독설과 함께 묘사했습니다.
+
+
+🔤 Original: Review of 1984 by Isaac Asimov (1980)
+
+🔗 Read more: https://www.newworker.org/ncptrory/1984.htm</description>
+      <guid isPermaLink="true">https://www.newworker.org/ncptrory/1984.htm</guid>
+      <pubDate>2026-02-05 21:39:57</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905761</comments>
+    </item>
+    <item>
+      <title>지금은 2026년, 그냥 Postgres를 사용하세요</title>
+      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
+      <description>📝 pg_textsearch를 사용하는 Postgres는 검색을 단순화합니다. 더 읽기Elasticsearch가 필요하지 않습니다: BM25가 이제 Postgres에 있습니다PostgreSQLPostgreSQL 팁2025년 12월 23일 Elasticsearch가 필요하지 않습니다. BM25는 이제 pg_textsearch를 통해 Postgres에 있습니다. 더 읽기새로운 게시물과 릴리스로 최신 소식을 받아보세요.
+
+
+🔤 Original: It's 2026, Just Use Postgres
+
+🔗 Read more: https://www.tigerdata.com/blog/its-2026-just-use-postgres</description>
+      <guid isPermaLink="true">https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
+      <pubDate>2026-02-05 21:24:03</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905555</comments>
+    </item>
+    <item>
+      <title>Flock CEO는 Deflock을 "테러 조직"이라고 부릅니다. [동영상] (2025)</title>
+      <link>https://www.youtube.com/watch?v=l-kZGrDz7PU</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=l-kZGrDz7PU</guid>
+      <pubDate>2026-02-05 19:04:37</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903556</comments>
+    </item>
+    <item>
+      <title>Claude Opus 4.6 추가 사용 프로모션</title>
+      <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
+      <description>📝 추가 사용량이 활성화되지 않은 경우: 크레딧을 청구하려면 추가 사용량을 활성화해야 합니다. 메시지가 표시되면 추가 사용을 활성화합니다. 추가 사용량이 활성화되면 $50 크레딧이 적용됩니다.
+
+
+🔤 Original: Claude Opus 4.6 extra usage promo
+
+🔗 Read more: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</description>
+      <guid isPermaLink="true">https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
+      <pubDate>2026-02-05 20:15:48</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46904569</comments>
+    </item>
+    <item>
+      <title>하이퍼네트워크: 계층적 데이터를 위한 신경망</title>
+      <link>https://blog.sturdystatistics.com/posts/hnet_part_I/</link>
+      <description>📝 계층적 데이터는 그렇지 않다는 것을 상기시켜 줍니다. 이 설정에서는 표준 신경망이 제대로 작동하지 않습니다. 모든 데이터 세트에 걸쳐 단일 모델을 훈련하면 차이가 모호해지고 평균화되어서는 안 되는 함수의 평균이 계산됩니다.
+
+
+🔤 Original: Hypernetworks: Neural Networks for Hierarchical Data
+
+🔗 Read more: https://blog.sturdystatistics.com/posts/hnet_part_I/</description>
+      <guid isPermaLink="true">https://blog.sturdystatistics.com/posts/hnet_part_I/</guid>
+      <pubDate>2026-02-05 16:55:38</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901716</comments>
+    </item>
+    <item>
+      <title>심리학적 탈옥은 프론티어 모델의 내부 갈등을 드러냅니다.</title>
+      <link>https://arxiv.org/abs/2512.04124</link>
+      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
+
+
+🔤 Original: Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models
+
+🔗 Read more: https://arxiv.org/abs/2512.04124</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.04124</guid>
+      <pubDate>2026-02-05 18:21:53</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902855</comments>
+    </item>
+    <item>
+      <title>빌더를 위한, 빌더에 의한 소규모 공유 기술 라이브러리입니다. (인간 및 에이전트)</title>
+      <link>https://github.com/PsiACE/skills</link>
+      <description>📝 이 저장소에는 나와 내 친구들의 기술이 포함되어 있습니다. me/ 설치 pnpx Skills add PsiACE/skills --skill='*' 또는 전역적으로 설치: pnpx Skills add PsiACE/skills --skill='*' -g Skills Skill Description Friendly-python 친숙한 Python 코드 작성, 리팩토링 및 검토를 위한 실용 지침 piglet One Python Craftsman fast-rust를 기반으로 한 실용적인 Python 장인 정신 빠르고 안정적이며 유지 관리가 가능한 Rust 코드 작성, 리팩토링 및 검토를 위한 실용 지침 문서 uv를 사용하여 문서 종속성을 설치하고 로컬로 미리보기: uv sync --group docs uv run mkdocs Serve -f mkdocs. yml 정적 사이트 구축: uv run mkdocs build -f mkdocs.
+
+
+🔤 Original: A small, shared skill library by builders, for builders. (human and agent)
+
+🔗 Read more: https://github.com/PsiACE/skills</description>
+      <guid isPermaLink="true">https://github.com/PsiACE/skills</guid>
+      <pubDate>2026-02-05 18:17:14</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902789</comments>
+    </item>
+    <item>
+      <title>나의 AI 채택 여정</title>
+      <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
+      <description>📝 AI에 대한 모든 사람의 첫 경험은 채팅 인터페이스라고 생각합니다. 내가 직접 작업하는 것보다 훨씬 덜 효율적이었습니다. 블로그 게시물을 읽고 비디오를 보았지만 그다지 인상적이지는 않았습니다.
+
+
+🔤 Original: My AI Adoption Journey
+
+🔗 Read more: https://mitchellh.com/writing/my-ai-adoption-journey</description>
+      <guid isPermaLink="true">https://mitchellh.com/writing/my-ai-adoption-journey</guid>
+      <pubDate>2026-02-05 19:04:40</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903558</comments>
+    </item>
+    <item>
+      <title>LinkedIn은 2953개의 브라우저 확장을 확인합니다.</title>
+      <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
+      <description>📝 LinkedIn Chrome 확장 프로그램 핑거프린팅 LinkedIn은 페이지가 로드될 때마다 2,953개의 Chrome 확장 프로그램을 자동으로 조사합니다. js 제거되거나 사용할 수 없는 확장에 대한 Extpose 폴백을 사용하여 Chrome 웹 스토어에서 확장 이름을 가져옵니다. # 모든 확장 노드 fetch_extension_names를 가져옵니다.
+
+
+🔤 Original: LinkedIn checks for 2953 browser extensions
+
+🔗 Read more: https://github.com/mdp/linkedin-extension-fingerprinting</description>
+      <guid isPermaLink="true">https://github.com/mdp/linkedin-extension-fingerprinting</guid>
+      <pubDate>2026-02-05 20:00:39</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46904361</comments>
+    </item>
+    <item>
+      <title>우리는 C 컴파일러를 구축하기 위해 에이전트 팀을 사용하여 Opus 4.6 작업을 수행했습니다.</title>
+      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
+      <description>📝 여러 Claude 에이전트를 실행하면 전문화가 가능합니다. 병렬 Claude의 구현은 기본입니다. Claude 에이전트 팀과의 프로그래밍에서 얻은 교훈스캐폴딩은 Claude를 루프로 실행하지만 해당 루프는 Claude가 진행 방법을 알 수 있는 경우에만 유용합니다.
+
+
+🔤 Original: We tasked Opus 4.6 using agent teams to build a C Compiler
+
+🔗 Read more: https://www.anthropic.com/engineering/building-c-compiler</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-c-compiler</guid>
+      <pubDate>2026-02-05 19:07:51</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903616</comments>
+    </item>
+    <item>
+      <title>모두가 TV를 훔치고 있다</title>
+      <link>https://www.theverge.com/streaming/873416/piracy-streaming-boxes</link>
+      <description>📝 StreamingGadgetsPolicy모두가 TV를 훔치고 있습니다. 구독료가 인상되면서 시청자들은 불량 스트리밍 박스를 받아들입니다. 지속 가능하지 않습니다.”라고 그녀는 말합니다. “앨라배마의 주유소 수리공인 James는 매달 스트리밍 구독료로 약 125달러를 지불했다고 추산합니다.
+
+
+🔤 Original: Everyone Is Stealing TV
+
+🔗 Read more: https://www.theverge.com/streaming/873416/piracy-streaming-boxes</description>
+      <guid isPermaLink="true">https://www.theverge.com/streaming/873416/piracy-streaming-boxes</guid>
+      <pubDate>2026-02-05 17:18:11</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901974</comments>
+    </item>
+    <item>
+      <title>Ardor 9.0 출시</title>
+      <link>https://ardour.org/whatsnew.html</link>
+      <description>📝 우리는 어떤 일에는 기쁨과 실망이 함께 있을 것이라는 데 의심의 여지가 없습니다. 우리가 무엇을 하고 있는지 모른다고 가정하기보다는 Ardor가 시간이 지남에 따라 더 좋아질 수 있도록 포럼에 피드백을 남겨주세요. 편집기 타임라인에서 사용할 수 있는 것과 정확히 동일한 MIDI 편집 작업을 허용하는 피아노롤 영역이 열립니다. 1/4분음표마다 1/8분음표 피치카토 현이 있습니다.
+
+
+🔤 Original: Ardour 9.0 Released
+
+🔗 Read more: https://ardour.org/whatsnew.html</description>
+      <guid isPermaLink="true">https://ardour.org/whatsnew.html</guid>
+      <pubDate>2026-02-05 18:30:16</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903001</comments>
+    </item>
+    <item>
+      <title>CIA가 갑자기 출판을 중단하고 The World Factbook의 아카이브를 제거했습니다.</title>
+      <link>https://simonwillison.net/2026/Feb/5/the-world-factbook/</link>
+      <description>📝 최근 기사 go-to-wheel을 사용하여 PyPI를 통해 sqlite-scanner와 같은 Go 바이너리 배포 - 2026년 2월 4일 Moltbook은 현재 인터넷에서 가장 흥미로운 곳입니다 - 2026년 1월 30일 적극적으로 캐시된 웹 사이트에 동적 기능 추가 - 2026년 1월 28일.
+
+
+🔤 Original: CIA suddenly stops publishing, removes archives of The World Factbook
+
+🔗 Read more: https://simonwillison.net/2026/Feb/5/the-world-factbook/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/5/the-world-factbook/</guid>
+      <pubDate>2026-02-05 14:11:13</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46899808</comments>
+    </item>
+    <item>
+      <title>Anthropic의 Claude Opus 4.6, 오픈 소스 코드에서 500개의 제로데이 결함 발견</title>
+      <link>https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</link>
+      <guid isPermaLink="true">https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</guid>
+      <pubDate>2026-02-05 18:25:05</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902909</comments>
+    </item>
+    <item>
+      <title>Claude Opus 4.6을 통한 금융 발전</title>
+      <link>https://claude.com/blog/opus-4-6-finance</link>
+      <description>📝 Claude Opus 4와 함께 금융 발전. Claude Opus 4와 함께. 연구 분야에서는 Claude Opus 4.
+
+
+🔤 Original: Advancing finance with Claude Opus 4.6
+
+🔗 Read more: https://claude.com/blog/opus-4-6-finance</description>
+      <guid isPermaLink="true">https://claude.com/blog/opus-4-6-finance</guid>
+      <pubDate>2026-02-05 17:42:47</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902273</comments>
+    </item>
+    <item>
+      <title>Maihem(YC W24): 선임 로봇 인식 엔지니어 채용(런던, 현장)</title>
+      <link>https://jobs.ashbyhq.com/maihem/8da3fa8b-5544-45de-a99e-888021519758</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/maihem/8da3fa8b-5544-45de-a99e-888021519758</guid>
+      <pubDate>2026-02-05 17:00:07</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901768</comments>
+    </item>
+    <item>
+      <title>팀 교체를 위한 유럽 위원회 재판 매트릭스</title>
+      <link>https://www.euractiv.com/news/commission-trials-european-open-source-communications-software/</link>
+      <guid isPermaLink="true">https://www.euractiv.com/news/commission-trials-european-open-source-communications-software/</guid>
+      <pubDate>2026-02-05 16:33:56</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901452</comments>
     </item>
   </channel>
 </rss>

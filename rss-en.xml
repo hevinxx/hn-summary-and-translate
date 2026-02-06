@@ -6,45 +6,18 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 06:56:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 09:43:24 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Things Unix can do atomically (2010)</title>
-      <link>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</link>
-      <description>📝 This will fail with the error code EEXIST if newpath already exists, making this a useful mechanism for locking a file amongst threads or processes that can all agree upon the name newpath. This will fail with the error code EEXIST if newpath already exists, making this a perfect analogy to link(2) that works for directories, too. ) O_EXCL instructs this to fail with the error code EEXIST if pathname exists.
+      <title>Show HN: Calfkit – an SDK to build distributed, event-driven AI agents on Kafka</title>
+      <link>https://github.com/calf-ai/calfkit-sdk</link>
+      <description>📝 py import asyncio from calfkit. nodes import agent_tool from calfkit. broker import BrokerClient from calfkit.
 
-🔗 Read more: https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</description>
-      <guid isPermaLink="true">https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</guid>
-      <pubDate>Fri, 06 Feb 2026 05:29:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46909468</comments>
-    </item>
-    <item>
-      <title>Systems Thinking</title>
-      <link>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</link>
-      <description>📝 All sorts of ugly problems that they have now would just not exist. More time, more effort, more thinking. That severe last-minute panic that comes from knowing that the code doesn't really work as it should, and probably never will.
-
-🔗 Read more: http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</description>
-      <guid isPermaLink="true">http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</guid>
-      <pubDate>Fri, 06 Feb 2026 05:24:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46909439</comments>
-    </item>
-    <item>
-      <title>Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust</title>
-      <link>https://github.com/artifact-keeper</link>
-      <description>📝 WASM Plugin System — Extend with custom format handlers via WebAssembly. RBAC with per-repository permissions. Quick Start # Clone and start with Docker Compose git clone https://github.
-
-🔗 Read more: https://github.com/artifact-keeper</description>
-      <guid isPermaLink="true">https://github.com/artifact-keeper</guid>
-      <pubDate>Fri, 06 Feb 2026 04:12:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46909037</comments>
-    </item>
-    <item>
-      <title>Waiting for Postgres 19: Better planner hints with path generation strategies [video]</title>
-      <link>https://www.youtube.com/watch?v=QLb3nhIy2Lc</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=QLb3nhIy2Lc</guid>
-      <pubDate>Fri, 06 Feb 2026 03:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46908700</comments>
+🔗 Read more: https://github.com/calf-ai/calfkit-sdk</description>
+      <guid isPermaLink="true">https://github.com/calf-ai/calfkit-sdk</guid>
+      <pubDate>2026-02-05 23:10:12</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906737</comments>
     </item>
     <item>
       <title>Generative Pen-Trained Transformer</title>
@@ -53,18 +26,273 @@
 
 🔗 Read more: https://theodore.net/projects/Polargraph/</description>
       <guid isPermaLink="true">https://theodore.net/projects/Polargraph/</guid>
-      <pubDate>Fri, 06 Feb 2026 04:28:08 +0000</pubDate>
+      <pubDate>2026-02-06 04:28:08</pubDate>
       <comments>https://news.ycombinator.com/item?id=46909122</comments>
     </item>
     <item>
-      <title>Show HN: Calfkit – an SDK to build distributed, event-driven AI agents on Kafka</title>
-      <link>https://github.com/calf-ai/calfkit-sdk</link>
-      <description>📝 py import asyncio from calfkit. nodes import agent_tool from calfkit. broker import BrokerClient from calfkit.
+      <title>Waiting for Postgres 19: Better planner hints with path generation strategies [video]</title>
+      <link>https://www.youtube.com/watch?v=QLb3nhIy2Lc</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=QLb3nhIy2Lc</guid>
+      <pubDate>2026-02-06 03:25:51</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908700</comments>
+    </item>
+    <item>
+      <title>Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust</title>
+      <link>https://github.com/artifact-keeper</link>
+      <description>📝 WASM Plugin System — Extend with custom format handlers via WebAssembly. RBAC with per-repository permissions. Quick Start # Clone and start with Docker Compose git clone https://github.
 
-🔗 Read more: https://github.com/calf-ai/calfkit-sdk</description>
-      <guid isPermaLink="true">https://github.com/calf-ai/calfkit-sdk</guid>
-      <pubDate>Thu, 05 Feb 2026 23:10:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46906737</comments>
+🔗 Read more: https://github.com/artifact-keeper</description>
+      <guid isPermaLink="true">https://github.com/artifact-keeper</guid>
+      <pubDate>2026-02-06 04:12:59</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909037</comments>
+    </item>
+    <item>
+      <title>Systems Thinking</title>
+      <link>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</link>
+      <description>📝 All sorts of ugly problems that they have now would just not exist. More time, more effort, more thinking. That severe last-minute panic that comes from knowing that the code doesn't really work as it should, and probably never will.
+
+🔗 Read more: http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</description>
+      <guid isPermaLink="true">http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</guid>
+      <pubDate>2026-02-06 05:24:36</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909439</comments>
+    </item>
+    <item>
+      <title>Things Unix can do atomically (2010)</title>
+      <link>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</link>
+      <description>📝 This will fail with the error code EEXIST if newpath already exists, making this a useful mechanism for locking a file amongst threads or processes that can all agree upon the name newpath. This will fail with the error code EEXIST if newpath already exists, making this a perfect analogy to link(2) that works for directories, too. ) O_EXCL instructs this to fail with the error code EEXIST if pathname exists.
+
+🔗 Read more: https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</description>
+      <guid isPermaLink="true">https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</guid>
+      <pubDate>2026-02-06 05:29:55</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909468</comments>
+    </item>
+    <item>
+      <title>The time I didn't meet Jeffrey Epstein</title>
+      <link>https://scottaaronson.blog/?p=9534</link>
+      <description>📝 1% the infamy that he has now. Since you don’t care that much about money, they can’t buy you at least. Amazingly, I then forgot entirely that any of this had occurred until last night.
+
+🔗 Read more: https://scottaaronson.blog/?p=9534</description>
+      <guid isPermaLink="true">https://scottaaronson.blog/?p=9534</guid>
+      <pubDate>2026-02-05 19:29:41</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903929</comments>
+    </item>
+    <item>
+      <title>I reversed Tower of Fantasy's anti-cheat driver: a BYOVD toolkit never loaded</title>
+      <link>https://vespalec.com/blog/tower-of-flaws/</link>
+      <description>📝 The real concern with kernel anti-cheats isn’t surveillance, it’s that they are security-critical code running at the highest privilege level. When they’re poorly written, they become attack surface, and when they fail, they can take your entire system down with them (e. Even with VMProtect, these vulnerabilities would still exist.
+
+🔗 Read more: https://vespalec.com/blog/tower-of-flaws/</description>
+      <guid isPermaLink="true">https://vespalec.com/blog/tower-of-flaws/</guid>
+      <pubDate>2026-02-06 03:22:29</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908671</comments>
+    </item>
+    <item>
+      <title>GitHub Actions is slowly killing engineering teams</title>
+      <link>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</link>
+      <description>📝 It just looks at your flake. This is your afternoon now. The page considers your request.
+
+🔗 Read more: https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</description>
+      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</guid>
+      <pubDate>2026-02-06 02:58:31</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908491</comments>
+    </item>
+    <item>
+      <title>C isn't a programming language anymore (2022)</title>
+      <link>https://faultlore.com/blah/c-isnt-a-language/</link>
+      <description>📝 That stuff sucks, but on its own that wouldn’t be my problem. We’re going to need some kind of Interface that lets our language call Functions that are Foreign to it. Keep in mind that meaningfully parsin.
+
+🔗 Read more: https://faultlore.com/blah/c-isnt-a-language/</description>
+      <guid isPermaLink="true">https://faultlore.com/blah/c-isnt-a-language/</guid>
+      <pubDate>2026-02-06 00:15:55</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46907350</comments>
+    </item>
+    <item>
+      <title>What if writing tests was a joyful experience? (2023)</title>
+      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
+      <description>📝 What if writing tests was a joyful experience. What does fibonacci(15) equal. My main claim is that all that deciding and typing is painful enough that it actually discourages you from writing tests.
+
+🔗 Read more: https://blog.janestreet.com/the-joy-of-expect-tests/</description>
+      <guid isPermaLink="true">https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
+      <pubDate>2026-02-05 21:51:51</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905896</comments>
+    </item>
+    <item>
+      <title>Show HN: Local task classifier and dispatcher on RTX 3080</title>
+      <link>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</link>
+      <description>📝 Quick start # create venv python -m venv. bat # Start orchestrator API run_ui. bat # Start NiceGUI interface.
+
+🔗 Read more: https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</description>
+      <guid isPermaLink="true">https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
+      <pubDate>2026-02-05 23:31:01</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906967</comments>
+    </item>
+    <item>
+      <title>The RCE that AMD won't fix</title>
+      <link>https://mrbruh.com/amd/</link>
+      <description>📝 The first thing I found, is that they store their update URL in the program’s app. This means that a malicious attacker on your network, or a nation state that has access to your ISP can easily perform a MITM attack and replace the network response with any malicious executable of their choosing. I was hoping that AMD perhaps had some form of certificate validation to ensure that it could not download &amp; run any unsigned executables, however a quick look into the decompiled code revealed that the AutoUpdate software does no such validation and immediately executes the downloaded file.
+
+🔗 Read more: https://mrbruh.com/amd/</description>
+      <guid isPermaLink="true">https://mrbruh.com/amd/</guid>
+      <pubDate>2026-02-05 23:29:18</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906947</comments>
+    </item>
+    <item>
+      <title>Review of 1984 by Isaac Asimov (1980)</title>
+      <link>https://www.newworker.org/ncptrory/1984.htm</link>
+      <description>📝 THE WRITING OF 1984 In 1949, a book entitled 1984 was published. It was greeted with much acclaim and Orwell became sufficiently prosperous to retire and devote himself to his masterpiece, 1984. That book described society as a vast world-wide extension of Stalinist Russia in the 1930s, pictured with the venom of a rival left-wing sectarian.
+
+🔗 Read more: https://www.newworker.org/ncptrory/1984.htm</description>
+      <guid isPermaLink="true">https://www.newworker.org/ncptrory/1984.htm</guid>
+      <pubDate>2026-02-05 21:39:57</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905761</comments>
+    </item>
+    <item>
+      <title>It's 2026, Just Use Postgres</title>
+      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
+      <description>📝 Postgres with pg_textsearch simplifies search. Read moreYou Don’t Need Elasticsearch: BM25 is Now in PostgresPostgreSQLPostgreSQL TipsDec 23, 2025You don't need Elasticsearch: BM25 is now in Postgres with pg_textsearch. Read moreStay updated with new posts and releases.
+
+🔗 Read more: https://www.tigerdata.com/blog/its-2026-just-use-postgres</description>
+      <guid isPermaLink="true">https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
+      <pubDate>2026-02-05 21:24:03</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905555</comments>
+    </item>
+    <item>
+      <title>Flock CEO calls Deflock a "terrorist organization" [video] (2025)</title>
+      <link>https://www.youtube.com/watch?v=l-kZGrDz7PU</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=l-kZGrDz7PU</guid>
+      <pubDate>2026-02-05 19:04:37</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903556</comments>
+    </item>
+    <item>
+      <title>Claude Opus 4.6 extra usage promo</title>
+      <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
+      <description>📝 If extra usage is not enabled: You'll need to enable extra usage to claim the credit. Enable extra usage when prompted. Your $50 credit will be applied once extra usage is active.
+
+🔗 Read more: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</description>
+      <guid isPermaLink="true">https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
+      <pubDate>2026-02-05 20:15:48</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46904569</comments>
+    </item>
+    <item>
+      <title>Hypernetworks: Neural Networks for Hierarchical Data</title>
+      <link>https://blog.sturdystatistics.com/posts/hnet_part_I/</link>
+      <description>📝 Hierarchical data reminds us that it isn’t. Standard neural nets fail badly in this setting. Train a single model across all datasets and it will blur across differences, averaging functions that shouldn’t be averaged.
+
+🔗 Read more: https://blog.sturdystatistics.com/posts/hnet_part_I/</description>
+      <guid isPermaLink="true">https://blog.sturdystatistics.com/posts/hnet_part_I/</guid>
+      <pubDate>2026-02-05 16:55:38</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901716</comments>
+    </item>
+    <item>
+      <title>Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models</title>
+      <link>https://arxiv.org/abs/2512.04124</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
+
+🔗 Read more: https://arxiv.org/abs/2512.04124</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.04124</guid>
+      <pubDate>2026-02-05 18:21:53</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902855</comments>
+    </item>
+    <item>
+      <title>A small, shared skill library by builders, for builders. (human and agent)</title>
+      <link>https://github.com/PsiACE/skills</link>
+      <description>📝 This repo includes skills from me and my friends. me/ Installation pnpx skills add PsiACE/skills --skill='*' Or install globally: pnpx skills add PsiACE/skills --skill='*' -g Skills Skill Description friendly-python Practical guidance for writing, refactoring, and reviewing friendly Python code piglet Practical Python craftsmanship guidance based on One Python Craftsman fast-rust Practical guidance for writing, refactoring, and reviewing fast, reliable, and maintainable Rust code Documentation Install doc dependencies with uv and preview locally: uv sync --group docs uv run mkdocs serve -f mkdocs. yml Build the static site: uv run mkdocs build -f mkdocs.
+
+🔗 Read more: https://github.com/PsiACE/skills</description>
+      <guid isPermaLink="true">https://github.com/PsiACE/skills</guid>
+      <pubDate>2026-02-05 18:17:14</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902789</comments>
+    </item>
+    <item>
+      <title>My AI Adoption Journey</title>
+      <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
+      <description>📝 I think everyone's first experience with AI is a chat interface. It was very obviously far less efficient than me doing the work myself. I read blog posts, watched videos, but just wasn't that impressed.
+
+🔗 Read more: https://mitchellh.com/writing/my-ai-adoption-journey</description>
+      <guid isPermaLink="true">https://mitchellh.com/writing/my-ai-adoption-journey</guid>
+      <pubDate>2026-02-05 19:04:40</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903558</comments>
+    </item>
+    <item>
+      <title>LinkedIn checks for 2953 browser extensions</title>
+      <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
+      <description>📝 LinkedIn Chrome Extension Fingerprinting LinkedIn silently probes for 2,953 Chrome extensions on every page load. js Fetches extension names from Chrome Web Store with Extpose fallback for removed/unavailable extensions. # Fetch all extensions node fetch_extension_names.
+
+🔗 Read more: https://github.com/mdp/linkedin-extension-fingerprinting</description>
+      <guid isPermaLink="true">https://github.com/mdp/linkedin-extension-fingerprinting</guid>
+      <pubDate>2026-02-05 20:00:39</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46904361</comments>
+    </item>
+    <item>
+      <title>We tasked Opus 4.6 using agent teams to build a C Compiler</title>
+      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
+      <description>📝 Running multiple Claude agents allows for specialization. My implementation of parallel Claude is bare-bones. Lessons from programming with Claude agent teamsThe scaffolding runs Claude in a loop, but that loop is only useful if Claude can tell how to make progress.
+
+🔗 Read more: https://www.anthropic.com/engineering/building-c-compiler</description>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-c-compiler</guid>
+      <pubDate>2026-02-05 19:07:51</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903616</comments>
+    </item>
+    <item>
+      <title>Everyone Is Stealing TV</title>
+      <link>https://www.theverge.com/streaming/873416/piracy-streaming-boxes</link>
+      <description>📝 StreamingGadgetsPolicyEveryone is stealing TVFed up with increasing subscription prices, viewers embrace rogue streaming boxes. It’s not sustainable,” she says. ”James, a gas station repairman from Alabama, estimates that he used to pay around $125 for streaming subscriptions every month.
+
+🔗 Read more: https://www.theverge.com/streaming/873416/piracy-streaming-boxes</description>
+      <guid isPermaLink="true">https://www.theverge.com/streaming/873416/piracy-streaming-boxes</guid>
+      <pubDate>2026-02-05 17:18:11</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901974</comments>
+    </item>
+    <item>
+      <title>Ardour 9.0 Released</title>
+      <link>https://ardour.org/whatsnew.html</link>
+      <description>📝 We have no doubt that there will be both delight and disappointment with certain things - rather than assume that we don't know what we're doing, please leave us feedback on the forums so that Ardour gets better over time. A pianoroll area opens that allows precisely the same MIDI editing operations as would be available on the editor timeline. 1/8th note pizzicato strings every 1/4 note.
+
+🔗 Read more: https://ardour.org/whatsnew.html</description>
+      <guid isPermaLink="true">https://ardour.org/whatsnew.html</guid>
+      <pubDate>2026-02-05 18:30:16</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903001</comments>
+    </item>
+    <item>
+      <title>CIA suddenly stops publishing, removes archives of The World Factbook</title>
+      <link>https://simonwillison.net/2026/Feb/5/the-world-factbook/</link>
+      <description>📝 Recent articles Distributing Go binaries like sqlite-scanner through PyPI using go-to-wheel - 4th February 2026 Moltbook is the most interesting place on the internet right now - 30th January 2026 Adding dynamic features to an aggressively cached website - 28th January 2026.
+
+🔗 Read more: https://simonwillison.net/2026/Feb/5/the-world-factbook/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/5/the-world-factbook/</guid>
+      <pubDate>2026-02-05 14:11:13</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46899808</comments>
+    </item>
+    <item>
+      <title>Anthropic's Claude Opus 4.6 uncovers 500 zero-day flaws in open-source code</title>
+      <link>https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</link>
+      <guid isPermaLink="true">https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</guid>
+      <pubDate>2026-02-05 18:25:05</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902909</comments>
+    </item>
+    <item>
+      <title>Advancing finance with Claude Opus 4.6</title>
+      <link>https://claude.com/blog/opus-4-6-finance</link>
+      <description>📝 Advancing finance with Claude Opus 4. Alongside Claude Opus 4. On research, Claude Opus 4.
+
+🔗 Read more: https://claude.com/blog/opus-4-6-finance</description>
+      <guid isPermaLink="true">https://claude.com/blog/opus-4-6-finance</guid>
+      <pubDate>2026-02-05 17:42:47</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46902273</comments>
+    </item>
+    <item>
+      <title>Maihem (YC W24): hiring sr robotics perception engineer (London, on-site)</title>
+      <link>https://jobs.ashbyhq.com/maihem/8da3fa8b-5544-45de-a99e-888021519758</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/maihem/8da3fa8b-5544-45de-a99e-888021519758</guid>
+      <pubDate>2026-02-05 17:00:07</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901768</comments>
+    </item>
+    <item>
+      <title>European Commission Trials Matrix to Replace Teams</title>
+      <link>https://www.euractiv.com/news/commission-trials-european-open-source-communications-software/</link>
+      <guid isPermaLink="true">https://www.euractiv.com/news/commission-trials-european-open-source-communications-software/</guid>
+      <pubDate>2026-02-05 16:33:56</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46901452</comments>
     </item>
   </channel>
 </rss>
