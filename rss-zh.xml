@@ -6,47 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 06 Feb 2026 04:47:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 06:56:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GitHub Actions 正在慢慢杀死工程团队</title>
-      <link>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</link>
-      <description>📝 它只是看你的薄片。现在是你的下午了。该页面考虑您的请求。
+      <title>Unix 可以原子地做的事情 (2010)</title>
+      <link>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</link>
+      <description>📝 如果 newpath 已经存在，这将失败并显示错误代码 EEXIST，这使得这是一种在所有都同意名称 newpath 的线程或进程之间锁定文件的有用机制。如果 newpath 已经存在，这将失败并显示错误代码 EEXIST，这使得这与也适用于目录的 link(2) 完美类比。 ) 如果路径名存在，O_EXCL 指示此操作失败并显示错误代码 EEXIST。
 
 
-🔤 Original: GitHub Actions is slowly killing engineering teams
+🔤 Original: Things Unix can do atomically (2010)
 
-🔗 Read more: https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</description>
-      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</guid>
-      <pubDate>Fri, 06 Feb 2026 02:58:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46908491</comments>
+🔗 Read more: https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</description>
+      <guid isPermaLink="true">https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</guid>
+      <pubDate>Fri, 06 Feb 2026 05:29:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909468</comments>
     </item>
     <item>
-      <title>我逆转了《幻想之塔》的反作弊驱动程序：从未加载过 BYOVD 工具包</title>
-      <link>https://vespalec.com/blog/tower-of-flaws/</link>
-      <description>📝 内核反作弊真正关心的不是监视，而是它们是在最高权限级别运行的安全关键代码。当它们写得不好时，它们就会成为攻击面，当它们失败时，它们可能会导致您的整个系统崩溃（例如，即使使用 VMProtect，这些漏洞仍然存在。
+      <title>系统思维</title>
+      <link>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</link>
+      <description>📝 他们现在遇到的各种丑陋的问题都将不存在。更多的时间，更多的努力，更多的思考。最后一刻的严重恐慌是因为知道代码并没有真正按照应有的方式工作，而且可能永远不会。
 
 
-🔤 Original: I reversed Tower of Fantasy's anti-cheat driver: a BYOVD toolkit never loaded
+🔤 Original: Systems Thinking
 
-🔗 Read more: https://vespalec.com/blog/tower-of-flaws/</description>
-      <guid isPermaLink="true">https://vespalec.com/blog/tower-of-flaws/</guid>
-      <pubDate>Fri, 06 Feb 2026 03:22:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46908671</comments>
+🔗 Read more: http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</description>
+      <guid isPermaLink="true">http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</guid>
+      <pubDate>Fri, 06 Feb 2026 05:24:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909439</comments>
     </item>
     <item>
-      <title>我没有见到杰弗里·爱泼斯坦的那段时间</title>
-      <link>https://scottaaronson.blog/?p=9534</link>
-      <description>📝 他现在所拥有的恶名的1%。既然你不那么在乎钱，他们至少买不到你。令人惊讶的是，直到昨晚我才完全忘记了这一切的发生。
+      <title>Show HN：Artifact Keeper – Rust 中的开源 Artifactory/Nexus 替代方案</title>
+      <link>https://github.com/artifact-keeper</link>
+      <description>📝 WASM 插件系统 - 通过 WebAssembly 使用自定义格式处理程序进行扩展。具有每个存储库权限的 RBAC。快速入门 # 克隆并使用 Docker Compose git clone https://github 开始。
 
 
-🔤 Original: The time I didn't meet Jeffrey Epstein
+🔤 Original: Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust
 
-🔗 Read more: https://scottaaronson.blog/?p=9534</description>
-      <guid isPermaLink="true">https://scottaaronson.blog/?p=9534</guid>
-      <pubDate>Thu, 05 Feb 2026 19:29:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903929</comments>
+🔗 Read more: https://github.com/artifact-keeper</description>
+      <guid isPermaLink="true">https://github.com/artifact-keeper</guid>
+      <pubDate>Fri, 06 Feb 2026 04:12:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909037</comments>
+    </item>
+    <item>
+      <title>等待 Postgres 19：更好的规划器提示路径生成策略 [视频]</title>
+      <link>https://www.youtube.com/watch?v=QLb3nhIy2Lc</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=QLb3nhIy2Lc</guid>
+      <pubDate>Fri, 06 Feb 2026 03:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908700</comments>
+    </item>
+    <item>
+      <title>生成笔训练变压器</title>
+      <link>https://theodore.net/projects/Polargraph/</link>
+      <description>📝 对于我第一次接触人工智能来说，这感觉像是一个非常可靠的项目。因此，当任一电机旋转时，该吊篮就会移动。吊舱组装¶ 吊舱是这头野兽真正的心脏，所以我们首先进行它的组装。
+
+
+🔤 Original: Generative Pen-Trained Transformer
+
+🔗 Read more: https://theodore.net/projects/Polargraph/</description>
+      <guid isPermaLink="true">https://theodore.net/projects/Polargraph/</guid>
+      <pubDate>Fri, 06 Feb 2026 04:28:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909122</comments>
+    </item>
+    <item>
+      <title>Show HN：Calfkit – 用于在 Kafka 上构建分布式、事件驱动的 AI 代理的 SDK</title>
+      <link>https://github.com/calf-ai/calfkit-sdk</link>
+      <description>📝 py 从 calfkit 导入 asyncio。节点从 calfkit 导入 agent_tool。经纪人从 calfkit 导入 BrokerClient。
+
+
+🔤 Original: Show HN: Calfkit – an SDK to build distributed, event-driven AI agents on Kafka
+
+🔗 Read more: https://github.com/calf-ai/calfkit-sdk</description>
+      <guid isPermaLink="true">https://github.com/calf-ai/calfkit-sdk</guid>
+      <pubDate>Thu, 05 Feb 2026 23:10:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906737</comments>
     </item>
   </channel>
 </rss>

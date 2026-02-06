@@ -6,47 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 06 Feb 2026 04:47:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 06:56:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>GitHub Actions가 천천히 엔지니어링 팀을 죽이고 있습니다.</title>
-      <link>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</link>
-      <description>📝 그것은 단지 당신의 플레이크를 보는 것입니다. 지금이 당신의 오후입니다. 페이지에서 귀하의 요청을 고려합니다.
+      <title>유닉스가 원자적으로 할 수 있는 일 (2010)</title>
+      <link>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</link>
+      <description>📝 newpath가 이미 존재하는 경우 오류 코드 EEXIST와 함께 실패하므로 이는 newpath라는 이름에 모두 동의할 수 있는 스레드나 프로세스 사이에서 파일을 잠그는 데 유용한 메커니즘이 됩니다. newpath가 이미 존재하는 경우 오류 코드 EEXIST와 함께 실패하므로 이는 디렉토리에도 작동하는 link(2)와 완벽하게 유사합니다. ) O_EXCL은 경로명이 존재하는 경우 오류 코드 EEXIST와 함께 실패하도록 지시합니다.
 
 
-🔤 Original: GitHub Actions is slowly killing engineering teams
+🔤 Original: Things Unix can do atomically (2010)
 
-🔗 Read more: https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</description>
-      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</guid>
-      <pubDate>Fri, 06 Feb 2026 02:58:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46908491</comments>
+🔗 Read more: https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</description>
+      <guid isPermaLink="true">https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</guid>
+      <pubDate>Fri, 06 Feb 2026 05:29:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909468</comments>
     </item>
     <item>
-      <title>Tower of Fantasy의 치트 방지 드라이버를 반대로 했습니다. BYOVD 툴킷이 로드되지 않았습니다.</title>
-      <link>https://vespalec.com/blog/tower-of-flaws/</link>
-      <description>📝 커널 치트 방지에 대한 실제 관심사는 감시가 아니라 가장 높은 권한 수준에서 실행되는 보안에 중요한 코드라는 것입니다. 제대로 작성되지 않으면 공격 표면이 되고, 실패하면 전체 시스템이 다운될 수 있습니다(예: VMProtect를 사용하더라도 이러한 취약점은 여전히 ​​존재합니다.
+      <title>시스템 사고</title>
+      <link>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</link>
+      <description>📝 그들이 지금 겪고 있는 모든 종류의 추악한 문제는 존재하지 않을 것입니다. 더 많은 시간, 더 많은 노력, 더 많은 생각. 코드가 제대로 작동하지 않으며 아마도 결코 작동하지 않을 것이라는 사실을 아는 데서 발생하는 심각한 마지막 순간의 패닉입니다.
 
 
-🔤 Original: I reversed Tower of Fantasy's anti-cheat driver: a BYOVD toolkit never loaded
+🔤 Original: Systems Thinking
 
-🔗 Read more: https://vespalec.com/blog/tower-of-flaws/</description>
-      <guid isPermaLink="true">https://vespalec.com/blog/tower-of-flaws/</guid>
-      <pubDate>Fri, 06 Feb 2026 03:22:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46908671</comments>
+🔗 Read more: http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</description>
+      <guid isPermaLink="true">http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</guid>
+      <pubDate>Fri, 06 Feb 2026 05:24:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909439</comments>
     </item>
     <item>
-      <title>제프리 엡스타인을 만나지 못했던 시절</title>
-      <link>https://scottaaronson.blog/?p=9534</link>
-      <description>📝 그가 지금 갖고 있는 악명은 1%다. 당신은 돈에 그다지 관심이 없기 때문에 적어도 당신을 살 수는 없습니다. 놀랍게도 나는 어젯밤까지 이런 일이 있었다는 사실을 완전히 잊어버렸습니다.
+      <title>HN 표시: Artifact Keeper – Rust의 오픈 소스 Artifactory/Nexus 대안</title>
+      <link>https://github.com/artifact-keeper</link>
+      <description>📝 WASM 플러그인 시스템 — WebAssembly를 통해 사용자 정의 형식 핸들러로 확장합니다. 리포지토리별 권한이 있는 RBAC. 빠른 시작 # Docker Compose git clone https://github로 복제하고 시작합니다.
 
 
-🔤 Original: The time I didn't meet Jeffrey Epstein
+🔤 Original: Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust
 
-🔗 Read more: https://scottaaronson.blog/?p=9534</description>
-      <guid isPermaLink="true">https://scottaaronson.blog/?p=9534</guid>
-      <pubDate>Thu, 05 Feb 2026 19:29:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903929</comments>
+🔗 Read more: https://github.com/artifact-keeper</description>
+      <guid isPermaLink="true">https://github.com/artifact-keeper</guid>
+      <pubDate>Fri, 06 Feb 2026 04:12:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909037</comments>
+    </item>
+    <item>
+      <title>Postgres 19를 기다리며: 경로 생성 전략에 대한 더 나은 플래너 힌트 [동영상]</title>
+      <link>https://www.youtube.com/watch?v=QLb3nhIy2Lc</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=QLb3nhIy2Lc</guid>
+      <pubDate>Fri, 06 Feb 2026 03:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908700</comments>
+    </item>
+    <item>
+      <title>생성적 펜 훈련 변환기</title>
+      <link>https://theodore.net/projects/Polargraph/</link>
+      <description>📝 그리고 처음으로 인공지능을 접해본 나로서는 이 프로젝트가 꽤 탄탄한 프로젝트처럼 느껴졌다. 따라서 이 곤돌라는 모터가 회전할 때 이동됩니다. 곤돌라 조립¶ 곤돌라는 이 짐승의 심장이므로 먼저 조립부터 시작하겠습니다.
+
+
+🔤 Original: Generative Pen-Trained Transformer
+
+🔗 Read more: https://theodore.net/projects/Polargraph/</description>
+      <guid isPermaLink="true">https://theodore.net/projects/Polargraph/</guid>
+      <pubDate>Fri, 06 Feb 2026 04:28:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46909122</comments>
+    </item>
+    <item>
+      <title>Show HN: Calfkit – Kafka에서 분산형 이벤트 기반 AI 에이전트를 구축하기 위한 SDK</title>
+      <link>https://github.com/calf-ai/calfkit-sdk</link>
+      <description>📝 py는 calfkit에서 asyncio를 가져옵니다. 노드는 calfkit에서 Agent_tool을 가져옵니다. 브로커는 calfkit에서 BrokerClient를 가져옵니다.
+
+
+🔤 Original: Show HN: Calfkit – an SDK to build distributed, event-driven AI agents on Kafka
+
+🔗 Read more: https://github.com/calf-ai/calfkit-sdk</description>
+      <guid isPermaLink="true">https://github.com/calf-ai/calfkit-sdk</guid>
+      <pubDate>Thu, 05 Feb 2026 23:10:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906737</comments>
     </item>
   </channel>
 </rss>
