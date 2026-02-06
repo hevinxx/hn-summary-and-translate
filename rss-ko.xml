@@ -6,86 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 06 Feb 2026 02:04:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 04:47:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>지금은 2026년, 그냥 Postgres를 사용하세요</title>
-      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
-      <description>📝 pg_textsearch를 사용하는 Postgres는 검색을 단순화합니다. 더 읽기Elasticsearch가 필요하지 않습니다: BM25가 이제 Postgres에 있습니다PostgreSQLPostgreSQL 팁2025년 12월 23일 Elasticsearch가 필요하지 않습니다. BM25는 이제 pg_textsearch를 통해 Postgres에 있습니다. 더 읽기새로운 게시물과 릴리스로 최신 소식을 받아보세요.
+      <title>GitHub Actions가 천천히 엔지니어링 팀을 죽이고 있습니다.</title>
+      <link>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</link>
+      <description>📝 그것은 단지 당신의 플레이크를 보는 것입니다. 지금이 당신의 오후입니다. 페이지에서 귀하의 요청을 고려합니다.
 
 
-🔤 Original: It's 2026, Just Use Postgres
+🔤 Original: GitHub Actions is slowly killing engineering teams
 
-🔗 Read more: https://www.tigerdata.com/blog/its-2026-just-use-postgres</description>
-      <guid isPermaLink="true">https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
-      <pubDate>Thu, 05 Feb 2026 21:24:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46905555</comments>
+🔗 Read more: https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</description>
+      <guid isPermaLink="true">https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</guid>
+      <pubDate>Fri, 06 Feb 2026 02:58:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908491</comments>
     </item>
     <item>
-      <title>Isaac Asimov의 1984년 리뷰(1980)</title>
-      <link>https://www.newworker.org/ncptrory/1984.htm</link>
-      <description>📝 1984년의 저술 1949년에 1984라는 제목의 책이 출판되었습니다. 이 책은 많은 호평을 받았고 오웰은 은퇴하고 그의 걸작인 1984에 전념할 만큼 충분히 번영했습니다. 그 책은 사회를 1930년대 스탈린주의 러시아의 광대한 전 세계적 확장으로 묘사했으며 경쟁적인 좌파 종파의 독설과 함께 묘사했습니다.
+      <title>Tower of Fantasy의 치트 방지 드라이버를 반대로 했습니다. BYOVD 툴킷이 로드되지 않았습니다.</title>
+      <link>https://vespalec.com/blog/tower-of-flaws/</link>
+      <description>📝 커널 치트 방지에 대한 실제 관심사는 감시가 아니라 가장 높은 권한 수준에서 실행되는 보안에 중요한 코드라는 것입니다. 제대로 작성되지 않으면 공격 표면이 되고, 실패하면 전체 시스템이 다운될 수 있습니다(예: VMProtect를 사용하더라도 이러한 취약점은 여전히 ​​존재합니다.
 
 
-🔤 Original: Review of 1984 by Isaac Asimov (1980)
+🔤 Original: I reversed Tower of Fantasy's anti-cheat driver: a BYOVD toolkit never loaded
 
-🔗 Read more: https://www.newworker.org/ncptrory/1984.htm</description>
-      <guid isPermaLink="true">https://www.newworker.org/ncptrory/1984.htm</guid>
-      <pubDate>Thu, 05 Feb 2026 21:39:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46905761</comments>
+🔗 Read more: https://vespalec.com/blog/tower-of-flaws/</description>
+      <guid isPermaLink="true">https://vespalec.com/blog/tower-of-flaws/</guid>
+      <pubDate>Fri, 06 Feb 2026 03:22:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46908671</comments>
     </item>
     <item>
-      <title>AMD가 수정하지 않는 RCE</title>
-      <link>https://mrbruh.com/amd/</link>
-      <description>📝 제가 가장 먼저 발견한 것은 업데이트 URL을 프로그램 앱에 저장한다는 것입니다. 이는 네트워크의 악의적인 공격자 또는 ISP에 액세스할 수 있는 국가가 쉽게 MITM 공격을 수행하고 네트워크 응답을 자신이 선택한 악성 실행 파일로 대체할 수 있음을 의미합니다. 나는 AMD가 서명되지 않은 실행 파일을 다운로드하고 실행할 수 없도록 하기 위해 일종의 인증서 유효성 검사가 있기를 바랐습니다. 그러나 디컴파일된 코드를 잠깐 살펴보면 AutoUpdate 소프트웨어가 그러한 유효성 검사를 수행하지 않고 다운로드한 파일을 즉시 실행한다는 사실이 드러났습니다.
+      <title>제프리 엡스타인을 만나지 못했던 시절</title>
+      <link>https://scottaaronson.blog/?p=9534</link>
+      <description>📝 그가 지금 갖고 있는 악명은 1%다. 당신은 돈에 그다지 관심이 없기 때문에 적어도 당신을 살 수는 없습니다. 놀랍게도 나는 어젯밤까지 이런 일이 있었다는 사실을 완전히 잊어버렸습니다.
 
 
-🔤 Original: The RCE that AMD won't fix
+🔤 Original: The time I didn't meet Jeffrey Epstein
 
-🔗 Read more: https://mrbruh.com/amd/</description>
-      <guid isPermaLink="true">https://mrbruh.com/amd/</guid>
-      <pubDate>Thu, 05 Feb 2026 23:29:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46906947</comments>
-    </item>
-    <item>
-      <title>HN 표시: RTX 3080의 로컬 작업 분류자 및 디스패처</title>
-      <link>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</link>
-      <description>📝 빠른 시작 # venv python -m venv를 만듭니다. bat # 오케스트레이터 API run_ui를 시작합니다. bat # NiceGUI 인터페이스를 시작합니다.
-
-
-🔤 Original: Show HN: Local task classifier and dispatcher on RTX 3080
-
-🔗 Read more: https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</description>
-      <guid isPermaLink="true">https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
-      <pubDate>Thu, 05 Feb 2026 23:31:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46906967</comments>
-    </item>
-    <item>
-      <title>테스트 작성이 즐거운 경험이라면 어떨까요? (2023)</title>
-      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
-      <description>📝 테스트 작성이 즐거운 경험이라면 어떨까요? fibonacci(15)는 무엇과 동일합니까? 나의 주요 주장은 결정하고 입력하는 모든 작업이 실제로 테스트 작성을 방해할 정도로 고통스럽다는 것입니다.
-
-
-🔤 Original: What if writing tests was a joyful experience? (2023)
-
-🔗 Read more: https://blog.janestreet.com/the-joy-of-expect-tests/</description>
-      <guid isPermaLink="true">https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
-      <pubDate>Thu, 05 Feb 2026 21:51:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46905896</comments>
-    </item>
-    <item>
-      <title>C는 더 이상 프로그래밍 언어가 아닙니다(2022)</title>
-      <link>https://faultlore.com/blah/c-isnt-a-language/</link>
-      <description>📝 그건 형편없지만 그 자체로는 내 문제가 되지 않습니다. 우리의 언어가 외부 함수를 호출할 수 있게 해주는 일종의 인터페이스가 필요합니다. 의미 있게 파싱한다는 점을 명심하세요.
-
-
-🔤 Original: C isn't a programming language anymore (2022)
-
-🔗 Read more: https://faultlore.com/blah/c-isnt-a-language/</description>
-      <guid isPermaLink="true">https://faultlore.com/blah/c-isnt-a-language/</guid>
-      <pubDate>Fri, 06 Feb 2026 00:15:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46907350</comments>
+🔗 Read more: https://scottaaronson.blog/?p=9534</description>
+      <guid isPermaLink="true">https://scottaaronson.blog/?p=9534</guid>
+      <pubDate>Thu, 05 Feb 2026 19:29:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46903929</comments>
     </item>
   </channel>
 </rss>
