@@ -6,106 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Feb 2026 21:30:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 02:04:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我们委托 Opus 4.6 使用代理团队构建 C 编译器</title>
-      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
-      <description>📝 运行多个 Claude 代理可以实现专业化。我对并行 Claude 的实现很简单。与 Claude 代理团队一起编程的经验教训脚手架在循环中运行 Claude，但只有当 Claude 能够告诉如何取得进展时，该循环才有用。
+      <title>现在是 2026 年，只需使用 Postgres</title>
+      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
+      <description>📝 Postgres 与 pg_textsearch 简化了搜索。阅读更多您不需要 Elasticsearch：BM25 现已在 Postgres 中 PostgreSQLPostgreSQL 提示2025 年 12 月 23 日您不需要 Elasticsearch：BM25 现已在 Postgres 中与 pg_textsearch 一起使用。了解更多随时了解新帖子和版本。
 
 
-🔤 Original: We tasked Opus 4.6 using agent teams to build a C Compiler
+🔤 Original: It's 2026, Just Use Postgres
 
-🔗 Read more: https://www.anthropic.com/engineering/building-c-compiler</description>
-      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-c-compiler</guid>
-      <pubDate>Thu, 05 Feb 2026 19:07:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903616</comments>
+🔗 Read more: https://www.tigerdata.com/blog/its-2026-just-use-postgres</description>
+      <guid isPermaLink="true">https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
+      <pubDate>Thu, 05 Feb 2026 21:24:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905555</comments>
     </item>
     <item>
-      <title>LinkedIn 检查 2953 个浏览器扩展</title>
-      <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
-      <description>📝 LinkedIn Chrome 扩展程序指纹识别 LinkedIn 在每次页面加载时都会默默地探测 2,953 个 Chrome 扩展程序。 Node.js 从 Chrome Web Store 获取扩展名称，并使用 Extpose 回退来删除/不可用的扩展。 # 获取所有扩展节点 fetch_extension_names.
+      <title>艾萨克·阿西莫夫对 1984 年的回顾 (1980)</title>
+      <link>https://www.newworker.org/ncptrory/1984.htm</link>
+      <description>📝 1984年的写作 1949年，一本题为《1984》的书出版了。这本书受到了广泛好评，奥威尔变得足够富裕，退休后全身心投入到他的杰作《1984》中。该书将社会描述为 20 世纪 30 年代斯大林主义俄罗斯在世界范围内的广阔延伸，并充满了敌对的左翼宗派的恶毒。
 
 
-🔤 Original: LinkedIn checks for 2953 browser extensions
+🔤 Original: Review of 1984 by Isaac Asimov (1980)
 
-🔗 Read more: https://github.com/mdp/linkedin-extension-fingerprinting</description>
-      <guid isPermaLink="true">https://github.com/mdp/linkedin-extension-fingerprinting</guid>
-      <pubDate>Thu, 05 Feb 2026 20:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46904361</comments>
+🔗 Read more: https://www.newworker.org/ncptrory/1984.htm</description>
+      <guid isPermaLink="true">https://www.newworker.org/ncptrory/1984.htm</guid>
+      <pubDate>Thu, 05 Feb 2026 21:39:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905761</comments>
     </item>
     <item>
-      <title>我的人工智能采用之旅</title>
-      <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
-      <description>📝 我想大家对AI的第一次体验就是聊天界面。很明显，这比我自己做的工作效率低得多。我阅读了博客文章，观看了视频，但没有留下深刻的印象。
+      <title>AMD 无法修复的 RCE</title>
+      <link>https://mrbruh.com/amd/</link>
+      <description>📝 我发现的第一件事是，他们将更新 URL 存储在程序的应用程序中。这意味着您网络上的恶意攻击者或有权访问您 ISP 的国家可以轻松执行 MITM 攻击，并用他们选择的任何恶意可执行文件替换网络响应。我希望 AMD 可能有某种形式的证书验证，以确保它无法下载和运行任何未签名的可执行文件，但是快速查看反编译代码后发现，AutoUpdate 软件没有进行此类验证并立即执行下载的文件。
 
 
-🔤 Original: My AI Adoption Journey
+🔤 Original: The RCE that AMD won't fix
 
-🔗 Read more: https://mitchellh.com/writing/my-ai-adoption-journey</description>
-      <guid isPermaLink="true">https://mitchellh.com/writing/my-ai-adoption-journey</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903558</comments>
+🔗 Read more: https://mrbruh.com/amd/</description>
+      <guid isPermaLink="true">https://mrbruh.com/amd/</guid>
+      <pubDate>Thu, 05 Feb 2026 23:29:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906947</comments>
     </item>
     <item>
-      <title>一个由构建者为构建者提供的小型共享技能库。 （人和代理人）</title>
-      <link>https://github.com/PsiACE/skills</link>
-      <description>📝 这个仓库包含我和我的朋友的技能。 me/ 安装 pnpx Skills add PsiACE/skills --skill='*' 或全局安装： pnpx Skills add PsiACE/skills --skill='*' -g 技能说明Friendly-Python 编写、重构和审查友好 Python 代码的实用指南 Piglet 基于 One Python Craftsman fast-rust 的实用 Python 工匠精神指南 编写、重构和审查快速、可靠和可维护的 Rust 代码的实用指南 文档使用 uv 安装文档依赖项并在本地预览： uvsync --group docs uv run mkdocsserve -f mkdocs。 yml 构建静态站点： uv run mkdocs build -f mkdocs.yml
+      <title>显示 HN：RTX 3080 上的本地任务分类器和调度程序</title>
+      <link>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</link>
+      <description>📝 快速开始 # create venv python -m venv. bat # 启动 Orchestrator API run_ui. bat # 启动NiceGUI界面。
 
 
-🔤 Original: A small, shared skill library by builders, for builders. (human and agent)
+🔤 Original: Show HN: Local task classifier and dispatcher on RTX 3080
 
-🔗 Read more: https://github.com/PsiACE/skills</description>
-      <guid isPermaLink="true">https://github.com/PsiACE/skills</guid>
-      <pubDate>Thu, 05 Feb 2026 18:17:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902789</comments>
+🔗 Read more: https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</description>
+      <guid isPermaLink="true">https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
+      <pubDate>Thu, 05 Feb 2026 23:31:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906967</comments>
     </item>
     <item>
-      <title>心理测量越狱揭示前沿模型中的内部冲突</title>
-      <link>https://arxiv.org/abs/2512.04124</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
+      <title>如果编写测试是一种快乐的经历怎么办？ (2023)</title>
+      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
+      <description>📝 如果编写测试是一种快乐的经历该多好啊。斐波那契(15) 等于什么。我的主要观点是，所有的决定和打字都足够痛苦，它实际上会阻止你编写测试。
 
 
-🔤 Original: Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models
+🔤 Original: What if writing tests was a joyful experience? (2023)
 
-🔗 Read more: https://arxiv.org/abs/2512.04124</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.04124</guid>
-      <pubDate>Thu, 05 Feb 2026 18:21:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902855</comments>
+🔗 Read more: https://blog.janestreet.com/the-joy-of-expect-tests/</description>
+      <guid isPermaLink="true">https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
+      <pubDate>Thu, 05 Feb 2026 21:51:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905896</comments>
     </item>
     <item>
-      <title>超网络：分层数据的神经网络</title>
-      <link>https://blog.sturdystatistics.com/posts/hnet_part_I/</link>
-      <description>📝 分层数据提醒我们事实并非如此。标准神经网络在这种情况下会严重失败。在所有数据集上训练一个模型，它会模糊差异，对不应该平均的函数进行平均。
+      <title>C 不再是一种编程语言 (2022)</title>
+      <link>https://faultlore.com/blah/c-isnt-a-language/</link>
+      <description>📝 那东西很糟糕，但就其本身而言，这不是我的问题。我们需要某种接口来让我们的语言调用陌生的函数。请记住有意义的解析。
 
 
-🔤 Original: Hypernetworks: Neural Networks for Hierarchical Data
+🔤 Original: C isn't a programming language anymore (2022)
 
-🔗 Read more: https://blog.sturdystatistics.com/posts/hnet_part_I/</description>
-      <guid isPermaLink="true">https://blog.sturdystatistics.com/posts/hnet_part_I/</guid>
-      <pubDate>Thu, 05 Feb 2026 16:55:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46901716</comments>
-    </item>
-    <item>
-      <title>Claude Opus 4.6 额外使用促销</title>
-      <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
-      <description>📝 如果未启用额外使用：您需要启用额外使用才能索取积分。出现提示时启用额外使用。一旦额外使用有效，您的 50 美元积分将被应用。
-
-
-🔤 Original: Claude Opus 4.6 extra usage promo
-
-🔗 Read more: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</description>
-      <guid isPermaLink="true">https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
-      <pubDate>Thu, 05 Feb 2026 20:15:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46904569</comments>
-    </item>
-    <item>
-      <title>Flock 首席执行官称 Delock 为“恐怖组织”[视频]（2025）</title>
-      <link>https://www.youtube.com/watch?v=l-kZGrDz7PU</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=l-kZGrDz7PU</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903556</comments>
+🔗 Read more: https://faultlore.com/blah/c-isnt-a-language/</description>
+      <guid isPermaLink="true">https://faultlore.com/blah/c-isnt-a-language/</guid>
+      <pubDate>Fri, 06 Feb 2026 00:15:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46907350</comments>
     </item>
   </channel>
 </rss>

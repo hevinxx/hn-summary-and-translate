@@ -6,85 +6,68 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 21:30:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 02:04:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>We tasked Opus 4.6 using agent teams to build a C Compiler</title>
-      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
-      <description>📝 Running multiple Claude agents allows for specialization. My implementation of parallel Claude is bare-bones. Lessons from programming with Claude agent teamsThe scaffolding runs Claude in a loop, but that loop is only useful if Claude can tell how to make progress.
+      <title>It's 2026, Just Use Postgres</title>
+      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
+      <description>📝 Postgres with pg_textsearch simplifies search. Read moreYou Don’t Need Elasticsearch: BM25 is Now in PostgresPostgreSQLPostgreSQL TipsDec 23, 2025You don't need Elasticsearch: BM25 is now in Postgres with pg_textsearch. Read moreStay updated with new posts and releases.
 
-🔗 Read more: https://www.anthropic.com/engineering/building-c-compiler</description>
-      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-c-compiler</guid>
-      <pubDate>Thu, 05 Feb 2026 19:07:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903616</comments>
+🔗 Read more: https://www.tigerdata.com/blog/its-2026-just-use-postgres</description>
+      <guid isPermaLink="true">https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
+      <pubDate>Thu, 05 Feb 2026 21:24:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905555</comments>
     </item>
     <item>
-      <title>LinkedIn checks for 2953 browser extensions</title>
-      <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
-      <description>📝 LinkedIn Chrome Extension Fingerprinting LinkedIn silently probes for 2,953 Chrome extensions on every page load. js Fetches extension names from Chrome Web Store with Extpose fallback for removed/unavailable extensions. # Fetch all extensions node fetch_extension_names.
+      <title>Review of 1984 by Isaac Asimov (1980)</title>
+      <link>https://www.newworker.org/ncptrory/1984.htm</link>
+      <description>📝 THE WRITING OF 1984 In 1949, a book entitled 1984 was published. It was greeted with much acclaim and Orwell became sufficiently prosperous to retire and devote himself to his masterpiece, 1984. That book described society as a vast world-wide extension of Stalinist Russia in the 1930s, pictured with the venom of a rival left-wing sectarian.
 
-🔗 Read more: https://github.com/mdp/linkedin-extension-fingerprinting</description>
-      <guid isPermaLink="true">https://github.com/mdp/linkedin-extension-fingerprinting</guid>
-      <pubDate>Thu, 05 Feb 2026 20:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46904361</comments>
+🔗 Read more: https://www.newworker.org/ncptrory/1984.htm</description>
+      <guid isPermaLink="true">https://www.newworker.org/ncptrory/1984.htm</guid>
+      <pubDate>Thu, 05 Feb 2026 21:39:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905761</comments>
     </item>
     <item>
-      <title>My AI Adoption Journey</title>
-      <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
-      <description>📝 I think everyone's first experience with AI is a chat interface. It was very obviously far less efficient than me doing the work myself. I read blog posts, watched videos, but just wasn't that impressed.
+      <title>The RCE that AMD won't fix</title>
+      <link>https://mrbruh.com/amd/</link>
+      <description>📝 The first thing I found, is that they store their update URL in the program’s app. This means that a malicious attacker on your network, or a nation state that has access to your ISP can easily perform a MITM attack and replace the network response with any malicious executable of their choosing. I was hoping that AMD perhaps had some form of certificate validation to ensure that it could not download &amp; run any unsigned executables, however a quick look into the decompiled code revealed that the AutoUpdate software does no such validation and immediately executes the downloaded file.
 
-🔗 Read more: https://mitchellh.com/writing/my-ai-adoption-journey</description>
-      <guid isPermaLink="true">https://mitchellh.com/writing/my-ai-adoption-journey</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903558</comments>
+🔗 Read more: https://mrbruh.com/amd/</description>
+      <guid isPermaLink="true">https://mrbruh.com/amd/</guid>
+      <pubDate>Thu, 05 Feb 2026 23:29:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906947</comments>
     </item>
     <item>
-      <title>A small, shared skill library by builders, for builders. (human and agent)</title>
-      <link>https://github.com/PsiACE/skills</link>
-      <description>📝 This repo includes skills from me and my friends. me/ Installation pnpx skills add PsiACE/skills --skill='*' Or install globally: pnpx skills add PsiACE/skills --skill='*' -g Skills Skill Description friendly-python Practical guidance for writing, refactoring, and reviewing friendly Python code piglet Practical Python craftsmanship guidance based on One Python Craftsman fast-rust Practical guidance for writing, refactoring, and reviewing fast, reliable, and maintainable Rust code Documentation Install doc dependencies with uv and preview locally: uv sync --group docs uv run mkdocs serve -f mkdocs. yml Build the static site: uv run mkdocs build -f mkdocs.
+      <title>Show HN: Local task classifier and dispatcher on RTX 3080</title>
+      <link>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</link>
+      <description>📝 Quick start # create venv python -m venv. bat # Start orchestrator API run_ui. bat # Start NiceGUI interface.
 
-🔗 Read more: https://github.com/PsiACE/skills</description>
-      <guid isPermaLink="true">https://github.com/PsiACE/skills</guid>
-      <pubDate>Thu, 05 Feb 2026 18:17:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902789</comments>
+🔗 Read more: https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</description>
+      <guid isPermaLink="true">https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
+      <pubDate>Thu, 05 Feb 2026 23:31:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906967</comments>
     </item>
     <item>
-      <title>Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models</title>
-      <link>https://arxiv.org/abs/2512.04124</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
+      <title>What if writing tests was a joyful experience? (2023)</title>
+      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
+      <description>📝 What if writing tests was a joyful experience. What does fibonacci(15) equal. My main claim is that all that deciding and typing is painful enough that it actually discourages you from writing tests.
 
-🔗 Read more: https://arxiv.org/abs/2512.04124</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.04124</guid>
-      <pubDate>Thu, 05 Feb 2026 18:21:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902855</comments>
+🔗 Read more: https://blog.janestreet.com/the-joy-of-expect-tests/</description>
+      <guid isPermaLink="true">https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
+      <pubDate>Thu, 05 Feb 2026 21:51:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905896</comments>
     </item>
     <item>
-      <title>Hypernetworks: Neural Networks for Hierarchical Data</title>
-      <link>https://blog.sturdystatistics.com/posts/hnet_part_I/</link>
-      <description>📝 Hierarchical data reminds us that it isn’t. Standard neural nets fail badly in this setting. Train a single model across all datasets and it will blur across differences, averaging functions that shouldn’t be averaged.
+      <title>C isn't a programming language anymore (2022)</title>
+      <link>https://faultlore.com/blah/c-isnt-a-language/</link>
+      <description>📝 That stuff sucks, but on its own that wouldn’t be my problem. We’re going to need some kind of Interface that lets our language call Functions that are Foreign to it. Keep in mind that meaningfully parsin.
 
-🔗 Read more: https://blog.sturdystatistics.com/posts/hnet_part_I/</description>
-      <guid isPermaLink="true">https://blog.sturdystatistics.com/posts/hnet_part_I/</guid>
-      <pubDate>Thu, 05 Feb 2026 16:55:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46901716</comments>
-    </item>
-    <item>
-      <title>Claude Opus 4.6 extra usage promo</title>
-      <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
-      <description>📝 If extra usage is not enabled: You'll need to enable extra usage to claim the credit. Enable extra usage when prompted. Your $50 credit will be applied once extra usage is active.
-
-🔗 Read more: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</description>
-      <guid isPermaLink="true">https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
-      <pubDate>Thu, 05 Feb 2026 20:15:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46904569</comments>
-    </item>
-    <item>
-      <title>Flock CEO calls Deflock a "terrorist organization" [video] (2025)</title>
-      <link>https://www.youtube.com/watch?v=l-kZGrDz7PU</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=l-kZGrDz7PU</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903556</comments>
+🔗 Read more: https://faultlore.com/blah/c-isnt-a-language/</description>
+      <guid isPermaLink="true">https://faultlore.com/blah/c-isnt-a-language/</guid>
+      <pubDate>Fri, 06 Feb 2026 00:15:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46907350</comments>
     </item>
   </channel>
 </rss>

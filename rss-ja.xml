@@ -6,106 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Feb 2026 21:30:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 02:04:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>私たちは、エージェント チームを使用して Opus 4.6 に C コンパイラーを構築するよう依頼しました。</title>
-      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
-      <description>📝 複数のクロード エージェントを実行すると、専門化が可能になります。私の並列クロードの実装は最低限のものです。クロード エージェント チームとのプログラミングから得た教訓 スキャフォールディングはクロードをループで実行しますが、そのループはクロードが進行方法を指示できる場合にのみ役立ちます。
+      <title>2026 年、Postgres を使いましょう</title>
+      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
+      <description>📝 pg_textsearch を備えた Postgres は検索を簡素化します。続きを読むElasticsearch は必要ありません: BM25 は PostgresPostgreSQL にありますPostgreSQL のヒント2025 年 12 月 23 日Elasticsearch は必要ありません: BM25 は pg_textsearch を使用して Postgres にあります。続きを読む 新しい投稿やリリースで最新情報を入手してください。
 
 
-🔤 Original: We tasked Opus 4.6 using agent teams to build a C Compiler
+🔤 Original: It's 2026, Just Use Postgres
 
-🔗 Read more: https://www.anthropic.com/engineering/building-c-compiler</description>
-      <guid isPermaLink="true">https://www.anthropic.com/engineering/building-c-compiler</guid>
-      <pubDate>Thu, 05 Feb 2026 19:07:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903616</comments>
+🔗 Read more: https://www.tigerdata.com/blog/its-2026-just-use-postgres</description>
+      <guid isPermaLink="true">https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
+      <pubDate>Thu, 05 Feb 2026 21:24:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905555</comments>
     </item>
     <item>
-      <title>LinkedIn は 2953 のブラウザ拡張機能をチェックします</title>
-      <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
-      <description>📝 LinkedIn Chrome 拡張機能のフィンガープリンティング LinkedIn は、ページが読み込まれるたびに 2,953 の Chrome 拡張機能をサイレントに調査します。 js 削除された/使用できない拡張機能の Extpose フォールバックを使用して、Chrome ウェブストアから拡張機能名を取得します。 # すべての拡張ノード fetch_extension_names を取得します。
+      <title>アイザック・アシモフによる 1984 年のレビュー (1980)</title>
+      <link>https://www.newworker.org/ncptrory/1984.htm</link>
+      <description>📝 1984 年の執筆 1949 年に、「1984」というタイトルの本が出版されました。この本は多くの賞賛で迎えられ、オーウェルは十分に裕福になり、引退して傑作『1984』に専念した。その本では、社会を1930年代のスターリン主義ロシアの世界規模の広大な延長として描写し、ライバルの左翼宗派主義者の毒をもって描かれていた。
 
 
-🔤 Original: LinkedIn checks for 2953 browser extensions
+🔤 Original: Review of 1984 by Isaac Asimov (1980)
 
-🔗 Read more: https://github.com/mdp/linkedin-extension-fingerprinting</description>
-      <guid isPermaLink="true">https://github.com/mdp/linkedin-extension-fingerprinting</guid>
-      <pubDate>Thu, 05 Feb 2026 20:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46904361</comments>
+🔗 Read more: https://www.newworker.org/ncptrory/1984.htm</description>
+      <guid isPermaLink="true">https://www.newworker.org/ncptrory/1984.htm</guid>
+      <pubDate>Thu, 05 Feb 2026 21:39:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905761</comments>
     </item>
     <item>
-      <title>私の AI 導入の旅</title>
-      <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
-      <description>📝 誰もが AI を初めて体験するのはチャット インターフェイスだと思います。私が自分で仕事をするよりもはるかに効率が悪いのは明らかです。ブログ記事を読んだり、ビデオを見たりしましたが、それほど感銘を受けませんでした。
+      <title>AMDが修正しないRCE</title>
+      <link>https://mrbruh.com/amd/</link>
+      <description>📝 私が最初に発見したのは、更新 URL がプログラムのアプリに保存されているということです。これは、ネットワーク上の悪意のある攻撃者、または ISP にアクセスできる国家が簡単に MITM 攻撃を実行し、ネットワーク応答を彼らが選択した悪意のある実行可能ファイルに置き換えることができることを意味します。私は、AMD が署名のない実行可能ファイルをダウンロードして実行できないようにするために、何らかの形式の証明書検証を行っているのではないかと期待していましたが、逆コンパイルされたコードをざっと調べてみると、AutoUpdate ソフトウェアはそのような検証を行わず、ダウンロードされたファイルをすぐに実行することがわかりました。
 
 
-🔤 Original: My AI Adoption Journey
+🔤 Original: The RCE that AMD won't fix
 
-🔗 Read more: https://mitchellh.com/writing/my-ai-adoption-journey</description>
-      <guid isPermaLink="true">https://mitchellh.com/writing/my-ai-adoption-journey</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903558</comments>
+🔗 Read more: https://mrbruh.com/amd/</description>
+      <guid isPermaLink="true">https://mrbruh.com/amd/</guid>
+      <pubDate>Thu, 05 Feb 2026 23:29:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906947</comments>
     </item>
     <item>
-      <title>ビルダーによる、ビルダーのための小さな共有スキル ライブラリ。 (人間とエージェント)</title>
-      <link>https://github.com/PsiACE/skills</link>
-      <description>📝 このリポジトリには、私と私の友人のスキルが含まれています。 me/ インストール pnpx skill add PsiACE/skills --skill='*' またはグローバルにインストール: pnpx skill add PsiACE/skills --skill='*' -g スキル スキルの説明 Friendly-python フレンドリーな Python コードの作成、リファクタリング、レビューに関する実践的なガイダンス piglet 1 人の Python 職人による実践的な Python クラフトマンシップ ガイダンス fast-rust 高速で信頼性が高く、保守可能な Rust コードの記述、リファクタリング、レビューに関する実践的なガイダンスドキュメント uv を使用してドキュメントの依存関係をインストールし、ローカルでプレビューします: uv sync --group docs uv run mkdocsserve -f mkdocs。 yml 静的サイトを構築します: uv run mkdocs build -f mkdocs。
+      <title>HN を表示: RTX 3080 上のローカル タスク分類子とディスパッチャ</title>
+      <link>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</link>
+      <description>📝 クイックスタート # venv python -m venv を作成します。 Bat # オーケストレーター API run_ui を開始します。 Bat # NiceGUI インターフェイスを起動します。
 
 
-🔤 Original: A small, shared skill library by builders, for builders. (human and agent)
+🔤 Original: Show HN: Local task classifier and dispatcher on RTX 3080
 
-🔗 Read more: https://github.com/PsiACE/skills</description>
-      <guid isPermaLink="true">https://github.com/PsiACE/skills</guid>
-      <pubDate>Thu, 05 Feb 2026 18:17:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902789</comments>
+🔗 Read more: https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</description>
+      <guid isPermaLink="true">https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
+      <pubDate>Thu, 05 Feb 2026 23:31:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46906967</comments>
     </item>
     <item>
-      <title>心理測定による脱獄はフロンティアモデルの内部対立を明らかにする</title>
-      <link>https://arxiv.org/abs/2512.04124</link>
-      <description>📝 ) 接続されたペーパー 接続されたペーパーを切り替えます (接続されたペーパーとは何ですか。) リットマップ リットマップを切り替えます (リットマップとは。) コードへのリンク コード付きペーパーを切り替えます (コード付きペーパーとは。)
+      <title>テストを書くことが楽しい経験だったらどうでしょうか? (2023年)</title>
+      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
+      <description>📝 テストを書くことが楽しい経験だったらどうでしょうか。フィボナッチ(15) は何に等しいか.私の主な主張は、決定と入力のすべてが非常に苦痛で、実際にテストを書く気を失ってしまうということです。
 
 
-🔤 Original: Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models
+🔤 Original: What if writing tests was a joyful experience? (2023)
 
-🔗 Read more: https://arxiv.org/abs/2512.04124</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.04124</guid>
-      <pubDate>Thu, 05 Feb 2026 18:21:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46902855</comments>
+🔗 Read more: https://blog.janestreet.com/the-joy-of-expect-tests/</description>
+      <guid isPermaLink="true">https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
+      <pubDate>Thu, 05 Feb 2026 21:51:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46905896</comments>
     </item>
     <item>
-      <title>ハイパーネットワーク: 階層データ用のニューラル ネットワーク</title>
-      <link>https://blog.sturdystatistics.com/posts/hnet_part_I/</link>
-      <description>📝 階層データは、そうではないことを私たちに思い出させます。標準的なニューラル ネットは、この設定ではひどく失敗します。すべてのデータセットにわたって単一のモデルをトレーニングすると、差分が曖昧になり、平均化すべきではない関数が平均化されます。
+      <title>C はもはやプログラミング言語ではありません (2022)</title>
+      <link>https://faultlore.com/blah/c-isnt-a-language/</link>
+      <description>📝 それはひどいことですが、それ自体は私の問題ではありません。私たちの言語がその言語にとって外部の関数を呼び出せるようにする、ある種のインターフェイスが必要になります。意味のあるパーシンであることを念頭に置いてください。
 
 
-🔤 Original: Hypernetworks: Neural Networks for Hierarchical Data
+🔤 Original: C isn't a programming language anymore (2022)
 
-🔗 Read more: https://blog.sturdystatistics.com/posts/hnet_part_I/</description>
-      <guid isPermaLink="true">https://blog.sturdystatistics.com/posts/hnet_part_I/</guid>
-      <pubDate>Thu, 05 Feb 2026 16:55:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46901716</comments>
-    </item>
-    <item>
-      <title>Claude Opus 4.6 追加使用プロモーション</title>
-      <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
-      <description>📝 追加使用量が有効になっていない場合: クレジットを請求するには、追加使用量を有効にする必要があります。プロンプトが表示されたら、追加の使用を有効にします。追加使用量が有効になると、50 ドルのクレジットが適用されます。
-
-
-🔤 Original: Claude Opus 4.6 extra usage promo
-
-🔗 Read more: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</description>
-      <guid isPermaLink="true">https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
-      <pubDate>Thu, 05 Feb 2026 20:15:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46904569</comments>
-    </item>
-    <item>
-      <title>フロックCEO、デフロックを「テロ組織」と呼ぶ [ビデオ] (2025)</title>
-      <link>https://www.youtube.com/watch?v=l-kZGrDz7PU</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=l-kZGrDz7PU</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46903556</comments>
+🔗 Read more: https://faultlore.com/blah/c-isnt-a-language/</description>
+      <guid isPermaLink="true">https://faultlore.com/blah/c-isnt-a-language/</guid>
+      <pubDate>Fri, 06 Feb 2026 00:15:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46907350</comments>
     </item>
   </channel>
 </rss>
