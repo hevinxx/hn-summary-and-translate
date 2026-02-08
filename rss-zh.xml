@@ -6,93 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Feb 2026 21:28:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 02:33:03 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>SectorC：512 字节的 C 编译器</title>
-      <link>https://xorvoid.com/sectorc.html</link>
-      <description>📝 嗯，用 C 来做这件事怎么样？从 468 字节 ⇒ 303 字节（节省 165 字节）：510 - 303 ⇒ 207 个备用字节用于新功能。每个运算符只是一个 &lt;16 位令牌值&gt; &lt;16 位机器代码&gt; 对，仅占用 4 个字节。
+      <title>小 C 编译器</title>
+      <link>https://bellard.org/tcc/</link>
+      <description>📝 tcc 生成 x86 代码。没有字节码开销。绑定检查代码可以与标准代码自由混合。
 
 
-🔤 Original: SectorC: A C Compiler in 512 bytes
+🔤 Original: Tiny C Compiler
 
-🔗 Read more: https://xorvoid.com/sectorc.html</description>
-      <guid isPermaLink="true">https://xorvoid.com/sectorc.html</guid>
-      <pubDate>Sat, 07 Feb 2026 17:39:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46925741</comments>
+🔗 Read more: https://bellard.org/tcc/</description>
+      <guid isPermaLink="true">https://bellard.org/tcc/</guid>
+      <pubDate>Sat, 07 Feb 2026 21:45:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46928435</comments>
     </item>
     <item>
-      <title>布鲁克海文实验室的 RHIC 以最后的碰撞结束了 25 年的运行</title>
-      <link>https://www.hpcwire.com/off-the-wire/brookhaven-labs-rhic-concludes-25-year-run-with-final-collisions/</link>
-      <guid isPermaLink="true">https://www.hpcwire.com/off-the-wire/brookhaven-labs-rhic-concludes-25-year-run-with-final-collisions/</guid>
-      <pubDate>Sat, 07 Feb 2026 19:07:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46926576</comments>
+      <title>Show HN：LocalGPT – Rust 中具有持久内存的本地优先 AI 助手</title>
+      <link>https://github.com/localgpt-app/localgpt</link>
+      <description>📝 货物安装 localgpt 为什么选择 LocalGPT。 localgpt/workspace/ ├── 内存。 localgpt/workspace" CLI Commands # 聊天 localgpt chat # 互动聊天 localgpt chat --session &lt;id&gt; # 恢复会话 localgpt Ask "question" # 单问题 # 守护进程 localgpt daemon start # 启动后台守护进程 localgpt daemon stop # 停止守护进程 localgpt daemon status # 显示状态 localgpt daemon heartbeat # 运行一个心跳周期 # Memory localgpt memory search "query" # 搜索内存 localgpt memory reindex # 重新索引文件 localgpt memory stats # 显示统计信息 # 配置 localgpt config init # 创建默认配置 localgpt config show # 显示当前配置 HTTP API 当守护进程运行时： 端点 描述 GET /health 健康检查 GET /api/status 服务器状态 POST /api/chat 与助手聊天 GET /api/memory/search.
+
+
+🔤 Original: Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory
+
+🔗 Read more: https://github.com/localgpt-app/localgpt</description>
+      <guid isPermaLink="true">https://github.com/localgpt-app/localgpt</guid>
+      <pubDate>Sun, 08 Feb 2026 01:26:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46930391</comments>
     </item>
     <item>
-      <title>我用 C 编写游戏（是的，C）</title>
-      <link>https://jonathanwhiting.com/writing/blog/games_in_c/</link>
-      <description>📝 因此，我的编程语言是可移植的，并且具有良好的可移植库支持，这一点很重要。 Haxe 感觉比大多数替代方案更有前途。有一些很好的图书馆支持。
+      <title>FDA拟对未经FDA批准的GLP-1药物采取行动</title>
+      <link>https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs</link>
+      <description>📝 美国食品和药物管理局局长——今日美国食品和药物管理局。在宣传材料中，企业不能声称未经FDA批准的复方产品是仿制药或与FDA批准的药物相同。他们也不能声明复合药物使用与 FDA 批准的药物相同的活性成分，或者复合药物经过临床证明可为患者产生效果。
 
 
-🔤 Original: I write games in C (yes, C)
+🔤 Original: FDA intends to take action against non-FDA-approved GLP-1 drugs
 
-🔗 Read more: https://jonathanwhiting.com/writing/blog/games_in_c/</description>
-      <guid isPermaLink="true">https://jonathanwhiting.com/writing/blog/games_in_c/</guid>
-      <pubDate>Sat, 07 Feb 2026 17:45:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46925808</comments>
-    </item>
-    <item>
-      <title>使用快速模式加快响应速度</title>
-      <link>https://code.claude.com/docs/en/fast-mode</link>
-      <description>📝 快速模式可提供更快的 Opus 4。快速模式并不是一个不同的模型。 ” 为您的组织启用快速模式 管理员可以在以下位置启用快速模式：控制台 (API c.
-
-
-🔤 Original: Speed up responses with fast mode
-
-🔗 Read more: https://code.claude.com/docs/en/fast-mode</description>
-      <guid isPermaLink="true">https://code.claude.com/docs/en/fast-mode</guid>
-      <pubDate>Sat, 07 Feb 2026 18:08:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46926043</comments>
-    </item>
-    <item>
-      <title>我们哀悼我们的手艺</title>
-      <link>https://nolanlawson.com/2026/02/07/we-mourn-our-craft/</link>
-      <description>📝 最终，你的老板会开始问为什么你要支付两倍于 Zoomer 同事工资的工资来编写十分之一的代码。这也许不是你年轻、更理想主义的自己希望你做出的决定，但它确实可以保证你的汽车、你的房子和你的家人在车内的安全。但私下里我们会想念它。
-
-
-🔤 Original: We mourn our craft
-
-🔗 Read more: https://nolanlawson.com/2026/02/07/we-mourn-our-craft/</description>
-      <guid isPermaLink="true">https://nolanlawson.com/2026/02/07/we-mourn-our-craft/</guid>
-      <pubDate>Sat, 07 Feb 2026 18:32:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46926245</comments>
-    </item>
-    <item>
-      <title>Microsoft 帐户错误使我无法使用记事本 – 瘦客户端会毁掉 PC 吗？</title>
-      <link>https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs</link>
-      <description>📝 我通常会首先避免向任何人推荐来自 GitHub 的 Windows debloat 脚本。因此，我通常会避免首先向任何人推荐来自 GitHub 的 Windows debloat 脚本。 （图片来源：Ben Wilson | Windows Central）我还没有天真地认为 Windows 是微软的首要任务。
-
-
-🔤 Original: Microsoft account bugs locked me out of Notepad – Are thin clients ruining PCs?
-
-🔗 Read more: https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs</description>
-      <guid isPermaLink="true">https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs</guid>
-      <pubDate>Sat, 07 Feb 2026 19:51:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46927098</comments>
-    </item>
-    <item>
-      <title>Show HN：看到这个很酷的导航展示，所以做了一个简单的HTML+CSS版本</title>
-      <link>https://github.com/Momciloo/fun-with-clip-path</link>
-      <description>📝 Clip-path 的乐趣这是一个简单的代码探索，灵感来自（和斯托伦）https://iventions。我在这里使用了一个有趣的剪辑路径计算（剪辑路径：circle(calc(1。第二个剪辑路径是一个用于模拟“射线”的多边形。
-
-
-🔤 Original: Show HN: I saw this cool navigation reveal, so I made a simple HTML+CSS version
-
-🔗 Read more: https://github.com/Momciloo/fun-with-clip-path</description>
-      <guid isPermaLink="true">https://github.com/Momciloo/fun-with-clip-path</guid>
-      <pubDate>Sat, 07 Feb 2026 17:45:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46925811</comments>
+🔗 Read more: https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs</description>
+      <guid isPermaLink="true">https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs</guid>
+      <pubDate>Sat, 07 Feb 2026 22:25:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46928810</comments>
     </item>
   </channel>
 </rss>

@@ -6,93 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Feb 2026 21:28:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 02:33:03 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>SectorC: 512 バイトの C コンパイラ</title>
-      <link>https://xorvoid.com/sectorc.html</link>
-      <description>📝 うーん、それを行う C はどうでしょうか。 468 バイト ⇒ 303 バイト (165 バイト節約): 510 - 303 ⇒ 207 予備バイトを新機能に使用します。各演算子は単純な &lt;16 ビット トークン値&gt; &lt;16 ビット マシンコード&gt; のペアであり、コストはわずか 4 バイトです。
+      <title>小さな C コンパイラ</title>
+      <link>https://bellard.org/tcc/</link>
+      <description>📝 tcc は x86 コードを生成します。バイトコードのオーバーヘッドはありません。バインドされたチェック コードは標準コードと自由に混合できます。
 
 
-🔤 Original: SectorC: A C Compiler in 512 bytes
+🔤 Original: Tiny C Compiler
 
-🔗 Read more: https://xorvoid.com/sectorc.html</description>
-      <guid isPermaLink="true">https://xorvoid.com/sectorc.html</guid>
-      <pubDate>Sat, 07 Feb 2026 17:39:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46925741</comments>
+🔗 Read more: https://bellard.org/tcc/</description>
+      <guid isPermaLink="true">https://bellard.org/tcc/</guid>
+      <pubDate>Sat, 07 Feb 2026 21:45:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46928435</comments>
     </item>
     <item>
-      <title>ブルックヘブン研究所のRHIC、最終衝突で25年間の活動に終止符を打つ</title>
-      <link>https://www.hpcwire.com/off-the-wire/brookhaven-labs-rhic-concludes-25-year-run-with-final-collisions/</link>
-      <guid isPermaLink="true">https://www.hpcwire.com/off-the-wire/brookhaven-labs-rhic-concludes-25-year-run-with-final-collisions/</guid>
-      <pubDate>Sat, 07 Feb 2026 19:07:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46926576</comments>
+      <title>Show HN: LocalGPT – 永続メモリを備えた Rust のローカルファースト AI アシスタント</title>
+      <link>https://github.com/localgpt-app/localgpt</link>
+      <description>📝 カーゴインストール localgpt なぜ LocalGPT なのか。 localgpt/workspace/ §── MEMORY。 localgpt/workspace" CLI コマンド # チャット localgpt chat # インタラクティブ チャット localgpt chat --session &lt;id&gt; # セッションを再開 localgpt ask "question" # 単一の質問 # デーモン localgpt デーモン start # バックグラウンド デーモンの開始 localgpt デーモン stop # デーモンの停止 localgpt デーモン status # ステータスの表示 localgpt デーモン heartbeat # ハートビート サイクルを 1 回実行 # メモリ localgpt メモリ検索 "query" # メモリの検索 localgpt メモリreindex # ファイルのインデックスを再作成する localgpt メモリ stats # 統計情報を表示する # 構成 localgpt config init # デフォルトの構成を作成する localgpt config show # 現在の構成を表示する HTTP API デーモンの実行時: エンドポイント 説明 GET /health ヘルス チェック GET /api/status サーバー ステータス POST /api/chat アシスタントとのチャット GET /api/memory/search。
+
+
+🔤 Original: Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory
+
+🔗 Read more: https://github.com/localgpt-app/localgpt</description>
+      <guid isPermaLink="true">https://github.com/localgpt-app/localgpt</guid>
+      <pubDate>Sun, 08 Feb 2026 01:26:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46930391</comments>
     </item>
     <item>
-      <title>私は C でゲームを書いています (はい、C)</title>
-      <link>https://jonathanwhiting.com/writing/blog/games_in_c/</link>
-      <description>📝 したがって、プログラミング言語が移植可能であること、および移植可能なライブラリが適切にサポートされていることが重要です。 Haxe は、ほとんどの代替手段よりもはるかに有望だと感じています。いくつかの優れたライブラリサポートがあります。
+      <title>FDAはFDA未承認のGLP-1薬に対して措置を講じる予定</title>
+      <link>https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs</link>
+      <description>📝 食品医薬品局長官 - 今日、米国は、宣伝資料において、企業は、FDA の承認を受けていない配合製品がジェネリック版である、または FDA が承認した医薬品と同じであると主張することはできません。また、調合薬が FDA 承認薬と同じ有効成分を使用していることや、調合薬が患者に結果をもたらすことが臨床的に証明されているとも述べることはできません。
 
 
-🔤 Original: I write games in C (yes, C)
+🔤 Original: FDA intends to take action against non-FDA-approved GLP-1 drugs
 
-🔗 Read more: https://jonathanwhiting.com/writing/blog/games_in_c/</description>
-      <guid isPermaLink="true">https://jonathanwhiting.com/writing/blog/games_in_c/</guid>
-      <pubDate>Sat, 07 Feb 2026 17:45:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46925808</comments>
-    </item>
-    <item>
-      <title>高速モードで応答を高速化</title>
-      <link>https://code.claude.com/docs/en/fast-mode</link>
-      <description>📝 Fast モードはより高速な Opus 4 を提供します。Fast モードは別のモデルではありません。組織の高速モードを有効にする 管理者は次の場所で高速モードを有効にできます。 コンソール (API c.
-
-
-🔤 Original: Speed up responses with fast mode
-
-🔗 Read more: https://code.claude.com/docs/en/fast-mode</description>
-      <guid isPermaLink="true">https://code.claude.com/docs/en/fast-mode</guid>
-      <pubDate>Sat, 07 Feb 2026 18:08:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46926043</comments>
-    </item>
-    <item>
-      <title>私たちは自分たちの技術を悼みます</title>
-      <link>https://nolanlawson.com/2026/02/07/we-mourn-our-craft/</link>
-      <description>📝 最終的に、上司は、コードの 10 分の 1 を作成するのに、なぜズーマーの同僚の給料の 2 倍の給料をもらっているのかと尋ねるようになります。それは、若くて理想主義的なあなたが望んでいる決断ではないかもしれませんが、車や家、そして車内の家族を安全に保つことにはなります。しかし密かに私たちはそれを恋しく思うでしょう。
-
-
-🔤 Original: We mourn our craft
-
-🔗 Read more: https://nolanlawson.com/2026/02/07/we-mourn-our-craft/</description>
-      <guid isPermaLink="true">https://nolanlawson.com/2026/02/07/we-mourn-our-craft/</guid>
-      <pubDate>Sat, 07 Feb 2026 18:32:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46926245</comments>
-    </item>
-    <item>
-      <title>Microsoft アカウントのバグにより、メモ帳からアクセスできなくなりました – シン クライアントは PC を台無しにしますか?</title>
-      <link>https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs</link>
-      <description>📝 私は通常、GitHub からの Windows デブロート スクリプトを誰にも勧めることを最初から避けています。そのため、私は通常、GitHub からの Windows デブロート スクリプトを最初から誰にも推奨することを避けています。 (画像クレジット: Ben Wilson | Windows Central) 私は Windows が Microsoft の最優先事項であると考えるほど世間知らずではありません。
-
-
-🔤 Original: Microsoft account bugs locked me out of Notepad – Are thin clients ruining PCs?
-
-🔗 Read more: https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs</description>
-      <guid isPermaLink="true">https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs</guid>
-      <pubDate>Sat, 07 Feb 2026 19:51:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46927098</comments>
-    </item>
-    <item>
-      <title>Show HN: このクールなナビゲーションの公開を見たので、シンプルな HTML+CSS バージョンを作成しました</title>
-      <link>https://github.com/Momciloo/fun-with-clip-path</link>
-      <description>📝 クリップパスの楽しみ これは、https://eventions からインスピレーションを得た (そしてそこから盗まれた) シンプルなコード探索です。ここで使用した楽しいクリップ パスの計算 (clip-path:circle(calc(1)。2 番目のクリップ パスは、「光線」をシミュレートするために使用される多角形です。
-
-
-🔤 Original: Show HN: I saw this cool navigation reveal, so I made a simple HTML+CSS version
-
-🔗 Read more: https://github.com/Momciloo/fun-with-clip-path</description>
-      <guid isPermaLink="true">https://github.com/Momciloo/fun-with-clip-path</guid>
-      <pubDate>Sat, 07 Feb 2026 17:45:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46925811</comments>
+🔗 Read more: https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs</description>
+      <guid isPermaLink="true">https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs</guid>
+      <pubDate>Sat, 07 Feb 2026 22:25:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46928810</comments>
     </item>
   </channel>
 </rss>
