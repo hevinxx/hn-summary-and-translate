@@ -6,112 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 08 Feb 2026 12:51:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 15:29:19 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>なぜ E コアが Apple Silicon を高速化するのか</title>
-      <link>https://eclecticlight.co/2026/02/08/last-week-on-my-mac-why-e-cores-make-apple-silicon-fast/</link>
-      <description>📝 フォアグラウンド スレッドは、利用可能な場合は P コアで実行されますが、必要に応じて E コアでスケジュールすることもできます。効率コアは、パフォーマンスに必要なコアからバックグラウンド スレッドを取得するためです。これを共有します: X で共有 (新しいウィンドウで開きます) X Facebook で共有 (新しいウィンドウで開きます) Facebook Reddit で共有 (新しいウィンドウで開きます) Reddit Pinterest で共有 (新しいウィンドウで開きます) Pinterest スレッドで共有 (新しいウィンドウで開きます) スレッド マストドンで共有 (新しいウィンドウで開きます) マストドン Bluesky で共有 (新しいウィンドウで開きます) Bluesky リンクを友達にメールで送信 (新しいウィンドウで開きます) 電子メールで送信 印刷 (新しいウィンドウで開きます) 印刷ロード中のように。
+      <title>コードを手作業で書くほうが幸せです</title>
+      <link>https://www.abhinavomprakash.com/posts/i-am-happier-writing-code-by-hand/</link>
+      <description>📝 Vibeコーディングがそれを妨げました。設計上、バイブコーディングには中毒性があり、いくつかの命令を書くと、正しく見えるコードが生成されます。コードが正しくない場合は、あと 1 回のプロンプトで正しくなることができます。
 
 
-🔤 Original: Why E cores make Apple Silicon fast
+🔤 Original: I am happier writing code by hand
 
-🔗 Read more: https://eclecticlight.co/2026/02/08/last-week-on-my-mac-why-e-cores-make-apple-silicon-fast/</description>
-      <guid isPermaLink="true">https://eclecticlight.co/2026/02/08/last-week-on-my-mac-why-e-cores-make-apple-silicon-fast/</guid>
-      <pubDate>Sun, 08 Feb 2026 11:31:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46933365</comments>
+🔗 Read more: https://www.abhinavomprakash.com/posts/i-am-happier-writing-code-by-hand/</description>
+      <guid isPermaLink="true">https://www.abhinavomprakash.com/posts/i-am-happier-writing-code-by-hand/</guid>
+      <pubDate>Sun, 08 Feb 2026 14:12:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46934344</comments>
     </item>
     <item>
-      <title>デイブ・ファーバー氏が逝去</title>
-      <link>https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/TSNPJVFH4DKLINIKSMRIIVNHDG5XKJCM/</link>
-      <description>📝 ----- 「チェリー、ヘイ・ユイ・ウォン」からのメッセージを転送しました&lt;チェリー。ファーバーさんが東京・六本木の自宅で急逝した。デイブは日本であらゆる面で成功しました。
+      <title>AI疲労は現実のものだが、誰もそれについて語らない</title>
+      <link>https://siddhantkhare.com/writing/ai-fatigue-is-real</link>
+      <description>📝 コードを書くことではなく、コードを判断することからです。残酷な皮肉なことに、AI が生成したコードは人間が書いたコードよりも慎重なレビューが必要です。そして、自分が書いていないコード、つまりコードベースの歴史やチームの慣習を理解していないシステムによって生成されたコードを読み取るのは、骨の折れる作業です。
 
 
-🔤 Original: Dave Farber has passed away
+🔤 Original: AI fatigue Is real and nobody talks about it
 
-🔗 Read more: https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/TSNPJVFH4DKLINIKSMRIIVNHDG5XKJCM/</description>
-      <guid isPermaLink="true">https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/TSNPJVFH4DKLINIKSMRIIVNHDG5XKJCM/</guid>
-      <pubDate>Sun, 08 Feb 2026 11:38:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46933401</comments>
+🔗 Read more: https://siddhantkhare.com/writing/ai-fatigue-is-real</description>
+      <guid isPermaLink="true">https://siddhantkhare.com/writing/ai-fatigue-is-real</guid>
+      <pubDate>Sun, 08 Feb 2026 14:19:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46934404</comments>
     </item>
     <item>
-      <title>Matchlock: AI エージェント用の Linux ベースのサンドボックス</title>
-      <link>https://github.com/jingkaihe/matchlock</link>
-      <description>📝 (サンドボックス) クライアントを起動します。 Stderr) } Python (PyPI) pip install matchlock # または uv add matchlock import os import sys from matchlock import Client, Config, Sandbox Sandbox = ( Sandbox("alpine:latest"). launch(sandbox) client.
+      <title>RFC 3092 – 「Foo」の語源 (2001)</title>
+      <link>https://datatracker.ietf.org/doc/html/rfc3092</link>
+      <description>📝 このメモの配布は無制限です。この文書はその欠陥を修正します。定義と語源。
 
 
-🔤 Original: Matchlock: Linux-based sandboxing for AI agents
+🔤 Original: RFC 3092 – Etymology of "Foo" (2001)
 
-🔗 Read more: https://github.com/jingkaihe/matchlock</description>
-      <guid isPermaLink="true">https://github.com/jingkaihe/matchlock</guid>
-      <pubDate>Sun, 08 Feb 2026 08:07:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46932343</comments>
+🔗 Read more: https://datatracker.ietf.org/doc/html/rfc3092</description>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/html/rfc3092</guid>
+      <pubDate>Sun, 08 Feb 2026 14:32:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46934499</comments>
     </item>
     <item>
-      <title>Atari 2600 用のレイダース 失われたアークのリバース エンジニアリング</title>
-      <link>https://github.com/joshuanwalker/Raiders2600</link>
-      <description>📝 but: コンパイルされたゲームを起動するための Windows バッチ スクリプト。バンク 0 (BANK0TOP = $D000): ゲーム ロジック (衝突処理、インベントリ管理、ルーム イベント ハンドラー、スコアリング、移動、入力処理、サウンド) が含まれています。フェーズ 2: VBLANK (CPU 時間の約 37 スキャンライン) TIA が空白の画面を出力している間、すべてのゲーム ロジックが実行されます。
+      <title>GitHub エージェントのワークフロー</title>
+      <link>https://github.github.io/gh-aw/</link>
+      <description>📝 GitHub Agentic Workflows GitHub Actions で実行される自動化されたリポジトリ エージェント。 CLI によるクイック スタート ワークフローの作成 GitHub Agentic ワークフローとは。 「GitHub Agentic Workflow とは」というタイトルのセクション。
 
 
-🔤 Original: Reverse Engineering Raiders of the Lost Ark for the Atari 2600
+🔤 Original: GitHub Agentic Workflows
 
-🔗 Read more: https://github.com/joshuanwalker/Raiders2600</description>
-      <guid isPermaLink="true">https://github.com/joshuanwalker/Raiders2600</guid>
-      <pubDate>Sun, 08 Feb 2026 09:10:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46932678</comments>
+🔗 Read more: https://github.github.io/gh-aw/</description>
+      <guid isPermaLink="true">https://github.github.io/gh-aw/</guid>
+      <pubDate>Sun, 08 Feb 2026 13:40:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46934107</comments>
     </item>
     <item>
-      <title>言葉では言い表せないほどの母、アーシュラ・K・ル＝グウィンに関する番組のキュレーション</title>
-      <link>https://hyperallergic.com/curating-a-show-on-my-ineffable-mother-ursula-k-le-guin/</link>
-      <description>📝 多くの訪問者はこれを直感します。展覧会について私によく聞かれる質問は、母がこの展覧会についてどう思うかというものです。壁画家のウルスラ・バートンの全長 38 フィート (~11. しかし、私のバージョンのアースラは 1 つのバージョンにすぎません。
+      <title>独自の実行: FRR、GRE トンネル、およびポリシー ルーティングを使用した FreeBSD 上の BGP</title>
+      <link>https://blog.hofstede.it/running-your-own-as-bgp-on-freebsd-with-frr-gre-tunnels-and-policy-routing/</link>
+      <description>📝 プロバイダーによって割り当てられた IPv6 アドレスは、そのプロバイダーに関連付けられます。独自の AS とプレフィックスを使用すると、アドレスが続きます。 IPv6 プレフィックス - アナウンスするアドレス空間。
 
 
-🔤 Original: Curating a Show on My Ineffable Mother, Ursula K. Le Guin
+🔤 Original: Running Your Own As: BGP on FreeBSD with FRR, GRE Tunnels, and Policy Routing
 
-🔗 Read more: https://hyperallergic.com/curating-a-show-on-my-ineffable-mother-ursula-k-le-guin/</description>
-      <guid isPermaLink="true">https://hyperallergic.com/curating-a-show-on-my-ineffable-mother-ursula-k-le-guin/</guid>
-      <pubDate>Sun, 08 Feb 2026 10:13:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46932985</comments>
+🔗 Read more: https://blog.hofstede.it/running-your-own-as-bgp-on-freebsd-with-frr-gre-tunnels-and-policy-routing/</description>
+      <guid isPermaLink="true">https://blog.hofstede.it/running-your-own-as-bgp-on-freebsd-with-frr-gre-tunnels-and-policy-routing/</guid>
+      <pubDate>Sun, 08 Feb 2026 14:02:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46934266</comments>
     </item>
     <item>
-      <title>(AI) スロップが恐ろしい</title>
-      <link>https://ezhik.jp/ai-slop-terrifies-me/</link>
-      <description>📝 良いソフトウェアを作るためにはインセンティブがまったく合わないようです。もしほとんどの人が、テクノロジーの問題、プライバシー、液体ガラス、Microsoft のアップセル、機能しないアプリや機能に常に対処することなどをまったく気にしていないとしたらどうなるでしょうか。十分な品質が本当にほとんどの人にとって十分な品質であるとしたらどうなるでしょうか。
+      <title>癌の伝染性の味</title>
+      <link>https://www.historytoday.com/archive/history-matters/contagious-taste-cancer</link>
+      <description>📝 歴史は重要である 癌の伝染性の味 英国の外科医サミュエル・スミスによって行われたような初期の近代の癌実験は感覚に特権を与えましたが、その影響は致命的になる可能性がありました。彼が何かを摂取したために癌に罹ったというよりも、彼の最終的な死の原因となったのは「感覚」体験でした。ペストの流行中、解説者は、病気に関連する光景、匂い、音は非常に強い恐怖を引き起こし、観察者の体がより脆弱になる可能性があるとしばしば報告しました。
 
 
-🔤 Original: (AI) Slop Terrifies Me
+🔤 Original: The Contagious Taste of Cancer
 
-🔗 Read more: https://ezhik.jp/ai-slop-terrifies-me/</description>
-      <guid isPermaLink="true">https://ezhik.jp/ai-slop-terrifies-me/</guid>
-      <pubDate>Sun, 08 Feb 2026 10:31:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46933067</comments>
+🔗 Read more: https://www.historytoday.com/archive/history-matters/contagious-taste-cancer</description>
+      <guid isPermaLink="true">https://www.historytoday.com/archive/history-matters/contagious-taste-cancer</guid>
+      <pubDate>Sat, 07 Feb 2026 17:31:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46925672</comments>
     </item>
     <item>
-      <title>オーストラリアの奥地で、私たちは核実験を聞いています</title>
-      <link>https://www.abc.net.au/news/2026-02-08/australian-outback-nuclear-tests-listening-warramunga-facility/106307478</link>
-      <description>📝 ワラムンガは、グローバル ネットワーク内の他のどの観測点よりも多くの地震イベントを検出します。しかし、ワラムンガはユニークです。ワラムンガの探知機。
-
-
-🔤 Original: In the Australian outback, we're listening for nuclear tests
-
-🔗 Read more: https://www.abc.net.au/news/2026-02-08/australian-outback-nuclear-tests-listening-warramunga-facility/106307478</description>
-      <guid isPermaLink="true">https://www.abc.net.au/news/2026-02-08/australian-outback-nuclear-tests-listening-warramunga-facility/106307478</guid>
-      <pubDate>Sun, 08 Feb 2026 09:44:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46932845</comments>
+      <title>ビットコインは7万ドルを下回り、過去3週間で仮想通貨は大幅に下落</title>
+      <link>https://www.bloomberg.com/news/articles/2026-02-05/bitcoin-drops-below-70-000-as-forced-deleveraging-accelerates</link>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-02-05/bitcoin-drops-below-70-000-as-forced-deleveraging-accelerates</guid>
+      <pubDate>Sun, 08 Feb 2026 13:48:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46934165</comments>
     </item>
     <item>
-      <title>Arcan の説明 – さまざまな Web 用のブラウザー</title>
-      <link>https://arcan-fe.com/2026/01/26/arcan-explained-a-browser-for-different-webs/</link>
-      <description>📝 それはブラウザソフトウェアそのものです。これが既存のテクノロジーであることを示すために、プレゼンテーションは Arcan アプリケーションとしても提供されており、「arcan-net arcan」を通じて表示できます。おそらくメディア クリップですが、後で提供される可能性があります。
+      <title>Show HN: 確率ストーリー グラフ用に 100 枚のフィルムで Qwen2.5-7B を微調整しました</title>
+      <link>https://cinegraphs.ai/</link>
+      <description>📝 物語のアイデアを確率論的なストーリーの分岐に変換します。作品を業界標準の Fountain 形式でエクスポートします。 CineGraphs は、ストーリーが進む可能性のある複数の方向性を生成します。
 
 
-🔤 Original: Arcan Explained – A browser for different webs
+🔤 Original: Show HN: Fine-tuned Qwen2.5-7B on 100 films for probabilistic story graphs
 
-🔗 Read more: https://arcan-fe.com/2026/01/26/arcan-explained-a-browser-for-different-webs/</description>
-      <guid isPermaLink="true">https://arcan-fe.com/2026/01/26/arcan-explained-a-browser-for-different-webs/</guid>
-      <pubDate>Sun, 08 Feb 2026 08:30:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46932468</comments>
+🔗 Read more: https://cinegraphs.ai/</description>
+      <guid isPermaLink="true">https://cinegraphs.ai/</guid>
+      <pubDate>Sun, 08 Feb 2026 12:00:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46933515</comments>
+    </item>
+    <item>
+      <title>OpenClaw は私の人生を変えています</title>
+      <link>https://reorx.com/blog/openclaw-is-changing-my-life/</link>
+      <description>📝 コードを作成する人として、私はコードを書く人です。それは一次元を変えただけです。以前は、クロード コードだけではそこに到達することはできませんでした。
+
+
+🔤 Original: OpenClaw Is Changing My Life
+
+🔗 Read more: https://reorx.com/blog/openclaw-is-changing-my-life/</description>
+      <guid isPermaLink="true">https://reorx.com/blog/openclaw-is-changing-my-life/</guid>
+      <pubDate>Sun, 08 Feb 2026 06:21:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46931805</comments>
     </item>
   </channel>
 </rss>
