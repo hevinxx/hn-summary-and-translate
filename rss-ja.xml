@@ -6,126 +6,185 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Feb 2026 15:58:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 23:06:59 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>JavaScript の UEFI バインディング</title>
-      <link>https://codeberg.org/smnx/promethee</link>
-      <description>📝 2026-02-09 15:42:13 +01:00。 2026-02-09 14:48:48 +01:00 お読みください。 2026-02-09 14:48:48 +01:00 タイプ。
+      <title>Discordは来月、フルアクセスに顔スキャンまたはIDが必要になる</title>
+      <link>https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out</link>
+      <description>📝 また、面識のない可能性のあるユーザーからの友達リクエストに対して警告プロンプトが表示され、面識のないユーザーからの DM は自動的に別の受信箱にフィルタリングされます。前次1/2未認証のユーザーは、年齢制限のあるサーバーにアクセスできません。 「彼らが成人であるという確信が持てれば、他の年齢確認フローを経る必要はありません」とバダリッチ氏は言う。
 
 
-🔤 Original: UEFI Bindings for JavaScript
+🔤 Original: Discord will require a face scan or ID for full access next month
 
-🔗 Read more: https://codeberg.org/smnx/promethee</description>
-      <guid isPermaLink="true">https://codeberg.org/smnx/promethee</guid>
-      <pubDate>Mon, 09 Feb 2026 14:07:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46945348</comments>
+🔗 Read more: https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out</description>
+      <guid isPermaLink="true">https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out</guid>
+      <pubDate>Mon, 09 Feb 2026 14:37:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46945663</comments>
     </item>
     <item>
-      <title>Cの生成についての考え</title>
-      <link>https://wingolog.org/archives/2026/02/09/six-thoughts-on-generating-c</link>
-      <description>📝 write_ptr が static_inline でない場合、これらの構造体の値の 1 つがメモリ経由で渡されるのではないかと少し心配になります。これは主に、値によって構造体を返す関数に関する問題です。一方、eでは。たとえば、WebAssembly をコンパイルするときは、struct を考慮してください。
+      <title>アメリカはタングステン問題を抱えている</title>
+      <link>https://www.noleary.com/blog/posts/1</link>
+      <description>📝 米国はタングステンに関するより良い計画を必要としている。タングステンの需要定常状態では、米国は毎年約 10,000 トンのタングステンを輸入する必要があります。タングステンを消費するさまざまなアプリケーションに、曖昧な分布仮定を割り当てます。
 
 
-🔤 Original: Thoughts on Generating C
+🔤 Original: America has a tungsten problem
 
-🔗 Read more: https://wingolog.org/archives/2026/02/09/six-thoughts-on-generating-c</description>
-      <guid isPermaLink="true">https://wingolog.org/archives/2026/02/09/six-thoughts-on-generating-c</guid>
-      <pubDate>Mon, 09 Feb 2026 13:54:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46945235</comments>
+🔗 Read more: https://www.noleary.com/blog/posts/1</description>
+      <guid isPermaLink="true">https://www.noleary.com/blog/posts/1</guid>
+      <pubDate>Mon, 09 Feb 2026 20:49:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46951057</comments>
     </item>
     <item>
-      <title>スリーパー シェル: 攻撃者は Ivanti EPMM に休止中のバックドアを仕掛けています</title>
-      <link>https://defusedcyber.com/ivanti-epmm-sleeper-shells-403jsp</link>
-      <description>📝 重要なポイント: このキャンペーンでは、休止中のメモリ内 Java クラス ローダーが /mifs/403 にデプロイされました。これにより、ローダーはさまざまなコンテナ環境間で移植可能になります。これは初期アクセス ブローカー (IAB) と一致します。
+      <title>Walmart の 3.88 ドルのアナログ時計を ESP8266 ベースの Wi-Fi 時計に変換する</title>
+      <link>https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock</link>
+      <description>📝 アナログ時計が実際の時刻より遅れている場合、ESP8266 は時計が実際の時刻と一致するまで時計の秒針を進めます。アナログ クロック設定ページ アナログ クロック起動中の Arduino シリアル モニター ESP8266 が初期化を完了して動作を開始すると、クロックのステータスを示す単純な Web ページが表示されます。アナログ クロック ステータス ページ スケーラブル ベクター グラフィックを使用して時計の文字盤を描画する アナログ クロック ステータス ページ HTML キャンバス要素を使用して時計の文字盤を描画する テキストのみを表示するアナログ クロック ステータス ページ。
 
 
-🔤 Original: Sleeper Shells: Attackers Are Planting Dormant Backdoors in Ivanti EPMM
+🔤 Original: Converting a $3.88 analog clock from Walmart into a ESP8266-based Wi-Fi clock
 
-🔗 Read more: https://defusedcyber.com/ivanti-epmm-sleeper-shells-403jsp</description>
-      <guid isPermaLink="true">https://defusedcyber.com/ivanti-epmm-sleeper-shells-403jsp</guid>
-      <pubDate>Mon, 09 Feb 2026 15:11:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46946062</comments>
+🔗 Read more: https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock</description>
+      <guid isPermaLink="true">https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock</guid>
+      <pubDate>Mon, 09 Feb 2026 16:26:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46947096</comments>
     </item>
     <item>
-      <title>AI は仕事を減らすのではなく、仕事を強化する</title>
-      <link>https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it</link>
-      <description>📝 Harvard Business Review のロゴAI と機械学習AI は仕事を減らさない - それは仕事を強化する by Aruna Ranganathan と Xingqi Maggie Ye 2026 年 2 月 9 日イラスト by Eynon JonesPostPostShareSavePrint Summary。結局のところ、AI によって一部の作業 (日常的な文書の作成、情報の要約、コードのデバッグ) の負担が軽減され、従業員が価値の高いタスクにより多くの時間を費やすことができるという期待は、魅力的です。 PostPostShareSavePrint AI と機械学習、または生成 AI、テクノロジーと分析、自動化とバーンアウトに関する関連トピックについて詳しく読んでください。
+      <title>空はなぜ青いのですか?</title>
+      <link>https://explainers.blog/posts/why-is-the-sky-blue/</link>
+      <description>📝 ブルーの何が特別なのか。したがって、より高い周波数の光はより多くの散乱を意味します。そうです、青は 10 倍多く散乱します。
 
 
-🔤 Original: AI Doesn't Reduce Work–It Intensifies It
+🔤 Original: Why is the sky blue?
 
-🔗 Read more: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it</description>
-      <guid isPermaLink="true">https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it</guid>
-      <pubDate>Mon, 09 Feb 2026 14:44:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46945755</comments>
+🔗 Read more: https://explainers.blog/posts/why-is-the-sky-blue/</description>
+      <guid isPermaLink="true">https://explainers.blog/posts/why-is-the-sky-blue/</guid>
+      <pubDate>Mon, 09 Feb 2026 15:39:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46946401</comments>
     </item>
     <item>
-      <title>長年求められてきた証明により、数学の最も手に負えない方程式の一部が解明される</title>
-      <link>https://www.quantamagazine.org/long-sought-proof-tames-some-of-maths-unruliest-equations-20260206/</link>
-      <description>📝 数学者は、自分たちの解が規則的であることを示すことができませんでした。数学者は、このような状況を楕円偏微分方程式と呼ばれるものを使用して記述します。シャウダーの証明以来数十年にわたり、数学者たちは、この条件があれば、優れた「均一な」材料を記述する偏微分方程式には正規の解が存在することを保証するのに十分であることを示してきました。
+      <title>Let's Encrypt に対する今後の変更と、それが XMPP サーバー オペレーターに与える影響</title>
+      <link>https://blog.prosody.im/2026-letsencrypt-changes/</link>
+      <description>📝 証明書で使用方法を指定できる ほとんどの人は、証明書には検証済みのドメイン名が含まれていることを知っています。これは韻律に影響しますか?これは、Prosody が Let’s Encrypt の新しいサーバー専用証明書を使用しているサーバーからの接続を受け入れることを意味します。
 
 
-🔤 Original: Long-Sought Proof Tames Some of Math's Unruliest Equations
+🔤 Original: Upcoming changes to Let's Encrypt and how they affect XMPP server operators
 
-🔗 Read more: https://www.quantamagazine.org/long-sought-proof-tames-some-of-maths-unruliest-equations-20260206/</description>
-      <guid isPermaLink="true">https://www.quantamagazine.org/long-sought-proof-tames-some-of-maths-unruliest-equations-20260206/</guid>
-      <pubDate>Mon, 09 Feb 2026 14:36:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46945641</comments>
+🔗 Read more: https://blog.prosody.im/2026-letsencrypt-changes/</description>
+      <guid isPermaLink="true">https://blog.prosody.im/2026-letsencrypt-changes/</guid>
+      <pubDate>Mon, 09 Feb 2026 20:31:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46950780</comments>
     </item>
     <item>
-      <title>AT&amp;Tとベライゾン、ソルト・タイフーンのセキュリティ評価レポートの公開を阻止</title>
-      <link>https://www.reuters.com/business/media-telecom/senator-says-att-verizon-blocking-release-salt-typhoon-security-assessment-2026-02-03/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/media-telecom/senator-says-att-verizon-blocking-release-salt-typhoon-security-assessment-2026-02-03/</guid>
-      <pubDate>Mon, 09 Feb 2026 14:22:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46945497</comments>
+      <title>道路区間の衝突リスクの指標としての急ブレーキイベント</title>
+      <link>https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/</link>
+      <description>📝 我々は、HBE の発生率が高い道路では衝突リスクが著しく高いことを確認し、そのような事象が交通安全評価の主要な手段として使用できる可能性があることを示唆しています。プロアクティブな安全性評価には、「主導的な」対策が必要です。これは、安全性の結果と相関しますが、衝突よりも頻繁に発生する衝突リスクの代替手段です。急ブレーキの頻度が高い道路区間では一貫して衝突率が高く、この関係は地元の幹線道路からアクセス制御された高速道路に至るまで、さまざまな種類の道路に当てはまります。
+
+
+🔤 Original: Hard-braking events as indicators of road segment crash risk
+
+🔗 Read more: https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/</description>
+      <guid isPermaLink="true">https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/</guid>
+      <pubDate>Mon, 09 Feb 2026 17:09:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46947777</comments>
     </item>
     <item>
-      <title>香港の民主派大物富豪ジミー・ライ氏に懲役20年の実刑判決</title>
-      <link>https://www.bbc.com/news/articles/c8d5pl34vv0o</link>
-      <description>📝 香港の民主派メディア王ジミー・ライ氏に懲役20年4 時間前シェアセーブ香港のフィービー・コング、ダニー・ビンセント、ケリー・ンシェアセーブ香港の民主派メディア王ジミー・ライ氏に、物議を醸している香港国家権力の下で外国勢力と共謀した罪で懲役20年の判決が下された。安全保障法。セバスチャン氏は、この判決は「香港の法制度の完全な破壊と司法の終焉を意味する」と述べた。しかし香港当局と中国外務省は、ライ氏への判決は香港の法の支配を証明していると主張している。
+      <title>ゲームボーイアドバンスの音声補間</title>
+      <link>https://jsgroth.dev/blog/posts/gba-audio-interpolation/</link>
+      <description>📝 Game Boy Advance Audio Interpolation 2026。チャンネルの現在のサンプルを出力するだけです。ソース サンプル レート 最初のステップは、リサンプリングするソース サンプル レートを決定することです。
 
 
-🔤 Original: Hong Kong pro-democracy tycoon Jimmy Lai gets 20 years' jail
+🔤 Original: Game Boy Advance Audio Interpolation
 
-🔗 Read more: https://www.bbc.com/news/articles/c8d5pl34vv0o</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c8d5pl34vv0o</guid>
-      <pubDate>Mon, 09 Feb 2026 15:25:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46946248</comments>
+🔗 Read more: https://jsgroth.dev/blog/posts/gba-audio-interpolation/</description>
+      <guid isPermaLink="true">https://jsgroth.dev/blog/posts/gba-audio-interpolation/</guid>
+      <pubDate>Mon, 09 Feb 2026 17:44:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46948273</comments>
     </item>
     <item>
-      <title>人間のピークは中年期: 認知特性と性格特性の観点を組み合わせたもの</title>
-      <link>https://www.sciencedirect.com/science/article/pii/S0160289625000649</link>
-      <guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0160289625000649</guid>
-      <pubDate>Mon, 09 Feb 2026 14:18:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46945471</comments>
+      <title>同日に別の GitHub 障害が発生</title>
+      <link>https://www.githubstatus.com/incidents/lcw3tg2f6zsd</link>
+      <description>📝 OTP を再送信 購読すると、当社のプライバシー ポリシーに同意したものとみなされます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。
+
+
+🔤 Original: Another GitHub outage in the same day
+
+🔗 Read more: https://www.githubstatus.com/incidents/lcw3tg2f6zsd</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/incidents/lcw3tg2f6zsd</guid>
+      <pubDate>Mon, 09 Feb 2026 19:07:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46949452</comments>
     </item>
     <item>
-      <title>Show HN: Printable Classics – 趣味の製本者向けの無料の印刷可能な古典書籍</title>
-      <link>https://printableclassics.com</link>
-      <description>📝 印刷可能なクラシック |無料でカスタマイズ可能なクラシック ブック ショッピング カート × 小計: $0。 00 無料で印刷可能でカスタマイズ可能な書籍のライブラリ。素晴らしい本 ホームスクール 近日公開 デジタルを物理的なものに変える デジタル ライブラリに命を吹き込みたいと考えています。
-
-
-🔤 Original: Show HN: Printable Classics – Free printable classic books for hobby bookbinders
-
-🔗 Read more: https://printableclassics.com</description>
-      <guid isPermaLink="true">https://printableclassics.com</guid>
-      <pubDate>Mon, 09 Feb 2026 12:09:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46944365</comments>
+      <title>サンドボックス</title>
+      <link>https://neal.fun/sandboxels/</link>
+      <guid isPermaLink="true">https://neal.fun/sandboxels/</guid>
+      <pubDate>Mon, 09 Feb 2026 15:31:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46946308</comments>
     </item>
     <item>
-      <title>Discord が Teen-by-Default 設定を世界的に開始</title>
-      <link>https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally</link>
-      <description>📝 簡単な認証: ほとんどの場合、ユーザーは一度プロセスを完了すると、Discord のエクスペリエンスが認証された年齢層に適応します。 ‍デフォルトの安全設定 3 月初旬より、世界中のすべての新規および既存の Discord ユーザーに、プライバシーを最優先に保ちながら年齢に応じたエクスペリエンスをサポートする新しいデフォルト設定が割り当てられます: コンテンツ フィルター: Discord ユーザーは、機密コンテンツのぼかしを解除したり、設定をオフにしたりするには、成人として年齢保証される必要があります。 ‍10 代の若者にテーブルの席を与える: Discord Teen Council の紹介 強化された 10 代の安全機能に加えて、Discord は、Discord が彼らの体験をどのように形成するかについて、本物の 10 代の視点をもたらす 10 代の諮問機関である、初の Teen Council の募集を発表します。
+      <title>オールドロンドンの市場 (2024)</title>
+      <link>https://spitalfieldslife.com/2024/06/20/the-markets-of-old-london-i/</link>
+      <description>📝 1910年ビリングスゲート市場、c. 1910年コベントガーデンマーケット、1910年頃1910年 レザー・レーン・マーケット、1936年 ショーディッチのホクストン・マーケット、1910年 スピタルフィールズ・マーケット、1936年頃
 
 
-🔤 Original: Discord Launches Teen-by-Default Settings Globally
+🔤 Original: The Markets of Old London (2024)
 
-🔗 Read more: https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally</description>
-      <guid isPermaLink="true">https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally</guid>
-      <pubDate>Mon, 09 Feb 2026 14:44:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46945742</comments>
+🔗 Read more: https://spitalfieldslife.com/2024/06/20/the-markets-of-old-london-i/</description>
+      <guid isPermaLink="true">https://spitalfieldslife.com/2024/06/20/the-markets-of-old-london-i/</guid>
+      <pubDate>Mon, 09 Feb 2026 18:20:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46948815</comments>
+    </item>
+    <item>
+      <title>AI監視ネットワークを宣伝したリングカメラのスーパーボウル広告</title>
+      <link>https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/</link>
+      <description>📝 100 万ドルの取り組みとして、Ring カメラ システムを導入し、迷子のペットの発見にさらに役立つと主張しています。各家庭にはビデオドアベルカメラがあり、Ring は最も人気のあるブランドの 1 つです。 、何百万人ものアメリカ人を追跡する能力を備えています。
+
+
+🔤 Original: Super Bowl Ad for Ring Cameras Touted AI Surveillance Network
+
+🔗 Read more: https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/</description>
+      <guid isPermaLink="true">https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/</guid>
+      <pubDate>Mon, 09 Feb 2026 20:41:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46950915</comments>
+    </item>
+    <item>
+      <title>多関節射手のオートマトン [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=Bc0bIpDVEa8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=Bc0bIpDVEa8</guid>
+      <pubDate>Mon, 09 Feb 2026 19:32:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46949864</comments>
+    </item>
+    <item>
+      <title>ルーチェ：初の電動フェラーリ。ラブフロムによって設計されました</title>
+      <link>https://www.ferrari.com/en-US/auto/ferrari-luce</link>
+      <guid isPermaLink="true">https://www.ferrari.com/en-US/auto/ferrari-luce</guid>
+      <pubDate>Mon, 09 Feb 2026 19:19:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46949642</comments>
+    </item>
+    <item>
+      <title>GitHubがまたダウンしてる</title>
+      <link>https://www.githubstatus.com/incidents/54hndjxft5bx</link>
+      <description>📝 OTP を再送信 購読すると、当社のプライバシー ポリシーに同意したものとみなされます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。
+
+
+🔤 Original: GitHub is down again
+
+🔗 Read more: https://www.githubstatus.com/incidents/54hndjxft5bx</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/incidents/54hndjxft5bx</guid>
+      <pubDate>Mon, 09 Feb 2026 16:12:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46946827</comments>
+    </item>
+    <item>
+      <title>MIT 生活賃金計算ツール</title>
+      <link>https://livingwage.mit.edu/</link>
+      <description>📝 生存賃金計算ツールとは何ですか。私たちは、個人、地域社会、雇用主などが、フルタイム労働者が住んでいる場所で家族の基本的ニーズの費用を賄うために必要な現地の賃金率を見積もることを支援するために、生活賃金計算ツールを開発しました。以下の 12 の異なる家族タイプについて、あなたの郡、大都市圏、または州の生活賃金を調べてください。
+
+
+🔤 Original: MIT Living Wage Calculator
+
+🔗 Read more: https://livingwage.mit.edu/</description>
+      <guid isPermaLink="true">https://livingwage.mit.edu/</guid>
+      <pubDate>Mon, 09 Feb 2026 19:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46950152</comments>
     </item>
   </channel>
 </rss>
