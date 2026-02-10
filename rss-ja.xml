@@ -6,86 +6,205 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Feb 2026 13:14:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 16:09:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Show HN: Pipelock – AI コーディング エージェント用のオールインワン セキュリティ ハーネス</title>
-      <link>https://github.com/luckyPipewrench/pipelock</link>
-      <description>📝 com/luckyPipewrench/pipelock/cmd/pipelock@latest # 構成パイプロックを生成します config --preset Balanced -o Pipelock を生成します。 yaml # プロキシ パイプロックを開始します --config Pipelock を実行します。 com -d $SECRET 防止済み 防止済み URL クエリ パラメーターのログ記録 防止済み 検出 (DLP スキャン) URL 内の Base64 エンコードされたシークレットの記録 防止済み 検出済み (エントロピー スキャン) ログ記録あり DNS トンネリングの記録済み 防止済み 防止済み (制限付き DNS) ログ記録済み チャンク抽出の記録済み 検出済み (レート制限) 記録済み URL の公開キー暗号化 BLOB 記録済み 防止済み ログ記録(エントロピーによりフラグが付けられます) 記録された正直な評価: 厳密モードは数学的確実性を提供します。
+      <title>解析する、検証しない (2019)</title>
+      <link>https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/</link>
+      <description>📝 リストが空の場合、リストの最初の要素を返すことはできないため、これは当然のことです。返す要素がありません。したがって、驚くべきことに、この関数も実装できないことが分かりました。ヘッドを実装する場合、Maybe を返すのは間違いなく便利です。
 
 
-🔤 Original: Show HN: Pipelock – All-in-one security harness for AI coding agents
+🔤 Original: Parse, Don't Validate (2019)
 
-🔗 Read more: https://github.com/luckyPipewrench/pipelock</description>
-      <guid isPermaLink="true">https://github.com/luckyPipewrench/pipelock</guid>
-      <pubDate>Tue, 10 Feb 2026 12:04:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46958597</comments>
+🔗 Read more: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/</description>
+      <guid isPermaLink="true">https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/</guid>
+      <pubDate>Tue, 10 Feb 2026 14:49:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46960392</comments>
     </item>
     <item>
-      <title>オーストラリア人作家の官能小説は児童性的虐待の題材であると裁判官が認定</title>
-      <link>https://www.bbc.com/news/articles/ckgzv529v5no</link>
-      <description>📝 オーストラリアの作家の官能小説は児童性的虐待の題材であると裁判官が認定6 時間前シェア保存ティファニー・ターンブルシドニーシェア保存ゲッティイメージズ官能的な年の差小説は子供を性的対象としており、裁判官が述べたオーストラリアの作家が、エロティックな年の差ロマンス小説の形で児童の性的虐待の題材を作成したとして有罪判決を受けた。しかし、ブリー・チザム判事は火曜日、マストロサの話は「子供を性的に対象としている」と認定した。 「読者は、成人男性が幼い子供と性行為を行っているという視覚的なイメージを頭の中に作り出す描写を残されます。
+      <title>Vulkan を一度に 1 つのサブシステムずつ簡略化する</title>
+      <link>https://www.khronos.org/blog/simplifying-vulkan-one-subsystem-at-a-time</link>
+      <description>📝 この拡張機能には、Vulkan ワーキング グループのほぼ全員から有意義な意見が寄せられました。私たちも皆さんからの賛同を得たいと考えています。これほど大きなことなので、確実に正しくやり遂げたいと考えています。
 
 
-🔤 Original: Australian author's erotic novel is child sex abuse material, judge finds
+🔤 Original: Simplifying Vulkan One Subsystem at a Time
 
-🔗 Read more: https://www.bbc.com/news/articles/ckgzv529v5no</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/ckgzv529v5no</guid>
-      <pubDate>Tue, 10 Feb 2026 12:52:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46959067</comments>
+🔗 Read more: https://www.khronos.org/blog/simplifying-vulkan-one-subsystem-at-a-time</description>
+      <guid isPermaLink="true">https://www.khronos.org/blog/simplifying-vulkan-one-subsystem-at-a-time</guid>
+      <pubDate>Tue, 10 Feb 2026 13:26:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46959418</comments>
     </item>
     <item>
-      <title>Quake 1 エンジン上での Half-Life 2 のクリーンルーム実装</title>
-      <link>https://code.idtech.space/fn/hl2</link>
-      <description>📝 Anubis では最新の JavaScript 機能を使用する必要があるため、JShelter などのプラグインでは無効になることに注意してください。このドメインの JShelter またはその他の同様のプラグインを無効にしてください。この Web サイトは Anubis バージョン 1 を実行しています。
+      <title>オキサイドがシリーズCで2億ドルを調達</title>
+      <link>https://oxide.computer/blog/our-200m-series-c</link>
+      <description>📝 当社の 2 億ドルのシリーズ C5 2026 年 2 月当社は 2 億ドルのシリーズ C を調達しました。はい、二重に考えていただいても構いません。1 億ドルのシリーズ B を調達したばかりではないでしょうか。この大規模なシリーズ C により、当社は今後の資本のリスクを完全に排除し、その結果当社の独立性が確保されます。当社のシリーズ C では、お客様は当社の言葉をそのまま受け入れる必要はありません。当社には、無限の将来に向けて存続を保証するための資本が備わっています。
 
 
-🔤 Original: Clean-room implementation of Half-Life 2 on the Quake 1 engine
+🔤 Original: Oxide raises $200M Series C
 
-🔗 Read more: https://code.idtech.space/fn/hl2</description>
-      <guid isPermaLink="true">https://code.idtech.space/fn/hl2</guid>
-      <pubDate>Tue, 10 Feb 2026 11:21:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46958231</comments>
+🔗 Read more: https://oxide.computer/blog/our-200m-series-c</description>
+      <guid isPermaLink="true">https://oxide.computer/blog/our-200m-series-c</guid>
+      <pubDate>Tue, 10 Feb 2026 14:20:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46960036</comments>
     </item>
     <item>
-      <title>ライス理論: なぜ東洋の文化はより協力的なのか</title>
-      <link>https://www.npr.org/sections/thesalt/2014/05/08/310477497/rice-theory-why-eastern-cultures-are-more-cooperative</link>
-      <description>📝 " 水田には灌漑システムも必要です。 John Moore/Getty Images もちろん、この米理論を提案するのは簡単です。そして、どの人々がより西洋人のように考える傾向があるかを推測してください。
+      <title>Show HN: ネットワーク エンジニア向けの macOS ツールを作成しました – それは NetViews と呼ばれます</title>
+      <link>https://www.netviews.app</link>
+      <description>📝 お使いの Mac を、プロフェッショナル グレードのネットワーク診断、監視、分析をすべて Mac から行える最も強力なネットワーク診断ツールに変えます。ネットワークの診断と監視に必要なものがすべて揃っています。ボリュームライセンスが利用可能です。
 
 
-🔤 Original: Rice Theory: Why Eastern Cultures Are More Cooperative
+🔤 Original: Show HN: I built a macOS tool for network engineers – it's called NetViews
 
-🔗 Read more: https://www.npr.org/sections/thesalt/2014/05/08/310477497/rice-theory-why-eastern-cultures-are-more-cooperative</description>
-      <guid isPermaLink="true">https://www.npr.org/sections/thesalt/2014/05/08/310477497/rice-theory-why-eastern-cultures-are-more-cooperative</guid>
-      <pubDate>Tue, 10 Feb 2026 12:34:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46958890</comments>
+🔗 Read more: https://www.netviews.app</description>
+      <guid isPermaLink="true">https://www.netviews.app</guid>
+      <pubDate>Tue, 10 Feb 2026 05:20:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46955712</comments>
     </item>
     <item>
-      <title>AI は仕事を減らすのではなく、強化する</title>
-      <link>https://simonwillison.net/2026/Feb/9/ai-intensifies-work/</link>
-      <description>📝 最近の記事 StrongDM の AI チームがコードを見ずに本格的なソフトウェアを構築する方法 - 2026 年 2 月 7 日 Pydantic の Monty Rust サンドボックス化された Python サブセットを WebAssembly で実行する - 2026 年 2 月 6 日 go-to-wheel を使用して PyPI 経由で sqlite-scanner などの Go バイナリを配布する - 2026 年 2 月 4 日
+      <title>7 歳のときにプログラミングを始めました。現在 50 歳ですが、好きだったものは変わりました</title>
+      <link>https://www.jamesdrandall.com/posts/the_thing_i_loved_has_changed/</link>
+      <description>📝 私はその機械を完全に理解しました。当時のマシンにはそれぞれ個性がありました。これらは、目に見えるトレードオフを伴うエンジニアリングの冒険でした。
 
 
-🔤 Original: AI doesn’t reduce work, it intensifies it
+🔤 Original: I started programming when I was 7. I'm 50 now and the thing I loved has changed
 
-🔗 Read more: https://simonwillison.net/2026/Feb/9/ai-intensifies-work/</description>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/9/ai-intensifies-work/</guid>
-      <pubDate>Tue, 10 Feb 2026 05:19:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46955703</comments>
+🔗 Read more: https://www.jamesdrandall.com/posts/the_thing_i_loved_has_changed/</description>
+      <guid isPermaLink="true">https://www.jamesdrandall.com/posts/the_thing_i_loved_has_changed/</guid>
+      <pubDate>Tue, 10 Feb 2026 15:08:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46960675</comments>
     </item>
     <item>
-      <title>Show HN: Kanban-md – ローカル エージェントのコラボレーション用に構築されたファイルベースの CLI カンバン</title>
-      <link>https://github.com/antopolskiy/kanban-md</link>
-      <description>📝 kanban-md エージェントファーストのファイルベースのかんばん。 kanban-md スキルインストール経由でインストール可能。 # 現在のディレクトリでボードを初期化します kanban-md init --name "My Project" # いくつかのタスクを作成します kanban-md create "Set up CI Pipeline" --priority high --tags devops kanban-md create "Write API docs" --assignee alice --due 2026-03-01 kanban-md create "Fix login bug" --status todo --prioritycritical # すべてのタスクを一覧表示しますkanban-md list # フィルターと並べ替え kanban-md list --status todo,in-progress --sort priority --reverse # タスクを前に移動 kanban-md move 3 in-progress kanban-md move 3 --next # タスクを編集 kanban-md edit 2 --add-tag document --body "Cover all REST endpoints" # タスクの詳細を表示 kanban-md show 1 # タスクの完了 kanban-md move 1 完了 # または削除します kanban-md delete 3 --yes 仕組み kanban-md init を実行すると、kanban/ ディレクトリ: kanban/ config が作成されます。
+      <title>バザイト事後分析</title>
+      <link>https://ba.antheas.dev/bazzite-postmortem.html</link>
+      <guid isPermaLink="true">https://ba.antheas.dev/bazzite-postmortem.html</guid>
+      <pubDate>Tue, 10 Feb 2026 15:40:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46961261</comments>
+    </item>
+    <item>
+      <title>Go 関数の再定義</title>
+      <link>https://pboyd.io/posts/redefining-go-functions/</link>
+      <description>📝 Go はすべてを根本的に変えたのでしょうか。そこで、この機能を時間を置き換えたいと考えています。 Now:func myTimeNow() 時間。
 
 
-🔤 Original: Show HN: Kanban-md – File-based CLI Kanban built for local agents collaboration
+🔤 Original: Redefining Go Functions
 
-🔗 Read more: https://github.com/antopolskiy/kanban-md</description>
-      <guid isPermaLink="true">https://github.com/antopolskiy/kanban-md</guid>
-      <pubDate>Tue, 10 Feb 2026 10:14:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46957653</comments>
+🔗 Read more: https://pboyd.io/posts/redefining-go-functions/</description>
+      <guid isPermaLink="true">https://pboyd.io/posts/redefining-go-functions/</guid>
+      <pubDate>Tue, 10 Feb 2026 14:27:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46960118</comments>
+    </item>
+    <item>
+      <title>欧州の24兆ドル、ビザとマスターカードとの決別が始まる</title>
+      <link>https://europeanbusinessmagazine.com/business/europes-24-trillion-breakup-with-visa-and-mastercard-has-begun/</link>
+      <description>📝 今年、国境を越えたピアツーピア決済が開始され、2027 年には電子商取引と POS 決済が続きます。消費者が Visa と Mastercard を所持しているため、加盟店は Visa と Mastercard を受け入れます。販売者がそれを受け入れるので、消費者はそれらを持ちます。
+
+
+🔤 Original: Europe's $24T Breakup with Visa and Mastercard Has Begun
+
+🔗 Read more: https://europeanbusinessmagazine.com/business/europes-24-trillion-breakup-with-visa-and-mastercard-has-begun/</description>
+      <guid isPermaLink="true">https://europeanbusinessmagazine.com/business/europes-24-trillion-breakup-with-visa-and-mastercard-has-begun/</guid>
+      <pubDate>Tue, 10 Feb 2026 11:42:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46958399</comments>
+    </item>
+    <item>
+      <title>米国は史上初の人口減少に直面している</title>
+      <link>https://www.bloomberg.com/news/articles/2026-01-30/trump-immigration-crackdown-could-shrink-us-population-for-first-time</link>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-01-30/trump-immigration-crackdown-could-shrink-us-population-for-first-time</guid>
+      <pubDate>Tue, 10 Feb 2026 15:05:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46960624</comments>
+    </item>
+    <item>
+      <title>アメリカの1兆ドルAIギャンブル</title>
+      <link>https://www.apricitas.io/p/americas-1t-ai-gamble</link>
+      <description>📝 過去 6 か月で成長は鈍化しましたが、投資は依然として昨年だけで 18% 以上増加しています。それでも、データセンター施設への支出は今やオフィス建設の総額に匹敵し、コンピュータへの支出は工場建設全体を上回り、ソフトウェアへの投資への支出は今や新築住宅建設に比べて小さくなっている。昨年、これらのハイテク企業は約2万人の雇用を削減した一方、不動産、工場、設備の純保有額は2150億ドル以上増加し、これは史上最速の成長となった。
+
+
+🔤 Original: America's $1T AI Gamble
+
+🔗 Read more: https://www.apricitas.io/p/americas-1t-ai-gamble</description>
+      <guid isPermaLink="true">https://www.apricitas.io/p/americas-1t-ai-gamble</guid>
+      <pubDate>Tue, 10 Feb 2026 13:48:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46959679</comments>
+    </item>
+    <item>
+      <title>元GitHub CEOがAIエージェント向けの新しい開発者プラットフォームを立ち上げる</title>
+      <link>https://entire.io/blog/hello-entire-world/</link>
+      <guid isPermaLink="true">https://entire.io/blog/hello-entire-world/</guid>
+      <pubDate>Tue, 10 Feb 2026 15:44:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46961345</comments>
+    </item>
+    <item>
+      <title>陪審は画期的な米国裁判でメタとグーグルが「依存症を仕組んだ」と述べた</title>
+      <link>https://techxplore.com/news/2026-02-jury-told-meta-google-addiction.html</link>
+      <description>📝 カリフォルニア州の裁判所で画期的なソーシャルメディア裁判が本格的に始まる中、メタとグーグル傘下のユーチューブは月曜日、子供たちに中毒性の高いアプリを押し付けたとして告発された。彼女は子供の頃にソーシャルメディア中毒になったため、深刻な精神的ダメージを受けました。しかし、この訴訟は、人々の注意を引きつけ、精神的健康を害する可能性のあるコンテンツを宣伝するように設計されたビジネスモデルに関して、これらの企業が責任を負っていると主張しています。
+
+
+🔤 Original: Jury told that Meta, Google 'engineered addiction' at landmark US trial
+
+🔗 Read more: https://techxplore.com/news/2026-02-jury-told-meta-google-addiction.html</description>
+      <guid isPermaLink="true">https://techxplore.com/news/2026-02-jury-told-meta-google-addiction.html</guid>
+      <pubDate>Tue, 10 Feb 2026 14:02:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46959832</comments>
+    </item>
+    <item>
+      <title>Show HN: Distr 2.0 – 顧客環境への出荷方法を学ぶ 1 年間</title>
+      <link>https://github.com/distr-sh/distr</link>
+      <description>📝 Kubernetes に Distr をインストールするには、helm upgrade --install --wait --namespace distr --create-namespace \ distr oci://ghcr を実行するだけです。 sh/docs/self-hosting/self-hosting/ macOS での Distr エージェントの使用。 Distr SDK ファーストパーティ SDK を使用して、アプリケーション コードから直接 Distr と対話します。
+
+
+🔤 Original: Show HN: Distr 2.0 – A year of learning how to ship to customer environments
+
+🔗 Read more: https://github.com/distr-sh/distr</description>
+      <guid isPermaLink="true">https://github.com/distr-sh/distr</guid>
+      <pubDate>Tue, 10 Feb 2026 12:19:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46958742</comments>
+    </item>
+    <item>
+      <title>VercelのCEO、「Jmail」の費用負担を申し出る</title>
+      <link>https://www.threads.com/@qa_test_hq/post/DUkC_zjiGQh</link>
+      <description>📝 Vercel の CEO は、「Jmail」がエプスタイン ファイル HomeSearchCreateNotificationsProfilePinMoreMoreBackThread11 を追跡するナンバー 1 のサイトになったため、その費用を負担すると申し出ています。 4K ビューqa_test_hqThread12hMoreVercel の CEO、「Jmail」がエプスタイン ファイル追跡でナンバー 1 サイトになったため、費用負担を申し出るLike751Comment10Repost31Share23スレッドにログインまたはサインアップ人々が話している内容を見て、会話に参加しましょう。 Instagram代わりにユーザー名を使用してログインしてください。
+
+
+🔤 Original: Vercel's CEO offers to cover expenses of 'Jmail'
+
+🔗 Read more: https://www.threads.com/@qa_test_hq/post/DUkC_zjiGQh</description>
+      <guid isPermaLink="true">https://www.threads.com/@qa_test_hq/post/DUkC_zjiGQh</guid>
+      <pubDate>Tue, 10 Feb 2026 14:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46960517</comments>
+    </item>
+    <item>
+      <title>フォームコア引き出しオーガナイザーを構築するための方法と計算機</title>
+      <link>https://capnfabs.net/posts/foamcore-would-be-a-sick-name-for-a-music-genre/</link>
+      <guid isPermaLink="true">https://capnfabs.net/posts/foamcore-would-be-a-sick-name-for-a-music-genre/</guid>
+      <pubDate>Mon, 09 Feb 2026 19:32:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46949870</comments>
+    </item>
+    <item>
+      <title>ゼロからの RLHF</title>
+      <link>https://github.com/ashworks1706/rlhf-from-scratch</link>
+      <description>📝 rlhf-from-scratch 実践的な RLHF チュートリアルと最小限のコード例。コードが実装するもの (短い) src/ppo/ppo_trainer。 ipynb — 断片 (理論、小さな実験、および上記のコードを呼び出す例) を結び付けるノートブック。
+
+
+🔤 Original: RLHF from Scratch
+
+🔗 Read more: https://github.com/ashworks1706/rlhf-from-scratch</description>
+      <guid isPermaLink="true">https://github.com/ashworks1706/rlhf-from-scratch</guid>
+      <pubDate>Tue, 10 Feb 2026 11:39:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46958378</comments>
+    </item>
+    <item>
+      <title>一部の GitHub サービスの中断</title>
+      <link>https://www.githubstatus.com/incidents/wkgqj4546z1c</link>
+      <description>📝 OTP を再送信 購読すると、当社のプライバシー ポリシーに同意したものとみなされます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。
+
+
+🔤 Original: Disruption with Some GitHub Services
+
+🔗 Read more: https://www.githubstatus.com/incidents/wkgqj4546z1c</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/incidents/wkgqj4546z1c</guid>
+      <pubDate>Tue, 10 Feb 2026 15:12:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46960743</comments>
     </item>
   </channel>
 </rss>
