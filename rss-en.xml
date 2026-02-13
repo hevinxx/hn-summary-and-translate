@@ -6,65 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 02:12:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 04:53:51 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Resizing windows on macOS Tahoe – the saga continues</title>
-      <link>https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/</link>
-      <description>📝 3, Release Candidate In the release notes for macOS 26. It performs a pixel-by-pixel scan in the area around the bottom-right corner of the window, hammering it with simulated mouse clicks to detect exactly where it responds to those clicks (red), where it’s about to resize (green), where it’s about to resize vertically or horizontally only (yellow), and where it doesn’t receive any mouse events at all (blue). And indeed, the window resize areas now follow the corner radius instead of using square regions: So that’s definitely better.
+      <title>Evaluating Multilingual, Context-Aware Guardrails: A Humanitarian LLM Use Case</title>
+      <link>https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/</link>
+      <description>📝 Pakzad’s work on Multilingual AI Safety Evaluations provided the humanitarian case study, along with the scenario design and guardrail policy development for this experiment. Glider: A customizable, rubric-based guardrail that scores LLM responses against custom criteria. Policy Development We developed guardrail policies in both English and Farsi, grounded in evaluation criteria from the Multilingual Humanitarian Response Eval (MHRE) dataset.
 
-🔗 Read more: https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/</description>
-      <guid isPermaLink="true">https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/</guid>
-      <pubDate>Thu, 12 Feb 2026 23:52:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46997008</comments>
+🔗 Read more: https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/</description>
+      <guid isPermaLink="true">https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/</guid>
+      <pubDate>Thu, 12 Feb 2026 22:34:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46996258</comments>
     </item>
     <item>
-      <title>AWS Adds support for nested virtualization</title>
-      <link>https://github.com/aws/aws-sdk-go-v2/commit/3dca5e45d5ad05460b93410087833cbaa624754e</link>
-      <description>📝 5k File treeExpand file treeCollapse file tree6 files changed+12-22lines changedOpen diff view settingsFilter options. json‎Copy file name to clipboardExpand all lines:. json‎Copy file name to clipboardExpand all lines:.
+      <title>Tell HN: Ralph Giles has died (Xiph.org| Rust@Mozilla | Ghostscript)</title>
+      <link>https://news.ycombinator.com/item?id=46996490</link>
+      <description>📝 Ralph began contributing to Xiph. Official Announcement: https://www. com/feed/update/urn:li:activity:7427730.
 
-🔗 Read more: https://github.com/aws/aws-sdk-go-v2/commit/3dca5e45d5ad05460b93410087833cbaa624754e</description>
-      <guid isPermaLink="true">https://github.com/aws/aws-sdk-go-v2/commit/3dca5e45d5ad05460b93410087833cbaa624754e</guid>
-      <pubDate>Fri, 13 Feb 2026 00:07:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46997133</comments>
-    </item>
-    <item>
-      <title>Ring cancels its partnership with Flock Safety after surveillance backlash</title>
-      <link>https://www.theverge.com/news/878447/ring-flock-partnership-canceled</link>
-      <description>📝 Following intense backlash to its partnership with Flock Safety, a surveillance technology company that works with law enforcement agencies, Ring has announced it is canceling the integration. ”RelatedFlock says it’s “pausing” exploring a partnership with Ring. ”Why did Ring partner with Flock.
-
-🔗 Read more: https://www.theverge.com/news/878447/ring-flock-partnership-canceled</description>
-      <guid isPermaLink="true">https://www.theverge.com/news/878447/ring-flock-partnership-canceled</guid>
-      <pubDate>Thu, 12 Feb 2026 23:51:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46996999</comments>
-    </item>
-    <item>
-      <title>Skip the Tips: A game to select "No Tip" but dark patterns try to stop you</title>
-      <link>https://skipthe.tips/</link>
-      <description>📝 A free browser game that challenges you to press "No Tip" while dark patterns try to trick you into tipping. Every checkout screen has become a guilt machine. Features over 30 dark patterns inspired by real-world tipping screens, progressive difficulty, and a timer that keeps shrinking.
-
-🔗 Read more: https://skipthe.tips/</description>
-      <guid isPermaLink="true">https://skipthe.tips/</guid>
-      <pubDate>Fri, 13 Feb 2026 00:54:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46997519</comments>
-    </item>
-    <item>
-      <title>What 1.4M emails reveal about America's most notorious sex offender</title>
-      <link>https://www.economist.com/interactive/international/2026/02/12/inside-epsteins-network</link>
-      <guid isPermaLink="true">https://www.economist.com/interactive/international/2026/02/12/inside-epsteins-network</guid>
-      <pubDate>Fri, 13 Feb 2026 01:09:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46997658</comments>
-    </item>
-    <item>
-      <title>Recoverable and Irrecoverable Decisions</title>
-      <link>https://herbertlui.net/recoverable-and-irrecoverable-decisions/</link>
-      <description>📝 Can you recover from spending nearly $1,000. In other words, how can you make this decision more recoverable. Entrepreneurship involves the skill of making more decisions recoverable.
-
-🔗 Read more: https://herbertlui.net/recoverable-and-irrecoverable-decisions/</description>
-      <guid isPermaLink="true">https://herbertlui.net/recoverable-and-irrecoverable-decisions/</guid>
-      <pubDate>Thu, 12 Feb 2026 23:08:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=46996569</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=46996490</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46996490</guid>
+      <pubDate>Thu, 12 Feb 2026 22:58:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=46996490</comments>
     </item>
   </channel>
 </rss>
