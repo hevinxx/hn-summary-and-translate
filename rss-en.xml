@@ -6,38 +6,66 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 18:51:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 21:36:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>CBP Signs Clearview AI Deal to Use Face Recognition for 'Tactical Targeting'</title>
-      <link>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</link>
-      <description>📝 Save StorySave this storySave StorySave this storyUnited States Customs and Border Protection plans to spend $225,000 for a year of access to Clearview AI, a face recognition tool that compares photos against billions of images scraped from the internet. Last week, Senator Ed Markey introduced legislation that would bar ICE and CBP from using face recognition technology altogether, citing concerns that biometric surveillance is being embedded without clear limits, transparency, or public consent. Images captured at border crossings that were “not originally intended for automated face recognition” produced error rates that were “much higher, often in excess of 20 percent, even with the more accurate algorithms,” federal scientists say.
-
-🔗 Read more: https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</description>
-      <guid isPermaLink="true">https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</guid>
-      <pubDate>Fri, 13 Feb 2026 17:13:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47005081</comments>
+      <title>GPT-5.2 derives a new result in theoretical physics</title>
+      <link>https://openai.com/index/new-result-theoretical-physics/</link>
+      <guid isPermaLink="true">https://openai.com/index/new-result-theoretical-physics/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:20:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006594</comments>
     </item>
     <item>
-      <title>IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes</title>
-      <link>https://github.com/nearai/ironclaw</link>
-      <description>📝 IronClaw Your secure personal AI assistant, always on your side Philosophy • Features • Installation • Configuration • Security • Architecture Philosophy IronClaw is built on a simple principle: your AI assistant should work for you, not against you. Security IronClaw implements defense in depth to protect your data and prevent misuse. WASM Sandbox All untrusted tools run in isolated WebAssembly containers: Capability-based permissions - Explicit opt-in for HTTP, secrets, tool invocation Endpoint allowlisting - HTTP requests only to approved hosts/paths Credential injection - Secrets injected at host boundary, never exposed to WASM code Leak detection - Scans requests and responses for secret exfiltration attempts Rate limiting - Per-tool request limits to prevent abuse Resource limits - Memory, CPU, and execution time constraints WASM ──► Allowlist ──► Leak Scan ──► Credential ──► Execute ──► Leak Scan ──► WASM Validator (request) Injector Request (response) Prompt Injection Defense External content passes through multiple security layers: Pattern-based detection of injection attempts Content sanitization and escaping Policy rules with severity levels (Block/Warn/Review/Sanitize) Tool output wrapping for safe LLM context injection Data Protection All data stored locally in your PostgreSQL database Secrets encrypted with AES-256-GCM No telemetry, analytics, or data sharing Full audit log of all tool executions Architecture ┌────────────────────────────────────────────────────────────.
+      <title>AI safety leader says 'world is in peril' and quits to study poetry</title>
+      <link>https://www.bbc.com/news/articles/c62dlvdq3e3o</link>
+      <description>📝 It comes in the same week that an OpenAI researcher said she had resigned, sharing concerns about the ChatGPT maker's decision to deploy adverts in its chatbot. Sharma said he would instead look to pursue a poetry degree and writing. Zoe Hitzig said her concerns stemmed from the possible psychosocial impacts of a "new type of social interaction" that were not yet understood.
 
-🔗 Read more: https://github.com/nearai/ironclaw</description>
-      <guid isPermaLink="true">https://github.com/nearai/ironclaw</guid>
-      <pubDate>Fri, 13 Feb 2026 16:10:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47004312</comments>
+🔗 Read more: https://www.bbc.com/news/articles/c62dlvdq3e3o</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c62dlvdq3e3o</guid>
+      <pubDate>Fri, 13 Feb 2026 21:10:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47007877</comments>
     </item>
     <item>
-      <title>I spent two days gigging at RentAHuman and didn't make a single cent</title>
-      <link>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</link>
-      <description>📝 CommentLoaderSave StorySave this storyCommentLoaderSave StorySave this storyI’m not above doing some gig work to make ends meet. The site’s homepage declares that these bots need your physical body to complete tasks, and the humans behind these autonomous agents are willing to pay. Now, I’m learning this whole thing was partially some human’s idea.
+      <title>Building a TUI is easy now</title>
+      <link>https://hatchet.run/blog/tuis-are-easy-now</link>
+      <description>📝 Ultimately, we decided against it, but that first experience with Claude Code stuck with me. It's much easier than I was expecting, using a few neat tricks with Claude Code. Claude Code is much more effective when using a reference implementation.
 
-🔗 Read more: https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</description>
-      <guid isPermaLink="true">https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</guid>
-      <pubDate>Fri, 13 Feb 2026 16:11:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47004319</comments>
+🔗 Read more: https://hatchet.run/blog/tuis-are-easy-now</description>
+      <guid isPermaLink="true">https://hatchet.run/blog/tuis-are-easy-now</guid>
+      <pubDate>Fri, 13 Feb 2026 17:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47005509</comments>
+    </item>
+    <item>
+      <title>Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs</title>
+      <link>https://cloudrouter.dev/</link>
+      <description>📝 # Open a URL in the sandbox browser cloudrouter browser open cr_abc123 "https://example. com" cloudrouter browser fill cr_abc123 @e2 "password123" cloudrouter browser click cr_abc123 @e3 # Take a screenshot cloudrouter browser screenshot cr_abc123 result. Sandbox with H100 GPU (80GB VRAM) Manage: cloudrouter ls List all sandboxes cloudrouter code &lt;id&gt; Open VS Code in browser cloudrouter jupyter &lt;id&gt; Open Jupyter Lab in browser cloudrouter pty &lt;id&gt; Open terminal session cloudrouter vnc &lt;id&gt; Open VNC desktop cloudrouter stop &lt;id&gt; Pause sandbox cloudrouter resume &lt;id&gt; Resume paused sandbox Browser automation: cloudrouter browser snapshot -i &lt;id&gt; Get interactive elements cloudrouter browser open &lt;id&gt; &lt;url&gt; Navigate to URL cloudrouter browser screenshot &lt;id&gt; Take screenshot Run "cloudrouter start --help" for all options.
+
+🔗 Read more: https://cloudrouter.dev/</description>
+      <guid isPermaLink="true">https://cloudrouter.dev/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:02:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006393</comments>
+    </item>
+    <item>
+      <title>The Sharp PC-2000 Computer Boombox from 1979</title>
+      <link>https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</link>
+      <guid isPermaLink="true">https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</guid>
+      <pubDate>Fri, 13 Feb 2026 18:35:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006055</comments>
+    </item>
+    <item>
+      <title>Age of Empires: 25 years of pathfinding problems with C++ [video]</title>
+      <link>https://www.youtube.com/watch?v=lEBQveBCtKY</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=lEBQveBCtKY</guid>
+      <pubDate>Fri, 13 Feb 2026 18:56:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006316</comments>
+    </item>
+    <item>
+      <title>GovDash (YC W22) Is Hiring Senior Engineers (Product and Search) in NYC</title>
+      <link>https://www.workatastartup.com/companies/govdash</link>
+      <guid isPermaLink="true">https://www.workatastartup.com/companies/govdash</guid>
+      <pubDate>Fri, 13 Feb 2026 12:01:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47001756</comments>
     </item>
   </channel>
 </rss>

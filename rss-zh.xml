@@ -6,47 +6,75 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Feb 2026 18:51:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 21:36:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>CBP 签署 Clearview AI 协议，利用人脸识别进行“战术定位”</title>
-      <link>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</link>
-      <description>📝 美国海关和边境保护局计划花费 225,000 美元购买 Clearview AI 一年的使用权，这是一种人脸识别工具，可以将照片与从互联网上抓取的数十亿张图像进行比较。上周，参议员埃德·马基 (Ed Markey) 提出立法，禁止 ICE 和 CBP 完全使用人脸识别技术，理由是担心在没有明确限制、透明度或公众同意的情况下嵌入生物识别监控。联邦科学家表示，在过境点拍摄的图像“最初并非用于自动人脸识别”，产生的错误率“要高得多，通常超过 20%，即使使用更准确的算法也是如此”。
-
-
-🔤 Original: CBP Signs Clearview AI Deal to Use Face Recognition for 'Tactical Targeting'
-
-🔗 Read more: https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</description>
-      <guid isPermaLink="true">https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</guid>
-      <pubDate>Fri, 13 Feb 2026 17:13:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47005081</comments>
+      <title>GPT-5.2得出理论物理新结果</title>
+      <link>https://openai.com/index/new-result-theoretical-physics/</link>
+      <guid isPermaLink="true">https://openai.com/index/new-result-theoretical-physics/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:20:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006594</comments>
     </item>
     <item>
-      <title>IronClaw：基于 Rust 的 clawd，在隔离的 WASM 沙箱中运行工具</title>
-      <link>https://github.com/nearai/ironclaw</link>
-      <description>📝 IronClaw 您安全的个人AI 助手，始终在您身边 理念• 功能• 安装• 配置• 安全• 架构理念IronClaw 建立在一个简单的原则之上：您的AI 助手应该为您工作，而不是与您作对。安全性 IronClaw 实施深度防御来保护您的数据并防止滥用。 WASM 沙箱 所有不受信任的工具都在隔离的 WebAssembly 容器中运行： 基于功能的权限 - 显式选择加入 HTTP、机密、工具调用 端点白名单 - 仅向批准的主机/路径发出 HTTP 请求 凭证注入 - 在主机边界注入机密，从不暴露于 WASM 代码 泄漏检测 - 扫描请求和响应以进行机密泄露尝试 速率限制 - 每个工具的请求限制以防止滥用 资源限制 - 内存、CPU 和执行时间限制 WASM ──►白名单 ──► 泄漏扫描 ──► 凭证 ──► 执行 ──► 泄漏扫描 ──► WASM 验证器（请求） 注入器请求（响应） 提示注入防御 外部内容通过多个安全层： 基于模式的注入尝试检测 内容清理和转义 具有严重级别的策略规则（阻止/警告/审查/清理） 用于安全 LLM 上下文注入的工具输出包装 数据保护 本地存储在 PostgreSQL 数据库中的所有数据 秘密使用 AES-256-GCM 加密 无遥测、分析或数据共享 所有工具执行的完整审核日志 架构 ┌────────────────────────────────────────────────────────。
+      <title>人工智能安全领袖表示“世界正处于危险之中”并退出学习诗歌</title>
+      <link>https://www.bbc.com/news/articles/c62dlvdq3e3o</link>
+      <description>📝 就在同一周，OpenAI 的一名研究人员表示她已辞职，并对 ChatGPT 制造商在其聊天机器人中部署广告的决定表示担忧。夏尔马说，他会转而寻求攻读诗歌学位和写作。佐伊·希齐格 (Zoe Hitzig) 表示，她的担忧源于“新型社交互动”可能产生的心理社会影响，而这种影响尚不清楚。
 
 
-🔤 Original: IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes
+🔤 Original: AI safety leader says 'world is in peril' and quits to study poetry
 
-🔗 Read more: https://github.com/nearai/ironclaw</description>
-      <guid isPermaLink="true">https://github.com/nearai/ironclaw</guid>
-      <pubDate>Fri, 13 Feb 2026 16:10:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47004312</comments>
+🔗 Read more: https://www.bbc.com/news/articles/c62dlvdq3e3o</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c62dlvdq3e3o</guid>
+      <pubDate>Fri, 13 Feb 2026 21:10:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47007877</comments>
     </item>
     <item>
-      <title>我在 RentAHuman 表演了两天，却没有赚到一分钱</title>
-      <link>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</link>
-      <description>📝 CommentLoaderSave Story保存这个故事CommentLoaderSave Story保存这个故事我并不介意做一些零工来维持收支平衡。该网站的主页宣称，这些机器人需要你的身体来完成任务，而这些自主代理背后的人类愿意付费。现在，我了解到这整件事部分是某些人的想法。
+      <title>现在构建 TUI 很容易</title>
+      <link>https://hatchet.run/blog/tuis-are-easy-now</link>
+      <description>📝 最终，我们决定不这样做，但第一次使用 Claude Code 的经历却让我印象深刻。使用 Claude Code 的一些巧妙技巧，比我预期的要容易得多。使用参考实现时，Claude Code 的效率要高得多。
 
 
-🔤 Original: I spent two days gigging at RentAHuman and didn't make a single cent
+🔤 Original: Building a TUI is easy now
 
-🔗 Read more: https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</description>
-      <guid isPermaLink="true">https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</guid>
-      <pubDate>Fri, 13 Feb 2026 16:11:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47004319</comments>
+🔗 Read more: https://hatchet.run/blog/tuis-are-easy-now</description>
+      <guid isPermaLink="true">https://hatchet.run/blog/tuis-are-easy-now</guid>
+      <pubDate>Fri, 13 Feb 2026 17:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47005509</comments>
+    </item>
+    <item>
+      <title>Show HN：让 Claude Code/Codex 启动 VM 和 GPU 的技能</title>
+      <link>https://cloudrouter.dev/</link>
+      <description>📝 # 在沙盒浏览器中打开一个URL cloudrouter browser open cr_abc123 "https://example.com" cloudrouter browser fill cr_abc123 @e2 "password123" cloudrouter browser click cr_abc123 @e3 # 截图 cloudrouter browser snapshot cr_abc123 result.带 H100 GPU (80GB VRAM) 的沙箱 管理：cloudrouter ls 列出所有沙箱 cloudrouter code &lt;id&gt; 在浏览器中打开 VS Code cloudrouter jupyter &lt;id&gt; 在浏览器中打开 Jupyter Lab cloudrouter pty &lt;id&gt; 打开终端会话 cloudrouter vnc &lt;id&gt; 打开 VNC 桌面 cloudrouter stop &lt;id&gt; 暂停沙箱 cloudrouterresume &lt;id&gt; 恢复暂停的沙箱 浏览器自动化：cloudrouter browser snapshot -i &lt;id&gt;获取交互元素 cloudrouter browser open &lt;id&gt; &lt;url&gt; 导航到 URL cloudrouter browser snapshot &lt;id&gt; 截取屏幕截图 运行“cloudrouter start --help”以获取所有选项。
+
+
+🔤 Original: Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs
+
+🔗 Read more: https://cloudrouter.dev/</description>
+      <guid isPermaLink="true">https://cloudrouter.dev/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:02:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006393</comments>
+    </item>
+    <item>
+      <title>1979 年的 Sharp PC-2000 电脑音箱</title>
+      <link>https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</link>
+      <guid isPermaLink="true">https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</guid>
+      <pubDate>Fri, 13 Feb 2026 18:35:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006055</comments>
+    </item>
+    <item>
+      <title>帝国时代：25 年 C++ 寻路问题 [视频]</title>
+      <link>https://www.youtube.com/watch?v=lEBQveBCtKY</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=lEBQveBCtKY</guid>
+      <pubDate>Fri, 13 Feb 2026 18:56:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006316</comments>
+    </item>
+    <item>
+      <title>GovDash (YC W22) 正在纽约市招聘高级工程师（产品和搜索）</title>
+      <link>https://www.workatastartup.com/companies/govdash</link>
+      <guid isPermaLink="true">https://www.workatastartup.com/companies/govdash</guid>
+      <pubDate>Fri, 13 Feb 2026 12:01:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47001756</comments>
     </item>
   </channel>
 </rss>

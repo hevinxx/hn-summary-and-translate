@@ -6,47 +6,75 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Feb 2026 18:51:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 21:36:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>CBP、「戦術的ターゲティング」に顔認識を使用する Clearview AI 契約に署名</title>
-      <link>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</link>
-      <description>📝 ストーリーを保存このストーリーを保存ストーリーを保存このストーリーを保存米国税関国境警備局は、写真をインターネットから収集した数十億の画像と比較する顔認識ツールである Clearview AI への 1 年間のアクセスに 225,000 ドルを費やす予定です。エド・マーキー上院議員は先週、明確な制限、透明性、国民の同意なしに生体認証監視が組み込まれているとの懸念を理由に、ICEとCBPによる顔認識技術の使用を全面的に禁止する法案を提出した。連邦政府の科学者らによると、「もともと自動顔認識を目的としていなかった」国境検問所で撮影された画像では、エラー率が「はるかに高く、より正確なアルゴリズムを使用した場合でも、多くの場合20パーセントを超えた」という。
-
-
-🔤 Original: CBP Signs Clearview AI Deal to Use Face Recognition for 'Tactical Targeting'
-
-🔗 Read more: https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</description>
-      <guid isPermaLink="true">https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</guid>
-      <pubDate>Fri, 13 Feb 2026 17:13:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47005081</comments>
+      <title>GPT-5.2 は理論物理学における新たな結果を導き出します</title>
+      <link>https://openai.com/index/new-result-theoretical-physics/</link>
+      <guid isPermaLink="true">https://openai.com/index/new-result-theoretical-physics/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:20:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006594</comments>
     </item>
     <item>
-      <title>IronClaw: 分離された WASM サンドボックスでツールを実行する Rust ベースのクロード</title>
-      <link>https://github.com/nearai/ironclaw</link>
-      <description>📝 IronClaw 安全なパーソナル AI アシスタントを常に味方にします 哲学 • 機能 • インストール • 構成 • セキュリティ • アーキテクチャ 哲学 IronClaw は、AI アシスタントがユーザーに敵対するものではなく、ユーザーのために機能するという単純な原則に基づいて構築されています。セキュリティ IronClaw は、データを保護し、悪用を防ぐために多層防御を実装します。 WASM サンドボックス すべての信頼できないツールは分離された WebAssembly コンテナ内で実行されます。 機能ベースのアクセス許可 - HTTP、シークレット、ツール呼び出しに対する明示的なオプトイン エンドポイント許可リスト - 承認されたホスト/パスへの HTTP リクエストのみ 資格情報の挿入 - ホスト境界で注入されるシークレット、WASM コードには決して公開されない リーク検出 - シークレットの漏洩試行に対するリクエストとレスポンスをスキャン レート制限 - 悪用を防ぐためのツールごとのリクエスト制限 リソース制限 - メモリ、CPU、 WASM ──► ホワイトリスト ──► リーク スキャン ──► 資格情報 ──► 実行 ──► リーク スキャン ──► WASM バリデーター (リクエスト) インジェクター リクエスト (応答) プロンプト インジェクション防御 外部コンテンツは複数のセキュリティ層を通過します: インジェクション試行のパターンベースの検出 コンテンツのサニタイズとエスケープ 重大度レベル (ブロック/警告/レビュー/サニタイズ) 付きのポリシー ルール 安全のためのツール出力のラッピングLLM コンテキスト インジェクション データ保護 PostgreSQL データベースにローカルに保存されるすべてのデータ AES-256-GCM で暗号化されたシークレット テレメトリ、分析、データ共有なし すべてのツール実行の完全な監査ログ アーキテクチャ
+      <title>AI安全リーダーが「世界は危険にさらされている」と発言、詩の勉強のために辞める</title>
+      <link>https://www.bbc.com/news/articles/c62dlvdq3e3o</link>
+      <description>📝 これは、OpenAIの研究者がチャットボットに広告を導入するというChatGPTメーカーの決定について懸念を表明し、辞任したと発表したのと同じ週のことだった。シャルマさんは、その代わりに詩の学位を取得して執筆活動をしたいと考えていると語った。ゾーイ・ヒツィヒさんは、彼女の懸念は、まだ理解されていない「新しいタイプの社会的相互作用」がもたらす可能性のある心理社会的影響に起因していると述べた。
 
 
-🔤 Original: IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes
+🔤 Original: AI safety leader says 'world is in peril' and quits to study poetry
 
-🔗 Read more: https://github.com/nearai/ironclaw</description>
-      <guid isPermaLink="true">https://github.com/nearai/ironclaw</guid>
-      <pubDate>Fri, 13 Feb 2026 16:10:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47004312</comments>
+🔗 Read more: https://www.bbc.com/news/articles/c62dlvdq3e3o</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c62dlvdq3e3o</guid>
+      <pubDate>Fri, 13 Feb 2026 21:10:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47007877</comments>
     </item>
     <item>
-      <title>RentAHuman で 2 日間ギグをして過ごしましたが、1 セントも稼げませんでした</title>
-      <link>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</link>
-      <description>📝 コメントローダーストーリーを保存このストーリーを保存コメントローダーストーリーを保存このストーリーを保存私は、生活のために仕事をすることに抵抗はありません。このサイトのホームページでは、これらのボットがタスクを完了するにはあなたの肉体が必要であり、これらの自律エージェントの背後にある人間は喜んでお金を払うと宣言しています。今、私はこのすべてが部​​分的には誰かの人間のアイデアであったことを学びました。
+      <title>TUI の構築が簡単になりました</title>
+      <link>https://hatchet.run/blog/tuis-are-easy-now</link>
+      <description>📝 結局、私たちはそれをやめることにしましたが、クロード・コードでの最初の経験は私の心に残りました。クロード コードを使用したいくつかの巧妙なトリックを使用することで、予想よりもはるかに簡単になりました。クロード コードは、リファレンス実装を使用するとより効果的です。
 
 
-🔤 Original: I spent two days gigging at RentAHuman and didn't make a single cent
+🔤 Original: Building a TUI is easy now
 
-🔗 Read more: https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</description>
-      <guid isPermaLink="true">https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</guid>
-      <pubDate>Fri, 13 Feb 2026 16:11:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47004319</comments>
+🔗 Read more: https://hatchet.run/blog/tuis-are-easy-now</description>
+      <guid isPermaLink="true">https://hatchet.run/blog/tuis-are-easy-now</guid>
+      <pubDate>Fri, 13 Feb 2026 17:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47005509</comments>
+    </item>
+    <item>
+      <title>Show HN: Claude Code/Codex で VM と GPU をスピンアップできるスキル</title>
+      <link>https://cloudrouter.dev/</link>
+      <description>📝 # サンドボックス ブラウザで URL を開きますcloudrouter ブラウザ open cr_abc123 "https://example.com" cloudrouter ブラウザ fill cr_abc123 @e2 "password123" cloudrouter ブラウザ click cr_abc123 @e3 # スクリーンショットを撮りますcloudrouter ブラウザ スクリーンショット cr_abc123 結果。 H100 GPU (80GB VRAM) を備えたサンドボックス 管理:cloudrouter ls すべてのサンドボックスをリストしますcloudrouter code &lt;id&gt; ブラウザで VS Code を開きますcloudrouter jupyter &lt;id&gt; ブラウザで Jupyter Lab を開きますcloudrouter pty &lt;id&gt; ターミナル セッションを開きますcloudrouter vnc &lt;id&gt; VNC デスクトップを開きますcloudrouter stop &lt;id&gt; サンドボックスを一時停止しますcloudrouter raise &lt;id&gt; 一時停止したサンドボックスを再開しますブラウザ自動化:cloudrouter ブラウザsnapshot -i &lt;id&gt; インタラクティブな要素を取得しますcloudrouter ブラウザーを開く &lt;id&gt; &lt;url&gt; URL に移動しますcloudrouter ブラウザーのスクリーンショット &lt;id&gt; スクリーンショットを撮るすべてのオプションで「cloudrouter start --help」を実行します。
+
+
+🔤 Original: Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs
+
+🔗 Read more: https://cloudrouter.dev/</description>
+      <guid isPermaLink="true">https://cloudrouter.dev/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:02:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006393</comments>
+    </item>
+    <item>
+      <title>1979 年のシャープ PC-2000 コンピューターラジカセ</title>
+      <link>https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</link>
+      <guid isPermaLink="true">https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</guid>
+      <pubDate>Fri, 13 Feb 2026 18:35:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006055</comments>
+    </item>
+    <item>
+      <title>Age of Empires: 25 年にわたる C++ のパスファインディングの問題 [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=lEBQveBCtKY</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=lEBQveBCtKY</guid>
+      <pubDate>Fri, 13 Feb 2026 18:56:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47006316</comments>
+    </item>
+    <item>
+      <title>GovDash (YC W22) はニューヨーク市でシニア エンジニア (製品および検索) を募集しています</title>
+      <link>https://www.workatastartup.com/companies/govdash</link>
+      <guid isPermaLink="true">https://www.workatastartup.com/companies/govdash</guid>
+      <pubDate>Fri, 13 Feb 2026 12:01:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47001756</comments>
     </item>
   </channel>
 </rss>
