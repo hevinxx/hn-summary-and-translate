@@ -6,93 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Feb 2026 15:44:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 18:51:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Zed 编辑器将图形库从 Blade 切换到 WGPU</title>
-      <link>https://github.com/zed-industries/zed/pull/46758</link>
-      <description>📝 加载时出错。请重新加载此页面。 3k gpui：删除刀片，使用 wgpu 重新实现 Linux 渲染器 #46758 新问题 对这个项目有疑问。
+      <title>CBP 签署 Clearview AI 协议，利用人脸识别进行“战术定位”</title>
+      <link>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</link>
+      <description>📝 美国海关和边境保护局计划花费 225,000 美元购买 Clearview AI 一年的使用权，这是一种人脸识别工具，可以将照片与从互联网上抓取的数十亿张图像进行比较。上周，参议员埃德·马基 (Ed Markey) 提出立法，禁止 ICE 和 CBP 完全使用人脸识别技术，理由是担心在没有明确限制、透明度或公众同意的情况下嵌入生物识别监控。联邦科学家表示，在过境点拍摄的图像“最初并非用于自动人脸识别”，产生的错误率“要高得多，通常超过 20%，即使使用更准确的算法也是如此”。
 
 
-🔤 Original: Zed editor switching graphics lib from blade to wgpu
+🔤 Original: CBP Signs Clearview AI Deal to Use Face Recognition for 'Tactical Targeting'
 
-🔗 Read more: https://github.com/zed-industries/zed/pull/46758</description>
-      <guid isPermaLink="true">https://github.com/zed-industries/zed/pull/46758</guid>
-      <pubDate>Fri, 13 Feb 2026 14:03:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47002825</comments>
+🔗 Read more: https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</guid>
+      <pubDate>Fri, 13 Feb 2026 17:13:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47005081</comments>
     </item>
     <item>
-      <title>开源与你无关 (2018)</title>
-      <link>https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</link>
-      <description>📝 从发明家到社区管理者。 Alex Miller 对 Clojure 社区非常关注并积极参与。每个 Clojure 版本都包含许多贡献。
+      <title>IronClaw：基于 Rust 的 clawd，在隔离的 WASM 沙箱中运行工具</title>
+      <link>https://github.com/nearai/ironclaw</link>
+      <description>📝 IronClaw 您安全的个人AI 助手，始终在您身边 理念• 功能• 安装• 配置• 安全• 架构理念IronClaw 建立在一个简单的原则之上：您的AI 助手应该为您工作，而不是与您作对。安全性 IronClaw 实施深度防御来保护您的数据并防止滥用。 WASM 沙箱 所有不受信任的工具都在隔离的 WebAssembly 容器中运行： 基于功能的权限 - 显式选择加入 HTTP、机密、工具调用 端点白名单 - 仅向批准的主机/路径发出 HTTP 请求 凭证注入 - 在主机边界注入机密，从不暴露于 WASM 代码 泄漏检测 - 扫描请求和响应以进行机密泄露尝试 速率限制 - 每个工具的请求限制以防止滥用 资源限制 - 内存、CPU 和执行时间限制 WASM ──►白名单 ──► 泄漏扫描 ──► 凭证 ──► 执行 ──► 泄漏扫描 ──► WASM 验证器（请求） 注入器请求（响应） 提示注入防御 外部内容通过多个安全层： 基于模式的注入尝试检测 内容清理和转义 具有严重级别的策略规则（阻止/警告/审查/清理） 用于安全 LLM 上下文注入的工具输出包装 数据保护 本地存储在 PostgreSQL 数据库中的所有数据 秘密使用 AES-256-GCM 加密 无遥测、分析或数据共享 所有工具执行的完整审核日志 架构 ┌────────────────────────────────────────────────────────。
 
 
-🔤 Original: Open Source Is Not About You (2018)
+🔤 Original: IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes
 
-🔗 Read more: https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</description>
-      <guid isPermaLink="true">https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003219</comments>
+🔗 Read more: https://github.com/nearai/ironclaw</description>
+      <guid isPermaLink="true">https://github.com/nearai/ironclaw</guid>
+      <pubDate>Fri, 13 Feb 2026 16:10:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47004312</comments>
     </item>
     <item>
-      <title>Show HN：我会说 5 种语言。 Duolingo 没有教给我任何东西。所以我建造了巢穴</title>
-      <link>https://lairner.com</link>
-      <description>📝 莱纳 - 学习 70 多种语言 | 700 多种课程 lairner：世界上最全面的语言平台 lairner 可让您学习 60 多种语言的 700 多种组合。我们专注于提供稀有和濒危语言（如 Laz）以及流行语言（如西班牙语和德语）的课程。 700 多门专家课程 原生录音 间隔重复系统 每一个可以想象的语言对 今天就和莱纳一起开始您的语言学习之旅。
+      <title>我在 RentAHuman 表演了两天，却没有赚到一分钱</title>
+      <link>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</link>
+      <description>📝 CommentLoaderSave Story保存这个故事CommentLoaderSave Story保存这个故事我并不介意做一些零工来维持收支平衡。该网站的主页宣称，这些机器人需要你的身体来完成任务，而这些自主代理背后的人类愿意付费。现在，我了解到这整件事部分是某些人的想法。
 
 
-🔤 Original: Show HN: I speak 5 languages. Duolingo taught me none. So I built lairner
+🔤 Original: I spent two days gigging at RentAHuman and didn't make a single cent
 
-🔗 Read more: https://lairner.com</description>
-      <guid isPermaLink="true">https://lairner.com</guid>
-      <pubDate>Fri, 13 Feb 2026 15:11:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003596</comments>
-    </item>
-    <item>
-      <title>Gauntlet AI (YC S17) 训练您掌握 AI 建筑，给您 20 万美元以上的工作机会</title>
-      <link>http://qualify.gauntletAI.com</link>
-      <guid isPermaLink="true">http://qualify.gauntletAI.com</guid>
-      <pubDate>Fri, 13 Feb 2026 12:32:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47001968</comments>
-    </item>
-    <item>
-      <title>Apple，在计时器结束之前修好我的键盘，否则我就离开 iPhone</title>
-      <link>https://ios-countdown.win/</link>
-      <description>📝 至少从 iOS 17 开始，iOS 键盘就出现了故障，而且不知何故只会变得更糟。使用功能齐全的键盘具有启发性。但这款漂亮手机上的键盘比以往任何时候都糟糕。
-
-
-🔤 Original: Apple, fix my keyboard before the timer ends or I'm leaving iPhone
-
-🔗 Read more: https://ios-countdown.win/</description>
-      <guid isPermaLink="true">https://ios-countdown.win/</guid>
-      <pubDate>Fri, 13 Feb 2026 14:21:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003064</comments>
-    </item>
-    <item>
-      <title>CSS 涂鸦</title>
-      <link>https://css-doodle.com/</link>
-      <description>📝 该组件将根据其内部的规则（纯 CSS）生成一个 div 网格。您可以使用 CSS 轻松操作这些单元格，以生成图形模式或动画图表。这个限制就是CSS本身的限制。
-
-
-🔤 Original: CSS-Doodle
-
-🔗 Read more: https://css-doodle.com/</description>
-      <guid isPermaLink="true">https://css-doodle.com/</guid>
-      <pubDate>Fri, 13 Feb 2026 08:02:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47000164</comments>
-    </item>
-    <item>
-      <title>《启示录》：我们自以为了解的关于玛雅人的一切几乎都是错误的</title>
-      <link>https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</link>
-      <description>📝 旅途中，他们参观了蒂卡尔的古代玛雅遗址。玛雅考古学最能体现这一点。 “这并不是说玛雅人更好，或者他们的古代社会在某种程度上优于我们的社会，而是因为他们作为人类。
-
-
-🔤 Original: Apocalypse no: how almost everything we thought we knew about the Maya is wrong
-
-🔗 Read more: https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</description>
-      <guid isPermaLink="true">https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003214</comments>
+🔗 Read more: https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</guid>
+      <pubDate>Fri, 13 Feb 2026 16:11:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47004319</comments>
     </item>
   </channel>
 </rss>

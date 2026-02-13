@@ -6,93 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Feb 2026 15:44:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 18:51:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Zed 편집기가 그래픽 라이브러리를 블레이드에서 wgpu로 전환합니다.</title>
-      <link>https://github.com/zed-industries/zed/pull/46758</link>
-      <description>📝 로드하는 동안 오류가 발생했습니다. 이 페이지를 새로고침하세요. 3k gpui: 블레이드를 제거하고 wgpu를 사용하여 Linux 렌더러를 다시 구현합니다. #46758 새 문제 이 프로젝트에 대해 질문이 있습니다.
+      <title>CBP, '전술적 타겟팅'을 위해 얼굴 인식을 사용하는 Clearview AI 계약 체결</title>
+      <link>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</link>
+      <description>📝 이야기 저장이 이야기 저장이야기 저장이 이야기 저장미국 세관 및 국경 보호국은 인터넷에서 스크랩한 수십억 개의 이미지와 사진을 비교하는 얼굴 인식 도구인 Clearview AI에 액세스하는 데 1년 동안 225,000달러를 지출할 계획입니다. 지난주 에드 마키(Ed Markey) 상원의원은 생체 인식 감시가 명확한 제한, 투명성 또는 대중의 동의 없이 내장되고 있다는 우려를 이유로 ICE와 CBP의 얼굴 인식 기술 사용을 금지하는 법안을 제출했습니다. 연방 과학자들은 “원래 자동화된 얼굴 인식을 위해 의도되지 않은” 국경 통과에서 캡처된 이미지는 “더 정확한 알고리즘을 사용하더라도 훨씬 더 높고 종종 20%를 초과하는” 오류율을 발생시켰다고 말합니다.
 
 
-🔤 Original: Zed editor switching graphics lib from blade to wgpu
+🔤 Original: CBP Signs Clearview AI Deal to Use Face Recognition for 'Tactical Targeting'
 
-🔗 Read more: https://github.com/zed-industries/zed/pull/46758</description>
-      <guid isPermaLink="true">https://github.com/zed-industries/zed/pull/46758</guid>
-      <pubDate>Fri, 13 Feb 2026 14:03:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47002825</comments>
+🔗 Read more: https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</guid>
+      <pubDate>Fri, 13 Feb 2026 17:13:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47005081</comments>
     </item>
     <item>
-      <title>오픈 소스는 당신에 관한 것이 아닙니다 (2018)</title>
-      <link>https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</link>
-      <description>📝 발명가에서 커뮤니티 관리자까지. Alex Miller는 Clojure 커뮤니티에 매우 관심을 갖고 참여하고 있습니다. 모든 Clojure 릴리스에는 많은 기여가 포함되어 있습니다.
+      <title>IronClaw: 격리된 WASM 샌드박스에서 도구를 실행하는 Rust 기반 클로드</title>
+      <link>https://github.com/nearai/ironclaw</link>
+      <description>📝 IronClaw 안전한 개인 AI 비서가 항상 당신 편입니다 철학 • 기능 • 설치 • 구성 • 보안 • 아키텍처 철학 IronClaw는 간단한 원칙을 바탕으로 구축되었습니다. AI 비서는 당신에게 불리한 것이 아니라 당신을 위해 일해야 한다는 것입니다. 보안 IronClaw는 데이터를 보호하고 오용을 방지하기 위해 심층적인 방어를 구현합니다. WASM 샌드박스 신뢰할 수 없는 모든 도구는 격리된 WebAssembly 컨테이너에서 실행됩니다. 기능 기반 권한 - HTTP, 비밀, 도구 호출에 대한 명시적 옵트인 엔드포인트 허용 목록 - 승인된 호스트/경로에만 HTTP 요청 자격 증명 삽입 - 호스트 경계에 삽입되고 WASM 코드에는 노출되지 않습니다. 누출 감지 - 비밀 유출 시도에 대한 요청 및 응답을 검색합니다. 속도 제한 - 남용을 방지하기 위한 도구별 요청 제한 리소스 제한 - 메모리, CPU 및 실행 시간 제약 WASM ──► 허용 목록 ──► 누출 검사 ──► 자격 증명 ──► 실행 ──► 누출 검사 ──► WASM 검사기(요청) 인젝터 요청(응답) 프롬프트 주입 방어 외부 콘텐츠는 여러 보안 계층을 통과합니다. 패턴 기반 주입 시도 감지 콘텐츠 삭제 및 이스케이프 심각도 수준에 따른 정책 규칙(차단/경고/검토/삭제) 안전한 LLM 컨텍스트 주입을 위한 도구 출력 래핑 데이터 보호 PostgreSQL 데이터베이스에 로컬로 저장된 모든 데이터 비밀 AES-256-GCM으로 암호화됨 원격 측정, 분석 또는 데이터 공유 없음 모든 도구 실행에 대한 전체 감사 로그 아키텍처 ┌─────────────────────────────────────────────────────.
 
 
-🔤 Original: Open Source Is Not About You (2018)
+🔤 Original: IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes
 
-🔗 Read more: https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</description>
-      <guid isPermaLink="true">https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003219</comments>
+🔗 Read more: https://github.com/nearai/ironclaw</description>
+      <guid isPermaLink="true">https://github.com/nearai/ironclaw</guid>
+      <pubDate>Fri, 13 Feb 2026 16:10:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47004312</comments>
     </item>
     <item>
-      <title>Show HN: 저는 5개 국어를 구사합니다. 듀오링고는 나에게 아무 것도 가르쳐주지 않았습니다. 그래서 레이어너를 만들었습니다.</title>
-      <link>https://lairner.com</link>
-      <description>📝 Lairner - 70개 이상의 언어 학습 | 700개 이상의 코스 lairner: 세계에서 가장 포괄적인 언어 플랫폼 lairner를 사용하면 700개 이상의 조합으로 60개 이상의 언어를 배울 수 있습니다. 우리는 인기 있는 언어(스페인어, 독일어 등)와 함께 희귀하고 멸종 위기에 처한 언어(Laz 등)에 대한 강좌를 전문적으로 제공합니다. 700개 이상의 전문가 과정 원어민 오디오 녹음 간격 반복 시스템 생각할 수 있는 모든 언어 쌍 지금 Lairner와 함께 언어 학습 여정을 시작하세요.
+      <title>이틀 동안 RentAHuman에서 공연을 했는데 한 푼도 벌지 못했어요</title>
+      <link>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</link>
+      <description>📝 CommentLoader스토리 저장이 스토리 저장CommentLoader스토리 저장이 스토리 저장나는 생계를 유지하기 위해 공연 일을 하는 것이 아닙니다. 사이트 홈페이지에는 이러한 봇이 작업을 완료하려면 신체가 필요하며 이러한 자율 에이전트 뒤에 있는 인간이 기꺼이 비용을 지불할 것이라고 선언합니다. 이제 저는 이 모든 것이 부분적으로 인간의 생각이었다는 것을 배우고 있습니다.
 
 
-🔤 Original: Show HN: I speak 5 languages. Duolingo taught me none. So I built lairner
+🔤 Original: I spent two days gigging at RentAHuman and didn't make a single cent
 
-🔗 Read more: https://lairner.com</description>
-      <guid isPermaLink="true">https://lairner.com</guid>
-      <pubDate>Fri, 13 Feb 2026 15:11:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003596</comments>
-    </item>
-    <item>
-      <title>Gauntlet AI(YC S17)는 AI를 활용한 빌딩 마스터 방법을 교육하고 $200,000 이상의 일자리를 제공합니다.</title>
-      <link>http://qualify.gauntletAI.com</link>
-      <guid isPermaLink="true">http://qualify.gauntletAI.com</guid>
-      <pubDate>Fri, 13 Feb 2026 12:32:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47001968</comments>
-    </item>
-    <item>
-      <title>Apple, 타이머가 끝나기 전에 키보드를 고쳐주세요. 그렇지 않으면 iPhone을 떠나겠습니다</title>
-      <link>https://ios-countdown.win/</link>
-      <description>📝 iOS 키보드는 적어도 iOS 17 이후로 고장이 났고 어떻게 든 더 악화되었습니다. 작동하는 키보드를 사용하는 것은 계시적이었습니다. 하지만 이 아름다운 전화기의 키보드는 그 어느 때보다 나쁩니다.
-
-
-🔤 Original: Apple, fix my keyboard before the timer ends or I'm leaving iPhone
-
-🔗 Read more: https://ios-countdown.win/</description>
-      <guid isPermaLink="true">https://ios-countdown.win/</guid>
-      <pubDate>Fri, 13 Feb 2026 14:21:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003064</comments>
-    </item>
-    <item>
-      <title>CSS-낙서</title>
-      <link>https://css-doodle.com/</link>
-      <description>📝 구성 요소는 내부 규칙(일반 CSS)에 따라 div 그리드를 생성합니다. CSS를 사용하여 해당 셀을 쉽게 조작하여 그래픽 패턴이나 애니메이션 그래프를 만들 수 있습니다. 한계는 CSS 자체의 한계입니다.
-
-
-🔤 Original: CSS-Doodle
-
-🔗 Read more: https://css-doodle.com/</description>
-      <guid isPermaLink="true">https://css-doodle.com/</guid>
-      <pubDate>Fri, 13 Feb 2026 08:02:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47000164</comments>
-    </item>
-    <item>
-      <title>묵시록 아니오: 마야에 대해 우리가 알고 있다고 생각했던 거의 모든 것이 얼마나 잘못되었는지</title>
-      <link>https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</link>
-      <description>📝 여행 중에 그들은 티칼(Tikal)에 있는 고대 마야 유적지를 방문했습니다. 마야 고고학에 관한 것보다 이것이 더 사실인 곳은 없습니다. “마야인들이 더 낫다거나 그들의 고대 사회가 우리보다 우월하다는 것이 아니라, 그들이 인간이기 때문입니다.
-
-
-🔤 Original: Apocalypse no: how almost everything we thought we knew about the Maya is wrong
-
-🔗 Read more: https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</description>
-      <guid isPermaLink="true">https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003214</comments>
+🔗 Read more: https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</guid>
+      <pubDate>Fri, 13 Feb 2026 16:11:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47004319</comments>
     </item>
   </channel>
 </rss>

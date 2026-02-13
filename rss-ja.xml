@@ -6,93 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Feb 2026 15:44:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 18:51:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Zed エディターがグラフィックス ライブラリをブレードから wgpu に切り替える</title>
-      <link>https://github.com/zed-industries/zed/pull/46758</link>
-      <description>📝 読み込み中にエラーが発生しました。このページをリロードしてください。 3k gpui: ブレードを削除し、wgpu を使用して Linux レンダラーを再実装 #46758 新しい問題 このプロジェクトについて質問があります。
+      <title>CBP、「戦術的ターゲティング」に顔認識を使用する Clearview AI 契約に署名</title>
+      <link>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</link>
+      <description>📝 ストーリーを保存このストーリーを保存ストーリーを保存このストーリーを保存米国税関国境警備局は、写真をインターネットから収集した数十億の画像と比較する顔認識ツールである Clearview AI への 1 年間のアクセスに 225,000 ドルを費やす予定です。エド・マーキー上院議員は先週、明確な制限、透明性、国民の同意なしに生体認証監視が組み込まれているとの懸念を理由に、ICEとCBPによる顔認識技術の使用を全面的に禁止する法案を提出した。連邦政府の科学者らによると、「もともと自動顔認識を目的としていなかった」国境検問所で撮影された画像では、エラー率が「はるかに高く、より正確なアルゴリズムを使用した場合でも、多くの場合20パーセントを超えた」という。
 
 
-🔤 Original: Zed editor switching graphics lib from blade to wgpu
+🔤 Original: CBP Signs Clearview AI Deal to Use Face Recognition for 'Tactical Targeting'
 
-🔗 Read more: https://github.com/zed-industries/zed/pull/46758</description>
-      <guid isPermaLink="true">https://github.com/zed-industries/zed/pull/46758</guid>
-      <pubDate>Fri, 13 Feb 2026 14:03:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47002825</comments>
+🔗 Read more: https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</guid>
+      <pubDate>Fri, 13 Feb 2026 17:13:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47005081</comments>
     </item>
     <item>
-      <title>オープンソースはあなたのことではありません (2018)</title>
-      <link>https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</link>
-      <description>📝 発明者からコミュニティマネージャーへ。 Alex Miller は、Clojure コミュニティに非常に注意を払い、関与しています。 Clojure の各リリースには多くの貢献が組み込まれています。
+      <title>IronClaw: 分離された WASM サンドボックスでツールを実行する Rust ベースのクロード</title>
+      <link>https://github.com/nearai/ironclaw</link>
+      <description>📝 IronClaw 安全なパーソナル AI アシスタントを常に味方にします 哲学 • 機能 • インストール • 構成 • セキュリティ • アーキテクチャ 哲学 IronClaw は、AI アシスタントがユーザーに敵対するものではなく、ユーザーのために機能するという単純な原則に基づいて構築されています。セキュリティ IronClaw は、データを保護し、悪用を防ぐために多層防御を実装します。 WASM サンドボックス すべての信頼できないツールは分離された WebAssembly コンテナ内で実行されます。 機能ベースのアクセス許可 - HTTP、シークレット、ツール呼び出しに対する明示的なオプトイン エンドポイント許可リスト - 承認されたホスト/パスへの HTTP リクエストのみ 資格情報の挿入 - ホスト境界で注入されるシークレット、WASM コードには決して公開されない リーク検出 - シークレットの漏洩試行に対するリクエストとレスポンスをスキャン レート制限 - 悪用を防ぐためのツールごとのリクエスト制限 リソース制限 - メモリ、CPU、 WASM ──► ホワイトリスト ──► リーク スキャン ──► 資格情報 ──► 実行 ──► リーク スキャン ──► WASM バリデーター (リクエスト) インジェクター リクエスト (応答) プロンプト インジェクション防御 外部コンテンツは複数のセキュリティ層を通過します: インジェクション試行のパターンベースの検出 コンテンツのサニタイズとエスケープ 重大度レベル (ブロック/警告/レビュー/サニタイズ) 付きのポリシー ルール 安全のためのツール出力のラッピングLLM コンテキスト インジェクション データ保護 PostgreSQL データベースにローカルに保存されるすべてのデータ AES-256-GCM で暗号化されたシークレット テレメトリ、分析、データ共有なし すべてのツール実行の完全な監査ログ アーキテクチャ
 
 
-🔤 Original: Open Source Is Not About You (2018)
+🔤 Original: IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes
 
-🔗 Read more: https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</description>
-      <guid isPermaLink="true">https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003219</comments>
+🔗 Read more: https://github.com/nearai/ironclaw</description>
+      <guid isPermaLink="true">https://github.com/nearai/ironclaw</guid>
+      <pubDate>Fri, 13 Feb 2026 16:10:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47004312</comments>
     </item>
     <item>
-      <title>Show HN: 私は 5 か国語を話します。 Duolingo は私に何も教えてくれませんでした。それで私は隠れ家を建てました</title>
-      <link>https://lairner.com</link>
-      <description>📝 lairner - 70 以上の言語を学ぶ | 700 以上のコースの学習者: 世界で最も包括的な言語プラットフォームの学習者により、60 を超える言語を 700 以上の組み合わせで学習できます。私たちは、人気のある言語 (スペイン語やドイツ語など) と並行して、希少言語や絶滅危惧言語 (ラズ語など) のコースを提供することに特化しています。 700以上のエキスパートコース ネイティブオーディオ録音 間隔をあけた反復システム 考えられるすべての言語ペア 隠れ家と一緒に言語学習の旅を今すぐ始めましょう。
+      <title>RentAHuman で 2 日間ギグをして過ごしましたが、1 セントも稼げませんでした</title>
+      <link>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</link>
+      <description>📝 コメントローダーストーリーを保存このストーリーを保存コメントローダーストーリーを保存このストーリーを保存私は、生活のために仕事をすることに抵抗はありません。このサイトのホームページでは、これらのボットがタスクを完了するにはあなたの肉体が必要であり、これらの自律エージェントの背後にある人間は喜んでお金を払うと宣言しています。今、私はこのすべてが部​​分的には誰かの人間のアイデアであったことを学びました。
 
 
-🔤 Original: Show HN: I speak 5 languages. Duolingo taught me none. So I built lairner
+🔤 Original: I spent two days gigging at RentAHuman and didn't make a single cent
 
-🔗 Read more: https://lairner.com</description>
-      <guid isPermaLink="true">https://lairner.com</guid>
-      <pubDate>Fri, 13 Feb 2026 15:11:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003596</comments>
-    </item>
-    <item>
-      <title>Gauntlet AI (YC S17) は、AI を使用して構築をマスターできるようにトレーニングし、20 万ドル以上の仕事を与えます</title>
-      <link>http://qualify.gauntletAI.com</link>
-      <guid isPermaLink="true">http://qualify.gauntletAI.com</guid>
-      <pubDate>Fri, 13 Feb 2026 12:32:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47001968</comments>
-    </item>
-    <item>
-      <title>Apple、タイマーが終了する前にキーボードを修理してくれ、さもなければiPhoneを離れる前に</title>
-      <link>https://ios-countdown.win/</link>
-      <description>📝 iOS キーボードは少なくとも iOS 17 以降壊れていて、どういうわけか悪化するばかりです。機能するキーボードを使用することは啓示でした。しかし、この美しい携帯電話のキーボードはこれまで以上に悪いです。
-
-
-🔤 Original: Apple, fix my keyboard before the timer ends or I'm leaving iPhone
-
-🔗 Read more: https://ios-countdown.win/</description>
-      <guid isPermaLink="true">https://ios-countdown.win/</guid>
-      <pubDate>Fri, 13 Feb 2026 14:21:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003064</comments>
-    </item>
-    <item>
-      <title>CSS-落書き</title>
-      <link>https://css-doodle.com/</link>
-      <description>📝 コンポーネントは、その内部のルール (プレーン CSS) に従って div のグリッドを生成します。 CSS を使用してこれらのセルを簡単に操作し、グラフィック パターンやアニメーション グラフを作成できます。制限は CSS 自体の制限です。
-
-
-🔤 Original: CSS-Doodle
-
-🔗 Read more: https://css-doodle.com/</description>
-      <guid isPermaLink="true">https://css-doodle.com/</guid>
-      <pubDate>Fri, 13 Feb 2026 08:02:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47000164</comments>
-    </item>
-    <item>
-      <title>いいえの黙示録: マヤについて私たちが知っていると思っていたことのほぼすべてがいかに間違っているか</title>
-      <link>https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</link>
-      <description>📝 旅行中、彼らはティカルの古代マヤ遺跡を訪れました。マヤ考古学ほどこれが真実であるところはありません。 「マヤ人が優れているということではなく、彼らの古代社会が何らかの形で私たちの社会よりも優れていたということではなく、人間として彼らが優れていたからです。
-
-
-🔤 Original: Apocalypse no: how almost everything we thought we knew about the Maya is wrong
-
-🔗 Read more: https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</description>
-      <guid isPermaLink="true">https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47003214</comments>
+🔗 Read more: https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</guid>
+      <pubDate>Fri, 13 Feb 2026 16:11:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47004319</comments>
     </item>
   </channel>
 </rss>
