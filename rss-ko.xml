@@ -6,112 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Feb 2026 18:36:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 21:26:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>내 스마트 수면 마스크는 사용자의 뇌파를 개방형 MQTT 브로커에 방송합니다.</title>
-      <link>https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</link>
-      <description>📝 내 스마트 수면 마스크는 공개 MQTT 브로커에 사용자의 뇌파를 방송합니다. 2026년 2월 12일 저는 최근 Kickstarter에서 스마트 수면 마스크를 받았습니다. Claude는 인코딩을 파악하고 모든 함수에서 모든 명령 바이트를 읽었습니다. 내 기기뿐만 아니라 모든 기기에서요.
+      <title>뉴스 게시자는 AI 스크래핑 문제로 인해 인터넷 아카이브 액세스를 제한합니다.</title>
+      <link>https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/</link>
+      <description>📝 웹 보존 임무의 일환으로 Internet Archive는 웹페이지 스냅샷을 캡처하는 크롤러를 운영합니다. 특히 Hahn은 Internet Archive의 API에 대해 우려를 표명했습니다. The Guardian의 결정에 대해 질문을 받았을 때 Internet Archive 설립자 Brewster Kahle은 이렇게 말했습니다. “출판사가 Internet Archive와 같은 도서관을 제한한다면 대중은 역사적 기록에 대한 접근권을 잃게 될 것입니다.
 
 
-🔤 Original: My smart sleep mask broadcasts users' brainwaves to an open MQTT broker
+🔤 Original: News publishers limit Internet Archive access due to AI scraping concerns
 
-🔗 Read more: https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</description>
-      <guid isPermaLink="true">https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</guid>
-      <pubDate>Sat, 14 Feb 2026 15:35:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47015294</comments>
+🔗 Read more: https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/</description>
+      <guid isPermaLink="true">https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/</guid>
+      <pubDate>Sat, 14 Feb 2026 18:46:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47017138</comments>
     </item>
     <item>
-      <title>암스테르담 컴파일러 키트</title>
-      <link>https://github.com/davidgiven/ack</link>
-      <description>📝 플랫폼: cpm은 i80 CP/M을 생산합니다. COM 파일 em22는 EM22 바이트코드 파일을 생성합니다. linux386은 PC Linux 시스템용 ELF 실행 파일을 생성합니다. linux68k는 m68020용 ELF 실행 파일을 생성합니다. Linux 시스템 linuxmips는 리틀 엔디안 MIPS32r2 Linux 시스템용 ELF 실행 파일을 생성합니다. linuxppc는 PowerPC용 ELF 실행 파일을 생성합니다. Linux 시스템 minix68k는 m68000용 Minix 실행 파일을 생성합니다. Minix 시스템 msdos386은 i386 MS-DOS를 생성합니다. 32비트 DPMI. EXE 파일 msdos86은 i86 MS-DOS를 생성합니다.
+      <title>모든 YouTube Shorts를 숨기는 uBlock 필터 목록</title>
+      <link>https://github.com/i5heu/ublock-hide-yt-shorts/</link>
+      <description>📝 모든 YouTube Shorts를 숨기는 uBlock 필터 목록 YouTube Shorts 동영상의 모든 흔적을 숨기기 위해 유지 관리되는 uBlock Origin 필터 목록입니다. txt &gt; uBlock Origin 구독 링크 &lt; (GitHub에서는 작동하지 않음) 보너스: YouTube 댓글 숨기기 https://raw. , Google LLC 또는 YouTube.
 
 
-🔤 Original: Amsterdam Compiler Kit
+🔤 Original: uBlock filter list to hide all YouTube Shorts
 
-🔗 Read more: https://github.com/davidgiven/ack</description>
-      <guid isPermaLink="true">https://github.com/davidgiven/ack</guid>
-      <pubDate>Sat, 14 Feb 2026 16:50:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47016008</comments>
+🔗 Read more: https://github.com/i5heu/ublock-hide-yt-shorts/</description>
+      <guid isPermaLink="true">https://github.com/i5heu/ublock-hide-yt-shorts/</guid>
+      <pubDate>Sat, 14 Feb 2026 17:36:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016443</comments>
     </item>
     <item>
-      <title>빔 9.2 출시</title>
-      <link>https://www.vim.org/vim-9.2-released.php</link>
-      <description>📝 2에서는 Vim9 스크립팅 언어, 개선된 diff 모드, 포괄적인 완성 기능, 실험적인 Wayland 지원을 포함한 플랫폼별 개선 사항이 크게 향상되었습니다. 열거형, 일반 함수 및 Tuple 데이터 유형에 대한 기본 지원을 포함하여 언어가 크게 향상되었습니다. 이러한 값은 기본값에서 제거되었습니다.
+      <title>OpenAI는 Slack을 구축해야 합니다</title>
+      <link>https://www.latent.space/p/ainews-why-openai-should-build-slack</link>
+      <description>📝 좋아요, Sam: Slack을 구축해야 합니다. 모든 것이 더 좋아질 수 있습니다. Slack Connect는 훌륭합니다. 확실히 복제하면 됩니다.
 
 
-🔤 Original: Vim 9.2 Released
+🔤 Original: OpenAI should build Slack
 
-🔗 Read more: https://www.vim.org/vim-9.2-released.php</description>
-      <guid isPermaLink="true">https://www.vim.org/vim-9.2-released.php</guid>
-      <pubDate>Sat, 14 Feb 2026 15:39:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47015330</comments>
+🔗 Read more: https://www.latent.space/p/ainews-why-openai-should-build-slack</description>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-why-openai-should-build-slack</guid>
+      <pubDate>Sat, 14 Feb 2026 07:50:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47012553</comments>
     </item>
     <item>
-      <title>HN 표시: Arcmark – 브라우저에 사이드바로 연결되는 macOS 북마크 관리자</title>
-      <link>https://github.com/Geek-1001/arcmark</link>
-      <description>📝 Arcmark Arcmark는 모든 브라우저 창에 사이드바로 연결되는 Swift 및 AppKit로 구축된 기본 macOS 북마크 관리자입니다. 최신 릴리스 다운로드: Arcmark v0을 다운로드하세요. 릴리스 페이지의 dmg 파일 다운로드한 DMG 파일을 엽니다. Arcmark를 드래그합니다.
+      <title>더 이상 인터넷을 믿을 수 없다</title>
+      <link>https://nicole.express/2026/not-my-casual-hobby.html</link>
+      <description>📝 판타시스타 후코쿠반 판타시스타 후코쿠반은 판타시스타 IV 출시를 기념하여 1994년에 발매된 일본 세가 제네시스 게임으로 원작을 재출시한 판타시스타 후코쿠반입니다. 자, 위의 Phantasy Star의 타이틀 스크린샷을 비교해 보세요. 판타시스타 후코쿠반 뿐만이 아닙니다.
 
 
-🔤 Original: Show HN: Arcmark – macOS bookmark manager that attaches to browser as sidebar
+🔤 Original: You can't trust the internet anymore
 
-🔗 Read more: https://github.com/Geek-1001/arcmark</description>
-      <guid isPermaLink="true">https://github.com/Geek-1001/arcmark</guid>
-      <pubDate>Sat, 14 Feb 2026 16:55:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47016058</comments>
+🔗 Read more: https://nicole.express/2026/not-my-casual-hobby.html</description>
+      <guid isPermaLink="true">https://nicole.express/2026/not-my-casual-hobby.html</guid>
+      <pubDate>Sat, 14 Feb 2026 19:51:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47017727</comments>
     </item>
     <item>
-      <title>M 디스크 보관 기능 검토. 장기 테스트 결과로</title>
-      <link>http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</link>
-      <description>📝 장기 테스트 결과. 테스트 결과 M-Disc DVD는 기존 DVD보다 내구성이 더 뛰어난 것으로 나타났습니다. M-DISC BD-R에는 반사층이 없습니다.
+      <title>전신 MRI로 암을 얼마나 자주 발견합니까?</title>
+      <link>https://www.usatoday.com/story/life/health-wellness/2026/02/11/full-body-mris-cancer-aneurysm/88396037007/</link>
+      <description>📝 건강 및 복지건강 관리주제 추가 전신 MRI가 실제로 암을 발견하는 빈도는 얼마나 됩니까? 연구에 따르면 이 검사는 종종 무언가를 발견하지만 실제 질병을 발견하는 경우는 훨씬 적습니다. 41명 중 절반 이상이 암 진단을 받았습니다.
 
 
-🔤 Original: A Review of M Disc Archival Capability. With long term testing results
+🔤 Original: How often do full-body MRIs find cancer?
 
-🔗 Read more: http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</description>
-      <guid isPermaLink="true">http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</guid>
-      <pubDate>Sat, 14 Feb 2026 16:07:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47015579</comments>
+🔗 Read more: https://www.usatoday.com/story/life/health-wellness/2026/02/11/full-body-mris-cancer-aneurysm/88396037007/</description>
+      <guid isPermaLink="true">https://www.usatoday.com/story/life/health-wellness/2026/02/11/full-body-mris-cancer-aneurysm/88396037007/</guid>
+      <pubDate>Fri, 13 Feb 2026 22:21:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47008607</comments>
     </item>
     <item>
-      <title>오디오 애호가들은 구리, 바나나 또는 진흙을 통해 전송된 오디오를 구별할 수 없습니다</title>
-      <link>https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</link>
-      <description>📝 스포일러 경고: 결과는 사용자가 이러한 다양한 '인터페이스'를 정확하게 구별할 수 없음을 나타냅니다. 초기 테스트 결과에 따르면 청취자가 어떤 오디오 트랙이 어떤 배선 설정을 사용했는지 정확하게 선택하는 것이 매우 어려운 것으로 나타났습니다. 이는 "청취자가 루프 버전에서 원본을 안정적으로 선택할 수 없다"는 Pano의 결론과 일치합니다. 이는 프로급 구리선이든 누군가의 뒷마당에서 나온 젖은 진흙이든 루프로 인해 발생한 변경 사항을 감지할 수 없음을 시사합니다.
-
-
-🔤 Original: Audiophiles Can't Distinguish Audio Sent Through Copper, Banana or Mud
-
-🔗 Read more: https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</guid>
-      <pubDate>Sat, 14 Feb 2026 16:48:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47015987</comments>
+      <title>하강, 웹으로 포팅</title>
+      <link>https://mrdoob.github.io/three-descent/</link>
+      <guid isPermaLink="true">https://mrdoob.github.io/three-descent/</guid>
+      <pubDate>Sat, 14 Feb 2026 19:33:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47017545</comments>
     </item>
     <item>
-      <title>7zip.com이 악성코드를 제공하고 있습니다</title>
-      <link>https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</link>
-      <description>📝 exe - 기본 프록시 페이로드(Go-컴파일된) 영웅입니다. 실행 흐름: 설치 프로그램에서 영구 프록시 서비스까지 행동 분석은 신속하고 체계적인 감염 체인을 보여줍니다. 1. 악성 코드는 iplogger[와 통신합니다.
+      <title>헤더 전용 C 벡터 데이터베이스 라이브러리</title>
+      <link>https://github.com/abdimoallim/vdb</link>
+      <description>📝 Search vdb_result_set *vdb_search(const vdb_database *db, const float *query, size_t k) k-최근접 이웃 검색을 수행합니다. 지속성 vdb_error vdb_save(const vdb_database *db, const char *filename) 데이터베이스를 디스크에 저장합니다. vdb_database *vdb_load(const char *filename) 디스크에서 데이터베이스를 로드합니다.
 
 
-🔤 Original: 7zip.com Is Serving Malware
+🔤 Original: A header-only C vector database library
 
-🔗 Read more: https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</description>
-      <guid isPermaLink="true">https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</guid>
-      <pubDate>Sat, 14 Feb 2026 14:58:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014995</comments>
+🔗 Read more: https://github.com/abdimoallim/vdb</description>
+      <guid isPermaLink="true">https://github.com/abdimoallim/vdb</guid>
+      <pubDate>Sat, 14 Feb 2026 17:45:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016530</comments>
     </item>
     <item>
-      <title>Stoat는 사용자 비판 이후 모든 LLM 생성 코드를 제거합니다.</title>
-      <link>https://github.com/orgs/stoatchat/discussions/1022</link>
-      <description>📝 로드하는 동안 오류가 발생했습니다. 이 페이지를 새로고침하세요. 로드하는 동안 오류가 발생했습니다.
+      <title>컬러 페트리 네트, LLM 및 분산 애플리케이션</title>
+      <link>https://blog.sao.dev/cpns-llms-distributed-apps/</link>
+      <description>📝 유색 페트리 네트(CPN)는 페트리 네트의 확장입니다. 중요한 것은 하나의 입력과 출력만 있고 전역적으로 하나의 토큰만 있는 전환이 있는 페트리넷은 유한 상태 기계와 동일하다는 것입니다. 유색 페트리네트는 이 모델을 확장하여 개별 토큰이 관련 데이터를 가질 수 있도록 합니다.
 
 
-🔤 Original: Stoat removes all LLM-generated code following user criticism
+🔤 Original: Colored Petri Nets, LLMs, and distributed applications
 
-🔗 Read more: https://github.com/orgs/stoatchat/discussions/1022</description>
-      <guid isPermaLink="true">https://github.com/orgs/stoatchat/discussions/1022</guid>
-      <pubDate>Sat, 14 Feb 2026 16:54:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47016050</comments>
+🔗 Read more: https://blog.sao.dev/cpns-llms-distributed-apps/</description>
+      <guid isPermaLink="true">https://blog.sao.dev/cpns-llms-distributed-apps/</guid>
+      <pubDate>Sat, 14 Feb 2026 21:08:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47018405</comments>
+    </item>
+    <item>
+      <title>Interop 2026 출시</title>
+      <link>https://hacks.mozilla.org/2026/02/launching-interop-2026/</link>
+      <description>📝 하지만 2026년에 대해 이야기하기 전에 Interop 2025를 다시 살펴보겠습니다. Interop 2025 Firefox는 Interop 2025를 46점으로 시작했기 때문에 주기를 99로 마치게 되어 정말 자랑스럽습니다. Interop 2026 Interop 2026에 대해 150개 이상의 제안이 제출되었습니다. 이는 메인 스레드에서 실행되는 무거운 JavaScript 솔루션을 대체합니다.
+
+
+🔤 Original: Launching Interop 2026
+
+🔗 Read more: https://hacks.mozilla.org/2026/02/launching-interop-2026/</description>
+      <guid isPermaLink="true">https://hacks.mozilla.org/2026/02/launching-interop-2026/</guid>
+      <pubDate>Fri, 13 Feb 2026 22:40:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47008821</comments>
+    </item>
+    <item>
+      <title>IBM은 AI 채택의 한계를 발견한 후 신입사원 일자리를 3배로 늘렸습니다.</title>
+      <link>https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/</link>
+      <description>📝 IBM의 최고 인사 책임자(CHR)인 니클 라모로(Nickle LaMoreaux)는 이번 주에 “3~5년 후에 가장 성공할 기업은 이런 환경에서 신입사원 채용을 두 배로 늘린 기업”이라고 말했다. “너무나 많은 기업이 졸업생이 바닥에 있는 피라미드를 가지고 있습니다.” “올해 우리는 그 어느 때보다 더 많은 졸업생을 채용하고 있습니다.
+
+
+🔤 Original: IBM tripling entry-level jobs after finding the limits of AI adoption
+
+🔗 Read more: https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/</description>
+      <guid isPermaLink="true">https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/</guid>
+      <pubDate>Fri, 13 Feb 2026 23:34:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47009327</comments>
+    </item>
+    <item>
+      <title>Discord: 성능 최적화 사례 연구</title>
+      <link>https://newsletter.fullstack.zip/p/discord-a-case-study-in-performance</link>
+      <description>📝 행위자 모델은 네 가지 규칙으로 요약될 수 있습니다.1. 보내기(메시지); // 다른 액터에게 보냅니다. }); // 다른 배우의 말을 듣습니다.
+
+
+🔤 Original: Discord: A case study in performance optimization
+
+🔗 Read more: https://newsletter.fullstack.zip/p/discord-a-case-study-in-performance</description>
+      <guid isPermaLink="true">https://newsletter.fullstack.zip/p/discord-a-case-study-in-performance</guid>
+      <pubDate>Sat, 14 Feb 2026 01:03:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47010147</comments>
+    </item>
+    <item>
+      <title>HN 표시: Rover – 내장형 웹 에이전트</title>
+      <link>https://www.rtrvr.ai/blog/10-billion-proof-point-every-website-needs-ai-agent</link>
+      <description>📝 그리고 Google 에이전트는 사이트 내부가 아닌 Chrome 내부에서 사용자가 대화하는 인터페이스가 됩니다. 귀하의 전환 퍼널. Rover는 웹사이트에 존재하는 DOM 기반 AI 에이전트입니다.
+
+
+🔤 Original: Show HN: Rover – Embeddable web agent
+
+🔗 Read more: https://www.rtrvr.ai/blog/10-billion-proof-point-every-website-needs-ai-agent</description>
+      <guid isPermaLink="true">https://www.rtrvr.ai/blog/10-billion-proof-point-every-website-needs-ai-agent</guid>
+      <pubDate>Fri, 13 Feb 2026 22:26:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47008663</comments>
+    </item>
+    <item>
+      <title>유니콘 젤리</title>
+      <link>https://unicornjelly.com/</link>
+      <description>📝 유니콘 젤리 포럼의 최고 -재인쇄된 질문과 답변. 유니콘 젤리의 팬들은 놀랄 만큼 재능이 뛰어납니다. 유니콘 젤리 사가(Unicorn Jelly Saga)가 끝났습니다. 에필로그도 끝났습니다.
+
+
+🔤 Original: Unicorn Jelly
+
+🔗 Read more: https://unicornjelly.com/</description>
+      <guid isPermaLink="true">https://unicornjelly.com/</guid>
+      <pubDate>Sat, 14 Feb 2026 13:08:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47014260</comments>
     </item>
   </channel>
 </rss>
