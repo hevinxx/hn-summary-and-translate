@@ -6,55 +6,88 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Feb 2026 15:27:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 18:36:43 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Ooh.directory: a place to find good blogs that interest you</title>
-      <link>https://ooh.directory/</link>
-      <description>📝 More info Updated a month ago 01/24/26 Relevant audio. More info Updated a month ago Hit to Lead best practice. 🇺🇸 More info Updated 2 months ago Still Alive a Year Later Today marks one year since my rare cancer discovery.
+      <title>My smart sleep mask broadcasts users' brainwaves to an open MQTT broker</title>
+      <link>https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</link>
+      <description>📝 My smart sleep mask broadcasts users' brainwaves to an open MQTT broker 12 Feb, 2026 I recently got a smart sleep mask from Kickstarter. Claude figured out the encoding, and just read off every command byte from every function. Not just from my device -- from all of them.
 
-🔗 Read more: https://ooh.directory/</description>
-      <guid isPermaLink="true">https://ooh.directory/</guid>
-      <pubDate>Sat, 14 Feb 2026 13:40:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014449</comments>
+🔗 Read more: https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</description>
+      <guid isPermaLink="true">https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:35:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015294</comments>
     </item>
     <item>
-      <title>Show HN: Sameshi – a ~1200 Elo chess engine that fits within 2KB</title>
-      <link>https://github.com/datavorous/sameshi</link>
-      <description>📝 sameshi Watch Demo Video A minimal chess engine supporting a constrained subset of the game. 95 KB core 120 cell mailbox board negamax search alpha beta pruning material only eval capture first move ordering full legal move validation (check / mate / stalemate) Notenot implemented: castling, en passant, promotion, repetition, 50-move rule. strength ~1170 Elo (95% CI: 1110-1225) 240 games vs stockfish (1320-1600 levels) fixed depth 5, constrained rules, max 60 plies.
+      <title>Amsterdam Compiler Kit</title>
+      <link>https://github.com/davidgiven/ack</link>
+      <description>📝 Platforms: cpm produces i80 CP/M. COM files em22 produces EM22 bytecode files linux386 produces ELF executables for PC Linux systems linux68k produces ELF executables for m68020 Linux systems linuxmips produces ELF executables for little-endian MIPS32r2 Linux systems linuxppc produces ELF executables for PowerPC Linux systems minix68k produces Minix executables for m68000 Minix systems msdos386 produces i386 MS-DOS 32-bit DPMI. EXE files msdos86 produces i86 MS-DOS.
 
-🔗 Read more: https://github.com/datavorous/sameshi</description>
-      <guid isPermaLink="true">https://github.com/datavorous/sameshi</guid>
-      <pubDate>Sat, 14 Feb 2026 13:47:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014500</comments>
+🔗 Read more: https://github.com/davidgiven/ack</description>
+      <guid isPermaLink="true">https://github.com/davidgiven/ack</guid>
+      <pubDate>Sat, 14 Feb 2026 16:50:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016008</comments>
     </item>
     <item>
-      <title>How many registers does an x86-64 CPU have? (2020)</title>
-      <link>https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</link>
-      <description>📝 I will count registers that are present on x86-64 CPUs, but that can’t be used in long mode. I won’t count microarchitectural implementation details, like shadow registers. I will count registers that aren’t directly addressable, like MSRs that can only be accessed through RDMSR.
+      <title>Vim 9.2 Released</title>
+      <link>https://www.vim.org/vim-9.2-released.php</link>
+      <description>📝 2 brings significant enhancements to the Vim9 scripting language, improved diff mode, comprehensive completion features, and platform-specific improvements including experimental Wayland support. Significant language enhancements including native support for Enums, Generic functions, and the Tuple data type. These values have been removed from defaults.
 
-🔗 Read more: https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</description>
-      <guid isPermaLink="true">https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</guid>
-      <pubDate>Sat, 14 Feb 2026 13:33:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014405</comments>
+🔗 Read more: https://www.vim.org/vim-9.2-released.php</description>
+      <guid isPermaLink="true">https://www.vim.org/vim-9.2-released.php</guid>
+      <pubDate>Sat, 14 Feb 2026 15:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015330</comments>
     </item>
     <item>
-      <title>Golf game built last night with Claude Code, Svelte and ThreeJS</title>
-      <link>https://www.the-golf-is-golfing.com</link>
-      <guid isPermaLink="true">https://www.the-golf-is-golfing.com</guid>
-      <pubDate>Sat, 14 Feb 2026 14:15:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014704</comments>
+      <title>Show HN: Arcmark – macOS bookmark manager that attaches to browser as sidebar</title>
+      <link>https://github.com/Geek-1001/arcmark</link>
+      <description>📝 Arcmark Arcmark is a native macOS bookmark manager built with Swift and AppKit that attaches to any browser window as a sidebar. Download Latest Release: Download Arcmark v0. dmg file from the Releases page Open the downloaded DMG file Drag Arcmark.
+
+🔗 Read more: https://github.com/Geek-1001/arcmark</description>
+      <guid isPermaLink="true">https://github.com/Geek-1001/arcmark</guid>
+      <pubDate>Sat, 14 Feb 2026 16:55:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016058</comments>
     </item>
     <item>
-      <title>Epstein's Ugly World of Science</title>
-      <link>https://homunculusmusic.wordpress.com/2026/02/14/epsteins-ugly-world-of-science/</link>
-      <description>📝 Some of this was primarily about money. There was (apart from the non-representativeness) nothing inherently wrong with this. Others severed those links after Epstein’s first conviction.
+      <title>A Review of M Disc Archival Capability. With long term testing results</title>
+      <link>http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</link>
+      <description>📝 With long term testing results. The testing found that M-Disc DVDs are more durable than conventional DVDs. M-DISC BD-R has no reflective layer.
 
-🔗 Read more: https://homunculusmusic.wordpress.com/2026/02/14/epsteins-ugly-world-of-science/</description>
-      <guid isPermaLink="true">https://homunculusmusic.wordpress.com/2026/02/14/epsteins-ugly-world-of-science/</guid>
-      <pubDate>Sat, 14 Feb 2026 14:59:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014999</comments>
+🔗 Read more: http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</description>
+      <guid isPermaLink="true">http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</guid>
+      <pubDate>Sat, 14 Feb 2026 16:07:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015579</comments>
+    </item>
+    <item>
+      <title>Audiophiles Can't Distinguish Audio Sent Through Copper, Banana or Mud</title>
+      <link>https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</link>
+      <description>📝 Spoiler alert: the results indicated that users were unable to accurately distinguish between these different 'interfaces. Initial test results showed that it’s extremely difficult for listeners to correctly pick out which audio track used which wiring setup. This goes in line with Pano's conclusion that "listeners can't reliably pick out the original from the looped versions," suggesting that they cannot detect any changes introduced by the loop — whether it's pro-grade copper wire or wet mud from somebody's backyard.
+
+🔗 Read more: https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</guid>
+      <pubDate>Sat, 14 Feb 2026 16:48:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015987</comments>
+    </item>
+    <item>
+      <title>7zip.com Is Serving Malware</title>
+      <link>https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</link>
+      <description>📝 exe—the primary proxy payload (Go‑compiled) hero. Execution flow: from installer to persistent proxy service Behavioral analysis shows a rapid and methodical infection chain: 1. The malware communicates with iplogger[.
+
+🔗 Read more: https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</description>
+      <guid isPermaLink="true">https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</guid>
+      <pubDate>Sat, 14 Feb 2026 14:58:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47014995</comments>
+    </item>
+    <item>
+      <title>Stoat removes all LLM-generated code following user criticism</title>
+      <link>https://github.com/orgs/stoatchat/discussions/1022</link>
+      <description>📝 There was an error while loading. Please reload this page. There was an error while loading.
+
+🔗 Read more: https://github.com/orgs/stoatchat/discussions/1022</description>
+      <guid isPermaLink="true">https://github.com/orgs/stoatchat/discussions/1022</guid>
+      <pubDate>Sat, 14 Feb 2026 16:54:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016050</comments>
     </item>
   </channel>
 </rss>

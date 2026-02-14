@@ -6,67 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Feb 2026 15:27:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 18:36:43 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Ooh.directory: 관심 있는 좋은 블로그를 찾을 수 있는 곳</title>
-      <link>https://ooh.directory/</link>
-      <description>📝 추가 정보 한 달 전 업데이트됨 01/24/26 관련 오디오. 추가 정보 한 달 전에 업데이트됨 Hit to Lead 모범 사례. 🇺🇸 추가 정보 2개월 전 업데이트됨 Still Alive 1년 후 오늘은 제가 희귀한 암을 발견한 지 1년이 되는 날입니다.
+      <title>내 스마트 수면 마스크는 사용자의 뇌파를 개방형 MQTT 브로커에 방송합니다.</title>
+      <link>https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</link>
+      <description>📝 내 스마트 수면 마스크는 공개 MQTT 브로커에 사용자의 뇌파를 방송합니다. 2026년 2월 12일 저는 최근 Kickstarter에서 스마트 수면 마스크를 받았습니다. Claude는 인코딩을 파악하고 모든 함수에서 모든 명령 바이트를 읽었습니다. 내 기기뿐만 아니라 모든 기기에서요.
 
 
-🔤 Original: Ooh.directory: a place to find good blogs that interest you
+🔤 Original: My smart sleep mask broadcasts users' brainwaves to an open MQTT broker
 
-🔗 Read more: https://ooh.directory/</description>
-      <guid isPermaLink="true">https://ooh.directory/</guid>
-      <pubDate>Sat, 14 Feb 2026 13:40:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014449</comments>
+🔗 Read more: https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</description>
+      <guid isPermaLink="true">https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:35:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015294</comments>
     </item>
     <item>
-      <title>Show HN: Sameshi – 2KB 내에 맞는 ~1200 Elo 체스 엔진</title>
-      <link>https://github.com/datavorous/sameshi</link>
-      <description>📝 sameshi 데모 비디오 보기 제한된 게임 하위 집합을 지원하는 최소 체스 엔진입니다. 95KB 코어 120 셀 메일함 보드 negamax 검색 알파 베타 가지치기 자료만 평가 캡처 첫 번째 이동 주문 전체 적법한 이동 검증(확인/메이트/교착 상태) 참고 구현되지 않음: 캐슬링, 앙파상, 프로모션, 반복, 50-이동 규칙. 강도 ~1170 Elo(95% CI: 1110-1225) 240 게임 대 건어(1320-1600 레벨) 고정 깊이 5, 제한된 규칙, 최대 60플라이.
+      <title>암스테르담 컴파일러 키트</title>
+      <link>https://github.com/davidgiven/ack</link>
+      <description>📝 플랫폼: cpm은 i80 CP/M을 생산합니다. COM 파일 em22는 EM22 바이트코드 파일을 생성합니다. linux386은 PC Linux 시스템용 ELF 실행 파일을 생성합니다. linux68k는 m68020용 ELF 실행 파일을 생성합니다. Linux 시스템 linuxmips는 리틀 엔디안 MIPS32r2 Linux 시스템용 ELF 실행 파일을 생성합니다. linuxppc는 PowerPC용 ELF 실행 파일을 생성합니다. Linux 시스템 minix68k는 m68000용 Minix 실행 파일을 생성합니다. Minix 시스템 msdos386은 i386 MS-DOS를 생성합니다. 32비트 DPMI. EXE 파일 msdos86은 i86 MS-DOS를 생성합니다.
 
 
-🔤 Original: Show HN: Sameshi – a ~1200 Elo chess engine that fits within 2KB
+🔤 Original: Amsterdam Compiler Kit
 
-🔗 Read more: https://github.com/datavorous/sameshi</description>
-      <guid isPermaLink="true">https://github.com/datavorous/sameshi</guid>
-      <pubDate>Sat, 14 Feb 2026 13:47:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014500</comments>
+🔗 Read more: https://github.com/davidgiven/ack</description>
+      <guid isPermaLink="true">https://github.com/davidgiven/ack</guid>
+      <pubDate>Sat, 14 Feb 2026 16:50:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016008</comments>
     </item>
     <item>
-      <title>x86-64 CPU에는 몇 개의 레지스터가 있습니까? (2020)</title>
-      <link>https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</link>
-      <description>📝 x86-64 CPU에 있지만 Long 모드에서는 사용할 수 없는 레지스터의 수를 계산하겠습니다. 섀도우 레지스터와 같은 마이크로아키텍처 구현 세부 사항은 계산하지 않겠습니다. RDMSR을 통해서만 액세스할 수 있는 MSR과 같이 직접적으로 주소를 지정할 수 없는 레지스터의 수를 계산하겠습니다.
+      <title>빔 9.2 출시</title>
+      <link>https://www.vim.org/vim-9.2-released.php</link>
+      <description>📝 2에서는 Vim9 스크립팅 언어, 개선된 diff 모드, 포괄적인 완성 기능, 실험적인 Wayland 지원을 포함한 플랫폼별 개선 사항이 크게 향상되었습니다. 열거형, 일반 함수 및 Tuple 데이터 유형에 대한 기본 지원을 포함하여 언어가 크게 향상되었습니다. 이러한 값은 기본값에서 제거되었습니다.
 
 
-🔤 Original: How many registers does an x86-64 CPU have? (2020)
+🔤 Original: Vim 9.2 Released
 
-🔗 Read more: https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</description>
-      <guid isPermaLink="true">https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</guid>
-      <pubDate>Sat, 14 Feb 2026 13:33:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014405</comments>
+🔗 Read more: https://www.vim.org/vim-9.2-released.php</description>
+      <guid isPermaLink="true">https://www.vim.org/vim-9.2-released.php</guid>
+      <pubDate>Sat, 14 Feb 2026 15:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015330</comments>
     </item>
     <item>
-      <title>Claude Code, Svelte 및 ThreeJS를 사용하여 어젯밤에 만든 골프 게임</title>
-      <link>https://www.the-golf-is-golfing.com</link>
-      <guid isPermaLink="true">https://www.the-golf-is-golfing.com</guid>
-      <pubDate>Sat, 14 Feb 2026 14:15:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014704</comments>
+      <title>HN 표시: Arcmark – 브라우저에 사이드바로 연결되는 macOS 북마크 관리자</title>
+      <link>https://github.com/Geek-1001/arcmark</link>
+      <description>📝 Arcmark Arcmark는 모든 브라우저 창에 사이드바로 연결되는 Swift 및 AppKit로 구축된 기본 macOS 북마크 관리자입니다. 최신 릴리스 다운로드: Arcmark v0을 다운로드하세요. 릴리스 페이지의 dmg 파일 다운로드한 DMG 파일을 엽니다. Arcmark를 드래그합니다.
+
+
+🔤 Original: Show HN: Arcmark – macOS bookmark manager that attaches to browser as sidebar
+
+🔗 Read more: https://github.com/Geek-1001/arcmark</description>
+      <guid isPermaLink="true">https://github.com/Geek-1001/arcmark</guid>
+      <pubDate>Sat, 14 Feb 2026 16:55:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016058</comments>
     </item>
     <item>
-      <title>엡스타인의 추악한 과학 세계</title>
-      <link>https://homunculusmusic.wordpress.com/2026/02/14/epsteins-ugly-world-of-science/</link>
-      <description>📝 이 중 일부는 주로 돈에 관한 것이었습니다. (비대표성을 제외하면) 이것에는 본질적으로 잘못된 것이 없습니다. 다른 사람들은 엡스타인의 첫 유죄판결 이후 그러한 연결고리를 끊었습니다.
+      <title>M 디스크 보관 기능 검토. 장기 테스트 결과로</title>
+      <link>http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</link>
+      <description>📝 장기 테스트 결과. 테스트 결과 M-Disc DVD는 기존 DVD보다 내구성이 더 뛰어난 것으로 나타났습니다. M-DISC BD-R에는 반사층이 없습니다.
 
 
-🔤 Original: Epstein's Ugly World of Science
+🔤 Original: A Review of M Disc Archival Capability. With long term testing results
 
-🔗 Read more: https://homunculusmusic.wordpress.com/2026/02/14/epsteins-ugly-world-of-science/</description>
-      <guid isPermaLink="true">https://homunculusmusic.wordpress.com/2026/02/14/epsteins-ugly-world-of-science/</guid>
-      <pubDate>Sat, 14 Feb 2026 14:59:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47014999</comments>
+🔗 Read more: http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</description>
+      <guid isPermaLink="true">http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</guid>
+      <pubDate>Sat, 14 Feb 2026 16:07:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015579</comments>
+    </item>
+    <item>
+      <title>오디오 애호가들은 구리, 바나나 또는 진흙을 통해 전송된 오디오를 구별할 수 없습니다</title>
+      <link>https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</link>
+      <description>📝 스포일러 경고: 결과는 사용자가 이러한 다양한 '인터페이스'를 정확하게 구별할 수 없음을 나타냅니다. 초기 테스트 결과에 따르면 청취자가 어떤 오디오 트랙이 어떤 배선 설정을 사용했는지 정확하게 선택하는 것이 매우 어려운 것으로 나타났습니다. 이는 "청취자가 루프 버전에서 원본을 안정적으로 선택할 수 없다"는 Pano의 결론과 일치합니다. 이는 프로급 구리선이든 누군가의 뒷마당에서 나온 젖은 진흙이든 루프로 인해 발생한 변경 사항을 감지할 수 없음을 시사합니다.
+
+
+🔤 Original: Audiophiles Can't Distinguish Audio Sent Through Copper, Banana or Mud
+
+🔗 Read more: https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</guid>
+      <pubDate>Sat, 14 Feb 2026 16:48:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47015987</comments>
+    </item>
+    <item>
+      <title>7zip.com이 악성코드를 제공하고 있습니다</title>
+      <link>https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</link>
+      <description>📝 exe - 기본 프록시 페이로드(Go-컴파일된) 영웅입니다. 실행 흐름: 설치 프로그램에서 영구 프록시 서비스까지 행동 분석은 신속하고 체계적인 감염 체인을 보여줍니다. 1. 악성 코드는 iplogger[와 통신합니다.
+
+
+🔤 Original: 7zip.com Is Serving Malware
+
+🔗 Read more: https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</description>
+      <guid isPermaLink="true">https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</guid>
+      <pubDate>Sat, 14 Feb 2026 14:58:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47014995</comments>
+    </item>
+    <item>
+      <title>Stoat는 사용자 비판 이후 모든 LLM 생성 코드를 제거합니다.</title>
+      <link>https://github.com/orgs/stoatchat/discussions/1022</link>
+      <description>📝 로드하는 동안 오류가 발생했습니다. 이 페이지를 새로고침하세요. 로드하는 동안 오류가 발생했습니다.
+
+
+🔤 Original: Stoat removes all LLM-generated code following user criticism
+
+🔗 Read more: https://github.com/orgs/stoatchat/discussions/1022</description>
+      <guid isPermaLink="true">https://github.com/orgs/stoatchat/discussions/1022</guid>
+      <pubDate>Sat, 14 Feb 2026 16:54:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47016050</comments>
     </item>
   </channel>
 </rss>
