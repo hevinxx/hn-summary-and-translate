@@ -6,125 +6,126 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Feb 2026 18:38:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 21:26:51 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>LT6502：基于 6502 的自制笔记本电脑</title>
-      <link>https://github.com/TechPaula/LT6502</link>
-      <description>📝 2026-01-04 - VIA 工作、ACIA 工作、基本工作中与键盘之间的通信。 3" 800x480 基于 RA8875 的显示器并使其工作。我未能使基于 LT7683 的显示器工作。
+      <title>GNU Pies – 程序调用和执行主管</title>
+      <link>https://www.gnu.org.ua/software/pies/</link>
+      <description>📝 Pies 这个名字（发音为“p-yes”）代表程序调用和执行管理器。该实用程序启动并控制称为组件的外部程序的执行。启动时，pies 从其配置文件中读取组件列表，启动它们，并保留在后台，控制它们的执行。
 
 
-🔤 Original: LT6502: A 6502-based homebrew laptop
+🔤 Original: GNU Pies – Program Invocation and Execution Supervisor
 
-🔗 Read more: https://github.com/TechPaula/LT6502</description>
-      <guid isPermaLink="true">https://github.com/TechPaula/LT6502</guid>
-      <pubDate>Sun, 15 Feb 2026 17:12:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025399</comments>
+🔗 Read more: https://www.gnu.org.ua/software/pies/</description>
+      <guid isPermaLink="true">https://www.gnu.org.ua/software/pies/</guid>
+      <pubDate>Sun, 15 Feb 2026 20:53:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47027427</comments>
     </item>
     <item>
-      <title>欧盟禁止销毁未售出的服装、服装、配饰和鞋类</title>
-      <link>https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</link>
-      <description>📝 为了帮助减少这种浪费行为，ESPR 要求公司披露其作为废物丢弃的未售出消费品的信息。自 2026 年 7 月 19 日起，禁止销毁未售出的服装、服装配饰和鞋类的禁令及其减损措施将适用于大公司。更多信息授权法规规定了禁止销毁未售出的消费品的减损规定 |欧盟委员会实施关于废弃未售出消费品信息披露细节和格式的规定|欧盟委员会可持续产品生态设计法规|欧盟委员会可持续产品生态设计法规| EUR-LexTextiles 策略 |欧盟委员会欧洲循环经济中回收和未售出纺织品的销毁|欧洲环境署 (EEA) 详细信息 出版日期 2026 年 2 月 9 日 作者：环境总局。
+      <title>显示 HN：VOOG – 使用 Python 和 tkinter GUI 的 Moog 风格复调合成器</title>
+      <link>https://github.com/gpasquero/voog</link>
+      <description>📝 VOOG 虚拟模拟合成器 — 用 Python 构建的 Moog 风格复调合成器，带有受 Subsequent 37 启发的 tkinter GUI。MIDI 连接任何 MIDI 控制器。旋钮 所有合成器参数都使用旋钮控制： 在任何旋钮上垂直拖动以更改其值（向上 = 增加） 滚轮进行微调 琥珀色弧线显示当前值位置 预设 预设说明 初始化 默认启动音色 Bass Voog 带有滤波器包络的脂肪失谐锯齿低音 主奏锯齿 带连奏滑音的激进双锯齿主音 垫弦 带有慢速滤波器的温暖演变垫 LFO Sub Thunder 具有方波基础的深低音 酸静噪 高共振滤波器扫频， 303 风格 Funky Pluck 活泼的敲击打击乐，快速衰减 尖叫主音 带有颤音和滑音的明亮共鸣主音 温暖的铜管乐 方波/锯齿混合，中等起音 黑暗无人机 失谐低音锯齿，带有慢速 LFO 扫频 Perc Hit 超短包络的爆音 复古琴键 三角/方波电钢琴音色 摆动低音 低频振荡器驱动的滤波器调制 恍惚主音 宽失谐三锯齿音，带音高颤音 胖齐奏 三锯齿扩展±25 cents Reso Sweep 近自激振荡滤波器，具有长衰减 Fifth Stab Power 第五音程，短冲程 Glass Bell 正弦谐波，具有长晶体释放 噪声扫描 通过谐振 LFO 过滤噪声，科幻架构 Synth/ ├── dsp/ # 信号处理模块 │ ├── 振荡器 # 波表合成（正弦波、锯齿波、方波、三角波） │ ├── filter # Moog 梯形滤波器（24dB/oct，Huovillainen 模型） │ ├── 包络 # ADSR 包络发生器 │ ├── lfo # 低频振荡器 │ ├── glide # 音高滑音 │ └── 噪音 # 白/粉红噪音发生器 ├── engine/ # 音频引擎 │ ├── audio_engine # 主引擎、声音设备输出、MIDI 路由 │ ├── channel # 多音色通道(patch + voice allocator) │ ├── voice # 单声部 (振荡器 + 滤波器 + 包络) │ └── voice_allocator # 具有语音窃取功能的复调分配 ├── gui/ # 图形界面 │ └── app # 带旋钮和虚拟键盘的 tkinter GUI ├── midi/ # MIDI 支持 │ ├── midi_input # MIDI 端口侦听器(mido/rtmidi) │ ├── midi_router # 消息路由 │ └── cc_map # CC 到参数映射 ├── patch/ # 补丁系统 │ ├── patch # 补丁数据结构 │ ├── patch_manager # 保存/加载到磁盘 │ └── default_patches # 19 个内置预设 └── cli/ # 命令行界面└── repl # 交互式 REPL 许可证 MIT。
 
 
-🔤 Original: EU bans the destruction of unsold apparel, clothing, accessories and footwear
+🔤 Original: Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI
 
-🔗 Read more: https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</description>
-      <guid isPermaLink="true">https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</guid>
-      <pubDate>Sun, 15 Feb 2026 17:10:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025378</comments>
+🔗 Read more: https://github.com/gpasquero/voog</description>
+      <guid isPermaLink="true">https://github.com/gpasquero/voog</guid>
+      <pubDate>Sun, 15 Feb 2026 19:40:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026768</comments>
     </item>
     <item>
-      <title>Gwtar：静态高效的单文件 HTML 格式</title>
-      <link>https://gwern.net/gwtar</link>
-      <description>📝 NET 来提供大型 HTML 档案。 html 扩展名），它同时实现了所有 3 个属性。 HTML 三难困境 当前没有一种格式能够实现这三个目标。
+      <title>现代 CSS 代码片段：别再像 2015 年那样编写 CSS</title>
+      <link>https://modern-css.com</link>
+      <description>📝 现代 CSS 代码片段 |现代的。切换（'主要'，isPrimary）；现代的。 showModal()"&gt;打开&lt;/button&gt; 现代&lt;button commandfor="dlg" command="show-modal"&gt;打开&lt;/button&gt;&lt;dialog id="dlg"&gt;。
 
 
-🔤 Original: Gwtar: A static efficient single-file HTML format
+🔤 Original: Modern CSS Code Snippets: Stop writing CSS like it's 2015
 
-🔗 Read more: https://gwern.net/gwtar</description>
-      <guid isPermaLink="true">https://gwern.net/gwtar</guid>
-      <pubDate>Sun, 15 Feb 2026 15:37:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024506</comments>
+🔗 Read more: https://modern-css.com</description>
+      <guid isPermaLink="true">https://modern-css.com</guid>
+      <pubDate>Sun, 15 Feb 2026 18:04:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025851</comments>
     </item>
     <item>
-      <title>世嘉所有游戏机的设计师佐藤英树去世</title>
-      <link>https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</link>
-      <description>📝 日本游戏媒体 Beep21 报道称，佐藤本周末去世。那时，街机游戏已经使用 16 位 CPU。 99Sonic Frontiers (Xbox Series X|S) £49。
+      <title>走向自主数学研究</title>
+      <link>https://arxiv.org/abs/2602.10177</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） DagsHub Toggle DagsHub（什么是 DagsHub。
 
 
-🔤 Original: Hideki Sato, designer of all Sega's consoles, has died
+🔤 Original: Towards Autonomous Mathematics Research
 
-🔗 Read more: https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</description>
-      <guid isPermaLink="true">https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</guid>
-      <pubDate>Sun, 15 Feb 2026 16:19:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024907</comments>
+🔗 Read more: https://arxiv.org/abs/2602.10177</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.10177</guid>
+      <pubDate>Sun, 15 Feb 2026 18:35:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026134</comments>
     </item>
     <item>
-      <title>Palantir 从纽约市公立医院获得数百万美元</title>
-      <link>https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</link>
-      <description>📝 Palantir 与纽约公共医疗保健系统签订的合同允许该公司处理患者的受保护健康信息（PHI）。此类条款在涉及健康数据的合同中很常见。国家医疗服务体系，是当今的业务关系。
-
-
-🔤 Original: Palantir Gets Millions of Dollars from New York City's Public Hospitals
-
-🔗 Read more: https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</description>
-      <guid isPermaLink="true">https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</guid>
-      <pubDate>Sun, 15 Feb 2026 17:37:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025624</comments>
+      <title>Show HN：Microgpt 是一个可以在浏览器中可视化的 GPT</title>
+      <link>https://microgpt.boratto.ca</link>
+      <guid isPermaLink="true">https://microgpt.boratto.ca</guid>
+      <pubDate>Sun, 15 Feb 2026 18:40:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026186</comments>
     </item>
     <item>
-      <title>一名被奴役的园丁将山核桃变成了经济作物</title>
-      <link>https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</link>
-      <description>📝 发酵坚果用于传统的土著仪式。安托万在山核桃树繁殖方面取得的进步，产生了可繁殖的高质量山核桃，导致这些坚果被种植为可以大规模生产的经济作物。因此，种植这些成功的山核桃树的努力实际上被削减了，而这些山核桃树是美国商业山核桃生产的基础。
+      <title>Show HN：Lightwave – 实时笔记应用程序，3.5 年手写 JavaScript</title>
+      <link>https://news.ycombinator.com/item?id=47027463</link>
+      <description>📝 复制块，恢复降价。 - 具有语法突出显示的代码块。 - 完全撤消/重做与光标恢复。
 
 
-🔤 Original: An Enslaved Gardener Transformed the Pecan into a Cash Crop
+🔤 Original: Show HN: Lightwave – Real-time notes app, 3.5 years of hand-rolled JavaScript
 
-🔗 Read more: https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</description>
-      <guid isPermaLink="true">https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</guid>
-      <pubDate>Sun, 15 Feb 2026 15:53:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024676</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47027463</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47027463</guid>
+      <pubDate>Sun, 15 Feb 2026 20:57:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47027463</comments>
     </item>
     <item>
-      <title>Palantir 诉“Republik”：美国分析公司将杂志告上法庭</title>
-      <link>https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</link>
-      <description>📝 12月，《共和国报》广泛引用了瑞士政府的文件。据此，Palantir 多次寻求与瑞士当局联系，并最终找到了联系。 Palantir 认为有关此事的报道受到了不公平的对待。
+      <title>Show HN：Knock-Knock.net – 可视化机器人敲我服务器的门</title>
+      <link>https://knock-knock.net</link>
+      <description>📝 在网络上设置一个不受保护的服务器，机器人就会开始蜂拥而至。该站点显示机器人试图（未成功）闯入普通互联网服务器。机器人不断敲击网络上机器的门被称为“互联网的背景辐射”。
 
 
-🔤 Original: Palantir vs. the "Republik": US analytics firm takes magazine to court
+🔤 Original: Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door
 
-🔗 Read more: https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</description>
-      <guid isPermaLink="true">https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</guid>
-      <pubDate>Sun, 15 Feb 2026 16:51:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025188</comments>
+🔗 Read more: https://knock-knock.net</description>
+      <guid isPermaLink="true">https://knock-knock.net</guid>
+      <pubDate>Sun, 15 Feb 2026 17:06:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025338</comments>
     </item>
     <item>
-      <title>1940 年代爱尔兰科幻小说以早期机甲和重力辅助为特色</title>
-      <link>https://github.com/cavedave/Manannan</link>
-      <description>📝 txt — 提取并更正的文本，第 9–13 页 Manannán_13-18。第 13-18 页 — 稍后摘录 — 一旦我们进一步发现这些部分中的错误，我们就可以使用它们来纠正后面的页面。因此，修复初始错误可以大大减少后面章节中发现的错误。
+      <title>州总检察长希望将在线访问与身份证件联系起来</title>
+      <link>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</link>
+      <description>📝 第6484章 这会限制国家权力。总检察长警告说，这将限制他们根据州法律追究新兴网络危害的能力。联邦机构将研究设备级年龄验证系统，联邦贸易委员会将监督损害减轻责任的遵守情况，各州将继续追求第
 
 
-🔤 Original: 1940s Irish sci-fi novel features early mecha and gravity assists
+🔤 Original: State Attorneys General Want to Tie Online Access to ID
 
-🔗 Read more: https://github.com/cavedave/Manannan</description>
-      <guid isPermaLink="true">https://github.com/cavedave/Manannan</guid>
-      <pubDate>Sun, 15 Feb 2026 14:55:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024184</comments>
+🔗 Read more: https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</description>
+      <guid isPermaLink="true">https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</guid>
+      <pubDate>Sun, 15 Feb 2026 19:49:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026848</comments>
     </item>
     <item>
-      <title>平台内效应</title>
-      <link>https://en.wikipedia.org/wiki/Inner-platform_effect</link>
-      <description>📝 示例[编辑] 示例在基于插件的软件中可见，例如一些文本编辑器和网络浏览器，这些软件通常让开发人员创建插件来重新创建通常在操作系统本身之上运行的软件。检索自“https://en.title=Inner-platform_effect&amp;oldid=1319593770” 类别：反模式隐藏类别：具有简短描述的文章简短描述与 2017 年 3 月以来有样式问题的 WikidataWikipedia 文章相匹配所有具有样式问题的文章所有具有无来源声明的文章自 2014 年 12 月以来具有无来源声明的文章使用 2017 年 4 月以来的 dmy 日期。
+      <title>SCM作为代码的数据库</title>
+      <link>https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</link>
+      <description>📝 在调查特工的实际行为时，这一点尤其有价值。 Zed 的 DeltaDB 与这种方法保持一致。因为代码是有结构的。
 
 
-🔤 Original: Inner-Platform Effect
+🔤 Original: SCM as a database for the code
 
-🔗 Read more: https://en.wikipedia.org/wiki/Inner-platform_effect</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Inner-platform_effect</guid>
-      <pubDate>Sun, 15 Feb 2026 14:48:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024112</comments>
+🔗 Read more: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</description>
+      <guid isPermaLink="true">https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</guid>
+      <pubDate>Sun, 15 Feb 2026 09:09:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47022238</comments>
+    </item>
+    <item>
+      <title>法院因 H.265 专利命令宏碁和华硕停止在德国销售 PC</title>
+      <link>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</link>
+      <guid isPermaLink="true">https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</guid>
+      <pubDate>Sun, 15 Feb 2026 20:06:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47027011</comments>
     </item>
   </channel>
 </rss>

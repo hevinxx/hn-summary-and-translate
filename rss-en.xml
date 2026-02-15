@@ -6,98 +6,102 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Feb 2026 18:38:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 21:26:51 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>LT6502: A 6502-based homebrew laptop</title>
-      <link>https://github.com/TechPaula/LT6502</link>
-      <description>📝 2026-01-04 - VIA working, ACIA working, comms to/from the keyboard in basic working. 3" 800x480 RA8875 based display and got that working. I failed to get the LT7683 based display working.
+      <title>GNU Pies – Program Invocation and Execution Supervisor</title>
+      <link>https://www.gnu.org.ua/software/pies/</link>
+      <description>📝 The name Pies (pronounced "p-yes") stands for Program Invocation and Execution Supervisor. This utility starts and controls execution of external programs, called components. Upon startup, pies reads the list of components from its configuration file, starts them, and remains in the background, controlling their execution.
 
-🔗 Read more: https://github.com/TechPaula/LT6502</description>
-      <guid isPermaLink="true">https://github.com/TechPaula/LT6502</guid>
-      <pubDate>Sun, 15 Feb 2026 17:12:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025399</comments>
+🔗 Read more: https://www.gnu.org.ua/software/pies/</description>
+      <guid isPermaLink="true">https://www.gnu.org.ua/software/pies/</guid>
+      <pubDate>Sun, 15 Feb 2026 20:53:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47027427</comments>
     </item>
     <item>
-      <title>EU bans the destruction of unsold apparel, clothing, accessories and footwear</title>
-      <link>https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</link>
-      <description>📝 To help reduce this wasteful practice, the ESPR requires companies to disclose information on the unsold consumer products they discard as waste. The ban on destruction of unsold apparel, clothing accessories and footwear and the derogations will apply to large companies from 19 July 2026. More informationDelegated Regulation setting out derogations from the prohibition of destruction of unsold consumer products | European CommissionImplementing Regulation on the details and format for the disclosure of information on discarded unsold consumer products | European CommissionEcodesign for Sustainable Products Regulation | European CommissionEcodesign for Sustainable Products Regulation | EUR-LexTextiles strategy | European CommissionThe destruction of returned and unsold textiles in Europe’s circular economy | European Environment Agency (EEA) Details Publication date9 February 2026AuthorDirectorate-General for Environment.
+      <title>Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI</title>
+      <link>https://github.com/gpasquero/voog</link>
+      <description>📝 VOOG Virtual Analog Synthesizer — a Moog-style polyphonic synthesizer built in Python with a tkinter GUI inspired by the Subsequent 37. MIDI Connect any MIDI controller. Rotary knobs All synth parameters use rotary knob controls: Drag vertically on any knob to change its value (up = increase) Scroll wheel for fine adjustment The amber arc shows the current value position Presets Preset Description Init Default starting patch Bass Voog Fat detuned saw bass with filter envelope Lead Saw Aggressive dual-saw lead with legato glide Pad Strings Warm evolving pad with slow filter LFO Sub Thunder Deep sub bass with square wave foundation Acid Squelch High-resonance filter sweep, 303-style Funky Pluck Snappy percussive hit, fast decay Screaming Lead Bright resonant lead with vibrato and glide Warm Brass Square/saw mix with medium attack Dark Drone Detuned low saws with slow LFO sweep Perc Hit Noise burst with ultra-short envelope Vintage Keys Triangle/square electric piano tone Wobble Bass LFO-driven filter modulation Trance Lead Wide-detuned triple saw with pitch vibrato Fat Unison Three saws spread ±25 cents Reso Sweep Near self-oscillating filter with long decay Fifth Stab Power fifth interval, short punch Glass Bell Sine harmonics with long crystalline release Noise Sweep Filtered noise with resonant LFO, sci-fi Architecture synth/ ├── dsp/ # Signal processing modules │ ├── oscillator # Wavetable synthesis (sine, saw, square, triangle) │ ├── filter # Moog ladder filter (24dB/oct, Huovilainen model) │ ├── envelope # ADSR envelope generator │ ├── lfo # Low-frequency oscillator │ ├── glide # Pitch portamento │ └── noise # White/pink noise generator ├── engine/ # Audio engine │ ├── audio_engine # Master engine, sounddevice output, MIDI routing │ ├── channel # Multitimbral channel (patch + voice allocator) │ ├── voice # Single voice (oscillators + filter + envelopes) │ └── voice_allocator # Polyphonic allocation with voice stealing ├── gui/ # Graphical interface │ └── app # tkinter GUI with rotary knobs and virtual keyboard ├── midi/ # MIDI support │ ├── midi_input # MIDI port listener (mido/rtmidi) │ ├── midi_router # Message routing │ └── cc_map # CC-to-parameter mapping ├── patch/ # Patch system │ ├── patch # Patch data structure │ ├── patch_manager # Save/load to disk │ └── default_patches # 19 built-in presets └── cli/ # Command-line interface └── repl # Interactive REPL License MIT.
 
-🔗 Read more: https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</description>
-      <guid isPermaLink="true">https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</guid>
-      <pubDate>Sun, 15 Feb 2026 17:10:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025378</comments>
+🔗 Read more: https://github.com/gpasquero/voog</description>
+      <guid isPermaLink="true">https://github.com/gpasquero/voog</guid>
+      <pubDate>Sun, 15 Feb 2026 19:40:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026768</comments>
     </item>
     <item>
-      <title>Gwtar: A static efficient single-file HTML format</title>
-      <link>https://gwern.net/gwtar</link>
-      <description>📝 net to serve large HTML archives. html extension), which achieves all 3 properties simultaneously. HTML Trilemma No current format achieves all 3.
+      <title>Modern CSS Code Snippets: Stop writing CSS like it's 2015</title>
+      <link>https://modern-css.com</link>
+      <description>📝 Modern CSS Code Snippets | modern. toggle( 'primary', isPrimary); Modern. showModal()"&gt;Open&lt;/button&gt; Modern &lt;button commandfor="dlg" command="show-modal"&gt;Open&lt;/button&gt;&lt;dialog id="dlg"&gt;.
 
-🔗 Read more: https://gwern.net/gwtar</description>
-      <guid isPermaLink="true">https://gwern.net/gwtar</guid>
-      <pubDate>Sun, 15 Feb 2026 15:37:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024506</comments>
+🔗 Read more: https://modern-css.com</description>
+      <guid isPermaLink="true">https://modern-css.com</guid>
+      <pubDate>Sun, 15 Feb 2026 18:04:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025851</comments>
     </item>
     <item>
-      <title>Hideki Sato, designer of all Sega's consoles, has died</title>
-      <link>https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</link>
-      <description>📝 Japanese games outlet Beep21 reports that Sato passed away this weekend. By then, arcade games were using 16-bit CPUs. 99Sonic Frontiers (Xbox Series X|S)£49.
+      <title>Towards Autonomous Mathematics Research</title>
+      <link>https://arxiv.org/abs/2602.10177</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub.
 
-🔗 Read more: https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</description>
-      <guid isPermaLink="true">https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</guid>
-      <pubDate>Sun, 15 Feb 2026 16:19:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024907</comments>
+🔗 Read more: https://arxiv.org/abs/2602.10177</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.10177</guid>
+      <pubDate>Sun, 15 Feb 2026 18:35:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026134</comments>
     </item>
     <item>
-      <title>Palantir Gets Millions of Dollars from New York City's Public Hospitals</title>
-      <link>https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</link>
-      <description>📝 Palantir’s contract with New York’s public health care system allows the company to work with patients’ protected health information, or PHI. Such provisions are common in contracts involving health data. National Health Service, a business relationship that today has.
-
-🔗 Read more: https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</description>
-      <guid isPermaLink="true">https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</guid>
-      <pubDate>Sun, 15 Feb 2026 17:37:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025624</comments>
+      <title>Show HN: Microgpt is a GPT you can visualize in the browser</title>
+      <link>https://microgpt.boratto.ca</link>
+      <guid isPermaLink="true">https://microgpt.boratto.ca</guid>
+      <pubDate>Sun, 15 Feb 2026 18:40:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026186</comments>
     </item>
     <item>
-      <title>An Enslaved Gardener Transformed the Pecan into a Cash Crop</title>
-      <link>https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</link>
-      <description>📝 Fermented nuts were used in traditional Indigenous ceremonies. Antoine’s advancements in the propagation of pecan trees that produced high-quality pecans of reproducible form, then, resulted in these nuts being cultivated as a cash crop that could be mass produced. Thus, the effort to establish these successful pecan trees that were the foundation for American commercial pecan production was literally cut down.
+      <title>Show HN: Lightwave – Real-time notes app, 3.5 years of hand-rolled JavaScript</title>
+      <link>https://news.ycombinator.com/item?id=47027463</link>
+      <description>📝 Copy blocks out, get markdown back. - Code blocks with syntax highlighting. - Full undo/redo with cursor restoration.
 
-🔗 Read more: https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</description>
-      <guid isPermaLink="true">https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</guid>
-      <pubDate>Sun, 15 Feb 2026 15:53:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024676</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47027463</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47027463</guid>
+      <pubDate>Sun, 15 Feb 2026 20:57:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47027463</comments>
     </item>
     <item>
-      <title>Palantir vs. the "Republik": US analytics firm takes magazine to court</title>
-      <link>https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</link>
-      <description>📝 In December, "Republik" extensively quoted from Swiss administration files. According to this, Palantir repeatedly sought contact with Swiss authorities – and found it. Palantir feels unfairly treated by the reporting on this.
+      <title>Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door</title>
+      <link>https://knock-knock.net</link>
+      <description>📝 Set up an unprotected server on the net, and the bots start swarming. This site shows bots attempting (unsuccessfully) to break into an ordinary internet server. This constant chatter of bots knocking on the doors of machines on the net has been referred to as "the background radiation of the Internet".
 
-🔗 Read more: https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</description>
-      <guid isPermaLink="true">https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</guid>
-      <pubDate>Sun, 15 Feb 2026 16:51:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025188</comments>
+🔗 Read more: https://knock-knock.net</description>
+      <guid isPermaLink="true">https://knock-knock.net</guid>
+      <pubDate>Sun, 15 Feb 2026 17:06:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025338</comments>
     </item>
     <item>
-      <title>1940s Irish sci-fi novel features early mecha and gravity assists</title>
-      <link>https://github.com/cavedave/Manannan</link>
-      <description>📝 txt — Extracted and corrected text, pages 9–13 Manannán_13-18. Pages 13–18 — Extracted Later — Once we have further found errors in these sections we can use them to correct later pages. Because of that fixing initial errors drastically reduces errors to find in later chapters.
+      <title>State Attorneys General Want to Tie Online Access to ID</title>
+      <link>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</link>
+      <description>📝 6484 that would limit state authority. The attorneys general warn that this would curb their ability to pursue emerging online harms under state law. Federal agencies would study device-level age verification systems, the FTC would police compliance with harm mitigation duties, and states would continue to pursue para.
 
-🔗 Read more: https://github.com/cavedave/Manannan</description>
-      <guid isPermaLink="true">https://github.com/cavedave/Manannan</guid>
-      <pubDate>Sun, 15 Feb 2026 14:55:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024184</comments>
+🔗 Read more: https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</description>
+      <guid isPermaLink="true">https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</guid>
+      <pubDate>Sun, 15 Feb 2026 19:49:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026848</comments>
     </item>
     <item>
-      <title>Inner-Platform Effect</title>
-      <link>https://en.wikipedia.org/wiki/Inner-platform_effect</link>
-      <description>📝 Examples[edit] Examples are visible in plugin-based software such as some text editors and web browsers which often have developers create plugins that recreate software that would normally run on top of the operating system itself. Retrieved from "https://en. title=Inner-platform_effect&amp;oldid=1319593770" Category: Anti-patternsHidden categories: Articles with short descriptionShort description matches WikidataWikipedia articles with style issues from March 2017All articles with style issuesAll articles with unsourced statementsArticles with unsourced statements from December 2014Use dmy dates from April 2017.
+      <title>SCM as a database for the code</title>
+      <link>https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</link>
+      <description>📝 That is especially valuable when investigating what agents actually did. Zed's DeltaDB aligns with that approach. Because code has structure.
 
-🔗 Read more: https://en.wikipedia.org/wiki/Inner-platform_effect</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Inner-platform_effect</guid>
-      <pubDate>Sun, 15 Feb 2026 14:48:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47024112</comments>
+🔗 Read more: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</description>
+      <guid isPermaLink="true">https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</guid>
+      <pubDate>Sun, 15 Feb 2026 09:09:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47022238</comments>
+    </item>
+    <item>
+      <title>Court orders Acer and Asus to stop selling PCs in Germany over H.265 patents</title>
+      <link>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</link>
+      <guid isPermaLink="true">https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</guid>
+      <pubDate>Sun, 15 Feb 2026 20:06:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47027011</comments>
     </item>
   </channel>
 </rss>
