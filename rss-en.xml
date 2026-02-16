@@ -6,102 +6,115 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Feb 2026 21:26:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 02:09:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>GNU Pies – Program Invocation and Execution Supervisor</title>
-      <link>https://www.gnu.org.ua/software/pies/</link>
-      <description>📝 The name Pies (pronounced "p-yes") stands for Program Invocation and Execution Supervisor. This utility starts and controls execution of external programs, called components. Upon startup, pies reads the list of components from its configuration file, starts them, and remains in the background, controlling their execution.
+      <title>I’m joining OpenAI</title>
+      <link>https://steipete.me/posts/2026/openclaw</link>
+      <description>📝 It’s always been important to me that OpenClaw stays open source and given the freedom to flourish. The more I talked with the people there, the clearer it became that we both share the same vision. It will stay a place for thinkers, hackers and people that want a way to own their data, with the goal of supporting even more models and companies.
 
-🔗 Read more: https://www.gnu.org.ua/software/pies/</description>
-      <guid isPermaLink="true">https://www.gnu.org.ua/software/pies/</guid>
-      <pubDate>Sun, 15 Feb 2026 20:53:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027427</comments>
+🔗 Read more: https://steipete.me/posts/2026/openclaw</description>
+      <guid isPermaLink="true">https://steipete.me/posts/2026/openclaw</guid>
+      <pubDate>Sun, 15 Feb 2026 21:54:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028013</comments>
     </item>
     <item>
-      <title>Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI</title>
-      <link>https://github.com/gpasquero/voog</link>
-      <description>📝 VOOG Virtual Analog Synthesizer — a Moog-style polyphonic synthesizer built in Python with a tkinter GUI inspired by the Subsequent 37. MIDI Connect any MIDI controller. Rotary knobs All synth parameters use rotary knob controls: Drag vertically on any knob to change its value (up = increase) Scroll wheel for fine adjustment The amber arc shows the current value position Presets Preset Description Init Default starting patch Bass Voog Fat detuned saw bass with filter envelope Lead Saw Aggressive dual-saw lead with legato glide Pad Strings Warm evolving pad with slow filter LFO Sub Thunder Deep sub bass with square wave foundation Acid Squelch High-resonance filter sweep, 303-style Funky Pluck Snappy percussive hit, fast decay Screaming Lead Bright resonant lead with vibrato and glide Warm Brass Square/saw mix with medium attack Dark Drone Detuned low saws with slow LFO sweep Perc Hit Noise burst with ultra-short envelope Vintage Keys Triangle/square electric piano tone Wobble Bass LFO-driven filter modulation Trance Lead Wide-detuned triple saw with pitch vibrato Fat Unison Three saws spread ±25 cents Reso Sweep Near self-oscillating filter with long decay Fifth Stab Power fifth interval, short punch Glass Bell Sine harmonics with long crystalline release Noise Sweep Filtered noise with resonant LFO, sci-fi Architecture synth/ ├── dsp/ # Signal processing modules │ ├── oscillator # Wavetable synthesis (sine, saw, square, triangle) │ ├── filter # Moog ladder filter (24dB/oct, Huovilainen model) │ ├── envelope # ADSR envelope generator │ ├── lfo # Low-frequency oscillator │ ├── glide # Pitch portamento │ └── noise # White/pink noise generator ├── engine/ # Audio engine │ ├── audio_engine # Master engine, sounddevice output, MIDI routing │ ├── channel # Multitimbral channel (patch + voice allocator) │ ├── voice # Single voice (oscillators + filter + envelopes) │ └── voice_allocator # Polyphonic allocation with voice stealing ├── gui/ # Graphical interface │ └── app # tkinter GUI with rotary knobs and virtual keyboard ├── midi/ # MIDI support │ ├── midi_input # MIDI port listener (mido/rtmidi) │ ├── midi_router # Message routing │ └── cc_map # CC-to-parameter mapping ├── patch/ # Patch system │ ├── patch # Patch data structure │ ├── patch_manager # Save/load to disk │ └── default_patches # 19 built-in presets └── cli/ # Command-line interface └── repl # Interactive REPL License MIT.
+      <title>Magnus Carlsen Wins the Freestyle (Chess960) World Championship</title>
+      <link>https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</link>
+      <description>📝 Magnus Carlsen (Norway) is the 2026 FIDE Freestyle Chess World Champion. Both finalists qualified for the 2027 FIDE Freestyle Chess World Championship. The 2026 tournament marks the first official FIDE-recognized Freestyle Chess World Championship.
 
-🔗 Read more: https://github.com/gpasquero/voog</description>
-      <guid isPermaLink="true">https://github.com/gpasquero/voog</guid>
-      <pubDate>Sun, 15 Feb 2026 19:40:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026768</comments>
+🔗 Read more: https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</description>
+      <guid isPermaLink="true">https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</guid>
+      <pubDate>Sun, 15 Feb 2026 22:17:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028227</comments>
     </item>
     <item>
-      <title>Modern CSS Code Snippets: Stop writing CSS like it's 2015</title>
-      <link>https://modern-css.com</link>
-      <description>📝 Modern CSS Code Snippets | modern. toggle( 'primary', isPrimary); Modern. showModal()"&gt;Open&lt;/button&gt; Modern &lt;button commandfor="dlg" command="show-modal"&gt;Open&lt;/button&gt;&lt;dialog id="dlg"&gt;.
+      <title>Pink noise reduces REM sleep and may harm sleep quality</title>
+      <link>https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</link>
+      <description>📝 SleepPink noise reduces REM sleep and may harm sleep qualityEarplugs worked better in protecting sleep from aircraft noise, according to rigorous sleep lab study. Broadband noise also includes the well-known white noise and other noise colors like brown and blue noise. Millions of people play back broadband noise during sleep every night.
 
-🔗 Read more: https://modern-css.com</description>
-      <guid isPermaLink="true">https://modern-css.com</guid>
-      <pubDate>Sun, 15 Feb 2026 18:04:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025851</comments>
+🔗 Read more: https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</description>
+      <guid isPermaLink="true">https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</guid>
+      <pubDate>Mon, 16 Feb 2026 00:35:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029397</comments>
     </item>
     <item>
-      <title>Towards Autonomous Mathematics Research</title>
-      <link>https://arxiv.org/abs/2602.10177</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub.
+      <title>Error payloads in Zig</title>
+      <link>https://srcreigh.ca/posts/error-payloads-in-zig/</link>
+      <description>📝 ErrorPayload, OutOfMemory: void, LoadPluginsError: diagnostics. pub const BuildDiagnostics = diagnostics. Error) void { switch (err) { error.
 
-🔗 Read more: https://arxiv.org/abs/2602.10177</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.10177</guid>
-      <pubDate>Sun, 15 Feb 2026 18:35:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026134</comments>
+🔗 Read more: https://srcreigh.ca/posts/error-payloads-in-zig/</description>
+      <guid isPermaLink="true">https://srcreigh.ca/posts/error-payloads-in-zig/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:08:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028705</comments>
     </item>
     <item>
-      <title>Show HN: Microgpt is a GPT you can visualize in the browser</title>
-      <link>https://microgpt.boratto.ca</link>
-      <guid isPermaLink="true">https://microgpt.boratto.ca</guid>
-      <pubDate>Sun, 15 Feb 2026 18:40:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026186</comments>
+      <title>Radio host David Greene says Google's NotebookLM tool stole his voice</title>
+      <link>https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</link>
+      <guid isPermaLink="true">https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:05:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025864</comments>
     </item>
     <item>
-      <title>Show HN: Lightwave – Real-time notes app, 3.5 years of hand-rolled JavaScript</title>
-      <link>https://news.ycombinator.com/item?id=47027463</link>
-      <description>📝 Copy blocks out, get markdown back. - Code blocks with syntax highlighting. - Full undo/redo with cursor restoration.
+      <title>Show HN: Klaw.sh – Kubernetes for AI agents</title>
+      <link>https://github.com/klawsh/klaw.sh</link>
+      <description>📝 klaw The Kubernetes for AI Agents Deploy, orchestrate, and scale AI agents across your infrastructure. # Interactive chat klaw chat # Start full platform (Slack bot + scheduler + agents) klaw start Quick Start 1. Run # Interactive CLI chat klaw chat # Or start full platform with Slack integration export SLACK_BOT_TOKEN=xoxb-.
 
-🔗 Read more: https://news.ycombinator.com/item?id=47027463</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47027463</guid>
-      <pubDate>Sun, 15 Feb 2026 20:57:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027463</comments>
+🔗 Read more: https://github.com/klawsh/klaw.sh</description>
+      <guid isPermaLink="true">https://github.com/klawsh/klaw.sh</guid>
+      <pubDate>Sun, 15 Feb 2026 17:22:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025478</comments>
     </item>
     <item>
-      <title>Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door</title>
-      <link>https://knock-knock.net</link>
-      <description>📝 Set up an unprotected server on the net, and the bots start swarming. This site shows bots attempting (unsuccessfully) to break into an ordinary internet server. This constant chatter of bots knocking on the doors of machines on the net has been referred to as "the background radiation of the Internet".
+      <title>Pocketblue – Fedora Atomic for mobile devices</title>
+      <link>https://github.com/pocketblue/pocketblue</link>
+      <description>📝 me/nabulinux - Xiaomi Pad 5 Linux chat t. me/pipa_mainline - Xiaomi Pad 6 Linux chat t. me/xiaomi_pipa - Xiaomi Pad 6 general chat.
 
-🔗 Read more: https://knock-knock.net</description>
-      <guid isPermaLink="true">https://knock-knock.net</guid>
-      <pubDate>Sun, 15 Feb 2026 17:06:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025338</comments>
+🔗 Read more: https://github.com/pocketblue/pocketblue</description>
+      <guid isPermaLink="true">https://github.com/pocketblue/pocketblue</guid>
+      <pubDate>Sun, 15 Feb 2026 16:40:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025085</comments>
     </item>
     <item>
-      <title>State Attorneys General Want to Tie Online Access to ID</title>
-      <link>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</link>
-      <description>📝 6484 that would limit state authority. The attorneys general warn that this would curb their ability to pursue emerging online harms under state law. Federal agencies would study device-level age verification systems, the FTC would police compliance with harm mitigation duties, and states would continue to pursue para.
+      <title>JavaScript-heavy approaches are not compatible with long-term performance goals</title>
+      <link>https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</link>
+      <description>📝 Also note that I’ll be jumping between different aspects of web performance throughout the post, without much thought. In Computer Science, the commonly accepted distinction between the two is that a library is something that your code calls into, while a framework is something that you relinquish control unto, so that it calls your code instead, at the appropriate time. In short, the claim is that this approach will offer huge improvements to developer experience, and that these DevEx benefits will trickle down to the user.
 
-🔗 Read more: https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</description>
-      <guid isPermaLink="true">https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</guid>
-      <pubDate>Sun, 15 Feb 2026 19:49:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026848</comments>
+🔗 Read more: https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</description>
+      <guid isPermaLink="true">https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</guid>
+      <pubDate>Mon, 16 Feb 2026 00:26:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029339</comments>
     </item>
     <item>
-      <title>SCM as a database for the code</title>
-      <link>https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</link>
-      <description>📝 That is especially valuable when investigating what agents actually did. Zed's DeltaDB aligns with that approach. Because code has structure.
+      <title>Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)</title>
+      <link>https://github.com/fosrl/pangolin</link>
+      <description>📝 Self-Host: Enterprise Edition Licensed under Fossorial Commercial License. Users access applications through any web browser with authentication and granular access control. Zero-trust granular accessGrant users access to specific resources, not entire networks.
 
-🔗 Read more: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</description>
-      <guid isPermaLink="true">https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</guid>
-      <pubDate>Sun, 15 Feb 2026 09:09:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47022238</comments>
+🔗 Read more: https://github.com/fosrl/pangolin</description>
+      <guid isPermaLink="true">https://github.com/fosrl/pangolin</guid>
+      <pubDate>Sun, 15 Feb 2026 10:50:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47022745</comments>
     </item>
     <item>
-      <title>Court orders Acer and Asus to stop selling PCs in Germany over H.265 patents</title>
-      <link>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</link>
-      <guid isPermaLink="true">https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</guid>
-      <pubDate>Sun, 15 Feb 2026 20:06:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027011</comments>
+      <title>Continuous batching from first principles (2025)</title>
+      <link>https://huggingface.co/blog/continuous_batching</link>
+      <description>📝 This is where attention comes in. Attention layers are the only place where different tokens interact with each other. In this figure, the attention mask is a causal mask, meaning each token only interacts with tokens that came before it.
+
+🔗 Read more: https://huggingface.co/blog/continuous_batching</description>
+      <guid isPermaLink="true">https://huggingface.co/blog/continuous_batching</guid>
+      <pubDate>Sun, 15 Feb 2026 22:47:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028545</comments>
+    </item>
+    <item>
+      <title>Editor's Note: Retraction of article containing fabricated quotations</title>
+      <link>https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</link>
+      <description>📝 That this happened at Ars is especially distressing. In this case, fabricated quotations were published in a manner inconsistent with that policy. At this time, this appears to be an isolated incident.
+
+🔗 Read more: https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</description>
+      <guid isPermaLink="true">https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:29:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026071</comments>
     </item>
   </channel>
 </rss>

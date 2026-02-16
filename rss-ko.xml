@@ -6,126 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 15 Feb 2026 21:26:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 02:09:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>GNU Pies – 프로그램 호출 및 실행 감독자</title>
-      <link>https://www.gnu.org.ua/software/pies/</link>
-      <description>📝 Pies("p-yes"로 발음)라는 이름은 프로그램 호출 및 실행 감독자를 의미합니다. 이 유틸리티는 구성 요소라고 하는 외부 프로그램의 실행을 시작하고 제어합니다. 파이는 시작 시 구성 파일에서 구성 요소 목록을 읽고 시작하며 백그라운드에 남아 실행을 제어합니다.
+      <title>OpenAI에 합류해요</title>
+      <link>https://steipete.me/posts/2026/openclaw</link>
+      <description>📝 OpenClaw가 오픈 소스로 유지되고 자유롭게 번성할 수 있다는 것이 나에게는 항상 중요했습니다. 그곳 사람들과 더 많이 이야기할수록 우리 둘 다 같은 비전을 공유하고 있다는 것이 더욱 분명해졌습니다. 더 많은 모델과 회사를 지원한다는 목표를 가지고 자신의 데이터를 소유할 수 있는 방법을 원하는 사상가, 해커 및 사람들을 위한 장소로 남을 것입니다.
 
 
-🔤 Original: GNU Pies – Program Invocation and Execution Supervisor
+🔤 Original: I’m joining OpenAI
 
-🔗 Read more: https://www.gnu.org.ua/software/pies/</description>
-      <guid isPermaLink="true">https://www.gnu.org.ua/software/pies/</guid>
-      <pubDate>Sun, 15 Feb 2026 20:53:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027427</comments>
+🔗 Read more: https://steipete.me/posts/2026/openclaw</description>
+      <guid isPermaLink="true">https://steipete.me/posts/2026/openclaw</guid>
+      <pubDate>Sun, 15 Feb 2026 21:54:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028013</comments>
     </item>
     <item>
-      <title>HN 표시: VOOG – tkinter GUI를 사용하는 Python의 Moog 스타일 다성 합성기</title>
-      <link>https://github.com/gpasquero/voog</link>
-      <description>📝 VOOG 가상 아날로그 신디사이저 — Subsequent 37에서 영감을 받은 tkinter GUI를 사용하여 Python으로 구축된 Moog 스타일 다성 신디사이저입니다. MIDI 모든 MIDI 컨트롤러를 연결하세요. 로터리 노브 모든 신디사이저 매개변수는 로터리 노브 컨트롤을 사용합니다. 값을 변경하려면(위 = 증가) 미세 조정을 위한 스크롤 휠 황색 원호는 현재 값 위치를 표시합니다. 프리셋 프리셋 설명 Init 기본 시작 패치 Bass Voog 필터 엔벨로프가 있는 Fat detuned saw bass Lead Saw 레가토 글라이드가 있는 공격적인 듀얼 톱 리드 패드 스트링 느린 필터가 있는 따뜻한 진화 패드 LFO Sub Thunder 구형파 기반의 깊은 서브 베이스 Acid Squelch 고공명 필터 스윕, 303 스타일 Funky Pluck Snappy 타악기 히트, 빠른 감쇠 Screaming Lead 비브라토 및 글라이드가 포함된 밝은 공명 리드 중간 어택의 Warm Brass Square/saw 믹스 Dark Drone 느린 LFO 스위프가 포함된 Detuned low saws Perc Hit 매우 짧은 엔벨로프가 포함된 노이즈 버스트 Vintage Keys Triangle/square 전자 피아노 톤 Wobble Bass LFO 구동 필터 변조 Trance Lead 피치 비브라토가 포함된 넓은 디튜닝 트리플 톱 Fat Unison 세 개의 톱 스프레드 ±25센트 Reso Sweep 긴 감쇄를 갖는 Near self-oscillating 필터 Fifth Stab 전력 5번째 간격, 짧은 펀치 Glass Bell 긴 결정 방출을 갖는 사인 고조파 Noise Sweep 공진 LFO로 필터링된 노이즈, 공상과학 아키텍처 신디사이저/ ├── dsp/ # 신호 처리 모듈 │ ├── 오실레이터 # 웨이브테이블 합성(사인, 톱니, 사각형, 삼각형) │ ├── 필터 # Moog 래더 필터 (24dB/oct, Huovilainen 모델) │ ├── 봉투 # ADSR 봉투 생성기 │ ├── lfo # 저주파 발진기 │ ├── 글라이드 # 피치 포르타멘토 │ └── 소음 # 화이트/핑크 노이즈 생성기 ├── 엔진/ # 오디오 엔진 │ ├── audio_engine # 마스터 엔진, 사운드 장치 출력, MIDI 라우팅 │ ├── 채널 # 다중 음색 채널(패치 + 음성 할당자) │ ├── voice # 단일 음성(오실레이터 + 필터 + 엔벨로프) │ └── voice_allocator # 보이스 스틸링을 사용한 다성 할당 ├── gui/ # 그래픽 인터페이스 │ └── app # 회전 노브 및 가상 키보드가 있는 tkinter GUI ├── midi/ # MIDI 지원 │ ├── midi_input # MIDI 포트 리스너 (mido/rtmidi) │ ├── midi_router # 메시지 라우팅 │ └── cc_map # CC-파라미터 매핑 ├── patch/ # 패치 시스템 │ ├── patch # 패치 데이터 구조 │ ├── patch_manager # 디스크에 저장/로드 │ └── default_patches # 19 내장 사전 설정 └── cli/ # 명령줄 인터페이스 └── repl # 대화형 REPL 라이센스 MIT.
+      <title>Magnus Carlsen, 프리스타일(Chess960) 월드 챔피언십 우승</title>
+      <link>https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</link>
+      <description>📝 Magnus Carlsen(노르웨이)은 2026년 FIDE 프리스타일 체스 세계 챔피언입니다. 두 결선 진출자 모두 2027 FIDE 프리스타일 체스 월드 챔피언십 출전 자격을 얻었습니다. 2026년 토너먼트는 FIDE가 인정한 최초의 공식 프리스타일 체스 세계 선수권 대회입니다.
 
 
-🔤 Original: Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI
+🔤 Original: Magnus Carlsen Wins the Freestyle (Chess960) World Championship
 
-🔗 Read more: https://github.com/gpasquero/voog</description>
-      <guid isPermaLink="true">https://github.com/gpasquero/voog</guid>
-      <pubDate>Sun, 15 Feb 2026 19:40:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026768</comments>
+🔗 Read more: https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</description>
+      <guid isPermaLink="true">https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</guid>
+      <pubDate>Sun, 15 Feb 2026 22:17:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028227</comments>
     </item>
     <item>
-      <title>최신 CSS 코드 조각: CSS를 2015년인 것처럼 작성하지 마세요.</title>
-      <link>https://modern-css.com</link>
-      <description>📝 최신 CSS 코드 조각 | 현대의. 토글('기본', isPrimary); 현대의. showModal()"&gt;열기&lt;/button&gt; 최신 &lt;button commandfor="dlg" command="show-modal"&gt;열기&lt;/button&gt;&lt;dialog id="dlg"&gt;.
+      <title>핑크 노이즈는 REM 수면을 감소시키고 수면의 질을 해칠 수 있습니다.</title>
+      <link>https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</link>
+      <description>📝 SleepPink 소음은 REM 수면을 감소시키고 수면의 질을 해칠 수 있습니다. 엄격한 수면 실험실 연구에 따르면 귀마개는 항공기 소음으로부터 수면을 보호하는 데 더 효과적이었습니다. 광대역 소음에는 잘 알려진 백색 소음과 갈색 및 청색 소음과 같은 기타 소음 색상도 포함됩니다. 수백만 명의 사람들이 매일 밤 잠을 자는 동안 광대역 소음을 재생합니다.
 
 
-🔤 Original: Modern CSS Code Snippets: Stop writing CSS like it's 2015
+🔤 Original: Pink noise reduces REM sleep and may harm sleep quality
 
-🔗 Read more: https://modern-css.com</description>
-      <guid isPermaLink="true">https://modern-css.com</guid>
-      <pubDate>Sun, 15 Feb 2026 18:04:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025851</comments>
+🔗 Read more: https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</description>
+      <guid isPermaLink="true">https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</guid>
+      <pubDate>Mon, 16 Feb 2026 00:35:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029397</comments>
     </item>
     <item>
-      <title>자율 수학 연구를 향하여</title>
-      <link>https://arxiv.org/abs/2602.10177</link>
-      <description>📝 ) 연결된 문서 Toggle Connected Papers(연결된 문서란 무엇입니까?) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?
+      <title>Zig의 오류 페이로드</title>
+      <link>https://srcreigh.ca/posts/error-payloads-in-zig/</link>
+      <description>📝 ErrorPayload, OutOfMemory: 무효, LoadPluginsError: 진단. pub const BuildDiagnostics = 진단. 오류) void { 스위치(err) { 오류.
 
 
-🔤 Original: Towards Autonomous Mathematics Research
+🔤 Original: Error payloads in Zig
 
-🔗 Read more: https://arxiv.org/abs/2602.10177</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.10177</guid>
-      <pubDate>Sun, 15 Feb 2026 18:35:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026134</comments>
+🔗 Read more: https://srcreigh.ca/posts/error-payloads-in-zig/</description>
+      <guid isPermaLink="true">https://srcreigh.ca/posts/error-payloads-in-zig/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:08:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028705</comments>
     </item>
     <item>
-      <title>HN 표시: Microgpt는 브라우저에서 시각화할 수 있는 GPT입니다.</title>
-      <link>https://microgpt.boratto.ca</link>
-      <guid isPermaLink="true">https://microgpt.boratto.ca</guid>
-      <pubDate>Sun, 15 Feb 2026 18:40:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026186</comments>
+      <title>라디오 진행자 David Greene은 Google의 NotebookLM 도구가 자신의 목소리를 훔쳤다고 말합니다.</title>
+      <link>https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</link>
+      <guid isPermaLink="true">https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:05:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025864</comments>
     </item>
     <item>
-      <title>Show HN: Lightwave – 실시간 메모 앱, 3.5년간 수작업으로 만든 JavaScript</title>
-      <link>https://news.ycombinator.com/item?id=47027463</link>
-      <description>📝 블록을 복사하고 마크다운을 다시 받으세요. - 구문 강조 기능이 있는 코드 블록. - 커서 복원으로 전체 실행 취소/다시 실행.
+      <title>HN 표시: Klaw.sh – AI 에이전트를 위한 Kubernetes</title>
+      <link>https://github.com/klawsh/klaw.sh</link>
+      <description>📝 klaw AI 에이전트를 위한 Kubernetes 인프라 전반에 걸쳐 AI 에이전트를 배포, 조정 및 확장하세요. # 대화형 채팅 klaw chat # 전체 플랫폼 시작(Slack 봇 + 스케줄러 + 에이전트) klaw start 빠른 시작 1. 실행 # 대화형 CLI chat klaw chat # 또는 Slack 통합 내보내기 SLACK_BOT_TOKEN=xoxb-로 전체 플랫폼 시작.
 
 
-🔤 Original: Show HN: Lightwave – Real-time notes app, 3.5 years of hand-rolled JavaScript
+🔤 Original: Show HN: Klaw.sh – Kubernetes for AI agents
 
-🔗 Read more: https://news.ycombinator.com/item?id=47027463</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47027463</guid>
-      <pubDate>Sun, 15 Feb 2026 20:57:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027463</comments>
+🔗 Read more: https://github.com/klawsh/klaw.sh</description>
+      <guid isPermaLink="true">https://github.com/klawsh/klaw.sh</guid>
+      <pubDate>Sun, 15 Feb 2026 17:22:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025478</comments>
     </item>
     <item>
-      <title>HN 표시: Knock-Knock.net – 내 서버 문을 두드리는 봇 시각화</title>
-      <link>https://knock-knock.net</link>
-      <description>📝 네트워크에 보호되지 않은 서버를 설정하면 봇이 몰려오기 시작합니다. 이 사이트는 일반 인터넷 서버에 침입하려고 시도하는(실패한) 봇을 보여줍니다. 인터넷에 있는 기계의 문을 두드리는 봇들의 끊임없는 대화를 "인터넷의 배경 방사선"이라고 합니다.
+      <title>Pocketblue – 모바일 장치용 Fedora Atomic</title>
+      <link>https://github.com/pocketblue/pocketblue</link>
+      <description>📝 me/nabulinux - Xiaomi Pad 5 Linux 채팅 t. me/pipa_mainline - Xiaomi Pad 6 Linux 채팅 t. me/xiaomi_pipa - Xiaomi Pad 6 일반 채팅.
 
 
-🔤 Original: Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door
+🔤 Original: Pocketblue – Fedora Atomic for mobile devices
 
-🔗 Read more: https://knock-knock.net</description>
-      <guid isPermaLink="true">https://knock-knock.net</guid>
-      <pubDate>Sun, 15 Feb 2026 17:06:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025338</comments>
+🔗 Read more: https://github.com/pocketblue/pocketblue</description>
+      <guid isPermaLink="true">https://github.com/pocketblue/pocketblue</guid>
+      <pubDate>Sun, 15 Feb 2026 16:40:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025085</comments>
     </item>
     <item>
-      <title>주 법무장관은 ID에 온라인 액세스를 연결하려고 합니다.</title>
-      <link>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</link>
-      <description>📝 6484는 국가 권한을 제한합니다. 법무장관은 이것이 주법에 따라 새로운 온라인 피해를 추구하는 능력을 억제할 것이라고 경고했습니다. 연방 기관은 장치 수준의 연령 확인 시스템을 연구하고, FTC는 피해 완화 의무 준수를 감시하며, 주정부는 계속해서 조항을 추구할 것입니다.
+      <title>JavaScript 중심 접근 방식은 장기 성능 목표와 호환되지 않습니다.</title>
+      <link>https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</link>
+      <description>📝 또한 포스팅 전반에 걸쳐 별 생각 없이 웹 성능의 다양한 측면 사이를 이동할 예정입니다. 컴퓨터 과학에서 이 둘 사이에 일반적으로 받아들여지는 차이점은 라이브러리는 코드가 호출하는 것인 반면 프레임워크는 제어권을 포기하여 적절한 시간에 코드를 대신 호출한다는 것입니다. 간단히 말해서, 이 접근 방식은 개발자 경험에 큰 개선을 제공할 것이며 이러한 DevEx 이점은 사용자에게 조금씩 적용될 것이라는 주장입니다.
 
 
-🔤 Original: State Attorneys General Want to Tie Online Access to ID
+🔤 Original: JavaScript-heavy approaches are not compatible with long-term performance goals
 
-🔗 Read more: https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</description>
-      <guid isPermaLink="true">https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</guid>
-      <pubDate>Sun, 15 Feb 2026 19:49:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026848</comments>
+🔗 Read more: https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</description>
+      <guid isPermaLink="true">https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</guid>
+      <pubDate>Mon, 16 Feb 2026 00:26:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029339</comments>
     </item>
     <item>
-      <title>코드용 데이터베이스로서의 SCM</title>
-      <link>https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</link>
-      <description>📝 이는 에이전트가 실제로 무엇을 했는지 조사할 때 특히 유용합니다. Zed의 DeltaDB는 이러한 접근 방식과 일치합니다. 코드에는 구조가 있기 때문입니다.
+      <title>HN 표시: Pangolin: 오픈 소스 ID 기반 VPN(Twingate/Zscaler 대안)</title>
+      <link>https://github.com/fosrl/pangolin</link>
+      <description>📝 셀프 호스트: Fossorial Commercial License에 따라 라이센스가 부여된 Enterprise Edition. 사용자는 인증 및 세부적인 액세스 제어를 통해 모든 웹 브라우저를 통해 애플리케이션에 액세스합니다. 제로 트러스트 세분화된 액세스사용자에게 전체 네트워크가 아닌 특정 리소스에 대한 액세스 권한을 부여합니다.
 
 
-🔤 Original: SCM as a database for the code
+🔤 Original: Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)
 
-🔗 Read more: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</description>
-      <guid isPermaLink="true">https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</guid>
-      <pubDate>Sun, 15 Feb 2026 09:09:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47022238</comments>
+🔗 Read more: https://github.com/fosrl/pangolin</description>
+      <guid isPermaLink="true">https://github.com/fosrl/pangolin</guid>
+      <pubDate>Sun, 15 Feb 2026 10:50:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47022745</comments>
     </item>
     <item>
-      <title>법원, Acer와 Asus에 H.265 특허를 이유로 독일에서 PC 판매 중단 명령</title>
-      <link>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</link>
-      <guid isPermaLink="true">https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</guid>
-      <pubDate>Sun, 15 Feb 2026 20:06:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027011</comments>
+      <title>첫 번째 원칙에 따른 지속적인 일괄 처리(2025)</title>
+      <link>https://huggingface.co/blog/continuous_batching</link>
+      <description>📝 이것이 주목이 들어오는 곳입니다. Attention 레이어는 서로 다른 토큰이 서로 상호 작용하는 유일한 장소입니다. 이 그림에서 주의 마스크는 인과 마스크입니다. 즉, 각 토큰은 이전 토큰과만 상호 작용합니다.
+
+
+🔤 Original: Continuous batching from first principles (2025)
+
+🔗 Read more: https://huggingface.co/blog/continuous_batching</description>
+      <guid isPermaLink="true">https://huggingface.co/blog/continuous_batching</guid>
+      <pubDate>Sun, 15 Feb 2026 22:47:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028545</comments>
+    </item>
+    <item>
+      <title>편집자 주: 조작된 인용문이 포함된 기사 철회</title>
+      <link>https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</link>
+      <description>📝 특히 아르스에서 이런 일이 일어났다는 것은 참으로 괴로운 일이다. 이 경우, 해당 정책에 어긋나는 방식으로 조작된 인용문이 게시되었습니다. 현재로서는 이것은 고립된 사건으로 보입니다.
+
+
+🔤 Original: Editor's Note: Retraction of article containing fabricated quotations
+
+🔗 Read more: https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</description>
+      <guid isPermaLink="true">https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:29:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026071</comments>
     </item>
   </channel>
 </rss>

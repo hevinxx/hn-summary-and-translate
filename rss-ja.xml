@@ -6,126 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 15 Feb 2026 21:26:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 02:09:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>GNU Pies – プログラムの呼び出しおよび実行スーパーバイザー</title>
-      <link>https://www.gnu.org.ua/software/pies/</link>
-      <description>📝 Pies (「ピーイエス」と発音) という名前は、Program Invocation and Execution Supervisor の略です。このユーティリティは、コンポーネントと呼ばれる外部プログラムの実行を開始および制御します。起動時に、pies は構成ファイルからコンポーネントのリストを読み取り、それらを起動し、バックグラウンドに留まり、その実行を制御します。
+      <title>OpenAIに参加しています</title>
+      <link>https://steipete.me/posts/2026/openclaw</link>
+      <description>📝 私にとって、OpenClaw がオープンソースであり続け、自由に繁栄できることが常に重要でした。そこの人々と話せば話すほど、私たちが同じビジョンを共有していることがより明確になりました。思想家、ハッカー、データを所有する方法を求める人々にとっての場所であり、さらに多くのモデルや企業をサポートすることを目標としています。
 
 
-🔤 Original: GNU Pies – Program Invocation and Execution Supervisor
+🔤 Original: I’m joining OpenAI
 
-🔗 Read more: https://www.gnu.org.ua/software/pies/</description>
-      <guid isPermaLink="true">https://www.gnu.org.ua/software/pies/</guid>
-      <pubDate>Sun, 15 Feb 2026 20:53:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027427</comments>
+🔗 Read more: https://steipete.me/posts/2026/openclaw</description>
+      <guid isPermaLink="true">https://steipete.me/posts/2026/openclaw</guid>
+      <pubDate>Sun, 15 Feb 2026 21:54:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028013</comments>
     </item>
     <item>
-      <title>Show HN: VOOG – tkinter GUI を使用した Python の Moog スタイルのポリフォニック シンセサイザー</title>
-      <link>https://github.com/gpasquero/voog</link>
-      <description>📝 VOOG Virtual Analog Synthesizer — Subsequent からインスピレーションを得た tkinter GUI を備えた Python で構築された Moog スタイルのポリフォニック シンセサイザー 37. MIDI 任意の MIDI コントローラーを接続します。ロータリーノブ すべてのシンセパラメータはロータリーノブコントロールを使用します。 ノブを垂直にドラッグして値を変更します（上 = 増加） 微調整用のスクロールホイール オレンジ色の円弧は現在の値の位置を示します プリセット プリセットの説明 Init デフォルトの開始パッチ Bass Voog フィルターエンベロープ付きの太いデチューンソーベース Lead Saw レガートグライド付きのアグレッシブなデュアルソーリード パッドストリング スローフィルター付きの温かみのある進化するパッド LFO Sub Thunder スクエア型の深みのあるサブベースウェーブ ファンデーション アシッド スケルチ ハイレゾナンス フィルター スイープ、303 スタイル ファンキー プルック きびきびとしたパーカッシブなヒット、高速減衰 スクリーミング リード ビブラートとグライドを備えた明るいレゾナント リード ウォーム ブラス 中程度のアタックを備えたスクエア/ソー ミックス ダーク ドローン 低速 LFO スイープによるデチューンされたローソー パーク ヒット 超短いエンベロープによるノイズ バースト ヴィンテージ キー トライアングル/スクエア エレクトリック ピアノ トーン ウォブル ベースLFO 駆動のフィルターモジュレーション トランスリード ピッチビブラートを備えたワイドデチューントリプルソー ファットユニゾン 3 つのソースプレッド ±25 セント レゾスイープ 長い減衰を持つほぼ自励発振フィルター フィフス スタブ パワー 5 度インターバル、ショートパンチ グラスベル 長いクリスタルリリースを伴うサインハーモニクス ノイズスイープ 共鳴 LFO によるフィルターノイズ、SF アーキテクチャ シンセサイザー/ §── dsp/ # 信号処理モジュール │ §──オシレーター # ウェーブテーブル合成 (サイン、ノコギリ、方形、三角) │ ├─ フィルター # モーグ ラダー フィルター (24dB/oct、フオビライネン モデル) │ §─ エンベロープ # ADSR エンベロープ ジェネレーター │ §─ lfo # 低周波オシレーター │ ├─ グライド # ピッチ ポルタメント │ └─ ノイズ # ホワイト/ピンク ノイズ ジェネレーター §─ エンジン / # オーディオ エンジン │ §─ audio_engine # マスター エンジン、サウンドデバイス出力、MIDI ルーティング │ §── チャンネル # マルチティンバー チャネル (パッチ + ボイス アロケーター) │ §── voice # シングル ボイス (オシレーター + フィルター + エンベロープ) │ └── voice_allocator # ボイス スティーリングを使用したポリフォニック アロケーション §── gui/ # グラフィカル インターフェイス │ └── app # ロータリー ノブと仮想キーボードを備えた tkinter GUI §── midi/ # MIDI サポート│ §── midi_input # MIDI ポートリスナー (mido/rtmidi) │ ├── midi_router # メッセージルーティング │ └── cc_map # CC からパラメータへのマッピング §── patch/ # パッチシステム │ §── patch # パッチデータ構造 │ §── patch_manager # ディスクへの保存/ロード │ └──default_patches # 19 個の内蔵プリセット └── cli/ #コマンドライン インターフェイス └── repl # インタラクティブ REPL ライセンス MIT。
+      <title>マグナス・カールセンがフリースタイル（チェス960）世界選手権で優勝</title>
+      <link>https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</link>
+      <description>📝 マグヌス・カールセン (ノルウェー) は、2026 年の FIDE フリースタイル チェスの世界チャンピオンです。両ファイナリストは、2027 FIDE フリースタイル チェス世界選手権への出場権を獲得しました。 2026 年のトーナメントは、FIDE が公認した初の公式フリースタイル チェス世界選手権となります。
 
 
-🔤 Original: Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI
+🔤 Original: Magnus Carlsen Wins the Freestyle (Chess960) World Championship
 
-🔗 Read more: https://github.com/gpasquero/voog</description>
-      <guid isPermaLink="true">https://github.com/gpasquero/voog</guid>
-      <pubDate>Sun, 15 Feb 2026 19:40:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026768</comments>
+🔗 Read more: https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</description>
+      <guid isPermaLink="true">https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</guid>
+      <pubDate>Sun, 15 Feb 2026 22:17:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028227</comments>
     </item>
     <item>
-      <title>最新の CSS コード スニペット: 2015 年のように CSS を書くのはやめましょう</title>
-      <link>https://modern-css.com</link>
-      <description>📝 最新の CSS コード スニペット |モダンな。 toggle( 'プライマリ', isPrimary);モダンな。 showModal()"&gt;開く&lt;/button&gt; 現代の&lt;button commandfor="dlg" command="show-modal"&gt;開く&lt;/button&gt;&lt;dialog id="dlg"&gt;。
+      <title>ピンクノイズはレム睡眠を減少させ、睡眠の質を損なう可能性があります</title>
+      <link>https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</link>
+      <description>📝 スリープピンクの騒音はレム睡眠を減少させ、睡眠の質を損なう可能性がある 厳格な睡眠研究所の研究によると、飛行機の騒音から睡眠を守るには耳栓の方が効果的でした。ブロードバンド ノイズには、よく知られているホワイト ノイズや、ブラウン ノイズやブルー ノイズなどの他のノイズ カラーも含まれます。何百万もの人が毎晩睡眠中にブロードバンドノイズを再生しています。
 
 
-🔤 Original: Modern CSS Code Snippets: Stop writing CSS like it's 2015
+🔤 Original: Pink noise reduces REM sleep and may harm sleep quality
 
-🔗 Read more: https://modern-css.com</description>
-      <guid isPermaLink="true">https://modern-css.com</guid>
-      <pubDate>Sun, 15 Feb 2026 18:04:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025851</comments>
+🔗 Read more: https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</description>
+      <guid isPermaLink="true">https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</guid>
+      <pubDate>Mon, 16 Feb 2026 00:35:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029397</comments>
     </item>
     <item>
-      <title>自律的な数学研究を目指して</title>
-      <link>https://arxiv.org/abs/2602.10177</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers (Connected Papers とは。) Litmaps Toggle Litmaps (Litmaps とは。) DagsHub Toggle DagsHub (DagsHub とは。
+      <title>Zig のエラー ペイロード</title>
+      <link>https://srcreigh.ca/posts/error-payloads-in-zig/</link>
+      <description>📝 ErrorPayload、OutOfMemory: void、LoadPluginsError: 診断。 pub const BuildDiagnostics = 診断。エラー) void { スイッチ (エラー) { エラー。
 
 
-🔤 Original: Towards Autonomous Mathematics Research
+🔤 Original: Error payloads in Zig
 
-🔗 Read more: https://arxiv.org/abs/2602.10177</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.10177</guid>
-      <pubDate>Sun, 15 Feb 2026 18:35:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026134</comments>
+🔗 Read more: https://srcreigh.ca/posts/error-payloads-in-zig/</description>
+      <guid isPermaLink="true">https://srcreigh.ca/posts/error-payloads-in-zig/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:08:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028705</comments>
     </item>
     <item>
-      <title>HN を表示: Microgpt はブラウザで視覚化できる GPT です</title>
-      <link>https://microgpt.boratto.ca</link>
-      <guid isPermaLink="true">https://microgpt.boratto.ca</guid>
-      <pubDate>Sun, 15 Feb 2026 18:40:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026186</comments>
+      <title>ラジオ司会者のデビッド・グリーン氏、GoogleのNotebookLMツールが音声を盗んだと語る</title>
+      <link>https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</link>
+      <guid isPermaLink="true">https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:05:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025864</comments>
     </item>
     <item>
-      <title>Show HN: Lightwave – リアルタイム メモ アプリ、3 年半にわたる手作業による JavaScript</title>
-      <link>https://news.ycombinator.com/item?id=47027463</link>
-      <description>📝 ブロックをコピーしてアウトし、マークダウンを取得します。 - 構文を強調表示したコード ブロック。 - カーソル復元による完全な元に戻す/やり直し。
+      <title>HN を表示: Klaw.sh – AI エージェント用の Kubernetes</title>
+      <link>https://github.com/klawsh/klaw.sh</link>
+      <description>📝 klaw AI エージェント用の Kubernetes AI エージェントをインフラストラクチャ全体に展開、調整、拡張します。 # インタラクティブ チャット klaw chat # フル プラットフォームの開始 (Slack ボット + スケジューラ + エージェント) klaw start クイック スタート 1. 実行 # インタラクティブ CLI チャット klaw chat # または、Slack 統合エクスポート SLACK_BOT_TOKEN=xoxb- を使用してフル プラットフォームを開始します。
 
 
-🔤 Original: Show HN: Lightwave – Real-time notes app, 3.5 years of hand-rolled JavaScript
+🔤 Original: Show HN: Klaw.sh – Kubernetes for AI agents
 
-🔗 Read more: https://news.ycombinator.com/item?id=47027463</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47027463</guid>
-      <pubDate>Sun, 15 Feb 2026 20:57:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027463</comments>
+🔗 Read more: https://github.com/klawsh/klaw.sh</description>
+      <guid isPermaLink="true">https://github.com/klawsh/klaw.sh</guid>
+      <pubDate>Sun, 15 Feb 2026 17:22:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025478</comments>
     </item>
     <item>
-      <title>Show HN: Knock-Knock.net – サーバーのドアをノックするボットの視覚化</title>
-      <link>https://knock-knock.net</link>
-      <description>📝 ネット上に保護されていないサーバーをセットアップすると、ボットが群がり始めます。このサイトには、通常のインターネット サーバーに侵入しようとする (失敗した) ボットが表示されます。ネット上のマシンのドアをノックするボットの絶え間ないおしゃべりは、「インターネットの背景放射」と呼ばれています。
+      <title>Pocketblue – モバイルデバイス用 Fedora Atomic</title>
+      <link>https://github.com/pocketblue/pocketblue</link>
+      <description>📝 me/nabulinux - Xiaomi Pad 5 Linux チャット t。 me/pipa_mainline - Xiaomi Pad 6 Linux チャット t。 me/xiaomi_pipa - Xiaomi Pad 6 の一般的なチャット。
 
 
-🔤 Original: Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door
+🔤 Original: Pocketblue – Fedora Atomic for mobile devices
 
-🔗 Read more: https://knock-knock.net</description>
-      <guid isPermaLink="true">https://knock-knock.net</guid>
-      <pubDate>Sun, 15 Feb 2026 17:06:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025338</comments>
+🔗 Read more: https://github.com/pocketblue/pocketblue</description>
+      <guid isPermaLink="true">https://github.com/pocketblue/pocketblue</guid>
+      <pubDate>Sun, 15 Feb 2026 16:40:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025085</comments>
     </item>
     <item>
-      <title>州司法長官はオンラインアクセスをIDに結び付けたいと考えている</title>
-      <link>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</link>
-      <description>📝 それは国家権限を制限することになる6484。司法長官は、これにより州法に基づいて新たなオンライン上の損害を追求する能力が抑制されると警告している。 Federal agencies would study device-level age verification systems, the FTC would police compliance with harm mitigation duties, and states would continue to pursue para.
+      <title>JavaScript を多用したアプローチは長期的なパフォーマンス目標と互換性がありません</title>
+      <link>https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</link>
+      <description>📝 また、この記事では、あまり深く考えずに、Web パフォーマンスのさまざまな側面を行き来することに注意してください。コンピューター サイエンスでは、この 2 つの区別として一般的に受け入れられているのは、ライブラリはコードが呼び出すものであるのに対し、フレームワークは制御を放棄し、代わりに適切なタイミングでコードを呼び出すものであるということです。要するに、このアプローチにより開発者のエクスペリエンスが大幅に向上し、DevEx の利点がユーザーにも徐々に波及するという主張です。
 
 
-🔤 Original: State Attorneys General Want to Tie Online Access to ID
+🔤 Original: JavaScript-heavy approaches are not compatible with long-term performance goals
 
-🔗 Read more: https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</description>
-      <guid isPermaLink="true">https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</guid>
-      <pubDate>Sun, 15 Feb 2026 19:49:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026848</comments>
+🔗 Read more: https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</description>
+      <guid isPermaLink="true">https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</guid>
+      <pubDate>Mon, 16 Feb 2026 00:26:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029339</comments>
     </item>
     <item>
-      <title>コードのデータベースとしての SCM</title>
-      <link>https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</link>
-      <description>📝 これは、エージェントが実際に何をしたかを調査する場合に特に役立ちます。 Zed の DeltaDB はそのアプローチに沿ったものです。コードには構造があるからです。
+      <title>HN を表示: Pangolin: オープンソースのアイデンティティベースの VPN (Twingate/Zscaler の代替)</title>
+      <link>https://github.com/fosrl/pangolin</link>
+      <description>📝 セルフホスト: Fossorial 商用ライセンスに基づいてライセンスされた Enterprise Edition。ユーザーは、認証と詳細なアクセス制御を備えた Web ブラウザを通じてアプリケーションにアクセスします。ゼロトラストのきめ細かなアクセスネットワーク全体ではなく、特定のリソースへのアクセスをユーザーに許可します。
 
 
-🔤 Original: SCM as a database for the code
+🔤 Original: Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)
 
-🔗 Read more: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</description>
-      <guid isPermaLink="true">https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</guid>
-      <pubDate>Sun, 15 Feb 2026 09:09:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47022238</comments>
+🔗 Read more: https://github.com/fosrl/pangolin</description>
+      <guid isPermaLink="true">https://github.com/fosrl/pangolin</guid>
+      <pubDate>Sun, 15 Feb 2026 10:50:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47022745</comments>
     </item>
     <item>
-      <title>裁判所、H.265特許を巡りAcerとAsusにドイツでのPC販売停止を命令</title>
-      <link>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</link>
-      <guid isPermaLink="true">https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</guid>
-      <pubDate>Sun, 15 Feb 2026 20:06:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027011</comments>
+      <title>第一原理からの連続バッチ処理 (2025)</title>
+      <link>https://huggingface.co/blog/continuous_batching</link>
+      <description>📝 ここでアテンションが登場します。アテンション レイヤーは、異なるトークンが相互作用する唯一の場所です。この図では、アテンション マスクは因果マスクです。つまり、各トークンはその前にあるトークンとのみ相互作用します。
+
+
+🔤 Original: Continuous batching from first principles (2025)
+
+🔗 Read more: https://huggingface.co/blog/continuous_batching</description>
+      <guid isPermaLink="true">https://huggingface.co/blog/continuous_batching</guid>
+      <pubDate>Sun, 15 Feb 2026 22:47:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028545</comments>
+    </item>
+    <item>
+      <title>編集者注: 捏造された引用を含む記事の撤回</title>
+      <link>https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</link>
+      <description>📝 アルスでこのようなことが起こったことは特に憂慮すべきことである。この事件では、その方針に反する方法で捏造された引用が公表されました。現時点では、これは単独のインシデントであるようです。
+
+
+🔤 Original: Editor's Note: Retraction of article containing fabricated quotations
+
+🔗 Read more: https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</description>
+      <guid isPermaLink="true">https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:29:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026071</comments>
     </item>
   </channel>
 </rss>

@@ -6,126 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Feb 2026 21:26:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 02:09:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GNU Pies – 程序调用和执行主管</title>
-      <link>https://www.gnu.org.ua/software/pies/</link>
-      <description>📝 Pies 这个名字（发音为“p-yes”）代表程序调用和执行管理器。该实用程序启动并控制称为组件的外部程序的执行。启动时，pies 从其配置文件中读取组件列表，启动它们，并保留在后台，控制它们的执行。
+      <title>我要加入 OpenAI</title>
+      <link>https://steipete.me/posts/2026/openclaw</link>
+      <description>📝 对我来说，OpenClaw 保持开源并给予其蓬勃发展的自由一直很重要。我与那里的人交谈得越多，就越清楚我们拥有相同的愿景。它将继续为思想家、黑客和那些想要拥有自己数据的人提供服务，目标是支持更多的模型和公司。
 
 
-🔤 Original: GNU Pies – Program Invocation and Execution Supervisor
+🔤 Original: I’m joining OpenAI
 
-🔗 Read more: https://www.gnu.org.ua/software/pies/</description>
-      <guid isPermaLink="true">https://www.gnu.org.ua/software/pies/</guid>
-      <pubDate>Sun, 15 Feb 2026 20:53:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027427</comments>
+🔗 Read more: https://steipete.me/posts/2026/openclaw</description>
+      <guid isPermaLink="true">https://steipete.me/posts/2026/openclaw</guid>
+      <pubDate>Sun, 15 Feb 2026 21:54:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028013</comments>
     </item>
     <item>
-      <title>显示 HN：VOOG – 使用 Python 和 tkinter GUI 的 Moog 风格复调合成器</title>
-      <link>https://github.com/gpasquero/voog</link>
-      <description>📝 VOOG 虚拟模拟合成器 — 用 Python 构建的 Moog 风格复调合成器，带有受 Subsequent 37 启发的 tkinter GUI。MIDI 连接任何 MIDI 控制器。旋钮 所有合成器参数都使用旋钮控制： 在任何旋钮上垂直拖动以更改其值（向上 = 增加） 滚轮进行微调 琥珀色弧线显示当前值位置 预设 预设说明 初始化 默认启动音色 Bass Voog 带有滤波器包络的脂肪失谐锯齿低音 主奏锯齿 带连奏滑音的激进双锯齿主音 垫弦 带有慢速滤波器的温暖演变垫 LFO Sub Thunder 具有方波基础的深低音 酸静噪 高共振滤波器扫频， 303 风格 Funky Pluck 活泼的敲击打击乐，快速衰减 尖叫主音 带有颤音和滑音的明亮共鸣主音 温暖的铜管乐 方波/锯齿混合，中等起音 黑暗无人机 失谐低音锯齿，带有慢速 LFO 扫频 Perc Hit 超短包络的爆音 复古琴键 三角/方波电钢琴音色 摆动低音 低频振荡器驱动的滤波器调制 恍惚主音 宽失谐三锯齿音，带音高颤音 胖齐奏 三锯齿扩展±25 cents Reso Sweep 近自激振荡滤波器，具有长衰减 Fifth Stab Power 第五音程，短冲程 Glass Bell 正弦谐波，具有长晶体释放 噪声扫描 通过谐振 LFO 过滤噪声，科幻架构 Synth/ ├── dsp/ # 信号处理模块 │ ├── 振荡器 # 波表合成（正弦波、锯齿波、方波、三角波） │ ├── filter # Moog 梯形滤波器（24dB/oct，Huovillainen 模型） │ ├── 包络 # ADSR 包络发生器 │ ├── lfo # 低频振荡器 │ ├── glide # 音高滑音 │ └── 噪音 # 白/粉红噪音发生器 ├── engine/ # 音频引擎 │ ├── audio_engine # 主引擎、声音设备输出、MIDI 路由 │ ├── channel # 多音色通道(patch + voice allocator) │ ├── voice # 单声部 (振荡器 + 滤波器 + 包络) │ └── voice_allocator # 具有语音窃取功能的复调分配 ├── gui/ # 图形界面 │ └── app # 带旋钮和虚拟键盘的 tkinter GUI ├── midi/ # MIDI 支持 │ ├── midi_input # MIDI 端口侦听器(mido/rtmidi) │ ├── midi_router # 消息路由 │ └── cc_map # CC 到参数映射 ├── patch/ # 补丁系统 │ ├── patch # 补丁数据结构 │ ├── patch_manager # 保存/加载到磁盘 │ └── default_patches # 19 个内置预设 └── cli/ # 命令行界面└── repl # 交互式 REPL 许可证 MIT。
+      <title>马格努斯·卡尔森 (Magnus Carlsen) 赢得自由式 (Chess960) 世界冠军</title>
+      <link>https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</link>
+      <description>📝 马格努斯·卡尔森（挪威）是 2026 年国际棋联自由式国际象棋世界冠军。两名决赛选手均获得了 2027 年国际棋联自由式国际象棋世界锦标赛的参赛资格。 2026 年锦标赛是首届国际棋联官方认可的自由式国际象棋世界锦标赛。
 
 
-🔤 Original: Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI
+🔤 Original: Magnus Carlsen Wins the Freestyle (Chess960) World Championship
 
-🔗 Read more: https://github.com/gpasquero/voog</description>
-      <guid isPermaLink="true">https://github.com/gpasquero/voog</guid>
-      <pubDate>Sun, 15 Feb 2026 19:40:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026768</comments>
+🔗 Read more: https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</description>
+      <guid isPermaLink="true">https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/</guid>
+      <pubDate>Sun, 15 Feb 2026 22:17:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028227</comments>
     </item>
     <item>
-      <title>现代 CSS 代码片段：别再像 2015 年那样编写 CSS</title>
-      <link>https://modern-css.com</link>
-      <description>📝 现代 CSS 代码片段 |现代的。切换（'主要'，isPrimary）；现代的。 showModal()"&gt;打开&lt;/button&gt; 现代&lt;button commandfor="dlg" command="show-modal"&gt;打开&lt;/button&gt;&lt;dialog id="dlg"&gt;。
+      <title>粉红噪音会减少快速眼动睡眠并可能损害睡眠质量</title>
+      <link>https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</link>
+      <description>📝 睡眠粉红噪音会减少快速眼动睡眠，并可能损害睡眠质量，根据严格的睡眠实验室研究，耳塞可以更好地保护睡眠免受飞机噪音的影响。宽带噪声还包括众所周知的白噪声和其他噪声颜色，例如棕色和蓝色噪声。数百万人每天晚上在睡觉时都会播放宽带噪音。
 
 
-🔤 Original: Modern CSS Code Snippets: Stop writing CSS like it's 2015
+🔤 Original: Pink noise reduces REM sleep and may harm sleep quality
 
-🔗 Read more: https://modern-css.com</description>
-      <guid isPermaLink="true">https://modern-css.com</guid>
-      <pubDate>Sun, 15 Feb 2026 18:04:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025851</comments>
+🔗 Read more: https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</description>
+      <guid isPermaLink="true">https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality</guid>
+      <pubDate>Mon, 16 Feb 2026 00:35:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029397</comments>
     </item>
     <item>
-      <title>走向自主数学研究</title>
-      <link>https://arxiv.org/abs/2602.10177</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） DagsHub Toggle DagsHub（什么是 DagsHub。
+      <title>Zig 中的错误负载</title>
+      <link>https://srcreigh.ca/posts/error-payloads-in-zig/</link>
+      <description>📝 ErrorPayload、OutOfMemory：无效、LoadPluginsError：诊断。 pub const BuildDiagnostics = 诊断。错误）无效{开关（错误）{错误。
 
 
-🔤 Original: Towards Autonomous Mathematics Research
+🔤 Original: Error payloads in Zig
 
-🔗 Read more: https://arxiv.org/abs/2602.10177</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.10177</guid>
-      <pubDate>Sun, 15 Feb 2026 18:35:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026134</comments>
+🔗 Read more: https://srcreigh.ca/posts/error-payloads-in-zig/</description>
+      <guid isPermaLink="true">https://srcreigh.ca/posts/error-payloads-in-zig/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:08:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028705</comments>
     </item>
     <item>
-      <title>Show HN：Microgpt 是一个可以在浏览器中可视化的 GPT</title>
-      <link>https://microgpt.boratto.ca</link>
-      <guid isPermaLink="true">https://microgpt.boratto.ca</guid>
-      <pubDate>Sun, 15 Feb 2026 18:40:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026186</comments>
+      <title>电台主持人 David Greene 表示 Google 的 NotebookLM 工具窃取了他的声音</title>
+      <link>https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</link>
+      <guid isPermaLink="true">https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:05:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025864</comments>
     </item>
     <item>
-      <title>Show HN：Lightwave – 实时笔记应用程序，3.5 年手写 JavaScript</title>
-      <link>https://news.ycombinator.com/item?id=47027463</link>
-      <description>📝 复制块，恢复降价。 - 具有语法突出显示的代码块。 - 完全撤消/重做与光标恢复。
+      <title>显示 HN：Klaw.sh – 用于 AI 代理的 Kubernetes</title>
+      <link>https://github.com/klawsh/klaw.sh</link>
+      <description>📝 klaw 用于 AI 代理的 Kubernetes 在您的基础设施中部署、编排和扩展 AI 代理。 # 交互式聊天 klaw chat # 启动全平台（Slack 机器人 + 调度程序 + 代理） klaw start 快速入门 1. 运行 # 交互式 CLI chat klaw chat # 或通过 Slack 集成启动全平台 export SLACK_BOT_TOKEN=xoxb-.
 
 
-🔤 Original: Show HN: Lightwave – Real-time notes app, 3.5 years of hand-rolled JavaScript
+🔤 Original: Show HN: Klaw.sh – Kubernetes for AI agents
 
-🔗 Read more: https://news.ycombinator.com/item?id=47027463</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47027463</guid>
-      <pubDate>Sun, 15 Feb 2026 20:57:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027463</comments>
+🔗 Read more: https://github.com/klawsh/klaw.sh</description>
+      <guid isPermaLink="true">https://github.com/klawsh/klaw.sh</guid>
+      <pubDate>Sun, 15 Feb 2026 17:22:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025478</comments>
     </item>
     <item>
-      <title>Show HN：Knock-Knock.net – 可视化机器人敲我服务器的门</title>
-      <link>https://knock-knock.net</link>
-      <description>📝 在网络上设置一个不受保护的服务器，机器人就会开始蜂拥而至。该站点显示机器人试图（未成功）闯入普通互联网服务器。机器人不断敲击网络上机器的门被称为“互联网的背景辐射”。
+      <title>Pocketblue – 适用于移动设备的 Fedora Atomic</title>
+      <link>https://github.com/pocketblue/pocketblue</link>
+      <description>📝 me/nabulinux - 小米平板 5 Linux 聊天 t。 me/pipa_mainline - 小米 Pad 6 Linux 聊天工具。 me/xiaomi_pipa - 小米 Pad 6 常规聊天。
 
 
-🔤 Original: Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door
+🔤 Original: Pocketblue – Fedora Atomic for mobile devices
 
-🔗 Read more: https://knock-knock.net</description>
-      <guid isPermaLink="true">https://knock-knock.net</guid>
-      <pubDate>Sun, 15 Feb 2026 17:06:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47025338</comments>
+🔗 Read more: https://github.com/pocketblue/pocketblue</description>
+      <guid isPermaLink="true">https://github.com/pocketblue/pocketblue</guid>
+      <pubDate>Sun, 15 Feb 2026 16:40:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47025085</comments>
     </item>
     <item>
-      <title>州总检察长希望将在线访问与身份证件联系起来</title>
-      <link>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</link>
-      <description>📝 第6484章 这会限制国家权力。总检察长警告说，这将限制他们根据州法律追究新兴网络危害的能力。联邦机构将研究设备级年龄验证系统，联邦贸易委员会将监督损害减轻责任的遵守情况，各州将继续追求第
+      <title>大量使用 JavaScript 的方法与长期性能目标不兼容</title>
+      <link>https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</link>
+      <description>📝 另请注意，我将在整篇文章中在网络性能的不同方面之间跳转，无需太多思考。在计算机科学中，两者之间普遍接受的区别是，库是您的代码调用的东西，而框架是您放弃控制的东西，以便它在适当的时候调用您的代码。简而言之，这种方法将为开发人员体验带来巨大的改善，并且这些 DevEx 的好处将惠及用户。
 
 
-🔤 Original: State Attorneys General Want to Tie Online Access to ID
+🔤 Original: JavaScript-heavy approaches are not compatible with long-term performance goals
 
-🔗 Read more: https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</description>
-      <guid isPermaLink="true">https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</guid>
-      <pubDate>Sun, 15 Feb 2026 19:49:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47026848</comments>
+🔗 Read more: https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</description>
+      <guid isPermaLink="true">https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/</guid>
+      <pubDate>Mon, 16 Feb 2026 00:26:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47029339</comments>
     </item>
     <item>
-      <title>SCM作为代码的数据库</title>
-      <link>https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</link>
-      <description>📝 在调查特工的实际行为时，这一点尤其有价值。 Zed 的 DeltaDB 与这种方法保持一致。因为代码是有结构的。
+      <title>Show HN：Pangolin：基于身份的开源 VPN（Twingate/Zscaler 替代方案）</title>
+      <link>https://github.com/fosrl/pangolin</link>
+      <description>📝 自托管：企业版根据 Fossorial 商业许可证获得许可。用户通过任何具有身份验证和精细访问控制的 Web 浏览器访问应用程序。零信任粒度访问授予用户对特定资源而不是整个网络的访问权限。
 
 
-🔤 Original: SCM as a database for the code
+🔤 Original: Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)
 
-🔗 Read more: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</description>
-      <guid isPermaLink="true">https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e</guid>
-      <pubDate>Sun, 15 Feb 2026 09:09:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47022238</comments>
+🔗 Read more: https://github.com/fosrl/pangolin</description>
+      <guid isPermaLink="true">https://github.com/fosrl/pangolin</guid>
+      <pubDate>Sun, 15 Feb 2026 10:50:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47022745</comments>
     </item>
     <item>
-      <title>法院因 H.265 专利命令宏碁和华硕停止在德国销售 PC</title>
-      <link>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</link>
-      <guid isPermaLink="true">https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</guid>
-      <pubDate>Sun, 15 Feb 2026 20:06:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47027011</comments>
+      <title>从第一原理开始连续配料 (2025)</title>
+      <link>https://huggingface.co/blog/continuous_batching</link>
+      <description>📝 这就是注意力发挥作用的地方。注意力层是不同令牌相互交互的唯一地方。在此图中，注意力掩码是因果掩码，这意味着每个令牌仅与其之前的令牌交互。
+
+
+🔤 Original: Continuous batching from first principles (2025)
+
+🔗 Read more: https://huggingface.co/blog/continuous_batching</description>
+      <guid isPermaLink="true">https://huggingface.co/blog/continuous_batching</guid>
+      <pubDate>Sun, 15 Feb 2026 22:47:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47028545</comments>
+    </item>
+    <item>
+      <title>编者按：撤回含有捏造引文的文章</title>
+      <link>https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</link>
+      <description>📝 Ars 发生的这种情况尤其令人痛心。在这种情况下，捏造的报价以不符合该政策的方式发布。目前看来，这只是一起孤立事件。
+
+
+🔤 Original: Editor's Note: Retraction of article containing fabricated quotations
+
+🔗 Read more: https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</description>
+      <guid isPermaLink="true">https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:29:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47026071</comments>
     </item>
   </channel>
 </rss>
