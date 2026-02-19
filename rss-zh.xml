@@ -6,99 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Feb 2026 04:54:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 07:02:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Anthropic 正式禁止第三方使用订阅授权</title>
-      <link>https://code.claude.com/docs/en/legal-and-compliance</link>
-      <description>📝 Claude Code Docs 主页英文搜索。使用政策 可接受的使用 Claude 代码的使用须遵守 Anthropic 使用政策。这些身份验证方法有不同的用途： OAuth 身份验证（与 Free、Pro 和 Max 计划一起使用）专门用于 Claude Code 和 Claude。
+      <title>欧洲技术替代方案</title>
+      <link>https://eutechmap.com/map</link>
+      <description>📝 欧盟技术地图|欧洲技术替代方案 欧盟技术地图 – 发现欧洲技术替代方案 查找符合 GDPR 要求、欧盟托管且尊重您的数据主权的软件和服务替代方案。浏览 30 多个类别的 500 多家欧洲公司。热门类别 云计算 CRM 网络安全分析 电子邮件 云存储 通信 项目管理 电子商务 人工智能和机器学习 文档协作 身份和访问 热门替代方案 Google Analytics 替代方案 AWS 替代方案 Salesforce 替代方案 Slack 替代方案 Microsoft 365 替代方案 Zoom 替代方案 Dropbox 替代方案 Mailchimp 替代方案 HubSpot 替代方案 Jira 替代方案 按国家/地区浏览 德国 法国 荷兰 瑞典 芬兰 西班牙 爱尔兰 奥地利 瑞士 丹麦 波兰 意大利 关于欧盟技术地图 欧盟技术地图是欧洲软件公司和符合 GDPR 的替代方案的领先目录。
 
 
-🔤 Original: Anthropic officially bans using subscription auth for third party use
+🔤 Original: European Tech Alternatives
 
-🔗 Read more: https://code.claude.com/docs/en/legal-and-compliance</description>
-      <guid isPermaLink="true">https://code.claude.com/docs/en/legal-and-compliance</guid>
-      <pubDate>Thu, 19 Feb 2026 02:52:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47069299</comments>
+🔗 Read more: https://eutechmap.com/map</description>
+      <guid isPermaLink="true">https://eutechmap.com/map</guid>
+      <pubDate>Thu, 19 Feb 2026 05:07:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47070142</comments>
     </item>
     <item>
-      <title>FP64 细分 15 年，以及 Blackwell Ultra 为何打破这一模式</title>
-      <link>https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</link>
-      <description>📝 Nvidia GPU 上 FP64 的演变 自 2010 年 Fermi 架构首次亮相以来，Nvidia 消费类 GPU 上的 FP64:FP32 比率一直在下降。1 随着时间的推移，Nvidia 不再“人为”降低消费类 GPU 上的 FP64 性能。跨 Nvidia GPU 各代的 FP32 与 FP64 吞吐量扩展。
+      <title>Show HN：一个 Lisp，其中每个函数调用都运行一个 Docker 容器</title>
+      <link>https://github.com/a11ce/docker-lisp</link>
+      <description>📝 要求 Docker 设置 首先，构建基础镜像和内置镜像。 /scripts/build &lt;程序路径&gt; [名称] 或。 /scripts/run &lt;name&gt; 脚本 脚本用途 build &lt;file&gt; [name] 将 Dockerfile 构建到 docker-lisp/&lt;name&gt; 中。
 
 
-🔤 Original: 15 years of FP64 segmentation, and why the Blackwell Ultra breaks the pattern
+🔤 Original: Show HN: A Lisp where each function call runs a Docker container
 
-🔗 Read more: https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</description>
-      <guid isPermaLink="true">https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</guid>
-      <pubDate>Thu, 19 Feb 2026 01:46:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47068890</comments>
+🔗 Read more: https://github.com/a11ce/docker-lisp</description>
+      <guid isPermaLink="true">https://github.com/a11ce/docker-lisp</guid>
+      <pubDate>Thu, 19 Feb 2026 04:19:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47069876</comments>
     </item>
     <item>
-      <title>Minecraft Java 正在从 OpenGL 切换到 Vulkan</title>
-      <link>https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</link>
-      <description>📝 对于模组制作者来说，他们建议他们开始做好放弃 OpenGL 的准备。从 OpenGL 切换到 Vulkan 将对当前使用 OpenGL 进行渲染的模组产生影响，我们预计从 OpenGL 更新到 Vulkan 将比您为我们每个版本进行的更新花费更多的精力。这确实意味着不支持 Vulkan 的非常旧的设备上的玩家将被排除在外，但 Vulkan 已经得到支持，可以追溯到一些相当旧的 GPU。一旦他们对性能和稳定性感到满意，OpenGL 最终将被完全删除。
-
-
-🔤 Original: Minecraft Java is switching from OpenGL to Vulkan
-
-🔗 Read more: https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</description>
-      <guid isPermaLink="true">https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</guid>
-      <pubDate>Thu, 19 Feb 2026 01:55:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47068948</comments>
-    </item>
-    <item>
-      <title>步骤 3.5 闪现：快到足以思考。足够可靠，可以采取行动</title>
-      <link>https://static.stepfun.com/blog/step-3.5-flash/</link>
-      <description>📝 5 Flash (PaCoRe) 分数：99。8 参数：未知 100。5 Flash (PaCoRe) 分数：88。
-
-
-🔤 Original: Step 3.5 Flash: Fast Enough to Think. Reliable Enough to Act
-
-🔗 Read more: https://static.stepfun.com/blog/step-3.5-flash/</description>
-      <guid isPermaLink="true">https://static.stepfun.com/blog/step-3.5-flash/</guid>
-      <pubDate>Thu, 19 Feb 2026 02:32:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47069179</comments>
-    </item>
-    <item>
-      <title>人工智能如何影响欧洲的生产力和就业</title>
-      <link>https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</link>
-      <description>📝 采用人工智能的欧洲公司真的变得更有生产力吗？采用率也因公司规模而异。这些模式表明，仅仅观察哪些公司采用人工智能并比较它们的绩效可能会产生误导性结果，因为采用本身是企业特征的内生因素。
-
-
-🔤 Original: How AI is affecting productivity and jobs in Europe
-
-🔗 Read more: https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</description>
-      <guid isPermaLink="true">https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</guid>
-      <pubDate>Thu, 19 Feb 2026 00:22:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47068320</comments>
-    </item>
-    <item>
-      <title>Electrobun v1：使用 TypeScript 构建快速、小型和跨平台的桌面应用程序</title>
-      <link>https://blackboard.sh/blog/electrobun-v1/</link>
-      <description>📝 ← 返回博客 Electrobun v1 作者：Yoav 2026 年 2 月 6 日 electrobun 使用 TypeScript 构建超快速、小型且跨平台的桌面应用程序。从 macOS 到无处不在 当 Electrobun 开始时，它只构建 macOS 应用程序。我们 Discord 中的人们正在构建非常酷的应用程序。
-
-
-🔤 Original: Electrobun v1: Build fast, tiny, and cross-platform desktop apps with TypeScript
-
-🔗 Read more: https://blackboard.sh/blog/electrobun-v1/</description>
-      <guid isPermaLink="true">https://blackboard.sh/blog/electrobun-v1/</guid>
-      <pubDate>Thu, 19 Feb 2026 03:46:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47069650</comments>
-    </item>
-    <item>
-      <title>Show HN：我为微服务构建了一个保险丝盒</title>
-      <link>https://www.openfuse.io</link>
-      <description>📝 阈值、恢复和同步通过仪表板进行管理。全部来自仪表板。状态历史审计跟踪实时。
-
-
-🔤 Original: Show HN: I built a fuse box for microservices
-
-🔗 Read more: https://www.openfuse.io</description>
-      <guid isPermaLink="true">https://www.openfuse.io</guid>
-      <pubDate>Wed, 18 Feb 2026 14:04:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47061013</comments>
+      <title>当电网出现故障时，乌克兰人通过 LoRa 无线电控制家庭助理</title>
+      <link>https://old.reddit.com/r/homeassistant/comments/1r8ftc0/i_control_my_home_assistant_over_lora_radio_when/</link>
+      <guid isPermaLink="true">https://old.reddit.com/r/homeassistant/comments/1r8ftc0/i_control_my_home_assistant_over_lora_radio_when/</guid>
+      <pubDate>Thu, 19 Feb 2026 03:56:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47069724</comments>
     </item>
   </channel>
 </rss>

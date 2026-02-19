@@ -6,99 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Feb 2026 04:54:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 07:02:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Anthropic、サードパーティによるサブスクリプション認証の使用を正式に禁止</title>
-      <link>https://code.claude.com/docs/en/legal-and-compliance</link>
-      <description>📝 Claude Code Docs のホームページ英語検索。使用ポリシー 許容される使用 クロード コードの使用には、Anthropic 使用ポリシーが適用されます。これらの認証方法はさまざまな目的に使用されます。OAuth 認証 (Free、Pro、および Max プランで使用) は、Claude Code と Claude 専用です。
+      <title>欧州の代替技術</title>
+      <link>https://eutechmap.com/map</link>
+      <description>📝 EU 技術マップ |欧州の代替技術 EU Tech Map – 欧州の代替技術を発見 データ主権を尊重する、GDPR 準拠の EU ホストのソフトウェアおよびサービスの代替案を見つけてください。 30 以上のカテゴリにわたって 500 以上のヨーロッパ企業を閲覧できます。人気のカテゴリ クラウド コンピューティング CRM サイバーセキュリティ 分析 電子メール クラウド ストレージ コミュニケーション プロジェクト管理 電子商取引 AI と機械学習 ドキュメント コラボレーション ID とアクセス 人気の代替案 Google Analytics の代替案 AWS の代替案 Salesforce の代替案 Slack の代替案 Microsoft 365 の代替案 Zoom の代替案 Dropbox の代替案 Mailchimp の代替案 HubSpot の代替案 Jira の代替案 国別で参照 ドイツ フランスオランダ スウェーデン フィンランド スペイン アイルランド オーストリア スイス デンマーク ポーランド イタリア EU Tech Map について EU Tech Map は、ヨーロッパのソフトウェア会社および GDPR 準拠の代替企業の主要ディレクトリです。
 
 
-🔤 Original: Anthropic officially bans using subscription auth for third party use
+🔤 Original: European Tech Alternatives
 
-🔗 Read more: https://code.claude.com/docs/en/legal-and-compliance</description>
-      <guid isPermaLink="true">https://code.claude.com/docs/en/legal-and-compliance</guid>
-      <pubDate>Thu, 19 Feb 2026 02:52:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47069299</comments>
+🔗 Read more: https://eutechmap.com/map</description>
+      <guid isPermaLink="true">https://eutechmap.com/map</guid>
+      <pubDate>Thu, 19 Feb 2026 05:07:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47070142</comments>
     </item>
     <item>
-      <title>15 年にわたる FP64 セグメンテーションと Blackwell Ultra がパターンを打ち破る理由</title>
-      <link>https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</link>
-      <description>📝 Nvidia GPU での FP64 の進化 2010 年に Fermi アーキテクチャが登場して以来、Nvidia コンシューマ GPU の FP64:FP32 比率は一貫して低下しています。1 時間の経過とともに、Nvidia はコンシューマ GPU で FP64 のパフォーマンスを「人為的に」低下させることから離れていきました。 Nvidia GPU の世代にわたる FP32 と FP64 のスループット スケーリング。
+      <title>HN を表示: 各関数呼び出しが Docker コンテナを実行する Lisp</title>
+      <link>https://github.com/a11ce/docker-lisp</link>
+      <description>📝 要件 Docker のセットアップ まず、基本イメージと組み込みをビルドします。 /scripts/build &lt;プログラム パス&gt; [名前] または。 /scripts/run &lt;name&gt; スクリプト スクリプトの目的 build &lt;file&gt; [name] Dockerfile を docker-lisp/&lt;name&gt; にビルドします。
 
 
-🔤 Original: 15 years of FP64 segmentation, and why the Blackwell Ultra breaks the pattern
+🔤 Original: Show HN: A Lisp where each function call runs a Docker container
 
-🔗 Read more: https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</description>
-      <guid isPermaLink="true">https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</guid>
-      <pubDate>Thu, 19 Feb 2026 01:46:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47068890</comments>
+🔗 Read more: https://github.com/a11ce/docker-lisp</description>
+      <guid isPermaLink="true">https://github.com/a11ce/docker-lisp</guid>
+      <pubDate>Thu, 19 Feb 2026 04:19:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47069876</comments>
     </item>
     <item>
-      <title>Minecraft Java が OpenGL から Vulkan に切り替わります</title>
-      <link>https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</link>
-      <description>📝 モッダーに対して、彼らは OpenGL から移行する準備を始めることを提案しています。OpenGL から Vulkan への切り替えは、現在レンダリングに OpenGL を使用している MOD に影響を及ぼします。また、OpenGL から Vulkan への更新には、モッダーにとって、各リリースで行う更新よりも多くの労力がかかることが予想されます。これは、Vulkan をサポートしていない非常に古いデバイスのプレーヤーが除外されることを意味しますが、Vulkan はかなり古い GPU までサポートされてきました。 OpenGL は、パフォーマンスと安定性に満足したら、最終的には完全に削除される予定です。
-
-
-🔤 Original: Minecraft Java is switching from OpenGL to Vulkan
-
-🔗 Read more: https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</description>
-      <guid isPermaLink="true">https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</guid>
-      <pubDate>Thu, 19 Feb 2026 01:55:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47068948</comments>
-    </item>
-    <item>
-      <title>ステップ 3.5 フラッシュ: 考えるのに十分な速さ。行動するのに十分な信頼性</title>
-      <link>https://static.stepfun.com/blog/step-3.5-flash/</link>
-      <description>📝 5 Flash (PaCoRe) Score: 99. 8 Params: Unknown 100. 5 Flash (PaCoRe) Score: 88.
-
-
-🔤 Original: Step 3.5 Flash: Fast Enough to Think. Reliable Enough to Act
-
-🔗 Read more: https://static.stepfun.com/blog/step-3.5-flash/</description>
-      <guid isPermaLink="true">https://static.stepfun.com/blog/step-3.5-flash/</guid>
-      <pubDate>Thu, 19 Feb 2026 02:32:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47069179</comments>
-    </item>
-    <item>
-      <title>AI がヨーロッパの生産性と雇用に与える影響</title>
-      <link>https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</link>
-      <description>📝 AIを導入した欧州企業は本当に生産性が向上するのだろうか。導入状況は企業規模によっても大きく異なります。これらのパターンは、導入自体が企業の特性に内生的に影響するため、どの企業が AI を導入しているかを単純に観察し、そのパフォーマンスを比較すると誤解を招く結果が生じる可能性があることを示唆しています。
-
-
-🔤 Original: How AI is affecting productivity and jobs in Europe
-
-🔗 Read more: https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</description>
-      <guid isPermaLink="true">https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</guid>
-      <pubDate>Thu, 19 Feb 2026 00:22:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47068320</comments>
-    </item>
-    <item>
-      <title>Electrobun v1: TypeScript を使用して高速、小型、クロスプラットフォームのデスクトップ アプリを構築する</title>
-      <link>https://blackboard.sh/blog/electrobun-v1/</link>
-      <description>📝 ← ブログに戻る Electrobun v1 By Yoav 2026 年 2 月 6 日 electricbun TypeScript を使用して、超高速、小型、クロスプラットフォームのデスクトップ アプリを構築します。 macOS からあらゆる場所へ Electrobun が開始されたとき、それは macOS アプリのみを構築していました。 Discord の人々は、めちゃくちゃクールなアプリを構築しています。
-
-
-🔤 Original: Electrobun v1: Build fast, tiny, and cross-platform desktop apps with TypeScript
-
-🔗 Read more: https://blackboard.sh/blog/electrobun-v1/</description>
-      <guid isPermaLink="true">https://blackboard.sh/blog/electrobun-v1/</guid>
-      <pubDate>Thu, 19 Feb 2026 03:46:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47069650</comments>
-    </item>
-    <item>
-      <title>Show HN: マイクロサービス用のヒューズ ボックスを構築しました</title>
-      <link>https://www.openfuse.io</link>
-      <description>📝 しきい値、回復、同期はダッシュボードから管理されます。すべてダッシュボードから。状態履歴監査証跡リアルタイム。
-
-
-🔤 Original: Show HN: I built a fuse box for microservices
-
-🔗 Read more: https://www.openfuse.io</description>
-      <guid isPermaLink="true">https://www.openfuse.io</guid>
-      <pubDate>Wed, 18 Feb 2026 14:04:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47061013</comments>
+      <title>ウクライナ人は、送電網がダウンしたときに LoRa 無線経由で Home Assistant を制御する</title>
+      <link>https://old.reddit.com/r/homeassistant/comments/1r8ftc0/i_control_my_home_assistant_over_lora_radio_when/</link>
+      <guid isPermaLink="true">https://old.reddit.com/r/homeassistant/comments/1r8ftc0/i_control_my_home_assistant_over_lora_radio_when/</guid>
+      <pubDate>Thu, 19 Feb 2026 03:56:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47069724</comments>
     </item>
   </channel>
 </rss>
