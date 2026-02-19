@@ -6,74 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Feb 2026 02:08:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 04:54:14 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>サイズ設定の混乱</title>
-      <link>https://pudding.cool/2026/02/womens-sizing/</link>
-      <description>📝 ここで、15 歳のウエストラインの中央値はサイズ 10 に適合します。女性のサイジングでは、これはサイズ 14 に相当します。問題は、ほとんどの「ストレート」または「レギュラー」サイズ範囲がサイズ 16 までしかないことです。
+      <title>Anthropic、サードパーティによるサブスクリプション認証の使用を正式に禁止</title>
+      <link>https://code.claude.com/docs/en/legal-and-compliance</link>
+      <description>📝 Claude Code Docs のホームページ英語検索。使用ポリシー 許容される使用 クロード コードの使用には、Anthropic 使用ポリシーが適用されます。これらの認証方法はさまざまな目的に使用されます。OAuth 認証 (Free、Pro、および Max プランで使用) は、Claude Code と Claude 専用です。
 
 
-🔤 Original: Sizing chaos
+🔤 Original: Anthropic officially bans using subscription auth for third party use
 
-🔗 Read more: https://pudding.cool/2026/02/womens-sizing/</description>
-      <guid isPermaLink="true">https://pudding.cool/2026/02/womens-sizing/</guid>
-      <pubDate>Wed, 18 Feb 2026 21:18:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47066552</comments>
+🔗 Read more: https://code.claude.com/docs/en/legal-and-compliance</description>
+      <guid isPermaLink="true">https://code.claude.com/docs/en/legal-and-compliance</guid>
+      <pubDate>Thu, 19 Feb 2026 02:52:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47069299</comments>
     </item>
     <item>
-      <title>Ladybird: Swift の採用を今後追求しないため、これを終了します</title>
-      <link>https://github.com/LadybirdBrowser/ladybird/issues/933</link>
-      <description>📝 Swift は C++23 モードで libstdc++-13 chrono ヘッダーをインポートできません swiftlang/swift#76809 詳細: Swift 6.com/cmake/cmake/-/issues/26174 詳細: Swift + Ninja は CMAKE_OSX_DEPLOYMENT_TARGET を考慮しません。回避策: ladybird/Meta/CMake/Swift/swift-settings。
+      <title>15 年にわたる FP64 セグメンテーションと Blackwell Ultra がパターンを打ち破る理由</title>
+      <link>https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</link>
+      <description>📝 Nvidia GPU での FP64 の進化 2010 年に Fermi アーキテクチャが登場して以来、Nvidia コンシューマ GPU の FP64:FP32 比率は一貫して低下しています。1 時間の経過とともに、Nvidia はコンシューマ GPU で FP64 のパフォーマンスを「人為的に」低下させることから離れていきました。 Nvidia GPU の世代にわたる FP32 と FP64 のスループット スケーリング。
 
 
-🔤 Original: Ladybird: Closing this as we are no longer pursuing Swift adoption
+🔤 Original: 15 years of FP64 segmentation, and why the Blackwell Ultra breaks the pattern
 
-🔗 Read more: https://github.com/LadybirdBrowser/ladybird/issues/933</description>
-      <guid isPermaLink="true">https://github.com/LadybirdBrowser/ladybird/issues/933</guid>
-      <pubDate>Wed, 18 Feb 2026 23:08:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47067678</comments>
+🔗 Read more: https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</description>
+      <guid isPermaLink="true">https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</guid>
+      <pubDate>Thu, 19 Feb 2026 01:46:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47068890</comments>
     </item>
     <item>
-      <title>27 年前の Apple iBooks は Wi-Fi に接続して公式アップデートをダウンロードできる</title>
-      <link>https://old.reddit.com/r/MacOS/comments/1r8900z/macos_which_officially_supports_27_year_old/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/MacOS/comments/1r8900z/macos_which_officially_supports_27_year_old/</guid>
-      <pubDate>Wed, 18 Feb 2026 20:54:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47066241</comments>
+      <title>Minecraft Java が OpenGL から Vulkan に切り替わります</title>
+      <link>https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</link>
+      <description>📝 モッダーに対して、彼らは OpenGL から移行する準備を始めることを提案しています。OpenGL から Vulkan への切り替えは、現在レンダリングに OpenGL を使用している MOD に影響を及ぼします。また、OpenGL から Vulkan への更新には、モッダーにとって、各リリースで行う更新よりも多くの労力がかかることが予想されます。これは、Vulkan をサポートしていない非常に古いデバイスのプレーヤーが除外されることを意味しますが、Vulkan はかなり古い GPU までサポートされてきました。 OpenGL は、パフォーマンスと安定性に満足したら、最終的には完全に削除される予定です。
+
+
+🔤 Original: Minecraft Java is switching from OpenGL to Vulkan
+
+🔗 Read more: https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</description>
+      <guid isPermaLink="true">https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</guid>
+      <pubDate>Thu, 19 Feb 2026 01:55:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47068948</comments>
     </item>
     <item>
-      <title>全部同じに見える？</title>
-      <link>https://alllooksame.com/</link>
-      <description>📝 これらはニューヨーク市で撮影された写真です。これらはマット・マッコイがアジアを旅したときに撮った写真です。これらはパターンなどの建築の詳細を示す写真です。
+      <title>ステップ 3.5 フラッシュ: 考えるのに十分な速さ。行動するのに十分な信頼性</title>
+      <link>https://static.stepfun.com/blog/step-3.5-flash/</link>
+      <description>📝 5 Flash (PaCoRe) Score: 99. 8 Params: Unknown 100. 5 Flash (PaCoRe) Score: 88.
 
 
-🔤 Original: All Look Same?
+🔤 Original: Step 3.5 Flash: Fast Enough to Think. Reliable Enough to Act
 
-🔗 Read more: https://alllooksame.com/</description>
-      <guid isPermaLink="true">https://alllooksame.com/</guid>
-      <pubDate>Wed, 18 Feb 2026 22:48:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47067498</comments>
+🔗 Read more: https://static.stepfun.com/blog/step-3.5-flash/</description>
+      <guid isPermaLink="true">https://static.stepfun.com/blog/step-3.5-flash/</guid>
+      <pubDate>Thu, 19 Feb 2026 02:32:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47069179</comments>
     </item>
     <item>
-      <title>Microsoft、LLM トレーニング向けにハリー・ポッター シリーズの海賊版ガイドを提供</title>
-      <link>https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/</link>
-      <guid isPermaLink="true">https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/</guid>
-      <pubDate>Wed, 18 Feb 2026 23:19:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47067759</comments>
+      <title>AI がヨーロッパの生産性と雇用に与える影響</title>
+      <link>https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</link>
+      <description>📝 AIを導入した欧州企業は本当に生産性が向上するのだろうか。導入状況は企業規模によっても大きく異なります。これらのパターンは、導入自体が企業の特性に内生的に影響するため、どの企業が AI を導入しているかを単純に観察し、そのパフォーマンスを比較すると誤解を招く結果が生じる可能性があることを示唆しています。
+
+
+🔤 Original: How AI is affecting productivity and jobs in Europe
+
+🔗 Read more: https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</description>
+      <guid isPermaLink="true">https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</guid>
+      <pubDate>Thu, 19 Feb 2026 00:22:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47068320</comments>
     </item>
     <item>
-      <title>HN を表示: Rebrain.gg – 運命を学びなさい、運命をスクロールしないでください</title>
-      <link>https://news.ycombinator.com/item?id=47060220</link>
-      <description>📝 こんにちは、HN、私は https://rebrain を構築しました。 LLM と対話するさまざまな方法を試してみる。標準のチャット会話の代わりに、LLM は、ユーザーが直接対話できる (LLM との会話を続けるために使用できる) 質問フォームを返します。
+      <title>Electrobun v1: TypeScript を使用して高速、小型、クロスプラットフォームのデスクトップ アプリを構築する</title>
+      <link>https://blackboard.sh/blog/electrobun-v1/</link>
+      <description>📝 ← ブログに戻る Electrobun v1 By Yoav 2026 年 2 月 6 日 electricbun TypeScript を使用して、超高速、小型、クロスプラットフォームのデスクトップ アプリを構築します。 macOS からあらゆる場所へ Electrobun が開始されたとき、それは macOS アプリのみを構築していました。 Discord の人々は、めちゃくちゃクールなアプリを構築しています。
 
 
-🔤 Original: Show HN: Rebrain.gg – Doom learn, don't doom scroll
+🔤 Original: Electrobun v1: Build fast, tiny, and cross-platform desktop apps with TypeScript
 
-🔗 Read more: https://news.ycombinator.com/item?id=47060220</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47060220</guid>
-      <pubDate>Wed, 18 Feb 2026 12:18:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47060220</comments>
+🔗 Read more: https://blackboard.sh/blog/electrobun-v1/</description>
+      <guid isPermaLink="true">https://blackboard.sh/blog/electrobun-v1/</guid>
+      <pubDate>Thu, 19 Feb 2026 03:46:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47069650</comments>
+    </item>
+    <item>
+      <title>Show HN: マイクロサービス用のヒューズ ボックスを構築しました</title>
+      <link>https://www.openfuse.io</link>
+      <description>📝 しきい値、回復、同期はダッシュボードから管理されます。すべてダッシュボードから。状態履歴監査証跡リアルタイム。
+
+
+🔤 Original: Show HN: I built a fuse box for microservices
+
+🔗 Read more: https://www.openfuse.io</description>
+      <guid isPermaLink="true">https://www.openfuse.io</guid>
+      <pubDate>Wed, 18 Feb 2026 14:04:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47061013</comments>
     </item>
   </channel>
 </rss>
