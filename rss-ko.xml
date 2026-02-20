@@ -6,119 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Feb 2026 18:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 21:26:55 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Android를 열린 상태로 유지</title>
-      <link>https://f-droid.org/2026/02/20/twif.html</link>
-      <description>📝 이번 주 F-Droid TWIF 큐레이팅: 2026년 2월 20일 금요일, 8주차 F-Droid 코어 FOSDEM26에서 F-Droid 사용자와 대화하는 동안 우리는 Google이 Android 잠금 계획을 취소했다는 사실에 대부분 안도감을 느꼈다는 사실을 알고 당황했습니다. F-Droid Basic 재작성과 관련하여 개발은 새로운 릴리스 2로 계속됩니다. Nextcloud 앱은 Nextcloud가 33으로 업데이트된 것처럼 거의 매주 업데이트를 받습니다.
+      <title>Wikipedia는 Archive.today를 더 이상 사용하지 않고 아카이브 링크 제거를 시작합니다.</title>
+      <link>https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/</link>
+      <description>📝 또한 해당 아카이브에 대한 증거가 제시되었습니다. 지침에는 편집자가 아카이브를 제거할 수 있다고 나와 있습니다. ” Wikipedia 지침에서는 Internet Archive와 해당 웹사이트인 Archive를 지적하고 있습니다.
 
 
-🔤 Original: Keep Android Open
+🔤 Original: Wikipedia deprecates Archive.today, starts removing archive links
 
-🔗 Read more: https://f-droid.org/2026/02/20/twif.html</description>
-      <guid isPermaLink="true">https://f-droid.org/2026/02/20/twif.html</guid>
-      <pubDate>Fri, 20 Feb 2026 17:58:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091419</comments>
+🔗 Read more: https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/</description>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/</guid>
+      <pubDate>Fri, 20 Feb 2026 18:42:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47092006</comments>
     </item>
     <item>
-      <title>릴 펀 랭스</title>
-      <link>https://taylor.town/scrapscript-000</link>
-      <description>📝 주목할만한 예로는 Haskell, Elm, F#, Scala 및 OCaml이 있습니다. 대부분의 구현은 대수 데이터 유형, 패턴 일치 및 클로저를 사용하여 Hindley-Milner 유형 추론을 확장합니다. 기능 LOC 종속성 참조 정수 산술 ~50 Parser, codegen MinCaml 부동 소수점 ~100 Parser, codegen(SSE/NEON) MinCaml Boolean + if/then/else ~50 Parser, codegen Everything Let 바인딩 ~30 Parser, 정규화 Everything First-class 함수 (클로저) ~200 클로저 변환, 런타임 MinCaml 재귀 함수 (let Rec) ~50 유형 추론(발생 확인), codegen MinCaml Tuples ~100 파서, 유형 추론, codegen MinCaml 배열 ~100 파서, 런타임(경계 검사) MinCaml 단일형 유형 추론 ~100 통합 MinCaml 다형성 유형 추론(HM) ~300 일반화, 인스턴스화 알고리즘 W, PLZoo 대수 데이터 유형 ~200–400 파서, 유형 검사기, 런타임(태깅) HaMLet, Tao 패턴 일치(기본) ~200 완전성 검사, 케이스 트리 Tao, Ante 패턴 일치(최적화) ~400–600 Marranget 알고리즘 OCaml, Rust 유형 클래스 ~500–2000 사전 전달, 인스턴스 해결 MicroHs, Ben Lynn 모듈(기본) ~500–1000 네임스페이스 관리 HaMLet 모듈(펑터/서명) ~2000–5000 유형 수준 계산 HaMLet, 1ML 행 다형성 ~300–800 확장 통합 EYG, 유형 시스템 대수 효과 ~500–1500 효과 유형 지정, 런타임 지원 Eff, Frank, Ante 대수 하위 유형 지정 ~500 극 유형, 이중 통합 단순 하위 선형 유형 ~600 선형성 검사기 Austral 게으른 평가 ~300–500 썽크, 메모 런타임 MicroHs, Ben Lynn 가비지 수집(Cheney) ~200 런타임 시스템 Most Tail 호출 최적화 ~50–100 Codegen(호출 대신 점프) MinCaml 인라인 확장 ~100 정규화 통과 MinCaml 데드 코드 제거 ~50 자유 변수 분석 MinCaml 전체성 검사 ~300–500 커버리지 분석, 종료 checker Tao, Dhall 추가 자료: Haskell 작성(및 속편): Haskell 하위 집합을 점진적으로 구축합니다: 람다 미적분학 → STLC → HM 추론 → ADT → 패턴 일치 → 유형 클래스 → STG → LLVM. 구현에는 OMicroB(10KB 미만 RAM을 갖춘 PIC18 마이크로컨트롤러에서 OCaml 바이트코드 실행) 및 HardCaml-Zinc(하드웨어 구현)가 포함됩니다.
+      <title>취약점을 발견했습니다. 그들은 변호사를 찾았습니다</title>
+      <link>https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer</link>
+      <description>📝 계정 생성 시 모든 계정이 공유하는 동일한 기본 비밀번호를 입력하세요. get(LOGIN_URL) 드라이버. get(LOGOUT_URL) 드라이버.
 
 
-🔤 Original: Lil' Fun Langs
+🔤 Original: I found a Vulnerability. They found a Lawyer
 
-🔗 Read more: https://taylor.town/scrapscript-000</description>
-      <guid isPermaLink="true">https://taylor.town/scrapscript-000</guid>
-      <pubDate>Fri, 20 Feb 2026 17:34:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091071</comments>
+🔗 Read more: https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer</description>
+      <guid isPermaLink="true">https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer</guid>
+      <pubDate>Fri, 20 Feb 2026 19:19:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47092578</comments>
     </item>
     <item>
-      <title>방어자에게 최첨단 사이버 보안 기능 제공</title>
-      <link>https://www.anthropic.com/news/claude-code-security</link>
-      <description>📝 Claude Code Security의 작동 방식 자동화된 보안 테스트의 널리 배포된 형태인 정적 분석은 일반적으로 규칙 기반입니다. 즉, 코드를 알려진 취약성 패턴과 일치시킵니다. 사이버 보안을 위해 Claude 사용Claude Code Security는 Claude의 사이버 보안 기능에 대한 1년 이상의 연구를 기반으로 구축되었습니다. 우리는 동일한 방어 기능을 보다 광범위하게 사용할 수 있도록 Claude Code Security를 ​​구축했습니다.
+      <title>오픈스캔</title>
+      <link>https://openscan.eu/pages/scan-gallery</link>
+      <description>📝 스캔 갤러리 Giant SwallowtailOpenScan Classic + DSLR + 포커스 스태킹 + OpenScanCloud 원본 모델: FrankMcMains 제작: Sketchfab 텍스처 메시에서 사용 가능 Drag Marigolds flowerOpenScan Classic + Canon EOS M6 + OpenScanCloud 원본 모델: Musée national d'histoire naturelle Luxembourg: Sketchfab 텍스처 메시에서 사용 가능 Drag American Soldier 1/35 Figurine: Christian 'Tissi' Le NagardOpenScan Mini 제작: Sketchfab 질감 메쉬에서 사용 가능한 AMAC35 Drag AmmoniteOpenScan Mini + Focus Stacking + 3DF Zephyroriginal 모델 Musée national d'hirstoire naturelle Luxembourg Sketchfab 질감 메쉬에서 사용 가능 Drag Parasaurolophus독일 Saurierpark Kleinwelka에 위치Iphone 6S + OpenScanCloud Sketchfab에서 사용 가능 질감 메쉬 드래그 보안 키OpenScan Mini + OpenScanCloud 원본 메쉬 드래그 더 많은 3D 찾기 스캔: 이전 다음.
 
 
-🔤 Original: Making frontier cybersecurity capabilities available to defenders
+🔤 Original: OpenScan
 
-🔗 Read more: https://www.anthropic.com/news/claude-code-security</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-security</guid>
-      <pubDate>Fri, 20 Feb 2026 18:03:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091469</comments>
+🔗 Read more: https://openscan.eu/pages/scan-gallery</description>
+      <guid isPermaLink="true">https://openscan.eu/pages/scan-gallery</guid>
+      <pubDate>Fri, 20 Feb 2026 20:47:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47093724</comments>
     </item>
     <item>
-      <title>블루라이트 필터가 작동하지 않습니다</title>
-      <link>https://www.neuroai.science/p/blue-light-filters-dont-work</link>
-      <description>📝 궁극적으로 시계를 재설정하는 한 가지 요인은 이 핵에 투사되는 망막 내부의 일련의 뉴런으로부터 입력됩니다. 결함이 있는 전제그 전제가 맞나요? 야간 근무가 하는 일 f.와 같은 블루라이트 차단 소프트웨어는 어떤 일을 하나요?
+      <title>AI를 통해 Polymarket의 내부자와 알파를 발굴합니다.</title>
+      <link>https://twitter.com/peterjliu/status/2024901585806225723</link>
+      <description>📝 이 브라우저에서는 JavaScript가 비활성화되어 있는 것으로 감지되었습니다. x를 계속 사용하려면 JavaScript를 활성화하거나 지원되는 브라우저로 전환하세요. 서비스 약관 개인 ​​정보 보호 정책 쿠키 정책 간기 광고 정보 © 2026 X Corp.
 
 
-🔤 Original: Blue light filters don't work
+🔤 Original: Uncovering insiders and alpha on Polymarket with AI
 
-🔗 Read more: https://www.neuroai.science/p/blue-light-filters-dont-work</description>
-      <guid isPermaLink="true">https://www.neuroai.science/p/blue-light-filters-dont-work</guid>
-      <pubDate>Fri, 20 Feb 2026 18:14:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091606</comments>
+🔗 Read more: https://twitter.com/peterjliu/status/2024901585806225723</description>
+      <guid isPermaLink="true">https://twitter.com/peterjliu/status/2024901585806225723</guid>
+      <pubDate>Fri, 20 Feb 2026 18:11:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091557</comments>
     </item>
     <item>
-      <title>페이스북은 완전 익었어</title>
-      <link>https://pilk.website/3/facebook-is-absolutely-cooked</link>
-      <description>📝 예를 들면 다음과 같습니다. 그녀는 왜 핑크색 힐을 신나요? 나만 빼고 다 이런 줄 알았나? 나는 이런 것에 대해 들어 본 적이 없습니다.
+      <title>잘못 구성된 VSCode 확장 이스케이프(2023)</title>
+      <link>https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/</link>
+      <description>📝 VSCode 확장의 보안에 관심을 기울여야 하는 이유는 무엇입니까? 이 게시물에서는 VSCode Webview가 무엇인지 자세히 알아보고 VSCode 확장의 세 가지 취약점을 분석합니다. 그 중 두 가지는 임의 로컬 파일 유출로 이어졌습니다. VSCode Webviews버그를 살펴보기 전에 VSCode 확장이 어떻게 구성되어 있는지 이해하는 것이 중요합니다.
 
 
-🔤 Original: Facebook is absolutely cooked
+🔤 Original: Escaping Misconfigured VSCode Extensions (2023)
 
-🔗 Read more: https://pilk.website/3/facebook-is-absolutely-cooked</description>
-      <guid isPermaLink="true">https://pilk.website/3/facebook-is-absolutely-cooked</guid>
-      <pubDate>Fri, 20 Feb 2026 18:25:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091748</comments>
+🔗 Read more: https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/</description>
+      <guid isPermaLink="true">https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/</guid>
+      <pubDate>Fri, 20 Feb 2026 20:39:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47093604</comments>
     </item>
     <item>
-      <title>Legion Health(YC)는 자율적인 정신 건강을 위해 균열된 SWE를 고용하고 있습니다.</title>
-      <link>https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</link>
-      <guid isPermaLink="true">https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</guid>
-      <pubDate>Fri, 20 Feb 2026 17:02:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47090610</comments>
-    </item>
-    <item>
-      <title>Tesla는 Autopilot 충돌에 대한 역사적인 2억 4300만 달러의 판결을 지불해야 한다고 판사가 밝혔습니다.</title>
-      <link>https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</link>
-      <description>📝 그 결정으로 인해 회사는 큰 손실을 입었습니다. Tesla는 또한 재판 중 Autopilot에 대한 CEO Elon Musk의 언급이 배심원을 호도했다고 주장했습니다. Bloom 판사는 이러한 주장을 거부한 것이 옳았습니다.
+      <title>자율적으로 행동 모델을 사용하여 Super Mario 테스트</title>
+      <link>https://testflows.com/blog/testing-super-mario-using-a-behavior-model-autonomously-part1/</link>
+      <description>📝 우리가 목표로 하는 것은 Mario가 Super Mario Bros의 레벨을 완료할 수 있도록 자체적인 자율 상태 공간 탐색을 구현하는 것입니다. 코드를 복제하고 자율 상태 공간 탐색이 어떻게 작동하는지 살펴보겠습니다. 그러나 무작위 입력 생성만으로는 충분하지 않습니다.
 
 
-🔤 Original: Tesla has to pay historic $243M judgement over Autopilot crash, judge says
+🔤 Original: Testing Super Mario Using a Behavior Model Autonomously
 
-🔗 Read more: https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</description>
-      <guid isPermaLink="true">https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</guid>
-      <pubDate>Fri, 20 Feb 2026 17:00:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47090584</comments>
-    </item>
-    <item>
-      <title>스킬이 없습니다. 맛 없음</title>
-      <link>https://blog.kinglycrow.com/no-skill-no-taste/</link>
-      <description>📝 기술도 없고 맛도 없습니다. 유일한 문제는 기술이 있을 수 있지만 취향이 있다는 것입니다. 이 문제 자체는 새로운 것이 아닙니다.
-
-
-🔤 Original: No Skill. No Taste
-
-🔗 Read more: https://blog.kinglycrow.com/no-skill-no-taste/</description>
-      <guid isPermaLink="true">https://blog.kinglycrow.com/no-skill-no-taste/</guid>
-      <pubDate>Fri, 20 Feb 2026 16:13:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47089907</comments>
-    </item>
-    <item>
-      <title>KFC·난도스 등 치킨 복지 공약 포기</title>
-      <link>https://www.bbc.co.uk/news/articles/cm2r6jqm042o</link>
-      <description>📝 UKHospitality는 SCF가 양계업이 환경에 미치는 영향을 제한하고 수요를 충족시키면서 복지를 높이는 데 중점을 둘 것이라고 말했습니다. 잭슨은 “프랑켄닭은 영국에서 가장 심각한 동물 복지 문제를 제기하고 있다”고 말했다. 그는 양계 농가와 가금류 회사가 주문에 따라 더 느리게 성장하고 복지가 좋은 닭을 생산할 것이라고 말했습니다.
-
-
-🔤 Original: KFC, Nando's, and others ditch chicken welfare pledge
-
-🔗 Read more: https://www.bbc.co.uk/news/articles/cm2r6jqm042o</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cm2r6jqm042o</guid>
-      <pubDate>Fri, 20 Feb 2026 18:26:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091763</comments>
+🔗 Read more: https://testflows.com/blog/testing-super-mario-using-a-behavior-model-autonomously-part1/</description>
+      <guid isPermaLink="true">https://testflows.com/blog/testing-super-mario-using-a-behavior-model-autonomously-part1/</guid>
+      <pubDate>Fri, 20 Feb 2026 19:04:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47092348</comments>
     </item>
   </channel>
 </rss>

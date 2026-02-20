@@ -6,119 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Feb 2026 18:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 21:26:55 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>保持 Android 开放</title>
-      <link>https://f-droid.org/2026/02/20/twif.html</link>
-      <description>📝 本周 F-Droid TWIF 于 2026 年 2 月 20 日星期五策划，第 8 周 F-Droid 核心 在 FOSDEM26 上与 F-Droid 用户进行会谈时，我们困惑地获悉，大多数人都松了一口气，因为 Google 取消了锁定 Android 的计划。关于 F-Droid Basic 重写，新版本 2 的开发仍在继续。Nextcloud 应用程序几乎每周都会更新，例如 Nextcloud 已更新到 33。
+      <title>维基百科弃用 Archive.today，开始删除存档链接</title>
+      <link>https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/</link>
+      <description>📝 此外，该档案已提供证据。该指南称编辑者可以删除存档。维基百科指南指出，互联网档案馆及其网站 Archive.
 
 
-🔤 Original: Keep Android Open
+🔤 Original: Wikipedia deprecates Archive.today, starts removing archive links
 
-🔗 Read more: https://f-droid.org/2026/02/20/twif.html</description>
-      <guid isPermaLink="true">https://f-droid.org/2026/02/20/twif.html</guid>
-      <pubDate>Fri, 20 Feb 2026 17:58:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091419</comments>
+🔗 Read more: https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/</description>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/</guid>
+      <pubDate>Fri, 20 Feb 2026 18:42:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47092006</comments>
     </item>
     <item>
-      <title>小有趣的朗斯</title>
-      <link>https://taylor.town/scrapscript-000</link>
-      <description>📝 著名的例子包括 Haskell、Elm、F#、Scala 和 OCaml。大多数实现使用代数数据类型、模式匹配和闭包扩展 Hindley-Milner 类型推断： 功能 LOC 依赖项 引用 整数算术 ~50 解析器、codegen MinCaml 浮点 ~100 解析器、codegen (SSE/NEON) MinCaml 布尔 + if/then/else ~50 解析器、codegen Everything Let 绑定 ~30 解析器、标准化 Everything 一流函数（闭包） ~200 闭包转换，运行时 MinCaml 递归函数 (let rec) ~50 类型推断（发生检查），代码生成 MinCaml Tuples ~100 解析器，类型推断，代码生成 MinCaml 数组 ~100 解析器，运行时（边界检查） MinCaml 单态类型推断 ~100 统一 MinCaml 多态类型推断 (HM) ~300 泛化，实例化 算法 W、PLZoo 代数数据类型 ~200–400 解析器、类型检查器、运行时（标记） HaMLet、Tao 模式匹配（基本） ~200 穷举性检查、案例树 Tai、Ante 模式匹配（优化） ~400–600 Marranget 算法 OCaml、Rust 类型类 ~500–2000 字典传递、实例解析 MicroHs、Ben Lynn 模块（基本） ~500–1000 命名空间管理 HaMLet 模块（函子/签名） ~2000–5000 类型级计算 HaMLet，1ML 行多态性 ~300–800 扩展统一 EYG，类型系统 代数效应 ~500–1500 效果类型化，运行时支持 Eff、Frank、Ante 代数子类型化 ~500 极性类型， biunification Simple-sub 线性类型 ~600 线性检查器 Austral Lazy 评估 ~300–500 Thunks、记忆化运行时 MicroHs、Ben Lynn 垃圾收集 (Cheney) ~200 运行时系统 大多数 尾部调用优化 ~50–100 Codegen（跳转而不是调用） MinCaml 内联扩展 ~100 规范化传递 MinCaml 死代码消除 ~50 自由变量分析 MinCaml 完整性检查~300–500 覆盖率分析，终止检查器 Tai，Dhall 进一步阅读：为你写一个 Haskell（及续集）：增量构建 Haskell 子集：lambda 演算 → STLC → HM 推理 → ADTs → 模式匹配 → 类型类 → STG → LLVM。实现包括 OMicroB（在 RAM &lt;10KB RAM 的 PIC18 微控制器上运行 OCaml 字节码）和 HardCaml-Zinc（硬件实现）。
+      <title>我发现了一个漏洞。他们找到了一位律师</title>
+      <link>https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer</link>
+      <description>📝 键入每个帐户在创建帐户时共享的相同默认密码。获取（LOGIN_URL）驱动程序。获取（LOGOUT_URL）驱动程序。
 
 
-🔤 Original: Lil' Fun Langs
+🔤 Original: I found a Vulnerability. They found a Lawyer
 
-🔗 Read more: https://taylor.town/scrapscript-000</description>
-      <guid isPermaLink="true">https://taylor.town/scrapscript-000</guid>
-      <pubDate>Fri, 20 Feb 2026 17:34:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091071</comments>
+🔗 Read more: https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer</description>
+      <guid isPermaLink="true">https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer</guid>
+      <pubDate>Fri, 20 Feb 2026 19:19:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47092578</comments>
     </item>
     <item>
-      <title>为防御者提供前沿网络安全能力</title>
-      <link>https://www.anthropic.com/news/claude-code-security</link>
-      <description>📝 Claude Code Security 的工作原理静态分析（一种广泛部署的自动化安全测试形式）通常是基于规则的，这意味着它将代码与已知的漏洞模式进行匹配。使用 Claude 实现网络安全 Claude 代码安全建立在对 Claude 网络安全能力一年多的研究之上。我们构建了 Claude Code Security，以使这些相同的防御功能更广泛地可用。
+      <title>开放扫描</title>
+      <link>https://openscan.eu/pages/scan-gallery</link>
+      <description>📝 Scan Gallery Giant SwallowtailOpenScan Classic + DSLR + 焦点堆叠 + OpenScanCloud FrankMcMains 的原始模型可在 Sketchfab 纹理网格上使用 Drag Marigolds 花OpenScan Classic + Canon EOS M6 + OpenScanCloud 卢森堡国家自然历史博物馆的原始模型可在 Sketchfab 纹理网格上使用 Drag American Soldier 1/35 Figurine by Christian 'Tissi' Le NagardOpenScan AMAC35 的迷你原始模型可在 Sketchfab 纹理网格上使用 拖动 AmmoniteOpenScan Mini + Focus Stacking + 3DF Zephyro 卢森堡国家自然博物馆的原始模型可在 Sketchfab 纹理网格上使用 拖动副栉龙位于德国 Saurierpark Kleinwelka iPhone 6S + OpenScanCloud 在 Sketchfab 纹理网格上可用 拖动安全密钥OpenScan Mini + OpenScanCloud 原始模型网格拖动 查找更多 3D 扫描：上一页 下一页。
 
 
-🔤 Original: Making frontier cybersecurity capabilities available to defenders
+🔤 Original: OpenScan
 
-🔗 Read more: https://www.anthropic.com/news/claude-code-security</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-security</guid>
-      <pubDate>Fri, 20 Feb 2026 18:03:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091469</comments>
+🔗 Read more: https://openscan.eu/pages/scan-gallery</description>
+      <guid isPermaLink="true">https://openscan.eu/pages/scan-gallery</guid>
+      <pubDate>Fri, 20 Feb 2026 20:47:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47093724</comments>
     </item>
     <item>
-      <title>蓝光滤镜不起作用</title>
-      <link>https://www.neuroai.science/p/blue-light-filters-dont-work</link>
-      <description>📝 最终重置时钟的一个因素是来自视网膜内投射到该细胞核的一组神经元的输入。有缺陷的前提 这个前提正确吗？夜班有什么作用 f. 蓝光阻挡软件有哪些？
+      <title>利用 AI 发现 Polymarket 的内部人士和阿尔法</title>
+      <link>https://twitter.com/peterjliu/status/2024901585806225723</link>
+      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
 
 
-🔤 Original: Blue light filters don't work
+🔤 Original: Uncovering insiders and alpha on Polymarket with AI
 
-🔗 Read more: https://www.neuroai.science/p/blue-light-filters-dont-work</description>
-      <guid isPermaLink="true">https://www.neuroai.science/p/blue-light-filters-dont-work</guid>
-      <pubDate>Fri, 20 Feb 2026 18:14:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091606</comments>
+🔗 Read more: https://twitter.com/peterjliu/status/2024901585806225723</description>
+      <guid isPermaLink="true">https://twitter.com/peterjliu/status/2024901585806225723</guid>
+      <pubDate>Fri, 20 Feb 2026 18:11:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091557</comments>
     </item>
     <item>
-      <title>Facebook绝对是熟了</title>
-      <link>https://pilk.website/3/facebook-is-absolutely-cooked</link>
-      <description>📝 就像这篇文章一样，例如：为什么她穿着粉红色的高跟鞋。除了我之外，所有人都知道是这样的吗？我没有听说过这样的事情。
+      <title>转义配置错误的 VSCode 扩展 (2023)</title>
+      <link>https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/</link>
+      <description>📝 为什么要关心 VSCode 扩展的安全性。在这篇文章中，我们将深入了解 VSCode Webview 是什么，并分析 VSCode 扩展中的三个漏洞，其中两个漏洞导致任意本地文件泄露。 VSCode Webviews在深入研究错误之前，了解 VSCode 扩展的结构非常重要。
 
 
-🔤 Original: Facebook is absolutely cooked
+🔤 Original: Escaping Misconfigured VSCode Extensions (2023)
 
-🔗 Read more: https://pilk.website/3/facebook-is-absolutely-cooked</description>
-      <guid isPermaLink="true">https://pilk.website/3/facebook-is-absolutely-cooked</guid>
-      <pubDate>Fri, 20 Feb 2026 18:25:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091748</comments>
+🔗 Read more: https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/</description>
+      <guid isPermaLink="true">https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/</guid>
+      <pubDate>Fri, 20 Feb 2026 20:39:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47093604</comments>
     </item>
     <item>
-      <title>Legion Health (YC) 正在聘请优秀的 SWE 来进行自主心理健康</title>
-      <link>https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</link>
-      <guid isPermaLink="true">https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</guid>
-      <pubDate>Fri, 20 Feb 2026 17:02:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47090610</comments>
-    </item>
-    <item>
-      <title>法官称特斯拉必须就 Autopilot 事故支付历史性的 2.43 亿美元判决</title>
-      <link>https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</link>
-      <description>📝 这个决定让公司付出了沉重的代价。特斯拉还声称，在审判期间提及首席执行官埃隆·马斯克关于自动驾驶仪的声明误导了陪审团。布卢姆法官驳回这一论点是正确的。
+      <title>使用行为模型自主测试超级马里奥</title>
+      <link>https://testflows.com/blog/testing-super-mario-using-a-behavior-model-autonomously-part1/</link>
+      <description>📝 这就是我们的目标——实现我们自己的自主状态空间探索，这将使马里奥能够完成《超级马里奥兄弟》的关卡。克隆代码，让我们深入了解自主状态空间探索的工作原理。然而，随机输入生成还不够。
 
 
-🔤 Original: Tesla has to pay historic $243M judgement over Autopilot crash, judge says
+🔤 Original: Testing Super Mario Using a Behavior Model Autonomously
 
-🔗 Read more: https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</description>
-      <guid isPermaLink="true">https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</guid>
-      <pubDate>Fri, 20 Feb 2026 17:00:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47090584</comments>
-    </item>
-    <item>
-      <title>没有技能。没有味道</title>
-      <link>https://blog.kinglycrow.com/no-skill-no-taste/</link>
-      <description>📝 没有技巧，也没有品味。唯一的问题是你可能有技能，但你有品味吗？这个问题本身并不新鲜。
-
-
-🔤 Original: No Skill. No Taste
-
-🔗 Read more: https://blog.kinglycrow.com/no-skill-no-taste/</description>
-      <guid isPermaLink="true">https://blog.kinglycrow.com/no-skill-no-taste/</guid>
-      <pubDate>Fri, 20 Feb 2026 16:13:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47089907</comments>
-    </item>
-    <item>
-      <title>肯德基、Nando's 等公司放弃鸡肉福利承诺</title>
-      <link>https://www.bbc.co.uk/news/articles/cm2r6jqm042o</link>
-      <description>📝 UKHospitality 表示，SCF 将专注于增加福利，同时限制养鸡业对环境的影响并满足需求。 “弗兰肯鸡构成了英国最严重的动物福利问题，”杰克逊说。他表示，养鸡户和家禽企业将根据订单生产更多生长速度较慢、福利较高的鸡。
-
-
-🔤 Original: KFC, Nando's, and others ditch chicken welfare pledge
-
-🔗 Read more: https://www.bbc.co.uk/news/articles/cm2r6jqm042o</description>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cm2r6jqm042o</guid>
-      <pubDate>Fri, 20 Feb 2026 18:26:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47091763</comments>
+🔗 Read more: https://testflows.com/blog/testing-super-mario-using-a-behavior-model-autonomously-part1/</description>
+      <guid isPermaLink="true">https://testflows.com/blog/testing-super-mario-using-a-behavior-model-autonomously-part1/</guid>
+      <pubDate>Fri, 20 Feb 2026 19:04:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47092348</comments>
     </item>
   </channel>
 </rss>
