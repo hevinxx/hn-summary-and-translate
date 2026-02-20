@@ -6,125 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Feb 2026 13:00:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 15:39:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>유비쿼터스 AI로 가는 길(초당 17,000개 토큰)</title>
-      <link>https://taalas.com/the-path-to-ubiquitous-ai/</link>
-      <description>📝 Taalas는 이러한 경계를 제거합니다. 그림 1: Llama 3과 유선으로 연결된 Taalas HC1. Llama 3의 성능 데이터.
+      <title>Ggml.ai, Hugging Face에 합류하여 로컬 AI의 장기적인 발전 보장</title>
+      <link>https://github.com/ggml-org/llama.cpp/discussions/19759</link>
+      <description>📝 이 페이지를 새로고침하세요. 이 페이지를 새로고침하세요. ggml/llama의 변경 사항은 무엇입니까?
 
 
-🔤 Original: The path to ubiquitous AI (17k tokens/sec)
+🔤 Original: Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI
 
-🔗 Read more: https://taalas.com/the-path-to-ubiquitous-ai/</description>
-      <guid isPermaLink="true">https://taalas.com/the-path-to-ubiquitous-ai/</guid>
-      <pubDate>Fri, 20 Feb 2026 10:32:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086181</comments>
+🔗 Read more: https://github.com/ggml-org/llama.cpp/discussions/19759</description>
+      <guid isPermaLink="true">https://github.com/ggml-org/llama.cpp/discussions/19759</guid>
+      <pubDate>Fri, 20 Feb 2026 13:51:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47088037</comments>
     </item>
     <item>
-      <title>코드베이스를 배우는 새로운 방법: 시각화 도구 구축</title>
-      <link>https://jimmyhmiller.com/learn-codebase-visualizer</link>
-      <description>📝 나는 이것을 다룬 적이 없습니다. 다른 사람들에게는 번역되지 않는 경험과 함께 제공되는 것. 나는 이것을 미리 준비하지 않았습니다.
+      <title>유출된 CIA 개발자 문서에 숨겨진 유용한 Git 한 줄을 찾았습니다.</title>
+      <link>https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</link>
+      <description>📝 git 브랜치가 묘지처럼 보이기 시작합니다. 다음을 사용하여 병합된 브랜치를 나열할 수 있습니다: git Branch --merged 그러나 하나씩 삭제하는 것은 지루한 작업입니다. CIA 개발팀은 더 깔끔한 솔루션을 제공합니다. 원래 명령 git Branch --merged | grep -v "\*\|마스터" | xargs -n 1 git Branch -d 작동 방식: git Branch --merged — 현재 브랜치에 이미 병합된 모든 로컬 브랜치를 나열합니다. grep -v "\*\|master" — 삭제하지 않도록 현재 브랜치(*)와 마스터를 필터링합니다. xargs -n 1 git Branch -d — 나머지 브랜치를 한 번에 하나씩 안전하게 삭제합니다(소문자 -d는 병합되지 않은 브랜치를 건드리지 않습니다). 업데이트된 명령은 이제 대부분의 프로젝트에서 master를 사용하는 경우 명령을 업데이트하고 자주 사용하는 다른 분기를 제외할 수 있습니다. git Branch --merged Origin/main | grep -vE "^\s*(\*|main|개발)" | xargs -n 1 git Branch -d 배포 후 메인에서 이것을 실행하면 브랜치 목록이 40개 항목에서 소수로 줄어듭니다.
 
 
-🔤 Original: Untapped Way to Learn a Codebase: Build a Visualizer
+🔤 Original: I found a useful Git one liner buried in leaked CIA developer docs
 
-🔗 Read more: https://jimmyhmiller.com/learn-codebase-visualizer</description>
-      <guid isPermaLink="true">https://jimmyhmiller.com/learn-codebase-visualizer</guid>
-      <pubDate>Fri, 20 Feb 2026 08:52:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47085425</comments>
+🔗 Read more: https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</description>
+      <guid isPermaLink="true">https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</guid>
+      <pubDate>Fri, 20 Feb 2026 14:03:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47088181</comments>
     </item>
     <item>
-      <title>저는 Claude Code와 GSD를 사용하여 제가 항상 원했던 접근성 도구를 만들었습니다.</title>
-      <link>https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/</link>
-      <description>📝 즉, 작동하지 않는 곳이 많습니다. 오류 메시지가 나타나면 주석 없이 복사하여 붙여넣으면 대개 문제가 해결됩니다. 거기에는 몇 가지 이유가 있습니다.
+      <title>Show HN: SwiftUI로 구축된 Hacker News용 기본 macOS 클라이언트</title>
+      <link>https://github.com/IronsideXXVI/Hacker-News</link>
+      <description>📝 Hacker News SwiftUI로 구축된 Hacker News용 기본 macOS 클라이언트입니다. 스크린샷 기능 인기, 신규, 최고, 질문, 쇼 및 채용 정보 탐색 내장된 웹 보기로 기사 읽기 광고 차단 및 팝업 차단 접을 수 있는 답변이 포함된 댓글 스레드 HN 계정 로그인 및 세션 관리 Sparkle 기본 macOS 룩앤필을 통한 자동 업데이트 설치 릴리스 페이지에서 최신 DMG를 다운로드하고 열고 앱을 애플리케이션으로 드래그합니다. com/IronsideXXVI/Hacker-News.
 
 
-🔤 Original: I used Claude Code and GSD to build the accessibility tool I've always wanted
+🔤 Original: Show HN: A native macOS client for Hacker News, built with SwiftUI
 
-🔗 Read more: https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/</description>
-      <guid isPermaLink="true">https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/</guid>
-      <pubDate>Fri, 20 Feb 2026 11:50:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086847</comments>
+🔗 Read more: https://github.com/IronsideXXVI/Hacker-News</description>
+      <guid isPermaLink="true">https://github.com/IronsideXXVI/Hacker-News</guid>
+      <pubDate>Fri, 20 Feb 2026 14:02:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47088166</comments>
     </item>
     <item>
-      <title>Nvidia와 OpenAI, 300억 달러 투자를 위해 미완성된 1000억 달러 거래 포기</title>
-      <link>https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323</link>
-      <description>📝 모든 기기에서 고품질 FT 저널리즘에 대한 완전한 디지털 액세스를 제공합니다. 선택포함 내용글로벌 뉴스 및 분석전문가 의견Android 및 iOS의 FT 앱FT 편집: iOS 및 웹에서 액세스FirstFT: 오늘의 가장 큰 이야기20개 이상의 엄선된 뉴스레터myFTFT 비디오 및 팟캐스트로 주제 팔로우 및 알림 설정공유할 월간 선물 기사 20개Lex: FT의 주요 투자 칼럼15개 이상의 프리미엄 뉴스레터FT 디지털 에디션: 디지털화된 인쇄판프리미엄 디지털전체 보도 월 $75완전한 디지털 액세스 모든 기기에서 독점적인 통찰력과 업계 심층 분석을 얻을 수 있습니다. 선택포함 내용 Weekday Print EditionFT WeekendFT Digital Edition: 디지털화된 인쇄판글로벌 뉴스 및 분석전문가 의견특별 기능독점적인 FT 분석대학이나 조직을 통해 이미 액세스 권한이 있는지 확인하세요.
+      <title>트럼프의 글로벌 관세, 미국 대법원이 기각</title>
+      <link>https://www.bbc.com/news/live/c0l9r67drg7t</link>
+      <description>📝 오늘, 트럼프 대통령이 상호 관세 및 국가별 관세를 발동하기 위해 비상 권한을 합법적으로 사용할 수 없다는 대법원의 판결은 트럼프 대통령의 기존 무역 전략을 무너뜨립니다. 첫째, 이는 트럼프 대통령이 지난해 취임 이후 지시한 추가 관세 중 일부만 무효화한다는 점이다. 대통령은 사전 판단에서 "우리는 뭔가를 알아낼 것"이라고 말했다.
 
 
-🔤 Original: Nvidia and OpenAI abandon unfinished $100B deal in favour of $30B investment
+🔤 Original: Trump's global tariffs struck down by US Supreme Court
 
-🔗 Read more: https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323</description>
-      <guid isPermaLink="true">https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323</guid>
-      <pubDate>Fri, 20 Feb 2026 12:04:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086980</comments>
+🔗 Read more: https://www.bbc.com/news/live/c0l9r67drg7t</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/live/c0l9r67drg7t</guid>
+      <pubDate>Fri, 20 Feb 2026 15:27:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47089213</comments>
     </item>
     <item>
-      <title>웹 구성 요소: 프레임워크 없는 르네상스</title>
-      <link>https://www.caimito.net/en/blog/2026/02/17/web-components-the-framework-free-renaissance.html</link>
-      <description>📝 2026, 작성자: Stephan Schwab 이제 최신 브라우저는 React, Vue 또는 Angular 없이 정교한 반응형 웹 인터페이스를 구축하는 데 필요한 모든 것을 지원합니다. 웹 구성 요소, 사용자 정의 요소, Shadow DOM 및 기본 이벤트 시스템을 통해 개발자는 우아하게 통신하는 재사용 가능한 모듈식 UI 조각을 만들 수 있으며, AI 도우미는 이러한 패턴을 이전보다 빠르게 마스터하는 데 도움을 줄 수 있습니다.
+      <title>어린이 놀이: 기술의 새로운 세대와 사고의 종말</title>
+      <link>https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</link>
+      <description>📝 몇 블록 떨어진 곳에서 다음과 같은 광고판을 보았습니다. 아무도 귀하의 제품에 관심을 두지 않습니다. 어떻게 든 사람들은 여기서 살 수 있습니다. 로이리는 다른 사람들과 다릅니다.
 
 
-🔤 Original: Web Components: The Framework-Free Renaissance
+🔤 Original: Child's Play: Tech's new generation and the end of thinking
 
-🔗 Read more: https://www.caimito.net/en/blog/2026/02/17/web-components-the-framework-free-renaissance.html</description>
-      <guid isPermaLink="true">https://www.caimito.net/en/blog/2026/02/17/web-components-the-framework-free-renaissance.html</guid>
-      <pubDate>Fri, 20 Feb 2026 08:45:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47085370</comments>
+🔗 Read more: https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</description>
+      <guid isPermaLink="true">https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</guid>
+      <pubDate>Fri, 20 Feb 2026 14:48:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47088685</comments>
     </item>
     <item>
-      <title>Hyperbound(YC S23, Series A)에는 증명할 수 있는 엔지니어가 필요합니다.</title>
-      <link>https://www.ycombinator.com/companies/hyperbound/jobs/UCvdGiu-a-full-stack-engineer-with-something-to-prove</link>
-      <description>📝 그런 일은 당신의 꿈이나 악몽처럼 들립니다. 무슨 일이 일어났는지 지켜보는 도구가 아닙니다. 자본은 그것을 반영합니다.
+      <title>PayPal은 6개월 동안 사용자 정보를 노출한 데이터 유출을 공개했습니다.</title>
+      <link>https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</link>
+      <description>📝 PayPal은 6개월 동안 사용자 정보를 노출한 데이터 침해를 공개했습니다. 작성자: Sergiu Gatlan 2026년 2월 20일 오전 08:12 0 PayPal은 대출 신청의 소프트웨어 오류로 인해 작년 거의 6개월 동안 사회보장번호를 포함한 민감한 개인 정보가 노출된 후 고객에게 데이터 침해에 대해 알립니다. 2023년 1월, PayPal은 대규모 크리덴셜 스터핑 공격으로 2022년 12월 6일부터 12월 8일까지 35,000개의 계정이 손상된 후 고객에게 또 다른 데이터 침해에 대해 알렸습니다. 가이드 보기 관련 기사: ShinyHunters, Salesforce 데이터 유출 사이트 출시 핀테크 회사의 데이터 유출 거의 100만 개의 계정에 영향을 미침 Conduent hack에 노출된 볼보 그룹 북미 고객 데이터Flickr는 사용자의 이름, 이메일뉴스레터 플랫폼 Substack은 사용자에게 데이터 침해를 알립니다.
 
 
-🔤 Original: Hyperbound (YC S23, Series A) needs a Engineer with something to prove
+🔤 Original: PayPal discloses data breach that exposed user info for 6 months
 
-🔗 Read more: https://www.ycombinator.com/companies/hyperbound/jobs/UCvdGiu-a-full-stack-engineer-with-something-to-prove</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/hyperbound/jobs/UCvdGiu-a-full-stack-engineer-with-something-to-prove</guid>
-      <pubDate>Fri, 20 Feb 2026 12:01:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086946</comments>
+🔗 Read more: https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</description>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</guid>
+      <pubDate>Fri, 20 Feb 2026 13:22:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47087719</comments>
     </item>
     <item>
-      <title>운동은 치료와 '유사한 효과'를 가지고 있으며, 우울증에 대한 연구에서 밝혀졌습니다.</title>
-      <link>https://medicalxpress.com/news/2026-01-similar-effect-therapy-depression.html</link>
-      <description>📝 이는 약 5,000명의 환자를 대상으로 한 73건의 무작위 대조 시험을 조사한 결과, 운동이 치료와 "우울증 증상에 유사한 효과"를 갖는다는 결론을 내린 영국 랭커셔 대학의 연구자에 따른 것입니다. 운동과 약물을 비교하는 임상시험은 덜 결정적이었습니다. 인용: 운동은 치료와 '유사한 효과'를 가지고 있습니다. 우울증에 대한 연구 쇼(2026년 1월 23일)는 https://medicalxpress에서 2026년 2월 20일에 검색되었습니다.
-
-
-🔤 Original: Exercise has 'similar effect' to therapy, study on depression shows
-
-🔗 Read more: https://medicalxpress.com/news/2026-01-similar-effect-therapy-depression.html</description>
-      <guid isPermaLink="true">https://medicalxpress.com/news/2026-01-similar-effect-therapy-depression.html</guid>
-      <pubDate>Fri, 20 Feb 2026 12:24:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087143</comments>
+      <title>마더스 (YC X26) 채용 중</title>
+      <link>https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</guid>
+      <pubDate>Fri, 20 Feb 2026 13:44:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47087954</comments>
     </item>
     <item>
-      <title>3.05V 코어 남용을 지원하는 873.5MHz의 Raspberry Pi Pico 2</title>
-      <link>https://learn.pimoroni.com/article/overclocking-the-pico-2</link>
-      <description>📝 RP2350 데이터시트를 처음 손에 넣었을 때 제가 빨리 알아차린 점 중 하나는 전압 조정기가 전압 제한을 비활성화할 수 있으므로 1.35V 이상의 전압은 예상한 것만큼 많지 않았으며 추가 조사에서 전압 조정기가 공급하는 전압은 실제로 약 2를 초과하지 않았다는 것입니다. 즉, 벤치 전원 공급 장치를 사용하여 Pico 2가 수용할 수 있는 만큼의 전압과 전류를 제공할 수 있다는 의미입니다.
+      <title>실리콘밸리 엔지니어, 이란에 기밀 유출 혐의로 기소</title>
+      <link>https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</link>
+      <description>📝 구글은 정기적인 모니터링을 통해 도난 혐의를 발견했으며 법 집행 기관에 경고했다고 밝혔습니다. 검찰은 코스라비가 이전에 이란군에서 복무했다고 밝혔다. Samaneh와 Soroor는 Company 3으로만 알려진 세 번째 회사에 합류하기 전에 Google에서 근무했습니다.
 
 
-🔤 Original: Raspberry Pi Pico 2 at 873.5MHz with 3.05V Core Abuse
+🔤 Original: Silicon Valley engineers were indicted for allegedly sending secrets to Iran
 
-🔗 Read more: https://learn.pimoroni.com/article/overclocking-the-pico-2</description>
-      <guid isPermaLink="true">https://learn.pimoroni.com/article/overclocking-the-pico-2</guid>
-      <pubDate>Fri, 20 Feb 2026 08:48:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47085387</comments>
+🔗 Read more: https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</guid>
+      <pubDate>Fri, 20 Feb 2026 10:50:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47086319</comments>
     </item>
     <item>
-      <title>미니언 – Stripe의 코딩 에이전트 2부</title>
-      <link>https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2</link>
-      <description>📝 Minions: Stripe의 일회성 엔드투엔드 코딩 에이전트 - 2부/MetadataDate:2026. Leverage 팀은 Stripes가 생산성을 극대화하기 위해 활용할 수 있는 놀랍도록 즐거운 내부 제품을 구축합니다. Minions: Stripe의 일회성 엔드투엔드 코딩 에이전트/DocsStripe 통합을 위한 가이드와 예제를 살펴보세요.
+      <title>지루함을 멈추는 방법</title>
+      <link>https://www.joanwestenberg.com/how-to-stop-being-boring/</link>
+      <description>📝 너무 오랫동안 자신을 편집해 원본 초안이 어떻게 생겼는지 잊어버린 경우. 부정적으로 반응하는 사람들은 어쨌든 당신의 사람들이 아닙니다. 어떤 사람들은 그들을 사랑합니다. 어떤 사람들은 그들을 참을 수 없다고 생각합니다.
 
 
-🔤 Original: Minions – Stripe's Coding Agents Part 2
+🔤 Original: How to Stop Being Boring
 
-🔗 Read more: https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2</description>
-      <guid isPermaLink="true">https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2</guid>
-      <pubDate>Fri, 20 Feb 2026 11:20:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086557</comments>
+🔗 Read more: https://www.joanwestenberg.com/how-to-stop-being-boring/</description>
+      <guid isPermaLink="true">https://www.joanwestenberg.com/how-to-stop-being-boring/</guid>
+      <pubDate>Fri, 20 Feb 2026 13:19:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47087687</comments>
     </item>
   </channel>
 </rss>
