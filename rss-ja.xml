@@ -6,119 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Feb 2026 15:39:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 18:49:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Ggml.ai が Hugging Face に参加し、ローカル AI の長期的な進歩を確実にします</title>
-      <link>https://github.com/ggml-org/llama.cpp/discussions/19759</link>
-      <description>📝 このページをリロードしてください。このページをリロードしてください。 ggml/llama では何が変わりますか。
+      <title>Android をオープンな状態に保つ</title>
+      <link>https://f-droid.org/2026/02/20/twif.html</link>
+      <description>📝 今週の F-Droid TWIF は 2026 年 2 月 20 日金曜日にキュレーションされ、第 8 週 F-Droid コア FOSDEM26 で F-Droid ユーザーとの会談中に、ほとんどの人が Google が Android をロックダウンする計画を中止したことに安堵していることを知り当惑しました。 F-Droid Basic の書き換えに関しては、新しいリリース 2 で開発が継続されています。Nextcloud が 33 に更新されたように、Nextcloud アプリはほぼ毎週更新されています。
 
 
-🔤 Original: Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI
+🔤 Original: Keep Android Open
 
-🔗 Read more: https://github.com/ggml-org/llama.cpp/discussions/19759</description>
-      <guid isPermaLink="true">https://github.com/ggml-org/llama.cpp/discussions/19759</guid>
-      <pubDate>Fri, 20 Feb 2026 13:51:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088037</comments>
+🔗 Read more: https://f-droid.org/2026/02/20/twif.html</description>
+      <guid isPermaLink="true">https://f-droid.org/2026/02/20/twif.html</guid>
+      <pubDate>Fri, 20 Feb 2026 17:58:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091419</comments>
     </item>
     <item>
-      <title>漏洩した CIA 開発者ドキュメントの中に埋もれていた有用な Git ワンライナーを見つけました</title>
-      <link>https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</link>
-      <description>📝 git ブランチが墓場のように見え始めます。 git Branch --merged を使用してマージされたブランチを一覧表示できます。ただし、それらを 1 つずつ削除するのは面倒です。 CIA の開発チームは、よりクリーンなソリューションを持っています。元のコマンド git Branch --merged | grep -v "\*\|マスター" | xargs -n 1 git Branch -d 仕組み: git Branch --merged — 現在のブランチにすでにマージされているすべてのローカル ブランチをリストします。 grep -v "\*\|master" — 現在のブランチ (*) とマスターを除外して、どちらも削除しないようにします。 xargs -n 1 git Branch -d — 残りのブランチを一度に 1 つずつ安全に削除します (小文字の -d はマージされていないブランチには影響しません) 更新されたコマンド ほとんどのプロジェクトでは現在、代わりに main が使用されています。マスターの場合は、コマンドを更新して、頻繁に使用する他のブランチを除外できます。 git ブランチ --mergedorigin/main | grep -vE "^\s*(\*|main|develop)" | xargs -n 1 git Branch -d デプロイメント後に main からこれを実行すると、ブランチ リストが 40 エントリから数個のエントリに戻ります。
+      <title>リル・ファン・ラングス</title>
+      <link>https://taylor.town/scrapscript-000</link>
+      <description>📝 注目すべき例には、Haskell、Elm、F#、Scala、OCaml などがあります。ほとんどの実装は、代数データ型、パターン マッチング、クロージャを使用して Hindley-Milner 型推論を拡張します。 機能 LOC 依存関係 参照 整数算術 ~50 パーサー、codegen MinCaml 浮動小数点 ~100 パーサー、codegen (SSE/NEON) MinCaml Booleans + if/then/else ~50 パーサー、codegen すべて Let バインディング ~30 パーサー、正規化 すべて 最高級関数(クロージャ) ~200 クロージャ変換、ランタイム MinCaml 再帰関数 (let rec) ~50 型推論 (出現チェック)、codegen MinCaml タプル ~100 パーサー、型推論、codegen MinCaml 配列 ~100 パーサー、ランタイム (境界チェック) MinCaml 単相型推論 ~100 統一 MinCaml 多相型推論 (HM) ~300 一般化、インスタンス化アルゴリズム W、PLZoo 代数データ型 ~200–400 パーサー、型チェッカー、ランタイム (タグ付け) HaMLet、Tao パターン マッチング (基本) ~200 網羅性チェック、格木 Tao、Ante パターン マッチング (最適化) ~400–600 Maranget のアルゴリズム OCaml、Rust 型クラス ~500–2000 辞書の受け渡し、インスタンス解決 MicroHs、Ben Lynn モジュール (基本) ~500–1000 名前空間管理 HaMLet モジュール (ファンクタ/シグネチャ) ~2000–5000 型レベルの計算 HaMLet、1ML 行多態性 ~300–800 拡張統合 EYG、型システム 代数効果 ~500–1500 エフェクトの型指定、ランタイム サポート Eff、Frank、Ante Algebraicサブタイプ ~500 Polar 型、biunification Simple-sub Linear 型 ~600 Linearity checker Austral Lazy 評価 ~300–500 サンク、メモ化ランタイム MicroHs、Ben Lynn ガベージ コレクション (Cheney) ~200 ランタイム システム Most Tail 呼び出しの最適化 ~50–100 Codegen (呼び出しの代わりにジャンプ) MinCaml インライン展開 ~100 正規化パス MinCaml デッド コード除去 ~50自由変数分析 MinCaml トータリティ チェック ~300 ～ 500 カバレッジ分析、終了チェッカー Tao、Dhall さらに読む: Haskell を書く (および続編): Haskell サブセットを増分的に構築します: ラムダ計算 → STLC → HM 推論 → ADT → パターン マッチング → 型クラス → STG → LLVM。実装には、OMicroB (10KB 未満の RAM を搭載した PIC18 マイクロコントローラーで OCaml バイトコードを実行) および HardCaml-Zinc (ハードウェア実装) が含まれます。
 
 
-🔤 Original: I found a useful Git one liner buried in leaked CIA developer docs
+🔤 Original: Lil' Fun Langs
 
-🔗 Read more: https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</description>
-      <guid isPermaLink="true">https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</guid>
-      <pubDate>Fri, 20 Feb 2026 14:03:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088181</comments>
+🔗 Read more: https://taylor.town/scrapscript-000</description>
+      <guid isPermaLink="true">https://taylor.town/scrapscript-000</guid>
+      <pubDate>Fri, 20 Feb 2026 17:34:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091071</comments>
     </item>
     <item>
-      <title>Show HN: SwiftUI で構築された Hacker News 用のネイティブ macOS クライアント</title>
-      <link>https://github.com/IronsideXXVI/Hacker-News</link>
-      <description>📝 Hacker News SwiftUI で構築された Hacker News のネイティブ macOS クライアント。スクリーンショット 機能 トップ、新着、ベスト、質問、ショー、ジョブ ストーリーの閲覧 組み込みの Web ビューで記事を読む 広告ブロックとポップアップ ブロック 折りたたみ可能な返信を含むコメント スレッド HN アカウントのログインとセッション管理 Sparkle による自動更新 ネイティブ macOS のルック アンド フィール インストール リリース ページから最新の DMG をダウンロードして開き、アプリをアプリケーションにドラッグします。 com/IronsideXXVI/Hacker-News。
+      <title>最先端のサイバーセキュリティ機能を防御者が利用できるようにする</title>
+      <link>https://www.anthropic.com/news/claude-code-security</link>
+      <description>📝 クロード コード セキュリティの仕組み静的分析 (広く導入されている自動セキュリティ テストの形式) は通常、ルール ベースであり、コードを既知の脆弱性パターンと照合します。サイバーセキュリティに Claude を使用するClaude Code Security は、Claude のサイバーセキュリティ機能に関する 1 年以上の研究に基づいて構築されています。私たちは、同じ防御機能をより広く利用できるようにするために、Claude Code Security を構築しました。
 
 
-🔤 Original: Show HN: A native macOS client for Hacker News, built with SwiftUI
+🔤 Original: Making frontier cybersecurity capabilities available to defenders
 
-🔗 Read more: https://github.com/IronsideXXVI/Hacker-News</description>
-      <guid isPermaLink="true">https://github.com/IronsideXXVI/Hacker-News</guid>
-      <pubDate>Fri, 20 Feb 2026 14:02:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088166</comments>
+🔗 Read more: https://www.anthropic.com/news/claude-code-security</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-security</guid>
+      <pubDate>Fri, 20 Feb 2026 18:03:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091469</comments>
     </item>
     <item>
-      <title>トランプ大統領の世界的関税、米国最高裁判所が却下</title>
-      <link>https://www.bbc.com/news/live/c0l9r67drg7t</link>
-      <description>📝 今日、トランプ大統領が相互関税や国別関税を発動するために緊急権限を法的に行使することはできないという最高裁判所の判決は、同氏の既存の通商戦略を狂わせることになる。まず、これにより無効となるのはトランプ大統領が昨年の就任以来命令してきた追加関税の一部だけである。大統領は判断前に「我々は何かを解決するだろう」と述べた。
+      <title>ブルーライトフィルターが機能しない</title>
+      <link>https://www.neuroai.science/p/blue-light-filters-dont-work</link>
+      <description>📝 最終的に時計をリセットする要因の 1 つは、網膜内のこの核に投射する一連のニューロンからの入力です。欠陥のある前提 その前提は正しいですか。夜勤は何をしますか? ブルーライトカットソフトウェアは何ですか? f.
 
 
-🔤 Original: Trump's global tariffs struck down by US Supreme Court
+🔤 Original: Blue light filters don't work
 
-🔗 Read more: https://www.bbc.com/news/live/c0l9r67drg7t</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/live/c0l9r67drg7t</guid>
-      <pubDate>Fri, 20 Feb 2026 15:27:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47089213</comments>
+🔗 Read more: https://www.neuroai.science/p/blue-light-filters-dont-work</description>
+      <guid isPermaLink="true">https://www.neuroai.science/p/blue-light-filters-dont-work</guid>
+      <pubDate>Fri, 20 Feb 2026 18:14:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091606</comments>
     </item>
     <item>
-      <title>Child's Play: テクノロジーの新世代と思考の終焉</title>
-      <link>https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</link>
-      <description>📝 数ブロック離れたところに、「あなたの製品には誰も興味を持っていません」と書かれた看板が見えました。どういうわけか人々はここでなんとか生きています。ロイ・リーは他の人とは違います。
+      <title>Facebookは完全に調理済みです</title>
+      <link>https://pilk.website/3/facebook-is-absolutely-cooked</link>
+      <description>📝 たとえば、この投稿のように、「なぜ彼女はピンクのヒールを履いているのですか？」私以外のみんなはこうなっていることを知っていましたか？こんなことは聞いたことがありませんでした。
 
 
-🔤 Original: Child's Play: Tech's new generation and the end of thinking
+🔤 Original: Facebook is absolutely cooked
 
-🔗 Read more: https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</description>
-      <guid isPermaLink="true">https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</guid>
-      <pubDate>Fri, 20 Feb 2026 14:48:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088685</comments>
+🔗 Read more: https://pilk.website/3/facebook-is-absolutely-cooked</description>
+      <guid isPermaLink="true">https://pilk.website/3/facebook-is-absolutely-cooked</guid>
+      <pubDate>Fri, 20 Feb 2026 18:25:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091748</comments>
     </item>
     <item>
-      <title>PayPal、ユーザー情報が6か月間流出したデータ侵害を公表</title>
-      <link>https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</link>
-      <description>📝 PayPal、ユーザー情報を6か月間漏洩したデータ侵害を明らかに By Sergiu Gatlan 2026年2月20日 08:12 AM 0 昨年、ローン申請時のソフトウェアエラーにより社会保障番号を含む機密個人情報が6か月間近く漏洩したことを受け、PayPalは顧客にデータ侵害を通知した。 2023年1月、PayPalは、2022年12月6日から12月8日にかけて大規模なクレデンシャルスタッフィング攻撃により35,000アカウントが侵害された後、新たなデータ侵害について顧客に通知した。 ガイドを入手 関連記事: ShinyHunters、Salesforceデータ漏洩サイトを立ち上げ、被害者39人を脅迫 フィンテック企業でデータ侵害 数字は100万近くのアカウントに影響 Conduent hackFlickrで暴露されたボルボ・グループ北米の顧客データユーザーの名前を公開するデータ侵害の可能性を明らかにし、電子メールニュースレター プラットフォームの Substack がユーザーにデータ侵害を通知します。
-
-
-🔤 Original: PayPal discloses data breach that exposed user info for 6 months
-
-🔗 Read more: https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</description>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</guid>
-      <pubDate>Fri, 20 Feb 2026 13:22:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087719</comments>
+      <title>Legion Health (YC) は自律型メンタルヘルスのためにクラックのある SWE を雇用しています</title>
+      <link>https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</guid>
+      <pubDate>Fri, 20 Feb 2026 17:02:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47090610</comments>
     </item>
     <item>
-      <title>マザーズ（YC X26）が募集中です</title>
-      <link>https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</link>
-      <guid isPermaLink="true">https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</guid>
-      <pubDate>Fri, 20 Feb 2026 13:44:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087954</comments>
+      <title>テスラはオートパイロット事故で歴史的な2億4,300万ドルの判決を支払わなければならないと裁判官が言う</title>
+      <link>https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</link>
+      <description>📝 この決定は会社に多大な損害を与えました。テスラはまた、裁判中にオートパイロットに関するイーロン・マスクCEOの発言への言及が陪審員に誤解を与えたと主張したが、ブルーム判事がその主張を却下したのは正しかった。
+
+
+🔤 Original: Tesla has to pay historic $243M judgement over Autopilot crash, judge says
+
+🔗 Read more: https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</description>
+      <guid isPermaLink="true">https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</guid>
+      <pubDate>Fri, 20 Feb 2026 17:00:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47090584</comments>
     </item>
     <item>
-      <title>シリコンバレーのエンジニアがイランに機密を送った疑いで起訴</title>
-      <link>https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</link>
-      <description>📝 グーグルは、日常的な監視を通じて窃盗容疑を発見し、法執行機関に通報したと述べた。検察側は、ホスラヴィ容疑者は以前イラン軍に勤務していたと述べた。 Samaneh 氏と Soroor 氏は、Company 3 としてのみ特定される 3 番目の会社に入社する前は、Google に勤務していました。
+      <title>スキルはありません。味がしない</title>
+      <link>https://blog.kinglycrow.com/no-skill-no-taste/</link>
+      <description>📝 スキルもセンスもない。唯一の問題は、スキルはあるかもしれないが、センスがあるかということだ。この問題自体は新しいものではありません。
 
 
-🔤 Original: Silicon Valley engineers were indicted for allegedly sending secrets to Iran
+🔤 Original: No Skill. No Taste
 
-🔗 Read more: https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</guid>
-      <pubDate>Fri, 20 Feb 2026 10:50:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086319</comments>
+🔗 Read more: https://blog.kinglycrow.com/no-skill-no-taste/</description>
+      <guid isPermaLink="true">https://blog.kinglycrow.com/no-skill-no-taste/</guid>
+      <pubDate>Fri, 20 Feb 2026 16:13:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47089907</comments>
     </item>
     <item>
-      <title>退屈をやめる方法</title>
-      <link>https://www.joanwestenberg.com/how-to-stop-being-boring/</link>
-      <description>📝 あまりにも長い間自分で編集していたので、元のドラフトがどのようなものか忘れてしまったとき。いずれにしても、否定的な反応をする人はあなたの仲間ではありません。それらを愛する人もいます。耐え難いと感じる人もいます。
+      <title>KFC、Nando'sなどが鶏肉福祉の誓約を破棄</title>
+      <link>https://www.bbc.co.uk/news/articles/cm2r6jqm042o</link>
+      <description>📝 UKホスピタリティは、SCFは養鶏による環境への影響を制限し、需要に応えながら福利厚生の向上に焦点を当てると述べた。 「フランケンチキンは英国で最も深刻な動物福祉問題を引き起こしている」とジャクソン氏は語った。同氏は、養鶏農家や養鶏会社は注文に応じて、より成長の遅い高福祉鶏を生産するだろうと述べた。
 
 
-🔤 Original: How to Stop Being Boring
+🔤 Original: KFC, Nando's, and others ditch chicken welfare pledge
 
-🔗 Read more: https://www.joanwestenberg.com/how-to-stop-being-boring/</description>
-      <guid isPermaLink="true">https://www.joanwestenberg.com/how-to-stop-being-boring/</guid>
-      <pubDate>Fri, 20 Feb 2026 13:19:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087687</comments>
+🔗 Read more: https://www.bbc.co.uk/news/articles/cm2r6jqm042o</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cm2r6jqm042o</guid>
+      <pubDate>Fri, 20 Feb 2026 18:26:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091763</comments>
     </item>
   </channel>
 </rss>

@@ -6,119 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Feb 2026 15:39:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 18:49:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Ggml.ai加入Hugging Face，确保Local AI的长期进步</title>
-      <link>https://github.com/ggml-org/llama.cpp/discussions/19759</link>
-      <description>📝 请重新加载此页面。请重新加载此页面。 ggml/llama 会发生什么变化。
+      <title>保持 Android 开放</title>
+      <link>https://f-droid.org/2026/02/20/twif.html</link>
+      <description>📝 本周 F-Droid TWIF 于 2026 年 2 月 20 日星期五策划，第 8 周 F-Droid 核心 在 FOSDEM26 上与 F-Droid 用户进行会谈时，我们困惑地获悉，大多数人都松了一口气，因为 Google 取消了锁定 Android 的计划。关于 F-Droid Basic 重写，新版本 2 的开发仍在继续。Nextcloud 应用程序几乎每周都会更新，例如 Nextcloud 已更新到 33。
 
 
-🔤 Original: Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI
+🔤 Original: Keep Android Open
 
-🔗 Read more: https://github.com/ggml-org/llama.cpp/discussions/19759</description>
-      <guid isPermaLink="true">https://github.com/ggml-org/llama.cpp/discussions/19759</guid>
-      <pubDate>Fri, 20 Feb 2026 13:51:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088037</comments>
+🔗 Read more: https://f-droid.org/2026/02/20/twif.html</description>
+      <guid isPermaLink="true">https://f-droid.org/2026/02/20/twif.html</guid>
+      <pubDate>Fri, 20 Feb 2026 17:58:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091419</comments>
     </item>
     <item>
-      <title>我在泄露的 CIA 开发人员文档中发现了一个有用的 Git one liner</title>
-      <link>https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</link>
-      <description>📝 git 分支开始看起来像一个墓地。您可以使用以下命令列出合并的分支： gitbranch --merged 但是一一删除它们是乏味的。 CIA 的开发团队有一个更简洁的解决方案：原始命令 gitbranch --merged | grep -v“\*\|master”| xargs -n 1 gitbranch -d 工作原理： gitbranch --merged — 列出已合并到当前分支的所有本地分支 grep -v "\*\|master" — 过滤掉当前分支 (*) 和 master，这样您就不会删除任何一个 xargs -n 1 gitbranch -d — 一次安全地删除每个剩余分支（小写 -d 不会触及未合并的分支） 更新的命令 由于大多数项目现在使用 main 而不是 main master，您可以更新命令并排除您经常使用的任何其他分支： gitbranch --merged origin/main | grep -vE "^\s*(\*|main|develop)" | grep -vE "^\s*(\*|main|develop)" | xargs -n 1 gitbranch -d 部署后从 main 运行此命令，您的分支列表将从 40 个条目减少到少数几个。
+      <title>小有趣的朗斯</title>
+      <link>https://taylor.town/scrapscript-000</link>
+      <description>📝 著名的例子包括 Haskell、Elm、F#、Scala 和 OCaml。大多数实现使用代数数据类型、模式匹配和闭包扩展 Hindley-Milner 类型推断： 功能 LOC 依赖项 引用 整数算术 ~50 解析器、codegen MinCaml 浮点 ~100 解析器、codegen (SSE/NEON) MinCaml 布尔 + if/then/else ~50 解析器、codegen Everything Let 绑定 ~30 解析器、标准化 Everything 一流函数（闭包） ~200 闭包转换，运行时 MinCaml 递归函数 (let rec) ~50 类型推断（发生检查），代码生成 MinCaml Tuples ~100 解析器，类型推断，代码生成 MinCaml 数组 ~100 解析器，运行时（边界检查） MinCaml 单态类型推断 ~100 统一 MinCaml 多态类型推断 (HM) ~300 泛化，实例化 算法 W、PLZoo 代数数据类型 ~200–400 解析器、类型检查器、运行时（标记） HaMLet、Tao 模式匹配（基本） ~200 穷举性检查、案例树 Tai、Ante 模式匹配（优化） ~400–600 Marranget 算法 OCaml、Rust 类型类 ~500–2000 字典传递、实例解析 MicroHs、Ben Lynn 模块（基本） ~500–1000 命名空间管理 HaMLet 模块（函子/签名） ~2000–5000 类型级计算 HaMLet，1ML 行多态性 ~300–800 扩展统一 EYG，类型系统 代数效应 ~500–1500 效果类型化，运行时支持 Eff、Frank、Ante 代数子类型化 ~500 极性类型， biunification Simple-sub 线性类型 ~600 线性检查器 Austral Lazy 评估 ~300–500 Thunks、记忆化运行时 MicroHs、Ben Lynn 垃圾收集 (Cheney) ~200 运行时系统 大多数 尾部调用优化 ~50–100 Codegen（跳转而不是调用） MinCaml 内联扩展 ~100 规范化传递 MinCaml 死代码消除 ~50 自由变量分析 MinCaml 完整性检查~300–500 覆盖率分析，终止检查器 Tai，Dhall 进一步阅读：为你写一个 Haskell（及续集）：增量构建 Haskell 子集：lambda 演算 → STLC → HM 推理 → ADTs → 模式匹配 → 类型类 → STG → LLVM。实现包括 OMicroB（在 RAM &lt;10KB RAM 的 PIC18 微控制器上运行 OCaml 字节码）和 HardCaml-Zinc（硬件实现）。
 
 
-🔤 Original: I found a useful Git one liner buried in leaked CIA developer docs
+🔤 Original: Lil' Fun Langs
 
-🔗 Read more: https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</description>
-      <guid isPermaLink="true">https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</guid>
-      <pubDate>Fri, 20 Feb 2026 14:03:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088181</comments>
+🔗 Read more: https://taylor.town/scrapscript-000</description>
+      <guid isPermaLink="true">https://taylor.town/scrapscript-000</guid>
+      <pubDate>Fri, 20 Feb 2026 17:34:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091071</comments>
     </item>
     <item>
-      <title>Show HN：Hacker News 的本机 macOS 客户端，使用 SwiftUI 构建</title>
-      <link>https://github.com/IronsideXXVI/Hacker-News</link>
-      <description>📝 Hacker News Hacker News 的原生 macOS 客户端，使用 SwiftUI 构建。屏幕截图 功能 浏览热门、最新、最佳、提问、展示和工作故事 阅读带有内置 Web 视图的文章 广告拦截和弹出窗口拦截 带有可折叠回复的评论线程 HN 帐户登录和会话管理 通过 Sparkle Native macOS 外观自动更新 安装 从“发布”页面下载最新的 DMG，打开它，然后将应用程序拖到“应用程序”。 com/IronsideXXVI/Hacker-News。
+      <title>为防御者提供前沿网络安全能力</title>
+      <link>https://www.anthropic.com/news/claude-code-security</link>
+      <description>📝 Claude Code Security 的工作原理静态分析（一种广泛部署的自动化安全测试形式）通常是基于规则的，这意味着它将代码与已知的漏洞模式进行匹配。使用 Claude 实现网络安全 Claude 代码安全建立在对 Claude 网络安全能力一年多的研究之上。我们构建了 Claude Code Security，以使这些相同的防御功能更广泛地可用。
 
 
-🔤 Original: Show HN: A native macOS client for Hacker News, built with SwiftUI
+🔤 Original: Making frontier cybersecurity capabilities available to defenders
 
-🔗 Read more: https://github.com/IronsideXXVI/Hacker-News</description>
-      <guid isPermaLink="true">https://github.com/IronsideXXVI/Hacker-News</guid>
-      <pubDate>Fri, 20 Feb 2026 14:02:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088166</comments>
+🔗 Read more: https://www.anthropic.com/news/claude-code-security</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-security</guid>
+      <pubDate>Fri, 20 Feb 2026 18:03:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091469</comments>
     </item>
     <item>
-      <title>美国最高法院驳回特朗普的全球关税</title>
-      <link>https://www.bbc.com/news/live/c0l9r67drg7t</link>
-      <description>📝 今天，最高法院裁定特朗普总统不能合法地使用紧急权力来调用互惠和针对特定国家的关税，这破坏了他现有的贸易战略。首先，这仅使特朗普总统自去年上任以来下令的部分额外关税无效。总统预判时说：“我们会想出办法的。”
+      <title>蓝光滤镜不起作用</title>
+      <link>https://www.neuroai.science/p/blue-light-filters-dont-work</link>
+      <description>📝 最终重置时钟的一个因素是来自视网膜内投射到该细胞核的一组神经元的输入。有缺陷的前提 这个前提正确吗？夜班有什么作用 f. 蓝光阻挡软件有哪些？
 
 
-🔤 Original: Trump's global tariffs struck down by US Supreme Court
+🔤 Original: Blue light filters don't work
 
-🔗 Read more: https://www.bbc.com/news/live/c0l9r67drg7t</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/live/c0l9r67drg7t</guid>
-      <pubDate>Fri, 20 Feb 2026 15:27:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47089213</comments>
+🔗 Read more: https://www.neuroai.science/p/blue-light-filters-dont-work</description>
+      <guid isPermaLink="true">https://www.neuroai.science/p/blue-light-filters-dont-work</guid>
+      <pubDate>Fri, 20 Feb 2026 18:14:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091606</comments>
     </item>
     <item>
-      <title>儿戏：科技的新一代和思维的终结</title>
-      <link>https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</link>
-      <description>📝 几个街区之外，我看到一个广告牌，上面写着：没有人关心你的产品。不知怎的，人们设法住在这里。罗伊·李和其他人不一样。
+      <title>Facebook绝对是熟了</title>
+      <link>https://pilk.website/3/facebook-is-absolutely-cooked</link>
+      <description>📝 就像这篇文章一样，例如：为什么她穿着粉红色的高跟鞋。除了我之外，所有人都知道是这样的吗？我没有听说过这样的事情。
 
 
-🔤 Original: Child's Play: Tech's new generation and the end of thinking
+🔤 Original: Facebook is absolutely cooked
 
-🔗 Read more: https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</description>
-      <guid isPermaLink="true">https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</guid>
-      <pubDate>Fri, 20 Feb 2026 14:48:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088685</comments>
+🔗 Read more: https://pilk.website/3/facebook-is-absolutely-cooked</description>
+      <guid isPermaLink="true">https://pilk.website/3/facebook-is-absolutely-cooked</guid>
+      <pubDate>Fri, 20 Feb 2026 18:25:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091748</comments>
     </item>
     <item>
-      <title>PayPal 披露数据泄露事件，导致用户信息暴露 6 个月</title>
-      <link>https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</link>
-      <description>📝 PayPal 披露数据泄露，导致用户信息暴露 6 个月 作者：Sergiu Gatlan 2026 年 2 月 20 日 08:12 AM 0 去年，贷款申请中的软件错误导致客户的敏感个人信息（包括社会安全号码）暴露近 6 个月，PayPal 正在通知客户数据泄露。 2023 年 1 月，PayPal 在 2022 年 12 月 6 日至 8 日期间发生大规模撞库攻击，导致 35,000 个账户遭到破坏后，向客户通报了另一起数据泄露事件。获取指南 相关文章：ShinyHunters 启动 Salesforce 数据泄露网站，勒索 39 名受害者 金融科技公司的数据泄露影响近 100 万个账户 沃尔沃集团北美客户数据在 Conduent 黑客攻击中暴露 Flickr 披露了潜在的数据泄露，暴露了用户的隐私姓名、电子邮件通讯平台 Substack 通知用户数据泄露。
-
-
-🔤 Original: PayPal discloses data breach that exposed user info for 6 months
-
-🔗 Read more: https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</description>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</guid>
-      <pubDate>Fri, 20 Feb 2026 13:22:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087719</comments>
+      <title>Legion Health (YC) 正在聘请优秀的 SWE 来进行自主心理健康</title>
+      <link>https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</guid>
+      <pubDate>Fri, 20 Feb 2026 17:02:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47090610</comments>
     </item>
     <item>
-      <title>母亲 (YC X26) 正在招聘</title>
-      <link>https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</link>
-      <guid isPermaLink="true">https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</guid>
-      <pubDate>Fri, 20 Feb 2026 13:44:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087954</comments>
+      <title>法官称特斯拉必须就 Autopilot 事故支付历史性的 2.43 亿美元判决</title>
+      <link>https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</link>
+      <description>📝 这个决定让公司付出了沉重的代价。特斯拉还声称，在审判期间提及首席执行官埃隆·马斯克关于自动驾驶仪的声明误导了陪审团。布卢姆法官驳回这一论点是正确的。
+
+
+🔤 Original: Tesla has to pay historic $243M judgement over Autopilot crash, judge says
+
+🔗 Read more: https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</description>
+      <guid isPermaLink="true">https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</guid>
+      <pubDate>Fri, 20 Feb 2026 17:00:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47090584</comments>
     </item>
     <item>
-      <title>硅谷工程师因涉嫌向伊朗发送机密而被起诉</title>
-      <link>https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</link>
-      <description>📝 谷歌表示，它通过例行监控发现了涉嫌盗窃的行为，并向执法部门发出了警报。检察官称，科斯拉维此前曾在伊朗军队服役。 Samaneh 和 Soroor 在加入第三家公司（仅称为 Company 3）之前曾在 Google 工作。
+      <title>没有技能。没有味道</title>
+      <link>https://blog.kinglycrow.com/no-skill-no-taste/</link>
+      <description>📝 没有技巧，也没有品味。唯一的问题是你可能有技能，但你有品味吗？这个问题本身并不新鲜。
 
 
-🔤 Original: Silicon Valley engineers were indicted for allegedly sending secrets to Iran
+🔤 Original: No Skill. No Taste
 
-🔗 Read more: https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</guid>
-      <pubDate>Fri, 20 Feb 2026 10:50:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086319</comments>
+🔗 Read more: https://blog.kinglycrow.com/no-skill-no-taste/</description>
+      <guid isPermaLink="true">https://blog.kinglycrow.com/no-skill-no-taste/</guid>
+      <pubDate>Fri, 20 Feb 2026 16:13:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47089907</comments>
     </item>
     <item>
-      <title>如何不再无聊</title>
-      <link>https://www.joanwestenberg.com/how-to-stop-being-boring/</link>
-      <description>📝 当你自己编辑太久以至于你已经忘记了最初的草稿是什么样子的时候。无论如何，做出消极反应的人都不是你的人。有些人爱他们；有些人爱他们。有些人觉得他们难以忍受。
+      <title>肯德基、Nando's 等公司放弃鸡肉福利承诺</title>
+      <link>https://www.bbc.co.uk/news/articles/cm2r6jqm042o</link>
+      <description>📝 UKHospitality 表示，SCF 将专注于增加福利，同时限制养鸡业对环境的影响并满足需求。 “弗兰肯鸡构成了英国最严重的动物福利问题，”杰克逊说。他表示，养鸡户和家禽企业将根据订单生产更多生长速度较慢、福利较高的鸡。
 
 
-🔤 Original: How to Stop Being Boring
+🔤 Original: KFC, Nando's, and others ditch chicken welfare pledge
 
-🔗 Read more: https://www.joanwestenberg.com/how-to-stop-being-boring/</description>
-      <guid isPermaLink="true">https://www.joanwestenberg.com/how-to-stop-being-boring/</guid>
-      <pubDate>Fri, 20 Feb 2026 13:19:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087687</comments>
+🔗 Read more: https://www.bbc.co.uk/news/articles/cm2r6jqm042o</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cm2r6jqm042o</guid>
+      <pubDate>Fri, 20 Feb 2026 18:26:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091763</comments>
     </item>
   </channel>
 </rss>

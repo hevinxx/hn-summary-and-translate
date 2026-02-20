@@ -6,95 +6,95 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 15:39:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 18:49:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI</title>
-      <link>https://github.com/ggml-org/llama.cpp/discussions/19759</link>
-      <description>📝 Please reload this page. Please reload this page. What will change for ggml/llama.
+      <title>Keep Android Open</title>
+      <link>https://f-droid.org/2026/02/20/twif.html</link>
+      <description>📝 This Week in F-Droid TWIF curated on Friday, 20 Feb 2026, Week 8 F-Droid core During out talks with F-Droid users at FOSDEM26 we were baffled to learn most were relieved that Google has canceled their plans to lock-down Android. Regarding F-Droid Basic rewrite, development continues with a new release 2. Nextcloud apps are getting an update almost every week, like Nextcloud was updated to 33.
 
-🔗 Read more: https://github.com/ggml-org/llama.cpp/discussions/19759</description>
-      <guid isPermaLink="true">https://github.com/ggml-org/llama.cpp/discussions/19759</guid>
-      <pubDate>Fri, 20 Feb 2026 13:51:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088037</comments>
+🔗 Read more: https://f-droid.org/2026/02/20/twif.html</description>
+      <guid isPermaLink="true">https://f-droid.org/2026/02/20/twif.html</guid>
+      <pubDate>Fri, 20 Feb 2026 17:58:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091419</comments>
     </item>
     <item>
-      <title>I found a useful Git one liner buried in leaked CIA developer docs</title>
-      <link>https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</link>
-      <description>📝 git branch starts to look like a graveyard. You can list merged branches with: git branch --merged But deleting them one by one is tedious. The CIA’s dev team has a cleaner solution: The original command git branch --merged | grep -v "\*\|master" | xargs -n 1 git branch -d How it works: git branch --merged — lists all local branches that have already been merged into the current branch grep -v "\*\|master" — filters out the current branch (*) and master so you don’t delete either xargs -n 1 git branch -d — deletes each remaining branch one at a time, safely (lowercase -d won’t touch unmerged branches) The updated command Since most projects now use main instead of master, you can update the command and exclude any other branches you frequently use: git branch --merged origin/main | grep -vE "^\s*(\*|main|develop)" | xargs -n 1 git branch -d Run this from main after a deployment and your branch list goes from 40 entries back down to a handful.
+      <title>Lil' Fun Langs</title>
+      <link>https://taylor.town/scrapscript-000</link>
+      <description>📝 Notable examples include Haskell, Elm, F#, Scala, and OCaml. Most implementations extend Hindley-Milner type inference with algebraic data types, pattern matching, and closures: Feature LOC Dependencies References Integer arithmetic ~50 Parser, codegen MinCaml Floating-point ~100 Parser, codegen (SSE/NEON) MinCaml Booleans + if/then/else ~50 Parser, codegen Everything Let bindings ~30 Parser, normalization Everything First-class functions (closures) ~200 Closure conversion, runtime MinCaml Recursive functions (let rec) ~50 Type inference (occurs check), codegen MinCaml Tuples ~100 Parser, type inference, codegen MinCaml Arrays ~100 Parser, runtime (bounds checking) MinCaml Monomorphic type inference ~100 Unification MinCaml Polymorphic type inference (HM) ~300 Generalization, instantiation Algorithm W, PLZoo Algebraic data types ~200–400 Parser, type checker, runtime (tagging) HaMLet, Tao Pattern matching (basic) ~200 Exhaustiveness check, case trees Tao, Ante Pattern matching (optimized) ~400–600 Maranget's algorithm OCaml, Rust Type classes ~500–2000 Dictionary passing, instance resolution MicroHs, Ben Lynn Modules (basic) ~500–1000 Namespace management HaMLet Modules (functors/signatures) ~2000–5000 Type-level computation HaMLet, 1ML Row polymorphism ~300–800 Extended unification EYG, type-systems Algebraic effects ~500–1500 Effect typing, runtime support Eff, Frank, Ante Algebraic subtyping ~500 Polar types, biunification Simple-sub Linear types ~600 Linearity checker Austral Lazy evaluation ~300–500 Thunks, memoization runtime MicroHs, Ben Lynn Garbage collection (Cheney) ~200 Runtime system Most Tail call optimization ~50–100 Codegen (jump instead of call) MinCaml Inline expansion ~100 Normalization pass MinCaml Dead code elimination ~50 Free variable analysis MinCaml Totality checking ~300–500 Coverage analysis, termination checker Tao, Dhall Further reading: Write You a Haskell (and sequel): builds a Haskell subset incrementally: lambda calculus → STLC → HM inference → ADTs → pattern matching → type classes → STG → LLVM. Implementations include OMicroB (running OCaml bytecode on PIC18 microcontrollers with &lt;10KB RAM) and HardCaml-Zinc (hardware implementation).
 
-🔗 Read more: https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</description>
-      <guid isPermaLink="true">https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html</guid>
-      <pubDate>Fri, 20 Feb 2026 14:03:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088181</comments>
+🔗 Read more: https://taylor.town/scrapscript-000</description>
+      <guid isPermaLink="true">https://taylor.town/scrapscript-000</guid>
+      <pubDate>Fri, 20 Feb 2026 17:34:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091071</comments>
     </item>
     <item>
-      <title>Show HN: A native macOS client for Hacker News, built with SwiftUI</title>
-      <link>https://github.com/IronsideXXVI/Hacker-News</link>
-      <description>📝 Hacker News A native macOS client for Hacker News, built with SwiftUI. Screenshots Features Browse top, new, best, ask, show, and job stories Read articles with built-in web view Ad blocking and pop-up blocking Comment threads with collapsible replies HN account login and session management Automatic updates via Sparkle Native macOS look and feel Install Download the latest DMG from the Releases page, open it, and drag the app to Applications. com/IronsideXXVI/Hacker-News.
+      <title>Making frontier cybersecurity capabilities available to defenders</title>
+      <link>https://www.anthropic.com/news/claude-code-security</link>
+      <description>📝 How Claude Code Security worksStatic analysis—a widely deployed form of automated security testing—is typically rule-based, meaning it matches code against known vulnerability patterns. Using Claude for cybersecurityClaude Code Security builds on more than a year of research into Claude’s cybersecurity capabilities. We built Claude Code Security to make those same defensive capabilities more widely available.
 
-🔗 Read more: https://github.com/IronsideXXVI/Hacker-News</description>
-      <guid isPermaLink="true">https://github.com/IronsideXXVI/Hacker-News</guid>
-      <pubDate>Fri, 20 Feb 2026 14:02:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088166</comments>
+🔗 Read more: https://www.anthropic.com/news/claude-code-security</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-code-security</guid>
+      <pubDate>Fri, 20 Feb 2026 18:03:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091469</comments>
     </item>
     <item>
-      <title>Trump's global tariffs struck down by US Supreme Court</title>
-      <link>https://www.bbc.com/news/live/c0l9r67drg7t</link>
-      <description>📝 Today, the Supreme Court's ruling that President Trump cannot legally use emergency powers to invoke reciprocal and country-specific tariffs derails his existing trade strategy. First, this invalidates only some of the additional tariffs President Trump has ordered since taking office last year. "We'll figure something out" said the President pre-judgement.
+      <title>Blue light filters don't work</title>
+      <link>https://www.neuroai.science/p/blue-light-filters-dont-work</link>
+      <description>📝 One factor that ultimately resets the clock is input from a set of neurons inside the retina that project to this nucleus. A flawed premiseIs that premise correct. What night shift doesWhat does blue light blocking software like f.
 
-🔗 Read more: https://www.bbc.com/news/live/c0l9r67drg7t</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/live/c0l9r67drg7t</guid>
-      <pubDate>Fri, 20 Feb 2026 15:27:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47089213</comments>
+🔗 Read more: https://www.neuroai.science/p/blue-light-filters-dont-work</description>
+      <guid isPermaLink="true">https://www.neuroai.science/p/blue-light-filters-dont-work</guid>
+      <pubDate>Fri, 20 Feb 2026 18:14:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091606</comments>
     </item>
     <item>
-      <title>Child's Play: Tech's new generation and the end of thinking</title>
-      <link>https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</link>
-      <description>📝 A few blocks away, I saw a billboard that read: no one cares about your product. Somehow people manage to live here. Roy Lee is not like other people.
+      <title>Facebook is absolutely cooked</title>
+      <link>https://pilk.website/3/facebook-is-absolutely-cooked</link>
+      <description>📝 Like with this post, for example: Why is she wearing pink heels. Did everyone but me know it was like this. I hadn't heard about anything like this.
 
-🔗 Read more: https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</description>
-      <guid isPermaLink="true">https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/</guid>
-      <pubDate>Fri, 20 Feb 2026 14:48:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47088685</comments>
+🔗 Read more: https://pilk.website/3/facebook-is-absolutely-cooked</description>
+      <guid isPermaLink="true">https://pilk.website/3/facebook-is-absolutely-cooked</guid>
+      <pubDate>Fri, 20 Feb 2026 18:25:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091748</comments>
     </item>
     <item>
-      <title>PayPal discloses data breach that exposed user info for 6 months</title>
-      <link>https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</link>
-      <description>📝 PayPal discloses data breach that exposed user info for 6 months By Sergiu Gatlan February 20, 2026 08:12 AM 0 PayPal is notifying customers of a data breach after a software error in a loan application exposed their sensitive personal information, including Social Security numbers, for nearly 6 months last year. In January 2023, PayPal notified customers of another data breach after a large-scale credential stuffing attack compromised 35,000 accounts between December 6 and December 8, 2022. Get the guide Related Articles: ShinyHunters launches Salesforce data leak site to extort 39 victimsData breach at fintech firm Figure affects nearly 1 million accountsVolvo Group North America customer data exposed in Conduent hackFlickr discloses potential data breach exposing users' names, emailsNewsletter platform Substack notifies users of data breach.
-
-🔗 Read more: https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</description>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/</guid>
-      <pubDate>Fri, 20 Feb 2026 13:22:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087719</comments>
+      <title>Legion Health (YC) Is Hiring Cracked SWEs for Autonomous Mental Health</title>
+      <link>https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424</guid>
+      <pubDate>Fri, 20 Feb 2026 17:02:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47090610</comments>
     </item>
     <item>
-      <title>Mothers (YC X26) Is Hiring</title>
-      <link>https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</link>
-      <guid isPermaLink="true">https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</guid>
-      <pubDate>Fri, 20 Feb 2026 13:44:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087954</comments>
+      <title>Tesla has to pay historic $243M judgement over Autopilot crash, judge says</title>
+      <link>https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</link>
+      <description>📝 That decision cost the company dearly. ” Tesla also claimed that references to CEO Elon Musk’s statements about Autopilot during the trial misled the jury. Judge Bloom was right to reject that argument.
+
+🔗 Read more: https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</description>
+      <guid isPermaLink="true">https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/</guid>
+      <pubDate>Fri, 20 Feb 2026 17:00:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47090584</comments>
     </item>
     <item>
-      <title>Silicon Valley engineers were indicted for allegedly sending secrets to Iran</title>
-      <link>https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</link>
-      <description>📝 Google said it detected the alleged theft through routine monitoring and alerted law enforcement. Prosecutors said that Khosravi previously served in the Iranian army. Samaneh and Soroor worked at Google before joining a third company identified only as Company 3.
+      <title>No Skill. No Taste</title>
+      <link>https://blog.kinglycrow.com/no-skill-no-taste/</link>
+      <description>📝 No skill and no taste. The only problem there is you might have skill, but do you have taste. This problem itself isn't new.
 
-🔗 Read more: https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html</guid>
-      <pubDate>Fri, 20 Feb 2026 10:50:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47086319</comments>
+🔗 Read more: https://blog.kinglycrow.com/no-skill-no-taste/</description>
+      <guid isPermaLink="true">https://blog.kinglycrow.com/no-skill-no-taste/</guid>
+      <pubDate>Fri, 20 Feb 2026 16:13:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47089907</comments>
     </item>
     <item>
-      <title>How to Stop Being Boring</title>
-      <link>https://www.joanwestenberg.com/how-to-stop-being-boring/</link>
-      <description>📝 When you've been editing yourself for so long that you've forgotten what the original draft looked like. The people who respond negatively aren't your people anyway. Some people love them; some people find them insufferable.
+      <title>KFC, Nando's, and others ditch chicken welfare pledge</title>
+      <link>https://www.bbc.co.uk/news/articles/cm2r6jqm042o</link>
+      <description>📝 UKHospitality said the SCF will focus on increasing welfare while limiting the environmental impact of chicken farming and keeping up with demand. "Franken-chickens pose the most serious animal welfare problem in the UK," Jackson said. He said that chicken farmers and poultry companies would produce more slower-growing, higher-welfare chickens according to orders.
 
-🔗 Read more: https://www.joanwestenberg.com/how-to-stop-being-boring/</description>
-      <guid isPermaLink="true">https://www.joanwestenberg.com/how-to-stop-being-boring/</guid>
-      <pubDate>Fri, 20 Feb 2026 13:19:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47087687</comments>
+🔗 Read more: https://www.bbc.co.uk/news/articles/cm2r6jqm042o</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cm2r6jqm042o</guid>
+      <pubDate>Fri, 20 Feb 2026 18:26:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47091763</comments>
     </item>
   </channel>
 </rss>
