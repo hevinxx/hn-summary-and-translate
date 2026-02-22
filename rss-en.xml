@@ -6,66 +6,148 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 18:37:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 21:26:40 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Fix Your Tools</title>
-      <link>https://ochagavia.nl/blog/fix-your-tools/</link>
-      <description>📝 The issue was gnarly enough that I couldn’t find it right away, but then I thought: if I set a breakpoint here and fire up the debugger, I will likely find the root cause very soon… and then proceed to mercilessly destroy it. My breakpoint had been ignored, even though I knew for certain that the line of code in question must have been executed (I double-checked just to be sure). My fingertips itched to write even more troubleshooting code when it suddenly dawned on me: just fix the darn debugger already.
+      <title>I built Timeframe, our family e-paper dashboard</title>
+      <link>https://hawksley.org/2026/02/17/timeframe.html</link>
+      <description>📝 I then spent about a year experimenting with various jailbroken Kindle devices, eventually landing on design with calendar and weather data on a pair of screens. The Visionect displays required running custom closed-source software, either as a SaaS or locally with Docker. While the Visionect system worked just fine with multiple-second response times, switching to long-polling every two sec.
 
-🔗 Read more: https://ochagavia.nl/blog/fix-your-tools/</description>
-      <guid isPermaLink="true">https://ochagavia.nl/blog/fix-your-tools/</guid>
-      <pubDate>Sun, 22 Feb 2026 16:12:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47112174</comments>
+🔗 Read more: https://hawksley.org/2026/02/17/timeframe.html</description>
+      <guid isPermaLink="true">https://hawksley.org/2026/02/17/timeframe.html</guid>
+      <pubDate>Sun, 22 Feb 2026 19:12:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113728</comments>
     </item>
     <item>
-      <title>Fresh File Explorer – VS Code extension for navigating recent work</title>
-      <link>https://github.com/FreHu/vscode-fresh-file-explorer</link>
-      <description>📝 Fresh File Explorer Easily navigate recent changes based on your pending work and Git history. Install Marketplace | OpenVSX Table of Contents Features Fresh File Explorer Time Window Selection Smart File Tree Deleted File Support Heatmap Coloring Pinned section Sync Status Notifications Filtering Grouping Modes Quick Open Context Menu Actions Multi-Repository Support Search Tools Diff Search Line and Function History File History Search in Fresh Files Search in Found Files Search Editor Actions Use Cases Extension Settings Features Fresh File Explorer Time Window Selection Switch between viewing pending (uncommitted) changes or files modified in configurable time periods. Quick Open Use "Fresh Files: Quick Open" to get a quick pick showing files from your Fresh File Explorer view.
+      <title>Show HN: Local-First Linux MicroVMs for macOS</title>
+      <link>https://shuru.run</link>
+      <description>📝 Install anything, break anything. Checkpoint &amp; restore Save environments as snapshots. $ shuru checkpoint create py --allow-net -- apk add python3 shuru: checkpoint 'py' saved $ shuru run --from py -p 8080:8000 -- python3 -m http.
 
-🔗 Read more: https://github.com/FreHu/vscode-fresh-file-explorer</description>
-      <guid isPermaLink="true">https://github.com/FreHu/vscode-fresh-file-explorer</guid>
-      <pubDate>Sun, 22 Feb 2026 18:20:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47113325</comments>
+🔗 Read more: https://shuru.run</description>
+      <guid isPermaLink="true">https://shuru.run</guid>
+      <pubDate>Sun, 22 Feb 2026 18:50:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113567</comments>
     </item>
     <item>
-      <title>Show HN: 3D Mahjong, Built in CSS</title>
-      <link>https://voxjong.com</link>
-      <guid isPermaLink="true">https://voxjong.com</guid>
-      <pubDate>Sun, 22 Feb 2026 15:53:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47111981</comments>
-    </item>
-    <item>
-      <title>Xweather Live – Interactive global vector weather map</title>
-      <link>https://live.xweather.com/</link>
-      <guid isPermaLink="true">https://live.xweather.com/</guid>
-      <pubDate>Sun, 22 Feb 2026 15:12:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47111626</comments>
-    </item>
-    <item>
-      <title>Git's Magic Files</title>
-      <link>https://nesbitt.io/2026/02/05/git-magic-files.html</link>
-      <description>📝 These aren’t configuration files in. git/, they’re committed files that travel with your code and affect how git treats your files. gitattributes files in each directory and.
+      <title>Loops is a federated, open-source TikTok</title>
+      <link>https://joinloops.org/</link>
+      <description>📝 Build your community on a platform that can't lock you in. Discovery Hashtags &amp; search that find your people Tag loops with hashtags, jump into topics, and search profiles or videos to find your corner of the fediverse. Support Loops Development Your sponsorship helps us build a better fediverse.
 
-🔗 Read more: https://nesbitt.io/2026/02/05/git-magic-files.html</description>
-      <guid isPermaLink="true">https://nesbitt.io/2026/02/05/git-magic-files.html</guid>
-      <pubDate>Sun, 22 Feb 2026 14:21:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47111218</comments>
+🔗 Read more: https://joinloops.org/</description>
+      <guid isPermaLink="true">https://joinloops.org/</guid>
+      <pubDate>Sun, 22 Feb 2026 18:56:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113618</comments>
     </item>
     <item>
-      <title>I Analyzed Every Nootropic Study on PubMed</title>
-      <link>https://outspeaker.com/post/217</link>
-      <guid isPermaLink="true">https://outspeaker.com/post/217</guid>
-      <pubDate>Sun, 22 Feb 2026 17:15:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47112719</comments>
+      <title>Linuxulator on FreeBSD Feels Like Magic</title>
+      <link>https://hayzam.com/blog/02-linuxulator-is-awesome/</link>
+      <description>📝 But most of the projects I work on live elsewhere: embedded Linux systems, OpenWRT devices, and more recently, FreeBSD boxes. None of that happened. A fast, smooth, fully-featured remote development experience on FreeBSD running Linux binaries transparently via the Linuxulator.
+
+🔗 Read more: https://hayzam.com/blog/02-linuxulator-is-awesome/</description>
+      <guid isPermaLink="true">https://hayzam.com/blog/02-linuxulator-is-awesome/</guid>
+      <pubDate>Sun, 22 Feb 2026 18:45:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113527</comments>
     </item>
     <item>
-      <title>Show HN: TLA+ Workbench skill for coding agents (compat. with Vercel skills CLI)</title>
-      <link>https://github.com/younes-io/agent-skills/tree/main/skills/tlaplus-workbench</link>
-      <guid isPermaLink="true">https://github.com/younes-io/agent-skills/tree/main/skills/tlaplus-workbench</guid>
-      <pubDate>Sun, 22 Feb 2026 13:44:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47110946</comments>
+      <title>Hello Worg, the Org-Mode Community</title>
+      <link>https://orgmode.org/worg/</link>
+      <description>📝 Worg documentation on your machine Download Worg. com Browse Org-mode discussions on reddit. com Browse Org-mode questions on stackoverflow.
+
+🔗 Read more: https://orgmode.org/worg/</description>
+      <guid isPermaLink="true">https://orgmode.org/worg/</guid>
+      <pubDate>Sun, 22 Feb 2026 17:39:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47112925</comments>
+    </item>
+    <item>
+      <title>Spain has blocked access to freedom.gov</title>
+      <link>https://twitter.com/Pirat_Nation/status/2025643188321714642</link>
+      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.
+
+🔗 Read more: https://twitter.com/Pirat_Nation/status/2025643188321714642</description>
+      <guid isPermaLink="true">https://twitter.com/Pirat_Nation/status/2025643188321714642</guid>
+      <pubDate>Sun, 22 Feb 2026 20:17:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47114235</comments>
+    </item>
+    <item>
+      <title>Six Math Essentials</title>
+      <link>https://terrytao.wordpress.com/2026/02/16/six-math-essentials/</link>
+      <description>📝 Just a brief announcement that I have been working with Quanta Books to publish a short book in popular mathematics entitled “Six Math Essentials“, which will cover six of the fundamental concepts in mathematics — numbers, algebra, geometry, probability, analysis, and dynamics — and how they connect with our real-world intuition, the history of math and science, and to modern practice of mathematics, both in theory and in applications. The scheduled publication date is Oct 27, but it is currently available for preorder. Share this: Print (Opens in new window) Print Email a link to a friend (Opens in new window) Email More Share on X (Opens in new window) X Share on Facebook (Opens in new window) Facebook Share on Reddit (Opens in new window) Reddit Share on Pinterest (Opens in new window) Pinterest Like Loading.
+
+🔗 Read more: https://terrytao.wordpress.com/2026/02/16/six-math-essentials/</description>
+      <guid isPermaLink="true">https://terrytao.wordpress.com/2026/02/16/six-math-essentials/</guid>
+      <pubDate>Sun, 22 Feb 2026 19:21:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113796</comments>
+    </item>
+    <item>
+      <title>Symplex, an open-source protocol semantic negotiation between distributed agents</title>
+      <link>https://github.com/olserra/symplex</link>
+      <description>📝 What Is Agent Semantic Protocol. Agent Semantic Protocol enables AI agents to communicate by meaning, not schema. Register("agent-b", core.
+
+🔗 Read more: https://github.com/olserra/symplex</description>
+      <guid isPermaLink="true">https://github.com/olserra/symplex</guid>
+      <pubDate>Sun, 22 Feb 2026 19:20:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113793</comments>
+    </item>
+    <item>
+      <title>NanoClaw Moved from Apple Containers to Docker</title>
+      <link>https://twitter.com/Gavriel_Cohen/status/2025603982769410356</link>
+      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.
+
+🔗 Read more: https://twitter.com/Gavriel_Cohen/status/2025603982769410356</description>
+      <guid isPermaLink="true">https://twitter.com/Gavriel_Cohen/status/2025603982769410356</guid>
+      <pubDate>Sun, 22 Feb 2026 19:12:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113731</comments>
+    </item>
+    <item>
+      <title>Emulated Windows 3.11 in the Browser</title>
+      <link>https://pieter.com/</link>
+      <description>📝 11 Emulator - retro computer with dial-up internet by Pieter™ ❓ Help 💡 Ideas + 🪲 Bugs by @levelsio + @bai0 Go fullscreen Loading. 1 @2 #3 $4 %5 ^6 &amp;7 *8 (9 )0 _- += ← BACKSPACE TAB Q W E R T Y U I O P {[ }] |\ DEL CAPS A S D F G H J K L :; "' ⏎ ENTER ⇧ SHIFT Z X C V B N M ,. / ⇧ SHIFT ↑ PRINT CTRL ALT ALT ← ↓ →.
+
+🔗 Read more: https://pieter.com/</description>
+      <guid isPermaLink="true">https://pieter.com/</guid>
+      <pubDate>Sun, 22 Feb 2026 17:37:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47112892</comments>
+    </item>
+    <item>
+      <title>Factory-built housing hasn't taken off in California</title>
+      <link>https://www.latimes.com/california/story/2026-02-14/factory-built-housing-hasnt-taken-off-in-california-yet-but-this-year-might-be-different</link>
+      <description>📝 What if the United States could mass-produce its way out of a housing crisis. The HUD chief predicted that within a decade two-thirds of all housing construction across the United States “would be industrialized. With a little state assistance, they want to make 2026 the Year of the Housing Factory.
+
+🔗 Read more: https://www.latimes.com/california/story/2026-02-14/factory-built-housing-hasnt-taken-off-in-california-yet-but-this-year-might-be-different</description>
+      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-02-14/factory-built-housing-hasnt-taken-off-in-california-yet-but-this-year-might-be-different</guid>
+      <pubDate>Sun, 22 Feb 2026 19:33:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113892</comments>
+    </item>
+    <item>
+      <title>An Unbothered Jimmy Wales Calls Grokipedia a 'Cartoon Imitation' of Wikipedia</title>
+      <link>https://gizmodo.com/an-unbothered-jimmy-wales-calls-grokipedia-a-cartoon-imitation-of-wikipedia-2000725070</link>
+      <description>📝 The crown jewel of these stalwarts is Wikipedia. I go to Wikipedia because it’s human-vetted knowledge,” explained Wales. Where AI models fail here, their human counterparts shine.
+
+🔗 Read more: https://gizmodo.com/an-unbothered-jimmy-wales-calls-grokipedia-a-cartoon-imitation-of-wikipedia-2000725070</description>
+      <guid isPermaLink="true">https://gizmodo.com/an-unbothered-jimmy-wales-calls-grokipedia-a-cartoon-imitation-of-wikipedia-2000725070</guid>
+      <pubDate>Sun, 22 Feb 2026 19:18:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113769</comments>
+    </item>
+    <item>
+      <title>Black-White Array: fast, ordered and based on with O(log N) memory allocations</title>
+      <link>https://github.com/dronnix/bwarr</link>
+      <description>📝 The Black-White Array (aka BWArr) is a fast, ordered data structure based on arrays with $O(\log N)$ memory allocations. Amortized complexity for series of calls remains $O(\log N)$. Benchmarks Benchmarks in comparison with Google BTree.
+
+🔗 Read more: https://github.com/dronnix/bwarr</description>
+      <guid isPermaLink="true">https://github.com/dronnix/bwarr</guid>
+      <pubDate>Sun, 22 Feb 2026 19:19:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113782</comments>
+    </item>
+    <item>
+      <title>Building a (Bad) Local AI Coding Agent Harness from Scratch</title>
+      <link>https://www.appsoftware.com/blog/building-a-bad-local-ai-coding-agent-harness-from-scratch</link>
+      <description>📝 Core Concepts Demonstrated Agent Loop The agent loop is really just that - a recursive loop that maintains a history of user - agent interaction. The harness detects and executes these commands automatically. The harness sends a POST /api/chat request with the model name, the full conversation history, and stream: true.
+
+🔗 Read more: https://www.appsoftware.com/blog/building-a-bad-local-ai-coding-agent-harness-from-scratch</description>
+      <guid isPermaLink="true">https://www.appsoftware.com/blog/building-a-bad-local-ai-coding-agent-harness-from-scratch</guid>
+      <pubDate>Sun, 22 Feb 2026 19:09:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113708</comments>
     </item>
   </channel>
 </rss>

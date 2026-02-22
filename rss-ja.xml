@@ -6,75 +6,190 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 22 Feb 2026 18:37:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 21:26:40 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ツールを修正する</title>
-      <link>https://ochagavia.nl/blog/fix-your-tools/</link>
-      <description>📝 この問題は非常に厄介だったので、すぐには見つけることができませんでしたが、ここでブレークポイントを設定してデバッガーを起動すれば、すぐに根本原因が見つかるだろうと考えました。そして、容赦なく破壊していきます。問題のコード行が実行されたに違いないと確信していたにもかかわらず、ブレークポイントは無視されました (念のため再確認しました)。もっとトラブルシューティング用のコードを書きたくて指先がうずうずしていたとき、突然思いつきました。もうデバッガを修正してしまえばいいのです。
+      <title>我が家の電子ペーパーダッシュボードであるTimeframeを構築しました</title>
+      <link>https://hawksley.org/2026/02/17/timeframe.html</link>
+      <description>📝 それから約 1 年をかけて、脱獄したさまざまな Kindle デバイスを試し、最終的に 2 つの画面にカレンダーと天気データを表示するデザインにたどり着きました。 Visionect は、SaaS として、または Docker を使用してローカルで実行する必要のあるカスタム クローズド ソース ソフトウェアを表示します。 Visionect システムは数秒の応答時間で問題なく動作しましたが、2 秒ごとにロングポーリングに切り替わりました。
 
 
-🔤 Original: Fix Your Tools
+🔤 Original: I built Timeframe, our family e-paper dashboard
 
-🔗 Read more: https://ochagavia.nl/blog/fix-your-tools/</description>
-      <guid isPermaLink="true">https://ochagavia.nl/blog/fix-your-tools/</guid>
-      <pubDate>Sun, 22 Feb 2026 16:12:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47112174</comments>
+🔗 Read more: https://hawksley.org/2026/02/17/timeframe.html</description>
+      <guid isPermaLink="true">https://hawksley.org/2026/02/17/timeframe.html</guid>
+      <pubDate>Sun, 22 Feb 2026 19:12:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113728</comments>
     </item>
     <item>
-      <title>Fresh File Explorer – 最近の作業をナビゲートするための VS Code 拡張機能</title>
-      <link>https://github.com/FreHu/vscode-fresh-file-explorer</link>
-      <description>📝 フレッシュ ファイル エクスプローラー 保留中の作業や Git 履歴に基づいて、最近の変更を簡単にナビゲートできます。マーケットプレイスをインストール | OpenVSX 目次 機能 新しいファイル エクスプローラーのタイム ウィンドウの選択 スマート ファイル ツリー 削除されたファイルのサポート ヒートマップの色付け 固定セクション 同期ステータス通知 フィルター処理 グループ化モード クイック オープン コンテキスト メニュー アクション マルチリポジトリ サポート 検索ツール 差分検索 行と関数の履歴 ファイル履歴 新しいファイルの検索 見つかったファイルの検索 検索エディターのアクション ユースケース 拡張機能の設定機能 フレッシュ ファイル エクスプローラーのタイム ウィンドウの選択 保留中の (コミットされていない) 変更または構成可能な期間内に変更されたファイルの表示を切り替えます。クイック オープン 「フレッシュ ファイル: クイック オープン」を使用して、フレッシュ ファイル エクスプローラー ビューからファイルを表示するクイック ピックを取得します。
+      <title>HN を表示: macOS 用のローカルファースト Linux MicroVM</title>
+      <link>https://shuru.run</link>
+      <description>📝 何かをインストールし、何かを破壊します。チェックポイントと復元環境をスナップショットとして保存します。 $ shuru Checkpoint create py --allow-net -- apk add python3 shuru: チェックポイント 'py' が保存されました $ shuru run --from py -p 8080:8000 -- python3 -m http。
 
 
-🔤 Original: Fresh File Explorer – VS Code extension for navigating recent work
+🔤 Original: Show HN: Local-First Linux MicroVMs for macOS
 
-🔗 Read more: https://github.com/FreHu/vscode-fresh-file-explorer</description>
-      <guid isPermaLink="true">https://github.com/FreHu/vscode-fresh-file-explorer</guid>
-      <pubDate>Sun, 22 Feb 2026 18:20:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47113325</comments>
+🔗 Read more: https://shuru.run</description>
+      <guid isPermaLink="true">https://shuru.run</guid>
+      <pubDate>Sun, 22 Feb 2026 18:50:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113567</comments>
     </item>
     <item>
-      <title>HN を表示: CSS で構築された 3D 麻雀</title>
-      <link>https://voxjong.com</link>
-      <guid isPermaLink="true">https://voxjong.com</guid>
-      <pubDate>Sun, 22 Feb 2026 15:53:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47111981</comments>
-    </item>
-    <item>
-      <title>Xweather Live – インタラクティブな世界のベクトル天気図</title>
-      <link>https://live.xweather.com/</link>
-      <guid isPermaLink="true">https://live.xweather.com/</guid>
-      <pubDate>Sun, 22 Feb 2026 15:12:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47111626</comments>
-    </item>
-    <item>
-      <title>Git のマジック ファイル</title>
-      <link>https://nesbitt.io/2026/02/05/git-magic-files.html</link>
-      <description>📝 これらは git/ 内の設定ファイルではなく、コードとともに移動し、git によるファイルの処理方法に影響を与えるコミットされたファイルです。 gitattributes ファイルは各ディレクトリにあります。
+      <title>Loops はフェデレーション型のオープンソース TikTok です</title>
+      <link>https://joinloops.org/</link>
+      <description>📝 あなたを閉じ込めることのできないプラットフォーム上にコミュニティを構築します。 あなたの仲間を見つける発見ハッシュタグと検索 ハッシュタグでループをタグ付けし、トピックにジャンプし、プロフィールやビデオを検索してフェディバースのあなたのコーナーを見つけます。ループ開発のサポート あなたのスポンサーは、より良いフェディバースの構築に役立ちます。
 
 
-🔤 Original: Git's Magic Files
+🔤 Original: Loops is a federated, open-source TikTok
 
-🔗 Read more: https://nesbitt.io/2026/02/05/git-magic-files.html</description>
-      <guid isPermaLink="true">https://nesbitt.io/2026/02/05/git-magic-files.html</guid>
-      <pubDate>Sun, 22 Feb 2026 14:21:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47111218</comments>
+🔗 Read more: https://joinloops.org/</description>
+      <guid isPermaLink="true">https://joinloops.org/</guid>
+      <pubDate>Sun, 22 Feb 2026 18:56:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113618</comments>
     </item>
     <item>
-      <title>PubMed 上のすべての向知性研究を分析しました</title>
-      <link>https://outspeaker.com/post/217</link>
-      <guid isPermaLink="true">https://outspeaker.com/post/217</guid>
-      <pubDate>Sun, 22 Feb 2026 17:15:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47112719</comments>
+      <title>FreeBSD 上の Linuxulator は魔法のように感じます</title>
+      <link>https://hayzam.com/blog/02-linuxulator-is-awesome/</link>
+      <description>📝 しかし、私が取り組んでいるプロジェクトのほとんどは、組み込み Linux システム、OpenWRT デバイス、そして最近では FreeBSD ボックスなど、別の場所に存在しています。そんなことは何も起こりませんでした。 Linuxulator を介して Linux バイナリを透過的に実行する FreeBSD 上での高速、スムーズ、フル機能のリモート開発エクスペリエンス。
+
+
+🔤 Original: Linuxulator on FreeBSD Feels Like Magic
+
+🔗 Read more: https://hayzam.com/blog/02-linuxulator-is-awesome/</description>
+      <guid isPermaLink="true">https://hayzam.com/blog/02-linuxulator-is-awesome/</guid>
+      <pubDate>Sun, 22 Feb 2026 18:45:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113527</comments>
     </item>
     <item>
-      <title>HN を表示: エージェントをコーディングするための TLA+ ワークベンチ スキル (Vercel スキル CLI と互換性あり)</title>
-      <link>https://github.com/younes-io/agent-skills/tree/main/skills/tlaplus-workbench</link>
-      <guid isPermaLink="true">https://github.com/younes-io/agent-skills/tree/main/skills/tlaplus-workbench</guid>
-      <pubDate>Sun, 22 Feb 2026 13:44:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47110946</comments>
+      <title>こんにちは、Worg、Org-Mode コミュニティ</title>
+      <link>https://orgmode.org/worg/</link>
+      <description>📝 マシン上の Worg ドキュメント Worg をダウンロードします。 com reddit で組織モードのディスカッションを閲覧します。 com stackoverflow で組織モードの質問を参照してください。
+
+
+🔤 Original: Hello Worg, the Org-Mode Community
+
+🔗 Read more: https://orgmode.org/worg/</description>
+      <guid isPermaLink="true">https://orgmode.org/worg/</guid>
+      <pubDate>Sun, 22 Feb 2026 17:39:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47112925</comments>
+    </item>
+    <item>
+      <title>スペインはfreedom.govへのアクセスをブロックした</title>
+      <link>https://twitter.com/Pirat_Nation/status/2025643188321714642</link>
+      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x を引き続き使用するには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
+
+
+🔤 Original: Spain has blocked access to freedom.gov
+
+🔗 Read more: https://twitter.com/Pirat_Nation/status/2025643188321714642</description>
+      <guid isPermaLink="true">https://twitter.com/Pirat_Nation/status/2025643188321714642</guid>
+      <pubDate>Sun, 22 Feb 2026 20:17:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47114235</comments>
+    </item>
+    <item>
+      <title>数学の必需品 6 つ</title>
+      <link>https://terrytao.wordpress.com/2026/02/16/six-math-essentials/</link>
+      <description>📝 簡単な発表ですが、私はQuanta Booksと協力して、「Six Math Essentials」というタイトルの人気数学の短い本を出版しています。この本では、数学の基本概念の6つ（数、代数、幾何学、確率、解析、力学）と、それらが理論と応用の両方において、私たちの現実世界の直観、数学と科学の歴史、そして現代の数学の実践とどのように結びつくのかについて説明します。発売予定日は10月27日ですが、現在予約受付中です。これを共有します: 印刷 (新しいウィンドウで開きます) 印刷 友達にリンクを電子メールで送信 (新しいウィンドウで開きます) 電子メールでさらに詳しく X で共有 (新しいウィンドウで開きます) X Facebook で共有 (新しいウィンドウで開きます) Facebook Reddit で共有 (新しいウィンドウで開きます) Reddit Pinterest で共有 (新しいウィンドウで開きます) Pinterest いいね！
+
+
+🔤 Original: Six Math Essentials
+
+🔗 Read more: https://terrytao.wordpress.com/2026/02/16/six-math-essentials/</description>
+      <guid isPermaLink="true">https://terrytao.wordpress.com/2026/02/16/six-math-essentials/</guid>
+      <pubDate>Sun, 22 Feb 2026 19:21:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113796</comments>
+    </item>
+    <item>
+      <title>Symplex、分散エージェント間のオープンソース プロトコルのセマンティック ネゴシエーション</title>
+      <link>https://github.com/olserra/symplex</link>
+      <description>📝 エージェント セマンティック プロトコルとは何ですか。エージェント セマンティック プロトコルにより、AI エージェントはスキーマではなく意味によって通信できるようになります。 Register("エージェント-b", core.
+
+
+🔤 Original: Symplex, an open-source protocol semantic negotiation between distributed agents
+
+🔗 Read more: https://github.com/olserra/symplex</description>
+      <guid isPermaLink="true">https://github.com/olserra/symplex</guid>
+      <pubDate>Sun, 22 Feb 2026 19:20:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113793</comments>
+    </item>
+    <item>
+      <title>NanoClaw が Apple コンテナから Docker に移行</title>
+      <link>https://twitter.com/Gavriel_Cohen/status/2025603982769410356</link>
+      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x を引き続き使用するには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
+
+
+🔤 Original: NanoClaw Moved from Apple Containers to Docker
+
+🔗 Read more: https://twitter.com/Gavriel_Cohen/status/2025603982769410356</description>
+      <guid isPermaLink="true">https://twitter.com/Gavriel_Cohen/status/2025603982769410356</guid>
+      <pubDate>Sun, 22 Feb 2026 19:12:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113731</comments>
+    </item>
+    <item>
+      <title>ブラウザで Windows 3.11 をエミュレート</title>
+      <link>https://pieter.com/</link>
+      <description>📝 11 エミュレータ - ダイヤルアップ インターネットを備えたレトロ コンピューター by Pieter™ ❓ ヘルプ 💡 アイデア + 🪲 バグ by @levelsio + @bai0 全画面表示 読み込み中。 1 @2 #3 $4 %5 ^6 &amp;7 *8 (9 )0 _- += ← バックスペース タブ Q W E R T Y U I O P {[ }] |\ DEL CAPS A S D F G H J K L :; "' ⏎ ENTER ⇧ SHIFT Z X C V B N M ,. / ⇧ SHIFT ↑ PRINT CTRL ALT ALT ← ↓ →。
+
+
+🔤 Original: Emulated Windows 3.11 in the Browser
+
+🔗 Read more: https://pieter.com/</description>
+      <guid isPermaLink="true">https://pieter.com/</guid>
+      <pubDate>Sun, 22 Feb 2026 17:37:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47112892</comments>
+    </item>
+    <item>
+      <title>工場で建てられる住宅はカリフォルニアでは普及していない</title>
+      <link>https://www.latimes.com/california/story/2026-02-14/factory-built-housing-hasnt-taken-off-in-california-yet-but-this-year-might-be-different</link>
+      <description>📝 もし米国が住宅危機から抜け出す方法を大量生産できたらどうなるだろう。 HUD長官は、10年以内に全米の住宅建設の3分の2が「工業化されるだろう。わずかな国の援助で、2026年を住宅工場の年にしたいと考えている」と予測した。
+
+
+🔤 Original: Factory-built housing hasn't taken off in California
+
+🔗 Read more: https://www.latimes.com/california/story/2026-02-14/factory-built-housing-hasnt-taken-off-in-california-yet-but-this-year-might-be-different</description>
+      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-02-14/factory-built-housing-hasnt-taken-off-in-california-yet-but-this-year-might-be-different</guid>
+      <pubDate>Sun, 22 Feb 2026 19:33:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113892</comments>
+    </item>
+    <item>
+      <title>平気なジミー・ウェールズ氏、グロキペディアをウィキペディアの「漫画の模倣」と呼ぶ</title>
+      <link>https://gizmodo.com/an-unbothered-jimmy-wales-calls-grokipedia-a-cartoon-imitation-of-wikipedia-2000725070</link>
+      <description>📝 これらの有力者の最高の宝物はウィキペディアです。 「私はウィキペディアにアクセスします。それは人間が精査した知識だからです」とウェールズ氏は説明しました。ここでは AI モデルが失敗しても、それに対応する人間のモデルが輝いています。
+
+
+🔤 Original: An Unbothered Jimmy Wales Calls Grokipedia a 'Cartoon Imitation' of Wikipedia
+
+🔗 Read more: https://gizmodo.com/an-unbothered-jimmy-wales-calls-grokipedia-a-cartoon-imitation-of-wikipedia-2000725070</description>
+      <guid isPermaLink="true">https://gizmodo.com/an-unbothered-jimmy-wales-calls-grokipedia-a-cartoon-imitation-of-wikipedia-2000725070</guid>
+      <pubDate>Sun, 22 Feb 2026 19:18:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113769</comments>
+    </item>
+    <item>
+      <title>Black-White 配列: 高速で順序付けされ、O(log N) のメモリ割り当てに基づいています</title>
+      <link>https://github.com/dronnix/bwarr</link>
+      <description>📝 Black-White Array (別名 BWArr) は、$O(\log N)$ のメモリ割り当てを持つ配列に基づく、高速で順序付けられたデータ構造です。一連の呼び出しの償却後の複雑さは $O(\log N)$ のままです。ベンチマーク Google BTree と比較したベンチマーク。
+
+
+🔤 Original: Black-White Array: fast, ordered and based on with O(log N) memory allocations
+
+🔗 Read more: https://github.com/dronnix/bwarr</description>
+      <guid isPermaLink="true">https://github.com/dronnix/bwarr</guid>
+      <pubDate>Sun, 22 Feb 2026 19:19:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113782</comments>
+    </item>
+    <item>
+      <title>(悪い) ローカル AI コーディング エージェント ハーネスを最初から構築する</title>
+      <link>https://www.appsoftware.com/blog/building-a-bad-local-ai-coding-agent-harness-from-scratch</link>
+      <description>📝 中心となる概念 実証されたエージェント ループ エージェント ループは、実際には、ユーザーとエージェントの対話の履歴を維持する再帰ループです。ハーネスはこれらのコマンドを自動的に検出して実行します。ハーネスは、モデル名、完全な会話履歴、stream: true を指定して POST /api/chat リクエストを送信します。
+
+
+🔤 Original: Building a (Bad) Local AI Coding Agent Harness from Scratch
+
+🔗 Read more: https://www.appsoftware.com/blog/building-a-bad-local-ai-coding-agent-harness-from-scratch</description>
+      <guid isPermaLink="true">https://www.appsoftware.com/blog/building-a-bad-local-ai-coding-agent-harness-from-scratch</guid>
+      <pubDate>Sun, 22 Feb 2026 19:09:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47113708</comments>
     </item>
   </channel>
 </rss>
