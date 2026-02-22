@@ -6,158 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 21 Feb 2026 21:25:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 02:08:11 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>EDuke32 – Duke Nukem 3D(오픈 소스)</title>
-      <link>https://www.eduke32.com/</link>
-      <description>📝 EDuke32는 멋진 무료 홈브류 게임 엔진이자 클래식 PC 1인칭 슈팅 게임인 Duke Nukem 3D(줄여서 Duke3D)의 소스 포트입니다. Windows, Linux, macOS, FreeBSD, 여러 휴대용 장치, 가족 토스터 및 여자친구의 진동기에 대한 소스 포트입니다. 원래 Ken Silverman이 만든 BUILD 엔진 기술, EDuke32에서 사용되는 비 GPL 렌더링 및 엔진 기술은 BUILDLIC에서 사용할 수 있습니다. EDuke32가 훌륭하다고 생각하고 우리를 연결하고 싶어합니다.
+      <title>클로드코드 활용법: 기획과 실행의 분리</title>
+      <link>https://boristane.com/blog/how-i-use-claude-code/</link>
+      <description>📝 상세한 계획을 작성하세요. 상세한 계획을 작성하세요. Claude Code의 내장 계획 모드가 아닌 md 계획 파일입니다.
 
 
-🔤 Original: EDuke32 – Duke Nukem 3D (Open-Source)
+🔤 Original: How I use Claude Code: Separation of planning and execution
 
-🔗 Read more: https://www.eduke32.com/</description>
-      <guid isPermaLink="true">https://www.eduke32.com/</guid>
-      <pubDate>Sat, 21 Feb 2026 20:10:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47104185</comments>
+🔗 Read more: https://boristane.com/blog/how-i-use-claude-code/</description>
+      <guid isPermaLink="true">https://boristane.com/blog/how-i-use-claude-code/</guid>
+      <pubDate>Sun, 22 Feb 2026 00:29:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47106686</comments>
     </item>
     <item>
-      <title>Rust의 구문 분석, 검증 안 함 및 유형 기반 디자인</title>
-      <link>https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/</link>
-      <description>📝 하지만 그것은 어떤 모습일까요? 예를 들어, f32와 같은 유형이 있지만 절대 0이 되지 않는다는 것이 보장된다고 가정해 보겠습니다. 그리고 그 약화는 설명입니다.
+      <title>컴파일러는 결정적인가요?</title>
+      <link>https://blog.onepatchdown.net/2026/02/22/are-compilers-deterministic-nerd-version/</link>
+      <description>📝 컴파일러는 결정적입니까? 동일한 의도, 다른 기계 코드. 그 차이점은 중요합니다: 결정론적 컴파일러: 동일한 완전한 입력 튜플 -&gt; 동일한 출력 재현 가능 빌드: 두 개의 독립 빌더가 비트 동일한 출력을 다시 생성합니다. 신뢰할 수 있는 툴체인: 차이점은 기능적으로 거의 중요하지 않습니다. 관련 개념, 동등 보장은 아닙니다.
 
 
-🔤 Original: Parse, Don't Validate and Type-Driven Design in Rust
+🔤 Original: Are compilers deterministic?
 
-🔗 Read more: https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/</description>
-      <guid isPermaLink="true">https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/</guid>
-      <pubDate>Sat, 21 Feb 2026 19:40:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103931</comments>
+🔗 Read more: https://blog.onepatchdown.net/2026/02/22/are-compilers-deterministic-nerd-version/</description>
+      <guid isPermaLink="true">https://blog.onepatchdown.net/2026/02/22/are-compilers-deterministic-nerd-version/</guid>
+      <pubDate>Sun, 22 Feb 2026 00:21:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47106626</comments>
     </item>
     <item>
-      <title>추론 제공자가 양자화된 모델을 제공하지 않음을 증명하는 방법</title>
-      <link>https://tinfoil.sh/blog/2026-02-03-proving-model-identity</link>
-      <description>📝 Andon Labs는 Kimi K2를 시연합니다. 비결은 엔클레이브에 데이터의 예상 해시와 로드된 후 해당 해시를 확인하는 일부 코드가 모두 포함되어 있음을 증명하는 것입니다. 머클 트리 모델의 무게가 140GB라고 가정합니다.
+      <title>HN 표시: CPU를 우회하는 NVMe-GPU를 통해 단일 RTX 3090의 Llama 3.1 70B</title>
+      <link>https://github.com/xaskasdf/ntransformer</link>
+      <description>📝 주요 결과 모델 모드 VRAM 디코딩 참고 Llama 3. 0GB VRAM Llama 3의 모든 레이어. 3GB 32/32 레이어가 VRAM Llama 3으로 자동 승격됩니다.
 
 
-🔤 Original: How an inference provider can prove they're not serving a quantized model
+🔤 Original: Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU
 
-🔗 Read more: https://tinfoil.sh/blog/2026-02-03-proving-model-identity</description>
-      <guid isPermaLink="true">https://tinfoil.sh/blog/2026-02-03-proving-model-identity</guid>
-      <pubDate>Sat, 21 Feb 2026 06:53:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47098172</comments>
+🔗 Read more: https://github.com/xaskasdf/ntransformer</description>
+      <guid isPermaLink="true">https://github.com/xaskasdf/ntransformer</guid>
+      <pubDate>Sat, 21 Feb 2026 20:57:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47104667</comments>
     </item>
     <item>
-      <title>토요타 미라이 수소차 감가상각: 1년 만에 65% 가치 손실</title>
-      <link>https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/</link>
-      <description>📝 Toyota Mirai: 개요 2021 - 2025 Toyota Mirai 외관Toyota 2025 Toyota Mirai 파워트레인 One 전기 모터(수소 연료 전지) 출력 182hp 토크 220lb-ft 0-60mph 9. 2021 - 2025 Toyota Mirai 외관Toyota 2020년에는 2세대 Mirai가 출시되어 2021년 모델로 판매될 예정입니다. 년. 2021~2025년 중고 시장에서의 Mirai 가격 Toyota Mirai 외관Toyota Mirai는 극도로 빠른 감가상각을 경험했습니다.
-
-
-🔤 Original: Toyota Mirai hydrogen car depreciation: 65% value loss in a year
-
-🔗 Read more: https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/</description>
-      <guid isPermaLink="true">https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/</guid>
-      <pubDate>Sat, 21 Feb 2026 18:09:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103136</comments>
+      <title>순진한 병아리의 부바키키 효과에 대한 증거</title>
+      <link>https://www.science.org/doi/10.1126/science.adq7188</link>
+      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.adq7188</guid>
+      <pubDate>Sat, 21 Feb 2026 21:51:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47105198</comments>
     </item>
     <item>
-      <title>Inputlag.science – 게임의 입력 지연에 대한 지식 저장소</title>
-      <link>https://inputlag.science</link>
-      <description>📝 안녕하세요 여행자님, 게임의 입력 지연에 대한 지식 저장소에 오신 것을 환영합니다. 지연 시간이 증가하는 이유는 주로 시스템이 점점 더 복잡해지고 개발자가 지연 시간에 영향을 줄 수 있는 각 부분을 모르거나 이해하지 못하는 경우가 많기 때문입니다. 이 웹사이트는 개발자와 소비자가 지연 문제와 이를 해결하는 방법을 더 잘 이해할 수 있도록 돕기 위해 만들어졌습니다.
-
-
-🔤 Original: Inputlag.science – Repository of knowledge about input lag in gaming
-
-🔗 Read more: https://inputlag.science</description>
-      <guid isPermaLink="true">https://inputlag.science</guid>
-      <pubDate>Sat, 21 Feb 2026 19:41:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103945</comments>
+      <title>AI 에이전트가 생산을 중단하면 누가 책임을 지게 됩니까?</title>
+      <link>https://reading.sh/whos-liable-when-your-ai-agent-burns-down-production-039193d82746?sk=4921ed2dbc46f0c618835ac458cf5051</link>
+      <guid isPermaLink="true">https://reading.sh/whos-liable-when-your-ai-agent-burns-down-production-039193d82746?sk=4921ed2dbc46f0c618835ac458cf5051</guid>
+      <pubDate>Sat, 21 Feb 2026 23:52:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47106406</comments>
     </item>
     <item>
-      <title>CIA 분석가의 개인 진술</title>
-      <link>https://antipolygraph.org/statements/statement-038.shtml</link>
-      <description>📝 그런 다음 그녀는 거짓말 탐지기에 대해 읽어 보았는지 물었습니다. 심사위원이 돌아왔습니다. 그녀는 내가 알지 못했던 내 안의 무엇인가를 보았던 것입니다.
+      <title>온라인 페블 개발</title>
+      <link>https://cloudpebble.repebble.com/</link>
+      <description>📝 온라인 Pebble 개발 Linux, 가상 머신, 컴파일러 또는 Python을 다루지 않고 앱을 작성하세요. 어디에서나 접근 가능합니다. 앞으로 더 많은 것이 있습니다.
 
 
-🔤 Original: Personal Statement of a CIA Analyst
+🔤 Original: Online Pebble Development
 
-🔗 Read more: https://antipolygraph.org/statements/statement-038.shtml</description>
-      <guid isPermaLink="true">https://antipolygraph.org/statements/statement-038.shtml</guid>
-      <pubDate>Sat, 21 Feb 2026 17:49:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47102975</comments>
+🔗 Read more: https://cloudpebble.repebble.com/</description>
+      <guid isPermaLink="true">https://cloudpebble.repebble.com/</guid>
+      <pubDate>Sat, 21 Feb 2026 20:50:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47104613</comments>
     </item>
     <item>
-      <title>Canvas_ity: 작은 단일 헤더 &lt;canvas&gt;와 유사한 C++용 2D 래스터라이저</title>
-      <link>https://github.com/a-e-k/canvas_ity</link>
-      <description>📝 set_color( canvas_ity::fill_style, 1. set_linear_gradient( canvas_ity::fill_style, 64. add_color_stop( canvas_ity::fill_style, 0.
+      <title>Claude가 Electron 앱인 이유는 무엇인가요?</title>
+      <link>https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html</link>
+      <description>📝 하지만 이제 코딩 에이전트가 생겼습니다. 현재로서는 Electron이 여전히 의미가 있습니다. 코딩 에이전트는 놀랍습니다.
 
 
-🔤 Original: Canvas_ity: A tiny, single-header &lt;canvas&gt;-like 2D rasterizer for C++
+🔤 Original: Why is Claude an Electron app?
 
-🔗 Read more: https://github.com/a-e-k/canvas_ity</description>
-      <guid isPermaLink="true">https://github.com/a-e-k/canvas_ity</guid>
-      <pubDate>Sat, 21 Feb 2026 18:50:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103506</comments>
-    </item>
-    <item>
-      <title>zclaw: ESP32에서 실행되는 888KB 미만의 개인 AI 비서</title>
-      <link>https://github.com/tnm/zclaw</link>
-      <description>📝 전체 문서 README(웹) 전체 README(축어적) 빠른 시작 한 줄 부트스트랩(macOS/Linux): bash &lt;(curl -fsSL https://raw. /scripts/flash-secure. /scripts/flash-secure.
-
-
-🔤 Original: zclaw: personal AI assistant in under 888 KB, running on an ESP32
-
-🔗 Read more: https://github.com/tnm/zclaw</description>
-      <guid isPermaLink="true">https://github.com/tnm/zclaw</guid>
-      <pubDate>Sat, 21 Feb 2026 12:37:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47100232</comments>
-    </item>
-    <item>
-      <title>2026년 2월 20일 Cloudflare 중단</title>
-      <link>https://blog.cloudflare.com/cloudflare-outage-february-20-2026/</link>
-      <description>📝 이 변경으로 인해 Cloudflare는 의도치 않게 고객 접두사를 철회했습니다. 그러나 엔지니어가 변경 사항을 되돌리기 전에 최대 1,100개의 BYOIP 접두사가 Cloudflare 네트워크에서 철회되었습니다. 총 4,306개의 BYOIP 접두사 중 BYOIP 접두사의 25%가 의도치 않게 철회되었습니다.
-
-
-🔤 Original: Cloudflare outage on February 20, 2026
-
-🔗 Read more: https://blog.cloudflare.com/cloudflare-outage-february-20-2026/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/cloudflare-outage-february-20-2026/</guid>
-      <pubDate>Sat, 21 Feb 2026 19:05:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103649</comments>
-    </item>
-    <item>
-      <title>Loon: 보이지 않는 유형, 안전한 소유권 및 alg를 갖춘 기능적 언어입니다. 효과</title>
-      <link>https://loonlang.com</link>
-      <guid isPermaLink="true">https://loonlang.com</guid>
-      <pubDate>Fri, 20 Feb 2026 21:45:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47094429</comments>
-    </item>
-    <item>
-      <title>MeshTNC는 소비자 등급 LoRa 무전기를 KISS TNC 호환 장치로 전환하는 도구입니다.</title>
-      <link>https://github.com/datapartyjs/MeshTNC</link>
-      <description>📝 직렬 CLI MeshTNC 펌웨어는 처음에 사람이 읽을 수 있는 직렬 모드에서 시작됩니다. KISS 모드 활성화 직렬 콘솔을 열고 MeshTNC 장치 직렬 모드에 연결 Kiss KISS 모드 종료 KISS 모드를 종료하고 CLI 모드로 돌아가려면 다음과 같이 KISS 종료 시퀀스를 보낼 수 있습니다: echo -ne '\xC0\xFF\xC0' &gt; /dev/ttyUSBx 이 작업을 수행하려면 LoRa를 통한 stty APRS를 사용하여 직렬 포트의 설정과 전송 속도가 올바르게 설정되어 있는지 확인하십시오. MeshTNC와 함께 자주 사용하는 APRS 도구를 사용할 수 있습니다. MeshTNC CLI에서 적절한 무선 설정을 지정하십시오. MeshTNC CLI에서 KISS 모드로 들어갑니다. KISS 모드로 들어간 후 터미널 프로그램을 종료하여 직렬 포트를 해제하십시오.
-
-
-🔤 Original: MeshTNC is a tool for turning consumer grade LoRa radios into KISS TNC compatib
-
-🔗 Read more: https://github.com/datapartyjs/MeshTNC</description>
-      <guid isPermaLink="true">https://github.com/datapartyjs/MeshTNC</guid>
-      <pubDate>Sat, 21 Feb 2026 20:14:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47104223</comments>
-    </item>
-    <item>
-      <title>A16Z 파트너는 우리가 모든 것을 바이브 코드로 만들 것이라는 이론은 '잘못'이라고 말합니다.</title>
-      <link>https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html</link>
-      <description>📝 Shubhangi Goel, 2026년 2월 10일 오전 5시 1분(UTC0) A16z GP는 소프트웨어 재고가 완전히 과매도되었다고 말했습니다. AI는 엔터프라이즈 소프트웨어를 재구축하는 것이 아니라 핵심 비즈니스 개발에 집중해야 합니다. A16z 파트너는 지난주에 큰 폭의 하락세를 보인 소프트웨어 주식이 과매도되었다고 덧붙였습니다.
-
-
-🔤 Original: A16Z partner says that the theory that we'll vibe code everything is ' wrong'
-
-🔗 Read more: https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html</description>
-      <guid isPermaLink="true">https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html</guid>
-      <pubDate>Fri, 20 Feb 2026 22:47:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47095105</comments>
+🔗 Read more: https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html</description>
+      <guid isPermaLink="true">https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html</guid>
+      <pubDate>Sat, 21 Feb 2026 21:28:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47104973</comments>
     </item>
   </channel>
 </rss>

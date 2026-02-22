@@ -6,158 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Feb 2026 21:25:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 02:08:11 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>EDuke32 – 毁灭公爵 3D（开源）</title>
-      <link>https://www.eduke32.com/</link>
-      <description>📝 EDuke32 是一款非常棒的免费自制游戏引擎，也是经典 PC 第一人称射击游戏 Duke Nukem 3D（简称 Duke3D）的源代码移植到 Windows、Linux、macOS、FreeBSD、多种手持设备、家庭烤面包机和女朋友的振动器。 BUILD 引擎技术最初由 Ken Silverman 创建，EDuke32 中使用的非 GPL 渲染和引擎技术可在 BUILDLIC 下使用。认为 EDuke32 很棒并想联系我们。
+      <title>我如何使用克劳德代码：计划和执行分离</title>
+      <link>https://boristane.com/blog/how-i-use-claude-code/</link>
+      <description>📝 写一个详细的计划。写一个详细的计划。 md 计划文件而不是 Claude Code 的内置计划模式。
 
 
-🔤 Original: EDuke32 – Duke Nukem 3D (Open-Source)
+🔤 Original: How I use Claude Code: Separation of planning and execution
 
-🔗 Read more: https://www.eduke32.com/</description>
-      <guid isPermaLink="true">https://www.eduke32.com/</guid>
-      <pubDate>Sat, 21 Feb 2026 20:10:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47104185</comments>
+🔗 Read more: https://boristane.com/blog/how-i-use-claude-code/</description>
+      <guid isPermaLink="true">https://boristane.com/blog/how-i-use-claude-code/</guid>
+      <pubDate>Sun, 22 Feb 2026 00:29:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47106686</comments>
     </item>
     <item>
-      <title>Rust 中的解析、不验证和类型驱动设计</title>
-      <link>https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/</link>
-      <description>📝 但那会是什么样子呢？假设我们有一个类似于 f32 的类型，但它保证永远不会为零。这种削弱是可以描述的。
+      <title>编译器是确定性的吗？</title>
+      <link>https://blog.onepatchdown.net/2026/02/22/are-compilers-deterministic-nerd-version/</link>
+      <description>📝 编译器是确定性的吗？相同的意图，不同的机器代码。这种区别很重要：确定性编译器：相同的完整输入元组 -&gt; 相同的输出可重现构建：两个独立的构建器重新创建位相同的输出可靠的工具链：差异在功能上很少重要相关概念，而不是等效保证。
 
 
-🔤 Original: Parse, Don't Validate and Type-Driven Design in Rust
+🔤 Original: Are compilers deterministic?
 
-🔗 Read more: https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/</description>
-      <guid isPermaLink="true">https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/</guid>
-      <pubDate>Sat, 21 Feb 2026 19:40:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103931</comments>
+🔗 Read more: https://blog.onepatchdown.net/2026/02/22/are-compilers-deterministic-nerd-version/</description>
+      <guid isPermaLink="true">https://blog.onepatchdown.net/2026/02/22/are-compilers-deterministic-nerd-version/</guid>
+      <pubDate>Sun, 22 Feb 2026 00:21:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47106626</comments>
     </item>
     <item>
-      <title>推理提供者如何证明他们没有提供量化模型</title>
-      <link>https://tinfoil.sh/blog/2026-02-03-proving-model-identity</link>
-      <description>📝 Andon 实验室展示了 Kimi K2。诀窍是证明 enclave 包含预期的数据哈希值和一些在加载后检查该哈希值的代码。 Merkle Tree 假设模型权重为 140GB。
+      <title>显示 HN：在单个 RTX 3090 上通过 NVMe 到 GPU 绕过 CPU 的 Llama 3.1 70B</title>
+      <link>https://github.com/xaskasdf/ntransformer</link>
+      <description>📝 主要结果 模型模式解码 VRAM 注释 Llama 3。0 GB VRAM Llama 3 中的所有层。3 GB 32/32 层自动升级为 VRAM Llama 3。
 
 
-🔤 Original: How an inference provider can prove they're not serving a quantized model
+🔤 Original: Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU
 
-🔗 Read more: https://tinfoil.sh/blog/2026-02-03-proving-model-identity</description>
-      <guid isPermaLink="true">https://tinfoil.sh/blog/2026-02-03-proving-model-identity</guid>
-      <pubDate>Sat, 21 Feb 2026 06:53:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47098172</comments>
+🔗 Read more: https://github.com/xaskasdf/ntransformer</description>
+      <guid isPermaLink="true">https://github.com/xaskasdf/ntransformer</guid>
+      <pubDate>Sat, 21 Feb 2026 20:57:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47104667</comments>
     </item>
     <item>
-      <title>丰田Mirai氢动力汽车折旧：一年内价值损失65%</title>
-      <link>https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/</link>
-      <description>📝 丰田 Mirai：概述 2021 - 2025 丰田 Mirai 外观丰田 2025 丰田 Mirai 动力系统 一台电动机（氢燃料电池） 功率 182 马力 扭矩 220 磅英尺 0-60 英里/小时 9. 2021 - 2025 丰田 Mirai 外观丰田 2020 年推出了第二代 Mirai，并开始销售 2021 款车型年。 Mirai 在二手市场上的定价 2021 - 2025 丰田 Mirai 外观丰田 Mirai 经历了极其快速的贬值。
-
-
-🔤 Original: Toyota Mirai hydrogen car depreciation: 65% value loss in a year
-
-🔗 Read more: https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/</description>
-      <guid isPermaLink="true">https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/</guid>
-      <pubDate>Sat, 21 Feb 2026 18:09:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103136</comments>
+      <title>幼雏中布巴奇奇效应的证据</title>
+      <link>https://www.science.org/doi/10.1126/science.adq7188</link>
+      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.adq7188</guid>
+      <pubDate>Sat, 21 Feb 2026 21:51:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47105198</comments>
     </item>
     <item>
-      <title>Inputlag.science – 有关游戏输入延迟的知识库</title>
-      <link>https://inputlag.science</link>
-      <description>📝 欢迎光临 旅行者您好，欢迎来到游戏输入延迟知识库。延迟上升背后的原因主要是系统变得越来越复杂，开发人员通常不知道或不了解可能影响延迟的每个部分。该网站旨在帮助开发人员和消费者更好地了解延迟问题以及如何解决这些问题。
-
-
-🔤 Original: Inputlag.science – Repository of knowledge about input lag in gaming
-
-🔗 Read more: https://inputlag.science</description>
-      <guid isPermaLink="true">https://inputlag.science</guid>
-      <pubDate>Sat, 21 Feb 2026 19:41:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103945</comments>
+      <title>当你的人工智能代理烧毁生产时谁该负责？</title>
+      <link>https://reading.sh/whos-liable-when-your-ai-agent-burns-down-production-039193d82746?sk=4921ed2dbc46f0c618835ac458cf5051</link>
+      <guid isPermaLink="true">https://reading.sh/whos-liable-when-your-ai-agent-burns-down-production-039193d82746?sk=4921ed2dbc46f0c618835ac458cf5051</guid>
+      <pubDate>Sat, 21 Feb 2026 23:52:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47106406</comments>
     </item>
     <item>
-      <title>中央情报局分析师的个人陈述</title>
-      <link>https://antipolygraph.org/statements/statement-038.shtml</link>
-      <description>📝 然后她问我是否读过有关测谎仪的内容。考官回来了。她在我内心看到了一些我不知道的东西。
+      <title>在线Pebble开发</title>
+      <link>https://cloudpebble.repebble.com/</link>
+      <description>📝 在线 Pebble 开发 编写应用程序，无需处理 Linux、虚拟机、编译器或 Python。可从任何地方访问。还有更多的事情要做。
 
 
-🔤 Original: Personal Statement of a CIA Analyst
+🔤 Original: Online Pebble Development
 
-🔗 Read more: https://antipolygraph.org/statements/statement-038.shtml</description>
-      <guid isPermaLink="true">https://antipolygraph.org/statements/statement-038.shtml</guid>
-      <pubDate>Sat, 21 Feb 2026 17:49:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47102975</comments>
+🔗 Read more: https://cloudpebble.repebble.com/</description>
+      <guid isPermaLink="true">https://cloudpebble.repebble.com/</guid>
+      <pubDate>Sat, 21 Feb 2026 20:50:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47104613</comments>
     </item>
     <item>
-      <title>Canvas_ity：用于 C++ 的小型单标头 &lt;canvas&gt; 式 2D 光栅器</title>
-      <link>https://github.com/a-e-k/canvas_ity</link>
-      <description>📝 set_color( canvas_ity::fill_style, 1. set_linear_gradient( canvas_ity::fill_style, 64. add_color_stop( canvas_ity::fill_style, 0.
+      <title>为什么 Claude 是一个 Electron 应用程序？</title>
+      <link>https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html</link>
+      <description>📝 但现在我们有了编码代理。目前，Electron 仍然有意义。编码代理是惊人的。
 
 
-🔤 Original: Canvas_ity: A tiny, single-header &lt;canvas&gt;-like 2D rasterizer for C++
+🔤 Original: Why is Claude an Electron app?
 
-🔗 Read more: https://github.com/a-e-k/canvas_ity</description>
-      <guid isPermaLink="true">https://github.com/a-e-k/canvas_ity</guid>
-      <pubDate>Sat, 21 Feb 2026 18:50:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103506</comments>
-    </item>
-    <item>
-      <title>zclaw：个人人工智能助手，小于 888 KB，在 ESP32 上运行</title>
-      <link>https://github.com/tnm/zclaw</link>
-      <description>📝 完整文档自述文件 (web) 完整自述文件（逐字记录） 快速入门 单行引导程序 (macOS/Linux)：bash &lt;(curl -fsSL https://raw./scripts/flash-secure./scripts/flash-secure.
-
-
-🔤 Original: zclaw: personal AI assistant in under 888 KB, running on an ESP32
-
-🔗 Read more: https://github.com/tnm/zclaw</description>
-      <guid isPermaLink="true">https://github.com/tnm/zclaw</guid>
-      <pubDate>Sat, 21 Feb 2026 12:37:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47100232</comments>
-    </item>
-    <item>
-      <title>Cloudflare 于 2026 年 2 月 20 日中断</title>
-      <link>https://blog.cloudflare.com/cloudflare-outage-february-20-2026/</link>
-      <description>📝 此更改导致 Cloudflare 无意中撤回客户前缀。然而，在工程师能够恢复更改之前，约 1,100 个 BYOIP 前缀已从 Cloudflare 网络中撤回。在 4,306 个 BYOIP 前缀中，25% 的 BYOIP 前缀被无意撤回。
-
-
-🔤 Original: Cloudflare outage on February 20, 2026
-
-🔗 Read more: https://blog.cloudflare.com/cloudflare-outage-february-20-2026/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/cloudflare-outage-february-20-2026/</guid>
-      <pubDate>Sat, 21 Feb 2026 19:05:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47103649</comments>
-    </item>
-    <item>
-      <title>Loon：一种具有不可见类型、安全所有权和 alg 的函数式 lang。效果</title>
-      <link>https://loonlang.com</link>
-      <guid isPermaLink="true">https://loonlang.com</guid>
-      <pubDate>Fri, 20 Feb 2026 21:45:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47094429</comments>
-    </item>
-    <item>
-      <title>MeshTNC 是一款将消费级 LoRa 无线电转变为 KISS TNC 兼容工具</title>
-      <link>https://github.com/datapartyjs/MeshTNC</link>
-      <description>📝 串行 CLI MeshTNC 固件最初以人类可读的串行模式启动。启用 KISS 模式 打开串行控制台并连接到 MeshTNC 设备串行模式 Kiss 退出 KISS 模式 要退出 KISS 模式并返回 CLI 模式，您可以发送 KISS 退出序列，如下所示： echo -ne '\xC0\xFF\xC0' &gt; /dev/ttyUSBx 要使此功能正常工作，请确保使用 stty APRS over LoRa 正确设置串行端口设置和波特率 您可以在 MeshTNC 中使用您最喜欢的 APRS 工具。在MeshTNC CLI 上分配正确的无线电设置 在MeshTNC CLI 上进入KISS 模式 进入KISS 模式后，请退出终端程序以释放串行端口。
-
-
-🔤 Original: MeshTNC is a tool for turning consumer grade LoRa radios into KISS TNC compatib
-
-🔗 Read more: https://github.com/datapartyjs/MeshTNC</description>
-      <guid isPermaLink="true">https://github.com/datapartyjs/MeshTNC</guid>
-      <pubDate>Sat, 21 Feb 2026 20:14:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47104223</comments>
-    </item>
-    <item>
-      <title>A16Z 合作伙伴表示，我们将对一切进行振动编码的理论是“错误的”</title>
-      <link>https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html</link>
-      <description>📝 Shubhangi Goel，星期二，2026 年 2 月 10 日凌晨 5:01（UTC）0A16z GP 表示软件股票已完全超卖。人工智能应该专注于核心业务开发，而不是重建企业软件。 A16z 合伙人补充说，上周遭受重挫的软件股已经超卖。
-
-
-🔤 Original: A16Z partner says that the theory that we'll vibe code everything is ' wrong'
-
-🔗 Read more: https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html</description>
-      <guid isPermaLink="true">https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html</guid>
-      <pubDate>Fri, 20 Feb 2026 22:47:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47095105</comments>
+🔗 Read more: https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html</description>
+      <guid isPermaLink="true">https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html</guid>
+      <pubDate>Sat, 21 Feb 2026 21:28:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47104973</comments>
     </item>
   </channel>
 </rss>
