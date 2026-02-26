@@ -6,383 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 26 Feb 2026 09:52:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 13:07:42 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>"다음 단어 예측"에서 어떻게 여기까지 왔는지 모르겠습니다.</title>
-      <link>https://www.grumpy-economist.com/p/refine</link>
-      <description>📝 나는 가치 평가 방정식 문제의 인과적 해석을 실제로 강조하지는 않았습니다. 가치 평가 방정식은 인플레이션이 어떻게 잉여를 유발하는지, 아니면 잉여가 어떻게 인플레이션을 유발하는지 표현합니까? 5에서는 할인율과 이자 비용이 잉여의 현재 가치(분모)의 핵심임을 강조합니다. 채권 가격을 압축하는 실질 금리 상승은 일반적으로 할인을 통해 잉여금의 현재 가치를 낮추거나 이자 비용을 증가시킵니다.
-
-
-🔤 Original: I don't know how you get here from "predict the next word."
-
-🔗 Read more: https://www.grumpy-economist.com/p/refine</description>
-      <guid isPermaLink="true">https://www.grumpy-economist.com/p/refine</guid>
-      <pubDate>2026-02-26 04:59:01</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47162059</comments>
+      <title>HN 표시: 터미널 전화 – 명령줄에서 E2EE 워키토키</title>
+      <link>https://gitlab.com/here_forawhile/terminalphone</link>
+      <guid isPermaLink="true">https://gitlab.com/here_forawhile/terminalphone</guid>
+      <pubDate>Thu, 26 Feb 2026 10:40:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47164270</comments>
     </item>
     <item>
-      <title>HN 표시: OpenSwarm – Linear/GitHub용 다중 에이전트 Claude CLI Orchestrator</title>
-      <link>https://github.com/Intrect-io/OpenSwarm</link>
-      <description>📝 OpenSwarm Claude Code CLI로 구동되는 자율 AI 에이전트 오케스트레이터 OpenSwarm은 여러 Claude Code 인스턴스를 자율 에이전트로 오케스트레이션합니다. 선형 문제를 포착하고, 작업자/검토자 쌍 파이프라인을 실행하여 코드 변경 사항을 생성하고, 진행 상황을 Discord에 보고하고, LanceDB 벡터 임베딩을 통해 장기 메모리를 유지합니다. 필수 비밀이 포함된 env 파일: DISCORD_TOKEN=your-discord-bot-token DISCORD_CHANNEL_ID=your-channel-id LINEAR_API_KEY=your-linear-api-key LINEAR_TEAM_ID=your-linear-team-id config.
+      <title>펜타닐 개조: 핵심 구조 재설계로 더 안전한 진통제로 이어질 수 있음</title>
+      <link>https://www.scripps.edu/news-and-events/press-room/2026/20260211-janda-molecule.html</link>
+      <description>📝 Scripps Research의 화학자들은 호흡 저하를 줄이면서 통증 완화 특성을 유지하는 변형된 약물 구조(오른쪽)를 개발했습니다. 이제 Scripps Research의 화학자들은 펜타닐의 분자 구조를 수정하여 통증 완화 특성을 완전히 유지하면서 호흡 저하를 줄이는 버전을 개발했습니다. 2-아자스피로[3.
 
 
-🔤 Original: Show HN: OpenSwarm – Multi‑Agent Claude CLI Orchestrator for Linear/GitHub
+🔤 Original: Fentanyl makeover: Core structural redesign could lead to safer pain medications
 
-🔗 Read more: https://github.com/Intrect-io/OpenSwarm</description>
-      <guid isPermaLink="true">https://github.com/Intrect-io/OpenSwarm</guid>
-      <pubDate>2026-02-26 02:19:02</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47160980</comments>
+🔗 Read more: https://www.scripps.edu/news-and-events/press-room/2026/20260211-janda-molecule.html</description>
+      <guid isPermaLink="true">https://www.scripps.edu/news-and-events/press-room/2026/20260211-janda-molecule.html</guid>
+      <pubDate>Thu, 26 Feb 2026 12:44:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47165299</comments>
     </item>
     <item>
-      <title>AI가 생성한 3D 경사면 부검</title>
-      <link>https://aircada.com/blog/ai-vs-human-3d-ecommerce</link>
-      <description>📝 Trellis는 약 8초 만에 모델을 생성해 빠르게 느껴졌습니다. 모델 크기가 1MB에 불과해 작게 느껴졌습니다. 어쩌면 이것이 효과가 있을 수도 있습니다.
+      <title>HN 표시: Agent Swarm – 다중 에이전트 자가 학습 팀(OSS)</title>
+      <link>https://github.com/desplega-ai/agent-swarm</link>
+      <description>📝 에이전트 스웜 에이전트 스웜. 리드 에이전트는 사용자, Slack 또는 GitHub로부터 작업을 수신하고 이를 분류한 후 Docker 컨테이너에서 실행되는 작업자 에이전트에 위임합니다. /work/worker-1 bun run docker:run:worker 옵션 C: Claude Code를 리드 에이전트로 사용 Claude Code를 리드 에이전트로 직접 사용하세요. 리드에는 Docker가 필요하지 않습니다.
 
 
-🔤 Original: An autopsy of AI-generated 3D slop
+🔤 Original: Show HN: Agent Swarm – Multi-agent self-learning teams (OSS)
 
-🔗 Read more: https://aircada.com/blog/ai-vs-human-3d-ecommerce</description>
-      <guid isPermaLink="true">https://aircada.com/blog/ai-vs-human-3d-ecommerce</guid>
-      <pubDate>2026-02-25 21:05:15</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47157841</comments>
+🔗 Read more: https://github.com/desplega-ai/agent-swarm</description>
+      <guid isPermaLink="true">https://github.com/desplega-ai/agent-swarm</guid>
+      <pubDate>Thu, 26 Feb 2026 12:15:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47165046</comments>
     </item>
     <item>
-      <title>자체 개선 소프트웨어는 Skynet을 생성하지 않습니다.</title>
-      <link>https://contalign.jefflunt.com/self-improving-software/</link>
-      <description>📝 자율 업데이트: 방금 작성한 최근 코드 변경 사항을 기반으로 동일한 문서를 자동으로 업데이트할 수 있습니다. 이는 지속적인 피드백 루프를 생성합니다. 이 모델에서 문서는 정적 결과물이 아닙니다. 이는 코드와 함께 발전하는 시스템의 살아있는 부분입니다.
+      <title>기술적 우수성만으로는 충분하지 않습니다</title>
+      <link>https://raccoon.land/posts/technical-excellence-is-not-enough/</link>
+      <description>📝 그들은 변화에 반대표를 던졌습니다. 당신이 그것을 막으려고 노력할 때, 당신은 마찰을 일으키고 있습니다. 그것은 사람들을 얼마나 불편하게 하는지에 따라 확장됩니다.
 
 
-🔤 Original: Self-improving software won't produce Skynet
+🔤 Original: Technical Excellence Is Not Enough
 
-🔗 Read more: https://contalign.jefflunt.com/self-improving-software/</description>
-      <guid isPermaLink="true">https://contalign.jefflunt.com/self-improving-software/</guid>
-      <pubDate>2026-02-26 03:36:57</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47161498</comments>
+🔗 Read more: https://raccoon.land/posts/technical-excellence-is-not-enough/</description>
+      <guid isPermaLink="true">https://raccoon.land/posts/technical-excellence-is-not-enough/</guid>
+      <pubDate>Thu, 26 Feb 2026 09:51:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47163985</comments>
     </item>
     <item>
-      <title>HN 표시: ZSE – 3.9초 콜드 스타트 ​​기능을 갖춘 오픈 소스 LLM 추론 엔진</title>
-      <link>https://github.com/Zyora-Dev/zse</link>
-      <description>📝 5-7B-zse가 메타-라마/라마-3을 제공하도록 지시합니다. 3 zse는 microsoft/Phi-3-mini-4k-instruct zse는 google/gemma-2-9b-it # 메모리 최적화를 사용하면 zse는 Qwen/Qwen2를 제공합니다. 5-32B-Instruct --max-memory 24GB # 권장 사항에 따라 zse는 Meta-llama/Llama-3을 제공합니다.
+      <title>하이터치(YC S19) 채용중</title>
+      <link>https://hightouch.com/careers#open-positions</link>
+      <description>📝 우리는 친절하고 재능 있는 사람들로 구성된 소규모 팀입니다. 공석 보기함께 성장하자 하이터치에서는 고객, 비즈니스, 직원의 성장을 돕기 위해 최선을 다하고 있습니다. 전문성 개발우리는 직원의 역할 성장에 필요한 모든 학습 리소스(수업, 서적, 컨퍼런스 등)를 지원합니다. 공석 AIAI 전략 컨설턴트 원격(북미)고객 성공기술 계정 관리자원격(북미)관리자, 기술 계정 관리뉴욕뉴욕구현 관리자원격(북미)고객 성공 엔지니어 원격(유럽)구현 관리자, EMEARemote(유럽) 관리자, 구현 관리원격(미국) 디자인선임 제품 디자이너, 에이전트원격(북미)고위 제품 디자이너, 고객 스튜디오원격(북미)엔지니어링 전체 스택 제품 엔지니어원격(북미)소프트웨어 엔지니어, 고객 스튜디오 백엔드원격(북미)소프트웨어 엔지니어, 분산 시스템원격(북미)기계 학습 엔지니어, AI 결정원격(북미)소프트웨어 엔지니어, 제어 플레인원격(북미)소프트웨어 엔지니어, AI 에이전트원격(북미)소프트웨어 엔지니어, JourneysRemote(북미)개발자 생산성 엔지니어원격(북미)백엔드 엔지니어, AI 콘텐츠 AgentsRemote(북미)전방 배포 마케팅 데이터 과학자Remote(북미)소프트웨어 엔지니어, 스트리밍 시스템Remote(북미)웹 엔지니어 Remote(북미) 수석 엔지니어, 스트리밍 시스템원격(북미)IT 관리자Remote(북미) 기계 학습 책임자원격(북미)직원 엔지니어 - AI 생산성원격(북미)재무/데이터/운영분석 엔지니어원격(북미)책임자 Strategic Finance 샌프란시스코, 캘리포니아 / 신규.
 
 
-🔤 Original: Show HN: ZSE – Open-source LLM inference engine with 3.9s cold starts
+🔤 Original: Hightouch (YC S19) Is Hiring
 
-🔗 Read more: https://github.com/Zyora-Dev/zse</description>
-      <guid isPermaLink="true">https://github.com/Zyora-Dev/zse</guid>
-      <pubDate>2026-02-26 01:15:25</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47160526</comments>
+🔗 Read more: https://hightouch.com/careers#open-positions</description>
+      <guid isPermaLink="true">https://hightouch.com/careers#open-positions</guid>
+      <pubDate>Thu, 26 Feb 2026 12:02:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47164933</comments>
     </item>
     <item>
-      <title>OpenAI는 어떻게 경쟁할 것인가?</title>
-      <link>https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x</link>
-      <description>📝 OpenAI에는 제품 시장 적합성을 갖춘 모델 자체 외에 소비자 제품도 없습니다. 물론, 이 모든 것을 갖춘 기업은 스스로를 파괴할 수 있어야 하지만 사람들이 Google이 AI를 할 수 없다고 말하는 지점은 훨씬 지났습니다. 네트워크 효과, 즉 지속적인 학습을 가능하게 하는 혁신이 있다면 상황은 바뀔 수 있지만 우리는 그런 일이 일어나도록 계획할 수 없습니다.
+      <title>HN에게 전하세요: YC 회사는 GitHub 활동을 스크랩하고 사용자에게 스팸 이메일을 보냅니다.</title>
+      <link>https://news.ycombinator.com/item?id=47163885</link>
+      <description>📝 org&gt;제목: Mikołaj, 이 내용이 마음에 드실 것 같습니다.[snip]안녕하세요 Mikołaj, 귀하의 GitHub를 찾았고 우리가 만들고 있는 내용이 마음에 드실 거라고 생각했습니다. 이러한 이메일은 해당 회사가 사람들의 Github 활동을 스크랩하고 사용자가 자신의 비즈니스 분야에서 리포지토리에 기여하는 것을 발견하면 동의를 받지 않고 해당 사용자에게 마케팅 이메일을 보낸다는 것을 나타냅니다. 내 생각엔 그들은 이 목적으로 커밋 메타데이터를 사용하는 것 같습니다.
 
 
-🔤 Original: How will OpenAI compete?
+🔤 Original: Tell HN: YC companies scrape GitHub activity, send spam emails to users
 
-🔗 Read more: https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x</description>
-      <guid isPermaLink="true">https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x</guid>
-      <pubDate>2026-02-25 22:29:25</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47158975</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47163885</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47163885</guid>
+      <pubDate>Thu, 26 Feb 2026 09:35:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47163885</comments>
     </item>
     <item>
-      <title>RAM은 이제 HP PC BOM(Bill of Materials)의 35%를 차지합니다.</title>
-      <link>https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/</link>
-      <description>📝 이 임원은 또한 기능이 더 적은 저렴한 제품을 출시할 것을 지적했습니다. 소비자 PC 판매량은 전년 대비 14% 증가했고, 비즈니스 PC 판매량은 11% 증가했습니다. Scharon Harding 수석 기술 리포터 Scharon Harding 수석 기술 리포터 Scharon은 Ars Technica의 수석 기술 리포터로 소비자 기기 및 서비스에 대한 뉴스, 리뷰 및 분석을 작성합니다.
+      <title>50대 남성, 독성 '영원한 화학물질'로 인해 더 빨리 늙는다</title>
+      <link>https://www.cnn.com/2026/02/26/health/forever-chemicals-aging-men-wellness</link>
+      <description>📝 이전 연구에 따르면 여성은 임신, 모유 수유 및 월경 출혈로 인해 남성보다 특정 PFAS를 더 빨리 제거하는 것으로 나타났습니다. 연구에 따르면 폐경기 이후 여성과 남성 사이의 PFAS 축적 차이가 좁아지는 것으로 나타났습니다. Mario Tama/Getty Images 전 세계 지하수에서 과도한 수준으로 발견되는 독성 '영원한' 화학물질.
 
 
-🔤 Original: RAM now represents 35 percent of bill of materials for HP PCs
+🔤 Original: Men in their 50s may be aging faster due to toxic 'forever chemicals'
 
-🔗 Read more: https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/</guid>
-      <pubDate>2026-02-26 02:43:26</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47161160</comments>
+🔗 Read more: https://www.cnn.com/2026/02/26/health/forever-chemicals-aging-men-wellness</description>
+      <guid isPermaLink="true">https://www.cnn.com/2026/02/26/health/forever-chemicals-aging-men-wellness</guid>
+      <pubDate>Thu, 26 Feb 2026 11:58:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47164892</comments>
     </item>
     <item>
-      <title>Google API 키는 비밀이 아니었지만 Gemini가 규칙을 변경했습니다.</title>
-      <link>https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules</link>
-      <description>📝 새로운 웹 세미나: Google API 키는 비밀이 아니었습니다. 새로운 웹 세미나: Google API 키는 비밀이 아니었습니다. 귀하의 공개 지도 키는 이제 Gemini 자격 증명입니다.
+      <title>캘리포니아에서는 금지됨</title>
+      <link>https://www.bannedincalifornia.org/</link>
+      <description>📝 캘리포니아에서 금지됨 캘리포니아 주에서 더 이상 허용할 수 없는 산업 공정과 여전히 허용되는 기존 시설에 대한 시각적 가이드입니다. "새 자동차 공장을 짓고 싶다면 말 그대로 자동차를 칠할 수 없었습니다." 사실상 불가능 매우 어려움 제한됨/엄격한 규제.
 
 
-🔤 Original: Google API keys weren't secrets, but then Gemini changed the rules
+🔤 Original: Banned in California
 
-🔗 Read more: https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules</description>
-      <guid isPermaLink="true">https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules</guid>
-      <pubDate>2026-02-25 19:54:14</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47156925</comments>
+🔗 Read more: https://www.bannedincalifornia.org/</description>
+      <guid isPermaLink="true">https://www.bannedincalifornia.org/</guid>
+      <pubDate>Wed, 25 Feb 2026 23:16:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47159430</comments>
     </item>
     <item>
-      <title>기술 회사는 감시를 수행하도록 괴롭힘을 받아서는 안 됩니다.</title>
-      <link>https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance</link>
-      <description>📝 군대에서는 사용에 제한이 없습니다. Anthropic은 그들의 원칙을 고수해야 하며 그들이 지원하지 않겠다고 공개적으로 밝힌 두 가지 방식, 즉 자율 무기 시스템과 감시에 그들의 기술이 사용되는 것을 거부해야 합니다. ” Anthropic은 그들의 원칙을 고수해야 하며 그들이 지원하지 않겠다고 공개적으로 밝힌 두 가지 방식, 즉 자율 무기 시스템과 감시에 그들의 기술이 사용되는 것을 거부해야 합니다.
+      <title>영국을 방문하고 싶나요? Google Play 또는 App Store 계정이 있는 것이 좋습니다</title>
+      <link>https://www.heltweg.org/posts/you-want-to-visit-the-uk-you-better-have-a-google-play-or-app-store-account/</link>
+      <description>📝 이 페이지에서 앱을 사용하는 것의 대안을 찾을 수 있는 곳을 찾을 수 있습니까? 물론, '앱 사용에 도움이 필요한 경우' 아래에 있습니다. 그리고 필요한 것은 해당 페이지에서 작은 링크를 찾는 것뿐이었습니다.
 
 
-🔤 Original: Tech Companies Shouldn't Be Bullied into Doing Surveillance
+🔤 Original: You Want to Visit the UK? You Better Have a Google Play or App Store Account
 
-🔗 Read more: https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance</guid>
-      <pubDate>2026-02-26 00:37:32</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47160226</comments>
+🔗 Read more: https://www.heltweg.org/posts/you-want-to-visit-the-uk-you-better-have-a-google-play-or-app-store-account/</description>
+      <guid isPermaLink="true">https://www.heltweg.org/posts/you-want-to-visit-the-uk-you-better-have-a-google-play-or-app-store-account/</guid>
+      <pubDate>Thu, 26 Feb 2026 11:26:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47164605</comments>
     </item>
     <item>
-      <title>스왑 크기가 실제 메모리의 2배가 되어야 한다는 규칙의 유래</title>
-      <link>https://retrocomputing.stackexchange.com/questions/32492/origin-of-the-rule-that-swap-size-should-be-2x-of-the-physical-memory</link>
-      <description>📝 3BSD 가상 메모리 구현. 4BSD 운영 체제이지만 스왑 공간은 많지 않습니다. Multics는 메모리 분할과 메모리 매핑 기능을 제공하여 물리적 메모리 관리 및 공유를 위한 스와핑 및 페이징 전략을 용이하게 했습니다.
+      <title>허무주의적 폭력 극단주의</title>
+      <link>https://en.wikipedia.org/wiki/Nihilistic_violent_extremism</link>
+      <description>📝 2026년 1월 12일에 원본 문서에서 보존된 문서. 2025년 10월 27일에 확인함. 2025년 10월 27일에 확인함.
 
 
-🔤 Original: Origin of the rule that swap size should be 2x of the physical memory
+🔤 Original: Nihilistic Violent Extremism
 
-🔗 Read more: https://retrocomputing.stackexchange.com/questions/32492/origin-of-the-rule-that-swap-size-should-be-2x-of-the-physical-memory</description>
-      <guid isPermaLink="true">https://retrocomputing.stackexchange.com/questions/32492/origin-of-the-rule-that-swap-size-should-be-2x-of-the-physical-memory</guid>
-      <pubDate>2026-02-25 23:09:33</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47159364</comments>
+🔗 Read more: https://en.wikipedia.org/wiki/Nihilistic_violent_extremism</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Nihilistic_violent_extremism</guid>
+      <pubDate>Thu, 26 Feb 2026 12:12:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47165024</comments>
     </item>
     <item>
-      <title>첫 번째 웹사이트</title>
-      <link>https://info.cern.ch</link>
-      <description>📝 ch - 첫 번째 웹사이트의 홈 여기에서 다음을 수행할 수 있습니다. 첫 번째 웹사이트 탐색 라인 모드 브라우저 시뮬레이터를 사용하여 첫 번째 웹사이트 탐색 웹의 탄생에 대해 알아보기 웹이 탄생한 물리학 실험실인 CERN에 대해 알아보세요.
+      <title>Anthropic은 핵심 안전 약속을 버립니다.</title>
+      <link>https://www.cnn.com/2026/02/25/tech/anthropic-safety-policy-change</link>
+      <description>📝 Anthropic 공동 창업자이자 CEO인 Dario Amodei. Anthropic은 또한 자사의 안전 정책이 워싱턴의 현재 반규제 정치 환경과 맞지 않는다고 지적했습니다. ” 새로운 안전 정책 Anthropic의 새로운 안전 정책에는 회사가 자체적으로 부과한 지침과 보호 조치를 개괄적으로 설명하는 “프론티어 안전 로드맵”이 포함되어 있습니다.
 
 
-🔤 Original: First Website
+🔤 Original: Anthropic ditches its core safety promise
 
-🔗 Read more: https://info.cern.ch</description>
-      <guid isPermaLink="true">https://info.cern.ch</guid>
-      <pubDate>2026-02-25 23:02:58</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47159302</comments>
-    </item>
-    <item>
-      <title>Jane Street는 Terra $400억 내부자 거래 소송으로 히트를 쳤습니다.</title>
-      <link>https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/</link>
-      <description>📝 Jane Street는 $LUNA Terraform의 붕괴를 가속화했을 수 있는 암호화폐 내부 거래 혐의로 고소당했습니다. &gt; Jane Street 배포… https://t. Snyder는 Jump가 기밀 정보를 Jane Street에 유포하는 데에도 관여했다고 주장합니다.
-
-
-🔤 Original: Jane Street Hit with Terra $40B Insider Trading Suit
-
-🔗 Read more: https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/</description>
-      <guid isPermaLink="true">https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/</guid>
-      <pubDate>2026-02-26 01:25:49</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47160613</comments>
-    </item>
-    <item>
-      <title>ECS 생존자 부품 VII – X</title>
-      <link>https://blog.ptidej.net/ecs-survivors-parts-vii-x/</link>
-      <description>📝 각 타일을 한 번만 그린 다음 Raylib RenderTexture를 사용하여 "스크린샷"을 찍습니다. 그 시점부터는 스크린샷만 그려서 그리기 호출을 1로 줄입니다. 이는 성능 측면에서 허용되지 않으므로 충돌체를 단순화해야 합니다. 더 많은 능력과 이를 강화할 수 있는 방법이 있으면 이러한 상황은 바뀔 가능성이 높습니다.
-
-
-🔤 Original: ECS Survivors Parts VII – X
-
-🔗 Read more: https://blog.ptidej.net/ecs-survivors-parts-vii-x/</description>
-      <guid isPermaLink="true">https://blog.ptidej.net/ecs-survivors-parts-vii-x/</guid>
-      <pubDate>2026-02-25 21:11:44</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47157919</comments>
-    </item>
-    <item>
-      <title>PA 벤치: 멀티탭 Pa 작업에 대한 프론티어 모델 평가</title>
-      <link>https://vibrantlabs.com/blog/pa-bench</link>
-      <description>📝 @misc{ PABench2026, title={PA 벤치: 실제 개인 비서 워크플로에서 웹 에이전트 평가}, 작성자={Sahul Elavakkattil Shereef 및 Ankit Sridhar}, 연도={2026}, url={vibrantlabs. com/blog/pa-bench} }@misc{ PABench2026, title={PA 벤치: 실제 개인 비서 워크플로에서 웹 에이전트 평가}, 작성자={Sahul Elavakkattil Shereef 및 Ankit Sridhar}, 연도={2026}, url={vibrantlabs. com/blog/pa-bench} }@misc{ PABench2026, title={PA 벤치: 실제 개인 비서 워크플로에서 웹 에이전트 평가}, 작성자={Sahul Elavakkattil Shereef 및 Ankit Sridhar}, 연도={2026}, url={vibrantlabs.
-
-
-🔤 Original: PA Bench: Evaluating Frontier Models on Multi-Tab Pa Tasks
-
-🔗 Read more: https://vibrantlabs.com/blog/pa-bench</description>
-      <guid isPermaLink="true">https://vibrantlabs.com/blog/pa-bench</guid>
-      <pubDate>2026-02-25 20:11:37</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47157160</comments>
-    </item>
-    <item>
-      <title>대학의 오용</title>
-      <link>https://www.publicbooks.org/the-misuses-of-the-university/</link>
-      <description>📝 그 유리를 모두 청소하는 데 비용이 얼마나 들까요? 결국 유리 건물이군요. 창립 150주년을 맞이한 이 대학은 진부한 말을 할 용기조차 나지 않습니다.
-
-
-🔤 Original: The Misuses of the University
-
-🔗 Read more: https://www.publicbooks.org/the-misuses-of-the-university/</description>
-      <guid isPermaLink="true">https://www.publicbooks.org/the-misuses-of-the-university/</guid>
-      <pubDate>2026-02-25 16:38:40</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47153924</comments>
-    </item>
-    <item>
-      <title>유출된 문서에는 낙태 정보 접근에 대한 메타 단속이 나와 있습니다.</title>
-      <link>https://www.motherjones.com/politics/2026/02/meta-abortion-ai-chatbot-leak-teen-info-ban/</link>
-      <description>📝 유출된 문서에 따르면 Facebook, WhatsApp, Instagram의 모회사인 Meta는 AI 챗봇이 미성년자와 낙태를 포함한 주제를 논의하는 것을 차단했습니다. 이는 회사의 아동 성적 착취 청구 처리와 크게 대조되는 포괄적인 정책이며 이는 성인을 위한 콘텐츠에 의도치 않게 영향을 미칠 수도 있습니다. 그러나 메타는 섭식 장애 및 우울증에 대한 청소년 사용자에 대한 보호 조치를 강화하는 동시에 낙태 및 성 건강에 관한 정보를 단속했습니다. Dimitratou는 온라인으로 생식 건강 정보에 대한 접근을 옹호하고 연구하는 비영리 단체가 수년 동안 Meta와 만나 플랫폼이 “낙태를 건강 관리로 간주하고 정확한 의료 자원을 제공”하고 낙태 관련 및 생식 권리 콘텐츠를 사전에 잘못된 정보를 수정하는 것을 포함하여 코로나19를 처리한 것과 동일한 방식으로 처리할 것을 촉구했지만 Meta는 “이것이 우선 순위가 아니라고 단호하게 말했습니다.
-
-
-🔤 Original: Leaked Documents Show Meta Cracking Down on Access to Abortion Information
-
-🔗 Read more: https://www.motherjones.com/politics/2026/02/meta-abortion-ai-chatbot-leak-teen-info-ban/</description>
-      <guid isPermaLink="true">https://www.motherjones.com/politics/2026/02/meta-abortion-ai-chatbot-leak-teen-info-ban/</guid>
-      <pubDate>2026-02-25 21:26:04</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47158105</comments>
-    </item>
-    <item>
-      <title>탈가상화와 정적 다형성</title>
-      <link>https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/</link>
-      <guid isPermaLink="true">https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/</guid>
-      <pubDate>2026-02-25 18:41:23</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47155811</comments>
-    </item>
-    <item>
-      <title>Show HN: Respectify – 사람들에게 더 나은 논쟁 방법을 가르치는 댓글 중재자</title>
-      <link>https://respectify.org/</link>
-      <description>📝 이런 댓글 본 적 있어요. WordPress JSON 이런 댓글을 본 적이 있습니다. Respecify는 그렇게 할 수 있습니다.
-
-
-🔤 Original: Show HN: Respectify – A comment moderator that teaches people to argue better
-
-🔗 Read more: https://respectify.org/</description>
-      <guid isPermaLink="true">https://respectify.org/</guid>
-      <pubDate>2026-02-25 14:21:19</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47151842</comments>
-    </item>
-    <item>
-      <title>Markdown을 지원하는 Windows 11 메모장</title>
-      <link>https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/</link>
-      <description>📝 컬러링북은 텍스트 프롬프트에서 고유한 컬러링북 페이지를 만들 수 있는 AI 기반 기능입니다. 그러면 Paint는 사용자의 메시지에 따라 고유한 색칠하기 책 페이지 세트를 생성합니다. 색칠하기 책은 Copilot+ PC에서만 사용할 수 있습니다.
-
-
-🔤 Original: Windows 11 Notepad to support Markdown
-
-🔗 Read more: https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/</description>
-      <guid isPermaLink="true">https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/</guid>
-      <pubDate>2026-02-25 17:14:19</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47154399</comments>
-    </item>
-    <item>
-      <title>CLI를 통해 MCP를 더 저렴하게 만들기</title>
-      <link>https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html</link>
-      <description>📝 모든 도구, 모든 매개변수, 모든 옵션. 도구 호출 에이전트가 사용 가능한 항목을 알고 나면 여전히 도구를 호출해야 합니다. Anthropic의 도구 검색 Anthropic은 모든 스키마 대신 검색 색인을 로드한 다음 요청 시 가져오기 도구를 사용하는 도구 검색을 출시했습니다.
-
-
-🔤 Original: Making MCP cheaper via CLI
-
-🔗 Read more: https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html</description>
-      <guid isPermaLink="true">https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html</guid>
-      <pubDate>2026-02-25 20:29:37</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47157398</comments>
-    </item>
-    <item>
-      <title>Jimi Hendrix는 시스템 엔지니어였습니다.</title>
-      <link>https://spectrum.ieee.org/jimi-hendrix-systems-engineer</link>
-      <description>📝 DIYHands OnMagazine Jimi Hendrix는 시스템 엔지니어였습니다. 그는 변조 및 피드백 루프를 정밀하게 제어했습니다.Rohan S. Puranik은 엣지 컴퓨팅 설계자이자 회사 창립자입니다. Jimi Hendrix는 일련의 구성 요소를 사용하여 사운드를 변조하고 앰프의 스피커에 맞춰 기타를 배치하여 피드백 루프를 제어했습니다.
-
-
-🔤 Original: Jimi Hendrix was a systems engineer
-
-🔗 Read more: https://spectrum.ieee.org/jimi-hendrix-systems-engineer</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/jimi-hendrix-systems-engineer</guid>
-      <pubDate>2026-02-25 20:16:47</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47157224</comments>
-    </item>
-    <item>
-      <title>LA는 왜 거리를 재포장하지 않는 걸까요?</title>
-      <link>https://lapublicpress.org/2026/02/why-isnt-la-repaving-streets/</link>
-      <guid isPermaLink="true">https://lapublicpress.org/2026/02/why-isnt-la-repaving-streets/</guid>
-      <pubDate>2026-02-25 16:49:36</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47154076</comments>
-    </item>
-    <item>
-      <title>HN 표시: Sgai – 목표 기반 다중 에이전트 소프트웨어 개발(GOAL.md → 작업 코드)</title>
-      <link>https://github.com/sandgardenhq/sgai</link>
-      <description>📝 Sgai("스카이"로 발음) - 목표 중심 AI 소프트웨어 공장 목표를 정의하세요. 에이전트 작업 계획 Sgai는 정의된 역할을 통해 조정된 에이전트의 워크플로 다이어그램으로 목표를 세분화합니다. 계획 승인 및 모니터링 실행이 시작되기 전에 상담원은 목표에 대해 명확한 질문을 합니다.
-
-
-🔤 Original: Show HN: Sgai – Goal-driven multi-agent software dev (GOAL.md → working code)
-
-🔗 Read more: https://github.com/sandgardenhq/sgai</description>
-      <guid isPermaLink="true">https://github.com/sandgardenhq/sgai</guid>
-      <pubDate>2026-02-25 16:39:23</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47153941</comments>
-    </item>
-    <item>
-      <title>고급 사용자의 느린 죽음</title>
-      <link>https://fireborn.mataroa.blog/blog/the-slow-death-of-the-power-user/</link>
-      <description>📝 그 사람은 죽어가고 있어요. 그들은 기대 이상으로 성공했습니다. 장치를 작동할 수 없다는 점에서 문제가 되지 않습니다. 놀라운 효율성으로 작동할 수 있습니다.
-
-
-🔤 Original: The Slow Death of the Power User
-
-🔗 Read more: https://fireborn.mataroa.blog/blog/the-slow-death-of-the-power-user/</description>
-      <guid isPermaLink="true">https://fireborn.mataroa.blog/blog/the-slow-death-of-the-power-user/</guid>
-      <pubDate>2026-02-25 18:25:57</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47155548</comments>
-    </item>
-    <item>
-      <title>국방부는 인류를 위협한다</title>
-      <link>https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic</link>
-      <description>📝 국방부는 인류를 위협합니다. 이는 Anthropic 제품을 사용하는 미국 회사가 군대와 거래하는 것을 금지합니다2. 더 중요한 것은 국방부가 Anthropic을 파괴하는 것을 원하지 않는다는 것입니다.
-
-
-🔤 Original: The Pentagon Threatens Anthropic
-
-🔗 Read more: https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic</description>
-      <guid isPermaLink="true">https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic</guid>
-      <pubDate>2026-02-25 17:49:27</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47154983</comments>
-    </item>
-    <item>
-      <title>라켓 v9.1</title>
-      <link>https://blog.racket-lang.org/2026/02/racket-v9-1.html</link>
-      <description>📝 OpenSSL: 보안 통신 유형 라켓은 키워드 인수 기능에 대한 예상 유형 전파를 개선합니다. Racket은 커뮤니티에서 개발한 오픈 소스 프로젝트이며 새로운 기여자를 환영합니다. 피드백 환영 Discourse 또는 Discord의 Racket 커뮤니티에서 질문과 토론을 환영합니다.
-
-
-🔤 Original: Racket v9.1
-
-🔗 Read more: https://blog.racket-lang.org/2026/02/racket-v9-1.html</description>
-      <guid isPermaLink="true">https://blog.racket-lang.org/2026/02/racket-v9-1.html</guid>
-      <pubDate>2026-02-25 16:47:33</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47154042</comments>
-    </item>
-    <item>
-      <title>샌드박스는 OpenClaw에서 당신을 구해주지 않습니다</title>
-      <link>https://tachyon.so/blog/sandboxes-wont-save-you</link>
-      <description>📝 여기서 샌드박스가 제공하는 유일한 기능은 에이전트가 루트를 rm -rf'ing하지 못하도록 하는 파일 시스템 보호와 에이전트가 액세스할 수 있는 웹 사이트를 제한하는 네트워크 보호입니다. 상담원은 실제 카드 번호를 절대 볼 수 없습니다. 이 아이디어를 에이전트에 연결하려는 모든 단일 제품으로 확장할 수 있습니다.
-
-
-🔤 Original: Sandboxes won't save you from OpenClaw
-
-🔗 Read more: https://tachyon.so/blog/sandboxes-wont-save-you</description>
-      <guid isPermaLink="true">https://tachyon.so/blog/sandboxes-wont-save-you</guid>
-      <pubDate>2026-02-25 17:37:04</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47154803</comments>
-    </item>
-    <item>
-      <title>Trellis AI(YC W24)는 약물 접근을 가속화하기 위해 배포 리드를 고용하고 있습니다.</title>
-      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/7ZlvQkN-lead-deployment-strategist</link>
-      <description>📝 우리는 문서 접수, 사전 승인, 대규모 항소를 자동화하여 운영을 간소화하고 치료를 가속화함으로써 이를 수행합니다. Trellis는 의료 서비스 제공자가 서비스 전 서류 작업을 없애면서 더 많은 환자를 더 빠르게 치료할 수 있도록 돕습니다. 우리는 문서 접수, 사전 승인 및 이의 제기를 대규모로 자동화하여 운영을 간소화하고 치료를 가속화합니다.
-
-
-🔤 Original: Trellis AI (YC W24) is hiring deployment lead to accelerate medication access
-
-🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/7ZlvQkN-lead-deployment-strategist</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/7ZlvQkN-lead-deployment-strategist</guid>
-      <pubDate>2026-02-25 17:02:12</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47154246</comments>
-    </item>
-    <item>
-      <title>GNU Texmacs</title>
-      <link>https://www.texmacs.org/tmweb/home/welcome.en.html</link>
-      <description>📝 TeXmacs는 TeX/LaTeX를 기반으로 하지 않습니다. 이 웹페이지는 GNU TeXmacs와 더 큰 GNU 프로젝트의 일부입니다. 자유 소프트웨어 재단, Inc.
-
-🔗 Read more: https://www.texmacs.org/tmweb/home/welcome.en.html</description>
-      <guid isPermaLink="true">https://www.texmacs.org/tmweb/home/welcome.en.html</guid>
-      <pubDate>2026-02-25 15:37:29</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47152982</comments>
-    </item>
-    <item>
-      <title>Show HN: Tree-sitter를 Go로 포팅했습니다.</title>
-      <link>https://github.com/odvcencio/gotreesitter</link>
-      <description>📝 GoLanguage() 파서 := gotreesitter. // 초기 구문 분석 트리 := 파서. Point{행: 3, 열: 10}, OldEndPoint: gotreesitter.
-
-
-🔤 Original: Show HN: I ported Tree-sitter to Go
-
-🔗 Read more: https://github.com/odvcencio/gotreesitter</description>
-      <guid isPermaLink="true">https://github.com/odvcencio/gotreesitter</guid>
-      <pubDate>2026-02-25 18:28:37</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47155597</comments>
+🔗 Read more: https://www.cnn.com/2026/02/25/tech/anthropic-safety-policy-change</description>
+      <guid isPermaLink="true">https://www.cnn.com/2026/02/25/tech/anthropic-safety-policy-change</guid>
+      <pubDate>Thu, 26 Feb 2026 12:52:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47165397</comments>
     </item>
   </channel>
 </rss>
