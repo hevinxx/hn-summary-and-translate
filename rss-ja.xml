@@ -6,41 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Mar 2026 06:48:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 09:41:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>完全に GPU 上で動作する CPU</title>
-      <link>https://github.com/robertcprice/nCPU</link>
-      <description>📝 すべての ALU 演算は訓練されたニューラル ネットワークです。ビット単位の演算ではニューラル真理値表を使用します。キャリー先読みはニューラル ネットワークで機能します。
+      <title>RFC 9849. TLS 暗号化クライアント Hello</title>
+      <link>https://www.rfc-editor.org/rfc/rfc9849.html</link>
+      <description>📝 このドキュメントから抽出されたコード コンポーネントには、セクション 4 で説明されている改訂 BSD ライセンス テキストが含まれている必要があります。このモードでは、TLS 接続はプロバイダーによって終了されます。 ¶ クライアント側サーバー e.
 
 
-🔤 Original: A CPU that runs entirely on GPU
+🔤 Original: RFC 9849. TLS Encrypted Client Hello
 
-🔗 Read more: https://github.com/robertcprice/nCPU</description>
-      <guid isPermaLink="true">https://github.com/robertcprice/nCPU</guid>
-      <pubDate>Wed, 04 Mar 2026 04:30:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47243069</comments>
+🔗 Read more: https://www.rfc-editor.org/rfc/rfc9849.html</description>
+      <guid isPermaLink="true">https://www.rfc-editor.org/rfc/rfc9849.html</guid>
+      <pubDate>Wed, 04 Mar 2026 07:25:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47244291</comments>
     </item>
     <item>
-      <title>エージェントエンジニアリングパターン</title>
-      <link>https://simonwillison.net/guides/agentic-engineering-patterns/</link>
-      <description>📝 Claude Code や OpenAI Codex などのコーディング エージェントから最高の結果を得るパターン。このプロジェクトの詳細については、私の紹介文をご覧ください。 Claude Code や OpenAI Codex などのコーディング エージェントから最高の結果を得るパターン。
+      <title>Postgres の JIT の向上</title>
+      <link>https://github.com/vladich/pg_jitter</link>
+      <description>📝 PostgreSQL 用の軽量 JIT コンパイル プロバイダー。sljit、AsmJit、MIR という 3 つの代替 JIT バックエンドを追加し、PostgreSQL 14 ～ 18 全体でより高速なコンパイルと競争力のあるクエリ実行を実現します。 pg_jitter は、ミリ秒ではなくマイクロ秒レベルのコンパイル時間でネイティブ コードを生成するため、より広範囲のクエリに対して JIT の価値が高まります。ビルド # すべてのバックエンドをビルドします。
 
 
-🔤 Original: Agentic Engineering Patterns
+🔤 Original: Better JIT for Postgres
 
-🔗 Read more: https://simonwillison.net/guides/agentic-engineering-patterns/</description>
-      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/</guid>
-      <pubDate>Wed, 04 Mar 2026 05:00:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47243272</comments>
+🔗 Read more: https://github.com/vladich/pg_jitter</description>
+      <guid isPermaLink="true">https://github.com/vladich/pg_jitter</guid>
+      <pubDate>Wed, 04 Mar 2026 06:17:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47243804</comments>
     </item>
     <item>
-      <title>株式会社ナンバーリサーチ</title>
-      <link>https://numberresearch.xyz/</link>
-      <guid isPermaLink="true">https://numberresearch.xyz/</guid>
-      <pubDate>Wed, 04 Mar 2026 02:34:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47242277</comments>
+      <title>ブッククラブ無期限休止</title>
+      <link>https://whatever.scalzi.com/2026/03/03/indefinite-book-club-hiatus/</link>
+      <description>📝 今日、私の本の宣伝を勧める AI ハックスターのメールがまた届きましたが、その本は Amazon で私の名前で出版された AI のスロップであることが判明しました。 (アマゾンに連絡しました。実際に起こっていなかったら面白いことです。
+
+
+🔤 Original: Indefinite Book Club Hiatus
+
+🔗 Read more: https://whatever.scalzi.com/2026/03/03/indefinite-book-club-hiatus/</description>
+      <guid isPermaLink="true">https://whatever.scalzi.com/2026/03/03/indefinite-book-club-hiatus/</guid>
+      <pubDate>Wed, 04 Mar 2026 04:25:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47243036</comments>
+    </item>
+    <item>
+      <title>LLM に個性を与えるのは優れたエンジニアリングです</title>
+      <link>https://www.seangoedecke.com/giving-llms-a-personality/</link>
+      <description>📝 AI システムは人間に似ています。それが、有能な AI システムを構築する最良の方法だからです。これが実際に意味するのは、トレーニング後にモデルに個性を与える必要があるということです1。モデルは他の人間に宛てて、または他の人間について書き込む人間を対象としてトレーニングされているため、「ツールのように機能するだけ」の有能な AI システムを構築することはできません。
+
+
+🔤 Original: Giving LLMs a personality is just good engineering
+
+🔗 Read more: https://www.seangoedecke.com/giving-llms-a-personality/</description>
+      <guid isPermaLink="true">https://www.seangoedecke.com/giving-llms-a-personality/</guid>
+      <pubDate>Wed, 04 Mar 2026 03:37:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47242739</comments>
     </item>
   </channel>
 </rss>
