@@ -6,149 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 21:26:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 02:07:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Neural Boids</title>
-      <link>https://campedersen.com/noid</link>
-      <description>📝 Their neighbors' neighbors adjust. They also found something Reynolds didn't predict: each bird tracks about 6-7 neighbors. What a neural network actually does Every neural network is a function.
+      <title>PCB devboard the size of a USB-C plug</title>
+      <link>https://github.com/Dieu-de-l-elec/AngstromIO-devboard</link>
+      <description>📝 BOM: AngstromIO BOM: 🚧 coming soon. Programmer BOM: 🚧 coming soon. CH32 devboard BOM: 🚧 coming soon.
 
-🔗 Read more: https://campedersen.com/noid</description>
-      <guid isPermaLink="true">https://campedersen.com/noid</guid>
-      <pubDate>Sun, 08 Mar 2026 20:14:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47300934</comments>
+🔗 Read more: https://github.com/Dieu-de-l-elec/AngstromIO-devboard</description>
+      <guid isPermaLink="true">https://github.com/Dieu-de-l-elec/AngstromIO-devboard</guid>
+      <pubDate>Sun, 08 Mar 2026 05:04:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47294582</comments>
     </item>
     <item>
-      <title>Agent Safehouse – macOS-native sandboxing for local agents</title>
-      <link>https://agent-safehouse.dev/</link>
-      <description>📝 Safehouse denies write access outside your project directory. Agents inherit your full user permissions. Try reading something sensitive inside safehouse.
+      <title>Ask HN: What Are You Working On? (March 2026)</title>
+      <link>https://news.ycombinator.com/item?id=47303111</link>
+      <description>📝 g RollerCoaster Tycoon) [2]I just updated my Steam page with some recent snapshots from my game. Im really happy with how the game is turning out. g RollerCoaster Tycoon) [2]I just updated my Steam page with some recent snapshots from my game.
 
-🔗 Read more: https://agent-safehouse.dev/</description>
-      <guid isPermaLink="true">https://agent-safehouse.dev/</guid>
-      <pubDate>Sun, 08 Mar 2026 20:30:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47301085</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47303111</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47303111</guid>
+      <pubDate>Mon, 09 Mar 2026 00:07:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47303111</comments>
     </item>
     <item>
-      <title>Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds</title>
-      <link>https://github.com/BigBodyCobain/Shadowbroker</link>
-      <description>📝 ✨ Features 🛩️ Aviation Tracking Commercial Flights — Real-time positions via OpenSky Network (~5,000+ aircraft) Private Aircraft — Light GA, turboprops, bizjets tracked separately Private Jets — High-net-worth individual aircraft with owner identification Military Flights — Tankers, ISR, fighters, transports via adsb. lol military endpoint Flight Trail Accumulation — Persistent breadcrumb trails for all tracked aircraft Holding Pattern Detection — Automatically flags aircraft circling (&gt;300° total turn) Aircraft Classification — Shape-accurate SVG icons: airliners, turboprops, bizjets, helicopters Grounded Detection — Aircraft below 100ft AGL rendered with grey icons 🚢 Maritime Tracking AIS Vessel Stream — 25,000+ vessels via aisstream. io WebSocket (real-time) Ship Classification — Cargo, tanker, passenger, yacht, military vessel types with color-coded icons Carrier Strike Group Tracker — All 11 active US Navy aircraft carriers with OSINT-estimated positions Automated GDELT news scraping for carrier movement intelligence 50+ geographic region-to-coordinate mappings Disk-cached positions, auto-updates at 00:00 &amp; 12:00 UTC Cruise &amp; Passenger Ships — Dedicated layer for cruise liners and ferries Clustered Display — Ships cluster at low zoom with count labels, decluster on zoom-in 🛰️ Space &amp; Satellites Orbital Tracking — Real-time satellite positions from N2YO API Mission-Type Classification — Color-coded by mission: military recon (red), SAR (cyan), SIGINT (white), navigation (blue), early warning (magenta), commercial imaging (green), space station (gold) 🌍 Geopolitics &amp; Conflict Global Incidents — GDELT-powered conflict event aggregation (last 8 hours, ~1,000 events) Ukraine Frontline — Live warfront GeoJSON from DeepState Map SIGINT/RISINT News Feed — Real-time RSS aggregation from multiple intelligence-focused sources Region Dossier — Right-click anywhere on the map for: Country profile (population, capital, languages, currencies, area) Head of state &amp; government type (Wikidata SPARQL) Local Wikipedia summary with thumbnail 📷 Surveillance CCTV Mesh — 2,000+ live traffic cameras from: 🇬🇧 Transport for London JamCams 🇺🇸 Austin, TX TxDOT 🇺🇸 NYC DOT 🇸🇬 Singapore LTA Custom URL ingestion Feed Rendering — Automatic detection &amp; rendering of video, MJPEG, HLS, embed, satellite tile, and image feeds Clustered Map Display — Green dots cluster with count labels, decluster on zoom 📡 Signal Intelligence GPS Jamming Detection — Real-time analysis of aircraft NAC-P (Navigation Accuracy Category) values Grid-based aggregation identifies interference zones Red overlay squares with "GPS JAM XX%" severity labels Radio Intercept Panel — Scanner-style UI for monitoring communications 🌐 Additional Layers Earthquakes (24h) — USGS real-time earthquake feed with magnitude-scaled markers Day/Night Cycle — Solar terminator overlay showing global daylight/darkness Global Markets Ticker — Live financial market indices (minimizable) Measurement Tool — Point-to-point distance &amp; bearing measurement on the map 🏗️ Architecture ┌────────────────────────────────────────────────────────┐ │ FRONTEND (Next.
+      <title>Blacksky AppView</title>
+      <link>https://github.com/blacksky-algorithms/atproto</link>
+      <description>📝 Backfill architecture: Wintermute separates live indexing from backfill into independent queues (firehose_live, firehose_backfill, repo_backfill, labels). The dataplane and appview from this repo still run as-is. They read from the PostgreSQL database that wintermute writes to.
 
-🔗 Read more: https://github.com/BigBodyCobain/Shadowbroker</description>
-      <guid isPermaLink="true">https://github.com/BigBodyCobain/Shadowbroker</guid>
-      <pubDate>Sun, 08 Mar 2026 19:07:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47300102</comments>
+🔗 Read more: https://github.com/blacksky-algorithms/atproto</description>
+      <guid isPermaLink="true">https://github.com/blacksky-algorithms/atproto</guid>
+      <pubDate>Sun, 08 Mar 2026 21:40:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47301808</comments>
     </item>
     <item>
-      <title>Microscopes Can See Video on a LaserDisc</title>
-      <link>https://www.youtube.com/watch?v=qZuR-772cks</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=qZuR-772cks</guid>
-      <pubDate>Sat, 07 Mar 2026 22:03:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47291876</comments>
-    </item>
-    <item>
-      <title>Pushing and Pulling: Three reactivity algorithms</title>
-      <link>https://jonathan-frere.com/posts/reactivity-algorithms/</link>
-      <description>📝 When one of the input cells changes, all the cells that depend on it need to react to that change — the aforementioned reactivity. (“Efficient”)We only update cells that actually need to be updated. Each time an input changes, we only notify those dependencies that will actually need to be updated.
+      <title>Linux Internals: How /proc/self/mem writes to unwritable memory (2021)</title>
+      <link>https://offlinemark.com/an-obscure-quirk-of-proc/</link>
+      <description>📝 This behavior raises some questions: Is privileged code subject to virtual memory permissions. getchar(); } This uses /proc/self/mem to write to two unwritable memory pages. But what about Write Protect.
 
-🔗 Read more: https://jonathan-frere.com/posts/reactivity-algorithms/</description>
-      <guid isPermaLink="true">https://jonathan-frere.com/posts/reactivity-algorithms/</guid>
-      <pubDate>Sun, 08 Mar 2026 00:57:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47293195</comments>
-    </item>
-    <item>
-      <title>WSL Manager</title>
-      <link>https://github.com/bostrot/wsl2-distro-manager</link>
-      <description>📝 📦 Install Microsoft Store This app is available on the Microsoft Store. winget install Bostrot. This project is GPL-3.
-
-🔗 Read more: https://github.com/bostrot/wsl2-distro-manager</description>
-      <guid isPermaLink="true">https://github.com/bostrot/wsl2-distro-manager</guid>
-      <pubDate>Sun, 08 Mar 2026 18:08:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47299505</comments>
-    </item>
-    <item>
-      <title>We should revisit literate programming in the agent era</title>
-      <link>https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/</link>
-      <description>📝 Although I have long been intrigued by this idea, and have found uses for it in a couple1 of different cases2, I have found that in practice literate programming turns into a chore of maintaining two parallel narratives: the code itself, and the prose. This is even more exciting now that we have coding agents. However, I have long believed that Org should escape Emacs.
-
-🔗 Read more: https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/</description>
-      <guid isPermaLink="true">https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/</guid>
-      <pubDate>Sun, 08 Mar 2026 19:58:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47300747</comments>
-    </item>
-    <item>
-      <title>Artificial-life: A simple (300 lines of code) reproduction of Computational Life</title>
-      <link>https://github.com/Rabrg/artificial-life</link>
-      <description>📝 Every iteration, neighboring programs are randomly paired, have their instruction tapes concattenated together, and are run for a maximum of $2^{13}$ steps. The instructions are such that they can loop and mutate the instruction tapes (programs) themselves. As found in the paper, self-replicating programs that copy themselves over their neighbor's tape often spontaneously emerge, which soon spread to take over the entire grid.
-
-🔗 Read more: https://github.com/Rabrg/artificial-life</description>
-      <guid isPermaLink="true">https://github.com/Rabrg/artificial-life</guid>
-      <pubDate>Sun, 08 Mar 2026 20:42:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47301233</comments>
-    </item>
-    <item>
-      <title>Ask HN: Please restrict new accounts from posting</title>
-      <link>https://news.ycombinator.com/item?id=47300329</link>
-      <description>📝 I don’t know if I’m the only one, but I see lots of clearly AI generated posts recently in HN and mostly coming from new accounts (green), it is more noticeable in the Show HN section. I wish the team can either restrict new accounts from posting or at least offer a default filtering where I can only see posts from accounts with certain criteria. I don’t want to see HN becoming twitter, which is full of bots and noise, as this would be a really sad day.
-
-🔗 Read more: https://news.ycombinator.com/item?id=47300329</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47300329</guid>
-      <pubDate>Sun, 08 Mar 2026 19:26:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47300329</comments>
-    </item>
-    <item>
-      <title>Living human brain cells play DOOM on a CL1 [video]</title>
-      <link>https://www.youtube.com/watch?v=yRV8fSw6HaE</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=yRV8fSw6HaE</guid>
-      <pubDate>Sun, 08 Mar 2026 15:07:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47297919</comments>
-    </item>
-    <item>
-      <title>Lil Finder Guy</title>
-      <link>https://basicappleguy.com/basicappleblog/lil-finder-guy</link>
-      <description>📝 Lil Finder Guy appearing in the top corner of a post by Apple on TikTok about the new MacBook Neo. Of course, this is all abstraction stacked on abstraction at this point. All I know is that Apple should definitely keep this Lil Finder around.
-
-🔗 Read more: https://basicappleguy.com/basicappleblog/lil-finder-guy</description>
-      <guid isPermaLink="true">https://basicappleguy.com/basicappleblog/lil-finder-guy</guid>
-      <pubDate>Sun, 08 Mar 2026 20:43:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47301241</comments>
-    </item>
-    <item>
-      <title>She called 911 for an ambulance. She got a nightmare instead</title>
-      <link>https://www.seattletimes.com/seattle-news/times-watchdog/seattle-womans-911-calls-reveal-gaps-in-ambulance-service/</link>
-      <description>📝 A Fire Department spokesperson said The Times’ reporting misrepresented the Nurse Navigation program but didn’t identify any errors. “I will get someone out to you,” the nurse said. ” Then the nurse ordered an ambulance, recommending care within four hours, according to another recording disclosed in the Hogan litigation.
-
-🔗 Read more: https://www.seattletimes.com/seattle-news/times-watchdog/seattle-womans-911-calls-reveal-gaps-in-ambulance-service/</description>
-      <guid isPermaLink="true">https://www.seattletimes.com/seattle-news/times-watchdog/seattle-womans-911-calls-reveal-gaps-in-ambulance-service/</guid>
-      <pubDate>Sun, 08 Mar 2026 20:45:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47301264</comments>
-    </item>
-    <item>
-      <title>Ask HN: How to be alone?</title>
-      <link>https://news.ycombinator.com/item?id=47296547</link>
-      <description>📝 Another is that weekends are hard. Having animals helps somewhat, but it's still hard simply being alone with myself for ~60 hours. I sometimes panic when it's been too long since I've seen another person.
-
-🔗 Read more: https://news.ycombinator.com/item?id=47296547</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47296547</guid>
-      <pubDate>Sun, 08 Mar 2026 11:41:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47296547</comments>
-    </item>
-    <item>
-      <title>I made a programming language with M&amp;Ms</title>
-      <link>https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/</link>
-      <guid isPermaLink="true">https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/</guid>
-      <pubDate>Sun, 08 Mar 2026 18:18:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47299606</comments>
-    </item>
-    <item>
-      <title>The human.json Protocol</title>
-      <link>https://codeberg.org/robida/human.json</link>
-      <description>📝 json is a protocol based on that trust. json file you also vouch for the humanity of other sites that you trust. They fetch that site's human.
-
-🔗 Read more: https://codeberg.org/robida/human.json</description>
-      <guid isPermaLink="true">https://codeberg.org/robida/human.json</guid>
-      <pubDate>Sun, 08 Mar 2026 16:33:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47298655</comments>
+🔗 Read more: https://offlinemark.com/an-obscure-quirk-of-proc/</description>
+      <guid isPermaLink="true">https://offlinemark.com/an-obscure-quirk-of-proc/</guid>
+      <pubDate>Sun, 08 Mar 2026 22:50:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47302463</comments>
     </item>
   </channel>
 </rss>
