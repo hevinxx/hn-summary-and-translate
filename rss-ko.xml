@@ -6,47 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Mar 2026 09:44:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 13:01:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>3D 뜨개질: 최고의 가이드</title>
-      <link>https://www.oliver-charles.com/pages/3d-knitting</link>
-      <description>📝 솔기가 없는 3D 편직 기술로 내구성이 뛰어난 의류를 생산합니다. 3D 뜨개질은 언제 발명되었나요? 3D 뜨개질의 대안은 무엇입니까?
+      <title>가장 저렴한 MacBook의 빅데이터</title>
+      <link>https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook</link>
+      <description>📝 2024년, DuckDB v1으로 돌아왔습니다. 또한 DuckDB v1을 사용하여 ClickBench를 다시 실행했습니다. 가장 저렴한 MacBook이 이러한 쿼리를 처리할 수 있는지 살펴보겠습니다.
 
 
-🔤 Original: 3D-Knitting: The Ultimate Guide
+🔤 Original: Big Data on the Cheapest MacBook
 
-🔗 Read more: https://www.oliver-charles.com/pages/3d-knitting</description>
-      <guid isPermaLink="true">https://www.oliver-charles.com/pages/3d-knitting</guid>
-      <pubDate>Thu, 12 Mar 2026 08:27:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47347945</comments>
+🔗 Read more: https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook</description>
+      <guid isPermaLink="true">https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook</guid>
+      <pubDate>Thu, 12 Mar 2026 11:41:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47349277</comments>
     </item>
     <item>
-      <title>SBCL: 제정신으로 부트스트랩이 가능한 공통 Lisp(2008) [pdf]</title>
-      <link>https://research.gold.ac.uk/id/eprint/2336/1/sbcl.pdf</link>
-      <description>📝 288] /하위 유형/링크/A&lt;&gt; &gt;&gt; endobj 35 0 obj &lt;&lt; /Type /Annot /Border[0 0 1]/H/I/C[0 1 0] /Rect [263. ieee-scheme) &gt;&gt; &gt;&gt; endobj 36 0 obj &lt;&lt; /Type /Annot /Border[0 0 1]/H/I/C[0 1 0] /Rect [270. CLtS) &gt;&gt; &gt;&gt; endobj 37 0 obj &lt;&lt; /Type /Annot /Border[0 0 1]/H/I/C[0 1 0] /Rect [237.
+      <title>돌핀 프로그레스 릴리스 2603</title>
+      <link>https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/</link>
+      <description>📝 게임이 페이지 테이블로 매핑된 메모리에 액세스할 때마다(GameCube에서 메모리를 매핑하는 다른 방법) Dolphin은 항상 이를 수동으로 변환해야 했습니다. 메모리가 부족한 시스템에서는 66%의 추가 메모리가 매우 매력적입니다. 게임이 다시 시작되면 메모리 액세스는 마치 유효한 메모리에 저장된 것처럼 데이터를 반환합니다.
 
 
-🔤 Original: SBCL: A Sanely-Bootstrappable Common Lisp (2008) [pdf]
+🔤 Original: Dolphin Progress Release 2603
 
-🔗 Read more: https://research.gold.ac.uk/id/eprint/2336/1/sbcl.pdf</description>
-      <guid isPermaLink="true">https://research.gold.ac.uk/id/eprint/2336/1/sbcl.pdf</guid>
-      <pubDate>Thu, 12 Mar 2026 06:55:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47347362</comments>
+🔗 Read more: https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/</description>
+      <guid isPermaLink="true">https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/</guid>
+      <pubDate>Thu, 12 Mar 2026 09:23:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47348304</comments>
     </item>
     <item>
-      <title>2026년에 Rails로 복귀</title>
-      <link>https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/</link>
-      <description>📝 저는 https://setlist에서 작업을 해왔습니다. 나는 수년 동안 그것에 대해 반쯤 지켜봤지만 Rails에 대해 진지한 일을 한지는 오래되었습니다. 내가 생각하는 것과 내가 입력하는 것 사이에는 최소한의 번역이 필요합니다.
+      <title>삼각법 피하기(2013)</title>
+      <link>https://iquilezles.org/articles/noacos/</link>
+      <description>📝 함수는 다음과 같습니다: mat3x3rotationAxisAngle( const vec3 &amp; v, float a ) { const float si = sinf( a ); const float co = cosf( a ); const float ic = 1. 따라서 최종적으로 코드는 다음과 같습니다. const vec3 axi = Normalize( cross( z, d ) ); const float ang = acosf( 클램프( dot( z, d ), -1.0f ) ); const float co = cosf(ang); const float si = sinf(ang); const float ic = 1.
 
 
-🔤 Original: Returning to Rails in 2026
+🔤 Original: Avoiding Trigonometry (2013)
 
-🔗 Read more: https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/</description>
-      <guid isPermaLink="true">https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/</guid>
-      <pubDate>Thu, 12 Mar 2026 06:06:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47347064</comments>
+🔗 Read more: https://iquilezles.org/articles/noacos/</description>
+      <guid isPermaLink="true">https://iquilezles.org/articles/noacos/</guid>
+      <pubDate>Thu, 12 Mar 2026 09:06:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47348192</comments>
+    </item>
+    <item>
+      <title>신원 확인 데이터 유출로 1B 신원 기록 노출</title>
+      <link>https://www.aol.com/articles/1-billion-identity-records-exposed-152505381.html</link>
+      <description>📝 IDMerit과 같은 회사는 배후에서 해당 정보를 처리합니다. 범죄자에게 그것은 금이다. 누군가가 귀하의 이동통신사를 설득하여 귀하의 전화번호를 자신의 기기로 전송하도록 하는 경우입니다.
+
+
+🔤 Original: 1B identity records exposed in ID verification data leak
+
+🔗 Read more: https://www.aol.com/articles/1-billion-identity-records-exposed-152505381.html</description>
+      <guid isPermaLink="true">https://www.aol.com/articles/1-billion-identity-records-exposed-152505381.html</guid>
+      <pubDate>Thu, 12 Mar 2026 09:46:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47348440</comments>
+    </item>
+    <item>
+      <title>LLM은 점점 나아지고 있지 않나요?</title>
+      <link>https://entropicthoughts.com/no-swe-bench-improvement</link>
+      <description>📝 이 데이터의 특징을 가장 잘 나타내는 줄은 무엇입니까? 이는 계단 함수가 선형 기울기보다 예측력("더 잘 맞는")이 더 크다는 것을 의미합니다. 왜 아무도 이것에 대해 이야기하지 않습니다.
+
+
+🔤 Original: Are LLMs not getting better?
+
+🔗 Read more: https://entropicthoughts.com/no-swe-bench-improvement</description>
+      <guid isPermaLink="true">https://entropicthoughts.com/no-swe-bench-improvement</guid>
+      <pubDate>Thu, 12 Mar 2026 11:49:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47349334</comments>
+    </item>
+    <item>
+      <title>LLM 시대의 안정적인 소프트웨어</title>
+      <link>https://quint-lang.org/posts/llm_era</link>
+      <description>📝 Quint가 이 이야기에 어떻게 들어맞는가 LLM의 근본적인 과제는 검증입니다. Malachite의 프로토콜 설계 대부분은 처음부터 Quint를 사용하여 수행되었습니다. 이것이 바로 Quint가 등장하는 곳입니다. 하지만 이번에는 AI의 도움을 받아요.
+
+
+🔤 Original: Reliable Software in the LLM Era
+
+🔗 Read more: https://quint-lang.org/posts/llm_era</description>
+      <guid isPermaLink="true">https://quint-lang.org/posts/llm_era</guid>
+      <pubDate>Thu, 12 Mar 2026 08:19:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47347901</comments>
+    </item>
+    <item>
+      <title>피치에 따르면 미국 민간신용 부도율은 2025년 9.2%로 사상 최고치를 기록했다.</title>
+      <link>https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d</link>
+      <description>📝 미국 민간 신용 채무 불이행은 기록적인 9건을 기록했습니다. Fitch는 미결제 민간 신용 부채가 있는 302개 기업을 모니터링하면서 28개 대출자 중 38건의 채무 불이행을 기록했습니다. 그러나 피치는 지난해 소프트웨어 부문에서 부도를 기록하지 않았다.
+
+
+🔤 Original: US private credit defaults hit record 9.2% in 2025, Fitch says
+
+🔗 Read more: https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d</description>
+      <guid isPermaLink="true">https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d</guid>
+      <pubDate>Thu, 12 Mar 2026 12:44:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47349806</comments>
     </item>
   </channel>
 </rss>
