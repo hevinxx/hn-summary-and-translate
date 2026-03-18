@@ -6,99 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Mar 2026 02:10:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 04:57:24 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Show HN：使用 CoW 内存分叉的亚毫秒级 VM 沙箱</title>
-      <link>https://github.com/adammiribyan/zeroboot</link>
-      <description>📝 74ms ~300ms ~400ms ~90ms 每个沙箱内存 ~265KB ~128MB ~50MB ~50MB Fork + exec (Python) ~8ms - - - 1000 个并发 fork 815ms - - - 每个沙箱都是一个真正的 KVM 虚拟机，具有硬件强制内存隔离。 8ms) 模板（一次性）：Firecracker 启动虚拟机，预加载运行时，快照内存 + CPU 状态 Fork（~0. 8ms）：创建一个新的 KVM VM，将快照内存映射为 CoW，恢复所有 CPU 状态 隔离：每个 fork 都是一个单独的 KVM VM，具有硬件强制内存隔离 SDK Python — sdk/python from Zeroboot import Sandbox sb =沙箱（“zb_live_your_key”）结果= sb。
+      <title>有一个他妈的网站</title>
+      <link>https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</link>
+      <description>📝 去他妈的网站看看，我明白了。 “但是——”操你妈的，有一个他妈的网站。你不拥有你在社交媒体平台上发布的东西。
 
 
-🔤 Original: Show HN: Sub-millisecond VM sandboxes using CoW memory forking
+🔤 Original: Have a Fucking Website
 
-🔗 Read more: https://github.com/adammiribyan/zeroboot</description>
-      <guid isPermaLink="true">https://github.com/adammiribyan/zeroboot</guid>
-      <pubDate>Tue, 17 Mar 2026 13:43:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47412569</comments>
+🔗 Read more: https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</description>
+      <guid isPermaLink="true">https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</guid>
+      <pubDate>Wed, 18 Mar 2026 03:53:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47421442</comments>
     </item>
     <item>
-      <title>Mistral AI 发布 Forge</title>
-      <link>https://mistral.ai/news/forge</link>
-      <description>📝 Forge 使企业能够构建内化其领域知识的模型。 Forge 允许企业构建仍在其控制之下的模型。定制模型让企业代理变得可靠。
+      <title>忘记标志和脚本：只需重命名文件</title>
+      <link>https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</link>
+      <description>📝 软件工程 忘记标志和脚本：只需重命名文件视图页面源 忘记标志和脚本：只需重命名文件 程序通常从标志或脚本获取输入。为什么不只是标志或脚本。示例 1：可重复使用的安装程序 想象一下 install_PY3_MODULE_NAME。
 
 
-🔤 Original: Mistral AI Releases Forge
+🔤 Original: Forget Flags and Scripts: Just Rename the File
 
-🔗 Read more: https://mistral.ai/news/forge</description>
-      <guid isPermaLink="true">https://mistral.ai/news/forge</guid>
-      <pubDate>Tue, 17 Mar 2026 21:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418295</comments>
-    </item>
-    <item>
-      <title>只需 2 行代码即可启动具有沙盒执行功能的自主 AI 代理</title>
-      <link>https://amaiya.github.io/onprem/examples_agent.html</link>
-      <description>📝 管道导入 AgentExecutor AgentExecutor。代理无法在工作目录之外读取或写入。 run( task=""" 使用以下内容创建一个简单的 Python 计算器模块： - Calculator.
-
-
-🔤 Original: Launch an autonomous AI agent with sandboxed execution in 2 lines of code
-
-🔗 Read more: https://amaiya.github.io/onprem/examples_agent.html</description>
-      <guid isPermaLink="true">https://amaiya.github.io/onprem/examples_agent.html</guid>
-      <pubDate>Wed, 18 Mar 2026 01:10:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420493</comments>
-    </item>
-    <item>
-      <title>推出 HN：Kita (YC W26) – 在新兴市场自动进行信用审查</title>
-      <link>https://news.ycombinator.com/item?id=47417335</link>
-      <description>📝 我们使用 VLM 对新兴市场的贷方进行自动化信用审查。 Kita 使用基于 VLM 的代理来解析文档、检测欺诈并从混乱的财务文件中提取承保信号。 Kita Capture 是我们为贷方提供的第一个文档智能产品。
-
-
-🔤 Original: Launch HN: Kita (YC W26) – Automate credit review in emerging markets
-
-🔗 Read more: https://news.ycombinator.com/item?id=47417335</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47417335</guid>
-      <pubDate>Tue, 17 Mar 2026 19:46:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417335</comments>
-    </item>
-    <item>
-      <title>糟糕的产品设计带来的乐趣</title>
-      <link>https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</link>
-      <description>📝 我对卡特琳娜·坎普拉尼的视频采访的屏幕截图。 Katerina Kamprani：我的意思是，稀疏。 （照片©Katerina Kamprani — 联合国。
-
-
-🔤 Original: The Pleasures of Poor Product Design
-
-🔗 Read more: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</description>
-      <guid isPermaLink="true">https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</guid>
-      <pubDate>Wed, 18 Mar 2026 01:00:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420432</comments>
-    </item>
-    <item>
-      <title>关于修复 Linux 内核中的 eBPF 自旋锁问题的故事</title>
-      <link>https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</link>
-      <description>📝 在这种情况下，我们正在处理内核冻结，因此事情并不那么简单。使用自定义内核，启用内核调试非常简单。不幸的是，似乎当内核处于这种冻结状态时，即使调试器也不再响应。
-
-
-🔤 Original: A tale about fixing eBPF spinlock issues in the Linux kernel
-
-🔗 Read more: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</description>
-      <guid isPermaLink="true">https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</guid>
-      <pubDate>Wed, 18 Mar 2026 00:53:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420388</comments>
-    </item>
-    <item>
-      <title>为什么人工智能系统不学习——认知科学的自主学习</title>
-      <link>https://arxiv.org/abs/2603.15381</link>
-      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
-
-
-🔤 Original: Why AI systems don't learn – On autonomous learning from cognitive science
-
-🔗 Read more: https://arxiv.org/abs/2603.15381</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.15381</guid>
-      <pubDate>Tue, 17 Mar 2026 21:42:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418722</comments>
+🔗 Read more: https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</description>
+      <guid isPermaLink="true">https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</guid>
+      <pubDate>Wed, 18 Mar 2026 04:11:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47421513</comments>
     </item>
   </channel>
 </rss>

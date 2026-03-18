@@ -6,99 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Mar 2026 02:10:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 04:57:24 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Show HN: CoW メモリ フォークを使用したサブミリ秒 VM サンドボックス</title>
-      <link>https://github.com/adammiribyan/zeroboot</link>
-      <description>📝 74ms ~300ms ~400ms ~90ms サンドボックスあたりのメモリ ~265KB ~128MB ~50MB ~50MB フォーク + 実行 (Python) ~8ms - - - 同時フォーク 1000 個 815ms - - - 各サンドボックスは、ハードウェア強制メモリ分離を備えた実際の KVM 仮想マシンです。 8ms) テンプレート (1 回): Firecracker は VM を起動し、ランタイムをプリロードし、メモリ + CPU 状態のスナップショットを作成します。 フォーク (~0.8ms): 新しい KVM VM を作成し、スナップショット メモリを CoW としてマップし、すべての CPU 状態を復元します。 分離: 各フォークは、ハードウェア強制メモリ分離 SDK を備えた個別の KVM VM です。 Python — ゼロブート インポートからの sdk/python サンドボックス sb =サンドボックス("zb_live_your_key") 結果 = sb.
+      <title>クソみたいなウェブサイトを持っている</title>
+      <link>https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</link>
+      <description>📝 クソみたいなウェブサイトを作ってみろ、分かった。 「でも――」クソ野郎、クソみたいなウェブサイトを持ってるんだ。ソーシャルメディアプラットフォームに投稿したものはあなた自身のものではありません。
 
 
-🔤 Original: Show HN: Sub-millisecond VM sandboxes using CoW memory forking
+🔤 Original: Have a Fucking Website
 
-🔗 Read more: https://github.com/adammiribyan/zeroboot</description>
-      <guid isPermaLink="true">https://github.com/adammiribyan/zeroboot</guid>
-      <pubDate>Tue, 17 Mar 2026 13:43:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47412569</comments>
+🔗 Read more: https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</description>
+      <guid isPermaLink="true">https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</guid>
+      <pubDate>Wed, 18 Mar 2026 03:53:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47421442</comments>
     </item>
     <item>
-      <title>Mistral AI が Forge をリリース</title>
-      <link>https://mistral.ai/news/forge</link>
-      <description>📝 Forge を使用すると、企業はドメイン知識を内部化するモデルを構築できます。 Forge を使用すると、企業は自社の管理下にあるモデルを構築できます。カスタム モデルにより、エンタープライズ エージェントは信頼できるものになります。
+      <title>フラグやスクリプトを忘れてください: ファイルの名前を変更するだけです</title>
+      <link>https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</link>
+      <description>📝 ソフトウェアエンジニアリング フラグとスクリプトを忘れる: ファイルの名前を変更するだけ ページソースを表示 フラグとスクリプトを忘れる: ファイルの名前を変更するだけ プログラムは通常、フラグまたはスクリプトから入力を取得します。なぜフラグやスクリプトだけではだめなのでしょうか。例 1: 再利用可能なインストーラー install_PY3_MODULE_NAME を想像してください。
 
 
-🔤 Original: Mistral AI Releases Forge
+🔤 Original: Forget Flags and Scripts: Just Rename the File
 
-🔗 Read more: https://mistral.ai/news/forge</description>
-      <guid isPermaLink="true">https://mistral.ai/news/forge</guid>
-      <pubDate>Tue, 17 Mar 2026 21:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418295</comments>
-    </item>
-    <item>
-      <title>2 行のコードでサンドボックス実行による自律型 AI エージェントを起動</title>
-      <link>https://amaiya.github.io/onprem/examples_agent.html</link>
-      <description>📝 パイプラインは AgentExecutor AgentExecutor をインポートします。エージェントは作業ディレクトリの外で読み取りまたは書き込みを行うことはできません。 run( task=""" 以下を使用して単純な Python 計算モジュールを作成します。 - 計算機。
-
-
-🔤 Original: Launch an autonomous AI agent with sandboxed execution in 2 lines of code
-
-🔗 Read more: https://amaiya.github.io/onprem/examples_agent.html</description>
-      <guid isPermaLink="true">https://amaiya.github.io/onprem/examples_agent.html</guid>
-      <pubDate>Wed, 18 Mar 2026 01:10:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420493</comments>
-    </item>
-    <item>
-      <title>HN: 北 (YC W26) を開始 – 新興市場での信用調査を自動化</title>
-      <link>https://news.ycombinator.com/item?id=47417335</link>
-      <description>📝 当社は、VLM を使用して新興市場の貸し手の信用調査を自動化します。 Kira は、VLM ベースのエージェントを使用して文書を解析し、不正行為を検出し、乱雑な財務ファイルから引受シグナルを抽出します。 Kita Capture は、金融業者向けの当社初のドキュメント インテリジェンス製品です。
-
-
-🔤 Original: Launch HN: Kita (YC W26) – Automate credit review in emerging markets
-
-🔗 Read more: https://news.ycombinator.com/item?id=47417335</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47417335</guid>
-      <pubDate>Tue, 17 Mar 2026 19:46:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417335</comments>
-    </item>
-    <item>
-      <title>貧弱な製品デザインの楽しみ</title>
-      <link>https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</link>
-      <description>📝 カテリーナ・カンプラーニとのビデオインタビューのスクリーンショット。カテリーナ・カンプラーニ: つまり、まばらです。 (写真 © Katerina Kamprani — The Un.
-
-
-🔤 Original: The Pleasures of Poor Product Design
-
-🔗 Read more: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</description>
-      <guid isPermaLink="true">https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</guid>
-      <pubDate>Wed, 18 Mar 2026 01:00:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420432</comments>
-    </item>
-    <item>
-      <title>Linux カーネルにおける eBPF スピンロックの問題の修正に関する話</title>
-      <link>https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</link>
-      <description>📝 この場合、カーネルのフリーズを扱っているため、それほど単純ではありません。カスタム カーネルを使用すると、カーネルのデバッグを有効にするのは非常に簡単です。残念ながら、カーネルがこのフリーズ状態になると、デバッガーさえも応答しなくなるようです。
-
-
-🔤 Original: A tale about fixing eBPF spinlock issues in the Linux kernel
-
-🔗 Read more: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</description>
-      <guid isPermaLink="true">https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</guid>
-      <pubDate>Wed, 18 Mar 2026 00:53:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420388</comments>
-    </item>
-    <item>
-      <title>なぜAIシステムは学習しないのか – 認知科学から学ぶ自律学習について</title>
-      <link>https://arxiv.org/abs/2603.15381</link>
-      <description>📝 ) 接続されたペーパー 接続されたペーパーを切り替えます (接続されたペーパーとは何ですか。) リットマップ リットマップを切り替えます (リットマップとは。) コードへのリンク コード付きペーパーを切り替えます (コード付きペーパーとは。)
-
-
-🔤 Original: Why AI systems don't learn – On autonomous learning from cognitive science
-
-🔗 Read more: https://arxiv.org/abs/2603.15381</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.15381</guid>
-      <pubDate>Tue, 17 Mar 2026 21:42:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418722</comments>
+🔗 Read more: https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</description>
+      <guid isPermaLink="true">https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</guid>
+      <pubDate>Wed, 18 Mar 2026 04:11:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47421513</comments>
     </item>
   </channel>
 </rss>

@@ -6,99 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Mar 2026 02:10:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 04:57:24 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>HN 표시: CoW 메모리 포크를 사용하는 밀리초 미만의 VM 샌드박스</title>
-      <link>https://github.com/adammiribyan/zeroboot</link>
-      <description>📝 74ms ~300ms ~400ms ~90ms 샌드박스당 메모리 ~265KB ~128MB ~50MB ~50MB 포크 + exec(Python) ~8ms - - - 동시 포크 1000개 815ms - - - 각 샌드박스는 하드웨어로 강제되는 메모리 격리 기능을 갖춘 실제 KVM 가상 머신입니다. 8ms) 템플릿(일회성): Firecracker는 VM을 부팅하고, 런타임을 사전 로드하고, 메모리 + CPU 상태 스냅샷을 생성합니다. 포크(~0.8ms): 새 KVM VM을 생성하고, 스냅샷 메모리를 CoW로 매핑하고, 모든 CPU 상태를 복원합니다. 격리: 각 포크는 하드웨어 적용 메모리 격리를 갖춘 별도의 KVM VM입니다. SDK Python — sdk/python from zeroboot import Sandbox sb = 샌드박스("zb_live_your_key") 결과 = sb.
+      <title>빌어먹을 웹사이트를 갖고 있어</title>
+      <link>https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</link>
+      <description>📝 빌어먹을 웹사이트를 한번 살펴보세요. 알겠습니다. "하지만-" 엿먹어, 빌어먹을 웹사이트가 있어. 당신은 소셜 미디어 플랫폼에 올린 것을 소유한 것이 아닙니다.
 
 
-🔤 Original: Show HN: Sub-millisecond VM sandboxes using CoW memory forking
+🔤 Original: Have a Fucking Website
 
-🔗 Read more: https://github.com/adammiribyan/zeroboot</description>
-      <guid isPermaLink="true">https://github.com/adammiribyan/zeroboot</guid>
-      <pubDate>Tue, 17 Mar 2026 13:43:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47412569</comments>
+🔗 Read more: https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</description>
+      <guid isPermaLink="true">https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/</guid>
+      <pubDate>Wed, 18 Mar 2026 03:53:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47421442</comments>
     </item>
     <item>
-      <title>Mistral AI, Forge 출시</title>
-      <link>https://mistral.ai/news/forge</link>
-      <description>📝 Forge를 통해 기업은 도메인 지식을 내부화하는 모델을 구축할 수 있습니다. Forge를 사용하면 기업은 자신의 통제하에 있는 모델을 구축할 수 있습니다. 맞춤형 모델은 엔터프라이즈 에이전트의 신뢰성을 높여줍니다.
+      <title>플래그와 스크립트는 잊어버리세요: 파일 이름만 바꾸세요</title>
+      <link>https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</link>
+      <description>📝 소프트웨어 엔지니어링 플래그 및 스크립트 잊어버리기: 파일 이름 바꾸기 페이지 소스 보기 플래그 및 스크립트 잊어버리기: 파일 이름 바꾸기 프로그램은 일반적으로 플래그나 스크립트에서 입력을 받습니다. 플래그나 스크립트만이 아닌 이유는 무엇입니까? 예시 1: 재사용 가능한 설치 프로그램 install_PY3_MODULE_NAME을 상상해 보세요.
 
 
-🔤 Original: Mistral AI Releases Forge
+🔤 Original: Forget Flags and Scripts: Just Rename the File
 
-🔗 Read more: https://mistral.ai/news/forge</description>
-      <guid isPermaLink="true">https://mistral.ai/news/forge</guid>
-      <pubDate>Tue, 17 Mar 2026 21:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418295</comments>
-    </item>
-    <item>
-      <title>두 줄의 코드로 샌드박스 실행을 통해 자율 AI 에이전트 실행</title>
-      <link>https://amaiya.github.io/onprem/examples_agent.html</link>
-      <description>📝 파이프라인은 AgentExecutor AgentExecutor를 가져옵니다. 에이전트는 작업 디렉터리 외부에서 읽거나 쓸 수 없습니다. run( task=""" 다음을 사용하여 간단한 Python 계산기 모듈을 만듭니다. - 계산기.
-
-
-🔤 Original: Launch an autonomous AI agent with sandboxed execution in 2 lines of code
-
-🔗 Read more: https://amaiya.github.io/onprem/examples_agent.html</description>
-      <guid isPermaLink="true">https://amaiya.github.io/onprem/examples_agent.html</guid>
-      <pubDate>Wed, 18 Mar 2026 01:10:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420493</comments>
-    </item>
-    <item>
-      <title>HN 출시: Kita(YC W26) – 신흥 시장에서 신용 검토 자동화</title>
-      <link>https://news.ycombinator.com/item?id=47417335</link>
-      <description>📝 우리는 VLM을 사용하여 신흥 시장의 대출 기관에 대한 신용 검토를 자동화합니다. Kita는 VLM 기반 에이전트를 사용하여 문서를 구문 분석하고, 사기를 탐지하고, 지저분한 금융 파일에서 인수 신호를 추출합니다. Kita Capture는 대출 기관을 위한 최초의 문서 인텔리전스 제품입니다.
-
-
-🔤 Original: Launch HN: Kita (YC W26) – Automate credit review in emerging markets
-
-🔗 Read more: https://news.ycombinator.com/item?id=47417335</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47417335</guid>
-      <pubDate>Tue, 17 Mar 2026 19:46:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417335</comments>
-    </item>
-    <item>
-      <title>형편없는 제품 디자인의 즐거움</title>
-      <link>https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</link>
-      <description>📝 Katerina Kamprani와의 비디오 인터뷰 스크린샷. Katerina Kamprani: 제 말은 드물게요. (사진 © Katerina Kamprani — The Un.
-
-
-🔤 Original: The Pleasures of Poor Product Design
-
-🔗 Read more: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</description>
-      <guid isPermaLink="true">https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</guid>
-      <pubDate>Wed, 18 Mar 2026 01:00:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420432</comments>
-    </item>
-    <item>
-      <title>Linux 커널의 eBPF 스핀록 문제 해결에 대한 이야기</title>
-      <link>https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</link>
-      <description>📝 이 경우 커널 동결을 다루고 있으므로 그렇게 간단하지는 않습니다. 사용자 정의 커널을 사용하면 커널 디버깅을 활성화하는 것이 매우 간단합니다. 불행하게도 커널이 정지 상태가 되면 디버거조차 더 이상 반응하지 않는 것 같습니다.
-
-
-🔤 Original: A tale about fixing eBPF spinlock issues in the Linux kernel
-
-🔗 Read more: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</description>
-      <guid isPermaLink="true">https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</guid>
-      <pubDate>Wed, 18 Mar 2026 00:53:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47420388</comments>
-    </item>
-    <item>
-      <title>AI 시스템이 학습하지 못하는 이유 – 인지과학의 자율 학습</title>
-      <link>https://arxiv.org/abs/2603.15381</link>
-      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
-
-
-🔤 Original: Why AI systems don't learn – On autonomous learning from cognitive science
-
-🔗 Read more: https://arxiv.org/abs/2603.15381</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.15381</guid>
-      <pubDate>Tue, 17 Mar 2026 21:42:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418722</comments>
+🔗 Read more: https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</description>
+      <guid isPermaLink="true">https://robertsdotpm.github.io/software_engineering/program_names_as_input.html</guid>
+      <pubDate>Wed, 18 Mar 2026 04:11:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47421513</comments>
     </item>
   </channel>
 </rss>
