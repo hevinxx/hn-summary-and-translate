@@ -6,125 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 17 Mar 2026 21:39:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 02:10:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ナメクジの10年</title>
-      <link>https://terathon.com/blog/decade-slug.html</link>
-      <description>📝 この投稿では、論文が発表され、Slug Library が最初にリリースされた 2017 年以降、レンダリング方法内で何が変わったのかについて説明します。通常のサイズでテキストをレンダリングする場合には必要ありませんが、非常に小さなサイズで描画されたテキストを強化するために、Slug の初期バージョンでは適応型スーパーサンプリングが実装されました。スーパーサンプリングの削除により、ピクセル シェーダも大幅に簡素化されました。
+      <title>Show HN: CoW メモリ フォークを使用したサブミリ秒 VM サンドボックス</title>
+      <link>https://github.com/adammiribyan/zeroboot</link>
+      <description>📝 74ms ~300ms ~400ms ~90ms サンドボックスあたりのメモリ ~265KB ~128MB ~50MB ~50MB フォーク + 実行 (Python) ~8ms - - - 同時フォーク 1000 個 815ms - - - 各サンドボックスは、ハードウェア強制メモリ分離を備えた実際の KVM 仮想マシンです。 8ms) テンプレート (1 回): Firecracker は VM を起動し、ランタイムをプリロードし、メモリ + CPU 状態のスナップショットを作成します。 フォーク (~0.8ms): 新しい KVM VM を作成し、スナップショット メモリを CoW としてマップし、すべての CPU 状態を復元します。 分離: 各フォークは、ハードウェア強制メモリ分離 SDK を備えた個別の KVM VM です。 Python — ゼロブート インポートからの sdk/python サンドボックス sb =サンドボックス("zb_live_your_key") 結果 = sb.
 
 
-🔤 Original: A Decade of Slug
+🔤 Original: Show HN: Sub-millisecond VM sandboxes using CoW memory forking
 
-🔗 Read more: https://terathon.com/blog/decade-slug.html</description>
-      <guid isPermaLink="true">https://terathon.com/blog/decade-slug.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:59:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416736</comments>
+🔗 Read more: https://github.com/adammiribyan/zeroboot</description>
+      <guid isPermaLink="true">https://github.com/adammiribyan/zeroboot</guid>
+      <pubDate>Tue, 17 Mar 2026 13:43:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47412569</comments>
     </item>
     <item>
-      <title>Python 3.15 の JIT が軌道に戻りました</title>
-      <link>https://fidget-spinner.github.io/posts/jit-on-track.html</link>
-      <description>📝 Faster CPython チームがメイン スポンサーからの資金提供を失ったのもその頃でした。 Brandt は 3 の早い段階でこれを開始しました。新しい貢献者を奨励するために、私はすぐに実行できる非常に詳細な手順も示しました。
+      <title>Mistral AI が Forge をリリース</title>
+      <link>https://mistral.ai/news/forge</link>
+      <description>📝 Forge を使用すると、企業はドメイン知識を内部化するモデルを構築できます。 Forge を使用すると、企業は自社の管理下にあるモデルを構築できます。カスタム モデルにより、エンタープライズ エージェントは信頼できるものになります。
 
 
-🔤 Original: Python 3.15's JIT is now back on track
+🔤 Original: Mistral AI Releases Forge
 
-🔗 Read more: https://fidget-spinner.github.io/posts/jit-on-track.html</description>
-      <guid isPermaLink="true">https://fidget-spinner.github.io/posts/jit-on-track.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:37:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416486</comments>
+🔗 Read more: https://mistral.ai/news/forge</description>
+      <guid isPermaLink="true">https://mistral.ai/news/forge</guid>
+      <pubDate>Tue, 17 Mar 2026 21:04:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418295</comments>
     </item>
     <item>
-      <title>Get Shit Done: メタプロンプト、コンテキストエンジニアリング、仕様主導の開発システム</title>
-      <link>https://github.com/gsd-build/get-shit-done</link>
-      <description>📝 私はコードを書きません。Claude Code がコードを書きます。 claude/ npx get-shit-done-cc --claude --local # にインストールします。 codex/ npx get-shit-done-cc --codex --local # にインストールします。
+      <title>2 行のコードでサンドボックス実行による自律型 AI エージェントを起動</title>
+      <link>https://amaiya.github.io/onprem/examples_agent.html</link>
+      <description>📝 パイプラインは AgentExecutor AgentExecutor をインポートします。エージェントは作業ディレクトリの外で読み取りまたは書き込みを行うことはできません。 run( task=""" 以下を使用して単純な Python 計算モジュールを作成します。 - 計算機。
 
 
-🔤 Original: Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System
+🔤 Original: Launch an autonomous AI agent with sandboxed execution in 2 lines of code
 
-🔗 Read more: https://github.com/gsd-build/get-shit-done</description>
-      <guid isPermaLink="true">https://github.com/gsd-build/get-shit-done</guid>
-      <pubDate>Tue, 17 Mar 2026 20:23:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417804</comments>
+🔗 Read more: https://amaiya.github.io/onprem/examples_agent.html</description>
+      <guid isPermaLink="true">https://amaiya.github.io/onprem/examples_agent.html</guid>
+      <pubDate>Wed, 18 Mar 2026 01:10:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420493</comments>
     </item>
     <item>
-      <title>Edge.js: WebAssembly サンドボックス内で Node アプリを実行する</title>
-      <link>https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</link>
-      <description>📝 これにより、既存のノードが許可されます。ノードと完全な互換性があります。必要なのは完全なノードだけではありません。
+      <title>HN: 北 (YC W26) を開始 – 新興市場での信用調査を自動化</title>
+      <link>https://news.ycombinator.com/item?id=47417335</link>
+      <description>📝 当社は、VLM を使用して新興市場の貸し手の信用調査を自動化します。 Kira は、VLM ベースのエージェントを使用して文書を解析し、不正行為を検出し、乱雑な財務ファイルから引受シグナルを抽出します。 Kita Capture は、金融業者向けの当社初のドキュメント インテリジェンス製品です。
 
 
-🔤 Original: Edge.js: Run Node apps inside a WebAssembly sandbox
+🔤 Original: Launch HN: Kita (YC W26) – Automate credit review in emerging markets
 
-🔗 Read more: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</description>
-      <guid isPermaLink="true">https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</guid>
-      <pubDate>Tue, 17 Mar 2026 18:01:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416081</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47417335</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47417335</guid>
+      <pubDate>Tue, 17 Mar 2026 19:46:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47417335</comments>
     </item>
     <item>
-      <title>Garry Tan のクロード コードのセットアップ</title>
-      <link>https://github.com/garrytan/gstack/tree/main</link>
-      <description>📝 " [80 項目の監査、デザイン システムを推測し、デザインをエクスポートします。あなた: /qa https://staging. デザイン システムを推測します。
+      <title>貧弱な製品デザインの楽しみ</title>
+      <link>https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</link>
+      <description>📝 カテリーナ・カンプラーニとのビデオインタビューのスクリーンショット。カテリーナ・カンプラーニ: つまり、まばらです。 (写真 © Katerina Kamprani — The Un.
 
 
-🔤 Original: Garry Tan's Claude Code Setup
+🔤 Original: The Pleasures of Poor Product Design
 
-🔗 Read more: https://github.com/garrytan/gstack/tree/main</description>
-      <guid isPermaLink="true">https://github.com/garrytan/gstack/tree/main</guid>
-      <pubDate>Tue, 17 Mar 2026 21:28:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418576</comments>
+🔗 Read more: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</description>
+      <guid isPermaLink="true">https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</guid>
+      <pubDate>Wed, 18 Mar 2026 01:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420432</comments>
     </item>
     <item>
-      <title>MetaとTikTokはエンゲージメントを促進するために有害なコンテンツを増加させたと内部告発者が語る</title>
-      <link>https://www.bbc.com/news/articles/cqj9kgxqjwjo</link>
-      <description>📝 証拠の暴挙がエンゲージメントを促進した後、MetaとTikTokが有害なコンテンツを増加させたと内部告発者が語る2 日前ShareSaveマリアンナ・スプリング、ソーシャルメディア調査特派員とマイク・ラドフォードShareSaveBBC/Getty Images内部告発者らはTikTokの爆発的な成長に伴うアルゴリズム軍拡競争の内情を明らかにしたソーシャルメディア大手は、自社のアルゴリズムに関する内部調査でいかに暴挙が行われているかを明らかにした後、人々のフィードにさらに有害なコンテンツを許可する決定を下した内部告発者らはBBCに、関与を促進したと語った。 TikTokは、これらは「捏造された主張」であり、同社は有害なコンテンツが決して閲覧されないようにする技術に投資したと述べた。このような完全に安全なシステムを構築するのは困難だったと同氏は述べた。
+      <title>Linux カーネルにおける eBPF スピンロックの問題の修正に関する話</title>
+      <link>https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</link>
+      <description>📝 この場合、カーネルのフリーズを扱っているため、それほど単純ではありません。カスタム カーネルを使用すると、カーネルのデバッグを有効にするのは非常に簡単です。残念ながら、カーネルがこのフリーズ状態になると、デバッガーさえも応答しなくなるようです。
 
 
-🔤 Original: Meta and TikTok let harmful content rise to drove engagement, say whistleblowers
+🔤 Original: A tale about fixing eBPF spinlock issues in the Linux kernel
 
-🔗 Read more: https://www.bbc.com/news/articles/cqj9kgxqjwjo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cqj9kgxqjwjo</guid>
-      <pubDate>Tue, 17 Mar 2026 20:24:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417814</comments>
+🔗 Read more: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</description>
+      <guid isPermaLink="true">https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</guid>
+      <pubDate>Wed, 18 Mar 2026 00:53:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420388</comments>
     </item>
     <item>
-      <title>アンスロース スタジオ</title>
-      <link>https://unsloth.ai/docs/new/studio</link>
-      <description>📝 MLXトレーニングはもうすぐ始まります。 hashtagObservabilityトレーニング実行を完全に可視化し、制御します。 MLX トレーニングはもうすぐ始まります。
+      <title>なぜAIシステムは学習しないのか – 認知科学から学ぶ自律学習について</title>
+      <link>https://arxiv.org/abs/2603.15381</link>
+      <description>📝 ) 接続されたペーパー 接続されたペーパーを切り替えます (接続されたペーパーとは何ですか。) リットマップ リットマップを切り替えます (リットマップとは。) コードへのリンク コード付きペーパーを切り替えます (コード付きペーパーとは。)
 
 
-🔤 Original: Unsloth Studio
+🔤 Original: Why AI systems don't learn – On autonomous learning from cognitive science
 
-🔗 Read more: https://unsloth.ai/docs/new/studio</description>
-      <guid isPermaLink="true">https://unsloth.ai/docs/new/studio</guid>
-      <pubDate>Tue, 17 Mar 2026 15:26:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47414032</comments>
-    </item>
-    <item>
-      <title>Java 26 が登場</title>
-      <link>https://hanno.codes/2026/03/17/java-26-is-here/</link>
-      <description>📝 この表には、それらのプレビュー ステータス、それらが属するプロジェクト、追加される機能の種類、および Java 25 以降の変更点が含まれています。JEP 516 は、Java オブジェクトを GC に依存しない形式でキャッシュすることにより、事前キャッシュのサポートを ZGC (さらに言えば他のガベージ コレクターにも) 拡張します。新しいキャッシュ形式が GC に依存しない理由。
-
-
-🔤 Original: Java 26 is here
-
-🔗 Read more: https://hanno.codes/2026/03/17/java-26-is-here/</description>
-      <guid isPermaLink="true">https://hanno.codes/2026/03/17/java-26-is-here/</guid>
-      <pubDate>Tue, 17 Mar 2026 18:44:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416548</comments>
-    </item>
-    <item>
-      <title>Show HN: Horizo​​n – Rust の GPU アクセラレーションによる無限キャンバス ターミナル</title>
-      <link>https://github.com/peters/horizon</link>
-      <description>📝 Horizo​​n は、すべてのセッションを無限のキャンバスに配置する GPU アクセラレーションのターミナル ボードです。タブ付きターミナルは作業内容を隠します。 Horizo​​n は端末が出力する内容を確認し、対話型にします。
-
-
-🔤 Original: Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust
-
-🔗 Read more: https://github.com/peters/horizon</description>
-      <guid isPermaLink="true">https://github.com/peters/horizon</guid>
-      <pubDate>Tue, 17 Mar 2026 18:14:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416227</comments>
+🔗 Read more: https://arxiv.org/abs/2603.15381</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.15381</guid>
+      <pubDate>Tue, 17 Mar 2026 21:42:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418722</comments>
     </item>
   </channel>
 </rss>

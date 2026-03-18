@@ -6,125 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Mar 2026 21:39:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 02:10:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>10년의 슬러그</title>
-      <link>https://terathon.com/blog/decade-slug.html</link>
-      <description>📝 이 게시물은 논문이 출판되고 Slug Library가 처음 출시된 2017년 이후 렌더링 방식에 어떤 변화가 있었는지에 대해 이야기합니다. 일반적인 크기로 텍스트를 렌더링하는 데는 필요하지 않지만 초기 버전의 Slug에서는 매우 작은 크기로 그려진 텍스트를 향상시키기 위해 적응형 슈퍼샘플링이 구현되었습니다. 슈퍼샘플링을 제거하면 픽셀 셰이더도 상당히 단순화되었습니다.
+      <title>HN 표시: CoW 메모리 포크를 사용하는 밀리초 미만의 VM 샌드박스</title>
+      <link>https://github.com/adammiribyan/zeroboot</link>
+      <description>📝 74ms ~300ms ~400ms ~90ms 샌드박스당 메모리 ~265KB ~128MB ~50MB ~50MB 포크 + exec(Python) ~8ms - - - 동시 포크 1000개 815ms - - - 각 샌드박스는 하드웨어로 강제되는 메모리 격리 기능을 갖춘 실제 KVM 가상 머신입니다. 8ms) 템플릿(일회성): Firecracker는 VM을 부팅하고, 런타임을 사전 로드하고, 메모리 + CPU 상태 스냅샷을 생성합니다. 포크(~0.8ms): 새 KVM VM을 생성하고, 스냅샷 메모리를 CoW로 매핑하고, 모든 CPU 상태를 복원합니다. 격리: 각 포크는 하드웨어 적용 메모리 격리를 갖춘 별도의 KVM VM입니다. SDK Python — sdk/python from zeroboot import Sandbox sb = 샌드박스("zb_live_your_key") 결과 = sb.
 
 
-🔤 Original: A Decade of Slug
+🔤 Original: Show HN: Sub-millisecond VM sandboxes using CoW memory forking
 
-🔗 Read more: https://terathon.com/blog/decade-slug.html</description>
-      <guid isPermaLink="true">https://terathon.com/blog/decade-slug.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:59:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416736</comments>
+🔗 Read more: https://github.com/adammiribyan/zeroboot</description>
+      <guid isPermaLink="true">https://github.com/adammiribyan/zeroboot</guid>
+      <pubDate>Tue, 17 Mar 2026 13:43:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47412569</comments>
     </item>
     <item>
-      <title>Python 3.15의 JIT가 이제 다시 궤도에 올랐습니다.</title>
-      <link>https://fidget-spinner.github.io/posts/jit-on-track.html</link>
-      <description>📝 Faster CPython 팀이 주요 후원자로부터 자금을 잃은 시기이기도 했습니다. Brandt는 3에서 일찍부터 이 작업을 시작했습니다. 새로운 기여자를 격려하기 위해 저는 즉시 실행 가능한 매우 자세한 지침도 제시했습니다.
+      <title>Mistral AI, Forge 출시</title>
+      <link>https://mistral.ai/news/forge</link>
+      <description>📝 Forge를 통해 기업은 도메인 지식을 내부화하는 모델을 구축할 수 있습니다. Forge를 사용하면 기업은 자신의 통제하에 있는 모델을 구축할 수 있습니다. 맞춤형 모델은 엔터프라이즈 에이전트의 신뢰성을 높여줍니다.
 
 
-🔤 Original: Python 3.15's JIT is now back on track
+🔤 Original: Mistral AI Releases Forge
 
-🔗 Read more: https://fidget-spinner.github.io/posts/jit-on-track.html</description>
-      <guid isPermaLink="true">https://fidget-spinner.github.io/posts/jit-on-track.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:37:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416486</comments>
+🔗 Read more: https://mistral.ai/news/forge</description>
+      <guid isPermaLink="true">https://mistral.ai/news/forge</guid>
+      <pubDate>Tue, 17 Mar 2026 21:04:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418295</comments>
     </item>
     <item>
-      <title>일 처리하기: 메타 프롬프트, 컨텍스트 엔지니어링 및 사양 기반 개발 시스템</title>
-      <link>https://github.com/gsd-build/get-shit-done</link>
-      <description>📝 나는 코드를 작성하지 않습니다. Claude Code가 작성합니다. claude/ npx get-shit-done-cc --claude --local # 설치 위치. codex/ npx get-shit-done-cc --codex --local # 설치 위치.
+      <title>두 줄의 코드로 샌드박스 실행을 통해 자율 AI 에이전트 실행</title>
+      <link>https://amaiya.github.io/onprem/examples_agent.html</link>
+      <description>📝 파이프라인은 AgentExecutor AgentExecutor를 가져옵니다. 에이전트는 작업 디렉터리 외부에서 읽거나 쓸 수 없습니다. run( task=""" 다음을 사용하여 간단한 Python 계산기 모듈을 만듭니다. - 계산기.
 
 
-🔤 Original: Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System
+🔤 Original: Launch an autonomous AI agent with sandboxed execution in 2 lines of code
 
-🔗 Read more: https://github.com/gsd-build/get-shit-done</description>
-      <guid isPermaLink="true">https://github.com/gsd-build/get-shit-done</guid>
-      <pubDate>Tue, 17 Mar 2026 20:23:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417804</comments>
+🔗 Read more: https://amaiya.github.io/onprem/examples_agent.html</description>
+      <guid isPermaLink="true">https://amaiya.github.io/onprem/examples_agent.html</guid>
+      <pubDate>Wed, 18 Mar 2026 01:10:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420493</comments>
     </item>
     <item>
-      <title>Edge.js: WebAssembly 샌드박스 내에서 Node 앱 실행</title>
-      <link>https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</link>
-      <description>📝 이는 기존 노드를 허용합니다. Node.js와 완벽하게 호환됩니다. 완전한 노드만 필요한 것은 아닙니다.
+      <title>HN 출시: Kita(YC W26) – 신흥 시장에서 신용 검토 자동화</title>
+      <link>https://news.ycombinator.com/item?id=47417335</link>
+      <description>📝 우리는 VLM을 사용하여 신흥 시장의 대출 기관에 대한 신용 검토를 자동화합니다. Kita는 VLM 기반 에이전트를 사용하여 문서를 구문 분석하고, 사기를 탐지하고, 지저분한 금융 파일에서 인수 신호를 추출합니다. Kita Capture는 대출 기관을 위한 최초의 문서 인텔리전스 제품입니다.
 
 
-🔤 Original: Edge.js: Run Node apps inside a WebAssembly sandbox
+🔤 Original: Launch HN: Kita (YC W26) – Automate credit review in emerging markets
 
-🔗 Read more: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</description>
-      <guid isPermaLink="true">https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</guid>
-      <pubDate>Tue, 17 Mar 2026 18:01:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416081</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47417335</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47417335</guid>
+      <pubDate>Tue, 17 Mar 2026 19:46:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47417335</comments>
     </item>
     <item>
-      <title>Garry Tan의 Claude 코드 설정</title>
-      <link>https://github.com/garrytan/gstack/tree/main</link>
-      <description>📝 " [80개 항목 감사, 귀하의 디자인 시스템을 추론하고 DESIGN을 내보냅니다. 귀하: /qa https://staging. 귀하의 디자인 시스템을 추론합니다.
+      <title>형편없는 제품 디자인의 즐거움</title>
+      <link>https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</link>
+      <description>📝 Katerina Kamprani와의 비디오 인터뷰 스크린샷. Katerina Kamprani: 제 말은 드물게요. (사진 © Katerina Kamprani — The Un.
 
 
-🔤 Original: Garry Tan's Claude Code Setup
+🔤 Original: The Pleasures of Poor Product Design
 
-🔗 Read more: https://github.com/garrytan/gstack/tree/main</description>
-      <guid isPermaLink="true">https://github.com/garrytan/gstack/tree/main</guid>
-      <pubDate>Tue, 17 Mar 2026 21:28:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418576</comments>
+🔗 Read more: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</description>
+      <guid isPermaLink="true">https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</guid>
+      <pubDate>Wed, 18 Mar 2026 01:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420432</comments>
     </item>
     <item>
-      <title>내부 고발자들은 Meta와 TikTok이 유해한 콘텐츠를 증가시켜 참여를 유도했다고 말합니다.</title>
-      <link>https://www.bbc.com/news/articles/cqj9kgxqjwjo</link>
-      <description>📝 Meta와 TikTok은 증거 분노가 참여를 주도한 후 유해한 콘텐츠가 증가하도록 허용했습니다. 이틀 전 내부 고발자 ShareSaveMarianna Spring, 소셜 미디어 조사 특파원 및 Mike RadfordShareSaveBBC/Getty 이미지내부 고발자들은 TikTok의 폭발적인 성장에 따른 알고리즘 군비 경쟁에 대한 내부 시각을 제공했습니다. 소셜 미디어 거대 기업은 알고리즘에 대한 내부 조사에서 분노가 어떻게 증폭되었는지 확인한 후 사람들의 피드에 더 유해한 콘텐츠를 허용하는 결정을 내렸습니다. 내부고발자들은 BBC에 이렇게 말했다. " TikTok은 이것이 "조작된 주장"이며 회사는 유해한 콘텐츠를 볼 수 없도록 하는 기술에 투자했다고 말했습니다. 완전히 안전한 이와 같은 시스템을 구축하는 것은 어려웠다고 그는 말했습니다.
+      <title>Linux 커널의 eBPF 스핀록 문제 해결에 대한 이야기</title>
+      <link>https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</link>
+      <description>📝 이 경우 커널 동결을 다루고 있으므로 그렇게 간단하지는 않습니다. 사용자 정의 커널을 사용하면 커널 디버깅을 활성화하는 것이 매우 간단합니다. 불행하게도 커널이 정지 상태가 되면 디버거조차 더 이상 반응하지 않는 것 같습니다.
 
 
-🔤 Original: Meta and TikTok let harmful content rise to drove engagement, say whistleblowers
+🔤 Original: A tale about fixing eBPF spinlock issues in the Linux kernel
 
-🔗 Read more: https://www.bbc.com/news/articles/cqj9kgxqjwjo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cqj9kgxqjwjo</guid>
-      <pubDate>Tue, 17 Mar 2026 20:24:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417814</comments>
+🔗 Read more: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</description>
+      <guid isPermaLink="true">https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</guid>
+      <pubDate>Wed, 18 Mar 2026 00:53:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420388</comments>
     </item>
     <item>
-      <title>언슬로스 스튜디오</title>
-      <link>https://unsloth.ai/docs/new/studio</link>
-      <description>📝 MLX 교육이 곧 시작됩니다. 해시태그관찰가능성훈련 실행에 대한 완전한 가시성과 제어권을 얻으세요. MLX 교육이 곧 시작됩니다.
+      <title>AI 시스템이 학습하지 못하는 이유 – 인지과학의 자율 학습</title>
+      <link>https://arxiv.org/abs/2603.15381</link>
+      <description>📝 ) 연결된 문서 연결된 문서 토글(연결된 문서란 무엇입니까?) 리트맵 토글 리트맵(리트맵이란 무엇입니까?) 코드에 대한 링크 Toggle Papers with Code(페이퍼 위드 코드란 무엇입니까?
 
 
-🔤 Original: Unsloth Studio
+🔤 Original: Why AI systems don't learn – On autonomous learning from cognitive science
 
-🔗 Read more: https://unsloth.ai/docs/new/studio</description>
-      <guid isPermaLink="true">https://unsloth.ai/docs/new/studio</guid>
-      <pubDate>Tue, 17 Mar 2026 15:26:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47414032</comments>
-    </item>
-    <item>
-      <title>Java 26이 출시되었습니다</title>
-      <link>https://hanno.codes/2026/03/17/java-26-is-here/</link>
-      <description>📝 이 테이블에는 미리보기 상태, 속한 프로젝트, 추가한 기능 종류 및 Java 25 이후 변경된 사항이 포함되어 있습니다. JEP 516은 GC에 구애받지 않는 형식으로 Java 객체를 캐싱하여 사전 캐시에 대한 지원을 ZGC(및 해당 문제에 대한 다른 가비지 수집기)로 확장합니다. 새로운 캐시 형식이 GC에 구애받지 않는 이유
-
-
-🔤 Original: Java 26 is here
-
-🔗 Read more: https://hanno.codes/2026/03/17/java-26-is-here/</description>
-      <guid isPermaLink="true">https://hanno.codes/2026/03/17/java-26-is-here/</guid>
-      <pubDate>Tue, 17 Mar 2026 18:44:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416548</comments>
-    </item>
-    <item>
-      <title>Show HN: Horizon – Rust의 GPU 가속 무한 캔버스 터미널</title>
-      <link>https://github.com/peters/horizon</link>
-      <description>📝 Horizon은 모든 세션을 무한한 캔버스에 배치하는 GPU 가속 터미널 보드입니다. 탭 터미널은 작업을 숨깁니다. Horizon은 터미널이 인쇄하는 내용을 확인하고 대화형으로 만듭니다.
-
-
-🔤 Original: Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust
-
-🔗 Read more: https://github.com/peters/horizon</description>
-      <guid isPermaLink="true">https://github.com/peters/horizon</guid>
-      <pubDate>Tue, 17 Mar 2026 18:14:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416227</comments>
+🔗 Read more: https://arxiv.org/abs/2603.15381</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.15381</guid>
+      <pubDate>Tue, 17 Mar 2026 21:42:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418722</comments>
     </item>
   </channel>
 </rss>

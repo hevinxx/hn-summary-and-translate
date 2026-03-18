@@ -6,98 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Mar 2026 21:39:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 02:10:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>A Decade of Slug</title>
-      <link>https://terathon.com/blog/decade-slug.html</link>
-      <description>📝 This post talks about what has changed within the rendering method since 2017, when the paper was published and the Slug Library was first released. Though not necessary for rendering text at ordinary sizes, adaptive supersampling was implemented in early versions of Slug to enhance text drawn at very small sizes. Removing supersampling also simplified the pixel shader considerably.
+      <title>Show HN: Sub-millisecond VM sandboxes using CoW memory forking</title>
+      <link>https://github.com/adammiribyan/zeroboot</link>
+      <description>📝 74ms ~300ms ~400ms ~90ms Memory per sandbox ~265KB ~128MB ~50MB ~50MB Fork + exec (Python) ~8ms - - - 1000 concurrent forks 815ms - - - Each sandbox is a real KVM virtual machine with hardware-enforced memory isolation. 8ms) Template (one-time): Firecracker boots a VM, pre-loads your runtime, and snapshots memory + CPU state Fork (~0. 8ms): Creates a new KVM VM, maps snapshot memory as CoW, restores all CPU state Isolation: Each fork is a separate KVM VM with hardware-enforced memory isolation SDKs Python — sdk/python from zeroboot import Sandbox sb = Sandbox("zb_live_your_key") result = sb.
 
-🔗 Read more: https://terathon.com/blog/decade-slug.html</description>
-      <guid isPermaLink="true">https://terathon.com/blog/decade-slug.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:59:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416736</comments>
+🔗 Read more: https://github.com/adammiribyan/zeroboot</description>
+      <guid isPermaLink="true">https://github.com/adammiribyan/zeroboot</guid>
+      <pubDate>Tue, 17 Mar 2026 13:43:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47412569</comments>
     </item>
     <item>
-      <title>Python 3.15's JIT is now back on track</title>
-      <link>https://fidget-spinner.github.io/posts/jit-on-track.html</link>
-      <description>📝 That was also around the time where the Faster CPython team lost funding by its main sponsor. Brandt started this earlier in 3. To encourage new contributors, I also laid out very detailed instructions that were immediately actionable.
+      <title>Mistral AI Releases Forge</title>
+      <link>https://mistral.ai/news/forge</link>
+      <description>📝 Forge enables enterprises to build models that internalize their domain knowledge. Forge allows enterprises to build models that remain under their control. Custom models make enterprise agents reliable.
 
-🔗 Read more: https://fidget-spinner.github.io/posts/jit-on-track.html</description>
-      <guid isPermaLink="true">https://fidget-spinner.github.io/posts/jit-on-track.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:37:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416486</comments>
+🔗 Read more: https://mistral.ai/news/forge</description>
+      <guid isPermaLink="true">https://mistral.ai/news/forge</guid>
+      <pubDate>Tue, 17 Mar 2026 21:04:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418295</comments>
     </item>
     <item>
-      <title>Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System</title>
-      <link>https://github.com/gsd-build/get-shit-done</link>
-      <description>📝 I don't write code — Claude Code does. claude/ npx get-shit-done-cc --claude --local # Install to. codex/ npx get-shit-done-cc --codex --local # Install to.
+      <title>Launch an autonomous AI agent with sandboxed execution in 2 lines of code</title>
+      <link>https://amaiya.github.io/onprem/examples_agent.html</link>
+      <description>📝 pipelines import AgentExecutor AgentExecutor. The agent cannot read or write outside the working directory. run( task=""" Create a simple Python calculator module with the following: - calculator.
 
-🔗 Read more: https://github.com/gsd-build/get-shit-done</description>
-      <guid isPermaLink="true">https://github.com/gsd-build/get-shit-done</guid>
-      <pubDate>Tue, 17 Mar 2026 20:23:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417804</comments>
+🔗 Read more: https://amaiya.github.io/onprem/examples_agent.html</description>
+      <guid isPermaLink="true">https://amaiya.github.io/onprem/examples_agent.html</guid>
+      <pubDate>Wed, 18 Mar 2026 01:10:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420493</comments>
     </item>
     <item>
-      <title>Edge.js: Run Node apps inside a WebAssembly sandbox</title>
-      <link>https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</link>
-      <description>📝 This allows existing Node. Fully compatible with Node. We don’t just need full Node.
+      <title>Launch HN: Kita (YC W26) – Automate credit review in emerging markets</title>
+      <link>https://news.ycombinator.com/item?id=47417335</link>
+      <description>📝 We automate credit review for lenders in emerging markets using VLMs. Kita uses VLM-based agents to parse documents, detect fraud, and extract underwriting signals from messy financial files. Kita Capture is our first document intelligence product for lenders.
 
-🔗 Read more: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</description>
-      <guid isPermaLink="true">https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</guid>
-      <pubDate>Tue, 17 Mar 2026 18:01:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416081</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47417335</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47417335</guid>
+      <pubDate>Tue, 17 Mar 2026 19:46:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47417335</comments>
     </item>
     <item>
-      <title>Garry Tan's Claude Code Setup</title>
-      <link>https://github.com/garrytan/gstack/tree/main</link>
-      <description>📝 " [80-item audit, infers your design system, exports DESIGN. You: /qa https://staging. Infers your design system.
+      <title>The Pleasures of Poor Product Design</title>
+      <link>https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</link>
+      <description>📝 Screen shot from my video interview with Katerina Kamprani. Katerina Kamprani: I mean, sparsely. (Photos © Katerina Kamprani — The Un.
 
-🔗 Read more: https://github.com/garrytan/gstack/tree/main</description>
-      <guid isPermaLink="true">https://github.com/garrytan/gstack/tree/main</guid>
-      <pubDate>Tue, 17 Mar 2026 21:28:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418576</comments>
+🔗 Read more: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</description>
+      <guid isPermaLink="true">https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</guid>
+      <pubDate>Wed, 18 Mar 2026 01:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420432</comments>
     </item>
     <item>
-      <title>Meta and TikTok let harmful content rise to drove engagement, say whistleblowers</title>
-      <link>https://www.bbc.com/news/articles/cqj9kgxqjwjo</link>
-      <description>📝 Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers2 days agoShareSaveMarianna Spring,social media investigations correspondentandMike RadfordShareSaveBBC/Getty imagesWhistleblowers have given an inside view of the algorithm arms race which followed TikTok's explosive growthSocial media giants made decisions which allowed more harmful content on people's feeds, after internal research into their algorithms showed how outrage fuelled engagement, whistleblowers told the BBC. " TikTok said these were "fabricated claims" and the company invested in technology that prevented harmful content from ever being viewed. It was hard to build systems like this that were completely safe, he said.
+      <title>A tale about fixing eBPF spinlock issues in the Linux kernel</title>
+      <link>https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</link>
+      <description>📝 In this case, we’re dealing with a kernel freeze so it’s not as simple as that. With a custom kernel, it’s pretty simple to enable kernel debugging. Unfortunately, it seems that when the kernel is in this freezing state, even the debugger doesn’t respond anymore.
 
-🔗 Read more: https://www.bbc.com/news/articles/cqj9kgxqjwjo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cqj9kgxqjwjo</guid>
-      <pubDate>Tue, 17 Mar 2026 20:24:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417814</comments>
+🔗 Read more: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</description>
+      <guid isPermaLink="true">https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</guid>
+      <pubDate>Wed, 18 Mar 2026 00:53:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420388</comments>
     </item>
     <item>
-      <title>Unsloth Studio</title>
-      <link>https://unsloth.ai/docs/new/studio</link>
-      <description>📝 MLX training coming soon. hashtagObservabilityGain complete visibility into and control over your training runs. MLX training coming very soon.
+      <title>Why AI systems don't learn – On autonomous learning from cognitive science</title>
+      <link>https://arxiv.org/abs/2603.15381</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers (What is Connected Papers. ) Litmaps Toggle Litmaps (What is Litmaps. ) Links to Code Toggle Papers with Code (What is Papers with Code.
 
-🔗 Read more: https://unsloth.ai/docs/new/studio</description>
-      <guid isPermaLink="true">https://unsloth.ai/docs/new/studio</guid>
-      <pubDate>Tue, 17 Mar 2026 15:26:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47414032</comments>
-    </item>
-    <item>
-      <title>Java 26 is here</title>
-      <link>https://hanno.codes/2026/03/17/java-26-is-here/</link>
-      <description>📝 This table contains their preview status, to which project they belong, what kind of features they add and the things that have changed since Java 25. JEP 516 extends support for the ahead-of-time cache to ZGC (and to any other garbage collector for that matter) by caching Java objects in a GC-agnostic format. What Makes the New Cache Format GC-Agnostic.
-
-🔗 Read more: https://hanno.codes/2026/03/17/java-26-is-here/</description>
-      <guid isPermaLink="true">https://hanno.codes/2026/03/17/java-26-is-here/</guid>
-      <pubDate>Tue, 17 Mar 2026 18:44:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416548</comments>
-    </item>
-    <item>
-      <title>Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust</title>
-      <link>https://github.com/peters/horizon</link>
-      <description>📝 Horizon is a GPU-accelerated terminal board that puts all your sessions on an infinite canvas. Tabbed terminals hide your work. Horizon sees what your terminal prints and makes it interactive.
-
-🔗 Read more: https://github.com/peters/horizon</description>
-      <guid isPermaLink="true">https://github.com/peters/horizon</guid>
-      <pubDate>Tue, 17 Mar 2026 18:14:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416227</comments>
+🔗 Read more: https://arxiv.org/abs/2603.15381</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.15381</guid>
+      <pubDate>Tue, 17 Mar 2026 21:42:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418722</comments>
     </item>
   </channel>
 </rss>

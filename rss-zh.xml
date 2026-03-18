@@ -6,125 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 21:39:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 02:10:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>蛞蝓的十年</title>
-      <link>https://terathon.com/blog/decade-slug.html</link>
-      <description>📝 这篇文章讨论了自 2017 年论文发表和 Slug 库首次发布以来渲染方法发生的变化。尽管对于渲染普通尺寸的文本来说不是必需的，但在 Slug 的早期版本中实现了自适应超级采样，以增强以非常小的尺寸绘制的文本。删除超级采样也大大简化了像素着色器。
+      <title>Show HN：使用 CoW 内存分叉的亚毫秒级 VM 沙箱</title>
+      <link>https://github.com/adammiribyan/zeroboot</link>
+      <description>📝 74ms ~300ms ~400ms ~90ms 每个沙箱内存 ~265KB ~128MB ~50MB ~50MB Fork + exec (Python) ~8ms - - - 1000 个并发 fork 815ms - - - 每个沙箱都是一个真正的 KVM 虚拟机，具有硬件强制内存隔离。 8ms) 模板（一次性）：Firecracker 启动虚拟机，预加载运行时，快照内存 + CPU 状态 Fork（~0. 8ms）：创建一个新的 KVM VM，将快照内存映射为 CoW，恢复所有 CPU 状态 隔离：每个 fork 都是一个单独的 KVM VM，具有硬件强制内存隔离 SDK Python — sdk/python from Zeroboot import Sandbox sb =沙箱（“zb_live_your_key”）结果= sb。
 
 
-🔤 Original: A Decade of Slug
+🔤 Original: Show HN: Sub-millisecond VM sandboxes using CoW memory forking
 
-🔗 Read more: https://terathon.com/blog/decade-slug.html</description>
-      <guid isPermaLink="true">https://terathon.com/blog/decade-slug.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:59:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416736</comments>
+🔗 Read more: https://github.com/adammiribyan/zeroboot</description>
+      <guid isPermaLink="true">https://github.com/adammiribyan/zeroboot</guid>
+      <pubDate>Tue, 17 Mar 2026 13:43:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47412569</comments>
     </item>
     <item>
-      <title>Python 3.15 的 JIT 现在重回正轨</title>
-      <link>https://fidget-spinner.github.io/posts/jit-on-track.html</link>
-      <description>📝 也就在那时，Faster CPython 团队失去了主要赞助商的资助。 Brandt 在 3 的早期就开始了这项工作。为了鼓励新的贡献者，我还制定了非常详细的说明，可以立即采取行动。
+      <title>Mistral AI 发布 Forge</title>
+      <link>https://mistral.ai/news/forge</link>
+      <description>📝 Forge 使企业能够构建内化其领域知识的模型。 Forge 允许企业构建仍在其控制之下的模型。定制模型让企业代理变得可靠。
 
 
-🔤 Original: Python 3.15's JIT is now back on track
+🔤 Original: Mistral AI Releases Forge
 
-🔗 Read more: https://fidget-spinner.github.io/posts/jit-on-track.html</description>
-      <guid isPermaLink="true">https://fidget-spinner.github.io/posts/jit-on-track.html</guid>
-      <pubDate>Tue, 17 Mar 2026 18:37:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416486</comments>
+🔗 Read more: https://mistral.ai/news/forge</description>
+      <guid isPermaLink="true">https://mistral.ai/news/forge</guid>
+      <pubDate>Tue, 17 Mar 2026 21:04:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418295</comments>
     </item>
     <item>
-      <title>完成任务：元提示、上下文工程和规范驱动的开发系统</title>
-      <link>https://github.com/gsd-build/get-shit-done</link>
-      <description>📝 我不写代码——克劳德·代码写。 claude/ npx get-shit-done-cc --claude --local # 安装到。 codex/ npx get-shit-done-cc --codex --local # 安装到。
+      <title>只需 2 行代码即可启动具有沙盒执行功能的自主 AI 代理</title>
+      <link>https://amaiya.github.io/onprem/examples_agent.html</link>
+      <description>📝 管道导入 AgentExecutor AgentExecutor。代理无法在工作目录之外读取或写入。 run( task=""" 使用以下内容创建一个简单的 Python 计算器模块： - Calculator.
 
 
-🔤 Original: Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System
+🔤 Original: Launch an autonomous AI agent with sandboxed execution in 2 lines of code
 
-🔗 Read more: https://github.com/gsd-build/get-shit-done</description>
-      <guid isPermaLink="true">https://github.com/gsd-build/get-shit-done</guid>
-      <pubDate>Tue, 17 Mar 2026 20:23:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417804</comments>
+🔗 Read more: https://amaiya.github.io/onprem/examples_agent.html</description>
+      <guid isPermaLink="true">https://amaiya.github.io/onprem/examples_agent.html</guid>
+      <pubDate>Wed, 18 Mar 2026 01:10:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420493</comments>
     </item>
     <item>
-      <title>Edge.js：在 WebAssembly 沙箱内运行 Node 应用程序</title>
-      <link>https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</link>
-      <description>📝 这允许现有的节点。与节点完全兼容。我们不仅仅需要完整的 Node。
+      <title>推出 HN：Kita (YC W26) – 在新兴市场自动进行信用审查</title>
+      <link>https://news.ycombinator.com/item?id=47417335</link>
+      <description>📝 我们使用 VLM 对新兴市场的贷方进行自动化信用审查。 Kita 使用基于 VLM 的代理来解析文档、检测欺诈并从混乱的财务文件中提取承保信号。 Kita Capture 是我们为贷方提供的第一个文档智能产品。
 
 
-🔤 Original: Edge.js: Run Node apps inside a WebAssembly sandbox
+🔤 Original: Launch HN: Kita (YC W26) – Automate credit review in emerging markets
 
-🔗 Read more: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</description>
-      <guid isPermaLink="true">https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</guid>
-      <pubDate>Tue, 17 Mar 2026 18:01:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416081</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47417335</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47417335</guid>
+      <pubDate>Tue, 17 Mar 2026 19:46:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47417335</comments>
     </item>
     <item>
-      <title>Garry Tan 的克劳德代码设置</title>
-      <link>https://github.com/garrytan/gstack/tree/main</link>
-      <description>📝 ” 【80项审核，推断你的设计系统，导出DESIGN。你：/qa https://staging。推断你的设计系统。
+      <title>糟糕的产品设计带来的乐趣</title>
+      <link>https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</link>
+      <description>📝 我对卡特琳娜·坎普拉尼的视频采访的屏幕截图。 Katerina Kamprani：我的意思是，稀疏。 （照片©Katerina Kamprani — 联合国。
 
 
-🔤 Original: Garry Tan's Claude Code Setup
+🔤 Original: The Pleasures of Poor Product Design
 
-🔗 Read more: https://github.com/garrytan/gstack/tree/main</description>
-      <guid isPermaLink="true">https://github.com/garrytan/gstack/tree/main</guid>
-      <pubDate>Tue, 17 Mar 2026 21:28:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47418576</comments>
+🔗 Read more: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</description>
+      <guid isPermaLink="true">https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design</guid>
+      <pubDate>Wed, 18 Mar 2026 01:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420432</comments>
     </item>
     <item>
-      <title>举报人称，Meta 和 TikTok 让有害内容上升以提高参与度</title>
-      <link>https://www.bbc.com/news/articles/cqj9kgxqjwjo</link>
-      <description>📝 举报人表示，在有证据表明愤怒推动了参与度后，Meta 和 TikTok 允许有害内容增加。英国广播公司。 TikTok 表示，这些都是“捏造的说法”，该公司投资了防止有害内容被查看的技术。他说，很难构建这样完全安全的系统。
+      <title>关于修复 Linux 内核中的 eBPF 自旋锁问题的故事</title>
+      <link>https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</link>
+      <description>📝 在这种情况下，我们正在处理内核冻结，因此事情并不那么简单。使用自定义内核，启用内核调试非常简单。不幸的是，似乎当内核处于这种冻结状态时，即使调试器也不再响应。
 
 
-🔤 Original: Meta and TikTok let harmful content rise to drove engagement, say whistleblowers
+🔤 Original: A tale about fixing eBPF spinlock issues in the Linux kernel
 
-🔗 Read more: https://www.bbc.com/news/articles/cqj9kgxqjwjo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cqj9kgxqjwjo</guid>
-      <pubDate>Tue, 17 Mar 2026 20:24:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47417814</comments>
+🔗 Read more: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</description>
+      <guid isPermaLink="true">https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/</guid>
+      <pubDate>Wed, 18 Mar 2026 00:53:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47420388</comments>
     </item>
     <item>
-      <title>不懒工作室</title>
-      <link>https://unsloth.ai/docs/new/studio</link>
-      <description>📝 MLX 培训即将推出。主题标签可观察性获得对训练运行的完全可见性和控制。 MLX 培训即将推出。
+      <title>为什么人工智能系统不学习——认知科学的自主学习</title>
+      <link>https://arxiv.org/abs/2603.15381</link>
+      <description>📝 ) Connected Papers Toggle Connected Papers（什么是 Connected Papers。） Litmaps Toggle Litmaps（什么是 Litmaps。） 代码链接 Toggle Papers with Code（什么是 Papers with Code。）
 
 
-🔤 Original: Unsloth Studio
+🔤 Original: Why AI systems don't learn – On autonomous learning from cognitive science
 
-🔗 Read more: https://unsloth.ai/docs/new/studio</description>
-      <guid isPermaLink="true">https://unsloth.ai/docs/new/studio</guid>
-      <pubDate>Tue, 17 Mar 2026 15:26:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47414032</comments>
-    </item>
-    <item>
-      <title>Java 26 来了</title>
-      <link>https://hanno.codes/2026/03/17/java-26-is-here/</link>
-      <description>📝 该表包含它们的预览状态、它们所属的项目、它们添加的功能类型以及自 Java 25 以来发生的更改。JEP 516 通过以与 GC 无关的格式缓存 Java 对象，将对提前缓存的支持扩展到 ZGC（以及与此相关的任何其他垃圾收集器）。是什么让新的缓存格式与 GC 无关。
-
-
-🔤 Original: Java 26 is here
-
-🔗 Read more: https://hanno.codes/2026/03/17/java-26-is-here/</description>
-      <guid isPermaLink="true">https://hanno.codes/2026/03/17/java-26-is-here/</guid>
-      <pubDate>Tue, 17 Mar 2026 18:44:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416548</comments>
-    </item>
-    <item>
-      <title>Show HN: Horizo​​n – Rust 中 GPU 加速的无限画布终端</title>
-      <link>https://github.com/peters/horizon</link>
-      <description>📝 Horizo​​n 是一款 GPU 加速的终端板，可将您的所有会话置于无限的画布上。选项卡式终端隐藏您的工作。 Horizo​​n 可以看到您的终端打印的内容并使其具有交互性。
-
-
-🔤 Original: Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust
-
-🔗 Read more: https://github.com/peters/horizon</description>
-      <guid isPermaLink="true">https://github.com/peters/horizon</guid>
-      <pubDate>Tue, 17 Mar 2026 18:14:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47416227</comments>
+🔗 Read more: https://arxiv.org/abs/2603.15381</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.15381</guid>
+      <pubDate>Tue, 17 Mar 2026 21:42:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47418722</comments>
     </item>
   </channel>
 </rss>
