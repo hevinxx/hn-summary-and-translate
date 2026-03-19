@@ -6,60 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Mar 2026 04:55:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 06:59:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Cook: クロード コードをオーケストレーションするためのシンプルな CLI</title>
-      <link>https://rjcorwin.github.io/cook/</link>
-      <description>📝 それぞれがすべてをその左側にラップします。ラルフ ゲートは、DONE (終了) または NEXT (次のタスクに進み、繰り返しをリセット) を決定します。 vN は、並列ワークツリーで N 個の同一のクックを実行します。
-
-
-🔤 Original: Cook: A simple CLI for orchestrating Claude Code
-
-🔗 Read more: https://rjcorwin.github.io/cook/</description>
-      <guid isPermaLink="true">https://rjcorwin.github.io/cook/</guid>
-      <pubDate>Thu, 19 Mar 2026 02:20:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434024</comments>
+      <title>現実世界のコンウェイのライフゲーム</title>
+      <link>https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life</link>
+      <guid isPermaLink="true">https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life</guid>
+      <pubDate>Thu, 19 Mar 2026 03:55:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434732</comments>
     </item>
     <item>
-      <title>十分に詳細な仕様はコードです</title>
-      <link>https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</link>
-      <description>📝 しかし、エージェント コーディングの支持者は、重力に逆らって純粋に仕様書からコードを生成する方法を発見したと主張しています。誤解 2: 仕様作業はコーディング作業よりも慎重に行われなければならない 彼らは、エージェントコーディングが保守不能な結果を​​生むのではないかと懸念する懐疑論者にエージェントコーディングを売り込むとき、この誤解に寄りかかっています。フィールド: session_id (文字列、&lt;thread_id&gt;-&lt;turn_id&gt;) thread_id (文字列)turn_id (文字列) codex_app_server_pid (文字列または null) last_codex_event (文字列/列挙型または null) last_codex_timestamp (タイムスタンプまたは null) last_codex_message (要約ペイロード) codex_input_tokens (整数) codex_output_tokens (整数) codex_total_tokens (整数) last_reported_input_tokens (整数) last_reported_output_tokens (整数) last_reported_total_tokens (整数)turn_count (整数) 現在のワーカーの存続期間内に開始されたコーディング エージェント ターンの数。
+      <title>81,000 人が AI に求めているもの</title>
+      <link>https://www.anthropic.com/features/81k-interviews</link>
+      <description>📝 81,000 人が AI に求めていること昨年 12 月、世界中の何万人もの Claude ユーザーが AI のインタビュアーと会話し、AI をどのように使用しているか、AI によって何が可能になると夢見ているか、AI によって何が起こるかもしれないと懸念しているかについて共有しました。この膨大な情報を理解するために、私たちはクロードを活用した分類器を構築しました。この分類器は、人々が AI に何を求めているか、欲しいものを手に入れているかどうか、何を恐れているか、生計のために何をしているか (言及されている場合)、AI 全体に対する感情など、さまざまな側面にわたって各会話を分類しました。人々が AI に求めているもの 私たちはクロードに、各人が AI に最も求めているものを特定して分類するよう依頼しました。人々が期待していること01。
 
 
-🔤 Original: A sufficiently detailed spec is code
+🔤 Original: What 81,000 people want from AI
 
-🔗 Read more: https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</description>
-      <guid isPermaLink="true">https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</guid>
-      <pubDate>Thu, 19 Mar 2026 02:23:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434047</comments>
-    </item>
-    <item>
-      <title>私たちは何も学んでいません</title>
-      <link>https://colossus.com/article/we-have-learned-nothing-startup-pundits/</link>
-      <description>📝 エッセイ 私たちは何も学んでいません スタートアップの専門家は私たちに失敗した起業家精神の科学を売り込みました。 2012年までにブランク氏は、国立科学財団が彼の顧客開発フレームワークを「起業家精神のための科学的手法」と呼んでいると述べ、「私たちは今、スタートアップの失敗を少なくする方法を知っている。我々は皆、科学的手法が科学であることを小学校で習った。」と主張した。
-
-
-🔤 Original: We Have Learned Nothing
-
-🔗 Read more: https://colossus.com/article/we-have-learned-nothing-startup-pundits/</description>
-      <guid isPermaLink="true">https://colossus.com/article/we-have-learned-nothing-startup-pundits/</guid>
-      <pubDate>Thu, 19 Mar 2026 02:53:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434311</comments>
-    </item>
-    <item>
-      <title>Mozilla、次期 Firefox 149 で無料の組み込み VPN をリリースへ</title>
-      <link>https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</link>
-      <description>📝 この機能は、多くの場合隠れたトレードオフを伴う「無料 VPN」サービスに代わるより安全な代替手段として位置付けられており、Mozilla は、その実装が Firefox を定義するのと同じプライバシー原則に根ざしていると強調している。 Mozillaは以前、Firefoxは同社自身ですらユーザーがどのWebサイトにアクセスし、そこで何をしているのかを知ることができないように設計されていると述べた。 Firefox ユーザーは、この新しい VPN ツールはブラウザのトラフィックのみを処理し、デバイス全体の保護は提供しないことに留意する必要があります。そのため、このツールをアクティブ化することで Firefox 外部のすべてのインターネット トラフィックが保護されると想定すべきではありません。
-
-
-🔤 Original: Mozilla to launch free built-in VPN in upcoming Firefox 149
-
-🔗 Read more: https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</description>
-      <guid isPermaLink="true">https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</guid>
-      <pubDate>Thu, 19 Mar 2026 03:31:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434567</comments>
+🔗 Read more: https://www.anthropic.com/features/81k-interviews</description>
+      <guid isPermaLink="true">https://www.anthropic.com/features/81k-interviews</guid>
+      <pubDate>Thu, 19 Mar 2026 05:00:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47435156</comments>
     </item>
   </channel>
 </rss>

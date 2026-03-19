@@ -6,60 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Mar 2026 04:55:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 06:59:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Cook：用于编排 Claude 代码的简单 CLI</title>
-      <link>https://rjcorwin.github.io/cook/</link>
-      <description>📝 每个都将所有内容包裹在其左侧。拉尔夫门决定完成（退出）或下一步（前进到下一个任务，重置迭代）。 vN 在并行工作树中运行 N 个相同的厨师。
-
-
-🔤 Original: Cook: A simple CLI for orchestrating Claude Code
-
-🔗 Read more: https://rjcorwin.github.io/cook/</description>
-      <guid isPermaLink="true">https://rjcorwin.github.io/cook/</guid>
-      <pubDate>Thu, 19 Mar 2026 02:20:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434024</comments>
+      <title>现实生活中的康威生命游戏</title>
+      <link>https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life</link>
+      <guid isPermaLink="true">https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life</guid>
+      <pubDate>Thu, 19 Mar 2026 03:55:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434732</comments>
     </item>
     <item>
-      <title>足够详细的规范就是代码</title>
-      <link>https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</link>
-      <description>📝 然而，代理编码的倡导者声称已经找到了一种克服重力并纯粹从规范文档生成代码的方法。误解 2：规范工作必须比编码工作更周到 当向怀疑论者推销代理编码时，他们依赖于这种误解，因为他们担心代理编码会产生不可维护的溢出。字段：session_id（字符串，&lt;thread_id&gt;-&lt;turn_id&gt;）thread_id（字符串）turn_id（字符串）codex_app_server_pid（字符串或空）last_codex_event（字符串/枚举或空）last_codex_timestamp（时间戳或空）last_codex_message（汇总有效负载）codex_input_tokens（整数）codex_output_tokens（整数） codex_total_tokens（整数）last_reported_input_tokens（整数）last_reported_output_tokens（整数）last_reported_total_tokens（整数）turn_count（整数）当前工作生命周期内启动的编码代理轮数。
+      <title>81,000 人希望从人工智能中得到什么</title>
+      <link>https://www.anthropic.com/features/81k-interviews</link>
+      <description>📝 81,000 人希望从 AIL 得到什么去年 12 月，世界各地数以万计的 Claude 用户与我们的 AI 采访者进行了对话，分享了他们如何使用 AI、他们梦想 AI 可以实现什么，以及他们担心 AI 可能会做什么。为了理解这些大量信息，我们构建了由 Claude 支持的分类器，该分类器对每个对话进行了一系列维度的分类——人们想从人工智能中得到什么，他们是否得到了他们想要的东西，他们害怕什么，他们以什么为生（如果提到的话），以及他们对人工智能的整体看法。人们想要从人工智能中得到什么我们要求克劳德识别并分类每个人最想从人工智能中得到什么：人们希望什么01。
 
 
-🔤 Original: A sufficiently detailed spec is code
+🔤 Original: What 81,000 people want from AI
 
-🔗 Read more: https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</description>
-      <guid isPermaLink="true">https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</guid>
-      <pubDate>Thu, 19 Mar 2026 02:23:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434047</comments>
-    </item>
-    <item>
-      <title>我们什么也没学到</title>
-      <link>https://colossus.com/article/we-have-learned-nothing-startup-pundits/</link>
-      <description>📝 创业专家向我们推销了失败的创业科学。到 2012 年，布兰克表示，美国国家科学基金会将他的客户开发框架称为“创业的科学方法”，并声称“我们现在知道如何让初创企业更少失败。我们在小学时都知道科学方法就是科学。”
-
-
-🔤 Original: We Have Learned Nothing
-
-🔗 Read more: https://colossus.com/article/we-have-learned-nothing-startup-pundits/</description>
-      <guid isPermaLink="true">https://colossus.com/article/we-have-learned-nothing-startup-pundits/</guid>
-      <pubDate>Thu, 19 Mar 2026 02:53:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434311</comments>
-    </item>
-    <item>
-      <title>Mozilla 将在即将推出的 Firefox 149 中推出免费的内置 VPN</title>
-      <link>https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</link>
-      <description>📝 该功能被定位为“免费 VPN”服务的更安全替代品，而“免费 VPN”服务通常带有隐藏的权衡，Mozilla 强调其实施植根于定义 Firefox 的相同隐私原则。 Mozilla 此前曾表示，Firefox 的设计即使是公司本身也不应该知道用户访问了哪些网站或他们在那里做了什么。 Firefox 用户应该记住，这个新的 VPN 工具只会处理浏览器流量，而不提供完整的设备保护，因此不应假设激活它可以保护 Firefox 之外的所有互联网流量。
-
-
-🔤 Original: Mozilla to launch free built-in VPN in upcoming Firefox 149
-
-🔗 Read more: https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</description>
-      <guid isPermaLink="true">https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</guid>
-      <pubDate>Thu, 19 Mar 2026 03:31:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434567</comments>
+🔗 Read more: https://www.anthropic.com/features/81k-interviews</description>
+      <guid isPermaLink="true">https://www.anthropic.com/features/81k-interviews</guid>
+      <pubDate>Thu, 19 Mar 2026 05:00:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47435156</comments>
     </item>
   </channel>
 </rss>

@@ -6,60 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Mar 2026 04:55:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 06:59:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Cook: Claude Code 조정을 위한 간단한 CLI</title>
-      <link>https://rjcorwin.github.io/cook/</link>
-      <description>📝 각각은 모든 것을 왼쪽으로 감쌉니다. 랄프 게이트는 DONE(종료) 또는 NEXT(다음 작업으로 진행, 반복 재설정)를 결정합니다. vN은 병렬 작업 트리에서 N개의 동일한 Cook을 실행합니다.
-
-
-🔤 Original: Cook: A simple CLI for orchestrating Claude Code
-
-🔗 Read more: https://rjcorwin.github.io/cook/</description>
-      <guid isPermaLink="true">https://rjcorwin.github.io/cook/</guid>
-      <pubDate>Thu, 19 Mar 2026 02:20:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434024</comments>
+      <title>Conway의 게임 오브 라이프(Game of Life)를 실생활에서</title>
+      <link>https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life</link>
+      <guid isPermaLink="true">https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life</guid>
+      <pubDate>Thu, 19 Mar 2026 03:55:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434732</comments>
     </item>
     <item>
-      <title>충분히 상세한 사양은 코드입니다.</title>
-      <link>https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</link>
-      <description>📝 그러나 에이전트 코딩 옹호자들은 중력을 무시하고 사양 문서에서만 코드를 생성하는 방법을 찾았다고 주장합니다. 오해 2: 사양 작업은 코딩 작업보다 더 신중해야 합니다. 그들은 에이전트 코딩이 유지 관리할 수 없는 오류를 생성할 것이라고 우려하는 회의론자들에게 에이전트 코딩을 마케팅할 때 이러한 오해에 의지합니다. 필드: session_id(문자열, &lt;thread_id&gt;-&lt;turn_id&gt;) thread_id(문자열) Turn_id(문자열) codex_app_server_pid(문자열 또는 null) last_codex_event(문자열/열거 또는 null) last_codex_timestamp(타임스탬프 또는 null) last_codex_message(요약된 페이로드) codex_input_tokens(정수) codex_output_tokens (정수) codex_total_tokens (정수) last_reported_input_tokens (정수) last_reported_output_tokens (정수) last_reported_total_tokens (정수) Turn_count (정수) 현재 작업자 수명 내에 시작된 코딩 에이전트 회전 수입니다.
+      <title>81,000명의 사람들이 AI로부터 원하는 것</title>
+      <link>https://www.anthropic.com/features/81k-interviews</link>
+      <description>📝 81,000명이 AIL에서 원하는 것지난 12월, 전 세계 수만 명의 Claude 사용자가 AI 면접관과 대화를 통해 AI를 어떻게 사용하는지, AI를 통해 실현할 수 있는 꿈은 무엇인지, AI로 인해 두려워하는 것은 무엇인지 공유했습니다. 이 엄청난 양의 정보를 이해하기 위해 우리는 사람들이 AI에서 원하는 것, 원하는 것을 얻는지 여부, 두려워하는 것, 직업이 무엇인지(언급된 경우), 전반적인 AI에 대한 감정 등 다양한 차원에 걸쳐 각 대화를 분류하는 Claude 기반 분류자를 구축했습니다. 사람들이 AI로부터 원하는 것이 무엇인지 클로드에게 각 사람이 AI로부터 가장 원하는 것이 무엇인지 파악하고 분류해 달라고 요청했습니다. 사람들이 바라는 것은 무엇입니까01.
 
 
-🔤 Original: A sufficiently detailed spec is code
+🔤 Original: What 81,000 people want from AI
 
-🔗 Read more: https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</description>
-      <guid isPermaLink="true">https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</guid>
-      <pubDate>Thu, 19 Mar 2026 02:23:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434047</comments>
-    </item>
-    <item>
-      <title>우리는 아무것도 배운 것이 없습니다</title>
-      <link>https://colossus.com/article/we-have-learned-nothing-startup-pundits/</link>
-      <description>📝 에세이 우리는 아무것도 배우지 못했습니다. 스타트업 전문가들은 실패한 기업가 정신의 과학을 우리에게 팔았습니다. 2012년까지 Blank는 국립과학재단이 자신의 고객 개발 프레임워크를 "기업가 정신을 위한 과학적 방법"이라고 부르며 "이제 우리는 스타트업의 실패를 줄이는 방법을 알고 있습니다. 우리 모두는 초등학교에서 과학적 방법이 과학이라는 것을 배웠습니다."라고 말했습니다.
-
-
-🔤 Original: We Have Learned Nothing
-
-🔗 Read more: https://colossus.com/article/we-have-learned-nothing-startup-pundits/</description>
-      <guid isPermaLink="true">https://colossus.com/article/we-have-learned-nothing-startup-pundits/</guid>
-      <pubDate>Thu, 19 Mar 2026 02:53:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434311</comments>
-    </item>
-    <item>
-      <title>Mozilla, 다가오는 Firefox 149에 무료 내장 VPN 출시</title>
-      <link>https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</link>
-      <description>📝 이 기능은 종종 숨겨진 장단점이 있는 "무료 VPN" 서비스에 대한 보다 안전한 대안으로 자리잡고 있으며 Mozilla는 이 기능의 구현이 Firefox를 정의하는 동일한 개인 정보 보호 원칙에 뿌리를 두고 있다고 강조합니다. Mozilla는 이전에 Firefox가 회사 자체도 사용자가 어떤 웹사이트를 방문하는지, 그곳에서 무엇을 하는지 알 수 없도록 설계되었다고 밝혔습니다. Firefox 사용자는 이 새로운 VPN 도구가 전체 장치 보호를 제공하지 않고 브라우저 트래픽만 처리한다는 점을 명심해야 합니다. 따라서 이 도구를 활성화한다고 해서 Firefox 외부의 모든 인터넷 트래픽이 보호된다고 가정해서는 안 됩니다.
-
-
-🔤 Original: Mozilla to launch free built-in VPN in upcoming Firefox 149
-
-🔗 Read more: https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</description>
-      <guid isPermaLink="true">https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</guid>
-      <pubDate>Thu, 19 Mar 2026 03:31:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47434567</comments>
+🔗 Read more: https://www.anthropic.com/features/81k-interviews</description>
+      <guid isPermaLink="true">https://www.anthropic.com/features/81k-interviews</guid>
+      <pubDate>Thu, 19 Mar 2026 05:00:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47435156</comments>
     </item>
   </channel>
 </rss>
