@@ -6,139 +6,224 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Mar 2026 15:56:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 19:01:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Astral, OpenAI에 합류</title>
-      <link>https://astral.sh/blog/openai</link>
-      <description>📝 처음부터 우리의 목표는 Python으로 작업하는 느낌을 근본적으로 바꾸는 도구, 즉 빠르고 강력하며 직관적이고 통합된 도구를 만드는 것이었습니다. Codex가 그 개척지라는 것이 점점 더 분명해졌습니다. 소프트웨어를 만드는 느낌을 근본적으로 바꾸는 도구를 만드는 것입니다.
+      <title>OpenTTD의 Steam/GOG 변경 사항 업데이트</title>
+      <link>https://www.openttd.org/news/2026/03/19/steam-changes-update</link>
+      <description>📝 일부 사람들은 Steam과 GOG에서 OpenTTD를 완전히 제거해야 한다고 제안했지만, 그렇게 하면 현재 이러한 플랫폼에서 게임을 즐기고 있는 수천 명의 사람들에게 불필요한 혼란을 야기할 수 있으며 향후 새로운 플레이어가 게임을 발견하는 것을 잠재적으로 방해할 수도 있습니다. TTD가 없었다면 OpenTTD도 없었을 것입니다. 그만큼 간단합니다. 저는 이러한 변화가 커뮤니티에 강한 감정을 불러일으켰다는 것을 이해합니다. 하지만 Atari가 우리와 협력해 왔으며 프로젝트로서의 OpenTTD가 완전한 독립성을 유지한다는 점을 강조하는 것이 중요하다고 생각합니다.
 
 
-🔤 Original: Astral to Join OpenAI
+🔤 Original: An update on Steam / GOG changes for OpenTTD
 
-🔗 Read more: https://astral.sh/blog/openai</description>
-      <guid isPermaLink="true">https://astral.sh/blog/openai</guid>
-      <pubDate>Thu, 19 Mar 2026 13:05:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438723</comments>
+🔗 Read more: https://www.openttd.org/news/2026/03/19/steam-changes-update</description>
+      <guid isPermaLink="true">https://www.openttd.org/news/2026/03/19/steam-changes-update</guid>
+      <pubDate>Thu, 19 Mar 2026 17:27:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442834</comments>
     </item>
     <item>
-      <title>OpenBSD: PF 큐가 4Gbps 장벽을 허물다</title>
-      <link>https://undeadly.org/cgi?action=article;sid=20260319125859</link>
-      <description>📝 그러나 HFSC 서비스 곡선 구조(struct hfsc_sc)의 내부 32비트 제한으로 인해 대역폭 값이 약 4로 자동으로 제한되었습니다. 대기열에서 대역폭 10G를 구성하면 자동으로 순환되어 부정확하고 예측할 수 없는 예약 동작이 발생합니다. 친숙한 구문은 여러분이 기대하는 대로 수행됩니다. em0 대역폭의 queue rootq 10G queue defq parent rootq 대역폭 8G 기본값 최대 999G의 값이 지원되며 이는 현재와 미래의 인터페이스에 충분합니다.
+      <title>HN 표시: 세 가지 새로운 Kitten TTS 모델 – 25MB 미만의 최소 크기</title>
+      <link>https://github.com/KittenML/KittenTTS</link>
+      <description>📝 상업적인 지원이 가능합니다. 매개변수 유형 기본값 설명 text str -- 음성 합성을 위한 입력 텍스트 str "expr-voice-5-m" 음성 이름(사용 가능한 음성 참조) speed float 1. 0 음성 속도 승수 clean_text bool False 전처리 텍스트(숫자, 통화 등 확장)
 
 
-🔤 Original: OpenBSD: PF queues break the 4 Gbps barrier
+🔤 Original: Show HN: Three new Kitten TTS models – smallest less than 25MB
 
-🔗 Read more: https://undeadly.org/cgi?action=article;sid=20260319125859</description>
-      <guid isPermaLink="true">https://undeadly.org/cgi?action=article;sid=20260319125859</guid>
-      <pubDate>Thu, 19 Mar 2026 13:43:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47439320</comments>
+🔗 Read more: https://github.com/KittenML/KittenTTS</description>
+      <guid isPermaLink="true">https://github.com/KittenML/KittenTTS</guid>
+      <pubDate>Thu, 19 Mar 2026 15:56:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441546</comments>
     </item>
     <item>
-      <title>Juggalo 메이크업 블록 얼굴 인식 기술 (2019)</title>
-      <link>https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</link>
-      <description>📝 Juggalo의 얼굴 화장은 많은 얼굴 인식 기술로 정확하게 판독할 수 없는 것으로 나타났습니다. 저갈로 메이크업이 얼굴 인식을 성공적으로 이기는 것으로 나타났습니다. 메이크업은 보조개 깊이가 아닌 턱의 겉보기 모양만 변경하기 때문에 Apple의 얼굴 인식 기능은 Juggalo 메이크업 해결 방법을 쓸모없게 만듭니다.
+      <title>세금을 내지 않는 방법</title>
+      <link>https://taylor.town/succession-000</link>
+      <description>📝 귀하의 정부는 귀하가 과세 대상 부를 창출하기를 원합니다. 과세 대상 자산에 대한 세금을 영구적으로 연기하려면 잉여금을 계속 재투자하십시오. 어쨌든 정부는 실제로 당신의 돈이 필요하지 않았습니다.
 
 
-🔤 Original: Juggalo Makeup Blocks Facial Recognition Technology (2019)
+🔤 Original: How to Not Pay Your Taxes
 
-🔗 Read more: https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</description>
-      <guid isPermaLink="true">https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</guid>
-      <pubDate>Thu, 19 Mar 2026 13:02:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438675</comments>
+🔗 Read more: https://taylor.town/succession-000</description>
+      <guid isPermaLink="true">https://taylor.town/succession-000</guid>
+      <pubDate>Thu, 19 Mar 2026 17:16:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442699</comments>
     </item>
     <item>
-      <title>불평등의 형태</title>
-      <link>https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</link>
-      <description>📝 0$ 이는 평균 성장률이 실제로 $0%$임을 의미합니다. 그러나 이것은 사람들이 생각하는 실제 평균 전압이 아닙니다. 이제 상황이 더 명확해졌으므로 기하학적인 눈으로 이 불평등 사슬을 살펴보겠습니다.
+      <title>Noq: n0의 Rust에서의 새로운 QUIC 구현</title>
+      <link>https://www.iroh.computer/blog/noq-announcement</link>
+      <description>📝 릴레이 경로는 QUIC 경로입니다. 직접 UDP 경로는 QUIC 경로입니다. QUIC 주소 검색 iroh는 iroh 버전 0부터 QAD(QUIC 주소 검색) 구현을 사용해 왔습니다.
 
 
-🔤 Original: The Shape of Inequalities
+🔤 Original: Noq: n0's new QUIC implementation in Rust
 
-🔗 Read more: https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</description>
-      <guid isPermaLink="true">https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</guid>
-      <pubDate>Thu, 19 Mar 2026 14:37:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440284</comments>
+🔗 Read more: https://www.iroh.computer/blog/noq-announcement</description>
+      <guid isPermaLink="true">https://www.iroh.computer/blog/noq-announcement</guid>
+      <pubDate>Thu, 19 Mar 2026 18:17:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47443588</comments>
     </item>
     <item>
-      <title>합의 보드 게임</title>
-      <link>https://matklad.github.io/2026/03/19/consensus-board-game.html</link>
-      <description>📝 R4는 아직 투표하지 않았습니다. 결국 그렇게 될 수도 있고 그렇지 않을 수도 있지만 결과에는 영향을 미치지 않습니다. 이것의 문제는 우리가 지정한 리더가 그 자체로 이용 가능하지 않을 수도 있다는 것입니다. 제가 공유하고 싶었던 중심 그림으로 우리를 데려가는 이사회.
-
-
-🔤 Original: Consensus Board Game
-
-🔗 Read more: https://matklad.github.io/2026/03/19/consensus-board-game.html</description>
-      <guid isPermaLink="true">https://matklad.github.io/2026/03/19/consensus-board-game.html</guid>
-      <pubDate>Thu, 19 Mar 2026 14:06:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47439718</comments>
+      <title>2026년 세계 행복 보고서</title>
+      <link>https://www.worldhappiness.report/ed/2026/</link>
+      <guid isPermaLink="true">https://www.worldhappiness.report/ed/2026/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:12:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441784</comments>
     </item>
     <item>
-      <title>macOS 26은 .internal을 포함한 사용자 정의 DNS 설정을 중단합니다.</title>
-      <link>https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</link>
-      <description>📝 공유 이 요점에 대한 공유 가능한 링크를 복사하세요. 포함(Embed) 옵션을 선택하십시오. 포함(Embed) 이 요점을 귀하의 웹사이트에 포함시키십시오. 공유 이 요점에 대한 공유 가능한 링크를 복사하세요.
+      <title>Android: 개방성과 선택성과 안전의 균형</title>
+      <link>https://android-developers.googleblog.com/2026/03/android-developer-verification.html</link>
+      <description>📝 Android 개발자 블로그: Android 개발자 검증: 개방성과 선택과 안전 사이의 균형 ☰ Android 개발자 블로그 앱 및 게임 개발자를 위한 최신 Android 및 Google Play 뉴스입니다. 우리는 검증되지 않은 개발자의 소프트웨어를 설치하기 위해 교육받은 위험을 감수하고 싶어하는 고급 사용자로부터 들었습니다. 최신 게시물 이전 게시물 Google 개발자 블로그 Google 개발자 블로그 Android 개발자 연결 Google Play 구독 피드 뉴스레터.
 
 
-🔤 Original: macOS 26 breaks custom DNS settings including .internal
+🔤 Original: Android: Balancing Openness and Choice with Safety
 
-🔗 Read more: https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</description>
-      <guid isPermaLink="true">https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</guid>
-      <pubDate>Thu, 19 Mar 2026 15:06:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440759</comments>
+🔗 Read more: https://android-developers.googleblog.com/2026/03/android-developer-verification.html</description>
+      <guid isPermaLink="true">https://android-developers.googleblog.com/2026/03/android-developer-verification.html</guid>
+      <pubDate>Thu, 19 Mar 2026 17:16:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442690</comments>
     </item>
     <item>
-      <title>Afroman, 자신의 뮤직 비디오에 경찰 급습 장면 사용 혐의로 민사 재판에서 승리</title>
-      <link>https://www.nytimes.com/2026/03/19/us/afroman-trial-lemon-cake-verdict.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/03/19/us/afroman-trial-lemon-cake-verdict.html</guid>
-      <pubDate>Thu, 19 Mar 2026 12:13:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438001</comments>
+      <title>HN 출시: Voltair(YC W26) – 전력 유틸리티용 드론 및 충전 네트워크</title>
+      <link>https://news.ycombinator.com/item?id=47442452</link>
+      <description>📝 우리는 전력 유틸리티 검사를 위해 배포되는 내후성 하이브리드 고정 드론을 만들고 있습니다. 대부분의 유틸리티는 도보 순찰을 통해 이 문제를 해결합니다. 약 1000-5000개의 패드가 있습니다.
+
+
+🔤 Original: Launch HN: Voltair (YC W26) – Drone and charging network for power utilities
+
+🔗 Read more: https://news.ycombinator.com/item?id=47442452</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47442452</guid>
+      <pubDate>Thu, 19 Mar 2026 16:57:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442452</comments>
     </item>
     <item>
-      <title>초최적화된 역지오코딩 API</title>
-      <link>https://github.com/traccar/traccar-geocoder</link>
-      <description>📝 pbf" \ -v geocoder-data:/data -p 3000:3000 traccar/traccar-geocoder # 색인 전용 빌드 docker run -e PBF_URLS="https://download. pbf" \ -v geocoder-data:/data -p 3000:3000 traccar/traccar-geocoder # 자동 HTTPS docker 실행 -e PBF_URLS="https://download. /server/target/release/query-server 출력-dir [bind-address] # 자동 HTTPS로 시작합니다.
+      <title>Karpathy의 자동 연구 확장: 에이전트가 GPU 클러스터를 얻을 때 어떤 일이 발생합니까?</title>
+      <link>https://blog.skypilot.co/scaling-autoresearch/</link>
+      <description>📝 에이전트가 열차를 편집합니다. 에이전트 클라우드 GPU 제공#에이전트에 GPU를 장착하기 위해 SkyPilot을 사용했습니다. 에이전트는 스카이 로그로 결과를 확인합니다.
 
 
-🔤 Original: Hyper-optimized reverse geocoding API
+🔤 Original: Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster
 
-🔗 Read more: https://github.com/traccar/traccar-geocoder</description>
-      <guid isPermaLink="true">https://github.com/traccar/traccar-geocoder</guid>
-      <pubDate>Thu, 19 Mar 2026 14:38:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440309</comments>
+🔗 Read more: https://blog.skypilot.co/scaling-autoresearch/</description>
+      <guid isPermaLink="true">https://blog.skypilot.co/scaling-autoresearch/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:55:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442435</comments>
     </item>
     <item>
-      <title>CPU는 몇 개의 분기를 예측할 수 있습니까?</title>
-      <link>https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</link>
-      <description>📝 Apple M4 프로세서는 10,000개의 분기를 완벽하게 예측할 수 있습니다. Intel Emerald Rapids는 5,000개의 분기를 완벽하게 예측할 수 있습니다. Daniel Lemire, "CPU는 몇 개의 분기를 예측할 수 있나요?
-
-
-🔤 Original: How many branches can your CPU predict?
-
-🔗 Read more: https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</description>
-      <guid isPermaLink="true">https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</guid>
-      <pubDate>Thu, 19 Mar 2026 12:49:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438490</comments>
+      <title>프롬프트 주입 Contributing.md</title>
+      <link>https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem</link>
+      <guid isPermaLink="true">https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem</guid>
+      <pubDate>Thu, 19 Mar 2026 15:52:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441499</comments>
     </item>
     <item>
-      <title>이란과 이스라엘의 가스전 공격으로 석유와 가스 가격이 급등</title>
-      <link>https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</link>
-      <description>📝 이란 사우스 파르스 가스전 근처에서 공격이 있은 후 연기가 피어오르고 있습니다. 사진: 소셜 미디어/로이터 전체 화면으로 이미지 보기 이란의 사우스 파르스 가스전 근처에서 공격 후 연기가 피어오르고 있습니다. 전쟁 이전보다 두 배 이상 증가했습니다.
+      <title>Markdown을 생성 UI용 프로토콜로 전환했습니다.</title>
+      <link>https://fabian-kuebler.com/posts/markdown-agentic-ui/</link>
+      <description>📝 스트리밍 실행 — 에이전트가 코드를 작성하고 실행합니다. LLM 출력``tsx 에이전트. 클라이언트 → 서버(양식) 에이전트는 사용자 입력(LLM 출력```tsx 에이전트)을 기다릴 수 있습니다.
 
 
-🔤 Original: Oil and gas prices jump after Iran and Israel attack gasfields
+🔤 Original: I turned Markdown into a protocol for generative UI
 
-🔗 Read more: https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</description>
-      <guid isPermaLink="true">https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</guid>
-      <pubDate>Thu, 19 Mar 2026 15:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47441351</comments>
+🔗 Read more: https://fabian-kuebler.com/posts/markdown-agentic-ui/</description>
+      <guid isPermaLink="true">https://fabian-kuebler.com/posts/markdown-agentic-ui/</guid>
+      <pubDate>Thu, 19 Mar 2026 13:42:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47439300</comments>
     </item>
     <item>
-      <title>안면인식 사용을 둘러싼 다음 싸움은 슈퍼마켓에서 벌어질 수도 있다</title>
-      <link>https://www.politico.com/newsletters/digital-future-daily/2026/03/16/the-facial-recognition-grocery-fight-00830499</link>
-      <guid isPermaLink="true">https://www.politico.com/newsletters/digital-future-daily/2026/03/16/the-facial-recognition-grocery-fight-00830499</guid>
-      <pubDate>Thu, 19 Mar 2026 12:48:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438482</comments>
+      <title>HN 출시: Canary(YC W26) – 코드를 이해하는 AI QA</title>
+      <link>https://news.ycombinator.com/item?id=47441629</link>
+      <description>📝 우리는 그 격차를 줄이기 위해 Canary를 시작했습니다. PR 댓글을 통해 특정 사용자 워크플로 테스트를 실행할 수도 있습니다. Canary는 코드베이스에서 전체 테스트 모음을 생성하고 예약하고 지속적으로 실행합니다.
+
+
+🔤 Original: Launch HN: Canary (YC W26) – AI QA that understands your code
+
+🔗 Read more: https://news.ycombinator.com/item?id=47441629</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47441629</guid>
+      <pubDate>Thu, 19 Mar 2026 16:01:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441629</comments>
+    </item>
+    <item>
+      <title>4Chan은 영국 온라인 안전 위반에 대해 £520,000의 벌금을 조롱합니다.</title>
+      <link>https://www.bbc.com/news/articles/c624330lg1ko</link>
+      <description>📝 미국 게시판 4Chan은 7시간 전 영국 온라인 안전 위반에 대해 £520,000의 벌금을 부과했습니다.ShareSaveZoe Kleinman기술 편집자ShareSaveGetty Images영국 온라인 안전 규제 기관인 Ofcom은 미국 메시징 플랫폼 4Chan에 온라인 안전법의 다양한 측면을 준수하지 않은 이유로 총 £520,000의 벌금을 부과했습니다. 4Chan은 Ofcom으로부터 이전의 모든 벌금 지불을 거부했습니다. 온라인 안전 BillOfcom.
+
+
+🔤 Original: 4Chan mocks £520k fine for UK online safety breaches
+
+🔗 Read more: https://www.bbc.com/news/articles/c624330lg1ko</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c624330lg1ko</guid>
+      <pubDate>Thu, 19 Mar 2026 14:46:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47440430</comments>
+    </item>
+    <item>
+      <title>코네티컷과 1km 효과</title>
+      <link>https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</link>
+      <description>📝 그들은 더 부유한 집에 있을 것인가? 태양광 패널의 얼리 어답터는 혁신적인 기술에 관심이 있고, 신뢰할 수 있는 설치업체를 찾고, 태양광 패널이 자신에게 도움이 될 것이라고 생각하는 사람들인 경향이 있습니다. 태양광 패널은 근접 원리의 물리적 표현일 뿐입니다.
+
+
+🔤 Original: Connecticut and the 1 Kilometer Effect
+
+🔗 Read more: https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</description>
+      <guid isPermaLink="true">https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</guid>
+      <pubDate>Thu, 19 Mar 2026 17:52:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47443239</comments>
+    </item>
+    <item>
+      <title>기업의 헛소리를 좋아하는 것은 나쁜 판단과 관련이 있습니다</title>
+      <link>https://pluralistic.net/2026/03/19/jargon-watch/</link>
+      <description>📝 나는 의미론적 표류를 좋아합니다. 사람들이 사용하는 단어가 중요합니다. (저는 단어에 관심이 많습니다.) 이제 우리가 그것을 인정할 때입니다.
+
+
+🔤 Original: Love of corporate bullshit is correlated with bad judgment
+
+🔗 Read more: https://pluralistic.net/2026/03/19/jargon-watch/</description>
+      <guid isPermaLink="true">https://pluralistic.net/2026/03/19/jargon-watch/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:41:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442215</comments>
+    </item>
+    <item>
+      <title>영국의 Ofcom은 오늘 연령 확인을 하지 않은 4chan에게 £450,000의 벌금을 부과했습니다.</title>
+      <link>https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography</link>
+      <guid isPermaLink="true">https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography</guid>
+      <pubDate>Thu, 19 Mar 2026 17:27:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442838</comments>
+    </item>
+    <item>
+      <title>Ramtrack.eu – RAM 가격 정보</title>
+      <link>https://ramtrack.eu</link>
+      <description>📝 RAMTRACK — 메모리 가격 인텔리전스 메모리 가격이 로드 중입니다... 네덜란드 시장 가격 — 로드 중... — AVG DDR4/GB — AVG DDR5/GB 가격 내역 3개월 6개월 1년 2년 가격 경고 × 이메일(알림용) 유형 DDR4 DDR5 용량 8GB 16GB 32GB 64GB 가격이 아래로 떨어지면 경고(€) + 추가 경고 구성된 경고가 없습니다.
+
+
+🔤 Original: Ramtrack.eu – RAM Price Intelligence
+
+🔗 Read more: https://ramtrack.eu</description>
+      <guid isPermaLink="true">https://ramtrack.eu</guid>
+      <pubDate>Thu, 19 Mar 2026 12:39:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47438342</comments>
+    </item>
+    <item>
+      <title>Show HN: AI Edge 에이전트를 위해 Wix를 버려서 하급 직원을 고용할 필요가 없습니다.</title>
+      <link>https://news.ycombinator.com/item?id=47441587</link>
+      <description>📝 com/chat-architect-vs-concierge-v147. 건축법 조항을 환각적으로 표현합니다. com/audit-2026-02-19-v148.
+
+
+🔤 Original: Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff
+
+🔗 Read more: https://news.ycombinator.com/item?id=47441587</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47441587</guid>
+      <pubDate>Thu, 19 Mar 2026 15:59:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441587</comments>
+    </item>
+    <item>
+      <title>Monuse와 힙</title>
+      <link>https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</link>
+      <description>📝 이 게시물은 정렬된 가중치를 기반으로 검색하거나 정렬하는 알고리즘에 유용하다고 생각하는 간단한 대수적 구조에 관한 것입니다. 이 순서 정의는 (ℤ,+,0)(\mathbb{Z},+,0)과 같은 그룹에는 작동하지 않습니다. 이 설계에서는 힙 속성을 만족하지 않는 트리를 작성하는 것이 불가능합니다.
+
+
+🔤 Original: Monuses and Heaps
+
+🔗 Read more: https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</description>
+      <guid isPermaLink="true">https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</guid>
+      <pubDate>Wed, 18 Mar 2026 23:55:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47432893</comments>
     </item>
   </channel>
 </rss>

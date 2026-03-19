@@ -6,139 +6,224 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Mar 2026 15:56:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 19:01:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Astral 加入 OpenAI</title>
-      <link>https://astral.sh/blog/openai</link>
-      <description>📝 从一开始，我们的目标就是构建能够从根本上改变使用 Python 的感觉的工具——感觉快速、健壮、直观和集成的工具。我越来越清楚，法典就是那个前沿。构建从根本上改变构建软件感觉的工具。
+      <title>Steam / GOG 的更新对 OpenTTD 进行了更改</title>
+      <link>https://www.openttd.org/news/2026/03/19/steam-changes-update</link>
+      <description>📝 有些人建议我们应该选择从 Steam 和 GOG 中完全删除 OpenTTD，但这会对目前在这些平台上享受该游戏的数千人造成不必要的干扰，并且可能会阻止新玩家将来发现该游戏。没有 TTD，就不会有 OpenTTD——就这么简单。我知道这些变化在社区中引起了强烈的反响，但我认为有必要强调 Atari 与我们的合作，并且 OpenTTD 作为一个项目保留了其完全的独立性。
 
 
-🔤 Original: Astral to Join OpenAI
+🔤 Original: An update on Steam / GOG changes for OpenTTD
 
-🔗 Read more: https://astral.sh/blog/openai</description>
-      <guid isPermaLink="true">https://astral.sh/blog/openai</guid>
-      <pubDate>Thu, 19 Mar 2026 13:05:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438723</comments>
+🔗 Read more: https://www.openttd.org/news/2026/03/19/steam-changes-update</description>
+      <guid isPermaLink="true">https://www.openttd.org/news/2026/03/19/steam-changes-update</guid>
+      <pubDate>Thu, 19 Mar 2026 17:27:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442834</comments>
     </item>
     <item>
-      <title>OpenBSD：PF 队列突破 4 Gbps 障碍</title>
-      <link>https://undeadly.org/cgi?action=article;sid=20260319125859</link>
-      <description>📝 然而，HFSC 服务曲线结构 (struct hfsc_sc) 中的内部 32 位限制意味着带宽值被默默地限制在大约 4。在队列上配置带宽 10G 将默默地回绕，从而产生不正确且不可预测的调度行为。熟悉的语法正是您所期望的：queue rootq on em0 带宽 10G 队列 defq 父 rootq 带宽 8G 默认 支持高达 999G 的值，对于当今和未来的接口来说绰绰有余。
+      <title>Show HN：三个新的 Kitten TTS 模型 – 最小小于 25MB</title>
+      <link>https://github.com/KittenML/KittenTTS</link>
+      <description>📝 提供商业支持。参数类型 默认值 说明 text str -- 合成语音的输入文本 str "expr-voice-5-m" 语音名称（查看可用语音） speed float 1. 0 语音速度倍增器 clean_text bool False 预处理文本（展开数字、货币等）
 
 
-🔤 Original: OpenBSD: PF queues break the 4 Gbps barrier
+🔤 Original: Show HN: Three new Kitten TTS models – smallest less than 25MB
 
-🔗 Read more: https://undeadly.org/cgi?action=article;sid=20260319125859</description>
-      <guid isPermaLink="true">https://undeadly.org/cgi?action=article;sid=20260319125859</guid>
-      <pubDate>Thu, 19 Mar 2026 13:43:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47439320</comments>
+🔗 Read more: https://github.com/KittenML/KittenTTS</description>
+      <guid isPermaLink="true">https://github.com/KittenML/KittenTTS</guid>
+      <pubDate>Thu, 19 Mar 2026 15:56:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441546</comments>
     </item>
     <item>
-      <title>Juggalo 彩妆阻止面部识别技术（2019）</title>
-      <link>https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</link>
-      <description>📝 事实证明，许多面部识别技术都无法准确读取 Juggalos 的面部妆容。事实证明，Juggalo 化妆成功击败了面部识别。由于化妆只会改变下巴的外观形状，而不会改变酒窝的深度，因此苹果的面部识别功能使得 Juggalo 化妆解决方案毫无用处。
+      <title>如何不缴税</title>
+      <link>https://taylor.town/succession-000</link>
+      <description>📝 您的政府希望您创造应税财富。要永久推迟应税财富的纳税，请继续将盈余进行再投资。无论如何，政府实际上从来都不需要你的钱。
 
 
-🔤 Original: Juggalo Makeup Blocks Facial Recognition Technology (2019)
+🔤 Original: How to Not Pay Your Taxes
 
-🔗 Read more: https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</description>
-      <guid isPermaLink="true">https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</guid>
-      <pubDate>Thu, 19 Mar 2026 13:02:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438675</comments>
+🔗 Read more: https://taylor.town/succession-000</description>
+      <guid isPermaLink="true">https://taylor.town/succession-000</guid>
+      <pubDate>Thu, 19 Mar 2026 17:16:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442699</comments>
     </item>
     <item>
-      <title>不平等的形式</title>
-      <link>https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</link>
-      <description>📝 0$ 这意味着您的平均增长实际上是 $0%$。但这并不是人们想象的实际平均电压。现在事情已经更清楚了，让我们用几何的眼光来看待这个不平等链。
+      <title>Noq：n0 在 Rust 中的新 QUIC 实现</title>
+      <link>https://www.iroh.computer/blog/noq-announcement</link>
+      <description>📝 中继路径是QUIC路径。直接 UDP 路径是 QUIC 路径。 QUIC 地址发现 iroh 自 iroh 版本 0 以来一直在使用我们的 QUIC 地址发现 (QAD) 实现。
 
 
-🔤 Original: The Shape of Inequalities
+🔤 Original: Noq: n0's new QUIC implementation in Rust
 
-🔗 Read more: https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</description>
-      <guid isPermaLink="true">https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</guid>
-      <pubDate>Thu, 19 Mar 2026 14:37:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440284</comments>
+🔗 Read more: https://www.iroh.computer/blog/noq-announcement</description>
+      <guid isPermaLink="true">https://www.iroh.computer/blog/noq-announcement</guid>
+      <pubDate>Thu, 19 Mar 2026 18:17:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47443588</comments>
     </item>
     <item>
-      <title>共识棋盘游戏</title>
-      <link>https://matklad.github.io/2026/03/19/consensus-board-game.html</link>
-      <description>📝 请注意，R4 尚未投票。最终可能会，也可能不会，但这不会影响结果。问题是我们指定的领导者本身可能无法使用：董事会这给我们带来了我想分享的中心插图。
-
-
-🔤 Original: Consensus Board Game
-
-🔗 Read more: https://matklad.github.io/2026/03/19/consensus-board-game.html</description>
-      <guid isPermaLink="true">https://matklad.github.io/2026/03/19/consensus-board-game.html</guid>
-      <pubDate>Thu, 19 Mar 2026 14:06:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47439718</comments>
+      <title>2026 年世界幸福报告</title>
+      <link>https://www.worldhappiness.report/ed/2026/</link>
+      <guid isPermaLink="true">https://www.worldhappiness.report/ed/2026/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:12:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441784</comments>
     </item>
     <item>
-      <title>macOS 26 破坏了自定义 DNS 设置，包括 .internal</title>
-      <link>https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</link>
-      <description>📝 分享 复制此要点的可分享链接。嵌入 选择一个选项 嵌入 将此要点嵌入到您的网站中。分享 复制此要点的可分享链接。
+      <title>Android：平衡开放性、选择与安全</title>
+      <link>https://android-developers.googleblog.com/2026/03/android-developer-verification.html</link>
+      <description>📝 Android 开发者博客：Android 开发者验证：平衡开放性、选择与安全 ☰ Android 开发者博客 为应用和游戏开发者提供最新的 Android 和 Google Play 新闻。我们从高级用户那里听说，他们希望承担受过教育的风险来安装来自未经验证的开发人员的软件。较新的帖子 较旧的帖子 Google 开发者博客 Google 开发者博客 Connect Android 开发者 Google Play 订阅 Feed 时事通讯。
 
 
-🔤 Original: macOS 26 breaks custom DNS settings including .internal
+🔤 Original: Android: Balancing Openness and Choice with Safety
 
-🔗 Read more: https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</description>
-      <guid isPermaLink="true">https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</guid>
-      <pubDate>Thu, 19 Mar 2026 15:06:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440759</comments>
+🔗 Read more: https://android-developers.googleblog.com/2026/03/android-developer-verification.html</description>
+      <guid isPermaLink="true">https://android-developers.googleblog.com/2026/03/android-developer-verification.html</guid>
+      <pubDate>Thu, 19 Mar 2026 17:16:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442690</comments>
     </item>
     <item>
-      <title>阿弗罗曼因在其音乐视频中使用警察突袭镜头而赢得民事审判</title>
-      <link>https://www.nytimes.com/2026/03/19/us/afroman-trial-lemon-cake-verdict.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/03/19/us/afroman-trial-lemon-cake-verdict.html</guid>
-      <pubDate>Thu, 19 Mar 2026 12:13:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438001</comments>
+      <title>推出 HN：Voltair (YC W26) – 电力公司的无人机和充电网络</title>
+      <link>https://news.ycombinator.com/item?id=47442452</link>
+      <description>📝 我们正在制造用于电力设施检查的耐候、混合固定无人机。大多数公用事业公司通过步行巡逻来解决这个问题。大约有1000-5000个垫。
+
+
+🔤 Original: Launch HN: Voltair (YC W26) – Drone and charging network for power utilities
+
+🔗 Read more: https://news.ycombinator.com/item?id=47442452</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47442452</guid>
+      <pubDate>Thu, 19 Mar 2026 16:57:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442452</comments>
     </item>
     <item>
-      <title>超优化的反向地理编码 API</title>
-      <link>https://github.com/traccar/traccar-geocoder</link>
-      <description>📝 pbf" \ -v geocoder-data:/data -p 3000:3000 traccar/traccar-geocoder # 仅构建索引 docker run -e PBF_URLS="https://download. pbf" \ -v geocoder-data:/data -p 3000:3000 traccar/traccar-geocoder # 使用自动 HTTPS docker run -e PBF_URLS="https://download. /server/target/release/query-server output-dir [bind-address] # 以自动 HTTPS 开始。
+      <title>扩展 Karpathy 的自动研究：当代理获得 GPU 集群时会发生什么</title>
+      <link>https://blog.skypilot.co/scaling-autoresearch/</link>
+      <description>📝 代理人编辑火车。为代理云提供 GPU#为了给代理配备 GPU，我们使用了 SkyPilot。代理通过天空日志检查结果。
 
 
-🔤 Original: Hyper-optimized reverse geocoding API
+🔤 Original: Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster
 
-🔗 Read more: https://github.com/traccar/traccar-geocoder</description>
-      <guid isPermaLink="true">https://github.com/traccar/traccar-geocoder</guid>
-      <pubDate>Thu, 19 Mar 2026 14:38:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440309</comments>
+🔗 Read more: https://blog.skypilot.co/scaling-autoresearch/</description>
+      <guid isPermaLink="true">https://blog.skypilot.co/scaling-autoresearch/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:55:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442435</comments>
     </item>
     <item>
-      <title>你的CPU能预测多少个分支？</title>
-      <link>https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</link>
-      <description>📝 Apple M4 处理器可以完美预测 10,000 个分支。 Intel Emerald Rapids 可以完美预测 5,000 个分支。 Daniel Lemire，“你的 CPU 可以预测多少个分支。
-
-
-🔤 Original: How many branches can your CPU predict?
-
-🔗 Read more: https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</description>
-      <guid isPermaLink="true">https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</guid>
-      <pubDate>Thu, 19 Mar 2026 12:49:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438490</comments>
+      <title>提示注入 Contributing.md</title>
+      <link>https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem</link>
+      <guid isPermaLink="true">https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem</guid>
+      <pubDate>Thu, 19 Mar 2026 15:52:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441499</comments>
     </item>
     <item>
-      <title>伊朗和以色列袭击气田后石油和天然气价格上涨</title>
-      <link>https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</link>
-      <description>📝 袭击后，伊朗南帕尔斯气田附近升起浓烟。照片：社交媒体/路透社全屏查看伊朗南帕尔斯气田附近发生袭击后冒出的浓烟。自战前以来，这一数字增加了一倍多。
+      <title>我将 Markdown 变成了生成 UI 的协议</title>
+      <link>https://fabian-kuebler.com/posts/markdown-agentic-ui/</link>
+      <description>📝 流式执行——代理编写并执行代码。 LLM 输出```tsx 代理。客户端 → 服务器（表单） 代理可以等待用户输入：LLM 输出```tsx 代理。
 
 
-🔤 Original: Oil and gas prices jump after Iran and Israel attack gasfields
+🔤 Original: I turned Markdown into a protocol for generative UI
 
-🔗 Read more: https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</description>
-      <guid isPermaLink="true">https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</guid>
-      <pubDate>Thu, 19 Mar 2026 15:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47441351</comments>
+🔗 Read more: https://fabian-kuebler.com/posts/markdown-agentic-ui/</description>
+      <guid isPermaLink="true">https://fabian-kuebler.com/posts/markdown-agentic-ui/</guid>
+      <pubDate>Thu, 19 Mar 2026 13:42:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47439300</comments>
     </item>
     <item>
-      <title>下一场关于面部识别使用的斗争可能会在超市</title>
-      <link>https://www.politico.com/newsletters/digital-future-daily/2026/03/16/the-facial-recognition-grocery-fight-00830499</link>
-      <guid isPermaLink="true">https://www.politico.com/newsletters/digital-future-daily/2026/03/16/the-facial-recognition-grocery-fight-00830499</guid>
-      <pubDate>Thu, 19 Mar 2026 12:48:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438482</comments>
+      <title>启动 HN：Canary (YC W26) – 理解您代码的 AI QA</title>
+      <link>https://news.ycombinator.com/item?id=47441629</link>
+      <description>📝 我们启动 Canary 来缩小这一差距。您还可以通过 PR 评论触发特定的用户工作流程测试。 Canary 从您的代码库生成完整的测试套件，对其进行调度并持续运行。
+
+
+🔤 Original: Launch HN: Canary (YC W26) – AI QA that understands your code
+
+🔗 Read more: https://news.ycombinator.com/item?id=47441629</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47441629</guid>
+      <pubDate>Thu, 19 Mar 2026 16:01:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441629</comments>
+    </item>
+    <item>
+      <title>4Chan 嘲笑因英国网络安全违规而被罚款 52 万英镑</title>
+      <link>https://www.bbc.com/news/articles/c624330lg1ko</link>
+      <description>📝 美国留言板 4Chan 嘲笑英国在线安全违规行为被罚款 52 万英镑 7 小时前 ShareSaveZoe Kleinman 技术编辑ShareSaveGetty Images 英国在线安全监管机构 Ofcom 对美国消息平台 4Chan 处以总计 52 万英镑的罚款，原因是其未能遵守《在线安全法》的各个方面。 4Chan 拒绝支付 Ofcom 之前的所有罚款。在线安全 BillOfcom。
+
+
+🔤 Original: 4Chan mocks £520k fine for UK online safety breaches
+
+🔗 Read more: https://www.bbc.com/news/articles/c624330lg1ko</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c624330lg1ko</guid>
+      <pubDate>Thu, 19 Mar 2026 14:46:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47440430</comments>
+    </item>
+    <item>
+      <title>康涅狄格州和一公里效应</title>
+      <link>https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</link>
+      <description>📝 他们会住在更富裕的家庭吗？太阳能电池板的早期采用者往往是对创新技术感兴趣的人，他们找到了他们信任的安装人员，并且认为拥有太阳能电池板将使他们受益。太阳能电池板只是就近原理的物理表现。
+
+
+🔤 Original: Connecticut and the 1 Kilometer Effect
+
+🔗 Read more: https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</description>
+      <guid isPermaLink="true">https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</guid>
+      <pubDate>Thu, 19 Mar 2026 17:52:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47443239</comments>
+    </item>
+    <item>
+      <title>喜欢公司废话与错误判断有关</title>
+      <link>https://pluralistic.net/2026/03/19/jargon-watch/</link>
+      <description>📝 我喜欢语义漂移。人们使用的词语很重要（我非常关心词语。）我们是时候承认这一点了。
+
+
+🔤 Original: Love of corporate bullshit is correlated with bad judgment
+
+🔗 Read more: https://pluralistic.net/2026/03/19/jargon-watch/</description>
+      <guid isPermaLink="true">https://pluralistic.net/2026/03/19/jargon-watch/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:41:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442215</comments>
+    </item>
+    <item>
+      <title>英国 Ofcom 今天因未进行年龄检查而对 4chan 处以 45 万英镑罚款</title>
+      <link>https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography</link>
+      <guid isPermaLink="true">https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography</guid>
+      <pubDate>Thu, 19 Mar 2026 17:27:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442838</comments>
+    </item>
+    <item>
+      <title>Ramtrack.eu – RAM 价格情报</title>
+      <link>https://ramtrack.eu</link>
+      <description>📝 RAMTRACK — 内存价格情报 内存价格正在加载... 荷兰市场价格 — 正在加载... — 平均 DDR4 / GB — 平均 DDR5 / GB 价格历史记录 3M 6M 1Y 2Y 价格警报 × 电子邮件（用于通知） 类型 DDR4 DDR5 容量 8 GB 16 GB 32 GB 64 GB 价格低于 (€) 时发出警报 + 添加警报 未配置警报。
+
+
+🔤 Original: Ramtrack.eu – RAM Price Intelligence
+
+🔗 Read more: https://ramtrack.eu</description>
+      <guid isPermaLink="true">https://ramtrack.eu</guid>
+      <pubDate>Thu, 19 Mar 2026 12:39:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47438342</comments>
+    </item>
+    <item>
+      <title>Show HN：为 AI Edge 代理抛弃了 Wix，这样我就不必雇用初级员工了</title>
+      <link>https://news.ycombinator.com/item?id=47441587</link>
+      <description>📝 com/chat-architect-vs-concierge-v147.幻想建筑规范条款。 com/audit-2026-02-19-v148。
+
+
+🔤 Original: Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff
+
+🔗 Read more: https://news.ycombinator.com/item?id=47441587</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47441587</guid>
+      <pubDate>Thu, 19 Mar 2026 15:59:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441587</comments>
+    </item>
+    <item>
+      <title>单体和堆</title>
+      <link>https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</link>
+      <description>📝 这篇文章是关于一个简单的代数结构，我发现它对于涉及基于某些有序权重进行搜索或排序的算法很有用。请注意，此顺序定义不适用于 (ℤ,+,0)(\mathbb{Z},+,0) 等组。通过这种设计，不可能写出不满足堆属性的树。
+
+
+🔤 Original: Monuses and Heaps
+
+🔗 Read more: https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</description>
+      <guid isPermaLink="true">https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</guid>
+      <pubDate>Wed, 18 Mar 2026 23:55:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47432893</comments>
     </item>
   </channel>
 </rss>

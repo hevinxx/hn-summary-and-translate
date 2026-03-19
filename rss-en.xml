@@ -6,112 +6,179 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Mar 2026 15:56:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 19:01:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Astral to Join OpenAI</title>
-      <link>https://astral.sh/blog/openai</link>
-      <description>📝 From the beginning, our goal has been to build tools that radically change what it feels like to work with Python – tools that feel fast, robust, intuitive, and integrated. It is increasingly clear to me that Codex is that frontier. To build tools that radically change what it feels like to build software.
+      <title>An update on Steam / GOG changes for OpenTTD</title>
+      <link>https://www.openttd.org/news/2026/03/19/steam-changes-update</link>
+      <description>📝 Some have suggested that we should have chosen to remove OpenTTD from Steam and GOG entirely, but that would have caused unnecessary disruption to the many thousands of people currently enjoying the game on these platforms, and would have potentially prevented new players from discovering the game in future. Without TTD, there would be no OpenTTD - it’s as simple as that. I understand that these changes have provoked strong feelings in the community, but I feel it important to emphasise that Atari have worked collaboratively with us, and that OpenTTD as a project retains its full independence.
 
-🔗 Read more: https://astral.sh/blog/openai</description>
-      <guid isPermaLink="true">https://astral.sh/blog/openai</guid>
-      <pubDate>Thu, 19 Mar 2026 13:05:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438723</comments>
+🔗 Read more: https://www.openttd.org/news/2026/03/19/steam-changes-update</description>
+      <guid isPermaLink="true">https://www.openttd.org/news/2026/03/19/steam-changes-update</guid>
+      <pubDate>Thu, 19 Mar 2026 17:27:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442834</comments>
     </item>
     <item>
-      <title>OpenBSD: PF queues break the 4 Gbps barrier</title>
-      <link>https://undeadly.org/cgi?action=article;sid=20260319125859</link>
-      <description>📝 However, an internal 32-bit limitation in the HFSC service curve structure (struct hfsc_sc) meant that bandwidth values were silently capped at approximately 4. Configuring bandwidth 10G on a queue would silently wrap around, producing incorrect and unpredictable scheduling behaviour. The familiar syntax just does what you'd expect: queue rootq on em0 bandwidth 10G queue defq parent rootq bandwidth 8G default Values up to 999G are supported, more than enough for interfaces today and the future.
+      <title>Show HN: Three new Kitten TTS models – smallest less than 25MB</title>
+      <link>https://github.com/KittenML/KittenTTS</link>
+      <description>📝 Commercial support is available. Parameter Type Default Description text str -- Input text to synthesize voice str "expr-voice-5-m" Voice name (see available voices) speed float 1. 0 Speech speed multiplier clean_text bool False Preprocess text (expand numbers, currencies, etc.
 
-🔗 Read more: https://undeadly.org/cgi?action=article;sid=20260319125859</description>
-      <guid isPermaLink="true">https://undeadly.org/cgi?action=article;sid=20260319125859</guid>
-      <pubDate>Thu, 19 Mar 2026 13:43:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47439320</comments>
+🔗 Read more: https://github.com/KittenML/KittenTTS</description>
+      <guid isPermaLink="true">https://github.com/KittenML/KittenTTS</guid>
+      <pubDate>Thu, 19 Mar 2026 15:56:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441546</comments>
     </item>
     <item>
-      <title>Juggalo Makeup Blocks Facial Recognition Technology (2019)</title>
-      <link>https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</link>
-      <description>📝 It turns out that Juggalos face makeup cannot be accurately read by many facial recognition technologies. it turns out juggalo makeup defeats facial recognition successfully. Since makeup only changes the apparent shape of your chin and not the depth of your dimples, Apple’s facial recognition renders the Juggalo makeup workaround useless.
+      <title>How to Not Pay Your Taxes</title>
+      <link>https://taylor.town/succession-000</link>
+      <description>📝 Your government wants you to create taxable wealth. To perpetually defer taxes on your taxable wealth, keep reinvesting your surplus. The government never actually needed your money anyway.
 
-🔗 Read more: https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</description>
-      <guid isPermaLink="true">https://consequence.net/2019/07/juggalo-makeup-facial-recognition/</guid>
-      <pubDate>Thu, 19 Mar 2026 13:02:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438675</comments>
+🔗 Read more: https://taylor.town/succession-000</description>
+      <guid isPermaLink="true">https://taylor.town/succession-000</guid>
+      <pubDate>Thu, 19 Mar 2026 17:16:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442699</comments>
     </item>
     <item>
-      <title>The Shape of Inequalities</title>
-      <link>https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</link>
-      <description>📝 0$ This means your average growth is actually $0%$. But this is not the actual average voltage people think. Now that things are clearer, let’s look at this inequality chain with a geometric eye.
+      <title>Noq: n0's new QUIC implementation in Rust</title>
+      <link>https://www.iroh.computer/blog/noq-announcement</link>
+      <description>📝 The relay path is a QUIC path. The direct UDP path is a QUIC path. QUIC Address Discovery iroh has been using our implementation of QUIC Address Discovery (QAD) since iroh version 0.
 
-🔗 Read more: https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</description>
-      <guid isPermaLink="true">https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/</guid>
-      <pubDate>Thu, 19 Mar 2026 14:37:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440284</comments>
+🔗 Read more: https://www.iroh.computer/blog/noq-announcement</description>
+      <guid isPermaLink="true">https://www.iroh.computer/blog/noq-announcement</guid>
+      <pubDate>Thu, 19 Mar 2026 18:17:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47443588</comments>
     </item>
     <item>
-      <title>Consensus Board Game</title>
-      <link>https://matklad.github.io/2026/03/19/consensus-board-game.html</link>
-      <description>📝 Note that R4 hasn’t voted yet. It might, or might not do so eventually, but that won’t affect the outcome. The problem with this is that our designated leader might be unavailable itself: The Board Which brings us to the central illustration that I wanted to share.
+      <title>World Happiness Report 2026</title>
+      <link>https://www.worldhappiness.report/ed/2026/</link>
+      <guid isPermaLink="true">https://www.worldhappiness.report/ed/2026/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:12:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441784</comments>
+    </item>
+    <item>
+      <title>Android: Balancing Openness and Choice with Safety</title>
+      <link>https://android-developers.googleblog.com/2026/03/android-developer-verification.html</link>
+      <description>📝 Android Developers Blog: Android developer verification: Balancing openness and choice with safety ☰ Android Developers Blog The latest Android and Google Play news for app and game developers. We've heard from power users that they want to take educated risks to install software from unverified developers. Newer post Older post Google developers blog Google Developers Blog Connect Android Developers Google Play Subscribe Feed Newsletter.
 
-🔗 Read more: https://matklad.github.io/2026/03/19/consensus-board-game.html</description>
-      <guid isPermaLink="true">https://matklad.github.io/2026/03/19/consensus-board-game.html</guid>
-      <pubDate>Thu, 19 Mar 2026 14:06:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47439718</comments>
+🔗 Read more: https://android-developers.googleblog.com/2026/03/android-developer-verification.html</description>
+      <guid isPermaLink="true">https://android-developers.googleblog.com/2026/03/android-developer-verification.html</guid>
+      <pubDate>Thu, 19 Mar 2026 17:16:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442690</comments>
     </item>
     <item>
-      <title>macOS 26 breaks custom DNS settings including .internal</title>
-      <link>https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</link>
-      <description>📝 Share Copy sharable link for this gist. Embed Select an option Embed Embed this gist in your website. Share Copy sharable link for this gist.
+      <title>Launch HN: Voltair (YC W26) – Drone and charging network for power utilities</title>
+      <link>https://news.ycombinator.com/item?id=47442452</link>
+      <description>📝 We’re making weatherized, hybrid-fixed drones deployed for power utility inspections. Most utilities solve this problem with foot patrols. with about 1000-5000 pads.
 
-🔗 Read more: https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</description>
-      <guid isPermaLink="true">https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a</guid>
-      <pubDate>Thu, 19 Mar 2026 15:06:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440759</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47442452</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47442452</guid>
+      <pubDate>Thu, 19 Mar 2026 16:57:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442452</comments>
     </item>
     <item>
-      <title>Afroman Wins Civil Trial over Use of Police Raid Footage in His Music Videos</title>
-      <link>https://www.nytimes.com/2026/03/19/us/afroman-trial-lemon-cake-verdict.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/03/19/us/afroman-trial-lemon-cake-verdict.html</guid>
-      <pubDate>Thu, 19 Mar 2026 12:13:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438001</comments>
-    </item>
-    <item>
-      <title>Hyper-optimized reverse geocoding API</title>
-      <link>https://github.com/traccar/traccar-geocoder</link>
-      <description>📝 pbf" \ -v geocoder-data:/data -p 3000:3000 traccar/traccar-geocoder # Build index only docker run -e PBF_URLS="https://download. pbf" \ -v geocoder-data:/data -p 3000:3000 traccar/traccar-geocoder # With automatic HTTPS docker run -e PBF_URLS="https://download. /server/target/release/query-server output-dir [bind-address] # Start with automatic HTTPS.
+      <title>Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster</title>
+      <link>https://blog.skypilot.co/scaling-autoresearch/</link>
+      <description>📝 The agent edits train. Giving the agent cloud GPUs#To arm the agent with GPUs, we used SkyPilot. The agent checks results with sky logs.
 
-🔗 Read more: https://github.com/traccar/traccar-geocoder</description>
-      <guid isPermaLink="true">https://github.com/traccar/traccar-geocoder</guid>
-      <pubDate>Thu, 19 Mar 2026 14:38:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47440309</comments>
+🔗 Read more: https://blog.skypilot.co/scaling-autoresearch/</description>
+      <guid isPermaLink="true">https://blog.skypilot.co/scaling-autoresearch/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:55:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442435</comments>
     </item>
     <item>
-      <title>How many branches can your CPU predict?</title>
-      <link>https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</link>
-      <description>📝 The Apple M4 processor can predict perfectly 10,000 branches. Intel Emerald Rapids can predict perfectly 5,000 branches. Daniel Lemire, "How many branches can your CPU predict.
+      <title>Prompt Injecting Contributing.md</title>
+      <link>https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem</link>
+      <guid isPermaLink="true">https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem</guid>
+      <pubDate>Thu, 19 Mar 2026 15:52:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441499</comments>
+    </item>
+    <item>
+      <title>I turned Markdown into a protocol for generative UI</title>
+      <link>https://fabian-kuebler.com/posts/markdown-agentic-ui/</link>
+      <description>📝 Streaming execution — The agent writes and executes code. LLM Output```tsx agent. Client → Server (forms) The agent can wait for user input: LLM Output```tsx agent.
 
-🔗 Read more: https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</description>
-      <guid isPermaLink="true">https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/</guid>
-      <pubDate>Thu, 19 Mar 2026 12:49:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438490</comments>
+🔗 Read more: https://fabian-kuebler.com/posts/markdown-agentic-ui/</description>
+      <guid isPermaLink="true">https://fabian-kuebler.com/posts/markdown-agentic-ui/</guid>
+      <pubDate>Thu, 19 Mar 2026 13:42:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47439300</comments>
     </item>
     <item>
-      <title>Oil and gas prices jump after Iran and Israel attack gasfields</title>
-      <link>https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</link>
-      <description>📝 Smoke rises near the Iran’s South Pars gasfield after an attack. Photograph: Social Media/ReutersView image in fullscreenSmoke rises near the Iran’s South Pars gasfield after an attack. They have more than doubled since before the war.
+      <title>Launch HN: Canary (YC W26) – AI QA that understands your code</title>
+      <link>https://news.ycombinator.com/item?id=47441629</link>
+      <description>📝 We started Canary to close that gap. You can also trigger specific user workflow tests via a PR comment. Canary generates a full test suite from your codebase, schedules it, and runs it continuously.
 
-🔗 Read more: https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</description>
-      <guid isPermaLink="true">https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</guid>
-      <pubDate>Thu, 19 Mar 2026 15:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47441351</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47441629</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47441629</guid>
+      <pubDate>Thu, 19 Mar 2026 16:01:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441629</comments>
     </item>
     <item>
-      <title>The next fight over the use of facial recognition could be in the supermarkets</title>
-      <link>https://www.politico.com/newsletters/digital-future-daily/2026/03/16/the-facial-recognition-grocery-fight-00830499</link>
-      <guid isPermaLink="true">https://www.politico.com/newsletters/digital-future-daily/2026/03/16/the-facial-recognition-grocery-fight-00830499</guid>
-      <pubDate>Thu, 19 Mar 2026 12:48:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47438482</comments>
+      <title>4Chan mocks £520k fine for UK online safety breaches</title>
+      <link>https://www.bbc.com/news/articles/c624330lg1ko</link>
+      <description>📝 US messageboard 4Chan mocks £520,000 fine for UK online safety breaches7 hours agoShareSaveZoe KleinmanTechnology editorShareSaveGetty ImagesThe UK online safety regulator Ofcom has fined the US messaging platform 4Chan a total of £520,000 for failing to comply with various aspects of the Online Safety Act. 4Chan has refused to pay all previous fines from Ofcom. Online Safety BillOfcom.
+
+🔗 Read more: https://www.bbc.com/news/articles/c624330lg1ko</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c624330lg1ko</guid>
+      <pubDate>Thu, 19 Mar 2026 14:46:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47440430</comments>
+    </item>
+    <item>
+      <title>Connecticut and the 1 Kilometer Effect</title>
+      <link>https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</link>
+      <description>📝 Would they be in richer homes. Early adopters of solar panels tend to be people who are interested in innovative technology, who find an installer they trust, and who think having solar panels will benefit them. Solar panels are just physical manifestations of the proximity principle.
+
+🔗 Read more: https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</description>
+      <guid isPermaLink="true">https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/</guid>
+      <pubDate>Thu, 19 Mar 2026 17:52:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47443239</comments>
+    </item>
+    <item>
+      <title>Love of corporate bullshit is correlated with bad judgment</title>
+      <link>https://pluralistic.net/2026/03/19/jargon-watch/</link>
+      <description>📝 I love semantic drift. The words people use matter (I care a lot about words. ) It's time we admitted that.
+
+🔗 Read more: https://pluralistic.net/2026/03/19/jargon-watch/</description>
+      <guid isPermaLink="true">https://pluralistic.net/2026/03/19/jargon-watch/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:41:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442215</comments>
+    </item>
+    <item>
+      <title>UK's Ofcom has today fined 4chan £450k for not having age checks in place</title>
+      <link>https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography</link>
+      <guid isPermaLink="true">https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography</guid>
+      <pubDate>Thu, 19 Mar 2026 17:27:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47442838</comments>
+    </item>
+    <item>
+      <title>Ramtrack.eu – RAM Price Intelligence</title>
+      <link>https://ramtrack.eu</link>
+      <description>📝 RAMTRACK — Memory Price Intelligence Memory prices areloading… DUTCH MARKET PRICES — LOADING… — AVG DDR4 / GB — AVG DDR5 / GB Price History 3M 6M 1Y 2Y Price Alerts × Email (for notifications) Type DDR4 DDR5 Capacity 8 GB 16 GB 32 GB 64 GB Alert when price drops below (€) + ADD ALERT No alerts configured.
+
+🔗 Read more: https://ramtrack.eu</description>
+      <guid isPermaLink="true">https://ramtrack.eu</guid>
+      <pubDate>Thu, 19 Mar 2026 12:39:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47438342</comments>
+    </item>
+    <item>
+      <title>Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff</title>
+      <link>https://news.ycombinator.com/item?id=47441587</link>
+      <description>📝 com/chat-architect-vs-concierge-v147. Hallucinate a building code clause. com/audit-2026-02-19-v148.
+
+🔗 Read more: https://news.ycombinator.com/item?id=47441587</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47441587</guid>
+      <pubDate>Thu, 19 Mar 2026 15:59:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47441587</comments>
+    </item>
+    <item>
+      <title>Monuses and Heaps</title>
+      <link>https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</link>
+      <description>📝 This post is about a simple algebraic structure that I have found useful for algorithms that involve searching or sorting based on some ordered weight. Notice that this order definition won’t work for groups like (ℤ,+,0)(\mathbb{Z},+,0). With this design, it is impossible to write down a tree that doesn’t satisfy the heap property.
+
+🔗 Read more: https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</description>
+      <guid isPermaLink="true">https://doisinkidney.com/posts/2026-03-03-monus-heaps.html</guid>
+      <pubDate>Wed, 18 Mar 2026 23:55:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47432893</comments>
     </item>
   </channel>
 </rss>
