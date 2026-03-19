@@ -6,93 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Mar 2026 02:11:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 04:55:37 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>オースティンの新規住宅建設の急増により家賃が下落した</title>
-      <link>https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</link>
-      <description>📝 2010 年から 2019 年にかけて、オースティンの家賃は 93% 近く上昇し、他のアメリカの主要都市を上回りました。 2015 年から 2024 年にかけて、オースティンは住宅ストックに 120,000 戸を追加しました。これは 30% の増加で、米国全体の成長率 (9%) の 3 倍以上です。過去 20 年間にわたって採用されてきたこれらのプログラムにより、市場価格と手頃な価格の住宅がさらに増えてきました。
+      <title>Cook: クロード コードをオーケストレーションするためのシンプルな CLI</title>
+      <link>https://rjcorwin.github.io/cook/</link>
+      <description>📝 それぞれがすべてをその左側にラップします。ラルフ ゲートは、DONE (終了) または NEXT (次のタスクに進み、繰り返しをリセット) を決定します。 vN は、並列ワークツリーで N 個の同一のクックを実行します。
 
 
-🔤 Original: Austin’s surge of new housing construction drove down rents
+🔤 Original: Cook: A simple CLI for orchestrating Claude Code
 
-🔗 Read more: https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</description>
-      <guid isPermaLink="true">https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</guid>
-      <pubDate>Thu, 19 Mar 2026 00:15:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47433058</comments>
+🔗 Read more: https://rjcorwin.github.io/cook/</description>
+      <guid isPermaLink="true">https://rjcorwin.github.io/cook/</guid>
+      <pubDate>Thu, 19 Mar 2026 02:20:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434024</comments>
     </item>
     <item>
-      <title>SAT ソルバーの自動リサーチ</title>
-      <link>https://github.com/iliazintchenko/agent-sat</link>
-      <description>📝 2024 MaxSAT 評価 (メインの常時加重トラック) からの 229 の加重 MaxSAT インスタンスを考慮して、新しい戦略を発見し、より良いソリューションを見つけ、ツールボックスを繰り返し改良します。クロード・コード）プログラムを読み取ります。発見されたテクニック エージェントはこれらのアプローチを自律的に開発し、実験を通じて何が機能するかを発見しました。 キーの洞察に最適なテクニック セレクター変数を使用した貪欲な SAT 少数のソフト句 (&lt;500) CaDiCaL 仮定を使用した最重優先の貪欲な コアガイド付き検索 ユニット ソフト句 反復的な UNSAT コア緩和。
+      <title>十分に詳細な仕様はコードです</title>
+      <link>https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</link>
+      <description>📝 しかし、エージェント コーディングの支持者は、重力に逆らって純粋に仕様書からコードを生成する方法を発見したと主張しています。誤解 2: 仕様作業はコーディング作業よりも慎重に行われなければならない 彼らは、エージェントコーディングが保守不能な結果を​​生むのではないかと懸念する懐疑論者にエージェントコーディングを売り込むとき、この誤解に寄りかかっています。フィールド: session_id (文字列、&lt;thread_id&gt;-&lt;turn_id&gt;) thread_id (文字列)turn_id (文字列) codex_app_server_pid (文字列または null) last_codex_event (文字列/列挙型または null) last_codex_timestamp (タイムスタンプまたは null) last_codex_message (要約ペイロード) codex_input_tokens (整数) codex_output_tokens (整数) codex_total_tokens (整数) last_reported_input_tokens (整数) last_reported_output_tokens (整数) last_reported_total_tokens (整数)turn_count (整数) 現在のワーカーの存続期間内に開始されたコーディング エージェント ターンの数。
 
 
-🔤 Original: Autoresearch for SAT Solvers
+🔤 Original: A sufficiently detailed spec is code
 
-🔗 Read more: https://github.com/iliazintchenko/agent-sat</description>
-      <guid isPermaLink="true">https://github.com/iliazintchenko/agent-sat</guid>
-      <pubDate>Thu, 19 Mar 2026 00:40:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47433265</comments>
+🔗 Read more: https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</description>
+      <guid isPermaLink="true">https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</guid>
+      <pubDate>Thu, 19 Mar 2026 02:23:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434047</comments>
     </item>
     <item>
-      <title>HN を表示: 24B LLM で 3 つのレイヤーを複製、論理推論 .22→.76。トレーニングなし</title>
-      <link>https://github.com/alainnothere/llm-circuit-finder</link>
-      <description>📝 llm-circuit-finder 3 つのレイヤーを複製します。モデルごとに異なる回路が異なる場所にあります。 Devstral-24B (40 層): 層 12 ～ 14 の推論回路 Qwen2。 5-32B Python のレイヤーパス。
+      <title>私たちは何も学んでいません</title>
+      <link>https://colossus.com/article/we-have-learned-nothing-startup-pundits/</link>
+      <description>📝 エッセイ 私たちは何も学んでいません スタートアップの専門家は私たちに失敗した起業家精神の科学を売り込みました。 2012年までにブランク氏は、国立科学財団が彼の顧客開発フレームワークを「起業家精神のための科学的手法」と呼んでいると述べ、「私たちは今、スタートアップの失敗を少なくする方法を知っている。我々は皆、科学的手法が科学であることを小学校で習った。」と主張した。
 
 
-🔤 Original: Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training
+🔤 Original: We Have Learned Nothing
 
-🔗 Read more: https://github.com/alainnothere/llm-circuit-finder</description>
-      <guid isPermaLink="true">https://github.com/alainnothere/llm-circuit-finder</guid>
-      <pubDate>Wed, 18 Mar 2026 21:31:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47431671</comments>
+🔗 Read more: https://colossus.com/article/we-have-learned-nothing-startup-pundits/</description>
+      <guid isPermaLink="true">https://colossus.com/article/we-have-learned-nothing-startup-pundits/</guid>
+      <pubDate>Thu, 19 Mar 2026 02:53:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434311</comments>
     </item>
     <item>
-      <title>HN に質問: LLM を信頼する人々にどのように対処しますか?</title>
-      <link>https://news.ycombinator.com/item?id=47433702</link>
-      <description>📝 彼らは、信頼できる情報源につながる検索を行えば十分に答えられる質問を持っていますが、その代わりに、LLM チャット ボットに質問し、その内容を盲目的に信頼します。それにどう対処しますか。彼らがあなたとの会話でそのようなことをした場合、またはあなたに影響を与える何かの情報源として LLM が使用されていることに遭遇した場合、あなたはどうしますか。
+      <title>Mozilla、次期 Firefox 149 で無料の組み込み VPN をリリースへ</title>
+      <link>https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</link>
+      <description>📝 この機能は、多くの場合隠れたトレードオフを伴う「無料 VPN」サービスに代わるより安全な代替手段として位置付けられており、Mozilla は、その実装が Firefox を定義するのと同じプライバシー原則に根ざしていると強調している。 Mozillaは以前、Firefoxは同社自身ですらユーザーがどのWebサイトにアクセスし、そこで何をしているのかを知ることができないように設計されていると述べた。 Firefox ユーザーは、この新しい VPN ツールはブラウザのトラフィックのみを処理し、デバイス全体の保護は提供しないことに留意する必要があります。そのため、このツールをアクティブ化することで Firefox 外部のすべてのインターネット トラフィックが保護されると想定すべきではありません。
 
 
-🔤 Original: Ask HN: How do you deal with people who trust LLMs?
+🔤 Original: Mozilla to launch free built-in VPN in upcoming Firefox 149
 
-🔗 Read more: https://news.ycombinator.com/item?id=47433702</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47433702</guid>
-      <pubDate>Thu, 19 Mar 2026 01:37:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47433702</comments>
-    </item>
-    <item>
-      <title>HTTP には何があるのでしょうか?</title>
-      <link>https://whatsonhttp.com/</link>
-      <guid isPermaLink="true">https://whatsonhttp.com/</guid>
-      <pubDate>Wed, 18 Mar 2026 21:57:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47431930</comments>
-    </item>
-    <item>
-      <title>RX – 新しいランダムアクセス JSON の代替品</title>
-      <link>https://github.com/creationix/rx</link>
-      <description>📝 parse) import { parse } から "@creationix/rx"; const data = parse(payload) as any;データ。 users[0] // 「アリス」データ。パス // "/api/users" データ。
-
-
-🔤 Original: RX – a new random-access JSON alternative
-
-🔗 Read more: https://github.com/creationix/rx</description>
-      <guid isPermaLink="true">https://github.com/creationix/rx</guid>
-      <pubDate>Wed, 18 Mar 2026 23:58:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47432915</comments>
-    </item>
-    <item>
-      <title>OpenAI は新たな焦点を当てています (IPO)</title>
-      <link>https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/</link>
-      <description>📝 com/p/the-coming-spacex-scam は OpenAI の場合は 2 倍になります。これらすべてには、もっと注目に値する厄介な展開があります。違いは、OpenAI が運営を続けるには、どこかから本物の現金が必要であるということです。
-
-
-🔤 Original: OpenAI Has New Focus (on the IPO)
-
-🔗 Read more: https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/</description>
-      <guid isPermaLink="true">https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/</guid>
-      <pubDate>Wed, 18 Mar 2026 10:49:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47423976</comments>
+🔗 Read more: https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</description>
+      <guid isPermaLink="true">https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</guid>
+      <pubDate>Thu, 19 Mar 2026 03:31:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434567</comments>
     </item>
   </channel>
 </rss>

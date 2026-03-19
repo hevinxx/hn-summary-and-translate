@@ -6,93 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Mar 2026 02:11:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 04:55:37 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>奥斯汀新住房建设激增导致租金下降</title>
-      <link>https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</link>
-      <description>📝 从 2010 年到 2019 年，奥斯汀的租金上涨了近 93%，增幅超过美国其他主要城市。从 2015 年到 2024 年，奥斯汀的住房存量增加了 12 万套，增长了 30%，是美国总体增长率 (9%) 的三倍多。这些计划在过去二十年中实施，增加了更多的市场价格和经济适用房。
+      <title>Cook：用于编排 Claude 代码的简单 CLI</title>
+      <link>https://rjcorwin.github.io/cook/</link>
+      <description>📝 每个都将所有内容包裹在其左侧。拉尔夫门决定完成（退出）或下一步（前进到下一个任务，重置迭代）。 vN 在并行工作树中运行 N 个相同的厨师。
 
 
-🔤 Original: Austin’s surge of new housing construction drove down rents
+🔤 Original: Cook: A simple CLI for orchestrating Claude Code
 
-🔗 Read more: https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</description>
-      <guid isPermaLink="true">https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</guid>
-      <pubDate>Thu, 19 Mar 2026 00:15:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47433058</comments>
+🔗 Read more: https://rjcorwin.github.io/cook/</description>
+      <guid isPermaLink="true">https://rjcorwin.github.io/cook/</guid>
+      <pubDate>Thu, 19 Mar 2026 02:20:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434024</comments>
     </item>
     <item>
-      <title>SAT 求解器的自动研究</title>
-      <link>https://github.com/iliazintchenko/agent-sat</link>
-      <description>📝 考虑到 2024 年 MaxSAT 评估（主要是随时加权轨道）中的 229 个加权 MaxSAT 实例，它会发现新颖的策略，找到更好的解决方案并迭代完善其工具箱。克劳德·代码）读取程序。发现的技术 代理自主开发了这些方法，通过实验发现了哪些方法有效： 技术 最适合关键洞察力 具有选择器变量的贪婪 SAT 很少的软子句 (&lt;500) 使用 CaDiCaL 假设的最重优先贪婪 核心引导搜索 单元软子句 迭代 UNSAT 核心松弛。
+      <title>足够详细的规范就是代码</title>
+      <link>https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</link>
+      <description>📝 然而，代理编码的倡导者声称已经找到了一种克服重力并纯粹从规范文档生成代码的方法。误解 2：规范工作必须比编码工作更周到 当向怀疑论者推销代理编码时，他们依赖于这种误解，因为他们担心代理编码会产生不可维护的溢出。字段：session_id（字符串，&lt;thread_id&gt;-&lt;turn_id&gt;）thread_id（字符串）turn_id（字符串）codex_app_server_pid（字符串或空）last_codex_event（字符串/枚举或空）last_codex_timestamp（时间戳或空）last_codex_message（汇总有效负载）codex_input_tokens（整数）codex_output_tokens（整数） codex_total_tokens（整数）last_reported_input_tokens（整数）last_reported_output_tokens（整数）last_reported_total_tokens（整数）turn_count（整数）当前工作生命周期内启动的编码代理轮数。
 
 
-🔤 Original: Autoresearch for SAT Solvers
+🔤 Original: A sufficiently detailed spec is code
 
-🔗 Read more: https://github.com/iliazintchenko/agent-sat</description>
-      <guid isPermaLink="true">https://github.com/iliazintchenko/agent-sat</guid>
-      <pubDate>Thu, 19 Mar 2026 00:40:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47433265</comments>
+🔗 Read more: https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</description>
+      <guid isPermaLink="true">https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</guid>
+      <pubDate>Thu, 19 Mar 2026 02:23:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434047</comments>
     </item>
     <item>
-      <title>Show HN：在24B LLM中复制3层，逻辑推导0.22→.76。无需培训</title>
-      <link>https://github.com/alainnothere/llm-circuit-finder</link>
-      <description>📝 llm-电路查找器 复制 3 层。不同的模型在不同的地方有不同的电路： Devstral-24B（40层）：12-14层的推理电路Qwen2。 5-32B python 层路径。
+      <title>我们什么也没学到</title>
+      <link>https://colossus.com/article/we-have-learned-nothing-startup-pundits/</link>
+      <description>📝 创业专家向我们推销了失败的创业科学。到 2012 年，布兰克表示，美国国家科学基金会将他的客户开发框架称为“创业的科学方法”，并声称“我们现在知道如何让初创企业更少失败。我们在小学时都知道科学方法就是科学。”
 
 
-🔤 Original: Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training
+🔤 Original: We Have Learned Nothing
 
-🔗 Read more: https://github.com/alainnothere/llm-circuit-finder</description>
-      <guid isPermaLink="true">https://github.com/alainnothere/llm-circuit-finder</guid>
-      <pubDate>Wed, 18 Mar 2026 21:31:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47431671</comments>
+🔗 Read more: https://colossus.com/article/we-have-learned-nothing-startup-pundits/</description>
+      <guid isPermaLink="true">https://colossus.com/article/we-have-learned-nothing-startup-pundits/</guid>
+      <pubDate>Thu, 19 Mar 2026 02:53:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434311</comments>
     </item>
     <item>
-      <title>问 HN：您如何与信任法学硕士的人打交道？</title>
-      <link>https://news.ycombinator.com/item?id=47433702</link>
-      <description>📝 他们有一个问题，通过搜索到一个有信誉的来源可以很好地回答，但他们却询问一些法学硕士聊天机器人，只是盲目地相信它所说的一切。你如何处理这个问题。当他们在与您的对话中这样做或遇到法学硕士被用作影响您的事物的来源时，您会怎么做？
+      <title>Mozilla 将在即将推出的 Firefox 149 中推出免费的内置 VPN</title>
+      <link>https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</link>
+      <description>📝 该功能被定位为“免费 VPN”服务的更安全替代品，而“免费 VPN”服务通常带有隐藏的权衡，Mozilla 强调其实施植根于定义 Firefox 的相同隐私原则。 Mozilla 此前曾表示，Firefox 的设计即使是公司本身也不应该知道用户访问了哪些网站或他们在那里做了什么。 Firefox 用户应该记住，这个新的 VPN 工具只会处理浏览器流量，而不提供完整的设备保护，因此不应假设激活它可以保护 Firefox 之外的所有互联网流量。
 
 
-🔤 Original: Ask HN: How do you deal with people who trust LLMs?
+🔤 Original: Mozilla to launch free built-in VPN in upcoming Firefox 149
 
-🔗 Read more: https://news.ycombinator.com/item?id=47433702</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47433702</guid>
-      <pubDate>Thu, 19 Mar 2026 01:37:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47433702</comments>
-    </item>
-    <item>
-      <title>HTTP 上有什么？</title>
-      <link>https://whatsonhttp.com/</link>
-      <guid isPermaLink="true">https://whatsonhttp.com/</guid>
-      <pubDate>Wed, 18 Mar 2026 21:57:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47431930</comments>
-    </item>
-    <item>
-      <title>RX – 一种新的随机访问 JSON 替代方案</title>
-      <link>https://github.com/creationix/rx</link>
-      <description>📝 解析）从“@creationix/rx”导入{解析}； const data = 解析（有效负载）为任意；数据。 users[0] //“爱丽丝”数据。路径//“/api/users”数据。
-
-
-🔤 Original: RX – a new random-access JSON alternative
-
-🔗 Read more: https://github.com/creationix/rx</description>
-      <guid isPermaLink="true">https://github.com/creationix/rx</guid>
-      <pubDate>Wed, 18 Mar 2026 23:58:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47432915</comments>
-    </item>
-    <item>
-      <title>OpenAI 有新的焦点（IPO）</title>
-      <link>https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/</link>
-      <description>📝 com/p/the-coming-spacex-scam 对于 OpenAI 来说是双倍的。这一切都有一个令人讨厌的转折，值得更多关注。不同之处在于 OpenAI 需要来自某处的真实现金才能维持运营。
-
-
-🔤 Original: OpenAI Has New Focus (on the IPO)
-
-🔗 Read more: https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/</description>
-      <guid isPermaLink="true">https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/</guid>
-      <pubDate>Wed, 18 Mar 2026 10:49:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47423976</comments>
+🔗 Read more: https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</description>
+      <guid isPermaLink="true">https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/</guid>
+      <pubDate>Thu, 19 Mar 2026 03:31:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47434567</comments>
     </item>
   </channel>
 </rss>
