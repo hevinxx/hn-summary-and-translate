@@ -6,85 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Mar 2026 21:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 01:59:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Our commitment to Windows quality</title>
-      <link>https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</link>
-      <description>📝 Windows touches more people’s lives than almost any technology on Earth. Every day, we hear from the community about how you experience Windows. Reducing disruption from Windows Updates: Receiving updates should be predictable and easy to plan around, so we’re giving you more control.
+      <title>We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster</title>
+      <link>https://www.openui.com/blog/rust-wasm-parser</link>
+      <description>📝 We built the openui-lang parser in Rust and compiled it to WASM. The overhead was entirely in the boundary: copy string in, serialize result to JSON string, copy JSON string out, then V8 deserializes it back into a JS object. This isolates per-call parser cost.
 
-🔗 Read more: https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</description>
-      <guid isPermaLink="true">https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</guid>
-      <pubDate>Fri, 20 Mar 2026 19:16:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47459296</comments>
+🔗 Read more: https://www.openui.com/blog/rust-wasm-parser</description>
+      <guid isPermaLink="true">https://www.openui.com/blog/rust-wasm-parser</guid>
+      <pubDate>Fri, 20 Mar 2026 21:48:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461094</comments>
     </item>
     <item>
-      <title>Attention Residuals</title>
-      <link>https://github.com/MoonshotAI/Attention-Residuals</link>
-      <description>📝 Block AttnRes Full AttnRes is straightforward but requires O(Ld) memory at scale. Block AttnRes partitions layers into N blocks, accumulates within each block via standard residuals, and applies attention only over block-level representations. Block AttnRes matches the loss of a baseline trained with 1.
+      <title>Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)</title>
+      <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
+      <description>📝 This repository holds the code from Linux Application Development By Example - The Fundamental APIs by Arnold Robbins. ISBN-13: 978-0-13-532552-0 ISBN-10: 0-13-532552-8 The Documents directory holds documents of interest, including the license for code written by the author. The other directories hold the example programs from the respective chapters in the book.
 
-🔗 Read more: https://github.com/MoonshotAI/Attention-Residuals</description>
-      <guid isPermaLink="true">https://github.com/MoonshotAI/Attention-Residuals</guid>
-      <pubDate>Fri, 20 Mar 2026 18:23:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47458595</comments>
+🔗 Read more: https://github.com/arnoldrobbins/LinuxByExample-2e</description>
+      <guid isPermaLink="true">https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
+      <pubDate>Fri, 20 Mar 2026 23:57:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47462483</comments>
     </item>
     <item>
-      <title>Show HN: I made an email app inspired by Arc browser</title>
-      <link>https://demo.define.app</link>
-      <guid isPermaLink="true">https://demo.define.app</guid>
-      <pubDate>Fri, 20 Mar 2026 18:06:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47458348</comments>
+      <title>Ghostling</title>
+      <link>https://github.com/ghostty-org/ghostling</link>
+      <description>📝 Effectively all the terminal emulation features supported by Ghostty. cmake -B build -G Ninja cmake --build build. Does libghostty require Raylib.
+
+🔗 Read more: https://github.com/ghostty-org/ghostling</description>
+      <guid isPermaLink="true">https://github.com/ghostty-org/ghostling</guid>
+      <pubDate>Fri, 20 Mar 2026 22:11:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461378</comments>
     </item>
     <item>
-      <title>A Japanese Glossary of Chopsticks Faux Pas</title>
-      <link>https://www.nippon.com/en/japan-data/h01362/</link>
-      <description>📝 (Serious) To pass food from one pair of chopsticks to another. 🥢 かみ箸 Kamibashi To bite the chopsticks. 🥢 じか箸 Jikabashi To use one’s own chopsticks instead of serving chopsticks to take food from a large serving dish.
+      <title>Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran</title>
+      <link>https://github.com/FormerLab/fortransky</link>
+      <description>📝 1 — Native Rust firehose decoder integrated. Saved session support. Stream mode toggle (jetstream / relay-raw).
 
-🔗 Read more: https://www.nippon.com/en/japan-data/h01362/</description>
-      <guid isPermaLink="true">https://www.nippon.com/en/japan-data/h01362/</guid>
-      <pubDate>Fri, 20 Mar 2026 20:54:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460452</comments>
+🔗 Read more: https://github.com/FormerLab/fortransky</description>
+      <guid isPermaLink="true">https://github.com/FormerLab/fortransky</guid>
+      <pubDate>Fri, 20 Mar 2026 22:06:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461321</comments>
     </item>
     <item>
-      <title>NumKong: 2'000 Mixed Precision Kernels for All</title>
-      <link>https://ashvardanian.com/posts/numkong/</link>
-      <description>📝 6 gso/s, 1e-16 errFloat32140 gso/s, 9e-7 err145 gso/s, 1e-6 err37. 7 gso/s, 4e-7 errBFloat16—851 gso/s, 1. 6% err398 gso/s, 0% errInt80.
+      <title>Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers</title>
+      <link>https://github.com/RedGridTactical/RedGridLink</link>
+      <description>📝 Red Grid Link Offline MGRS navigation and proximity team coordination for small teams (2-8 people). Built on the MGRS engine from Red Grid MGRS. Screenshots Map &amp; Team Grid View Field Link Ghost Markers AAR Export Tactical Themes Tools Onboarding Features MGRS-Native Navigation Live Military Grid Reference System coordinates with 1-meter precision.
 
-🔗 Read more: https://ashvardanian.com/posts/numkong/</description>
-      <guid isPermaLink="true">https://ashvardanian.com/posts/numkong/</guid>
-      <pubDate>Fri, 20 Mar 2026 19:29:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47459447</comments>
+🔗 Read more: https://github.com/RedGridTactical/RedGridLink</description>
+      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
+      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461529</comments>
     </item>
     <item>
-      <title>OpenCode – The open source AI coding agent</title>
-      <link>https://opencode.ai/</link>
-      <description>📝 Learn more about privacy. How much does OpenCode cost. Is OpenCode open source.
+      <title>Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts</title>
+      <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
+      <description>📝 Windows users can use start. Known vessel names from Vessels1. bat Launcher for Windows (Command Prompt) start.
 
-🔗 Read more: https://opencode.ai/</description>
-      <guid isPermaLink="true">https://opencode.ai/</guid>
-      <pubDate>Fri, 20 Mar 2026 21:03:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460525</comments>
+🔗 Read more: https://github.com/FormerLab/shadow-fleet-tracker-light</description>
+      <guid isPermaLink="true">https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
+      <pubDate>Fri, 20 Mar 2026 21:04:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47460528</comments>
     </item>
     <item>
-      <title>The bespoke software revolution? I'm not buying it</title>
-      <link>https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</link>
-      <description>📝 A bespoke software revolution. Who’s excited about bespoke software. They don’t hate technology.
+      <title>Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists</title>
+      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
+      <description>📝 Featured VideoWhat happens when you stop taking them, though. ”What about those who restarted a GLP-1 regimen after taking a break. Research shows that around half of people who start GLP-1s quit taking the medication after only a short period.
 
-🔗 Read more: https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</description>
-      <guid isPermaLink="true">https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</guid>
-      <pubDate>Fri, 20 Mar 2026 20:25:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460154</comments>
-    </item>
-    <item>
-      <title>Meme Buildings</title>
-      <link>https://misfitsarchitecture.com/2026/03/15/meme-buildings/</link>
-      <description>📝 Nevertheless, I’ll call them meme buildings because it best describes the ripples these buildings cause. They’re not well-known buildings or those buildings some people like to call iconic, and they’re definitely not must-see buildings for the architectural tourist. Meme buildings are spared this fate because they’re just known for what they are.
-
-🔗 Read more: https://misfitsarchitecture.com/2026/03/15/meme-buildings/</description>
-      <guid isPermaLink="true">https://misfitsarchitecture.com/2026/03/15/meme-buildings/</guid>
-      <pubDate>Fri, 20 Mar 2026 15:55:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47456421</comments>
+🔗 Read more: https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</description>
+      <guid isPermaLink="true">https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
+      <pubDate>Fri, 20 Mar 2026 21:42:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461018</comments>
     </item>
   </channel>
 </rss>

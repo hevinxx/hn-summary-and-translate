@@ -6,106 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Mar 2026 21:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 01:59:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Windows の品質に対する当社の取り組み</title>
-      <link>https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</link>
-      <description>📝 Windows は、地球上のほとんどのテクノロジーよりも多くの人々の生活に影響を与えています。私たちは毎日、Windows のエクスペリエンスについてコミュニティから聞いています。 Windows Update による中断の軽減: 更新プログラムの受信は予測可能であり、計画も容易である必要があるため、より詳細な制御を提供します。
+      <title>Rust WASM パーサーを TypeScript で書き直したところ、3 倍高速になりました</title>
+      <link>https://www.openui.com/blog/rust-wasm-parser</link>
+      <description>📝 私たちは、Rust で openui-lang パーサーを構築し、それを WASM にコンパイルしました。オーバーヘッドは完全に境界内にありました。文字列をコピーし、結果を JSON 文字列にシリアル化し、JSON 文字列をコピーして、V8 が逆シリアル化して JS オブジェクトに戻しました。これにより、呼び出しごとのパーサーのコストが分離されます。
 
 
-🔤 Original: Our commitment to Windows quality
+🔤 Original: We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster
 
-🔗 Read more: https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</description>
-      <guid isPermaLink="true">https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</guid>
-      <pubDate>Fri, 20 Mar 2026 19:16:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47459296</comments>
+🔗 Read more: https://www.openui.com/blog/rust-wasm-parser</description>
+      <guid isPermaLink="true">https://www.openui.com/blog/rust-wasm-parser</guid>
+      <pubDate>Fri, 20 Mar 2026 21:48:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461094</comments>
     </item>
     <item>
-      <title>注意残留物</title>
-      <link>https://github.com/MoonshotAI/Attention-Residuals</link>
-      <description>📝 Block AttnRes Full AttnRes は簡単ですが、大規模な場合は O(Ld) メモリが必要です。 Block AttnRes partitions layers into N blocks, accumulates within each block via standard residuals, and applies attention only over block-level representations. Block AttnRes は、1 でトレーニングされたベースラインの損失と一致します。
+      <title>例による Linux アプリケーション プログラミング: 基本 API (第 2 版)</title>
+      <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
+      <description>📝 このリポジトリには、Arnold Robbins による Linux Application Development By Example - The Fundamental APIs のコードが保存されています。 ISBN-13: 978-0-13-532552-0 ISBN-10: 0-13-532552-8 ドキュメント ディレクトリには、著者が作成したコードのライセンスなど、興味深いドキュメントが保管されています。他のディレクトリには、この本の各章のサンプル プログラムが保存されています。
 
 
-🔤 Original: Attention Residuals
+🔤 Original: Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)
 
-🔗 Read more: https://github.com/MoonshotAI/Attention-Residuals</description>
-      <guid isPermaLink="true">https://github.com/MoonshotAI/Attention-Residuals</guid>
-      <pubDate>Fri, 20 Mar 2026 18:23:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47458595</comments>
+🔗 Read more: https://github.com/arnoldrobbins/LinuxByExample-2e</description>
+      <guid isPermaLink="true">https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
+      <pubDate>Fri, 20 Mar 2026 23:57:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47462483</comments>
     </item>
     <item>
-      <title>Show HN: Arc ブラウザからインスピレーションを受けてメール アプリを作りました</title>
-      <link>https://demo.define.app</link>
-      <guid isPermaLink="true">https://demo.define.app</guid>
-      <pubDate>Fri, 20 Mar 2026 18:06:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47458348</comments>
+      <title>ゴーストリング</title>
+      <link>https://github.com/ghostty-org/ghostling</link>
+      <description>📝 事実上、Ghostty によってサポートされるすべての端末エミュレーション機能。 cmake -B build -G Ninja cmake --build ビルド。 libghostty には Raylib が必要ですか。
+
+
+🔤 Original: Ghostling
+
+🔗 Read more: https://github.com/ghostty-org/ghostling</description>
+      <guid isPermaLink="true">https://github.com/ghostty-org/ghostling</guid>
+      <pubDate>Fri, 20 Mar 2026 22:11:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461378</comments>
     </item>
     <item>
-      <title>箸の日本語用語集 フォーパ</title>
-      <link>https://www.nippon.com/en/japan-data/h01362/</link>
-      <description>📝 (真剣に) 食べ物を箸から箸に移すこと。 🥢かみ箸 かみばし お箸をかむこと。 🥢 じか箸 じかばし 大皿から食べ物を取るときに、取り箸の代わりに自分の箸を使うこと。
+      <title>Show HN: Fortran で書かれたターミナル専用の Bluesky / AT Proto クライアントを構築しました</title>
+      <link>https://github.com/FormerLab/fortransky</link>
+      <description>📝 1 — ネイティブ Rust ファイアホース デコーダーが統合されました。保存されたセッションのサポート。ストリーム モードの切り替え (ジェットストリーム / リレー - RAW)。
 
 
-🔤 Original: A Japanese Glossary of Chopsticks Faux Pas
+🔤 Original: Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran
 
-🔗 Read more: https://www.nippon.com/en/japan-data/h01362/</description>
-      <guid isPermaLink="true">https://www.nippon.com/en/japan-data/h01362/</guid>
-      <pubDate>Fri, 20 Mar 2026 20:54:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460452</comments>
+🔗 Read more: https://github.com/FormerLab/fortransky</description>
+      <guid isPermaLink="true">https://github.com/FormerLab/fortransky</guid>
+      <pubDate>Fri, 20 Mar 2026 22:06:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461321</comments>
     </item>
     <item>
-      <title>NumKong: すべてに 2,000 個の混合高精度カーネル</title>
-      <link>https://ashvardanian.com/posts/numkong/</link>
-      <description>📝 6 gso/秒、1e-16 errFloat32140 gso/秒、9e-7 err145 gso/秒、1e-6 err37。 7 gso/s、4e-7 errBFloat16—851 gso/s、1. 6% err398 gso/s、0% errInt80。
+      <title>Show HN: Red Grid Link – Bluetooth 経由のピアツーピア チーム追跡、サーバーなし</title>
+      <link>https://github.com/RedGridTactical/RedGridLink</link>
+      <description>📝 Red Grid Link オフライン MGRS ナビゲーションと小規模チーム (2 ～ 8 人) 向けの近接チーム調整。 Red Grid MGRS の MGRS エンジンをベースに構築されています。スクリーンショット マップとチーム グリッド ビュー フィールド リンク ゴースト マーカー AAR エクスポート 戦術テーマ ツール オンボーディング機能 MGRS ネイティブ ナビゲーション ライブ ミリタリー グリッド リファレンス システムは 1 メートルの精度で座標を調整します。
 
 
-🔤 Original: NumKong: 2'000 Mixed Precision Kernels for All
+🔤 Original: Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers
 
-🔗 Read more: https://ashvardanian.com/posts/numkong/</description>
-      <guid isPermaLink="true">https://ashvardanian.com/posts/numkong/</guid>
-      <pubDate>Fri, 20 Mar 2026 19:29:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47459447</comments>
+🔗 Read more: https://github.com/RedGridTactical/RedGridLink</description>
+      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
+      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461529</comments>
     </item>
     <item>
-      <title>OpenCode – オープンソースの AI コーディング エージェント</title>
-      <link>https://opencode.ai/</link>
-      <description>📝 プライバシーについて詳しくはこちらをご覧ください。 OpenCode の費用はいくらですか。 OpenCodeはオープンソースです。
+      <title>HN を表示: バルチック シャドウ フリート トラッカー – ライブ AIS、ケーブル近接アラート</title>
+      <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
+      <description>📝 Windows ユーザーはスタートを使用できます。 Vessels1 からの既知の船舶名。 Windows用batランチャー（コマンドプロンプト）が起動します。
 
 
-🔤 Original: OpenCode – The open source AI coding agent
+🔤 Original: Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts
 
-🔗 Read more: https://opencode.ai/</description>
-      <guid isPermaLink="true">https://opencode.ai/</guid>
-      <pubDate>Fri, 20 Mar 2026 21:03:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460525</comments>
+🔗 Read more: https://github.com/FormerLab/shadow-fleet-tracker-light</description>
+      <guid isPermaLink="true">https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
+      <pubDate>Fri, 20 Mar 2026 21:04:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47460528</comments>
     </item>
     <item>
-      <title>オーダーメイドのソフトウェア革命?買わないよ</title>
-      <link>https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</link>
-      <description>📝 オーダーメイドのソフトウェア革命。オーダーメイドのソフトウェアに興奮している人はいないでしょう。彼らはテクノロジーを嫌っているわけではありません。
+      <title>二重標識GLP-1受容体作動薬の中止と再開</title>
+      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
+      <description>📝 注目のビデオしかし、摂取をやめるとどうなるか。 「休憩後にGLP-1療法を再開した人はどうなるでしょうか。研究によると、GLP-1を開始した人の約半数は、わずか短期間で薬の服用をやめています。」
 
 
-🔤 Original: The bespoke software revolution? I'm not buying it
+🔤 Original: Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists
 
-🔗 Read more: https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</description>
-      <guid isPermaLink="true">https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</guid>
-      <pubDate>Fri, 20 Mar 2026 20:25:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460154</comments>
-    </item>
-    <item>
-      <title>ミームの建物</title>
-      <link>https://misfitsarchitecture.com/2026/03/15/meme-buildings/</link>
-      <description>📝 それでも、私はこれらの建物をミーム建物と呼ぶことにします。なぜなら、これらの建物が引き起こす波紋を最もよく表しているからです。これらは有名な建物でも、人々が象徴的と呼びたがる建物でもありませんし、建築観光客にとって絶対に必見の建物でもありません。ミームの建物は、その建物が何であるかだけで知られているため、この運命を免れています。
-
-
-🔤 Original: Meme Buildings
-
-🔗 Read more: https://misfitsarchitecture.com/2026/03/15/meme-buildings/</description>
-      <guid isPermaLink="true">https://misfitsarchitecture.com/2026/03/15/meme-buildings/</guid>
-      <pubDate>Fri, 20 Mar 2026 15:55:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47456421</comments>
+🔗 Read more: https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</description>
+      <guid isPermaLink="true">https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
+      <pubDate>Fri, 20 Mar 2026 21:42:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461018</comments>
     </item>
   </channel>
 </rss>

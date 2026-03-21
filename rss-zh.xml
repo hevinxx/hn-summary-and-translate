@@ -6,106 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Mar 2026 21:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 01:59:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我们对 Windows 质量的承诺</title>
-      <link>https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</link>
-      <description>📝 Windows 比地球上几乎任何技术都更广泛地影响着人们的生活。我们每天都会从社区中听到有关您如何体验 Windows 的信息。减少 Windows 更新造成的干扰：接收更新应该是可预测的且易于计划，因此我们为您提供更多控制权。
+      <title>我们用 TypeScript 重写了 Rust WASM 解析器 – 速度提高了 3 倍</title>
+      <link>https://www.openui.com/blog/rust-wasm-parser</link>
+      <description>📝 我们用 Rust 构建了 openui-lang 解析器并将其编译为 WASM。开销完全在边界内：复制字符串，将结果序列化为 JSON 字符串，复制 JSON 字符串，然后 V8 将其反序列化回 JS 对象。这隔离了每次调用解析器的成本。
 
 
-🔤 Original: Our commitment to Windows quality
+🔤 Original: We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster
 
-🔗 Read more: https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</description>
-      <guid isPermaLink="true">https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/</guid>
-      <pubDate>Fri, 20 Mar 2026 19:16:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47459296</comments>
+🔗 Read more: https://www.openui.com/blog/rust-wasm-parser</description>
+      <guid isPermaLink="true">https://www.openui.com/blog/rust-wasm-parser</guid>
+      <pubDate>Fri, 20 Mar 2026 21:48:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461094</comments>
     </item>
     <item>
-      <title>注意力残差</title>
-      <link>https://github.com/MoonshotAI/Attention-Residuals</link>
-      <description>📝 块 AttnRes 完整 AttnRes 很简单，但需要 O(Ld) 规模的内存。 Block AttnRes 将层划分为 N 个块，通过标准残差在每个块内累积，并且仅对块级表示应用注意力。 Block AttnRes 与用 1 训练的基线的损失相匹配。
+      <title>Linux 应用程序编程示例：基础 API（第二版）</title>
+      <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
+      <description>📝 该存储库包含 Arnold Robbins 的《Linux 应用程序开发示例 - 基本 API》中的代码。 ISBN-13: 978-0-13-532552-0 ISBN-10: 0-13-532552-8 Documents 目录包含感兴趣的文档，包括作者编写的代码的许可证。其他目录包含书中各个章节的示例程序。
 
 
-🔤 Original: Attention Residuals
+🔤 Original: Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)
 
-🔗 Read more: https://github.com/MoonshotAI/Attention-Residuals</description>
-      <guid isPermaLink="true">https://github.com/MoonshotAI/Attention-Residuals</guid>
-      <pubDate>Fri, 20 Mar 2026 18:23:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47458595</comments>
+🔗 Read more: https://github.com/arnoldrobbins/LinuxByExample-2e</description>
+      <guid isPermaLink="true">https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
+      <pubDate>Fri, 20 Mar 2026 23:57:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47462483</comments>
     </item>
     <item>
-      <title>Show HN：我制作了一个受 Arc 浏览器启发的电子邮件应用程序</title>
-      <link>https://demo.define.app</link>
-      <guid isPermaLink="true">https://demo.define.app</guid>
-      <pubDate>Fri, 20 Mar 2026 18:06:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47458348</comments>
+      <title>鬼灵</title>
+      <link>https://github.com/ghostty-org/ghostling</link>
+      <description>📝 有效地支持 Ghostty 的所有终端仿真功能。 cmake -B 构建 -G 忍者 cmake --build 构建。 libghostty 是否需要 Raylib.
+
+
+🔤 Original: Ghostling
+
+🔗 Read more: https://github.com/ghostty-org/ghostling</description>
+      <guid isPermaLink="true">https://github.com/ghostty-org/ghostling</guid>
+      <pubDate>Fri, 20 Mar 2026 22:11:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461378</comments>
     </item>
     <item>
-      <title>日语关于筷子失礼的词汇表</title>
-      <link>https://www.nippon.com/en/japan-data/h01362/</link>
-      <description>📝 （严肃）把食物从一根筷子传到另一根筷子。 🥢 かみ箸 上桥 咬筷子。 🥢 じか箸 Jikabashi 用自己的筷子代替公筷从大盘子里夹菜。
+      <title>Show HN：我们构建了一个用 Fortran 编写的仅限终端的 Bluesky / AT Proto 客户端</title>
+      <link>https://github.com/FormerLab/fortransky</link>
+      <description>📝 1 — 集成原生 Rust firehose 解码器。保存的会话支持。流模式切换（jetstream/relay-raw）。
 
 
-🔤 Original: A Japanese Glossary of Chopsticks Faux Pas
+🔤 Original: Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran
 
-🔗 Read more: https://www.nippon.com/en/japan-data/h01362/</description>
-      <guid isPermaLink="true">https://www.nippon.com/en/japan-data/h01362/</guid>
-      <pubDate>Fri, 20 Mar 2026 20:54:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460452</comments>
+🔗 Read more: https://github.com/FormerLab/fortransky</description>
+      <guid isPermaLink="true">https://github.com/FormerLab/fortransky</guid>
+      <pubDate>Fri, 20 Mar 2026 22:06:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461321</comments>
     </item>
     <item>
-      <title>NumKong：2'000 个适合所有人的混合精度内核</title>
-      <link>https://ashvardanian.com/posts/numkong/</link>
-      <description>📝 6 gso/s、1e-16 errFloat32140 gso/s、9e-7 err145 gso/s、1e-6 err37。 7 gso/s，4e-7 errBFloat16—851 gso/s，1. 6% err398 gso/s，0% errInt80。
+      <title>Show HN：Red Grid Link – 通过蓝牙进行点对点团队跟踪，无需服务器</title>
+      <link>https://github.com/RedGridTactical/RedGridLink</link>
+      <description>📝 Red Grid Link 离线 MGRS 导航和小型团队（2-8 人）的近距离团队协调。基于 Red Grid MGRS 的 MGRS 引擎构建。屏幕截图 地图和团队网格视图 现场链接 幽灵标记 AAR 导出战术主题 工具 入门功能 MGRS 本地导航 实时军事网格参考系统坐标，精度为 1 米。
 
 
-🔤 Original: NumKong: 2'000 Mixed Precision Kernels for All
+🔤 Original: Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers
 
-🔗 Read more: https://ashvardanian.com/posts/numkong/</description>
-      <guid isPermaLink="true">https://ashvardanian.com/posts/numkong/</guid>
-      <pubDate>Fri, 20 Mar 2026 19:29:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47459447</comments>
+🔗 Read more: https://github.com/RedGridTactical/RedGridLink</description>
+      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
+      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461529</comments>
     </item>
     <item>
-      <title>OpenCode – 开源人工智能编码代理</title>
-      <link>https://opencode.ai/</link>
-      <description>📝 了解有关隐私的更多信息。 OpenCode 需要多少钱。 OpenCode 是开源的。
+      <title>Show HN：波罗的海影子舰队跟踪器 – 实时 AIS、电缆接近警报</title>
+      <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
+      <description>📝 Windows 用户可以使用启动。 Vessels1 中的已知船只名称。 bat Launcher for Windows（命令提示符）启动。
 
 
-🔤 Original: OpenCode – The open source AI coding agent
+🔤 Original: Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts
 
-🔗 Read more: https://opencode.ai/</description>
-      <guid isPermaLink="true">https://opencode.ai/</guid>
-      <pubDate>Fri, 20 Mar 2026 21:03:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460525</comments>
+🔗 Read more: https://github.com/FormerLab/shadow-fleet-tracker-light</description>
+      <guid isPermaLink="true">https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
+      <pubDate>Fri, 20 Mar 2026 21:04:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47460528</comments>
     </item>
     <item>
-      <title>定制软件革命？我不买</title>
-      <link>https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</link>
-      <description>📝 定制软件革命。谁对定制软件感到兴奋。他们并不讨厌科技。
+      <title>双标记 GLP-1 受体激动剂的停用和重新开始</title>
+      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
+      <description>📝 特色视频 但是，当您停止服用它们时会发生什么。 “那些在休息后重新开始 GLP-1 治疗方案的人呢？研究表明，大约一半开始 GLP-1 治疗的人在短时间内就停止服药。
 
 
-🔤 Original: The bespoke software revolution? I'm not buying it
+🔤 Original: Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists
 
-🔗 Read more: https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</description>
-      <guid isPermaLink="true">https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec</guid>
-      <pubDate>Fri, 20 Mar 2026 20:25:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460154</comments>
-    </item>
-    <item>
-      <title>模因建筑</title>
-      <link>https://misfitsarchitecture.com/2026/03/15/meme-buildings/</link>
-      <description>📝 尽管如此，我还是将它们称为模因建筑，因为它最能描述这些建筑引起的涟漪。它们不是著名的建筑，也不是一些人喜欢称之为标志性的建筑，也绝对不是建筑游客必看的建筑。模因建筑幸免于难，因为它们只是因其本身而闻名。
-
-
-🔤 Original: Meme Buildings
-
-🔗 Read more: https://misfitsarchitecture.com/2026/03/15/meme-buildings/</description>
-      <guid isPermaLink="true">https://misfitsarchitecture.com/2026/03/15/meme-buildings/</guid>
-      <pubDate>Fri, 20 Mar 2026 15:55:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47456421</comments>
+🔗 Read more: https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</description>
+      <guid isPermaLink="true">https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
+      <pubDate>Fri, 20 Mar 2026 21:42:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47461018</comments>
     </item>
   </channel>
 </rss>
