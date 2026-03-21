@@ -6,99 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Mar 2026 01:59:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 04:28:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Rust WASM パーサーを TypeScript で書き直したところ、3 倍高速になりました</title>
-      <link>https://www.openui.com/blog/rust-wasm-parser</link>
-      <description>📝 私たちは、Rust で openui-lang パーサーを構築し、それを WASM にコンパイルしました。オーバーヘッドは完全に境界内にありました。文字列をコピーし、結果を JSON 文字列にシリアル化し、JSON 文字列をコピーして、V8 が逆シリアル化して JS オブジェクトに戻しました。これにより、呼び出しごとのパーサーのコストが分離されます。
+      <title>モリー・ガード</title>
+      <link>https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</link>
+      <description>📝 2026年2月20日金曜日 モリー・ガード マルシン・ウィチャリーの「Unsung」より：。あなたは、これまでに見た空戦映画の中でモリー ガードに見覚えがあるかもしれません:そして、民間のハードウェアにも、モリー ガードの痕跡がどこにでも存在します:凹んだボタンから、キーの周りのプラスチックの隆起、SIM カードの取り出し穴のようなものに至るまで:もちろん、モリー ガードはソフトウェアでも発生します:最も安いものから「そうですか。新しい投稿 古い投稿 ホーム 購読: コメントを投稿 (Atom)
 
 
-🔤 Original: We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster
+🔤 Original: Molly Guard
 
-🔗 Read more: https://www.openui.com/blog/rust-wasm-parser</description>
-      <guid isPermaLink="true">https://www.openui.com/blog/rust-wasm-parser</guid>
-      <pubDate>Fri, 20 Mar 2026 21:48:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461094</comments>
+🔗 Read more: https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</description>
+      <guid isPermaLink="true">https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</guid>
+      <pubDate>Fri, 20 Mar 2026 14:33:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47455138</comments>
     </item>
     <item>
-      <title>例による Linux アプリケーション プログラミング: 基本 API (第 2 版)</title>
-      <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
-      <description>📝 このリポジトリには、Arnold Robbins による Linux Application Development By Example - The Fundamental APIs のコードが保存されています。 ISBN-13: 978-0-13-532552-0 ISBN-10: 0-13-532552-8 ドキュメント ディレクトリには、著者が作成したコードのライセンスなど、興味深いドキュメントが保管されています。他のディレクトリには、この本の各章のサンプル プログラムが保存されています。
+      <title>purl: 支払いを必要とする HTTP リクエストを作成するための、curl 風の CLI</title>
+      <link>https://www.purl.dev/</link>
+      <description>📝 Payments + Curl = Purl Install# Homebrew$ brew install Stripe/purl/purl# またはシェル スクリプト経由 $curl -fsSl https://www.し | bashUsage# ウォレットをセットアップします$ Purl Wallet add # 無料のエンドポイントをテストします$ Purl https://www. 01 USDC)$ url https://www.
 
 
-🔤 Original: Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)
+🔤 Original: purl: a curl-esque CLI for making HTTP requests that require payment
 
-🔗 Read more: https://github.com/arnoldrobbins/LinuxByExample-2e</description>
-      <guid isPermaLink="true">https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
-      <pubDate>Fri, 20 Mar 2026 23:57:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47462483</comments>
-    </item>
-    <item>
-      <title>ゴーストリング</title>
-      <link>https://github.com/ghostty-org/ghostling</link>
-      <description>📝 事実上、Ghostty によってサポートされるすべての端末エミュレーション機能。 cmake -B build -G Ninja cmake --build ビルド。 libghostty には Raylib が必要ですか。
-
-
-🔤 Original: Ghostling
-
-🔗 Read more: https://github.com/ghostty-org/ghostling</description>
-      <guid isPermaLink="true">https://github.com/ghostty-org/ghostling</guid>
-      <pubDate>Fri, 20 Mar 2026 22:11:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461378</comments>
-    </item>
-    <item>
-      <title>Show HN: Fortran で書かれたターミナル専用の Bluesky / AT Proto クライアントを構築しました</title>
-      <link>https://github.com/FormerLab/fortransky</link>
-      <description>📝 1 — ネイティブ Rust ファイアホース デコーダーが統合されました。保存されたセッションのサポート。ストリーム モードの切り替え (ジェットストリーム / リレー - RAW)。
-
-
-🔤 Original: Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran
-
-🔗 Read more: https://github.com/FormerLab/fortransky</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/fortransky</guid>
-      <pubDate>Fri, 20 Mar 2026 22:06:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461321</comments>
-    </item>
-    <item>
-      <title>Show HN: Red Grid Link – Bluetooth 経由のピアツーピア チーム追跡、サーバーなし</title>
-      <link>https://github.com/RedGridTactical/RedGridLink</link>
-      <description>📝 Red Grid Link オフライン MGRS ナビゲーションと小規模チーム (2 ～ 8 人) 向けの近接チーム調整。 Red Grid MGRS の MGRS エンジンをベースに構築されています。スクリーンショット マップとチーム グリッド ビュー フィールド リンク ゴースト マーカー AAR エクスポート 戦術テーマ ツール オンボーディング機能 MGRS ネイティブ ナビゲーション ライブ ミリタリー グリッド リファレンス システムは 1 メートルの精度で座標を調整します。
-
-
-🔤 Original: Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers
-
-🔗 Read more: https://github.com/RedGridTactical/RedGridLink</description>
-      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
-      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461529</comments>
-    </item>
-    <item>
-      <title>HN を表示: バルチック シャドウ フリート トラッカー – ライブ AIS、ケーブル近接アラート</title>
-      <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
-      <description>📝 Windows ユーザーはスタートを使用できます。 Vessels1 からの既知の船舶名。 Windows用batランチャー（コマンドプロンプト）が起動します。
-
-
-🔤 Original: Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts
-
-🔗 Read more: https://github.com/FormerLab/shadow-fleet-tracker-light</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
-      <pubDate>Fri, 20 Mar 2026 21:04:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460528</comments>
-    </item>
-    <item>
-      <title>二重標識GLP-1受容体作動薬の中止と再開</title>
-      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
-      <description>📝 注目のビデオしかし、摂取をやめるとどうなるか。 「休憩後にGLP-1療法を再開した人はどうなるでしょうか。研究によると、GLP-1を開始した人の約半数は、わずか短期間で薬の服用をやめています。」
-
-
-🔤 Original: Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists
-
-🔗 Read more: https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</description>
-      <guid isPermaLink="true">https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
-      <pubDate>Fri, 20 Mar 2026 21:42:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461018</comments>
+🔗 Read more: https://www.purl.dev/</description>
+      <guid isPermaLink="true">https://www.purl.dev/</guid>
+      <pubDate>Sat, 21 Mar 2026 02:09:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47463354</comments>
     </item>
   </channel>
 </rss>

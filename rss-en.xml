@@ -6,78 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Mar 2026 01:59:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 04:28:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster</title>
-      <link>https://www.openui.com/blog/rust-wasm-parser</link>
-      <description>📝 We built the openui-lang parser in Rust and compiled it to WASM. The overhead was entirely in the boundary: copy string in, serialize result to JSON string, copy JSON string out, then V8 deserializes it back into a JS object. This isolates per-call parser cost.
+      <title>Molly Guard</title>
+      <link>https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</link>
+      <description>📝 Friday, February 20, 2026 Molly Guard From Marcin Wichary's Unsung:. You might recognize molly guards from any aerial combat movie you ever watched:And some vestigial forms of molly guards exist everywhere in civilian hardware, too: from recessed buttons, through plastic ridges around keys, to something like a SIM card ejection hole:Of course, molly guards happen in software, too: from the cheapest "are you sure. Newer Post Older Post Home Subscribe to: Post Comments (Atom).
 
-🔗 Read more: https://www.openui.com/blog/rust-wasm-parser</description>
-      <guid isPermaLink="true">https://www.openui.com/blog/rust-wasm-parser</guid>
-      <pubDate>Fri, 20 Mar 2026 21:48:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461094</comments>
+🔗 Read more: https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</description>
+      <guid isPermaLink="true">https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</guid>
+      <pubDate>Fri, 20 Mar 2026 14:33:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47455138</comments>
     </item>
     <item>
-      <title>Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)</title>
-      <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
-      <description>📝 This repository holds the code from Linux Application Development By Example - The Fundamental APIs by Arnold Robbins. ISBN-13: 978-0-13-532552-0 ISBN-10: 0-13-532552-8 The Documents directory holds documents of interest, including the license for code written by the author. The other directories hold the example programs from the respective chapters in the book.
+      <title>purl: a curl-esque CLI for making HTTP requests that require payment</title>
+      <link>https://www.purl.dev/</link>
+      <description>📝 payments + curl = purl Install# Homebrew$ brew install stripe/purl/purl# or via shell script$ curl -fsSl https://www. sh | bashUsage# Setup your wallet$ purl wallet add # Test a free endpoint$ purl https://www. 01 USDC)$ purl https://www.
 
-🔗 Read more: https://github.com/arnoldrobbins/LinuxByExample-2e</description>
-      <guid isPermaLink="true">https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
-      <pubDate>Fri, 20 Mar 2026 23:57:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47462483</comments>
-    </item>
-    <item>
-      <title>Ghostling</title>
-      <link>https://github.com/ghostty-org/ghostling</link>
-      <description>📝 Effectively all the terminal emulation features supported by Ghostty. cmake -B build -G Ninja cmake --build build. Does libghostty require Raylib.
-
-🔗 Read more: https://github.com/ghostty-org/ghostling</description>
-      <guid isPermaLink="true">https://github.com/ghostty-org/ghostling</guid>
-      <pubDate>Fri, 20 Mar 2026 22:11:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461378</comments>
-    </item>
-    <item>
-      <title>Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran</title>
-      <link>https://github.com/FormerLab/fortransky</link>
-      <description>📝 1 — Native Rust firehose decoder integrated. Saved session support. Stream mode toggle (jetstream / relay-raw).
-
-🔗 Read more: https://github.com/FormerLab/fortransky</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/fortransky</guid>
-      <pubDate>Fri, 20 Mar 2026 22:06:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461321</comments>
-    </item>
-    <item>
-      <title>Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers</title>
-      <link>https://github.com/RedGridTactical/RedGridLink</link>
-      <description>📝 Red Grid Link Offline MGRS navigation and proximity team coordination for small teams (2-8 people). Built on the MGRS engine from Red Grid MGRS. Screenshots Map &amp; Team Grid View Field Link Ghost Markers AAR Export Tactical Themes Tools Onboarding Features MGRS-Native Navigation Live Military Grid Reference System coordinates with 1-meter precision.
-
-🔗 Read more: https://github.com/RedGridTactical/RedGridLink</description>
-      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
-      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461529</comments>
-    </item>
-    <item>
-      <title>Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts</title>
-      <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
-      <description>📝 Windows users can use start. Known vessel names from Vessels1. bat Launcher for Windows (Command Prompt) start.
-
-🔗 Read more: https://github.com/FormerLab/shadow-fleet-tracker-light</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
-      <pubDate>Fri, 20 Mar 2026 21:04:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460528</comments>
-    </item>
-    <item>
-      <title>Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists</title>
-      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
-      <description>📝 Featured VideoWhat happens when you stop taking them, though. ”What about those who restarted a GLP-1 regimen after taking a break. Research shows that around half of people who start GLP-1s quit taking the medication after only a short period.
-
-🔗 Read more: https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</description>
-      <guid isPermaLink="true">https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
-      <pubDate>Fri, 20 Mar 2026 21:42:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461018</comments>
+🔗 Read more: https://www.purl.dev/</description>
+      <guid isPermaLink="true">https://www.purl.dev/</guid>
+      <pubDate>Sat, 21 Mar 2026 02:09:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47463354</comments>
     </item>
   </channel>
 </rss>

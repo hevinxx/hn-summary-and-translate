@@ -6,99 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 21 Mar 2026 01:59:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 04:28:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>우리는 Rust WASM 구문 분석기를 TypeScript로 다시 작성했으며 3배 더 빨라졌습니다.</title>
-      <link>https://www.openui.com/blog/rust-wasm-parser</link>
-      <description>📝 우리는 Rust에서 openui-lang 파서를 구축하고 이를 WASM으로 컴파일했습니다. 오버헤드는 전적으로 경계에 있었습니다. 문자열을 복사하고 결과를 JSON 문자열로 직렬화하고 JSON 문자열을 복사한 다음 V8이 이를 다시 JS 객체로 역직렬화합니다. 이는 호출당 파서 비용을 분리합니다.
+      <title>몰리 가드</title>
+      <link>https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</link>
+      <description>📝 2026년 2월 20일 금요일 Marcin Wichary의 Unsung에서 Molly Guard:. 공중전 영화에서 몰리 가드를 본 적이 있을 것입니다. 그리고 오목한 버튼부터 키 주변의 플라스틱 융기 부분, SIM 카드 배출 구멍과 같은 민간 하드웨어의 모든 곳에 몰리 가드의 흔적이 존재합니다. 물론 몰리 가드는 소프트웨어에서도 발생합니다. 가장 저렴한 것부터 "확실합니까?" 최신 포스트 이전 게시물 홈 구독: 포스트 댓글(Atom)
 
 
-🔤 Original: We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster
+🔤 Original: Molly Guard
 
-🔗 Read more: https://www.openui.com/blog/rust-wasm-parser</description>
-      <guid isPermaLink="true">https://www.openui.com/blog/rust-wasm-parser</guid>
-      <pubDate>Fri, 20 Mar 2026 21:48:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461094</comments>
+🔗 Read more: https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</description>
+      <guid isPermaLink="true">https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</guid>
+      <pubDate>Fri, 20 Mar 2026 14:33:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47455138</comments>
     </item>
     <item>
-      <title>예제를 통한 Linux 애플리케이션 프로그래밍: 기본 API(2판)</title>
-      <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
-      <description>📝 이 저장소에는 Arnold Robbins의 Linux 애플리케이션 개발 - 기본 API의 코드가 포함되어 있습니다. ISBN-13: 978-0-13-532552-0 ISBN-10: 0-13-532552-8 문서 디렉토리에는 작성자가 작성한 코드에 대한 라이센스를 포함하여 관심 있는 문서가 들어 있습니다. 다른 디렉토리에는 책의 각 장에 나오는 예제 프로그램이 들어 있습니다.
+      <title>purl: 지불이 필요한 HTTP 요청을 만들기 위한 컬과 같은 CLI</title>
+      <link>https://www.purl.dev/</link>
+      <description>📝 지불 + 컬 = purl 설치# Homebrew$ Brew 설치 스트라이프/purl/purl# 또는 쉘 스크립트를 통해$ 컬 -fsSl https://www. 쉬 | bashUsage# 지갑 설정$ purl wallet add # 무료 엔드포인트 테스트$ purl https://www. 01 USDC)$ purl https://www.
 
 
-🔤 Original: Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)
+🔤 Original: purl: a curl-esque CLI for making HTTP requests that require payment
 
-🔗 Read more: https://github.com/arnoldrobbins/LinuxByExample-2e</description>
-      <guid isPermaLink="true">https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
-      <pubDate>Fri, 20 Mar 2026 23:57:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47462483</comments>
-    </item>
-    <item>
-      <title>고스트링</title>
-      <link>https://github.com/ghostty-org/ghostling</link>
-      <description>📝 사실상 Ghostty가 지원하는 모든 터미널 에뮬레이션 기능입니다. cmake -B 빌드 -G Ninja cmake --빌드 빌드. libghostty에는 Raylib이 필요합니까?
-
-
-🔤 Original: Ghostling
-
-🔗 Read more: https://github.com/ghostty-org/ghostling</description>
-      <guid isPermaLink="true">https://github.com/ghostty-org/ghostling</guid>
-      <pubDate>Fri, 20 Mar 2026 22:11:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461378</comments>
-    </item>
-    <item>
-      <title>HN 표시: Fortran으로 작성된 터미널 전용 Bluesky/AT Proto 클라이언트를 구축했습니다.</title>
-      <link>https://github.com/FormerLab/fortransky</link>
-      <description>📝 1 — 기본 Rust Firehose 디코더가 통합되었습니다. 저장된 세션 지원. 스트림 모드 토글(jetstream/relay-raw).
-
-
-🔤 Original: Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran
-
-🔗 Read more: https://github.com/FormerLab/fortransky</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/fortransky</guid>
-      <pubDate>Fri, 20 Mar 2026 22:06:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461321</comments>
-    </item>
-    <item>
-      <title>HN 표시: Red Grid Link – Bluetooth를 통한 P2P 팀 추적, 서버 없음</title>
-      <link>https://github.com/RedGridTactical/RedGridLink</link>
-      <description>📝 Red Grid Link 소규모 팀(2~8명)을 위한 오프라인 MGRS 탐색 및 근접 팀 조정. Red Grid MGRS의 MGRS 엔진을 기반으로 구축되었습니다. 스크린샷 지도 및 팀 그리드 보기 필드 링크 고스트 마커 AAR 내보내기 전술 테마 도구 온보딩 기능 MGRS 기본 탐색 실시간 군사 그리드 참조 시스템은 1미터 정밀도로 좌표를 지정합니다.
-
-
-🔤 Original: Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers
-
-🔗 Read more: https://github.com/RedGridTactical/RedGridLink</description>
-      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
-      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461529</comments>
-    </item>
-    <item>
-      <title>HN 표시: 발틱 섀도우 함대 추적기 – 실시간 AIS, 케이블 근접 경고</title>
-      <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
-      <description>📝 Windows 사용자는 시작을 사용할 수 있습니다. Vessels1에서 알려진 선박 이름. Windows용 bat 실행기(명령 프롬프트)가 시작됩니다.
-
-
-🔤 Original: Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts
-
-🔗 Read more: https://github.com/FormerLab/shadow-fleet-tracker-light</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
-      <pubDate>Fri, 20 Mar 2026 21:04:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460528</comments>
-    </item>
-    <item>
-      <title>이중 표지 GLP-1 수용체 작용제의 중단 및 재개</title>
-      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
-      <description>📝 특집 영상하지만 복용을 중단하면 어떻게 될까요? "휴식 후 GLP-1 요법을 다시 시작한 사람들은 어떻습니까? 연구에 따르면 GLP-1을 시작한 사람들 중 약 절반이 짧은 기간 후에 약 복용을 중단한 것으로 나타났습니다.
-
-
-🔤 Original: Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists
-
-🔗 Read more: https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</description>
-      <guid isPermaLink="true">https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
-      <pubDate>Fri, 20 Mar 2026 21:42:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461018</comments>
+🔗 Read more: https://www.purl.dev/</description>
+      <guid isPermaLink="true">https://www.purl.dev/</guid>
+      <pubDate>Sat, 21 Mar 2026 02:09:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47463354</comments>
     </item>
   </channel>
 </rss>

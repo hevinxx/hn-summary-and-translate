@@ -6,99 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Mar 2026 01:59:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 04:28:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我们用 TypeScript 重写了 Rust WASM 解析器 – 速度提高了 3 倍</title>
-      <link>https://www.openui.com/blog/rust-wasm-parser</link>
-      <description>📝 我们用 Rust 构建了 openui-lang 解析器并将其编译为 WASM。开销完全在边界内：复制字符串，将结果序列化为 JSON 字符串，复制 JSON 字符串，然后 V8 将其反序列化回 JS 对象。这隔离了每次调用解析器的成本。
+      <title>莫莉·卫兵</title>
+      <link>https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</link>
+      <description>📝 2026 年 2 月 20 日星期五 Marcin Wichary 的《Unsung》中的 Molly Guard：。您可能会从您看过的任何空战电影中认出莫莉守卫：莫莉守卫的一些残余形式也存在于民用硬件中随处可见：从凹进的按钮，通过按键周围的塑料脊，到类似 SIM 卡弹出孔的东西：当然，莫莉守卫也出现在软件中：从最便宜的“你确定吗？
 
 
-🔤 Original: We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster
+🔤 Original: Molly Guard
 
-🔗 Read more: https://www.openui.com/blog/rust-wasm-parser</description>
-      <guid isPermaLink="true">https://www.openui.com/blog/rust-wasm-parser</guid>
-      <pubDate>Fri, 20 Mar 2026 21:48:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461094</comments>
+🔗 Read more: https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</description>
+      <guid isPermaLink="true">https://bookofjoe2.blogspot.com/2026/02/molly-guard.html</guid>
+      <pubDate>Fri, 20 Mar 2026 14:33:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47455138</comments>
     </item>
     <item>
-      <title>Linux 应用程序编程示例：基础 API（第二版）</title>
-      <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
-      <description>📝 该存储库包含 Arnold Robbins 的《Linux 应用程序开发示例 - 基本 API》中的代码。 ISBN-13: 978-0-13-532552-0 ISBN-10: 0-13-532552-8 Documents 目录包含感兴趣的文档，包括作者编写的代码的许可证。其他目录包含书中各个章节的示例程序。
+      <title>purl：一个类似curl 的CLI，用于发出需要付款的HTTP 请求</title>
+      <link>https://www.purl.dev/</link>
+      <description>📝 付款+curl = purl安装#Homebrew$brew install stripe/purl/purl#或通过shell脚本$curl -fsSl https://www.嘘 | bashUsage# 设置你的钱包$ purl wallet add # 测试免费端点$ purl https://www. 01 USDC)$ purl https://www.
 
 
-🔤 Original: Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)
+🔤 Original: purl: a curl-esque CLI for making HTTP requests that require payment
 
-🔗 Read more: https://github.com/arnoldrobbins/LinuxByExample-2e</description>
-      <guid isPermaLink="true">https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
-      <pubDate>Fri, 20 Mar 2026 23:57:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47462483</comments>
-    </item>
-    <item>
-      <title>鬼灵</title>
-      <link>https://github.com/ghostty-org/ghostling</link>
-      <description>📝 有效地支持 Ghostty 的所有终端仿真功能。 cmake -B 构建 -G 忍者 cmake --build 构建。 libghostty 是否需要 Raylib.
-
-
-🔤 Original: Ghostling
-
-🔗 Read more: https://github.com/ghostty-org/ghostling</description>
-      <guid isPermaLink="true">https://github.com/ghostty-org/ghostling</guid>
-      <pubDate>Fri, 20 Mar 2026 22:11:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461378</comments>
-    </item>
-    <item>
-      <title>Show HN：我们构建了一个用 Fortran 编写的仅限终端的 Bluesky / AT Proto 客户端</title>
-      <link>https://github.com/FormerLab/fortransky</link>
-      <description>📝 1 — 集成原生 Rust firehose 解码器。保存的会话支持。流模式切换（jetstream/relay-raw）。
-
-
-🔤 Original: Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran
-
-🔗 Read more: https://github.com/FormerLab/fortransky</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/fortransky</guid>
-      <pubDate>Fri, 20 Mar 2026 22:06:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461321</comments>
-    </item>
-    <item>
-      <title>Show HN：Red Grid Link – 通过蓝牙进行点对点团队跟踪，无需服务器</title>
-      <link>https://github.com/RedGridTactical/RedGridLink</link>
-      <description>📝 Red Grid Link 离线 MGRS 导航和小型团队（2-8 人）的近距离团队协调。基于 Red Grid MGRS 的 MGRS 引擎构建。屏幕截图 地图和团队网格视图 现场链接 幽灵标记 AAR 导出战术主题 工具 入门功能 MGRS 本地导航 实时军事网格参考系统坐标，精度为 1 米。
-
-
-🔤 Original: Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers
-
-🔗 Read more: https://github.com/RedGridTactical/RedGridLink</description>
-      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
-      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461529</comments>
-    </item>
-    <item>
-      <title>Show HN：波罗的海影子舰队跟踪器 – 实时 AIS、电缆接近警报</title>
-      <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
-      <description>📝 Windows 用户可以使用启动。 Vessels1 中的已知船只名称。 bat Launcher for Windows（命令提示符）启动。
-
-
-🔤 Original: Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts
-
-🔗 Read more: https://github.com/FormerLab/shadow-fleet-tracker-light</description>
-      <guid isPermaLink="true">https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
-      <pubDate>Fri, 20 Mar 2026 21:04:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47460528</comments>
-    </item>
-    <item>
-      <title>双标记 GLP-1 受体激动剂的停用和重新开始</title>
-      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
-      <description>📝 特色视频 但是，当您停止服用它们时会发生什么。 “那些在休息后重新开始 GLP-1 治疗方案的人呢？研究表明，大约一半开始 GLP-1 治疗的人在短时间内就停止服药。
-
-
-🔤 Original: Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists
-
-🔗 Read more: https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</description>
-      <guid isPermaLink="true">https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
-      <pubDate>Fri, 20 Mar 2026 21:42:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47461018</comments>
+🔗 Read more: https://www.purl.dev/</description>
+      <guid isPermaLink="true">https://www.purl.dev/</guid>
+      <pubDate>Sat, 21 Mar 2026 02:09:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47463354</comments>
     </item>
   </channel>
 </rss>
