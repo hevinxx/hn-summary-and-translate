@@ -6,100 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Mar 2026 18:56:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 21:37:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>機械はあなたの技術を奪いませんでした。あなたはそれをあきらめました</title>
-      <link>https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/</link>
-      <description>📝 職人が感じるものは洞察力だと言われます。その部分はまだあなたのものです。しかし、これ以上自分を騙さないでください。実際にあったコードを入力してください。
+      <title>ミニマリストの起業家 – クロード コード スキル</title>
+      <link>https://github.com/slavingia/skills</link>
+      <description>📝 The Minimalist Entrepreneur — Claude Code Skills Sahil Lavingia 著の The Minimalist Entrepreneur に基づくクロード コード スキル。インストール リポジトリをローカルにクローンし、Claude Code プラグインとしてインストールします (git clone https://github)。 claude/plugins/skills 次に、Claude Code: /plugin install ~/.
 
 
-🔤 Original: The machine didn't take your craft. You gave it up
+🔤 Original: The Minimalist Entrepreneur – Claude Code Skills
 
-🔗 Read more: https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/</description>
-      <guid isPermaLink="true">https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/</guid>
-      <pubDate>Mon, 23 Mar 2026 18:27:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47493312</comments>
+🔗 Read more: https://github.com/slavingia/skills</description>
+      <guid isPermaLink="true">https://github.com/slavingia/skills</guid>
+      <pubDate>Mon, 23 Mar 2026 21:11:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47495168</comments>
     </item>
     <item>
-      <title>古い研究プロジェクトで Karpathy の Autoresearch を試してみた</title>
-      <link>https://ykumar.me/blog/eclip-autoresearch/</link>
-      <guid isPermaLink="true">https://ykumar.me/blog/eclip-autoresearch/</guid>
-      <pubDate>Mon, 23 Mar 2026 18:40:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47493460</comments>
+      <title>クロード コードを使用して生産性を向上させる方法</title>
+      <link>https://neilkakkar.com/productive-with-claude-code.html</link>
+      <description>📝 それは当時私が思っていた以上に重要でした。しかし、それだとコミットされていない変更が台無しになってしまいます。エージェントが自分の間違いを見つけることは、一度に 5 人が実行される場合により重要になります。
+
+
+🔤 Original: How I'm Productive with Claude Code
+
+🔗 Read more: https://neilkakkar.com/productive-with-claude-code.html</description>
+      <guid isPermaLink="true">https://neilkakkar.com/productive-with-claude-code.html</guid>
+      <pubDate>Mon, 23 Mar 2026 20:49:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47494890</comments>
     </item>
     <item>
-      <title>Digs: Discogs のビニール コレクションを閲覧するためのオフラインファースト iOS アプリ</title>
-      <link>https://lustin.fr/blog/building-digs/</link>
-      <description>📝 機能 コレクション全体を携帯電話に同期し、オフラインで閲覧できるようにします。最初の同期後、コレクション全体がオフラインで利用できるようになります。 Claude Code で構築する すべてを Claude Code で構築しました。
+      <title>ローカル スタックは GitHub リポジトリをアーカイブしており、実行するにはアカウントが必要です</title>
+      <link>https://github.com/localstack/localstack</link>
+      <description>📝 インストール LocalStack を使い始める最も簡単な方法は、LocalStack CLI を使用することです。クラウド [17:00:15] Docker モード 🐳 localstack で LocalStack を開始しています。実行 次のオプションを使用して LocalStack を実行できます。 LocalStack CLI Docker Docker Comp。
 
 
-🔤 Original: Digs: Offline-first iOS app to browse your Discogs vinyl collection
+🔤 Original: Local Stack Archived their GitHub repo and requires an account to run
 
-🔗 Read more: https://lustin.fr/blog/building-digs/</description>
-      <guid isPermaLink="true">https://lustin.fr/blog/building-digs/</guid>
-      <pubDate>Mon, 23 Mar 2026 09:02:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47486916</comments>
+🔗 Read more: https://github.com/localstack/localstack</description>
+      <guid isPermaLink="true">https://github.com/localstack/localstack</guid>
+      <pubDate>Mon, 23 Mar 2026 18:57:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47493657</comments>
     </item>
     <item>
-      <title>整備工場向けの AI 受付係を構築しました</title>
-      <link>https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/</link>
-      <description>📝 顧客が「ブレーキはいくらですか」と尋ねた場合。ナレッジ ベースを MongoDB Atlas に埋め込みます。各ドキュメントは Voyage AI (voyage-3-large) を使用して 1024 次元のベクトルに変換されます。FastAPI Webhook サーバーを構築しました。呼び出し元が質問するたびに、Vapi は呼び出し元のクエリを含むツール呼び出しリクエストを /webhook エンドポイントに送信します。
+      <title>AI は「超常現象」の科学をリスクにさらす</title>
+      <link>https://www.asimov.press/p/ai-science</link>
+      <description>📝 さらに深刻な問題は、必要なものがまったく異なる概略図である場合に、詳細を追加しても、より多くの道路、より多くの山、より多くの村など、同じ種類の情報しか得られないことです。このような原則は、その原則を引き起こした現象をはるかに超えて波及的な影響を与える傾向があります。この種の近視眼的な状況を回避するには、新しい概念的語彙を考案するのに役立つ AI を意図的に構築する必要があります。
 
 
-🔤 Original: I built an AI receptionist for a mechanic shop
+🔤 Original: AI Risks "Hypernormal" Science
 
-🔗 Read more: https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/</description>
-      <guid isPermaLink="true">https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/</guid>
-      <pubDate>Mon, 23 Mar 2026 10:32:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47487536</comments>
+🔗 Read more: https://www.asimov.press/p/ai-science</description>
+      <guid isPermaLink="true">https://www.asimov.press/p/ai-science</guid>
+      <pubDate>Mon, 23 Mar 2026 18:19:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47493194</comments>
     </item>
     <item>
-      <title>HN を表示: Threadproc – 1 つのアドレス空間を共有する実行可能ファイル (0 コピー ポインター)</title>
-      <link>https://github.com/jer-irl/threadprocs</link>
-      <description>📝 threadprocs このリポジトリには、スレッドのようなプロセス、または共有アドレス空間で実行される複数のプログラム用の実験的なコードが含まれています。 tproc-actors は、このスペースを使用して、スレッドごとのアクター レジストリをアドバタイズします。 /buildout/launcher /tmp/mytest.
+      <title>米国とイランの停戦への賭けは内部情報の兆候を示していると専門家が言う</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket</link>
+      <description>📝 写真: Theo Marie-Courtois/AFP/Getty Images 米国とイランの停戦に関する賭けはインサイダー知識の兆候を示していると専門家が語る 総額7万ドルを賭けるポリマーケットプラットフォームの新しいオンラインアカウントは「ある程度の内部情報」を示唆している オンラインプラットフォームポリマーケットのいくつかのアカウントは週末に米国とイランの停戦について賭けをしており、それはインサイダー知識の兆候を示しているようだった、と専門家は述べている。しかし、オンラインの仮想通貨ウォッチャーや専門家らは、この賭けにはインサイダー取引の兆候があると示唆した。その理由は、彼らが市場価格でポジションを購入していたことと、一部のアカウントが複数のウォレットに賭け金を分割して身元を隠そうとしている単一の投資家のものであるように見えたからである。ポリマーケットでのこの特定の賭けに勝つには、内部関係者の知識だけでは十分ではないかもしれない。なぜなら、米国とイランの双方が停戦合意に達したことに同意する必要があるからだ。
 
 
-🔤 Original: Show HN: Threadprocs – executables sharing one address space (0-copy pointers)
+🔤 Original: Bets on US-Iran ceasefire show signs of insider knowledge, say experts
 
-🔗 Read more: https://github.com/jer-irl/threadprocs</description>
-      <guid isPermaLink="true">https://github.com/jer-irl/threadprocs</guid>
-      <pubDate>Mon, 23 Mar 2026 16:08:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47491414</comments>
+🔗 Read more: https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket</description>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket</guid>
+      <pubDate>Mon, 23 Mar 2026 20:25:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47494629</comments>
     </item>
     <item>
-      <title>パイントですか？</title>
-      <link>https://isitapint.com/</link>
-      <description>📝 「この発見は、アメリカ人がビール、ワイン、サイダーを提供される方法を変える可能性のある草の根運動であるパイント・パトロールを生み出しました。正義の誠実さに向けてです。この記事は、最初の発見と運動の始まりを記録しています。はじめに 方法 データ グラスを知る ディスカッションに参加しましょう アプリのダウンロード リンクはこちら グッズ ビールを買ってください © 2025–2026 Stevenニルセン。
+      <title>支離滅裂なRust</title>
+      <link>https://www.boxyuwu.blog/posts/an-incoherent-rust/</link>
+      <description>📝 CoherenceとOrphan Rules#Coherenceは、トレイトが型およびトレイトへの指定されたジェネリック引数のセットに対して最大1回のみ実装されていることをチェックします。 Trait {} trait Thingies {} trait OtherThingies {} impl&lt;T: Thingies&gt; Trait for T {} impl&lt;T: OtherThingies&gt; Trait for T {} error[E0119]: トレイトの実装が競合しています「特性」 --&gt; src/lib。 // pub trait Trait {} pub struct Foo; をクレートします。 // クレート b は a::* を使用します。 impl Trait for Foo {} エラー[E0117]: 現在のクレートで定義されているトレイトのみが、クレート --&gt; src/lib の外部で定義された型に実装できます。 Trait 実装の一貫性 - Rust Reference も参照してください。
 
 
-🔤 Original: Is it a pint?
+🔤 Original: An incoherent Rust
 
-🔗 Read more: https://isitapint.com/</description>
-      <guid isPermaLink="true">https://isitapint.com/</guid>
-      <pubDate>Mon, 23 Mar 2026 16:13:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47491496</comments>
+🔗 Read more: https://www.boxyuwu.blog/posts/an-incoherent-rust/</description>
+      <guid isPermaLink="true">https://www.boxyuwu.blog/posts/an-incoherent-rust/</guid>
+      <pubDate>Mon, 23 Mar 2026 15:13:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47490648</comments>
     </item>
     <item>
-      <title>米国政府、米国の洋上風力発電プロジェクトを停止するためにTotalEnergiesに10億ドル近くを支払う</title>
-      <link>https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html</link>
-      <guid isPermaLink="true">https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html</guid>
-      <pubDate>Mon, 23 Mar 2026 17:35:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47492599</comments>
-    </item>
-    <item>
-      <title>自動車飲酒検知器会社へのサイバー攻撃でドライバーが米国で立ち往生</title>
-      <link>https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/</link>
-      <description>📝 自動車飲酒検知器会社により、全米のドライバーが立ち往生し、車を始動できなくなった。 Redditに投稿したドライバーらは、調整を怠ると車が始動できなくなり、実質的にドライバーが車から締め出されてしまうと述べている。メイン州全土の地元ニュースによると、ドライバーがロックアウトに見舞われ、車を始動できなくなる人もいるという。
+      <title>財務省はちょうど米国の破産を宣言した</title>
+      <link>https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/</link>
+      <description>📝 総資産47ドルに対して06兆。社会保障は5兆増加。公式貸借対照表の負債は8兆ドルに上り、連邦政府の負債総額は136ドルを超えることになる。
 
 
-🔤 Original: Cyberattack on vehicle breathalyzer company leaves drivers stranded in the US
+🔤 Original: The Treasury just declared the U.S. insolvent
 
-🔗 Read more: https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/</guid>
-      <pubDate>Mon, 23 Mar 2026 13:13:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47489058</comments>
+🔗 Read more: https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/</description>
+      <guid isPermaLink="true">https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/</guid>
+      <pubDate>Mon, 23 Mar 2026 20:48:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47494879</comments>
     </item>
   </channel>
 </rss>
