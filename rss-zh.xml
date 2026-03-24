@@ -6,41 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Mar 2026 09:57:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 13:12:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Opera：将网络倒回 1996 年（Opera 30）</title>
-      <link>https://www.web-rewind.com</link>
-      <guid isPermaLink="true">https://www.web-rewind.com</guid>
-      <pubDate>Tue, 24 Mar 2026 07:54:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47499721</comments>
+      <title>微软对Windows 11的“修复”：挨打后开花</title>
+      <link>https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/</link>
+      <description>📝 监视功能 Windows 调用每隔几秒对您的屏幕进行屏幕截图。 “ Microsoft 帐户意味着您的身份从第一次启动起就与您的操作系统绑定在一起。您的活动、您的应用程序使用情况、您通过 Edge 的浏览、您通过 OneDrive 的文件，所有这些都汇集到 Microsoft 控制的配置文件中。
+
+
+🔤 Original: Microsoft's "Fix" for Windows 11: Flowers After the Beating
+
+🔗 Read more: https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/</description>
+      <guid isPermaLink="true">https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/</guid>
+      <pubDate>Tue, 24 Mar 2026 09:36:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47500335</comments>
     </item>
     <item>
-      <title>Show HN：ProofShot – 让 AI 编码代理有眼睛来验证他们构建的 UI</title>
-      <link>https://proofshot.argil.io/</link>
-      <description>📝 收集错误、停止记录、缩短死区时间并生成证明工件。具有自动死区时间修剪功能的完整浏览器会话记录。独立的 HTML 查看器，具有同步视频、屏幕截图以及带有元素标签的交互式操作时间线。
+      <title>LiteLLM Python 包受到供应链攻击</title>
+      <link>https://github.com/BerriAI/litellm/issues/24512</link>
+      <description>📝 2k [安全]：严重：恶意 litellm_init。 conf，/etc/kubernetes/kubelet.conf /etc/kubernetes/controller-manager.conf，
 
 
-🔤 Original: Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build
+🔤 Original: LiteLLM Python package compromised by supply-chain attack
 
-🔗 Read more: https://proofshot.argil.io/</description>
-      <guid isPermaLink="true">https://proofshot.argil.io/</guid>
-      <pubDate>Tue, 24 Mar 2026 07:46:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47499672</comments>
+🔗 Read more: https://github.com/BerriAI/litellm/issues/24512</description>
+      <guid isPermaLink="true">https://github.com/BerriAI/litellm/issues/24512</guid>
+      <pubDate>Tue, 24 Mar 2026 12:36:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47501729</comments>
     </item>
     <item>
-      <title>Ripgrep 比 {grep, ag, Git grep, ucg, pt, sift} 更快</title>
-      <link>https://burntsushi.net/ripgrep/</link>
-      <description>📝 ripgrep 可在 Github 上找到。 ripgrep 还实现了全面支持。 ripgrep 可以搜索特定类型的文件。
+      <title>揭穿 Zswap 和 Zram 神话</title>
+      <link>https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html</link>
+      <description>📝 zram 是具有硬容量限制的压缩 RAM 块设备。 zram 上的交换也越来越不受上游支持。我的建议是：尽可能不要与磁盘交换一起运行 zram。
 
 
-🔤 Original: Ripgrep is faster than {grep, ag, Git grep, ucg, pt, sift}
+🔤 Original: Debunking Zswap and Zram Myths
 
-🔗 Read more: https://burntsushi.net/ripgrep/</description>
-      <guid isPermaLink="true">https://burntsushi.net/ripgrep/</guid>
-      <pubDate>Tue, 24 Mar 2026 06:31:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47499245</comments>
+🔗 Read more: https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html</description>
+      <guid isPermaLink="true">https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html</guid>
+      <pubDate>Tue, 24 Mar 2026 10:39:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47500746</comments>
+    </item>
+    <item>
+      <title>curl &gt; /dev/sda：我如何制作一个运行 wget 的 Linux 发行版 | DD</title>
+      <link>https://astrid.tech/2026/03/24/0/curl-to-dev-sda/</link>
+      <description>📝 由于块对齐和缓存废话，这只会使您对磁盘的写入更加高效。 ）首先将其安装在虚拟机中，然后使用由此产生的原始磁盘映像。 nix&gt; 这给了我一个磁盘映像。
+
+
+🔤 Original: curl &gt; /dev/sda: How I made a Linux distro that runs wget | dd
+
+🔗 Read more: https://astrid.tech/2026/03/24/0/curl-to-dev-sda/</description>
+      <guid isPermaLink="true">https://astrid.tech/2026/03/24/0/curl-to-dev-sda/</guid>
+      <pubDate>Tue, 24 Mar 2026 10:06:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47500522</comments>
+    </item>
+    <item>
+      <title>导弹防御是 NP 完全的</title>
+      <link>https://smu160.github.io/posts/missile-defense-is-np-complete/</link>
+      <description>📝 单发杀伤概率（SSPK）是单个拦截器在单次交战中成功拦截一颗弹头的概率。以下是杀伤概率如何随着附加拦截器而变化：拦截器 (nnn)P(kill)P(\text{kill})P(kill)156。 Wilkening (1998) 用概率 P(track)P(\text{track})P(track) 形式化了这个概念，捕获了整个检测-跟踪-分类-命令和控制流程 [5]。
+
+
+🔤 Original: Missile Defense Is NP-Complete
+
+🔗 Read more: https://smu160.github.io/posts/missile-defense-is-np-complete/</description>
+      <guid isPermaLink="true">https://smu160.github.io/posts/missile-defense-is-np-complete/</guid>
+      <pubDate>Tue, 24 Mar 2026 13:00:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47501950</comments>
+    </item>
+    <item>
+      <title>NanoClaw 采用 OneCLI Agent Vault</title>
+      <link>https://nanoclaw.dev/blog/nanoclaw-agent-vault/</link>
+      <description>📝 applyContainerConfig(containerArgs, { agent: agentIdentifier, // 每个代理的凭证策略 });每个 NanoClaw 代理组都有自己的 OneCLI 代理身份，因此您的销售代理和支持代理可以具有不同的凭据策略。 Agent Vault 位于代理与其调用的服务之间。 OneCLI 的 Agent Vault 解决了凭证隔离和策略执行问题。
+
+
+🔤 Original: NanoClaw Adopts OneCLI Agent Vault
+
+🔗 Read more: https://nanoclaw.dev/blog/nanoclaw-agent-vault/</description>
+      <guid isPermaLink="true">https://nanoclaw.dev/blog/nanoclaw-agent-vault/</guid>
+      <pubDate>Tue, 24 Mar 2026 12:48:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47501840</comments>
     </item>
   </channel>
 </rss>
