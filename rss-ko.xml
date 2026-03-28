@@ -6,113 +6,61 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 27 Mar 2026 21:35:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 02:07:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>macOS를 지속적으로 나쁘게 만듭니다(단일적으로)</title>
-      <link>https://lr0.org/blog/p/macos/</link>
-      <description>📝 0; static double swizzled_cornerRadius(id self, SEL _cmd) { return kDesiredCornerRadius; } static double swizzled_getCachedCornerRadius(id self, SEL _cmd) { return kDesiredCornerRadius; } static CGSize swizzled_topCornerSize(id self, SEL _cmd) { return CGSizeMake(kDesiredCornerRadius, kDesiredCornerRadius); } static CGSize swizzled_bottomCornerSize(id self, SEL _cmd) { return CGSizeMake(kDesiredCornerRadius, kDesiredCornerRadius); } __attribute__((constructor)) static void init(void) { // 타사 GUI 앱에만 적용됩니다. CLI 도구, 데몬 및 Apple 시스템 앱 건너뛰기 NSString *bid = [[NSBundle mainBundle] BundleIdentifier]; if (.plist ~/Library/LaunchAgents/com.DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.
+      <title>파일 시스템을 YOLO로 만들지 마십시오</title>
+      <link>https://jai.scs.stanford.edu/</link>
+      <description>📝 당신의 파일, 당신의 규칙 계정 전체를 넘겨주지 않고 AI 에이전트를 사용하세요. jai는 작업 디렉토리에 전체 액세스 권한을 부여하고 집의 나머지 부분을 기록 중 복사 오버레이 뒤에 유지하거나 완전히 숨깁니다. 3홈은 오버레이입니다. 홈 디렉토리에 대한 변경 사항은 기록 중 복사로 캡처됩니다.
 
 
-🔤 Original: Make macOS consistently bad (unironically)
+🔤 Original: Don't YOLO your file system
 
-🔗 Read more: https://lr0.org/blog/p/macos/</description>
-      <guid isPermaLink="true">https://lr0.org/blog/p/macos/</guid>
-      <pubDate>Fri, 27 Mar 2026 19:15:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47547009</comments>
+🔗 Read more: https://jai.scs.stanford.edu/</description>
+      <guid isPermaLink="true">https://jai.scs.stanford.edu/</guid>
+      <pubDate>Sat, 28 Mar 2026 00:39:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47550282</comments>
     </item>
     <item>
-      <title>4월 24일까지 옵트아웃하지 않으면 GitHub에서 비공개 저장소에 대한 교육을 실시합니다.</title>
-      <link>https://news.ycombinator.com/item?id=47548243</link>
-      <description>📝 블로그 게시물에서 더 자세한 내용을 다루지만 우리는 저장 중인 개인 저장소 데이터에 대해서는 훈련하지 않고 Copilot과의 상호 작용 데이터에 대해서만 훈련합니다. Copilot을 사용하지 않는 경우에는 영향을 미치지 않습니다. 블로그 게시물에서 더 자세한 내용을 다루지만 우리는 저장 중인 개인 저장소 데이터에 대해서는 훈련하지 않고 Copilot과의 상호 작용 데이터에 대해서만 훈련합니다.
-
-
-🔤 Original: If you don't opt out by Apr 24 GitHub will train on your private repos
-
-🔗 Read more: https://news.ycombinator.com/item?id=47548243</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47548243</guid>
-      <pubDate>Fri, 27 Mar 2026 21:04:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47548243</comments>
+      <title>Show HN: Twitch Roulette – 시청이 가장 필요한 라이브 스트리머를 찾아보세요</title>
+      <link>https://twitchroulette.net/</link>
+      <guid isPermaLink="true">https://twitchroulette.net/</guid>
+      <pubDate>Fri, 27 Mar 2026 22:22:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47549160</comments>
     </item>
     <item>
-      <title>Velxio 2.0 – 브라우저에서 Arduino, ESP32 및 Raspberry Pi 3을 에뮬레이션</title>
-      <link>https://github.com/davidmonterocrespo24/velxio</link>
-      <description>📝 지원 보드 Raspberry Pi Pico Raspberry Pi Pico W ESP32 DevKit C ESP32-S3 ESP32-C3 Seeed XIAO ESP32-C3 ESP32-C3 SuperMini ESP32-CAM Seeed XIAO ESP32-S3 Arduino Nano ESP32 Raspberry Pi 3B Arduino Uno · Nano · Mega 2560ATtiny85 · Leonardo · Pro Mini(AVR8 / ATmega) 보드 CPU 엔진 언어 Arduino Uno ATmega328p @ 16MHz avr8js(브라우저) C++(Arduino) Arduino Nano ATmega328p @ 16MHz avr8js(브라우저) C++(Arduino) Arduino Mega 2560 ATmega2560 @ 16MHz avr8js(브라우저) C++(Arduino) ATtiny85 ATtiny85 @ 8MHz(int) / 16MHz (ext) avr8js(브라우저) C++(Arduino) Arduino Leonardo ATmega32u4 @ 16MHz avr8js(브라우저) C++(Arduino) Arduino Pro Mini ATmega328p @ 8/16MHz avr8js(브라우저) C++(Arduino) Raspberry Pi Pico RP2040 @ 133MHz rp2040js(브라우저) C++(Arduino) Raspberry Pi Pico W RP2040 @ 133MHz rp2040js(브라우저) C++(Arduino) ESP32 DevKit V1 Xtensa LX6 @ 240MHz QEMU lcgamboa(백엔드) C++(Arduino) ESP32 DevKit C V4 Xtensa LX6 @ 240MHz QEMU lcgamboa(백엔드) C++(Arduino) ESP32-S3 Xtensa LX7 @ 240MHz QEMU lcgamboa(백엔드) C++(Arduino) ESP32-CAM Xtensa LX6 @ 240MHz QEMU lcgamboa(백엔드) C++(Arduino) Seeed XIAO ESP32-S3 Xtensa LX7 @ 240MHz QEMU lcgamboa(백엔드) C++(Arduino) Arduino Nano ESP32 Xtensa LX6 @ 240MHz QEMU lcgamboa(백엔드) C++(Arduino) ESP32-C3 DevKit RISC-V RV32IMC @ 160MHz RiscVCore. ts(브라우저) C++(Arduino) Seeed XIAO ESP32-C3 RISC-V RV32IMC @ 160MHz RiscVCore. ts(브라우저) C++(Arduino) ESP32-C3 SuperMini RISC-V RV32IMC @ 160MHz RiscVCore.
-
-
-🔤 Original: Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser
-
-🔗 Read more: https://github.com/davidmonterocrespo24/velxio</description>
-      <guid isPermaLink="true">https://github.com/davidmonterocrespo24/velxio</guid>
-      <pubDate>Fri, 27 Mar 2026 20:44:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47548013</comments>
+      <title>콜로라도 하원은 감시 가격 및 임금 설정을 제한하는 법안을 통과시켰습니다.</title>
+      <link>https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/</link>
+      <guid isPermaLink="true">https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/</guid>
+      <pubDate>Fri, 27 Mar 2026 20:10:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47547602</comments>
     </item>
     <item>
-      <title>PyPI에서 Telnyx 패키지가 손상됨</title>
-      <link>https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026</link>
-      <description>📝 Telnyx TeamSummary 작성 2026년 3월 27일 03:51:28 UTC에 Telnyx Python SDK의 두 가지 승인되지 않은 버전이 PyPI에 게시되었습니다: 버전 4. Telnyx 플랫폼, API 및 인프라는 손상되지 않았습니다. 영향을 받는 버전 게시된 버전 telnyx==4.
+      <title>DOJ는 FBI 국장 Kash Patel의 개인 이메일이 해킹당했다고 확인했습니다.</title>
+      <link>https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</link>
+      <description>📝 Handala Hack Team은 웹사이트에서 Patel이 "이제 해킹에 성공한 피해자 목록에서 자신의 이름을 찾을 것"이라고 자랑했습니다. 보도 자료에서 Patel은 이 그룹을 "사냥"하겠다고 위협했으며, 로이터는 "자칭 친팔레스타인 자경단 해커 그룹이라고 부르는 그룹을 추적"하겠다고 위협했습니다. 해커들은 자신들이 수집한 데이터에 Patel에 대한 기밀 정보가 포함되어 있다고 주장했지만 독립적으로 확인할 수는 없었습니다.
 
 
-🔤 Original: Telnyx package compromised on PyPI
+🔤 Original: DOJ confirms FBI Director Kash Patel's personal email was hacked
 
-🔗 Read more: https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026</description>
-      <guid isPermaLink="true">https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026</guid>
-      <pubDate>Fri, 27 Mar 2026 08:57:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47540388</comments>
+🔗 Read more: https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</description>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</guid>
+      <pubDate>Fri, 27 Mar 2026 21:41:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47548670</comments>
     </item>
     <item>
-      <title>ISBN 시각화 – 안나스 아카이브</title>
-      <link>https://annas-archive.gd/isbn-visualization</link>
-      <guid isPermaLink="true">https://annas-archive.gd/isbn-visualization</guid>
-      <pubDate>Fri, 27 Mar 2026 20:02:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47547508</comments>
-    </item>
-    <item>
-      <title>슬로베니아, 연료 배급 제도를 도입한 최초의 EU 국가가 됨</title>
-      <link>https://www.bbc.com/news/articles/c77m4zx6zvmo</link>
-      <description>📝 많은 국가들이 연료 가격의 급격한 상승을 경험해 왔습니다. 일부 연료 소매업체는 이미 자체 조치를 취했습니다. 연료비 상승으로 기업 불안 슬로베니아.
+      <title>SCIP의 미래</title>
+      <link>https://sourcegraph.com/blog/the-future-of-scip</link>
+      <description>📝 SCIP의 향후 발전을 안내하기 위해 핵심 운영 위원회가 설립될 것입니다. 핵심 운영 위원회(CSC)전략 방향, 거버넌스 및 최종 프로토콜 정의에 대한 최종 결정은 새로 구성된 핵심 운영 위원회(CSC)에서 담당합니다. 창립 핵심 운영 위원회를 환영합니다. SCIP 핵심 운영 위원회의 창립 멤버를 발표하게 된 것을 매우 자랑스럽게 생각합니다.
 
 
-🔤 Original: Slovenia becomes first EU country to introduce fuel rationing
+🔤 Original: The Future of SCIP
 
-🔗 Read more: https://www.bbc.com/news/articles/c77m4zx6zvmo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c77m4zx6zvmo</guid>
-      <pubDate>Fri, 27 Mar 2026 20:51:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47548087</comments>
-    </item>
-    <item>
-      <title>HN 표시: Claude Code Agents를 위한 오픈 소스 Animal Crossing 스타일 UI</title>
-      <link>https://github.com/outworked/outworked/releases/tag/v0.3.0</link>
-      <description>📝 Claude Code를 구독하고 할 수 있다는 태도만 있으면 됩니다. 귀하의 공동 창업자는 귀하에게 더 많은 자산을 제공합니다. 일정이 있는 에이전트일 뿐입니다.
-
-
-🔤 Original: Show HN: Open-Source Animal Crossing–Style UI for Claude Code Agents
-
-🔗 Read more: https://github.com/outworked/outworked/releases/tag/v0.3.0</description>
-      <guid isPermaLink="true">https://github.com/outworked/outworked/releases/tag/v0.3.0</guid>
-      <pubDate>Fri, 27 Mar 2026 17:25:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47545642</comments>
-    </item>
-    <item>
-      <title>Redox를 위한 기능 기반 보안: 기능으로서의 네임스페이스 및 CWD</title>
-      <link>https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/</link>
-      <description>📝 이는 Scheme-rooted 경로를 사용하여 제어됩니다. 파일 구성표는 시스템 호출 요청을 받습니다. 그림 1: 기능 이전의 파일 액세스 흐름.
-
-
-🔤 Original: Capability-Based Security for Redox: Namespace and CWD as Capabilities
-
-🔗 Read more: https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/</description>
-      <guid isPermaLink="true">https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/</guid>
-      <pubDate>Fri, 27 Mar 2026 19:06:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47546911</comments>
-    </item>
-    <item>
-      <title>WASM/Zig를 사용하는 브라우저 기반 SFX 신디사이저</title>
-      <link>https://knell.medieval.software/studio</link>
-      <guid isPermaLink="true">https://knell.medieval.software/studio</guid>
-      <pubDate>Fri, 27 Mar 2026 16:56:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47545223</comments>
+🔗 Read more: https://sourcegraph.com/blog/the-future-of-scip</description>
+      <guid isPermaLink="true">https://sourcegraph.com/blog/the-future-of-scip</guid>
+      <pubDate>Fri, 27 Mar 2026 15:46:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47544238</comments>
     </item>
   </channel>
 </rss>

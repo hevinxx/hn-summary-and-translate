@@ -6,92 +6,52 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Mar 2026 21:35:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 02:07:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Make macOS consistently bad (unironically)</title>
-      <link>https://lr0.org/blog/p/macos/</link>
-      <description>📝 0; static double swizzled_cornerRadius(id self, SEL _cmd) { return kDesiredCornerRadius; } static double swizzled_getCachedCornerRadius(id self, SEL _cmd) { return kDesiredCornerRadius; } static CGSize swizzled_topCornerSize(id self, SEL _cmd) { return CGSizeMake(kDesiredCornerRadius, kDesiredCornerRadius); } static CGSize swizzled_bottomCornerSize(id self, SEL _cmd) { return CGSizeMake(kDesiredCornerRadius, kDesiredCornerRadius); } __attribute__((constructor)) static void init(void) { // Only apply to third-party GUI apps; skip CLI tools, daemons, and Apple system apps NSString *bid = [[NSBundle mainBundle] bundleIdentifier]; if (. plist ~/Library/LaunchAgents/com. DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.
+      <title>Don't YOLO your file system</title>
+      <link>https://jai.scs.stanford.edu/</link>
+      <description>📝 Your files, your rulesUse AI agents without handing over your whole account. jai gives your working directory full access and keeps the rest of your home behind a copy-on-write overlay — or hidden entirely. 3Home is an overlayChanges to your home directory are captured copy-on-write.
 
-🔗 Read more: https://lr0.org/blog/p/macos/</description>
-      <guid isPermaLink="true">https://lr0.org/blog/p/macos/</guid>
-      <pubDate>Fri, 27 Mar 2026 19:15:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47547009</comments>
+🔗 Read more: https://jai.scs.stanford.edu/</description>
+      <guid isPermaLink="true">https://jai.scs.stanford.edu/</guid>
+      <pubDate>Sat, 28 Mar 2026 00:39:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47550282</comments>
     </item>
     <item>
-      <title>If you don't opt out by Apr 24 GitHub will train on your private repos</title>
-      <link>https://news.ycombinator.com/item?id=47548243</link>
-      <description>📝 The blog post covers more details but we do not train on private repo data at rest, just interaction data with Copilot. If you don’t use Copilot this will not affect you. The blog post covers more details but we do not train on private repo data at rest, just interaction data with Copilot.
+      <title>Show HN: Twitch Roulette – Find live streamers who need views the most</title>
+      <link>https://twitchroulette.net/</link>
+      <guid isPermaLink="true">https://twitchroulette.net/</guid>
+      <pubDate>Fri, 27 Mar 2026 22:22:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47549160</comments>
+    </item>
+    <item>
+      <title>Colorado House passes bill to limit surveillance pricing and wage setting</title>
+      <link>https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/</link>
+      <guid isPermaLink="true">https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/</guid>
+      <pubDate>Fri, 27 Mar 2026 20:10:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47547602</comments>
+    </item>
+    <item>
+      <title>DOJ confirms FBI Director Kash Patel's personal email was hacked</title>
+      <link>https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</link>
+      <description>📝 On their website, the Handala Hack Team boasted that Patel “will now find his name among the list of successfully hacked victims. In a press release, Patel threatened to “hunt” down the group, which Reuters reported “calls itself a group of pro-Palestinian vigilante hackers. Hackers claimed that their data grab included confidential information about Patel, but that could not be independently verified.
 
-🔗 Read more: https://news.ycombinator.com/item?id=47548243</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47548243</guid>
-      <pubDate>Fri, 27 Mar 2026 21:04:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47548243</comments>
+🔗 Read more: https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</description>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</guid>
+      <pubDate>Fri, 27 Mar 2026 21:41:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47548670</comments>
     </item>
     <item>
-      <title>Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser</title>
-      <link>https://github.com/davidmonterocrespo24/velxio</link>
-      <description>📝 Supported Boards Raspberry Pi Pico Raspberry Pi Pico W ESP32 DevKit C ESP32-S3 ESP32-C3 Seeed XIAO ESP32-C3 ESP32-C3 SuperMini ESP32-CAM Seeed XIAO ESP32-S3 Arduino Nano ESP32 Raspberry Pi 3B Arduino Uno · Nano · Mega 2560ATtiny85 · Leonardo · Pro Mini(AVR8 / ATmega) Board CPU Engine Language Arduino Uno ATmega328p @ 16 MHz avr8js (browser) C++ (Arduino) Arduino Nano ATmega328p @ 16 MHz avr8js (browser) C++ (Arduino) Arduino Mega 2560 ATmega2560 @ 16 MHz avr8js (browser) C++ (Arduino) ATtiny85 ATtiny85 @ 8 MHz (int) / 16 MHz (ext) avr8js (browser) C++ (Arduino) Arduino Leonardo ATmega32u4 @ 16 MHz avr8js (browser) C++ (Arduino) Arduino Pro Mini ATmega328p @ 8/16 MHz avr8js (browser) C++ (Arduino) Raspberry Pi Pico RP2040 @ 133 MHz rp2040js (browser) C++ (Arduino) Raspberry Pi Pico W RP2040 @ 133 MHz rp2040js (browser) C++ (Arduino) ESP32 DevKit V1 Xtensa LX6 @ 240 MHz QEMU lcgamboa (backend) C++ (Arduino) ESP32 DevKit C V4 Xtensa LX6 @ 240 MHz QEMU lcgamboa (backend) C++ (Arduino) ESP32-S3 Xtensa LX7 @ 240 MHz QEMU lcgamboa (backend) C++ (Arduino) ESP32-CAM Xtensa LX6 @ 240 MHz QEMU lcgamboa (backend) C++ (Arduino) Seeed XIAO ESP32-S3 Xtensa LX7 @ 240 MHz QEMU lcgamboa (backend) C++ (Arduino) Arduino Nano ESP32 Xtensa LX6 @ 240 MHz QEMU lcgamboa (backend) C++ (Arduino) ESP32-C3 DevKit RISC-V RV32IMC @ 160 MHz RiscVCore. ts (browser) C++ (Arduino) Seeed XIAO ESP32-C3 RISC-V RV32IMC @ 160 MHz RiscVCore. ts (browser) C++ (Arduino) ESP32-C3 SuperMini RISC-V RV32IMC @ 160 MHz RiscVCore.
+      <title>The Future of SCIP</title>
+      <link>https://sourcegraph.com/blog/the-future-of-scip</link>
+      <description>📝 A Core Steering Committee will be established to guide SCIP's future development. The Core Steering Committee (CSC)The ultimate decisions on strategic direction, governance, and final protocol definitions rest with the newly formed Core Steering Committee (CSC). Welcoming Our Inaugural Core Steering CommitteeWe are incredibly proud to announce the founding members of the SCIP Core Steering Committee.
 
-🔗 Read more: https://github.com/davidmonterocrespo24/velxio</description>
-      <guid isPermaLink="true">https://github.com/davidmonterocrespo24/velxio</guid>
-      <pubDate>Fri, 27 Mar 2026 20:44:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47548013</comments>
-    </item>
-    <item>
-      <title>Telnyx package compromised on PyPI</title>
-      <link>https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026</link>
-      <description>📝 By Telnyx TeamSummaryOn March 27, 2026 at 03:51:28 UTC, two unauthorized versions of the Telnyx Python SDK were published to PyPI: versions 4. The Telnyx platform, APIs, and infrastructure were not compromised. Affected Versions Version Published telnyx==4.
-
-🔗 Read more: https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026</description>
-      <guid isPermaLink="true">https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026</guid>
-      <pubDate>Fri, 27 Mar 2026 08:57:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47540388</comments>
-    </item>
-    <item>
-      <title>ISBN Visualization – Annas Archive</title>
-      <link>https://annas-archive.gd/isbn-visualization</link>
-      <guid isPermaLink="true">https://annas-archive.gd/isbn-visualization</guid>
-      <pubDate>Fri, 27 Mar 2026 20:02:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47547508</comments>
-    </item>
-    <item>
-      <title>Slovenia becomes first EU country to introduce fuel rationing</title>
-      <link>https://www.bbc.com/news/articles/c77m4zx6zvmo</link>
-      <description>📝 Many countries have been experiencing steep hikes in fuel prices. Some fuel retailers had already imposed measures of their own. Businesses worried as fuel prices riseSlovenia.
-
-🔗 Read more: https://www.bbc.com/news/articles/c77m4zx6zvmo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c77m4zx6zvmo</guid>
-      <pubDate>Fri, 27 Mar 2026 20:51:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47548087</comments>
-    </item>
-    <item>
-      <title>Show HN: Open-Source Animal Crossing–Style UI for Claude Code Agents</title>
-      <link>https://github.com/outworked/outworked/releases/tag/v0.3.0</link>
-      <description>📝 Just your Claude Code subscription and a can-do attitude. Your cofounder gives you more equity. Just an agent with a schedule.
-
-🔗 Read more: https://github.com/outworked/outworked/releases/tag/v0.3.0</description>
-      <guid isPermaLink="true">https://github.com/outworked/outworked/releases/tag/v0.3.0</guid>
-      <pubDate>Fri, 27 Mar 2026 17:25:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47545642</comments>
-    </item>
-    <item>
-      <title>Capability-Based Security for Redox: Namespace and CWD as Capabilities</title>
-      <link>https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/</link>
-      <description>📝 This is controlled using Scheme-rooted path. file scheme receives the system call request. Figure 1: File access flow before capabilities.
-
-🔗 Read more: https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/</description>
-      <guid isPermaLink="true">https://www.redox-os.org/news/nlnet-cap-nsmgr-cwd/</guid>
-      <pubDate>Fri, 27 Mar 2026 19:06:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47546911</comments>
-    </item>
-    <item>
-      <title>Browser-based SFX synthesizer using WASM/Zig</title>
-      <link>https://knell.medieval.software/studio</link>
-      <guid isPermaLink="true">https://knell.medieval.software/studio</guid>
-      <pubDate>Fri, 27 Mar 2026 16:56:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47545223</comments>
+🔗 Read more: https://sourcegraph.com/blog/the-future-of-scip</description>
+      <guid isPermaLink="true">https://sourcegraph.com/blog/the-future-of-scip</guid>
+      <pubDate>Fri, 27 Mar 2026 15:46:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47544238</comments>
     </item>
   </channel>
 </rss>
