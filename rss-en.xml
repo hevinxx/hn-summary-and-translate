@@ -6,68 +6,45 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Mar 2026 07:28:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 10:18:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>The curious case of retro demo scene graphics</title>
-      <link>https://www.datagubbe.se/aipixels/</link>
-      <description>📝 Owning Up, or Not Some scene artists were very upfront about copying. Scene artists soon perfected the pixel art translation, and could accomplish astonishing results with very limited resources. Around this time, the No Copy.
+      <title>I use excalidraw to manage my diagrams for my blog</title>
+      <link>https://blog.lysk.tech/excalidraw-frame-export/</link>
+      <description>📝 excalidraw files since last commit if [[ "${{ github. excalidraw files found" echo "has_changes=false" &gt;&gt; $GITHUB_OUTPUT else echo "Changed files:" echo "$CHANGED_FILES" echo "$CHANGED_FILES" &gt; /tmp/changed_files. excalidraw files - Generated light and dark mode variants 🤖 Generated with [Claude Code](https://claude.
 
-🔗 Read more: https://www.datagubbe.se/aipixels/</description>
-      <guid isPermaLink="true">https://www.datagubbe.se/aipixels/</guid>
-      <pubDate>Mon, 30 Mar 2026 05:27:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47570666</comments>
+🔗 Read more: https://blog.lysk.tech/excalidraw-frame-export/</description>
+      <guid isPermaLink="true">https://blog.lysk.tech/excalidraw-frame-export/</guid>
+      <pubDate>Mon, 30 Mar 2026 07:17:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47571376</comments>
     </item>
     <item>
-      <title>VHDL's Crown Jewel</title>
-      <link>https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/</link>
-      <description>📝 A delta cycle starts with a number of signal value updates. In these processes, signals assignments may occur that schedule value updates in the next delta cycle. The point of the delta cycle algorithm is that signal value updates and process evaluations are kept in separate sets.
+      <title>Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models</title>
+      <link>https://dani2442.github.io/posts/continuous-rl/</link>
+      <description>📝 Consider a Markov decision process with state space $\mathcal X$, action space $\mathcal A$, transition kernel $P(\cdot\mid x,a)$, reward function $r(x,a)$, and discount factor $\gamma\in(0,1)$. \tag{Bellman equation} $$This says: choose the action that maximizes immediate reward plus continuation value. The associated value function is$$ V(x):=\sup_\pi \mathbb{E}\Big[\int_0^\infty e^{-\rho t}r(X_t,a_t)\,dt \Big| X_0=x\Big] $$Theorem (Hamilton-Jacobi-Bellman equation for a controlled diffusion).
 
-🔗 Read more: https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/</description>
-      <guid isPermaLink="true">https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/</guid>
-      <pubDate>Mon, 30 Mar 2026 04:39:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47570435</comments>
+🔗 Read more: https://dani2442.github.io/posts/continuous-rl/</description>
+      <guid isPermaLink="true">https://dani2442.github.io/posts/continuous-rl/</guid>
+      <pubDate>Mon, 30 Mar 2026 07:34:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47571495</comments>
     </item>
     <item>
-      <title>15 years, one server, 8GB RAM and 500k users – how Webminal refuses to die</title>
-      <link>https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803</link>
-      <description>📝 Root Lab - practice real sysadmin skills with full root access. We use User Mode Linux to give you a complete kernel with real block devices. User Mode Linux — the technology nobody uses Everyone uses Docker.
+      <title>I am definitely missing the pre-AI writing era</title>
+      <link>https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era</link>
+      <description>📝 Have some think pieces on popular sites, and other personal blog that I used to share. Sorry that this sounds like a rant, well, it is one. Cause those words, that the AI told you: sound wrong or aggressive or less formal, are the ones that carry the ''emotions", you ought to share.
 
-🔗 Read more: https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803</description>
-      <guid isPermaLink="true">https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803</guid>
-      <pubDate>Mon, 30 Mar 2026 06:08:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47570940</comments>
+🔗 Read more: https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era</description>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era</guid>
+      <pubDate>Mon, 30 Mar 2026 07:03:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47571279</comments>
     </item>
     <item>
-      <title>HD Audio Driver for Windows 98SE / Me</title>
-      <link>https://github.com/andrew-hoffman/wdmhda</link>
-      <description>📝 WDMHDA HD Audio driver for Windows 98SE / ME This project is a High Definition Audio aka Azalia codec and controller driver. 1 or newer after installing this driver. See also Dogbert's open source CMI driver.
-
-🔗 Read more: https://github.com/andrew-hoffman/wdmhda</description>
-      <guid isPermaLink="true">https://github.com/andrew-hoffman/wdmhda</guid>
-      <pubDate>Mon, 30 Mar 2026 05:01:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47570547</comments>
-    </item>
-    <item>
-      <title>Midnight train from GA: A view of America from the tracks as airports struggle</title>
-      <link>https://apnews.com/article/airports-shutdown-long-lines-train-travel-amtrak-e4d8ea591b3b036142c2bf2dee7dff5a</link>
-      <description>📝 (AP Photo/Bill Barrow) Read More 2 of 5 | This image made from an Associated Press video shows the Virginia countryside, as seen from an Amtrak train, Friday, March 27, 2026. This image made from an Associated Press video shows the Virginia countryside, as seen from an Amtrak train, Friday, March 27, 2026. Union Station is seen Friday, March 27, 2026, in Washington.
-
-🔗 Read more: https://apnews.com/article/airports-shutdown-long-lines-train-travel-amtrak-e4d8ea591b3b036142c2bf2dee7dff5a</description>
-      <guid isPermaLink="true">https://apnews.com/article/airports-shutdown-long-lines-train-travel-amtrak-e4d8ea591b3b036142c2bf2dee7dff5a</guid>
-      <pubDate>Sun, 29 Mar 2026 20:00:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47566653</comments>
-    </item>
-    <item>
-      <title>AI and bots have officially taken over the internet</title>
-      <link>https://www.cnbc.com/2026/03/26/ai-bots-humans-internet.html</link>
-      <description>📝 Key PointsA new report found that bots have surpassed human internet traffic. HUMAN Security's State of AI Traffic report found that automated traffic grew eight times faster than human traffic year-over-year. That automated traffic across the internet grew almost eight times faster than human activity in 2025, according to the report.
-
-🔗 Read more: https://www.cnbc.com/2026/03/26/ai-bots-humans-internet.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/03/26/ai-bots-humans-internet.html</guid>
-      <pubDate>Mon, 30 Mar 2026 06:29:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47571064</comments>
+      <title>Stripe is down</title>
+      <link>https://status.stripe.com/</link>
+      <guid isPermaLink="true">https://status.stripe.com/</guid>
+      <pubDate>Mon, 30 Mar 2026 08:51:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47572000</comments>
     </item>
   </channel>
 </rss>
