@@ -6,106 +6,113 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 31 Mar 2026 19:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 21:40:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>克劳德代码源泄漏：假工具、挫败正则表达式、卧底模式</title>
-      <link>https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</link>
-      <description>📝 我每天都使用 Claude Code，所以当超凡手今天早些时候注意到 Anthropic 已经发布了一个.反蒸馏：注入假工具来毒害模仿者#In claude。卧底模式：隐藏其 AI#文件卧底的 AI。
+      <title>OpenAI 筹集了 $122B</title>
+      <link>https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</link>
+      <description>📝 该轮融资承诺资本总额为 1,220 亿美元，高于该公司此前宣布的 1,100 亿美元。该轮融资承诺资本总额为 1,220 亿美元，高于该公司 2 月份宣布的 1,100 亿美元。 OpenAI 表示，Shaw Ventures 表示。
 
 
-🔤 Original: The Claude Code Source Leak: fake tools, frustration regexes, undercover mode
+🔤 Original: OpenAI raises $122B
 
-🔗 Read more: https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</description>
-      <guid isPermaLink="true">https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</guid>
-      <pubDate>Tue, 31 Mar 2026 13:04:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47586778</comments>
+🔗 Read more: https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</guid>
+      <pubDate>Tue, 31 Mar 2026 20:07:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47592755</comments>
     </item>
     <item>
-      <title>Cohere Transcribe：语音识别</title>
-      <link>https://cohere.com/blog/transcribe</link>
-      <description>📝 Cohere Transcribe 反映了这一意图。 0 图片 1：Cohere Transcribe 是一种开放权重 Conformer ASR 模型，可将语音音频转换为支持 14 种支持语言的文本。模型性能准确性Cohere Transcribe 是英语语音识别准确性的最新标准。
-
-
-🔤 Original: Cohere Transcribe: Speech Recognition
-
-🔗 Read more: https://cohere.com/blog/transcribe</description>
-      <guid isPermaLink="true">https://cohere.com/blog/transcribe</guid>
-      <pubDate>Tue, 31 Mar 2026 16:27:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589818</comments>
+      <title>GitHub 的历史正常运行时间</title>
+      <link>https://damrnelson.github.io/github-historical-uptime/</link>
+      <guid isPermaLink="true">https://damrnelson.github.io/github-historical-uptime/</guid>
+      <pubDate>Tue, 31 Mar 2026 19:01:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47591928</comments>
     </item>
     <item>
-      <title>好的代码仍然会获胜</title>
-      <link>https://www.greptile.com/blog/ai-slopware-future</link>
-      <description>📝 我想说的是，由于经济激励，人工智能模型会编写出好的代码。好的代码的生成和维护成本更低。相比之下，复杂的代码无法扩展。
+      <title>Ministack（LocalStack 的替代品）</title>
+      <link>https://ministack.org/</link>
+      <description>📝 单个端口上有 30 个 AWS 服务 — 具有真正的 Postgres、Redis 和 Docker 容器。核心 AWS 服务加上真实的基础设施 — RDS 运行真实的数据库，ElastiCache 运行真实的 Redis，ECS 启动真实的 Docker 容器，Athena 通过 DuckDB（安装后）执行真实的 SQL。最重要的是，RDS、ElastiCache 和 ECS 运行真正的 Docker 容器。
 
 
-🔤 Original: Good code will still win
+🔤 Original: Ministack (Replacement for LocalStack)
 
-🔗 Read more: https://www.greptile.com/blog/ai-slopware-future</description>
-      <guid isPermaLink="true">https://www.greptile.com/blog/ai-slopware-future</guid>
-      <pubDate>Tue, 31 Mar 2026 14:32:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47587953</comments>
+🔗 Read more: https://ministack.org/</description>
+      <guid isPermaLink="true">https://ministack.org/</guid>
+      <pubDate>Tue, 31 Mar 2026 20:48:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593285</comments>
     </item>
     <item>
-      <title>意外地用 Claude Code 创建了我的第一个叉子炸弹</title>
-      <link>https://www.droppedasbaby.com/posts/2602-01/</link>
-      <description>📝 完全没有反应。每个 CC 实例都会启动另外两个 CC 实例。我打开另一个幽灵实例并输入claude。
+      <title>显示 HN：用于 BM25 相关性排名全文搜索的 Postgres 扩展</title>
+      <link>https://github.com/timescale/pg_textsearch</link>
+      <description>📝 索引 在文本列上创建 BM25 索引：使用 bm25(content) WITH (text_config='english'); 在文档上创建索引索引选项 text_config - 要使用的 PostgreSQL 文本搜索配置（必需） k1 - 术语频率饱和度参数（默认为 1. 75） 使用 bm25(content) WITH (text_config='english', k1=1. 8); 在文档上创建索引还支持不同的文本搜索配置： -- 带词干的英文文档 CREATE INDEX docs_en_idx ON 文档 USING bm25(content) WITH (text_config='english'); -- 简单文本处理，无需词干 CREATE INDEX docs_simple_idx ON 文档 USING bm25(content) WITH (text_config='simple'); -- 特定于语言的配置 CREATE INDEX docs_fr_idx ON french_docs USING bm25(content) WITH (text_config='french');使用 german_docs 创建索引 docs_de_idx b。
 
 
-🔤 Original: Accidentally created my first fork bomb with Claude Code
+🔤 Original: Show HN: Postgres extension for BM25 relevance-ranked full-text search
 
-🔗 Read more: https://www.droppedasbaby.com/posts/2602-01/</description>
-      <guid isPermaLink="true">https://www.droppedasbaby.com/posts/2602-01/</guid>
-      <pubDate>Tue, 31 Mar 2026 07:40:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47583959</comments>
+🔗 Read more: https://github.com/timescale/pg_textsearch</description>
+      <guid isPermaLink="true">https://github.com/timescale/pg_textsearch</guid>
+      <pubDate>Tue, 31 Mar 2026 16:29:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47589856</comments>
     </item>
     <item>
-      <title>FTC 称，OkCupid 向面部识别公司提供了 3M 约会应用程序的照片</title>
-      <link>https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</link>
-      <description>📝 FTC：OkCupid 对数据使用没有施加任何限制 FTC 批评 Match 和 OkCupid 与提供面部识别技术的人工智能公司 Clarifai 共享 OkCupid 数据。 FTC 声称，“自 2014 年 9 月以来，Match 和 OkCupid 采取了广泛的隐瞒措施（包括试图阻碍 FTC 的调查）并否认 OkCupid 与数据接收者共享用户个人信息。例如，当有新闻报道称第三方获得了OkCupid大数据集时，OkCupid向媒体和OkCupid用户声称与第三方无关。
+      <title>我通过 Home Tailscale 出口节点跟踪我的流量</title>
+      <link>https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</link>
+      <description>📝 退出节点有什么用。控制平面与数据平面 ELI5：控制平面是地图和交通警察；数据平面就是道路。特别是对于退出节点，该节点通告 0。
 
 
-🔤 Original: OkCupid gave 3M dating-app photos to facial recognition firm, FTC says
+🔤 Original: I Traced My Traffic Through a Home Tailscale Exit Node
 
-🔗 Read more: https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</description>
-      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</guid>
-      <pubDate>Tue, 31 Mar 2026 17:55:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47591104</comments>
+🔗 Read more: https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</description>
+      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</guid>
+      <pubDate>Tue, 31 Mar 2026 19:46:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47592462</comments>
     </item>
     <item>
-      <title>我反编译了白宫的新应用程序</title>
-      <link>https://blog.thereallo.dev/blog/decompiling-the-white-house-app</link>
-      <guid isPermaLink="true">https://blog.thereallo.dev/blog/decompiling-the-white-house-app</guid>
-      <pubDate>Tue, 31 Mar 2026 17:47:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47591014</comments>
+      <title>为什么美国海军不会轰炸伊朗并“开放”霍尔木兹海峡</title>
+      <link>https://responsiblestatecraft.org/iran-strait-of-hormuz/</link>
+      <description>📝 组织军事工业联合体华盛顿政治媒体全球危机地区欧洲中东非洲亚太地区拉丁美洲北美捐赠军事工业联合体华盛顿政治媒体全球危机地区欧洲中东非洲亚太拉丁美洲北美视频关于我们关注我们的社会责任。美国看似无处不在的航空母舰还赋予海上部队沿任何海岸线数百英里的打击能力，可以随意打击敌人。经过仔细检查，规划者意识到伊朗正在将反舰导弹安装到混凝土和钢筋掩体中，使其能够轻松瞄准任何经过海峡附近的船只。
+
+
+🔤 Original: Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz
+
+🔗 Read more: https://responsiblestatecraft.org/iran-strait-of-hormuz/</description>
+      <guid isPermaLink="true">https://responsiblestatecraft.org/iran-strait-of-hormuz/</guid>
+      <pubDate>Tue, 31 Mar 2026 09:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47584795</comments>
     </item>
     <item>
-      <title>确保椭圆曲线加密货币免受量子漏洞影响 [pdf]</title>
-      <link>https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf</link>
-      <description>📝 ���g�-�}B�Sa �uc K����ʄ� %��X 。 xg�j�/MZ7vv���� Da)dIB �]�_�s ��. �:��� � �V�*Z�~ =�}~���Wy� "��,^]]��"�b�*�*��du�[� .
+      <title>询问 HN：我们地下室的分布式数据中心</title>
+      <link>https://news.ycombinator.com/item?id=47587597</link>
+      <description>📝 这可能有点不切实际，但为什么我们不能制作一个半机架服务器放在某人的地下室，它也可以加热他们的热水并使用地下室地板作为散热器。数据中心的大部分问题似乎都在于散热的能源消耗。通过将它们分配到凉爽的地下室，甚至将它们连接到家庭供暖系统，我们可以减少这种情况，从而提高它们的效率。
 
 
-🔤 Original: Securing Elliptic Curve Cryptocurrencies Against Quantum Vulnerabilities [pdf]
+🔤 Original: Ask HN: Distributed data centers in our basements
 
-🔗 Read more: https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf</description>
-      <guid isPermaLink="true">https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf</guid>
-      <pubDate>Tue, 31 Mar 2026 16:00:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589370</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47587597</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47587597</guid>
+      <pubDate>Tue, 31 Mar 2026 14:05:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47587597</comments>
     </item>
     <item>
-      <title>Scotty：一个漂亮的 SSH 任务运行程序</title>
-      <link>https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner</link>
-      <description>📝 使用 Scotty 定义任务和部署 您可以在 Scotty 中定义任务。 php 文件中，Scotty 引入了一个新的 Scotty.php 文件。运行 scotty run deploy --branch=develop 使 $BRANCH 在您的任务中可用。
+      <title>Show HN：PhAIL – AI 模型的真实机器人基准</title>
+      <link>https://phail.ai</link>
+      <guid isPermaLink="true">https://phail.ai</guid>
+      <pubDate>Tue, 31 Mar 2026 16:25:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47589797</comments>
+    </item>
+    <item>
+      <title>JSSE：由代理构建的 JavaScript 引擎</title>
+      <link>https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</link>
+      <description>📝 test262 通过率 63%。但这实际上是怎样的呢？这就是核心循环。
 
 
-🔤 Original: Scotty: A beautiful SSH task runner
+🔤 Original: JSSE: A JavaScript Engine Built by an Agent
 
-🔗 Read more: https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner</description>
-      <guid isPermaLink="true">https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner</guid>
-      <pubDate>Tue, 31 Mar 2026 16:12:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589567</comments>
+🔗 Read more: https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</description>
+      <guid isPermaLink="true">https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</guid>
+      <pubDate>Tue, 31 Mar 2026 20:21:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47592939</comments>
     </item>
   </channel>
 </rss>

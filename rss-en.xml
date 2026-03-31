@@ -6,85 +6,92 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Mar 2026 19:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 21:40:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>The Claude Code Source Leak: fake tools, frustration regexes, undercover mode</title>
-      <link>https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</link>
-      <description>📝 I use Claude Code daily, so when Chaofan Shou noticed earlier today that Anthropic had shipped a. Anti-distillation: injecting fake tools to poison copycats#In claude. Undercover mode: AI that hides it’s AI#The file undercover.
+      <title>OpenAI raises $122B</title>
+      <link>https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</link>
+      <description>📝 The round totaled $122 billion of committed capital, up from the $110 billion figure that the company previously announced. The round totaled $122 billion of committed capital, up from the $110 billion figure that the company announced in February. Shaw Ventures, OpenAI said.
 
-🔗 Read more: https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</description>
-      <guid isPermaLink="true">https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</guid>
-      <pubDate>Tue, 31 Mar 2026 13:04:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47586778</comments>
+🔗 Read more: https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</guid>
+      <pubDate>Tue, 31 Mar 2026 20:07:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47592755</comments>
     </item>
     <item>
-      <title>Cohere Transcribe: Speech Recognition</title>
-      <link>https://cohere.com/blog/transcribe</link>
-      <description>📝 Cohere Transcribe reflects that intent. 0 Image 1: Cohere Transcribe is an open-weights Conformer ASR model converting speech audio into text across 14 supported languages. Model performanceAccuracyCohere Transcribe is the latest standard for English speech recognition accuracy.
-
-🔗 Read more: https://cohere.com/blog/transcribe</description>
-      <guid isPermaLink="true">https://cohere.com/blog/transcribe</guid>
-      <pubDate>Tue, 31 Mar 2026 16:27:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589818</comments>
+      <title>GitHub's Historic Uptime</title>
+      <link>https://damrnelson.github.io/github-historical-uptime/</link>
+      <guid isPermaLink="true">https://damrnelson.github.io/github-historical-uptime/</guid>
+      <pubDate>Tue, 31 Mar 2026 19:01:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47591928</comments>
     </item>
     <item>
-      <title>Good code will still win</title>
-      <link>https://www.greptile.com/blog/ai-slopware-future</link>
-      <description>📝 I want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. By contrast, complex code doesn't scale.
+      <title>Ministack (Replacement for LocalStack)</title>
+      <link>https://ministack.org/</link>
+      <description>📝 30 AWS services on a single port — with real Postgres, Redis, and Docker containers. Core AWS services plus real infrastructure — RDS runs actual databases, ElastiCache runs real Redis, ECS starts real Docker containers, Athena executes real SQL via DuckDB (when installed). Where it matters most — RDS, ElastiCache, and ECS run real Docker containers.
 
-🔗 Read more: https://www.greptile.com/blog/ai-slopware-future</description>
-      <guid isPermaLink="true">https://www.greptile.com/blog/ai-slopware-future</guid>
-      <pubDate>Tue, 31 Mar 2026 14:32:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47587953</comments>
+🔗 Read more: https://ministack.org/</description>
+      <guid isPermaLink="true">https://ministack.org/</guid>
+      <pubDate>Tue, 31 Mar 2026 20:48:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593285</comments>
     </item>
     <item>
-      <title>Accidentally created my first fork bomb with Claude Code</title>
-      <link>https://www.droppedasbaby.com/posts/2602-01/</link>
-      <description>📝 Completely unresponsive. Every instance of CC starts two more CC instances. I open another ghostty instance and type in claude.
+      <title>Show HN: Postgres extension for BM25 relevance-ranked full-text search</title>
+      <link>https://github.com/timescale/pg_textsearch</link>
+      <description>📝 Indexing Create a BM25 index on your text columns: CREATE INDEX ON documents USING bm25(content) WITH (text_config='english'); Index Options text_config - PostgreSQL text search configuration to use (required) k1 - term frequency saturation parameter (1. 75 by default) CREATE INDEX ON documents USING bm25(content) WITH (text_config='english', k1=1. 8); Also supports different text search configurations: -- English documents with stemming CREATE INDEX docs_en_idx ON documents USING bm25(content) WITH (text_config='english'); -- Simple text processing without stemming CREATE INDEX docs_simple_idx ON documents USING bm25(content) WITH (text_config='simple'); -- Language-specific configurations CREATE INDEX docs_fr_idx ON french_docs USING bm25(content) WITH (text_config='french'); CREATE INDEX docs_de_idx ON german_docs USING b.
 
-🔗 Read more: https://www.droppedasbaby.com/posts/2602-01/</description>
-      <guid isPermaLink="true">https://www.droppedasbaby.com/posts/2602-01/</guid>
-      <pubDate>Tue, 31 Mar 2026 07:40:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47583959</comments>
+🔗 Read more: https://github.com/timescale/pg_textsearch</description>
+      <guid isPermaLink="true">https://github.com/timescale/pg_textsearch</guid>
+      <pubDate>Tue, 31 Mar 2026 16:29:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47589856</comments>
     </item>
     <item>
-      <title>OkCupid gave 3M dating-app photos to facial recognition firm, FTC says</title>
-      <link>https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</link>
-      <description>📝 FTC: OkCupid imposed no restrictions on data use The FTC criticized Match and OkCupid for sharing OkCupid data with Clarifai, an AI company that offers facial recognition technology. ” The FTC alleged that “since September 2014, Match and OkCupid took extensive steps to conceal—including through trying to obstruct the FTC’s investigation—and deny that OkCupid shared users’ personal information with the data recipient. For example, when a news story revealed that the third party had obtained large OkCupid datasets, OkCupid claimed to the media and OkCupid users that it was not involved with the third party.
+      <title>I Traced My Traffic Through a Home Tailscale Exit Node</title>
+      <link>https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</link>
+      <description>📝 What is an exit node for. Control Plane vs Data Plane ELI5: control plane is the map and traffic cop; data plane is the road. For exit nodes specifically, the node advertises 0.
 
-🔗 Read more: https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</description>
-      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</guid>
-      <pubDate>Tue, 31 Mar 2026 17:55:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47591104</comments>
+🔗 Read more: https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</description>
+      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</guid>
+      <pubDate>Tue, 31 Mar 2026 19:46:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47592462</comments>
     </item>
     <item>
-      <title>I Decompiled the White House's New App</title>
-      <link>https://blog.thereallo.dev/blog/decompiling-the-white-house-app</link>
-      <guid isPermaLink="true">https://blog.thereallo.dev/blog/decompiling-the-white-house-app</guid>
-      <pubDate>Tue, 31 Mar 2026 17:47:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47591014</comments>
+      <title>Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz</title>
+      <link>https://responsiblestatecraft.org/iran-strait-of-hormuz/</link>
+      <description>📝 orgMilitary Industrial ComplexWashington PoliticsMediaGlobal CrisesRegionsEuropeMiddle EastAfricaAsia-PacificLatin AmericaNorth America Donate DonateMilitary Industrial ComplexWashington PoliticsMediaGlobal CrisesRegionsEuropeMiddle EastAfricaAsia-PacificLatin AmericaNorth AmericaVideoAbout Us Follow us on social Stay Responsible. America’s seemingly ubiquitous aircraft carriers also gave sea-borne forces striking power over several hundred miles along any shorelines to pound enemies at will. Upon closer examination, planners realized that Iran was installing anti-ship missiles into concrete and steel-reinforced bunkers, giving it the ability to easily target any ships passing near the strait.
+
+🔗 Read more: https://responsiblestatecraft.org/iran-strait-of-hormuz/</description>
+      <guid isPermaLink="true">https://responsiblestatecraft.org/iran-strait-of-hormuz/</guid>
+      <pubDate>Tue, 31 Mar 2026 09:30:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47584795</comments>
     </item>
     <item>
-      <title>Securing Elliptic Curve Cryptocurrencies Against Quantum Vulnerabilities [pdf]</title>
-      <link>https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf</link>
-      <description>📝 ���g�-�}B�Sa �ucK����ʄ� %��X. xg�j�/MZ7vv����Da)dIB�]�_�s��. �:���� �V�*Z�~=�}~���Wy�"��,^]]��"�b�*�*��du�[�.
+      <title>Ask HN: Distributed data centers in our basements</title>
+      <link>https://news.ycombinator.com/item?id=47587597</link>
+      <description>📝 This is likely a bit unrealistic, but why can't we make a half rack server to go in someones basement that can also heat up their hot water and use the basement floor as a heat sink as well. It seems like a lot of the blight of data centers is the energy to remove the heat. By distributing them into cool basements and even connecting them into the home heating system we could reduce that making them more efficient.
 
-🔗 Read more: https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf</description>
-      <guid isPermaLink="true">https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf</guid>
-      <pubDate>Tue, 31 Mar 2026 16:00:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589370</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47587597</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47587597</guid>
+      <pubDate>Tue, 31 Mar 2026 14:05:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47587597</comments>
     </item>
     <item>
-      <title>Scotty: A beautiful SSH task runner</title>
-      <link>https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner</link>
-      <description>📝 Using Scotty Defining tasks and deploying You define your tasks in a Scotty. php files, Scotty introduces a new Scotty. Running scotty run deploy --branch=develop makes $BRANCH available in your tasks.
+      <title>Show HN: PhAIL – Real-robot benchmark for AI models</title>
+      <link>https://phail.ai</link>
+      <guid isPermaLink="true">https://phail.ai</guid>
+      <pubDate>Tue, 31 Mar 2026 16:25:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47589797</comments>
+    </item>
+    <item>
+      <title>JSSE: A JavaScript Engine Built by an Agent</title>
+      <link>https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</link>
+      <description>📝 63% test262 pass rate. But what did that actually look like day-to-day. That was the core loop.
 
-🔗 Read more: https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner</description>
-      <guid isPermaLink="true">https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner</guid>
-      <pubDate>Tue, 31 Mar 2026 16:12:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589567</comments>
+🔗 Read more: https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</description>
+      <guid isPermaLink="true">https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</guid>
+      <pubDate>Tue, 31 Mar 2026 20:21:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47592939</comments>
     </item>
   </channel>
 </rss>
