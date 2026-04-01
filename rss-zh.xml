@@ -6,113 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 31 Mar 2026 21:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 02:35:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>OpenAI 筹集了 $122B</title>
-      <link>https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</link>
-      <description>📝 该轮融资承诺资本总额为 1,220 亿美元，高于该公司此前宣布的 1,100 亿美元。该轮融资承诺资本总额为 1,220 亿美元，高于该公司 2 月份宣布的 1,100 亿美元。 OpenAI 表示，Shaw Ventures 表示。
+      <title>每天一点，远离混乱</title>
+      <link>https://scottlawsonbc.com/post/dot-system</link>
+      <description>📝 每个工具箱，每个带有小口袋的零件收纳盒，所有我看不透的东西。透明盒子解决了这个问题。透明盒子不存在这个问题。
 
 
-🔤 Original: OpenAI raises $122B
+🔤 Original: A dot a day keeps the clutter away
 
-🔗 Read more: https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</guid>
-      <pubDate>Tue, 31 Mar 2026 20:07:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592755</comments>
+🔗 Read more: https://scottlawsonbc.com/post/dot-system</description>
+      <guid isPermaLink="true">https://scottlawsonbc.com/post/dot-system</guid>
+      <pubDate>Tue, 31 Mar 2026 21:15:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593556</comments>
     </item>
     <item>
-      <title>GitHub 的历史正常运行时间</title>
-      <link>https://damrnelson.github.io/github-historical-uptime/</link>
-      <guid isPermaLink="true">https://damrnelson.github.io/github-historical-uptime/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:01:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47591928</comments>
+      <title>Show HN：1-Bit Bonsai，第一个商业上可行的 1-Bit LLM</title>
+      <link>https://prismml.com/</link>
+      <description>📝 第一个具有 1 位权重的商业可行模型。 24GB 内存，1 位 Bonsai 1. 模型错误率的负对数除以模型大小 平均得分 (IFEval、GSM8K、HumanEval+、BFCL、MuSR、MMLU-Redux) 跨硬件平台每秒的令牌数（越高越好） 平均得分 (IFEval、GSM8K、HumanEval+、BFCL、MuSR、MMLU-Redux) 平均得分 (IFEval、 GSM8K、HumanEval+、BFCL、MuSR、MMLU-Redux）跨硬件的每个令牌毫瓦时（越低越好）。
+
+
+🔤 Original: Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs
+
+🔗 Read more: https://prismml.com/</description>
+      <guid isPermaLink="true">https://prismml.com/</guid>
+      <pubDate>Tue, 31 Mar 2026 21:01:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593422</comments>
     </item>
     <item>
-      <title>Ministack（LocalStack 的替代品）</title>
-      <link>https://ministack.org/</link>
-      <description>📝 单个端口上有 30 个 AWS 服务 — 具有真正的 Postgres、Redis 和 Docker 容器。核心 AWS 服务加上真实的基础设施 — RDS 运行真实的数据库，ElastiCache 运行真实的 Redis，ECS 启动真实的 Docker 容器，Athena 通过 DuckDB（安装后）执行真实的 SQL。最重要的是，RDS、ElastiCache 和 ECS 运行真正的 Docker 容器。
-
-
-🔤 Original: Ministack (Replacement for LocalStack)
-
-🔗 Read more: https://ministack.org/</description>
-      <guid isPermaLink="true">https://ministack.org/</guid>
-      <pubDate>Tue, 31 Mar 2026 20:48:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47593285</comments>
+      <title>黑曜石和光标生了一个孩子。它是开源的</title>
+      <link>https://cushionmd.com/</link>
+      <guid isPermaLink="true">https://cushionmd.com/</guid>
+      <pubDate>Wed, 01 Apr 2026 01:59:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595873</comments>
     </item>
     <item>
-      <title>显示 HN：用于 BM25 相关性排名全文搜索的 Postgres 扩展</title>
-      <link>https://github.com/timescale/pg_textsearch</link>
-      <description>📝 索引 在文本列上创建 BM25 索引：使用 bm25(content) WITH (text_config='english'); 在文档上创建索引索引选项 text_config - 要使用的 PostgreSQL 文本搜索配置（必需） k1 - 术语频率饱和度参数（默认为 1. 75） 使用 bm25(content) WITH (text_config='english', k1=1. 8); 在文档上创建索引还支持不同的文本搜索配置： -- 带词干的英文文档 CREATE INDEX docs_en_idx ON 文档 USING bm25(content) WITH (text_config='english'); -- 简单文本处理，无需词干 CREATE INDEX docs_simple_idx ON 文档 USING bm25(content) WITH (text_config='simple'); -- 特定于语言的配置 CREATE INDEX docs_fr_idx ON french_docs USING bm25(content) WITH (text_config='french');使用 german_docs 创建索引 docs_de_idx b。
+      <title>我们拦截了白宫应用程序的流量。 77% 的请求发送给第三方</title>
+      <link>https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</link>
+      <description>📝 com 19 Elfsight 实用程序脚本静态。 com 12 Elfsight 静态资产存储。 com 1 谷歌静态 yt3.
 
 
-🔤 Original: Show HN: Postgres extension for BM25 relevance-ranked full-text search
+🔤 Original: We intercepted the White House app's traffic. 77% of requests go to 3rd parties
 
-🔗 Read more: https://github.com/timescale/pg_textsearch</description>
-      <guid isPermaLink="true">https://github.com/timescale/pg_textsearch</guid>
-      <pubDate>Tue, 31 Mar 2026 16:29:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589856</comments>
+🔗 Read more: https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</description>
+      <guid isPermaLink="true">https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</guid>
+      <pubDate>Wed, 01 Apr 2026 01:58:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595865</comments>
     </item>
     <item>
-      <title>我通过 Home Tailscale 出口节点跟踪我的流量</title>
-      <link>https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</link>
-      <description>📝 退出节点有什么用。控制平面与数据平面 ELI5：控制平面是地图和交通警察；数据平面就是道路。特别是对于退出节点，该节点通告 0。
+      <title>为了“国家安全”，美国免除石油工业保护海湾动物的责任</title>
+      <link>https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</link>
+      <description>📝 一种海湾鲸尤其容易受到伤害。科学家估计，地球上仅存约 51 头莱斯鲸，它们全部生活在墨西哥湾水域，特朗普政府将其称为美洲湾。美国国家海洋和大气管理局 (NOAA) 工作人员在海湾里给一头莱斯鲸贴上标签。
 
 
-🔤 Original: I Traced My Traffic Through a Home Tailscale Exit Node
+🔤 Original: U.S. exempts oil industry from protecting Gulf animals, for 'national security'
 
-🔗 Read more: https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</description>
-      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:46:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592462</comments>
+🔗 Read more: https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</description>
+      <guid isPermaLink="true">https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</guid>
+      <pubDate>Wed, 01 Apr 2026 01:18:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595620</comments>
     </item>
     <item>
-      <title>为什么美国海军不会轰炸伊朗并“开放”霍尔木兹海峡</title>
-      <link>https://responsiblestatecraft.org/iran-strait-of-hormuz/</link>
-      <description>📝 组织军事工业联合体华盛顿政治媒体全球危机地区欧洲中东非洲亚太地区拉丁美洲北美捐赠军事工业联合体华盛顿政治媒体全球危机地区欧洲中东非洲亚太拉丁美洲北美视频关于我们关注我们的社会责任。美国看似无处不在的航空母舰还赋予海上部队沿任何海岸线数百英里的打击能力，可以随意打击敌人。经过仔细检查，规划者意识到伊朗正在将反舰导弹安装到混凝土和钢筋掩体中，使其能够轻松瞄准任何经过海峡附近的船只。
+      <title>普通实验室手套可能会扭曲微塑料数据</title>
+      <link>https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</link>
+      <description>📝 特色视频来自密歇根大学的一组研究人员发现，传统上由各种类​​型的实验室科学家佩戴的丁腈和乳胶手套可以脱落模仿微塑料的称为“硬脂酸盐”的颗粒。 “之前的研究发现，在湿法制备样品中使用一次性手套可能会扭曲微塑料数据，但这是第一项在干法制备中发现类似活性的研究。最重要的是，研究人员强调，这并不意味着不存在微塑料污染之类的东西，只是研究它的科学家应该完善他们的方法。
 
 
-🔤 Original: Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz
+🔤 Original: Ordinary Lab Gloves May Have Skewed Microplastic Data
 
-🔗 Read more: https://responsiblestatecraft.org/iran-strait-of-hormuz/</description>
-      <guid isPermaLink="true">https://responsiblestatecraft.org/iran-strait-of-hormuz/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:30:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47584795</comments>
+🔗 Read more: https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</description>
+      <guid isPermaLink="true">https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</guid>
+      <pubDate>Tue, 31 Mar 2026 21:22:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593634</comments>
     </item>
     <item>
-      <title>询问 HN：我们地下室的分布式数据中心</title>
-      <link>https://news.ycombinator.com/item?id=47587597</link>
-      <description>📝 这可能有点不切实际，但为什么我们不能制作一个半机架服务器放在某人的地下室，它也可以加热他们的热水并使用地下室地板作为散热器。数据中心的大部分问题似乎都在于散热的能源消耗。通过将它们分配到凉爽的地下室，甚至将它们连接到家庭供暖系统，我们可以减少这种情况，从而提高它们的效率。
-
-
-🔤 Original: Ask HN: Distributed data centers in our basements
-
-🔗 Read more: https://news.ycombinator.com/item?id=47587597</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47587597</guid>
-      <pubDate>Tue, 31 Mar 2026 14:05:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47587597</comments>
-    </item>
-    <item>
-      <title>Show HN：PhAIL – AI 模型的真实机器人基准</title>
-      <link>https://phail.ai</link>
-      <guid isPermaLink="true">https://phail.ai</guid>
-      <pubDate>Tue, 31 Mar 2026 16:25:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589797</comments>
-    </item>
-    <item>
-      <title>JSSE：由代理构建的 JavaScript 引擎</title>
-      <link>https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</link>
-      <description>📝 test262 通过率 63%。但这实际上是怎样的呢？这就是核心循环。
-
-
-🔤 Original: JSSE: A JavaScript Engine Built by an Agent
-
-🔗 Read more: https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</description>
-      <guid isPermaLink="true">https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</guid>
-      <pubDate>Tue, 31 Mar 2026 20:21:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592939</comments>
+      <title>尼安德特人在刀锋上生存了 35 万年</title>
+      <link>https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years</link>
+      <guid isPermaLink="true">https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years</guid>
+      <pubDate>Wed, 01 Apr 2026 01:12:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595572</comments>
     </item>
   </channel>
 </rss>

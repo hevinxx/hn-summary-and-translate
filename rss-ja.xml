@@ -6,113 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 21:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 02:35:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>OpenAIが1220億ドルを調達</title>
-      <link>https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</link>
-      <description>📝 このラウンドのコミットメント資本総額は1,220億ドルとなり、同社が以前発表した1,100億ドルを上回った。このラウンドのコミットメント資本総額は1,220億ドルとなり、同社が2月に発表した数字の1,100億ドルを上回った。ショー・ベンチャーズ、OpenAIはこう語った。
+      <title>1 日 1 ドットで散らかったものを整理できます</title>
+      <link>https://scottlawsonbc.com/post/dot-system</link>
+      <description>📝 すべてのツールボックス、小さなポケットが付いたすべてのパーツオーガナイザー、私が見通せないものはすべてありました。クリアボックスはそれを修正しました。クリアボックスにはこの問題はありません。
 
 
-🔤 Original: OpenAI raises $122B
+🔤 Original: A dot a day keeps the clutter away
 
-🔗 Read more: https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</guid>
-      <pubDate>Tue, 31 Mar 2026 20:07:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592755</comments>
+🔗 Read more: https://scottlawsonbc.com/post/dot-system</description>
+      <guid isPermaLink="true">https://scottlawsonbc.com/post/dot-system</guid>
+      <pubDate>Tue, 31 Mar 2026 21:15:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593556</comments>
     </item>
     <item>
-      <title>GitHub の歴史的な稼働時間</title>
-      <link>https://damrnelson.github.io/github-historical-uptime/</link>
-      <guid isPermaLink="true">https://damrnelson.github.io/github-historical-uptime/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:01:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47591928</comments>
+      <title>Show HN: 1 ビット Bonsai、最初の商業的に実行可能な 1 ビット LLM</title>
+      <link>https://prismml.com/</link>
+      <description>📝 1 ビット重みを備えた最初の商業的に実行可能なモデル。 24 GB のメモリ、1 ビット Bonsai 1. モデルのエラー率をモデル サイズで割った負の対数 平均スコア (IFEval、GSM8K、HumanEval+、BFCL、MuSR、MMLU-Redux) ハードウェア プラットフォーム全体の 1 秒あたりのトークン数 (高いほど優れています) 平均スコア (IFEval、GSM8K、HumanEval+、BFCL、MuSR、MMLU-Redux) 平均スコア (IFEval、 GSM8K、HumanEval+、BFCL、MuSR、MMLU-Redux) ハードウェア全体のトークンあたりのミリワット時 (低いほど良い)。
+
+
+🔤 Original: Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs
+
+🔗 Read more: https://prismml.com/</description>
+      <guid isPermaLink="true">https://prismml.com/</guid>
+      <pubDate>Tue, 31 Mar 2026 21:01:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593422</comments>
     </item>
     <item>
-      <title>Ministack (LocalStack の代替品)</title>
-      <link>https://ministack.org/</link>
-      <description>📝 単一ポート上の 30 の AWS サービス — 実際の Postgres、Redis、Docker コンテナを使用。コア AWS サービスと実際のインフラストラクチャ — RDS は実際のデータベースを実行し、ElastiCache は実際の Redis を実行し、ECS は実際の Docker コンテナを開始し、Athena は DuckDB 経由で実際の SQL を実行します (インストール時)。最も重要な点 — RDS、ElastiCache、ECS は実際の Docker コンテナを実行します。
-
-
-🔤 Original: Ministack (Replacement for LocalStack)
-
-🔗 Read more: https://ministack.org/</description>
-      <guid isPermaLink="true">https://ministack.org/</guid>
-      <pubDate>Tue, 31 Mar 2026 20:48:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47593285</comments>
+      <title>オブシディアンとカーソルの間に赤ちゃんが生まれました。オープンソースです</title>
+      <link>https://cushionmd.com/</link>
+      <guid isPermaLink="true">https://cushionmd.com/</guid>
+      <pubDate>Wed, 01 Apr 2026 01:59:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595873</comments>
     </item>
     <item>
-      <title>HN を表示: BM25 関連性ランク付き全文検索用の Postgres 拡張機能</title>
-      <link>https://github.com/timescale/pg_textsearch</link>
-      <description>📝 インデックス作成 テキスト列に BM25 インデックスを作成します。 CREATE INDEX ON document USING bm25(content) WITH (text_config='english');インデックス オプション text_config - 使用する PostgreSQL テキスト検索設定 (必須) k1 - 用語頻度飽和パラメータ (デフォルトでは 1. 75) CREATE INDEX ONドキュメント USING bm25(content) WITH (text_config='english', k1=1.8);さまざまなテキスト検索設定もサポートしています。 -- ステミングを含む英語ドキュメント CREATE INDEX docs_en_idx ON ドキュメント USING bm25(content) WITH (text_config='english'); -- ステミングを行わない単純なテキスト処理 CREATE INDEX docs_simple_idx ON ドキュメント USING bm25(content) WITH (text_config='simple'); -- 言語固有の設定 CREATE INDEX docs_fr_idx ON french_docs USING bm25(content) WITH (text_config='french'); b. CREATE INDEX docs_de_idx ON german_docs USING
+      <title>私たちはホワイトハウスのアプリのトラフィックを傍受しました。リクエストの 77% がサードパーティに送信されます</title>
+      <link>https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</link>
+      <description>📝 com 19 Elfsight ユーティリティ スクリプトは静的です。 com 12 Elfsight 静的アセット ストレージ。 com 1 Google 静的 yt3。
 
 
-🔤 Original: Show HN: Postgres extension for BM25 relevance-ranked full-text search
+🔤 Original: We intercepted the White House app's traffic. 77% of requests go to 3rd parties
 
-🔗 Read more: https://github.com/timescale/pg_textsearch</description>
-      <guid isPermaLink="true">https://github.com/timescale/pg_textsearch</guid>
-      <pubDate>Tue, 31 Mar 2026 16:29:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589856</comments>
+🔗 Read more: https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</description>
+      <guid isPermaLink="true">https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</guid>
+      <pubDate>Wed, 01 Apr 2026 01:58:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595865</comments>
     </item>
     <item>
-      <title>ホームテールスケール出口ノードを介してトラフィックを追跡してみました</title>
-      <link>https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</link>
-      <description>📝 出口ノードとは何ですか。コントロール プレーンとデータ プレーン ELI5: コントロール プレーンは地図と交通警官です。データプレーンは道路です。特に出口ノードの場合、ノードは 0 をアドバタイズします。
+      <title>米国、「国家安全保障」を理由に石油業界に湾岸動物保護を免除</title>
+      <link>https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</link>
+      <description>📝 メキシコ湾クジラの 1 種は特に脆弱です。科学者らは、地球上に残っているライスクジラはわずか約51頭と推定しており、それらはすべてトランプ政権がアメリカ湾と呼んでいるメキシコ湾の海域に生息している。 NOAA スタッフが湾でライスクジラにタグを付ける。
 
 
-🔤 Original: I Traced My Traffic Through a Home Tailscale Exit Node
+🔤 Original: U.S. exempts oil industry from protecting Gulf animals, for 'national security'
 
-🔗 Read more: https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</description>
-      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:46:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592462</comments>
+🔗 Read more: https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</description>
+      <guid isPermaLink="true">https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</guid>
+      <pubDate>Wed, 01 Apr 2026 01:18:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595620</comments>
     </item>
     <item>
-      <title>なぜ米海軍はイランを爆撃してホルムズ海峡を「開放」しないのか</title>
-      <link>https://responsiblestatecraft.org/iran-strait-of-hormuz/</link>
-      <description>📝 org軍産複合体ワシントン政治メディア世界的危機地域ヨーロッパ中東アフリカアジア太平洋ラテンアメリカ北米寄付寄付軍産複合体ワシントン政治メディア世界的危機地域ヨーロッパ中東アフリカアジア太平洋ラテンアメリカ北米ビデオ私たちについてソーシャルでフォローしてください責任を負い続けてください。アメリカのどこにでもあるように見える航空母艦はまた、海上部隊にあらゆる海岸線に沿って数百マイルにわたって敵を意のままに攻撃する攻撃力を与えました。綿密に調査した結果、計画立案者らは、イランがコンクリートと鉄で補強された掩蔽壕に対艦ミサイルを設置し、海峡付近を通過する船舶を容易に標的にできるようにしていることに気づいた。
+      <title>普通の実験用手袋ではマイクロプラスチックのデータが歪められる可能性がある</title>
+      <link>https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</link>
+      <description>📝 注目のビデオミシガン大学の研究チームは、あらゆる種類の実験科学者が伝統的に着用していたニトリルとラテックスの手袋が、マイクロプラスチックを模倣した「ステアリン酸塩」と呼ばれる粒子を放出する可能性があることを発見しました。 「以前の研究では、サンプルの湿式調製物に使用された使い捨て手袋がマイクロプラスチックのデータを歪める可能性があることが判明しましたが、乾式調製物で同様の活動が見つかったのはこれが初めての研究です。最も重要なことは、これはマイクロプラスチック汚染など存在しないという意味ではなく、それを研究している科学者は方法論を改良する必要があるだけであると研究者らが強調していることです。」
 
 
-🔤 Original: Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz
+🔤 Original: Ordinary Lab Gloves May Have Skewed Microplastic Data
 
-🔗 Read more: https://responsiblestatecraft.org/iran-strait-of-hormuz/</description>
-      <guid isPermaLink="true">https://responsiblestatecraft.org/iran-strait-of-hormuz/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:30:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47584795</comments>
+🔗 Read more: https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</description>
+      <guid isPermaLink="true">https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</guid>
+      <pubDate>Tue, 31 Mar 2026 21:22:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593634</comments>
     </item>
     <item>
-      <title>HN に質問: 地下にある分散型データセンター</title>
-      <link>https://news.ycombinator.com/item?id=47587597</link>
-      <description>📝 これは少し非現実的かもしれませんが、誰かの地下室に設置してお湯を温めたり、地下室の床をヒートシンクとしても使用できるハーフラックサーバーをなぜ作れないのでしょうか。データセンターの障害の多くは、熱を除去するためのエネルギーのようです。それらを涼しい地下室に分散させ、さらには家庭用暖房システムに接続することで、それらを削減し、より効率的にすることができます。
-
-
-🔤 Original: Ask HN: Distributed data centers in our basements
-
-🔗 Read more: https://news.ycombinator.com/item?id=47587597</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47587597</guid>
-      <pubDate>Tue, 31 Mar 2026 14:05:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47587597</comments>
-    </item>
-    <item>
-      <title>Show HN: PhAIL – AI モデルのリアルロボットベンチマーク</title>
-      <link>https://phail.ai</link>
-      <guid isPermaLink="true">https://phail.ai</guid>
-      <pubDate>Tue, 31 Mar 2026 16:25:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589797</comments>
-    </item>
-    <item>
-      <title>JSSE: エージェントによって構築された JavaScript エンジン</title>
-      <link>https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</link>
-      <description>📝 test262の合格率は63%。しかし、それは実際にはどのような日常だったのでしょうか。それがコアループでした。
-
-
-🔤 Original: JSSE: A JavaScript Engine Built by an Agent
-
-🔗 Read more: https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</description>
-      <guid isPermaLink="true">https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</guid>
-      <pubDate>Tue, 31 Mar 2026 20:21:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592939</comments>
+      <title>ネアンデルタール人は35万年間ナイフの刃で生き延びた</title>
+      <link>https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years</link>
+      <guid isPermaLink="true">https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years</guid>
+      <pubDate>Wed, 01 Apr 2026 01:12:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595572</comments>
     </item>
   </channel>
 </rss>

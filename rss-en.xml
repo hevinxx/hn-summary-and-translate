@@ -6,92 +6,72 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Mar 2026 21:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 02:35:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>OpenAI raises $122B</title>
-      <link>https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</link>
-      <description>📝 The round totaled $122 billion of committed capital, up from the $110 billion figure that the company previously announced. The round totaled $122 billion of committed capital, up from the $110 billion figure that the company announced in February. Shaw Ventures, OpenAI said.
+      <title>A dot a day keeps the clutter away</title>
+      <link>https://scottlawsonbc.com/post/dot-system</link>
+      <description>📝 Every toolbox, every parts organizer with little pockets, anything I couldn't see through. Clear boxes fixed that. Clear boxes don't have this problem.
 
-🔗 Read more: https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html</guid>
-      <pubDate>Tue, 31 Mar 2026 20:07:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592755</comments>
+🔗 Read more: https://scottlawsonbc.com/post/dot-system</description>
+      <guid isPermaLink="true">https://scottlawsonbc.com/post/dot-system</guid>
+      <pubDate>Tue, 31 Mar 2026 21:15:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593556</comments>
     </item>
     <item>
-      <title>GitHub's Historic Uptime</title>
-      <link>https://damrnelson.github.io/github-historical-uptime/</link>
-      <guid isPermaLink="true">https://damrnelson.github.io/github-historical-uptime/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:01:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47591928</comments>
-    </item>
-    <item>
-      <title>Ministack (Replacement for LocalStack)</title>
-      <link>https://ministack.org/</link>
-      <description>📝 30 AWS services on a single port — with real Postgres, Redis, and Docker containers. Core AWS services plus real infrastructure — RDS runs actual databases, ElastiCache runs real Redis, ECS starts real Docker containers, Athena executes real SQL via DuckDB (when installed). Where it matters most — RDS, ElastiCache, and ECS run real Docker containers.
+      <title>Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs</title>
+      <link>https://prismml.com/</link>
+      <description>📝 The first commercially viable model with 1-bit weights. 24GB of memory, 1-bit Bonsai 1. Negative log of the model's error rate divided by the model size Average score (IFEval, GSM8K, HumanEval+, BFCL, MuSR, MMLU-Redux) Tokens per second across hardware platforms (higher is better) Average score (IFEval, GSM8K, HumanEval+, BFCL, MuSR, MMLU-Redux) Average score (IFEval, GSM8K, HumanEval+, BFCL, MuSR, MMLU-Redux) Milliwatt-hours per token across hardware (lower is better).
 
-🔗 Read more: https://ministack.org/</description>
-      <guid isPermaLink="true">https://ministack.org/</guid>
-      <pubDate>Tue, 31 Mar 2026 20:48:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47593285</comments>
+🔗 Read more: https://prismml.com/</description>
+      <guid isPermaLink="true">https://prismml.com/</guid>
+      <pubDate>Tue, 31 Mar 2026 21:01:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593422</comments>
     </item>
     <item>
-      <title>Show HN: Postgres extension for BM25 relevance-ranked full-text search</title>
-      <link>https://github.com/timescale/pg_textsearch</link>
-      <description>📝 Indexing Create a BM25 index on your text columns: CREATE INDEX ON documents USING bm25(content) WITH (text_config='english'); Index Options text_config - PostgreSQL text search configuration to use (required) k1 - term frequency saturation parameter (1. 75 by default) CREATE INDEX ON documents USING bm25(content) WITH (text_config='english', k1=1. 8); Also supports different text search configurations: -- English documents with stemming CREATE INDEX docs_en_idx ON documents USING bm25(content) WITH (text_config='english'); -- Simple text processing without stemming CREATE INDEX docs_simple_idx ON documents USING bm25(content) WITH (text_config='simple'); -- Language-specific configurations CREATE INDEX docs_fr_idx ON french_docs USING bm25(content) WITH (text_config='french'); CREATE INDEX docs_de_idx ON german_docs USING b.
+      <title>Obsidian and Cursor had a baby. It's open source</title>
+      <link>https://cushionmd.com/</link>
+      <guid isPermaLink="true">https://cushionmd.com/</guid>
+      <pubDate>Wed, 01 Apr 2026 01:59:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595873</comments>
+    </item>
+    <item>
+      <title>We intercepted the White House app's traffic. 77% of requests go to 3rd parties</title>
+      <link>https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</link>
+      <description>📝 com 19 Elfsight utility scripts static. com 12 Elfsight static assets storage. com 1 Google static yt3.
 
-🔗 Read more: https://github.com/timescale/pg_textsearch</description>
-      <guid isPermaLink="true">https://github.com/timescale/pg_textsearch</guid>
-      <pubDate>Tue, 31 Mar 2026 16:29:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589856</comments>
+🔗 Read more: https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</description>
+      <guid isPermaLink="true">https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/</guid>
+      <pubDate>Wed, 01 Apr 2026 01:58:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595865</comments>
     </item>
     <item>
-      <title>I Traced My Traffic Through a Home Tailscale Exit Node</title>
-      <link>https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</link>
-      <description>📝 What is an exit node for. Control Plane vs Data Plane ELI5: control plane is the map and traffic cop; data plane is the road. For exit nodes specifically, the node advertises 0.
+      <title>U.S. exempts oil industry from protecting Gulf animals, for 'national security'</title>
+      <link>https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</link>
+      <description>📝 One species of Gulf whale is particularly vulnerable. Scientists estimate that only about 51 Rice's whales are left on Earth, all of them in waters of the Gulf of Mexico, which the Trump administration has termed the Gulf of America. NOAA staff tag a Rice's whale in the Gulf.
 
-🔗 Read more: https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</description>
-      <guid isPermaLink="true">https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:46:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592462</comments>
+🔗 Read more: https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</description>
+      <guid isPermaLink="true">https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security</guid>
+      <pubDate>Wed, 01 Apr 2026 01:18:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595620</comments>
     </item>
     <item>
-      <title>Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz</title>
-      <link>https://responsiblestatecraft.org/iran-strait-of-hormuz/</link>
-      <description>📝 orgMilitary Industrial ComplexWashington PoliticsMediaGlobal CrisesRegionsEuropeMiddle EastAfricaAsia-PacificLatin AmericaNorth America Donate DonateMilitary Industrial ComplexWashington PoliticsMediaGlobal CrisesRegionsEuropeMiddle EastAfricaAsia-PacificLatin AmericaNorth AmericaVideoAbout Us Follow us on social Stay Responsible. America’s seemingly ubiquitous aircraft carriers also gave sea-borne forces striking power over several hundred miles along any shorelines to pound enemies at will. Upon closer examination, planners realized that Iran was installing anti-ship missiles into concrete and steel-reinforced bunkers, giving it the ability to easily target any ships passing near the strait.
+      <title>Ordinary Lab Gloves May Have Skewed Microplastic Data</title>
+      <link>https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</link>
+      <description>📝 Featured VideoA team of researchers from the University of Michigan discovered that nitrile and latex gloves traditionally worn by laboratory scientists of all stripes, can shed particles called “stearates” that mimic microplastics. ”Previous research found that disposable gloves used in wet preparations of samples could skew microplastics data, but this is the first study to find similar activity in dry preparations. Most importantly, the researchers stress this doesn’t mean there’s no such thing as microplastic pollution, just that scientists studying it should refine their methodology.
 
-🔗 Read more: https://responsiblestatecraft.org/iran-strait-of-hormuz/</description>
-      <guid isPermaLink="true">https://responsiblestatecraft.org/iran-strait-of-hormuz/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:30:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47584795</comments>
+🔗 Read more: https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</description>
+      <guid isPermaLink="true">https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386</guid>
+      <pubDate>Tue, 31 Mar 2026 21:22:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47593634</comments>
     </item>
     <item>
-      <title>Ask HN: Distributed data centers in our basements</title>
-      <link>https://news.ycombinator.com/item?id=47587597</link>
-      <description>📝 This is likely a bit unrealistic, but why can't we make a half rack server to go in someones basement that can also heat up their hot water and use the basement floor as a heat sink as well. It seems like a lot of the blight of data centers is the energy to remove the heat. By distributing them into cool basements and even connecting them into the home heating system we could reduce that making them more efficient.
-
-🔗 Read more: https://news.ycombinator.com/item?id=47587597</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47587597</guid>
-      <pubDate>Tue, 31 Mar 2026 14:05:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47587597</comments>
-    </item>
-    <item>
-      <title>Show HN: PhAIL – Real-robot benchmark for AI models</title>
-      <link>https://phail.ai</link>
-      <guid isPermaLink="true">https://phail.ai</guid>
-      <pubDate>Tue, 31 Mar 2026 16:25:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47589797</comments>
-    </item>
-    <item>
-      <title>JSSE: A JavaScript Engine Built by an Agent</title>
-      <link>https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</link>
-      <description>📝 63% test262 pass rate. But what did that actually look like day-to-day. That was the core loop.
-
-🔗 Read more: https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</description>
-      <guid isPermaLink="true">https://p.ocmatos.com/blog/jsse-a-javascript-engine-built-by-an-agent.html</guid>
-      <pubDate>Tue, 31 Mar 2026 20:21:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47592939</comments>
+      <title>Neanderthals survived on a knife's edge for 350k years</title>
+      <link>https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years</link>
+      <guid isPermaLink="true">https://www.science.org/content/article/neanderthals-survived-knife-s-edge-350-000-years</guid>
+      <pubDate>Wed, 01 Apr 2026 01:12:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47595572</comments>
     </item>
   </channel>
 </rss>
