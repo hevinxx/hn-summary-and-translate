@@ -6,140 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 02:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 05:04:37 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ライブ: Artemis II 発売日の最新情報</title>
-      <link>https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</link>
-      <description>📝 フロリダのケネディ宇宙センターから。サービスモジュールと打ち上げ中止システムを囲む宇宙船アダプターの投棄フェアリングは、オリオン宇宙船から分離されました。 SLS（スペース・ローンチ・システム）連装固体ロケットブースターが分離した。
+      <title>登録フォームは武器です</title>
+      <link>https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/</link>
+      <description>📝 それらは本物の電子メール アドレスで、名前はゴミでした…何かが間違っていました。パターン 各ボットは、実際の被害者の電子メール アドレスとゴミの名前を使用してサインアップします。つまり、各被害者は 1 分以内に次の 3 通の電子メールを私たちから受け取ったということになります: 電子メール アドレスを確認してください。Suga へようこそ。パスワードをリセットしてください。聞いたこともない製品から、求めてもいない 3 通の電子メールが届きました。
 
 
-🔤 Original: Live: Artemis II Launch Day Updates
+🔤 Original: Your sign-up form is a weapon
 
-🔗 Read more: https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</description>
-      <guid isPermaLink="true">https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</guid>
-      <pubDate>Wed, 01 Apr 2026 17:11:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47603657</comments>
+🔗 Read more: https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/</description>
+      <guid isPermaLink="true">https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/</guid>
+      <pubDate>Thu, 02 Apr 2026 04:08:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609882</comments>
     </item>
     <item>
-      <title>ocamlc 用の新しい C++ バックエンド</title>
-      <link>https://github.com/ocaml/ocaml/pull/14701</link>
-      <description>📝 &gt; 構造体の短所;テンプレート &lt;int タグ、タイプ名。 = (0));静的 constexpr int val = n; };構造体例外{ }; template &lt;typename f0_, typename f1_&gt; struct Cons&lt;f0_, f1_&gt;{ static constexpr int tag = 0; static constexpr bool 非ゼロ = true;静的 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; }; template &lt;int tag_, typename f0_, typename f1_&gt; struct Cons_&lt;tag_, f0_, f1_&gt;{ static constexpr int tag = tag_; static constexpr bool 非ゼロ = true;静的 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; }; template &lt;typename f0_, typename f1_, typename f2_&gt; struct Cons&lt;f0_, f1_, f2_&gt;{ static constexpr int tag = 0; static constexpr bool 非ゼロ = true;静的 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; typedef f2_ f2; }; template &lt;int tag_, typename f0_, typename f1_, typename f2_&gt; struct Cons_&lt;tag_, f0_, f1_, f2_&gt;{ static constexpr int tag = tag_; static constexpr bool 非ゼロ = true;静的 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; typedef f2_ f2; };テンプレート &lt;typename フィルター、typename p、typename x、typename l、bool cond&gt; struct ifthenelse; template &lt;typename filter, typename p, typename x, typename l&gt; struct ifthenelse&lt;filter, p, x, l, true&gt;{ typedef Cons&lt;x, typename filter::template app&lt;p&gt;::res::template app&lt;l&gt;::res&gt; res; }; template &lt;typename filter, typename p, typename x, typename l&gt; struct ifthenelse&lt;filter, p, x, l, false&gt;{ typedef typename filter::template app&lt;p&gt;::res::template app&lt;l&gt;::res res; };テンプレート &lt;typename フィルター、typename p、typename param、bool cond&gt; struct ifthenelse_; template &lt;typename filter, typename p, typename param&gt; struct ifthenelse_&lt;filter, p, param, true&gt;{ typedef typename param::f1 l; typedef typename param::f0 x; typedef typename ifthenelse&lt;filter, p, x, l, p::template app&lt;x&gt;::res::nonzero&gt;::res res; }; template &lt;typename filter, typename p, typename param&gt; struct ifthenelse_&lt;filter, p, param, false&gt;{ typedef I&lt;0&gt; res; };テンプレート &lt;typename init, typename i, typename last, typename f, bool cond&gt; struct ifthenelse_2; template &lt;typename init, typename i, typename last, typename f&gt; struct ifthenelse_2&lt;init, i, last, f, true&gt;{ typedef I&lt;0&gt; res; }; template &lt;typename init, typename i, typename last, typename f&gt; struct ifthenelse_2&lt;init, i, last, f, false&gt;{ typedef Cons&lt;typename f::template app&lt;i&gt;::res, typename init::template app&lt;I&lt;((i::val) + (I&lt;1&gt;::val))&gt;&gt;::res::template app&lt;last&gt;::res::template app&lt;f&gt;::res&gt;レス; }; template &lt;typename リスト、typename sieve、typename 候補、bool cond&gt; struct ifthenelse_3; template &lt;typename リスト、typename sieve、typename 候補&gt; struct ifthenelse_3&lt;List、sieve、候補、true&gt;{ typedef typename 候補::f0 p; struct Primes_primes_sieve__fun_{ template &lt;typename n&gt; struct app{ typedef I&lt;((I&lt;((n::val) % (p::val))&gt;::val). = (I&lt;0&gt;::val))&gt; res; }; }; typedef Cons&lt;p, typename sieve::template app&lt;typename List::f0::template app&lt;Primes_primes_sieve__fun_&gt;::res::template app&lt;typename候補::f1&gt;::res&gt;::res&gt; res; }; template &lt;typename リスト、typename sieve、typename 候補&gt; struct ifthenelse_3&lt;List、sieve、候補、false&gt;{ typedef I&lt;0&gt; res; };構造体フィルター。 struct filter{ template &lt;typename p&gt; struct app{ struct res{ template &lt;typename param&gt; struct app{ typedef typename ifthenelse_&lt;filter, p, param, param::nonzero&gt;::res res; }; }; }; };構造体の初期化; struct init{ template &lt;typename i&gt; struct app{ struct res{ template &lt;typename last&gt; struct app{ struct res{ template &lt;typename f&gt; struct app{ typedef typename ifthenelse_2&lt;init, i, last, f, I&lt;((i::val) &gt; (last::val))&gt;::nonzero&gt;::res res; }; }; }; }; }; }; typedef Cons&lt;filter, init&gt; リスト; struct primes{ template &lt;typename n&gt; struct app{ struct sieve; struct sieve{ template &lt;typename 候補&gt; struct app{ typedef typename ifthenelse_3&lt;List, sieve, cand.
+      <title>クロードのコード漏洩</title>
+      <link>https://build.ms/2026/4/1/the-claude-code-leak/</link>
+      <description>📝 それにもかかわらず、Claude Code を強化するコードは一種のゴミです。コードの問題ではない これは、開発者向けに構築された製品であっても、コードは重要ではないようだという開発者への警告として機能するはずです。人々は Anthropic のソース コードを取得し、Python や Rust などの他の言語でクロード コードをゼロから書き直していました。
 
 
-🔤 Original: A new C++ back end for ocamlc
+🔤 Original: The Claude Code Leak
 
-🔗 Read more: https://github.com/ocaml/ocaml/pull/14701</description>
-      <guid isPermaLink="true">https://github.com/ocaml/ocaml/pull/14701</guid>
-      <pubDate>Wed, 01 Apr 2026 23:35:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608058</comments>
+🔗 Read more: https://build.ms/2026/4/1/the-claude-code-leak/</description>
+      <guid isPermaLink="true">https://build.ms/2026/4/1/the-claude-code-leak/</guid>
+      <pubDate>Thu, 02 Apr 2026 02:26:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609294</comments>
     </item>
     <item>
-      <title>エイプリルフールではない量子コンピューティングの爆弾発言</title>
-      <link>https://scottaaronson.blog/?p=9665</link>
-      <description>📝 これによりどれくらいの時間が節約されるでしょうか。おそらく 1 年ほどです。私たちも量子コンピューティングにおいて、間もなくその閾値を超えることになるでしょうか。この投稿がお役に立てば幸いです。
+      <title>Linux での Steam の使用が 3 月に 5% 以上に急増</title>
+      <link>https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</link>
+      <description>📝 12 コメント Valve の最新の Steam 調査月次数値が正確であれば、Linux 上の Steam は 3 月に非常にワイルドな月を満喫しました。 Linux 上の Steam は 2025 年に約 3 で終了しました。Steam 調査の数字によると、Windows は 4 を失っています。
 
 
-🔤 Original: Quantum computing bombshells that are not April Fools
+🔤 Original: Steam on Linux Use Skyrocketed Above 5% in March
 
-🔗 Read more: https://scottaaronson.blog/?p=9665</description>
-      <guid isPermaLink="true">https://scottaaronson.blog/?p=9665</guid>
-      <pubDate>Thu, 02 Apr 2026 00:24:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608495</comments>
+🔗 Read more: https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</description>
+      <guid isPermaLink="true">https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</guid>
+      <pubDate>Thu, 02 Apr 2026 03:12:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609564</comments>
     </item>
     <item>
-      <title>DRAM の価格設定が愛好家向けの SBC 市場を消滅させている</title>
-      <link>https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</link>
-      <description>📝 中古 PC も高価で、特に 4 GB を超える RAM を搭載しています。価格が上昇しているため、私が引き受けるプロジェクトの種類は限られています。 Raspberry Pi にとって幸運なことに、Raspberry Pi には、繁栄したマイクロコントローラー エコシステムと、それを継続するための産業基盤があります。
+      <title>三位一体の大きな思考</title>
+      <link>https://openrouter.ai/arcee-ai/trinity-large-thinking</link>
+      <description>📝 Arcee AI: Trinity Large Thinkingarcee-ai/trinity-large- ThinkingChat 比較 2026 年 4 月 1 日リリース262,144 context$0。 90/M 出力トークンTrinity Large Thinking は、Arce AI チームによる強力なオープンソース推論モデルです。 si=4RLn6WBz33qT--B7Chat モデルの重みを比較します。
 
 
-🔤 Original: DRAM pricing is killing the hobbyist SBC market
+🔤 Original: Trinity Large Thinking
 
-🔗 Read more: https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</description>
-      <guid isPermaLink="true">https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</guid>
-      <pubDate>Wed, 01 Apr 2026 21:36:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47606840</comments>
+🔗 Read more: https://openrouter.ai/arcee-ai/trinity-large-thinking</description>
+      <guid isPermaLink="true">https://openrouter.ai/arcee-ai/trinity-large-thinking</guid>
+      <pubDate>Thu, 02 Apr 2026 02:15:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609241</comments>
     </item>
     <item>
-      <title>IPv6 アドレスを覚えられる文として</title>
-      <link>https://sentence2ipv6.tib3rius.com/</link>
-      <guid isPermaLink="true">https://sentence2ipv6.tib3rius.com/</guid>
-      <pubDate>Wed, 01 Apr 2026 23:22:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607923</comments>
+      <title>Salomi、極低ビットトランス量子化に関するリサーチリポジトリ</title>
+      <link>https://github.com/OrionsLock/SALOMI</link>
+      <description>📝 ガイド付きの概要については、「研究」を参照してください。 md はトップレベルのフレーミング RESEARCH を提供します。 0 ライセンス このリポジトリは Apache-2 に基づいてライセンスされています。
+
+
+🔤 Original: Salomi, a research repo on extreme low-bit transformer quantization
+
+🔗 Read more: https://github.com/OrionsLock/SALOMI</description>
+      <guid isPermaLink="true">https://github.com/OrionsLock/SALOMI</guid>
+      <pubDate>Thu, 02 Apr 2026 04:08:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609883</comments>
     </item>
     <item>
-      <title>HN を表示: 鈍い – リールなしの Instagram、ショートなしの YouTube (iOS)</title>
-      <link>https://getdull.app</link>
-      <description>📝 これは、必要のないものについての意見が含まれるブラウザです。縞模様、介入ポップアップ、自分の携帯電話を使用することで気分が悪くなる罪悪感のメカニズム、それらはどれもありません。デバイスからは何も残りません。
-
-
-🔤 Original: Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)
-
-🔗 Read more: https://getdull.app</description>
-      <guid isPermaLink="true">https://getdull.app</guid>
-      <pubDate>Wed, 01 Apr 2026 21:04:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47606560</comments>
+      <title>コード検索の未来は正規表現ではありません – ripgrep よりも 100 倍高速です</title>
+      <link>https://fff.dmtrkovalenko.dev/</link>
+      <guid isPermaLink="true">https://fff.dmtrkovalenko.dev/</guid>
+      <pubDate>Thu, 02 Apr 2026 03:45:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609752</comments>
     </item>
     <item>
-      <title>SpaceXファイルが公開される</title>
-      <link>https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html</guid>
-      <pubDate>Wed, 01 Apr 2026 17:49:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47604155</comments>
+      <title>Weather.com/レトロ</title>
+      <link>https://weather.com/retro/</link>
+      <description>📝 87↓暑さ指数:42°°F天気風デモイン42小雨東15カンザスシティ53近くにわか雨東6ミネアポリス38雨/雪東14オマハ44雨東南東10スーフォールズ36小雨東東14セント。ポール37小雨E 14トピーカ53雨E 11デモイン42°小雨E 15カンザスシティ53°近くにわか雨E 6ミネアポリス38°雨/雪E 14オマハ44°雨ESE 10スーフォールズ36°小雨東14セント。曇り時々雨。
+
+
+🔤 Original: Weather.com/Retro
+
+🔗 Read more: https://weather.com/retro/</description>
+      <guid isPermaLink="true">https://weather.com/retro/</guid>
+      <pubDate>Thu, 02 Apr 2026 01:48:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609090</comments>
     </item>
     <item>
-      <title>ZomboComがハッカーによって盗まれ、販売され、現在はAIが生成した改造に置き換えられています</title>
-      <link>https://old.reddit.com/r/oldinternet/comments/1raiz8v/zombocom_was_stolen_by_hacker_put_up_for_sale_and/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/oldinternet/comments/1raiz8v/zombocom_was_stolen_by_hacker_put_up_for_sale_and/</guid>
-      <pubDate>Wed, 01 Apr 2026 23:45:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608155</comments>
-    </item>
-    <item>
-      <title>GrapheneOS 互換デバイス用の Swappa.com – Stay Away</title>
-      <link>https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</link>
-      <description>📝 Swappaから中古携帯電話を3台購入してみました。 「ロック解除」されたデバイスはブートローダーのロックが解除されることを Swappa スタッフに再度確認した後、私は「ロック解除」タグが付いた 3 台目の携帯電話を Supplytronics から 424 ドルで購入しました。発送前に、ブートローダーのロックが解除されていることを確認するよう依頼しました。
+      <title>ソーラーバルコニーがヨーロッパを席巻</title>
+      <link>https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/</link>
+      <description>📝 太陽光発電は昔から存在しています。バルコニーソーラーが登場するまではそうでした。バルコニー太陽光発電には、屋上設置と比較していくつかの制限があります。
 
 
-🔤 Original: Swappa.com for GrapheneOS compatible devices – Stay Away
+🔤 Original: Solar Balconies Take Europe by Storm
 
-🔗 Read more: https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</description>
-      <guid isPermaLink="true">https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</guid>
-      <pubDate>Wed, 01 Apr 2026 21:59:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607067</comments>
-    </item>
-    <item>
-      <title>モンタナ州住民投票、企業選挙への寄付を違法化 [ビデオ]</title>
-      <link>https://www.youtube.com/watch?v=p1fPbGHe3xE</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=p1fPbGHe3xE</guid>
-      <pubDate>Wed, 01 Apr 2026 23:42:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608130</comments>
-    </item>
-    <item>
-      <title>Windows 2000 (2025) 上で動作する SolveSpace (オープンソース 2D/3D CAD)</title>
-      <link>https://github.com/solvespace/solvespace/issues/1036</link>
-      <description>📝 9k SolveSpace 3. OpenGL 1) #1036新しい問題リンクをコピー新しい問題SolveSpace 3. OpenGL 1)#1036リンクをコピーするOpenOpenWindowsエラーAssignees LabelsWin32Descriptionorisvaldo192021年5月12日にオープン問題本文のアクションシステム情報SolveSpace バージョン: オペレーティング システム: 予期される動作プログラムが開きます。
-
-
-🔤 Original: SolveSpace (open source 2D/3D CAD) working on Windows 2000 (2025)
-
-🔗 Read more: https://github.com/solvespace/solvespace/issues/1036</description>
-      <guid isPermaLink="true">https://github.com/solvespace/solvespace/issues/1036</guid>
-      <pubDate>Wed, 01 Apr 2026 22:32:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607394</comments>
-    </item>
-    <item>
-      <title>最もよく使用される Linux コマンドに相当する Windows コマンド</title>
-      <link>http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</link>
-      <description>📝 最も使用されている Linux コマンドに相当する Windows のコマンド リンクを取得 Facebook X Pinterest メール 他のアプリ 2026 年 4 月 1 日 Tcpdump 出力を Wireshark をホストしている別のマシンにパイプする場合でも、どのサービスがどのポートでリッスンしているかを確認する場合でも、Windows cmd には Linux に存在する同様のコマンドがあります。 txtWindows: ファイル名を入力します。コマンド Linux サーバー側 sys admin Windows リンクを取得 Facebook X Pinterest メール 他のアプリ コメント コメントを投稿 どう思いますか。
-
-
-🔤 Original: The Windows equivalents of the most used Linux commands
-
-🔗 Read more: http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</description>
-      <guid isPermaLink="true">http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</guid>
-      <pubDate>Wed, 01 Apr 2026 22:25:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607326</comments>
+🔗 Read more: https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/</description>
+      <guid isPermaLink="true">https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/</guid>
+      <pubDate>Thu, 02 Apr 2026 02:17:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609253</comments>
     </item>
   </channel>
 </rss>

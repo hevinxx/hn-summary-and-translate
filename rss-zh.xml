@@ -6,140 +6,103 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Apr 2026 02:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 05:04:37 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>直播：Artemis II 发布日更新</title>
-      <link>https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</link>
-      <description>📝 来自佛罗里达州肯尼迪航天中心。包围服务舱和发射中止系统的航天器适配器抛弃整流罩已与猎户座航天器分离。 SLS（太空发射系统）双固体火箭助推器已分离。
+      <title>您的注册表单是一个武器</title>
+      <link>https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/</link>
+      <description>📝 它们是真实的电子邮件地址，但名字却是垃圾……有些不对劲。该模式每个机器人都会使用真实受害者的电子邮件地址和垃圾名称进行注册。这意味着每个受害者在一分钟内收到我们发来的三封电子邮件： 验证您的电子邮件地址 欢迎来到 Suga 重置您的密码 他们从未要求过的三封电子邮件，来自他们可能从未听说过的产品。
 
 
-🔤 Original: Live: Artemis II Launch Day Updates
+🔤 Original: Your sign-up form is a weapon
 
-🔗 Read more: https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</description>
-      <guid isPermaLink="true">https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</guid>
-      <pubDate>Wed, 01 Apr 2026 17:11:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47603657</comments>
+🔗 Read more: https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/</description>
+      <guid isPermaLink="true">https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/</guid>
+      <pubDate>Thu, 02 Apr 2026 04:08:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609882</comments>
     </item>
     <item>
-      <title>ocamlc 的新 C++ 后端</title>
-      <link>https://github.com/ocaml/ocaml/pull/14701</link>
-      <description>📝 &gt; 结构缺点；模板 &lt;int 标记，类型名称。 = (0));静态 constexpr int val = n; };结构异常{};模板 &lt;类型名称 f0_，类型名称 f1_&gt; struct Cons&lt;f0_，f1_&gt;{ static constexpr int tag = 0; static constexpr bool 非零 = true;静态 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; }; template &lt;int tag_, typename f0_, typename f1_&gt; struct Cons_&lt;tag_, f0_, f1_&gt;{ static constexpr int tag = tag_; static constexpr bool 非零 = true;静态 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; };模板 &lt;类型名称 f0_、类型名称 f1_、类型名称 f2_&gt; struct Cons&lt;f0_、f1_、f2_&gt;{ static constexpr int tag = 0; static constexpr bool 非零 = true;静态 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; typedef f2_ f2; }; template &lt;int tag_, typename f0_, typename f1_, typename f2_&gt; struct Cons_&lt;tag_, f0_, f1_, f2_&gt;{ static constexpr int tag = tag_; static constexpr bool 非零 = true;静态 constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; typedef f2_ f2; }; template &lt;类型名称过滤器，类型名称 p，类型名称 x，类型名称 l，bool cond&gt; struct ifthenelse； template &lt;typename filter, typename p, typename x, typename l&gt; struct ifthenelse&lt;filter, p, x, l, true&gt;{ typedef Cons&lt;x, typename filter::template app&lt;p&gt;::res::template app&lt;l&gt;::res&gt; res; }; template &lt;typename filter, typename p, typename x, typename l&gt; struct ifthenelse&lt;filter, p, x, l, false&gt;{ typedef typename filter::template app&lt;p&gt;::res::template app&lt;l&gt;::res res; }; template &lt;类型名称过滤器，类型名称 p，类型名称参数，bool cond&gt; struct ifthenelse_; template &lt;typename filter, typename p, typename param&gt; struct ifthenelse_&lt;filter, p, param, true&gt;{ typedef typename param::f1 l; typedef 类型名 param::f0 x; typedef 类型名 ifthenelse&lt;filter, p, x, l, p::template app&lt;x&gt;::res::nonzero&gt;::res res; }; template &lt;typename filter, typename p, typename param&gt; struct ifthenelse_&lt;filter, p, param, false&gt;{ typedef I&lt;0&gt; res; };模板&lt;类型名init，类型名i，类型名最后，类型名f，bool cond&gt; struct ifthenelse_2; template &lt;类型名 init, 类型名 i, 类型名 last, 类型名 f&gt; struct ifthenelse_2&lt;init, i, last, f, true&gt;{ typedef I&lt;0&gt; res; }; template &lt;typename init, typename i, typename last, typename f&gt; struct ifthenelse_2&lt;init, i, last, f, false&gt;{ typedef Cons&lt;typename f::template app&lt;i&gt;::res, typename init::template app&lt;I&lt;((i::val) + (I&lt;1&gt;::val))&gt;&gt;::res::template app&lt;last&gt;::res::template app&lt;f&gt;::res&gt; res; }; template &lt;类型名称列表，类型名称筛，类型名称候选，bool cond&gt; struct ifthenelse_3; template &lt;类型名称列表，类型名称筛，类型名称候选人&gt; struct ifthenelse_3&lt;列表，筛子，候选人，true&gt;{ typedef 类型名称候选人::f0 p; struct Primes_primes_sieve__fun_{ template &lt;typename n&gt; struct app{ typedef I&lt;((I&lt;((n::val) % (p::val))&gt;::val).= (I&lt;0&gt;::val))&gt; res; }; }; typedef Cons&lt;p，类型名 sieve::template app&lt;类型名 List::f0::template app&lt;Primes_primes_sieve__fun_&gt;::res::template app&lt;类型名候选人::f1&gt;::res&gt;::res&gt; res; }; template &lt;类型名称列表，类型名称筛子，类型名称候选人&gt; struct ifthenelse_3&lt;列表，筛子，候选人，假&gt;{ typedef I&lt;0&gt; res; };结构过滤器； struct filter{ template &lt;typename p&gt; struct app{ struct res{ template &lt;typename param&gt; struct app{ typedef typename ifthenelse_&lt;filter, p, param, param::nonzero&gt;::res res; }; }; }; };结构初始化； struct init{ template &lt;typename i&gt; struct app{ struct res{ template &lt;typename last&gt; struct app{ struct res{ template &lt;typename f&gt; struct app{ typedef typename ifthenelse_2&lt;init, i, last, f, I&lt;((i::val) &gt; (last::val))&gt;::nonzero&gt;::res res; } }; }; }; }; }; }; typedef Cons&lt;filter, init&gt; 列表； struct primes{ 模板 &lt;typename n&gt; struct app{ struct sieve; struct sieve{ template &lt;类型名称候选人&gt; struct app{ typedef 类型名称 ifthenelse_3&lt;List, sieve, cand.
+      <title>克劳德代码泄露</title>
+      <link>https://build.ms/2026/4/1/the-claude-code-leak/</link>
+      <description>📝 然而，为 Claude Code 提供支持的代码却是一种垃圾。这与代码无关它应该向开发人员发出警告，即代码似乎并不重要，即使在为开发人员构建的产品中也是如此。人们获取了 Anthropic 的源代码，并用 Python 和 Rust 等其他语言从头开始重写了 Claude 代码。
 
 
-🔤 Original: A new C++ back end for ocamlc
+🔤 Original: The Claude Code Leak
 
-🔗 Read more: https://github.com/ocaml/ocaml/pull/14701</description>
-      <guid isPermaLink="true">https://github.com/ocaml/ocaml/pull/14701</guid>
-      <pubDate>Wed, 01 Apr 2026 23:35:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608058</comments>
+🔗 Read more: https://build.ms/2026/4/1/the-claude-code-leak/</description>
+      <guid isPermaLink="true">https://build.ms/2026/4/1/the-claude-code-leak/</guid>
+      <pubDate>Thu, 02 Apr 2026 02:26:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609294</comments>
     </item>
     <item>
-      <title>量子计算重磅炸弹并非愚人节</title>
-      <link>https://scottaaronson.blog/?p=9665</link>
-      <description>📝 这会节省多少时间——也许一年。在量子计算领域，我们是否也会很快跨过这个门槛？我希望这篇文章有帮助。
+      <title>3 月份 Linux 上的 Steam 使用率飙升至 5% 以上</title>
+      <link>https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</link>
+      <description>📝 12 Comments 如果 Valve 最新的 Steam 月度调查数据准确的话，Linux 上的 Steam 度过了非常疯狂的三月份。 2025 年 Linux 上的 Steam 排名约为 3。Steam 调查数据显示 Windows 排名下降 4。
 
 
-🔤 Original: Quantum computing bombshells that are not April Fools
+🔤 Original: Steam on Linux Use Skyrocketed Above 5% in March
 
-🔗 Read more: https://scottaaronson.blog/?p=9665</description>
-      <guid isPermaLink="true">https://scottaaronson.blog/?p=9665</guid>
-      <pubDate>Thu, 02 Apr 2026 00:24:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608495</comments>
+🔗 Read more: https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</description>
+      <guid isPermaLink="true">https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</guid>
+      <pubDate>Thu, 02 Apr 2026 03:12:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609564</comments>
     </item>
     <item>
-      <title>DRAM 定价正在扼杀爱好者 SBC 市场</title>
-      <link>https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</link>
-      <description>📝 二手电脑也更贵，尤其是内存超过 4 GB 的电脑。随着价格的上涨，这限制了我承担的项目类型。对于 Raspberry Pi 来说幸运的是，他们拥有蓬勃发展的微控制器生态系统和工业基础来维持其发展。
+      <title>三位一体大思维</title>
+      <link>https://openrouter.ai/arcee-ai/trinity-large-thinking</link>
+      <description>📝 Arcee AI：Trinity Large Thinkingarcee-ai/trinity-large-thinkingChat 比较 2026262 年 4 月 1 日发布，144 上下文 $0。 90/M 输出代币Trinity Large Thinking 是来自 Arcee AI 团队的强大开源推理模型。 si=4RLn6WBz33qT--B7Chat 比较模型权重。
 
 
-🔤 Original: DRAM pricing is killing the hobbyist SBC market
+🔤 Original: Trinity Large Thinking
 
-🔗 Read more: https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</description>
-      <guid isPermaLink="true">https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</guid>
-      <pubDate>Wed, 01 Apr 2026 21:36:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47606840</comments>
+🔗 Read more: https://openrouter.ai/arcee-ai/trinity-large-thinking</description>
+      <guid isPermaLink="true">https://openrouter.ai/arcee-ai/trinity-large-thinking</guid>
+      <pubDate>Thu, 02 Apr 2026 02:15:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609241</comments>
     </item>
     <item>
-      <title>IPv6地址，作为你能记住的一句话</title>
-      <link>https://sentence2ipv6.tib3rius.com/</link>
-      <guid isPermaLink="true">https://sentence2ipv6.tib3rius.com/</guid>
-      <pubDate>Wed, 01 Apr 2026 23:22:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607923</comments>
+      <title>Salomi，关于极低位变压器量化的研究库</title>
+      <link>https://github.com/OrionsLock/SALOMI</link>
+      <description>📝 有关指导概述，请阅读研究。 md 给出了顶级框架研究。 0 许可证 该存储库已获得 Apache-2 许可。
+
+
+🔤 Original: Salomi, a research repo on extreme low-bit transformer quantization
+
+🔗 Read more: https://github.com/OrionsLock/SALOMI</description>
+      <guid isPermaLink="true">https://github.com/OrionsLock/SALOMI</guid>
+      <pubDate>Thu, 02 Apr 2026 04:08:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609883</comments>
     </item>
     <item>
-      <title>Show HN：乏味 – Instagram 没有 Reels，YouTube 没有 Shorts (iOS)</title>
-      <link>https://getdull.app</link>
-      <description>📝 它是一个可以对您不需要的内容提供意见的浏览器。条纹、干预弹出窗口、让你因为使用自己的手机而感到内疚的机制——这些都不是。没有任何东西离开您的设备。
-
-
-🔤 Original: Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)
-
-🔗 Read more: https://getdull.app</description>
-      <guid isPermaLink="true">https://getdull.app</guid>
-      <pubDate>Wed, 01 Apr 2026 21:04:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47606560</comments>
+      <title>代码搜索的未来不是正则表达式——比 ripgrep 快 100 倍</title>
+      <link>https://fff.dmtrkovalenko.dev/</link>
+      <guid isPermaLink="true">https://fff.dmtrkovalenko.dev/</guid>
+      <pubDate>Thu, 02 Apr 2026 03:45:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609752</comments>
     </item>
     <item>
-      <title>SpaceX申请上市</title>
-      <link>https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html</guid>
-      <pubDate>Wed, 01 Apr 2026 17:49:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47604155</comments>
+      <title>Weather.com/Retro</title>
+      <link>https://weather.com/retro/</link>
+      <description>📝 87↓炎热指数：42°°F天气风得梅因42小雨E 15堪萨斯城53附近有阵雨E 6明尼阿波利斯38雨/雪E 14奥马哈44雨ESE 10苏福尔斯36小雨ENE 14圣。保罗37小雨E 14托皮卡53雨E 11得梅因42°小雨E 15堪萨斯城53°阵雨E 6明尼阿波利斯38°雨/雪E 14奥马哈44°雨ESE 10苏福尔斯36°小雨ENE 14圣。多云，间有阵雨。
+
+🔗 Read more: https://weather.com/retro/</description>
+      <guid isPermaLink="true">https://weather.com/retro/</guid>
+      <pubDate>Thu, 02 Apr 2026 01:48:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609090</comments>
     </item>
     <item>
-      <title>ZomboCom 被黑客窃取、出售，现在被人工智能生成的改造所取代</title>
-      <link>https://old.reddit.com/r/oldinternet/comments/1raiz8v/zombocom_was_stolen_by_hacker_put_up_for_sale_and/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/oldinternet/comments/1raiz8v/zombocom_was_stolen_by_hacker_put_up_for_sale_and/</guid>
-      <pubDate>Wed, 01 Apr 2026 23:45:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608155</comments>
-    </item>
-    <item>
-      <title>Swappa.com 适用于 GrapheneOS 兼容设备 – 远离</title>
-      <link>https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</link>
-      <description>📝 我尝试从 Swappa 购买三部二手手机。在与 Swappa 工作人员第二次确认“解锁”设备将通过引导加载程序解锁后，我以 424 美元的价格从 Supplytronics 购买了第三部带有“解锁”标签的手机。在发货之前，我要求他们确认引导加载程序已解锁。
+      <title>太阳能阳台席卷欧洲</title>
+      <link>https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/</link>
+      <description>📝 太阳能已经存在很长时间了。直到阳台太阳能的出现。与屋顶安装相比，阳台太阳能确实有一些局限性。
 
 
-🔤 Original: Swappa.com for GrapheneOS compatible devices – Stay Away
+🔤 Original: Solar Balconies Take Europe by Storm
 
-🔗 Read more: https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</description>
-      <guid isPermaLink="true">https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</guid>
-      <pubDate>Wed, 01 Apr 2026 21:59:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607067</comments>
-    </item>
-    <item>
-      <title>蒙大拿州公投禁止企业竞选捐款[视频]</title>
-      <link>https://www.youtube.com/watch?v=p1fPbGHe3xE</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=p1fPbGHe3xE</guid>
-      <pubDate>Wed, 01 Apr 2026 23:42:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47608130</comments>
-    </item>
-    <item>
-      <title>在 Windows 2000 (2025) 上运行的 SolveSpace（开源 2D/3D CAD）</title>
-      <link>https://github.com/solvespace/solvespace/issues/1036</link>
-      <description>📝 SolveSpace 3. OpenGL 1) 中出现 9k Windows 错误#1036新问题复制链接新问题复制链接OpenOpenWindows 错误在 SolveSpace 3. OpenGL 1)#1036复制链接Assignees LabelsWin32Descriptionorisvaldo19于 2021 年 5 月 12 日打开问题正文操作系统信息 SolveSpace 版本： 操作系统： 预期行为 程序打开。
-
-
-🔤 Original: SolveSpace (open source 2D/3D CAD) working on Windows 2000 (2025)
-
-🔗 Read more: https://github.com/solvespace/solvespace/issues/1036</description>
-      <guid isPermaLink="true">https://github.com/solvespace/solvespace/issues/1036</guid>
-      <pubDate>Wed, 01 Apr 2026 22:32:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607394</comments>
-    </item>
-    <item>
-      <title>最常用的 Linux 命令的 Windows 等效项</title>
-      <link>http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</link>
-      <description>📝 最常用的 Linux 命令的 Windows 等效项 Get 链接 Facebook X Pinterest 电子邮件其他应用 2026 年 4 月 1 日 无论是将 Tcpdump 输出通过管道传送到另一台托管 Wireshark 的计算机，还是检查哪个服务正在侦听哪个端口，Windows cmd 都具有与 Linux 中类似的命令。 txtWindows：输入文件名。命令 Linux 服务器端 系统管理 Windows 获取链接 Facebook X Pinterest 电子邮件 其他应用程序 评论 发表评论 你觉得怎么样。
-
-
-🔤 Original: The Windows equivalents of the most used Linux commands
-
-🔗 Read more: http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</description>
-      <guid isPermaLink="true">http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</guid>
-      <pubDate>Wed, 01 Apr 2026 22:25:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47607326</comments>
+🔗 Read more: https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/</description>
+      <guid isPermaLink="true">https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/</guid>
+      <pubDate>Thu, 02 Apr 2026 02:17:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47609253</comments>
     </item>
   </channel>
 </rss>
