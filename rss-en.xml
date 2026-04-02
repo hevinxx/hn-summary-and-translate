@@ -6,95 +6,116 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2026 21:42:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 02:13:49 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Signing data structures the wrong way</title>
-      <link>https://blog.foks.pub/posts/domain-separation-in-idl/</link>
-      <description>📝 If a node in this system signs a TreeRoot and injects the signature into the network, an attacker might try to forge a KeyRevoke message that serializes byte-for-byte into the same message as the signed tree root, then staple the TreeRoot signature onto the KeyRevoke data structure. A verifier might be fooled into “verifying” a statement that the signer never intended. Developers should use simple tooling, either in the IDE or CLI, to generate these random domain separators and insert them into their protocol specifications.
+      <title>Live: Artemis II Launch Day Updates</title>
+      <link>https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</link>
+      <description>📝 from Kennedy Space Center in Florida. The spacecraft adapter jettison fairings that enclose the service module and the launch abort system have separated from the Orion spacecraft. The SLS (Space Launch System) twin solid rocket boosters have separated.
 
-🔗 Read more: https://blog.foks.pub/posts/domain-separation-in-idl/</description>
-      <guid isPermaLink="true">https://blog.foks.pub/posts/domain-separation-in-idl/</guid>
-      <pubDate>Wed, 01 Apr 2026 19:52:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47605677</comments>
+🔗 Read more: https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</description>
+      <guid isPermaLink="true">https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/</guid>
+      <pubDate>Wed, 01 Apr 2026 17:11:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47603657</comments>
     </item>
     <item>
-      <title>Show HN: Flight-Viz – 10K flights on a 3D globe in 3.5MB of Rust+WASM</title>
-      <link>https://flight-viz.com</link>
-      <guid isPermaLink="true">https://flight-viz.com</guid>
-      <pubDate>Wed, 01 Apr 2026 17:34:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47603966</comments>
+      <title>A new C++ back end for ocamlc</title>
+      <link>https://github.com/ocaml/ocaml/pull/14701</link>
+      <description>📝 &gt; struct Cons; template &lt;int tag, typename. = (0)); static constexpr int val = n; }; struct EXCEPTION{ }; template &lt;typename f0_, typename f1_&gt; struct Cons&lt;f0_, f1_&gt;{ static constexpr int tag = 0; static constexpr bool nonzero = true; static constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; }; template &lt;int tag_, typename f0_, typename f1_&gt; struct Cons_&lt;tag_, f0_, f1_&gt;{ static constexpr int tag = tag_; static constexpr bool nonzero = true; static constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; }; template &lt;typename f0_, typename f1_, typename f2_&gt; struct Cons&lt;f0_, f1_, f2_&gt;{ static constexpr int tag = 0; static constexpr bool nonzero = true; static constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; typedef f2_ f2; }; template &lt;int tag_, typename f0_, typename f1_, typename f2_&gt; struct Cons_&lt;tag_, f0_, f1_, f2_&gt;{ static constexpr int tag = tag_; static constexpr bool nonzero = true; static constexpr int val = -1; typedef f0_ f0; typedef f1_ f1; typedef f2_ f2; }; template &lt;typename filter, typename p, typename x, typename l, bool cond&gt; struct ifthenelse; template &lt;typename filter, typename p, typename x, typename l&gt; struct ifthenelse&lt;filter, p, x, l, true&gt;{ typedef Cons&lt;x, typename filter::template app&lt;p&gt;::res::template app&lt;l&gt;::res&gt; res; }; template &lt;typename filter, typename p, typename x, typename l&gt; struct ifthenelse&lt;filter, p, x, l, false&gt;{ typedef typename filter::template app&lt;p&gt;::res::template app&lt;l&gt;::res res; }; template &lt;typename filter, typename p, typename param, bool cond&gt; struct ifthenelse_; template &lt;typename filter, typename p, typename param&gt; struct ifthenelse_&lt;filter, p, param, true&gt;{ typedef typename param::f1 l; typedef typename param::f0 x; typedef typename ifthenelse&lt;filter, p, x, l, p::template app&lt;x&gt;::res::nonzero&gt;::res res; }; template &lt;typename filter, typename p, typename param&gt; struct ifthenelse_&lt;filter, p, param, false&gt;{ typedef I&lt;0&gt; res; }; template &lt;typename init, typename i, typename last, typename f, bool cond&gt; struct ifthenelse_2; template &lt;typename init, typename i, typename last, typename f&gt; struct ifthenelse_2&lt;init, i, last, f, true&gt;{ typedef I&lt;0&gt; res; }; template &lt;typename init, typename i, typename last, typename f&gt; struct ifthenelse_2&lt;init, i, last, f, false&gt;{ typedef Cons&lt;typename f::template app&lt;i&gt;::res, typename init::template app&lt;I&lt;((i::val) + (I&lt;1&gt;::val))&gt;&gt;::res::template app&lt;last&gt;::res::template app&lt;f&gt;::res&gt; res; }; template &lt;typename List, typename sieve, typename candidates, bool cond&gt; struct ifthenelse_3; template &lt;typename List, typename sieve, typename candidates&gt; struct ifthenelse_3&lt;List, sieve, candidates, true&gt;{ typedef typename candidates::f0 p; struct Primes_primes_sieve__fun_{ template &lt;typename n&gt; struct app{ typedef I&lt;((I&lt;((n::val) % (p::val))&gt;::val). = (I&lt;0&gt;::val))&gt; res; }; }; typedef Cons&lt;p, typename sieve::template app&lt;typename List::f0::template app&lt;Primes_primes_sieve__fun_&gt;::res::template app&lt;typename candidates::f1&gt;::res&gt;::res&gt; res; }; template &lt;typename List, typename sieve, typename candidates&gt; struct ifthenelse_3&lt;List, sieve, candidates, false&gt;{ typedef I&lt;0&gt; res; }; struct filter; struct filter{ template &lt;typename p&gt; struct app{ struct res{ template &lt;typename param&gt; struct app{ typedef typename ifthenelse_&lt;filter, p, param, param::nonzero&gt;::res res; }; }; }; }; struct init; struct init{ template &lt;typename i&gt; struct app{ struct res{ template &lt;typename last&gt; struct app{ struct res{ template &lt;typename f&gt; struct app{ typedef typename ifthenelse_2&lt;init, i, last, f, I&lt;((i::val) &gt; (last::val))&gt;::nonzero&gt;::res res; }; }; }; }; }; }; typedef Cons&lt;filter, init&gt; List; struct primes{ template &lt;typename n&gt; struct app{ struct sieve; struct sieve{ template &lt;typename candidates&gt; struct app{ typedef typename ifthenelse_3&lt;List, sieve, cand.
+
+🔗 Read more: https://github.com/ocaml/ocaml/pull/14701</description>
+      <guid isPermaLink="true">https://github.com/ocaml/ocaml/pull/14701</guid>
+      <pubDate>Wed, 01 Apr 2026 23:35:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47608058</comments>
     </item>
     <item>
-      <title>InspectMind AI (YC W24) Is Hiring</title>
-      <link>https://www.ycombinator.com/companies/inspectmind-ai/jobs/jQNra64-software-engineer-build-the-world-s-best-ai-plan-checker</link>
-      <description>📝 Our goal is simple: every construction project in the world gets checked by AI before permitting and construction. • 100%+ month-over-month growth • Hundreds of paying customers • Thousands of projects processed • Engineers finding hundreds of real issues per project • Fully self-serve product This is already being used in real workflows. If we succeed, every construction project globally will run through systems you helped build.
+      <title>Quantum computing bombshells that are not April Fools</title>
+      <link>https://scottaaronson.blog/?p=9665</link>
+      <description>📝 How much time will this save — maybe a year. Will we, in quantum computing, also soon cross that threshold. I hope this post helps.
 
-🔗 Read more: https://www.ycombinator.com/companies/inspectmind-ai/jobs/jQNra64-software-engineer-build-the-world-s-best-ai-plan-checker</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/inspectmind-ai/jobs/jQNra64-software-engineer-build-the-world-s-best-ai-plan-checker</guid>
-      <pubDate>Wed, 01 Apr 2026 21:00:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47606495</comments>
+🔗 Read more: https://scottaaronson.blog/?p=9665</description>
+      <guid isPermaLink="true">https://scottaaronson.blog/?p=9665</guid>
+      <pubDate>Thu, 02 Apr 2026 00:24:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47608495</comments>
     </item>
     <item>
-      <title>Scientists crack a 20-year nuclear mystery behind the creation of gold</title>
-      <link>https://www.sciencedaily.com/releases/2026/03/260313002633.htm</link>
-      <description>📝 During this process, an atomic nucleus absorbs neutrons in rapid succession. " This research marks the first detailed study of two-neutron emission from a nucleus that lies along the r-process pathway. " Advanced neutron detectors allowed researchers to detect this elusive nuclear state.
+      <title>DRAM pricing is killing the hobbyist SBC market</title>
+      <link>https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</link>
+      <description>📝 Used PC are also more expensive, especially with more than 4 GB of RAM. With prices going up, this limits the types of projects I take on. Lucky for Raspberry Pi, they have a thriving microcontroller ecosystem and industrial base to keep them going.
 
-🔗 Read more: https://www.sciencedaily.com/releases/2026/03/260313002633.htm</description>
-      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/03/260313002633.htm</guid>
-      <pubDate>Wed, 01 Apr 2026 19:26:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47605374</comments>
+🔗 Read more: https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</description>
+      <guid isPermaLink="true">https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</guid>
+      <pubDate>Wed, 01 Apr 2026 21:36:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47606840</comments>
     </item>
     <item>
-      <title>Unsubscribe from the Church of Graphs</title>
-      <link>https://www.adorableandharmless.com/p/unsubscribe-from-the-church-of-graphs</link>
-      <description>📝 In our discussion yesterday, many commenters proposed that the discussion about “crime” was really about disorder. All the graphs say that crime is declining, but people believe it’s getting worse. This includes many members of Scott’s way-above-average-intelligence readership.
-
-🔗 Read more: https://www.adorableandharmless.com/p/unsubscribe-from-the-church-of-graphs</description>
-      <guid isPermaLink="true">https://www.adorableandharmless.com/p/unsubscribe-from-the-church-of-graphs</guid>
-      <pubDate>Wed, 01 Apr 2026 17:58:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47604253</comments>
+      <title>IPv6 address, as a sentence you can remember</title>
+      <link>https://sentence2ipv6.tib3rius.com/</link>
+      <guid isPermaLink="true">https://sentence2ipv6.tib3rius.com/</guid>
+      <pubDate>Wed, 01 Apr 2026 23:22:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47607923</comments>
     </item>
     <item>
-      <title>Jax's true calling: Ray-Marching renderers on WebGL</title>
-      <link>https://benoit.paris/posts/jax-ray-marcher/</link>
-      <description>📝 We’ll be using Signed Distance Functions (SDF). These have a lot going for them: They’re just beautiful. Did I mention they’re functions.
+      <title>Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)</title>
+      <link>https://getdull.app</link>
+      <description>📝 It's a browser with opinions about what you don't need. The streaks, the intervention pop-ups, the guilt mechanics that make you feel bad for using your own phone — none of that. Nothing leaves your device.
 
-🔗 Read more: https://benoit.paris/posts/jax-ray-marcher/</description>
-      <guid isPermaLink="true">https://benoit.paris/posts/jax-ray-marcher/</guid>
-      <pubDate>Wed, 01 Apr 2026 19:36:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47605494</comments>
+🔗 Read more: https://getdull.app</description>
+      <guid isPermaLink="true">https://getdull.app</guid>
+      <pubDate>Wed, 01 Apr 2026 21:04:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47606560</comments>
     </item>
     <item>
-      <title>SpaceX confidentially files to go public at $1.75T, reports say</title>
-      <link>https://www.theguardian.com/technology/2026/apr/01/spacex-public-offering-stock-market</link>
-      <description>📝 A SpaceX Falcon 9 rocket is displayed outside a Space Exploration Technologies Corp facility in Hawthorne, California, last month. SpaceX is the parent company of Musk’s own artificial intelligence company, xAI. Over the past decade SpaceX has grown to become the most valuable enterprise in Musk’s sprawling tech empire.
-
-🔗 Read more: https://www.theguardian.com/technology/2026/apr/01/spacex-public-offering-stock-market</description>
-      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/01/spacex-public-offering-stock-market</guid>
-      <pubDate>Wed, 01 Apr 2026 19:19:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47605270</comments>
+      <title>SpaceX files to go public</title>
+      <link>https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html</guid>
+      <pubDate>Wed, 01 Apr 2026 17:49:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47604155</comments>
     </item>
     <item>
-      <title>Ask HN: Who wants to be hired? (April 2026)</title>
-      <link>https://news.ycombinator.com/item?id=47601858</link>
-      <description>📝 Share your information if you are looking for work. Please use this format: Location: Remote: Willing to relocate: Technologies: Résumé/CV: Email: Please only post if you are personally looking for work. Readers: please only email these addresses to discuss work opportunities.
-
-🔗 Read more: https://news.ycombinator.com/item?id=47601858</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47601858</guid>
-      <pubDate>Wed, 01 Apr 2026 15:01:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47601858</comments>
+      <title>ZomboCom stolen by a hacker, sold, now replaced with AI-generated makeover</title>
+      <link>https://old.reddit.com/r/oldinternet/comments/1raiz8v/zombocom_was_stolen_by_hacker_put_up_for_sale_and/</link>
+      <guid isPermaLink="true">https://old.reddit.com/r/oldinternet/comments/1raiz8v/zombocom_was_stolen_by_hacker_put_up_for_sale_and/</guid>
+      <pubDate>Wed, 01 Apr 2026 23:45:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47608155</comments>
     </item>
     <item>
-      <title>Apple at 50</title>
-      <link>https://www.apple.com/</link>
-      <description>📝 50 Years of Thinking Different. 50 Years of Thinking Different. At 50 years, it’s only natural to look back.
+      <title>Swappa.com for GrapheneOS compatible devices – Stay Away</title>
+      <link>https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</link>
+      <description>📝 I tried purchasing three used phones from Swappa. After confirming for a second time with the Swappa staff that "Unlocked" devices would be bootloader unlocked, I purchased a third, "Unlocked" tagged phone from Supplytronics for $424. Before shipping, I requested they confirm the bootloader was unlocked.
 
-🔗 Read more: https://www.apple.com/</description>
-      <guid isPermaLink="true">https://www.apple.com/</guid>
-      <pubDate>Wed, 01 Apr 2026 18:48:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47604897</comments>
+🔗 Read more: https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</description>
+      <guid isPermaLink="true">https://discuss.grapheneos.org/d/33727-swappacom-for-grapheneos-compatible-devices-stay-away</guid>
+      <pubDate>Wed, 01 Apr 2026 21:59:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47607067</comments>
+    </item>
+    <item>
+      <title>Montana referendum to outlaw corporate campaign contributions [video]</title>
+      <link>https://www.youtube.com/watch?v=p1fPbGHe3xE</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=p1fPbGHe3xE</guid>
+      <pubDate>Wed, 01 Apr 2026 23:42:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47608130</comments>
+    </item>
+    <item>
+      <title>SolveSpace (open source 2D/3D CAD) working on Windows 2000 (2025)</title>
+      <link>https://github.com/solvespace/solvespace/issues/1036</link>
+      <description>📝 9k Windows error in SolveSpace 3. OpenGL 1) #1036New issueCopy linkNew issueCopy linkOpenOpenWindows error in SolveSpace 3. OpenGL 1)#1036Copy linkAssignees LabelsWin32Descriptionorisvaldo19opened on May 12, 2021Issue body actionsSystem information SolveSpace version: Operating system: Expected behavior The program open.
+
+🔗 Read more: https://github.com/solvespace/solvespace/issues/1036</description>
+      <guid isPermaLink="true">https://github.com/solvespace/solvespace/issues/1036</guid>
+      <pubDate>Wed, 01 Apr 2026 22:32:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47607394</comments>
+    </item>
+    <item>
+      <title>The Windows equivalents of the most used Linux commands</title>
+      <link>http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</link>
+      <description>📝 The Windows equivalents of the most used Linux commands Get link Facebook X Pinterest Email Other Apps April 01, 2026 Whether it is to pipe the Tcpdump output to another machine hosting Wireshark or checking which service is listening on which port, Windows cmd has similar commands that are present in Linux. txtWindows: type filename. commands Linux server side sys admin Windows Get link Facebook X Pinterest Email Other Apps Comments Post a Comment What do you think.
+
+🔗 Read more: http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</description>
+      <guid isPermaLink="true">http://techkettle.blogspot.com/2026/04/the-windows-equivalents-of-most-used.html</guid>
+      <pubDate>Wed, 01 Apr 2026 22:25:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47607326</comments>
     </item>
   </channel>
 </rss>
