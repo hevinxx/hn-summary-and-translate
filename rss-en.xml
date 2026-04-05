@@ -6,38 +6,58 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 07:07:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 09:39:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>GabeN Is Shitting Yacht Money into Flatpak and You're Still Arguing Init Systems</title>
-      <link>https://s3kshun8.games/blog/flatpak-won/</link>
-      <description>📝 We'd been living with this problem for years. I don't know if that friendship will survive. So what's actually wrong with AppImage in the first place.
+      <title>Lisette a little language inspired by Rust that compiles to Go</title>
+      <link>https://lisette.run/</link>
+      <description>📝 Lisettea little languageinspired by Rustthat compiles to Go Algebraic data types · Pattern matching · No nil · Hindley-Milner type system · Immutable by default Interoperability with Go's ecosystem &gt; cargo install lisette.
 
-🔗 Read more: https://s3kshun8.games/blog/flatpak-won/</description>
-      <guid isPermaLink="true">https://s3kshun8.games/blog/flatpak-won/</guid>
-      <pubDate>Sun, 05 Apr 2026 06:29:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47646672</comments>
+🔗 Read more: https://lisette.run/</description>
+      <guid isPermaLink="true">https://lisette.run/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:57:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646843</comments>
     </item>
     <item>
-      <title>German implementation of eIDAS will require an Apple/Google account to function</title>
-      <link>https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</link>
-      <description>📝 The authentication means protects against attacks on the user’s authentication mechanism by attackers with high attack potential. The security of the user authentication mechanism and the authentication factors depend on the security of the user device. Identify device class Provides verified information regarding the device model, the operating system incl.
+      <title>Aegis – open-source FPGA silicon</title>
+      <link>https://github.com/MidstallSoftware/aegis</link>
+      <description>📝 vcd ASIC Tapeout The tapeout pipeline synthesizes the FPGA fabric itself to PDK standard cells: nix build. # Build the default package (aegis-ip-tools) nix build # Build Terra 1 IP nix build. The architecture follows Xilinx-style conventions: CLB: LUT4 + D flip-flop + MUXCY carry chain (18-bit config) Tile: CLB + 4-directional routing muxes (46-bit config) BRAM: Dual-port 128x8 block RAM (8-bit config) DSP: 18x18 multiply-accumulate with optional pipeline (16-bit config) IO: Bidirectional pad with input/output registers (8-bit config) SerDes: Protocol-agnostic serializer/deserializer (32-bit config) Clock: 4-output clock divider with phase control (49-bit config) Configuration is loaded via a serial shift register chain: clock tiles -&gt; IO tiles -&gt; SerDes tiles -&gt; fabric tiles (row-major).
 
-🔗 Read more: https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</description>
-      <guid isPermaLink="true">https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</guid>
-      <pubDate>Sat, 04 Apr 2026 22:57:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47644406</comments>
+🔗 Read more: https://github.com/MidstallSoftware/aegis</description>
+      <guid isPermaLink="true">https://github.com/MidstallSoftware/aegis</guid>
+      <pubDate>Sun, 05 Apr 2026 05:50:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646472</comments>
     </item>
     <item>
-      <title>Demonstrating Real Time AV2 Decoding on Consumer Laptops</title>
-      <link>http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</link>
-      <description>📝 They showed real-time AV2 playback on laptops using current reference implementations, spanning both native applications and browser-based streaming pipelines. Web-based decoding and streaming pipeline A second demonstration showed AV2 decoding in a browser-based streaming environment. Technical observations Across both demonstrations, several technical observations emerged: AV2 decoding is already functional in real playback environments using reference implementations.
+      <title>Modern Generic SVGA driver for Windows 3.1</title>
+      <link>https://github.com/PluMGMK/vbesvga.drv</link>
+      <description>📝 To demonstrate that it's possible to run Windows 3. COM, confirming again that I'm using a real AMD graphics card. On Windows 98 This shows Windows 98 running on the same hardware as above, with large fonts, with the Active Desktop UI fully working.
 
-🔗 Read more: http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</description>
-      <guid isPermaLink="true">http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</guid>
-      <pubDate>Sun, 05 Apr 2026 01:32:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47645305</comments>
+🔗 Read more: https://github.com/PluMGMK/vbesvga.drv</description>
+      <guid isPermaLink="true">https://github.com/PluMGMK/vbesvga.drv</guid>
+      <pubDate>Sun, 05 Apr 2026 05:28:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646363</comments>
+    </item>
+    <item>
+      <title>Dynamics of (Not) Being Perceived: Grief and Relief After Leaving Social Media</title>
+      <link>https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</link>
+      <description>📝 ” and leave it at that. What would that concretely mean in the case of a social media exit. The tensions that arise while being perceived online are often driven by what is being made visible and what gets hidden.
+
+🔗 Read more: https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</description>
+      <guid isPermaLink="true">https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</guid>
+      <pubDate>Sun, 05 Apr 2026 07:01:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646871</comments>
+    </item>
+    <item>
+      <title>Unverified: What Practitioners Post About OCR, Agents, and Tables</title>
+      <link>https://idp-software.com/news/idp-accuracy-reckoning-2026/</link>
+      <description>📝 On This Page About This Report The Demo Works. Weeks spent finding something that worked. Marker with Gemini second.
+
+🔗 Read more: https://idp-software.com/news/idp-accuracy-reckoning-2026/</description>
+      <guid isPermaLink="true">https://idp-software.com/news/idp-accuracy-reckoning-2026/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:12:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646566</comments>
     </item>
   </channel>
 </rss>

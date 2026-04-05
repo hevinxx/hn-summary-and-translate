@@ -6,47 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Apr 2026 07:07:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 09:39:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>GabeN はフラットパックにヨットのお金を注ぎ込んでいるのに、あなたはまだ初期化システムについて議論している</title>
-      <link>https://s3kshun8.games/blog/flatpak-won/</link>
-      <description>📝 私たちは何年もこの問題を抱えて生きてきました。その友情が今後も続くかどうかはわかりません。では、そもそも AppImage には何が問題があるのでしょうか。
+      <title>Lisette は Go にコンパイルできる Rust からインスピレーションを得た小さな言語です</title>
+      <link>https://lisette.run/</link>
+      <description>📝 Lisette Go 代数データ型にコンパイルできる Rust からインスピレーションを得た小さな言語 · パターン マッチング · nil なし · Hindley-Milner 型システム · デフォルトで不変 Go のエコシステムとの相互運用性 &gt; カーゴ インストール lisette。
 
 
-🔤 Original: GabeN Is Shitting Yacht Money into Flatpak and You're Still Arguing Init Systems
+🔤 Original: Lisette a little language inspired by Rust that compiles to Go
 
-🔗 Read more: https://s3kshun8.games/blog/flatpak-won/</description>
-      <guid isPermaLink="true">https://s3kshun8.games/blog/flatpak-won/</guid>
-      <pubDate>Sun, 05 Apr 2026 06:29:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47646672</comments>
+🔗 Read more: https://lisette.run/</description>
+      <guid isPermaLink="true">https://lisette.run/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:57:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646843</comments>
     </item>
     <item>
-      <title>ドイツでの eIDAS の実装には、Apple/Google アカウントが機能する必要があります</title>
-      <link>https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</link>
-      <description>📝 認証手段は、攻撃の可能性が高い攻撃者によるユーザーの認証メカニズムへの攻撃から保護します。ユーザー認証メカニズムと認証要素のセキュリティは、ユーザー デバイスのセキュリティに依存します。デバイス クラスの識別デバイス モデル、オペレーティング システム (オペレーティング システムなど) に関する検証済みの情報を提供します。
+      <title>Aegis – オープンソース FPGA シリコン</title>
+      <link>https://github.com/MidstallSoftware/aegis</link>
+      <description>📝 vcd ASIC テープアウト テープアウト パイプラインは、FPGA ファブリック自体を PDK 標準セル (nix ビルド) に合成します。 # デフォルトのパッケージ (aegis-ip-tools) をビルドします nix build # Terra 1 IP をビルドします nix build。アーキテクチャはザイリンクス スタイルの規則に従います。 CLB: LUT4 + D フリップフロップ + MUXCY キャリー チェーン (18 ビット コンフィギュレーション) タイル: CLB + 4 方向ルーティング マルチプレクサ (46 ビット コンフィギュレーション) BRAM: デュアル ポート 128x8 ブロック RAM (8 ビット コンフィギュレーション) DSP: オプションのパイプラインを備えた 18x18 積和演算 (16 ビット コンフィギュレーション) IO: 双方向パッド入出力レジスタ付き (8 ビット構成) SerDes: プロトコルに依存しないシリアライザー/デシリアライザー (32 ビット構成) クロック: 位相制御付き 4 出力クロック分周器 (49 ビット構成) 構成はシリアル シフト レジスタ チェーンを介してロードされます: クロック タイル -&gt; IO タイル -&gt; SerDes タイル -&gt; ファブリック タイル (行優先)。
 
 
-🔤 Original: German implementation of eIDAS will require an Apple/Google account to function
+🔤 Original: Aegis – open-source FPGA silicon
 
-🔗 Read more: https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</description>
-      <guid isPermaLink="true">https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</guid>
-      <pubDate>Sat, 04 Apr 2026 22:57:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47644406</comments>
+🔗 Read more: https://github.com/MidstallSoftware/aegis</description>
+      <guid isPermaLink="true">https://github.com/MidstallSoftware/aegis</guid>
+      <pubDate>Sun, 05 Apr 2026 05:50:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646472</comments>
     </item>
     <item>
-      <title>消費者向けラップトップでのリアルタイム AV2 デコーディングのデモンストレーション</title>
-      <link>http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</link>
-      <description>📝 彼らは、ネイティブ アプリケーションとブラウザベースのストリーミング パイプラインの両方にわたる、現在のリファレンス実装を使用したラップトップでのリアルタイム AV2 再生を示しました。 Web ベースのデコードおよびストリーミング パイプライン 2 番目のデモンストレーションでは、ブラウザベースのストリーミング環境での AV2 デコードを示しました。技術的な観察 両方のデモンストレーションを通じて、いくつかの技術的な観察が明らかになりました。AV2 デコードは、リファレンス実装を使用した実際の再生環境ですでに機能しています。
+      <title>Windows 3.1用の最新の汎用SVGAドライバー</title>
+      <link>https://github.com/PluMGMK/vbesvga.drv</link>
+      <description>📝 Windows 3.COM を実行できることを実証するため、本物の AMD グラフィックス カードを使用していることを再度確認します。 Windows 98 の場合 これは、上記と同じハードウェア上で実行されている Windows 98 を大きなフォントで示し、アクティブ デスクトップ UI が完全に動作していることを示しています。
 
 
-🔤 Original: Demonstrating Real Time AV2 Decoding on Consumer Laptops
+🔤 Original: Modern Generic SVGA driver for Windows 3.1
 
-🔗 Read more: http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</description>
-      <guid isPermaLink="true">http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</guid>
-      <pubDate>Sun, 05 Apr 2026 01:32:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47645305</comments>
+🔗 Read more: https://github.com/PluMGMK/vbesvga.drv</description>
+      <guid isPermaLink="true">https://github.com/PluMGMK/vbesvga.drv</guid>
+      <pubDate>Sun, 05 Apr 2026 05:28:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646363</comments>
+    </item>
+    <item>
+      <title>認識される（されない）ダイナミクス: ソーシャルメディアを離れた後の悲しみと安堵</title>
+      <link>https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</link>
+      <description>📝 ソーシャルメディアからの離脱の場合、それは具体的に何を意味するでしょうか。オンラインで認識されている間に生じる緊張は、何が可視化され、何が隠蔽されるかによって引き起こされることがよくあります。
+
+
+🔤 Original: Dynamics of (Not) Being Perceived: Grief and Relief After Leaving Social Media
+
+🔗 Read more: https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</description>
+      <guid isPermaLink="true">https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</guid>
+      <pubDate>Sun, 05 Apr 2026 07:01:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646871</comments>
+    </item>
+    <item>
+      <title>未検証: OCR、エージェント、テーブルについての実践者による投稿</title>
+      <link>https://idp-software.com/news/idp-accuracy-reckoning-2026/</link>
+      <description>📝 このページについて このレポートについて デモは動作します。効果的なものを見つけるのに数週間を費やしました。ジェミニが2番目のマーカー。
+
+
+🔤 Original: Unverified: What Practitioners Post About OCR, Agents, and Tables
+
+🔗 Read more: https://idp-software.com/news/idp-accuracy-reckoning-2026/</description>
+      <guid isPermaLink="true">https://idp-software.com/news/idp-accuracy-reckoning-2026/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:12:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646566</comments>
     </item>
   </channel>
 </rss>

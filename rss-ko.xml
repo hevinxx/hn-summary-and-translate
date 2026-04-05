@@ -6,47 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 05 Apr 2026 07:07:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 09:39:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>GabeN은 요트 돈을 Flatpak에 쏟아 붓고 있으며 여전히 Init 시스템을 논쟁하고 있습니다.</title>
-      <link>https://s3kshun8.games/blog/flatpak-won/</link>
-      <description>📝 우리는 수년간 이 문제를 안고 살아왔습니다. 그 우정이 지속될지는 모르겠습니다. 그렇다면 우선 AppImage에 실제로 문제가 있는 것은 무엇입니까?
+      <title>Go로 컴파일되는 Rust에서 영감을 받은 작은 언어 Lisette</title>
+      <link>https://lisette.run/</link>
+      <description>📝 Go 대수 데이터 유형으로 컴파일되는 Rust에서 영감을 받은 Lisettea 작은 언어 · 패턴 일치 · 없음 · Hindley-Milner 유형 시스템 · 기본적으로 불변 Go 생태계와의 상호 운용성 &gt; 화물 설치 Lisette.
 
 
-🔤 Original: GabeN Is Shitting Yacht Money into Flatpak and You're Still Arguing Init Systems
+🔤 Original: Lisette a little language inspired by Rust that compiles to Go
 
-🔗 Read more: https://s3kshun8.games/blog/flatpak-won/</description>
-      <guid isPermaLink="true">https://s3kshun8.games/blog/flatpak-won/</guid>
-      <pubDate>Sun, 05 Apr 2026 06:29:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47646672</comments>
+🔗 Read more: https://lisette.run/</description>
+      <guid isPermaLink="true">https://lisette.run/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:57:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646843</comments>
     </item>
     <item>
-      <title>독일에서 eIDAS를 구현하려면 Apple/Google 계정이 필요합니다.</title>
-      <link>https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</link>
-      <description>📝 인증 수단은 공격 가능성이 높은 공격자가 사용자 인증 메커니즘을 공격하는 것을 방지합니다. 사용자 인증 메커니즘의 보안과 인증 요소는 사용자 장치의 보안에 따라 달라집니다. 장치 클래스 식별 장치 모델, 운영 체제에 관해 검증된 정보를 제공합니다.
+      <title>Aegis – 오픈 소스 FPGA 실리콘</title>
+      <link>https://github.com/MidstallSoftware/aegis</link>
+      <description>📝 vcd ASIC Tapeout 테이프아웃 파이프라인은 FPGA 패브릭 자체를 PDK 표준 셀(nix 빌드)에 합성합니다. # 기본 패키지(aegis-ip-tools)를 빌드합니다. nix build # Terra 1 IP nix 빌드를 빌드합니다. 아키텍처는 Xilinx 스타일 규칙을 따릅니다. CLB: LUT4 + D 플립플롭 + MUXCY 캐리 체인(18비트 구성) 타일: CLB + 4방향 라우팅 멀티플렉서(46비트 구성) BRAM: 듀얼 포트 128x8 블록 RAM(8비트 구성) DSP: 선택적 파이프라인을 사용한 18x18 곱셈-누산(16비트 구성) IO: 입력/출력 레지스터가 있는 양방향 패드 (8비트 구성) SerDes: 프로토콜에 구애받지 않는 직렬 변환기/역직렬 변환기(32비트 구성) 시계: 위상 제어 기능이 있는 4출력 클록 분할기(49비트 구성) 구성은 직렬 시프트 레지스터 체인을 통해 로드됩니다: 시계 타일 -&gt; IO 타일 -&gt; SerDes 타일 -&gt; 패브릭 타일(행 주요).
 
 
-🔤 Original: German implementation of eIDAS will require an Apple/Google account to function
+🔤 Original: Aegis – open-source FPGA silicon
 
-🔗 Read more: https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</description>
-      <guid isPermaLink="true">https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</guid>
-      <pubDate>Sat, 04 Apr 2026 22:57:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47644406</comments>
+🔗 Read more: https://github.com/MidstallSoftware/aegis</description>
+      <guid isPermaLink="true">https://github.com/MidstallSoftware/aegis</guid>
+      <pubDate>Sun, 05 Apr 2026 05:50:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646472</comments>
     </item>
     <item>
-      <title>소비자 노트북에서 실시간 AV2 디코딩 시연</title>
-      <link>http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</link>
-      <description>📝 그들은 기본 애플리케이션과 브라우저 기반 스트리밍 파이프라인을 모두 포괄하는 현재 참조 구현을 사용하여 노트북에서 실시간 AV2 재생을 보여주었습니다. 웹 기반 디코딩 및 스트리밍 파이프라인 두 번째 시연에서는 브라우저 기반 스트리밍 환경에서 AV2 디코딩을 보여주었습니다. 기술적 관찰 두 시연에서 몇 가지 기술적 관찰이 나타났습니다. AV2 디코딩은 참조 구현을 사용하여 실제 재생 환경에서 이미 작동하고 있습니다.
+      <title>Windows 3.1용 최신 일반 SVGA 드라이버</title>
+      <link>https://github.com/PluMGMK/vbesvga.drv</link>
+      <description>📝 Windows 3.COM을 실행하는 것이 가능하다는 것을 보여주기 위해, 실제 AMD 그래픽 카드를 사용하고 있음을 다시 확인합니다. Windows 98 이는 위와 동일한 하드웨어에서 큰 글꼴로 실행되고 Active Desktop UI가 완벽하게 작동하는 Windows 98을 보여줍니다.
 
 
-🔤 Original: Demonstrating Real Time AV2 Decoding on Consumer Laptops
+🔤 Original: Modern Generic SVGA driver for Windows 3.1
 
-🔗 Read more: http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</description>
-      <guid isPermaLink="true">http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</guid>
-      <pubDate>Sun, 05 Apr 2026 01:32:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47645305</comments>
+🔗 Read more: https://github.com/PluMGMK/vbesvga.drv</description>
+      <guid isPermaLink="true">https://github.com/PluMGMK/vbesvga.drv</guid>
+      <pubDate>Sun, 05 Apr 2026 05:28:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646363</comments>
+    </item>
+    <item>
+      <title>(아님) 인식의 역학: 소셜 미디어를 떠난 후의 슬픔과 안도감</title>
+      <link>https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</link>
+      <description>📝 "라고 놔두세요. 소셜 미디어 탈퇴의 경우 구체적으로 무엇을 의미할까요? 온라인에서 인식되는 동안 발생하는 긴장은 흔히 무엇이 가시화되고 무엇이 숨겨져 있는지에 따라 결정됩니다.
+
+
+🔤 Original: Dynamics of (Not) Being Perceived: Grief and Relief After Leaving Social Media
+
+🔗 Read more: https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</description>
+      <guid isPermaLink="true">https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</guid>
+      <pubDate>Sun, 05 Apr 2026 07:01:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646871</comments>
+    </item>
+    <item>
+      <title>확인되지 않음: OCR, 에이전트 및 테이블에 대해 실무자가 게시한 내용</title>
+      <link>https://idp-software.com/news/idp-accuracy-reckoning-2026/</link>
+      <description>📝 이 페이지의 보고서 정보 데모가 작동합니다. 효과가 있는 것을 찾는 데 몇 주가 걸렸습니다. 쌍둥이 자리 두 번째 마커.
+
+
+🔤 Original: Unverified: What Practitioners Post About OCR, Agents, and Tables
+
+🔗 Read more: https://idp-software.com/news/idp-accuracy-reckoning-2026/</description>
+      <guid isPermaLink="true">https://idp-software.com/news/idp-accuracy-reckoning-2026/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:12:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646566</comments>
     </item>
   </channel>
 </rss>

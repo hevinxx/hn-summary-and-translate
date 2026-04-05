@@ -6,47 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Apr 2026 07:07:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 09:39:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GabeN 将游艇资金投入 Flatpak，而你仍在争论 Init Systems</title>
-      <link>https://s3kshun8.games/blog/flatpak-won/</link>
-      <description>📝 多年来我们一直面临这个问题。不知道这段友谊是否还能维持下去。那么 AppImage 到底出了什么问题呢？
+      <title>Lisette 是一种受 Rust 启发的小语言，可编译为 Go</title>
+      <link>https://lisette.run/</link>
+      <description>📝 Lisettea 受 Rust 启发的小语言，可编译为 Go 代数数据类型 · 模式匹配 · 无 nil · Hindley-Milner 类型系统 · 默认不可变 与 Go 生态系统的互操作性 &gt; 货物安装 lisette。
 
 
-🔤 Original: GabeN Is Shitting Yacht Money into Flatpak and You're Still Arguing Init Systems
+🔤 Original: Lisette a little language inspired by Rust that compiles to Go
 
-🔗 Read more: https://s3kshun8.games/blog/flatpak-won/</description>
-      <guid isPermaLink="true">https://s3kshun8.games/blog/flatpak-won/</guid>
-      <pubDate>Sun, 05 Apr 2026 06:29:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47646672</comments>
+🔗 Read more: https://lisette.run/</description>
+      <guid isPermaLink="true">https://lisette.run/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:57:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646843</comments>
     </item>
     <item>
-      <title>德国实施 eIDAS 需要 Apple/Google 帐户才能运行</title>
-      <link>https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</link>
-      <description>📝 该认证装置防止具有高攻击潜力的攻击者对用户认证机制的攻击。用户认证机制和认证因素的安全性取决于用户设备的安全性。识别设备类别 提供有关设备型号、操作系统（包括操作系统）的经过验证的信息。
+      <title>Aegis – 开源 FPGA 芯片</title>
+      <link>https://github.com/MidstallSoftware/aegis</link>
+      <description>📝 vcd ASIC Tapeout 流片管道将 FPGA 结构本身合成为 PDK 标准单元：nix 构建。 # 构建默认包 (aegis-ip-tools) nix build # 构建 Terra 1 IP nix build.该架构遵循 Xilinx 风格约定： CLB：LUT4 + D 触发器 + MUXCY 进位链（18 位配置） Tile：CLB + 4 向路由多路复用器（46 位配置） BRAM：双端口 128x8 Block RAM（8 位配置） DSP：带可选管道的 18x18 乘法累加（16 位配置） IO：带输入/输出寄存器的双向 pad （8 位配置） SerDes：与协议无关的串行器/解串器（32 位配置） 时钟：具有相位控制的 4 输出时钟分频器（49 位配置） 配置通过串行移位寄存器链加载：时钟块 -&gt; IO 块 -&gt; SerDes 块 -&gt; 结构块（行优先）。
 
 
-🔤 Original: German implementation of eIDAS will require an Apple/Google account to function
+🔤 Original: Aegis – open-source FPGA silicon
 
-🔗 Read more: https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</description>
-      <guid isPermaLink="true">https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/</guid>
-      <pubDate>Sat, 04 Apr 2026 22:57:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47644406</comments>
+🔗 Read more: https://github.com/MidstallSoftware/aegis</description>
+      <guid isPermaLink="true">https://github.com/MidstallSoftware/aegis</guid>
+      <pubDate>Sun, 05 Apr 2026 05:50:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646472</comments>
     </item>
     <item>
-      <title>在消费类笔记本电脑上演示实时 AV2 解码</title>
-      <link>http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</link>
-      <description>📝 他们使用当前的参考实现在笔记本电脑上展示了实时 AV2 播放，涵盖本机应用程序和基于浏览器的流媒体管道。基于 Web 的解码和流媒体管道 第二个演示展示了基于浏览器的流媒体环境中的 AV2 解码。技术观察 在这两次演示中，出现了一些技术观察： AV2 解码已经在使用参考实现的真实播放环境中发挥作用。
+      <title>适用于 Windows 3.1 的现代通用 SVGA 驱动程序</title>
+      <link>https://github.com/PluMGMK/vbesvga.drv</link>
+      <description>📝 为了演示可以运行Windows 3.COM，再次确认我使用的是真正的AMD显卡。在 Windows 98 上 这显示 Windows 98 在与上述相同的硬件上运行，具有大字体，并且活动桌面 UI 完全正常工作。
 
 
-🔤 Original: Demonstrating Real Time AV2 Decoding on Consumer Laptops
+🔤 Original: Modern Generic SVGA driver for Windows 3.1
 
-🔗 Read more: http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</description>
-      <guid isPermaLink="true">http://aomedia.org/blog%20posts/Demonstrating-Real-Time-AV2-Decoding-on-Consumer-Laptops/</guid>
-      <pubDate>Sun, 05 Apr 2026 01:32:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47645305</comments>
+🔗 Read more: https://github.com/PluMGMK/vbesvga.drv</description>
+      <guid isPermaLink="true">https://github.com/PluMGMK/vbesvga.drv</guid>
+      <pubDate>Sun, 05 Apr 2026 05:28:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646363</comments>
+    </item>
+    <item>
+      <title>被（不）被感知的动态：离开社交媒体后的悲伤和宽慰</title>
+      <link>https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</link>
+      <description>📝 ”然后就这样吧。在社交媒体退出的情况下，这具体意味着什么。在网上被感知时出现的紧张局势往往是由可见的内容和隐藏的内容驱动的。
+
+
+🔤 Original: Dynamics of (Not) Being Perceived: Grief and Relief After Leaving Social Media
+
+🔗 Read more: https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</description>
+      <guid isPermaLink="true">https://networkcultures.org/thedigitalgutmensch/2026/04/02/dynamics-of-not-being-perceived-the-grief-relief-after-leaving-social-media/</guid>
+      <pubDate>Sun, 05 Apr 2026 07:01:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646871</comments>
+    </item>
+    <item>
+      <title>未经验证：从业者发布的有关 OCR、代理和表格的内容</title>
+      <link>https://idp-software.com/news/idp-accuracy-reckoning-2026/</link>
+      <description>📝 在本页上 关于本报告 演示有效。花了几周时间寻找有效的东西。标记为双子座第二。
+
+
+🔤 Original: Unverified: What Practitioners Post About OCR, Agents, and Tables
+
+🔗 Read more: https://idp-software.com/news/idp-accuracy-reckoning-2026/</description>
+      <guid isPermaLink="true">https://idp-software.com/news/idp-accuracy-reckoning-2026/</guid>
+      <pubDate>Sun, 05 Apr 2026 06:12:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47646566</comments>
     </item>
   </channel>
 </rss>
