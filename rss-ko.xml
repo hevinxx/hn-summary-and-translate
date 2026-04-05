@@ -6,127 +6,61 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 05 Apr 2026 18:45:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 21:32:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>(야간) Rust의 테일 콜 인터프리터</title>
-      <link>https://www.mattkeeter.com/blog/2026-04-05-tailcall/</link>
-      <description>📝 Uxn은 256개의 명령어를 가진 간단한 스택 머신입니다. 두 가지 부분이 있습니다: 시스템의 호출 규칙에 따라 레지스터에 매핑되는 함수 인수에 프로그램 상태를 저장합니다. 다음 함수를 호출하여 각 함수를 종료합니다. 오늘 이것을 Rust로 작성할 수 있습니다. inc 함수는 다음과 같습니다. const TABLE: FunctionTable = FunctionTable([ brk, inc::&lt;0b000&gt;, pop::&lt;0b000&gt;, nip::&lt;0b000&gt;, swp::&lt;0b000&gt;, rot::&lt;0b000&gt;, dup::&lt;0b000&gt;, //. 불행하게도 이 구현에는 문제가 있습니다. 스레드 'snapshots::tailcall::mandelbrot'(67889685)가 스택을 오버플로했습니다. 치명적인 런타임 오류: 스택 오버플로, 중단 오류: 테스트 실패, 패스 `-p raven-varvara --test snapshots`를 다시 실행하려면 릴리스 빌드에서도 컴파일러가 스택을 최적화하지 않았습니다.
+      <title>iPhone의 젬마 4</title>
+      <link>https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337</link>
+      <description>📝 참고: 사고 모드는 현재 Gemma 4 제품군부터 지원되는 모델에서 작동합니다. 새로운 사고 모드 및 에이전트 기술을 사용하여 최신 고성능 모델을 완전히 오프라인으로 실행하세요. - Gemma 4 소개: 완전 오프라인으로 실행되는 최신 고성능 모델을 경험해 보세요. - Gemma 4 소개: 완전히 오프라인으로 실행되는 최신 고성능 모델을 경험해 보세요.
 
 
-🔤 Original: A tail-call interpreter in (nightly) Rust
+🔤 Original: Gemma 4 on iPhone
 
-🔗 Read more: https://www.mattkeeter.com/blog/2026-04-05-tailcall/</description>
-      <guid isPermaLink="true">https://www.mattkeeter.com/blog/2026-04-05-tailcall/</guid>
-      <pubDate>Sun, 05 Apr 2026 15:18:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650312</comments>
+🔗 Read more: https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337</description>
+      <guid isPermaLink="true">https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337</guid>
+      <pubDate>Sun, 05 Apr 2026 18:45:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47652561</comments>
     </item>
     <item>
-      <title>계산물리학(2판)</title>
-      <link>https://websites.umich.edu/~mejn/cp2/</link>
-      <guid isPermaLink="true">https://websites.umich.edu/~mejn/cp2/</guid>
-      <pubDate>Sun, 05 Apr 2026 15:38:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650502</comments>
+      <title>프로그래밍을 위한 음악</title>
+      <link>https://musicforprogramming.net</link>
+      <guid isPermaLink="true">https://musicforprogramming.net</guid>
+      <pubDate>Sun, 05 Apr 2026 18:23:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47652322</comments>
     </item>
     <item>
-      <title>성평등과 노동</title>
-      <link>https://www.oecd.org/en/topics/gender-equality-and-work.html</link>
-      <guid isPermaLink="true">https://www.oecd.org/en/topics/gender-equality-and-work.html</guid>
-      <pubDate>Sun, 05 Apr 2026 18:31:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47652421</comments>
+      <title>지구 온난화와 국토 안보에 관한 영국 정보국의 검열 보고서</title>
+      <link>https://theoryofchange1.substack.com/p/from-global-warming-to-homeland-security</link>
+      <guid isPermaLink="true">https://theoryofchange1.substack.com/p/from-global-warming-to-homeland-security</guid>
+      <pubDate>Sun, 05 Apr 2026 20:59:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47653816</comments>
     </item>
     <item>
-      <title>Codex는 모든 사용자에 대해 API 가격 책정 기반 사용량으로 전환하고 있습니다.</title>
-      <link>https://help.openai.com/en/articles/20001106-codex-rate-card</link>
-      <guid isPermaLink="true">https://help.openai.com/en/articles/20001106-codex-rate-card</guid>
-      <pubDate>Sun, 05 Apr 2026 15:58:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650726</comments>
+      <title>근력을 향상시킬 수 있는 인간의 장에서 발견된 박테리아</title>
+      <link>https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength</link>
+      <description>📝 장내 세균과 근육 성능의 관계 연구팀은 특정 장내 미생물이 근력 및 신체 상태와 관련이 있는지 분석했습니다. 젊은 성인의 경우, 이 박테리아가 더 많이 존재할수록 악력이 강해지고 심폐 능력도 높아집니다. Roseburia inulinivorans는 근력을 증가시킵니다.
+
+
+🔤 Original: Bacteria found in the human intestine capable of improving muscle strength
+
+🔗 Read more: https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength</description>
+      <guid isPermaLink="true">https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength</guid>
+      <pubDate>Sun, 05 Apr 2026 19:01:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47652726</comments>
     </item>
     <item>
-      <title>새에서 뇌까지: 방추형 얼굴 영역으로 가는 나의 길(2024)</title>
-      <link>https://www.kavliprize.org/nancy-kanwisher-autobiography</link>
-      <description>📝 우리 집에서 자란 가마우지는 우리와 함께 자유롭게 헤엄칠 때 "다이빙 서맥"을 거의 나타내지 않았습니다. 정신적 이미지는 시각적 인식과 동일한 뇌 기계와 관련이 있습니까? 뇌의 어느 부분에서 우리는 들어오는 시각적 정보를 친숙한 물체가 어떻게 생겼는지에 대한 저장된 설명과 일치시킵니다.
+      <title>Microsoft는 Petzold 이후 일관된 GUI 전략을 갖고 있지 않습니다.</title>
+      <link>https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/</link>
+      <description>📝 그 침묵이 바로 이야기이다. 마이크로소프트는 일관된 이야기를 팔지 않았습니다. Windows 팀의 씁쓸함.
 
 
-🔤 Original: From birds to brains: My path to the fusiform face area (2024)
+🔤 Original: Microsoft Hasn't Had a Coherent GUI Strategy Since Petzold
 
-🔗 Read more: https://www.kavliprize.org/nancy-kanwisher-autobiography</description>
-      <guid isPermaLink="true">https://www.kavliprize.org/nancy-kanwisher-autobiography</guid>
-      <pubDate>Sun, 05 Apr 2026 17:08:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47651479</comments>
-    </item>
-    <item>
-      <title>Nanocode: TPU의 순수 JAX에서 200달러로 구입할 수 있는 최고의 Claude 코드</title>
-      <link>https://github.com/salmanmohammadi/nanocode/discussions/1</link>
-      <description>📝 3B 매개변수 나노코드가 밝혀졌습니다: 나노코드. 6% 나노코드 코드 1259 326 3. 17728M 모델 매개변수 67.
-
-
-🔤 Original: Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs
-
-🔗 Read more: https://github.com/salmanmohammadi/nanocode/discussions/1</description>
-      <guid isPermaLink="true">https://github.com/salmanmohammadi/nanocode/discussions/1</guid>
-      <pubDate>Sun, 05 Apr 2026 14:21:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47649742</comments>
-    </item>
-    <item>
-      <title>LibreOffice – 추측을 끝내자</title>
-      <link>https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/</link>
-      <description>📝 이상적으로 우리는 이 게시물을 피하는 것을 선호했을 것입니다. 당시에는 오픈오피스를 지원한 기업이 어느 정도일지 누구도 상상하지 못했습니다. 현 이사회가 해결해야 했던 몇 가지 문제는 부분적으로 실행된 프로젝트의 요소에서 비롯되었습니다.
-
-
-🔤 Original: LibreOffice – Let's put an end to the speculation
-
-🔗 Read more: https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/</description>
-      <guid isPermaLink="true">https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/</guid>
-      <pubDate>Sun, 05 Apr 2026 18:23:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47652324</comments>
-    </item>
-    <item>
-      <title>Perfmon – 즐겨 사용하는 CLI 모니터링 도구를 단일 TUI로 통합</title>
-      <link>https://github.com/sumant1122/Perfmon</link>
-      <description>📝 특징 • 설치 • 사용법 • 구성 • 기여 💡 Perfmon이 필요한 이유. make build: 바이너리를 컴파일합니다. make test: 테스트 스위트를 실행합니다.
-
-
-🔤 Original: Perfmon – Consolidate your favorite CLI monitoring tools into a single TUI
-
-🔗 Read more: https://github.com/sumant1122/Perfmon</description>
-      <guid isPermaLink="true">https://github.com/sumant1122/Perfmon</guid>
-      <pubDate>Sun, 05 Apr 2026 14:16:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47649701</comments>
-    </item>
-    <item>
-      <title>LM Studio의 새로운 헤드리스 CLI 및 Claude 코드를 사용하여 로컬에서 Google Gemma 4 실행</title>
-      <link>https://ai.georgeliu.com/p/running-google-gemma-4-locally-with</link>
-      <description>📝 26B 매개변수 모델은 정방향 패스당 4B 매개변수만 활성화합니다. 즉, 밀도가 높은 26B 모델을 처리할 수 없는 하드웨어에서도 잘 실행된다는 의미입니다. 구독Google Gemma 4 26B-a4b LLM 모델은 Claude Code 별칭 명령 claude-lm을 사용하여 LM Studio API를 통해 제공됩니다. Gemma 4 모델 제품군Google은 Gemma 4를 하나가 아닌 4개 모델 제품군으로 출시했습니다. 실제로는 해당 중량 등급보다 훨씬 뛰어난 품질을 갖춘 4B 밀도 모델에 필적하는 추론 비용을 제공합니다.
-
-
-🔤 Original: Running Google Gemma 4 Locally with LM Studio's New Headless CLI and Claude Code
-
-🔗 Read more: https://ai.georgeliu.com/p/running-google-gemma-4-locally-with</description>
-      <guid isPermaLink="true">https://ai.georgeliu.com/p/running-google-gemma-4-locally-with</guid>
-      <pubDate>Sun, 05 Apr 2026 17:13:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47651540</comments>
-    </item>
-    <item>
-      <title>멜라네시아인: 오세아니아 지역의 금발 머리에 어두운 피부를 가진 사람들</title>
-      <link>https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/</link>
-      <description>📝 멜라네시아인: 금발 머리를 가진 검은 피부의 사람들 금발 머리를 가진 흑인을 본 적이 있습니까? 사진 코코넷 TV 금발 머리를 한 흑인을 본 적이 있나요? 멜라나시아에서 금발 머리 발생 금발 머리는 멜라네시아에서 독립적으로 진화했는데, 일부 섬의 멜라네시아인(일부 원주민 호주인과 함께)은 금발 머리를 가진 유럽인의 후손이 아닌 몇 안 되는 그룹 중 하나입니다.
-
-
-🔤 Original: The Melanesian: Dark-skinned people with blonde hair region of Oceania
-
-🔗 Read more: https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/</description>
-      <guid isPermaLink="true">https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/</guid>
-      <pubDate>Sun, 05 Apr 2026 16:21:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650962</comments>
-    </item>
-    <item>
-      <title>미국 전역에서 전화 없는 바와 레스토랑이 증가하고 있습니다.</title>
-      <link>https://www.axios.com/2026/04/05/phone-free-restaurants-bars-bans-restrictions-offline</link>
-      <guid isPermaLink="true">https://www.axios.com/2026/04/05/phone-free-restaurants-bars-bans-restrictions-offline</guid>
-      <pubDate>Sun, 05 Apr 2026 15:04:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650172</comments>
+🔗 Read more: https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/</description>
+      <guid isPermaLink="true">https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/</guid>
+      <pubDate>Sun, 05 Apr 2026 17:27:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47651703</comments>
     </item>
   </channel>
 </rss>

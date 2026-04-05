@@ -6,127 +6,61 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Apr 2026 18:45:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 21:32:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>（每晚）Rust 中的尾部调用解释器</title>
-      <link>https://www.mattkeeter.com/blog/2026-04-05-tailcall/</link>
-      <description>📝 Uxn 是一个简单的堆栈机，有 256 条指令。有两部分： 将程序状态存储在函数参数中，这些参数根据系统的调用约定映射到寄存器 通过调用下一个函数来结束每个函数 我们今天可以用 Rust 编写这个；这是我们的 inc 函数： const TABLE: FunctionTable = FunctionTable([ brk, inc::&lt;0b000&gt;, pop::&lt;0b000&gt;, nip::&lt;0b000&gt;, swp::&lt;0b000&gt;, rot::&lt;0b000&gt;, dup::&lt;0b000&gt;, //。不幸的是，这个实现有一个问题：线程'snapshots::tailcall::mandelbrot' (67889685) 已溢出其堆栈致命运行时错误：堆栈溢出，中止错误：测试失败，重新运行通过 `-p raven-varvara --test snapshots` 即使在发布版本中，编译器也没有优化堆栈。
+      <title>iPhone 上的杰玛 4</title>
+      <link>https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337</link>
+      <description>📝 注意：思考模式目前适用于受支持的型号，从 Gemma 4 系列开始。使用新的思维模式和代理技能完全离线运行最新的高性能模型 - Gemma 4 简介：体验完全离线运行的最新高性能模型。 - 隆重推出 Gemma 4：体验完全离线运行的最新高性能模型。
 
 
-🔤 Original: A tail-call interpreter in (nightly) Rust
+🔤 Original: Gemma 4 on iPhone
 
-🔗 Read more: https://www.mattkeeter.com/blog/2026-04-05-tailcall/</description>
-      <guid isPermaLink="true">https://www.mattkeeter.com/blog/2026-04-05-tailcall/</guid>
-      <pubDate>Sun, 05 Apr 2026 15:18:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650312</comments>
+🔗 Read more: https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337</description>
+      <guid isPermaLink="true">https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337</guid>
+      <pubDate>Sun, 05 Apr 2026 18:45:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47652561</comments>
     </item>
     <item>
-      <title>计算物理（第二版）</title>
-      <link>https://websites.umich.edu/~mejn/cp2/</link>
-      <guid isPermaLink="true">https://websites.umich.edu/~mejn/cp2/</guid>
-      <pubDate>Sun, 05 Apr 2026 15:38:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650502</comments>
+      <title>编程音乐</title>
+      <link>https://musicforprogramming.net</link>
+      <guid isPermaLink="true">https://musicforprogramming.net</guid>
+      <pubDate>Sun, 05 Apr 2026 18:23:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47652322</comments>
     </item>
     <item>
-      <title>性别平等与工作</title>
-      <link>https://www.oecd.org/en/topics/gender-equality-and-work.html</link>
-      <guid isPermaLink="true">https://www.oecd.org/en/topics/gender-equality-and-work.html</guid>
-      <pubDate>Sun, 05 Apr 2026 18:31:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47652421</comments>
+      <title>英国情报部门审查了有关全球变暖和国土安全的报告</title>
+      <link>https://theoryofchange1.substack.com/p/from-global-warming-to-homeland-security</link>
+      <guid isPermaLink="true">https://theoryofchange1.substack.com/p/from-global-warming-to-homeland-security</guid>
+      <pubDate>Sun, 05 Apr 2026 20:59:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47653816</comments>
     </item>
     <item>
-      <title>Codex 正在为所有用户切换到基于 API 定价的使用方式</title>
-      <link>https://help.openai.com/en/articles/20001106-codex-rate-card</link>
-      <guid isPermaLink="true">https://help.openai.com/en/articles/20001106-codex-rate-card</guid>
-      <pubDate>Sun, 05 Apr 2026 15:58:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650726</comments>
+      <title>人类肠道中发现的细菌能够增强肌肉力量</title>
+      <link>https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength</link>
+      <description>📝 肠道细菌与肌肉表现之间的关系 研究小组分析了某些肠道微生物是否与肌肉力量和身体状况有关。在年轻人中，这种细菌的丰度越高，握力越大，心肺能力也越高。 Roseburia inulinivorans 可以增强肌肉力量。
+
+
+🔤 Original: Bacteria found in the human intestine capable of improving muscle strength
+
+🔗 Read more: https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength</description>
+      <guid isPermaLink="true">https://www.ugr.es/en/about/news/bacteria-found-human-intestine-capable-improving-muscle-strength</guid>
+      <pubDate>Sun, 05 Apr 2026 19:01:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47652726</comments>
     </item>
     <item>
-      <title>从鸟类到大脑：我通往梭形面部区域的道路（2024）</title>
-      <link>https://www.kavliprize.org/nancy-kanwisher-autobiography</link>
-      <description>📝 当我们家养的鸬鹚和我们一起自由游泳时，它们很少表现出“潜水心动过缓”。心理意象与视觉感知涉及相同的大脑机制吗？我们在大脑的哪个位置将传入的视觉信息与存储的熟悉物体外观的描述进行匹配。
+      <title>自 Petzold 以来，微软一直没有制定一致的 GUI 战略</title>
+      <link>https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/</link>
+      <description>📝 那种沉默就是故事。微软并没有兜售一个连贯的故事。 Windows 团队的怨恨。
 
 
-🔤 Original: From birds to brains: My path to the fusiform face area (2024)
+🔤 Original: Microsoft Hasn't Had a Coherent GUI Strategy Since Petzold
 
-🔗 Read more: https://www.kavliprize.org/nancy-kanwisher-autobiography</description>
-      <guid isPermaLink="true">https://www.kavliprize.org/nancy-kanwisher-autobiography</guid>
-      <pubDate>Sun, 05 Apr 2026 17:08:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47651479</comments>
-    </item>
-    <item>
-      <title>Nanocode：200 美元可以在 TPU 上的纯 JAX 中买到的最好的 Claude 代码</title>
-      <link>https://github.com/salmanmohammadi/nanocode/discussions/1</link>
-      <description>📝 3B参数nanocode横空出世：nanocode。 6% nanocode 代码 1259 326 3. 17728M 模型参数 67.
-
-
-🔤 Original: Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs
-
-🔗 Read more: https://github.com/salmanmohammadi/nanocode/discussions/1</description>
-      <guid isPermaLink="true">https://github.com/salmanmohammadi/nanocode/discussions/1</guid>
-      <pubDate>Sun, 05 Apr 2026 14:21:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47649742</comments>
-    </item>
-    <item>
-      <title>LibreOffice – 让我们结束猜测</title>
-      <link>https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/</link>
-      <description>📝 理想情况下，我们宁愿避免这篇文章。当时，没有人能够想象支持 OpenOffice 的公司。现任董事会必须解决的几个问题源于该项目已部分执行的要素。
-
-
-🔤 Original: LibreOffice – Let's put an end to the speculation
-
-🔗 Read more: https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/</description>
-      <guid isPermaLink="true">https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/</guid>
-      <pubDate>Sun, 05 Apr 2026 18:23:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47652324</comments>
-    </item>
-    <item>
-      <title>Perfmon – 将您最喜欢的 CLI 监控工具整合到单个 TUI 中</title>
-      <link>https://github.com/sumant1122/Perfmon</link>
-      <description>📝 功能 • 安装 • 使用 • 配置 • 贡献 💡 为什么选择 Perfmon。 make build：编译二进制文件。 make test：执行测试套件。
-
-
-🔤 Original: Perfmon – Consolidate your favorite CLI monitoring tools into a single TUI
-
-🔗 Read more: https://github.com/sumant1122/Perfmon</description>
-      <guid isPermaLink="true">https://github.com/sumant1122/Perfmon</guid>
-      <pubDate>Sun, 05 Apr 2026 14:16:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47649701</comments>
-    </item>
-    <item>
-      <title>使用 LM Studio 的新 Headless CLI 和 Claude 代码在本地运行 Google Gemma 4</title>
-      <link>https://ai.georgeliu.com/p/running-google-gemma-4-locally-with</link>
-      <description>📝 26B 参数模型每次前向传递仅激活 4B 参数，这意味着它在无法处理密集 26B 模型的硬件上运行良好。订阅Google Gemma 4 26B-a4b LLM 模型，通过 LM Studio API 使用 Claude Code 别名命令 claude-lm 提供 Gemma 4 模型系列Google 将 Gemma 4 作为四个模型系列发布，而不仅仅是一个。在实践中，它提供的推理成本可与 4B 密集模型相媲美，其质量远高于该权重级别。
-
-
-🔤 Original: Running Google Gemma 4 Locally with LM Studio's New Headless CLI and Claude Code
-
-🔗 Read more: https://ai.georgeliu.com/p/running-google-gemma-4-locally-with</description>
-      <guid isPermaLink="true">https://ai.georgeliu.com/p/running-google-gemma-4-locally-with</guid>
-      <pubDate>Sun, 05 Apr 2026 17:13:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47651540</comments>
-    </item>
-    <item>
-      <title>美拉尼西亚人：大洋洲地区黑皮肤、金发的人</title>
-      <link>https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/</link>
-      <description>📝 美拉尼西亚人：黑皮肤、金发的人 你见过金发的黑人吗？照片 Coconet TV 你见过金发的黑人吗？美拉尼西亚金发的发生率 金发在美拉尼西亚独立进化，一些岛屿上的美拉尼西亚人（以及一些澳大利亚土著人）是少数几个不是金发欧洲人后裔的群体之一。
-
-
-🔤 Original: The Melanesian: Dark-skinned people with blonde hair region of Oceania
-
-🔗 Read more: https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/</description>
-      <guid isPermaLink="true">https://guardian.ng/life/the-melanesian-dark-skinned-people-with-blonde-hair/</guid>
-      <pubDate>Sun, 05 Apr 2026 16:21:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650962</comments>
-    </item>
-    <item>
-      <title>美国各地无电话酒吧和餐馆数量不断增加</title>
-      <link>https://www.axios.com/2026/04/05/phone-free-restaurants-bars-bans-restrictions-offline</link>
-      <guid isPermaLink="true">https://www.axios.com/2026/04/05/phone-free-restaurants-bars-bans-restrictions-offline</guid>
-      <pubDate>Sun, 05 Apr 2026 15:04:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47650172</comments>
+🔗 Read more: https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/</description>
+      <guid isPermaLink="true">https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/</guid>
+      <pubDate>Sun, 05 Apr 2026 17:27:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47651703</comments>
     </item>
   </channel>
 </rss>
