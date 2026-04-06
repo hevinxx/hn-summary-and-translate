@@ -6,112 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Apr 2026 05:25:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 07:43:41 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>月から信号を反射するオープンソースの 240 アンテナ アレイ</title>
-      <link>https://moonrf.com/</link>
-      <description>📝 QuadRF: ソフトウェア無線タイル 13 cm 価格: $49 - 99 (未定) 概要 アレイ用に設計された 4 アンテナ SDR タイル。 QuadRF は間もなく発売される予定です。 4 ps FPGA: Lattice ECP5 • レイテンシ &lt; 1 ms 電源: 12 V DC (≈25 W ピーク) スタンドアロン アプリケーション 汎用 4×4 MIMO ソフトウェア無線機 フォックスハンティング、到来方向 (DOA)、RF 探査 オープン Wi-Fi ルーター、オープン 4G/5G 基地局 ドローン HD リンク、ロボティクス通信。
+      <title>SideX – Visual Studio Code の Tauri ベースのポート</title>
+      <link>https://github.com/Sidenai/sidex</link>
+      <description>📝 SideX は、Electron を Tauri (Rust バックエンド + ネイティブ Web ビュー) に置き換える VSCode の 1:1 アーキテクチャ ポート (大幅にストリップ) です。 Tauri の 2+ プラットフォームの依存関係 — Tauri の前提条件ガイドを参照してください。 開発 # リポジトリ git clone https://github のクローンを作成します。貢献しています あなたの助けが必要です。
 
 
-🔤 Original: An open-source 240-antenna array to bounce signals off the Moon
+🔤 Original: SideX – A Tauri-based port of Visual Studio Code
 
-🔗 Read more: https://moonrf.com/</description>
-      <guid isPermaLink="true">https://moonrf.com/</guid>
-      <pubDate>Mon, 06 Apr 2026 03:22:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47656622</comments>
+🔗 Read more: https://github.com/Sidenai/sidex</description>
+      <guid isPermaLink="true">https://github.com/Sidenai/sidex</guid>
+      <pubDate>Mon, 06 Apr 2026 06:49:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47657699</comments>
     </item>
     <item>
-      <title>1987 年のゲーム「The Last Ninja」は 40 キロバイトでした</title>
-      <link>https://twitter.com/exQUIZitely/status/2040777977521398151</link>
-      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x を引き続き使用するには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
+      <title>Show HN: Gemma E2B を搭載した M3 Pro のリアルタイム AI (オーディオ/ビデオ入力、音声出力)</title>
+      <link>https://github.com/fikrikarim/parlor</link>
+      <description>📝 お使いのマシン上で完全に実行される AI と、自然な音声と視覚による会話を実現します。 litertlm ファイル PORT 8000 サーバー ポート パフォーマンス (Apple M3 Pro) ステージ時間 スピーチ + 視覚理解 ~1。プロジェクト構造 src/ §── サーバー。
 
 
-🔤 Original: The 1987 game "The Last Ninja" was 40 kilobytes
+🔤 Original: Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B
 
-🔗 Read more: https://twitter.com/exQUIZitely/status/2040777977521398151</description>
-      <guid isPermaLink="true">https://twitter.com/exQUIZitely/status/2040777977521398151</guid>
-      <pubDate>Mon, 06 Apr 2026 03:03:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47656501</comments>
-    </item>
-    <item>
-      <title>メディア スクレーパー Gallery-dl は、DMCA 通知を受け取った後、Codeberg に移行します</title>
-      <link>https://github.com/mikf/gallery-dl/discussions/9304</link>
-      <description>📝 読み込み中にエラーが発生しました。このページをリロードしてください。読み込み中にエラーが発生しました。
-
-
-🔤 Original: Media scraper Gallery-dl is moving to Codeberg after receiving a DMCA notice
-
-🔗 Read more: https://github.com/mikf/gallery-dl/discussions/9304</description>
-      <guid isPermaLink="true">https://github.com/mikf/gallery-dl/discussions/9304</guid>
-      <pubDate>Mon, 06 Apr 2026 03:28:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47656659</comments>
-    </item>
-    <item>
-      <title>ケーススタディ: 破損した 12 TB マルチデバイス プールの回復</title>
-      <link>https://github.com/kdave/btrfs-progs/issues/1107</link>
-      <description>📝 btrfs check --repair での進行状況の検出により、backup_roots を破棄するのではなく、明確なメッセージを表示して 46,000 のコミット ループが中止されます。 btrfs レスキュー clean-orphan-inodes サブコマンドには、完全な 5 条件チェックを適用し、機械可読な計画を生成する組み込みのドライランが含まれています。より明確なドキュメントとして、backup_roots[0.
-
-
-🔤 Original: Case study: recovery of a corrupted 12 TB multi-device pool
-
-🔗 Read more: https://github.com/kdave/btrfs-progs/issues/1107</description>
-      <guid isPermaLink="true">https://github.com/kdave/btrfs-progs/issues/1107</guid>
-      <pubDate>Mon, 06 Apr 2026 02:28:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47656303</comments>
-    </item>
-    <item>
-      <title>2026年度コクヨデザインアワード受賞者</title>
-      <link>https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/</link>
-      <description>📝 大量生産と個性化の間に位置するデザインで、これまで以上に個性が重要視される世界を反映しています。 『Gradience Diary』はその構造を全面的に否定する。 Tweet 関連記事： コクヨデザインアワード2009 コクヨミリケシ消しゴム 書く音を増幅させる鉛筆 グラフィックデザイン kokuyo design awardstationery 前の投稿 その他のやきもの：非陶芸家のやきもの展 返信を残す 返信をキャンセル メールアドレスが公開されることはありません。
-
-
-🔤 Original: Winners of the 2026 Kokuyo Design Awards
-
-🔗 Read more: https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/</description>
-      <guid isPermaLink="true">https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/</guid>
-      <pubDate>Mon, 06 Apr 2026 03:32:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47656682</comments>
-    </item>
-    <item>
-      <title>Node.js を Bun に置き換えてスループットを 5 倍にしました</title>
-      <link>https://trigger.dev/blog/firebun</link>
-      <description>📝 SQLite を複合キー Map&lt;string, Set&lt;string&gt;&gt; に置き換えました。同じハードウェア、同じパラメータ。 serve() とそのネイティブ ルーティング API。
-
-
-🔤 Original: We replaced Node.js with Bun for 5x throughput
-
-🔗 Read more: https://trigger.dev/blog/firebun</description>
-      <guid isPermaLink="true">https://trigger.dev/blog/firebun</guid>
-      <pubDate>Mon, 06 Apr 2026 01:57:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47656114</comments>
-    </item>
-    <item>
-      <title>ユースネットアーカイブ</title>
-      <link>https://usenetarchives.com</link>
-      <description>📝 • このアーカイブには、公開 Usenet ニュースグループからのモデレートされていないユーザー作成コンテンツが含まれていることを理解するものとします。 • コンテンツには、成人向け、物議を醸す、攻撃的、または不快な内容が含まれる可能性があることを認めます。 • あなたはこのコンテンツに自発的にアクセスし、閲覧の選択に対して全責任を負うものとします。
-
-
-🔤 Original: Usenet Archives
-
-🔗 Read more: https://usenetarchives.com</description>
-      <guid isPermaLink="true">https://usenetarchives.com</guid>
-      <pubDate>Mon, 06 Apr 2026 01:33:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47655905</comments>
-    </item>
-    <item>
-      <title>Stamp It All プログラムはバージョンを報告する必要がある – Michael Stapelberg</title>
-      <link>https://michael.stapelberg.ch/posts/2026-04-05-stamp-it-all-programs-must-report-their-version/</link>
-      <description>📝 通常、ソフトウェアにはさまざまな粒度の名前とバージョン番号があります。Chrome Chrome 146 Chrome 146。詳しく見てみましょう: i3 バージョン 4。NixOS では、それは簡単です。ブートローダーでそのバージョンを選択することで、古いシステム「世代」を起動するだけです。
-
-
-🔤 Original: Stamp It All Programs Must Report Their Version – Michael Stapelberg
-
-🔗 Read more: https://michael.stapelberg.ch/posts/2026-04-05-stamp-it-all-programs-must-report-their-version/</description>
-      <guid isPermaLink="true">https://michael.stapelberg.ch/posts/2026-04-05-stamp-it-all-programs-must-report-their-version/</guid>
-      <pubDate>Mon, 06 Apr 2026 01:42:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47655978</comments>
+🔗 Read more: https://github.com/fikrikarim/parlor</description>
+      <guid isPermaLink="true">https://github.com/fikrikarim/parlor</guid>
+      <pubDate>Sun, 05 Apr 2026 17:53:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47652007</comments>
     </item>
   </channel>
 </rss>
