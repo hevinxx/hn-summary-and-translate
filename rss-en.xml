@@ -6,128 +6,95 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Apr 2026 13:20:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 16:11:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>We found an undocumented bug in the Apollo 11 guidance computer code</title>
-      <link>https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</link>
-      <description>📝 Losing the reference The AGC manages the IMU through a shared resource lock called LGYRO. When the torque completes normally, the routine exits via STRTGYR2 and the LGYRO lock is cleared. When the IMU is caged while a torque is in progress, the code exits via a routine called BADEND, which does not clear the lock.
+      <title>Cloudflare targets 2029 for full post-quantum security</title>
+      <link>https://blog.cloudflare.com/post-quantum-roadmap/</link>
+      <description>📝 That point has now passed indeed. Simply put, breaking cryptography with a quantum computer requires engineering on three independent fronts: quantum hardware, error correction, and quantum software. Today most of them have made good progress.
 
-🔗 Read more: https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</description>
-      <guid isPermaLink="true">https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:25:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673005</comments>
+🔗 Read more: https://blog.cloudflare.com/post-quantum-roadmap/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/post-quantum-roadmap/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:07:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675625</comments>
     </item>
     <item>
-      <title>Show HN: Brutalist Concrete Laptop Stand (2024)</title>
-      <link>https://sam-burns.com/posts/concrete-laptop-stand/</link>
-      <description>📝 Table of Contents Key Features Making the Laptop Stand The Components Concrete Plant Pot Exposed Wire Penpot Summary I am a great lover of brutalist architecture. Exposed Wire# The exposed wire really adds a sense fo dilapidation and urban decay. Penpot# Rusted penpot being painted with mold The penpot was similarly rusted with salt water and peroxide, after being scuffed up with some sandpaper.
+      <title>Moving fast in hardware: lessons from lab to $100M ARR</title>
+      <link>https://blog.zacka.io/p/simplify-then-add-lightness-bc4</link>
+      <description>📝 Push complexity from hardware into software where you can. The teams that succeed are usually the ones that subtract. But that requirement pushes you toward heavy, expensive, power-hungry architectures.
 
-🔗 Read more: https://sam-burns.com/posts/concrete-laptop-stand/</description>
-      <guid isPermaLink="true">https://sam-burns.com/posts/concrete-laptop-stand/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:07:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673360</comments>
+🔗 Read more: https://blog.zacka.io/p/simplify-then-add-lightness-bc4</description>
+      <guid isPermaLink="true">https://blog.zacka.io/p/simplify-then-add-lightness-bc4</guid>
+      <pubDate>Tue, 07 Apr 2026 15:07:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47676557</comments>
     </item>
     <item>
-      <title>Show HN: A cartographer's attempt to realistically map Tolkien's world</title>
-      <link>https://www.intofarlands.com/atlasofarda</link>
-      <description>📝 TOLKIEN Welcome to the Atlas of Arda, a project aimed at celebrating Tolkien's incredible work through hand-drawn cartography, artwork and illustrations that act as a reference to dive deeper into the beautiful world Tolkien created. 01Explore Collection from The Atlas of Arda02The Atlas Guild Master Collection03About Meet the CartographerLight of the Valar Collection Aman and Valinor Map Map of Numenor Anchor 1Powers of Arda Diagram THE ATLAS GUILD: Master Collection A new map every month. Join the fellowship here:.
+      <title>Claude Code is locking people out for hours</title>
+      <link>https://github.com/anthropics/claude-code/issues/44257</link>
+      <description>📝 This completely blocks me from using Claude Code. Error Messages/Logs OAuth error: timeout of 15000ms exceeded Steps to Reproduce Open Claude Code on Windows Start login using Google Complete the sign-in flow in the browser Return to Claude Code Claude Code shows: OAuth error: timeout of 15000ms exceeded Retry login multiple times The same error happens every time Claude Model Not sure / Multiple models Is this a regression. 92 Claude Code Version 2.
 
-🔗 Read more: https://www.intofarlands.com/atlasofarda</description>
-      <guid isPermaLink="true">https://www.intofarlands.com/atlasofarda</guid>
-      <pubDate>Tue, 07 Apr 2026 12:12:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47674027</comments>
+🔗 Read more: https://github.com/anthropics/claude-code/issues/44257</description>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/44257</guid>
+      <pubDate>Tue, 07 Apr 2026 15:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47676521</comments>
     </item>
     <item>
-      <title>AI may be making us think and write more alike</title>
-      <link>https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</link>
-      <description>📝 Though studies show that individuals often generate more ideas with more details when they use LLMs, groups of people produce fewer and less creative ideas when they use LLMs than when they simply combine their collective powers, note the researchers. The researchers say that AI developers should intentionally incorporate diversity in language, perspectives and reasoning into their models. They emphasize that this diversity should be grounded in the diversity that exists within humans globally, rather than introducing random variation.
+      <title>Good Taste the Only Real Moat Left</title>
+      <link>https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</link>
+      <description>📝 That is their strength. " Your answer to that question is the quality of your taste. If your critique stays vague, your taste is still underdeveloped.
 
-🔗 Read more: https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</description>
-      <guid isPermaLink="true">https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:29:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673541</comments>
+🔗 Read more: https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</description>
+      <guid isPermaLink="true">https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:54:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47677241</comments>
     </item>
     <item>
-      <title>Show HN: Pion/handoff – Move WebRTC out of browser and into Go</title>
-      <link>https://github.com/pion/handoff</link>
-      <description>📝 Pion Handoff Create WebRTC session in the browser—run it somewhere else Why WebRTC is the real-time communication technology used for real-time media streaming. With Handoff you create your WebRTC session in the browser, but then move it to a process you control. Follow the Pion Bluesky or Pion Twitter for project updates and important WebRTC news.
+      <title>Dropping Cloudflare for Bunny.net</title>
+      <link>https://jola.dev/posts/dropping-cloudflare</link>
+      <description>📝 However, note that bunny. Fill in your Origin URL. Your website is now running through the bunny.
 
-🔗 Read more: https://github.com/pion/handoff</description>
-      <guid isPermaLink="true">https://github.com/pion/handoff</guid>
-      <pubDate>Tue, 07 Apr 2026 12:01:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673880</comments>
+🔗 Read more: https://jola.dev/posts/dropping-cloudflare</description>
+      <guid isPermaLink="true">https://jola.dev/posts/dropping-cloudflare</guid>
+      <pubDate>Tue, 07 Apr 2026 13:23:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675013</comments>
     </item>
     <item>
-      <title>Identify a London Underground Line just by listening to it</title>
-      <link>https://tubesoundquiz.com/</link>
-      <description>📝 Tube Sound Quiz - Guess the London Underground Line TUBE QUIZ Guess the Tube Line Each London Underground line has its own distinctive sound. Start Quiz 10 questions • Listen &amp; guess Question 1/10 Score: 0 Which line is this. Play Sound Next Question out of 10 Share Result Play Again.
+      <title>You can't cancel a JavaScript promise (except sometimes you can)</title>
+      <link>https://www.inngest.com/blog/hanging-promises-for-control-flow</link>
+      <description>📝 The function just stops. That requires interrupting an await without throwing. Interrupting with generators Generators were made for interruption.
 
-🔗 Read more: https://tubesoundquiz.com/</description>
-      <guid isPermaLink="true">https://tubesoundquiz.com/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:08:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672884</comments>
+🔗 Read more: https://www.inngest.com/blog/hanging-promises-for-control-flow</description>
+      <guid isPermaLink="true">https://www.inngest.com/blog/hanging-promises-for-control-flow</guid>
+      <pubDate>Tue, 07 Apr 2026 13:34:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675155</comments>
     </item>
     <item>
-      <title>Blackholing My Email</title>
-      <link>https://www.johnsto.co.uk/blog/blackholing-my-email/</link>
-      <description>📝 In my own experience, it’s not particularly often that you find yourself asking your email provider to blackhole your primary, personal email address. com) Counter-Terrorists: Prevent Terrorists from bombing chemical weapon crates. My dad (the actual account holder) started to receive warnings about email usage.
-
-🔗 Read more: https://www.johnsto.co.uk/blog/blackholing-my-email/</description>
-      <guid isPermaLink="true">https://www.johnsto.co.uk/blog/blackholing-my-email/</guid>
-      <pubDate>Tue, 07 Apr 2026 08:42:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672318</comments>
+      <title>9 Mothers (YC P26) Is Hiring – Lead Robotics and More</title>
+      <link>https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</guid>
+      <pubDate>Tue, 07 Apr 2026 13:45:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675302</comments>
     </item>
     <item>
-      <title>Breaking the console: a brief history of video game security</title>
-      <link>https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</link>
-      <description>📝 Source: Wikipedia The chip was a challenge-response authentication system: a 10NES chip inside the console would communicate with a matching 10NES chip inside every licensed cartridge. The console chip acted as the master (CONF=1), the cartridge chip as the slave (CONF=0). This is security through obscurity in its purest form.
+      <title>Record wind and solar saved UK from gas imports worth £1B in March 2026</title>
+      <link>https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</link>
+      <description>📝 The UK avoided the need for gas imports worth £1bn in March 2026 thanks to record electricity generation from wind and solar, reveals Carbon Brief analysis. Monthly generation from wind and solar in terawatt hours on the island of Great Britain (England, Scotland and Wales), which has a separate electricity system from the island of Ireland, which includes Northern Ireland. ) At the same time, the record output from wind and solar saw electricity generation from gas falling 25% year-on-year in March 2026 to the lowest level ever recorded for the month.
 
-🔗 Read more: https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</description>
-      <guid isPermaLink="true">https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</guid>
-      <pubDate>Tue, 07 Apr 2026 09:51:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672778</comments>
+🔗 Read more: https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</description>
+      <guid isPermaLink="true">https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</guid>
+      <pubDate>Tue, 07 Apr 2026 12:05:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47673928</comments>
     </item>
     <item>
-      <title>DeiMOS – A Superoptimizer for the MOS 6502</title>
-      <link>https://aransentin.github.io/deimos/</link>
-      <description>📝 Unlike traditional compilers that apply a set of predefined optimization rules and heuristics to improve code efficiency, a superoptimizer exhaustively searches the entire space of possible instruction sequences to find the one that perfectly meets the specified functionality with optimal performance. This exhaustive search allows superoptimizers to discover highly efficient code sequences. Unlike traditional compilers that apply a set of predefined optimization rules and heuristics to improve code efficiency, a superoptimizer exhaustively searches the entire space of possible instruction sequences to find the one that perfectly meets the specified functionality with optimal performance.
+      <title>12k Tons of Dumped Orange Peel Grew into a Landscape Nobody Expected (2017)</title>
+      <link>https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</link>
+      <description>📝 "Daniel Janzen &amp; Winnie HallwachsThe plan was born in 1997 when Princeton researchers Daniel Janzen and Winnie Hallwachs approached Costa Rican orange juice manufacturer Del Oro with a unique opportunity. "[W]ithin about six months the orange peels had been converted from orange peels into this thick black loamy soil," Treuer told Scientific American. "It didn't help that the six-foot-long sign with bright yellow lettering marking the site was so overgrown with vines that we literally didn't find it until years later," Treuer told Marlene Cimons at Popular Science, "after dozens and dozens of site visits.
 
-🔗 Read more: https://aransentin.github.io/deimos/</description>
-      <guid isPermaLink="true">https://aransentin.github.io/deimos/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:10:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673379</comments>
-    </item>
-    <item>
-      <title>Show HN: Stop paying for Dropbox/Google Drive, use your own S3 bucket instead</title>
-      <link>https://locker.dev</link>
-      <description>📝 Your data, your infrastructure. Virtual Bash ShellNavigate your files with familiar commands. Ready to own your files.
-
-🔗 Read more: https://locker.dev</description>
-      <guid isPermaLink="true">https://locker.dev</guid>
-      <pubDate>Tue, 07 Apr 2026 11:12:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673394</comments>
-    </item>
-    <item>
-      <title>"The new Copilot app for Windows 11 is really just Microsoft Edge"</title>
-      <link>https://twitter.com/i/status/2041112541909205001</link>
-      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.
-
-🔗 Read more: https://twitter.com/i/status/2041112541909205001</description>
-      <guid isPermaLink="true">https://twitter.com/i/status/2041112541909205001</guid>
-      <pubDate>Tue, 07 Apr 2026 12:27:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47674234</comments>
-    </item>
-    <item>
-      <title>AI agents can communicate with each other, and can't be caught</title>
-      <link>https://arxiv.org/abs/2604.04757</link>
-      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
-
-🔗 Read more: https://arxiv.org/abs/2604.04757</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.04757</guid>
-      <pubDate>Tue, 07 Apr 2026 12:04:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673919</comments>
+🔗 Read more: https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</description>
+      <guid isPermaLink="true">https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</guid>
+      <pubDate>Tue, 07 Apr 2026 15:47:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47677142</comments>
     </item>
   </channel>
 </rss>

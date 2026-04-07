@@ -6,164 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 13:20:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 16:11:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>アポロ 11 号の誘導コンピューター コードに文書化されていないバグが見つかりました</title>
-      <link>https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</link>
-      <description>📝 参照の喪失 AGC は、LGYRO と呼ばれる共有リソース ロックを通じて IMU を管理します。トルクが正常に完了すると、ルーチンは STRTGYR2 を介して終了し、LGYRO ロックがクリアされます。トルクの実行中に IMU がケージに入れられると、コードは BADEND と呼ばれるルーチンを介して終了しますが、ロックはクリアされません。
+      <title>Cloudflareは2029年を目標に完全なポスト量子セキュリティを実現</title>
+      <link>https://blog.cloudflare.com/post-quantum-roadmap/</link>
+      <description>📝 その時点はすでに実際に過ぎています。簡単に言うと、量子コンピューターで暗号を解読するには、量子ハードウェア、エラー修正、量子ソフトウェアという 3 つの独立した面でのエンジニアリングが必要です。今日、彼らのほとんどは順調な進歩を遂げています。
 
 
-🔤 Original: We found an undocumented bug in the Apollo 11 guidance computer code
+🔤 Original: Cloudflare targets 2029 for full post-quantum security
 
-🔗 Read more: https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</description>
-      <guid isPermaLink="true">https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:25:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673005</comments>
+🔗 Read more: https://blog.cloudflare.com/post-quantum-roadmap/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/post-quantum-roadmap/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:07:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675625</comments>
     </item>
     <item>
-      <title>Show HN: ブルータリストのコンクリート ラップトップ スタンド (2024)</title>
-      <link>https://sam-burns.com/posts/concrete-laptop-stand/</link>
-      <description>📝 目次 主な機能 ラップトップ スタンドの作成 コンポーネント コンクリート製の植木鉢 露出したワイヤー ペンポット 概要 私はブルータリズム建築の大の愛好家です。露出したワイヤー# 露出したワイヤーは、荒廃と都市の衰退の感覚を本当に加えます。ペンポット # カビで塗装された錆びたペンポット ペンポットもサンドペーパーでこすった後、塩水と過酸化物で同様に錆びました。
+      <title>ハードウェアの高速化: ラボから得た教訓から ARR 1 億ドルへ</title>
+      <link>https://blog.zacka.io/p/simplify-then-add-lightness-bc4</link>
+      <description>📝 可能な場合は、複雑さをハードウェアからソフトウェアに押し込みます。成功するチームは通常、減点するチームです。しかし、その要件により、重くて高価で電力を大量に消費するアーキテクチャが必要になります。
 
 
-🔤 Original: Show HN: Brutalist Concrete Laptop Stand (2024)
+🔤 Original: Moving fast in hardware: lessons from lab to $100M ARR
 
-🔗 Read more: https://sam-burns.com/posts/concrete-laptop-stand/</description>
-      <guid isPermaLink="true">https://sam-burns.com/posts/concrete-laptop-stand/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:07:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673360</comments>
+🔗 Read more: https://blog.zacka.io/p/simplify-then-add-lightness-bc4</description>
+      <guid isPermaLink="true">https://blog.zacka.io/p/simplify-then-add-lightness-bc4</guid>
+      <pubDate>Tue, 07 Apr 2026 15:07:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47676557</comments>
     </item>
     <item>
-      <title>Show HN: トールキンの世界を現実的に地図化しようとする地図製作者の試み</title>
-      <link>https://www.intofarlands.com/atlasofarda</link>
-      <description>📝 トールキン アルダのアトラスへようこそ。このプロジェクトは、トールキンが生み出した美しい世界をより深く知るための参考となる手描きの地図作成、アートワーク、イラストを通じて、トールキンの素晴らしい業績を称えることを目的としています。 01アルダのアトラスのコレクションを探索02アトラス ギルド マスター コレクション03地図製作者についてヴァラール コレクションの光アマンとヴァリノールの地図ヌメノールの地図アンカー 1アルダの力の図表アトラス ギルド: マスター コレクション毎月新しい地図。ここからフェローシップに参加してください。
+      <title>クロード・コードは人々を何時間も締め出している</title>
+      <link>https://github.com/anthropics/claude-code/issues/44257</link>
+      <description>📝 これにより、Claude Code の使用が完全にブロックされます。エラー メッセージ/ログ OAuth エラー: タイムアウト 15000 ミリ秒を超えました Windows でクロード コードを開く 再現手順 Google を使用してログインを開始します ブラウザでサインイン フローを完了します クロード コードに戻る クロード コードには次の内容が表示されます: OAuth エラー: タイムアウト 15000 ミリ秒を超えました ログインを複数回再試行します 毎回同じエラーが発生します クロード モデルが不明 / 複数のモデル これは回帰ですか。 92 クロードコード バージョン 2。
 
 
-🔤 Original: Show HN: A cartographer's attempt to realistically map Tolkien's world
+🔤 Original: Claude Code is locking people out for hours
 
-🔗 Read more: https://www.intofarlands.com/atlasofarda</description>
-      <guid isPermaLink="true">https://www.intofarlands.com/atlasofarda</guid>
-      <pubDate>Tue, 07 Apr 2026 12:12:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47674027</comments>
+🔗 Read more: https://github.com/anthropics/claude-code/issues/44257</description>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/44257</guid>
+      <pubDate>Tue, 07 Apr 2026 15:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47676521</comments>
     </item>
     <item>
-      <title>AI は私たちの考え方や書き方をより似たものにするかもしれない</title>
-      <link>https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</link>
-      <description>📝 個人が LLM を使用すると、より詳細なアイデアを生み出すことが多いことが研究で示されていますが、人々のグループが LLM を使用すると、単純に集合力を組み合わせる場合よりも創造性の低いアイデアが生み出されることが研究者らは指摘しています。研究者らは、AI開発者は言語、視点、推論の多様性を意図的にモデルに組み込む必要があると述べている。彼らは、この多様性はランダムな変動を導入するのではなく、世界中の人間の中に存在する多様性に基づいているべきであると強調しています。
+      <title>唯一残された本物の堀の味</title>
+      <link>https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</link>
+      <description>📝 それが彼らの強みなのです。 「その質問に対するあなたの答えは、あなたの味覚の質です。あなたの批評が曖昧なままであれば、あなたの味覚はまだ未発達です。
 
 
-🔤 Original: AI may be making us think and write more alike
+🔤 Original: Good Taste the Only Real Moat Left
 
-🔗 Read more: https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</description>
-      <guid isPermaLink="true">https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:29:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673541</comments>
+🔗 Read more: https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</description>
+      <guid isPermaLink="true">https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:54:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47677241</comments>
     </item>
     <item>
-      <title>Show HN: Pion/handoff – WebRTC をブラウザから Go に移動します</title>
-      <link>https://github.com/pion/handoff</link>
-      <description>📝 Pion Handoff ブラウザで WebRTC セッションを作成し、別の場所で実行します。 WebRTC がリアルタイム メディア ストリーミングに使用されるリアルタイム通信テクノロジである理由。 Handoff を使用すると、ブラウザーで WebRTC セッションを作成しますが、それを制御するプロセスに移動します。プロジェクトの最新情報や重要な WebRTC ニュースについては、Pion Bluesky または Pion Twitter をフォローしてください。
+      <title>Bunny.net の Cloudflare を削除</title>
+      <link>https://jola.dev/posts/dropping-cloudflare</link>
+      <description>📝 ただし、ウサギに注意してください。オリジン URL を入力します。あなたのウェブサイトは現在バニーを通じて実行されています。
 
 
-🔤 Original: Show HN: Pion/handoff – Move WebRTC out of browser and into Go
+🔤 Original: Dropping Cloudflare for Bunny.net
 
-🔗 Read more: https://github.com/pion/handoff</description>
-      <guid isPermaLink="true">https://github.com/pion/handoff</guid>
-      <pubDate>Tue, 07 Apr 2026 12:01:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673880</comments>
+🔗 Read more: https://jola.dev/posts/dropping-cloudflare</description>
+      <guid isPermaLink="true">https://jola.dev/posts/dropping-cloudflare</guid>
+      <pubDate>Tue, 07 Apr 2026 13:23:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675013</comments>
     </item>
     <item>
-      <title>ロンドンの地下鉄を聞くだけで識別できる</title>
-      <link>https://tubesoundquiz.com/</link>
-      <description>📝 地下鉄の音クイズ - ロンドンの地下鉄の路線を当ててください。 地下鉄のクイズ 地下鉄の路線を当ててください。 ロンドンの地下鉄の各路線には、独自の独特な音があります。スタート クイズ 10 問 • 聞いて当ててください 質問 1/10 スコア: 0 これはどの行ですか。サウンドを再生 10 問中次の質問 結果を共有 もう一度再生します。
+      <title>JavaScript の Promise はキャンセルできません (キャンセルできる場合がある場合を除く)</title>
+      <link>https://www.inngest.com/blog/hanging-promises-for-control-flow</link>
+      <description>📝 機能が停止するだけです。そのためには、スローせずに待機を中断する必要があります。発電機による遮断 発電機は遮断のために作られました。
 
 
-🔤 Original: Identify a London Underground Line just by listening to it
+🔤 Original: You can't cancel a JavaScript promise (except sometimes you can)
 
-🔗 Read more: https://tubesoundquiz.com/</description>
-      <guid isPermaLink="true">https://tubesoundquiz.com/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:08:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672884</comments>
+🔗 Read more: https://www.inngest.com/blog/hanging-promises-for-control-flow</description>
+      <guid isPermaLink="true">https://www.inngest.com/blog/hanging-promises-for-control-flow</guid>
+      <pubDate>Tue, 07 Apr 2026 13:34:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675155</comments>
     </item>
     <item>
-      <title>私のメールをブラックホール化する</title>
-      <link>https://www.johnsto.co.uk/blog/blackholing-my-email/</link>
-      <description>📝 私自身の経験では、プライマリの個人メール アドレスをブラックホールにするようメール プロバイダーに依頼することは、それほど頻繁ではありません。 com) テロ対策: テロリストが化学兵器の箱を爆撃するのを防ぎます。私の父 (実際のアカウント所有者) は、電子メールの使用に関する警告を受け取るようになりました。
-
-
-🔤 Original: Blackholing My Email
-
-🔗 Read more: https://www.johnsto.co.uk/blog/blackholing-my-email/</description>
-      <guid isPermaLink="true">https://www.johnsto.co.uk/blog/blackholing-my-email/</guid>
-      <pubDate>Tue, 07 Apr 2026 08:42:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672318</comments>
+      <title>9 Mothers (YC P26) が人材を募集中 – リードロボット工学など</title>
+      <link>https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</guid>
+      <pubDate>Tue, 07 Apr 2026 13:45:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675302</comments>
     </item>
     <item>
-      <title>コンソールの破壊: ビデオ ゲーム セキュリティの簡単な歴史</title>
-      <link>https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</link>
-      <description>📝 出典: Wikipedia このチップはチャレンジ/レスポンス認証システムで、コンソール内の 10NES チップは、ライセンスされたすべてのカートリッジ内の対応する 10NES チップと通信します。コンソール チップはマスター (CONF=1) として機能し、カートリッジ チップはスレーブ (CONF=0) として機能します。これは、最も純粋な形での不明瞭さによるセキュリティです。
+      <title>記録的な風力発電と太陽光発電により、2026 年 3 月に英国は 10 億ポンド相当のガス輸入から救われました</title>
+      <link>https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</link>
+      <description>📝 英国は風力と太陽光による記録的な発電量のおかげで、2026年3月に10億ポンド相当のガス輸入の必要を回避できたことがカーボンブリーフ分析で明らかになった。北アイルランドを含むアイルランド島とは別の電力システムを持つグレートブリテン島 (イングランド、スコットランド、ウェールズ) における風力と太陽光による毎月の発電量 (テラワット時)。 ）同時に、風力と太陽光による記録的な発電量により、2026年3月にはガスによる発電量が前年比25％減少し、当月としては過去最低の水準となった。
 
 
-🔤 Original: Breaking the console: a brief history of video game security
+🔤 Original: Record wind and solar saved UK from gas imports worth £1B in March 2026
 
-🔗 Read more: https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</description>
-      <guid isPermaLink="true">https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</guid>
-      <pubDate>Tue, 07 Apr 2026 09:51:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672778</comments>
+🔗 Read more: https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</description>
+      <guid isPermaLink="true">https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</guid>
+      <pubDate>Tue, 07 Apr 2026 12:05:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47673928</comments>
     </item>
     <item>
-      <title>DeiMOS – MOS 6502 のスーパーオプティマイザー</title>
-      <link>https://aransentin.github.io/deimos/</link>
-      <description>📝 一連の事前定義された最適化ルールとヒューリスティックを適用してコード効率を向上させる従来のコンパイラーとは異なり、スーパーオプティマイザーは、考えられる命令シーケンスの全領域を徹底的に検索して、最適なパフォーマンスで指定された機能を完全に満たす命令シーケンスを見つけます。この徹底的な検索により、スーパーオプティマイザーは非常に効率的なコード シーケンスを発見できます。一連の事前定義された最適化ルールとヒューリスティックを適用してコード効率を向上させる従来のコンパイラーとは異なり、スーパーオプティマイザーは、考えられる命令シーケンスの全領域を徹底的に検索して、最適なパフォーマンスで指定された機能を完全に満たす命令シーケンスを見つけます。
+      <title>12,000 トンの廃棄されたオレンジの皮が誰も予想しなかった風景に成長 (2017)</title>
+      <link>https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</link>
+      <description>📝 「ダニエル・ジャンゼンとウィニー・ホールワックスこの計画は、1997年にプリンストン大学の研究者ダニエル・ジャンゼンとウィニー・ホールワックスがコスタリカのオレンジジュース製造会社デル・オロにユニークな機会を打診したときに生まれた。「約6か月以内に、オレンジの皮はこの厚い黒いローム質の土壌に変換された」とトロイアー氏はサイエンティフィック・アメリカンに語った。文字通り何年も後になるまで見つけられなかったのです」とトロイアー氏はポピュラーサイエンスのマレーネ・シモンズに語った、「何十回も現場を訪れた後だった。
 
 
-🔤 Original: DeiMOS – A Superoptimizer for the MOS 6502
+🔤 Original: 12k Tons of Dumped Orange Peel Grew into a Landscape Nobody Expected (2017)
 
-🔗 Read more: https://aransentin.github.io/deimos/</description>
-      <guid isPermaLink="true">https://aransentin.github.io/deimos/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:10:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673379</comments>
-    </item>
-    <item>
-      <title>HN を表示: Dropbox/Google Drive への支払いをやめ、代わりに独自の S3 バケットを使用してください</title>
-      <link>https://locker.dev</link>
-      <description>📝 データ、インフラストラクチャ。仮想 Bash シェル使い慣れたコマンドを使用してファイルをナビゲートします。ファイルを所有する準備ができました。
-
-
-🔤 Original: Show HN: Stop paying for Dropbox/Google Drive, use your own S3 bucket instead
-
-🔗 Read more: https://locker.dev</description>
-      <guid isPermaLink="true">https://locker.dev</guid>
-      <pubDate>Tue, 07 Apr 2026 11:12:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673394</comments>
-    </item>
-    <item>
-      <title>「Windows 11 用の新しい Copilot アプリは、実際には単なる Microsoft Edge です」</title>
-      <link>https://twitter.com/i/status/2041112541909205001</link>
-      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x を引き続き使用するには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
-
-
-🔤 Original: "The new Copilot app for Windows 11 is really just Microsoft Edge"
-
-🔗 Read more: https://twitter.com/i/status/2041112541909205001</description>
-      <guid isPermaLink="true">https://twitter.com/i/status/2041112541909205001</guid>
-      <pubDate>Tue, 07 Apr 2026 12:27:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47674234</comments>
-    </item>
-    <item>
-      <title>AI エージェントは相互に通信でき、捕らえられることはありません</title>
-      <link>https://arxiv.org/abs/2604.04757</link>
-      <description>📝 ) リトマップ リットマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
-
-
-🔤 Original: AI agents can communicate with each other, and can't be caught
-
-🔗 Read more: https://arxiv.org/abs/2604.04757</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.04757</guid>
-      <pubDate>Tue, 07 Apr 2026 12:04:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673919</comments>
+🔗 Read more: https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</description>
+      <guid isPermaLink="true">https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</guid>
+      <pubDate>Tue, 07 Apr 2026 15:47:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47677142</comments>
     </item>
   </channel>
 </rss>

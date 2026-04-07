@@ -6,164 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Apr 2026 13:20:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 16:11:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我们在阿波罗 11 号制导计算机代码中发现了一个未记录的错误</title>
-      <link>https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</link>
-      <description>📝 丢失参考 AGC 通过称为 LGYRO 的共享资源锁来管理 IMU。当扭矩正常完成时，程序通过 STRTGYR2 退出，LGYRO 锁被清除。当 IMU 在扭矩正在进行时被锁定时，代码通过名为 BADEND 的例程退出，该例程不会清除锁定。
+      <title>Cloudflare 的目标是 2029 年实现全面的后量子安全</title>
+      <link>https://blog.cloudflare.com/post-quantum-roadmap/</link>
+      <description>📝 现在这一点确实已经过去了。简而言之，用量子计算机破解密码学需要在三个独立的领域进行工程设计：量子硬件、纠错和量子软件。今天，他们中的大多数人都取得了良好的进步。
 
 
-🔤 Original: We found an undocumented bug in the Apollo 11 guidance computer code
+🔤 Original: Cloudflare targets 2029 for full post-quantum security
 
-🔗 Read more: https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</description>
-      <guid isPermaLink="true">https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:25:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673005</comments>
+🔗 Read more: https://blog.cloudflare.com/post-quantum-roadmap/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/post-quantum-roadmap/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:07:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675625</comments>
     </item>
     <item>
-      <title>Show HN：野兽派混凝土笔记本电脑支架（2024）</title>
-      <link>https://sam-burns.com/posts/concrete-laptop-stand/</link>
-      <description>📝 目录 主要特点 制作笔记本电脑支架 组件 混凝土花盆 裸露钢丝笔筒 总结 我是野兽派建筑的忠实爱好者。裸露的电线#裸露的电线确实增添了一种破败和城市衰败的感觉。笔筒# 生锈的笔筒被霉菌涂漆 笔筒在用砂纸打磨后，同样被盐水和过氧化物生锈。
+      <title>硬件领域的快速发展：从实验室到 1 亿美元 ARR 的经验教训</title>
+      <link>https://blog.zacka.io/p/simplify-then-add-lightness-bc4</link>
+      <description>📝 尽可能将复杂性从硬件转移到软件中。成功的团队通常是失败的团队。但这一要求将您推向笨重、昂贵、耗电的架构。
 
 
-🔤 Original: Show HN: Brutalist Concrete Laptop Stand (2024)
+🔤 Original: Moving fast in hardware: lessons from lab to $100M ARR
 
-🔗 Read more: https://sam-burns.com/posts/concrete-laptop-stand/</description>
-      <guid isPermaLink="true">https://sam-burns.com/posts/concrete-laptop-stand/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:07:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673360</comments>
+🔗 Read more: https://blog.zacka.io/p/simplify-then-add-lightness-bc4</description>
+      <guid isPermaLink="true">https://blog.zacka.io/p/simplify-then-add-lightness-bc4</guid>
+      <pubDate>Tue, 07 Apr 2026 15:07:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47676557</comments>
     </item>
     <item>
-      <title>Show HN：制图师尝试真实地绘制托尔金的世界</title>
-      <link>https://www.intofarlands.com/atlasofarda</link>
-      <description>📝 托尔金 欢迎来到《阿尔达地图集》，该项目旨在通过手绘地图、艺术作品和插图来庆祝托尔金令人难以置信的作品，作为深入了解托尔金创造的美丽世界的参考。 01探索《阿尔达地图集》中的收藏品02《阿特拉斯公会大师收藏品》03关于认识制图师维拉收藏品之光阿曼和维林诺地图努门诺尔锚点地图1阿尔达之力图表《阿特拉斯公会：大师收藏品》每月一张新地图。在这里加入团契：。
+      <title>克劳德·科德将人们锁在门外数小时</title>
+      <link>https://github.com/anthropics/claude-code/issues/44257</link>
+      <description>📝 这完全阻止了我使用克劳德代码。错误消息/日志 OAuth 错误：超过 15000 毫秒超时 在 Windows 上重现 Open Claude 代码的步骤 使用 Google 开始登录 在浏览器中完成登录流程 返回到 Claude 代码 Claude 代码显示：OAuth 错误：超过 15000 毫秒超时 多次重试登录 每次都会发生相同的错误 Claude 模型 不确定/多个模型 这是回归。 92 克劳德代码版本 2。
 
 
-🔤 Original: Show HN: A cartographer's attempt to realistically map Tolkien's world
+🔤 Original: Claude Code is locking people out for hours
 
-🔗 Read more: https://www.intofarlands.com/atlasofarda</description>
-      <guid isPermaLink="true">https://www.intofarlands.com/atlasofarda</guid>
-      <pubDate>Tue, 07 Apr 2026 12:12:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47674027</comments>
+🔗 Read more: https://github.com/anthropics/claude-code/issues/44257</description>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/44257</guid>
+      <pubDate>Tue, 07 Apr 2026 15:04:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47676521</comments>
     </item>
     <item>
-      <title>人工智能可能让我们的思考和写作变得更加相似</title>
-      <link>https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</link>
-      <description>📝 研究人员指出，尽管研究表明，个人在使用法学硕士时通常会产生更多、更详细的想法，但与简单地结合集体力量相比，群体在使用法学硕士时产生的创造性想法越来越少。研究人员表示，人工智能开发人员应该有意识地将语言、观点和推理的多样性纳入他们的模型中。他们强调，这种多样性应该建立在全球人类内部存在的多样性的基础上，而不是引入随机变异。
+      <title>好品味是唯一剩下的真正护城河</title>
+      <link>https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</link>
+      <description>📝 这就是他们的力量。 “你对这个问题的回答是你的品味的质量。如果你的批评仍然含糊不清，那么你的品味仍然不发达。
 
 
-🔤 Original: AI may be making us think and write more alike
+🔤 Original: Good Taste the Only Real Moat Left
 
-🔗 Read more: https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</description>
-      <guid isPermaLink="true">https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:29:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673541</comments>
+🔗 Read more: https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</description>
+      <guid isPermaLink="true">https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:54:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47677241</comments>
     </item>
     <item>
-      <title>Show HN：Pion/handoff – 将 WebRTC 从浏览器移至 Go 中</title>
-      <link>https://github.com/pion/handoff</link>
-      <description>📝 Pion Handoff 在浏览器中创建 WebRTC 会话 - 在其他地方运行它 为什么 WebRTC 是用于实时媒体流的实时通信技术。通过 Handoff，您可以在浏览器中创建 WebRTC 会话，然后将其移至您控制的进程。关注 Pion Bluesky 或 Pion Twitter 了解项目更新和重要的 WebRTC 新闻。
+      <title>为 Bunny.net 放弃 Cloudflare</title>
+      <link>https://jola.dev/posts/dropping-cloudflare</link>
+      <description>📝 不过，请注意那只兔子。填写您的原始 URL。您的网站现在正在通过兔子运行。
 
 
-🔤 Original: Show HN: Pion/handoff – Move WebRTC out of browser and into Go
+🔤 Original: Dropping Cloudflare for Bunny.net
 
-🔗 Read more: https://github.com/pion/handoff</description>
-      <guid isPermaLink="true">https://github.com/pion/handoff</guid>
-      <pubDate>Tue, 07 Apr 2026 12:01:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673880</comments>
+🔗 Read more: https://jola.dev/posts/dropping-cloudflare</description>
+      <guid isPermaLink="true">https://jola.dev/posts/dropping-cloudflare</guid>
+      <pubDate>Tue, 07 Apr 2026 13:23:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675013</comments>
     </item>
     <item>
-      <title>通过听来识别伦敦地铁线路</title>
-      <link>https://tubesoundquiz.com/</link>
-      <description>📝 地铁声音测验 - 猜伦敦地铁线 地铁测验 猜地铁线 每条伦敦地铁线路都有其独特的声音。开始测验 10 个问题 • 听并猜测 问题 1/10 得分：0 这是哪一行。播放声音 下一个问题（共 10 个） 分享结果 再次播放。
+      <title>你无法取消 JavaScript 承诺（除非有时可以）</title>
+      <link>https://www.inngest.com/blog/hanging-promises-for-control-flow</link>
+      <description>📝 该功能就停止了。这需要中断等待而不抛出。发电机中断 发电机是为中断而生的。
 
 
-🔤 Original: Identify a London Underground Line just by listening to it
+🔤 Original: You can't cancel a JavaScript promise (except sometimes you can)
 
-🔗 Read more: https://tubesoundquiz.com/</description>
-      <guid isPermaLink="true">https://tubesoundquiz.com/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:08:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672884</comments>
+🔗 Read more: https://www.inngest.com/blog/hanging-promises-for-control-flow</description>
+      <guid isPermaLink="true">https://www.inngest.com/blog/hanging-promises-for-control-flow</guid>
+      <pubDate>Tue, 07 Apr 2026 13:34:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675155</comments>
     </item>
     <item>
-      <title>黑洞我的电子邮件</title>
-      <link>https://www.johnsto.co.uk/blog/blackholing-my-email/</link>
-      <description>📝 根据我自己的经验，您发现自己要求电子邮件提供商屏蔽您的主要个人电子邮件地址的情况并不特别常见。 com) 反恐分子：防止恐怖分子轰炸化学武器箱。我的父亲（实际帐户持有人）开始收到有关电子邮件使用的警告。
-
-
-🔤 Original: Blackholing My Email
-
-🔗 Read more: https://www.johnsto.co.uk/blog/blackholing-my-email/</description>
-      <guid isPermaLink="true">https://www.johnsto.co.uk/blog/blackholing-my-email/</guid>
-      <pubDate>Tue, 07 Apr 2026 08:42:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672318</comments>
+      <title>9 Mothers (YC P26) 正在招聘 – Lead Robotics 等</title>
+      <link>https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</link>
+      <guid isPermaLink="true">https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q</guid>
+      <pubDate>Tue, 07 Apr 2026 13:45:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47675302</comments>
     </item>
     <item>
-      <title>打破控制台：视频游戏安全简史</title>
-      <link>https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</link>
-      <description>📝 资料来源：维基百科 该芯片是一个质询-响应身份验证系统：控制台内的 10NES 芯片将与每个许可卡带内匹配的 10NES 芯片进行通信。控制台芯片作为主芯片（CONF=1），盒芯片作为从芯片（CONF=0）。这是最纯粹形式的隐匿性安全。
+      <title>2026 年 3 月，创纪录的风能和太阳能为英国节省了价值 10 亿英镑的天然气进口</title>
+      <link>https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</link>
+      <description>📝 Carbon Brief分析显示，由于风能和太阳能发电创纪录，英国在2026年3月避免了价值10亿英镑的天然气进口需求。大不列颠岛（英格兰、苏格兰和威尔士）的风能和太阳能每月发电量（单位为太瓦时），该岛与包括北爱尔兰在内的爱尔兰岛拥有独立的电力系统。与此同时，风能和太阳能发电量创历史新高，2026 年 3 月天然气发电量同比下降 25%，达到该月有记录以来的最低水平。
 
 
-🔤 Original: Breaking the console: a brief history of video game security
+🔤 Original: Record wind and solar saved UK from gas imports worth £1B in March 2026
 
-🔗 Read more: https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</description>
-      <guid isPermaLink="true">https://sergioprado.blog/breaking-the-console-a-brief-history-of-video-game-security/</guid>
-      <pubDate>Tue, 07 Apr 2026 09:51:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47672778</comments>
+🔗 Read more: https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</description>
+      <guid isPermaLink="true">https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/</guid>
+      <pubDate>Tue, 07 Apr 2026 12:05:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47673928</comments>
     </item>
     <item>
-      <title>DeiMOS – MOS 6502 的超级优化器</title>
-      <link>https://aransentin.github.io/deimos/</link>
-      <description>📝 与应用一组预定义的优化规则和启发式方法来提高代码效率的传统编译器不同，超级优化器会详尽地搜索整个可能的指令序列空间，以找到完全满足指定功能且具有最佳性能的指令序列。这种详尽的搜索允许超级优化器发现高效的代码序列。与应用一组预定义的优化规则和启发式方法来提高代码效率的传统编译器不同，超级优化器会详尽地搜索整个可能的指令序列空间，以找到完全满足指定功能且具有最佳性能的指令序列。
+      <title>1.2万吨废弃橙皮长成意想不到的景观（2017）</title>
+      <link>https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</link>
+      <description>📝 “丹尼尔·詹森和温妮·霍尔瓦赫斯这个计划诞生于 1997 年，当时普林斯顿大学的研究人员丹尼尔·詹森和温妮·霍尔瓦赫斯向哥斯达黎加橙汁制造商 Del Oro 提供了一个独特的机会。特鲁尔告诉《科学美国人》：“在大约六个月的时间里，橙皮就从橙皮变成了厚厚的黑色壤土。”特鲁尔告诉《大众科学》杂志的玛琳·西蒙斯，“经过数十次实地考察后，我们实际上直到几年后才发现它。
 
 
-🔤 Original: DeiMOS – A Superoptimizer for the MOS 6502
+🔤 Original: 12k Tons of Dumped Orange Peel Grew into a Landscape Nobody Expected (2017)
 
-🔗 Read more: https://aransentin.github.io/deimos/</description>
-      <guid isPermaLink="true">https://aransentin.github.io/deimos/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:10:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673379</comments>
-    </item>
-    <item>
-      <title>显示 HN：停止支付 Dropbox/Google Drive 费用，改用您自己的 S3 存储桶</title>
-      <link>https://locker.dev</link>
-      <description>📝 您的数据，您的基础设施。 Virtual Bash Shell 使用熟悉的命令浏览文件。准备好拥有您的文件了。
-
-
-🔤 Original: Show HN: Stop paying for Dropbox/Google Drive, use your own S3 bucket instead
-
-🔗 Read more: https://locker.dev</description>
-      <guid isPermaLink="true">https://locker.dev</guid>
-      <pubDate>Tue, 07 Apr 2026 11:12:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673394</comments>
-    </item>
-    <item>
-      <title>“Windows 11 的新 Copilot 应用程序实际上就是 Microsoft Edge”</title>
-      <link>https://twitter.com/i/status/2041112541909205001</link>
-      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
-
-
-🔤 Original: "The new Copilot app for Windows 11 is really just Microsoft Edge"
-
-🔗 Read more: https://twitter.com/i/status/2041112541909205001</description>
-      <guid isPermaLink="true">https://twitter.com/i/status/2041112541909205001</guid>
-      <pubDate>Tue, 07 Apr 2026 12:27:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47674234</comments>
-    </item>
-    <item>
-      <title>AI代理可以相互通信，并且不会被捕获</title>
-      <link>https://arxiv.org/abs/2604.04757</link>
-      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
-
-
-🔤 Original: AI agents can communicate with each other, and can't be caught
-
-🔗 Read more: https://arxiv.org/abs/2604.04757</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.04757</guid>
-      <pubDate>Tue, 07 Apr 2026 12:04:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47673919</comments>
+🔗 Read more: https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</description>
+      <guid isPermaLink="true">https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined</guid>
+      <pubDate>Tue, 07 Apr 2026 15:47:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47677142</comments>
     </item>
   </channel>
 </rss>
