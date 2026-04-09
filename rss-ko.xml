@@ -6,106 +6,151 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 09 Apr 2026 19:08:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 21:46:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>데이터베이스가 잊어버린 데이터에 대해 게임 엔진이 알고 있는 것</title>
-      <link>https://nockawa.github.io/blog/what-game-engines-know-about-data/</link>
-      <description>📝 이는 게임 엔진과 같은 방식으로 데이터를 저장하고 게임 서버에 필요한 보장을 제공하는 데이터베이스 엔진입니다. Typhon이 데이터베이스 아키텍처에서 끌어내는 네 가지 기능은 구성 요소별 MVCC를 사용한 ACID 트랜잭션입니다. 게임 엔진에는 일반적으로 격리가 없습니다.
+      <title>macOS의 기본 Instant Space Switching</title>
+      <link>https://arhan.sh/blog/native-instant-space-switching-on-macos/</link>
+      <description>📝 나는 즉각적인 공간 전환에 대한 최선의 해결책을 찾았다고 믿습니다. 야바이 타일링 창 관리자를 설치하고 인스턴트 공간 전환기를 사용하세요. "오른쪽 공간 이동(애니메이션 없이)" 및 "왼쪽 공간 이동(애니메이션 없이)"을 활성화합니다.
 
 
-🔤 Original: What Game Engines Know About Data That Databases Forgot
+🔤 Original: Native Instant Space Switching on macOS
 
-🔗 Read more: https://nockawa.github.io/blog/what-game-engines-know-about-data/</description>
-      <guid isPermaLink="true">https://nockawa.github.io/blog/what-game-engines-know-about-data/</guid>
-      <pubDate>Thu, 09 Apr 2026 18:10:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47707269</comments>
+🔗 Read more: https://arhan.sh/blog/native-instant-space-switching-on-macos/</description>
+      <guid isPermaLink="true">https://arhan.sh/blog/native-instant-space-switching-on-macos/</guid>
+      <pubDate>Thu, 09 Apr 2026 19:48:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708818</comments>
     </item>
     <item>
-      <title>Show HN: Cargo와 유사한 C/C++용 빌드 도구를 만들었습니다.</title>
-      <link>https://github.com/randerson112/craft</link>
-      <description>📝 Craft의 작동 방식 Craft에서 프로젝트를 정의하세요. craft project my_app craft project --no-git craft project my_app --lang c craft project my_lib --template static-library craft init [path] 현재 또는 지정된 디렉토리에서 Craft 프로젝트를 초기화합니다. craft build 공예를 읽습니다.
+      <title>리버스 엔지니어링 Gemini의 SynthID 감지</title>
+      <link>https://github.com/aloshdenny/reverse-SynthID</link>
+      <description>📝 해상도 상위 캐리어(fy, fx) 일관성 소스 1024x1024(9, 9) 100. 997 캐리어 에너지 드롭 75. 8% 위상 일관성 드롭(상위 5개 캐리어) 91.
 
 
-🔤 Original: Show HN: I built a Cargo-like build tool for C/C++
+🔤 Original: Reverse engineering Gemini's SynthID detection
 
-🔗 Read more: https://github.com/randerson112/craft</description>
-      <guid isPermaLink="true">https://github.com/randerson112/craft</guid>
-      <pubDate>Thu, 09 Apr 2026 16:04:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47705413</comments>
+🔗 Read more: https://github.com/aloshdenny/reverse-SynthID</description>
+      <guid isPermaLink="true">https://github.com/aloshdenny/reverse-SynthID</guid>
+      <pubDate>Thu, 09 Apr 2026 20:10:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47709130</comments>
     </item>
     <item>
-      <title>연구 중심 에이전트: 에이전트가 코딩하기 전에 읽으면 어떻게 되나요?</title>
-      <link>https://blog.skypilot.co/research-driven-agents/</link>
-      <description>📝 주요 내용: 코드를 작성하기 전에 논문을 읽고 경쟁 프로젝트를 연구하는 에이전트는 코드 전용 에이전트가 놓친 최적화를 찾습니다. 코드 전용 컨텍스트가 작동하는 곳#Karpathy의 자동 연구에 따르면 코딩 에이전트가 신경망 훈련 스크립트를 자율적으로 개선할 수 있는 것으로 나타났습니다. 이는 상담원이 갖고 있지 않은 도메인 지식입니다.
+      <title>Charcuterie – 시각적 유사성 유니코드 탐색기</title>
+      <link>https://charcuterie.elastiq.ch/</link>
+      <description>📝 유니코드용 시각적 탐색기입니다. 문자 세트를 탐색하고, 관련 글리프를 찾고, 표준을 구성하는 스크립트, 기호 및 모양에 대해 자세히 알아보세요. 모든 것이 브라우저에서 실행됩니다.
 
 
-🔤 Original: Research-Driven Agents: What Happens When Your Agent Reads Before It Codes
+🔤 Original: Charcuterie – Visual similarity Unicode explorer
 
-🔗 Read more: https://blog.skypilot.co/research-driven-agents/</description>
-      <guid isPermaLink="true">https://blog.skypilot.co/research-driven-agents/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:58:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47706141</comments>
+🔗 Read more: https://charcuterie.elastiq.ch/</description>
+      <guid isPermaLink="true">https://charcuterie.elastiq.ch/</guid>
+      <pubDate>Thu, 09 Apr 2026 20:12:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47709158</comments>
     </item>
     <item>
-      <title>EFF가 X를 떠난다</title>
-      <link>https://www.eff.org/deeplinks/2026/04/eff-leaving-x</link>
-      <description>📝 오늘 우리는 그들과 합류합니다. EFF는 사람들의 디지털 권리를 보호하기 위해 존재합니다. 우리는 플랫폼에 있는 사람들도 정보에 접근할 자격이 있기 때문에 여기에 머물고 있습니다.
+      <title>PicoZ80 – 드롭인 Z80 교체</title>
+      <link>https://eaw.app/picoz80/</link>
+      <description>📝 모든 구성은 사람이 읽을 수 있는 단일 구성에서 구동됩니다. picoZ80은 여러 Sharp MZ 기계 내에서 실행되는 것으로 시연되었습니다. 16MB SPI 플래시 - 부트로더, 2개의 애플리케이션 펌웨어 슬롯, 2개의 구성 슬롯 및 일반 구성 파티션을 저장합니다.
 
 
-🔤 Original: EFF is leaving X
+🔤 Original: PicoZ80 – Drop-In Z80 Replacement
 
-🔗 Read more: https://www.eff.org/deeplinks/2026/04/eff-leaving-x</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/04/eff-leaving-x</guid>
-      <pubDate>Thu, 09 Apr 2026 17:08:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47706268</comments>
+🔗 Read more: https://eaw.app/picoz80/</description>
+      <guid isPermaLink="true">https://eaw.app/picoz80/</guid>
+      <pubDate>Thu, 09 Apr 2026 18:53:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708041</comments>
     </item>
     <item>
-      <title>범용 속성 기반 테스트 프로토콜이자 PBT 라이브러리 제품군인 Hegel</title>
-      <link>https://hegel.dev</link>
-      <description>📝 헤겔 | Hegel 콘텐츠로 건너뛰기 Hegel Hegel Hegel은 가설을 기반으로 구축된 보편적인 속성 기반 테스트 프로토콜이자 라이브러리 제품군입니다. 설명 헤겔은 어떻게 작동하는가 왜 헤겔인가. 참조 설치 참조 프로토콜 참조입니다.
+      <title>저렴한 비용의 서버로 콜로에 있는 오래된 노트북</title>
+      <link>https://colaptop.pages.dev/</link>
+      <description>📝 귀하의 노트북 | 우리의 데이터 센터 기존 노트북을 강력한 상시 온라인 서버로 전환하세요. 노트북과 전원 장치. 데이터 센터는 어디에 있습니까?
 
 
-🔤 Original: Hegel, a universal property-based testing protocol and family of PBT libraries
+🔤 Original: Old laptops in a colo as low cost servers
 
-🔗 Read more: https://hegel.dev</description>
-      <guid isPermaLink="true">https://hegel.dev</guid>
-      <pubDate>Thu, 09 Apr 2026 18:37:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47707762</comments>
+🔗 Read more: https://colaptop.pages.dev/</description>
+      <guid isPermaLink="true">https://colaptop.pages.dev/</guid>
+      <pubDate>Thu, 09 Apr 2026 18:22:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47707477</comments>
     </item>
     <item>
-      <title>ChatGPT Pro는 이제 월 $100부터 시작합니다</title>
-      <link>https://chatgpt.com/pricing/</link>
-      <guid isPermaLink="true">https://chatgpt.com/pricing/</guid>
-      <pubDate>Thu, 09 Apr 2026 18:09:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47707253</comments>
+      <title>Microsoft가 사용자를 학대하는 방법</title>
+      <link>https://lzon.ca/posts/other/microsoft-user-abuse/</link>
+      <description>📝 그는 이런 일이 일어나고 있다는 것을 알고 있었습니까? 내가 이것을 본 것은 이번이 처음이 아니었습니다. 이 경우에는 효과가 있었을 수도 있지만 더 나은 아이디어가 있었습니다.
+
+
+🔤 Original: How Microsoft Abuses Its Users
+
+🔗 Read more: https://lzon.ca/posts/other/microsoft-user-abuse/</description>
+      <guid isPermaLink="true">https://lzon.ca/posts/other/microsoft-user-abuse/</guid>
+      <pubDate>Thu, 09 Apr 2026 21:09:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47710149</comments>
     </item>
     <item>
-      <title>Little Snitch가 Linux에 제공되지만 핵심 로직은 비공개 소스입니다.</title>
-      <link>https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</link>
-      <description>📝 맹목적인 신뢰를 요구하는 보안 도구는 모순입니다. 해당 혼합에 독점 바이너리를 추가하면 의미 있는 신뢰를 추가하지 않고도 복잡성이 추가됩니다. ” 그들은 DNS를 우회하는 직접 IP 연결을 볼 수 없다는 점을 지적할 것입니다.
+      <title>WordPress에서 Jekyll(및 일반적인 정적 사이트 생성기)로 이동</title>
+      <link>https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/</link>
+      <description>📝 Jekyll로 이어진 아키텍처 결정 지난주에 Cloudflare는 WordPress의 "영적 후계자"라고 불리는 새로운 CMS 프레임워크를 발표했습니다. WordPress에는 모든 것을 내보내는 데 사용할 수 있는 XML 내보내기 기능이 있으므로 우리는 그것부터 시작했습니다. 이 게시물의 주요 이미지는 Dev Tools 대시보드의 모습을 보여줍니다.
 
 
-🔤 Original: Little Snitch comes to Linux, but the core logic is closed source
+🔤 Original: Moving from WordPress to Jekyll (and static site generators in general)
 
-🔗 Read more: https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</description>
-      <guid isPermaLink="true">https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:36:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47705834</comments>
+🔗 Read more: https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/</description>
+      <guid isPermaLink="true">https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/</guid>
+      <pubDate>Thu, 09 Apr 2026 20:59:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47710007</comments>
     </item>
     <item>
-      <title>Mac용 Unfolder – 종이 공예 제작을 위한 3D 모델 전개 도구</title>
-      <link>https://www.unfolder.app/</link>
-      <description>📝 Unfolder를 사용하면 플랩을 전환, 추가, 제거, 병합 및 모양 변경할 수 있습니다. Unfolder를 사용하면 선의 색상, 너비 및 대시를 사용자 정의할 수 있습니다. Unfolder를 사용하면 다양한 목적에 맞게 다양한 형식으로 내보낼 수 있습니다.
+      <title>메인주는 주요 신규 데이터센터를 금지하는 최초의 주가 될 예정이다.</title>
+      <link>https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers</link>
+      <description>📝 그는 Gadget Review에 글을 쓰는 동안 리뷰 작성자 팀을 관리하여 그들의 콘텐츠가 완벽하지 않도록 보장합니다. 그는 Gadget Review에 글을 쓰는 동안 리뷰 작성자 팀을 관리하여 그들의 콘텐츠가 완벽하지 않도록 보장합니다. 이 법안은 2027년 11월까지 시행되며, 새로운 데이터 센터 조정 위원회가 이러한 시설이 메인주의 노후화된 전력망에 어떤 부담을 주는지 연구할 시간을 벌게 됩니다.
 
 
-🔤 Original: Unfolder for Mac – A 3D model unfolding tool for creating papercraft
+🔤 Original: Maine is about to become the first state to ban major new data centers
 
-🔗 Read more: https://www.unfolder.app/</description>
-      <guid isPermaLink="true">https://www.unfolder.app/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:58:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47706140</comments>
+🔗 Read more: https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers</description>
+      <guid isPermaLink="true">https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers</guid>
+      <pubDate>Thu, 09 Apr 2026 19:48:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708817</comments>
+    </item>
+    <item>
+      <title>비트맵 글꼴을 사용하면 컴퓨터가 다시 컴퓨터처럼 느껴집니다.</title>
+      <link>https://korigamik.dev/blog/bitmap_fonts/</link>
+      <description>📝 그렇기 때문에 그들은 여전히 ​​​​살아 있다고 느낍니다. 터미널이 더 조밀하게 느껴지게 만듭니다. 어떤 사람들은 프로그래머에 대한 향수를 느낍니다.
+
+
+🔤 Original: Bitmap fonts make computers feel like computers again
+
+🔗 Read more: https://korigamik.dev/blog/bitmap_fonts/</description>
+      <guid isPermaLink="true">https://korigamik.dev/blog/bitmap_fonts/</guid>
+      <pubDate>Thu, 09 Apr 2026 19:17:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708411</comments>
+    </item>
+    <item>
+      <title>넷플릭스 가격 또 올랐어요 - 대신 DVD 플레이어를 샀어요</title>
+      <link>https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/</link>
+      <description>📝 지금은 Netflix도 없어야합니다. 나는 또한 작년에 eBay에서 비교적 저렴한 DVD로 좀 더 복고풍 애니메이션 시리즈를 구입했습니다. 저는 작년에 Amazon 세일에서 약 89달러에 Wiscent DVD/BluRay 플레이어를 구입했습니다.
+
+
+🔤 Original: Netflix Prices Went Up Again – I Bought a DVD Player Instead
+
+🔗 Read more: https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/</description>
+      <guid isPermaLink="true">https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/</guid>
+      <pubDate>Thu, 09 Apr 2026 20:17:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47709251</comments>
+    </item>
+    <item>
+      <title>모든 것의 미래는 거짓말인 것 같아요: 3부 – 문화</title>
+      <link>https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture</link>
+      <description>📝 LLM은 인간에 비해 예측하기가 매우 어렵습니다. 사람들은 LLM을 사용하여 텍스트를 이해하고 생성하는 것에 매우 흥미를 갖고 있습니다. ” 사람들은 LLM을 사용하여 동료에게 이메일을 쓰고 수신자는 LLM을 사용하여 이메일을 요약합니다.
+
+
+🔤 Original: The Future of Everything Is Lies, I Guess: Part 3 – Culture
+
+🔗 Read more: https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture</description>
+      <guid isPermaLink="true">https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture</guid>
+      <pubDate>Thu, 09 Apr 2026 13:33:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47703528</comments>
     </item>
   </channel>
 </rss>

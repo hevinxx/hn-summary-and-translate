@@ -6,106 +6,151 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 19:08:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 21:46:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>データベースが忘れたデータについてゲーム エンジンが知っていること</title>
-      <link>https://nockawa.github.io/blog/what-game-engines-know-about-data/</link>
-      <description>📝 これは、ゲーム エンジンと同じようにデータを保存するデータベース エンジンであり、ゲーム サーバーが必要とする保証を提供します。 Typhon がデータベース アーキテクチャから引き出す 4 つの機能: コンポーネントごとの MVCC による ACID トランザクション。通常、ゲーム エンジンには分離がありません。
+      <title>macOS でのネイティブ インスタント スペース スイッチング</title>
+      <link>https://arhan.sh/blog/native-instant-space-switching-on-macos/</link>
+      <description>📝 瞬間的な空間切り替えの最良の解決策を見つけたと信じています。 Yabai タイル ウィンドウ マネージャーをインストールし、インスタント スペース スイッチャーを使用します。 「右のスペースに移動（アニメーションなし）」と「左のスペースに移動（アニメーションなし）」を有効にします。
 
 
-🔤 Original: What Game Engines Know About Data That Databases Forgot
+🔤 Original: Native Instant Space Switching on macOS
 
-🔗 Read more: https://nockawa.github.io/blog/what-game-engines-know-about-data/</description>
-      <guid isPermaLink="true">https://nockawa.github.io/blog/what-game-engines-know-about-data/</guid>
-      <pubDate>Thu, 09 Apr 2026 18:10:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47707269</comments>
+🔗 Read more: https://arhan.sh/blog/native-instant-space-switching-on-macos/</description>
+      <guid isPermaLink="true">https://arhan.sh/blog/native-instant-space-switching-on-macos/</guid>
+      <pubDate>Thu, 09 Apr 2026 19:48:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708818</comments>
     </item>
     <item>
-      <title>Show HN: C/C++ 用の Cargo のようなビルド ツールを構築しました</title>
-      <link>https://github.com/randerson112/craft</link>
-      <description>📝 Craft の仕組み Craft でプロジェクトを定義します。 craft project my_app craft project --no-git craft project my_app --lang c craft project my_lib --template static-library craft init [path] 現在または指定されたディレクトリで Craft プロジェクトを初期化します。 craft build クラフトを読み取ります。
+      <title>リバースエンジニアリング Gemini の SynthID 検出</title>
+      <link>https://github.com/aloshdenny/reverse-SynthID</link>
+      <description>📝 解像度 トップキャリア (fy、fx) コヒーレンスソース 1024x1024 (9, 9) 100.997 キャリアエネルギードロップ 75.8% 位相コヒーレンスドロップ (トップ 5 キャリア) 91.
 
 
-🔤 Original: Show HN: I built a Cargo-like build tool for C/C++
+🔤 Original: Reverse engineering Gemini's SynthID detection
 
-🔗 Read more: https://github.com/randerson112/craft</description>
-      <guid isPermaLink="true">https://github.com/randerson112/craft</guid>
-      <pubDate>Thu, 09 Apr 2026 16:04:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47705413</comments>
+🔗 Read more: https://github.com/aloshdenny/reverse-SynthID</description>
+      <guid isPermaLink="true">https://github.com/aloshdenny/reverse-SynthID</guid>
+      <pubDate>Thu, 09 Apr 2026 20:10:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47709130</comments>
     </item>
     <item>
-      <title>リサーチ主導のエージェント: エージェントがコーディングする前に読み取ると何が起こるか</title>
-      <link>https://blog.skypilot.co/research-driven-agents/</link>
-      <description>📝 重要なポイント: コードを書く前に論文を読んで競合プロジェクトを研究するエージェントは、コードのみを書くエージェントが見逃している最適化を見つけます。コードのみのコンテキストが機能する場所#Karpathy の自動調査では、コーディング エージェントが自律的にニューラル ネットワーク トレーニング スクリプトを改善できることが示されました。それはエージェントが持っていない分野の知識です。
+      <title>Charcuterie – 視覚的類似性 Unicode エクスプローラー</title>
+      <link>https://charcuterie.elastiq.ch/</link>
+      <description>📝 Unicode のビジュアル エクスプローラー。文字セットを参照し、関連するグリフを見つけて、標準を構成する文字、記号、形状について詳しく学びます。すべてがブラウザ内で実行されます。
 
 
-🔤 Original: Research-Driven Agents: What Happens When Your Agent Reads Before It Codes
+🔤 Original: Charcuterie – Visual similarity Unicode explorer
 
-🔗 Read more: https://blog.skypilot.co/research-driven-agents/</description>
-      <guid isPermaLink="true">https://blog.skypilot.co/research-driven-agents/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:58:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47706141</comments>
+🔗 Read more: https://charcuterie.elastiq.ch/</description>
+      <guid isPermaLink="true">https://charcuterie.elastiq.ch/</guid>
+      <pubDate>Thu, 09 Apr 2026 20:12:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47709158</comments>
     </item>
     <item>
-      <title>EFF が X を離れる</title>
-      <link>https://www.eff.org/deeplinks/2026/04/eff-leaving-x</link>
-      <description>📝 今日は私たちも彼らに加わります。 EFF は人々のデジタル権利を保護するために存在します。私たちが留まるのは、それらのプラットフォームを利用している人々も情報にアクセスする権利があるからです。
+      <title>PicoZ80 – ドロップイン Z80 の代替品</title>
+      <link>https://eaw.app/picoz80/</link>
+      <description>📝 すべての構成は、人間が判読できる単一の構成から駆動されます。 picoZ80 は複数の Sharp MZ マシン内で動作することが実証されています。 16MB SPI フラッシュ - ブートローダー、2 つのアプリケーション ファームウェア スロット、2 つの構成スロット、および一般的な構成パーティションを保存します。
 
 
-🔤 Original: EFF is leaving X
+🔤 Original: PicoZ80 – Drop-In Z80 Replacement
 
-🔗 Read more: https://www.eff.org/deeplinks/2026/04/eff-leaving-x</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/04/eff-leaving-x</guid>
-      <pubDate>Thu, 09 Apr 2026 17:08:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47706268</comments>
+🔗 Read more: https://eaw.app/picoz80/</description>
+      <guid isPermaLink="true">https://eaw.app/picoz80/</guid>
+      <pubDate>Thu, 09 Apr 2026 18:53:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708041</comments>
     </item>
     <item>
-      <title>Hegel、ユニバーサル プロパティベースのテスト プロトコルおよび PBT ライブラリのファミリー</title>
-      <link>https://hegel.dev</link>
-      <description>📝 ヘーゲル |ヘーゲル コンテンツへスキップ ヘーゲル ヘーゲル ヘーゲルは、仮説に基づいて構築された、普遍的なプロパティベースのテスト プロトコルおよびライブラリのファミリーです。解説 ヘーゲルの仕組み なぜヘーゲルなのか。参照 インストールの参照 プロトコルの参照。
+      <title>古いラップトップを低コストのサーバーとして保管</title>
+      <link>https://colaptop.pages.dev/</link>
+      <description>📝 あなたのラップトップ |当社のデータセンター 古いラップトップを強力な常時オンライン サーバーに変身させます。ラップトップとその電源ブリック。データセンターはどこにありますか。
 
 
-🔤 Original: Hegel, a universal property-based testing protocol and family of PBT libraries
+🔤 Original: Old laptops in a colo as low cost servers
 
-🔗 Read more: https://hegel.dev</description>
-      <guid isPermaLink="true">https://hegel.dev</guid>
-      <pubDate>Thu, 09 Apr 2026 18:37:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47707762</comments>
+🔗 Read more: https://colaptop.pages.dev/</description>
+      <guid isPermaLink="true">https://colaptop.pages.dev/</guid>
+      <pubDate>Thu, 09 Apr 2026 18:22:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47707477</comments>
     </item>
     <item>
-      <title>ChatGPT Pro は月額 100 ドルから開始</title>
-      <link>https://chatgpt.com/pricing/</link>
-      <guid isPermaLink="true">https://chatgpt.com/pricing/</guid>
-      <pubDate>Thu, 09 Apr 2026 18:09:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47707253</comments>
+      <title>Microsoft がユーザーをどのように虐待するか</title>
+      <link>https://lzon.ca/posts/other/microsoft-user-abuse/</link>
+      <description>📝 彼はこんなことが起こっていることを知っていたのだろうか。これを見るのは初めてではありませんでした。この場合はそれでうまくいったかもしれませんが、私にはもっと良いアイデアがありました。
+
+
+🔤 Original: How Microsoft Abuses Its Users
+
+🔗 Read more: https://lzon.ca/posts/other/microsoft-user-abuse/</description>
+      <guid isPermaLink="true">https://lzon.ca/posts/other/microsoft-user-abuse/</guid>
+      <pubDate>Thu, 09 Apr 2026 21:09:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47710149</comments>
     </item>
     <item>
-      <title>Little Snitch が Linux に登場しますが、コアロジックはクローズドソースです</title>
-      <link>https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</link>
-      <description>📝 盲目的な信頼を求めるセキュリティ ツールは矛盾しています。その混合物に独自のバイナリを追加すると、意味のある信頼が追加されることなく、複雑さが追加されます。彼らは、DNS をバイパスする直接 IP 接続を認識できないことを指摘するでしょう。
+      <title>WordPress から Jekyll (および静的サイトジェネレーター全般) への移行</title>
+      <link>https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/</link>
+      <description>📝 Jekyll につながったアーキテクチャの決定 つい先週、Cloudflare は WordPress の「精神的な後継者」と呼ぶ新しい CMS フレームワークを発表しました。 WordPress にはすべてをエクスポートするために使用できる XML エクスポートがあるので、それから始めました。この投稿の注目の画像は、Dev Tools ダッシュボードがどのように見えるかを示しています。
 
 
-🔤 Original: Little Snitch comes to Linux, but the core logic is closed source
+🔤 Original: Moving from WordPress to Jekyll (and static site generators in general)
 
-🔗 Read more: https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</description>
-      <guid isPermaLink="true">https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:36:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47705834</comments>
+🔗 Read more: https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/</description>
+      <guid isPermaLink="true">https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/</guid>
+      <pubDate>Thu, 09 Apr 2026 20:59:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47710007</comments>
     </item>
     <item>
-      <title>Unfolder for Mac – ペーパークラフトを作成するための 3D モデル展開ツール</title>
-      <link>https://www.unfolder.app/</link>
-      <description>📝 Unfolder を使用すると、フラップの切り替え、追加、削除、結合、および形状の変更を行うことができます。 Unfolder を使用すると、線の色、幅、破線をカスタマイズできます。 Unfolder を使用すると、さまざまな目的に応じてさまざまな形式でエクスポートできます。
+      <title>メイン州は大規模な新規データセンターを禁止する最初の州になろうとしている</title>
+      <link>https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers</link>
+      <description>📝 彼は Gadget Review に執筆する一方で、レビュー ライターのチームを管理し、コンテンツが完璧であることを保証します。彼は Gadget Review に執筆する一方で、レビュー ライターのチームを管理し、コンテンツが完璧であることを保証します。この措置は 2027 年 11 月まで続き、新しいデータセンター調整評議会がこれらの施設がメイン州の老朽化した電力網にどのような負担を与えるかを調査するための時間を稼ぎます。
 
 
-🔤 Original: Unfolder for Mac – A 3D model unfolding tool for creating papercraft
+🔤 Original: Maine is about to become the first state to ban major new data centers
 
-🔗 Read more: https://www.unfolder.app/</description>
-      <guid isPermaLink="true">https://www.unfolder.app/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:58:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47706140</comments>
+🔗 Read more: https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers</description>
+      <guid isPermaLink="true">https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers</guid>
+      <pubDate>Thu, 09 Apr 2026 19:48:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708817</comments>
+    </item>
+    <item>
+      <title>ビットマップ フォントにより、コンピュータが再びコンピュータらしく感じられるようになります</title>
+      <link>https://korigamik.dev/blog/bitmap_fonts/</link>
+      <description>📝 だからこそ、彼らは今でも生きていると感じられるのです。それらにより、端末がより高密度に感じられます。プログラマーのノスタルジーを感じる人もいます。
+
+
+🔤 Original: Bitmap fonts make computers feel like computers again
+
+🔗 Read more: https://korigamik.dev/blog/bitmap_fonts/</description>
+      <guid isPermaLink="true">https://korigamik.dev/blog/bitmap_fonts/</guid>
+      <pubDate>Thu, 09 Apr 2026 19:17:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47708411</comments>
+    </item>
+    <item>
+      <title>Netflix の価格が再び値上がりしました – 代わりに DVD プレーヤーを購入しました</title>
+      <link>https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/</link>
+      <description>📝 今はNetflixさえ持っているべきではありません。私も昨年、eBay で比較的安価な DVD としてレトロなアニメ シリーズをいくつか購入しました。私は昨年、Amazon のセールでこの Wiscent DVD/BluRay プレーヤーを約 89 ドルで購入しました。
+
+
+🔤 Original: Netflix Prices Went Up Again – I Bought a DVD Player Instead
+
+🔗 Read more: https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/</description>
+      <guid isPermaLink="true">https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/</guid>
+      <pubDate>Thu, 09 Apr 2026 20:17:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47709251</comments>
+    </item>
+    <item>
+      <title>すべての未来は嘘だと思います: パート 3 – 文化</title>
+      <link>https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture</link>
+      <description>📝 LLM は人間に比べて非常に予測不可能です。人々は、テキストを理解して生成するために LLM を使用することに非常に興奮しています。人々は LLM を使用して同僚に電子メールを書き、受信者は LLM を使用してメールを要約します。
+
+
+🔤 Original: The Future of Everything Is Lies, I Guess: Part 3 – Culture
+
+🔗 Read more: https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture</description>
+      <guid isPermaLink="true">https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture</guid>
+      <pubDate>Thu, 09 Apr 2026 13:33:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47703528</comments>
     </item>
   </channel>
 </rss>
