@@ -6,87 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 16:18:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 19:08:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Vercel Claude Code プラグインがプロンプトを読みたいと考えています</title>
-      <link>https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry</link>
-      <description>📝 「Vercel プラグインは匿名の使用状況データを収集します…プロンプト テキストも共有しますか。Vercel プラグインは、デプロイメント、フレームワーク ガイダンス、スキル インジェクションに役立ちます。次のプラグインをインストールしてください。
+      <title>データベースが忘れたデータについてゲーム エンジンが知っていること</title>
+      <link>https://nockawa.github.io/blog/what-game-engines-know-about-data/</link>
+      <description>📝 これは、ゲーム エンジンと同じようにデータを保存するデータベース エンジンであり、ゲーム サーバーが必要とする保証を提供します。 Typhon がデータベース アーキテクチャから引き出す 4 つの機能: コンポーネントごとの MVCC による ACID トランザクション。通常、ゲーム エンジンには分離がありません。
 
 
-🔤 Original: Vercel Claude Code plugin wants to read your prompt
+🔤 Original: What Game Engines Know About Data That Databases Forgot
 
-🔗 Read more: https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry</description>
-      <guid isPermaLink="true">https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry</guid>
-      <pubDate>Thu, 09 Apr 2026 15:17:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47704881</comments>
+🔗 Read more: https://nockawa.github.io/blog/what-game-engines-know-about-data/</description>
+      <guid isPermaLink="true">https://nockawa.github.io/blog/what-game-engines-know-about-data/</guid>
+      <pubDate>Thu, 09 Apr 2026 18:10:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47707269</comments>
     </item>
     <item>
-      <title>コウテイペンギンとナンキョクオットセイが絶滅の危機に瀕</title>
-      <link>https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn</link>
-      <description>📝 共有: プレスリリース 2026年4月9日 コウテイペンギンとナンキョクオットセイが気候変動により絶滅の危機に瀕 – IUCNレッドリストグランド、スイス、2026年4月9日(IUCN) – IUCNの絶滅危惧種レッドリスト™によると、コウテイペンギンとナンキョクオットセイは現在、両方とも絶滅の危機に瀕している。コウテイペンギンは、IUCNレッドリストで準絶滅危惧から絶滅危惧種に移行した。写真: Philip Trathan 南極オットセイは、IUCNレッドリストで軽度懸念から絶滅危惧種に移行した。
+      <title>Show HN: C/C++ 用の Cargo のようなビルド ツールを構築しました</title>
+      <link>https://github.com/randerson112/craft</link>
+      <description>📝 Craft の仕組み Craft でプロジェクトを定義します。 craft project my_app craft project --no-git craft project my_app --lang c craft project my_lib --template static-library craft init [path] 現在または指定されたディレクトリで Craft プロジェクトを初期化します。 craft build クラフトを読み取ります。
 
 
-🔤 Original: Emperor penguin and Antarctic fur seal now endangered
+🔤 Original: Show HN: I built a Cargo-like build tool for C/C++
 
-🔗 Read more: https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn</description>
-      <guid isPermaLink="true">https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn</guid>
-      <pubDate>Thu, 09 Apr 2026 15:55:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47705324</comments>
+🔗 Read more: https://github.com/randerson112/craft</description>
+      <guid isPermaLink="true">https://github.com/randerson112/craft</guid>
+      <pubDate>Thu, 09 Apr 2026 16:04:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47705413</comments>
     </item>
     <item>
-      <title>Meta、ソーシャルメディア依存症訴訟の広告を削除</title>
-      <link>https://www.axios.com/2026/04/09/meta-social-media-addiction-ads</link>
-      <guid isPermaLink="true">https://www.axios.com/2026/04/09/meta-social-media-addiction-ads</guid>
-      <pubDate>Thu, 09 Apr 2026 13:23:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47703419</comments>
+      <title>リサーチ主導のエージェント: エージェントがコーディングする前に読み取ると何が起こるか</title>
+      <link>https://blog.skypilot.co/research-driven-agents/</link>
+      <description>📝 重要なポイント: コードを書く前に論文を読んで競合プロジェクトを研究するエージェントは、コードのみを書くエージェントが見逃している最適化を見つけます。コードのみのコンテキストが機能する場所#Karpathy の自動調査では、コーディング エージェントが自律的にニューラル ネットワーク トレーニング スクリプトを改善できることが示されました。それはエージェントが持っていない分野の知識です。
+
+
+🔤 Original: Research-Driven Agents: What Happens When Your Agent Reads Before It Codes
+
+🔗 Read more: https://blog.skypilot.co/research-driven-agents/</description>
+      <guid isPermaLink="true">https://blog.skypilot.co/research-driven-agents/</guid>
+      <pubDate>Thu, 09 Apr 2026 16:58:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47706141</comments>
     </item>
     <item>
-      <title>拡張頂点ブロック降下の WebGPU 実装</title>
-      <link>https://github.com/jure/webphysics</link>
-      <description>📝 コード: src/physics/gpu/broadPhase。コード: src/physics/gpu/contactGeneration。コード: src/physics/gpu/contactGeneration。
+      <title>EFF が X を離れる</title>
+      <link>https://www.eff.org/deeplinks/2026/04/eff-leaving-x</link>
+      <description>📝 今日は私たちも彼らに加わります。 EFF は人々のデジタル権利を保護するために存在します。私たちが留まるのは、それらのプラットフォームを利用している人々も情報にアクセスする権利があるからです。
 
 
-🔤 Original: A WebGPU Implementation of Augmented Vertex Block Descent
+🔤 Original: EFF is leaving X
 
-🔗 Read more: https://github.com/jure/webphysics</description>
-      <guid isPermaLink="true">https://github.com/jure/webphysics</guid>
-      <pubDate>Thu, 09 Apr 2026 12:01:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47702541</comments>
+🔗 Read more: https://www.eff.org/deeplinks/2026/04/eff-leaving-x</description>
+      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/04/eff-leaving-x</guid>
+      <pubDate>Thu, 09 Apr 2026 17:08:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47706268</comments>
     </item>
     <item>
-      <title>リチェスとテイクテイクが協力協定を締結</title>
-      <link>https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy</link>
-      <description>📝 Freepik 上の Vectorarte による画像Lichess と Take Take Take 協力協定に署名Lichess4 月 6, 202676844,223 ビュー英語 (米国)LichessChessTake Take Take は、オープンソースの勝利で、新しいプレイゾーンのインフラストラクチャとして Lichess を使用します主な詳細: Take Take Take は、オープンソースの勝利で、新しいプレイゾーンのインフラストラクチャとして Lichess を使用します Lichess に変更はありません、これまでどおりになります -フリー/リブレのオープンソース ソフトウェア Take Take Take のプレイヤーは、簡単に Lichess アカウントを作成でき、Take Take Take アプリを通じて Lichess でゲームをプレイできるようになります すべてのプレイヤー (Take Take Take のプレイヤー、または Lichess の Web サイトやアプリを使用しているプレイヤー) は、プライバシー、データの完全性、モデレーションなど、Lichess が約束するすべての恩恵を受けます Take Take Take は、金銭面や可視性の向上などを含め、直接的および間接的に Lichess に貢献することで、オープンソースに貢献します 今年の初めに、Take Take Take は私たちに次のようにアプローチしました。ユニークな提案。 Take Take Take でプレイしたゲームは Lichess 上で動作します。同様に、Take Take Take チームもそのことをよく理解しており、私たちに多くのオープンさと透明性を与えてくれました。
+      <title>Hegel、ユニバーサル プロパティベースのテスト プロトコルおよび PBT ライブラリのファミリー</title>
+      <link>https://hegel.dev</link>
+      <description>📝 ヘーゲル |ヘーゲル コンテンツへスキップ ヘーゲル ヘーゲル ヘーゲルは、仮説に基づいて構築された、普遍的なプロパティベースのテスト プロトコルおよびライブラリのファミリーです。解説 ヘーゲルの仕組み なぜヘーゲルなのか。参照 インストールの参照 プロトコルの参照。
 
 
-🔤 Original: Lichess and Take Take Take Sign Cooperation Agreement
+🔤 Original: Hegel, a universal property-based testing protocol and family of PBT libraries
 
-🔗 Read more: https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy</description>
-      <guid isPermaLink="true">https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy</guid>
-      <pubDate>Thu, 09 Apr 2026 11:56:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47702499</comments>
+🔗 Read more: https://hegel.dev</description>
+      <guid isPermaLink="true">https://hegel.dev</guid>
+      <pubDate>Thu, 09 Apr 2026 18:37:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47707762</comments>
     </item>
     <item>
-      <title>セッションは 90 日後に終了します</title>
-      <link>https://getsession.org/donate</link>
-      <description>📝 - セッション テクノロジー財団およびセッション チーム募金目標 65,000 ドルが 100 万ドルの目標を調達 · この目標の理由。 セッションテクノロジー財団とは何ですか。 Session Technology Foundation が閉鎖された場合、Session はどうなりますか。
-
-
-🔤 Original: Session is shutting down in 90 days
-
-🔗 Read more: https://getsession.org/donate</description>
-      <guid isPermaLink="true">https://getsession.org/donate</guid>
-      <pubDate>Thu, 09 Apr 2026 12:51:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47703065</comments>
+      <title>ChatGPT Pro は月額 100 ドルから開始</title>
+      <link>https://chatgpt.com/pricing/</link>
+      <guid isPermaLink="true">https://chatgpt.com/pricing/</guid>
+      <pubDate>Thu, 09 Apr 2026 18:09:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47707253</comments>
     </item>
     <item>
-      <title>研究によると、若者はAIに対して希望を失い、より怒りを感じていることが判明</title>
-      <link>https://www.nytimes.com/2026/04/09/style/gen-z-ai-gallup-study.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/04/09/style/gen-z-ai-gallup-study.html</guid>
-      <pubDate>Thu, 09 Apr 2026 14:44:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47704443</comments>
+      <title>Little Snitch が Linux に登場しますが、コアロジックはクローズドソースです</title>
+      <link>https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</link>
+      <description>📝 盲目的な信頼を求めるセキュリティ ツールは矛盾しています。その混合物に独自のバイナリを追加すると、意味のある信頼が追加されることなく、複雑さが追加されます。彼らは、DNS をバイパスする直接 IP 接続を認識できないことを指摘するでしょう。
+
+
+🔤 Original: Little Snitch comes to Linux, but the core logic is closed source
+
+🔗 Read more: https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</description>
+      <guid isPermaLink="true">https://the.unknown-universe.co.uk/privacy-security/little-snitch-linux/</guid>
+      <pubDate>Thu, 09 Apr 2026 16:36:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47705834</comments>
+    </item>
+    <item>
+      <title>Unfolder for Mac – ペーパークラフトを作成するための 3D モデル展開ツール</title>
+      <link>https://www.unfolder.app/</link>
+      <description>📝 Unfolder を使用すると、フラップの切り替え、追加、削除、結合、および形状の変更を行うことができます。 Unfolder を使用すると、線の色、幅、破線をカスタマイズできます。 Unfolder を使用すると、さまざまな目的に応じてさまざまな形式でエクスポートできます。
+
+
+🔤 Original: Unfolder for Mac – A 3D model unfolding tool for creating papercraft
+
+🔗 Read more: https://www.unfolder.app/</description>
+      <guid isPermaLink="true">https://www.unfolder.app/</guid>
+      <pubDate>Thu, 09 Apr 2026 16:58:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47706140</comments>
     </item>
   </channel>
 </rss>
