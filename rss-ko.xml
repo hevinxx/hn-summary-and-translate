@@ -6,80 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 18 Apr 2026 02:25:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:07:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Fil-C의 단순화된 모델</title>
-      <link>https://www.corsix.org/content/simplified-model-of-fil-c</link>
-      <description>📝 첫 번째 재작성은 모든 함수 내에서 포인터 유형의 모든 지역 변수가 AllocationRecord* 유형의 동반 지역 변수를 얻는 것입니다. 예: Original SourceAfter Fil-C Transform void f() { T1* p1; T2*p2; uint64_t x;. 무효 f() { T1* p1; AllocationRecord* p1ar = NULL; T2*p2; AllocationRecord* p2ar = NULL; uint64_t x;. 이를 종합하면 다음과 같은 결과가 나옵니다. Original SourceAfter Fil-C Transform p1 = malloc(x);.
+      <title>HN 표시: 서로 분리된 간격 집합에 대해 작동하는 계산기를 만들었습니다.</title>
+      <link>https://victorpoughon.github.io/interval-calculator/</link>
+      <description>📝 Interval Union Arithmetic의 구현입니다. 3000000000000001] 구문 구문 예 간격 [a, b] [0. 간격 산술은 0을 포함하는 것이 보장되는 간격을 계산합니다.
 
 
-🔤 Original: A simplified model of Fil-C
+🔤 Original: Show HN: I made a calculator that works over disjoint sets of intervals
 
-🔗 Read more: https://www.corsix.org/content/simplified-model-of-fil-c</description>
-      <guid isPermaLink="true">https://www.corsix.org/content/simplified-model-of-fil-c</guid>
-      <pubDate>Fri, 17 Apr 2026 21:38:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47810872</comments>
-    </item>
-    <item>
-      <title>획기적인 고대 게놈 연구는 인류 진화의 놀라운 가속을 보여줍니다.</title>
-      <link>https://www.nature.com/articles/d41586-026-01204-5</link>
-      <description>📝 출처: Denis-Art/Getty고대 인간 DNA에 대한 사상 최대 규모의 연구는 지난 10,000년 동안 인간의 진화가 가속화되었음을 보여줍니다. 그런 다음 그들은 선택 이외의 힘으로 설명될 수 있는 변화를 무시하고 방향 선택의 강력한 징후를 보이는 479개의 변종을 식별했습니다. 최신 연구에 따르면 지난 2,000년 동안 일부 유럽 그룹에서는 이 변종이 덜 흔해졌습니다.
-
-
-🔤 Original: Landmark ancient-genome study shows surprise acceleration of human evolution
-
-🔗 Read more: https://www.nature.com/articles/d41586-026-01204-5</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-01204-5</guid>
-      <pubDate>Fri, 17 Apr 2026 22:30:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47811283</comments>
-    </item>
-    <item>
-      <title>슬롭 경찰</title>
-      <link>https://awnist.com/slop-cop</link>
-      <guid isPermaLink="true">https://awnist.com/slop-cop</guid>
-      <pubDate>Fri, 17 Apr 2026 15:15:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47806845</comments>
-    </item>
-    <item>
-      <title>"cat readme.txt"도 안전하지 않습니다</title>
-      <link>https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</link>
-      <description>📝 해당 원격 스크립트는 iTerm2의 프로토콜 피어가 됩니다. iTerm2는 실제로 신뢰할 수 있는 실제 지휘자 세션에서 나오지 않는 터미널 출력의 SSH 지휘자 프로토콜을 허용합니다. 이것이 바로 익스플로잇 프리미티브입니다.
-
-
-🔤 Original: Even "cat readme.txt" is not safe
-
-🔗 Read more: https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</description>
-      <guid isPermaLink="true">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</guid>
-      <pubDate>Fri, 17 Apr 2026 18:43:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47809190</comments>
-    </item>
-    <item>
-      <title>카수스 벨리 엔지니어링</title>
-      <link>https://marcosmagueta.com/blog/casus-belli-engineering/</link>
-      <description>📝 그들은 위기를 기다리지 않고 위기에 영양을 공급합니다. 그들은 희생양이 되는 일에 휘말리지 않고 그것을 조작합니다. 이들은 기술적 실패가 조직력으로 전환될 수 있다는 사실을 발견한 정치 조작자들이다.
-
-
-🔤 Original: Casus Belli Engineering
-
-🔗 Read more: https://marcosmagueta.com/blog/casus-belli-engineering/</description>
-      <guid isPermaLink="true">https://marcosmagueta.com/blog/casus-belli-engineering/</guid>
-      <pubDate>Sat, 18 Apr 2026 01:14:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47812331</comments>
-    </item>
-    <item>
-      <title>하위 도메인 대신 하위 디렉터리에 블로그를 호스팅하는 방법</title>
-      <link>https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</link>
-      <description>📝 또한 귀하의 블로그(블로그)를 가정해 보겠습니다. Cloudflare Dashboard로 이동하세요. 도메인을 클릭한 다음 SSL/TLS, 개요를 차례로 클릭하세요.
-
-
-🔤 Original: How to Host a Blog on a Subdirectory Instead of a Subdomain
-
-🔗 Read more: https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</description>
-      <guid isPermaLink="true">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</guid>
-      <pubDate>Fri, 17 Apr 2026 22:53:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47811442</comments>
+🔗 Read more: https://victorpoughon.github.io/interval-calculator/</description>
+      <guid isPermaLink="true">https://victorpoughon.github.io/interval-calculator/</guid>
+      <pubDate>Sat, 18 Apr 2026 01:15:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47812341</comments>
     </item>
   </channel>
 </rss>

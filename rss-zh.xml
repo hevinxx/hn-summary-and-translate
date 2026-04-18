@@ -6,80 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Apr 2026 02:25:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:07:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Fil-C 的简化模型</title>
-      <link>https://www.corsix.org/content/simplified-model-of-fil-c</link>
-      <description>📝 第一个重写是在每个函数内，每个指针类型的局部变量都会获得一个伴随的 AllocationRecord* 类型的局部变量，例如： Original SourceAfter Fil-C Transform void f() { T1* p1; T2* p2； uint64_t x;。无效 f() { T1* p1;分配记录* p1ar = NULL; T2* p2；分配记录* p2ar = NULL; uint64_t x;。将它们放在一起，我们得到： Original SourceAfter Fil-C Transform p1 = malloc(x);。
+      <title>Show HN：我制作了一个计算器，可以处理不相交的间隔集</title>
+      <link>https://victorpoughon.github.io/interval-calculator/</link>
+      <description>📝 它是区间联合算术的实现。 3000000000000001] 语法 语法示例 间隔 [a, b] [0.区间算术计算保证包含 0 的区间。
 
 
-🔤 Original: A simplified model of Fil-C
+🔤 Original: Show HN: I made a calculator that works over disjoint sets of intervals
 
-🔗 Read more: https://www.corsix.org/content/simplified-model-of-fil-c</description>
-      <guid isPermaLink="true">https://www.corsix.org/content/simplified-model-of-fil-c</guid>
-      <pubDate>Fri, 17 Apr 2026 21:38:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47810872</comments>
-    </item>
-    <item>
-      <title>具有里程碑意义的古代基因组研究显示人类进化的惊人加速</title>
-      <link>https://www.nature.com/articles/d41586-026-01204-5</link>
-      <description>📝 图片来源：Denis-Art/Getty 有史以来最大规模的古代人类 DNA 研究表明，人类进化在过去一万年里加速了。然后，他们排除了可以用选择以外的力量来解释的变化，识别出 479 个表现出强烈方向选择迹象的变体。最新研究表明，在过去 2000 年里，这种变异在一些欧洲群体中已经变得不那么常见了。
-
-
-🔤 Original: Landmark ancient-genome study shows surprise acceleration of human evolution
-
-🔗 Read more: https://www.nature.com/articles/d41586-026-01204-5</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-01204-5</guid>
-      <pubDate>Fri, 17 Apr 2026 22:30:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47811283</comments>
-    </item>
-    <item>
-      <title>泼水警察</title>
-      <link>https://awnist.com/slop-cop</link>
-      <guid isPermaLink="true">https://awnist.com/slop-cop</guid>
-      <pubDate>Fri, 17 Apr 2026 15:15:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47806845</comments>
-    </item>
-    <item>
-      <title>即使“cat readme.txt”也不安全</title>
-      <link>https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</link>
-      <description>📝 该远程脚本成为 iTerm2 的协议对等体。 iTerm2 接受来自终端输出的 SSH Conductor 协议，该输出实际上并非来自受信任的真实 Conductor 会话。这就是利用原语。
-
-
-🔤 Original: Even "cat readme.txt" is not safe
-
-🔗 Read more: https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</description>
-      <guid isPermaLink="true">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</guid>
-      <pubDate>Fri, 17 Apr 2026 18:43:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47809190</comments>
-    </item>
-    <item>
-      <title>宣战理由工程</title>
-      <link>https://marcosmagueta.com/blog/casus-belli-engineering/</link>
-      <description>📝 他们不会等待危机，而是培育危机。他们不会无意中寻找替罪羊，而是策划它。这些政治操纵者发现技术故障可以转化为组织力量。
-
-
-🔤 Original: Casus Belli Engineering
-
-🔗 Read more: https://marcosmagueta.com/blog/casus-belli-engineering/</description>
-      <guid isPermaLink="true">https://marcosmagueta.com/blog/casus-belli-engineering/</guid>
-      <pubDate>Sat, 18 Apr 2026 01:14:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47812331</comments>
-    </item>
-    <item>
-      <title>如何在子目录而不是子域上托管博客</title>
-      <link>https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</link>
-      <description>📝 我们还假设您的博客（博客）。转到您的 Cloudflare 仪表板。单击您的域，然后单击 SSL/TLS，然后单击概述。
-
-
-🔤 Original: How to Host a Blog on a Subdirectory Instead of a Subdomain
-
-🔗 Read more: https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</description>
-      <guid isPermaLink="true">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</guid>
-      <pubDate>Fri, 17 Apr 2026 22:53:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47811442</comments>
+🔗 Read more: https://victorpoughon.github.io/interval-calculator/</description>
+      <guid isPermaLink="true">https://victorpoughon.github.io/interval-calculator/</guid>
+      <pubDate>Sat, 18 Apr 2026 01:15:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47812341</comments>
     </item>
   </channel>
 </rss>

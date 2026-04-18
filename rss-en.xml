@@ -6,65 +6,18 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 02:25:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:07:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>A simplified model of Fil-C</title>
-      <link>https://www.corsix.org/content/simplified-model-of-fil-c</link>
-      <description>📝 The first rewrite is that within every function, every local variable of pointer type gains an accompanying local variable of AllocationRecord* type, for example: Original SourceAfter Fil-C Transform void f() { T1* p1; T2* p2; uint64_t x;. void f() { T1* p1; AllocationRecord* p1ar = NULL; T2* p2; AllocationRecord* p2ar = NULL; uint64_t x;. Putting this together, we get: Original SourceAfter Fil-C Transform p1 = malloc(x);.
+      <title>Show HN: I made a calculator that works over disjoint sets of intervals</title>
+      <link>https://victorpoughon.github.io/interval-calculator/</link>
+      <description>📝 It is an implementation of Interval Union Arithmetic. 3000000000000001] Syntax Syntax Examples Interval [a, b] [0. Interval arithmetic computes an interval that is guaranteed to contain 0.
 
-🔗 Read more: https://www.corsix.org/content/simplified-model-of-fil-c</description>
-      <guid isPermaLink="true">https://www.corsix.org/content/simplified-model-of-fil-c</guid>
-      <pubDate>Fri, 17 Apr 2026 21:38:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47810872</comments>
-    </item>
-    <item>
-      <title>Landmark ancient-genome study shows surprise acceleration of human evolution</title>
-      <link>https://www.nature.com/articles/d41586-026-01204-5</link>
-      <description>📝 Credit: Denis-Art/GettyThe biggest ever study of ancient human DNA shows that human evolution has accelerated over the past 10,000 years. They then discounted changes that could be explained by forces other than selection, identifying 479 variants that showed strong signs of directional selection. The latest study suggests that the variant has become less common in some European groups in the past 2,000 years.
-
-🔗 Read more: https://www.nature.com/articles/d41586-026-01204-5</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-01204-5</guid>
-      <pubDate>Fri, 17 Apr 2026 22:30:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47811283</comments>
-    </item>
-    <item>
-      <title>Slop Cop</title>
-      <link>https://awnist.com/slop-cop</link>
-      <guid isPermaLink="true">https://awnist.com/slop-cop</guid>
-      <pubDate>Fri, 17 Apr 2026 15:15:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47806845</comments>
-    </item>
-    <item>
-      <title>Even "cat readme.txt" is not safe</title>
-      <link>https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</link>
-      <description>📝 That remote script becomes the protocol peer for iTerm2. iTerm2 accepts the SSH conductor protocol from terminal output that is not actually coming from a trusted, real conductor session. That is the exploit primitive.
-
-🔗 Read more: https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</description>
-      <guid isPermaLink="true">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</guid>
-      <pubDate>Fri, 17 Apr 2026 18:43:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47809190</comments>
-    </item>
-    <item>
-      <title>Casus Belli Engineering</title>
-      <link>https://marcosmagueta.com/blog/casus-belli-engineering/</link>
-      <description>📝 They do not wait for crisis, they nourish it. They do not stumble into scapegoating, they engineer it. These are political operators who have discovered that technical failure can be converted into organizational power.
-
-🔗 Read more: https://marcosmagueta.com/blog/casus-belli-engineering/</description>
-      <guid isPermaLink="true">https://marcosmagueta.com/blog/casus-belli-engineering/</guid>
-      <pubDate>Sat, 18 Apr 2026 01:14:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47812331</comments>
-    </item>
-    <item>
-      <title>How to Host a Blog on a Subdirectory Instead of a Subdomain</title>
-      <link>https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</link>
-      <description>📝 Lets also suppose your blog (blog. Go to your Cloudflare Dashboard. Click into your domain, then SSL/TLS, then Overview.
-
-🔗 Read more: https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</description>
-      <guid isPermaLink="true">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</guid>
-      <pubDate>Fri, 17 Apr 2026 22:53:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47811442</comments>
+🔗 Read more: https://victorpoughon.github.io/interval-calculator/</description>
+      <guid isPermaLink="true">https://victorpoughon.github.io/interval-calculator/</guid>
+      <pubDate>Sat, 18 Apr 2026 01:15:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47812341</comments>
     </item>
   </channel>
 </rss>
