@@ -6,54 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 21:42:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 02:25:15 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>昔ながらの方法でコーディングに 3 か月を費やしています</title>
-      <link>https://miguelconner.substack.com/p/im-coding-by-hand</link>
-      <guid isPermaLink="true">https://miguelconner.substack.com/p/im-coding-by-hand</guid>
-      <pubDate>Fri, 17 Apr 2026 16:19:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47807583</comments>
+      <title>Fil-Cの簡易モデル</title>
+      <link>https://www.corsix.org/content/simplified-model-of-fil-c</link>
+      <description>📝 最初の書き換えは、すべての関数内で、ポインター型のすべてのローカル変数が、AllocationRecord* 型の付随するローカル変数を取得することです。次に例を示します。 T2* p2; uint64_t x;。 void f() { T1* p1; AllocationRecord* p1ar = NULL; T2* p2; AllocationRecord* p2ar = NULL; uint64_t x;。これをまとめると、次のようになります: Original SourceAfter Fil-C Transform p1 = malloc(x);。
+
+
+🔤 Original: A simplified model of Fil-C
+
+🔗 Read more: https://www.corsix.org/content/simplified-model-of-fil-c</description>
+      <guid isPermaLink="true">https://www.corsix.org/content/simplified-model-of-fil-c</guid>
+      <pubDate>Fri, 17 Apr 2026 21:38:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47810872</comments>
     </item>
     <item>
-      <title>Arc プライズ財団 (YC W26) が ARC-AGI-4 のプラットフォーム エンジニアを募集します</title>
-      <link>https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</link>
-      <description>📝 一般的な知能を測定し、新しいアイデアを刺激する AI ベンチマーク ARC-AGI シリーズのベンチマークの背後にあるプラットフォームを所有し、進化させるシニア エンジニア。この人物は、現在のシステムの安定化から将来のバージョンの基礎の構築まで、ベンチマーク インフラストラクチャの技術的所有者およびアーキテクトとして機能します。これはリモートのフルタイムの役割です。
+      <title>画期的な古代ゲノム研究で人類進化の驚くべき加速が判明</title>
+      <link>https://www.nature.com/articles/d41586-026-01204-5</link>
+      <description>📝 クレジット: Denis-Art/Getty 古代人類の DNA に関する史上最大の研究は、人類の進化が過去 1 万年にわたって加速したことを示しています。次に、選択以外の力によって説明できる変化を無視し、方向性選択の強い兆候を示す 479 個の変異体を特定しました。最新の研究は、過去 2,000 年間でヨーロッパの一部のグループではこの変異があまり一般的ではなくなったことを示唆しています。
 
 
-🔤 Original: Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4
+🔤 Original: Landmark ancient-genome study shows surprise acceleration of human evolution
 
-🔗 Read more: https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</guid>
-      <pubDate>Fri, 17 Apr 2026 21:00:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47810507</comments>
+🔗 Read more: https://www.nature.com/articles/d41586-026-01204-5</description>
+      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-01204-5</guid>
+      <pubDate>Fri, 17 Apr 2026 22:30:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811283</comments>
     </item>
     <item>
-      <title>ハイパースケーラーはすでに米国の有名なメガプロジェクトのほとんどを上回っている</title>
-      <link>https://twitter.com/finmoorhouse/status/2044933442236776794</link>
-      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x の使用を続けるには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
-
-
-🔤 Original: Hyperscalers have already outspent most famous US megaprojects
-
-🔗 Read more: https://twitter.com/finmoorhouse/status/2044933442236776794</description>
-      <guid isPermaLink="true">https://twitter.com/finmoorhouse/status/2044933442236776794</guid>
-      <pubDate>Fri, 17 Apr 2026 16:23:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47807619</comments>
+      <title>スロップ・コップ</title>
+      <link>https://awnist.com/slop-cop</link>
+      <guid isPermaLink="true">https://awnist.com/slop-cop</guid>
+      <pubDate>Fri, 17 Apr 2026 15:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806845</comments>
     </item>
     <item>
-      <title>テスラ、FSDを7年間待ち続けた後、HW3所有者に「辛抱強く」言う</title>
-      <link>https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</link>
-      <description>📝 テスラはシグターマンズ氏に、「完全な自動運転機能」の代金を支払ったと答えた。約束されたハードウェアの無料アップグレードについて尋ねると、テスラは「ヨーロッパ国内には情報がない」と答えた。シグターマンズ氏が電話を切ると、テスラはすぐに訴訟を終了した。
+      <title>「cat readme.txt」さえ安全ではない</title>
+      <link>https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</link>
+      <description>📝 そのリモート スクリプトは iTerm2 のプロトコル ピアになります。 iTerm2 は、実際には信頼できる実際のコンダクター セッションからのものではない端末出力から SSH コンダクター プロトコルを受け入れます。それがエクスプロイトプリミティブです。
 
 
-🔤 Original: Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD
+🔤 Original: Even "cat readme.txt" is not safe
 
-🔗 Read more: https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</description>
-      <guid isPermaLink="true">https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</guid>
-      <pubDate>Fri, 17 Apr 2026 19:00:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47809347</comments>
+🔗 Read more: https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</description>
+      <guid isPermaLink="true">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</guid>
+      <pubDate>Fri, 17 Apr 2026 18:43:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47809190</comments>
+    </item>
+    <item>
+      <title>カサス・ベリ・エンジニアリング</title>
+      <link>https://marcosmagueta.com/blog/casus-belli-engineering/</link>
+      <description>📝 彼らは危機を待つのではなく、危機を育みます。彼らはスケープゴートにつまずくことはなく、それを巧みに設計します。彼らは、技術的な失敗が組織力に変換される可能性があることを発見した政治的運営者です。
+
+
+🔤 Original: Casus Belli Engineering
+
+🔗 Read more: https://marcosmagueta.com/blog/casus-belli-engineering/</description>
+      <guid isPermaLink="true">https://marcosmagueta.com/blog/casus-belli-engineering/</guid>
+      <pubDate>Sat, 18 Apr 2026 01:14:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47812331</comments>
+    </item>
+    <item>
+      <title>サブドメインの代わりにサブディレクトリでブログをホストする方法</title>
+      <link>https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</link>
+      <description>📝 また、あなたのブログ (ブログ) を想定してみましょう。Cloudflare ダッシュボードに移動します。ドメイン、SSL/TLS、概要の順にクリックします。
+
+
+🔤 Original: How to Host a Blog on a Subdirectory Instead of a Subdomain
+
+🔗 Read more: https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</description>
+      <guid isPermaLink="true">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</guid>
+      <pubDate>Fri, 17 Apr 2026 22:53:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811442</comments>
     </item>
   </channel>
 </rss>

@@ -6,54 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 17 Apr 2026 21:42:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 02:25:15 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我花了 3 个月的时间以旧方式编码</title>
-      <link>https://miguelconner.substack.com/p/im-coding-by-hand</link>
-      <guid isPermaLink="true">https://miguelconner.substack.com/p/im-coding-by-hand</guid>
-      <pubDate>Fri, 17 Apr 2026 16:19:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47807583</comments>
+      <title>Fil-C 的简化模型</title>
+      <link>https://www.corsix.org/content/simplified-model-of-fil-c</link>
+      <description>📝 第一个重写是在每个函数内，每个指针类型的局部变量都会获得一个伴随的 AllocationRecord* 类型的局部变量，例如： Original SourceAfter Fil-C Transform void f() { T1* p1; T2* p2； uint64_t x;。无效 f() { T1* p1;分配记录* p1ar = NULL; T2* p2；分配记录* p2ar = NULL; uint64_t x;。将它们放在一起，我们得到： Original SourceAfter Fil-C Transform p1 = malloc(x);。
+
+
+🔤 Original: A simplified model of Fil-C
+
+🔗 Read more: https://www.corsix.org/content/simplified-model-of-fil-c</description>
+      <guid isPermaLink="true">https://www.corsix.org/content/simplified-model-of-fil-c</guid>
+      <pubDate>Fri, 17 Apr 2026 21:38:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47810872</comments>
     </item>
     <item>
-      <title>Arc 奖基金会 (YC W26) 正在招聘 ARC-AGI-4 平台工程师</title>
-      <link>https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</link>
-      <description>📝 衡量通用智能并激发新想法的 AI 基准 高级工程师拥有并发展 ARC-AGI 系列基准背后的平台。此人将充当我们基准基础设施的技术所有者和架构师，从稳定当前系统到为未来版本奠定基础。这是一个远程全职角色。
+      <title>具有里程碑意义的古代基因组研究显示人类进化的惊人加速</title>
+      <link>https://www.nature.com/articles/d41586-026-01204-5</link>
+      <description>📝 图片来源：Denis-Art/Getty 有史以来最大规模的古代人类 DNA 研究表明，人类进化在过去一万年里加速了。然后，他们排除了可以用选择以外的力量来解释的变化，识别出 479 个表现出强烈方向选择迹象的变体。最新研究表明，在过去 2000 年里，这种变异在一些欧洲群体中已经变得不那么常见了。
 
 
-🔤 Original: Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4
+🔤 Original: Landmark ancient-genome study shows surprise acceleration of human evolution
 
-🔗 Read more: https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</guid>
-      <pubDate>Fri, 17 Apr 2026 21:00:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47810507</comments>
+🔗 Read more: https://www.nature.com/articles/d41586-026-01204-5</description>
+      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-01204-5</guid>
+      <pubDate>Fri, 17 Apr 2026 22:30:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811283</comments>
     </item>
     <item>
-      <title>超大规模企业的支出已经超过了美国最著名的大型项目</title>
-      <link>https://twitter.com/finmoorhouse/status/2044933442236776794</link>
-      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
-
-
-🔤 Original: Hyperscalers have already outspent most famous US megaprojects
-
-🔗 Read more: https://twitter.com/finmoorhouse/status/2044933442236776794</description>
-      <guid isPermaLink="true">https://twitter.com/finmoorhouse/status/2044933442236776794</guid>
-      <pubDate>Fri, 17 Apr 2026 16:23:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47807619</comments>
+      <title>泼水警察</title>
+      <link>https://awnist.com/slop-cop</link>
+      <guid isPermaLink="true">https://awnist.com/slop-cop</guid>
+      <pubDate>Fri, 17 Apr 2026 15:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806845</comments>
     </item>
     <item>
-      <title>等待 FSD 7 年之后，特斯拉告诉 HW3 车主“要有耐心”</title>
-      <link>https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</link>
-      <description>📝 特斯拉告诉他，他为“完全自动驾驶能力”付费。当他询问承诺的免费硬件升级时，特斯拉表示“欧洲境内没有任何信息。”西格特曼挂断电话后，特斯拉立即结案。
+      <title>即使“cat readme.txt”也不安全</title>
+      <link>https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</link>
+      <description>📝 该远程脚本成为 iTerm2 的协议对等体。 iTerm2 接受来自终端输出的 SSH Conductor 协议，该输出实际上并非来自受信任的真实 Conductor 会话。这就是利用原语。
 
 
-🔤 Original: Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD
+🔤 Original: Even "cat readme.txt" is not safe
 
-🔗 Read more: https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</description>
-      <guid isPermaLink="true">https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</guid>
-      <pubDate>Fri, 17 Apr 2026 19:00:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47809347</comments>
+🔗 Read more: https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</description>
+      <guid isPermaLink="true">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</guid>
+      <pubDate>Fri, 17 Apr 2026 18:43:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47809190</comments>
+    </item>
+    <item>
+      <title>宣战理由工程</title>
+      <link>https://marcosmagueta.com/blog/casus-belli-engineering/</link>
+      <description>📝 他们不会等待危机，而是培育危机。他们不会无意中寻找替罪羊，而是策划它。这些政治操纵者发现技术故障可以转化为组织力量。
+
+
+🔤 Original: Casus Belli Engineering
+
+🔗 Read more: https://marcosmagueta.com/blog/casus-belli-engineering/</description>
+      <guid isPermaLink="true">https://marcosmagueta.com/blog/casus-belli-engineering/</guid>
+      <pubDate>Sat, 18 Apr 2026 01:14:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47812331</comments>
+    </item>
+    <item>
+      <title>如何在子目录而不是子域上托管博客</title>
+      <link>https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</link>
+      <description>📝 我们还假设您的博客（博客）。转到您的 Cloudflare 仪表板。单击您的域，然后单击 SSL/TLS，然后单击概述。
+
+
+🔤 Original: How to Host a Blog on a Subdirectory Instead of a Subdomain
+
+🔗 Read more: https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</description>
+      <guid isPermaLink="true">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</guid>
+      <pubDate>Fri, 17 Apr 2026 22:53:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811442</comments>
     </item>
   </channel>
 </rss>

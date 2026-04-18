@@ -6,45 +6,65 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2026 21:42:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 02:25:15 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>I'm spending 3 months coding the old way</title>
-      <link>https://miguelconner.substack.com/p/im-coding-by-hand</link>
-      <guid isPermaLink="true">https://miguelconner.substack.com/p/im-coding-by-hand</guid>
-      <pubDate>Fri, 17 Apr 2026 16:19:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47807583</comments>
+      <title>A simplified model of Fil-C</title>
+      <link>https://www.corsix.org/content/simplified-model-of-fil-c</link>
+      <description>📝 The first rewrite is that within every function, every local variable of pointer type gains an accompanying local variable of AllocationRecord* type, for example: Original SourceAfter Fil-C Transform void f() { T1* p1; T2* p2; uint64_t x;. void f() { T1* p1; AllocationRecord* p1ar = NULL; T2* p2; AllocationRecord* p2ar = NULL; uint64_t x;. Putting this together, we get: Original SourceAfter Fil-C Transform p1 = malloc(x);.
+
+🔗 Read more: https://www.corsix.org/content/simplified-model-of-fil-c</description>
+      <guid isPermaLink="true">https://www.corsix.org/content/simplified-model-of-fil-c</guid>
+      <pubDate>Fri, 17 Apr 2026 21:38:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47810872</comments>
     </item>
     <item>
-      <title>Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4</title>
-      <link>https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</link>
-      <description>📝 AI benchmarks that measure general intelligence and inspire new ideas A senior engineer to own and evolve the platform behind ARC-AGI series of benchmarks. This person will act as the technical owner and architect of our benchmark infrastructure, from stabilizing the current system to laying the foundation for future versions. This is a remote, full-time role.
+      <title>Landmark ancient-genome study shows surprise acceleration of human evolution</title>
+      <link>https://www.nature.com/articles/d41586-026-01204-5</link>
+      <description>📝 Credit: Denis-Art/GettyThe biggest ever study of ancient human DNA shows that human evolution has accelerated over the past 10,000 years. They then discounted changes that could be explained by forces other than selection, identifying 479 variants that showed strong signs of directional selection. The latest study suggests that the variant has become less common in some European groups in the past 2,000 years.
 
-🔗 Read more: https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</guid>
-      <pubDate>Fri, 17 Apr 2026 21:00:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47810507</comments>
+🔗 Read more: https://www.nature.com/articles/d41586-026-01204-5</description>
+      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-01204-5</guid>
+      <pubDate>Fri, 17 Apr 2026 22:30:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811283</comments>
     </item>
     <item>
-      <title>Hyperscalers have already outspent most famous US megaprojects</title>
-      <link>https://twitter.com/finmoorhouse/status/2044933442236776794</link>
-      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.
-
-🔗 Read more: https://twitter.com/finmoorhouse/status/2044933442236776794</description>
-      <guid isPermaLink="true">https://twitter.com/finmoorhouse/status/2044933442236776794</guid>
-      <pubDate>Fri, 17 Apr 2026 16:23:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47807619</comments>
+      <title>Slop Cop</title>
+      <link>https://awnist.com/slop-cop</link>
+      <guid isPermaLink="true">https://awnist.com/slop-cop</guid>
+      <pubDate>Fri, 17 Apr 2026 15:15:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806845</comments>
     </item>
     <item>
-      <title>Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD</title>
-      <link>https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</link>
-      <description>📝 Tesla told him he paid for “the full self-drive capability. ” When he asked about the promised free hardware upgrade, Tesla said there was “no information within Europe. ” After Sigtermans hung up, Tesla immediately closed his case.
+      <title>Even "cat readme.txt" is not safe</title>
+      <link>https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</link>
+      <description>📝 That remote script becomes the protocol peer for iTerm2. iTerm2 accepts the SSH conductor protocol from terminal output that is not actually coming from a trusted, real conductor session. That is the exploit primitive.
 
-🔗 Read more: https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</description>
-      <guid isPermaLink="true">https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</guid>
-      <pubDate>Fri, 17 Apr 2026 19:00:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47809347</comments>
+🔗 Read more: https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</description>
+      <guid isPermaLink="true">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</guid>
+      <pubDate>Fri, 17 Apr 2026 18:43:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47809190</comments>
+    </item>
+    <item>
+      <title>Casus Belli Engineering</title>
+      <link>https://marcosmagueta.com/blog/casus-belli-engineering/</link>
+      <description>📝 They do not wait for crisis, they nourish it. They do not stumble into scapegoating, they engineer it. These are political operators who have discovered that technical failure can be converted into organizational power.
+
+🔗 Read more: https://marcosmagueta.com/blog/casus-belli-engineering/</description>
+      <guid isPermaLink="true">https://marcosmagueta.com/blog/casus-belli-engineering/</guid>
+      <pubDate>Sat, 18 Apr 2026 01:14:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47812331</comments>
+    </item>
+    <item>
+      <title>How to Host a Blog on a Subdirectory Instead of a Subdomain</title>
+      <link>https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</link>
+      <description>📝 Lets also suppose your blog (blog. Go to your Cloudflare Dashboard. Click into your domain, then SSL/TLS, then Overview.
+
+🔗 Read more: https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</description>
+      <guid isPermaLink="true">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</guid>
+      <pubDate>Fri, 17 Apr 2026 22:53:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811442</comments>
     </item>
   </channel>
 </rss>
