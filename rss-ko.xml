@@ -6,41 +6,113 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 18 Apr 2026 15:38:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 18:53:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>DigitalOcean에서 Hetzner로 마이그레이션: 다운타임 없이 $1,432에서 $233로</title>
-      <link>https://isayeter.com/posts/digitalocean-to-hetzner-migration/</link>
-      <description>📝 대신 우리는 6단계로 구성된 적절한 마이그레이션 경로를 설계했습니다. 1단계 — 새 서버 Nginx(동일한 플래그를 사용하여 소스에서 컴파일), PHP(Remi repo를 통해 동일)에 전체 스택 설치. 이전 서버는 마스터가 되고 새 서버는 읽기 전용 슬레이브가 되었습니다. 5단계 — 이전 서버 nginx가 역방향 프록시로 변환되었습니다. 우리는 모든 34개의 Nginx 사이트 구성에서 모든 서버 {} 블록을 구문 분석하고 원본을 백업한 후 프록시로 교체하는 Python 스크립트를 작성했습니다. 새 서버를 가리키는 구성입니다.
+      <title>B-52 폭격기의 별 추적기 내부에 있는 전기 기계식 각도 컴퓨터</title>
+      <link>https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html</link>
+      <description>📝 Astro Compass 항법 시스템은 별을 추적하는 광학 시스템인 "Astro Tracker"(위)를 중심으로 구축되었습니다. Kollsman MD-1 자동 천체 나침반 매뉴얼에서. 커버를 제거한 스타 데이터 디스플레이.
 
 
-🔤 Original: Migrating from DigitalOcean to Hetzner: From $1,432 to $233 With Zero Downtime
+🔤 Original: The electromechanical angle computer inside the B-52 bomber's star tracker
 
-🔗 Read more: https://isayeter.com/posts/digitalocean-to-hetzner-migration/</description>
-      <guid isPermaLink="true">https://isayeter.com/posts/digitalocean-to-hetzner-migration/</guid>
-      <pubDate>Sat, 18 Apr 2026 13:29:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47815774</comments>
+🔗 Read more: https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html</description>
+      <guid isPermaLink="true">https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html</guid>
+      <pubDate>Sat, 18 Apr 2026 16:26:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47817132</comments>
     </item>
     <item>
-      <title>일본의 철도가 좋은 이유</title>
-      <link>https://worksinprogress.co/issue/why-japan-has-such-good-railways/</link>
-      <description>📝 일본의 전통 민간 철도 회사 중 최대 규모인 긴테쓰의 철도 네트워크입니다. 이미지 긴테쓰 철도망. 이들을 총칭하여 일본철도그룹(JR Group)이라고 합니다.
+      <title>Opus 4.7 ~ 4.6 인플레이션은 ~45%입니다.</title>
+      <link>https://tokens.billchambers.me/leaderboard</link>
+      <description>📝 토큰경제학 - Anthropic Token Cost CalculatorCalculateCommunity AveragesAboutCommunity Averages커뮤니티의 익명 요청 토큰 비교로 Opus 4.7이 실제 입력에서 어떻게 다른지 보여줍니다. 프롬프트 제출오픈 소스 · 저장된 행에는 익명 제출 ID만 포함되어 있습니다. Anthropic과 제휴하거나 승인하지 않습니다.
 
 
-🔤 Original: Why Japan has such good railways
+🔤 Original: Opus 4.7 to 4.6 Inflation is ~45%
 
-🔗 Read more: https://worksinprogress.co/issue/why-japan-has-such-good-railways/</description>
-      <guid isPermaLink="true">https://worksinprogress.co/issue/why-japan-has-such-good-railways/</guid>
-      <pubDate>Sat, 18 Apr 2026 12:29:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47815395</comments>
+🔗 Read more: https://tokens.billchambers.me/leaderboard</description>
+      <guid isPermaLink="true">https://tokens.billchambers.me/leaderboard</guid>
+      <pubDate>Sat, 18 Apr 2026 16:05:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47816960</comments>
     </item>
     <item>
-      <title>HN 표시: Solyto – 무료 오픈 소스 올인원 개인 관리 앱</title>
-      <link>https://solyto.app</link>
-      <guid isPermaLink="true">https://solyto.app</guid>
-      <pubDate>Sat, 18 Apr 2026 15:10:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47816514</comments>
+      <title>퓨직스 OS</title>
+      <link>https://www.fuzix.org/</link>
+      <description>📝 현재 이 포트는 RCbus 65C02/65C816 카드 및 PZ1을 대상으로 합니다. 6809 이 포트는 gcc 6809 및 lwtools를 사용합니다. 68000 평면 메모리 공간을 갖춘 Motorola 68000 시리즈 프로세서.
+
+
+🔤 Original: Fuzix OS
+
+🔗 Read more: https://www.fuzix.org/</description>
+      <guid isPermaLink="true">https://www.fuzix.org/</guid>
+      <pubDate>Sat, 18 Apr 2026 15:24:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47816625</comments>
+    </item>
+    <item>
+      <title>HN 표시: MDV – 데이터가 포함된 문서, 대시보드 및 슬라이드에 대한 Markdown 상위 집합</title>
+      <link>https://github.com/drasimwagan/mdv</link>
+      <description>📝 울타리 코드 블록과 이름이 지정된 스타일만큼 복잡한 것도 없이 차트, KPI 카드, 테이블, 스타일 영역을 추가하세요. Node.js 미리보기 예제/09-전체 보고서. VS Code 확장 — 병렬 실시간 미리보기.
+
+
+🔤 Original: Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data
+
+🔗 Read more: https://github.com/drasimwagan/mdv</description>
+      <guid isPermaLink="true">https://github.com/drasimwagan/mdv</guid>
+      <pubDate>Sat, 18 Apr 2026 15:24:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47816629</comments>
+    </item>
+    <item>
+      <title>미국은 세금 전쟁을 후회하게 될 것이다</title>
+      <link>https://economist.com/leaders/2026/04/16/america-will-come-to-regret-its-war-on-taxes</link>
+      <guid isPermaLink="true">https://economist.com/leaders/2026/04/16/america-will-come-to-regret-its-war-on-taxes</guid>
+      <pubDate>Sat, 18 Apr 2026 18:34:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47818289</comments>
+    </item>
+    <item>
+      <title>UpCodes(YC S17)는 건설 생산성을 높이기 위해 SDR을 고용하고 있습니다.</title>
+      <link>https://up.codes/careers?utm_source=HN</link>
+      <guid isPermaLink="true">https://up.codes/careers?utm_source=HN</guid>
+      <pubDate>Sat, 18 Apr 2026 17:01:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47817473</comments>
+    </item>
+    <item>
+      <title>2026년 AI 현황을 설명하는 그래프</title>
+      <link>https://spectrum.ieee.org/state-of-ai-index-2026</link>
+      <description>📝 AINews 2026년 AI 상태를 설명하는 12가지 그래프 AI 투자는 급증하고 있지만 AI가 직업과 대중 인식에 미치는 영향은 여전히 ​​엇갈리고 있습니다.Matthew S. Smith13 4월 20269 분 읽기Matthew S. Smith는 IEEE Spectrum의 기고 편집자이자 Digital Trends의 전 수석 리뷰 편집자입니다.
+
+
+🔤 Original: Graphs That Explain the State of AI in 2026
+
+🔗 Read more: https://spectrum.ieee.org/state-of-ai-index-2026</description>
+      <guid isPermaLink="true">https://spectrum.ieee.org/state-of-ai-index-2026</guid>
+      <pubDate>Sat, 18 Apr 2026 17:12:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47817581</comments>
+    </item>
+    <item>
+      <title>USDA의 원예 구역이 바뀌었습니다. (대화형 앱 및 지도)</title>
+      <link>https://apps.npr.org/plant-hardiness-garden-map/</link>
+      <description>📝 당신의 강인함 영역은 무엇을 말합니까? 이 평균 기온을 사용하면 구역으로 분류될 수 있습니다. 이 평균 최저 기온을 사용하면 구역으로 분류됩니다.
+
+
+🔤 Original: The USDA's gardening zones have shifted. (Interactive app and map)
+
+🔗 Read more: https://apps.npr.org/plant-hardiness-garden-map/</description>
+      <guid isPermaLink="true">https://apps.npr.org/plant-hardiness-garden-map/</guid>
+      <pubDate>Sat, 18 Apr 2026 16:31:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47817179</comments>
+    </item>
+    <item>
+      <title>Amazon, 6월 30일부터 PC용 Kindle 서비스 중단</title>
+      <link>https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th</link>
+      <description>📝 이 앱은 Microsoft Store에서만 다운로드할 수 있습니다. Mac 측면에서는 Amazon 웹사이트에서 다운로드할 수 있는 Mac용 Kindle이 있었습니다. Amazon은 Kindle e-reader와 다양한 앱을 잠그기 위해 최선을 다하고 있습니다.
+
+
+🔤 Original: Amazon is discontinuing Kindle for PC on June 30th
+
+🔗 Read more: https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th</description>
+      <guid isPermaLink="true">https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th</guid>
+      <pubDate>Sat, 18 Apr 2026 15:54:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47816878</comments>
     </item>
   </channel>
 </rss>
