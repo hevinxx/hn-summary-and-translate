@@ -6,7 +6,7 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Apr 2026 05:07:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 07:07:53 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
@@ -19,8 +19,367 @@
 
 🔗 Read more: https://victorpoughon.github.io/interval-calculator/</description>
       <guid isPermaLink="true">https://victorpoughon.github.io/interval-calculator/</guid>
-      <pubDate>Sat, 18 Apr 2026 01:15:43 +0000</pubDate>
+      <pubDate>2026-04-18 01:15:43</pubDate>
       <comments>https://news.ycombinator.com/item?id=47812341</comments>
+    </item>
+    <item>
+      <title>如何在子目录而不是子域上托管博客</title>
+      <link>https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</link>
+      <description>📝 我们还假设您的博客（博客）。转到您的 Cloudflare 仪表板。单击您的域，然后单击 SSL/TLS，然后单击概述。
+
+
+🔤 Original: How to Host a Blog on a Subdirectory Instead of a Subdomain
+
+🔗 Read more: https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</description>
+      <guid isPermaLink="true">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</guid>
+      <pubDate>2026-04-17 22:53:18</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811442</comments>
+    </item>
+    <item>
+      <title>宣战理由工程</title>
+      <link>https://marcosmagueta.com/blog/casus-belli-engineering/</link>
+      <description>📝 他们不会等待危机，而是培育危机。他们不会无意中寻找替罪羊，而是策划它。这些政治操纵者发现技术故障可以转化为组织力量。
+
+
+🔤 Original: Casus Belli Engineering
+
+🔗 Read more: https://marcosmagueta.com/blog/casus-belli-engineering/</description>
+      <guid isPermaLink="true">https://marcosmagueta.com/blog/casus-belli-engineering/</guid>
+      <pubDate>2026-04-18 01:14:02</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47812331</comments>
+    </item>
+    <item>
+      <title>即使“cat readme.txt”也不安全</title>
+      <link>https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</link>
+      <description>📝 该远程脚本成为 iTerm2 的协议对等体。 iTerm2 接受来自终端输出的 SSH Conductor 协议，该输出实际上并非来自受信任的真实 Conductor 会话。这就是利用原语。
+
+
+🔤 Original: Even "cat readme.txt" is not safe
+
+🔗 Read more: https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</description>
+      <guid isPermaLink="true">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</guid>
+      <pubDate>2026-04-17 18:43:32</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47809190</comments>
+    </item>
+    <item>
+      <title>泼水警察</title>
+      <link>https://awnist.com/slop-cop</link>
+      <guid isPermaLink="true">https://awnist.com/slop-cop</guid>
+      <pubDate>2026-04-17 15:15:24</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806845</comments>
+    </item>
+    <item>
+      <title>具有里程碑意义的古代基因组研究显示人类进化的惊人加速</title>
+      <link>https://www.nature.com/articles/d41586-026-01204-5</link>
+      <description>📝 图片来源：Denis-Art/Getty 有史以来最大规模的古代人类 DNA 研究表明，人类进化在过去一万年里加速了。然后，他们排除了可以用选择以外的力量来解释的变化，识别出 479 个表现出强烈方向选择迹象的变体。最新研究表明，在过去 2000 年里，这种变异在一些欧洲群体中已经变得不那么常见了。
+
+
+🔤 Original: Landmark ancient-genome study shows surprise acceleration of human evolution
+
+🔗 Read more: https://www.nature.com/articles/d41586-026-01204-5</description>
+      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-01204-5</guid>
+      <pubDate>2026-04-17 22:30:28</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47811283</comments>
+    </item>
+    <item>
+      <title>Fil-C 的简化模型</title>
+      <link>https://www.corsix.org/content/simplified-model-of-fil-c</link>
+      <description>📝 第一个重写是在每个函数内，每个指针类型的局部变量都会获得一个伴随的 AllocationRecord* 类型的局部变量，例如： Original SourceAfter Fil-C Transform void f() { T1* p1; T2* p2； uint64_t x;。无效 f() { T1* p1;分配记录* p1ar = NULL; T2* p2；分配记录* p2ar = NULL; uint64_t x;。将它们放在一起，我们得到： Original SourceAfter Fil-C Transform p1 = malloc(x);。
+
+
+🔤 Original: A simplified model of Fil-C
+
+🔗 Read more: https://www.corsix.org/content/simplified-model-of-fil-c</description>
+      <guid isPermaLink="true">https://www.corsix.org/content/simplified-model-of-fil-c</guid>
+      <pubDate>2026-04-17 21:38:20</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47810872</comments>
+    </item>
+    <item>
+      <title>等待 FSD 7 年之后，特斯拉告诉 HW3 车主“要有耐心”</title>
+      <link>https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</link>
+      <description>📝 特斯拉告诉他，他为“完全自动驾驶能力”付费。当他询问承诺的免费硬件升级时，特斯拉表示“欧洲境内没有任何信息。”西格特曼挂断电话后，特斯拉立即结案。
+
+
+🔤 Original: Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD
+
+🔗 Read more: https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</description>
+      <guid isPermaLink="true">https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/</guid>
+      <pubDate>2026-04-17 19:00:07</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47809347</comments>
+    </item>
+    <item>
+      <title>超大规模企业的支出已经超过了美国最著名的大型项目</title>
+      <link>https://twitter.com/finmoorhouse/status/2044933442236776794</link>
+      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
+
+
+🔤 Original: Hyperscalers have already outspent most famous US megaprojects
+
+🔗 Read more: https://twitter.com/finmoorhouse/status/2044933442236776794</description>
+      <guid isPermaLink="true">https://twitter.com/finmoorhouse/status/2044933442236776794</guid>
+      <pubDate>2026-04-17 16:23:22</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47807619</comments>
+    </item>
+    <item>
+      <title>Arc 奖基金会 (YC W26) 正在招聘 ARC-AGI-4 平台工程师</title>
+      <link>https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</link>
+      <description>📝 衡量通用智能并激发新想法的 AI 基准 高级工程师拥有并发展 ARC-AGI 系列基准背后的平台。此人将充当我们基准基础设施的技术所有者和架构师，从稳定当前系统到为未来版本奠定基础。这是一个远程全职角色。
+
+
+🔤 Original: Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4
+
+🔗 Read more: https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</guid>
+      <pubDate>2026-04-17 21:00:08</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47810507</comments>
+    </item>
+    <item>
+      <title>我花了 3 个月的时间以旧方式编码</title>
+      <link>https://miguelconner.substack.com/p/im-coding-by-hand</link>
+      <guid isPermaLink="true">https://miguelconner.substack.com/p/im-coding-by-hand</guid>
+      <pubDate>2026-04-17 16:19:53</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47807583</comments>
+    </item>
+    <item>
+      <title>随机思考：80 年代的硬件、cyberdecks</title>
+      <link>https://strangelyentangled.com/blog/musings-80s-hardware/</link>
+      <description>📝 不同品牌、不同配件、不同软件。我希望我们今天的装备具有这种独特性。但我也想要能唤起人们对过去时光的回忆的现代装备。
+
+
+🔤 Original: Random musings: 80s hardware, cyberdecks
+
+🔗 Read more: https://strangelyentangled.com/blog/musings-80s-hardware/</description>
+      <guid isPermaLink="true">https://strangelyentangled.com/blog/musings-80s-hardware/</guid>
+      <pubDate>2026-04-17 17:10:17</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47808174</comments>
+    </item>
+    <item>
+      <title>NeoGeo AES+：SNK 宣布重新发行不带仿真的复古游戏机</title>
+      <link>https://www.heise.de/en/news/NeoGeo-AES-SNK-announces-reissue-of-retro-console-without-emulation-11262319.html</link>
+      <description>📝 特别适合收藏家：该系统与原装墨盒完全兼容。每款游戏预计售价约为 80 欧元。然而，这种技术优势是有代价的。
+
+
+🔤 Original: NeoGeo AES+: SNK announces reissue of retro console without emulation
+
+🔗 Read more: https://www.heise.de/en/news/NeoGeo-AES-SNK-announces-reissue-of-retro-console-without-emulation-11262319.html</description>
+      <guid isPermaLink="true">https://www.heise.de/en/news/NeoGeo-AES-SNK-announces-reissue-of-retro-console-without-emulation-11262319.html</guid>
+      <pubDate>2026-04-17 18:05:12</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47808770</comments>
+    </item>
+    <item>
+      <title>从盒子内检测 DOSBox</title>
+      <link>https://datagirl.xyz/posts/dos_inside_the_box.html</link>
+      <description>📝 证明这一点的东西就是DOSBox。但最后一个 0x07 是 DOSBox 独有的。 2，表A-6）这实际上并不存在。
+
+
+🔤 Original: Detecting DOSBox from Within the Box
+
+🔗 Read more: https://datagirl.xyz/posts/dos_inside_the_box.html</description>
+      <guid isPermaLink="true">https://datagirl.xyz/posts/dos_inside_the_box.html</guid>
+      <pubDate>2026-04-17 16:13:26</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47807503</comments>
+    </item>
+    <item>
+      <title>Gregorio 项目 – 用于排版格里高利圣歌的 GPL 工具</title>
+      <link>https://gregorio-project.github.io/index.html</link>
+      <description>📝 Gregorio 项目 Gregorio 项目提供了用于排版格里高利圣歌的工具。 Gregorio 项目由 100% 自由软件组成。该网站包含 Gregorio 版本 4 的介绍、文档和教程。
+
+
+🔤 Original: The Gregorio project – GPL tools for typesetting Gregorian chant
+
+🔗 Read more: https://gregorio-project.github.io/index.html</description>
+      <guid isPermaLink="true">https://gregorio-project.github.io/index.html</guid>
+      <pubDate>2026-04-17 15:20:45</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806899</comments>
+    </item>
+    <item>
+      <title>用于寻找最佳策略的纸牌模拟器：当前记录为 8.590%</title>
+      <link>https://github.com/dacracot/Klondike3-Simulator</link>
+      <description>📝 --三：每次玩三张牌。 --debug：有关每个游戏的详细输出。每回合翻三张牌。
+
+
+🔤 Original: Solitaire simulator for finding the best strategy: Current record is 8.590%
+
+🔗 Read more: https://github.com/dacracot/Klondike3-Simulator</description>
+      <guid isPermaLink="true">https://github.com/dacracot/Klondike3-Simulator</guid>
+      <pubDate>2026-04-17 01:38:01</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47801639</comments>
+    </item>
+    <item>
+      <title>显示 HN：PanicLock – 合上 MacBook 盖子禁用 TouchID –&gt; 密码解锁</title>
+      <link>https://github.com/paniclock/paniclock/</link>
+      <description>📝 0 (Sonoma) 或更高版本配备 Touch ID 的 Mac 使用操作结果 左键单击图标 立即触发紧急锁定 右键单击​​图标 打开菜单（首选项、卸载、退出） 关闭时锁定 在首选项中启用后，合上 Mac 的盖子将自动禁用 Touch ID 并锁定屏幕。在您使用密码重新登录之前，Touch ID 将保持禁用状态。从源代码构建克隆此存储库打开 PanicLock。
+
+
+🔤 Original: Show HN: PanicLock – Close your MacBook lid disable TouchID –&gt; password unlock
+
+🔗 Read more: https://github.com/paniclock/paniclock/</description>
+      <guid isPermaLink="true">https://github.com/paniclock/paniclock/</guid>
+      <pubDate>2026-04-17 16:38:44</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47807809</comments>
+    </item>
+    <item>
+      <title>Kyber (YC W23) 正在招聘一名工程主管</title>
+      <link>https://www.ycombinator.com/companies/kyber/jobs/TcEa3b5-head-of-engineering</link>
+      <description>📝 立即起草、审查和发送复杂的监管通知。如果您热衷于构建、人工智能和转变企业工作流程，我们很乐意听取您的意见。借助 Kyber，在受监管行业运营的公司可以快速起草、审查和发送复杂的监管通知。
+
+
+🔤 Original: Kyber (YC W23) Is Hiring a Head of Engineering
+
+🔗 Read more: https://www.ycombinator.com/companies/kyber/jobs/TcEa3b5-head-of-engineering</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/kyber/jobs/TcEa3b5-head-of-engineering</guid>
+      <pubDate>2026-04-17 17:01:13</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47808047</comments>
+    </item>
+    <item>
+      <title>Show HN：Smol 机 – 亚秒级冷启动、便携式虚拟机</title>
+      <link>https://github.com/smol-machines/smolvm</link>
+      <description>📝 org # Works — 允许主机 smolvm 机器运行 --net --image alpine --allow-hostregistry。 smolvm pack create --image python:3。 smolvm machine create --net myvm smolvm machine start --name myvm smolvm machine exec --name myvm -- apk add sl smolvm machine exec --name myvm -it -- /bin/sh # inside: sl, ls, uname -a — 输入“exit”离开 smolvm machine stop --name myvm 使用 git 和 SSH 而不暴露密钥 — 将主机 SSH 代理转发到虚拟机中。
+
+
+🔤 Original: Show HN: Smol machines – subsecond coldstart, portable virtual machines
+
+🔗 Read more: https://github.com/smol-machines/smolvm</description>
+      <guid isPermaLink="true">https://github.com/smol-machines/smolvm</guid>
+      <pubDate>2026-04-17 17:18:58</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47808268</comments>
+    </item>
+    <item>
+      <title>美国宇航局部队</title>
+      <link>https://nasaforce.gov/</link>
+      <description>📝 您的工作需要卓越的技术、批判性思维和持续学习，每一项贡献都将直接支持 NASA 的使命。立即加入 为伟大做出贡献 推进任务 致力于飞行系统、月球基础设施和先进技术，从概念到执行，并支持地球以外的实际任务。推进任务研究飞行系统、月球基础设施和先进技术，从概念到执行，并支持地球以外的实际任务。
+
+
+🔤 Original: NASA Force
+
+🔗 Read more: https://nasaforce.gov/</description>
+      <guid isPermaLink="true">https://nasaforce.gov/</guid>
+      <pubDate>2026-04-17 15:47:41</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47807209</comments>
+    </item>
+    <item>
+      <title>所有 12 名月球漫步者都患有“月球花粉热”，因为灰尘闻起来像火药</title>
+      <link>https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon</link>
+      <description>📝 飞船内部，灰尘闻起来像燃烧的火药。宇航员月球行走后留下的月球尘埃 欧空局与来自世界各地的专家一起开展的一项雄心勃勃的研究计划目前正在解决与月球尘埃相关的问题。月尘颗粒细如粉末，但锋利如玻璃。
+
+
+🔤 Original: All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder
+
+🔗 Read more: https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon</description>
+      <guid isPermaLink="true">https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon</guid>
+      <pubDate>2026-04-17 18:17:01</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47808913</comments>
+    </item>
+    <item>
+      <title>Show HN：阶段 – 让人类重新掌控代码审查</title>
+      <link>https://stagereview.app/</link>
+      <guid isPermaLink="true">https://stagereview.app/</guid>
+      <pubDate>2026-04-16 17:36:29</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47796818</comments>
+    </item>
+    <item>
+      <title>扫描您的网站，看看它为人工智能代理做好了多少准备</title>
+      <link>https://isitagentready.com</link>
+      <description>📝 您的站点代理准备好了吗？网站 URL 扫描 自定义扫描 站点类型 所有检查 内容 站点 API/应用程序 自定义哪些检查以运行可发现性机器人。 ）以提高您网站的代理准备情况。
+
+
+🔤 Original: Scan your website to see how ready it is for AI agents
+
+🔗 Read more: https://isitagentready.com</description>
+      <guid isPermaLink="true">https://isitagentready.com</guid>
+      <pubDate>2026-04-17 13:55:25</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47805998</comments>
+    </item>
+    <item>
+      <title>泰迪·罗斯福和亚伯拉罕·林肯在同一张照片中 (2010)</title>
+      <link>https://prologue.blogs.archives.gov/2010/11/09/teddy-roosevelt-and-abraham-lincoln-in-the-same-photo/</link>
+      <description>📝 林肯的送葬队伍经过纽约罗斯福大厦（纽约公共图书馆提供）历史充满了奇怪的巧合，内战也不例外。 20 世纪 50 年代，斯特凡·洛兰特 (Stefan Lorant) 正在研究一本有关亚伯拉罕·林肯 (Abraham Lincoln) 的书，当时他看到了一张总统送葬队伍沿着纽约市百老汇大街行驶的照片。我从未见过林肯的葬礼。
+
+
+🔤 Original: Teddy Roosevelt and Abraham Lincoln in the same photo (2010)
+
+🔗 Read more: https://prologue.blogs.archives.gov/2010/11/09/teddy-roosevelt-and-abraham-lincoln-in-the-same-photo/</description>
+      <guid isPermaLink="true">https://prologue.blogs.archives.gov/2010/11/09/teddy-roosevelt-and-abraham-lincoln-in-the-same-photo/</guid>
+      <pubDate>2026-04-17 09:18:16</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47803992</comments>
+    </item>
+    <item>
+      <title>IETF 草案-meow-mrrp-00</title>
+      <link>https://www.ietf.org/archive/id/draft-meow-mrrp-00.html</link>
+      <description>📝 0 1 2 3 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ |喵喵喵 |莫乌 Mrrp | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ |喵喵喵~ | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ | Mrrrreeaowwww Mrrp :3 | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ |喵| |M|E|O|W|M|R|R|P| | |先生|呜呜|N|Y|A|A|A|A|A|A|先生 | | | |M|I|A|O|W|I|N|G| | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ |先生www |紧急喵喵 | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ | [米欧窝] | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ | : : 喵: : | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ 喵喵喵喵喵喵喵喵喵喵喵。
+
+
+🔤 Original: IETF draft-meow-mrrp-00
+
+🔗 Read more: https://www.ietf.org/archive/id/draft-meow-mrrp-00.html</description>
+      <guid isPermaLink="true">https://www.ietf.org/archive/id/draft-meow-mrrp-00.html</guid>
+      <pubDate>2026-04-17 14:32:22</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806379</comments>
+    </item>
+    <item>
+      <title>Claude Opus 4.7 每次会话费用增加 20–30%</title>
+      <link>https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you</link>
+      <description>📝 input_tokens} tokens") 现实世界的 Claude Code 内容从 Claude Code 用户实际发送的真实文件中提取的七个样本：内容类型chars4.445用户提示（典型的 Claude Code 任务）4,4051,1221,5411.35带有代码块的 Markdown2,3786048121.
+
+
+🔤 Original: Claude Opus 4.7 costs 20–30% more per session
+
+🔗 Read more: https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you</description>
+      <guid isPermaLink="true">https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you</guid>
+      <pubDate>2026-04-17 15:29:36</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47807006</comments>
+    </item>
+    <item>
+      <title>Iceeye 开放数据</title>
+      <link>https://www.iceye.com/open-data-initiative</link>
+      <description>📝 ICEYE 开放数据实验使用来自世界上最大的 SAR 卫星星座的 ICEYE 开放数据访问 SAR 图像。探索开放 SAR 数据地图浏览器 → 打开 SAR 数据 STAC 浏览器 通过时空资产目录 (STAC) 搜索和访问 ICEYE 开放数据。探索 Open SAR 数据 STAC 浏览器 → Open SAR AWS Data Exchange 通过 AWS 开放数据注册表访问 ICEYE 开放数据存档。
+
+
+🔤 Original: Iceye Open Data
+
+🔗 Read more: https://www.iceye.com/open-data-initiative</description>
+      <guid isPermaLink="true">https://www.iceye.com/open-data-initiative</guid>
+      <pubDate>2026-04-17 14:37:16</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806440</comments>
+    </item>
+    <item>
+      <title>是时候禁止销售精确地理定位了</title>
+      <link>https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation</link>
+      <description>📝 Citizen Lab 重点介绍了图森警方的一份内部季度报告，该报告描述了如何使用 Webloc 来协助调查人员。如果美国执法机构可以使用数据进行调查，那么外国情报机构也可以使用完全相同的数据来瞄准美国。但关键是移动地理定位数据是可用的，并且可以被全球组织用于情报目的。
+
+
+🔤 Original: It Is Time to Ban the Sale of Precise Geolocation
+
+🔗 Read more: https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation</description>
+      <guid isPermaLink="true">https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation</guid>
+      <pubDate>2026-04-17 14:25:46</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806304</comments>
+    </item>
+    <item>
+      <title>NIST 放弃丰富大多数 CVE</title>
+      <link>https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/</link>
+      <description>📝 NIST 表示，展望未来，其工作人员只会在一个称为充实的过程中添加重要漏洞的数据。那个时代正式结束了。 “网络安全行业预计会发生这种情况。
+
+
+🔤 Original: NIST gives up enriching most CVEs
+
+🔗 Read more: https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/</description>
+      <guid isPermaLink="true">https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/</guid>
+      <pubDate>2026-04-17 15:09:14</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806777</comments>
+    </item>
+    <item>
+      <title>Healthchecks.io 现在使用自托管对象存储</title>
+      <link>https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/</link>
+      <description>📝 否则，它将其存储在与 S3 兼容的对象存储中。我们最近从托管对象存储迁移到自托管对象存储。不幸的是，随着时间的推移，UpCloud 对象存储的性能也随之恶化。
+
+
+🔤 Original: Healthchecks.io Now Uses Self-Hosted Object Storage
+
+🔗 Read more: https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/</description>
+      <guid isPermaLink="true">https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/</guid>
+      <pubDate>2026-04-17 14:29:11</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47806348</comments>
     </item>
   </channel>
 </rss>
