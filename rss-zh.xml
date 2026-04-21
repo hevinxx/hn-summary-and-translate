@@ -6,93 +6,126 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 21 Apr 2026 16:11:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 19:12:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>原始 GrapheneOS 对《连线》事实检查器的回应</title>
-      <link>https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker</link>
-      <description>📝 GrapheneOS WIRED 发表了一篇关于 GrapheneOS 的文章，其中的项目历史几乎完全基于 James Donaldson 的捏造。唐纳森无法接受它继续作为一个开源项目。 GrapheneOS 通过完全通过捐款资助该项目取得了巨大成功。
+      <title>Vercel 漏洞：OAuth 攻击暴露了平台环境变量的风险</title>
+      <link>https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html</link>
+      <description>📝 人工智能 (AI) Vercel 漏洞：OAuth 供应链攻击暴露了平台环境变量中的隐藏风险 Vercel 的 OAuth 供应链妥协暴露了受信任的第三方应用程序和平台环境变量如何绕过传统防御并放大爆炸半径。事件时间表 从最初的 OAuth 泄露到 Vercel 公开披露，这次攻击持续了大约 22 个月。 ai 的 Google Workspace OAuth 应用程序已被泄露 - Rauch 声明。
 
 
-🔤 Original: Original GrapheneOS responses to WIRED fact checker
+🔤 Original: The Vercel breach: OAuth attack exposes risk in platform environment variables
 
-🔗 Read more: https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker</description>
-      <guid isPermaLink="true">https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker</guid>
-      <pubDate>Tue, 21 Apr 2026 15:04:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47849854</comments>
+🔗 Read more: https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html</description>
+      <guid isPermaLink="true">https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html</guid>
+      <pubDate>Tue, 21 Apr 2026 17:14:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47851634</comments>
     </item>
     <item>
-      <title>随着海洋变暖，大白鲨变得过热</title>
-      <link>https://e360.yale.edu/digest/great-white-sharks-climate</link>
-      <description>📝 随着水温上升，这些物种将被迫迁移到较冷的水域。随着海洋变暖，这些物种必须放慢速度，改变血液流动或潜入较低的温度，同时寻找不断减少的食物供应。然而，随着鱼长大，它们的身体产生热量的速度超过了散发热量的速度。
-
-
-🔤 Original: As Oceans Warm, Great White Sharks Are Overheating
-
-🔗 Read more: https://e360.yale.edu/digest/great-white-sharks-climate</description>
-      <guid isPermaLink="true">https://e360.yale.edu/digest/great-white-sharks-climate</guid>
-      <pubDate>Tue, 21 Apr 2026 14:48:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47849592</comments>
+      <title>Britannica11.org – 1911 年大英百科全书的结构化版本</title>
+      <link>https://britannica11.org/</link>
+      <guid isPermaLink="true">https://britannica11.org/</guid>
+      <pubDate>Tue, 21 Apr 2026 17:33:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47851885</comments>
     </item>
     <item>
-      <title>聚变发电厂模拟器</title>
-      <link>https://www.fusionenergybase.com/fusion-power-plant-simulator</link>
-      <description>📝 00 Hz 稳态脉冲科学增益 (Qsci)10 简单分流转换 转换为电力效率。 40% 充电转换效率20% 加热转换效率
-
-
-🔤 Original: Fusion Power Plant Simulator
-
-🔗 Read more: https://www.fusionenergybase.com/fusion-power-plant-simulator</description>
-      <guid isPermaLink="true">https://www.fusionenergybase.com/fusion-power-plant-simulator</guid>
-      <pubDate>Tue, 21 Apr 2026 14:26:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47849315</comments>
+      <title>框架笔记本电脑 13 Pro</title>
+      <link>https://frame.work/laptop13pro</link>
+      <guid isPermaLink="true">https://frame.work/laptop13pro</guid>
+      <pubDate>Tue, 21 Apr 2026 18:00:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47852177</comments>
     </item>
     <item>
-      <title>Show HN：GoModel – Go 中的开源 AI 网关；比 LiteLLM 轻 44 倍</title>
-      <link>https://github.com/ENTERPILOT/GOModel/</link>
-      <description>📝 env docker compose --profile app up -d # 或: make image 服务 URL GoModel API http://localhost:8080 管理员 (DB UI) http://localhost:8081 Prometheus http://localhost:9090 本地构建 Docker 镜像 docker build -t gomodel. docker run --rm -p 8080:8080 --env-file. env gomodel OpenAI 兼容 API 端点 端点方法 说明 /v1/chat/completions POST 聊天完成（支持流式传输） /v1/responses POST OpenAI 响应 API /v1/embeddings POST 文本嵌入 /v1/files POST 上传文件（兼容 OpenAI 的多部分） /v1/files GET 列出文件 /v1/files/{id} GET 检索文件元数据/v1/files/{id} DELETE 删除文件 /v1/files/{id}/content GET 检索原始文件内容 /v1/batches POST 创建本机提供程序批次（OpenAI 兼容架构；提供程序本机支持内联请求） /v1/batches GET 列出存储的批次 /v1/batches/{id} GET 检索一个存储的批次 /v1/batches/{id}/cancel POST 取消待处理的批次/v1/batches/{id}/results GET 检索可用的本机批处理结果 /p/{provider}/。
+      <title>Cal.diy：cal.com 的开源社区版本</title>
+      <link>https://github.com/calcom/cal.diy</link>
+      <description>📝 diy 用纱线安装包 纱线 设置你的。管理员用户 onboarding@example。将 NEXT_PUBLIC_LOGGER_LEVEL={level} 添加到您的.
 
 
-🔤 Original: Show HN: GoModel – an open-source AI gateway in Go; 44x lighter than LiteLLM
+🔤 Original: Cal.diy: open-source community edition of cal.com
 
-🔗 Read more: https://github.com/ENTERPILOT/GOModel/</description>
-      <guid isPermaLink="true">https://github.com/ENTERPILOT/GOModel/</guid>
-      <pubDate>Tue, 21 Apr 2026 14:11:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47849097</comments>
+🔗 Read more: https://github.com/calcom/cal.diy</description>
+      <guid isPermaLink="true">https://github.com/calcom/cal.diy</guid>
+      <pubDate>Tue, 21 Apr 2026 17:58:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47852155</comments>
     </item>
     <item>
-      <title>你最喜欢的品牌故意变得更糟</title>
-      <link>https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose</link>
-      <description>📝 现在想想埃迪·鲍尔。人们围绕这一承诺建立了真正的忠诚度。他们称自己为“品牌守护者”。
+      <title>奶酪周期图</title>
+      <link>https://cheesemap.netlify.app/</link>
+      <description>📝 水牛奶布里干酪或卡芒贝尔奶酪。没有人尝试过在水牛奶中添加蓟凝乳酶。默认情况下，这种奶酪本质上是四重奶油。
 
 
-🔤 Original: Your favorite brands got worse on purpose
+🔤 Original: A Periodic Map of Cheese
 
-🔗 Read more: https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose</description>
-      <guid isPermaLink="true">https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose</guid>
-      <pubDate>Tue, 21 Apr 2026 14:19:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47849221</comments>
+🔗 Read more: https://cheesemap.netlify.app/</description>
+      <guid isPermaLink="true">https://cheesemap.netlify.app/</guid>
+      <pubDate>Tue, 21 Apr 2026 16:31:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47851077</comments>
     </item>
     <item>
-      <title>Tindie 商店连续几天进行“定期维护”</title>
-      <link>https://www.tindie.com/</link>
-      <guid isPermaLink="true">https://www.tindie.com/</guid>
-      <pubDate>Tue, 21 Apr 2026 13:02:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47848195</comments>
+      <title>Trellis AI (YC W24) 正在招聘工程师来构建自我改进的代理</title>
+      <link>https://www.ycombinator.com/companies/trellis-ai/jobs/SvzJaTH-member-of-technical-staff-product-engineering-full-time</link>
+      <description>📝 我们通过自动化文件接收、事先授权和大规模上诉来实现这一目标，以简化运营并加速护理。 Trellis 帮助医疗保健提供者更快地治疗更多患者，同时消除服务前的文书工作。我们大规模自动化文件接收、事先授权和上诉，以简化运营并加速护理。
+
+
+🔤 Original: Trellis AI (YC W24) Is hiring engineers to build self-improving agents
+
+🔗 Read more: https://www.ycombinator.com/companies/trellis-ai/jobs/SvzJaTH-member-of-technical-staff-product-engineering-full-time</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/trellis-ai/jobs/SvzJaTH-member-of-technical-staff-product-engineering-full-time</guid>
+      <pubDate>Tue, 21 Apr 2026 17:01:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47851456</comments>
     </item>
     <item>
-      <title>维拉·C·鲁宾天文台发现了 11,000 颗新小行星</title>
-      <link>https://www.universetoday.com/articles/the-vera-c-rubin-observatory-has-discovered-11000-new-asteroids-and-its-barely-even-started</link>
-      <description>📝 内太阳系模型，以浅青色显示鲁宾发现的小行星。鲁宾天文台/NSF NOIRLab/SLAC/AURA/R/NASA/Goddard/ESA/Gaia/DPAC The Vera C. *内太阳系渲染图，以浅青色显示鲁宾发现的小行星。
+      <title>Kasane：带有 GPU 渲染和 WASM 插件的新嵌入式 Kakoune 前端</title>
+      <link>https://github.com/Yus314/kasane</link>
+      <description>📝 Kasane Kakoune 负责编辑。 zshrc GPU 后端：cargo install --path kasane --features gui，然后 kasane --ui gui。用法 kasane [选项] [kak-选项] [文件]。
 
 
-🔤 Original: Vera C. Rubin Observatory has Discovered 11,000 New Asteroids
+🔤 Original: Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins
 
-🔗 Read more: https://www.universetoday.com/articles/the-vera-c-rubin-observatory-has-discovered-11000-new-asteroids-and-its-barely-even-started</description>
-      <guid isPermaLink="true">https://www.universetoday.com/articles/the-vera-c-rubin-observatory-has-discovered-11000-new-asteroids-and-its-barely-even-started</guid>
-      <pubDate>Tue, 21 Apr 2026 13:24:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47848487</comments>
+🔗 Read more: https://github.com/Yus314/kasane</description>
+      <guid isPermaLink="true">https://github.com/Yus314/kasane</guid>
+      <pubDate>Tue, 21 Apr 2026 15:53:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47850542</comments>
+    </item>
+    <item>
+      <title>元捕获员工鼠标移动、击键以获取 AI 培训数据</title>
+      <link>https://economictimes.indiatimes.com/tech/technology/meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data/articleshow/130422612.cms?from=mdr</link>
+      <description>📝 该公司在内部备忘录中告诉员工，SynopsisMeta 正在美国员工的计算机上安装新的跟踪软件，以捕获鼠标移动、点击和击键，用于训练其人工智能模型，这是构建能够自主执行工作任务的人工智能代理的广泛计划的一部分。该公司在路透社看到的内部备忘录中告诉员工，该公司正在美国员工的计算机上安装新的跟踪软件，以捕获鼠标移动、点击和击键，用于训练其人工智能模型，这是构建能够自主执行工作任务的人工智能代理的广泛计划的一部分。阅读有关元人工智能员工跟踪软件人工智能培训数据击键捕获元超级智能实验室的更多新闻（捕获所有技术新闻新闻和《经济时报》上的最新新闻更新。
+
+
+🔤 Original: Meta capturing employee mouse movements, keystrokes for AI training data
+
+🔗 Read more: https://economictimes.indiatimes.com/tech/technology/meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data/articleshow/130422612.cms?from=mdr</description>
+      <guid isPermaLink="true">https://economictimes.indiatimes.com/tech/technology/meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data/articleshow/130422612.cms?from=mdr</guid>
+      <pubDate>Tue, 21 Apr 2026 17:40:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47851948</comments>
+    </item>
+    <item>
+      <title>我为 Arduino UNO（2KB RAM）构建了一个带有 shell 和文件系统的小型类 Unix“操作系统”</title>
+      <link>https://github.com/Arc1011/KernelUNO</link>
+      <description>📝 0 一个基于 RAM 的轻量级 Arduino UNO 外壳，具有文件系统模拟、硬件控制和交互式外壳。功能 虚拟文件系统 - 在 RAM（/dev、/home）中创建文件和目录 - 硬件控制 - 通过引脚模式配置进行 GPIO 管理 系统监控 - 内存使用情况、正常运行时间、内核消息 (dmesg) 22 个内置命令 - 从基本文件操作到硬件控制 交互式 Shell - 带输入缓冲的实时命令执行 LED 迪斯科模式 - 用于测试 GPIO 的有趣复活节彩蛋 硬件要求 Arduino UNO（或与 ATmega328P 兼容的板） 用于编程 LED 和电阻的 USB 电缆（可选，用于 GPIO 测试） 安装 克隆或下载此存储库 打开 KernelUNO。命令 文件系统命令 ls - 列出当前目录中的文件 cd [dir] - 更改目录 pwd - 打印工作目录 mkdir [name] - 创建目录 touch [name] - 创建文件 cat [file] - 读取文件内容 echo [text] &gt; [file] - 写入文件 rm [name] - 删除文件/目录信息 [name] - 显示文件信息 硬件命令 pinmode [pin] [in/out] - 设置引脚模式 write [pin] [high/low] - 写入引脚 read [pin] - 读取引脚值 gpio [pin] [on/off/toggle] - GPIO 控制 gpio vixa [count] - LED disco 模式（复活节彩蛋） 系统命令 uptime - 系统正常运行时间 uname - 系统信息 dmesg - 内核消息 df / free - 可用内存 whoami - 当前用户（硬编码 root）clear - 清屏重启 - 重新启动系统帮助 - 显示所有命令 用法示例 # 导航文件系统 cd home mkdir myproject cd myproject 触摸笔记。
+
+
+🔤 Original: Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)
+
+🔗 Read more: https://github.com/Arc1011/KernelUNO</description>
+      <guid isPermaLink="true">https://github.com/Arc1011/KernelUNO</guid>
+      <pubDate>Tue, 21 Apr 2026 17:14:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47851630</comments>
+    </item>
+    <item>
+      <title>Show HN：守护进程——我们从构建代理转向清理它们</title>
+      <link>https://charlielabs.ai/</link>
+      <description>📝 守护进程是在存储库中的 Markdown 文件中定义的。更多代码、更多文档和更多需要维护的问题。守护进程维护它 守护进程充当此维护角色。
+
+
+🔤 Original: Show HN: Daemons – we pivoted from building agents to cleaning up after them
+
+🔗 Read more: https://charlielabs.ai/</description>
+      <guid isPermaLink="true">https://charlielabs.ai/</guid>
+      <pubDate>Tue, 21 Apr 2026 16:16:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47850907</comments>
     </item>
   </channel>
 </rss>
