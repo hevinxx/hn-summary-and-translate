@@ -6,34 +6,15 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Apr 2026 07:52:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 10:21:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Ars Technica：我们的新闻编辑室人工智能政策</title>
-      <link>https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</link>
-      <description>📝 当我们在工作流程中使用人工智能工具时，我们会在标准和监督下使用它们，并且由人类做出每一个编辑决定。我们的新闻是由人类撰写的 Ars Technica 的社论文本是由人类撰写的。这些工具可以建议更改；只有人类才能制造它们。
-
-
-🔤 Original: Ars Technica: Our newsroom AI policy
-
-🔗 Read more: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</description>
-      <guid isPermaLink="true">https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</guid>
-      <pubDate>Thu, 23 Apr 2026 05:14:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47872452</comments>
-    </item>
-    <item>
-      <title>Arch Linux 现在拥有可逐位复制的 Docker 镜像</title>
-      <link>https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</link>
-      <description>📝 此处提供了重现此 Docker 映像的文档。从 Dockerfile 中的构建映像中删除 ldconfig 辅助缓存文件（引入非确定性）： TYPE NAME INPUT-0 INPUT-1 File var/cache/ldconfig/aux-cache 656b08db599dbbd9eb0ec663172392023285ed6598f74a55326a3d95cdd5f5d0 ffee92304701425a85c2aff3ade5668e64bf0cc381cfe0a5cd3c0f4935114195 使用 --source-date-epoch=$SOURCE_DATE_EPOCH 和 --rewrite-timestamp 选项在 docker build / podman build 期间标准化时间戳： TYPE NAME INPUT-0 INPUT-1 File etc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 etc/ld.缓存 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 etc/os-release 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件sys/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 var/cache/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件var/cache/ldconfig/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 proc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC File dev/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 您可以在我们的 archlinux-docker 存储库中查看相关更改集以获取更多详细信息。
-
-
-🔤 Original: Arch Linux Now Has a Bit-for-Bit Reproducible Docker Image
-
-🔗 Read more: https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</description>
-      <guid isPermaLink="true">https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</guid>
-      <pubDate>Thu, 23 Apr 2026 01:59:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47871519</comments>
+      <title>微积分基本定理</title>
+      <link>https://david.alvarezrosa.com/posts/fundamental-theorem-of-calculus/</link>
+      <guid isPermaLink="true">https://david.alvarezrosa.com/posts/fundamental-theorem-of-calculus/</guid>
+      <pubDate>Thu, 23 Apr 2026 01:09:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47871246</comments>
     </item>
   </channel>
 </rss>
