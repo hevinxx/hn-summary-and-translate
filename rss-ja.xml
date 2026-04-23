@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 23 Apr 2026 05:31:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 07:52:38 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>クラウドを構築しています</title>
-      <link>https://crawshaw.io/blog/building-a-cloud</link>
-      <description>📝 すべてはクラウドの抽象化の形が間違っているからです。クラウドは「PaaS」システムでこれを解決しようとしました。リモート ブロック デバイスが導入されたとき、コンピュータはハード ドライブを使用していたため、それは理にかなっていました。
+      <title>Ars Technica: ニュースルームの AI ポリシー</title>
+      <link>https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</link>
+      <description>📝 ワークフローで AI ツールを使用する場合は、標準と監視のもとで AI ツールを使用し、編集上のあらゆる決定は人間が行います。私たちのジャーナリズムは人間によって書かれています。 Ars Technica の論説文は人間によって書かれています。これらのツールは変更を推奨できます。人間だけがそれを作ることができます。
 
 
-🔤 Original: I am building a cloud
+🔤 Original: Ars Technica: Our newsroom AI policy
 
-🔗 Read more: https://crawshaw.io/blog/building-a-cloud</description>
-      <guid isPermaLink="true">https://crawshaw.io/blog/building-a-cloud</guid>
-      <pubDate>Thu, 23 Apr 2026 04:44:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47872324</comments>
+🔗 Read more: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</description>
+      <guid isPermaLink="true">https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</guid>
+      <pubDate>Thu, 23 Apr 2026 05:14:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47872452</comments>
     </item>
     <item>
-      <title>型チェックを行わない借用チェック</title>
-      <link>https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</link>
-      <description>📝 難しいのは、変更可能な値のセマンティクスも強制したいことです。静的型システムは、私の動的型付け言語では役に立ちません。 1 つの変数の値を変更しても、別の変数の値には影響しません。
+      <title>Arch Linux にビットごとに再現可能な Docker イメージが追加されました</title>
+      <link>https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</link>
+      <description>📝 この Docker イメージを再現するためのドキュメントは、ここから入手できます。 Dockerfile のビルドされたイメージから ldconfig 補助キャッシュ ファイル (非決定性を導入する) を削除します。 TYPE NAME INPUT-0 INPUT-1 File var/cache/ldconfig/aux-cache 656b08db599dbbd9eb0ec663172392023285ed6598f74a55326a3d95cdd5f5d0 ffee92304701425a85c2aff3ade5668e64bf0cc381cfe0a5cd3c0f4935114195 --source-date-epoch=$SOURCE_DATE_EPOCH および --rewrite-timestamp オプションを使用して、docker build / podman build 中にタイムスタンプを正規化します: TYPE NAME INPUT-0 INPUT-1 File etc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC ファイルなど/ld。キャッシュ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC ファイル etc/os-release 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC ファイルsys/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC ファイル var/cache/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC ファイル var/cache/ldconfig/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC ファイル proc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC File dev/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 詳細については、archlinux-docker リポジトリで関連する変更セットを確認できます。
 
 
-🔤 Original: Borrow-checking without type-checking
+🔤 Original: Arch Linux Now Has a Bit-for-Bit Reproducible Docker Image
 
-🔗 Read more: https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</description>
-      <guid isPermaLink="true">https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</guid>
-      <pubDate>Thu, 23 Apr 2026 02:55:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47871817</comments>
-    </item>
-    <item>
-      <title>非勾配ベクトル フローによるフロー マップ学習 [pdf]</title>
-      <link>https://openreview.net/pdf?id=C1bkDPqvDW</link>
-      <description>📝 V l; �(9J�O�- x7�C�d[4�n %)# �� endstream endobj 369 0 obj &lt;&lt; /Names 657 0 R /OpenAction 390 0 R /PageMode /UseOutlines /Pages 614 0 R /Type /Catalog &gt;&gt; endobj 370 0 obj &lt;&lt; /Type /ObjStm /Length 2462 /Filter /FlateDecode /N 97 /First 892 &gt;&gt; ストリーム x�͛K�#� ��� &lt;&amp; �X| � ��� rXx}� 9h4=��j� I�x�}�E�[�c�6{��b. ��d��X� 9.8�/d|� � ��� &gt;ň�T��� Mv�dJ(�̆��C1�) qΐ� E 3 mxC� b��a�s�E�a。 �0� ��� �ʺ���s�c-� f#-�/H� � �Y�f�&gt; Xf�|g�aoi p�H8= �W-� W�K �o�V�����i �n�{��� �+K�l G�E�au-ϔ� �U�w endstream endobj 371 0 obj &lt;&lt; /Filter /FlateDecode /S 467 /長さ 446 &gt;&gt; ストリーム x�c```b` �d`e`` a d� 0�� �lh� 21H00 �l��ר�P ����, ����d~`I�t � �SDMt��� V�jWx `V�j���S�׳�������A0MRt�ʢ�m�*3� z��ŶE�n��0i^ GR�I� _� C�'N���ĩ�}~�Dτ���"-��m�9E@�� '�lY�|\AjJ������&lt;� �@\� 5�/�&gt;N^��� [ ��tYB Cg�� + � 2pB �^�@+ 9.9:��H� 4�w&amp;+Kh�dF� �3�4�L N� ���0Z d PW М�i�9� @s�j�Nu����2V1K� � d� ���l@��&gt; 3�%4� �d�K^�。
-
-
-🔤 Original: Flow Map Learning via Nongradient Vector Flow [pdf]
-
-🔗 Read more: https://openreview.net/pdf?id=C1bkDPqvDW</description>
-      <guid isPermaLink="true">https://openreview.net/pdf?id=C1bkDPqvDW</guid>
-      <pubDate>Thu, 23 Apr 2026 02:52:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47871800</comments>
-    </item>
-    <item>
-      <title>神話を叫んだ少年: 検証によって人間性への信頼が崩壊</title>
-      <link>https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</link>
-      <description>📝 そこで私はシステム カードを取り出しました。このモデルは危険すぎて公開できないという主張にわずか 7 ページを費やしているだけの、244 ページの非常に非効率な文書です。これは、ビーチという言葉が省略されているハワイの 7 ページの休暇パンフレットのようなものです。 「ええ、それは私には火曜日のように聞こえます。
-
-
-🔤 Original: A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic
-
-🔗 Read more: https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</description>
-      <guid isPermaLink="true">https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</guid>
-      <pubDate>Thu, 23 Apr 2026 04:17:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47872200</comments>
+🔗 Read more: https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</description>
+      <guid isPermaLink="true">https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</guid>
+      <pubDate>Thu, 23 Apr 2026 01:59:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47871519</comments>
     </item>
   </channel>
 </rss>

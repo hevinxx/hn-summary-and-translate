@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Apr 2026 05:31:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 07:52:38 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我正在构建云</title>
-      <link>https://crawshaw.io/blog/building-a-cloud</link>
-      <description>📝 这一切都是因为云抽象的形状是错误的。云尝试通过“PaaS”系统来解决这个问题。当远程块设备被引入时，它们是有意义的，因为计算机使用硬盘驱动器。
+      <title>Ars Technica：我们的新闻编辑室人工智能政策</title>
+      <link>https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</link>
+      <description>📝 当我们在工作流程中使用人工智能工具时，我们会在标准和监督下使用它们，并且由人类做出每一个编辑决定。我们的新闻是由人类撰写的 Ars Technica 的社论文本是由人类撰写的。这些工具可以建议更改；只有人类才能制造它们。
 
 
-🔤 Original: I am building a cloud
+🔤 Original: Ars Technica: Our newsroom AI policy
 
-🔗 Read more: https://crawshaw.io/blog/building-a-cloud</description>
-      <guid isPermaLink="true">https://crawshaw.io/blog/building-a-cloud</guid>
-      <pubDate>Thu, 23 Apr 2026 04:44:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47872324</comments>
+🔗 Read more: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</description>
+      <guid isPermaLink="true">https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</guid>
+      <pubDate>Thu, 23 Apr 2026 05:14:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47872452</comments>
     </item>
     <item>
-      <title>借用检查而不进行类型检查</title>
-      <link>https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</link>
-      <description>📝 棘手的部分是我还想强制执行可变值语义。静态类型系统，对我的动态类型语言没有帮助。改变一个变量中的值永远不会影响另一变量中的值。
+      <title>Arch Linux 现在拥有可逐位复制的 Docker 镜像</title>
+      <link>https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</link>
+      <description>📝 此处提供了重现此 Docker 映像的文档。从 Dockerfile 中的构建映像中删除 ldconfig 辅助缓存文件（引入非确定性）： TYPE NAME INPUT-0 INPUT-1 File var/cache/ldconfig/aux-cache 656b08db599dbbd9eb0ec663172392023285ed6598f74a55326a3d95cdd5f5d0 ffee92304701425a85c2aff3ade5668e64bf0cc381cfe0a5cd3c0f4935114195 使用 --source-date-epoch=$SOURCE_DATE_EPOCH 和 --rewrite-timestamp 选项在 docker build / podman build 期间标准化时间戳： TYPE NAME INPUT-0 INPUT-1 File etc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 etc/ld.缓存 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 etc/os-release 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件sys/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 var/cache/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件var/cache/ldconfig/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 文件 proc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC File dev/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 您可以在我们的 archlinux-docker 存储库中查看相关更改集以获取更多详细信息。
 
 
-🔤 Original: Borrow-checking without type-checking
+🔤 Original: Arch Linux Now Has a Bit-for-Bit Reproducible Docker Image
 
-🔗 Read more: https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</description>
-      <guid isPermaLink="true">https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</guid>
-      <pubDate>Thu, 23 Apr 2026 02:55:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47871817</comments>
-    </item>
-    <item>
-      <title>通过非梯度向量流进行流图学习 [pdf]</title>
-      <link>https://openreview.net/pdf?id=C1bkDPqvDW</link>
-      <description>📝 V l; (9J�O�- x7��C�d[4�n %)# �� endstream endobj 369 0 obj &lt;&lt; /Names 657 0 R /OpenAction 390 0 R /PageMode /UseOutlines /Pages 614 0 R /Type /Catalog &gt;&gt; endobj 370 0 obj &lt;&lt; /Type /ObjStm /Length 2462 /Filter /FlateDecode /N 97 /First 892 &gt;&gt; 流 x�͛K�#� ��� &lt;&amp; �X| ��� rXx}� 9h4=��j� I�x�}�E�[Rc�6{��b. ��d��X� 9�8�/d|� � ��� &gt;�T���� Mv��dJ(�̆��C1�) qΐ�� E 3 mxC� b���a�s�E��a。 �0� ��� �ʺ���s�c-� f#-�/H� �Y�f�&gt; Xf�|g�aoi p�H8= �W-� W�K �o�V�������i �n�{��� �+K�l G�E�au-ϔ�� �U�w 端流 endobj 371 0 obj &lt;&lt; /Filter /FlateDecode /S 467 /长度 446 &gt;&gt; 流 x�c```b` �d`e`` a d� 0��� �lh� 21H00 ��l��ר�P ���, ��d~`I�t �SDMt��� V�jWx `V�j���S�׳����A0MRt��ʢ�m�*3� z��ŶE�n��0i^ GR�I� _� C�'N���ĩ�}~�Dτ���"-�m�9E@�� '�lY�|\AjJ����&lt;� �@\� 5�/�&gt;N^��� [ ��tYB Cg�� + � 2pB �^��@+ 9�9:���H��| 4�w&amp;+Kh�dF� �3�4�L N. �0Z d PW М�i�9� @s�j�Nu�����2V1K�� � d. ���l@��&gt; 3�%4� �dK^�.
-
-
-🔤 Original: Flow Map Learning via Nongradient Vector Flow [pdf]
-
-🔗 Read more: https://openreview.net/pdf?id=C1bkDPqvDW</description>
-      <guid isPermaLink="true">https://openreview.net/pdf?id=C1bkDPqvDW</guid>
-      <pubDate>Thu, 23 Apr 2026 02:52:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47871800</comments>
-    </item>
-    <item>
-      <title>一个哭泣神话的男孩：验证正在瓦解对人择的信任</title>
-      <link>https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</link>
-      <description>📝 所以我拿出了系统卡，这是一份 244 页的极其低效的文档，其中仅用了 7 页来声称该模型太危险而无法发布。这就像一本七页的夏威夷度假手册，省略了“海滩”这个词。 ” 是的，对我来说这听起来像是星期二。
-
-
-🔤 Original: A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic
-
-🔗 Read more: https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</description>
-      <guid isPermaLink="true">https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</guid>
-      <pubDate>Thu, 23 Apr 2026 04:17:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47872200</comments>
+🔗 Read more: https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</description>
+      <guid isPermaLink="true">https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</guid>
+      <pubDate>Thu, 23 Apr 2026 01:59:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47871519</comments>
     </item>
   </channel>
 </rss>

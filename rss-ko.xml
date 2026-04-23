@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Apr 2026 05:31:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 07:52:38 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>나는 구름을 만들고 있다</title>
-      <link>https://crawshaw.io/blog/building-a-cloud</link>
-      <description>📝 클라우드 추상화가 잘못된 형태이기 때문입니다. 클라우드는 'PaaS' 시스템으로 이 문제를 해결하려고 노력해 왔습니다. 원격 블록 장치가 도입되었을 때는 컴퓨터가 하드 드라이브를 사용했기 때문에 의미가 있었습니다.
+      <title>Ars Technica: 뉴스룸 AI 정책</title>
+      <link>https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</link>
+      <description>📝 작업 흐름에서 AI 도구를 사용하는 경우 표준과 감독을 통해 이를 사용하며 모든 편집 결정은 인간이 내립니다. 우리 저널리즘은 인간이 작성합니다. Ars Technica의 편집 텍스트는 인간이 작성합니다. 이러한 도구는 변경 사항을 권장할 수 있습니다. 오직 인간만이 그것을 만들 수 있습니다.
 
 
-🔤 Original: I am building a cloud
+🔤 Original: Ars Technica: Our newsroom AI policy
 
-🔗 Read more: https://crawshaw.io/blog/building-a-cloud</description>
-      <guid isPermaLink="true">https://crawshaw.io/blog/building-a-cloud</guid>
-      <pubDate>Thu, 23 Apr 2026 04:44:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47872324</comments>
+🔗 Read more: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</description>
+      <guid isPermaLink="true">https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</guid>
+      <pubDate>Thu, 23 Apr 2026 05:14:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47872452</comments>
     </item>
     <item>
-      <title>유형 검사 없이 빌려오기 검사</title>
-      <link>https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</link>
-      <description>📝 까다로운 부분은 변경 가능한 값 의미 체계도 적용하고 싶다는 것입니다. 동적 유형 언어에는 도움이 되지 않는 정적 유형 시스템입니다. 한 변수의 값을 변경해도 다른 변수의 값에는 영향을 주지 않습니다.
+      <title>Arch Linux에는 이제 비트 단위로 재현 가능한 Docker 이미지가 있습니다.</title>
+      <link>https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</link>
+      <description>📝 이 Docker 이미지를 재현하기 위한 설명서는 여기에서 확인할 수 있습니다. Dockerfile의 빌드된 이미지에서 ldconfig 보조 캐시 파일(비결정성을 도입함)을 제거합니다. TYPE NAME INPUT-0 INPUT-1 File var/cache/ldconfig/aux-cache 656b08db599dbbd9eb0ec663172392023285ed6598f74a55326a3d95cdd5f5d0 ffee92304701425a85c2aff3ade5668e64bf0cc381cfe0a5cd3c0f4935114195 --source-date-epoch=$SOURCE_DATE_EPOCH 및 --rewrite-timestamp 옵션을 사용하여 docker 빌드/podman 빌드 중 타임스탬프를 정규화합니다. TYPE NAME INPUT-0 INPUT-1 파일 etc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 파일 etc/ld. 캐시 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 파일 etc/os-release 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 파일 sys/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 파일 var/cache/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 파일 var/cache/ldconfig/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 파일 proc/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC File dev/ 2026-03-31 07:57:46 +0000 UTC 2026-03-31 07:59:21 +0000 UTC 자세한 내용은 Archlinux-docker 저장소에서 관련 변경 세트를 확인하실 수 있습니다.
 
 
-🔤 Original: Borrow-checking without type-checking
+🔤 Original: Arch Linux Now Has a Bit-for-Bit Reproducible Docker Image
 
-🔗 Read more: https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</description>
-      <guid isPermaLink="true">https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/</guid>
-      <pubDate>Thu, 23 Apr 2026 02:55:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47871817</comments>
-    </item>
-    <item>
-      <title>비경사 벡터 흐름을 통한 흐름 맵 학습 [pdf]</title>
-      <link>https://openreview.net/pdf?id=C1bkDPqvDW</link>
-      <description>📝 V l �(9J�O�- x7�C�d[4�n %)# �� endstream endobj 369 0 obj &lt;&lt; /Names 657 0 R /OpenAction 390 0 R /PageMode /UseOutlines /Pages 614 0 R /Type /Catalog &gt;&gt; endobj 370 0 obj &lt;&lt; /Type /ObjStm /Length 2462 /필터 /FlateDecode /N 97 /첫 번째 892 &gt;&gt; 스트림 x�͛K�#� ��� &lt;&amp; �X| � ��� rXx}� 9h4=��j� I�x�}�E�[수c�6{��b. ��d��X� 9�8�/d|� � ��� &gt;ň�T���� Mv��dJ(�̆�C1�) qΐ�� E 3 mxC� b� 아기�a�s�E��a. �0� ��� �ʺ���s�c-�� f#-�/H� � �Y�f�&gt; Xf�|g�aoi p�H8= �W-� W�K �o�V�������i �n�{��� �+K�l G�E�au-ϔ�� �U�w endstream endobj 371 0 obj &lt;&lt; /Filter /FlateDecode /S 467 /길이 446 &gt;&gt; 스트림 x�c```b` �d`e`` a d� 0��� �lh� 21H00 �l���ר�P ���, ���d~`I�t � �SDMt��� V.jWx `V�j���S�׳������A0MRt��ʢ�m�*3� z��ŶE�n��0i^ GR�I� _� C�'N���ĩ�}~�Dτ���"-�m�9E@�� '�lY�|\AjJ�����&lt;� �@\� 5�/�&gt;N^��� [ �tYB Cg� + � 2pB �^��@+ 9�9:���H��| 4�w&amp;+Kh�dF� �3�4�L N� ���0Z d PW М�i�9� @s�j�Nu�...2V1K�� � d� �l@��&gt; 3�%4� �d�K^�.
-
-
-🔤 Original: Flow Map Learning via Nongradient Vector Flow [pdf]
-
-🔗 Read more: https://openreview.net/pdf?id=C1bkDPqvDW</description>
-      <guid isPermaLink="true">https://openreview.net/pdf?id=C1bkDPqvDW</guid>
-      <pubDate>Thu, 23 Apr 2026 02:52:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47871800</comments>
-    </item>
-    <item>
-      <title>신화를 외치는 소년: 검증은 인류에 대한 신뢰를 무너뜨리고 있다</title>
-      <link>https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</link>
-      <description>📝 그래서 나는 해당 모델이 출시하기에 너무 위험하다는 주장에 단 7페이지만 할애하는 엄청나게 비효율적인 244페이지 문서인 시스템 카드를 뽑았습니다. 이는 해변이라는 단어를 제외한 7페이지짜리 하와이 휴가 브로셔와 같습니다. ”네, 제게는 그게 화요일인 것 같아요.
-
-
-🔤 Original: A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic
-
-🔗 Read more: https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</description>
-      <guid isPermaLink="true">https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</guid>
-      <pubDate>Thu, 23 Apr 2026 04:17:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47872200</comments>
+🔗 Read more: https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</description>
+      <guid isPermaLink="true">https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/</guid>
+      <pubDate>Thu, 23 Apr 2026 01:59:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47871519</comments>
     </item>
   </channel>
 </rss>
