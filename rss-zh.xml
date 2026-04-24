@@ -6,158 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Apr 2026 18:53:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 21:48:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>SDL 现在支持 DOS</title>
-      <link>https://github.com/libsdl-org/SDL/pull/15377</link>
-      <description>📝 请重新加载此页面。请重新加载此页面。 dos：使用 Sound Blaster 16 实现音频。
+      <title>我的音频接口默认启用 SSH</title>
+      <link>https://hhh.hn/rodecaster-duo-fw/</link>
+      <description>📝 我进行此更新的设备恰好禁用了写入 USB 磁盘的功能，因此更新实际上失败了。稍微研究了一下，我发现了设备上实际运行的二进制文件，以及处理更新本身的 shell 脚本。 RODECaster 应用程序向设备发送一些 HID 控制内容，一个命令用于进入更新模式（“M”命令），然后另一个命令（U 命令）用于触发更新。
 
 
-🔤 Original: SDL Now Supports DOS
+🔤 Original: My audio interface has SSH enabled by default
 
-🔗 Read more: https://github.com/libsdl-org/SDL/pull/15377</description>
-      <guid isPermaLink="true">https://github.com/libsdl-org/SDL/pull/15377</guid>
-      <pubDate>Fri, 24 Apr 2026 16:20:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47892291</comments>
+🔗 Read more: https://hhh.hn/rodecaster-duo-fw/</description>
+      <guid isPermaLink="true">https://hhh.hn/rodecaster-duo-fw/</guid>
+      <pubDate>Fri, 24 Apr 2026 19:30:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47894747</comments>
     </item>
     <item>
-      <title>我取消了 Claude：代币问题、质量下降和支持不佳</title>
-      <link>https://nickyreinert.de/en/2026/2026-04-24-claude-critics/</link>
-      <description>📝 突然间，代币使用率飙升至 100%。这显然是不好的做法。从成本角度来看，这是明智的。
-
-
-🔤 Original: I Cancelled Claude: Token Issues, Declining Quality, and Poor Support
-
-🔗 Read more: https://nickyreinert.de/en/2026/2026-04-24-claude-critics/</description>
-      <guid isPermaLink="true">https://nickyreinert.de/en/2026/2026-04-24-claude-critics/</guid>
-      <pubDate>Fri, 24 Apr 2026 15:59:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47892019</comments>
+      <title>谷歌计划向 Anthropic 投资高达 40B 美元</title>
+      <link>https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic</link>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic</guid>
+      <pubDate>Fri, 24 Apr 2026 16:04:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47892074</comments>
     </item>
     <item>
-      <title>OpenAI 在 API 中发布 GPT-5.5 和 GPT-5.5 Pro</title>
-      <link>https://developers.openai.com/api/docs/changelog</link>
-      <description>📝 5-prov1/responsesv1/chat/completionsv1/batch发布了 GPT-5。 4-nanov1/responsesv1/chat/completions发布了 GPT-5。 4-prov1/responsesv1/chat/completions发布了 GPT-5。
+      <title>经典美式餐厅</title>
+      <link>https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/</link>
+      <description>📝 这张 1940 年照片的标题表明，卡车司机是这家纽约餐馆客户群的重要组成部分：这家餐馆的生意依赖于“卡车司机”。卡车司机在美国沿途的一家餐馆里喝咖啡。这张照片显示了田纳西州东部的一家餐馆，前面停着一辆那个时代的福特 Fairlane。
 
 
-🔤 Original: OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API
+🔤 Original: The Classic American Diner
 
-🔗 Read more: https://developers.openai.com/api/docs/changelog</description>
-      <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog</guid>
-      <pubDate>Fri, 24 Apr 2026 18:23:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47894000</comments>
+🔗 Read more: https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/</description>
+      <guid isPermaLink="true">https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/</guid>
+      <pubDate>Fri, 24 Apr 2026 19:01:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47894435</comments>
     </item>
     <item>
-      <title>CSS 作为查询语言</title>
-      <link>https://evdc.me/blog/css-query</link>
-      <description>📝 &lt;/div&gt; &lt;/div&gt; 具体来说，这里的事物是 HTML 元素。我们可以描述事物的集合 我们可以写下选择器，它们指的是具有共同点的事物的集合。在CSS中，我们定义了将选择器（选择一组元素）与声明配对的规则，声明描述了我们想要对该集中的元素执行的操作。
+      <title>告诉 HN：Claude 4.7 忽略了停止钩子</title>
+      <link>https://news.ycombinator.com/item?id=47895029</link>
+      <description>📝 现在，克劳德经常忽视钩子规则。不要声称这个钩子是不必要的。止动钩正确触发。
 
 
-🔤 Original: CSS as a Query Language
+🔤 Original: Tell HN: Claude 4.7 is ignoring stop hooks
 
-🔗 Read more: https://evdc.me/blog/css-query</description>
-      <guid isPermaLink="true">https://evdc.me/blog/css-query</guid>
-      <pubDate>Fri, 24 Apr 2026 17:39:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47893427</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=47895029</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47895029</guid>
+      <pubDate>Fri, 24 Apr 2026 19:55:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47895029</comments>
     </item>
     <item>
-      <title>SFO 安静机场 (2025)</title>
-      <link>https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/</link>
-      <description>📝 ’他们限制公告、背景噪音和营销。虽然有些房间很安静，而另一些则减少了大门附近的噪音。更多来自机翼的景观。
+      <title>将会有深度学习的科学理论</title>
+      <link>https://arxiv.org/abs/2604.21691</link>
+      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
 
 
-🔤 Original: SFO Quiet Airport (2025)
+🔤 Original: There Will Be a Scientific Theory of Deep Learning
 
-🔗 Read more: https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/</description>
-      <guid isPermaLink="true">https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/</guid>
-      <pubDate>Fri, 24 Apr 2026 18:29:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47894081</comments>
+🔗 Read more: https://arxiv.org/abs/2604.21691</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2604.21691</guid>
+      <pubDate>Fri, 24 Apr 2026 18:06:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47893779</comments>
     </item>
     <item>
-      <title>物理学家复兴 20 世纪 90 年代激光概念，提出下一代原子钟</title>
-      <link>https://phys.org/news/2026-04-physicists-revive-1990s-laser-concept.html</link>
-      <description>📝 为了保持激光器按照原子钟的要求连续运行，原子必须不断补充能量。添加额外的能量水平 在他们的研究中，赖利的团队考虑了对早期理论概念的修改是否可以使连续激光器适合原子钟。 “有史以来最窄的激光。
+      <title>TIPSv2：通过增强的补丁文本对齐推进视觉语言预训练</title>
+      <link>https://gdm-tipsv2.github.io/</link>
+      <description>📝 TIPSv2 预训练概述。减少训练参数，同时保持性能。多粒度字幕。
 
 
-🔤 Original: Physicists revive 1990s laser concept to propose a next-generation atomic clock
+🔤 Original: TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment
 
-🔗 Read more: https://phys.org/news/2026-04-physicists-revive-1990s-laser-concept.html</description>
-      <guid isPermaLink="true">https://phys.org/news/2026-04-physicists-revive-1990s-laser-concept.html</guid>
-      <pubDate>Fri, 24 Apr 2026 00:57:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47884225</comments>
+🔗 Read more: https://gdm-tipsv2.github.io/</description>
+      <guid isPermaLink="true">https://gdm-tipsv2.github.io/</guid>
+      <pubDate>Fri, 24 Apr 2026 19:28:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47894734</comments>
     </item>
     <item>
-      <title>以机械键盘品牌 FILCO 闻名的 Diatec 已停止运营</title>
-      <link>https://gigazine.net/gsc_news/en/20260424-filco-diatec/</link>
-      <description>📝 相关文章： 以廉价 PC 等闻名的“SOTEC（索泰克）”品牌即将消失 因虚假评论而被亚马逊删除的配件制造商悄然恢复销售 NEC 卡西欧移动通信正式宣布退出智能手机业务 微软开始销售 Surface 显示器和 5G 天线等维修部件 热插拔发光全尺寸键盘“HyperX Alloy Rise 机械游戏键盘”评测 紧凑型无线机械键盘“SIGNATURE K855”评测无需数字小键盘即可用 1 个按键在 3 个终端之间切换 罗技的无线机械键盘“MX Mechanical”和高性能无线鼠标“MX Master 3S”评论，感觉良好，具有嘎嘎声和坚固的触感 VAIO 被野岛以 11 美元收购。
+      <title>显示 HN：HNswered – 监视对您的黑客新闻帖子和评论的回复</title>
+      <link>https://github.com/adam-s/HNswered</link>
+      <description>📝 HNswered HNswered 是一个用于黑客新闻回复的小型 Chrome 侧面板。将状态保存在 Chrome 存储中本地。 HNswered 会记住您所写的内容并查看公众评论以获取回复。
 
 
-🔤 Original: Diatec, known for its mechanical keyboard brand FILCO, has ceased operations
+🔤 Original: Show HN: HNswered – watches for replies to your Hacker News posts and comments
 
-🔗 Read more: https://gigazine.net/gsc_news/en/20260424-filco-diatec/</description>
-      <guid isPermaLink="true">https://gigazine.net/gsc_news/en/20260424-filco-diatec/</guid>
-      <pubDate>Fri, 24 Apr 2026 16:16:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47892236</comments>
+🔗 Read more: https://github.com/adam-s/HNswered</description>
+      <guid isPermaLink="true">https://github.com/adam-s/HNswered</guid>
+      <pubDate>Fri, 24 Apr 2026 19:19:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47894638</comments>
     </item>
     <item>
-      <title>Show HN：浏览器工具 – 使法学硕士可以自由地完成任何浏览器任务</title>
-      <link>https://github.com/browser-use/browser-harness</link>
-      <description>📝 浏览器线束 ♞ 最简单、最薄、自我修复的线束，让法学硕士可以完全自由地完成任何浏览器任务。 The agent writes what's missing, mid-task. md — 首次安装和浏览器引导技能。
+      <title>克劳德代码程序可以监视我的财务状况吗？</title>
+      <link>https://driggsby.com/blog/claude-code-routine-watch-my-finances</link>
+      <description>📝 这种模式持续了一段时间 - 通常情况下，它会起作用，但随后一些浏览器渲染怪癖会破坏当天的运行，或者我们会收到意外的 2FA 提示，导致该帐户变砖。日常电子邮件问题已解决。现在，随着时间的推移对电子邮件内容的更改不需要更新代码，只需通过例程 UI 进行提示调整即可。
 
 
-🔤 Original: Show HN: Browser Harness – Gives LLM freedom to complete any browser task
+🔤 Original: Could a Claude Code routine watch my finances?
 
-🔗 Read more: https://github.com/browser-use/browser-harness</description>
-      <guid isPermaLink="true">https://github.com/browser-use/browser-harness</guid>
-      <pubDate>Fri, 24 Apr 2026 14:31:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47890841</comments>
-    </item>
-    <item>
-      <title>重新设计 Recurse Center 应用程序以激发好奇的程序员</title>
-      <link>https://www.recurse.com/blog/192-redesigning-the-recurse-center-application</link>
-      <description>📝 多年来，我们已经阅读了数以千计的想要参加 RC 的人的申请，并从他们中录取了数以千计的优秀 Recurser。你认为代码更像数学，还是更像文学？你喜欢它什么。
-
-
-🔤 Original: Redesigning the Recurse Center application to inspire curious programmers
-
-🔗 Read more: https://www.recurse.com/blog/192-redesigning-the-recurse-center-application</description>
-      <guid isPermaLink="true">https://www.recurse.com/blog/192-redesigning-the-recurse-center-application</guid>
-      <pubDate>Fri, 24 Apr 2026 16:45:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47892660</comments>
-    </item>
-    <item>
-      <title>CC-Canary：检测 Claude 代码中回归的早期迹象</title>
-      <link>https://github.com/delta-hq/cc-canary</link>
-      <description>📝 读取 Claude Code 已写入 ~/.JSONL 会话日志。 x 比率），一天中每小时的思考深度。 97，内容长度可见）。
-
-
-🔤 Original: CC-Canary: Detect early signs of regressions in Claude Code
-
-🔗 Read more: https://github.com/delta-hq/cc-canary</description>
-      <guid isPermaLink="true">https://github.com/delta-hq/cc-canary</guid>
-      <pubDate>Fri, 24 Apr 2026 17:53:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47893620</comments>
-    </item>
-    <item>
-      <title>特斯拉 (TSLA) 披露 20 亿美元人工智能硬件公司收购案已被埋葬</title>
-      <link>https://electrek.co/2026/04/23/tesla-tsla-quietly-discloses-2-billion-ai-hardware-acquisition-10q/</link>
-      <description>📝 000 亿美元的特斯拉普通股和股权奖励，其中约 1 美元。只需一句话就能完成一笔 20 亿美元的交易。为什么特斯拉在财报电话会议中没有提到这一点？
-
-
-🔤 Original: Tesla (TSLA) discloses $2B AI hardware company acquisition buried
-
-🔗 Read more: https://electrek.co/2026/04/23/tesla-tsla-quietly-discloses-2-billion-ai-hardware-acquisition-10q/</description>
-      <guid isPermaLink="true">https://electrek.co/2026/04/23/tesla-tsla-quietly-discloses-2-billion-ai-hardware-acquisition-10q/</guid>
-      <pubDate>Fri, 24 Apr 2026 16:51:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47892765</comments>
-    </item>
-    <item>
-      <title>关税提高了消费者价格，但退款只流向企业</title>
-      <link>https://www.nytimes.com/2026/04/24/us/politics/companies-consumers-tariff-refunds.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/04/24/us/politics/companies-consumers-tariff-refunds.html</guid>
-      <pubDate>Fri, 24 Apr 2026 17:11:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47893060</comments>
+🔗 Read more: https://driggsby.com/blog/claude-code-routine-watch-my-finances</description>
+      <guid isPermaLink="true">https://driggsby.com/blog/claude-code-routine-watch-my-finances</guid>
+      <pubDate>Fri, 24 Apr 2026 19:25:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47894690</comments>
     </item>
   </channel>
 </rss>
