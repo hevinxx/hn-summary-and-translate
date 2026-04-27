@@ -6,126 +6,54 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 Apr 2026 02:45:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 05:55:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我花了 3 万美元买了 Friendster – 这就是我用它做什么</title>
-      <link>https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d</link>
-      <guid isPermaLink="true">https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d</guid>
-      <pubDate>Sun, 26 Apr 2026 20:41:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47914165</comments>
+      <title>TurboQuant：第一性原理演练</title>
+      <link>https://arkaung.github.io/interactive-turboquant/</link>
+      <description>📝 当两个箭头指向同一方向时，内积达到最大正值。当箭头指向相反方向时，它变为负值，当箭头指向完全相反时，其值为最大负值。针对收缩重建的内积比针对输入的相同内积小。
+
+
+🔤 Original: TurboQuant: A first-principles walkthrough
+
+🔗 Read more: https://arkaung.github.io/interactive-turboquant/</description>
+      <guid isPermaLink="true">https://arkaung.github.io/interactive-turboquant/</guid>
+      <pubDate>Mon, 27 Apr 2026 01:54:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47916890</comments>
     </item>
     <item>
-      <title>自动更新屏幕截图</title>
-      <link>https://interblah.net/self-updating-screenshots</link>
-      <description>📝 png ':screenshot') HTML 注释是对屏幕截图系统的指令。令人满意的一点整个管道运行如下：rails manual:build 它捕获每个屏幕截图，然后构建所有帮助页面。没有手动裁剪，没有“哦，我忘了更新那个”，没有缓慢分散的屏幕截图，让帮助中心看起来被遗弃了。
+      <title>EvanFlow – Claude Code 的 TDD 驱动反馈循环</title>
+      <link>https://github.com/evanklem/evanflow</link>
+      <description>📝 evanflow-executing-plans 具有内联验证的逐个任务。 evanflow-iterate 实施后的自我审查循环。五种故障模式清单。
 
 
-🔤 Original: Self-updating screenshots
+🔤 Original: EvanFlow – A TDD driven feedback loop for Claude Code
 
-🔗 Read more: https://interblah.net/self-updating-screenshots</description>
-      <guid isPermaLink="true">https://interblah.net/self-updating-screenshots</guid>
-      <pubDate>Sun, 26 Apr 2026 07:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47908051</comments>
+🔗 Read more: https://github.com/evanklem/evanflow</description>
+      <guid isPermaLink="true">https://github.com/evanklem/evanflow</guid>
+      <pubDate>Mon, 27 Apr 2026 01:56:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47916909</comments>
     </item>
     <item>
-      <title>Fast16：比 Stuxnet 早 5 年的高精度软件破坏</title>
-      <link>https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</link>
-      <description>📝 该二进制文件包含一个关键细节：将二进制文件链接到内核驱动程序 fast16 的 PDB 路径。沿着这条线索，我们找到了第二个二进制文件，fast16。 00（本机），Intel i386，5 个部分链接时间 2005-07-19 15:15:41 UTC (0x42dd191d) 该内核驱动程序是一个引导启动文件系统组件，它在从磁盘读取可执行代码时拦截并修改可执行代码。
+      <title>提示 API</title>
+      <link>https://developer.chrome.com/docs/ai/prompt-api</link>
+      <description>📝 使用 Prompt API Prompt API 使用 Chrome 中的 Gemini Nano 模型。 const 会话 = 等待 LanguageModel. // 仅在使用 Chrome 扩展的提示 API 时可用。
 
 
-🔤 Original: Fast16: High-precision software sabotage 5 years before Stuxnet
+🔤 Original: The Prompt API
 
-🔗 Read more: https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</description>
-      <guid isPermaLink="true">https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</guid>
-      <pubDate>Sun, 26 Apr 2026 20:18:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47913855</comments>
+🔗 Read more: https://developer.chrome.com/docs/ai/prompt-api</description>
+      <guid isPermaLink="true">https://developer.chrome.com/docs/ai/prompt-api</guid>
+      <pubDate>Mon, 27 Apr 2026 02:18:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47917026</comments>
     </item>
     <item>
-      <title>显示 HN：Unix Magic 海报，带注释（已更新）</title>
-      <link>https://github.com/drio/unixmagic</link>
-      <description>📝 Unix Magic Poster Reference Tracker [实时站点] 一个构建网站的管道，该网站映射和记录经典 Usenix Unix Magic 海报中的所有参考文献。欢迎贡献。参考文献 黑客新闻讨论。
-
-
-🔤 Original: Show HN: The Unix Magic poster, annotated (updated)
-
-🔗 Read more: https://github.com/drio/unixmagic</description>
-      <guid isPermaLink="true">https://github.com/drio/unixmagic</guid>
-      <pubDate>Mon, 27 Apr 2026 01:32:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47916769</comments>
-    </item>
-    <item>
-      <title>最快的 Linux 时间戳</title>
-      <link>https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/</link>
-      <description>📝 几乎没有人应该这样做。它从实时时钟获取开始时间，并使用单调时钟的两个时间戳来计算非负跨度持续时间，而不会受到不连续的系统时钟调整的干扰。显然这还不够。
-
-
-🔤 Original: The fastest Linux timestamps
-
-🔗 Read more: https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/</description>
-      <guid isPermaLink="true">https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/</guid>
-      <pubDate>Sun, 26 Apr 2026 13:00:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47909979</comments>
-    </item>
-    <item>
-      <title>谷歌依靠人工智能优势追赶云竞争对手亚马逊和微软</title>
-      <link>https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c</link>
-      <guid isPermaLink="true">https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c</guid>
-      <pubDate>Mon, 27 Apr 2026 00:34:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47916410</comments>
-    </item>
-    <item>
-      <title>构建多人浏览器的经验教训</title>
-      <link>https://www.alejandro.pe/writing/sail-muddy-lessons</link>
-      <description>📝 为了在 Chromium 之上进行构建，从早期的浏览器引擎中分叉出数百万美元的研发 × Chromium 是从 WebKit 中分叉出来的，而 WebKit 又是从 KHTML 中分叉出来的。我们的目标是建立一个值得您所做的工作以及与其他人一起做的工作的窗口。 Sail 和后来的 Muddy 都是这一愿景的产物。
-
-
-🔤 Original: Lessons from building multiplayer browsers
-
-🔗 Read more: https://www.alejandro.pe/writing/sail-muddy-lessons</description>
-      <guid isPermaLink="true">https://www.alejandro.pe/writing/sail-muddy-lessons</guid>
-      <pubDate>Sun, 26 Apr 2026 14:59:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47910877</comments>
-    </item>
-    <item>
-      <title>切尔诺贝利野生动物四十周年</title>
-      <link>https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on</link>
-      <description>📝 这只青蛙提出了自切尔诺贝利爆炸以来许多人都在问的一个问题：受灾发电站的辐射是否改变了生活在其附近的生物。最近，研究人员强调了一些动物在这片受伤的土地上繁衍生息的其他原因。他还指出，自事故发生以来，辐射水平发生了变化。
-
-
-🔤 Original: Chernobyl wildlife forty years on
-
-🔗 Read more: https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on</description>
-      <guid isPermaLink="true">https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on</guid>
-      <pubDate>Sun, 26 Apr 2026 19:42:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47913382</comments>
-    </item>
-    <item>
-      <title>FreeBSD 设备驱动程序书籍</title>
-      <link>https://github.com/ebrandi/FDD-book</link>
-      <description>📝 《FreeBSD 设备驱动程序从第一步到掌握内核》作者：Edson Brandi · 版本 2.0（2026 年 4 月） 关于本书 《FreeBSD 设备驱动程序：从第一步到掌握内核》是一本免费的开源书籍，它将带您从“我从未编写过内核代码”到“我可以编写、调试和提交生产质量的 FreeBSD 驱动程序”。在整本书中构建一个驱动程序。
-
-
-🔤 Original: FreeBSD Device Drivers Book
-
-🔗 Read more: https://github.com/ebrandi/FDD-book</description>
-      <guid isPermaLink="true">https://github.com/ebrandi/FDD-book</guid>
-      <pubDate>Sun, 26 Apr 2026 22:53:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47915632</comments>
-    </item>
-    <item>
-      <title>Show HN：创业股权冒险游戏</title>
-      <link>https://options-game-polymathrobotics.pythonanywhere.com/</link>
-      <description>📝 欢迎，未来创始人。第一阶段：创始股份 每家公司都是从授权股份开始的。由于创始人股票按面值发行（~0.00 美元）。
-
-
-🔤 Original: Show HN: Startup Equity Adventure Game
-
-🔗 Read more: https://options-game-polymathrobotics.pythonanywhere.com/</description>
-      <guid isPermaLink="true">https://options-game-polymathrobotics.pythonanywhere.com/</guid>
-      <pubDate>Sun, 26 Apr 2026 22:14:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47915274</comments>
+      <title>人工智能现在的成本比人类工人还要高</title>
+      <link>https://www.axios.com/2026/04/26/ai-cost-human-workers</link>
+      <guid isPermaLink="true">https://www.axios.com/2026/04/26/ai-cost-human-workers</guid>
+      <pubDate>Mon, 27 Apr 2026 05:28:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47918009</comments>
     </item>
   </channel>
 </rss>

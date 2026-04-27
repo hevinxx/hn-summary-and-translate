@@ -6,102 +6,45 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 02:45:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 05:55:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>I bought Friendster for $30k – Here's what I'm doing with it</title>
-      <link>https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d</link>
-      <guid isPermaLink="true">https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d</guid>
-      <pubDate>Sun, 26 Apr 2026 20:41:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47914165</comments>
-    </item>
-    <item>
-      <title>Self-updating screenshots</title>
-      <link>https://interblah.net/self-updating-screenshots</link>
-      <description>📝 png ':screenshot') That HTML comment is an instruction to the screenshot system. The satisfying bit The whole pipeline runs with just this: rails manual:build That captures every screenshot and then builds all the help pages. No manual cropping, no “oh I forgot to update that one”, no slowly-diverging screenshots that make the help centre look abandoned.
+      <title>TurboQuant: A first-principles walkthrough</title>
+      <link>https://arkaung.github.io/interactive-turboquant/</link>
+      <description>📝 The inner product reaches its largest positive value when the two arrows point in the same direction. It becomes negative when the arrows point in opposite directions, with its most negative value when they point exactly opposite. An inner product against a shrunken reconstruction comes out smaller than the same inner product against the input.
 
-🔗 Read more: https://interblah.net/self-updating-screenshots</description>
-      <guid isPermaLink="true">https://interblah.net/self-updating-screenshots</guid>
-      <pubDate>Sun, 26 Apr 2026 07:00:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47908051</comments>
+🔗 Read more: https://arkaung.github.io/interactive-turboquant/</description>
+      <guid isPermaLink="true">https://arkaung.github.io/interactive-turboquant/</guid>
+      <pubDate>Mon, 27 Apr 2026 01:54:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47916890</comments>
     </item>
     <item>
-      <title>Fast16: High-precision software sabotage 5 years before Stuxnet</title>
-      <link>https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</link>
-      <description>📝 The binary includes a crucial detail: a PDB path that links the binary to the kernel driver fast16. Following that clue led us to a second binary, fast16. 00 (native), Intel i386, 5 sections Link Time 2005-07-19 15:15:41 UTC (0x42dd191d) This kernel driver is a boot-start filesystem component that intercepts and modifies executable code as it’s read from disk.
+      <title>EvanFlow – A TDD driven feedback loop for Claude Code</title>
+      <link>https://github.com/evanklem/evanflow</link>
+      <description>📝 evanflow-executing-plans Task-by-task with inline verification. evanflow-iterate Self-review loop after implementation. Five Failure Modes checklist.
 
-🔗 Read more: https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</description>
-      <guid isPermaLink="true">https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</guid>
-      <pubDate>Sun, 26 Apr 2026 20:18:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47913855</comments>
+🔗 Read more: https://github.com/evanklem/evanflow</description>
+      <guid isPermaLink="true">https://github.com/evanklem/evanflow</guid>
+      <pubDate>Mon, 27 Apr 2026 01:56:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47916909</comments>
     </item>
     <item>
-      <title>Show HN: The Unix Magic poster, annotated (updated)</title>
-      <link>https://github.com/drio/unixmagic</link>
-      <description>📝 Unix Magic Poster Reference Tracker [Live site] A pipeline that builds a website that maps and documents all the references found in the classic Usenix Unix Magic poster. Contributions welcome. References Hacker news discussion.
+      <title>The Prompt API</title>
+      <link>https://developer.chrome.com/docs/ai/prompt-api</link>
+      <description>📝 Use the Prompt API The Prompt API uses the Gemini Nano model in Chrome. const session = await LanguageModel. // Only available when using the Prompt API for Chrome Extensions.
 
-🔗 Read more: https://github.com/drio/unixmagic</description>
-      <guid isPermaLink="true">https://github.com/drio/unixmagic</guid>
-      <pubDate>Mon, 27 Apr 2026 01:32:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47916769</comments>
+🔗 Read more: https://developer.chrome.com/docs/ai/prompt-api</description>
+      <guid isPermaLink="true">https://developer.chrome.com/docs/ai/prompt-api</guid>
+      <pubDate>Mon, 27 Apr 2026 02:18:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47917026</comments>
     </item>
     <item>
-      <title>The fastest Linux timestamps</title>
-      <link>https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/</link>
-      <description>📝 Almost nobody should do this. } It takes the start time from the real-time clock and uses two timestamps from the monotonic clock to calculate a nonnegative span duration without interference from discontinuous system clock adjustments. Clearly this will not suffice.
-
-🔗 Read more: https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/</description>
-      <guid isPermaLink="true">https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/</guid>
-      <pubDate>Sun, 26 Apr 2026 13:00:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47909979</comments>
-    </item>
-    <item>
-      <title>Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft</title>
-      <link>https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c</link>
-      <guid isPermaLink="true">https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c</guid>
-      <pubDate>Mon, 27 Apr 2026 00:34:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47916410</comments>
-    </item>
-    <item>
-      <title>Lessons from building multiplayer browsers</title>
-      <link>https://www.alejandro.pe/writing/sail-muddy-lessons</link>
-      <description>📝 Getting to build on top of Chromium, millions of dollars in R&amp;D forked from earlier browser engines × Chromium was forked from WebKit, which was forked from KHTML. We were aiming to build a window worthy of the work you do and the work you do with other people. Sail, and later Muddy, were the products that came out of that vision.
-
-🔗 Read more: https://www.alejandro.pe/writing/sail-muddy-lessons</description>
-      <guid isPermaLink="true">https://www.alejandro.pe/writing/sail-muddy-lessons</guid>
-      <pubDate>Sun, 26 Apr 2026 14:59:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47910877</comments>
-    </item>
-    <item>
-      <title>Chernobyl wildlife forty years on</title>
-      <link>https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on</link>
-      <description>📝 This frog raised a question that many have asked ever since the explosion at Chernobyl: had radiation from the stricken power station changed the creatures living near it. Recently, researchers have highlighted other reasons why some animals may have flourished in this injured landscape. He also notes that radiation levels have changed since the time of the accident.
-
-🔗 Read more: https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on</description>
-      <guid isPermaLink="true">https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on</guid>
-      <pubDate>Sun, 26 Apr 2026 19:42:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47913382</comments>
-    </item>
-    <item>
-      <title>FreeBSD Device Drivers Book</title>
-      <link>https://github.com/ebrandi/FDD-book</link>
-      <description>📝 FreeBSD Device Drivers From First Steps to Kernel Mastery by Edson Brandi · Version 2. 0 (April 2026) About This Book FreeBSD Device Drivers: From First Steps to Kernel Mastery is a free, open-source book that takes you from "I've never written kernel code" to "I can write, debug, and submit production-quality FreeBSD drivers. Builds one driver across the whole book.
-
-🔗 Read more: https://github.com/ebrandi/FDD-book</description>
-      <guid isPermaLink="true">https://github.com/ebrandi/FDD-book</guid>
-      <pubDate>Sun, 26 Apr 2026 22:53:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47915632</comments>
-    </item>
-    <item>
-      <title>Show HN: Startup Equity Adventure Game</title>
-      <link>https://options-game-polymathrobotics.pythonanywhere.com/</link>
-      <description>📝 Welcome, Future Founder. Stage 1: Founding Shares Every company starts by authorizing shares. Since founder shares are issued at par value (~$0.
-
-🔗 Read more: https://options-game-polymathrobotics.pythonanywhere.com/</description>
-      <guid isPermaLink="true">https://options-game-polymathrobotics.pythonanywhere.com/</guid>
-      <pubDate>Sun, 26 Apr 2026 22:14:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47915274</comments>
+      <title>AI can cost more than human workers now</title>
+      <link>https://www.axios.com/2026/04/26/ai-cost-human-workers</link>
+      <guid isPermaLink="true">https://www.axios.com/2026/04/26/ai-cost-human-workers</guid>
+      <pubDate>Mon, 27 Apr 2026 05:28:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47918009</comments>
     </item>
   </channel>
 </rss>
