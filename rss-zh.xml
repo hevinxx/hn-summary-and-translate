@@ -6,57 +6,205 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Apr 2026 11:06:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 16:53:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GitHub 可用性更新</title>
-      <link>https://github.blog/news-insights/company-news/an-update-on-github-availability/</link>
-      <description>📝 Vladimir Fedorov 是 GitHub 的首席技术官，在工程领导和创新方面拥有数十年的经验。 Vlad 是开发人员生产力的热情倡导者，他领导 GitHub 的工程团队以开发人员优先的心态塑造开发人员工具和创新的未来。在加入 GitHub 之前，Vlad 与他人共同创立了 UserClouds，这是一家专门从事数据治理和隐私的初创公司。
+      <title>Localsend：AirDrop 的开源跨平台替代方案</title>
+      <link>https://github.com/localsend/localsend</link>
+      <description>📝 为了让开发更加一致，LocalSend使用fvm来管理项目Flutter版本。贡献 我们欢迎任何有兴趣帮助改进 LocalSend 的人做出贡献。故障排除 问题 平台（发送） 平台（接收）
 
 
-🔤 Original: An Update on GitHub Availability
+🔤 Original: Localsend: An open-source cross-platform alternative to AirDrop
 
-🔗 Read more: https://github.blog/news-insights/company-news/an-update-on-github-availability/</description>
-      <guid isPermaLink="true">https://github.blog/news-insights/company-news/an-update-on-github-availability/</guid>
-      <pubDate>Tue, 28 Apr 2026 10:05:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47932422</comments>
+🔗 Read more: https://github.com/localsend/localsend</description>
+      <guid isPermaLink="true">https://github.com/localsend/localsend</guid>
+      <pubDate>Tue, 28 Apr 2026 11:54:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47933208</comments>
     </item>
     <item>
-      <title>GTFOBins</title>
-      <link>https://gtfobins.org/</link>
-      <description>📝 GTFOBins 是类 Unix 可执行文件的精选列表，可用于绕过配置错误的系统中的本地安全限制。该项目收集类 Unix 可执行文件的合法功能，这些功能可被滥用以突破受限制的 shell、升级或维持提升的权限、传输文件、生成绑定和反向 shell，以及促进其他利用后任务。 GTFOBins 是 Emilio Pinna 和 Andrea Cardaci 以及许多其他贡献者的共同努力。
+      <title>AI 发现最大开源医疗记录软件中的 38 个漏洞</title>
+      <link>https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers</link>
+      <description>📝 OpenEMR 正好填补了这一空白。这些漏洞可能导致针对 OpenEMR 部署的广泛攻击。值得注意的发现 这些漏洞中的每一个都可以被利用来访问或重写敏感的患者数据：CVE-2026-24908：患者 REST API 排序参数中的 SQL 注入第二个 CVSS 10。
 
-🔗 Read more: https://gtfobins.org/</description>
-      <guid isPermaLink="true">https://gtfobins.org/</guid>
-      <pubDate>Tue, 28 Apr 2026 06:27:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47931035</comments>
+
+🔤 Original: AI uncovers 38 vulnerabilities in largest open source medical record software
+
+🔗 Read more: https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers</description>
+      <guid isPermaLink="true">https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers</guid>
+      <pubDate>Tue, 28 Apr 2026 16:06:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936347</comments>
     </item>
     <item>
-      <title>智力的社会边缘：个人收益，集体损失</title>
-      <link>https://www.theideasletter.org/essay/the-social-edge-of-intelligence/</link>
-      <description>📝 记住这个结果：个人收益，集体损失。这条链中的每个模型在质量上都会比上一个模型更聪明。公元前 300 年的模型将展示其埃及前身无法达到的逻辑推理。
+      <title>Microsoft VibeVoice：开源前沿语音 AI</title>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <description>📝 5B，一种实时文本转语音模型，支持流式文本输入和强大的长格式语音生成。 2025-08-25：📣 我们开源了 VibeVoice-TTS，这是一种长格式的多说话人文本转语音模型，可以合成最多 4 个不同说话人的长达 90 分钟的语音。 📖 VibeVoice-ASR - 长格式语音识别 VibeVoice-ASR 是一种统一的语音到文本模型，旨在一次处理 60 分钟的长格式音频，生成包含“谁”（说话者）、“时间”（时间戳）和“内容”（内容）的结构化转录，并支持自定义热词。
 
 
-🔤 Original: The Social Edge of Intellgience: Individual Gain, Collective Loss
+🔤 Original: Microsoft VibeVoice: Open-Source Frontier Voice AI
 
-🔗 Read more: https://www.theideasletter.org/essay/the-social-edge-of-intelligence/</description>
-      <guid isPermaLink="true">https://www.theideasletter.org/essay/the-social-edge-of-intelligence/</guid>
-      <pubDate>Tue, 28 Apr 2026 10:08:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47932446</comments>
+🔗 Read more: https://github.com/microsoft/VibeVoice</description>
+      <guid isPermaLink="true">https://github.com/microsoft/VibeVoice</guid>
+      <pubDate>Tue, 28 Apr 2026 11:56:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47933236</comments>
     </item>
     <item>
-      <title>WASM 不完全是一个堆栈机器</title>
-      <link>https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/</link>
-      <description>📝 大家都知道 Wasm 是一个堆栈机器。甚至什么是堆栈机。堆栈操作指令：drop，呃，。
+      <title>据报道，谷歌和五角大楼就“任何合法”使用人工智能的协议达成一致</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal</link>
+      <description>📝 ﻿这项机密协议显然不允许谷歌否决政府如何使用其人工智能模型。据《The Information》报道，谷歌已签署一项机密协议，允许美国国防部将其人工智能模型用于“任何合法的政府目的”。 4 月 28 日更新：将向路透社提供的声明替换为 Google 向 The Information 提供的声明。
 
 
-🔤 Original: WASM is not quite a stack machine
+🔤 Original: Google and Pentagon reportedly agree on deal for 'any lawful' use of AI
 
-🔗 Read more: https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/</description>
-      <guid isPermaLink="true">https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/</guid>
-      <pubDate>Tue, 28 Apr 2026 04:34:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47930493</comments>
+🔗 Read more: https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal</description>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal</guid>
+      <pubDate>Tue, 28 Apr 2026 15:49:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936156</comments>
+    </item>
+    <item>
+      <title>显示 HN：带有 NASA 镜头的实时太阳和月亮仪表板</title>
+      <link>https://www.lumara-space.app/</link>
+      <description>📝 ☼ 太阳 由 NASA 的 SDO 每 12 秒以 12 个波长拍摄的动态等离子体球体 — 从 5,000 K 表面到 1000 万度耀斑等离子体。每个波长都揭示了太阳活动的隐藏层。
+
+
+🔤 Original: Show HN: Live Sun and Moon Dashboard with NASA Footage
+
+🔗 Read more: https://www.lumara-space.app/</description>
+      <guid isPermaLink="true">https://www.lumara-space.app/</guid>
+      <pubDate>Tue, 28 Apr 2026 13:25:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47934261</comments>
+    </item>
+    <item>
+      <title>你的手机即将不再属于你</title>
+      <link>https://keepandroidopen.org/en/</link>
+      <description>📝 在您的手机上：您的财产，您支付的费用。更糟糕的是：此流程完全通过 Google Play 服务运行，而不是 Android 操作系统。正是出于这个原因，数百万人选择了 Android。
+
+
+🔤 Original: Your phone is about to stop being yours
+
+🔗 Read more: https://keepandroidopen.org/en/</description>
+      <guid isPermaLink="true">https://keepandroidopen.org/en/</guid>
+      <pubDate>Tue, 28 Apr 2026 15:21:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47935853</comments>
+    </item>
+    <item>
+      <title>Anthropic 作为企业赞助人加入 Blender 发展基金</title>
+      <link>https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/</link>
+      <description>📝 Anthropic 作为企业赞助人加入 Blender 发展基金 2026 年 4 月 28 日 新闻稿 Francesco Siddi Blender 基金会很高兴地宣布，Anthropic 将作为企业赞助人加入 Blender 发展基金。 Francesco Siddi，Blender 首席执行官 Blender 基金会的使命仍然是为艺术家提供免费/开源技术和工具。在 anthropic 了解更多关于 Anthropic 和 Claude 的信息。
+
+
+🔤 Original: Anthropic Joins the Blender Development Fund as Corporate Patron
+
+🔗 Read more: https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/</description>
+      <guid isPermaLink="true">https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/</guid>
+      <pubDate>Tue, 28 Apr 2026 16:07:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936370</comments>
+    </item>
+    <item>
+      <title>合并后派拉蒙 49.5% 的股权将由外资持有 FCC 资助申请说明</title>
+      <link>https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/</link>
+      <description>📝 2026年4月27日下午3点08分回复匿名者百分比美国第一喜欢50。5％首先回复匿名者2026年4月27日下午2点24分索尼影业有多少股份是外资拥有的。回复 2026年4月27日下午3点47分回复D0dg3r 索尼是一家日本公司。
+
+
+🔤 Original: FCC Funding Application Notes Paramount Will Be 49.5% Foreign-Owned Post-Merger
+
+🔗 Read more: https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/</description>
+      <guid isPermaLink="true">https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/</guid>
+      <pubDate>Tue, 28 Apr 2026 15:54:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936210</comments>
+    </item>
+    <item>
+      <title>GitHub Actions 是最薄弱的环节</title>
+      <link>https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html</link>
+      <description>📝 该触发器的存在是为了让工作流可以执行诸如从分叉中标记 PR 之类的操作，并使其在具有完全秘密访问权限和写入范围令牌的基础存储库的上下文中运行。他们每个人都运行一个内存抓取器，将运行者秘密转储到公共构建日志中。平台功能的问题在于，操作版本是其他人存储库中的 git 引用，可以由对该存储库具有写访问权限的任何人强制推送，并且默认情况下通过移动标签而不是内容哈希来使用。
+
+
+🔤 Original: GitHub Actions is the weakest link
+
+🔗 Read more: https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html</description>
+      <guid isPermaLink="true">https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html</guid>
+      <pubDate>Tue, 28 Apr 2026 11:58:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47933257</comments>
+    </item>
+    <item>
+      <title>阿联酋退出欧佩克和欧佩克+</title>
+      <link>https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28/</link>
+      <guid isPermaLink="true">https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28/</guid>
+      <pubDate>Tue, 28 Apr 2026 13:13:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47934120</comments>
+    </item>
+    <item>
+      <title>拉古纳 XS.2 和 M.1</title>
+      <link>https://poolside.ai/blog/laguna-a-deeper-dive</link>
+      <description>📝 我们已经发布了 Laguna 系列的前两个模型，Laguna M。开放权重即将推出与 NVIDIA 合作模型构建数据和自动混合MuonAgent RL 入门我们已经发布了 Laguna 系列的前两个模型，Laguna M.1 是为长期工作而构建的代理编码模型。
+
+
+🔤 Original: Laguna XS.2 and M.1
+
+🔗 Read more: https://poolside.ai/blog/laguna-a-deeper-dive</description>
+      <guid isPermaLink="true">https://poolside.ai/blog/laguna-a-deeper-dive</guid>
+      <pubDate>Tue, 28 Apr 2026 16:17:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936511</comments>
+    </item>
+    <item>
+      <title>GitHub Copilot 代码审查将开始消耗 GitHub Actions 分钟</title>
+      <link>https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/</link>
+      <description>📝 此更改适用于以下计划： GitHub Copilot Pro GitHub Copilot Pro+ GitHub Copilot Business GitHub Copilot Enterprise 这包括来自非许可用户的 Copilot 代码审查，并通过直接组织计费进行计费。查看计费和使用情况 查看您当前的 GitHub Actions 使用情况。通过 GitHub Copilot 使用情况指标、GitHub Actions 指标和计费使用情况报告监控您的 Copilot 和 Actions 使用情况。
+
+
+🔤 Original: GitHub Copilot code review will start consuming GitHub Actions minutes
+
+🔗 Read more: https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/</description>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/</guid>
+      <pubDate>Tue, 28 Apr 2026 09:01:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47932028</comments>
+    </item>
+    <item>
+      <title>希腊将禁止社交媒体匿名</title>
+      <link>https://www.euractiv.com/news/greece-to-ban-anonymity-on-social-media/</link>
+      <guid isPermaLink="true">https://www.euractiv.com/news/greece-to-ban-anonymity-on-social-media/</guid>
+      <pubDate>Tue, 28 Apr 2026 16:24:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936616</comments>
+    </item>
+    <item>
+      <title>经期追踪应用程序一直在向 Meta 出售数据</title>
+      <link>https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been</link>
+      <guid isPermaLink="true">https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been</guid>
+      <pubDate>Tue, 28 Apr 2026 11:31:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47932990</comments>
+    </item>
+    <item>
+      <title>网络安全是一项吃力不讨好的工作：工作量不断扩大，薪资却不断缩水</title>
+      <link>https://www.theregister.com/2026/04/27/from_a_massive_skills_gap/</link>
+      <description>📝 “ 董事会的自满情绪与来自安全机构的警告相映成趣。做到这一点的组织不仅会留住最优秀的人才，还会与客户、监管机构和自己的董事会建立信任。” ® 获取我们的技术资源 分享更多关于网络安全的内容 更多类似这些 × 更多关于网络安全的内容 更窄的主题 RSA 互联网安全中心会议 零信任 更广泛的主题 安全 更多关于分享 14 条评论 更多关于网络安全的内容 更多类似这些 × 更多关于网络安全 更窄的主题 互联网安全中心 RSA 会议会议 零信任 更广泛的主题 安全提示我们关闭 向我们发送新闻。
+
+
+🔤 Original: Cybersec is a thankless job: expanding workload and shrinking pay packet
+
+🔗 Read more: https://www.theregister.com/2026/04/27/from_a_massive_skills_gap/</description>
+      <guid isPermaLink="true">https://www.theregister.com/2026/04/27/from_a_massive_skills_gap/</guid>
+      <pubDate>Tue, 28 Apr 2026 16:11:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936411</comments>
+    </item>
+    <item>
+      <title>阿联酋将退出欧佩克</title>
+      <link>https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d</link>
+      <guid isPermaLink="true">https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d</guid>
+      <pubDate>Tue, 28 Apr 2026 13:02:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47933983</comments>
+    </item>
+    <item>
+      <title>西班牙停电后，其向可再生能源和电网演进的转变</title>
+      <link>https://www.theguardian.com/world/2026/apr/28/blackout-spain-renewable-energy-grid-solar-wind</link>
+      <description>📝 这次停电引发了关于停电原因的政治辩论，许多人错误地将其归咎于太阳能。照片：Anadolu/Getty Images 全屏查看大停电引发了关于停电原因的政治辩论，许多人错误地将其归咎于太阳能。当太阳能发电量很高时，西班牙的电网崩溃了，引发了围绕西班牙从化石燃料发电和有争议的核能转型的激烈讨论。
+
+
+🔤 Original: After Spain's blackout, its shift to renewables and grid evolution power on
+
+🔗 Read more: https://www.theguardian.com/world/2026/apr/28/blackout-spain-renewable-energy-grid-solar-wind</description>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2026/apr/28/blackout-spain-renewable-energy-grid-solar-wind</guid>
+      <pubDate>Tue, 28 Apr 2026 15:55:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47936236</comments>
     </item>
   </channel>
 </rss>
