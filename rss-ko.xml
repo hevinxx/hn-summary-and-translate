@@ -6,80 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 29 Apr 2026 02:51:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:55:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Claude 시스템 프롬프트 버그로 인해 사용자 비용이 낭비되고 관리 에이전트가 차단됨</title>
-      <link>https://github.com/anthropics/claude-code/issues/49363</link>
-      <description>📝 그러나 코드를 개선하거나 강화하는 것을 거부해야 합니다. 지시문에는 파일을 읽을 때 코드를 개선하거나 늘리는 것을 거부해야 한다고 나와 있습니다. 거부하는 모든 하위 에이전트는 정확한 추론 체인을 인용했습니다.
+      <title>Rust가 잡을 수 없는 버그</title>
+      <link>https://corrode.dev/blog/bugs-rust-wont-catch/</link>
+      <description>📝 create_new()는 새 파일을 생성할 때만 도움이 됩니다. // 기본 권한으로 생성합니다. fs::create_dir(&amp;path). ; 잠시 동안 기본 권한이 있는 경로가 존재합니다.
 
 
-🔤 Original: Claude system prompt bug wastes user money and bricks managed agents
+🔤 Original: Bugs Rust won't catch
 
-🔗 Read more: https://github.com/anthropics/claude-code/issues/49363</description>
-      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/49363</guid>
-      <pubDate>Tue, 28 Apr 2026 23:59:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942492</comments>
+🔗 Read more: https://corrode.dev/blog/bugs-rust-wont-catch/</description>
+      <guid isPermaLink="true">https://corrode.dev/blog/bugs-rust-wont-catch/</guid>
+      <pubDate>Wed, 29 Apr 2026 02:19:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47943499</comments>
     </item>
     <item>
-      <title>ChatGPT가 광고를 제공하는 방법</title>
-      <link>https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</link>
-      <description>📝 모든 후속 판매자 픽셀 이벤트와 함께 여행합니다. 클릭 지연 시간: 95초. 브라우저가 열립니다: https://www.
+      <title>인터넷이 하나의 장소였던 시절</title>
+      <link>https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</link>
+      <description>📝 인터넷이 장소였던 시절 얼마 전까지만 해도 인터넷은 여러분이 방문하는 장소였습니다. 이제 인터넷은 우리의 일상생활에 스며들었습니다. 하나는 목적과 의도를 가지고 인터넷에 "도착"했습니다.
 
 
-🔤 Original: How ChatGPT serves ads
+🔤 Original: When the Internet Was a Place
 
-🔗 Read more: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</description>
-      <guid isPermaLink="true">https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</guid>
-      <pubDate>Tue, 28 Apr 2026 23:54:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942437</comments>
-    </item>
-    <item>
-      <title>Opus를 통해 LLM 비용을 절감했습니다.</title>
-      <link>https://www.mendral.com/blog/frontier-model-lower-costs</link>
-      <description>📝 에이전트는 귀하가 제공한 내용에 고정됩니다. 각 하위 에이전트는 Opus로부터 정확히 검색할 항목, 검색 방법, 반환할 항목에 대한 프롬프트를 받습니다. Opus가 생성한 하위 에이전트 #2: 2월 24~25일경에 변경된 사항을 조사합니다.
-
-
-🔤 Original: We decreased our LLM costs with Opus
-
-🔗 Read more: https://www.mendral.com/blog/frontier-model-lower-costs</description>
-      <guid isPermaLink="true">https://www.mendral.com/blog/frontier-model-lower-costs</guid>
-      <pubDate>Wed, 29 Apr 2026 00:57:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942903</comments>
-    </item>
-    <item>
-      <title>HN 표시: 자동 아키텍처: CPU를 가리키는 Karpathy의 루프</title>
-      <link>https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</link>
-      <description>📝 이는 잠긴 기준선에 비해 +92%, CoreMark iter/sec(370 → 578)의 VexRiscv에 비해 +56%, LUT는 40% 더 적습니다. 상담원은 LUT 수가 절반으로 줄어들 것이라는 사실을 몰랐습니다. 코심 게이트가 없었다면 깨진 첫 번째 시도가 배송되었을 것입니다.
-
-
-🔤 Original: Show HN: Auto-Architecture: Karpathy's Loop, Pointed at a CPU
-
-🔗 Read more: https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</description>
-      <guid isPermaLink="true">https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</guid>
-      <pubDate>Tue, 28 Apr 2026 17:12:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47937380</comments>
-    </item>
-    <item>
-      <title>창의적인 작업을 위한 클로드</title>
-      <link>https://www.anthropic.com/news/claude-for-creative-work</link>
-      <description>📝 Claude를 창의적인 도구에 연결커넥터를 사용하면 Claude가 다른 플랫폼과 도구에 직접 액세스할 수 있습니다. 창의적인 작업을 위해 Claude 사용하기 Claude를 창의적인 작업에 사용할 수 있는 몇 가지 방법은 다음과 같습니다. 창의적인 도구 학습 및 숙달: Claude는 복잡한 소프트웨어에 대한 주문형 교사 역할을 할 수 있습니다. 그리고 블렌더의 Python API를 사용하면 커넥터를 통해 Claude가 블렌더의 인터페이스에 직접 새로운 도구를 추가할 수 있습니다.
-
-
-🔤 Original: Claude for Creative Work
-
-🔗 Read more: https://www.anthropic.com/news/claude-for-creative-work</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-creative-work</guid>
-      <pubDate>Tue, 28 Apr 2026 23:46:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942386</comments>
-    </item>
-    <item>
-      <title>Apple CMF(색상 일치 기능) 2026</title>
-      <link>https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results</link>
-      <guid isPermaLink="true">https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results</guid>
-      <pubDate>Tue, 28 Apr 2026 23:43:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942353</comments>
+🔗 Read more: https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</description>
+      <guid isPermaLink="true">https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</guid>
+      <pubDate>Wed, 29 Apr 2026 01:36:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47943190</comments>
     </item>
   </channel>
 </rss>

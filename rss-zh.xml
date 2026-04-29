@@ -6,80 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Apr 2026 02:51:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:55:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>克劳德系统提示错误浪费用户金钱并砖块管理的代理</title>
-      <link>https://github.com/anthropics/claude-code/issues/49363</link>
-      <description>📝 但您必须拒绝改进或扩充代码。该指令规定我在读取文件时必须拒绝改进或扩充代码。每个拒绝的子代理都引用了确切的推理链。
+      <title>Rust 不会捕获虫子</title>
+      <link>https://corrode.dev/blog/bugs-rust-wont-catch/</link>
+      <description>📝 create_new() 仅在创建新文件时有所帮助。 // 使用默认权限创建 fs::create_dir(&amp;path). ;暂时，路径以默认权限存在。
 
 
-🔤 Original: Claude system prompt bug wastes user money and bricks managed agents
+🔤 Original: Bugs Rust won't catch
 
-🔗 Read more: https://github.com/anthropics/claude-code/issues/49363</description>
-      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/49363</guid>
-      <pubDate>Tue, 28 Apr 2026 23:59:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942492</comments>
+🔗 Read more: https://corrode.dev/blog/bugs-rust-wont-catch/</description>
+      <guid isPermaLink="true">https://corrode.dev/blog/bugs-rust-wont-catch/</guid>
+      <pubDate>Wed, 29 Apr 2026 02:19:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47943499</comments>
     </item>
     <item>
-      <title>ChatGPT 如何投放广告</title>
-      <link>https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</link>
-      <description>📝 随后续的每个商家像素事件一起传播。点击延迟：95 秒。浏览器打开：https://www.
+      <title>当互联网还是一个地方时</title>
+      <link>https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</link>
+      <description>📝 当互联网还是一个地方不久前，互联网还是一个你访问过的地方。现在互联网已经渗透到我们的日常生活中。一个人带着目的和意图“来到”互联网。
 
 
-🔤 Original: How ChatGPT serves ads
+🔤 Original: When the Internet Was a Place
 
-🔗 Read more: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</description>
-      <guid isPermaLink="true">https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</guid>
-      <pubDate>Tue, 28 Apr 2026 23:54:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942437</comments>
-    </item>
-    <item>
-      <title>我们通过 Opus 降低了法学硕士成本</title>
-      <link>https://www.mendral.com/blog/frontier-model-lower-costs</link>
-      <description>📝 代理会锚定您所提供的内容。每个子代理都会收到来自 Opus 的提示：确切地搜索什么、如何搜索、返回什么。 Opus 催生了子代理 #2：调查 2 月 24 日至 25 日左右发生的变化。
-
-
-🔤 Original: We decreased our LLM costs with Opus
-
-🔗 Read more: https://www.mendral.com/blog/frontier-model-lower-costs</description>
-      <guid isPermaLink="true">https://www.mendral.com/blog/frontier-model-lower-costs</guid>
-      <pubDate>Wed, 29 Apr 2026 00:57:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942903</comments>
-    </item>
-    <item>
-      <title>Show HN：自动架构：Karpathy 循环，指向 CPU</title>
-      <link>https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</link>
-      <description>📝 在 CoreMark iter/sec (370 → 578) 上，这比锁定基线高出 +92%，比 VexRiscv 高出 56%，同时 LUT 减少了 40%。代理不知道这也会使 LUT 计数减半。如果没有 cosim 门，失败的第一次尝试就会成功。
-
-
-🔤 Original: Show HN: Auto-Architecture: Karpathy's Loop, Pointed at a CPU
-
-🔗 Read more: https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</description>
-      <guid isPermaLink="true">https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</guid>
-      <pubDate>Tue, 28 Apr 2026 17:12:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47937380</comments>
-    </item>
-    <item>
-      <title>克劳德创意工作</title>
-      <link>https://www.anthropic.com/news/claude-for-creative-work</link>
-      <description>📝 将 Claude 连接到创意工具 连接器允许 Claude 直接访问其他平台和工具。使用克劳德进行创造性工作以下是克劳德用于创造性任务的一些方法：学习和掌握创造性工具：克劳德可以充当复杂软件的按需导师。通过使用 Blender 的 Python API，该连接器可以让 Claude 直接向 Blender 界面添加新工具。
-
-
-🔤 Original: Claude for Creative Work
-
-🔗 Read more: https://www.anthropic.com/news/claude-for-creative-work</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-creative-work</guid>
-      <pubDate>Tue, 28 Apr 2026 23:46:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942386</comments>
-    </item>
-    <item>
-      <title>Apple CMF（配色功能）2026</title>
-      <link>https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results</link>
-      <guid isPermaLink="true">https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results</guid>
-      <pubDate>Tue, 28 Apr 2026 23:43:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942353</comments>
+🔗 Read more: https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</description>
+      <guid isPermaLink="true">https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</guid>
+      <pubDate>Wed, 29 Apr 2026 01:36:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47943190</comments>
     </item>
   </channel>
 </rss>

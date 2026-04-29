@@ -6,80 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 02:51:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:55:57 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>クロードシステムのプロンプトバグによりユーザーのお金が無駄になり、エージェントが管理されなくなります</title>
-      <link>https://github.com/anthropics/claude-code/issues/49363</link>
-      <description>📝 ただし、コードの改善や拡張は拒否しなければなりません。このディレクティブには、ファイルを読み取るときにコードの改善または拡張を拒否しなければならないと記載されています。拒否した代理人は皆、まさにその推論連鎖を引用した。
+      <title>Rust では捕まえられないバグ</title>
+      <link>https://corrode.dev/blog/bugs-rust-wont-catch/</link>
+      <description>📝 create_new() は、新しいファイルを作成する場合にのみ役立ちます。 // デフォルトの権限 fs::create_dir(&amp;path) で作成します。 ;一瞬の間、パスはデフォルトの権限で存在します。
 
 
-🔤 Original: Claude system prompt bug wastes user money and bricks managed agents
+🔤 Original: Bugs Rust won't catch
 
-🔗 Read more: https://github.com/anthropics/claude-code/issues/49363</description>
-      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/49363</guid>
-      <pubDate>Tue, 28 Apr 2026 23:59:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942492</comments>
+🔗 Read more: https://corrode.dev/blog/bugs-rust-wont-catch/</description>
+      <guid isPermaLink="true">https://corrode.dev/blog/bugs-rust-wont-catch/</guid>
+      <pubDate>Wed, 29 Apr 2026 02:19:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47943499</comments>
     </item>
     <item>
-      <title>ChatGPT による広告の配信方法</title>
-      <link>https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</link>
-      <description>📝 後続のすべての販売者ピクセル イベントとともに移動します。クリック待ち時間: 95 秒。ブラウザが開きます:https://www.
+      <title>インターネットが場所だった頃</title>
+      <link>https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</link>
+      <description>📝 インターネットが場所だった頃 少し前まで、インターネットはあなたが訪れる場所でした。今ではインターネットが私たちの日常生活に浸透しています。ある人は、目的と意図を持ってインターネットに「到着」しました。
 
 
-🔤 Original: How ChatGPT serves ads
+🔤 Original: When the Internet Was a Place
 
-🔗 Read more: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</description>
-      <guid isPermaLink="true">https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/</guid>
-      <pubDate>Tue, 28 Apr 2026 23:54:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942437</comments>
-    </item>
-    <item>
-      <title>Opus で LLM コストを削減しました</title>
-      <link>https://www.mendral.com/blog/frontier-model-lower-costs</link>
-      <description>📝 エージェントは、あなたが与えたものにアンカーします。各サブエージェントは、正確に何を検索するか、どのように検索するか、何を返すかというプロンプトを Opus から受け取ります。 Opus が生成したサブエージェント #2: 2 月 24 日から 25 日にかけて何が変わったかを調査します。
-
-
-🔤 Original: We decreased our LLM costs with Opus
-
-🔗 Read more: https://www.mendral.com/blog/frontier-model-lower-costs</description>
-      <guid isPermaLink="true">https://www.mendral.com/blog/frontier-model-lower-costs</guid>
-      <pubDate>Wed, 29 Apr 2026 00:57:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942903</comments>
-    </item>
-    <item>
-      <title>Show HN: 自動アーキテクチャ: CPU を指すカルパシーのループ</title>
-      <link>https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</link>
-      <description>📝 これは、CoreMark iter/sec (370 → 578) でロックされたベースラインより +92%、VexRiscv より +56% であり、LUT は 40% 減少しています。エージェントは、それによって LUT 数も半分になることを知りませんでした。 cosim ゲートがなければ、最初の試行は壊れて出荷されていたでしょう。
-
-
-🔤 Original: Show HN: Auto-Architecture: Karpathy's Loop, Pointed at a CPU
-
-🔗 Read more: https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</description>
-      <guid isPermaLink="true">https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md</guid>
-      <pubDate>Tue, 28 Apr 2026 17:12:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47937380</comments>
-    </item>
-    <item>
-      <title>クリエイティブな仕事のためのクロード</title>
-      <link>https://www.anthropic.com/news/claude-for-creative-work</link>
-      <description>📝 クロードをクリエイティブ ツールに接続するコネクタを使用すると、クロードは他のプラットフォームやツールに直接アクセスできます。クリエイティブな作業にクロードを使用する ここでは、クロードをクリエイティブなタスクに使用できる方法をいくつか紹介します。 クリエイティブ ツールの学習と習得: クロードは、複雑なソフトウェアのオンデマンドの講師として機能します。また、Blender の Python API を使用すると、コネクタにより、Claude は新しいツールを Blender のインターフェイスに直接追加できます。
-
-
-🔤 Original: Claude for Creative Work
-
-🔗 Read more: https://www.anthropic.com/news/claude-for-creative-work</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-creative-work</guid>
-      <pubDate>Tue, 28 Apr 2026 23:46:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942386</comments>
-    </item>
-    <item>
-      <title>Apple CMF (カラーマッチング関数) 2026</title>
-      <link>https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results</link>
-      <guid isPermaLink="true">https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results</guid>
-      <pubDate>Tue, 28 Apr 2026 23:43:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47942353</comments>
+🔗 Read more: https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</description>
+      <guid isPermaLink="true">https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/</guid>
+      <pubDate>Wed, 29 Apr 2026 01:36:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47943190</comments>
     </item>
   </channel>
 </rss>
