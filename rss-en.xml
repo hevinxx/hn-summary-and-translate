@@ -6,162 +6,45 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 19:28:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 21:59:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>HERMES.md: Anthropic bug causes $200 extra charge, refuses refund</title>
-      <link>https://github.com/anthropics/claude-code/issues/53262</link>
-      <description>📝 &amp;&amp; git commit -m "add HERMES. md" Fails — routes to extra usage "test HERMES. md" Works File named HERMES.
+      <title>OpenTrafficMap</title>
+      <link>https://opentrafficmap.org/</link>
+      <description>📝 Eine Ampel anklicken, um die Signalgruppen zu sehen. Ampel-SVG Lane Signal Group Früheste Zeit Späteste Zeit Schließen Auf eine Lane oder Verbindung klicken, um Debug-Daten zu sehen. org Schließen Datenschutzerklärung Schließen Geräte-JSON JSON kopieren Pfad kopieren json Schließen × Neue Client-Version verfügbar Der Server erwartet eine neuere Frontend-Version.
 
-🔗 Read more: https://github.com/anthropics/claude-code/issues/53262</description>
-      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/53262</guid>
-      <pubDate>Wed, 29 Apr 2026 18:54:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47952722</comments>
+🔗 Read more: https://opentrafficmap.org/</description>
+      <guid isPermaLink="true">https://opentrafficmap.org/</guid>
+      <pubDate>Wed, 29 Apr 2026 19:49:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47953541</comments>
     </item>
     <item>
-      <title>Copy Fail – CVE-2026-31431</title>
-      <link>https://copy.fail/</link>
-      <description>📝 The same exploit binary works unmodified on every Linux distribution. You're already the only user. com/theori-io/copy-fail-CVE-2026-31431 Patch first.
+      <title>Gooseworks (YC W23) Is Hiring a Founding Growth Engineer</title>
+      <link>https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer</link>
+      <description>📝 Now we’re scaling what works. You're the loop that turns one-off agency work into self-serve product. Goose is an OpenClaw-style AI coworker that can do real GTM work.
 
-🔗 Read more: https://copy.fail/</description>
-      <guid isPermaLink="true">https://copy.fail/</guid>
-      <pubDate>Wed, 29 Apr 2026 18:13:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47952181</comments>
+🔗 Read more: https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer</guid>
+      <pubDate>Wed, 29 Apr 2026 21:50:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47955226</comments>
     </item>
     <item>
-      <title>FastCGI: 30 years old and still the better protocol for reverse proxies</title>
-      <link>https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</link>
-      <description>📝 But we don't have to use HTTP here. ResponseWriter and http. Popular proxies like Apache, Caddy, nginx, and HAProxy support FastCGI backends, and the configuration is simple: nginx HTTP proxy_pass http://localhost:8080; nginx FastCGI fastcgi_pass localhost:8080; include fastcgi_params; Show more config examples Apache HTTP ProxyPass / http://localhost:8080/ Apache FastCGI ProxyPass / fcgi://localhost:8080/ Caddy HTTP reverse_proxy localhost:8080 { transport http { } } Caddy FastCGI reverse_proxy localhost:8080 { transport fastcgi { } } HAProxy HTTP backend app_backend server s1 localhost:8080 HAProxy FastCGI fcgi-app fcgi_app docroot / backend app_backend use-fcgi-app fcgi_app server s1 localhost:8080 proto fcgi Why HTTP Sucks for Reverse Proxies: Desync Attacks / Request Smuggling HTTP/1.
+      <title>Kyoto cherry blossoms now bloom earlier than at any point in 1,200 years</title>
+      <link>https://jivx.com/kyoto-bloom</link>
+      <guid isPermaLink="true">https://jivx.com/kyoto-bloom</guid>
+      <pubDate>Wed, 29 Apr 2026 19:32:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47953275</comments>
+    </item>
+    <item>
+      <title>Alphabet Announces First Quarter 2026 Results</title>
+      <link>https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-First-Quarter-2026-Results-2026-X-ge4Dm6bf/default.aspx</link>
+      <description>📝 Alphabet Investor Relations - Alphabet Announces First Quarter 2026 Results View All News Alphabet Announces First Quarter 2026 Results April 29, 2026 2026 Q1 Alphabet Earnings Release PDF (opens in new window) View All News.
 
-🔗 Read more: https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</description>
-      <guid isPermaLink="true">https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</guid>
-      <pubDate>Wed, 29 Apr 2026 16:16:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950510</comments>
-    </item>
-    <item>
-      <title>Ramp's Sheets AI Exfiltrates Financials</title>
-      <link>https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</link>
-      <description>📝 The reference dataset contains a concealed prompt injectionAn indirect prompt injection is hidden in white-on-white text, and is crafted to manipulate Ramp’s AI to:(1) collect sensitive data(2) generate a formula with that data that will make an external network request(3) insert that formula automatically into a user’s spreadsheet. {victim_sensitive_financial_data_here}”)The malicious formula makes a network request, exfiltrating financial dataRamp AI inserts the malicious formula without requiring any user approval. Ramp's security team indicated that the issue was resolved on March 16, 2026.
-
-🔗 Read more: https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</description>
-      <guid isPermaLink="true">https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</guid>
-      <pubDate>Wed, 29 Apr 2026 17:44:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47951786</comments>
-    </item>
-    <item>
-      <title>Cursor Camp</title>
-      <link>https://neal.fun/cursor-camp/</link>
-      <guid isPermaLink="true">https://neal.fun/cursor-camp/</guid>
-      <pubDate>Wed, 29 Apr 2026 15:39:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949939</comments>
-    </item>
-    <item>
-      <title>Laws of UX</title>
-      <link>https://lawsofux.com/</link>
-      <description>📝 Users spend most of their time on other sites. Elements that are visually connected are perceived as more related than elements with no connection. A cognitive system that temporarily holds and manipulates information needed to complete tasks.
-
-🔗 Read more: https://lawsofux.com/</description>
-      <guid isPermaLink="true">https://lawsofux.com/</guid>
-      <pubDate>Wed, 29 Apr 2026 16:58:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47951137</comments>
-    </item>
-    <item>
-      <title>Online age verification is the hill to die on</title>
-      <link>https://x.com/GlennMeder/status/2049088498163216560</link>
-      <description>📝 We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x. Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.
-
-🔗 Read more: https://x.com/GlennMeder/status/2049088498163216560</description>
-      <guid isPermaLink="true">https://x.com/GlennMeder/status/2049088498163216560</guid>
-      <pubDate>Wed, 29 Apr 2026 15:49:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950091</comments>
-    </item>
-    <item>
-      <title>Third Editor Fired in Elsevier's Citation Cartel Crackdown</title>
-      <link>https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</link>
-      <description>📝 Samuel Vigne was fired as the editor-in-chief of International Review of Financial Analysis and Finance Research Letters. John Goodell published:47 papers in International Review of Financial Analysis 12 papers in International Review of Economics &amp; Finance 66 papers in Finance Research Letters aloneFor a total of 125 papers in their corrupt journals. In January 2025 and March 2025, Emmanuel Abakah, Senior Lecturer in Finance at the University of Ghana, published two papers at Goodell’s RIBAF:While these papers was under review by John Goodell, Emmanuel Abakah added Goodell as a.
-
-🔗 Read more: https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</description>
-      <guid isPermaLink="true">https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</guid>
-      <pubDate>Wed, 29 Apr 2026 15:45:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950022</comments>
-    </item>
-    <item>
-      <title>How to Build the Future: Demis Hassabis [video]</title>
-      <link>https://www.youtube.com/watch?v=JNyuX1zoOgU</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=JNyuX1zoOgU</guid>
-      <pubDate>Wed, 29 Apr 2026 14:05:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47948664</comments>
-    </item>
-    <item>
-      <title>Why I still reach for Lisp and Scheme instead of Haskell</title>
-      <link>https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</link>
-      <description>📝 In fact, I love Haskell. After a frustrating hour with my Haskell project, and even after years of experience with the language, I was still wrestling with the dependencies, and later with monadic API, and I ended up giving up on the whole thing after I noticed I even forgot what I was doing in the first place. This has often been my friction point with Haskell.
-
-🔗 Read more: https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</description>
-      <guid isPermaLink="true">https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</guid>
-      <pubDate>Wed, 29 Apr 2026 08:43:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47945707</comments>
-    </item>
-    <item>
-      <title>Maryland becomes first state to ban surveillance pricing in grocery stores</title>
-      <link>https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</link>
-      <description>📝 That means buyers are paying different prices for the same items purchased around the same time. While the law bans setting higher prices through surveillance pricing, it doesn’t address reducing prices. ”“The biggest threat of the Maryland bill is that other states will see it as a model bill that they should replicate in their own jurisdictions,” Hepner says.
-
-🔗 Read more: https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</description>
-      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</guid>
-      <pubDate>Wed, 29 Apr 2026 16:50:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47951007</comments>
-    </item>
-    <item>
-      <title>The end of "Just ask Sarah"</title>
-      <link>https://simme.dev/posts/the-end-of-just-ask-sarah/</link>
-      <description>📝 That changes what documentation is. The codebase carries the result of decisions: the code that shipped, the abstractions that stuck, the patterns that propagated. The constraint that drove the choice and the tradeoffs that were accepted.
-
-🔗 Read more: https://simme.dev/posts/the-end-of-just-ask-sarah/</description>
-      <guid isPermaLink="true">https://simme.dev/posts/the-end-of-just-ask-sarah/</guid>
-      <pubDate>Wed, 29 Apr 2026 19:00:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47952807</comments>
-    </item>
-    <item>
-      <title>Show HN: A new benchmark for testing LLMs for deterministic outputs</title>
-      <link>https://interfaze.ai/blog/introducing-structured-output-benchmark</link>
-      <description>📝 The fraction of records where every single leaf value is exactly right. The same model scores very differently across text, image, and audio, even when every model gets the same text-normalized context. Best Value Accuracy by modality across all valid models: No single model wins all three.
-
-🔗 Read more: https://interfaze.ai/blog/introducing-structured-output-benchmark</description>
-      <guid isPermaLink="true">https://interfaze.ai/blog/introducing-structured-output-benchmark</guid>
-      <pubDate>Wed, 29 Apr 2026 16:01:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950283</comments>
-    </item>
-    <item>
-      <title>At Protocol: Building the Social Internet</title>
-      <link>https://atproto.com/</link>
-      <description>📝 LEARN MORELogin with user-owned identitiesUsernames are just domains. LEARN MORELogin with user-owned identitiesUsernames are just domains. ○○●○NextWith strong linksUse content-IDs to create strong links to other users' data.
-
-🔗 Read more: https://atproto.com/</description>
-      <guid isPermaLink="true">https://atproto.com/</guid>
-      <pubDate>Wed, 29 Apr 2026 16:20:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950575</comments>
-    </item>
-    <item>
-      <title>Virtualisation on Apple Silicon Macs is different</title>
-      <link>https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</link>
-      <description>📝 Virtio drivers Every single hardware device in an Apple silicon chip is different from its equivalent (if there is one) in Intel Macs. What Apple did instead was to build device support into macOS, in the form of Virtio drivers. That puts Apple in charge of what hardware and features are supported by virtualisation on Apple silicon.
-
-🔗 Read more: https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</description>
-      <guid isPermaLink="true">https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</guid>
-      <pubDate>Wed, 29 Apr 2026 16:51:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47951037</comments>
-    </item>
-    <item>
-      <title>Rise of the Forward Deployed Engineer</title>
-      <link>https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</link>
-      <description>📝 The Services-as-Software flywheel requires an embedded execution layer that connects these technologies inside real operational systems. FDE is the mechanism that makes that shift real. That changes the entire commercial dynamic.
-
-🔗 Read more: https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</description>
-      <guid isPermaLink="true">https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</guid>
-      <pubDate>Wed, 29 Apr 2026 16:54:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47951082</comments>
+🔗 Read more: https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-First-Quarter-2026-Results-2026-X-ge4Dm6bf/default.aspx</description>
+      <guid isPermaLink="true">https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-First-Quarter-2026-Results-2026-X-ge4Dm6bf/default.aspx</guid>
+      <pubDate>Wed, 29 Apr 2026 20:20:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47954024</comments>
     </item>
   </channel>
 </rss>
