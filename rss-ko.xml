@@ -6,138 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 29 Apr 2026 16:29:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 19:28:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>제드는 1.0이다</title>
-      <link>https://zed.dev/blog/zed-1-0</link>
-      <description>📝 또한 "완벽하다"는 뜻도 아닙니다. 변경된 것은 소프트웨어를 만드는 동안 협업이 의미하는 바입니다. 우리는 문자 수준의 세분성으로 모든 변경 사항을 추적하는 CRDT 기반의 동기화 엔진인 DeltaDB를 적극적으로 개발하고 있습니다.
+      <title>HERMES.md: Anthropic 버그로 인해 200달러의 추가 비용 발생, 환불 거부</title>
+      <link>https://github.com/anthropics/claude-code/issues/53262</link>
+      <description>📝 &amp;&amp; git commit -m "add HERMES.md" 실패 — 추가 사용 "test HERMES.md"로 경로가 HERMES라는 이름의 Works 파일입니다.
 
 
-🔤 Original: Zed is 1.0
+🔤 Original: HERMES.md: Anthropic bug causes $200 extra charge, refuses refund
 
-🔗 Read more: https://zed.dev/blog/zed-1-0</description>
-      <guid isPermaLink="true">https://zed.dev/blog/zed-1-0</guid>
-      <pubDate>Wed, 29 Apr 2026 14:34:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949027</comments>
+🔗 Read more: https://github.com/anthropics/claude-code/issues/53262</description>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/53262</guid>
+      <pubDate>Wed, 29 Apr 2026 18:54:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952722</comments>
     </item>
     <item>
-      <title>Tangled – 대장간 연합이 필요합니다</title>
-      <link>https://blog.tangled.org/federation/</link>
-      <description>📝 코드 협업은 항상 두 가지 프로토콜, 즉 코드 전송용 하나와 통신용 하나를 사용했습니다. 이메일 흐름으로 시작되었습니다: git(코드 전송) + 이메일(comms) 그리고 GitHub가 있었습니다: git(코드 전송) + GitHub 웹사이트(comms) ForgeFed 프로젝트가 있습니다: git(코드 전송) + 아마도 ActivityPub(comms) 우리는 Tangled를 구축하고 있습니다: git(코드 전송) + AT 프로토콜(comms) Tangled는 git 서버 간의 이벤트를 연합합니다(라고 함). "매듭"). Tangled는 AT를 사용하여 문제 및 끌어오기 요청과 같은 코드 주변 이벤트의 인증된 전송을 용이하게 하며 이벤트 타임라인, 팔로우, 별점(곧 보증)과 같은 몇 가지 소셜 비트도 활성화합니다. OSS는 GitHub와 같은 단일 문화에서 벗어나야 하지만 코드 협업은 여전히 ​​재미있고 사회적이어야 합니다.
+      <title>복사 실패 – CVE-2026-31431</title>
+      <link>https://copy.fail/</link>
+      <description>📝 동일한 익스플로잇 바이너리는 모든 Linux 배포판에서 수정되지 않은 채 작동합니다. 당신은 이미 유일한 사용자입니다. com/theori-io/copy-fail-CVE-2026-31431 먼저 패치하세요.
 
 
-🔤 Original: Tangled – We need a federation of forges
+🔤 Original: Copy Fail – CVE-2026-31431
 
-🔗 Read more: https://blog.tangled.org/federation/</description>
-      <guid isPermaLink="true">https://blog.tangled.org/federation/</guid>
-      <pubDate>Wed, 29 Apr 2026 14:00:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47948603</comments>
+🔗 Read more: https://copy.fail/</description>
+      <guid isPermaLink="true">https://copy.fail/</guid>
+      <pubDate>Wed, 29 Apr 2026 18:13:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952181</comments>
     </item>
     <item>
-      <title>AI 회사가 당신을 두려워하기를 원하는 이유</title>
-      <link>https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</link>
-      <description>📝 Anthropic 대변인은 회사가 이러한 문제에 대해 분명히 해 왔다고 말했습니다. 그와 다른 회사 리더들은 "기술의 악의적인 응용에 대한 우려" 때문에 GPT-2를 출시할 수 없다고 말했습니다. Serenity Strull/BBC/Getty ImagesAI 회사는 그들의 기술이 세상을 끝낼 수 있다고 말합니다.
+      <title>FastCGI: 30년이 지났지만 여전히 역방향 프록시를 위한 더 나은 프로토콜</title>
+      <link>https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</link>
+      <description>📝 하지만 여기서는 HTTP를 사용할 필요가 없습니다. ResponseWriter 및 http. Apache, Caddy, nginx 및 HAProxy와 같은 널리 사용되는 프록시는 FastCGI 백엔드를 지원하며 구성은 간단합니다. nginx HTTP Proxy_pass http://localhost:8080; nginx FastCGI fastcgi_pass localhost:8080; fastcgi_params를 포함합니다; 더 많은 구성 예 보기 Apache HTTP ProxyPass / http://localhost:8080/ Apache FastCGI ProxyPass / fcgi://localhost:8080/ Caddy HTTP reverse_proxy localhost:8080 { Transport http { } } Caddy FastCGI reverse_proxy localhost:8080 { Transport fastcgi { } } HAProxy HTTP 백엔드 app_backend server s1 localhost:8080 HAProxy FastCGI fcgi-app fcgi_app docroot / backend app_backend use-fcgi-app fcgi_app server s1 localhost:8080 proto fcgi HTTP가 역방향 프록시에 적합하지 않은 이유: 비동기화 공격/HTTP/1 스머글링 요청.
 
 
-🔤 Original: Why AI companies want you to be afraid of them
+🔤 Original: FastCGI: 30 years old and still the better protocol for reverse proxies
 
-🔗 Read more: https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</description>
-      <guid isPermaLink="true">https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</guid>
-      <pubDate>Wed, 29 Apr 2026 15:26:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949750</comments>
+🔗 Read more: https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</description>
+      <guid isPermaLink="true">https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</guid>
+      <pubDate>Wed, 29 Apr 2026 16:16:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950510</comments>
     </item>
     <item>
-      <title>미스트랄 미디엄 3.5</title>
-      <link>https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</link>
-      <description>📝 Mistral Medium 소개 3. Le Chat에서 Mistral Vibe 코딩 작업을 시작하세요. 오늘부터 코딩 세션은 부재 중에도 긴 작업을 수행할 수 있습니다.
+      <title>Ramp's Sheets AI로 금융 정보 유출</title>
+      <link>https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</link>
+      <description>📝 참조 데이터세트에는 숨겨진 프롬프트 주입이 포함되어 있습니다. 간접 프롬프트 주입은 흰색 바탕에 흰색 텍스트로 숨겨져 있으며 Ramp의 AI를 조작하여 다음 작업을 수행하도록 제작되었습니다.(1) 민감한 데이터를 수집합니다(2) 외부 네트워크 요청을 생성하는 해당 데이터로 공식을 생성합니다(3) 해당 공식을 사용자의 스프레드시트에 자동으로 삽입합니다. {victim_sensitive_financial_data_here}”)악성 수식은 네트워크 요청을 하여 금융 데이터를 유출합니다. Ramp AI는 사용자 승인을 요구하지 않고 악성 수식을 삽입합니다. Ramp의 보안팀은 이 문제가 2026년 3월 16일에 해결되었다고 밝혔습니다.
 
 
-🔤 Original: Mistral Medium 3.5
+🔤 Original: Ramp's Sheets AI Exfiltrates Financials
 
-🔗 Read more: https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</description>
-      <guid isPermaLink="true">https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</guid>
-      <pubDate>Wed, 29 Apr 2026 15:17:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949642</comments>
+🔗 Read more: https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</description>
+      <guid isPermaLink="true">https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</guid>
+      <pubDate>Wed, 29 Apr 2026 17:44:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951786</comments>
+    </item>
+    <item>
+      <title>커서 캠프</title>
+      <link>https://neal.fun/cursor-camp/</link>
+      <guid isPermaLink="true">https://neal.fun/cursor-camp/</guid>
+      <pubDate>Wed, 29 Apr 2026 15:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47949939</comments>
+    </item>
+    <item>
+      <title>UX의 법칙</title>
+      <link>https://lawsofux.com/</link>
+      <description>📝 사용자는 대부분의 시간을 다른 사이트에서 보냅니다. 시각적으로 연결된 요소는 연결되지 않은 요소보다 더 관련성이 높은 것으로 인식됩니다. 작업을 완료하는 데 필요한 정보를 일시적으로 보유하고 조작하는 인지 시스템입니다.
+
+
+🔤 Original: Laws of UX
+
+🔗 Read more: https://lawsofux.com/</description>
+      <guid isPermaLink="true">https://lawsofux.com/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:58:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951137</comments>
     </item>
     <item>
       <title>온라인 연령 확인은 죽음의 언덕입니다</title>
-      <link>https://xcancel.com/GlennMeder/status/2049088498163216560</link>
-      <description>📝 다른 것에 집중하는 동안 무시할 수 있는 정책이 아닙니다. 이는 디지털 제어 그리드의 다른 모든 부분을 활성화하는 인프라입니다. 이 싸움에서 지면 우리는 모든 것을 잃게 됩니다.
+      <link>https://x.com/GlennMeder/status/2049088498163216560</link>
+      <description>📝 이 브라우저에서는 JavaScript가 비활성화되어 있는 것으로 감지되었습니다. x를 계속 사용하려면 JavaScript를 활성화하거나 지원되는 브라우저로 전환하세요. 서비스 약관 개인 ​​정보 보호 정책 쿠키 정책 간기 광고 정보 © 2026 X Corp.
 
 
 🔤 Original: Online age verification is the hill to die on
 
-🔗 Read more: https://xcancel.com/GlennMeder/status/2049088498163216560</description>
-      <guid isPermaLink="true">https://xcancel.com/GlennMeder/status/2049088498163216560</guid>
+🔗 Read more: https://x.com/GlennMeder/status/2049088498163216560</description>
+      <guid isPermaLink="true">https://x.com/GlennMeder/status/2049088498163216560</guid>
       <pubDate>Wed, 29 Apr 2026 15:49:57 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=47950091</comments>
     </item>
     <item>
-      <title>Scuderia Ferrari F1 팀의 학습을 통해 ICU 핸드오버 개선</title>
-      <link>https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</link>
-      <description>📝 이러한 사건에서 위험도가 매우 높은 환자의 복잡한 수술에 대한 기술적 문제로 인해 팀은 때때로 환자에게 영향을 미치는 오류를 예방할 수 없었습니다. 여기서는 안전한 모니터링과 환기로 돌아갑니다. 이러한 작은 문제가 환자 치료에 영향을 미치지 않았다고 주장할 수도 있지만, 우리 연구(Catchpole et al.
+      <title>Elsevier의 표창장 카르텔 단속으로 세 번째 편집자가 해고되었습니다</title>
+      <link>https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</link>
+      <description>📝 Samuel Vigne은 International Review of Financial Analysis and Finance Research Letters의 편집장직에서 해고되었습니다. John Goodell은 International Review of Financial Analysis에 47개 논문 International Review of Economics &amp; Finance에 12개 논문 Finance Research Letters에만 66개 논문 부패한 저널에 총 125개 논문을 게재했습니다. 2025년 1월과 2025년 3월, 가나 대학의 재무 담당 수석 강사인 Emmanuel Abakah는 Goodell의 RIBAF에서 두 편의 논문을 발표했습니다. 이 논문은 John Goodell의 검토를 받는 동안 Emmanuel Abakah는 Goodell을 a.
 
 
-🔤 Original: Improving ICU handovers by learning from Scuderia Ferrari F1 team
+🔤 Original: Third Editor Fired in Elsevier's Citation Cartel Crackdown
 
-🔗 Read more: https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</description>
-      <guid isPermaLink="true">https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</guid>
-      <pubDate>Wed, 29 Apr 2026 13:05:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47947834</comments>
+🔗 Read more: https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</description>
+      <guid isPermaLink="true">https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</guid>
+      <pubDate>Wed, 29 Apr 2026 15:45:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950022</comments>
     </item>
     <item>
-      <title>Linux 7.0의 PostgreSQL 중단: 선점 회귀 설명</title>
-      <link>https://read.thecoder.cafe/p/linux-broke-postgresql</link>
-      <description>📝 0은 Linux 6 처리량의 약 절반을 제공합니다. 따라서 PostgreSQL은 최근 읽은 데이터 페이지를 캐시하는 공유 메모리의 대규모 영역인 공유 버퍼 풀을 유지 관리합니다. 해당 버퍼를 찾는 작업은 StrategyGetBuffer라는 중요한 단일 함수에 속합니다.
-
-
-🔤 Original: Linux 7.0 Broke PostgreSQL: The Preemption Regression Explained
-
-🔗 Read more: https://read.thecoder.cafe/p/linux-broke-postgresql</description>
-      <guid isPermaLink="true">https://read.thecoder.cafe/p/linux-broke-postgresql</guid>
-      <pubDate>Wed, 29 Apr 2026 15:13:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949585</comments>
+      <title>미래를 구축하는 방법: Demis Hassabis [동영상]</title>
+      <link>https://www.youtube.com/watch?v=JNyuX1zoOgU</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=JNyuX1zoOgU</guid>
+      <pubDate>Wed, 29 Apr 2026 14:05:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47948664</comments>
     </item>
     <item>
-      <title>AI 챗봇을 친화적으로 만들면 실수가 발생하고 음모론이 뒷받침됩니다.</title>
-      <link>https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</link>
-      <description>📝 따뜻한 챗봇은 정확도가 30% 낮고 잘못된 믿음을 뒷받침할 확률이 40% 더 높다는 연구 결과가 나왔습니다. 따뜻한 챗봇은 답변의 정확도가 30% 낮았고 사용자의 잘못된 믿음을 뒷받침할 가능성이 40% 더 높았습니다. 원본 버전은 착륙이 실제임을 확인했습니다.
+      <title>내가 아직도 Haskell 대신 Lisp와 Scheme을 선택하는 이유</title>
+      <link>https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</link>
+      <description>📝 사실 저는 하스켈을 좋아합니다. Haskell 프로젝트로 실망스러운 시간을 보냈고 언어에 대한 수년간의 경험에도 불구하고 나는 여전히 종속성과 나중에 모나딕 API로 씨름하고 있었고, 처음에 내가 하고 있던 일조차 잊어버렸다는 것을 깨닫고는 결국 모든 것을 포기하게 되었습니다. 이것은 종종 Haskell과의 마찰 지점이었습니다.
 
 
-🔤 Original: Making AI chatbots friendly leads to mistakes and support of conspiracy theories
+🔤 Original: Why I still reach for Lisp and Scheme instead of Haskell
 
-🔗 Read more: https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</description>
-      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</guid>
-      <pubDate>Wed, 29 Apr 2026 15:11:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949538</comments>
+🔗 Read more: https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</description>
+      <guid isPermaLink="true">https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</guid>
+      <pubDate>Wed, 29 Apr 2026 08:43:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47945707</comments>
     </item>
     <item>
-      <title>법원 판결 2차 수정안은 총기 부품에 적용됩니다. 총을 만드는 사람들에게 희소식</title>
-      <link>https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</link>
-      <description>📝 이는 본질적으로 소유자에게 여러 개의 소총을 하나로 제공합니다. 이는 본질적으로 소유자에게 여러 개의 소총을 하나로 제공합니다. 일반적으로 일련번호가 거기에 있습니다.”라고 George는 말했습니다.
+      <title>메릴랜드는 식료품점에서 감시 가격 책정을 금지한 최초의 주가 되었습니다.</title>
+      <link>https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</link>
+      <description>📝 이는 구매자가 같은 시기에 구매한 동일한 품목에 대해 서로 다른 가격을 지불한다는 것을 의미합니다. 법은 감시 가격을 통해 더 높은 가격을 설정하는 것을 금지하지만 가격 인하 문제는 다루지 않습니다. "메릴랜드 법안의 가장 큰 위협은 다른 주들이 이를 자신의 관할권에서 복제해야 하는 모델 법안으로 보게 될 것이라는 점입니다."라고 Hepner는 말합니다.
 
 
-🔤 Original: Court Rules 2nd Amendment Covers Firearms Parts Good News Those Who Build Guns
+🔤 Original: Maryland becomes first state to ban surveillance pricing in grocery stores
 
-🔗 Read more: https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</description>
-      <guid isPermaLink="true">https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</guid>
-      <pubDate>Wed, 29 Apr 2026 16:08:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950377</comments>
+🔗 Read more: https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</description>
+      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</guid>
+      <pubDate>Wed, 29 Apr 2026 16:50:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951007</comments>
     </item>
     <item>
-      <title>생산 비용이 2.5~5달러인 오픈 소스 청진기</title>
-      <link>https://github.com/GliaX/Stethoscope</link>
-      <description>📝 BOM 인쇄된 부품: 청진기 헤드 1개(헤드. 다이어프램(40mm)을 청진기 헤드에 부착합니다. 청진기 헤드를 실리콘 튜브에 부착합니다.
+      <title>"사라에게 물어보세요"의 끝</title>
+      <link>https://simme.dev/posts/the-end-of-just-ask-sarah/</link>
+      <description>📝 이는 문서의 내용을 변경합니다. 코드베이스는 배송된 코드, 고착된 추상화, 전파된 패턴 등 결정의 결과를 전달합니다. 선택을 이끈 제약과 받아들인 절충안.
 
 
-🔤 Original: An open-source stethoscope that costs between $2.5 and $5 to produce
+🔤 Original: The end of "Just ask Sarah"
 
-🔗 Read more: https://github.com/GliaX/Stethoscope</description>
-      <guid isPermaLink="true">https://github.com/GliaX/Stethoscope</guid>
-      <pubDate>Wed, 29 Apr 2026 14:47:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949204</comments>
+🔗 Read more: https://simme.dev/posts/the-end-of-just-ask-sarah/</description>
+      <guid isPermaLink="true">https://simme.dev/posts/the-end-of-just-ask-sarah/</guid>
+      <pubDate>Wed, 29 Apr 2026 19:00:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952807</comments>
+    </item>
+    <item>
+      <title>Show HN: 결정론적 결과에 대한 LLM 테스트를 위한 새로운 벤치마크</title>
+      <link>https://interfaze.ai/blog/introducing-structured-output-benchmark</link>
+      <description>📝 모든 단일 리프 값이 정확히 맞는 레코드의 비율입니다. 모든 모델이 동일한 텍스트 정규화 컨텍스트를 얻는 경우에도 동일한 모델은 텍스트, 이미지 및 오디오 전반에 걸쳐 매우 다르게 점수를 매깁니다. 모든 유효한 모델에 걸쳐 양식별 최고의 가치 정확도: 세 가지 모델 모두를 이기는 단일 모델은 없습니다.
+
+
+🔤 Original: Show HN: A new benchmark for testing LLMs for deterministic outputs
+
+🔗 Read more: https://interfaze.ai/blog/introducing-structured-output-benchmark</description>
+      <guid isPermaLink="true">https://interfaze.ai/blog/introducing-structured-output-benchmark</guid>
+      <pubDate>Wed, 29 Apr 2026 16:01:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950283</comments>
+    </item>
+    <item>
+      <title>At 프로토콜: 소셜 인터넷 구축</title>
+      <link>https://atproto.com/</link>
+      <description>📝 자세히 알아보기사용자 소유 ID로 로그인사용자 이름은 도메인일 뿐입니다. 자세히 알아보기사용자 소유 ID로 로그인사용자 이름은 도메인일 뿐입니다. ○○●○다음강력한 링크 사용콘텐츠 ID를 사용하여 다른 사용자의 데이터에 대한 강력한 링크를 만듭니다.
+
+
+🔤 Original: At Protocol: Building the Social Internet
+
+🔗 Read more: https://atproto.com/</description>
+      <guid isPermaLink="true">https://atproto.com/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:20:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950575</comments>
+    </item>
+    <item>
+      <title>Apple Silicon Mac의 가상화는 다릅니다.</title>
+      <link>https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</link>
+      <description>📝 Virtio 드라이버 Apple 실리콘 칩의 모든 단일 하드웨어 장치는 Intel Mac의 해당 장치(있는 경우)와 다릅니다. 대신 Apple이 한 일은 Virtio 드라이버의 형태로 macOS에 장치 지원을 구축하는 것이었습니다. 따라서 Apple은 Apple 실리콘의 가상화를 통해 지원되는 하드웨어와 기능을 담당하게 됩니다.
+
+
+🔤 Original: Virtualisation on Apple Silicon Macs is different
+
+🔗 Read more: https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</description>
+      <guid isPermaLink="true">https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:51:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951037</comments>
+    </item>
+    <item>
+      <title>전방 배치 엔지니어의 부상</title>
+      <link>https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</link>
+      <description>📝 소프트웨어로서의 서비스 플라이휠에는 실제 운영 체제 내에서 이러한 기술을 연결하는 내장 실행 계층이 필요합니다. FDE는 이러한 변화를 현실로 만드는 메커니즘입니다. 이는 전체 상업 역학을 변화시킵니다.
+
+
+🔤 Original: Rise of the Forward Deployed Engineer
+
+🔗 Read more: https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</description>
+      <guid isPermaLink="true">https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:54:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951082</comments>
     </item>
   </channel>
 </rss>

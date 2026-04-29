@@ -6,138 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Apr 2026 16:29:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 19:28:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>泽德是1.0</title>
-      <link>https://zed.dev/blog/zed-1-0</link>
-      <description>📝 它也不意味着“完美”。改变的是创建软件时协作的含义。我们正在积极开发 DeltaDB，这是一个基于 CRDT 的同步引擎，可以以字符级粒度跟踪每个更改。
+      <title>HERMES.md：人为错误导致 200 美元额外费用，拒绝退款</title>
+      <link>https://github.com/anthropics/claude-code/issues/53262</link>
+      <description>📝 &amp;&amp; git commit -m "add HERMES.md" 失败 — 路由到额外使用 "test HERMES.md" 名为 HERMES.md 的有效文件。
 
 
-🔤 Original: Zed is 1.0
+🔤 Original: HERMES.md: Anthropic bug causes $200 extra charge, refuses refund
 
-🔗 Read more: https://zed.dev/blog/zed-1-0</description>
-      <guid isPermaLink="true">https://zed.dev/blog/zed-1-0</guid>
-      <pubDate>Wed, 29 Apr 2026 14:34:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949027</comments>
+🔗 Read more: https://github.com/anthropics/claude-code/issues/53262</description>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/53262</guid>
+      <pubDate>Wed, 29 Apr 2026 18:54:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952722</comments>
     </item>
     <item>
-      <title>纠结——我们需要锻造者联盟</title>
-      <link>https://blog.tangled.org/federation/</link>
-      <description>📝 代码协作始终使用两种协议，一种用于代码传输，一种用于通信：首先是电子邮件流：git（代码传输）+电子邮件（通信）然后是 GitHub：git（代码传输）+ GitHub 网站（通信）还有 ForgeFed 项目：git（代码传输）+ 也许 ActivityPub（通信） 我们正在构建纠结：git（代码传输）+ AT 协议（通信） git 服务器之间的纠结联合事件（称为“结”）。 Tangled 使用 AT 来促进代码周围事件的身份验证传输：例如问题和拉取请求，并且它还支持一些社交功能：事件的时间线、关注、加注星号（并且很快就会证实）。 OSS 需要摆脱像 GitHub 这样的单一文化，但代码协作仍然应该是有趣的和社交的。
+      <title>复制失败 – CVE-2026-31431</title>
+      <link>https://copy.fail/</link>
+      <description>📝 相同的漏洞利用二进制文件无需修改即可在每个 Linux 发行版上运行。您已经是唯一的用户了。 com/theori-io/copy-fail-CVE-2026-31431 首先打补丁。
 
 
-🔤 Original: Tangled – We need a federation of forges
+🔤 Original: Copy Fail – CVE-2026-31431
 
-🔗 Read more: https://blog.tangled.org/federation/</description>
-      <guid isPermaLink="true">https://blog.tangled.org/federation/</guid>
-      <pubDate>Wed, 29 Apr 2026 14:00:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47948603</comments>
+🔗 Read more: https://copy.fail/</description>
+      <guid isPermaLink="true">https://copy.fail/</guid>
+      <pubDate>Wed, 29 Apr 2026 18:13:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952181</comments>
     </item>
     <item>
-      <title>为什么人工智能公司希望你害怕他们</title>
-      <link>https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</link>
-      <description>📝 “有人阻止我。一位 Anthropic 发言人告诉我，该公司已经明确了这些问题。他和其他公司领导人表示，他们只是无法发布 GPT-2，因为“担心该技术的恶意应用”。Serenity Strull/BBC/Getty Images AI 公司表示，他们的技术可能会终结世界。
+      <title>FastCGI：已有 30 年历史，但仍然是更好的反向代理协议</title>
+      <link>https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</link>
+      <description>📝 但我们不必在这里使用 HTTP。 ResponseWriter 和 http. Apache、Caddy、nginx 和 HAProxy 等流行代理都支持 FastCGI 后端，并且配置很简单： nginx HTTP proxy_pass http://localhost:8080; nginx FastCGI fastcgi_pass localhost:8080;包括 fastcgi_params；显示更多配置示例 Apache HTTP ProxyPass / http://localhost:8080/ Apache FastCGI ProxyPass / fcgi://localhost:8080/ Caddy HTTP reverse_proxy localhost:8080 { Transport http { } } Caddy FastCGI reverse_proxy localhost:8080 { Transport fastcgi { } } HAProxy HTTP 后端 app_backend 服务器 s1 localhost:8080 HAProxy FastCGI fcgi-app fcgi_app docroot / backend app_backend use-fcgi-app fcgi_app server s1 localhost:8080 proto fcgi 为什么 HTTP 对于反向代理来说很糟糕：异步攻击/请求走私 HTTP/1。
 
 
-🔤 Original: Why AI companies want you to be afraid of them
+🔤 Original: FastCGI: 30 years old and still the better protocol for reverse proxies
 
-🔗 Read more: https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</description>
-      <guid isPermaLink="true">https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</guid>
-      <pubDate>Wed, 29 Apr 2026 15:26:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949750</comments>
+🔗 Read more: https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</description>
+      <guid isPermaLink="true">https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</guid>
+      <pubDate>Wed, 29 Apr 2026 16:16:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950510</comments>
     </item>
     <item>
-      <title>米斯特拉尔中型 3.5</title>
-      <link>https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</link>
-      <description>📝 介绍 Mistral Medium 3. 在 Le Chat 中启动 Mistral Vibe 编码任务。从今天开始，当您不在时，编码课程可以完成长时间的任务。
+      <title>Ramp 的 Sheets AI 渗透财务数据</title>
+      <link>https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</link>
+      <description>📝 参考数据集包含隐藏的提示注入间接提示注入隐藏在白底白字中，旨在操纵 Ramp 的 AI 来：(1) 收集敏感数据(2) 使用该数据生成一个公式，该公式将发出外部网络请求(3) 将该公式自动插入到用户的电子表格中。 {victim_sensitive_financial_data_here}”）恶意公式发出网络请求，窃取财务数据Ramp AI 在无需任何用户批​​准的情况下插入恶意公式。Ramp 的安全团队表示该问题已于 2026 年 3 月 16 日得到解决。
 
 
-🔤 Original: Mistral Medium 3.5
+🔤 Original: Ramp's Sheets AI Exfiltrates Financials
 
-🔗 Read more: https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</description>
-      <guid isPermaLink="true">https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</guid>
-      <pubDate>Wed, 29 Apr 2026 15:17:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949642</comments>
+🔗 Read more: https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</description>
+      <guid isPermaLink="true">https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</guid>
+      <pubDate>Wed, 29 Apr 2026 17:44:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951786</comments>
+    </item>
+    <item>
+      <title>光标营地</title>
+      <link>https://neal.fun/cursor-camp/</link>
+      <guid isPermaLink="true">https://neal.fun/cursor-camp/</guid>
+      <pubDate>Wed, 29 Apr 2026 15:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47949939</comments>
+    </item>
+    <item>
+      <title>用户体验法则</title>
+      <link>https://lawsofux.com/</link>
+      <description>📝 用户大部分时间都花在其他网站上。视觉上有联系的元素被认为比没有联系的元素更相关。暂时保存和操纵完成任务所需信息的认知系统。
+
+
+🔤 Original: Laws of UX
+
+🔗 Read more: https://lawsofux.com/</description>
+      <guid isPermaLink="true">https://lawsofux.com/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:58:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951137</comments>
     </item>
     <item>
       <title>在线年龄验证是死在山上</title>
-      <link>https://xcancel.com/GlennMeder/status/2049088498163216560</link>
-      <description>📝 当您专注于其他事情时，您不能忽视这项政策。这是支持数字控制网格其他所有部分的基础设施。如果我们输掉这场战斗，我们就会失去一切。
+      <link>https://x.com/GlennMeder/status/2049088498163216560</link>
+      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
 
 
 🔤 Original: Online age verification is the hill to die on
 
-🔗 Read more: https://xcancel.com/GlennMeder/status/2049088498163216560</description>
-      <guid isPermaLink="true">https://xcancel.com/GlennMeder/status/2049088498163216560</guid>
+🔗 Read more: https://x.com/GlennMeder/status/2049088498163216560</description>
+      <guid isPermaLink="true">https://x.com/GlennMeder/status/2049088498163216560</guid>
       <pubDate>Wed, 29 Apr 2026 15:49:57 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=47950091</comments>
     </item>
     <item>
-      <title>向 Scuderia Ferrari F1 团队学习，改善 ICU 交接</title>
-      <link>https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</link>
-      <description>📝 在这些事件中，对高危患者进行复杂手术的技术挑战意味着团队有时无法防止随后影响患者的错误。在这里，他们将恢复安全监测和通风。尽管可以说这些小问题没有影响患者护理，但我们的研究（Catchpole 等人，2017）
+      <title>第三位编辑因爱思唯尔打击引文卡特尔而被解雇</title>
+      <link>https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</link>
+      <description>📝 塞缪尔·维涅 (Samuel Vigne) 被《国际金融分析评论》和《金融研究快报》主编解雇。约翰·古德尔在《国际金融分析评论》上发表了 47 篇论文，在《国际经济与金融评论》上发表了 12 篇论文，仅在《金融研究快报》上发表了 66 篇论文，在他们的腐败期刊上总共发表了 125 篇论文。 2025年1月和2025年3月，加纳大学金融学高级讲师Emmanuel Abakah在Goodell’s RIBAF上发表了两篇论文：当这些论文正在John Goodell审阅时，Emmanuel Abakah将Goodell添加为a。
 
 
-🔤 Original: Improving ICU handovers by learning from Scuderia Ferrari F1 team
+🔤 Original: Third Editor Fired in Elsevier's Citation Cartel Crackdown
 
-🔗 Read more: https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</description>
-      <guid isPermaLink="true">https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</guid>
-      <pubDate>Wed, 29 Apr 2026 13:05:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47947834</comments>
+🔗 Read more: https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</description>
+      <guid isPermaLink="true">https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</guid>
+      <pubDate>Wed, 29 Apr 2026 15:45:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950022</comments>
     </item>
     <item>
-      <title>Linux 7.0 破坏了 PostgreSQL：抢占回归解释</title>
-      <link>https://read.thecoder.cafe/p/linux-broke-postgresql</link>
-      <description>📝 0 提供的吞吐量大约是 Linux 6 的一半。因此 PostgreSQL 维护一个共享缓冲池，这是一个大的共享内存区域，用于缓存最近读取的数据页。找到缓冲区的工作落到了一个名为 StrategyGetBuffer 的关键函数的肩上。
-
-
-🔤 Original: Linux 7.0 Broke PostgreSQL: The Preemption Regression Explained
-
-🔗 Read more: https://read.thecoder.cafe/p/linux-broke-postgresql</description>
-      <guid isPermaLink="true">https://read.thecoder.cafe/p/linux-broke-postgresql</guid>
-      <pubDate>Wed, 29 Apr 2026 15:13:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949585</comments>
+      <title>如何建设未来：Demis Hassabis [视频]</title>
+      <link>https://www.youtube.com/watch?v=JNyuX1zoOgU</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=JNyuX1zoOgU</guid>
+      <pubDate>Wed, 29 Apr 2026 14:05:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47948664</comments>
     </item>
     <item>
-      <title>让人工智能聊天机器人变得友好会导致错误和阴谋论的支持</title>
-      <link>https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</link>
-      <description>📝 研究发现，热情的聊天机器人的准确性会降低 30%，而支持错误信念的可能性会增加 40%。较温暖的聊天机器人的答案准确率降低了 30%，而支持用户错误信念的可能性则增加了 40%。最初的版本证实了着陆是真实的。
+      <title>为什么我仍然选择 Lisp 和 Scheme 而不是 Haskell</title>
+      <link>https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</link>
+      <description>📝 事实上，我喜欢哈斯克尔。在我的 Haskell 项目度过了令人沮丧的一个小时之后，即使在使用该语言多年的经验之后，我仍然在与依赖项斗争，后来又与 Monadic API 斗争，当我发现我什至忘记了我一开始在做什么时，我最终放弃了整个事情。这常常是我与 Haskell 的摩擦点。
 
 
-🔤 Original: Making AI chatbots friendly leads to mistakes and support of conspiracy theories
+🔤 Original: Why I still reach for Lisp and Scheme instead of Haskell
 
-🔗 Read more: https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</description>
-      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</guid>
-      <pubDate>Wed, 29 Apr 2026 15:11:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949538</comments>
+🔗 Read more: https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</description>
+      <guid isPermaLink="true">https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</guid>
+      <pubDate>Wed, 29 Apr 2026 08:43:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47945707</comments>
     </item>
     <item>
-      <title>法院规则第二修正案涵盖枪支零件对于那些制造枪支的人来说是个好消息</title>
-      <link>https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</link>
-      <description>📝 这实际上为拥有者提供了多支步枪合二为一的功能。这实际上为拥有者提供了多支步枪合二为一的功能。这通常就是序列号所在的地方，”乔治说。
+      <title>马里兰州成为第一个禁止杂货店监控定价的州</title>
+      <link>https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</link>
+      <description>📝 这意味着买家在同一时间购买的相同商品支付不同的价格。虽然法律禁止通过监督定价来提高价格，但它并没有解决降低价格的问题。赫普纳说：“马里兰州法案的最大威胁是其他州将把它视为一个模范法案，应该在自己的管辖范围内复制。”
 
 
-🔤 Original: Court Rules 2nd Amendment Covers Firearms Parts Good News Those Who Build Guns
+🔤 Original: Maryland becomes first state to ban surveillance pricing in grocery stores
 
-🔗 Read more: https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</description>
-      <guid isPermaLink="true">https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</guid>
-      <pubDate>Wed, 29 Apr 2026 16:08:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950377</comments>
+🔗 Read more: https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</description>
+      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</guid>
+      <pubDate>Wed, 29 Apr 2026 16:50:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951007</comments>
     </item>
     <item>
-      <title>生产成本在 2.5 至 5 美元之间的开源听诊器</title>
-      <link>https://github.com/GliaX/Stethoscope</link>
-      <description>📝 物料清单 打印部件：1个听诊器头（头部）。将隔膜（40mm）连接到听诊器头上。将听诊器头连接到硅胶管。
+      <title>《问问莎拉》的结尾</title>
+      <link>https://simme.dev/posts/the-end-of-just-ask-sarah/</link>
+      <description>📝 这改变了文档的含义。代码库承载着决策的结果：发布的代码、停留的抽象、传播的模式。推动选择和接受的权衡的约束。
 
 
-🔤 Original: An open-source stethoscope that costs between $2.5 and $5 to produce
+🔤 Original: The end of "Just ask Sarah"
 
-🔗 Read more: https://github.com/GliaX/Stethoscope</description>
-      <guid isPermaLink="true">https://github.com/GliaX/Stethoscope</guid>
-      <pubDate>Wed, 29 Apr 2026 14:47:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949204</comments>
+🔗 Read more: https://simme.dev/posts/the-end-of-just-ask-sarah/</description>
+      <guid isPermaLink="true">https://simme.dev/posts/the-end-of-just-ask-sarah/</guid>
+      <pubDate>Wed, 29 Apr 2026 19:00:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952807</comments>
+    </item>
+    <item>
+      <title>Show HN：测试法学硕士确定性输出的新基准</title>
+      <link>https://interfaze.ai/blog/introducing-structured-output-benchmark</link>
+      <description>📝 每个叶子值完全正确的记录分数。即使每个模型获得相同的文本标准化上下文，相同的模型在文本、图像和音频方面的得分也有很大差异。所有有效模型中按模态划分的最佳价值准确性：没有一个模型能够赢得所有三个模型。
+
+
+🔤 Original: Show HN: A new benchmark for testing LLMs for deterministic outputs
+
+🔗 Read more: https://interfaze.ai/blog/introducing-structured-output-benchmark</description>
+      <guid isPermaLink="true">https://interfaze.ai/blog/introducing-structured-output-benchmark</guid>
+      <pubDate>Wed, 29 Apr 2026 16:01:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950283</comments>
+    </item>
+    <item>
+      <title>At Protocol：构建社交互联网</title>
+      <link>https://atproto.com/</link>
+      <description>📝 了解更多使用用户拥有的身份登录用户名只是域。了解更多使用用户拥有的身份登录用户名只是域。 ○○●○下一步使用强链接使用内容 ID 创建指向其他用户数据的强链接。
+
+
+🔤 Original: At Protocol: Building the Social Internet
+
+🔗 Read more: https://atproto.com/</description>
+      <guid isPermaLink="true">https://atproto.com/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:20:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950575</comments>
+    </item>
+    <item>
+      <title>Apple Silicon Mac 上的虚拟化有所不同</title>
+      <link>https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</link>
+      <description>📝 Virtio 驱动程序 Apple 硅芯片中的每一个硬件设备都不同于 Intel Mac 中的同等设备（如果有的话）。苹果所做的是以 Virtio 驱动程序的形式在 macOS 中构建设备支持。这使得苹果负责苹果芯片上的虚拟化支持哪些硬件和功能。
+
+
+🔤 Original: Virtualisation on Apple Silicon Macs is different
+
+🔗 Read more: https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</description>
+      <guid isPermaLink="true">https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:51:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951037</comments>
+    </item>
+    <item>
+      <title>前沿部署工程师的崛起</title>
+      <link>https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</link>
+      <description>📝 服务即软件飞轮需要一个嵌入式执行层，将这些技术连接到实际操作系统中。 FDE 是实现这种转变的机制。这改变了整个商业动态。
+
+
+🔤 Original: Rise of the Forward Deployed Engineer
+
+🔗 Read more: https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</description>
+      <guid isPermaLink="true">https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:54:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951082</comments>
     </item>
   </channel>
 </rss>

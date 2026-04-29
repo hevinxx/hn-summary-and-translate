@@ -6,138 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 16:29:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 19:28:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ゼッドは1.0</title>
-      <link>https://zed.dev/blog/zed-1-0</link>
-      <description>📝 また、「完璧」という意味でもありません。変わったのは、ソフトウェアを作成する際のコラボレーションの意味です。私たちは、文字レベルの粒度であらゆる変更を追跡する CRDT 上に構築された同期エンジンである DeltaDB を積極的に開発しています。
+      <title>エルメス.md：人為的なバグにより200ドルの追加料金が発生し、返金を拒否</title>
+      <link>https://github.com/anthropics/claude-code/issues/53262</link>
+      <description>📝 &amp;&amp; git commit -m "add HERMES. md" 失敗 — 追加の使用法 "test HERMES. md" にルーティングされます。 エルメスという名前の作品ファイル。
 
 
-🔤 Original: Zed is 1.0
+🔤 Original: HERMES.md: Anthropic bug causes $200 extra charge, refuses refund
 
-🔗 Read more: https://zed.dev/blog/zed-1-0</description>
-      <guid isPermaLink="true">https://zed.dev/blog/zed-1-0</guid>
-      <pubDate>Wed, 29 Apr 2026 14:34:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949027</comments>
+🔗 Read more: https://github.com/anthropics/claude-code/issues/53262</description>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/53262</guid>
+      <pubDate>Wed, 29 Apr 2026 18:54:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952722</comments>
     </item>
     <item>
-      <title>もつれ – 鍛冶屋の連合が必要です</title>
-      <link>https://blog.tangled.org/federation/</link>
-      <description>📝 コード コラボレーションでは常に 2 つのプロトコルが使用されてきました。1 つはコード転送用、もう 1 つは通信用です。 電子メール フローから始まりました: git (コード転送) + 電子メール (通信) 次に GitHub がありました: git (コード転送) + GitHub ウェブサイト (通信) ForgeFed プロジェクトがあります: git (コード転送) + おそらく ActivityPub (通信) 私たちは Tangled: git (コード転送) + AT プロトコル (通信) を構築しています Tangled フェデレーション イベントgit サーバー (「ノット」と呼ばれます)。 Tangled は AT を使用して、イシューやプルリクエストなどのコード周辺のイベントの認証された転送を容易にし、イベントのタイムライン、フォロー、スター (およびすぐに保証) などのいくつかのソーシャル部分も有効にします。 OSS は GitHub のようなモノカルチャーから脱却する必要がありますが、コードのコラボレーションは依然として楽しくてソーシャルであるべきです。
+      <title>コピーの失敗 – CVE-2026-31431</title>
+      <link>https://copy.fail/</link>
+      <description>📝 同じエクスプロイト バイナリは、変更されずにすべての Linux ディストリビューションで動作します。あなたはすでに唯一のユーザーです。 com/theori-io/copy-fail-CVE-2026-31431 まずパッチを適用します。
 
 
-🔤 Original: Tangled – We need a federation of forges
+🔤 Original: Copy Fail – CVE-2026-31431
 
-🔗 Read more: https://blog.tangled.org/federation/</description>
-      <guid isPermaLink="true">https://blog.tangled.org/federation/</guid>
-      <pubDate>Wed, 29 Apr 2026 14:00:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47948603</comments>
+🔗 Read more: https://copy.fail/</description>
+      <guid isPermaLink="true">https://copy.fail/</guid>
+      <pubDate>Wed, 29 Apr 2026 18:13:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952181</comments>
     </item>
     <item>
-      <title>AI企業があなたにAIを怖がらせたい理由</title>
-      <link>https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</link>
-      <description>📝 「誰か私を止めてください。Anthropic の広報担当者は、会社はこれらの問題について明確にしていると私に言いました。彼と他の会社のリーダーは、単に「テクノロジーの悪意のあるアプリケーションに関する懸念」のために GPT-2 をリリースできないと述べました。 Serenity Strull/ BBC/ Getty Images AI 企業は、自社のテクノロジーが世界を終わらせる可能性があると述べています。
+      <title>FastCGI: 30 年前のものですが、リバース プロキシとしては依然として優れたプロトコルです</title>
+      <link>https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</link>
+      <description>📝 ただし、ここでは HTTP を使用する必要はありません。 ResponseWriter と http。 Apache、Caddy、nginx、HAProxy などの一般的なプロキシは FastCGI バックエンドをサポートしており、構成は次のように簡単です。 nginx FastCGI fastcgi_pass localhost:8080; fastcgi_params を含めます。その他の設定例を表示 Apache HTTP ProxyPass / http://localhost:8080/ Apache FastCGI ProxyPass / fcgi://localhost:8080/ Caddy HTTP reverse_proxy localhost:8080 { Transport http { } } Caddy FastCGI reverse_proxy localhost:8080 { Transport fastcgi { } } HAProxy HTTP バックエンド app_backend サーバー s1 localhost:8080 HAProxy FastCGI fcgi-app fcgi_app docroot / backend app_backend use-fcgi-app fcgi_app server s1 localhost:8080 proto fcgi HTTP がリバース プロキシにとってダメな理由: 非同期攻撃 / HTTP/1 のリクエスト密輸。
 
 
-🔤 Original: Why AI companies want you to be afraid of them
+🔤 Original: FastCGI: 30 years old and still the better protocol for reverse proxies
 
-🔗 Read more: https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</description>
-      <guid isPermaLink="true">https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them</guid>
-      <pubDate>Wed, 29 Apr 2026 15:26:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949750</comments>
+🔗 Read more: https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</description>
+      <guid isPermaLink="true">https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</guid>
+      <pubDate>Wed, 29 Apr 2026 16:16:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950510</comments>
     </item>
     <item>
-      <title>ミストラル ミディアム 3.5</title>
-      <link>https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</link>
-      <description>📝 Mistral Medium 3 の紹介。Le Chat で Mistral Vibe コーディング タスクを開始します。今日から、コーディング セッションで、外出中でも長時間のタスクに取り組むことができます。
+      <title>Ramp のシート AI が財務情報を流出</title>
+      <link>https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</link>
+      <description>📝 参照データセットには、隠蔽されたプロンプト インジェクションが含まれています。間接的なプロンプト インジェクションは白地に白のテキストで隠されており、Ramp の AI を操作して次のことを行うように作成されています:(1) 機密データを収集する(2) そのデータを使用して外部ネットワーク リクエストを行う式を生成する(3) その式をユーザーのスプレッドシートに自動的に挿入する。 {victim_sensitive_financial_data_here}”)悪意のある式がネットワーク リクエストを作成し、財務データを窃取します。Ramp AI はユーザーの承認を必要とせずに悪意のある式を挿入します。Ramp のセキュリティ チームは、この問題は 2026 年 3 月 16 日に解決されたと述べました。
 
 
-🔤 Original: Mistral Medium 3.5
+🔤 Original: Ramp's Sheets AI Exfiltrates Financials
 
-🔗 Read more: https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</description>
-      <guid isPermaLink="true">https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</guid>
-      <pubDate>Wed, 29 Apr 2026 15:17:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949642</comments>
+🔗 Read more: https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</description>
+      <guid isPermaLink="true">https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials</guid>
+      <pubDate>Wed, 29 Apr 2026 17:44:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951786</comments>
+    </item>
+    <item>
+      <title>カーソルキャンプ</title>
+      <link>https://neal.fun/cursor-camp/</link>
+      <guid isPermaLink="true">https://neal.fun/cursor-camp/</guid>
+      <pubDate>Wed, 29 Apr 2026 15:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47949939</comments>
+    </item>
+    <item>
+      <title>UXの法則</title>
+      <link>https://lawsofux.com/</link>
+      <description>📝 ユーザーはほとんどの時間を他のサイトに費やします。視覚的に接続されている要素は、接続のない要素よりも関連性が高いと認識されます。タスクを完了するために必要な情報を一時的に保持および操作する認知システム。
+
+
+🔤 Original: Laws of UX
+
+🔗 Read more: https://lawsofux.com/</description>
+      <guid isPermaLink="true">https://lawsofux.com/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:58:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951137</comments>
     </item>
     <item>
       <title>オンライン年齢認証は死に至る丘だ</title>
-      <link>https://xcancel.com/GlennMeder/status/2049088498163216560</link>
-      <description>📝 他のことに集中しているときに無視できるポリシーではありません。これは、デジタル制御グリッドの他のすべての部分を可能にするインフラストラクチャです。この戦いに負ければすべてを失う。
+      <link>https://x.com/GlennMeder/status/2049088498163216560</link>
+      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x を引き続き使用するには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
 
 
 🔤 Original: Online age verification is the hill to die on
 
-🔗 Read more: https://xcancel.com/GlennMeder/status/2049088498163216560</description>
-      <guid isPermaLink="true">https://xcancel.com/GlennMeder/status/2049088498163216560</guid>
+🔗 Read more: https://x.com/GlennMeder/status/2049088498163216560</description>
+      <guid isPermaLink="true">https://x.com/GlennMeder/status/2049088498163216560</guid>
       <pubDate>Wed, 29 Apr 2026 15:49:57 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=47950091</comments>
     </item>
     <item>
-      <title>スクーデリア・フェラーリ F1 チームから学び、ICU の引き継ぎを改善</title>
-      <link>https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</link>
-      <description>📝 これらの事件では、非常にリスクの高い患者に対する複雑な手術という技術的な課題により、チームは後に患者に影響を与えるミスを防ぐことができない場合がありました。ここで彼らは安全な監視と換気に戻されます。これらの小さな問題は患者ケアに影響を与えていないと主張することも可能ですが、私たちの研究 (Catchpole et al.
+      <title>エルゼビアの引用カルテル取り締まりで3人目の編集者を解雇</title>
+      <link>https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</link>
+      <description>📝 サミュエル・ヴィーニュ氏は、インターナショナル・レビュー・オブ・ファイナンシャル・アナリシスとファイナンス・リサーチ・レターズの編集長を解任された。 John Goodell が発表した論文は次のとおりです: International Review of Financial Analysis に 47 件の論文 International Review of Economy &amp; Finance に 12 件の論文 Finance Research Letters だけで 66 件の論文 腐敗したジャーナルに合計 125 件の論文があります。 2025 年 1 月と 2025 年 3 月、ガーナ大学の金融上級講師であるエマニュエル・アバカは、グッデルの RIBAF で 2 つの論文を発表しました。これらの論文はジョン・グッデルの査読中ですが、エマニュエル・アバカはグッデルを a. として追加しました。
 
 
-🔤 Original: Improving ICU handovers by learning from Scuderia Ferrari F1 team
+🔤 Original: Third Editor Fired in Elsevier's Citation Cartel Crackdown
 
-🔗 Read more: https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</description>
-      <guid isPermaLink="true">https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari</guid>
-      <pubDate>Wed, 29 Apr 2026 13:05:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47947834</comments>
+🔗 Read more: https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</description>
+      <guid isPermaLink="true">https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation</guid>
+      <pubDate>Wed, 29 Apr 2026 15:45:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950022</comments>
     </item>
     <item>
-      <title>Linux 7.0 が PostgreSQL を壊す: プリエンプション回帰の説明</title>
-      <link>https://read.thecoder.cafe/p/linux-broke-postgresql</link>
-      <description>📝 0 は、Linux 6 の約半分のスループットを実現しました。そのため、PostgreSQL は、最近読み取られたデータ ページをキャッシュする共有メモリの大きな領域である共有バッファ プールを維持します。そのバッファを見つける仕事は、StrategyGetBuffer と呼ばれる 1 つの重要な関数に当てはまります。
-
-
-🔤 Original: Linux 7.0 Broke PostgreSQL: The Preemption Regression Explained
-
-🔗 Read more: https://read.thecoder.cafe/p/linux-broke-postgresql</description>
-      <guid isPermaLink="true">https://read.thecoder.cafe/p/linux-broke-postgresql</guid>
-      <pubDate>Wed, 29 Apr 2026 15:13:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949585</comments>
+      <title>未来を築く方法: デミス・ハサビス [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=JNyuX1zoOgU</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=JNyuX1zoOgU</guid>
+      <pubDate>Wed, 29 Apr 2026 14:05:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47948664</comments>
     </item>
     <item>
-      <title>AI チャットボットをフレンドリーにすることで間違いが生じ、陰謀論が支持される</title>
-      <link>https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</link>
-      <description>📝 研究によると、温かいチャットボットは精度が 30% 低く、誤った信念を支持する可能性が 40% 高いことがわかりました。温厚なチャットボットは、回答の正確性が 30% 低く、ユーザーの誤った信念を支持する可能性が 40% 高かった。オリジナル版では、着陸が本物であることが確認されました。
+      <title>私が依然として Haskell ではなく Lisp と Scheme に手を伸ばす理由</title>
+      <link>https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</link>
+      <description>📝 実は私はHaskellが大好きです。 Haskell プロジェクトでイライラしながら 1 時間過ごした後、この言語を何年も経験したにもかかわらず、私は依然として依存関係と格闘し、その後モナディック API と格闘していました。そして、そもそも自分が何をしていたかさえ忘れていることに気づき、結局すべてを諦めることになりました。これは、私にとって Haskell との摩擦点となることがよくありました。
 
 
-🔤 Original: Making AI chatbots friendly leads to mistakes and support of conspiracy theories
+🔤 Original: Why I still reach for Lisp and Scheme instead of Haskell
 
-🔗 Read more: https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</description>
-      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study</guid>
-      <pubDate>Wed, 29 Apr 2026 15:11:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949538</comments>
+🔗 Read more: https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</description>
+      <guid isPermaLink="true">https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html</guid>
+      <pubDate>Wed, 29 Apr 2026 08:43:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47945707</comments>
     </item>
     <item>
-      <title>法廷規則修正第 2 条、銃器の部品も対象に 銃を製造する人たちに朗報</title>
-      <link>https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</link>
-      <description>📝 これにより、所有者は基本的に複数のライフルを 1 つにまとめることになります。これにより、所有者は基本的に複数のライフルを 1 つにまとめることになります。通常、そこにシリアル番号が入ります」とジョージ氏は語った。
+      <title>メリーランド州が食料品店での監視価格設定を禁止する初の州となる</title>
+      <link>https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</link>
+      <description>📝 つまり、購入者はほぼ同じ時期に購入した同じ商品に対して異なる価格を支払っていることになります。同法は監視価格設定を通じてより高い価格を設定することを禁止しているが、価格の引き下げについては触れていない。 「メリーランド州法案の最大の脅威は、他の州がそれを自らの管轄区域で模倣すべきモデル法案とみなしてしまうことだ」とヘプナー氏は言う。
 
 
-🔤 Original: Court Rules 2nd Amendment Covers Firearms Parts Good News Those Who Build Guns
+🔤 Original: Maryland becomes first state to ban surveillance pricing in grocery stores
 
-🔗 Read more: https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</description>
-      <guid isPermaLink="true">https://cowboystatedaily.com/2026/04/28/court-rules-2nd-amendment-covers-firearms-parts-good-news-for-those-who-build-guns/</guid>
-      <pubDate>Wed, 29 Apr 2026 16:08:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47950377</comments>
+🔗 Read more: https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</description>
+      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/29/maryland-grocery-stores-ban-surveillance-pricing</guid>
+      <pubDate>Wed, 29 Apr 2026 16:50:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951007</comments>
     </item>
     <item>
-      <title>製造コストが 2.5 ドルから 5 ドルかかるオープンソースの聴診器</title>
-      <link>https://github.com/GliaX/Stethoscope</link>
-      <description>📝 部品表 印刷部品: 1 聴診器ヘッド (ヘッド。聴診器ヘッドにダイヤフラム (40mm) を取り付けます。聴診器ヘッドをシリコン チューブに取り付けます。
+      <title>「サラに聞いてみて」の終わり</title>
+      <link>https://simme.dev/posts/the-end-of-just-ask-sarah/</link>
+      <description>📝 それはドキュメントの内容を変えます。コードベースには、決定の結果、つまり出荷されたコード、固定された抽象化、伝播されたパターンが含まれます。選択を推進した制約と受け入れられたトレードオフ。
 
 
-🔤 Original: An open-source stethoscope that costs between $2.5 and $5 to produce
+🔤 Original: The end of "Just ask Sarah"
 
-🔗 Read more: https://github.com/GliaX/Stethoscope</description>
-      <guid isPermaLink="true">https://github.com/GliaX/Stethoscope</guid>
-      <pubDate>Wed, 29 Apr 2026 14:47:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=47949204</comments>
+🔗 Read more: https://simme.dev/posts/the-end-of-just-ask-sarah/</description>
+      <guid isPermaLink="true">https://simme.dev/posts/the-end-of-just-ask-sarah/</guid>
+      <pubDate>Wed, 29 Apr 2026 19:00:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47952807</comments>
+    </item>
+    <item>
+      <title>Show HN: 確定的な出力について LLM をテストするための新しいベンチマーク</title>
+      <link>https://interfaze.ai/blog/introducing-structured-output-benchmark</link>
+      <description>📝 すべての単一のリーフ値が正確に正しいレコードの割合。すべてのモデルが同じテキスト正規化コンテキストを取得した場合でも、同じモデルのスコアは、テキスト、画像、音声間で大きく異なります。すべての有効なモデルにわたるモダリティ別の最高値精度: 3 つすべてに勝る単一のモデルはありません。
+
+
+🔤 Original: Show HN: A new benchmark for testing LLMs for deterministic outputs
+
+🔗 Read more: https://interfaze.ai/blog/introducing-structured-output-benchmark</description>
+      <guid isPermaLink="true">https://interfaze.ai/blog/introducing-structured-output-benchmark</guid>
+      <pubDate>Wed, 29 Apr 2026 16:01:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950283</comments>
+    </item>
+    <item>
+      <title>At Protocol: ソーシャル インターネットの構築</title>
+      <link>https://atproto.com/</link>
+      <description>📝 詳細はこちら ユーザー所有の ID でログインユーザー名は単なるドメインです。詳細はこちら ユーザー所有の ID でログインユーザー名は単なるドメインです。 ○●○次へ強力なリンクを使用するコンテンツ ID を使用して、他のユーザーのデータへの強力なリンクを作成します。
+
+
+🔤 Original: At Protocol: Building the Social Internet
+
+🔗 Read more: https://atproto.com/</description>
+      <guid isPermaLink="true">https://atproto.com/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:20:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47950575</comments>
+    </item>
+    <item>
+      <title>Apple Silicon Mac の仮想化は異なります</title>
+      <link>https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</link>
+      <description>📝 Virtio ドライバー Apple シリコン チップ内のすべてのハードウェア デバイスは、Intel Mac の同等のハードウェア デバイス (存在する場合) とは異なります。代わりに Apple が行ったのは、Virtio ドライバーの形式でデバイス サポートを macOS に組み込むことでした。これにより、Apple シリコン上の仮想化でどのようなハードウェアと機能がサポートされるかは Apple が管理することになります。
+
+
+🔤 Original: Virtualisation on Apple Silicon Macs is different
+
+🔗 Read more: https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</description>
+      <guid isPermaLink="true">https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:51:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951037</comments>
+    </item>
+    <item>
+      <title>前方配置エンジニアの台頭</title>
+      <link>https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</link>
+      <description>📝 Services-as-Software フライホイールには、実際の運用システム内でこれらのテクノロジを接続する組み込み実行層が必要です。 FDE は、その変化を実現するメカニズムです。それは商業力学全体を変えます。
+
+
+🔤 Original: Rise of the Forward Deployed Engineer
+
+🔗 Read more: https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</description>
+      <guid isPermaLink="true">https://www.hfsresearch.com/research/fde-optional-ai-flywheel-spin/</guid>
+      <pubDate>Wed, 29 Apr 2026 16:54:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=47951082</comments>
     </item>
   </channel>
 </rss>
