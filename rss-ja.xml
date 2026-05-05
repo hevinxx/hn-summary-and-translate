@@ -6,94 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 05:44:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 08:11:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>AMC の映画上映の約 10% ではチケットの販売がゼロです。このサイトはそれらを見つけます</title>
-      <link>https://walzr.com/empty-screenings</link>
-      <guid isPermaLink="true">https://walzr.com/empty-screenings</guid>
-      <pubDate>Tue, 05 May 2026 04:33:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48018066</comments>
+      <title>Async RustはMVP状態から抜け出すことはなかった</title>
+      <link>https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state</link>
+      <description>📝 これがなぜ重要なのか。 Panicked 状態で将来をポーリングすると、パニックが発生します。 ）なるほど、これは合理的ですね。
+
+
+🔤 Original: Async Rust never left the MVP state
+
+🔗 Read more: https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state</description>
+      <guid isPermaLink="true">https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state</guid>
+      <pubDate>Tue, 05 May 2026 07:26:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48019163</comments>
     </item>
     <item>
-      <title>独自の LLM をゼロからトレーニングする</title>
-      <link>https://github.com/angelos-p/llm-from-scratch</link>
-      <description>📝 構築するもの MacBook 上でゼロからトレーニングされた、シェイクスピアのようなテキストを生成できる実用的な GPT モデル。最終的には、実用的なモデルが完成します。トークン化: キャラクター vs BPE このワークショップでは、シェイクスピアのキャラクターレベルのトークン化を使用します。
+      <title>手描きの QR コード</title>
+      <link>https://sethmlarson.dev/hand-drawn-qr-codes</link>
+      <description>📝 今日の昼食後に更新された QR コードが公開される予定です。ついにQRコードが完成しました。ただし、QR コードをモニターに吊るすことは、遠くからスキャンする場合でも、非常にうまく機能しました。
 
 
-🔤 Original: Train Your Own LLM from Scratch
+🔤 Original: Hand Drawn QR Codes
 
-🔗 Read more: https://github.com/angelos-p/llm-from-scratch</description>
-      <guid isPermaLink="true">https://github.com/angelos-p/llm-from-scratch</guid>
-      <pubDate>Tue, 05 May 2026 04:09:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48017948</comments>
+🔗 Read more: https://sethmlarson.dev/hand-drawn-qr-codes</description>
+      <guid isPermaLink="true">https://sethmlarson.dev/hand-drawn-qr-codes</guid>
+      <pubDate>Tue, 05 May 2026 04:02:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48017907</comments>
     </item>
     <item>
-      <title>CVE-2026-31431: コピー失敗とルートレス コンテナー</title>
-      <link>https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/</link>
-      <description>📝 標準の objdump -d シェルコード。 syscall 命令は setuid(0) を実行します。最後のシステムコールは execve("/bin/sh", NULL, NULL) を実行します。
+      <title>エージェントティック コーディングの教訓: コードが安価な場合は何をすべきか?</title>
+      <link>https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html</link>
+      <description>📝 あなたの意図が意思決定の動機となり、それをコードとともに永続化することで、あなたとエージェントが一貫した方向に意思決定をまとめるのに役立ちます。スペックを常に同期させてください。コードとテストを進めるにつれて、仕様、つまり目標と計画を含むマークダウン ファイルを更新します。
 
 
-🔤 Original: CVE-2026-31431: Copy Fail vs. rootless containers
+🔤 Original: Lessons for Agentic Coding: What should we do when code is cheap?
 
-🔗 Read more: https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/</description>
-      <guid isPermaLink="true">https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/</guid>
-      <pubDate>Tue, 05 May 2026 03:43:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48017813</comments>
+🔗 Read more: https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html</description>
+      <guid isPermaLink="true">https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html</guid>
+      <pubDate>Tue, 05 May 2026 07:05:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48019025</comments>
     </item>
     <item>
-      <title>ピューリッツァー賞国際報道部門受賞者</title>
-      <link>https://www.pulitzer.org/winners/dake-kang-garance-burke-byron-tau-aniruddha-ghosal-and-yael-grauer-contributor-associated</link>
-      <guid isPermaLink="true">https://www.pulitzer.org/winners/dake-kang-garance-burke-byron-tau-aniruddha-ghosal-and-yael-grauer-contributor-associated</guid>
-      <pubDate>Tue, 05 May 2026 02:22:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48017399</comments>
+      <title>子供たちは偽の口ひげで年齢認証を回避する</title>
+      <link>https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/</link>
+      <description>📝 年齢確認は簡単に回避できると回答した子どもも46％いたが、だまされるのは難しいと回答したのはわずか17％だった。 Internet Matters にはそのためのデータもあります。 ® 技術リソースを入手 共有 英国政府についての詳細 オンライン危害 ソーシャル メディア 同様の内容 × 英国政府について詳細 オンライン危害 ソーシャル メディア 英国 より狭いトピック BBC Brexit 英国軍 内閣府 競争市場庁 コンピュータ不正使用法 DCMS ESA ファイブ・アイズ GCHQ HMRC ホーム オフィス ICO Instagram ロンドン NCSC NHS 英国議会 RPA スコットランド ソーシャル ネットワーク より広範なトピック EMEA ヨーロッパ 政府 共有の詳細14 コメント 英国政府についての詳細 オンライン被害ソーシャルメディア 同様の内容 × 英国政府について詳細 オンライン被害ソーシャルメディア 英国 より狭いトピック BBC Brexit 英国軍 内閣府 競争市場庁 コンピュータ不正使用法 DCMS ESA ファイブ・アイズ GCHQ HMRC ホームオフィス ICO Instagram ロンドン NCSC NHS 英国議会 RPA スコットランド ソーシャルネットワーク より広範なトピック EMEA ヨーロッパ政府 TIP US OFF ニュースをお送りください。
+
+
+🔤 Original: Kids bypass age verification with fake moustaches
+
+🔗 Read more: https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/</description>
+      <guid isPermaLink="true">https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/</guid>
+      <pubDate>Tue, 05 May 2026 04:36:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48018080</comments>
     </item>
     <item>
-      <title>あなたを見守る車: 現代の自動車の広告インフラ</title>
-      <link>https://nobodyaskedforthis.lol/posts/connected-car/</link>
-      <guid isPermaLink="true">https://nobodyaskedforthis.lol/posts/connected-car/</guid>
-      <pubDate>Tue, 05 May 2026 02:01:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48017251</comments>
+      <title>2 次元の数学的曲線</title>
+      <link>https://www.2dcurves.com/</link>
+      <description>📝 こんにちは。939 個の 2 次元数学曲線のコレクション 1 を入力しました。方程式の種類により、代数曲線は x および y 直線の多項式です (1 次) 円錐曲線 (2 次) 3 次曲線 (3 次) 4 次曲線 (4 次) 6 次曲線 (6 次) 8 次曲線 (8 次) その他の (その他) 超越曲線 離散指数フラクタル ガンマおよび関連する等時性パワー 指数関数スパイラル三角関数代数曲線は、x および y 直線の多項式です (1 次) 円錐 (2 次) 3 次 (3 次) 4 次 (4 次) 6 次 (6 次) 8 次 (8 次) その他 (その他) 超越曲線 離散指数フラクタル ガンマ &amp; 関連する等時性パワー 指数スパイラル 三角関数超越曲線 離散指数フラクタル ガンマ &amp; 関連する等時性パワー パワー 指数スパイラル 三角法 4. 導出による 導出曲線 重心苛性シソイドコンコイド曲率 周期導関数 エンベロープ双曲線 逆等光平行ペダル追跡 反射壁ルーレット ストロフォイド トラクトリックス 導出曲線 重心苛性シソイドコンコイド曲率 周期微分エンベロープ双曲線 逆等光平行ペダル追跡 反射壁ルーレット ストロフォイドtractrix 著作権: jan wassenaar - 最終更新日: 2013-09-21。
+
+
+🔤 Original: 2-D Mathematical Curves
+
+🔗 Read more: https://www.2dcurves.com/</description>
+      <guid isPermaLink="true">https://www.2dcurves.com/</guid>
+      <pubDate>Tue, 05 May 2026 04:27:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48018034</comments>
     </item>
     <item>
-      <title>世界各国の食糧生産の格差</title>
-      <link>https://www.nature.com/articles/s43016-025-01173-4</link>
-      <description>📝 これは、各国が食料自給自足を達成できるかどうかという疑問を引き起こします。 12—回復力のある食料システムの構築。 1: 特定の食料グループの自給率。
+      <title>ビスケット</title>
+      <link>https://github.com/yattsu/biscuit</link>
+      <description>📝 CrossPoint Reader からフォークされました。ホーム画面は、ライブ システム情報 (バッテリー、ヒープ、稼働時間、WiFi ステータス) を含むタイルベースのダッシュボードです。アプリの機能 WiFi スキャナー AP と接続されたクライアントの検出 BLE スキャナー BLE デバイスのスキャン、サービスと特性の参照 フル スイープ WiFi + BLE パッシブ スキャンの組み合わせ パケット モニター PCAP 記録による WiFi フレームの監視 プローブ スニッファー WiFi プローブ リクエストのキャプチャ ワードライビング 信号強度によるアクセス ポイントのログ記録 混雑密度 プローブ リクエストのカウントによる近くの人々の推定 デバイスの指紋 プローブ リクエストのパターンからデバイスの OS を特定 ベンダー ルックアップ MAC によるメーカーの特定 (SD 上の OUI データベース) AP 履歴可視アクセス ポイントを SD に経時的に記録する 近くのデバイスのネットワーク変更スナップショット、変更を比較する 新しいデバイスがエリアに出現したときの境界ウォッチ アラート BLE 近接追跡 BLE デバイス RSSI WiFi ヒート マップ RSSI マッピング ウォークアバウト シグナル ロケーター RSSI 三角測量による AP 位置の推定 認証解除フレーム スパイクの監視 認証解除検出器 オフェンス - アクティブなワイヤレス テスト オフェンスでは、4 つのフェーズにグループ化された 2×2 サブメニューが開きます。
 
 
-🔤 Original: Gaps in national food production, worldwide
+🔤 Original: Biscuit
 
-🔗 Read more: https://www.nature.com/articles/s43016-025-01173-4</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/s43016-025-01173-4</guid>
-      <pubDate>Mon, 04 May 2026 12:55:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48008104</comments>
-    </item>
-    <item>
-      <title>OpenAI は機能する RSS フィードを構築できない</title>
-      <link>https://openai.com/news/rss.xml</link>
-      <description>📝 com/index/openai-pwc-finance-collaboration https://openai. com/index/delivering-low-latency-voice-ai-at-scale https://openai. com/index/advanced-account-security https://openai.
-
-
-🔤 Original: OpenAI can't build working RSS feeds
-
-🔗 Read more: https://openai.com/news/rss.xml</description>
-      <guid isPermaLink="true">https://openai.com/news/rss.xml</guid>
-      <pubDate>Tue, 05 May 2026 04:40:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48018098</comments>
-    </item>
-    <item>
-      <title>Y Combinator の OpenAI 株 (0.6%)</title>
-      <link>https://daringfireball.net/2026/05/y_combinators_stake_in_openai</link>
-      <description>📝 私の頭に引っかかったのは、Y Combinator は OpenAI の株式を所有しているのかということです。そのため、Y Combinator が OpenAI の株式を所有していることはよく知られています。しかし、その賭け金はどれほど大きいのでしょうか。
-
-
-🔤 Original: Y Combinator's Stake in OpenAI (0.6%)
-
-🔗 Read more: https://daringfireball.net/2026/05/y_combinators_stake_in_openai</description>
-      <guid isPermaLink="true">https://daringfireball.net/2026/05/y_combinators_stake_in_openai</guid>
-      <pubDate>Tue, 05 May 2026 00:09:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48016534</comments>
+🔗 Read more: https://github.com/yattsu/biscuit</description>
+      <guid isPermaLink="true">https://github.com/yattsu/biscuit</guid>
+      <pubDate>Tue, 05 May 2026 03:09:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48017641</comments>
     </item>
   </channel>
 </rss>
