@@ -6,95 +6,35 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 02:53:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 05:31:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Canvas is down as ShinyHunters threatens to leak schools’ data</title>
-      <link>https://www.theverge.com/tech/926458/canvas-shinyhunters-breach</link>
-      <description>📝 TechNewsSecurityCanvas is down as ShinyHunters threatens to leak schools’ dataA massive outage of the learning platform started with a ransom message claiming to be from the ShinyHunters hacking group. A massive outage of the learning platform started with a ransom message claiming to be from the ShinyHunters hacking group. Update, May 7th: Added Infrastructure’s maintenance mode message.
-
-🔗 Read more: https://www.theverge.com/tech/926458/canvas-shinyhunters-breach</description>
-      <guid isPermaLink="true">https://www.theverge.com/tech/926458/canvas-shinyhunters-breach</guid>
-      <pubDate>Thu, 07 May 2026 22:22:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48055913</comments>
-    </item>
-    <item>
-      <title>Maybe you shouldn't install new software for a bit</title>
-      <link>https://xeiaso.net/blog/2026/abstain-from-install/</link>
-      <guid isPermaLink="true">https://xeiaso.net/blog/2026/abstain-from-install/</guid>
-      <pubDate>Thu, 07 May 2026 23:02:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48056227</comments>
-    </item>
-    <item>
-      <title>Researchers discover advanced language processing in the unconscious human brain</title>
-      <link>https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain</link>
-      <description>📝 Patients undergoing this type of surgery were sought after because it allowed researchers access to this particular part of the brain. Researchers found that hippocampal neurons could distinguish these unusual tones and that this ability improved over time, suggesting a form of learning or neural plasticity during anesthesia. Even more surprising, researchers found that neural signals could predict upcoming words in a sentence.
-
-🔗 Read more: https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain</description>
-      <guid isPermaLink="true">https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain</guid>
-      <pubDate>Thu, 07 May 2026 23:06:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48056268</comments>
-    </item>
-    <item>
-      <title>Building for the Future</title>
-      <link>https://blog.cloudflare.com/building-for-the-future/</link>
-      <description>📝 For those departing today, we will send this update to both their personal and Cloudflare addresses to ensure they receive the information immediately. It’s important to us that we treat departing team members right and in a way that exceeds what we’ve seen from other companies. We’ve asked the team to do this only once, as hard as that may be today.
-
-🔗 Read more: https://blog.cloudflare.com/building-for-the-future/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/building-for-the-future/</guid>
+      <title>Cloudflare to cut about 20% workforce</title>
+      <link>https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/</guid>
       <pubDate>Thu, 07 May 2026 20:23:37 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=48054423</comments>
     </item>
     <item>
-      <title>GNU IFUNC is the real culprit behind CVE-2024-3094</title>
-      <link>https://github.com/robertdfrench/ifuncd-up</link>
-      <description>📝 Did the folks who patched OpenSSH for SystemD know (or care) that libsystemd depends on xz-utils. Did the SystemD folks know (or care) that xz-utils had begun using ifunc. Did the OpenSSH folks know (or care) that ifunc was a thing.
+      <title>Agentic Engineering</title>
+      <link>https://addyosmani.com/blog/agentic-engineering/</link>
+      <description>📝 What vibe coding actually is Vibe coding means going with the vibes and not reviewing the code. Code quality is irrelevant. What agentic engineering looks like in practice, perhaps.
 
-🔗 Read more: https://github.com/robertdfrench/ifuncd-up</description>
-      <guid isPermaLink="true">https://github.com/robertdfrench/ifuncd-up</guid>
-      <pubDate>Fri, 08 May 2026 00:03:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48056749</comments>
+🔗 Read more: https://addyosmani.com/blog/agentic-engineering/</description>
+      <guid isPermaLink="true">https://addyosmani.com/blog/agentic-engineering/</guid>
+      <pubDate>Fri, 08 May 2026 04:27:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48058566</comments>
     </item>
     <item>
-      <title>Komai: a fine Matrix chat app you can get to love</title>
-      <link>https://etke.cc/blog/introducing-komai</link>
-      <description>📝 🤔 Why another Matrix client. We started with nheko — a native Qt/QML Matrix client. These Matrix libraries are behind where the Matrix ecosystem is heading.
+      <title>Hardening Firefox with Claude Mythos Preview</title>
+      <link>https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/</link>
+      <description>📝 2022733 Triggers a parent UAF by flooding WebTransport with thousands of certificate hashes to stretch a race condition in a refcount-heavy copy loop, and exploits that race condition over IPC from a compromised content process. Note that a number of these bugs are sandbox escapes, which would need to be combined with other exploits to achieve a full-chain Firefox compromise. These reports presume that the sandboxed process that renders site content has already been compromised with some separate bug, and is now running attacker-controlled machine.
 
-🔗 Read more: https://etke.cc/blog/introducing-komai</description>
-      <guid isPermaLink="true">https://etke.cc/blog/introducing-komai</guid>
-      <pubDate>Fri, 08 May 2026 00:10:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48056804</comments>
-    </item>
-    <item>
-      <title>Nonprofit hospitals spend billions on consultants with no clear effect</title>
-      <link>https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants</link>
-      <description>📝 Nonprofit hospitals spend billions on management consultants with no clear effectIn recent decades, management consulting firms have become a fixture in the American healthcare system, wielding outsized influence compared to most other economic sectors. Using machine learning, the researchers identified hospital contracts with management consulting firms, compared 306 hospitals that initiated contracts with management consultants between 2010-2022 with a matched group of hospitals that did not, and then analyzed differences in finances, staffing, operations, and patient outcomes. Over 20% of all nonprofit hospitals engaged management consultants during the study period.
-
-🔗 Read more: https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants</description>
-      <guid isPermaLink="true">https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants</guid>
-      <pubDate>Thu, 07 May 2026 22:54:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48056158</comments>
-    </item>
-    <item>
-      <title>Two Home Affairs officials suspended after AI 'hallucinations' found</title>
-      <link>https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/</link>
-      <description>📝 News Home » News Two Home Affairs officials suspended after AI ‘hallucinations’ found in policy paper By Jarryd Westerdale Journalist 4 minute read 1 May 2026 08:48 am RELATED ARTICLES Cognitive offloading: Is your child outsourcing their thinking to AI. Read more Real people, real facts, not ‘AI slop’ Support Local Journalism Add The Citizen as a Preferred Source on Google and follow us on Google News to see more of our trusted reporting in Google News and Top Stories. News Fadiel Adams will have to wait for bail News Phala Phala case recap: What you need to know Download our app Get the latest news and updates on Whatsapp The latest news directly in your inbox Support Local Journalism Add as Preferred Source on Google Follow on Google News.
-
-🔗 Read more: https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/</description>
-      <guid isPermaLink="true">https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/</guid>
-      <pubDate>Thu, 07 May 2026 19:38:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48053842</comments>
-    </item>
-    <item>
-      <title>Gambling ads on social media reach more than twice as many men as women: study</title>
-      <link>https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women</link>
-      <description>📝 Once the provisions concerning advertising begin, gambling advertising on social media will be restricted to users who follow a licensed gambling operator. ‘Gambling adverts on social media reach 2. 3 times more men than women: using the Meta Ad Library to assess gambling advertising in Ireland.
-
-🔗 Read more: https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women</description>
-      <guid isPermaLink="true">https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women</guid>
-      <pubDate>Thu, 07 May 2026 23:17:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48056359</comments>
+🔗 Read more: https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/</description>
+      <guid isPermaLink="true">https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/</guid>
+      <pubDate>Thu, 07 May 2026 16:05:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48051079</comments>
     </item>
   </channel>
 </rss>
