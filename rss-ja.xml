@@ -6,99 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 May 2026 19:02:55 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 21:44:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>CPanel のブラック ウィーク: 44k サーバーへの攻撃後に 3 つの新たな脆弱性がパッチされる</title>
-      <link>https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/</link>
-      <description>📝 これは、cPanel からの 10 日間で 2 回目のテクニカル セキュリティ リリース (TSR) です。 CVE-2026-29202 — 任意の Perl コードの実行 (CVSS 8。重大度: 高 (CVSS 8.
+      <title>Bun の実験的な Rust 書き換えは、Linux x64 glibc でのテスト互換性が 99.8% に達しました</title>
+      <link>https://twitter.com/jarredsumner/status/2053047748191232310</link>
+      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x の使用を続けるには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
 
 
-🔤 Original: CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers
+🔤 Original: Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc
 
-🔗 Read more: https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/</description>
-      <guid isPermaLink="true">https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/</guid>
-      <pubDate>Sat, 09 May 2026 17:06:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48076465</comments>
+🔗 Read more: https://twitter.com/jarredsumner/status/2053047748191232310</description>
+      <guid isPermaLink="true">https://twitter.com/jarredsumner/status/2053047748191232310</guid>
+      <pubDate>Sat, 09 May 2026 10:12:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48073680</comments>
     </item>
     <item>
-      <title>URL にクエリ文字列を追加しません</title>
-      <link>https://susam.net/no-query-strings.html</link>
-      <description>📝 その誤機能はこの投稿に関係します。 Chris の最近のブログ投稿は、このような機能を批判しています。それをリンクに追加すると、ユーザーを虐待することになります。
+      <title>インターネット アーカイブ スイス</title>
+      <link>https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/</link>
+      <description>📝 Internet Archive Switzerland、オンライン (https://internetarchive)。 Internet Archive Switzerland は、Internet Archive、Internet Archive Canada、Internet Archive Europe と並んで、成長を続ける使命を持った組織のグループに加わります。 Internet Archive Switzerland のエグゼクティブ ディレクター、Roman Griesfelder までお問い合わせください。office@internetarchive です。
 
 
-🔤 Original: I Will Not Add Query Strings to Your URLs
+🔤 Original: Internet Archive Switzerland
 
-🔗 Read more: https://susam.net/no-query-strings.html</description>
-      <guid isPermaLink="true">https://susam.net/no-query-strings.html</guid>
+🔗 Read more: https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/</description>
+      <guid isPermaLink="true">https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/</guid>
+      <pubDate>Sat, 09 May 2026 12:00:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48074265</comments>
+    </item>
+    <item>
+      <title>クエリ文字列を禁止しました</title>
+      <link>https://chrismorgan.info/no-query-strings</link>
+      <description>📝 クエリ文字列を禁止しました 🗓️ 2026-05-08 • /web、/opinions、/meta=only タグを付けました URL に追跡情報を追加する人が好きではありません。情報/クエリ文字列なし。情報/クエリ文字列なし。
+
+
+🔤 Original: I’ve banned query strings
+
+🔗 Read more: https://chrismorgan.info/no-query-strings</description>
+      <guid isPermaLink="true">https://chrismorgan.info/no-query-strings</guid>
       <pubDate>Sat, 09 May 2026 16:28:36 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=48076173</comments>
     </item>
     <item>
-      <title>Bun を 6 日で Rust に移植</title>
-      <link>https://xunroll.com/thread/2053047748191232310</link>
-      <description>📝 これについてはブログ投稿があるでしょう。これがバンにとって何を意味するか、ベンチマーク、メモリ使用量、今後の保守性、そしてこれを行う文字通りのプロセスについても考えました (単に「クロード、錆びたバンを書き直せ」というだけではありませんでした。手作業では膨大な量の作業になるでしょう。
+      <title>FreeBSD: Execve() によるローカル権限昇格</title>
+      <link>https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc</link>
+      <description>📝 4-STABLE) 2026-04-29 14:49:40 UTC (releng/14. 解決策 脆弱なシステムをサポートされている FreeBSD 安定版または修正日以降のリリース/セキュリティ ブランチ (releng) にアップグレードし、システムを再起動します。次のいずれかを実行します。 1) 基本システム パッケージからインストールされた脆弱なシステムを更新するには: 15. を実行しているシステム。
 
 
-🔤 Original: Bun ported to Rust in 6 days
+🔤 Original: FreeBSD: Local Privilege Escalation via Execve()
 
-🔗 Read more: https://xunroll.com/thread/2053047748191232310</description>
-      <guid isPermaLink="true">https://xunroll.com/thread/2053047748191232310</guid>
-      <pubDate>Sat, 09 May 2026 18:47:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48077231</comments>
+🔗 Read more: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc</description>
+      <guid isPermaLink="true">https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc</guid>
+      <pubDate>Sat, 09 May 2026 20:31:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48077971</comments>
     </item>
     <item>
-      <title>アップルが私のコルチゾールレベルを上昇させている</title>
-      <link>https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels</link>
-      <description>📝 つまり、たとえそれがうまくいったとしても、VATとかゆみが発生することになります。デスクトップ ソフトウェアには Homebrew がありますが、それは、たとえ欲しくても数ドルを請求できないことを意味します (あるいは、mac-homebrew-install-instructions を追加する必要があることも意味します。写真はイライラを最大限に高めるために、私が必要としていたドングルです。それでも十分ではありませんでした。なぜなら、当然のことながら、近くに置いたものにオートフォーカスを備えていないからです。
+      <title>車を捕まえた</title>
+      <link>https://undecidability.net/senior/</link>
+      <description>📝 2 年半後の 2026 年 1 月に、私は 2 回目の昇進を確実にし、シニア ソフトウェア エンジニアの称号を獲得しました。悪い目標 この目標を分析してみましょう。キャリアを開始してから 2 年以内にシニア ソフトウェア エンジニアの称号を獲得する。要点は何でしょうか。
 
 
-🔤 Original: Apple is increasing my cortisol levels
+🔤 Original: I caught the car
 
-🔗 Read more: https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels</description>
-      <guid isPermaLink="true">https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels</guid>
-      <pubDate>Sat, 09 May 2026 14:40:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48075366</comments>
+🔗 Read more: https://undecidability.net/senior/</description>
+      <guid isPermaLink="true">https://undecidability.net/senior/</guid>
+      <pubDate>Sat, 09 May 2026 20:31:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48077966</comments>
     </item>
     <item>
-      <title>ビーバートリプルの紹介</title>
-      <link>https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples</link>
-      <description>📝 グループは、レストラン A、レストラン B、レストラン C の 3 つのレストランのどちらにするかを決定しています。同じことがすべての友人とすべてのレストランに起こります。最後に、グループはレストラン A、レストラン B、およびレストラン C の最終的なレストラン スコアを開きますが、個々の手頃な価格や食べ物の好みのスコアは開きません。
-
-
-🔤 Original: Introduction to Beaver Triples
-
-🔗 Read more: https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples</description>
-      <guid isPermaLink="true">https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples</guid>
-      <pubDate>Sat, 09 May 2026 16:02:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48076009</comments>
-    </item>
-    <item>
-      <title>Zed Editor テーマビルダー</title>
-      <link>https://zed.dev/theme-builder</link>
-      <description>📝 useState&lt;Meeting[]&gt;([])53 const [excuseIndex, setExcuseIndex] = 反応します。 useState&lt;boolean&gt;(false)5556 const formRef = 反応します。 useRef&lt;HTMLFormElement&gt;(null)57 const sanityRef = 反応します。
-
-
-🔤 Original: Zed Editor Theme-Builder
-
-🔗 Read more: https://zed.dev/theme-builder</description>
-      <guid isPermaLink="true">https://zed.dev/theme-builder</guid>
-      <pubDate>Sat, 09 May 2026 17:30:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48076651</comments>
-    </item>
-    <item>
-      <title>Show HN: Mochi.js: bun-native 高忠実度ブラウザ自動化ライブラリ</title>
-      <link>https://mochijs.com/</link>
-      <description>📝 🧬 リレーショナル整合性エンジン すべてのフィンガープリント サーフェス (キャンバス、WebGL、オーディオ、フォント、MediaDevices、WebGPU) は、48 ルールの DAG を介して単一の (プロファイル、シード) ペアから派生します。フランケンシュタインの指紋はありません。 Mac UA が Linux WebGL の隣に来ることはありません。
-
-
-🔤 Original: Show HN: Mochi.js: bun-native high-fidelity browser automation library
-
-🔗 Read more: https://mochijs.com/</description>
-      <guid isPermaLink="true">https://mochijs.com/</guid>
-      <pubDate>Sat, 09 May 2026 14:01:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48075059</comments>
+      <title>メタのAIの抱擁従業員を悲惨な状況にしている</title>
+      <link>https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html</guid>
+      <pubDate>Sat, 09 May 2026 18:33:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48077126</comments>
     </item>
   </channel>
 </rss>
