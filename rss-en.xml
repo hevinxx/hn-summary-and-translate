@@ -6,38 +6,89 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 09:39:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:50:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>7 lines of code, 3 minutes: Implement a programming language (2010)</title>
-      <link>https://matt.might.net/articles/implementing-a-programming-language/</link>
-      <description>📝 In this article, I've boiled the entire process down to its essence: a 7-line interpreter for a functional (Turing-equivalent) programming language. This 7-line interpreter showcases a scalable architecture found in many interpreters--the eval/apply design pattern of Structure and Interpretation of Computer Programs: In total, there are three language implementations in this article: a 7-line, 3-minute interpreter in Scheme; a re-implementation in Racket; and a 100-line, "1-afternoon" interpreter that implements top-level binding forms, explicit recursion, side effects, higher-order functions and more. The last interpreter is a good starting point for growing a richer language.
-
-🔗 Read more: https://matt.might.net/articles/implementing-a-programming-language/</description>
-      <guid isPermaLink="true">https://matt.might.net/articles/implementing-a-programming-language/</guid>
-      <pubDate>Mon, 11 May 2026 04:34:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48091085</comments>
+      <title>Killed by Apple</title>
+      <link>https://killedbyapple.theden.sh/</link>
+      <guid isPermaLink="true">https://killedbyapple.theden.sh/</guid>
+      <pubDate>Mon, 11 May 2026 14:28:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48095468</comments>
     </item>
     <item>
-      <title>Mythos Finds a Curl Vulnerability</title>
-      <link>https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</link>
-      <description>📝 I happily accepted this offer. To make an even better curl. We have polished on this.
-
-🔗 Read more: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</description>
-      <guid isPermaLink="true">https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</guid>
-      <pubDate>Mon, 11 May 2026 06:39:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48091737</comments>
+      <title>Ratty – A terminal emulator with inline 3D graphics</title>
+      <link>https://ratty-term.org/</link>
+      <guid isPermaLink="true">https://ratty-term.org/</guid>
+      <pubDate>Mon, 11 May 2026 10:13:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093100</comments>
     </item>
     <item>
-      <title>Show HN: adamsreview – better multi-agent PR reviews for Claude Code</title>
-      <link>https://github.com/adamjgmiller/adamsreview</link>
-      <description>📝 adamsreview Multi-stage code review for Claude Code — parallel sub-agent detection, validation passes, persistent JSON state, and an automated fix loop that re-reviews and reverts regressions before committing. Runs against your regular Claude Code subscription (Max plan recommended) — unlike /ultrareview, which charges against your Extra Usage pool. /adamsreview:walkthrough — interactive driver for findings :fix would skip.
+      <title>Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s</title>
+      <link>https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</link>
+      <description>📝 The reference implementation for this series will be Andrej Karpathy’s llm. That means it’s time for my favorite game: optimize Swift until it’s faster than C. Some foreshadowing, here: the initial Swift implementation was really super slow.
 
-🔗 Read more: https://github.com/adamjgmiller/adamsreview</description>
-      <guid isPermaLink="true">https://github.com/adamjgmiller/adamsreview</guid>
-      <pubDate>Mon, 11 May 2026 02:06:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48090276</comments>
+🔗 Read more: https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</description>
+      <guid isPermaLink="true">https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</guid>
+      <pubDate>Sun, 10 May 2026 17:05:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48085685</comments>
+    </item>
+    <item>
+      <title>Gmail registration now requires scanning a QR code and sending a text message</title>
+      <link>https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</link>
+      <description>📝 Supposedly, using the QR code on the smartphone triggers an SMS sent from your phone to Google in order to verify your phone number. Supposedly, this is for security. A valid argument, since finish is harder this way, although not impossible.
+
+🔗 Read more: https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</description>
+      <guid isPermaLink="true">https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</guid>
+      <pubDate>Mon, 11 May 2026 07:26:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48092028</comments>
+    </item>
+    <item>
+      <title>The OpenAI Deployment Company</title>
+      <link>https://openai.com/index/openai-launches-the-deployment-company/</link>
+      <description>📝 The acquisition will bring approximately 150 experienced Forward Deployed Engineers and Deployment Specialists to the OpenAI Deployment Company from day one. The OpenAI Deployment Company is majority-owned and controlled by OpenAI, giving customers a unified experience whether they work with OpenAI, the OpenAI Deployment Company, or both. Why deployment mattersOpenAI was founded as a research and deployment company.
+
+🔗 Read more: https://openai.com/index/openai-launches-the-deployment-company/</description>
+      <guid isPermaLink="true">https://openai.com/index/openai-launches-the-deployment-company/</guid>
+      <pubDate>Mon, 11 May 2026 13:10:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48094531</comments>
+    </item>
+    <item>
+      <title>ICE to Develop Own Smart Glasses to 'Supplement' Its Facial Recognition App</title>
+      <link>https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</link>
+      <description>📝 This post is for paid members only Become a paid member for unlimited ad-free access to articles, bonus podcast content, and more. Subscribe Sign up for free access to this post Free members get access to posts like this one along with an email round-up of our week's stories. Subscribe Already have an account.
+
+🔗 Read more: https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</description>
+      <guid isPermaLink="true">https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</guid>
+      <pubDate>Mon, 11 May 2026 14:12:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48095282</comments>
+    </item>
+    <item>
+      <title>All Those A.I. Note Takers? They're Making Lawyers Nervous</title>
+      <link>https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html</guid>
+      <pubDate>Mon, 11 May 2026 10:04:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093043</comments>
+    </item>
+    <item>
+      <title>The Adventure Family Tree</title>
+      <link>https://mipmip.org/advfamily/advfamily.html</link>
+      <description>📝 Maintained by Nathanael CJE Culver Comments. Send to [email protected] Comments. Send to [email protected] Comments.
+
+🔗 Read more: https://mipmip.org/advfamily/advfamily.html</description>
+      <guid isPermaLink="true">https://mipmip.org/advfamily/advfamily.html</guid>
+      <pubDate>Mon, 11 May 2026 08:16:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48092367</comments>
+    </item>
+    <item>
+      <title>European Money Pours into Palantir</title>
+      <link>https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</link>
+      <description>📝 Even so, more than 100 major European banks, asset managers, insurers and pension funds increased their combined stake in the company by more than 60% in the last year. The investment by some of the 127 companies analyzed is explained by their holdings in Palantir via funds that track stock market indices. Palantir isn’t the only company that analyzes data for the purpose of warfare.
+
+🔗 Read more: https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</description>
+      <guid isPermaLink="true">https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</guid>
+      <pubDate>Mon, 11 May 2026 11:27:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093626</comments>
     </item>
   </channel>
 </rss>

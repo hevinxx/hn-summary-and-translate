@@ -6,47 +6,107 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 09:39:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:50:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>7 行のコード、3 分: プログラミング言語の実装 (2010)</title>
-      <link>https://matt.might.net/articles/implementing-a-programming-language/</link>
-      <description>📝 この記事では、プロセス全体をその本質、つまり関数型 (チューリングに相当する) プログラミング言語の 7 行インタプリタにまとめました。この 7 行のインタープリターは、多くのインタープリターに見られるスケーラブルなアーキテクチャ、つまりコンピューター プログラムの構造と解釈の評価/適用設計パターンを示しています。この記事には合計 3 つの言語実装があります。Scheme の 7 行、3 分のインタープリターです。 Racket での再実装。そして、トップレベルのバインディング形式、明示的な再帰、副作用、高階関数などを実装する 100 行の「午後 1 時」インタープリターです。最後のインタープリタは、より豊かな言語を成長させるための良い出発点です。
-
-
-🔤 Original: 7 lines of code, 3 minutes: Implement a programming language (2010)
-
-🔗 Read more: https://matt.might.net/articles/implementing-a-programming-language/</description>
-      <guid isPermaLink="true">https://matt.might.net/articles/implementing-a-programming-language/</guid>
-      <pubDate>Mon, 11 May 2026 04:34:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48091085</comments>
+      <title>アップルに殺された</title>
+      <link>https://killedbyapple.theden.sh/</link>
+      <guid isPermaLink="true">https://killedbyapple.theden.sh/</guid>
+      <pubDate>Mon, 11 May 2026 14:28:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48095468</comments>
     </item>
     <item>
-      <title>Mythos が Curl の脆弱性を発見</title>
-      <link>https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</link>
-      <description>📝 私はこの申し出を喜んで受け入れました。より良いカールを作るために。私たちはこれに磨きをかけました。
-
-
-🔤 Original: Mythos Finds a Curl Vulnerability
-
-🔗 Read more: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</description>
-      <guid isPermaLink="true">https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</guid>
-      <pubDate>Mon, 11 May 2026 06:39:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48091737</comments>
+      <title>Ratty – インライン 3D グラフィックスを備えたターミナル エミュレーター</title>
+      <link>https://ratty-term.org/</link>
+      <guid isPermaLink="true">https://ratty-term.org/</guid>
+      <pubDate>Mon, 11 May 2026 10:13:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093100</comments>
     </item>
     <item>
-      <title>HN を表示: adamsreview – Claude Code のマルチエージェント PR レビューの改善</title>
-      <link>https://github.com/adamjgmiller/adamsreview</link>
-      <description>📝 adamsreview クロード コードの多段階コード レビュー — 並列サブエージェント検出、検証パス、永続的な JSON 状態、およびコミット前に回帰を再レビューして元に戻す自動修正ループ。通常の Claude Code サブスクリプション (最大プランを推奨) に対して実行されます。追加使用量プールに対して課金される /ultrareview とは異なります。 /adamsreview:walkthrough — 所見:fix の対話型ドライバーはスキップされます。
+      <title>Swift で LLM をトレーニングする、パート 1: 行列の乗算を Gflop/s から Tflop/s に取得する</title>
+      <link>https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</link>
+      <description>📝 このシリーズのリファレンス実装は、Andrej Karpathy の llm になります。つまり、私のお気に入りのゲームの時期が来たということです。C よりも速くなるまで Swift を最適化します。ここでいくつかの予兆があります。最初の Swift 実装は本当に非常に遅かったです。
 
 
-🔤 Original: Show HN: adamsreview – better multi-agent PR reviews for Claude Code
+🔤 Original: Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s
 
-🔗 Read more: https://github.com/adamjgmiller/adamsreview</description>
-      <guid isPermaLink="true">https://github.com/adamjgmiller/adamsreview</guid>
-      <pubDate>Mon, 11 May 2026 02:06:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48090276</comments>
+🔗 Read more: https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</description>
+      <guid isPermaLink="true">https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</guid>
+      <pubDate>Sun, 10 May 2026 17:05:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48085685</comments>
+    </item>
+    <item>
+      <title>Gmail の登録には、QR コードをスキャンしてテキスト メッセージを送信する必要があります</title>
+      <link>https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</link>
+      <description>📝 おそらく、スマートフォンで QR コードを使用すると、電話番号を確認するために携帯電話から Google に SMS が送信されます。おそらくこれはセキュリティのためだと思われます。不可能ではありませんが、この方法の方がフィニッシュが難しいため、正当な議論です。
+
+
+🔤 Original: Gmail registration now requires scanning a QR code and sending a text message
+
+🔗 Read more: https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</description>
+      <guid isPermaLink="true">https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</guid>
+      <pubDate>Mon, 11 May 2026 07:26:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48092028</comments>
+    </item>
+    <item>
+      <title>OpenAI 導入会社</title>
+      <link>https://openai.com/index/openai-launches-the-deployment-company/</link>
+      <description>📝 この買収により、初日から約 150 人の経験豊富な前方展開エンジニアおよび展開スペシャリストが OpenAI 導入会社に入社することになります。 OpenAI Deployment Company は OpenAI によって過半数が所有および管理されており、顧客が OpenAI、OpenAI Deployment Company、またはその両方と連携しているかどうかに関係なく、統一されたエクスペリエンスを提供します。導入が重要な理由OpenAI は、研究および導入会社として設立されました。
+
+
+🔤 Original: The OpenAI Deployment Company
+
+🔗 Read more: https://openai.com/index/openai-launches-the-deployment-company/</description>
+      <guid isPermaLink="true">https://openai.com/index/openai-launches-the-deployment-company/</guid>
+      <pubDate>Mon, 11 May 2026 13:10:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48094531</comments>
+    </item>
+    <item>
+      <title>ICE、顔認識アプリを「補完」する独自のスマートグラスを開発へ</title>
+      <link>https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</link>
+      <description>📝 この投稿は有料メンバーのみを対象としています。有料メンバーになると、記事やボーナス ポッドキャスト コンテンツなどに広告なしで無制限にアクセスできます。購読する サインアップしてこの投稿に無料でアクセスしてください 無料会員は、このような投稿にアクセスできるほか、今週の記事のまとめを電子メールで受け取ることができます。購読する すでにアカウントをお持ちです。
+
+
+🔤 Original: ICE to Develop Own Smart Glasses to 'Supplement' Its Facial Recognition App
+
+🔗 Read more: https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</description>
+      <guid isPermaLink="true">https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</guid>
+      <pubDate>Mon, 11 May 2026 14:12:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48095282</comments>
+    </item>
+    <item>
+      <title>それらすべての A.I.メモを取る人?彼らは弁護士を緊張させている</title>
+      <link>https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html</guid>
+      <pubDate>Mon, 11 May 2026 10:04:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093043</comments>
+    </item>
+    <item>
+      <title>冒険の家系図</title>
+      <link>https://mipmip.org/advfamily/advfamily.html</link>
+      <description>📝 Nathanael CJE Culver コメントによって管理されます。 [email protected] コメントに送信します。 [email protected] コメントに送信します。
+
+
+🔤 Original: The Adventure Family Tree
+
+🔗 Read more: https://mipmip.org/advfamily/advfamily.html</description>
+      <guid isPermaLink="true">https://mipmip.org/advfamily/advfamily.html</guid>
+      <pubDate>Mon, 11 May 2026 08:16:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48092367</comments>
+    </item>
+    <item>
+      <title>ヨーロッパの資金がパランティアに流れ込む</title>
+      <link>https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</link>
+      <description>📝 それでも、欧州の主要銀行100社以上、資産運用会社、保険会社、年金基金が昨年、同社への出資比率を合わせて60％以上増加させた。分析された127社のうちのいくつかによる投資は、株式市場の指数を追跡するファンドを通じたパランティアへの保有によって説明される。戦争を目的としてデータを分析する企業はパランティアだけではありません。
+
+
+🔤 Original: European Money Pours into Palantir
+
+🔗 Read more: https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</description>
+      <guid isPermaLink="true">https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</guid>
+      <pubDate>Mon, 11 May 2026 11:27:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093626</comments>
     </item>
   </channel>
 </rss>

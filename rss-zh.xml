@@ -6,47 +6,107 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 May 2026 09:39:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:50:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>7 行代码，3 分钟：实现一种编程语言 (2010)</title>
-      <link>https://matt.might.net/articles/implementing-a-programming-language/</link>
-      <description>📝 在本文中，我将整个过程归结为其本质：函数式（图灵等效）编程语言的 7 行解释器。这个 7 行解释器展示了许多解释器中都存在的可扩展架构——《计算机程序结构与解释》的 eval/apply 设计模式：本文总共有三种语言实现：Scheme 中的 7 行 3 分钟解释器；在 Racket 中重新实现；以及一个 100 行的“1-afternoon”解释器，它实现了顶级绑定形式、显式递归、副作用、高阶函数等等。最后一个解释器是发展更丰富的语言的良好起点。
-
-
-🔤 Original: 7 lines of code, 3 minutes: Implement a programming language (2010)
-
-🔗 Read more: https://matt.might.net/articles/implementing-a-programming-language/</description>
-      <guid isPermaLink="true">https://matt.might.net/articles/implementing-a-programming-language/</guid>
-      <pubDate>Mon, 11 May 2026 04:34:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48091085</comments>
+      <title>被苹果干掉了</title>
+      <link>https://killedbyapple.theden.sh/</link>
+      <guid isPermaLink="true">https://killedbyapple.theden.sh/</guid>
+      <pubDate>Mon, 11 May 2026 14:28:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48095468</comments>
     </item>
     <item>
-      <title>Mythos 发现了一个 Curl 漏洞</title>
-      <link>https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</link>
-      <description>📝 我很高兴地接受了这个提议。为了做出更好的卷发。我们已经对此进行了完善。
-
-
-🔤 Original: Mythos Finds a Curl Vulnerability
-
-🔗 Read more: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</description>
-      <guid isPermaLink="true">https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</guid>
-      <pubDate>Mon, 11 May 2026 06:39:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48091737</comments>
+      <title>Ratty – 具有内嵌 3D 图形的终端模拟器</title>
+      <link>https://ratty-term.org/</link>
+      <guid isPermaLink="true">https://ratty-term.org/</guid>
+      <pubDate>Mon, 11 May 2026 10:13:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093100</comments>
     </item>
     <item>
-      <title>Show HN：adamsreview – 对 Claude Code 更好的多代理公关评论</title>
-      <link>https://github.com/adamjgmiller/adamsreview</link>
-      <description>📝 adamsreview Claude 代码的多阶段代码审查 — 并行子代理检测、验证通过、持久 JSON 状态以及在提交之前重新审查和恢复回归的自动修复循环。根据您的常规 Claude Code 订阅（建议使用 Max 计划）运行 — 与 /ultrareview 不同，后者根据您的额外使用池收费。 /adamsreview:walkthrough — 交互式驱动程序的发现：修复将跳过。
+      <title>使用 Swift 训练 LLM，第 1 部分：将矩阵乘法从 Gflop/s 转换为 Tflop/s</title>
+      <link>https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</link>
+      <description>📝 本系列的参考实现将是 Andrej Karpathy 的 llm。这意味着是时候玩我最喜欢的游戏了：优化 Swift，直到它比 C 更快。这里有一些伏笔：最初的 Swift 实现确实非常慢。
 
 
-🔤 Original: Show HN: adamsreview – better multi-agent PR reviews for Claude Code
+🔤 Original: Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s
 
-🔗 Read more: https://github.com/adamjgmiller/adamsreview</description>
-      <guid isPermaLink="true">https://github.com/adamjgmiller/adamsreview</guid>
-      <pubDate>Mon, 11 May 2026 02:06:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48090276</comments>
+🔗 Read more: https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</description>
+      <guid isPermaLink="true">https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html</guid>
+      <pubDate>Sun, 10 May 2026 17:05:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48085685</comments>
+    </item>
+    <item>
+      <title>Gmail 注册现在需要扫描二维码并发送短信</title>
+      <link>https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</link>
+      <description>📝 据称，使用智能手机上的二维码会触发从您的手机发送到谷歌的短信，以验证您的电话号码。据推测，这是为了安全。这是一个有效的论点，因为这样完成会更困难，尽管并非不可能。
+
+
+🔤 Original: Gmail registration now requires scanning a QR code and sending a text message
+
+🔗 Read more: https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</description>
+      <guid isPermaLink="true">https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</guid>
+      <pubDate>Mon, 11 May 2026 07:26:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48092028</comments>
+    </item>
+    <item>
+      <title>OpenAI 部署公司</title>
+      <link>https://openai.com/index/openai-launches-the-deployment-company/</link>
+      <description>📝 此次收购将从第一天起为 OpenAI 部署公司带来约 150 名经验丰富的前向部署工程师和部署专家。 OpenAI 部署公司由 OpenAI 持有多数股权并控制，无论客户与 OpenAI、OpenAI 部署公司还是两者合作，都能为客户提供统一的体验。为什么部署很重要OpenAI 是一家研究和部署公司。
+
+
+🔤 Original: The OpenAI Deployment Company
+
+🔗 Read more: https://openai.com/index/openai-launches-the-deployment-company/</description>
+      <guid isPermaLink="true">https://openai.com/index/openai-launches-the-deployment-company/</guid>
+      <pubDate>Mon, 11 May 2026 13:10:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48094531</comments>
+    </item>
+    <item>
+      <title>ICE 将开发自己的智能眼镜以“补充”其面部识别应用程序</title>
+      <link>https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</link>
+      <description>📝 这篇文章仅适用于付费会员成为付费会员，即可无限制、无广告地访问文章、奖励播客内容等。订阅 注册即可免费访问此帖子 免费会员可以访问此类帖子以及我们本周故事的电子邮件摘要。订阅 已经有一个帐户。
+
+
+🔤 Original: ICE to Develop Own Smart Glasses to 'Supplement' Its Facial Recognition App
+
+🔗 Read more: https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</description>
+      <guid isPermaLink="true">https://www.404media.co/ice-plans-to-develop-own-smart-glasses-to-supplement-its-facial-recognition-app/</guid>
+      <pubDate>Mon, 11 May 2026 14:12:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48095282</comments>
+    </item>
+    <item>
+      <title>所有这些人工智能记笔记者？他们让律师感到紧张</title>
+      <link>https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html</guid>
+      <pubDate>Mon, 11 May 2026 10:04:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093043</comments>
+    </item>
+    <item>
+      <title>冒险家谱</title>
+      <link>https://mipmip.org/advfamily/advfamily.html</link>
+      <description>📝 由 Nathanael CJE Culver 评论维护。发送至 [email protected] 评论。发送至 [email protected] 评论。
+
+
+🔤 Original: The Adventure Family Tree
+
+🔗 Read more: https://mipmip.org/advfamily/advfamily.html</description>
+      <guid isPermaLink="true">https://mipmip.org/advfamily/advfamily.html</guid>
+      <pubDate>Mon, 11 May 2026 08:16:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48092367</comments>
+    </item>
+    <item>
+      <title>欧洲资金涌入Palantir</title>
+      <link>https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</link>
+      <description>📝 即便如此，去年仍有 100 多家欧洲主要银行、资产管理公司、保险公司和养老基金将其在该公司的股份合计增加了 60% 以上。所分析的 127 家公司中的一些公司之所以进行投资，是因为它们通过跟踪股票市场指数的基金持有 Palantir。 Palantir 并不是唯一一家为战争目的分析数据的公司。
+
+
+🔤 Original: European Money Pours into Palantir
+
+🔗 Read more: https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</description>
+      <guid isPermaLink="true">https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</guid>
+      <pubDate>Mon, 11 May 2026 11:27:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48093626</comments>
     </item>
   </channel>
 </rss>
