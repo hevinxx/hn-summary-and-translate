@@ -6,88 +6,38 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 03:29:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 09:39:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Running local models on an M4 with 24GB memory</title>
-      <link>https://jola.dev/posts/running-local-models-on-m4</link>
-      <description>📝 Then of course, you have to pick your model. From the more well-known, like temperature, to more esoteric options like K Cache Quantization Type. 5-9b@q4_k_s" } Comparison with SOTA models A model like Qwen 3.
+      <title>7 lines of code, 3 minutes: Implement a programming language (2010)</title>
+      <link>https://matt.might.net/articles/implementing-a-programming-language/</link>
+      <description>📝 In this article, I've boiled the entire process down to its essence: a 7-line interpreter for a functional (Turing-equivalent) programming language. This 7-line interpreter showcases a scalable architecture found in many interpreters--the eval/apply design pattern of Structure and Interpretation of Computer Programs: In total, there are three language implementations in this article: a 7-line, 3-minute interpreter in Scheme; a re-implementation in Racket; and a 100-line, "1-afternoon" interpreter that implements top-level binding forms, explicit recursion, side effects, higher-order functions and more. The last interpreter is a good starting point for growing a richer language.
 
-🔗 Read more: https://jola.dev/posts/running-local-models-on-m4</description>
-      <guid isPermaLink="true">https://jola.dev/posts/running-local-models-on-m4</guid>
-      <pubDate>Sun, 10 May 2026 23:09:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089091</comments>
+🔗 Read more: https://matt.might.net/articles/implementing-a-programming-language/</description>
+      <guid isPermaLink="true">https://matt.might.net/articles/implementing-a-programming-language/</guid>
+      <pubDate>Mon, 11 May 2026 04:34:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48091085</comments>
     </item>
     <item>
-      <title>The Greatest Shot in Television: James Burke Had One Chance to Nail This Scene</title>
-      <link>https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</link>
-      <description>📝 Please find all options here. Reply Leave a Reply Name (required) Email (required) Message Click here to cancel reply. Essentials 1,700 Free Online Courses 200 Online Certificate Programs 100+ Online Degree &amp; Mini-Degree Programs 1,150 Free Movies 1,000 Free Audio Books 150+ Best Podcasts 800 Free eBooks 200 Free Textbooks 300 Free Language Lessons Support Us We're hoping to rely on loyal readers, rather than erratic ads.
+      <title>Mythos Finds a Curl Vulnerability</title>
+      <link>https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</link>
+      <description>📝 I happily accepted this offer. To make an even better curl. We have polished on this.
 
-🔗 Read more: https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</description>
-      <guid isPermaLink="true">https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</guid>
-      <pubDate>Mon, 11 May 2026 02:43:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48090521</comments>
+🔗 Read more: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</description>
+      <guid isPermaLink="true">https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</guid>
+      <pubDate>Mon, 11 May 2026 06:39:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48091737</comments>
     </item>
     <item>
-      <title>I'm going back to writing code by hand</title>
-      <link>https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</link>
-      <description>📝 I'd prompt Claude with "add a pods view with live updates" and boom, it worked. Model paginator paginator. Model commandInput textinput.
+      <title>Show HN: adamsreview – better multi-agent PR reviews for Claude Code</title>
+      <link>https://github.com/adamjgmiller/adamsreview</link>
+      <description>📝 adamsreview Multi-stage code review for Claude Code — parallel sub-agent detection, validation passes, persistent JSON state, and an automated fix loop that re-reviews and reverts regressions before committing. Runs against your regular Claude Code subscription (Max plan recommended) — unlike /ultrareview, which charges against your Extra Usage pool. /adamsreview:walkthrough — interactive driver for findings :fix would skip.
 
-🔗 Read more: https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</description>
-      <guid isPermaLink="true">https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</guid>
-      <pubDate>Mon, 11 May 2026 01:23:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48090029</comments>
-    </item>
-    <item>
-      <title>Obsidian plugin was abused to deploy a remote access trojan</title>
-      <link>https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</link>
-      <description>📝 PrintHomeAnalysisObsidian Plugin Abused in Social Engineering Campaign to Deliver New PHANTOMPULSE RATArticlesNovel Campaign Abuses Obsidian Note-Taking App to Target Finance and Crypto Professionals with PHANTOMPULSE RATObsidian Plugin Abused in Social Engineering Campaign to Deliver New PHANTOMPULSE RAT HIGHApril 16, 20265m readMalwareThreat ActorPhishing Related Entities Threat Actors REF6598 Products &amp; Tech Obsidian PowerShell Telegram Other PHANTOMPULSEPHANTOMPULLLinkedIn MITRE ATT&amp;CK Techniques T1566. 002): The user is manipulated into enabling community plugins within Obsidian. exeDescriptionMonitor for Obsidian spawning child processes like powershell.
-
-🔗 Read more: https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</description>
-      <guid isPermaLink="true">https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</guid>
-      <pubDate>Sun, 10 May 2026 22:02:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48088576</comments>
-    </item>
-    <item>
-      <title>An AI coding agent, used to write code, needs to reduce your maintenance costs</title>
-      <link>https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</link>
-      <description>📝 Better hope you’ve halved your maintenance costs. Maybe their maintenance costs were lower. Next month’s maintenance costs quadruple.
-
-🔗 Read more: https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</description>
-      <guid isPermaLink="true">https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</guid>
-      <pubDate>Sun, 10 May 2026 23:39:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089289</comments>
-    </item>
-    <item>
-      <title>PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs</title>
-      <link>https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</link>
-      <description>📝 Please stop submitting AI slop code pull requests to RPCS3. “Please stop submitting AI slop code pull requests to RPCS3. “There are plenty of resources online to learn how to debug and code instead of generating slop that you don’t understand and that doesn’t work.
-
-🔗 Read more: https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</description>
-      <guid isPermaLink="true">https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</guid>
-      <pubDate>Sun, 10 May 2026 23:36:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089263</comments>
-    </item>
-    <item>
-      <title>Maryland citizens hit with $2B power grid upgrade for out-of-state AI</title>
-      <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</link>
-      <description>📝 “Without FERC action, Maryland customers face paying billions for transmission infrastructure that PJM is advancing to benefit data centers,” said Maryland People’s Counsel David S. Maryland customers have neither caused the need for these billions in new transmission projects nor will they meaningfully benefit from them. especially these days.
-
-🔗 Read more: https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</guid>
-      <pubDate>Sun, 10 May 2026 21:16:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48088151</comments>
-    </item>
-    <item>
-      <title>How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?</title>
-      <link>https://dunkels.com/adam/claude-user-space-ip-stack-ping/</link>
-      <description>📝 ## Step 4: Construct the echo reply Build the reply packet by modifying specific fields. Take the IP header (IHL×4 bytes) with checksum field = 0000 2. Split into 16-bit words.
-
-🔗 Read more: https://dunkels.com/adam/claude-user-space-ip-stack-ping/</description>
-      <guid isPermaLink="true">https://dunkels.com/adam/claude-user-space-ip-stack-ping/</guid>
-      <pubDate>Sun, 10 May 2026 23:02:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089049</comments>
+🔗 Read more: https://github.com/adamjgmiller/adamsreview</description>
+      <guid isPermaLink="true">https://github.com/adamjgmiller/adamsreview</guid>
+      <pubDate>Mon, 11 May 2026 02:06:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48090276</comments>
     </item>
   </channel>
 </rss>

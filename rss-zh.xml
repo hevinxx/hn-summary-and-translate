@@ -6,112 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 May 2026 03:29:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 09:39:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>在具有 24GB 内存的 M4 上运行本地模型</title>
-      <link>https://jola.dev/posts/running-local-models-on-m4</link>
-      <description>📝 当然，你必须选择你的模型。从更广为人知的选项（如温度）到更深奥的选项（如 K 缓存量化类型）。 5-9b@q4_k_s" } 与 SOTA 模型的比较 Qwen 3 等模型。
+      <title>7 行代码，3 分钟：实现一种编程语言 (2010)</title>
+      <link>https://matt.might.net/articles/implementing-a-programming-language/</link>
+      <description>📝 在本文中，我将整个过程归结为其本质：函数式（图灵等效）编程语言的 7 行解释器。这个 7 行解释器展示了许多解释器中都存在的可扩展架构——《计算机程序结构与解释》的 eval/apply 设计模式：本文总共有三种语言实现：Scheme 中的 7 行 3 分钟解释器；在 Racket 中重新实现；以及一个 100 行的“1-afternoon”解释器，它实现了顶级绑定形式、显式递归、副作用、高阶函数等等。最后一个解释器是发展更丰富的语言的良好起点。
 
 
-🔤 Original: Running local models on an M4 with 24GB memory
+🔤 Original: 7 lines of code, 3 minutes: Implement a programming language (2010)
 
-🔗 Read more: https://jola.dev/posts/running-local-models-on-m4</description>
-      <guid isPermaLink="true">https://jola.dev/posts/running-local-models-on-m4</guid>
-      <pubDate>Sun, 10 May 2026 23:09:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089091</comments>
+🔗 Read more: https://matt.might.net/articles/implementing-a-programming-language/</description>
+      <guid isPermaLink="true">https://matt.might.net/articles/implementing-a-programming-language/</guid>
+      <pubDate>Mon, 11 May 2026 04:34:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48091085</comments>
     </item>
     <item>
-      <title>电视中最伟大的镜头：詹姆斯·伯克有一次机会完成这一场景</title>
-      <link>https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</link>
-      <description>📝 请在这里找到所有选项。回复 留下回复 姓名（必填） 电子邮件（必填） 消息 单击此处取消回复。必需品 1,700 门免费在线课程 200 门在线证书课程 100 多个在线学位和迷你学位课程 1,150 部免费电影 1,000 部免费有声读物 150 多个最佳播客 800 部免费电子书 200 部免费教科书 300 门免费语言课程 支持我们 我们希望依靠忠实的读者，而不是飘忽不定的广告。
+      <title>Mythos 发现了一个 Curl 漏洞</title>
+      <link>https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</link>
+      <description>📝 我很高兴地接受了这个提议。为了做出更好的卷发。我们已经对此进行了完善。
 
 
-🔤 Original: The Greatest Shot in Television: James Burke Had One Chance to Nail This Scene
+🔤 Original: Mythos Finds a Curl Vulnerability
 
-🔗 Read more: https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</description>
-      <guid isPermaLink="true">https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</guid>
-      <pubDate>Mon, 11 May 2026 02:43:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48090521</comments>
+🔗 Read more: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</description>
+      <guid isPermaLink="true">https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</guid>
+      <pubDate>Mon, 11 May 2026 06:39:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48091737</comments>
     </item>
     <item>
-      <title>我要重新开始手工编写代码</title>
-      <link>https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</link>
-      <description>📝 我提示克劳德“添加带有实时更新的 Pod 视图”，然后，它成功了。模型分页器分页器。模型命令输入文本输入。
+      <title>Show HN：adamsreview – 对 Claude Code 更好的多代理公关评论</title>
+      <link>https://github.com/adamjgmiller/adamsreview</link>
+      <description>📝 adamsreview Claude 代码的多阶段代码审查 — 并行子代理检测、验证通过、持久 JSON 状态以及在提交之前重新审查和恢复回归的自动修复循环。根据您的常规 Claude Code 订阅（建议使用 Max 计划）运行 — 与 /ultrareview 不同，后者根据您的额外使用池收费。 /adamsreview:walkthrough — 交互式驱动程序的发现：修复将跳过。
 
 
-🔤 Original: I'm going back to writing code by hand
+🔤 Original: Show HN: adamsreview – better multi-agent PR reviews for Claude Code
 
-🔗 Read more: https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</description>
-      <guid isPermaLink="true">https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</guid>
-      <pubDate>Mon, 11 May 2026 01:23:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48090029</comments>
-    </item>
-    <item>
-      <title>黑曜石插件被滥用部署远程访问木马</title>
-      <link>https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</link>
-      <description>📝 PrintHome分析黑曜石插件在社会工程活动中被滥用，以提供新的 PHANTOMPULSE RATArticles新颖的活动滥用黑曜石笔记应用程序，以 PHANTOMPULSE RATO 为目标金融和加密专业人士 在社会工程活动中滥用黑曜石插件，以提供新的 PHANTOMPULSE RAT HIGHA4月 16, 20265m 阅读恶意软件威胁参与者网络钓鱼相关实体威胁参与者REF6598 产品和技术 Obsidian PowerShell Telegram 其他 PHANTOMPULSEPHANTOMPULLLinkedIn MITRE ATT&amp;CK 技术 T1566。 002)：用户被操纵在 Obsidian 中启用社区插件。 exeDescriptionMonitor 用于黑曜石生成子进程，如 powershell。
-
-
-🔤 Original: Obsidian plugin was abused to deploy a remote access trojan
-
-🔗 Read more: https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</description>
-      <guid isPermaLink="true">https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</guid>
-      <pubDate>Sun, 10 May 2026 22:02:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48088576</comments>
-    </item>
-    <item>
-      <title>AI编码代理，用于编写代码，需要降低您的维护成本</title>
-      <link>https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</link>
-      <description>📝 最好希望您的维护成本减半。也许他们的维护成本较低。下个月的维护成本将增加四倍。
-
-
-🔤 Original: An AI coding agent, used to write code, needs to reduce your maintenance costs
-
-🔗 Read more: https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</description>
-      <guid isPermaLink="true">https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</guid>
-      <pubDate>Sun, 10 May 2026 23:39:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089289</comments>
-    </item>
-    <item>
-      <title>PS3 模拟器开发者礼貌地要求人们停止用人工智能 PR 淹没它</title>
-      <link>https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</link>
-      <description>📝 请停止向 RPCS3 提交 AI slop 代码拉取请求。 “请停止向 RPCS3 提交 AI slop 代码拉取请求。”网上有大量资源可以学习如何调试和编码，而不是生成你不理解且不起作用的 slop。
-
-
-🔤 Original: PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs
-
-🔗 Read more: https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</description>
-      <guid isPermaLink="true">https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</guid>
-      <pubDate>Sun, 10 May 2026 23:36:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089263</comments>
-    </item>
-    <item>
-      <title>马里兰州公民因州外人工智能而花费 20 亿美元进行电网升级</title>
-      <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</link>
-      <description>📝 马里兰州人民法律顾问 David S 表示：“如果 FERC 不采取行动，马里兰州的客户将面临为 PJM 为使数据中心受益而推进的输电基础设施支付数十亿美元的费用。”马里兰州的客户既没有引起对这些数十亿美元的新输电项目的需求，也不会从中真正受益。尤其是现在。
-
-
-🔤 Original: Maryland citizens hit with $2B power grid upgrade for out-of-state AI
-
-🔗 Read more: https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</guid>
-      <pubDate>Sun, 10 May 2026 21:16:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48088151</comments>
-    </item>
-    <item>
-      <title>充当用户空间 IP 堆栈的 Claude 对 Ping 的响应速度有多快？</title>
-      <link>https://dunkels.com/adam/claude-user-space-ip-stack-ping/</link>
-      <description>📝 ## 步骤4：构建回显回复 通过修改特定字段构建回复数据包。取校验和字段 = 0000 的 IP 标头（IHL×4 字节） 2. 拆分为 16 位字。
-
-
-🔤 Original: How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?
-
-🔗 Read more: https://dunkels.com/adam/claude-user-space-ip-stack-ping/</description>
-      <guid isPermaLink="true">https://dunkels.com/adam/claude-user-space-ip-stack-ping/</guid>
-      <pubDate>Sun, 10 May 2026 23:02:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48089049</comments>
+🔗 Read more: https://github.com/adamjgmiller/adamsreview</description>
+      <guid isPermaLink="true">https://github.com/adamjgmiller/adamsreview</guid>
+      <pubDate>Mon, 11 May 2026 02:06:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48090276</comments>
     </item>
   </channel>
 </rss>
