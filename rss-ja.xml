@@ -6,190 +6,126 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 19:47:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 22:12:54 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>2024 RAV4 ハイブリッドからモデムと GPS を取り外す</title>
-      <link>https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/</link>
-      <description>📝 彼らはマイクを持っています。彼らは常時接続のモデムを持っています。この車の場合: データ接続に依存するものはすべて機能しなくなります。
-
-
-🔤 Original: Removing the modem and GPS from my 2024 RAV4 hybrid
-
-🔗 Read more: https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/</description>
-      <guid isPermaLink="true">https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/</guid>
-      <pubDate>Thu, 14 May 2026 17:08:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48138136</comments>
+      <title>Amazonbot がついに robots.txt を尊重するようになりました</title>
+      <link>https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/</link>
+      <guid isPermaLink="true">https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/</guid>
+      <pubDate>Thu, 14 May 2026 20:22:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48140730</comments>
     </item>
     <item>
-      <title>新しいNginxエクスプロイト</title>
-      <link>https://github.com/DepthFirstDisclosures/Nginx-Rift</link>
-      <description>📝 コピーパスは is_args = 1 を確認します → NGX_ESCAPE_ARGS を使用して ngx_escape_uri を呼び出し、エスケープ可能な各バイトを 3 バイトに拡張します。このコピーは、攻撃者が制御する URI データでサイズ不足のヒープ バッファをオーバーフローさせます。影響を受けるバージョンと修正されたバージョン 影響を受ける製品 NGINX オープンソース 0 で修正されました。
+      <title>Tesla Wall Connector ブートローダーはファームウェア ダウングレード ラチェットをバイパスします</title>
+      <link>https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing</link>
+      <description>📝 その後、テスラは、アップデート ルーチンにダウングレード防止チェックを追加するファームウェア アップデートを出荷しました。 Request Download / Transfer Data / Request Transfer Exit でファームウェアをプッシュします。 3 古いファームウェアとバージョン 24 を比較した後。
 
 
-🔤 Original: New Nginx Exploit
+🔤 Original: Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet
 
-🔗 Read more: https://github.com/DepthFirstDisclosures/Nginx-Rift</description>
-      <guid isPermaLink="true">https://github.com/DepthFirstDisclosures/Nginx-Rift</guid>
-      <pubDate>Thu, 14 May 2026 17:17:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48138268</comments>
+🔗 Read more: https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing</description>
+      <guid isPermaLink="true">https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing</guid>
+      <pubDate>Thu, 14 May 2026 20:41:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48140953</comments>
     </item>
     <item>
-      <title>Apple M5 で最初に公開された macOS カーネルのメモリ破損エクスプロイト</title>
-      <link>https://blog.calif.io/p/first-public-kernel-memory-corruption</link>
-      <description>📝 Apple M5 上で初めて公開された macOS カーネルのメモリ破損エクスプロイトApple は、メモリ破損エクスプロイトを劇的に困難にするハードウェアとソフトウェアの構築に 5 年を費やしました。滞在中、私たちは最新の脆弱性調査レポート、つまり MIE で生き残った M5 シリコン上での最初の公開 macOS カーネル メモリ破損エクスプロイトも Apple と共有しました。 Apple はこれを構築するのに 5 年を費やしました。
+      <title>どこからでも Codex を使用して作業する</title>
+      <link>https://openai.com/index/work-with-codex-from-anywhere/</link>
+      <description>📝 2026 年 5 月 14 日製品どこからでも Codex で作業Codex があなたの携帯電話に登場します。今では携帯電話からそれを行うことができます。 Codex をポケットに入れておけば、次のことが可能になります。 コーヒーを待っている間にバグの調査を開始できます。
 
 
-🔤 Original: First public macOS kernel memory corruption exploit on Apple M5
+🔤 Original: Work with Codex from Anywhere
 
-🔗 Read more: https://blog.calif.io/p/first-public-kernel-memory-corruption</description>
-      <guid isPermaLink="true">https://blog.calif.io/p/first-public-kernel-memory-corruption</guid>
-      <pubDate>Thu, 14 May 2026 18:25:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139219</comments>
+🔗 Read more: https://openai.com/index/work-with-codex-from-anywhere/</description>
+      <guid isPermaLink="true">https://openai.com/index/work-with-codex-from-anywhere/</guid>
+      <pubDate>Thu, 14 May 2026 20:06:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48140529</comments>
     </item>
     <item>
-      <title>大学のAIゾンビ化</title>
-      <link>https://www.thenewcritic.com/p/the-great-zombification</link>
-      <description>📝 彼らは私たちの世代のことをよく考えすぎています。典型的な「ビズコン」クラスでは、学生は 6 ～ 7 つの緩やかな採点形式の問題セットを完了し、中間試験と最終試験を受けなければなりません。教授は常に、試験日の前に 1 つ以上のサンプル試験を公開します。
+      <title>Infracost (YC W21) は、エージェントにクラウドのコストを意識させるためにシニア開発アドボケートを採用しています</title>
+      <link>https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</link>
+      <description>📝 組織がクラウド支出を積極的に管理できるよう支援する大きな機会があります。事後的に予想外のコストの高騰に対応するのではなく、私たちは、より多くのエンジニアが Infracost を発見し、気に入っていただけるよう、最初の開発者アドボケートを採用しています。クラウドのコストの問題を、本番環境に移行する前に積極的に発見して修正できるようにします。
 
 
-🔤 Original: The AI Zombification of Universities
+🔤 Original: Infracost (YC W21) Is Hiring Sr Dev Advocate to make agents cloud cost-aware
 
-🔗 Read more: https://www.thenewcritic.com/p/the-great-zombification</description>
-      <guid isPermaLink="true">https://www.thenewcritic.com/p/the-great-zombification</guid>
-      <pubDate>Thu, 14 May 2026 18:37:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139355</comments>
+🔗 Read more: https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate</guid>
+      <pubDate>Thu, 14 May 2026 21:00:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48141191</comments>
     </item>
     <item>
-      <title>無料のアイスキャンディーの力 (2018)</title>
-      <link>https://www.gsb.stanford.edu/insights/power-free-popsicle</link>
-      <description>📝 『The Power of Moments』の中で、ヒース兄弟は 4 つのメタ典型的な決定的瞬間を特定しています。その瞬間に洞察を加えてみませんか。そして、その人と一緒に取り組んできたすべてのプロジェクトと私たちが成し遂げた進歩を祝うことによって、その瞬間に誇りを持たないのはなぜでしょうか。
+      <title>クロード・フォー・リーガル</title>
+      <link>https://github.com/anthropics/claude-for-legal</link>
+      <description>📝 Start with QUICKSTART.これらのプラグインは、Anthropic の法的立場を表すものではありません。すべてのスキルを読み取るMD練習プロファイル。
 
 
-🔤 Original: The Power of a Free Popsicle (2018)
+🔤 Original: Claude for Legal
 
-🔗 Read more: https://www.gsb.stanford.edu/insights/power-free-popsicle</description>
-      <guid isPermaLink="true">https://www.gsb.stanford.edu/insights/power-free-popsicle</guid>
-      <pubDate>Thu, 14 May 2026 18:33:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139316</comments>
+🔗 Read more: https://github.com/anthropics/claude-for-legal</description>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-for-legal</guid>
+      <pubDate>Thu, 14 May 2026 21:05:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48141234</comments>
     </item>
     <item>
-      <title>HDDファームウェアハッキング</title>
-      <link>https://icode4.coffee/?p=1465</link>
-      <description>📝 この最初の投稿では、HDD ファームウェアのダンプ、分析、変更に焦点を当てます。いずれにせよ、このコンセプトが新しいものではないことはわかっていました。必要なのは、簡単に操作できるドライブを見つけることだけでした。このバグを悪用する唯一の障害がハードドライブである場合、このハードドライブは故障していることになります。
+      <title>RISC-Vルーター</title>
+      <link>https://router.start9.com/</link>
+      <description>📝 Start9 の RISC-V Router を使用すると、高度なネットワーキングとネットワーク セキュリティを誰でも利用できるようになります。ネットワーク上のすべてのデバイスはセキュリティ プロファイルを受け取ります。これにより、次のようなネットワーク上でのアクセス許可が決まります。 デバイスがネットワークに参加する方法によって、デバイスが受け取るセキュリティ プロファイルが決まります。これにより、Mullvad も Proton も、相互に協力しない限り、彼のインターネット活動を知ることができなくなります。
 
 
-🔤 Original: HDD Firmware Hacking
+🔤 Original: RISC-V Router
 
-🔗 Read more: https://icode4.coffee/?p=1465</description>
-      <guid isPermaLink="true">https://icode4.coffee/?p=1465</guid>
-      <pubDate>Thu, 14 May 2026 16:19:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48137553</comments>
+🔗 Read more: https://router.start9.com/</description>
+      <guid isPermaLink="true">https://router.start9.com/</guid>
+      <pubDate>Thu, 14 May 2026 20:06:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48140541</comments>
     </item>
     <item>
-      <title>AIが私をバカにしてる</title>
-      <link>https://jpain.io/god-damn-ai-is-making-me-dumb/</link>
-      <description>📝 私は完全にプロンプ​​トを出していただけで、コードを 1 行も書いていません。私は、ソフトウェア開発のスキルが AI によって完全に消えるわけではないと確信しています。私は、ソフトウェア開発者の供給よりも需要のほうが多かった過去 20 ～ 30 年にわたって起こってきた傾向を AI が逆転させるのではないかと期待しています。
+      <title>WinUI 3 のパフォーマンス: 飛躍的な進歩</title>
+      <link>https://github.com/microsoft/microsoft-ui-xaml/discussions/11096</link>
+      <description>📝 このページをリロードしてください。ベータ この翻訳は役に立ちましたか。このページをリロードしてください。
 
 
-🔤 Original: AI is making me dumb
+🔤 Original: WinUI 3 Performance: A Leap Forward
 
-🔗 Read more: https://jpain.io/god-damn-ai-is-making-me-dumb/</description>
-      <guid isPermaLink="true">https://jpain.io/god-damn-ai-is-making-me-dumb/</guid>
-      <pubDate>Thu, 14 May 2026 18:19:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139148</comments>
+🔗 Read more: https://github.com/microsoft/microsoft-ui-xaml/discussions/11096</description>
+      <guid isPermaLink="true">https://github.com/microsoft/microsoft-ui-xaml/discussions/11096</guid>
+      <pubDate>Thu, 14 May 2026 19:01:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139704</comments>
     </item>
     <item>
-      <title>Linux カーネルを理解する: Linux カーネルの起動</title>
-      <link>https://internals-for-interns.com/posts/linux-kernel-startup/</link>
-      <description>📝 これは、Linux カーネルが起動時に行うこととほとんど同じです。ハンドオフ: ブートローダーが与えるもの GRUB (または使用しているブートローダー) はカーネルに制御を渡します。デコンプレッサーが完了すると、制御は実際のカーネルに移ります。
+      <title>新しい arXiv ポリシー: 幻覚参照に対する 1 年間の禁止</title>
+      <link>https://twitter.com/tdietterich/status/2055000956144935055</link>
+      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x の使用を続けるには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
 
 
-🔤 Original: Understanding the Linux Kernel: The Linux Kernel Startup
+🔤 Original: New arXiv policy: 1-year ban for hallucinated references
 
-🔗 Read more: https://internals-for-interns.com/posts/linux-kernel-startup/</description>
-      <guid isPermaLink="true">https://internals-for-interns.com/posts/linux-kernel-startup/</guid>
-      <pubDate>Thu, 14 May 2026 18:25:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139220</comments>
+🔗 Read more: https://twitter.com/tdietterich/status/2055000956144935055</description>
+      <guid isPermaLink="true">https://twitter.com/tdietterich/status/2055000956144935055</guid>
+      <pubDate>Thu, 14 May 2026 20:39:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48140922</comments>
     </item>
     <item>
-      <title>AI を調整するのではなく、AI に調整するのです</title>
-      <link>https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</link>
-      <description>📝 この配列の「私たち」は、彼らが雇用した人々から集められた統計的な代理人です。研究所はもっと慎重になるべきなのか、それとももっと早く出荷すべきなのか。彼らが採用した哲学は次のとおりです。
+      <title>OVMS: オープンソースの電気自動車の遠隔監視、診断、制御</title>
+      <link>https://www.openvehicles.com/home</link>
+      <description>📝 Open Vehicles へようこそオープン ソースの電気自動車テレメトリ携帯電話から電気自動車を監視します今すぐ OVMS を始めましょうライブ モニタリング当社は、充電状態、温度、タイヤ空気圧、診断故障状態などの車両メトリクスのライブ モニタリングを提供します。制御 車両の統合に応じて、充電プロセス、環境制御、エンジンのチューニングパラメータなどを制御できるようになります。オープンソース OVMS を使用すると、必要な機能を追加でき、地域制限なしで動作し、個人データを制御できます。
 
 
-🔤 Original: You Don't Align an AI, You Align with It
+🔤 Original: OVMS: Open source electric vehicle remote monitoring, diagnosis and control
 
-🔗 Read more: https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</description>
-      <guid isPermaLink="true">https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</guid>
-      <pubDate>Thu, 14 May 2026 18:19:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139144</comments>
+🔗 Read more: https://www.openvehicles.com/home</description>
+      <guid isPermaLink="true">https://www.openvehicles.com/home</guid>
+      <pubDate>Thu, 14 May 2026 21:50:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48141732</comments>
     </item>
     <item>
-      <title>ドイツの政府系テクノロジー基金がKDEに130万ユーロを支援</title>
-      <link>https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562</link>
-      <description>📝 私たちがソブリンテックファンドの巨額について言及したのはこれが初めてではない。 KDE Linux は、Valve の SteamOS 3 から設計の一部を借用しています。もちろん、ヨーロッパの組織をアメリカのクラウド サービスから遠ざけることへの関心は急速に高まっています。
-
-
-🔤 Original: Germany's Sovereign Tech Fund Backs KDE with €1.3M
-
-🔗 Read more: https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562</description>
-      <guid isPermaLink="true">https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562</guid>
-      <pubDate>Thu, 14 May 2026 19:16:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139912</comments>
-    </item>
-    <item>
-      <title>ドイツの諜報機関はPalantirソフトウェアを軽蔑している</title>
-      <link>https://www.dw.com/en/german-intelligence-offices-snub-us-based-palantir-software/a-77160897</link>
-      <description>📝 他のドイツの治安機関、特に外国諜報機関の連邦情報局（Bundesnachrichtendienst、BND）と連邦刑事警察局（Bundcriminalamt、BKA）もこれを推進している。憲法訴訟の成功 ベルリンに本拠を置く非営利団体であるドイツ公民権協会 (GFF) は、ドイツの治安機関による Palantir ソフトウェアの無制限の使用に対してすでに法的手続きを開始しています。どちらの訴訟もまだ憲法裁判所の判決を待っている。
-
-
-🔤 Original: German intelligence offices snub Palantir software
-
-🔗 Read more: https://www.dw.com/en/german-intelligence-offices-snub-us-based-palantir-software/a-77160897</description>
-      <guid isPermaLink="true">https://www.dw.com/en/german-intelligence-offices-snub-us-based-palantir-software/a-77160897</guid>
-      <pubDate>Thu, 14 May 2026 18:50:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48139547</comments>
-    </item>
-    <item>
-      <title>GGUF にはウェイト以外に何が含まれていますか?そしてまだ何が欠けているのでしょうか?</title>
-      <link>https://nobodywho.ooo/posts/whats-in-a-gguf/</link>
-      <description>📝 GGUF はラマのファイル形式です。たとえば、Gemma 4 に同梱されているチャット テンプレートを参照してください。これにより、カスタム フォーマットが廃止されます。
-
-
-🔤 Original: What's in a GGUF, besides the weights – and what's still missing?
-
-🔗 Read more: https://nobodywho.ooo/posts/whats-in-a-gguf/</description>
-      <guid isPermaLink="true">https://nobodywho.ooo/posts/whats-in-a-gguf/</guid>
-      <pubDate>Thu, 14 May 2026 17:21:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48138332</comments>
-    </item>
-    <item>
-      <title>RustのRewrite Bunがマージされました</title>
-      <link>https://github.com/oven-sh/bun/pull/30412</link>
-      <description>📝 このページをリロードしてください。このページをリロードしてください。このページをリロードしてください。
-
-
-🔤 Original: Rewrite Bun in Rust has been merged
-
-🔗 Read more: https://github.com/oven-sh/bun/pull/30412</description>
-      <guid isPermaLink="true">https://github.com/oven-sh/bun/pull/30412</guid>
-      <pubDate>Thu, 14 May 2026 08:15:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48132488</comments>
-    </item>
-    <item>
-      <title>rp2040/rp2350 上の DIY オープンソース超音波ハードウェア</title>
-      <link>http://un0rick.cc/pic0rick</link>
-      <description>📝 メイン ボードは、PMOD コネクタと USB インターフェイスの両方をホストします。パルサー ボード (シングル PMOD) — メイン ボードに代わって送信パルスを生成します。 HV ボード — パルサー ボードに接続するシンプルな +-25V 生成ボード。
-
-
-🔤 Original: DIY open-source ultrasound hardware on the rp2040/rp2350
-
-🔗 Read more: http://un0rick.cc/pic0rick</description>
-      <guid isPermaLink="true">http://un0rick.cc/pic0rick</guid>
-      <pubDate>Thu, 14 May 2026 18:01:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48138913</comments>
+      <title>Show HN: 現在のものより 6 ～ 7 倍効率的な Web スクレイパー API を構築しました</title>
+      <link>https://scrapewithruno.com/</link>
+      <guid isPermaLink="true">https://scrapewithruno.com/</guid>
+      <pubDate>Thu, 14 May 2026 21:02:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48141206</comments>
     </item>
   </channel>
 </rss>
