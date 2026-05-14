@@ -6,87 +6,190 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 14 May 2026 17:03:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 19:47:14 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>RTX 5090 和 M4 MacBook Air：可以玩游戏吗？</title>
-      <link>https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/</link>
-      <description>📝 什么是 Thunderbolt eGPU。 macOS 支持 Thunderbolt 设备。 Linux 支持 NVIDIA GPU。
+      <title>从我的 2024 年 RAV4 混合动力车上卸下调制解调器和 GPS</title>
+      <link>https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/</link>
+      <description>📝 他们有麦克风。他们有永远在线的调制解调器。对于这辆车：所有依赖数据连接的东西都将不再起作用。
 
 
-🔤 Original: RTX 5090 and M4 MacBook Air: Can It Game?
+🔤 Original: Removing the modem and GPS from my 2024 RAV4 hybrid
 
-🔗 Read more: https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/</description>
-      <guid isPermaLink="true">https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/</guid>
-      <pubDate>Thu, 14 May 2026 15:47:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48137145</comments>
+🔗 Read more: https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/</description>
+      <guid isPermaLink="true">https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/</guid>
+      <pubDate>Thu, 14 May 2026 17:08:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48138136</comments>
     </item>
     <item>
-      <title>麻省理工学院：研究生入学人数下降 20%</title>
-      <link>https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline</link>
-      <description>📝 这需要认真的努力和牺牲。更令人担忧的是，我们新获得的联邦研究奖项数量也下降了 20% 以上。这意味着，除斯隆管理学院之外，我们的研究生总数可能会减少约 500 名。
+      <title>新的 Nginx 漏洞利用</title>
+      <link>https://github.com/DepthFirstDisclosures/Nginx-Rift</link>
+      <description>📝 复制过程看到 is_args = 1 → 使用 NGX_ESCAPE_ARGS 调用 ngx_escape_uri，将每个可转义字节扩展为 3 个字节。该副本使用攻击者控制的 URI 数据溢出了尺寸过小的堆缓冲区。受影响和已修复的版本 受影响的产品已在 NGINX Open Source 0 中修复。
 
 
-🔤 Original: MIT: 20% drop in incoming graduate students
+🔤 Original: New Nginx Exploit
 
-🔗 Read more: https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline</description>
-      <guid isPermaLink="true">https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline</guid>
-      <pubDate>Thu, 14 May 2026 14:51:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48136262</comments>
+🔗 Read more: https://github.com/DepthFirstDisclosures/Nginx-Rift</description>
+      <guid isPermaLink="true">https://github.com/DepthFirstDisclosures/Nginx-Rift</guid>
+      <pubDate>Thu, 14 May 2026 17:17:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48138268</comments>
     </item>
     <item>
-      <title>Claude AI 找回了一个已有 11 年历史的 BTC 钱包，里面有 40 万美元</title>
-      <link>https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup</link>
-      <description>📝 这就是 cprkrn 身上发生的事情——他们在被扔石头时更改了包含某些特定密钥的钱包文件的密码，然后完全忘记了他们使用的密码。出于沮丧，cprkrn 随后将整个大学计算机转交给了克劳德。那时候不值钱，手表钱包还是有的。
+      <title>Apple M5 上首次公开 macOS 内核内存损坏漏洞</title>
+      <link>https://blog.calif.io/p/first-public-kernel-memory-corruption</link>
+      <description>📝 Apple M5 上首次公开的 macOS 内核内存损坏漏洞利用 Apple 花了五年时间构建硬件和软件，以大幅提高内存损坏漏洞利用的难度。在那里，我们还与 Apple 分享了我们最新的漏洞研究报告：M5 芯片上的第一个公开的 macOS 内核内存损坏漏洞，在 MIE 中幸存下来。苹果花了五年时间打造它。
 
 
-🔤 Original: Claude AI recovers an 11 yrs old BTC wallet holding 400k USD
+🔤 Original: First public macOS kernel memory corruption exploit on Apple M5
 
-🔗 Read more: https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup</guid>
-      <pubDate>Thu, 14 May 2026 14:49:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48136240</comments>
+🔗 Read more: https://blog.calif.io/p/first-public-kernel-memory-corruption</description>
+      <guid isPermaLink="true">https://blog.calif.io/p/first-public-kernel-memory-corruption</guid>
+      <pubDate>Thu, 14 May 2026 18:25:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139219</comments>
     </item>
     <item>
-      <title>论金钱与事物的合并</title>
-      <link>https://lithub.com/is-it-even-real-on-the-conflation-of-money-and-things/</link>
-      <description>📝 这些品质是看不见的、非物质的——对建筑物的任何物理检查都不会告诉你谁拥有它或者它花了多少钱。但这些无形的品质塑造了我们与建筑物的关系，就像它的任何物理特性一样。这些无形的品质还涉及协调一致的人类活动，包括我们强制和暴力的集体能力。
+      <title>大学的人工智能僵尸化</title>
+      <link>https://www.thenewcritic.com/p/the-great-zombification</link>
+      <description>📝 他们把我们这一代想得太好了。在典型的“bizcon”课程中，学生必须完成六到七个懒惰评分的问题集，并参加期中和期末考试。教授总是在考试日期之前发布一份或多份考试样本。
 
 
-🔤 Original: On The Conflation of Money and Things
+🔤 Original: The AI Zombification of Universities
 
-🔗 Read more: https://lithub.com/is-it-even-real-on-the-conflation-of-money-and-things/</description>
-      <guid isPermaLink="true">https://lithub.com/is-it-even-real-on-the-conflation-of-money-and-things/</guid>
-      <pubDate>Thu, 14 May 2026 15:36:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48136992</comments>
+🔗 Read more: https://www.thenewcritic.com/p/the-great-zombification</description>
+      <guid isPermaLink="true">https://www.thenewcritic.com/p/the-great-zombification</guid>
+      <pubDate>Thu, 14 May 2026 18:37:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139355</comments>
     </item>
     <item>
-      <title>Terranox AI (YC W26) 正在招聘一名创始 AI/ML 工程师和暑期 AI/ML 实习生</title>
-      <link>https://www.workatastartup.com/companies/terranox-ai</link>
-      <guid isPermaLink="true">https://www.workatastartup.com/companies/terranox-ai</guid>
-      <pubDate>Thu, 14 May 2026 17:01:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48138063</comments>
+      <title>免费冰棒的力量 (2018)</title>
+      <link>https://www.gsb.stanford.edu/insights/power-free-popsicle</link>
+      <description>📝 在《时刻的力量》中，希斯兄弟确定了四个典型的决定性时刻。我们为什么不为那一刻增添洞察力呢？我们为什么不通过庆祝我们与此人合作的所有项目以及我们取得的进展来为这一时刻增添自豪呢？
+
+
+🔤 Original: The Power of a Free Popsicle (2018)
+
+🔗 Read more: https://www.gsb.stanford.edu/insights/power-free-popsicle</description>
+      <guid isPermaLink="true">https://www.gsb.stanford.edu/insights/power-free-popsicle</guid>
+      <pubDate>Thu, 14 May 2026 18:33:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139316</comments>
     </item>
     <item>
-      <title>古巴称其燃料已耗尽，归咎于美国禁运</title>
-      <link>https://www.upi.com/Top_News/World-News/2026/05/14/Cuba-says-oil-reserves-totally-drained/9311778746907/</link>
-      <guid isPermaLink="true">https://www.upi.com/Top_News/World-News/2026/05/14/Cuba-says-oil-reserves-totally-drained/9311778746907/</guid>
-      <pubDate>Thu, 14 May 2026 16:04:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48137353</comments>
+      <title>硬盘固件黑客</title>
+      <link>https://icode4.coffee/?p=1465</link>
+      <description>📝 第一篇文章将重点介绍转储、分析和修改 HDD 固件。不管怎样，我知道这个概念并不新鲜，我只需要找到一个容易上手的驱动器。如果阻碍我利用此错误的唯一因素是硬盘驱动器，那么该硬盘驱动器就会出现故障。
+
+
+🔤 Original: HDD Firmware Hacking
+
+🔗 Read more: https://icode4.coffee/?p=1465</description>
+      <guid isPermaLink="true">https://icode4.coffee/?p=1465</guid>
+      <pubDate>Thu, 14 May 2026 16:19:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48137553</comments>
     </item>
     <item>
-      <title>Anthropic 与盖茨基金会建立价值 2 亿美元的合作伙伴关系</title>
-      <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
-      <description>📝 这些计划将与美国和世界各地的合作伙伴一起实施。我们与盖茨基金会的合作将把这项工作扩展到被忽视的疾病，首先是脊髓灰质炎、HPV 和子痫/先兆子痫。经济流动性最后，我们的合作伙伴关系将支持旨在改善经济流动性的计划。
+      <title>AI 让我变得愚蠢</title>
+      <link>https://jpain.io/god-damn-ai-is-making-me-dumb/</link>
+      <description>📝 我一直在提示，但我没有写一行代码。我非常确定软件开发技能不会随着人工智能而完全消失。我希望人工智能能够扭转过去 20 到 30 年来出现的趋势，即软件开发人员的需求大于供给。
 
 
-🔤 Original: Anthropic forms $200M partnership with the Gates Foundation
+🔤 Original: AI is making me dumb
 
-🔗 Read more: https://www.anthropic.com/news/gates-foundation-partnership</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/gates-foundation-partnership</guid>
-      <pubDate>Thu, 14 May 2026 15:15:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48136662</comments>
+🔗 Read more: https://jpain.io/god-damn-ai-is-making-me-dumb/</description>
+      <guid isPermaLink="true">https://jpain.io/god-damn-ai-is-making-me-dumb/</guid>
+      <pubDate>Thu, 14 May 2026 18:19:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139148</comments>
+    </item>
+    <item>
+      <title>了解 Linux 内核：Linux 内核启动</title>
+      <link>https://internals-for-interns.com/posts/linux-kernel-startup/</link>
+      <description>📝 这几乎就是 Linux 内核在启动时所做的事情。交接：引导加载程序将什么交给我们因此 GRUB（或您正在使用的任何引导加载程序）将控制权交给了内核。一旦解压缩完成，控制就会跳转到真正的内核。
+
+
+🔤 Original: Understanding the Linux Kernel: The Linux Kernel Startup
+
+🔗 Read more: https://internals-for-interns.com/posts/linux-kernel-startup/</description>
+      <guid isPermaLink="true">https://internals-for-interns.com/posts/linux-kernel-startup/</guid>
+      <pubDate>Thu, 14 May 2026 18:25:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139220</comments>
+    </item>
+    <item>
+      <title>你不是要与人工智能结盟，而是要与它结盟</title>
+      <link>https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</link>
+      <description>📝 对齐中的“我们”是由他们雇用的人员组成的统计代理。实验室应该更加小心，还是应该发货得更快。他们所采用的哲学是。
+
+
+🔤 Original: You Don't Align an AI, You Align with It
+
+🔗 Read more: https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</description>
+      <guid isPermaLink="true">https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</guid>
+      <pubDate>Thu, 14 May 2026 18:19:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139144</comments>
+    </item>
+    <item>
+      <title>德国主权科技基金向 KDE 提供 130 万欧元支持</title>
+      <link>https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562</link>
+      <description>📝 这不是我们第一次提到主权科技基金的慷慨。 KDE Linux 借鉴了 Valve 的 SteamOS 3 的一些设计。当然，欧洲组织摆脱美国云服务的兴趣正在迅速增长。
+
+
+🔤 Original: Germany's Sovereign Tech Fund Backs KDE with €1.3M
+
+🔗 Read more: https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562</description>
+      <guid isPermaLink="true">https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562</guid>
+      <pubDate>Thu, 14 May 2026 19:16:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139912</comments>
+    </item>
+    <item>
+      <title>德国情报机构冷落 Palantir 软件</title>
+      <link>https://www.dw.com/en/german-intelligence-offices-snub-us-based-palantir-software/a-77160897</link>
+      <description>📝 其他德国安全机构也在推动这一举措，特别是负责外国情报的联邦情报局（Bundesnachrichtendienst，BND）和联邦刑事警察局（Bundeskcriminalamt，BKA）。成功的宪法申诉 总部位于柏林的非营利组织德国民权协会 (GFF) 已经针对德国安全机构无限制使用 Palantir 软件启动了法律诉讼。这两起案件仍在等待宪法法院的判决。
+
+
+🔤 Original: German intelligence offices snub Palantir software
+
+🔗 Read more: https://www.dw.com/en/german-intelligence-offices-snub-us-based-palantir-software/a-77160897</description>
+      <guid isPermaLink="true">https://www.dw.com/en/german-intelligence-offices-snub-us-based-palantir-software/a-77160897</guid>
+      <pubDate>Thu, 14 May 2026 18:50:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48139547</comments>
+    </item>
+    <item>
+      <title>除了权重之外，GGUF 中还有什么——还缺少什么？</title>
+      <link>https://nobodywho.ooo/posts/whats-in-a-gguf/</link>
+      <description>📝 GGUF 是 llama.gguf 的文件格式。例如，请参阅 Gemma 4 附带的聊天模板。这使得我们的自定义格式变得过时 - 这。
+
+
+🔤 Original: What's in a GGUF, besides the weights – and what's still missing?
+
+🔗 Read more: https://nobodywho.ooo/posts/whats-in-a-gguf/</description>
+      <guid isPermaLink="true">https://nobodywho.ooo/posts/whats-in-a-gguf/</guid>
+      <pubDate>Thu, 14 May 2026 17:21:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48138332</comments>
+    </item>
+    <item>
+      <title>Rust 中的 Rewrite Bun 已合并</title>
+      <link>https://github.com/oven-sh/bun/pull/30412</link>
+      <description>📝 请重新加载此页面。请重新加载此页面。请重新加载此页面。
+
+
+🔤 Original: Rewrite Bun in Rust has been merged
+
+🔗 Read more: https://github.com/oven-sh/bun/pull/30412</description>
+      <guid isPermaLink="true">https://github.com/oven-sh/bun/pull/30412</guid>
+      <pubDate>Thu, 14 May 2026 08:15:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48132488</comments>
+    </item>
+    <item>
+      <title>在rp2040/rp2350上DIY开源超声硬件</title>
+      <link>http://un0rick.cc/pic0rick</link>
+      <description>📝 主板配有 PMOD 连接器和 USB 接口。脉冲发生器板（单个 PMOD）— 代表主板生成发送脉冲。 HV 板 — 插入脉冲发生器板的简单 +-25V 发生板。
+
+
+🔤 Original: DIY open-source ultrasound hardware on the rp2040/rp2350
+
+🔗 Read more: http://un0rick.cc/pic0rick</description>
+      <guid isPermaLink="true">http://un0rick.cc/pic0rick</guid>
+      <pubDate>Thu, 14 May 2026 18:01:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48138913</comments>
     </item>
   </channel>
 </rss>
