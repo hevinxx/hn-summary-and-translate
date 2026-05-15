@@ -6,100 +6,125 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 May 2026 16:53:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 19:30:33 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>古腾堡计划——不断进步</title>
-      <link>https://www.gutenberg.org/</link>
-      <description>📝 有关古腾堡计划的常见问题。关于古腾堡计划的特殊区域。向古腾堡计划捐款。
+      <title>Bun Rust 重写：“代码库未通过基本的 miri 检查，允许安全 rust 中的 UB”</title>
+      <link>https://github.com/oven-sh/bun/issues/30719</link>
+      <description>📝 6k 所有 rust 代码库：该代码库甚至无法进行最基本的 miri 检查，允许安全 rust 中的 UB #30719新问题复制链接新问题复制链接Open#30728Openall of rust 代码库：该代码库甚至无法进行最基本的 miri 检查，允许安全 rust 中的 UB#30719#30728复制链接DescriptionAwesomeQubicopened on May 14, 2026问题正文操作错误：未定义行为：构造类型 &amp;[u8] 的无效值：遇到悬空引用（0x20933[noalloc] 没有出处）--&gt; src/main. org/nightly/reference/behavior-considered-undefined。片（））;请考虑不要振动编码 rust，因为 AI 不擅长编写 Rust，还需要聘请真正的 rust 开发人员反应目前不可用元数据元数据分配者没有人分配标签没有标签没有标签类型没有类型项目没有项目里程碑没有里程碑关系还没有开发没有分支或拉取请求问题操作。
 
 
-🔤 Original: Project Gutenberg – keeps getting better
+🔤 Original: Bun Rust rewrite: "codebase fails basic miri checks, allows for UB in safe rust"
 
-🔗 Read more: https://www.gutenberg.org/</description>
-      <guid isPermaLink="true">https://www.gutenberg.org/</guid>
-      <pubDate>Fri, 15 May 2026 16:15:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48150431</comments>
+🔗 Read more: https://github.com/oven-sh/bun/issues/30719</description>
+      <guid isPermaLink="true">https://github.com/oven-sh/bun/issues/30719</guid>
+      <pubDate>Fri, 15 May 2026 16:51:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48150900</comments>
     </item>
     <item>
-      <title>Pixel 10 的零点击漏洞利用链</title>
-      <link>https://projectzero.google/2026/05/pixel-10-exploit.html</link>
-      <description>📝 此漏洞仅适用于未修补的设备（SPL 2025 年 12 月或更早版本）。利用此漏洞实现对内核的任意读写需要 5 行代码，并且为此问题编写完整的利用程序只需要不到一天的时间。考虑到 th，这个速度特别快。
+      <title>我在 Verilog 中设计了一个面向半字节的 CPU 来构建科学计算器</title>
+      <link>https://github.com/gdevic/FPGA-Calculator</link>
+      <description>📝 Target Verilator 版本说明桌面 (Qt/MSVC) 5.md - Verilator 模拟和微码汇编 calctest/README。 md - 用于硬件验证 quartus/README 的命令行测试工具。
 
 
-🔤 Original: A 0-click exploit chain for the Pixel 10
+🔤 Original: I designed a nibble-oriented CPU in Verilog to build a scientific calculator
 
-🔗 Read more: https://projectzero.google/2026/05/pixel-10-exploit.html</description>
-      <guid isPermaLink="true">https://projectzero.google/2026/05/pixel-10-exploit.html</guid>
-      <pubDate>Fri, 15 May 2026 13:39:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48148460</comments>
+🔗 Read more: https://github.com/gdevic/FPGA-Calculator</description>
+      <guid isPermaLink="true">https://github.com/gdevic/FPGA-Calculator</guid>
+      <pubDate>Fri, 15 May 2026 17:15:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48151237</comments>
     </item>
     <item>
-      <title>我建造了 Zenith：一个现场本地优先的固定视口天文馆</title>
-      <link>https://smorgasb.org/zenith-tech/</link>
-      <description>📝 该信息永远不会离开您的计算机。您与地球上处于您所在纬度的其他人分享这个观点。放大到这么深，一切都变得模糊了。
+      <title>美国司法部要求苹果和谷歌揭露超过 10 万汽车修补应用程序用户的身份</title>
+      <link>https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/</link>
+      <description>📝 “据称，这些工具允许用户绕过柴油车的工厂排放控制，主要是通过与车载诊断 (OBD) 硬件加密狗配对的 EZ Lynk Auto Agent 应用程序。隐私倡导者也表达了这些担忧。这一集凸显了政府对应用程序商店数据日益增长的兴趣，以采取执法行动。
 
 
-🔤 Original: I built Zenith: a live local-first fixed viewport planetarium
+🔤 Original: U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app
 
-🔗 Read more: https://smorgasb.org/zenith-tech/</description>
-      <guid isPermaLink="true">https://smorgasb.org/zenith-tech/</guid>
-      <pubDate>Fri, 15 May 2026 15:45:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48150097</comments>
+🔗 Read more: https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/</description>
+      <guid isPermaLink="true">https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/</guid>
+      <pubDate>Fri, 15 May 2026 17:28:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48151383</comments>
     </item>
     <item>
-      <title>sigmoid 救不了你</title>
-      <link>https://www.astralcodexten.com/p/the-sigmoids-wont-save-you</link>
-      <description>📝 org/wiki/List_of_flight_airspeed_records我的理解是，这代表了 3-4 个“代”的不同技术（螺旋桨、涡轮喷气发动机等）。这是否意味着人们是对的，并且无需担心图表会达到标记为“高”的线。有时它们保持指数增长的时间比这要长得多。
+      <title>Hightouch (YC S19) 正在招聘</title>
+      <link>https://hightouch.com/careers</link>
+      <description>📝 通勤我们为在办公室工作的员工提供每月 150 美元的通勤福利。灵活的 PTO 我们相信，当人们在自己的时间里拥有代理权时，他们的工作效果会最好。空缺职位AIAI 战略顾问 远程（北美）AI 运营，GTM 远程，美国AI 创意设计师，广告远程，美国客户成功技术客户经理远程（北美）技术客户经理 - EMEAL 英国伦敦/法国巴黎/远程（欧洲、中东和非洲地区）技术客户管理主管，西旧金山客户成功工程师远程（北美）实施经理远程（北美）客户成功工程师远程（欧洲）实施经理，EMEA远程（欧洲）实施管理经理远程（美国）技术客户经理远程（新加坡、印度、日本）工程全栈产品工程师远程（北美）分布式系统软件工程师远程（北美）AI代理软件工程师远程（北美）开发人员生产力工程师远程（北美）前向部署营销数据科学家远程（北美）网络工程师远程（北美）工程经理，机器学习主管远程（北美）目的地工程经理远程（北美）应用程序安全负责人远程（北美）软件工程师，客户工作室后端远程（北美）流媒体系统首席工程师远程（北美）流媒体系统软件工程师远程（北美）软件工程师，控制平面远程（北美）财务/数据/运营收入运营主管纽约州纽约市。
 
 
-🔤 Original: The sigmoids won't save you
+🔤 Original: Hightouch (YC S19) Is Hiring
 
-🔗 Read more: https://www.astralcodexten.com/p/the-sigmoids-wont-save-you</description>
-      <guid isPermaLink="true">https://www.astralcodexten.com/p/the-sigmoids-wont-save-you</guid>
-      <pubDate>Fri, 15 May 2026 10:51:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48147021</comments>
+🔗 Read more: https://hightouch.com/careers</description>
+      <guid isPermaLink="true">https://hightouch.com/careers</guid>
+      <pubDate>Fri, 15 May 2026 17:01:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48151034</comments>
     </item>
     <item>
-      <title>我喜欢 Linux，但我无法退出 Windows</title>
-      <link>https://jpain.io/i-love-linux-but-i-cant-quit-windows/</link>
-      <description>📝 Linux 从来不跟我在一起。 Linux 摩擦是不可预测的。那感觉就像是神圣的土地被侵犯了。
+      <title>ABC 新闻已将 FiveThirtyEight 的所有文章下线</title>
+      <link>https://twitter.com/baseballot/status/2055309076209492208</link>
+      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
 
 
-🔤 Original: I love Linux, but I can't quit Windows
+🔤 Original: ABC News has taken all FiveThirtyEight articles offline
 
-🔗 Read more: https://jpain.io/i-love-linux-but-i-cant-quit-windows/</description>
-      <guid isPermaLink="true">https://jpain.io/i-love-linux-but-i-cant-quit-windows/</guid>
-      <pubDate>Fri, 15 May 2026 16:13:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48150414</comments>
+🔗 Read more: https://twitter.com/baseballot/status/2055309076209492208</description>
+      <guid isPermaLink="true">https://twitter.com/baseballot/status/2055309076209492208</guid>
+      <pubDate>Fri, 15 May 2026 19:07:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48152553</comments>
     </item>
     <item>
-      <title>杰森·斯科特的 ASCII</title>
-      <link>https://ascii.textfiles.com/</link>
-      <guid isPermaLink="true">https://ascii.textfiles.com/</guid>
-      <pubDate>Fri, 15 May 2026 14:02:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48148726</comments>
+      <title>Feedr v0.8.0 – TUI RSS 阅读器，现在可以从您的终端阅读全文</title>
+      <link>https://github.com/bahdotsh/feedr</link>
+      <description>📝 用法 运行应用程序： feedr OPML Import 从 OPML 文件导入提要： feedr --import feeds。 opml 配置管理 从命令行查看和修改设置： feedr config list # 列出具有当前值的所有设置 feedr config get ui.运行 feedr config list 以查看所有键。
+
+
+🔤 Original: Feedr v0.8.0 – a TUI RSS reader, now read the full article from your terminal
+
+🔗 Read more: https://github.com/bahdotsh/feedr</description>
+      <guid isPermaLink="true">https://github.com/bahdotsh/feedr</guid>
+      <pubDate>Fri, 15 May 2026 17:22:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48151317</comments>
     </item>
     <item>
-      <title>Image-blaster：从单个图像创建 3D 环境、SFX 和网格</title>
-      <link>https://github.com/neilsonnn/image-blaster</link>
-      <description>📝 image-blaster 使用 Claude 技能、World Labs 和 FAL 从单个图像创建 3D 环境、SFX 和网格。 1 - 世界实验室大理石模型创建了可探索的环境。 hunyuan-3d - hunyuan 3D 模型通过 FAL 创建 3D 对象模型.
+      <title>Show HN：Sx – 用于 AI 技能、MCP 和命令的开源包管理器</title>
+      <link>https://github.com/sleuth-io/sx</link>
+      <description>📝 嘘 | bash 然后 # 初始化 sx init # 从您的保管库添加资产 sx add /path/to/my-skill # 将资产安装到当前项目 sx install 多个保管库。 com/acme/infra # 仅在该存储库内 sx install my-skill --path github. com --since 30d --event install.
 
 
-🔤 Original: Image-blaster: Creates 3D environments, SFX, and meshes from a single image
+🔤 Original: Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands
 
-🔗 Read more: https://github.com/neilsonnn/image-blaster</description>
-      <guid isPermaLink="true">https://github.com/neilsonnn/image-blaster</guid>
-      <pubDate>Fri, 15 May 2026 15:42:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48150069</comments>
+🔗 Read more: https://github.com/sleuth-io/sx</description>
+      <guid isPermaLink="true">https://github.com/sleuth-io/sx</guid>
+      <pubDate>Fri, 15 May 2026 17:03:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48151058</comments>
     </item>
     <item>
-      <title>与其他初创公司进行美元交易。将其记为收入</title>
-      <link>https://www.revswap.ai/</link>
-      <guid isPermaLink="true">https://www.revswap.ai/</guid>
-      <pubDate>Fri, 15 May 2026 13:05:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48148084</comments>
+      <title>Waymo 召回 3,800 辆驶入洪水的机器人出租车</title>
+      <link>https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html</link>
+      <description>📝 德克萨斯州奥斯汀和其他地点的事件被摄像机捕捉到，显示 Waymo 车辆行驶在被洪水淹没的道路上，或者在大雨期间陷入交通堵塞。 Waymo 表示，它已经采取了一些修复措施，并正在研究“额外的软件保障措施”。最近，有人在德克萨斯州奥斯汀市的 Waymo 自动驾驶汽车上行驶到被洪水淹没的街道上并熄火，需要其他驾驶员在其周围导航。
+
+
+🔤 Original: Waymo recalls 3,800 robotaxis after they drive into flood waters
+
+🔗 Read more: https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html</guid>
+      <pubDate>Fri, 15 May 2026 18:00:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48151767</comments>
+    </item>
+    <item>
+      <title>我们不知道马拉维为何贫穷</title>
+      <link>https://newsletter.deenamousa.com/p/we-dont-know-why-malawi-is-poor</link>
+      <description>📝 1994 年的马拉维也很穷，但运转良好。肯尼亚的人均 GDP 约为 5,800 美元，是马拉维的三倍半多。马拉维也长期以来一直是捐助者的宠儿。
+
+
+🔤 Original: We don't know why Malawi is poor
+
+🔗 Read more: https://newsletter.deenamousa.com/p/we-dont-know-why-malawi-is-poor</description>
+      <guid isPermaLink="true">https://newsletter.deenamousa.com/p/we-dont-know-why-malawi-is-poor</guid>
+      <pubDate>Fri, 15 May 2026 16:57:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48150971</comments>
     </item>
   </channel>
 </rss>
