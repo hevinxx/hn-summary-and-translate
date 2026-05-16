@@ -6,55 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 19:05:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 21:50:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>HTML Lists</title>
-      <link>https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</link>
-      <description>📝 If that’s the case, let’s use select and option Suppose we want a list of languages to talk in: &lt;select name="languages"&gt; &lt;option value=""&gt;Select a Language&lt;/option&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/select&gt; Select a Language English French Spanish Portuguese This gives the user exactly one choice to make. We can do that with optgroup which lets us group a list of options together: &lt;select name="languages"&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic"&gt; &lt;option value="en"&gt;Irish&lt;/option&gt; &lt;option value="cy"&gt;Welsh&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; English French Spanish Portuguese Irish Welsh What if there’s a bunch of options, but for [reasons] we don’t want a user to be able to select a subset of them. Let’s add the disabled attribute to an optgroup: &lt;select name="languages"&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic" disabled&gt; &lt;option value="en"&gt;Irish&lt;/option&gt; &lt;option value="cy"&gt;Welsh&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; English French Spanish Portuguese Irish Welsh Use native HTML options first for improving the list Sometimes we may want a visual break between your groups.
+      <title>Halt and Catch Fire</title>
+      <link>https://unstack.io/halt-and-catch-fire</link>
+      <description>📝 " While the IBM system did catch fire in cases, it seems that the Motorola 6800 did not. Most machines only feel like they hang. Years later, Motorola engineers wrote more about this same issue.
 
-🔗 Read more: https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</description>
-      <guid isPermaLink="true">https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</guid>
-      <pubDate>Sat, 16 May 2026 16:58:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48161861</comments>
+🔗 Read more: https://unstack.io/halt-and-catch-fire</description>
+      <guid isPermaLink="true">https://unstack.io/halt-and-catch-fire</guid>
+      <pubDate>Sat, 16 May 2026 18:16:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48162468</comments>
     </item>
     <item>
-      <title>Kioxia and Dell cram 10 PB into slim 2RU server</title>
-      <link>https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</link>
-      <description>📝 Dell is already using Kioxia’s LC9 in its PowerEdge servers. Kioxia’s LC9 SSDs Arun Narayanan, SVP Compute and Networking at Dell, said: “The Dell PowerEdge R7725xd combined with Kioxia's high-capacity enterprise SSDs delivers the storage density and power efficiency our customers need to scale AI infrastructure without sacrificing performance. flash dell kioxia flash storage nvme ssds poweredge r7725xd.
+      <title>Japan’s robot wolf sells out as record bear attacks drive demand</title>
+      <link>https://www.independent.co.uk/asia/japan/japan-robot-wolf-bear-attacks-ohta-seiki-b2975670.html</link>
+      <description>📝 A Japanese manufacturer of animatronic wolves designed to scare off wild animals is being swamped with orders as the East Asian country grapples with rising bear attacks. Ohta Seiki, a company based in Hokkaido, has already received about 50 orders for its "Monster Wolf" device this year, more than the typical volume for an entire year. There were more than 50,000 bear sightings nationwide in that period, more than double the previous record set two years earlier.
 
-🔗 Read more: https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</description>
-      <guid isPermaLink="true">https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</guid>
-      <pubDate>Sat, 16 May 2026 17:12:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48161997</comments>
+🔗 Read more: https://www.independent.co.uk/asia/japan/japan-robot-wolf-bear-attacks-ohta-seiki-b2975670.html</description>
+      <guid isPermaLink="true">https://www.independent.co.uk/asia/japan/japan-robot-wolf-bear-attacks-ohta-seiki-b2975670.html</guid>
+      <pubDate>Sat, 16 May 2026 19:10:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48162882</comments>
     </item>
     <item>
-      <title>Show HN: Rocksky – Music scrobbling and discovery on the AT Protocol</title>
-      <link>https://tangled.org/rocksky.app/rocksky</link>
-      <description>📝 fm → Rocksky Mirroring (Future Scrobbles) – automatically mirror new scrobbles from Last. fm into Rocksky Rocksky Connect – remote playback across devices (similar to Spotify Connect) Multi-Source Libraries – browse and scrobble from Google Drive, Dropbox, S3, FTP, and more Stream &amp; Scrobble Your Own Music – upload your library and play directly on Rocksky Extensions – customize and extend Rocksky with your own logic Crossfade &amp; Equalizer Settings Sync – carry your playback preferences across devices 📦 Prerequisites# Node. 0 Spotify SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET from setup in Spotify developer dashboard 🚀 Getting Started# Clone the repository: git clone git@tangled.
+      <title>We've made the world too complicated</title>
+      <link>https://user8.bearblog.dev/the-world-is-too-complicated/</link>
+      <description>📝 We've made the world too complicated 16 May, 2026 We've made the world too complicated. The world doesn't make sense. And maybe that is the greatest gift to ourselves as well.
 
-🔗 Read more: https://tangled.org/rocksky.app/rocksky</description>
-      <guid isPermaLink="true">https://tangled.org/rocksky.app/rocksky</guid>
-      <pubDate>Sat, 16 May 2026 17:00:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48161881</comments>
+🔗 Read more: https://user8.bearblog.dev/the-world-is-too-complicated/</description>
+      <guid isPermaLink="true">https://user8.bearblog.dev/the-world-is-too-complicated/</guid>
+      <pubDate>Sat, 16 May 2026 08:25:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48158065</comments>
     </item>
     <item>
-      <title>US Is Starting to See Heavy Job Losses in Roles Exposed to AI</title>
-      <link>https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</link>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</guid>
-      <pubDate>Sat, 16 May 2026 17:59:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48162354</comments>
-    </item>
-    <item>
-      <title>Mode collapse has a name, and he's selling cancer treatment advice on Amazon</title>
-      <link>https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</link>
-      <description>📝 The work upstream of the prose wasn’t done. From the outside, the picture is indistinguishable from a pure low-effort agent operation running at the floor. The same template runs from more than one account; a week earlier, Marie pitched the same shirt under a different SKU mix.
+      <title>PART Telescopes – Bringing radio astronomy within reach of rural schools</title>
+      <link>https://parttelescopes.web.app/</link>
+      <description>📝 PARTTelescopes Designing low-cost radio telescopes and open software to bring astronomy within reach of rural schools. As students from Narrabundah College, ACT, and participants of the Science Mentors ACT program, the Project for Accessible Radio Telescopes (PART) is our initiative aimed at designing, manufacturing and distributing telescopes for rural educators and students to support their study of astronomy. We seek to manufacture 25 such telescopes to distribute freely among rural high schools and colleges.
 
-🔗 Read more: https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</description>
-      <guid isPermaLink="true">https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</guid>
-      <pubDate>Sat, 16 May 2026 15:01:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160837</comments>
+🔗 Read more: https://parttelescopes.web.app/</description>
+      <guid isPermaLink="true">https://parttelescopes.web.app/</guid>
+      <pubDate>Sat, 16 May 2026 15:12:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48160914</comments>
     </item>
   </channel>
 </rss>
