@@ -6,67 +6,67 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 16 May 2026 15:59:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 19:05:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>澳大利亚青少年团队如何让学校负担得起射电天文学</title>
-      <link>https://mag.openrockets.com/p/how-an-australian-teen-team-is-making-radio-astronomy-affordable-for-rural-schools-4894opuisyhfdisubgi/?b=2</link>
-      <guid isPermaLink="true">https://mag.openrockets.com/p/how-an-australian-teen-team-is-making-radio-astronomy-affordable-for-rural-schools-4894opuisyhfdisubgi/?b=2</guid>
-      <pubDate>Sat, 16 May 2026 15:12:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160914</comments>
+      <title>HTML 列表</title>
+      <link>https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</link>
+      <description>📝 如果是这样的话，让我们使用 select 和 option 假设我们想要一个语言列表： &lt;select name="languages"&gt; &lt;option value=""&gt;选择一种语言&lt;/option&gt; &lt;option value="en"&gt;英语&lt;/option&gt; &lt;option value="fr"&gt;法语&lt;/option&gt; &lt;option value="es"&gt;西班牙语&lt;/option&gt; &lt;option value="pt"&gt;葡萄牙语&lt;/option&gt; &lt;/select&gt; 选择一种语言 英语 法语 西班牙语 葡萄牙语 这为用户提供了一个选择。我们可以使用 optgroup 来做到这一点，它可以让我们将选项列表分组在一起： &lt;select name="languages"&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;英语&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;法语&lt;/option&gt; &lt;option value="es"&gt;西班牙语&lt;/option&gt; &lt;option value="pt"&gt;葡萄牙语&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic"&gt; &lt;option value="en"&gt;爱尔兰语&lt;/option&gt; &lt;option value="cy"&gt;威尔士语&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; 英语 法语 西班牙语 葡萄牙语 爱尔兰语 威尔士语 如果有一堆选项，但出于[原因]，我们不希望用户能够选择其中的子集怎么办？让我们将禁用属性添加到 optgroup 中： &lt;select name="languages"&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;英语&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;法语&lt;/option&gt; &lt;option value="es"&gt;西班牙语&lt;/option&gt; &lt;option value="pt"&gt;葡萄牙语&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic" disabled&gt; &lt;option value="en"&gt;爱尔兰语&lt;/option&gt; &lt;option value="cy"&gt;威尔士语&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; 英语 法语 西班牙语 葡萄牙语 爱尔兰语 威尔士语 首先使用本机 HTML 选项来改进列表 有时，我们可能希望在您的组之间有视觉上的休息。
+
+
+🔤 Original: HTML Lists
+
+🔗 Read more: https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</description>
+      <guid isPermaLink="true">https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</guid>
+      <pubDate>Sat, 16 May 2026 16:58:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161861</comments>
     </item>
     <item>
-      <title>加速</title>
-      <link>https://github.com/AccelerateHS/accelerate</link>
-      <description>📝 Haskell Data 的高性能并行数组。 Accelerate 定义了一种用于 Haskell 中高性能计算的嵌入式数组计算语言。邮件列表和联系人引用加速缺少什么。
+      <title>Kioxia 和戴尔将 10 PB 装入超薄 2RU 服务器</title>
+      <link>https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</link>
+      <description>📝 戴尔已在其 PowerEdge 服务器中使用 Kioxia 的 LC9。 Kioxia 的 LC9 SSD 戴尔计算和网络高级副总裁 Arun Narayanan 表示：“戴尔 PowerEdge R7725xd 与 Kioxia 的高容量企业级 SSD 相结合，为我们的客户提供了扩展 AI 基础设施所需的存储密度和功效，同时又不牺牲性能。闪存 dell kioxia 闪存 nvme ssds poweredge r7725xd。
 
 
-🔤 Original: Accelerate
+🔤 Original: Kioxia and Dell cram 10 PB into slim 2RU server
 
-🔗 Read more: https://github.com/AccelerateHS/accelerate</description>
-      <guid isPermaLink="true">https://github.com/AccelerateHS/accelerate</guid>
-      <pubDate>Sat, 16 May 2026 13:42:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160211</comments>
+🔗 Read more: https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</description>
+      <guid isPermaLink="true">https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</guid>
+      <pubDate>Sat, 16 May 2026 17:12:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161997</comments>
     </item>
     <item>
-      <title>我最喜欢的错误：无效的代理对</title>
-      <link>https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</link>
-      <description>📝 代码单元、代码点和字素簇到底发生了什么。五个代码单元，三个代码点，一个字素。 slice() 破坏了牛仔 🤠 是一个存储为两个代码单元（代理对）的代码点。
+      <title>Show HN：Rocksky – AT 协议上的音乐记录和发现</title>
+      <link>https://tangled.org/rocksky.app/rocksky</link>
+      <description>📝 fm → Rocksky Mirroring (Future Scrobbles) – 自动镜像上次的新 scrobbles。 fm 到 Rocksky Rocksky Connect – 跨设备远程播放（类似于 Spotify Connect） 多源库 – 从 Google Drive、Dropbox、S3、FTP 等浏览和记录 串流和记录您自己的音乐 – 上传您的库并直接在 Rocksky 上播放 扩展 – 使用您自己的逻辑自定义和扩展 Rocksky 交叉淡入淡出和均衡器设置同步 – 跨设备携带您的播放偏好0 Spotify SPOTIFY_CLIENT_ID 和 SPOTIFY_CLIENT_SECRET 来自 Spotify 开发人员仪表板中的设置 🚀 入门# 克隆存储库：git clone git@tangled。
 
 
-🔤 Original: My Favorite Bugs: Invalid Surrogate Pairs
+🔤 Original: Show HN: Rocksky – Music scrobbling and discovery on the AT Protocol
 
-🔗 Read more: https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</description>
-      <guid isPermaLink="true">https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</guid>
-      <pubDate>Sat, 16 May 2026 12:49:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48159790</comments>
+🔗 Read more: https://tangled.org/rocksky.app/rocksky</description>
+      <guid isPermaLink="true">https://tangled.org/rocksky.app/rocksky</guid>
+      <pubDate>Sat, 16 May 2026 17:00:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161881</comments>
     </item>
     <item>
-      <title>DeepSeek-V4-Flash意味着LLM指导再次变得有趣</title>
-      <link>https://www.seangoedecke.com/steering-vectors/</link>
-      <description>📝 这个模型有什么特别之处。为什么转向很有趣 转向听起来像是一个作弊代码。为什么转向还没有被使用 那么我们为什么不更多地转向呢？
-
-
-🔤 Original: DeepSeek-V4-Flash means LLM steering is interesting again
-
-🔗 Read more: https://www.seangoedecke.com/steering-vectors/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/steering-vectors/</guid>
-      <pubDate>Sat, 16 May 2026 14:58:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160807</comments>
+      <title>美国开始看到接触人工智能的岗位大量失业</title>
+      <link>https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</link>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</guid>
+      <pubDate>Sat, 16 May 2026 17:59:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48162354</comments>
     </item>
     <item>
-      <title>希腊字母卡</title>
-      <link>https://labs.randomquark.com/alphabet_cards/</link>
-      <description>📝 大约五个月前，当我开始制作这些卡片时，他们已经三岁半了，所以我想要一些有趣的东西来推动他们前进。我的第一次尝试是“A 代表飞机”式的甲板——名称以每个字母开头的物体的图片。打印第一版后，我顿悟了：。
+      <title>模式崩溃有一个名字，他在亚马逊上销售癌症治疗建议</title>
+      <link>https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</link>
+      <description>📝 散文的上游工作还没有完成。从外面看，这与在场内运行的纯粹的省力代理操作没有什么区别。同一模板可从多个帐户运行；一周前，玛丽以不同的 SKU 组合推销了同一件衬衫。
 
 
-🔤 Original: Greek Alphabet Cards
+🔤 Original: Mode collapse has a name, and he's selling cancer treatment advice on Amazon
 
-🔗 Read more: https://labs.randomquark.com/alphabet_cards/</description>
-      <guid isPermaLink="true">https://labs.randomquark.com/alphabet_cards/</guid>
-      <pubDate>Sat, 16 May 2026 11:53:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48159354</comments>
+🔗 Read more: https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</description>
+      <guid isPermaLink="true">https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</guid>
+      <pubDate>Sat, 16 May 2026 15:01:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48160837</comments>
     </item>
   </channel>
 </rss>

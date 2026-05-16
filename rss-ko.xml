@@ -6,67 +6,67 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 16 May 2026 15:59:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 19:05:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>호주의 청소년 팀이 학교에서 전파 천문학을 저렴하게 만드는 방법</title>
-      <link>https://mag.openrockets.com/p/how-an-australian-teen-team-is-making-radio-astronomy-affordable-for-rural-schools-4894opuisyhfdisubgi/?b=2</link>
-      <guid isPermaLink="true">https://mag.openrockets.com/p/how-an-australian-teen-team-is-making-radio-astronomy-affordable-for-rural-schools-4894opuisyhfdisubgi/?b=2</guid>
-      <pubDate>Sat, 16 May 2026 15:12:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160914</comments>
+      <title>HTML 목록</title>
+      <link>https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</link>
+      <description>📝 그렇다면 select 및 option을 사용하여 대화할 언어 목록을 원한다고 가정해 보겠습니다. &lt;select name="langs"&gt; &lt;option value=""&gt;언어 선택&lt;/option&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/select&gt; 언어 선택 English French Spanish Portugal 이것은 사용자에게 정확히 하나의 언어를 제공합니다. 선택을 해야 합니다. 옵션 목록을 함께 그룹화할 수 있는 optgroup을 사용하면 됩니다: &lt;select name="언어""&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;스페인어&lt;/option&gt; &lt;option value="pt"&gt;포르투갈어&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic"&gt; &lt;option value="en"&gt;아일랜드어&lt;/option&gt; &lt;option value="cy"&gt;웨일스어&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; 영어 프랑스어 스페인어 포르투갈어 아일랜드어 웨일스어 옵션이 많지만 [이유]로 인해 사용자가 그 중 하위 집합을 선택할 수 없도록 하고 싶다면 어떻게 해야 할까요? optgroup에 비활성화된 속성을 추가해 보겠습니다: &lt;select name="언어s"&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic" 비활성화됨&gt; &lt;option value="en"&gt;아일랜드어&lt;/option&gt; &lt;option value="cy"&gt;웨일스어&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; 영어 프랑스어 스페인어 포르투갈어 아일랜드어 웨일스어 목록 개선을 위해 기본 HTML 옵션을 먼저 사용하십시오. 때로는 그룹 간에 시각적인 휴식을 원할 수도 있습니다.
+
+
+🔤 Original: HTML Lists
+
+🔗 Read more: https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</description>
+      <guid isPermaLink="true">https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</guid>
+      <pubDate>Sat, 16 May 2026 16:58:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161861</comments>
     </item>
     <item>
-      <title>가속하다</title>
-      <link>https://github.com/AccelerateHS/accelerate</link>
-      <description>📝 Haskell Data를 위한 고성능 병렬 배열. Accelerate는 Haskell의 고성능 컴퓨팅을 위한 배열 계산의 내장 언어를 정의합니다. Accelerate를 인용하는 메일링 리스트 및 연락처 누락된 내용.
+      <title>Kioxia와 Dell은 슬림형 2RU 서버에 10PB를 담았습니다.</title>
+      <link>https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</link>
+      <description>📝 Dell은 이미 PowerEdge 서버에 Kioxia의 LC9를 사용하고 있습니다. Kioxia의 LC9 SSD Arun Narayanan, Dell 컴퓨팅 및 네트워킹 SVP는 "Dell PowerEdge R7725xd는 Kioxia의 고용량 엔터프라이즈 SSD와 결합되어 고객이 성능 저하 없이 AI 인프라를 확장하는 데 필요한 스토리지 밀도와 전력 효율성을 제공합니다. flash dell kioxia 플래시 스토리지 nvme ssds powerededge r7725xd"라고 말했습니다.
 
 
-🔤 Original: Accelerate
+🔤 Original: Kioxia and Dell cram 10 PB into slim 2RU server
 
-🔗 Read more: https://github.com/AccelerateHS/accelerate</description>
-      <guid isPermaLink="true">https://github.com/AccelerateHS/accelerate</guid>
-      <pubDate>Sat, 16 May 2026 13:42:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160211</comments>
+🔗 Read more: https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</description>
+      <guid isPermaLink="true">https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</guid>
+      <pubDate>Sat, 16 May 2026 17:12:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161997</comments>
     </item>
     <item>
-      <title>내가 가장 좋아하는 버그: 잘못된 대리 쌍</title>
-      <link>https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</link>
-      <description>📝 코드 단위, 코드 포인트, 자소 클러스터 그래서 무슨 일이 있었던 걸까요. 5개의 코드 단위, 3개의 코드 포인트, 1개의 문자소. Slice()는 사물을 깨뜨립니다. 카우보이 🤠는 두 개의 코드 단위(대리 쌍)로 저장된 하나의 코드 포인트입니다.
+      <title>Show HN: Rocksky – AT 프로토콜의 음악 스크롤 및 검색</title>
+      <link>https://tangled.org/rocksky.app/rocksky</link>
+      <description>📝 fm → Rocksky Mirroring(Future Scrobbles) – Last의 새 Scrobbles를 자동으로 미러링합니다. Rocksky로 fm Rocksky Connect – 여러 장치에서 원격 재생(Spotify Connect와 유사) 멀티 소스 라이브러리 – Google Drive, Dropbox, S3, FTP 등에서 검색 및 스크롤 나만의 음악 스트리밍 및 스크러블 – 라이브러리를 업로드하고 Rocksky Extensions에서 직접 재생 – 자신만의 로직으로 Rocksky 맞춤 설정 및 확장 크로스페이드 및 이퀄라이저 설정 동기화 – 여러 기기에서 재생 기본 설정 유지 📦 전제 조건# 노드. 0 Spotify 개발자 대시보드 설정에서 Spotify SPOTIFY_CLIENT_ID 및 SPOTIFY_CLIENT_SECRET 🚀 시작하기# 저장소 복제: git clone git@tangled.
 
 
-🔤 Original: My Favorite Bugs: Invalid Surrogate Pairs
+🔤 Original: Show HN: Rocksky – Music scrobbling and discovery on the AT Protocol
 
-🔗 Read more: https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</description>
-      <guid isPermaLink="true">https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</guid>
-      <pubDate>Sat, 16 May 2026 12:49:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48159790</comments>
+🔗 Read more: https://tangled.org/rocksky.app/rocksky</description>
+      <guid isPermaLink="true">https://tangled.org/rocksky.app/rocksky</guid>
+      <pubDate>Sat, 16 May 2026 17:00:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161881</comments>
     </item>
     <item>
-      <title>DeepSeek-V4-Flash는 LLM 조향이 다시 흥미롭다는 것을 의미합니다.</title>
-      <link>https://www.seangoedecke.com/steering-vectors/</link>
-      <description>📝 이 모델의 특별한 점은 무엇입니까? 스티어링이 흥미로운 이유 스티어링은 치트 코드처럼 들립니다. 왜 스티어링을 사용하지 않았나요? 그렇다면 더 많이 조종해 보는 것은 어떨까요?
-
-
-🔤 Original: DeepSeek-V4-Flash means LLM steering is interesting again
-
-🔗 Read more: https://www.seangoedecke.com/steering-vectors/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/steering-vectors/</guid>
-      <pubDate>Sat, 16 May 2026 14:58:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160807</comments>
+      <title>미국에서는 AI에 노출된 역할에서 대규모 일자리 감소가 나타나기 시작했습니다.</title>
+      <link>https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</link>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</guid>
+      <pubDate>Sat, 16 May 2026 17:59:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48162354</comments>
     </item>
     <item>
-      <title>그리스 알파벳 카드</title>
-      <link>https://labs.randomquark.com/alphabet_cards/</link>
-      <description>📝 약 5개월 전에 이 카드를 시작했을 때 아이들은 3살 반이었습니다. 그래서 아이들이 따라갈 수 있는 재미있는 것을 원했습니다. 나의 첫 번째 시도는 "비행기의 경우 A" 스타일의 데크였습니다. 이름이 각 문자로 시작하는 물체의 사진이었습니다. 버전 1을 인쇄한 후 나는 다음과 같은 깨달음을 얻었습니다.
+      <title>모드 붕괴에는 이름이 있으며 아마존에서 암 치료 조언을 판매하고 있습니다.</title>
+      <link>https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</link>
+      <description>📝 산문의 업스트림 작업은 완료되지 않았습니다. 외부에서 보면 그림은 바닥에서 실행되는 순수한 저노력 에이전트 작업과 구별할 수 없습니다. 동일한 템플릿이 둘 이상의 계정에서 실행됩니다. 일주일 전 Marie는 다른 SKU 조합으로 동일한 셔츠를 선보였습니다.
 
 
-🔤 Original: Greek Alphabet Cards
+🔤 Original: Mode collapse has a name, and he's selling cancer treatment advice on Amazon
 
-🔗 Read more: https://labs.randomquark.com/alphabet_cards/</description>
-      <guid isPermaLink="true">https://labs.randomquark.com/alphabet_cards/</guid>
-      <pubDate>Sat, 16 May 2026 11:53:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48159354</comments>
+🔗 Read more: https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</description>
+      <guid isPermaLink="true">https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</guid>
+      <pubDate>Sat, 16 May 2026 15:01:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48160837</comments>
     </item>
   </channel>
 </rss>

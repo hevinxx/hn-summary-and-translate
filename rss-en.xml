@@ -6,55 +6,55 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 15:59:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 19:05:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>How an Australian Teen Team Is Making Radio Astronomy Affordable for Schools</title>
-      <link>https://mag.openrockets.com/p/how-an-australian-teen-team-is-making-radio-astronomy-affordable-for-rural-schools-4894opuisyhfdisubgi/?b=2</link>
-      <guid isPermaLink="true">https://mag.openrockets.com/p/how-an-australian-teen-team-is-making-radio-astronomy-affordable-for-rural-schools-4894opuisyhfdisubgi/?b=2</guid>
-      <pubDate>Sat, 16 May 2026 15:12:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160914</comments>
+      <title>HTML Lists</title>
+      <link>https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</link>
+      <description>📝 If that’s the case, let’s use select and option Suppose we want a list of languages to talk in: &lt;select name="languages"&gt; &lt;option value=""&gt;Select a Language&lt;/option&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/select&gt; Select a Language English French Spanish Portuguese This gives the user exactly one choice to make. We can do that with optgroup which lets us group a list of options together: &lt;select name="languages"&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic"&gt; &lt;option value="en"&gt;Irish&lt;/option&gt; &lt;option value="cy"&gt;Welsh&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; English French Spanish Portuguese Irish Welsh What if there’s a bunch of options, but for [reasons] we don’t want a user to be able to select a subset of them. Let’s add the disabled attribute to an optgroup: &lt;select name="languages"&gt; &lt;optgroup label="Germanic"&gt; &lt;option value="en"&gt;English&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Romance"&gt; &lt;option value="fr"&gt;French&lt;/option&gt; &lt;option value="es"&gt;Spanish&lt;/option&gt; &lt;option value="pt"&gt;Portuguese&lt;/option&gt; &lt;/optgroup&gt; &lt;optgroup label="Celtic" disabled&gt; &lt;option value="en"&gt;Irish&lt;/option&gt; &lt;option value="cy"&gt;Welsh&lt;/option&gt; &lt;/optgroup&gt; &lt;/select&gt; English French Spanish Portuguese Irish Welsh Use native HTML options first for improving the list Sometimes we may want a visual break between your groups.
+
+🔗 Read more: https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</description>
+      <guid isPermaLink="true">https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/</guid>
+      <pubDate>Sat, 16 May 2026 16:58:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161861</comments>
     </item>
     <item>
-      <title>Accelerate</title>
-      <link>https://github.com/AccelerateHS/accelerate</link>
-      <description>📝 High-performance parallel arrays for Haskell Data. Accelerate defines an embedded language of array computations for high-performance computing in Haskell. Mailing list and contacts Citing Accelerate What's missing.
+      <title>Kioxia and Dell cram 10 PB into slim 2RU server</title>
+      <link>https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</link>
+      <description>📝 Dell is already using Kioxia’s LC9 in its PowerEdge servers. Kioxia’s LC9 SSDs Arun Narayanan, SVP Compute and Networking at Dell, said: “The Dell PowerEdge R7725xd combined with Kioxia's high-capacity enterprise SSDs delivers the storage density and power efficiency our customers need to scale AI infrastructure without sacrificing performance. flash dell kioxia flash storage nvme ssds poweredge r7725xd.
 
-🔗 Read more: https://github.com/AccelerateHS/accelerate</description>
-      <guid isPermaLink="true">https://github.com/AccelerateHS/accelerate</guid>
-      <pubDate>Sat, 16 May 2026 13:42:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160211</comments>
+🔗 Read more: https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</description>
+      <guid isPermaLink="true">https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574</guid>
+      <pubDate>Sat, 16 May 2026 17:12:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161997</comments>
     </item>
     <item>
-      <title>My Favorite Bugs: Invalid Surrogate Pairs</title>
-      <link>https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</link>
-      <description>📝 Code units, code points, and grapheme clustersSo what was going on. Five code units, three code points, one grapheme. slice() breaks thingsThe cowboy 🤠 is one code point stored as two code units (a surrogate pair).
+      <title>Show HN: Rocksky – Music scrobbling and discovery on the AT Protocol</title>
+      <link>https://tangled.org/rocksky.app/rocksky</link>
+      <description>📝 fm → Rocksky Mirroring (Future Scrobbles) – automatically mirror new scrobbles from Last. fm into Rocksky Rocksky Connect – remote playback across devices (similar to Spotify Connect) Multi-Source Libraries – browse and scrobble from Google Drive, Dropbox, S3, FTP, and more Stream &amp; Scrobble Your Own Music – upload your library and play directly on Rocksky Extensions – customize and extend Rocksky with your own logic Crossfade &amp; Equalizer Settings Sync – carry your playback preferences across devices 📦 Prerequisites# Node. 0 Spotify SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET from setup in Spotify developer dashboard 🚀 Getting Started# Clone the repository: git clone git@tangled.
 
-🔗 Read more: https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</description>
-      <guid isPermaLink="true">https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/</guid>
-      <pubDate>Sat, 16 May 2026 12:49:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48159790</comments>
+🔗 Read more: https://tangled.org/rocksky.app/rocksky</description>
+      <guid isPermaLink="true">https://tangled.org/rocksky.app/rocksky</guid>
+      <pubDate>Sat, 16 May 2026 17:00:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48161881</comments>
     </item>
     <item>
-      <title>DeepSeek-V4-Flash means LLM steering is interesting again</title>
-      <link>https://www.seangoedecke.com/steering-vectors/</link>
-      <description>📝 What’s so special about this model. Why steering is interesting Steering sounds like a cheat code. Why steering hasn’t been used Why don’t we steer more, then.
-
-🔗 Read more: https://www.seangoedecke.com/steering-vectors/</description>
-      <guid isPermaLink="true">https://www.seangoedecke.com/steering-vectors/</guid>
-      <pubDate>Sat, 16 May 2026 14:58:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48160807</comments>
+      <title>US Is Starting to See Heavy Job Losses in Roles Exposed to AI</title>
+      <link>https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</link>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai</guid>
+      <pubDate>Sat, 16 May 2026 17:59:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48162354</comments>
     </item>
     <item>
-      <title>Greek Alphabet Cards</title>
-      <link>https://labs.randomquark.com/alphabet_cards/</link>
-      <description>📝 They were three and a half when I started these cards about five months ago, so I wanted something playful to nudge them along. My first attempt was an “A for airplane”-style deck — pictures of objects whose names start with each letter. After printing version one, I had the epiphany:.
+      <title>Mode collapse has a name, and he's selling cancer treatment advice on Amazon</title>
+      <link>https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</link>
+      <description>📝 The work upstream of the prose wasn’t done. From the outside, the picture is indistinguishable from a pure low-effort agent operation running at the floor. The same template runs from more than one account; a week earlier, Marie pitched the same shirt under a different SKU mix.
 
-🔗 Read more: https://labs.randomquark.com/alphabet_cards/</description>
-      <guid isPermaLink="true">https://labs.randomquark.com/alphabet_cards/</guid>
-      <pubDate>Sat, 16 May 2026 11:53:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48159354</comments>
+🔗 Read more: https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</description>
+      <guid isPermaLink="true">https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/</guid>
+      <pubDate>Sat, 16 May 2026 15:01:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48160837</comments>
     </item>
   </channel>
 </rss>
