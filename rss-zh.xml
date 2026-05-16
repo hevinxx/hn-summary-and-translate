@@ -6,96 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 16 May 2026 02:52:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 05:56:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Nintendo 64 上的添加剂混合</title>
-      <link>https://phoboslab.org/log/2026/05/n64-additive-blending</link>
-      <description>📝 这有点类似于OpenGL的glBlendFunc()。 RDP 更适合于此。但这正是 RSP 协处理器的闪光点。
+      <title>P2P 冰毒的主要特点是数量太多 (2021)</title>
+      <link>https://dynomight.net/p2p-meth/</link>
+      <description>📝 […] P2P 冰毒完全不是那样的。 P2P 冰毒有何不同？我们先来谈谈不同类型的冰毒。
 
 
-🔤 Original: Additive Blending on the Nintendo 64
+🔤 Original: The main thing about P2P meth is that there's so much of it (2021)
 
-🔗 Read more: https://phoboslab.org/log/2026/05/n64-additive-blending</description>
-      <guid isPermaLink="true">https://phoboslab.org/log/2026/05/n64-additive-blending</guid>
-      <pubDate>Fri, 15 May 2026 14:39:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48149259</comments>
+🔗 Read more: https://dynomight.net/p2p-meth/</description>
+      <guid isPermaLink="true">https://dynomight.net/p2p-meth/</guid>
+      <pubDate>Fri, 15 May 2026 23:37:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155324</comments>
     </item>
     <item>
-      <title>Erlang/OTP 29.0</title>
-      <link>https://www.erlang.org/news/188</link>
-      <description>📝 可以使用 nowarn_export_var_subexpr 编译器选项禁用此警告。可以使用 nowarn_obsolete_bool_op 编译器选项禁用此警告。可以使用 nowarn_match_alias_pats 选项禁用此警告。
+      <title>我用来捕获交易欺诈的 SQL 模式</title>
+      <link>https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</link>
+      <description>📝 AND order_tx AS ( SELECT cardholder_id, timestamp, location, LAG(timestamp) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_ts, LAG(location) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_loc FROM transactions ) SELECT cardholder_id, prev_ts AS first_tx, timestamp AS secondary_tx, prev_loc AS first_location,位置 AS secondary_location, EXTRACT(EPOCH FROM (timestamp - prev_ts)) / 60 AS 分钟_apart, hasrsine(prev_loc, location) ASmiles_apart FROM Ordered_tx WHERE prev_ts IS NOT NULL AND prev_loc &lt;&gt; location AND hasrsine(prev_loc, location) / nullif(EXTRACT(EPOCH FROM (timestamp - prev_ts)), 0) * 3600 &gt; 600;半正矢是大圆距离函数。 SELECT cardholder_id、timestamp、amount、merchant_id FROM transactions WHERE（金额 &gt;= 99。略低于阈值的金额是不同的。
 
-🔗 Read more: https://www.erlang.org/news/188</description>
-      <guid isPermaLink="true">https://www.erlang.org/news/188</guid>
-      <pubDate>Fri, 15 May 2026 23:33:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155297</comments>
+
+🔤 Original: SQL patterns I use to catch transaction fraud
+
+🔗 Read more: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</description>
+      <guid isPermaLink="true">https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</guid>
+      <pubDate>Fri, 15 May 2026 23:22:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155212</comments>
     </item>
     <item>
-      <title>如何写入 SSD [pdf]</title>
-      <link>https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</link>
-      <description>📝 �4�~y���u��ʧ���U�"9�W틋�����n�����u��~��/.2�V��W &amp;�/m��"��]_ wJ끪��)�[��� 2�e&gt; �� ��,UqC }7��:�. a�XAQ*���S]�4��ꡩv� C�\��U。
+      <title>《纽约时报》和 Vaping：如何通过只说真实的话来撒谎 (2022)</title>
+      <link>https://gwern.net/vaping</link>
+      <description>📝 本文着眼于 2022 年《纽约时报》一篇关于青少年电子烟的文章，该文章将合成尼古丁、调味电子烟、莉齐·伯吉斯的住院治疗和尼古丁成瘾并置，但没有明确指出合法调味尼古丁电子烟导致了她的肺损伤。 2019 年尼古丁电子烟道德恐慌是我们这个时代最引人注目的恐慌之一，非法黑市 THC 大麻电子烟中含有维生素 E 醋酸酯中毒，导致严重的“EVALI”肺损伤，这是史无前例地禁止合法尼古丁电子烟产品的主要理由。这应该说得更清楚。
 
 
-🔤 Original: How to Write to SSDs [pdf]
+🔤 Original: NYT and Vaping: How to Lie by Saying Only True Things (2022)
 
-🔗 Read more: https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</description>
-      <guid isPermaLink="true">https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</guid>
-      <pubDate>Fri, 15 May 2026 22:23:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48154711</comments>
+🔗 Read more: https://gwern.net/vaping</description>
+      <guid isPermaLink="true">https://gwern.net/vaping</guid>
+      <pubDate>Sat, 16 May 2026 00:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155555</comments>
     </item>
     <item>
-      <title>Show HN：Epiq – 基于 Git 的分布式问题跟踪器 TUI</title>
-      <link>https://ljtn.github.io/epiq/</link>
-      <description>📝 通过类似 vim 的动作导航面板、问题、泳道和上下文。或者用箭头键作弊。创建、移动、过滤、关闭、重新打开和同步问题，无需切换选项卡。
+      <title>Orthrus-Qwen3：Qwen3 上高达 7.8×tokens/forward，相同的输出分布</title>
+      <link>https://github.com/chiennv2000/orthrus</link>
+      <description>📝 模型基础模型 HuggingFace 平均生成任务加速 8\times$。 Orthrus 通过将并行生成与顺序约束解耦来解决这个问题，为并行生成保真度建立了一种新的最先进技术。
 
 
-🔤 Original: Show HN: Epiq – Distributed Git based issue tracker TUI
+🔤 Original: Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution
 
-🔗 Read more: https://ljtn.github.io/epiq/</description>
-      <guid isPermaLink="true">https://ljtn.github.io/epiq/</guid>
-      <pubDate>Sat, 16 May 2026 00:18:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155570</comments>
-    </item>
-    <item>
-      <title>我破坏了 AppLovin 的中介密码协议</title>
-      <link>https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</link>
-      <description>📝 salt 是每个 AppLovin SDK 二进制文件中包含的 32 字节常量，其中 21 个有意义的字节后跟 11 个零字节。密码计数器是 System.实际上，iOS 的每个系统属性都会向第三方代码公开。
-
-
-🔤 Original: I broke AppLovin's mediation cipher protocol
-
-🔗 Read more: https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</description>
-      <guid isPermaLink="true">https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</guid>
-      <pubDate>Sat, 16 May 2026 00:35:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155678</comments>
-    </item>
-    <item>
-      <title>“没有办法阻止这种情况，”只有经常发生这种情况的包管理器说</title>
-      <link>https://kevinpatel.xyz/posts/no-way-to-prevent-this/</link>
-      <description>📝 加利福尼亚州旧金山 - npm 注册表遭受毁灭性的​​供应链攻击，导致数百万企业应用程序受到损害，数十亿用户记录遭到泄露，JavaScript 生态系统的开发人员今天表达了深深的悲痛，感叹这样的危机是完全无法避免的。 Node.js 生态系统一致认为，恶意远程代码执行是一场完全不可预测的悲剧，并向目前争先恐后轮换公司 AWS 密钥的 DevOps 团队表达了自己的想法和祈祷。 “这是毁灭性的，但我们必须接受我们生活在一个坏人存在的世界。
-
-
-🔤 Original: 'No way to prevent this,' says only package manager where this regularly happens
-
-🔗 Read more: https://kevinpatel.xyz/posts/no-way-to-prevent-this/</description>
-      <guid isPermaLink="true">https://kevinpatel.xyz/posts/no-way-to-prevent-this/</guid>
-      <pubDate>Sat, 16 May 2026 00:36:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155690</comments>
-    </item>
-    <item>
-      <title>幽灵编程语言</title>
-      <link>https://spectre-docs.pages.dev</link>
-      <description>📝 Spectre Spectre 是一种编程语言，用于安全且基于契约的低级系统编程。本文档旨在充当 Spectre 编程语言的用户指南。明显缺乏基于契约的编程语言来强制执行低级别的正确性。
-
-
-🔤 Original: Spectre Programming Language
-
-🔗 Read more: https://spectre-docs.pages.dev</description>
-      <guid isPermaLink="true">https://spectre-docs.pages.dev</guid>
-      <pubDate>Fri, 15 May 2026 23:14:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155159</comments>
+🔗 Read more: https://github.com/chiennv2000/orthrus</description>
+      <guid isPermaLink="true">https://github.com/chiennv2000/orthrus</guid>
+      <pubDate>Fri, 15 May 2026 22:38:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48154865</comments>
     </item>
   </channel>
 </rss>

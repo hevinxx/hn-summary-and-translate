@@ -6,99 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 02:52:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 05:56:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Nintendo 64 での添加剤ブレンド</title>
-      <link>https://phoboslab.org/log/2026/05/n64-additive-blending</link>
-      <description>📝 これは、OpenGL の glBlendFunc() に似ています。 RDP はこれにはるかに適しています。しかし、ここで RSP コプロセッサが威力を発揮します。
+      <title>P2P 覚せい剤の主な点は、その量が非常に多いということです (2021)</title>
+      <link>https://dynomight.net/p2p-meth/</link>
+      <description>📝 […] P2P覚醒剤はそのようなものではありませんでした。 P2P メソッドはどのように異なるのでしょうか。まず、さまざまな種類の覚せい剤について話しましょう。
 
 
-🔤 Original: Additive Blending on the Nintendo 64
+🔤 Original: The main thing about P2P meth is that there's so much of it (2021)
 
-🔗 Read more: https://phoboslab.org/log/2026/05/n64-additive-blending</description>
-      <guid isPermaLink="true">https://phoboslab.org/log/2026/05/n64-additive-blending</guid>
-      <pubDate>Fri, 15 May 2026 14:39:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48149259</comments>
+🔗 Read more: https://dynomight.net/p2p-meth/</description>
+      <guid isPermaLink="true">https://dynomight.net/p2p-meth/</guid>
+      <pubDate>Fri, 15 May 2026 23:37:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155324</comments>
     </item>
     <item>
-      <title>アーラン/OTP 29.0</title>
-      <link>https://www.erlang.org/news/188</link>
-      <description>📝 この警告は、nowarn_export_var_subexpr コンパイラ オプションを使用して無効にすることができます。この警告は、nowarn_obsolete_bool_op コンパイラ オプションを使用して無効にすることができます。この警告は、nowarn_match_alias_pats オプションを使用して無効にできます。
+      <title>トランザクション詐欺を発見するために使用する SQL パターン</title>
+      <link>https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</link>
+      <description>📝 WITH requested_tx AS ( SELECT カード所有者_id、タイムスタンプ、場所、LAG(タイムスタンプ) OVER (PARTITION BY カード所有者_id ORDER BY タイムスタンプ) AS prev_ts, LAG(場所) OVER (PARTITION BY カード所有者_id ORDER BY タイムスタンプ) AS prev_loc FROM トランザクション ) SELECT カード所有者_id、prev_ts AS first_tx、タイムスタンプ AS Second_tx, prev_loc AS first_location, location AS Second_location, EXTRACT(EPOCH FROM (timestamp - prev_ts)) / 60 AS minutes_apart, haversine(prev_loc, location) ASmiles_apart FROM requested_tx WHERE prev_ts IS NOT NULL AND prev_loc &lt;&gt; location AND haversine(prev_loc, location) / nullif(EXTRACT(EPOCH FROM (タイムスタンプ - prev_ts)), 0) * 3600 &gt; 600;ハーバーサインは大圏距離関数です。 SELECT カード所有者 ID、タイムスタンプ、金額、販売者 ID FROM トランザクション WHERE (金額 &gt;= 99。しきい値をわずかに下回る金額は異なります。
 
 
-🔤 Original: Erlang/OTP 29.0
+🔤 Original: SQL patterns I use to catch transaction fraud
 
-🔗 Read more: https://www.erlang.org/news/188</description>
-      <guid isPermaLink="true">https://www.erlang.org/news/188</guid>
-      <pubDate>Fri, 15 May 2026 23:33:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155297</comments>
+🔗 Read more: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</description>
+      <guid isPermaLink="true">https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</guid>
+      <pubDate>Fri, 15 May 2026 23:22:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155212</comments>
     </item>
     <item>
-      <title>SSD に書き込む方法 [pdf]</title>
-      <link>https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</link>
-      <description>📝 4�~y����u�� �ʧ���U�"9�W틋��� �n���u��~�/. 2 ٷV���W &amp;�/m�"��]_ wJ끪��)�[��� 2�e&gt; � �,UqC }7��:�. a�XAQ*ر���S]�4���ꡩv� C�\�U。
+      <title>NYT と Vaping: 本当のことだけを言って嘘をつく方法 (2022)</title>
+      <link>https://gwern.net/vaping</link>
+      <description>📝 このエッセイは、10代の電子タバコに関する2022年のニューヨーク・タイムズ紙の記事を考察するもので、合成ニコチン、フレーバー付き電子タバコ、リジー・バージェスの入院、ニコチン依存症を並べて論じているが、合法的なニコチン入り電子タバコが彼女の肺損傷の原因であるとは全く述べていない。 2019年のニコチンVAPEモラルパニックは、私たちの時代で最も衝撃的なものの1つであり、違法闇市場のTHCマリファナVAPEにビタミンEアセテートが混入され、重度の「EVALI」肺損傷を引き起こしたことが、合法ニコチンVAPE製品の前例のない禁止を正当化する大きな理由となった。それはもっと明確にすべきだった。
 
 
-🔤 Original: How to Write to SSDs [pdf]
+🔤 Original: NYT and Vaping: How to Lie by Saying Only True Things (2022)
 
-🔗 Read more: https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</description>
-      <guid isPermaLink="true">https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</guid>
-      <pubDate>Fri, 15 May 2026 22:23:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48154711</comments>
+🔗 Read more: https://gwern.net/vaping</description>
+      <guid isPermaLink="true">https://gwern.net/vaping</guid>
+      <pubDate>Sat, 16 May 2026 00:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155555</comments>
     </item>
     <item>
-      <title>HN を表示: Epiq – 分散 Git ベースの問題トラッカー TUI</title>
-      <link>https://ljtn.github.io/epiq/</link>
-      <description>📝 vim のような動きでボード、課題、スイムレーン、コンテキストをナビゲートします。または、矢印キーを使用して不正行為を行います。タブを切り替えることなく、課題を作成、移動、フィルタリング、閉じる、再度開く、同期することができます。
+      <title>Orthrus-Qwen3: Qwen3 で最大 7.8 倍のトークン/転送、同一の出力分布</title>
+      <link>https://github.com/chiennv2000/orthrus</link>
+      <description>📝 モデルベースモデルハグフェイス平均生成タスクが 8\倍$ 高速化します。 Orthrus は、並列生成を逐次制約から切り離すことでこの問題を解決し、並列生成の忠実性に関する新しい最先端の技術を確立します。
 
 
-🔤 Original: Show HN: Epiq – Distributed Git based issue tracker TUI
+🔤 Original: Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution
 
-🔗 Read more: https://ljtn.github.io/epiq/</description>
-      <guid isPermaLink="true">https://ljtn.github.io/epiq/</guid>
-      <pubDate>Sat, 16 May 2026 00:18:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155570</comments>
-    </item>
-    <item>
-      <title>AppLovin のメディエーション暗号プロトコルを破りました</title>
-      <link>https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</link>
-      <description>📝 ソルトは、すべての AppLovin SDK バイナリに焼き付けられた 32 バイトの定数で、21 個の意味のあるバイトとその後に 11 個のゼロ バイトが続きます。暗号カウンターは System.事実上、iOS はすべてのシステム プロパティをサードパーティ コードに公開します。
-
-
-🔤 Original: I broke AppLovin's mediation cipher protocol
-
-🔗 Read more: https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</description>
-      <guid isPermaLink="true">https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</guid>
-      <pubDate>Sat, 16 May 2026 00:35:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155678</comments>
-    </item>
-    <item>
-      <title>「これを防ぐ方法はありません」と言うのは、これが定期的に発生するパッケージマネージャーだけです</title>
-      <link>https://kevinpatel.xyz/posts/no-way-to-prevent-this/</link>
-      <description>📝 カリフォルニア州サンフランシスコ - npm レジストリに対する壊滅的なサプライ チェーン攻撃により、数百万のエンタープライズ アプリケーションが侵害され、数十億のユーザー レコードが漏洩したことを受けて、JavaScript エコシステム全体の開発者が本日深い悲しみを表明し、このような危機は完全に避けられなかったことを嘆きました。 js エコシステムは、悪意のあるリモートコードの実行は完全に予測不可能な悲劇であるという信念で団結し、現在企業の AWS キーのローテーションに追われている DevOps チームに思いと祈りを捧げています。 「衝撃的ですが、私たちは悪者が存在する世界に住んでいることを受け入れなければなりません。
-
-
-🔤 Original: 'No way to prevent this,' says only package manager where this regularly happens
-
-🔗 Read more: https://kevinpatel.xyz/posts/no-way-to-prevent-this/</description>
-      <guid isPermaLink="true">https://kevinpatel.xyz/posts/no-way-to-prevent-this/</guid>
-      <pubDate>Sat, 16 May 2026 00:36:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155690</comments>
-    </item>
-    <item>
-      <title>Spectre プログラミング言語</title>
-      <link>https://spectre-docs.pages.dev</link>
-      <description>📝 Spectre Spectre は、安全で契約ベースの低レベル システム プログラミングを目的としたプログラミング言語です。このドキュメントは、Spectre プログラミング言語のユーザー ガイドとして機能することを目的としています。低レベルで正しさを強制する契約ベースのプログラミング言語が著しく不足しています。
-
-
-🔤 Original: Spectre Programming Language
-
-🔗 Read more: https://spectre-docs.pages.dev</description>
-      <guid isPermaLink="true">https://spectre-docs.pages.dev</guid>
-      <pubDate>Fri, 15 May 2026 23:14:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155159</comments>
+🔗 Read more: https://github.com/chiennv2000/orthrus</description>
+      <guid isPermaLink="true">https://github.com/chiennv2000/orthrus</guid>
+      <pubDate>Fri, 15 May 2026 22:38:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48154865</comments>
     </item>
   </channel>
 </rss>

@@ -6,78 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 02:52:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 05:56:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Additive Blending on the Nintendo 64</title>
-      <link>https://phoboslab.org/log/2026/05/n64-additive-blending</link>
-      <description>📝 This is somewhat similar to OpenGL's glBlendFunc(). The RDP is much better suited for this. But this is where the RSP co-processor shines.
+      <title>The main thing about P2P meth is that there's so much of it (2021)</title>
+      <link>https://dynomight.net/p2p-meth/</link>
+      <description>📝 […] P2P meth was nothing like that. How could P2P meth be different. Let’s talk about different types of meth first.
 
-🔗 Read more: https://phoboslab.org/log/2026/05/n64-additive-blending</description>
-      <guid isPermaLink="true">https://phoboslab.org/log/2026/05/n64-additive-blending</guid>
-      <pubDate>Fri, 15 May 2026 14:39:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48149259</comments>
+🔗 Read more: https://dynomight.net/p2p-meth/</description>
+      <guid isPermaLink="true">https://dynomight.net/p2p-meth/</guid>
+      <pubDate>Fri, 15 May 2026 23:37:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155324</comments>
     </item>
     <item>
-      <title>Erlang/OTP 29.0</title>
-      <link>https://www.erlang.org/news/188</link>
-      <description>📝 This warning can be disabled using the nowarn_export_var_subexpr compiler option. This warning can be disabled using the nowarn_obsolete_bool_op compiler option. This warning can be disabled using the nowarn_match_alias_pats option.
+      <title>SQL patterns I use to catch transaction fraud</title>
+      <link>https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</link>
+      <description>📝 WITH ordered_tx AS ( SELECT cardholder_id, timestamp, location, LAG(timestamp) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_ts, LAG(location) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_loc FROM transactions ) SELECT cardholder_id, prev_ts AS first_tx, timestamp AS second_tx, prev_loc AS first_location, location AS second_location, EXTRACT(EPOCH FROM (timestamp - prev_ts)) / 60 AS minutes_apart, haversine(prev_loc, location) AS miles_apart FROM ordered_tx WHERE prev_ts IS NOT NULL AND prev_loc &lt;&gt; location AND haversine(prev_loc, location) / nullif(EXTRACT(EPOCH FROM (timestamp - prev_ts)), 0) * 3600 &gt; 600; haversine is the great-circle distance function. SELECT cardholder_id, timestamp, amount, merchant_id FROM transactions WHERE (amount &gt;= 99. Amounts just below a threshold are different.
 
-🔗 Read more: https://www.erlang.org/news/188</description>
-      <guid isPermaLink="true">https://www.erlang.org/news/188</guid>
-      <pubDate>Fri, 15 May 2026 23:33:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155297</comments>
+🔗 Read more: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</description>
+      <guid isPermaLink="true">https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</guid>
+      <pubDate>Fri, 15 May 2026 23:22:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155212</comments>
     </item>
     <item>
-      <title>How to Write to SSDs [pdf]</title>
-      <link>https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</link>
-      <description>📝 Հ4�~y����u���ʧ���U�"9�W틋����n�ޅu��~��/. 2ٷV���W&amp;�/m��"��]_wJ끪��)�[��� 2�e&gt;���,UqC}7��:�. a�XAQ*ر���S]�4���ꡩv�C�\��U.
+      <title>NYT and Vaping: How to Lie by Saying Only True Things (2022)</title>
+      <link>https://gwern.net/vaping</link>
+      <description>📝 This essay looks at a 2022 New York Times article about teenage vaping which juxtaposes synthetic nicotine, flavored vapes, Lizzie Burgess’s hospitalization, and nicotine addiction without ever quite saying that legal flavored nicotine vapes caused her lung injury. The 2019 nicotine vaping moral panic was one of the more striking ones of our era, where illegal black-market THC marijuana vapes poisoned with vitamin E acetate that caused severe “EVALI” lung injuries were a major justification for unprecedented bans on legal nicotine vaping products. That should have been made clearer.
 
-🔗 Read more: https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</description>
-      <guid isPermaLink="true">https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</guid>
-      <pubDate>Fri, 15 May 2026 22:23:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48154711</comments>
+🔗 Read more: https://gwern.net/vaping</description>
+      <guid isPermaLink="true">https://gwern.net/vaping</guid>
+      <pubDate>Sat, 16 May 2026 00:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155555</comments>
     </item>
     <item>
-      <title>Show HN: Epiq – Distributed Git based issue tracker TUI</title>
-      <link>https://ljtn.github.io/epiq/</link>
-      <description>📝 Navigate boards, issues, swimlanes, and contexts with vim-like movement. Or cheat with arrow keys. Create, move, filter, close, reopen, and sync issues without tab-switching.
+      <title>Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution</title>
+      <link>https://github.com/chiennv2000/orthrus</link>
+      <description>📝 Model Base Model HuggingFace Avg. 8\times$ speedup on generation tasks. Orthrus resolves this by decoupling parallel generation from sequential constraints, establishing a new state-of-the-art for parallel generation fidelity.
 
-🔗 Read more: https://ljtn.github.io/epiq/</description>
-      <guid isPermaLink="true">https://ljtn.github.io/epiq/</guid>
-      <pubDate>Sat, 16 May 2026 00:18:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155570</comments>
-    </item>
-    <item>
-      <title>I broke AppLovin's mediation cipher protocol</title>
-      <link>https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</link>
-      <description>📝 The salt is a 32-byte constant baked into every AppLovin SDK binary, 21 meaningful bytes followed by 11 zero bytes. The cipher counter is System. Effectively every system property iOS exposes to third-party code.
-
-🔗 Read more: https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</description>
-      <guid isPermaLink="true">https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</guid>
-      <pubDate>Sat, 16 May 2026 00:35:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155678</comments>
-    </item>
-    <item>
-      <title>'No way to prevent this,' says only package manager where this regularly happens</title>
-      <link>https://kevinpatel.xyz/posts/no-way-to-prevent-this/</link>
-      <description>📝 SAN FRANCISCO, CA - In the wake of a devastating supply chain attack in the npm registry that left millions of enterprise applications compromised and billions of user records exposed, developers across the JavaScript ecosystem expressed deep sorrow today, lamenting that such a crisis was completely unavoidable. js ecosystem stood unified in their belief that the malicious remote-code execution was a completely unpredictable tragedy, offering their thoughts and prayers to the DevOps teams currently scrambling to rotate their corporate AWS keys. “It’s devastating, but we have to accept that we live in a world where bad actors exist.
-
-🔗 Read more: https://kevinpatel.xyz/posts/no-way-to-prevent-this/</description>
-      <guid isPermaLink="true">https://kevinpatel.xyz/posts/no-way-to-prevent-this/</guid>
-      <pubDate>Sat, 16 May 2026 00:36:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155690</comments>
-    </item>
-    <item>
-      <title>Spectre Programming Language</title>
-      <link>https://spectre-docs.pages.dev</link>
-      <description>📝 Spectre Spectre is a programming language meant for safe and contract based low-level systems programming. This documentation aims to act as a user guide for the Spectre programming language. There is a notable lack of contract based programming languages that enforce correctness at a low level.
-
-🔗 Read more: https://spectre-docs.pages.dev</description>
-      <guid isPermaLink="true">https://spectre-docs.pages.dev</guid>
-      <pubDate>Fri, 15 May 2026 23:14:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155159</comments>
+🔗 Read more: https://github.com/chiennv2000/orthrus</description>
+      <guid isPermaLink="true">https://github.com/chiennv2000/orthrus</guid>
+      <pubDate>Fri, 15 May 2026 22:38:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48154865</comments>
     </item>
   </channel>
 </rss>

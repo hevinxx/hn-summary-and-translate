@@ -6,99 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 16 May 2026 02:52:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 05:56:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Nintendo 64의 추가 블렌딩</title>
-      <link>https://phoboslab.org/log/2026/05/n64-additive-blending</link>
-      <description>📝 이는 OpenGL의 glBlendFunc()와 다소 유사합니다. RDP가 이에 훨씬 더 적합합니다. 그러나 이것이 RSP 보조 프로세서가 빛나는 곳입니다.
+      <title>P2P 마약의 가장 중요한 점은 그 양이 너무 많다는 것입니다(2021)</title>
+      <link>https://dynomight.net/p2p-meth/</link>
+      <description>📝 [...] P2P 마약은 그런 것이 아니었습니다. P2P 마약은 어떻게 다를 수 있습니까? 먼저 다양한 종류의 메스에 대해 이야기해 보겠습니다.
 
 
-🔤 Original: Additive Blending on the Nintendo 64
+🔤 Original: The main thing about P2P meth is that there's so much of it (2021)
 
-🔗 Read more: https://phoboslab.org/log/2026/05/n64-additive-blending</description>
-      <guid isPermaLink="true">https://phoboslab.org/log/2026/05/n64-additive-blending</guid>
-      <pubDate>Fri, 15 May 2026 14:39:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48149259</comments>
+🔗 Read more: https://dynomight.net/p2p-meth/</description>
+      <guid isPermaLink="true">https://dynomight.net/p2p-meth/</guid>
+      <pubDate>Fri, 15 May 2026 23:37:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155324</comments>
     </item>
     <item>
-      <title>얼랭/OTP 29.0</title>
-      <link>https://www.erlang.org/news/188</link>
-      <description>📝 이 경고는 nowarn_export_var_subexpr 컴파일러 옵션을 사용하여 비활성화할 수 있습니다. 이 경고는 nowarn_obsolete_bool_op 컴파일러 옵션을 사용하여 비활성화할 수 있습니다. 이 경고는 nowarn_match_alias_pats 옵션을 사용하여 비활성화할 수 있습니다.
+      <title>거래 사기를 잡기 위해 사용하는 SQL 패턴</title>
+      <link>https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</link>
+      <description>📝 WITH Ordered_tx AS ( SELECT 카드홀더_ID, 타임스탬프, 위치, LAG(타임스탬프) OVER (PARTITION BY 카드홀더_ID ORDER BY 타임스탬프) AS prev_ts, LAG(위치) OVER (PARTITION BY 카드홀더_id ORDER BY 타임스탬프) AS prev_loc FROM 트랜잭션 ) SELECT 카드홀더_id, prev_ts AS first_tx, 타임스탬프 AS second_tx, prev_loc AS first_location, location AS second_location, EXTRACT(EPOCH FROM (timestamp - prev_ts)) / 60 AS Minute_apart, haversine(prev_loc, location) AS Miles_apart FROM Ordered_tx WHERE prev_ts IS NOT NULL AND prev_loc &lt;&gt; location AND haversine(prev_loc, location) / nullif(EXTRACT(EPOCH FROM (timestamp - prev_ts)), 0) * 3600 &gt; 600; Haversine은 대원 거리 함수입니다. SELECT 카드 소지자_ID, 타임스탬프, 금액, 판매자_ID FROM 거래 WHERE(금액 &gt;= 99. 임계값 바로 아래의 금액은 다릅니다.
 
 
-🔤 Original: Erlang/OTP 29.0
+🔤 Original: SQL patterns I use to catch transaction fraud
 
-🔗 Read more: https://www.erlang.org/news/188</description>
-      <guid isPermaLink="true">https://www.erlang.org/news/188</guid>
-      <pubDate>Fri, 15 May 2026 23:33:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155297</comments>
+🔗 Read more: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</description>
+      <guid isPermaLink="true">https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</guid>
+      <pubDate>Fri, 15 May 2026 23:22:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155212</comments>
     </item>
     <item>
-      <title>SSD에 쓰는 방법 [pdf]</title>
-      <link>https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</link>
-      <description>📝 ΀ 4�~y����u�� �ʧ���U�"9�W 문자��� �n�sectionu��~��/. 2 ٷV���W &amp;�/m�"��]_ wJ끪��)�[��� 2�e&gt; �� �,UqC }7��:�. a�XAQ*ر���S]�4���ꡩv� C�\��U.
+      <title>NYT와 베이핑: 진실만을 말하여 거짓말하는 방법(2022)</title>
+      <link>https://gwern.net/vaping</link>
+      <description>📝 이 에세이는 합성 니코틴, 향이 첨가된 베이프, Lizzie Burgess의 입원, 니코틴 중독을 병치한 10대 베이핑에 관한 2022년 New York Times 기사를 살펴보며 합법적인 향이 첨가된 니코틴 베이프가 그녀의 폐 손상을 초래했다는 사실은 전혀 언급하지 않았습니다. 2019년 니코틴 베이핑 도덕적 공황은 우리 시대의 가장 눈에 띄는 것 중 하나였습니다. 여기서 심각한 "EVALI" 폐 손상을 초래한 비타민 E 아세테이트로 중독된 불법 암시장 THC 마리화나 베이프는 합법적인 니코틴 베이핑 제품에 대한 전례 없는 금지에 대한 주요 정당화였습니다. 그것은 더 명확해졌어야 했습니다.
 
 
-🔤 Original: How to Write to SSDs [pdf]
+🔤 Original: NYT and Vaping: How to Lie by Saying Only True Things (2022)
 
-🔗 Read more: https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</description>
-      <guid isPermaLink="true">https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</guid>
-      <pubDate>Fri, 15 May 2026 22:23:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48154711</comments>
+🔗 Read more: https://gwern.net/vaping</description>
+      <guid isPermaLink="true">https://gwern.net/vaping</guid>
+      <pubDate>Sat, 16 May 2026 00:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48155555</comments>
     </item>
     <item>
-      <title>HN 표시: Epiq – 분산 Git 기반 문제 추적기 TUI</title>
-      <link>https://ljtn.github.io/epiq/</link>
-      <description>📝 vim과 같은 움직임으로 보드, 이슈, 스윔레인 및 컨텍스트를 탐색합니다. 아니면 화살표 키로 속이세요. 탭 전환 없이 문제를 생성, 이동, 필터링, 닫기, 다시 열기 및 동기화할 수 있습니다.
+      <title>Orthrus-Qwen3: Qwen3에서 최대 7.8×토큰/전달, 동일한 출력 분포</title>
+      <link>https://github.com/chiennv2000/orthrus</link>
+      <description>📝 모델 기본 모델 HuggingFace 평균. 생성 작업 속도가 8\times$ 향상됩니다. Orthrus는 병렬 생성을 순차 제약 조건에서 분리하여 병렬 생성 충실도를 위한 새로운 최첨단 기술을 확립함으로써 이 문제를 해결합니다.
 
 
-🔤 Original: Show HN: Epiq – Distributed Git based issue tracker TUI
+🔤 Original: Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution
 
-🔗 Read more: https://ljtn.github.io/epiq/</description>
-      <guid isPermaLink="true">https://ljtn.github.io/epiq/</guid>
-      <pubDate>Sat, 16 May 2026 00:18:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155570</comments>
-    </item>
-    <item>
-      <title>AppLovin의 중재 암호화 프로토콜을 위반했습니다.</title>
-      <link>https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</link>
-      <description>📝 솔트는 모든 AppLovin SDK 바이너리에 포함된 32바이트 상수로, 21개의 의미 있는 바이트 뒤에 11개의 0바이트가 옵니다. 암호 카운터는 시스템입니다. 사실상 iOS의 모든 시스템 속성은 제3자 코드에 노출됩니다.
-
-
-🔤 Original: I broke AppLovin's mediation cipher protocol
-
-🔗 Read more: https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</description>
-      <guid isPermaLink="true">https://www.buchodi.com/i-broke-applovins-mediation-cipher-protocol/</guid>
-      <pubDate>Sat, 16 May 2026 00:35:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155678</comments>
-    </item>
-    <item>
-      <title>이런 일이 정기적으로 발생하는 패키지 관리자만 '이를 방지할 방법이 없습니다.'라고 말합니다.</title>
-      <link>https://kevinpatel.xyz/posts/no-way-to-prevent-this/</link>
-      <description>📝 캘리포니아주 샌프란시스코 - 수백만 개의 기업 애플리케이션이 손상되고 수십억 개의 사용자 기록이 노출된 npm 레지스트리의 파괴적인 공급망 공격으로 인해 JavaScript 생태계의 개발자들은 오늘 그러한 위기를 완전히 피할 수 없었다고 한탄하며 깊은 슬픔을 표했습니다. Node.js 생태계는 악의적인 원격 코드 실행이 완전히 예측할 수 없는 비극이라는 믿음으로 통합되어 현재 회사 AWS 키를 교체하기 위해 안간힘을 쓰고 있는 DevOps 팀에 생각과 기도를 제공했습니다. “끔찍한 일이지만 우리는 나쁜 행위자가 존재하는 세상에 살고 있다는 사실을 받아들여야 합니다.
-
-
-🔤 Original: 'No way to prevent this,' says only package manager where this regularly happens
-
-🔗 Read more: https://kevinpatel.xyz/posts/no-way-to-prevent-this/</description>
-      <guid isPermaLink="true">https://kevinpatel.xyz/posts/no-way-to-prevent-this/</guid>
-      <pubDate>Sat, 16 May 2026 00:36:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155690</comments>
-    </item>
-    <item>
-      <title>스펙터 프로그래밍 언어</title>
-      <link>https://spectre-docs.pages.dev</link>
-      <description>📝 Specter Spectre는 안전한 계약 기반 저수준 시스템 프로그래밍을 위한 프로그래밍 언어입니다. 이 문서는 Spectre 프로그래밍 언어에 대한 사용자 가이드 역할을 하는 것을 목표로 합니다. 낮은 수준에서 정확성을 강제하는 계약 기반 프로그래밍 언어가 눈에 띄게 부족합니다.
-
-
-🔤 Original: Spectre Programming Language
-
-🔗 Read more: https://spectre-docs.pages.dev</description>
-      <guid isPermaLink="true">https://spectre-docs.pages.dev</guid>
-      <pubDate>Fri, 15 May 2026 23:14:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155159</comments>
+🔗 Read more: https://github.com/chiennv2000/orthrus</description>
+      <guid isPermaLink="true">https://github.com/chiennv2000/orthrus</guid>
+      <pubDate>Fri, 15 May 2026 22:38:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48154865</comments>
     </item>
   </channel>
 </rss>
