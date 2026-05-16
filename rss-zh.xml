@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 16 May 2026 05:56:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 08:04:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>P2P 冰毒的主要特点是数量太多 (2021)</title>
-      <link>https://dynomight.net/p2p-meth/</link>
-      <description>📝 […] P2P 冰毒完全不是那样的。 P2P 冰毒有何不同？我们先来谈谈不同类型的冰毒。
+      <title>Frontier AI 打破了开放的 CTF 格式</title>
+      <link>https://kabir.au/blog/the-ctf-scene-is-dead</link>
+      <description>📝 这改变了比赛。这使得开放式 CTF 是付费获胜的。这是一种反模式。
 
 
-🔤 Original: The main thing about P2P meth is that there's so much of it (2021)
+🔤 Original: Frontier AI has broken the open CTF format
 
-🔗 Read more: https://dynomight.net/p2p-meth/</description>
-      <guid isPermaLink="true">https://dynomight.net/p2p-meth/</guid>
-      <pubDate>Fri, 15 May 2026 23:37:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155324</comments>
+🔗 Read more: https://kabir.au/blog/the-ctf-scene-is-dead</description>
+      <guid isPermaLink="true">https://kabir.au/blog/the-ctf-scene-is-dead</guid>
+      <pubDate>Sat, 16 May 2026 07:01:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48157559</comments>
     </item>
     <item>
-      <title>我用来捕获交易欺诈的 SQL 模式</title>
-      <link>https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</link>
-      <description>📝 AND order_tx AS ( SELECT cardholder_id, timestamp, location, LAG(timestamp) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_ts, LAG(location) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_loc FROM transactions ) SELECT cardholder_id, prev_ts AS first_tx, timestamp AS secondary_tx, prev_loc AS first_location,位置 AS secondary_location, EXTRACT(EPOCH FROM (timestamp - prev_ts)) / 60 AS 分钟_apart, hasrsine(prev_loc, location) ASmiles_apart FROM Ordered_tx WHERE prev_ts IS NOT NULL AND prev_loc &lt;&gt; location AND hasrsine(prev_loc, location) / nullif(EXTRACT(EPOCH FROM (timestamp - prev_ts)), 0) * 3600 &gt; 600;半正矢是大圆距离函数。 SELECT cardholder_id、timestamp、amount、merchant_id FROM transactions WHERE（金额 &gt;= 99。略低于阈值的金额是不同的。
+      <title>加州电池阵列的功率相当于 12 座核电站</title>
+      <link>https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</link>
+      <description>📝 理发师：加州还需要什么？巴伯：可再生能源行业是否有足够的动力来抵御特朗普政府的攻击。理发师：电池阵列呢？
 
 
-🔤 Original: SQL patterns I use to catch transaction fraud
+🔤 Original: California's Battery Array Is as Powerful as 12 Nuclear Power Plants
 
-🔗 Read more: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</description>
-      <guid isPermaLink="true">https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</guid>
-      <pubDate>Fri, 15 May 2026 23:22:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155212</comments>
-    </item>
-    <item>
-      <title>《纽约时报》和 Vaping：如何通过只说真实的话来撒谎 (2022)</title>
-      <link>https://gwern.net/vaping</link>
-      <description>📝 本文着眼于 2022 年《纽约时报》一篇关于青少年电子烟的文章，该文章将合成尼古丁、调味电子烟、莉齐·伯吉斯的住院治疗和尼古丁成瘾并置，但没有明确指出合法调味尼古丁电子烟导致了她的肺损伤。 2019 年尼古丁电子烟道德恐慌是我们这个时代最引人注目的恐慌之一，非法黑市 THC 大麻电子烟中含有维生素 E 醋酸酯中毒，导致严重的“EVALI”肺损伤，这是史无前例地禁止合法尼古丁电子烟产品的主要理由。这应该说得更清楚。
-
-
-🔤 Original: NYT and Vaping: How to Lie by Saying Only True Things (2022)
-
-🔗 Read more: https://gwern.net/vaping</description>
-      <guid isPermaLink="true">https://gwern.net/vaping</guid>
-      <pubDate>Sat, 16 May 2026 00:15:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155555</comments>
-    </item>
-    <item>
-      <title>Orthrus-Qwen3：Qwen3 上高达 7.8×tokens/forward，相同的输出分布</title>
-      <link>https://github.com/chiennv2000/orthrus</link>
-      <description>📝 模型基础模型 HuggingFace 平均生成任务加速 8\times$。 Orthrus 通过将并行生成与顺序约束解耦来解决这个问题，为并行生成保真度建立了一种新的最先进技术。
-
-
-🔤 Original: Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution
-
-🔗 Read more: https://github.com/chiennv2000/orthrus</description>
-      <guid isPermaLink="true">https://github.com/chiennv2000/orthrus</guid>
-      <pubDate>Fri, 15 May 2026 22:38:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48154865</comments>
+🔗 Read more: https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</description>
+      <guid isPermaLink="true">https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</guid>
+      <pubDate>Sat, 16 May 2026 03:42:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48156628</comments>
     </item>
   </channel>
 </rss>

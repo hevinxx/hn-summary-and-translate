@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 05:56:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 08:04:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>P2P 覚せい剤の主な点は、その量が非常に多いということです (2021)</title>
-      <link>https://dynomight.net/p2p-meth/</link>
-      <description>📝 […] P2P覚醒剤はそのようなものではありませんでした。 P2P メソッドはどのように異なるのでしょうか。まず、さまざまな種類の覚せい剤について話しましょう。
+      <title>Frontier AI はオープン CTF フォーマットを破りました</title>
+      <link>https://kabir.au/blog/the-ctf-scene-is-dead</link>
+      <description>📝 それがゲームを変えた。これにより、オープン CTF は Pay-to-Win になります。それはアンチパターンです。
 
 
-🔤 Original: The main thing about P2P meth is that there's so much of it (2021)
+🔤 Original: Frontier AI has broken the open CTF format
 
-🔗 Read more: https://dynomight.net/p2p-meth/</description>
-      <guid isPermaLink="true">https://dynomight.net/p2p-meth/</guid>
-      <pubDate>Fri, 15 May 2026 23:37:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155324</comments>
+🔗 Read more: https://kabir.au/blog/the-ctf-scene-is-dead</description>
+      <guid isPermaLink="true">https://kabir.au/blog/the-ctf-scene-is-dead</guid>
+      <pubDate>Sat, 16 May 2026 07:01:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48157559</comments>
     </item>
     <item>
-      <title>トランザクション詐欺を発見するために使用する SQL パターン</title>
-      <link>https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</link>
-      <description>📝 WITH requested_tx AS ( SELECT カード所有者_id、タイムスタンプ、場所、LAG(タイムスタンプ) OVER (PARTITION BY カード所有者_id ORDER BY タイムスタンプ) AS prev_ts, LAG(場所) OVER (PARTITION BY カード所有者_id ORDER BY タイムスタンプ) AS prev_loc FROM トランザクション ) SELECT カード所有者_id、prev_ts AS first_tx、タイムスタンプ AS Second_tx, prev_loc AS first_location, location AS Second_location, EXTRACT(EPOCH FROM (timestamp - prev_ts)) / 60 AS minutes_apart, haversine(prev_loc, location) ASmiles_apart FROM requested_tx WHERE prev_ts IS NOT NULL AND prev_loc &lt;&gt; location AND haversine(prev_loc, location) / nullif(EXTRACT(EPOCH FROM (タイムスタンプ - prev_ts)), 0) * 3600 &gt; 600;ハーバーサインは大圏距離関数です。 SELECT カード所有者 ID、タイムスタンプ、金額、販売者 ID FROM トランザクション WHERE (金額 &gt;= 99。しきい値をわずかに下回る金額は異なります。
+      <title>カリフォルニアのバッテリーアレイは原子力発電所12基と同じくらい強力</title>
+      <link>https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</link>
+      <description>📝 バーバー: カリフォルニアがオンラインにこれ​​以上何をもたらす必要があるでしょうか。バーバー: 再生可能エネルギー分野には、トランプ政権からの攻撃を押し切るだけの勢いがあるのでしょうか。バーバー: バッテリーアレイについてはどうでしょうか。
 
 
-🔤 Original: SQL patterns I use to catch transaction fraud
+🔤 Original: California's Battery Array Is as Powerful as 12 Nuclear Power Plants
 
-🔗 Read more: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</description>
-      <guid isPermaLink="true">https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</guid>
-      <pubDate>Fri, 15 May 2026 23:22:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155212</comments>
-    </item>
-    <item>
-      <title>NYT と Vaping: 本当のことだけを言って嘘をつく方法 (2022)</title>
-      <link>https://gwern.net/vaping</link>
-      <description>📝 このエッセイは、10代の電子タバコに関する2022年のニューヨーク・タイムズ紙の記事を考察するもので、合成ニコチン、フレーバー付き電子タバコ、リジー・バージェスの入院、ニコチン依存症を並べて論じているが、合法的なニコチン入り電子タバコが彼女の肺損傷の原因であるとは全く述べていない。 2019年のニコチンVAPEモラルパニックは、私たちの時代で最も衝撃的なものの1つであり、違法闇市場のTHCマリファナVAPEにビタミンEアセテートが混入され、重度の「EVALI」肺損傷を引き起こしたことが、合法ニコチンVAPE製品の前例のない禁止を正当化する大きな理由となった。それはもっと明確にすべきだった。
-
-
-🔤 Original: NYT and Vaping: How to Lie by Saying Only True Things (2022)
-
-🔗 Read more: https://gwern.net/vaping</description>
-      <guid isPermaLink="true">https://gwern.net/vaping</guid>
-      <pubDate>Sat, 16 May 2026 00:15:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155555</comments>
-    </item>
-    <item>
-      <title>Orthrus-Qwen3: Qwen3 で最大 7.8 倍のトークン/転送、同一の出力分布</title>
-      <link>https://github.com/chiennv2000/orthrus</link>
-      <description>📝 モデルベースモデルハグフェイス平均生成タスクが 8\倍$ 高速化します。 Orthrus は、並列生成を逐次制約から切り離すことでこの問題を解決し、並列生成の忠実性に関する新しい最先端の技術を確立します。
-
-
-🔤 Original: Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution
-
-🔗 Read more: https://github.com/chiennv2000/orthrus</description>
-      <guid isPermaLink="true">https://github.com/chiennv2000/orthrus</guid>
-      <pubDate>Fri, 15 May 2026 22:38:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48154865</comments>
+🔗 Read more: https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</description>
+      <guid isPermaLink="true">https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</guid>
+      <pubDate>Sat, 16 May 2026 03:42:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48156628</comments>
     </item>
   </channel>
 </rss>

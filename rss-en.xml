@@ -6,48 +6,28 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 05:56:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 08:04:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>The main thing about P2P meth is that there's so much of it (2021)</title>
-      <link>https://dynomight.net/p2p-meth/</link>
-      <description>📝 […] P2P meth was nothing like that. How could P2P meth be different. Let’s talk about different types of meth first.
+      <title>Frontier AI has broken the open CTF format</title>
+      <link>https://kabir.au/blog/the-ctf-scene-is-dead</link>
+      <description>📝 That changed the game. That makes open CTFs pay-to-win. That is an anti-pattern.
 
-🔗 Read more: https://dynomight.net/p2p-meth/</description>
-      <guid isPermaLink="true">https://dynomight.net/p2p-meth/</guid>
-      <pubDate>Fri, 15 May 2026 23:37:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155324</comments>
+🔗 Read more: https://kabir.au/blog/the-ctf-scene-is-dead</description>
+      <guid isPermaLink="true">https://kabir.au/blog/the-ctf-scene-is-dead</guid>
+      <pubDate>Sat, 16 May 2026 07:01:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48157559</comments>
     </item>
     <item>
-      <title>SQL patterns I use to catch transaction fraud</title>
-      <link>https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</link>
-      <description>📝 WITH ordered_tx AS ( SELECT cardholder_id, timestamp, location, LAG(timestamp) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_ts, LAG(location) OVER (PARTITION BY cardholder_id ORDER BY timestamp) AS prev_loc FROM transactions ) SELECT cardholder_id, prev_ts AS first_tx, timestamp AS second_tx, prev_loc AS first_location, location AS second_location, EXTRACT(EPOCH FROM (timestamp - prev_ts)) / 60 AS minutes_apart, haversine(prev_loc, location) AS miles_apart FROM ordered_tx WHERE prev_ts IS NOT NULL AND prev_loc &lt;&gt; location AND haversine(prev_loc, location) / nullif(EXTRACT(EPOCH FROM (timestamp - prev_ts)), 0) * 3600 &gt; 600; haversine is the great-circle distance function. SELECT cardholder_id, timestamp, amount, merchant_id FROM transactions WHERE (amount &gt;= 99. Amounts just below a threshold are different.
+      <title>California's Battery Array Is as Powerful as 12 Nuclear Power Plants</title>
+      <link>https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</link>
+      <description>📝 BARBER: What more does California need to bring online. BARBER: Does the renewable sector have enough momentum to push through attacks from the Trump administration. BARBER: What about battery arrays.
 
-🔗 Read more: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</description>
-      <guid isPermaLink="true">https://analytics.fixelsmith.com/posts/sql-fraud-patterns/</guid>
-      <pubDate>Fri, 15 May 2026 23:22:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155212</comments>
-    </item>
-    <item>
-      <title>NYT and Vaping: How to Lie by Saying Only True Things (2022)</title>
-      <link>https://gwern.net/vaping</link>
-      <description>📝 This essay looks at a 2022 New York Times article about teenage vaping which juxtaposes synthetic nicotine, flavored vapes, Lizzie Burgess’s hospitalization, and nicotine addiction without ever quite saying that legal flavored nicotine vapes caused her lung injury. The 2019 nicotine vaping moral panic was one of the more striking ones of our era, where illegal black-market THC marijuana vapes poisoned with vitamin E acetate that caused severe “EVALI” lung injuries were a major justification for unprecedented bans on legal nicotine vaping products. That should have been made clearer.
-
-🔗 Read more: https://gwern.net/vaping</description>
-      <guid isPermaLink="true">https://gwern.net/vaping</guid>
-      <pubDate>Sat, 16 May 2026 00:15:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48155555</comments>
-    </item>
-    <item>
-      <title>Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution</title>
-      <link>https://github.com/chiennv2000/orthrus</link>
-      <description>📝 Model Base Model HuggingFace Avg. 8\times$ speedup on generation tasks. Orthrus resolves this by decoupling parallel generation from sequential constraints, establishing a new state-of-the-art for parallel generation fidelity.
-
-🔗 Read more: https://github.com/chiennv2000/orthrus</description>
-      <guid isPermaLink="true">https://github.com/chiennv2000/orthrus</guid>
-      <pubDate>Fri, 15 May 2026 22:38:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48154865</comments>
+🔗 Read more: https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</description>
+      <guid isPermaLink="true">https://zolairenergy.com/californias-battery-array-is-as-powerful-as-12-nuclear-power-plants-heres-whats-on-the-horizon/</guid>
+      <pubDate>Sat, 16 May 2026 03:42:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48156628</comments>
     </item>
   </channel>
 </rss>
