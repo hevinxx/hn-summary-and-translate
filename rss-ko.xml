@@ -6,41 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 22 May 2026 03:36:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 09:23:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Uv는 환상적이지만 패키지 관리 UX가 엉망입니다.</title>
-      <link>https://www.loopwerk.io/articles/2026/uv-ux-mess/</link>
-      <description>📝 매일 아침 pnpm 업데이트 또는 시 업데이트를 실행할 수 있으며 주요 API 변경으로 인해 빌드가 중단되지 않을 것이라는 높은 확신을 가질 수 있습니다(패키지가 SemVer를 준수한다고 가정). pnpm 또는 Poetry의 모든 내용을 업데이트하려면 간단한 pnpm update 또는 poem update 명령을 사용하면 됩니다. pnpm의 기능:$ pnpm update pydantic httpx uvicorn uv의 기능:$ uv ​​lock --upgrade-package pydantic --upgrade-package httpx --upgrade-package uvicorn 모든 단일 항목에 대해 --upgrade-package 플래그를 반복해야 하는 것은 여러 패키지를 업데이트하려는 경우 매우 번거롭습니다.
+      <title>CODA: 변압기 블록을 GEMM-에필로그 프로그램으로 다시 작성</title>
+      <link>https://arxiv.org/abs/2605.19269</link>
+      <description>📝 ) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?) ScienceCast Toggle ScienceCast(ScienceCast란 무엇입니까?)
 
 
-🔤 Original: Uv is fantastic, but its package management UX is a mess
+🔤 Original: CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs
 
-🔗 Read more: https://www.loopwerk.io/articles/2026/uv-ux-mess/</description>
-      <guid isPermaLink="true">https://www.loopwerk.io/articles/2026/uv-ux-mess/</guid>
-      <pubDate>Thu, 21 May 2026 20:56:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48228788</comments>
+🔗 Read more: https://arxiv.org/abs/2605.19269</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2605.19269</guid>
+      <pubDate>Fri, 22 May 2026 04:54:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48232118</comments>
     </item>
     <item>
-      <title>구글의 IBM화?</title>
-      <link>https://zeroshot.bearblog.dev/google-is-shattering-under-its-own-weight-the-ibm-ification-of-google/</link>
-      <description>📝 구글은 말 그대로 모든 것을 죽인다. 구글은 지금 딱 그런 느낌이다. Google은 반짝이는 모든 물체를 추적했습니다.
+      <title>평균 CPU 사용률을 없애야 합니다.</title>
+      <link>https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/</link>
+      <description>📝 모든 그래프는 모든 것이 괜찮다고 말했습니다. 모든 사용자는 모든 것이 괜찮다고 말했습니다. 모든 것이 괜찮아 보입니다.
 
 
-🔤 Original: The IBM-ification of Google?
+🔤 Original: We should get rid of average CPU utilization
 
-🔗 Read more: https://zeroshot.bearblog.dev/google-is-shattering-under-its-own-weight-the-ibm-ification-of-google/</description>
-      <guid isPermaLink="true">https://zeroshot.bearblog.dev/google-is-shattering-under-its-own-weight-the-ibm-ification-of-google/</guid>
-      <pubDate>Thu, 21 May 2026 23:30:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48230049</comments>
+🔗 Read more: https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/</description>
+      <guid isPermaLink="true">https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/</guid>
+      <pubDate>Fri, 22 May 2026 08:15:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48233289</comments>
     </item>
     <item>
-      <title>AI 이익 급증에 따라 삼성 칩 직원은 평균 34만 달러의 보너스를 받게 됩니다.</title>
-      <link>https://qz.com/samsung-chip-workers-bonus-ai-profits-052126</link>
-      <guid isPermaLink="true">https://qz.com/samsung-chip-workers-bonus-ai-profits-052126</guid>
-      <pubDate>Fri, 22 May 2026 01:30:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48230892</comments>
+      <title>TUI HTTP 클라이언트를 잠자기</title>
+      <link>https://slumber.lucaspickering.me</link>
+      <description>📝 소개 Slumber는 REST 및 기타 HTTP 클라이언트와 상호 작용하도록 구축된 터미널 기반 HTTP 클라이언트입니다. TUI(터미널 사용자 인터페이스)와 CLI(명령줄 인터페이스)의 두 가지 사용 모드가 있습니다. 두 가지 사용 모드(TUI 및 CLI) 모두 요청 수집이라고 하는 동일한 기본 구성을 공유합니다.
+
+
+🔤 Original: Slumber a TUI HTTP Client
+
+🔗 Read more: https://slumber.lucaspickering.me</description>
+      <guid isPermaLink="true">https://slumber.lucaspickering.me</guid>
+      <pubDate>Fri, 22 May 2026 04:29:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48231938</comments>
+    </item>
+    <item>
+      <title>클리브 몰러가 사망했습니다</title>
+      <link>https://www.mathworks.com/company/aboutus/founders/clevemoler.html</link>
+      <guid isPermaLink="true">https://www.mathworks.com/company/aboutus/founders/clevemoler.html</guid>
+      <pubDate>Fri, 22 May 2026 02:35:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48231319</comments>
+    </item>
+    <item>
+      <title>딥페이크가 고등학교를 찢어버렸다</title>
+      <link>https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/</link>
+      <description>📝 12월 초 어느 학교의 밤, 펜실베니아 주 래드너 고등학교(Radnor High School)의 한 신입생이 친구들에게 스냅챗 메시지를 보내 부모님이 자신의 휴대폰을 가져갔다고 썼습니다. 2026학년도에는 1,000명이 조금 넘는 아이들이 등록되어 있습니다. 구독 이 게시물에 무료로 액세스하려면 등록하세요. 무료 회원은 이번 주 이야기를 모아 놓은 이메일과 함께 이 게시물에 액세스할 수 있습니다.
+
+
+🔤 Original: Deepfakes Tore a High School Apart
+
+🔗 Read more: https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/</description>
+      <guid isPermaLink="true">https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/</guid>
+      <pubDate>Fri, 22 May 2026 07:52:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48233177</comments>
+    </item>
+    <item>
+      <title>메모리 부족으로 인해 가전제품 가격이 다시 책정되고 있습니다.</title>
+      <link>https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone</link>
+      <description>📝 당신이 가지고 있는 기억일 뿐입니다. 스마트폰은 컴퓨터입니다. 프로세서가 현재 작업 중인 데이터를 보관하는 메모리가 있습니다. 장치가 꺼졌을 때 데이터를 유지하는 저장소가 있습니다.
+
+
+🔤 Original: The memory shortage is causing a repricing of consumer electronics
+
+🔗 Read more: https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone</description>
+      <guid isPermaLink="true">https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone</guid>
+      <pubDate>Thu, 21 May 2026 21:55:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48229319</comments>
     </item>
   </channel>
 </rss>
