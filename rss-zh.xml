@@ -6,67 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 23 May 2026 13:24:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 16:03:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>我想念特里·普拉切特</title>
-      <link>https://www.mahl.me/blog/the-spell-that-wouldnt-leave/</link>
-      <description>📝 当我第一次读到这句话时，我才十六岁。大多数物理系都会满足于此。马蒂厄喜欢Rincewind。
+      <title>关于 &lt;dl&gt;</title>
+      <link>https://benmyers.dev/blog/on-the-dl/</link>
+      <description>📝 复制代码 &lt;dl&gt; &lt;/dl&gt; 太棒了。它看起来很像：复制代码 &lt;div class="book-details"&gt; &lt;div class="book-details--item"&gt; &lt;div class="book-details--label"&gt; 标题 &lt;/div&gt; &lt;div class="book-details--value"&gt; 使用 Web 标准进行设计 &lt;/div&gt; &lt;/div&gt; &lt;div class="book-details--item"&gt; &lt;div class="book-details--label"&gt; 作者 &lt;/div&gt; &lt;div class="book-details--value"&gt; Jeffrey Zeldman &lt;/div&gt; &lt;div class="book-details--value"&gt; 伊森·马科特 &lt;/div&gt; &lt;/div&gt; &lt;div class="book-details--item"&gt; &lt;div class="book-details--label"&gt; 出版商 &lt;/div&gt; &lt;div class="book-details--value"&gt; 新骑手酒吧；第三版（2009年10月19日） &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; 这有这本书的所有信息，对吧。在这种情况下，如果浏览器能够以某种方式识别名称-值组列表，我们会得到什么提升。
 
 
-🔤 Original: I Miss Terry Pratchett
+🔤 Original: On The &lt;dl&gt;
 
-🔗 Read more: https://www.mahl.me/blog/the-spell-that-wouldnt-leave/</description>
-      <guid isPermaLink="true">https://www.mahl.me/blog/the-spell-that-wouldnt-leave/</guid>
-      <pubDate>Sat, 23 May 2026 12:35:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48247127</comments>
+🔗 Read more: https://benmyers.dev/blog/on-the-dl/</description>
+      <guid isPermaLink="true">https://benmyers.dev/blog/on-the-dl/</guid>
+      <pubDate>Sat, 23 May 2026 13:03:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48247325</comments>
     </item>
     <item>
-      <title>80386微码反汇编</title>
-      <link>https://www.reenigne.org/blog/80386-microcode-disassembled/</link>
-      <description>📝 80386 微码反汇编 在我发布了 8086 微码反汇编后，Ken Shirriff 向我发送了 80386 微码 ROM 的高分辨率图像。根据 8086 微码工作，我假设其中两个字段将是要从中复制的源寄存器和目标寄存器。微代码是否包含任何不执行任何操作的“垃圾代码”。
+      <title>Oura 表示，它满足了政府对用户数据的要求。会分享多少吗？</title>
+      <link>https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/</link>
+      <description>📝 在我之前的博客中，我透露过 Oura 数据没有端到端加密。该公司确认其存储用户数据的方式允许部分员工访问。请支持本新闻通讯。
 
 
-🔤 Original: 80386 Microcode Disassembled
+🔤 Original: Oura says it gets government demands for user data. Will it share how many?
 
-🔗 Read more: https://www.reenigne.org/blog/80386-microcode-disassembled/</description>
-      <guid isPermaLink="true">https://www.reenigne.org/blog/80386-microcode-disassembled/</guid>
-      <pubDate>Sat, 23 May 2026 12:11:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48247004</comments>
+🔗 Read more: https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/</description>
+      <guid isPermaLink="true">https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/</guid>
+      <pubDate>Sat, 23 May 2026 14:09:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48247876</comments>
     </item>
     <item>
-      <title>从第一原理开始深度学习</title>
-      <link>https://horace.io/brrr_intro.html</link>
-      <description>📝 但是，如果您的训练损失远低于测试损失，那么您就处于“过度拟合”状态，并且如果您尝试增加模型的容量，那么您就是在浪费时间。或者，如果您的训练损失与验证损失相同，那么如果您尝试规范化模型，那么您就是在浪费时间。例如，如果您将所有时间都花在内存传输上（即
+      <title>z386：围绕原始微码构建的开源 80386</title>
+      <link>https://nand2mario.github.io/posts/2026/z386/</link>
+      <description>📝 《毁灭战士 II》在 z386 上运行。从 z8086 到 z386 首先介绍一些背景知识。他们慷慨地与我分享他们的工作，z386 从那里开始。
 
 
-🔤 Original: Making Deep Learning Go Brrrr from First Principles
+🔤 Original: z386: An Open-Source 80386 Built Around Original Microcode
 
-🔗 Read more: https://horace.io/brrr_intro.html</description>
-      <guid isPermaLink="true">https://horace.io/brrr_intro.html</guid>
-      <pubDate>Sat, 23 May 2026 11:50:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48246889</comments>
+🔗 Read more: https://nand2mario.github.io/posts/2026/z386/</description>
+      <guid isPermaLink="true">https://nand2mario.github.io/posts/2026/z386/</guid>
+      <pubDate>Sat, 23 May 2026 14:25:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48248014</comments>
     </item>
     <item>
-      <title>美国科技公司与参议院分享荷兰监管官员的名字</title>
-      <link>https://www.dutchnews.nl/2026/05/us-tech-firms-share-dutch-regulator-officials-names-with-senate/</link>
-      <description>📝 在 Google 搜索结果中查看更多 DutchNews 文章在 Google 搜索结果中查看更多 DutchNews 文章 在 Google 上添加为最喜欢的来源 将 DutchNews 添加为 Google 上最喜欢的来源 据新闻杂志《Vrij Nederland》周五报道，微软和 Meta 等公司已与调查“技术审查”或“胡言乱语”的参议院委员会分享了从事欧洲技术监管工作的公务员和学者的名字。 Vrij Nederland 表示，考虑到这些官员现在可能面临旅行禁令甚至制裁，内阁称这一消息“极其令人担忧”。然而，他告诉该杂志，短期内不可能停止与微软和其他美国科技公司的合作。
+      <title>Vim 中的 Lisp (2019)</title>
+      <link>https://susam.net/lisp-in-vim.html</link>
+      <description>📝 两者都支持 Lisp 中的交互式编程。这些插件为 Vim 提供了 Lisp 开发环境，所以它们的故事就从 Lisp 开始。 Lisp Lisp 是一个编程语言家族，具有独特的、全括号的前缀表示法。
 
 
-🔤 Original: US tech firms share Dutch regulator officials' names with Senate
+🔤 Original: Lisp in Vim (2019)
 
-🔗 Read more: https://www.dutchnews.nl/2026/05/us-tech-firms-share-dutch-regulator-officials-names-with-senate/</description>
-      <guid isPermaLink="true">https://www.dutchnews.nl/2026/05/us-tech-firms-share-dutch-regulator-officials-names-with-senate/</guid>
-      <pubDate>Sat, 23 May 2026 10:57:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48246614</comments>
+🔗 Read more: https://susam.net/lisp-in-vim.html</description>
+      <guid isPermaLink="true">https://susam.net/lisp-in-vim.html</guid>
+      <pubDate>Sat, 23 May 2026 14:55:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48248238</comments>
     </item>
     <item>
-      <title>国土安全部几乎停止发放绿卡</title>
-      <link>https://www.cato.org/blog/dhs-quits-granting-green-cards-almost-entirely</link>
-      <guid isPermaLink="true">https://www.cato.org/blog/dhs-quits-granting-green-cards-almost-entirely</guid>
-      <pubDate>Sat, 23 May 2026 11:18:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48246735</comments>
+      <title>联邦调查局希望“近实时”访问美国车牌读取器</title>
+      <link>https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access/</link>
+      <description>📝 本周《连线》杂志的一项调查发现，一名前凤凰城警官拥有一家为移民和海关执法部门提供枪械培训的公司，他参与了六起枪击事件，其中四起致命。 《Take It Down Act》本周在美国生效，允许人们要求网站和其他平台删除未经同意的裸照。微软旗下流行的代码存储库 GitHub 本周遭遇数据泄露。
+
+
+🔤 Original: The FBI Wants 'Near Real-Time' Access to US License Plate Readers
+
+🔗 Read more: https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access/</guid>
+      <pubDate>Sat, 23 May 2026 13:57:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48247737</comments>
+    </item>
+    <item>
+      <title>赚钱的艺术</title>
+      <link>https://kk.org/cooltools/book-freak-210-the-art-of-money-getting/</link>
+      <description>📝 大多数人都把这个倒退了。首先找到你的诀窍。这周，尽全力去做吧。
+
+
+🔤 Original: The Art of Money Getting
+
+🔗 Read more: https://kk.org/cooltools/book-freak-210-the-art-of-money-getting/</description>
+      <guid isPermaLink="true">https://kk.org/cooltools/book-freak-210-the-art-of-money-getting/</guid>
+      <pubDate>Sat, 23 May 2026 12:48:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48247208</comments>
+    </item>
+    <item>
+      <title>- -危险地跳过阅读代码 – olano.dev</title>
+      <link>https://olano.dev/blog/dangerously-skip/</link>
+      <description>📝 我在上一篇文章的总结中说，假设我们不再需要担心阅读和调试我们的代码，这是不负责任的——假设法学硕士出现的任何问题都能够为我们解决。需要进行自动拉请求检查，不仅验证测试是否通过，而且验证代码是否符合规范。团队需要理解、审查和负责的是这个规范，而不是具体化它的代码。
+
+
+🔤 Original: - -dangerously-skip-reading-code – olano.dev
+
+🔗 Read more: https://olano.dev/blog/dangerously-skip/</description>
+      <guid isPermaLink="true">https://olano.dev/blog/dangerously-skip/</guid>
+      <pubDate>Sat, 23 May 2026 09:37:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48246232</comments>
     </item>
   </channel>
 </rss>
