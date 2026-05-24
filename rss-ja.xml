@@ -6,41 +6,132 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 21:55:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 03:35:42 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>私のライターデッキについて話す時が来ました</title>
-      <link>https://veronicaexplains.net/my-first-writerdeck/</link>
-      <description>📝 このように、それは単なる tty です。 nanoで編集したくなかった。これは Debian (および事実上すべての人) 向けにパッケージ化されており、sudo apt install tmux でインストールされます。
+      <title>Microsoft、「これまでに発見された最古のDOSソースコード」をオープンソース化</title>
+      <link>https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/</link>
+      <description>📝 その後、Microsoft はこのオペレーティング システムを PC-DOS として IBM にライセンス供与した一方で、このオペレーティング システムを他の企業に販売する能力を保持しました。このソース コードはかなり古いため、デジタル的に保存されていませんでした。 Microsoft は、他の初期ソフトウェア プロジェクトのいくつかもオープンソース化しています。
 
 
-🔤 Original: It's time to talk about my writerdeck
+🔤 Original: Microsoft open-sources "the earliest DOS source code discovered to date"
 
-🔗 Read more: https://veronicaexplains.net/my-first-writerdeck/</description>
-      <guid isPermaLink="true">https://veronicaexplains.net/my-first-writerdeck/</guid>
-      <pubDate>Sat, 23 May 2026 18:45:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48250144</comments>
+🔗 Read more: https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/</description>
+      <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/</guid>
+      <pubDate>Sun, 24 May 2026 01:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48253386</comments>
     </item>
     <item>
-      <title>ごめんなさい三重？</title>
-      <link>https://ironpeak.be/blog/bypassing-apple-mie/</link>
-      <guid isPermaLink="true">https://ironpeak.be/blog/bypassing-apple-mie/</guid>
-      <pubDate>Sat, 23 May 2026 20:36:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48251229</comments>
+      <title>詐欺師が内部 Microsoft アカウントを悪用してスパム リンクを送信している</title>
+      <link>https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/</link>
+      <description>📝 数か月間、詐欺師たちは、正規のアカウントの警告を送信するために通常使用される Microsoft の内部電子メール アドレスからスパム電子メールを送信できる抜け穴を利用してきました。これらの粗雑に作成された電子メールは、msonlineservicesteam@microsoftonline から送信されました。 Microsoft からの回答により更新されました。
+
+
+🔤 Original: Scammers are abusing an internal Microsoft account to send spam links
+
+🔗 Read more: https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/</description>
+      <guid isPermaLink="true">https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/</guid>
+      <pubDate>Sun, 24 May 2026 00:51:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48253186</comments>
     </item>
     <item>
-      <title>スペインの裁判所、ラ・リーガの著作権侵害に対するNordVPNの罰金請求を拒否</title>
-      <link>https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/</link>
-      <description>📝 罰金は却下 NordVPN によると、裁判所はこの要求を却下しました。 NordVPN が法廷で提出した技術的証拠は 2 つの点に基づいていました。これは、本手続きがまだ先であることを意味します。
+      <title>起きろ！ 16b</title>
+      <link>https://hellmood.111mb.de/wake_up_16b_writeup.html</link>
+      <description>📝 私自身、たったの数バイト xD でこれほど詳しい説明が得られるとは予想していませんでした。 int 10h ; 2 バイト mov bh、0xb8 ; 2 バイト mov ds、bx ; 2バイト L: lodsb ; 1 バイトのサブ si、バイト 57 ; 3 バイト xor [si]、al ; 2 バイト出力 61h、al ; 2バイト jmp short L ; 2 バイト 1. DOS セグメントはちょうど 65,536 バイトです。
 
 
-🔤 Original: Spanish court declines to fine NordVPN over LaLiga piracy blocking order
+🔤 Original: Wake up! 16b
 
-🔗 Read more: https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/</description>
-      <guid isPermaLink="true">https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/</guid>
-      <pubDate>Sat, 23 May 2026 06:54:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48245362</comments>
+🔗 Read more: https://hellmood.111mb.de/wake_up_16b_writeup.html</description>
+      <guid isPermaLink="true">https://hellmood.111mb.de/wake_up_16b_writeup.html</guid>
+      <pubDate>Sun, 24 May 2026 00:30:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48253060</comments>
+    </item>
+    <item>
+      <title>私の I3 と Emacs の統合</title>
+      <link>https://khz.ac/software/i3-integration.html</link>
+      <description>📝 、steam）、EXWM の派手な入力方法に問題がある人。そうでない場合は、これをより本格的なパッチにするでしょう。 owner_events = 1 を設定してイベントのパススルーを許可すると、再発行する必要がなくなると考えているのであれば、それは素晴らしいことですが、これは x にイベントをルート ウィンドウのみにパススルーするように指示しているようです。
+
+
+🔤 Original: My I3-Emacs Integration
+
+🔗 Read more: https://khz.ac/software/i3-integration.html</description>
+      <guid isPermaLink="true">https://khz.ac/software/i3-integration.html</guid>
+      <pubDate>Sat, 23 May 2026 23:13:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48252535</comments>
+    </item>
+    <item>
+      <title>ジャドソンのラストライド</title>
+      <link>https://www.realclearpolitics.com/articles/2026/05/22/judsons_last_ride_154150.html</link>
+      <guid isPermaLink="true">https://www.realclearpolitics.com/articles/2026/05/22/judsons_last_ride_154150.html</guid>
+      <pubDate>Sat, 23 May 2026 12:09:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48246993</comments>
+    </item>
+    <item>
+      <title>バーンのユークリッド</title>
+      <link>https://www.c82.net/euclid/</link>
+      <description>📝 命題 47 図 ブック I. 幾何代数 命題 21 図 1 ブック III。正多角形命題 24 図形ブック V.
+
+
+🔤 Original: Byrne's Euclid
+
+🔗 Read more: https://www.c82.net/euclid/</description>
+      <guid isPermaLink="true">https://www.c82.net/euclid/</guid>
+      <pubDate>Sat, 23 May 2026 22:19:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48252146</comments>
+    </item>
+    <item>
+      <title>オレンジカウンティの製造施設で有毒化学物質が漏洩</title>
+      <link>https://www.bbc.com/news/articles/c3w2l249j8go</link>
+      <description>📝 当局者らは、「作動不能なバルブ」により「さらなる運用上の課題」が生じたと述べた。 「これは予防策ではない。ただイライラしているだけだ」とオルセン氏は語った。
+
+
+🔤 Original: Toxic chemical leak at a manufacturing facility in Orange County
+
+🔗 Read more: https://www.bbc.com/news/articles/c3w2l249j8go</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c3w2l249j8go</guid>
+      <pubDate>Sat, 23 May 2026 22:09:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48252060</comments>
+    </item>
+    <item>
+      <title>エールフランスとエアバス、2009年の飛行機事故で過失致死罪で有罪判決</title>
+      <link>https://www.bbc.com/news/articles/czd2qmdvmq6o</link>
+      <description>📝 ダウン県のアイスネ・ウォールズさん、ダブリン県のジェーン・ディージーさん、ティペラリー州のアイスリング・バトラーさんというアイルランド人女性３人も殺害された。 3人は全員医師で、ブラジルでの休暇から帰国中だった。運航乗務員12人はブラジル人1人を除き、主にフランス人だった。
+
+
+🔤 Original: Air France and Airbus found guilty of manslaughter over 2009 plane crash
+
+🔗 Read more: https://www.bbc.com/news/articles/czd2qmdvmq6o</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/czd2qmdvmq6o</guid>
+      <pubDate>Sat, 23 May 2026 20:09:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48250980</comments>
+    </item>
+    <item>
+      <title>ICE、Bi2 Technologies に 2,500 万ドルの虹彩スキャン契約を締結</title>
+      <link>https://www.projectsaltbox.com/p/ice-awards-25-million-iris-scanning</link>
+      <description>📝 ICE、Bi2 Technologiesと2500万ドルの虹彩スキャン契約を締結 この入札なしの契約は、同庁がマサチューセッツ州の企業と結んだ以前の契約の5倍の規模で、6月下旬までにデバイスが代理店の手に渡る可能性がある。この数字は、ICEが8カ月前にマサチューセッツ州の会社と最初の契約に費やした金額の5倍以上だ。 「これにより、ICE の強制撤去業務部門は、500 万を超える予約記録を含む Bi2 データベースに継続的にアクセスできるようになります。
+
+
+🔤 Original: ICE Awards $25M Iris-Scanning Contract to Bi2 Technologies
+
+🔗 Read more: https://www.projectsaltbox.com/p/ice-awards-25-million-iris-scanning</description>
+      <guid isPermaLink="true">https://www.projectsaltbox.com/p/ice-awards-25-million-iris-scanning</guid>
+      <pubDate>Sat, 23 May 2026 23:39:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48252720</comments>
+    </item>
+    <item>
+      <title>Chrome が提案する API: 宣言的な部分更新</title>
+      <link>https://developer.chrome.com/blog/declarative-partial-updates</link>
+      <description>📝 この新しい API はそれを変更し、HTML に処理命令を導入します。マーカー名 = "結果"&gt; &lt;/テンプレート&gt;。マーカー名 = "結果"&gt; &lt;/テンプレート&gt;。
+
+
+🔤 Original: API proposed by Chrome: Declarative partial updates
+
+🔗 Read more: https://developer.chrome.com/blog/declarative-partial-updates</description>
+      <guid isPermaLink="true">https://developer.chrome.com/blog/declarative-partial-updates</guid>
+      <pubDate>Sun, 24 May 2026 00:16:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48252957</comments>
     </item>
   </channel>
 </rss>
