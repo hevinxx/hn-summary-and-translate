@@ -6,122 +6,102 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 15:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 20:10:48 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>GitHub Actions down again today</title>
-      <link>https://www.githubstatus.com/?today</link>
-      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+      <title>A few interesting modern pixel fonts</title>
+      <link>https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/</link>
+      <description>📝 ” There used to be this classic pixel font that you’d see everywhere in the 1990s on hi-fi equipment: VCRs, TVs, camcorders, etc. […] This matters because pixel fonts often break in production. It seems that the team being Geist Pixel is proud of especially that last part.
 
-🔗 Read more: https://www.githubstatus.com/?today</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/?today</guid>
-      <pubDate>Tue, 26 May 2026 11:42:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278374</comments>
+🔗 Read more: https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/</description>
+      <guid isPermaLink="true">https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/</guid>
+      <pubDate>Mon, 25 May 2026 20:41:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48271448</comments>
     </item>
     <item>
-      <title>Don't Subscribe So Casually</title>
-      <link>https://thebestworstcase.substack.com/p/dont-subscribe-so-casually</link>
-      <guid isPermaLink="true">https://thebestworstcase.substack.com/p/dont-subscribe-so-casually</guid>
-      <pubDate>Tue, 26 May 2026 14:50:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48280636</comments>
+      <title>Stop Advertising in Your Commits</title>
+      <link>https://akselmo.dev/posts/stop-advertising-in-your-commits/</link>
+      <guid isPermaLink="true">https://akselmo.dev/posts/stop-advertising-in-your-commits/</guid>
+      <pubDate>Tue, 26 May 2026 18:37:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48283914</comments>
     </item>
     <item>
-      <title>Launch HN: Minicor (YC P26) – Windows desktop automations at scale</title>
-      <link>https://www.minicor.com/</link>
-      <description>📝 Minicor Desktop ServiceDesktop Agent v2. Desktop service connects your VMs3. Agent navigating desktop.
+      <title>The Ballad of TIGIT</title>
+      <link>https://www.owlposting.com/p/the-ballad-of-tigit</link>
+      <description>📝 What I am talking about are, of course, TIGIT drugs. And TIGIT drugs were supposed to be that. The molecule that emerged from this work was something called tiragolumab; the first anti-TIGIT drug to exist.
 
-🔗 Read more: https://www.minicor.com/</description>
-      <guid isPermaLink="true">https://www.minicor.com/</guid>
-      <pubDate>Tue, 26 May 2026 14:57:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48280729</comments>
+🔗 Read more: https://www.owlposting.com/p/the-ballad-of-tigit</description>
+      <guid isPermaLink="true">https://www.owlposting.com/p/the-ballad-of-tigit</guid>
+      <pubDate>Tue, 26 May 2026 15:47:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281367</comments>
     </item>
     <item>
-      <title>C64 Basic: Game Map Overhead "Camera View"</title>
-      <link>https://retrogamecoders.com/overhead-camera-view/</link>
-      <description>📝 C64 BASIC: Game Map Overhead “Camera View”Explanation of how to create an Ultima-style map view turns into an adventure in C64 BASIC optimisationGames like Ultima have a classic overhead camera view rather than the moving character view that I have been showing in my retro roguelike. How is that implemented. 10 REM ---- LARGE MAP / SMALL CAMERA DEMO ---- 20 REM JAY'S QUESTION: KEEP PLAYER CENTRED, 30 REM MOVE THE MAP AROUND THEM (ULTIMA STYLE) 40 REM LEVEL 1: HORRENDOUSLY SLOW UNOPTIMISED FIRST DRAFT 50 MW=40 : MH=24 60 VW=11 : VH=11 70 HX=INT(VW/2) : HY=INT(VH/2) 80 OX=14 : OY=6 90 SC=1024 100 DIM M(MW-1,MH-1) 110 GOSUB 600 : REM BUILD MAP 120 PX=20 : PY=12 130 PRINT CHR$(147) 140 GOSUB 300 : REM DRAW VIEWPORT 150 GOSUB 500 : REM DRAW PLAYER 160 GET K$ : IF K$="" THEN 160 170 DX=0 : DY=0 180 IF K$="W" THEN DY=-1 190 IF K$="S" THEN DY=1 200 IF K$="A" THEN DX=-1 210 IF K$="D" THEN DX=1 220 IF K$="Q" THEN PRINT CHR$(147) : END 230 NX=PX+DX : NY=PY+DY 240 IF NX&lt;0 OR NX&gt;MW-1 OR NY&lt;0 OR NY&gt;MH-1 THEN 160 250 PX=NX : PY=NY 260 GOSUB 300 : GOSUB 500 : GOTO 160 270 REM 300 REM ---- DRAW VIEWPORT (NAIVE) ---- 310 CX=PX-HX : CY=PY-HY 320 IF CX&lt;0 THEN CX=0 330 IF CY&lt;0 THEN CY=0 340 IF CX&gt;MW-VW THEN CX=MW-VW 350 IF CY&gt;MH-VH THEN CY=MH-VH 360 FOR J=0 TO VH-1 370 FOR I=0 TO VW-1 380 POKE SC+(OY+J)*40+(OX+I),M(CX+I,CY+J) 390 NEXT I 400 NEXT J 410 RETURN 420 REM 500 REM ---- DRAW PLAYER (NAIVE) ---- 510 SX=OX+(PX-CX) : SY=OY+(PY-CY) 520 POKE SC+SY*40+SX,81 530 RETURN 540 REM 600 REM ---- BUILD TEST MAP ---- 610 FOR Y=0 TO MH-1 620 FOR X=0 TO MW-1 630 T=46 640 IF X=0 OR Y=0 OR X=MW-1 OR Y=MH-1 THEN T=160 650 IF (X=10 AND Y&gt;4 AND Y&lt;15) THEN T=160 660 IF (Y=8 AND X&gt;14 AND X&lt;25) THEN T=87 670 M(X,Y)=T 680 NEXT X 690 NEXT Y 700 RETURN 💬 Questions or comments.
+      <title>Dropbox CEO Drew Houston to step down</title>
+      <link>https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html</link>
+      <description>📝 In this articleDBXFollow your favorite stocksCREATE FREE ACCOUNTDropbox Co-CEOs Ashraf Alkarmi and Drew Houston. Houston will eventually step down and assume the role of executive chairman at the company he helmed for 19 years. "Whenever there's a new technology, people extrapolate very quickly," Houston said.
 
-🔗 Read more: https://retrogamecoders.com/overhead-camera-view/</description>
-      <guid isPermaLink="true">https://retrogamecoders.com/overhead-camera-view/</guid>
-      <pubDate>Tue, 26 May 2026 13:47:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48279842</comments>
+🔗 Read more: https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html</guid>
+      <pubDate>Tue, 26 May 2026 13:18:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48279453</comments>
     </item>
     <item>
-      <title>Outsourcing plus LocalAI will soon become more economical vs. Frontier labs</title>
-      <link>https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</link>
-      <description>📝 094 The current closed source frontier models are more capable than the latest from DeepSeek. So, we have a rising token consumption combined with rising per token pricing, as the US frontier labs push to capture more value. Frontier inference vs.
+      <title>Language Models Need Sleep</title>
+      <link>https://arxiv.org/abs/2605.26099</link>
+      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
 
-🔗 Read more: https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</description>
-      <guid isPermaLink="true">https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</guid>
-      <pubDate>Tue, 26 May 2026 12:08:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278610</comments>
+🔗 Read more: https://arxiv.org/abs/2605.26099</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2605.26099</guid>
+      <pubDate>Tue, 26 May 2026 15:36:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281226</comments>
     </item>
     <item>
-      <title>Netherlands blocks US takeover of vital digital supplier</title>
-      <link>https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</link>
-      <description>📝 BRUSSELS — The Dutch government is blocking a United States-based company's attempts to acquire a key online identification IT supplier. -based Kyndryl announced it would acquire Solvinity, triggering concerns that a key Dutch online identification tool would fall under foreign control. "The politicization of this process has overshadowed the clear and important benefits this transaction would have brought to Solvinity's customers and Dutch citizens.
+      <title>Sage Care (YC S24) Is Hiring Software Engineers</title>
+      <link>https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer</link>
+      <description>📝 Home care agencies run on relationships — but they're drowning in paperwork. Intake coordinators spend hours manually transcribing calls, building care plans, and chasing follow-ups. We're early, well-funded, and signing agencies fast.
 
-🔗 Read more: https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</description>
-      <guid isPermaLink="true">https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</guid>
-      <pubDate>Tue, 26 May 2026 11:46:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278406</comments>
+🔗 Read more: https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer</guid>
+      <pubDate>Tue, 26 May 2026 17:00:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48282478</comments>
     </item>
     <item>
-      <title>Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence</title>
-      <link>https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/</guid>
-      <pubDate>Tue, 26 May 2026 13:08:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48279316</comments>
-    </item>
-    <item>
-      <title>Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team</title>
-      <link>https://vllm.ai/blog/2026-05-26-eagle-3-1</link>
-      <description>📝 Compared with EAGLE 3, EAGLE 3. 1 Training with TorchSpec TorchSpec now provides efficient training support for EAGLE 3. 1 Integration with vLLM EAGLE 3.
+      <title>The real cost of owning a home</title>
+      <link>https://ericturner.dev/posts/cost-of-home-ownership/</link>
+      <description>📝 About 80% of your first mortgage payment is interest. Insurance Insurance is required by the lender, but even if your house is paid off you should have insurance. replace your roof) to keep your insurance.
 
-🔗 Read more: https://vllm.ai/blog/2026-05-26-eagle-3-1</description>
-      <guid isPermaLink="true">https://vllm.ai/blog/2026-05-26-eagle-3-1</guid>
-      <pubDate>Tue, 26 May 2026 11:46:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278407</comments>
+🔗 Read more: https://ericturner.dev/posts/cost-of-home-ownership/</description>
+      <guid isPermaLink="true">https://ericturner.dev/posts/cost-of-home-ownership/</guid>
+      <pubDate>Tue, 26 May 2026 16:04:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281611</comments>
     </item>
     <item>
-      <title>Incident with Actions and Pages</title>
-      <link>https://www.githubstatus.com/incidents/gnftqj9htp0g</link>
-      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+      <title>Is "colorectal cancer" rising in "young people"?</title>
+      <link>https://dynomight.net/crc-rates/</link>
+      <description>📝 coli that produce genotoxic colibactin. A plausible answer to that last question is that they aren’t. That figure is weird, because the lines connect different groups of people.
 
-🔗 Read more: https://www.githubstatus.com/incidents/gnftqj9htp0g</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/incidents/gnftqj9htp0g</guid>
-      <pubDate>Tue, 26 May 2026 11:10:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278090</comments>
+🔗 Read more: https://dynomight.net/crc-rates/</description>
+      <guid isPermaLink="true">https://dynomight.net/crc-rates/</guid>
+      <pubDate>Tue, 26 May 2026 16:00:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281539</comments>
     </item>
     <item>
-      <title>Stockholm poised to become leading European geospatial intel player</title>
-      <link>https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</link>
-      <description>📝 Subscribers only Space 10. Subscribers only Space 13. Subscribers only Space 27.
-
-🔗 Read more: https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</description>
-      <guid isPermaLink="true">https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</guid>
-      <pubDate>Tue, 26 May 2026 14:44:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48280561</comments>
+      <title>Uber, Lyft drivers in Massachusetts form first US ride-share union</title>
+      <link>https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/</guid>
+      <pubDate>Tue, 26 May 2026 15:58:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281509</comments>
     </item>
     <item>
-      <title>Uber president says AI spending is getting 'harder to justify'</title>
-      <link>https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</link>
-      <description>📝 ﻿There’s no clear connection between AI usage and productivity. In an interview with Rapid Response, Uber president and chief operating officer Andrew Macdonald said the company isn’t seeing a connection between rising token consumption for Claude Code and more useful features being delivered to consumers. I think maybe implicitly there is more that is getting shipped, but it’s very hard to draw a line between one of those stats and, ‘Okay, now we’re actually producing 25 percent more useful consumer features,’” said Macdonald.
+      <title>What color is your function? (2015)</title>
+      <link>https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/</link>
+      <description>📝 What Color is Your Function. What color is your function. Every function has a color.
 
-🔗 Read more: https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</description>
-      <guid isPermaLink="true">https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</guid>
-      <pubDate>Tue, 26 May 2026 10:01:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48277485</comments>
-    </item>
-    <item>
-      <title>Exposing Critical Vulnerabilities in CBSE's On-Screen Marking Portal</title>
-      <link>https://ni5arga.com/blog/posts/hacking-cbse/</link>
-      <description>📝 What is CBSE and On-Screen Marking. I reported all of this to CERT-In before publishing this blog. Think about what that means.
-
-🔗 Read more: https://ni5arga.com/blog/posts/hacking-cbse/</description>
-      <guid isPermaLink="true">https://ni5arga.com/blog/posts/hacking-cbse/</guid>
-      <pubDate>Tue, 26 May 2026 09:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48277357</comments>
+🔗 Read more: https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/</description>
+      <guid isPermaLink="true">https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/</guid>
+      <pubDate>Tue, 26 May 2026 15:58:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281515</comments>
     </item>
   </channel>
 </rss>

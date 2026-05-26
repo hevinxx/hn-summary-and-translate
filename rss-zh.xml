@@ -6,152 +6,126 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 26 May 2026 15:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 20:10:48 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GitHub Actions 今天再次宕机</title>
-      <link>https://www.githubstatus.com/?today</link>
-      <description>📝 重新发送 OTP 订阅即表示您同意我们的隐私政策。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。
+      <title>一些有趣的现代像素字体</title>
+      <link>https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/</link>
+      <description>📝 “过去，这种经典的像素字体在 20 世纪 90 年代的高保真设备上随处可见：录像机、电视、摄像机等。[…] 这很重要，因为像素字体在生产过程中经常出现故障。Geist Pixel 团队似乎对最后一部分感到自豪。
 
 
-🔤 Original: GitHub Actions down again today
+🔤 Original: A few interesting modern pixel fonts
 
-🔗 Read more: https://www.githubstatus.com/?today</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/?today</guid>
-      <pubDate>Tue, 26 May 2026 11:42:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278374</comments>
+🔗 Read more: https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/</description>
+      <guid isPermaLink="true">https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/</guid>
+      <pubDate>Mon, 25 May 2026 20:41:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48271448</comments>
     </item>
     <item>
-      <title>别那么随意订阅</title>
-      <link>https://thebestworstcase.substack.com/p/dont-subscribe-so-casually</link>
-      <guid isPermaLink="true">https://thebestworstcase.substack.com/p/dont-subscribe-so-casually</guid>
-      <pubDate>Tue, 26 May 2026 14:50:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48280636</comments>
+      <title>停止在您的提交中做广告</title>
+      <link>https://akselmo.dev/posts/stop-advertising-in-your-commits/</link>
+      <guid isPermaLink="true">https://akselmo.dev/posts/stop-advertising-in-your-commits/</guid>
+      <pubDate>Tue, 26 May 2026 18:37:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48283914</comments>
     </item>
     <item>
-      <title>推出 HN：Minicor (YC P26) – 大规模 Windows 桌面自动化</title>
-      <link>https://www.minicor.com/</link>
-      <description>📝 Minicor Desktop ServiceDesktop Agent v2.0桌面服务连接您的 VM3。代理导航桌面。
+      <title>TIGIT歌谣</title>
+      <link>https://www.owlposting.com/p/the-ballad-of-tigit</link>
+      <description>📝 我说的当然是TIGIT药物。 TIGIT 药物应该就是这样的。这项工作中产生的分子被称为 tiragolumab；第一种抗 TIGIT 药物。
 
 
-🔤 Original: Launch HN: Minicor (YC P26) – Windows desktop automations at scale
+🔤 Original: The Ballad of TIGIT
 
-🔗 Read more: https://www.minicor.com/</description>
-      <guid isPermaLink="true">https://www.minicor.com/</guid>
-      <pubDate>Tue, 26 May 2026 14:57:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48280729</comments>
+🔗 Read more: https://www.owlposting.com/p/the-ballad-of-tigit</description>
+      <guid isPermaLink="true">https://www.owlposting.com/p/the-ballad-of-tigit</guid>
+      <pubDate>Tue, 26 May 2026 15:47:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281367</comments>
     </item>
     <item>
-      <title>C64基础：游戏地图俯视“摄像机视图”</title>
-      <link>https://retrogamecoders.com/overhead-camera-view/</link>
-      <description>📝 C64 BASIC：游戏地图俯视“摄像机视图”解释如何创建 Ultima 风格的地图视图在 C64 BASIC 优化中变成了一场冒险像 Ultima 这样的游戏有一个经典的俯视摄像机视图，而不是我在复古 Roguelike 中展示的移动角色视图。这是如何实施的。 10 REM ---- 大地图/小摄像机演示 ---- 20 REM JAY 的问题：让玩家保持中心，30 REM 移动地图（终极风格） 40 REM 1 级：极其缓慢且未经优化的初稿 50 MW=40 : MH=24 60 VW=11 : VH=11 70 HX=INT(VW/2) : HY=INT(VH/2) 80 OX=14 : OY=6 90 SC=1024 100 DIM M(MW-1,MH-1) 110 GOSUB 600 : REM 构建映射 120 PX=20 : PY=12 130 PRINT CHR$(147) 140 GOSUB 300 : REM DRAW VIEWPORT 150 GOSUB 500 : REM DRAW PLAYER 160 GET K$ : IF K$="" THEN 160 170 DX=0 : DY=0 180 IF K$="W" THEN DY=-1 190 IF K$="S" THEN DY=1 200 IF K$="A" THEN DX=-1 210 IF K$="D" THEN DX=1 220 IF K$="Q" THEN PRINT CHR$(147) : END 230 NX=PX+DX : NY=PY+DY 240 IF NX&lt;0 或 NX&gt;MW-1 或 NY&lt;0 或NY&gt;MH-1 THEN 160 250 PX=NX : PY=NY 260 GOSUB 300 : GOSUB 500 : GOTO 160 270 REM 300 REM ---- 绘制视口（简单） ---- 310 CX=PX-HX : CY=PY-HY 320 IF CX&lt;0 THEN CX=0 330 如果 CY&lt;0 那么 CY=0 340 如果 CX&gt;MW-VW 那么 CX=MW-VW 350 如果 CY&gt;MH-VH 那么 CY=MH-VH 360 对于 J=0 到 VH-1 370 对于 I=0 到 VW-1 380 POKE SC+(OY+J)*40+(OX+I),M(CX+I,CY+J) 390 NEXT I 400 NEXT J 410 RETURN 420 REM 500 REM ---- 绘图玩家 (NAIVE) ---- 510 SX=OX+(PX-CX) : SY=OY+(PY-CY) 520 POKE SC+SY*40+SX,81 530 返回 540 REM 600 REM ---- 构建测试映射 ---- 610 对于 Y=0 到 MH-1 620 对于 X=0 到 MW-1 630 T=46 640 IF X=0 OR Y=0 OR X=MW-1 OR Y=MH-1 THEN T=160 650 IF (X=10 AND Y&gt;4 AND Y&lt;15) THEN T=160 660 IF (Y=8 AND X&gt;14 AND X&lt;25) THEN T=87 670 M(X,Y)=T 680 NEXT X 690 NEXT Y 700 RETURN 💬 问题或评论。
+      <title>Dropbox 首席执行官德鲁·休斯顿 (Drew Houston) 辞职</title>
+      <link>https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html</link>
+      <description>📝 在本文中，DBX 关注您最喜欢的股票创建免费帐户Dropbox 联合首席执行官 Ashraf Alkarmi 和 Drew Houston。休斯顿最终将卸任，并担任他执掌 19 年的公司的执行董事长。 “每当出现新技术时，人们都会很快进行推断，”休斯顿说。
 
 
-🔤 Original: C64 Basic: Game Map Overhead "Camera View"
+🔤 Original: Dropbox CEO Drew Houston to step down
 
-🔗 Read more: https://retrogamecoders.com/overhead-camera-view/</description>
-      <guid isPermaLink="true">https://retrogamecoders.com/overhead-camera-view/</guid>
-      <pubDate>Tue, 26 May 2026 13:47:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48279842</comments>
+🔗 Read more: https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html</guid>
+      <pubDate>Tue, 26 May 2026 13:18:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48279453</comments>
     </item>
     <item>
-      <title>与前沿实验室相比，外包加上 LocalAI 很快就会变得更加经济</title>
-      <link>https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</link>
-      <description>📝 094 当前的闭源前沿模型比 DeepSeek 的最新模型更强大。因此，随着美国前沿实验室努力获取更多价值，我们的代币消费量不断增加，每个代币的定价也在上涨。前沿推理对比
+      <title>语言模型需要睡眠</title>
+      <link>https://arxiv.org/abs/2605.26099</link>
+      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
 
 
-🔤 Original: Outsourcing plus LocalAI will soon become more economical vs. Frontier labs
+🔤 Original: Language Models Need Sleep
 
-🔗 Read more: https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</description>
-      <guid isPermaLink="true">https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</guid>
-      <pubDate>Tue, 26 May 2026 12:08:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278610</comments>
+🔗 Read more: https://arxiv.org/abs/2605.26099</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2605.26099</guid>
+      <pubDate>Tue, 26 May 2026 15:36:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281226</comments>
     </item>
     <item>
-      <title>荷兰阻止美国收购重要数字供应商</title>
-      <link>https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</link>
-      <description>📝 布鲁塞尔——荷兰政府正在阻止一家美国公司收购一家重要的在线识别 IT 供应商的尝试。总部位于Kyndryl的公司宣布将收购Solvinity，引发人们对荷兰重要在线识别工具将落入外国控制之下的担忧。 “这一过程的政治化掩盖了这笔交易将为 Solvinity 的客户和荷兰公民带来的明确而重要的利益。
+      <title>Sage Care (YC S24) 正在招聘软件工程师</title>
+      <link>https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer</link>
+      <description>📝 家庭护理机构依靠关系运作，但他们却淹没在文书工作中。接诊协调员花费数小时手动记录电话、制定护理计划和追踪后续行动。我们起步早，资金充足，签约代理机构快。
 
 
-🔤 Original: Netherlands blocks US takeover of vital digital supplier
+🔤 Original: Sage Care (YC S24) Is Hiring Software Engineers
 
-🔗 Read more: https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</description>
-      <guid isPermaLink="true">https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</guid>
-      <pubDate>Tue, 26 May 2026 11:46:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278406</comments>
+🔗 Read more: https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer</guid>
+      <pubDate>Tue, 26 May 2026 17:00:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48282478</comments>
     </item>
     <item>
-      <title>西班牙因缺乏赌博许可证而封锁Polymarket、Kalshi预测市场</title>
-      <link>https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/</guid>
-      <pubDate>Tue, 26 May 2026 13:08:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48279316</comments>
+      <title>拥有房屋的实际成本</title>
+      <link>https://ericturner.dev/posts/cost-of-home-ownership/</link>
+      <description>📝 您的第一笔抵押贷款付款的大约 80% 是利息。保险 贷方要求购买保险，但即使您的房屋已还清，您也应该购买保险。更换屋顶）以保留您的保险。
+
+
+🔤 Original: The real cost of owning a home
+
+🔗 Read more: https://ericturner.dev/posts/cost-of-home-ownership/</description>
+      <guid isPermaLink="true">https://ericturner.dev/posts/cost-of-home-ownership/</guid>
+      <pubDate>Tue, 26 May 2026 16:04:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281611</comments>
     </item>
     <item>
-      <title>Eagle 3.1：EAGLE 团队、vLLM 团队和 TorchSpec 团队之间的协作</title>
-      <link>https://vllm.ai/blog/2026-05-26-eagle-3-1</link>
-      <description>📝 与 EAGLE 3 相比，EAGLE 3. 1 使用 TorchSpec 进行训练 TorchSpec 现在为 EAGLE 3.1 与 vLLM EAGLE 3 集成提供高效的训练支持。
+      <title>“结直肠癌”在“年轻人”中呈上升趋势吗？</title>
+      <link>https://dynomight.net/crc-rates/</link>
+      <description>📝 产生基因毒性大肠杆菌素的大肠杆菌。对于最后一个问题，一个合理的答案是：事实并非如此。这个数字很奇怪，因为线条连接着不同的人群。
 
 
-🔤 Original: Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team
+🔤 Original: Is "colorectal cancer" rising in "young people"?
 
-🔗 Read more: https://vllm.ai/blog/2026-05-26-eagle-3-1</description>
-      <guid isPermaLink="true">https://vllm.ai/blog/2026-05-26-eagle-3-1</guid>
-      <pubDate>Tue, 26 May 2026 11:46:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278407</comments>
+🔗 Read more: https://dynomight.net/crc-rates/</description>
+      <guid isPermaLink="true">https://dynomight.net/crc-rates/</guid>
+      <pubDate>Tue, 26 May 2026 16:00:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281539</comments>
     </item>
     <item>
-      <title>操作和页面事件</title>
-      <link>https://www.githubstatus.com/incidents/gnftqj9htp0g</link>
-      <description>📝 重新发送 OTP 订阅即表示您同意我们的隐私政策。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。
-
-
-🔤 Original: Incident with Actions and Pages
-
-🔗 Read more: https://www.githubstatus.com/incidents/gnftqj9htp0g</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/incidents/gnftqj9htp0g</guid>
-      <pubDate>Tue, 26 May 2026 11:10:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48278090</comments>
+      <title>马萨诸塞州的 Uber 和 Lyft 司机组建美国首个拼车联盟</title>
+      <link>https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/</guid>
+      <pubDate>Tue, 26 May 2026 15:58:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281509</comments>
     </item>
     <item>
-      <title>斯德哥尔摩有望成为欧洲领先的地理空间情报参与者</title>
-      <link>https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</link>
-      <description>📝 仅限订阅者空间 10。 仅限订阅者空间 13。 仅限订阅者空间 27。
+      <title>你的函数是什么颜色的？ (2015)</title>
+      <link>https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/</link>
+      <description>📝 您的功能是什么颜色。你的功能是什么颜色。每个函数都有一种颜色。
 
 
-🔤 Original: Stockholm poised to become leading European geospatial intel player
+🔤 Original: What color is your function? (2015)
 
-🔗 Read more: https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</description>
-      <guid isPermaLink="true">https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</guid>
-      <pubDate>Tue, 26 May 2026 14:44:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48280561</comments>
-    </item>
-    <item>
-      <title>Uber 总裁表示人工智能支出“越来越难以证明其合理性”</title>
-      <link>https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</link>
-      <description>📝 ﻿人工智能的使用和生产力之间没有明确的联系。 Uber 总裁兼首席运营官安德鲁·麦克唐纳 (Andrew Macdonald) 在接受 Rapid Response 采访时表示，该公司并未发现 Claude Code 代币消费的增加与向消费者提供更多有用功能之间存在联系。我认为也许隐含地有更多的产品正在发货，但很难在这些统计数据之一和‘好吧，现在我们实际上生产了 25% 更有用的消费者功能’之间划清界限，”麦克唐纳说。
-
-
-🔤 Original: Uber president says AI spending is getting 'harder to justify'
-
-🔗 Read more: https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</description>
-      <guid isPermaLink="true">https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</guid>
-      <pubDate>Tue, 26 May 2026 10:01:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48277485</comments>
-    </item>
-    <item>
-      <title>暴露 CBSE 屏幕标记门户中的严重漏洞</title>
-      <link>https://ni5arga.com/blog/posts/hacking-cbse/</link>
-      <description>📝 什么是 CBSE 和屏幕标记。在发布此博客之前，我向 CERT-In 报告了所有这些内容。想想这意味着什么。
-
-
-🔤 Original: Exposing Critical Vulnerabilities in CBSE's On-Screen Marking Portal
-
-🔗 Read more: https://ni5arga.com/blog/posts/hacking-cbse/</description>
-      <guid isPermaLink="true">https://ni5arga.com/blog/posts/hacking-cbse/</guid>
-      <pubDate>Tue, 26 May 2026 09:43:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48277357</comments>
+🔗 Read more: https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/</description>
+      <guid isPermaLink="true">https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/</guid>
+      <pubDate>Tue, 26 May 2026 15:58:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48281515</comments>
     </item>
   </channel>
 </rss>
