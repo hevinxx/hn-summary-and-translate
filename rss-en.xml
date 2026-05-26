@@ -6,68 +6,122 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 09:57:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 15:26:22 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>DynIP – Dynamic DNS with RFC 2136, IPv6, DNSSEC, and BYOD</title>
-      <link>https://dynip.dev/</link>
-      <description>📝 Bring your own domain. 'Enter the 6-digit code from your app. Bring your own domain to DynIP.
+      <title>GitHub Actions down again today</title>
+      <link>https://www.githubstatus.com/?today</link>
+      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
 
-🔗 Read more: https://dynip.dev/</description>
-      <guid isPermaLink="true">https://dynip.dev/</guid>
-      <pubDate>Tue, 26 May 2026 07:35:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48276363</comments>
+🔗 Read more: https://www.githubstatus.com/?today</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/?today</guid>
+      <pubDate>Tue, 26 May 2026 11:42:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48278374</comments>
     </item>
     <item>
-      <title>Earthion: A New Mega Drive-Style Shoot-Em-Up</title>
-      <link>https://earthiongame.com/</link>
-      <description>📝 Earthion | Digital Release Date Trailer Earthion Announcement Trailer Return to the genesis of 16-bit gaming with Ancient’s brand new shoot ’em up, Earthion. Pre-order Physical SoundtracksThe acclaimed Yuzo Koshiro is back with an incredible score for Earthion. 2-LP Vinyl (Transparent Red) Cassette (Transparent Red) 2-LP Vinyl (Transparent Blue) Cassette (Transparent Blue).
-
-🔗 Read more: https://earthiongame.com/</description>
-      <guid isPermaLink="true">https://earthiongame.com/</guid>
-      <pubDate>Tue, 26 May 2026 03:42:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48274711</comments>
+      <title>Don't Subscribe So Casually</title>
+      <link>https://thebestworstcase.substack.com/p/dont-subscribe-so-casually</link>
+      <guid isPermaLink="true">https://thebestworstcase.substack.com/p/dont-subscribe-so-casually</guid>
+      <pubDate>Tue, 26 May 2026 14:50:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48280636</comments>
     </item>
     <item>
-      <title>The User Is Visibly Frustrated</title>
-      <link>https://pscanf.com/s/354/</link>
-      <description>📝 Coding agents are just probabilistic machines generating patches. They talk like real people. They often praise you, and when they “push back” they’re gentle and attentive.
+      <title>Launch HN: Minicor (YC P26) – Windows desktop automations at scale</title>
+      <link>https://www.minicor.com/</link>
+      <description>📝 Minicor Desktop ServiceDesktop Agent v2. Desktop service connects your VMs3. Agent navigating desktop.
 
-🔗 Read more: https://pscanf.com/s/354/</description>
-      <guid isPermaLink="true">https://pscanf.com/s/354/</guid>
-      <pubDate>Tue, 26 May 2026 04:39:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48275059</comments>
+🔗 Read more: https://www.minicor.com/</description>
+      <guid isPermaLink="true">https://www.minicor.com/</guid>
+      <pubDate>Tue, 26 May 2026 14:57:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48280729</comments>
     </item>
     <item>
-      <title>Motorola phones have started hijacking the Amazon app to insert affiliate codes</title>
-      <link>https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/</link>
-      <description>📝 0056 that this does not happen. Why would Motorola try to hijack Amazon affiliate revenue and pipe it through a fashion influencer. Hopefully, we’ll get more details from Motorola in the near future.
+      <title>C64 Basic: Game Map Overhead "Camera View"</title>
+      <link>https://retrogamecoders.com/overhead-camera-view/</link>
+      <description>📝 C64 BASIC: Game Map Overhead “Camera View”Explanation of how to create an Ultima-style map view turns into an adventure in C64 BASIC optimisationGames like Ultima have a classic overhead camera view rather than the moving character view that I have been showing in my retro roguelike. How is that implemented. 10 REM ---- LARGE MAP / SMALL CAMERA DEMO ---- 20 REM JAY'S QUESTION: KEEP PLAYER CENTRED, 30 REM MOVE THE MAP AROUND THEM (ULTIMA STYLE) 40 REM LEVEL 1: HORRENDOUSLY SLOW UNOPTIMISED FIRST DRAFT 50 MW=40 : MH=24 60 VW=11 : VH=11 70 HX=INT(VW/2) : HY=INT(VH/2) 80 OX=14 : OY=6 90 SC=1024 100 DIM M(MW-1,MH-1) 110 GOSUB 600 : REM BUILD MAP 120 PX=20 : PY=12 130 PRINT CHR$(147) 140 GOSUB 300 : REM DRAW VIEWPORT 150 GOSUB 500 : REM DRAW PLAYER 160 GET K$ : IF K$="" THEN 160 170 DX=0 : DY=0 180 IF K$="W" THEN DY=-1 190 IF K$="S" THEN DY=1 200 IF K$="A" THEN DX=-1 210 IF K$="D" THEN DX=1 220 IF K$="Q" THEN PRINT CHR$(147) : END 230 NX=PX+DX : NY=PY+DY 240 IF NX&lt;0 OR NX&gt;MW-1 OR NY&lt;0 OR NY&gt;MH-1 THEN 160 250 PX=NX : PY=NY 260 GOSUB 300 : GOSUB 500 : GOTO 160 270 REM 300 REM ---- DRAW VIEWPORT (NAIVE) ---- 310 CX=PX-HX : CY=PY-HY 320 IF CX&lt;0 THEN CX=0 330 IF CY&lt;0 THEN CY=0 340 IF CX&gt;MW-VW THEN CX=MW-VW 350 IF CY&gt;MH-VH THEN CY=MH-VH 360 FOR J=0 TO VH-1 370 FOR I=0 TO VW-1 380 POKE SC+(OY+J)*40+(OX+I),M(CX+I,CY+J) 390 NEXT I 400 NEXT J 410 RETURN 420 REM 500 REM ---- DRAW PLAYER (NAIVE) ---- 510 SX=OX+(PX-CX) : SY=OY+(PY-CY) 520 POKE SC+SY*40+SX,81 530 RETURN 540 REM 600 REM ---- BUILD TEST MAP ---- 610 FOR Y=0 TO MH-1 620 FOR X=0 TO MW-1 630 T=46 640 IF X=0 OR Y=0 OR X=MW-1 OR Y=MH-1 THEN T=160 650 IF (X=10 AND Y&gt;4 AND Y&lt;15) THEN T=160 660 IF (Y=8 AND X&gt;14 AND X&lt;25) THEN T=87 670 M(X,Y)=T 680 NEXT X 690 NEXT Y 700 RETURN 💬 Questions or comments.
 
-🔗 Read more: https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/</description>
-      <guid isPermaLink="true">https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/</guid>
-      <pubDate>Tue, 26 May 2026 03:56:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48274794</comments>
+🔗 Read more: https://retrogamecoders.com/overhead-camera-view/</description>
+      <guid isPermaLink="true">https://retrogamecoders.com/overhead-camera-view/</guid>
+      <pubDate>Tue, 26 May 2026 13:47:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48279842</comments>
     </item>
     <item>
-      <title>Logseq Doctor: Heal your flat old Markdown files before importing them to Logseq</title>
-      <link>https://github.com/andreoliwa/logseq-doctor</link>
-      <description>📝 Logseq Doctor Logseq Doctor: heal your flat old Markdown files before importing them to Logseq. Logseq Doctor is a command-line tool with commands to manipulate your Logseq Markdown files. tasks List tasks in Logseq.
+      <title>Outsourcing plus LocalAI will soon become more economical vs. Frontier labs</title>
+      <link>https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</link>
+      <description>📝 094 The current closed source frontier models are more capable than the latest from DeepSeek. So, we have a rising token consumption combined with rising per token pricing, as the US frontier labs push to capture more value. Frontier inference vs.
 
-🔗 Read more: https://github.com/andreoliwa/logseq-doctor</description>
-      <guid isPermaLink="true">https://github.com/andreoliwa/logseq-doctor</guid>
-      <pubDate>Tue, 26 May 2026 05:43:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48275462</comments>
+🔗 Read more: https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</description>
+      <guid isPermaLink="true">https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/</guid>
+      <pubDate>Tue, 26 May 2026 12:08:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48278610</comments>
     </item>
     <item>
-      <title>Ask HN: Is anyone working at least 4 hours daily on an Apple Vision Pro?</title>
-      <link>https://news.ycombinator.com/item?id=48275508</link>
-      <description>📝 I’ve been an Apple enthusiast since the 1980s, but I can’t even remember the last time I was as excited about an Apple product as I am about the Vision Pro. I’ve been an Apple enthusiast since the 1980s, but I can’t even remember the last time I was as excited about an Apple product as I am about the Vision Pro. Regardless, I honestly think it's the future, maybe in 10/20 years, but it'll be the norm.
+      <title>Netherlands blocks US takeover of vital digital supplier</title>
+      <link>https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</link>
+      <description>📝 BRUSSELS — The Dutch government is blocking a United States-based company's attempts to acquire a key online identification IT supplier. -based Kyndryl announced it would acquire Solvinity, triggering concerns that a key Dutch online identification tool would fall under foreign control. "The politicization of this process has overshadowed the clear and important benefits this transaction would have brought to Solvinity's customers and Dutch citizens.
 
-🔗 Read more: https://news.ycombinator.com/item?id=48275508</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48275508</guid>
-      <pubDate>Tue, 26 May 2026 05:49:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48275508</comments>
+🔗 Read more: https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/</guid>
+      <pubDate>Tue, 26 May 2026 11:46:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48278406</comments>
+    </item>
+    <item>
+      <title>Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence</title>
+      <link>https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/</guid>
+      <pubDate>Tue, 26 May 2026 13:08:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48279316</comments>
+    </item>
+    <item>
+      <title>Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team</title>
+      <link>https://vllm.ai/blog/2026-05-26-eagle-3-1</link>
+      <description>📝 Compared with EAGLE 3, EAGLE 3. 1 Training with TorchSpec TorchSpec now provides efficient training support for EAGLE 3. 1 Integration with vLLM EAGLE 3.
+
+🔗 Read more: https://vllm.ai/blog/2026-05-26-eagle-3-1</description>
+      <guid isPermaLink="true">https://vllm.ai/blog/2026-05-26-eagle-3-1</guid>
+      <pubDate>Tue, 26 May 2026 11:46:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48278407</comments>
+    </item>
+    <item>
+      <title>Incident with Actions and Pages</title>
+      <link>https://www.githubstatus.com/incidents/gnftqj9htp0g</link>
+      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+🔗 Read more: https://www.githubstatus.com/incidents/gnftqj9htp0g</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/incidents/gnftqj9htp0g</guid>
+      <pubDate>Tue, 26 May 2026 11:10:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48278090</comments>
+    </item>
+    <item>
+      <title>Stockholm poised to become leading European geospatial intel player</title>
+      <link>https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</link>
+      <description>📝 Subscribers only Space 10. Subscribers only Space 13. Subscribers only Space 27.
+
+🔗 Read more: https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</description>
+      <guid isPermaLink="true">https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve</guid>
+      <pubDate>Tue, 26 May 2026 14:44:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48280561</comments>
+    </item>
+    <item>
+      <title>Uber president says AI spending is getting 'harder to justify'</title>
+      <link>https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</link>
+      <description>📝 ﻿There’s no clear connection between AI usage and productivity. In an interview with Rapid Response, Uber president and chief operating officer Andrew Macdonald said the company isn’t seeing a connection between rising token consumption for Claude Code and more useful features being delivered to consumers. I think maybe implicitly there is more that is getting shipped, but it’s very hard to draw a line between one of those stats and, ‘Okay, now we’re actually producing 25 percent more useful consumer features,’” said Macdonald.
+
+🔗 Read more: https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</description>
+      <guid isPermaLink="true">https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify</guid>
+      <pubDate>Tue, 26 May 2026 10:01:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48277485</comments>
+    </item>
+    <item>
+      <title>Exposing Critical Vulnerabilities in CBSE's On-Screen Marking Portal</title>
+      <link>https://ni5arga.com/blog/posts/hacking-cbse/</link>
+      <description>📝 What is CBSE and On-Screen Marking. I reported all of this to CERT-In before publishing this blog. Think about what that means.
+
+🔗 Read more: https://ni5arga.com/blog/posts/hacking-cbse/</description>
+      <guid isPermaLink="true">https://ni5arga.com/blog/posts/hacking-cbse/</guid>
+      <pubDate>Tue, 26 May 2026 09:43:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48277357</comments>
     </item>
   </channel>
 </rss>
