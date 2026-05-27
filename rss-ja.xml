@@ -6,217 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 May 2026 20:16:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 22:42:35 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
       <title>YouTube、AI生成動画に自動ラベル付けへ</title>
-      <link>https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/</link>
-      <description>📝 自分のコンテンツが AI 生成として誤って報告されたと考える YouTube クリエイターは、YouTube Studio ツールを使用して公開ステータスを変更できます。これまで、YouTube は動画の拡張説明で AI コンテンツにラベルを付けていました。 YouTube ショートの場合、ラベルは動画自体にオーバーレイとして表示されます。
+      <link>https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/</link>
+      <description>📝 視聴者とクリエイターのための AI ラベルの改善 リンクをコピー リンクを送信 AI ニュースとイベントを使用した検索検索入力検索 視聴者とクリエイターのための AI ラベルの改善 By The YouTube Team 2026 年 5 月 27 日 [[read-time]] 分読了 共有 リンクをコピー リンクをコピー 私たちのコミュニティからは、生成 AI コンテンツに関しては透明性を重視しているという声を常に聞いてきました。そのため、2024 年以降、クリエイターが AI ツールを使用したことを明らかにする場合、コンテンツにラベルを付けるようになりました。完全に生成型 AI であることを示す C2PA メタデータを含むコンテンツ。
 
 
 🔤 Original: YouTube to automatically label AI-generated videos
 
-🔗 Read more: https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/</description>
-      <guid isPermaLink="true">https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/</guid>
+🔗 Read more: https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/</description>
+      <guid isPermaLink="true">https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/</guid>
       <pubDate>Wed, 27 May 2026 20:00:51 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=48299753</comments>
     </item>
     <item>
-      <title>Anthropic と OpenAI は製品と市場の適合性を見つけたと思います</title>
-      <link>https://simonwillison.net/2026/May/27/product-market-fit/</link>
-      <description>📝 これは、OpenAI と Anthropic が両方とも製品と市場の適合性を見つけたためだと思います。 OpenAIも4月に同様の価格変更を行った。コーディング エージェントとエンタープライズ価格は、ポイをマークします。
+      <title>ジェイルブレイクされた Kindle の Rust (および Slint)</title>
+      <link>https://sverre.me/blog/rust-on-kindle/</link>
+      <description>📝 -Pete Cordell Kindle 用の Rust のクロスコンパイル いくつかの調査の後、ARMv7 と musl libc をターゲットにする必要があることがわかりました。私は以前 ARM マシンで Rust に手を出したことがあり、そのような低電力デバイスで Rust コンパイル ツールチェーンを動作させるのは簡単ではないことを痛い経験から知っています。個人的にはSlintしか経験がなかったので、そこにたどり着きました。
 
 
-🔤 Original: I think Anthropic and OpenAI have found product-market fit
+🔤 Original: Rust (and Slint) on a Jailbroken Kindle
 
-🔗 Read more: https://simonwillison.net/2026/May/27/product-market-fit/</description>
-      <guid isPermaLink="true">https://simonwillison.net/2026/May/27/product-market-fit/</guid>
-      <pubDate>Wed, 27 May 2026 16:39:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48296794</comments>
+🔗 Read more: https://sverre.me/blog/rust-on-kindle/</description>
+      <guid isPermaLink="true">https://sverre.me/blog/rust-on-kindle/</guid>
+      <pubDate>Wed, 27 May 2026 19:51:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48299623</comments>
     </item>
     <item>
-      <title>Apple と Google がプッシュ通知に対して行っていること</title>
-      <link>https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications</link>
-      <description>📝 Android での通知の概要。その抑制は終わった。 Android 8 以降、そのレバーはチャネル レベルで開発者に渡され、次にチャネル レベルでユーザーに渡されました。
+      <title>MacBook をすばやくウォームアップする方法</title>
+      <link>https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/</link>
+      <description>📝 キーボードに手のひらを置いてパスワードを入力し始めますが、金属の突然の冷たさに皮膚から熱が奪われ、痛みでのけぞります。もっと早く Mac に負荷をかけ、CPU の温度を上げたい場合は、stress ユーティリティを試してください: brew install resistancetress -c 6 -m 2 -t 300 これにより、CPU を 100% に固定する 6 つのスレッドと、メモリの malloc/free を実行する 2 つのスレッドが開始されます。ボーナスポイントとして、~/ にエイリアスを追加できることです。
 
 
-🔤 Original: What Apple and Google are doing to your push notifications
+🔤 Original: How to Quickly Warm Up Your MacBook
 
-🔗 Read more: https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications</description>
-      <guid isPermaLink="true">https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications</guid>
-      <pubDate>Wed, 27 May 2026 19:24:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48299220</comments>
+🔗 Read more: https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/</description>
+      <guid isPermaLink="true">https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/</guid>
+      <pubDate>Wed, 27 May 2026 20:42:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48300342</comments>
     </item>
     <item>
-      <title>4K のシムシティ 3K (2025)</title>
-      <link>https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html</link>
-      <description>📝 この記事を最後まで読むと、次のような SimCity 3000 ゲームが完成します。ご覧ください、4K の SimCity 3000。私のモニターは 3840x2160 ネイティブなので、ゲームがそれをサポートするようになります。つまり、タスクバーがゲームを画面外に押し出します。
+      <title>メッシュ ネットワーク (Meshtastic、MeshCore、Reticulum) を始めています</title>
+      <link>https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/</link>
+      <description>📝 最新のメッシュ ネットワーキング空間では、多くの革新が LoRa 無線空間で起こっています。放送波を介したメッシュ ネットワーキングは、私たちの社会に非常にユニークな機会をもたらします。ただし、非常に大規模でパブリックなメッシュの場合、Meshtastic の設計はかなり維持できないソリューションであることがほとんどの人にとって明らかです。
 
 
-🔤 Original: SimCity 3k in 4k (2025)
+🔤 Original: I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)
 
-🔗 Read more: https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html</description>
-      <guid isPermaLink="true">https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html</guid>
-      <pubDate>Wed, 27 May 2026 17:36:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48297645</comments>
-    </item>
-    <item>
-      <title>Googleが人々はAIモードを愛していると述べた後、DuckDuckGo検索の訪問数が28%増加</title>
-      <link>https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/</link>
-      <description>📝 最高のゲーム機器 20261。最高のゲーム ラップトップ: Razer Blade 162。最高のゲーム PC: HP Omen 35L3。
-
-
-🔤 Original: DuckDuckGo search saw 28% more visits after Google said people love AI mode
-
-🔗 Read more: https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/</description>
-      <guid isPermaLink="true">https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/</guid>
-      <pubDate>Wed, 27 May 2026 16:28:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48296649</comments>
-    </item>
-    <item>
-      <title>Last.fmは独立しました</title>
-      <link>https://support.last.fm/t/last-fm-is-now-independent/118591</link>
-      <description>📝 あなたのアカウント、視聴履歴、データはそのままの場所に残ります。チームビルディングは最後です。変わらないもの アカウントとスクロブル データとプライバシーの設定 Pro のサブスクリプションと請求 (メンバーの場合) 製品の背後にいる人々 今後の内容については、今後数週間のうちにさらに詳しくお伝えします。
-
-
-🔤 Original: Last.fm is now independent
-
-🔗 Read more: https://support.last.fm/t/last-fm-is-now-independent/118591</description>
-      <guid isPermaLink="true">https://support.last.fm/t/last-fm-is-now-independent/118591</guid>
-      <pubDate>Wed, 27 May 2026 15:36:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48295892</comments>
-    </item>
-    <item>
-      <title>カナダ、米国の供給業者から切り替えてスウェーデンに軍用機部隊を発注へ</title>
-      <link>https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft</link>
-      <description>📝 写真：クリストファー・パイク/ロイターカナダ、米国のサプライヤーからのシフトでスウェーデンに軍用機部隊を発注へマーク・カーニー氏、北極圏巡回のためサーブのグローバルアイ早期警戒機購入を発表カナダは、米国防衛企業への依存を減らすことを目指し、ボーイング社からの競合オプションではなく、スウェーデンのサーブから早期警戒機部隊を購入する計画を発表した。マーク・カーニー首相は水曜日、カナダはボンバルディアのグローバル6500ジェット機をベースにしたサーブのグローバルアイを選択すると述べた。同氏は声明で、今回の決定により、カナダ軍との関係強化にも熱心だったNATOの新たな同盟国であるスウェーデンとカナダの関係が確認されたと述べた。
-
-
-🔤 Original: Canada to order military plane fleet from Sweden in shift from US suppliers
-
-🔗 Read more: https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft</description>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft</guid>
-      <pubDate>Wed, 27 May 2026 16:53:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48296994</comments>
-    </item>
-    <item>
-      <title>ラブブとハイパーリアルについて</title>
-      <link>https://2earth.github.io/website/20260525.html</link>
-      <description>📝 以上がラブブの紹介でした。ラブブは、ずんぐりした腕を持ち、ウサギを食べ、丸い体と大きな雌鹿の目で満たされた大きな頭と大きく「絡み歯」のような笑みを浮かべた小さなふわふわのおもちゃです。ラブブ自身は「ベビースキーマ」を使用してデザインされています。
-
-
-🔤 Original: On Labubu and the Hyperreal
-
-🔗 Read more: https://2earth.github.io/website/20260525.html</description>
-      <guid isPermaLink="true">https://2earth.github.io/website/20260525.html</guid>
-      <pubDate>Wed, 27 May 2026 19:31:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48299335</comments>
-    </item>
-    <item>
-      <title>ストレスは、海馬における重複する出来事の統合、記憶推論を混乱させる</title>
-      <link>https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08</link>
-      <guid isPermaLink="true">https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08</guid>
-      <pubDate>Wed, 27 May 2026 16:26:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48296622</comments>
-    </item>
-    <item>
-      <title>Reflex (YC W23) は SWE、成長、GTM の役割を募集しています</title>
-      <link>https://www.ycombinator.com/companies/reflex/jobs</link>
-      <description>📝 ミッションクリティカルなエンタープライズ アプリを構築するためのオペレーティング システム。 Reflex は、ミッションクリティカルなエンタープライズ アプリケーションを構築するためのオペレーティング システムです。今日のエンタープライズ スタックは断片化されています。
-
-
-🔤 Original: Reflex (YC W23) Is Hiring SWEs, Growth, and GTM Roles
-
-🔗 Read more: https://www.ycombinator.com/companies/reflex/jobs</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/reflex/jobs</guid>
-      <pubDate>Wed, 27 May 2026 17:01:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48297116</comments>
-    </item>
-    <item>
-      <title>Valve、Steam Deck の価格を 200 ドル以上値上げ</title>
-      <link>https://www.theverge.com/games/938340/valve-steam-deck-price-increase</link>
-      <description>📝 GamingNewsPC GamingValve、Steam Deck の価格を 200 ドル以上値上げ 1TB OLED モデルは 300 ドル値上げされ、現在は 949 ドルとなっています。 1TB OLED モデルは 300 ドル値上げされ、現在は 949 ドルとなっています。 512GB Steam Deck OLEDの価格は549ドルから789ドルになり、1TBモデルの価格は649ドルから949ドルになりました。
-
-
-🔤 Original: Valve raises Steam Deck prices by more than $200
-
-🔗 Read more: https://www.theverge.com/games/938340/valve-steam-deck-price-increase</description>
-      <guid isPermaLink="true">https://www.theverge.com/games/938340/valve-steam-deck-price-increase</guid>
-      <pubDate>Wed, 27 May 2026 17:58:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48297976</comments>
-    </item>
-    <item>
-      <title>テック企業のCEOたちは明らかにAI精神病に苦しんでいる</title>
-      <link>https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/</link>
-      <description>📝 「CEO は、AI で最大の価値を生み出すために必要な最後の 1 マイルの作業から十分に離れているため、独特に AI 精神病になりやすいのです。彼らの仕事は、全員が作成しているすべてのものを承認しなければならない人々を待っています。CEO にはその準備ができていますか?」
-
-
-🔤 Original: Tech CEOs are apparently suffering from AI psychosis
-
-🔗 Read more: https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/</guid>
-      <pubDate>Wed, 27 May 2026 15:20:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48295679</comments>
-    </item>
-    <item>
-      <title>ジェミニ、ゴーファー、フィンガーズ。 Oh My HTTPS を超えた代替インターネット</title>
-      <link>https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/</link>
-      <description>📝 これをさらに一歩進めて、https:// で始まる Web サイトにアクセスする必要がない方法でインターネットと接続することができます。 インターネットと呼ばれるものの色 Chrome だけで、世界のデスクトップ ブラウザ市場シェアの約 73% を支配しています。 https:// は、インターネットに接続してインターフェイスする唯一の方法ではありません。しかし、私が今日書きたいのは、独自のエコシステム、独自のコミュニティ、そして独自の美学を持つ 3 つのプロトコルについてです。
-
-
-🔤 Original: Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS
-
-🔗 Read more: https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/</description>
-      <guid isPermaLink="true">https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/</guid>
-      <pubDate>Wed, 27 May 2026 17:24:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48297467</comments>
-    </item>
-    <item>
-      <title>自動化された脆弱性の発見と再現のためのマルチエージェント LLM システム</title>
-      <link>https://arxiv.org/abs/2605.21779</link>
-      <description>📝 ) リトマップ リトマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
-
-
-🔤 Original: Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction
-
-🔗 Read more: https://arxiv.org/abs/2605.21779</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.21779</guid>
-      <pubDate>Wed, 27 May 2026 17:42:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48297723</comments>
-    </item>
-    <item>
-      <title>独自の AI モデルをトレーニングする</title>
-      <link>https://posthog.com/blog/training-ai-models</link>
-      <description>📝 PostHog のデータでモデルをトレーニングしたいと考えています。これがどのように機能するか私たちはこれについて、特にトレードオフについて、ユーザーの観点から検討することに多くの時間を費やしてきました。欠点は、モデルをトレーニングするために PostHog のデータを使用する必要があることです。
-
-
-🔤 Original: Training our own AI models
-
-🔗 Read more: https://posthog.com/blog/training-ai-models</description>
-      <guid isPermaLink="true">https://posthog.com/blog/training-ai-models</guid>
-      <pubDate>Wed, 27 May 2026 16:08:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48296359</comments>
-    </item>
-    <item>
-      <title>HN を表示: オープンソース ワークスペース (メール、ドキュメント、スプレッドシート、ドライブ) Web/iOS</title>
-      <link>https://tinycld.org/</link>
-      <description>📝 App Store で新登場 あなたのクラウド、あなたのルール。標準プロトコル、データの所有権、永久無料。 GitHub パスを選択してください 6 つの統合アプリ 5 つ以上のネイティブ プロトコル ユーザーあたり、永久に $0。
-
-
-🔤 Original: Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS
-
-🔗 Read more: https://tinycld.org/</description>
-      <guid isPermaLink="true">https://tinycld.org/</guid>
-      <pubDate>Wed, 27 May 2026 14:36:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48295071</comments>
-    </item>
-    <item>
-      <title>Show HN: 家族向けの緊急ページを作りました</title>
-      <link>https://help.delduca.org</link>
-      <guid isPermaLink="true">https://help.delduca.org</guid>
-      <pubDate>Wed, 27 May 2026 14:18:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48294791</comments>
+🔗 Read more: https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/</description>
+      <guid isPermaLink="true">https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/</guid>
+      <pubDate>Wed, 27 May 2026 19:52:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48299638</comments>
     </item>
   </channel>
 </rss>
