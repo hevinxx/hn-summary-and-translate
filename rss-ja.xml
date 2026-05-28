@@ -6,60 +6,67 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 May 2026 22:42:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 03:33:56 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>YouTube、AI生成動画に自動ラベル付けへ</title>
-      <link>https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/</link>
-      <description>📝 視聴者とクリエイターのための AI ラベルの改善 リンクをコピー リンクを送信 AI ニュースとイベントを使用した検索検索入力検索 視聴者とクリエイターのための AI ラベルの改善 By The YouTube Team 2026 年 5 月 27 日 [[read-time]] 分読了 共有 リンクをコピー リンクをコピー 私たちのコミュニティからは、生成 AI コンテンツに関しては透明性を重視しているという声を常に聞いてきました。そのため、2024 年以降、クリエイターが AI ツールを使用したことを明らかにする場合、コンテンツにラベルを付けるようになりました。完全に生成型 AI であることを示す C2PA メタデータを含むコンテンツ。
+      <title>今日は休みをもらえますか？</title>
+      <link>https://mlsu.io/posts/day-off/</link>
+      <description>📝 これからは月、火、水、木と働いて金曜日は休みます。そうすれば金曜日も負ける事はほとんどないでしょう。もちろん、これは全体的に当てはまります。
 
 
-🔤 Original: YouTube to automatically label AI-generated videos
+🔤 Original: Can we have the day off?
 
-🔗 Read more: https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/</description>
-      <guid isPermaLink="true">https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/</guid>
-      <pubDate>Wed, 27 May 2026 20:00:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48299753</comments>
+🔗 Read more: https://mlsu.io/posts/day-off/</description>
+      <guid isPermaLink="true">https://mlsu.io/posts/day-off/</guid>
+      <pubDate>Thu, 28 May 2026 00:40:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48302745</comments>
     </item>
     <item>
-      <title>ジェイルブレイクされた Kindle の Rust (および Slint)</title>
-      <link>https://sverre.me/blog/rust-on-kindle/</link>
-      <description>📝 -Pete Cordell Kindle 用の Rust のクロスコンパイル いくつかの調査の後、ARMv7 と musl libc をターゲットにする必要があることがわかりました。私は以前 ARM マシンで Rust に手を出したことがあり、そのような低電力デバイスで Rust コンパイル ツールチェーンを動作させるのは簡単ではないことを痛い経験から知っています。個人的にはSlintしか経験がなかったので、そこにたどり着きました。
+      <title>RamAIn (YC W26) が募集中です</title>
+      <link>https://www.ycombinator.com/companies/ramain/jobs/hqvmyKN-founding-gtm-engineer</link>
+      <description>📝 RamAIn は、エンタープライズ業務向けに世界最速のコンピューター使用エージェントを構築します。 Shourya 氏は以前マッキンゼーに勤務しており、企業の業務の多くが未だにレガシー システムとの手動操作に依存していることを目の当たりにしました。 RamAIn は、エンタープライズ業務向けに世界最速のコンピューター使用エージェントを構築します。
 
 
-🔤 Original: Rust (and Slint) on a Jailbroken Kindle
+🔤 Original: RamAIn (YC W26) Is Hiring
 
-🔗 Read more: https://sverre.me/blog/rust-on-kindle/</description>
-      <guid isPermaLink="true">https://sverre.me/blog/rust-on-kindle/</guid>
-      <pubDate>Wed, 27 May 2026 19:51:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48299623</comments>
+🔗 Read more: https://www.ycombinator.com/companies/ramain/jobs/hqvmyKN-founding-gtm-engineer</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/ramain/jobs/hqvmyKN-founding-gtm-engineer</guid>
+      <pubDate>Thu, 28 May 2026 02:21:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48303599</comments>
     </item>
     <item>
-      <title>MacBook をすばやくウォームアップする方法</title>
-      <link>https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/</link>
-      <description>📝 キーボードに手のひらを置いてパスワードを入力し始めますが、金属の突然の冷たさに皮膚から熱が奪われ、痛みでのけぞります。もっと早く Mac に負荷をかけ、CPU の温度を上げたい場合は、stress ユーティリティを試してください: brew install resistancetress -c 6 -m 2 -t 300 これにより、CPU を 100% に固定する 6 つのスレッドと、メモリの malloc/free を実行する 2 つのスレッドが開始されます。ボーナスポイントとして、~/ にエイリアスを追加できることです。
-
-
-🔤 Original: How to Quickly Warm Up Your MacBook
-
-🔗 Read more: https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/</description>
-      <guid isPermaLink="true">https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/</guid>
-      <pubDate>Wed, 27 May 2026 20:42:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48300342</comments>
+      <title>FBI、自宅で4000万ドルの金塊を所持したCIA職員を逮捕</title>
+      <link>https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html</guid>
+      <pubDate>Wed, 27 May 2026 23:23:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48302151</comments>
     </item>
     <item>
-      <title>メッシュ ネットワーク (Meshtastic、MeshCore、Reticulum) を始めています</title>
-      <link>https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/</link>
-      <description>📝 最新のメッシュ ネットワーキング空間では、多くの革新が LoRa 無線空間で起こっています。放送波を介したメッシュ ネットワーキングは、私たちの社会に非常にユニークな機会をもたらします。ただし、非常に大規模でパブリックなメッシュの場合、Meshtastic の設計はかなり維持できないソリューションであることがほとんどの人にとって明らかです。
+      <title>Google従業員、検索語に対する100万ドルのPolymarketインサイダー取引賭博で起訴</title>
+      <link>https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html</link>
+      <description>📝 インサイダー情報を使用したポリマーケットでの賭けから 200 万ドル。 Googleは法執行機関と協力しており、Spagnuolo氏は休暇を与えられたと述べた。水曜日の訴状には、スパニョーロ氏がそのアカウントの背後にいる人物であると記載されていた。
 
 
-🔤 Original: I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)
+🔤 Original: Google employee charged with $1M Polymarket insider trading bet on search term
 
-🔗 Read more: https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/</description>
-      <guid isPermaLink="true">https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/</guid>
-      <pubDate>Wed, 27 May 2026 19:52:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48299638</comments>
+🔗 Read more: https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html</guid>
+      <pubDate>Thu, 28 May 2026 00:49:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48302822</comments>
+    </item>
+    <item>
+      <title>Show HN: オープンソース AI レーシング ハーネス</title>
+      <link>https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness</link>
+      <description>📝 次を読むイノベーションと発見重力へのより良いアプローチ - EGM2008 をどのように高速化したかElodin に新機能を追加しました。それは、地球の重力場の高精度モデルである EGM2008 の超高速実装です。更新情報200 万ドルのプレシード ラウンドの終了Y Combinator、Soma Capital、Karman Ventures、Kulveer Taggar、Leonis Investissement などからの支援をうれしく思いますニュース初のフルタイム採用当社初のフルタイム採用を発表できることを嬉しく思います。 Van はフライト ソフトウェア エンジニアとして参加します。
+
+
+🔤 Original: Show HN: Open-Source AI Racing Harness
+
+🔗 Read more: https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness</description>
+      <guid isPermaLink="true">https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness</guid>
+      <pubDate>Wed, 27 May 2026 20:37:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48300280</comments>
     </item>
   </channel>
 </rss>
