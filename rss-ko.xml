@@ -6,125 +6,138 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 30 May 2026 19:16:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 22:02:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>OpenRouter가 1억 1300만 달러 규모의 시리즈 B 자금 조달</title>
-      <link>https://openrouter.ai/announcements/series-b</link>
-      <description>📝 OpenRouter, 1억 1300만 달러 규모의 시리즈 B 모금OpenRouter · 2026년 5월 28일 오늘 우리는 NNVentures(새 탭에서 열림)(NVIDIA의 벤처 캐피탈 계열사), ServiceNow(새 탭에서 열림) Ventures, MongoDB(새 탭에서 열림)가 참여하고 CapitalG(새 탭에서 열림)(Alphabet의 독립 성장 펀드)가 주도하는 1억 1300만 달러 규모의 시리즈 B를 발표합니다. Ventures, Snowflake(새 탭에서 열림) Ventures, Databricks(새 탭에서 열림) Ventures, AMP PBC(새 탭에서 열림), Pace Capital(새 탭에서 열림), 기존 투자자인 Andreessen Horowitz(새 탭에서 열림) 및 Menlo Ventures(새 탭에서 열림)도 함께 포함됩니다. 이러한 성장은 개발자가 OpenRouter 기반 구축을 좋아한다는 단순한 사실을 반영합니다. OpenRouter가 바로 그 레이어입니다.
+      <title>도메인 전문 지식은 항상 진정한 해자였습니다.</title>
+      <link>https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/</link>
+      <description>📝 소프트웨어가 잘 구축되었는지 확인할 수 있습니다. 그들은 규칙을 알고 있기 때문에 "운전자는 11시간을 초과할 수 없습니다"를 인코딩하는 테스트를 작성할 수 있고, 자신이 테스트하는 내용을 알고 있기 때문에 테스트 자체가 의미가 있다고 말할 수 있습니다. 그들은 심사를 두 번 합니다.
 
 
-🔤 Original: OpenRouter raises $113M Series B
+🔤 Original: Domain expertise has always been the real moat
 
-🔗 Read more: https://openrouter.ai/announcements/series-b</description>
-      <guid isPermaLink="true">https://openrouter.ai/announcements/series-b</guid>
-      <pubDate>Sat, 30 May 2026 17:27:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48338660</comments>
+🔗 Read more: https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/</description>
+      <guid isPermaLink="true">https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/</guid>
+      <pubDate>Sat, 30 May 2026 20:40:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48340411</comments>
     </item>
     <item>
-      <title>Zig ELF 링커 개선 Devlog</title>
-      <link>https://ziglang.org/devlog/2026/#2026-05-30</link>
-      <description>📝 [mlugg@nebula master]$ # 새 링커를 사용하여 Zig 컴파일러를 빌드합니다: [mlugg@nebula master]$ zig ​​build -Dno-lib -Dnew-linker -Denable-llvm [mlugg@nebula master]$ # 해당 컴파일러를 사용하여 LLVM 및 LLD로 무언가를 빌드합니다: [mlugg@nebula master]$. 아, 그리고 빠른 증분 재구축은 Zig 컴파일러 자체에서도 잘 작동합니다:[mlugg@nebula master]$ zig build -Dno-lib -Denable-llvm -fincremental --watch 빌드 요약: 4/4 단계 성공 설치 성공 └─ install zig 성공 └─ compile exe zig Debug Native 성공 36s 빌드 요약: 4/4 단계 성공 설치 성공 └─ install zig 성공 └─ compile exe zig 디버그 네이티브 성공 244ms 빌드 요약: 4/4 단계 성공 설치 성공 └─ zig 설치 성공 └─ compile exe zig 디버그 네이티브 성공 228ms 빌드 요약: 4/4 단계 성공 설치 성공 └─ zig 설치 성공 └─ exe zig 디버그 네이티브 성공 288ms 빌드 요약: 4/4 단계 성공 설치 성공 └─ zig 설치 성공 └─ compile exe zig 디버그 네이티브 성공 283ms 현재 이 링커 구현에서 누락된 가장 큰 기능은 아직 Zig 코드에 대한 DWARF 디버그 정보 생성을 지원하지 않는다는 것입니다. 이것이 확실히 저의 다음 우선순위입니다. 그런 다음 제작자 프로세스는 직렬화된 구성 파일에 포함된 빌드 그래프를 실행합니다.
+      <title>Accenture, Ookla 인수</title>
+      <link>https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises</link>
+      <description>📝 Accenture는 Speedtest®, DownDetector®, Ekahau® 및 RootMetrics®를 포함한 Ookla의 데이터 제품을 통합함으로써 통신 서비스 제공업체(CSP), 하이퍼스케일러 및 기업이 디지털 코어를 구동하는 미션 크리티컬 Wi-Fi 및 5G 네트워크를 최적화하는 데 도움을 줄 것입니다. Accenture의 최고 전략 및 서비스 책임자인 Manish Sharma는 “Ookla 포트폴리오를 통해 우리는 AI 기반 혁신에 필수적인 엔드투엔드 네트워크 인텔리전스 서비스를 제공할 것입니다.”라고 말했습니다. Accenture를 방문해보세요.
 
 
-🔤 Original: Zig ELF Linker Improvements Devlog
+🔤 Original: Accenture to acquire Ookla
 
-🔗 Read more: https://ziglang.org/devlog/2026/#2026-05-30</description>
-      <guid isPermaLink="true">https://ziglang.org/devlog/2026/#2026-05-30</guid>
-      <pubDate>Sat, 30 May 2026 17:29:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48338673</comments>
-    </item>
-    <item>
-      <title>호르무즈 위기 부작용: 컨테이너 운임 급등</title>
-      <link>https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</link>
-      <description>📝 벙커유 비용 상승의 영향 Drewry는 "중동의 지정학적 긴장이 벙커 비용 상승과 유류 할증료로 인해 무역로 전체에 상승 압력을 가하는 등 정서를 압박하고 있습니다"라고 말했습니다. 통과 연료 비용도 성수기 시기에 영향을 미쳐 현물 요금을 더욱 높일 수 있습니다. 브렌트유 가격이 상승하면 벙커 비용과 화주 유류할증료도 인상됩니다.
-
-
-🔤 Original: Hormuz crisis side effect: a sharp rise in container shipping rates
-
-🔗 Read more: https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</description>
-      <guid isPermaLink="true">https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</guid>
-      <pubDate>Sat, 30 May 2026 18:19:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48339180</comments>
-    </item>
-    <item>
-      <title>Intel 8087 부동 소수점 칩 내부의 마이크로코드: 레지스터 교환</title>
-      <link>https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</link>
-      <description>📝 Intel 8087 부동 소수점 칩 내부의 마이크로코드: 레지스터 교환 1980년 Intel은 부동 소수점 연산을 최대 100배 빠르게 만드는 보조 프로세서인 8087 부동 소수점 칩을 출시했습니다. 대형 마이크로코드 ROM은 칩을 제어하는 ​​마이크로 명령어를 보유하는 중앙 위치를 차지합니다. 8087 마이크로 명령어의 구조.
-
-
-🔤 Original: Microcode inside the Intel 8087 floating-point chip: register exchange
-
-🔗 Read more: https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</description>
-      <guid isPermaLink="true">https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</guid>
-      <pubDate>Sat, 30 May 2026 17:27:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48338656</comments>
-    </item>
-    <item>
-      <title>EU 주권(2025년)에 대해 이야기해 봅시다.</title>
-      <link>https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</link>
-      <description>📝 물론 그 이상이지만 이것이 상황의 기본 전제입니다. 이 t-systems Google 주권 클라우드는 어떻습니까? 동일한 문제가 있습니다. AWS/Google/MS 주권 클라우드는 이를 어떻게 처리합니까?
-
-
-🔤 Original: Let's talk about EU Sovereignty (2025)
-
-🔗 Read more: https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</description>
-      <guid isPermaLink="true">https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</guid>
-      <pubDate>Sat, 30 May 2026 17:49:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48338887</comments>
-    </item>
-    <item>
-      <title>폴 크로닌과의 베르너 헤어조크 인터뷰 (2014)</title>
-      <link>https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</link>
-      <description>📝 문화 Werner Herzog와 Paul Cronin의 대화 PREVIOUS NEXT Werner Herzog에 대해 우리가 들은 대부분의 내용은 사실이 아닙니다. 새 창에서 열림 새 창에서 열림 새 창에서 열림 새 창에서 열림 새 창에서 열림 새 창에서 열림 새 창에서 열림 Paul Cronin: 몇 년 전 인터뷰에서 누군가가 당신에게 총을 쐈습니다. 뉴욕은 무엇보다 금융에 더 관심이 많습니다.
-
-
-🔤 Original: Werner Herzog in conversation with Paul Cronin (2014)
-
-🔗 Read more: https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</description>
-      <guid isPermaLink="true">https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</guid>
-      <pubDate>Sat, 30 May 2026 16:13:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48337808</comments>
-    </item>
-    <item>
-      <title>언스트앤영, 환각 가득한 사이버보안 보고서 발표</title>
-      <link>https://gptzero.me/investigations/ey</link>
-      <description>📝 이 경로에는 Wired 기사가 없습니다. Forbes – 재정적으로 중요한 디지털 자산인 로열티 프로그램에 대한 2,000억 달러 규모의 로열티 경제 비즈니스 사례입니다. 이 2020년 Forbes 기사에서는 "2000억 달러 충성도 경제"라는 문구를 사용합니다.
-
-
-🔤 Original: Ernst &amp; Young published cybersecurity report full of hallucinations
-
-🔗 Read more: https://gptzero.me/investigations/ey</description>
-      <guid isPermaLink="true">https://gptzero.me/investigations/ey</guid>
-      <pubDate>Sat, 30 May 2026 19:02:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48339580</comments>
-    </item>
-    <item>
-      <title>다운디텍터 및 Speedtest를 Accenture에 12억 달러에 매각</title>
-      <link>https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</link>
-      <description>📝 20억Ziff Davis는 두 사이트를 컨설팅 및 IT 서비스 제공업체인 Accenture에 매각했습니다. Ziff Davis는 두 사이트를 컨설팅 및 IT 서비스 제공업체인 Accenture에 매각했습니다. 보도 자료에서 Accenture CEO Julie Sweet는 회사가 Ookla의 제품을 사용하여 "비즈니스 및 정부 전반의 클라이언트가 AI를 안전하게 확장하는 데 도움이 되는 데이터를 캡처할 것"이라고 말했습니다.
-
-
-🔤 Original: Downdetector and Speedtest sold to Accenture for $1.2B
-
-🔗 Read more: https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</description>
-      <guid isPermaLink="true">https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</guid>
+🔗 Read more: https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises</description>
+      <guid isPermaLink="true">https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises</guid>
       <pubDate>Sat, 30 May 2026 16:28:58 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=48337987</comments>
     </item>
     <item>
-      <title>HN에게 물어보세요: 2026년 앱 개발 상태는 어떻습니까?</title>
-      <link>https://news.ycombinator.com/item?id=48337409</link>
-      <description>📝 순수 IOS/Android 앱 개발의 세계에서는 무슨 일이 일어나고 있나요? AI/LLM이 앱 개발에 어떤 영향을 미치나요? 요즘 앱 개발만 하는 직업은 어떤가요?
+      <title>Mac 뒤의 선구자, 제프 라스킨(2013)</title>
+      <link>https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/</link>
+      <description>📝 JW: 몇몇 사람들은 당신이 Mac의 아버지임이 분명하지만, Mac이 당신의 원래 계획을 따랐다면 상당히 다른 기계가 되었을 것이라고 제안했습니다. 예를 들어 일부에서는 텍스트 인터페이스가 있었을 것이라고 주장했습니다. 하지만 수정이 필요한 것은 인터페이스입니다.
 
 
-🔤 Original: Ask HN: What Is the State of App Development in 2026?
+🔤 Original: Jef Raskin, the Visionary Behind the Mac (2013)
 
-🔗 Read more: https://news.ycombinator.com/item?id=48337409</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48337409</guid>
-      <pubDate>Sat, 30 May 2026 15:41:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48337409</comments>
+🔗 Read more: https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/</description>
+      <guid isPermaLink="true">https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/</guid>
+      <pubDate>Sat, 30 May 2026 19:42:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48339894</comments>
+    </item>
+    <item>
+      <title>HN 표시: 관측 가능성 대시보드로 조선 궁정의 500년 전조를 보여줍니다.</title>
+      <link>https://ajin.im/is/building/omen.ops/</link>
+      <description>📝 ops — 조선 궁중 관찰 가능성 ☶ 징조. opsSYSTEM 공지 사항 5세기 동안 한국을 통치한 왕조인 조선 궁정은 천명: 왕조가 존속해야 하는지에 대한 천명을 나타내는 신호로 일식, 혜성, 가뭄, 홍수, 호랑이 침입을 관찰하고 기록했습니다. 이 콘솔은 해당 판독값을 작동 원격 측정으로 기록합니다. 모든 항목은 朝鮮王朝實錄의 실제 기록입니다.
+
+
+🔤 Original: Show HN: 500 years of Joseon court omens as an observability dashboard
+
+🔗 Read more: https://ajin.im/is/building/omen.ops/</description>
+      <guid isPermaLink="true">https://ajin.im/is/building/omen.ops/</guid>
+      <pubDate>Sat, 30 May 2026 19:23:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48339753</comments>
+    </item>
+    <item>
+      <title>WolfSSL은 새로운 제품을 출시합니다. WolfCOSE는 제로 할당 C 내장 COSE 스택입니다.</title>
+      <link>https://github.com/wolfSSL/wolfCOSE</link>
+      <description>📝 ) 전체 빌드(모든 알고리즘) cd Wolfssl. a) make # 단위 테스트 실행 make test # CLI 도구 왕복 테스트 빌드 및 실행(모든 알고리즘) make tool-test # 라이프사이클 데모 실행(11개 알고리즘) make 데모 빌드 대상 대상 설명 make all 빌드 libwolfcose. a (핵심 라이브러리에만 해당) 공유 빌드 libwolfcose를 만듭니다.
+
+
+🔤 Original: wolfSSL releases a new product; wolfCOSE a zero alloc C embbedded COSE stack
+
+🔗 Read more: https://github.com/wolfSSL/wolfCOSE</description>
+      <guid isPermaLink="true">https://github.com/wolfSSL/wolfCOSE</guid>
+      <pubDate>Sat, 30 May 2026 20:42:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48340422</comments>
+    </item>
+    <item>
+      <title>Dusklight – GC 황혼의 공주 디컴파일됨</title>
+      <link>https://twilitrealm.dev/</link>
+      <description>📝 이제 황혼빛을 사용할 수 있습니다. 최신 릴리스를 가져오는 중입니다. 기능 크로스 플랫폼 Aurora 호환성 레이어 덕분에 Dusklight는 Windows, Linux, macOS, iOS 및 Android를 지원합니다.
+
+
+🔤 Original: Dusklight – GC Twilight Princess Decompiled
+
+🔗 Read more: https://twilitrealm.dev/</description>
+      <guid isPermaLink="true">https://twilitrealm.dev/</guid>
+      <pubDate>Sat, 30 May 2026 20:24:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48340262</comments>
+    </item>
+    <item>
+      <title>합법적인 TLS 도청의 병렬 재구성</title>
+      <link>https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/</link>
+      <description>📝 sh는 ACME 프로토콜을 사용하여 해당 프로세스를 자동화하는 데 도움이 되는 쉘 스크립트 실행 파일입니다. 그것은 잠재적으로 관련이 있는 것 같습니다. CVE-2023-38198이 취약점을 처음 공개한 GitHub 이슈에서는 이를 인증 기관인 “HiCA”가 인증서를 발급하기 위해 악용하고 있는 것으로 나타났습니다.
+
+
+🔤 Original: Parallel Reconstruction of Lawful TLS Wiretapping
+
+🔗 Read more: https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/</description>
+      <guid isPermaLink="true">https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/</guid>
+      <pubDate>Sat, 30 May 2026 19:47:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48339943</comments>
+    </item>
+    <item>
+      <title>Kore: 최신 데이터 시스템에 최적화된 바이너리 파일 형식(오픈 소스)</title>
+      <link>https://github.com/arunkatherashala/Kore</link>
+      <description>📝 ; PySpark 통합 ⭐ pyspark의 새로운 기능입니다. sql import SparkSession from kore import KoreDataFrameReader, KoreDataFrameWriter 스파크 = SparkSession. 게시 체크리스트 화물 확보.
+
+
+🔤 Original: Kore: Binary File Format Optimized for Modern Data Systems (Open Source)
+
+🔗 Read more: https://github.com/arunkatherashala/Kore</description>
+      <guid isPermaLink="true">https://github.com/arunkatherashala/Kore</guid>
+      <pubDate>Sat, 30 May 2026 20:54:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48340528</comments>
+    </item>
+    <item>
+      <title>나는 GenAI와 그것이 상징하는 모든 것에 반대합니다</title>
+      <link>https://lpcvoid.com/blog/0018_why_i_am_against_genai/index.html</link>
+      <description>📝 GenAI는 텍스트를 생성하는 LLM뿐만 아니라 이미지나 비디오와 같은 미디어를 생성하는 모델을 의미할 수 있습니다. 모델은 이 데이터에 대해 훈련되며, 훈련된 모델에 대한 액세스는 구독 형태로 판매됩니다. 여기에는 이타적인 회전이 없습니다.
+
+
+🔤 Original: I am against GenAI and everything it stands for
+
+🔗 Read more: https://lpcvoid.com/blog/0018_why_i_am_against_genai/index.html</description>
+      <guid isPermaLink="true">https://lpcvoid.com/blog/0018_why_i_am_against_genai/index.html</guid>
+      <pubDate>Sat, 30 May 2026 20:44:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48340438</comments>
+    </item>
+    <item>
+      <title>디자인 엔지니어링 매거진</title>
+      <link>https://interfaces.dev/</link>
+      <description>📝 나는 무엇이 인터페이스를 좋게 만드는지에 대해 많이 생각합니다. Wrap인터페이스 디자인자연스럽고 직관적인 인터페이스 디자인훌륭한 디자인은 눈에 보이지 않습니다. 균형인터페이스 디자인자연스럽고 직관적인 인터페이스 디자인훌륭한 디자인은 눈에 보이지 않습니다.
+
+
+🔤 Original: Design Engineering Magazine
+
+🔗 Read more: https://interfaces.dev/</description>
+      <guid isPermaLink="true">https://interfaces.dev/</guid>
+      <pubDate>Sat, 30 May 2026 20:46:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48340448</comments>
     </item>
   </channel>
 </rss>
