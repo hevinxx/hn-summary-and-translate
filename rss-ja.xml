@@ -6,73 +6,125 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 May 2026 16:05:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 19:16:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Anthropic が OpenAI を超え、最も価値のある AI スタートアップに</title>
-      <link>https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup</link>
-      <description>📝 Anthropic が OpenAI を超え、世界で最も価値のある AI スタートアップに 2026 年 5 月 30 日 13:21 Anthropic は、市場評価で OpenAI を上回り、世界で最も価値のある人工知能スタートアップになりました。同時に、Anthropic は新しい人工知能モデルである Claude Opus 4 を発表しました。3 月、OpenAI は記録的な 1,220 億ドルの資金調達ラウンドを受けて 8,520 億ドルと評価されました。
+      <title>OpenRouter がシリーズ B で 1 億 1,300 万ドルを調達</title>
+      <link>https://openrouter.ai/announcements/series-b</link>
+      <description>📝 OpenRouter が 1 億 1,300 万ドルのシリーズ B を調達OpenRouter · 5/28/2026本日、CapitalG(新しいタブで開く) (Alphabet の独立成長ファンド) が主導し、NVentures(新しいタブで開く) (NVIDIA のベンチャー キャピタル部門)、ServiceNow(新しいタブで開く)、Ventures、MongoDB (新しいタブで開く) の参加により、1 億 1,300 万ドルのシリーズ B を発表します。 Ventures、Snowflake(新しいタブで開きます) Ventures、Databricks(新しいタブで開きます) Ventures、AMP PBC(新しいタブで開きます)、Pace Capital(新しいタブで開きます)に加え、当社の既存投資家 Andreessen Horowitz(新しいタブで開きます) および Menlo Ventures(新しいタブで開きます) も参加します。この成長は、開発者が OpenRouter での構築を好むという単純な事実を反映しています。 OpenRouter がその層です。
 
 
-🔤 Original: Anthropic surpasses OpenAI to become most valuable AI startup
+🔤 Original: OpenRouter raises $113M Series B
 
-🔗 Read more: https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup</description>
-      <guid isPermaLink="true">https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup</guid>
-      <pubDate>Sat, 30 May 2026 13:56:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336233</comments>
+🔗 Read more: https://openrouter.ai/announcements/series-b</description>
+      <guid isPermaLink="true">https://openrouter.ai/announcements/series-b</guid>
+      <pubDate>Sat, 30 May 2026 17:27:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338660</comments>
     </item>
     <item>
-      <title>ボクセル空間</title>
-      <link>https://s-macke.github.io/VoxelSpace/</link>
-      <description>📝 したがって、ボクセル空間エンジンは 2 です。ボクセル空間エンジンは色を取得するだけで、レンダリング プロセス中に照明を計算する必要はありません。ボクセル スペース エンジンは、高さとカラー マップをラスター化し、垂直線を描画します。
+      <title>Zig ELF リンカーの改善開発ブログ</title>
+      <link>https://ziglang.org/devlog/2026/#2026-05-30</link>
+      <description>📝 [mlugg@nebula master]$ # 新しいリンカーを使用して Zig コンパイラをビルドします: [mlugg@nebula master]$ zig build -Dno-lib -Dnew-linker -Denable-llvm [mlugg@nebula master]$ # そのコンパイラを使用して LLVM および LLD を使用して何かをビルドします: [mlugg@nebula master]$。ああ、高速増分リビルドは Zig コンパイラ自体でもうまく動作します:[mlugg@nebula master]$ zig build -Dno-lib -Denable-llvm -fincremental --watch ビルド概要: 4/4 ステップ成功 インストール成功 └─ zig インストール成功 └─ exe zig コンパイル デバッグネイティブ成功 36s ビルド概要: 4/4 ステップ成功 インストール成功 └─ zig インストール成功 └─ exe コンパイルzig デバッグ ネイティブ成功 244 ミリ秒 ビルド サマリー: 4/4 ステップ成功、インストール成功 └─ zig インストール成功 └─ exe コンパイル zig デバッグ ネイティブ成功 228ms ビルド サマリー: 4/4 ステップ成功、インストール成功 └─ zig インストール成功 └─ exe コンパイル zig デバッグ ネイティブ成功 288ms ビルド サマリー: 4/4 ステップ成功、インストール成功 └─ zig インストール成功 └─ exe コンパイルzig デバッグ ネイティブ成功 283 ミリ秒 このリンカー実装に現時点で欠けている最大の機能は、Zig コードの DWARF デバッグ情報の生成がまだサポートされていないことです。これは間違いなく私の次の優先事項です。次に、メーカー プロセスは、シリアル化された構成ファイル内に含まれるビルド グラフを実行します。
 
 
-🔤 Original: Voxel Space
+🔤 Original: Zig ELF Linker Improvements Devlog
 
-🔗 Read more: https://s-macke.github.io/VoxelSpace/</description>
-      <guid isPermaLink="true">https://s-macke.github.io/VoxelSpace/</guid>
-      <pubDate>Sat, 30 May 2026 14:25:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336564</comments>
+🔗 Read more: https://ziglang.org/devlog/2026/#2026-05-30</description>
+      <guid isPermaLink="true">https://ziglang.org/devlog/2026/#2026-05-30</guid>
+      <pubDate>Sat, 30 May 2026 17:29:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338673</comments>
     </item>
     <item>
-      <title>AI の仕事の悲しみ: テクノロジー労働者を襲う名前のない精神的危機</title>
-      <link>https://jackmaguire.org/blog/ai-job-grief/</link>
-      <description>📝 そのスレッドは異常値ではありません。多くの人がまだ完全には届いていない喪失を悲しんでいます。人員削減は日常的なビジネス上の決定として位置づけられており、社会的に認められた悲しみの余地がないため、その悲しみは構造的に抑圧されている。
+      <title>ホルムズ危機の副作用：コンテナ輸送料金の高騰</title>
+      <link>https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</link>
+      <description>📝 バンカー燃料コスト上昇の影響 「中東の地政学的な緊張がセンチメントの重しとなっており、バンカーコストの上昇と燃油サーチャージが貿易レーン全体に上昇圧力を加えている」とドリューリー氏は述べた。パスアロング燃料コストもピークシーズンのタイミングに影響を及ぼし、スポット料金をさらに押し上げている可能性があります。ブレント価格が上昇すれば、燃料油のコストと荷主の燃油サーチャージも上昇するだろう。
 
 
-🔤 Original: AI Job Grief: The Unnamed Psychological Crisis Hitting Tech Workers
+🔤 Original: Hormuz crisis side effect: a sharp rise in container shipping rates
 
-🔗 Read more: https://jackmaguire.org/blog/ai-job-grief/</description>
-      <guid isPermaLink="true">https://jackmaguire.org/blog/ai-job-grief/</guid>
-      <pubDate>Sat, 30 May 2026 14:41:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336760</comments>
+🔗 Read more: https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</description>
+      <guid isPermaLink="true">https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</guid>
+      <pubDate>Sat, 30 May 2026 18:19:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48339180</comments>
     </item>
     <item>
-      <title>閉経後の記憶力の低下は脳内のエストロゲン産生の喪失に関連している</title>
-      <link>https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue</link>
-      <description>📝 研究によると、アルツハイマー病の女性は、アルツハイマー病のない女性と比較して、脳内のエストロゲンレベルがさらに低い可能性があることが示されています。この研究はそれをさらに裏付けています。 「エストロゲンが女性の脳にどのような影響を与えるのか、そしてなぜエストロゲンの減少により女性のアルツハイマー病リスクが増加するのかを理解するには、さらなる研究が必要です」とZhao氏は述べた。
+      <title>Intel 8087 浮動小数点チップ内のマイクロコード: レジスタ交換</title>
+      <link>https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</link>
+      <description>📝 Intel 8087 浮動小数点チップ内のマイクロコード: レジスタ交換 1980 年、Intel は、浮動小数点演算を最大 100 倍高速化するコプロセッサである 8087 浮動小数点チップを導入しました。大きなマイクロコード ROM が中央の位置を占め、チップを制御するマイクロ命令が保持されています。 8087 マイクロ命令の構造。
 
 
-🔤 Original: Memory decline after menopause linked to loss of estrogen production in brain
+🔤 Original: Microcode inside the Intel 8087 floating-point chip: register exchange
 
-🔗 Read more: https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue</description>
-      <guid isPermaLink="true">https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue</guid>
-      <pubDate>Sat, 30 May 2026 14:03:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336312</comments>
+🔗 Read more: https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</description>
+      <guid isPermaLink="true">https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</guid>
+      <pubDate>Sat, 30 May 2026 17:27:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338656</comments>
     </item>
     <item>
-      <title>教皇訪問を通じてレバノンのすべての道路を修復するための確率的アルゴリズム</title>
-      <link>https://sigbovik.org/2026/proceedings.pdf#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C720%2Cnull%5D</link>
-      <description>📝 3 ٛ � � |k}�U�M� �QQ�rXT� � b�&lt;�n�'F��o͛O�;���~ 0��a��F'�{�\�� el� 4�3�u� �_t�endstream endobj 251 0 obj 995 endobj 276 0 obj &lt;&gt; ストリーム x�-� �0 C� �0p�%i�"X�@� S CA�/єʃ-�z. �s���'���b��1����'ɲ I &amp;V� �l�s� �'� Q [�y��e��� ��h�z/g:�� ��%�endstream endobj 277 0 obj 140 endobj 292 0 obj &lt;&gt; stream x��Vɒ�6 ��Q_��#��`l�r��k��d�3�}���. �n�~M�%eendstream endobj 308 0 obj 140 endobj 312 0 obj &lt;&gt; stream x��\�r ƕ�# � �^��:��A;H$MZ&amp;)������ "H�h��0��A {������7�nN�G�2%9 .
+      <title>EU の主権について話しましょう (2025 年)</title>
+      <link>https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</link>
+      <description>📝 もちろんそれ以上ですが、それが状況の根底にある前提です。この t-systems の Google ソブリン クラウドについてはどうでしょうか。同じ問題があります。 AWS/Google/MS のソブリン クラウド関連企業はこれにどのように対処しますか。
 
 
-🔤 Original: A Probabilistic Algorithm for Repairing All Roads in Lebanon via Papal Visits
+🔤 Original: Let's talk about EU Sovereignty (2025)
 
-🔗 Read more: https://sigbovik.org/2026/proceedings.pdf#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C720%2Cnull%5D</description>
-      <guid isPermaLink="true">https://sigbovik.org/2026/proceedings.pdf#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C720%2Cnull%5D</guid>
-      <pubDate>Sat, 30 May 2026 15:15:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48337137</comments>
+🔗 Read more: https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</description>
+      <guid isPermaLink="true">https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</guid>
+      <pubDate>Sat, 30 May 2026 17:49:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338887</comments>
+    </item>
+    <item>
+      <title>ヴェルナー・ヘルツォークとポール・クローニンの会話 (2014)</title>
+      <link>https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</link>
+      <description>📝 文化 ヴェルナー・ヘルツォークとポール・クローニンの会話 前のページ 次のページ ヴェルナー・ヘルツォークについて聞いたことのほとんどは真実ではありません。新しいウィンドウで開きます 新しいウィンドウで開きます 新しいウィンドウで開きます 新しいウィンドウで開きます 新しいウィンドウで開きます 新しいウィンドウで開きます 新しいウィンドウで開きます ポール・クローニン: 数年前のインタビュー中に、誰かがあなたを撃ちました。ニューヨークは何よりも金融に関心を持っています。
+
+
+🔤 Original: Werner Herzog in conversation with Paul Cronin (2014)
+
+🔗 Read more: https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</description>
+      <guid isPermaLink="true">https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</guid>
+      <pubDate>Sat, 30 May 2026 16:13:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48337808</comments>
+    </item>
+    <item>
+      <title>アーンスト・アンド・ヤングが幻覚だらけのサイバーセキュリティ報告書を発表</title>
+      <link>https://gptzero.me/investigations/ey</link>
+      <description>📝 このパスには Wired 記事が存在しません。 Forbes – 2,000 億ドルのロイヤルティ エコノミー経済的に重要なデジタル資産としてのロイヤルティ プログラムのビジネス ケース。この2020年のフォーブス記事では「2,000億ドルのロイヤルティエコノミー」というフレーズが使われています。
+
+
+🔤 Original: Ernst &amp; Young published cybersecurity report full of hallucinations
+
+🔗 Read more: https://gptzero.me/investigations/ey</description>
+      <guid isPermaLink="true">https://gptzero.me/investigations/ey</guid>
+      <pubDate>Sat, 30 May 2026 19:02:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48339580</comments>
+    </item>
+    <item>
+      <title>Downdetector と Speedtest が 12 億ドルでアクセンチュアに売却</title>
+      <link>https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</link>
+      <description>📝 Ziff Davis は 20 億ドルで 2 つのサイトをコンサルティングおよび IT サービスプロバイダーの Accenture に売却しました。 Ziff Davis は 2 つのサイトをコンサルティングおよび IT サービス プロバイダーの Accenture に売却しました。プレスリリースの中で、アクセンチュアの最高経営責任者（CEO）ジュリー・スウィート氏は、同社がOoklaの製品を使用してデータを取得し、「企業や政府の顧客がAIを安全に拡張できるようにする」と述べた。
+
+
+🔤 Original: Downdetector and Speedtest sold to Accenture for $1.2B
+
+🔗 Read more: https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</description>
+      <guid isPermaLink="true">https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</guid>
+      <pubDate>Sat, 30 May 2026 16:28:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48337987</comments>
+    </item>
+    <item>
+      <title>HN に聞く: 2026 年のアプリ開発の状況はどうなっていますか?</title>
+      <link>https://news.ycombinator.com/item?id=48337409</link>
+      <description>📝 純粋な IOS/Android アプリ開発の世界で何が起こっているのか。 AI/LLM はアプリ開発にどのような影響を与えますか。現在、アプリ開発のみのキャリアはどのようなものになるでしょうか。
+
+
+🔤 Original: Ask HN: What Is the State of App Development in 2026?
+
+🔗 Read more: https://news.ycombinator.com/item?id=48337409</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48337409</guid>
+      <pubDate>Sat, 30 May 2026 15:41:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48337409</comments>
     </item>
   </channel>
 </rss>

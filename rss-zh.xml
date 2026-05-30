@@ -6,73 +6,125 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 May 2026 16:05:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 19:16:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Anthropic 超越 OpenAI 成为最有价值的人工智能初创公司</title>
-      <link>https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup</link>
-      <description>📝 Anthropic 超越 OpenAI 成为全球最有价值的人工智能初创公司 2026 年 5 月 30 日 13:21 Anthropic 成为全球最有价值的人工智能初创公司，市场估值超过 OpenAI。与此同时，Anthropic 推出了新的人工智能模型 Claude Opus 4。3 月份，OpenAI 在创纪录的 1220 亿美元融资后估值达到 8520 亿美元。
+      <title>OpenRouter 筹集 1.13 亿美元 B 轮融资</title>
+      <link>https://openrouter.ai/announcements/series-b</link>
+      <description>📝 OpenRouter 筹集了 1.13 亿美元的 B 轮融资 OpenRouter · 5/28/2026 今天，我们宣布完成 1.13 亿美元的 B 轮融资，该轮融资由 CapitalG(opens in new tab)（Alphabet 的独立成长基金）领投，参与方包括 NVentures(opens in new tab)（NVIDIA 的风险投资部门）、ServiceNow(opens in new tab) Ventures、MongoDB(opens in new tab) Ventures、 Snowflake（在新选项卡中打开） Ventures、Databricks（在新选项卡中打开） Ventures、AMP PBC（在新选项卡中打开）和 Pace Capital（在新选项卡中打开），以及我们现有的投资者 Andreessen Horowitz（在新选项卡中打开）和 Menlo Ventures（在新选项卡中打开）。这种增长反映了一个简单的事实：开发人员喜欢在 OpenRouter 上进行构建。 OpenRouter 就是这一层。
 
 
-🔤 Original: Anthropic surpasses OpenAI to become most valuable AI startup
+🔤 Original: OpenRouter raises $113M Series B
 
-🔗 Read more: https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup</description>
-      <guid isPermaLink="true">https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup</guid>
-      <pubDate>Sat, 30 May 2026 13:56:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336233</comments>
+🔗 Read more: https://openrouter.ai/announcements/series-b</description>
+      <guid isPermaLink="true">https://openrouter.ai/announcements/series-b</guid>
+      <pubDate>Sat, 30 May 2026 17:27:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338660</comments>
     </item>
     <item>
-      <title>体素空间</title>
-      <link>https://s-macke.github.io/VoxelSpace/</link>
-      <description>📝 因此，Voxel Space 引擎是 2。Voxel Space 引擎仅获取颜色，无需在渲染过程中计算照明。体素空间引擎对高度和颜色图进行光栅化并绘制垂直线。
+      <title>Zig ELF 链接器改进开发日志</title>
+      <link>https://ziglang.org/devlog/2026/#2026-05-30</link>
+      <description>📝 [mlugg@nebula master]$ # 使用新的链接器构建 Zig 编译器： [mlugg@nebula master]$ zig build -Dno-lib -Dnew-linker -Denable-llvm [mlugg@nebula master]$ # 使用该编译器通过 LLVM 和 LLD 构建某些内容：[mlugg@nebula master]$。哦，快速增量重建在 Zig 编译器本身上也能很好地工作：[mlugg@nebula master]$ zig build -Dno-lib -Denable-llvm -fincremental --watch 构建摘要：4/4 步骤成功安装成功└─安装 zig 成功└─编译 exe zig 调试本机成功 36s 构建摘要：4/4 步骤成功安装成功└─安装 zig 成功└─编译 exe zig 调试本机成功 244ms 构建摘要：4/4 步成功 安装成功 └─ 安装 zig 成功 └─ 编译 exe zig 调试本机成功 228ms 构建摘要：4/4 步成功 安装成功 └─ 安装 zig 成功 └─ 编译 exe zig 调试本机成功 288ms 构建摘要：4/4 步成功 安装成功 └─ 安装 zig 成功 └─ 编译 exe zig 调试本机成功 283ms 目前此链接器实现最大的缺失功能是它仍然不支持为 Zig 代码生成 DWARF 调试信息 — 这绝对是我的下一个优先事项。然后，创建者进程执行构建图，该图包含在序列化配置文件中。
 
 
-🔤 Original: Voxel Space
+🔤 Original: Zig ELF Linker Improvements Devlog
 
-🔗 Read more: https://s-macke.github.io/VoxelSpace/</description>
-      <guid isPermaLink="true">https://s-macke.github.io/VoxelSpace/</guid>
-      <pubDate>Sat, 30 May 2026 14:25:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336564</comments>
+🔗 Read more: https://ziglang.org/devlog/2026/#2026-05-30</description>
+      <guid isPermaLink="true">https://ziglang.org/devlog/2026/#2026-05-30</guid>
+      <pubDate>Sat, 30 May 2026 17:29:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338673</comments>
     </item>
     <item>
-      <title>人工智能工作悲伤：科技工作者遭遇的无名心理危机</title>
-      <link>https://jackmaguire.org/blog/ai-job-grief/</link>
-      <description>📝 该线程不是异常值。许多人正在哀悼尚未完全到来的损失。这种悲伤在结构上受到抑制，因为裁员被视为例行的商业决策，没有留下社会认可的哀悼空间。
+      <title>霍尔木兹危机副作用：集装箱运费大幅上涨</title>
+      <link>https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</link>
+      <description>📝 燃油成本上涨的影响“中东地缘政治紧张局势正在打压市场情绪，燃油成本和燃油附加费上涨增加了整个贸易航线的上行压力，”德鲁里表示。转嫁燃料成本也可能影响旺季时间，进一步提高即期价格。如果布伦特原油价格走高，燃油成本和托运人燃油附加费也会上涨。
 
 
-🔤 Original: AI Job Grief: The Unnamed Psychological Crisis Hitting Tech Workers
+🔤 Original: Hormuz crisis side effect: a sharp rise in container shipping rates
 
-🔗 Read more: https://jackmaguire.org/blog/ai-job-grief/</description>
-      <guid isPermaLink="true">https://jackmaguire.org/blog/ai-job-grief/</guid>
-      <pubDate>Sat, 30 May 2026 14:41:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336760</comments>
+🔗 Read more: https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</description>
+      <guid isPermaLink="true">https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</guid>
+      <pubDate>Sat, 30 May 2026 18:19:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48339180</comments>
     </item>
     <item>
-      <title>绝经后记忆力下降与大脑雌激素分泌减少有关</title>
-      <link>https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue</link>
-      <description>📝 研究表明，与未患 AD 的女性相比，患有 AD 的女性大脑中的雌激素水平可能更低。这项研究进一步支持了这一点。赵说：“需要更多的研究来了解雌激素如何影响女性大脑以及雌激素缺失为何会增加女性 AD 风险。”
+      <title>Intel 8087浮点芯片内部的微代码：寄存器交换</title>
+      <link>https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</link>
+      <description>📝 Intel 8087 浮点芯片内部的微代码：寄存器交换 1980 年，Intel 推出了 8087 浮点芯片，这是一种协处理器，可将浮点运算速度提高 100 倍。大型微代码ROM占据中心位置，保存控制芯片的微指令。 8087 微指令的结构。
 
 
-🔤 Original: Memory decline after menopause linked to loss of estrogen production in brain
+🔤 Original: Microcode inside the Intel 8087 floating-point chip: register exchange
 
-🔗 Read more: https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue</description>
-      <guid isPermaLink="true">https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue</guid>
-      <pubDate>Sat, 30 May 2026 14:03:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48336312</comments>
+🔗 Read more: https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</description>
+      <guid isPermaLink="true">https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</guid>
+      <pubDate>Sat, 30 May 2026 17:27:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338656</comments>
     </item>
     <item>
-      <title>通过教皇访问修复黎巴嫩所有道路的概率算法</title>
-      <link>https://sigbovik.org/2026/proceedings.pdf#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C720%2Cnull%5D</link>
-      <description>📝 3 ٛ � � |k}�U�M� QQ�rXT�� � b�&lt;�n��'F��o͛O�;���~ 0��a��F'�{�\�� el� 4�3�u� �_t�endstream endobj 251 0 obj 995 endobj 276 0 obj &lt;&gt; 流 x�-�� �0 C�� �0p�%i�"X�@� S CA��/єʃ-�z.�s��'���b��1���'ɲ I &amp;V� ��l��s� �'� Q [�y���e��� ��h�z/g:��� ��%�endstream endobj 277 0 obj 140 endobj 292 0 obj &lt;&gt; 流x��Vɒ�6 ��Q_�#��`l�r��k�d�3�}��.n�~M�%eendstream endobj 308 0 obj 140 endobj 312 0 obj &lt;&gt; 流 x��\�r Ǖ�# � �^��:��A;H$MZ&amp;)�� m "H�h�0�A {������7��nN�G�2%9 .
+      <title>让我们来谈谈欧盟主权（2025）</title>
+      <link>https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</link>
+      <description>📝 当然，事情远不止这些，但这是造成这种情况的前提。这个 t-systems 谷歌主权云怎么样，那里也有同样的问题。 AWS/Google/MS 主权云如何处理这个问题。
 
 
-🔤 Original: A Probabilistic Algorithm for Repairing All Roads in Lebanon via Papal Visits
+🔤 Original: Let's talk about EU Sovereignty (2025)
 
-🔗 Read more: https://sigbovik.org/2026/proceedings.pdf#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C720%2Cnull%5D</description>
-      <guid isPermaLink="true">https://sigbovik.org/2026/proceedings.pdf#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C720%2Cnull%5D</guid>
-      <pubDate>Sat, 30 May 2026 15:15:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48337137</comments>
+🔗 Read more: https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</description>
+      <guid isPermaLink="true">https://musings.martyn.berlin/lets-talk-about-eu-sovereignty</guid>
+      <pubDate>Sat, 30 May 2026 17:49:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48338887</comments>
+    </item>
+    <item>
+      <title>沃纳·赫尔佐格对话保罗·克罗宁 (2014)</title>
+      <link>https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</link>
+      <description>📝 文化 维尔纳·赫尔佐格 (Werner Herzog) 与保罗·克罗宁 (Paul Cronin) 对话 上一页 下一页 我们所听到的关于维尔纳·赫尔佐格 (Werner Herzog) 的大多数说法都是不真实的。在新窗口中打开 在新窗口中打开 在新窗口中打开 在新窗口中打开 在新窗口中打开 在新窗口中打开 在新窗口中打开 保罗·克罗宁：几年前的一次采访中，有人向你开枪。纽约最关心的是金融。
+
+
+🔤 Original: Werner Herzog in conversation with Paul Cronin (2014)
+
+🔗 Read more: https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</description>
+      <guid isPermaLink="true">https://fsgworkinprogress.com/2014/09/26/insignificant-bullets-evil-poachers-and-l-a-culture/</guid>
+      <pubDate>Sat, 30 May 2026 16:13:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48337808</comments>
+    </item>
+    <item>
+      <title>安永发布充满幻觉的网络安全报告</title>
+      <link>https://gptzero.me/investigations/ey</link>
+      <description>📝 此路径不存在《连线》文章。福布斯 – 价值 2000 亿美元的忠诚度经济将忠诚度计划作为具有重要财务意义的数字资产的商业案例。这篇 2020 年《福布斯》文章使用了“2000 亿美元忠诚度经济”这一短语。
+
+
+🔤 Original: Ernst &amp; Young published cybersecurity report full of hallucinations
+
+🔗 Read more: https://gptzero.me/investigations/ey</description>
+      <guid isPermaLink="true">https://gptzero.me/investigations/ey</guid>
+      <pubDate>Sat, 30 May 2026 19:02:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48339580</comments>
+    </item>
+    <item>
+      <title>DownDetector 和 Speedtest 以 $1.2B 的价格出售给埃森哲</title>
+      <link>https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</link>
+      <description>📝 20亿美元Ziff Davis将这两个网站卖给了咨询和IT服务提供商埃森哲。 Ziff Davis 将这两个站点出售给咨询和 IT 服务提供商 Accenture。在新闻稿中，埃森哲首席执行官朱莉·斯威特表示，该公司将使用 Ookla 的产品来捕获数据，以帮助“跨企业和政府的客户安全地扩展人工智能”。
+
+
+🔤 Original: Downdetector and Speedtest sold to Accenture for $1.2B
+
+🔗 Read more: https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</description>
+      <guid isPermaLink="true">https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture</guid>
+      <pubDate>Sat, 30 May 2026 16:28:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48337987</comments>
+    </item>
+    <item>
+      <title>问 HN：2026 年应用程序开发状况如何？</title>
+      <link>https://news.ycombinator.com/item?id=48337409</link>
+      <description>📝 纯 IOS/Android 应用程序开发领域正在发生什么。 AI/LLM 如何影响应用程序开发。如今，仅从事应用程序开发的职业是什么样的？
+
+
+🔤 Original: Ask HN: What Is the State of App Development in 2026?
+
+🔗 Read more: https://news.ycombinator.com/item?id=48337409</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48337409</guid>
+      <pubDate>Sat, 30 May 2026 15:41:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48337409</comments>
     </item>
   </channel>
 </rss>
