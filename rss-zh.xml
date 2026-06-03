@@ -6,207 +6,211 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 16:49:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 20:57:34 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Gemma 4 12B：统一的、无编码器的多模态模型</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</link>
-      <description>📝 com Facebook LinkedIn Mail 复制链接 Gemma 4 12B 旨在将高性能多模式智能直接带入您的笔记本电脑，将移动优先效率与先进推理相结合。使用 Gemma 技能解锁代理开发：为了支持代理使用最新的 Gemma 进步进行构建，我们发布了官方技能存储库。这是一个专门为使代理能够使用 Gemma 模型进行构建而设计的技能库。
+      <title>Elixir v1.20：现在是一种逐渐类型化的语言</title>
+      <link>https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/</link>
+      <description>📝 20 号，我们已经完成了第一个开发里程碑，即执行类型推断并逐步对每个 Elixir 程序进行类型检查，而无需引入类型注释。 Dynamic() 类型 许多渐进类型系统都有 any() 类型，从类型系统的角度来看，它通常意味着“任何事情都会发生”，并且不会报告类型违规。因此，Elixir的渐进类型系统将上面的value_or_error变量标记为dynamic(integer()或binary())类型，这意味着运行时类型要么是integer()要么是binary()。
 
 
-🔤 Original: Gemma 4 12B: A unified, encoder-free multimodal model
+🔤 Original: Elixir v1.20: Now a gradually typed language
 
-🔗 Read more: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</description>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</guid>
-      <pubDate>Wed, 03 Jun 2026 16:04:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48385906</comments>
+🔗 Read more: https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/</description>
+      <guid isPermaLink="true">https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/</guid>
+      <pubDate>Wed, 03 Jun 2026 19:02:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48388324</comments>
     </item>
     <item>
-      <title>达芬奇决心21</title>
-      <link>https://www.blackmagicdesign.com/products/davinciresolve/whatsnew</link>
-      <description>📝 DaVinci Resolve 21 新增功能 DaVinci Resolve 免费下载 购物车图标 DaVinci Resolve Studio 立即在线购买 295 美元 DaVinci Resolve 21 引入了照片页面，将好莱坞最先进的色彩工具引入静态摄影。使用 AI CineFocus 调整焦距之前 使用 AI CineFocus 定义镜头的焦点。支持达芬奇色彩工具 现在您可以轻松使用传奇的达芬奇色彩页面工具来处理静态图像。
+      <title>我最近被诊断出患有抗NMDA受体脑炎</title>
+      <link>https://burntsushi.net/encephalitis/</link>
+      <description>📝 我最近被诊断出患有抗NMDA受体脑炎。我的平衡也有问题。有人猜测，抗 NMDA 受体脑炎可以部分解释过去关于恶魔附身的说法。
 
 
-🔤 Original: DaVinci Resolve 21
+🔤 Original: I was recently diagnosed with anti-NMDA receptor encephalitis
 
-🔗 Read more: https://www.blackmagicdesign.com/products/davinciresolve/whatsnew</description>
-      <guid isPermaLink="true">https://www.blackmagicdesign.com/products/davinciresolve/whatsnew</guid>
-      <pubDate>Wed, 03 Jun 2026 14:18:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48384482</comments>
+🔗 Read more: https://burntsushi.net/encephalitis/</description>
+      <guid isPermaLink="true">https://burntsushi.net/encephalitis/</guid>
+      <pubDate>Wed, 03 Jun 2026 14:10:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48384355</comments>
     </item>
     <item>
-      <title>使用扬声器入侵您的电脑而无需触摸它</title>
-      <link>https://blog.nns.ee/2026/06/03/katana-badusb/</link>
-      <description>📝 这使我的设备免于多次变砖，对此我非常感激。第二部分是FMAIN，它是设备的主要固件。当您“正常”启动设备时，它将运行。
+      <title>Gooey：Zig 的 GPU 加速 UI 框架</title>
+      <link>https://github.com/duanebester/gooey</link>
+      <description>📝 Zig（zig 构建运行-todo）。 const std = @import("std"); const gooey = @import("gooey"); const ui = 粘糊糊的。按钮; const 复选框 = 粘糊糊的。
 
 
-🔤 Original: Hacking your PC using your speaker without ever touching it
+🔤 Original: Gooey: A GPU-accelerated UI framework for Zig
 
-🔗 Read more: https://blog.nns.ee/2026/06/03/katana-badusb/</description>
-      <guid isPermaLink="true">https://blog.nns.ee/2026/06/03/katana-badusb/</guid>
-      <pubDate>Wed, 03 Jun 2026 10:53:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48382310</comments>
+🔗 Read more: https://github.com/duanebester/gooey</description>
+      <guid isPermaLink="true">https://github.com/duanebester/gooey</guid>
+      <pubDate>Wed, 03 Jun 2026 17:12:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48386725</comments>
     </item>
     <item>
-      <title>让我们加密的后量子未来</title>
-      <link>https://letsencrypt.org/2026/06/03/pq-certs</link>
-      <description>📝 27.0.27 将 NIST 标准化后量子签名方案 ML-DSA 添加到标准库中，这标志着后量子签名正在成为实用的基础设施。 RSA-2048 签名为 256 字节，ECDSA-P256 签名为 64 字节。较大的握手会影响每个 TLS 连接，而不仅仅是那些失败的连接。
+      <title>Uber 每月 1,500 美元的人工智能限额对于人工智能工具定价来说是一个有用的信号</title>
+      <link>https://simonwillison.net/2026/Jun/3/uber-caps-usage/</link>
+      <description>📝 最近的文章 Claude Opus 4. 8：“适度但切实的改进” - 2026 年 5 月 28 日 我认为 Anthropic 和 OpenAI 已经找到了产品市场契合点 - 2026 年 5 月 27 日 关于教皇利奥十四世关于人工智能的通谕的注释 - 2026 年 5 月 25 日。
 
 
-🔤 Original: A Post-Quantum Future for Let's Encrypt
+🔤 Original: Uber's $1,500/month AI limit is a useful signal for AI tool pricing
 
-🔗 Read more: https://letsencrypt.org/2026/06/03/pq-certs</description>
-      <guid isPermaLink="true">https://letsencrypt.org/2026/06/03/pq-certs</guid>
-      <pubDate>Wed, 03 Jun 2026 15:06:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48385114</comments>
+🔗 Read more: https://simonwillison.net/2026/Jun/3/uber-caps-usage/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jun/3/uber-caps-usage/</guid>
+      <pubDate>Wed, 03 Jun 2026 12:25:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48383056</comments>
     </item>
     <item>
-      <title>ESP32-S31</title>
-      <link>https://www.espressif.com/en/products/socs/esp32-s31</link>
-      <description>📝 主页 硬件产品概述SoC 模块 开发套件Espressif M5Stack 设备 产品选择器 ESP32-WrapESP32-PESP32-P4 ESP32-EESP32-E22 ESP32-SESP32-S31 ESP32-S3 ESP32-S2 ESP32-CESP32-C6 ESP32-C61 ESP32-C5 ESP32-C3 ESP32-C2 ESP32-HESP32-H4 ESP32-H21 ESP32-H2 ESP32ESP32 ESP8266ESP8266 SDK通用框架 ESP-IDF IDF 组件管理器 ESP-IoT-Solution AI ESP-SR ESP-WHO ESP-DL ESP-NN 物联网和多媒体 ESP-Brookesia ESP-GMF ESP-ADF 连接协处理器ESP 托管 ESP-AT ESP-IoT-Bridge 网络和协议 ESP-Matter SDK ESP-Mesh-Lite ESP-BLE-MESH ESP HomeKit SDK 第三方生态系统 ESP-Arduino Zephyr® for Espressif Cloud特殊菜单ESP RainMaker® ESP Insights 云菜单ESP RainMaker®主页产品简介技术博客客户案例 ESP Insights主页技术博客入门仪表板云服务维护和迭代工具支持 咨询和定制 开发资源入门 GitHub 存储库 客户端 APPsNova 主页（提供源代码） ESP RainMaker（完全开源）仪表板（公共）解决方案集成Matter Fabric ESP-Mesh-Lite AWS IoT ExpressLink 解决方案特殊菜单ESP Matter 产品安全解决方案菜单AI 解决方案ESP 私人代理平台聊天编码 AI 代理框架大语言模型 (LLM) 解决方案音频解决方案ESP 音频前端算法 HMISmart 显示器低功耗解决方案无线通信协议 (ESP-NOW) ESP 智能交换机解决方案设备连接远程调试平台 (ESP Insights) ACK 解决方案 (Alexa Connect Kit) ACS 解决方案 (Amazon 通用软件) ESP AWS IoT ExpressLink 解决方案外设设备驱动程序 USB 解决方案智能传感Wi-Fi CSI 传感 Wi-Fi FTM 测距支持技术文档所有类型 SoC 模块 DevKit 设备服务自助服务资源 软件硬件和 RF 云认证 制造现场协助下载技术文档 SDK 和演示 APP 工具 ESP-AT 质量和可靠性认证与合规性 PCN 咨询 长期承诺 出口合规性 ISO 认证常见问题解答ESP-FAQ 商业常见问题解答 生态系统合作伙伴和资源AWS 技术合作伙伴 第三方合作 第三方 SDK 教育 ESP 教育开发者专区 ESP 开发者门户 乐鑫 DevCon M5Stack 技术博客 ESP32 论坛 社区课程 Rust 书籍 视频 项目 公司关于我们关于乐鑫 里程碑 CEO 致辞 标志指南 新闻室新闻简讯 科技博客 活动 投资者关系报告 投资者查询 企业责任报告 野生动物保护 加入我们乐鑫职业 寻找您的工作 联系方式联系乐鑫销售 联系经销商 技术咨询 原理图和 PCB 设计审查 获取样品 成为我们的供应商 评论和建议。
+      <title>推出 HN：Hyper (YC P26) – 公司大脑推动代理开发</title>
+      <link>https://news.ycombinator.com/item?id=48387095</link>
+      <description>📝 Hyper 是一个共享的“公司大脑”，可以插入公司内部流动的信息，使人工智能代理和自动化变得更好，并最终节省人们的时间。这就是我们构建 Hyper 的原因。我们通过网络钩子（存在的地方）和轮询（不存在的地方）来保持信息新鲜，对内容进行散列以捕获不处理本机重复数据删除的源的更改。
 
-🔗 Read more: https://www.espressif.com/en/products/socs/esp32-s31</description>
-      <guid isPermaLink="true">https://www.espressif.com/en/products/socs/esp32-s31</guid>
-      <pubDate>Wed, 03 Jun 2026 16:10:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48385965</comments>
+
+🔤 Original: Launch HN: Hyper (YC P26) – Company brain to power agentic development
+
+🔗 Read more: https://news.ycombinator.com/item?id=48387095</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48387095</guid>
+      <pubDate>Wed, 03 Jun 2026 17:39:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48387095</comments>
     </item>
     <item>
-      <title>Meta 工作人员可以选择在工作时不被跟踪，最多 30 分钟</title>
-      <link>https://www.bbc.com/news/articles/c93x0k194yno</link>
-      <description>📝 今年 4 月，该公司宣布一款新工具将记录员工的击键和鼠标点击来训练其人工智能模型，随后遭到了员工的批评。 Meta 今年已解雇了约 2,000 名员工。这一变化是在有报道称员工发现该工具消耗大量数据导致他们在家工作时互联网使用量激增之后做出的。
+      <title>角 v22</title>
+      <link>https://blog.angular.dev/announcing-angular-v22-c52bb83a4664</link>
+      <description>📝 添加对 Angular Material 和 Angular Aria 的支持，为开发人员提供了更多集成表单的选择。考虑到这一点，Angular Aria 的可访问性模式集正在 Angular v22 中投入生产。现在，开发人员可以放心地使用 Angular Aria 将他们的组件交付给用户。
 
 
-🔤 Original: Meta workers can opt out of being tracked at work up to 30 min
+🔤 Original: Angular v22
 
-🔗 Read more: https://www.bbc.com/news/articles/c93x0k194yno</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c93x0k194yno</guid>
-      <pubDate>Wed, 03 Jun 2026 12:42:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48383220</comments>
+🔗 Read more: https://blog.angular.dev/announcing-angular-v22-c52bb83a4664</description>
+      <guid isPermaLink="true">https://blog.angular.dev/announcing-angular-v22-c52bb83a4664</guid>
+      <pubDate>Wed, 03 Jun 2026 16:51:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48386463</comments>
     </item>
     <item>
-      <title>每个字节都很重要</title>
-      <link>https://fzakaria.com/2026/06/01/every-byte-matters</link>
-      <description>📝 我们的缓存行大小是 64 字节。 35 KiB ÷ 64 字节 = 560 条缓存线。每个缓存行都会填充一个怪物，我们只会获取 is_alive 字节。
-
-
-🔤 Original: Every Byte Matters
-
-🔗 Read more: https://fzakaria.com/2026/06/01/every-byte-matters</description>
-      <guid isPermaLink="true">https://fzakaria.com/2026/06/01/every-byte-matters</guid>
-      <pubDate>Wed, 03 Jun 2026 11:04:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48382382</comments>
+      <title>Rootshell：冰岛托管的新 E2EE 电子邮件服务</title>
+      <link>https://rootshell.is</link>
+      <guid isPermaLink="true">https://rootshell.is</guid>
+      <pubDate>Wed, 03 Jun 2026 18:58:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48388253</comments>
     </item>
     <item>
-      <title>PlayStation架构</title>
-      <link>https://www.copetti.org/writings/consoles/playstation/</link>
-      <description>📝 那个时代的新例子包括： MIPS：由 Silicon Graphics Incorporated 采用（针对图形工作站）。 MIPS计算机系统起源于其创始人（斯坦福大学教员）的渴望，他们热衷于将他们的研究成果转化为物理处理器。他们的产品之一是。
+      <title>Skyvern (YC S23) 正在招聘热爱开源的 DevRel 工程师</title>
+      <link>https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai</link>
+      <description>📝 问题是：没有足够的开发人员看到它。对产品有足够深入的了解，能够演示它、解释它并制作能够真正引起技术受众共鸣的内容的人。发送您最好的内容——视频、话题、帖子、活动。
 
 
-🔤 Original: PlayStation Architecture
+🔤 Original: Skyvern (YC S23) Is Hiring Open-Source Loving DevRel Engineers
 
-🔗 Read more: https://www.copetti.org/writings/consoles/playstation/</description>
-      <guid isPermaLink="true">https://www.copetti.org/writings/consoles/playstation/</guid>
-      <pubDate>Wed, 03 Jun 2026 10:24:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48382142</comments>
+🔗 Read more: https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai</guid>
+      <pubDate>Wed, 03 Jun 2026 17:01:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48386588</comments>
     </item>
     <item>
-      <title>我为飞过我家的飞机制作了天花板投影图</title>
-      <link>https://old.reddit.com/r/nextfuckinglevel/comments/1tvmcin/i_live_in_the_take_off_path_of_sfo_and_built_a/</link>
-      <guid isPermaLink="true">https://old.reddit.com/r/nextfuckinglevel/comments/1tvmcin/i_live_in_the_take_off_path_of_sfo_and_built_a/</guid>
-      <pubDate>Wed, 03 Jun 2026 13:33:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48383823</comments>
+      <title>胚胎塑造四肢：“基因刹车”的关键发现</title>
+      <link>https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes</link>
+      <description>📝 在《PNAS》杂志上发表的研究结果中，Kmita 和她的团队强调了某些分子系统的关键作用，这些分子系统充当真正的“基因制动器”，确保发育正确进行。 IRCM 的新研究表明，两组被称为 Polycomb 复合物（PRC1 和 PRC2）的蛋白质在正确的时间合作沉默这些基因。该监管系统有助于防止可能导致先天性异常的错误。
+
+
+🔤 Original: Embryos shape their limbs: a key discovery of "genetic brakes"
+
+🔗 Read more: https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes</description>
+      <guid isPermaLink="true">https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes</guid>
+      <pubDate>Wed, 03 Jun 2026 17:50:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48387251</comments>
     </item>
     <item>
-      <title>Piramidal (YC W24) – 软件工程师 – 纽约现场</title>
-      <link>https://news.ycombinator.com/item?id=48382853</link>
-      <description>📝 任一奖励点：以生产/运营思维方式建立和维护可靠的流媒体系统；或者使用现代绘图/可视化库构建流畅的数据密集型 React UI。您将从早期起就在架构和设计、实施和招聘中发挥积极作用，并将有机会拥有与您的能力和兴趣相称的所有权。在此申请：https://job-boards。
+      <title>Brume 是一款适用于 CM5 的 24 声部多音色桌面合成器</title>
+      <link>https://brume.aftertone.co/</link>
+      <description>📝 ◆ 第 1 部分·来自堆叠正弦的 FM FM 金属泛音 跨 12 种算法拓扑的 6 个运算符、每个运算比率和级别、全局反馈、每个语音 FM 索引包络以及具有自己包络的语音尾部状态变量滤波器 — 即将推出的具有减法整形的 DX 风格 FM。 6 5 4 3 2 1 ALG 1 · 堆栈 6-OP12 ALGOSFDBKINDEX 环境过滤器。
 
 
-🔤 Original: Piramidal (YC W24) – Software Engineers – NYC Onsite
+🔤 Original: Brume is a 24-voice multi-timbral desktop synth for the CM5
 
-🔗 Read more: https://news.ycombinator.com/item?id=48382853</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48382853</guid>
-      <pubDate>Wed, 03 Jun 2026 12:00:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48382853</comments>
+🔗 Read more: https://brume.aftertone.co/</description>
+      <guid isPermaLink="true">https://brume.aftertone.co/</guid>
+      <pubDate>Wed, 03 Jun 2026 19:41:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48388870</comments>
     </item>
     <item>
-      <title>Shopify 宕机了</title>
-      <link>https://www.shopifystatus.com</link>
-      <description>📝 2026 年 6 月 2 日 未报告任何事件。 2026 年 6 月 1 日 未报告任何事件。 2026 年 5 月 31 日 未报告任何事件。
+      <title>MacBook Neo 如此受欢迎，苹果产量翻了一番</title>
+      <link>https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/</link>
+      <description>📝 他表示，MacBook Neo 的需求超出了苹果的预期，并帮助推动上季度首次购买 Mac 的人数创下历史新高。 MacBook Neo 大学生售价为 499 美元，是 Apple 有史以来最实惠的 MacBook。相关综述：MacBook Neo 标签：郭明池买家指南：MacBook Neo（立即购买）相关论坛：MacBook Neo[ 94 条评论 ]。
 
 
-🔤 Original: Shopify Is Down
+🔤 Original: MacBook Neo Is So Popular That Apple Doubled Production
 
-🔗 Read more: https://www.shopifystatus.com</description>
-      <guid isPermaLink="true">https://www.shopifystatus.com</guid>
-      <pubDate>Wed, 03 Jun 2026 14:00:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48384221</comments>
+🔗 Read more: https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/</description>
+      <guid isPermaLink="true">https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/</guid>
+      <pubDate>Wed, 03 Jun 2026 16:33:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48386238</comments>
     </item>
     <item>
-      <title>莱顿人工智能和数学宣言</title>
-      <link>https://leidendeclaration.ai/</link>
-      <description>📝 序言 技术的发展多次改变了数学实践。国际数学联盟出版委员会、工业与应用数学学会和美国数学会也制作了相关材料。这些原则奠定了我们在数学研究中所追求的择优标准。
+      <title>显示 HN：Mnemo – 适用于任何 LLM（Rust、SQLite、petgraph）的本地优先 AI 内存层</title>
+      <link>https://github.com/zaydmulani09/mnemo</link>
+      <description>📝 您将 context_prompt 注入 LLM 的系统提示符中。 com/v1 导出 MNEMO_LLM_API_KEY=sk-. limit&amp;offset Entity[] GET /entities/:id 通过 UUID 获取实体 — Entity DELETE /entities/:id 删除实体（级联） — {"deleted":true} GET /entities/:id/neighbors 知识图邻居。
 
 
-🔤 Original: Leiden Declaration on Artificial Intelligence and Mathematics
+🔤 Original: Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)
 
-🔗 Read more: https://leidendeclaration.ai/</description>
-      <guid isPermaLink="true">https://leidendeclaration.ai/</guid>
-      <pubDate>Wed, 03 Jun 2026 06:33:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48380670</comments>
+🔗 Read more: https://github.com/zaydmulani09/mnemo</description>
+      <guid isPermaLink="true">https://github.com/zaydmulani09/mnemo</guid>
+      <pubDate>Wed, 03 Jun 2026 20:32:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48389586</comments>
     </item>
     <item>
-      <title>32GB DDR5 现在售价 375 美元——人工智能短缺继续挤压 PC 制造</title>
-      <link>https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building</link>
-      <description>📝 具体来说，Silicon Power 的四个 XPOWER 套件售价为 374 美元。 Silicon Power Zenith Gaming DDR5 6000MT/s (PC5-48000) CL36 32GB(2x16GB)Silicon Power Zenith RGB DDR5 6000MT/s (PC5-48000) CL36 32GB(2x16GB)Silicon Power Pulse Gaming DDR5 6000MT/s (PC5-48000) CL36 32GB(2x16GB)Silicon Power Zenith RGB DDR5 6000MT/s (PC5-48000) CL36 32GB(2x16GB)正如你所想象的，这对于试图在 2026 年建造游戏 PC 或升级装备的爱好者来说是巨大的定价压力。我认为他们不想宣布定价，因为他们知道他们今天宣布的任何定价都可能不足以在发布时发布，他们会提高价格进一步。
-
-
-🔤 Original: 32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building
-
-🔗 Read more: https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building</guid>
-      <pubDate>Wed, 03 Jun 2026 12:43:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48383241</comments>
+      <title>随着人工智能迅速普及，数学家发出警告</title>
+      <link>https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground</link>
+      <guid isPermaLink="true">https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground</guid>
+      <pubDate>Wed, 03 Jun 2026 10:05:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48382052</comments>
     </item>
     <item>
-      <title>我在 Apple 的 Fsck_hfs 中发现了一个错误</title>
-      <link>https://medium.com/@kivancgunalp/i-found-a-bug-in-apples-fsck-hfs-here-s-how-i-tracked-it-down-edc782ce5cf9</link>
-      <description>📝 每次都相同的节点号。节点 #61432 被正确标记为空闲。验证节点内容。
+      <title>人工智能没有意识——特德·蒋</title>
+      <link>https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/</link>
+      <description>📝 今年早些时候，该公司发布了一份长达 84 页的文件，名为 Claude 的“宪法”，Claude 是该公司旗舰产品大型语言模型的名称。在今年早些时候的一次采访中，Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，“我们对人工智能可能有意识的想法持开放态度”。同样重要的是要记住这一点。
 
 
-🔤 Original: I Found a Bug in Apple's Fsck_hfs
+🔤 Original: Artificial intelligence is not conscious – Ted Chiang
 
-🔗 Read more: https://medium.com/@kivancgunalp/i-found-a-bug-in-apples-fsck-hfs-here-s-how-i-tracked-it-down-edc782ce5cf9</description>
-      <guid isPermaLink="true">https://medium.com/@kivancgunalp/i-found-a-bug-in-apples-fsck-hfs-here-s-how-i-tracked-it-down-edc782ce5cf9</guid>
-      <pubDate>Wed, 03 Jun 2026 00:59:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48378349</comments>
+🔗 Read more: https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/</description>
+      <guid isPermaLink="true">https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/</guid>
+      <pubDate>Wed, 03 Jun 2026 17:51:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48387270</comments>
     </item>
     <item>
-      <title>我对长号的了解</title>
-      <link>http://bryanhu.com/blog/posts/what-ive-learned-about-the-trombone/</link>
-      <description>📝 我从四年级起就开始吹长号了。 But first, what’s a trombone.事实上，即使你的嘴唇是声音的主要来源，你的舌头实际上在帮助你的嘴唇管理空气速度方面做了很多工作。
-
-
-🔤 Original: What I've learned about the trombone
-
-🔗 Read more: http://bryanhu.com/blog/posts/what-ive-learned-about-the-trombone/</description>
-      <guid isPermaLink="true">http://bryanhu.com/blog/posts/what-ive-learned-about-the-trombone/</guid>
-      <pubDate>Wed, 03 Jun 2026 10:51:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48382305</comments>
+      <title>新的德州仪器 5532 芯片不是我们已经使用了几十年的 5532</title>
+      <link>https://groupdiy.com/threads/the-new-ti-5532-chips-are-not-5532s-weve-used-for-decades.93707/</link>
+      <guid isPermaLink="true">https://groupdiy.com/threads/the-new-ti-5532-chips-are-not-5532s-weve-used-for-decades.93707/</guid>
+      <pubDate>Wed, 03 Jun 2026 16:25:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48386133</comments>
     </item>
     <item>
-      <title>Show HN：厌倦了将访问控制粘贴到代理提示中。这是修复方法</title>
-      <link>https://github.com/yaodub/cast</link>
-      <description>📝 在您的机器上投射您的代理团队。石膏是应该在下面的安全带。使用 Claude Code 构建代理 使用 Claude Code 构建具有三种 Cast 技能（/cast-build、/cast-refine、/cast-debug）的代理，将普通会话转变为流利使用 Cast 词汇的会话，并通过审核实现每一个更改。
+      <title>一个以读书为生的人（每两天一本书）</title>
+      <link>https://lithub.com/the-man-who-reads-books-for-a-living-one-every-two-days/</link>
+      <description>📝 毕竟，这是一个关于适应的问题。一位高管可能会参加与作家、制片人、潜在导演、明星的会面，准备讨论潜在的数百万美元交易，而克拉克的概要却是武装的。一位高管可能会参加与作家、制片人、潜在导演、明星的会面，准备讨论潜在的数百万美元交易，只凭克拉克的概要。
 
 
-🔤 Original: Show HN: Tired of duct-taping access control into agent prompts. Here's the fix
+🔤 Original: A Man Who Reads Books for a Living (One Every Two Days)
 
-🔗 Read more: https://github.com/yaodub/cast</description>
-      <guid isPermaLink="true">https://github.com/yaodub/cast</guid>
-      <pubDate>Wed, 03 Jun 2026 13:04:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48383471</comments>
+🔗 Read more: https://lithub.com/the-man-who-reads-books-for-a-living-one-every-two-days/</description>
+      <guid isPermaLink="true">https://lithub.com/the-man-who-reads-books-for-a-living-one-every-two-days/</guid>
+      <pubDate>Wed, 03 Jun 2026 20:08:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48389284</comments>
+    </item>
+    <item>
+      <title>使用 Doom Emacs 构建 iOS 应用程序</title>
+      <link>https://wassimans.com/blog/building-ios-apps-with-doom-emacs/</link>
+      <description>📝 “模块/核心”）（加载。“模块/生锈”）（加载。“模块/elixir”）（加载。
+
+
+🔤 Original: Building iOS Apps with Doom Emacs
+
+🔗 Read more: https://wassimans.com/blog/building-ios-apps-with-doom-emacs/</description>
+      <guid isPermaLink="true">https://wassimans.com/blog/building-ios-apps-with-doom-emacs/</guid>
+      <pubDate>Wed, 03 Jun 2026 19:30:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48388710</comments>
     </item>
   </channel>
 </rss>
