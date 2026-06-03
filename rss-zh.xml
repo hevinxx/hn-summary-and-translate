@@ -6,86 +6,139 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 02 Jun 2026 23:03:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 04:03:35 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>使用 Clojure 大约一个月后的想法</title>
-      <link>https://www.acdw.net/clojure/</link>
-      <description>📝 比计划更多的“包含电池”计划也是由委员会构建的，但你可能会说它比 Clojure 更具凝聚力。符合人体工学的数据结构 Lisp 最初吸引我的原因之一是它是一种“一切皆是”的语言。尽管它是 Lisp（别@我），Clojure 的语法比Scheme 多得多。
+      <title>通过 VSCode Bug 一键窃取 GitHub 令牌</title>
+      <link>https://blog.ammaraskar.com/github-token-stealing/</link>
+      <description>📝 这个功能是通过github实现的。 dev 允许它代表您与 GitHub 进行交互。在此 iframe 内调用 Node.js API 或从此框架调用 VSCode 的 API。
 
 
-🔤 Original: My thoughts after using Clojure for about a month
+🔤 Original: 1-Click GitHub Token Stealing via a VSCode Bug
 
-🔗 Read more: https://www.acdw.net/clojure/</description>
-      <guid isPermaLink="true">https://www.acdw.net/clojure/</guid>
-      <pubDate>Tue, 02 Jun 2026 19:56:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48375393</comments>
+🔗 Read more: https://blog.ammaraskar.com/github-token-stealing/</description>
+      <guid isPermaLink="true">https://blog.ammaraskar.com/github-token-stealing/</guid>
+      <pubDate>Tue, 02 Jun 2026 15:29:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48371562</comments>
     </item>
     <item>
-      <title>RSS 回来了。 AI代理正在阅读它</title>
-      <link>https://julienreszka.com/blog/rss-is-back-ai-agents-are-reading-it/</link>
-      <description>📝 人类发现这是不可抗拒的。现在，相同的逻辑将扩展到代理需要可靠使用的任何书面内容。监控您的利基来源的代理将在找到依赖于算法的页面之前找到结构化的提要。
+      <title>使用 Nvidia GPU 的 VRAM 作为 Linux 上的交换空间</title>
+      <link>https://github.com/c0dejedi/nbd-vram</link>
+      <description>📝 nbd-vram 使用 NVIDIA GPU 的 VRAM 作为 Linux 上的交换空间。没有 NVIDIA 内核符号。卸载 sudo bash uninstall。
 
 
-🔤 Original: RSS is back. AI agents are reading it
+🔤 Original: Use your Nvidia GPU's VRAM as swap space on Linux
 
-🔗 Read more: https://julienreszka.com/blog/rss-is-back-ai-agents-are-reading-it/</description>
-      <guid isPermaLink="true">https://julienreszka.com/blog/rss-is-back-ai-agents-are-reading-it/</guid>
-      <pubDate>Tue, 02 Jun 2026 20:19:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48375673</comments>
+🔗 Read more: https://github.com/c0dejedi/nbd-vram</description>
+      <guid isPermaLink="true">https://github.com/c0dejedi/nbd-vram</guid>
+      <pubDate>Tue, 02 Jun 2026 22:55:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48377404</comments>
     </item>
     <item>
-      <title>Show HN：来自手机麦克风的实时呼吸检测和生物反馈</title>
-      <link>https://github.com/shiihaa-app/shiihaa-breath-detection</link>
-      <description>📝 shii·haa 呼吸检测 使用手机麦克风进行实时呼吸检测和生物反馈。这个问题就是这个项目存在的原因。呼吸状态机。
+      <title>代理制造商</title>
+      <link>https://agenticmotherfucking.website</link>
+      <description>📝 你不会维护这个。那个可以把 200MB 的 React 巨石吐到你脸上的代理人用纯 HTML 写了这个，因为我告诉它表现得像 2014 年一样。“没有侵犯版权，您的荣誉 - 代理人将每一行都写到了干净的房间描述中，而该描述只是你大声朗读的代码。
 
 
-🔤 Original: Show HN: Live breath detection and biofeedback from a phone microphone
+🔤 Original: Agentic Mfw
 
-🔗 Read more: https://github.com/shiihaa-app/shiihaa-breath-detection</description>
-      <guid isPermaLink="true">https://github.com/shiihaa-app/shiihaa-breath-detection</guid>
-      <pubDate>Tue, 02 Jun 2026 16:02:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48372036</comments>
+🔗 Read more: https://agenticmotherfucking.website</description>
+      <guid isPermaLink="true">https://agenticmotherfucking.website</guid>
+      <pubDate>Wed, 03 Jun 2026 02:32:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48379203</comments>
     </item>
     <item>
-      <title>Gleam v1.17.0 发布</title>
-      <link>https://gleam.run/news/single-file-gleam-beam-programs-with-escript/</link>
-      <description>📝 此版本带来了 gleam export escript 命令，该命令将编译项目，验证其具有有效的 main 函数，并从编译的字节码构建 escript 文件。 /my_project 来自 my_project 的问候。这也使我们能够升级“填充标签”代码操作，以便它也可以使用常量。
+      <title>美国导弹危机</title>
+      <link>https://research.contrary.com/report/the-american-missile-crisis</link>
+      <description>📝 数十年来，威慑倡导者一直支持扩大弹药库存并加快生产进度。一个弹药基地比任何其他主要军事能力都更加脆弱，其中一次AP工厂事故就可以使国家导弹生产停止。液体推进系统阿特拉斯和泰坦 I 等液体燃料导弹是美国设计和制造的第一批洲际弹道导弹，使用低温推进剂，例如液氧氧化剂 (LOX) 和 RP-1 煤油燃料。
 
 
-🔤 Original: Gleam v1.17.0 Released
+🔤 Original: The American Missile Crisis
 
-🔗 Read more: https://gleam.run/news/single-file-gleam-beam-programs-with-escript/</description>
-      <guid isPermaLink="true">https://gleam.run/news/single-file-gleam-beam-programs-with-escript/</guid>
-      <pubDate>Tue, 02 Jun 2026 22:16:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48377080</comments>
+🔗 Read more: https://research.contrary.com/report/the-american-missile-crisis</description>
+      <guid isPermaLink="true">https://research.contrary.com/report/the-american-missile-crisis</guid>
+      <pubDate>Wed, 03 Jun 2026 03:30:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48379551</comments>
     </item>
     <item>
-      <title>Paseo – 漂亮的开源编码代理界面（桌面、移动、CLI）</title>
-      <link>https://github.com/getpaseo/paseo</link>
-      <description>📝 从您的手机或办公桌上发货。使用你的工具、你的配置和你的技能。 paseo run --provider claude/opus-4。
-
-
-🔤 Original: Paseo – Beautiful open-source coding agent interface (desktop, mobile, CLI)
-
-🔗 Read more: https://github.com/getpaseo/paseo</description>
-      <guid isPermaLink="true">https://github.com/getpaseo/paseo</guid>
-      <pubDate>Tue, 02 Jun 2026 22:34:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48377250</comments>
+      <title>HHS 凌驾于同行评审之上，要求改变研究范围、设计</title>
+      <link>https://www.science.org/content/article/exclusive-hhs-now-weighing-science-nih-grants</link>
+      <guid isPermaLink="true">https://www.science.org/content/article/exclusive-hhs-now-weighing-science-nih-grants</guid>
+      <pubDate>Wed, 03 Jun 2026 03:07:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48379434</comments>
     </item>
     <item>
-      <title>4K 年前，摩亨佐达罗随着时间的推移变得更加平等</title>
-      <link>https://archaeologymag.com/2026/05/mohenjo-daro-grew-more-equal-over-time/</link>
-      <description>📝 首页 新闻 考古学 4000 年前的摩亨佐达罗研究发现，随着时间的推移，古代城市变得更加平等 作者：达里奥·拉德利 2026 年 5 月 24 日 几十年来，考古学家认为城市的发展伴随着不平等。随着城市的发展，不平等现象非但没有加剧，反而有所下降。摩亨佐达罗走的是另一条路线。
+      <title>Capstone – 多平台、多架构拆解框架</title>
+      <link>https://www.capstone-engine.org/</link>
+      <description>📝 此版本修复了安全公告 GHSA-5m9f-vqcm-g5pr 和 GHSA-jrw4-wj52-2vw8，并将预发布版本添加到 capstone。请参阅 https://github 上的完整发行说明。 com/capstone-engine/capstone/releases/tag/6。
 
 
-🔤 Original: 4K years ago, Mohenjo-daro grew more equal over time
+🔤 Original: Capstone – multi-platform, multi-architecture disassembly framework
 
-🔗 Read more: https://archaeologymag.com/2026/05/mohenjo-daro-grew-more-equal-over-time/</description>
-      <guid isPermaLink="true">https://archaeologymag.com/2026/05/mohenjo-daro-grew-more-equal-over-time/</guid>
-      <pubDate>Tue, 02 Jun 2026 22:22:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48377140</comments>
+🔗 Read more: https://www.capstone-engine.org/</description>
+      <guid isPermaLink="true">https://www.capstone-engine.org/</guid>
+      <pubDate>Wed, 03 Jun 2026 01:59:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48378925</comments>
+    </item>
+    <item>
+      <title>Roku LT 操作系统开源发行版</title>
+      <link>https://blog.roku.com/developer/roku-lt-os</link>
+      <guid isPermaLink="true">https://blog.roku.com/developer/roku-lt-os</guid>
+      <pubDate>Wed, 03 Jun 2026 01:13:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48378495</comments>
+    </item>
+    <item>
+      <title>Pluto.jl 1.0 版本 – Julia 的反应式笔记本</title>
+      <link>https://discourse.julialang.org/t/pluto-1-0-release/137296</link>
+      <description>📝 启动 Julia，然后运行：import Pluto Pluto。我们还发射了冥王星。 (3/10) 反应性 Pluto 笔记本是反应性的。
+
+
+🔤 Original: Pluto.jl 1.0 release – reactive notebook for Julia
+
+🔗 Read more: https://discourse.julialang.org/t/pluto-1-0-release/137296</description>
+      <guid isPermaLink="true">https://discourse.julialang.org/t/pluto-1-0-release/137296</guid>
+      <pubDate>Tue, 02 Jun 2026 23:09:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48377496</comments>
+    </item>
+    <item>
+      <title>斯坦福大学法学院研究中人工智能表现优于法学教授</title>
+      <link>https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/</link>
+      <description>📝 斯坦福大学法学院教授朱利安·尼亚科 (Julian Nyarko) 领导的一项开创性研究表明，法学教授绝大多数更喜欢人工智能生成的学生问题答案，而不是其他教师撰写的答案，这一发现可能会重塑法律教育的提供方式。 “这些不仅仅是有明显答案的简单问题。我们的研究朝着查明人工智能是否可以支持这一任务迈出了重要的一步。
+
+
+🔤 Original: AI outperforms law professors in Stanford Law study
+
+🔗 Read more: https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/</description>
+      <guid isPermaLink="true">https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/</guid>
+      <pubDate>Tue, 02 Jun 2026 23:43:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48377761</comments>
+    </item>
+    <item>
+      <title>人工智能可以吗？写出我们想读的文章？</title>
+      <link>https://www.newyorker.com/news/fault-lines/can-ai-produce-writing-that-we-actually-want-to-read</link>
+      <description>📝 保存这个故事保存这个故事保存这个故事保存这个故事您正在阅读杰伊·凯斯皮安·康关于政治和媒体的每周专栏《断层线》。当这种情况发生时，教育工作者对学生的主要激励——“如果你作弊，我会让你失败”——就会消失，因为根本没有办法知道。克劳德能做到吗？
+
+
+🔤 Original: Can A.I. produce writing that we want to read?
+
+🔗 Read more: https://www.newyorker.com/news/fault-lines/can-ai-produce-writing-that-we-actually-want-to-read</description>
+      <guid isPermaLink="true">https://www.newyorker.com/news/fault-lines/can-ai-produce-writing-that-we-actually-want-to-read</guid>
+      <pubDate>Wed, 03 Jun 2026 02:08:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48378995</comments>
+    </item>
+    <item>
+      <title>NLAB：世界上最小的电子实验室</title>
+      <link>https://getnlab.com/</link>
+      <description>📝 掌握人工智能无法替代的身体技能 - 从您的第一个电路到您的第一个发明。您的科技“乐高套装”。与智能手表中的脉冲检测技术相同。
+
+
+🔤 Original: NLAB: The worlds smallest electronics lab
+
+🔗 Read more: https://getnlab.com/</description>
+      <guid isPermaLink="true">https://getnlab.com/</guid>
+      <pubDate>Wed, 03 Jun 2026 02:09:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48379005</comments>
     </item>
   </channel>
 </rss>
