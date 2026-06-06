@@ -6,113 +6,74 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Jun 2026 13:42:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 16:07:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Nvidia は Windows PC 向けの強力な CPU システムを提案しています</title>
-      <link>https://twitter.com/lemire/status/2062880075117113739</link>
-      <description>📝 このブラウザでは JavaScript が無効であることが検出されました。 x の使用を続けるには、JavaScript を有効にするか、サポートされているブラウザに切り替えてください。利用規約 プライバシー ポリシー Cookie ポリシー インプリント 広告情報 © 2026 X Corp.
+      <title>fork() + exec() を超えて</title>
+      <link>https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</link>
+      <description>📝 このテンプレートは、spawn_template_create() システム コールを使用して作成されます。 __s32 excfd; __u32 exec_flags; __aligned_u64 ファイル名; /* 一部のフィールドは省略されました */ }; int spawn_template_create(struct spawn_template_create_args *args, size_t args_size);この呼び出しは、実行可能ファイルのテンプレートを表すファイル記述子を返します。これは、ファイル記述子 (execfd) または絶対パス (ファイル名) のいずれかとして指定できますが、両方として指定することはできません。テンプレートを作成するために、カーネルは指定されたファイルを開き、将来プロセスがそのファイルをより迅速に実行できるようにするための大量の情報をキャッシュします。特定の呼び出しの詳細は、この構造体のインスタンスに配置する必要があります。 struct spawn_template_spawn_args { __aligned_u64 flags; __aligned_u64 pdfd; __aligned_u64 引数; __aligned_u64 環境変数; __aligned_u64 アクション; __aligned_u64 アクション長; __aligned_u64 予約済み[4]; }; argv フィールドはプログラムに渡される引数リストへのポインタであり、envp はその環境を指します。
 
 
-🔤 Original: Nvidia is proposing a beast of a CPU system for Windows PCs
+🔤 Original: Moving beyond fork() + exec()
 
-🔗 Read more: https://twitter.com/lemire/status/2062880075117113739</description>
-      <guid isPermaLink="true">https://twitter.com/lemire/status/2062880075117113739</guid>
-      <pubDate>Sat, 06 Jun 2026 12:52:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424605</comments>
+🔗 Read more: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</description>
+      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</guid>
+      <pubDate>Sat, 06 Jun 2026 14:34:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425528</comments>
     </item>
     <item>
-      <title>新しいビブリオマニア</title>
-      <link>https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</link>
-      <description>📝 非常に古い本でも、発行部数が多いためそれほど珍しくないものもありますし、非常に新しい本でも、発行部数が少ないため希少なものもあります。クリスチャン・ホワイト・レア・ブックスは、1790 年代のトーマス・ペインの製本されたパンフレットのコレクションを販売しました。珍しい本や物品は、コレクターと、かつてそれらを扱っていた人々を結びつけます。
+      <title>ライプツィヒのベンチマーク</title>
+      <link>https://arxiv.org/abs/2606.05818</link>
+      <description>📝 ) リトマップ リットマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
 
 
-🔤 Original: The new bibliomaniacs
+🔤 Original: Benchmarks in Leipzig
 
-🔗 Read more: https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</description>
-      <guid isPermaLink="true">https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</guid>
-      <pubDate>Sat, 06 Jun 2026 12:03:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424125</comments>
+🔗 Read more: https://arxiv.org/abs/2606.05818</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2606.05818</guid>
+      <pubDate>Sat, 06 Jun 2026 14:00:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425247</comments>
     </item>
     <item>
-      <title>ポケモン エメラルドが WebAssembly に移植 (100k FPS)</title>
-      <link>https://pokeemerald.com/</link>
-      <guid isPermaLink="true">https://pokeemerald.com/</guid>
-      <pubDate>Sat, 06 Jun 2026 11:12:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423762</comments>
+      <title>自動車アーティスト、山田次郎へのトリビュート (1960-2025) [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=rJ2gQ5Md60U</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=rJ2gQ5Md60U</guid>
+      <pubDate>Fri, 05 Jun 2026 20:52:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48418125</comments>
     </item>
     <item>
-      <title>GoogleはSpaceXにコンピューティング費用として月額9億2000万ドルを支払う</title>
-      <link>https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</link>
-      <description>📝 SpaceXは歴史的なIPOに先立って、今度はGoogleと新たなコンピューティング契約を締結した。 SpaceXは、Googleが具体的にどのデータセンターを使用するかについては明らかにしていない。 GoogleはSpaceXに長年投資している。
+      <title>AI はウェブを破壊しませんでした。ドットコンはそうしました - AI が音量を上げただけです</title>
+      <link>https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</link>
+      <description>📝 #openweb は、人々が人々とコミュニケーションするという考えに基づいて構築されました。それは私たちにとっても懸念すべきことです。ガバナンスにはコミュニティが必要であることを忘れないでください。
 
 
-🔤 Original: Google will pay SpaceX $920M per month for compute
+🔤 Original: AI didn't break the web. The dotcons did – AI just turned up the volume
 
-🔗 Read more: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</guid>
-      <pubDate>Sat, 06 Jun 2026 11:46:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423990</comments>
+🔗 Read more: https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</description>
+      <guid isPermaLink="true">https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</guid>
+      <pubDate>Sat, 06 Jun 2026 15:30:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425983</comments>
     </item>
     <item>
-      <title>Mbodi AI (YC P25) が創設者の機械学習エンジニア (ロボティクス) を募集中</title>
-      <link>https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</link>
-      <description>📝 人間のように学習し動作する産業用ロボット Mbodi は、自然言語を使用してロボットを人間のように学習し動作させる、具体化された AI プラットフォームを構築しています。私たちは、現実世界を賭けた難しい問題を解決したいと考えている小規模の上級チームを構築しています。 Mbodi は、自然言語を使用してロボットに人間と同じように学習させる、具体化された AI プラットフォームです。
-
-
-🔤 Original: Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)
-
-🔗 Read more: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</guid>
-      <pubDate>Sat, 06 Jun 2026 12:00:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424103</comments>
+      <title>米下院議員、州のAI規制を禁止する法案草案を発表</title>
+      <link>https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</guid>
+      <pubDate>Sat, 06 Jun 2026 13:40:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425031</comments>
     </item>
     <item>
-      <title>女性の配偶者の好みは排卵周期を通じて変化しますか? (2014) [pdf]</title>
-      <link>https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</link>
-      <description>📝 7 %���� 1 0 obj &lt;&gt; endobj 2 0 obj &lt;&gt; endobj 3 0 obj &lt;&gt; endobj 4 0 obj &lt;&gt;&gt;&gt;/Rotate 0/Type/Page&gt;&gt; endobj 5 0 obj &lt;&gt;stream x�+����4Pp�� � # \ endstream endobj 6 0 obj &lt;&gt;/Subtype/Form/Type/XObject&gt;&gt;stream x��U�N�@ }G� �� 4L�~��K hC �\j�/�d ��66� 4 ���%) "�eٻs�̙˚ ���� `.�"p�X �� �)b �J $A�r� JE�\9E� j���֠7 t�HM�� 1J��(DJ�j����. -M庶C N�S �Cn_zc�Fh~��O��� ��� �k endstream endobj 7 0 obj &lt;&gt; endobj 8 0 obj &lt;&gt; endobj 9 0 obj &lt;&gt; endobj 10 0 obj &lt;&gt; endobj 11 0 obj &lt;&gt; endobj 12 0 obj &lt;&gt;stream x��� \ U 8~Μ��3s�� 。
+      <title>イングランドとウェールズの警察、法廷陳述でAIの使用を停止するよう指示</title>
+      <link>https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</link>
+      <description>📝 あらゆるデバイスから高品質の FT ジャーナリズムに完全にデジタル アクセスできます。含まれるものを選択グローバル ニュースと分析専門家の意見Android および iOS の FT アプリFT 編集: iOS および Web でアクセスファーストFT: その日の最大のストーリー 20 以上の厳選されたニュースレターmyFTFT ビデオとポッドキャストでトピックをフォローし、アラートを設定共有できる毎月のギフト記事 10 件プレミアム デジタル完全な報道月額 75 ドル業界リーダーによる専門分析を備えた、質の高い FT ジャーナリズムへの完全なデジタル アクセス。含まれるものを選択グローバル ニュースと分析専門家の意見Android および iOS の FT アプリFT 編集: iOS および Web でアクセスファーストFT: その日の最大のニュース 20 件以上の厳選されたニュースレターmyFTFT ビデオとポッドキャストでトピックをフォローし、アラートを設定20 件の月間ギフト記事を共有Lex: FT の主力投資コラム一流の専門家による 15 件以上のプレミアム ニュースレターFT デジタル版: デジタル化された印刷版プレミアムおよび FT ウィークエンド プリント月額 79 ドルのFT 週末新聞の配信土曜日と完全なデジタルアクセス。
 
 
-🔤 Original: Do women’s mate preferences change across the ovulatory cycle? (2014) [pdf]
+🔤 Original: Police in England and Wales told to halt AI use in court statements
 
-🔗 Read more: https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</description>
-      <guid isPermaLink="true">https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</guid>
-      <pubDate>Sat, 06 Jun 2026 10:42:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423541</comments>
-    </item>
-    <item>
-      <title>はじめに – Python プログラマーのための Rust</title>
-      <link>https://microsoft.github.io/RustTraining/python-book/</link>
-      <description>📝 Rust for Python Programmers: Complete Training Guide Python の経験を持つ開発者向けの Rust を学習するための包括的なガイド。はじめにと動機 🟢 Python 開発者にとっての Rust のケース Rust が対処する Python の一般的な問題点 Python 2 ではなく Rust を選択する場合 移行パターン 🟡 Rust の一般的な Python パターン Python 開発者向けの必須クレート 漸進的導入戦略 16.
-
-
-🔤 Original: Introduction – Rust for Python Programmers
-
-🔗 Read more: https://microsoft.github.io/RustTraining/python-book/</description>
-      <guid isPermaLink="true">https://microsoft.github.io/RustTraining/python-book/</guid>
-      <pubDate>Sat, 06 Jun 2026 10:52:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423615</comments>
-    </item>
-    <item>
-      <title>リビングルームのスマート TV は AIScraping 経済の結節点です</title>
-      <link>https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</link>
-      <description>📝 この投稿では、Bright Data 社が、自社の住宅用プロキシ ネットワークを使用してインターネットからトレーニング データをスクレイピングする最新の AI モデルをどのように促進するかを探っていきます。 Bright Data は、承認されたビジネス関連のユースケースにのみお客様の IP アドレスを使用します。 Bright Data がパートナーとして指名するのは誰か Bright Data は、パートナー マニフェスト エンドポイントを公開します。
-
-
-🔤 Original: The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy
-
-🔗 Read more: https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</description>
-      <guid isPermaLink="true">https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</guid>
-      <pubDate>Sat, 06 Jun 2026 09:17:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48422993</comments>
-    </item>
-    <item>
-      <title>Meta は開発者への新しい AI モデルのリリースを遅らせ続けている</title>
-      <link>https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c</link>
-      <guid isPermaLink="true">https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c</guid>
-      <pubDate>Sat, 06 Jun 2026 12:15:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424252</comments>
+🔗 Read more: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</description>
+      <guid isPermaLink="true">https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</guid>
+      <pubDate>Sat, 06 Jun 2026 15:35:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48426022</comments>
     </item>
   </channel>
 </rss>

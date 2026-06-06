@@ -6,113 +6,74 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 06 Jun 2026 13:42:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 16:07:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Nvidia 正在为 Windows PC 推出一款野兽般的 CPU 系统</title>
-      <link>https://twitter.com/lemire/status/2062880075117113739</link>
-      <description>📝 我们检测到该浏览器中禁用了 JavaScript。请启用 JavaScript 或切换到支持的浏览器以继续使用 x。服务条款 隐私政策 Cookie 政策 版本说明 广告信息 © 2026 X Corp.
+      <title>超越 fork() + exec()</title>
+      <link>https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</link>
+      <description>📝 该模板将使用 spawn_template_create() 系统调用创建： struct spawn_template_create_args { __aligned_u64 flags; __s32 execfd； __u32 exec_flags； __aligned_u64 文件名； /* 某些字段被省略 */ }; int spawn_template_create(struct spawn_template_create_args *args, size_t args_size);此调用将返回表示可执行文件模板的文件描述符，可以将其指定为文件描述符 (execfd) 或绝对路径（文件名），但不能同时指定两者。为了创建模板，内核将打开指定的文件并缓存一堆信息，这些信息将允许进程将来更快地运行该文件。特定调用的详细信息必须放入此结构的实例中： struct spawn_template_spawn_args { __aligned_u64 flags; __aligned_u64 pidfd； __aligned_u64 argv； __aligned_u64 环境变量； __aligned_u64 动作； __aligned_u64 actions_len； __aligned_u64 保留[4]； }; argv 字段是指向要传递给程序的参数列表的指针，而 envp 则指向其环境。
 
 
-🔤 Original: Nvidia is proposing a beast of a CPU system for Windows PCs
+🔤 Original: Moving beyond fork() + exec()
 
-🔗 Read more: https://twitter.com/lemire/status/2062880075117113739</description>
-      <guid isPermaLink="true">https://twitter.com/lemire/status/2062880075117113739</guid>
-      <pubDate>Sat, 06 Jun 2026 12:52:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424605</comments>
+🔗 Read more: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</description>
+      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</guid>
+      <pubDate>Sat, 06 Jun 2026 14:34:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425528</comments>
     </item>
     <item>
-      <title>新的图书狂</title>
-      <link>https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</link>
-      <description>📝 有些非常古老的书籍并不是非常稀有，因为它们印刷数量很大，而有些非常新的书籍因为印刷数量很少而很稀有。 Christian White Rare Books 出售 1790 年代托马斯·潘恩 (Thomas Paine) 的装订本小册子集。珍本书籍和物品将收藏家与曾经处理过它们的人联系起来。
+      <title>莱比锡的基准</title>
+      <link>https://arxiv.org/abs/2606.05818</link>
+      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
 
 
-🔤 Original: The new bibliomaniacs
+🔤 Original: Benchmarks in Leipzig
 
-🔗 Read more: https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</description>
-      <guid isPermaLink="true">https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</guid>
-      <pubDate>Sat, 06 Jun 2026 12:03:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424125</comments>
+🔗 Read more: https://arxiv.org/abs/2606.05818</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2606.05818</guid>
+      <pubDate>Sat, 06 Jun 2026 14:00:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425247</comments>
     </item>
     <item>
-      <title>Pokemon Emerald 移植到 WebAssembly (100k FPS)</title>
-      <link>https://pokeemerald.com/</link>
-      <guid isPermaLink="true">https://pokeemerald.com/</guid>
-      <pubDate>Sat, 06 Jun 2026 11:12:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423762</comments>
+      <title>向汽车艺术家山田二郎致敬（1960-2025）[视频]</title>
+      <link>https://www.youtube.com/watch?v=rJ2gQ5Md60U</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=rJ2gQ5Md60U</guid>
+      <pubDate>Fri, 05 Jun 2026 20:52:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48418125</comments>
     </item>
     <item>
-      <title>谷歌将每月向 SpaceX 支付 9.2 亿美元的计算费用</title>
-      <link>https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</link>
-      <description>📝 SpaceX 在其历史性的 IPO 之前准备了另一项计算交易，这次是与谷歌。 SpaceX 没有透露谷歌将使用哪个具体数据中心。谷歌是 SpaceX 的长期投资者。
+      <title>人工智能并没有破坏网络。点康做到了——人工智能只是调大了音量</title>
+      <link>https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</link>
+      <description>📝 #openweb 是围绕人与人沟通的理念而建立的。这应该引起我们的关注。请记住，治理需要社区。
 
 
-🔤 Original: Google will pay SpaceX $920M per month for compute
+🔤 Original: AI didn't break the web. The dotcons did – AI just turned up the volume
 
-🔗 Read more: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</guid>
-      <pubDate>Sat, 06 Jun 2026 11:46:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423990</comments>
+🔗 Read more: https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</description>
+      <guid isPermaLink="true">https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</guid>
+      <pubDate>Sat, 06 Jun 2026 15:30:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425983</comments>
     </item>
     <item>
-      <title>Mbodi AI (YC P25) 正在招聘创始机器学习工程师（机器人）</title>
-      <link>https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</link>
-      <description>📝 像人类一样学习和操作的工业机器人 Mbodi 正在构建嵌入式人工智能平台，使机器人能够使用自然语言像人类一样学习和操作。我们正在建立一个小型的高级团队，希望解决现实世界中的难题。 Mbodi 是一个具体的人工智能平台，可以让机器人像人类一样使用自然语言进行学习。
-
-
-🔤 Original: Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)
-
-🔗 Read more: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</guid>
-      <pubDate>Sat, 06 Jun 2026 12:00:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424103</comments>
+      <title>美国众议院议员发布禁止国家人工智能规则的法案草案</title>
+      <link>https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</guid>
+      <pubDate>Sat, 06 Jun 2026 13:40:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425031</comments>
     </item>
     <item>
-      <title>女性的择偶偏好会随着排卵周期而变化吗？ (2014) [pdf]</title>
-      <link>https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</link>
-      <description>📝 7 %���� 1 0 obj &lt;&gt; endobj 2 0 obj &lt;&gt; endobj 3 0 obj &lt;&gt; endobj 4 0 obj &lt;&gt;&gt;&gt;/旋转 0/类型/页面&gt;&gt; endobj 5 0 obj &lt;&gt;stream x�+���4Pp�� � # \ endstream endobj 6 0 obj &lt;&gt;/Subtype/Form/Type/XObject&gt;&gt;stream x�U�N�@ }G� � 4L�~�K hC �\j�/��d �66� 4 �%) "�eٻs�̙° ����``. �"p�X ��� ����)b �J $A��r� JE�\9E� j����֠7 t�HM�� 1J��(DJ��j�����.-MC 侄子 N�S ��Cn_zc�Fh~��O��� ��� ��k endstream endobj 7 0 obj &lt;&gt; endobj 8 0 obj &lt;&gt; endobj 9 0 obj &lt;&gt; endobj 10 0 obj &lt;&gt; endobj 11 0 obj &lt;&gt; endobj 12 0 obj &lt;&gt;stream x��\U 8~μ��3s�� .
+      <title>英格兰和威尔士警方被告知停止在法庭声明中使用人工智能</title>
+      <link>https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</link>
+      <description>📝 在任何设备上以数字方式完整访问高质量的《金融时报》新闻。选择包含内容 全球新闻和分析 专家意见 Android 和 iOS 上的 FT 应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精心策划的时事通讯 通过 myFTFT 视频和播客关注主题并设置提醒 10 篇每月赠送文章可供分享 优质数字版完整报道 每月 75 美元 通过行业领导者的专家分析，以数字方式全面获取优质 FT 新闻报道。选择包含内容 全球新闻与分析 专家意见 FT Android 和 iOS 版应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精心策划的时事通讯 通过 myFTFT 视频和播客关注主题并设置提醒 20 篇每月赠送文章可供分享 Lex：FT 的旗舰投资专栏 15 多篇由领先专家撰写的高级时事通讯 FT 数字版：我们的数字化印刷版高级和 FT 周末印刷 每月 79 美元 FT 周末报纸交付周六加上完整的数字访问。
 
 
-🔤 Original: Do women’s mate preferences change across the ovulatory cycle? (2014) [pdf]
+🔤 Original: Police in England and Wales told to halt AI use in court statements
 
-🔗 Read more: https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</description>
-      <guid isPermaLink="true">https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</guid>
-      <pubDate>Sat, 06 Jun 2026 10:42:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423541</comments>
-    </item>
-    <item>
-      <title>简介 – Python 程序员的 Rust</title>
-      <link>https://microsoft.github.io/RustTraining/python-book/</link>
-      <description>📝 Rust for Python 程序员：完整培训指南 为具有 Python 经验的开发人员提供学习 Rust 的综合指南。简介和动机 🟢 Python 开发人员使用 Rust 的案例 Rust 解决的常见 Python 痛点 何时选择 Rust 而不是 Python 2. 迁移模式 🟡 Rust 中的常见 Python 模式 Python 开发人员的基本包增量采用策略 16.
-
-
-🔤 Original: Introduction – Rust for Python Programmers
-
-🔗 Read more: https://microsoft.github.io/RustTraining/python-book/</description>
-      <guid isPermaLink="true">https://microsoft.github.io/RustTraining/python-book/</guid>
-      <pubDate>Sat, 06 Jun 2026 10:52:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423615</comments>
-    </item>
-    <item>
-      <title>客厅里的智能电视是AI抓取经济的一个节点</title>
-      <link>https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</link>
-      <description>📝 在这篇文章中，我们将探讨 Bright Data 公司如何利用其住宅代理网络促进现代人工智能模型从互联网上抓取训练数据。 Bright Data 只会将您的 IP 地址用于经批准的业务相关用例。 Bright Data 命名为合作伙伴 Bright Data 公开了合作伙伴清单端点。
-
-
-🔤 Original: The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy
-
-🔗 Read more: https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</description>
-      <guid isPermaLink="true">https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</guid>
-      <pubDate>Sat, 06 Jun 2026 09:17:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48422993</comments>
-    </item>
-    <item>
-      <title>Meta 不断推迟向开发者发布新的人工智能模型</title>
-      <link>https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c</link>
-      <guid isPermaLink="true">https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c</guid>
-      <pubDate>Sat, 06 Jun 2026 12:15:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424252</comments>
+🔗 Read more: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</description>
+      <guid isPermaLink="true">https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</guid>
+      <pubDate>Sat, 06 Jun 2026 15:35:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48426022</comments>
     </item>
   </channel>
 </rss>

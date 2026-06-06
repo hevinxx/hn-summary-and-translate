@@ -6,113 +6,74 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 06 Jun 2026 13:42:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 16:07:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Nvidia는 Windows PC용 CPU 시스템을 제안하고 있습니다.</title>
-      <link>https://twitter.com/lemire/status/2062880075117113739</link>
-      <description>📝 이 브라우저에서는 JavaScript가 비활성화되어 있는 것으로 감지되었습니다. x를 계속 사용하려면 JavaScript를 활성화하거나 지원되는 브라우저로 전환하세요. 서비스 약관 개인 ​​정보 보호 정책 쿠키 정책 간기 광고 정보 © 2026 X Corp.
+      <title>fork() + exec()를 넘어</title>
+      <link>https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</link>
+      <description>📝 이 템플릿은 generate_template_create() 시스템 호출로 생성됩니다: struct generate_template_create_args { __aligned_u64 flags; __s32 excfd; __u32 exec_flags; __aligned_u64 파일 이름; /* 일부 필드는 생략됨 */ }; int generate_template_create(struct generate_template_create_args *args, size_t args_size); 이 호출은 실행 파일의 템플릿을 나타내는 파일 설명자를 반환합니다. 이는 파일 설명자(execfd) 또는 절대 경로(파일 이름)로 지정할 수 있지만 둘 다로 지정할 수는 없습니다. 템플릿을 생성하기 위해 커널은 표시된 파일을 열고 프로세스가 나중에 해당 파일을 더 빠르게 실행할 수 있도록 하는 많은 정보를 캐시합니다. 특정 호출의 세부 사항은 다음 구조의 인스턴스에 배치되어야 합니다: struct generate_template_spawn_args { __aligned_u64 flags; __aligned_u64 pidfd; __aligned_u64 argv; __aligned_u64 envp; __aligned_u64 작업; __aligned_u64 actions_len; __aligned_u64 예약됨[4]; }; argv 필드는 프로그램에 전달될 인수 목록에 대한 포인터이고 envp는 해당 환경을 가리킵니다.
 
 
-🔤 Original: Nvidia is proposing a beast of a CPU system for Windows PCs
+🔤 Original: Moving beyond fork() + exec()
 
-🔗 Read more: https://twitter.com/lemire/status/2062880075117113739</description>
-      <guid isPermaLink="true">https://twitter.com/lemire/status/2062880075117113739</guid>
-      <pubDate>Sat, 06 Jun 2026 12:52:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424605</comments>
+🔗 Read more: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</description>
+      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</guid>
+      <pubDate>Sat, 06 Jun 2026 14:34:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425528</comments>
     </item>
     <item>
-      <title>새로운 도서매니아들</title>
-      <link>https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</link>
-      <description>📝 많이 인쇄되었기 때문에 그다지 희귀하지 않은 아주 오래된 책도 있고, 소량으로 인쇄되었기 때문에 희귀한 아주 새로운 책도 있습니다. Christian White Rare Books는 1790년대의 Thomas Paine 팜플렛 모음집을 판매했습니다. 희귀한 책과 물건은 수집가와 한때 그것을 취급했던 사람들을 연결해 줍니다.
+      <title>라이프치히의 벤치마크</title>
+      <link>https://arxiv.org/abs/2606.05818</link>
+      <description>📝 ) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?) ScienceCast Toggle ScienceCast(ScienceCast란 무엇입니까?)
 
 
-🔤 Original: The new bibliomaniacs
+🔤 Original: Benchmarks in Leipzig
 
-🔗 Read more: https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</description>
-      <guid isPermaLink="true">https://engelsbergideas.com/notebook/the-new-bibliomaniacs/</guid>
-      <pubDate>Sat, 06 Jun 2026 12:03:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424125</comments>
+🔗 Read more: https://arxiv.org/abs/2606.05818</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2606.05818</guid>
+      <pubDate>Sat, 06 Jun 2026 14:00:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425247</comments>
     </item>
     <item>
-      <title>WebAssembly로 포팅된 포켓몬 에메랄드(100k FPS)</title>
-      <link>https://pokeemerald.com/</link>
-      <guid isPermaLink="true">https://pokeemerald.com/</guid>
-      <pubDate>Sat, 06 Jun 2026 11:12:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423762</comments>
+      <title>자동차 예술가 야마다 지로(1960-2025)에 대한 헌사 [동영상]</title>
+      <link>https://www.youtube.com/watch?v=rJ2gQ5Md60U</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=rJ2gQ5Md60U</guid>
+      <pubDate>Fri, 05 Jun 2026 20:52:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48418125</comments>
     </item>
     <item>
-      <title>Google은 SpaceX에 컴퓨팅 비용으로 매월 9억 2천만 달러를 지불합니다.</title>
-      <link>https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</link>
-      <description>📝 SpaceX는 역사적인 IPO를 앞두고 이번에는 Google과 함께 또 다른 컴퓨팅 계약을 체결했습니다. SpaceX는 Google이 어떤 특정 데이터 센터를 사용할 것인지 밝히지 않았습니다. Google은 SpaceX에 오랫동안 투자해 왔습니다.
+      <title>AI는 웹을 깨뜨리지 않았습니다. dotcons가 그랬습니다. AI가 방금 볼륨을 높였습니다.</title>
+      <link>https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</link>
+      <description>📝 #오픈웹은 사람과 사람이 소통한다는 생각을 바탕으로 만들어졌습니다. 우리는 그 점에 관심을 가져야 합니다. 거버넌스에는 커뮤니티가 필요하다는 것을 기억하십시오.
 
 
-🔤 Original: Google will pay SpaceX $920M per month for compute
+🔤 Original: AI didn't break the web. The dotcons did – AI just turned up the volume
 
-🔗 Read more: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/</guid>
-      <pubDate>Sat, 06 Jun 2026 11:46:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423990</comments>
+🔗 Read more: https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</description>
+      <guid isPermaLink="true">https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</guid>
+      <pubDate>Sat, 06 Jun 2026 15:30:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425983</comments>
     </item>
     <item>
-      <title>Mbodi AI(YC P25)에서 창립 머신러닝 엔지니어(로봇공학)를 채용합니다.</title>
-      <link>https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</link>
-      <description>📝 인간처럼 학습하고 작동하는 산업용 로봇 음보디(Mbodi)는 로봇이 자연어를 통해 인간처럼 학습하고 작동할 수 있도록 구현된 AI 플랫폼을 구축하고 있습니다. 우리는 현실 세계의 어려운 문제를 해결하고자 하는 소규모 고위 팀을 구성하고 있습니다. 음보디(Mbodi)는 로봇이 인간처럼 자연어를 사용하여 학습할 수 있도록 하는 구현된 AI 플랫폼입니다.
-
-
-🔤 Original: Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)
-
-🔗 Read more: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</guid>
-      <pubDate>Sat, 06 Jun 2026 12:00:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424103</comments>
+      <title>미 하원 의원, 주정부 AI 규정 금지 법안 초안 공개</title>
+      <link>https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</guid>
+      <pubDate>Sat, 06 Jun 2026 13:40:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425031</comments>
     </item>
     <item>
-      <title>배란주기에 따라 여성의 배우자 선호도가 변합니까? (2014) [pdf]</title>
-      <link>https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</link>
-      <description>📝 7 %���� 1 0 obj &lt;&gt; endobj 2 0 obj &lt;&gt; endobj 3 0 obj &lt;&gt; endobj 4 0 obj &lt;&gt;&gt;&gt;/회전 0/Type/Page&gt;&gt; endobj 5 0 obj &lt;&gt;stream x�+���4Pp�� � # \ endstream endobj 6 0 obj &lt;&gt;/Subtype/Form/Type/XObject&gt;&gt;stream x��U�N�@ }G� � 4L�~�K hC �\j�/��d �66� 4 �%) "�eٻs�̙˚ ����� `. �"p�X ���� ���)b �J $A��r� JE�\9E� j����֠7 t�HM� 1J��(DJ��j���. -M庶C N�S ��Cn_zc�Fh~��O��� ���� ����k endstream endobj 7 0 obj &lt;&gt; endobj 8 0 obj &lt;&gt; endobj 9 0 obj &lt;&gt; endobj 10 0 obj &lt;&gt; endobj 11 0 obj &lt;&gt; endobj 12 0 obj &lt;&gt;stream x��� \ U 8~Μ��3s�� .
+      <title>잉글랜드와 웨일스 경찰은 법원 성명에서 AI 사용을 중단하라는 지시를 받았다.</title>
+      <link>https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</link>
+      <description>📝 모든 기기에서 고품질 FT 저널리즘에 대한 완전한 디지털 액세스를 제공합니다. 포함된 내용 글로벌 뉴스 및 분석전문가 의견Android 및 iOSFT의 FT 앱 편집: iOS 및 웹에서 액세스FirstFT: 오늘의 가장 큰 뉴스 20개 이상의 엄선된 뉴스레터myFTFT 비디오 및 팟캐스트로 주제 팔로우 및 알림 설정월별 선물 기사 10개 공유프리미엄 디지털전체 보도 자료$75/월업계 리더의 전문 분석을 통해 고품질 FT 저널리즘에 대한 디지털 액세스를 완료하세요. 포함된 내용 글로벌 뉴스 및 분석전문가 의견Android 및 iOS의 FT 앱FT 편집: iOS 및 웹에서 액세스FirstFT: 그날의 가장 큰 이야기20개 이상의 엄선된 뉴스레터myFTFT 비디오 및 팟캐스트로 주제 팔로우 및 알림 설정공유할 월간 선물 기사 20개Lex: FT의 주력 투자 칼럼15개 이상의 프리미엄 뉴스레터 FT 디지털 에디션: 디지털화된 인쇄판프리미엄 및 FT 주말 인쇄월 $79FT 주말 신문 배달 토요일과 완벽한 디지털 액세스.
 
 
-🔤 Original: Do women’s mate preferences change across the ovulatory cycle? (2014) [pdf]
+🔤 Original: Police in England and Wales told to halt AI use in court statements
 
-🔗 Read more: https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</description>
-      <guid isPermaLink="true">https://www.martiehaselton.com/_files/ugd/3ae410_aeb76edab75f457aae0c14c4c68d93c0.pdf</guid>
-      <pubDate>Sat, 06 Jun 2026 10:42:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423541</comments>
-    </item>
-    <item>
-      <title>소개 – Python 프로그래머를 위한 Rust</title>
-      <link>https://microsoft.github.io/RustTraining/python-book/</link>
-      <description>📝 Python 프로그래머를 위한 Rust: 완전한 교육 가이드 Python 경험이 있는 개발자를 위한 Rust 학습을 위한 종합 가이드입니다. 소개 및 동기 부여 🟢 Python 개발자를 위한 Rust 사례 Python 대신 Rust를 선택해야 하는 경우 Rust가 해결하는 일반적인 Python 문제점 2. 마이그레이션 패턴 🟡 Rust의 일반적인 Python 패턴 Python 개발자를 위한 필수 상자 증분 채택 전략 16.
-
-
-🔤 Original: Introduction – Rust for Python Programmers
-
-🔗 Read more: https://microsoft.github.io/RustTraining/python-book/</description>
-      <guid isPermaLink="true">https://microsoft.github.io/RustTraining/python-book/</guid>
-      <pubDate>Sat, 06 Jun 2026 10:52:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48423615</comments>
-    </item>
-    <item>
-      <title>거실의 스마트 TV는 AI스크래핑 경제의 노드입니다.</title>
-      <link>https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</link>
-      <description>📝 이 게시물에서는 Bright Data라는 회사가 주거용 프록시 네트워크를 사용하여 인터넷에서 교육 데이터를 수집하는 최신 AI 모델을 촉진하는 방법을 살펴보겠습니다. Bright Data는 승인된 비즈니스 관련 사용 사례에만 귀하의 IP 주소를 사용합니다. Bright Data가 파트너로 명명된 사람 Bright Data는 파트너 매니페스트 엔드포인트를 노출합니다.
-
-
-🔤 Original: The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy
-
-🔗 Read more: https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</description>
-      <guid isPermaLink="true">https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/</guid>
-      <pubDate>Sat, 06 Jun 2026 09:17:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48422993</comments>
-    </item>
-    <item>
-      <title>Meta는 개발자에게 새로운 AI 모델 출시를 계속 지연시키고 있습니다.</title>
-      <link>https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c</link>
-      <guid isPermaLink="true">https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c</guid>
-      <pubDate>Sat, 06 Jun 2026 12:15:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48424252</comments>
+🔗 Read more: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</description>
+      <guid isPermaLink="true">https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</guid>
+      <pubDate>Sat, 06 Jun 2026 15:35:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48426022</comments>
     </item>
   </channel>
 </rss>
