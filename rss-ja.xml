@@ -6,74 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Jun 2026 16:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 19:23:42 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>fork() + exec() を超えて</title>
-      <link>https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</link>
-      <description>📝 このテンプレートは、spawn_template_create() システム コールを使用して作成されます。 __s32 excfd; __u32 exec_flags; __aligned_u64 ファイル名; /* 一部のフィールドは省略されました */ }; int spawn_template_create(struct spawn_template_create_args *args, size_t args_size);この呼び出しは、実行可能ファイルのテンプレートを表すファイル記述子を返します。これは、ファイル記述子 (execfd) または絶対パス (ファイル名) のいずれかとして指定できますが、両方として指定することはできません。テンプレートを作成するために、カーネルは指定されたファイルを開き、将来プロセスがそのファイルをより迅速に実行できるようにするための大量の情報をキャッシュします。特定の呼び出しの詳細は、この構造体のインスタンスに配置する必要があります。 struct spawn_template_spawn_args { __aligned_u64 flags; __aligned_u64 pdfd; __aligned_u64 引数; __aligned_u64 環境変数; __aligned_u64 アクション; __aligned_u64 アクション長; __aligned_u64 予約済み[4]; }; argv フィールドはプログラムに渡される引数リストへのポインタであり、envp はその環境を指します。
+      <title>Zeroserve: eBPF を使用してスクリプトを作成できる、設定不要の Web サーバー</title>
+      <link>https://su3.io/posts/introducing-zeroserve</link>
+      <description>📝 構成としてのプログラム: eBPF プログラムは構成全体であり、各リクエストに何が起こるかを決定します。 zeroserve はそれを 1 つにまとめます。最初に実行され、すべてのリクエストを強化するスクリプトは次のとおりです: #include &lt;zeroserve.
 
 
-🔤 Original: Moving beyond fork() + exec()
+🔤 Original: Zeroserve: A zero-config web server you can script with eBPF
 
-🔗 Read more: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</description>
-      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</guid>
-      <pubDate>Sat, 06 Jun 2026 14:34:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425528</comments>
+🔗 Read more: https://su3.io/posts/introducing-zeroserve</description>
+      <guid isPermaLink="true">https://su3.io/posts/introducing-zeroserve</guid>
+      <pubDate>Sat, 06 Jun 2026 14:59:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425723</comments>
     </item>
     <item>
-      <title>ライプツィヒのベンチマーク</title>
-      <link>https://arxiv.org/abs/2606.05818</link>
+      <title>国防総省、イスラエルによる米国へのスパイ行為の脅威を最高レベルに引き上げたと情報筋が語る</title>
+      <link>https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</link>
+      <description>📝 当局者と米国の元懸念者1人が参加したと当局者は述べた。当局者や外部専門家らが明らかにした。
+
+
+🔤 Original: Pentagon raised threat of Israeli spying on U.S. to highest level, sources say
+
+🔗 Read more: https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</description>
+      <guid isPermaLink="true">https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</guid>
+      <pubDate>Sat, 06 Jun 2026 18:21:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48427523</comments>
+    </item>
+    <item>
+      <title>走れるよ</title>
+      <link>https://magazine.atavist.com/2026/mccann-cocaine-fugitives</link>
+      <description>📝 彼らの母親が中にいた。リアさんは娘たちに、もう友達には会えないと告げた。彼らの母親は動じなかった。
+
+
+🔤 Original: You Can Run
+
+🔗 Read more: https://magazine.atavist.com/2026/mccann-cocaine-fugitives</description>
+      <guid isPermaLink="true">https://magazine.atavist.com/2026/mccann-cocaine-fugitives</guid>
+      <pubDate>Sat, 06 Jun 2026 15:55:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48426202</comments>
+    </item>
+    <item>
+      <title>MicroPython と WASM を使用してサンドボックスで Python コードを実行する</title>
+      <link>https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</link>
+      <description>📝 サンドボックスに求めるもの 私の目標は、自分の Python アプリケーション内でコードを安全に実行することです。ホスト機能との対話のサポート。 WebAssembly の MicroPython wasmtime などの WebAssembly エンジンは、WebAssembly バイナリを実行します。
+
+
+🔤 Original: Running Python code in a sandbox with MicroPython and WASM
+
+🔗 Read more: https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</guid>
+      <pubDate>Sat, 06 Jun 2026 14:15:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425347</comments>
+    </item>
+    <item>
+      <title>Meta、数千の Instagram アカウントが AI チャットボットを悪用してハッキングされたことを確認</title>
+      <link>https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</link>
+      <description>📝 メタ氏によると、現時点ではハッカーが誰かのパスワードをリセットし、あたかも正当な所有者であるかのようにアカウントを乗っ取る可能性があるという。このニュースレターをサポートしてください。ハッキングが進行中であると一部で報告されていたにもかかわらず、インスタグラムは今週初めにパスワードリセット通知を送信することで影響を受けた個人への通知を開始したと伝えられている。
+
+
+🔤 Original: Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot
+
+🔗 Read more: https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</description>
+      <guid isPermaLink="true">https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</guid>
+      <pubDate>Sat, 06 Jun 2026 18:35:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48427643</comments>
+    </item>
+    <item>
+      <title>ツリーからフローへ、そしてその逆へ: デシジョン ツリーと拡散モデルの統合</title>
+      <link>https://arxiv.org/abs/2605.00414</link>
       <description>📝 ) リトマップ リットマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
 
 
-🔤 Original: Benchmarks in Leipzig
+🔤 Original: Trees to Flows and Back: Unifying Decision Trees and Diffusion Models
 
-🔗 Read more: https://arxiv.org/abs/2606.05818</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.05818</guid>
-      <pubDate>Sat, 06 Jun 2026 14:00:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425247</comments>
+🔗 Read more: https://arxiv.org/abs/2605.00414</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2605.00414</guid>
+      <pubDate>Sat, 06 Jun 2026 12:59:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48424674</comments>
     </item>
     <item>
-      <title>自動車アーティスト、山田次郎へのトリビュート (1960-2025) [ビデオ]</title>
-      <link>https://www.youtube.com/watch?v=rJ2gQ5Md60U</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=rJ2gQ5Md60U</guid>
-      <pubDate>Fri, 05 Jun 2026 20:52:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48418125</comments>
-    </item>
-    <item>
-      <title>AI はウェブを破壊しませんでした。ドットコンはそうしました - AI が音量を上げただけです</title>
-      <link>https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</link>
-      <description>📝 #openweb は、人々が人々とコミュニケーションするという考えに基づいて構築されました。それは私たちにとっても懸念すべきことです。ガバナンスにはコミュニティが必要であることを忘れないでください。
+      <title>Python JIT プロジェクトは開発の一時停止を求められました</title>
+      <link>https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</link>
+      <description>📝 これは細心の注意を払って行われた、難しくて技術的な作業であり、最近のパフォーマンスの向上は現実的で心強いものです。著者が意図的に正式なプロセスを回避したことを示唆しているわけではないことを明確にしておきたいと思います。私たちは、このアプローチが、裏付けとなる PEP のない CPython のメイン ブランチで実験を行うべきではないという、これまでの長年の見解と一致していると考えています。
 
 
-🔤 Original: AI didn't break the web. The dotcons did – AI just turned up the volume
+🔤 Original: Python JIT project was asked to pause development
 
-🔗 Read more: https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</description>
-      <guid isPermaLink="true">https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</guid>
-      <pubDate>Sat, 06 Jun 2026 15:30:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425983</comments>
-    </item>
-    <item>
-      <title>米下院議員、州のAI規制を禁止する法案草案を発表</title>
-      <link>https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</guid>
-      <pubDate>Sat, 06 Jun 2026 13:40:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425031</comments>
-    </item>
-    <item>
-      <title>イングランドとウェールズの警察、法廷陳述でAIの使用を停止するよう指示</title>
-      <link>https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</link>
-      <description>📝 あらゆるデバイスから高品質の FT ジャーナリズムに完全にデジタル アクセスできます。含まれるものを選択グローバル ニュースと分析専門家の意見Android および iOS の FT アプリFT 編集: iOS および Web でアクセスファーストFT: その日の最大のストーリー 20 以上の厳選されたニュースレターmyFTFT ビデオとポッドキャストでトピックをフォローし、アラートを設定共有できる毎月のギフト記事 10 件プレミアム デジタル完全な報道月額 75 ドル業界リーダーによる専門分析を備えた、質の高い FT ジャーナリズムへの完全なデジタル アクセス。含まれるものを選択グローバル ニュースと分析専門家の意見Android および iOS の FT アプリFT 編集: iOS および Web でアクセスファーストFT: その日の最大のニュース 20 件以上の厳選されたニュースレターmyFTFT ビデオとポッドキャストでトピックをフォローし、アラートを設定20 件の月間ギフト記事を共有Lex: FT の主力投資コラム一流の専門家による 15 件以上のプレミアム ニュースレターFT デジタル版: デジタル化された印刷版プレミアムおよび FT ウィークエンド プリント月額 79 ドルのFT 週末新聞の配信土曜日と完全なデジタルアクセス。
-
-
-🔤 Original: Police in England and Wales told to halt AI use in court statements
-
-🔗 Read more: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</description>
-      <guid isPermaLink="true">https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</guid>
-      <pubDate>Sat, 06 Jun 2026 15:35:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48426022</comments>
+🔗 Read more: https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</description>
+      <guid isPermaLink="true">https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</guid>
+      <pubDate>Sat, 06 Jun 2026 15:30:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425982</comments>
     </item>
   </channel>
 </rss>

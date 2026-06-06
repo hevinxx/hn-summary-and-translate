@@ -6,62 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jun 2026 16:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 19:23:42 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Moving beyond fork() + exec()</title>
-      <link>https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</link>
-      <description>📝 This template would be created with the spawn_template_create() system call: struct spawn_template_create_args { __aligned_u64 flags; __s32 execfd; __u32 exec_flags; __aligned_u64 filename; /* Some fields elided */ }; int spawn_template_create(struct spawn_template_create_args *args, size_t args_size); This call will return a file descriptor representing a template for the executable file, which can be specified as either a file descriptor (execfd) or an absolute path (filename), but not both. To create the template, the kernel will open the indicated file and cache a bunch of information that will allow a process to run that file more quickly in the future. The details of a specific invocation must be placed into an instance of this structure: struct spawn_template_spawn_args { __aligned_u64 flags; __aligned_u64 pidfd; __aligned_u64 argv; __aligned_u64 envp; __aligned_u64 actions; __aligned_u64 actions_len; __aligned_u64 reserved[4]; }; The argv field is a pointer to the argument list to be passed to the program, while envp points to its environment.
+      <title>Zeroserve: A zero-config web server you can script with eBPF</title>
+      <link>https://su3.io/posts/introducing-zeroserve</link>
+      <description>📝 Program-as-configuration: your eBPF program is the whole configuration, deciding what happens to each request. zeroserve collapses that into one thing. Here's a script that runs first and enriches every request: #include &lt;zeroserve.
 
-🔗 Read more: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</description>
-      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</guid>
-      <pubDate>Sat, 06 Jun 2026 14:34:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425528</comments>
+🔗 Read more: https://su3.io/posts/introducing-zeroserve</description>
+      <guid isPermaLink="true">https://su3.io/posts/introducing-zeroserve</guid>
+      <pubDate>Sat, 06 Jun 2026 14:59:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425723</comments>
     </item>
     <item>
-      <title>Benchmarks in Leipzig</title>
-      <link>https://arxiv.org/abs/2606.05818</link>
+      <title>Pentagon raised threat of Israeli spying on U.S. to highest level, sources say</title>
+      <link>https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</link>
+      <description>📝 officials and one former U. concerns, the official said. officials and outside experts said.
+
+🔗 Read more: https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</description>
+      <guid isPermaLink="true">https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</guid>
+      <pubDate>Sat, 06 Jun 2026 18:21:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48427523</comments>
+    </item>
+    <item>
+      <title>You Can Run</title>
+      <link>https://magazine.atavist.com/2026/mccann-cocaine-fugitives</link>
+      <description>📝 Their mother was inside. Leah told her daughters that they would never see their friends again. Their mother was unmoved.
+
+🔗 Read more: https://magazine.atavist.com/2026/mccann-cocaine-fugitives</description>
+      <guid isPermaLink="true">https://magazine.atavist.com/2026/mccann-cocaine-fugitives</guid>
+      <pubDate>Sat, 06 Jun 2026 15:55:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48426202</comments>
+    </item>
+    <item>
+      <title>Running Python code in a sandbox with MicroPython and WASM</title>
+      <link>https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</link>
+      <description>📝 What I want from a sandbox My goal is to execute code safely within my own Python applications. Support for interaction with host functions. MicroPython in WebAssembly WebAssembly engines like wasmtime run WebAssembly binaries.
+
+🔗 Read more: https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</guid>
+      <pubDate>Sat, 06 Jun 2026 14:15:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425347</comments>
+    </item>
+    <item>
+      <title>Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot</title>
+      <link>https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</link>
+      <description>📝 At this point, Meta says, the hackers could reset someone's password and take over their account as if they were the rightful owner. PLEASE SUPPORT THIS NEWSLETTER. Instagram reportedly started notifying affected individuals earlier this week by sending a password reset notification, even as some reported that the hacks were ongoing.
+
+🔗 Read more: https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</description>
+      <guid isPermaLink="true">https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</guid>
+      <pubDate>Sat, 06 Jun 2026 18:35:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48427643</comments>
+    </item>
+    <item>
+      <title>Trees to Flows and Back: Unifying Decision Trees and Diffusion Models</title>
+      <link>https://arxiv.org/abs/2605.00414</link>
       <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
 
-🔗 Read more: https://arxiv.org/abs/2606.05818</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.05818</guid>
-      <pubDate>Sat, 06 Jun 2026 14:00:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425247</comments>
+🔗 Read more: https://arxiv.org/abs/2605.00414</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2605.00414</guid>
+      <pubDate>Sat, 06 Jun 2026 12:59:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48424674</comments>
     </item>
     <item>
-      <title>Tribute to Jiro Yamada, Automotive Artist (1960-2025) [video]</title>
-      <link>https://www.youtube.com/watch?v=rJ2gQ5Md60U</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=rJ2gQ5Md60U</guid>
-      <pubDate>Fri, 05 Jun 2026 20:52:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48418125</comments>
-    </item>
-    <item>
-      <title>AI didn't break the web. The dotcons did – AI just turned up the volume</title>
-      <link>https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</link>
-      <description>📝 The #openweb was built around the idea that people communicate with people. That should concern us. To remember that governance requires communities.
+      <title>Python JIT project was asked to pause development</title>
+      <link>https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</link>
+      <description>📝 This has been hard, deeply technical work that has been done with great care, and the recent performance improvements are real and encouraging. We want to be clear that we are not implying that the authors have intentionally bypassed the formal process. We believe this approach is also consistent with our previous long-standing view that experiments should not be done on the main branch of CPython without a backing PEP.
 
-🔗 Read more: https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</description>
-      <guid isPermaLink="true">https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</guid>
-      <pubDate>Sat, 06 Jun 2026 15:30:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425983</comments>
-    </item>
-    <item>
-      <title>US House lawmakers release draft bill to prohibit state AI rules</title>
-      <link>https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</guid>
-      <pubDate>Sat, 06 Jun 2026 13:40:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425031</comments>
-    </item>
-    <item>
-      <title>Police in England and Wales told to halt AI use in court statements</title>
-      <link>https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</link>
-      <description>📝 Complete digital access to quality FT journalism on any device. SelectWhat's included Global news &amp; analysisExpert opinionFT App on Android &amp; iOSFT Edit: Access on iOS and webFirstFT: the day's biggest stories20+ curated newslettersFollow topics &amp; set alerts with myFTFT Videos &amp; Podcasts10 monthly gift articles to sharePremium DigitalComplete coverage$75 per monthComplete digital access to quality FT journalism with expert analysis from industry leaders. SelectWhat's included Global news &amp; analysisExpert opinionFT App on Android &amp; iOSFT Edit: Access on iOS and webFirstFT: the day's biggest stories20+ curated newslettersFollow topics &amp; set alerts with myFTFT Videos &amp; Podcasts20 monthly gift articles to shareLex: FT's flagship investment column15+ Premium newsletters by leading expertsFT Digital Edition: our digitised print editionPremium &amp; FT Weekend Print$79 per monthFT Weekend newspaper delivered Saturday plus complete digital access.
-
-🔗 Read more: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</description>
-      <guid isPermaLink="true">https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</guid>
-      <pubDate>Sat, 06 Jun 2026 15:35:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48426022</comments>
+🔗 Read more: https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</description>
+      <guid isPermaLink="true">https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</guid>
+      <pubDate>Sat, 06 Jun 2026 15:30:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425982</comments>
     </item>
   </channel>
 </rss>

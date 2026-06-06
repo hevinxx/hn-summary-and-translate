@@ -6,74 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 06 Jun 2026 16:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 19:23:42 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>fork() + exec()를 넘어</title>
-      <link>https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</link>
-      <description>📝 이 템플릿은 generate_template_create() 시스템 호출로 생성됩니다: struct generate_template_create_args { __aligned_u64 flags; __s32 excfd; __u32 exec_flags; __aligned_u64 파일 이름; /* 일부 필드는 생략됨 */ }; int generate_template_create(struct generate_template_create_args *args, size_t args_size); 이 호출은 실행 파일의 템플릿을 나타내는 파일 설명자를 반환합니다. 이는 파일 설명자(execfd) 또는 절대 경로(파일 이름)로 지정할 수 있지만 둘 다로 지정할 수는 없습니다. 템플릿을 생성하기 위해 커널은 표시된 파일을 열고 프로세스가 나중에 해당 파일을 더 빠르게 실행할 수 있도록 하는 많은 정보를 캐시합니다. 특정 호출의 세부 사항은 다음 구조의 인스턴스에 배치되어야 합니다: struct generate_template_spawn_args { __aligned_u64 flags; __aligned_u64 pidfd; __aligned_u64 argv; __aligned_u64 envp; __aligned_u64 작업; __aligned_u64 actions_len; __aligned_u64 예약됨[4]; }; argv 필드는 프로그램에 전달될 인수 목록에 대한 포인터이고 envp는 해당 환경을 가리킵니다.
+      <title>Zeroserve: eBPF로 스크립트를 작성할 수 있는 구성이 필요 없는 웹 서버</title>
+      <link>https://su3.io/posts/introducing-zeroserve</link>
+      <description>📝 구성으로서의 프로그램: eBPF 프로그램은 각 요청에 어떤 일이 발생할지 결정하는 전체 구성입니다. zeroserve는 이를 하나로 축소합니다. 다음은 먼저 실행되어 모든 요청을 강화하는 스크립트입니다: #include &lt;zeroserve.
 
 
-🔤 Original: Moving beyond fork() + exec()
+🔤 Original: Zeroserve: A zero-config web server you can script with eBPF
 
-🔗 Read more: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</description>
-      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/</guid>
-      <pubDate>Sat, 06 Jun 2026 14:34:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425528</comments>
+🔗 Read more: https://su3.io/posts/introducing-zeroserve</description>
+      <guid isPermaLink="true">https://su3.io/posts/introducing-zeroserve</guid>
+      <pubDate>Sat, 06 Jun 2026 14:59:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425723</comments>
     </item>
     <item>
-      <title>라이프치히의 벤치마크</title>
-      <link>https://arxiv.org/abs/2606.05818</link>
+      <title>국방부는 이스라엘의 미국 스파이 위협을 최고 수준으로 격상했다고 소식통은 전했다.</title>
+      <link>https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</link>
+      <description>📝 관리들과 한 전직 미국 문제가 있다고 관계자는 말했습니다. 관계자와 외부 전문가는 말했다.
+
+
+🔤 Original: Pentagon raised threat of Israeli spying on U.S. to highest level, sources say
+
+🔗 Read more: https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</description>
+      <guid isPermaLink="true">https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565</guid>
+      <pubDate>Sat, 06 Jun 2026 18:21:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48427523</comments>
+    </item>
+    <item>
+      <title>당신은 달릴 수 있다</title>
+      <link>https://magazine.atavist.com/2026/mccann-cocaine-fugitives</link>
+      <description>📝 그들의 어머니는 안에 있었다. 레아는 딸들에게 다시는 친구들을 볼 수 없을 것이라고 말했습니다. 그들의 어머니는 움직이지 않았습니다.
+
+
+🔤 Original: You Can Run
+
+🔗 Read more: https://magazine.atavist.com/2026/mccann-cocaine-fugitives</description>
+      <guid isPermaLink="true">https://magazine.atavist.com/2026/mccann-cocaine-fugitives</guid>
+      <pubDate>Sat, 06 Jun 2026 15:55:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48426202</comments>
+    </item>
+    <item>
+      <title>MicroPython 및 WASM을 사용하여 샌드박스에서 Python 코드 실행</title>
+      <link>https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</link>
+      <description>📝 샌드박스에서 원하는 것 내 목표는 내 Python 애플리케이션 내에서 코드를 안전하게 실행하는 것입니다. 호스트 기능과의 상호 작용을 지원합니다. wasmtime과 같은 WebAssembly WebAssembly 엔진의 MicroPython은 WebAssembly 바이너리를 실행합니다.
+
+
+🔤 Original: Running Python code in a sandbox with MicroPython and WASM
+
+🔗 Read more: https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</description>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/</guid>
+      <pubDate>Sat, 06 Jun 2026 14:15:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425347</comments>
+    </item>
+    <item>
+      <title>Meta는 AI 챗봇을 악용하여 Instagram 계정 1000개를 해킹했다고 확인했습니다.</title>
+      <link>https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</link>
+      <description>📝 이 시점에서 해커들은 누군가의 비밀번호를 재설정하고 마치 그들이 정당한 소유자인 것처럼 그들의 계정을 탈취할 수 있다고 Meta는 말합니다. 이 뉴스레터를 지지해주세요. 인스타그램은 해킹이 진행 중이라는 일부 보고가 있었음에도 불구하고 이번 주 초에 영향을 받은 개인에게 비밀번호 재설정 알림을 보내 알리기 시작한 것으로 알려졌습니다.
+
+
+🔤 Original: Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot
+
+🔗 Read more: https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</description>
+      <guid isPermaLink="true">https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</guid>
+      <pubDate>Sat, 06 Jun 2026 18:35:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48427643</comments>
+    </item>
+    <item>
+      <title>흐름과 역방향 트리: 의사결정 트리와 확산 모델 통합</title>
+      <link>https://arxiv.org/abs/2605.00414</link>
       <description>📝 ) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?) ScienceCast Toggle ScienceCast(ScienceCast란 무엇입니까?)
 
 
-🔤 Original: Benchmarks in Leipzig
+🔤 Original: Trees to Flows and Back: Unifying Decision Trees and Diffusion Models
 
-🔗 Read more: https://arxiv.org/abs/2606.05818</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.05818</guid>
-      <pubDate>Sat, 06 Jun 2026 14:00:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425247</comments>
+🔗 Read more: https://arxiv.org/abs/2605.00414</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2605.00414</guid>
+      <pubDate>Sat, 06 Jun 2026 12:59:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48424674</comments>
     </item>
     <item>
-      <title>자동차 예술가 야마다 지로(1960-2025)에 대한 헌사 [동영상]</title>
-      <link>https://www.youtube.com/watch?v=rJ2gQ5Md60U</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=rJ2gQ5Md60U</guid>
-      <pubDate>Fri, 05 Jun 2026 20:52:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48418125</comments>
-    </item>
-    <item>
-      <title>AI는 웹을 깨뜨리지 않았습니다. dotcons가 그랬습니다. AI가 방금 볼륨을 높였습니다.</title>
-      <link>https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</link>
-      <description>📝 #오픈웹은 사람과 사람이 소통한다는 생각을 바탕으로 만들어졌습니다. 우리는 그 점에 관심을 가져야 합니다. 거버넌스에는 커뮤니티가 필요하다는 것을 기억하십시오.
+      <title>Python JIT 프로젝트에 개발 일시 중지가 요청되었습니다.</title>
+      <link>https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</link>
+      <description>📝 이것은 매우 조심스럽게 수행된 어렵고 심도 깊은 기술적인 작업이었으며, 최근의 성능 개선은 현실적이고 고무적입니다. 우리는 저자가 의도적으로 공식적인 프로세스를 우회했다는 것을 암시하지 않는다는 점을 분명히 하고 싶습니다. 우리는 이 접근 방식이 지원 PEP 없이 CPython의 메인 브랜치에서 실험을 수행해서는 안 된다는 이전의 오랜 견해와도 일치한다고 믿습니다.
 
 
-🔤 Original: AI didn't break the web. The dotcons did – AI just turned up the volume
+🔤 Original: Python JIT project was asked to pause development
 
-🔗 Read more: https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</description>
-      <guid isPermaLink="true">https://hamishcampbell.com/ai-didnt-break-the-web-the-dotcons-did-ai-just-turned-up-the-volume/</guid>
-      <pubDate>Sat, 06 Jun 2026 15:30:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425983</comments>
-    </item>
-    <item>
-      <title>미 하원 의원, 주정부 AI 규정 금지 법안 초안 공개</title>
-      <link>https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/</guid>
-      <pubDate>Sat, 06 Jun 2026 13:40:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48425031</comments>
-    </item>
-    <item>
-      <title>잉글랜드와 웨일스 경찰은 법원 성명에서 AI 사용을 중단하라는 지시를 받았다.</title>
-      <link>https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</link>
-      <description>📝 모든 기기에서 고품질 FT 저널리즘에 대한 완전한 디지털 액세스를 제공합니다. 포함된 내용 글로벌 뉴스 및 분석전문가 의견Android 및 iOSFT의 FT 앱 편집: iOS 및 웹에서 액세스FirstFT: 오늘의 가장 큰 뉴스 20개 이상의 엄선된 뉴스레터myFTFT 비디오 및 팟캐스트로 주제 팔로우 및 알림 설정월별 선물 기사 10개 공유프리미엄 디지털전체 보도 자료$75/월업계 리더의 전문 분석을 통해 고품질 FT 저널리즘에 대한 디지털 액세스를 완료하세요. 포함된 내용 글로벌 뉴스 및 분석전문가 의견Android 및 iOS의 FT 앱FT 편집: iOS 및 웹에서 액세스FirstFT: 그날의 가장 큰 이야기20개 이상의 엄선된 뉴스레터myFTFT 비디오 및 팟캐스트로 주제 팔로우 및 알림 설정공유할 월간 선물 기사 20개Lex: FT의 주력 투자 칼럼15개 이상의 프리미엄 뉴스레터 FT 디지털 에디션: 디지털화된 인쇄판프리미엄 및 FT 주말 인쇄월 $79FT 주말 신문 배달 토요일과 완벽한 디지털 액세스.
-
-
-🔤 Original: Police in England and Wales told to halt AI use in court statements
-
-🔗 Read more: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</description>
-      <guid isPermaLink="true">https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</guid>
-      <pubDate>Sat, 06 Jun 2026 15:35:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48426022</comments>
+🔗 Read more: https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</description>
+      <guid isPermaLink="true">https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638</guid>
+      <pubDate>Sat, 06 Jun 2026 15:30:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48425982</comments>
     </item>
   </channel>
 </rss>
