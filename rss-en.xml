@@ -6,105 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 20:08:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 22:25:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>GPT-2: Too Dangerous To Release (2019)</title>
-      <link>https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</link>
-      <description>📝 GPT-2 is a direct scale-up of GPT-1, with more parameters and trained on more data. GPT-2 In the GPT-1 paper, they experimented with the model on zero-shot task transfer in that they used the pre-trained model with heuristic solutions to perform specific tasks. Hence, GPT-2 is a direct scale-up of GPT-1, with more parameters and trained on more data.
+      <title>Upcoming breaking changes for NPM v12</title>
+      <link>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</link>
+      <description>📝 Each change turns an npm install behavior that runs automatically today into one you explicitly opt into: allowScripts defaults to off: npm install will no longer execute preinstall, install, or postinstall scripts from dependencies unless they are explicitly allowed in your project. --allow-git defaults to none: npm install will no longer resolve Git dependencies (direct or transitive) unless explicitly allowed via --allow-git. --allow-remote defaults to none: npm install will no longer resolve dependencies from remote URLs, such as https tarballs (direct or transitive), unless explicitly allowed via --allow-remote.
 
-🔗 Read more: https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</description>
-      <guid isPermaLink="true">https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:21:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465269</comments>
+🔗 Read more: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</description>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</guid>
+      <pubDate>Tue, 09 Jun 2026 21:01:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467705</comments>
     </item>
     <item>
-      <title>Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks</title>
-      <link>https://aarushgupta.io/posts/kan-fpga/</link>
-      <description>📝 This makes them ideal for machine learning problems involving large architectures or batch-style training and inference. Background Fixed-point quantization FPGAs and other digital devices fundamentally operate on bits rather than continuous values. Lookup-table neural networks (LUT-NNs) FPGAs implement digital logic primarily through lookup tables (LUTs), which are small components that represent arbitrary binary functions by storing their output for each combination of binary inputs.
+      <title>Exif Smuggling</title>
+      <link>https://github.com/signalblur/exifsmugglingpoc</link>
+      <description>📝 This attack conceals an executable payload inside a JPG's Exif data. txt" Embed payload dll inside arbitrary JPG python3 exif_smuggling. jpg --output-file payload.
 
-🔗 Read more: https://aarushgupta.io/posts/kan-fpga/</description>
-      <guid isPermaLink="true">https://aarushgupta.io/posts/kan-fpga/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:21:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48466277</comments>
+🔗 Read more: https://github.com/signalblur/exifsmugglingpoc</description>
+      <guid isPermaLink="true">https://github.com/signalblur/exifsmugglingpoc</guid>
+      <pubDate>Tue, 09 Jun 2026 21:06:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467759</comments>
     </item>
     <item>
-      <title>What it feels like to work with Mythos</title>
-      <link>https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</link>
-      <description>📝 My conclusion is that it represents a very real leap over every model I have used before, and, maybe more important, suggests our relationship with AI is changing in drastic ways. First, how good is Fable. This time the AI launched a workflow, adversarial groups of agents that did research and tested each others results.
+      <title>If Claude Fable stops helping you, you'll never know</title>
+      <link>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</link>
+      <description>📝 Startups train embedding models. The Anthropic supply chain risk Anthropic says these safeguards only affect 0. Maybe you're not training frontier models today—most companies aren't.
 
-🔗 Read more: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</description>
-      <guid isPermaLink="true">https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</guid>
-      <pubDate>Tue, 09 Jun 2026 17:17:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48464140</comments>
+🔗 Read more: https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</description>
+      <guid isPermaLink="true">https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</guid>
+      <pubDate>Tue, 09 Jun 2026 21:19:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467896</comments>
     </item>
     <item>
-      <title>Flat Datacenter Networks at Scale at Amazon</title>
-      <link>https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</link>
-      <description>📝 This work generated much follow-on work. They achieved dramatically better outcomes when they replaced structure with randomness. For cabling, they developed the ShuffleBox—a passive optical device whose internal wiring combined with randomized ShuffleBox-to-ShuffleBox cabling yields “quasi-random” graphs that behave like truly random graphs.
+      <title>Grit: Rewriting Git in Rust with Agents</title>
+      <link>https://blog.gitbutler.com/true-grit</link>
+      <description>📝 Agent-safe Git with GitButler1 month agoby PJ Hagerty6 min readHow to let coding agents work without wrecking your branches: the real fear is not the code, it’s the Git mess, and the fix is a workflow built for safe review, rollback, and clear task boundaries.
 
-🔗 Read more: https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</description>
-      <guid isPermaLink="true">https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</guid>
-      <pubDate>Tue, 09 Jun 2026 03:39:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48456048</comments>
+🔗 Read more: https://blog.gitbutler.com/true-grit</description>
+      <guid isPermaLink="true">https://blog.gitbutler.com/true-grit</guid>
+      <pubDate>Tue, 09 Jun 2026 19:58:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48466812</comments>
     </item>
     <item>
-      <title>Apple decided not to roll out Siri in EU after denied request for exemption</title>
-      <link>https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:13:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48463024</comments>
+      <title>Alpine Linux 3.24.0 Released</title>
+      <link>https://alpinelinux.org/posts/Alpine-3.24.0-released.html</link>
+      <description>📝 qemu-binfmt service deprecated The qemu-binfmt service from qemu-openrc is deprecated in favor of binfmt. d config files from user mode qemu packages combined with the binfmt service. libsoup 2 has also been removed.
+
+🔗 Read more: https://alpinelinux.org/posts/Alpine-3.24.0-released.html</description>
+      <guid isPermaLink="true">https://alpinelinux.org/posts/Alpine-3.24.0-released.html</guid>
+      <pubDate>Tue, 09 Jun 2026 20:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467570</comments>
     </item>
     <item>
-      <title>The LD_DEBUG environment variable (2012)</title>
-      <link>https://bnikolic.co.uk/blog/linux-ld-debug.html</link>
-      <description>📝 6 28504: trying file=libc. 6 28504: trying file=/home/bnikolic/d/p/R-2. 6 28504: trying file=/home/bnikolic/d/p/R-2.
+      <title>Ask HN: Are you still using a Vision Pro?</title>
+      <link>https://news.ycombinator.com/item?id=48465702</link>
+      <description>📝 Going open face (no lightshield) makes them feel a lot more like magic AR glasses, with the ~95% accurate passthrough. Going open face (no lightshield) makes them feel a lot more like magic AR glasses, with the ~95% accurate passthrough. Going open face (no lightshield) makes them feel a lot more like magic AR glasses, with the ~95% accurate passthrough.
 
-🔗 Read more: https://bnikolic.co.uk/blog/linux-ld-debug.html</description>
-      <guid isPermaLink="true">https://bnikolic.co.uk/blog/linux-ld-debug.html</guid>
-      <pubDate>Tue, 09 Jun 2026 17:29:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48464330</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=48465702</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48465702</guid>
+      <pubDate>Tue, 09 Jun 2026 18:47:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48465702</comments>
     </item>
     <item>
-      <title>Test-case reducers are underappreciated debugging tools</title>
-      <link>https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</link>
-      <description>📝 Fortunately, there are tools that automate the process of reducing test cases: test-case reducers2. The good news is that test-case reducers are not magic. Then it loops over the input.
+      <title>Company Will Add Phone, AirPod, and Smartwatch Trackers to ALPRs</title>
+      <link>https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</link>
+      <description>📝 The technology, called SignalTrace, would turn ALPR cameras from devices focused on tracking cars to ones that can more readily track the location of particular people. ; SignalTrace would make some of those cameras capable of collecting much more data. I would love to hear from you.
 
-🔗 Read more: https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</description>
-      <guid isPermaLink="true">https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</guid>
-      <pubDate>Tue, 09 Jun 2026 11:27:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48459659</comments>
-    </item>
-    <item>
-      <title>CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs</title>
-      <link>https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</link>
-      <description>📝 My anticipatory frustration is that it will probably take significant failures with catastrophic financial and possibly economy-scale destruction before the lesson is learned higher up, whether it’s CEOs learning or boards/investors jettisoning CEOs who haven’t learned, and then it’ll still take time for lower managers at smaller organizations to get the idea that maybe “AI” isn’t a solution to everything. The only thing that seems to mitigate the possibility of a massive awakening is the fact that our society is inured to the idea that incidental tragedy and even intentional cruelty is something we can happily tolerate as long as our lives aren’t overly disrupted. California trying to big brother everyone’s 3D printer is a good indicator that they’ll just take a bumbling “nerd harder” approach.
-
-🔗 Read more: https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</description>
-      <guid isPermaLink="true">https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:45:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465675</comments>
-    </item>
-    <item>
-      <title>How we run untrusted customer code at scale</title>
-      <link>https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</link>
-      <description>📝 They need resumable execution. Isolating untrusted code in a runnerSo we stopped running customer code in the same process as anything that mattered. A dispatcher hands each customer’s code to a runner over HTTP, and a separate runner executes it.
-
-🔗 Read more: https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</description>
-      <guid isPermaLink="true">https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</guid>
-      <pubDate>Tue, 09 Jun 2026 15:31:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48462442</comments>
-    </item>
-    <item>
-      <title>Apple's AI Can Now Change Your Passwords. What Could Possibly Go Wrong?</title>
-      <link>https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</link>
-      <description>📝 That solves a real security problem. Changing the password is authority. Enter the current password.
-
-🔗 Read more: https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</description>
-      <guid isPermaLink="true">https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:50:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465744</comments>
+🔗 Read more: https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</description>
+      <guid isPermaLink="true">https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</guid>
+      <pubDate>Tue, 09 Jun 2026 21:01:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467712</comments>
     </item>
   </channel>
 </rss>

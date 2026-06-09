@@ -6,132 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Jun 2026 20:08:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 22:25:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GPT-2：发布太危险（2019）</title>
-      <link>https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</link>
-      <description>📝 GPT-2 是 GPT-1 的直接扩展，具有更多参数并接受更多数据训练。 GPT-2 在 GPT-1 论文中，他们对零样本任务迁移模型进行了实验，他们使用带有启发式解决方案的预训练模型来执行特定任务。因此，GPT-2 是 GPT-1 的直接扩展，具有更多参数并接受更多数据训练。
+      <title>NPM v12 即将发生的重大更改</title>
+      <link>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</link>
+      <description>📝 每一项更改都会将今天自动运行的 npm install 行为变成您明确选择的行为：allowScripts 默认为关闭：npm install 将不再执行依赖项中的预安装、安装或安装后脚本，除非您的项目中明确允许它们。 --allow-git 默认为 none：npm install 将不再解析 Git 依赖项（直接或传递），除非通过 --allow-git 明确允许。 --allow-remote 默认为 none：npm install 将不再解析来自远程 URL 的依赖项，例如 https tarball（直接或传递），除非通过 --allow-remote 明确允许。
 
 
-🔤 Original: GPT-2: Too Dangerous To Release (2019)
+🔤 Original: Upcoming breaking changes for NPM v12
 
-🔗 Read more: https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</description>
-      <guid isPermaLink="true">https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:21:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465269</comments>
+🔗 Read more: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</description>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</guid>
+      <pubDate>Tue, 09 Jun 2026 21:01:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467705</comments>
     </item>
     <item>
-      <title>通过 Kolmogorov-Arnold 网络在 FPGA 上进行超快机器学习</title>
-      <link>https://aarushgupta.io/posts/kan-fpga/</link>
-      <description>📝 这使它们成为涉及大型架构或批量式训练和推理的机器学习问题的理想选择。背景 定点量化 FPGA 和其他数字设备从根本上来说是基于位而不是连续值进行操作的。查找表神经网络 (LUT-NN) FPGA 主要通过查找表 (LUT) 实现数字逻辑，查找表 (LUT) 是小组件，通过存储每种二进制输入组合的输出来表示任意二进制函数。
+      <title>Exif 走私</title>
+      <link>https://github.com/signalblur/exifsmugglingpoc</link>
+      <description>📝 此攻击将可执行有效负载隐藏在 JPG 的 Exif 数据内。 txt" 将有效负载 dll 嵌入任意 JPG python3 exif_smuggling.jpg --输出文件有效负载。
 
 
-🔤 Original: Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks
+🔤 Original: Exif Smuggling
 
-🔗 Read more: https://aarushgupta.io/posts/kan-fpga/</description>
-      <guid isPermaLink="true">https://aarushgupta.io/posts/kan-fpga/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:21:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48466277</comments>
+🔗 Read more: https://github.com/signalblur/exifsmugglingpoc</description>
+      <guid isPermaLink="true">https://github.com/signalblur/exifsmugglingpoc</guid>
+      <pubDate>Tue, 09 Jun 2026 21:06:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467759</comments>
     </item>
     <item>
-      <title>与 Mythos 合作是什么感觉</title>
-      <link>https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</link>
-      <description>📝 我的结论是，它代表了我之前使用过的每个模型的一个非常真实的飞跃，也许更重要的是，它表明我们与人工智能的关系正在发生巨大的变化。首先，寓言有多好。这次，人工智能启动了一个工作流程，由对抗性的代理组进行研究并测试彼此的结果。
+      <title>如果克劳德寓言不再帮助你，你永远不会知道</title>
+      <link>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</link>
+      <description>📝 初创公司训练嵌入模型。 Anthropic 供应链风险 Anthropic 表示这些保障措施只会影响 0。也许您今天没有训练前沿模型 - 大多数公司都没有。
 
 
-🔤 Original: What it feels like to work with Mythos
+🔤 Original: If Claude Fable stops helping you, you'll never know
 
-🔗 Read more: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</description>
-      <guid isPermaLink="true">https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</guid>
-      <pubDate>Tue, 09 Jun 2026 17:17:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48464140</comments>
+🔗 Read more: https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</description>
+      <guid isPermaLink="true">https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</guid>
+      <pubDate>Tue, 09 Jun 2026 21:19:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467896</comments>
     </item>
     <item>
-      <title>亚马逊的大规模扁平数据中心网络</title>
-      <link>https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</link>
-      <description>📝 这项工作产生了许多后续工作。当他们用随机性取代结构时，他们取得了显着更好的结果。对于布线，他们开发了 ShuffleBox——一种无源光学设备，其内部布线与随机的 ShuffleBox 到 ShuffleBox 布线相结合，产生“准随机”图形，其行为类似于真正的随机图形。
+      <title>Grit：使用 Agent 在 Rust 中重写 Git</title>
+      <link>https://blog.gitbutler.com/true-grit</link>
+      <description>📝 使用 GitButler 进行代理安全的 Git1 个月前作者 PJ Hagerty 6 分钟读过如何让编码代理在不破坏分支的情况下工作：真正的恐惧不是代码，而是 Git 的混乱，而修复方法是为安全审查、回滚和明确任务边界而构建的工作流程。
 
 
-🔤 Original: Flat Datacenter Networks at Scale at Amazon
+🔤 Original: Grit: Rewriting Git in Rust with Agents
 
-🔗 Read more: https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</description>
-      <guid isPermaLink="true">https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</guid>
-      <pubDate>Tue, 09 Jun 2026 03:39:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48456048</comments>
+🔗 Read more: https://blog.gitbutler.com/true-grit</description>
+      <guid isPermaLink="true">https://blog.gitbutler.com/true-grit</guid>
+      <pubDate>Tue, 09 Jun 2026 19:58:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48466812</comments>
     </item>
     <item>
-      <title>苹果在豁免请求遭到拒绝后决定不在欧盟推出 Siri</title>
-      <link>https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:13:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48463024</comments>
+      <title>Alpine Linux 3.24.0 发布</title>
+      <link>https://alpinelinux.org/posts/Alpine-3.24.0-released.html</link>
+      <description>📝 qemu-binfmt 服务已弃用 qemu-openrc 中的 qemu-binfmt 服务已弃用，取而代之的是 binfmt。来自用户模式 ​​qemu 包的 d 配置文件与 binfmt 服务相结合。 libsoup 2 也已被删除。
+
+
+🔤 Original: Alpine Linux 3.24.0 Released
+
+🔗 Read more: https://alpinelinux.org/posts/Alpine-3.24.0-released.html</description>
+      <guid isPermaLink="true">https://alpinelinux.org/posts/Alpine-3.24.0-released.html</guid>
+      <pubDate>Tue, 09 Jun 2026 20:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467570</comments>
     </item>
     <item>
-      <title>LD_DEBUG 环境变量 (2012)</title>
-      <link>https://bnikolic.co.uk/blog/linux-ld-debug.html</link>
-      <description>📝 6 28504：尝试 file=libc。 6 28504：尝试 file=/home/bnikolic/d/p/R-2。 6 28504：尝试 file=/home/bnikolic/d/p/R-2。
+      <title>问 HN：您还在使用 Vision Pro 吗？</title>
+      <link>https://news.ycombinator.com/item?id=48465702</link>
+      <description>📝 开放式面部（无遮光罩）让它们感觉更像神奇的 AR 眼镜，具有约 95% 的准确率。开放式面部（无遮光罩）让它们感觉更像神奇的 AR 眼镜，具有约 95% 的准确率。开放式面部（无遮光罩）让它们感觉更像神奇的 AR 眼镜，具有约 95% 的准确率。
 
 
-🔤 Original: The LD_DEBUG environment variable (2012)
+🔤 Original: Ask HN: Are you still using a Vision Pro?
 
-🔗 Read more: https://bnikolic.co.uk/blog/linux-ld-debug.html</description>
-      <guid isPermaLink="true">https://bnikolic.co.uk/blog/linux-ld-debug.html</guid>
-      <pubDate>Tue, 09 Jun 2026 17:29:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48464330</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=48465702</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48465702</guid>
+      <pubDate>Tue, 09 Jun 2026 18:47:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48465702</comments>
     </item>
     <item>
-      <title>测试用例缩减器是未被充分重视的调试工具</title>
-      <link>https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</link>
-      <description>📝 幸运的是，有一些工具可以自动化减少测试用例的过程：测试用例缩减器2。好消息是测试用例缩减器并不神奇。然后它循环输入。
+      <title>公司将在 ALPR 中添加手机、AirPod 和智能手表追踪器</title>
+      <link>https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</link>
+      <description>📝 这项名为 SignalTrace 的技术将把 ALPR 摄像头从专注于跟踪汽车的设备转变为可以更轻松地跟踪特定人员位置的设备。 ; SignalTrace 将使其中一些相机能够收集更多的数据。我很想听听你的消息。
 
 
-🔤 Original: Test-case reducers are underappreciated debugging tools
+🔤 Original: Company Will Add Phone, AirPod, and Smartwatch Trackers to ALPRs
 
-🔗 Read more: https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</description>
-      <guid isPermaLink="true">https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</guid>
-      <pubDate>Tue, 09 Jun 2026 11:27:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48459659</comments>
-    </item>
-    <item>
-      <title>认为人工智能取代员工的首席执行官都是糟糕的首席执行官</title>
-      <link>https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</link>
-      <description>📝 我预期的挫败感是，在高层吸取教训之前，可能需要发生灾难性的金融和可能的经济规模破坏的重大失败，无论是首席执行官学习还是董事会/投资者抛弃没有吸取教训的首席执行官，然后小型组织的低层管理人员仍然需要时间才能认识到“人工智能”也许并不是解决所有问题的方法。唯一能降低大规模觉醒可能性的事实是，我们的社会已经习惯了这样一种观念：只要我们的生活不被过度干扰，偶然的悲剧甚至故意的残忍行为都是我们可以愉快容忍的。加利福尼亚州试图对所有人的 3D 打印机进行大佬化，这是一个很好的迹象，表明他们只会采取笨手笨脚的“书呆子更努力”的方法。
-
-
-🔤 Original: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs
-
-🔗 Read more: https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</description>
-      <guid isPermaLink="true">https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:45:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465675</comments>
-    </item>
-    <item>
-      <title>我们如何大规模运行不受信任的客户代码</title>
-      <link>https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</link>
-      <description>📝 他们需要可恢复执行。隔离运行程序中不受信任的代码因此，我们停止在与任何重要的进程相同的进程中运行客户代码。调度程序通过 HTTP 将每个客户的代码交给运行程序，然后由单独的运行程序执行。
-
-
-🔤 Original: How we run untrusted customer code at scale
-
-🔗 Read more: https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</description>
-      <guid isPermaLink="true">https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</guid>
-      <pubDate>Tue, 09 Jun 2026 15:31:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48462442</comments>
-    </item>
-    <item>
-      <title>苹果的人工智能现在可以更改你的密码。可能会出现什么问题？</title>
-      <link>https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</link>
-      <description>📝 这解决了真正的安全问题。修改密码就是权限。输入当前密码。
-
-
-🔤 Original: Apple's AI Can Now Change Your Passwords. What Could Possibly Go Wrong?
-
-🔗 Read more: https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</description>
-      <guid isPermaLink="true">https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:50:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465744</comments>
+🔗 Read more: https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</description>
+      <guid isPermaLink="true">https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</guid>
+      <pubDate>Tue, 09 Jun 2026 21:01:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467712</comments>
     </item>
   </channel>
 </rss>

@@ -6,132 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 09 Jun 2026 20:08:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 22:25:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>GPT-2: 공개하기에는 너무 위험함(2019)</title>
-      <link>https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</link>
-      <description>📝 GPT-2는 GPT-1의 직접적인 확장으로, 더 많은 매개변수와 더 많은 데이터에 대한 교육을 제공합니다. GPT-2 GPT-1 논문에서 그들은 특정 작업을 수행하기 위해 휴리스틱 솔루션이 포함된 사전 훈련된 모델을 사용한다는 점에서 제로샷 작업 전송에 대한 모델을 실험했습니다. 따라서 GPT-2는 GPT-1의 직접적인 확장으로 더 많은 매개변수를 사용하고 더 많은 데이터에 대해 교육됩니다.
+      <title>NPM v12에 대한 향후 주요 변경 사항</title>
+      <link>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</link>
+      <description>📝 각 변경 사항은 오늘 자동으로 실행되는 npm 설치 동작을 사용자가 명시적으로 선택한 동작으로 바꿉니다. makeScripts의 기본값은 꺼짐입니다. npm install은 프로젝트에서 명시적으로 허용되지 않는 한 종속성에서 사전 설치, 설치 또는 사후 설치 스크립트를 더 이상 실행하지 않습니다. --allow-git의 기본값은 없음: --allow-git을 통해 명시적으로 허용되지 않는 한 npm install은 더 이상 Git 종속성(직접 또는 전이적)을 해결하지 않습니다. --allow-remote의 기본값은 없음입니다. --allow-remote를 통해 명시적으로 허용되지 않는 한 npm install은 더 이상 https tarball(직접 또는 전이적)과 같은 원격 URL의 종속성을 해결하지 않습니다.
 
 
-🔤 Original: GPT-2: Too Dangerous To Release (2019)
+🔤 Original: Upcoming breaking changes for NPM v12
 
-🔗 Read more: https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</description>
-      <guid isPermaLink="true">https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:21:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465269</comments>
+🔗 Read more: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</description>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</guid>
+      <pubDate>Tue, 09 Jun 2026 21:01:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467705</comments>
     </item>
     <item>
-      <title>Kolmogorov-Arnold Networks를 통한 FPGA의 초고속 기계 학습</title>
-      <link>https://aarushgupta.io/posts/kan-fpga/</link>
-      <description>📝 따라서 대규모 아키텍처 또는 배치 스타일 교육 및 추론과 관련된 기계 학습 문제에 이상적입니다. 배경 고정 소수점 양자화 FPGA 및 기타 디지털 장치는 기본적으로 연속 값이 아닌 비트로 작동합니다. LUT-NN(조회 테이블 신경망) FPGA는 주로 이진 입력의 각 조합에 대한 출력을 저장하여 임의의 이진 함수를 나타내는 작은 구성 요소인 LUT(조회 테이블)를 통해 디지털 논리를 구현합니다.
+      <title>엑시프 밀수</title>
+      <link>https://github.com/signalblur/exifsmugglingpoc</link>
+      <description>📝 이 공격은 JPG의 Exif 데이터 내에 실행 가능한 페이로드를 숨깁니다. txt" 임의의 JPG 안에 페이로드 dll을 삽입합니다. python3 exif_smuggling.jpg --output-file payload.txt
 
 
-🔤 Original: Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks
+🔤 Original: Exif Smuggling
 
-🔗 Read more: https://aarushgupta.io/posts/kan-fpga/</description>
-      <guid isPermaLink="true">https://aarushgupta.io/posts/kan-fpga/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:21:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48466277</comments>
+🔗 Read more: https://github.com/signalblur/exifsmugglingpoc</description>
+      <guid isPermaLink="true">https://github.com/signalblur/exifsmugglingpoc</guid>
+      <pubDate>Tue, 09 Jun 2026 21:06:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467759</comments>
     </item>
     <item>
-      <title>Mythos와 함께 일하는 느낌</title>
-      <link>https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</link>
-      <description>📝 내 결론은 이것이 내가 이전에 사용했던 모든 모델에 비해 매우 실질적인 도약을 의미하며, 아마도 더 중요한 것은 AI와의 관계가 급격한 방식으로 변화하고 있음을 시사한다는 것입니다. 첫째, Fable이 얼마나 좋은가요? 이번에는 AI가 워크플로를 시작하여 서로의 결과를 연구하고 테스트하는 적대적인 에이전트 그룹을 시작했습니다.
+      <title>Claude Fable이 당신을 돕지 않는다면 당신은 결코 알 수 없을 것입니다</title>
+      <link>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</link>
+      <description>📝 스타트업은 임베딩 모델을 교육합니다. Anthropic 공급망 위험 Anthropic은 이러한 보호 장치가 0에만 영향을 미친다고 말합니다. 아마도 오늘날 프론티어 모델을 교육하고 있지 않을 수도 있지만 대부분의 회사는 그렇지 않습니다.
 
 
-🔤 Original: What it feels like to work with Mythos
+🔤 Original: If Claude Fable stops helping you, you'll never know
 
-🔗 Read more: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</description>
-      <guid isPermaLink="true">https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</guid>
-      <pubDate>Tue, 09 Jun 2026 17:17:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48464140</comments>
+🔗 Read more: https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</description>
+      <guid isPermaLink="true">https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</guid>
+      <pubDate>Tue, 09 Jun 2026 21:19:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467896</comments>
     </item>
     <item>
-      <title>Amazon의 대규모 플랫 데이터 센터 네트워크</title>
-      <link>https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</link>
-      <description>📝 이 작업은 많은 후속 작업을 낳았습니다. 그들은 구조를 무작위로 대체했을 때 훨씬 더 나은 결과를 얻었습니다. 케이블링을 위해 그들은 내부 배선이 무작위 ShuffleBox-ShuffleBox 케이블링과 결합되어 진정한 무작위 그래프처럼 동작하는 "준 무작위" 그래프를 생성하는 수동 광학 장치인 ShuffleBox를 개발했습니다.
+      <title>Grit: 에이전트를 사용하여 Rust에서 Git 다시 작성</title>
+      <link>https://blog.gitbutler.com/true-grit</link>
+      <description>📝 GitButler를 사용한 에이전트 안전 Git1개월 전PJ Hagerty 작성6분 읽기브랜치를 손상시키지 않고 코딩 에이전트가 작동하도록 하는 방법: 진짜 두려움은 코드가 아니라 Git 혼란이며, 해결책은 안전한 검토, 롤백 및 명확한 작업 경계를 위해 구축된 워크플로입니다.
 
 
-🔤 Original: Flat Datacenter Networks at Scale at Amazon
+🔤 Original: Grit: Rewriting Git in Rust with Agents
 
-🔗 Read more: https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</description>
-      <guid isPermaLink="true">https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale/</guid>
-      <pubDate>Tue, 09 Jun 2026 03:39:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48456048</comments>
+🔗 Read more: https://blog.gitbutler.com/true-grit</description>
+      <guid isPermaLink="true">https://blog.gitbutler.com/true-grit</guid>
+      <pubDate>Tue, 09 Jun 2026 19:58:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48466812</comments>
     </item>
     <item>
-      <title>Apple은 면제 요청을 거부한 후 EU에서 Siri를 출시하지 않기로 결정했습니다.</title>
-      <link>https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/</link>
-      <guid isPermaLink="true">https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:13:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48463024</comments>
+      <title>알파인 리눅스 3.24.0 출시</title>
+      <link>https://alpinelinux.org/posts/Alpine-3.24.0-released.html</link>
+      <description>📝 qemu-binfmt 서비스는 더 이상 사용되지 않습니다. qemu-openrc의 qemu-binfmt 서비스는 binfmt를 위해 더 이상 사용되지 않습니다. binfmt 서비스와 결합된 사용자 모드 qemu 패키지의 d 구성 파일입니다. libsoup 2도 제거되었습니다.
+
+
+🔤 Original: Alpine Linux 3.24.0 Released
+
+🔗 Read more: https://alpinelinux.org/posts/Alpine-3.24.0-released.html</description>
+      <guid isPermaLink="true">https://alpinelinux.org/posts/Alpine-3.24.0-released.html</guid>
+      <pubDate>Tue, 09 Jun 2026 20:50:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467570</comments>
     </item>
     <item>
-      <title>LD_DEBUG 환경 변수(2012)</title>
-      <link>https://bnikolic.co.uk/blog/linux-ld-debug.html</link>
-      <description>📝 6 28504: 파일=libc를 시도 중입니다. 6 28504: 파일=/home/bnikolic/d/p/R-2를 시도 중입니다. 6 28504: 파일=/home/bnikolic/d/p/R-2를 시도 중입니다.
+      <title>HN에게 물어보세요: 아직도 Vision Pro를 사용하고 계십니까?</title>
+      <link>https://news.ycombinator.com/item?id=48465702</link>
+      <description>📝 전면을 열면(빛 보호막 없음) ~95%의 정확한 통과율을 통해 훨씬 더 마법의 AR 안경처럼 느껴집니다. 전면을 열면(빛 보호막 없음) ~95%의 정확한 통과율을 통해 훨씬 더 마법의 AR 안경처럼 느껴집니다. 전면을 열면(빛 보호막 없음) ~95%의 정확한 통과율을 통해 훨씬 더 마법의 AR 안경처럼 느껴집니다.
 
 
-🔤 Original: The LD_DEBUG environment variable (2012)
+🔤 Original: Ask HN: Are you still using a Vision Pro?
 
-🔗 Read more: https://bnikolic.co.uk/blog/linux-ld-debug.html</description>
-      <guid isPermaLink="true">https://bnikolic.co.uk/blog/linux-ld-debug.html</guid>
-      <pubDate>Tue, 09 Jun 2026 17:29:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48464330</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=48465702</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48465702</guid>
+      <pubDate>Tue, 09 Jun 2026 18:47:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48465702</comments>
     </item>
     <item>
-      <title>테스트 케이스 리듀서는 과소평가된 디버깅 도구입니다.</title>
-      <link>https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</link>
-      <description>📝 다행스럽게도 테스트 케이스 축소 프로세스를 자동화하는 도구가 있습니다: 테스트 케이스 축소기2. 좋은 소식은 테스트 케이스 리듀서가 마법이 아니라는 것입니다. 그런 다음 입력을 반복합니다.
+      <title>회사는 ALPR에 전화, AirPod 및 Smartwatch 추적기를 추가할 예정입니다.</title>
+      <link>https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</link>
+      <description>📝 SignalTrace라고 불리는 이 기술은 ALPR 카메라를 자동차 추적에 초점을 맞춘 장치에서 특정 사람의 위치를 ​​보다 쉽게 ​​추적할 수 있는 장치로 전환합니다. ; SignalTrace는 이러한 카메라 중 일부를 훨씬 더 많은 데이터를 수집할 수 있게 만들 것입니다. 나는 당신의 의견을 듣고 싶습니다.
 
 
-🔤 Original: Test-case reducers are underappreciated debugging tools
+🔤 Original: Company Will Add Phone, AirPod, and Smartwatch Trackers to ALPRs
 
-🔗 Read more: https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</description>
-      <guid isPermaLink="true">https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html</guid>
-      <pubDate>Tue, 09 Jun 2026 11:27:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48459659</comments>
-    </item>
-    <item>
-      <title>AI가 직원을 대체한다고 생각하는 CEO는 나쁜 CEO일 뿐이다</title>
-      <link>https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</link>
-      <description>📝 제가 기대하는 좌절감은 CEO가 학습하든, 이사회/투자자가 배우지 못한 CEO를 버리든, 교훈을 더 높은 곳에서 배우기 전에 치명적인 재정적 및 경제 규모의 파괴로 인해 상당한 실패가 발생할 수 있다는 것입니다. 그런 다음 소규모 조직의 하위 관리자가 "AI"가 모든 것에 대한 해결책이 아닐 수도 있다는 아이디어를 얻는 데 여전히 시간이 걸릴 것입니다. 대규모 각성의 가능성을 완화시키는 유일한 방법은 우리 사회가 우발적인 비극과 심지어 의도적인 잔인함도 우리 삶이 지나치게 방해받지 않는 한 기꺼이 용납할 수 있는 것이라는 생각에 익숙해져 있다는 사실입니다. 캘리포니아가 모든 사람의 3D 프린터를 큰형으로 만들려고 노력하는 것은 그들이 "괴상하고 더 열심히" 접근하는 방식을 취할 것이라는 좋은 지표입니다.
-
-
-🔤 Original: CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs
-
-🔗 Read more: https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</description>
-      <guid isPermaLink="true">https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:45:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465675</comments>
-    </item>
-    <item>
-      <title>신뢰할 수 없는 고객 코드를 대규모로 실행하는 방법</title>
-      <link>https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</link>
-      <description>📝 재개 가능한 실행이 필요합니다. 러너에서 신뢰할 수 없는 코드를 격리하여 중요한 프로세스와 동일한 프로세스에서 고객 코드 실행을 중단했습니다. 디스패처는 HTTP를 통해 각 고객의 코드를 실행자에게 전달하고 별도의 실행자가 이를 실행합니다.
-
-
-🔤 Original: How we run untrusted customer code at scale
-
-🔗 Read more: https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</description>
-      <guid isPermaLink="true">https://nango.dev/blog/how-nango-runs-untrusted-customer-code-at-scale/</guid>
-      <pubDate>Tue, 09 Jun 2026 15:31:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48462442</comments>
-    </item>
-    <item>
-      <title>이제 Apple의 AI가 귀하의 비밀번호를 변경할 수 있습니다. 무엇이 잘못될 수 있나요?</title>
-      <link>https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</link>
-      <description>📝 이는 실제 보안 문제를 해결합니다. 비밀번호를 변경하는 것은 권한입니다. 현재 비밀번호를 입력하세요.
-
-
-🔤 Original: Apple's AI Can Now Change Your Passwords. What Could Possibly Go Wrong?
-
-🔗 Read more: https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</description>
-      <guid isPermaLink="true">https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:50:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465744</comments>
+🔗 Read more: https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</description>
+      <guid isPermaLink="true">https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</guid>
+      <pubDate>Tue, 09 Jun 2026 21:01:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48467712</comments>
     </item>
   </channel>
 </rss>
