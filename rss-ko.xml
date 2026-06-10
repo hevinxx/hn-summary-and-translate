@@ -6,99 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 09 Jun 2026 22:25:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 03:39:55 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>NPM v12에 대한 향후 주요 변경 사항</title>
-      <link>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</link>
-      <description>📝 각 변경 사항은 오늘 자동으로 실행되는 npm 설치 동작을 사용자가 명시적으로 선택한 동작으로 바꿉니다. makeScripts의 기본값은 꺼짐입니다. npm install은 프로젝트에서 명시적으로 허용되지 않는 한 종속성에서 사전 설치, 설치 또는 사후 설치 스크립트를 더 이상 실행하지 않습니다. --allow-git의 기본값은 없음: --allow-git을 통해 명시적으로 허용되지 않는 한 npm install은 더 이상 Git 종속성(직접 또는 전이적)을 해결하지 않습니다. --allow-remote의 기본값은 없음입니다. --allow-remote를 통해 명시적으로 허용되지 않는 한 npm install은 더 이상 https tarball(직접 또는 전이적)과 같은 원격 URL의 종속성을 해결하지 않습니다.
+      <title>macOS 컨테이너 머신</title>
+      <link>https://github.com/apple/container/blob/main/docs/container-machine.md</link>
+      <description>📝 컨테이너 머신 컨테이너 머신은 Mac에서 원활하게 작동하는 고도로 통합된 Linux 환경을 제공합니다. 컨테이너 머신은 Linux 환경을 모델로 합니다. 자체 컨테이너 머신 이미지 가져오기 /sbin/init를 포함하는 모든 Linux 이미지는 컨테이너 머신으로 작동합니다.
 
 
-🔤 Original: Upcoming breaking changes for NPM v12
+🔤 Original: macOS Container Machines
 
-🔗 Read more: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</description>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</guid>
-      <pubDate>Tue, 09 Jun 2026 21:01:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467705</comments>
+🔗 Read more: https://github.com/apple/container/blob/main/docs/container-machine.md</description>
+      <guid isPermaLink="true">https://github.com/apple/container/blob/main/docs/container-machine.md</guid>
+      <pubDate>Wed, 10 Jun 2026 00:29:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48469658</comments>
     </item>
     <item>
-      <title>엑시프 밀수</title>
-      <link>https://github.com/signalblur/exifsmugglingpoc</link>
-      <description>📝 이 공격은 JPG의 Exif 데이터 내에 실행 가능한 페이로드를 숨깁니다. txt" 임의의 JPG 안에 페이로드 dll을 삽입합니다. python3 exif_smuggling.jpg --output-file payload.txt
+      <title>AI 창의성과 발견에 관한 Rich Sutton</title>
+      <link>https://twitter.com/RichardSSutton/status/2061216087744946656</link>
+      <description>📝 아쉽게도 좋은 부분은 참신하지 않고, 새로운 부분은 좋지 않습니다. 이러한 시스템은 참신하고 좋은 결과물을 생산할 수 있지만 동시에는 그렇지 않습니다. 이 모든 시스템은 참신하고 좋은 것을 발견했습니다.
 
 
-🔤 Original: Exif Smuggling
+🔤 Original: Rich Sutton on AI creativity and discovery
 
-🔗 Read more: https://github.com/signalblur/exifsmugglingpoc</description>
-      <guid isPermaLink="true">https://github.com/signalblur/exifsmugglingpoc</guid>
-      <pubDate>Tue, 09 Jun 2026 21:06:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467759</comments>
+🔗 Read more: https://twitter.com/RichardSSutton/status/2061216087744946656</description>
+      <guid isPermaLink="true">https://twitter.com/RichardSSutton/status/2061216087744946656</guid>
+      <pubDate>Wed, 10 Jun 2026 02:25:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48470581</comments>
     </item>
     <item>
-      <title>Claude Fable이 당신을 돕지 않는다면 당신은 결코 알 수 없을 것입니다</title>
-      <link>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</link>
-      <description>📝 스타트업은 임베딩 모델을 교육합니다. Anthropic 공급망 위험 Anthropic은 이러한 보호 장치가 0에만 영향을 미친다고 말합니다. 아마도 오늘날 프론티어 모델을 교육하고 있지 않을 수도 있지만 대부분의 회사는 그렇지 않습니다.
+      <title>독일 판결, AI 개요의 허위 답변에 대해 Google이 책임을 져야 한다고 선언</title>
+      <link>https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</link>
+      <description>📝 이 기사에 대해 물어보세요… 검색 독일 법원은 AI 검색 개요에 대해 Google이 직접적인 책임을 져야 한다고 판결했습니다. 광고 AI 개요는 검색 결과가 아닙니다. Google의 AI 개요는 기존 검색 결과와 전혀 다르게 작동한다고 법원은 주장합니다. 법원은 이를 기각했다.
 
 
-🔤 Original: If Claude Fable stops helping you, you'll never know
+🔤 Original: German ruling declares Google liable for false answers in AI Overviews
 
-🔗 Read more: https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</description>
-      <guid isPermaLink="true">https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</guid>
-      <pubDate>Tue, 09 Jun 2026 21:19:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467896</comments>
+🔗 Read more: https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</description>
+      <guid isPermaLink="true">https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</guid>
+      <pubDate>Wed, 10 Jun 2026 01:44:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48470248</comments>
     </item>
     <item>
-      <title>Grit: 에이전트를 사용하여 Rust에서 Git 다시 작성</title>
-      <link>https://blog.gitbutler.com/true-grit</link>
-      <description>📝 GitButler를 사용한 에이전트 안전 Git1개월 전PJ Hagerty 작성6분 읽기브랜치를 손상시키지 않고 코딩 에이전트가 작동하도록 하는 방법: 진짜 두려움은 코드가 아니라 Git 혼란이며, 해결책은 안전한 검토, 롤백 및 명확한 작업 경계를 위해 구축된 워크플로입니다.
+      <title>RIP 소프트웨어 해커톤. 하드웨어 해커톤이여 영원하라</title>
+      <link>https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</link>
+      <description>📝 우리는 모든 IO와 인터페이스하고 양방향 오디오, 벨 벨소리(사용자 정의 주파수 및 오디오 패턴 포함) 및 끊기 스위치의 모든 것을 제어하는 ​​단일 웹 소켓 연결을 통해 서버와 통신하는 전화기에 Raspberry Pi를 연결했습니다. 불과 12개월 전만 해도 상상할 수 없었던 일이 오늘날의 현실이 되었습니다. 이로 인해 무료 정신 RAM이 실제로 하드웨어 및 물리적 세계와 인터페이스하는 방식을 조작할 수 있게 됩니다.
 
 
-🔤 Original: Grit: Rewriting Git in Rust with Agents
+🔤 Original: RIP software hackathons. Long live the hardware hackathon
 
-🔗 Read more: https://blog.gitbutler.com/true-grit</description>
-      <guid isPermaLink="true">https://blog.gitbutler.com/true-grit</guid>
-      <pubDate>Tue, 09 Jun 2026 19:58:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48466812</comments>
+🔗 Read more: https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</description>
+      <guid isPermaLink="true">https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</guid>
+      <pubDate>Tue, 09 Jun 2026 22:35:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48468766</comments>
     </item>
     <item>
-      <title>알파인 리눅스 3.24.0 출시</title>
-      <link>https://alpinelinux.org/posts/Alpine-3.24.0-released.html</link>
-      <description>📝 qemu-binfmt 서비스는 더 이상 사용되지 않습니다. qemu-openrc의 qemu-binfmt 서비스는 binfmt를 위해 더 이상 사용되지 않습니다. binfmt 서비스와 결합된 사용자 모드 qemu 패키지의 d 구성 파일입니다. libsoup 2도 제거되었습니다.
+      <title>그것은 죽음이다</title>
+      <link>https://jesseduffield.com/ITS-DEATH/</link>
+      <description>📝 그것은 나의 주로 사용되는 손이기도 했습니다. 하지만 이런 일이 발생하면 계속해서 앞으로 나아가야 합니다. ’ 망토를 입은 인물이 묻는다.
 
 
-🔤 Original: Alpine Linux 3.24.0 Released
+🔤 Original: It's death
 
-🔗 Read more: https://alpinelinux.org/posts/Alpine-3.24.0-released.html</description>
-      <guid isPermaLink="true">https://alpinelinux.org/posts/Alpine-3.24.0-released.html</guid>
-      <pubDate>Tue, 09 Jun 2026 20:50:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467570</comments>
+🔗 Read more: https://jesseduffield.com/ITS-DEATH/</description>
+      <guid isPermaLink="true">https://jesseduffield.com/ITS-DEATH/</guid>
+      <pubDate>Tue, 09 Jun 2026 23:44:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48469347</comments>
     </item>
     <item>
-      <title>HN에게 물어보세요: 아직도 Vision Pro를 사용하고 계십니까?</title>
-      <link>https://news.ycombinator.com/item?id=48465702</link>
-      <description>📝 전면을 열면(빛 보호막 없음) ~95%의 정확한 통과율을 통해 훨씬 더 마법의 AR 안경처럼 느껴집니다. 전면을 열면(빛 보호막 없음) ~95%의 정확한 통과율을 통해 훨씬 더 마법의 AR 안경처럼 느껴집니다. 전면을 열면(빛 보호막 없음) ~95%의 정확한 통과율을 통해 훨씬 더 마법의 AR 안경처럼 느껴집니다.
+      <title>HN 표시: Nucleus – 보안이 강화된 Nix 기반 컨테이너 런타임</title>
+      <link>https://github.com/sig-id/nucleus</link>
+      <description>📝 Nucleus 에이전트 및 프로덕션 서비스를 위한 매우 가볍고 보안이 강화된 선언적 컨테이너 런타임 Nucleus는 Linux용 최소 컨테이너 런타임입니다. 096 ms Nucleus 작업자 105,965 0. 전체 결과: benches/pg18_io/results/ Why Nucleus.
 
 
-🔤 Original: Ask HN: Are you still using a Vision Pro?
+🔤 Original: Show HN: Nucleus – A security-hardened, Nix-native container runtime
 
-🔗 Read more: https://news.ycombinator.com/item?id=48465702</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48465702</guid>
-      <pubDate>Tue, 09 Jun 2026 18:47:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465702</comments>
-    </item>
-    <item>
-      <title>회사는 ALPR에 전화, AirPod 및 Smartwatch 추적기를 추가할 예정입니다.</title>
-      <link>https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</link>
-      <description>📝 SignalTrace라고 불리는 이 기술은 ALPR 카메라를 자동차 추적에 초점을 맞춘 장치에서 특정 사람의 위치를 ​​보다 쉽게 ​​추적할 수 있는 장치로 전환합니다. ; SignalTrace는 이러한 카메라 중 일부를 훨씬 더 많은 데이터를 수집할 수 있게 만들 것입니다. 나는 당신의 의견을 듣고 싶습니다.
-
-
-🔤 Original: Company Will Add Phone, AirPod, and Smartwatch Trackers to ALPRs
-
-🔗 Read more: https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</description>
-      <guid isPermaLink="true">https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</guid>
-      <pubDate>Tue, 09 Jun 2026 21:01:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467712</comments>
+🔗 Read more: https://github.com/sig-id/nucleus</description>
+      <guid isPermaLink="true">https://github.com/sig-id/nucleus</guid>
+      <pubDate>Tue, 09 Jun 2026 23:03:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48469039</comments>
     </item>
   </channel>
 </rss>

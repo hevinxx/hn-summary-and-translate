@@ -6,99 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Jun 2026 22:25:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 03:39:55 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>NPM v12 即将发生的重大更改</title>
-      <link>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</link>
-      <description>📝 每一项更改都会将今天自动运行的 npm install 行为变成您明确选择的行为：allowScripts 默认为关闭：npm install 将不再执行依赖项中的预安装、安装或安装后脚本，除非您的项目中明确允许它们。 --allow-git 默认为 none：npm install 将不再解析 Git 依赖项（直接或传递），除非通过 --allow-git 明确允许。 --allow-remote 默认为 none：npm install 将不再解析来自远程 URL 的依赖项，例如 https tarball（直接或传递），除非通过 --allow-remote 明确允许。
+      <title>macOS 容器机</title>
+      <link>https://github.com/apple/container/blob/main/docs/container-machine.md</link>
+      <description>📝 容器机 容器机提供高度集成的 Linux 环境，可在您的 Mac 上无缝运行。容器机器是根据 Linux 环境建模的。携带您自己的容器计算机映像任何包含 /sbin/init 的 Linux 映像都可以用作容器计算机。
 
 
-🔤 Original: Upcoming breaking changes for NPM v12
+🔤 Original: macOS Container Machines
 
-🔗 Read more: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</description>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</guid>
-      <pubDate>Tue, 09 Jun 2026 21:01:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467705</comments>
+🔗 Read more: https://github.com/apple/container/blob/main/docs/container-machine.md</description>
+      <guid isPermaLink="true">https://github.com/apple/container/blob/main/docs/container-machine.md</guid>
+      <pubDate>Wed, 10 Jun 2026 00:29:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48469658</comments>
     </item>
     <item>
-      <title>Exif 走私</title>
-      <link>https://github.com/signalblur/exifsmugglingpoc</link>
-      <description>📝 此攻击将可执行有效负载隐藏在 JPG 的 Exif 数据内。 txt" 将有效负载 dll 嵌入任意 JPG python3 exif_smuggling.jpg --输出文件有效负载。
+      <title>Rich Sutton 谈人工智能创造力和发现</title>
+      <link>https://twitter.com/RichardSSutton/status/2061216087744946656</link>
+      <description>📝 不幸的是，好的部分并不新颖，新颖的部分也并不好。这些系统可以产生既新颖又好的输出，但不能同时产生。所有这些系统都发现了既新颖又好的东西。
 
 
-🔤 Original: Exif Smuggling
+🔤 Original: Rich Sutton on AI creativity and discovery
 
-🔗 Read more: https://github.com/signalblur/exifsmugglingpoc</description>
-      <guid isPermaLink="true">https://github.com/signalblur/exifsmugglingpoc</guid>
-      <pubDate>Tue, 09 Jun 2026 21:06:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467759</comments>
+🔗 Read more: https://twitter.com/RichardSSutton/status/2061216087744946656</description>
+      <guid isPermaLink="true">https://twitter.com/RichardSSutton/status/2061216087744946656</guid>
+      <pubDate>Wed, 10 Jun 2026 02:25:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48470581</comments>
     </item>
     <item>
-      <title>如果克劳德寓言不再帮助你，你永远不会知道</title>
-      <link>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</link>
-      <description>📝 初创公司训练嵌入模型。 Anthropic 供应链风险 Anthropic 表示这些保障措施只会影响 0。也许您今天没有训练前沿模型 - 大多数公司都没有。
+      <title>德国裁决宣布谷歌对人工智能概述中的错误答案承担责任</title>
+      <link>https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</link>
+      <description>📝 询问这篇文章... 搜索 德国一家法院裁定，谷歌对其人工智能搜索概述的内容负有直接责任。广告人工智能概述不是搜索结果 法院认为，谷歌的人工智能概述与传统搜索结果完全不同。法院驳回了这一点。
 
 
-🔤 Original: If Claude Fable stops helping you, you'll never know
+🔤 Original: German ruling declares Google liable for false answers in AI Overviews
 
-🔗 Read more: https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</description>
-      <guid isPermaLink="true">https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</guid>
-      <pubDate>Tue, 09 Jun 2026 21:19:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467896</comments>
+🔗 Read more: https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</description>
+      <guid isPermaLink="true">https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</guid>
+      <pubDate>Wed, 10 Jun 2026 01:44:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48470248</comments>
     </item>
     <item>
-      <title>Grit：使用 Agent 在 Rust 中重写 Git</title>
-      <link>https://blog.gitbutler.com/true-grit</link>
-      <description>📝 使用 GitButler 进行代理安全的 Git1 个月前作者 PJ Hagerty 6 分钟读过如何让编码代理在不破坏分支的情况下工作：真正的恐惧不是代码，而是 Git 的混乱，而修复方法是为安全审查、回滚和明确任务边界而构建的工作流程。
+      <title>RIP 软件黑客马拉松。硬件黑客马拉松万岁</title>
+      <link>https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</link>
+      <description>📝 我们将 Raspberry Pi 连接到手机，该手机与其所有 IO 接口，并通过单个 Websocket 连接与我们的服务器通信，该连接控制从双向音频、铃声（具有自定义频率和音频模式）和挂断开关等所有内容。 12 个月前还闻所未闻的事情如今已成为现实。这使得空闲的心理 RAM 可以真正迷恋硬件以及它与物理世界的交互方式。
 
 
-🔤 Original: Grit: Rewriting Git in Rust with Agents
+🔤 Original: RIP software hackathons. Long live the hardware hackathon
 
-🔗 Read more: https://blog.gitbutler.com/true-grit</description>
-      <guid isPermaLink="true">https://blog.gitbutler.com/true-grit</guid>
-      <pubDate>Tue, 09 Jun 2026 19:58:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48466812</comments>
+🔗 Read more: https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</description>
+      <guid isPermaLink="true">https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</guid>
+      <pubDate>Tue, 09 Jun 2026 22:35:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48468766</comments>
     </item>
     <item>
-      <title>Alpine Linux 3.24.0 发布</title>
-      <link>https://alpinelinux.org/posts/Alpine-3.24.0-released.html</link>
-      <description>📝 qemu-binfmt 服务已弃用 qemu-openrc 中的 qemu-binfmt 服务已弃用，取而代之的是 binfmt。来自用户模式 ​​qemu 包的 d 配置文件与 binfmt 服务相结合。 libsoup 2 也已被删除。
+      <title>这是死亡</title>
+      <link>https://jesseduffield.com/ITS-DEATH/</link>
+      <description>📝 那也是我的惯用手。但当这些事情发生时，你必须继续前进。 ”披着斗篷的人问道。
 
 
-🔤 Original: Alpine Linux 3.24.0 Released
+🔤 Original: It's death
 
-🔗 Read more: https://alpinelinux.org/posts/Alpine-3.24.0-released.html</description>
-      <guid isPermaLink="true">https://alpinelinux.org/posts/Alpine-3.24.0-released.html</guid>
-      <pubDate>Tue, 09 Jun 2026 20:50:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467570</comments>
+🔗 Read more: https://jesseduffield.com/ITS-DEATH/</description>
+      <guid isPermaLink="true">https://jesseduffield.com/ITS-DEATH/</guid>
+      <pubDate>Tue, 09 Jun 2026 23:44:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48469347</comments>
     </item>
     <item>
-      <title>问 HN：您还在使用 Vision Pro 吗？</title>
-      <link>https://news.ycombinator.com/item?id=48465702</link>
-      <description>📝 开放式面部（无遮光罩）让它们感觉更像神奇的 AR 眼镜，具有约 95% 的准确率。开放式面部（无遮光罩）让它们感觉更像神奇的 AR 眼镜，具有约 95% 的准确率。开放式面部（无遮光罩）让它们感觉更像神奇的 AR 眼镜，具有约 95% 的准确率。
+      <title>显示 HN：Nucleus – 安全性强化的 Nix 原生容器运行时</title>
+      <link>https://github.com/sig-id/nucleus</link>
+      <description>📝 Nucleus 用于代理和生产服务的极其轻量级、安全强化的声明式容器运行时 Nucleus 是 Linux 的极简容器运行时。 096 ms Nucleus 工作人员 105,965 0。完整结果：benches/pg18_io/results/ Why Nucleus。
 
 
-🔤 Original: Ask HN: Are you still using a Vision Pro?
+🔤 Original: Show HN: Nucleus – A security-hardened, Nix-native container runtime
 
-🔗 Read more: https://news.ycombinator.com/item?id=48465702</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48465702</guid>
-      <pubDate>Tue, 09 Jun 2026 18:47:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48465702</comments>
-    </item>
-    <item>
-      <title>公司将在 ALPR 中添加手机、AirPod 和智能手表追踪器</title>
-      <link>https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</link>
-      <description>📝 这项名为 SignalTrace 的技术将把 ALPR 摄像头从专注于跟踪汽车的设备转变为可以更轻松地跟踪特定人员位置的设备。 ; SignalTrace 将使其中一些相机能够收集更多的数据。我很想听听你的消息。
-
-
-🔤 Original: Company Will Add Phone, AirPod, and Smartwatch Trackers to ALPRs
-
-🔗 Read more: https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</description>
-      <guid isPermaLink="true">https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</guid>
-      <pubDate>Tue, 09 Jun 2026 21:01:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48467712</comments>
+🔗 Read more: https://github.com/sig-id/nucleus</description>
+      <guid isPermaLink="true">https://github.com/sig-id/nucleus</guid>
+      <pubDate>Tue, 09 Jun 2026 23:03:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48469039</comments>
     </item>
   </channel>
 </rss>
