@@ -6,87 +6,42 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 13 Jun 2026 19:25:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 22:04:01 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ゲームボーイ ワークボーイ</title>
-      <link>https://tcrf.net/Workboy</link>
-      <guid isPermaLink="true">https://tcrf.net/Workboy</guid>
-      <pubDate>Sat, 13 Jun 2026 17:43:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48519552</comments>
-    </item>
-    <item>
-      <title>破産せずに自宅で AI コーディングを実現</title>
-      <link>https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/</link>
-      <description>📝 マシンを購入し、オープンソース モデルをローカルで実行すれば、その後はトークンごとに料金を支払う必要はありません。 2 つ目は、ハードウェアを省略して、同じオープンソース モデルをプロバイダーから API 料金でレンタルすることです。真剣に考えたり仕様を書いたりするためにいくつかのフロンティア サブスクリプションを維持し、小さな機械部品を処理するオープン ソース モデルに対して API 料金を支払います。
-
-
-🔤 Original: AI Coding at Home Without Going Broke
-
-🔗 Read more: https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/</description>
-      <guid isPermaLink="true">https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/</guid>
-      <pubDate>Sat, 13 Jun 2026 16:45:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48518969</comments>
-    </item>
-    <item>
-      <title>DIY x86-Bios を使用して Behringers DDX3216 で DOS をゼロから実行する</title>
-      <link>https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/</link>
-      <description>📝 次に私が試みたのは、SC300 をサポートする「組み込み BIOS」を提供する会社「General Software」に連絡することでした。このリセット ベクトルから、次に実行する必要があるコード (BIOS の ROM 内のどこか) にジャンプする必要があります。 ascii "06/04/26" // MM/DD/YY このコードはハードウェア割り込みを無効にし、開始関数内の他のコードにジャンプします。
-
-
-🔤 Original: Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch
-
-🔗 Read more: https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/</description>
-      <guid isPermaLink="true">https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/</guid>
-      <pubDate>Sat, 13 Jun 2026 18:32:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48520080</comments>
-    </item>
-    <item>
-      <title>Intel の 8087 浮動小数点チップの中心となる加算器</title>
-      <link>https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html</link>
-      <description>📝 (これは、長い加算で 999999+1 を実行するのと似ています。1 を運び、1 を運び、という必要があります。しかし、キャリー回路内で何が起こっているのか。マンチェスター キャリー チェーンの背後にある考え方。
-
-
-🔤 Original: The adder at the heart of Intel's 8087 floating-point chip
-
-🔗 Read more: https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html</description>
-      <guid isPermaLink="true">https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html</guid>
-      <pubDate>Sat, 13 Jun 2026 16:49:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48519011</comments>
-    </item>
-    <item>
-      <title>GLM 5.2 がリリースされました</title>
-      <link>https://digg.com/tech/ii9xibgn</link>
-      <description>📝 ai@Zai_orgIntelligence はオープンでアクセス可能で、いつでも構築できるようにして、どこにいてもすべての開発者に力を与える必要があります。 API およびチャットボット サービスは来週開始されます。このモデルは来週、MIT ライセンスの下で正式にオープンソース化される予定です。
-
-
-🔤 Original: GLM 5.2 Is Out
-
-🔗 Read more: https://digg.com/tech/ii9xibgn</description>
-      <guid isPermaLink="true">https://digg.com/tech/ii9xibgn</guid>
-      <pubDate>Sat, 13 Jun 2026 16:18:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48518684</comments>
-    </item>
-    <item>
-      <title>アマゾンCEOと米国当局者との会談で人体モデルへの取り締まりが始まった</title>
-      <link>https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578</link>
-      <guid isPermaLink="true">https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578</guid>
+      <title>アマゾンCEOと米国当局者との会談が人間モデルへの取り締まりを引き起こした</title>
+      <link>https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&amp;reflink=desktopwebshare_permalink</link>
+      <guid isPermaLink="true">https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&amp;reflink=desktopwebshare_permalink</guid>
       <pubDate>Sat, 13 Jun 2026 16:57:49 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=48519092</comments>
     </item>
     <item>
-      <title>PwC レポート: AI による医療費の高騰</title>
-      <link>https://fortune.com/2026/06/12/ai-making-medical-bills-higher/</link>
-      <description>📝 これは、AI がタスクを効率化するだけでなく、セクターの収益を高めるためのより詳細な方法を見つけることにも非常に優れていることを示す一例です。主な理由: AI メモ作成ツールは、急いでいる人間の臨床医が 1 つの広範な「コード」、つまり保険会社に何を支払うかを指示する標準化された請求ラベルにまとめてしまう可能性のある診断や合併症について、より詳細に文書化しています。 ” —WK このレポートは元々 Tech Brew によって発行されたものです。
+      <title>複数の事件で「証拠作成」にAIを使用したとして警察官が捜査される</title>
+      <link>https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661</link>
+      <guid isPermaLink="true">https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661</guid>
+      <pubDate>Sat, 13 Jun 2026 19:54:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48520807</comments>
+    </item>
+    <item>
+      <title>GLM 5.2 がリリースされました</title>
+      <link>https://twitter.com/jietang/status/2065784751345287314</link>
+      <description>📝 2 が全開、フロンティア インテリジェンスはみんなのもの 今日、特定のフロンティア モデルが突然制限されたことは非常に残念です。フロンティア インテリジェンスはオープンソースであり、アクセス可能で構築可能であり、すべての専任開発者にサービスを提供する必要があります。誰もがフロンティアインテリジェンスに一歩近づきます。
 
 
-🔤 Original: PwC Report: AI Making Medical Bills Higher
+🔤 Original: GLM 5.2 Is Out
 
-🔗 Read more: https://fortune.com/2026/06/12/ai-making-medical-bills-higher/</description>
-      <guid isPermaLink="true">https://fortune.com/2026/06/12/ai-making-medical-bills-higher/</guid>
-      <pubDate>Sat, 13 Jun 2026 17:39:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48519519</comments>
+🔗 Read more: https://twitter.com/jietang/status/2065784751345287314</description>
+      <guid isPermaLink="true">https://twitter.com/jietang/status/2065784751345287314</guid>
+      <pubDate>Sat, 13 Jun 2026 16:18:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48518684</comments>
+    </item>
+    <item>
+      <title>暑すぎて働けないとき、経済はどうなるでしょうか?</title>
+      <link>https://www.bloomberg.com/news/features/2026-06-12/india-s-extreme-heat-is-hurting-its-economy-and-workers</link>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/features/2026-06-12/india-s-extreme-heat-is-hurting-its-economy-and-workers</guid>
+      <pubDate>Sat, 13 Jun 2026 18:35:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48520110</comments>
     </item>
   </channel>
 </rss>
