@@ -6,93 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Jun 2026 08:59:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 11:17:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>离开 Mozilla</title>
-      <link>https://blog.unitedheroes.net/5751</link>
-      <description>📝 这正如他们所希望的那样。他们这样做是因为他们不想使用触手可及的浏览器。不关心这一点的人已经在使用那些大型浏览器了。
+      <title>Show HN：Paca – 用于人机协作的轻量级 Jira 替代方案</title>
+      <link>https://github.com/Paca-AI/paca</link>
+      <description>📝 Paca 为您的人工智能代理提供了一席之地。完全可定制 - 配置和插件 Paca 作为一个小型、专注的核心提供。检查 QA 代理是否运行自动验证。
 
 
-🔤 Original: Leaving Mozilla
+🔤 Original: Show HN: Paca – Lightweight Jira alternative for human-AI collaboration
 
-🔗 Read more: https://blog.unitedheroes.net/5751</description>
-      <guid isPermaLink="true">https://blog.unitedheroes.net/5751</guid>
-      <pubDate>Sat, 13 Jun 2026 05:57:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48513806</comments>
+🔗 Read more: https://github.com/Paca-AI/paca</description>
+      <guid isPermaLink="true">https://github.com/Paca-AI/paca</guid>
+      <pubDate>Sat, 13 Jun 2026 09:44:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48515385</comments>
     </item>
     <item>
-      <title>牧羊犬：最危险的人工智能模型的游戏</title>
-      <link>https://koenvangilst.nl/lab/claude-fable-shepherds-dog</link>
-      <description>📝 零依赖的 html。 io/when-ai-fails/shepards-dog/claude-fable-5/index.html html 对早期模型的其他尝试：github。
+      <title>来自退役手机的低碳计算平台</title>
+      <link>https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/</link>
+      <description>📝 在谷歌的支持下，该大学计划部署一个由 2000 部 Pixel 智能手机构建的数据中心，为数百名研究人员和学生提供低成本、低碳的云计算，减少对新制造硬件的需求及其相关排放。该博客讨论了一种新颖的策略：为云计算应用程序重新部署不需要的智能手机。从消费设备到数据中心硬件使用 SPEC 基准测试套件将现代智能手机 (2023 Pixel Fold) 与服务器 (ASUS RS720A-E11) 的单线程性能进行比较。
 
 
-🔤 Original: Shepherd's Dog: A Game by the Most Dangerous AI Model
+🔤 Original: A low-carbon computing platform from your retired phones
 
-🔗 Read more: https://koenvangilst.nl/lab/claude-fable-shepherds-dog</description>
-      <guid isPermaLink="true">https://koenvangilst.nl/lab/claude-fable-shepherds-dog</guid>
-      <pubDate>Sat, 13 Jun 2026 05:44:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48513728</comments>
-    </item>
-    <item>
-      <title>这个寓言故事上笼罩着阴影</title>
-      <link>https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow</link>
-      <description>📝 这个模型已经不存在了。对此有几点想法。但这个政府已经证明了自己。
-
-
-🔤 Original: There is a shadow hanging over this Fable thing
-
-🔗 Read more: https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow</description>
-      <guid isPermaLink="true">https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow</guid>
-      <pubDate>Sat, 13 Jun 2026 05:16:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48513536</comments>
-    </item>
-    <item>
-      <title>以色列公司 BlackCore 涉嫌干预纽约和苏格兰投票</title>
-      <link>https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/</link>
-      <guid isPermaLink="true">https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/</guid>
-      <pubDate>Sat, 13 Jun 2026 07:45:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48514560</comments>
-    </item>
-    <item>
-      <title>关于 CPU 物理和 CPU 周期</title>
-      <link>https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730</link>
-      <description>📝 1L1D/L1IL1 缓存通常分为 L1 数据缓存 (L1D) 和 L1 指令缓存 (L1I)。从图中可以看出，关于 ALU 的一件有趣的事情是，通常有多个 ALU（也有多个 SIMD 单元）；这表明我们的 CPU 是超标量 CPU，可以同时处理多个 ALU 级操作 1 反过来，这意味着完全有可能在同一个 CPU 周期内完成多个操作；这可能会导致一些反直觉的观察结果，即在微基准测试中，某些操作可能需要一些非整数的周期数（例如 0. 75）；这并不意味着某些操作实际上花费了不到一个周期；相反，从统计上来说，CPU 已设法安排事物，使其平均在 3 个周期内执行 4 次操作。
-
-
-🔤 Original: On CPU Physics and CPU Cycles
-
-🔗 Read more: https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730</description>
-      <guid isPermaLink="true">https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730</guid>
-      <pubDate>Sat, 13 Jun 2026 04:37:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48513222</comments>
-    </item>
-    <item>
-      <title>Show HN：让你的智能体可视化你的 gbrain 和 Obsidian 的技能</title>
-      <link>https://github.com/vladignatyev/brain-map-skill</link>
-      <description>📝 打开文件：打开 demo/brain-map. html # macOS xdg-open 演示/brain-map. html # Linux 启动 demo/brain-map.
-
-
-🔤 Original: Show HN: Skill for your agent to visualize your gbrain and Obsidian
-
-🔗 Read more: https://github.com/vladignatyev/brain-map-skill</description>
-      <guid isPermaLink="true">https://github.com/vladignatyev/brain-map-skill</guid>
-      <pubDate>Sat, 13 Jun 2026 06:43:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48514124</comments>
-    </item>
-    <item>
-      <title>C 中的通用动态数组，不存储容量且不需要结构</title>
-      <link>https://gist.github.com/alurm/2ca14be134d719fe7431217a6b18d91e</link>
-      <description>📝 C 中的通用动态数组，不存储容量且不需要结构体 以下标头显示了使用两个指针的数组在 C 中创建通用动态数组的方法：第一个指针存储动态数组的长度；第一个指针存储动态数组的长度。第二个指针指向数据。 (uintptr_t)vec[0] 是数组的长度，vec[1] 是数组。由于指针用于存储动态数组的长度（作为 uintptr_t），因此这依赖于实现定义的行为，即从指针读取的 uintptr_t 长度必须与存储的长度相同。
-
-
-🔤 Original: A generic dynamic array in C that stores no capacity and needs no struct
-
-🔗 Read more: https://gist.github.com/alurm/2ca14be134d719fe7431217a6b18d91e</description>
-      <guid isPermaLink="true">https://gist.github.com/alurm/2ca14be134d719fe7431217a6b18d91e</guid>
-      <pubDate>Sat, 13 Jun 2026 02:50:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48512286</comments>
+🔗 Read more: https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/</description>
+      <guid isPermaLink="true">https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/</guid>
+      <pubDate>Sat, 13 Jun 2026 09:38:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48515336</comments>
     </item>
   </channel>
 </rss>
