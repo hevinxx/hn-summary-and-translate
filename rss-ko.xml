@@ -6,80 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 14 Jun 2026 19:26:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 22:10:41 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>HN 표시: Kage – 오프라인 보기를 위해 모든 웹사이트를 단일 바이너리로 섀도우 처리합니다.</title>
-      <link>https://github.com/tamnd/kage</link>
-      <description>📝 io/tamnd/kage 클론 paulgraham. com/ kage clone paulgraham. 짐 케이지 오픈 폴그레이엄.
+      <title>Zinnia: Rust로 작성된 모듈식 64비트 Unix 계열 커널</title>
+      <link>https://zinnia-os.org/</link>
+      <description>📝 이는 Linux 시스템과 유사하게 initrd에서 부팅하는 동안 로드되고 연결되는 Rust ELF dylib입니다. Zinnia는 Limine 부트로더 덕분에 모든 UEFI 기반 시스템에서 부팅할 수 있습니다. 저는 시스템 프로그래밍에 대해 더 많이 배우기 위해 2024년에 이 프로젝트를 시작했지만 시간이 지나면서 점점 더 많은 기능을 얻게 되었습니다.
 
 
-🔤 Original: Show HN: Kage – Shadow any website to a single binary for offline viewing
+🔤 Original: Zinnia: A modular 64-bit Unix-like kernel written in Rust
 
-🔗 Read more: https://github.com/tamnd/kage</description>
-      <guid isPermaLink="true">https://github.com/tamnd/kage</guid>
-      <pubDate>Sun, 14 Jun 2026 17:25:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48529990</comments>
+🔗 Read more: https://zinnia-os.org/</description>
+      <guid isPermaLink="true">https://zinnia-os.org/</guid>
+      <pubDate>Sun, 14 Jun 2026 21:04:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48532705</comments>
     </item>
     <item>
-      <title>HN에게 물어보세요: 현재 어떤 작업을 하고 있나요? (2026년 6월)</title>
-      <link>https://news.ycombinator.com/item?id=48528779</link>
-      <description>📝 im/dioxus_codemirror - 수동으로 다이어그램을 생성하는 것이 학습 가능하도록 LSP를 지원하는 코드 편집기가 필요합니다. 스택을 다이어그램 생성기에 백업하고 곧 자동화 프레임워크로 돌아갈 예정입니다. - Side: https://peace. im/dioxus_codemirror - 수동으로 다이어그램을 생성하는 것이 학습 가능하도록 LSP를 지원하는 코드 편집기가 필요합니다. 스택을 다이어그램 생성기에 백업하고 곧 자동화 프레임워크로 돌아갈 수 있기를 바랍니다. 측면: https://azriel. im/dioxus_codemirror - 수동으로 다이어그램을 생성하는 것이 학습 가능하도록 LSP를 지원하는 코드 편집기가 필요합니다. 스택을 다이어그램 생성기에 백업하고 곧 자동화 프레임워크(side-side-side: https://azriel)로 돌아갈 것입니다.
+      <title>Yserver: Rust로 작성된 최신 X11 서버</title>
+      <link>https://github.com/joske/yserver</link>
+      <description>📝 yserver 처음부터 Rust로 작성된 최신 X11 서버입니다. Status yserver(독립형 DRM/KMS)는 이제 전체 MATE/XFCE/Cinnamon 데스크톱을 실행할 수 있습니다. conf: [Seat:*] xserver-command=/usr/local/bin/yserver 무료 TTY에서 lightdm을 다시 시작합니다. sudo systemctl restart lightdm.
 
 
-🔤 Original: Ask HN: What are you working on? (June 2026)
+🔤 Original: Yserver: A modern X11 server written in Rust
 
-🔗 Read more: https://news.ycombinator.com/item?id=48528779</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48528779</guid>
-      <pubDate>Sun, 14 Jun 2026 16:05:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48528779</comments>
+🔗 Read more: https://github.com/joske/yserver</description>
+      <guid isPermaLink="true">https://github.com/joske/yserver</guid>
+      <pubDate>Sun, 14 Jun 2026 19:10:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48531394</comments>
     </item>
     <item>
-      <title>리눅스 7.1</title>
-      <link>https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u</link>
-      <description>📝 Anubis에서는 JShelter와 같은 플러그인이 비활성화되는 최신 JavaScript 기능을 사용해야 합니다. 이 도메인에 대해 JShelter 또는 기타 플러그인을 비활성화하십시오. 안타깝게도 이 문제를 해결하려면 JavaScript를 활성화해야 합니다.
+      <title>카오스넷(1981)</title>
+      <link>https://tumbleweed.nu/r/lm-3/uv/amber.html</link>
+      <description>📝 Chaosnet의 시스템 목표는 주로 단순성과 고성능이었습니다. 이러한 프로토콜은 Chaosnet 케이블 이외의 미디어 및 여러 상호 연결된 케이블과 함께 사용할 수 있습니다. 카오스넷의 전송매체를 에테르(ether)라고 부른다.
 
 
-🔤 Original: Linux 7.1
+🔤 Original: Chaosnet (1981)
 
-🔗 Read more: https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u</description>
-      <guid isPermaLink="true">https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u</guid>
-      <pubDate>Sun, 14 Jun 2026 16:01:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48528729</comments>
+🔗 Read more: https://tumbleweed.nu/r/lm-3/uv/amber.html</description>
+      <guid isPermaLink="true">https://tumbleweed.nu/r/lm-3/uv/amber.html</guid>
+      <pubDate>Sun, 14 Jun 2026 19:14:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48531449</comments>
     </item>
     <item>
-      <title>로마는 무너졌고 아무도 눈치 채지 못했습니다</title>
-      <link>https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed</link>
-      <guid isPermaLink="true">https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed</guid>
-      <pubDate>Sun, 14 Jun 2026 18:29:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48530841</comments>
+      <title>아부 파누스</title>
+      <link>https://en.wikipedia.org/wiki/Abu_Fanous</link>
+      <description>📝 Wikipedia에서, 무료 백과사전 아라비아 사막의 빛 현상 이 문서는 아라비아 사막의 신비한 현상에 관한 것입니다. 호주의 유사한 현상에 대해서는 Min Min light 항목을 참조하십시오. "https://en.
+
+
+🔤 Original: Abu Fanous
+
+🔗 Read more: https://en.wikipedia.org/wiki/Abu_Fanous</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Abu_Fanous</guid>
+      <pubDate>Sun, 14 Jun 2026 21:06:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48532722</comments>
     </item>
     <item>
-      <title>스위스 유권자, 인구 천만 명 제한 제안 거부</title>
-      <link>https://www.swissinfo.ch/eng/swiss-politics/swiss-voters-reject-proposal-to-cap-population-at-ten-million/91548146</link>
-      <description>📝 더 많은 스위스 정치 6월 14일 투표: 스위스 전역의 결과 이 ​​내용은 2026년 6월 14일에 게시되었습니다. "천만 명 이하" 이민 이니셔티브도 국제적으로 면밀히 조사되고 있습니다. 스위스 정치 '천만에 반대' 투표 – 스위스가 인구를 제한해야 할까요? 더 읽어보기: '천만에 반대' 투표 - 스위스가 인구를 제한해야 할까요?
+      <title>Vibe Coder 대 소프트웨어 엔지니어</title>
+      <link>https://yusufaytas.com/vibe-coder-vs-software-engineer</link>
+      <description>📝 소프트웨어 엔지니어가 안전한 병합에 걸리는 시간을 측정합니다. 그것은 기본적인 소유권입니다. 진정한 변화 관리는 그렇게 캐주얼할 수 없습니다.
 
 
-🔤 Original: Swiss voters reject proposal to cap population at ten million
+🔤 Original: Vibe Coder vs. Software Engineer
 
-🔗 Read more: https://www.swissinfo.ch/eng/swiss-politics/swiss-voters-reject-proposal-to-cap-population-at-ten-million/91548146</description>
-      <guid isPermaLink="true">https://www.swissinfo.ch/eng/swiss-politics/swiss-voters-reject-proposal-to-cap-population-at-ten-million/91548146</guid>
-      <pubDate>Sun, 14 Jun 2026 16:28:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48529149</comments>
+🔗 Read more: https://yusufaytas.com/vibe-coder-vs-software-engineer</description>
+      <guid isPermaLink="true">https://yusufaytas.com/vibe-coder-vs-software-engineer</guid>
+      <pubDate>Sun, 14 Jun 2026 20:12:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48532116</comments>
     </item>
     <item>
-      <title>Dillo 디렉토리 – Dillo에서 합리적으로 잘 작동하는 유용한 사이트 디렉토리</title>
-      <link>https://dir.dillo-browser.org/</link>
-      <description>📝 검색 엔진 Marginalia 소규모 독립 검색 엔진. Mojeek 독립 검색 엔진. 기술 뉴스 랍스터 중재된 토론이 포함된 컴퓨팅 중심의 링크 수집기입니다.
+      <title>HN 표시: Hacker News에서 인기 있는 Wikipedia 기사를 찾아보세요.</title>
+      <link>https://www.orangecrumbs.com/</link>
+      <description>📝 Wikipedia 선택 받기 스팸 없음. 곧 첫 번째 호가 출시됩니다. ✉ 주간 Wikipedia 다이제스트 ✕ Hacker News에서 인기 있는 새로운 Wikipedia 기사를 받아보세요. 일주일에 한 번 이메일을 보내세요.
 
 
-🔤 Original: Dillo directory – Directory of useful sites that work reasonably well on Dillo
+🔤 Original: Show HN: Discover Wikipedia articles popular on Hacker News
 
-🔗 Read more: https://dir.dillo-browser.org/</description>
-      <guid isPermaLink="true">https://dir.dillo-browser.org/</guid>
-      <pubDate>Sun, 14 Jun 2026 17:02:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48529645</comments>
+🔗 Read more: https://www.orangecrumbs.com/</description>
+      <guid isPermaLink="true">https://www.orangecrumbs.com/</guid>
+      <pubDate>Sun, 14 Jun 2026 17:54:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48530382</comments>
     </item>
   </channel>
 </rss>
