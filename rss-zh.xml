@@ -6,86 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 14 Jun 2026 22:10:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 04:14:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Zinnia：用 Rust 编写的模块化 64 位类 Unix 内核</title>
-      <link>https://zinnia-os.org/</link>
-      <description>📝 这些是 Rust ELF dylib，在引导期间从 initrd 加载和链接，类似于 Linux 系统。借助 Limine 引导加载程序，Zinnia 可以从任何基于 UEFI 的系统引导。我于 2024 年启动了这个项目，以了解有关系统编程的更多信息，但随着时间的推移，它开始获得越来越多的功能。
+      <title>你的 ePub 没问题</title>
+      <link>https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/</link>
+      <description>📝 换句话说，如果您的图书通过了 epubcheck，您就可以保证该图书可以在任何兼容 EPUB 的阅读器或应用程序上运行。这本书就是无法加载。所以我开始把我的书拆开，创造出​​十几种不同的变体，总是确保 epubcheck 仍然通过。
 
 
-🔤 Original: Zinnia: A modular 64-bit Unix-like kernel written in Rust
+🔤 Original: Your ePub Is fine
 
-🔗 Read more: https://zinnia-os.org/</description>
-      <guid isPermaLink="true">https://zinnia-os.org/</guid>
-      <pubDate>Sun, 14 Jun 2026 21:04:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48532705</comments>
+🔗 Read more: https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/</description>
+      <guid isPermaLink="true">https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/</guid>
+      <pubDate>Sun, 14 Jun 2026 22:54:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48533848</comments>
     </item>
     <item>
-      <title>Yserver：用 Rust 编写的现代 X11 服务器</title>
-      <link>https://github.com/joske/yserver</link>
-      <description>📝 yserver 用 Rust 从头开始​​编写的现代 X11 服务器。 Status yserver（独立 DRM/KMS）现在可以运行完整的 MATE/XFCE/Cinnamon 桌面。 conf: [Seat:*] xserver-command=/usr/local/bin/yserver 从空闲 TTY 中，重新启动 lig​​htdm： sudo systemctl restart lightdm。
+      <title>Emacs 附带更多电池</title>
+      <link>https://karthinks.com/software/even-more-batteries-included-with-emacs/</link>
+      <description>📝 第 1 部分和第 2 部分：Emacs 附带的电池 emacs 附带更多电池 “鲜为人知”是一种主观判断。使用 find-file (C-x C-f) 查找文件时，使用 *foo* 等通配符一次打开多个文件。 Dired 生成这些文件的列表。
 
 
-🔤 Original: Yserver: A modern X11 server written in Rust
+🔤 Original: Even more batteries included with Emacs
 
-🔗 Read more: https://github.com/joske/yserver</description>
-      <guid isPermaLink="true">https://github.com/joske/yserver</guid>
-      <pubDate>Sun, 14 Jun 2026 19:10:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48531394</comments>
+🔗 Read more: https://karthinks.com/software/even-more-batteries-included-with-emacs/</description>
+      <guid isPermaLink="true">https://karthinks.com/software/even-more-batteries-included-with-emacs/</guid>
+      <pubDate>Mon, 15 Jun 2026 02:30:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48535886</comments>
     </item>
     <item>
-      <title>混沌网 (1981)</title>
-      <link>https://tumbleweed.nu/r/lm-3/uv/amber.html</link>
-      <description>📝 Chaosnet 的系统目标主要是简单性和高性能。这些协议可以（并且已经）与 Chaosnet 电缆以外的介质以及多条互连电缆一起使用。 Chaosnet的传输介质称为以太。
+      <title>21 年和盘点“分布式计算的八个谬误”（2025 年）</title>
+      <link>https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/</link>
+      <description>📝 分布式计算的八个基本谬误被埋藏在我们使用网络的过程中的“常数”中。该列表针对编写网络软件的人员：调用网络的应用程序、从网络调用的服务以及网络协议。图 1 — 分布式计算的八个谬误。
 
 
-🔤 Original: Chaosnet (1981)
+🔤 Original: 21 years and counting of 'eight fallacies of distributed computing' (2025)
 
-🔗 Read more: https://tumbleweed.nu/r/lm-3/uv/amber.html</description>
-      <guid isPermaLink="true">https://tumbleweed.nu/r/lm-3/uv/amber.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:14:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48531449</comments>
+🔗 Read more: https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/</description>
+      <guid isPermaLink="true">https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/</guid>
+      <pubDate>Mon, 15 Jun 2026 00:07:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48534628</comments>
     </item>
     <item>
-      <title>阿布·法努斯</title>
-      <link>https://en.wikipedia.org/wiki/Abu_Fanous</link>
-      <description>📝 来自维基百科，免费百科全书阿拉伯沙漠中的光现象这篇文章是关于阿拉伯沙漠中的神秘现象。对于澳大利亚的类似现象，请参阅“Min Min light”。检索自“https://en.
+      <title>大卫·萨克斯谈人为出口管制</title>
+      <link>https://twitter.com/DavidSacks/status/2065853007619588171</link>
+      <description>📝 ——寓言是有护栏的神话。令人非常惊讶的是，Anthropic 并不想配合合理的安全请求（即解决越狱问题）。坦率地说，令人困惑的是，Anthropic 并不想遵守其先前所说的最高优先级的安全要求。
 
 
-🔤 Original: Abu Fanous
+🔤 Original: David Sacks on Anthropic export control
 
-🔗 Read more: https://en.wikipedia.org/wiki/Abu_Fanous</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Abu_Fanous</guid>
-      <pubDate>Sun, 14 Jun 2026 21:06:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48532722</comments>
+🔗 Read more: https://twitter.com/DavidSacks/status/2065853007619588171</description>
+      <guid isPermaLink="true">https://twitter.com/DavidSacks/status/2065853007619588171</guid>
+      <pubDate>Sun, 14 Jun 2026 16:41:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48529358</comments>
     </item>
     <item>
-      <title>Vibe Coder 与软件工程师</title>
-      <link>https://yusufaytas.com/vibe-coder-vs-software-engineer</link>
-      <description>📝 软件工程师测量安全合并的时间。这是基本的所有权。真正的变革管理不可能那么随意。
+      <title>致幻蘑菇不含已知致幻剂</title>
+      <link>https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the</link>
+      <description>📝 意识安全性 一般见解 兰毛亚洲草不携带任何已知的裸盖菇素或鹅膏菌酸生物合成基因，但区域报告一致描述了致幻作用，指出未知途径。造成这种奇怪现象的蘑菇是兰毛亚洲菌。令人震惊的结果是兰毛亚细亚没有任何已知的致幻化学特征。
 
 
-🔤 Original: Vibe Coder vs. Software Engineer
+🔤 Original: The hallucinogenic mushroom that contains no known psychedelic
 
-🔗 Read more: https://yusufaytas.com/vibe-coder-vs-software-engineer</description>
-      <guid isPermaLink="true">https://yusufaytas.com/vibe-coder-vs-software-engineer</guid>
-      <pubDate>Sun, 14 Jun 2026 20:12:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48532116</comments>
+🔗 Read more: https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the</description>
+      <guid isPermaLink="true">https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the</guid>
+      <pubDate>Mon, 15 Jun 2026 01:07:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48535215</comments>
     </item>
     <item>
-      <title>Show HN：发现黑客新闻上热门的维基百科文章</title>
-      <link>https://www.orangecrumbs.com/</link>
-      <description>📝 获取维基百科精选 没有垃圾邮件。第一期即将登陆。 ✉ 每周维基百科摘要 ✕ 获取黑客新闻上流行的新维基百科文章 - 每周一封电子邮件。
+      <title>人工智能是代码——并且不能被促使变得更聪明</title>
+      <link>https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141</link>
+      <description>📝 他们坚信自己就是未来，因此单纯的许可协议并不适用于他们。在第三幕中，他解释了 jqwik 版本 1。我们引入了这种自我传播。
 
 
-🔤 Original: Show HN: Discover Wikipedia articles popular on Hacker News
+🔤 Original: AI is code – and can't be prompted into being smarter
 
-🔗 Read more: https://www.orangecrumbs.com/</description>
-      <guid isPermaLink="true">https://www.orangecrumbs.com/</guid>
-      <pubDate>Sun, 14 Jun 2026 17:54:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48530382</comments>
+🔗 Read more: https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141</description>
+      <guid isPermaLink="true">https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141</guid>
+      <pubDate>Sun, 14 Jun 2026 20:17:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48532178</comments>
+    </item>
+    <item>
+      <title>Windows 11 用户厌倦了 MS 帐户要求渗透到一切</title>
+      <link>https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds</link>
+      <description>📝 用户 2025Fishy 认为微软应该恢复在 Windows 11 安装体验期间直接创建本地帐户的选项。这种情绪引起了其他评论者的共鸣。您认为微软应该在 Windows 11 安装过程中恢复简单的本地帐户选项吗？
+
+
+🔤 Original: Windows 11 users are tired of MS account requirements creeping into everything
+
+🔗 Read more: https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds</description>
+      <guid isPermaLink="true">https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds</guid>
+      <pubDate>Sun, 14 Jun 2026 21:42:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48533101</comments>
     </item>
   </channel>
 </rss>

@@ -6,86 +6,99 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 14 Jun 2026 22:10:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 04:14:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Zinnia: Rust로 작성된 모듈식 64비트 Unix 계열 커널</title>
-      <link>https://zinnia-os.org/</link>
-      <description>📝 이는 Linux 시스템과 유사하게 initrd에서 부팅하는 동안 로드되고 연결되는 Rust ELF dylib입니다. Zinnia는 Limine 부트로더 덕분에 모든 UEFI 기반 시스템에서 부팅할 수 있습니다. 저는 시스템 프로그래밍에 대해 더 많이 배우기 위해 2024년에 이 프로젝트를 시작했지만 시간이 지나면서 점점 더 많은 기능을 얻게 되었습니다.
+      <title>귀하의 ePub은 괜찮습니다</title>
+      <link>https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/</link>
+      <description>📝 즉, 귀하의 책이 epubcheck를 통과하면 해당 책이 모든 EPUB 호환 리더나 앱에서 작동함을 보장받을 수 있습니다. 책이 로드되지 않습니다. 그래서 나는 내 책을 찢기 시작했고, 12가지의 다양한 변형을 만들었고, 항상 epubcheck가 통과하는지 확인했습니다.
 
 
-🔤 Original: Zinnia: A modular 64-bit Unix-like kernel written in Rust
+🔤 Original: Your ePub Is fine
 
-🔗 Read more: https://zinnia-os.org/</description>
-      <guid isPermaLink="true">https://zinnia-os.org/</guid>
-      <pubDate>Sun, 14 Jun 2026 21:04:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48532705</comments>
+🔗 Read more: https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/</description>
+      <guid isPermaLink="true">https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/</guid>
+      <pubDate>Sun, 14 Jun 2026 22:54:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48533848</comments>
     </item>
     <item>
-      <title>Yserver: Rust로 작성된 최신 X11 서버</title>
-      <link>https://github.com/joske/yserver</link>
-      <description>📝 yserver 처음부터 Rust로 작성된 최신 X11 서버입니다. Status yserver(독립형 DRM/KMS)는 이제 전체 MATE/XFCE/Cinnamon 데스크톱을 실행할 수 있습니다. conf: [Seat:*] xserver-command=/usr/local/bin/yserver 무료 TTY에서 lightdm을 다시 시작합니다. sudo systemctl restart lightdm.
+      <title>Emacs에는 더 많은 배터리가 포함되어 있습니다.</title>
+      <link>https://karthinks.com/software/even-more-batteries-included-with-emacs/</link>
+      <description>📝 파트 1 &amp; 2: Emacs에 포함된 배터리 Emacs에 더 많은 배터리가 포함되어 있음 "덜 알려진" 것은 주관적인 판단입니다. 파일 찾기(C-x C-f)로 파일을 찾을 때 *foo*와 같은 와일드카드를 사용하여 여러 파일을 한 번에 엽니다. Dired는 이러한 파일 목록을 생성합니다.
 
 
-🔤 Original: Yserver: A modern X11 server written in Rust
+🔤 Original: Even more batteries included with Emacs
 
-🔗 Read more: https://github.com/joske/yserver</description>
-      <guid isPermaLink="true">https://github.com/joske/yserver</guid>
-      <pubDate>Sun, 14 Jun 2026 19:10:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48531394</comments>
+🔗 Read more: https://karthinks.com/software/even-more-batteries-included-with-emacs/</description>
+      <guid isPermaLink="true">https://karthinks.com/software/even-more-batteries-included-with-emacs/</guid>
+      <pubDate>Mon, 15 Jun 2026 02:30:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48535886</comments>
     </item>
     <item>
-      <title>카오스넷(1981)</title>
-      <link>https://tumbleweed.nu/r/lm-3/uv/amber.html</link>
-      <description>📝 Chaosnet의 시스템 목표는 주로 단순성과 고성능이었습니다. 이러한 프로토콜은 Chaosnet 케이블 이외의 미디어 및 여러 상호 연결된 케이블과 함께 사용할 수 있습니다. 카오스넷의 전송매체를 에테르(ether)라고 부른다.
+      <title>21년 만에 '분산컴퓨팅의 8가지 오류'(2025년)</title>
+      <link>https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/</link>
+      <description>📝 분산 컴퓨팅의 근본적인 8가지 오류는 네트워크 사용에 '상수'로 묻혀 있습니다. 이 목록은 네트워크 소프트웨어(네트워크를 호출하는 애플리케이션, 네트워크에서 호출되는 서비스, 네트워크 프로토콜)를 작성하는 사람들을 대상으로 합니다. 그림 1 — 분산 컴퓨팅의 8가지 오류
 
 
-🔤 Original: Chaosnet (1981)
+🔤 Original: 21 years and counting of 'eight fallacies of distributed computing' (2025)
 
-🔗 Read more: https://tumbleweed.nu/r/lm-3/uv/amber.html</description>
-      <guid isPermaLink="true">https://tumbleweed.nu/r/lm-3/uv/amber.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:14:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48531449</comments>
+🔗 Read more: https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/</description>
+      <guid isPermaLink="true">https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/</guid>
+      <pubDate>Mon, 15 Jun 2026 00:07:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48534628</comments>
     </item>
     <item>
-      <title>아부 파누스</title>
-      <link>https://en.wikipedia.org/wiki/Abu_Fanous</link>
-      <description>📝 Wikipedia에서, 무료 백과사전 아라비아 사막의 빛 현상 이 문서는 아라비아 사막의 신비한 현상에 관한 것입니다. 호주의 유사한 현상에 대해서는 Min Min light 항목을 참조하십시오. "https://en.
+      <title>인류 수출 통제에 관한 David Sacks</title>
+      <link>https://twitter.com/DavidSacks/status/2065853007619588171</link>
+      <description>📝 — 우화는 난간이 있는 신화입니다. Anthropic이 합당한 안전 요청(즉, 탈옥 문제 해결)에 협조하기를 원하지 않았다는 사실은 매우 놀랐습니다. Anthropic이 이전에 최우선 사항이라고 말한 안전 요구 사항을 준수하고 싶지 않은 것은 솔직히 당황스럽습니다.
 
 
-🔤 Original: Abu Fanous
+🔤 Original: David Sacks on Anthropic export control
 
-🔗 Read more: https://en.wikipedia.org/wiki/Abu_Fanous</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Abu_Fanous</guid>
-      <pubDate>Sun, 14 Jun 2026 21:06:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48532722</comments>
+🔗 Read more: https://twitter.com/DavidSacks/status/2065853007619588171</description>
+      <guid isPermaLink="true">https://twitter.com/DavidSacks/status/2065853007619588171</guid>
+      <pubDate>Sun, 14 Jun 2026 16:41:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48529358</comments>
     </item>
     <item>
-      <title>Vibe Coder 대 소프트웨어 엔지니어</title>
-      <link>https://yusufaytas.com/vibe-coder-vs-software-engineer</link>
-      <description>📝 소프트웨어 엔지니어가 안전한 병합에 걸리는 시간을 측정합니다. 그것은 기본적인 소유권입니다. 진정한 변화 관리는 그렇게 캐주얼할 수 없습니다.
+      <title>환각제를 함유하지 않은 환각성 버섯</title>
+      <link>https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the</link>
+      <description>📝 의식 안전 일반적인 통찰력 Lanmaoa asiatica는 알려진 실로시빈 또는 이보테산 생합성 유전자를 전혀 갖고 있지 않지만, 지역 보고서에서는 알려지지 않은 경로를 가리키는 환각 유발 효과를 일관되게 설명합니다. 이 기이한 현상을 담당하는 버섯은 Lanmaoa asiatica입니다. 놀라운 결과는 Lanmaoa asiatica에는 알려진 환각 유발 화학적 특성이 없다는 것입니다.
 
 
-🔤 Original: Vibe Coder vs. Software Engineer
+🔤 Original: The hallucinogenic mushroom that contains no known psychedelic
 
-🔗 Read more: https://yusufaytas.com/vibe-coder-vs-software-engineer</description>
-      <guid isPermaLink="true">https://yusufaytas.com/vibe-coder-vs-software-engineer</guid>
-      <pubDate>Sun, 14 Jun 2026 20:12:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48532116</comments>
+🔗 Read more: https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the</description>
+      <guid isPermaLink="true">https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the</guid>
+      <pubDate>Mon, 15 Jun 2026 01:07:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48535215</comments>
     </item>
     <item>
-      <title>HN 표시: Hacker News에서 인기 있는 Wikipedia 기사를 찾아보세요.</title>
-      <link>https://www.orangecrumbs.com/</link>
-      <description>📝 Wikipedia 선택 받기 스팸 없음. 곧 첫 번째 호가 출시됩니다. ✉ 주간 Wikipedia 다이제스트 ✕ Hacker News에서 인기 있는 새로운 Wikipedia 기사를 받아보세요. 일주일에 한 번 이메일을 보내세요.
+      <title>AI는 코드이므로 더 똑똑해지도록 유도할 수 없습니다.</title>
+      <link>https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141</link>
+      <description>📝 그들은 단순한 라이센스 계약이 그들에게 적용되지 않을 정도로 자신들이 미래라고 확신하고 있습니다. Act 3에서 그는 jqwik 버전 1을 설명합니다. 우리는 이 자체 전파를 도입했습니다.
 
 
-🔤 Original: Show HN: Discover Wikipedia articles popular on Hacker News
+🔤 Original: AI is code – and can't be prompted into being smarter
 
-🔗 Read more: https://www.orangecrumbs.com/</description>
-      <guid isPermaLink="true">https://www.orangecrumbs.com/</guid>
-      <pubDate>Sun, 14 Jun 2026 17:54:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48530382</comments>
+🔗 Read more: https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141</description>
+      <guid isPermaLink="true">https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141</guid>
+      <pubDate>Sun, 14 Jun 2026 20:17:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48532178</comments>
+    </item>
+    <item>
+      <title>Windows 11 사용자는 모든 것에 적용되는 MS 계정 요구 사항에 지쳤습니다.</title>
+      <link>https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds</link>
+      <description>📝 사용자 2025Fishy는 Microsoft가 Windows 11 설치 과정에서 직접 로컬 계정을 생성하는 옵션을 복원해야 한다고 주장했습니다. 그 감정은 다른 논평자들에게도 공감되었습니다. Microsoft가 Windows 11 설정 중에 간단한 로컬 계정 옵션을 다시 제공해야 한다고 생각하십니까?
+
+
+🔤 Original: Windows 11 users are tired of MS account requirements creeping into everything
+
+🔗 Read more: https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds</description>
+      <guid isPermaLink="true">https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds</guid>
+      <pubDate>Sun, 14 Jun 2026 21:42:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48533101</comments>
     </item>
   </channel>
 </rss>
