@@ -6,45 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 11:10:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Microsoft turns to AWS as GitHub faces AI capacity crunch</title>
-      <link>https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</link>
-      <guid isPermaLink="true">https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</guid>
-      <pubDate>Tue, 16 Jun 2026 02:47:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48549918</comments>
+      <title>The time the x86 emulator team found code so bad they fixed it during emulation</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</link>
+      <description>📝 ) This particular emulator employed binary translation, generating native code to perform the equivalent operations of the original x86-32 code. But using a loop to initialize the memory was too mundane for whatever compiler was used to compile this code. This offended the team so much that they added special code to the translator to detect this horrible function and replace it with the equivalent tight loop.
+
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</guid>
+      <pubDate>Tue, 16 Jun 2026 04:46:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550693</comments>
     </item>
     <item>
-      <title>Amazon Announces Multibillion-Dollar Data Center in Missouri</title>
-      <link>https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</link>
-      <description>📝 Amazon Web Services is making a major push into Missouri with a multibillion-dollar investment in a new data center campus in Montgomery County, the company announced today. Amazon is also committing over $7 million in direct community contributions, including: $3 million for emergency dispatch services and public safety infrastructure Over $1 million for a new community gathering space at the Montgomery County Fairgrounds Additional funding for roadway and water infrastructure improvements STEM education programs, teacher grants, and the new Amazon Montgomery County Community Fund for local projects The company will donate completed water infrastructure to the local public water supply district at no cost. Amazon executives emphasized long-term partnership and community benefits.
+      <title>John Carmack on Fabrice Bellard</title>
+      <link>https://twitter.com/ID_AA_Carmack/status/2064095424420487226</link>
+      <description>📝 John Carmack@ID_AA_CarmackI admire Fabrice Bellard. He wrote the code that streams every YouTube video, every Netflix show, every TikTok clip. He wrote the code that runs the virtual Show more9:21 PM · Jun 8, 2026616.
 
-🔗 Read more: https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</description>
-      <guid isPermaLink="true">https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:28:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548975</comments>
+🔗 Read more: https://twitter.com/ID_AA_Carmack/status/2064095424420487226</description>
+      <guid isPermaLink="true">https://twitter.com/ID_AA_Carmack/status/2064095424420487226</guid>
+      <pubDate>Tue, 16 Jun 2026 04:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550779</comments>
     </item>
     <item>
-      <title>Reviews have become expensive, rewrites have become cheap</title>
-      <link>http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</link>
-      <description>📝 So reviewing AI-generated code has gotten more expensive. That decision takes time. That’s changed how aggressively I push back.
+      <title>Understanding the rationale behind a rule when trying to circumvent it</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</link>
+      <description>📝 Don’t make registry calls. Don’t make blocking and/or Interprocess Communication (IPC) function calls. This once again highlights that the callback itself needs to be fast with minimal blocking.
 
-🔗 Read more: http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</description>
-      <guid isPermaLink="true">http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:13:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548883</comments>
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</guid>
+      <pubDate>Tue, 16 Jun 2026 07:35:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48551876</comments>
     </item>
     <item>
-      <title>Salesforce to Acquire Fin (formerly Intercom) for $3.6B</title>
-      <link>https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</link>
-      <description>📝 “Fin brings proven agent technology, a deep commitment to customer success, and an incredible AI team that will complement Agentforce with powerful service agent capabilities. Fin’s AI agent technology will help organizations improve autonomous resolution, reduce cost-to-serve, and accelerate AI adoption across their service organizations. The transaction will not impact Salesforce’s capital return program.
+      <title>Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org</title>
+      <link>https://trinket.strivemath.org/</link>
+      <description>📝 Code in Your Browser A community-hosted edition of Trinket Sign Up or Import from trinket. io Trinket now free forever Show details × Trinket is now free forever This is a community-hosted edition of Trinket, run by Strive Math and available free at trinket. Create interactive courses.
 
-🔗 Read more: https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</description>
-      <guid isPermaLink="true">https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</guid>
-      <pubDate>Mon, 15 Jun 2026 12:08:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48540126</comments>
+🔗 Read more: https://trinket.strivemath.org/</description>
+      <guid isPermaLink="true">https://trinket.strivemath.org/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:30:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552723</comments>
+    </item>
+    <item>
+      <title>Show HN: Garden of Flowers – an archive of pictorial typography before ASCII art</title>
+      <link>https://garden-of-flowers.heikkilotvonen.com/</link>
+      <description>📝 Henry Vaussy Source 1783 typespecimen france A specimen of printing types by William Caslon Source 1785 typespecimen caslon england head and tail pieces A specimen of printing types by William Caslon Source 1785 typespecimen caslon england modular type heikki's favourites A specimen of printing types by William Caslon Source 1785 typespecimen caslon england head and tail pieces A specimen of printing types by William Caslon Source 1785 typespecimen caslon england modular type Griechische Einfassung Serie LV Source typespecimen 1800s j. Source 1770 typespecimen germany head and tail pieces A specimen of printing types by William Caslon Source 1785 typespecimen caslon england head and tail pieces Epreuves des caractères de la fonderie. Hemery Source typespecimen 1754 france head and tail pieces A specimen of printing types.
+
+🔗 Read more: https://garden-of-flowers.heikkilotvonen.com/</description>
+      <guid isPermaLink="true">https://garden-of-flowers.heikkilotvonen.com/</guid>
+      <pubDate>Tue, 16 Jun 2026 04:25:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550569</comments>
+    </item>
+    <item>
+      <title>Commodore Releases Flip Phone</title>
+      <link>https://commodore.net/why-a-flip-phone/</link>
+      <description>📝 There was a time you could say that about your phone. Commodore is always open. That was the friendly thing.
+
+🔗 Read more: https://commodore.net/why-a-flip-phone/</description>
+      <guid isPermaLink="true">https://commodore.net/why-a-flip-phone/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:15:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552614</comments>
+    </item>
+    <item>
+      <title>Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak</title>
+      <link>https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</link>
+      <description>📝 REG AD The outside researchers reportedly fed Anthropic’s Fable 5, Mythos, and Claude Opus models open-source code containing known CVEs, plus new code intentionally laced with vulnerabilities, and asked the models to “review the code for security issues. “That’s it,” Moussouris wrote. Banning Anthropic’s advanced models is going to hurt defenders more than attackers, Moussouris warns.
+
+🔗 Read more: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</description>
+      <guid isPermaLink="true">https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</guid>
+      <pubDate>Tue, 16 Jun 2026 09:26:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552687</comments>
+    </item>
+    <item>
+      <title>Humanity isn't ready for the coming intelligence explosion</title>
+      <link>https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</link>
+      <guid isPermaLink="true">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</guid>
+      <pubDate>Tue, 16 Jun 2026 02:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48549628</comments>
     </item>
   </channel>
 </rss>

@@ -6,54 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 11:10:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GitHub 面临 AI 容量短缺，微软转向 AWS</title>
-      <link>https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</link>
-      <guid isPermaLink="true">https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</guid>
-      <pubDate>Tue, 16 Jun 2026 02:47:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48549918</comments>
+      <title>有一次 x86 模拟器团队发现代码非常糟糕，他们在模拟过程中修复了它</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</link>
+      <description>📝 ）这个特定的模拟器采用二进制翻译，生成本机代码来执行原始 x86-32 代码的等效操作。但是对于使用任何编译器来编译此代码来说，使用循环来初始化内存都太普通了。这极大地冒犯了团队，以至于他们向翻译器添加了特殊代码来检测这个可怕的函数，并将其替换为等效的紧密循环。
+
+
+🔤 Original: The time the x86 emulator team found code so bad they fixed it during emulation
+
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</guid>
+      <pubDate>Tue, 16 Jun 2026 04:46:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550693</comments>
     </item>
     <item>
-      <title>亚马逊宣布耗资数十亿美元在密苏里州建设数据中心</title>
-      <link>https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</link>
-      <description>📝 Amazon Web Services 今天宣布，该公司正在大力进军密苏里州，投资数十亿美元在蒙哥马利县建立一个新的数据中心园区。亚马逊还承诺提供超过 700 万美元的直接社区捐款，包括： 300 万美元用于紧急调度服务和公共安全基础设施 超过 100 万美元用于蒙哥马利县集市的新社区聚会空间 用于道路和水利基础设施改善的额外资金 STEM 教育计划、教师补助金以及用于当地项目的新亚马逊蒙哥马利县社区基金 该公司将免费向当地公共供水区捐赠已完工的水利基础设施。亚马逊高管强调长期合作伙伴关系和社区利益。
+      <title>约翰·卡马克谈法布里斯·贝拉德</title>
+      <link>https://twitter.com/ID_AA_Carmack/status/2064095424420487226</link>
+      <description>📝 约翰·卡马克@ID_AA_Carmack我很欣赏法布里斯·贝拉德。他编写的代码可以传输每个 YouTube 视频、每个 Netflix 节目、每个 TikTok 剪辑。他编写了运行虚拟显示更多的代码 2026616 年 6 月 8 日晚上 9:21。
 
 
-🔤 Original: Amazon Announces Multibillion-Dollar Data Center in Missouri
+🔤 Original: John Carmack on Fabrice Bellard
 
-🔗 Read more: https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</description>
-      <guid isPermaLink="true">https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:28:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548975</comments>
+🔗 Read more: https://twitter.com/ID_AA_Carmack/status/2064095424420487226</description>
+      <guid isPermaLink="true">https://twitter.com/ID_AA_Carmack/status/2064095424420487226</guid>
+      <pubDate>Tue, 16 Jun 2026 04:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550779</comments>
     </item>
     <item>
-      <title>评论变得昂贵，重写变得便宜</title>
-      <link>http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</link>
-      <description>📝 因此，审查人工智能生成的代码变得更加昂贵。这个决定需要时间。这改变了我反击的力度。
+      <title>试图规避规则时了解规则背后的基本原理</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</link>
+      <description>📝 不要进行注册表调用。不要进行阻塞和/或进程间通信 (IPC) 函数调用。这再次强调回调本身需要快速且阻塞最少。
 
 
-🔤 Original: Reviews have become expensive, rewrites have become cheap
+🔤 Original: Understanding the rationale behind a rule when trying to circumvent it
 
-🔗 Read more: http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</description>
-      <guid isPermaLink="true">http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:13:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548883</comments>
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</guid>
+      <pubDate>Tue, 16 Jun 2026 07:35:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48551876</comments>
     </item>
     <item>
-      <title>Salesforce 以 $3.6B 收购 Fin（前身为 Intercom）</title>
-      <link>https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</link>
-      <description>📝 “Fin 带来了经过验证的代理技术、对客户成功的坚定承诺以及令人难以置信的 AI 团队，该团队将通过强大的服务代理功能补充 Agentforce。Fin 的 AI 代理技术将帮助组织提高自主解决方案，降低服务成本，并加速其服务组织中的 AI 采用。此次交易不会影响 Salesforce 的资本回报计划。
+      <title>Trinket.io 关闭，所以我们保存了它并将其托管在 trinket.strivemath.org</title>
+      <link>https://trinket.strivemath.org/</link>
+      <description>📝 浏览器中的代码 Trinket 注册或从 trinket 导入的社区托管版本。 io Trinket 现在永远免费 显示详细信息 × Trinket 现在永远免费 这是 Trinket 的社区托管版本，由 Strive Math 运行，可在 trinket 免费获取。创建互动课程。
 
 
-🔤 Original: Salesforce to Acquire Fin (formerly Intercom) for $3.6B
+🔤 Original: Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org
 
-🔗 Read more: https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</description>
-      <guid isPermaLink="true">https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</guid>
-      <pubDate>Mon, 15 Jun 2026 12:08:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48540126</comments>
+🔗 Read more: https://trinket.strivemath.org/</description>
+      <guid isPermaLink="true">https://trinket.strivemath.org/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:30:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552723</comments>
+    </item>
+    <item>
+      <title>Show HN: Garden of Flowers – ASCII 艺术之前的图画排版档案</title>
+      <link>https://garden-of-flowers.heikkilotvonen.com/</link>
+      <description>📝 Henry Vaussy 来源 1783 typespecimen france 威廉卡斯隆 (William Caslon) 的印刷类型样本 来源 1785 类型样本 caslon england 头部和尾部 威廉卡斯隆 (William Caslon) 的印刷类型样本 来源 1785 卡斯隆英国 (typespecimen england) 模块化类型 heikki's favorites 威廉卡斯隆 (William Caslon) 的印刷类型样本 来源 1785 类型样本 caslon 英格兰 头部和尾部 威廉卡斯隆 (William Caslon) 的印刷类型样本来源 1785 类型样本 caslon england 模块化类型 Griechische Einfassung Serie LV 来源类型样本 1800s j。来源 1770 typespecimen 德国头尾件 William Caslon 印刷类型的样本 Source 1785 typespecimen caslon england 头尾件 Epreuves des caractères de la fakerie。 Hemery 来源 typespecimen 1754 法国 头部和尾部 印刷类型的样本。
+
+
+🔤 Original: Show HN: Garden of Flowers – an archive of pictorial typography before ASCII art
+
+🔗 Read more: https://garden-of-flowers.heikkilotvonen.com/</description>
+      <guid isPermaLink="true">https://garden-of-flowers.heikkilotvonen.com/</guid>
+      <pubDate>Tue, 16 Jun 2026 04:25:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550569</comments>
+    </item>
+    <item>
+      <title>Commodore 发布翻盖手机</title>
+      <link>https://commodore.net/why-a-flip-phone/</link>
+      <description>📝 曾经有一段时间，你可以这样评价你的手机。 Commodore 始终开放。这就是友好的事情。
+
+
+🔤 Original: Commodore Releases Flip Phone
+
+🔗 Read more: https://commodore.net/why-a-flip-phone/</description>
+      <guid isPermaLink="true">https://commodore.net/why-a-flip-phone/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:15:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552614</comments>
+    </item>
+    <item>
+      <title>联邦调查局在简单的“修复此代码”提示后对《神鬼寓言5》感到震惊，而不是越狱</title>
+      <link>https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</link>
+      <description>📝 据报道，外部研究人员向 Anthropic 的 Fable 5、Mythos 和 Claude Opus 模型提供了包含已知 CVE 的开源代码，以及故意添加漏洞的新代码，并要求模型“审查代码是否存在安全问题。”Moussouris 写道，“就是这样。”Moussouris 警告说，禁止 Anthropic 的高级模型对防御者的伤害将大于对攻击者的伤害。
+
+
+🔤 Original: Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak
+
+🔗 Read more: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</description>
+      <guid isPermaLink="true">https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</guid>
+      <pubDate>Tue, 16 Jun 2026 09:26:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552687</comments>
+    </item>
+    <item>
+      <title>人类还没有准备好迎接即将到来的智能爆炸</title>
+      <link>https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</link>
+      <guid isPermaLink="true">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</guid>
+      <pubDate>Tue, 16 Jun 2026 02:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48549628</comments>
     </item>
   </channel>
 </rss>

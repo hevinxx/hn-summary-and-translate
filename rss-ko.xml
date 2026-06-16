@@ -6,54 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 11:10:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>GitHub가 AI 용량 부족에 직면하자 Microsoft는 AWS로 전환</title>
-      <link>https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</link>
-      <guid isPermaLink="true">https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</guid>
-      <pubDate>Tue, 16 Jun 2026 02:47:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48549918</comments>
+      <title>x86 에뮬레이터 팀이 코드가 너무 나빠서 에뮬레이션 중에 수정한 시간</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</link>
+      <description>📝 ) 이 특정 에뮬레이터는 바이너리 변환을 사용하여 원본 x86-32 코드와 동일한 작업을 수행하는 네이티브 코드를 생성했습니다. 그러나 루프를 사용하여 메모리를 초기화하는 것은 이 코드를 컴파일하는 데 사용된 컴파일러에 비해 너무 평범했습니다. 이로 인해 팀은 매우 불쾌감을 느꼈고 번역기에 특수 코드를 추가하여 이 끔찍한 기능을 감지하고 이에 상응하는 긴밀한 루프로 교체했습니다.
+
+
+🔤 Original: The time the x86 emulator team found code so bad they fixed it during emulation
+
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</guid>
+      <pubDate>Tue, 16 Jun 2026 04:46:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550693</comments>
     </item>
     <item>
-      <title>Amazon, 미주리주에 수십억 달러 규모의 데이터 센터 발표</title>
-      <link>https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</link>
-      <description>📝 아마존 웹 서비스(Amazon Web Services)는 몽고메리 카운티의 새로운 데이터 센터 캠퍼스에 수십억 달러를 투자하여 미주리주에 대대적인 진출을 추진하고 있다고 오늘 회사가 발표했습니다. Amazon은 또한 다음을 포함하여 지역 사회에 직접 기부하는 데 700만 달러 이상을 투자하고 있습니다. 긴급 파견 서비스 및 공공 안전 인프라에 300만 달러 Montgomery County Fairgrounds의 새로운 커뮤니티 모임 공간에 100만 달러 이상 도로 및 수자원 인프라 개선을 위한 추가 자금 STEM 교육 프로그램, 교사 보조금 및 지역 프로젝트를 위한 새로운 Amazon Montgomery 카운티 커뮤니티 기금 회사는 완성된 수자원 인프라를 지역 공공 급수 구역에 무료로 기부할 예정입니다. Amazon 경영진은 장기적인 파트너십과 커뮤니티 혜택을 강조했습니다.
+      <title>Fabrice Bellard의 존 카맥</title>
+      <link>https://twitter.com/ID_AA_Carmack/status/2064095424420487226</link>
+      <description>📝 John Carmack@ID_AA_Carmack저는 Fabrice Bellard를 존경합니다. 그는 모든 YouTube 동영상, 모든 Netflix 쇼, 모든 TikTok 클립을 스트리밍하는 코드를 작성했습니다. 그는 가상 Show more를 실행하는 코드를 작성했습니다. 오후 9시 21분 · 2026년 6월 8일616.
 
 
-🔤 Original: Amazon Announces Multibillion-Dollar Data Center in Missouri
+🔤 Original: John Carmack on Fabrice Bellard
 
-🔗 Read more: https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</description>
-      <guid isPermaLink="true">https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:28:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548975</comments>
+🔗 Read more: https://twitter.com/ID_AA_Carmack/status/2064095424420487226</description>
+      <guid isPermaLink="true">https://twitter.com/ID_AA_Carmack/status/2064095424420487226</guid>
+      <pubDate>Tue, 16 Jun 2026 04:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550779</comments>
     </item>
     <item>
-      <title>리뷰는 비싸지고 재 작성은 저렴해졌습니다.</title>
-      <link>http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</link>
-      <description>📝 따라서 AI 생성 코드를 검토하는 데 더 많은 비용이 듭니다. 그 결정에는 시간이 걸립니다. 내가 얼마나 공격적으로 반발하는지 바뀌 었습니다.
+      <title>규칙을 우회하려고 할 때 규칙의 근거를 이해합니다.</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</link>
+      <description>📝 레지스트리 호출을 하지 마십시오. 차단 및/또는 IPC(프로세스 간 통신) 기능 호출을 수행하지 마세요. 이는 차단을 최소화하면서 콜백 자체가 빨라야 한다는 점을 다시 한 번 강조합니다.
 
 
-🔤 Original: Reviews have become expensive, rewrites have become cheap
+🔤 Original: Understanding the rationale behind a rule when trying to circumvent it
 
-🔗 Read more: http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</description>
-      <guid isPermaLink="true">http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:13:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548883</comments>
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</guid>
+      <pubDate>Tue, 16 Jun 2026 07:35:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48551876</comments>
     </item>
     <item>
-      <title>Salesforce, Fin(구 Intercom)을 36억 달러에 인수</title>
-      <link>https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</link>
-      <description>📝 "Fin은 입증된 에이전트 기술, 고객 성공을 위한 깊은 헌신, 강력한 서비스 에이전트 기능으로 Agentforce를 보완할 놀라운 AI ​​팀을 제공합니다. Fin의 AI 에이전트 기술은 조직이 자율적 해결을 개선하고 서비스 비용을 줄이며 서비스 조직 전체에서 AI 채택을 가속화하는 데 도움이 될 것입니다. 이번 거래는 Salesforce의 자본 반환 프로그램에 영향을 미치지 않습니다.
+      <title>Trinket.io가 종료되어 저장하고 trinket.strivemath.org에 호스팅했습니다.</title>
+      <link>https://trinket.strivemath.org/</link>
+      <description>📝 브라우저의 코드 Trinket 가입 또는 Trinket에서 가져오기의 커뮤니티 호스팅 버전입니다. io Trinket은 이제 영원히 무료입니다. 세부 정보 표시 × Trinket은 이제 영원히 무료입니다. 이것은 Strive Math가 운영하고 Trinket에서 무료로 사용할 수 있는 커뮤니티 호스팅 Trinket 버전입니다. 대화형 강좌를 만드세요.
 
 
-🔤 Original: Salesforce to Acquire Fin (formerly Intercom) for $3.6B
+🔤 Original: Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org
 
-🔗 Read more: https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</description>
-      <guid isPermaLink="true">https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</guid>
-      <pubDate>Mon, 15 Jun 2026 12:08:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48540126</comments>
+🔗 Read more: https://trinket.strivemath.org/</description>
+      <guid isPermaLink="true">https://trinket.strivemath.org/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:30:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552723</comments>
+    </item>
+    <item>
+      <title>Show HN: Garden of Flowers – ASCII 아트 이전의 그림 타이포그래피 아카이브</title>
+      <link>https://garden-of-flowers.heikkilotvonen.com/</link>
+      <description>📝 Henry Vaussy Source 1783 활자 견본 프랑스 William Caslon의 인쇄 활자 견본 Source 1785 활자 견본 caslon 영국 머리와 꼬리 부분 William Caslon의 인쇄 활자 견본 Source 1785 활자 견본 caslon england 모듈러 유형 heikki가 가장 좋아하는 것 William Caslon Source의 인쇄 활자 견본 1785 활자 견본 caslon england 머리와 꼬리 조각 William Caslon의 인쇄 활자 견본 소스 1785형 견본 caslon england 모듈형 Griechische Einfassung Serie LV 소스 유형 견본 1800s j. 소스 1770년형 견본 독일 머리 및 꼬리 부분 William Caslon의 인쇄 유형 견본 원본 1785년형 견본 caslon 영국 머리 및 꼬리 부분 Epreuves des caractères de lafounderie. Hemery Source 활자 표본 1754년 프랑스 머리 부분과 꼬리 부분 인쇄 유형의 표본입니다.
+
+
+🔤 Original: Show HN: Garden of Flowers – an archive of pictorial typography before ASCII art
+
+🔗 Read more: https://garden-of-flowers.heikkilotvonen.com/</description>
+      <guid isPermaLink="true">https://garden-of-flowers.heikkilotvonen.com/</guid>
+      <pubDate>Tue, 16 Jun 2026 04:25:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550569</comments>
+    </item>
+    <item>
+      <title>Commodore, 플립폰 출시</title>
+      <link>https://commodore.net/why-a-flip-phone/</link>
+      <description>📝 휴대전화에 관해 그렇게 말할 수 있던 때가 있었습니다. 코모도는 항상 열려있습니다. 그것은 친절한 것이었습니다.
+
+
+🔤 Original: Commodore Releases Flip Phone
+
+🔗 Read more: https://commodore.net/why-a-flip-phone/</description>
+      <guid isPermaLink="true">https://commodore.net/why-a-flip-phone/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:15:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552614</comments>
+    </item>
+    <item>
+      <title>Fed는 탈옥이 아닌 '이 코드를 수정하세요'라는 간단한 메시지 이후 Fable 5에 놀랐습니다.</title>
+      <link>https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</link>
+      <description>📝 REG AD 외부 연구원들은 알려진 CVE가 포함된 Anthropic의 Fable 5, Mythos 및 Claude Opus 모델 오픈 소스 코드와 의도적으로 취약점이 포함된 새로운 코드를 제공하고 모델에 "보안 문제에 대한 코드를 검토하도록 요청했습니다. "바로 그것입니다"라고 Moussouris는 썼습니다. Anthropic의 고급 모델을 금지하는 것은 공격자보다 방어자에게 더 큰 피해를 줄 것이라고 Moussouris는 경고합니다.
+
+
+🔤 Original: Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak
+
+🔗 Read more: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</description>
+      <guid isPermaLink="true">https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</guid>
+      <pubDate>Tue, 16 Jun 2026 09:26:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552687</comments>
+    </item>
+    <item>
+      <title>인류는 다가오는 지능 폭발에 준비가 되어 있지 않습니다</title>
+      <link>https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</link>
+      <guid isPermaLink="true">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</guid>
+      <pubDate>Tue, 16 Jun 2026 02:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48549628</comments>
     </item>
   </channel>
 </rss>

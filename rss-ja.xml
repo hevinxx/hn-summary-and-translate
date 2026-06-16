@@ -6,54 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 11:10:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>GitHub が AI の容量不足に直面する中、Microsoft は AWS に注目</title>
-      <link>https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</link>
-      <guid isPermaLink="true">https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</guid>
-      <pubDate>Tue, 16 Jun 2026 02:47:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48549918</comments>
+      <title>x86 エミュレータ チームが非常に悪いコードを発見し、エミュレーション中に修正したときのこと</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</link>
+      <description>📝 ) この特定のエミュレータはバイナリ変換を採用し、元の x86-32 コードと同等の操作を実行するネイティブ コードを生成しました。しかし、ループを使用してメモリを初期化するのは、このコードのコンパイルに使用されたコンパイラにとってあまりにもありふれたものでした。これにチームは非常に腹を立てたため、トランスレータに特別なコードを追加して、この恐ろしい機能を検出し、同等のタイトなループに置き換えました。
+
+
+🔤 Original: The time the x86 emulator team found code so bad they fixed it during emulation
+
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</guid>
+      <pubDate>Tue, 16 Jun 2026 04:46:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550693</comments>
     </item>
     <item>
-      <title>Amazon、ミズーリ州に数十億ドル規模のデータセンターを発表</title>
-      <link>https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</link>
-      <description>📝 アマゾン ウェブ サービスは、モンゴメリー郡の新しいデータセンター キャンパスに数十億ドルを投資し、ミズーリ州に大々的に進出していると同社が本日発表した。アマゾンはまた、次のような直接コミュニティへの寄付にも700万ドル以上をコミットしている： 緊急派遣サービスと公共安全インフラに300万ドル モンゴメリー郡フェアグラウンドの新しいコミュニティ集会スペースに100万ドル以上 道路と水道インフラの改善に追加資金 STEM教育プログラム、教師への助成金、そして地元プロジェクトのための新しいAmazonモンゴメリー郡コミュニティ基金 同社は完成した水道インフラを地元の公共水道地区に無償で寄付する。 Amazon幹部らは長期的なパートナーシップとコミュニティの利益を強調した。
+      <title>ジョン・カーマックがファブリス・ベラールについて語る</title>
+      <link>https://twitter.com/ID_AA_Carmack/status/2064095424420487226</link>
+      <description>📝 John Carmack@ID_AA_Carmack私はファブリス ベラールを尊敬しています。彼は、すべての YouTube ビデオ、すべての Netflix 番組、すべての TikTok クリップをストリーミングするコードを書きました。彼は、仮想「もっと見る」9:21 PM · 2026616 年 6 月 8 日を実行するコードを作成しました。
 
 
-🔤 Original: Amazon Announces Multibillion-Dollar Data Center in Missouri
+🔤 Original: John Carmack on Fabrice Bellard
 
-🔗 Read more: https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</description>
-      <guid isPermaLink="true">https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:28:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548975</comments>
+🔗 Read more: https://twitter.com/ID_AA_Carmack/status/2064095424420487226</description>
+      <guid isPermaLink="true">https://twitter.com/ID_AA_Carmack/status/2064095424420487226</guid>
+      <pubDate>Tue, 16 Jun 2026 04:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550779</comments>
     </item>
     <item>
-      <title>レビューは高価になり、リライトは安くなった</title>
-      <link>http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</link>
-      <description>📝 そのため、AI が生成したコードのレビューのコストはさらに高くなりました。その決断には時間がかかります。それによって、私がどれだけ積極的に反撃するかが変わりました。
+      <title>ルールを回避しようとするときにルールの背後にある理論的根拠を理解する</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</link>
+      <description>📝 レジストリ呼び出しを行わないでください。ブロッキングやプロセス間通信 (IPC) 関数呼び出しを行わないでください。これは、コールバック自体が最小限のブロッキングで高速である必要があることを再度強調しています。
 
 
-🔤 Original: Reviews have become expensive, rewrites have become cheap
+🔤 Original: Understanding the rationale behind a rule when trying to circumvent it
 
-🔗 Read more: http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</description>
-      <guid isPermaLink="true">http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:13:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48548883</comments>
+🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</description>
+      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</guid>
+      <pubDate>Tue, 16 Jun 2026 07:35:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48551876</comments>
     </item>
     <item>
-      <title>Salesforce、Fin (旧Intercom)を36億ドルで買収へ</title>
-      <link>https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</link>
-      <description>📝 「Fin は、実績のあるエージェント テクノロジー、顧客の成功への深い取り組み、そして強力なサービス エージェント機能で Agentforce を補完する素晴らしい AI チームをもたらします。Fin の AI エージェント テクノロジーは、組織が自律的な解決策を改善し、サービスコストを削減し、サービス組織全体での AI 導入を加速するのに役立ちます。この取引は、Salesforce の資本還元プログラムには影響しません。」
+      <title>Trinket.io がシャットダウンするため、それを保存して trinket.strivemath.org にホストしました</title>
+      <link>https://trinket.strivemath.org/</link>
+      <description>📝 ブラウザ内のコード Trinket のコミュニティがホストするエディション サインアップするか、trinket からインポートします。 io Trinket が永久に無料になりました 詳細を表示 × Trinket が永久に無料になりました これはコミュニティがホストする Trinket 版で、Strive Math によって運営され、trinket で無料で入手できます。インタラクティブなコースを作成します。
 
 
-🔤 Original: Salesforce to Acquire Fin (formerly Intercom) for $3.6B
+🔤 Original: Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org
 
-🔗 Read more: https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</description>
-      <guid isPermaLink="true">https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</guid>
-      <pubDate>Mon, 15 Jun 2026 12:08:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48540126</comments>
+🔗 Read more: https://trinket.strivemath.org/</description>
+      <guid isPermaLink="true">https://trinket.strivemath.org/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:30:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552723</comments>
+    </item>
+    <item>
+      <title>Show HN: Garden of Flowers – アスキーアート以前の絵画タイポグラフィーのアーカイブ</title>
+      <link>https://garden-of-flowers.heikkilotvonen.com/</link>
+      <description>📝 ヘンリー・ヴォーシー ソース 1783 タイプ見本フランス ウィリアム・キャスロンによる活字の見本 出典 1785 タイプ見本カスロン・イングランドのヘッドとテールピース ウィリアム・キャスロンによる活字の見本 出典 1785 タイプ見本カスロン・イングランド モジュラータイプ ヘイキのお気に入り ウィリアム・キャスロンによる活字の見本 出典 1785 タイプ見本キャスロン・イングランドのヘッドとテール個 ウィリアム・キャスロンによる印刷活字の見本 ソース 1785 タイプ見本 キャスロン イングランド モジュラー タイプ グリーキッシェ アインファッスング シリーズ LV ソース タイプ見本 1800 年代 j.出典 1770 タイプ見本ドイツのヘッドとテールピース ウィリアム・キャスロンによる印刷活字の見本 出典 1785 タイプ見本カスロンイングランド ヘッドとテールピース Epreuves des caractères de la Fonderie。 Hemery Source typespecimen 1754 フランスのヘッドとテールピース 活字の標本。
+
+
+🔤 Original: Show HN: Garden of Flowers – an archive of pictorial typography before ASCII art
+
+🔗 Read more: https://garden-of-flowers.heikkilotvonen.com/</description>
+      <guid isPermaLink="true">https://garden-of-flowers.heikkilotvonen.com/</guid>
+      <pubDate>Tue, 16 Jun 2026 04:25:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48550569</comments>
+    </item>
+    <item>
+      <title>コモドールが折りたたみ式携帯電話をリリース</title>
+      <link>https://commodore.net/why-a-flip-phone/</link>
+      <description>📝 携帯電話についてもそう言える時代がありました。コモドールはいつでも営業しております。それは友好的なことでした。
+
+
+🔤 Original: Commodore Releases Flip Phone
+
+🔗 Read more: https://commodore.net/why-a-flip-phone/</description>
+      <guid isPermaLink="true">https://commodore.net/why-a-flip-phone/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:15:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552614</comments>
+    </item>
+    <item>
+      <title>脱獄ではなく単純な「このコードを修正してください」というプロンプトの後、連邦当局はフェイブル 5 に激怒した</title>
+      <link>https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</link>
+      <description>📝 REG AD 外部の研究者らは、Anthropic の Fable 5、Mythos、Claude Opus モデルに既知の CVE を含むオープンソース コードと、意図的に脆弱性を混入した新しいコードを与え、モデルに「セキュリティ上の問題がないかコードをレビューするよう求めた。「それだけです」とムスリース氏は書いています。Anthropic の高度なモデルを禁止することは、攻撃者よりも防御者に大きなダメージを与えることになるとムスーリス氏は警告しています。
+
+
+🔤 Original: Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak
+
+🔗 Read more: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</description>
+      <guid isPermaLink="true">https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</guid>
+      <pubDate>Tue, 16 Jun 2026 09:26:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552687</comments>
+    </item>
+    <item>
+      <title>人類は来たるべき知能の爆発に対する準備ができていない</title>
+      <link>https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</link>
+      <guid isPermaLink="true">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</guid>
+      <pubDate>Tue, 16 Jun 2026 02:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48549628</comments>
     </item>
   </channel>
 </rss>
