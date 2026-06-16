@@ -6,85 +6,152 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 11:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 16:52:28 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>The time the x86 emulator team found code so bad they fixed it during emulation</title>
-      <link>https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</link>
-      <description>📝 ) This particular emulator employed binary translation, generating native code to perform the equivalent operations of the original x86-32 code. But using a loop to initialize the memory was too mundane for whatever compiler was used to compile this code. This offended the team so much that they added special code to the translator to detect this horrible function and replace it with the equivalent tight loop.
+      <title>Running local models is good now</title>
+      <link>https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</link>
+      <description>📝 Running local models is good nowJun 15 2026I’ve been working with local models since they came out, and finally, they’re surprisingly good now. cpp with Open WebUIllama-cpp-pythonOllamallamafiles andLM StudioWhere are local models now. As a result, I’ve mostly been using local models as fast, personalized Google for development questions that don’t require recency.
 
-🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</description>
-      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</guid>
-      <pubDate>Tue, 16 Jun 2026 04:46:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48550693</comments>
+🔗 Read more: https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</description>
+      <guid isPermaLink="true">https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</guid>
+      <pubDate>Tue, 16 Jun 2026 14:36:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555993</comments>
     </item>
     <item>
-      <title>John Carmack on Fabrice Bellard</title>
-      <link>https://twitter.com/ID_AA_Carmack/status/2064095424420487226</link>
-      <description>📝 John Carmack@ID_AA_CarmackI admire Fabrice Bellard. He wrote the code that streams every YouTube video, every Netflix show, every TikTok clip. He wrote the code that runs the virtual Show more9:21 PM · Jun 8, 2026616.
-
-🔗 Read more: https://twitter.com/ID_AA_Carmack/status/2064095424420487226</description>
-      <guid isPermaLink="true">https://twitter.com/ID_AA_Carmack/status/2064095424420487226</guid>
-      <pubDate>Tue, 16 Jun 2026 04:58:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48550779</comments>
+      <title>SpaceX to buy Cursor for $60B</title>
+      <link>https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/</link>
+      <guid isPermaLink="true">https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/</guid>
+      <pubDate>Tue, 16 Jun 2026 10:44:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48553224</comments>
     </item>
     <item>
-      <title>Understanding the rationale behind a rule when trying to circumvent it</title>
-      <link>https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</link>
-      <description>📝 Don’t make registry calls. Don’t make blocking and/or Interprocess Communication (IPC) function calls. This once again highlights that the callback itself needs to be fast with minimal blocking.
+      <title>Mechanical Watch (2022)</title>
+      <link>https://ciechanow.ski/mechanical-watch/</link>
+      <description>📝 In the demonstration below, you can move the mass attached to this type of spring to see it bounce: When a spring like this is compressed, it stores some energy that is then released when the compressing tension is removed. Mechanical watches typically use a different kind of spring – a spiral torsion spring. This type of spring is loaded when it’s twisted.
 
-🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</description>
-      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</guid>
-      <pubDate>Tue, 16 Jun 2026 07:35:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48551876</comments>
+🔗 Read more: https://ciechanow.ski/mechanical-watch/</description>
+      <guid isPermaLink="true">https://ciechanow.ski/mechanical-watch/</guid>
+      <pubDate>Tue, 16 Jun 2026 11:26:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48553550</comments>
     </item>
     <item>
-      <title>Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org</title>
-      <link>https://trinket.strivemath.org/</link>
-      <description>📝 Code in Your Browser A community-hosted edition of Trinket Sign Up or Import from trinket. io Trinket now free forever Show details × Trinket is now free forever This is a community-hosted edition of Trinket, run by Strive Math and available free at trinket. Create interactive courses.
+      <title>SubQ 1.1 Small</title>
+      <link>https://subq.ai/subq-1-1-small-technical-report</link>
+      <description>📝 5x less compute than dense attention and runs 56x faster than FlashAttention-2. 1 Small balances long-context optimization with general reasoning ability without compromise. SSA's advantage over dense attention grows as context length increases.
 
-🔗 Read more: https://trinket.strivemath.org/</description>
-      <guid isPermaLink="true">https://trinket.strivemath.org/</guid>
-      <pubDate>Tue, 16 Jun 2026 09:30:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48552723</comments>
+🔗 Read more: https://subq.ai/subq-1-1-small-technical-report</description>
+      <guid isPermaLink="true">https://subq.ai/subq-1-1-small-technical-report</guid>
+      <pubDate>Tue, 16 Jun 2026 14:50:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48556163</comments>
     </item>
     <item>
-      <title>Show HN: Garden of Flowers – an archive of pictorial typography before ASCII art</title>
-      <link>https://garden-of-flowers.heikkilotvonen.com/</link>
-      <description>📝 Henry Vaussy Source 1783 typespecimen france A specimen of printing types by William Caslon Source 1785 typespecimen caslon england head and tail pieces A specimen of printing types by William Caslon Source 1785 typespecimen caslon england modular type heikki's favourites A specimen of printing types by William Caslon Source 1785 typespecimen caslon england head and tail pieces A specimen of printing types by William Caslon Source 1785 typespecimen caslon england modular type Griechische Einfassung Serie LV Source typespecimen 1800s j. Source 1770 typespecimen germany head and tail pieces A specimen of printing types by William Caslon Source 1785 typespecimen caslon england head and tail pieces Epreuves des caractères de la fonderie. Hemery Source typespecimen 1754 france head and tail pieces A specimen of printing types.
+      <title>Correlated randomness in Slay the Spire 2</title>
+      <link>https://tck.mn/blog/correlated-randomness-sts2/</link>
+      <description>📝 The random number generators of Slay the Spire 2 For now, I will give an extremely simplified explanation of this correlation. Neow's Bones I'll start with the first example from the intro. 82% However, in Overgrowth, you instead get a curse from this distribution: Clumsy0.
 
-🔗 Read more: https://garden-of-flowers.heikkilotvonen.com/</description>
-      <guid isPermaLink="true">https://garden-of-flowers.heikkilotvonen.com/</guid>
-      <pubDate>Tue, 16 Jun 2026 04:25:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48550569</comments>
+🔗 Read more: https://tck.mn/blog/correlated-randomness-sts2/</description>
+      <guid isPermaLink="true">https://tck.mn/blog/correlated-randomness-sts2/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:46:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552844</comments>
     </item>
     <item>
-      <title>Commodore Releases Flip Phone</title>
-      <link>https://commodore.net/why-a-flip-phone/</link>
-      <description>📝 There was a time you could say that about your phone. Commodore is always open. That was the friendly thing.
+      <title>But yak shaving is fun</title>
+      <link>https://parksb.github.io/en/article/32.html</link>
+      <description>📝 But yak shaving is funThe joy of building from scratch 2019. But yak shaving is fun. TeX, too, was born from shaving a yak.
 
-🔗 Read more: https://commodore.net/why-a-flip-phone/</description>
-      <guid isPermaLink="true">https://commodore.net/why-a-flip-phone/</guid>
-      <pubDate>Tue, 16 Jun 2026 09:15:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48552614</comments>
+🔗 Read more: https://parksb.github.io/en/article/32.html</description>
+      <guid isPermaLink="true">https://parksb.github.io/en/article/32.html</guid>
+      <pubDate>Tue, 16 Jun 2026 14:26:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555838</comments>
     </item>
     <item>
-      <title>Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak</title>
-      <link>https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</link>
-      <description>📝 REG AD The outside researchers reportedly fed Anthropic’s Fable 5, Mythos, and Claude Opus models open-source code containing known CVEs, plus new code intentionally laced with vulnerabilities, and asked the models to “review the code for security issues. “That’s it,” Moussouris wrote. Banning Anthropic’s advanced models is going to hurt defenders more than attackers, Moussouris warns.
+      <title>Making ast.walk 220x Faster</title>
+      <link>https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/</link>
+      <description>📝 Let's push this further. That gets around 78% cumulative improvement. There's only 132 classes that subclass ast.
 
-🔗 Read more: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</description>
-      <guid isPermaLink="true">https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</guid>
-      <pubDate>Tue, 16 Jun 2026 09:26:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48552687</comments>
+🔗 Read more: https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/</description>
+      <guid isPermaLink="true">https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/</guid>
+      <pubDate>Tue, 16 Jun 2026 16:25:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48557768</comments>
     </item>
     <item>
-      <title>Humanity isn't ready for the coming intelligence explosion</title>
-      <link>https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</link>
-      <guid isPermaLink="true">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</guid>
-      <pubDate>Tue, 16 Jun 2026 02:00:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48549628</comments>
+      <title>Apple's weird anti-nausea dots cured my car sickness</title>
+      <link>https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</link>
+      <description>📝 until I remembered Apple’s magic dots. Motion Cues solve this by placing dots around the periphery of the display that move in harmony with the motion of the car. Hopefully you’ll find similar success when traveling this summer.
+
+🔗 Read more: https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</description>
+      <guid isPermaLink="true">https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</guid>
+      <pubDate>Tue, 16 Jun 2026 16:12:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48557530</comments>
+    </item>
+    <item>
+      <title>Unicorn – The Ultimate CPU Emulator</title>
+      <link>https://www.unicorn-engine.org/</link>
+      <description>📝 Asian Star 10x10 Award November 13, 2022 We are happy to announce that Unicorn Engine was awarded by Alibaba Cloud for its impact on the cybersecurity field (and beyond since our project is widely used for other purposes, too). Unicorn Engine was created and released more than 7 years ago to the public. We launched Unicorn Engine under an open-source license with the goal of contributing to the community and helping as many people as possible with our code.
+
+🔗 Read more: https://www.unicorn-engine.org/</description>
+      <guid isPermaLink="true">https://www.unicorn-engine.org/</guid>
+      <pubDate>Tue, 16 Jun 2026 11:14:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48553450</comments>
+    </item>
+    <item>
+      <title>GateGPT: 56k tokens per second Transformer (KV cache) on FPGA at 80 MHz</title>
+      <link>https://twitter.com/fguzmanai/status/2065832668172845209</link>
+      <description>📝 Fabio Guzman@FGuzmanAI56,000+ tokens/sec at just 80 MHz. Designed gate by gate as a 100% digital integrated circuit. No CPU) Just pure digital silicon running @karpathy microGPT, spelling out names on a GPT 👇00:004:24 PM · Jun 13, 2026610.
+
+🔗 Read more: https://twitter.com/fguzmanai/status/2065832668172845209</description>
+      <guid isPermaLink="true">https://twitter.com/fguzmanai/status/2065832668172845209</guid>
+      <pubDate>Tue, 16 Jun 2026 16:12:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48557535</comments>
+    </item>
+    <item>
+      <title>I Fired Google</title>
+      <link>https://www.theartofdoingstuff.com/i-fired-google/</link>
+      <description>📝 The Improvement Then Google improved it. Google gave me the score from five innings earlier. Google told me "It doesn't supply facts like this.
+
+🔗 Read more: https://www.theartofdoingstuff.com/i-fired-google/</description>
+      <guid isPermaLink="true">https://www.theartofdoingstuff.com/i-fired-google/</guid>
+      <pubDate>Tue, 16 Jun 2026 14:26:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555835</comments>
+    </item>
+    <item>
+      <title>Making espresso with ultrasound</title>
+      <link>https://www.unsw.edu.au/newsroom/news/2026/06/New-way-making-espresso</link>
+      <description>📝 That morning coffee kick from a shot of espresso needs boiling water and high pressure - equalling plenty of energy consumption, right. “Traditionally, espresso is by forcing hot water through coffee under pressure. The basket generates high-frequency sound waves that help extract flavour, aroma and body from the coffee grounds.
+
+🔗 Read more: https://www.unsw.edu.au/newsroom/news/2026/06/New-way-making-espresso</description>
+      <guid isPermaLink="true">https://www.unsw.edu.au/newsroom/news/2026/06/New-way-making-espresso</guid>
+      <pubDate>Tue, 16 Jun 2026 08:52:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552440</comments>
+    </item>
+    <item>
+      <title>Google Chrome update will close the door on ad blockers</title>
+      <link>https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/</link>
+      <description>📝 CyberNews points out a Chromium commit that removes support for the “kExtensionManifestV2Disabled” flag, which is referred to as “dead code” seeing as Chrome no longer supports Manifest V2 extensions. This will also impact other Chromium-based browsers, though the comment notes that “other browsers can continue supporting these if they so desire. Chrome 151 (expected July 2026): Will remove the remaining flags (ExtensionManifestV2Unsupported, ExtensionManifestV2Availability, and AllowLegacyMV2Extensions).
+
+🔗 Read more: https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/</description>
+      <guid isPermaLink="true">https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/</guid>
+      <pubDate>Tue, 16 Jun 2026 13:46:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555244</comments>
+    </item>
+    <item>
+      <title>Qwen-Robot Suite: A Foundation Model Suite for Physical World Intelligence</title>
+      <link>https://qwen.ai/blog?id=qwen-robotsuite</link>
+      <guid isPermaLink="true">https://qwen.ai/blog?id=qwen-robotsuite</guid>
+      <pubDate>Tue, 16 Jun 2026 13:15:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48554814</comments>
+    </item>
+    <item>
+      <title>'Wow, it really worked ': 70s TV show causing worldwide panic today</title>
+      <link>https://www.theguardian.com/tv-and-radio/2026/jun/16/alternative-3-mockumentary-missing-scientists-conspiracy-50-years-later</link>
+      <description>📝 Photograph: Anglia TelevisionView image in fullscreen‘Science Report’ presenter Tim Brinton in Alternative 3 (1977). Photograph: Anglia Television‘Wow, it really worked. “Everybody in Anglia Television was wetting themselves with fear,” Ambrose remembers.
+
+🔗 Read more: https://www.theguardian.com/tv-and-radio/2026/jun/16/alternative-3-mockumentary-missing-scientists-conspiracy-50-years-later</description>
+      <guid isPermaLink="true">https://www.theguardian.com/tv-and-radio/2026/jun/16/alternative-3-mockumentary-missing-scientists-conspiracy-50-years-later</guid>
+      <pubDate>Tue, 16 Jun 2026 12:51:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48554433</comments>
     </item>
   </channel>
 </rss>

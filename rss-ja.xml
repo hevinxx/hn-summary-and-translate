@@ -6,106 +6,191 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 11:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 16:52:28 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>x86 エミュレータ チームが非常に悪いコードを発見し、エミュレーション中に修正したときのこと</title>
-      <link>https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</link>
-      <description>📝 ) この特定のエミュレータはバイナリ変換を採用し、元の x86-32 コードと同等の操作を実行するネイティブ コードを生成しました。しかし、ループを使用してメモリを初期化するのは、このコードのコンパイルに使用されたコンパイラにとってあまりにもありふれたものでした。これにチームは非常に腹を立てたため、トランスレータに特別なコードを追加して、この恐ろしい機能を検出し、同等のタイトなループに置き換えました。
+      <title>ローカルモデルの実行がうまくいくようになりました</title>
+      <link>https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</link>
+      <description>📝 ローカル モデルの実行がうまくいくようになりました2026 年 6 月 15 日私はローカル モデルがリリースされてからずっと使用してきましたが、ついに、今では驚くほど優れたものになりました。 Open WebUIllama-cpp-pythonOllamallamafiles と LM Studio を使用した cpp は現在ローカル モデルです。その結果、私は主に、最新性を必要としない開発上の質問に対して、高速でパーソナライズされた Google としてローカル モデルを使用してきました。
 
 
-🔤 Original: The time the x86 emulator team found code so bad they fixed it during emulation
+🔤 Original: Running local models is good now
 
-🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</description>
-      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419</guid>
-      <pubDate>Tue, 16 Jun 2026 04:46:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48550693</comments>
+🔗 Read more: https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</description>
+      <guid isPermaLink="true">https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</guid>
+      <pubDate>Tue, 16 Jun 2026 14:36:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555993</comments>
     </item>
     <item>
-      <title>ジョン・カーマックがファブリス・ベラールについて語る</title>
-      <link>https://twitter.com/ID_AA_Carmack/status/2064095424420487226</link>
-      <description>📝 John Carmack@ID_AA_Carmack私はファブリス ベラールを尊敬しています。彼は、すべての YouTube ビデオ、すべての Netflix 番組、すべての TikTok クリップをストリーミングするコードを書きました。彼は、仮想「もっと見る」9:21 PM · 2026616 年 6 月 8 日を実行するコードを作成しました。
-
-
-🔤 Original: John Carmack on Fabrice Bellard
-
-🔗 Read more: https://twitter.com/ID_AA_Carmack/status/2064095424420487226</description>
-      <guid isPermaLink="true">https://twitter.com/ID_AA_Carmack/status/2064095424420487226</guid>
-      <pubDate>Tue, 16 Jun 2026 04:58:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48550779</comments>
+      <title>SpaceX、Cursorを600億ドルで買収へ</title>
+      <link>https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/</link>
+      <guid isPermaLink="true">https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/</guid>
+      <pubDate>Tue, 16 Jun 2026 10:44:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48553224</comments>
     </item>
     <item>
-      <title>ルールを回避しようとするときにルールの背後にある理論的根拠を理解する</title>
-      <link>https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</link>
-      <description>📝 レジストリ呼び出しを行わないでください。ブロッキングやプロセス間通信 (IPC) 関数呼び出しを行わないでください。これは、コールバック自体が最小限のブロッキングで高速である必要があることを再度強調しています。
+      <title>機械式時計 (2022)</title>
+      <link>https://ciechanow.ski/mechanical-watch/</link>
+      <description>📝 以下のデモンストレーションでは、このタイプのバネに取り付けられた質量を移動して、バネが跳ねることを確認できます。このようなバネが圧縮されると、ある程度のエネルギーが蓄えられ、圧縮張力がなくなるとエネルギーが解放されます。機械式時計は通常、別の種類のバネ、つまりねじりバネを使用します。このタイプのスプリングはねじると負荷がかかります。
 
 
-🔤 Original: Understanding the rationale behind a rule when trying to circumvent it
+🔤 Original: Mechanical Watch (2022)
 
-🔗 Read more: https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</description>
-      <guid isPermaLink="true">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</guid>
-      <pubDate>Tue, 16 Jun 2026 07:35:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48551876</comments>
+🔗 Read more: https://ciechanow.ski/mechanical-watch/</description>
+      <guid isPermaLink="true">https://ciechanow.ski/mechanical-watch/</guid>
+      <pubDate>Tue, 16 Jun 2026 11:26:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48553550</comments>
     </item>
     <item>
-      <title>Trinket.io がシャットダウンするため、それを保存して trinket.strivemath.org にホストしました</title>
-      <link>https://trinket.strivemath.org/</link>
-      <description>📝 ブラウザ内のコード Trinket のコミュニティがホストするエディション サインアップするか、trinket からインポートします。 io Trinket が永久に無料になりました 詳細を表示 × Trinket が永久に無料になりました これはコミュニティがホストする Trinket 版で、Strive Math によって運営され、trinket で無料で入手できます。インタラクティブなコースを作成します。
+      <title>サブQ 1.1 小</title>
+      <link>https://subq.ai/subq-1-1-small-technical-report</link>
+      <description>📝 デンス アテンションよりもコンピューティングが 5 分の 1 で済み、FlashAttendant-2 よりも 56 倍高速に実行されます。 1 Small は、妥協することなく、長いコンテキストの最適化と一般的な推論能力のバランスをとります。コンテキストの長さが増加するにつれて、高密度アテンションに対する SSA の利点が増大します。
 
 
-🔤 Original: Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org
+🔤 Original: SubQ 1.1 Small
 
-🔗 Read more: https://trinket.strivemath.org/</description>
-      <guid isPermaLink="true">https://trinket.strivemath.org/</guid>
-      <pubDate>Tue, 16 Jun 2026 09:30:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48552723</comments>
+🔗 Read more: https://subq.ai/subq-1-1-small-technical-report</description>
+      <guid isPermaLink="true">https://subq.ai/subq-1-1-small-technical-report</guid>
+      <pubDate>Tue, 16 Jun 2026 14:50:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48556163</comments>
     </item>
     <item>
-      <title>Show HN: Garden of Flowers – アスキーアート以前の絵画タイポグラフィーのアーカイブ</title>
-      <link>https://garden-of-flowers.heikkilotvonen.com/</link>
-      <description>📝 ヘンリー・ヴォーシー ソース 1783 タイプ見本フランス ウィリアム・キャスロンによる活字の見本 出典 1785 タイプ見本カスロン・イングランドのヘッドとテールピース ウィリアム・キャスロンによる活字の見本 出典 1785 タイプ見本カスロン・イングランド モジュラータイプ ヘイキのお気に入り ウィリアム・キャスロンによる活字の見本 出典 1785 タイプ見本キャスロン・イングランドのヘッドとテール個 ウィリアム・キャスロンによる印刷活字の見本 ソース 1785 タイプ見本 キャスロン イングランド モジュラー タイプ グリーキッシェ アインファッスング シリーズ LV ソース タイプ見本 1800 年代 j.出典 1770 タイプ見本ドイツのヘッドとテールピース ウィリアム・キャスロンによる印刷活字の見本 出典 1785 タイプ見本カスロンイングランド ヘッドとテールピース Epreuves des caractères de la Fonderie。 Hemery Source typespecimen 1754 フランスのヘッドとテールピース 活字の標本。
+      <title>Slay the Spire 2 の相関ランダム性</title>
+      <link>https://tck.mn/blog/correlated-randomness-sts2/</link>
+      <description>📝 Slay the Spire 2 の乱数発生器 とりあえず、この相関関係について極めて簡単に説明します。 Neow's Bones 最初の例のイントロから始めます。 82% ただし、Overgrowth では、代わりにこのディストリビューションから呪いを受けます: Clumsy0。
 
 
-🔤 Original: Show HN: Garden of Flowers – an archive of pictorial typography before ASCII art
+🔤 Original: Correlated randomness in Slay the Spire 2
 
-🔗 Read more: https://garden-of-flowers.heikkilotvonen.com/</description>
-      <guid isPermaLink="true">https://garden-of-flowers.heikkilotvonen.com/</guid>
-      <pubDate>Tue, 16 Jun 2026 04:25:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48550569</comments>
+🔗 Read more: https://tck.mn/blog/correlated-randomness-sts2/</description>
+      <guid isPermaLink="true">https://tck.mn/blog/correlated-randomness-sts2/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:46:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552844</comments>
     </item>
     <item>
-      <title>コモドールが折りたたみ式携帯電話をリリース</title>
-      <link>https://commodore.net/why-a-flip-phone/</link>
-      <description>📝 携帯電話についてもそう言える時代がありました。コモドールはいつでも営業しております。それは友好的なことでした。
+      <title>でもヤクの毛剃りは楽しいよ</title>
+      <link>https://parksb.github.io/en/article/32.html</link>
+      <description>📝 でもヤクの毛刈りは楽しいゼロから作る楽しさ 2019. でもヤクの毛刈りは楽しいです。 TeX もヤクの毛を剃ることから生まれました。
 
 
-🔤 Original: Commodore Releases Flip Phone
+🔤 Original: But yak shaving is fun
 
-🔗 Read more: https://commodore.net/why-a-flip-phone/</description>
-      <guid isPermaLink="true">https://commodore.net/why-a-flip-phone/</guid>
-      <pubDate>Tue, 16 Jun 2026 09:15:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48552614</comments>
+🔗 Read more: https://parksb.github.io/en/article/32.html</description>
+      <guid isPermaLink="true">https://parksb.github.io/en/article/32.html</guid>
+      <pubDate>Tue, 16 Jun 2026 14:26:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555838</comments>
     </item>
     <item>
-      <title>脱獄ではなく単純な「このコードを修正してください」というプロンプトの後、連邦当局はフェイブル 5 に激怒した</title>
-      <link>https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</link>
-      <description>📝 REG AD 外部の研究者らは、Anthropic の Fable 5、Mythos、Claude Opus モデルに既知の CVE を含むオープンソース コードと、意図的に脆弱性を混入した新しいコードを与え、モデルに「セキュリティ上の問題がないかコードをレビューするよう求めた。「それだけです」とムスリース氏は書いています。Anthropic の高度なモデルを禁止することは、攻撃者よりも防御者に大きなダメージを与えることになるとムスーリス氏は警告しています。
+      <title>ast.walk を 220 倍高速化</title>
+      <link>https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/</link>
+      <description>📝 これをさらに推し進めてみましょう。これにより、累積で約 78% の改善が得られます。 ast をサブクラス化するクラスは 132 のみです。
 
 
-🔤 Original: Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak
+🔤 Original: Making ast.walk 220x Faster
 
-🔗 Read more: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</description>
-      <guid isPermaLink="true">https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</guid>
-      <pubDate>Tue, 16 Jun 2026 09:26:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48552687</comments>
+🔗 Read more: https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/</description>
+      <guid isPermaLink="true">https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/</guid>
+      <pubDate>Tue, 16 Jun 2026 16:25:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48557768</comments>
     </item>
     <item>
-      <title>人類は来たるべき知能の爆発に対する準備ができていない</title>
-      <link>https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</link>
-      <guid isPermaLink="true">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</guid>
-      <pubDate>Tue, 16 Jun 2026 02:00:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48549628</comments>
+      <title>Appleの奇妙な吐き気止めドットが私の車酔いを治してくれた</title>
+      <link>https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</link>
+      <description>📝 Apple のマジック ドットを思い出すまでは。モーション キューは、車の動きに合わせて動くドットをディスプレイの周囲に配置することでこの問題を解決します。この夏の旅行でも同様の成功を収めることを願っています。
+
+
+🔤 Original: Apple's weird anti-nausea dots cured my car sickness
+
+🔗 Read more: https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</description>
+      <guid isPermaLink="true">https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</guid>
+      <pubDate>Tue, 16 Jun 2026 16:12:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48557530</comments>
+    </item>
+    <item>
+      <title>Unicorn – 究極の CPU エミュレーター</title>
+      <link>https://www.unicorn-engine.org/</link>
+      <description>📝 Asian Star 10x10 Award 2022 年 11 月 13 日 Unicorn Engine が、サイバーセキュリティ分野への影響 (そして、私たちのプロジェクトは他の目的でも広く使用されているため、それ以上) に対して Alibaba Cloud から賞を受賞したことを発表できることを嬉しく思います。 Unicorn Engine は 7 年以上前に作成され、一般にリリースされました。私たちは、コミュニティに貢献し、できるだけ多くの人がコードを利用できるようにすることを目標として、オープンソース ライセンスの下で Unicorn Engine を立ち上げました。
+
+
+🔤 Original: Unicorn – The Ultimate CPU Emulator
+
+🔗 Read more: https://www.unicorn-engine.org/</description>
+      <guid isPermaLink="true">https://www.unicorn-engine.org/</guid>
+      <pubDate>Tue, 16 Jun 2026 11:14:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48553450</comments>
+    </item>
+    <item>
+      <title>GateGPT: 80 MHz の FPGA 上の 1 秒あたり 56,000 トークンのトランスフォーマー (KV キャッシュ)</title>
+      <link>https://twitter.com/fguzmanai/status/2065832668172845209</link>
+      <description>📝 Fabio Guzman@FGuzmanAI わずか 80 MHz で 56,000+ トークン/秒。 100% デジタル集積回路としてゲートごとに設計されています。 CPU なし) @karpathy microGPT を実行している純粋なデジタル シリコンだけで、GPT で名前を綴っています 👇00:004:24 PM · Jun 13, 2026610。
+
+
+🔤 Original: GateGPT: 56k tokens per second Transformer (KV cache) on FPGA at 80 MHz
+
+🔗 Read more: https://twitter.com/fguzmanai/status/2065832668172845209</description>
+      <guid isPermaLink="true">https://twitter.com/fguzmanai/status/2065832668172845209</guid>
+      <pubDate>Tue, 16 Jun 2026 16:12:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48557535</comments>
+    </item>
+    <item>
+      <title>私はGoogleを解雇しました</title>
+      <link>https://www.theartofdoingstuff.com/i-fired-google/</link>
+      <description>📝 改善 その後、Google がそれを改善しました。 Google が 5 イニング前のスコアを教えてくれました。 Googleは私に、「このような事実は提供していません。
+
+
+🔤 Original: I Fired Google
+
+🔗 Read more: https://www.theartofdoingstuff.com/i-fired-google/</description>
+      <guid isPermaLink="true">https://www.theartofdoingstuff.com/i-fired-google/</guid>
+      <pubDate>Tue, 16 Jun 2026 14:26:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555835</comments>
+    </item>
+    <item>
+      <title>超音波でエスプレッソを作る</title>
+      <link>https://www.unsw.edu.au/newsroom/news/2026/06/New-way-making-espresso</link>
+      <description>📝 朝、エスプレッソを一杯飲んでコーヒーを飲むには、熱湯と高圧が必要で、これはかなりのエネルギー消費に相当します。 「伝統的に、エスプレッソは圧力をかけながら熱湯をコーヒーに押し込むことによって行われます。バスケットは高周波音波を発生させ、コーヒー粉から風味、香り、コクを抽出するのに役立ちます。」
+
+
+🔤 Original: Making espresso with ultrasound
+
+🔗 Read more: https://www.unsw.edu.au/newsroom/news/2026/06/New-way-making-espresso</description>
+      <guid isPermaLink="true">https://www.unsw.edu.au/newsroom/news/2026/06/New-way-making-espresso</guid>
+      <pubDate>Tue, 16 Jun 2026 08:52:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48552440</comments>
+    </item>
+    <item>
+      <title>Google Chromeのアップデートで広告ブロッカーへの扉が閉まる</title>
+      <link>https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/</link>
+      <description>📝 Cyber​​News は、Chrome が Manifest V2 拡張機能をサポートしなくなったため、「kExtensionManifestV2Disabled」フラグのサポートを削除する Chromium コミットを指摘しています。これは「デッド コード」と呼ばれます。これは他の Chromium ベースのブラウザにも影響しますが、コメントでは「他のブラウザも希望に応じてこれらのサポートを継続できます。Chrome 151 (2026 年 7 月予定): 残りのフラグ (ExtensionManifestV2Unsupported、ExtensionManifestV2Availability、AllowLegacyMV2Extensions) が削除されます」と記載されています。
+
+
+🔤 Original: Google Chrome update will close the door on ad blockers
+
+🔗 Read more: https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/</description>
+      <guid isPermaLink="true">https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/</guid>
+      <pubDate>Tue, 16 Jun 2026 13:46:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48555244</comments>
+    </item>
+    <item>
+      <title>Qwen-Robot Suite: 物理世界インテリジェンスの基盤モデル スイート</title>
+      <link>https://qwen.ai/blog?id=qwen-robotsuite</link>
+      <guid isPermaLink="true">https://qwen.ai/blog?id=qwen-robotsuite</guid>
+      <pubDate>Tue, 16 Jun 2026 13:15:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48554814</comments>
+    </item>
+    <item>
+      <title>「すごい、本当に効果があった」: 70 年代のテレビ番組が今日世界的なパニックを引き起こしている</title>
+      <link>https://www.theguardian.com/tv-and-radio/2026/jun/16/alternative-3-mockumentary-missing-scientists-conspiracy-50-years-later</link>
+      <description>📝 写真: アングリア テレビ フルスクリーンで画像を表示。オルタナティブ 3 (1977 年) の「サイエンス リポート」プレゼンター、ティム ブリントン。写真: Anglia Television「わあ、本当にうまくいきました。」 「アングリアテレビの全員が恐怖でおもらししていました」とアンブローズは思い出す。
+
+
+🔤 Original: 'Wow, it really worked ': 70s TV show causing worldwide panic today
+
+🔗 Read more: https://www.theguardian.com/tv-and-radio/2026/jun/16/alternative-3-mockumentary-missing-scientists-conspiracy-50-years-later</description>
+      <guid isPermaLink="true">https://www.theguardian.com/tv-and-radio/2026/jun/16/alternative-3-mockumentary-missing-scientists-conspiracy-50-years-later</guid>
+      <pubDate>Tue, 16 Jun 2026 12:51:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48554433</comments>
     </item>
   </channel>
 </rss>
