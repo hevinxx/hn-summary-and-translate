@@ -6,80 +6,107 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 03:55:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 10:22:40 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>中途医疗</title>
-      <link>https://www.midjourney.com/medical/blogpost</link>
-      <guid isPermaLink="true">https://www.midjourney.com/medical/blogpost</guid>
-      <pubDate>Thu, 18 Jun 2026 01:59:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48579650</comments>
+      <title>DeepSeek 推出 Vision</title>
+      <link>https://chat.deepseek.com/</link>
+      <guid isPermaLink="true">https://chat.deepseek.com/</guid>
+      <pubDate>Thu, 18 Jun 2026 06:17:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48581458</comments>
     </item>
     <item>
-      <title>闭眼目分类学（面包袋标签上的寄生蜂）</title>
-      <link>https://www.horg.com/horg/?page_id=921</link>
-      <description>📝 闭眼动物与“45”记录保持者、塑料果汁盖和其他经常被忽视的小塑料物体共享塑料门。就像昆虫的翅膀一样，环类动物根据其口腔凹槽中的齿列（或缺乏齿列）进行分组，这通常决定了它们的生态位和生物地理位置。拟议的系统发育始于合理的假设，即最基础的闭锁动物类似于阿奇纳特动物，随后的顺序根据其齿列排列而定。
+      <title>我需要你的衣服、靴子和摩托车</title>
+      <link>https://rbelmont.mameworld.info/?p=1725</link>
+      <description>📝 解决这个问题并没有让我们走得更远，但大约一周后，我们发现 MAME 的 PowerPC 模拟存在六处问题，以及 MAME 对 PCI 时代 Macintosh 硬件的支持存在其他一些问题。这表明未找到磁盘无法正常工作。 Claude 很快就发现区别在于本机 PowerPC SCSI 管理器与外置 PowerPC SCSI 管理器。
 
 
-🔤 Original: Taxonomy of the Occlupanida (parasitoids on bread bag tags)
+🔤 Original: I need your clothes, your boots, and your motorcycle
 
-🔗 Read more: https://www.horg.com/horg/?page_id=921</description>
-      <guid isPermaLink="true">https://www.horg.com/horg/?page_id=921</guid>
-      <pubDate>Wed, 17 Jun 2026 23:20:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48578388</comments>
+🔗 Read more: https://rbelmont.mameworld.info/?p=1725</description>
+      <guid isPermaLink="true">https://rbelmont.mameworld.info/?p=1725</guid>
+      <pubDate>Thu, 18 Jun 2026 08:28:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48582464</comments>
     </item>
     <item>
-      <title>Go 上托管的 Clojure</title>
-      <link>https://github.com/glojurelang/glojure</link>
-      <description>📝 ") Hello from Glojure.com/glojurelang/glojure/pkg/glj" // 初始化 Glojure "github.Println(result) // "你好，来自 Go 的 Clojure。
+      <title>Local Qwen 并不是一个更差的 Opus，它是一个不同的工具</title>
+      <link>https://blog.alexellis.io/local-ai-is-not-opus/</link>
+      <description>📝 这不就是机会成本吗？这不是拿你的生计冒险吗？ 6% 来自克劳德作品 4。
 
 
-🔤 Original: Clojure Hosted on Go
+🔤 Original: Local Qwen isn't a worse Opus, it's a different tool
 
-🔗 Read more: https://github.com/glojurelang/glojure</description>
-      <guid isPermaLink="true">https://github.com/glojurelang/glojure</guid>
-      <pubDate>Wed, 17 Jun 2026 23:14:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48578326</comments>
+🔗 Read more: https://blog.alexellis.io/local-ai-is-not-opus/</description>
+      <guid isPermaLink="true">https://blog.alexellis.io/local-ai-is-not-opus/</guid>
+      <pubDate>Thu, 18 Jun 2026 03:04:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48580209</comments>
     </item>
     <item>
-      <title>[x86] AI 计算扩展 (ACE) 规范</title>
-      <link>https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/</link>
-      <description>📝 本文档定义了用于加速计算任务的 x86 扩展，最初重点关注对 ML 工作负载很重要的矩阵乘法内核和降低精度的数据格式。 ACE 扩展定义了矩阵乘法基元，可通过新功能增强 AVX 和标量代码，并添加： ACE 寄存器状态，包括分块和块比例寄存器 消耗 AVX 寄存器输入并在分块寄存器状态上运行的数据处理操作 在 ACE 寄存器状态和 AVX 寄存器之间移动数据的数据移动操作 用于系统管理的状态和操作 ACE 提供 AVX 向量和 ACE 分块寄存器之间的紧密集成，将高计算密度分块处理操作与 AVX 的全面数据处理功能相结合。除了矩阵加速之外，AVX10框架下还提供了许多专用的格式转换操作。
-
-
-🔤 Original: [x86] AI Compute Extensions (ACE) Specification
-
-🔗 Read more: https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/</description>
-      <guid isPermaLink="true">https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/</guid>
-      <pubDate>Thu, 18 Jun 2026 02:32:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48579913</comments>
+      <title>我讨厌编译器</title>
+      <link>https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/</link>
+      <guid isPermaLink="true">https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/</guid>
+      <pubDate>Thu, 18 Jun 2026 05:10:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48581070</comments>
     </item>
     <item>
-      <title>马德里如何廉价建造地铁（2024）</title>
-      <link>https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/</link>
-      <description>📝 1995年，马德里地铁全长71英里（114公里）。马德里建立了交付该项目所需的国家能力，经验丰富的工程师和管理人员在内部工作以提供技术设计和监督施工。马德里共同体展示了一个更成功的结构。
+      <title>我们应得的熔炉</title>
+      <link>https://btao.org/posts/2026-05-09-the-forge-we-deserve/</link>
+      <description>📝 但我们不必这样生活。具体来说，今天这就是《纠结》。一个中心化的应用程序（比如 tangled.
 
 
-🔤 Original: How Madrid built its metro cheaply (2024)
+🔤 Original: The Forge We Deserve
 
-🔗 Read more: https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/</description>
-      <guid isPermaLink="true">https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/</guid>
-      <pubDate>Wed, 17 Jun 2026 19:59:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48575997</comments>
+🔗 Read more: https://btao.org/posts/2026-05-09-the-forge-we-deserve/</description>
+      <guid isPermaLink="true">https://btao.org/posts/2026-05-09-the-forge-we-deserve/</guid>
+      <pubDate>Thu, 18 Jun 2026 07:46:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48582147</comments>
     </item>
     <item>
-      <title>Continue 已被 Cursor 收购</title>
-      <link>https://www.continue.dev/</link>
-      <description>📝 Continue 已被 Cursor 收购。我的数据会怎样。我的订阅呢？
+      <title>AMD 默默地从消费类 Ryzen CPU 中删除内存加密</title>
+      <link>https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change</link>
+      <description>📝 TSME 是一种保护功能，可对存储在内存中的数据进行加密，使其无法被物理攻击者使用。这意味着安全功能被删除，让用户不知道任何事情发生了变化。为了确认所有安全保护均已启用，他运行了主机安全 ID (HSI)，这是一种评估系统固件和硬件安全配置的审核功能。
 
 
-🔤 Original: Continue has been acquired by Cursor
+🔤 Original: AMD silently removes memory encryption from consumer Ryzen CPUs
 
-🔗 Read more: https://www.continue.dev/</description>
-      <guid isPermaLink="true">https://www.continue.dev/</guid>
-      <pubDate>Thu, 18 Jun 2026 02:54:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48580147</comments>
+🔗 Read more: https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change</guid>
+      <pubDate>Thu, 18 Jun 2026 08:08:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48582320</comments>
+    </item>
+    <item>
+      <title>澳大利亚政府要求短信/彩信发送者 ID 注册</title>
+      <link>https://www.acma.gov.au/sms-sender-id-register</link>
+      <guid isPermaLink="true">https://www.acma.gov.au/sms-sender-id-register</guid>
+      <pubDate>Thu, 18 Jun 2026 06:23:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48581489</comments>
+    </item>
+    <item>
+      <title>Nim Conf 2026（在线，6 月 20 日星期六）</title>
+      <link>https://conf.nim-lang.org/</link>
+      <description>📝 NimConf 2026 是一场在线会议，将于 6 月 20 日举行。所有演讲都将进行直播并录制以供日后观看。每个演讲都将作为 NimConf 2026 播放列表的一部分在我们的 YouTube 频道上首播。
+
+
+🔤 Original: Nim Conf 2026 (Online, Sat June 20)
+
+🔗 Read more: https://conf.nim-lang.org/</description>
+      <guid isPermaLink="true">https://conf.nim-lang.org/</guid>
+      <pubDate>Thu, 18 Jun 2026 03:38:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48580504</comments>
+    </item>
+    <item>
+      <title>SteamOS Linux 3.8 稳定版发布</title>
+      <link>https://store.steampowered.com/news/app/1675200/view/697641379212298072</link>
+      <description>📝 登录 商店主页 探索队列 愿望清单 积分 商店新闻 图表 社区主页 讨论 研讨会 市场广播 关于 支持 更改语言 获取 Steam 移动应用程序 查看桌面网站 © Valve Corporation。所有商标均为其在美国和其他国家/地区各自所有者的财产。隐私政策 |法律 |无障碍 | Steam 订阅者协议 |退款 |曲奇饼。
+
+
+🔤 Original: SteamOS Linux 3.8 released as stable
+
+🔗 Read more: https://store.steampowered.com/news/app/1675200/view/697641379212298072</description>
+      <guid isPermaLink="true">https://store.steampowered.com/news/app/1675200/view/697641379212298072</guid>
+      <pubDate>Thu, 18 Jun 2026 04:05:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48580686</comments>
     </item>
   </channel>
 </rss>
