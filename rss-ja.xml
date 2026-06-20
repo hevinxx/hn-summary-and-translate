@@ -6,86 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2026 08:56:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 11:19:29 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ウェブサイトをファビコンに保存しました</title>
-      <link>https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/</link>
-      <description>📝 どのウェブサイトにもファビコンがあります。画像は単なるピクセルです。そしてピクセルは単なるバイトです。
+      <title>LLM は現在複雑になっています</title>
+      <link>https://ianbarber.blog/2026/06/19/llms-are-complicated-now/</link>
+      <description>📝 これは resys で起こったこととあまり変わりません。これを機能させるには、生成されたものが正しいことを確認するために、固定された使用可能なベースラインが必要です。 resys で何が起こったかというと、最適化によるパフォーマンスと必須のパフォーマンスとの間のギャップが非常に小さくなったということです。
 
 
-🔤 Original: I Stored a Website in a Favicon
+🔤 Original: LLMs Are Complicated Now
 
-🔗 Read more: https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/</description>
-      <guid isPermaLink="true">https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/</guid>
-      <pubDate>Sat, 20 Jun 2026 05:33:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48606619</comments>
-    </item>
-    <item>
-      <title>画面に表示されない色を見つける場所</title>
-      <link>https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/</link>
-      <description>📝 基本的に、錐体細胞ができることは脳に向かって叫ぶことだけです。錐体細胞の叫び声がどれほど大きいかがわかります。彼らはこのグラフを作成しました。
-
-
-🔤 Original: Where to Find the Colors Your Screen Can't Show You
-
-🔗 Read more: https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/</description>
-      <guid isPermaLink="true">https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/</guid>
-      <pubDate>Sat, 20 Jun 2026 03:36:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48606140</comments>
-    </item>
-    <item>
-      <title>衛星により、膨大な規模の GPS 信号改ざんが明らかに</title>
-      <link>https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering</link>
-      <description>📝 Xona の Pulsar-0 航法衛星は、地球上の GNSS 妨害エリアを前例のない精度でマッピングしました。パルサー-0は、紛争地域上でGNSS信号がより広範囲にわたって改ざんされていることを発見した。 (画像クレジット: Xona) 貴重な PNT 信号に大混乱をもたらす可能性があるのは、意図的な妨害行為やなりすましだけではありません。
-
-
-🔤 Original: Satellite reveals immense scale of GPS signal tampering
-
-🔗 Read more: https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering</description>
-      <guid isPermaLink="true">https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering</guid>
-      <pubDate>Sat, 20 Jun 2026 04:07:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48606271</comments>
-    </item>
-    <item>
-      <title>GPT-5.5 は MIT 認可の GLM-5.2 よりも 3 倍多く幻覚を起こします</title>
-      <link>https://arrowtsx.dev/bigger-models/</link>
-      <description>📝 1 DeepSeek V4 Pro - Hallucinated get_child_watcher() をオーバーライドする Python のカスタム asyncio イベント ループ ポリシーを設計します。 7k トークン)Pythonimport os import fcntl import threading import struct import asyncio asyncio からのインポート時間 import AbstractChildWatcher class StateManager:Expand full completedGLM-5。 2 - get_child_watcher() をオーバーライドするカスタム asyncio イベント ループ ポリシーを Python で正しく設計します。
-
-
-🔤 Original: GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2
-
-🔗 Read more: https://arrowtsx.dev/bigger-models/</description>
-      <guid isPermaLink="true">https://arrowtsx.dev/bigger-models/</guid>
-      <pubDate>Fri, 19 Jun 2026 16:11:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48600167</comments>
-    </item>
-    <item>
-      <title>AURpocalypse now: 最近の AUR 攻撃の概要</title>
-      <link>https://lwn.net/SubscriberLink/1077619/f7b07c5489fdd43a/</link>
-      <description>📝 もちろん、これは、AUR パッケージのメンテナがバイナリに悪意のあるものを提供していないことをユーザーが喜んで信頼する必要があることを意味します。 Copr、OBS、および PPA のモデルでは、ユーザーが独自のユーザー名前空間の下にプロジェクトを作成します。ユーザーは、これらのサービスのいずれかから各リポジトリを個別に追加する必要があります。 Copr から niri をインストールするには、ユーザーはそのリポジトリを有効にする必要があります。
-
-
-🔤 Original: AURpocalypse now: a look at the recent AUR attacks
-
-🔗 Read more: https://lwn.net/SubscriberLink/1077619/f7b07c5489fdd43a/</description>
-      <guid isPermaLink="true">https://lwn.net/SubscriberLink/1077619/f7b07c5489fdd43a/</guid>
-      <pubDate>Fri, 19 Jun 2026 16:59:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48600593</comments>
-    </item>
-    <item>
-      <title>自宅の裏庭デッキをデザインする</title>
-      <link>https://blog.cosmin.cloud/posts/diy-deck.html</link>
-      <description>📝 マニュアル製図の授業は 1 年目全体にわたって行われました。私たちの高校がこのような経験をさせてくれたことに、私は永遠に感謝しています。以上のことから、私はデッキの計画を立てることができるという自信を持っていました。
-
-
-🔤 Original: Designing a backyard deck for my house
-
-🔗 Read more: https://blog.cosmin.cloud/posts/diy-deck.html</description>
-      <guid isPermaLink="true">https://blog.cosmin.cloud/posts/diy-deck.html</guid>
-      <pubDate>Sat, 20 Jun 2026 04:45:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48606413</comments>
+🔗 Read more: https://ianbarber.blog/2026/06/19/llms-are-complicated-now/</description>
+      <guid isPermaLink="true">https://ianbarber.blog/2026/06/19/llms-are-complicated-now/</guid>
+      <pubDate>Sat, 20 Jun 2026 01:25:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48605355</comments>
     </item>
   </channel>
 </rss>
