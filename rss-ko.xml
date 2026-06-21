@@ -6,132 +6,126 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Jun 2026 22:08:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 04:10:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>PostgresBench: 재현 가능한 Postgres 서비스 벤치마크</title>
-      <link>https://clickhouse.com/blog/postgresbench</link>
-      <description>📝 Postgres는 트랜잭션 작업 부하를 처리하고 ClickHouse는 분석 작업 부하를 처리합니다. 이것이 우리가 관리형 Postgres 서비스를 비교하기 위한 벤치마크인 PostgresBench를 구축한 이유입니다. PostgresBench는 트랜잭션 Postgres 워크로드에 동일한 방법론을 적용합니다.
+      <title>도서관에서 재봉틀 대여</title>
+      <link>https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland</link>
+      <description>📝 "이것은 도서관이 실제로 대중에게 속해 있음을 보여줍니다. 대신 핀란드는 도서관을 확장하고 사람들이 책보다 훨씬 더 많은 것을 빌릴 수 있는 공공 자금 지원 지역 사회 서비스 센터로 전환하고 있습니다. "우리는 먼저 도서관 개관 시간을 단축했고 그 결과 도서관 방문 횟수가 감소했습니다."라고 Hirvonen은 말합니다.
 
 
-🔤 Original: PostgresBench: A Reproducible Benchmark for Postgres Services
+🔤 Original: Renting a sewing machine from the library
 
-🔗 Read more: https://clickhouse.com/blog/postgresbench</description>
-      <guid isPermaLink="true">https://clickhouse.com/blog/postgresbench</guid>
-      <pubDate>Sat, 20 Jun 2026 19:01:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48611942</comments>
+🔗 Read more: https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland</description>
+      <guid isPermaLink="true">https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland</guid>
+      <pubDate>Sat, 20 Jun 2026 22:54:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48613755</comments>
     </item>
     <item>
-      <title>브라질 전역의 휴대폰으로 무단 경고가 전송되었습니다.</title>
-      <link>https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam</link>
-      <description>📝 ' 브라질의 국가 민방위 경고 플랫폼이 일시적으로 오프라인 상태가 되었습니다. 해커로 의심되는 사람이 브라질 전역에 승인되지 않은 경고를 보냅니다. 주정부는 이 사건에 대해 민방위대와 Anatel에 연락했다고 말했습니다.
+      <title>Linux의 Epoll과 io_uring 비교</title>
+      <link>https://sibexi.co/posts/epoll-vs-io_uring/</link>
+      <description>📝 epoll Heritage Linux용 개발을 막 시작했을 때 epoll은 새로운 기능이었고 기본적으로 대안이 없었습니다. epoll이 Linux 커널에 포함된 지(2002년) 약 17년 후, io_uring이 등장했습니다(2019년). ) epoll epoll이 어떻게 작동하는지 간단한 예를 만들어 보겠습니다.
 
 
-🔤 Original: Unauthorized alert sent to cell phones across Brazil
+🔤 Original: Epoll vs. io_uring in Linux
 
-🔗 Read more: https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam</description>
-      <guid isPermaLink="true">https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam</guid>
-      <pubDate>Sat, 20 Jun 2026 20:05:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48612502</comments>
+🔗 Read more: https://sibexi.co/posts/epoll-vs-io_uring/</description>
+      <guid isPermaLink="true">https://sibexi.co/posts/epoll-vs-io_uring/</guid>
+      <pubDate>Sat, 20 Jun 2026 23:07:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48613872</comments>
     </item>
     <item>
-      <title>HN 표시: PDF를 스캔한 것처럼 보이게 합니다(CLI 또는 WASM을 통해 브라우저에서).</title>
-      <link>https://github.com/overflowy/make-look-scanned</link>
-      <description>📝 빌드 -o 스캔 모양 만들기로 이동하세요. 사용법 make-look-scanned [플래그] 입력. 브라우저(WebAssembly) 효과 파이프라인은 브라우저에서도 실행됩니다.
+      <title>Show HN: 웹사이트를 위한 작은 존재 레이어인 TownSquare</title>
+      <link>https://townsquare.cauenapier.com/</link>
+      <description>📝 방문객들은 도착하는 순간 서로를 볼 수 있습니다. 이동하고, 환경과 상호 작용하고, 인사하고, 순간을 공유하세요. 점점 늘어나는 웹 구석구석의 네트워크에 참여하세요.
 
 
-🔤 Original: Show HN: Make PDFs look scanned (CLI or in the browser via WASM)
+🔤 Original: Show HN: TownSquare, a tiny presence layer for websites
 
-🔗 Read more: https://github.com/overflowy/make-look-scanned</description>
-      <guid isPermaLink="true">https://github.com/overflowy/make-look-scanned</guid>
-      <pubDate>Sat, 20 Jun 2026 18:17:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48611513</comments>
+🔗 Read more: https://townsquare.cauenapier.com/</description>
+      <guid isPermaLink="true">https://townsquare.cauenapier.com/</guid>
+      <pubDate>Sat, 20 Jun 2026 11:55:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48608570</comments>
     </item>
     <item>
-      <title>Linux는 6년 간의 작업과 360 패치 이후 Strncpy API를 제거합니다.</title>
-      <link>https://www.phoronix.com/news/Linux-7.2-Drops-strncpy</link>
-      <description>📝 Linux는 6년 간의 작업 끝에 마침내 strncpy API를 제거했습니다. 2026년 6월 20일 오전 10시 22분(EDT)에 Michael Larabel이 Linux 커널에 작성한 360개 이상의 패치입니다. 2에서는 마침내 Linux 커널에서 strncpy API가 제거되었습니다. 금요일의 이번 병합으로 strncpy API와 마지막 CPU별 아키텍처 strncpy 구현이 제거되었습니다.
+      <title>개발자는 CORS(2019)를 이해하지 못합니다.</title>
+      <link>https://fosterelli.co/developers-dont-understand-cors</link>
+      <description>📝 대신 그들은 CORS를 해결하기 위해 이 이미지 해킹을 구축했습니다. 이렇게 하면 확대/축소 시 Javascript만 실행됩니다. Zoom은 이러한 기대를 깨고 있습니다.
 
 
-🔤 Original: Linux Eliminates the Strncpy API After Six Years of Work, 360 Patches
+🔤 Original: Developers don't understand CORS (2019)
 
-🔗 Read more: https://www.phoronix.com/news/Linux-7.2-Drops-strncpy</description>
-      <guid isPermaLink="true">https://www.phoronix.com/news/Linux-7.2-Drops-strncpy</guid>
-      <pubDate>Sat, 20 Jun 2026 20:59:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48612943</comments>
+🔗 Read more: https://fosterelli.co/developers-dont-understand-cors</description>
+      <guid isPermaLink="true">https://fosterelli.co/developers-dont-understand-cors</guid>
+      <pubDate>Sun, 21 Jun 2026 01:35:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48614844</comments>
     </item>
     <item>
-      <title>Show HN: Tiny – 인라인 Go 기본 기능이 포함된 해석된 동적 언어</title>
-      <link>https://github.com/confh/Tiny</link>
-      <description>📝 Tiny는 동시 프로그래밍 언어이자 런타임 시스템입니다. 파일 이름을 아주 작은(또는 아주 작은)으로 바꿉니다. 언어 사양 선택적 힌트를 사용한 동적 입력 Tiny는 기본적으로 동적으로 입력됩니다.
+      <title>Loupe – 네이티브 앱이 무엇을 볼 수 있는지에 대한 인식을 높이는 iOS 앱</title>
+      <link>https://github.com/mysk-research/loupe</link>
+      <description>📝 개인 정보 보호 귀하가 명시적으로 내보내지 않는 한 Loupe가 읽은 내용은 장치 밖으로 나가지 않습니다. macOS Loupe는 macOS용으로도 제작됩니다. Loupe 소개는 Mysk에서 제작했습니다.
 
 
-🔤 Original: Show HN: Tiny – An interpeted dynamic langauge with inline Go native functions
+🔤 Original: Loupe – A iOS app that raises awareness about what native apps can see
 
-🔗 Read more: https://github.com/confh/Tiny</description>
-      <guid isPermaLink="true">https://github.com/confh/Tiny</guid>
-      <pubDate>Sat, 20 Jun 2026 18:53:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48611857</comments>
+🔗 Read more: https://github.com/mysk-research/loupe</description>
+      <guid isPermaLink="true">https://github.com/mysk-research/loupe</guid>
+      <pubDate>Sat, 20 Jun 2026 12:08:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48608645</comments>
     </item>
     <item>
-      <title>대형 슈퍼마켓 테스코, 계약 위반 혐의로 VM웨어 고소</title>
-      <link>https://www.theregister.com/software/2025/09/03/supermarket-giant-tesco-sues-vmware-for-breach-of-contract/1420651</link>
-      <description>📝 Broadcom은 새로운 소프트웨어 구독에 서명한 사람들에게 지원을 판매합니다. REG AD 고소장은 또한 Tesco와 VMware의 계약에는 소프트웨어 업그레이드 자격이 포함되어 있지만 Broadcom은 소매업체가 새로운 Cloud Foundation 9을 포함하기 위해 영구 라이선스를 업데이트하는 것을 허용하지 않는다고 주장합니다. 공개적으로 Broadcom은 Cloud Foundation이 자체적으로 신속하게 비용을 지불할 수 있는 훌륭한 프라이빗 클라우드 스택이고 구독료가 좋은 가치가 있으며 오래된 소프트웨어에 대한 영구 라이선스를 고수하는 것은 어리석은 일이라고 주장합니다.
-
-
-🔤 Original: Supermarket giant Tesco sues VMware for breach of contract
-
-🔗 Read more: https://www.theregister.com/software/2025/09/03/supermarket-giant-tesco-sues-vmware-for-breach-of-contract/1420651</description>
-      <guid isPermaLink="true">https://www.theregister.com/software/2025/09/03/supermarket-giant-tesco-sues-vmware-for-breach-of-contract/1420651</guid>
-      <pubDate>Sat, 20 Jun 2026 21:09:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48613008</comments>
+      <title>느린 호흡은 뇌 기능과 위험 행동을 조절합니다</title>
+      <link>https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9</link>
+      <guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9</guid>
+      <pubDate>Sat, 20 Jun 2026 22:22:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48613555</comments>
     </item>
     <item>
-      <title>AMD는 7월 BIOS 업데이트를 통해 Ryzen 9000 CPU에서 메모리 암호화를 복원할 예정입니다.</title>
-      <link>https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback</link>
-      <description>📝 AMD는 Tom's Hardware에 귀중한 커뮤니티 피드백을 기반으로 TSME를 비PRO Ryzen 9000 칩으로 다시 가져올 것이라고 말했습니다. Intel은 Alder Lake를 사용하는 사람들에게 AVX512를 돌려줄 것입니다. Intel은 Alder Lake를 사용하는 사람들에게 AVX512를 돌려줄 것입니다.
+      <title>프로젝트 가져오기: 2단계</title>
+      <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
+      <description>📝 Claude 지원 팀은 더 많은 작업을 더 빠르게 수행했습니다. Claude는 어디에서 뛰어났습니까? 7은 평균적으로 Claude-less 팀보다 37배 이상 빨랐고, Claude 팀보다 18배 이상 빨랐습니다.
 
 
-🔤 Original: AMD will reinstate memory encryption on Ryzen 9000 CPUs via BIOS update in July
+🔤 Original: Project Fetch: Phase Two
 
-🔗 Read more: https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback</description>
-      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback</guid>
-      <pubDate>Sat, 20 Jun 2026 19:19:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48612098</comments>
+🔗 Read more: https://www.anthropic.com/research/project-fetch-phase-two</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/project-fetch-phase-two</guid>
+      <pubDate>Sun, 21 Jun 2026 00:00:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48614311</comments>
     </item>
     <item>
-      <title>달라스 연준: 무단 이민으로 인해 주택 비용이 30% 증가 [pdf]</title>
-      <link>https://www.dallasfed.org/~/media/documents/research/papers/2026/wp2607.pdf</link>
-      <description>📝 �1&lt;�\S�06T��X� �n� ��X� �h 3F�� ׁ�� y �~��S-� bO �. �@^X7cD �Y=��qn� � �I� LZ� f� ������2;(� ��{vt�����3��A�*���t 1b[��r��o�b %@D�3r�n4xL��W��mF. � # Ňe&gt;)�Y #����׆�e&gt;�nJ0�l�.
+      <title>AI 코드가 작동해도 거부할 때</title>
+      <link>https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/</link>
+      <description>📝 차이점이 문제보다 클 경우 AI 코드를 거부합니다. 나는 그것이 필요하다는 것을 증명하기 전에 추상화를 도입하는 AI 코드를 거부합니다. 나는 내 이해보다 결과를 더 신뢰하는 경우 AI 코드를 거부합니다.
 
 
-🔤 Original: Dallas Fed: 30% of housing cost increase driven by unauthorized immigration [pdf]
+🔤 Original: When I reject AI code even if it works
 
-🔗 Read more: https://www.dallasfed.org/~/media/documents/research/papers/2026/wp2607.pdf</description>
-      <guid isPermaLink="true">https://www.dallasfed.org/~/media/documents/research/papers/2026/wp2607.pdf</guid>
-      <pubDate>Sat, 20 Jun 2026 21:25:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48613112</comments>
+🔗 Read more: https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/</description>
+      <guid isPermaLink="true">https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/</guid>
+      <pubDate>Sun, 21 Jun 2026 00:58:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48614631</comments>
     </item>
     <item>
-      <title>HN 표시: Game Boy 및 iPod이 작동하는 Windows XP 포트폴리오</title>
-      <link>https://mitchivin.com/</link>
-      <guid isPermaLink="true">https://mitchivin.com/</guid>
-      <pubDate>Sat, 20 Jun 2026 19:18:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48612095</comments>
+      <title>앨리스는 참을성이 없어</title>
+      <link>https://brooker.co.za/blog/2026/06/19/waiting.html</link>
+      <description>📝 Alice는 웹 서비스를 사용합니다. Alice는 귀하의 서비스가 느리다고 말했습니다. Alex는 귀하의 웹 서비스를 사용합니다.
+
+
+🔤 Original: Alice is impatient
+
+🔗 Read more: https://brooker.co.za/blog/2026/06/19/waiting.html</description>
+      <guid isPermaLink="true">https://brooker.co.za/blog/2026/06/19/waiting.html</guid>
+      <pubDate>Sat, 20 Jun 2026 20:32:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48612740</comments>
     </item>
     <item>
-      <title>QuadRF를 통해 전파로 세상을 살펴보세요</title>
-      <link>https://hackaday.com/2026/06/20/seeing-the-world-in-radio-waves-with-the-quadrf/</link>
-      <description>📝 무선 방향 찾기의 기본 원리는 이해하기 쉽지만(서로 다른 안테나 간의 위상차를 측정한 다음 이 차이로부터 도달 각도를 계산) 이를 실제로 구현하는 무선 하드웨어는 역사적으로 해커가 접근하기 어려웠습니다. QuadRF 프로젝트는 방향 매핑을 쉽게 만드는 위상 일관성 4채널 SDR을 구축하여 이를 변경하는 것을 목표로 합니다(GitHub 저장소). 이것은 우리가 본 최초의 다중 안테나 SDR은 아니지만 전송할 수 있는 최초의 SDR입니다.
-
-
-🔤 Original: Seeing the world in radio waves with the QuadRF
-
-🔗 Read more: https://hackaday.com/2026/06/20/seeing-the-world-in-radio-waves-with-the-quadrf/</description>
-      <guid isPermaLink="true">https://hackaday.com/2026/06/20/seeing-the-world-in-radio-waves-with-the-quadrf/</guid>
-      <pubDate>Sat, 20 Jun 2026 20:48:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48612859</comments>
+      <title>백악관, 미국 투표 기계 취약점 보고 연기</title>
+      <link>https://www.reuters.com/world/white-house-delays-release-us-voting-machine-study-midterms-near-2026-06-19/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/white-house-delays-release-us-voting-machine-study-midterms-near-2026-06-19/</guid>
+      <pubDate>Sun, 21 Jun 2026 01:29:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48614809</comments>
     </item>
   </channel>
 </rss>
