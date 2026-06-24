@@ -6,135 +6,72 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 17:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 19:46:15 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>John Carmack on the mistakes around Quake that ruined id software</title>
-      <link>https://twitter.com/ID_AA_Carmack/status/2069799283369345247</link>
-      <description>📝 Quake was overly ambitious technically. One real problem that I don’t accept the blame for is that we were insisting that level designers be not just game designers, but also have strong visual design esthetics. Romero covered that well, which set our company expectations early on.
+      <title>OpenAI unveils its first custom chip, built by Broadcom</title>
+      <link>https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</link>
+      <description>📝 On Wednesday, OpenAI unveiled its first custom-built inference processor, designed and manufactured in collaboration with Broadcom. In the announcement, OpenAI emphasized the chip’s low operating cost when running real-time coding models. OpenAI is already building agentic products like Codex and the models that power them, as well as data centers to run those models.
 
-🔗 Read more: https://twitter.com/ID_AA_Carmack/status/2069799283369345247</description>
-      <guid isPermaLink="true">https://twitter.com/ID_AA_Carmack/status/2069799283369345247</guid>
-      <pubDate>Wed, 24 Jun 2026 15:56:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48661825</comments>
+🔗 Read more: https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</description>
+      <guid isPermaLink="true">https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</guid>
+      <pubDate>Wed, 24 Jun 2026 17:47:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48663324</comments>
     </item>
     <item>
-      <title>RubyLLM: A Ruby framework for all major AI providers</title>
-      <link>https://rubyllm.com/</link>
-      <description>📝 paint Embeddings: Generate embeddings with RubyLLM. embed Moderation: Content safety with RubyLLM. model: "claude-sonnet-4" chat.
+      <title>Thomann takes legal action against Fender</title>
+      <link>https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/</link>
+      <description>📝 Thomann takes legal action against Fender For brand diversity and innovation: Why we are taking legal action against Fender’s cease and desist demand. After careful consideration, we have decided to take legal action. Many of us play Fender guitars ourselves.
 
-🔗 Read more: https://rubyllm.com/</description>
-      <guid isPermaLink="true">https://rubyllm.com/</guid>
-      <pubDate>Wed, 24 Jun 2026 14:41:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48660711</comments>
+🔗 Read more: https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/</description>
+      <guid isPermaLink="true">https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/</guid>
+      <pubDate>Wed, 24 Jun 2026 19:08:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48664384</comments>
     </item>
     <item>
-      <title>CAPTCHAs have failed for 20 years</title>
-      <link>https://www.browserbase.com/blog/why-captchas-are-getting-harder</link>
-      <description>📝 TL;DR: Every CAPTCHA generation (distorted text, harder text, image grids) was eventually beaten by machines. The same advances that digitized books and read street signs made computers capable CAPTCHA solvers. Then machine learning arrived.
+      <title>Computer use in Gemini 3.5 Flash</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</link>
+      <description>📝 Introducing computer use in Gemini 3. 5 computer use model, computer use is now integrated natively in the main Gemini Flash model. 5 Flash via the Gemini API and Gemini Enterprise Agent Platform.
 
-🔗 Read more: https://www.browserbase.com/blog/why-captchas-are-getting-harder</description>
-      <guid isPermaLink="true">https://www.browserbase.com/blog/why-captchas-are-getting-harder</guid>
-      <pubDate>Wed, 24 Jun 2026 16:02:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48661911</comments>
+🔗 Read more: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</description>
+      <guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</guid>
+      <pubDate>Wed, 24 Jun 2026 17:21:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48662999</comments>
     </item>
     <item>
-      <title>Show HN: Nub – A Bun-like all-in-one toolkit for Node.js</title>
-      <link>https://github.com/nubjs/nub</link>
-      <description>📝 try polyfilled below Node 24, native above Float16Array polyfilled below Node 24, native above navigator. 10, native from Node 22 EventSource unflagged from Node 20. 5, native from Node 22.
+      <title>I rewrote PostHog's SQL parser, 70x faster, while barely looking at the code</title>
+      <link>https://posthog.com/blog/sql-parser</link>
+      <description>📝 Why does PostHog even have an SQL parser. Generating our parser with ANTLRWe didn't write this parser by hand because, at least pre-AI-coding, parsers were extremely difficult to maintain. Instead, we use ANTLR, a state-of-the-art, open source parser generator.
 
-🔗 Read more: https://github.com/nubjs/nub</description>
-      <guid isPermaLink="true">https://github.com/nubjs/nub</guid>
-      <pubDate>Wed, 24 Jun 2026 14:14:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48660267</comments>
+🔗 Read more: https://posthog.com/blog/sql-parser</description>
+      <guid isPermaLink="true">https://posthog.com/blog/sql-parser</guid>
+      <pubDate>Wed, 24 Jun 2026 18:05:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48663544</comments>
     </item>
     <item>
-      <title>I taught a bucket to speak Git</title>
-      <link>https://www.tigrisdata.com/blog/objgit/</link>
-      <description>📝 Trees, or objects that map to other objects. Commits, or objects that point at one tree and their parent commit. These are tiny files though, which means that Tigris can handle them with no effort required.
+      <title>Journalism is rearranging the deckchairs. It needs to reinvent itself</title>
+      <link>https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself/</link>
+      <description>📝 For themselves, their families, their communities. Practical, trustworthy, usable information that helps them navigate their lives. It’s a meaningful difference that Shirish highlights well.
 
-🔗 Read more: https://www.tigrisdata.com/blog/objgit/</description>
-      <guid isPermaLink="true">https://www.tigrisdata.com/blog/objgit/</guid>
-      <pubDate>Wed, 24 Jun 2026 16:04:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48661938</comments>
+🔗 Read more: https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself/</description>
+      <guid isPermaLink="true">https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself/</guid>
+      <pubDate>Wed, 24 Jun 2026 15:28:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48661415</comments>
     </item>
     <item>
-      <title>PR spam today looks like email spam in the early 2000s</title>
-      <link>https://www.greptile.com/blog/prs-on-openclaw</link>
-      <description>📝 By February, that number jumped to 3,400/week. 6 people independently fixed the same Brave Search locale bug. If most contributors use the same AI coding agents with the same prompts, then their contributions will resemble each other as well.
-
-🔗 Read more: https://www.greptile.com/blog/prs-on-openclaw</description>
-      <guid isPermaLink="true">https://www.greptile.com/blog/prs-on-openclaw</guid>
-      <pubDate>Wed, 24 Jun 2026 14:32:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48660579</comments>
+      <title>Big AI labs are hiring philosophers</title>
+      <link>https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers</link>
+      <guid isPermaLink="true">https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers</guid>
+      <pubDate>Wed, 24 Jun 2026 16:40:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48662452</comments>
     </item>
     <item>
-      <title>For Most of the World, Open-Source AI Is the Only Way Forward</title>
-      <link>https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/</link>
-      <description>📝 They could contribute to training a global model by exchanging parameter vectors. LeCun hopes that by early 2027, it will be in production. He extends the analogy to mobile networks, noting that “your cell phone regularly actually runs an open-source operating system… and it talks to a cell phone tower that runs an open-source software stack.
-
-🔗 Read more: https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/</description>
-      <guid isPermaLink="true">https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/</guid>
-      <pubDate>Wed, 24 Jun 2026 14:50:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48660839</comments>
-    </item>
-    <item>
-      <title>Running Windows Games on a Hobby OS with Wine</title>
-      <link>https://astral-os.org/posts/2026/04/03/wine-on-astral.html</link>
-      <description>📝 While Astral did have OpenGL, Wine explicitly needs EGL to work, which Astral's Mesa port did not provide. This was accomplished using Wine's WoW64 mode, which does not need any 32-bit Unix libraries. With this fixed, scoresheet upload works.
-
-🔗 Read more: https://astral-os.org/posts/2026/04/03/wine-on-astral.html</description>
-      <guid isPermaLink="true">https://astral-os.org/posts/2026/04/03/wine-on-astral.html</guid>
-      <pubDate>Wed, 24 Jun 2026 14:38:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48660671</comments>
-    </item>
-    <item>
-      <title>Boffin claims Microsoft's "quantum leap" is invalid due to "basic Python errors"</title>
-      <link>https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489</link>
-      <description>📝 "The software giant's approach to quantum computing involves Majorana particles, subatomic particles that scientists have not observed directly. "I demonstrate that Microsoft's tune-up software is flawed and that coding errors resulted in incorrect statements to peer reviewers," said Legg. "Legg also argues that Microsoft mishandled its code.
-
-🔗 Read more: https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489</description>
-      <guid isPermaLink="true">https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489</guid>
-      <pubDate>Wed, 24 Jun 2026 15:37:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48661535</comments>
-    </item>
-    <item>
-      <title>Quebec town recognizes trees as living beings with rights</title>
-      <link>https://www.cbc.ca/news/canada/montreal/terrasse-vaudreil-quebec-tree-rights-9.7243634</link>
-      <guid isPermaLink="true">https://www.cbc.ca/news/canada/montreal/terrasse-vaudreil-quebec-tree-rights-9.7243634</guid>
-      <pubDate>Wed, 24 Jun 2026 15:37:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48661536</comments>
-    </item>
-    <item>
-      <title>Edsger Dijkstra's Library (Housed and Archived in Leuven, Belgium)</title>
-      <link>https://www.dijkstrascry.com/inventory</link>
-      <description>📝 When visiting Dijkstra's home in Nuenen in January 2011, the shelves in Dijkstra's office were still packed with books. Dijkstra's original possessions. Inventory When visiting Dijkstra's home in Nuenen in January 2011, the shelves in Dijkstra's office were still packed with books.
-
-🔗 Read more: https://www.dijkstrascry.com/inventory</description>
-      <guid isPermaLink="true">https://www.dijkstrascry.com/inventory</guid>
-      <pubDate>Wed, 24 Jun 2026 15:10:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48661179</comments>
-    </item>
-    <item>
-      <title>OpenAI and Broadcom unveil LLM-optimized inference chip</title>
-      <link>https://openai.com/index/openai-broadcom-jalapeno-inference-chip/</link>
-      <description>📝 Jalapeño is designed with flexibility to work with all LLMs guided by OpenAI’s insights into the inference needs of current and future AI models across the industry. Jalapeño strengthens the flywheel behind OpenAI’s progress. Better infrastructure drives compute efficiency.
-
-🔗 Read more: https://openai.com/index/openai-broadcom-jalapeno-inference-chip/</description>
-      <guid isPermaLink="true">https://openai.com/index/openai-broadcom-jalapeno-inference-chip/</guid>
-      <pubDate>Wed, 24 Jun 2026 13:14:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48659257</comments>
-    </item>
-    <item>
-      <title>Systems optimization should be part of CI/CD</title>
-      <link>https://ucbskyadrs.github.io/blog/levi/</link>
-      <description>📝 But today's frameworks are too expensive for where ADRS should go next. ✍️ Previous ADRS Blogs: https://ucbskyadrs. com/ai4research_ucb LLM algorithmic discovery frameworks have shown promise in delivering strong results for ADRS.
-
-🔗 Read more: https://ucbskyadrs.github.io/blog/levi/</description>
-      <guid isPermaLink="true">https://ucbskyadrs.github.io/blog/levi/</guid>
-      <pubDate>Wed, 24 Jun 2026 12:57:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48659040</comments>
+      <title>NSA lost access to Mythos amid Anthropic dispute</title>
+      <link>https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html</guid>
+      <pubDate>Wed, 24 Jun 2026 11:45:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48658300</comments>
     </item>
   </channel>
 </rss>
