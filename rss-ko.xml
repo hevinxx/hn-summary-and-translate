@@ -6,100 +6,125 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 27 Jun 2026 22:03:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 03:44:30 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>IP 크롤링: 공개 인터넷에서 발견된 공개 웹캠의 살아있는 지도책</title>
-      <link>https://ipcrawl.com/</link>
-      <guid isPermaLink="true">https://ipcrawl.com/</guid>
-      <pubDate>Sat, 27 Jun 2026 19:09:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48700834</comments>
+      <title>Marfa 공공 라디오가 당신을 잠들게 합니다</title>
+      <link>https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</link>
+      <description>📝 Marfa Public Radio는 당신을 잠들게 합니다. Zoe Kurland가 진행합니다. Christopher Dyer Marfa Public Radio는 말 그대로 절대 잠들지 않습니다. 올 가을 멤버십 캠페인을 위해 Marfa Public Radio Puts You to Sleep을 소개합니다. 최신 에피소드 Zoe Listen이 읽는 2025년 폐지법 • 1:01:30 Carlos Listen이 읽는 NPR 스타일 가이드 • 24:03 Julie Listen이 읽는 Morning Edition의 간략한 역사 • 14:30 Travis Pope가 읽는 Tower 규정 매뉴얼 Listen • 9:49 Travis Bubenik이 읽는 것으로 간주되는 모든 것에 대한 간략한 역사 Listen • 13:11 Mitch Listen이 읽는 텍사스 행정법 • 18:41 Elise Listen이 읽는 1967년 공영 방송법 • 22:39 Zoe Listen이 읽는 Creative Commons License • 25:31 Annie Listen이 읽는 Dark Sky Ordinance • 19:24 Yvonne Listen이 읽는 미국 우편 규정 • 18:53 Load More.
+
+
+🔤 Original: Marfa Public Radio Puts You to Sleep
+
+🔗 Read more: https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</description>
+      <guid isPermaLink="true">https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</guid>
+      <pubDate>Sun, 28 Jun 2026 02:23:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703759</comments>
     </item>
     <item>
-      <title>HN 표시: Adrafinil – 에이전트가 작업하는 동안에만 뚜껑이 닫힌 Mac을 깨우도록 유지</title>
-      <link>https://github.com/kageroumado/adrafinil</link>
-      <description>📝 Adrafinil은 우생성입니다. 1개 이상의 에이전트 세션이 어설션을 보유하는 동안에만 절전 모드가 차단됩니다. git cd adrafinil Adrafinil을 엽니다.
+      <title>Show HN: Decomp Academy – GameCube 게임을 일치하는 C로 디컴파일하는 방법 알아보기</title>
+      <link>https://decomp-academy.dev</link>
+      <description>📝 ~122m0/16AND로 비트 마스킹OR로 비트 결합XOR로 비트 뒤집기단일 플래그 비트 설정비트 지우기: rlwinm 서프라이즈비트가 설정되었는지 여부 테스트상수로 왼쪽으로 이동논리적 오른쪽 시프트(부호 없음)산술 오른쪽 시프트(부호 있음)변수 양만큼 이동하나의 비트 필드 추출rlwinm시프트로 두 값 포장 ORMerging 두 개의 필드: rlwinm + rlwimiChaining XOR across three ValuesBit Select (Mux): AND, ANDC, ORCapstone: 세 개의 값을 하나의 Word로 압축4Flowif/else, 삼항, 스위치 및 가장 중요한 부호 있는 대 부호 없는 비교를 제어합니다. ~148m0/18포인터 역참조포인터를 통해 저장상수 인덱스가 변위가 됨상수 인덱스에서 쓰기포인터 산술 스케일링변수 인덱스는 스케일링이 필요하며 인덱싱바이트 배열은 Shift가 필요하지 않습니다. 하프워드 배열은 1씩 이동합니다. 문자열 이동두 포인터 비교포인터를 통한 NULL 교환 방지두 요소를 읽고 결합하기 전에 하나의 요소 크기 조정 참조 해제 후 인수로 계산계산된 오프셋에서 이웃 인덱싱동일 인덱스에서 두 배열 결합Capstone: 하나의 표현식에서 여러 역참조8구조체, 공용체 및 비트 필드단일 필드부터 중첩된 구조체, 멤버 배열, 공용체 및 비트 필드에 걸쳐 여러 개를 결합하는 것까지. ~168m0/22구조체 필드 읽기구조체 필드 쓰기좁은 필드: 바이트 및 하프워드 로드바이트 필드 저장정렬 패딩으로 오프셋 이동두 필드 결합세 필드에 걸쳐 계산중첩된 구조체가 하나의 오프셋으로 평면화중첩된 구조체에서 필드 결합구조체 배열: StructUnions 내에서 IndexAn 배열 크기 조정 동일한 바이트 오버레이A 단일 비트 플래그: li; rlwimi다중 비트 비트 필드 쓰기비트 필드 읽기: rlwinm Extract연결된 목록 살펴보기함수 포인터를 통해 호출전체 구조체 복사플로트 레지스터를 통해 8바이트 정렬 복사본 루프에서 복사본을 필드 업데이트와 결합Capstone: 전체 Struct9Floati 읽기.
 
 
-🔤 Original: Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work
+🔤 Original: Show HN: Decomp Academy – Learn to decompile GameCube games into matching C
 
-🔗 Read more: https://github.com/kageroumado/adrafinil</description>
-      <guid isPermaLink="true">https://github.com/kageroumado/adrafinil</guid>
-      <pubDate>Sat, 27 Jun 2026 20:34:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48701512</comments>
+🔗 Read more: https://decomp-academy.dev</description>
+      <guid isPermaLink="true">https://decomp-academy.dev</guid>
+      <pubDate>Sun, 28 Jun 2026 01:21:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703412</comments>
     </item>
     <item>
-      <title>'부주의한 사람들' 저자는 메타가 침묵을 강요하기 위해 12개월 동안 자신을 감시했다고 주장합니다.</title>
-      <link>https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026/</link>
-      <description>📝 Sarah Wynn-Williams는 현재 모회사인 Meta Platforms Inc.에서 운영되고 있는 Facebook에서 글로벌 공공 정책 이사를 역임했습니다. Meta는 Wynn-Williams가 자신의 계약을 위반하고 부정확한 내용으로 가득 찬 책을 썼다고 반박했습니다. Wynn-Williams는 Meta나 그녀의 책에 대해 아무 말도 하지 않았습니다.
+      <title>AMD Strix Halo RDMA 클러스터 설정 가이드</title>
+      <link>https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</link>
+      <description>📝 3 네트워크 구성 4. RDMA 사용: 지연 시간은 ~5μs입니다. 2 기본 펌웨어 확인 ethtool을 사용하여 Intel E810 카드의 현재 펌웨어 버전을 확인합니다.
 
 
-🔤 Original: 'Careless People' author claims Meta surveilled her for 12mos to enforce silence
+🔤 Original: AMD Strix Halo RDMA Cluster Setup Guide
 
-🔗 Read more: https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026/</description>
-      <guid isPermaLink="true">https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026/</guid>
-      <pubDate>Sat, 27 Jun 2026 21:14:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48701822</comments>
+🔗 Read more: https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</description>
+      <guid isPermaLink="true">https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</guid>
+      <pubDate>Sun, 28 Jun 2026 00:46:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703258</comments>
     </item>
     <item>
-      <title>GLP-1 약물은 쥐의 체중 감소와 우울증과 유사한 행동을 역전시켰습니다</title>
-      <link>https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis</link>
-      <description>📝 이는 GLP-1에도 적용됩니다. 흥미롭게도 연구자들은 GLP-1R을 차단하면 쥐의 체중이 더 이상 감소하지 않지만 여전히 우울증이 회복된다는 사실을 발견했습니다. GLP-1 쥐의 똥을 받은 우울증 쥐는 크게 기운이 났다.
+      <title>공용 DNS 확인자 선택</title>
+      <link>https://evilbit.de/dns-resolver-guide.html</link>
+      <description>📝 위의 절충안을 형성해야 하는 동료 검토 DNS 측정 연구 결과입니다. 이것이 걱정된다면, 로그를 남기지 않는 운영자나 프록시가 쿼리에서 귀하의 신원을 분리하여 어느 누구도 두 가지를 모두 볼 수 없는 망각 디자인(ODoH)을 선호하십시오. DNSCrypt 프로젝트; APNIC 연구소의 암호화된 DNS 측정.
 
 
-🔤 Original: GLP-1 drugs led to weight loss and reversed depression-like behavior in mice
+🔤 Original: Choosing a Public DNS Resolver
 
-🔗 Read more: https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis</description>
-      <guid isPermaLink="true">https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis</guid>
-      <pubDate>Sat, 27 Jun 2026 21:34:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48701984</comments>
+🔗 Read more: https://evilbit.de/dns-resolver-guide.html</description>
+      <guid isPermaLink="true">https://evilbit.de/dns-resolver-guide.html</guid>
+      <pubDate>Sat, 27 Jun 2026 22:11:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48702273</comments>
     </item>
     <item>
-      <title>유럽의 주택 정책은 미국화되어야 하는가?</title>
-      <link>https://worksinprogress.co/issue/should-european-housing-politics-be-americanized/</link>
-      <description>📝 그들은 자신의 나라가 주택 부족을 겪고 있다는 데 동의합니다. 그들은 이것이 주로 토지 사용 제한, 특히 교외에 추가 주택 건설을 금지하는 구역 설정으로 인해 발생한다는 데 동의합니다. 그리고 그들은 이러한 제한의 주요 원인이 교외의 님비주의(NIMBYism)라는 데 동의합니다. 역사적으로 이들은 두 가지를 모두 수행했습니다. 대부분의 주택 수요는 일반적으로 외부 확장을 통해 충족되었지만 지리적 제약, 요새화 또는 교통 제한으로 인해 외부 성장이 제한되는 경우 도시는 밀도가 높아졌습니다. 실제로 대부분의 유럽 도시는 1945년 이후 크게 성장했습니다.
+      <title>AI 슬롭에 대한 응답은 Robin Williams의 것입니다.</title>
+      <link>https://jayacunzo.com/blog/your-move-chief</link>
+      <description>📝 당신은 그에 대해 많은 것을 알고 있습니다. 당신은 진정한 상실에 대해 알지 못합니다. 왜냐하면 그것은 당신이 자신보다 무언가를 더 사랑할 때만 발생하기 때문입니다. 개인적으로 나는 그 모든 것에 대해 신경 쓰지 않습니다. 왜냐하면 당신이 알고 있기 때문입니다.
 
 
-🔤 Original: Should European housing politics be Americanized?
+🔤 Original: Response to AI slop is from Robin Williams
 
-🔗 Read more: https://worksinprogress.co/issue/should-european-housing-politics-be-americanized/</description>
-      <guid isPermaLink="true">https://worksinprogress.co/issue/should-european-housing-politics-be-americanized/</guid>
-      <pubDate>Sat, 27 Jun 2026 21:07:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48701766</comments>
+🔗 Read more: https://jayacunzo.com/blog/your-move-chief</description>
+      <guid isPermaLink="true">https://jayacunzo.com/blog/your-move-chief</guid>
+      <pubDate>Sun, 28 Jun 2026 01:28:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703452</comments>
     </item>
     <item>
-      <title>슬롭의 세계에서 소프트웨어 잼 실행</title>
-      <link>https://foxmoss.com/blog/radish/</link>
-      <description>📝 게임 잼은 여전히 ​​작동하는데, 소프트웨어 잼은 왜 작동하지 않습니까? 다시 말하지만 이것은 상황을 개선하는 또 다른 솔루션이지만 여전히 형편 없습니다. 그러나 소프트웨어 잼을 발생시키지 않게 만드는 데는 여전히 문제가 있습니다.
+      <title>LXC로 X11 애플리케이션 보안 강화</title>
+      <link>https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</link>
+      <description>📝 # ip a show dev lxcbr0 컨테이너 생성 이전 단계가 완료되면 첫 번째 애플리케이션 컨테이너를 생성할 수 있습니다. 여기서 컨테이너의 0은 호스트의 100000에 매핑됩니다. 또한 컨테이너에 를 제공해야 합니다.
 
 
-🔤 Original: Running a software jam in a world of slop
+🔤 Original: Enhancing X11 Application Security with LXC
 
-🔗 Read more: https://foxmoss.com/blog/radish/</description>
-      <guid isPermaLink="true">https://foxmoss.com/blog/radish/</guid>
-      <pubDate>Sat, 27 Jun 2026 13:36:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48698188</comments>
+🔗 Read more: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</description>
+      <guid isPermaLink="true">https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</guid>
+      <pubDate>Sat, 27 Jun 2026 21:27:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48701936</comments>
     </item>
     <item>
-      <title>아시아 AI 스타트업, 신화 같은 모델 출시</title>
-      <link>https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/</link>
-      <description>📝 회사는 이 선구적인 AI 모델이 "Anthropic의 Fable 5 및 Mythos Preview와 같은 선도적인 모델과 어깨를 나란히 하고 있습니다. Anthropic이 Mythos 및 Fable에 대한 전 세계 접근을 막는 명령은 2주 전에 발생했습니다. 그는 미국의 가장 가까운 동맹국을 위해 "접근성을 유지하는 것이 최우선 과제"라고 생각하는 미국 연방 정부에 촉구하고 "AI가 축적되는 기술이 되어서는 안 됩니다. 함께 발전하는 것이어야합니다.
+      <title>Feds는 Polestar를 죽이고 Volvo를 살려냈습니다. 그게 당신을 겁나게 할 것입니다</title>
+      <link>https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</link>
+      <description>📝 볼보가 승인을 받았는데 폴스타가 승인을 받지 못한 이유는 불분명합니다. 하지만 폴스타는 이런 상황이 닥칠 것을 분명히 예상하지 못했습니다. 이후 볼보 대변인은 더 드라이브(The Drive)와의 인터뷰에서 “이것이 볼보 자동차에 미칠 수 있는 잠재적인 영향을 추측하기에는 너무 이르다.
 
 
-🔤 Original: Asian AI startups launch Mythos-like models
+🔤 Original: Feds Killed Polestar and Spared Volvo. That Should Terrify You
 
-🔗 Read more: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/</description>
-      <guid isPermaLink="true">https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/</guid>
-      <pubDate>Sat, 27 Jun 2026 13:10:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48697958</comments>
+🔗 Read more: https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</description>
+      <guid isPermaLink="true">https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</guid>
+      <pubDate>Sun, 28 Jun 2026 01:55:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703613</comments>
     </item>
     <item>
-      <title>미시간은 18억 달러를 지출하고 602개의 일자리만 창출했습니다.</title>
-      <link>https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu</link>
-      <guid isPermaLink="true">https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu</guid>
-      <pubDate>Sat, 27 Jun 2026 21:44:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48702060</comments>
+      <title>WAL-RUS: PostgreSQL 백업을 위한 WAL-G의 Rust 재작성</title>
+      <link>https://clickhouse.com/blog/walrus-postgres-backups-in-rust</link>
+      <description>📝 Go의 런타임은 자체 메모리 풀을 관리하고 애플리케이션이 적극적으로 사용하는 것보다 훨씬 더 많은 가상 메모리를 예약할 수 있습니다. WAL 보관을 위해 할당된 메모리는 쿼리, 공유 버퍼 및 페이지 캐시를 위해 Postgres 자체에 자신있게 할당할 수 없는 메모리입니다. 메모리 사용 # 메모리 효율성은 WAL-RUS의 주요 동기였으며, 메모리 소비를 우리가 조사한 첫 번째 지표로 삼았습니다.
+
+
+🔤 Original: WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups
+
+🔗 Read more: https://clickhouse.com/blog/walrus-postgres-backups-in-rust</description>
+      <guid isPermaLink="true">https://clickhouse.com/blog/walrus-postgres-backups-in-rust</guid>
+      <pubDate>Sat, 27 Jun 2026 23:32:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48702848</comments>
+    </item>
+    <item>
+      <title>포드는 AI를 고용하고 인간을 해고했다. 심하게 역효과를 냈어</title>
+      <link>https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</link>
+      <description>📝 숙련된 엔지니어를 재고용한 후 Ford는 품질 표준이 눈에 띄게 향상되었습니다. 신차의 품질을 측정하는 연례 자동차 벤치마크인 Power 초기 품질 조사(Power Original Quality Survey)에서 Ford는 16년 만에 처음으로 주류 브랜드 중 1위를 차지했습니다. “착수적으로 우리는 인공지능을 도입하고 우리가 갖고 있는 디자인 요구사항만 흡수하면 고품질의 제품이 생산될 것이라고 생각했습니다.
+
+
+🔤 Original: Ford hired AI and sacked humans. It backfired badly
+
+🔗 Read more: https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</description>
+      <guid isPermaLink="true">https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</guid>
+      <pubDate>Sun, 28 Jun 2026 03:09:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703968</comments>
     </item>
   </channel>
 </rss>
