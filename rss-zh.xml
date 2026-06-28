@@ -6,125 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 28 Jun 2026 03:44:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 08:51:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>玛法公共广播电台让你入睡</title>
-      <link>https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</link>
-      <description>📝 玛法公共广播电台让你入睡 由佐伊·库兰 (Zoe Kurland) 和克里斯托弗·戴尔 (Christopher Dyer) 主持 玛法公共广播电台实际上从不睡觉。在今年秋季的会员活动中，我们为您带来 Marfa 公共广播电台让您入睡。最新剧集 《2025 年废除法案》由 Zoe Listen 朗读 • 1:01:30 《NPR 风格指南》由 Carlos Listen 朗读 • 24:03 《早间版简史》由 Julie Listen 朗读 • 14:30 《塔楼法规手册》由 Travis Pope 朗读 • 9:49 《所有事物简史》由 Travis Bubenik 朗读 • 13:11 《德克萨斯州行政法规》由 Mitch Listen 朗读 • 18:41 《1967 年公共广播法》由 Elise Listen 宣读 • 22:39 《知识共享许可证》由 Zoe Listen 宣读 • 25:31 《黑暗天空条例》由 Annie Listen 宣读 • 19:24 美国邮政法规 由 Yvonne Listen 宣读 • 18:53 加载更多。
+      <title>Bashblog – 用于创建博客的单个 bash 脚本</title>
+      <link>https://github.com/cfenollosa/bashblog</link>
+      <description>📝 sh 发布并开始撰写您的博文。 sh post -html 脚本将处理剩下的事情。功能 超简单的用法：只需用您最喜欢的编辑器输入帖子，脚本就会完成剩下的工作。
 
 
-🔤 Original: Marfa Public Radio Puts You to Sleep
+🔤 Original: Bashblog – a single bash script to create blogs
 
-🔗 Read more: https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</description>
-      <guid isPermaLink="true">https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</guid>
-      <pubDate>Sun, 28 Jun 2026 02:23:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703759</comments>
+🔗 Read more: https://github.com/cfenollosa/bashblog</description>
+      <guid isPermaLink="true">https://github.com/cfenollosa/bashblog</guid>
+      <pubDate>Sun, 28 Jun 2026 04:48:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48704454</comments>
     </item>
     <item>
-      <title>Show HN：Decomp Academy – 学习将GameCube游戏反编译成匹配的C</title>
-      <link>https://decomp-academy.dev</link>
-      <description>📝 ~122m0/16用 AND 屏蔽位用 OR 组合位用 XOR 翻转位设置单个标志位清除位：rlwinm 惊喜测试位是否已设置左移常量逻辑右移（无符号）算术右移（有符号）按变量移位在一个 rlwinm 中提取位字段通过移位和 OR 合并打包两个值两个字段：rlwinm + rlwimiChaining 跨三个值的异或位选择 (Mux)：AND、ANDC、ORCapstone：将三个值打包到一个 Word4Control Flowif/else、三元数、开关以及最重要的有符号与无符号比较。 ~148m0/18解引用指针通过指针存储常量索引变成位移以常量索引写入指针算术被缩放变量索引需要缩放然后索引字节数组不需要移位半字数组移动一位遍历字符串比较两个指针防止 NULL 通过指针交换读取两个元素并将它们组合之前缩放一个元素组合解引用，然后使用参数进行计算从计算的偏移量索引邻居在同一索引处组合两个数组顶点：一个表达式中的多个解引用8 结构、联合和位字段从单个字段到跨嵌套结构、成员数组、联合和位字段组合多个字段。 ~168m0/22读取结构体字段写入结构体字段窄字段：字节和半字加载存储字节字段对齐填充移动偏移量组合两个字段跨三个字段计算嵌套结构体平展为一个偏移量跨嵌套结构体组合字段结构体数组：缩放索引结构体内部的数组Unions覆盖相同字节一个单位标志：li； rlwimi 多位位域写入读取位域：rlwinm 提取遍历链接列表通过函数指针调用复制整个结构通过浮点寄存器进行八字节对齐复制大结构循环复制将副本与字段组合更新Capstone：读取整个结构9Floati。
+      <title>Wayfinder Router：本地和托管 LLM 之间查询的确定性路由</title>
+      <link>https://github.com/itsthelore/wayfinder-router</link>
+      <description>📝 确定性提示复杂性路由 - 将每个提示离线发送到本地或云模型，无需模型调用来决定。路由器通过模型调用来决定。快速入门 将 Wayfinder 放在模型前面。
 
 
-🔤 Original: Show HN: Decomp Academy – Learn to decompile GameCube games into matching C
+🔤 Original: Wayfinder Router: deterministic routing of queries between local and hosted LLM
 
-🔗 Read more: https://decomp-academy.dev</description>
-      <guid isPermaLink="true">https://decomp-academy.dev</guid>
-      <pubDate>Sun, 28 Jun 2026 01:21:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703412</comments>
+🔗 Read more: https://github.com/itsthelore/wayfinder-router</description>
+      <guid isPermaLink="true">https://github.com/itsthelore/wayfinder-router</guid>
+      <pubDate>Sun, 28 Jun 2026 04:31:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48704373</comments>
     </item>
     <item>
-      <title>AMD Strix Halo RDMA 集群设置指南</title>
-      <link>https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</link>
-      <description>📝 3 网络配置 4. 使用 RDMA：延迟约为 5µs。 2 检查本机固件 使用 ethtool 检查 Intel E810 卡的当前固件版本。
+      <title>中国能造出自己的ASML吗？</title>
+      <link>https://nikkei.shorthandstories.com/can-china-build-its-own-asml/</link>
+      <description>📝 （照片由 ASML 提供） 您的浏览器不支持此视频（视频由 ASML 提供）（视频由 ASML 提供） 在源容器中，EUV 光由强大的激光每秒撞击 50,000 个微小锡滴而产生。 ——主要供应商：Trumpf（激光器）、Cymer（EUV 光源） 您的浏览器不支持此视频（视频由 ASML 提供）（视频由 ASML 提供） 掩模版处理器持有掩模或掩模版，其中包含要在晶圆上印刷的图案。 ——主要供应商：VDL 您的浏览器不支持该视频（视频由 ASML 提供）（视频由 ASML 提供） 晶圆平台以小于 1 纳米（约 4 个硅原子）的精度定位晶圆，每次曝光，每秒检查和调整 20,000 次。
 
 
-🔤 Original: AMD Strix Halo RDMA Cluster Setup Guide
+🔤 Original: Can China build its own ASML?
 
-🔗 Read more: https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</description>
-      <guid isPermaLink="true">https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</guid>
-      <pubDate>Sun, 28 Jun 2026 00:46:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703258</comments>
+🔗 Read more: https://nikkei.shorthandstories.com/can-china-build-its-own-asml/</description>
+      <guid isPermaLink="true">https://nikkei.shorthandstories.com/can-china-build-its-own-asml/</guid>
+      <pubDate>Sun, 28 Jun 2026 07:45:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48705276</comments>
     </item>
     <item>
-      <title>选择公共 DNS 解析器</title>
-      <link>https://evilbit.de/dns-resolver-guide.html</link>
-      <description>📝 同行评审的 DNS 测量研究的结果应该会影响上述权衡。如果您担心这一点，请选择无日志操作符或不经意的设计（ODoH），其中代理将您的身份与查询分开，这样任何一方都看不到两者。 DNSCrypt 项目； APNIC 实验室加密 DNS 测量。
+      <title>将音乐变成一件苦差事，这就是我成为音乐家的方式（2022）</title>
+      <link>https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/</link>
+      <description>📝 音乐制作开始具体化为小“琐事”：使用合成器，录音，归档清理录音，剪出有趣的段落，归档制作不同的凹槽，记录，归档层凹槽和合成线以勾勒出歌曲想法，保存，归档布置歌曲安排，打印为wav文件，归档完善安排，打印为wav文件，归档进行混音，打印为wav文件，归档对混音进行第二遍，打印为wav文件，归档我打电话这些任务很琐碎，因为它们实际上没有什么特别之处：它们相当机械。有时候，好事会发生；有时，平庸的事情会。 ）将结果归档，以便以后快速调用。
 
 
-🔤 Original: Choosing a Public DNS Resolver
+🔤 Original: Turning music into a chore is how I became a musician (2022)
 
-🔗 Read more: https://evilbit.de/dns-resolver-guide.html</description>
-      <guid isPermaLink="true">https://evilbit.de/dns-resolver-guide.html</guid>
-      <pubDate>Sat, 27 Jun 2026 22:11:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48702273</comments>
-    </item>
-    <item>
-      <title>Robin Williams 对 AI slop 的回应</title>
-      <link>https://jayacunzo.com/blog/your-move-chief</link>
-      <description>📝 你对他了解很多。你不知道什么是真正的失去，因为只有当你爱某物胜过爱自己时，才会发生这种情况。就我个人而言，我根本不在乎这些，因为你知道吗。
-
-
-🔤 Original: Response to AI slop is from Robin Williams
-
-🔗 Read more: https://jayacunzo.com/blog/your-move-chief</description>
-      <guid isPermaLink="true">https://jayacunzo.com/blog/your-move-chief</guid>
-      <pubDate>Sun, 28 Jun 2026 01:28:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703452</comments>
-    </item>
-    <item>
-      <title>使用 LXC 增强 X11 应用程序安全性</title>
-      <link>https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</link>
-      <description>📝 使用以下命令验证这一点： # ip a show dev lxcbr0 创建容器 完成前面的步骤后，我们可以创建第一个应用程序容器。这里，容器中的 0 映射到主机上的 100000。我们还需要给容器一个。
-
-
-🔤 Original: Enhancing X11 Application Security with LXC
-
-🔗 Read more: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</description>
-      <guid isPermaLink="true">https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</guid>
-      <pubDate>Sat, 27 Jun 2026 21:27:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48701936</comments>
-    </item>
-    <item>
-      <title>联邦调查局杀死了 Polestar，但幸免于沃尔沃。那应该让你感到害怕</title>
-      <link>https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</link>
-      <description>📝 为什么沃尔沃获得授权而 Polestar 没有获得授权尚不清楚。但Polestar显然没有预见到这种情况的到来。随后，沃尔沃发言人告诉 The Drive，“现在推测这可能对沃尔沃汽车产生任何潜在影响还为时过早。
-
-
-🔤 Original: Feds Killed Polestar and Spared Volvo. That Should Terrify You
-
-🔗 Read more: https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</description>
-      <guid isPermaLink="true">https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</guid>
-      <pubDate>Sun, 28 Jun 2026 01:55:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703613</comments>
-    </item>
-    <item>
-      <title>WAL-RUS：用于 PostgreSQL 备份的 WAL-G 的 Rust 重写</title>
-      <link>https://clickhouse.com/blog/walrus-postgres-backups-in-rust</link>
-      <description>📝 Go 的运行时管理自己的内存池，并且可以保留比应用程序主动使用的多得多的虚拟内存。为 WAL 归档分配的内存预算是无法自信地分配给 Postgres 本身用于查询、共享缓冲区和页面缓存的内存。内存使用 # 内存效率是 WAL-RUS 背后的主要动机，这使得内存消耗成为我们检查的第一个指标。
-
-
-🔤 Original: WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups
-
-🔗 Read more: https://clickhouse.com/blog/walrus-postgres-backups-in-rust</description>
-      <guid isPermaLink="true">https://clickhouse.com/blog/walrus-postgres-backups-in-rust</guid>
-      <pubDate>Sat, 27 Jun 2026 23:32:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48702848</comments>
-    </item>
-    <item>
-      <title>福特雇佣了人工智能并解雇了人类。结果适得其反</title>
-      <link>https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</link>
-      <description>📝 在重新聘请经验丰富的工程师后，福特的质量标准得到了显着提高。在衡量新车质量的年度汽车基准 Power 初始质量调查中，福特在主流品牌中名列前茅，这是福特 16 年来首次实现这一里程碑。 “我们错误地认为，只要引入人工智能并吸收我们的设计要求，就可以生产出高质量的产品。
-
-
-🔤 Original: Ford hired AI and sacked humans. It backfired badly
-
-🔗 Read more: https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</description>
-      <guid isPermaLink="true">https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</guid>
-      <pubDate>Sun, 28 Jun 2026 03:09:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703968</comments>
+🔗 Read more: https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/</description>
+      <guid isPermaLink="true">https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/</guid>
+      <pubDate>Sun, 28 Jun 2026 01:22:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703418</comments>
     </item>
   </channel>
 </rss>

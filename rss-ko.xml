@@ -6,125 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Jun 2026 03:44:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 08:51:21 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Marfa 공공 라디오가 당신을 잠들게 합니다</title>
-      <link>https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</link>
-      <description>📝 Marfa Public Radio는 당신을 잠들게 합니다. Zoe Kurland가 진행합니다. Christopher Dyer Marfa Public Radio는 말 그대로 절대 잠들지 않습니다. 올 가을 멤버십 캠페인을 위해 Marfa Public Radio Puts You to Sleep을 소개합니다. 최신 에피소드 Zoe Listen이 읽는 2025년 폐지법 • 1:01:30 Carlos Listen이 읽는 NPR 스타일 가이드 • 24:03 Julie Listen이 읽는 Morning Edition의 간략한 역사 • 14:30 Travis Pope가 읽는 Tower 규정 매뉴얼 Listen • 9:49 Travis Bubenik이 읽는 것으로 간주되는 모든 것에 대한 간략한 역사 Listen • 13:11 Mitch Listen이 읽는 텍사스 행정법 • 18:41 Elise Listen이 읽는 1967년 공영 방송법 • 22:39 Zoe Listen이 읽는 Creative Commons License • 25:31 Annie Listen이 읽는 Dark Sky Ordinance • 19:24 Yvonne Listen이 읽는 미국 우편 규정 • 18:53 Load More.
+      <title>Bashblog – 블로그를 생성하기 위한 단일 bash 스크립트</title>
+      <link>https://github.com/cfenollosa/bashblog</link>
+      <description>📝 sh 게시물을 올리고 블로그 게시물 작성을 시작하세요. sh post -html 나머지는 스크립트가 처리합니다. 기능 매우 간단한 사용법: 즐겨 사용하는 편집기로 게시물을 입력하기만 하면 스크립트가 나머지 작업을 수행합니다.
 
 
-🔤 Original: Marfa Public Radio Puts You to Sleep
+🔤 Original: Bashblog – a single bash script to create blogs
 
-🔗 Read more: https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</description>
-      <guid isPermaLink="true">https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep</guid>
-      <pubDate>Sun, 28 Jun 2026 02:23:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703759</comments>
+🔗 Read more: https://github.com/cfenollosa/bashblog</description>
+      <guid isPermaLink="true">https://github.com/cfenollosa/bashblog</guid>
+      <pubDate>Sun, 28 Jun 2026 04:48:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48704454</comments>
     </item>
     <item>
-      <title>Show HN: Decomp Academy – GameCube 게임을 일치하는 C로 디컴파일하는 방법 알아보기</title>
-      <link>https://decomp-academy.dev</link>
-      <description>📝 ~122m0/16AND로 비트 마스킹OR로 비트 결합XOR로 비트 뒤집기단일 플래그 비트 설정비트 지우기: rlwinm 서프라이즈비트가 설정되었는지 여부 테스트상수로 왼쪽으로 이동논리적 오른쪽 시프트(부호 없음)산술 오른쪽 시프트(부호 있음)변수 양만큼 이동하나의 비트 필드 추출rlwinm시프트로 두 값 포장 ORMerging 두 개의 필드: rlwinm + rlwimiChaining XOR across three ValuesBit Select (Mux): AND, ANDC, ORCapstone: 세 개의 값을 하나의 Word로 압축4Flowif/else, 삼항, 스위치 및 가장 중요한 부호 있는 대 부호 없는 비교를 제어합니다. ~148m0/18포인터 역참조포인터를 통해 저장상수 인덱스가 변위가 됨상수 인덱스에서 쓰기포인터 산술 스케일링변수 인덱스는 스케일링이 필요하며 인덱싱바이트 배열은 Shift가 필요하지 않습니다. 하프워드 배열은 1씩 이동합니다. 문자열 이동두 포인터 비교포인터를 통한 NULL 교환 방지두 요소를 읽고 결합하기 전에 하나의 요소 크기 조정 참조 해제 후 인수로 계산계산된 오프셋에서 이웃 인덱싱동일 인덱스에서 두 배열 결합Capstone: 하나의 표현식에서 여러 역참조8구조체, 공용체 및 비트 필드단일 필드부터 중첩된 구조체, 멤버 배열, 공용체 및 비트 필드에 걸쳐 여러 개를 결합하는 것까지. ~168m0/22구조체 필드 읽기구조체 필드 쓰기좁은 필드: 바이트 및 하프워드 로드바이트 필드 저장정렬 패딩으로 오프셋 이동두 필드 결합세 필드에 걸쳐 계산중첩된 구조체가 하나의 오프셋으로 평면화중첩된 구조체에서 필드 결합구조체 배열: StructUnions 내에서 IndexAn 배열 크기 조정 동일한 바이트 오버레이A 단일 비트 플래그: li; rlwimi다중 비트 비트 필드 쓰기비트 필드 읽기: rlwinm Extract연결된 목록 살펴보기함수 포인터를 통해 호출전체 구조체 복사플로트 레지스터를 통해 8바이트 정렬 복사본 루프에서 복사본을 필드 업데이트와 결합Capstone: 전체 Struct9Floati 읽기.
+      <title>Wayfinder 라우터: 로컬 LLM과 호스팅 LLM 간 쿼리의 결정론적 라우팅</title>
+      <link>https://github.com/itsthelore/wayfinder-router</link>
+      <description>📝 결정론적 프롬프트 복잡성 라우팅 - 결정을 위한 모델 호출 없이 각 프롬프트를 로컬 또는 클라우드 모델에 오프라인으로 보냅니다. 라우터는 모델 호출로 결정합니다. 빠른 시작 Wayfinder를 모델 앞에 배치하세요.
 
 
-🔤 Original: Show HN: Decomp Academy – Learn to decompile GameCube games into matching C
+🔤 Original: Wayfinder Router: deterministic routing of queries between local and hosted LLM
 
-🔗 Read more: https://decomp-academy.dev</description>
-      <guid isPermaLink="true">https://decomp-academy.dev</guid>
-      <pubDate>Sun, 28 Jun 2026 01:21:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703412</comments>
+🔗 Read more: https://github.com/itsthelore/wayfinder-router</description>
+      <guid isPermaLink="true">https://github.com/itsthelore/wayfinder-router</guid>
+      <pubDate>Sun, 28 Jun 2026 04:31:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48704373</comments>
     </item>
     <item>
-      <title>AMD Strix Halo RDMA 클러스터 설정 가이드</title>
-      <link>https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</link>
-      <description>📝 3 네트워크 구성 4. RDMA 사용: 지연 시간은 ~5μs입니다. 2 기본 펌웨어 확인 ethtool을 사용하여 Intel E810 카드의 현재 펌웨어 버전을 확인합니다.
+      <title>중국이 자체 ASML을 구축할 수 있나요?</title>
+      <link>https://nikkei.shorthandstories.com/can-china-build-its-own-asml/</link>
+      <description>📝 (사진 제공: ASML) 귀하의 브라우저는 이 비디오를 지원하지 않습니다. (비디오 제공: ASML) (비디오 제공: ASML) 소스 용기에서 EUV 빛은 초당 50,000개의 작은 주석 방울을 공격하는 강력한 레이저에 의해 생성됩니다. ——주요 공급업체: Trumpf(레이저), Cymer(EUV 광원) 귀하의 브라우저는 이 비디오를 지원하지 않습니다. (비디오 제공: ASML) (비디오 제공: ASML) 레티클 핸들러는 웨이퍼에 인쇄할 패턴이 포함된 마스크 또는 레티클을 고정합니다. ——주요 공급업체: VDL 귀하의 브라우저는 이 비디오를 지원하지 않습니다. (비디오 제공: ASML) (비디오 제공: ASML) 웨이퍼 스테이지는 초당 20,000번 확인하고 조정하면서 각 노출마다 나노미터(약 4개의 실리콘 원자) 미만의 정밀도로 웨이퍼를 위치시킵니다.
 
 
-🔤 Original: AMD Strix Halo RDMA Cluster Setup Guide
+🔤 Original: Can China build its own ASML?
 
-🔗 Read more: https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</description>
-      <guid isPermaLink="true">https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md</guid>
-      <pubDate>Sun, 28 Jun 2026 00:46:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703258</comments>
+🔗 Read more: https://nikkei.shorthandstories.com/can-china-build-its-own-asml/</description>
+      <guid isPermaLink="true">https://nikkei.shorthandstories.com/can-china-build-its-own-asml/</guid>
+      <pubDate>Sun, 28 Jun 2026 07:45:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48705276</comments>
     </item>
     <item>
-      <title>공용 DNS 확인자 선택</title>
-      <link>https://evilbit.de/dns-resolver-guide.html</link>
-      <description>📝 위의 절충안을 형성해야 하는 동료 검토 DNS 측정 연구 결과입니다. 이것이 걱정된다면, 로그를 남기지 않는 운영자나 프록시가 쿼리에서 귀하의 신원을 분리하여 어느 누구도 두 가지를 모두 볼 수 없는 망각 디자인(ODoH)을 선호하십시오. DNSCrypt 프로젝트; APNIC 연구소의 암호화된 DNS 측정.
+      <title>음악을 일로 삼아 뮤지션이 된 나는 (2022)</title>
+      <link>https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/</link>
+      <description>📝 음악 제작은 작은 "일"로 결정화되기 시작했습니다. 신디사이저 잼, 녹음, 녹음 정리 정리, 흥미로운 부분 잘라내기, 다른 그루브 만들기, 녹음, 노래 아이디어 스케치를 위한 레이어 그루브 및 신디사이저 라인 정리, 저장, 노래 편곡 레이아웃 정리, wav 파일로 인쇄, 편곡 정리 정리, wav 파일로 인쇄, 믹스다운 수행, wav 파일로 인쇄, 믹스다운에서 두 번째 패스 수행, wav 파일로 인쇄, 나는 이러한 작업을 집안일이라고 부릅니다. 왜냐하면 실제로는 특별한 것이 없기 때문입니다. 상당히 기계적이기 때문입니다. 때로는 좋은 일이 일어나기도 했습니다. 때로는 평범한 일이 일어날 수도 있습니다. ) 나중에 신속하게 불러올 수 있도록 결과를 파일로 보관해 두십시오.
 
 
-🔤 Original: Choosing a Public DNS Resolver
+🔤 Original: Turning music into a chore is how I became a musician (2022)
 
-🔗 Read more: https://evilbit.de/dns-resolver-guide.html</description>
-      <guid isPermaLink="true">https://evilbit.de/dns-resolver-guide.html</guid>
-      <pubDate>Sat, 27 Jun 2026 22:11:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48702273</comments>
-    </item>
-    <item>
-      <title>AI 슬롭에 대한 응답은 Robin Williams의 것입니다.</title>
-      <link>https://jayacunzo.com/blog/your-move-chief</link>
-      <description>📝 당신은 그에 대해 많은 것을 알고 있습니다. 당신은 진정한 상실에 대해 알지 못합니다. 왜냐하면 그것은 당신이 자신보다 무언가를 더 사랑할 때만 발생하기 때문입니다. 개인적으로 나는 그 모든 것에 대해 신경 쓰지 않습니다. 왜냐하면 당신이 알고 있기 때문입니다.
-
-
-🔤 Original: Response to AI slop is from Robin Williams
-
-🔗 Read more: https://jayacunzo.com/blog/your-move-chief</description>
-      <guid isPermaLink="true">https://jayacunzo.com/blog/your-move-chief</guid>
-      <pubDate>Sun, 28 Jun 2026 01:28:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703452</comments>
-    </item>
-    <item>
-      <title>LXC로 X11 애플리케이션 보안 강화</title>
-      <link>https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</link>
-      <description>📝 # ip a show dev lxcbr0 컨테이너 생성 이전 단계가 완료되면 첫 번째 애플리케이션 컨테이너를 생성할 수 있습니다. 여기서 컨테이너의 0은 호스트의 100000에 매핑됩니다. 또한 컨테이너에 를 제공해야 합니다.
-
-
-🔤 Original: Enhancing X11 Application Security with LXC
-
-🔗 Read more: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</description>
-      <guid isPermaLink="true">https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/</guid>
-      <pubDate>Sat, 27 Jun 2026 21:27:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48701936</comments>
-    </item>
-    <item>
-      <title>Feds는 Polestar를 죽이고 Volvo를 살려냈습니다. 그게 당신을 겁나게 할 것입니다</title>
-      <link>https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</link>
-      <description>📝 볼보가 승인을 받았는데 폴스타가 승인을 받지 못한 이유는 불분명합니다. 하지만 폴스타는 이런 상황이 닥칠 것을 분명히 예상하지 못했습니다. 이후 볼보 대변인은 더 드라이브(The Drive)와의 인터뷰에서 “이것이 볼보 자동차에 미칠 수 있는 잠재적인 영향을 추측하기에는 너무 이르다.
-
-
-🔤 Original: Feds Killed Polestar and Spared Volvo. That Should Terrify You
-
-🔗 Read more: https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</description>
-      <guid isPermaLink="true">https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you</guid>
-      <pubDate>Sun, 28 Jun 2026 01:55:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703613</comments>
-    </item>
-    <item>
-      <title>WAL-RUS: PostgreSQL 백업을 위한 WAL-G의 Rust 재작성</title>
-      <link>https://clickhouse.com/blog/walrus-postgres-backups-in-rust</link>
-      <description>📝 Go의 런타임은 자체 메모리 풀을 관리하고 애플리케이션이 적극적으로 사용하는 것보다 훨씬 더 많은 가상 메모리를 예약할 수 있습니다. WAL 보관을 위해 할당된 메모리는 쿼리, 공유 버퍼 및 페이지 캐시를 위해 Postgres 자체에 자신있게 할당할 수 없는 메모리입니다. 메모리 사용 # 메모리 효율성은 WAL-RUS의 주요 동기였으며, 메모리 소비를 우리가 조사한 첫 번째 지표로 삼았습니다.
-
-
-🔤 Original: WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups
-
-🔗 Read more: https://clickhouse.com/blog/walrus-postgres-backups-in-rust</description>
-      <guid isPermaLink="true">https://clickhouse.com/blog/walrus-postgres-backups-in-rust</guid>
-      <pubDate>Sat, 27 Jun 2026 23:32:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48702848</comments>
-    </item>
-    <item>
-      <title>포드는 AI를 고용하고 인간을 해고했다. 심하게 역효과를 냈어</title>
-      <link>https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</link>
-      <description>📝 숙련된 엔지니어를 재고용한 후 Ford는 품질 표준이 눈에 띄게 향상되었습니다. 신차의 품질을 측정하는 연례 자동차 벤치마크인 Power 초기 품질 조사(Power Original Quality Survey)에서 Ford는 16년 만에 처음으로 주류 브랜드 중 1위를 차지했습니다. “착수적으로 우리는 인공지능을 도입하고 우리가 갖고 있는 디자인 요구사항만 흡수하면 고품질의 제품이 생산될 것이라고 생각했습니다.
-
-
-🔤 Original: Ford hired AI and sacked humans. It backfired badly
-
-🔗 Read more: https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</description>
-      <guid isPermaLink="true">https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</guid>
-      <pubDate>Sun, 28 Jun 2026 03:09:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48703968</comments>
+🔗 Read more: https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/</description>
+      <guid isPermaLink="true">https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/</guid>
+      <pubDate>Sun, 28 Jun 2026 01:22:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48703418</comments>
     </item>
   </channel>
 </rss>
