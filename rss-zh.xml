@@ -6,67 +6,86 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 03:52:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 10:59:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>更好的人工智能图像</title>
-      <link>https://betterimagesofai.org/</link>
-      <guid isPermaLink="true">https://betterimagesofai.org/</guid>
-      <pubDate>Sun, 28 Jun 2026 23:50:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713051</comments>
+      <title>HackerRank 开源了其 ATS。我的简历得分为 90/100。哦等等 74。不 – 88</title>
+      <link>https://danunparsed.com/p/hackerrank-open-source-ats</link>
+      <description>📝 一名有过一次实习经历的初级工程师获得 25/25。拥有十年分布式系统经验的首席工程师获得 25/25。我会选择拥有 30 年经验的工程师来构建 S3，而不是拥有两次实习经历和一个开源项目的工程师，但这个工具不会。
+
+
+🔤 Original: HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88
+
+🔗 Read more: https://danunparsed.com/p/hackerrank-open-source-ats</description>
+      <guid isPermaLink="true">https://danunparsed.com/p/hackerrank-open-source-ats</guid>
+      <pubDate>Mon, 29 Jun 2026 01:44:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48713832</comments>
     </item>
     <item>
-      <title>黑盒大语言模型的知识蒸馏（2024）</title>
-      <link>https://arxiv.org/abs/2401.07013</link>
-      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
+      <title>Pollen（CEO Negus-Fancey、CTO Wright）试图删除文章，Google 帮忙</title>
+      <link>https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</link>
+      <description>📝 然而，从那时起，事情变得更糟了。在本案中就发生了这种情况。而且，出于某种原因，虚假的版权请求可以被武器化，从谷歌的搜索索引中删除此类信息。
 
 
-🔤 Original: Knowledge Distillation of Black-Box Large Language Models (2024)
+🔤 Original: Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped
 
-🔗 Read more: https://arxiv.org/abs/2401.07013</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.07013</guid>
-      <pubDate>Sun, 28 Jun 2026 22:32:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48712420</comments>
+🔗 Read more: https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</description>
+      <guid isPermaLink="true">https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</guid>
+      <pubDate>Mon, 29 Jun 2026 09:28:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48716902</comments>
     </item>
     <item>
-      <title>告诉国会：不要强制在网上进行年龄检查</title>
-      <link>https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</link>
-      <description>📝 大多数公司可能会通过从用户那里收集更多的个人信息（例如驾驶执照或护照）来应对这种法律风险。无论哪种方式，用户都会输。国会没有鼓励网络隐私和安全，而是推动网站加强监控、更多限制和更多年龄限制。
+      <title>剖析苹果的稀疏图像格式（ASIF）</title>
+      <link>https://schamper.dev/dissecting-apples-sparse-image-format-asif/</link>
+      <description>📝 ❯ diskutil 映像创建空白 --fs none --format ASIF --size 1GiB 文件。 asif 创建了 ❯ diskutil 映像附加 -nomount 文件。标头（fh）转储结构（标头）000102030405060708090A0B0C0D0E0F 00000000 73686477000000010000020000000000 shdw……………………00000010 00000000000002000000000000041400·············00000020 8af9ead2cf3849c08eec0095cf5c7899····8I······\x·00000030 00000000001dcd650000080000000000·······e········ 00000040 001000000200000000000000ffffffff················ header FieldOffsetSizeValue magic[4] 0x0000 4 字节 b'shdw' field4 0x0004 4 字节 0x1 field8 0x0008 4 字节 0x200 fieldC 0x000c 4 字节 0x0 field10 0x0010 8 字节 0x200 field18 0x0018 8 字节 0x41400 field20[16] 0x0020 16 字节b'\x8a\xf9\xea\xd2\xcf8I\xc0\x8e\xec\x00\x95\xcf\\x\x99' field30 0x0030 8 个字节 0x1dcd65 field38 0x0038 8 个字节 0x80000000000 field40 0x0040 4 个字节0x100000 field44 0x0044 4 字节 0x2000000 field48 0x0048 4 字节 0x0 field4C 0x004c 4 字节 0xfffff。
 
 
-🔤 Original: Tell Congress: Don't Force Age Checks Online
+🔤 Original: Dissecting Apple's Sparse Image Format (ASIF)
 
-🔗 Read more: https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</description>
-      <guid isPermaLink="true">https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</guid>
-      <pubDate>Mon, 29 Jun 2026 01:52:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713887</comments>
+🔗 Read more: https://schamper.dev/dissecting-apples-sparse-image-format-asif/</description>
+      <guid isPermaLink="true">https://schamper.dev/dissecting-apples-sparse-image-format-asif/</guid>
+      <pubDate>Sun, 28 Jun 2026 16:10:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48708644</comments>
     </item>
     <item>
-      <title>央行官员警告人工智能繁荣可能导致全球金融崩溃</title>
-      <link>https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</link>
-      <description>📝 “金融稳定可以。被称为私人信贷基金的影子银行也向人工智能数据中心注入了资金，以从对新技术的需求不断增长中受益。50 亿），但股价已从峰值暴跌 25%。
+      <title>年龄验证只是语音自动归因的前奏</title>
+      <link>https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</link>
+      <description>📝 这是国家的梦想；你的话语无疑与你的现实生活身份息息相关。不验证您的年龄。不要放弃你的身份。
 
 
-🔤 Original: AI boom risks global financial crash, warn central bankers
+🔤 Original: Age verification is just a precursor to automated attribution of speech
 
-🔗 Read more: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</description>
-      <guid isPermaLink="true">https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</guid>
-      <pubDate>Mon, 29 Jun 2026 01:25:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713697</comments>
+🔗 Read more: https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</description>
+      <guid isPermaLink="true">https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</guid>
+      <pubDate>Mon, 29 Jun 2026 03:42:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48714529</comments>
     </item>
     <item>
-      <title>您可能不需要服务人员</title>
-      <link>https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</link>
-      <description>📝 04-1412", // 这在哪里结束。所以这也不需要 Service Worker。那么你需要 Service Worker 吗？
+      <title>为什么该期刊撤回了马克斯·普朗克 20 世纪 40 年代的两篇论文？</title>
+      <link>https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</link>
+      <description>📝 因此，当两位科学史学家发现一家科学期刊莫名其妙地撤回了普朗克 20 世纪 40 年代的两篇论文时，他们感到很困惑。该期刊通常会在已撤回的数字论文中添加一个大的“撤回”通知，以供下载。屏幕截图/自然科学 屏幕截图/自然科学 屏幕截图/自然科学 屏幕截图/自然科学 屏幕截图/自然科学 屏幕截图/自然科学 Gingras 和 Khelfaoui 怀疑撤回决定是在这个时候做出的。
 
 
-🔤 Original: You might not need a service worker
+🔤 Original: Why did this journal retract two 1940s papers by Max Planck?
 
-🔗 Read more: https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</description>
-      <guid isPermaLink="true">https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</guid>
-      <pubDate>Mon, 29 Jun 2026 00:48:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713453</comments>
+🔗 Read more: https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</description>
+      <guid isPermaLink="true">https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</guid>
+      <pubDate>Mon, 29 Jun 2026 08:58:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48716634</comments>
+    </item>
+    <item>
+      <title>Herdr：位于您终端中的代理多路复用器</title>
+      <link>https://github.com/ogulcancelik/herdr</link>
+      <description>📝 运行 herdr server stop，然后在默认会话中再次运行 herdr。 Herdr 使用显式键绑定字符串。手动运行：herdr update herdr update 适用于由 Herdr 自己的安装程序管理的安装。
+
+
+🔤 Original: Herdr: Agent multiplexer that lives in your terminal
+
+🔗 Read more: https://github.com/ogulcancelik/herdr</description>
+      <guid isPermaLink="true">https://github.com/ogulcancelik/herdr</guid>
+      <pubDate>Mon, 29 Jun 2026 04:27:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48714802</comments>
     </item>
   </channel>
 </rss>

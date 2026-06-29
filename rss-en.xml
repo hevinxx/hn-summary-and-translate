@@ -6,55 +6,68 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 03:52:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 10:59:18 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Better Images of AI</title>
-      <link>https://betterimagesofai.org/</link>
-      <guid isPermaLink="true">https://betterimagesofai.org/</guid>
-      <pubDate>Sun, 28 Jun 2026 23:50:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713051</comments>
+      <title>HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88</title>
+      <link>https://danunparsed.com/p/hackerrank-open-source-ats</link>
+      <description>📝 A junior engineer with one internship gets 25/25. A principal engineer with a decade of distributed systems gets 25/25. I’d take the engineer with 30 years of experience who built S3 over someone with two internships and an open source project — but this tool wouldn’t.
+
+🔗 Read more: https://danunparsed.com/p/hackerrank-open-source-ats</description>
+      <guid isPermaLink="true">https://danunparsed.com/p/hackerrank-open-source-ats</guid>
+      <pubDate>Mon, 29 Jun 2026 01:44:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48713832</comments>
     </item>
     <item>
-      <title>Knowledge Distillation of Black-Box Large Language Models (2024)</title>
-      <link>https://arxiv.org/abs/2401.07013</link>
-      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
+      <title>Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped</title>
+      <link>https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</link>
+      <description>📝 However, from that point on, things got worse. This happened in this case. And, for some reason, bogus copyright requests can be weaponized to remove information like this from Google's search index.
 
-🔗 Read more: https://arxiv.org/abs/2401.07013</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.07013</guid>
-      <pubDate>Sun, 28 Jun 2026 22:32:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48712420</comments>
+🔗 Read more: https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</description>
+      <guid isPermaLink="true">https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</guid>
+      <pubDate>Mon, 29 Jun 2026 09:28:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48716902</comments>
     </item>
     <item>
-      <title>Tell Congress: Don't Force Age Checks Online</title>
-      <link>https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</link>
-      <description>📝 Most companies are likely to respond to this legal risk by collecting much more personal information from users, like drivers’ licenses or passports. Either way, users lose. Instead of encouraging privacy and security online, Congress is pushing websites toward more monitoring, more restrictions, and more age gates.
+      <title>Dissecting Apple's Sparse Image Format (ASIF)</title>
+      <link>https://schamper.dev/dissecting-apples-sparse-image-format-asif/</link>
+      <description>📝 ❯ diskutil image create blank --fs none --format ASIF --size 1GiB file file. asif created ❯ diskutil image attach -nomount file. header(fh) dumpstruct(header) 000102030405060708090A0B0C0D0E0F 00000000 73686477000000010000020000000000 shdw············ 00000010 00000000000002000000000000041400 ················ 00000020 8af9ead2cf3849c08eec0095cf5c7899 ·····8I······\x· 00000030 00000000001dcd650000080000000000 ·······e········ 00000040 001000000200000000000000ffffffff ················ header FieldOffsetSizeValue magic[4] 0x0000 4 bytes b'shdw' field4 0x0004 4 bytes 0x1 field8 0x0008 4 bytes 0x200 fieldC 0x000c 4 bytes 0x0 field10 0x0010 8 bytes 0x200 field18 0x0018 8 bytes 0x41400 field20[16] 0x0020 16 bytes b'\x8a\xf9\xea\xd2\xcf8I\xc0\x8e\xec\x00\x95\xcf\\x\x99' field30 0x0030 8 bytes 0x1dcd65 field38 0x0038 8 bytes 0x80000000000 field40 0x0040 4 bytes 0x100000 field44 0x0044 4 bytes 0x2000000 field48 0x0048 4 bytes 0x0 field4C 0x004c 4 bytes 0xfffff.
 
-🔗 Read more: https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</description>
-      <guid isPermaLink="true">https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</guid>
-      <pubDate>Mon, 29 Jun 2026 01:52:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713887</comments>
+🔗 Read more: https://schamper.dev/dissecting-apples-sparse-image-format-asif/</description>
+      <guid isPermaLink="true">https://schamper.dev/dissecting-apples-sparse-image-format-asif/</guid>
+      <pubDate>Sun, 28 Jun 2026 16:10:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48708644</comments>
     </item>
     <item>
-      <title>AI boom risks global financial crash, warn central bankers</title>
-      <link>https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</link>
-      <description>📝 “Financial stability could. Shadow banks, known as private credit funds, have also piled money into AI data centres to benefit from rising demand for the new technology. 5bn), but shares have since plummeted 25pc from their peak.
+      <title>Age verification is just a precursor to automated attribution of speech</title>
+      <link>https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</link>
+      <description>📝 This is the state's dream; your words, undeniably tied to your real life identity. Don't verify your age. Don't give up your identity.
 
-🔗 Read more: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</description>
-      <guid isPermaLink="true">https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</guid>
-      <pubDate>Mon, 29 Jun 2026 01:25:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713697</comments>
+🔗 Read more: https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</description>
+      <guid isPermaLink="true">https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</guid>
+      <pubDate>Mon, 29 Jun 2026 03:42:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48714529</comments>
     </item>
     <item>
-      <title>You might not need a service worker</title>
-      <link>https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</link>
-      <description>📝 04-1412", // Where does this end. So this doesn’t need a service worker, either. So do you need a service worker.
+      <title>Why did this journal retract two 1940s papers by Max Planck?</title>
+      <link>https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</link>
+      <description>📝 So a pair of science historians were puzzled when they discovered that a scientific journal had inexplicably retracted two of Planck’s papers from the 1940s. The journal typically adds a large RETRACTED notice across digital papers that have been retracted, leaving them available for download. Screenshot/Science of Nature Screenshot/Science of Nature Screenshot/Science of Nature Screenshot/Science of Nature Screenshot/Science of Nature Screenshot/Science of Nature Gingras and Khelfaoui suspect the retraction decision was made around this time.
 
-🔗 Read more: https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</description>
-      <guid isPermaLink="true">https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</guid>
-      <pubDate>Mon, 29 Jun 2026 00:48:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48713453</comments>
+🔗 Read more: https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</description>
+      <guid isPermaLink="true">https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</guid>
+      <pubDate>Mon, 29 Jun 2026 08:58:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48716634</comments>
+    </item>
+    <item>
+      <title>Herdr: Agent multiplexer that lives in your terminal</title>
+      <link>https://github.com/ogulcancelik/herdr</link>
+      <description>📝 Run herdr server stop, then run herdr again for the default session. Herdr uses explicit keybinding strings. Run manually: herdr update herdr update is for installs managed by Herdr's own installer.
+
+🔗 Read more: https://github.com/ogulcancelik/herdr</description>
+      <guid isPermaLink="true">https://github.com/ogulcancelik/herdr</guid>
+      <pubDate>Mon, 29 Jun 2026 04:27:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48714802</comments>
     </item>
   </channel>
 </rss>
