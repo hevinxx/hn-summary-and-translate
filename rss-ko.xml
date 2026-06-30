@@ -6,73 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 29 Jun 2026 22:09:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 03:36:41 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>.self: 자체 호스팅을 지원하도록 설계된 새로운 최상위 도메인</title>
-      <link>https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/</link>
-      <description>📝 인간 중심 컴퓨팅 재단(Human-Centered Computing Foundation)은 웹을 위한 대체 아키텍처를 만들어 이러한 역학을 변화시키려고 합니다. ICANN ASP(Applicant Support Program)의 승인된 참가자로서 우리는 윤리적이고 인간 중심적인 기술에 전념하는 새로운 최상위 도메인(TLD)을 확보하기 위한 캠페인을 공식적으로 시작합니다. 자체 TLD 팜플렛(PDF).
+      <title>Fil-C의 메모리 안전 컨텍스트 전환(longjmp, setjmp)</title>
+      <link>https://fil-c.org/context_switches</link>
+      <description>📝 At this point, the context that was saved will attempt to restore a stack frame that no longer exists. At this point, the context that was saved will attempt to restore execution on a stack that has been freed. In Yolo-C, this will result in running on a dangling stack.
 
 
-🔤 Original: .self: A new top-level domain designed to support self-hosting
+🔤 Original: Memory Safe Context Switching (longjmp, setjmp) in Fil-C
 
-🔗 Read more: https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/</description>
-      <guid isPermaLink="true">https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/</guid>
-      <pubDate>Mon, 29 Jun 2026 19:49:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48724230</comments>
+🔗 Read more: https://fil-c.org/context_switches</description>
+      <guid isPermaLink="true">https://fil-c.org/context_switches</guid>
+      <pubDate>Tue, 30 Jun 2026 00:38:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48727177</comments>
     </item>
     <item>
-      <title>Claude Code에 오류를 복사하여 붙여넣으면 안 됩니다.</title>
-      <link>https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code</link>
-      <description>📝 Claude Code에 헤드리스 브라우저와 로그인 자격 증명을 제공하면 됩니다. 또 다른 감속을 찾으십시오. 이제 Claude Code로 돌아갑니다.
-
-
-🔤 Original: You really shouldn't copy-paste errors into Claude Code
-
-🔗 Read more: https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code</description>
-      <guid isPermaLink="true">https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code</guid>
-      <pubDate>Mon, 29 Jun 2026 21:16:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48725359</comments>
+      <title>총 1.6T, 48B Active를 갖춘 대규모 MoE 모델 LongCat-2.0</title>
+      <link>https://longcat.chat/blog/longcat-2.0/</link>
+      <guid isPermaLink="true">https://longcat.chat/blog/longcat-2.0/</guid>
+      <pubDate>Tue, 30 Jun 2026 00:30:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48727116</comments>
     </item>
     <item>
-      <title>AI와의 작업: 구체적인 예</title>
-      <link>https://htmx.org/essays/working-with-ai/</link>
-      <description>📝 parsElement("stringLike") || 이것. noConversions) 반환; 이는 하이퍼스크립트 파서를 상황에 맞게 만들기 때문에 많은 파서 엔지니어를 놀라게 할 것입니다. 하이퍼스크립트 파서는 이미 상황에 민감했습니다.
+      <title>PDP-1 Lisp 탐색(1960)</title>
+      <link>https://obsolescence.dev/pdp1-lisp-introduction.html</link>
+      <description>📝 PDP-1 Lisp는 Lisp를 이론적인 펀치 카드 로드 언어에서 실용적인 대화형 도구로 발전시켰습니다. 이 페이지는 PDP-1 Lisp에 대한 빠른 시작 지침만 제공합니다. Lisp에 대한 지식은 필요하지 않습니다. 이는 PDP-1에서 Lisp가 작동하는 방식만 보여줍니다.
 
 
-🔤 Original: Working With AI: A concrete example
+🔤 Original: Exploring PDP-1 Lisp (1960)
 
-🔗 Read more: https://htmx.org/essays/working-with-ai/</description>
-      <guid isPermaLink="true">https://htmx.org/essays/working-with-ai/</guid>
-      <pubDate>Mon, 29 Jun 2026 14:53:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48720064</comments>
+🔗 Read more: https://obsolescence.dev/pdp1-lisp-introduction.html</description>
+      <guid isPermaLink="true">https://obsolescence.dev/pdp1-lisp-introduction.html</guid>
+      <pubDate>Tue, 30 Jun 2026 00:56:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48727323</comments>
     </item>
     <item>
-      <title>아직 나오지 않았나요?</title>
-      <link>https://outyet.ai</link>
-      <description>📝 우리는 공급자 API와 공식 가중치 저장소를 모니터링한 다음 발표하기 전에 액세스를 두 번 확인합니다. ai는 공식 모델 등록, API, 소비자 출시 및 공개 가중치 저장소를 감시합니다. 하나의 명명된 모델, 선택한 공급자의 모든 향후 모델 또는 대기 보드 전체의 모든 릴리스를 따르십시오.
+      <title>과학자들은 액체 물에서 두 가지 구조에 대한 분자 수준의 증거를 찾습니다.</title>
+      <link>https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</link>
+      <description>📝 2026년 6월 25일 특집 과학자들은 Tejasri Gururaj, Phys.의 액체 물에서 두 가지 구조에 대한 분자 수준의 증거를 발견했습니다. 출처: 자연 물리학(2026). 1038/s41567-026-03301-8 Nature Physics에 발표된 연구는 액체 물이 균일한 단일 물질이 아니라 두 개의 별개의 미세한 구조가 끊임없이 변화하는 혼합물이라는 시뮬레이션을 통해 새로운 분자 수준의 증거를 제공합니다.
 
 
-🔤 Original: Is It Out Yet?
+🔤 Original: Scientists find molecular-level evidence for two structures in liquid water
 
-🔗 Read more: https://outyet.ai</description>
-      <guid isPermaLink="true">https://outyet.ai</guid>
-      <pubDate>Mon, 29 Jun 2026 21:18:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48725397</comments>
+🔗 Read more: https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</description>
+      <guid isPermaLink="true">https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</guid>
+      <pubDate>Mon, 29 Jun 2026 22:18:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48726073</comments>
     </item>
     <item>
-      <title>자외선 차단제가 새로운 마가린인가? (2021)</title>
-      <link>https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/</link>
-      <description>📝 이들 반군들은 비타민 D 수치가 높은 사람들을 건강하게 만드는 것은 비타민 자체가 아니라고 주장합니다. 그것은 단지 마커였습니다. 그들의 비타민 D 수치가 높았던 이유는 그들의 건강을 책임지는 것, 즉 위에서 빛나는 커다란 주황색 공에 대한 노출이 많았기 때문입니다.
+      <title>한국, 메모리 칩 생산과 휴머노이드 로봇에 1조 달러 투자</title>
+      <link>https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</link>
+      <description>📝 두 번째 주력 메가 프로젝트에는 한국의 기술 기업인 SK 그룹, GS 그룹, 네이버가 3,570억 달러를 투자하여 서쪽 충청남도, 동쪽 강원도, 남서쪽 전남도와 전남도를 포함한 더 많은 외곽 지역에 대규모 AI 데이터 센터를 구축하는 작업이 포함됩니다. 한국 자동차 제조업체는 이미 2021년에 인수한 미국 로봇 회사인 보스턴 다이내믹스(Boston Dynamics)가 한국 공급망을 활용하여 제조 규모를 확장하여 2028년까지 매년 30,000개의 아틀라스 휴머노이드 로봇을 생산하도록 돕고 있습니다. 그러나 한국 근로자들은 더 많은 로봇과 경쟁할 전망에 대해 그다지 낙관적이지 않습니다.
 
 
-🔤 Original: Is sunscreen the new margarine? (2021)
+🔤 Original: South Korea to spend $1T on more memory chip production and humanoid robots
 
-🔗 Read more: https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/</description>
-      <guid isPermaLink="true">https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/</guid>
-      <pubDate>Mon, 29 Jun 2026 05:05:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48715020</comments>
+🔗 Read more: https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</description>
+      <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</guid>
+      <pubDate>Mon, 29 Jun 2026 22:21:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48726102</comments>
+    </item>
+    <item>
+      <title>개방형 메모리 프로토콜 – Claude, ChatGPT, Curso를 위한 하나의 메모리 저장소</title>
+      <link>https://github.com/SMJAI/open-memory-protocol</link>
+      <description>📝 ChatGPT는 귀하의 선호도를 배웠습니다. 귀하의 맞춤 에이전트는 그렇지 않습니다. 작동 방식: 무엇이든 ChatGPT와 채팅하세요. 이 확장 프로그램은 2분마다 대화를 OMP 서버에 자동으로 저장합니다. Open Claude.
+
+
+🔤 Original: Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso
+
+🔗 Read more: https://github.com/SMJAI/open-memory-protocol</description>
+      <guid isPermaLink="true">https://github.com/SMJAI/open-memory-protocol</guid>
+      <pubDate>Tue, 30 Jun 2026 00:05:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48726966</comments>
     </item>
   </channel>
 </rss>

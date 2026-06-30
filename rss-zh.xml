@@ -6,73 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 22:09:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 03:36:41 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>.self：旨在支持自托管的新顶级域名</title>
-      <link>https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/</link>
-      <description>📝 以人为中心的计算基金会致力于通过创建另一种网络架构来改变这种动态。作为 ICANN 申请人支持计划 (ASP) 的批准参与者，我们正式启动我们的活动，以确保新的顶级域名 (TLD) 完全致力于道德、以人为本的技术。自我 TLD 小册子 (PDF)。
+      <title>Fil-C 中的内存安全上下文切换（longjmp、setjmp）</title>
+      <link>https://fil-c.org/context_switches</link>
+      <description>📝 此时，已保存的上下文将尝试恢复不再存在的堆栈帧。此时，保存的上下文将尝试在已释放的堆栈上恢复执行。在 Yolo-C 中，这将导致在悬空堆栈上运行。
 
 
-🔤 Original: .self: A new top-level domain designed to support self-hosting
+🔤 Original: Memory Safe Context Switching (longjmp, setjmp) in Fil-C
 
-🔗 Read more: https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/</description>
-      <guid isPermaLink="true">https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/</guid>
-      <pubDate>Mon, 29 Jun 2026 19:49:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48724230</comments>
+🔗 Read more: https://fil-c.org/context_switches</description>
+      <guid isPermaLink="true">https://fil-c.org/context_switches</guid>
+      <pubDate>Tue, 30 Jun 2026 00:38:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48727177</comments>
     </item>
     <item>
-      <title>你真的不应该将错误复制粘贴到克劳德代码中</title>
-      <link>https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code</link>
-      <description>📝 很简单，给 Claude Code 一个无头浏览器和登录凭据。寻找另一个减速点。现在回到我的克劳德代码。
-
-
-🔤 Original: You really shouldn't copy-paste errors into Claude Code
-
-🔗 Read more: https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code</description>
-      <guid isPermaLink="true">https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code</guid>
-      <pubDate>Mon, 29 Jun 2026 21:16:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48725359</comments>
+      <title>LongCat-2.0，大型MoE模型，总重1.6T，活动48B</title>
+      <link>https://longcat.chat/blog/longcat-2.0/</link>
+      <guid isPermaLink="true">https://longcat.chat/blog/longcat-2.0/</guid>
+      <pubDate>Tue, 30 Jun 2026 00:30:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48727116</comments>
     </item>
     <item>
-      <title>使用人工智能：一个具体的例子</title>
-      <link>https://htmx.org/essays/working-with-ai/</link>
-      <description>📝 parseElement("stringLike") ||这。无转化）返回；这会让许多解析器工程师感到震惊，因为它使超脚本解析器变得上下文敏感。超脚本解析器已经是上下文敏感的。
+      <title>探索 PDP-1 Lisp (1960)</title>
+      <link>https://obsolescence.dev/pdp1-lisp-introduction.html</link>
+      <description>📝 PDP-1 Lisp 将 Lisp 从一种理论上的、打孔卡加载的语言发展成为一种实用的交互式工具。本页仅提供 PDP-1 Lisp 的快速入门说明。不需要 Lisp 知识，这仅显示 Lisp 如何在 PDP-1 上工作。
 
 
-🔤 Original: Working With AI: A concrete example
+🔤 Original: Exploring PDP-1 Lisp (1960)
 
-🔗 Read more: https://htmx.org/essays/working-with-ai/</description>
-      <guid isPermaLink="true">https://htmx.org/essays/working-with-ai/</guid>
-      <pubDate>Mon, 29 Jun 2026 14:53:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48720064</comments>
+🔗 Read more: https://obsolescence.dev/pdp1-lisp-introduction.html</description>
+      <guid isPermaLink="true">https://obsolescence.dev/pdp1-lisp-introduction.html</guid>
+      <pubDate>Tue, 30 Jun 2026 00:56:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48727323</comments>
     </item>
     <item>
-      <title>出来了吗？</title>
-      <link>https://outyet.ai</link>
-      <description>📝 我们监控提供商 API 和官方权重存储库，然后在宣布任何内容之前验证访问两次。 ai 监视官方模型注册、API、消费者发布和开放权重存储库。遵循一个命名模型、选定提供商的每个未来模型或等待板上的所有版本。
+      <title>科学家发现液态水中两种结构的分子水平证据</title>
+      <link>https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</link>
+      <description>📝 2026 年 6 月 25 日专题 科学家们发现了液态水中两种结构的分子水平证据，作者是物理学家 Tejasri Gururaj。图片来源：《自然物理学》（2026）。 1038/s41567-026-03301-8 发表在《自然物理学》上的一项研究通过模拟提供了新的分子级证据，表明液态水不是单一均匀的物质，而是两种不同微观结构不断变化的混合物。
 
 
-🔤 Original: Is It Out Yet?
+🔤 Original: Scientists find molecular-level evidence for two structures in liquid water
 
-🔗 Read more: https://outyet.ai</description>
-      <guid isPermaLink="true">https://outyet.ai</guid>
-      <pubDate>Mon, 29 Jun 2026 21:18:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48725397</comments>
+🔗 Read more: https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</description>
+      <guid isPermaLink="true">https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</guid>
+      <pubDate>Mon, 29 Jun 2026 22:18:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48726073</comments>
     </item>
     <item>
-      <title>防晒霜是新的人造黄油吗？ (2021)</title>
-      <link>https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/</link>
-      <description>📝 这些反叛者认为，维生素 D 水平高的人如此健康的原因并不是维生素本身。那只是一个标记。他们的维生素 D 水平很高，因为他们大量接触了真正对他们的健康负责的东西——那个从上面照下来的橙色大球。
+      <title>韩国将花费 1T 美元增加存储芯片生产和人形机器人</title>
+      <link>https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</link>
+      <description>📝 第二个旗舰大型项目涉及韩国科技公司 SK 集团、GS 集团和 Naver 投资 3570 亿美元，在更偏远的省份建设大型人工智能数据中心，包括西部的忠清南道、东部的江原道以及韩国西南角的全罗北道和全罗南道。这家韩国汽车制造商已经在帮助波士顿动力公司（2021 年收购的美国机器人公司）利用韩国供应链扩大制造规模，到 2028 年每年生产 30,000 台 Atlas 人形机器人。然而，韩国工人对于与更多机器人竞争的前景并不那么乐观。
 
 
-🔤 Original: Is sunscreen the new margarine? (2021)
+🔤 Original: South Korea to spend $1T on more memory chip production and humanoid robots
 
-🔗 Read more: https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/</description>
-      <guid isPermaLink="true">https://www.outsideonline.com/health/wellness/sunscreen-sun-exposure-skin-cancer-science/</guid>
-      <pubDate>Mon, 29 Jun 2026 05:05:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48715020</comments>
+🔗 Read more: https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</description>
+      <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</guid>
+      <pubDate>Mon, 29 Jun 2026 22:21:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48726102</comments>
+    </item>
+    <item>
+      <title>开放内存协议 – Claude、ChatGPT、Curso 的单一内存存储</title>
+      <link>https://github.com/SMJAI/open-memory-protocol</link>
+      <description>📝 ChatGPT 了解了您的偏好。您的定制代理还没有。工作原理：与 ChatGPT 聊天任何事情 该扩展会每 2 分钟将您的对话静默保存到您的 OMP 服务器 Open Claude。
+
+
+🔤 Original: Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso
+
+🔗 Read more: https://github.com/SMJAI/open-memory-protocol</description>
+      <guid isPermaLink="true">https://github.com/SMJAI/open-memory-protocol</guid>
+      <pubDate>Tue, 30 Jun 2026 00:05:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48726966</comments>
     </item>
   </channel>
 </rss>
