@@ -6,80 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Jun 2026 03:36:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 09:35:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Fil-C의 메모리 안전 컨텍스트 전환(longjmp, setjmp)</title>
-      <link>https://fil-c.org/context_switches</link>
-      <description>📝 At this point, the context that was saved will attempt to restore a stack frame that no longer exists. At this point, the context that was saved will attempt to restore execution on a stack that has been freed. In Yolo-C, this will result in running on a dangling stack.
+      <title>AArch64 데스크톱 실험의 끝</title>
+      <link>https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/</link>
+      <description>📝 ioremap_wc를 사용하여 MMIO를 매핑하는 Linux 커널 드라이버). 해결 방법은 PCIe MMIO 공간을 캐시할 수 없는 일반 메모리(예: 0: 링 vcn_dec_0 커널에서 펜스 대체 타이머가 만료됨: amdgpu 0000:03:00)로 매핑하는 소프트웨어를 수정합니다.
 
 
-🔤 Original: Memory Safe Context Switching (longjmp, setjmp) in Fil-C
+🔤 Original: The end of the AArch64 desktop experiment
 
-🔗 Read more: https://fil-c.org/context_switches</description>
-      <guid isPermaLink="true">https://fil-c.org/context_switches</guid>
-      <pubDate>Tue, 30 Jun 2026 00:38:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48727177</comments>
+🔗 Read more: https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/</description>
+      <guid isPermaLink="true">https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/</guid>
+      <pubDate>Tue, 30 Jun 2026 04:51:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48728599</comments>
     </item>
     <item>
-      <title>총 1.6T, 48B Active를 갖춘 대규모 MoE 모델 LongCat-2.0</title>
-      <link>https://longcat.chat/blog/longcat-2.0/</link>
-      <guid isPermaLink="true">https://longcat.chat/blog/longcat-2.0/</guid>
-      <pubDate>Tue, 30 Jun 2026 00:30:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48727116</comments>
+      <title>Sega MegaDrive용 Linux</title>
+      <link>https://github.com/LinuxMD/linuxmd</link>
+      <description>📝 빌드 지침 실행. 255430] usb 3-2: 제품 : Mega EverDrive [1135618. 255432] usb 3-2 : 제조사 : STMicroelectronics [1135618.
+
+
+🔤 Original: Linux for the Sega MegaDrive
+
+🔗 Read more: https://github.com/LinuxMD/linuxmd</description>
+      <guid isPermaLink="true">https://github.com/LinuxMD/linuxmd</guid>
+      <pubDate>Mon, 29 Jun 2026 15:01:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48720186</comments>
     </item>
     <item>
-      <title>PDP-1 Lisp 탐색(1960)</title>
-      <link>https://obsolescence.dev/pdp1-lisp-introduction.html</link>
-      <description>📝 PDP-1 Lisp는 Lisp를 이론적인 펀치 카드 로드 언어에서 실용적인 대화형 도구로 발전시켰습니다. 이 페이지는 PDP-1 Lisp에 대한 빠른 시작 지침만 제공합니다. Lisp에 대한 지식은 필요하지 않습니다. 이는 PDP-1에서 Lisp가 작동하는 방식만 보여줍니다.
+      <title>GPU 버블 터뜨리기</title>
+      <link>https://moondream.ai/blog/popping-the-gpu-bubble</link>
+      <description>📝 이러한 현상을 GPU 버블이라고 합니다. 이는 우리가 선택한 토큰에 따라 계획이 달라지기 때문입니다. 현재 단계의 토큰이 여전히 돌아와서 커밋되는 동안 다음 전달을 시작합니다.
 
 
-🔤 Original: Exploring PDP-1 Lisp (1960)
+🔤 Original: Popping the GPU Bubble
 
-🔗 Read more: https://obsolescence.dev/pdp1-lisp-introduction.html</description>
-      <guid isPermaLink="true">https://obsolescence.dev/pdp1-lisp-introduction.html</guid>
-      <pubDate>Tue, 30 Jun 2026 00:56:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48727323</comments>
+🔗 Read more: https://moondream.ai/blog/popping-the-gpu-bubble</description>
+      <guid isPermaLink="true">https://moondream.ai/blog/popping-the-gpu-bubble</guid>
+      <pubDate>Tue, 30 Jun 2026 05:14:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48728729</comments>
     </item>
     <item>
-      <title>과학자들은 액체 물에서 두 가지 구조에 대한 분자 수준의 증거를 찾습니다.</title>
-      <link>https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</link>
-      <description>📝 2026년 6월 25일 특집 과학자들은 Tejasri Gururaj, Phys.의 액체 물에서 두 가지 구조에 대한 분자 수준의 증거를 발견했습니다. 출처: 자연 물리학(2026). 1038/s41567-026-03301-8 Nature Physics에 발표된 연구는 액체 물이 균일한 단일 물질이 아니라 두 개의 별개의 미세한 구조가 끊임없이 변화하는 혼합물이라는 시뮬레이션을 통해 새로운 분자 수준의 증거를 제공합니다.
+      <title>미국 대법원이 EU-US 데이터 전송을 폭파했습니다</title>
+      <link>https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers</link>
+      <description>📝 유럽 ​​위원회에 보낸 Slaughternoyb 서한EU-미국 데이터 개인 정보 보호 프레임워크. ) EU-US 데이터 흐름 결정에 시간이 걸립니다. 비개인 데이터는 자유롭게 흐를 수 있습니다.
 
 
-🔤 Original: Scientists find molecular-level evidence for two structures in liquid water
+🔤 Original: US Supreme Court Just Blew Up EU-US Data Transfers
 
-🔗 Read more: https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</description>
-      <guid isPermaLink="true">https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</guid>
-      <pubDate>Mon, 29 Jun 2026 22:18:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48726073</comments>
-    </item>
-    <item>
-      <title>한국, 메모리 칩 생산과 휴머노이드 로봇에 1조 달러 투자</title>
-      <link>https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</link>
-      <description>📝 두 번째 주력 메가 프로젝트에는 한국의 기술 기업인 SK 그룹, GS 그룹, 네이버가 3,570억 달러를 투자하여 서쪽 충청남도, 동쪽 강원도, 남서쪽 전남도와 전남도를 포함한 더 많은 외곽 지역에 대규모 AI 데이터 센터를 구축하는 작업이 포함됩니다. 한국 자동차 제조업체는 이미 2021년에 인수한 미국 로봇 회사인 보스턴 다이내믹스(Boston Dynamics)가 한국 공급망을 활용하여 제조 규모를 확장하여 2028년까지 매년 30,000개의 아틀라스 휴머노이드 로봇을 생산하도록 돕고 있습니다. 그러나 한국 근로자들은 더 많은 로봇과 경쟁할 전망에 대해 그다지 낙관적이지 않습니다.
-
-
-🔤 Original: South Korea to spend $1T on more memory chip production and humanoid robots
-
-🔗 Read more: https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</description>
-      <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</guid>
-      <pubDate>Mon, 29 Jun 2026 22:21:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48726102</comments>
-    </item>
-    <item>
-      <title>개방형 메모리 프로토콜 – Claude, ChatGPT, Curso를 위한 하나의 메모리 저장소</title>
-      <link>https://github.com/SMJAI/open-memory-protocol</link>
-      <description>📝 ChatGPT는 귀하의 선호도를 배웠습니다. 귀하의 맞춤 에이전트는 그렇지 않습니다. 작동 방식: 무엇이든 ChatGPT와 채팅하세요. 이 확장 프로그램은 2분마다 대화를 OMP 서버에 자동으로 저장합니다. Open Claude.
-
-
-🔤 Original: Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso
-
-🔗 Read more: https://github.com/SMJAI/open-memory-protocol</description>
-      <guid isPermaLink="true">https://github.com/SMJAI/open-memory-protocol</guid>
-      <pubDate>Tue, 30 Jun 2026 00:05:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48726966</comments>
+🔗 Read more: https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers</description>
+      <guid isPermaLink="true">https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers</guid>
+      <pubDate>Tue, 30 Jun 2026 05:17:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48728740</comments>
     </item>
   </channel>
 </rss>

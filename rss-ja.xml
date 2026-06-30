@@ -6,80 +6,60 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 30 Jun 2026 03:36:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 09:35:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Fil-C のメモリ セーフ コンテキスト スイッチング (longjmp、setjmp)</title>
-      <link>https://fil-c.org/context_switches</link>
-      <description>📝 この時点で、保存されたコンテキストは、存在しないスタック フレームを復元しようとします。この時点で、保存されたコンテキストは、解放されたスタック上で実行を復元しようとします。 Yolo-C では、これによりダングリング スタック上で実行されることになります。
+      <title>AArch64 デスクトップ実験の終了</title>
+      <link>https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/</link>
+      <description>📝 ioremap_wc を使用して MMIO をマッピングする Linux カーネル ドライバー)。この回避策では、PCIe MMIO スペースを通常のキャッシュ不可能なメモリとしてマップするソフトウェアを変更します (例: 0: リング vcn_dec_0 カーネルでフェンス フォールバック タイマーが期限切れになりました: amdgpu 0000:03:00)。
 
 
-🔤 Original: Memory Safe Context Switching (longjmp, setjmp) in Fil-C
+🔤 Original: The end of the AArch64 desktop experiment
 
-🔗 Read more: https://fil-c.org/context_switches</description>
-      <guid isPermaLink="true">https://fil-c.org/context_switches</guid>
-      <pubDate>Tue, 30 Jun 2026 00:38:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48727177</comments>
+🔗 Read more: https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/</description>
+      <guid isPermaLink="true">https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/</guid>
+      <pubDate>Tue, 30 Jun 2026 04:51:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48728599</comments>
     </item>
     <item>
-      <title>LongCat-2.0、合計 1.6T、アクティブ 48B の大規模 MoE モデル</title>
-      <link>https://longcat.chat/blog/longcat-2.0/</link>
-      <guid isPermaLink="true">https://longcat.chat/blog/longcat-2.0/</guid>
-      <pubDate>Tue, 30 Jun 2026 00:30:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48727116</comments>
+      <title>セガ メガドライブ用 Linux</title>
+      <link>https://github.com/LinuxMD/linuxmd</link>
+      <description>📝 ビルド手順を実行します。 255430] USB 3-2: 製品: Mega EverDrive [1135618. 255432] USB 3-2: メーカー: STMicroelectronics [1135618.
+
+
+🔤 Original: Linux for the Sega MegaDrive
+
+🔗 Read more: https://github.com/LinuxMD/linuxmd</description>
+      <guid isPermaLink="true">https://github.com/LinuxMD/linuxmd</guid>
+      <pubDate>Mon, 29 Jun 2026 15:01:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48720186</comments>
     </item>
     <item>
-      <title>PDP-1 Lisp の探索 (1960)</title>
-      <link>https://obsolescence.dev/pdp1-lisp-introduction.html</link>
-      <description>📝 PDP-1 Lisp は、Lisp を理論的なパンチカード搭載言語から実用的な対話型ツールに進化させました。このページでは、PDP-1 Lisp のクイックスタート手順のみを説明します。 Lisp の知識は必要ありません。これは、Lisp が PDP-1 上でどのように動作するかを示すだけです。
+      <title>GPU バブルの崩壊</title>
+      <link>https://moondream.ai/blog/popping-the-gpu-bubble</link>
+      <description>📝 この現象をGPUバブルと呼びます。これは、プランが選択したトークンに依存するためです。現在のステップのトークンが戻ってきてコミットされている間に、次の転送を開始します。
 
 
-🔤 Original: Exploring PDP-1 Lisp (1960)
+🔤 Original: Popping the GPU Bubble
 
-🔗 Read more: https://obsolescence.dev/pdp1-lisp-introduction.html</description>
-      <guid isPermaLink="true">https://obsolescence.dev/pdp1-lisp-introduction.html</guid>
-      <pubDate>Tue, 30 Jun 2026 00:56:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48727323</comments>
+🔗 Read more: https://moondream.ai/blog/popping-the-gpu-bubble</description>
+      <guid isPermaLink="true">https://moondream.ai/blog/popping-the-gpu-bubble</guid>
+      <pubDate>Tue, 30 Jun 2026 05:14:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48728729</comments>
     </item>
     <item>
-      <title>科学者は液体の水の 2 つの構造について分子レベルの証拠を発見</title>
-      <link>https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</link>
-      <description>📝 2026 年 6 月 25 日の特集 科学者たちは液体の水中の 2 つの構造の分子レベルの証拠を発見、テジャスリ・グルラージ、物理学。クレジット: Nature Physics (2026)。 1038/s41567-026-03301-8 Nature Physics に掲載された研究は、液体の水が単一の均一な物質ではなく、2 つの異なる微細構造の絶えず変化する混合物であることをシミュレーションから分子レベルで新たな証拠を提供します。
+      <title>米国最高裁判所がEU-米国間のデータ転送を無効にしたばかり</title>
+      <link>https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers</link>
+      <description>📝 スローターノイブの欧州委員会への書簡、EU-米国間のデータプライバシーフレームワーク。 ) は、EU-US 間のデータ フローの決定において 1 回です。非個人データは自由に流れることができます。
 
 
-🔤 Original: Scientists find molecular-level evidence for two structures in liquid water
+🔤 Original: US Supreme Court Just Blew Up EU-US Data Transfers
 
-🔗 Read more: https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</description>
-      <guid isPermaLink="true">https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html</guid>
-      <pubDate>Mon, 29 Jun 2026 22:18:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48726073</comments>
-    </item>
-    <item>
-      <title>韓国、メモリチップの増産と人型ロボットに1兆ドルを投じる</title>
-      <link>https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</link>
-      <description>📝 2番目の主力メガプロジェクトには、韓国のハイテク企業SKグループ、GSグループ、ネイバーによる3,570億ドルの投資が含まれており、西部の忠清南道、東部の江原道、韓国南西部の全羅北道と南道を含む辺境の州に大規模なAIデータセンターを建設する。韓国の自動車メーカーはすでに、2021年に買収した米国のロボット企業ボストン・ダイナミクスが、2028年までに毎年3万台のアトラス人型ロボットを生産する製造規模の拡大に韓国のサプライチェーンを利用するのを支援している。しかし、韓国の労働者は、より多くのロボットと競争できるという見通しについて、それほど楽観的ではないと感じている。
-
-
-🔤 Original: South Korea to spend $1T on more memory chip production and humanoid robots
-
-🔗 Read more: https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</description>
-      <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/</guid>
-      <pubDate>Mon, 29 Jun 2026 22:21:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48726102</comments>
-    </item>
-    <item>
-      <title>オープン メモリ プロトコル – Claude、ChatGPT、Curso 用の 1 つのメモリ ストア</title>
-      <link>https://github.com/SMJAI/open-memory-protocol</link>
-      <description>📝 ChatGPT はあなたの好みを学習しました。あなたのカスタムエージェントはそうではありません。仕組み: ChatGPT で何でもチャットできます。 この拡張機能は、2 分ごとに会話を OMP サーバーにサイレントに保存します。 クロードを開きます。
-
-
-🔤 Original: Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso
-
-🔗 Read more: https://github.com/SMJAI/open-memory-protocol</description>
-      <guid isPermaLink="true">https://github.com/SMJAI/open-memory-protocol</guid>
-      <pubDate>Tue, 30 Jun 2026 00:05:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48726966</comments>
+🔗 Read more: https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers</description>
+      <guid isPermaLink="true">https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers</guid>
+      <pubDate>Tue, 30 Jun 2026 05:17:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48728740</comments>
     </item>
   </channel>
 </rss>
