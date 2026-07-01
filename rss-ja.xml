@@ -6,125 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 30 Jun 2026 22:17:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 03:46:33 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Meta の脳スキャン システムは非侵襲的に文章を読み取り、コードはオープンソース</title>
-      <link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1</link>
-      <description>📝 今、私たちは次のステップを共有しています。Brain2Qwerty v2 は、非侵襲的な脳記録からリアルタイムで文をデコードできる最高パフォーマンスのエンドツーエンド パイプラインで、以前は脳外科手術を必要とする技術しか使用できなかったレベルの精度に近づきます。結果: Brain2Qwerty v2 は、ノイズの多いニューラル入力から文章を一貫して復元し、単語精度 61% を達成し、他の非侵襲的手法の単語精度 8% を大幅に改善しました。また、デコード精度がデータ量に応じて対数線形に向上することもわかり、外科的アプローチとの残りのパフォーマンスギャップがデータスケーリングだけでさらに縮小できる可能性があることを示唆しています。
+      <title>Google copybara: リポジトリ間でコードを移動する</title>
+      <link>https://github.com/google/copybara</link>
+      <description>📝 Copybara の使用例には以下が含まれます。 機密リポジトリからパブリック リポジトリにコードのセクションをインポートします。パブリック リポジトリから機密リポジトリにコードをインポートします。権限のないリポジトリから権限のあるリポジトリに変更をインポートします。
 
 
-🔤 Original: Meta's brain-scanning system reads sentences non-invasively, code open source
+🔤 Original: Google copybara: moving code between repositories
 
-🔗 Read more: https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1</description>
-      <guid isPermaLink="true">https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1</guid>
-      <pubDate>Tue, 30 Jun 2026 21:29:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48739466</comments>
+🔗 Read more: https://github.com/google/copybara</description>
+      <guid isPermaLink="true">https://github.com/google/copybara</guid>
+      <pubDate>Tue, 30 Jun 2026 23:45:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48740698</comments>
     </item>
     <item>
-      <title>Kubernetesをブラウザに移植してみた</title>
-      <link>https://ngrok.com/blog/i-ported-kubernetes-to-the-browser</link>
-      <description>📝 3 つの Kubernetes ノードにわたるデプロイメントから 3 つのポッド間を移動する HTTP リクエストを示す対話型 Webbernetes デモ。 Webernetes は、インタラクティブな Kubernetes コンテンツを作成するために使用することを目的としています。これは本番環境に対応した Kubernetes ディストリビューションではありません。 webernetes のコードのほとんどは、Kubernetes Go コードベースから移植されています。
+      <title>Julia から Rust へ: 科学計算用の微分可能なテンソル スタック</title>
+      <link>https://tensor4all.org/blog/introducing-tenferro-rs/</link>
+      <description>📝 これにより、すぐに 2 つ目の問題が明らかになりました。それがtenferro-rsの目的です。 Rust を使用すると、その心配は著しく軽減されます。
 
 
-🔤 Original: I ported Kubernetes to the browser
+🔤 Original: From Julia to Rust: a differentiable tensor stack for scientific computing
 
-🔗 Read more: https://ngrok.com/blog/i-ported-kubernetes-to-the-browser</description>
-      <guid isPermaLink="true">https://ngrok.com/blog/i-ported-kubernetes-to-the-browser</guid>
-      <pubDate>Tue, 30 Jun 2026 20:48:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48738985</comments>
+🔗 Read more: https://tensor4all.org/blog/introducing-tenferro-rs/</description>
+      <guid isPermaLink="true">https://tensor4all.org/blog/introducing-tenferro-rs/</guid>
+      <pubDate>Tue, 30 Jun 2026 13:49:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48732741</comments>
     </item>
     <item>
-      <title>Show HN: 私の 13 歳の子供はアリのコロニー追跡装置を作りました</title>
-      <link>https://formicarium.es</link>
-      <description>📝 データを永久に保存するために作成します。直接入力するか、無料アカウントを作成してデータを永久に保存します。アカウントなしで参加する無料アカウントを作成します。
+      <title>商務省はクロード・ファブル5とミトス5の輸出規制を解除した</title>
+      <link>https://twitter.com/AnthropicAI/status/2072106151890809341</link>
+      <description>📝 Anthropic@AnthropicAI商務省が Claude Fable 5 と Mythos 5 の輸出規制を解除したという通知を受け取りました。明日からアクセスの回復を開始し、すぐに最新情報を共有する予定です。辛抱強く待ってくださったユーザーの皆様、そしてモデルの再デプロイに協力してくださった皆様に感謝いたします。
 
 
-🔤 Original: Show HN: My 13-year-old built an ant colony tracker
+🔤 Original: Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5
 
-🔗 Read more: https://formicarium.es</description>
-      <guid isPermaLink="true">https://formicarium.es</guid>
-      <pubDate>Tue, 30 Jun 2026 16:48:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48735446</comments>
+🔗 Read more: https://twitter.com/AnthropicAI/status/2072106151890809341</description>
+      <guid isPermaLink="true">https://twitter.com/AnthropicAI/status/2072106151890809341</guid>
+      <pubDate>Tue, 30 Jun 2026 23:55:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48740771</comments>
     </item>
     <item>
-      <title>今週コンピュータを再起動しましたか?</title>
-      <link>https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html</link>
-      <description>📝 本当にばかばかしいことです。私は少し変わっているのかもしれませんが、「保存されていない作業があります。今週再開しましたか？」という警告が表示されるのが好きです。
+      <title>フォレスティエール地下庭園</title>
+      <link>https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens</link>
+      <description>📝 その後フォレスティエール氏は、天窓のある地下室で木を育てる実験を始めたところ、注意深く育てれば木はよく育ち、地下にあることで霜から守られることがわかった。デザイン[編集] 通りからの別の眺め フォレスティエール地下庭園には 65 室の部屋があります。描写[編集] フォレスティエール地下庭園の柑橘類の木 T.
 
 
-🔤 Original: Have you restarted your computer this week?
+🔤 Original: Forestiere Underground Gardens
 
-🔗 Read more: https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html</description>
-      <guid isPermaLink="true">https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html</guid>
-      <pubDate>Tue, 30 Jun 2026 14:15:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48733043</comments>
+🔗 Read more: https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens</guid>
+      <pubDate>Wed, 01 Jul 2026 01:23:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48741359</comments>
     </item>
     <item>
-      <title>東京には麦茶メーカーが2軒しかないので、麦茶の作り方を見学しに行ってきました</title>
-      <link>https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/</link>
-      <description>📝 暑くなると麦茶がグラスに注がれるようになり、麦茶の作り方に迫ります。しかし、麦茶は本当に大麦から作られています。 ▼上から反時計回りに、生麦、1回焙煎大麦、2度焙煎大麦 茶葉と一緒にではなく、茶葉の代わりに麦茶を淹れるのが、この2度焙煎大麦です。
+      <title>リーンストラル 1.5</title>
+      <link>https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06</link>
+      <description>📝 5自動化された定理証明と自動形式化のために最適化された更新されたリーン 4 形式証明エンジニアリング モデル。合計パラメータ 119B、6. labs-leanstral-1-5SpeedPerformanceModalitiesContexti256kPricei$0SpeedPerformanceModalitiesContext256kPrice$0FEATURESWEIGHTS特徴チャット完了/v1/チャット/完了関数呼び出し/v1/チャット/完了/v1/会話エージェント &amp; Conversations/v1/agents/v1/conversations組み込みツール/v1/agents/v1/conversations構造化出力/v1/chat/completions/v1/conversations予測出力/v1/chat/completions/v1/conversationsPrefix/v1/chat/completions/v1/conversationsOCR/v1/ocrAnnotations - Structured/v1/ocrBBox Extraction/v1/ocrDocument QnA/v1/chat/completions/v1/conversationsFIM/v1/fim/completionsEmbeddings/v1/embeddingsModerations/v1/moderationsChat Moderations/v1/chat/moderationsTranscriptions/v1/audio/transcriptionsText to Speech/v1/audio/speechTimestamps/v1/audio/transcriptionsBatching/v1/batchその他のモデルその他のモデルMistral Medium 3.
 
 
-🔤 Original: Tokyo has only two barley tea makers, we visited one to see how mugicha is made
+🔤 Original: Leanstral 1.5
 
-🔗 Read more: https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/</description>
-      <guid isPermaLink="true">https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/</guid>
-      <pubDate>Tue, 30 Jun 2026 19:47:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48738262</comments>
+🔗 Read more: https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06</description>
+      <guid isPermaLink="true">https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06</guid>
+      <pubDate>Tue, 30 Jun 2026 20:44:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48738938</comments>
     </item>
     <item>
-      <title>病的: 現代の長寿科学の誤りを暴く</title>
-      <link>https://www.newyorker.com/magazine/2026/07/06/morbid-saul-justin-newman-book-review-eat-your-ice-cream-ezekiel-j-emanuel</link>
-      <description>📝 ニューマンによれば、超百寿者、つまり百十歳を超えて生きる人々がしばしば不健康な習慣を持っている理由は、彼らがまったく超百寿者ではないからだという。 100 人の 40 歳の人が年齢を偽り、公式文書に 50 歳と記載されているとします。
-
-
-🔤 Original: Morbid: Debunking Modern Longevity Science
-
-🔗 Read more: https://www.newyorker.com/magazine/2026/07/06/morbid-saul-justin-newman-book-review-eat-your-ice-cream-ezekiel-j-emanuel</description>
-      <guid isPermaLink="true">https://www.newyorker.com/magazine/2026/07/06/morbid-saul-justin-newman-book-review-eat-your-ice-cream-ezekiel-j-emanuel</guid>
-      <pubDate>Tue, 30 Jun 2026 20:17:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48738606</comments>
+      <title>Hatari – オンライン Atari ST/STE/TT/Falcon エミュレータ</title>
+      <link>https://hatari.frama.io/hatari/online/hatari.html</link>
+      <guid isPermaLink="true">https://hatari.frama.io/hatari/online/hatari.html</guid>
+      <pubDate>Tue, 30 Jun 2026 22:34:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48740135</comments>
     </item>
     <item>
-      <title>ラティスリスクを理解する: マーケティングと現実の多くの違い</title>
-      <link>https://blog.cr.yp.to/20260630-risk.html</link>
-      <description>📝 狭窄のこの部分は、読者なら通常気づくと思います。この言葉がリスク面をさらに狭めていることを何人の読者が理解できるでしょうか。これは、定理によって Kyber のセキュリティ レベルが「根本的な MLWE 問題」のセキュリティ レベルよりも何ビットも低くなることを認めることを表す専門用語です。
+      <title>TabFM: 表形式データのゼロショット基盤モデル</title>
+      <link>https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/</link>
+      <description>📝 今回、同じ「ゼロショット」ロジックを表形式データに導入します。今日は、表形式データの分類と回帰のために特別に設計された基礎モデルである TabFM を紹介します。 TabFM モデルのアーキテクチャ。
 
 
-🔤 Original: Understanding lattice risks: Many differences between marketing and reality
+🔤 Original: TabFM: A zero-shot foundation model for tabular data
 
-🔗 Read more: https://blog.cr.yp.to/20260630-risk.html</description>
-      <guid isPermaLink="true">https://blog.cr.yp.to/20260630-risk.html</guid>
-      <pubDate>Tue, 30 Jun 2026 21:29:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48739467</comments>
+🔗 Read more: https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/</description>
+      <guid isPermaLink="true">https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/</guid>
+      <pubDate>Tue, 30 Jun 2026 22:08:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48739919</comments>
     </item>
     <item>
-      <title>アマゾンの出品者が闇の贈収賄市場の片鱗を明らかに</title>
-      <link>https://www.latimes.com/business/story/2026-06-30/shadow-bribery-market-inside-amazon-preys-on-desperate-sellers</link>
-      <description>📝 印刷 12 月、オンライン販売者の Jack Nekhala 氏が Amazon と連絡を取りました。緊急メッセージ付き。しかし、ネカラさんは返事がなかったと語った。
+      <title>超音速飛行、半世紀の禁止を経て米国に帰還</title>
+      <link>https://www.forbes.com/sites/suzannerowankelleher/2026/06/30/faa-supersonic-flight-no-boom/</link>
+      <description>📝 破壊的なソニックブームを防ぐために土地を設置します。 「なぜ飛行機は陸上上空を超音速で飛行することが禁止されたのか。現在、どの企業が超音速飛行機を開発しているのか。
 
 
-🔤 Original: Amazon seller reveals glimpse of shadow bribery market
+🔤 Original: Supersonic flight returning to US after half-century ban
 
-🔗 Read more: https://www.latimes.com/business/story/2026-06-30/shadow-bribery-market-inside-amazon-preys-on-desperate-sellers</description>
-      <guid isPermaLink="true">https://www.latimes.com/business/story/2026-06-30/shadow-bribery-market-inside-amazon-preys-on-desperate-sellers</guid>
-      <pubDate>Tue, 30 Jun 2026 18:12:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48736839</comments>
-    </item>
-    <item>
-      <title>スーパーパワーズ 6</title>
-      <link>https://blog.fsck.com/2026/06/15/Superpowers-6/</link>
-      <description>📝 Superpowers ユーザーから最もよく聞かれる嘆きが、トークンが高価で Superpowers がトークンを大量に使用するというものであることは周知の事実です。 Superpowers のビルドに時間がかかり、コストが高くなる理由の多くは、Superpowers が多くのユーザーに良い結果をもたらす理由と同じです。しかし、遅くて高価であることを私は決して嬉しく思いませんでした。
-
-
-🔤 Original: Superpowers 6
-
-🔗 Read more: https://blog.fsck.com/2026/06/15/Superpowers-6/</description>
-      <guid isPermaLink="true">https://blog.fsck.com/2026/06/15/Superpowers-6/</guid>
-      <pubDate>Tue, 30 Jun 2026 21:28:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48739459</comments>
+🔗 Read more: https://www.forbes.com/sites/suzannerowankelleher/2026/06/30/faa-supersonic-flight-no-boom/</description>
+      <guid isPermaLink="true">https://www.forbes.com/sites/suzannerowankelleher/2026/06/30/faa-supersonic-flight-no-boom/</guid>
+      <pubDate>Wed, 01 Jul 2026 02:26:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48741654</comments>
     </item>
   </channel>
 </rss>

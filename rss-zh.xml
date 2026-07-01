@@ -6,125 +6,106 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 30 Jun 2026 22:17:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 03:46:33 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Meta大脑扫描系统无创读取句子，代码开源</title>
-      <link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1</link>
-      <description>📝 现在我们正在分享下一步：Brain2Qwerty v2，这是性能最高的端到端管道，能够从非侵入性大脑记录中进行实时句子解码，接近以前需要脑部手术的技术独有的准确性水平。结果：Brain2Qwerty v2 从嘈杂的神经输入中连贯地恢复句子，实现了 61% 的单词准确率，显着提高了其他非侵入性方法 8% 的单词准确率。我们还发现解码精度随数据量呈对数线性提高，这表明与手术方法的剩余性能差距可以仅通过数据缩放进一步缩小。
+      <title>Google copybara：在存储库之间移动代码</title>
+      <link>https://github.com/google/copybara</link>
+      <description>📝 Copybara 的示例用途包括： 将代码部分从机密存储库导入到公共存储库。将代码从公共存储库导入到机密存储库。将更改从非权威存储库导入到权威存储库。
 
 
-🔤 Original: Meta's brain-scanning system reads sentences non-invasively, code open source
+🔤 Original: Google copybara: moving code between repositories
 
-🔗 Read more: https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1</description>
-      <guid isPermaLink="true">https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1</guid>
-      <pubDate>Tue, 30 Jun 2026 21:29:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48739466</comments>
+🔗 Read more: https://github.com/google/copybara</description>
+      <guid isPermaLink="true">https://github.com/google/copybara</guid>
+      <pubDate>Tue, 30 Jun 2026 23:45:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48740698</comments>
     </item>
     <item>
-      <title>我将 Kubernetes 移植到浏览器</title>
-      <link>https://ngrok.com/blog/i-ported-kubernetes-to-the-browser</link>
-      <description>📝 交互式 Webernetes 演示显示 HTTP 请求在跨三个 Kubernetes 节点的 Deployment 的三个 Pod 之间移动。 Webernetes 旨在用于制作交互式 Kubernetes 内容；它不是一个生产就绪的 Kubernetes 发行版。 webernetes 中的大部分代码都是从 Kubernetes Go 代码库移植的。
+      <title>从 Julia 到 Rust：用于科学计算的可微分张量堆栈</title>
+      <link>https://tensor4all.org/blog/introducing-tenferro-rs/</link>
+      <description>📝 这立即暴露了第二个问题。这就是 tenferro-rs 的用途。有了 Rust，这种担忧明显减少了。
 
 
-🔤 Original: I ported Kubernetes to the browser
+🔤 Original: From Julia to Rust: a differentiable tensor stack for scientific computing
 
-🔗 Read more: https://ngrok.com/blog/i-ported-kubernetes-to-the-browser</description>
-      <guid isPermaLink="true">https://ngrok.com/blog/i-ported-kubernetes-to-the-browser</guid>
-      <pubDate>Tue, 30 Jun 2026 20:48:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48738985</comments>
+🔗 Read more: https://tensor4all.org/blog/introducing-tenferro-rs/</description>
+      <guid isPermaLink="true">https://tensor4all.org/blog/introducing-tenferro-rs/</guid>
+      <pubDate>Tue, 30 Jun 2026 13:49:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48732741</comments>
     </item>
     <item>
-      <title>Show HN：我 13 岁的孩子建造了一个蚁群追踪器</title>
-      <link>https://formicarium.es</link>
-      <description>📝 创建一个来永久保存您的数据。直接输入或创建您的免费帐户以永久保存您的数据。无需帐户即可输入创建免费帐户。
+      <title>美国商务部取消了《克劳德寓言5》和《神话5》的出口管制</title>
+      <link>https://twitter.com/AnthropicAI/status/2072106151890809341</link>
+      <description>📝 Anthropic@AnthropicAI我们收到通知，美国商务部已取消对《克劳德寓言 5》和《神话 5》的出口管制。我们将于明天开始恢复访问，并很快分享最新消息。我们感谢用户的耐心，以及与我们一起重新部署模型的每个人。
 
 
-🔤 Original: Show HN: My 13-year-old built an ant colony tracker
+🔤 Original: Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5
 
-🔗 Read more: https://formicarium.es</description>
-      <guid isPermaLink="true">https://formicarium.es</guid>
-      <pubDate>Tue, 30 Jun 2026 16:48:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48735446</comments>
+🔗 Read more: https://twitter.com/AnthropicAI/status/2072106151890809341</description>
+      <guid isPermaLink="true">https://twitter.com/AnthropicAI/status/2072106151890809341</guid>
+      <pubDate>Tue, 30 Jun 2026 23:55:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48740771</comments>
     </item>
     <item>
-      <title>这周你重启电脑了吗？</title>
-      <link>https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html</link>
-      <description>📝 这确实是一件愚蠢的事情。也许我有点奇怪，但我喜欢看到所有这些警告：“你有未保存的工作。你这周重新启动了吗？”
+      <title>福雷斯蒂耶雷地下花园</title>
+      <link>https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens</link>
+      <description>📝 随后，福雷斯蒂埃开始尝试在带有天窗的地下房间里种植树木，发现只要细心照料，它们就能长得很好，而且在地下可以保护它们免受霜冻。设计[编辑] 街道上的另一种景色 Forestiere地下花园有65个房间。描述[编辑] Forestiere 地下花园的柑橘树 T.
 
 
-🔤 Original: Have you restarted your computer this week?
+🔤 Original: Forestiere Underground Gardens
 
-🔗 Read more: https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html</description>
-      <guid isPermaLink="true">https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html</guid>
-      <pubDate>Tue, 30 Jun 2026 14:15:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48733043</comments>
+🔗 Read more: https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens</guid>
+      <pubDate>Wed, 01 Jul 2026 01:23:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48741359</comments>
     </item>
     <item>
-      <title>东京只有两台大麦茶机，我们参观了其中一台，看看麦茶是如何制作的</title>
-      <link>https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/</link>
-      <description>📝 随着天气变暖，大麦茶被倒入玻璃杯中，我们来了解一下大麦茶的制作过程。然而，大麦茶确实是由大麦制成的。 ▼ 从上往下逆时针：生麦、一次烘焙、二次烘焙的大麦 这些二次烘焙的大麦粒，不是与茶叶一起冲泡，而是代替茶叶来冲泡。
+      <title>倾斜1.5</title>
+      <link>https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06</link>
+      <description>📝 5更新的 Lean 4 形式证明工程模型，针对自动定理证明和自动形式化进行了优化。 119B 总参数，6. labs-leanstral-1-5SpeedPerformanceModalitiesContexti256kPricei$0SpeedPerformanceModalitiesContext256kPrice$0FEATURESWEIGHTSFeaturesChat Completions/v1/chat/completionsFunction Calling/v1/chat/completions/v1/conversationsAgents &amp;对话/v1/agents/v1/conversations内置工具/v1/agents/v1/conversations结构化输出/v1/chat/completions/v1/conversations预测输出/v1/chat/completions/v1/conversationsPrefix/v1/chat/completions/v1/conversationsOCR/v1/ocrAnnotations -结构化/v1/ocrBBox 提取/v1/ocrDocument QnA/v1/chat/completions/v1/conversationsFIM/v1/fim/completionsEmbeddings/v1/embeddingsModerations/v1/moderationsChat Moderations/v1/chat/moderationsTranscriptions/v1/audio/transcriptionsText to Speech/v1/audio/speechTimestamps/v1/audio/transcriptionsBatching/v1/batch其他型号其他型号Mistral Medium 3。
 
 
-🔤 Original: Tokyo has only two barley tea makers, we visited one to see how mugicha is made
+🔤 Original: Leanstral 1.5
 
-🔗 Read more: https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/</description>
-      <guid isPermaLink="true">https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/</guid>
-      <pubDate>Tue, 30 Jun 2026 19:47:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48738262</comments>
+🔗 Read more: https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06</description>
+      <guid isPermaLink="true">https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06</guid>
+      <pubDate>Tue, 30 Jun 2026 20:44:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48738938</comments>
     </item>
     <item>
-      <title>病态：揭穿现代长寿科学</title>
-      <link>https://www.newyorker.com/magazine/2026/07/06/morbid-saul-justin-newman-book-review-eat-your-ice-cream-ezekiel-j-emanuel</link>
-      <description>📝 然而他们的结论是“没有发现严重的不一致。”纽曼认为，超级百岁老人（活过一百一十岁的人）经常有不健康习惯的原因是他们根本不是超级百岁老人。假设有一百四十岁的人伪造了自己的年龄，以便在官方文件上将他们列为五十岁。
-
-
-🔤 Original: Morbid: Debunking Modern Longevity Science
-
-🔗 Read more: https://www.newyorker.com/magazine/2026/07/06/morbid-saul-justin-newman-book-review-eat-your-ice-cream-ezekiel-j-emanuel</description>
-      <guid isPermaLink="true">https://www.newyorker.com/magazine/2026/07/06/morbid-saul-justin-newman-book-review-eat-your-ice-cream-ezekiel-j-emanuel</guid>
-      <pubDate>Tue, 30 Jun 2026 20:17:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48738606</comments>
+      <title>Hatari – 在线 Atari ST/STE/TT/Falcon 模拟器</title>
+      <link>https://hatari.frama.io/hatari/online/hatari.html</link>
+      <guid isPermaLink="true">https://hatari.frama.io/hatari/online/hatari.html</guid>
+      <pubDate>Tue, 30 Jun 2026 22:34:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48740135</comments>
     </item>
     <item>
-      <title>了解晶格风险：营销与现实之间的许多差异</title>
-      <link>https://blog.cr.yp.to/20260630-risk.html</link>
-      <description>📝 我认为读者通常会注意到这部分的缩小。有多少读者会意识到，这个词是风险面的又一次缩小。这是承认该定理允许 Kyber 的安全级别比“底层 MLWE 问题”的安全级别低很多位的行话。
+      <title>TabFM：表格数据的零样本基础模型</title>
+      <link>https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/</link>
+      <description>📝 现在，我们将相同的“零样本”逻辑引入表格数据。今天，我们介绍 TabFM，一个专门为表格数据分类和回归设计的基础模型。 TabFM 模型架构。
 
 
-🔤 Original: Understanding lattice risks: Many differences between marketing and reality
+🔤 Original: TabFM: A zero-shot foundation model for tabular data
 
-🔗 Read more: https://blog.cr.yp.to/20260630-risk.html</description>
-      <guid isPermaLink="true">https://blog.cr.yp.to/20260630-risk.html</guid>
-      <pubDate>Tue, 30 Jun 2026 21:29:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48739467</comments>
+🔗 Read more: https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/</description>
+      <guid isPermaLink="true">https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/</guid>
+      <pubDate>Tue, 30 Jun 2026 22:08:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48739919</comments>
     </item>
     <item>
-      <title>亚马逊卖家透露影子贿赂市场一瞥</title>
-      <link>https://www.latimes.com/business/story/2026-06-30/shadow-bribery-market-inside-amazon-preys-on-desperate-sellers</link>
-      <description>📝 打印 12 月，在线商家 Jack Nekhala 与亚马逊取得了联系。并附有一条紧急消息。但内卡拉表示他从未收到过回复。
+      <title>超音速飞机在半个世纪的禁令后返回美国</title>
+      <link>https://www.forbes.com/sites/suzannerowankelleher/2026/06/30/faa-supersonic-flight-no-boom/</link>
+      <description>📝 着陆以防止破坏性音爆。 “为什么飞机在陆地上空飞行时被禁止以超音速飞行。当今有哪些公司正在开发超音速飞机。
 
 
-🔤 Original: Amazon seller reveals glimpse of shadow bribery market
+🔤 Original: Supersonic flight returning to US after half-century ban
 
-🔗 Read more: https://www.latimes.com/business/story/2026-06-30/shadow-bribery-market-inside-amazon-preys-on-desperate-sellers</description>
-      <guid isPermaLink="true">https://www.latimes.com/business/story/2026-06-30/shadow-bribery-market-inside-amazon-preys-on-desperate-sellers</guid>
-      <pubDate>Tue, 30 Jun 2026 18:12:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48736839</comments>
-    </item>
-    <item>
-      <title>超能力6</title>
-      <link>https://blog.fsck.com/2026/06/15/Superpowers-6/</link>
-      <description>📝 众所周知，我们从 Superpowers 用户那里听到的最常见的哀叹是代币价格昂贵，而 Superpowers 使用了大量代币。 Superpowers 的构建时间更长且成本更高的许多原因与它为如此多的用户提供良好结果的原因相同。但它的缓慢和昂贵从来没有让我感到高兴。
-
-
-🔤 Original: Superpowers 6
-
-🔗 Read more: https://blog.fsck.com/2026/06/15/Superpowers-6/</description>
-      <guid isPermaLink="true">https://blog.fsck.com/2026/06/15/Superpowers-6/</guid>
-      <pubDate>Tue, 30 Jun 2026 21:28:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48739459</comments>
+🔗 Read more: https://www.forbes.com/sites/suzannerowankelleher/2026/06/30/faa-supersonic-flight-no-boom/</description>
+      <guid isPermaLink="true">https://www.forbes.com/sites/suzannerowankelleher/2026/06/30/faa-supersonic-flight-no-boom/</guid>
+      <pubDate>Wed, 01 Jul 2026 02:26:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48741654</comments>
     </item>
   </channel>
 </rss>
