@@ -6,21 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:27:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:04:37 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>GitLost: GitHub의 AI 에이전트를 속여 개인 저장소를 유출했습니다.</title>
-      <link>https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</link>
-      <description>📝 mp4 소개 GitHub는 최근 GitHub Actions(저장소 이벤트에 대한 응답으로 작업을 실행하는 GitHub의 자동화 시스템)를 Claude 또는 GitHub Copilot이 지원하는 AI 에이전트와 결합하는 GitHub Agentic Workflows를 출시했습니다. GitHub 에이전트 워크플로란 무엇입니까? GitHub Agentic Workflows를 사용하면 팀이 자연어를 사용하여 코드 저장소와의 상호 작용을 자동화할 수 있습니다.
+      <title>Uniqlo 티셔츠의 난독화된 bash 스크립트 디코딩</title>
+      <link>https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</link>
+      <description>📝 OCR은 번거로웠다좋은 소식과 나쁜 소식이 있었습니다. 나쁜 소식은 base64에 오류 수정 기능이 없으므로 전사가 완벽해야 한다는 것입니다. , 컴파일할 수 없는 더 넓은 텍스트 블록에서 잘린 부분입니다. 결과 문자열은 다음과 같습니다. IyEvYmluL2Jhc2gKCiMgQ29uZ3JhdHVsYXRpb25zISBZb3UgZm91bmQgdGhlIGVhc3RlciBlZ2chIOKdpO+4jwojIOOBiuOCgeOBp+OBqOOBhuOBlOOBluOBhOOBvuO Bme+8gemaoOOBleOCjOOBn+OCteODl+ODqeOCpOOCuuOCkuimi+OBpOOBkeOBvuOBl+OBn++8geKdpO+4jwoKIyBEZWZpbmUgdGhlIHRleHQgdG8gYW5pbWF0ZQp0ZXh 0PSLimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9S4pmlQUxM4pmlUEVBQ0XimaVGT1LimaVBTezimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9 S4pmlQUxM4pmlIgoKIyBHZXQgdGVybWluYWwgZGltZW5zaW9ucwpjb2xzPSQodHB1dCBjb2xzKQpsaW5lcz0kKHRwdXQgbGluZXMpCgojIENhbGN1bGF0ZSB0aGUgbGV uZ3RoIG9mIHRoZSB0ZXh0CnRleHRfbGVuZ3RoPSR7I3RleHR9CgojiIEhpZGUgdGhlIGN1cnNvcgp0cHV0IGNpdmlzCgojIFryYXAgQ1RSTCtDIHRvIHNob3cgdGhlIG N1cnNvciBiZWZvcmUgZXhpdGluZwp0cmFwICJ0cHV0IGNub3JtOyBleGl0IiBTSUdJTlQKCiMgU2V0IGZyZXF1ZW5jeSBzY2FsaW5nIGZhY3RvcgpmcmVxPTAuMgoKIy BJbmZpbml0ZSBsb29wIGZvciBjb250aW51b3VzIGFuaW1hdGlvbgpmb3IgKCggdD0wOyA7IHQrPTEgKsk7IGRvCiAgICAjiEV4dHJhY3Qgb25lIGNoYXJhY3RlciBhdC BhIHRpbWUKICAgIGNOYXI9IiR7dGV4dDp0ICUgdGV4dF9sZW5ndGg6MX0iCiAgICAKICAgICMgQ2FsY3VsYXRlIHRoZSBhbmdsZSBpbiByYWRpYW5zCiAgICBhbmdsZT 0kKGVjaG8gIigkdCkgKiAkZnJlcSIgfCBiYyAtbCkKCiAgICAjiENhbGN1bGF0ZSB0aGUgc2luZSBvZiB0aGUgYW5nbGUKICAgIHNpbmVfdmFsdWU9JChlY2hvICJzK CRhbmdsZSkiIHwgYmMgLWwpCgogICAgIyBDYWxjdWxhdGUgeCBwb3NpdGlvbiB1c2luZyB0aGUgc2luZSB2YWx1ZQogICAgeD0kKGVjaG8gIigkY29scyAvidIPICsgK CRjb2xzIC8gNCkgKiAkc2luZV92YWx1ZSIgfCBiYyAtbCkKICAgIHg9JChwcmludGYgIiUuMGYiICIkeCipCgogICAgIyBFbnN1cmUgeCBpcyB3aXRoaW4gdGVybWluY WwgYm91bmRzCiAgICBpZiAoKCB4IDwgMCapKTsgdGhlbiB4PTA7IGZpCiAgICBpZiAoKCB4ID49IGNvbHMgKSk7IHRoZW4geD0kKChjb2xzIC0gMSkpOyBmaQoKICAgI CMgQ2FsY3VsYXRlIGNvbG9yIGdyYWRpZW50IGJldHdlZW4gMTIgKGN5YW4pIGFuZCAyMDggKG9yYW5nZSkKICAgIGNvbG9yX3N0YXJ0PTEyCiAgICBjb2xvcl9lbmQ9 MjA4CiAgICBjb2xvcl9yYW5nZT0kKChjb2xvcl9lbmQgLSBjb2xvcl9zdGFydCkpCiAgICBjb2xvcj0kKChjb2xvcl9zdGFydCArIChjb2xvcl9yYW5nZSAqIHQgLyBs aW5lcykgJSBjb2xvcl9yYW5nZSkpCgogICAgIyBQcmludCB0aGUgY2hhcmFjdGVyIHdpdGggMjU2LWNvbG9yIHN1cHBvcnQKICAgIGVjaG8gLW5lICJcMDMzWzM4OzU7 JHtjb2xvcn1tIiQodHB1dCBjdXAgJHQgJHgpIiRjaGFyXDAzM1swbSIKCiAgICAjIExpbmUgZmVlZCB0byBtb3ZlIGRvd253YXJkCiAgICBlY2hvICIiCgpkb25lCgo= 디코딩된 스크립트Base64 디코딩 후 결과 스크립트는 친절하고 멋진 설명이 포함된 Easter egg:#입니다.
 
 
-🔤 Original: GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos
+🔤 Original: Decoding the obfuscated bash script on a Uniqlo t-shirt
 
-🔗 Read more: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</description>
-      <guid isPermaLink="true">https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</guid>
-      <pubDate>Wed, 08 Jul 2026 05:25:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48827858</comments>
+🔗 Read more: https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</description>
+      <guid isPermaLink="true">https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</guid>
+      <pubDate>Wed, 08 Jul 2026 08:46:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48829312</comments>
+    </item>
+    <item>
+      <title>Geosql: 지리공간 데이터를 위한 Claude/Codex 기술</title>
+      <link>https://github.com/dekart-xyz/geosql</link>
+      <description>📝 Python으로 빠른 시작(대화형 모드): pip install geosql &amp;&amp; geosql 지원되는 에이전트에 직접 설치: geosql install claude geosql install codex geosql install copilot 또는 Claude 코드: /plugin 마켓플레이스 add dekart-xyz/geosql /plugin install geosql geosql 설치 copilot 후 다음과 같은 프롬프트와 함께 VS Code Copilot 또는 Copilot CLI에서 GeoSQL을 사용합니다. /geosql 주요 도로를 따라 EV 충전기 밀도를 표시하고 지도를 렌더링합니다. 지도 렌더링 및 PostGIS 지원을 위한 Dekart GeoSQL은 선택적으로 오픈 소스 Kepler인 Dekart를 사용합니다. 작동 방식 GeoSQL은 지도가 포함된 에이전트 루프를 실행합니다. 벤치마크 GeoSQL은 evals/ 아래에 재현 가능한 평가 제품군과 함께 제공됩니다.
+
+
+🔤 Original: Geosql: A Claude/Codex skill for geospatial data
+
+🔗 Read more: https://github.com/dekart-xyz/geosql</description>
+      <guid isPermaLink="true">https://github.com/dekart-xyz/geosql</guid>
+      <pubDate>Wed, 08 Jul 2026 08:37:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48829242</comments>
     </item>
   </channel>
 </rss>

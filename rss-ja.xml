@@ -6,21 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:27:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:04:37 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>GitLost: GitHub の AI エージェントをだましてプライベート リポジトリを漏洩させた</title>
-      <link>https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</link>
-      <description>📝 mp4 はじめに GitHub は最近、GitHub Agentic Workflows を開始しました。これは、GitHub Actions (リポジトリ イベントに応答してタスクを実行する GitHub の自動化システム) と、Claude または GitHub Copilot が支援する AI エージェントを組み合わせたものです。 GitHub エージェントティック ワークフローとは何ですか。 GitHub Agentic Workflow を使用すると、チームは自然言語を使用してコード リポジトリとのやり取りを自動化できます。
+      <title>ユニクロ T シャツの難読化された bash スクリプトを解読する</title>
+      <link>https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</link>
+      <description>📝 OCR は面倒だった良いニュースと悪いニュースがありました。悪いニュースは、base64 にはエラー修正機能がないということで、つまり、転写が完璧である必要があるということです。 、コンパイルできない幅の広いテキスト ブロックから切り詰められたものです。結果の文字列は次のようになりました。 IyEvYmluL2Jhc2gKCiMgQ29uZ3JhdHVsYXRpb25zISBZb3UgZm91bmQgdGhlIGVhc3RlciBlZ2chIOKdpO+4jwojIOOBiuOCgeOBp+OBqOOBhuOBLOOBluOBhOOBvuO Bme+8gemaoOOBleOCjOOBn+OCteODl+ODqeOCpOOCuuOCkuimi+OBpOOBkeOBvuOBl+OBn++8geKdpO+4jwoKiyBEZWZpbmUgdGhlIHRleHQgdG8gYW5pbWF0ZQp0ZXh 0PSLimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9S4pmlQUxM4pmlUEVBQ0XimaVGT1LimaVBTEzimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9 S4pmlQUxM4pmlIgoKIyBHZXQgdGVybWluYWwgZGltZW5zaW9ucwpjb2xzPSQodHB1dCBjb2xzKQpsaW5lcz0kKHRwdXQgbGluZXMpCgojIENhbGN1bGF0ZSB0aGUgbGV uZ3RoIG9mIHRoZSB0ZXh0CnRleHRfbGVuZ3RoPSR7I3RleHR9CgojIEhpZGUgdGhlIGN1cnNvcgp0cHV0IGNpdmlzCgojIFRYYXAgQ1RSTCtDIHRvIHNob3cgdGhlIG N1cnNvciBiZWZvcmUgZXhpdGluZwp0cmFwICJ0cHV0IGNub3JtOyBleGl0IiBTSUdJTlQKCiMgU2V0IGZyZXF1ZW5jeSBzY2FsaW5nIGZhY3RvcgpmcmVxPTAumgoKIy BJbmZpbml0ZSBsb29wIGZvciBjb250aW51b3VzIGFuaW1hdGlvbgpmb3IgKCggdD0wOyA7IHQrPTEgKSk7IGRvCiAgICAjIEV4dHJhY3Qgb25LIIGNoYXJhY3RlciBhdC BhIHRpbWUKICAgIGIGNoYXI9IiR7dGV4dDp0ICUgdGV4dF9sZW5ndGg6MX0iCiAgICAKICAgICMgQ2FsY3VsYXRlIHRoZSBhbmdsZSBpbiByYWRpYW5zCiagICBhbmdsZT 0kKGVjaG8gIigkdCkgKiakZnJlcSIgfCBiYyAtbCkKCiAgICAjiENhbGN1bGF0ZSB0aGUgc2luZSBvZiB0aGUgYW5nbGUKICAgIHNpbmVfdmFsdWU9JChlLY2hvICJzK CRhbmdsZSkiIHwgYmMgLWwpCgogICAgiyBDYWxjdWxhdGUgeCBwb3NpdGlvbiB1c2luZyB0aGUgc2luZSB2YWx1ZQogICageD0kKGVjaG8gIigkY29scyAvidipICsgK CRjb2xzIC8gNCkgKiAkc2luZV92YWx1ZSIgfCBiYyAtbCkKICAgIHg9JChwcmludGYgiiUumGYiICikeCIpCgogICAgIyBFbnN1cmUgeCBpcyB3aXRoaW4gdGVybWluY WwgYm91bmRzCiAgICBpZiaoKCB4IDwgMCAPTsgdGhlbiB4PTA7IGZpCiagICBpZiaoKCB4ID49IGNvbHMgKSk7IHRoZW4geD0kKChjb2xzIC0gMSkpOyBmaQoKICAgi CMgQ2FsY3VsYXRlIGNvbG9yIGdyYWRpZW50IGJldHdlZW4gMTIgKGN5YW4pIGFuZCAyMDggKG9yYW5nZSkKICAgIGNvbG9yX3N0YXJ0PTEyCiAgICBjb2xvcl9lbmQ9 Mja4CiagICBjb2xvcl9yYW5nZT0kKChjb2xvcl9lbmQgLSBjb2xvcl9zdGFydCkpCiAgICBjb2xvcj0kKChjb2xvcl9zdGFydCARIChjb2xvcl9yYW5nZSAqIHQgLyBs aW5lcykgJSBjb2xvcl9yYW5nZSkpCgogICAgIyBQcmludCB0aGUgY2hhcmFjdGVyIHdpdGggMjU2LWNvbG9yIHN1cHBvcnQKICAgIGVjaG8gLW5licJcMDMzWzM4OzU7 JHtjb2xvcn1tIiQodHB1dCBjdXAgJHQgJHgpIiRjaGFyXDAzM1swbSIKCiAgICAjIExpbmUgZmVlZCB0byBtb3ZlIGRvd253YXJkCiAgICBly2hvICIiCgpkb25lCgo=デコードされたスクリプト Base64 デコード後のスクリプトは、歓迎的で素敵なコメントが付けられたイースターエッグ:# になります。
 
 
-🔤 Original: GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos
+🔤 Original: Decoding the obfuscated bash script on a Uniqlo t-shirt
 
-🔗 Read more: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</description>
-      <guid isPermaLink="true">https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</guid>
-      <pubDate>Wed, 08 Jul 2026 05:25:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48827858</comments>
+🔗 Read more: https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</description>
+      <guid isPermaLink="true">https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</guid>
+      <pubDate>Wed, 08 Jul 2026 08:46:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48829312</comments>
+    </item>
+    <item>
+      <title>Geosql: 地理空間データのクロード/コーデックス スキル</title>
+      <link>https://github.com/dekart-xyz/geosql</link>
+      <description>📝 Python によるクイック スタート (対話モード): pip install geosql &amp;&amp; geosql サポートされているエージェントに直接インストールします: geosql install claude geosql install codex geosql install copilot または Claude Code で: /plugin Marketplace add dekart-xyz/geosql /plugin install geosql geosql install copilot 後、次のようなプロンプトを表示して VS Code Copilot または Copilot CLI から GeoSQL を使用します。 /geosql 主要道路に沿った EV 充電器の密度を表示し、地図をレンダリングします。 地図レンダリングと PostGIS サポートのために Dekart をインストールします。 GeoSQL はオプションで、オープンソースの Kepler である Dekart を使用します。仕組み GeoSQL は、マップを含むエージェント ループを実行します。ベンチマーク GeoSQL には、 evals/ の下に再現可能な eval スイートが付属しています。
+
+
+🔤 Original: Geosql: A Claude/Codex skill for geospatial data
+
+🔗 Read more: https://github.com/dekart-xyz/geosql</description>
+      <guid isPermaLink="true">https://github.com/dekart-xyz/geosql</guid>
+      <pubDate>Wed, 08 Jul 2026 08:37:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48829242</comments>
     </item>
   </channel>
 </rss>
