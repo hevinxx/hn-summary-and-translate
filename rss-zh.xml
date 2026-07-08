@@ -6,34 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:04:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 14:04:39 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>解码优衣库 T 恤上混淆的 bash 脚本</title>
-      <link>https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</link>
-      <description>📝 OCR 很麻烦有好消息也有坏消息：坏消息是 Base64 没有纠错功能，这意味着转录需要完美。 ，从更宽的文本块中截断的裁剪，永远无法编译。结果字符串是： IyEvYmluL2Jhc2gKCiMgQ29uZ3JhdHVsYXRpb25zISBZb3UgZm91bmQgdGhlIGVhc3RlciBlZ2chIOKdpO+4jwojIOOBiuOCgeOBp+OBqOOBhuOBbloOBluOBhoOBvuO BME+8gemaoOOBleOCjOOBn+OCteODl+ODqeOCpOOCuuOCkuimi+OBpOOBkeOBvuOBl+OBn++8geKdpO+4jwoKIyBEZWZpbmUgdGhlIHRleHQgdG8gYW5pbWF0ZQp0ZXh 0PSLimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9S4pmlQUxM4pmlUEVBQ0XimaVGT1LimaVBTEzimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9 S4pmlQUxM4pmlIgoKIyBHZXQgdGVybWluYWwgZGltZW5zaW9ucwpjb2xzPSQodHB1dCBjb2xzKQpsaW5lcz0kKHRwdXQgbGluZXMpCgojIENhbGN1bGF0ZSB0aGUgbGV uZ3RoIG9mIHRoZSB0ZXh0CnRleHRfbGVuZ3RoPSR7I3RleHR9CgojIEhpZGUgdGhlIGN1cnNvcgp0cHV0IGNpdmlzCgojIFRyYXAgQ1RSTCtDIHRvIHNob3cgdGhlIG N1cnNvciBiZWZvcmUgZXhpdGluZwp0cmFwICJ0CHV0IGNub3JtOyBleGl0IiBTSUdJTlQKCiMgU2V0IGZyZXF1ZW5jeSBzY2FsaW5nIGZhY3RvcgpmcmVxPTAUMgoKIy BJbmZpbml0ZSBsb29wIGZvciBjb250aW51b3VzIGFuaW1hdGlvbgpmb3IgKCggdD0wOyA7IHQrPTEgKSk7IGRvCiAgICAjiEV4dHJhY3Qgb25lIGNOYXJhY3RlciBhdC BhIHRpbWUKICAgIGNOYXI9IiR7dGV4dDp0ICUgdGV4dF9sZW5ndGg6MX0iCiAgICAKICAgICMgQ2FsY3VsYXRlIHRoZSBhbmdsZSBpbiByYWRpYW5zCiAgICBhbmdsZT 0kKGVjaG8gIigkdCkgKiAkZnJlcSIgfCBiYyAtbCkKCiAgICAjIENhbGN1bGF0ZSB0aGUgc2luZSBvZiB0aGUgYW5nbGUKICAgIHNpbmVfdmFsdWU9JChlY2hvICJzK CRhbmdsZSkiIHwgYmMgLWwpCgogICAgIyBDYWxjdWxhdGUgeCBwb3NpdGlvbiB1c2luZyB0aGUgc2luZSB2YWx1ZQogICageD0kkGVjaG8gIigkY29scyAvidipICsgK CRjb2xzIC8gNCkgKiAkc2luZV92YWx1ZSIgfCBiYyAtbCkKICAgIHg9JChwcmludGYgIiUumGYiICikeCIpCgogICAgIyBFbnN1cmUgeCBpcyB3aXRoaW4gdGVybWluY WwgYm91bmRzCiAgICBpZiAoKCB4IDwgMCAPKTsgdGhlbiB4PTA7IGZpCiAgICBpZiAoKCB4ID49IGNvbHMgKSk7IHRoZW4geD0kKChjb2xzIC0gMSkpOyBmaQoKICAgI CMgQ2FsY3VsYXRlIGNvbG9yIGdyYWRpZW50IGJldHdlZW4gMTIGKGN5YW4pIGFuZCAyMDggKG9yYW5nZSkKICAgIGNvbG9yX3N0YXJ0PTEyCiAgICBjb2xvcl9lbmQ9 MJA4CiAgICBjb2xvcl9yYW5nZT0kKChjb2xvcl9lbmQgLSBjb2xvcl9zdGFydCkpCiAgICBjb2xvcj0kKChjb2xvcl9zdGFydCARIChjb2xvcl9yYW5nZSAqIHQgLyBs aW5lcykgJSBjb2xvcl9yYW5nZSkpCgogICAgIyBQcmludCB0aGUgY2hhcmFjdGVyIHdpdGggMjU2LWNvbG9yIHN1chHBvcnQKICAgIGVjaG8gLW5lICJcMDMzWzM4OzU7 JHtjb2xvcn1tIiQodHB1dCBjdXAgJHQgJHgpIiRjaGFyXDAzM1swbSIKCiAgICAjIExpbmUgZmVlZCB0byBtb3ZlIGRvd253YXJkCiAgICBlY2hvICIiCgpkb25lCgo=解码后的脚本经过 Base64 解码后，生成的脚本是一个欢迎且注释精美的复活节彩蛋：#。
+      <title>苹果将​​增加与博通的支出，以生产数十亿美元的美国芯片</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</link>
+      <description>📝 新闻稿 2026 年 7 月 8 日 Apple 将增加与 Broadcom 的支出，生产数十亿美元以上的美国芯片 新的多年期协议包括扩建位于科罗拉多州柯林斯堡的工厂 加利福尼亚州库比蒂诺 Apple 今天宣布与 Broadcom 达成新的多年期承诺，为各种 Apple 产品设计和生产定制芯片组件和尖端无线连接技术。这项新协议标志着苹果公司迄今为止最大的 AMP 承诺，将使博通能够以 1 美元的价格扩大和现代化其位于科罗拉多州柯林斯堡的制造工厂。
 
 
-🔤 Original: Decoding the obfuscated bash script on a Uniqlo t-shirt
+🔤 Original: Apple to increase spend with Broadcom to produce billions more U.S. chips
 
-🔗 Read more: https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</description>
-      <guid isPermaLink="true">https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</guid>
-      <pubDate>Wed, 08 Jul 2026 08:46:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48829312</comments>
+🔗 Read more: https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</description>
+      <guid isPermaLink="true">https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</guid>
+      <pubDate>Wed, 08 Jul 2026 11:30:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48830565</comments>
     </item>
     <item>
-      <title>Geosql：地理空间数据的 Claude/Codex 技能</title>
-      <link>https://github.com/dekart-xyz/geosql</link>
-      <description>📝 使用 Python 快速入门（交互模式）： pip install geosql &amp;&amp; geosql 直接安装到受支持的代理中： geosql install claude geosql install codex geosql install copilot 或在 Claude Code 中： /plugin market add dekart-xyz/geosql /plugin install geosql 在 geosql 安装 copilot 后，从 VS Code Copilot 或 Copilot CLI 使用 GeoSQL，提示如下： /geosql 显示沿主要道路的电动汽车充电器密度并渲染地图 安装用于地图渲染和 PostGIS 支持的 Dekart GeoSQL 可以选择使用 Dekart：一个开源 Kepler。工作原理 GeoSQL 运行一个带有地图的代理循环。基准测试 GeoSQL 在 evals/ 下附带了一个可重复的评估套件。
+      <title>用于为公共游泳池供暖的小型数据中心</title>
+      <link>https://www.bbc.com/news/technology-64939558</link>
+      <description>📝 用于加热公共游泳池的小型数据中心2023年3月14日ShareSaveAdd为Google首选Zoe KleinmanTechnology editormark@deepgreen。能源马克·比约恩斯加德 (Mark Bjornsgaard) 表示，他的计划可以为公共游泳池节省数千英镑。洗衣机大小的数据中心产生的热量正被用来为德文郡公共游泳池供暖。该数据中心免费提供给议会运营的中心。
 
 
-🔤 Original: Geosql: A Claude/Codex skill for geospatial data
+🔤 Original: Tiny data centre used to heat public swimming pool
 
-🔗 Read more: https://github.com/dekart-xyz/geosql</description>
-      <guid isPermaLink="true">https://github.com/dekart-xyz/geosql</guid>
-      <pubDate>Wed, 08 Jul 2026 08:37:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48829242</comments>
+🔗 Read more: https://www.bbc.com/news/technology-64939558</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/technology-64939558</guid>
+      <pubDate>Wed, 08 Jul 2026 13:10:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48831499</comments>
+    </item>
+    <item>
+      <title>美国食品和药物管理局拒绝设定食品中 PFAS 限量的请愿书</title>
+      <link>https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food</link>
+      <description>📝 测试发现，单份一些受污染食品中的 Pfa 含量相当于喝了很多杯受污染的水。 PFA 进入食品是因为它常用于杀虫剂、食品包装和用作肥料的污水污泥。一些独立测试发现，蓝莓、羽衣甘蓝和其他富含水分的农产品中 PFA 含量很高，因为这些化学物质会被水吸引。
+
+
+🔤 Original: US Food and Drug Administration rejects petition to set PFAS limits in food
+
+🔗 Read more: https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food</description>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food</guid>
+      <pubDate>Wed, 08 Jul 2026 13:35:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48831785</comments>
     </item>
   </channel>
 </rss>

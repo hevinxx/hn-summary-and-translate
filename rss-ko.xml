@@ -6,34 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:04:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 14:04:39 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Uniqlo 티셔츠의 난독화된 bash 스크립트 디코딩</title>
-      <link>https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</link>
-      <description>📝 OCR은 번거로웠다좋은 소식과 나쁜 소식이 있었습니다. 나쁜 소식은 base64에 오류 수정 기능이 없으므로 전사가 완벽해야 한다는 것입니다. , 컴파일할 수 없는 더 넓은 텍스트 블록에서 잘린 부분입니다. 결과 문자열은 다음과 같습니다. IyEvYmluL2Jhc2gKCiMgQ29uZ3JhdHVsYXRpb25zISBZb3UgZm91bmQgdGhlIGVhc3RlciBlZ2chIOKdpO+4jwojIOOBiuOCgeOBp+OBqOOBhuOBlOOBluOBhOOBvuO Bme+8gemaoOOBleOCjOOBn+OCteODl+ODqeOCpOOCuuOCkuimi+OBpOOBkeOBvuOBl+OBn++8geKdpO+4jwoKIyBEZWZpbmUgdGhlIHRleHQgdG8gYW5pbWF0ZQp0ZXh 0PSLimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9S4pmlQUxM4pmlUEVBQ0XimaVGT1LimaVBTezimaVQRUFDReKZpUZPUuKZpUFMTOKZpVBFQUNF4pmlRk9 S4pmlQUxM4pmlIgoKIyBHZXQgdGVybWluYWwgZGltZW5zaW9ucwpjb2xzPSQodHB1dCBjb2xzKQpsaW5lcz0kKHRwdXQgbGluZXMpCgojIENhbGN1bGF0ZSB0aGUgbGV uZ3RoIG9mIHRoZSB0ZXh0CnRleHRfbGVuZ3RoPSR7I3RleHR9CgojiIEhpZGUgdGhlIGN1cnNvcgp0cHV0IGNpdmlzCgojIFryYXAgQ1RSTCtDIHRvIHNob3cgdGhlIG N1cnNvciBiZWZvcmUgZXhpdGluZwp0cmFwICJ0cHV0IGNub3JtOyBleGl0IiBTSUdJTlQKCiMgU2V0IGZyZXF1ZW5jeSBzY2FsaW5nIGZhY3RvcgpmcmVxPTAuMgoKIy BJbmZpbml0ZSBsb29wIGZvciBjb250aW51b3VzIGFuaW1hdGlvbgpmb3IgKCggdD0wOyA7IHQrPTEgKsk7IGRvCiAgICAjiEV4dHJhY3Qgb25lIGNoYXJhY3RlciBhdC BhIHRpbWUKICAgIGNOYXI9IiR7dGV4dDp0ICUgdGV4dF9sZW5ndGg6MX0iCiAgICAKICAgICMgQ2FsY3VsYXRlIHRoZSBhbmdsZSBpbiByYWRpYW5zCiAgICBhbmdsZT 0kKGVjaG8gIigkdCkgKiAkZnJlcSIgfCBiYyAtbCkKCiAgICAjiENhbGN1bGF0ZSB0aGUgc2luZSBvZiB0aGUgYW5nbGUKICAgIHNpbmVfdmFsdWU9JChlY2hvICJzK CRhbmdsZSkiIHwgYmMgLWwpCgogICAgIyBDYWxjdWxhdGUgeCBwb3NpdGlvbiB1c2luZyB0aGUgc2luZSB2YWx1ZQogICAgeD0kKGVjaG8gIigkY29scyAvidIPICsgK CRjb2xzIC8gNCkgKiAkc2luZV92YWx1ZSIgfCBiYyAtbCkKICAgIHg9JChwcmludGYgIiUuMGYiICIkeCipCgogICAgIyBFbnN1cmUgeCBpcyB3aXRoaW4gdGVybWluY WwgYm91bmRzCiAgICBpZiAoKCB4IDwgMCapKTsgdGhlbiB4PTA7IGZpCiAgICBpZiAoKCB4ID49IGNvbHMgKSk7IHRoZW4geD0kKChjb2xzIC0gMSkpOyBmaQoKICAgI CMgQ2FsY3VsYXRlIGNvbG9yIGdyYWRpZW50IGJldHdlZW4gMTIgKGN5YW4pIGFuZCAyMDggKG9yYW5nZSkKICAgIGNvbG9yX3N0YXJ0PTEyCiAgICBjb2xvcl9lbmQ9 MjA4CiAgICBjb2xvcl9yYW5nZT0kKChjb2xvcl9lbmQgLSBjb2xvcl9zdGFydCkpCiAgICBjb2xvcj0kKChjb2xvcl9zdGFydCArIChjb2xvcl9yYW5nZSAqIHQgLyBs aW5lcykgJSBjb2xvcl9yYW5nZSkpCgogICAgIyBQcmludCB0aGUgY2hhcmFjdGVyIHdpdGggMjU2LWNvbG9yIHN1cHBvcnQKICAgIGVjaG8gLW5lICJcMDMzWzM4OzU7 JHtjb2xvcn1tIiQodHB1dCBjdXAgJHQgJHgpIiRjaGFyXDAzM1swbSIKCiAgICAjIExpbmUgZmVlZCB0byBtb3ZlIGRvd253YXJkCiAgICBlY2hvICIiCgpkb25lCgo= 디코딩된 스크립트Base64 디코딩 후 결과 스크립트는 친절하고 멋진 설명이 포함된 Easter egg:#입니다.
+      <title>Apple, 수십억 개의 미국 칩 생산을 위해 Broadcom과의 지출을 늘릴 예정</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</link>
+      <description>📝 보도 자료 2026년 7월 8일 Apple, 수십억 개의 미국산 칩 생산을 위해 Broadcom과의 지출 확대 새로운 다년 계약에는 캘리포니아주 콜로라도주 포트콜린스의 시설 확장이 포함됨 Apple은 오늘 Broadcom과 함께 광범위한 Apple 제품을 위한 맞춤형 실리콘 부품과 최첨단 무선 연결 기술을 설계 및 생산하겠다는 새로운 다년간의 약속을 발표했습니다. 현재까지 Apple의 최대 AMP 약속을 나타내는 이 새로운 계약을 통해 Broadcom은 1달러를 들여 콜로라도주 포트콜린스에 있는 제조 시설을 확장하고 현대화할 수 있게 되었습니다.
 
 
-🔤 Original: Decoding the obfuscated bash script on a Uniqlo t-shirt
+🔤 Original: Apple to increase spend with Broadcom to produce billions more U.S. chips
 
-🔗 Read more: https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</description>
-      <guid isPermaLink="true">https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/</guid>
-      <pubDate>Wed, 08 Jul 2026 08:46:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48829312</comments>
+🔗 Read more: https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</description>
+      <guid isPermaLink="true">https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</guid>
+      <pubDate>Wed, 08 Jul 2026 11:30:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48830565</comments>
     </item>
     <item>
-      <title>Geosql: 지리공간 데이터를 위한 Claude/Codex 기술</title>
-      <link>https://github.com/dekart-xyz/geosql</link>
-      <description>📝 Python으로 빠른 시작(대화형 모드): pip install geosql &amp;&amp; geosql 지원되는 에이전트에 직접 설치: geosql install claude geosql install codex geosql install copilot 또는 Claude 코드: /plugin 마켓플레이스 add dekart-xyz/geosql /plugin install geosql geosql 설치 copilot 후 다음과 같은 프롬프트와 함께 VS Code Copilot 또는 Copilot CLI에서 GeoSQL을 사용합니다. /geosql 주요 도로를 따라 EV 충전기 밀도를 표시하고 지도를 렌더링합니다. 지도 렌더링 및 PostGIS 지원을 위한 Dekart GeoSQL은 선택적으로 오픈 소스 Kepler인 Dekart를 사용합니다. 작동 방식 GeoSQL은 지도가 포함된 에이전트 루프를 실행합니다. 벤치마크 GeoSQL은 evals/ 아래에 재현 가능한 평가 제품군과 함께 제공됩니다.
+      <title>공공 수영장 난방에 사용되는 작은 데이터 센터</title>
+      <link>https://www.bbc.com/news/technology-64939558</link>
+      <description>📝 공공 수영장 난방에 사용되는 작은 데이터 센터2023년 3월 14일공유저장Google에서 원하는 대로 추가Zoe KleinmanTechnology editormark@deepgreen. 에너지Mark Bjornsgaard는 그의 계획이 공공 수영장을 수천 파운드 절약할 수 있다고 말합니다. 세탁기 크기의 데이터 센터에서 발생하는 열은 데본 공공 수영장을 가열하는 데 사용되고 있습니다. 데이터센터는 시가 운영하는 센터에 무료로 제공됩니다.
 
 
-🔤 Original: Geosql: A Claude/Codex skill for geospatial data
+🔤 Original: Tiny data centre used to heat public swimming pool
 
-🔗 Read more: https://github.com/dekart-xyz/geosql</description>
-      <guid isPermaLink="true">https://github.com/dekart-xyz/geosql</guid>
-      <pubDate>Wed, 08 Jul 2026 08:37:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48829242</comments>
+🔗 Read more: https://www.bbc.com/news/technology-64939558</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/technology-64939558</guid>
+      <pubDate>Wed, 08 Jul 2026 13:10:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48831499</comments>
+    </item>
+    <item>
+      <title>미국 식품의약국(FDA), 식품 내 PFAS 한도 설정 청원 거부</title>
+      <link>https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food</link>
+      <description>📝 테스트 결과 일부 오염된 식품의 1회 제공량에 포함된 Pfas 수준이 오염된 물을 여러 잔 마시는 것과 동일한 것으로 나타났습니다. Pfas는 살충제, 식품 포장 및 비료로 사용되는 하수 슬러지에 일반적으로 사용되기 때문에 식품에 사용됩니다. 일부 독립적인 테스트에서는 블루베리, 케일 및 기타 물이 풍부한 농산물에서 화학 물질이 물에 끌리기 때문에 높은 수준의 Pfa가 발견되었습니다.
+
+
+🔤 Original: US Food and Drug Administration rejects petition to set PFAS limits in food
+
+🔗 Read more: https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food</description>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food</guid>
+      <pubDate>Wed, 08 Jul 2026 13:35:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48831785</comments>
     </item>
   </channel>
 </rss>
