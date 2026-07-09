@@ -6,146 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 19:46:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 22:23:54 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>GPT-5.6</title>
-      <link>https://openai.com/index/gpt-5-6/</link>
-      <description>📝 6: Frontier intelligence that scales with your ambitionMore intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work. On the Artificial Analysis Coding Agent Index, GPT‑5. This lets tool-heavy tasks advance with fewer tokens, fewer model round trips, and less guidance.
+      <title>Show HN: Getting GLM 5.2 running on my slow computer</title>
+      <link>https://github.com/JustVugg/colibri</link>
+      <description>📝 Tiny engine, immense model. Quantization kernels: int8 / packed int4 / packed int2, per-row scales, AVX2, dequant-on-use. Download the model A pre-converted GLM-5.
 
-🔗 Read more: https://openai.com/index/gpt-5-6/</description>
-      <guid isPermaLink="true">https://openai.com/index/gpt-5-6/</guid>
-      <pubDate>Thu, 09 Jul 2026 17:04:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48849066</comments>
+🔗 Read more: https://github.com/JustVugg/colibri</description>
+      <guid isPermaLink="true">https://github.com/JustVugg/colibri</guid>
+      <pubDate>Thu, 09 Jul 2026 08:05:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48842459</comments>
     </item>
     <item>
-      <title>ChatGPT Work</title>
-      <link>https://openai.com/index/chatgpt-for-your-most-ambitious-work/</link>
-      <description>📝 Download the ChatGPT desktop app(opens in a new window)Contact salesLoading…ShareIntroducing ChatGPT Work, an agent in ChatGPT that helps you take on more ambitious tasks. You can even ask ChatGPT Work to take on entire workflows with a single request. Even when you’re away from your computer or phone, ChatGPT Work can keep projects moving forward with Scheduled Tasks.
+      <title>A road to Lisp: Why Lisp</title>
+      <link>https://scotto.me/blog/2026-07-09-why-lisp/</link>
+      <description>📝 Because in Lisp you can do things that are not possible in other languages. Extensibility Lisp is extensible within itself. Not only will you write code for your programs, but you can write code that extends Lisp itself.
 
-🔗 Read more: https://openai.com/index/chatgpt-for-your-most-ambitious-work/</description>
-      <guid isPermaLink="true">https://openai.com/index/chatgpt-for-your-most-ambitious-work/</guid>
-      <pubDate>Thu, 09 Jul 2026 17:03:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48849059</comments>
+🔗 Read more: https://scotto.me/blog/2026-07-09-why-lisp/</description>
+      <guid isPermaLink="true">https://scotto.me/blog/2026-07-09-why-lisp/</guid>
+      <pubDate>Thu, 09 Jul 2026 13:06:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48845209</comments>
     </item>
     <item>
-      <title>GLM 5.2 is nearly as accurate as a human book keeper</title>
-      <link>https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark</link>
-      <description>📝 2 model was not a limiting factor for this benchmark. These two user notes were necessary to allow the model to reason about real-world context that was not derivable from the bank feed and receipt data. purchase, bank_fee, transfer, sales_income, capital_introduced, director_loan, refund, etc…) — these were deterministically derived from the state of the processed transaction in the accounting software.
+      <title>Interview with Mitchell Hashimoto about Ghostty and Zig</title>
+      <link>https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/</link>
+      <description>📝 I also really wanted to play with Zig. What do you think about non-legacy terminal APIs. Main screen is like your shell with scrollback etc.
 
-🔗 Read more: https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark</description>
-      <guid isPermaLink="true">https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark</guid>
-      <pubDate>Thu, 09 Jul 2026 18:29:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48850414</comments>
+🔗 Read more: https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/</description>
+      <guid isPermaLink="true">https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/</guid>
+      <pubDate>Thu, 09 Jul 2026 17:17:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48849292</comments>
     </item>
     <item>
-      <title>Hy3</title>
-      <link>https://hy.tencent.com/research/hy3</link>
-      <guid isPermaLink="true">https://hy.tencent.com/research/hy3</guid>
-      <pubDate>Thu, 09 Jul 2026 15:27:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48847552</comments>
-    </item>
-    <item>
-      <title>A possible future for Damn Interesting</title>
-      <link>https://www.damninteresting.com/a-possible-future/</link>
-      <description>📝 Do not distribute or repurpose this work without written permission from the copyright holder(s). Printed from https://www. So will my outlandish fundraiser actually work.
+      <title>Postgres rewritten in Rust, now passing 100% of the Postgres regression tests</title>
+      <link>https://github.com/malisper/pgrust</link>
+      <description>📝 pgrust A Postgres rewrite in Rust. pgrust is disk compatible with Postgres and can boot from an existing Postgres 18. Background: Original pgrust launch: https://malisper.
 
-🔗 Read more: https://www.damninteresting.com/a-possible-future/</description>
-      <guid isPermaLink="true">https://www.damninteresting.com/a-possible-future/</guid>
-      <pubDate>Thu, 09 Jul 2026 15:25:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48847511</comments>
+🔗 Read more: https://github.com/malisper/pgrust</description>
+      <guid isPermaLink="true">https://github.com/malisper/pgrust</guid>
+      <pubDate>Thu, 09 Jul 2026 06:18:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48841676</comments>
     </item>
     <item>
-      <title>Wildcard (YC W25) Is Hiring a Founding Engineer</title>
-      <link>https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer</link>
-      <description>📝 You’ll work directly with me, Kaushik Mahorker, founder of Wildcard. This market is moving fast. This role is different.
+      <title>Show HN: Rubiks Cube Solver</title>
+      <link>https://speedcube.com.br/</link>
+      <guid isPermaLink="true">https://speedcube.com.br/</guid>
+      <pubDate>Thu, 09 Jul 2026 21:09:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48852403</comments>
+    </item>
+    <item>
+      <title>How GitHub gave every repository a durable owner</title>
+      <link>https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/</link>
+      <description>📝 Michael Recachinas is a Staff Security Engineer at GitHub, where he leads large-scale security programs focused on vulnerability management, secure development lifecycle tooling, and developer-first security automation. He has spent his career building systems that operate at scale and help teams make the secure choice the easy choice.
 
-🔗 Read more: https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer</guid>
-      <pubDate>Thu, 09 Jul 2026 17:00:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48849011</comments>
+🔗 Read more: https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/</description>
+      <guid isPermaLink="true">https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/</guid>
+      <pubDate>Thu, 09 Jul 2026 20:47:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48852151</comments>
     </item>
     <item>
-      <title>The glass backbone: Why the Army's logistics will break in the next war</title>
-      <link>https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/</link>
-      <description>📝 Yet they rapidly outran their logistics network. The lesson here is clear: Operational reach is strictly dictated by logistical and sustainment capacity. Multiple Russian formations stalled not because they were tactically defeated, but because their logistical support collapsed.
+      <title>AI content is everywhere on social media, especially LinkedIn</title>
+      <link>https://www.pangram.com/blog/ai-in-your-feed</link>
+      <description>📝 On four out of five platforms, longer content was more likely to be AI-generated than shortform content. 72% of items over 250 words) were fully AI-generated. 35x more likely to be AI-generated than a comment.
 
-🔗 Read more: https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/</description>
-      <guid isPermaLink="true">https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/</guid>
-      <pubDate>Thu, 09 Jul 2026 13:24:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48845442</comments>
+🔗 Read more: https://www.pangram.com/blog/ai-in-your-feed</description>
+      <guid isPermaLink="true">https://www.pangram.com/blog/ai-in-your-feed</guid>
+      <pubDate>Thu, 09 Jul 2026 15:50:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48847940</comments>
     </item>
     <item>
-      <title>Muse Spark 1.1</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</link>
-      <description>📝 With these improvements, Muse Spark 1. Coding performance for Muse Spark 1. Along with coding and agentic capabilities, Muse Spark 1.
+      <title>Show HN: I built a web tool to see and edit what an AI thinks before it answers</title>
+      <link>https://lucid.earthpilot.ai</link>
+      <description>📝 Lucid watches a language model think. Watch which concepts enter the workspace, at which layer, and which ones the model holds but never says. The lens is fit once per model.
 
-🔗 Read more: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</description>
-      <guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</guid>
-      <pubDate>Thu, 09 Jul 2026 14:10:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48846184</comments>
-    </item>
-    <item>
-      <title>Launch HN: Context.dev (YC S26) – API to get structured data from any website</title>
-      <link>https://www.context.dev</link>
-      <description>📝 MintlifyHow Mintlify used Context. dev to power a tool that transforms any GitHub repo URL into a complete, branded documentation site — and got there in under 10 minutes of integration time.
-
-🔗 Read more: https://www.context.dev</description>
-      <guid isPermaLink="true">https://www.context.dev</guid>
-      <pubDate>Thu, 09 Jul 2026 15:28:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48847562</comments>
-    </item>
-    <item>
-      <title>How to Start a Ruby Meetup</title>
-      <link>https://guides.rubyevents.org/meetups/</link>
-      <guid isPermaLink="true">https://guides.rubyevents.org/meetups/</guid>
-      <pubDate>Thu, 09 Jul 2026 18:27:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48850372</comments>
-    </item>
-    <item>
-      <title>Opinionated and Easy Pi.dev Configuration</title>
-      <link>https://lazypi.org/</link>
-      <description>📝 Everything configured. One command installs 60+ community skills, 67 themes, MCP support, sub-agent support, Claude Code CLI provider support, memory, and more. LazyPi installs Pi if you don't have it, then sets everything up.
-
-🔗 Read more: https://lazypi.org/</description>
-      <guid isPermaLink="true">https://lazypi.org/</guid>
-      <pubDate>Thu, 09 Jul 2026 15:19:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48847407</comments>
-    </item>
-    <item>
-      <title>Show HN: I mapped 8.5M research papers into an interactive atlas</title>
-      <link>https://tomesphere.com/atlas</link>
-      <guid isPermaLink="true">https://tomesphere.com/atlas</guid>
-      <pubDate>Thu, 09 Jul 2026 02:23:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48840207</comments>
-    </item>
-    <item>
-      <title>How should group chats work in decentralized systems?</title>
-      <link>https://marindedic.com/groups/</link>
-      <description>📝 Why a server makes groups easy With a central server, you have a trusted authority that answers these questions: Who is in this group right now. Delete the server and what happens. Why not: This was actually my initial idea.
-
-🔗 Read more: https://marindedic.com/groups/</description>
-      <guid isPermaLink="true">https://marindedic.com/groups/</guid>
-      <pubDate>Thu, 09 Jul 2026 17:15:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48849258</comments>
-    </item>
-    <item>
-      <title>Show HN: Devthropology – Better Insights for GitHub Repos</title>
-      <link>https://devthropology.com/demo</link>
-      <guid isPermaLink="true">https://devthropology.com/demo</guid>
-      <pubDate>Thu, 09 Jul 2026 16:47:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48848819</comments>
-    </item>
-    <item>
-      <title>Why the Next Era of AI Is About Infrastructure, Not Just Models</title>
-      <link>https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/</link>
-      <description>📝 Models have improved dramatically, sure. With that came problems nobody fully anticipated. Most teams aren't using one model - they’re using dozens.
-
-🔗 Read more: https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/</description>
-      <guid isPermaLink="true">https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/</guid>
-      <pubDate>Thu, 09 Jul 2026 14:50:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48846842</comments>
+🔗 Read more: https://lucid.earthpilot.ai</description>
+      <guid isPermaLink="true">https://lucid.earthpilot.ai</guid>
+      <pubDate>Thu, 09 Jul 2026 17:36:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48849618</comments>
     </item>
   </channel>
 </rss>
