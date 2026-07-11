@@ -6,41 +6,73 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 13:17:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 15:56:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>网络和互联网，来自第一原理</title>
-      <link>https://fazamhd.com/mental-models/networking/</link>
-      <description>📝 他们中没有一个专门与其他人协调此消息传输，并且他们都不知道您的数据所采用的完整路径，他们只是将其传递到下一个最近的路由。本文的主题是如何在无人负责的情况下实现这一点。电报的真正突破不仅仅是用电线代替电线，而是克服了距离的物理限制。
+      <title>我们将 PgBouncer 的吞吐量扩展到 4 倍</title>
+      <link>https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres</link>
+      <description>📝 队列中的每个进程都绑定相同的端口并启用 so_reuseport。相同的实例类型、相同的 Postgres、相同的工作负载。相同的实例类型、相同的 Postgres、相同的工作负载。
 
 
-🔤 Original: Networking and the Internet, from First Principles
+🔤 Original: We scaled PgBouncer to 4x throughput
 
-🔗 Read more: https://fazamhd.com/mental-models/networking/</description>
-      <guid isPermaLink="true">https://fazamhd.com/mental-models/networking/</guid>
-      <pubDate>Sat, 11 Jul 2026 12:30:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48871470</comments>
+🔗 Read more: https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres</description>
+      <guid isPermaLink="true">https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres</guid>
+      <pubDate>Sat, 11 Jul 2026 15:28:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48872874</comments>
     </item>
     <item>
-      <title>如果你幸运的话，你的代码速度很快</title>
-      <link>https://tiki.li/blog/lucky_code.html</link>
-      <description>📝 com #ifndef SORT_H #define SORT_H #ifndef BLQS_CMP #define BLQS_CMP(a, b) ((a) &lt; (b)) #endif #include &lt;stddef. h&gt; #define min(a, b) (((a) &lt; (b)).b : x; \ } while(0) #define sort3(a, b, c) do { \ sort2(a, b); sort2(b, c); sort2(a, b); \ } while(0) #define sort4(a, b, c, d) do { \ sort2(a, b); sort2(c, d); sort2(a, c); \ sort2(b, d); sort2(b, c); \ } while(0) #define sort5(a, b, c, d, e) do { \ sort2(b, c); sort2(d, e); sort2(b, d); \ sort2(a, c); sort2(a, d); sort2(c, e); \ sort2(a, b); sort2(c, d); sort2(b, c); \ } while(0) #define sort6(a, b, c, d, e, f) do { \ sort2(a, b); sort2(c, d); sort2(e, f); \ sort2(a, c); sort2(b, d); sort2(e, f); \ sort2(a, e); sort2(b, f); sort2(c, e); \ sort2(d, f); sort2(b, c); sort2(d, e); \ sort2(c, d); \ } while(0) #define sort7(a, b, c, d, e, f, g) do { \ sort2(a, b); sort2(c, d); sort2(a, c); \ sort2(b, d); sort2(b, c); sort2(e, f); \ sort2(e, g); sort2(b, f); sort2(d, g); sort2(d, f); sort8(a,b,c,d,e,f,g,h); sort2(c,d); sort2(g,h); sort2(b,d); sort2(b,c); sort2(b,f); sort2(c,e); \ sort2(d,e); \ } while (0) #define sort9(a,b,c,d,e,f,g,h,i); sort2(c,f); sort2(e,i); \ sort2(a,h); sort2(c,e); sort2(d,i); sort2(f,g); \ sort2(a,c); sort2(b,d); sort2(e,f); sort2(h,i); \ sort2(b,e); sort2(d,g); sort2(f,h); \ sort2(a,b); sort2(c,e); sort2(c,d); sort2(b,c); sort2(f,g); \ } while (0) #define sort10(a,b,c,d,e,f,g,h,i,j) sort2(a,i); sort2(b,j); sort2(c,h); sort2(d,f); sort2(e,g); \ sort2(a,c); sort2(b,e); sort2(f,i); sort2(h,j); \ sort2(a,d); sort2(c,e); sort2(f,h); sort2(g,j); \ sort2(a,b); sort2(d,g); sort2(i,j); \ sort2(b,f); sort2(c,d); sort2(e,i); sort2(g,h); \ sort2(b,c); sort2(d,f); sort2(e,g); sort2(h,i); \ sort2(c,d); sort2(e,f); sort2(g,h); \ sort2(d,e); sort2(f,g); \ } while (0) #define sort11(a,b,c,d,e,f,g,h,i,j,k) do { \ sort2(b,g); sort2(d,h); sort2(a,b); sort2(g,j); sort2(h,i); \ sort2(b,d); sort2(c,f); sort2(e,h); sort2(i,k); \ sort2(a,e); sort2(b,c); sort2(d,h); sort2(f,j); sort2(g,i); \ sort2(a,b); sort2(c,g); sort2(e,f); sort2(h,i); sort2(j,k); \ sort2(c,e); sort2(d,g); sort2(f,h); sort2(i,j); \ sort2(b,c); sort2(d,e); sort2(f,g); sort2(h,i); \ sort2(c,d); sort2(e,f); sort2(g,h); \ } while (0) #define sort12(a,b,c,d,e,f,g,h,i,j,k,l); sort2(b,h); sort2(d,l); sort2(a,c); sort2(d,f); sort2(h,k); sort2(j,l); \ sort2(a,b); sort2(c,j); sort2(e,h); sort2(f,g); sort2(k,l); \ sort2(b,d); sort2(c,h); sort2(e,j); sort2(i,k); \ sort2(a,b); sort2(c,d); sort2(e,f); sort2(g,h); sort2(i,j); sort2(k,l); \ sort2(b,c); sort2(d,f); sort2(g,i); sort2(j,k); \ sort2(c,e); sort2(d,g); sort2(f,i); sort2(h,j); \ sort2(b,c); sort2(d,e); sort2(f,g); sort2(h,i); \ } while (0) static void sorting_network(BLQS_TYPE* l, int partszm1_min_1) { switch (partszm1_min_1) { 情况 0: 中断; 情况 1: sort2(l[0],l[1]); 情况 2: sort3(l[0],l[1],l[2]); sort4(l[0],l[1],l[2],l[3]); 情况 4: sort5(l[0],l[1],l[2],l[3],l[4]); 情况 5: sort6(l[0],l[1],l[2],l[3],l[4],l[5]); sort7(l[0],l[1],l[2],l[3],l[4],l[5],l[6]); 情况 7: sort8(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7]); sort9(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8]); 情况 9: sort10(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9]); sort11(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10]); sort12(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10],l[11]); } } #define med5(a,b,c,d,e) do { \ sort2(a,b); sort2(a,c); sort2（b，d）; sort2（b，c）; while（0）静态BLQS_TYPE *partition_small（BLQS_TYPE *左，BLQS_TYPE *右）{ BLQS_TYPE * pivp =左+ 6; l1 = 左[1],l2 = 左[2]; BLQS_TYPE r1 = 右[-1], r0 = *右; med5(l1, l2, piv, r1, r0); 左[2] = l2; *右 = r0; *pivp = *outerleft; swbuf[SMALLPART]; BLQS_TYPE* sw = swbuf;
+      <title>关于第一台超智能机器的推测 (1965) [pdf]</title>
+      <link>https://languagelog.ldc.upenn.edu/myl/Good1964.pdf</link>
+      <description>📝 4 %���� 616 0 obj &lt;&lt; /线性化 1 /O 620 /H [ 2532 3756 ] /L 4318645 /E 133396 /N 58 /T 4306206 &gt;&gt; endobj 外部参照 616 87 0000000016 00000 n 0000002091 00000n 0000002317 00000n 0000002381 00000n 0000006288 00000n 0000006832 00000n 0000006885 00000n 0000007072 00000n 0000009266 00000n 0000010336 00000n 0000012530 00000n 0000012771 00000n 0000012996 00000n 0000013224 00000n 0000014286 00000n 0000016480 00000n 0000017549 00000n 0000017726 00000n 0000017919 00000n 0000018096 00000n 0000020290 00000n 0000021358 00000n 0000023552 00000n 0000023783 00000n 0000024022 00000n 0000024271 00000n 0000025337 00000n 0000027531 00000n 0000028599 00000n 0000028782 00000n 0000028954 00000n 0000028983 00000n 0000029013 00000n 0000029035 00000n 0000029775 00000n 0000029797 00000n 0000030384 00000n 0000030619 00000n 0000032813 00000n 0000033878 00000n 0000034062 00000n 0000034244 00000n 0000034482 00000n 0000036676 00000n 0000037738 00000n 0000037760 00000n 0000038342 00000n 0000038364 00000n 0000039011 00000n 0000041205 00000n 0000041377 00000n 0000041599 00000n 0000042661 00000n 0000042683 00000n 0000043359 00000n 0000043381 00000n 0000044059 00000n 0000044081 00000n 0000044742 00000n 0000044764 00000n 0000045383 00000n 0000050892 00000n 0000050915 00000n 0000054477 00000n 0000054500 00000n 0000054523 00000n 0000054550 00000n 0000059934 00000n 0000059961 00000n 0000059988 00000n 0000060011 00000n 0000066902 00000n 0000073106 00000n 0000073129 00000n 0000077673 00000n 0000077696 00000n 0000084222 00000n 0000084245 00000n 0000091489 00000n 0000097752 00000n 0000097775 00000n 0000097798 00000n 0000097924 00000n 0000098053 00000n 0000098077 00000n 0000002532 00000 n 0000006265 00000 n 预告片 &lt;&lt; /Size 703 /Info 598 0 R /Root 617 0 R /Prev 4306195 /ID[&lt;18732cd7a665999761d9c495dd2f2f2b&gt;&lt;565826252cc8e8058262ed679ce14c97&gt;] &gt;&gt; startxref 0 %%EOF 617 0 obj &lt;&lt; /类型 /目录 /页 597 0 R /元数据 615 0 R /AcroForm 619 0 R /FICL:Enfocus 612 0 R /PageMode /UseThumbs /OpenAction 618 0 R /PageLabels 596 0 R /PageLayout /SinglePage /Outlines 472 0 R &gt;&gt; endobj 618 0 obj &lt;&lt; /S /GoTo /D [ 620 0 R /FitH -32768 ] &gt;&gt; endobj 619 0 obj &lt;&lt; /Fields [ ] /DR &lt;&lt; /Font &lt;&lt; /ZaDb 473 0 R /Helv 474 0 R &gt;&gt; /Encoding &lt;&lt; /PDFDocEncoding 475 0 R &gt;&gt; &gt;&gt; /DA (/Helv 0 Tf 0 g ) &gt;&gt; endobj 701 0 obj &lt;&lt; /S 4473 /T 4737 /O 4845 /V 4861 /L 4883 /Filter /FlateDecode /Length 702 0 R &gt;&gt; 流 H���{T�i �Q �a���"1HD��٦-�/ad��Zn���MSbmieq���D� �mJ�֜ G;Zf+^1mJ g;Z*:�d�:vj�vi���&lt; ������&gt;���B �tA�. � � ���s�yC���ח�"^�y������]�e+��Sf���C�w��n�A|��A�&amp;�&gt;�%_�e}����L���w�'�r��3��L�J����m[. {�G ��) &lt;0�U� � {J���'��)�)�u������ �/*�Z�� �A5 ���3�3 u�I '���m �$� �p 1T{Q)[A�)X�|�� ��x&lt;�.
 
 
-🔤 Original: Your code is fast – if you're lucky
+🔤 Original: Speculations Concerning the First Ultraintelligent Machine (1965) [pdf]
 
-🔗 Read more: https://tiki.li/blog/lucky_code.html</description>
-      <guid isPermaLink="true">https://tiki.li/blog/lucky_code.html</guid>
-      <pubDate>Sat, 11 Jul 2026 10:50:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48870799</comments>
+🔗 Read more: https://languagelog.ldc.upenn.edu/myl/Good1964.pdf</description>
+      <guid isPermaLink="true">https://languagelog.ldc.upenn.edu/myl/Good1964.pdf</guid>
+      <pubDate>Sat, 11 Jul 2026 13:33:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48871932</comments>
     </item>
     <item>
-      <title>尽管遭到强烈抗议，美国联邦通信委员会还是批准了太空镜照亮夜空的测试</title>
-      <link>https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html</guid>
+      <title>FCC 批准太空镜照亮夜空的测试</title>
+      <link>https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482</link>
+      <description>📝 Reflect Orbital 计划使用 50,000 多颗卫星将阳光反射回地球，这可能会扰乱植物、动物和人类的昼夜节律。 SpaceX 控制轨道目前有近 11,000 颗 SpaceX Starlink 卫星在我们头顶的轨道上运行。来自太空的太阳能 U.
+
+
+🔤 Original: FCC approves test of space mirror to light night sky
+
+🔗 Read more: https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482</description>
+      <guid isPermaLink="true">https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482</guid>
       <pubDate>Sat, 11 Jul 2026 12:12:34 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=48871367</comments>
+    </item>
+    <item>
+      <title>Ghost Font：人类可以阅读但人工智能无法阅读的字体</title>
+      <link>https://www.mixfont.com/ghost-font</link>
+      <description>📝 Ghost Font 是一种反 AI 字体，通过动作书写信息。使用 Ghost 字体生成的示例视频。 6 Ultra 尝试解码使用 Ghost 字体编写的消息。
+
+
+🔤 Original: Ghost Font: A font that humans can read but AI cannot
+
+🔗 Read more: https://www.mixfont.com/ghost-font</description>
+      <guid isPermaLink="true">https://www.mixfont.com/ghost-font</guid>
+      <pubDate>Sat, 11 Jul 2026 09:36:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48870381</comments>
+    </item>
+    <item>
+      <title>Show HN：世界上最富有的人靠财富创造而不是所有权</title>
+      <link>https://anti-forbes-list.vercel.app</link>
+      <description>📝 头条/严格创作#Founder为其他人KeptMultiple赠送1Jensen HuangNVDA $4。 3×$0B2比尔·盖茨MSFT$3。 2×$64B3杰夫·贝佐斯AMZN$2。
+
+
+🔤 Original: Show HN: Richest people in the world by wealth creation instead of ownership
+
+🔗 Read more: https://anti-forbes-list.vercel.app</description>
+      <guid isPermaLink="true">https://anti-forbes-list.vercel.app</guid>
+      <pubDate>Sat, 11 Jul 2026 09:54:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48870472</comments>
     </item>
   </channel>
 </rss>
