@@ -6,15 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Jul 2026 10:14:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 13:17:53 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>10億ドル近い資金を投入しても、米国は依然として医療用手袋を製造できない</title>
-      <link>https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves</link>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves</guid>
-      <pubDate>Sat, 11 Jul 2026 09:16:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48870258</comments>
+      <title>ネットワーキングとインターネット、第一原則から</title>
+      <link>https://fazamhd.com/mental-models/networking/</link>
+      <description>📝 このメッセージ転送に関して特に他のサーバーと調整するものはなく、データがたどった完全なパスを知っているものはなく、データを次に近いルートに渡すだけです。責任者がいない状態でこれがどのように機能するのかが、この記事の主題です。電信の真の進歩は、文字列を電線に置き換えただけではなく、この物理的な距離の限界を克服したことでした。
+
+
+🔤 Original: Networking and the Internet, from First Principles
+
+🔗 Read more: https://fazamhd.com/mental-models/networking/</description>
+      <guid isPermaLink="true">https://fazamhd.com/mental-models/networking/</guid>
+      <pubDate>Sat, 11 Jul 2026 12:30:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48871470</comments>
+    </item>
+    <item>
+      <title>運が良ければコードは高速です</title>
+      <link>https://tiki.li/blog/lucky_code.html</link>
+      <description>📝 com #ifndef SORT_H #define SORT_H #ifndef BLQS_CMP #define BLQS_CMP(a, b) ((a) &lt; (b)) #endif #include &lt;stddef. h&gt; #define min(a, b) (((a) &lt; (b)). b : x; \ } while(0) #define sort3(a, b, c) do { \ sort2(a, b); sort2(b, c); sort2(a, b); \ } while(0) #define sort4(a, b, c, d) do { \ sort2(a, b); sort2(c, d); sort2(a, c); \ sort2(b, d); sort2(b, c); \ } while(0) #define sort5(a, b, c, d, e) do { \ sort2(b, c); sort2(d, e); sort2(b, d); \ sort2(a, c); sort2(a, d); sort2(c, e); \ sort2(a, b); sort2(c, d);ソート 2(b, c); #define ソート 6(a, b); ソート 2(a, c); ソート 2(a, e); f); ソート 2(b, c); \ ソート 2(c, d); }ソート 2(f, g); \ ソート 2(b, g); ソート 2(d, f); } sort2(a,b); sort2(c,d); sort2(e,f); sort2(g,h); \ sort2(a,c); sort2(b,d); sort2(e,g); sort2(f,h); \ sort2(b,c); sort2(f,g); \ sort2(a,e); sort2(b,f); sort2(c,g); sort2(d,h); \ソート 2(c,e); \ ソート 2(b,c); ソート 2(f,g); } sort2(c,e); sort2(d,i); sort2(f,g); \ sort2(a,c); sort2(b,d); sort2(e,f); sort2(h,i); \ sort2(b,e); sort2(d,g); sort2(f,h); \ sort2(a,b); sort2(c,e); sort2(d,f); sort2(g,i); \ sort2(c,d); sort2(e,f); sort2(g,h); \ sort2(b,c); sort2(d,e); sort2(f,g); \ } while (0) #define sort10(a,b,c,d,e,f,g,h,i,j) do { \ sort2(a,i); sort2(b,j); sort2(c,h); sort2(d,f); sort2(e,g); \ sort2(a,c); sort2(b,e); sort2(f,i); sort2(h,j); \ sort2(a,d); sort2(c,e); sort2(f,h); sort2(g,j); \ sort2(a,b); sort2(d,g); sort2(i,j); \ sort2(b,f); sort2(c,d);ソート 2(e,i); \ ソート 2(b,c); ソート 2(c,f); \ ソート 2(f,g);ソート 11(a,b,c,d,e,f,h,i,j,k); ソート 2(a,j); ソート 2(a,b); sort2(b,d); sort2(c,f); sort2(e,h); sort2(i,k); \ sort2(a,e); sort2(b,c); sort2(d,h); sort2(f,j); sort2(g,i); \ sort2(a,b); sort2(c,g); sort2(e,f); sort2(h,i); sort2(j,k); \ソート 2(c,e); ソート 2(f,j); ソート 2(c,f);ソート 12(a,b,c,d,e,f,g,i,j,k,l); ソート 2(a,i); ソート 2(a,c); sort2(h,k); sort2(j,l); \ sort2(a,b); sort2(c,j); sort2(e,h); sort2(f,g); sort2(k,l); \ sort2(b,d); sort2(c,h); sort2(e,j); sort2(i,k); \ sort2(a,b); sort2(c,d); sort2(e,f); sort2(g,h); sort2(i,j); sort2(k,l); \ sort2(b,c); sort2(d,f); sort2(g,i); sort2(j,k); \ sort2(c,e); sort2(d,g); sort2(f,i); sort2(h,j); \ sort2(b,c); sort2(d,e); sort2(f,g); sort2(h,i); sort2(j,k); while (0) static void sort_network(BLQS_TYPE* l, int Partszm1_min_1) { case 0: Break; case 2(l[0],l[2]); 3: ソート 4(l[0],l[1],l[3]); ケース 4: ソート 5(l[0],l[2],l[3],l[5]); ケース 6:ソート 7(l[0],l[1],l[2],l[3],l[4],l[5],l[6]); ケース 7: ソート 8(l[0],l[1],l[2],l[7]); sort9(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8]); ケース 9:sort10(l[0],l[1],l[2],l[6],l[7],l[8],l[9]); sort11(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10]); ケース 11: sort12(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[8],l[10],l[11]) } } #define med5(a,b,c,d,e) { \sort2(c,d); sort2(b,d); sort2(c,e); \sort2(b,c); while(0) static BLQS_TYPE* 左、BLQS_TYPE* 右) { BLQS_TYPE* 左 + 6; left[1],l2 = left[2]; r1 = right[-1], r0 = *right; left[2] = l2; *pivp = *outerleft; swbuf[SMALLPART]; BLQS_TYPE* sw = swbuf;
+
+
+🔤 Original: Your code is fast – if you're lucky
+
+🔗 Read more: https://tiki.li/blog/lucky_code.html</description>
+      <guid isPermaLink="true">https://tiki.li/blog/lucky_code.html</guid>
+      <pubDate>Sat, 11 Jul 2026 10:50:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48870799</comments>
+    </item>
+    <item>
+      <title>FCC、抗議にもかかわらず夜空を照らすスペースミラーの実験を承認</title>
+      <link>https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html</guid>
+      <pubDate>Sat, 11 Jul 2026 12:12:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48871367</comments>
     </item>
   </channel>
 </rss>

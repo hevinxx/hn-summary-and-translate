@@ -6,15 +6,41 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 10:14:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 13:17:53 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>近 10 亿美元之后，美国仍然无法制造医用手套</title>
-      <link>https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves</link>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves</guid>
-      <pubDate>Sat, 11 Jul 2026 09:16:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48870258</comments>
+      <title>网络和互联网，来自第一原理</title>
+      <link>https://fazamhd.com/mental-models/networking/</link>
+      <description>📝 他们中没有一个专门与其他人协调此消息传输，并且他们都不知道您的数据所采用的完整路径，他们只是将其传递到下一个最近的路由。本文的主题是如何在无人负责的情况下实现这一点。电报的真正突破不仅仅是用电线代替电线，而是克服了距离的物理限制。
+
+
+🔤 Original: Networking and the Internet, from First Principles
+
+🔗 Read more: https://fazamhd.com/mental-models/networking/</description>
+      <guid isPermaLink="true">https://fazamhd.com/mental-models/networking/</guid>
+      <pubDate>Sat, 11 Jul 2026 12:30:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48871470</comments>
+    </item>
+    <item>
+      <title>如果你幸运的话，你的代码速度很快</title>
+      <link>https://tiki.li/blog/lucky_code.html</link>
+      <description>📝 com #ifndef SORT_H #define SORT_H #ifndef BLQS_CMP #define BLQS_CMP(a, b) ((a) &lt; (b)) #endif #include &lt;stddef. h&gt; #define min(a, b) (((a) &lt; (b)).b : x; \ } while(0) #define sort3(a, b, c) do { \ sort2(a, b); sort2(b, c); sort2(a, b); \ } while(0) #define sort4(a, b, c, d) do { \ sort2(a, b); sort2(c, d); sort2(a, c); \ sort2(b, d); sort2(b, c); \ } while(0) #define sort5(a, b, c, d, e) do { \ sort2(b, c); sort2(d, e); sort2(b, d); \ sort2(a, c); sort2(a, d); sort2(c, e); \ sort2(a, b); sort2(c, d); sort2(b, c); \ } while(0) #define sort6(a, b, c, d, e, f) do { \ sort2(a, b); sort2(c, d); sort2(e, f); \ sort2(a, c); sort2(b, d); sort2(e, f); \ sort2(a, e); sort2(b, f); sort2(c, e); \ sort2(d, f); sort2(b, c); sort2(d, e); \ sort2(c, d); \ } while(0) #define sort7(a, b, c, d, e, f, g) do { \ sort2(a, b); sort2(c, d); sort2(a, c); \ sort2(b, d); sort2(b, c); sort2(e, f); \ sort2(e, g); sort2(b, f); sort2(d, g); sort2(d, f); sort8(a,b,c,d,e,f,g,h); sort2(c,d); sort2(g,h); sort2(b,d); sort2(b,c); sort2(b,f); sort2(c,e); \ sort2(d,e); \ } while (0) #define sort9(a,b,c,d,e,f,g,h,i); sort2(c,f); sort2(e,i); \ sort2(a,h); sort2(c,e); sort2(d,i); sort2(f,g); \ sort2(a,c); sort2(b,d); sort2(e,f); sort2(h,i); \ sort2(b,e); sort2(d,g); sort2(f,h); \ sort2(a,b); sort2(c,e); sort2(c,d); sort2(b,c); sort2(f,g); \ } while (0) #define sort10(a,b,c,d,e,f,g,h,i,j) sort2(a,i); sort2(b,j); sort2(c,h); sort2(d,f); sort2(e,g); \ sort2(a,c); sort2(b,e); sort2(f,i); sort2(h,j); \ sort2(a,d); sort2(c,e); sort2(f,h); sort2(g,j); \ sort2(a,b); sort2(d,g); sort2(i,j); \ sort2(b,f); sort2(c,d); sort2(e,i); sort2(g,h); \ sort2(b,c); sort2(d,f); sort2(e,g); sort2(h,i); \ sort2(c,d); sort2(e,f); sort2(g,h); \ sort2(d,e); sort2(f,g); \ } while (0) #define sort11(a,b,c,d,e,f,g,h,i,j,k) do { \ sort2(b,g); sort2(d,h); sort2(a,b); sort2(g,j); sort2(h,i); \ sort2(b,d); sort2(c,f); sort2(e,h); sort2(i,k); \ sort2(a,e); sort2(b,c); sort2(d,h); sort2(f,j); sort2(g,i); \ sort2(a,b); sort2(c,g); sort2(e,f); sort2(h,i); sort2(j,k); \ sort2(c,e); sort2(d,g); sort2(f,h); sort2(i,j); \ sort2(b,c); sort2(d,e); sort2(f,g); sort2(h,i); \ sort2(c,d); sort2(e,f); sort2(g,h); \ } while (0) #define sort12(a,b,c,d,e,f,g,h,i,j,k,l); sort2(b,h); sort2(d,l); sort2(a,c); sort2(d,f); sort2(h,k); sort2(j,l); \ sort2(a,b); sort2(c,j); sort2(e,h); sort2(f,g); sort2(k,l); \ sort2(b,d); sort2(c,h); sort2(e,j); sort2(i,k); \ sort2(a,b); sort2(c,d); sort2(e,f); sort2(g,h); sort2(i,j); sort2(k,l); \ sort2(b,c); sort2(d,f); sort2(g,i); sort2(j,k); \ sort2(c,e); sort2(d,g); sort2(f,i); sort2(h,j); \ sort2(b,c); sort2(d,e); sort2(f,g); sort2(h,i); \ } while (0) static void sorting_network(BLQS_TYPE* l, int partszm1_min_1) { switch (partszm1_min_1) { 情况 0: 中断; 情况 1: sort2(l[0],l[1]); 情况 2: sort3(l[0],l[1],l[2]); sort4(l[0],l[1],l[2],l[3]); 情况 4: sort5(l[0],l[1],l[2],l[3],l[4]); 情况 5: sort6(l[0],l[1],l[2],l[3],l[4],l[5]); sort7(l[0],l[1],l[2],l[3],l[4],l[5],l[6]); 情况 7: sort8(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7]); sort9(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8]); 情况 9: sort10(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9]); sort11(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10]); sort12(l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10],l[11]); } } #define med5(a,b,c,d,e) do { \ sort2(a,b); sort2(a,c); sort2（b，d）; sort2（b，c）; while（0）静态BLQS_TYPE *partition_small（BLQS_TYPE *左，BLQS_TYPE *右）{ BLQS_TYPE * pivp =左+ 6; l1 = 左[1],l2 = 左[2]; BLQS_TYPE r1 = 右[-1], r0 = *右; med5(l1, l2, piv, r1, r0); 左[2] = l2; *右 = r0; *pivp = *outerleft; swbuf[SMALLPART]; BLQS_TYPE* sw = swbuf;
+
+
+🔤 Original: Your code is fast – if you're lucky
+
+🔗 Read more: https://tiki.li/blog/lucky_code.html</description>
+      <guid isPermaLink="true">https://tiki.li/blog/lucky_code.html</guid>
+      <pubDate>Sat, 11 Jul 2026 10:50:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48870799</comments>
+    </item>
+    <item>
+      <title>尽管遭到强烈抗议，美国联邦通信委员会还是批准了太空镜照亮夜空的测试</title>
+      <link>https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html</guid>
+      <pubDate>Sat, 11 Jul 2026 12:12:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48871367</comments>
     </item>
   </channel>
 </rss>
