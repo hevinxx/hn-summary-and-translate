@@ -6,205 +6,45 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 19:04:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 21:50:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>AI 2040 and the Cult of Intelligence</title>
-      <link>https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html</link>
-      <description>📝 They weren’t statements about reality, they were statements that can simply be made true with belief. Their crap Consortium is just world government with sci-fi characteristics. It’s like these people watched a space odyssey and sided with the clanker.
-
-🔗 Read more: https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html</description>
-      <guid isPermaLink="true">https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html</guid>
-      <pubDate>Sat, 11 Jul 2026 18:04:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874200</comments>
+      <title>Show HN: Ant – A JavaScript runtime and ecosystem</title>
+      <link>https://antjs.org</link>
+      <guid isPermaLink="true">https://antjs.org</guid>
+      <pubDate>Sat, 11 Jul 2026 20:07:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875377</comments>
     </item>
     <item>
-      <title>Who manages the agents?</title>
-      <link>https://www.off-policy.com/dont-go-quietly-into-the-ai-night/</link>
-      <description>📝 A tiny group mediates between machine intelligence and everyone else. Drug discovery capabilities are restricted because of bioweapons risksAnthropic activated ASL-3 protections with Claude Opus 4, deploying classifiers that constrain biology-adjacent capabilities to limit CBRN weapons risk. Software capabilities because of cyber risk.
+      <title>ZeroFS vs. Amazon S3 Files</title>
+      <link>https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</link>
+      <description>📝 ” That one-file, one-object identity is deliberately absent from the ZeroFS storage format. Both mounts use the client page cache. Amazon S3 FilesZeroFS Storage modelAWS-managed high-performance storage synchronized with a bucket; internal layout not documentedAn LSM tree and immutable data segments on object storage Object layoutOne file maps to one S3 objectMetadata in an LSM tree; file-data frames packed into segments Write path after client cacheNFS write to high-performance storage, durable immediately; asynchronous S3 export after write inactivityOver 9P, fsync uploads data segments and flushes LSM metadata to object storage before returning success Cold read and read-aheadLinux NFS read-ahead, directory metadata import, optional small-file import, or direct S3 readLSM lookup, then adaptive object and cross-segment frame prefetch S3 API access to filesYes; filesystem changes appear after asynchronous exportNo; reading files requires ZeroFS and the encryption password Client interfaceNFS 4.
 
-🔗 Read more: https://www.off-policy.com/dont-go-quietly-into-the-ai-night/</description>
-      <guid isPermaLink="true">https://www.off-policy.com/dont-go-quietly-into-the-ai-night/</guid>
-      <pubDate>Sat, 11 Jul 2026 18:02:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874182</comments>
+🔗 Read more: https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</description>
+      <guid isPermaLink="true">https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</guid>
+      <pubDate>Sat, 11 Jul 2026 18:15:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48874297</comments>
     </item>
     <item>
-      <title>Prefer Strict Tables in SQLite</title>
-      <link>https://evanhahn.com/prefer-strict-tables-in-sqlite/</link>
-      <description>📝 CREATE TABLE tbl (name GARBAGE); CREATE TABLE tbl (name DATETIME); CREATE TABLE tbl (name JSON); CREATE TABLE tbl (name UUID); CREATE TABLE tbl (name BLOBB); I think these aren’t what the developer intended. CREATE TABLE tbl (name GARBAGE) STRICT; CREATE TABLE tbl (name DATETIME) STRICT; CREATE TABLE tbl (name JSON) STRICT; CREATE TABLE tbl (name UUID) STRICT; CREATE TABLE tbl (name BLOBB) STRICT; Only INT, INTEGER, REAL, TEXT, BLOB, and ANY are allowed. Create a new strict table with the same schema CREATE TABLE new_people (name TEXT) STRICT; -- 2.
+      <title>The Chinese Voice Actor Forced to Prove He's Human</title>
+      <link>https://www.sixthtone.com/news/1018753</link>
+      <description>📝 Since 2025, AI copies of Shen’s voice have spread so widely online that platforms have begun flagging his real recordings as synthetic. Worse, the more widely Shen’s cloned voice circulates, the more often he has to prove that his own recordings are real. But long before he became trapped in this Kafkaesque spiral, Shen had spent years turning his voice into a career.
 
-🔗 Read more: https://evanhahn.com/prefer-strict-tables-in-sqlite/</description>
-      <guid isPermaLink="true">https://evanhahn.com/prefer-strict-tables-in-sqlite/</guid>
-      <pubDate>Sat, 11 Jul 2026 17:33:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873940</comments>
+🔗 Read more: https://www.sixthtone.com/news/1018753</description>
+      <guid isPermaLink="true">https://www.sixthtone.com/news/1018753</guid>
+      <pubDate>Sat, 11 Jul 2026 19:46:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875153</comments>
     </item>
     <item>
-      <title>Modern Decor May Be Straining People's Brains</title>
-      <link>https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/</link>
-      <description>📝 Striped office floors. Brain imaging research cited in the review shows that uncomfortable images, particularly striped, high-contrast patterns, produce much larger responses in visual areas of the brain than natural images do. Who Gets Hit Hardest by Visual Discomfort Most people experience some degree of visual discomfort at some point.
+      <title>I used to love Claude, but the latest models are slowly ruining it</title>
+      <link>https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</link>
+      <description>📝 Over the last few weeks, I’ve found that Claude is increasingly difficult to work with. The aliens effectively claim that some past events were more ordinary than religious traditions believe, which, of course, leads to some conflict in the story concept. What’s worse than being told no.
 
-🔗 Read more: https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/</description>
-      <guid isPermaLink="true">https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/</guid>
-      <pubDate>Sat, 11 Jul 2026 16:28:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873424</comments>
-    </item>
-    <item>
-      <title>How to Hide from Killer Drones</title>
-      <link>https://www.economist.com/science-and-technology/2026/07/08/how-to-hide-from-killer-drones</link>
-      <guid isPermaLink="true">https://www.economist.com/science-and-technology/2026/07/08/how-to-hide-from-killer-drones</guid>
-      <pubDate>Sat, 11 Jul 2026 18:22:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874357</comments>
-    </item>
-    <item>
-      <title>The early History of the Singular Value Decomposition (1993) [pdf]</title>
-      <link>https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf</link>
-      <description>📝 %�þ��ׯ�a�������v����=��j/�����oc���� ����X����. Ɏ��V��b���I7~�C����l�� ����� �~�����. ��K� %���O�)�_ᄟ�=w��0�/a�ԃ�'���_�B3��xAk��R���� �����}|.
-
-🔗 Read more: https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf</description>
-      <guid isPermaLink="true">https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf</guid>
-      <pubDate>Sat, 11 Jul 2026 15:26:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48872858</comments>
-    </item>
-    <item>
-      <title>Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom</title>
-      <link>https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom</link>
-      <description>📝 Leaders like CoreWeave and Nebius enable this through access to the latest Nvidia GPU’s while also optimizing compute utilization. Notably, CoreWeave and Nebius have each secured 3. CoreWeave is targeting 1.
-
-🔗 Read more: https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom</description>
-      <guid isPermaLink="true">https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom</guid>
-      <pubDate>Sat, 11 Jul 2026 17:21:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873836</comments>
-    </item>
-    <item>
-      <title>AI Can't Recreate the Thrust Game (But It Can Help You Understand It)</title>
-      <link>https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/</link>
-      <description>📝 Starting with slop Anyway. And that’s the thing about a game like Thrust. But it would feel nothing like Thrust.
-
-🔗 Read more: https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/</description>
-      <guid isPermaLink="true">https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/</guid>
-      <pubDate>Fri, 10 Jul 2026 22:04:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48865903</comments>
-    </item>
-    <item>
-      <title>Sixtyfour (YC P25) Is Hiring</title>
-      <link>https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</link>
-      <description>📝 Sixtyfour is a data enrichment platform that lets companies generate powerful, custom datasets at scale. Our customers come to us because they want high-quality, enriched datasets—and they need help getting there. You’re guiding customers to success before they even have to ask.
-
-🔗 Read more: https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</guid>
-      <pubDate>Sat, 11 Jul 2026 17:00:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873665</comments>
-    </item>
-    <item>
-      <title>Leaded Gas Was a Known Poison the Day It Was Invented (2016)</title>
-      <link>https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/</link>
-      <description>📝 That additive: tetraethyl lead, also called TEL or lead tetraethyl, a highly toxic compound that was discovered in 1854. That report acknowledged that exposure levels might rise over time. Much of that lead is still around in environments that were contaminated by gasoline fumes during the era of unleaded.
-
-🔗 Read more: https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/</guid>
-      <pubDate>Sat, 11 Jul 2026 17:27:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873893</comments>
-    </item>
-    <item>
-      <title>Female US rower completes historic solo journey from California to Hawaii</title>
-      <link>https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</link>
-      <description>📝 Waikiki Beach in Honolulu, with Honolulu harbor visible to the west. Photograph: Joe Sohm/Visions of America/Universal Images Group/Getty ImagesFemale US rower completes historic solo journey from California to HawaiiKelsey Pfendler set out to become first US woman, youngest woman and fastest woman to solo over 2,400-mile journeyA Grand Canyon river-rafting guide who aimed to become the first US woman to row solo across the mid-Pacific has completed a record-breaking journey from California to Hawaii. The organization didn’t immediately respond to requests for comment from the Associated Press about Pfendler’s finish.
-
-🔗 Read more: https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</description>
-      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</guid>
-      <pubDate>Sat, 11 Jul 2026 17:03:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873692</comments>
-    </item>
-    <item>
-      <title>Show HN: Orbit – AR satellite tracker, watch 15k+ objects</title>
-      <link>https://nagylukas.github.io/orbit.html</link>
-      <description>📝 This data is used only on your device to perform those calculations. Data we collect Orbit collects a limited amount of diagnostics and usage data. Contact Questions about this policy or your privacy in Orbit.
-
-🔗 Read more: https://nagylukas.github.io/orbit.html</description>
-      <guid isPermaLink="true">https://nagylukas.github.io/orbit.html</guid>
-      <pubDate>Sat, 11 Jul 2026 16:39:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873501</comments>
-    </item>
-    <item>
-      <title>Show HN: Learn by rebuilding Redis, Git, a database from scratch</title>
-      <link>https://shipthatcode.com</link>
-      <description>📝 Build it from scratch. Plus the data structures behind efficient queries. ”Your first lesson takes 2 minutesCreate free accountFree forever.
-
-🔗 Read more: https://shipthatcode.com</description>
-      <guid isPermaLink="true">https://shipthatcode.com</guid>
-      <pubDate>Sat, 11 Jul 2026 13:40:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48871973</comments>
-    </item>
-    <item>
-      <title>BLISS</title>
-      <link>https://en.wikipedia.org/wiki/BLISS</link>
-      <description>📝 From Wikipedia, the free encyclopedia Systems programming language For other uses, see Bliss. On the other hand, BLISS omits certain features of other high-level languages. BLISS has characteristics that are unusual among high-level languages.
-
-🔗 Read more: https://en.wikipedia.org/wiki/BLISS</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/BLISS</guid>
-      <pubDate>Sat, 11 Jul 2026 17:30:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873910</comments>
-    </item>
-    <item>
-      <title>Show HN: Earth Game – An offline CLI for turning life goals into quests</title>
-      <link>https://github.com/skorotkiewicz/earth-game</link>
-      <description>📝 /earth character edit. earth quest add|list|start|done|drop manages quests. /earth export earth-export.
-
-🔗 Read more: https://github.com/skorotkiewicz/earth-game</description>
-      <guid isPermaLink="true">https://github.com/skorotkiewicz/earth-game</guid>
-      <pubDate>Sat, 11 Jul 2026 16:37:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873486</comments>
-    </item>
-    <item>
-      <title>Reverse centaurs are the answer to the AI paradox</title>
-      <link>https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative</link>
-      <description>📝 Recent appearances: Where I've been. A reverse centaur is a machine that uses a human being as its assistant (a frail and vulnerable person being puppeteered by an uncaring, relentless machine). In other words, that writer's job wasn't to write the article.
-
-🔗 Read more: https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative</description>
-      <guid isPermaLink="true">https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative</guid>
-      <pubDate>Sat, 11 Jul 2026 17:23:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873855</comments>
-    </item>
-    <item>
-      <title>UPI: Anatomy of a Payment Transaction</title>
-      <link>https://timeseriesofindia.com/economy/reads/upi-architecture/</link>
-      <description>📝 The app on your phone is only the first link, and it never touches your money. It never sees your PIN, holds none of your money, and carries no banking licence. 7 So what actually leaves your phone is not money.
-
-🔗 Read more: https://timeseriesofindia.com/economy/reads/upi-architecture/</description>
-      <guid isPermaLink="true">https://timeseriesofindia.com/economy/reads/upi-architecture/</guid>
-      <pubDate>Sat, 11 Jul 2026 16:33:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873457</comments>
-    </item>
-    <item>
-      <title>Show HN: Reame – a CPU inference server that gets faster as it runs</title>
-      <link>https://github.com/swellweb/reame</link>
-      <description>📝 ⚡ Zero-config CLI — reame run qwen2. Hardware Model Configuration Result Oracle Cloud free tier (2× ARM, 12 GB, €0/mo) Qwen2. 6× Apple M3 Pro Qwen2.
-
-🔗 Read more: https://github.com/swellweb/reame</description>
-      <guid isPermaLink="true">https://github.com/swellweb/reame</guid>
-      <pubDate>Sat, 11 Jul 2026 16:27:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873417</comments>
-    </item>
-    <item>
-      <title>Earendel (Astronomical Object)</title>
-      <link>https://en.wikipedia.org/wiki/Earendel_(astronomical_object)</link>
-      <description>📝 20″ From Wikipedia, the free encyclopedia Distant star or star cluster "Earendel (star)" redirects here. [5] However, further observations from the James Webb Space Telescope (JWST) in the 2020s revealed that Earendel is more likely a star cluster. [20] This aligns with the star cluster interpretation.
-
-🔗 Read more: https://en.wikipedia.org/wiki/Earendel_(astronomical_object)</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Earendel_(astronomical_object)</guid>
-      <pubDate>Sat, 11 Jul 2026 17:24:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873858</comments>
-    </item>
-    <item>
-      <title>Ask HN: Why isn't Google indexing information about the AT Protocol?</title>
-      <link>https://news.ycombinator.com/item?id=48874046</link>
-      <description>📝 I've been observing this for a while, where very basic queries about atproto stuff doesn't show up. But yesterday I found a query that makes it VERY obvious: "list of public atproto relays". doesn't have a list of public atproto relays.
-
-🔗 Read more: https://news.ycombinator.com/item?id=48874046</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48874046</guid>
-      <pubDate>Sat, 11 Jul 2026 17:44:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874046</comments>
+🔗 Read more: https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</description>
+      <guid isPermaLink="true">https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</guid>
+      <pubDate>Sat, 11 Jul 2026 20:21:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875494</comments>
     </item>
   </channel>
 </rss>

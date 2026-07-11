@@ -6,262 +6,54 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 11 Jul 2026 19:04:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 21:50:32 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>AI 2040과 지능 숭배</title>
-      <link>https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html</link>
-      <description>📝 그것은 현실에 대한 진술이 아니라 단순히 믿음으로 진실이 될 수 있는 진술이었습니다. 그들의 쓰레기 컨소시엄은 공상 과학 특성을 지닌 세계 정부 일뿐입니다. 마치 이 사람들이 우주 오디세이를 보고 클랭커의 편에 서는 것과 같습니다.
-
-
-🔤 Original: AI 2040 and the Cult of Intelligence
-
-🔗 Read more: https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html</description>
-      <guid isPermaLink="true">https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html</guid>
-      <pubDate>Sat, 11 Jul 2026 18:04:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874200</comments>
+      <title>HN 표시: Ant – JavaScript 런타임 및 생태계</title>
+      <link>https://antjs.org</link>
+      <guid isPermaLink="true">https://antjs.org</guid>
+      <pubDate>Sat, 11 Jul 2026 20:07:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875377</comments>
     </item>
     <item>
-      <title>에이전트는 누가 관리하나요?</title>
-      <link>https://www.off-policy.com/dont-go-quietly-into-the-ai-night/</link>
-      <description>📝 작은 그룹이 기계 지능과 다른 모든 사람 사이를 중재합니다. 생물 무기 위험으로 인해 약물 발견 기능이 제한됩니다. 인류는 Claude Opus 4를 사용하여 ASL-3 보호를 활성화하여 생물학적 인접 기능을 제한하는 분류기를 배포하여 CBRN 무기 위험을 제한합니다. 사이버 위험으로 인한 소프트웨어 기능.
+      <title>ZeroFS와 Amazon S3 파일 비교</title>
+      <link>https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</link>
+      <description>📝 " 단일 파일, 단일 객체 ID는 ZeroFS 스토리지 형식에 의도적으로 없습니다. 두 마운트 모두 클라이언트 페이지 캐시를 사용합니다. Amazon S3 FilesZeroFS 스토리지 모델버킷과 동기화된 AWS 관리형 고성능 스토리지, 내부 레이아웃은 문서화되지 않음객체 스토리지의 LSM 트리 및 불변 데이터 세그먼트 객체 레이아웃한 파일은 LSM 트리의 하나의 S3 객체 메타데이터에 매핑됩니다. 세그먼트로 압축된 파일 데이터 프레임 클라이언트 캐시 후 경로 쓰기NFS는 고성능 스토리지에 기록하고 즉시 내구성이 있습니다. 쓰기 비활성화 후 비동기 S3 내보내기, fsync는 성공을 반환하기 전에 데이터 세그먼트를 업로드하고 LSM 메타데이터를 개체 스토리지에 플러시합니다. 콜드 읽기 및 미리 읽기Linux NFS 미리 읽기, 디렉터리 메타데이터 가져오기, 선택적인 작은 파일 가져오기 또는 직접 S3 readLSM 조회, 그런 다음 적응형 개체 및 교차 세그먼트 프레임 프리페치 파일에 대한 S3 API 액세스예, 파일을 읽으려면 ZeroFS 및 암호화 비밀번호 클라이언트 인터페이스NFS 4가 필요합니다.
 
 
-🔤 Original: Who manages the agents?
+🔤 Original: ZeroFS vs. Amazon S3 Files
 
-🔗 Read more: https://www.off-policy.com/dont-go-quietly-into-the-ai-night/</description>
-      <guid isPermaLink="true">https://www.off-policy.com/dont-go-quietly-into-the-ai-night/</guid>
-      <pubDate>Sat, 11 Jul 2026 18:02:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874182</comments>
+🔗 Read more: https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</description>
+      <guid isPermaLink="true">https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</guid>
+      <pubDate>Sat, 11 Jul 2026 18:15:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48874297</comments>
     </item>
     <item>
-      <title>SQLite에서는 엄격한 테이블을 선호합니다</title>
-      <link>https://evanhahn.com/prefer-strict-tables-in-sqlite/</link>
-      <description>📝 CREATE TABLE tbl (GARBAGE 이름); CREATE TABLE tbl(이름 DATETIME); CREATE TABLE tbl(이름 JSON); CREATE TABLE tbl (이름 UUID); CREATE TABLE tbl(이름 BLOBB); 이건 개발자가 의도한 게 아닌가 싶습니다. CREATE TABLE tbl (GARBAGE 이름) STRICT; CREATE TABLE tbl (이름 DATETIME) STRICT; CREATE TABLE tbl(이름 JSON) STRICT; CREATE TABLE tbl(이름 UUID) STRICT; CREATE TABLE tbl(이름 BLOBB) STRICT; INT, INTEGER, REAL, TEXT, BLOB 및 ANY만 허용됩니다. 동일한 스키마를 사용하여 새로운 엄격한 테이블을 생성합니다. CREATE TABLE new_people (이름 TEXT) STRICT; -- 2.
+      <title>자신이 인간임을 증명해야 하는 중국 성우</title>
+      <link>https://www.sixthtone.com/news/1018753</link>
+      <description>📝 2025년부터 Shen의 음성에 대한 AI 사본이 온라인에 널리 퍼져 플랫폼에서는 그의 실제 녹음을 합성으로 표시하기 시작했습니다. 더 나쁜 것은 Shen의 복제된 음성이 더 널리 퍼질수록 자신이 녹음한 것이 진짜라는 것을 증명해야 하는 경우가 더 많다는 것입니다. 그러나 이 카프카풍의 소용돌이에 갇히기 오래 전에 Shen은 자신의 목소리를 직업으로 바꾸는 데 수년을 보냈습니다.
 
 
-🔤 Original: Prefer Strict Tables in SQLite
+🔤 Original: The Chinese Voice Actor Forced to Prove He's Human
 
-🔗 Read more: https://evanhahn.com/prefer-strict-tables-in-sqlite/</description>
-      <guid isPermaLink="true">https://evanhahn.com/prefer-strict-tables-in-sqlite/</guid>
-      <pubDate>Sat, 11 Jul 2026 17:33:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873940</comments>
+🔗 Read more: https://www.sixthtone.com/news/1018753</description>
+      <guid isPermaLink="true">https://www.sixthtone.com/news/1018753</guid>
+      <pubDate>Sat, 11 Jul 2026 19:46:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875153</comments>
     </item>
     <item>
-      <title>현대적인 장식은 사람들의 두뇌에 부담을 줄 수 있습니다</title>
-      <link>https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/</link>
-      <description>📝 줄무늬 사무실 바닥. 리뷰에 인용된 뇌 영상 연구에 따르면 불편한 이미지, 특히 줄무늬, 고대비 패턴은 자연 이미지보다 뇌의 시각적 영역에서 훨씬 더 큰 반응을 생성하는 것으로 나타났습니다. 시각적 불편함으로 가장 큰 타격을 받는 사람 대부분의 사람들은 어느 시점에서 어느 정도 시각적 불편함을 경험합니다.
+      <title>예전에는 클로드를 좋아했는데 최신 모델들이 점점 망가지고 있어요</title>
+      <link>https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</link>
+      <description>📝 지난 몇 주 동안 저는 Claude와 함께 일하기가 점점 더 어려워지고 있다는 것을 알게 되었습니다. 외계인들은 과거의 일부 사건이 종교적 전통이 믿는 것보다 더 평범했다고 효과적으로 주장하는데, 이는 물론 이야기 개념에 약간의 갈등을 초래합니다. 아니오라는 말을 듣는 것보다 더 나쁜 것은 무엇입니까?
 
 
-🔤 Original: Modern Decor May Be Straining People's Brains
+🔤 Original: I used to love Claude, but the latest models are slowly ruining it
 
-🔗 Read more: https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/</description>
-      <guid isPermaLink="true">https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/</guid>
-      <pubDate>Sat, 11 Jul 2026 16:28:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873424</comments>
-    </item>
-    <item>
-      <title>킬러 드론으로부터 숨는 방법</title>
-      <link>https://www.economist.com/science-and-technology/2026/07/08/how-to-hide-from-killer-drones</link>
-      <guid isPermaLink="true">https://www.economist.com/science-and-technology/2026/07/08/how-to-hide-from-killer-drones</guid>
-      <pubDate>Sat, 11 Jul 2026 18:22:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874357</comments>
-    </item>
-    <item>
-      <title>특이값 분해의 초기 역사(1993) [pdf]</title>
-      <link>https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf</link>
-      <description>📝 %�þ��ׯ� a��������v����=��j/����� oc���� ����X���� �. Ɏ ��V��b����I7~�C����l� � � ���� �~� � ���. ��K� %���O�)�_ᄟ�=w��0�/a� ԃ�'�� �_�B3 � �xAk��R� ��� ���� �}|.
-
-
-🔤 Original: The early History of the Singular Value Decomposition (1993) [pdf]
-
-🔗 Read more: https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf</description>
-      <guid isPermaLink="true">https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf</guid>
-      <pubDate>Sat, 11 Jul 2026 15:26:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48872858</comments>
-    </item>
-    <item>
-      <title>Nvidia, CoreWeave 및 Nebius: GPU 붐의 순환 금융 내부</title>
-      <link>https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom</link>
-      <description>📝 CoreWeave 및 Nebius와 같은 리더는 최신 Nvidia GPU에 대한 액세스를 통해 이를 지원하는 동시에 컴퓨팅 활용도를 최적화합니다. 특히 코어위브와 네비우스는 각각 3개를 확보했다. 코어위브는 1개를 목표로 하고 있다.
-
-
-🔤 Original: Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom
-
-🔗 Read more: https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom</description>
-      <guid isPermaLink="true">https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom</guid>
-      <pubDate>Sat, 11 Jul 2026 17:21:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873836</comments>
-    </item>
-    <item>
-      <title>AI는 추력 게임을 재현할 수 없습니다(하지만 이해하는 데 도움이 될 수 있음).</title>
-      <link>https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/</link>
-      <description>📝 어쨌든 슬롭으로 시작합니다. 그리고 그것은 Thrust와 같은 게임에 관한 것입니다. 하지만 Thrust 같은 느낌은 전혀 들지 않을 것입니다.
-
-
-🔤 Original: AI Can't Recreate the Thrust Game (But It Can Help You Understand It)
-
-🔗 Read more: https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/</description>
-      <guid isPermaLink="true">https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/</guid>
-      <pubDate>Fri, 10 Jul 2026 22:04:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48865903</comments>
-    </item>
-    <item>
-      <title>Sixtyfour (YC P25)에서 채용 중</title>
-      <link>https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</link>
-      <description>📝 Sixtyfour는 기업이 대규모로 강력한 맞춤형 데이터 세트를 생성할 수 있는 데이터 강화 플랫폼입니다. 고객은 고품질의 풍부한 데이터 세트를 원하고 이를 달성하는 데 도움이 필요하기 때문에 우리를 찾아옵니다. 고객이 질문하기도 전에 고객을 성공으로 안내하고 있습니다.
-
-
-🔤 Original: Sixtyfour (YC P25) Is Hiring
-
-🔗 Read more: https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</guid>
-      <pubDate>Sat, 11 Jul 2026 17:00:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873665</comments>
-    </item>
-    <item>
-      <title>납 함유 가스는 발명 당시 알려진 독극물이었습니다(2016)</title>
-      <link>https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/</link>
-      <description>📝 그 첨가물은 TEL 또는 납 테트라에틸이라고도 불리는 테트라에틸 납입니다. 이 화합물은 1854년에 발견된 매우 독성이 강한 화합물입니다. 해당 보고서에서는 노출 수준이 시간이 지남에 따라 증가할 수 있음을 인정했습니다. 그 납의 대부분은 무연 시대에 휘발유 연기로 오염된 환경에 여전히 존재합니다.
-
-
-🔤 Original: Leaded Gas Was a Known Poison the Day It Was Invented (2016)
-
-🔗 Read more: https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/</guid>
-      <pubDate>Sat, 11 Jul 2026 17:27:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873893</comments>
-    </item>
-    <item>
-      <title>미국 여성 조정 선수, 캘리포니아에서 하와이까지 역사적인 단독 여행 완료</title>
-      <link>https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</link>
-      <description>📝 서쪽으로 호놀룰루 항구가 보이는 호놀룰루의 와이키키 해변. 사진: Joe Sohm/Visions of America/Universal Images Group/Getty Images 캘리포니아에서 하와이까지 역사적인 단독 여행을 마친 미국 여성 조정 선수Kelsey Pfendler가 미국 여성 최초, 최연소 여성, 가장 빠른 여성이 되기 위해 출발했습니다. 중태평양을 단독으로 횡단하는 미국 여성 최초가 되겠다는 목표를 세운 그랜드 캐년 강 래프팅 가이드가 캘리포니아에서 하와이까지 기록적인 여행을 완료했습니다. 조직은 Pfendler의 마무리에 대한 Associated Press의 논평 요청에 즉시 응답하지 않았습니다.
-
-
-🔤 Original: Female US rower completes historic solo journey from California to Hawaii
-
-🔗 Read more: https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</description>
-      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</guid>
-      <pubDate>Sat, 11 Jul 2026 17:03:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873692</comments>
-    </item>
-    <item>
-      <title>HN 표시: Orbit – AR 위성 추적기, 15,000개 이상의 물체 관찰</title>
-      <link>https://nagylukas.github.io/orbit.html</link>
-      <description>📝 이 데이터는 해당 계산을 수행하기 위해 귀하의 장치에서만 사용됩니다. 수집하는 데이터 Orbit은 제한된 양의 진단 및 사용 데이터를 수집합니다. 이 정책이나 Orbit의 개인 정보 보호에 대해 문의하세요.
-
-
-🔤 Original: Show HN: Orbit – AR satellite tracker, watch 15k+ objects
-
-🔗 Read more: https://nagylukas.github.io/orbit.html</description>
-      <guid isPermaLink="true">https://nagylukas.github.io/orbit.html</guid>
-      <pubDate>Sat, 11 Jul 2026 16:39:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873501</comments>
-    </item>
-    <item>
-      <title>Show HN: Redis, Git, 데이터베이스를 처음부터 다시 구축하여 학습</title>
-      <link>https://shipthatcode.com</link>
-      <description>📝 처음부터 구축하세요. 또한 효율적인 쿼리 뒤에 있는 데이터 구조. ”첫 번째 레슨은 2분 정도 소요됩니다. 무료 계정을 만드세요. 영원히 무료입니다.
-
-
-🔤 Original: Show HN: Learn by rebuilding Redis, Git, a database from scratch
-
-🔗 Read more: https://shipthatcode.com</description>
-      <guid isPermaLink="true">https://shipthatcode.com</guid>
-      <pubDate>Sat, 11 Jul 2026 13:40:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48871973</comments>
-    </item>
-    <item>
-      <title>다시 없는 기쁨</title>
-      <link>https://en.wikipedia.org/wiki/BLISS</link>
-      <description>📝 무료 백과사전인 Wikipedia에서 시스템 프로그래밍 언어 다른 용도에 대해서는 Bliss를 참조하세요. 반면에 BLISS는 다른 고급 언어의 특정 기능을 생략합니다. BLISS는 고급 언어에서는 보기 드문 특성을 가지고 있습니다.
-
-
-🔤 Original: BLISS
-
-🔗 Read more: https://en.wikipedia.org/wiki/BLISS</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/BLISS</guid>
-      <pubDate>Sat, 11 Jul 2026 17:30:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873910</comments>
-    </item>
-    <item>
-      <title>Show HN: Earth Game – 인생 목표를 퀘스트로 전환하기 위한 오프라인 CLI</title>
-      <link>https://github.com/skorotkiewicz/earth-game</link>
-      <description>📝 /지구 캐릭터 편집. Earth Quest add|list|start|done|drop은 퀘스트를 관리합니다. /earth 내보내기 지구 내보내기.
-
-
-🔤 Original: Show HN: Earth Game – An offline CLI for turning life goals into quests
-
-🔗 Read more: https://github.com/skorotkiewicz/earth-game</description>
-      <guid isPermaLink="true">https://github.com/skorotkiewicz/earth-game</guid>
-      <pubDate>Sat, 11 Jul 2026 16:37:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873486</comments>
-    </item>
-    <item>
-      <title>리버스 켄타우로스(Reverse Centaurs)는 AI 역설의 해답이다</title>
-      <link>https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative</link>
-      <description>📝 최근 등장: 내가 있었던 곳. 리버스 켄타우로스(Reverse Centaur)는 인간을 보조자(무자비하고 무자비한 기계에 의해 조종당하는 연약하고 취약한 사람)로 사용하는 기계입니다. 즉, 그 작가의 임무는 기사를 쓰는 것이 아니었습니다.
-
-
-🔤 Original: Reverse centaurs are the answer to the AI paradox
-
-🔗 Read more: https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative</description>
-      <guid isPermaLink="true">https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative</guid>
-      <pubDate>Sat, 11 Jul 2026 17:23:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873855</comments>
-    </item>
-    <item>
-      <title>UPI: 결제 거래 분석</title>
-      <link>https://timeseriesofindia.com/economy/reads/upi-architecture/</link>
-      <description>📝 귀하의 휴대폰에 있는 앱은 첫 번째 링크일 뿐이며 귀하의 돈에 영향을 미치지 않습니다. 귀하의 PIN을 볼 수 없고, 귀하의 돈을 보관하지 않으며, 은행 라이센스도 가지고 있지 않습니다. 7 실제로 휴대폰을 떠나는 것은 돈이 아닙니다.
-
-
-🔤 Original: UPI: Anatomy of a Payment Transaction
-
-🔗 Read more: https://timeseriesofindia.com/economy/reads/upi-architecture/</description>
-      <guid isPermaLink="true">https://timeseriesofindia.com/economy/reads/upi-architecture/</guid>
-      <pubDate>Sat, 11 Jul 2026 16:33:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873457</comments>
-    </item>
-    <item>
-      <title>Show HN: Reame – 실행될수록 속도가 빨라지는 CPU 추론 서버</title>
-      <link>https://github.com/swellweb/reame</link>
-      <description>📝 ⚡ 구성이 없는 CLI — qwen2를 실행합니다. 하드웨어 모델 구성 결과 Oracle Cloud 프리 티어(2× ARM, 12 GB, €0/월) Qwen2. 6× 애플 M3 프로 Qwen2.
-
-
-🔤 Original: Show HN: Reame – a CPU inference server that gets faster as it runs
-
-🔗 Read more: https://github.com/swellweb/reame</description>
-      <guid isPermaLink="true">https://github.com/swellweb/reame</guid>
-      <pubDate>Sat, 11 Jul 2026 16:27:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873417</comments>
-    </item>
-    <item>
-      <title>이어렌델(천체)</title>
-      <link>https://en.wikipedia.org/wiki/Earendel_(astronomical_object)</link>
-      <description>📝 20″ Wikipedia의 무료 백과사전인 먼 별 또는 성단 "Earendel(별)"이 여기로 리디렉션됩니다. [5] 그러나 2020년대 제임스 웹 우주 망원경(JWST)의 추가 관측에 따르면 에아렌델은 성단일 가능성이 더 높은 것으로 나타났습니다. [20] 이는 성단 해석과 일치합니다.
-
-
-🔤 Original: Earendel (Astronomical Object)
-
-🔗 Read more: https://en.wikipedia.org/wiki/Earendel_(astronomical_object)</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Earendel_(astronomical_object)</guid>
-      <pubDate>Sat, 11 Jul 2026 17:24:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48873858</comments>
-    </item>
-    <item>
-      <title>HN에게 물어보세요: Google이 AT 프로토콜에 대한 정보를 색인화하지 않는 이유는 무엇입니까?</title>
-      <link>https://news.ycombinator.com/item?id=48874046</link>
-      <description>📝 나는 atproto에 관한 매우 기본적인 쿼리가 표시되지 않는 것을 한동안 관찰해 왔습니다. 그러나 어제 나는 "공개 atproto 릴레이 목록"이라는 매우 분명한 쿼리를 발견했습니다. 공개 atproto 릴레이 목록이 없습니다.
-
-
-🔤 Original: Ask HN: Why isn't Google indexing information about the AT Protocol?
-
-🔗 Read more: https://news.ycombinator.com/item?id=48874046</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48874046</guid>
-      <pubDate>Sat, 11 Jul 2026 17:44:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874046</comments>
+🔗 Read more: https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</description>
+      <guid isPermaLink="true">https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</guid>
+      <pubDate>Sat, 11 Jul 2026 20:21:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875494</comments>
     </item>
   </channel>
 </rss>
