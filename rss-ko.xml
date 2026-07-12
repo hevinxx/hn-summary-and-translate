@@ -6,171 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 12 Jul 2026 02:42:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 05:58:59 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Mesh LLM: iroh의 분산 AI 컴퓨팅</title>
-      <link>https://www.iroh.computer/blog/mesh-llm</link>
-      <description>📝 모델이 변경되는 시기, 데이터가 어디로 이동하는지, 워크로드를 실행하는 하드웨어에 대한 통제권을 포기하게 됩니다. 더 큰 GPU를 구입하지 않고도 더 큰 모델을 실행할 수 있습니다. 내부적으로 Mesh LLM은 iroh 엔드포인트 메시 전체에 모델 컴퓨팅을 분산합니다.
+      <title>2026년에 코드를 작성해야 하는 이유</title>
+      <link>https://softwaredoug.com/blog/2026/07/09/write-code.html</link>
+      <description>📝 코드를 작성하는 것은 여전히 ​​유용합니다. 우화와 같은 지능을 갖고 있더라도 인간은 코드 작성으로부터 가치를 얻습니다. 코드를 작성하면 생각하는 데 도움이 됩니다.
 
 
-🔤 Original: Mesh LLM: distributed AI computing on iroh
+🔤 Original: Why Write Code in 2026
 
-🔗 Read more: https://www.iroh.computer/blog/mesh-llm</description>
-      <guid isPermaLink="true">https://www.iroh.computer/blog/mesh-llm</guid>
-      <pubDate>Sat, 11 Jul 2026 22:38:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48876505</comments>
+🔗 Read more: https://softwaredoug.com/blog/2026/07/09/write-code.html</description>
+      <guid isPermaLink="true">https://softwaredoug.com/blog/2026/07/09/write-code.html</guid>
+      <pubDate>Sun, 12 Jul 2026 04:15:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48878195</comments>
     </item>
     <item>
-      <title>안정적으로 깨어나는 도크</title>
-      <link>https://fabiensanglard.net/tb4/index.html</link>
-      <description>📝 당시 최고의 Thunderbolt 도크인 CalDigit TS3조차도 때때로 시스템을 깨우지 못하는 경우가 있었습니다. Intel의 Thunderbolt 4 발표 보도 자료에서는 컴퓨터가 Thunderbolt 도크에 연결되어 있을 때 PC를 절전 모드에서 깨워야 한다는 섹션을 통해 내 문제를 해결한다고 구체적으로 언급했습니다. 어쩌면 깨어나는데 너무 오랜 시간이 걸렸을 수도 있습니다.
+      <title>Mac Studio에서 Qwen3.5-122B를 일일 드라이버로 만드는 세 가지 버그를 수정했습니다.</title>
+      <link>https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/</link>
+      <description>📝 새 모델을 실제로 사용할 수 있게 만드는 것은 내가 실행한 모델과 아무 관련이 없는 내 서빙 스택의 세 가지 버그를 수정하는 것을 의미했습니다. 완전히 오프라인으로 실행되는 독점 시스템과 경쟁하는 122B 모델입니다. 이 모델의 경우 메모리 내 접두사 캐시가 매번 누락됩니다.
 
 
-🔤 Original: A dock that wakes up reliably
+🔤 Original: Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio
 
-🔗 Read more: https://fabiensanglard.net/tb4/index.html</description>
-      <guid isPermaLink="true">https://fabiensanglard.net/tb4/index.html</guid>
-      <pubDate>Sun, 12 Jul 2026 00:48:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877269</comments>
-    </item>
-    <item>
-      <title>순수한 구성표 웹 프로그래밍 도구</title>
-      <link>https://goeteia.dev</link>
-      <description>📝 (web sx) 세분화된(웹 반응형) 신호에 대한 템플릿, (web html) 렌더러 및 호스트에 직접 도달하는 (web js) FFI — 이 페이지는 이를 통해 구축되었습니다. (웹 3)은 반응형 3을 구축합니다. (웹 가져오기)는 Wasm JSPI를 통해 직접 스타일을 만듭니다. (웹 ws) / (웹 sse) 푸시 데이터 스트림; (web json)은 다른 모든 사람을 처리합니다.
-
-
-🔤 Original: A pure scheme web programming tool
-
-🔗 Read more: https://goeteia.dev</description>
-      <guid isPermaLink="true">https://goeteia.dev</guid>
-      <pubDate>Sun, 12 Jul 2026 00:57:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877314</comments>
-    </item>
-    <item>
-      <title>RISCBoy는 처음부터 설계된 오픈 소스 휴대용 게임 콘솔입니다.</title>
-      <link>https://github.com/Wren6991/RISCBoy</link>
-      <description>📝 RV32IMC 도구 체인 구축 RV32IMC 도구 체인은 소프트웨어 기반 테스트를 컴파일하는 데 필요합니다. 소프트웨어 테스트에는 RV32IC 툴체인이 필요합니다. iCE40용 합성 FPGA 합성은 오픈 소스 툴체인을 사용합니다.
-
-
-🔤 Original: RISCBoy is an open-source portable games console, designed from scratch
-
-🔗 Read more: https://github.com/Wren6991/RISCBoy</description>
-      <guid isPermaLink="true">https://github.com/Wren6991/RISCBoy</guid>
-      <pubDate>Sat, 11 Jul 2026 21:58:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48876245</comments>
-    </item>
-    <item>
-      <title>우리는 단순한 유체가 흐를 수 있다는 것을 알고 있습니다. 일부는 파손될 수 있음이 밝혀졌습니다</title>
-      <link>https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</link>
-      <description>📝 그러나 비탄성 단순 유체의 균열로 인해 그들은 그 아이디어에 의문을 제기하게 되었습니다. 그러나 리마는 비탄성 단순유체를 가지고 작업하고 있었습니다. 하지만 리마가 작업하고 있던 탄화수소 혼합물은 단순한 유체였습니다.
-
-
-🔤 Original: We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture
-
-🔗 Read more: https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</description>
-      <guid isPermaLink="true">https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</guid>
-      <pubDate>Sun, 12 Jul 2026 02:13:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877668</comments>
-    </item>
-    <item>
-      <title>클라우드 중단 및 이로 인해 발생하는 SLA 크레딧에 대한 공개 원장</title>
-      <link>https://slacreditwatch.com</link>
-      <description>📝 중단이 SLA 크레딧 임계값을 초과하면 조건에 따라 부여된 크레딧과 제출 기한이 표시됩니다. 공개 사고 VendorIncidentStartedDurationImpactStatus 콜롬비아의 여러 네트워크에 대한 Twilio 단축 코드 하위 집합에서 Twilio SMS 배달 지연 2026년 7월 11일 19:19 UTC 7시간 21분 현재까지 저하됨 ●공개 공급업체가 Amazon Web Services Cloudflare Google Cloud Microsoft 365 Microsoft Azure Slack Twilio Zoom 구독 공급업체 중 하나에 SLA를 트리거하는 중단이 발생한 경우 신용 계산 및 제출 마감일을 이메일로 보내드립니다. 이메일 공급업체 Amazon Web Services Cloudflare Google Cloud Microsoft 365 Microsoft Azure Slack Twilio Zoom 구독.
-
-
-🔤 Original: A public ledger of cloud outages and the SLA credits they trigger
-
-🔗 Read more: https://slacreditwatch.com</description>
-      <guid isPermaLink="true">https://slacreditwatch.com</guid>
-      <pubDate>Sun, 12 Jul 2026 00:02:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877009</comments>
-    </item>
-    <item>
-      <title>셀룰러 컴퓨팅의 에너지 비용(2012)</title>
-      <link>https://arxiv.org/abs/1203.5426</link>
-      <description>📝 ) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?) ScienceCast Toggle ScienceCast(ScienceCast란 무엇입니까?)
-
-
-🔤 Original: The Energetic Costs of Cellular Computation (2012)
-
-🔗 Read more: https://arxiv.org/abs/1203.5426</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/1203.5426</guid>
-      <pubDate>Sun, 12 Jul 2026 01:59:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877613</comments>
-    </item>
-    <item>
-      <title>장기간의 코로나19로 인해 위를 조절하는 신경이 물리적으로 손상될 수 있음</title>
-      <link>https://www.ijidonline.com/article/S1201-9712(26)00608-9/fulltext</link>
-      <guid isPermaLink="true">https://www.ijidonline.com/article/S1201-9712(26)00608-9/fulltext</guid>
-      <pubDate>Sun, 12 Jul 2026 00:35:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877192</comments>
-    </item>
-    <item>
-      <title>xAI의 Grok Build CLI가 실제로 xAI에 보내는 내용</title>
-      <link>https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</link>
-      <description>📝 Grok은 작업공간을 패키징하고 POST /v1/storage를 통해 업로드합니다. /downloads/grok-macos-aarch64 Mach-O 64비트 실행 가능 arm64 grok 0.rs grok-code-session-traces 저장소.
-
-
-🔤 Original: What xAI's Grok Build CLI Actually Sends to xAI
-
-🔗 Read more: https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</description>
-      <guid isPermaLink="true">https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</guid>
-      <pubDate>Sun, 12 Jul 2026 01:09:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877371</comments>
-    </item>
-    <item>
-      <title>의사들은 죽습니다. 우리와는 다르지만 그래야 한다(2016)</title>
-      <link>https://archive.cancerworld.net/featured/how-doctors-die/</link>
-      <description>📝 그들은 무슨 일이 일어날지 정확히 알고 선택 사항도 알고 있으며 일반적으로 원하는 모든 종류의 의료 서비스를 받을 수 있습니다. 그들은 가족들과 이에 대해 이야기했습니다. 의사가 "모든 것"을 완료하기를 원하는지 물으면 그들은 그렇다고 대답합니다.
-
-
-🔤 Original: Doctors die. It's not like the rest of us, but it should be (2016)
-
-🔗 Read more: https://archive.cancerworld.net/featured/how-doctors-die/</description>
-      <guid isPermaLink="true">https://archive.cancerworld.net/featured/how-doctors-die/</guid>
-      <pubDate>Sat, 11 Jul 2026 23:15:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48876741</comments>
-    </item>
-    <item>
-      <title>Erlang 스타일의 순수 Scheme 웹서버 및 그 이상</title>
-      <link>https://igropyr.com</link>
-      <description>📝 모든 요청은 감독되는 작업자 풀에서 실행됩니다. 우아한 종료(http-shutdown)와 결합됩니다. Igropyr는 libuv에 직접 도달하는 일류 FFI를 갖춘 가장 빠른 Scheme 컴파일러인 Chez Scheme을 기반으로 구축되었습니다.
-
-
-🔤 Original: A Erlang style pure Scheme Webserver and further
-
-🔗 Read more: https://igropyr.com</description>
-      <guid isPermaLink="true">https://igropyr.com</guid>
-      <pubDate>Sun, 12 Jul 2026 01:03:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877344</comments>
-    </item>
-    <item>
-      <title>Show HN: Sqlsure – AI 생성 SQL에 대한 결정론적 의미 검사</title>
-      <link>https://github.com/sqlsure/sqlsure</link>
-      <description>📝 sqlsure AI가 SQL을 작성합니다. sqlsure는 그것이 올바른지 확인합니다. sqlsure는 결정론적으로 0에서 수행합니다.
-
-
-🔤 Original: Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL
-
-🔗 Read more: https://github.com/sqlsure/sqlsure</description>
-      <guid isPermaLink="true">https://github.com/sqlsure/sqlsure</guid>
-      <pubDate>Sat, 11 Jul 2026 20:03:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48875342</comments>
-    </item>
-    <item>
-      <title>철폐를 사용했던 미국의 마지막 소아마비 환자 마사 릴라드(Martha Lillard)가 오클라호마에서 78세의 나이로 사망했습니다.</title>
-      <link>https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</link>
-      <description>📝 Lillard는 한동안 운전도 할 수 있었습니다. McVey는 "그들은 정말 소울메이트였습니다."라고 말했습니다. “하지만 그녀가 마지막 사람이니까 더 이상 그런 건 필요하지 않아요.” McVey가 눈물을 흘리며 말했습니다.
-
-
-🔤 Original: Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma
-
-🔗 Read more: https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</description>
-      <guid isPermaLink="true">https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</guid>
-      <pubDate>Sun, 12 Jul 2026 00:32:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48877178</comments>
+🔗 Read more: https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/</description>
+      <guid isPermaLink="true">https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/</guid>
+      <pubDate>Sat, 11 Jul 2026 22:54:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48876619</comments>
     </item>
   </channel>
 </rss>
