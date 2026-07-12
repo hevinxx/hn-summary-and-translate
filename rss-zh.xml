@@ -6,86 +6,178 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 16:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 19:06:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>人工智能促进了研究事业的发展，但使科学发现变得扁平化</title>
-      <link>https://spectrum.ieee.org/ai-science-research-flattens-discovery</link>
-      <description>📝 AIMarch 2026杂志新闻人工智能促进了研究职业但扁平化了科学发现新的分析表明人工智能工具缩小了埃利·多尔金探索的想法的范围20265年1月19日分钟阅读埃利·多尔金是一位专门从事生物医学研究的科学作家。妮可·米尔曼；来源图片：iStock。
+      <title>Claude Code 在阅读提示之前发送了 33k 令牌； OpenCode 发送 7k</title>
+      <link>https://systima.ai/blog/claude-code-vs-opencode-token-overhead</link>
+      <description>📝 Claude Code 带有 --tools "" 和 OpenCode 带有 "tools": {"*": false}，将系统提示与工具模式权重分开。以下是每个安全带在第一次请求时发送的内容。 Claude Code 的请求是一个平台引导程序。
 
 
-🔤 Original: AI Boosts Research Careers but Flattens Scientific Discovery
+🔤 Original: Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k
 
-🔗 Read more: https://spectrum.ieee.org/ai-science-research-flattens-discovery</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/ai-science-research-flattens-discovery</guid>
-      <pubDate>Sun, 12 Jul 2026 13:26:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48881043</comments>
+🔗 Read more: https://systima.ai/blog/claude-code-vs-opencode-token-overhead</description>
+      <guid isPermaLink="true">https://systima.ai/blog/claude-code-vs-opencode-token-overhead</guid>
+      <pubDate>Sun, 12 Jul 2026 18:25:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48883275</comments>
     </item>
     <item>
-      <title>吉娜国际朴素艺术画廊</title>
-      <link>https://www.ginagallery.com/</link>
-      <description>📝 画廊横跨两层，展示来自 30 多个不同国家的 100 多名艺术家。这种丰富性为理解朴素流派及其源于不同文化、传统和心态以及每位艺术家独特风格的各种表达方式提供了广阔的视角。吉娜画廊带领参观者踏上一段宏伟的国际天真之旅。
-
-
-🔤 Original: Gina Gallery of International Naive Art
-
-🔗 Read more: https://www.ginagallery.com/</description>
-      <guid isPermaLink="true">https://www.ginagallery.com/</guid>
-      <pubDate>Sun, 12 Jul 2026 13:18:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48880985</comments>
+      <title>带状疱疹疫苗可以降低患痴呆症的风险</title>
+      <link>https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain</link>
+      <guid isPermaLink="true">https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain</guid>
+      <pubDate>Sun, 12 Jul 2026 15:23:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48881874</comments>
     </item>
     <item>
-      <title>摩托罗拉 MR2600 路由器中未经身份验证的 RCE</title>
-      <link>https://mrbruh.com/motorola/</link>
-      <description>📝 我发现的第一个例外是摩托罗拉 MR2600。 html 固件更新页面包含： &lt;form id="fwupload" action="/WEBCGI1/prog.cgi" method="post" enctype="multipart/form-data"&gt; 这允许管理员手动升级摩托罗拉固件。
+      <title>不是说灭绝了吗？</title>
+      <link>https://fabiensanglard.net/extinct/index.html</link>
+      <description>📝 每一代程序员都可能经历过某种形式的重新进化。我见过有关“精神倦怠”的报道，我也亲身经历过精神疲劳加剧。考虑到这些工具有多好，我在代码审查期间抱有更高的期望。
 
 
-🔤 Original: Unauthenticated RCE in Motorola's MR2600 Router
+🔤 Original: Don't you mean extinct?
 
-🔗 Read more: https://mrbruh.com/motorola/</description>
-      <guid isPermaLink="true">https://mrbruh.com/motorola/</guid>
-      <pubDate>Sun, 12 Jul 2026 11:52:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48880406</comments>
+🔗 Read more: https://fabiensanglard.net/extinct/index.html</description>
+      <guid isPermaLink="true">https://fabiensanglard.net/extinct/index.html</guid>
+      <pubDate>Sun, 12 Jul 2026 15:17:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48881830</comments>
     </item>
     <item>
-      <title>Show HN：Skillscript – 用于工具编排的声明性沙盒语言</title>
-      <link>https://github.com/sshwarts/skillscript</link>
-      <description>📝 这些项目回答“代理知道什么。代理不会以这种方式进行迭代。包生态系统假设在采用之前进行人工审查；代理的采用打破了这一假设。
+      <title>无需理解的自动化</title>
+      <link>https://arxiv.org/abs/2607.06377</link>
+      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
 
 
-🔤 Original: Show HN: Skillscript – A declarative, sandboxed language for tool orchestration
+🔤 Original: Automation Without Understanding
 
-🔗 Read more: https://github.com/sshwarts/skillscript</description>
-      <guid isPermaLink="true">https://github.com/sshwarts/skillscript</guid>
-      <pubDate>Sun, 12 Jul 2026 13:34:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48881112</comments>
+🔗 Read more: https://arxiv.org/abs/2607.06377</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2607.06377</guid>
+      <pubDate>Sun, 12 Jul 2026 16:54:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48882554</comments>
     </item>
     <item>
-      <title>莫阿纳背后的谜团：1700年后，为什么波利尼西亚人突然向东航行？</title>
-      <link>https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226</link>
-      <description>📝 其余的岛屿群岛随后迅速定居。红薯在太平洋岛屿周围的传播表明它们可能也与美洲大陆发生了接触。至关重要的是，这次干旱恰逢岛屿人口较多的时期。
+      <title>反对有用性</title>
+      <link>https://www.motivenotes.ai/p/against-usefulness</link>
+      <description>📝 反对有用性在布鲁克林的一个仓库里，一个男人递给我一张纸，上面是一个正在运行的计算机程序。这就是程序本身。我并不反对这条路线。
 
 
-🔤 Original: Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?
+🔤 Original: Against Usefulness
 
-🔗 Read more: https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226</description>
-      <guid isPermaLink="true">https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226</guid>
-      <pubDate>Sun, 12 Jul 2026 12:17:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48880564</comments>
+🔗 Read more: https://www.motivenotes.ai/p/against-usefulness</description>
+      <guid isPermaLink="true">https://www.motivenotes.ai/p/against-usefulness</guid>
+      <pubDate>Sun, 12 Jul 2026 17:47:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48882956</comments>
     </item>
     <item>
-      <title>制作古惑狼 (2011)</title>
-      <link>https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/</link>
-      <description>📝 写作安迪·加文：作者关于我的小说和写作所有写作帖子《黑暗之梦》在线购买该书示例章节评论供审稿人的信息新闻报道奖项人物演员阵容不限时购买不定时在线书籍预告片示例章节评论供审稿人的信息新闻报道奖项人物演员代写人 – 作家的文字处理器iPad 适合作家顽皮的黑暗竞赛书籍书评索引最喜欢的奇幻小说安迪·加文：作者《黑暗之梦》在线购买书籍示例章节短篇小说：哈佛神学评论 评论者信息 新闻报道 奖项 人物阵容 不限时 关于这本书 购买不定时在线图书预告片 示例章节 评论 评论者信息 新闻报道 奖项 人物阵容 顽皮黑暗竞赛游戏 我的视频游戏职业帖子 按系列存档 所有游戏帖子 内联制作 古惑狼 崩溃 15 周年纪念 魔兽世界 终局游戏 找一份工作 设计视频游戏 找一份工作 编程 视频游戏 顽皮黑暗竞赛 电影电影评论指数 电视 电视评论指数 吸血鬼猎人巴菲 权力的游戏 食物 美食评论指数 美食俱乐部享乐主义者 洛杉矶寿司指数 中国美食指数 洛杉矶北京烤鸭指南 吃意大利 吃法国 吃西班牙 吃土耳其 吃荷兰 吃克罗地亚 吃越南 吃澳大利亚 吃以色列 终极披萨 谢谢加文玛格丽塔混合 美食家摄影 勃艮第葡萄酒图表 其他 所有帖子，杂志风格 所有帖子存档 小说 技术 历史 其他 画廊 生物 关于 关于我 关于我我写的关于我的视频游戏的文章 有什么问题请联系我。
+      <title>Show HN：Shirei，原生 Go 中的跨平台 GUI 框架</title>
+      <link>https://github.com/hasenj/go-shirei/</link>
+      <description>📝 不幸的是，没有好的库或框架可以正常工作。对于“立即模式”来说，重要的是什么？入门 将其复制到 main.c 中。
 
 
-🔤 Original: Making Crash Bandicoot (2011)
+🔤 Original: Show HN: Shirei, cross-platform GUI framework in native Go
 
-🔗 Read more: https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/</description>
-      <guid isPermaLink="true">https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/</guid>
-      <pubDate>Sun, 12 Jul 2026 13:18:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48880987</comments>
+🔗 Read more: https://github.com/hasenj/go-shirei/</description>
+      <guid isPermaLink="true">https://github.com/hasenj/go-shirei/</guid>
+      <pubDate>Sun, 12 Jul 2026 16:55:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48882562</comments>
+    </item>
+    <item>
+      <title>LARP——严肃创始人的收入基础设施</title>
+      <link>https://www.larp.website/</link>
+      <description>📝 无需客户。每个条目都完美协调，因为每个条目都有匹配的条目。 LARP 要求所有协议都指定真实的可交付成果。
+
+
+🔤 Original: LARP – Revenue infrastructure for serious founders
+
+🔗 Read more: https://www.larp.website/</description>
+      <guid isPermaLink="true">https://www.larp.website/</guid>
+      <pubDate>Sun, 12 Jul 2026 16:56:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48882569</comments>
+    </item>
+    <item>
+      <title>为什么要研究丢番图方程？</title>
+      <link>https://hidden-phenomena.com/articles/modular</link>
+      <description>📝 以下是模算术中一些真实方程的示例：\[6 \equiv 2 \pmod{4},\] \[3 \equiv -3 \pmod{6},\] \[27 \equiv 0 \pmod{9}。独特的质因数分解对模运算有影响。 \) 换句话说，单模算术方程 \[920 \equiv 2 \pmod{54}\] 等价于两个方程 \[920 \equiv 2 \pmod{2},\] \[920 \equiv 2 \pmod{3^3}。
+
+
+🔤 Original: Why study Diophantine equations?
+
+🔗 Read more: https://hidden-phenomena.com/articles/modular</description>
+      <guid isPermaLink="true">https://hidden-phenomena.com/articles/modular</guid>
+      <pubDate>Sun, 12 Jul 2026 15:53:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48882097</comments>
+    </item>
+    <item>
+      <title>我们能理解大型语言模型的推理能力吗？</title>
+      <link>https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/</link>
+      <guid isPermaLink="true">https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/</guid>
+      <pubDate>Sun, 12 Jul 2026 18:04:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48883090</comments>
+    </item>
+    <item>
+      <title>Theo de Raadt：“你一直在吸一些改变心智的东西”（2007）</title>
+      <link>https://marc.info/?l=openbsd-misc&amp;m=119318909016582</link>
+      <description>📝 '回复：关于 Xen：也许是一个重复的问题，但是。 ' - MARC [列表中的上一个] [列表中的下一个] [线程中的上一个] [线程中的下一个] 列表：openbsd-misc 主题：回复：关于 Xen：也许是一个重复的问题，但是。 [列表中的上一个] [列表中的下一个] [线程中的上一个] [线程中的下一个] 配置 |关于 |新闻 |添加列表 |由 KoreLogic 赞助。
+
+
+🔤 Original: Theo de Raadt: "You've been smoking something mind altering" (2007)
+
+🔗 Read more: https://marc.info/?l=openbsd-misc&amp;m=119318909016582</description>
+      <guid isPermaLink="true">https://marc.info/?l=openbsd-misc&amp;m=119318909016582</guid>
+      <pubDate>Sun, 12 Jul 2026 16:05:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48882189</comments>
+    </item>
+    <item>
+      <title>协作的力量：我们如何减少交通拥堵</title>
+      <link>https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/</link>
+      <description>📝 虽然单个车辆路线是所有顶级导航产品的标准配置，但尚不存在对整个路线系统进行优化的情况。在“治疗”期间，修改后的路线将所有遇到预先选择的拥堵路段的行程引导至行程时间相似的替代路线。这些修改以类似成本的替代路径重新规划行程，远离这些路段，从而减少了这些路段内原本会经历的交通流量。
+
+
+🔤 Original: The power of collaboration: How we can reduce traffic congestion
+
+🔗 Read more: https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/</description>
+      <guid isPermaLink="true">https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/</guid>
+      <pubDate>Sun, 12 Jul 2026 15:35:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48881967</comments>
+    </item>
+    <item>
+      <title>如何阅读更多书籍</title>
+      <link>https://scotto.me/blog/2026-07-12-how-to-read-more-books/</link>
+      <description>📝 我并不总是读这么多。首先，你不必腾出时间来读书。我做饭或晚餐时看书，吃早餐时我看书。
+
+
+🔤 Original: How to Read More Books
+
+🔗 Read more: https://scotto.me/blog/2026-07-12-how-to-read-more-books/</description>
+      <guid isPermaLink="true">https://scotto.me/blog/2026-07-12-how-to-read-more-books/</guid>
+      <pubDate>Sun, 12 Jul 2026 15:47:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48882056</comments>
+    </item>
+    <item>
+      <title>Autoresearch，克劳德和约束优化</title>
+      <link>https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization/</link>
+      <description>📝 您可能还存在一些限制 e。这与整体压缩基准一起提供了良好的文件基准。拥有这个样本集意味着存在高熵和低熵文件格式的混合。
+
+
+🔤 Original: Autoresearch, Claude and Constrained Optimization
+
+🔗 Read more: https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization/</description>
+      <guid isPermaLink="true">https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization/</guid>
+      <pubDate>Sun, 12 Jul 2026 14:32:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48881498</comments>
+    </item>
+    <item>
+      <title>状态更新的消亡：为什么 55% 的美国人停止在社交媒体上发帖</title>
+      <link>https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media</link>
+      <description>📝 社交媒体感觉更像是工作而不是乐趣为什么人们想要退出，但又不想什么最终会让你删除你的帐户。社交媒体感觉更像是工作而不是娱乐我之前提到过，我喜欢在下班后查看我的社交媒体。我们这些婴儿潮一代显然对此更加放松，只有 38% 的人表示维持社交存在就像工作一样。
+
+
+🔤 Original: Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media
+
+🔗 Read more: https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media</description>
+      <guid isPermaLink="true">https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media</guid>
+      <pubDate>Sun, 12 Jul 2026 10:14:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48879902</comments>
     </item>
   </channel>
 </rss>
