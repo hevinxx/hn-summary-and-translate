@@ -6,45 +6,135 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 21:50:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 02:42:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Show HN: Ant – A JavaScript runtime and ecosystem</title>
-      <link>https://antjs.org</link>
-      <guid isPermaLink="true">https://antjs.org</guid>
-      <pubDate>Sat, 11 Jul 2026 20:07:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48875377</comments>
+      <title>Mesh LLM: distributed AI computing on iroh</title>
+      <link>https://www.iroh.computer/blog/mesh-llm</link>
+      <description>📝 You give up control over when models change, where your data goes, and what hardware runs your workloads. Run bigger models without buying bigger GPUs. Under the hood, Mesh LLM distributes model compute across a mesh of iroh endpoints.
+
+🔗 Read more: https://www.iroh.computer/blog/mesh-llm</description>
+      <guid isPermaLink="true">https://www.iroh.computer/blog/mesh-llm</guid>
+      <pubDate>Sat, 11 Jul 2026 22:38:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48876505</comments>
     </item>
     <item>
-      <title>ZeroFS vs. Amazon S3 Files</title>
-      <link>https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</link>
-      <description>📝 ” That one-file, one-object identity is deliberately absent from the ZeroFS storage format. Both mounts use the client page cache. Amazon S3 FilesZeroFS Storage modelAWS-managed high-performance storage synchronized with a bucket; internal layout not documentedAn LSM tree and immutable data segments on object storage Object layoutOne file maps to one S3 objectMetadata in an LSM tree; file-data frames packed into segments Write path after client cacheNFS write to high-performance storage, durable immediately; asynchronous S3 export after write inactivityOver 9P, fsync uploads data segments and flushes LSM metadata to object storage before returning success Cold read and read-aheadLinux NFS read-ahead, directory metadata import, optional small-file import, or direct S3 readLSM lookup, then adaptive object and cross-segment frame prefetch S3 API access to filesYes; filesystem changes appear after asynchronous exportNo; reading files requires ZeroFS and the encryption password Client interfaceNFS 4.
+      <title>A dock that wakes up reliably</title>
+      <link>https://fabiensanglard.net/tb4/index.html</link>
+      <description>📝 Even the best Thunderbolt dock at the time, the CalDigit TS3, would occasionally fail to wake up the system. Intel's Thunderbolt 4 Announcement Press Deck specifically mentioned solving my very problem with a section stating Required PC wake from sleep when computer is connected to a Thunderbolt dock. Maybe it simply took too long to wake up.
 
-🔗 Read more: https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</description>
-      <guid isPermaLink="true">https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</guid>
-      <pubDate>Sat, 11 Jul 2026 18:15:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874297</comments>
+🔗 Read more: https://fabiensanglard.net/tb4/index.html</description>
+      <guid isPermaLink="true">https://fabiensanglard.net/tb4/index.html</guid>
+      <pubDate>Sun, 12 Jul 2026 00:48:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877269</comments>
     </item>
     <item>
-      <title>The Chinese Voice Actor Forced to Prove He's Human</title>
-      <link>https://www.sixthtone.com/news/1018753</link>
-      <description>📝 Since 2025, AI copies of Shen’s voice have spread so widely online that platforms have begun flagging his real recordings as synthetic. Worse, the more widely Shen’s cloned voice circulates, the more often he has to prove that his own recordings are real. But long before he became trapped in this Kafkaesque spiral, Shen had spent years turning his voice into a career.
+      <title>A pure scheme web programming tool</title>
+      <link>https://goeteia.dev</link>
+      <description>📝 (web sx) templates over fine-grained (web reactive) signals, an (web html) renderer, and a (web js) FFI that reaches straight into the host — this page is built with it. (web three) builds reactive Three. (web fetch) makes it direct-style over Wasm JSPI; (web ws) / (web sse) push datum streams; (web json) handles everyone else.
 
-🔗 Read more: https://www.sixthtone.com/news/1018753</description>
-      <guid isPermaLink="true">https://www.sixthtone.com/news/1018753</guid>
-      <pubDate>Sat, 11 Jul 2026 19:46:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48875153</comments>
+🔗 Read more: https://goeteia.dev</description>
+      <guid isPermaLink="true">https://goeteia.dev</guid>
+      <pubDate>Sun, 12 Jul 2026 00:57:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877314</comments>
     </item>
     <item>
-      <title>I used to love Claude, but the latest models are slowly ruining it</title>
-      <link>https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</link>
-      <description>📝 Over the last few weeks, I’ve found that Claude is increasingly difficult to work with. The aliens effectively claim that some past events were more ordinary than religious traditions believe, which, of course, leads to some conflict in the story concept. What’s worse than being told no.
+      <title>RISCBoy is an open-source portable games console, designed from scratch</title>
+      <link>https://github.com/Wren6991/RISCBoy</link>
+      <description>📝 Building RV32IMC Toolchain The RV32IMC toolchain is required for compilation of software-based tests. Software tests will require the RV32IC toolchain. Synthesis FPGA synthesis for iCE40 uses an open-source toolchain.
 
-🔗 Read more: https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</description>
-      <guid isPermaLink="true">https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</guid>
-      <pubDate>Sat, 11 Jul 2026 20:21:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48875494</comments>
+🔗 Read more: https://github.com/Wren6991/RISCBoy</description>
+      <guid isPermaLink="true">https://github.com/Wren6991/RISCBoy</guid>
+      <pubDate>Sat, 11 Jul 2026 21:58:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48876245</comments>
+    </item>
+    <item>
+      <title>We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture</title>
+      <link>https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</link>
+      <description>📝 But a crack in a nonelastic simple fluid has them questioning that idea. But Lima was working with a nonelastic simple fluid. But the hydrocarbon blend that Lima was working with was a simple fluid.
+
+🔗 Read more: https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</description>
+      <guid isPermaLink="true">https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</guid>
+      <pubDate>Sun, 12 Jul 2026 02:13:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877668</comments>
+    </item>
+    <item>
+      <title>A public ledger of cloud outages and the SLA credits they trigger</title>
+      <link>https://slacreditwatch.com</link>
+      <description>📝 When an outage crosses an SLA credit threshold, it shows the credit the terms entitle you to and the filing deadline. Open incidents VendorIncidentStartedDurationImpactStatus Twilio SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in Colombia Jul 11, 2026 19:19 UTC 7h 21m so far degraded ●Open Vendors tracked Amazon Web Services Cloudflare Google Cloud Microsoft 365 Microsoft Azure Slack Twilio Zoom Subscribe When one of your vendors has an outage that triggers an SLA credit, we email you the credit math and the filing deadline. Email Vendors Amazon Web Services Cloudflare Google Cloud Microsoft 365 Microsoft Azure Slack Twilio Zoom Subscribe.
+
+🔗 Read more: https://slacreditwatch.com</description>
+      <guid isPermaLink="true">https://slacreditwatch.com</guid>
+      <pubDate>Sun, 12 Jul 2026 00:02:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877009</comments>
+    </item>
+    <item>
+      <title>The Energetic Costs of Cellular Computation (2012)</title>
+      <link>https://arxiv.org/abs/1203.5426</link>
+      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
+
+🔗 Read more: https://arxiv.org/abs/1203.5426</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/1203.5426</guid>
+      <pubDate>Sun, 12 Jul 2026 01:59:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877613</comments>
+    </item>
+    <item>
+      <title>Long Covid May Physically Damage the Nerves That Control the Stomach</title>
+      <link>https://www.ijidonline.com/article/S1201-9712(26)00608-9/fulltext</link>
+      <guid isPermaLink="true">https://www.ijidonline.com/article/S1201-9712(26)00608-9/fulltext</guid>
+      <pubDate>Sun, 12 Jul 2026 00:35:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877192</comments>
+    </item>
+    <item>
+      <title>What xAI's Grok Build CLI Actually Sends to xAI</title>
+      <link>https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</link>
+      <description>📝 Grok packages the workspace and uploads it via POST /v1/storage. /downloads/grok-macos-aarch64 Mach-O 64-bit executable arm64 grok 0. rs grok-code-session-traces storage.
+
+🔗 Read more: https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</description>
+      <guid isPermaLink="true">https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</guid>
+      <pubDate>Sun, 12 Jul 2026 01:09:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877371</comments>
+    </item>
+    <item>
+      <title>Doctors die. It's not like the rest of us, but it should be (2016)</title>
+      <link>https://archive.cancerworld.net/featured/how-doctors-die/</link>
+      <description>📝 They know exactly what is going to happen, they know the choices, and they generally have access to any sort of medical care they could want. They’ve talked about this with their families. When doctors ask if they want “everything” done, they answer yes.
+
+🔗 Read more: https://archive.cancerworld.net/featured/how-doctors-die/</description>
+      <guid isPermaLink="true">https://archive.cancerworld.net/featured/how-doctors-die/</guid>
+      <pubDate>Sat, 11 Jul 2026 23:15:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48876741</comments>
+    </item>
+    <item>
+      <title>A Erlang style pure Scheme Webserver and further</title>
+      <link>https://igropyr.com</link>
+      <description>📝 Every request runs in a supervised worker pool. Combined with graceful shutdown (http-shutdown. Igropyr is built on Chez Scheme — the fastest Scheme compiler, with a first-class FFI that reaches libuv directly.
+
+🔗 Read more: https://igropyr.com</description>
+      <guid isPermaLink="true">https://igropyr.com</guid>
+      <pubDate>Sun, 12 Jul 2026 01:03:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877344</comments>
+    </item>
+    <item>
+      <title>Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL</title>
+      <link>https://github.com/sqlsure/sqlsure</link>
+      <description>📝 sqlsure AI writes your SQL. sqlsure makes sure it's right. sqlsure does — deterministically, in 0.
+
+🔗 Read more: https://github.com/sqlsure/sqlsure</description>
+      <guid isPermaLink="true">https://github.com/sqlsure/sqlsure</guid>
+      <pubDate>Sat, 11 Jul 2026 20:03:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875342</comments>
+    </item>
+    <item>
+      <title>Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma</title>
+      <link>https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</link>
+      <description>📝 Lillard was even able to drive for a time. “They were really soul mates,” McVey said. “But since she's the last one, we don't need that anymore,” McVey said through tears.
+
+🔗 Read more: https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</description>
+      <guid isPermaLink="true">https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</guid>
+      <pubDate>Sun, 12 Jul 2026 00:32:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877178</comments>
     </item>
   </channel>
 </rss>

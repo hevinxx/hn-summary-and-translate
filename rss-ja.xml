@@ -6,54 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Jul 2026 21:50:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 02:42:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Show HN: Ant – JavaScript ランタイムとエコシステム</title>
-      <link>https://antjs.org</link>
-      <guid isPermaLink="true">https://antjs.org</guid>
-      <pubDate>Sat, 11 Jul 2026 20:07:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48875377</comments>
+      <title>Mesh LLM: iroh 上の分散型 AI コンピューティング</title>
+      <link>https://www.iroh.computer/blog/mesh-llm</link>
+      <description>📝 モデルがいつ変更されるか、データがどこに送信されるか、どのハードウェアがワークロードを実行するかを制御することを放棄します。より大きな GPU を購入せずに、より大きなモデルを実行できます。 Mesh LLM は内部的に、iroh エンドポイントのメッシュ全体にモデルの計算を分散します。
+
+
+🔤 Original: Mesh LLM: distributed AI computing on iroh
+
+🔗 Read more: https://www.iroh.computer/blog/mesh-llm</description>
+      <guid isPermaLink="true">https://www.iroh.computer/blog/mesh-llm</guid>
+      <pubDate>Sat, 11 Jul 2026 22:38:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48876505</comments>
     </item>
     <item>
-      <title>ZeroFS と Amazon S3 ファイルの比較</title>
-      <link>https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</link>
-      <description>📝 「その 1 ファイル、1 オブジェクトのアイデンティティは、ZeroFS ストレージ形式には意図的に含まれていません。両方のマウントでクライアント ページ キャッシュが使用されます。Amazon S3 FilesZeroFS ストレージ モデルバケットと同期する AWS 管理の高性能ストレージ、内部レイアウトは文書化されていませんLSM ツリーとオブジェクト ストレージ上の不変データ セグメントオブジェクト レイアウト1 つのファイルが 1 つの S3 オブジェクトにマッピングされますLSM ツリー内のメタデータ、ファイル データ フレームがセグメントにパックされますクライアント キャッシュ後の書き込みパスNFS によるハイパフォーマンスへの書き込みストレージ、即時耐久性、書き込み非アクティブ後の非同期 S3 エクスポート 9P を超えると、成功を返す前に、fsync がデータ セグメントをアップロードし、LSM メタデータをオブジェクト ストレージにフラッシュします。 コールド読み取りおよび先読み Linux NFS 先読み、ディレクトリ メタデータ インポート、オプションの小さいファイル インポート、または直接 S3 ReadLSM ルックアップ、その後、ファイルへの適応オブジェクトおよびクロスセグメント フレーム プリフェッチ S3 API アクセス はい、ファイル システムの変更は、ファイルの読み取り後に表示されます。 ZeroFS と暗号化パスワード クライアント インターフェイス NFS 4.
+      <title>確実に起動するドック</title>
+      <link>https://fabiensanglard.net/tb4/index.html</link>
+      <description>📝 当時最高の Thunderbolt ドックである CalDigit TS3 でさえ、システムをウェイクアップできないことがありました。 Intel の Thunderbolt 4 アナウンス プレスデッキでは、コンピューターが Thunderbolt ドックに接続されているときに PC をスリープから復帰させる必要があるというセクションで、私の問題の解決について具体的に言及しています。もしかしたら単に目覚めるまでに時間がかかりすぎたのかもしれない。
 
 
-🔤 Original: ZeroFS vs. Amazon S3 Files
+🔤 Original: A dock that wakes up reliably
 
-🔗 Read more: https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</description>
-      <guid isPermaLink="true">https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/</guid>
-      <pubDate>Sat, 11 Jul 2026 18:15:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48874297</comments>
+🔗 Read more: https://fabiensanglard.net/tb4/index.html</description>
+      <guid isPermaLink="true">https://fabiensanglard.net/tb4/index.html</guid>
+      <pubDate>Sun, 12 Jul 2026 00:48:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877269</comments>
     </item>
     <item>
-      <title>中国の声優、人間であることの証明を強要される</title>
-      <link>https://www.sixthtone.com/news/1018753</link>
-      <description>📝 2025 年以降、シェンの声の AI コピーがオンラインで非常に広く拡散したため、プラットフォームは彼の実際の録音を合成としてフラグを立て始めました。さらに悪いことに、シェンのクローン音声が広く流通するほど、彼は自分の録音が本物であることを証明しなければならないことが増えます。しかし、このカフカ風のスパイラルに陥るずっと前から、シェンは自分の声をキャリアに変えることに何年も費やしてきた。
+      <title>純粋なスキームの Web プログラミング ツール</title>
+      <link>https://goeteia.dev</link>
+      <description>📝 きめの細かい (Web リアクティブ) シグナル上の (Web SX) テンプレート、(Web HTML) レンダラー、およびホストに直接到達する (Web JS) FFI — このページはそれを使用して構築されています。 (ウェブ 3) リアクティブ Three を構築します。 (Web フェッチ) により、Wasm JSPI を介したダイレクト スタイルになります。 (web ws) / (web sse) データストリームをプッシュします。 (web json) は他の全員を処理します。
 
 
-🔤 Original: The Chinese Voice Actor Forced to Prove He's Human
+🔤 Original: A pure scheme web programming tool
 
-🔗 Read more: https://www.sixthtone.com/news/1018753</description>
-      <guid isPermaLink="true">https://www.sixthtone.com/news/1018753</guid>
-      <pubDate>Sat, 11 Jul 2026 19:46:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48875153</comments>
+🔗 Read more: https://goeteia.dev</description>
+      <guid isPermaLink="true">https://goeteia.dev</guid>
+      <pubDate>Sun, 12 Jul 2026 00:57:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877314</comments>
     </item>
     <item>
-      <title>クロードが大好きだったんだけど、最新モデルのせいでだんだんダメになってきた</title>
-      <link>https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</link>
-      <description>📝 ここ数週間で、クロードと一緒に仕事をするのがますます難しくなっていることがわかりました。エイリアンたちは事実上、過去の出来事の中には宗教的伝統が信じているよりも普通だったと主張しているが、それはもちろん物語のコンセプトに何らかの矛盾をもたらす。 「ノー」と言われることより最悪なことはありません。
+      <title>RISCBoy は、ゼロから設計されたオープンソースのポータブル ゲーム コンソールです。</title>
+      <link>https://github.com/Wren6991/RISCBoy</link>
+      <description>📝 RV32IMC ツールチェーンの構築 ソフトウェアベースのテストのコンパイルには RV32IMC ツールチェーンが必要です。ソフトウェア テストには RV32IC ツールチェーンが必要です。合成 iCE40 の FPGA 合成では、オープンソース ツールチェーンを使用します。
 
 
-🔤 Original: I used to love Claude, but the latest models are slowly ruining it
+🔤 Original: RISCBoy is an open-source portable games console, designed from scratch
 
-🔗 Read more: https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</description>
-      <guid isPermaLink="true">https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</guid>
-      <pubDate>Sat, 11 Jul 2026 20:21:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48875494</comments>
+🔗 Read more: https://github.com/Wren6991/RISCBoy</description>
+      <guid isPermaLink="true">https://github.com/Wren6991/RISCBoy</guid>
+      <pubDate>Sat, 11 Jul 2026 21:58:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48876245</comments>
+    </item>
+    <item>
+      <title>私たちは単純な流体が流れることができることを知っています。一部では骨折する可能性があることが判明</title>
+      <link>https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</link>
+      <description>📝 しかし、非弾性の単純な流体に亀裂が生じたため、彼らはその考えに疑問を抱きました。しかし、リマは非弾性の単純な流体を扱っていました。しかし、リマが取り組んでいた炭化水素混合物は単純な液体でした。
+
+
+🔤 Original: We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture
+
+🔗 Read more: https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</description>
+      <guid isPermaLink="true">https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</guid>
+      <pubDate>Sun, 12 Jul 2026 02:13:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877668</comments>
+    </item>
+    <item>
+      <title>クラウドの停止と、それによって引き起こされる SLA クレジットの公開台帳</title>
+      <link>https://slacreditwatch.com</link>
+      <description>📝 停止が SLA クレジットしきい値を超えると、条件によって付与されるクレジットと申請期限が表示されます。オープンインシデント VendorIncidentStartedDurationImpactStatus コロンビアの Twilio ショート コードのサブセットから複数のネットワークへの Twilio SMS 配信遅延 2026 年 7 月 11 日 19:19 UTC 7 時間 21 分、これまでに劣化 ●オープン ベンダーが追跡 Amazon Web Services Cloudflare Google Cloud Microsoft 365 Microsoft Azure Slack Twilio Zoom 購読 ベンダーの 1 つがトリガーとなる停止が発生した場合SLA クレジットの場合、クレジットの計算と提出期限をメールでお知らせします。電子メール ベンダー Amazon Web Services Cloudflare Google Cloud Microsoft 365 Microsoft Azure Slack Twilio Zoom 購読。
+
+
+🔤 Original: A public ledger of cloud outages and the SLA credits they trigger
+
+🔗 Read more: https://slacreditwatch.com</description>
+      <guid isPermaLink="true">https://slacreditwatch.com</guid>
+      <pubDate>Sun, 12 Jul 2026 00:02:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877009</comments>
+    </item>
+    <item>
+      <title>セルラーコンピューティングのエネルギーコスト (2012)</title>
+      <link>https://arxiv.org/abs/1203.5426</link>
+      <description>📝 ) リトマップ リトマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
+
+
+🔤 Original: The Energetic Costs of Cellular Computation (2012)
+
+🔗 Read more: https://arxiv.org/abs/1203.5426</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/1203.5426</guid>
+      <pubDate>Sun, 12 Jul 2026 01:59:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877613</comments>
+    </item>
+    <item>
+      <title>新型コロナウイルスの長期感染により、胃を制御する神経が物理的に損傷を受ける可能性がある</title>
+      <link>https://www.ijidonline.com/article/S1201-9712(26)00608-9/fulltext</link>
+      <guid isPermaLink="true">https://www.ijidonline.com/article/S1201-9712(26)00608-9/fulltext</guid>
+      <pubDate>Sun, 12 Jul 2026 00:35:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877192</comments>
+    </item>
+    <item>
+      <title>xAI の Grok Build CLI が実際に xAI に送信するもの</title>
+      <link>https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</link>
+      <description>📝 Grok はワークスペースをパッケージ化し、POST /v1/storage 経由でアップロードします。 /downloads/grok-macos-aarch64 Mach-O 64 ビット実行可能ファイル arm64 grok 0. rs grok-code-session-traces ストレージ。
+
+
+🔤 Original: What xAI's Grok Build CLI Actually Sends to xAI
+
+🔗 Read more: https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</description>
+      <guid isPermaLink="true">https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547</guid>
+      <pubDate>Sun, 12 Jul 2026 01:09:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877371</comments>
+    </item>
+    <item>
+      <title>医者は死ぬ。他の人とは違うけど、そうあるべきだ (2016)</title>
+      <link>https://archive.cancerworld.net/featured/how-doctors-die/</link>
+      <description>📝 彼らは何が起こるかを正確に知っており、選択肢も知っており、通常、希望するあらゆる種類の医療にアクセスできます。彼らはこのことについて家族と話し合っています。医師が「すべて」をしてほしいかと尋ねると、「はい」と答えます。
+
+
+🔤 Original: Doctors die. It's not like the rest of us, but it should be (2016)
+
+🔗 Read more: https://archive.cancerworld.net/featured/how-doctors-die/</description>
+      <guid isPermaLink="true">https://archive.cancerworld.net/featured/how-doctors-die/</guid>
+      <pubDate>Sat, 11 Jul 2026 23:15:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48876741</comments>
+    </item>
+    <item>
+      <title>Erlang スタイルの純粋な Scheme Web サーバーとさらに</title>
+      <link>https://igropyr.com</link>
+      <description>📝 すべてのリクエストは監視対象ワーカー プールで実行されます。正常なシャットダウン (http-shutdown) と組み合わせます。Igropyr は、libuv に直接到達するファーストクラスの FFI を備えた、最速の Scheme コンパイラーである Chez Scheme 上に構築されています。
+
+
+🔤 Original: A Erlang style pure Scheme Webserver and further
+
+🔗 Read more: https://igropyr.com</description>
+      <guid isPermaLink="true">https://igropyr.com</guid>
+      <pubDate>Sun, 12 Jul 2026 01:03:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877344</comments>
+    </item>
+    <item>
+      <title>Show HN: Sqlsure – AI 生成 SQL の決定論的セマンティック チェック</title>
+      <link>https://github.com/sqlsure/sqlsure</link>
+      <description>📝 sqlsure AI が SQL を書き込みます。 sqlsure はそれが正しいことを確認します。 sqlsure は、決定的に 0 で実行します。
+
+
+🔤 Original: Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL
+
+🔗 Read more: https://github.com/sqlsure/sqlsure</description>
+      <guid isPermaLink="true">https://github.com/sqlsure/sqlsure</guid>
+      <pubDate>Sat, 11 Jul 2026 20:03:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48875342</comments>
+    </item>
+    <item>
+      <title>鉄肺を使用していた米国最後のポリオ患者、マーサ・リラードさんがオクラホマ州で78歳で死去</title>
+      <link>https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</link>
+      <description>📝 リラードは一時的に運転することもできた。 「彼らは本当にソウルメイトでした」とマクベイは語った。 「しかし、彼女が最後の人なので、もうその必要はありません」とマクベイさんは涙ながらに語った。
+
+
+🔤 Original: Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma
+
+🔗 Read more: https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</description>
+      <guid isPermaLink="true">https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491</guid>
+      <pubDate>Sun, 12 Jul 2026 00:32:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48877178</comments>
     </item>
   </channel>
 </rss>
