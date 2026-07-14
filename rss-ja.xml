@@ -6,99 +6,184 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Jul 2026 10:46:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 13:43:00 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Nvidia 以外のハードウェアで CUDA を実行する代替手段</title>
-      <link>https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/</link>
-      <description>📝 Spectral Compute は CUDA フリー化を目指しています。現在、Spectral Compute の CUDA 専門家グループは、この言語を Nvidia から切り離し、ユーザーが他のチップ上で CUDA コードを実行できるようにすることを検討しています。法的な問題は、Nvidia 以外のさまざまな CUDA コンパイラーにもつきまといます。
+      <title>Codex がサブエージェント プロンプトの暗号化を開始</title>
+      <link>https://github.com/openai/codex/issues/28058</link>
+      <description>📝 #26210 以降のアップストリーム メイン (マルチエージェント v2 メッセージ ペイロードの暗号化、2026 年 6 月 5 日にマージ)。これは、MultiAgentV2 の spawn_agent、send_message、および followup_task メッセージの処理に関係します。サブエージェントに送信されたメッセージ。
 
 
-🔤 Original: Alternative(s) to run CUDA on non-Nvidia hardware
+🔤 Original: Codex starts encrypting sub-agent prompts
 
-🔗 Read more: https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/</description>
-      <guid isPermaLink="true">https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/</guid>
-      <pubDate>Tue, 14 Jul 2026 08:24:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48903715</comments>
+🔗 Read more: https://github.com/openai/codex/issues/28058</description>
+      <guid isPermaLink="true">https://github.com/openai/codex/issues/28058</guid>
+      <pubDate>Tue, 14 Jul 2026 11:21:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905028</comments>
     </item>
     <item>
-      <title>オーストラリアのエネルギー小売業者は、昼間の電力を 3 時間無料で提供する必要がある</title>
-      <link>https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/</link>
-      <description>📝 ソーラーパネルは必要ありません。ソーラーシェアラーオファーとは何ですか。ソーラーシェアラーオファーはそれを変えます。
+      <title>コーデックスが ICM Web サイトをスクレイピングし、2026 年のフィールズ賞受賞者リストを発見</title>
+      <link>https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</link>
+      <description>📝 2026年のフィールズ賞受賞者のリストが誤って漏洩し、北京大学の卒業生であるHong Wang氏とYu Deng氏が受賞者の中に含まれていることが明らかになった。 Codex によって生成されたカール コマンドにより、Yu Deng、John Pardon、Jacob Tsimerman、Hong Wang という名前が明らかになりました。注目すべきことに、Hong Wangはフィールズ賞を受賞する史上3人目の女性数学者となり、この業績の画期的な性質がさらに強調されることになる。
 
 
-🔤 Original: Australian energy retailers must provide three hours of free daytime electricity
+🔤 Original: Codex scraped the ICM website and discovered 2026 Fields Medal winner list
 
-🔗 Read more: https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/</description>
-      <guid isPermaLink="true">https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/</guid>
-      <pubDate>Tue, 14 Jul 2026 04:31:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48902320</comments>
+🔗 Read more: https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</description>
+      <guid isPermaLink="true">https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</guid>
+      <pubDate>Tue, 14 Jul 2026 11:30:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905091</comments>
     </item>
     <item>
-      <title>インドの科学者が人間の脳幹の最も詳細な 3D アトラスを作成</title>
-      <link>https://www.bbc.com/news/articles/cg53l737v1qo</link>
-      <description>📝 成人の脳の重さは約 1 です。 Getty Images 初期のアルツハイマー病を示す脳スキャン。アトラスは科学者がアルツハイマー病、パーキンソン病、脳卒中をより深く理解するのに役立つ可能性がある。アンカーはそのギャップを埋めようとしている。
+      <title>C++26 リフレクションによる美しい型消去</title>
+      <link>https://ryanjk5.github.io/posts/rjk-duck/</link>
+      <description>📝 struct [[=rjk::trait]] コンテナ { auto size() const -&gt; std::size_t; auto empty() const -&gt; bool;自動クリア() -&gt; 無効; }; rjk::duck&lt;コンテナ&gt; c{std::vector&lt;int&gt;{1, 2, 3}}; c. const 固定文字列名{(メンバー)の識別子}; const 自動署名 = type_of(メンバー); // 関数の型を返します。 // has_fn&lt;name, signal&gt; を作成します。 const auto tag =stitute(^^has_fn, {reflect_constant(name), Signature});リターンタグ; }) | std::ranges::to&lt;std::vector&gt;();実際の実装では、特性の基本クラスの反復、const 特性、演算子の処理など、これに対する他のさまざまな側面を処理する必要があります。 };テンプレート for (constexpr auto trait : traits) { for (const auto tag : members_to_tags(trait)) { const auto args = template_arguments_of(tag); const auto name = extract&lt;fixed_string&gt;(args[0]); // 関数から cvref 修飾子を削除します const auto func_type = Remove_fn_qualifiers(args[1]);一定です。
 
 
-🔤 Original: Indian scientists produce most detailed 3D atlas of the human brainstem
+🔤 Original: Beautiful Type Erasure with C++26 Reflection
 
-🔗 Read more: https://www.bbc.com/news/articles/cg53l737v1qo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cg53l737v1qo</guid>
-      <pubDate>Tue, 14 Jul 2026 06:43:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48903082</comments>
+🔗 Read more: https://ryanjk5.github.io/posts/rjk-duck/</description>
+      <guid isPermaLink="true">https://ryanjk5.github.io/posts/rjk-duck/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:40:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905914</comments>
     </item>
     <item>
-      <title>数字を書かせてください</title>
-      <link>https://gendx.dev/blog/2026/07/13/input-digits.html</link>
-      <description>📝 AGOV 登録 サポートにお問い合わせください。私の問題は、このコードを入力することさえできないことでした。そしてはい、FAQ には、このフォームがサポートに連絡する唯一の方法であると明示的に記載されています (強調してください)。
-
-
-🔤 Original: Just Let Me Write Digits
-
-🔗 Read more: https://gendx.dev/blog/2026/07/13/input-digits.html</description>
-      <guid isPermaLink="true">https://gendx.dev/blog/2026/07/13/input-digits.html</guid>
-      <pubDate>Tue, 14 Jul 2026 05:57:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48902791</comments>
+      <title>AI 時代のケアの証明</title>
+      <link>https://jacobfilipp.com/care/</link>
+      <guid isPermaLink="true">https://jacobfilipp.com/care/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:56:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48906125</comments>
     </item>
     <item>
-      <title>NaN の 2 つのケーススタディ</title>
-      <link>https://sebsite.pw/w/20260709-nan.html</link>
-      <description>📝 一般に、オブジェクトは常にそれ自体と等しいと想定されます。明確にしておきますが、私は必ずしもここでの Python の動作が間違っているとか、NaN の動作がおかしいからこの最適化が悪いと言っているわけではありません。それは、他のものがそれに対して奇妙な動作をすることを意味します。
+      <title>コーディングエージェントは事前に考える</title>
+      <link>https://arxiv.org/abs/2607.05188</link>
+      <description>📝 ) リトマップ リットマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
 
 
-🔤 Original: Two Case Studies of NaN
+🔤 Original: Coding agents think ahead of time
 
-🔗 Read more: https://sebsite.pw/w/20260709-nan.html</description>
-      <guid isPermaLink="true">https://sebsite.pw/w/20260709-nan.html</guid>
-      <pubDate>Tue, 14 Jul 2026 08:22:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48903701</comments>
+🔗 Read more: https://arxiv.org/abs/2607.05188</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2607.05188</guid>
+      <pubDate>Tue, 14 Jul 2026 12:28:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905764</comments>
     </item>
     <item>
-      <title>ノキアの長年にわたる携帯電話の覇権は午後に終わった</title>
-      <link>https://spectrum.ieee.org/nokia-phones-history</link>
-      <description>📝 しかし、最近公開された Nokia の内部文書と当時の Nokia の主要エンジニアへのインタビューで明らかになったように、同社はそれが来ると見ていました。 Nokia により、ユーザーは自分のデバイスで着信音を簡単に作成して共有できるようになりました。ノキアは同日までに緊急対応会議を開催した。
+      <title>HN を表示: RL を使用してモデルをトレーニングするエージェントを RL トレーニングしました (–13,000 ドル)</title>
+      <link>https://github.com/Danau5tin/ai-trains-ai</link>
+      <description>📝 報酬は~0から上昇しました。誰がトレーニングされているか トレーニングはどのようなものかをスタック 外側のループ トレーナー エージェント (Qwen3.prime-rl は小さなモデルをトレーニングします。
 
 
-🔤 Original: Nokia’s years of mobile-phone supremacy ended in an afternoon
+🔤 Original: Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)
 
-🔗 Read more: https://spectrum.ieee.org/nokia-phones-history</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/nokia-phones-history</guid>
-      <pubDate>Mon, 13 Jul 2026 13:54:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48892709</comments>
+🔗 Read more: https://github.com/Danau5tin/ai-trains-ai</description>
+      <guid isPermaLink="true">https://github.com/Danau5tin/ai-trains-ai</guid>
+      <pubDate>Tue, 14 Jul 2026 12:41:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905919</comments>
     </item>
     <item>
-      <title>前方展開エンジニアとは何ですか? なぜこれほど需要があるのでしょうか? (2025年)</title>
-      <link>https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers</link>
-      <description>📝 顧客チームとコア製品エンジニアリング チームを交互に担当するソフトウェア エンジニア。営業と協力して顧客をクロージングします。コア製品に貢献し、コア製品エンジニアリング チームに組み込まれます。
+      <title>スペイン語読書の危機はありませんか?</title>
+      <link>https://www.commonreader.co.uk/p/no-spanish-reading-crisis</link>
+      <description>📝 スペイン語読書の危機はありません。スペインでは若者も読書をします。これはジェフリーが引用したレポートからのものです。「データは若者が本を読まないという通説を打ち砕く」
 
 
-🔤 Original: What are Forward Deployed Engineers, and why are they so in demand? (2025)
+🔤 Original: No Spanish Reading Crisis?
 
-🔗 Read more: https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers</description>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers</guid>
-      <pubDate>Mon, 13 Jul 2026 23:39:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48900432</comments>
+🔗 Read more: https://www.commonreader.co.uk/p/no-spanish-reading-crisis</description>
+      <guid isPermaLink="true">https://www.commonreader.co.uk/p/no-spanish-reading-crisis</guid>
+      <pubDate>Tue, 14 Jul 2026 11:31:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905105</comments>
+    </item>
+    <item>
+      <title>テンソルは力を持つ</title>
+      <link>https://zserge.com/posts/tensor/</link>
+      <description>📝 この投稿では、C で完全な高速化された tensor ライブラリを最初から構築します。あるいは、この時点で、より大きなテンソルの形状に一致するようにより小さなテンソルを拡張する「ブロードキャスト」をサポートすることを決定することもできます。たとえば、形状 [2, 3, 4] のテンソルと形状 [3, 4] のテンソルは、2 番目のテンソルを 1 番目の次元に沿って「ストレッチ」することによって一緒に追加できます。
+
+
+🔤 Original: Tensor Is the Might
+
+🔗 Read more: https://zserge.com/posts/tensor/</description>
+      <guid isPermaLink="true">https://zserge.com/posts/tensor/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:56:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48906123</comments>
+    </item>
+    <item>
+      <title>アクテゴリー</title>
+      <link>https://bartoszmilewski.com/2026/06/30/actegories/</link>
+      <description>📝 モノイダル圏 モノイダル圏は、テンソル積を備えた圏です。アクトゴリー アクトゴリーは、モノイド カテゴリのアクションをサポートするカテゴリです。このカテゴリーの射は、(厳密な) モノイド関手です。
+
+
+🔤 Original: Actegories
+
+🔗 Read more: https://bartoszmilewski.com/2026/06/30/actegories/</description>
+      <guid isPermaLink="true">https://bartoszmilewski.com/2026/06/30/actegories/</guid>
+      <pubDate>Tue, 14 Jul 2026 11:05:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48904902</comments>
+    </item>
+    <item>
+      <title>現実を直視してください</title>
+      <link>https://adi.bio/reality</link>
+      <description>📝 人生で何をする必要がありますか。あなたを最も必要とするプロジェクトは何ですか。他の人が欲しがるようにあなたにできることは何ですか。
+
+
+🔤 Original: Punch Yourself in the Face with Reality
+
+🔗 Read more: https://adi.bio/reality</description>
+      <guid isPermaLink="true">https://adi.bio/reality</guid>
+      <pubDate>Tue, 14 Jul 2026 11:33:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905118</comments>
+    </item>
+    <item>
+      <title>ドイツ、情報公開法の制限を開始</title>
+      <link>https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</link>
+      <description>📝 これは、環境保護団体、消費者保護団体、そして特にジャーナリストを含む多くの組織が引用し、政府機関に対しデータや実質的な資料を迅速かつ無料で提供することを要求する法律です。 「外国人が情報にアクセスできなくなる可能性があります。情報公開法 (IFG) と現在の形での情報の自由を保護してください。」
+
+
+🔤 Original: Germany set to restrict its Freedom of Information Act
+
+🔗 Read more: https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</description>
+      <guid isPermaLink="true">https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</guid>
+      <pubDate>Tue, 14 Jul 2026 11:49:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905290</comments>
+    </item>
+    <item>
+      <title>築く価値のある未来は人間です</title>
+      <link>https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</link>
+      <description>📝 インテリジェンスを知識にもたらす AI は、私たちが行う仕事に役立つために存在します。この仕事は、物事がどのように行われるか、何が価値があるかについての知識、つまり仕事に従事する人々によって継続的に生成される知識に基づいて実行されます。私たちはそれを可能にするツールを構築します。
+
+
+🔤 Original: The Future Worth Building Is Human
+
+🔗 Read more: https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</description>
+      <guid isPermaLink="true">https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</guid>
+      <pubDate>Tue, 14 Jul 2026 11:05:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48904905</comments>
+    </item>
+    <item>
+      <title>大きなデジタル疲労: デジタルの燃え尽き症候群がソーシャル メディアの使用をどのように変化させるか</title>
+      <link>https://blog.incogni.com/digital-fatigue-and-burnout/</link>
+      <description>📝 現代のデジタル燃え尽き症候群 参加者の半数以上 (51%) が、オンラインでのプレゼンスを維持するのは仕事のように感じていると回答しました。 14% が強く同意し、30% が同意すると回答しました。まずは投稿とコンテンツ共有の習慣から始めます。
+
+
+🔤 Original: The great digital fatigue: How digital burnout is changing social media use
+
+🔗 Read more: https://blog.incogni.com/digital-fatigue-and-burnout/</description>
+      <guid isPermaLink="true">https://blog.incogni.com/digital-fatigue-and-burnout/</guid>
+      <pubDate>Tue, 14 Jul 2026 10:58:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48904855</comments>
+    </item>
+    <item>
+      <title>LFortran と酵素による微分可能な Fortran</title>
+      <link>https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</link>
+      <description>📝 これが可能になるのは、Enzyme が LLVM IR レベルで autodiff を適用するため、LLVM にコンパイルされるコードを区別できるためです。エラーが発生しやすく、転送コードとの同期が徐々にずれていくメンテナンスの悪夢。 f90、この実験用に作成したバニラ Fortran 90 の約 220 行。
+
+
+🔤 Original: Differentiable Fortran with LFortran and Enzyme
+
+🔗 Read more: https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</description>
+      <guid isPermaLink="true">https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</guid>
+      <pubDate>Tue, 14 Jul 2026 12:21:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905667</comments>
     </item>
   </channel>
 </rss>

@@ -6,99 +6,184 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Jul 2026 10:46:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 13:43:00 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>在非 Nvidia 硬件上运行 CUDA 的替代方案</title>
-      <link>https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/</link>
-      <description>📝 光谱计算旨在让 CUDA 自由。现在，Spectral Compute 的一组 CUDA 专家正在寻求将这种语言从 Nvidia 中解放出来，并允许用户在其他芯片上运行他们的 CUDA 代码。法律问题也困扰着各种非 Nvidia CUDA 编译器。
+      <title>Codex 开始加密子代理提示</title>
+      <link>https://github.com/openai/codex/issues/28058</link>
+      <description>📝 #26210 之后的上游主干（加密多代理 v2 消息负载，2026-06-05 合并）。这涉及 MultiAgentV2spawn_agent、send_message 和 followup_task 消息处理。向子代理发送了什么消息。
 
 
-🔤 Original: Alternative(s) to run CUDA on non-Nvidia hardware
+🔤 Original: Codex starts encrypting sub-agent prompts
 
-🔗 Read more: https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/</description>
-      <guid isPermaLink="true">https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/</guid>
-      <pubDate>Tue, 14 Jul 2026 08:24:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48903715</comments>
+🔗 Read more: https://github.com/openai/codex/issues/28058</description>
+      <guid isPermaLink="true">https://github.com/openai/codex/issues/28058</guid>
+      <pubDate>Tue, 14 Jul 2026 11:21:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905028</comments>
     </item>
     <item>
-      <title>澳大利亚能源零售商必须提供三个小时的免费白天电力</title>
-      <link>https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/</link>
-      <description>📝 不需要太阳能电池板。什么是太阳能共享者报价。太阳能共享者报价改变了这一点。
+      <title>Codex 抓取了 ICM 网站并发现了 2026 年菲尔兹奖获奖者名单</title>
+      <link>https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</link>
+      <description>📝 2026年菲尔兹奖获得者名单不经意间被泄露，北大校友王宏、邓宇也在获奖者之列。 Codex 生成的curl 命令显示了Yu Deng、John Pardon、Jacob Tsimerman 和Hong Wang 的名字。值得注意的是，王红将成为历史上第三位获得菲尔兹奖的女性数学家，进一步凸显了这一成就的开创性。
 
 
-🔤 Original: Australian energy retailers must provide three hours of free daytime electricity
+🔤 Original: Codex scraped the ICM website and discovered 2026 Fields Medal winner list
 
-🔗 Read more: https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/</description>
-      <guid isPermaLink="true">https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/</guid>
-      <pubDate>Tue, 14 Jul 2026 04:31:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48902320</comments>
+🔗 Read more: https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</description>
+      <guid isPermaLink="true">https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</guid>
+      <pubDate>Tue, 14 Jul 2026 11:30:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905091</comments>
     </item>
     <item>
-      <title>印度科学家制作出最详细的人类脑干 3D 图谱</title>
-      <link>https://www.bbc.com/news/articles/cg53l737v1qo</link>
-      <description>📝 成人大脑的重量约为 1 英寸。 盖蒂图片社 脑部扫描显示早期阿尔茨海默病。该图谱可以帮助科学家更好地了解阿尔茨海默病、帕金森病和脑中风。Anchor 试图缩小这一差距。
+      <title>使用 C++26 反射实现漂亮的类型擦除</title>
+      <link>https://ryanjk5.github.io/posts/rjk-duck/</link>
+      <description>📝 struct [[=rjk::trait]] 容器 { auto size() const -&gt; std::size_t;自动清空() const -&gt; bool;自动清除（） - &gt;无效； }; rjk::duck&lt;Container&gt; c{std::vector&lt;int&gt;{1, 2, 3}}; c. const 固定字符串名称{identifier_of(成员)}; const auto 签名 = type_of(member); // 返回一个函数类型 // 创建 has_fn&lt;name,signature&gt; const auto tag = Replace(^^has_fn, {reflect_constant(name),signature});返回标签； }) | std::ranges::to&lt;std::vector&gt;();实际的实现必须处理各种其他方面，例如迭代特征的基类、处理 const 特征、运算符等等。 };模板 for (constexpr auto 特征：特征) { for (const auto 标签：members_to_tags(trait)) { const auto args = template_arguments_of(tag); const auto name = extract&lt;固定字符串&gt;(args[0]); // 从函数中删除 cvref 限定符 const auto func_type = remove_fn_qualifiers(args[1]);常量自动。
 
 
-🔤 Original: Indian scientists produce most detailed 3D atlas of the human brainstem
+🔤 Original: Beautiful Type Erasure with C++26 Reflection
 
-🔗 Read more: https://www.bbc.com/news/articles/cg53l737v1qo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cg53l737v1qo</guid>
-      <pubDate>Tue, 14 Jul 2026 06:43:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48903082</comments>
+🔗 Read more: https://ryanjk5.github.io/posts/rjk-duck/</description>
+      <guid isPermaLink="true">https://ryanjk5.github.io/posts/rjk-duck/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:40:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905914</comments>
     </item>
     <item>
-      <title>让我写数字</title>
-      <link>https://gendx.dev/blog/2026/07/13/input-digits.html</link>
-      <description>📝 AGOV 注册 联系支持人员。我的问题是我什至无法输入此代码。是的，常见问题解答明确提到此表格是联系支持人员的唯一方式（强调我的）。
-
-
-🔤 Original: Just Let Me Write Digits
-
-🔗 Read more: https://gendx.dev/blog/2026/07/13/input-digits.html</description>
-      <guid isPermaLink="true">https://gendx.dev/blog/2026/07/13/input-digits.html</guid>
-      <pubDate>Tue, 14 Jul 2026 05:57:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48902791</comments>
+      <title>人工智能时代的护理证明</title>
+      <link>https://jacobfilipp.com/care/</link>
+      <guid isPermaLink="true">https://jacobfilipp.com/care/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:56:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48906125</comments>
     </item>
     <item>
-      <title>NaN 的两个案例研究</title>
-      <link>https://sebsite.pw/w/20260709-nan.html</link>
-      <description>📝 一般来说，假设一个对象总是与其自身进行比较。需要明确的是，我不一定说 python 在这里的行为是错误的，或者这种优化很糟糕，因为 NaN 的行为很奇怪。这意味着其他事物与它一起表现得很奇怪。
+      <title>编码代理提前思考</title>
+      <link>https://arxiv.org/abs/2607.05188</link>
+      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
 
 
-🔤 Original: Two Case Studies of NaN
+🔤 Original: Coding agents think ahead of time
 
-🔗 Read more: https://sebsite.pw/w/20260709-nan.html</description>
-      <guid isPermaLink="true">https://sebsite.pw/w/20260709-nan.html</guid>
-      <pubDate>Tue, 14 Jul 2026 08:22:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48903701</comments>
+🔗 Read more: https://arxiv.org/abs/2607.05188</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2607.05188</guid>
+      <pubDate>Tue, 14 Jul 2026 12:28:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905764</comments>
     </item>
     <item>
-      <title>诺基亚多年的手机霸主地位在一个下午结束</title>
-      <link>https://spectrum.ieee.org/nokia-phones-history</link>
-      <description>📝 但是，正如最近公开的诺基亚内部文件以及对那个时代的主要诺基亚工程师的采访所揭示的那样，该公司预见到了这一点。诺基亚还使用户能够在其设备上轻松创建和共享铃声。诺基亚为此召开了快速反应会议。
+      <title>Show HN：我用 RL 训练了一个代理，该代理用 RL 训练模型（花费 – 1,300 美元）</title>
+      <link>https://github.com/Danau5tin/ai-trains-ai</link>
+      <description>📝 奖励从 ~0 攀升。谁正在接受训练 训练是什么样子 堆栈 外循环 训练代理（Qwen3.prime-rl 训练小模型。
 
 
-🔤 Original: Nokia’s years of mobile-phone supremacy ended in an afternoon
+🔤 Original: Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)
 
-🔗 Read more: https://spectrum.ieee.org/nokia-phones-history</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/nokia-phones-history</guid>
-      <pubDate>Mon, 13 Jul 2026 13:54:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48892709</comments>
+🔗 Read more: https://github.com/Danau5tin/ai-trains-ai</description>
+      <guid isPermaLink="true">https://github.com/Danau5tin/ai-trains-ai</guid>
+      <pubDate>Tue, 14 Jul 2026 12:41:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905919</comments>
     </item>
     <item>
-      <title>什么是前沿部署工程师？为什么他们如此受欢迎？ (2025)</title>
-      <link>https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers</link>
-      <description>📝 轮流与客户团队和核心产品工程团队合作的软件工程师。与销售人员合作以关闭客户。为核心产品做出贡献，嵌入核心产品工程团队。
+      <title>没有西班牙语阅读危机吗？</title>
+      <link>https://www.commonreader.co.uk/p/no-spanish-reading-crisis</link>
+      <description>📝 没有西班牙语阅读危机。在西班牙，即使是年轻人也读书。这是杰弗里引用的报告中的内容： 数据打破了年轻人不读书的神话。
 
 
-🔤 Original: What are Forward Deployed Engineers, and why are they so in demand? (2025)
+🔤 Original: No Spanish Reading Crisis?
 
-🔗 Read more: https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers</description>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers</guid>
-      <pubDate>Mon, 13 Jul 2026 23:39:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48900432</comments>
+🔗 Read more: https://www.commonreader.co.uk/p/no-spanish-reading-crisis</description>
+      <guid isPermaLink="true">https://www.commonreader.co.uk/p/no-spanish-reading-crisis</guid>
+      <pubDate>Tue, 14 Jul 2026 11:31:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905105</comments>
+    </item>
+    <item>
+      <title>张量就是力量</title>
+      <link>https://zserge.com/posts/tensor/</link>
+      <description>📝 这篇文章从头开始用 C 语言构建了一个完整的、加速的张量库。或者，此时我们可能决定要支持“广播”——扩展较小的张量以匹配较大张量的形状。例如，可以通过沿第一维度“拉伸”第二个张量来将形状为 [2, 3, 4] 的张量和形状为 [3, 4] 的张量相加。
+
+
+🔤 Original: Tensor Is the Might
+
+🔗 Read more: https://zserge.com/posts/tensor/</description>
+      <guid isPermaLink="true">https://zserge.com/posts/tensor/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:56:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48906123</comments>
+    </item>
+    <item>
+      <title>行动</title>
+      <link>https://bartoszmilewski.com/2026/06/30/actegories/</link>
+      <description>📝 幺半群范畴 幺半群范畴是配备有张量积的范畴。 Actegory Actegory 是支持幺半群范畴动作的范畴。此类别中的态射是（严格）幺半群函子。
+
+
+🔤 Original: Actegories
+
+🔗 Read more: https://bartoszmilewski.com/2026/06/30/actegories/</description>
+      <guid isPermaLink="true">https://bartoszmilewski.com/2026/06/30/actegories/</guid>
+      <pubDate>Tue, 14 Jul 2026 11:05:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48904902</comments>
+    </item>
+    <item>
+      <title>用现实打自己的脸</title>
+      <link>https://adi.bio/reality</link>
+      <description>📝 你的生活需要做什么。最需要你的项目是什么？你能做什么别人会想要的。
+
+
+🔤 Original: Punch Yourself in the Face with Reality
+
+🔗 Read more: https://adi.bio/reality</description>
+      <guid isPermaLink="true">https://adi.bio/reality</guid>
+      <pubDate>Tue, 14 Jul 2026 11:33:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905118</comments>
+    </item>
+    <item>
+      <title>德国将限制其信息自由法</title>
+      <link>https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</link>
+      <description>📝 许多组织，包括环保组织、消费者保护组织，尤其是记者，都援引这条法律来要求政府机构快速、免费地向他们提供数据和实质性材料。 “外国公民是否会失去获取信息的机会。保护信息自由法 (IFG) 和当前形式的信息自由。
+
+
+🔤 Original: Germany set to restrict its Freedom of Information Act
+
+🔗 Read more: https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</description>
+      <guid isPermaLink="true">https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</guid>
+      <pubDate>Tue, 14 Jul 2026 11:49:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905290</comments>
+    </item>
+    <item>
+      <title>未来的价值建筑在于人</title>
+      <link>https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</link>
+      <description>📝 将智能带入知识 人工智能的存在是为了服务于我们所做的工作。这项工作的基础是关于如何做事情以及什么值得做的知识，这些知识是由从事这项工作的人们不断产生的。我们构建能够实现这一目标的工具。
+
+
+🔤 Original: The Future Worth Building Is Human
+
+🔗 Read more: https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</description>
+      <guid isPermaLink="true">https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</guid>
+      <pubDate>Tue, 14 Jul 2026 11:05:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48904905</comments>
+    </item>
+    <item>
+      <title>巨大的数字疲劳：数字倦怠如何改变社交媒体的使用</title>
+      <link>https://blog.incogni.com/digital-fatigue-and-burnout/</link>
+      <description>📝 现代数字倦怠 超过一半 (51%) 的参与者表示，维持在线形象就像工作一样。 14% 表示非常同意，30% 表示同意。从他们的发帖和内容共享习惯开始。
+
+
+🔤 Original: The great digital fatigue: How digital burnout is changing social media use
+
+🔗 Read more: https://blog.incogni.com/digital-fatigue-and-burnout/</description>
+      <guid isPermaLink="true">https://blog.incogni.com/digital-fatigue-and-burnout/</guid>
+      <pubDate>Tue, 14 Jul 2026 10:58:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48904855</comments>
+    </item>
+    <item>
+      <title>使用 LFortran 和 Enzyme 可微分 Fortran</title>
+      <link>https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</link>
+      <description>📝 这是可能的，因为 Enzyme 在 LLVM IR 级别应用自动差异，因此我们可以区分编译为 LLVM 的任何代码。容易出错并且维护噩梦，慢慢地与前向代码不同步。 f90，我们为本次实验编写的约 220 行普通 Fortran 90 代码。
+
+
+🔤 Original: Differentiable Fortran with LFortran and Enzyme
+
+🔗 Read more: https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</description>
+      <guid isPermaLink="true">https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</guid>
+      <pubDate>Tue, 14 Jul 2026 12:21:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905667</comments>
     </item>
   </channel>
 </rss>
