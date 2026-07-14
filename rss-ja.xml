@@ -6,184 +6,100 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Jul 2026 13:43:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 16:15:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Codex がサブエージェント プロンプトの暗号化を開始</title>
-      <link>https://github.com/openai/codex/issues/28058</link>
-      <description>📝 #26210 以降のアップストリーム メイン (マルチエージェント v2 メッセージ ペイロードの暗号化、2026 年 6 月 5 日にマージ)。これは、MultiAgentV2 の spawn_agent、send_message、および followup_task メッセージの処理に関係します。サブエージェントに送信されたメッセージ。
-
-
-🔤 Original: Codex starts encrypting sub-agent prompts
-
-🔗 Read more: https://github.com/openai/codex/issues/28058</description>
-      <guid isPermaLink="true">https://github.com/openai/codex/issues/28058</guid>
-      <pubDate>Tue, 14 Jul 2026 11:21:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905028</comments>
+      <title>Show HN: 有名な文学作品の冒頭のセリフ</title>
+      <link>https://www.verbaprima.com/</link>
+      <guid isPermaLink="true">https://www.verbaprima.com/</guid>
+      <pubDate>Tue, 14 Jul 2026 15:24:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48908271</comments>
     </item>
     <item>
-      <title>コーデックスが ICM Web サイトをスクレイピングし、2026 年のフィールズ賞受賞者リストを発見</title>
-      <link>https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</link>
-      <description>📝 2026年のフィールズ賞受賞者のリストが誤って漏洩し、北京大学の卒業生であるHong Wang氏とYu Deng氏が受賞者の中に含まれていることが明らかになった。 Codex によって生成されたカール コマンドにより、Yu Deng、John Pardon、Jacob Tsimerman、Hong Wang という名前が明らかになりました。注目すべきことに、Hong Wangはフィールズ賞を受賞する史上3人目の女性数学者となり、この業績の画期的な性質がさらに強調されることになる。
+      <title>私たちは思考の多くを AI に任せすぎていませんか?</title>
+      <link>https://www.artfish.ai/p/offloading-thinking-to-ai</link>
+      <description>📝 私より批判的思考が得意なので、最近はすべてファブルに思考を任せています。遅い思考と素早い答えの間には、常に何らかのトレードオフが存在します。他の多くの人は、もっと長く考える価値があると思います。
 
 
-🔤 Original: Codex scraped the ICM website and discovered 2026 Fields Medal winner list
+🔤 Original: Are we offloading too much of our thinking to AI?
 
-🔗 Read more: https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</description>
-      <guid isPermaLink="true">https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948</guid>
-      <pubDate>Tue, 14 Jul 2026 11:30:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905091</comments>
+🔗 Read more: https://www.artfish.ai/p/offloading-thinking-to-ai</description>
+      <guid isPermaLink="true">https://www.artfish.ai/p/offloading-thinking-to-ai</guid>
+      <pubDate>Tue, 14 Jul 2026 15:18:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48908178</comments>
     </item>
     <item>
-      <title>C++26 リフレクションによる美しい型消去</title>
-      <link>https://ryanjk5.github.io/posts/rjk-duck/</link>
-      <description>📝 struct [[=rjk::trait]] コンテナ { auto size() const -&gt; std::size_t; auto empty() const -&gt; bool;自動クリア() -&gt; 無効; }; rjk::duck&lt;コンテナ&gt; c{std::vector&lt;int&gt;{1, 2, 3}}; c. const 固定文字列名{(メンバー)の識別子}; const 自動署名 = type_of(メンバー); // 関数の型を返します。 // has_fn&lt;name, signal&gt; を作成します。 const auto tag =stitute(^^has_fn, {reflect_constant(name), Signature});リターンタグ; }) | std::ranges::to&lt;std::vector&gt;();実際の実装では、特性の基本クラスの反復、const 特性、演算子の処理など、これに対する他のさまざまな側面を処理する必要があります。 };テンプレート for (constexpr auto trait : traits) { for (const auto tag : members_to_tags(trait)) { const auto args = template_arguments_of(tag); const auto name = extract&lt;fixed_string&gt;(args[0]); // 関数から cvref 修飾子を削除します const auto func_type = Remove_fn_qualifiers(args[1]);一定です。
+      <title>アグネス・カラードのユニコンテキスト理論</title>
+      <link>https://www.derekthompson.org/p/a-philosophers-one-word-theory-to</link>
+      <description>📝 アグネス・カラード: 文脈という言葉から始めましょう。 Callard: それはテクノロジーに何かを加えたものです。これらのテクノロジーと、それらと相互作用する人間の衝動との間には会話のような関係があります。
 
 
-🔤 Original: Beautiful Type Erasure with C++26 Reflection
+🔤 Original: Agnes Callard’s theory of the uni-context
 
-🔗 Read more: https://ryanjk5.github.io/posts/rjk-duck/</description>
-      <guid isPermaLink="true">https://ryanjk5.github.io/posts/rjk-duck/</guid>
-      <pubDate>Tue, 14 Jul 2026 12:40:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905914</comments>
+🔗 Read more: https://www.derekthompson.org/p/a-philosophers-one-word-theory-to</description>
+      <guid isPermaLink="true">https://www.derekthompson.org/p/a-philosophers-one-word-theory-to</guid>
+      <pubDate>Tue, 14 Jul 2026 14:17:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48907290</comments>
     </item>
     <item>
-      <title>AI 時代のケアの証明</title>
-      <link>https://jacobfilipp.com/care/</link>
-      <guid isPermaLink="true">https://jacobfilipp.com/care/</guid>
-      <pubDate>Tue, 14 Jul 2026 12:56:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48906125</comments>
+      <title>私は USB-C マキシマリストです</title>
+      <link>https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/</link>
+      <description>📝 他のガジェット用に 2 つの USB-C ポート。 USB-C ケーブルもどこにでもあります。 USB-C にはいくつかの問題があることは承知しています。
+
+
+🔤 Original: I'm a USB-C Maximalist
+
+🔗 Read more: https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/</description>
+      <guid isPermaLink="true">https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/</guid>
+      <pubDate>Tue, 14 Jul 2026 15:20:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48908214</comments>
     </item>
     <item>
-      <title>コーディングエージェントは事前に考える</title>
-      <link>https://arxiv.org/abs/2607.05188</link>
-      <description>📝 ) リトマップ リットマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
-
-
-🔤 Original: Coding agents think ahead of time
-
-🔗 Read more: https://arxiv.org/abs/2607.05188</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.05188</guid>
-      <pubDate>Tue, 14 Jul 2026 12:28:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905764</comments>
+      <title>ニューヨーク州がデータセンターの一時停止を課す最初の州となる</title>
+      <link>https://www.reuters.com/world/new-york-becomes-first-state-impose-data-center-moratorium-2026-07-14/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/new-york-becomes-first-state-impose-data-center-moratorium-2026-07-14/</guid>
+      <pubDate>Tue, 14 Jul 2026 14:17:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48907296</comments>
     </item>
     <item>
-      <title>HN を表示: RL を使用してモデルをトレーニングするエージェントを RL トレーニングしました (–13,000 ドル)</title>
-      <link>https://github.com/Danau5tin/ai-trains-ai</link>
-      <description>📝 報酬は~0から上昇しました。誰がトレーニングされているか トレーニングはどのようなものかをスタック 外側のループ トレーナー エージェント (Qwen3.prime-rl は小さなモデルをトレーニングします。
+      <title>クロードの耐荷重発言を止める方法</title>
+      <link>https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing</link>
+      <description>📝 まず、いくつかの置換を設定した小さなスクリプトが必要です。クロード/フック/ワードスワップ。クロード/フック/ワードスワップ。
 
 
-🔤 Original: Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)
+🔤 Original: How to stop Claude from saying load-bearing
 
-🔗 Read more: https://github.com/Danau5tin/ai-trains-ai</description>
-      <guid isPermaLink="true">https://github.com/Danau5tin/ai-trains-ai</guid>
-      <pubDate>Tue, 14 Jul 2026 12:41:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905919</comments>
+🔗 Read more: https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing</description>
+      <guid isPermaLink="true">https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing</guid>
+      <pubDate>Tue, 14 Jul 2026 11:46:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48905248</comments>
     </item>
     <item>
-      <title>スペイン語読書の危機はありませんか?</title>
-      <link>https://www.commonreader.co.uk/p/no-spanish-reading-crisis</link>
-      <description>📝 スペイン語読書の危機はありません。スペインでは若者も読書をします。これはジェフリーが引用したレポートからのものです。「データは若者が本を読まないという通説を打ち砕く」
+      <title>欧州の「年齢認証」「アプリ」で全員にAndroidかiOSの使用を強制</title>
+      <link>https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19</link>
+      <description>📝 読み込み中にエラーが発生しました。このページをリロードしてください。読み込み中にエラーが発生しました。
 
 
-🔤 Original: No Spanish Reading Crisis?
+🔤 Original: European "age verification" "app" forcing everyone to use Android or iOS
 
-🔗 Read more: https://www.commonreader.co.uk/p/no-spanish-reading-crisis</description>
-      <guid isPermaLink="true">https://www.commonreader.co.uk/p/no-spanish-reading-crisis</guid>
-      <pubDate>Tue, 14 Jul 2026 11:31:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905105</comments>
+🔗 Read more: https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19</description>
+      <guid isPermaLink="true">https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19</guid>
+      <pubDate>Tue, 14 Jul 2026 08:34:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48903777</comments>
     </item>
     <item>
-      <title>テンソルは力を持つ</title>
-      <link>https://zserge.com/posts/tensor/</link>
-      <description>📝 この投稿では、C で完全な高速化された tensor ライブラリを最初から構築します。あるいは、この時点で、より大きなテンソルの形状に一致するようにより小さなテンソルを拡張する「ブロードキャスト」をサポートすることを決定することもできます。たとえば、形状 [2, 3, 4] のテンソルと形状 [3, 4] のテンソルは、2 番目のテンソルを 1 番目の次元に沿って「ストレッチ」することによって一緒に追加できます。
+      <title>デミス・ハサビス氏はAIを安全に活用する計画を立てている</title>
+      <link>https://twitter.com/demishassabis/status/2076957440109625718</link>
+      <description>📝 Demis Hassabis@demishassabis 記事フロンティア AI のフレームワークと新時代の幕開けこれは人類の歴史において極めて重要な瞬間です。脳が持つすべての認知能力を発揮するシステムである汎用人工知能 (AGI) が実現するのは、おそらくほんの数年先のことでしょう。 6K10K632 件の返信を読みました。
 
 
-🔤 Original: Tensor Is the Might
+🔤 Original: Demis Hassabis has a plan to harness AI safely
 
-🔗 Read more: https://zserge.com/posts/tensor/</description>
-      <guid isPermaLink="true">https://zserge.com/posts/tensor/</guid>
-      <pubDate>Tue, 14 Jul 2026 12:56:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48906123</comments>
-    </item>
-    <item>
-      <title>アクテゴリー</title>
-      <link>https://bartoszmilewski.com/2026/06/30/actegories/</link>
-      <description>📝 モノイダル圏 モノイダル圏は、テンソル積を備えた圏です。アクトゴリー アクトゴリーは、モノイド カテゴリのアクションをサポートするカテゴリです。このカテゴリーの射は、(厳密な) モノイド関手です。
-
-
-🔤 Original: Actegories
-
-🔗 Read more: https://bartoszmilewski.com/2026/06/30/actegories/</description>
-      <guid isPermaLink="true">https://bartoszmilewski.com/2026/06/30/actegories/</guid>
-      <pubDate>Tue, 14 Jul 2026 11:05:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48904902</comments>
-    </item>
-    <item>
-      <title>現実を直視してください</title>
-      <link>https://adi.bio/reality</link>
-      <description>📝 人生で何をする必要がありますか。あなたを最も必要とするプロジェクトは何ですか。他の人が欲しがるようにあなたにできることは何ですか。
-
-
-🔤 Original: Punch Yourself in the Face with Reality
-
-🔗 Read more: https://adi.bio/reality</description>
-      <guid isPermaLink="true">https://adi.bio/reality</guid>
-      <pubDate>Tue, 14 Jul 2026 11:33:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905118</comments>
-    </item>
-    <item>
-      <title>ドイツ、情報公開法の制限を開始</title>
-      <link>https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</link>
-      <description>📝 これは、環境保護団体、消費者保護団体、そして特にジャーナリストを含む多くの組織が引用し、政府機関に対しデータや実質的な資料を迅速かつ無料で提供することを要求する法律です。 「外国人が情報にアクセスできなくなる可能性があります。情報公開法 (IFG) と現在の形での情報の自由を保護してください。」
-
-
-🔤 Original: Germany set to restrict its Freedom of Information Act
-
-🔗 Read more: https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</description>
-      <guid isPermaLink="true">https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</guid>
-      <pubDate>Tue, 14 Jul 2026 11:49:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905290</comments>
-    </item>
-    <item>
-      <title>築く価値のある未来は人間です</title>
-      <link>https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</link>
-      <description>📝 インテリジェンスを知識にもたらす AI は、私たちが行う仕事に役立つために存在します。この仕事は、物事がどのように行われるか、何が価値があるかについての知識、つまり仕事に従事する人々によって継続的に生成される知識に基づいて実行されます。私たちはそれを可能にするツールを構築します。
-
-
-🔤 Original: The Future Worth Building Is Human
-
-🔗 Read more: https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</description>
-      <guid isPermaLink="true">https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</guid>
-      <pubDate>Tue, 14 Jul 2026 11:05:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48904905</comments>
-    </item>
-    <item>
-      <title>大きなデジタル疲労: デジタルの燃え尽き症候群がソーシャル メディアの使用をどのように変化させるか</title>
-      <link>https://blog.incogni.com/digital-fatigue-and-burnout/</link>
-      <description>📝 現代のデジタル燃え尽き症候群 参加者の半数以上 (51%) が、オンラインでのプレゼンスを維持するのは仕事のように感じていると回答しました。 14% が強く同意し、30% が同意すると回答しました。まずは投稿とコンテンツ共有の習慣から始めます。
-
-
-🔤 Original: The great digital fatigue: How digital burnout is changing social media use
-
-🔗 Read more: https://blog.incogni.com/digital-fatigue-and-burnout/</description>
-      <guid isPermaLink="true">https://blog.incogni.com/digital-fatigue-and-burnout/</guid>
-      <pubDate>Tue, 14 Jul 2026 10:58:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48904855</comments>
-    </item>
-    <item>
-      <title>LFortran と酵素による微分可能な Fortran</title>
-      <link>https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</link>
-      <description>📝 これが可能になるのは、Enzyme が LLVM IR レベルで autodiff を適用するため、LLVM にコンパイルされるコードを区別できるためです。エラーが発生しやすく、転送コードとの同期が徐々にずれていくメンテナンスの悪夢。 f90、この実験用に作成したバニラ Fortran 90 の約 220 行。
-
-
-🔤 Original: Differentiable Fortran with LFortran and Enzyme
-
-🔗 Read more: https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</description>
-      <guid isPermaLink="true">https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html</guid>
-      <pubDate>Tue, 14 Jul 2026 12:21:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48905667</comments>
+🔗 Read more: https://twitter.com/demishassabis/status/2076957440109625718</description>
+      <guid isPermaLink="true">https://twitter.com/demishassabis/status/2076957440109625718</guid>
+      <pubDate>Tue, 14 Jul 2026 09:20:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48904095</comments>
     </item>
   </channel>
 </rss>
