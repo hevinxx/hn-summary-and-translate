@@ -6,112 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Jul 2026 19:19:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 21:58:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Linux での入力レイテンシーの測定: X11 対 Wayland、VRR、および DXVK</title>
-      <link>https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/</link>
-      <description>📝 このようにして、エンドツーエンドのシステム遅延を測定します。 © NVIDIA には、これを非常にうまくまとめた図があります。ボーナス: ネイティブ Wayland と XWayland の比較 XWayland で遅延が発生することはすでにわかっていたため、すべての Wayland テスト ケースをネイティブ Wayland (PROTON_ENABLE_WAYLAND=1) 経由で実行しました。
+      <title>カーソル 0 日: 完全な開示が唯一の保護手段となるとき</title>
+      <link>https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left</link>
+      <description>📝 プロジェクトをロードした後、Cursor は現在のワークスペースを含むさまざまな場所で git バイナリを検索しようとします。悪意のある git が埋め込まれたリポジトリを作成する。これは一定のリズムで繰り返し発生します。
 
 
-🔤 Original: Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK
+🔤 Original: Cursor 0day: When Full Disclosure Becomes the Only Protection Left
 
-🔗 Read more: https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/</description>
-      <guid isPermaLink="true">https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/</guid>
-      <pubDate>Tue, 14 Jul 2026 16:36:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48909424</comments>
+🔗 Read more: https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left</description>
+      <guid isPermaLink="true">https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left</guid>
+      <pubDate>Tue, 14 Jul 2026 17:58:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48910676</comments>
     </item>
     <item>
-      <title>タワーは上昇し続ける</title>
-      <link>https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</link>
-      <description>📝 この摩擦が人々を同調させます。詳細: インプリントと AI の透明性。カラースキーム: 自動、明るい、暗い。
+      <title>dependabot のバージョン更新により、デフォルトのパッケージのクールダウンが導入されました</title>
+      <link>https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/</link>
+      <description>📝 知っておくべきいくつかの点: デフォルトはバージョン更新にのみ適用されます。セキュリティ アップデートは引き続きすぐに公開されるため、重要な修正が遅れることはありません。このデフォルトは、Github 上でサポートされているすべてのエコシステムにわたる dependabot のバージョン更新に適用されます。
 
 
-🔤 Original: The Tower Keeps Rising
+🔤 Original: Dependabot version updates introduce default package cooldown
 
-🔗 Read more: https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</description>
-      <guid isPermaLink="true">https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</guid>
-      <pubDate>Tue, 14 Jul 2026 16:57:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48909785</comments>
+🔗 Read more: https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/</description>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/</guid>
+      <pubDate>Tue, 14 Jul 2026 21:15:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48913050</comments>
     </item>
     <item>
-      <title>Bonsai 27B (1 ビット LLM): 電話機上で実行される初の 27B クラス モデル</title>
-      <link>https://prismml.com/news/bonsai-27b</link>
-      <description>📝 Bonsai 27B はそれを変えます。 1 ビット Bonsai 27B は、同じグループ単位のスケーリングでバイナリ {−1, +1} 重みを使用し、1 を与えます。インテリジェンス密度 (1 ビット Bonsai 8B で導入した尺度) によれば、1 ビット Bonsai 27B は 0 を返します。
+      <title>Guardian Angels: 生産性とセキュリティのための LLM パーソナライゼーション</title>
+      <link>https://gwern.net/guardian-angel</link>
+      <description>📝 このような「守護天使」を達成するためのテクニックと提案のパッケージについて説明します。能動的な学習と引き出し、および大量の内部独白検索/データ拡張と組み合わせた LLM の動的評価。 2025-12-01–2026-06-05 終了確実性: 重要性の可能性: 10 件の類似参考文献 チャットボットのインセンティブがずれている チャットボットの問題 モード崩壊 怠惰 早すぎるため脆い 健忘症チャットボットの修正 協調的 RL 継続的学習 壊滅的な忘却 一般化 クリエイティブライティング 過度のパラメータ化 非常に大きな LM アクティブラーニング 優先学習 脳模倣学習 人格エミュレーション ガーディアン エンジェルの原則 反原則 UX ユースケース: 政治と政策 ハードウェア コスト 組織のスタートアップ ビジネス モデル コンペティション 初期ステップ GBT 書き込み用 データ拡張 強力な LLM は、今後数年間で世界規模で導入され、インターネット、そしてますます日常生活を支配することになるでしょう。私の今後数年はどうなるでしょうか。
 
 
-🔤 Original: Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone
+🔤 Original: Guardian Angels: LLM Personalization for Productivity and Security
 
-🔗 Read more: https://prismml.com/news/bonsai-27b</description>
-      <guid isPermaLink="true">https://prismml.com/news/bonsai-27b</guid>
-      <pubDate>Tue, 14 Jul 2026 17:50:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48910545</comments>
+🔗 Read more: https://gwern.net/guardian-angel</description>
+      <guid isPermaLink="true">https://gwern.net/guardian-angel</guid>
+      <pubDate>Tue, 14 Jul 2026 12:50:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48906041</comments>
     </item>
     <item>
-      <title>Kontigo (YC S24) が (セキュリティ責任者) を募集しています</title>
-      <link>https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security</link>
-      <description>📝 プリンシパル セキュリティ エンジニア/セキュリティ エンジニアリング リード/CISO 「危険な旅をするために男性が求められていました。低賃金、厳しい寒さ、完全な暗闇の中での長時間。成功した場合には名誉と評価が得られます。」 グローバルにアクセスできる安定した通貨プラットフォームの構築。
+      <title>Go で HTMX を使用する方法</title>
+      <link>https://www.alexedwards.net/blog/how-i-use-htmx-with-go</link>
+      <description>📝 tmpl アセット/html/partials/images。 tmpl アセット/html/pages/home. tmpl ファイル: ファイル:assets/html/base.
 
 
-🔤 Original: Kontigo (YC S24) Is Hiring (Head of Security)
+🔤 Original: How I use HTMX with Go
 
-🔗 Read more: https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security</guid>
-      <pubDate>Tue, 14 Jul 2026 17:00:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48909820</comments>
+🔗 Read more: https://www.alexedwards.net/blog/how-i-use-htmx-with-go</description>
+      <guid isPermaLink="true">https://www.alexedwards.net/blog/how-i-use-htmx-with-go</guid>
+      <pubDate>Tue, 14 Jul 2026 19:55:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48912175</comments>
     </item>
     <item>
-      <title>HN を起動: Agnost AI (YC S26) – エージェントの会話からユーザー フィードバックを抽出</title>
-      <link>https://agnost.ai</link>
-      <description>📝 Agnost AI は、eval が見逃すエージェントの失敗をキャッチします。 05Agnost AI は実際に何を改善しますか。 Agnost AI は、eval が見逃すエージェントの失敗をキャッチします。
-
-
-🔤 Original: Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations
-
-🔗 Read more: https://agnost.ai</description>
-      <guid isPermaLink="true">https://agnost.ai</guid>
-      <pubDate>Tue, 14 Jul 2026 16:06:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48908950</comments>
+      <title>StubHubの「ファン向けマーケットプレイス」は大衆ダフ屋によって運営されていることがSECへの提出書類で明らかになった</title>
+      <link>https://www.cbc.ca/news/world/stubhub-ceo-class-action-scalping-9.7268987</link>
+      <guid isPermaLink="true">https://www.cbc.ca/news/world/stubhub-ceo-class-action-scalping-9.7268987</guid>
+      <pubDate>Tue, 14 Jul 2026 19:48:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48912100</comments>
     </item>
     <item>
-      <title>エージェントティック ループ: トレンチ コートの 3 つのループ</title>
-      <link>https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a</link>
-      <description>📝 Push({ 役割: "アシスタント", コンテンツ: 推論.コンテンツ, ToolCalls: inferred.push({ ロール: "アシスタント", コンテンツ: 推論.
+      <title>同じモデル、同じ Q4_K_M ラベル: 重量あたり 5.02、5.07、および 5.27 ビット</title>
+      <link>https://github.com/logxio/picchio</link>
+      <description>📝 コマンド 表中の picchio は、python3 picchio を表します。コマンドの動作 実際の出力ピッキオモデル。 cpp 診断: 3 つのパス、配置、コールド スタートの故障、判定例 picchio qwen3。
 
 
-🔤 Original: The Agentic Loop: Three loops in a trench coat
+🔤 Original: Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight
 
-🔗 Read more: https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a</description>
-      <guid isPermaLink="true">https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a</guid>
-      <pubDate>Tue, 14 Jul 2026 14:39:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48907672</comments>
-    </item>
-    <item>
-      <title>S&amp;P、オラクルをBBBに格下げ – ジャンクレベルからわずか1ノッチ上</title>
-      <link>https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html</link>
-      <description>📝 格付け会社は、オラクルが負債と株式を組み合わせてこの赤字を補うことを期待している。これは 2026 年度の総収益の約 27% を占めました。この「人から機械へ」の移行により、同社は AI インフラストラクチャに資金を提供することを目指しています。
-
-
-🔤 Original: S&amp;P downgrades Oracle to BBB – only one notch above junk level
-
-🔗 Read more: https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html</description>
-      <guid isPermaLink="true">https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html</guid>
-      <pubDate>Tue, 14 Jul 2026 16:56:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48909768</comments>
-    </item>
-    <item>
-      <title>IBM株は最悪の日</title>
-      <link>https://www.cnn.com/2026/07/14/tech/ibm-stock-worst-day-ever</link>
-      <description>📝 David Paul Morris/Bloomberg/Getty Images 企業ニュース 株式投資 すべてのトピックを表示 Facebook ツイート 電子メール リンク スレッド リンクがコピーされました。 「このような状況では、私たちのチームは完璧なパフォーマンスを要求されますが、この四半期では私たちは行き詰まってしまいました」とクリシュナ氏は語った。企業ニュース 株式への投資 すべてのトピックを表示 Facebook ツイート 電子メール リンク スレッド リンクがコピーされました。
-
-
-🔤 Original: IBM Stock has worst day
-
-🔗 Read more: https://www.cnn.com/2026/07/14/tech/ibm-stock-worst-day-ever</description>
-      <guid isPermaLink="true">https://www.cnn.com/2026/07/14/tech/ibm-stock-worst-day-ever</guid>
-      <pubDate>Tue, 14 Jul 2026 14:39:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48907665</comments>
+🔗 Read more: https://github.com/logxio/picchio</description>
+      <guid isPermaLink="true">https://github.com/logxio/picchio</guid>
+      <pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48912947</comments>
     </item>
   </channel>
 </rss>
