@@ -6,93 +6,132 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Jul 2026 02:32:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 05:41:10 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>SQLite에는 (Rust 스타일) 버전이 있어야 합니다.</title>
-      <link>https://mort.coffee/home/sqlite-editions/</link>
-      <description>📝 다른 유사성에는 다르지만 더 간단한 규칙이 있습니다. 즉, BLOB 유사성 열은 값을 있는 그대로 저장합니다. TEXT 선호도가 있는 열은 BLOB, TEXT 및 NULL 값을 있는 그대로 저장하지만 숫자 값을 TEXT로 변환합니다. REAL 선호도가 있는 열은 정수 값이 REAL로 변환된다는 점을 제외하면 INTEGER 선호도가 있는 열처럼 작동합니다.
-
-
-🔤 Original: SQLite should have (Rust-style) editions
-
-🔗 Read more: https://mort.coffee/home/sqlite-editions/</description>
-      <guid isPermaLink="true">https://mort.coffee/home/sqlite-editions/</guid>
-      <pubDate>Wed, 15 Jul 2026 22:42:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48928135</comments>
+      <title>처음부터 버튼을 만들려면 먼저 유니버스를 만들어야 합니다.</title>
+      <link>https://madcampos.dev/blog/2026/07/accessibility-from-scratch/</link>
+      <guid isPermaLink="true">https://madcampos.dev/blog/2026/07/accessibility-from-scratch/</guid>
+      <pubDate>Thu, 16 Jul 2026 03:48:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48930136</comments>
     </item>
     <item>
-      <title>금속-유기 프레임워크, 화학의 새로운 기적의 재료(2018)</title>
-      <link>https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials</link>
-      <description>📝 그들은 또한 사막 공기에서 물을 끌어올 수도 있습니다. Yaghi는 "우리는 이전에 어떤 종류의 재료에서도 볼 수 없었던 수와 다양성으로 이전에 만들어진 적이 없는 화학 구조를 만들었습니다."라고 말합니다. Yaghi는 "전 세계적으로 MOF를 사용하여 엄청난 문제가 조사되고 있습니다."라고 말했습니다.
+      <title>Bluesky 상표 ATProto</title>
+      <link>https://atproto.com/blog/at-protocol-trademark</link>
+      <description>📝 이제 Bluesky가 이를 소유하므로 atproto 커뮤니티의 지속적인 마크 사용이 보호될 수 있습니다. 귀하의 마크가 설명이 아닌 브랜드가 될 때. 우리는 다른 사람이 소유한 것을 공유할 수 없습니다.
 
 
-🔤 Original: Metal-Organic Frameworks, Chemistry's New Miracle Materials (2018)
+🔤 Original: Bluesky Trademarks ATProto
 
-🔗 Read more: https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials</description>
-      <guid isPermaLink="true">https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials</guid>
-      <pubDate>Wed, 15 Jul 2026 23:00:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48928313</comments>
+🔗 Read more: https://atproto.com/blog/at-protocol-trademark</description>
+      <guid isPermaLink="true">https://atproto.com/blog/at-protocol-trademark</guid>
+      <pubDate>Thu, 16 Jul 2026 01:21:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48929351</comments>
     </item>
     <item>
-      <title>MikroTik과의 LLM 네트워킹</title>
-      <link>https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html</link>
-      <description>📝 나는 '바이브 네트워킹'이나 'vibkrotik' 또는 기타 혐오스러운 말을 자제해 왔지만 사실입니다. 지난 몇 달 동안 LLM을 사용하여 몇 개의 네트워크를 설정해 왔고 모든 것이 일반적으로 순조롭게 진행되었습니다. 예, 이것은 "내 네트워크를 설정하면 실수하지 않습니다"라는 농담입니다. 그러지 마세요. 나는 상황에 처해 있었습니다(또는 LLM이 나를 이 길로 이끌었을 수도 있습니다.
+      <title>768개의 서버를 1처럼 보이게 만들기</title>
+      <link>https://planetscale.com/blog/making-768-servers-look-like-1</link>
+      <description>📝 단일 데이터베이스 서버는 이러한 수요를 처리할 수 없으므로 데이터베이스 샤딩을 통해 쿼리와 데이터를 여러 서버에 분산시켜야 합니다. 복제본을 추가하여 더 많은 트래픽을 처리하도록 데이터베이스를 확장할 수 있습니다. 이를 처리하는 가장 입증된 방법은 샤딩입니다.
 
 
-🔤 Original: LLM Networking with MikroTik
+🔤 Original: Making 768 servers look like 1
 
-🔗 Read more: https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html</description>
-      <guid isPermaLink="true">https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html</guid>
-      <pubDate>Wed, 15 Jul 2026 22:23:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48927915</comments>
+🔗 Read more: https://planetscale.com/blog/making-768-servers-look-like-1</description>
+      <guid isPermaLink="true">https://planetscale.com/blog/making-768-servers-look-like-1</guid>
+      <pubDate>Thu, 16 Jul 2026 03:36:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48930075</comments>
     </item>
     <item>
-      <title>HN 표시: 한 통 더 편지</title>
-      <link>https://playonemoreletter.com/</link>
-      <guid isPermaLink="true">https://playonemoreletter.com/</guid>
-      <pubDate>Wed, 15 Jul 2026 23:10:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48928402</comments>
+      <title>19세기의 아름다운 야생동물 삽화 1,300점이 복원되었습니다</title>
+      <link>https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html</link>
+      <description>📝 여기에서 박물학자 도서관의 복제물을 방문해 보세요. 귀하의 댓글은 Akismet의 대기열에 추가됩니다. 필수 1,700개 무료 온라인 강좌 100개 이상의 온라인 학위 및 단기 학위 프로그램 1,150개 무료 영화 1,000개 무료 오디오 북 150개 이상의 Best Pod.
+
+
+🔤 Original: 1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored
+
+🔗 Read more: https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html</description>
+      <guid isPermaLink="true">https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html</guid>
+      <pubDate>Thu, 16 Jul 2026 03:12:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48929945</comments>
     </item>
     <item>
-      <title>SQLite 문자열의 Nul 문자</title>
-      <link>https://sqlite.org/nulinstr.html</link>
-      <description>📝 SQLite는 t1. 그러나 CLI 출력에서는 문자열에 3자만 있는 것으로 나타나기 때문에 사용자는 이로 인해 쉽게 혼란을 겪을 수 있습니다. 이것은 버그인 것 같습니다.
+      <title>LLM이 컴퓨터 아키텍처 논문에 대한 깊은 기술적 이해를 수행할 수 있습니까?</title>
+      <link>https://arxiv.org/abs/2607.11859</link>
+      <description>📝 ) 연결된 문서 Toggle Connected Papers(연결된 문서란 무엇입니까?) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?
 
 
-🔤 Original: Nul Characters in Strings in SQLite
+🔤 Original: Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers
 
-🔗 Read more: https://sqlite.org/nulinstr.html</description>
-      <guid isPermaLink="true">https://sqlite.org/nulinstr.html</guid>
-      <pubDate>Wed, 15 Jul 2026 23:03:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48928343</comments>
+🔗 Read more: https://arxiv.org/abs/2607.11859</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2607.11859</guid>
+      <pubDate>Thu, 16 Jul 2026 02:17:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48929660</comments>
     </item>
     <item>
-      <title>WebRTC 기반 P2P 로컬 파일 전송</title>
-      <link>https://pairdrop.net/</link>
-      <description>📝 페어드롭 | 크로스 플랫폼으로 파일을 전송합니다. العربية - (아랍어) беларуская - (벨라루스어) Bokmål - (노르웨이어 Bokmål) български - (불가리아어) Català - (카탈로니아어) chester - (체코어) Dansk - (덴마크어) Deutsch - (독일어) English Español - (스페인어) Eesti - (에스토니아어) Euskara - (바스크어) Пارسی - (페르시아어) Français - (프랑스어) Bahasa Indonesia - (인도네시아어) Italiano - (이탈리아어) עִבְרִית - (히브리어) ಕನ್ನಡ - (칸나다어) Magyar - (헝가리) Nederlands - (네덜란드어) Norsk - (노르웨이 뉘노르스크) Polski - (폴란드어) Português do Brasil - (브라질 포르투갈어) Română - (루마니아어) Русский язык - (러시아어) Slovenčina - (슬로바키아어) தமிழ் - (타밀어) Türkçe - (터키어) Украѕнська - (우크라이나어) 汉语 - (중국어 간체) 中文 - (Hant Script) 한어 - (중국어 번체) 日本語 - (일본어) 한국어 - (한국어) 000 000 pairDrop v1. 2 JavaScript 활성화 pairDrop은 JavaScript에서만 작동합니다.
+      <title>음악 불법 복제로 인해 잃어버린 즐거움</title>
+      <link>https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming</link>
+      <description>📝 Pigeons &amp; Planes는 음악 발견, 새로운 아티스트 지원, 온라인 및 IRL 최고의 음악 큐레이션 제공에 관한 것입니다. 우리는 항상 듣고 있습니다. Pigeons &amp; Planes는 음악 발견, 새로운 아티스트 지원, 온라인 및 IRL 최고의 음악 큐레이션 제공에 관한 것입니다.
 
 
-🔤 Original: P2P local file transfer based on WebRTC
+🔤 Original: The lost joy of music piracy
 
-🔗 Read more: https://pairdrop.net/</description>
-      <guid isPermaLink="true">https://pairdrop.net/</guid>
-      <pubDate>Wed, 15 Jul 2026 22:22:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48927900</comments>
+🔗 Read more: https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming</description>
+      <guid isPermaLink="true">https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming</guid>
+      <pubDate>Thu, 16 Jul 2026 04:46:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48930454</comments>
     </item>
     <item>
-      <title>Anti-Mac 사용자 인터페이스(1996)</title>
-      <link>https://www.nngroup.com/articles/anti-mac-interface/</link>
-      <description>📝 이 기사에서는: Macintosh 휴먼 인터페이스 디자인 원칙 Anti-Mac 인터페이스 결론 참조 Macintosh 휴먼 인터페이스 디자인 원칙 Macintosh 지침[2]에 따르면 Macintosh 시스템 소프트웨어 및 응용 프로그램용 휴먼 인터페이스 디자인은 인간-컴퓨터 상호 작용의 여러 가지 기본 원칙을 기반으로 합니다. 우리는 매킨토시 휴먼 인터페이스 디자인 원칙 각각에 대해 이 두 가지 질문을 다룰 것입니다. Mac 및 Anti-Mac 디자인 원칙.
+      <title>AI는 도구일 뿐이고 어떻게 사용되는지가 중요하다고 말하지 마세요.</title>
+      <link>https://www.frank.computer/blog/2025/05/just-a-tool.html</link>
+      <description>📝 그리고 이것은 그것이 전부라는 것을 의미합니다. "어떻게 사용하느냐가 중요하다"는 것은 매우 간단하고 해결 가능한 문제 공간입니다. 글쎄요, 어떤 사람들은 모릅니다. 이것은 하이데거의 Gestell(“en-framing”)입니다: t.
 
 
-🔤 Original: The Anti-Mac User Interface (1996)
+🔤 Original: Stop saying that AI is just a tool and it only matters how it is used
 
-🔗 Read more: https://www.nngroup.com/articles/anti-mac-interface/</description>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/anti-mac-interface/</guid>
-      <pubDate>Wed, 15 Jul 2026 22:52:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48928234</comments>
+🔗 Read more: https://www.frank.computer/blog/2025/05/just-a-tool.html</description>
+      <guid isPermaLink="true">https://www.frank.computer/blog/2025/05/just-a-tool.html</guid>
+      <pubDate>Thu, 16 Jul 2026 04:31:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48930363</comments>
+    </item>
+    <item>
+      <title>나의 투구가 나의 목표를 결정한다</title>
+      <link>https://thegustafson.com/blog/my-throw-decides-my-aim</link>
+      <description>📝 그 맥락이 다음 던지기의 형태를 결정합니다. 좋아요, 그건 단지 샘플링일 뿐입니다. 그런 다음 거기에 도착하는 선을 만듭니다.
+
+
+🔤 Original: My Throw Decides My Aim
+
+🔗 Read more: https://thegustafson.com/blog/my-throw-decides-my-aim</description>
+      <guid isPermaLink="true">https://thegustafson.com/blog/my-throw-decides-my-aim</guid>
+      <pubDate>Thu, 16 Jul 2026 03:51:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48930149</comments>
+    </item>
+    <item>
+      <title>Tokio/Rayon 함정과 Async/Await가 동시성에 실패하는 이유</title>
+      <link>https://pmbanugo.me/blog/why-async-await-complect-concurrency</link>
+      <description>📝 그러나 익숙한 구문 아래에는 엄청난 구조적 복잡성이 있습니다. 프로덕션 함정: 비동기성과 동시성 혼동 async/await의 근본적인 함정은 비동기성(I/O를 기다리는 동안 생성)과 동시성(한 번에 여러 작업을 처리)을 혼동한다는 것입니다. 진행 중인 작업은 무기한 대기합니다.
+
+
+🔤 Original: The Tokio/Rayon Trap and Why Async/Await Fails Concurrency
+
+🔗 Read more: https://pmbanugo.me/blog/why-async-await-complect-concurrency</description>
+      <guid isPermaLink="true">https://pmbanugo.me/blog/why-async-await-complect-concurrency</guid>
+      <pubDate>Thu, 16 Jul 2026 02:06:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48929587</comments>
+    </item>
+    <item>
+      <title>Cloudflare AI를 사용하는 오픈 소스, 무료 계층 지원 Whispr</title>
+      <link>https://github.com/PrestigePvP/Voicebox</link>
+      <description>📝 js + pnpm Wails v2 CLI Workers AI 액세스가 포함된 Cloudflare 계정 macOS(자동 붙여넣기에 필요한 접근성 권한) 작업자 배포 cd 작업자 pnpm 설치 wrangler secret put VOICEBOX_TOKEN # 공유 비밀 설정 pnpm 배포 데스크톱 클라이언트 구성 처음 실행하면 VoiceBox가 설정 창을 엽니다. 구성/음성박스/음성박스. 구성/음성박스/음성박스.
+
+
+🔤 Original: Open Source, Free Tier Capable Whispr Using Cloudflare AI
+
+🔗 Read more: https://github.com/PrestigePvP/Voicebox</description>
+      <guid isPermaLink="true">https://github.com/PrestigePvP/Voicebox</guid>
+      <pubDate>Thu, 16 Jul 2026 02:57:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48929870</comments>
     </item>
   </channel>
 </rss>
