@@ -6,60 +6,34 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Jul 2026 05:52:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 08:16:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>FDA、新種のコレステロール錠剤を承認</title>
-      <link>https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol</link>
-      <description>📝 Lipfendra による治療では、プラセボと比較して 24 週目に LDL-C が平均 56% 減少しました。 HeFH の成人を登録した 2 番目の試験では、参加者の平均ベースライン LDL-C は 119 mg/dL でした。 Lipfendra による治療では、プラセボと比較して 24 週目に LDL-C が平均 59% 減少しました。
+      <title>AMD GFX1250 LLVM 茶葉の精査</title>
+      <link>https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea</link>
+      <description>📝 ここで興味深いことに、これらのアクセラレータは APU ではないことがわかっているにもかかわらず、LLVM では APU としてリストされているということです。 Wave32 モードに加えて Wave64 でも実行できる RDNA とは異なり、GFX1250 は Wave32 モードでのみ動作します。これは、RDNA シリーズの GPU のレジスタ割り当て動作よりもさらに大きな改善であり、RDNA は割り当て分割なしで単一の Wave に最大 256 個のレジスタしか割り当てることができません。
 
 
-🔤 Original: FDA approves new kind of cholesterol pill
+🔤 Original: Scrying the AMD GFX1250 LLVM Tea Leaves
 
-🔗 Read more: https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol</description>
-      <guid isPermaLink="true">https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol</guid>
-      <pubDate>Sun, 19 Jul 2026 02:40:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48964536</comments>
+🔗 Read more: https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea</description>
+      <guid isPermaLink="true">https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea</guid>
+      <pubDate>Sun, 19 Jul 2026 05:07:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48965161</comments>
     </item>
     <item>
-      <title>LLM 統合多変数微積分コース</title>
-      <link>https://calculus.academa.ai/</link>
-      <description>📝 )ベクトル関数 28:26 講義 7 パラメトリック曲線 28:39 講義 8 パラメトリック曲線 (続き) 偏導関数 40:22 講義 9 偏導関数 29:10 講義 10 部分導関数 (続き) 9:21 講義 11 接平面、表面への法線ベクトル 23:24 講義 12 チェーンルール28:29 講義13 方向微分と勾配 34:42 講義14 最大化と最小化 27:39 講義15 ラグランジュ乗数重積分 41:43 講義16 二重積分 23:02 講義17 一般領域における二重積分 23:29 講義18 二重積分の応用 講義19 二重積分極座標 講義 20 三重積分 講義 21 三重積分の応用 講義 22 円筒座標と球面座標 講義 23 円筒座標と球面座標での積分 講義 24 変数の一般的な変化ベクトル微積分 講義 25 ベクトル場と線積分 講義 26 勾配場と線積分の基本定理 講義 27 詳細保守的分野 講義 28 グリーンの定理 講義 29 カールと発散 講義 30 Div と Curl の詳細 講義 32 パラメトリック曲面、曲面積分についての詳細 講義 33 積分の全体像、ストークスの定理 講義 35 カールのない世界、ディビジョンのない世界。
+      <title>最近、エージェントの毎週の割り当てがランダムにリセットされているのですが、どうなっているのでしょうか?</title>
+      <link>https://minimaxir.com/2026/07/agent-quota-reset/</link>
+      <description>📝 6、Anthropic と OpenAI は、ハーネスの毎週のクォータ リセットをはるかに頻繁に実行しています。 com はコーデックスのリセットを追跡します。 5 そして、OpenAI が GPT-5 を迎えるためにクォータ リセットを行うことに賭けます。
 
 
-🔤 Original: LLM-Integrated Multivariable Calculus Course
+🔤 Original: What's the deal with all the random weekly quota resets for agents lately?
 
-🔗 Read more: https://calculus.academa.ai/</description>
-      <guid isPermaLink="true">https://calculus.academa.ai/</guid>
-      <pubDate>Sun, 19 Jul 2026 02:55:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48964585</comments>
-    </item>
-    <item>
-      <title>WebRTCを使用したブラウザベースのP2Pファイル転送ツールを構築しました</title>
-      <link>https://airdows.com/</link>
-      <description>📝 AirDows のリストを保存し、罪を再解釈し、永続的な環境での活動を継続的に実行できるように、AirDows の接続を継続的に実行し、記録を保存します。 AirDows の機能を完全に管理する必要はありません。 AirDows は、解決策を体系的に選択し、AirDows を管理します。
-
-
-🔤 Original: I built a browser-based P2P file transfer tool using WebRTC
-
-🔗 Read more: https://airdows.com/</description>
-      <guid isPermaLink="true">https://airdows.com/</guid>
-      <pubDate>Sun, 19 Jul 2026 02:17:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48964424</comments>
-    </item>
-    <item>
-      <title>ディープセック</title>
-      <link>https://github.com/vercel-labs/deepsec</link>
-      <description>📝 deepsec pnpm install # npm から deepsec をインストールします # `init` 出力の指示に従って進みます。 次に、コーディング エージェントにインストールをブートストラップさせます。 deepsec/: pnpm deepsec scan pnpm deepsec process pnpm deepsec revalidate # オプション、FP レートをカット pnpm deepsec export --format md-dir --out。 deepsec 自体のセキュリティ モデル deepsec を、それが実行されている環境上で完全なシェル アクセス権を持つコーディング エージェントのように扱います。
-
-
-🔤 Original: Deepsec
-
-🔗 Read more: https://github.com/vercel-labs/deepsec</description>
-      <guid isPermaLink="true">https://github.com/vercel-labs/deepsec</guid>
-      <pubDate>Sun, 19 Jul 2026 01:33:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=48964215</comments>
+🔗 Read more: https://minimaxir.com/2026/07/agent-quota-reset/</description>
+      <guid isPermaLink="true">https://minimaxir.com/2026/07/agent-quota-reset/</guid>
+      <pubDate>Sat, 18 Jul 2026 19:06:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=48961157</comments>
     </item>
   </channel>
 </rss>
