@@ -6,210 +6,198 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Jul 2026 16:44:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 19:27:00 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>《半条命 2》在 HaikuOS 上本地运行</title>
-      <link>https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18</link>
-      <description>📝 6 喜欢 brunobastardi 2026 年 7 月 22 日，上午 7:27 356 支持 Displayport 的真正优势是什么。 2 Likes X512 2026 年 7 月 22 日上午 10:05 359 DisplayPort 支持实际上已准备就绪。 dcbeckman 2026 年 7 月 22 日，晚上 11:57 365 现在我需要一张 Nvidia 卡。
+      <title>克劳德作品 5</title>
+      <link>https://www.anthropic.com/news/claude-opus-5</link>
+      <description>📝 产品公告介绍 Claude Opus 5 2026 年 7 月 24 日 Claude Opus 5 现已上市。它显示出比 Opus 4 更好的性能。Claude Opus 5 以 Opus 的速度和成本提供了接近 Fable 5 的智能。
 
 
-🔤 Original: Half-Life 2 running natively on HaikuOS
+🔤 Original: Claude Opus 5
 
-🔗 Read more: https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18</description>
-      <guid isPermaLink="true">https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18</guid>
-      <pubDate>Fri, 24 Jul 2026 12:53:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49034868</comments>
+🔗 Read more: https://www.anthropic.com/news/claude-opus-5</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-5</guid>
+      <pubDate>Fri, 24 Jul 2026 16:57:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038433</comments>
     </item>
     <item>
-      <title>确保正确性的前端框架：基于 Effect 构建，架构类似于 Elm</title>
-      <link>https://foldkit.dev/</link>
-      <description>📝 可预测的状态一个不可变的模型保存您的整个应用程序状态。观察通过更新进入模型的消息流。 // 模型常量模型 = S.
+      <title>Nvidia、微软、Meta 警告不要过度监管开放权重模型</title>
+      <link>https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html</link>
+      <description>📝 中国的开放权重模型正在对抗 OpenAI 和 Anthropic 等美国公司的领先产品，这些公司主要开发专有的封闭模型。他们写道，开放权重模型加强了竞争，并确保该技术的好处“被广泛共享，而不是集中在少数人手中。人工智能以遏制流氓 OpenAI 模型进行的网络攻击。
 
 
-🔤 Original: The front end framework for correctness: built on Effect, architected like Elm
+🔤 Original: Nvidia, Microsoft, Meta warn against overregulating open-weight models
 
-🔗 Read more: https://foldkit.dev/</description>
-      <guid isPermaLink="true">https://foldkit.dev/</guid>
-      <pubDate>Fri, 24 Jul 2026 15:24:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49037031</comments>
+🔗 Read more: https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html</guid>
+      <pubDate>Fri, 24 Jul 2026 13:32:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49035303</comments>
     </item>
     <item>
-      <title>政府命令 GitHub 删除基于蓝牙的聊天应用程序 Bitchat：Jack Dorsey</title>
-      <link>https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece</link>
-      <description>📝 I4C 在通知中表示，该应用程序即使在网络限制期间也能进行通信，并造成反国家分子、恐怖组织、有组织犯罪集团和网络犯罪分子滥用的巨大风险，他们试图逃避合法检测并在法律施加的限制下继续通信。 I4C 表示，它已确定多个应用程序作为通信平台，能够通过蓝牙网状网络建立分散的点对点消息传递，而无需依赖移动网络、互联网连接或集中式服务器。通知中提到：“该应用程序的设计即使在网络限制期间也能进行通信，因此存在被反国家分子、恐怖组织、有组织犯罪集团和网络犯罪分子滥用的巨大风险，他们试图逃避合法检测并在受到法律限制的情况下继续通信。”
+      <title>Postgres LISTEN/NOTIFY 实际上可以扩展</title>
+      <link>https://www.dbos.dev/blog/postgres-listen-notify-scalability</link>
+      <description>📝 每秒 9K 流写入。此锁是必要的，因为 Postgres 保证通知按照事务提交顺序发送。这种独占锁解释了我们观察到的糟糕性能。
 
 
-🔤 Original: Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey
+🔤 Original: Postgres LISTEN/NOTIFY actually scales
 
-🔗 Read more: https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece</description>
-      <guid isPermaLink="true">https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece</guid>
-      <pubDate>Fri, 24 Jul 2026 14:41:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49036433</comments>
+🔗 Read more: https://www.dbos.dev/blog/postgres-listen-notify-scalability</description>
+      <guid isPermaLink="true">https://www.dbos.dev/blog/postgres-listen-notify-scalability</guid>
+      <pubDate>Fri, 24 Jul 2026 19:05:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49040296</comments>
     </item>
     <item>
-      <title>3GPP 版本 19</title>
-      <link>https://www.3gpp.org/specifications-technologies/releases/release-19</link>
-      <description>📝 规范和技术版本 Release 19 Release 19 随着完全可实施的规范于 2025 年 12 月底推出，3GPP Rel-19 按计划完成，第二个 5G-Advanced 版本的工作也已结束。 919-发布说明；版本 19. 2023）版本 19 的早期研讨会（2023 年 6 月）。
+      <title>我通过黑进 YC</title>
+      <link>https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html</link>
+      <description>📝 我发现今年，YC 希望我在计算机上使用名为 Paxel 的东西作为应用程序的一部分。当然，这与现实相符，因为法学硕士让这些事情变得容易得多。所以第一个起点自然是这个安装脚本。
 
 
-🔤 Original: 3GPP Version 19
+🔤 Original: I got into YC by hacking it
 
-🔗 Read more: https://www.3gpp.org/specifications-technologies/releases/release-19</description>
-      <guid isPermaLink="true">https://www.3gpp.org/specifications-technologies/releases/release-19</guid>
-      <pubDate>Fri, 24 Jul 2026 14:23:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49036136</comments>
+🔗 Read more: https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html</description>
+      <guid isPermaLink="true">https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html</guid>
+      <pubDate>Fri, 24 Jul 2026 18:03:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49039448</comments>
     </item>
     <item>
-      <title>PlayStation 2 版植物大战僵尸</title>
-      <link>https://github.com/OptiJuegos/pvz-ps2</link>
-      <description>📝 Patoke 的 PVZ GOTY 反编译的分支具有以下目标： 用 SDL + OpenGL 替换渲染器 用跨平台代码替换 Windows 代码 用 SDL Mixer X 替换 DirectSound/BASS/FMod 该项目使用 SDL Mixer X 的分支，通过使用 libopenmpt 增加了与 MO3 格式的兼容性。该分支位于 sexyAppFramework/sound/SDL-Mixer-X main 下。由 Miya aka Kopie 开发的 9，为 mod 制作者和玩家提供最佳的 PvZ 体验免责声明该项目不容忍盗版该项目不包含来自 PopCap 的开源游戏引擎之外的任何 IP，这只会输出反编译的 PvZ 粉丝版本的可执行文件要使用该项目玩游戏，您需要通过购买它来访问原始游戏文件路线图当前重点是为基础游戏添加 x64 支持（部分）替换 GLFW 的旧渲染器后端（WIP） 替换跨平台 GLFW 对应项的所有仅 Windows 代码（WIP） 当我们使用 GLFW 进行有效的 x64 构建时保留 添加游戏 GOTY 版本的所有功能 成就（部分） Zombatar 未来可能的功能 为游戏创建一个易于使用的模组 API 从文件中解析僵尸 从文件中解析植物 从文件中解析地图 添加自定义序列的脚本 安装 Visual Studio Community 打开包含CMake设置。
-
-
-🔤 Original: Plants vs. Zombies for PlayStation 2
-
-🔗 Read more: https://github.com/OptiJuegos/pvz-ps2</description>
-      <guid isPermaLink="true">https://github.com/OptiJuegos/pvz-ps2</guid>
-      <pubDate>Fri, 24 Jul 2026 13:57:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49035740</comments>
+      <title>Fil-C：垃圾输入，内存安全输出 [视频]</title>
+      <link>https://www.youtube.com/watch?v=5F-2Y1LPRek</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=5F-2Y1LPRek</guid>
+      <pubDate>Thu, 23 Jul 2026 19:37:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49026933</comments>
     </item>
     <item>
-      <title>WebGPU 释放：实用教程</title>
-      <link>https://shi-yan.github.io/webgpuunleashed/</link>
-      <description>📝 这种碎片化常常让初学者感到困惑，让他们不确定从哪个 API 开始。与图形驱动程序中本地实现的其他 API 不同，WebGPU 本质上是上述 API 的包装器。让我们一起踏上 WebGPU 之旅。
+      <title>对 OpenAI 的流氓黑客代理故事持怀疑态度</title>
+      <link>https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker</link>
+      <description>📝 “流氓特工的故事只是 OpenAI 自 2019 年宣布 GPT-2 以来一直在进行的媒体宣传活动中的一页。以及谁从中受益。流氓特工的故事只是 OpenAI 自 2019 年宣布 GPT-2 以来一直在进行的媒体宣传活动的一部分。
 
 
-🔤 Original: WebGPU Unleashed: A Practical Tutorial
+🔤 Original: Be skeptical of OpenAI's rogue hacker agent story
 
-🔗 Read more: https://shi-yan.github.io/webgpuunleashed/</description>
-      <guid isPermaLink="true">https://shi-yan.github.io/webgpuunleashed/</guid>
-      <pubDate>Fri, 24 Jul 2026 14:04:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49035845</comments>
+🔗 Read more: https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker</description>
+      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker</guid>
+      <pubDate>Fri, 24 Jul 2026 16:33:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038060</comments>
     </item>
     <item>
-      <title>代码伯格分歧</title>
-      <link>https://lucumr.pocoo.org/2026/7/24/codeberg-divides/</link>
-      <description>📝 实际的措辞使这变得更加困难。更多信息：印记和人工智能透明度。配色方案：自动、浅色、深色。
+      <title>制作GIF最难的方法</title>
+      <link>https://blog.willgrant.org/2026/07/23/the-hardest-way-to-make-gif.html</link>
+      <description>📝 我们开发了胶片，每帧包含 4 个以每秒 4 帧的速度拍摄的图像。步骤 4：裁剪帧 35mm 帧内每 4 个帧的对齐并不精确（毕竟这是 20 世纪 90 年代的塑料相机）。现在我们将帧导出为 PNG，并按帧顺序对它们进行编号。
 
 
-🔤 Original: Codeberg Divides
+🔤 Original: The hardest way to make a GIF
 
-🔗 Read more: https://lucumr.pocoo.org/2026/7/24/codeberg-divides/</description>
-      <guid isPermaLink="true">https://lucumr.pocoo.org/2026/7/24/codeberg-divides/</guid>
-      <pubDate>Fri, 24 Jul 2026 15:05:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49036765</comments>
+🔗 Read more: https://blog.willgrant.org/2026/07/23/the-hardest-way-to-make-gif.html</description>
+      <guid isPermaLink="true">https://blog.willgrant.org/2026/07/23/the-hardest-way-to-make-gif.html</guid>
+      <pubDate>Fri, 24 Jul 2026 07:05:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032126</comments>
     </item>
     <item>
-      <title>选配 Linux 进程进行高性能网络模拟 (2022)</title>
-      <link>https://www.usenix.org/conference/atc22/presentation/jansen</link>
-      <guid isPermaLink="true">https://www.usenix.org/conference/atc22/presentation/jansen</guid>
-      <pubDate>Fri, 24 Jul 2026 14:28:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49036224</comments>
+      <title>Gsxui – Shadcn 风格的 Go 组件</title>
+      <link>https://ui.gsxhq.dev/</link>
+      <description>📝 gsxui 是 gsx 的 shadcn 风格组件集：复制、类型检查、服务器渲染。浏览 GitHubgsx 文档上的组件查看↗去安装 github。 com/gsxhq/gsxui/cmd/gsxui@latest gsxui init gsxui add buttonButtonDefaultSecondaryDestructiveOutlineGhostLinkBadgeDefaultSecondaryDestructiveOutlineDialogOpen 对话框编辑配置文件由 ui/dialog 在本机 &lt;dialog&gt; 元素上渲染 — 无需客户端框架。
+
+
+🔤 Original: Gsxui – Shadcn-style components for Go
+
+🔗 Read more: https://ui.gsxhq.dev/</description>
+      <guid isPermaLink="true">https://ui.gsxhq.dev/</guid>
+      <pubDate>Fri, 24 Jul 2026 17:59:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49039395</comments>
     </item>
     <item>
-      <title>我的 Emacs 配置（定向）</title>
-      <link>https://eugene-andrienko.com/2026-07-05-my-emacs-configuration-dired.html</link>
-      <description>📝 它工作得很好，但我想要一些交互性 - 将一些文件从一个目录复制/移动到另一个目录，而无需发出多个 cp 命令1，在浏览另一个目录时查看一个目录的内容，例如在 Midnight Commander 中等。有时我使用了提到的 mc，效果很好。事情进展得很顺利，我现在就和 Dired 待在一起了。
-
-
-🔤 Original: My Emacs Configuration (Dired)
-
-🔗 Read more: https://eugene-andrienko.com/2026-07-05-my-emacs-configuration-dired.html</description>
-      <guid isPermaLink="true">https://eugene-andrienko.com/2026-07-05-my-emacs-configuration-dired.html</guid>
-      <pubDate>Fri, 24 Jul 2026 13:47:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49035561</comments>
+      <title>全新世语言多样性的兴衰</title>
+      <link>https://www.science.org/doi/10.1126/science.adx4343</link>
+      <guid isPermaLink="true">https://www.science.org/doi/10.1126/science.adx4343</guid>
+      <pubDate>Fri, 24 Jul 2026 16:40:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038181</comments>
     </item>
     <item>
-      <title>从头开始编写调试器</title>
-      <link>https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/</link>
-      <description>📝 我们将首先创建一个支持 Windows 上实时用户模式调试的调试器。对于发生的每个事件，操作系统将冻结目标进程并通知调试器有关该调试事件的信息。然后调试器从调试事件继续。
-
-
-🔤 Original: Writing a Debugger from Scratch
-
-🔗 Read more: https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/</description>
-      <guid isPermaLink="true">https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/</guid>
-      <pubDate>Fri, 24 Jul 2026 14:06:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49035864</comments>
+      <title>不要服用黑色药丸[视频]</title>
+      <link>https://www.youtube.com/watch?v=zLZwpH5lCD4</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=zLZwpH5lCD4</guid>
+      <pubDate>Fri, 24 Jul 2026 16:48:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038298</comments>
     </item>
     <item>
-      <title>马克·安德森（Marc Andreessen），风险投资家，结婚要等待，什么？</title>
-      <link>https://tyrandus.dev/2026/07/23/marc-andreessen-venture-capitalist-married-to-wait-what/</link>
-      <description>📝 今天，我们称之为公共基础设施。有了这笔钱，斯坦福大学就能发展壮大。 Adrian Daub (2026)：是 das Valley herrschen nennt。
+      <title>DuckPGQ – 用于图形工作负载的 DuckDB 社区扩展</title>
+      <link>https://duckpgq.org/</link>
+      <description>📝 安装并加载 DuckPGQ CLIPythonNodeJSRJava 从社区安装 duckpgq；加载鸭pgq；导入 duckdb conn = duckdb. run("从社区安装 duckpgq");等待连接。执行(“从社区安装duckpgq”);英石。
 
 
-🔤 Original: Marc Andreessen, venture capitalist, married to wait, what?
+🔤 Original: DuckPGQ – A DuckDB community extension for graph workloads
 
-🔗 Read more: https://tyrandus.dev/2026/07/23/marc-andreessen-venture-capitalist-married-to-wait-what/</description>
-      <guid isPermaLink="true">https://tyrandus.dev/2026/07/23/marc-andreessen-venture-capitalist-married-to-wait-what/</guid>
-      <pubDate>Fri, 24 Jul 2026 15:26:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49037076</comments>
+🔗 Read more: https://duckpgq.org/</description>
+      <guid isPermaLink="true">https://duckpgq.org/</guid>
+      <pubDate>Fri, 24 Jul 2026 17:00:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038481</comments>
     </item>
     <item>
-      <title>PCI DSS DMARC 要求：第 5.4.1 节的要求</title>
-      <link>https://dmarcguard.io/blog/pci-dss/</link>
-      <description>📝 1 控制目标及其 12 项主要要求。对于电子邮件身份验证，这意味着您可以满足第 5 节的要求。1 反网络钓鱼控制第 5 节。
+      <title>JEP 541：弃用 macOS/x64 端口以进行删除</title>
+      <link>https://openjdk.org/jeps/541</link>
+      <description>📝 因此，从 JDK 27 开始，Oracle 工程师将停止维护 macOS/x64 端口。维护该端口是一个沉重的负担。尝试配置 macOS/x64 构建将产生： 新的构建配置选项 --enable-deprecated-ports 将抑制错误并继续： 无法保证端口会构建，更不用说功能了。
 
 
-🔤 Original: PCI DSS DMARC Requirement: What Section 5.4.1 Requires
+🔤 Original: JEP 541: Deprecate the macOS/x64 Port for Removal
 
-🔗 Read more: https://dmarcguard.io/blog/pci-dss/</description>
-      <guid isPermaLink="true">https://dmarcguard.io/blog/pci-dss/</guid>
-      <pubDate>Fri, 24 Jul 2026 13:47:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49035563</comments>
+🔗 Read more: https://openjdk.org/jeps/541</description>
+      <guid isPermaLink="true">https://openjdk.org/jeps/541</guid>
+      <pubDate>Fri, 24 Jul 2026 16:52:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038352</comments>
     </item>
     <item>
-      <title>计算机杂志：RAM 的历史（1960-2025）</title>
-      <link>https://magworld.pw/episodes/computer/</link>
-      <description>📝 第 8 集：Mag Computer Saul 和 Mike 使用 RAM 作为计算能力的代表，攀登了计算的 mag 规模，从阿波罗制导计算机和 Apple II 到今天的机器，以及每 mag 内存的用途。收听完整剧集：音频在此浏览器中不可用。
+      <title>优树As2-W</title>
+      <link>https://www.unitree.com/As2-W/</link>
+      <description>📝 所到之处，征服一切地形结合车轮的高速与腿部的越障能力，自动适应楼梯、碎石、陡坡。轻松穿越复杂地形，攀爬高达 80 厘米的障碍物和高达 45° 的斜坡。
 
 
-🔤 Original: Mag Computer: A Mag History of RAM (1960–2025)
+🔤 Original: Unitree As2-W
 
-🔗 Read more: https://magworld.pw/episodes/computer/</description>
-      <guid isPermaLink="true">https://magworld.pw/episodes/computer/</guid>
-      <pubDate>Fri, 24 Jul 2026 14:26:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49036182</comments>
+🔗 Read more: https://www.unitree.com/As2-W/</description>
+      <guid isPermaLink="true">https://www.unitree.com/As2-W/</guid>
+      <pubDate>Fri, 24 Jul 2026 16:32:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038045</comments>
     </item>
     <item>
-      <title>防止 &lt;code&gt; 元素中换行</title>
-      <link>https://alexwlchan.net/2026/non-breaking-code/</link>
-      <description>📝 我添加了这些不间断字符，以便浏览器知道避免尴尬的换行符。这些换行符使帖子更难阅读，而且没有任何好处。将连字符分隔成多行通常没问题，但在代码中发生这种情况就很烦人了。
+      <title>小型、真实、原创的网络</title>
+      <link>https://spacetimetech.wordpress.com/2026/07/19/the-small-real-original-web/</link>
+      <description>📝 因此，称其为小型网络、慢速网络、独立网络、真实网络、原始网络、模拟网络或其他名称 - 名称并不重要。对于小型网络来说，还有很多其他很棒的东西。有原始网络搜索。
 
 
-🔤 Original: Preventing line breaks in &lt;code&gt; elements
+🔤 Original: The small, real, original web
 
-🔗 Read more: https://alexwlchan.net/2026/non-breaking-code/</description>
-      <guid isPermaLink="true">https://alexwlchan.net/2026/non-breaking-code/</guid>
-      <pubDate>Fri, 24 Jul 2026 14:20:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49036086</comments>
+🔗 Read more: https://spacetimetech.wordpress.com/2026/07/19/the-small-real-original-web/</description>
+      <guid isPermaLink="true">https://spacetimetech.wordpress.com/2026/07/19/the-small-real-original-web/</guid>
+      <pubDate>Fri, 24 Jul 2026 17:28:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038977</comments>
     </item>
     <item>
-      <title>维护人员访谈</title>
-      <link>https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html</link>
-      <description>📝 今天我们找到了那个人。泰勒：喜欢他。 ERIN：今年三个有用。
+      <title>BGP ORIGIN 属性操作及其对 Internet 的影响</title>
+      <link>https://blog.cloudflare.com/bgp-origin-attribute/</link>
+      <description>📝 BGP ORIGIN 及其操作历史 ORIGIN 属性指示如何将路由注入到 BGP 中 — 不要与指示哪个 AS 宣布路由的原始 AS 相混淆。 8% 将 ORIGIN 设置为 IGP，3. ORIGIN 属性操作分析在我们的实验中，我们宣布了三个 IPv4 和三个 IPv6 前缀，每个前缀都有不同的 ORIGIN 值（IGP/EGP/INCOMPLE.
 
 
-🔤 Original: Interview with a Maintainer
+🔤 Original: BGP ORIGIN attribute manipulation and its impact on the Internet
 
-🔗 Read more: https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html</description>
-      <guid isPermaLink="true">https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html</guid>
-      <pubDate>Fri, 24 Jul 2026 13:51:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49035656</comments>
+🔗 Read more: https://blog.cloudflare.com/bgp-origin-attribute/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/bgp-origin-attribute/</guid>
+      <pubDate>Fri, 24 Jul 2026 18:07:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49039490</comments>
     </item>
     <item>
-      <title>Kaizen #4：大修家庭实验室</title>
-      <link>https://timharek.no/blog/kaizen-4/</link>
-      <description>📝 猜猜它在哪里。我还使用 Jellyfin 和一个很棒的 iOS 应用程序 plappa 来听有声读物。不过他们可以给我寄一条 2 米长的电缆。
+      <title>在线编程语言历史百科全书</title>
+      <link>https://hopl.info/</link>
+      <description>📝 将所有勘误表和崩溃通知发送至 hopl。 © Diarmuid Pigott 1995-2020。将所有勘误表和崩溃通知发送至 hopl。
 
 
-🔤 Original: Kaizen #4: Overhauled Homelab
+🔤 Original: Online Historical Encyclopaedia of Programming Languages
 
-🔗 Read more: https://timharek.no/blog/kaizen-4/</description>
-      <guid isPermaLink="true">https://timharek.no/blog/kaizen-4/</guid>
-      <pubDate>Fri, 24 Jul 2026 13:46:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49035550</comments>
+🔗 Read more: https://hopl.info/</description>
+      <guid isPermaLink="true">https://hopl.info/</guid>
+      <pubDate>Fri, 24 Jul 2026 16:47:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49038276</comments>
     </item>
   </channel>
 </rss>
