@@ -6,41 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:52:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>소니가 클래식 워크맨 모델을 다시 출시할 수 없는 이유</title>
-      <link>https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</link>
-      <guid isPermaLink="true">https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</guid>
-      <pubDate>Thu, 23 Jul 2026 18:08:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49025766</comments>
+      <title>플럭스 3</title>
+      <link>https://bfl.ai/blog/flux-3</link>
+      <description>📝 FLUX 3: 하나의 모델, 다양한 기능. 입력 비디오 및 오디오에서 생성되는 비디오-오디오 연속입니다. FLUX 3은 Runway Gen-4보다 선호되었습니다.
+
+
+🔤 Original: Flux 3
+
+🔗 Read more: https://bfl.ai/blog/flux-3</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
+      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031796</comments>
     </item>
     <item>
-      <title>Zitron: 서브프라임 데이터센터 위기</title>
-      <link>https://www.wheresyoured.at/the-subprime-data-center-crisis/</link>
-      <description>📝 동일한 모기지 채권이 여러 다른 CDO에 첨부되어 있다는 것이 분명해지면서 상황은 더욱 혼란스러워졌습니다. 한 연구에 따르면 5,500개의 서로 다른 모기지 채권이 CDO에 36,000회 이상 배치되거나 참조된 것으로 나타났습니다. 결국, 당신이 정말로 알아야 할 유일한 것은 금융 기관이 결과에 베팅하기 위해 합성 CDO를 판매하여 더욱 복잡하고 위험한 방식으로 채권을 결합하는 CDO를 구축했다는 것입니다. 서로 다른 CDO는 동일한 모기지 풀을 다루는 서로 다른 채권을 보유하고 있습니다. 채권은 정기적으로 기관에서 원래보다 더 높은 등급으로 평가했습니다. 유로머니는 레버리지를 활용한 금융기관 리먼(Lehman)도 언급했다.
+      <title>PImpl 관용구 및 C++26 std:indirect 유형</title>
+      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
+      <description>📝 Widget 클래스는 이 유형의 객체에 대한 포인터를 유지합니다. 위젯 a("버튼 A"); 위젯 b = std::move(a); 에이. #pragma Once #include &lt;memory&gt; #include &lt;string&gt; class Widget { public: Widget(const std::string&amp; name); ~위젯(); 위젯(Widget&amp;&amp;) noException; 위젯&amp; 연산자=(위젯&amp;&amp;) noException; Widget(const Widget&amp; 기타); 위젯&amp; 연산자=(const 위젯&amp; 기타); 무효 클릭(); int clickCount() const; std::string 라벨() const; 비공개: 구조체 Impl; std::unique_ptr&lt;Impl&gt; pimpl_; }; #include "위젯.
 
 
-🔤 Original: Zitron: The Subprime Datacenter Crisis
+🔤 Original: The PImpl idiom and the C++26 std:indirect type
 
-🔗 Read more: https://www.wheresyoured.at/the-subprime-data-center-crisis/</description>
-      <guid isPermaLink="true">https://www.wheresyoured.at/the-subprime-data-center-crisis/</guid>
-      <pubDate>Fri, 24 Jul 2026 04:34:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031262</comments>
+🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
+      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
+      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032095</comments>
     </item>
     <item>
-      <title>Codeberg로 마이그레이션한 것을 후회합니다</title>
-      <link>https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</link>
-      <description>📝 나는 주로 LLM이 주도하는 Codeberg의 프로젝트 금지에 대해 특별히 강한 감정을 갖고 있지 않습니다. 적어도 합법적인 암호화폐 프로젝트의 동시 금지에 대해 내가 갖고 있는 감정만큼 강하지는 않습니다. 이는 대부분의 사람들이 LLM이 그 타이틀을 차지하기 몇 년 전에 암호 화폐가 악당이었던 것을 여전히 기억한다는 것 외에 아무 이유 없이 하나로 묶인 것처럼 읽습니다. 오직 당신에게는 아무것도 없습니다. 그리고 조금 더 아래에 다음과 같이 적혀 있습니다. 많은 '바이브 코더'는 자신 주변에 실제로 커뮤니티가 없다는 사실을 깨닫지 못하는 것 같습니다.
+      <title>클로드 요리책</title>
+      <link>https://platform.claude.com/cookbook/</link>
+      <description>📝 Claude 관리 에이전트평가Mark NowickiGagan Bhat2026년 5월사용자를 기억하는 에이전트 구축2026년 4월•Claude 관리 에이전트도구Claude 관리 에이전트에 메모리 저장소를 제공하여 여러 상호 작용에서 사용자의 기본 설정을 학습하고 기억할 수 있습니다. Claude Managed Agents관찰 가능성Gagan Bhat 2026년 4월 Claude Managed Agents를 사용하여 데이터 분석가 에이전트 구축2026년 4월•Claude Managed Agents도구샌드박스 환경과 파일 탑재를 사용하여 CSV를 대화형 차트가 포함된 서술형 HTML 보고서로 변환하는 분석가를 구축하세요. Claude Managed Agents통합Charmaine Lee2026년 4월관리형 에이전트 튜토리얼: 실패한 테스트 모음 반복2026년 4월•Claude Managed Agents도구Claude Managed Agents API에 대한 진입점 튜토리얼.
 
 
-🔤 Original: I regret migrating to Codeberg
+🔤 Original: Claude Cookbook
 
-🔗 Read more: https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</description>
-      <guid isPermaLink="true">https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</guid>
-      <pubDate>Thu, 23 Jul 2026 14:06:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49021856</comments>
+🔗 Read more: https://platform.claude.com/cookbook/</description>
+      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
+      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031409</comments>
     </item>
   </channel>
 </rss>

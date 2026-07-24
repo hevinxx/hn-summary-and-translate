@@ -6,35 +6,38 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:52:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Why Sony can't bring back its classic Walkman models</title>
-      <link>https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</link>
-      <guid isPermaLink="true">https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</guid>
-      <pubDate>Thu, 23 Jul 2026 18:08:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49025766</comments>
+      <title>Flux 3</title>
+      <link>https://bfl.ai/blog/flux-3</link>
+      <description>📝 FLUX 3: One model, multiple capabilities. Generative video-audio continuation from input video and audio. FLUX 3 was preferred over Runway Gen-4.
+
+🔗 Read more: https://bfl.ai/blog/flux-3</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
+      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031796</comments>
     </item>
     <item>
-      <title>Zitron: The Subprime Datacenter Crisis</title>
-      <link>https://www.wheresyoured.at/the-subprime-data-center-crisis/</link>
-      <description>📝 This became even more chaotic when it became clear that the same mortgage bonds were attached to many different CDOs — one study found that 5500 different mortgage bonds had been placed or referenced in CDOs over 36,000 times. In the end, the only thing you really need to know is that financial institutions built CDOs that threw together bonds in ever-more complex and dangerous ways, selling synthetic CDOs to bet on the outcomes, with different CDOs having different bonds covering the same pools of mortgages — bonds that were routinely rated by agencies at a higher grade than they should’ve been. ” Euromoney also referred to Lehman, a financial institution that was leveraged 25.
+      <title>The PImpl idiom and the C++26 std:indirect type</title>
+      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
+      <description>📝 The Widget class keeps a pointer to an object of this type. Widget a("Button A"); Widget b = std::move(a); a. #pragma once #include &lt;memory&gt; #include &lt;string&gt; class Widget { public: Widget(const std::string&amp; name); ~Widget(); Widget(Widget&amp;&amp;) noexcept; Widget&amp; operator=(Widget&amp;&amp;) noexcept; Widget(const Widget&amp; other); Widget&amp; operator=(const Widget&amp; other); void click(); int clickCount() const; std::string label() const; private: struct Impl; std::unique_ptr&lt;Impl&gt; pimpl_; }; #include "Widget.
 
-🔗 Read more: https://www.wheresyoured.at/the-subprime-data-center-crisis/</description>
-      <guid isPermaLink="true">https://www.wheresyoured.at/the-subprime-data-center-crisis/</guid>
-      <pubDate>Fri, 24 Jul 2026 04:34:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031262</comments>
+🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
+      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
+      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032095</comments>
     </item>
     <item>
-      <title>I regret migrating to Codeberg</title>
-      <link>https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</link>
-      <description>📝 I don’t hold particularly strong feelings about Codeberg banning projects that are predominantly LLM-driven, at least not feelings as strong as the ones I hold about the simultaneous ban of legitimate cryptocurrency projects, which reads as though it got lumped in for no reason other than that most people still remember the villain-du-jour that crypto was in the years before LLMs took that title. Only that you have none. And, a little further down, it says:It seems like many ‘vibe coders’ don’t realize that they don’t actually have a community around them.
+      <title>Claude Cookbook</title>
+      <link>https://platform.claude.com/cookbook/</link>
+      <description>📝 Claude Managed AgentsEvalsMark NowickiGagan BhatMay 2026Build agents that remember your usersApr 2026•Claude Managed AgentsToolsGive your Claude Managed Agents a Memory store so they learn and remember your users' preferences across multiple interactions. Claude Managed AgentsObservabilityGagan BhatApr 2026Build a data analyst agent with Claude Managed AgentsApr 2026•Claude Managed AgentsToolsBuild an analyst that turns a CSV into a narrative HTML report with interactive charts, using a sandboxed environment and file mounting. Claude Managed AgentsIntegrationsCharmaine LeeApr 2026Managed Agents tutorial: iterate on a failing test suiteApr 2026•Claude Managed AgentsToolsEntry-point tutorial for the Claude Managed Agents API.
 
-🔗 Read more: https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</description>
-      <guid isPermaLink="true">https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</guid>
-      <pubDate>Thu, 23 Jul 2026 14:06:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49021856</comments>
+🔗 Read more: https://platform.claude.com/cookbook/</description>
+      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
+      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031409</comments>
     </item>
   </channel>
 </rss>

@@ -6,41 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:52:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>为什么索尼不能恢复其经典的 Walkman 型号</title>
-      <link>https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</link>
-      <guid isPermaLink="true">https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</guid>
-      <pubDate>Thu, 23 Jul 2026 18:08:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49025766</comments>
+      <title>助焊剂3</title>
+      <link>https://bfl.ai/blog/flux-3</link>
+      <description>📝 FLUX 3：一种型号，多种功能。从输入视频和音频生成视频音频延续。 FLUX 3 优于 Runway Gen-4。
+
+
+🔤 Original: Flux 3
+
+🔗 Read more: https://bfl.ai/blog/flux-3</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
+      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031796</comments>
     </item>
     <item>
-      <title>Zitron：次贷数据中心危机</title>
-      <link>https://www.wheresyoured.at/the-subprime-data-center-crisis/</link>
-      <description>📝 当很明显相同的抵押贷款债券附加到许多不同的 CDO 时，情况变得更加混乱——一项研究发现，5500 种不同的抵押债券已在 CDO 中放置或引用超过 36,000 次。最后，你真正需要知道的唯一一件事是，金融机构建立的 CDO 以更加复杂和危险的方式组合债券，出售合成 CDO 以押注结果，不同的 CDO 拥有不同的债券，覆盖相同的抵押贷款池——机构通常对债券的评级高于应有的评级。 《欧洲货币》还提到了雷曼兄弟，一家杠杆率为 25 的金融机构。
+      <title>PImpl 习惯用法和 C++26 std:indirect 类型</title>
+      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
+      <description>📝 Widget 类保留一个指向该类型对象的指针。小部件a(“按钮A”);小部件 b = std::move(a);一个。 #pragma Once #include &lt;内存&gt; #include &lt;字符串&gt; class Widget { public: Widget(const std::string&amp; name); 〜小部件（）；小部件(小部件&amp;&amp;) noexcept; Widget&amp; 运算符=(Widget&amp;&amp;) noexcept; Widget(const Widget&amp; other); Widget&amp; 运算符=(const Widget&amp; other);无效点击（）； int clickCount() const; std::string label() const;私有：结构实现； std::unique_ptr&lt;Impl&gt; pimpl_; }; #include“小部件。
 
 
-🔤 Original: Zitron: The Subprime Datacenter Crisis
+🔤 Original: The PImpl idiom and the C++26 std:indirect type
 
-🔗 Read more: https://www.wheresyoured.at/the-subprime-data-center-crisis/</description>
-      <guid isPermaLink="true">https://www.wheresyoured.at/the-subprime-data-center-crisis/</guid>
-      <pubDate>Fri, 24 Jul 2026 04:34:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031262</comments>
+🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
+      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
+      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032095</comments>
     </item>
     <item>
-      <title>我很遗憾迁移到 Codeberg</title>
-      <link>https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</link>
-      <description>📝 我对 Codeberg 禁止主要由法学硕士驱动的项目没有特别强烈的感觉，至少不像我对同时禁止合法加密货币项目的感觉那么强烈，这听起来好像它被无缘无故地混在一起，除了大多数人仍然记得在法学硕士获得这一称号之前的几年里，加密货币是一个恶棍。只是你没有。而且，再往下一点，它说：似乎许多“vibe 程序员”没有意识到他们周围实际上没有社区。
+      <title>克劳德食谱</title>
+      <link>https://platform.claude.com/cookbook/</link>
+      <description>📝 Claude Managed AgentsEvalsMark NowickiGagan Bhat2026 年 5 月构建能够记住用户的代理 2026 年 4 月•Claude Managed Agents工具为您的 Claude Managed Agents 提供内存存储，以便他们在多次交互中学习并记住用户的偏好。 Claude Managed AgentsObservabilityGagan Bhat2026 年 4 月使用 Claude Managed Agents 构建数据分析师代理 2026 年 4 月•Claude Managed Agents工具构建一个分析师，使用沙盒环境和文件安装，将 CSV 转换为带有交互式图表的叙述性 HTML 报告。 Claude Managed AgentsIntegrationsCharmaine Lee2026 年 4 月托管代理教程：迭代失败的测试套件2026 年 4 月•Claude Managed AgentsToolsClaude Managed Agents API 的入口点教程。
 
 
-🔤 Original: I regret migrating to Codeberg
+🔤 Original: Claude Cookbook
 
-🔗 Read more: https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</description>
-      <guid isPermaLink="true">https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</guid>
-      <pubDate>Thu, 23 Jul 2026 14:06:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49021856</comments>
+🔗 Read more: https://platform.claude.com/cookbook/</description>
+      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
+      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031409</comments>
     </item>
   </channel>
 </rss>

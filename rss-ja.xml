@@ -6,41 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:52:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>ソニーがクラシックウォークマンモデルを復活させられない理由</title>
-      <link>https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</link>
-      <guid isPermaLink="true">https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</guid>
-      <pubDate>Thu, 23 Jul 2026 18:08:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49025766</comments>
+      <title>フラックス 3</title>
+      <link>https://bfl.ai/blog/flux-3</link>
+      <description>📝 FLUX 3: 1 つのモデルで複数の機能。入力ビデオとオーディオから継続してビデオとオーディオを生成します。 FLUX 3 は Runway Gen-4 よりも好まれました。
+
+
+🔤 Original: Flux 3
+
+🔗 Read more: https://bfl.ai/blog/flux-3</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
+      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031796</comments>
     </item>
     <item>
-      <title>Zitron: サブプライム データセンターの危機</title>
-      <link>https://www.wheresyoured.at/the-subprime-data-center-crisis/</link>
-      <description>📝 同じ住宅ローン債券が多くの異なる CDO に添付されていることが明らかになったとき、状況はさらに混乱しました。ある調査では、5,500 の異なる住宅ローン債券が CDO に 36,000 回以上登録または参照されていたことが判明しました。結局、本当に知っておく必要がある唯一のことは、金融機関がこれまで以上に複雑で危険な方法で債券を組み合わせてCDOを構築し、結果に賭けるために合成CDOを販売し、異なるCDOが同じ住宅ローンプールをカバーする異なる債券を持っているということだ。その債券は、政府機関によって日常的に本来よりも高い格付けが付けられていた。ユーロマネーは、レバレッジ25倍の金融機関であるリーマンについても言及した。
+      <title>PImpl イディオムと C++26 std:indirect 型</title>
+      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
+      <description>📝 Widget クラスは、このタイプのオブジェクトへのポインターを保持します。ウィジェット a("ボタン A");ウィジェット b = std::move(a); ａ． #pragma Once #include &lt;メモリ&gt; #include &lt;文字列&gt; class Widget { public: Widget(const std::string&amp; name); ~ウィジェット();ウィジェット(ウィジェット&amp;&amp;) no例外;ウィジェット&amp; 演算子=(ウィジェット&amp;&amp;) noexc;ウィジェット(const ウィジェット&amp;その他);ウィジェット&amp; 演算子=(const ウィジェット&amp; その他); void click(); int clickCount() const; std::string label() const;プライベート: 構造体実装; std::unique_ptr&lt;Impl&gt; pimpl_; }; #include "ウィジェット。
 
 
-🔤 Original: Zitron: The Subprime Datacenter Crisis
+🔤 Original: The PImpl idiom and the C++26 std:indirect type
 
-🔗 Read more: https://www.wheresyoured.at/the-subprime-data-center-crisis/</description>
-      <guid isPermaLink="true">https://www.wheresyoured.at/the-subprime-data-center-crisis/</guid>
-      <pubDate>Fri, 24 Jul 2026 04:34:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031262</comments>
+🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
+      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
+      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032095</comments>
     </item>
     <item>
-      <title>Codeberg に移行したことを後悔しています</title>
-      <link>https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</link>
-      <description>📝 私は、主に LLM 主導のプロジェクトを禁止する Codeberg については、特に強い感情を抱いていません。少なくとも、合法的な仮想通貨プロジェクトの同時禁止については、私が抱いている感情ほど強い感情は持っていません。LLM がその称号を獲得する前の数年間、仮想通貨が悪役だったということをほとんどの人がまだ覚えているという以外の理由もなく一緒くたにされたように読めます。あなたには何も持っていないというだけです。そして、その少し下には、次のように書かれています。多くの「雰囲気プログラマー」は、実際に自分たちの周りにコミュニティがないことに気づいていないようです。
+      <title>クロード料理本</title>
+      <link>https://platform.claude.com/cookbook/</link>
+      <description>📝 クロード管理エージェントEvalsMark NowickiGagan Bhat2026 年 5 月ユーザーを記憶するエージェントを構築2026 年 4 月•クロード管理エージェントツールクロード管理エージェントにメモリ ストアを与え、複数のインタラクションにわたるユーザーの設定を学習して記憶できるようにします。クロード マネージド エージェントオブザーバビリティGagan Bhat2026 年 4 月クロード マネージド エージェントを使用してデータ アナリスト エージェントを構築する2026 年 4 月•クロード マネージド エージェントツールサンドボックス環境とファイル マウントを使用して、CSV をインタラクティブなチャートを備えたナラティブ HTML レポートに変換するアナリストを構築します。 Claude 管理対象エージェント統合Charmaine Lee2026 年 4 月管理対象エージェント チュートリアル: 失敗したテスト スイートでの反復2026 年 4 月•Claude 管理対象エージェントツールClaude 管理対象エージェント API のエントリポイント チュートリアル。
 
 
-🔤 Original: I regret migrating to Codeberg
+🔤 Original: Claude Cookbook
 
-🔗 Read more: https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</description>
-      <guid isPermaLink="true">https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/</guid>
-      <pubDate>Thu, 23 Jul 2026 14:06:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49021856</comments>
+🔗 Read more: https://platform.claude.com/cookbook/</description>
+      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
+      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49031409</comments>
     </item>
   </channel>
 </rss>
