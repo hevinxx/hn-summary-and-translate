@@ -6,47 +6,109 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 11:04:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>フラックス 3</title>
-      <link>https://bfl.ai/blog/flux-3</link>
-      <description>📝 FLUX 3: 1 つのモデルで複数の機能。入力ビデオとオーディオから継続してビデオとオーディオを生成します。 FLUX 3 は Runway Gen-4 よりも好まれました。
+      <title>Flux 3 X Mimic: 次世代のビデオアクションモデル</title>
+      <link>https://bfl.ai/blog/flux-3-mimic</link>
+      <description>📝 それがFLUX 3です。コンテンツ作成は、マルチモーダル FLUX 3 バックボーンが画像、ビデオ、オーディオを使って行うことです。私たちは個別の基礎モデルを構築しませんでした。
 
 
-🔤 Original: Flux 3
+🔤 Original: Flux 3 X Mimic: The Next Generation of Video-Action Models
 
-🔗 Read more: https://bfl.ai/blog/flux-3</description>
-      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
-      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031796</comments>
+🔗 Read more: https://bfl.ai/blog/flux-3-mimic</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3-mimic</guid>
+      <pubDate>Fri, 24 Jul 2026 09:31:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033127</comments>
     </item>
     <item>
-      <title>PImpl イディオムと C++26 std:indirect 型</title>
-      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
-      <description>📝 Widget クラスは、このタイプのオブジェクトへのポインターを保持します。ウィジェット a("ボタン A");ウィジェット b = std::move(a); ａ． #pragma Once #include &lt;メモリ&gt; #include &lt;文字列&gt; class Widget { public: Widget(const std::string&amp; name); ~ウィジェット();ウィジェット(ウィジェット&amp;&amp;) no例外;ウィジェット&amp; 演算子=(ウィジェット&amp;&amp;) noexc;ウィジェット(const ウィジェット&amp;その他);ウィジェット&amp; 演算子=(const ウィジェット&amp; その他); void click(); int clickCount() const; std::string label() const;プライベート: 構造体実装; std::unique_ptr&lt;Impl&gt; pimpl_; }; #include "ウィジェット。
+      <title>日に日に集中するのが難しくなっている</title>
+      <link>https://glyphack.com/attention/</link>
+      <description>📝 やりたかったことをやっているときでも、別のことをやりたいという衝動に駆られます。そして、これをしている間、私はそれが何をしているのかについて考え続けます。何かトピックについて調べてもらうために他の人に頼むことができるのは良いことです。
 
 
-🔤 Original: The PImpl idiom and the C++26 std:indirect type
+🔤 Original: It's getting harder to focus every day
 
-🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
-      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
-      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49032095</comments>
+🔗 Read more: https://glyphack.com/attention/</description>
+      <guid isPermaLink="true">https://glyphack.com/attention/</guid>
+      <pubDate>Fri, 24 Jul 2026 08:18:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032660</comments>
     </item>
     <item>
-      <title>クロード料理本</title>
-      <link>https://platform.claude.com/cookbook/</link>
-      <description>📝 クロード管理エージェントEvalsMark NowickiGagan Bhat2026 年 5 月ユーザーを記憶するエージェントを構築2026 年 4 月•クロード管理エージェントツールクロード管理エージェントにメモリ ストアを与え、複数のインタラクションにわたるユーザーの設定を学習して記憶できるようにします。クロード マネージド エージェントオブザーバビリティGagan Bhat2026 年 4 月クロード マネージド エージェントを使用してデータ アナリスト エージェントを構築する2026 年 4 月•クロード マネージド エージェントツールサンドボックス環境とファイル マウントを使用して、CSV をインタラクティブなチャートを備えたナラティブ HTML レポートに変換するアナリストを構築します。 Claude 管理対象エージェント統合Charmaine Lee2026 年 4 月管理対象エージェント チュートリアル: 失敗したテスト スイートでの反復2026 年 4 月•Claude 管理対象エージェントツールClaude 管理対象エージェント API のエントリポイント チュートリアル。
+      <title>The day Steve Jobs dissed me in a keynote (2010)</title>
+      <link>https://sive.rs/itunes</link>
+      <description>📝 その会議は機密でした。 Apple から iTunes Music Store の契約書が電子メールで届きました。それまでは、インディーズ音楽を販売する大企業はほとんどありませんでした。
+
+🔗 Read more: https://sive.rs/itunes</description>
+      <guid isPermaLink="true">https://sive.rs/itunes</guid>
+      <pubDate>Fri, 24 Jul 2026 09:07:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033001</comments>
+    </item>
+    <item>
+      <title>書籍賞インデックス</title>
+      <link>https://book-prize-index.vercel.app</link>
+      <description>📝 ノンフィクション書籍賞の検索可能なインデックス。すべて伝記歴史科学政治スコア最初にリストされたタイトル著者勝利リストインプリント出版社542016立ち退き: アメリカ都市の貧困と利益マシュー・デズモンド79クラウンペンギン・ランダム・ハウス462022Gマン: J・カロ57クノップフペンギン・ランダム・ハウス362013追悼の5日間: 嵐で荒廃した生と死病院シェリ・フィンク56クラウンペンギン・ランダム・ハウス362006迫りくるタワー:アルカイダと9/11への道ローレンス・ライト56クノップフ・ペンギン・ランダム・ハウス書籍7,066受賞歴8,818賞プログラム55賞部門121インプリント319。
 
 
-🔤 Original: Claude Cookbook
+🔤 Original: The Book Prize Index
 
-🔗 Read more: https://platform.claude.com/cookbook/</description>
-      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
-      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031409</comments>
+🔗 Read more: https://book-prize-index.vercel.app</description>
+      <guid isPermaLink="true">https://book-prize-index.vercel.app</guid>
+      <pubDate>Fri, 24 Jul 2026 08:29:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032756</comments>
+    </item>
+    <item>
+      <title>AMD の Instinct MI455X: 太陽を目指して</title>
+      <link>https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</link>
+      <description>📝 Instinct MI455X メモリ サブシステム階層 WGP 間キャッシュも、この新しい設計をサポートするために変更されました。各 XCD には 32 個の WGP がアクティブで、34 個の物理 WGP があり、そのうち 2 個は融合されており、それぞれ 16 個の WGP を持つ XCD ごとに 2 つのシェーダー エンジン (SE) に分割されます。マルチキャスト ロードを使用すると、代わりに、単一のマルチキャスト ロード命令で、この A のタイルを関連するすべての WGP にロードできます。
+
+
+🔤 Original: AMD's Instinct MI455X: Aiming for the Sun
+
+🔗 Read more: https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</description>
+      <guid isPermaLink="true">https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</guid>
+      <pubDate>Fri, 24 Jul 2026 06:59:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032072</comments>
+    </item>
+    <item>
+      <title>将来のユーロ紙幣のデザイン提案</title>
+      <link>https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</link>
+      <description>📝 今後のユーロ紙幣のデザイン提案 ユーロ紙幣が新しくなりました。以下の最終候補のデザインを参照してください デザイン A デザイン B デザイン C デザイン D デザイン E デザイン F デザイン G デザイン H デザイン I デザイン J 紙幣を裏返す デザイン A - Studio Joost Grootens このデザインは、文化がどのように形成されるかを反映したものとして説明できます。アンケートに答える 紙幣を裏返す デザイン C - Neue Gestaltung GmbH このデザインは、ヨーロッパが共有文化空間であるというシンプルなストーリーを物語っています。
+
+
+🔤 Original: Future euro banknote design proposals
+
+🔗 Read more: https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</description>
+      <guid isPermaLink="true">https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</guid>
+      <pubDate>Fri, 24 Jul 2026 09:29:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033110</comments>
+    </item>
+    <item>
+      <title>Buz – 最新の Zig を使用した Bun のフォーク、1 秒未満のインクリメンタル ビルド</title>
+      <link>https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</link>
+      <description>📝 そのために、私は Bun から完全に機能不全になった 11,000 行以上のコードを削除しました。それを継承するのは簡単なことではありません。この目的のために、LLM が広範囲に使用されることになります。
+
+
+🔤 Original: Buz – A fork of Bun using modern Zig, with sub-1s incremental builds
+
+🔗 Read more: https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</description>
+      <guid isPermaLink="true">https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</guid>
+      <pubDate>Fri, 24 Jul 2026 09:26:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033099</comments>
+    </item>
+    <item>
+      <title>何もうまくいかない、そして誰もが幸福感に浸っている</title>
+      <link>https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</link>
+      <description>📝 彼らの製品と争わなければならないたびに、私はその投稿のことを考え続けています。ソフトウェア ベンダーは長い間 KPI を重視しており、物事をより安定させることが必ずしも数値に直接的な影響を与えるわけではありません。企業が集団的に AI 負債に陥る中、個人の開発者は、以前なら手の届かなかったソフトウェアを構築するまたとない機会を手にしています。
+
+
+🔤 Original: Nothing works and everyone is euphoric
+
+🔗 Read more: https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</description>
+      <guid isPermaLink="true">https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</guid>
+      <pubDate>Fri, 24 Jul 2026 09:08:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033004</comments>
     </item>
   </channel>
 </rss>

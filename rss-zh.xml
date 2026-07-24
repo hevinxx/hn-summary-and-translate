@@ -6,47 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 11:04:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>助焊剂3</title>
-      <link>https://bfl.ai/blog/flux-3</link>
-      <description>📝 FLUX 3：一种型号，多种功能。从输入视频和音频生成视频音频延续。 FLUX 3 优于 Runway Gen-4。
+      <title>Flux 3 X Mimic：下一代视频动作模型</title>
+      <link>https://bfl.ai/blog/flux-3-mimic</link>
+      <description>📝 这就是 FLUX 3。内容创建是我们的多模式 FLUX 3 主干对图像、视频和音频的作用。我们没有建立单独的基础模型。
 
 
-🔤 Original: Flux 3
+🔤 Original: Flux 3 X Mimic: The Next Generation of Video-Action Models
 
-🔗 Read more: https://bfl.ai/blog/flux-3</description>
-      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
-      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031796</comments>
+🔗 Read more: https://bfl.ai/blog/flux-3-mimic</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3-mimic</guid>
+      <pubDate>Fri, 24 Jul 2026 09:31:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033127</comments>
     </item>
     <item>
-      <title>PImpl 习惯用法和 C++26 std:indirect 类型</title>
-      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
-      <description>📝 Widget 类保留一个指向该类型对象的指针。小部件a(“按钮A”);小部件 b = std::move(a);一个。 #pragma Once #include &lt;内存&gt; #include &lt;字符串&gt; class Widget { public: Widget(const std::string&amp; name); 〜小部件（）；小部件(小部件&amp;&amp;) noexcept; Widget&amp; 运算符=(Widget&amp;&amp;) noexcept; Widget(const Widget&amp; other); Widget&amp; 运算符=(const Widget&amp; other);无效点击（）； int clickCount() const; std::string label() const;私有：结构实现； std::unique_ptr&lt;Impl&gt; pimpl_; }; #include“小部件。
+      <title>每天越来越难集中注意力</title>
+      <link>https://glyphack.com/attention/</link>
+      <description>📝 即使当我正在做我一直在等待做的事情时，我仍然感到想做其他事情的冲动。在这样做的同时，我一直在思考它在做什么。很高兴我能够请其他人为我研究某个主题。
 
 
-🔤 Original: The PImpl idiom and the C++26 std:indirect type
+🔤 Original: It's getting harder to focus every day
 
-🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
-      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
-      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49032095</comments>
+🔗 Read more: https://glyphack.com/attention/</description>
+      <guid isPermaLink="true">https://glyphack.com/attention/</guid>
+      <pubDate>Fri, 24 Jul 2026 08:18:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032660</comments>
     </item>
     <item>
-      <title>克劳德食谱</title>
-      <link>https://platform.claude.com/cookbook/</link>
-      <description>📝 Claude Managed AgentsEvalsMark NowickiGagan Bhat2026 年 5 月构建能够记住用户的代理 2026 年 4 月•Claude Managed Agents工具为您的 Claude Managed Agents 提供内存存储，以便他们在多次交互中学习并记住用户的偏好。 Claude Managed AgentsObservabilityGagan Bhat2026 年 4 月使用 Claude Managed Agents 构建数据分析师代理 2026 年 4 月•Claude Managed Agents工具构建一个分析师，使用沙盒环境和文件安装，将 CSV 转换为带有交互式图表的叙述性 HTML 报告。 Claude Managed AgentsIntegrationsCharmaine Lee2026 年 4 月托管代理教程：迭代失败的测试套件2026 年 4 月•Claude Managed AgentsToolsClaude Managed Agents API 的入口点教程。
+      <title>史蒂夫·乔布斯在主题演讲中嘲笑我的那一天（2010 年）</title>
+      <link>https://sive.rs/itunes</link>
+      <description>📝 那次会议是保密的。 Apple 通过电子邮件向我们发送了 iTunes 音乐商店合同。在那之前，几乎没有大企业会销售独立音乐。
 
 
-🔤 Original: Claude Cookbook
+🔤 Original: The day Steve Jobs dissed me in a keynote (2010)
 
-🔗 Read more: https://platform.claude.com/cookbook/</description>
-      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
-      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031409</comments>
+🔗 Read more: https://sive.rs/itunes</description>
+      <guid isPermaLink="true">https://sive.rs/itunes</guid>
+      <pubDate>Fri, 24 Jul 2026 09:07:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033001</comments>
+    </item>
+    <item>
+      <title>图书奖索引</title>
+      <link>https://book-prize-index.vercel.app</link>
+      <description>📝 非小说类书籍奖项的可搜索索引。所有传记历史科学政治得分第一名标题作者获奖名单版本说明出版商542016被驱逐：美国城市的贫困与利润马修·德斯蒙德79皇冠企鹅兰登书屋462022G-Man：J.卡罗57克诺普夫企鹅兰登书屋362013纪念馆的五天：被风暴蹂躏的医院中的生与死雪莉芬克56皇冠企鹅兰登书屋362006隐现之塔：基地组织和9/11之路劳伦斯·赖特56克诺普夫企鹅兰登书屋书籍7,066获奖次数8,818奖项计划55奖项类别121印记319。
+
+
+🔤 Original: The Book Prize Index
+
+🔗 Read more: https://book-prize-index.vercel.app</description>
+      <guid isPermaLink="true">https://book-prize-index.vercel.app</guid>
+      <pubDate>Fri, 24 Jul 2026 08:29:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032756</comments>
+    </item>
+    <item>
+      <title>AMD 的本能 MI455X：瞄准太阳</title>
+      <link>https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</link>
+      <description>📝 本能的 MI455X 内存子系统层次结构 WGP 间缓存也发生了变化，以支持这种新设计。每个 XCD 有 32 个活动 WGP，34 个物理 WGP，其中 2 个被熔断，每个 XCD 分为 2 个着色器引擎 (SE)，每个引擎有 16 个 WGP。通过多播加载，我们可以使用单个多播加载指令将 A 的这个图块加载到所有相关的 WGP 中。
+
+
+🔤 Original: AMD's Instinct MI455X: Aiming for the Sun
+
+🔗 Read more: https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</description>
+      <guid isPermaLink="true">https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</guid>
+      <pubDate>Fri, 24 Jul 2026 06:59:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032072</comments>
+    </item>
+    <item>
+      <title>未来欧元纸币设计方案</title>
+      <link>https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</link>
+      <description>📝 未来欧元纸币的设计方案 我们的欧元纸币正在焕然一新。浏览以下入围设计 Design A Design B Design C Design D Design E Design F Design G Design H Design I Design J 翻转钞票 Design A - Studio Joost Grootens 该设计可以解释为对文化如何形成的反思。接受调查 翻转钞票 Design C - Neue Gestaltung GmbH 该设计讲述了一个简单的故事：欧洲是一个共享的文化空间。
+
+
+🔤 Original: Future euro banknote design proposals
+
+🔗 Read more: https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</description>
+      <guid isPermaLink="true">https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</guid>
+      <pubDate>Fri, 24 Jul 2026 09:29:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033110</comments>
+    </item>
+    <item>
+      <title>Buz – 使用现代 Zig 的 Bun 分支，具有低于 1 秒的增量构建</title>
+      <link>https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</link>
+      <description>📝 为此，我从 Bun 中删除了 11,000 多行完全无用的代码。继承这一点并不是一件容易的事。为此，法学硕士将得到广泛使用。
+
+
+🔤 Original: Buz – A fork of Bun using modern Zig, with sub-1s incremental builds
+
+🔗 Read more: https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</description>
+      <guid isPermaLink="true">https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</guid>
+      <pubDate>Fri, 24 Jul 2026 09:26:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033099</comments>
+    </item>
+    <item>
+      <title>一切都不起作用，每个人都欣喜若狂</title>
+      <link>https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</link>
+      <description>📝 每次我不得不与他们的产品作斗争时，我都会想起那篇文章。软件供应商长期以来一直以 KPI 为导向，让事情变得更加稳定并不总是对数字产生直接影响。随着公司集体陷入人工智能债务，个人开发者拥有了独特的机会来构建以前超出他们能力范围的软件。
+
+
+🔤 Original: Nothing works and everyone is euphoric
+
+🔗 Read more: https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</description>
+      <guid isPermaLink="true">https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</guid>
+      <pubDate>Fri, 24 Jul 2026 09:08:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033004</comments>
     </item>
   </channel>
 </rss>

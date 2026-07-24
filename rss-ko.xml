@@ -6,47 +6,112 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 11:04:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>플럭스 3</title>
-      <link>https://bfl.ai/blog/flux-3</link>
-      <description>📝 FLUX 3: 하나의 모델, 다양한 기능. 입력 비디오 및 오디오에서 생성되는 비디오-오디오 연속입니다. FLUX 3은 Runway Gen-4보다 선호되었습니다.
+      <title>Flux 3 X Mimic: 차세대 비디오 액션 모델</title>
+      <link>https://bfl.ai/blog/flux-3-mimic</link>
+      <description>📝 이것이 바로 FLUX 3입니다. 컨텐츠 생성은 당사의 멀티모달 FLUX 3 백본이 이미지, 비디오 및 오디오를 사용하여 수행하는 작업입니다. 별도의 기반 모델을 구축하지 않았습니다.
 
 
-🔤 Original: Flux 3
+🔤 Original: Flux 3 X Mimic: The Next Generation of Video-Action Models
 
-🔗 Read more: https://bfl.ai/blog/flux-3</description>
-      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
-      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031796</comments>
+🔗 Read more: https://bfl.ai/blog/flux-3-mimic</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3-mimic</guid>
+      <pubDate>Fri, 24 Jul 2026 09:31:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033127</comments>
     </item>
     <item>
-      <title>PImpl 관용구 및 C++26 std:indirect 유형</title>
-      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
-      <description>📝 Widget 클래스는 이 유형의 객체에 대한 포인터를 유지합니다. 위젯 a("버튼 A"); 위젯 b = std::move(a); 에이. #pragma Once #include &lt;memory&gt; #include &lt;string&gt; class Widget { public: Widget(const std::string&amp; name); ~위젯(); 위젯(Widget&amp;&amp;) noException; 위젯&amp; 연산자=(위젯&amp;&amp;) noException; Widget(const Widget&amp; 기타); 위젯&amp; 연산자=(const 위젯&amp; 기타); 무효 클릭(); int clickCount() const; std::string 라벨() const; 비공개: 구조체 Impl; std::unique_ptr&lt;Impl&gt; pimpl_; }; #include "위젯.
+      <title>매일 집중하기가 점점 더 어려워지고 있어요</title>
+      <link>https://glyphack.com/attention/</link>
+      <description>📝 하고 싶었던 일을 하고 있을 때에도 여전히 뭔가 다른 일을 하고 싶은 충동을 느낍니다. 그리고 이 일을 하면서 나는 그것이 무엇을 하고 있는지 계속 생각합니다. 어떤 주제를 연구하기 위해 다른 사람에게 물어볼 수 있다는 것은 좋은 일입니다.
 
 
-🔤 Original: The PImpl idiom and the C++26 std:indirect type
+🔤 Original: It's getting harder to focus every day
 
-🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
-      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
-      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49032095</comments>
+🔗 Read more: https://glyphack.com/attention/</description>
+      <guid isPermaLink="true">https://glyphack.com/attention/</guid>
+      <pubDate>Fri, 24 Jul 2026 08:18:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032660</comments>
     </item>
     <item>
-      <title>클로드 요리책</title>
-      <link>https://platform.claude.com/cookbook/</link>
-      <description>📝 Claude 관리 에이전트평가Mark NowickiGagan Bhat2026년 5월사용자를 기억하는 에이전트 구축2026년 4월•Claude 관리 에이전트도구Claude 관리 에이전트에 메모리 저장소를 제공하여 여러 상호 작용에서 사용자의 기본 설정을 학습하고 기억할 수 있습니다. Claude Managed Agents관찰 가능성Gagan Bhat 2026년 4월 Claude Managed Agents를 사용하여 데이터 분석가 에이전트 구축2026년 4월•Claude Managed Agents도구샌드박스 환경과 파일 탑재를 사용하여 CSV를 대화형 차트가 포함된 서술형 HTML 보고서로 변환하는 분석가를 구축하세요. Claude Managed Agents통합Charmaine Lee2026년 4월관리형 에이전트 튜토리얼: 실패한 테스트 모음 반복2026년 4월•Claude Managed Agents도구Claude Managed Agents API에 대한 진입점 튜토리얼.
+      <title>스티브 잡스가 기조연설에서 나를 욕한 날(2010)</title>
+      <link>https://sive.rs/itunes</link>
+      <description>📝 그 회의는 기밀이었습니다. Apple은 iTunes Music Store 계약을 이메일로 보냈습니다. 그 시점까지는 독립 음악을 판매하는 대기업이 거의 없었습니다.
 
 
-🔤 Original: Claude Cookbook
+🔤 Original: The day Steve Jobs dissed me in a keynote (2010)
 
-🔗 Read more: https://platform.claude.com/cookbook/</description>
-      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
-      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031409</comments>
+🔗 Read more: https://sive.rs/itunes</description>
+      <guid isPermaLink="true">https://sive.rs/itunes</guid>
+      <pubDate>Fri, 24 Jul 2026 09:07:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033001</comments>
+    </item>
+    <item>
+      <title>도서상 지수</title>
+      <link>https://book-prize-index.vercel.app</link>
+      <description>📝 논픽션 도서 상품의 검색 가능한 색인입니다. 전체전기역사과학정치점수첫번째 목록제목저자Wins목록출판사542016퇴거됨: 미국 도시의 빈곤과 이익Matthew Desmond79CrownPenguin Random House462022G-Man: J. Caro57KnopfPenguin Random House362013추모식에서의 5일: 폭풍으로 파괴된 병원에서의 삶과 죽음Sheri Fink56CrownPenguin Random House362006The Looming Tower: Al-Qaeda and the Road to 9/11Lawrence Wright56KnopfPenguin Random HouseBooks7,066수상 내역8,818시상 프로그램55상 카테고리121출판물319.
+
+
+🔤 Original: The Book Prize Index
+
+🔗 Read more: https://book-prize-index.vercel.app</description>
+      <guid isPermaLink="true">https://book-prize-index.vercel.app</guid>
+      <pubDate>Fri, 24 Jul 2026 08:29:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032756</comments>
+    </item>
+    <item>
+      <title>AMD의 Instinct MI455X: 태양을 목표로 함</title>
+      <link>https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</link>
+      <description>📝 Instinct MI455X 메모리 하위 시스템 계층 WGP 간 캐시도 이 새로운 디자인을 지원하도록 변경되었습니다. 각 XCD에는 32개의 활성 WGP가 있고, 34개의 물리적 WGP 중 2개는 융합되어 있으며, 각각 16개의 WGP가 있는 XCD당 2개의 셰이더 엔진(SE)으로 나뉩니다. 멀티캐스트 로드를 사용하면 단일 멀티캐스트 로드 명령을 사용하여 이 A 타일을 모든 관련 WGP에 로드할 수 있습니다.
+
+
+🔤 Original: AMD's Instinct MI455X: Aiming for the Sun
+
+🔗 Read more: https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</description>
+      <guid isPermaLink="true">https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</guid>
+      <pubDate>Fri, 24 Jul 2026 06:59:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032072</comments>
+    </item>
+    <item>
+      <title>미래의 유로 지폐 디자인 제안</title>
+      <link>https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</link>
+      <description>📝 미래의 유로 지폐 디자인 제안 우리의 유로 지폐가 새로운 모습을 보이고 있습니다. 아래 최종 후보 디자인을 살펴보세요. 디자인 A 디자인 B 디자인 C 디자인 D 디자인 E 디자인 F 디자인 G 디자인 H 디자인 I 디자인 J 지폐 뒤집기 디자인 A - Studio Joost Grootens 디자인은 문화가 어떻게 형성되는지에 대한 반영으로 설명할 수 있습니다. 설문조사에 참여하세요 지폐 뒤집기 Design C - Neue Gestaltung GmbH 디자인은 단순한 이야기를 담고 있습니다. 유럽은 공유된 문화 공간입니다.
+
+
+🔤 Original: Future euro banknote design proposals
+
+🔗 Read more: https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</description>
+      <guid isPermaLink="true">https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</guid>
+      <pubDate>Fri, 24 Jul 2026 09:29:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033110</comments>
+    </item>
+    <item>
+      <title>Buz – 최신 Zig를 사용하고 1초 미만 증분 빌드를 갖춘 Bun 포크</title>
+      <link>https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</link>
+      <description>📝 이를 위해 Bun에서 11,000줄이 넘는 완전히 데드 코드를 잘라냈습니다. 그것을 상속받는 것은 쉬운 일이 아닙니다. 이를 위해 LLM이 광범위하게 사용될 것입니다.
+
+
+🔤 Original: Buz – A fork of Bun using modern Zig, with sub-1s incremental builds
+
+🔗 Read more: https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</description>
+      <guid isPermaLink="true">https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</guid>
+      <pubDate>Fri, 24 Jul 2026 09:26:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033099</comments>
+    </item>
+    <item>
+      <title>아무 일도 일어나지 않고 모두가 행복해합니다.</title>
+      <link>https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</link>
+      <description>📝 나는 그들의 제품과 싸워야 할 때마다 그 게시물에 대해 계속 생각합니다. 소프트웨어 공급업체는 오랫동안 KPI를 지향해 왔으며 상황을 더욱 안정적으로 만드는 것이 항상 수치에 직접적인 영향을 미치는 것은 아닙니다. 기업이 집단적으로 AI 부채에 빠지게 되면서 개별 개발자는 이전에는 불가능했던 소프트웨어를 구축할 수 있는 독특한 기회를 갖게 되었습니다.
+
+
+🔤 Original: Nothing works and everyone is euphoric
+
+🔗 Read more: https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</description>
+      <guid isPermaLink="true">https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</guid>
+      <pubDate>Fri, 24 Jul 2026 09:08:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033004</comments>
     </item>
   </channel>
 </rss>

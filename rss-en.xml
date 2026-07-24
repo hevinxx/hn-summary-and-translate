@@ -6,38 +6,88 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 08:26:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 11:04:20 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Flux 3</title>
-      <link>https://bfl.ai/blog/flux-3</link>
-      <description>📝 FLUX 3: One model, multiple capabilities. Generative video-audio continuation from input video and audio. FLUX 3 was preferred over Runway Gen-4.
+      <title>Flux 3 X Mimic: The Next Generation of Video-Action Models</title>
+      <link>https://bfl.ai/blog/flux-3-mimic</link>
+      <description>📝 That is what FLUX 3 is. Content creation is what our multimodal FLUX 3 backbone does with image, video and audio. We didn't build a separate foundation model.
 
-🔗 Read more: https://bfl.ai/blog/flux-3</description>
-      <guid isPermaLink="true">https://bfl.ai/blog/flux-3</guid>
-      <pubDate>Fri, 24 Jul 2026 06:17:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031796</comments>
+🔗 Read more: https://bfl.ai/blog/flux-3-mimic</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3-mimic</guid>
+      <pubDate>Fri, 24 Jul 2026 09:31:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033127</comments>
     </item>
     <item>
-      <title>The PImpl idiom and the C++26 std:indirect type</title>
-      <link>https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</link>
-      <description>📝 The Widget class keeps a pointer to an object of this type. Widget a("Button A"); Widget b = std::move(a); a. #pragma once #include &lt;memory&gt; #include &lt;string&gt; class Widget { public: Widget(const std::string&amp; name); ~Widget(); Widget(Widget&amp;&amp;) noexcept; Widget&amp; operator=(Widget&amp;&amp;) noexcept; Widget(const Widget&amp; other); Widget&amp; operator=(const Widget&amp; other); void click(); int clickCount() const; std::string label() const; private: struct Impl; std::unique_ptr&lt;Impl&gt; pimpl_; }; #include "Widget.
+      <title>It's getting harder to focus every day</title>
+      <link>https://glyphack.com/attention/</link>
+      <description>📝 Even when I’m doing things that I’ve been waiting to do it, I still feel the urge to do something else. And while doing this I keep thinking about what it’s doing. It’s good that I’m able to ask something else to research some topic for me.
 
-🔗 Read more: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</description>
-      <guid isPermaLink="true">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</guid>
-      <pubDate>Fri, 24 Jul 2026 07:02:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49032095</comments>
+🔗 Read more: https://glyphack.com/attention/</description>
+      <guid isPermaLink="true">https://glyphack.com/attention/</guid>
+      <pubDate>Fri, 24 Jul 2026 08:18:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032660</comments>
     </item>
     <item>
-      <title>Claude Cookbook</title>
-      <link>https://platform.claude.com/cookbook/</link>
-      <description>📝 Claude Managed AgentsEvalsMark NowickiGagan BhatMay 2026Build agents that remember your usersApr 2026•Claude Managed AgentsToolsGive your Claude Managed Agents a Memory store so they learn and remember your users' preferences across multiple interactions. Claude Managed AgentsObservabilityGagan BhatApr 2026Build a data analyst agent with Claude Managed AgentsApr 2026•Claude Managed AgentsToolsBuild an analyst that turns a CSV into a narrative HTML report with interactive charts, using a sandboxed environment and file mounting. Claude Managed AgentsIntegrationsCharmaine LeeApr 2026Managed Agents tutorial: iterate on a failing test suiteApr 2026•Claude Managed AgentsToolsEntry-point tutorial for the Claude Managed Agents API.
+      <title>The day Steve Jobs dissed me in a keynote (2010)</title>
+      <link>https://sive.rs/itunes</link>
+      <description>📝 That meeting was confidential. Apple emailed us the iTunes Music Store contract. Until that point, almost no big business would sell independent music.
 
-🔗 Read more: https://platform.claude.com/cookbook/</description>
-      <guid isPermaLink="true">https://platform.claude.com/cookbook/</guid>
-      <pubDate>Fri, 24 Jul 2026 05:09:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49031409</comments>
+🔗 Read more: https://sive.rs/itunes</description>
+      <guid isPermaLink="true">https://sive.rs/itunes</guid>
+      <pubDate>Fri, 24 Jul 2026 09:07:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033001</comments>
+    </item>
+    <item>
+      <title>The Book Prize Index</title>
+      <link>https://book-prize-index.vercel.app</link>
+      <description>📝 A searchable index of nonfiction book prizes. AllBiographyHistorySciencePoliticsScoreFirst listedTitleAuthorWinsListsImprintPublisher542016Evicted: Poverty and Profit in the American CityMatthew Desmond79CrownPenguin Random House462022G-Man: J. Caro57KnopfPenguin Random House362013Five Days at Memorial: Life and Death in a Storm-Ravaged HospitalSheri Fink56CrownPenguin Random House362006The Looming Tower: Al-Qaeda and the Road to 9/11Lawrence Wright56KnopfPenguin Random HouseBooks7,066Award appearances8,818Award programs55Prize categories121Imprints319.
+
+🔗 Read more: https://book-prize-index.vercel.app</description>
+      <guid isPermaLink="true">https://book-prize-index.vercel.app</guid>
+      <pubDate>Fri, 24 Jul 2026 08:29:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032756</comments>
+    </item>
+    <item>
+      <title>AMD's Instinct MI455X: Aiming for the Sun</title>
+      <link>https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</link>
+      <description>📝 Instinct MI455X memory subsystem hierarchyThe inter-WGP caches have also changed to support this new design. Each XCD has 32 WGPs active, 34 physical WGPs of which 2 are fused off, which are broken up into 2 Shader Engines (SE) per XCD each with 16 WGPs. With multicast loads we can instead load this tile of A into all relevant WGPs with a single multicast load instruction.
+
+🔗 Read more: https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</description>
+      <guid isPermaLink="true">https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the</guid>
+      <pubDate>Fri, 24 Jul 2026 06:59:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49032072</comments>
+    </item>
+    <item>
+      <title>Future euro banknote design proposals</title>
+      <link>https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</link>
+      <description>📝 Future euro banknote design proposals Our euro banknotes are getting a new look. Browse through the shortlisted designs below Design A Design B Design C Design D Design E Design F Design G Design H Design I Design J Flip the banknote Design A - Studio Joost Grootens The design can be explained as a reflection on how culture is formed. Take the survey Flip the banknote Design C - Neue Gestaltung GmbH The design tells a simple story: Europe is a shared cultural space.
+
+🔗 Read more: https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</description>
+      <guid isPermaLink="true">https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html</guid>
+      <pubDate>Fri, 24 Jul 2026 09:29:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033110</comments>
+    </item>
+    <item>
+      <title>Buz – A fork of Bun using modern Zig, with sub-1s incremental builds</title>
+      <link>https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</link>
+      <description>📝 To that end, I’ve cut over 11,000 lines of completely dead code from Bun. Inheriting that is no easy task. To this end, LLMs will be used extensively.
+
+🔗 Read more: https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</description>
+      <guid isPermaLink="true">https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891</guid>
+      <pubDate>Fri, 24 Jul 2026 09:26:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033099</comments>
+    </item>
+    <item>
+      <title>Nothing works and everyone is euphoric</title>
+      <link>https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</link>
+      <description>📝 I keep thinking about that post every time I have to fight their product. Software vendors have long been KPI-oriented, and making things more stable doesn’t always have a direct effect on the numbers. As companies collectively spiral into AI debt, individual developers have a unique opportunity to build software that would previously have been beyond their reach.
+
+🔗 Read more: https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</description>
+      <guid isPermaLink="true">https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/</guid>
+      <pubDate>Fri, 24 Jul 2026 09:08:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49033004</comments>
     </item>
   </channel>
 </rss>
