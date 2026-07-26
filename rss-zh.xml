@@ -6,171 +6,97 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Jul 2026 19:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 22:00:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>设计是妥协</title>
-      <link>https://stephango.com/design-is-compromise</link>
-      <description>📝 选择正确的妥协才是优秀设计的定义。好的设计是有主见的。好的设计是为你的受众选择正确的折衷方案。
+      <title>交出细节并不能赋予权力</title>
+      <link>https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/</link>
+      <description>📝 没有任何抽象级别可以解决这个问题。您无法放弃所有细节。但法学硕士也会在这方面失败，因为现实并非如此，也没有理由如此。
 
 
-🔤 Original: Design is compromise
+🔤 Original: It's not empowering to hand off the details
 
-🔗 Read more: https://stephango.com/design-is-compromise</description>
-      <guid isPermaLink="true">https://stephango.com/design-is-compromise</guid>
-      <pubDate>Sun, 26 Jul 2026 15:51:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49059367</comments>
+🔗 Read more: https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/</description>
+      <guid isPermaLink="true">https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/</guid>
+      <pubDate>Sun, 26 Jul 2026 17:58:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49060592</comments>
     </item>
     <item>
-      <title>Show HN：CheapSecurity – 适用于 Linux SBC 的轻量级自托管 CCTV</title>
-      <link>https://github.com/gmrandazzo/CheapSecurity</link>
-      <description>📝 cd $HOME/CheapSecurity python3 -m venv venv --system-site-packages source venv/bin/activate pip install -e。 cd $HOME/CheapSecurity python3 -m venv venv 源 venv/bin/activate pip install opencv-python-headless pip install -e。 json: 部分 说明 摄像头设备 V4L2 设备索引 (0 = /dev/video0) 摄像头宽度、高度、fps 捕获分辨率和帧速率 摄像头 night_mode 启用低光增强摄像头 night_mode_fps 夜间模式下的目标 FPS（摄像头可能会忽略此值） 摄像头 night_mode_gain 夜间模式下的目标模拟增益（摄像头可能会忽略此值） 摄像头 night_mode_brightness 夜间模式下的亮度提升 摄像头 night_mode_contrast 夜间模式下的对比度提升 运动阈值 像素差异阈值(0-255) 运动 min_area 触发运动的最小轮廓区域（全分辨率像素） 运动 Cooldown_seconds 运动停止后继续录制 运动缩放 运动检测的缩小因子（节省 CPU） 录制目录 保存视频的位置 录制 max_duration_seconds 一个剪辑录制的最大长度 pre_buffer_seconds 剪辑录制编解码器中包含的运动前的秒数 启用的首选 FourCC 编解码器（对于低 CPU 为 MJPG，对于较小文件为 mp4v）通知 发送关于运动通知的电子邮件警报smtp SMTP 服务器、端口、用户名、密码、发件人、收件人、主题 Emai 的 TLS 通知。
+      <title>等离子隧道揭示垂死卫星如何坠落地球</title>
+      <link>https://spectrum.ieee.org/space-debris-atmosphere-burn-up</link>
+      <description>📝 航空航天新闻 等离子隧道揭示垂死的卫星如何真正坠落到地球 卫星再入产生的铝灰可能会改变大气层 特蕾莎·普尔塔洛娃 (Tereza Pultarova)22 七月 20266 分钟阅读特蕾莎·普尔塔洛娃 (Tereza Pultarova) 是一位驻伦敦的记者，专门研究航空航天和国防技术。德国的研究人员正在实验室中模拟卫星重新进入大气层的过程，揭示了当今不断增长的卫星星座群带来的更多重新进入大气层所带来的新危险。
 
 
-🔤 Original: Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs
+🔤 Original: Plasma Tunnels Reveal How Dying Satellites Fall to Earth
 
-🔗 Read more: https://github.com/gmrandazzo/CheapSecurity</description>
-      <guid isPermaLink="true">https://github.com/gmrandazzo/CheapSecurity</guid>
-      <pubDate>Sun, 26 Jul 2026 15:53:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49059398</comments>
+🔗 Read more: https://spectrum.ieee.org/space-debris-atmosphere-burn-up</description>
+      <guid isPermaLink="true">https://spectrum.ieee.org/space-debris-atmosphere-burn-up</guid>
+      <pubDate>Sun, 26 Jul 2026 20:31:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49062120</comments>
     </item>
     <item>
-      <title>德克尔</title>
-      <link>https://beyondloom.com/decker/</link>
-      <description>📝 Decker 还可以在 MacOS、Windows、BSD 和 Linux 上本地运行。 Decker 是命令行友好的：当从源代码构建时，它附带 Lilt，这是一个独立的 Lil 解释器，它可以（除其他外）读取、写入、操作，甚至“无头”执行 Decker 文档。 Itch 页面包括一个社区论坛，用于讨论 Decker 并分享使用 Decker 制作的项目。
-
-
-🔤 Original: Decker
-
-🔗 Read more: https://beyondloom.com/decker/</description>
-      <guid isPermaLink="true">https://beyondloom.com/decker/</guid>
-      <pubDate>Sun, 26 Jul 2026 18:23:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060856</comments>
+      <title>多路图灵机（2021 年人工智能之前）</title>
+      <link>https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/</link>
+      <guid isPermaLink="true">https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/</guid>
+      <pubDate>Sun, 26 Jul 2026 20:49:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49062259</comments>
     </item>
     <item>
-      <title>如何写英语散文</title>
-      <link>https://thelampmagazine.com/blog/how-to-write-english-prose</link>
-      <description>📝 另一篇是巨著《Pseudodoxia Epidemica》第五本书第二章的最后一段，题为“海豚的图片”：因此，这张照片也必须是一只海豚紧握锚的照片：也就是说，并不是像大多数人出于对人类的喜爱而设想的那样，将锚传递到地面：而是象征性的，根据皮里乌斯所表达的它，最快的动物与沉重的身体相结合，暗示着共同的道德，Festina lentè：并且敏捷应该始终与简洁相结合。但这就是整个故事吗？那时，尘土必归于大地，灵魂仍归于赐予它的上帝。
+      <title>使用 FFmpeg 模拟盒式磁带音频配置文件</title>
+      <link>https://github.com/AARomanov1985/Audio-Cassette-Simulation</link>
+      <description>📝 Sony CHF90 (1978)：老式 90 分钟普通磁带。磁带速度漂移稍高。 mk60：苏联 MK-60 磁带。
 
 
-🔤 Original: How to Write English Prose
+🔤 Original: Simulate cassette tape audio profiles using FFmpeg
 
-🔗 Read more: https://thelampmagazine.com/blog/how-to-write-english-prose</description>
-      <guid isPermaLink="true">https://thelampmagazine.com/blog/how-to-write-english-prose</guid>
-      <pubDate>Sun, 26 Jul 2026 17:29:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060295</comments>
+🔗 Read more: https://github.com/AARomanov1985/Audio-Cassette-Simulation</description>
+      <guid isPermaLink="true">https://github.com/AARomanov1985/Audio-Cassette-Simulation</guid>
+      <pubDate>Sun, 26 Jul 2026 20:02:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49061887</comments>
     </item>
     <item>
-      <title>Google 缓存曾经在以下位置拥有此页面的副本：</title>
-      <link>https://www.hornet.org/wikipedia-notes.txt</link>
-      <description>📝 q=缓存：wl4vab9iuPkJ：en。 org/wiki/Hornet_Archive+&amp;cd=4&amp;hl=en&amp;ct=clnk)。随附的 HTML 文件将有助于驳斥该投诉：这是来自 Billboard 的文章（1997 年 1 月 25 日）。
+      <title>教导孩子前进——安娜·自由</title>
+      <link>https://gracefulliberty.com/articles/teaching-kids-forth/</link>
+      <description>📝 我可以选择教授任何编程语言。 Forth 很有吸引力，因为它是一种连接语言。我希望他们在课程结束后能看到并随身携带一些东西。
 
 
-🔤 Original: Google Cache used to have a copy of this page at
+🔤 Original: Teaching Kids Forth – Anna Liberty
 
-🔗 Read more: https://www.hornet.org/wikipedia-notes.txt</description>
-      <guid isPermaLink="true">https://www.hornet.org/wikipedia-notes.txt</guid>
-      <pubDate>Sun, 26 Jul 2026 18:18:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060802</comments>
+🔗 Read more: https://gracefulliberty.com/articles/teaching-kids-forth/</description>
+      <guid isPermaLink="true">https://gracefulliberty.com/articles/teaching-kids-forth/</guid>
+      <pubDate>Sun, 26 Jul 2026 21:39:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49062700</comments>
     </item>
     <item>
-      <title>如何阻止某些机器人</title>
-      <link>https://nochan.net/b/Internet-Crap/20260606-How-To-Block-Some-Of-The-Bots/</link>
-      <guid isPermaLink="true">https://nochan.net/b/Internet-Crap/20260606-How-To-Block-Some-Of-The-Bots/</guid>
-      <pubDate>Sun, 26 Jul 2026 18:32:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060945</comments>
+      <title>We have proof automation now</title>
+      <link>https://www.imperialviolet.org/2026/07/26/zstd-lean.html</link>
+      <description>📝 然后你就会产生微妙的误解和不太适合在一起的组件。 ）问题始终是，强大的类型系统能力带来了巨大的证明工作。这种开销使得依赖类型语言的编程变得非常小众。
+
+🔗 Read more: https://www.imperialviolet.org/2026/07/26/zstd-lean.html</description>
+      <guid isPermaLink="true">https://www.imperialviolet.org/2026/07/26/zstd-lean.html</guid>
+      <pubDate>Sun, 26 Jul 2026 20:53:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49062291</comments>
     </item>
     <item>
-      <title>有史以来最强的厄尔尼诺现象</title>
-      <link>https://www.theclimatebrink.com/p/the-strongest-el-nino-ever</link>
-      <description>📝 2C) 将其中位数置于 2015-16 赛季记录之上。 4 指数 (RONI)：Niño 3。以 RONI 计算的记录事件是 1982-83 年（月峰值为 2。
-
-
-🔤 Original: The Strongest El Niño Ever
-
-🔗 Read more: https://www.theclimatebrink.com/p/the-strongest-el-nino-ever</description>
-      <guid isPermaLink="true">https://www.theclimatebrink.com/p/the-strongest-el-nino-ever</guid>
-      <pubDate>Sun, 26 Jul 2026 18:35:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060978</comments>
+      <title>Show HN：无限拼图游戏</title>
+      <link>https://infinitejigsaw.com</link>
+      <guid isPermaLink="true">https://infinitejigsaw.com</guid>
+      <pubDate>Sun, 26 Jul 2026 20:01:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49061879</comments>
     </item>
     <item>
-      <title>召集所有使用 Ruby 的开源维护人员</title>
-      <link>https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553</link>
-      <description>📝 工作原理 我们为您的项目创建专用标签。您添加来自您网站的链接。这只是一个起点，我们将不断努力鼓励和支持围绕您的项目的讨论。
+      <title>AST-grep 如何用 Rust 重写 Tree-sitter 并将其速度提高 30%</title>
+      <link>https://astgrep.com/blog/tree-sitter-rust-rewrite</link>
+      <description>📝 为什么要重写树保姆。 ast-grep 可以使其规则更快。 But every file still had to become a syntax tree first, and Tree-sitter built that tree.
 
 
-🔤 Original: Calling all open source maintainers working with Ruby
+🔤 Original: How AST-grep Rewrote Tree-sitter in Rust and Made It 30% Faster
 
-🔗 Read more: https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553</description>
-      <guid isPermaLink="true">https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553</guid>
-      <pubDate>Sun, 26 Jul 2026 17:28:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060277</comments>
-    </item>
-    <item>
-      <title>面向数据的设计简介 [pdf]</title>
-      <link>https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf</link>
-      <description>📝 �'��g7 /��1�� u�F� endstream endobj 5 0 obj &lt;&gt; endobj 6 0 obj &lt;&gt; endobj 7 0 obj &lt;&gt;/ProcSet[/PDF/Text/ImageB/ImageC/ImageI] &gt;&gt;/MediaBox[ 0 0 453.���;C���d�l��u��L N� F� endstream endobj 9 0 obj &lt;&gt;/ProcSet[/PDF/Text/ImageB/ImageC/ImageI] &gt;&gt;/MediaBox[ 0 0 453. 12] /Contents 10 0 R/Group&lt;&gt;/Tabs/S/StructParents 2&gt;&gt; endobj 10 0 obj &lt;&gt; 流 x�]�Mk�0 � � �B [�� ��I���B�2v(; �A �+�O�3: �G�+�Pn�m�u� �=t� &gt;�Р� �3�l� �V �A� �R 8 ��M$m � gR&gt; endobj 12 0 obj [ 13 0 R] endobj 13 0 obj &lt;&gt; endobj 14 0 obj &lt;&gt; endobj 15 0 obj &lt;&gt; endobj 16 0 obj &lt;&gt;/XObject&lt;&gt;/ProcSet[/PDF/Text/ImageB/ImageC/ImageI] &gt;&gt;/MediaBox[ 0 0 453。
-
-
-🔤 Original: Introduction to Data-Oriented Design [pdf]
-
-🔗 Read more: https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf</description>
-      <guid isPermaLink="true">https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf</guid>
-      <pubDate>Sun, 26 Jul 2026 18:11:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060724</comments>
-    </item>
-    <item>
-      <title>显示 HN：神秘的盖茨比</title>
-      <link>https://occultgatsby.work</link>
-      <description>📝 神秘的盖茨比 神秘的了不起的盖茨比 了不起的盖茨比深奥内容注释：第四条路、炼金术、塔罗牌和卡巴拉 关于前言 I II III IV V VI VI VII VIII IX 附录 1 附录 2 附录 3 参考书目。
-
-
-🔤 Original: Show HN: The Occult Gatsby
-
-🔗 Read more: https://occultgatsby.work</description>
-      <guid isPermaLink="true">https://occultgatsby.work</guid>
-      <pubDate>Sun, 26 Jul 2026 18:38:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060998</comments>
-    </item>
-    <item>
-      <title>使用ThinkPad T480作为手机</title>
-      <link>https://grego.site/blog/thinkphone</link>
-      <description>📝 ThinkPad T480可以用作功能齐全的手机，支持通话、短信和移动数据。特别是，内部是运行Android的ARM内核（大多数Android手机在调制解调器中运行单独的Android系统）。您甚至可以通过 Waydroid 原生使用 Android 应用程序。
-
-
-🔤 Original: Using ThinkPad T480 as a mobile phone
-
-🔗 Read more: https://grego.site/blog/thinkphone</description>
-      <guid isPermaLink="true">https://grego.site/blog/thinkphone</guid>
-      <pubDate>Sun, 26 Jul 2026 16:56:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49059977</comments>
-    </item>
-    <item>
-      <title>法国消防员首次遭遇“火积雨云”</title>
-      <link>https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time</link>
-      <description>📝 上升的空气冷却并形成云或火云：一种湍流物质，可以产生自己的风，使火灾恶化。 “我们正在应对所谓的‘对流’火灾，它会产生自己的风，这种风会不断改变方向，这与以圆锥形蔓延的标准火灾不同。然而，这种无力感并不让人绝望。
-
-
-🔤 Original: French firefighters face 'pyrocumulonimbus' for first time
-
-🔗 Read more: https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time</description>
-      <guid isPermaLink="true">https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time</guid>
-      <pubDate>Sun, 26 Jul 2026 17:49:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49060495</comments>
-    </item>
-    <item>
-      <title>陶哲轩：人工智能时代的数学 [pdf]</title>
-      <link>https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf</link>
-      <description>📝 ���� ��Ku]�� t��}CN ��O�y,�� h#w� endstream endobj 35 0 obj &lt;&lt; /Length 712 /Filter /FlateDecode &gt;&gt; 流 x��V�o�0 ~篸G�j׿m �j�Zm�:eO� X ��5�����。 endstream endobj 43 0 obj &lt;&lt; /Type /XObject /Subtype /Form /BBox [0 0 6. 118] /FormType 1 /Matrix [1 0 0 1 0 0] /Resources 46 0 R /Length 15 /Filter /FlateDecode &gt;&gt; 流 x�� �P(�� � � endstream endobj 50 0 obj &lt;&lt; /Length 741 /Filter /FlateDecode &gt;&gt; 流 x��V�o�0 �#H��O0}�6m�6i �"�a� #�� H0�� � �&amp;)M。
-
-
-🔤 Original: Terence Tao: Mathematics in the Age of AI [pdf]
-
-🔗 Read more: https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf</description>
-      <guid isPermaLink="true">https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf</guid>
-      <pubDate>Sun, 26 Jul 2026 10:32:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49056620</comments>
+🔗 Read more: https://astgrep.com/blog/tree-sitter-rust-rewrite</description>
+      <guid isPermaLink="true">https://astgrep.com/blog/tree-sitter-rust-rewrite</guid>
+      <pubDate>Sun, 26 Jul 2026 17:51:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49060509</comments>
     </item>
   </channel>
 </rss>
