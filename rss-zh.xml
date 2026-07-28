@@ -6,28 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Jul 2026 11:17:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 14:06:43 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>关于 macOS Tahoe 26.6 的安全内容</title>
-      <link>https://support.apple.com/en-us/128067</link>
-      <description>📝 CVE-2026-64695：Peter Malone App Store 适用于：macOS Tahoe 影响：应用程序可能能够访问敏感用户数据 说明：此问题已通过改进检查得到解决。 CVE-2026-64737：Robert Mindo Apple Neural Engine 适用于：macOS Tahoe 影响：应用程序可能会导致系统意外终止 说明：已通过改进边界检查解决越界写入问题。 st/) AuthKit 适用于：macOS Tahoe 影响：应用程序可能能够对用户进行指纹识别 描述：权限问题已通过附加限制得到解决。
+      <title>显示 HN：正式验证的 3D CSG：信任 93 行规范，而不是 1000 行 AI 代码</title>
+      <link>https://github.com/schildep/verified-3d-mesh-intersection</link>
+      <description>📝 正式验证的 3D 网格相交 - 信任 93 行规范，而不是 1000 多行 AI 编写的代码 据我所知，这是第一个经过正式验证的 3D 构造实体几何 (CSG) 操作的实现：网格相交，在 Lean 4 中实现，并根据简明规范进行验证，该规范准确地确定了生成的网格的表面，并保证了三角测量的实际格式良好条件。从网格交集算法中，我们期望格式良好的输入网格的实体的集合交集是输出网格的实体，并且输出再次是格式良好的网格。了解为什么总是产生流形网格的相交算法是不可能的。
 
 
-🔤 Original: About the security content of macOS Tahoe 26.6
+🔤 Original: Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code
 
-🔗 Read more: https://support.apple.com/en-us/128067</description>
-      <guid isPermaLink="true">https://support.apple.com/en-us/128067</guid>
-      <pubDate>Tue, 28 Jul 2026 09:45:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081555</comments>
+🔗 Read more: https://github.com/schildep/verified-3d-mesh-intersection</description>
+      <guid isPermaLink="true">https://github.com/schildep/verified-3d-mesh-intersection</guid>
+      <pubDate>Tue, 28 Jul 2026 13:07:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083239</comments>
     </item>
     <item>
-      <title>谷歌的超越零：人工智能时代的企业安全</title>
-      <link>https://spawn-queue.acm.org/doi/10.1145/3819083</link>
-      <guid isPermaLink="true">https://spawn-queue.acm.org/doi/10.1145/3819083</guid>
-      <pubDate>Tue, 28 Jul 2026 09:59:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081644</comments>
+      <title>新的艾滋病毒疫苗在临床前研究中取得了前所未有的成功</title>
+      <link>https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</link>
+      <guid isPermaLink="true">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</guid>
+      <pubDate>Tue, 28 Jul 2026 13:12:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083314</comments>
+    </item>
+    <item>
+      <title>Show HN：tale.fyi，我们应该有一个小说之家</title>
+      <link>https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</link>
+      <description>📝 仅供参考，简短版本：我编造了故事。它可以保存您的进度，允许您在阅读和听力之间无缝切换，并与朋友分享笔记。我还建立了一种讲述自己故事的方式：故事。
+
+
+🔤 Original: Show HN: tale.fyi, we deserve a home for fiction
+
+🔗 Read more: https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</description>
+      <guid isPermaLink="true">https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</guid>
+      <pubDate>Tue, 28 Jul 2026 13:16:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083389</comments>
+    </item>
+    <item>
+      <title>Kimi Linear：一种富有表现力、高效的注意力架构</title>
+      <link>https://arxiv.org/abs/2510.26692</link>
+      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
+
+
+🔤 Original: Kimi Linear: An Expressive, Efficient Attention Architecture
+
+🔗 Read more: https://arxiv.org/abs/2510.26692</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.26692</guid>
+      <pubDate>Tue, 28 Jul 2026 10:52:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082022</comments>
+    </item>
+    <item>
+      <title>DMARC 自 2012 年起公开。68.4% 的域名仍未强制执行</title>
+      <link>https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</link>
+      <description>📝 确实有记录的域名也没有走得太远。 7% 有记录的域）实际上强制执行任何操作：p=reject，身份验证失败的邮件将被丢弃。 4%) 要么没有 DMARC 记录，要么有不强制执行策略的记录。
+
+
+🔤 Original: DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It
+
+🔗 Read more: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</description>
+      <guid isPermaLink="true">https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</guid>
+      <pubDate>Tue, 28 Jul 2026 10:20:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49081783</comments>
+    </item>
+    <item>
+      <title>快速修复是新的信任模型（JFrog 和 OpenAI 零日发现）</title>
+      <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
+      <description>📝 JFrog 的角色以及我们的运营方式在安全评估过程中，OpenAI 的模型发现了自托管 Artifactory 安装中先前未知的零日漏洞，这些漏洞可被利用来获得意外的互联网访问。 OpenAI 的安全团队立即负责任地向我们披露了这些漏洞。发现、披露、修补并以最快速度交付给每个客户的零日漏洞是整个社区受益的安全飞轮，特别是对于在此软件上运行的关键基础设施而言。
+
+
+🔤 Original: Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)
+
+🔗 Read more: https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</description>
+      <guid isPermaLink="true">https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:02:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082550</comments>
+    </item>
+    <item>
+      <title>显示 HN：Ctrlb-分解：在发送到 LLM 之前从日志中去除噪音</title>
+      <link>https://github.com/ctrlb-hq/ctrlb-decompose</link>
+      <description>📝 ctrlb-decompose 将原始日志行压缩为具有统计、异常和相关性的结构模式。 └──────┬────────┘ │ ▼ ┌────────────┐ 将 CLP 解码值与 Drain3 通配符合并 │ 变量 │ 位置。 log # 前 10 个模式，每个模式有 3 个示例行 ctrlb-decompose --top 1.
+
+
+🔤 Original: Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs
+
+🔗 Read more: https://github.com/ctrlb-hq/ctrlb-decompose</description>
+      <guid isPermaLink="true">https://github.com/ctrlb-hq/ctrlb-decompose</guid>
+      <pubDate>Tue, 28 Jul 2026 13:13:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083336</comments>
+    </item>
+    <item>
+      <title>人工智能开发人员可以从 Charles Bukowski 身上学到什么？</title>
+      <link>https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</link>
+      <description>📝 事实上，他对此很确定。查尔斯知道更多的产出并不等于高质量的产出。 /…/ – 摘自查尔斯·布考斯基的《垃圾桶》。
+
+
+🔤 Original: What AI developers could learn from Charles Bukowski?
+
+🔗 Read more: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</description>
+      <guid isPermaLink="true">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</guid>
+      <pubDate>Tue, 28 Jul 2026 13:00:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083132</comments>
+    </item>
+    <item>
+      <title>蒙德拉贡公司 – 合作社联盟</title>
+      <link>https://en.wikipedia.org/wiki/Mondragon_Corporation</link>
+      <description>📝 [2] 截至2019年，就业人数81,507人。 [4] 蒙德拉贡合作社按照国际合作社联盟维护的合作社身份声明进行运营。第一个本地团体 Ularco 成立。
+
+
+🔤 Original: Mondragon Corporation – a federation of co-operatives
+
+🔗 Read more: https://en.wikipedia.org/wiki/Mondragon_Corporation</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Mondragon_Corporation</guid>
+      <pubDate>Tue, 28 Jul 2026 12:19:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082695</comments>
+    </item>
+    <item>
+      <title>求解费马：安德鲁·威尔斯</title>
+      <link>https://www.pbs.org/wgbh/nova/proof/wiles.html</link>
+      <description>📝 他声称没有。 AW：他做的还不止这些。为此，我们需要一个证明。
+
+
+🔤 Original: Solving Fermat: Andrew Wiles
+
+🔗 Read more: https://www.pbs.org/wgbh/nova/proof/wiles.html</description>
+      <guid isPermaLink="true">https://www.pbs.org/wgbh/nova/proof/wiles.html</guid>
+      <pubDate>Mon, 27 Jul 2026 20:42:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49075264</comments>
+    </item>
+    <item>
+      <title>许多“严肃”的数学家都惊呆了</title>
+      <link>https://twitter.com/lemire/status/2082091243597697071</link>
+      <description>📝 您会希望他们能得到公平而快速的审查。我相信这种情况可能很快就会改变。那会很令人兴奋。
+
+
+🔤 Original: Many "serious" mathematicians are aghast
+
+🔗 Read more: https://twitter.com/lemire/status/2082091243597697071</description>
+      <guid isPermaLink="true">https://twitter.com/lemire/status/2082091243597697071</guid>
+      <pubDate>Tue, 28 Jul 2026 13:13:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083330</comments>
+    </item>
+    <item>
+      <title>超过 15 万个航班：航空公司刚刚经历了有记录以来最繁忙的一天</title>
+      <link>https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</link>
+      <description>📝 周四，我们追踪了 153,359 架次商业航班：这是我们追踪过的最多航班。最繁忙的一天中被追踪最多的航班是一个显而易见的事实 图片来源：Flightradar24 7 月 23 日追踪到的商业航班数量远超 150,000 架，大多数航班很可能不会引起航班追踪网站上的普通人的关注。就追踪的航班总数而言，这一数字是有史以来第二繁忙的一天。
+
+
+🔤 Original: Over 150k Flights: Airlines Just Flew the Busiest Day in Recorded History
+
+🔗 Read more: https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</description>
+      <guid isPermaLink="true">https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</guid>
+      <pubDate>Tue, 28 Jul 2026 13:15:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083364</comments>
+    </item>
+    <item>
+      <title>Usenet Archive Toolkit – 将 Usenet 消息处理成可搜索的存档</title>
+      <link>https://github.com/wolfpld/usenetarchive</link>
+      <description>📝 波兰 usenet 消息计数从 2016 年开始。NNTP 存档服务器），其中包含来自源 B 的消息（例如，其他 usenet 存档中充斥着垃圾邮件消息。
+
+
+🔤 Original: Usenet Archive Toolkit – process Usenet messages into a searchable archive
+
+🔗 Read more: https://github.com/wolfpld/usenetarchive</description>
+      <guid isPermaLink="true">https://github.com/wolfpld/usenetarchive</guid>
+      <pubDate>Tue, 28 Jul 2026 10:30:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49081862</comments>
+    </item>
+    <item>
+      <title>法学硕士可以在 45 位查询中识别 16 张卡吗？</title>
+      <link>https://snwagh.com/blog/2026/open-problem/</link>
+      <description>📝 这篇文章讲述了这个过程的故事。 (♥♦) 这张牌是国王吗？我们知道 $45 \leq D(16) \leq 64$。
+
+
+🔤 Original: Can LLMs identify 16 cards in 45 bit-queries?
+
+🔗 Read more: https://snwagh.com/blog/2026/open-problem/</description>
+      <guid isPermaLink="true">https://snwagh.com/blog/2026/open-problem/</guid>
+      <pubDate>Mon, 27 Jul 2026 14:36:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49070341</comments>
+    </item>
+    <item>
+      <title>Show HN：Vivari – 用于 Node、Bun 和 Python 的开源 WebContainer</title>
+      <link>https://vivari.jamesisme.com</link>
+      <guid isPermaLink="true">https://vivari.jamesisme.com</guid>
+      <pubDate>Tue, 28 Jul 2026 12:04:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082562</comments>
+    </item>
+    <item>
+      <title>Show HN: Segue – 在一个 AI 中保存上下文，通过短句柄将其加载到另一个 AI 中</title>
+      <link>https://segue.ai/</link>
+      <description>📝 您的上下文，通过工具传递。仅供您个人使用 句柄仅在您的帐户内解析。您的帐户将降至免费套餐。
+
+
+🔤 Original: Show HN: Segue – Save context in one AI, load it in another by a short handle
+
+🔗 Read more: https://segue.ai/</description>
+      <guid isPermaLink="true">https://segue.ai/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:27:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082779</comments>
     </item>
   </channel>
 </rss>

@@ -6,25 +6,162 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 11:17:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 14:06:43 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>About the security content of macOS Tahoe 26.6</title>
-      <link>https://support.apple.com/en-us/128067</link>
-      <description>📝 CVE-2026-64695: Peter Malone App Store Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-64737: Robert Mindo Apple Neural Engine Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: An out-of-bounds write issue was addressed with improved bounds checking. st/) AuthKit Available for: macOS Tahoe Impact: An app may be able to fingerprint the user Description: A permissions issue was addressed with additional restrictions.
+      <title>Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code</title>
+      <link>https://github.com/schildep/verified-3d-mesh-intersection</link>
+      <description>📝 Formally verified 3D mesh intersection - trust 93 lines of spec, not 1000+ lines of AI-written code To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins down the surface of the resulting mesh exactly and guarantees practical well-formedness conditions on the triangulation. From a mesh intersection algorithm, we expect that the set intersection of the solids of well-formed input meshes is the solid of the output mesh and that the output is a well-formed mesh again. See why an intersection algorithm that always produces manifold meshes is not possible.
 
-🔗 Read more: https://support.apple.com/en-us/128067</description>
-      <guid isPermaLink="true">https://support.apple.com/en-us/128067</guid>
-      <pubDate>Tue, 28 Jul 2026 09:45:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081555</comments>
+🔗 Read more: https://github.com/schildep/verified-3d-mesh-intersection</description>
+      <guid isPermaLink="true">https://github.com/schildep/verified-3d-mesh-intersection</guid>
+      <pubDate>Tue, 28 Jul 2026 13:07:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083239</comments>
     </item>
     <item>
-      <title>Google's Beyond Zero: Enterprise Security for the AI Era</title>
-      <link>https://spawn-queue.acm.org/doi/10.1145/3819083</link>
-      <guid isPermaLink="true">https://spawn-queue.acm.org/doi/10.1145/3819083</guid>
-      <pubDate>Tue, 28 Jul 2026 09:59:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081644</comments>
+      <title>New HIV vaccine shows unprecedented success in preclinical study</title>
+      <link>https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</link>
+      <guid isPermaLink="true">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</guid>
+      <pubDate>Tue, 28 Jul 2026 13:12:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083314</comments>
+    </item>
+    <item>
+      <title>Show HN: tale.fyi, we deserve a home for fiction</title>
+      <link>https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</link>
+      <description>📝 fyiThe short version: I built tale. It saves your progress, allows you to switch seamlessly between reading and listening, and share notes with your friends. I've also built a way to tell your own story: tale.
+
+🔗 Read more: https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</description>
+      <guid isPermaLink="true">https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</guid>
+      <pubDate>Tue, 28 Jul 2026 13:16:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083389</comments>
+    </item>
+    <item>
+      <title>Kimi Linear: An Expressive, Efficient Attention Architecture</title>
+      <link>https://arxiv.org/abs/2510.26692</link>
+      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
+
+🔗 Read more: https://arxiv.org/abs/2510.26692</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.26692</guid>
+      <pubDate>Tue, 28 Jul 2026 10:52:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082022</comments>
+    </item>
+    <item>
+      <title>DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It</title>
+      <link>https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</link>
+      <description>📝 The domains that do have a record are not much further along. 7% of domains with a record) actually enforce anything: p=reject, mail that fails authentication gets dropped. 4%) either have no DMARC record or have one that doesn't enforce a policy.
+
+🔗 Read more: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</description>
+      <guid isPermaLink="true">https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</guid>
+      <pubDate>Tue, 28 Jul 2026 10:20:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49081783</comments>
+    </item>
+    <item>
+      <title>Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)</title>
+      <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
+      <description>📝 JFrog’s role, and how we operate During a security evaluation, OpenAI’s models identified previously unknown zero-day vulnerabilities in self-hosted Artifactory installations that could be exploited to gain unintended internet access. OpenAI’s security team disclosed the vulnerabilities to us responsibly and immediately. A zero-day found, disclosed, patched, and shipped to every customer at top speed is the security flywheel the entire community benefits from, especially for the critical infrastructure that runs on this software.
+
+🔗 Read more: https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</description>
+      <guid isPermaLink="true">https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:02:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082550</comments>
+    </item>
+    <item>
+      <title>Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs</title>
+      <link>https://github.com/ctrlb-hq/ctrlb-decompose</link>
+      <description>📝 ctrlb-decompose Compress raw log lines into structural patterns with statistics, anomalies, and correlations. └──────┬───────┘ │ ▼ ┌──────────────┐ Merge CLP-decoded values with Drain3 wildcard │ Variable │ positions. log # Top 10 patterns with 3 example lines each ctrlb-decompose --top 1.
+
+🔗 Read more: https://github.com/ctrlb-hq/ctrlb-decompose</description>
+      <guid isPermaLink="true">https://github.com/ctrlb-hq/ctrlb-decompose</guid>
+      <pubDate>Tue, 28 Jul 2026 13:13:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083336</comments>
+    </item>
+    <item>
+      <title>What AI developers could learn from Charles Bukowski?</title>
+      <link>https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</link>
+      <description>📝 Actually, he's sure of that. Charles knew that more output does not equal quality output. /…/ – an excerpt from "the trash can" by Charles Bukowski.
+
+🔗 Read more: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</description>
+      <guid isPermaLink="true">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</guid>
+      <pubDate>Tue, 28 Jul 2026 13:00:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083132</comments>
+    </item>
+    <item>
+      <title>Mondragon Corporation – a federation of co-operatives</title>
+      <link>https://en.wikipedia.org/wiki/Mondragon_Corporation</link>
+      <description>📝 [2] By 2019, 81,507 people were employed. [4] Mondragon cooperatives operate in accordance with the Statement on the Co-operative Identity maintained by the International Co-operative Alliance. The first local group was created, Ularco.
+
+🔗 Read more: https://en.wikipedia.org/wiki/Mondragon_Corporation</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Mondragon_Corporation</guid>
+      <pubDate>Tue, 28 Jul 2026 12:19:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082695</comments>
+    </item>
+    <item>
+      <title>Solving Fermat: Andrew Wiles</title>
+      <link>https://www.pbs.org/wgbh/nova/proof/wiles.html</link>
+      <description>📝 He claimed that there were none. AW: He did more than that. And to do that we need a proof.
+
+🔗 Read more: https://www.pbs.org/wgbh/nova/proof/wiles.html</description>
+      <guid isPermaLink="true">https://www.pbs.org/wgbh/nova/proof/wiles.html</guid>
+      <pubDate>Mon, 27 Jul 2026 20:42:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49075264</comments>
+    </item>
+    <item>
+      <title>Many "serious" mathematicians are aghast</title>
+      <link>https://twitter.com/lemire/status/2082091243597697071</link>
+      <description>📝 You would hope that they would get a fair and fast review. I believe that this might soon change. That wouldbe exciting.
+
+🔗 Read more: https://twitter.com/lemire/status/2082091243597697071</description>
+      <guid isPermaLink="true">https://twitter.com/lemire/status/2082091243597697071</guid>
+      <pubDate>Tue, 28 Jul 2026 13:13:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083330</comments>
+    </item>
+    <item>
+      <title>Over 150k Flights: Airlines Just Flew the Busiest Day in Recorded History</title>
+      <link>https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</link>
+      <description>📝 On Thursday we tracked 153,359 commercial flights: the most we’ve ever tracked. " The Most-Tracked Flight On The Busiest Day Was An Obvious One Credit: Flightradar24 With well over 150,000 commercial flights being tracked on July 23, most will likely have drawn little attention from avgeeks on flight tracking sites. This figure represented its second-busiest day ever in terms of total flights tracked.
+
+🔗 Read more: https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</description>
+      <guid isPermaLink="true">https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</guid>
+      <pubDate>Tue, 28 Jul 2026 13:15:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083364</comments>
+    </item>
+    <item>
+      <title>Usenet Archive Toolkit – process Usenet messages into a searchable archive</title>
+      <link>https://github.com/wolfpld/usenetarchive</link>
+      <description>📝 Polish usenet message count from 2016. NNTP archive server) with messages from source B (eg. Other usenet archives are littered with spam messages.
+
+🔗 Read more: https://github.com/wolfpld/usenetarchive</description>
+      <guid isPermaLink="true">https://github.com/wolfpld/usenetarchive</guid>
+      <pubDate>Tue, 28 Jul 2026 10:30:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49081862</comments>
+    </item>
+    <item>
+      <title>Can LLMs identify 16 cards in 45 bit-queries?</title>
+      <link>https://snwagh.com/blog/2026/open-problem/</link>
+      <description>📝 This post tells the story of that process. (♥♦) Is this card a King. We know that $45 \leq D(16) \leq 64$.
+
+🔗 Read more: https://snwagh.com/blog/2026/open-problem/</description>
+      <guid isPermaLink="true">https://snwagh.com/blog/2026/open-problem/</guid>
+      <pubDate>Mon, 27 Jul 2026 14:36:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49070341</comments>
+    </item>
+    <item>
+      <title>Show HN: Vivari – Open-Source WebContainer for Node, Bun, and Python</title>
+      <link>https://vivari.jamesisme.com</link>
+      <guid isPermaLink="true">https://vivari.jamesisme.com</guid>
+      <pubDate>Tue, 28 Jul 2026 12:04:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082562</comments>
+    </item>
+    <item>
+      <title>Show HN: Segue – Save context in one AI, load it in another by a short handle</title>
+      <link>https://segue.ai/</link>
+      <description>📝 Your context, carried across tools. Private Yours alone A handle resolves only inside your account. Your account drops to the free tier.
+
+🔗 Read more: https://segue.ai/</description>
+      <guid isPermaLink="true">https://segue.ai/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:27:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082779</comments>
     </item>
   </channel>
 </rss>

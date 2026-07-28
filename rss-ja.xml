@@ -6,28 +6,204 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jul 2026 11:17:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 14:06:43 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>macOS Tahoe 26.6のセキュリティ内容について</title>
-      <link>https://support.apple.com/en-us/128067</link>
-      <description>📝 CVE-2026-64695: Peter Malone App Store 利用可能な対象: macOS タホ 影響: アプリがユーザーの機密データにアクセスできる可能性がある 説明: この問題は、チェックを改善することで解決されました。 CVE-2026-64737: Robert Mindo Apple Neural Engine 使用可能な対象: macOS Tahoe 影響: アプリが予期せぬシステム終了を引き起こす可能性がある 説明: 範囲外書き込みの問題は、境界チェックを改善することで解決されました。 st/) AuthKit 利用可能な対象: macOS Tahoe 影響: アプリがユーザーのフィンガープリントを取得できる可能性がある 説明: アクセス許可の問題は、追加の制限によって解決されました。
+      <title>HN を表示: 正式に検証された 3D CSG: 1000 行の AI コードではなく、93 行の仕様を信頼します</title>
+      <link>https://github.com/schildep/verified-3d-mesh-intersection</link>
+      <description>📝 正式に検証された 3D メッシュ交差 - AI が作成した 1000 行以上のコードではなく、93 行の仕様を信頼する 私の知る限り、これは 3D 構成的立体幾何学 (CSG) 操作の正式に検証された最初の実装です。メッシュ交差は Lean 4 で実装され、結果として得られるメッシュの表面を正確にピン留めし、三角形分割で実用的な整形式条件を保証する簡潔な仕様に対して検証されています。メッシュ交差アルゴリズムから、整形式の入力メッシュのソリッドの集合交差が出力メッシュのソリッドであり、出力もやはり整形式のメッシュであることが期待されます。常に多様体メッシュを生成する交差アルゴリズムがなぜ不可能なのかをご覧ください。
 
 
-🔤 Original: About the security content of macOS Tahoe 26.6
+🔤 Original: Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code
 
-🔗 Read more: https://support.apple.com/en-us/128067</description>
-      <guid isPermaLink="true">https://support.apple.com/en-us/128067</guid>
-      <pubDate>Tue, 28 Jul 2026 09:45:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081555</comments>
+🔗 Read more: https://github.com/schildep/verified-3d-mesh-intersection</description>
+      <guid isPermaLink="true">https://github.com/schildep/verified-3d-mesh-intersection</guid>
+      <pubDate>Tue, 28 Jul 2026 13:07:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083239</comments>
     </item>
     <item>
-      <title>Google の Beyond Zero: AI 時代のエンタープライズ セキュリティ</title>
-      <link>https://spawn-queue.acm.org/doi/10.1145/3819083</link>
-      <guid isPermaLink="true">https://spawn-queue.acm.org/doi/10.1145/3819083</guid>
-      <pubDate>Tue, 28 Jul 2026 09:59:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081644</comments>
+      <title>新しいHIVワクチン、前臨床研究で前例のない成功を示す</title>
+      <link>https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</link>
+      <guid isPermaLink="true">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</guid>
+      <pubDate>Tue, 28 Jul 2026 13:12:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083314</comments>
+    </item>
+    <item>
+      <title>HN を表示: Tale.fyi、私たちにはフィクションの拠点が必要です</title>
+      <link>https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</link>
+      <description>📝 参考までに、短いバージョン: 私は物語を作りました。進行状況を保存し、読むことと聞くことをシームレスに切り替えたり、友人とメモを共有したりできます。私はまた、あなた自身の物語を伝える方法、つまり物語を構築しました。
+
+
+🔤 Original: Show HN: tale.fyi, we deserve a home for fiction
+
+🔗 Read more: https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</description>
+      <guid isPermaLink="true">https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</guid>
+      <pubDate>Tue, 28 Jul 2026 13:16:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083389</comments>
+    </item>
+    <item>
+      <title>キミ・リニア: 表現力豊かで効率的な注意アーキテクチャ</title>
+      <link>https://arxiv.org/abs/2510.26692</link>
+      <description>📝 ) リットマップ リットマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
+
+
+🔤 Original: Kimi Linear: An Expressive, Efficient Attention Architecture
+
+🔗 Read more: https://arxiv.org/abs/2510.26692</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.26692</guid>
+      <pubDate>Tue, 28 Jul 2026 10:52:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082022</comments>
+    </item>
+    <item>
+      <title>DMARC は 2012 年から公開されていますが、ドメインの 68.4% が未だにそれを施行していません</title>
+      <link>https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</link>
+      <description>📝 レコードがあるドメインは、それほど進んでいません。レコードを持つドメインの 7%) は、実際に何かを強制します: p=拒否、認証に失敗したメールはドロップされます。 4%) DMARC レコードがないか、ポリシーを強制しないレコードがあります。
+
+
+🔤 Original: DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It
+
+🔗 Read more: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</description>
+      <guid isPermaLink="true">https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</guid>
+      <pubDate>Tue, 28 Jul 2026 10:20:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49081783</comments>
+    </item>
+    <item>
+      <title>高速修復は新しい信頼モデル (JFrog と OpenAI のゼロデイ調査結果)</title>
+      <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
+      <description>📝 JFrog の役割とその運営方法 セキュリティ評価中に、OpenAI のモデルは、セルフホスト型 Artifactory インストールにこれまで知られていなかったゼロデイ脆弱性を特定しました。この脆弱性は、意図しないインターネット アクセスを取得するために悪用される可能性があります。 OpenAI のセキュリティ チームは、責任を持って直ちにこの脆弱性を当社に開示しました。ゼロデイで発見、開示、パッチ適用され、すべての顧客に最高速度で出荷されることは、特にこのソフトウェアで実行される重要なインフラストラクチャにとって、コミュニティ全体が恩恵を受けるセキュリティ フライホイールです。
+
+
+🔤 Original: Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)
+
+🔗 Read more: https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</description>
+      <guid isPermaLink="true">https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:02:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082550</comments>
+    </item>
+    <item>
+      <title>HN を表示: Ctrlb-decompose: LLM に送信する前にログからノイズを除去します。</title>
+      <link>https://github.com/ctrlb-hq/ctrlb-decompose</link>
+      <description>📝 ctrlb-decompose 生のログ行を統計、異常、相関を使用して構造パターンに圧縮します。 └──────┬────────┘ │ ▼ ┌────────┐ CLP デコードされた値を Drain3 ワイルドカード │ 変数 │ 位置とマージします。 log # 上位 10 のパターンと各 3 行の例 ctrlb-decompose --top 1.
+
+
+🔤 Original: Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs
+
+🔗 Read more: https://github.com/ctrlb-hq/ctrlb-decompose</description>
+      <guid isPermaLink="true">https://github.com/ctrlb-hq/ctrlb-decompose</guid>
+      <pubDate>Tue, 28 Jul 2026 13:13:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083336</comments>
+    </item>
+    <item>
+      <title>AI 開発者はチャールズ ブコウスキーから何を学べるでしょうか?</title>
+      <link>https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</link>
+      <description>📝 実際、彼はそれを確信しています。チャールズは、より多くの生産物が高品質の生産物に等しくないことを知っていました。 /…/ – チャールズ・ブコウスキー著「ゴミ箱」からの抜粋。
+
+
+🔤 Original: What AI developers could learn from Charles Bukowski?
+
+🔗 Read more: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</description>
+      <guid isPermaLink="true">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</guid>
+      <pubDate>Tue, 28 Jul 2026 13:00:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083132</comments>
+    </item>
+    <item>
+      <title>Mondragon Corporation – 協同組合連合会</title>
+      <link>https://en.wikipedia.org/wiki/Mondragon_Corporation</link>
+      <description>📝 [2] 2019 年までに 81,507 人が雇用されました。 [4] モンドラゴン協同組合は、国際協同組合同盟によって維持されている協同組合のアイデンティティに関する声明に従って運営されています。最初のローカル グループ、Ularco が作成されました。
+
+
+🔤 Original: Mondragon Corporation – a federation of co-operatives
+
+🔗 Read more: https://en.wikipedia.org/wiki/Mondragon_Corporation</description>
+      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Mondragon_Corporation</guid>
+      <pubDate>Tue, 28 Jul 2026 12:19:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082695</comments>
+    </item>
+    <item>
+      <title>フェルマーを解く: アンドリュー・ワイルズ</title>
+      <link>https://www.pbs.org/wgbh/nova/proof/wiles.html</link>
+      <description>📝 彼は何もなかったと主張した。 AW: 彼はそれ以上のことをしました。そしてそのためには証拠が必要です。
+
+
+🔤 Original: Solving Fermat: Andrew Wiles
+
+🔗 Read more: https://www.pbs.org/wgbh/nova/proof/wiles.html</description>
+      <guid isPermaLink="true">https://www.pbs.org/wgbh/nova/proof/wiles.html</guid>
+      <pubDate>Mon, 27 Jul 2026 20:42:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49075264</comments>
+    </item>
+    <item>
+      <title>多くの「真面目な」数学者は愕然としている</title>
+      <link>https://twitter.com/lemire/status/2082091243597697071</link>
+      <description>📝 公正かつ迅速な審査が行われることを期待するでしょう。これはすぐに変わるかもしれないと私は信じています。それはとてもエキサイティングなことでしょう。
+
+
+🔤 Original: Many "serious" mathematicians are aghast
+
+🔗 Read more: https://twitter.com/lemire/status/2082091243597697071</description>
+      <guid isPermaLink="true">https://twitter.com/lemire/status/2082091243597697071</guid>
+      <pubDate>Tue, 28 Jul 2026 13:13:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083330</comments>
+    </item>
+    <item>
+      <title>15万便以上：航空会社は史上最も多忙な日を飛行したばかり</title>
+      <link>https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</link>
+      <description>📝 木曜日、私たちは 153,359 便の商用便を追跡しました。これは、これまで追跡した中で最多です。 「 最も混雑した日に最も追跡されたフライトは明白でした クレジット: Flightradar24 7 月 23 日には 150,000 便をはるかに超える商用便が追跡されましたが、そのほとんどはフライト追跡サイトの avマニアからはほとんど注目されていなかったでしょう。この数字は、追跡されたフライトの総数という点で史上 2 番目に多かった日を表しています。」
+
+
+🔤 Original: Over 150k Flights: Airlines Just Flew the Busiest Day in Recorded History
+
+🔗 Read more: https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</description>
+      <guid isPermaLink="true">https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</guid>
+      <pubDate>Tue, 28 Jul 2026 13:15:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083364</comments>
+    </item>
+    <item>
+      <title>Usenet Archive Toolkit – Usenetメッセージを処理して検索可能なアーカイブにします</title>
+      <link>https://github.com/wolfpld/usenetarchive</link>
+      <description>📝 2016 年からのポーランドの usenet メッセージ数。NNTP アーカイブ サーバー）とソース B からのメッセージ（例：他の usenet アーカイブにはスパム メッセージが散在しています。）
+
+
+🔤 Original: Usenet Archive Toolkit – process Usenet messages into a searchable archive
+
+🔗 Read more: https://github.com/wolfpld/usenetarchive</description>
+      <guid isPermaLink="true">https://github.com/wolfpld/usenetarchive</guid>
+      <pubDate>Tue, 28 Jul 2026 10:30:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49081862</comments>
+    </item>
+    <item>
+      <title>LLM は 45 ビット クエリで 16 枚のカードを識別できますか?</title>
+      <link>https://snwagh.com/blog/2026/open-problem/</link>
+      <description>📝 この投稿では、そのプロセスについて説明します。 (♥♦) このカードはキングですか。 $45 \leq D(16) \leq 64$ であることがわかります。
+
+
+🔤 Original: Can LLMs identify 16 cards in 45 bit-queries?
+
+🔗 Read more: https://snwagh.com/blog/2026/open-problem/</description>
+      <guid isPermaLink="true">https://snwagh.com/blog/2026/open-problem/</guid>
+      <pubDate>Mon, 27 Jul 2026 14:36:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49070341</comments>
+    </item>
+    <item>
+      <title>Show HN: Vivari – Node、Bun、Python 用のオープンソース WebContainer</title>
+      <link>https://vivari.jamesisme.com</link>
+      <guid isPermaLink="true">https://vivari.jamesisme.com</guid>
+      <pubDate>Tue, 28 Jul 2026 12:04:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082562</comments>
+    </item>
+    <item>
+      <title>Show HN: Segue – コンテキストを 1 つの AI に保存し、短いハンドルで別の AI にロードします</title>
+      <link>https://segue.ai/</link>
+      <description>📝 コンテキストはツール間で引き継がれます。あなただけのプライベートハンドルはあなたのアカウント内でのみ解決されます。アカウントは無料枠に下がります。
+
+
+🔤 Original: Show HN: Segue – Save context in one AI, load it in another by a short handle
+
+🔗 Read more: https://segue.ai/</description>
+      <guid isPermaLink="true">https://segue.ai/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:27:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49082779</comments>
     </item>
   </channel>
 </rss>
