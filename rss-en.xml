@@ -6,92 +6,105 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 19:23:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 22:06:16 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Deflock Casa Grande</title>
-      <link>https://deflockcg.com/</link>
-      <guid isPermaLink="true">https://deflockcg.com/</guid>
-      <pubDate>Tue, 28 Jul 2026 18:41:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49088148</comments>
-    </item>
-    <item>
-      <title>Substack writers, you need a website</title>
-      <link>https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</link>
-      <description>📝 If your Substack has a domain name they own, it’s okay, but if it’s xx. More recently, it’s been Substack. It’s not personal, it’s just business.
+      <title>OpenAI just open-sourced Codex Security</title>
+      <link>https://github.com/openai/codex-security</link>
+      <description>📝 Install and scan npm install @openai/codex-security npx codex-security login npx codex-security scan /path/to/repo Run npx codex-security --help to see all commands and npx codex-security scan --help for scan options. pdf npx codex-security scan /path/to/repo --diff origin/main --json npx codex-security scan /path/to/repo --output-dir /path/outside/repo/results npx codex-security scan /path/to/repo --output-dir /path/outside/repo/results --archive-existing npx codex-security scan /path/to/repo --dry-run npx codex-security scan /path/to/repo --fail-on-severity high npx codex-security install-hook npx codex-security bulk-scan npx codex-security bulk-scan repositories. json npx codex-security validate /path/outside/repo/findings.
 
-🔗 Read more: https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</description>
-      <guid isPermaLink="true">https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</guid>
-      <pubDate>Tue, 28 Jul 2026 16:58:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49086788</comments>
+🔗 Read more: https://github.com/openai/codex-security</description>
+      <guid isPermaLink="true">https://github.com/openai/codex-security</guid>
+      <pubDate>Tue, 28 Jul 2026 20:52:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49089755</comments>
     </item>
     <item>
-      <title>Steel Bank Common Lisp version 2.6.7</title>
-      <link>https://sbcl.org/all-news.html?2.6.7</link>
-      <description>📝 bug fix: compiler type-error when compiling calls to CONCATENATE with conditional known non-sequence arguments. optimization: compiler transforms of COUNT are applicable with a wider variety of keyword arguments. optimization: remove at least one redundant instruction from SB-ALIEN:DEREF.
+      <title>Half-Life ported to Mac OS 9</title>
+      <link>https://mac-classic.com/news/half-life-ported-to-mac-os-9/</link>
+      <description>📝 Mac Classic News Home News Articles Spotlight Downloads Links General News Website Updates Half-Life ported to Mac OS 9 Half-Life has finally landed for PowerPC based Macintosh computers 28 years after it's original release. This release supports G3 and G4 PowerPC based computers running Mac OS 9. Build your own website with Sloop.
 
-🔗 Read more: https://sbcl.org/all-news.html?2.6.7</description>
-      <guid isPermaLink="true">https://sbcl.org/all-news.html?2.6.7</guid>
-      <pubDate>Tue, 28 Jul 2026 17:11:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49086971</comments>
+🔗 Read more: https://mac-classic.com/news/half-life-ported-to-mac-os-9/</description>
+      <guid isPermaLink="true">https://mac-classic.com/news/half-life-ported-to-mac-os-9/</guid>
+      <pubDate>Tue, 28 Jul 2026 20:58:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49089814</comments>
     </item>
     <item>
-      <title>Donate to GrapheneOS</title>
-      <link>https://grapheneos.org/donate</link>
-      <description>📝 BitcoinBitcoin can be used to make donations to the non-profit GrapheneOS Foundation. CardanoCardano can be used to make donations to the non-profit GrapheneOS Foundation. LitecoinLitecoin can be used to make donations to the non-profit GrapheneOS Foundation.
+      <title>Running Kimi K3 on a M1 Mac</title>
+      <link>https://github.com/gavamedia/deltafin</link>
+      <description>📝 /venv/bin/python tools/setup_k3. /venv/bin/python tools/fetch_experts_all. /venv/bin/python tools/fetch_experts_all.
 
-🔗 Read more: https://grapheneos.org/donate</description>
-      <guid isPermaLink="true">https://grapheneos.org/donate</guid>
-      <pubDate>Tue, 28 Jul 2026 19:06:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49088451</comments>
+🔗 Read more: https://github.com/gavamedia/deltafin</description>
+      <guid isPermaLink="true">https://github.com/gavamedia/deltafin</guid>
+      <pubDate>Tue, 28 Jul 2026 21:35:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49090233</comments>
     </item>
     <item>
-      <title>Discovering Cryptographic Weaknesses with Claude</title>
-      <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
-      <description>📝 Frontier Red TeamDiscovering cryptographic weaknesses with ClaudeJul 28, 2026SummaryUsing Claude Mythos Preview, researchers at Anthropic have discovered improved ways to attack cryptographic algorithms (the mathematical methods used to keep online data private). This included several major cryptographic libraries—shared collections of code that are used to encrypt data. Flaws in these widely used cryptographic systems could put billions of users’ data at risk.
+      <title>The iPhone Upgrade Program is being replaced by Apple Upgrade</title>
+      <link>https://www.apple.com/shop/iphone/iphone-upgrade-program</link>
+      <description>📝 iPhone Upgrade Program Let farewell lead you to your next hello. For now, you can continue making your remaining monthly payments. And when it’s time for your next iPhone, we’ll make it easy to get it in a way that works for you, including an entirely new payment option that we think you’ll love.
 
-🔗 Read more: https://www.anthropic.com/research/discovering-cryptographic-weaknesses</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
-      <pubDate>Tue, 28 Jul 2026 17:22:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49087091</comments>
+🔗 Read more: https://www.apple.com/shop/iphone/iphone-upgrade-program</description>
+      <guid isPermaLink="true">https://www.apple.com/shop/iphone/iphone-upgrade-program</guid>
+      <pubDate>Tue, 28 Jul 2026 17:37:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49087306</comments>
     </item>
     <item>
-      <title>MCP 2026-07-28 Specification: transport going stateless</title>
-      <link>https://blog.modelcontextprotocol.io/posts/2026-07-28/</link>
-      <description>📝 The highlight of this release is a stateless protocol core - MCP is transforming from a bidirectional stateful protocol into a request/response stateless protocol. MRTR (SEP-2322) enables this scenario over a stateless protocol: the server returns resultType: "input_required" along with the requests it needs answered, and the client retries the original call with the answers attached in inputResponses. With this spec revision, we continued evolving the MCP auth and security posture.
+      <title>Anthropic publishes a practical key-recovery attack on HAWK-256</title>
+      <link>https://github.com/anthropics/cryptography-research-demo</link>
+      <description>📝 Not maintained and not accepting contributions. Cryptanalysis code accompanying the associated papers. Three independent components: AES/ HAWK/ LEA/ Licensed under Apache 2.
 
-🔗 Read more: https://blog.modelcontextprotocol.io/posts/2026-07-28/</description>
-      <guid isPermaLink="true">https://blog.modelcontextprotocol.io/posts/2026-07-28/</guid>
-      <pubDate>Tue, 28 Jul 2026 18:35:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49088058</comments>
+🔗 Read more: https://github.com/anthropics/cryptography-research-demo</description>
+      <guid isPermaLink="true">https://github.com/anthropics/cryptography-research-demo</guid>
+      <pubDate>Tue, 28 Jul 2026 21:22:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49090083</comments>
     </item>
     <item>
-      <title>WOFF 1.0: a milestone on W3C's journey of fonts on the web</title>
-      <link>https://www.w3.org/blog/2026/woff-1-0-a-milestone-on-w3cs-journey-of-fonts-on-the-web/</link>
-      <description>📝 Blast from the past: Kerning example from the 1997 Web Fonts Working DraftIf we build it, will they come. But for over ten years, Web Fonts were barely used. On 27 July 2010 the First Public Working Draft of WOFF 1.
+      <title>Interview with Boris Cherny [video]</title>
+      <link>https://www.youtube.com/watch?v=qyPCVqFUyDo</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=qyPCVqFUyDo</guid>
+      <pubDate>Mon, 27 Jul 2026 23:33:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49077040</comments>
+    </item>
+    <item>
+      <title>Recursion is lying to you</title>
+      <link>https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/</link>
+      <description>📝 Even with a correct base case and sound logic, each recursive call still consumes stack space. At some depth, you crash with stack overflow. Even with correct tail-recursive structure, many JavaScript runtimes still allocate a new stack frame per call and throw at large depth.
 
-🔗 Read more: https://www.w3.org/blog/2026/woff-1-0-a-milestone-on-w3cs-journey-of-fonts-on-the-web/</description>
-      <guid isPermaLink="true">https://www.w3.org/blog/2026/woff-1-0-a-milestone-on-w3cs-journey-of-fonts-on-the-web/</guid>
-      <pubDate>Tue, 28 Jul 2026 17:05:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49086890</comments>
+🔗 Read more: https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/</description>
+      <guid isPermaLink="true">https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/</guid>
+      <pubDate>Tue, 28 Jul 2026 20:20:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49089406</comments>
     </item>
     <item>
-      <title>Now Is the Time to Give LLMs Access to the ACM Digital Library</title>
-      <link>https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/</link>
-      <guid isPermaLink="true">https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/</guid>
-      <pubDate>Tue, 28 Jul 2026 15:01:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49084987</comments>
-    </item>
-    <item>
-      <title>Scientific computing in the age of agentic AI</title>
-      <link>https://openai.com/index/scientific-computing-agentic-ai/</link>
-      <description>📝 AI agents are beginning to change that equation. Contributors report that agents significantly accelerated software development and maintenance, in some cases helping small teams take on work that would otherwise have required far more time or specialized engineering support. Overall, these case studies suggest that agents are enabling researchers to spend less time on implementation and more time directing the scientific work.
+      <title>Hulios: An eBPF-powered, transparent Tor gateway for Linux</title>
+      <link>https://github.com/ghaziwali/Hulios</link>
+      <description>📝 Hulios Hardened Universal Linux Invisibility and Onion System Hulios is an eBPF-powered, transparent Tor VPN gateway for Linux. /target/release/hulios start --help # Start Hulios in foreground TUI mode sudo. /target/release/hulios recover # Stop Hulios and restore standard internet routing sudo.
 
-🔗 Read more: https://openai.com/index/scientific-computing-agentic-ai/</description>
-      <guid isPermaLink="true">https://openai.com/index/scientific-computing-agentic-ai/</guid>
-      <pubDate>Tue, 28 Jul 2026 17:13:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49086987</comments>
+🔗 Read more: https://github.com/ghaziwali/Hulios</description>
+      <guid isPermaLink="true">https://github.com/ghaziwali/Hulios</guid>
+      <pubDate>Tue, 28 Jul 2026 19:54:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49089045</comments>
+    </item>
+    <item>
+      <title>Una GPS smart watch – Repairable, USB-C charging, developer-friendly</title>
+      <link>https://unawatch.com/</link>
+      <description>📝 THE GPS WATCH BUILT FOR LIFE. Repairable • Upgradeable • Sustainable ORDER NOW ORDER NOW 6-axis Accelerometer Dual Frequency GPS Always ON HR Monitoring USB-C Charging Fully modular 10-day battery life open sdk barometric altimeter 6-axis Accelerometer Dual Frequency GPS Always ON HR Monitoring USB-C Charging Fully modular 10-day battery life open sdk barometric altimeter WHY UNA EXISTS When one part fails, the whole watch shouldn't. All whilst having unfiltered access to the watch.
+
+🔗 Read more: https://unawatch.com/</description>
+      <guid isPermaLink="true">https://unawatch.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 14:48:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084813</comments>
+    </item>
+    <item>
+      <title>Uv 0.12.0</title>
+      <link>https://github.com/astral-sh/uv/releases/tag/0.12.0</link>
+      <description>📝 Please reload this page. Please reload this page. toml without a build system.
+
+🔗 Read more: https://github.com/astral-sh/uv/releases/tag/0.12.0</description>
+      <guid isPermaLink="true">https://github.com/astral-sh/uv/releases/tag/0.12.0</guid>
+      <pubDate>Tue, 28 Jul 2026 19:41:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49088887</comments>
     </item>
   </channel>
 </rss>
