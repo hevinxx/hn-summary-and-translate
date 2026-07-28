@@ -6,204 +6,179 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 28 Jul 2026 14:06:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 16:42:38 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>HN 표시: 공식적으로 검증된 3D CSG: 1000줄 AI 코드가 아닌 93줄 사양 신뢰</title>
-      <link>https://github.com/schildep/verified-3d-mesh-intersection</link>
-      <description>📝 공식적으로 검증된 3D 메쉬 교차점 - 1000줄 이상의 AI 작성 코드가 아닌 93줄의 사양을 신뢰합니다. 제가 아는 한 이것은 3D CSG(Construction Solid Geometry) 작업의 공식적으로 검증된 최초의 구현입니다. 메쉬 교차점은 Lean 4에서 구현되었으며 결과 메쉬의 표면을 정확하게 고정하고 삼각 측량에서 실제적인 올바른 형식 조건을 보장하는 간결한 사양에 대해 검증되었습니다. 메쉬 교차 알고리즘에서 우리는 잘 구성된 입력 메쉬의 솔리드 집합이 출력 메쉬의 솔리드이고 출력이 다시 잘 구성된 메쉬일 것으로 예상합니다. 항상 다양한 메시를 생성하는 교차 알고리즘이 불가능한 이유를 알아보세요.
+      <title>당신은 키미 델타(Kimi Delta)를 떠올릴 수도 있었습니다.</title>
+      <link>https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</link>
+      <description>📝 모든 어텐션 가중치는 스칼라입니다. \lvert o_t\rangle = \sum_{i\leq t} \lvert k_i\rvert q_t\rangle \lvert v_i\rangle. \begin{정렬됨} \lvert o_t\rangle &amp;= \sum_{i\leq t} \lvert v_i\rangle \lvert k_i\rvert q_t\rangle\\ &amp;= \left( \sum_{i\leq t} \lvert v_i\rangle\langle k_i\rvert \right) \lvert q_t\rangle.
 
 
-🔤 Original: Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code
+🔤 Original: You Could Have Come Up with Kimi Delta Attention
 
-🔗 Read more: https://github.com/schildep/verified-3d-mesh-intersection</description>
-      <guid isPermaLink="true">https://github.com/schildep/verified-3d-mesh-intersection</guid>
-      <pubDate>Tue, 28 Jul 2026 13:07:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083239</comments>
+🔗 Read more: https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</description>
+      <guid isPermaLink="true">https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</guid>
+      <pubDate>Tue, 28 Jul 2026 16:02:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085909</comments>
     </item>
     <item>
-      <title>새로운 HIV 백신, 전임상 연구에서 전례 없는 성공 보여</title>
-      <link>https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</link>
-      <guid isPermaLink="true">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:12:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083314</comments>
+      <title>지연된 만족 – '속보의 마지막'이라는 자부심</title>
+      <link>https://www.slow-journalism.com/</link>
+      <guid isPermaLink="true">https://www.slow-journalism.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:50:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085731</comments>
     </item>
     <item>
-      <title>Show HN: Tale.fyi, 우리는 소설을 위한 집이 될 자격이 있습니다</title>
-      <link>https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</link>
-      <description>📝 fyi짧은 버전: 나는 이야기를 만들었습니다. 진행 상황을 저장하고, 읽기와 듣기 사이를 원활하게 전환하고, 친구들과 메모를 공유할 수 있습니다. 나는 또한 당신 자신의 이야기를 전할 수 있는 방법을 만들었습니다: 이야기.
+      <title>eBPF 코드를 어떻게 프로파일링합니까?</title>
+      <link>https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</link>
+      <description>📝 eBPF 코드를 어떻게 프로파일링합니까? 우리 코드는 eBPF에서 파일 오픈 후크를 사용했으며, 이 후크를 추가함으로써 발생하는 성능 오버헤드를 측정하고 싶었습니다. 다음으로 eBPF 코드를 실행하고 다음과 같이 실행합니다.
 
 
-🔤 Original: Show HN: tale.fyi, we deserve a home for fiction
+🔤 Original: How Do I Profile eBPF Code?
 
-🔗 Read more: https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</description>
-      <guid isPermaLink="true">https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</guid>
-      <pubDate>Tue, 28 Jul 2026 13:16:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083389</comments>
+🔗 Read more: https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</description>
+      <guid isPermaLink="true">https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:55:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085811</comments>
     </item>
     <item>
-      <title>Kimi Linear: 표현력이 풍부하고 효율적인 주의 아키텍처</title>
-      <link>https://arxiv.org/abs/2510.26692</link>
+      <title>하모니 설명: 음악의 과학적 이론을 향한 진보(2012)</title>
+      <link>https://arxiv.org/abs/1202.4212</link>
       <description>📝 ) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?) ScienceCast Toggle ScienceCast(ScienceCast란 무엇입니까?)
 
 
-🔤 Original: Kimi Linear: An Expressive, Efficient Attention Architecture
+🔤 Original: Harmony Explained: Progress Towards a Scientific Theory of Music (2012)
 
-🔗 Read more: https://arxiv.org/abs/2510.26692</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.26692</guid>
-      <pubDate>Tue, 28 Jul 2026 10:52:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082022</comments>
+🔗 Read more: https://arxiv.org/abs/1202.4212</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/1202.4212</guid>
+      <pubDate>Tue, 28 Jul 2026 15:20:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085280</comments>
     </item>
     <item>
-      <title>DMARC는 2012년부터 공개되었습니다. 도메인의 68.4%가 여전히 이를 시행하지 않습니다.</title>
-      <link>https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</link>
-      <description>📝 기록이 있는 도메인은 더 이상 진행되지 않습니다. 기록이 있는 도메인의 7%) 실제로 무엇이든 시행합니다. p=거부, 인증에 실패한 메일은 삭제됩니다. 4%) DMARC 기록이 없거나 정책을 시행하지 않는 기록이 있습니다.
+      <title>Zig의 증분 컴파일 내부</title>
+      <link>https://mlugg.co.uk/posts/incremental-compilation-internals/</link>
+      <description>📝 Zig 0이기 때문입니다. 자, 이 부분을 빠르게 만들었습니다. 여기에는 유형 검사와 comptime 평가가 모두 포함됩니다.
 
 
-🔤 Original: DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It
+🔤 Original: Zig's Incremental Compilation Internals
 
-🔗 Read more: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</description>
-      <guid isPermaLink="true">https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</guid>
-      <pubDate>Tue, 28 Jul 2026 10:20:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081783</comments>
+🔗 Read more: https://mlugg.co.uk/posts/incremental-compilation-internals/</description>
+      <guid isPermaLink="true">https://mlugg.co.uk/posts/incremental-compilation-internals/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:46:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085666</comments>
     </item>
     <item>
-      <title>빠른 교정은 새로운 신뢰 모델입니다(JFrog 및 OpenAI 제로데이 조사 결과)</title>
-      <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
-      <description>📝 JFrog의 역할 및 운영 방법 보안 평가 중에 OpenAI의 모델은 의도하지 않은 인터넷 액세스를 얻기 위해 악용될 수 있는 자체 호스팅 Artifactory 설치에서 이전에 알려지지 않은 제로 데이 취약점을 식별했습니다. OpenAI의 보안팀은 책임감 있고 즉각적으로 취약점을 공개했습니다. 제로데이를 발견하고, 공개하고, 패치하고, 최고 속도로 모든 고객에게 배송하는 것은 전체 커뮤니티, 특히 이 소프트웨어에서 실행되는 중요한 인프라의 이점을 누리는 보안 플라이휠입니다.
+      <title>Show HN: XY – Rust로 작성된 빠르고 구성 가능한 GPU 가속 차트</title>
+      <link>https://github.com/reflex-dev/xy</link>
+      <description>📝 차트는 선언적으로 또는 matplotlib 규칙을 통해 구성됩니다. 작은 차트의 경우 모든 포인트가 브라우저로 전송됩니다. 벤치마크 실시간 대화형 차트, 10,000~1억 포인트.
 
 
-🔤 Original: Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)
+🔤 Original: Show HN: XY – Fast, composable, GPU-accelerated charts, written in Rust
 
-🔗 Read more: https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</description>
-      <guid isPermaLink="true">https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:02:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082550</comments>
+🔗 Read more: https://github.com/reflex-dev/xy</description>
+      <guid isPermaLink="true">https://github.com/reflex-dev/xy</guid>
+      <pubDate>Tue, 28 Jul 2026 15:54:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085798</comments>
     </item>
     <item>
-      <title>HN 표시: Ctrlb-decompose: LLM으로 보내기 전에 로그에서 노이즈 제거</title>
-      <link>https://github.com/ctrlb-hq/ctrlb-decompose</link>
-      <description>📝 ctrlb-decompose 원시 로그 라인을 통계, 이상치, 상관 관계를 통해 구조적 패턴으로 압축합니다. └──────┬───────┘ │ ▼ ┌──────────────┐ CLP 디코딩된 값을 Drain3 와일드카드 │ 변수 │ 위치와 병합합니다. log # 각각 3개의 예시 라인이 포함된 상위 10개 패턴 ctrlb-decompose --top 1.
+      <title>이탈리아, 생식 건강 웹사이트 차단 여성 웹사이트 및 여성 도움말</title>
+      <link>https://ooni.org/post/2026-italy-blocks-wow-and-whw</link>
+      <description>📝 이 보고서에서는 이탈리아의 Women on Web(WoW) 및 Women Help Women(WHW) 웹사이트 차단에 대한 OONI 데이터를 공유합니다. org) 및 Women Help Women(womenhelp. 특히 주요 조사 결과는 다음과 같습니다. 여러 ISP에서 WoW(Women on Web)와 WHW(Women Help Women)를 동시에 DNS 기반으로 차단합니다.
 
 
-🔤 Original: Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs
+🔤 Original: Italy Blocks Reproductive Health Websites Women on Web and Women Help Women
 
-🔗 Read more: https://github.com/ctrlb-hq/ctrlb-decompose</description>
-      <guid isPermaLink="true">https://github.com/ctrlb-hq/ctrlb-decompose</guid>
-      <pubDate>Tue, 28 Jul 2026 13:13:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083336</comments>
+🔗 Read more: https://ooni.org/post/2026-italy-blocks-wow-and-whw</description>
+      <guid isPermaLink="true">https://ooni.org/post/2026-italy-blocks-wow-and-whw</guid>
+      <pubDate>Tue, 28 Jul 2026 14:05:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084091</comments>
     </item>
     <item>
-      <title>AI 개발자는 Charles Bukowski로부터 무엇을 배울 수 있습니까?</title>
-      <link>https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</link>
-      <description>📝 사실 그는 그것을 확신하고 있다. Charles는 더 많은 생산량이 고품질 생산량과 같지 않다는 것을 알고 있었습니다. /…/ – Charles Bukowski의 "쓰레기통"에서 발췌.
+      <title>Kimi K3 아키텍처 개요 및 참고 사항</title>
+      <link>https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</link>
+      <description>📝 , MoE -&gt; LatentMoE, 일반 주의 -&gt; 다중 머리 잠재 주의 및 Kimi Delta Attention. (이 역시 Kimi Linear에서 상속되었습니다.) Kimi K3 아키텍처 및 릴리스 시간 벤치마크 비교.
 
 
-🔤 Original: What AI developers could learn from Charles Bukowski?
+🔤 Original: Kimi K3 Architecture Overview and Notes
 
-🔗 Read more: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</description>
-      <guid isPermaLink="true">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</guid>
-      <pubDate>Tue, 28 Jul 2026 13:00:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083132</comments>
+🔗 Read more: https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</description>
+      <guid isPermaLink="true">https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</guid>
+      <pubDate>Tue, 28 Jul 2026 15:48:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085698</comments>
     </item>
     <item>
-      <title>Mondragon Corporation - 협동조합 연맹</title>
-      <link>https://en.wikipedia.org/wiki/Mondragon_Corporation</link>
-      <description>📝 [2] 2019년까지 81,507명이 고용되었습니다. [4] Mondragon 협동조합은 국제협동조합연맹(International Cooperative Alliance)이 유지하는 협동조합 정체성 선언문에 따라 운영됩니다. 최초의 지역 그룹인 Ularco가 탄생했습니다.
+      <title>GrapheneOS, 미국 국경 수색을 차단한 데이터 삭제 기능 방어</title>
+      <link>https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</link>
+      <description>📝 “GrapheneOS는 완전히 합법적입니다.”마찬가지로 하드웨어와 소프트웨어가 암호화를 방지하도록 설계되었기 때문에 암호화 우회를 지원하는 것은 불가능합니다. “이 사건은 개인 정보 보호와 미국 수사 권한에 대한 수년간의 논쟁이 진행되는 가운데 발생했습니다. 이는 Apple iPhone 및 엔드 투 엔드 암호화의 오랜 인화점이었습니다.
 
 
-🔤 Original: Mondragon Corporation – a federation of co-operatives
+🔤 Original: GrapheneOS Defends Data-Wiping Function That Blocked US Border Search
 
-🔗 Read more: https://en.wikipedia.org/wiki/Mondragon_Corporation</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Mondragon_Corporation</guid>
-      <pubDate>Tue, 28 Jul 2026 12:19:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082695</comments>
+🔗 Read more: https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</description>
+      <guid isPermaLink="true">https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</guid>
+      <pubDate>Tue, 28 Jul 2026 15:17:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085236</comments>
     </item>
     <item>
-      <title>페르마 풀이: 앤드루 와일즈</title>
-      <link>https://www.pbs.org/wgbh/nova/proof/wiles.html</link>
-      <description>📝 그는 아무것도 없다고 주장했습니다. AW: 그는 그 이상을 했습니다. 그리고 그러기 위해서는 증거가 필요합니다.
+      <title>그래서 게임엔진을 만들고 싶다(2023)</title>
+      <link>https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</link>
+      <description>📝 SDL2는 게임 엔진입니까? OpenGL은 게임 엔진입니까? stb_image는 게임 엔진입니까?
 
 
-🔤 Original: Solving Fermat: Andrew Wiles
+🔤 Original: So, you want to make a game engine (2023)
 
-🔗 Read more: https://www.pbs.org/wgbh/nova/proof/wiles.html</description>
-      <guid isPermaLink="true">https://www.pbs.org/wgbh/nova/proof/wiles.html</guid>
-      <pubDate>Mon, 27 Jul 2026 20:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49075264</comments>
+🔗 Read more: https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</description>
+      <guid isPermaLink="true">https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</guid>
+      <pubDate>Tue, 28 Jul 2026 15:36:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085509</comments>
     </item>
     <item>
-      <title>많은 "진지한" 수학자들은 경악합니다.</title>
-      <link>https://twitter.com/lemire/status/2082091243597697071</link>
-      <description>📝 공정하고 빠른 심사가 이루어지길 바랍니다. 나는 이것이 곧 바뀔 것이라고 믿습니다. 그거 정말 재미있을 것 같아요.
+      <title>Apple M5 Pro 컴퓨터에서 네트워크 모드가 브리지로 설정된 상태에서는 VM을 부팅할 수 없습니다.</title>
+      <link>https://github.com/utmapp/UTM/issues/7658</link>
+      <description>📝 로드하는 동안 오류가 발생했습니다. 이 페이지를 새로고침하세요. 로드하는 동안 오류가 발생했습니다.
 
 
-🔤 Original: Many "serious" mathematicians are aghast
+🔤 Original: VMs can't boot with Network Mode set to Bridged on Apple M5 Pro machines
 
-🔗 Read more: https://twitter.com/lemire/status/2082091243597697071</description>
-      <guid isPermaLink="true">https://twitter.com/lemire/status/2082091243597697071</guid>
-      <pubDate>Tue, 28 Jul 2026 13:13:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083330</comments>
+🔗 Read more: https://github.com/utmapp/UTM/issues/7658</description>
+      <guid isPermaLink="true">https://github.com/utmapp/UTM/issues/7658</guid>
+      <pubDate>Tue, 28 Jul 2026 13:33:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083634</comments>
     </item>
     <item>
-      <title>150,000회 이상의 항공편: 항공사는 기록된 역사상 가장 바쁜 날에 비행했습니다.</title>
-      <link>https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</link>
-      <description>📝 목요일에 우리는 지금까지 추적한 것 중 가장 많은 153,359개의 상용 항공편을 추적했습니다. " 가장 바쁜 날에 가장 많이 추적된 항공편은 명백했습니다. 크레딧: Flightradar24 7월 23일에 150,000개가 훨씬 넘는 상업용 항공편이 추적되었으므로 대부분의 항공편 추적 사이트에서 avgeeks의 관심을 거의 끌지 못했을 것입니다. 이 수치는 추적된 총 항공편 측면에서 사상 두 번째로 바쁜 날을 나타냅니다.
+      <title>Xenharmlib(음악 이론 라이브러리)에 Just Intonation 지원 추가</title>
+      <link>https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</link>
+      <description>📝 short_repr})') 1 --&gt; 3/2(3/2) 256/243 --&gt; 128/81(3/2) 9/8 --&gt; 27/16(3/2) 32/27 --&gt; 16/9(3/2) 81/64 --&gt; 243/128(3/2) 4/3 --&gt; 2(3/2) 1024/729 --&gt; 512/243(3/2) 3/2 --&gt; 9/4(3/2) 128/81 --&gt; 64/27(3/2) 27/16 --&gt; 81/32(3/2) 16/9 --&gt; 8/3(3/2) 243/128 --&gt; 2048/729 (262144/177147) 출력의 마지막 음조(\(\frac{243}{128}\))에서 볼 수 있듯이 피타고라스 반음계의 음계 각도별 조옮김이 항상 문제의 음정의 실제 조옮김으로 이어지는 것은 아닙니다. 조옮김(P5) 간격 = 피치. short_repr}) - 정도: {scale_degree}') 1 --&gt; 3/2(3/2) - 정도: 7 256/243 --&gt; 128/81(3/2) - 정도: 8 9/8 --&gt; 27/16(3/2) - 정도: 9 32/27 --&gt; 16/9(3/2) - 정도: 10 81/64 --&gt; 243/128 (3/2) - 정도: 11 4/3 --&gt; 2 (3/2) - 정도: 12 1024/729 --&gt; 512/243 (3/2) - 정도: 13 3/2 --&gt; 9/4 (.
 
 
-🔤 Original: Over 150k Flights: Airlines Just Flew the Busiest Day in Recorded History
+🔤 Original: Xenharmlib (music theory library) adds support for Just Intonation
 
-🔗 Read more: https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</description>
-      <guid isPermaLink="true">https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:15:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083364</comments>
+🔗 Read more: https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</description>
+      <guid isPermaLink="true">https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</guid>
+      <pubDate>Tue, 28 Jul 2026 16:10:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49086059</comments>
     </item>
     <item>
-      <title>Usenet Archive Toolkit – 유즈넷 메시지를 검색 가능한 아카이브로 처리합니다.</title>
-      <link>https://github.com/wolfpld/usenetarchive</link>
-      <description>📝 2016년의 폴란드 유즈넷 메시지 수. 소스 B의 메시지가 포함된 NNTP 보관 서버(예: 다른 유즈넷 보관소는 스팸 메시지로 가득 차 있습니다.
-
-
-🔤 Original: Usenet Archive Toolkit – process Usenet messages into a searchable archive
-
-🔗 Read more: https://github.com/wolfpld/usenetarchive</description>
-      <guid isPermaLink="true">https://github.com/wolfpld/usenetarchive</guid>
-      <pubDate>Tue, 28 Jul 2026 10:30:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081862</comments>
+      <title>HN 표시: Flashpaper – 데이터베이스 없이 자체 파괴되는 비밀 공유</title>
+      <link>https://flashpaper.app/</link>
+      <guid isPermaLink="true">https://flashpaper.app/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:36:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085503</comments>
     </item>
     <item>
-      <title>LLM은 45비트 쿼리에서 16장의 카드를 식별할 수 있습니까?</title>
-      <link>https://snwagh.com/blog/2026/open-problem/</link>
-      <description>📝 이번 포스팅은 그 과정에 대한 이야기를 담고 있습니다. (♥︎) 이 카드는 킹인가요? 우리는 $45 \leq D(16) \leq 64$를 알고 있습니다.
-
-
-🔤 Original: Can LLMs identify 16 cards in 45 bit-queries?
-
-🔗 Read more: https://snwagh.com/blog/2026/open-problem/</description>
-      <guid isPermaLink="true">https://snwagh.com/blog/2026/open-problem/</guid>
-      <pubDate>Mon, 27 Jul 2026 14:36:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49070341</comments>
+      <title>앤트로페움</title>
+      <link>https://anthropeum.com/</link>
+      <guid isPermaLink="true">https://anthropeum.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:01:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084989</comments>
     </item>
     <item>
-      <title>HN 표시: Vivari – Node, Bun 및 Python용 오픈 소스 WebContainer</title>
-      <link>https://vivari.jamesisme.com</link>
-      <guid isPermaLink="true">https://vivari.jamesisme.com</guid>
-      <pubDate>Tue, 28 Jul 2026 12:04:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082562</comments>
-    </item>
-    <item>
-      <title>HN 표시: Segue – 하나의 AI에 컨텍스트를 저장하고 짧은 핸들을 통해 다른 AI에 로드합니다.</title>
-      <link>https://segue.ai/</link>
-      <description>📝 귀하의 컨텍스트가 여러 도구에 걸쳐 전달됩니다. 비공개 핸들은 귀하의 계정 내에서만 해결됩니다. 귀하의 계정은 무료 등급으로 변경됩니다.
-
-
-🔤 Original: Show HN: Segue – Save context in one AI, load it in another by a short handle
-
-🔗 Read more: https://segue.ai/</description>
-      <guid isPermaLink="true">https://segue.ai/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:27:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082779</comments>
+      <title>인터넷 죽이기 중지: 디지털 ID 및 연령 확인 없음</title>
+      <link>https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en</link>
+      <guid isPermaLink="true">https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en</guid>
+      <pubDate>Tue, 28 Jul 2026 14:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084938</comments>
     </item>
   </channel>
 </rss>

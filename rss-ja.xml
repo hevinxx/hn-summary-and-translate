@@ -6,204 +6,179 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jul 2026 14:06:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 16:42:38 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>HN を表示: 正式に検証された 3D CSG: 1000 行の AI コードではなく、93 行の仕様を信頼します</title>
-      <link>https://github.com/schildep/verified-3d-mesh-intersection</link>
-      <description>📝 正式に検証された 3D メッシュ交差 - AI が作成した 1000 行以上のコードではなく、93 行の仕様を信頼する 私の知る限り、これは 3D 構成的立体幾何学 (CSG) 操作の正式に検証された最初の実装です。メッシュ交差は Lean 4 で実装され、結果として得られるメッシュの表面を正確にピン留めし、三角形分割で実用的な整形式条件を保証する簡潔な仕様に対して検証されています。メッシュ交差アルゴリズムから、整形式の入力メッシュのソリッドの集合交差が出力メッシュのソリッドであり、出力もやはり整形式のメッシュであることが期待されます。常に多様体メッシュを生成する交差アルゴリズムがなぜ不可能なのかをご覧ください。
+      <title>キミデルタを思いついたかもしれない</title>
+      <link>https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</link>
+      <description>📝 すべてのアテンションの重みはスカラーです。 \lvert o_t\rangle = \sum_{i\leq t} \langle k_i\rvert q_t\rangle \lvert v_i\rangle。 \begin{aligned} \lvert o_t\rangle &amp;= \sum_{i\leq t} \lvert v_i\rangle \langle k_i\rvert q_t\rangle\\ &amp;= \left( \sum_{i\leq t} \lvert v_i\rangle\langle k_i\rvert \right) \lvert q_t\rangle。
 
 
-🔤 Original: Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code
+🔤 Original: You Could Have Come Up with Kimi Delta Attention
 
-🔗 Read more: https://github.com/schildep/verified-3d-mesh-intersection</description>
-      <guid isPermaLink="true">https://github.com/schildep/verified-3d-mesh-intersection</guid>
-      <pubDate>Tue, 28 Jul 2026 13:07:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083239</comments>
+🔗 Read more: https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</description>
+      <guid isPermaLink="true">https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</guid>
+      <pubDate>Tue, 28 Jul 2026 16:02:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085909</comments>
     </item>
     <item>
-      <title>新しいHIVワクチン、前臨床研究で前例のない成功を示す</title>
-      <link>https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</link>
-      <guid isPermaLink="true">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:12:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083314</comments>
+      <title>遅れた満足 – 「最新ニュースを最後に受け取る」ことを誇りに思います</title>
+      <link>https://www.slow-journalism.com/</link>
+      <guid isPermaLink="true">https://www.slow-journalism.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:50:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085731</comments>
     </item>
     <item>
-      <title>HN を表示: Tale.fyi、私たちにはフィクションの拠点が必要です</title>
-      <link>https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</link>
-      <description>📝 参考までに、短いバージョン: 私は物語を作りました。進行状況を保存し、読むことと聞くことをシームレスに切り替えたり、友人とメモを共有したりできます。私はまた、あなた自身の物語を伝える方法、つまり物語を構築しました。
+      <title>eBPF コードをプロファイリングするにはどうすればよいですか?</title>
+      <link>https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</link>
+      <description>📝 eBPF コードをプロファイリングするにはどうすればよいですか。私たちのコードは eBPF でファイル オープン フックを使用していました。このフックを追加することで生じるパフォーマンスのオーバーヘッドを測定したいと考えていました。次に、eBPF コードを実行して、次のような内容を実行します。
 
 
-🔤 Original: Show HN: tale.fyi, we deserve a home for fiction
+🔤 Original: How Do I Profile eBPF Code?
 
-🔗 Read more: https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</description>
-      <guid isPermaLink="true">https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</guid>
-      <pubDate>Tue, 28 Jul 2026 13:16:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083389</comments>
+🔗 Read more: https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</description>
+      <guid isPermaLink="true">https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:55:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085811</comments>
     </item>
     <item>
-      <title>キミ・リニア: 表現力豊かで効率的な注意アーキテクチャ</title>
-      <link>https://arxiv.org/abs/2510.26692</link>
+      <title>ハーモニーの説明: 音楽の科学理論への進歩 (2012)</title>
+      <link>https://arxiv.org/abs/1202.4212</link>
       <description>📝 ) リットマップ リットマップを切り替えます (リットマップとは何ですか。) DagsHub DagsHub を切り替えます (DagsHub とは何ですか。) ScienceCast サイエンスキャストを切り替えます (ScienceCast とは何ですか。)
 
 
-🔤 Original: Kimi Linear: An Expressive, Efficient Attention Architecture
+🔤 Original: Harmony Explained: Progress Towards a Scientific Theory of Music (2012)
 
-🔗 Read more: https://arxiv.org/abs/2510.26692</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.26692</guid>
-      <pubDate>Tue, 28 Jul 2026 10:52:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082022</comments>
+🔗 Read more: https://arxiv.org/abs/1202.4212</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/1202.4212</guid>
+      <pubDate>Tue, 28 Jul 2026 15:20:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085280</comments>
     </item>
     <item>
-      <title>DMARC は 2012 年から公開されていますが、ドメインの 68.4% が未だにそれを施行していません</title>
-      <link>https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</link>
-      <description>📝 レコードがあるドメインは、それほど進んでいません。レコードを持つドメインの 7%) は、実際に何かを強制します: p=拒否、認証に失敗したメールはドロップされます。 4%) DMARC レコードがないか、ポリシーを強制しないレコードがあります。
+      <title>Zig のインクリメンタル コンパイルの内部構造</title>
+      <link>https://mlugg.co.uk/posts/incremental-compilation-internals/</link>
+      <description>📝 これは、Zig 0 の間、この部分を高速化したためです。これには、型チェックと計算時間評価の両方が含まれます。
 
 
-🔤 Original: DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It
+🔤 Original: Zig's Incremental Compilation Internals
 
-🔗 Read more: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</description>
-      <guid isPermaLink="true">https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</guid>
-      <pubDate>Tue, 28 Jul 2026 10:20:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081783</comments>
+🔗 Read more: https://mlugg.co.uk/posts/incremental-compilation-internals/</description>
+      <guid isPermaLink="true">https://mlugg.co.uk/posts/incremental-compilation-internals/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:46:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085666</comments>
     </item>
     <item>
-      <title>高速修復は新しい信頼モデル (JFrog と OpenAI のゼロデイ調査結果)</title>
-      <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
-      <description>📝 JFrog の役割とその運営方法 セキュリティ評価中に、OpenAI のモデルは、セルフホスト型 Artifactory インストールにこれまで知られていなかったゼロデイ脆弱性を特定しました。この脆弱性は、意図しないインターネット アクセスを取得するために悪用される可能性があります。 OpenAI のセキュリティ チームは、責任を持って直ちにこの脆弱性を当社に開示しました。ゼロデイで発見、開示、パッチ適用され、すべての顧客に最高速度で出荷されることは、特にこのソフトウェアで実行される重要なインフラストラクチャにとって、コミュニティ全体が恩恵を受けるセキュリティ フライホイールです。
+      <title>Show HN: XY – Rust で書かれた、高速で構成可能な GPU アクセラレートされたチャート</title>
+      <link>https://github.com/reflex-dev/xy</link>
+      <description>📝 チャートは宣言的に、または matplotlib 規約を通じて作成されます。小さなチャートでは、すべてのポイントがブラウザに送信されます。ベンチマーク ライブ インタラクティブ チャート、10,000 ～ 100,000 ポイント。
 
 
-🔤 Original: Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)
+🔤 Original: Show HN: XY – Fast, composable, GPU-accelerated charts, written in Rust
 
-🔗 Read more: https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</description>
-      <guid isPermaLink="true">https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:02:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082550</comments>
+🔗 Read more: https://github.com/reflex-dev/xy</description>
+      <guid isPermaLink="true">https://github.com/reflex-dev/xy</guid>
+      <pubDate>Tue, 28 Jul 2026 15:54:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085798</comments>
     </item>
     <item>
-      <title>HN を表示: Ctrlb-decompose: LLM に送信する前にログからノイズを除去します。</title>
-      <link>https://github.com/ctrlb-hq/ctrlb-decompose</link>
-      <description>📝 ctrlb-decompose 生のログ行を統計、異常、相関を使用して構造パターンに圧縮します。 └──────┬────────┘ │ ▼ ┌────────┐ CLP デコードされた値を Drain3 ワイルドカード │ 変数 │ 位置とマージします。 log # 上位 10 のパターンと各 3 行の例 ctrlb-decompose --top 1.
+      <title>イタリア、リプロダクティブ・ヘルスのウェブサイトをブロック ウェブ上の女性と女性が女性を支援</title>
+      <link>https://ooni.org/post/2026-italy-blocks-wow-and-whw</link>
+      <description>📝 このレポートでは、イタリアにおける Women on Web (WoW) および Women Help Women (WHW) Web サイトのブロックに関する OONI データを共有します。 org) および Women Help Women (womenhelp。具体的には、主な調査結果には以下が含まれます。複数の ISP にわたる Women on Web (WoW) と Women Help Women (WHW) の両方を DNS ベースで同時にブロックする。
 
 
-🔤 Original: Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs
+🔤 Original: Italy Blocks Reproductive Health Websites Women on Web and Women Help Women
 
-🔗 Read more: https://github.com/ctrlb-hq/ctrlb-decompose</description>
-      <guid isPermaLink="true">https://github.com/ctrlb-hq/ctrlb-decompose</guid>
-      <pubDate>Tue, 28 Jul 2026 13:13:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083336</comments>
+🔗 Read more: https://ooni.org/post/2026-italy-blocks-wow-and-whw</description>
+      <guid isPermaLink="true">https://ooni.org/post/2026-italy-blocks-wow-and-whw</guid>
+      <pubDate>Tue, 28 Jul 2026 14:05:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084091</comments>
     </item>
     <item>
-      <title>AI 開発者はチャールズ ブコウスキーから何を学べるでしょうか?</title>
-      <link>https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</link>
-      <description>📝 実際、彼はそれを確信しています。チャールズは、より多くの生産物が高品質の生産物に等しくないことを知っていました。 /…/ – チャールズ・ブコウスキー著「ゴミ箱」からの抜粋。
+      <title>Kim K3 アーキテクチャの概要とメモ</title>
+      <link>https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</link>
+      <description>📝 、MoE→LatentMoE、通常アテンション→多頭潜在アテンション、キミデルタアテンション。 (繰り返しになりますが、これはキミリニアから継承されています)。 Kim K3 アーキテクチャとリリース時のベンチマークの比較。
 
 
-🔤 Original: What AI developers could learn from Charles Bukowski?
+🔤 Original: Kimi K3 Architecture Overview and Notes
 
-🔗 Read more: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</description>
-      <guid isPermaLink="true">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</guid>
-      <pubDate>Tue, 28 Jul 2026 13:00:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083132</comments>
+🔗 Read more: https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</description>
+      <guid isPermaLink="true">https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</guid>
+      <pubDate>Tue, 28 Jul 2026 15:48:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085698</comments>
     </item>
     <item>
-      <title>Mondragon Corporation – 協同組合連合会</title>
-      <link>https://en.wikipedia.org/wiki/Mondragon_Corporation</link>
-      <description>📝 [2] 2019 年までに 81,507 人が雇用されました。 [4] モンドラゴン協同組合は、国際協同組合同盟によって維持されている協同組合のアイデンティティに関する声明に従って運営されています。最初のローカル グループ、Ularco が作成されました。
+      <title>GrapheneOS、米国国境捜索を阻止したデータ消去機能を擁護</title>
+      <link>https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</link>
+      <description>📝 「GrapheneOS は完全に合法です。同様に、ハードウェアとソフトウェアは暗号化を回避するように設計されているため、暗号化を回避することを支援することはできません。」この事件は、AppleのiPhoneとエンドツーエンドの暗号化に関して長い間引火点となってきた、プライバシー対米国の捜査権限に関する長年の議論の最中に持ち込まれた。
 
 
-🔤 Original: Mondragon Corporation – a federation of co-operatives
+🔤 Original: GrapheneOS Defends Data-Wiping Function That Blocked US Border Search
 
-🔗 Read more: https://en.wikipedia.org/wiki/Mondragon_Corporation</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Mondragon_Corporation</guid>
-      <pubDate>Tue, 28 Jul 2026 12:19:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082695</comments>
+🔗 Read more: https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</description>
+      <guid isPermaLink="true">https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</guid>
+      <pubDate>Tue, 28 Jul 2026 15:17:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085236</comments>
     </item>
     <item>
-      <title>フェルマーを解く: アンドリュー・ワイルズ</title>
-      <link>https://www.pbs.org/wgbh/nova/proof/wiles.html</link>
-      <description>📝 彼は何もなかったと主張した。 AW: 彼はそれ以上のことをしました。そしてそのためには証拠が必要です。
+      <title>ゲームエンジンを作りたいということですね（2023年）</title>
+      <link>https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</link>
+      <description>📝 SDL2はゲームエンジンですか？ OpenGLはゲームエンジンですか？ stb_image はゲーム エンジンですか。
 
 
-🔤 Original: Solving Fermat: Andrew Wiles
+🔤 Original: So, you want to make a game engine (2023)
 
-🔗 Read more: https://www.pbs.org/wgbh/nova/proof/wiles.html</description>
-      <guid isPermaLink="true">https://www.pbs.org/wgbh/nova/proof/wiles.html</guid>
-      <pubDate>Mon, 27 Jul 2026 20:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49075264</comments>
+🔗 Read more: https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</description>
+      <guid isPermaLink="true">https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</guid>
+      <pubDate>Tue, 28 Jul 2026 15:36:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085509</comments>
     </item>
     <item>
-      <title>多くの「真面目な」数学者は愕然としている</title>
-      <link>https://twitter.com/lemire/status/2082091243597697071</link>
-      <description>📝 公正かつ迅速な審査が行われることを期待するでしょう。これはすぐに変わるかもしれないと私は信じています。それはとてもエキサイティングなことでしょう。
+      <title>Apple M5 Pro マシンでネットワーク モードがブリッジに設定されていると VM を起動できない</title>
+      <link>https://github.com/utmapp/UTM/issues/7658</link>
+      <description>📝 読み込み中にエラーが発生しました。このページをリロードしてください。読み込み中にエラーが発生しました。
 
 
-🔤 Original: Many "serious" mathematicians are aghast
+🔤 Original: VMs can't boot with Network Mode set to Bridged on Apple M5 Pro machines
 
-🔗 Read more: https://twitter.com/lemire/status/2082091243597697071</description>
-      <guid isPermaLink="true">https://twitter.com/lemire/status/2082091243597697071</guid>
-      <pubDate>Tue, 28 Jul 2026 13:13:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083330</comments>
+🔗 Read more: https://github.com/utmapp/UTM/issues/7658</description>
+      <guid isPermaLink="true">https://github.com/utmapp/UTM/issues/7658</guid>
+      <pubDate>Tue, 28 Jul 2026 13:33:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083634</comments>
     </item>
     <item>
-      <title>15万便以上：航空会社は史上最も多忙な日を飛行したばかり</title>
-      <link>https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</link>
-      <description>📝 木曜日、私たちは 153,359 便の商用便を追跡しました。これは、これまで追跡した中で最多です。 「 最も混雑した日に最も追跡されたフライトは明白でした クレジット: Flightradar24 7 月 23 日には 150,000 便をはるかに超える商用便が追跡されましたが、そのほとんどはフライト追跡サイトの avマニアからはほとんど注目されていなかったでしょう。この数字は、追跡されたフライトの総数という点で史上 2 番目に多かった日を表しています。」
+      <title>Xenharmlib (音楽理論ライブラリ) が純正律のサポートを追加</title>
+      <link>https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</link>
+      <description>📝 short_repr})') 1 --&gt; 3/2 (3/2) 256/243 --&gt; 128/81 (3/2) 9/8 --&gt; 27/16 (3/2) 32/27 --&gt; 16/9 (3/2) 81/64 --&gt; 243/128 (3/2) 4/3 --&gt; 2 (3/2) 1024/729 --&gt; 512/243 (3/2) 3/2 --&gt; 9/4 (3/2) 128/81 --&gt; 64/27 (3/2) 27/16 --&gt; 81/32 (3/2) 16/9 --&gt; 8/3 (3/2) 243/128 --&gt; 2048/729 (262144/177147) 出力の最後のピッチ (\(\frac{243}{128}\)) でわかるように、ピタゴラス半音階の音階による移調は、必ずしも問題のインターバルの実際の移調をもたらすわけではありません。トランスポーズ(P5) インターバル = ピッチ。 short_repr}) - 度: {scale_degree}') 1 --&gt; 3/2 (3/2) - 度: 7 256/243 --&gt; 128/81 (3/2) - 度: 8 9/8 --&gt; 27/16 (3/2) - 度: 9 32/27 --&gt; 16/9 (3/2) - 度: 10 81/64 --&gt; 243/128 (3/2) - 度: 11 4/3 --&gt; 2 (3/2) - 度: 12 1024/729 --&gt; 512/243 (3/2) - 度: 13 3/2 --&gt; 9/4 (.
 
 
-🔤 Original: Over 150k Flights: Airlines Just Flew the Busiest Day in Recorded History
+🔤 Original: Xenharmlib (music theory library) adds support for Just Intonation
 
-🔗 Read more: https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</description>
-      <guid isPermaLink="true">https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:15:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083364</comments>
+🔗 Read more: https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</description>
+      <guid isPermaLink="true">https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</guid>
+      <pubDate>Tue, 28 Jul 2026 16:10:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49086059</comments>
     </item>
     <item>
-      <title>Usenet Archive Toolkit – Usenetメッセージを処理して検索可能なアーカイブにします</title>
-      <link>https://github.com/wolfpld/usenetarchive</link>
-      <description>📝 2016 年からのポーランドの usenet メッセージ数。NNTP アーカイブ サーバー）とソース B からのメッセージ（例：他の usenet アーカイブにはスパム メッセージが散在しています。）
-
-
-🔤 Original: Usenet Archive Toolkit – process Usenet messages into a searchable archive
-
-🔗 Read more: https://github.com/wolfpld/usenetarchive</description>
-      <guid isPermaLink="true">https://github.com/wolfpld/usenetarchive</guid>
-      <pubDate>Tue, 28 Jul 2026 10:30:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081862</comments>
+      <title>Show HN: Flashpaper – データベースを使用しない自己破壊型秘密共有</title>
+      <link>https://flashpaper.app/</link>
+      <guid isPermaLink="true">https://flashpaper.app/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:36:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085503</comments>
     </item>
     <item>
-      <title>LLM は 45 ビット クエリで 16 枚のカードを識別できますか?</title>
-      <link>https://snwagh.com/blog/2026/open-problem/</link>
-      <description>📝 この投稿では、そのプロセスについて説明します。 (♥♦) このカードはキングですか。 $45 \leq D(16) \leq 64$ であることがわかります。
-
-
-🔤 Original: Can LLMs identify 16 cards in 45 bit-queries?
-
-🔗 Read more: https://snwagh.com/blog/2026/open-problem/</description>
-      <guid isPermaLink="true">https://snwagh.com/blog/2026/open-problem/</guid>
-      <pubDate>Mon, 27 Jul 2026 14:36:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49070341</comments>
+      <title>アントロペウム</title>
+      <link>https://anthropeum.com/</link>
+      <guid isPermaLink="true">https://anthropeum.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:01:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084989</comments>
     </item>
     <item>
-      <title>Show HN: Vivari – Node、Bun、Python 用のオープンソース WebContainer</title>
-      <link>https://vivari.jamesisme.com</link>
-      <guid isPermaLink="true">https://vivari.jamesisme.com</guid>
-      <pubDate>Tue, 28 Jul 2026 12:04:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082562</comments>
-    </item>
-    <item>
-      <title>Show HN: Segue – コンテキストを 1 つの AI に保存し、短いハンドルで別の AI にロードします</title>
-      <link>https://segue.ai/</link>
-      <description>📝 コンテキストはツール間で引き継がれます。あなただけのプライベートハンドルはあなたのアカウント内でのみ解決されます。アカウントは無料枠に下がります。
-
-
-🔤 Original: Show HN: Segue – Save context in one AI, load it in another by a short handle
-
-🔗 Read more: https://segue.ai/</description>
-      <guid isPermaLink="true">https://segue.ai/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:27:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082779</comments>
+      <title>インターネットを殺すのをやめましょう: デジタル ID も年齢認証もありません</title>
+      <link>https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en</link>
+      <guid isPermaLink="true">https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en</guid>
+      <pubDate>Tue, 28 Jul 2026 14:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084938</comments>
     </item>
   </channel>
 </rss>

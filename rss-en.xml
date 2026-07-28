@@ -6,162 +6,146 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 14:06:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 16:42:38 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code</title>
-      <link>https://github.com/schildep/verified-3d-mesh-intersection</link>
-      <description>📝 Formally verified 3D mesh intersection - trust 93 lines of spec, not 1000+ lines of AI-written code To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins down the surface of the resulting mesh exactly and guarantees practical well-formedness conditions on the triangulation. From a mesh intersection algorithm, we expect that the set intersection of the solids of well-formed input meshes is the solid of the output mesh and that the output is a well-formed mesh again. See why an intersection algorithm that always produces manifold meshes is not possible.
+      <title>You Could Have Come Up with Kimi Delta Attention</title>
+      <link>https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</link>
+      <description>📝 Every attention weight is a scalar. \lvert o_t\rangle = \sum_{i\leq t} \langle k_i\rvert q_t\rangle \lvert v_i\rangle. \begin{aligned} \lvert o_t\rangle &amp;= \sum_{i\leq t} \lvert v_i\rangle \langle k_i\rvert q_t\rangle\\ &amp;= \left( \sum_{i\leq t} \lvert v_i\rangle\langle k_i\rvert \right) \lvert q_t\rangle.
 
-🔗 Read more: https://github.com/schildep/verified-3d-mesh-intersection</description>
-      <guid isPermaLink="true">https://github.com/schildep/verified-3d-mesh-intersection</guid>
-      <pubDate>Tue, 28 Jul 2026 13:07:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083239</comments>
+🔗 Read more: https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</description>
+      <guid isPermaLink="true">https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention</guid>
+      <pubDate>Tue, 28 Jul 2026 16:02:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085909</comments>
     </item>
     <item>
-      <title>New HIV vaccine shows unprecedented success in preclinical study</title>
-      <link>https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</link>
-      <guid isPermaLink="true">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:12:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083314</comments>
+      <title>Delayed Gratification – Proud to Be 'Last to Breaking News'</title>
+      <link>https://www.slow-journalism.com/</link>
+      <guid isPermaLink="true">https://www.slow-journalism.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:50:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085731</comments>
     </item>
     <item>
-      <title>Show HN: tale.fyi, we deserve a home for fiction</title>
-      <link>https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</link>
-      <description>📝 fyiThe short version: I built tale. It saves your progress, allows you to switch seamlessly between reading and listening, and share notes with your friends. I've also built a way to tell your own story: tale.
+      <title>How Do I Profile eBPF Code?</title>
+      <link>https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</link>
+      <description>📝 How Do I Profile eBPF Code. Our code used file open hooks in eBPF, we wanted to measure the performance overhead introduced by adding this hook. Next, run the eBPF code and execute something like this.
 
-🔗 Read more: https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</description>
-      <guid isPermaLink="true">https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link</guid>
-      <pubDate>Tue, 28 Jul 2026 13:16:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083389</comments>
+🔗 Read more: https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</description>
+      <guid isPermaLink="true">https://naveensrinivasan.com/posts/2026-07-22-how-do-i-profile-ebpf-code/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:55:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085811</comments>
     </item>
     <item>
-      <title>Kimi Linear: An Expressive, Efficient Attention Architecture</title>
-      <link>https://arxiv.org/abs/2510.26692</link>
+      <title>Harmony Explained: Progress Towards a Scientific Theory of Music (2012)</title>
+      <link>https://arxiv.org/abs/1202.4212</link>
       <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
 
-🔗 Read more: https://arxiv.org/abs/2510.26692</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.26692</guid>
-      <pubDate>Tue, 28 Jul 2026 10:52:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082022</comments>
+🔗 Read more: https://arxiv.org/abs/1202.4212</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/1202.4212</guid>
+      <pubDate>Tue, 28 Jul 2026 15:20:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085280</comments>
     </item>
     <item>
-      <title>DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It</title>
-      <link>https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</link>
-      <description>📝 The domains that do have a record are not much further along. 7% of domains with a record) actually enforce anything: p=reject, mail that fails authentication gets dropped. 4%) either have no DMARC record or have one that doesn't enforce a policy.
+      <title>Zig's Incremental Compilation Internals</title>
+      <link>https://mlugg.co.uk/posts/incremental-compilation-internals/</link>
+      <description>📝 This is because while Zig 0. Okay, so, we made this part fast. This includes both type checking and comptime evaluation.
 
-🔗 Read more: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</description>
-      <guid isPermaLink="true">https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026</guid>
-      <pubDate>Tue, 28 Jul 2026 10:20:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081783</comments>
+🔗 Read more: https://mlugg.co.uk/posts/incremental-compilation-internals/</description>
+      <guid isPermaLink="true">https://mlugg.co.uk/posts/incremental-compilation-internals/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:46:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085666</comments>
     </item>
     <item>
-      <title>Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)</title>
-      <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
-      <description>📝 JFrog’s role, and how we operate During a security evaluation, OpenAI’s models identified previously unknown zero-day vulnerabilities in self-hosted Artifactory installations that could be exploited to gain unintended internet access. OpenAI’s security team disclosed the vulnerabilities to us responsibly and immediately. A zero-day found, disclosed, patched, and shipped to every customer at top speed is the security flywheel the entire community benefits from, especially for the critical infrastructure that runs on this software.
+      <title>Show HN: XY – Fast, composable, GPU-accelerated charts, written in Rust</title>
+      <link>https://github.com/reflex-dev/xy</link>
+      <description>📝 Charts are composed declaratively or through matplotlib conventions. With small charts, every point is sent to the browser. Benchmarks Live interactive charts, 10k to 100M points.
 
-🔗 Read more: https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</description>
-      <guid isPermaLink="true">https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:02:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082550</comments>
+🔗 Read more: https://github.com/reflex-dev/xy</description>
+      <guid isPermaLink="true">https://github.com/reflex-dev/xy</guid>
+      <pubDate>Tue, 28 Jul 2026 15:54:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085798</comments>
     </item>
     <item>
-      <title>Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs</title>
-      <link>https://github.com/ctrlb-hq/ctrlb-decompose</link>
-      <description>📝 ctrlb-decompose Compress raw log lines into structural patterns with statistics, anomalies, and correlations. └──────┬───────┘ │ ▼ ┌──────────────┐ Merge CLP-decoded values with Drain3 wildcard │ Variable │ positions. log # Top 10 patterns with 3 example lines each ctrlb-decompose --top 1.
+      <title>Italy Blocks Reproductive Health Websites Women on Web and Women Help Women</title>
+      <link>https://ooni.org/post/2026-italy-blocks-wow-and-whw</link>
+      <description>📝 In this report, we share OONI data on the blocking of the Women on Web (WoW) and Women Help Women (WHW) websites in Italy. org) and Women Help Women (womenhelp. Specifically, key findings include:Concurrent DNS-based blocking of both Women on Web (WoW) and Women Help Women (WHW) across multiple ISPs.
 
-🔗 Read more: https://github.com/ctrlb-hq/ctrlb-decompose</description>
-      <guid isPermaLink="true">https://github.com/ctrlb-hq/ctrlb-decompose</guid>
-      <pubDate>Tue, 28 Jul 2026 13:13:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083336</comments>
+🔗 Read more: https://ooni.org/post/2026-italy-blocks-wow-and-whw</description>
+      <guid isPermaLink="true">https://ooni.org/post/2026-italy-blocks-wow-and-whw</guid>
+      <pubDate>Tue, 28 Jul 2026 14:05:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084091</comments>
     </item>
     <item>
-      <title>What AI developers could learn from Charles Bukowski?</title>
-      <link>https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</link>
-      <description>📝 Actually, he's sure of that. Charles knew that more output does not equal quality output. /…/ – an excerpt from "the trash can" by Charles Bukowski.
+      <title>Kimi K3 Architecture Overview and Notes</title>
+      <link>https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</link>
+      <description>📝 , MoE -&gt; LatentMoE, regular attention -&gt; multi-head latent attention and Kimi Delta Attention. (Again, this is inherited from Kimi Linear). Kimi K3 architecture and release-time benchmark comparisons.
 
-🔗 Read more: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</description>
-      <guid isPermaLink="true">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</guid>
-      <pubDate>Tue, 28 Jul 2026 13:00:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083132</comments>
+🔗 Read more: https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</description>
+      <guid isPermaLink="true">https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</guid>
+      <pubDate>Tue, 28 Jul 2026 15:48:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085698</comments>
     </item>
     <item>
-      <title>Mondragon Corporation – a federation of co-operatives</title>
-      <link>https://en.wikipedia.org/wiki/Mondragon_Corporation</link>
-      <description>📝 [2] By 2019, 81,507 people were employed. [4] Mondragon cooperatives operate in accordance with the Statement on the Co-operative Identity maintained by the International Co-operative Alliance. The first local group was created, Ularco.
+      <title>GrapheneOS Defends Data-Wiping Function That Blocked US Border Search</title>
+      <link>https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</link>
+      <description>📝 “GrapheneOS is completely legal. “Similarly, it's not possible to assist with bypassing encryption because the hardware and software has been designed to prevent it. ”The case arrives amid a years-long debate about privacy versus US investigatory powers, which has been a long flash point with Apple iPhones and end-to-end encryption.
 
-🔗 Read more: https://en.wikipedia.org/wiki/Mondragon_Corporation</description>
-      <guid isPermaLink="true">https://en.wikipedia.org/wiki/Mondragon_Corporation</guid>
-      <pubDate>Tue, 28 Jul 2026 12:19:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082695</comments>
+🔗 Read more: https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</description>
+      <guid isPermaLink="true">https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search</guid>
+      <pubDate>Tue, 28 Jul 2026 15:17:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085236</comments>
     </item>
     <item>
-      <title>Solving Fermat: Andrew Wiles</title>
-      <link>https://www.pbs.org/wgbh/nova/proof/wiles.html</link>
-      <description>📝 He claimed that there were none. AW: He did more than that. And to do that we need a proof.
+      <title>So, you want to make a game engine (2023)</title>
+      <link>https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</link>
+      <description>📝 Is SDL2 a game engine. Is OpenGL a game engine. Is stb_image a game engine.
 
-🔗 Read more: https://www.pbs.org/wgbh/nova/proof/wiles.html</description>
-      <guid isPermaLink="true">https://www.pbs.org/wgbh/nova/proof/wiles.html</guid>
-      <pubDate>Mon, 27 Jul 2026 20:42:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49075264</comments>
+🔗 Read more: https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</description>
+      <guid isPermaLink="true">https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html#part-3</guid>
+      <pubDate>Tue, 28 Jul 2026 15:36:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085509</comments>
     </item>
     <item>
-      <title>Many "serious" mathematicians are aghast</title>
-      <link>https://twitter.com/lemire/status/2082091243597697071</link>
-      <description>📝 You would hope that they would get a fair and fast review. I believe that this might soon change. That wouldbe exciting.
+      <title>VMs can't boot with Network Mode set to Bridged on Apple M5 Pro machines</title>
+      <link>https://github.com/utmapp/UTM/issues/7658</link>
+      <description>📝 There was an error while loading. Please reload this page. There was an error while loading.
 
-🔗 Read more: https://twitter.com/lemire/status/2082091243597697071</description>
-      <guid isPermaLink="true">https://twitter.com/lemire/status/2082091243597697071</guid>
-      <pubDate>Tue, 28 Jul 2026 13:13:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083330</comments>
+🔗 Read more: https://github.com/utmapp/UTM/issues/7658</description>
+      <guid isPermaLink="true">https://github.com/utmapp/UTM/issues/7658</guid>
+      <pubDate>Tue, 28 Jul 2026 13:33:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49083634</comments>
     </item>
     <item>
-      <title>Over 150k Flights: Airlines Just Flew the Busiest Day in Recorded History</title>
-      <link>https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</link>
-      <description>📝 On Thursday we tracked 153,359 commercial flights: the most we’ve ever tracked. " The Most-Tracked Flight On The Busiest Day Was An Obvious One Credit: Flightradar24 With well over 150,000 commercial flights being tracked on July 23, most will likely have drawn little attention from avgeeks on flight tracking sites. This figure represented its second-busiest day ever in terms of total flights tracked.
+      <title>Xenharmlib (music theory library) adds support for Just Intonation</title>
+      <link>https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</link>
+      <description>📝 short_repr})') 1 --&gt; 3/2 (3/2) 256/243 --&gt; 128/81 (3/2) 9/8 --&gt; 27/16 (3/2) 32/27 --&gt; 16/9 (3/2) 81/64 --&gt; 243/128 (3/2) 4/3 --&gt; 2 (3/2) 1024/729 --&gt; 512/243 (3/2) 3/2 --&gt; 9/4 (3/2) 128/81 --&gt; 64/27 (3/2) 27/16 --&gt; 81/32 (3/2) 16/9 --&gt; 8/3 (3/2) 243/128 --&gt; 2048/729 (262144/177147) As you can see with the last pitch of the output (\(\frac{243}{128}\)), transposition by scale degree in a Pythagorean chromatic scale does not always result in an actual transposition of the interval in question. transpose(P5) interval = pitch. short_repr}) - degree: {scale_degree}') 1 --&gt; 3/2 (3/2) - degree: 7 256/243 --&gt; 128/81 (3/2) - degree: 8 9/8 --&gt; 27/16 (3/2) - degree: 9 32/27 --&gt; 16/9 (3/2) - degree: 10 81/64 --&gt; 243/128 (3/2) - degree: 11 4/3 --&gt; 2 (3/2) - degree: 12 1024/729 --&gt; 512/243 (3/2) - degree: 13 3/2 --&gt; 9/4 (.
 
-🔗 Read more: https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</description>
-      <guid isPermaLink="true">https://simpleflying.com/over-150000-flights-airlines-busiest-day-recorded-history/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:15:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49083364</comments>
+🔗 Read more: https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</description>
+      <guid isPermaLink="true">https://xenharmlib.readthedocs.io/en/latest/whats_new_0_4_0.html</guid>
+      <pubDate>Tue, 28 Jul 2026 16:10:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49086059</comments>
     </item>
     <item>
-      <title>Usenet Archive Toolkit – process Usenet messages into a searchable archive</title>
-      <link>https://github.com/wolfpld/usenetarchive</link>
-      <description>📝 Polish usenet message count from 2016. NNTP archive server) with messages from source B (eg. Other usenet archives are littered with spam messages.
-
-🔗 Read more: https://github.com/wolfpld/usenetarchive</description>
-      <guid isPermaLink="true">https://github.com/wolfpld/usenetarchive</guid>
-      <pubDate>Tue, 28 Jul 2026 10:30:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49081862</comments>
+      <title>Show HN: Flashpaper – Self-destructing secret sharing with no database</title>
+      <link>https://flashpaper.app/</link>
+      <guid isPermaLink="true">https://flashpaper.app/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:36:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49085503</comments>
     </item>
     <item>
-      <title>Can LLMs identify 16 cards in 45 bit-queries?</title>
-      <link>https://snwagh.com/blog/2026/open-problem/</link>
-      <description>📝 This post tells the story of that process. (♥♦) Is this card a King. We know that $45 \leq D(16) \leq 64$.
-
-🔗 Read more: https://snwagh.com/blog/2026/open-problem/</description>
-      <guid isPermaLink="true">https://snwagh.com/blog/2026/open-problem/</guid>
-      <pubDate>Mon, 27 Jul 2026 14:36:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49070341</comments>
+      <title>Anthropeum</title>
+      <link>https://anthropeum.com/</link>
+      <guid isPermaLink="true">https://anthropeum.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 15:01:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084989</comments>
     </item>
     <item>
-      <title>Show HN: Vivari – Open-Source WebContainer for Node, Bun, and Python</title>
-      <link>https://vivari.jamesisme.com</link>
-      <guid isPermaLink="true">https://vivari.jamesisme.com</guid>
-      <pubDate>Tue, 28 Jul 2026 12:04:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082562</comments>
-    </item>
-    <item>
-      <title>Show HN: Segue – Save context in one AI, load it in another by a short handle</title>
-      <link>https://segue.ai/</link>
-      <description>📝 Your context, carried across tools. Private Yours alone A handle resolves only inside your account. Your account drops to the free tier.
-
-🔗 Read more: https://segue.ai/</description>
-      <guid isPermaLink="true">https://segue.ai/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:27:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49082779</comments>
+      <title>Stop Killing the Internet: No Digital ID and No Age Verification</title>
+      <link>https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en</link>
+      <guid isPermaLink="true">https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en</guid>
+      <pubDate>Tue, 28 Jul 2026 14:58:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49084938</comments>
     </item>
   </channel>
 </rss>
