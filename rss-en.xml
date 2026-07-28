@@ -6,128 +6,108 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 02:29:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 05:47:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Our position on open-weights models</title>
-      <link>https://www.anthropic.com/news/position-open-weights-models</link>
-      <description>📝 Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies. Distillation is a much more compute-efficient process than training models from scratch. We should have policy interventions to deter this behavior.
+      <title>Using an open model feels surprisingly good</title>
+      <link>https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/</link>
+      <description>📝 I've never been a huge "open software" nerd or anything like that. it felt surprisingly good. It feels like it's mine.
 
-🔗 Read more: https://www.anthropic.com/news/position-open-weights-models</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/position-open-weights-models</guid>
-      <pubDate>Mon, 27 Jul 2026 22:03:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076057</comments>
+🔗 Read more: https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/</description>
+      <guid isPermaLink="true">https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/</guid>
+      <pubDate>Tue, 28 Jul 2026 02:37:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49078583</comments>
     </item>
     <item>
-      <title>Benchmarking Opus 5 on SlopCodeBench</title>
-      <link>https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md</link>
-      <description>📝 benching opus 5 on slopcodebench On Friday I ran three claude models (Opus 4. The big headline is that Opus 5 got a 24% on the small subset of the benchmark that I ran - not much higher than Opus 4. Model writes code for ck1 Eval harness runs black-box tests against ck1 Model writes code for ck2 Eval runs black-box tests for ck1 and ck2 etc Again, the strict pass criteria means that if a model bungles something in checkpoint 4, it can't pass the following checkpoints because that failing part of the code carries forward (unless the model indavertently fixes an eval case in checkpoint 6 that was broken in checkpoint 4, but we didn't see this happen in practice).
+      <title>A $500 RL fine-tune of a 9B open model beat frontier models on catalog review</title>
+      <link>https://fermisense.com/when-machines-take-the-wheel/</link>
+      <description>📝 50 per 1,000 listings: 40× cheaper than the least expensive frontier setup and ~340× cheaper than the most expensive. Part I Everyone asked the same question Since ChatGPT launched in 2022, business leaders have been asking the same question: what can AI do for us. The rest of this article is about what the AI-heavy group actually did.
 
-🔗 Read more: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md</description>
-      <guid isPermaLink="true">https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md</guid>
-      <pubDate>Mon, 27 Jul 2026 22:37:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076391</comments>
+🔗 Read more: https://fermisense.com/when-machines-take-the-wheel/</description>
+      <guid isPermaLink="true">https://fermisense.com/when-machines-take-the-wheel/</guid>
+      <pubDate>Tue, 28 Jul 2026 02:18:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49078454</comments>
     </item>
     <item>
-      <title>Astronauts describe persistent 'observer' sensation after 6 month missions</title>
-      <link>https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/</link>
-      <description>📝 But flight surgeons and crew psychologists who debrief astronauts after six-month rotations describe it often enough that it has become a recognizable readjustment pattern — an observer sensation that lingers for weeks, sometimes months, after splashdown. Returning astronauts describe walking into their own homes and feeling like they are visiting them. That extra processing load can feel like watching yourself perform basic tasks.
+      <title>Why do we think we understand the world more than we actually do?</title>
+      <link>https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth</link>
+      <description>📝 The illusion of explanatory depth (IOED) describes our belief that we understand more about the world than we actually do. That is, it’s only when we explain something that the gaps in our knowledge become apparent to us. The illusion of the explanatory gap is something that we’re subject to from an early age, with studies showing that children as young as kindergarten overestimate their explanatory knowledge.
 
-🔗 Read more: https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/</description>
-      <guid isPermaLink="true">https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/</guid>
-      <pubDate>Mon, 27 Jul 2026 23:19:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076900</comments>
+🔗 Read more: https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth</description>
+      <guid isPermaLink="true">https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth</guid>
+      <pubDate>Tue, 28 Jul 2026 04:00:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49079175</comments>
     </item>
     <item>
-      <title>DConf 2026 in London</title>
-      <link>https://dconf.org/2026/index.html</link>
-      <description>📝 September 2 – 4, 2026 Symmetry Investments and the D Language Foundation want you to join us in London September 2 – 4 for the 2026 edition of the D Programming Language Conference. Find the links right here a week before kick off. Since 2013, DConf has been the primary annual event bringing together D programming language enthusiasts and experts from across the globe for the rare opportunity to mingle offline in the real world.
+      <title>Neutrino-1 8B</title>
+      <link>https://www.fermionresearch.com/models/neutrino-8b/</link>
+      <description>📝 Introducing the Neutrino-1 modelsAnnouncement·July 27, 2026Introducing the Neutrino-1 modelsThree models in a proprietary ternary-family format, served by one engine from one artifact on datacenter GPUs, Apple silicon, and desktop CPUs.
 
-🔗 Read more: https://dconf.org/2026/index.html</description>
-      <guid isPermaLink="true">https://dconf.org/2026/index.html</guid>
-      <pubDate>Mon, 27 Jul 2026 23:14:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076840</comments>
+🔗 Read more: https://www.fermionresearch.com/models/neutrino-8b/</description>
+      <guid isPermaLink="true">https://www.fermionresearch.com/models/neutrino-8b/</guid>
+      <pubDate>Tue, 28 Jul 2026 04:49:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49079490</comments>
     </item>
     <item>
-      <title>C/C++ projects packaged for Zig</title>
-      <link>https://github.com/allyourcodebase</link>
-      <description>📝 How does a C/C++ project packaged for the Zig build system by you look like. zon) and define the corresponding build. Fork the upstream project (optionally remove other -- now useless :^) -- build scripts), add Zig build scripts to it and apply any necessary patch to the original project.
+      <title>EYG: A Programming Language for Humans</title>
+      <link>https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/</link>
+      <description>📝 A programming language for humans. This is the software environment they work in. Clearly they are real programmers.
 
-🔗 Read more: https://github.com/allyourcodebase</description>
-      <guid isPermaLink="true">https://github.com/allyourcodebase</guid>
-      <pubDate>Mon, 27 Jul 2026 23:09:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076791</comments>
+🔗 Read more: https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/</description>
+      <guid isPermaLink="true">https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/</guid>
+      <pubDate>Tue, 28 Jul 2026 02:21:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49078463</comments>
     </item>
     <item>
-      <title>The Burau representation of the braid group is faithful for n = 4</title>
-      <link>https://arxiv.org/abs/2607.05283</link>
-      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
+      <title>Residential Proxies Are a National Security Threat</title>
+      <link>https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/</link>
+      <description>📝 Residential Proxies Are a National Security Threat Jul 22, 2026 US residential proxies are the bane of the internet. This is why bad actors love US residential proxies, their abuse comes from the same addresses as genuine users. ISPs should warn their customers At the very least, major American ISPs (Comcast, AT&amp;T) should detect clearly suspicious activity coming from customer IPs and warn them to scan their computers, check their TV apps, and find whatever is turning their internet into a proxy.
 
-🔗 Read more: https://arxiv.org/abs/2607.05283</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.05283</guid>
-      <pubDate>Mon, 27 Jul 2026 23:46:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49077209</comments>
+🔗 Read more: https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/</description>
+      <guid isPermaLink="true">https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/</guid>
+      <pubDate>Tue, 28 Jul 2026 01:51:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49078266</comments>
     </item>
     <item>
-      <title>Kimi K3 Now Available via Telnyx Inference API</title>
-      <link>https://telnyx.com/release-notes/kimi-k3-telnyx-inference</link>
-      <description>📝 8T parameters: The largest open-weight model available on Telnyx Inference. First open-source model to reach the 3-trillion-parameter class. Kimi K3 is the first open-source model to reach 2.
+      <title>The age of token efficiency, the age of libraries</title>
+      <link>https://golemui.com/blog/the-age-of-token-efficiency/</link>
+      <description>📝 Trust % in the code generated. Now, when I have to update our website, I care mostly about the WHAT. The trust problem lives in that second bucket.
 
-🔗 Read more: https://telnyx.com/release-notes/kimi-k3-telnyx-inference</description>
-      <guid isPermaLink="true">https://telnyx.com/release-notes/kimi-k3-telnyx-inference</guid>
-      <pubDate>Mon, 27 Jul 2026 22:46:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076505</comments>
+🔗 Read more: https://golemui.com/blog/the-age-of-token-efficiency/</description>
+      <guid isPermaLink="true">https://golemui.com/blog/the-age-of-token-efficiency/</guid>
+      <pubDate>Tue, 28 Jul 2026 03:56:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49079146</comments>
     </item>
     <item>
-      <title>A missing underscore sent innocent man to prison for 18 months</title>
-      <link>https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/</link>
-      <description>📝 Even after release, Klayme continued to fight his conviction. Nothing linked Klayme to the girl. They agreed that Klayme’s appeal should be allowed.
+      <title>Vehicle Motion Cues</title>
+      <link>https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios</link>
+      <description>📝 iOS 26 iOS 18 Select version: iOS 26 iOS 18 Modifying this control will update this page automatically Search this guide Clear Search Table of Contents iPhone User Guide Welcome Introducing iPhone iPhone models iPhone models compatible with iOS 26 iPhone 11 iPhone 11 Pro iPhone 11 Pro Max iPhone SE (2nd generation) iPhone 12 mini iPhone 12 iPhone 12 Pro iPhone 12 Pro Max iPhone 13 mini iPhone 13 iPhone 13 Pro iPhone 13 Pro Max iPhone SE (3rd generation) iPhone 14 iPhone 14 Plus iPhone 14 Pro iPhone 14 Pro Max iPhone 15 iPhone 15 Plus iPhone 15 Pro iPhone 15 Pro Max iPhone 16 iPhone 16 Plus iPhone 16 Pro iPhone 16 Pro Max iPhone 16e iPhone 17 iPhone 17 Pro iPhone 17 Pro Max iPhone Air iPhone 17e Setup basics Make your iPhone your own Take great photos and videos Keep in touch with friends and family Share features with your family Use iPhone for your daily routines Expert advice from Apple Support What’s new in iOS 26 Set up and get started Turn on and set up iPhone Wake, unlock, and lock Set up cellular service View or change cellular data settings Use Dual SIM Connect to the internet Apple Account and iCloud Sign in and manage your Apple Account Use iCloud Subscribe to iCloud+ Find settings Set up mail, contacts, and calendar accounts Learn the meaning of iPhone status icons Charge and monitor the battery Charge the battery Show the battery percentage Charge with cleaner energy sources Optimize battery charging Set a charge limit Understand Thermally Limited Charging Save battery life with Power Modes on iPhone Understand your iPhone battery usage and health Basics Learn gestures for iPhone Learn basic gestures Learn gestures for iPhone models with Face ID Adjust the volume Turn the iPhone flashlight on or off Silence iPhone Use your apps Open apps Find and use your apps in App Library Switch between open apps Quit and reopen an app Multitask with Picture in Picture Access features from the Lock Screen View Live Activities in the Dynamic Island Perform quick actions Search on iPhone Get information about your iPhone Manage storage on iPhone Travel with iPhone Personalize your iPhone Change sounds and vibrations Use and customize the Action button Create a custom Lock Screen Customize your Home Screen Add an app Add, edit, and remove widgets Move apps and widgets on the Home Screen Customize apps and widgets on the Home Screen Lock or hide or an app Organize your apps in folders Remove or delete apps Change the wallpaper Use and customize Control Center Record audio and video Adjust the screen brightness and color balance Keep the iPhone display on longer Use StandBy Adjust iPhone display and text settings Change the name of your iPhone Change the date and time Change the language and region Change the default apps Change your default search engine Rotate your iPhone screen Set up Focus, notifications, and Do Not Disturb View and respond to notifications Change notification settings Set up a Focus Allow or silence notifications for a Focus Turn a Focus on or off Stay focused while driving Customize sharing options Work with text and graphics Enter, select, and revise text Type with the onscreen keyboard Dictate text Commands for dictating text Select and edit text Use predictive text Use text replacements Add or change keyboards Add emoji, Memoji, and stickers Capture and record the iPhone screen Take a screenshot Take a screen recording Change the screen capture settings Use Markup tools Write and draw in documents Add text, shapes, stickers, and more Fill out forms, sign documents, and create signatures Interact with content in a photo or video Identify objects in your photos and videos Lift a subject from the photo background Camera Take photos Camera basics Set up your shot Use Photographic Styles Take Live Photos Take Burst mode shots Take a selfie Take panoramic photos Take macro photos and videos Take portraits Take Night mode photos Take Apple ProRAW photos Use the Camera Control Use the Camera Control to open another app Adjust the shutter volume Adjust HDR camera settings Record a video Take spatial photos and record spatial videos for Apple Vision Pro Change sound recording options Record ProRes video Record video in Cinematic mode Change video recording settings Save camera settings Customize the Main camera lens Change advanced camera settings View, share, and print photos Use Live Text Scan a QR code Apps App Store Get apps Use App Clips Update apps Install and manage fonts Share and send apps See your purchases and subscriptions Change settings and restrictions Books Buy books and audiobooks Read books Annotate books Access books on other Apple devices Listen to audiobooks Set reading goals Organize books Read PDFs Calculator Get started with Calculator Use the basic calculator Use the scientific calculator Solve math with Math Notes Work with graphs in Math Notes Convert units or currency See previous calculations Calendar Create and edit events in Calendar Send invitations Reply to invitati.
 
-🔗 Read more: https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/</description>
-      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/</guid>
-      <pubDate>Mon, 27 Jul 2026 22:10:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076116</comments>
+🔗 Read more: https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios</description>
+      <guid isPermaLink="true">https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios</guid>
+      <pubDate>Tue, 28 Jul 2026 01:13:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49077999</comments>
     </item>
     <item>
-      <title>Show HN: Yap – OSS on-device voice dictation for macOS with no model to download</title>
-      <link>https://github.com/FrigadeHQ/yap</link>
-      <description>📝 Your words land in whatever text field you were using. dmg from Releases and drag Yap into your Applications folder. Some are closed source, so you are trusting that your audio and transcripts stay on your machine, with no way to check.
+      <title>PyTorch: A Reference Language</title>
+      <link>https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/</link>
+      <description>📝 PyTorch: a reference languageEdward Z. Everyone’s writing kernels with kernel DSLs. Keep the traditional PyTorch autograd-friendly code as the reference implementation.
 
-🔗 Read more: https://github.com/FrigadeHQ/yap</description>
-      <guid isPermaLink="true">https://github.com/FrigadeHQ/yap</guid>
-      <pubDate>Mon, 27 Jul 2026 18:36:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49073834</comments>
+🔗 Read more: https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/</description>
+      <guid isPermaLink="true">https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/</guid>
+      <pubDate>Tue, 28 Jul 2026 04:46:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49079454</comments>
     </item>
     <item>
-      <title>Hard Road – A beautiful procedural post-apocalyptic game</title>
-      <link>https://hardroad.xyz/</link>
-      <description>📝 Hard Road 📯 H — honk to visit 0 km/h HANDBRAKE 06:00 Drive on HARD ROAD Continue New Game Controls W A S D / Arrows — drive &amp; steer Space — handbrake H — horn (visit landmarks) L — lights F — flip upright R — respawn C — free camera ESC — menu Back HARD ROAD Booting physics &amp; world….
+      <title>An Uncomplicated Man</title>
+      <link>https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man</link>
+      <description>📝 Unlike some of Nolan’s other films, The Odyssey is not boring, thanks to the source material, which is impossible to mess up entirely. If only the human characters had been treated with such serious attention. Some seventh-century BCE Greek communities were ruled by an oligarchy, some by a single man.
 
-🔗 Read more: https://hardroad.xyz/</description>
-      <guid isPermaLink="true">https://hardroad.xyz/</guid>
-      <pubDate>Mon, 27 Jul 2026 22:36:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076382</comments>
-    </item>
-    <item>
-      <title>Show HN: Trylle – The Next-Gen Git Platform for Modern Teams</title>
-      <link>https://trylle.com/home</link>
-      <description>📝 Stack dependent pulls. Ship with GitHub-compatible CI and automation that fires on repository events. contrib/completion/_nimbus.
-
-🔗 Read more: https://trylle.com/home</description>
-      <guid isPermaLink="true">https://trylle.com/home</guid>
-      <pubDate>Mon, 27 Jul 2026 23:26:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49076978</comments>
-    </item>
-    <item>
-      <title>Internet is no longer accessible?</title>
-      <link>https://news.ycombinator.com/item?id=49078318</link>
-      <description>📝 - Every website is asking for 2FA, and I get logged out every time. - Website blocks copy paste, so you have to manually type everything. - Banking application will force you to update even if it isn't security related.
-
-🔗 Read more: https://news.ycombinator.com/item?id=49078318</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49078318</guid>
-      <pubDate>Tue, 28 Jul 2026 01:59:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49078318</comments>
+🔗 Read more: https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man</description>
+      <guid isPermaLink="true">https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man</guid>
+      <pubDate>Tue, 28 Jul 2026 02:35:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49078575</comments>
     </item>
   </channel>
 </rss>
