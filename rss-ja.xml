@@ -6,132 +6,151 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jul 2026 22:06:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 02:33:30 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>OpenAI が Codex Security をオープンソース化したばかり</title>
-      <link>https://github.com/openai/codex-security</link>
-      <description>📝 インストールとスキャン npm install @openai/codex-security npx codex-security login npx codex-security scan /path/to/repo すべてのコマンドを表示するには npx codex-security --help を実行し、スキャン オプションについては npx codex-security scan --help を実行します。 pdf npx codex-security scan /path/to/repo --difforigin/main --json npx codex-security scan /path/to/repo --output-dir /path/outside/repo/results npx codex-security scan /path/to/repo --output-dir /path/outside/repo/results --archive-existing npx codex-security scan /path/to/repo --dry-run npx codex-security scan /path/to/repo --fail-on-severity high npx codex-security install-hook npx codex-securityBulk-scan npx codex-securityBulk-scan リポジトリ。 json npx codex-security validate /path/outside/repo/findings.
+      <title>HN の表示: HN リンクごとに 2 つのタブを開くのにうんざりしたので、ユーザースクリプトを作成しました</title>
+      <link>https://github.com/twalichiewicz/HNewhere</link>
+      <description>📝 HNewhere 任意の記事に Hacker News ディスカッションを追加する軽量のユーザー スクリプト。機能 記事の横に HN ディスカッションを開きます 一致するハッカー ニュース ストーリーを自動的に検出します ハッカー ニュースから開かれたリンクを追跡します サイズ変更可能なサイドバー 折りたたみ可能なコメント サイドバーの幅を維持します 返信リンクは HN に直接開きます インストール ユーザースクリプト マネージャーをインストールします。 ユーザースクリプト (Safari) Tampermonkey Violentmonkey HNewhere をインストールまたは貼り付けます。 js ハッカー ニュースのディスカッションのある記事にアクセスしてください。
 
 
-🔤 Original: OpenAI just open-sourced Codex Security
+🔤 Original: Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript
 
-🔗 Read more: https://github.com/openai/codex-security</description>
-      <guid isPermaLink="true">https://github.com/openai/codex-security</guid>
-      <pubDate>Tue, 28 Jul 2026 20:52:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49089755</comments>
+🔗 Read more: https://github.com/twalichiewicz/HNewhere</description>
+      <guid isPermaLink="true">https://github.com/twalichiewicz/HNewhere</guid>
+      <pubDate>Tue, 28 Jul 2026 22:09:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49090607</comments>
     </item>
     <item>
-      <title>Half-Life が Mac OS 9 に移植</title>
-      <link>https://mac-classic.com/news/half-life-ported-to-mac-os-9/</link>
-      <description>📝 Mac クラシック ニュース ホーム ニュース記事 スポットライト ダウンロード リンク 一般ニュース Web サイトの更新 Half-Life が Mac OS 9 に移植される Half-Life は、オリジナルのリリースから 28 年を経て、ついに PowerPC ベースの Macintosh コンピュータに登場しました。このリリースでは、Mac OS 9 を実行する G3 および G4 PowerPC ベースのコンピュータがサポートされています。Sloop を使用して独自の Web サイトを構築します。
+      <title>LearnVector – 1 対 1 の学習体験を構築する Andrew Ng の AI 会社</title>
+      <link>https://learnvector.ai/</link>
+      <description>📝 学習体験は依然として 1 対多です。学習を 1 対多から 1 対 1 に変えます。研究によると、ガードレールのないチャットボットは学習に悪影響を及ぼします。
 
 
-🔤 Original: Half-Life ported to Mac OS 9
+🔤 Original: LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences
 
-🔗 Read more: https://mac-classic.com/news/half-life-ported-to-mac-os-9/</description>
-      <guid isPermaLink="true">https://mac-classic.com/news/half-life-ported-to-mac-os-9/</guid>
-      <pubDate>Tue, 28 Jul 2026 20:58:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49089814</comments>
+🔗 Read more: https://learnvector.ai/</description>
+      <guid isPermaLink="true">https://learnvector.ai/</guid>
+      <pubDate>Wed, 29 Jul 2026 01:49:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49092499</comments>
     </item>
     <item>
-      <title>M1 Mac で Kim K3 を実行する</title>
-      <link>https://github.com/gavamedia/deltafin</link>
-      <description>📝 /venv/bin/python tools/setup_k3. /venv/bin/python tools/fetch_experts_all。 /venv/bin/python tools/fetch_experts_all。
+      <title>Hubble: あなたとあなたのエージェントのためのオープンソースのメモ作成アプリ</title>
+      <link>https://www.hubble.md/</link>
+      <description>📝 GitHub の砂漠-星で★ Star をダウンロードします。 md リンクをコピー ファイル パスの名前を変更 コピーしたパス ✓ 砂漠の星メモタグ場所京都庭園旅行京都砂漠の星アウトドアジョシュア ツリー東京ラーメン旅行東京砂丘本リスボンサワー種料理ホーム潮だまりアウトドアビッグサー冷製ビールビッグサー砂漠の星オリオン潮汐表東京ラーメンリスボンの路面電車トレイルノート砂丘夜空フィールドガイドシーグラスキャンプレシピサワー種星図古い手紙潮だまり地図スケッチガーデンログティーブレンド京都庭園海岸線注ぐ海霧ジョシュア ツリー 東京 リスボン ホーム ビッグサー 京都 &gt; ● 次回のアイデアを 3 件追加しました。 &gt; ● 使い慣れた感覚 エージェントの準備完了 任意のビューを構築します。
 
 
-🔤 Original: Running Kimi K3 on a M1 Mac
+🔤 Original: Hubble: Open-source notetaking app for you and your agents
 
-🔗 Read more: https://github.com/gavamedia/deltafin</description>
-      <guid isPermaLink="true">https://github.com/gavamedia/deltafin</guid>
-      <pubDate>Tue, 28 Jul 2026 21:35:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49090233</comments>
+🔗 Read more: https://www.hubble.md/</description>
+      <guid isPermaLink="true">https://www.hubble.md/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:11:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49091730</comments>
     </item>
     <item>
-      <title>iPhoneアップグレードプログラムはAppleアップグレードに置き換えられます</title>
-      <link>https://www.apple.com/shop/iphone/iphone-upgrade-program</link>
-      <description>📝 iPhone アップグレード プログラム 別れを次の挨拶につなげましょう。現時点では、残りの月々のお支払いを継続していただけます。そして、次の iPhone を購入するときが来たら、きっと気に入っていただけるまったく新しい支払いオプションなど、お客様に合った方法で簡単に購入できるようにいたします。
+      <title>ReFrame – EPaper カメラ</title>
+      <link>https://reframe.camera/</link>
+      <description>📝 reFrame は、カラー電子ペーパー ディスプレイを備えた実験的なカメラです。電子ペーパーでは、電源を切っても画面上の写真が残ります。電子ペーパーでは、電源を切っても画面上の写真が残ります。
 
 
-🔤 Original: The iPhone Upgrade Program is being replaced by Apple Upgrade
+🔤 Original: ReFrame – The EPaper Camera
 
-🔗 Read more: https://www.apple.com/shop/iphone/iphone-upgrade-program</description>
-      <guid isPermaLink="true">https://www.apple.com/shop/iphone/iphone-upgrade-program</guid>
-      <pubDate>Tue, 28 Jul 2026 17:37:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49087306</comments>
+🔗 Read more: https://reframe.camera/</description>
+      <guid isPermaLink="true">https://reframe.camera/</guid>
+      <pubDate>Tue, 28 Jul 2026 23:27:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49091379</comments>
     </item>
     <item>
-      <title>Anthropic が HAWK-256 に対する実用的なキー回復攻撃を公開</title>
-      <link>https://github.com/anthropics/cryptography-research-demo</link>
-      <description>📝 メンテナンスされておらず、寄付も受け付けていません。関連論文に付属する暗号解析コード。 3 つの独立したコンポーネント: AES/HAWK/LEA/Apache 2 に基づいてライセンスされています。
+      <title>Prometheus と Grafana を使用しない軽量 Spring Boot モニタリング</title>
+      <link>https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html</link>
+      <description>📝 Spring Boot Actuator はすでにその情報の多くを公開しています。 Spring Boot Admin は、より広範なアプリケーション管理機能を追加します。 git cd statlite go build -o statlite。
 
 
-🔤 Original: Anthropic publishes a practical key-recovery attack on HAWK-256
+🔤 Original: Lightweight Spring Boot Monitoring Without Prometheus and Grafana
 
-🔗 Read more: https://github.com/anthropics/cryptography-research-demo</description>
-      <guid isPermaLink="true">https://github.com/anthropics/cryptography-research-demo</guid>
-      <pubDate>Tue, 28 Jul 2026 21:22:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49090083</comments>
+🔗 Read more: https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html</description>
+      <guid isPermaLink="true">https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html</guid>
+      <pubDate>Wed, 29 Jul 2026 00:32:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49091895</comments>
     </item>
     <item>
-      <title>ボリス・チェルニー氏のインタビュー [ビデオ]</title>
-      <link>https://www.youtube.com/watch?v=qyPCVqFUyDo</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=qyPCVqFUyDo</guid>
-      <pubDate>Mon, 27 Jul 2026 23:33:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49077040</comments>
+      <title>ボタンとリンクの違い</title>
+      <link>https://unplannedobsolescence.com/blog/buttons-vs-links/</link>
+      <description>📝 機能的には、これは、リンクを使用するとユーザーがどのコンテキストで開くかを制御できるが、ボタンは制御できないことを意味します。 Web ユーザーはリンクに付随する機能に精通しています。ボタンにはこれらの機能はありません。
+
+
+🔤 Original: The Difference Between a Button and a Link
+
+🔗 Read more: https://unplannedobsolescence.com/blog/buttons-vs-links/</description>
+      <guid isPermaLink="true">https://unplannedobsolescence.com/blog/buttons-vs-links/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:12:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49091738</comments>
     </item>
     <item>
-      <title>再帰はあなたに嘘をついています</title>
-      <link>https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/</link>
-      <description>📝 基本ケースと健全なロジックが正しい場合でも、各再帰呼び出しは依然としてスタック領域を消費します。ある程度の深さになると、スタック オーバーフローでクラッシュします。末尾再帰構造が正しくても、多くの JavaScript ランタイムは呼び出しごとに新しいスタック フレームを割り当て、深い深さでスローします。
+      <title>Wayland での複数のマウス カーソル</title>
+      <link>https://blinry.org/multi-seat-wayland/</link>
+      <description>📝 ）なぜこれが欲しいのですか？しかし、これはこの投稿の内容ではありません。そして、Wayland には複数のシートに対する優れたサポートが組み込まれていることがわかりました。
 
 
-🔤 Original: Recursion is lying to you
+🔤 Original: Multiple Mouse Cursors in Wayland
 
-🔗 Read more: https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/</description>
-      <guid isPermaLink="true">https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/</guid>
-      <pubDate>Tue, 28 Jul 2026 20:20:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49089406</comments>
+🔗 Read more: https://blinry.org/multi-seat-wayland/</description>
+      <guid isPermaLink="true">https://blinry.org/multi-seat-wayland/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:59:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49092112</comments>
     </item>
     <item>
-      <title>Hulios: eBPF を搭載した Linux 用の透過的な Tor ゲートウェイ</title>
-      <link>https://github.com/ghaziwali/Hulios</link>
-      <description>📝 Hulios 強化されたユニバーサル Linux の非表示およびオニオン システム Hulios は、eBPF を搭載した Linux 用の透過的な Tor VPN ゲートウェイです。 /target/release/hulios start --help # Hulios をフォアグラウンド TUI モードで起動します sudo。 /target/release/hulios Recovery # Hulios を停止し、標準のインターネット ルーティング sudo を復元します。
+      <title>フロンティアを歩む</title>
+      <link>https://www.pacingthefrontier.com/</link>
+      <description>📝 フロンティア ラボは AI に非常に近く、知能のほぼすべての指標において最高の人材さえも上回ることができます。これは前例のない社会的および安全上のリスクにつながります。フロンティア ラボは AI に非常に近く、知能のほぼすべての指標において最高の人材さえも上回ることができます。
 
 
-🔤 Original: Hulios: An eBPF-powered, transparent Tor gateway for Linux
+🔤 Original: Pacing the frontier
 
-🔗 Read more: https://github.com/ghaziwali/Hulios</description>
-      <guid isPermaLink="true">https://github.com/ghaziwali/Hulios</guid>
-      <pubDate>Tue, 28 Jul 2026 19:54:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49089045</comments>
+🔗 Read more: https://www.pacingthefrontier.com/</description>
+      <guid isPermaLink="true">https://www.pacingthefrontier.com/</guid>
+      <pubDate>Tue, 28 Jul 2026 20:09:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49089240</comments>
     </item>
     <item>
-      <title>Una GPS スマート ウォッチ – 修理可能、USB-C 充電、開発者に優しい</title>
-      <link>https://unawatch.com/</link>
-      <description>📝 一生使えるGPSウォッチ。修理可能 • アップグレード可能 • 持続可能 今すぐ注文 今すぐ注文 6 軸加速度計 デュアル周波数 GPS 常時オン HR モニタリング USB-C 充電 完全モジュール式 10 日間のバッテリー寿命 オープン SDK 気圧高度計 6 軸加速度計 デュアル周波数 GPS 常時オン HR モニタリング USB-C 充電 完全モジュール式 10 日間のバッテリー寿命 オープン SDK 気圧高度計高度計 UNA が存在する理由 一部の部品が故障しても、時計全体が故障することはありません。同時に時計にフィルターなしでアクセスできます。
+      <title>業界概要: 製造および産業現場向けのプライベート 5G [pdf]</title>
+      <link>https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf</link>
+      <description>📝 M��9D� �9 �(� dk v� F C4�A(� ## e�, ` H48� endstream endobj 90 0 obj &lt;&gt;stream hשּׁ��j��0 �W�czX�f$ B`IHRh�e�P�I�`0�����y� � �:,#�x�� � �`&lt;�R�v Hn+) �I~@,� ; D`� �=� �R x��&lt;�(� TF +������ =�9�Q� 4Ƃ4Ec� ɋ� 2�}' qBY ���q �t���%&amp;��}�Mk�g}x� �oS�。 m��V[���[}ak�����#�ϩ�g� �C��6 s エンドストリーム endobj 92 0 obj &lt;&gt;stream h�0V0P�0R03P���wJ,Nu�+яJ,Hs�KOJ,)�K�M�$� �&amp;�T� C0� Rng��#5�,�$39Q�5/9. �A i� �/� endstream endobj 2 0 obj &lt;&gt;stream q 595。
 
 
-🔤 Original: Una GPS smart watch – Repairable, USB-C charging, developer-friendly
+🔤 Original: Industry Brief: Private 5G for Manufacturing and Industrial Sites [pdf]
 
-🔗 Read more: https://unawatch.com/</description>
-      <guid isPermaLink="true">https://unawatch.com/</guid>
-      <pubDate>Tue, 28 Jul 2026 14:48:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49084813</comments>
+🔗 Read more: https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf</description>
+      <guid isPermaLink="true">https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf</guid>
+      <pubDate>Wed, 29 Jul 2026 00:44:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49091994</comments>
     </item>
     <item>
-      <title>紫外線0.12.0</title>
-      <link>https://github.com/astral-sh/uv/releases/tag/0.12.0</link>
-      <description>📝 このページをリロードしてください。このページをリロードしてください。ビルドシステムなしのtoml。
+      <title>Show HN: Markdown to HTML コンパイラを作成して Rust を学ぶ</title>
+      <link>https://andreadimatteo.com/md-to-html-compiler.html</link>
+      <description>📝 これは非常に基本的なもので、GenAI ツールを使用せず、可能な限り多くのドキュメントを使用して書かれています。非常に基本的なことを実装しました。本当に序盤なので気をつけてください。
 
 
-🔤 Original: Uv 0.12.0
+🔤 Original: Show HN: Learning Rust by writing a Markdown to HTML compiler
 
-🔗 Read more: https://github.com/astral-sh/uv/releases/tag/0.12.0</description>
-      <guid isPermaLink="true">https://github.com/astral-sh/uv/releases/tag/0.12.0</guid>
-      <pubDate>Tue, 28 Jul 2026 19:41:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49088887</comments>
+🔗 Read more: https://andreadimatteo.com/md-to-html-compiler.html</description>
+      <guid isPermaLink="true">https://andreadimatteo.com/md-to-html-compiler.html</guid>
+      <pubDate>Wed, 29 Jul 2026 01:04:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49092151</comments>
+    </item>
+    <item>
+      <title>HN: Manim (3Blue1Brown のアニメーション エンジン) を WebGPU 経由でブラウザに表示します</title>
+      <link>https://studio.academa.ai/</link>
+      <description>📝 AAcadema Studio 入門 サイドバーを開く AAcadema Studio サイドバーを切り替え ビデオ 新しいビデオ サンプルビデオ その他のビデオ フィードバック サインイン Google または GitHub 提案されたプロンプト 発射物を発射し、その動きを分割する ダイクストラで最短経路を見つける 固有ベクトルが特別である理由を確認する テイラー多項式で正弦を近似する プレビューの準備 Python ランタイムの読み込み manimx と依存関係のインストール レンダラーのウォームアップ レンダリング エラーはありません。コードに戻る スクリプトの読み込み すべてのペインのサイズを変更します。
+
+
+🔤 Original: Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU
+
+🔗 Read more: https://studio.academa.ai/</description>
+      <guid isPermaLink="true">https://studio.academa.ai/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:07:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49091703</comments>
     </item>
   </channel>
 </rss>
