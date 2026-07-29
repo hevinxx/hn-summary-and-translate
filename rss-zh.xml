@@ -6,21 +6,48 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 08:39:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 11:26:38 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>生产中的 SQLite：优化 WAL 模式、并发性和 VFS 层</title>
-      <link>https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</link>
-      <description>📝 在此模式下，在发生任何写入操作之前，原始数据库页将被复制到单独的回滚日志文件中。 PRAGMA 日志模式 = WAL;在WAL模式下，SQLite不是直接修改主数据库文件，而是将新事务附加到单独的.这称为检查点。
+      <title>Amiga 图形档案</title>
+      <link>https://amiga.lychesis.net/index.html</link>
+      <description>📝 Commodore Amiga 于 1985 年推出，拥有当时无与伦比的图形功能。它采用了一系列复杂的定制芯片，使其能够完成此前其他个人计算机无法实现的任务。该网站专门提供使用 Commodore Amiga 家用计算机制作的或为其制作的图形。
 
 
-🔤 Original: SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers
+🔤 Original: Amiga Graphics Archive
 
-🔗 Read more: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</description>
-      <guid isPermaLink="true">https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</guid>
-      <pubDate>Wed, 29 Jul 2026 07:18:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49094346</comments>
+🔗 Read more: https://amiga.lychesis.net/index.html</description>
+      <guid isPermaLink="true">https://amiga.lychesis.net/index.html</guid>
+      <pubDate>Wed, 29 Jul 2026 10:19:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49095511</comments>
+    </item>
+    <item>
+      <title>外国生产的机器人设备构成的国家安全威胁 [pdf]</title>
+      <link>https://www.fcc.gov/sites/default/files/robots-nsd.pdf</link>
+      <guid isPermaLink="true">https://www.fcc.gov/sites/default/files/robots-nsd.pdf</guid>
+      <pubDate>Wed, 29 Jul 2026 10:47:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49095714</comments>
+    </item>
+    <item>
+      <title>SpecForge – 编写正式规范的平台</title>
+      <link>https://docs.imiron.io/v/0.5.10/en/tour.html</link>
+      <description>📝 运行示例我们将使用温度控制系统作为运行示例。监控 监控检查记录在数据文件中的实际系统行为是否满足您的规范。示例 示例分析生成示例跟踪，展示令人满意的行为。
+
+
+🔤 Original: SpecForge – A Platform for Authoring Formal Specifications
+
+🔗 Read more: https://docs.imiron.io/v/0.5.10/en/tour.html</description>
+      <guid isPermaLink="true">https://docs.imiron.io/v/0.5.10/en/tour.html</guid>
+      <pubDate>Wed, 29 Jul 2026 10:35:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49095628</comments>
+    </item>
+    <item>
+      <title>Show HN：Vimgolf.ai – 通过玩关卡地图来学习 Vim</title>
+      <link>https://vimgolf.ai</link>
+      <guid isPermaLink="true">https://vimgolf.ai</guid>
+      <pubDate>Wed, 29 Jul 2026 09:26:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49095143</comments>
     </item>
   </channel>
 </rss>
