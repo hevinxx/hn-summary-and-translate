@@ -6,86 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 05:53:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 08:39:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>适用于越狱 Kindle 的更多 Tailscale 技巧</title>
-      <link>https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</link>
-      <description>📝 您可以通过 Tailscale IP 地址访问 Kindle。 KOReader 的 Tailscale 插件（支持 Kobo 和 PocketBook）如果您真的不需要功能强大的 KOReader 应用程序之外的任何 Tailscale 功能，请查看这个 Tailscale KOReader 插件。它并不能让你的 Kindle 通过你的尾网访问，就像基于 KUAL 的应用程序一样。
+      <title>生产中的 SQLite：优化 WAL 模式、并发性和 VFS 层</title>
+      <link>https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</link>
+      <description>📝 在此模式下，在发生任何写入操作之前，原始数据库页将被复制到单独的回滚日志文件中。 PRAGMA 日志模式 = WAL;在WAL模式下，SQLite不是直接修改主数据库文件，而是将新事务附加到单独的.这称为检查点。
 
 
-🔤 Original: More Tailscale tricks for your jailbroken Kindle
+🔤 Original: SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers
 
-🔗 Read more: https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</description>
-      <guid isPermaLink="true">https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</guid>
-      <pubDate>Wed, 29 Jul 2026 04:58:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093569</comments>
-    </item>
-    <item>
-      <title>演示场景的用户界面</title>
-      <link>https://www.datagubbe.se/scenegui/</link>
-      <description>📝 有时是从头开始，有时是从现有产品中窃取想法甚至代码。首次启动 Elite Sinus Producer 时，用户会看到此菜单。音乐追踪器 演示音乐历来是在追踪器中制作的。
-
-
-🔤 Original: User Interfaces of the Demo Scene
-
-🔗 Read more: https://www.datagubbe.se/scenegui/</description>
-      <guid isPermaLink="true">https://www.datagubbe.se/scenegui/</guid>
-      <pubDate>Wed, 29 Jul 2026 04:30:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093434</comments>
-    </item>
-    <item>
-      <title>Transformer Transformer：运动条件机器人协同设计的统一模型</title>
-      <link>https://transformer-transformer.github.io/</link>
-      <description>📝 该结果背后是一个在 RoboToken 上训练的扩散转换器，这是机器人实施例、状态和动作的统一标记。相同的架构跨越实施例空间（轮式双手、四足动物、类人机器人）和用例（实施例生成、跨实施例控制）。三个设计空间的实验表明，对看不见的奖励和轨迹进行了零样本优化，在进化基线上提高了性能和运行时间。
-
-
-🔤 Original: Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design
-
-🔗 Read more: https://transformer-transformer.github.io/</description>
-      <guid isPermaLink="true">https://transformer-transformer.github.io/</guid>
-      <pubDate>Wed, 29 Jul 2026 03:52:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093232</comments>
-    </item>
-    <item>
-      <title>破解Windows打开：将RADV移植到Win32</title>
-      <link>https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</link>
-      <description>📝 RADV 是适用于 AMD GPU 的开源 Mesa Vulkan 驱动程序。 Faith 的工作证明这是可以做到的，这个项目接续了这个话题。使其投入生产的最大悬而未决的问题是专有内核驱动程序的接口。
-
-
-🔤 Original: Cracking Windows Open: Porting RADV to Win32
-
-🔗 Read more: https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</description>
-      <guid isPermaLink="true">https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</guid>
-      <pubDate>Wed, 29 Jul 2026 04:30:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093435</comments>
-    </item>
-    <item>
-      <title>套接字接口万岁</title>
-      <link>https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</link>
-      <description>📝 不要忘记 BSD 的 BBN TCP/IP 实现早于 Joy 的代码（并用于启动他的代码）。 com/articles/history-of-freebsd-part-4-bsd-and-tcp-ip/ 在 20 世纪 90 年代中期在 BBN 工作的几年里，我“拥有”一份带有源代码的磁带主副本。如果有人向 BBN 索要副本，我的任务就是复制磁带并将其发送出去——以履行 DARPA 合同义务。
-
-
-🔤 Original: Hooray for the Sockets Interface
-
-🔗 Read more: https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</description>
-      <guid isPermaLink="true">https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</guid>
-      <pubDate>Wed, 29 Jul 2026 02:25:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49092754</comments>
-    </item>
-    <item>
-      <title>Show HN：基于 Google Zanzibar 的 Lean4 Datalog DSL，用于 AI 项目</title>
-      <link>https://github.com/jagg-ix/zil-lean</link>
-      <description>📝 parseInput ZIL Lean 在 Lean 4 中实现了这个模型。该定理验证了这个组件。 parseInput ▲ │ 实现精益。
-
-
-🔤 Original: Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects
-
-🔗 Read more: https://github.com/jagg-ix/zil-lean</description>
-      <guid isPermaLink="true">https://github.com/jagg-ix/zil-lean</guid>
-      <pubDate>Wed, 29 Jul 2026 02:22:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49092730</comments>
+🔗 Read more: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</description>
+      <guid isPermaLink="true">https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</guid>
+      <pubDate>Wed, 29 Jul 2026 07:18:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49094346</comments>
     </item>
   </channel>
 </rss>

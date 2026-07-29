@@ -6,86 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Jul 2026 05:53:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 08:39:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>脱獄した Kindle 向けの Tailscale のその他のトリック</title>
-      <link>https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</link>
-      <description>📝 Tailscale IP アドレスによって Kindle にアクセスできます。 KOReader 用の Tailscale プラグイン (Kobo および PocketBook のサポート付き) 高機能な KOReader アプリ以外に Tailscale の機能が特に必要ない場合は、この Tailscale KOReader プラグインをチェックしてください。 KUAL ベースのアプリのように、テールネット経由で Kindle にアクセスできるようにはなりません。
+      <title>本番環境の SQLite: WAL モード、同時実行性、および VFS レイヤーの最適化</title>
+      <link>https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</link>
+      <description>📝 このモードでは、書き込み操作が行われる前に、元のデータベース ページが別のロールバック ジャーナル ファイルにコピーされます。 PRAGMAジャーナルモード = WAL; WAL モードでは、メイン データベース ファイルを直接変更するのではなく、SQLite が新しいトランザクションを別のデータベース ファイルに追加します。これはチェックポイントと呼ばれます。
 
 
-🔤 Original: More Tailscale tricks for your jailbroken Kindle
+🔤 Original: SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers
 
-🔗 Read more: https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</description>
-      <guid isPermaLink="true">https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</guid>
-      <pubDate>Wed, 29 Jul 2026 04:58:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093569</comments>
-    </item>
-    <item>
-      <title>デモシーンのユーザーインターフェイス</title>
-      <link>https://www.datagubbe.se/scenegui/</link>
-      <description>📝 場合によってはゼロから作成することもあれば、既存の製品からアイデアやコードを盗用することもあります。 Elite SinusProducer を初めて起動すると、このメニューが表示されます。ミュージック トラッカー デモ音楽はこれまでトラッカーで作成されてきました。
-
-
-🔤 Original: User Interfaces of the Demo Scene
-
-🔗 Read more: https://www.datagubbe.se/scenegui/</description>
-      <guid isPermaLink="true">https://www.datagubbe.se/scenegui/</guid>
-      <pubDate>Wed, 29 Jul 2026 04:30:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093434</comments>
-    </item>
-    <item>
-      <title>Transformer Transformer: 運動条件付きロボットの共同設計のための統合モデル</title>
-      <link>https://transformer-transformer.github.io/</link>
-      <description>📝 その結果の背後には、ロボットの実施形態、状態、およびアクションの統合トークン化である RoboToken でトレーニングされた拡散トランスフォーマーがあります。同じアーキテクチャは、実施形態空間 (車輪付き両手足、四足歩行、ヒューマノイド) とユースケース (実施形態生成、クロス実施形態制御) にまたがります。 3 つの設計空間にわたる実験では、目に見えない報酬と軌道のゼロショット最適化が示され、進化のベースラインを超えてパフォーマンスと実行時間が向上します。
-
-
-🔤 Original: Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design
-
-🔗 Read more: https://transformer-transformer.github.io/</description>
-      <guid isPermaLink="true">https://transformer-transformer.github.io/</guid>
-      <pubDate>Wed, 29 Jul 2026 03:52:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093232</comments>
-    </item>
-    <item>
-      <title>Windows オープンのクラッキング: RADV を Win32 に移植</title>
-      <link>https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</link>
-      <description>📝 RADV は、AMD GPU 用のオープンソース Mesa Vulkan ドライバーです。 Faith の研究によってこれが可能であることが確立され、このプロジェクトがその糸口を引き継ぎました。これを本番環境に対応させるための最大の未解決の問題は、独自のカーネル ドライバーへのインターフェイスです。
-
-
-🔤 Original: Cracking Windows Open: Porting RADV to Win32
-
-🔗 Read more: https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</description>
-      <guid isPermaLink="true">https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</guid>
-      <pubDate>Wed, 29 Jul 2026 04:30:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093435</comments>
-    </item>
-    <item>
-      <title>ソケットインターフェイス万歳</title>
-      <link>https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</link>
-      <description>📝 Joy のコードよりも前の BSD 用 BBN TCP/IP 実装を忘れないでください (そして、Joy のコードを起動するために使用されました)。 com/articles/history-of-freebsd-part-4-bsd-and-tcp-ip/ 1990 年代半ばの BBN での数年間、私はソース コードが記載されたマグテープのマスター コピーを「所有」していました。誰かが BBN にコピーを要求した場合、DARPA との契約義務を果たすために、私はテープをコピーして発送する義務を負っていました。
-
-
-🔤 Original: Hooray for the Sockets Interface
-
-🔗 Read more: https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</description>
-      <guid isPermaLink="true">https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</guid>
-      <pubDate>Wed, 29 Jul 2026 02:25:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49092754</comments>
-    </item>
-    <item>
-      <title>HN を表示: AI プロジェクト向けの Google ザンジバルに基づく Lean4 データログ DSL</title>
-      <link>https://github.com/jagg-ix/zil-lean</link>
-      <description>📝 parseInput ZIL Lean は、Lean 4 内にこのモデルを実装します。この定理は、このコンポーネントを検証します。 parseInput ▲ │ implements lean.
-
-
-🔤 Original: Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects
-
-🔗 Read more: https://github.com/jagg-ix/zil-lean</description>
-      <guid isPermaLink="true">https://github.com/jagg-ix/zil-lean</guid>
-      <pubDate>Wed, 29 Jul 2026 02:22:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49092730</comments>
+🔗 Read more: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</description>
+      <guid isPermaLink="true">https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</guid>
+      <pubDate>Wed, 29 Jul 2026 07:18:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49094346</comments>
     </item>
   </channel>
 </rss>

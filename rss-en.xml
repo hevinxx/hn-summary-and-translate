@@ -6,68 +6,18 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 05:53:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 08:39:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>More Tailscale tricks for your jailbroken Kindle</title>
-      <link>https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</link>
-      <description>📝 You could reach the Kindle by its Tailscale IP address. The Tailscale plugin for KOReader (with Kobo and PocketBook support)If you don’t really need any Tailscale powers outside the highly capable KOReader app, check out this Tailscale KOReader plugin. It doesn’t make your Kindle accessible over your tailnet, like the KUAL-based app.
+      <title>SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers</title>
+      <link>https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</link>
+      <description>📝 In this mode, before any write operation occurs, the original database page is copied to a separate rollback journal file. PRAGMA journal_mode = WAL; In WAL mode, instead of modifying the main database file directly, SQLite appends new transactions to a separate. This is called checkpointing.
 
-🔗 Read more: https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</description>
-      <guid isPermaLink="true">https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</guid>
-      <pubDate>Wed, 29 Jul 2026 04:58:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093569</comments>
-    </item>
-    <item>
-      <title>User Interfaces of the Demo Scene</title>
-      <link>https://www.datagubbe.se/scenegui/</link>
-      <description>📝 Sometimes from scratch, sometimes by stealing ideas or even code from existing offerings. When first starting Elite Sinus Producer, the user is met with this menu. Music Trackers Demo music has historically been made in trackers.
-
-🔗 Read more: https://www.datagubbe.se/scenegui/</description>
-      <guid isPermaLink="true">https://www.datagubbe.se/scenegui/</guid>
-      <pubDate>Wed, 29 Jul 2026 04:30:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093434</comments>
-    </item>
-    <item>
-      <title>Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design</title>
-      <link>https://transformer-transformer.github.io/</link>
-      <description>📝 Behind that result is a diffusion transformer trained on RoboTokens, a unified tokenization of robot embodiments, states, and actions. The same architecture spans embodiment spaces (wheeled bimanual, quadrupeds, humanoids) and use cases (embodiment generation, cross-embodiment control). Experiments across three design spaces show zero-shot optimization of unseen rewards and trajectories, improving performance and runtime over an evolutionary baseline.
-
-🔗 Read more: https://transformer-transformer.github.io/</description>
-      <guid isPermaLink="true">https://transformer-transformer.github.io/</guid>
-      <pubDate>Wed, 29 Jul 2026 03:52:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093232</comments>
-    </item>
-    <item>
-      <title>Cracking Windows Open: Porting RADV to Win32</title>
-      <link>https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</link>
-      <description>📝 RADV is the open source Mesa Vulkan driver for AMD GPUs. Where Faith's work established that this could be done, this project picked up the thread. The biggest open question for making this production-ready is the interface to the proprietary kernel driver.
-
-🔗 Read more: https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</description>
-      <guid isPermaLink="true">https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</guid>
-      <pubDate>Wed, 29 Jul 2026 04:30:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49093435</comments>
-    </item>
-    <item>
-      <title>Hooray for the Sockets Interface</title>
-      <link>https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</link>
-      <description>📝 Don’t forget the BBN TCP/IP implementation for BSD that predated Joy’s code (and was used to kickstart his code). com/articles/history-of-freebsd-part-4-bsd-and-tcp-ip/ For a few years at BBN in the mid-1990s, I “owned” a master copy of the magtapes with the source code. If anyone requested a copy from BBN, I was tasked to copy the tapes and send them out — to meet a DARPA contract obligation.
-
-🔗 Read more: https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</description>
-      <guid isPermaLink="true">https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</guid>
-      <pubDate>Wed, 29 Jul 2026 02:25:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49092754</comments>
-    </item>
-    <item>
-      <title>Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects</title>
-      <link>https://github.com/jagg-ix/zil-lean</link>
-      <description>📝 parseInput ZIL Lean implements this model inside Lean 4. which theorem validates this component. parseInput ▲ │ implements lean.
-
-🔗 Read more: https://github.com/jagg-ix/zil-lean</description>
-      <guid isPermaLink="true">https://github.com/jagg-ix/zil-lean</guid>
-      <pubDate>Wed, 29 Jul 2026 02:22:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49092730</comments>
+🔗 Read more: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</description>
+      <guid isPermaLink="true">https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers</guid>
+      <pubDate>Wed, 29 Jul 2026 07:18:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49094346</comments>
     </item>
   </channel>
 </rss>
