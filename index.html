@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hacker News articles automatically summarized and translated into multiple languages (Korean, English, Japanese, Chinese (Simplified)). Get multilingual tech news via RSS feeds.">
+    <meta name="keywords" content="Hacker News, RSS, translation, Korean, English, Japanese, Chinese (Simplified), tech news, summarization, multilingual">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="HN RSS Translator - Multilingual Hacker News Feeds">
+    <meta property="og:description" content="Get Hacker News in your language with automatic summarization and translation">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hevinxx.github.io/hn-summary-and-translate/">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="HN RSS Translator">
+    <meta name="twitter:description" content="Multilingual Hacker News RSS feeds with AI summarization">
+
+    <title>HN RSS Translator - Multilingual Hacker News Feeds (Korean, English, Japanese, and 1 more)</title>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "HN RSS Translator",
+      "description": "Hacker News articles automatically summarized and translated into multiple languages",
+      "url": "https://hevinxx.github.io/hn-summary-and-translate/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://hevinxx.github.io/hn-summary-and-translate/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #ff6600;
+        }
+        .feed-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feed-item {
+            margin: 15px 0;
+            padding: 15px;
+            background: #f6f6f6;
+            border-radius: 8px;
+        }
+        .feed-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .feed-link:hover {
+            text-decoration: underline;
+        }
+        .feed-url-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        .feed-url {
+            color: #666;
+            font-size: 0.9em;
+            word-break: break-all;
+            flex: 1;
+        }
+        .copy-btn {
+            padding: 6px 12px;
+            background: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85em;
+            white-space: nowrap;
+            transition: background 0.2s;
+        }
+        .copy-btn:hover {
+            background: #ff8533;
+        }
+        .copy-btn:active {
+            background: #cc5200;
+        }
+        .copy-btn.copied {
+            background: #28a745;
+        }
+        .updated {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🗞️ HN RSS Translator</h1>
+    <p>Hacker News articles automatically summarized and translated into multiple languages.</p>
+
+    <h2>Available Feeds</h2>
+    <ul class="feed-list">
+
+        <li class="feed-item">
+            <a href="rss-ko.xml" class="feed-link">📡 Korean</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml', this)">📋 Copy</button>
+            </div>
+        </li>
+
+        <li class="feed-item">
+            <a href="rss-en.xml" class="feed-link">📡 English</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml', this)">📋 Copy</button>
+            </div>
+        </li>
+
+        <li class="feed-item">
+            <a href="rss-ja.xml" class="feed-link">📡 Japanese</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml', this)">📋 Copy</button>
+            </div>
+        </li>
+
+        <li class="feed-item">
+            <a href="rss-zh.xml" class="feed-link">📡 Chinese (Simplified)</a>
+            <div class="feed-url-container">
+                <code class="feed-url">https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml</code>
+                <button class="copy-btn" onclick="copyToClipboard('https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml', this)">📋 Copy</button>
+            </div>
+        </li>
+
+    </ul>
+
+    <section style="margin-top: 30px; line-height: 1.8; background: white; padding: 20px; border-radius: 8px;">
+        <h2 style="color: #ff6600;">Why Use HN RSS Translator?</h2>
+        <ul style="margin-left: 20px;">
+            <li><strong>Automatic Translation</strong>: Get Hacker News articles in Korean, English, Japanese, and 1 more</li>
+            <li><strong>AI Summarization</strong>: BART model provides concise summaries of long articles</li>
+            <li><strong>Fresh Content</strong>: Updated every 3 hours with latest tech news</li>
+            <li><strong>Free & Open Source</strong>: No API keys required, runs on GitHub infrastructure</li>
+        </ul>
+
+        <h3 style="color: #ff6600; margin-top: 20px;">Supported Languages</h3>
+        <p>We currently support feeds in: <strong>Korean, English, Japanese, Chinese (Simplified)</strong>.</p>
+
+        <h3 style="color: #ff6600; margin-top: 20px;">How to Use</h3>
+        <p>Simply copy one of the RSS feed URLs above and add it to your favorite RSS reader such as Feedly, Inoreader, NetNewsWire, or any other RSS client.</p>
+    </section>
+
+    <p class="updated">Last updated: 2026-07-31 06:13:51 UTC</p>
+
+    <hr>
+    <p style="text-align: center; color: #666; font-size: 0.9em;">
+        <a href="https://github.com/hevinxx/hn-summary-and-translate">GitHub</a> |
+        Powered by BART summarization and Google Translate
+    </p>
+
+    <script>
+        function copyToClipboard(text, button) {
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = button.textContent;
+                button.textContent = '✅ Copied!';
+                button.classList.add('copied');
+
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+                alert('Failed to copy to clipboard');
+            });
+        }
+    </script>
+</body>
+</html>
