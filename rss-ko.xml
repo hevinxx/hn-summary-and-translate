@@ -6,80 +6,151 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 01 Aug 2026 16:01:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 19:09:00 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>64비트 어셈블리의 예술</title>
-      <link>https://nostarch.com/art-64-bit-assembly-v2</link>
-      <description>📝 모든 장은 C++, Python 또는 Rust에서 사용한 구성을 취하고 런타임을 제거한 다음 Windows에서 실행되는 MASM에서 처음부터 다시 빌드합니다. 빌드할 내용: MASM의 객체 지향 프로그램: 처음부터 처음부터 vtable, 메서드 디스패치 및 상속 명령 수준에서 설치 및 관리되는 Windows 구조적 예외 처리(SEH) 고차 함수처럼 동작하는 썽크, 클로저 및 반복기 HLL 코드에 의존하지 않는 코루틴, 생성기 및 파이버 어셈블리에서 직접 실제 동기화 프리미티브를 사용하는 동시 프로그램 대부분의 코드가 잘못된 수준에서 올바르게 수행되는 유니코드 문자열 처리 MASM 내의 도메인별 매크로 언어, 첫 번째 원칙에 따라 구축됨 이미 조립을 알고 있고 어려운 부분을 믿음으로 받아들이지 않으려면 이 책이 바로 이 책입니다. 목차 승인 소개 1장: 고급 매크로 2장: 유니코드 문자열 3장: 초월 함수 4장: 고급 프로시저 5장: 동시 프로그래밍 6장: MASM을 사용한 객체 지향 프로그래밍 7장: 예외 처리 8장: 썽크 및 클로저 9장: 고급 매개변수 구현 10장: 반복자 11장: 코루틴, 생성기 및 파이버 부록 A: ASCII 문자 집합 부록 B: 용어집 부록 C: Visual Studio 색인 설치 및 사용 저작권 페이지 보기 자세한 목차 보기 색인 보기.
+      <title>NetBSD 11.0 출시</title>
+      <link>https://blog.netbsd.org/tnf/entry/netbsd_11_0_released</link>
+      <description>📝 자세한 내용은 출시 공지를 참조하세요. 결과적으로 공개 문제 없이는 릴리스를 게시할 수 없습니다. 릴리스 해시에 서명하는 보안 담당자).
 
 
-🔤 Original: The Art of 64-bit Assembly
+🔤 Original: NetBSD 11.0 Released
 
-🔗 Read more: https://nostarch.com/art-64-bit-assembly-v2</description>
-      <guid isPermaLink="true">https://nostarch.com/art-64-bit-assembly-v2</guid>
-      <pubDate>Sat, 01 Aug 2026 14:09:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49134599</comments>
+🔗 Read more: https://blog.netbsd.org/tnf/entry/netbsd_11_0_released</description>
+      <guid isPermaLink="true">https://blog.netbsd.org/tnf/entry/netbsd_11_0_released</guid>
+      <pubDate>Sat, 01 Aug 2026 17:56:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49136736</comments>
     </item>
     <item>
-      <title>위장한 감시 조약: 캐나다, UN 사이버 범죄 협약에 서명</title>
-      <link>https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/</link>
-      <description>📝 이것을 공유하세요:Facebook에 공유하려면 클릭(새 창에서 열림) Twitter에 공유하려면 클릭(새 창에서 열림) LinkedIn에 공유하려면 클릭(새 창에서 열림)Reddit에 공유하려면 클릭(새 창에서 열림)Tumblr에 공유하려면 클릭(새 창에서 열림)Pinterest에 공유하려면 클릭(새 창에서 열림)Pocket에 공유하려면 클릭(새 창에서 열림)더보기친구에게 링크를 이메일로 보내려면 클릭(새 창에서 열림)인쇄하려면 클릭(새 창에서 열림) 창).
+      <title>커널 건전성 버그 #14576에 대한 사후 분석</title>
+      <link>https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</link>
+      <description>📝 커널이 결코 검사하지 않는 표현이 이전 나노다가 받아들인 표현이 되도록 증명이 구축되었습니다. 확인 Mario Carneiro의 lean4lean은 Lean의 유형 이론을 Lean으로 형식화한 것이며 커널이 이를 구현한다는 증거이기도 합니다. 우리는 또한 커널 불변성을 강화했습니다.
 
 
-🔤 Original: A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention
+🔤 Original: Postmortem for Kernel Soundness Bug #14576
 
-🔗 Read more: https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/</description>
-      <guid isPermaLink="true">https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/</guid>
-      <pubDate>Sat, 01 Aug 2026 14:19:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49134694</comments>
+🔗 Read more: https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</description>
+      <guid isPermaLink="true">https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</guid>
+      <pubDate>Sat, 01 Aug 2026 18:32:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49137060</comments>
     </item>
     <item>
-      <title>GitHub에는 대안이 있지만 대체품은 없습니다.</title>
-      <link>https://lalitm.com/post/github-alternatives/</link>
-      <description>📝 GitHub에 대한 불만이 생길 때마다 누군가는 필연적으로 "Git은 분산되어 있습니다. GitHub는 검색에 정말 능숙했습니다. GitHub의 기본 경험은 점점 더 나빠지고 있습니다. "라고 말합니다.
+      <title>Kaisel – 값으로서의 경로. Flutter용 Dart 3 네이티브 라우터</title>
+      <link>https://kaisel.dev/</link>
+      <description>📝 봉인된 경로, 철저한 빌드Navigation은 봉인된 유형으로 전환됩니다. 표준 NavigatorObserver를 한 번 등록하면 다른 라우터에서 경로 이벤트를 생성하지 않는 탭 스위치와 적응형 내부 변경 사항이 표시됩니다. 학습튜토리얼: 첫 번째 앱멘탈 모델탐색쉘 및 탭모달 흐름적응형 레이아웃GuardsURL 및 딥 링크마이그레이션마이그레이션 개요Go_router에서 auto_route에서 NavigatorRoadmapAPI 참조.
 
 
-🔤 Original: GitHub has alternatives, but no replacement
+🔤 Original: Kaisel – Routes as Values. Dart 3 Native Router for Flutter
 
-🔗 Read more: https://lalitm.com/post/github-alternatives/</description>
-      <guid isPermaLink="true">https://lalitm.com/post/github-alternatives/</guid>
-      <pubDate>Sat, 01 Aug 2026 15:39:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49135365</comments>
+🔗 Read more: https://kaisel.dev/</description>
+      <guid isPermaLink="true">https://kaisel.dev/</guid>
+      <pubDate>Sat, 01 Aug 2026 16:45:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135985</comments>
     </item>
     <item>
-      <title>Charlie Stross – 내 글쓰기 과정에서 AI를 사용하지 않은 것에 대해</title>
-      <link>https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html</link>
-      <guid isPermaLink="true">https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html</guid>
-      <pubDate>Sat, 01 Aug 2026 12:56:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49134038</comments>
+      <title>탐색적 모델링: K개의 추측 중 최선의 방법을 학습합니다.</title>
+      <link>https://alexiglad.github.io/blog/2026/explorative_modeling/</link>
+      <description>📝 이것이 생성 모델링의 핵심 문제입니다. 실제 데이터 모델이 예측하는 것 실제 데이터 모델이 예측하는 것 그림 4: 직접 예측은 모든 종류의 데이터에 대한 평균으로 축소됩니다. 확산 모델은 이를 다르게 수행합니다.
+
+
+🔤 Original: Explorative modeling: Train on the best of K guesses
+
+🔗 Read more: https://alexiglad.github.io/blog/2026/explorative_modeling/</description>
+      <guid isPermaLink="true">https://alexiglad.github.io/blog/2026/explorative_modeling/</guid>
+      <pubDate>Sat, 01 Aug 2026 15:23:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135245</comments>
     </item>
     <item>
-      <title>아스트로 루프</title>
-      <link>https://pubdeer.com/</link>
-      <description>📝 PubDeer가 ASTRO LOOP를 선보입니다. 절대 탈출할 수 없는 루프에 갇힌 로그라이크 슈팅 게임입니다. 전체 게임이 휴대폰에 저장됩니다. 단 한 바이트도 휴대폰을 떠나지 않습니다.
+      <title>테스트에 대한 Pgtestdb의 템플릿 복제 접근 방식은 빠릅니다.</title>
+      <link>https://brandur.org/fragments/pgtestdb</link>
+      <description>📝 이는 테스트 트랜잭션보다 느리지만 몇 가지 장점이 있는 접근 방식인 스키마를 기반으로 테스트 케이스를 격리하는 사용자 정의 테스트 도우미 세트를 사용합니다. Postgres에서 스키마는 데이터베이스보다 가볍기 때문에 스키마 기반 접근 방식이 그 이점을 갖습니다. River의 테스트 도우미는 Go의 즉각적인 병렬화에 필요한 만큼 많은 테스트 스키마를 생성하지만 테스트 사례가 완료될 때 이를 풀링하여 유지한다는 점에서 유용한 최적화 기능을 갖추고 있습니다. 여러 스키마 버전을 테스트할 때 각 테스트 사례는 예상되는 동일한 버전의 스키마만 재사용해야 합니다.
 
 
-🔤 Original: Astro Loop
+🔤 Original: Pgtestdb's template cloning approach to testing is fast
 
-🔗 Read more: https://pubdeer.com/</description>
-      <guid isPermaLink="true">https://pubdeer.com/</guid>
-      <pubDate>Sat, 01 Aug 2026 12:17:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49133777</comments>
+🔗 Read more: https://brandur.org/fragments/pgtestdb</description>
+      <guid isPermaLink="true">https://brandur.org/fragments/pgtestdb</guid>
+      <pubDate>Sat, 01 Aug 2026 16:01:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135546</comments>
     </item>
     <item>
-      <title>Dead Software Walking: Relayd(8) 및 httpd(8)의 지속적인 발전</title>
-      <link>https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd/</link>
-      <description>📝 나는 종종 복잡한 httpd(8) 및 Relayd(8) 구성을 포함하는 OpenBSD 설정으로 고객을 지원합니다. – 부처님의 규율이 동기를 이긴다 # 의도적으로 이 제목으로 이 섹션을 썼습니다. 그는 이제 OpenBSD에서 은퇴했습니다.
+      <title>HN에게 말하세요: 당신의 퍼지 검색이 싫습니다.</title>
+      <link>https://news.ycombinator.com/item?id=49136990</link>
+      <description>📝 HN 사이트뿐만 아니라 모든 사람의 퍼지 검색이 형편없습니다. 정확히 일치하는 검색을 해보겠습니다. 검색이 많이 사용되는 사이트를 운영할 때 검색을 좋게 만드는 데 고민했고 일부 퍼지 일치를 위해 정확한 일치를 핵으로 처리하지 않았습니다.
 
 
-🔤 Original: Dead Software Walking: The ongoing evolution of relayd(8) and httpd(8)
+🔤 Original: Tell HN: I hate your fuzzy search
 
-🔗 Read more: https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd/</description>
-      <guid isPermaLink="true">https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd/</guid>
-      <pubDate>Sat, 01 Aug 2026 12:03:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49133675</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=49136990</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49136990</guid>
+      <pubDate>Sat, 01 Aug 2026 18:25:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49136990</comments>
+    </item>
+    <item>
+      <title>커서가 사용량 페이지 및 CSV 내보내기에서 비용 정보를 제거했습니다.</title>
+      <link>https://forum.cursor.com/t/usage-page-to-token-amount-what/167153</link>
+      <description>📝 Bingojr (James) 2026년 7월 31일 오후 4시 52분 1 방금 커서 사용 창이 $$에서 토큰 금액으로 전환된 것을 확인했습니다. 오늘날 $$ 금액은 완전히 쓸모없는 토큰 금액으로 대체됩니다. 대시보드 내보내기-사용-이벤트-csv는 더 이상 비용을 내보내지 않습니다.
+
+
+🔤 Original: Cursor removed cost information from the usage page and CSV export
+
+🔗 Read more: https://forum.cursor.com/t/usage-page-to-token-amount-what/167153</description>
+      <guid isPermaLink="true">https://forum.cursor.com/t/usage-page-to-token-amount-what/167153</guid>
+      <pubDate>Sat, 01 Aug 2026 15:25:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135257</comments>
+    </item>
+    <item>
+      <title>Franken.domains: 모든 .com을 빼앗기 때문에 함께 연결된 도메인</title>
+      <link>https://franken.domains/</link>
+      <description>📝 tz · de lifeless 2일 전 ⚡ 공유 택배 선택 WhatsApp ↗ X ↗ 이메일 ↗ 링크 복사 ⚡ 다시 사용 공급자 선택 IONOS ↗ United-domains ↗ World4You ↗ Fasthosts ↗ STRATO ↗.
+
+
+🔤 Original: Franken.domains: Stitched-Together Domains, Because Every .com Is Taken
+
+🔗 Read more: https://franken.domains/</description>
+      <guid isPermaLink="true">https://franken.domains/</guid>
+      <pubDate>Sat, 01 Aug 2026 16:44:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135975</comments>
+    </item>
+    <item>
+      <title>석유회사들은 전시 원유 가격 덕분에 엄청난 수익을 올렸다</title>
+      <link>https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026</link>
+      <description>📝 Shell은 두 번째로 높은 분기 수익을 기록했습니다. 의회는 이들 기업에 횡재세를 요구하고 있습니다. 비즈니스 가스 가격이 변동하고 있습니다.
+
+
+🔤 Original: Oil companies report sky-high profits thanks to wartime crude prices
+
+🔗 Read more: https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026</description>
+      <guid isPermaLink="true">https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026</guid>
+      <pubDate>Sat, 01 Aug 2026 18:28:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49137024</comments>
+    </item>
+    <item>
+      <title>RSS를 사랑하는 사람들의 디렉토리</title>
+      <link>https://andrewshell.org/2026/07/i-%e2%99%a5-rss/</link>
+      <description>📝 오늘은 RSS를 사랑하는 사람들을 위한 디렉토리 I ♥ RSS를 출시했습니다. 또한 홈페이지(FeedLand 제공)에 멋진 라이브 블로그롤이 표시됩니다. 2026년 7월 30일에 게시되었습니다.
+
+
+🔤 Original: A directory of people who love RSS
+
+🔗 Read more: https://andrewshell.org/2026/07/i-%e2%99%a5-rss/</description>
+      <guid isPermaLink="true">https://andrewshell.org/2026/07/i-%e2%99%a5-rss/</guid>
+      <pubDate>Sat, 01 Aug 2026 16:52:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49136063</comments>
+    </item>
+    <item>
+      <title>BMW는 자동차의 대시 스크린에 광고를 대접으로 표시하고 있습니다.</title>
+      <link>https://www.theautopian.com/bmw-is-showing-commercials-on-their-cars-dash-screens-and-they-want-you-to-think-its-a-treat/</link>
+      <description>📝 이것은 어떤 상태의 기계입니다. 정말 끔찍할 것 같아요. 그렇죠. 그것은 실제로 새로운 BMW의 중앙 스택 화면에서 재생되는 스파이더맨 영화에 대한 풀 모션 및 사운드 광고입니까?
+
+
+🔤 Original: BMW Is Showing Commercials on Their Car's Dash Screens as a Treat
+
+🔗 Read more: https://www.theautopian.com/bmw-is-showing-commercials-on-their-cars-dash-screens-and-they-want-you-to-think-its-a-treat/</description>
+      <guid isPermaLink="true">https://www.theautopian.com/bmw-is-showing-commercials-on-their-cars-dash-screens-and-they-want-you-to-think-its-a-treat/</guid>
+      <pubDate>Sat, 01 Aug 2026 15:58:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135511</comments>
     </item>
   </channel>
 </rss>

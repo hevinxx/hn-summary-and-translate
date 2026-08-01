@@ -6,80 +6,151 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 01 Aug 2026 16:01:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 19:09:00 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>64 位汇编的艺术</title>
-      <link>https://nostarch.com/art-64-bit-assembly-v2</link>
-      <description>📝 每一章都采用您在 C++、Python 或 Rust 中使用过的构造，剥离运行时，并在 MASM 中从头开始重建它，在 Windows 下运行。您将构建什么： MASM 中的面向对象程序：虚函数表、方法分派和继承，从头开始手动安装和管理 Windows 结构化异常处理 (SEH) 在指令级别安装和管理 Thunk、闭包和迭代器，其行为类似于高阶函数 协程、生成器和纤程，无需求助于 HLL 代码 具有真正同步原语的并发程序，直接从程序集正确完成 Unicode 字符串处理，在大多数代码出错的级别 MASM 内的域特定宏语言，构建自首要原则 如果您已经了解汇编并且不想再凭信心接受困难的部分，那么这就是这本书。致谢 简介 第 1 章：高级宏 第 2 章：Unicode 字符串 第 3 章：超越函数 第 4 章：高级过程 第 5 章：并发编程 第 6 章：使用 MASM 进行面向对象编程 第 7 章：异常处理 第 8 章：Thunk 和闭包 第 9 章：高级参数实现 第 10 章：迭代器 第 11 章：协程、生成器和纤程 附录 A：ASCII字符集 附录 B：术语表 附录 C：安装和使用 Visual Studio 索引 查看版权页 查看详细目录 查看索引。
+      <title>NetBSD 11.0 发布</title>
+      <link>https://blog.netbsd.org/tnf/entry/netbsd_11_0_released</link>
+      <description>📝 详情请参阅发布公告。因此，我们无法发布没有未解决问题的版本。安全官员签署发布哈希）。
 
 
-🔤 Original: The Art of 64-bit Assembly
+🔤 Original: NetBSD 11.0 Released
 
-🔗 Read more: https://nostarch.com/art-64-bit-assembly-v2</description>
-      <guid isPermaLink="true">https://nostarch.com/art-64-bit-assembly-v2</guid>
-      <pubDate>Sat, 01 Aug 2026 14:09:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49134599</comments>
+🔗 Read more: https://blog.netbsd.org/tnf/entry/netbsd_11_0_released</description>
+      <guid isPermaLink="true">https://blog.netbsd.org/tnf/entry/netbsd_11_0_released</guid>
+      <pubDate>Sat, 01 Aug 2026 17:56:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49136736</comments>
     </item>
     <item>
-      <title>变相监视条约：加拿大签署联合国网络犯罪公约</title>
-      <link>https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/</link>
-      <description>📝 分享此内容：点击在 Facebook 上分享（在新窗口中打开）点击在 Twitter 上分享（在新窗口中打开）点击在 LinkedIn 上分享（在新窗口中打开）点击在 Reddit 上分享（在新窗口中打开）点击在 Tumblr 上分享（在新窗口中打开）点击在 Pinterest 上分享（在新窗口中打开）点击在 Pocket 上分享（在新窗口中打开）更多点击通过电子邮件将链接发送给朋友（在新窗口中打开）点击打印（在新窗口中打开）窗口）。
+      <title>内核健全性错误的事后分析 #14576</title>
+      <link>https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</link>
+      <description>📝 证明的建立是为了确保内核从不检查的表达式是旧的 nanoda 所接受的表达式。验证 Mario Carneiro 的lean4lean 是精益类型理论的精益形式化以及内核实现它的证明。我们还强化了内核不变量。
 
 
-🔤 Original: A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention
+🔤 Original: Postmortem for Kernel Soundness Bug #14576
 
-🔗 Read more: https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/</description>
-      <guid isPermaLink="true">https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/</guid>
-      <pubDate>Sat, 01 Aug 2026 14:19:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49134694</comments>
+🔗 Read more: https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</description>
+      <guid isPermaLink="true">https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</guid>
+      <pubDate>Sat, 01 Aug 2026 18:32:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49137060</comments>
     </item>
     <item>
-      <title>GitHub 有替代品，但没有替代品</title>
-      <link>https://lalitm.com/post/github-alternatives/</link>
-      <description>📝 每当出现对 GitHub 的不满时，难免有人会说：“Git 是去中心化的，GitHub 以前确实擅长发现，但 GitHub 的基础体验却越来越差，现在的情况越来越糟糕了。”
+      <title>Kaisel – 作为价值的路线。适用于 Flutter 的 Dart 3 本机路由器</title>
+      <link>https://kaisel.dev/</link>
+      <description>📝 密封路线，详尽构建导航是密封类型的切换。注册一个标准 NavigatorObserver 一次 - 它会看到选项卡切换和自适应就地更改，这些更改不会在其他路由器中产生路由事件。学习教程：您的第一个应用程序心智模型导航Shell 和选项卡模态流自适应布局GuardsURL 和深度链接迁移迁移概述来自 go_router来自 auto_route来自 NavigatorRoadmapAPI 参考。
 
 
-🔤 Original: GitHub has alternatives, but no replacement
+🔤 Original: Kaisel – Routes as Values. Dart 3 Native Router for Flutter
 
-🔗 Read more: https://lalitm.com/post/github-alternatives/</description>
-      <guid isPermaLink="true">https://lalitm.com/post/github-alternatives/</guid>
-      <pubDate>Sat, 01 Aug 2026 15:39:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49135365</comments>
+🔗 Read more: https://kaisel.dev/</description>
+      <guid isPermaLink="true">https://kaisel.dev/</guid>
+      <pubDate>Sat, 01 Aug 2026 16:45:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135985</comments>
     </item>
     <item>
-      <title>Charlie Stross – 关于我在写作过程中不使用人工智能</title>
-      <link>https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html</link>
-      <guid isPermaLink="true">https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html</guid>
-      <pubDate>Sat, 01 Aug 2026 12:56:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49134038</comments>
+      <title>探索性建模：根据 K 个猜测中的最佳结果进行训练</title>
+      <link>https://alexiglad.github.io/blog/2026/explorative_modeling/</link>
+      <description>📝 这是生成建模的核心问题。真实数据 模型预测的内容 真实数据 模型预测的内容 图 4：直接预测会崩溃为任何类型数据的平均值。扩散模型的做法有所不同。
+
+
+🔤 Original: Explorative modeling: Train on the best of K guesses
+
+🔗 Read more: https://alexiglad.github.io/blog/2026/explorative_modeling/</description>
+      <guid isPermaLink="true">https://alexiglad.github.io/blog/2026/explorative_modeling/</guid>
+      <pubDate>Sat, 01 Aug 2026 15:23:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135245</comments>
     </item>
     <item>
-      <title>天文循环</title>
-      <link>https://pubdeer.com/</link>
-      <description>📝 PubDeer 推出 ASTRO LOOP 一款陷入循环的 roguelike 射击游戏，你永远无法逃脱。整个游戏都在您的手机上。没有一个字节会离开您的手机。
+      <title>Pgtestdb 的模板克隆测试方法速度很快</title>
+      <link>https://brandur.org/fragments/pgtestdb</link>
+      <description>📝 它使用一组自定义的测试助手，根据模式隔离测试用例，这种方法比测试事务慢，但有一些优点：在 Postgres 中，模式比数据库轻，因此基于模式的方法具有这一优势。 River 的测试助手有一个有用的优化，因为它们将创建 Go 的即时并行化所需的尽可能多的测试模式，但在测试用例完成时将它们集中起来。当跨模式版本进行测试时，每个测试用例必须仅重用其期望的同一版本上的模式。
 
 
-🔤 Original: Astro Loop
+🔤 Original: Pgtestdb's template cloning approach to testing is fast
 
-🔗 Read more: https://pubdeer.com/</description>
-      <guid isPermaLink="true">https://pubdeer.com/</guid>
-      <pubDate>Sat, 01 Aug 2026 12:17:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49133777</comments>
+🔗 Read more: https://brandur.org/fragments/pgtestdb</description>
+      <guid isPermaLink="true">https://brandur.org/fragments/pgtestdb</guid>
+      <pubDate>Sat, 01 Aug 2026 16:01:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135546</comments>
     </item>
     <item>
-      <title>死软件行走：relayd(8) 和 httpd(8) 的持续演变</title>
-      <link>https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd/</link>
-      <description>📝 我为客户提供 OpenBSD 设置支持，这些设置通常涉及复杂的 httpd(8) 和 Relayd(8) 配置。 – 佛戒胜过动机 # 我特意用这个标题写了这一部分。他现已从 OpenBSD 退休。
+      <title>告诉 HN：我讨厌你的模糊搜索</title>
+      <link>https://news.ycombinator.com/item?id=49136990</link>
+      <description>📝 不只是 HN 这个网站，每个人的模糊搜索都很糟糕。让我进行精确匹配搜索。当我运行一个有大量搜索使用的网站时，我为如何使搜索变得更好而苦恼，并且从不为了某些模糊匹配而取消精确匹配。
 
 
-🔤 Original: Dead Software Walking: The ongoing evolution of relayd(8) and httpd(8)
+🔤 Original: Tell HN: I hate your fuzzy search
 
-🔗 Read more: https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd/</description>
-      <guid isPermaLink="true">https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd/</guid>
-      <pubDate>Sat, 01 Aug 2026 12:03:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49133675</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=49136990</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49136990</guid>
+      <pubDate>Sat, 01 Aug 2026 18:25:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49136990</comments>
+    </item>
+    <item>
+      <title>光标从使用页面和 CSV 导出中删除了成本信息</title>
+      <link>https://forum.cursor.com/t/usage-page-to-token-amount-what/167153</link>
+      <description>📝 Bingojr (James) 2026 年 7 月 31 日下午 4:52 1 我刚刚注意到游标使用窗口从 $$ 切换到了代币金额。如今，$$ 金额已被完全无用的代币金额取代。仪表板 export-usage-events-csv 不再导出成本。
+
+
+🔤 Original: Cursor removed cost information from the usage page and CSV export
+
+🔗 Read more: https://forum.cursor.com/t/usage-page-to-token-amount-what/167153</description>
+      <guid isPermaLink="true">https://forum.cursor.com/t/usage-page-to-token-amount-what/167153</guid>
+      <pubDate>Sat, 01 Aug 2026 15:25:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135257</comments>
+    </item>
+    <item>
+      <title>Franken.domains：缝合在一起的域名，因为每个 .com 都被占用</title>
+      <link>https://franken.domains/</link>
+      <description>📝 tz · de lifeless 2天前 ⚡ 分享 选择快递 WhatsApp ↗ X ↗ 电子邮件 ↗ 复制链接 ⚡ REANIMATE 选择提供商 IONOS ↗ United-domains ↗ World4You ↗ Fasthosts ↗ STRATO ↗.
+
+
+🔤 Original: Franken.domains: Stitched-Together Domains, Because Every .com Is Taken
+
+🔗 Read more: https://franken.domains/</description>
+      <guid isPermaLink="true">https://franken.domains/</guid>
+      <pubDate>Sat, 01 Aug 2026 16:44:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135975</comments>
+    </item>
+    <item>
+      <title>由于战时原油价格上涨，石油公司报告利润极高</title>
+      <link>https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026</link>
+      <description>📝 壳牌取得了第二高的季度利润。国会呼吁对这些公司征收暴利税。商业天然气价格波动。
+
+
+🔤 Original: Oil companies report sky-high profits thanks to wartime crude prices
+
+🔗 Read more: https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026</description>
+      <guid isPermaLink="true">https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026</guid>
+      <pubDate>Sat, 01 Aug 2026 18:28:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49137024</comments>
+    </item>
+    <item>
+      <title>RSS 爱好者名录</title>
+      <link>https://andrewshell.org/2026/07/i-%e2%99%a5-rss/</link>
+      <description>📝 今天，我推出了 I ♥ RSS，一个为热爱 RSS 的人们提供的目录。它还在主页上显示了一个不错的实时博客滚动（由 FeedLand 提供支持）。发布于 2026 年 7 月 30 日。
+
+
+🔤 Original: A directory of people who love RSS
+
+🔗 Read more: https://andrewshell.org/2026/07/i-%e2%99%a5-rss/</description>
+      <guid isPermaLink="true">https://andrewshell.org/2026/07/i-%e2%99%a5-rss/</guid>
+      <pubDate>Sat, 01 Aug 2026 16:52:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49136063</comments>
+    </item>
+    <item>
+      <title>宝马在汽车仪表板屏幕上播放广告作为一种享受</title>
+      <link>https://www.theautopian.com/bmw-is-showing-commercials-on-their-cars-dash-screens-and-they-want-you-to-think-its-a-treat/</link>
+      <description>📝 这是一台有一定地位的机器。那太可怕了，对吧。这实际上是一部在新款宝马的中央显示屏上播放的蜘蛛侠电影的全动态和有声广告吗？
+
+
+🔤 Original: BMW Is Showing Commercials on Their Car's Dash Screens as a Treat
+
+🔗 Read more: https://www.theautopian.com/bmw-is-showing-commercials-on-their-cars-dash-screens-and-they-want-you-to-think-its-a-treat/</description>
+      <guid isPermaLink="true">https://www.theautopian.com/bmw-is-showing-commercials-on-their-cars-dash-screens-and-they-want-you-to-think-its-a-treat/</guid>
+      <pubDate>Sat, 01 Aug 2026 15:58:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49135511</comments>
     </item>
   </channel>
 </rss>
