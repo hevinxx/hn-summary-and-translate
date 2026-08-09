@@ -6,54 +6,103 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Aug 2026 21:30:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 01:40:15 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>8 月 12 日の皆既日食のオープンソースのインタラクティブ マップ</title>
-      <link>https://eclipsefan.org/?v=2&amp;t=max&amp;layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&amp;lat=43.4623&amp;lon=-3.8099&amp;opacity=besselian%3A0.2%2Cumbra-live%3A0.2&amp;zoom=6&amp;palier=minute</link>
-      <guid isPermaLink="true">https://eclipsefan.org/?v=2&amp;t=max&amp;layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&amp;lat=43.4623&amp;lon=-3.8099&amp;opacity=besselian%3A0.2%2Cumbra-live%3A0.2&amp;zoom=6&amp;palier=minute</guid>
-      <pubDate>Sat, 08 Aug 2026 19:38:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49225139</comments>
+      <title>私のサーバーは今は電話です</title>
+      <link>https://seg6.space/posts/phone-server/</link>
+      <description>📝 結局私はその人になってしまったのです。その時点ではサーバーも電話も持っていませんでした。実際には、電話を通常の Linux マシンにする必要はありませんでした。
+
+
+🔤 Original: My server is a phone now
+
+🔗 Read more: https://seg6.space/posts/phone-server/</description>
+      <guid isPermaLink="true">https://seg6.space/posts/phone-server/</guid>
+      <pubDate>Sat, 08 Aug 2026 22:49:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49226636</comments>
     </item>
     <item>
-      <title>メリーランド州、二度目のビーバー襲撃を受けてカニンガムフォールズ州立公園の一部を閉鎖</title>
-      <link>https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/</link>
-      <description>📝 DNR、二度目のビーバー襲撃を受けてカニンガムフォールズ州立公園の追加エリアを閉鎖 2026年8月5日更新 4:25 p. 6日: メリーランド州保健省は、カニンガムフォールズ州立公園から採取した2頭目のビーバーが狂犬病ウイルスの検査で陽性反応を示したことを確認した。最近カニンガムフォールズ州立公園でビーバーと接触した可能性のある人は、フレデリック郡保健局（電話：301-600-3342）に連絡してください。
+      <title>Os8088: IBM XT、286、386 用の強力な Mac 風の OS</title>
+      <link>https://os8088.com/</link>
+      <description>📝 os8088 はフロッピーの最初のセクターから起動し、グラフィカル デスクトップを表示します。数字で見る 以下のすべての図は、メモリからではなくビルドから得られたものです。ロード可能なソフトウェア プログラムは 2 番目のフロッピーから取得されます。
 
 
-🔤 Original: Maryland Closes More of Cunningham Falls State Park After Second Beaver Attack
+🔤 Original: Os8088: A powerful Mac-like OS for the IBM XT, 286, 386
 
-🔗 Read more: https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/</description>
-      <guid isPermaLink="true">https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/</guid>
-      <pubDate>Sat, 08 Aug 2026 21:07:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49225918</comments>
+🔗 Read more: https://os8088.com/</description>
+      <guid isPermaLink="true">https://os8088.com/</guid>
+      <pubDate>Sat, 08 Aug 2026 23:37:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49226923</comments>
     </item>
     <item>
-      <title>TinySol、DOS 用の小さなソリティア ゲーム</title>
-      <link>https://classicbits.net/coding-and-software/my-software/monosol/</link>
-      <description>📝 注: 人気の DOS マウス ドライバーである CuteMouse は、AT&amp;T 6300 ビデオ モードをサポートしていないようです。 html 2026 年 5 月 30 日 (VCFSW) TinySol 1。2026 年 5 月 30 日 (VCFSW) TinySol 1。
+      <title>Shopify は在庫予約のために Redis を MySQL に置き換え、拡張しました</title>
+      <link>https://shopify.engineering/scaling-inventory-reservations</link>
+      <description>📝 当社の過剰販売防止システムは、支払い処理中に在庫を確保することでこれに対処します。これは、2 つの同時チェックアウトが同じユニットを請求するのを防ぐ短期間の保留です。請求: 支払いが成功すると、在庫台帳 (真実の情報源) から数量が永久に差し引かれます。予約はこのプールの行を消費します。補充プロセスでは、在庫台帳から補充されます。
 
 
-🔤 Original: TinySol, a tiny solitaire game for DOS
+🔤 Original: Shopify replaced Redis with MySQL for inventory reservations–and it scaled
 
-🔗 Read more: https://classicbits.net/coding-and-software/my-software/monosol/</description>
-      <guid isPermaLink="true">https://classicbits.net/coding-and-software/my-software/monosol/</guid>
-      <pubDate>Sat, 08 Aug 2026 17:42:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49224020</comments>
+🔗 Read more: https://shopify.engineering/scaling-inventory-reservations</description>
+      <guid isPermaLink="true">https://shopify.engineering/scaling-inventory-reservations</guid>
+      <pubDate>Sat, 08 Aug 2026 22:32:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49226536</comments>
     </item>
     <item>
-      <title>他のクロード コード セッションにメッセージを送信する</title>
-      <link>https://code.claude.com/docs/en/cross-session-messaging</link>
-      <description>📝 クロスセッションメッセージングには Claude Code v2 が必要です。クロスセッション メッセージングを使用すると、クロードはクロード コード セッションの 1 つから別のセッションにメッセージを配信できます。保留: クロード コードはメッセージが配信されないまま保留します。
+      <title>ディザリングされた QR コード</title>
+      <link>https://www.andrewt.net/dithered-qr-codes/wtf/</link>
+      <description>📝 この不規則なディザリングのもう 1 つの利点は、QR コード データ モジュールによって引き起こされるごま塩ノイズを発見するのがはるかに困難であることです。これにより、画像が非常にきれいになっていることがわかります。たとえば、それがしわになる可能性のある紙のチラシにある場合は、QR コードを美しくするために放棄した冗長性、堅牢性、エラー修正がさらに必要になります。
 
 
-🔤 Original: Message your other Claude Code sessions
+🔤 Original: Dithered QR Codes
 
-🔗 Read more: https://code.claude.com/docs/en/cross-session-messaging</description>
-      <guid isPermaLink="true">https://code.claude.com/docs/en/cross-session-messaging</guid>
-      <pubDate>Sat, 08 Aug 2026 15:34:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49222824</comments>
+🔗 Read more: https://www.andrewt.net/dithered-qr-codes/wtf/</description>
+      <guid isPermaLink="true">https://www.andrewt.net/dithered-qr-codes/wtf/</guid>
+      <pubDate>Sat, 08 Aug 2026 23:05:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49226742</comments>
+    </item>
+    <item>
+      <title>指の関節を鳴らすのはやめたほうがいいでしょうか？</title>
+      <link>https://www.bbc.com/future/article/20260807-should-i-stop-cracking-my-knuckles</link>
+      <description>📝 指の関節を鳴らすのはやめたほうがいいでしょうか。研究によると、20%から50%の人が指の関節を鳴らしているそうです。関節がパキパキ鳴る感覚が好きな人もいます。
+
+
+🔤 Original: Should you stop cracking your knuckles?
+
+🔗 Read more: https://www.bbc.com/future/article/20260807-should-i-stop-cracking-my-knuckles</description>
+      <guid isPermaLink="true">https://www.bbc.com/future/article/20260807-should-i-stop-cracking-my-knuckles</guid>
+      <pubDate>Sat, 08 Aug 2026 22:36:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49226563</comments>
+    </item>
+    <item>
+      <title>Depression has tripled in the last 15 years. Arthur Brooks about the cause</title>
+      <link>https://bigthink.com/series/full-interview/meaning-crisis-brooks/</link>
+      <guid isPermaLink="true">https://bigthink.com/series/full-interview/meaning-crisis-brooks/</guid>
+      <pubDate>Sat, 08 Aug 2026 23:09:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49226767</comments>
+    </item>
+    <item>
+      <title>The Unreasonable Effectiveness of Mathematics in the Natural Sciences [pdf]</title>
+      <link>https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf</link>
+      <description>📝 ����y���� ����B��A�� x������(��v0����fu4��N�����-}�qj�`H� ��Y ����GhT$ �&gt;3��qp@g��BX ��; �Y�����z4 ���hH� q�� R. �4�89���M� ����o�R4����� ��X '��z$ţ�B�ED�3oqBC�ڥ. �y� ��(��n�� td: '5��q��� �&amp;����+�] � O ��&amp; @4�L�I� �;�;�PU =������=� " j2k�hg�NT ɑ$� .
+
+🔗 Read more: https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf</description>
+      <guid isPermaLink="true">https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf</guid>
+      <pubDate>Sat, 08 Aug 2026 20:37:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49225676</comments>
+    </item>
+    <item>
+      <title>タイトル 7 異質な衝撃責任により、ほぼすべてが違法とみなされる</title>
+      <link>https://www.nyujll.com/volume-14/title-vii-disparate-impact-liability-makes-almost-everything-presumptively-illegal</link>
+      <description>📝 タイトル VII の異種影響責任により、ほぼすべてが推定違法となる ゲイル L. この記事では、タイトル VII に基づく異種影響責任の歴史、1991 年の議会の明らかな黙認、それが EEOC に与えた並外れた裁量権、特に犯罪歴調査へのその適用、およびその合憲性に関する議論を検討します。記事全文 記事ゲイル L.
+
+
+🔤 Original: Title 7 Disparate Impact Liability Makes Almost Everything Presumptively Illegal
+
+🔗 Read more: https://www.nyujll.com/volume-14/title-vii-disparate-impact-liability-makes-almost-everything-presumptively-illegal</description>
+      <guid isPermaLink="true">https://www.nyujll.com/volume-14/title-vii-disparate-impact-liability-makes-almost-everything-presumptively-illegal</guid>
+      <pubDate>Sat, 08 Aug 2026 23:19:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49226827</comments>
     </item>
   </channel>
 </rss>
