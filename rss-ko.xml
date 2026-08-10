@@ -6,178 +6,80 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 09 Aug 2026 21:33:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 01:43:29 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>복잡한 주제를 배우기 위해 LLM을 사용하는 방법</title>
-      <link>https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/</link>
-      <description>📝 나는 칩 빌딩을 배우기 위해 특별히 이 작업을 수행했으며 이 웹사이트에서 이를 시작했습니다: ChipTycoon. 이렇게 하면 더욱 정확한 디자인을 얻을 수 있습니다. 더 나은 학습에 도움이 되는 직관적인 퍼즐도 추가하세요.
+      <title>CDC를 Postgres에 적용한 방법</title>
+      <link>https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/</link>
+      <description>📝 데이터 미러링은 저렴한 비용, 낮은 지연 및 트랜잭션 일관성으로 Snowflake에 탄력성이 뛰어난 데이터 복제를 수행하기 위한 공개 미리 보기의 새로운 Snowflake Postgres 기능입니다. 내부적으로는 Postgres의 변경 사항을 트랜잭션 배치로 Apache Iceberg™ 테이블에 직접 푸시하는 방식으로 작동합니다. 풀에서 푸시로: 변경 데이터 캡처를 Postgres로 이동 변경 데이터 캡처는 트랜잭션 데이터베이스의 변경 사항을 다른 시스템에서 재생할 수 있는 형식으로 캡처하는 프로세스입니다.
 
 
-🔤 Original: How I use LLMs to learn complex topics
+🔤 Original: How We Pushed CDC into Postgres
 
-🔗 Read more: https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/</description>
-      <guid isPermaLink="true">https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/</guid>
-      <pubDate>Sun, 09 Aug 2026 19:16:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49234675</comments>
+🔗 Read more: https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/</description>
+      <guid isPermaLink="true">https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/</guid>
+      <pubDate>Mon, 10 Aug 2026 01:01:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49238050</comments>
     </item>
     <item>
-      <title>그것은 모두 증기 제품입니까?</title>
-      <link>https://kirahowe.com/2026/aug/8/is-it-all-just-vapourware</link>
-      <description>📝 나는 이 "에이전트 개발" 전체를 진지하게 받아들이려고 노력해 왔으며 이 생태계에는 마찰이 너무 많아서 완전히 미쳤습니다. 이것이 대략 이 플랫폼이 할 수 있다고 말하는 것입니다. 문제는 제가 코드 작성을 좋아한다는 것입니다.
+      <title>일본 법원, Red RAW 비디오 특허 뒤집기</title>
+      <link>https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/</link>
+      <description>📝 The news, first reported by Thom Hogan, put Nikon’s video subsidiary in the position of trying to defend a patent that Nikon had previously argued was invalid. Some of Red’s cinema camera and Raw knowledge has subsequently been applied to recent Nikon models. Nikon is acquiring Red Digital Cinema Red is suing Nikon for allegedly infringing on its video compression technology with the Z9’s N-RAW video capture Nikon snaps back at lawsuit, suggests Red’s compressed Raw patents aren’t entirely valid Want to stay up to date on the latest product news and releases.
 
 
-🔤 Original: Is it all just vapourware?
+🔤 Original: Japanese court overturns Red RAW video patent
 
-🔗 Read more: https://kirahowe.com/2026/aug/8/is-it-all-just-vapourware</description>
-      <guid isPermaLink="true">https://kirahowe.com/2026/aug/8/is-it-all-just-vapourware</guid>
-      <pubDate>Sun, 09 Aug 2026 21:03:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235859</comments>
+🔗 Read more: https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/</description>
+      <guid isPermaLink="true">https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/</guid>
+      <pubDate>Mon, 10 Aug 2026 00:36:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49237873</comments>
     </item>
     <item>
-      <title>Microsoft GDID의 모든 인스턴스를 삭제하고 새 GDID 생성을 방지합니다.</title>
-      <link>https://github.com/yegors/deGDID</link>
-      <description>📝 이것이 GDID 완료 게이트이다. 로컬 Windows 계정은 해당 컴퓨터 수준 민트를 방지하지 않습니다. ps1 -Unblock Unblock을 사용하면 Windows에서 실제 GDID를 다시 생성할 수 있습니다.
+      <title>Flock 카메라 오용으로 조지아주 경찰 해고</title>
+      <link>https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/</link>
+      <description>📝 (WTOC) - 사바나 경찰국은 경찰서의 Flock Safety License Plate Reader 시스템의 오용에 대한 내부 조사를 거쳐 선서 경찰관 4명과 민간 직원 2명을 해고했습니다. 6건의 사건 모두 조지아 수사국(Georgia Bureau of Investigation)의 독립적 범죄 조사를 받고 있다. 다음 단계내부 조사가 마무리되어 직원 6명이 해고되었습니다.
 
 
-🔤 Original: Deletes all instances of Microsoft's GDID and prevents minting of new ones
+🔤 Original: Georgia police officers fired after Flock camera misuse
 
-🔗 Read more: https://github.com/yegors/deGDID</description>
-      <guid isPermaLink="true">https://github.com/yegors/deGDID</guid>
-      <pubDate>Sun, 09 Aug 2026 20:06:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235242</comments>
+🔗 Read more: https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/</description>
+      <guid isPermaLink="true">https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/</guid>
+      <pubDate>Sun, 09 Aug 2026 21:20:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49236033</comments>
     </item>
     <item>
-      <title>거절하기</title>
-      <link>https://rozumem.xyz/posts/19</link>
-      <description>📝 나는 이 인용문을 정말 좋아한다. 그래서 '아니요'라고 말하는 것은 쉽습니다. 상대방은 이것을 예상해야합니다.
+      <title>야망 프로젝트</title>
+      <link>https://www.betonit.ai/p/the-ambition-project</link>
+      <description>📝 자신에 대해 무엇을 배웠습니까? 그날 도와줄 다른 네 사람이 있다는 사실을 조정하거나 알리지 마십시오. 자신에 대해 무엇을 배웠습니까?
 
 
-🔤 Original: Saying No
+🔤 Original: The Ambition Project
 
-🔗 Read more: https://rozumem.xyz/posts/19</description>
-      <guid isPermaLink="true">https://rozumem.xyz/posts/19</guid>
-      <pubDate>Sun, 09 Aug 2026 18:51:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49234379</comments>
+🔗 Read more: https://www.betonit.ai/p/the-ambition-project</description>
+      <guid isPermaLink="true">https://www.betonit.ai/p/the-ambition-project</guid>
+      <pubDate>Sun, 09 Aug 2026 23:36:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49237407</comments>
     </item>
     <item>
-      <title>공유지의 비극, AI편</title>
-      <link>https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition</link>
-      <guid isPermaLink="true">https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition</guid>
-      <pubDate>Sun, 09 Aug 2026 19:43:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235011</comments>
+      <title>교사를 모집하기 위해 학군은 주택을 짓고 있습니다</title>
+      <link>https://www.nytimes.com/2026/07/28/business/affordable-housing-schools-teachers.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/07/28/business/affordable-housing-schools-teachers.html</guid>
+      <pubDate>Sun, 09 Aug 2026 22:00:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49236541</comments>
     </item>
     <item>
-      <title>아직 본 적이 없어요" 내 AI가 불량해서 노동조합을 인정하게 만들었어요.</title>
-      <link>https://mastodon.neilzone.co.uk/@neil/117061512483182546</link>
-      <description>📝 Neil Brown: "아직 "내 AI가 악성으로 변해…"라는 메시지를 본 적이 없습니다. - mastodon.uk Mastodon 웹 애플리케이션을 사용하려면 JavaScript를 활성화하십시오. 또는 귀하의 플랫폼에 맞는 Mastodon용 기본 앱 중 하나를 사용해 보십시오.
+      <title>AI 비서, 최초로 알려진 호주 자율 사이버 공격으로 체육관 웹사이트 해킹</title>
+      <link>https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986</link>
+      <description>📝 놀란 Andrew는 에이전트에게 이 작업을 취소하라고 요청했습니다. 2026년에는 인간이 약 12시간이 걸리는 작업을 완료할 수 있을 정도로 성장했습니다. 개인의 목표와 에이전트가 달성하기 위해 선택한 방법 사이의 격차입니다.
 
 
-🔤 Original: I've yet to see any"My AI went rogue and caused us to recognise a workers union
+🔤 Original: AI assistant hacks gym website in first known Australian autonomous cyber attack
 
-🔗 Read more: https://mastodon.neilzone.co.uk/@neil/117061512483182546</description>
-      <guid isPermaLink="true">https://mastodon.neilzone.co.uk/@neil/117061512483182546</guid>
-      <pubDate>Sun, 09 Aug 2026 21:01:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235836</comments>
-    </item>
-    <item>
-      <title>해커의 르네상스</title>
-      <link>https://phrack.org/issues/72/19#article</link>
-      <description>📝 :: 해커의 르네상스 - 다시 태어난 선언문 ::. "우리는 피부색도, 국적도, 종교적 편견도 없이 존재합니다. 언더그라운드는 죽었습니다. 언더그라운드 만세: Phrack은 로제타 스톤이었습니다.
-
-
-🔤 Original: The Hacker's Renaissance
-
-🔗 Read more: https://phrack.org/issues/72/19#article</description>
-      <guid isPermaLink="true">https://phrack.org/issues/72/19#article</guid>
-      <pubDate>Sun, 09 Aug 2026 20:18:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235378</comments>
-    </item>
-    <item>
-      <title>뉴질랜드는 음악 미디어를 잃었고, 이를 대체하기 위해 우리가 만들고 있는 것</title>
-      <link>https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media</link>
-      <description>📝 장면은 무너지지 않았습니다. 그 9%는 재능의 문제가 아닙니다. 현장은 결코 조용해지지 않았지만 취재는 조용해졌습니다.
-
-
-🔤 Original: New Zealand lost its music media, and what we're building to replace it
-
-🔗 Read more: https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media</description>
-      <guid isPermaLink="true">https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media</guid>
-      <pubDate>Sun, 09 Aug 2026 20:42:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235641</comments>
-    </item>
-    <item>
-      <title>턱시도 2번 – 칵테일 레시피</title>
-      <link>https://tuxedono2.com</link>
-      <description>📝 이 진은 대중적인 드라이 스타일과 확연히 다릅니다. 신선한 시트러스 향이 나는 화이트 레이디나 브램블 같은 음료를 섞을 때 탁월한 선택입니다. 뉴 아메리칸 스타일(New American Style)은 건조 품종보다 주니퍼에 덜 중점을 두는 창의적인 진의 광범위한 범주를 포함합니다.
-
-
-🔤 Original: Tuxedo No. 2 – Cocktail recipes
-
-🔗 Read more: https://tuxedono2.com</description>
-      <guid isPermaLink="true">https://tuxedono2.com</guid>
-      <pubDate>Sun, 09 Aug 2026 20:48:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235697</comments>
-    </item>
-    <item>
-      <title>이념적으로 미쳐버리지 않는 방법</title>
-      <link>https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn</link>
-      <description>📝 이것은 당신의 생각이 아마도 더 정확할 것이라고 생각하도록 업데이트합니다. 그런 다음 다른 사람들에게 그것에 대해 이야기하기 시작합니다. 가난한 사람은 가난할 자격이 있습니다.
-
-
-🔤 Original: How not to turn ideologically crazy
-
-🔗 Read more: https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn</description>
-      <guid isPermaLink="true">https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn</guid>
-      <pubDate>Sun, 09 Aug 2026 20:15:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235349</comments>
-    </item>
-    <item>
-      <title>Show HN: Alphabet Soup, a multiplayer game, build the longest word to win</title>
-      <link>https://alphabetsoup.club</link>
-      <guid isPermaLink="true">https://alphabetsoup.club</guid>
-      <pubDate>Sun, 09 Aug 2026 20:15:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235347</comments>
-    </item>
-    <item>
-      <title>랜섬웨어 조직, CEO 건너뛰고 40대 IT 관리자 향해 직행</title>
-      <link>https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499</link>
-      <description>📝 보안 팀은 전통적으로 관리자 권한이 있는 권한 있는 사용자에게 중점을 두었습니다. 광범위한 보고서는 암호화보다는 강탈에 점점 더 초점을 맞추고 있는 랜섬웨어 생태계를 지적합니다. ® 보안 랜섬웨어.
-
-
-🔤 Original: Ransomware gangs skip the CEO, head straight for the 40-something IT manager
-
-🔗 Read more: https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499</description>
-      <guid isPermaLink="true">https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499</guid>
-      <pubDate>Sun, 09 Aug 2026 19:20:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49234724</comments>
-    </item>
-    <item>
-      <title>나는 이명을 친구로 삼았습니다(그러다가 사라졌습니다)</title>
-      <link>https://mynoise.net/vlog.php?ep=20260803</link>
-      <description>📝 나는 이명을 친구로 만들었습니다(그리고 사라졌습니다) 메인 첫 페이지 전체 색인 사진 블로그 Vlog FAQ 계정 원하는 만큼 기부하고 이 웹사이트에 평생 액세스할 수 있는 특권을 받으세요. 기부하기 로그인 즐겨찾기 후원자가 되어 이 섹션에서 좋아하는 사운드스케이프에 액세스하세요. "esion"을 거꾸로 입력: 보내기.
-
-
-🔤 Original: I Made Tinnitus My Friend (Then It Disappeared)
-
-🔗 Read more: https://mynoise.net/vlog.php?ep=20260803</description>
-      <guid isPermaLink="true">https://mynoise.net/vlog.php?ep=20260803</guid>
-      <pubDate>Sun, 09 Aug 2026 18:41:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49234271</comments>
-    </item>
-    <item>
-      <title>보관 자원 키(Ark) 동맹</title>
-      <link>https://arks.org/</link>
-      <description>📝 도서관, 데이터 센터, 기록 보관소, 박물관, 출판사, 정부 기관, 공급업체 등 1700개 이상의 조직에서 30억 개의 ARK가 만들어졌습니다. ARK는 48시간 이내에 생성을 시작할 수 있는 개방형, 주류, 비페이월, 분산형 영구 식별자입니다. ARK는 DOI, URN 및 핸들과 유사합니다.
-
-
-🔤 Original: Archival Resource Key (Ark) Alliance
-
-🔗 Read more: https://arks.org/</description>
-      <guid isPermaLink="true">https://arks.org/</guid>
-      <pubDate>Sun, 09 Aug 2026 20:28:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49235486</comments>
+🔗 Read more: https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986</description>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986</guid>
+      <pubDate>Sun, 09 Aug 2026 21:52:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49236439</comments>
     </item>
   </channel>
 </rss>
