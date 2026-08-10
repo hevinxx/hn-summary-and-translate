@@ -6,21 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 13:06:49 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Implant – VS Code 的扩展，将其 API 公开给编码代理</title>
-      <link>https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</link>
-      <description>📝 为编码代理（Copilot Chat、Claude Code、Cursor、任何使用 MCP 的东西，或任何可以 shell 的东西）提供对 VS Code 和第三方扩展中的所有内容的实时访问。通过支持编辑器的相同语言服务器修改代码：结构重命名、快速修复和重构、组织导入、通过 WorkspaceEdit 安全文件创建/重命名/删除、格式化程序输出、源操作。 Implant 公开了一个 MCP 工具 run_vscode_script，该工具在运行的 VS Code 扩展主机内执行 JavaScript 代码片段，并具有对 vscode 的完全访问权限。
+      <title>Meta Muse Glimmer – 开放权重 30B 本地编码模型</title>
+      <link>https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</link>
+      <description>📝 Muse Glimmer 是一个拥有 300 亿个参数的模型，针对始终在线的本地代理工作流程进行了优化。 Muse Glimmer 针对这些本地用例进行了优化。 Muse Glimmer 接受过 100 多种语言数据的训练。
 
 
-🔤 Original: Implant – an extension to VS Code that exposes its APIs to coding agents
+🔤 Original: Meta Muse Glimmer – open weights 30B local coding model
 
-🔗 Read more: https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</description>
-      <guid isPermaLink="true">https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</guid>
-      <pubDate>Mon, 10 Aug 2026 09:22:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49241303</comments>
+🔗 Read more: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</description>
+      <guid isPermaLink="true">https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</guid>
+      <pubDate>Mon, 10 Aug 2026 10:10:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241679</comments>
+    </item>
+    <item>
+      <title>因为这还不够有趣：为什么语言会失败</title>
+      <link>https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</link>
+      <description>📝 这样把尸体分类，它们就干净地分开了。这句话解释了奥拉姆名单上的每一个异常现象。这个困难涉及所有三个轴。
+
+
+🔤 Original: Because It's Not Fun Enough: why languages fail
+
+🔗 Read more: https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</description>
+      <guid isPermaLink="true">https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</guid>
+      <pubDate>Mon, 10 Aug 2026 11:27:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242245</comments>
+    </item>
+    <item>
+      <title>C 中的尾部调用优化相对较新</title>
+      <link>https://lwn.net/Articles/1034703/</link>
+      <description>📝 C 中的尾调用优化相对较新 发布于 2025 年 8 月 21 日 22:11 UTC（星期四），作者：anton（订阅者，#25547） 父文章：Python、尾调用和性能 实际上，C 中的尾调用并没有永远存在。如果被调用者删除参数，这并不总是有效。 4，其中：“它无法处理间接调用”（这将在解释器调度的尾部调用中使用）。
+
+
+🔤 Original: Tail-call optimization in C is relatively recent
+
+🔗 Read more: https://lwn.net/Articles/1034703/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1034703/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:34:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242297</comments>
+    </item>
+    <item>
+      <title>Squeak/Smalltalk 6.1 发行说明</title>
+      <link>https://squeak.org/release_notes/6.1/</link>
+      <description>📝 这些发行说明针对在 Squeak 内部查看进行了优化，因为它们包含大量交互式示例。为了获得最佳体验，请下载 Squeak 并阅读其中的发行说明。下载 Squeak 在浏览器中尝试一下 (SqueakJS)。
+
+
+🔤 Original: Squeak/Smalltalk 6.1 Release Notes
+
+🔗 Read more: https://squeak.org/release_notes/6.1/</description>
+      <guid isPermaLink="true">https://squeak.org/release_notes/6.1/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242653</comments>
+    </item>
+    <item>
+      <title>50k 船名</title>
+      <link>https://www.beautifulpublicdata.com/boat-names/</link>
+      <description>📝 这些名称是从 NOAA 的海洋地籍“广播点”船舶交通数据中收集的。船主不一定必须向 NOAA 提交这些名称 - AIS 船舶名称并不是政府全面的船舶名称登记处。感觉棘手 不乏辛辣的船名。
+
+
+🔤 Original: 50k Boat Names
+
+🔗 Read more: https://www.beautifulpublicdata.com/boat-names/</description>
+      <guid isPermaLink="true">https://www.beautifulpublicdata.com/boat-names/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:58:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49243029</comments>
+    </item>
+    <item>
+      <title>Parametron：50 年代日本计算机，既不使用晶体管也不使用真空管</title>
+      <link>https://ethw.org/Milestones:Parametron,_1954</link>
+      <guid isPermaLink="true">https://ethw.org/Milestones:Parametron,_1954</guid>
+      <pubDate>Mon, 10 Aug 2026 10:29:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241846</comments>
+    </item>
+    <item>
+      <title>DeepSeek 的 OpenCode Go 用户费用为 1.14 美元/天；双 DGX 24 年来收支平衡</title>
+      <link>https://twitter.com/thdxr/status/2086599224674681242</link>
+      <description>📝 dax@thdxrOpenCode Go 用户平均花费 1 美元。上周在 Deepseek Flash v4 上每天运行 14 个双 DGX 设置，人们运行相同的成本为 10,000 美元，需要 24 年才能在 10 倍的使用量下实现收支平衡。 2. 4 年dax@thdxr5 月 25 有很多理由想要在本地运行模型，成本可能不是其中之一 11:43 PM · 2026 年 8 月 9 日。
+
+
+🔤 Original: DeepSeek costs OpenCode Go user $1.14/day; dual DGX breaks even in 24 years
+
+🔗 Read more: https://twitter.com/thdxr/status/2086599224674681242</description>
+      <guid isPermaLink="true">https://twitter.com/thdxr/status/2086599224674681242</guid>
+      <pubDate>Mon, 10 Aug 2026 12:24:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242728</comments>
+    </item>
+    <item>
+      <title>超过 181,000 份 AI 会议录音在笔记应用程序中完全开放</title>
+      <link>https://bobdahacker.com/blog/tldv-hack</link>
+      <description>📝 来自所有剩余 35,000 个域的公司会议。高峰月份是 2025 年 7 月，有 43,209 次会议。乌克兰数字化转型部的会议。
+
+
+🔤 Original: Over 181,000 AI meeting recordings left wide open in note taking app
+
+🔗 Read more: https://bobdahacker.com/blog/tldv-hack</description>
+      <guid isPermaLink="true">https://bobdahacker.com/blog/tldv-hack</guid>
+      <pubDate>Mon, 10 Aug 2026 12:26:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242739</comments>
+    </item>
+    <item>
+      <title>5000本晦涩难懂的书名的“香蕉”订单引发怀疑</title>
+      <link>https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</link>
+      <description>📝 然而许多人担心，有了这些批量订单，他们可能会签署自己的死刑令。与图书作者达成 50 亿美元和解。 “二手书现在正在发生这种情况，这是这种做法的另一个非常令人不安的例子。
+
+
+🔤 Original: A 'bananas' order for 5000 obscure book titles fuels suspicion
+
+🔗 Read more: https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</description>
+      <guid isPermaLink="true">https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:22:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242213</comments>
     </item>
   </channel>
 </rss>

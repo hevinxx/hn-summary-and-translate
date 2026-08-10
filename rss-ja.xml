@@ -6,21 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 13:06:49 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Implant – API をコーディング エージェントに公開する VS Code の拡張機能</title>
-      <link>https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</link>
-      <description>📝 コーディング エージェント (Copilot Chat、Claude Code、Cursor、MCP を話すもの、またはシェルアウトできるもの) に、VS Code およびサードパーティの拡張機能内に存在するすべてのものへのライブ アクセスを提供します。エディターを機能させるのと同じ言語サーバーを通じてコードを変更します。構造的な名前の変更、クイックフィックスとリファクタリング、インポートの整理、WorkspaceEdit による安全なファイルの作成/名前変更/削除、フォーマッタ出力、ソース アクション。 Implant は、vscode への完全なアクセス権を持ち、実行中の VS Code 拡張機能ホスト内で JavaScript スニペットを実行する単一の MCP ツール run_vscode_script を公開します。
+      <title>Meta Muse Glimmer – オープンウェイト 30B ローカルコーディングモデル</title>
+      <link>https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</link>
+      <description>📝 Muse Glimmer は、常時稼働のローカル エージェント ワークフロー向けに最適化された 300 億のパラメータ モデルです。 Muse Glimmer は、これらのローカルなユースケース向けに最適化されています。 Muse Glimmer は、100 を超える言語のデータに基づいてトレーニングされています。
 
 
-🔤 Original: Implant – an extension to VS Code that exposes its APIs to coding agents
+🔤 Original: Meta Muse Glimmer – open weights 30B local coding model
 
-🔗 Read more: https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</description>
-      <guid isPermaLink="true">https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</guid>
-      <pubDate>Mon, 10 Aug 2026 09:22:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49241303</comments>
+🔗 Read more: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</description>
+      <guid isPermaLink="true">https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</guid>
+      <pubDate>Mon, 10 Aug 2026 10:10:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241679</comments>
+    </item>
+    <item>
+      <title>十分に面白くないから: 言語はなぜ失敗するのか</title>
+      <link>https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</link>
+      <description>📝 このように死体を分類すると、きれいに分離されます。この声明は、オラムのリストにあるすべての異常を説明しています。その難易度は3つの軸すべてに当てはまります。
+
+
+🔤 Original: Because It's Not Fun Enough: why languages fail
+
+🔗 Read more: https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</description>
+      <guid isPermaLink="true">https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</guid>
+      <pubDate>Mon, 10 Aug 2026 11:27:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242245</comments>
+    </item>
+    <item>
+      <title>C における末尾呼び出しの最適化は比較的最近行われたものです</title>
+      <link>https://lwn.net/Articles/1034703/</link>
+      <description>📝 C における末尾呼び出しの最適化は比較的最近のこと 投稿日 2025 年 8 月 21 日 22:11 UTC (Thu) by anton (subscriber, #25547) 親記事: Python、末尾呼び出し、パフォーマンス 実際には、C における末尾呼び出しは永遠に存在していたわけではありません。呼び出し先が引数を削除した場合、これは常に機能するとは限りません。そのうちの 4 つは、「間接呼び出しを処理できません」です (これは、インタープリターのディスパッチのための末尾呼び出しで使用される可能性があります)。
+
+
+🔤 Original: Tail-call optimization in C is relatively recent
+
+🔗 Read more: https://lwn.net/Articles/1034703/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1034703/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:34:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242297</comments>
+    </item>
+    <item>
+      <title>Squeak/Smalltalk 6.1 リリースノート</title>
+      <link>https://squeak.org/release_notes/6.1/</link>
+      <description>📝 これらのリリース ノートには対話型の例が多数含まれているため、Squeak 内で表示するために最適化されています。最高のエクスペリエンスを得るには、Squeak をダウンロードし、そこにあるリリース ノートをお読みください。 Squeak をダウンロード ブラウザ (SqueakJS) で試してください。
+
+
+🔤 Original: Squeak/Smalltalk 6.1 Release Notes
+
+🔗 Read more: https://squeak.org/release_notes/6.1/</description>
+      <guid isPermaLink="true">https://squeak.org/release_notes/6.1/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242653</comments>
+    </item>
+    <item>
+      <title>50,000 のボート名</title>
+      <link>https://www.beautifulpublicdata.com/boat-names/</link>
+      <description>📝 これらの名前は、NOAA の海洋地籍の「ブロードキャスト ポイント」船舶交通データから収集されました。ボートの所有者は必ずしもこれらの名前を NOAA に提出する必要はありません。AIS の船舶名は、ボート名の包括的な政府登録簿ではありません。こわばった感じ スパイシーな船名には事欠きません。
+
+
+🔤 Original: 50k Boat Names
+
+🔗 Read more: https://www.beautifulpublicdata.com/boat-names/</description>
+      <guid isPermaLink="true">https://www.beautifulpublicdata.com/boat-names/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:58:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49243029</comments>
+    </item>
+    <item>
+      <title>パラメトロン：トランジスタも真空管も使わない50年代の日本製コンピュータ</title>
+      <link>https://ethw.org/Milestones:Parametron,_1954</link>
+      <guid isPermaLink="true">https://ethw.org/Milestones:Parametron,_1954</guid>
+      <pubDate>Mon, 10 Aug 2026 10:29:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241846</comments>
+    </item>
+    <item>
+      <title>DeepSeek の料金は、OpenCode Go ユーザーに 1 日あたり 1.14 ドルかかります。デュアル DGX は 24 年間で収支均衡</title>
+      <link>https://twitter.com/thdxr/status/2086599224674681242</link>
+      <description>📝 dax@thdxr 平均的な OpenCode Go ユーザーは 1 ドルを費やしました。先週ディープシーク フラッシュ v4 で 1 日あたり 14 人が同じことを実行するために実行しているデュアル DGX セットアップのコストは 10,000 ドルです。使用量の 10 倍で損益分岐点になるまでに 24 年かかります。2. 4 年dax@thdxrMay 25モデルをローカルで実行したい理由はたくさんありますが、コストはおそらくそのどれにも当てはまりません11:43 PM · 2026 年 8 月 9 日248。
+
+
+🔤 Original: DeepSeek costs OpenCode Go user $1.14/day; dual DGX breaks even in 24 years
+
+🔗 Read more: https://twitter.com/thdxr/status/2086599224674681242</description>
+      <guid isPermaLink="true">https://twitter.com/thdxr/status/2086599224674681242</guid>
+      <pubDate>Mon, 10 Aug 2026 12:24:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242728</comments>
+    </item>
+    <item>
+      <title>181,000 件を超える AI 会議の記録がメモアプリに広く残されている</title>
+      <link>https://bobdahacker.com/blog/tldv-hack</link>
+      <description>📝 残りの 35,000 ドメインすべてからの企業会議。ピーク月は 2025 年 7 月で、会議数は 43,209 件でした。ウクライナデジタル変革省からの会合。
+
+
+🔤 Original: Over 181,000 AI meeting recordings left wide open in note taking app
+
+🔗 Read more: https://bobdahacker.com/blog/tldv-hack</description>
+      <guid isPermaLink="true">https://bobdahacker.com/blog/tldv-hack</guid>
+      <pubDate>Mon, 10 Aug 2026 12:26:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242739</comments>
+    </item>
+    <item>
+      <title>5000冊のあいまいな本のタイトルに対する「バナナ」注文が疑惑を煽る</title>
+      <link>https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</link>
+      <description>📝 しかし、多くの人は、こうした大量注文により、自分自身の死刑令状に署名することになるのではないかと懸念している。書籍著者と50億の和解。 「このようなことが現在古本で起こっているということは、この慣行のもう一つの非常に厄介な例です。
+
+
+🔤 Original: A 'bananas' order for 5000 obscure book titles fuels suspicion
+
+🔗 Read more: https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</description>
+      <guid isPermaLink="true">https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:22:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242213</comments>
     </item>
   </channel>
 </rss>

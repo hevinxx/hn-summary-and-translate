@@ -6,18 +6,95 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 13:06:49 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Implant – an extension to VS Code that exposes its APIs to coding agents</title>
-      <link>https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</link>
-      <description>📝 Give coding agents (Copilot Chat, Claude Code, Cursor, anything that speaks MCP — or anything that can shell out) live access to everything that lives inside VS Code and third-party extensions. Modify the code through the same language server that powers the editor: structural rename, quick-fixes and refactors, organize imports, safe file create/rename/delete via WorkspaceEdit, formatter output, source actions. Implant exposes a single MCP tool, run_vscode_script, that executes a JavaScript snippet inside the running VS Code extension host with full access to the vscode.
+      <title>Meta Muse Glimmer – open weights 30B local coding model</title>
+      <link>https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</link>
+      <description>📝 Muse Glimmer is a 30-billion-parameter model optimized for always-on local agent workflows. Muse Glimmer is optimized for these local use cases. Muse Glimmer is trained on data from more than 100 languages.
 
-🔗 Read more: https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</description>
-      <guid isPermaLink="true">https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</guid>
-      <pubDate>Mon, 10 Aug 2026 09:22:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49241303</comments>
+🔗 Read more: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</description>
+      <guid isPermaLink="true">https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</guid>
+      <pubDate>Mon, 10 Aug 2026 10:10:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241679</comments>
+    </item>
+    <item>
+      <title>Because It's Not Fun Enough: why languages fail</title>
+      <link>https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</link>
+      <description>📝 Sort the corpses that way and they separate cleanly. That statement explains every anomaly on Oram's list. That difficulty hits all three axes for.
+
+🔗 Read more: https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</description>
+      <guid isPermaLink="true">https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</guid>
+      <pubDate>Mon, 10 Aug 2026 11:27:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242245</comments>
+    </item>
+    <item>
+      <title>Tail-call optimization in C is relatively recent</title>
+      <link>https://lwn.net/Articles/1034703/</link>
+      <description>📝 Tail-call optimization in C is relatively recent Posted Aug 21, 2025 22:11 UTC (Thu) by anton (subscriber, #25547) Parent article: Python, tail calls, and performance Actually tail calls in C have not been around forever. That would not always work if the callee removed the arguments. 4, among them: "It cannot handle indirect calls" (which would have been used in tail calls for interpreter dispatch).
+
+🔗 Read more: https://lwn.net/Articles/1034703/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1034703/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:34:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242297</comments>
+    </item>
+    <item>
+      <title>Squeak/Smalltalk 6.1 Release Notes</title>
+      <link>https://squeak.org/release_notes/6.1/</link>
+      <description>📝 These release notes are optimized for viewing inside Squeak, as they contain a lot of interactive examples. For the best experience, download Squeak and read the release notes there. Download Squeak Try it in browser (SqueakJS).
+
+🔗 Read more: https://squeak.org/release_notes/6.1/</description>
+      <guid isPermaLink="true">https://squeak.org/release_notes/6.1/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242653</comments>
+    </item>
+    <item>
+      <title>50k Boat Names</title>
+      <link>https://www.beautifulpublicdata.com/boat-names/</link>
+      <description>📝 These names were collected from NOAA’s Marine Cadastre “broadcast points” vessel traffic data. Boat owners don’t necessarily have to submit these names to NOAA — AIS vessel names aren’t a comprehensive government registry of boat names. Feeling Knotty There’s no shortage of spicy boat names.
+
+🔗 Read more: https://www.beautifulpublicdata.com/boat-names/</description>
+      <guid isPermaLink="true">https://www.beautifulpublicdata.com/boat-names/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:58:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49243029</comments>
+    </item>
+    <item>
+      <title>Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes</title>
+      <link>https://ethw.org/Milestones:Parametron,_1954</link>
+      <guid isPermaLink="true">https://ethw.org/Milestones:Parametron,_1954</guid>
+      <pubDate>Mon, 10 Aug 2026 10:29:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241846</comments>
+    </item>
+    <item>
+      <title>DeepSeek costs OpenCode Go user $1.14/day; dual DGX breaks even in 24 years</title>
+      <link>https://twitter.com/thdxr/status/2086599224674681242</link>
+      <description>📝 dax@thdxrthe average OpenCode Go user spent $1. 14 per day on deepseek flash v4 this past week the dual DGX setup people are running to do the same costs $10,000 it takes 24 years to break even at 10x the usage it takes 2. 4 yearsdax@thdxrMay 25there are a lot of reasons to want to run models locally cost is probably not one of them11:43 PM · Aug 9, 2026248.
+
+🔗 Read more: https://twitter.com/thdxr/status/2086599224674681242</description>
+      <guid isPermaLink="true">https://twitter.com/thdxr/status/2086599224674681242</guid>
+      <pubDate>Mon, 10 Aug 2026 12:24:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242728</comments>
+    </item>
+    <item>
+      <title>Over 181,000 AI meeting recordings left wide open in note taking app</title>
+      <link>https://bobdahacker.com/blog/tldv-hack</link>
+      <description>📝 Corporate meetings from all 35,000 remaining domains. Peak month was July 2025 with 43,209 meetings. Meetings from Ukraine's Ministry of Digital Transformation.
+
+🔗 Read more: https://bobdahacker.com/blog/tldv-hack</description>
+      <guid isPermaLink="true">https://bobdahacker.com/blog/tldv-hack</guid>
+      <pubDate>Mon, 10 Aug 2026 12:26:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242739</comments>
+    </item>
+    <item>
+      <title>A 'bananas' order for 5000 obscure book titles fuels suspicion</title>
+      <link>https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</link>
+      <description>📝 Yet many fear that, with these bulk orders, they may be signing their own death warrant. 5 billion settlement with book authors. “That this is now happening with second-hand books is another highly troubling example of this practice.
+
+🔗 Read more: https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</description>
+      <guid isPermaLink="true">https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:22:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242213</comments>
     </item>
   </channel>
 </rss>

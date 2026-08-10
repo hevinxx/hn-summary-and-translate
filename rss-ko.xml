@@ -6,21 +6,119 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 13:06:49 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Implant – API를 코딩 에이전트에 노출하는 VS Code의 확장입니다.</title>
-      <link>https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</link>
-      <description>📝 코딩 에이전트(Copilot Chat, Claude Code, Cursor, MCP를 말하는 모든 것 또는 쉘 아웃할 수 있는 모든 것)가 VS Code 및 타사 확장 내에 있는 모든 것에 대한 실시간 액세스를 제공합니다. 구조적 이름 바꾸기, 빠른 수정 및 리팩터링, 가져오기 구성, WorkspaceEdit을 통한 안전한 파일 생성/이름 바꾸기/삭제, 포맷터 출력, 소스 작업 등 편집기를 구동하는 동일한 언어 서버를 통해 코드를 수정합니다. Implant는 vscode에 대한 전체 액세스 권한이 있는 실행 중인 VS Code 확장 호스트 내에서 JavaScript 조각을 실행하는 단일 MCP 도구인 run_vscode_script를 노출합니다.
+      <title>Meta Muse Glimmer – 오픈 웨이트 30B 로컬 코딩 모델</title>
+      <link>https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</link>
+      <description>📝 Muse Glimmer는 상시 로컬 에이전트 워크플로우에 최적화된 300억 매개변수 모델입니다. Muse Glimmer는 이러한 로컬 사용 사례에 최적화되어 있습니다. Muse Glimmer는 100개 이상의 언어로 작성된 데이터에 대한 교육을 받았습니다.
 
 
-🔤 Original: Implant – an extension to VS Code that exposes its APIs to coding agents
+🔤 Original: Meta Muse Glimmer – open weights 30B local coding model
 
-🔗 Read more: https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</description>
-      <guid isPermaLink="true">https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</guid>
-      <pubDate>Mon, 10 Aug 2026 09:22:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49241303</comments>
+🔗 Read more: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</description>
+      <guid isPermaLink="true">https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</guid>
+      <pubDate>Mon, 10 Aug 2026 10:10:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241679</comments>
+    </item>
+    <item>
+      <title>충분히 재미가 없기 때문에: 언어가 실패하는 이유</title>
+      <link>https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</link>
+      <description>📝 이렇게 시체를 분류하면 깨끗하게 분리됩니다. 그 진술은 Oram의 목록에 있는 모든 변칙성을 설명합니다. 그 어려움은 세 축 모두에 영향을 미칩니다.
+
+
+🔤 Original: Because It's Not Fun Enough: why languages fail
+
+🔗 Read more: https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</description>
+      <guid isPermaLink="true">https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough</guid>
+      <pubDate>Mon, 10 Aug 2026 11:27:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242245</comments>
+    </item>
+    <item>
+      <title>C의 테일콜 최적화는 비교적 최근에 이루어졌습니다.</title>
+      <link>https://lwn.net/Articles/1034703/</link>
+      <description>📝 C의 테일 콜 최적화는 비교적 최근에 게시되었습니다. 2025년 8월 21일 22:11 UTC(목) 작성자: anton(구독자, #25547) 상위 기사: Python, 테일 콜 및 성능 실제로 C의 테일 콜은 영원히 존재하지 않았습니다. 피호출자가 인수를 제거하면 항상 작동하지 않습니다. 4, 그 중: "간접 통화는 처리할 수 없습니다."(통역 파견을 위한 테일 콜에 사용되었을 것임).
+
+
+🔤 Original: Tail-call optimization in C is relatively recent
+
+🔗 Read more: https://lwn.net/Articles/1034703/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1034703/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:34:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242297</comments>
+    </item>
+    <item>
+      <title>Squeak/Smalltalk 6.1 릴리스 노트</title>
+      <link>https://squeak.org/release_notes/6.1/</link>
+      <description>📝 이 릴리스 노트에는 많은 대화형 예제가 포함되어 있으므로 Squeak 내부에서 보는 데 최적화되어 있습니다. 최상의 경험을 위해 Squeak을 다운로드하고 거기에서 릴리스 노트를 읽어보세요. Squeak 다운로드 브라우저(SqueakJS)에서 사용해 보세요.
+
+
+🔤 Original: Squeak/Smalltalk 6.1 Release Notes
+
+🔗 Read more: https://squeak.org/release_notes/6.1/</description>
+      <guid isPermaLink="true">https://squeak.org/release_notes/6.1/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242653</comments>
+    </item>
+    <item>
+      <title>50,000개의 보트 이름</title>
+      <link>https://www.beautifulpublicdata.com/boat-names/</link>
+      <description>📝 이 이름은 NOAA의 해양 지적부 "방송 지점" 선박 교통 데이터에서 수집되었습니다. 보트 소유자는 반드시 이러한 이름을 NOAA에 제출할 필요는 없습니다. AIS 선박 이름은 정부의 보트 이름에 대한 포괄적인 등록부가 아닙니다. Feeling Knotty 매운 보트 이름이 부족하지 않습니다.
+
+
+🔤 Original: 50k Boat Names
+
+🔗 Read more: https://www.beautifulpublicdata.com/boat-names/</description>
+      <guid isPermaLink="true">https://www.beautifulpublicdata.com/boat-names/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:58:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49243029</comments>
+    </item>
+    <item>
+      <title>Parametron: 트랜지스터도 진공관도 사용하지 않는 50년대 일본 컴퓨터</title>
+      <link>https://ethw.org/Milestones:Parametron,_1954</link>
+      <guid isPermaLink="true">https://ethw.org/Milestones:Parametron,_1954</guid>
+      <pubDate>Mon, 10 Aug 2026 10:29:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49241846</comments>
+    </item>
+    <item>
+      <title>DeepSeek 비용은 OpenCode Go 사용자에게 하루 $1.14입니다. 듀얼 DGX, 24년 만에 깨졌다</title>
+      <link>https://twitter.com/thdxr/status/2086599224674681242</link>
+      <description>📝 dax@thdxr평균 OpenCode Go 사용자는 1달러를 지출했습니다. 지난 주 deepseek 플래시 v4에서 하루 14번 듀얼 DGX 설정 사람들이 동일한 비용을 수행하기 위해 실행하고 있습니다. $10,000 소요되는 사용량의 10배로 손익분기점에 도달하는 데 24년이 걸립니다. 4년dax@thdxr5월 25일 로컬에서 모델을 실행하려는 많은 이유가 있습니다. 비용은 아마도 그 중 하나가 아닐 것입니다. 2026년 8월 9일 오후 11시 43분248.
+
+
+🔤 Original: DeepSeek costs OpenCode Go user $1.14/day; dual DGX breaks even in 24 years
+
+🔗 Read more: https://twitter.com/thdxr/status/2086599224674681242</description>
+      <guid isPermaLink="true">https://twitter.com/thdxr/status/2086599224674681242</guid>
+      <pubDate>Mon, 10 Aug 2026 12:24:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242728</comments>
+    </item>
+    <item>
+      <title>181,000개 이상의 AI 회의 녹음이 메모 작성 앱에 활짝 열려 있습니다.</title>
+      <link>https://bobdahacker.com/blog/tldv-hack</link>
+      <description>📝 나머지 35,000개 도메인 전체에서 기업 회의가 열립니다. 가장 많은 달은 2025년 7월로 회의 수가 43,209건이었습니다. 우크라이나 디지털 혁신부 회의.
+
+
+🔤 Original: Over 181,000 AI meeting recordings left wide open in note taking app
+
+🔗 Read more: https://bobdahacker.com/blog/tldv-hack</description>
+      <guid isPermaLink="true">https://bobdahacker.com/blog/tldv-hack</guid>
+      <pubDate>Mon, 10 Aug 2026 12:26:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242739</comments>
+    </item>
+    <item>
+      <title>알려지지 않은 책 제목 5000권에 대한 '바나나' 주문으로 의혹 증폭</title>
+      <link>https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</link>
+      <description>📝 그러나 많은 사람들은 이러한 대량 주문으로 인해 자신들이 사형 영장에 서명하게 될 수도 있다고 우려합니다. 책 작가들과 50억 합의. “이제 중고 서적에서 이런 일이 일어나고 있다는 것은 이러한 관행의 또 다른 매우 골치 아픈 예입니다.
+
+
+🔤 Original: A 'bananas' order for 5000 obscure book titles fuels suspicion
+
+🔗 Read more: https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</description>
+      <guid isPermaLink="true">https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/</guid>
+      <pubDate>Mon, 10 Aug 2026 11:22:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49242213</comments>
     </item>
   </channel>
 </rss>
