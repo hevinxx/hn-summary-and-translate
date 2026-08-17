@@ -6,60 +6,294 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 17 Aug 2026 12:42:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 18:40:08 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>人们担心美国的偿付能力</title>
-      <link>https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e</link>
-      <description>📝 在任何设备上以数字方式完整访问高质量的《金融时报》新闻。选择包含内容 全球新闻与分析 专家意见 FT Android 和 iOS 版应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精心策划的时事通讯 通过 myFTFT 视频和播客关注主题并设置提醒 20 篇每月赠送文章可供分享 Lex：FT 的旗舰投资专栏 15 多篇由顶尖专家撰写的高级时事通讯 FT 数字版：我们的数字化印刷版标准数字每月 45 美元获得优质 FT 新闻的基本数字访问权限在任何设备上。选择包含内容 全球新闻和分析 专家意见 FT Android 和 iOS 版应用程序 FT 编辑：在 iOS 和网络上访问 FirstFT：当天最大的故事 20 多篇精选新闻通讯 通过 myFTFT 视频和播客关注主题并设置提醒 20 篇每月赠送文章分享 Lex：FT 的旗舰投资专栏 15 多篇由领先专家撰写的高级新闻通讯 FT 数字版：我们的数字化印刷版 检查您是否已通过您的大学或组织访问。
+      <title>DuckDB v2.0 预览</title>
+      <link>https://duckdb.org/2026/08/17/duckdb-20-highlights</link>
+      <description>📝 DuckDB v2 预览。 DuckDB 作为服务器：Quack 和 CONNECT DuckDB 从第一天起就是一个进程内数据库。例如： DuckDB 服务器 CALL quack_serve( token = 'my_token' ); quack：DuckDB 客户端 ATTACH 'quack：服务器。
 
 
-🔤 Original: People are worried about America's solvency
+🔤 Original: A Preview of DuckDB v2.0
 
-🔗 Read more: https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e</description>
-      <guid isPermaLink="true">https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e</guid>
-      <pubDate>Mon, 17 Aug 2026 11:45:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49329347</comments>
+🔗 Read more: https://duckdb.org/2026/08/17/duckdb-20-highlights</description>
+      <guid isPermaLink="true">https://duckdb.org/2026/08/17/duckdb-20-highlights</guid>
+      <pubDate>Mon, 17 Aug 2026 13:46:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49330781</comments>
     </item>
     <item>
-      <title>Show HN：Desktopcolors.com – 经典操作系统纯色背景的博物馆</title>
-      <link>https://desktopcolors.com</link>
-      <description>📝 0↗1985 · Windows 第一个 Windows — 桌面从两种颜色抖动到假冒第三种颜色。 1 种颜色#808080Xfce↗1996 · 桌面环境具有广泛、实用调色板的轻量级 Unix 桌面。
+      <title>AI 生成的 GitHub Copilot “Autofix” 允许 Snowflake 的 Jira 受到损害</title>
+      <link>https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</link>
+      <description>📝 该问题允许未经身份验证的用户通过打开带有特制标题的 GitHub 问题，在 GitHub Actions 运行程序中执行任意命令。 + run: TITLE=$(echo '${{ github.event_name == 'issues' &amp;&amp; github.
 
 
-🔤 Original: Show HN: Desktopcolors.com – A museum for solid background colors of classic OS
+🔤 Original: AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira
 
-🔗 Read more: https://desktopcolors.com</description>
-      <guid isPermaLink="true">https://desktopcolors.com</guid>
-      <pubDate>Mon, 17 Aug 2026 07:51:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49327643</comments>
+🔗 Read more: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</description>
+      <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</guid>
+      <pubDate>Mon, 17 Aug 2026 14:18:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49331423</comments>
     </item>
     <item>
-      <title>自托管电子邮件继续急剧下降</title>
-      <link>https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/</link>
-      <description>📝 DMARC 记录说明当邮件身份验证失败时会发生什么情况。这些领域并没有消失，而是消失了。他们搬家了。 DMARC：到处采用，无处强制执行 当前快照中的 458,467 个域发布了 DMARC 记录。
+      <title>Qwen3.8 27B 人工分析得分 52</title>
+      <link>https://artificialanalysis.ai/models/qwen3-8-27b</link>
+      <description>📝 每 100 万代币 15–1 美元&gt;每 100 万代币 1 美元亮点智能人工分析智能指数 · 越高越好速度每秒输出代币 · 越高越好每个任务的成本每个智能指数任务的加权平均成本 (美元) · 越低越好提示选项智能人工分析智能指数更新了代理索引更新了人工分析智能指数人工分析智能指数 v4.1 1、SciCode、Humanity's Last Exam、GPQA Diamond、CritPt、AA-Omniscience、AA-LCR29（共 609 个模型）新添加来自特定提供商的模型推理模型由灯泡图标表示人工分析智能索引人工分析智能索引 v4.1开放权重/专有推理/非推理仅文本/多模式输入开放权重/专有的人工分析智能指数 v4。
 
 
-🔤 Original: Self hosted email continues to steeply decline
+🔤 Original: Qwen3.8 27B scores 52 on Artificial Analysis
 
-🔗 Read more: https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/</description>
-      <guid isPermaLink="true">https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/</guid>
-      <pubDate>Mon, 17 Aug 2026 10:45:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49328911</comments>
+🔗 Read more: https://artificialanalysis.ai/models/qwen3-8-27b</description>
+      <guid isPermaLink="true">https://artificialanalysis.ai/models/qwen3-8-27b</guid>
+      <pubDate>Mon, 17 Aug 2026 17:25:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49334544</comments>
     </item>
     <item>
-      <title>谁拥有 Commodore？复古 PC 品牌仍然存在，但发生了很多变化</title>
-      <link>https://www.bgr.com/2233625/who-owns-commodore-retro-brand/</link>
-      <description>📝 拥有 Commodore 的技术计算机。这些产品已获得 Amiga Corporation (Clanto) 的许可。今天，Commodore 再次回归。
+      <title>与 Github.com 的事件</title>
+      <link>https://www.githubstatus.com/incidents/zkxwbgr0cnmx</link>
+      <description>📝 重新发送 OTP 订阅即表示您同意我们的隐私政策。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款。
 
 
-🔤 Original: Who Owns Commodore? The Retro PC Brand Still Exists, but a Lot Has Changed
+🔤 Original: Incident with Github.com
 
-🔗 Read more: https://www.bgr.com/2233625/who-owns-commodore-retro-brand/</description>
-      <guid isPermaLink="true">https://www.bgr.com/2233625/who-owns-commodore-retro-brand/</guid>
-      <pubDate>Mon, 17 Aug 2026 11:55:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49329430</comments>
+🔗 Read more: https://www.githubstatus.com/incidents/zkxwbgr0cnmx</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/incidents/zkxwbgr0cnmx</guid>
+      <pubDate>Mon, 17 Aug 2026 13:35:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49330597</comments>
+    </item>
+    <item>
+      <title>如何禁用或避免侵入性人工智能</title>
+      <link>https://www.librarian.net/notoai/</link>
+      <description>📝 其他应用程序中的其他功能 点击您的个人资料图标，选择 Gemini Apps 活动，然后选择关闭或关闭并删除活动。然后关闭Apple Intelligence选项。单击应用程序特定设置下的 Copilot。
+
+
+🔤 Original: How to disable or avoid intrusive AI
+
+🔗 Read more: https://www.librarian.net/notoai/</description>
+      <guid isPermaLink="true">https://www.librarian.net/notoai/</guid>
+      <pubDate>Mon, 17 Aug 2026 14:07:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49331220</comments>
+    </item>
+    <item>
+      <title>推出 HN：Speko (YC S26) – 用于语音 AI 的 OpenRouter</title>
+      <link>https://speko.ai/</link>
+      <description>📝 AgentSession({ stt: new openai.STT({ apiKey: key, baseURL, model: 'auto' }), llm: new openai.LLM({ apiKey: key, baseURL, model: 'auto' }), tts: new openai.
+
+
+🔤 Original: Launch HN: Speko (YC S26) – OpenRouter for Voice AI
+
+🔗 Read more: https://speko.ai/</description>
+      <guid isPermaLink="true">https://speko.ai/</guid>
+      <pubDate>Mon, 17 Aug 2026 15:36:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49332751</comments>
+    </item>
+    <item>
+      <title>GPT 5.6 Sol是OpenAI有史以来发布的最好的“视觉”模型</title>
+      <link>https://blog.roboflow.com/openai-gpt-5-6/</link>
+      <description>📝 Roboflow Playground 对象检测检测是 GPT-5 的所在。对象计数在整个 GPT-5 中改进了计数。落后 GPT-5 5 分。
+
+
+🔤 Original: GPT 5.6 Sol is the best "vision" model OpenAI ever released
+
+🔗 Read more: https://blog.roboflow.com/openai-gpt-5-6/</description>
+      <guid isPermaLink="true">https://blog.roboflow.com/openai-gpt-5-6/</guid>
+      <pubDate>Mon, 17 Aug 2026 12:09:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49329575</comments>
+    </item>
+    <item>
+      <title>太阳钟</title>
+      <link>https://sunclock.net/</link>
+      <description>📝 太阳时钟通过根据您的纬度设置其旋转方向来匹配这一点：如果您位于南半球，时钟将“向后”移动。添加了在钟面上显示奇数的选项。 ) 显示小时数字 显示奇数​​小时数字 显示小时标记 显示分针 显示分钟标记 显示分钟数字 纬度 ℹ︎ 使用十进制。
+
+
+🔤 Original: Sun Clock
+
+🔗 Read more: https://sunclock.net/</description>
+      <guid isPermaLink="true">https://sunclock.net/</guid>
+      <pubDate>Mon, 17 Aug 2026 16:37:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49333824</comments>
+    </item>
+    <item>
+      <title>询问 HN：GitHub 的替代品</title>
+      <link>https://news.ycombinator.com/item?id=49331033</link>
+      <description>📝 你想要一些像 GitHub 一样有效且感觉良好的东西吗？你需要像 GitHub Actions 这样的东西吗？ -- GitLab、Forgejo 和 Gitea 提供这些。
+
+
+🔤 Original: Ask HN: Alternatives to GitHub
+
+🔗 Read more: https://news.ycombinator.com/item?id=49331033</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49331033</guid>
+      <pubDate>Mon, 17 Aug 2026 13:59:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49331033</comments>
+    </item>
+    <item>
+      <title>法官为九号公共广播公司制定了检索档案数据的框架</title>
+      <link>https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/</link>
+      <description>📝 投诉称，铁山电视台拒绝归还 PBS 九号台的材料，因为 OSS（该电视台与该电视台签订存储服务合同的现已解散的公司）从技术上来说拥有铁山电视台数据的“物理服务存储”。 OSS 仍然承担这一义务。他对 9 号 PBS 的档案材料是否与其他 OSS 客户的数据混在一起表示担忧。
+
+
+🔤 Original: Judge sets framework for Nine PBS to retrieve archival data
+
+🔗 Read more: https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/</description>
+      <guid isPermaLink="true">https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/</guid>
+      <pubDate>Mon, 17 Aug 2026 16:11:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49333344</comments>
+    </item>
+    <item>
+      <title>如何将170个原子放入一个原子中</title>
+      <link>https://signoregalilei.com/2026/08/02/how-to-put-170-atoms-in-an-atom/</link>
+      <description>📝 如何将 170 个原子放入一个原子中 您可能已经知道原子大部分是空的。在实验室中，里德伯原子可以比普通原子宽 1000 倍以上——有足够的空间可以容纳更多原子。 BEC 中的其他几个原子被捕获在外层电子的膨胀轨道内。
+
+
+🔤 Original: How to put 170 atoms in an atom
+
+🔗 Read more: https://signoregalilei.com/2026/08/02/how-to-put-170-atoms-in-an-atom/</description>
+      <guid isPermaLink="true">https://signoregalilei.com/2026/08/02/how-to-put-170-atoms-in-an-atom/</guid>
+      <pubDate>Mon, 17 Aug 2026 14:21:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49331474</comments>
+    </item>
+    <item>
+      <title>内存价格在 12 个月内上涨 500%，达到有史以来最低价格的 10 倍</title>
+      <link>https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399</link>
+      <description>📝 如果您正在阅读此网站，您几乎不可能不知道内存价格已完全脱离现实。来自Tom's Hardware的最新视频在此处观看完整视频： 滑动以水平滚动 DDR5 内存套件定价变化（2025 → 2026） 内存套件速度和尺寸 2025 年 8 月 平均价格 2026 年 8 月 平均价格变化（同比） 4800 MT/s 2×16GB $90 $425 +$335+$372% 5200 MT/s 2×16GB $100 $480 +$380+380% 5600 MT/秒 2×16GB $116 $528 +$412+355% 6000 MT/秒 2×16GB $108 $572 +$463+429% 5600 MT/秒 2×32GB $191 $1118 +$927+485% 6000 MT/s 2×32GB $222 $1272 +$1050+473% 数字不言而喻；短短 12 个月的时间，DDR5 内存的成本本质上爆发了。过去 18 个月 64GB DDR5-6000 内存套件的价格。
+
+
+🔤 Original: Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices
+
+🔗 Read more: https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399</guid>
+      <pubDate>Mon, 17 Aug 2026 17:52:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49334960</comments>
+    </item>
+    <item>
+      <title>给你的朋友买电池</title>
+      <link>https://domenkozar.com/2026/08/17/buy-your-friends-batteries/</link>
+      <description>📝 创建电池生日俱乐部。国家 平均便宜价格 平均昂贵价格 平均每天节省 2025 年节省 €1,600 回报 德国 €0。电池在产生电力和使用电力时也会脱钩。
+
+
+🔤 Original: Buy Your Friends Batteries
+
+🔗 Read more: https://domenkozar.com/2026/08/17/buy-your-friends-batteries/</description>
+      <guid isPermaLink="true">https://domenkozar.com/2026/08/17/buy-your-friends-batteries/</guid>
+      <pubDate>Mon, 17 Aug 2026 16:45:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49333932</comments>
+    </item>
+    <item>
+      <title>显示 HN：推箱子 AI 求解器</title>
+      <link>https://mkornreich.me/projects/sokoban/</link>
+      <description>📝 在这种变体中，守门员还必须射门得分。每个盒子和守门员。由我的推箱子解算器构建。
+
+
+🔤 Original: Show HN: Sokoban AI Solver
+
+🔗 Read more: https://mkornreich.me/projects/sokoban/</description>
+      <guid isPermaLink="true">https://mkornreich.me/projects/sokoban/</guid>
+      <pubDate>Mon, 17 Aug 2026 13:07:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49330215</comments>
+    </item>
+    <item>
+      <title>我如何开发 Am29000 C 编译器和 Web 浏览器</title>
+      <link>https://nanochess.org/am29000_c_compiler_web_browser.html</link>
+      <description>📝 我正在搜索有关 Am29000 处理器的任何信息，并找到了有关 High-C 29k 编译器和 GNU C 编译器 v2 的信息。 1 支持 Am29000。这是我的 C 编译器 pr 的软盘图片。
+
+
+🔤 Original: How I developed an Am29000 C compiler and web browser
+
+🔗 Read more: https://nanochess.org/am29000_c_compiler_web_browser.html</description>
+      <guid isPermaLink="true">https://nanochess.org/am29000_c_compiler_web_browser.html</guid>
+      <pubDate>Sun, 16 Aug 2026 20:41:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49323474</comments>
+    </item>
+    <item>
+      <title>Show HN：Saggar，一款 Mac 终端，可让会议和您的注意力井井有条</title>
+      <link>https://saggar.marginalutility.dev/</link>
+      <description>📝 在远离 MacSaggarmax 工作室的地方使用 Saggar。 Saggar 在配对期间和每次请求时都会验证帐户。您的帐户，两端设备仅在登录到您的帐户时配对。
+
+
+🔤 Original: Show HN: Saggar, a Mac terminal that keeps sessions and your attention organized
+
+🔗 Read more: https://saggar.marginalutility.dev/</description>
+      <guid isPermaLink="true">https://saggar.marginalutility.dev/</guid>
+      <pubDate>Mon, 17 Aug 2026 14:25:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49331551</comments>
+    </item>
+    <item>
+      <title>苹果的应用程序跟踪透明度比竞争对手更好地对待自己的应用程序</title>
+      <link>https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html</link>
+      <description>📝 苹果改变了应用程序新闻稿中个性化广告的规则 17。此外，苹果还提供自己的应用程序和广告空间。苹果将​​修改同意提示并简化同意请求根据现已宣布具有约束力的承诺，苹果将更紧密地调整自家产品和第三方应用程序的同意提示。
+
+
+🔤 Original: Apple's App Tracking Transparency treated its own apps better than rivals
+
+🔗 Read more: https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html</description>
+      <guid isPermaLink="true">https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html</guid>
+      <pubDate>Mon, 17 Aug 2026 14:07:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49331222</comments>
+    </item>
+    <item>
+      <title>随着法律斗争达到关键时刻，Meta 面临“天文数字”后果</title>
+      <link>https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html</link>
+      <description>📝 新墨西哥州 AG 劳尔·托雷兹 (Raúl Torrez) 刚刚在该州击败梅塔 (Meta) 后向 CNBC 表示：“正如我所说，你一觉醒来就会得到头条新闻的判断，这是天文数字。” Meta 表示不同意新墨西哥州的裁决并计划上诉。 “这个州约有 200 万人口，”托雷兹说。
+
+
+🔤 Original: Meta faces 'astronomical' consequences as legal fight reaches critical moment
+
+🔗 Read more: https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html</guid>
+      <pubDate>Mon, 17 Aug 2026 18:06:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49335163</comments>
+    </item>
+    <item>
+      <title>每天如何运送数据库</title>
+      <link>https://turbopuffer.com/blog/control-plane</link>
+      <description>📝 这使客户的云帐户的其余部分保持隔离，但每个专用帐户都会产生我们通常希望避免的安全监控+合规性+计费开销。我们必须能够在不进入的情况下操作每个集群。在每个集群上，我们运行一个本地集群代理来实现一个简单的状态机。
+
+
+🔤 Original: How to ship a database every day
+
+🔗 Read more: https://turbopuffer.com/blog/control-plane</description>
+      <guid isPermaLink="true">https://turbopuffer.com/blog/control-plane</guid>
+      <pubDate>Mon, 17 Aug 2026 13:56:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49330978</comments>
+    </item>
+    <item>
+      <title>显示 HN：学习旗帜测验</title>
+      <link>https://flagquizzes.com/</link>
+      <description>📝 每对容易混淆的标志，以及分隔它们的细节。每个动物代表什么。从上面的世界国旗测验开始。
+
+
+🔤 Original: Show HN: Learn Flags Quiz
+
+🔗 Read more: https://flagquizzes.com/</description>
+      <guid isPermaLink="true">https://flagquizzes.com/</guid>
+      <pubDate>Mon, 17 Aug 2026 14:11:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49331288</comments>
+    </item>
+    <item>
+      <title>墨西哥打击沿海开发</title>
+      <link>https://yucatanmagazine.com/mexico-crackdown-on-coastal-development/</link>
+      <description>📝 这种严肃的立场与开发商此前学会规避的执法措施截然不同。认识到仅靠政府机构无法监控墨西哥广阔的海岸线，官员们正在积极鼓励公民参与执法工作。新环保时代。
+
+
+🔤 Original: Mexico crackdown on coastal development
+
+🔗 Read more: https://yucatanmagazine.com/mexico-crackdown-on-coastal-development/</description>
+      <guid isPermaLink="true">https://yucatanmagazine.com/mexico-crackdown-on-coastal-development/</guid>
+      <pubDate>Mon, 17 Aug 2026 12:10:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49329583</comments>
+    </item>
+    <item>
+      <title>Anthropic 对开源人工智能的战争</title>
+      <link>https://twitter.com/TheAhmadOsman/status/2065307070044234186</link>
+      <description>📝 想象一下，只有当您的代码库类似于未来的竞争对手时，调试器才会撒谎。该公司认为，安全控制可能会丧失，而且竞争模型会破坏构建前沿系统所需的投资。 ” 更糟糕的是：克劳德工作得如此出色，以至于信任人类变得危险。
+
+
+🔤 Original: Anthropic's War on open source AI
+
+🔗 Read more: https://twitter.com/TheAhmadOsman/status/2065307070044234186</description>
+      <guid isPermaLink="true">https://twitter.com/TheAhmadOsman/status/2065307070044234186</guid>
+      <pubDate>Mon, 17 Aug 2026 15:24:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49332564</comments>
     </item>
   </channel>
 </rss>
