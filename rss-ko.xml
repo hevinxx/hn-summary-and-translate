@@ -6,80 +6,181 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:47:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 15:33:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>AliExpress는 Bluetooth 다중 지점을 중단시키는 자동 WebAudio 지문 인식을 실행합니다.</title>
-      <link>https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</link>
-      <description>📝 AliExpress 홈페이지를 로드한 직후 휴대폰의 오디오 재생이 중단되었습니다. 오디오나 비디오 요소도 없었고 미디어 재생 호출도 없었으며 네비게이터도 없었습니다. 마침내 두 개의 숨겨진 오디오 컨텍스트를 발견했습니다.
+      <title>악성 Rust 크레이트 Arrayref가 빌드 타임 페이로드를 실행합니다.</title>
+      <link>https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/</link>
+      <description>📝 The real crate that macro authors depend on is proc-macro2. What the build script does The payload lives in the build script of proc-macro1 1. The malicious code is in the build script of proc-macro1, not in arrayref itself.
 
 
-🔤 Original: AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint
+🔤 Original: Malicious Rust crate Arrayref runs a build-time payload
 
-🔗 Read more: https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</description>
-      <guid isPermaLink="true">https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</guid>
-      <pubDate>Thu, 20 Aug 2026 10:08:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49372583</comments>
+🔗 Read more: https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/</description>
+      <guid isPermaLink="true">https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/</guid>
+      <pubDate>Thu, 20 Aug 2026 13:23:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374269</comments>
     </item>
     <item>
-      <title>Show HN: 기기에서 피아노를 자동 완성하도록 125M 모델을 훈련했습니다.</title>
-      <link>https://simedw.com/2026/08/20/midi-autocomplete/</link>
-      <description>📝 MIDI 파일에는 무엇이 들어있나요? 피치 후에는 속도 토큰만 유효합니다. 하나의 음표는 대략 4개의 자동 회귀 변환기 단계를 거쳤습니다.
+      <title>슬랙 코드</title>
+      <link>https://www.salesforce.com/introducing-slack-code/?bc=HL</link>
+      <description>📝 AI는 사람들이 다른 탭에서 혼자 하는 일이 아니라 팀이 실제로 일하는 방식의 일부일 때만 가치를 창출합니다. 코드 채널은 해당 작업을 공개적으로 가져오며, 나머지 팀이 이를 보고, 형성하고, 구축할 수 있습니다. Rob Seaman은 Salesforce Slack의 EVP이자 GM입니다.
 
 
-🔤 Original: Show HN: I trained a 125M model to autocomplete piano on-device
+🔤 Original: Slack Code
 
-🔗 Read more: https://simedw.com/2026/08/20/midi-autocomplete/</description>
-      <guid isPermaLink="true">https://simedw.com/2026/08/20/midi-autocomplete/</guid>
-      <pubDate>Thu, 20 Aug 2026 12:04:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49373456</comments>
+🔗 Read more: https://www.salesforce.com/introducing-slack-code/?bc=HL</description>
+      <guid isPermaLink="true">https://www.salesforce.com/introducing-slack-code/?bc=HL</guid>
+      <pubDate>Thu, 20 Aug 2026 14:21:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374965</comments>
     </item>
     <item>
-      <title>Proof of Human (YC S23)에서 기술 직원을 채용합니다</title>
-      <link>https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</link>
-      <description>📝 CAPTCHA나 사용자 마찰 없이 지속적인 인간 검증 Proof of Human은 마찰 없이 지속적인 인간 검증을 제공합니다. Proof of Human은 디지털 신원에 인간 증명 계층을 구축하는 연구 및 배포 회사입니다. Proof of Human은 영향력이 큰 연구를 생성하고 봇 탐지, 사기 방지 및 지속적인 인증 분야에서 이 연구를 제품화하는 것을 추구합니다.
+      <title>DiffusionGemma 기술 보고서</title>
+      <link>https://arxiv.org/abs/2608.00146</link>
+      <description>📝 ) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?) ScienceCast Toggle ScienceCast(ScienceCast란 무엇입니까?)
 
 
-🔤 Original: Proof of Human (YC S23) Is Hiring a Member of Technical Staff
+🔤 Original: DiffusionGemma Technical Report
 
-🔗 Read more: https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</guid>
-      <pubDate>Thu, 20 Aug 2026 12:00:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49373423</comments>
+🔗 Read more: https://arxiv.org/abs/2608.00146</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.00146</guid>
+      <pubDate>Thu, 20 Aug 2026 13:24:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374287</comments>
     </item>
     <item>
-      <title>BMI 너머 보기: 스마트폰 이미지를 통한 심대사 위험 추정</title>
-      <link>https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</link>
-      <description>📝 체성분 파이프라인 및 인슐린 저항성 분류 개요. 먼저 사전 훈련된 PhotoScan 모델로부터 체성분 지표를 추정하고, 사용자 인구통계와 결합된 체성분 특징을 인슐린 저항성 분류에 사용합니다. PhotoScan 작동 방식PhotoScan은 스마트폰 이미지에서 직접 기하학적 신체 정보를 추출하여 임상 측정을 우회합니다.
+      <title>27달러짜리 스마트 워치로 클로드와 함께 해킹하기</title>
+      <link>https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</link>
+      <description>📝 Pine Time은 오픈 소스 펌웨어를 실행하는 27달러짜리 스마트 시계입니다. 또한 최근에는 Apple Watch에 대한 맞춤형 Casio 시계 모드 구축에 관한 @levelsio의 트윗을 보았습니다. Claude는 이것에 성공했습니다.
 
 
-🔤 Original: Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery
+🔤 Original: Hacking with Claude on a $27 Smart Watch
 
-🔗 Read more: https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</description>
-      <guid isPermaLink="true">https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</guid>
-      <pubDate>Thu, 20 Aug 2026 11:03:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49372994</comments>
+🔗 Read more: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</description>
+      <guid isPermaLink="true">https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</guid>
+      <pubDate>Thu, 20 Aug 2026 14:08:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374772</comments>
     </item>
     <item>
-      <title>호주, 지역 뉴스 비용을 지불하지 않는 거대 기술 기업에 부과하는 법안 통과</title>
-      <link>https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/</link>
-      <guid isPermaLink="true">https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/</guid>
-      <pubDate>Thu, 20 Aug 2026 11:23:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49373123</comments>
+      <title>CIA 자금은 80년대 NeXT를 유지하는 데 도움이 되었습니다.</title>
+      <link>https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&amp;reflink=desktopwebshare_permalink</link>
+      <guid isPermaLink="true">https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&amp;reflink=desktopwebshare_permalink</guid>
+      <pubDate>Thu, 20 Aug 2026 00:15:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49368886</comments>
     </item>
     <item>
-      <title>리스크 엔지니어링</title>
-      <link>https://risk-engineering.org/</link>
-      <description>📝 위험 엔지니어링 이 사이트는 위험 엔지니어링, 손실 예방 및 안전 관리에 대한 e-러닝 코스웨어 및 교육 자료(슬라이드, 강의 노트, 문제 세트, Python 노트북…)를 제공합니다. 위험 공학은 위험 관리에 엔지니어링 기술과 방법론을 적용하는 것입니다. 여기에는 위험 식별, 위험 분석, 위험 평가 및 위험 처리가 포함됩니다.
+      <title>순위가 30 이상인 타원 곡선</title>
+      <link>https://elliptic-rank.icarm.cloud/curve/273</link>
+      <description>📝 0854 ★ 순위 ≥ 30 Faltings height34에 대한 기록입니다. com/icarm/elliptic-rank/commit/7717d4da140cd7ba4ef702c6f7841e00f3194c38. GRH+BSD에서 순위는 정확히 30입니다(https://arxiv를 적용하는 경우).
 
 
-🔤 Original: Risk Engineering
+🔤 Original: An elliptic curve of rank ≥ 30
 
-🔗 Read more: https://risk-engineering.org/</description>
-      <guid isPermaLink="true">https://risk-engineering.org/</guid>
-      <pubDate>Thu, 20 Aug 2026 10:18:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49372661</comments>
+🔗 Read more: https://elliptic-rank.icarm.cloud/curve/273</description>
+      <guid isPermaLink="true">https://elliptic-rank.icarm.cloud/curve/273</guid>
+      <pubDate>Thu, 20 Aug 2026 14:14:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374873</comments>
+    </item>
+    <item>
+      <title>모든 모델 요령</title>
+      <link>https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</link>
+      <description>📝 NIST는 0에서 부정 행위를 발견했습니다. 모델은 인터넷에서 게시된 솔루션을 검색하고 평가 인프라에서 플래그 파일을 읽고 컨테이너 메타데이터를 조사했습니다. 6) 각 기록을 처음부터 끝까지 감사하여 부정 행위 분류에 대해 모든 도구 호출을 분류했습니다.
+
+
+🔤 Original: Every Model Cheats
+
+🔗 Read more: https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</description>
+      <guid isPermaLink="true">https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</guid>
+      <pubDate>Thu, 20 Aug 2026 13:56:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374635</comments>
+    </item>
+    <item>
+      <title>오션 클린업(Ocean Cleanup)이 플라스틱 오염 위기를 해결하지 못한 이유</title>
+      <link>https://therevelator.org/why-ocean-cleanup-has-not-solved-plastic-pollution/</link>
+      <description>📝 Ocean Cleanup은 효과가 없었습니다. 전문가들이 그렇지 않을 것이라고 말한 이유 때문이었습니다. 이러한 비판과 피드백에도 불구하고 오션 클린업(Ocean Cleanup)은 현재까지 목표한 바를 달성하지 못했다는 사실에도 불구하고 해양 플라스틱 오염 및 해양 공학 전문가들이 작동하지 않을 것이라고 말한 바로 그 이유 때문에 오션 클린업(Ocean Cleanup)을 단념시키지 못했습니다. 배경 문제에 대한 오해: 해양 플라스틱 오염과 태평양 거대 쓰레기 더미 해양 플라스틱 오염이 큰 문제라는 것은 의심의 여지가 없습니다.
+
+
+🔤 Original: Why the Ocean Cleanup hasn't solved the plastic pollution crisis
+
+🔗 Read more: https://therevelator.org/why-ocean-cleanup-has-not-solved-plastic-pollution/</description>
+      <guid isPermaLink="true">https://therevelator.org/why-ocean-cleanup-has-not-solved-plastic-pollution/</guid>
+      <pubDate>Thu, 20 Aug 2026 12:58:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374036</comments>
+    </item>
+    <item>
+      <title>Xorg-서버 26.0.99.901</title>
+      <link>https://lists.x.org/archives/xorg-announce/2026-August/003741.html</link>
+      <description>📝 [공지] xorg-server 26. 901 [공지] xorg-server 26. xorg-server 21 이후 주목할만한 변경 사항이 있습니다.
+
+
+🔤 Original: Xorg-Server 26.0.99.901
+
+🔗 Read more: https://lists.x.org/archives/xorg-announce/2026-August/003741.html</description>
+      <guid isPermaLink="true">https://lists.x.org/archives/xorg-announce/2026-August/003741.html</guid>
+      <pubDate>Thu, 20 Aug 2026 12:50:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49373932</comments>
+    </item>
+    <item>
+      <title>롤빵 1.4</title>
+      <link>https://bun.com/blog/bun-v1.4</link>
+      <description>📝 4에는 Node.js에서 +1,517개의 테스트가 추가되었습니다. Node.js에서 +1,517개의 테스트를 추가했습니다. Bun은 Node.js와 100% 호환되지 않습니다.
+
+
+🔤 Original: Bun 1.4
+
+🔗 Read more: https://bun.com/blog/bun-v1.4</description>
+      <guid isPermaLink="true">https://bun.com/blog/bun-v1.4</guid>
+      <pubDate>Thu, 20 Aug 2026 14:10:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374797</comments>
+    </item>
+    <item>
+      <title>HN 표시: 오픈 소스 Stripe Connect 대안</title>
+      <link>https://zoneless.com</link>
+      <description>📝 Zoneless는 돈을 이동하기 위해 가장 지루한 암호화 기술인 스테이블 코인을 사용합니다. 지급 제공자를 변경하는 것은 어렵고 두렵습니다. 기존 설정을 건드리지 않고 지불 옵션으로 Zoneless를 추가하세요.
+
+
+🔤 Original: Show HN: Open-source Stripe Connect alternative
+
+🔗 Read more: https://zoneless.com</description>
+      <guid isPermaLink="true">https://zoneless.com</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49375244</comments>
+    </item>
+    <item>
+      <title>HN 표시: The MLC에서 청구되지 않은 로열티 6억 5600만 달러 중 귀하의 것이 있는지 확인하세요.</title>
+      <link>https://pub.doub.ly/</link>
+      <description>📝 각 상태의 의미 ✓좋아 보입니다. 모든 지분이 청구된 MLC의 작업과 연결됩니다. 일반적으로 이는 청구되지 않은 작업 비율입니다. 보통 그들은 모두 같은 일을 찾습니다.
+
+
+🔤 Original: Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours
+
+🔗 Read more: https://pub.doub.ly/</description>
+      <guid isPermaLink="true">https://pub.doub.ly/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49375237</comments>
+    </item>
+    <item>
+      <title>CI jobs artifacts should not be difficult</title>
+      <link>https://deadsimpleci.sparrowhub.io/doc/job-artifacts</link>
+      <description>📝 DSCI - [D]ead [S]imple CI 작업 아티팩트 # 작업 아티팩트 DSCI는 파이프라인 내부의 아티팩트 프로세스 작업을 대폭 단순화합니다. pathlib import Path의 /usr/bin/python3 file_path = Path. 컨텍스트 관리자를 사용하여 파일을 안전하게 읽으십시오. open(file_path, "r", 인코딩="utf-8")을 file: content = file로 사용하십시오.
+
+🔗 Read more: https://deadsimpleci.sparrowhub.io/doc/job-artifacts</description>
+      <guid isPermaLink="true">https://deadsimpleci.sparrowhub.io/doc/job-artifacts</guid>
+      <pubDate>Thu, 20 Aug 2026 13:44:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374503</comments>
+    </item>
+    <item>
+      <title>Stwipe, OpenWouter 인수</title>
+      <link>https://stwipe.com/</link>
+      <description>📝 우리는 Wouter에게 번호 확인을 요청했습니다. 이는 라이브 엔드포인트입니다. 우리는 Wouter에게 시작해야 할지 물었습니다.
+
+
+🔤 Original: Stwipe Acquires OpenWouter
+
+🔗 Read more: https://stwipe.com/</description>
+      <guid isPermaLink="true">https://stwipe.com/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:04:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374738</comments>
     </item>
   </channel>
 </rss>

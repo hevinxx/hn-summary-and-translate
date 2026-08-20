@@ -6,65 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:47:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 15:33:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint</title>
-      <link>https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</link>
-      <description>📝 Shortly after loading the AliExpress homepage, audio from my phone would stop playing. There were no audio or video elements, no media playback calls, and navigator. That finally found it, two hidden audio contexts.
+      <title>Malicious Rust crate Arrayref runs a build-time payload</title>
+      <link>https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/</link>
+      <description>📝 The real crate that macro authors depend on is proc-macro2. What the build script does The payload lives in the build script of proc-macro1 1. The malicious code is in the build script of proc-macro1, not in arrayref itself.
 
-🔗 Read more: https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</description>
-      <guid isPermaLink="true">https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</guid>
-      <pubDate>Thu, 20 Aug 2026 10:08:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49372583</comments>
+🔗 Read more: https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/</description>
+      <guid isPermaLink="true">https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/</guid>
+      <pubDate>Thu, 20 Aug 2026 13:23:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374269</comments>
     </item>
     <item>
-      <title>Show HN: I trained a 125M model to autocomplete piano on-device</title>
-      <link>https://simedw.com/2026/08/20/midi-autocomplete/</link>
-      <description>📝 What’s in a MIDI File. After pitch, only velocity tokens are valid. One musical note took roughly four autoregressive transformer steps.
+      <title>Slack Code</title>
+      <link>https://www.salesforce.com/introducing-slack-code/?bc=HL</link>
+      <description>📝 AI only creates value when it's part of how a team actually works, not something people go do alone in another tab. Code channels bring that work into the open, where the rest of the team can see it, shape it, and build on it. Rob Seaman EVP and GM of Slack, Salesforce.
 
-🔗 Read more: https://simedw.com/2026/08/20/midi-autocomplete/</description>
-      <guid isPermaLink="true">https://simedw.com/2026/08/20/midi-autocomplete/</guid>
-      <pubDate>Thu, 20 Aug 2026 12:04:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49373456</comments>
+🔗 Read more: https://www.salesforce.com/introducing-slack-code/?bc=HL</description>
+      <guid isPermaLink="true">https://www.salesforce.com/introducing-slack-code/?bc=HL</guid>
+      <pubDate>Thu, 20 Aug 2026 14:21:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374965</comments>
     </item>
     <item>
-      <title>Proof of Human (YC S23) Is Hiring a Member of Technical Staff</title>
-      <link>https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</link>
-      <description>📝 continuous human verification without CAPTCHAs or user friction Proof of Human provides frictionless, continual human verification. Proof of Human is a research and deployment company building the proof-of-human layer in digital identity. Proof of Human seeks to produce high-impact research and to productize this research in bot detection, fraud prevention, and continuous authentication.
+      <title>DiffusionGemma Technical Report</title>
+      <link>https://arxiv.org/abs/2608.00146</link>
+      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
 
-🔗 Read more: https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</guid>
-      <pubDate>Thu, 20 Aug 2026 12:00:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49373423</comments>
+🔗 Read more: https://arxiv.org/abs/2608.00146</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.00146</guid>
+      <pubDate>Thu, 20 Aug 2026 13:24:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374287</comments>
     </item>
     <item>
-      <title>Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery</title>
-      <link>https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</link>
-      <description>📝 Overview of the body composition pipeline and insulin resistance classification. Body composition metrics are first estimated from the pretrained PhotoScan model, and the body composition features, combined with user demographics are used for insulin resistance classification. How PhotoScan worksPhotoScan bypasses the clinical measurements by extracting geometric body information directly from smartphone images.
+      <title>Hacking with Claude on a $27 Smart Watch</title>
+      <link>https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</link>
+      <description>📝 The Pine Time is a $27 smart watch that runs open source firmware. I’d also recently seen @levelsio’s Tweet about building a custom Casio watch face for is Apple Watch. Claude thrives on this.
 
-🔗 Read more: https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</description>
-      <guid isPermaLink="true">https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</guid>
-      <pubDate>Thu, 20 Aug 2026 11:03:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49372994</comments>
+🔗 Read more: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</description>
+      <guid isPermaLink="true">https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</guid>
+      <pubDate>Thu, 20 Aug 2026 14:08:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374772</comments>
     </item>
     <item>
-      <title>Australia passes law to levy tech giants that fail to pay for local news</title>
-      <link>https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/</link>
-      <guid isPermaLink="true">https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/</guid>
-      <pubDate>Thu, 20 Aug 2026 11:23:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49373123</comments>
+      <title>CIA funding helped keep NeXT afloat in the 80s</title>
+      <link>https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&amp;reflink=desktopwebshare_permalink</link>
+      <guid isPermaLink="true">https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&amp;reflink=desktopwebshare_permalink</guid>
+      <pubDate>Thu, 20 Aug 2026 00:15:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49368886</comments>
     </item>
     <item>
-      <title>Risk Engineering</title>
-      <link>https://risk-engineering.org/</link>
-      <description>📝 Risk Engineering This site provides e-learning courseware and training materials (slides, lecture notes, problem sets, Python notebooks…) on risk engineering, loss prevention and safety management. Risk engineering is the application of engineering skills and methodologies to the management of risk. It involves hazard identification, risk analysis, risk evaluation and risk treatment.
+      <title>An elliptic curve of rank ≥ 30</title>
+      <link>https://elliptic-rank.icarm.cloud/curve/273</link>
+      <description>📝 0854 ★ record for rank ≥ 30 Faltings height34. com/icarm/elliptic-rank/commit/7717d4da140cd7ba4ef702c6f7841e00f3194c38. Under GRH+BSD the rank is exactly 30 (if one applies https://arxiv.
 
-🔗 Read more: https://risk-engineering.org/</description>
-      <guid isPermaLink="true">https://risk-engineering.org/</guid>
-      <pubDate>Thu, 20 Aug 2026 10:18:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49372661</comments>
+🔗 Read more: https://elliptic-rank.icarm.cloud/curve/273</description>
+      <guid isPermaLink="true">https://elliptic-rank.icarm.cloud/curve/273</guid>
+      <pubDate>Thu, 20 Aug 2026 14:14:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374873</comments>
+    </item>
+    <item>
+      <title>Every Model Cheats</title>
+      <link>https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</link>
+      <description>📝 NIST found cheating in 0. Models searched the internet for published solutions, read flag files from the evaluation infrastructure, and probed container metadata. 6) audited each transcript end-to-end, classifying every tool call against a cheating taxonomy.
+
+🔗 Read more: https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</description>
+      <guid isPermaLink="true">https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</guid>
+      <pubDate>Thu, 20 Aug 2026 13:56:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374635</comments>
+    </item>
+    <item>
+      <title>Why the Ocean Cleanup hasn't solved the plastic pollution crisis</title>
+      <link>https://therevelator.org/why-ocean-cleanup-has-not-solved-plastic-pollution/</link>
+      <description>📝 The Ocean Cleanup didn’t work, for the reasons experts said it wouldn’t. That criticism and feedback haven’t dissuaded The Ocean Cleanup, despite the fact that to date it hasn’t accomplished what it set out to do, for exactly the reasons that ocean plastic pollution and ocean engineering experts said it wouldn’t work. Misunderstanding of the Background Issues: Ocean Plastic Pollution and the Great Pacific Garbage PatchThere’s no doubt that ocean plastic pollution is a huge problem.
+
+🔗 Read more: https://therevelator.org/why-ocean-cleanup-has-not-solved-plastic-pollution/</description>
+      <guid isPermaLink="true">https://therevelator.org/why-ocean-cleanup-has-not-solved-plastic-pollution/</guid>
+      <pubDate>Thu, 20 Aug 2026 12:58:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374036</comments>
+    </item>
+    <item>
+      <title>Xorg-Server 26.0.99.901</title>
+      <link>https://lists.x.org/archives/xorg-announce/2026-August/003741.html</link>
+      <description>📝 [ANNOUNCE] xorg-server 26. 901 [ANNOUNCE] xorg-server 26. Some notable changes since xorg-server 21.
+
+🔗 Read more: https://lists.x.org/archives/xorg-announce/2026-August/003741.html</description>
+      <guid isPermaLink="true">https://lists.x.org/archives/xorg-announce/2026-August/003741.html</guid>
+      <pubDate>Thu, 20 Aug 2026 12:50:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49373932</comments>
+    </item>
+    <item>
+      <title>Bun 1.4</title>
+      <link>https://bun.com/blog/bun-v1.4</link>
+      <description>📝 4 adds +1,517 tests from the Node. We've added +1,517 tests from the Node. Bun is not 100% compatible with Node.
+
+🔗 Read more: https://bun.com/blog/bun-v1.4</description>
+      <guid isPermaLink="true">https://bun.com/blog/bun-v1.4</guid>
+      <pubDate>Thu, 20 Aug 2026 14:10:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374797</comments>
+    </item>
+    <item>
+      <title>Show HN: Open-source Stripe Connect alternative</title>
+      <link>https://zoneless.com</link>
+      <description>📝 Zoneless uses the most boring crypto tech out there: stablecoins, to move money. Changing payout providers is hard (and scary). Add Zoneless as a payout option, without touching your existing setup.
+
+🔗 Read more: https://zoneless.com</description>
+      <guid isPermaLink="true">https://zoneless.com</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49375244</comments>
+    </item>
+    <item>
+      <title>Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours</title>
+      <link>https://pub.doub.ly/</link>
+      <description>📝 What each status means ✓Looks good Linked to a work at the MLC with every share claimed. Usually that is the unclaimed percentage of the work. Usually they all find the same work.
+
+🔗 Read more: https://pub.doub.ly/</description>
+      <guid isPermaLink="true">https://pub.doub.ly/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49375237</comments>
+    </item>
+    <item>
+      <title>CI jobs artifacts should not be difficult</title>
+      <link>https://deadsimpleci.sparrowhub.io/doc/job-artifacts</link>
+      <description>📝 DSCI - [D]ead [S]imple CI job-artifacts # Job Artifacts DSCI dramatically simplify working with artifacts process inside pipelines. /usr/bin/python3 from pathlib import Path file_path = Path. Read the file safely using a context manager try: with open(file_path, "r", encoding="utf-8") as file: content = file.
+
+🔗 Read more: https://deadsimpleci.sparrowhub.io/doc/job-artifacts</description>
+      <guid isPermaLink="true">https://deadsimpleci.sparrowhub.io/doc/job-artifacts</guid>
+      <pubDate>Thu, 20 Aug 2026 13:44:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374503</comments>
+    </item>
+    <item>
+      <title>Stwipe Acquires OpenWouter</title>
+      <link>https://stwipe.com/</link>
+      <description>📝 We asked Wouter to verify the number. This is a live endpoint. We asked Wouter whether we should start.
+
+🔗 Read more: https://stwipe.com/</description>
+      <guid isPermaLink="true">https://stwipe.com/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:04:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49374738</comments>
     </item>
   </channel>
 </rss>
