@@ -6,77 +6,247 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:44:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 15:33:33 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>DeepSeek-v4-flash-vision-exp</title>
-      <link>https://api-docs.deepseek.com/guides/vision/</link>
-      <description>📝 create( model="deepseek-v4-flash-vision-exp", messages=[ { "role": "user", "content": [ {"type": "text", "text": "描述此图像。 high 保留原始图像。 )original 保留原始图像。
+      <title>Kagi 添加了从搜索结果中删除付费链接的设置</title>
+      <link>https://kagi.com/changelog#11296</link>
+      <description>📝 2026 年 8 月 21 日 - 新的股票小部件和更好的日常助理体验 # Kagi 搜索 加快股票速度 我们改进了股票小部件。 Kagi Assistant 日常使用变得更加流畅 消息更加丰富 用户消息现在呈现链接、Markdown 和 LaTex。 ai bang - 查询不起作用 #11077 @fanged_bagful 防止共享助理线程的搜索引擎索引 #7867 @Hanbyeol Web 搜索在应用程序切换之间未维护切换状态 #11140 @ryonic 代码片段输入改进 #6254 @Leward Choppy 助理应用程序中的动画 #11134 @Temanor Assistant 提示代码栅栏语法突出显示 #4775 @slater Speech-to-text不支持 Android Assistant 应用程序中的暂停 #11265 @jeroenpelgrims Assistant 移动应用程序 在连接键盘的 iPad 上提交提示的键盘快捷键首选项 Kagi Assistant 左侧向后滑动会干扰 Android guestures #11126 @mb 打开 Kagi Assistant 后，右侧向后滑动会关闭应用程序 #11127 @mb Assistant 应用程序中的动画不连贯 #11134 @Temanor Web Search 在应用程序之间未保持切换状态开关 #11140 @ryonic 无法登录 Kagi Assistant 1。
 
-🔗 Read more: https://api-docs.deepseek.com/guides/vision/</description>
-      <guid isPermaLink="true">https://api-docs.deepseek.com/guides/vision/</guid>
-      <pubDate>Fri, 21 Aug 2026 10:33:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49386163</comments>
+
+🔤 Original: Kagi added a setting for removing paywalled links from search results
+
+🔗 Read more: https://kagi.com/changelog#11296</description>
+      <guid isPermaLink="true">https://kagi.com/changelog#11296</guid>
+      <pubDate>Fri, 21 Aug 2026 13:56:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388154</comments>
     </item>
     <item>
-      <title>人工智能公司销毁实体书籍——让我们在为时已晚之前扫描善本书籍</title>
-      <link>https://annas-archive.pk/blog/physical-destruction.html</link>
-      <description>📝 安娜档案馆紧急呼吁世界各地的志愿者在这一文化遗产永远消失之前扫描并上传书籍。那么为什么要销毁实体书呢？这场旧书争夺战揭示了一个悖论：人工智能公司在承诺“让人类知识触手可及”的同时，却正在拆除人类知识最坚实的载体。
+      <title>克劳德：让克劳德停止像 BuzzFeed 文章一样说话</title>
+      <link>https://github.com/adnanakil/nobuzz/blob/main/README.md</link>
+      <description>📝 因此，Claude 和我构建了一个 Claude 代码技能 (/debuzz)，它采用 Claude 最后的响应并通过 Gemini CLI 运行它，将其从像千禧一代标题诱饵一样的谈话翻译成普通英语。 claude/skills/ 要求：Claude 代码 Gemini CLI (npm install -g @google/gemini-cli)，经过身份验证 — 运行gemini 一次并使用/auth，或设置GEMINI_API_KEY。将文本粘贴到模式后即可进行翻译。
 
 
-🔤 Original: AI companies destroy physical books – let's scan rare books before it's too late
+🔤 Original: Claudette: Make Claude Stop Talking Like a BuzzFeed Article
 
-🔗 Read more: https://annas-archive.pk/blog/physical-destruction.html</description>
-      <guid isPermaLink="true">https://annas-archive.pk/blog/physical-destruction.html</guid>
-      <pubDate>Fri, 21 Aug 2026 10:05:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49385994</comments>
+🔗 Read more: https://github.com/adnanakil/nobuzz/blob/main/README.md</description>
+      <guid isPermaLink="true">https://github.com/adnanakil/nobuzz/blob/main/README.md</guid>
+      <pubDate>Fri, 21 Aug 2026 14:31:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388752</comments>
     </item>
     <item>
-      <title>TigerBeetle核心系统架构：解构性能工程</title>
-      <link>https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering</link>
-      <description>📝 静态分配：消除运行时内存开销在传统数据库系统中，内存管理是高度动态的。 TigerBeetle 通过在初始化阶段之后完全消除动态内存分配（malloc、free 或它们的等效项）来解决这个问题。为了说明这种静态范例和传统动态数据库架构之间的区别，请考虑以下结构比较： 架构属性 传统动态数据库 TigerBeetle 静态架构 内存分配 动态（运行时堆分配） 静态（启动时预分配） 尾部延迟（p99.1）
+      <title>What Happens When the Cost of Intelligence Drops 100x</title>
+      <link>https://catalystneuro.com/blog/cost-of-intelligence-drops-100x/</link>
+      <description>📝 That is the direction that produces headlines, and it has indeed been truly incredible. The short version: the level of intelligence that cost $1. That model had an intelligence score of 37.
 
-
-🔤 Original: TigerBeetle Core System Architecture: Deconstructing Performance Engineering
-
-🔗 Read more: https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering</description>
-      <guid isPermaLink="true">https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering</guid>
-      <pubDate>Fri, 21 Aug 2026 11:43:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49386659</comments>
+🔗 Read more: https://catalystneuro.com/blog/cost-of-intelligence-drops-100x/</description>
+      <guid isPermaLink="true">https://catalystneuro.com/blog/cost-of-intelligence-drops-100x/</guid>
+      <pubDate>Fri, 21 Aug 2026 13:24:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387735</comments>
     </item>
     <item>
-      <title>值得记住的原生网络小技巧</title>
-      <link>https://htmlcat.net/</link>
-      <description>📝 所有 HTML CSS JS 42 搜索便利贴标题和内容 JS 中的设备类型 JS 隐藏滚动条 CSS 空标签 CSS 居中 CSS CSS lamp() CSS 平滑滚动 CSS JS 滚动边距 CSS classList。 toggle() JS 电话和电子邮件链接 HTML 文本选择突出显示 CSS :has() 关系选择器 CSS 使用 ::marker 设置列表标记 CSS 使用 Intl 的本地化价格。 NumberFormat JS 使用惰性 HTML 禁用子树 :target 伪类 CSS HTML 翻译全局属性 HTML Preferred-color-scheme CSS 容器大小查询 CSS 对话框元素 HTML JS 使用文本换行更好地换行 CSS 描述列表对齐 HTML CSS 带强调色的原生表单颜色 CSS CSS 自定义突出显示 API JS CSS 检测跨输入类型的悬停 CSS 使用 color-mix() 的透明颜色 CSS 滚动捕捉事件 JS 按大小对目录排序 Bash light-dark() CSS对比度颜色() CSS作用域 CSS 与 @scope CSS :where() CSS 滚动驱动动画 CSS CSS 轮播 CSS HTML 角形 CSS CSS 自定义函数 CSS CSS 网格通道 CSS Popover API HTML 视图转换 API JS CSS 容器样式查询 CSS 带有详细信息名称的专用手风琴 HTML 带有按钮命令的控制对话框 HTML 可搜索的折叠内容，带有隐藏 = 直到找到 HTML 未找到帖子。
+      <title>当搜索不再让我们思考时，我们失去了什么</title>
+      <link>https://blog.8ball.space/what-we-lost-when-search/</link>
+      <description>📝 What We Lost When Search Stopped Making Us Think 21 Aug, 2026 I want to talk about something that's been on my mind for a while: search has quietly gotten worse over the past several years, and I think it's worth being honest about why, and what it's actually costing us. What actually concerns me most isn't the quality of individual search results, it's what this shift is doing to the underlying skill of research itself. This pattern isn't limited to search either.
 
 
-🔤 Original: Small, native web tricks worth remembering
+🔤 Original: What We Lost When Search Stopped Making Us Think
 
-🔗 Read more: https://htmlcat.net/</description>
-      <guid isPermaLink="true">https://htmlcat.net/</guid>
-      <pubDate>Fri, 21 Aug 2026 09:45:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49385860</comments>
+🔗 Read more: https://blog.8ball.space/what-we-lost-when-search/</description>
+      <guid isPermaLink="true">https://blog.8ball.space/what-we-lost-when-search/</guid>
+      <pubDate>Fri, 21 Aug 2026 14:16:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388446</comments>
     </item>
     <item>
-      <title>Kino：适用于 Ruby 4.0 的高性能 Ractor Web 服务器</title>
-      <link>https://github.com/yaroslav/kino</link>
-      <description>📝 Kino Kino 是一款适用于 Ruby 4 的高性能 Ractor Web 服务器。Kino 在一个小进程的每个内核上运行您的代码。在真正的 8 核服务器上，每个 Kino 模式都是 1。
+      <title>我不小心记录了打往军事基地的电话</title>
+      <link>https://lina.sh/blog/hijacking-e164-arpa</link>
+      <description>📝 您可以看到每个德国号码最终都会低于。这意味着 DENIC 决定哪个运营商或个人获得该区域下的哪个号码范围，就像他们分发的那样。 arpa 并将其指向此网站，尽管从技术上讲我不应该这样做（您可以从中找出我的辅助号码。
 
 
-🔤 Original: Kino: A high-performance Ractor web server for Ruby 4.0
+🔤 Original: I accidentally logged phone calls to military bases
 
-🔗 Read more: https://github.com/yaroslav/kino</description>
-      <guid isPermaLink="true">https://github.com/yaroslav/kino</guid>
-      <pubDate>Fri, 21 Aug 2026 11:06:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49386383</comments>
+🔗 Read more: https://lina.sh/blog/hijacking-e164-arpa</description>
+      <guid isPermaLink="true">https://lina.sh/blog/hijacking-e164-arpa</guid>
+      <pubDate>Fri, 21 Aug 2026 13:11:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387570</comments>
     </item>
     <item>
-      <title>公民在美国边境删除手机数据被指控重罪</title>
-      <link>https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html</guid>
-      <pubDate>Fri, 21 Aug 2026 12:10:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49386895</comments>
+      <title>大陪审团拒绝起诉俄亥俄州男子被控破坏弗洛克相机</title>
+      <link>https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/</link>
+      <description>📝 Flock 的抵制情绪日益高涨 虽然大陪审团决定的细节有限，但 Flock 及其相机的反对声音却越来越大。该公司的摄像头记录了经过车辆的车牌号和特征。本月早些时候，明尼苏达州威诺纳警方报告称，有人砍倒并偷走了该市八个车牌读取器摄像头。
+
+
+🔤 Original: Grand jury declines to indict Ohio man charged with destroying Flock camera
+
+🔗 Read more: https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/</description>
+      <guid isPermaLink="true">https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/</guid>
+      <pubDate>Fri, 21 Aug 2026 13:04:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387497</comments>
+    </item>
+    <item>
+      <title>我们生活在 J.G. 的未来版本中。巴拉德或威廉·吉布森</title>
+      <link>https://precastreinforced.co.uk/2026/08/16/new-worlds/</link>
+      <description>📝 这（温和地）“很酷”。或者霓虹灯将被 LED 取代。 ” 《卫报》，2026 年 5 月 25 日 更多时候，令人震惊的是没有震惊。
+
+
+🔤 Original: We are living in a version of the future out of J.G. Ballard or William Gibson
+
+🔗 Read more: https://precastreinforced.co.uk/2026/08/16/new-worlds/</description>
+      <guid isPermaLink="true">https://precastreinforced.co.uk/2026/08/16/new-worlds/</guid>
+      <pubDate>Fri, 21 Aug 2026 13:07:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387525</comments>
+    </item>
+    <item>
+      <title>c100</title>
+      <link>https://caligra.com/c100/</link>
+      <description>📝 基于 Linux® 的迷你 PC，设计用于运行 Workbench。 “令人愉悦的优质”“彻底改变工作场所生产力的左翼计划”“旨在让注意力重新回到工作上”专为制造磨砂喷砂铝制外壳AMD Ryzen 7940HS，具有 8 核、16 线程端口：2 个 USB4 Type-C、2 个 HDMI、2 个 USB3.0 接口而设计。 5 毫米音频用户可更换 RAM/SSD/蓝牙/Wi-Fi 热插拔薄型 Kailh 按键开关 Caligra 标准有线鼠标 × 命令与控制了解快捷键 →。
+
+🔗 Read more: https://caligra.com/c100/</description>
+      <guid isPermaLink="true">https://caligra.com/c100/</guid>
+      <pubDate>Fri, 21 Aug 2026 15:14:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49389392</comments>
+    </item>
+    <item>
+      <title>哈勃望远镜的辐射损伤与太阳周期相差 4.3 年</title>
+      <link>https://arxiv.org/abs/2608.18214</link>
+      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
+
+
+🔤 Original: Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle
+
+🔗 Read more: https://arxiv.org/abs/2608.18214</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.18214</guid>
+      <pubDate>Fri, 21 Aug 2026 13:35:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387856</comments>
+    </item>
+    <item>
+      <title>是/否/取消导致阿司匹林销量飙升</title>
+      <link>https://martin.kleppmann.com/2007/07/19/yes-no-cancel-causes-aspirin-sales-to-soar.html</link>
+      <description>📝 是/否/取消，这听起来像计算机。哪一个会拯救它。那第二个例子呢？
+
+
+🔤 Original: Yes/No/Cancel causes Aspirin sales to soar
+
+🔗 Read more: https://martin.kleppmann.com/2007/07/19/yes-no-cancel-causes-aspirin-sales-to-soar.html</description>
+      <guid isPermaLink="true">https://martin.kleppmann.com/2007/07/19/yes-no-cancel-causes-aspirin-sales-to-soar.html</guid>
+      <pubDate>Fri, 21 Aug 2026 12:58:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387433</comments>
+    </item>
+    <item>
+      <title>Kodak's "Pre-Invented" Lunar Orbiter Camera; Or, the Fate of SAMOS Readout</title>
+      <link>https://invertingvision.com/2026/08/10/kodaks-pre-invented-lunar-orbiter-camera-or-the-fate-of-samos-readout/</link>
+      <description>📝 左：月球轨道器相机系统位于加压外壳的下半部分。右：月球轨道飞行器框架 5017-M，显示柯达相机系统的伪像。当柯达于 1963 年加入波音公司竞标月球轨道飞行器时，相机系统已经存在。
+
+🔗 Read more: https://invertingvision.com/2026/08/10/kodaks-pre-invented-lunar-orbiter-camera-or-the-fate-of-samos-readout/</description>
+      <guid isPermaLink="true">https://invertingvision.com/2026/08/10/kodaks-pre-invented-lunar-orbiter-camera-or-the-fate-of-samos-readout/</guid>
+      <pubDate>Fri, 21 Aug 2026 13:52:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388095</comments>
+    </item>
+    <item>
+      <title>The road to ACID transactions in Cassandra 6</title>
+      <link>https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html</link>
+      <guid isPermaLink="true">https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html</guid>
+      <pubDate>Fri, 21 Aug 2026 12:08:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49386877</comments>
+    </item>
+    <item>
+      <title>DuckDB V2 基于 PEG 的 SQL 解析器</title>
+      <link>https://duckdb.org/2026/08/20/duckdb-20-peg-parser</link>
+      <description>📝 在谈论解析器时，这种区别很重要。该解析器已成为 2018 年 DuckDB 首次提交的一部分。然而，多年来，该解析器也存在一些缺点。
+
+
+🔤 Original: DuckDB V2 PEG-based SQL parser
+
+🔗 Read more: https://duckdb.org/2026/08/20/duckdb-20-peg-parser</description>
+      <guid isPermaLink="true">https://duckdb.org/2026/08/20/duckdb-20-peg-parser</guid>
+      <pubDate>Fri, 21 Aug 2026 12:52:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387349</comments>
+    </item>
+    <item>
+      <title>我正在变得人工智能盲</title>
+      <link>https://cymerys.com/w/im-becoming-ai-blind</link>
+      <description>📝 For example: A design document that looks like a copy-paste from Claude. While most research claims that humans don't really do a good job there, I disagree. It's not that difficult, at least when we're talking about the low-effort results.
+
+
+🔤 Original: I'm Becoming AI-Blind
+
+🔗 Read more: https://cymerys.com/w/im-becoming-ai-blind</description>
+      <guid isPermaLink="true">https://cymerys.com/w/im-becoming-ai-blind</guid>
+      <pubDate>Fri, 21 Aug 2026 11:48:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49386699</comments>
+    </item>
+    <item>
+      <title>无所事事</title>
+      <link>https://www.futilitycloset.com/2026/08/10/nothing-doing-12/</link>
+      <description>📝 无事休息，爱尔兰戈尔韦郡：图片：Wikimedia Commons 阿斯佩尔特，卢森堡：图片：Wikimedia Commons 贝希涅，捷克共和国：图片：Wikimedia Commons（“在这座房子里，没有重要的人出生、生活过，最重要的是没有去世，这就是我们在这里生活得很好的原因。”）Záblatí-Hlásná Lhota，捷克共和国：图片：Wikimedia Commons（“Hlásná”）洛塔——一块石头，其周围数百年来没有发生任何重大事件”）捷克共和国米绍夫：图片：维基共享资源（“1915 年 5 月 8 日，在米绍夫，伟大的捷克天才 Jára Cimrman 几乎错过了参与历史上重要的事情。”）圣地亚哥老城州立历史公园的 O’Hungry’s 咖啡馆：图片：维基共享资源 西澳大利亚州约克：图片：维基媒体哥伦比亚博亚卡省莱瓦别墅下议院：（“1825 年 10 月 13 日，这座房子里没有发生任何事情，也没有任何重要人物出生。
+
+
+🔤 Original: Nothing Doing
+
+🔗 Read more: https://www.futilitycloset.com/2026/08/10/nothing-doing-12/</description>
+      <guid isPermaLink="true">https://www.futilitycloset.com/2026/08/10/nothing-doing-12/</guid>
+      <pubDate>Fri, 21 Aug 2026 12:40:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387221</comments>
+    </item>
+    <item>
+      <title>Nvidia AVO 在 ARC-AGI-3 交互式推理基准测试中得分 100%</title>
+      <link>https://twitter.com/NVIDIAAI/status/2090786258981466231</link>
+      <description>📝 NVIDIA AI@NVIDIAAI我们的通用编码代理刚刚在 ARC-AGI-3 交互式推理基准测试中获得了 100% 的分数。 NVIDIA AVO 在所有 25 个公共环境中完成了全部 183 个关卡，在没有说明、明确规则或既定目标的情况下弄清楚了该做什么。 GIF1:01 PM · 2026163 年 8 月 21 日。
+
+
+🔤 Original: Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark
+
+🔗 Read more: https://twitter.com/NVIDIAAI/status/2090786258981466231</description>
+      <guid isPermaLink="true">https://twitter.com/NVIDIAAI/status/2090786258981466231</guid>
+      <pubDate>Fri, 21 Aug 2026 13:26:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387755</comments>
+    </item>
+    <item>
+      <title>Rama 0.4：系统代理和 PAC 支持</title>
+      <link>https://plabayo.tech/blog/rama-0-4</link>
+      <description>📝 NoteAre you new to Rama. System configuration settings also allow you to have a proxy be dynamically selected using a JavaScript file. To do so one must have a JavaScript runtime — not something rama shipped prior to rama 0.
+
+
+🔤 Original: Rama 0.4: System proxy and PAC support
+
+🔗 Read more: https://plabayo.tech/blog/rama-0-4</description>
+      <guid isPermaLink="true">https://plabayo.tech/blog/rama-0-4</guid>
+      <pubDate>Fri, 21 Aug 2026 13:50:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388064</comments>
+    </item>
+    <item>
+      <title>对 C 部分和((int*)-8)[3]感到愚蠢</title>
+      <link>https://blog.coredump.cx/p/getting-silly-with-c-part-and-int1</link>
+      <description>📝 用 C 变得愚蠢，部分 &amp;((int*)-8)[3]提升编码技能的可靠方法。在下面的代码片段中，我们提前声明了 main()（演示）：#include &lt;stdio.h&gt;下面的代码片段说明了原理（demo）：#include &lt;stdio.h&gt;
+
+
+🔤 Original: Getting silly with C, part and((int*)-8)[3]
+
+🔗 Read more: https://blog.coredump.cx/p/getting-silly-with-c-part-and-int1</description>
+      <guid isPermaLink="true">https://blog.coredump.cx/p/getting-silly-with-c-part-and-int1</guid>
+      <pubDate>Fri, 21 Aug 2026 13:40:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387915</comments>
+    </item>
+    <item>
+      <title>召集</title>
+      <link>https://www.guidavid.com/writing/convite</link>
+      <guid isPermaLink="true">https://www.guidavid.com/writing/convite</guid>
+      <pubDate>Fri, 21 Aug 2026 13:21:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49387687</comments>
+    </item>
+    <item>
+      <title>更好的电池</title>
+      <link>https://matklad.github.io/2026/08/20/better-batteries.html</link>
+      <description>📝 正确的是：哪种社会架构创建了高质量的标准库。一些标准库模块不遵循语言命名约定。 0 标准库 API 非常棒。
+
+
+🔤 Original: Better Batteries
+
+🔗 Read more: https://matklad.github.io/2026/08/20/better-batteries.html</description>
+      <guid isPermaLink="true">https://matklad.github.io/2026/08/20/better-batteries.html</guid>
+      <pubDate>Fri, 21 Aug 2026 07:48:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49385068</comments>
     </item>
   </channel>
 </rss>
