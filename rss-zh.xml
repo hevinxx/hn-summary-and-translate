@@ -6,73 +6,77 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 21 Aug 2026 09:35:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:44:19 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>席德·梅尔的海盗失落的宝藏</title>
-      <link>https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/</link>
-      <description>📝 海盗是不同的。它们的控制和机制与我见过的任何其他游戏战斗完全不同。游戏模拟了海盗的艰苦生活随着时间的推移让你疲惫不堪，你所战斗的每一位商船船长或殖民卫兵似乎都快了一点，直到你不得不承认你的剑臂已经不再是以前的样子了。
+      <title>DeepSeek-v4-flash-vision-exp</title>
+      <link>https://api-docs.deepseek.com/guides/vision/</link>
+      <description>📝 create( model="deepseek-v4-flash-vision-exp", messages=[ { "role": "user", "content": [ {"type": "text", "text": "描述此图像。 high 保留原始图像。 )original 保留原始图像。
 
-
-🔤 Original: The Lost Treasure of Sid Meier's Pirates
-
-🔗 Read more: https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/</description>
-      <guid isPermaLink="true">https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/</guid>
-      <pubDate>Fri, 21 Aug 2026 07:23:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49384896</comments>
+🔗 Read more: https://api-docs.deepseek.com/guides/vision/</description>
+      <guid isPermaLink="true">https://api-docs.deepseek.com/guides/vision/</guid>
+      <pubDate>Fri, 21 Aug 2026 10:33:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49386163</comments>
     </item>
     <item>
-      <title>我们在 Apple Silicon 上重建了 Linux MicroVM 堆栈</title>
-      <link>https://encore.dev/blog/firecracker-apple-silicon</link>
-      <description>📝 图像是困难的一半，因为 Firecracker 启动块设备，而 Docker 生成层。 Firecracker 期望这些 Tap 设备连接到主机桥，而 Docker 容器内没有主机桥。然后，Tap 设备可以附加一些看起来足够像真正的 Docker 主机的东西。
+      <title>人工智能公司销毁实体书籍——让我们在为时已晚之前扫描善本书籍</title>
+      <link>https://annas-archive.pk/blog/physical-destruction.html</link>
+      <description>📝 安娜档案馆紧急呼吁世界各地的志愿者在这一文化遗产永远消失之前扫描并上传书籍。那么为什么要销毁实体书呢？这场旧书争夺战揭示了一个悖论：人工智能公司在承诺“让人类知识触手可及”的同时，却正在拆除人类知识最坚实的载体。
 
 
-🔤 Original: We Rebuilt the Linux MicroVM Stack on Apple Silicon
+🔤 Original: AI companies destroy physical books – let's scan rare books before it's too late
 
-🔗 Read more: https://encore.dev/blog/firecracker-apple-silicon</description>
-      <guid isPermaLink="true">https://encore.dev/blog/firecracker-apple-silicon</guid>
-      <pubDate>Fri, 21 Aug 2026 06:59:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49384716</comments>
+🔗 Read more: https://annas-archive.pk/blog/physical-destruction.html</description>
+      <guid isPermaLink="true">https://annas-archive.pk/blog/physical-destruction.html</guid>
+      <pubDate>Fri, 21 Aug 2026 10:05:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49385994</comments>
     </item>
     <item>
-      <title>美光宣布在博伊西设立价值 100 亿美元的研究中心</title>
-      <link>https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx</link>
-      <description>📝 查看所有新闻 美光科技推出美国美光研究实验室。美光研究实验室将以博伊西旗舰园区为中心，旨在支持跨关键技术领域的高级研究。今天，美光宣布成立第一个专门的内存研究实验室，并投资 100 亿美元用于内存研究。
+      <title>TigerBeetle核心系统架构：解构性能工程</title>
+      <link>https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering</link>
+      <description>📝 静态分配：消除运行时内存开销在传统数据库系统中，内存管理是高度动态的。 TigerBeetle 通过在初始化阶段之后完全消除动态内存分配（malloc、free 或它们的等效项）来解决这个问题。为了说明这种静态范例和传统动态数据库架构之间的区别，请考虑以下结构比较： 架构属性 传统动态数据库 TigerBeetle 静态架构 内存分配 动态（运行时堆分配） 静态（启动时预分配） 尾部延迟（p99.1）
 
 
-🔤 Original: Micron announces $10B research hub in Boise
+🔤 Original: TigerBeetle Core System Architecture: Deconstructing Performance Engineering
 
-🔗 Read more: https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx</description>
-      <guid isPermaLink="true">https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx</guid>
-      <pubDate>Fri, 21 Aug 2026 03:51:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49383582</comments>
+🔗 Read more: https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering</description>
+      <guid isPermaLink="true">https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering</guid>
+      <pubDate>Fri, 21 Aug 2026 11:43:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49386659</comments>
     </item>
     <item>
-      <title>Emacs 31.1 将于 8 月 24 日发布</title>
-      <link>https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY</link>
-      <description>📝 10 (1985-04-10) GNU Emacs 15. 58 (1985-09-17) GNU Emacs 16. 59 (1985-09-17) GNU Emacs 16.
+      <title>值得记住的原生网络小技巧</title>
+      <link>https://htmlcat.net/</link>
+      <description>📝 所有 HTML CSS JS 42 搜索便利贴标题和内容 JS 中的设备类型 JS 隐藏滚动条 CSS 空标签 CSS 居中 CSS CSS lamp() CSS 平滑滚动 CSS JS 滚动边距 CSS classList。 toggle() JS 电话和电子邮件链接 HTML 文本选择突出显示 CSS :has() 关系选择器 CSS 使用 ::marker 设置列表标记 CSS 使用 Intl 的本地化价格。 NumberFormat JS 使用惰性 HTML 禁用子树 :target 伪类 CSS HTML 翻译全局属性 HTML Preferred-color-scheme CSS 容器大小查询 CSS 对话框元素 HTML JS 使用文本换行更好地换行 CSS 描述列表对齐 HTML CSS 带强调色的原生表单颜色 CSS CSS 自定义突出显示 API JS CSS 检测跨输入类型的悬停 CSS 使用 color-mix() 的透明颜色 CSS 滚动捕捉事件 JS 按大小对目录排序 Bash light-dark() CSS对比度颜色() CSS作用域 CSS 与 @scope CSS :where() CSS 滚动驱动动画 CSS CSS 轮播 CSS HTML 角形 CSS CSS 自定义函数 CSS CSS 网格通道 CSS Popover API HTML 视图转换 API JS CSS 容器样式查询 CSS 带有详细信息名称的专用手风琴 HTML 带有按钮命令的控制对话框 HTML 可搜索的折叠内容，带有隐藏 = 直到找到 HTML 未找到帖子。
 
 
-🔤 Original: Emacs 31.1 will release on 8/24
+🔤 Original: Small, native web tricks worth remembering
 
-🔗 Read more: https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY</description>
-      <guid isPermaLink="true">https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY</guid>
-      <pubDate>Fri, 21 Aug 2026 08:19:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49385296</comments>
+🔗 Read more: https://htmlcat.net/</description>
+      <guid isPermaLink="true">https://htmlcat.net/</guid>
+      <pubDate>Fri, 21 Aug 2026 09:45:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49385860</comments>
     </item>
     <item>
-      <title>种子：最小的自改性剂利用</title>
-      <link>https://github.com/vivekhaldar/seed</link>
-      <description>📝 种子 种子剂：剂可以生长的最小起点。 git Seed 第一次运行复制种子。 sh 进入这个目录（永远不要覆盖已经存在的文件），萌芽 self/SELF。
+      <title>Kino：适用于 Ruby 4.0 的高性能 Ractor Web 服务器</title>
+      <link>https://github.com/yaroslav/kino</link>
+      <description>📝 Kino Kino 是一款适用于 Ruby 4 的高性能 Ractor Web 服务器。Kino 在一个小进程的每个内核上运行您的代码。在真正的 8 核服务器上，每个 Kino 模式都是 1。
 
 
-🔤 Original: Seed: Minimal, self-modifying agent harness
+🔤 Original: Kino: A high-performance Ractor web server for Ruby 4.0
 
-🔗 Read more: https://github.com/vivekhaldar/seed</description>
-      <guid isPermaLink="true">https://github.com/vivekhaldar/seed</guid>
-      <pubDate>Fri, 21 Aug 2026 05:20:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49384113</comments>
+🔗 Read more: https://github.com/yaroslav/kino</description>
+      <guid isPermaLink="true">https://github.com/yaroslav/kino</guid>
+      <pubDate>Fri, 21 Aug 2026 11:06:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49386383</comments>
+    </item>
+    <item>
+      <title>公民在美国边境删除手机数据被指控重罪</title>
+      <link>https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html</guid>
+      <pubDate>Fri, 21 Aug 2026 12:10:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49386895</comments>
     </item>
   </channel>
 </rss>
