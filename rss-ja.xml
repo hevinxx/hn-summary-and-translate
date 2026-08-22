@@ -6,70 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 Aug 2026 03:41:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 06:38:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>There's no reason for software to be slow anymore</title>
-      <link>https://danluu.com/perf-opt/</link>
-      <description>📝 JIT コンパイラーはその好例です。これは、Rebar 正規表現ベンチマーク スイートにアクセスして、正規表現エンジンのパフォーマンスを向上させるために 1 か月間エージェント ループを行うことによって作成されたことを思い出してください。ホールドアウト ベンチマークで十分にテストされた正規表現エンジンに勝てない「ソフトウェア ファクトリ」正規表現エンジンを使用する特別な理由はありませんが、FRE に関して注目すべき点の 1 つは、ネイティブの AOT コンパイル済みバージョンが長時間の検索で非常にうまく機能したことです。
+      <title>GPT 5.6 ソル 20% 値下げ</title>
+      <link>https://developers.openai.com/api/docs/models/gpt-5.6-sol</link>
+      <description>📝 6 SolDefault複雑な専門的作業のためのフロンティア モデル複雑な専門的作業のためのフロンティア モデルPlaygroundReasoningHighestSpeedFastPrice$4•$20Input•OutputInputText、imageOutputTextGPT-5 で比較してみます。 6 Sol のコストは、入力トークン 100 万あたり 4 ドル、出力トークン 100 万あたり 20 ドルで、入力価格が 20% 削減され、出力価格が 33% 削減されます。キャッシュされていない入力トークン レートの 25 倍。
 
-🔗 Read more: https://danluu.com/perf-opt/</description>
-      <guid isPermaLink="true">https://danluu.com/perf-opt/</guid>
-      <pubDate>Sat, 22 Aug 2026 01:06:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49395628</comments>
+
+🔤 Original: GPT 5.6 Sol 20% price reduction
+
+🔗 Read more: https://developers.openai.com/api/docs/models/gpt-5.6-sol</description>
+      <guid isPermaLink="true">https://developers.openai.com/api/docs/models/gpt-5.6-sol</guid>
+      <pubDate>Sat, 22 Aug 2026 04:33:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49396590</comments>
     </item>
     <item>
-      <title>Rust Glancer: 100 分の 1 の RAM を使用する Rust LSP</title>
-      <link>https://rust-glancer.github.io/blog/hello-world/</link>
-      <description>📝 Rust-analyzer は構文ツリー表現に rowan を使用します。これが Rust Glancer の核となるアイデアです。ただし、これは無料ではありません。ファイルシステムからのデータのロードと逆シリアル化はメモリからのロードよりも遅いため、フリーズされたワークスペース分析は定義上、遅延増分よりも遅くなります。
+      <title>meshoptimizer を最適化して数十億の三角形を数分で処理する (2025)</title>
+      <link>https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</link>
+      <description>📝 著者 Arseny Kapoulkine (電子メール、 、 ) 仕事、プロジェクト、出版物 投稿 このブログが気に入ったら、RSS 経由でフォローし、古い投稿を読んでください。最近の投稿は次のとおりです: AVX-512 によるジグザグ デコード タンジェント フレームの量子化 meshoptimizer 1.0 リリース 数分で数十億個の三角形 フラクタルを軽視しないでください ロードストアの競合 加速構造の測定 独立の年 メトリクスとアルゴリズムの学習の解除 X は当然のことながら遅いです。
 
 
-🔤 Original: Rust Glancer: Rust LSP using 100x less RAM
+🔤 Original: Optimizing meshoptimizer to process billions of triangles in minutes (2025)
 
-🔗 Read more: https://rust-glancer.github.io/blog/hello-world/</description>
-      <guid isPermaLink="true">https://rust-glancer.github.io/blog/hello-world/</guid>
-      <pubDate>Fri, 21 Aug 2026 19:51:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49393052</comments>
+🔗 Read more: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</description>
+      <guid isPermaLink="true">https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</guid>
+      <pubDate>Fri, 21 Aug 2026 17:54:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49391661</comments>
     </item>
     <item>
-      <title>Motorola とのパートナーシップの最初の焦点は、通常の非折りたたみデバイスです</title>
-      <link>https://grapheneos.social/@GrapheneOS/117136278553665985</link>
-      <description>📝 GrapheneOS: 「Motorola i とのパートナーシップの最初の焦点…」 - GrapheneOS Mastodon Mastodon Web アプリケーションを使用するには、JavaScript を有効にしてください。あるいは、お使いのプラットフォームに対応した Mastodon のネイティブ アプリのいずれかを試してください。
+      <title>Zig の Io.Threaded は優れています</title>
+      <link>https://matklad.github.io/2026/08/06/neat-io-threaded.html</link>
+      <description>📝 スレッドはブロッキング システムコールを使用し、キャンセルを完全にサポートします。第 2 に、同時実行には必ずキャンセルが伴います。逆に、システムコールはキャンセルとは関係のない信号によって中断される可能性があります。
 
 
-🔤 Original: Initial focus for our partnership with Motorola is a regular non-folding device
+🔤 Original: Zig's Io.Threaded Is Neat
 
-🔗 Read more: https://grapheneos.social/@GrapheneOS/117136278553665985</description>
-      <guid isPermaLink="true">https://grapheneos.social/@GrapheneOS/117136278553665985</guid>
-      <pubDate>Sat, 22 Aug 2026 01:02:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49395605</comments>
-    </item>
-    <item>
-      <title>OTel がうまくいきません (それについてスプレッドシートを作成しました)</title>
-      <link>https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</link>
-      <description>📝 これは「仕様を定義する」表面です。壊れたものは contrib に入り、壊れなかったものは core に入ります。言語面では、これはそれほど大きな問題ではありません。
-
-
-🔤 Original: OTel isn't going well (and I made a spreadsheet about it)
-
-🔗 Read more: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</description>
-      <guid isPermaLink="true">https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</guid>
-      <pubDate>Fri, 21 Aug 2026 17:45:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49391553</comments>
-    </item>
-    <item>
-      <title>初期の人類は炭水化物や甘い食べ物を食べていた可能性が高い</title>
-      <link>https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</link>
-      <description>📝 歯の証拠は、初期の人類が果物をたくさん食べていたことを示唆しています。歯の証拠は、初期の人類が果物をたくさん食べていたことを示唆しています。初期の人類や他の古代霊長類が食事中に天然の砂糖を大量に摂取していたことを示すもう一つの手がかりは、彼らのほとんどが虫歯を持っていたことです。
-
-
-🔤 Original: Early Humans Likely Ate Carbs and Sugary Foods
-
-🔗 Read more: https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</description>
-      <guid isPermaLink="true">https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</guid>
-      <pubDate>Sat, 22 Aug 2026 02:37:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49396086</comments>
+🔗 Read more: https://matklad.github.io/2026/08/06/neat-io-threaded.html</description>
+      <guid isPermaLink="true">https://matklad.github.io/2026/08/06/neat-io-threaded.html</guid>
+      <pubDate>Fri, 21 Aug 2026 14:28:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388694</comments>
     </item>
   </channel>
 </rss>

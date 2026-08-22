@@ -6,73 +6,47 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 22 Aug 2026 03:41:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 06:38:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>软件没有理由再慢了</title>
-      <link>https://danluu.com/perf-opt/</link>
-      <description>📝 JIT 编译器就是一个很好的例子。回想一下，它是通过使用代理循环一个月来通过访问 rebar 正则表达式基准套件来提高正则表达式引擎性能而创建的。没有特别的理由使用“软件工厂”正则表达式引擎，因为它在保留基准测试中无法击败经过充分测试的正则表达式引擎，但 FRE 值得注意的一点是，本机 AOT 编译版本在较长的搜索中表现得相当好。
+      <title>GPT 5.6 Sol 降价 20%</title>
+      <link>https://developers.openai.com/api/docs/models/gpt-5.6-sol</link>
+      <description>📝 6 SolDefaultFrontier 模型，用于复杂的专业工作 前沿模型，用于复杂的专业工作比较 在 PlaygroundReasoning 中尝试 HighestSpeedFastPrice$4•$20Input•OutputInputText，imageOutputTextGPT-5。 6 Sol 的成本为每百万个输入代币 4 美元，每百万个输出代币 20 美元，输入定价降低 20%，输出定价降低 33%。 25 倍未缓存的输入令牌率。
 
 
-🔤 Original: There's no reason for software to be slow anymore
+🔤 Original: GPT 5.6 Sol 20% price reduction
 
-🔗 Read more: https://danluu.com/perf-opt/</description>
-      <guid isPermaLink="true">https://danluu.com/perf-opt/</guid>
-      <pubDate>Sat, 22 Aug 2026 01:06:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49395628</comments>
+🔗 Read more: https://developers.openai.com/api/docs/models/gpt-5.6-sol</description>
+      <guid isPermaLink="true">https://developers.openai.com/api/docs/models/gpt-5.6-sol</guid>
+      <pubDate>Sat, 22 Aug 2026 04:33:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49396590</comments>
     </item>
     <item>
-      <title>Rust Glancer：Rust LSP 使用的 RAM 减少了 100 倍</title>
-      <link>https://rust-glancer.github.io/blog/hello-world/</link>
-      <description>📝 rust-analyzer 使用 rowan 进行语法树表示。这是 Rust Glancer 的核心思想。但它并不是免费的：根据定义，冻结工作区分析比惰性增量慢，因为从文件系统加载和反序列化数据比从内存加载慢。
+      <title>优化网格优化器以在几分钟内处理数十亿个三角形（2025）</title>
+      <link>https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</link>
+      <description>📝 作者 Arseny Kapoulkine（电子邮件、 、 ） 工作、项目和出版物 帖子 如果您喜欢此博客，您应该通过 RSS 关注它并阅读旧帖子。以下是最近的帖子： 使用 AVX-512 进行 Zigzag 解码 量化切线框架 meshoptimizer 1. 0 发布 在几分钟内生成数十亿个三角形 不要不尊重分形 加载存储冲突 测量加速结构 独立年份 忘记指标和算法 X 确实很慢。
 
 
-🔤 Original: Rust Glancer: Rust LSP using 100x less RAM
+🔤 Original: Optimizing meshoptimizer to process billions of triangles in minutes (2025)
 
-🔗 Read more: https://rust-glancer.github.io/blog/hello-world/</description>
-      <guid isPermaLink="true">https://rust-glancer.github.io/blog/hello-world/</guid>
-      <pubDate>Fri, 21 Aug 2026 19:51:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49393052</comments>
+🔗 Read more: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</description>
+      <guid isPermaLink="true">https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</guid>
+      <pubDate>Fri, 21 Aug 2026 17:54:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49391661</comments>
     </item>
     <item>
-      <title>我们与摩托罗拉合作的最初重点是常规非折叠设备</title>
-      <link>https://grapheneos.social/@GrapheneOS/117136278553665985</link>
-      <description>📝 GrapheneOS：“我们与 Motorola i 合作的最初重点……” - GrapheneOS Mastodon 要使用 Mastodon Web 应用程序，请启用 JavaScript。或者，尝试为您的平台尝试 Mastodon 的本机应用程序之一。
+      <title>Zig 的 Io.Threaded 很简洁</title>
+      <link>https://matklad.github.io/2026/08/06/neat-io-threaded.html</link>
+      <description>📝 线程使用阻塞系统调用并完全支持取消。其次，并发总是涉及取消。相反，系统调用可能会被与取消无关的信号中断。
 
 
-🔤 Original: Initial focus for our partnership with Motorola is a regular non-folding device
+🔤 Original: Zig's Io.Threaded Is Neat
 
-🔗 Read more: https://grapheneos.social/@GrapheneOS/117136278553665985</description>
-      <guid isPermaLink="true">https://grapheneos.social/@GrapheneOS/117136278553665985</guid>
-      <pubDate>Sat, 22 Aug 2026 01:02:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49395605</comments>
-    </item>
-    <item>
-      <title>OTel 进展不顺利（我为此制作了一个电子表格）</title>
-      <link>https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</link>
-      <description>📝 这是“规格定义”表面。破坏的东西进入贡献，不破坏的东西进入核心。在语言方面，这并不是什么大问题。
-
-
-🔤 Original: OTel isn't going well (and I made a spreadsheet about it)
-
-🔗 Read more: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</description>
-      <guid isPermaLink="true">https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</guid>
-      <pubDate>Fri, 21 Aug 2026 17:45:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49391553</comments>
-    </item>
-    <item>
-      <title>早期人类可能吃碳水化合物和含糖食物</title>
-      <link>https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</link>
-      <description>📝 牙科证据表明早期人类吃大量水果。牙科证据表明早期人类吃大量水果。早期人类和其他古代灵长类动物在饮食中摄入大量天然糖的另一个线索是，他们大多数都有蛀牙。
-
-
-🔤 Original: Early Humans Likely Ate Carbs and Sugary Foods
-
-🔗 Read more: https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</description>
-      <guid isPermaLink="true">https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</guid>
-      <pubDate>Sat, 22 Aug 2026 02:37:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49396086</comments>
+🔗 Read more: https://matklad.github.io/2026/08/06/neat-io-threaded.html</description>
+      <guid isPermaLink="true">https://matklad.github.io/2026/08/06/neat-io-threaded.html</guid>
+      <pubDate>Fri, 21 Aug 2026 14:28:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388694</comments>
     </item>
   </channel>
 </rss>

@@ -6,58 +6,38 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 03:41:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 06:38:12 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>There's no reason for software to be slow anymore</title>
-      <link>https://danluu.com/perf-opt/</link>
-      <description>📝 JIT compilers are a great example of that. Recall that it was created by having an agent loop for a month on improving regex engine performance with access to the rebar regex benchmark suite. There's no particular reason to use a "software factory" regex engine that doesn't beat a well-tested regex engine on holdout benchmarks, but one notable thing about FRE was that the native AOT compiled version did quite well at longer searches.
+      <title>GPT 5.6 Sol 20% price reduction</title>
+      <link>https://developers.openai.com/api/docs/models/gpt-5.6-sol</link>
+      <description>📝 6 SolDefaultFrontier model for complex professional workFrontier model for complex professional workCompareTry in PlaygroundReasoningHighestSpeedFastPrice$4•$20Input•OutputInputText, imageOutputTextGPT-5. 6 Sol costs $4 per million input tokens and $20 per million output tokens, a 20% reduction in input pricing and a 33% reduction in output pricing. 25x the uncached input token rate.
 
-🔗 Read more: https://danluu.com/perf-opt/</description>
-      <guid isPermaLink="true">https://danluu.com/perf-opt/</guid>
-      <pubDate>Sat, 22 Aug 2026 01:06:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49395628</comments>
+🔗 Read more: https://developers.openai.com/api/docs/models/gpt-5.6-sol</description>
+      <guid isPermaLink="true">https://developers.openai.com/api/docs/models/gpt-5.6-sol</guid>
+      <pubDate>Sat, 22 Aug 2026 04:33:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49396590</comments>
     </item>
     <item>
-      <title>Rust Glancer: Rust LSP using 100x less RAM</title>
-      <link>https://rust-glancer.github.io/blog/hello-world/</link>
-      <description>📝 rust-analyzer uses rowan for syntax tree representation. This is the core idea of Rust Glancer. It doesn't come for free though: frozen workspace analysis is slower than lazy incremental by definition, since loading and deserializing data from filesystem is slower than loading from memory.
+      <title>Optimizing meshoptimizer to process billions of triangles in minutes (2025)</title>
+      <link>https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</link>
+      <description>📝 Author Arseny Kapoulkine (email, , ) Work, projects and publications Posts If you like this blog, you should follow it via RSS and read older posts. Here are the recent posts: Zigzag decoding with AVX-512 Quantizing tangent frames meshoptimizer 1. 0 released Billions of triangles in minutes Do not disrespect the fractal Load-store conflicts Measuring acceleration structures Year of independence Unlearning metrics and algorithms X is justifiably slow.
 
-🔗 Read more: https://rust-glancer.github.io/blog/hello-world/</description>
-      <guid isPermaLink="true">https://rust-glancer.github.io/blog/hello-world/</guid>
-      <pubDate>Fri, 21 Aug 2026 19:51:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49393052</comments>
+🔗 Read more: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</description>
+      <guid isPermaLink="true">https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/</guid>
+      <pubDate>Fri, 21 Aug 2026 17:54:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49391661</comments>
     </item>
     <item>
-      <title>Initial focus for our partnership with Motorola is a regular non-folding device</title>
-      <link>https://grapheneos.social/@GrapheneOS/117136278553665985</link>
-      <description>📝 GrapheneOS: "Initial focus for our partnership with Motorola i…" - GrapheneOS Mastodon To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the native apps for Mastodon for your platform.
+      <title>Zig's Io.Threaded Is Neat</title>
+      <link>https://matklad.github.io/2026/08/06/neat-io-threaded.html</link>
+      <description>📝 Threaded uses blocking syscalls and fully supports cancelation. Second, concurrency invariably involves cancelation. Conversely, a syscall might get interrupted by signal unrelated to cancelation.
 
-🔗 Read more: https://grapheneos.social/@GrapheneOS/117136278553665985</description>
-      <guid isPermaLink="true">https://grapheneos.social/@GrapheneOS/117136278553665985</guid>
-      <pubDate>Sat, 22 Aug 2026 01:02:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49395605</comments>
-    </item>
-    <item>
-      <title>OTel isn't going well (and I made a spreadsheet about it)</title>
-      <link>https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</link>
-      <description>📝 This is the "spec-defining" surface. Stuff that breaks goes in contrib, stuff that doesn't break goes into core. On the language side, this isn't that big of a problem.
-
-🔗 Read more: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</description>
-      <guid isPermaLink="true">https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/</guid>
-      <pubDate>Fri, 21 Aug 2026 17:45:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49391553</comments>
-    </item>
-    <item>
-      <title>Early Humans Likely Ate Carbs and Sugary Foods</title>
-      <link>https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</link>
-      <description>📝 Dental evidence has suggested that early humans ate plenty of fruit. Dental evidence has suggested that early humans ate plenty of fruit. Another clue that early humans and other ancient primates ate a lot of natural sugar in their diet is that most of them had cavities.
-
-🔗 Read more: https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</description>
-      <guid isPermaLink="true">https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs</guid>
-      <pubDate>Sat, 22 Aug 2026 02:37:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49396086</comments>
+🔗 Read more: https://matklad.github.io/2026/08/06/neat-io-threaded.html</description>
+      <guid isPermaLink="true">https://matklad.github.io/2026/08/06/neat-io-threaded.html</guid>
+      <pubDate>Fri, 21 Aug 2026 14:28:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49388694</comments>
     </item>
   </channel>
 </rss>
