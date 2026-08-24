@@ -6,123 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 24 Aug 2026 12:48:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 15:38:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>SeL4 安全证明现已在 AArch64 上完成</title>
-      <link>https://proofcraft.systems/news-2026/#2026-08-21</link>
-      <description>📝 2026 年 8 月 21 日，seL4 安全证明现已在 AArch64 上完成 在完成功能正确性和完整性证明后，Proofcraft 现已建立了 seL4 在 AArch64 上强制执行机密性的证明，提供了正式的数学证明，证明内核可防止在 seL4 上运行的应用程序在未经授权的情况下学习信息。感谢 NCSC 的持续支持，这一里程碑完成了 AArch64 上的 seL4 实现代码强制执行其上运行的应用程序的安全隔离的正式证明（在此处列出的假设下）。这种隔离可以防止对非关键应用程序的攻击传播到关键应用程序并危害它们。
+      <title>Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded</title>
+      <link>https://twitter.com/lemire/status/2091894299289874926</link>
+      <description>📝 Their phones compete with iPhones. C1-Ultra really powerful cores. This is more execution ports than you have on your Intel/AMD processor.
 
-
-🔤 Original: SeL4 security proofs now complete on AArch64
-
-🔗 Read more: https://proofcraft.systems/news-2026/#2026-08-21</description>
-      <guid isPermaLink="true">https://proofcraft.systems/news-2026/#2026-08-21</guid>
-      <pubDate>Mon, 24 Aug 2026 11:32:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49418255</comments>
+🔗 Read more: https://twitter.com/lemire/status/2091894299289874926</description>
+      <guid isPermaLink="true">https://twitter.com/lemire/status/2091894299289874926</guid>
+      <pubDate>Mon, 24 Aug 2026 15:08:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49420873</comments>
     </item>
     <item>
-      <title>自动化计算</title>
-      <link>https://learn.omacom.io/3/omacom/76/omakase-computing</link>
-      <description>📝 Omakase 计算 # Omacom 代表 Omakase 计算。人们坚信每个人都应该了解所有工具的一切，并且最好从头开始配置每一个工具。此外，Linux 的美妙之处在于总有另一种选择。
+      <title>How Europe is killing makers and micro-entrepreneurs</title>
+      <link>https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs</link>
+      <description>📝 Some earn a living from their products. Some sell only a handful of boards each year. Some ideas don’t work.
 
-
-🔤 Original: Omakase Computing
-
-🔗 Read more: https://learn.omacom.io/3/omacom/76/omakase-computing</description>
-      <guid isPermaLink="true">https://learn.omacom.io/3/omacom/76/omakase-computing</guid>
-      <pubDate>Mon, 24 Aug 2026 11:13:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49418117</comments>
+🔗 Read more: https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs</description>
+      <guid isPermaLink="true">https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs</guid>
+      <pubDate>Mon, 24 Aug 2026 13:05:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49419237</comments>
     </item>
     <item>
-      <title>未来属于奇怪的人</title>
-      <link>https://essays.georgestrakhov.com/weird/</link>
-      <description>📝 暂时的限制仅限于一年中的某些时间：例如，在酒神狂欢期间，通常的社会规则和期望被暂停。全球机构、全球数据库、全球算法、全球漂流者。建立机构的主要对象是其他人。
+      <title>Hot Chips 2026: Applying High Bandwidth Flash (HBF)</title>
+      <link>https://chipsandcheese.com/p/hot-chips-2026-applying-high-bandwidth</link>
+      <description>📝 Flash memory is cheaper per gigabyte of capacity than DRAM. If a workload becomes bandwidth bound, it’s bad for HBF’s cost equation because both cost per capacity and cost per bandwidth factor into final cost. That’s more like working with a block storage device than working with memory.
 
-
-🔤 Original: The Future Belongs to the Weird
-
-🔗 Read more: https://essays.georgestrakhov.com/weird/</description>
-      <guid isPermaLink="true">https://essays.georgestrakhov.com/weird/</guid>
-      <pubDate>Mon, 24 Aug 2026 08:46:19 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416953</comments>
+🔗 Read more: https://chipsandcheese.com/p/hot-chips-2026-applying-high-bandwidth</description>
+      <guid isPermaLink="true">https://chipsandcheese.com/p/hot-chips-2026-applying-high-bandwidth</guid>
+      <pubDate>Mon, 24 Aug 2026 14:48:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49420592</comments>
     </item>
     <item>
-      <title>Agent Is Not the Model</title>
-      <link>https://code.joejag.com/2026/your-agent-is-not-the-model.html</link>
-      <description>📝 某个地方是推理服务。推理服务是运行模型的托管层。推理服务 - 运行模型并跟踪使用情况的托管服务。
+      <title>OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)</title>
+      <link>https://developers.openai.com/api/docs/pricing</link>
+      <description>📝 All modelsBatchShort contextLong contextModelInputCached inputCache writesOutputInputCached inputCache writesOutputgpt-5. All models Cyber modelsOur latest Daybreak models. Short contextLong contextModelInputCached inputCache writesOutputInputCached inputCache writesOutputgpt-5.
 
-🔗 Read more: https://code.joejag.com/2026/your-agent-is-not-the-model.html</description>
-      <guid isPermaLink="true">https://code.joejag.com/2026/your-agent-is-not-the-model.html</guid>
-      <pubDate>Mon, 24 Aug 2026 11:20:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49418163</comments>
+🔗 Read more: https://developers.openai.com/api/docs/pricing</description>
+      <guid isPermaLink="true">https://developers.openai.com/api/docs/pricing</guid>
+      <pubDate>Mon, 24 Aug 2026 15:22:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49421074</comments>
     </item>
     <item>
-      <title>人类候选人面临生硬的金钱问题</title>
-      <link>https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</link>
-      <guid isPermaLink="true">https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</guid>
-      <pubDate>Mon, 24 Aug 2026 11:55:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49418449</comments>
+      <title>Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online</title>
+      <link>https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/</link>
+      <description>📝 Anna’s Archive eventually landed on. Two Lawsuits, $340 Million The music industry injunction also came with a substantial default judgment that was handed down in April. ‘Coordinated Attack’ With this backdrop, it is no surprise that legal troubles came to mind when the site became unreachable earlier this month.
+
+🔗 Read more: https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/</description>
+      <guid isPermaLink="true">https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/</guid>
+      <pubDate>Mon, 24 Aug 2026 15:10:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49420902</comments>
     </item>
     <item>
-      <title>问 HN：为什么企业失败似乎总是惩罚错误的人？</title>
-      <link>https://news.ycombinator.com/item?id=49418675</link>
-      <description>📝 She's moved from IC to managing over 30 people and barely manages to use vacation days because she's always working. He moved into this role from failing elsewhere, leaving the chaos there behind him, and over the past two years, now has caused yet another disaster in this new role. This used to be a thing I've heard over and over again from friends at Google, but it really seems to be very consistent thing elsewhere, too.
+      <title>Why older tech is sometimes safer from hackers</title>
+      <link>https://www.bbc.com/future/article/20260821-why-older-tech-is-sometimes-safer-from-hackers</link>
+      <description>📝 Although Eudora was far from perfectly secure, as people switched to newer email tools, Hyppönen realised that hackers were forgetting about Eudora. Hyppönen calls it "security by antiquity". As technology has advanced, experts have often questioned whether the latest systems are actually more risky than older ones.
 
-
-🔤 Original: Ask HN: Why do corporate failures always seem to punish the wrong people?
-
-🔗 Read more: https://news.ycombinator.com/item?id=49418675</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49418675</guid>
-      <pubDate>Mon, 24 Aug 2026 12:18:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49418675</comments>
+🔗 Read more: https://www.bbc.com/future/article/20260821-why-older-tech-is-sometimes-safer-from-hackers</description>
+      <guid isPermaLink="true">https://www.bbc.com/future/article/20260821-why-older-tech-is-sometimes-safer-from-hackers</guid>
+      <pubDate>Mon, 24 Aug 2026 11:23:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418184</comments>
     </item>
     <item>
-      <title>Woman stranded in Spain after UK's eVisa system mistakes her for twin sister</title>
-      <link>https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</link>
-      <description>📝 内政部表示，韦伯遇到的问题已得到解决，工作人员将直接与她联系。照片：NurPhoto/Getty Images 全屏查看图片内政部表示，韦伯遇到的问题已得到解决，工作人员将直接与她联系。内政部表示，韦伯遇到的问题已得到解决，工作人员将直接与她联系。
-
-🔗 Read more: https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</description>
-      <guid isPermaLink="true">https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</guid>
-      <pubDate>Mon, 24 Aug 2026 09:45:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49417394</comments>
+      <title>Show HN: A techno machine in one HTML file, with verifiable renders</title>
+      <link>https://ssx360.github.io/rack-02/?src=hn</link>
+      <guid isPermaLink="true">https://ssx360.github.io/rack-02/?src=hn</guid>
+      <pubDate>Mon, 24 Aug 2026 13:17:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49419351</comments>
     </item>
     <item>
-      <title>国债混乱：美国作为避风港的地位是否会消亡？</title>
-      <link>https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</link>
-      <description>📝 国债收益率的上升大幅增加了联邦债务的偿还成本。国债收益率的上升大幅增加了联邦债务的偿还成本。外国投资者也纷纷涌入。
+      <title>Show HN: Vanilla OS 3 Reunion – Immutable and Reproducible Operating System</title>
+      <link>https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release</link>
+      <description>📝 This website requires JavaScript to run. Please enable it to continue. Please read this comment for more informations.
 
-
-🔤 Original: The treasury bond mess: is this the demise of the US as a safe haven?
-
-🔗 Read more: https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</description>
-      <guid isPermaLink="true">https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</guid>
-      <pubDate>Mon, 24 Aug 2026 10:52:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49417941</comments>
-    </item>
-    <item>
-      <title>哀悼史蒂夫·法兰西</title>
-      <link>https://lwn.net/Articles/1090098/</link>
-      <description>📝 “我认识 Steve 已有 20 多年了。发表评论将会想念 Steve。发布时间：2026 年 8 月 23 日 15:04 UTC（Sun），作者：jlayton（订阅者，#31672）[链接] Steve 将我的第一个上游补丁合并到 Linux 内核中。Steve 永远不会原谅我们没有最后一个“Steve 在哪里”。
-
-
-🔤 Original: Mourning Steve French
-
-🔗 Read more: https://lwn.net/Articles/1090098/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/1090098/</guid>
-      <pubDate>Mon, 24 Aug 2026 04:47:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415265</comments>
-    </item>
-    <item>
-      <title>Omacom Foundation funding hits $10M</title>
-      <link>https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</link>
-      <description>📝 与最初的八位创始赞助人一样，德鲁和彼得每人捐款 100 万美元。 Drew 将个人对在计算机之间移动文件的渴望转变为 Dropbox。欢迎，德鲁和彼得。
-
-🔗 Read more: https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</description>
-      <guid isPermaLink="true">https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</guid>
-      <pubDate>Mon, 24 Aug 2026 11:04:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49418032</comments>
+🔗 Read more: https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release</description>
+      <guid isPermaLink="true">https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release</guid>
+      <pubDate>Mon, 24 Aug 2026 10:18:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49417684</comments>
     </item>
   </channel>
 </rss>
