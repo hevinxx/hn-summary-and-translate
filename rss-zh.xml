@@ -6,99 +6,123 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 24 Aug 2026 09:46:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 12:48:17 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>FDA 批准血液检测以帮助评估阿尔茨海默病</title>
-      <link>https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</link>
-      <description>📝 圣路易斯对阿尔茨海默病的早期诊断。这些生物标志物与淀粉样蛋白病理学有关，淀粉样蛋白病理学是阿尔茨海默病的一个特征。先前的研究表明，PrecivityAD2 测试可以诊断阿尔茨海默病的淀粉样蛋白病理，准确率超过 90%。
+      <title>SeL4 安全证明现已在 AArch64 上完成</title>
+      <link>https://proofcraft.systems/news-2026/#2026-08-21</link>
+      <description>📝 2026 年 8 月 21 日，seL4 安全证明现已在 AArch64 上完成 在完成功能正确性和完整性证明后，Proofcraft 现已建立了 seL4 在 AArch64 上强制执行机密性的证明，提供了正式的数学证明，证明内核可防止在 seL4 上运行的应用程序在未经授权的情况下学习信息。感谢 NCSC 的持续支持，这一里程碑完成了 AArch64 上的 seL4 实现代码强制执行其上运行的应用程序的安全隔离的正式证明（在此处列出的假设下）。这种隔离可以防止对非关键应用程序的攻击传播到关键应用程序并危害它们。
 
 
-🔤 Original: FDA clears blood test to aid evaluation for Alzheimer's disease
+🔤 Original: SeL4 security proofs now complete on AArch64
 
-🔗 Read more: https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</description>
-      <guid isPermaLink="true">https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</guid>
-      <pubDate>Mon, 24 Aug 2026 06:30:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415893</comments>
+🔗 Read more: https://proofcraft.systems/news-2026/#2026-08-21</description>
+      <guid isPermaLink="true">https://proofcraft.systems/news-2026/#2026-08-21</guid>
+      <pubDate>Mon, 24 Aug 2026 11:32:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418255</comments>
     </item>
     <item>
-      <title>安德森霍洛维茨投资数十亿美元迎接黯淡的未来</title>
-      <link>https://www.modelrepublic.org/articles/a16z-portfolio</link>
-      <description>📝 通过出售“电话农场”的访问权，这些“电话农场”创建和管理数千个虚假社交媒体帐户，以操纵参与度指标。该公司让这些账户在发布欺骗性内容之前模仿人类行为。 “这一切都是为了规避平台对虚假内容的限制，然后将虚假内容提供给毫无戒心的真实人们。
+      <title>自动化计算</title>
+      <link>https://learn.omacom.io/3/omacom/76/omakase-computing</link>
+      <description>📝 Omakase 计算 # Omacom 代表 Omakase 计算。人们坚信每个人都应该了解所有工具的一切，并且最好从头开始配置每一个工具。此外，Linux 的美妙之处在于总有另一种选择。
 
 
-🔤 Original: Andreessen Horowitz is investing billions into a bleak future
+🔤 Original: Omakase Computing
 
-🔗 Read more: https://www.modelrepublic.org/articles/a16z-portfolio</description>
-      <guid isPermaLink="true">https://www.modelrepublic.org/articles/a16z-portfolio</guid>
-      <pubDate>Mon, 24 Aug 2026 06:57:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416055</comments>
+🔗 Read more: https://learn.omacom.io/3/omacom/76/omakase-computing</description>
+      <guid isPermaLink="true">https://learn.omacom.io/3/omacom/76/omakase-computing</guid>
+      <pubDate>Mon, 24 Aug 2026 11:13:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418117</comments>
     </item>
     <item>
-      <title>可执行文件是一个 SQLite 数据库</title>
-      <link>https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</link>
-      <description>📝 具体来说，我们是否可以用SQLite代替ELF作为可执行格式。它们是一种极其稳定的自描述格式。它是具有单个索引的单个表：CREATE TABLE 符号 ( id INTEGER PRIMARY KEY, name TEXT NOT NULL, -- 'GLIBC_2.
+      <title>未来属于奇怪的人</title>
+      <link>https://essays.georgestrakhov.com/weird/</link>
+      <description>📝 暂时的限制仅限于一年中的某些时间：例如，在酒神狂欢期间，通常的社会规则和期望被暂停。全球机构、全球数据库、全球算法、全球漂流者。建立机构的主要对象是其他人。
 
 
-🔤 Original: Executable Is a SQLite Database
+🔤 Original: The Future Belongs to the Weird
 
-🔗 Read more: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</description>
-      <guid isPermaLink="true">https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</guid>
-      <pubDate>Mon, 24 Aug 2026 04:48:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415271</comments>
+🔗 Read more: https://essays.georgestrakhov.com/weird/</description>
+      <guid isPermaLink="true">https://essays.georgestrakhov.com/weird/</guid>
+      <pubDate>Mon, 24 Aug 2026 08:46:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49416953</comments>
     </item>
     <item>
-      <title>从单个 Parquet 文件快速深入查看仪表板</title>
-      <link>https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</link>
-      <description>📝 我们可能可以将此类数据汇总到 Parquet 支持的数据立方体中，并使用 Hyparquet（在浏览器中运行的小型 javascript Parquet 阅读器）通过非常简单的范围查询填写仪表板。下面的演示仪表板使用 Hyparquet 直接从该文件读取。该文件有两种类型。
+      <title>Agent Is Not the Model</title>
+      <link>https://code.joejag.com/2026/your-agent-is-not-the-model.html</link>
+      <description>📝 某个地方是推理服务。推理服务是运行模型的托管层。推理服务 - 运行模型并跟踪使用情况的托管服务。
 
-
-🔤 Original: Fast drilldown dashboards from a single Parquet file
-
-🔗 Read more: https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</description>
-      <guid isPermaLink="true">https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</guid>
-      <pubDate>Mon, 24 Aug 2026 08:13:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416652</comments>
+🔗 Read more: https://code.joejag.com/2026/your-agent-is-not-the-model.html</description>
+      <guid isPermaLink="true">https://code.joejag.com/2026/your-agent-is-not-the-model.html</guid>
+      <pubDate>Mon, 24 Aug 2026 11:20:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418163</comments>
     </item>
     <item>
-      <title>为什么 Anthropic 的公开写作风格与克劳德如此不同？</title>
-      <link>https://cmart.blog/claude-writing/</link>
-      <description>📝 “除了 Claude 本身听起来像这样，甚至从 Claude 轻微蒸馏出来的 LLM 也是如此（例如 Kimi K3）。Claude 是否梯度下降到人们实际上更喜欢的风格。我们知道 Anthropic 广泛地狗食 Claude。
-
-
-🔤 Original: Why is Anthropic's public writing style so unlike Claude's?
-
-🔗 Read more: https://cmart.blog/claude-writing/</description>
-      <guid isPermaLink="true">https://cmart.blog/claude-writing/</guid>
-      <pubDate>Mon, 24 Aug 2026 03:32:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49414934</comments>
+      <title>人类候选人面临生硬的金钱问题</title>
+      <link>https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</link>
+      <guid isPermaLink="true">https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</guid>
+      <pubDate>Mon, 24 Aug 2026 11:55:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418449</comments>
     </item>
     <item>
-      <title>刚果记录了 5,200 多例埃博拉病例</title>
-      <link>https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</link>
-      <description>📝 尽管面临挑战，过去三个月仍做出了重要的疫情应对工作。治疗能力从不到10张床位增加到1300多张，900多个卫生机构获得了感染防控支持。社区参与活动已达2次以上。
+      <title>问 HN：为什么企业失败似乎总是惩罚错误的人？</title>
+      <link>https://news.ycombinator.com/item?id=49418675</link>
+      <description>📝 She's moved from IC to managing over 30 people and barely manages to use vacation days because she's always working. He moved into this role from failing elsewhere, leaving the chaos there behind him, and over the past two years, now has caused yet another disaster in this new role. This used to be a thing I've heard over and over again from friends at Google, but it really seems to be very consistent thing elsewhere, too.
 
 
-🔤 Original: Over 5,200 Ebola cases recorded in Congo
+🔤 Original: Ask HN: Why do corporate failures always seem to punish the wrong people?
 
-🔗 Read more: https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</description>
-      <guid isPermaLink="true">https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</guid>
-      <pubDate>Mon, 24 Aug 2026 07:03:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416097</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=49418675</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49418675</guid>
+      <pubDate>Mon, 24 Aug 2026 12:18:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418675</comments>
     </item>
     <item>
-      <title>Anthropic Claude 和 API 服务中断</title>
-      <link>https://status.claude.com/uptime</link>
-      <description>📝 重新发送 OTP 订阅即表示您同意我们的隐私政策。订阅即表示您同意我们的隐私政策、Atlassian 服务条款和 Atlassian 隐私政策。通过 Slack 订阅 订阅即表示您承认我们的隐私政策。
+      <title>Woman stranded in Spain after UK's eVisa system mistakes her for twin sister</title>
+      <link>https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</link>
+      <description>📝 内政部表示，韦伯遇到的问题已得到解决，工作人员将直接与她联系。照片：NurPhoto/Getty Images 全屏查看图片内政部表示，韦伯遇到的问题已得到解决，工作人员将直接与她联系。内政部表示，韦伯遇到的问题已得到解决，工作人员将直接与她联系。
+
+🔗 Read more: https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</description>
+      <guid isPermaLink="true">https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</guid>
+      <pubDate>Mon, 24 Aug 2026 09:45:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49417394</comments>
+    </item>
+    <item>
+      <title>国债混乱：美国作为避风港的地位是否会消亡？</title>
+      <link>https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</link>
+      <description>📝 国债收益率的上升大幅增加了联邦债务的偿还成本。国债收益率的上升大幅增加了联邦债务的偿还成本。外国投资者也纷纷涌入。
 
 
-🔤 Original: Anthropic Claude and API service outages
+🔤 Original: The treasury bond mess: is this the demise of the US as a safe haven?
 
-🔗 Read more: https://status.claude.com/uptime</description>
-      <guid isPermaLink="true">https://status.claude.com/uptime</guid>
-      <pubDate>Mon, 24 Aug 2026 06:32:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415907</comments>
+🔗 Read more: https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</description>
+      <guid isPermaLink="true">https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</guid>
+      <pubDate>Mon, 24 Aug 2026 10:52:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49417941</comments>
+    </item>
+    <item>
+      <title>哀悼史蒂夫·法兰西</title>
+      <link>https://lwn.net/Articles/1090098/</link>
+      <description>📝 “我认识 Steve 已有 20 多年了。发表评论将会想念 Steve。发布时间：2026 年 8 月 23 日 15:04 UTC（Sun），作者：jlayton（订阅者，#31672）[链接] Steve 将我的第一个上游补丁合并到 Linux 内核中。Steve 永远不会原谅我们没有最后一个“Steve 在哪里”。
+
+
+🔤 Original: Mourning Steve French
+
+🔗 Read more: https://lwn.net/Articles/1090098/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1090098/</guid>
+      <pubDate>Mon, 24 Aug 2026 04:47:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49415265</comments>
+    </item>
+    <item>
+      <title>Omacom Foundation funding hits $10M</title>
+      <link>https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</link>
+      <description>📝 与最初的八位创始赞助人一样，德鲁和彼得每人捐款 100 万美元。 Drew 将个人对在计算机之间移动文件的渴望转变为 Dropbox。欢迎，德鲁和彼得。
+
+🔗 Read more: https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</description>
+      <guid isPermaLink="true">https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</guid>
+      <pubDate>Mon, 24 Aug 2026 11:04:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418032</comments>
     </item>
   </channel>
 </rss>

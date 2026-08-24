@@ -6,99 +6,123 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 24 Aug 2026 09:46:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 12:48:17 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>FDA、アルツハイマー病の評価を支援する血液検査を承認</title>
-      <link>https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</link>
-      <description>📝 ルイはアルツハイマー病の早期診断に貢献した。これらのバイオマーカーは、アルツハイマー病の特徴であるアミロイド病理に関連しています。以前の研究では、PreciivityAD2 検査がアルツハイマー病のアミロイド病理を 90% 以上の精度で診断できることが実証されました。
+      <title>AArch64 で SeL4 セキュリティ証明が完了</title>
+      <link>https://proofcraft.systems/news-2026/#2026-08-21</link>
+      <description>📝 2026 年 8 月 21 日 AArch64 での seL4 のセキュリティ証明が完了 機能の正確性と完全性の証明を完了した後、Proofcraft は現在、seL4 が AArch64 で機密性を強制していることの証明を確立し、カーネルが seL4 上で実行されているアプリケーションが許可なく情報を学習することを防止していることの正式な数学的証明を提供しました。 NCSC からの継続的なサポートのおかげで、このマイルストーンは、AArch64 上の seL4 実装コードが、(ここにリストされている前提の下で) 上で実行されているアプリケーションのセキュリティ分離を強制することの正式な証明を完了します。この分離により、重要でないアプリケーションに対する攻撃が重要なアプリケーションに伝播し、それらのアプリケーションが侵害されるのを防ぎます。
 
 
-🔤 Original: FDA clears blood test to aid evaluation for Alzheimer's disease
+🔤 Original: SeL4 security proofs now complete on AArch64
 
-🔗 Read more: https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</description>
-      <guid isPermaLink="true">https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</guid>
-      <pubDate>Mon, 24 Aug 2026 06:30:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415893</comments>
+🔗 Read more: https://proofcraft.systems/news-2026/#2026-08-21</description>
+      <guid isPermaLink="true">https://proofcraft.systems/news-2026/#2026-08-21</guid>
+      <pubDate>Mon, 24 Aug 2026 11:32:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418255</comments>
     </item>
     <item>
-      <title>アンドリーセン・ホロヴィッツは暗い未来に数十億ドルを投資している</title>
-      <link>https://www.modelrepublic.org/articles/a16z-portfolio</link>
-      <description>📝 エンゲージメント指標を操作するために何千もの偽のソーシャルメディアアカウントを作成および管理する「電話ファーム」へのアクセスを販売することによって。同社は、アカウントに欺瞞的なコンテンツを投稿する前に人間の行動を模倣させている。これはすべて、偽のコンテンツに対するプラットフォームの制限を回避し、疑うことを知らない本物の人々にその偽のコンテンツを提供するように設計されています。
+      <title>Omakase Computing</title>
+      <link>https://learn.omacom.io/3/omacom/76/omakase-computing</link>
+      <description>📝 おまかせコンピューティング # Omacom は、Omakase Computing の略です。ここでは、誰もがすべてのツールについてすべてを知っているべきであり、できればすべてのツールを最初から構成する必要があるという強い信念がありました。さらに、Linux の素晴らしい点は、常に別のオプションがあることです。
 
-
-🔤 Original: Andreessen Horowitz is investing billions into a bleak future
-
-🔗 Read more: https://www.modelrepublic.org/articles/a16z-portfolio</description>
-      <guid isPermaLink="true">https://www.modelrepublic.org/articles/a16z-portfolio</guid>
-      <pubDate>Mon, 24 Aug 2026 06:57:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416055</comments>
+🔗 Read more: https://learn.omacom.io/3/omacom/76/omakase-computing</description>
+      <guid isPermaLink="true">https://learn.omacom.io/3/omacom/76/omakase-computing</guid>
+      <pubDate>Mon, 24 Aug 2026 11:13:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418117</comments>
     </item>
     <item>
-      <title>実行可能ファイルは SQLite データベースです</title>
-      <link>https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</link>
-      <description>📝 具体的には、実行可能形式として ELF を SQLite に置き換えることはできますか。これらは非常に安定した自己記述形式です。これは、単一のインデックスを持つ単一のテーブルです。 CREATE TABLE シンボル ( id INTEGER PRIMARY KEY、name TEXT NOT NULL、-- 'GLIBC_2.
+      <title>未来は奇妙なものに属する</title>
+      <link>https://essays.georgestrakhov.com/weird/</link>
+      <description>📝 一時的なものは一年の特定の時期に限定されていました。たとえば、ディオニュソスの乱交の期間中、通常の社会のレールと期待は一時停止されました。世界的な機関、世界的なデータベース、世界的なアルゴリズム、世界的な漂流者。あなたが組織を構築する主な材料は他の人間です。
 
 
-🔤 Original: Executable Is a SQLite Database
+🔤 Original: The Future Belongs to the Weird
 
-🔗 Read more: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</description>
-      <guid isPermaLink="true">https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</guid>
-      <pubDate>Mon, 24 Aug 2026 04:48:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415271</comments>
+🔗 Read more: https://essays.georgestrakhov.com/weird/</description>
+      <guid isPermaLink="true">https://essays.georgestrakhov.com/weird/</guid>
+      <pubDate>Mon, 24 Aug 2026 08:46:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49416953</comments>
     </item>
     <item>
-      <title>単一の Parquet ファイルからの高速ドリルダウン ダッシュボード</title>
-      <link>https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</link>
-      <description>📝 おそらく、この種のデータを Parquet ベースのデータ キューブにロールアップし、ブラウザーで実行される小型の JavaScript Parquet リーダーである Hyparquet を使用して、それに対する非常に単純な範囲クエリでダッシュボードに入力することができます。以下のデモ ダッシュボードは、Hyparquet を使用してそのファイルから直接読み取ります。このファイルには両方の種類があります。
+      <title>エージェントはモデルではありません</title>
+      <link>https://code.joejag.com/2026/your-agent-is-not-the-model.html</link>
+      <description>📝 それは推論サービスです。推論サービスは、モデルを実行するホスト層です。推論サービス - モデルを実行し、使用状況を追跡するホストされたサービス。
 
 
-🔤 Original: Fast drilldown dashboards from a single Parquet file
+🔤 Original: Agent Is Not the Model
 
-🔗 Read more: https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</description>
-      <guid isPermaLink="true">https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</guid>
-      <pubDate>Mon, 24 Aug 2026 08:13:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416652</comments>
+🔗 Read more: https://code.joejag.com/2026/your-agent-is-not-the-model.html</description>
+      <guid isPermaLink="true">https://code.joejag.com/2026/your-agent-is-not-the-model.html</guid>
+      <pubDate>Mon, 24 Aug 2026 11:20:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418163</comments>
     </item>
     <item>
-      <title>Anthropic の公開文体がクロードのものと大きく異なるのはなぜですか?</title>
-      <link>https://cmart.blog/claude-writing/</link>
-      <description>📝 「クロード自体がこのように聞こえることに加えて、クロードからマイルドに蒸留された LLM (キミ K3 など) も同様です。クロードは実際に人々が全体として好むスタイルに勾配降下しています。私たちは、人間のドッグフードがクロードを広範囲に活用していることを知っています。」
-
-
-🔤 Original: Why is Anthropic's public writing style so unlike Claude's?
-
-🔗 Read more: https://cmart.blog/claude-writing/</description>
-      <guid isPermaLink="true">https://cmart.blog/claude-writing/</guid>
-      <pubDate>Mon, 24 Aug 2026 03:32:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49414934</comments>
+      <title>人間的候補者は金銭に関する露骨な質問に直面している</title>
+      <link>https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</link>
+      <guid isPermaLink="true">https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</guid>
+      <pubDate>Mon, 24 Aug 2026 11:55:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418449</comments>
     </item>
     <item>
-      <title>コンゴで5,200人以上のエボラ出血熱感染者が記録</title>
-      <link>https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</link>
-      <description>📝 課題にもかかわらず、過去 3 か月間、重要なアウトブレイク対応の取り組みが行われてきました。治療能力はベッド数 10 床未満から 1,300 床以上に増加し、900 を超える医療施設が感染予防と制御の支援を受けています。コミュニティ参加活動は2以上に達しました。
+      <title>HN に質問してください: なぜ企業の失敗は常に間違った人々を罰するように見えるのですか?</title>
+      <link>https://news.ycombinator.com/item?id=49418675</link>
+      <description>📝 彼女は IC から 30 人以上の従業員を管理する職に異動しましたが、常に仕事をしているため、休暇をほとんど利用することができません。彼は他の場所で失敗し、その混乱を後に残してこの役割に移りましたが、過去 2 年間で、この新しい役割でさらに別の災難を引き起こしました。これは私が Google の友人たちから何度も何度も聞いた話ですが、他のところでも非常に一貫しているようです。
 
 
-🔤 Original: Over 5,200 Ebola cases recorded in Congo
+🔤 Original: Ask HN: Why do corporate failures always seem to punish the wrong people?
 
-🔗 Read more: https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</description>
-      <guid isPermaLink="true">https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</guid>
-      <pubDate>Mon, 24 Aug 2026 07:03:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416097</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=49418675</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49418675</guid>
+      <pubDate>Mon, 24 Aug 2026 12:18:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418675</comments>
     </item>
     <item>
-      <title>Anthropic Claude と API サービスの停止</title>
-      <link>https://status.claude.com/uptime</link>
-      <description>📝 OTP を再送信 購読すると、当社のプライバシー ポリシーに同意したものとみなされます。購読すると、当社のプライバシー ポリシー、アトラシアンのサービス利用規約、およびアトラシアンのプライバシー ポリシーに同意したことになります。 Slack 経由で購読する 購読すると、当社のプライバシー ポリシーに同意したことになります。
+      <title>Woman stranded in Spain after UK's eVisa system mistakes her for twin sister</title>
+      <link>https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</link>
+      <description>📝 内務省は、ウェッブが遭遇した問題はその後解決されており、スタッフがウェッブに直接連絡すると述べた。写真: NurPhoto/Getty Images 画像をフルスクリーンで表示 内務省は、ウェッブさんが遭遇した問題はその後解決されており、スタッフがウェッブさんに直接連絡すると述べた。内務省は、ウェッブさんが遭遇した問題はその後解決されており、スタッフがウェッブさんに直接連絡すると述べた。
+
+🔗 Read more: https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</description>
+      <guid isPermaLink="true">https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</guid>
+      <pubDate>Mon, 24 Aug 2026 09:45:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49417394</comments>
+    </item>
+    <item>
+      <title>国債の混乱：これは安全な逃避先としての米国の終焉なのか？</title>
+      <link>https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</link>
+      <description>📝 国債利回りの上昇により、連邦債務の返済コストが急激に増加した。国債利回りの上昇により、連邦債務の返済コストが急激に増加した。外国人投資家も続々と参入した。
 
 
-🔤 Original: Anthropic Claude and API service outages
+🔤 Original: The treasury bond mess: is this the demise of the US as a safe haven?
 
-🔗 Read more: https://status.claude.com/uptime</description>
-      <guid isPermaLink="true">https://status.claude.com/uptime</guid>
-      <pubDate>Mon, 24 Aug 2026 06:32:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415907</comments>
+🔗 Read more: https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</description>
+      <guid isPermaLink="true">https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</guid>
+      <pubDate>Mon, 24 Aug 2026 10:52:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49417941</comments>
+    </item>
+    <item>
+      <title>Mourning Steve French</title>
+      <link>https://lwn.net/Articles/1090098/</link>
+      <description>📝 「私は Steve のことを 20 年以上知っています。コメントを投稿するには Steve がいなくなるのは寂しいです。 Posted August 23, 2026 15:04 UTC (Sun) by jlayton (subscriber, #31672) [Link] Steve は私の最初のアップストリーム パッチを Linux カーネルにマージしてくれました。Steve は、最後に 1 つも残さなかった私たちを絶対に許しませんでした。」
+
+🔗 Read more: https://lwn.net/Articles/1090098/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1090098/</guid>
+      <pubDate>Mon, 24 Aug 2026 04:47:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49415265</comments>
+    </item>
+    <item>
+      <title>オマコム財団の資金調達が1,000万ドルに達する</title>
+      <link>https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</link>
+      <description>📝 元の 8 人の創設パトロンと同様に、ドリューとピーターはそれぞれ 100 万ドルを寄付しています。ドリューは、コンピュータ間でファイルを移動することに対する個人的な悩みを Dropbox に変えました。ようこそ、ドリューとピーター。
+
+
+🔤 Original: Omacom Foundation funding hits $10M
+
+🔗 Read more: https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</description>
+      <guid isPermaLink="true">https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</guid>
+      <pubDate>Mon, 24 Aug 2026 11:04:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418032</comments>
     </item>
   </channel>
 </rss>

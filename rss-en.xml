@@ -6,78 +6,105 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 09:46:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 12:48:17 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>FDA clears blood test to aid evaluation for Alzheimer's disease</title>
-      <link>https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</link>
-      <description>📝 Louis for the early diagnosis of Alzheimer’s disease. These biomarkers are associated with amyloid pathology, a characteristic feature of Alzheimer’s disease. Previous studies demonstrated that the PrecivityAD2 test can diagnose the amyloid pathology of Alzheimer’s disease with more than 90% accuracy.
+      <title>SeL4 security proofs now complete on AArch64</title>
+      <link>https://proofcraft.systems/news-2026/#2026-08-21</link>
+      <description>📝 21 Aug 2026 seL4 security proofs now complete on AArch64 After completing the proofs of functional correctness and integrity, Proofcraft has now established the proof that seL4 enforces confidentiality on AArch64, providing a formal mathematical proof that the kernel prevents an application running on top of seL4 from learning information without authorisation. Thanks to continued support from NCSC, this milestone completes the formal proof that the seL4 implementation code on AArch64 enforces security isolation of the applications running on top (under the assumptions listed here). This isolation prevents attacks on non-critical applications from propagating to critical applications and compromising them.
 
-🔗 Read more: https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</description>
-      <guid isPermaLink="true">https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</guid>
-      <pubDate>Mon, 24 Aug 2026 06:30:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415893</comments>
+🔗 Read more: https://proofcraft.systems/news-2026/#2026-08-21</description>
+      <guid isPermaLink="true">https://proofcraft.systems/news-2026/#2026-08-21</guid>
+      <pubDate>Mon, 24 Aug 2026 11:32:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418255</comments>
     </item>
     <item>
-      <title>Andreessen Horowitz is investing billions into a bleak future</title>
-      <link>https://www.modelrepublic.org/articles/a16z-portfolio</link>
-      <description>📝 By selling access to “phone farms” that create and manage thousands of fake social media accounts to manipulate engagement metrics. The company has the accounts imitate human behavior before posting deceptive content. ” This is all designed to circumvent platforms’ restrictions on fake content and then serve that fake content to unsuspecting real people.
+      <title>Omakase Computing</title>
+      <link>https://learn.omacom.io/3/omacom/76/omakase-computing</link>
+      <description>📝 Omakase Computing # Omacom stands for Omakase Computing. Where there's been a strong belief that everyone should know everything about all of their tools, and that they should preferably configure every last one from them from scratch. Besides, the wonderful thing about Linux is that there's always another option.
 
-🔗 Read more: https://www.modelrepublic.org/articles/a16z-portfolio</description>
-      <guid isPermaLink="true">https://www.modelrepublic.org/articles/a16z-portfolio</guid>
-      <pubDate>Mon, 24 Aug 2026 06:57:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416055</comments>
+🔗 Read more: https://learn.omacom.io/3/omacom/76/omakase-computing</description>
+      <guid isPermaLink="true">https://learn.omacom.io/3/omacom/76/omakase-computing</guid>
+      <pubDate>Mon, 24 Aug 2026 11:13:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418117</comments>
     </item>
     <item>
-      <title>Executable Is a SQLite Database</title>
-      <link>https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</link>
-      <description>📝 Specifically, can we replace ELF with SQLite as an executable format. They are a self-describing format that is extremely stable. It is a single table with a single index: CREATE TABLE symbols ( id INTEGER PRIMARY KEY, name TEXT NOT NULL, -- 'GLIBC_2.
+      <title>The Future Belongs to the Weird</title>
+      <link>https://essays.georgestrakhov.com/weird/</link>
+      <description>📝 Temporal ones were restricted to certain times of the year: for example, during the Dionysian orgies the usual societal rails and expectations were suspended. Global institutions, global databases, global algorithms, global castaways. The main thing that you build institutions from is other humans.
 
-🔗 Read more: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</description>
-      <guid isPermaLink="true">https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</guid>
-      <pubDate>Mon, 24 Aug 2026 04:48:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415271</comments>
+🔗 Read more: https://essays.georgestrakhov.com/weird/</description>
+      <guid isPermaLink="true">https://essays.georgestrakhov.com/weird/</guid>
+      <pubDate>Mon, 24 Aug 2026 08:46:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49416953</comments>
     </item>
     <item>
-      <title>Fast drilldown dashboards from a single Parquet file</title>
-      <link>https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</link>
-      <description>📝 We could probably just roll this kind of data up into a Parquet-backed data cube, and fill out the dashboard with very simple range queries against it, using Hyparquet, a small javascript Parquet reader that runs in the browser. The demo dashboard below reads directly from that file using Hyparquet. This file has both kinds.
+      <title>Agent Is Not the Model</title>
+      <link>https://code.joejag.com/2026/your-agent-is-not-the-model.html</link>
+      <description>📝 That somewhere is an inference service. The inference service is the hosted layer that runs the model. Inference service - the hosted service that runs the model and tracks usage.
 
-🔗 Read more: https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</description>
-      <guid isPermaLink="true">https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</guid>
-      <pubDate>Mon, 24 Aug 2026 08:13:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416652</comments>
+🔗 Read more: https://code.joejag.com/2026/your-agent-is-not-the-model.html</description>
+      <guid isPermaLink="true">https://code.joejag.com/2026/your-agent-is-not-the-model.html</guid>
+      <pubDate>Mon, 24 Aug 2026 11:20:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418163</comments>
     </item>
     <item>
-      <title>Why is Anthropic's public writing style so unlike Claude's?</title>
-      <link>https://cmart.blog/claude-writing/</link>
-      <description>📝 ” In addition to Claude itself sounding like this, so do LLM that are even mildly distilled from Claude (such as Kimi K3). Has Claude gradient-descended onto the style that people actually prefer in aggregate. We know that Anthropic dogfoods Claude extensively.
-
-🔗 Read more: https://cmart.blog/claude-writing/</description>
-      <guid isPermaLink="true">https://cmart.blog/claude-writing/</guid>
-      <pubDate>Mon, 24 Aug 2026 03:32:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49414934</comments>
+      <title>Anthropic candidates face blunt money question</title>
+      <link>https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</link>
+      <guid isPermaLink="true">https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question</guid>
+      <pubDate>Mon, 24 Aug 2026 11:55:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418449</comments>
     </item>
     <item>
-      <title>Over 5,200 Ebola cases recorded in Congo</title>
-      <link>https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</link>
-      <description>📝 Despite the challenges, important outbreak response efforts have been made over the past three months. Treatment capacity has increased from fewer than 10 beds to more than 1300, while over 900 health facilities have received infection prevention and control support. Community engagement activities have reached more than 2.
+      <title>Ask HN: Why do corporate failures always seem to punish the wrong people?</title>
+      <link>https://news.ycombinator.com/item?id=49418675</link>
+      <description>📝 She's moved from IC to managing over 30 people and barely manages to use vacation days because she's always working. He moved into this role from failing elsewhere, leaving the chaos there behind him, and over the past two years, now has caused yet another disaster in this new role. This used to be a thing I've heard over and over again from friends at Google, but it really seems to be very consistent thing elsewhere, too.
 
-🔗 Read more: https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</description>
-      <guid isPermaLink="true">https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</guid>
-      <pubDate>Mon, 24 Aug 2026 07:03:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49416097</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=49418675</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49418675</guid>
+      <pubDate>Mon, 24 Aug 2026 12:18:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418675</comments>
     </item>
     <item>
-      <title>Anthropic Claude and API service outages</title>
-      <link>https://status.claude.com/uptime</link>
-      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. By subscribing you agree to our Privacy Policy, the Atlassian Terms of Service, and the Atlassian Privacy Policy. Subscribe via Slack By subscribing you acknowledge our Privacy Policy.
+      <title>Woman stranded in Spain after UK's eVisa system mistakes her for twin sister</title>
+      <link>https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</link>
+      <description>📝 The Home Office indicated the problem Webb encountered had since been fixed and that staff would contact her directly. Photograph: NurPhoto/Getty ImagesView image in fullscreenThe Home Office indicated the problem Webb encountered had since been fixed and that staff would contact her directly. ” The Home Office indicated the problem Webb encountered had since been fixed and that staff would contact her directly.
 
-🔗 Read more: https://status.claude.com/uptime</description>
-      <guid isPermaLink="true">https://status.claude.com/uptime</guid>
-      <pubDate>Mon, 24 Aug 2026 06:32:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415907</comments>
+🔗 Read more: https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</description>
+      <guid isPermaLink="true">https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister</guid>
+      <pubDate>Mon, 24 Aug 2026 09:45:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49417394</comments>
+    </item>
+    <item>
+      <title>The treasury bond mess: is this the demise of the US as a safe haven?</title>
+      <link>https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</link>
+      <description>📝 The rise in treasury yields has sharply increased the cost of servicing the federal debt. The rise in treasury yields has sharply increased the cost of servicing the federal debt. Foreign investors also piled in.
+
+🔗 Read more: https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</description>
+      <guid isPermaLink="true">https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt</guid>
+      <pubDate>Mon, 24 Aug 2026 10:52:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49417941</comments>
+    </item>
+    <item>
+      <title>Mourning Steve French</title>
+      <link>https://lwn.net/Articles/1090098/</link>
+      <description>📝 "I've known Steve for over 20 years. to post comments Steve will be missed Posted Aug 23, 2026 15:04 UTC (Sun) by jlayton (subscriber, #31672) [Link] Steve merged my first upstream patch into the Linux kernel. Steve would never have forgiven us for not having one last "where is Steve.
+
+🔗 Read more: https://lwn.net/Articles/1090098/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1090098/</guid>
+      <pubDate>Mon, 24 Aug 2026 04:47:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49415265</comments>
+    </item>
+    <item>
+      <title>Omacom Foundation funding hits $10M</title>
+      <link>https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</link>
+      <description>📝 Like the original eight Founding Patrons, Drew and Peter are each contributing $1 million. Drew turned a personal itch about moving files between computers into Dropbox. Welcome, Drew and Peter.
+
+🔗 Read more: https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</description>
+      <guid isPermaLink="true">https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/</guid>
+      <pubDate>Mon, 24 Aug 2026 11:04:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49418032</comments>
     </item>
   </channel>
 </rss>
