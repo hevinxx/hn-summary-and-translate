@@ -6,58 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 06:56:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 09:46:52 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>I were 17, I'd learn how to build LLMs from scratch</title>
-      <link>https://twitter.com/paulg/status/2091544343589060625</link>
-      <description>📝 Paul Graham@paulgSomeone asked what I'd do if I were 17. I'd learn how to build LLMs from scratch, and then train ones as powerful as I could with whatever hardware I could get access to. 3:13 PM · Aug 23, 2026610.
+      <title>FDA clears blood test to aid evaluation for Alzheimer's disease</title>
+      <link>https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</link>
+      <description>📝 Louis for the early diagnosis of Alzheimer’s disease. These biomarkers are associated with amyloid pathology, a characteristic feature of Alzheimer’s disease. Previous studies demonstrated that the PrecivityAD2 test can diagnose the amyloid pathology of Alzheimer’s disease with more than 90% accuracy.
 
-🔗 Read more: https://twitter.com/paulg/status/2091544343589060625</description>
-      <guid isPermaLink="true">https://twitter.com/paulg/status/2091544343589060625</guid>
-      <pubDate>Sun, 23 Aug 2026 20:38:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49412396</comments>
+🔗 Read more: https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</description>
+      <guid isPermaLink="true">https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/</guid>
+      <pubDate>Mon, 24 Aug 2026 06:30:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49415893</comments>
     </item>
     <item>
-      <title>OCR It – pull text out of un-copyable documents for your LLM</title>
-      <link>https://github.com/thiagotigaz/ocr-it</link>
-      <description>📝 Hit a hotkey on every page. You drag out the capture region once. Capture Press ⌥⇧S once per page.
+      <title>Andreessen Horowitz is investing billions into a bleak future</title>
+      <link>https://www.modelrepublic.org/articles/a16z-portfolio</link>
+      <description>📝 By selling access to “phone farms” that create and manage thousands of fake social media accounts to manipulate engagement metrics. The company has the accounts imitate human behavior before posting deceptive content. ” This is all designed to circumvent platforms’ restrictions on fake content and then serve that fake content to unsuspecting real people.
 
-🔗 Read more: https://github.com/thiagotigaz/ocr-it</description>
-      <guid isPermaLink="true">https://github.com/thiagotigaz/ocr-it</guid>
-      <pubDate>Mon, 24 Aug 2026 06:25:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415852</comments>
+🔗 Read more: https://www.modelrepublic.org/articles/a16z-portfolio</description>
+      <guid isPermaLink="true">https://www.modelrepublic.org/articles/a16z-portfolio</guid>
+      <pubDate>Mon, 24 Aug 2026 06:57:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49416055</comments>
     </item>
     <item>
-      <title>Elevated Errors for Multiple Models</title>
-      <link>https://status.claude.com/incidents/vgz5psbjmt1h</link>
-      <description>📝 Posted Aug 24, 2026 - 06:42 UTC Identified We have identified the cause of elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, and other Claude models and are working on a fix. Posted Aug 24, 2026 - 05:27 UTC Investigating We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, and Claude Opus 4. com), Claude Code, and Claude Cowork.
+      <title>Executable Is a SQLite Database</title>
+      <link>https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</link>
+      <description>📝 Specifically, can we replace ELF with SQLite as an executable format. They are a self-describing format that is extremely stable. It is a single table with a single index: CREATE TABLE symbols ( id INTEGER PRIMARY KEY, name TEXT NOT NULL, -- 'GLIBC_2.
 
-🔗 Read more: https://status.claude.com/incidents/vgz5psbjmt1h</description>
-      <guid isPermaLink="true">https://status.claude.com/incidents/vgz5psbjmt1h</guid>
-      <pubDate>Mon, 24 Aug 2026 05:12:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415405</comments>
+🔗 Read more: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</description>
+      <guid isPermaLink="true">https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database</guid>
+      <pubDate>Mon, 24 Aug 2026 04:48:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49415271</comments>
     </item>
     <item>
-      <title>New EU-wide product repair rules come into force</title>
-      <link>https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/</link>
-      <description>📝 The "right to repair" regulations introduce new rights and supports aimed at encouraging repair over disposal, including a repair obligation for manufacturers of certain products and the establishment of a national repair platform to help consumers locate repair services. People now have the right to request that manufacturers repair products that are technically repairable under EU law. The national repair directory, RepairMyStuff.
+      <title>Fast drilldown dashboards from a single Parquet file</title>
+      <link>https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</link>
+      <description>📝 We could probably just roll this kind of data up into a Parquet-backed data cube, and fill out the dashboard with very simple range queries against it, using Hyparquet, a small javascript Parquet reader that runs in the browser. The demo dashboard below reads directly from that file using Hyparquet. This file has both kinds.
 
-🔗 Read more: https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/</description>
-      <guid isPermaLink="true">https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/</guid>
-      <pubDate>Mon, 24 Aug 2026 05:47:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415621</comments>
+🔗 Read more: https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</description>
+      <guid isPermaLink="true">https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/</guid>
+      <pubDate>Mon, 24 Aug 2026 08:13:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49416652</comments>
     </item>
     <item>
-      <title>Nearly 3M Teslas recalled in China over hidden door handles</title>
-      <link>https://www.bbc.com/news/articles/c4g6ggdg030o</link>
-      <description>📝 98 million Chinese-made Teslas, follows safety concerns that the hidden door handles are difficult to locate and open in emergency situations. In February, Chinese authorities announced a ban on hidden door handles. Tesla's door handles were also involved in a probe by US safety regulators after reports that they suddenly stopped working, leaving children trapped in the cars.
+      <title>Why is Anthropic's public writing style so unlike Claude's?</title>
+      <link>https://cmart.blog/claude-writing/</link>
+      <description>📝 ” In addition to Claude itself sounding like this, so do LLM that are even mildly distilled from Claude (such as Kimi K3). Has Claude gradient-descended onto the style that people actually prefer in aggregate. We know that Anthropic dogfoods Claude extensively.
 
-🔗 Read more: https://www.bbc.com/news/articles/c4g6ggdg030o</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/c4g6ggdg030o</guid>
-      <pubDate>Mon, 24 Aug 2026 04:27:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49415187</comments>
+🔗 Read more: https://cmart.blog/claude-writing/</description>
+      <guid isPermaLink="true">https://cmart.blog/claude-writing/</guid>
+      <pubDate>Mon, 24 Aug 2026 03:32:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49414934</comments>
+    </item>
+    <item>
+      <title>Over 5,200 Ebola cases recorded in Congo</title>
+      <link>https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</link>
+      <description>📝 Despite the challenges, important outbreak response efforts have been made over the past three months. Treatment capacity has increased from fewer than 10 beds to more than 1300, while over 900 health facilities have received infection prevention and control support. Community engagement activities have reached more than 2.
+
+🔗 Read more: https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</description>
+      <guid isPermaLink="true">https://www.afro.who.int/countries/democratic-republic-of-congo/news/over-5200-cases-recorded-democratic-republic-congocrosses100-days-ebola-outbreak-declaration</guid>
+      <pubDate>Mon, 24 Aug 2026 07:03:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49416097</comments>
+    </item>
+    <item>
+      <title>Anthropic Claude and API service outages</title>
+      <link>https://status.claude.com/uptime</link>
+      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. By subscribing you agree to our Privacy Policy, the Atlassian Terms of Service, and the Atlassian Privacy Policy. Subscribe via Slack By subscribing you acknowledge our Privacy Policy.
+
+🔗 Read more: https://status.claude.com/uptime</description>
+      <guid isPermaLink="true">https://status.claude.com/uptime</guid>
+      <pubDate>Mon, 24 Aug 2026 06:32:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49415907</comments>
     </item>
   </channel>
 </rss>
