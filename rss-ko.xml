@@ -6,111 +6,45 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 01:13:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 03:53:41 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Everything I own, owned</title>
-      <link>https://schlarp.com/posts/everything-i-own-owned/</link>
-      <description>📝 다양한 장치 상태에 대해 색인이 생성됩니다. 빠른 테스트 결과, 녹화 중에 일반적으로 켜지던 녹색 LED가 더 이상 켜지지 않는 것으로 나타났습니다. Claude는 펌웨어에 사실상 아무런 보호 기능이 없다는 것을 발견했습니다.
+      <title>Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel</title>
+      <link>https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps</link>
+      <description>📝 Then this failed: \\server\music\Athlete\Tourist\05 Wires. m4p file was actually occurring when Windows attempted to deal with the additional filesystem data. It tells Robocopy not to reproduce separate filesystem streams associated with the file.
 
-🔗 Read more: https://schlarp.com/posts/everything-i-own-owned/</description>
-      <guid isPermaLink="true">https://schlarp.com/posts/everything-i-own-owned/</guid>
-      <pubDate>Sun, 23 Aug 2026 22:41:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49413320</comments>
+🔗 Read more: https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps</description>
+      <guid isPermaLink="true">https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps</guid>
+      <pubDate>Mon, 24 Aug 2026 01:33:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49414338</comments>
     </item>
     <item>
-      <title>Anthropic's best AI model struggles to attract users as cheaper tools thrive</title>
-      <link>https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245</link>
-      <description>📝 Complete digital access to quality FT journalism on any device. Standard Digital$45 per monthEssential digital access to quality FT journalism on any device. SelectWhat's included Global news &amp; analysisExpert opinionFT App on Android &amp; iOSFT Edit: Access on iOS and webFirstFT: the day's biggest stories20+ curated newslettersFollow topics &amp; set alerts with myFTFT Videos &amp; Podcasts20 monthly gift articles to shareLex: FT's flagship investment column15+ Premium newsletters by leading expertsFT Digital Edition: our digitised print editionFT Digital Edition$16.
-
-🔗 Read more: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245</description>
-      <guid isPermaLink="true">https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245</guid>
-      <pubDate>Sun, 23 Aug 2026 18:16:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49411102</comments>
+      <title>The first search engine for Internet-connected devices</title>
+      <link>https://www.shodan.io/</link>
+      <guid isPermaLink="true">https://www.shodan.io/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:52:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49414096</comments>
     </item>
     <item>
-      <title>Google Workspace thinks my domain is an email provider (2025)</title>
-      <link>https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/</link>
-      <description>📝 Just for context, this is a premium domain with a very high premium renewal fee, no history of abuse obviously. So apparently, engineers at Google decided that all web. *-not sure what’s up with that.
+      <title>I built a low-latency AI companion that plays Skyrim with me</title>
+      <link>https://pantel.is/projects/ai-gaming-companion/</link>
+      <description>📝 " 귀하의 브라우저는 내장된 비디오를 지원하지 않습니다. 귀하의 브라우저는 내장된 비디오를 지원하지 않습니다. " 귀하의 브라우저는 내장된 비디오를 지원하지 않습니다.
 
-🔗 Read more: https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/</description>
-      <guid isPermaLink="true">https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/</guid>
-      <pubDate>Sun, 23 Aug 2026 19:29:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49411717</comments>
+🔗 Read more: https://pantel.is/projects/ai-gaming-companion/</description>
+      <guid isPermaLink="true">https://pantel.is/projects/ai-gaming-companion/</guid>
+      <pubDate>Sun, 23 Aug 2026 23:18:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49413561</comments>
     </item>
     <item>
-      <title>AI Chip Architectures</title>
-      <link>https://www.jepeake.com/ai-chip-architectures</link>
-      <description>📝 Both training &amp; prefill stack many tokens against the same weight matrix, so each layer's math is a large matrix-matrix multiply (GEMM), with high arithmetic intensity (compute-bound). Decode is autoregressive: the model emits one token at a time, each conditioned on every token before it, and token N+1 cannot begin until token N has been produced. Each generation adds acceleration primitives onto programmable Streaming Multiprocessors without changing the programming model.
+      <title>Former OC actor Ben McKenzie on crusade to take down 'stupid' cryptocurrency</title>
+      <link>https://www.rnz.co.nz/life/people/celebrity/former-oc-actor-ben-mckenzie-on-crusade-to-take-down-stupid-cryptocurrency</link>
+      <description>📝 "What is cryptocurrency. That happened in 2022 with Bitcoin and other cryptocurrencies like Ethereum. Ben McKenzie interviews disgraced FTX founder Sam Bankman-Fried.
 
-🔗 Read more: https://www.jepeake.com/ai-chip-architectures</description>
-      <guid isPermaLink="true">https://www.jepeake.com/ai-chip-architectures</guid>
-      <pubDate>Sun, 23 Aug 2026 02:25:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49405657</comments>
-    </item>
-    <item>
-      <title>순수 CMake에서 GPT-2 구현</title>
-      <link>https://github.com/AlpinDale/gpt2.cmake</link>
-      <description>📝 safetensors https://huggingface. json https://huggingface. cmake -DPROMPT="Hello" -DN=2 Toy model python3 tools/gen_tables.
-
-
-🔤 Original: Implementation of GPT-2 in pure CMake
-
-🔗 Read more: https://github.com/AlpinDale/gpt2.cmake</description>
-      <guid isPermaLink="true">https://github.com/AlpinDale/gpt2.cmake</guid>
-      <pubDate>Sun, 23 Aug 2026 21:41:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49412909</comments>
-    </item>
-    <item>
-      <title>Rural Village in Spain Is Welcoming Digital Nomads with Open Arms</title>
-      <link>https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms</link>
-      <description>📝 I was here with Rooral, a program that hosts remote workers in Benarraba for up to two months and facilitates connections between visitors and local residents of all ages. ”Rooral hosts potluck dinners for visitors and residents Courtesy RooralAs temporary residents of the village, Rooral participants are encouraged to get involved in community events like Spanish lessons and potluck dinners or even host their own workshops to share a slice of home. On average, a single Rooral guest infuses about $1,765 into the local economy each month.
-
-🔗 Read more: https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms</description>
-      <guid isPermaLink="true">https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms</guid>
-      <pubDate>Sun, 23 Aug 2026 20:30:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49412328</comments>
-    </item>
-    <item>
-      <title>Declarative WebGPU with S-Expressions</title>
-      <link>https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/</link>
-      <description>📝 0); } """) (render-pipeline :name pipeline :layout auto (vertex :module code :entry vertexMain) (fragment :module code :entry fragMain (target :format preferred-canvas-format)) ) (render-pass :name trianglePass (color-attachment :view context-current-texture :clear-value [0 0 0 0] :load-op clear :store-op store) :pipeline pipeline (draw :vertex-count 3)) (frame :name main :perform [trianglePass]) The code above is a simple red triangle done in WebGPU using S-expressions for the plumbing that match 1:1 with the WebGPU spec. I want a single file that describes all my WebGPU pipelines/buffers/passes/etc as well as the shader modules and WGSL code. ) const code = device.
-
-🔗 Read more: https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/</description>
-      <guid isPermaLink="true">https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/</guid>
-      <pubDate>Sun, 23 Aug 2026 20:47:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49412467</comments>
-    </item>
-    <item>
-      <title>The planet now has more trees than it did 35 years ago (2018)</title>
-      <link>https://psmag.com/environment/the-planet-now-has-more-trees-than-it-did-35-years-ago/</link>
-      <description>📝 The biggest gains in tree cover occurred in temperate continental forest (+726,000 square kilometers), boreal coniferous forest (+463,000 square kilometers), subtropical humid forest (+280,000 square kilometers). 2 percent of 1982 tree cover. ” All the tree cover data comes with an important caveat, however: Tree cover is not necessarily forest cover.
-
-🔗 Read more: https://psmag.com/environment/the-planet-now-has-more-trees-than-it-did-35-years-ago/</description>
-      <guid isPermaLink="true">https://psmag.com/environment/the-planet-now-has-more-trees-than-it-did-35-years-ago/</guid>
-      <pubDate>Sun, 23 Aug 2026 21:55:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49413004</comments>
-    </item>
-    <item>
-      <title>Parallel development without the headaches using Git worktree</title>
-      <link>https://barrd.dev/article/parallel-development-without-the-headaches-using-git-worktree/</link>
-      <description>📝 For example; # Add an existing branch as a worktree git worktree add. Each worktree must have a unique branch checked out. Switch to your main worktree directory; cd.
-
-🔗 Read more: https://barrd.dev/article/parallel-development-without-the-headaches-using-git-worktree/</description>
-      <guid isPermaLink="true">https://barrd.dev/article/parallel-development-without-the-headaches-using-git-worktree/</guid>
-      <pubDate>Sun, 23 Aug 2026 22:06:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49413093</comments>
-    </item>
-    <item>
-      <title>A complex structure on S^6 [pdf]</title>
-      <link>https://alpo.ge/s6.pdf</link>
-      <description>📝 �����i}&lt; :�n����:����|�U�^R1��9�*N�����0�,-^VD��ۨY5�C��q���#"6pĄ�Q�o�hVw�����=&gt;h�+�� RS�)�q�w�B�՛�aX�G�FT��t�. ^�ѯ�c��7a�Aks����8k P���VP����Q۰S{&lt;��nv. ��$Sۂ��z g���҃2�rPr���q�.
-
-🔗 Read more: https://alpo.ge/s6.pdf</description>
-      <guid isPermaLink="true">https://alpo.ge/s6.pdf</guid>
-      <pubDate>Sun, 23 Aug 2026 21:47:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49412947</comments>
+🔗 Read more: https://www.rnz.co.nz/life/people/celebrity/former-oc-actor-ben-mckenzie-on-crusade-to-take-down-stupid-cryptocurrency</description>
+      <guid isPermaLink="true">https://www.rnz.co.nz/life/people/celebrity/former-oc-actor-ben-mckenzie-on-crusade-to-take-down-stupid-cryptocurrency</guid>
+      <pubDate>Mon, 24 Aug 2026 02:17:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49414556</comments>
     </item>
   </channel>
 </rss>
