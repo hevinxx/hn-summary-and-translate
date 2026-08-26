@@ -6,65 +6,54 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Aug 2026 01:13:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:53:23 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Python's pre-declared constants are kinda weird</title>
-      <link>https://sebsite.pw/w/20260801-pythonconstants.html</link>
-      <description>📝 True, False, and None True, False, and None are keywords. __debug__ __debug__ is a boolean constant: it's normally True, but when running with -O, it's False. __debug__ = 67 File "", line 1 SyntaxError: cannot assign to __debug__ again, no other identifier behaves like this.
+      <title>クエリ可能な実行可能ファイル</title>
+      <link>https://fzakaria.com/2026/08/24/actually-queryable-executables</link>
+      <description>📝 これはデータベースから実行される単一ファイルのプログラムです。すべての状態は、プログラム自体と同じ SQLite ファイルで更新されます。 # 私たちのサーバーは単一のファイルであり、SQLite データベース $ ファイル サーバー サーバー: SQLite 3.
 
-🔗 Read more: https://sebsite.pw/w/20260801-pythonconstants.html</description>
-      <guid isPermaLink="true">https://sebsite.pw/w/20260801-pythonconstants.html</guid>
-      <pubDate>Tue, 25 Aug 2026 21:39:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49441033</comments>
+
+🔤 Original: Queryable Executables
+
+🔗 Read more: https://fzakaria.com/2026/08/24/actually-queryable-executables</description>
+      <guid isPermaLink="true">https://fzakaria.com/2026/08/24/actually-queryable-executables</guid>
+      <pubDate>Wed, 26 Aug 2026 00:20:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49442589</comments>
     </item>
     <item>
-      <title>Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others</title>
-      <link>https://github.com/runetes/maiao</link>
-      <description>📝 Maiao provides the git review command that: Creates one PR/MR per commit in your branch Stacks PRs/MRs automatically with proper parent-child dependencies Registers native stacks when available (GitHub Stacks, GitLab auto-detected stacks) Manages fixups elegantly using git commit --fixup Tracks commits via Change-IDs (using the Gerrit commit-msg hook) Auto-rebases your stack when PRs/MRs get merged Auto-detects your provider from the remote URL Supported Providers Provider PR/MR type WIP/Draft Native stacks GitHub Pull Request API field Yes (explicit registration) GitLab Merge Request Draft: title prefix Yes (auto-detected from target branch, up to 20 MRs) Gitea Pull Request WIP: title prefix No Forgejo/Codeberg Pull Request WIP: title prefix No Bitbucket Cloud Pull Request Not supported No Cursor Origin (beta) Pull Request API field Yes (parentPullNumber) Maiao auto-detects the provider from your remote URL for known hosts (github. # Control via git config (default: auto) git config maiao. useNativeStack auto # use when available, skip otherwise git config maiao.
-
-🔗 Read more: https://github.com/runetes/maiao</description>
-      <guid isPermaLink="true">https://github.com/runetes/maiao</guid>
-      <pubDate>Tue, 25 Aug 2026 22:40:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49441666</comments>
+      <title>脳はオゼンピックの瞬間を迎えようとしているかもしれない</title>
+      <link>https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment</link>
+      <guid isPermaLink="true">https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment</guid>
+      <pubDate>Wed, 26 Aug 2026 00:40:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49442743</comments>
     </item>
     <item>
-      <title>Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM</title>
-      <link>https://github.com/swimmingbrain/texbrain</link>
-      <description>📝 TeXbrain A free, open-source LaTeX editor that runs entirely in your browser. No server processing your files. Local file system access.
+      <title>HN に質問してください: LLM が非常に苦手な単純な点は何ですか?</title>
+      <link>https://news.ycombinator.com/item?id=49443820</link>
+      <description>📝 NHL トロント スコア NHL ホッケー トロント スコア 「NHL ホッケー」 トロント 今日のスコア NHL 「ホッケー スコア トロント」 「ホッケー」 トロントで優勝した人など。どういうわけか、セマンティック検索が得意であるため、何らかの理由でキーワード検索が苦手になります。どういうわけか、セマンティック検索が得意であるため、何らかの理由でキーワード検索が苦手になります。
 
-🔗 Read more: https://github.com/swimmingbrain/texbrain</description>
-      <guid isPermaLink="true">https://github.com/swimmingbrain/texbrain</guid>
-      <pubDate>Tue, 25 Aug 2026 22:08:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49441375</comments>
+
+🔤 Original: Ask HN: What is one simple thing LLMs are insanely bad at?
+
+🔗 Read more: https://news.ycombinator.com/item?id=49443820</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49443820</guid>
+      <pubDate>Wed, 26 Aug 2026 03:17:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49443820</comments>
     </item>
     <item>
-      <title>XCancel also down, at least for time being</title>
-      <link>https://news.ycombinator.com/item?id=49440786</link>
-      <description>📝 Message on xcancel website:"On Monday 24th August at 8PM EST, we received at letter from X Corp. asking to cease and desist the service XCancel. The service XCancel is stopped until further notice.
+      <title>ドリー・パートンからエミネムへの手紙</title>
+      <link>https://twitter.com/Eminem/status/2092367272891310482</link>
+      <description>📝 Marshall Mathers@Eminem 会う機会がなかったのが残念ですが、ドリーからこのメモを受け取ったことが私に大きな影響を与えました。彼女は間違いなくそれをするために時間をかける必要はありませんでした。あらゆる意味でスーパースター。
 
-🔗 Read more: https://news.ycombinator.com/item?id=49440786</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49440786</guid>
-      <pubDate>Tue, 25 Aug 2026 21:18:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49440786</comments>
-    </item>
-    <item>
-      <title>A brief history of federal lift ticket regulation</title>
-      <link>https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket</link>
-      <guid isPermaLink="true">https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket</guid>
-      <pubDate>Tue, 25 Aug 2026 19:25:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49439296</comments>
-    </item>
-    <item>
-      <title>Show HN: I built self-hosted deployment automation tool for Windows and IIS</title>
-      <link>https://fdeploy.com/</link>
-      <description>📝 fDeploy Server on one machine, fDeploy Agent on every deployment target. fDeploy Server hosts a NuGet feed. One licence per Server instance.
 
-🔗 Read more: https://fdeploy.com/</description>
-      <guid isPermaLink="true">https://fdeploy.com/</guid>
-      <pubDate>Tue, 25 Aug 2026 07:32:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49430259</comments>
+🔤 Original: Letter from Dolly Parton to Eminem
+
+🔗 Read more: https://twitter.com/Eminem/status/2092367272891310482</description>
+      <guid isPermaLink="true">https://twitter.com/Eminem/status/2092367272891310482</guid>
+      <pubDate>Wed, 26 Aug 2026 02:09:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49443331</comments>
     </item>
   </channel>
 </rss>
