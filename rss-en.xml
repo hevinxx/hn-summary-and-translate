@@ -6,58 +6,65 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 21:27:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 01:13:56 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>FDA authorizes first wearable device that monitors ketone and blood sugar levels</title>
-      <link>https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar</link>
-      <description>📝 1 million Americans are living with diabetes, a condition that requires careful monitoring of blood sugar levels. Early detection of rising ketone levels is critical. The results demonstrated that the device accurately tracked clinically meaningful differences in ketone levels across its 10-day wear period, including identifying elevated ketone levels before the onset of diabetic ketoacidosis.
+      <title>Python's pre-declared constants are kinda weird</title>
+      <link>https://sebsite.pw/w/20260801-pythonconstants.html</link>
+      <description>📝 True, False, and None True, False, and None are keywords. __debug__ __debug__ is a boolean constant: it's normally True, but when running with -O, it's False. __debug__ = 67 File "", line 1 SyntaxError: cannot assign to __debug__ again, no other identifier behaves like this.
 
-🔗 Read more: https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar</description>
-      <guid isPermaLink="true">https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar</guid>
-      <pubDate>Tue, 25 Aug 2026 19:07:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49439017</comments>
+🔗 Read more: https://sebsite.pw/w/20260801-pythonconstants.html</description>
+      <guid isPermaLink="true">https://sebsite.pw/w/20260801-pythonconstants.html</guid>
+      <pubDate>Tue, 25 Aug 2026 21:39:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49441033</comments>
     </item>
     <item>
-      <title>Show HN: I made a Raspberry with Qwen my local car AI</title>
-      <link>https://github.com/ThinkOffApp/CarWatch</link>
-      <description>📝 📡 Autonomous: systemd services self-start the whole stack on boot — model server, room agent, voice listener, phone dashboard, engine watcher. Status — what is proven vs. Feature Status @gle room agent: mentions, grounded answers, presence heartbeat proven (running daily) Owner's-manual RAG with page citations proven Phone dashboard served by the car (status, wifi, voice toggle, update button) proven Hands-free voice: continuous VAD listener → whisper → grounded answer → room proven (real voice transcribed on-Pi) Self-update from this repo (hourly timer + dashboard button) proven Dial-out reachability behind any NAT (cloudflared quick tunnel) proven (reached over the open internet) OBD engine re.
+      <title>Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others</title>
+      <link>https://github.com/runetes/maiao</link>
+      <description>📝 Maiao provides the git review command that: Creates one PR/MR per commit in your branch Stacks PRs/MRs automatically with proper parent-child dependencies Registers native stacks when available (GitHub Stacks, GitLab auto-detected stacks) Manages fixups elegantly using git commit --fixup Tracks commits via Change-IDs (using the Gerrit commit-msg hook) Auto-rebases your stack when PRs/MRs get merged Auto-detects your provider from the remote URL Supported Providers Provider PR/MR type WIP/Draft Native stacks GitHub Pull Request API field Yes (explicit registration) GitLab Merge Request Draft: title prefix Yes (auto-detected from target branch, up to 20 MRs) Gitea Pull Request WIP: title prefix No Forgejo/Codeberg Pull Request WIP: title prefix No Bitbucket Cloud Pull Request Not supported No Cursor Origin (beta) Pull Request API field Yes (parentPullNumber) Maiao auto-detects the provider from your remote URL for known hosts (github. # Control via git config (default: auto) git config maiao. useNativeStack auto # use when available, skip otherwise git config maiao.
 
-🔗 Read more: https://github.com/ThinkOffApp/CarWatch</description>
-      <guid isPermaLink="true">https://github.com/ThinkOffApp/CarWatch</guid>
-      <pubDate>Tue, 25 Aug 2026 15:20:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49435675</comments>
+🔗 Read more: https://github.com/runetes/maiao</description>
+      <guid isPermaLink="true">https://github.com/runetes/maiao</guid>
+      <pubDate>Tue, 25 Aug 2026 22:40:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49441666</comments>
     </item>
     <item>
-      <title>When str.lower() is a security vulnerability in Python – Seth Larson</title>
-      <link>https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability</link>
-      <description>📝 Python supports IDNA 2003 through the idna codec (str. 0 case-folding rules, not newer Unicode case-folding rules. lower() is different when comparing the Unicode version shipped with Python and Unicode 3.
+      <title>Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM</title>
+      <link>https://github.com/swimmingbrain/texbrain</link>
+      <description>📝 TeXbrain A free, open-source LaTeX editor that runs entirely in your browser. No server processing your files. Local file system access.
 
-🔗 Read more: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability</description>
-      <guid isPermaLink="true">https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability</guid>
-      <pubDate>Tue, 25 Aug 2026 20:49:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49440410</comments>
+🔗 Read more: https://github.com/swimmingbrain/texbrain</description>
+      <guid isPermaLink="true">https://github.com/swimmingbrain/texbrain</guid>
+      <pubDate>Tue, 25 Aug 2026 22:08:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49441375</comments>
     </item>
     <item>
-      <title>Behaviorally fingerprinting Ox Alpha's provenance</title>
-      <link>https://www.ctgt.ai/research/behaviorally-fingerprinting-ox-alphas-provenance</link>
-      <description>📝 We also ran Ox Alpha through LineageEval, our matched-pair censorship instrument. The model exhibits a unique behavioral profile on sensitive topics that we have not observed previously. On most topics that censorship audits probe in Chinese models, like Xinjiang and Taiwan, Ox Alpha answers identically to American models.
+      <title>XCancel also down, at least for time being</title>
+      <link>https://news.ycombinator.com/item?id=49440786</link>
+      <description>📝 Message on xcancel website:"On Monday 24th August at 8PM EST, we received at letter from X Corp. asking to cease and desist the service XCancel. The service XCancel is stopped until further notice.
 
-🔗 Read more: https://www.ctgt.ai/research/behaviorally-fingerprinting-ox-alphas-provenance</description>
-      <guid isPermaLink="true">https://www.ctgt.ai/research/behaviorally-fingerprinting-ox-alphas-provenance</guid>
-      <pubDate>Tue, 25 Aug 2026 15:18:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49435641</comments>
+🔗 Read more: https://news.ycombinator.com/item?id=49440786</description>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49440786</guid>
+      <pubDate>Tue, 25 Aug 2026 21:18:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49440786</comments>
     </item>
     <item>
-      <title>C2PA Cameras Do Not Survive Contact with Reality</title>
-      <link>https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html</link>
-      <description>📝 With these, anyone can produce C2PA forgeries without requiring hardware attacks. How does root LPE break "hardware-backed" key attestation. Attestation will flag that the bootloader is unlocked, and Google will refuse to provision C2PA keys to your device (and Netflix won't serve you high-res content, your banking app won't work, etc.
+      <title>A brief history of federal lift ticket regulation</title>
+      <link>https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket</link>
+      <guid isPermaLink="true">https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket</guid>
+      <pubDate>Tue, 25 Aug 2026 19:25:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49439296</comments>
+    </item>
+    <item>
+      <title>Show HN: I built self-hosted deployment automation tool for Windows and IIS</title>
+      <link>https://fdeploy.com/</link>
+      <description>📝 fDeploy Server on one machine, fDeploy Agent on every deployment target. fDeploy Server hosts a NuGet feed. One licence per Server instance.
 
-🔗 Read more: https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html</description>
-      <guid isPermaLink="true">https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html</guid>
-      <pubDate>Tue, 25 Aug 2026 19:38:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49439499</comments>
+🔗 Read more: https://fdeploy.com/</description>
+      <guid isPermaLink="true">https://fdeploy.com/</guid>
+      <pubDate>Tue, 25 Aug 2026 07:32:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49430259</comments>
     </item>
   </channel>
 </rss>
