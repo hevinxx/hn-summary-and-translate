@@ -6,246 +6,174 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 28 Aug 2026 14:57:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 23:53:44 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>"앱에서 IT가 더 효과적으로 작동합니다."</title>
-      <link>https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/</link>
-      <description>📝 아무튼 달력을 열었습니다. 이것은 단지 한심한 일입니다. 공평하게 말하면 이는 Google만의 문제가 아닙니다.
+      <title>GUIs should be fully keyboard-driven</title>
+      <link>https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</link>
+      <description>📝 Do not compromise on the user experience you provide with your application. All comment data will be automatically encrypted with the public key. The password is linked to your email address after your first comment.
 
-
-🔤 Original: "IT WoRKs BeTter in the App "
-
-🔗 Read more: https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/</description>
-      <guid isPermaLink="true">https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/</guid>
-      <pubDate>Fri, 28 Aug 2026 12:32:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477600</comments>
+🔗 Read more: https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</description>
+      <guid isPermaLink="true">https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</guid>
+      <pubDate>Fri, 28 Aug 2026 15:17:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49479837</comments>
     </item>
     <item>
-      <title>Windows 라이선스 환불 받기</title>
-      <link>https://en.refund4freedom.org/</link>
-      <description>📝 지금 Windows 라이선스를 환불받으세요. 그러나 대부분의 노트북은 특정 독점 운영 체제인 Microsoft Windows로만 판매됩니다. 지금 환불을 요청하세요.
+      <title>HTMLX 4.0</title>
+      <link>https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released</link>
+      <description>📝 Attribute Inheritance In htmx 2 many attributes were “inherited” by default. "&gt; &lt;button hx-delete="/item/1"&gt;Delete&lt;/button&gt; &lt;/div&gt; This will be the largest upgrade burden in migrating from htmx 2 to htmx 4. htmx 4 does not cache pages in localStorage.
 
 
-🔤 Original: Get your Windows license refund
+🔤 Original: Htmx 4.0
 
-🔗 Read more: https://en.refund4freedom.org/</description>
-      <guid isPermaLink="true">https://en.refund4freedom.org/</guid>
-      <pubDate>Fri, 28 Aug 2026 13:42:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49478340</comments>
+🔗 Read more: https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released</description>
+      <guid isPermaLink="true">https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released</guid>
+      <pubDate>Fri, 28 Aug 2026 13:28:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49478178</comments>
     </item>
     <item>
-      <title>단계별 방향 안내를 위한 인셉션 스타일 곡선 지도</title>
-      <link>https://www.orbify.eu/demo/</link>
-      <description>📝 Orbify Demo 2 - v72탐색 시작특허 출원 중 · PCT/EP2026/058725Navigation Reimagined. 데모 2 - v72 준비 중...0% Orbify 장면 로드 중 로드 중...데모 2 - v72 · © 2026 Orbify · 특허 출원 중 · PCT/EP2026/058725.
+      <title>Just the rumour of a bug is enough to find an exploit these days</title>
+      <link>https://anil.recoil.org/notes/rumour-is-the-exploit</link>
+      <description>📝 Given that just the rumour of a security issue seems enough to give attackers enough info to find new exploits, we're going to need to change the way we deal with security responses in open source. That compresses all timelines considerably. Well, not having access to frontier agents like Mythos is an obvious one, but also that the engineering of a security patch that doesn't cause any regressions is just fundamentally more work.
 
-
-🔤 Original: Inception-style curved map for turn-by-turn directions
-
-🔗 Read more: https://www.orbify.eu/demo/</description>
-      <guid isPermaLink="true">https://www.orbify.eu/demo/</guid>
-      <pubDate>Fri, 28 Aug 2026 12:29:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477564</comments>
+🔗 Read more: https://anil.recoil.org/notes/rumour-is-the-exploit</description>
+      <guid isPermaLink="true">https://anil.recoil.org/notes/rumour-is-the-exploit</guid>
+      <pubDate>Fri, 28 Aug 2026 15:58:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49480466</comments>
     </item>
     <item>
-      <title>OpenAI: Migrating to HTTPX2</title>
-      <link>https://github.com/openai/openai-python/blob/main/httpx2.md</link>
-      <description>📝 0))) Directly constructed httpx2. AsyncHTTPTransport httpx2. Update custom auth classes and annotations accordingly: import httpx2 from openai import OpenAI, DefaultHttpx2Client def log_request(request: httpx2.
+      <title>Boot a Virtual iPhone via Apple's Virtualization.framework</title>
+      <link>https://github.com/Lakr233/vphone-cli</link>
+      <description>📝 Manage vphone-cli vm list # list VMs (--json for scripting) vphone-cli vm info myphone # show one VM vphone-cli vm new myphone # create an empty bundle (cpu/mem/disk options) vphone-cli vm config myphone --cpu 8 --memory 8192 vphone-cli vm clone myphone myphone-2 # fast APFS clone, fresh device identity vphone-cli vm export myphone --out myphone. empty bundle vphone-cli fw prepare myphone --iphone-version 26. boot into DFU (background) vphone-cli restore myphone --get-shsh # fetch SHSH vphone-cli restore myphone # DFU restore vphone-cli vm stop myphone # stop the DFU boot vphone-cli cfw install myphone --variant jb # 5.
 
-🔗 Read more: https://github.com/openai/openai-python/blob/main/httpx2.md</description>
-      <guid isPermaLink="true">https://github.com/openai/openai-python/blob/main/httpx2.md</guid>
-      <pubDate>Fri, 28 Aug 2026 11:51:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477212</comments>
+🔗 Read more: https://github.com/Lakr233/vphone-cli</description>
+      <guid isPermaLink="true">https://github.com/Lakr233/vphone-cli</guid>
+      <pubDate>Fri, 28 Aug 2026 23:02:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49485267</comments>
     </item>
     <item>
-      <title>OpenStreetMap State of the Map 2026</title>
-      <link>https://2026.stateofthemap.org/</link>
-      <description>📝 It will be a three day conference packed with talks, workshops, discussion rounds and more. It is a unique space where local knowledge meets global impact, and where ideas evolve into collaborations that benefit the entire OpenStreetMap ecosystem. We look forward to the conversations, innovations, and partnerships that will emerge from this year's State of the Map, helping to drive the future of open mapping forward.
-
-🔗 Read more: https://2026.stateofthemap.org/</description>
-      <guid isPermaLink="true">https://2026.stateofthemap.org/</guid>
-      <pubDate>Fri, 28 Aug 2026 13:46:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49478401</comments>
+      <title>Judge rules Trump administration’s blacklisting of Anthropic was illegal</title>
+      <link>https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html</guid>
+      <pubDate>Fri, 28 Aug 2026 02:03:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49473522</comments>
     </item>
     <item>
-      <title>Hilariously Fast Volume Computation with the Divergence Theorem</title>
-      <link>https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html</link>
-      <description>📝 This assumption is a consequence of the divergence theorem. Each individual triangle TiT_i may thus be parametrised as: 𝐫(u,v)=Ti0+uΔ1+vΔ2\mathbf{r}(u, v) = T_{i0} + u\Delta_1 + v\Delta_2 𝐫u=Δ1\mathbf{r}_u = \Delta_1 𝐫v=Δ2\mathbf{r}_v = \Delta_2 𝐫u×𝐫v=Δ1×Δ2\mathbf{r}_u \times \mathbf{r}_v = \Delta_1 \times \Delta_2 Thus, the surface integral can be rewritten in terms of this parametrisation, substituting in the definition of 𝐅\mathbf{F} as needed: V=∑i=0∬Ti𝐅(x,y,z)(𝐫u×𝐫v)dAV = \sum_{i = 0} \iint_{T_i} \mathbf{F}(x, y, z) (\mathbf{r}_u \times \mathbf{r}_v) dA =∑i=0∬Ti𝐅(x,y,z)(̇Δi1×Δi2)dA= \sum_{i = 0} \iint_{T_i} \mathbf{F}(x, y, z) \dot (\Delta_{i1} \times \Delta_{i2}) dA =∑i=0∬Ti&lt;x,0,0&gt;(̇Δi1×Δi2)dA= \sum_{i = 0} \iint_{T_i} &lt;x, 0, 0&gt; \dot (\Delta_{i1} \times \Delta_{i2}) dA This cross product is constant throughout the triangle and easy to calculate from the vertex data. Thus, this algorithm for volume computation is O(n) to the number of the triangles.
+      <title>GLM-5.3 is now open-weight</title>
+      <link>https://huggingface.co/zai-org/GLM-5.3</link>
+      <description>📝 3 uses the same base model as GLM-5. 2, it is much better at complex coding and long-horizon tasks: GLM-5. Feel free to try them out: If you find GLM-5.
 
-🔗 Read more: https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html</description>
-      <guid isPermaLink="true">https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html</guid>
-      <pubDate>Fri, 28 Aug 2026 09:00:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49476143</comments>
+🔗 Read more: https://huggingface.co/zai-org/GLM-5.3</description>
+      <guid isPermaLink="true">https://huggingface.co/zai-org/GLM-5.3</guid>
+      <pubDate>Fri, 28 Aug 2026 15:20:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49479878</comments>
     </item>
     <item>
-      <title>EPA says power for data centers can sidestep pollution laws</title>
-      <link>https://www.epa.gov/newsreleases/epa-issues-permitting-guidance-further-president-trumps-agenda-promoting-data-centers</link>
-      <description>📝 Environmental Protection Agency (EPA) issued guidance clarifying that the Clean Air Act (CAA) Acid Rain Program (ARP) does not apply to power generation facilities that are not connected to a public electricity grid, commonly referred to as “islanded” power generation facilities. The guidance expands opportunities for companies to develop and operate islanded power generation facilities for data centers. Because “islanded” power generation facilities neither sell electricity nor have required reporting to DOE, EPA has concluded that these facilities are not subject to the ARP.
+      <title>Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment</title>
+      <link>https://arxiv.org/abs/2608.23691</link>
+      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
 
-🔗 Read more: https://www.epa.gov/newsreleases/epa-issues-permitting-guidance-further-president-trumps-agenda-promoting-data-centers</description>
-      <guid isPermaLink="true">https://www.epa.gov/newsreleases/epa-issues-permitting-guidance-further-president-trumps-agenda-promoting-data-centers</guid>
-      <pubDate>Fri, 28 Aug 2026 13:21:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49478103</comments>
+🔗 Read more: https://arxiv.org/abs/2608.23691</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.23691</guid>
+      <pubDate>Fri, 28 Aug 2026 17:01:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49481455</comments>
     </item>
     <item>
-      <title>The Twelve-Factor App</title>
-      <link>https://12factor.net/</link>
-      <description>📝 Introduction In the modern era, software is commonly delivered as a service: called web apps, or software-as-a-service. The twelve-factor app is a methodology for building software-as-a-service apps that: Use declarative formats for setup automation, to minimize time and cost for new developers joining the project; Have a clean contract with the underlying operating system, offering maximum portability between execution environments; Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration; Minimize divergence between development and production, enabling continuous deployment for maximum agility; And can scale up without significant changes to tooling, architecture, or development practices. The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).
+      <title>Identifying fake cosmetics using AI</title>
+      <link>https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html</link>
+      <description>📝 ): Package A Image A1: Image A2: Image A3: Image A4: Image A5: Image A6: Package B Image B1: Image B2: Image B3: Image B4: Image B5: Image B6: Package C Image C1: Image C2: Image C3: Image C4: Image C5: Image C6: Those are the photos that I fed to Gemini. Package A Package A is fake. A reputable product shouldn’t have typos like that (although—spoiler alert—we’ll revisit that statement later on…).
 
-🔗 Read more: https://12factor.net/</description>
-      <guid isPermaLink="true">https://12factor.net/</guid>
-      <pubDate>Thu, 27 Aug 2026 22:41:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49472216</comments>
+🔗 Read more: https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html</description>
+      <guid isPermaLink="true">https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html</guid>
+      <pubDate>Fri, 28 Aug 2026 22:18:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49484925</comments>
     </item>
     <item>
-      <title>Interactive pattern discovery in binaries (FF-16-TUI)</title>
-      <link>https://github.com/HexLasso/FF-16-TUI</link>
-      <description>📝 csv) Keyboard shortcuts Hexdump panel: Key Function ← Previous byte → Next byte ↑ Previous line ↓ Next line PgUp Previous page PgDn Next page Home Beginning of file End End of file Pattern panel: Key Function 0 Highlight pattern (most frequent) 1 Highlight pattern 2 Highlight pattern 3 Highlight pattern 4 Highlight pattern 5 Highlight pattern 6 Highlight pattern 7 Highlight pattern 8 Highlight pattern 9 Highlight pattern (least frequent) Filter panel: Key Function q Increase the minimum gap s Decrease the minimum gap w Increase the maximum gap s Decrease the maximum gap e Increase the minimum set bits d Decrease the minimum set bits r Increase the maximum set bits f Decrease the maximum set bits t Increase the threshold g Decrease the threashold Terminologies Term Description Ones The number of bits set in the pattern. Freq The frequency of the pattern. Dict The dictionary entry for the pattern.
+      <title>Show HN: Sesame - a local-first, open-source password manager</title>
+      <link>https://usesesame.app/</link>
+      <description>📝 Import your vault and keep passwords, 2FA codes, and recovery details together. Passwords, 2FA codes, recovery details, and backups. Copy passwords, read 2FA codes, and find recovery details.
 
-🔗 Read more: https://github.com/HexLasso/FF-16-TUI</description>
-      <guid isPermaLink="true">https://github.com/HexLasso/FF-16-TUI</guid>
-      <pubDate>Fri, 28 Aug 2026 13:05:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477925</comments>
+🔗 Read more: https://usesesame.app/</description>
+      <guid isPermaLink="true">https://usesesame.app/</guid>
+      <pubDate>Fri, 28 Aug 2026 19:14:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49483038</comments>
     </item>
     <item>
-      <title>U.S. Sanctions Against the a/I Collective</title>
-      <link>https://www.inventati.org/</link>
-      <description>📝 We believe that this world is far from being the best world possible. Don’t send a request without having read these documents. Request an account JavaScript license information.
+      <title>Verschlimmbesserung: The Word Your Software Updates Need</title>
+      <link>https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/</link>
+      <description>📝 Some product team shipped a “better experience” that solved a problem nobody had. Your engineering teams are not failing. How you measure and incentivise your teams tells them exactly what you value.
 
-🔗 Read more: https://www.inventati.org/</description>
-      <guid isPermaLink="true">https://www.inventati.org/</guid>
-      <pubDate>Fri, 28 Aug 2026 12:58:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477854</comments>
+🔗 Read more: https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/</description>
+      <guid isPermaLink="true">https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/</guid>
+      <pubDate>Fri, 28 Aug 2026 14:30:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49479072</comments>
     </item>
     <item>
-      <title>Pentagon's blacklisting of Anthropic was unlawful, US judge rules</title>
-      <link>https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/</link>
-      <guid isPermaLink="true">https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/</guid>
-      <pubDate>Fri, 28 Aug 2026 11:25:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477055</comments>
+      <title>Stopping the smart TV from being used against you</title>
+      <link>https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/</link>
+      <description>📝 That is the digital display or flat-panel monitor. Isn't that a little harsh. What's the matter with that.
+
+🔗 Read more: https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/</description>
+      <guid isPermaLink="true">https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/</guid>
+      <pubDate>Fri, 28 Aug 2026 20:27:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49483816</comments>
     </item>
     <item>
-      <title>Luanti removed from Google Play due to baseless AI copyright notice</title>
-      <link>https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/</link>
-      <description>📝 It does not ship with any games or game assets by default. Engine Luanti is a game-creation platform and does not ship with any games, let alone game assets. Minetest Game Third-party content Players can download content from ContentDB, our in-app game catalog.
+      <title>Attimet (YC F24) Is Hiring Members of Technical Staff – Engineering and Research</title>
+      <link>https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering</link>
+      <description>📝 You’ll have the autonomy and resources to do some of the best work of your life. com/companies/attimet/jobs This is an on-site role based in San Francisco, CA. We move quickly and care about how you think.
 
-🔗 Read more: https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/</description>
-      <guid isPermaLink="true">https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/</guid>
-      <pubDate>Fri, 28 Aug 2026 06:33:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49475079</comments>
+🔗 Read more: https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering</description>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering</guid>
+      <pubDate>Fri, 28 Aug 2026 17:00:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49481423</comments>
     </item>
     <item>
-      <title>Advertisers Could Soon Demand 'Verified Clicks'</title>
-      <link>https://www.amediaoperator.com/news/advertisers-could-soon-demand-verified-clicks/</link>
-      <description>📝 ” As reported by AMO earlier this year, bot clicks, which were thought to only be a problem with corporate email inboxes, are infiltrating consumer inboxes and newsletters. It is typically generated by the email provider’s security systems, which do pre-fetching and scanning of links before an email gets delivered. The report, which leverages its own first-party data from messages delivered to 126 mailbox providers across six regions as well as third-party data from other email service providers (ESPs) that route through Omnivery’s bot detection API, reveals more about what is going on under the hood.
+      <title>An investigation into the state of corvid–human relations</title>
+      <link>https://www.audubon.org/magazine/are-crows-really-our-friends</link>
+      <description>📝 새들은 우리에게 기후에 대해 행동하라고 말합니다 페이지를 방문하세요 새들은 우리에게 기후에 대해 행동하라고 말합니다 Audubon과 함께 선출직 공무원들이 과학에 귀를 기울이고 기후 해결책을 위해 노력하도록 촉구할 것을 서약합니다.
 
-🔗 Read more: https://www.amediaoperator.com/news/advertisers-could-soon-demand-verified-clicks/</description>
-      <guid isPermaLink="true">https://www.amediaoperator.com/news/advertisers-could-soon-demand-verified-clicks/</guid>
-      <pubDate>Fri, 28 Aug 2026 11:53:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477231</comments>
+🔗 Read more: https://www.audubon.org/magazine/are-crows-really-our-friends</description>
+      <guid isPermaLink="true">https://www.audubon.org/magazine/are-crows-really-our-friends</guid>
+      <pubDate>Fri, 28 Aug 2026 12:53:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49477813</comments>
     </item>
     <item>
-      <title>Bhartrhari's Paradox</title>
-      <link>https://www.futilitycloset.com/2026/08/18/bhartrharis-paradox/</link>
-      <description>📝 Bhartrhari’s Paradox There are some things that are unnameable. “[E]very argument advanced to support any instance of the unnameability thesis drives one still more firmly into the paradox,” note philosophers Hans and Radhika Herzberger, “for they naturally tend to involve repeated reference to the very things whose unnameability they undertake to establish. Herzberger and Radhika Herzberger, “Bhartrhari’s Paradox,” Journal of Indian Philosophy 9:1 [March 1981], 1-17.
+      <title>Some conservationists are helping to restore Africa’s wild dog populations</title>
+      <link>https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/</link>
+      <description>📝 Marcus Westberg Wild dogs are the most successful hunters in Africa, with a kill rate of 80 percent. ) Wild dogs also allow their pups to feed first, near-unique behavior among animals, says Jordan. Wild dogs look out for one another.
 
-🔗 Read more: https://www.futilitycloset.com/2026/08/18/bhartrharis-paradox/</description>
-      <guid isPermaLink="true">https://www.futilitycloset.com/2026/08/18/bhartrharis-paradox/</guid>
-      <pubDate>Fri, 28 Aug 2026 12:01:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477292</comments>
+🔗 Read more: https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/</description>
+      <guid isPermaLink="true">https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/</guid>
+      <pubDate>Fri, 28 Aug 2026 14:44:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49479302</comments>
     </item>
     <item>
-      <title>Show HN: SubSmith – Turn your own videos into language-learning material</title>
-      <link>https://subsmith.app</link>
-      <description>📝 SubSmith: Learn languages from the content you love. Learn from any video or audio file99+ languages supportedHover dictionary with instant definitionsOne-click Anki flashcard exportEdit timestamps and transcriptsExport subtitles (SRT) or plain text→Lifetime licence$40one-timeBest value - one payment, no renewalsLearn from any video or audio file99+ languages supportedHover dictionary with instant definitionsOne-click Anki flashcard exportEdit timestamps and transcriptsExport subtitles (SRT) or plain textThe Lifetime licence itself doesn't expire. What languages are supported.
+      <title>열정적인 Clownmaxxing과 Joey의 캐딜락 할 일 목록</title>
+      <link>https://charlesleifer.com/blog/aspirational-clownmaxxing-and-joey-s-cadillac-todo-list/</link>
+      <description>📝 Let's build a mid-century country-club-core todo-list app with Python, I thought. The Gremlin When a gremlin inhabits the todo list. There must be no indication or cues that there is anything amiss with the application.
 
-🔗 Read more: https://subsmith.app</description>
-      <guid isPermaLink="true">https://subsmith.app</guid>
-      <pubDate>Fri, 28 Aug 2026 10:59:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49476894</comments>
+
+🔤 Original: Aspirational Clownmaxxing and Joey's cadillac todo list
+
+🔗 Read more: https://charlesleifer.com/blog/aspirational-clownmaxxing-and-joey-s-cadillac-todo-list/</description>
+      <guid isPermaLink="true">https://charlesleifer.com/blog/aspirational-clownmaxxing-and-joey-s-cadillac-todo-list/</guid>
+      <pubDate>Fri, 28 Aug 2026 19:18:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49483080</comments>
     </item>
     <item>
-      <title>대화형 워해머 40k 은하계 지도 - Cartographia Imperialis</title>
-      <link>https://cartographia40k.com/</link>
-      <guid isPermaLink="true">https://cartographia40k.com/</guid>
-      <pubDate>Fri, 28 Aug 2026 08:35:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49475979</comments>
-    </item>
-    <item>
-      <title>ALMA는 베텔게우스의 버블링 표면에서 오래 지속되는 핫스팟을 밝힙니다.</title>
-      <link>https://www.almaobservatory.org/en/audiences/alma-reveals-long-lived-hotspots-on-betelgeuses-bubbling-surface/</link>
-      <description>📝 2023년 관측치를 2015년에 얻은 유사한 ALMA 데이터와 비교했을 때, 눈에 띄는 북동쪽 핫스팟은 거의 동일한 위치에 비슷한 강도로 나타났습니다. ALMA를 사용한 지속적인 고해상도 관측을 통해 핫스팟이 고정되어 있는지 여부와 이것이 대류, 질량 손실 및 별의 확장된 대기 구조와 어떤 관련이 있는지 밝힐 수 있습니다. 출처: ALMA(ESO/NAOJ/NRAO)/W.
+      <title>더 작은 원자로로 인해 원자력 발전은 약속 이행에 더 가까워졌습니다.</title>
+      <link>https://www.nature.com/articles/d41586-026-02506-4</link>
+      <description>📝 Critics argue that SMRs are not necessarily more economical than are larger nuclear power plants. Edward Lyman, a physicist and director of nuclear power safety for the Union of Concerned Scientists, a non-profit organization in Cambridge, Massachusetts, has said that the smaller power output of SMRs means that factories would have to produce dozens of modular reactors for them to become more cost-effective than conventional reactors. Another advantage stems from the FLiBe coolant that Hermes 1 uses.
 
 
-🔤 Original: ALMA Reveals Long-Lived Hotspots on Betelgeuse's Bubbling Surface
+🔤 Original: Smaller reactors bring nuclear power closer to fulfilling its promise
 
-🔗 Read more: https://www.almaobservatory.org/en/audiences/alma-reveals-long-lived-hotspots-on-betelgeuses-bubbling-surface/</description>
-      <guid isPermaLink="true">https://www.almaobservatory.org/en/audiences/alma-reveals-long-lived-hotspots-on-betelgeuses-bubbling-surface/</guid>
-      <pubDate>Fri, 28 Aug 2026 12:02:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477302</comments>
-    </item>
-    <item>
-      <title>httpx2</title>
-      <link>https://github.com/pydantic/httpx2</link>
-      <description>📝 Instrument_httpx() httpx2. (선택 사항, httpx2[brotli] 사용) 백포트. (선택 사항, httpx2[zstd] 사용.
-
-🔗 Read more: https://github.com/pydantic/httpx2</description>
-      <guid isPermaLink="true">https://github.com/pydantic/httpx2</guid>
-      <pubDate>Fri, 28 Aug 2026 11:41:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477157</comments>
-    </item>
-    <item>
-      <title>스타트업에 AWS Cognito를 사용했습니다. 나는 그것을 다시하지 않을 것이다</title>
-      <link>https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/</link>
-      <description>📝 이전에 인증을 구현한 적이 있습니다. 그러나 이것이 실제로 의미하는 바는 로컬 인스턴스를 가동하고 인증 흐름을 오프라인으로 테스트할 수 없다는 것입니다. Cognito가 제공하는 호스팅 UI가 작동합니다.
-
-
-🔤 Original: I Used AWS Cognito for a Startup. I Wouldn't Do It Again
-
-🔗 Read more: https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/</description>
-      <guid isPermaLink="true">https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/</guid>
-      <pubDate>Fri, 28 Aug 2026 13:21:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49478091</comments>
-    </item>
-    <item>
-      <title>Sovereign Tech Agency, Flatpak에 €500,000 투자</title>
-      <link>https://modal.cx/blog/announcing-flatpak-sta/</link>
-      <description>📝 Modal과 Para-Real Ltd.가 공동으로 조직한 이 2년 계획은 Flatpak 앱에만 의존하는 안전한 이미지 기반 운영 체제의 채택을 방해합니다. 또한 이를 통해 Eloquent와 같은 앱이 포털에 연결되어 문법 수정과 같은 더 풍부한 편집 제안을 제공할 수 있습니다.
-
-
-🔤 Original: Sovereign Tech Agency invests €500k in Flatpak
-
-🔗 Read more: https://modal.cx/blog/announcing-flatpak-sta/</description>
-      <guid isPermaLink="true">https://modal.cx/blog/announcing-flatpak-sta/</guid>
-      <pubDate>Fri, 28 Aug 2026 05:42:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49474786</comments>
-    </item>
-    <item>
-      <title>GoGoGrandparent(YC S16)에서 백엔드 엔지니어를 채용합니다.</title>
-      <link>https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer</link>
-      <description>📝 지금 우리를 흥분시키는 것(그리고 우리가 채용하는 것)은 기술적으로 이 '자기 관리 문제'가 단지 놀이기구에만 국한되지 않는다는 것입니다. 사람들은 이것을 오랫동안 알고 있었으며 이는 현재 노인들이 갖고 있는 많은 솔루션에 영감을 주었습니다. GoGo는 젊음을 잃는 것이 독립성을 잃는 것을 의미하지 않도록 노력하고 있습니다.
-
-
-🔤 Original: GoGoGrandparent (YC S16) is hiring back end engineers
-
-🔗 Read more: https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer</guid>
-      <pubDate>Fri, 28 Aug 2026 03:35:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49474060</comments>
-    </item>
-    <item>
-      <title>Terry Rozier와 텔레프롬프트 운영자</title>
-      <link>https://iainschmitt.com/post/terry-rozier-and-the-teleprompt-operator</link>
-      <description>📝 , Rozier는 실적이 저조할 것입니다). 내 말은, 심지어 Rozier 게임도 그걸 종료하지 않았단 말이에요. 스포츠 베팅 지지자들은 불법 스포츠북이 합법화되기 전에 승부 조작과 내부 베팅을 허용했다고 주장합니다.
-
-
-🔤 Original: Terry Rozier and the Teleprompt Operator
-
-🔗 Read more: https://iainschmitt.com/post/terry-rozier-and-the-teleprompt-operator</description>
-      <guid isPermaLink="true">https://iainschmitt.com/post/terry-rozier-and-the-teleprompt-operator</guid>
-      <pubDate>Fri, 28 Aug 2026 12:20:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477481</comments>
+🔗 Read more: https://www.nature.com/articles/d41586-026-02506-4</description>
+      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-02506-4</guid>
+      <pubDate>Fri, 28 Aug 2026 12:28:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49477559</comments>
     </item>
   </channel>
 </rss>
