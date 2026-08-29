@@ -6,31 +6,74 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 29 Aug 2026 12:21:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 18:12:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Iceland votes on whether to restart talks on joining EU</title>
-      <link>https://www.bbc.com/news/articles/cn45vdxyvvlo</link>
-      <description>📝 Iceland has a population of under 400,000. Read more: Iceland knife-edge vote that could be decided on fishWhat are the key issues. And fisheries was always the issue that stopped Iceland joining the EU before.
+      <title>실행 가능 스택 없이 GCC에서 중첩 함수의 간접 호출</title>
+      <link>https://uecker.codeberg.page/2026-08-29.html</link>
+      <description>📝 함수를 호출하기 위해 트램펄린의 주소를 사용하는 대신, 트램펄린에서 코드 주소와 정적 체인을 추출하고 이를 __builtin_call_with_static_chain 내장 함수와 함께 사용하여 로컬 함수를 직접 호출할 수 있습니다. 문헌 GCC, 중첩된 함수 GCC, 함수 호출 구성 이 코드는 트램폴린을 스택에 배치하고 인라인된 baz 함수를 통해 즉시 호출합니다. 정적 체인과 코드 주소는 모두 트램펄린 코드의 이동 명령어에 사용되는 즉시 상수입니다.
 
-🔗 Read more: https://www.bbc.com/news/articles/cn45vdxyvvlo</description>
-      <guid isPermaLink="true">https://www.bbc.com/news/articles/cn45vdxyvvlo</guid>
-      <pubDate>Sat, 29 Aug 2026 11:39:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49489057</comments>
+
+🔤 Original: Indirect Calling of Nested Functions on GCC Without Executable Stack
+
+🔗 Read more: https://uecker.codeberg.page/2026-08-29.html</description>
+      <guid isPermaLink="true">https://uecker.codeberg.page/2026-08-29.html</guid>
+      <pubDate>Sat, 29 Aug 2026 14:20:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49490138</comments>
     </item>
     <item>
-      <title>삼성의 PIM(Processing-in-Memory)</title>
-      <link>https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing</link>
-      <description>📝 DRAM 칩은 내부적으로 뱅크로 나누어져 있으며 각 뱅크에는 자체 읽기 및 쓰기 로직이 있습니다. 칩이 다중 뱅크 모드에 있기 때문에 각 PIM 레지스터 쓰기는 16개 뱅크 모두에 브로드캐스트됩니다. 각 DRAM 패킷은 256비트(BL=16)입니다. 각 소스 레지스터를 채우려면 16개의 쓰기 명령이 필요합니다.
+      <title>낸시 그레이스 로마 우주 망원경</title>
+      <link>https://science.nasa.gov/mission/roman-space-telescope/</link>
+      <description>📝 Roman Nancy Grace Roman Space Telescope The Nancy Grace Roman Space Telescope will settle essential questions in the areas of dark energy, exoplanets, and astrophysics. Learn More About the Roman Launch Aug 30, 2026 11:26 UTC Roman Stories Explore All Roman Stories Blog2 Min ReadNASA Roman Arrives at Launch Pad, Mission Briefings ScheduledBlog1 Min ReadNASA’s Roman Space Telescope ‘Go’ for Launch 1 Min Read9 Things to Know About NASA’s Nancy Grace Roman Space TelescopeArticle 22 Min ReadRoman Series: Why NASA’s Roman Space Telescope Will Make Unexpected Discoveries 1 Min ReadRoman Space Telescope Travels to SpaceX HangarImage Article Featured Story Building Roman Technicians have completed the construction of NASA’s Nancy Grace Roman Space Telescope. Roman interactive Explore the Roman Observatory Take a tour around the telescope with this Interactive Diagram.
 
 
-🔤 Original: Samsung's Processing-in-Memory (PIM)
+🔤 Original: Nancy Grace Roman Space Telescope
 
-🔗 Read more: https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing</description>
-      <guid isPermaLink="true">https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing</guid>
-      <pubDate>Sat, 29 Aug 2026 06:06:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49487341</comments>
+🔗 Read more: https://science.nasa.gov/mission/roman-space-telescope/</description>
+      <guid isPermaLink="true">https://science.nasa.gov/mission/roman-space-telescope/</guid>
+      <pubDate>Sat, 29 Aug 2026 15:48:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49490870</comments>
+    </item>
+    <item>
+      <title>GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)</title>
+      <link>https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e</link>
+      <description>📝 Post GrapheneOS grapheneos. We're unable to complete the port due to lack of support for ARM hardware memory tagging in software, firmware and near certainly hardware. It appears Google cut an important security feature to save money.
+
+🔗 Read more: https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e</description>
+      <guid isPermaLink="true">https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e</guid>
+      <pubDate>Sat, 29 Aug 2026 15:26:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49490702</comments>
+    </item>
+    <item>
+      <title>Debian votes to allow "responsible use of generative AI"</title>
+      <link>https://lwn.net/Articles/1091231/</link>
+      <description>📝 Inevitable Posted Aug 29, 2026 15:06 UTC (Sat) by MarcB (subscriber, #101804) [Link] I, for one, am very glad. Extremist positions soundly defeated Posted Aug 29, 2026 14:45 UTC (Sat) by bluca (subscriber, #118303) [Link] &gt; It depends what you mean by "soundly" With this voting system, failing to beat "NOTA", as mentioned, means the option is soundly rejected even before considering relative preferences Extremist positions soundly defeated Posted Aug 29, 2026 15:20 UTC (Sat) by MarcB (subscriber, #101804) [Link] &gt; Personally, I hope that truly open locally run models, perhaps specialized to coding, become sufficiently good that one can do without the large, closed-source ones. A growing disconnect Posted Aug 29, 2026 14:44 UTC (Sat) by aimannajjar (subscriber, #184277) [Link] Ed Zitron'.
+
+🔗 Read more: https://lwn.net/Articles/1091231/</description>
+      <guid isPermaLink="true">https://lwn.net/Articles/1091231/</guid>
+      <pubDate>Sat, 29 Aug 2026 14:02:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49489982</comments>
+    </item>
+    <item>
+      <title>Quantifying Colour</title>
+      <link>https://ekunazanu.foo/lab/quantifying-colour/</link>
+      <description>📝 Same name, different colours The above coloured rectangles shows some of the colours present in the above image. 450nm Photons 500nm Photons 550nm Photons 600nm Photons 650nm PhotonsSpectral power distribution The above is an example of a spectral power distribution. The intensity at each wavelength depends on the number of photons at that wavelength and the energy of photons at that wavelength.
+
+🔗 Read more: https://ekunazanu.foo/lab/quantifying-colour/</description>
+      <guid isPermaLink="true">https://ekunazanu.foo/lab/quantifying-colour/</guid>
+      <pubDate>Sat, 29 Aug 2026 15:43:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49490832</comments>
+    </item>
+    <item>
+      <title>Parsing the Infamous Japanese Postal CSV</title>
+      <link>https://www.dampfkraft.com/posuto.html</link>
+      <description>📝 The README for the file explains that lines with overly long fields will be broken up into multiple lines. This has that many lines because every neighborhood gets a separate line. There are other issues.
+
+🔗 Read more: https://www.dampfkraft.com/posuto.html</description>
+      <guid isPermaLink="true">https://www.dampfkraft.com/posuto.html</guid>
+      <pubDate>Sat, 29 Aug 2026 15:42:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49490826</comments>
     </item>
   </channel>
 </rss>
