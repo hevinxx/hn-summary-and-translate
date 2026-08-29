@@ -6,168 +6,101 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 28 Aug 2026 23:53:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 05:46:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GUIs should be fully keyboard-driven</title>
-      <link>https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</link>
-      <description>📝 Do not compromise on the user experience you provide with your application. All comment data will be automatically encrypted with the public key. The password is linked to your email address after your first comment.
+      <title>TurboKV: Insanely fast Rust key-value store</title>
+      <link>https://github.com/kingroryg/turbokv</link>
+      <description>📝 put(b"user:2", b"Grace"); batch. put(b"user:3", b"Linus"); batch. DbOptions::fast() None Returns the no-WAL preset.
 
-🔗 Read more: https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</description>
-      <guid isPermaLink="true">https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</guid>
-      <pubDate>Fri, 28 Aug 2026 15:17:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49479837</comments>
+🔗 Read more: https://github.com/kingroryg/turbokv</description>
+      <guid isPermaLink="true">https://github.com/kingroryg/turbokv</guid>
+      <pubDate>Sat, 29 Aug 2026 02:23:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49486334</comments>
     </item>
     <item>
-      <title>Htmx 4.0</title>
-      <link>https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released</link>
-      <description>📝 Attribute Inheritance In htmx 2 many attributes were “inherited” by default. "&gt; &lt;button hx-delete="/item/1"&gt;Delete&lt;/button&gt; &lt;/div&gt; This will be the largest upgrade burden in migrating from htmx 2 to htmx 4. htmx 4 does not cache pages in localStorage.
+      <title>Cursor 被 SpaceX 收购后我们对 Cursor 的决定</title>
+      <link>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/</link>
+      <description>📝 This decision was incredibly tough, as we care deeply about our models being broadly available for developers. To work with a large partner like SpaceX, we typically rely on custom contracts to ensure compliance with our terms of service and that the integration provides for safety at scale. We know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor.
 
-🔗 Read more: https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released</description>
-      <guid isPermaLink="true">https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released</guid>
-      <pubDate>Fri, 28 Aug 2026 13:28:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49478178</comments>
+
+🔤 Original: Our decision on Cursor following its acquisition by SpaceX
+
+🔗 Read more: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/</description>
+      <guid isPermaLink="true">https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/</guid>
+      <pubDate>Sat, 29 Aug 2026 01:47:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49486172</comments>
     </item>
     <item>
-      <title>Just the rumour of a bug is enough to find an exploit these days</title>
-      <link>https://anil.recoil.org/notes/rumour-is-the-exploit</link>
-      <description>📝 Given that just the rumour of a security issue seems enough to give attackers enough info to find new exploits, we're going to need to change the way we deal with security responses in open source. That compresses all timelines considerably. Well, not having access to frontier agents like Mythos is an obvious one, but also that the engineering of a security patch that doesn't cause any regressions is just fundamentally more work.
+      <title>9th Circuit sides with states in Kalshi gambling fight</title>
+      <link>https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/</link>
+      <description>📝 巡回上诉法院裁定，体育赛事赌博不受联邦法律保护，否则允许预测市场公司运营。亚利桑那州可以利用内华达州的裁决来主张利布尔迪应该允许亚利桑那州的案件继续进行。巡回上诉法院支持卡尔希，并发现各州无权阻止预测市场对体育赛事进行投注。
 
-🔗 Read more: https://anil.recoil.org/notes/rumour-is-the-exploit</description>
-      <guid isPermaLink="true">https://anil.recoil.org/notes/rumour-is-the-exploit</guid>
-      <pubDate>Fri, 28 Aug 2026 15:58:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49480466</comments>
+🔗 Read more: https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/</description>
+      <guid isPermaLink="true">https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/</guid>
+      <pubDate>Fri, 28 Aug 2026 23:32:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49485452</comments>
     </item>
     <item>
-      <title>Boot a Virtual iPhone via Apple's Virtualization.framework</title>
-      <link>https://github.com/Lakr233/vphone-cli</link>
-      <description>📝 Manage vphone-cli vm list # list VMs (--json for scripting) vphone-cli vm info myphone # show one VM vphone-cli vm new myphone # create an empty bundle (cpu/mem/disk options) vphone-cli vm config myphone --cpu 8 --memory 8192 vphone-cli vm clone myphone myphone-2 # fast APFS clone, fresh device identity vphone-cli vm export myphone --out myphone. empty bundle vphone-cli fw prepare myphone --iphone-version 26. boot into DFU (background) vphone-cli restore myphone --get-shsh # fetch SHSH vphone-cli restore myphone # DFU restore vphone-cli vm stop myphone # stop the DFU boot vphone-cli cfw install myphone --variant jb # 5.
+      <title>StemDeck, a free, open-source and local AI stem separator</title>
+      <link>https://github.com/stemdeckapp/stemdeck</link>
+      <description>📝 自由的局部茎分离。茎子集提取。 StemDeck 莫伊塞斯 / LALAL。
 
-🔗 Read more: https://github.com/Lakr233/vphone-cli</description>
-      <guid isPermaLink="true">https://github.com/Lakr233/vphone-cli</guid>
-      <pubDate>Fri, 28 Aug 2026 23:02:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49485267</comments>
+🔗 Read more: https://github.com/stemdeckapp/stemdeck</description>
+      <guid isPermaLink="true">https://github.com/stemdeckapp/stemdeck</guid>
+      <pubDate>Sat, 29 Aug 2026 01:24:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49486081</comments>
     </item>
     <item>
-      <title>Judge rules Trump administration’s blacklisting of Anthropic was illegal</title>
-      <link>https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html</guid>
-      <pubDate>Fri, 28 Aug 2026 02:03:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49473522</comments>
+      <title>Does the Sumerian King List Align with Paleoclimate Events?</title>
+      <link>https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/</link>
+      <description>📝 Their total is 241,200 years. Sumerian King List alignment explorer with fixed-anchor p-values and exploratory anchor sweeps. Exploratory anchor search: best anchor from 10 to 13 ka (live) Best anchor in w.
+
+🔗 Read more: https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/</description>
+      <guid isPermaLink="true">https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/</guid>
+      <pubDate>Fri, 28 Aug 2026 23:46:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49485532</comments>
     </item>
     <item>
-      <title>GLM-5.3 is now open-weight</title>
-      <link>https://huggingface.co/zai-org/GLM-5.3</link>
-      <description>📝 3 uses the same base model as GLM-5. 2, it is much better at complex coding and long-horizon tasks: GLM-5. Feel free to try them out: If you find GLM-5.
+      <title>I accidentally turned LLM memory into program analysis</title>
+      <link>https://pwning.systems/posts/llm-memory-program-analysis/</link>
+      <description>📝 This works reasonably well, but there was something about it that bothered me. This is also exactly what I wanted from an LLM during vulnerability research. Lemmalog This eventually turned into Lemmalog.
 
-🔗 Read more: https://huggingface.co/zai-org/GLM-5.3</description>
-      <guid isPermaLink="true">https://huggingface.co/zai-org/GLM-5.3</guid>
-      <pubDate>Fri, 28 Aug 2026 15:20:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49479878</comments>
+🔗 Read more: https://pwning.systems/posts/llm-memory-program-analysis/</description>
+      <guid isPermaLink="true">https://pwning.systems/posts/llm-memory-program-analysis/</guid>
+      <pubDate>Fri, 28 Aug 2026 23:27:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49485416</comments>
     </item>
     <item>
-      <title>Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment</title>
-      <link>https://arxiv.org/abs/2608.23691</link>
-      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
+      <title>PPWR lands another blow to an precarious tabletop industry</title>
+      <link>https://www.rascal.news/ppwr-lands-another-blow-to-an-already-precarious-tabletop-industry/</link>
+      <description>📝 Making matters even more complex is the fact that each EU state implements these EPR fees differently. "This is another piece of EU legislation that appears not to have considered small businesses at all,” said Fox in an email to Rascal. ” Some shared that Fox’s guidance loses feasibility when publishers still have crowdfunding campaign rewards to fulfill.
 
-🔗 Read more: https://arxiv.org/abs/2608.23691</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.23691</guid>
-      <pubDate>Fri, 28 Aug 2026 17:01:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49481455</comments>
+🔗 Read more: https://www.rascal.news/ppwr-lands-another-blow-to-an-already-precarious-tabletop-industry/</description>
+      <guid isPermaLink="true">https://www.rascal.news/ppwr-lands-another-blow-to-an-already-precarious-tabletop-industry/</guid>
+      <pubDate>Fri, 28 Aug 2026 23:41:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49485504</comments>
     </item>
     <item>
-      <title>Identifying fake cosmetics using AI</title>
-      <link>https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html</link>
-      <description>📝 ): Package A Image A1: Image A2: Image A3: Image A4: Image A5: Image A6: Package B Image B1: Image B2: Image B3: Image B4: Image B5: Image B6: Package C Image C1: Image C2: Image C3: Image C4: Image C5: Image C6: Those are the photos that I fed to Gemini. Package A Package A is fake. A reputable product shouldn’t have typos like that (although—spoiler alert—we’ll revisit that statement later on…).
+      <title>Kumander Linux – A Linux Distro with a Windows 7 Desktop</title>
+      <link>https://www.kumander.org/</link>
+      <description>📝 Una experiencia de escritorio familiar y potente, diseñada para hacer la transición desde Windows lo más sencilla posible. Con una interfaz intuitiva inspirada en Windows 7 y miles de aplicaciones gratuitas a tu disposición. Disfruta de miles de aplicaciones gratuitas y de alta calidad La transición de Windows a Linux nunca ha sido tan fácil Alrededor del 80% de los juegos más populares en Steam funcionan directamente en Linux Kumander Linux viene precargado con la última versión del editor de video Kdenlive Graba, mezcla y masteriza tu próxima obra maestra con Ardour 7 Prueba Kumander Linux sin instalarlo usando la opción de arranque en vivo Si necesitas ayuda, puedes publicar tus preguntas en el foro.
 
-🔗 Read more: https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html</description>
-      <guid isPermaLink="true">https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html</guid>
-      <pubDate>Fri, 28 Aug 2026 22:18:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49484925</comments>
+🔗 Read more: https://www.kumander.org/</description>
+      <guid isPermaLink="true">https://www.kumander.org/</guid>
+      <pubDate>Sat, 29 Aug 2026 01:48:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49486176</comments>
     </item>
     <item>
-      <title>Show HN: Sesame - a local-first, open-source password manager</title>
-      <link>https://usesesame.app/</link>
-      <description>📝 Import your vault and keep passwords, 2FA codes, and recovery details together. Passwords, 2FA codes, recovery details, and backups. Copy passwords, read 2FA codes, and find recovery details.
+      <title>EasyEffects can improve laptop speaker sound quality</title>
+      <link>https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/</link>
+      <description>📝 重要的是，使用 EasyEffects，您可以调整扬声器发出的音频，使它们听起来更好。如果您熟悉音频，则可以充分使用 EasyEffects 并从头开始调整笔记本电脑扬声器，以大幅改善其声音效果。不过，幸运的是，EasyEffects 有无数可下载的预设，专门设计用于使笔记本电脑听起来更好。
 
-🔗 Read more: https://usesesame.app/</description>
-      <guid isPermaLink="true">https://usesesame.app/</guid>
-      <pubDate>Fri, 28 Aug 2026 19:14:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49483038</comments>
-    </item>
-    <item>
-      <title>Verschlimmbesserung: The Word Your Software Updates Need</title>
-      <link>https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/</link>
-      <description>📝 Some product team shipped a “better experience” that solved a problem nobody had. Your engineering teams are not failing. How you measure and incentivise your teams tells them exactly what you value.
-
-🔗 Read more: https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/</description>
-      <guid isPermaLink="true">https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/</guid>
-      <pubDate>Fri, 28 Aug 2026 14:30:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49479072</comments>
-    </item>
-    <item>
-      <title>Stopping the smart TV from being used against you</title>
-      <link>https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/</link>
-      <description>📝 That is the digital display or flat-panel monitor. Isn't that a little harsh. What's the matter with that.
-
-🔗 Read more: https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/</description>
-      <guid isPermaLink="true">https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/</guid>
-      <pubDate>Fri, 28 Aug 2026 20:27:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49483816</comments>
-    </item>
-    <item>
-      <title>Attimet (YC F24) Is Hiring Members of Technical Staff – Engineering and Research</title>
-      <link>https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering</link>
-      <description>📝 You’ll have the autonomy and resources to do some of the best work of your life. com/companies/attimet/jobs This is an on-site role based in San Francisco, CA. We move quickly and care about how you think.
-
-🔗 Read more: https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering</guid>
-      <pubDate>Fri, 28 Aug 2026 17:00:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49481423</comments>
-    </item>
-    <item>
-      <title>An investigation into the state of corvid–human relations</title>
-      <link>https://www.audubon.org/magazine/are-crows-really-our-friends</link>
-      <description>📝 Visit Birds Tell Us to Act on Climate page Birds Tell Us to Act on Climate Pledge to stand with Audubon to call on elected officials to listen to science and work towards climate solutions.
-
-🔗 Read more: https://www.audubon.org/magazine/are-crows-really-our-friends</description>
-      <guid isPermaLink="true">https://www.audubon.org/magazine/are-crows-really-our-friends</guid>
-      <pubDate>Fri, 28 Aug 2026 12:53:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477813</comments>
-    </item>
-    <item>
-      <title>Some conservationists are helping to restore Africa’s wild dog populations</title>
-      <link>https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/</link>
-      <description>📝 马库斯·韦斯特伯格 野狗是非洲最成功的狩猎者，猎杀率高达 80%。 ）乔丹说，野狗也会让幼崽先吃东西，这在动物中几乎是独一无二的行为。野狗互相照顾。
-
-🔗 Read more: https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/</description>
-      <guid isPermaLink="true">https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/</guid>
-      <pubDate>Fri, 28 Aug 2026 14:44:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49479302</comments>
-    </item>
-    <item>
-      <title>渴望小丑和乔伊的凯迪拉克待办事项清单</title>
-      <link>https://charlesleifer.com/blog/aspirational-clownmaxxing-and-joey-s-cadillac-todo-list/</link>
-      <description>📝 我想，让我们用 Python 构建一个以中世纪乡村俱乐部为核心的待办事项列表应用程序吧。小精灵 当小精灵出现在待办事项列表中时。不得有任何迹象或线索表明申请有任何问题。
-
-
-🔤 Original: Aspirational Clownmaxxing and Joey's cadillac todo list
-
-🔗 Read more: https://charlesleifer.com/blog/aspirational-clownmaxxing-and-joey-s-cadillac-todo-list/</description>
-      <guid isPermaLink="true">https://charlesleifer.com/blog/aspirational-clownmaxxing-and-joey-s-cadillac-todo-list/</guid>
-      <pubDate>Fri, 28 Aug 2026 19:18:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49483080</comments>
-    </item>
-    <item>
-      <title>Smaller reactors bring nuclear power closer to fulfilling its promise</title>
-      <link>https://www.nature.com/articles/d41586-026-02506-4</link>
-      <description>📝 批评者认为，中小型反应堆并不一定比大型核电站更经济。马萨诸塞州剑桥非营利组织忧思科学家联盟的物理学家兼核电安全主任爱德华·莱曼表示，小型堆的功率输出较小，意味着工厂必须生产数十个模块化反应堆，才能使其比传统反应堆更具成本效益。另一个优点源于 Hermes 1 使用的 FLiBe 冷却剂。
-
-🔗 Read more: https://www.nature.com/articles/d41586-026-02506-4</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-02506-4</guid>
-      <pubDate>Fri, 28 Aug 2026 12:28:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49477559</comments>
+🔗 Read more: https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/</description>
+      <guid isPermaLink="true">https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/</guid>
+      <pubDate>Fri, 28 Aug 2026 15:23:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49479924</comments>
     </item>
   </channel>
 </rss>
