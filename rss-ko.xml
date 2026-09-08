@@ -6,86 +6,140 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Sep 2026 03:13:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 10:39:59 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>90년대 인증 기관의 RSA 키를 고려했습니다.</title>
-      <link>https://mcpherrin.ca/2026/09/07/rsa.html</link>
-      <description>📝 C=CA, O=E-인증, OU=RSA 골드 서버, CN=E-인증 RSA 512 골드 서버 -----인증서 시작---- MIIByjCCAXSgAwIBAgIBATANBgkqhkiG9w0BAQQFADBjMQswCQYDVQQGEwJDQTES MBAGA1UEChMJRS1DZXJ0aWZ5MRgwFgYDVQQLEw9SU0EgR29sZCBTZXJ2ZXIxJjAk BgNVBAMTHUUtQ2VydGlmeSBSU0EgNTEyIedvbGQgU2VydmVyMB4XDTk4MTAxNjEz Mzc1M1oXDTAzMTAxNjEzMzc1M1owYzELMAkGA1UEBhMCQ0ExEjAQBgNVBAoTCUUt Q2VydGlmeTEYMBYGA1UECxMPULNBIedvbGQgU2VydmVyMSYwJAYDVQQDEx1FLUNl cnRpZnkgUlNBIDUxMiBHb2xkIFNlcnZlcjBcMA0GCSqGSIb3DQEBAQUAA0sAMEgC QQDNVQ93Ev7zgNaJAR1Z7gCydU6mky1e/B4EbY1NsdtfsitU9cELqg5uRJDPA40n CDPeOyil1lJ5N8hekcqJAkkXAgMBAAGjEzARMA8GA1UdEwEB/wQFMAMBAf8wDQYJ KoZIhvcNAQEEBQADQQB09SV6OeeDEP8Je3DOLNZ24U98NHqIBTDyB4sRpDmNdHum +3rm4AYtznBxG5hEShO89bcWi3yJtBITGuTRDnMq -----인증서 종료------ -----RSA 개인 키 시작----- MIIBOgiBAAJBAM1VD3cS/vOA1okBHVnuALJ1TqaTLV78HgRtjU2x21+yK1T1wQuq Dm5EkM8DjScIM947KKXWUnk3yF6RyokCSRcCAwEAAQJAWZ2FOWf+A9K4T2VAJS69 +SU/pW3YwHrysuYJZN56K0Iz+Hqd1hBhCeJ3/T+/cvXq+ctD0x3uOxU1rDSeCoMO KQIhAPdbc1wTm3twWDYi1iXmRBXz97MYxRFld/KFr8x5+tK9AiEA1IG09a+oVg6j NMDj6GD7spaD4q9t1wk/Nyq/MTLPkmMCIEzzYjvuzZvlI0wUIlLAA8Zgk1pgBk6X Jm2IMVyHRgRxAiEAjZKgCTHuVu7HgiSjcTPzW0X1NTckWSc66zjaSR+Ns/sCICxT yXoTXWQCWL6BMpf2no7IlvoEnBirED2Frq3PxlEA -----RSA 개인 키 끝----.
+      <title>Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare</title>
+      <link>https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten</link>
+      <description>📝 6% of 44,143 European companies with a detected CDN sit behind Cloudflare For a reference point, W3Techs put Cloudflare at 84. I only counted companies that actually run a CDN. Fastly does not have that ambiguity.
 
-
-🔤 Original: I've factored the RSA keys of a Certificate Authority from the 90s
-
-🔗 Read more: https://mcpherrin.ca/2026/09/07/rsa.html</description>
-      <guid isPermaLink="true">https://mcpherrin.ca/2026/09/07/rsa.html</guid>
-      <pubDate>Tue, 08 Sep 2026 01:16:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49604637</comments>
+🔗 Read more: https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten</description>
+      <guid isPermaLink="true">https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten</guid>
+      <pubDate>Tue, 08 Sep 2026 08:42:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49607443</comments>
     </item>
     <item>
-      <title>TALA는 오픈 소스입니다</title>
-      <link>https://d2lang.com/blog/tala-is-open-source/</link>
-      <description>📝 첫 번째 배치는 TALA로 렌더링된 다이어그램을 D2와 함께 제공되는 다른 두 가지 레이아웃 알고리즘인 Dagre 및 ELK와 비교합니다. ROSS 로터 동역학 워크플로우 병렬TALADagreELKD2 소스 ↓TALAOpen SVG ↗DagreOpen SVG ↗ELKOpen SVG ↗확대하려면 다이어그램을 선택하세요. 배치 2: 사용자 정의 위치 지정 Signal House TALA · 상단/왼쪽D2 소스로 위치 지정 ↓SVG 열기 ↗D2 소스 보기 Atlas/데이터 플랫폼 TALA · 상단/왼쪽D2 소스로 위치 지정 ↓SVG 열기 ↗D2 소스 보기 야간 근무/미션 제어 TALA · 상단/왼쪽D2 소스로 위치 지정 ↓SVG 열기 ↗D2 소스 보기 금요일 배포: 탈출실 TALA · 상단/왼쪽D2 소스로 위치 지정 ↓SVG 열기 ↗D2 소스 보기 인터넷은 해파리 TALA · 상단/왼쪽으로 위치 지정D2 소스 ↓SVG 열기 ↗D2 소스 보기 궤도 커피 물류 TALA · 상단/왼쪽으로 위치D2 소스 ↓SVG 열기 ↗D2 소스 보기 Cloud Conservatory TALA · 상단/왼쪽으로 위치D2 + 아이콘 ↓SVG 열기 ↗D2 소스 보기 Velvet Rope TALA · 상단/왼쪽으로 위치D2 + 아이콘 ↓SVG 열기 ↗D2 소스 보기 Synthwave City TALA · 상단/왼쪽에 위치D2 +.
+      <title>Why getting your hands dirty is good for you</title>
+      <link>https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks</link>
+      <description>📝 She found that the abundance and variety of microbes on their skin increased, even after they rinsed their hands with tap water. Healthy skin, healthy bodyTaking care of our skin also has benefits that run much deeper. As we might expect, the diversity of certain bacteria on children's skin increased when they played in the microbially rich sandbox.
 
-
-🔤 Original: TALA Is Open-Source
-
-🔗 Read more: https://d2lang.com/blog/tala-is-open-source/</description>
-      <guid isPermaLink="true">https://d2lang.com/blog/tala-is-open-source/</guid>
-      <pubDate>Mon, 07 Sep 2026 23:37:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49604150</comments>
+🔗 Read more: https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks</description>
+      <guid isPermaLink="true">https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks</guid>
+      <pubDate>Tue, 08 Sep 2026 09:48:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49608023</comments>
     </item>
     <item>
-      <title>젤리핀 12.0</title>
-      <link>https://jellyfin.org/posts/jellyfin-release-12.0/</link>
-      <description>📝 x 릴리스를 12로 업그레이드하기 전에. 10에서 직접 업그레이드하세요. 업그레이드하기 전에 사용자 이름을 확인하세요.
+      <title>There's a new "Google Jail" for independent wikis</title>
+      <link>https://weirdgloop.org/blog/google-jail</link>
+      <description>📝 지난 2년 동안 아주 소수의 예외를 제외하면 새로운 도메인의 위키는 기본 페이지 외에는 Google 검색에 표시되지 않습니다. 우리가 호스팅하는 org, Hollowknight. 이것은 새로운 위키에 대한 전략을 크게 변화시킵니다. 제가 항상 말했듯이, 위키를 팬덤 밖으로 옮기는 데 있어 유일하게 합법적으로 어려운 부분은 팬덤에 남겨진 좀비화된 시체를 상대로 수년간 구글 전쟁을 벌여야 한다는 것입니다.
 
-
-🔤 Original: Jellyfin 12.0
-
-🔗 Read more: https://jellyfin.org/posts/jellyfin-release-12.0/</description>
-      <guid isPermaLink="true">https://jellyfin.org/posts/jellyfin-release-12.0/</guid>
-      <pubDate>Tue, 08 Sep 2026 01:56:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49604861</comments>
+🔗 Read more: https://weirdgloop.org/blog/google-jail</description>
+      <guid isPermaLink="true">https://weirdgloop.org/blog/google-jail</guid>
+      <pubDate>Tue, 08 Sep 2026 01:57:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49604870</comments>
     </item>
     <item>
-      <title>Broadcom이 VDDK 다운로드를 중단한 후 VMware를 떠나는 것이 더 어려워졌습니다.</title>
-      <link>https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/</link>
-      <description>📝 그들은 지금 막 실질적인 효과를 가져올 무언가를 했을 수도 있습니다. VMware VDDK란 무엇입니까? Broadcom은 정확히 무엇을 바꾸었나요?
+      <title>Mistral은 €30억을 모금했습니다.</title>
+      <link>https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</link>
+      <description>📝 That's what makes Mistral’s stack the sovereign AI layer, meaning retaining control across four dimensions: data that stays inside the organization's boundaries, models that are controllable and customizable, compute that is private and predictable, and systems in production that are fully controllable and auditable. It brings together a world-class syndicate of strategic and financial investors, including global technology leaders, growth investors and existing shareholders that have supported Mistral’s development to date. This support reflects growing confidence that Mistral's approach can help organisations deploy state-of-the-art AI inside complex real-world environments while maintaining control over their data, infrastructure and knowledge.
 
 
-🔤 Original: Leaving VMware just got harder after Broadcom pulled VDDK downloads
+🔤 Original: Mistral raises €3B
 
-🔗 Read more: https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/</description>
-      <guid isPermaLink="true">https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/</guid>
-      <pubDate>Mon, 07 Sep 2026 20:32:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49602699</comments>
+🔗 Read more: https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</description>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</guid>
+      <pubDate>Tue, 08 Sep 2026 05:06:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605767</comments>
     </item>
     <item>
-      <title>Show HN: Stuxnet – 악명 높은 사이버 무기의 재구성된 소스 코드</title>
-      <link>https://github.com/Sadpainy/Stuxnet</link>
-      <description>📝 모듈: 로더/드로퍼 파일 이름: winsta. 모듈: 권한 상승 파일 이름: ~WTR4132. 모듈: 루트킷(네트워크) 파일 이름: mrxnet.
+      <title>구식 HTML 조각 및 아티팩트</title>
+      <link>https://vale.rocks/posts/html-relics</link>
+      <description>📝 Microsoft는 조각에서 볼 수 있듯이 특별히 형식화된 주석을 사용하여 Internet Explorer에서 이를 처리했습니다. Microsoft 스마트 태그 &lt;meta name="MSSmartTagsPreventParsing" content="TRUE"&gt; 스마트 태그는 Microsoft가 Internet Explorer 6에 도입한 시스템으로 페이지에 하이퍼링크를 자동으로 삽입합니다. Microsoft는 나중에 Internet Explorer에서 완전히 삭제했습니다.
 
 
-🔤 Original: Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon
+🔤 Original: Antiquated HTML Snippets and Artefacts
 
-🔗 Read more: https://github.com/Sadpainy/Stuxnet</description>
-      <guid isPermaLink="true">https://github.com/Sadpainy/Stuxnet</guid>
-      <pubDate>Mon, 07 Sep 2026 22:12:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49603546</comments>
+🔗 Read more: https://vale.rocks/posts/html-relics</description>
+      <guid isPermaLink="true">https://vale.rocks/posts/html-relics</guid>
+      <pubDate>Tue, 08 Sep 2026 09:43:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49607991</comments>
     </item>
     <item>
-      <title>이맥스 베드록 2.0</title>
-      <link>https://lambdaland.org/posts/2026-09-06-bedrock-v2/</link>
-      <description>📝 0개의 베드락을 사용할 수 있습니다. isearch 구성이 더 좋습니다. Bedrock이 여러분의 삶에도 도움이 되기를 바랍니다.
+      <title>Multi-Agents LLM Financial Trading Framework</title>
+      <link>https://github.com/TauricResearch/TradingAgents</link>
+      <description>📝 [2026-07] TradingAgents v0. [2026-03] TradingAgents v0. [2026-03] TradingAgents v0.
+
+🔗 Read more: https://github.com/TauricResearch/TradingAgents</description>
+      <guid isPermaLink="true">https://github.com/TauricResearch/TradingAgents</guid>
+      <pubDate>Tue, 08 Sep 2026 05:20:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605822</comments>
+    </item>
+    <item>
+      <title>상담원은 테스트/확인 기술을 얼마나 잘 사용합니까?</title>
+      <link>https://danluu.com/agentic-testing/</link>
+      <description>📝 Other than my skill, the skills were chosen because those were the top skills codex turned up when asked to find relevant skills. Predictions I pre-registered some guesses on how conditions will do: TDD will underperform (55% confidence) I actually added TDD specifically because I thought it would underperform My confidence is low here because I don't know what agents will do when instructed to do TDD; perhaps agents won't do TDD and will do something that doesn't underperform (or perhaps I'm wrong about TDD underperformance) Formal methods will not overperform (52% confidence) My thought here is that formal methods are effective and useful (more so now than ever), good test methods are also effective and useful and, on simple problems, formal methods shouldn't outperform if used at a similar level of competence As with the above, but even more so, my confidence is low here because I don't know what agents will do when instructed to do anything, and formal methods have been more hyped than effective test techniques for agentic coding, so it's entirely plausible that labs have trained agents with RL environments with synthetic data which trains them to be very effective with formal methods without having trained agents to be effective with good test techniques (which I would expect to be easier to do, but not done because of how relatively untrendy effective test techniques are) Make no mistakes will not outperform no instructions (95% confidence) It's a joke, and one that a lot of people have tried. " Hegel's skill will not outperform (65% confidence) It's very big (the SKILL.
 
 
-🔤 Original: Emacs Bedrock 2.0
+🔤 Original: How well do agents use test/verification techniques?
 
-🔗 Read more: https://lambdaland.org/posts/2026-09-06-bedrock-v2/</description>
-      <guid isPermaLink="true">https://lambdaland.org/posts/2026-09-06-bedrock-v2/</guid>
-      <pubDate>Mon, 07 Sep 2026 20:12:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49602490</comments>
+🔗 Read more: https://danluu.com/agentic-testing/</description>
+      <guid isPermaLink="true">https://danluu.com/agentic-testing/</guid>
+      <pubDate>Tue, 08 Sep 2026 02:58:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605246</comments>
+    </item>
+    <item>
+      <title>Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics</title>
+      <link>https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics</link>
+      <description>📝 As the first AI-native Mali GPU, it integrates neural acceleration directly into the graphics pipeline, helping developers deliver richer, more responsive visual experiences within the mobile power envelope and bring neural graphics into production faster. An AI-native GPU for neural graphics Mali G2-Ultra NX is built for neural graphics from the ground up, with neural accelerators tightly integrated into the shader cores, allowing neural graphics workloads to run alongside graphics and compute workloads. Mali G2-Ultra NX integrates dedicated neural acceleration directly within the shader core, sharing GPU memory and control structures to improve efficiency for neural graphics workloads.
+
+🔗 Read more: https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics</description>
+      <guid isPermaLink="true">https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics</guid>
+      <pubDate>Tue, 08 Sep 2026 04:06:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605511</comments>
+    </item>
+    <item>
+      <title>We have a year to fix security everywhere</title>
+      <link>https://jyn.dev/a-year-to-fix-security/</link>
+      <description>📝 "flash" means that it is cheap and fast to run, compared to most "frontier" models. Abliterated models will be slightly lower again. CyberGym measures real world vulnerabilities that have been found and patched by open source projects in the past.
+
+🔗 Read more: https://jyn.dev/a-year-to-fix-security/</description>
+      <guid isPermaLink="true">https://jyn.dev/a-year-to-fix-security/</guid>
+      <pubDate>Tue, 08 Sep 2026 04:48:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605691</comments>
+    </item>
+    <item>
+      <title>The VMs Powering Mobile Agents (Instinct, Claude Code)</title>
+      <link>https://rohanadwankar.github.io/posts/platforms.html</link>
+      <description>📝 Claude Code on Your Phone Claude Code's box is its own Firecracker microVM, a KVM guest with its own kernel, booted straight into an init written in Rust: $ cat /proc/cmdline. (production)), with api. com"] Instinct Instinct is a new startup which launched recently and it does some very nice things on the memory side which gives that feel of it being a real assistant rather than a chatbot.
+
+🔗 Read more: https://rohanadwankar.github.io/posts/platforms.html</description>
+      <guid isPermaLink="true">https://rohanadwankar.github.io/posts/platforms.html</guid>
+      <pubDate>Tue, 08 Sep 2026 04:36:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605644</comments>
+    </item>
+    <item>
+      <title>My Feed, My Way</title>
+      <link>https://www.pm.gov.au/media/my-feed-my-way</link>
+      <description>📝 This will include an Australian first, “My Feed, My Way,” initiative which will give Australians control over their social media algorithms. This will give Australians greater choice over their platforms and what they see. Australians will benefit from better protection from seriously harmful and illegal content across digital services, and social media users will be afforded more choice.
+
+🔗 Read more: https://www.pm.gov.au/media/my-feed-my-way</description>
+      <guid isPermaLink="true">https://www.pm.gov.au/media/my-feed-my-way</guid>
+      <pubDate>Tue, 08 Sep 2026 05:10:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605782</comments>
+    </item>
+    <item>
+      <title>Navier-Stokes – 트리스탄 벅마스터 [pdf]</title>
+      <link>https://cims.nyu.edu/~tristanb/statement.pdf</link>
+      <description>📝 ����A�\�E︄��� {e� endstream endobj 15 0 obj &lt;&lt; /Contents 16 0 R /MediaBox [ 0 0 612 792 ] /Parent 25 0 R /Resources 22 0 R /Type /Page &gt;&gt; endobj 16 0 obj &lt;&lt; /Filter /FlateDecode /Length 3038 &gt;&gt; stream x��YK�����W�-`�����$+�kS�㊷*U�s�%fI�@����\����_��r. ߡMO��$EuK�7bn˲��+���� �qo� endstream endobj 17 0 obj &lt;&lt; /Type /ObjStm /Length 979 /Filter /FlateDecode /N 14 /First 98 &gt;&gt; stream x��Vmo�6��_q 7 ��P�˼m�Ա�mE&gt;(6 k�-G�Ӥ�~GR�e'�2l�u9�ǻ�ǼX` $B�`��ì��e,Zi�@2�ҁ�`��1Rג+���+��߽y�/� D����A�u���o/�r|��L�I p� �����(�}̂' G����g�(IQ���,���T����X5e��J �M ����M��T�, ��e1. ����lv�G&gt;Kƾ�̟0�&lt; endstream endobj 18 0 obj &lt;&lt; /Filter /FlateDecode /Length1 1426 /Length2 6463 /Length3 0 /Length 7441 &gt;&gt; stream x��wT���6� �""H��CHh�{�%EJ��$.
+
+
+🔤 Original: Navier-Stokes – Tristan Buckmaster [pdf]
+
+🔗 Read more: https://cims.nyu.edu/~tristanb/statement.pdf</description>
+      <guid isPermaLink="true">https://cims.nyu.edu/~tristanb/statement.pdf</guid>
+      <pubDate>Tue, 08 Sep 2026 05:42:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49605915</comments>
     </item>
   </channel>
 </rss>
