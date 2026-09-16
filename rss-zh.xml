@@ -6,119 +6,78 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 16 Sep 2026 20:56:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 23:34:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Training a 4B model to produce 81% faster query plans than Postgres</title>
-      <link>https://rohanbansal.com/qorl</link>
-      <description>📝 How good are query optimizers, really. So query optimizers are hard. valid join trees: ⋈ Join of (company_name ⋈ movie_companies) with title ⋈ Join of company_name with movie_companies t title relation cn company_name relation mc movie_companies relation (cn ⋈ mc) ⋈ t ⋈ Join of (title ⋈ movie_companies) with company_name ⋈ Join of title with movie_companies cn company_name relation t title relation mc movie_companies relation (t ⋈ mc) ⋈ cn The two join trees for our query.
-
-🔗 Read more: https://rohanbansal.com/qorl</description>
-      <guid isPermaLink="true">https://rohanbansal.com/qorl</guid>
-      <pubDate>Wed, 16 Sep 2026 18:50:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49731285</comments>
-    </item>
-    <item>
-      <title>Vectorized and performance-portable Quicksort (2022)</title>
-      <link>https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html</link>
-      <guid isPermaLink="true">https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html</guid>
-      <pubDate>Wed, 16 Sep 2026 18:31:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49731054</comments>
-    </item>
-    <item>
-      <title>Xiami Mimo 2.6 Live Training Dashboard</title>
-      <link>https://mimo.xiaomi.com/rl/</link>
-      <guid isPermaLink="true">https://mimo.xiaomi.com/rl/</guid>
-      <pubDate>Wed, 16 Sep 2026 20:09:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49732270</comments>
-    </item>
-    <item>
-      <title>Accurate Models of AMD Matrix Cores</title>
-      <link>https://arxiv.org/abs/2609.14845</link>
+      <title>Breaking the 1.58-bit Barrier for Ternary LLMs</title>
+      <link>https://arxiv.org/abs/2609.16338</link>
       <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
 
-🔗 Read more: https://arxiv.org/abs/2609.14845</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2609.14845</guid>
-      <pubDate>Wed, 16 Sep 2026 18:56:05 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49731360</comments>
+🔗 Read more: https://arxiv.org/abs/2609.16338</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2609.16338</guid>
+      <pubDate>Wed, 16 Sep 2026 20:59:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49732931</comments>
     </item>
     <item>
-      <title>How good are frontier models at physics?</title>
-      <link>https://arxiv.org/abs/2609.13009</link>
-      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
+      <title>Nvidia announces native GPU programming in Rust</title>
+      <link>https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/</link>
+      <description>📝 NVTX has Rust bindings. NVIDIA CUDA Rust closes that gap. The SIMT track: cuda-oxide cuda-oxide is a custom rustc codegen backend.
 
-🔗 Read more: https://arxiv.org/abs/2609.13009</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2609.13009</guid>
-      <pubDate>Wed, 16 Sep 2026 19:19:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49731620</comments>
+🔗 Read more: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/</description>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/</guid>
+      <pubDate>Wed, 16 Sep 2026 11:15:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49724881</comments>
     </item>
     <item>
-      <title>Tell HN: An inside view of Montana's new biotech law</title>
-      <link>https://news.ycombinator.com/item?id=49731216</link>
-      <description>📝 It builds on right-to-try (pre-approval access with informed consent, Phase 1 safety data etc. The mods suggested this post. Federal Right to Try and Expanded Access haven't fixed this.
+      <title>Backups Aren't Simple</title>
+      <link>https://filipovski.net/2026/09/16/backups-arent-simple.html</link>
+      <description>📝 Importantly, this means that mirroring your disk with something like RAID 1 is out. We need some other method that snapshots things. Taking snapshots means that we have an increasing burden on our storage.
 
-🔗 Read more: https://news.ycombinator.com/item?id=49731216</description>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49731216</guid>
-      <pubDate>Wed, 16 Sep 2026 18:43:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49731216</comments>
+🔗 Read more: https://filipovski.net/2026/09/16/backups-arent-simple.html</description>
+      <guid isPermaLink="true">https://filipovski.net/2026/09/16/backups-arent-simple.html</guid>
+      <pubDate>Wed, 16 Sep 2026 20:27:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49732513</comments>
     </item>
     <item>
-      <title>Claude Cowork and chat are now one Claude</title>
-      <link>https://claude.com/blog/cowork-is-now-claude</link>
-      <description>📝 Claude does more of the work. com/blog/cowork-is-now-claudeStarting today, Claude Cowork and chat are merging into one Claude. Claude Docs and Claude Slides are new today, and Claude Design now works inside your conversations too.
+      <title>OpenSpec – A lightweight and configurable AI spec framework</title>
+      <link>https://openspec.dev/</link>
+      <description>📝 A new spec every two seconds. A new spec is created with OpenSpec every two seconds. 0k GitHub stars 02A new spec every two seconds Public record GitHub stars68.
 
-🔗 Read more: https://claude.com/blog/cowork-is-now-claude</description>
-      <guid isPermaLink="true">https://claude.com/blog/cowork-is-now-claude</guid>
-      <pubDate>Wed, 16 Sep 2026 16:26:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49729412</comments>
+🔗 Read more: https://openspec.dev/</description>
+      <guid isPermaLink="true">https://openspec.dev/</guid>
+      <pubDate>Wed, 16 Sep 2026 23:06:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49734264</comments>
     </item>
     <item>
-      <title>The DeepMind Institute</title>
-      <link>https://institute.deepmind.com/</link>
-      <guid isPermaLink="true">https://institute.deepmind.com/</guid>
-      <pubDate>Wed, 16 Sep 2026 14:32:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49727659</comments>
-    </item>
-    <item>
-      <title>macOS 27 Golden Gate: The Ars Technica Review</title>
-      <link>https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/</link>
-      <description>📝 The good news is that if you own any Apple Silicon Mac that isn’t falling apart, Golden Gate should run mostly happily. Apple Intelligence requirements Golden Gate introduces a minor split between older Apple Silicon Macs and newer ones. But I would expect to see the gap between older/less-capable Apple Silicon Macs and new ones grow, if and when Apple makes more changes to Apple Intelligence.
+      <title>Australia says it could follow Canada in forging deeper ties with EU</title>
+      <link>https://www.independent.co.uk/news/world/australasia/canda-eu-membership-australia-us-trade-b3050227.html</link>
+      <description>📝 Australia is aligned with Canada’s efforts to seek closer ties with the EU as Ottawa faces an escalating trade dispute with the US. Australia has sought to diversify its trade after facing US tariffs on exports, despite its long-standing security pact and free trade deal with Washington. "It's indisputable that Australian prosperity of the last 50 years has all been about our engagement with the world.
 
-🔗 Read more: https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/</guid>
-      <pubDate>Wed, 16 Sep 2026 19:53:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49732036</comments>
+🔗 Read more: https://www.independent.co.uk/news/world/australasia/canda-eu-membership-australia-us-trade-b3050227.html</description>
+      <guid isPermaLink="true">https://www.independent.co.uk/news/world/australasia/canda-eu-membership-australia-us-trade-b3050227.html</guid>
+      <pubDate>Wed, 16 Sep 2026 22:56:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49734171</comments>
     </item>
     <item>
-      <title>Reverse-engineered Jev-like model</title>
-      <link>https://github.com/vinnylarouge/jevlike</link>
-      <description>📝 Jevlike Train a small model that chooses among a changing list of text options. jsonl \ --output runs/synthetic. jsonl jevlike-predict runs/synthetic.
+      <title>Why Does the Universe Expand?</title>
+      <link>https://cosmicave.org/2026/09/15/why-does-the-universe-expand/</link>
+      <description>📝 Why does the universe expand. Why should our universe expand. The standard cosmological model affords no such explanation.
 
-🔗 Read more: https://github.com/vinnylarouge/jevlike</description>
-      <guid isPermaLink="true">https://github.com/vinnylarouge/jevlike</guid>
-      <pubDate>Wed, 16 Sep 2026 18:49:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49731282</comments>
+🔗 Read more: https://cosmicave.org/2026/09/15/why-does-the-universe-expand/</description>
+      <guid isPermaLink="true">https://cosmicave.org/2026/09/15/why-does-the-universe-expand/</guid>
+      <pubDate>Wed, 16 Sep 2026 19:56:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49732087</comments>
     </item>
     <item>
-      <title>Training Text-to-Image Models 3.6× Faster</title>
-      <link>https://www.linum.ai/field-notes/jit-ddt</link>
-      <description>📝 Most generative image and video systems are Latent Diffusion Models (LDMs). Hitting the VAE compression wall Almost all generative image and video models are Latent Diffusion Models (LDMs). It's trained for compression and reconstruction.
+      <title>I replaced my brown-noise browser tab with a menu bar app</title>
+      <link>https://oldmanrahul.com/2026/09/14/hush/</link>
+      <description>📝 What finally stuck for me was generated noise. There are a myriad of websites that will quickly generate noise for you. Right-click the icon and the noise starts.
 
-🔗 Read more: https://www.linum.ai/field-notes/jit-ddt</description>
-      <guid isPermaLink="true">https://www.linum.ai/field-notes/jit-ddt</guid>
-      <pubDate>Wed, 16 Sep 2026 16:58:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49729816</comments>
-    </item>
-    <item>
-      <title>Why a fast-growing German AI startup is moving its parent company from the US</title>
-      <link>https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us</link>
-      <description>📝 Berlin-based Langdock has reversed the usual path taken by European start-ups by moving its parent company from the US to Germany. Langdock has now defied this trend and dismantled its US holding structure and brought its parent company under European law. Langdock has now replaced its US parent company with a European SE.
-
-🔗 Read more: https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us</description>
-      <guid isPermaLink="true">https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us</guid>
-      <pubDate>Wed, 16 Sep 2026 18:45:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49731235</comments>
+🔗 Read more: https://oldmanrahul.com/2026/09/14/hush/</description>
+      <guid isPermaLink="true">https://oldmanrahul.com/2026/09/14/hush/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:11:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49726501</comments>
     </item>
   </channel>
 </rss>
