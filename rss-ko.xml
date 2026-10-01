@@ -6,58 +6,219 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 01 Oct 2026 12:31:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 20:10:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>StreetComplete on iOS is now in public beta</title>
-      <link>https://github.com/streetcomplete/StreetComplete/issues/5421</link>
-      <description>📝 Please reload this page. Current State This section will be updated continuously. In particular: Jetpack Compose / Compose Multiplatform.
+      <title>Pi 1.0</title>
+      <link>https://earendil.com/posts/pi-1-0/</link>
+      <description>📝 We care about holding that line. Pi does not work that way. 0 we are shipping today is a result of that process.
 
-🔗 Read more: https://github.com/streetcomplete/StreetComplete/issues/5421</description>
-      <guid isPermaLink="true">https://github.com/streetcomplete/StreetComplete/issues/5421</guid>
-      <pubDate>Thu, 01 Oct 2026 10:59:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49920160</comments>
+🔗 Read more: https://earendil.com/posts/pi-1-0/</description>
+      <guid isPermaLink="true">https://earendil.com/posts/pi-1-0/</guid>
+      <pubDate>Thu, 01 Oct 2026 19:33:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49926069</comments>
     </item>
     <item>
-      <title>GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design</title>
-      <link>https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design</link>
-      <description>📝 com Contact Sales Contact Sales Search Synopsys Cancel Popular Content Innovate Faster with Synopsys Multi-Die Solution Explore our eBook for scalable multi-die solutions to boost innovation, productivity, and success. Automotive Executive Guide: Rethinking Automotive Development A guide to virtualization in software-defined vehicles for automotive leaders. Download By Function Analog Design Digital Design Design for Test Verification Virtual Prototyping Hardware Assisted Verification Signoff Silicon Lifecycle Management Manufacturing SoC Integration View all Products Synopsys.
+      <title>Clef: Open-source decision models, and new RL fine-tuning platform</title>
+      <link>https://blog.cloudflare.com/clef-decision-models/</link>
+      <description>📝 What is a decision model. This classification took our Clef model 2. How is Clef different from other decision models.
 
-🔗 Read more: https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design</description>
-      <guid isPermaLink="true">https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design</guid>
-      <pubDate>Thu, 01 Oct 2026 10:21:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49919910</comments>
+🔗 Read more: https://blog.cloudflare.com/clef-decision-models/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/clef-decision-models/</guid>
+      <pubDate>Thu, 01 Oct 2026 16:18:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49923692</comments>
     </item>
     <item>
-      <title>Returning from vacation? The government can search your phone without a warrant</title>
-      <link>https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/</link>
-      <description>📝 According to the seven-page complaint, Thomas Kennedy said that a Customs and Border Protection agent at Miami International Airport physically searched his bags, questioned him about his books and magazines, and then demanded that he hand over his phone. ” The agent took the phone away and only returned after approximately 45 minutes, during which Kennedy believes that data on the phone was copied. ” CBP says that such searches of electronic devices are very rare.
+      <title>RIP, vector database</title>
+      <link>https://turbopuffer.com/blog/rip-vector-database</link>
+      <description>📝 turbopuffer launched as a serverless vector database (v1), highly specialized to the task of serving extremely cheap and reasonably fast vector searches. ┌───────────────────┐ │ root centroid │ └───────────────────┘ ╱ │ ╲ ╱ │ ╲ ┌───────────────────┐ ┌───────────────────┐ ┌───────────────────┐ │ leaf centroid │ │ leaf centroid │ │ leaf centroid │ └───────────────────┘ └───────────────────┘ └───────────────────┘ ╱ ╲ ╱ ╲ ╱ ╲ ╱ ╲ ╱ ╲ ╱ ╲ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ │ vector │ │ vector │ │ vector │ │ vector │ │ vector │ │ vector │ └────────┘ └────────┘ └────────┘ └────────┘ └────────┘ └────────┘ ┌───────────────┐ │ root centroid │ └───────────────┘ ╱ │ ╲ ╱ │ ╲ ┌────────┐┌────────┐┌────────┐ │ leaf ││ leaf ││ leaf │ │centroid││centroid││centroid│ └────────┘└────────┘└────────┘ ╱ ╲ ╱ ╲ ╱ ╲ ┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐ │vec││vec││vec││vec││vec││vec│ └───┘└───┘└───┘└───┘└───┘└───┘ We implemented this on top of a storage layer presenting as a key-value map, with sorted and unique keys. v2: attribute filtering and full-text search Two new query plans marked the informal transition from turbopuffer v1 → v2: attribute filtering and full-text search.
 
-🔗 Read more: https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/</description>
-      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/</guid>
-      <pubDate>Thu, 01 Oct 2026 11:13:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49920234</comments>
+🔗 Read more: https://turbopuffer.com/blog/rip-vector-database</description>
+      <guid isPermaLink="true">https://turbopuffer.com/blog/rip-vector-database</guid>
+      <pubDate>Thu, 01 Oct 2026 16:01:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49923466</comments>
     </item>
     <item>
-      <title>Truemetrics (YC S23) Is Hiring a GTM Founder's Associate</title>
-      <link>https://www.ycombinator.com/companies/truemetrics/jobs/THLEzXI-gtm-founder-s-associate</link>
-      <description>📝 You'll work directly with the two founders. This is a founders’ associate role, working directly with the founders - no layer in between. Ingo contributes 10 years of engineering and entrepreneurial experience, along with a successful exit.
-
-🔗 Read more: https://www.ycombinator.com/companies/truemetrics/jobs/THLEzXI-gtm-founder-s-associate</description>
-      <guid isPermaLink="true">https://www.ycombinator.com/companies/truemetrics/jobs/THLEzXI-gtm-founder-s-associate</guid>
-      <pubDate>Thu, 01 Oct 2026 09:48:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49919680</comments>
+      <title>Oxygen-deprived underwater zones may not be "dead zones" but clue to early life</title>
+      <link>https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570</link>
+      <guid isPermaLink="true">https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570</guid>
+      <pubDate>Thu, 01 Oct 2026 19:03:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49925742</comments>
     </item>
     <item>
-      <title>Multi-connectivity for real-time streaming over Wi-Fi</title>
-      <link>https://nanoping.com/benchmarks/wifi-roaming</link>
-      <description>📝 The lines from the laptop show how much of the video NanoPing was sending over each network. Middle: the share of each second’s video that NanoPing sent over each network. NanoPing: every video packet, fr.
+      <title>Bez: Generating a browser engine from specs and tests</title>
+      <link>https://tangled.org/burrito.space/bez</link>
+      <description>📝 Once the pipeline exists, each extra engine costs very little. The default build is a complete engine. Which rules the engine actually calls: roadmap.
 
-🔗 Read more: https://nanoping.com/benchmarks/wifi-roaming</description>
-      <guid isPermaLink="true">https://nanoping.com/benchmarks/wifi-roaming</guid>
-      <pubDate>Wed, 30 Sep 2026 13:11:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49908449</comments>
+🔗 Read more: https://tangled.org/burrito.space/bez</description>
+      <guid isPermaLink="true">https://tangled.org/burrito.space/bez</guid>
+      <pubDate>Thu, 01 Oct 2026 18:08:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49925036</comments>
+    </item>
+    <item>
+      <title>Ask HN: Who is hiring? (October 2026)</title>
+      <link>https://news.ycombinator.com/item?id=49922569</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49922569</guid>
+      <pubDate>Thu, 01 Oct 2026 15:02:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922569</comments>
+    </item>
+    <item>
+      <title>RacketCon Is Saturday</title>
+      <link>https://con.racket-lang.org/</link>
+      <description>📝 To alleviate the burden of annotation, Typed Racket also supports local type inference. Problems arise, however, when a Typed Racket program imports a macro from a Racket module that expands to complex code containing lambda expressions. As a result, programmers often have to rewrite macros in Typed Racket.
+
+🔗 Read more: https://con.racket-lang.org/</description>
+      <guid isPermaLink="true">https://con.racket-lang.org/</guid>
+      <pubDate>Thu, 01 Oct 2026 14:58:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922515</comments>
+    </item>
+    <item>
+      <title>Cloudflare K2: serverless event streams</title>
+      <link>https://blog.cloudflare.com/cloudflare-k2-streams/</link>
+      <description>📝 If your producers send too much data for your consumers to handle or if your consumers or downstream services become unavailable, events are dropped. This problem is compounded with multiple consumers that need to independently process the data. Object storage systems like R2 combine extremely durable storage (11 9s.
+
+🔗 Read more: https://blog.cloudflare.com/cloudflare-k2-streams/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/cloudflare-k2-streams/</guid>
+      <pubDate>Thu, 01 Oct 2026 14:09:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49921923</comments>
+    </item>
+    <item>
+      <title>Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers</title>
+      <link>https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/</link>
+      <description>📝 This means that the SDR will only work as a spectrum analyzer, and demodulating or decoding continuous radio data is not possible with just an ESP32. Furthermore, ESPARGOS notes that phase-coherent IQ sample capture is now possible with their hardware. eSpDR ESP32 80 MHz output to SDR++TweetShareRedditVoteEmail Related posts: ESPARGOS: An ESP32 Phased Array for Seeing WiFi ESP32-Div: An ESP32 Based Swiss Army Knife for Wireless Networks rtl_433 ported to ESP32 microcontrollers with CC1101 or SX127X Transceiver Chips ESP32 Bus Pirate: Turn your ESP32 into a Multi-Purpose Hacker Tool ESP32 Bus Pirate: Update Brings Waterfall Displays, Cellular Modem Support and External Radio Expander.
+
+🔗 Read more: https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/</description>
+      <guid isPermaLink="true">https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/</guid>
+      <pubDate>Thu, 01 Oct 2026 15:07:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922674</comments>
+    </item>
+    <item>
+      <title>Ask HN: Who wants to be hired? (October 2026)</title>
+      <link>https://news.ycombinator.com/item?id=49922568</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49922568</guid>
+      <pubDate>Thu, 01 Oct 2026 15:02:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922568</comments>
+    </item>
+    <item>
+      <title>Context Language Models</title>
+      <link>https://arxiv.org/abs/2609.37725</link>
+      <description>📝 ) Litmaps Toggle Litmaps (What is Litmaps. ) DagsHub Toggle DagsHub (What is DagsHub. ) ScienceCast Toggle ScienceCast (What is ScienceCast.
+
+🔗 Read more: https://arxiv.org/abs/2609.37725</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2609.37725</guid>
+      <pubDate>Thu, 01 Oct 2026 14:51:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922437</comments>
+    </item>
+    <item>
+      <title>Lightweight PDF parser with layout, tables, formulas and bounding boxes</title>
+      <link>https://github.com/beatrizalmeidaf/papero-pdf-text-extractor</link>
+      <description>📝 csv # tables only papero-extract extract paper. batch import run_batch from papero_extract. chunks import chunk_document from papero_extract.
+
+🔗 Read more: https://github.com/beatrizalmeidaf/papero-pdf-text-extractor</description>
+      <guid isPermaLink="true">https://github.com/beatrizalmeidaf/papero-pdf-text-extractor</guid>
+      <pubDate>Thu, 01 Oct 2026 16:14:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49923638</comments>
+    </item>
+    <item>
+      <title>How to speed up the Rust compiler in September 2026</title>
+      <link>https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html</link>
+      <description>📝 This gave a mean cycle count reduction of 1. This gave mostly sub-1% instruction count reductions across a number of benchmarks. This gave an enormous ~30% wall-time reduction for a check build of this crate.
+
+🔗 Read more: https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html</description>
+      <guid isPermaLink="true">https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html</guid>
+      <pubDate>Thu, 01 Oct 2026 12:44:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49920896</comments>
+    </item>
+    <item>
+      <title>Polyedergarten: Garden of Paper Polyhedron Models</title>
+      <link>https://www.polyedergarten.de/e_index.htm</link>
+      <description>📝 Polyedergarten - Paper models of Polyhedra, Platonic, Archimedean, Uniform Polyedergarten Willkommen l Welcome l Bienvenue to my Polyedergarten Bitte wähle Deine Sprache l Please choose your language l Choisissez votre langue s. This page was created with Ulli Meybohm's HTML EDITOR Phase 5 site notice privacy policy copyright: U. Udo Ringeisen took the fine photos, the other ones I took myself.
+
+🔗 Read more: https://www.polyedergarten.de/e_index.htm</description>
+      <guid isPermaLink="true">https://www.polyedergarten.de/e_index.htm</guid>
+      <pubDate>Thu, 01 Oct 2026 15:02:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922594</comments>
+    </item>
+    <item>
+      <title>ParadeDB Search Performance Improvements</title>
+      <link>https://www.paradedb.com/blog/opening-a-closed-tin</link>
+      <description>📝 Their launch post reported impressive performance wins over a subset of ParadeDB’s text search functionality, specifically BM25-ranked text search and document counts. TIN’s post claims that their performance is due to a fundamental architectural difference that uses Postgres’ internal ctid fields as document identifiers. Postgres identifies its rows by ctid values.
+
+🔗 Read more: https://www.paradedb.com/blog/opening-a-closed-tin</description>
+      <guid isPermaLink="true">https://www.paradedb.com/blog/opening-a-closed-tin</guid>
+      <pubDate>Thu, 01 Oct 2026 17:05:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49924275</comments>
+    </item>
+    <item>
+      <title>Identity Management for Agentic AI [pdf] (2025)</title>
+      <link>https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf</link>
+      <description>📝 �������`_0g��/����( �:��9� �9�@�G{&gt;�N`��`�F R�9��WC�/�d&lt;&amp;��͹�. PageNumber 1 /Resources &lt;&lt; /ColorSpace &lt;&lt; /C1 562 0 R &gt;&gt; /ExtGState &lt;&lt; /E1 &lt;&lt; /SMask &lt;&lt; /G 274 0 R /S /Alpha /Type /Mask &gt;&gt; /Type /ExtGState &gt;&gt; &gt;&gt; /XObject &lt;&lt; /X1 273 0 R &gt;&gt; &gt;&gt; /Subtype /Form /Type /XObject /Length 38 /Filter /FlateDecode &gt;&gt; stream x��w6Tp��R��\�\��� ��\��. �\�\t� endstream endobj 272 0 obj &lt;&lt; /Filter /FlateDecode /Length 65 &gt;&gt; stream x�3T0BC=C#S]=sc��\�B.
+
+🔗 Read more: https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf</description>
+      <guid isPermaLink="true">https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf</guid>
+      <pubDate>Thu, 01 Oct 2026 15:11:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922736</comments>
+    </item>
+    <item>
+      <title>How to set up SPF, DKIM, and DMARC for your sending domain</title>
+      <link>https://mailfully.com/blog/spf-dkim-dmarc-setup</link>
+      <description>📝 What you're setting upWhen your message arrives, the receiving mail server asks three questions. The diagram below follows one message from your email provider to the receiving server. Notice that each check reads a different domain from the same message.
+
+🔗 Read more: https://mailfully.com/blog/spf-dkim-dmarc-setup</description>
+      <guid isPermaLink="true">https://mailfully.com/blog/spf-dkim-dmarc-setup</guid>
+      <pubDate>Thu, 01 Oct 2026 14:33:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922212</comments>
+    </item>
+    <item>
+      <title>Red Hat being phased out of existence?</title>
+      <link>https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml</link>
+      <description>📝 And I’m excited about what comes next. It's "fake work", just like slop. Some receive money to leave 'voluntarily'.
+
+🔗 Read more: https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml</description>
+      <guid isPermaLink="true">https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml</guid>
+      <pubDate>Thu, 01 Oct 2026 15:33:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49923056</comments>
+    </item>
+    <item>
+      <title>Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026</title>
+      <link>https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026</link>
+      <description>📝 Thursday, October 1st 2026 Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026 by DrUsmanSaleem Today, 05:26 Discuss (39 Comments) Micron CEO Sanjay Mehrotra says memory and storage supply will likely be much tighter in 2027 and 2028 than it was in 2026. Here's what he said:Industry demand has strengthened since our last earnings call, and we expect memory and storage supply-demand conditions to be much tighter in fiscal 2027 and 2028 than they were in 2026. In June, Micron CEO said they expected industry supply to improve gradually in 2028, but couldn't predict when supply would catch up with demand.
+
+🔗 Read more: https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026</description>
+      <guid isPermaLink="true">https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026</guid>
+      <pubDate>Thu, 01 Oct 2026 12:48:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49920932</comments>
+    </item>
+    <item>
+      <title>Figma restricts MCP access to whitelisted clients, excluding Pi</title>
+      <link>https://twitter.com/GayaniFigma/status/2105295629941350454</link>
+      <description>📝 Gayani @ Figma@GayaniFigmaHey David, Gayani here from Figma. You can see the current list in our MCP catalog at figma. Figma MCP Catalog | FigmaFrom figma.
+
+🔗 Read more: https://twitter.com/GayaniFigma/status/2105295629941350454</description>
+      <guid isPermaLink="true">https://twitter.com/GayaniFigma/status/2105295629941350454</guid>
+      <pubDate>Thu, 01 Oct 2026 15:10:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922729</comments>
+    </item>
+    <item>
+      <title>Cops Can Bypass iPhone's Automatic Reboot to Get into Locked Phones</title>
+      <link>https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/</link>
+      <description>📝 A company that makes phone hacking devices claims to have developed a solution that freezes iPhones in a state that lets cops more easily access sensitive data inside them, according to a video obtained by 404 Media. “We're gonna be able to preserve that data for an infinite amount of time. Once initial access is gained and the device is in a preserved state, we also disable all of those radios to make sure that that data cannot reach that device.
+
+🔗 Read more: https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/</description>
+      <guid isPermaLink="true">https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/</guid>
+      <pubDate>Thu, 01 Oct 2026 14:38:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49922278</comments>
+    </item>
+    <item>
+      <title>FTC is investigating OpenAI, Anthropic and other AI companies over product risks</title>
+      <link>https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html</link>
+      <description>📝 The probe adds to the mounting scrutiny that OpenAI and Anthropic have been facing over their safety practices. An FTC spokesperson declined to name any other companies that are being investigated. The FTC spokesperson declined to name any other companies that are being investigated.
+
+🔗 Read more: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html</guid>
+      <pubDate>Thu, 01 Oct 2026 13:00:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49921050</comments>
     </item>
   </channel>
 </rss>
