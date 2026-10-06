@@ -6,172 +6,129 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 05 Oct 2026 21:52:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 05:03:03 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Beam: Reflection's 501B open-weight model</title>
-      <link>https://reflection.ai/blog/introducing-beam</link>
-      <description>📝 Together, these efforts produced competitive open-weight performance with frontier inference compute efficiency. Model CapabilityWe trained Beam with a particular focus on coding and agentic performance. 8-Max, which require significantly more inference compute per token.
+      <title>Why Common Lisp is now the best programming language</title>
+      <link>https://www.vivienhenz.com/common-lisp</link>
+      <description>📝 And it’s actually Common Lisp especially now that LLMs can write code. Also, in most languages an error will crash your program. So with Common Lisp that happens less often.
 
-🔗 Read more: https://reflection.ai/blog/introducing-beam</description>
-      <guid isPermaLink="true">https://reflection.ai/blog/introducing-beam</guid>
-      <pubDate>Mon, 05 Oct 2026 19:16:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49969183</comments>
+🔗 Read more: https://www.vivienhenz.com/common-lisp</description>
+      <guid isPermaLink="true">https://www.vivienhenz.com/common-lisp</guid>
+      <pubDate>Tue, 06 Oct 2026 02:51:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49973598</comments>
     </item>
     <item>
-      <title>Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates</title>
-      <link>https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors</link>
-      <description>📝 Spintronics We use spin for storage. Ordinary antiferromagnets, however, cannot distinguish up/down electrons. Here the electrons of the same energy level will instead have mixed spins.
+      <title>Find the flattest route between any two points in SF</title>
+      <link>https://flattensf.com/</link>
+      <description>📝 Flatten SF by Drew Edwards Flatten SF flat routes across San Francisco From ⇅ To Walk Bike Copy link ShortestFlattest distance climbing steepest How this works Routes are computed in your browser over 160,000 street segments, using USGS 1 m lidar elevation and the Overture / OpenStreetMap street graph. Sliding right never shortens the route and never adds climbing. Faint lines show the other routes along the way.
 
-🔗 Read more: https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors</description>
-      <guid isPermaLink="true">https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors</guid>
-      <pubDate>Mon, 05 Oct 2026 21:00:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49970667</comments>
+🔗 Read more: https://flattensf.com/</description>
+      <guid isPermaLink="true">https://flattensf.com/</guid>
+      <pubDate>Mon, 05 Oct 2026 21:40:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49971230</comments>
     </item>
     <item>
-      <title>Dust: Pretraining Transformers Without Backpropagation</title>
-      <link>https://qlabs.sh/research/dust</link>
-      <description>📝 Dust approximates backprop closely at large population (i. ) is that general methods that scale with compute eventually win, and AlphaGo Zero (Silver et al. In this paper, we aim to replace backprop with a learning algorithm based much more on brute-force computation and much less on analytic structure.
+      <title>Example.com just launched the biggest redesign in decades</title>
+      <link>https://www.debugbear.com/blog/example-dot-com-redesign-history</link>
+      <description>📝 Until 28 September 2026, example. org top-level domains (TLDs), various domain names are reserved. July 29, 2013: migration and landing page redesign From January 2011, example.
 
-🔗 Read more: https://qlabs.sh/research/dust</description>
-      <guid isPermaLink="true">https://qlabs.sh/research/dust</guid>
-      <pubDate>Mon, 05 Oct 2026 21:15:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49970871</comments>
+🔗 Read more: https://www.debugbear.com/blog/example-dot-com-redesign-history</description>
+      <guid isPermaLink="true">https://www.debugbear.com/blog/example-dot-com-redesign-history</guid>
+      <pubDate>Mon, 05 Oct 2026 22:55:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49971921</comments>
     </item>
     <item>
-      <title>Making a GTK application in Haskell, part 1</title>
-      <link>https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/</link>
-      <description>📝 The model newtype TodoId = TodoId Word deriving stock (Show) deriving newtype (Eq, Ord) data Todo = Todo { id :: TodoId , title :: Text , done :: Bool } deriving stock (Eq, Show) data Model = Model { todos :: Map TodoId Todo , nextId :: TodoId } deriving stock (Eq, Show) -- In our case, the effect here represents -- saving the todo-list on disk. data Effect = Save [Todo] deriving stock (Eq, Show) init :: Model init = Model { todos = Map. Updating the model update :: Message -&gt; Model -&gt; (Model, [Effect]) update message model = case message of Add raw -&gt; let text = Text.
+      <title>Friendship ended with Deno, now Node is my best friend</title>
+      <link>https://dbushell.com/2026/10/03/deno-to-node/</link>
+      <description>📝 I heard Fast Node Manager (FNM) was better to switch Node versions. Not many Node versions ago this would have required a major refactor. serve with Hono’s node adapter (a wrapper around node:http).
 
-🔗 Read more: https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/</description>
-      <guid isPermaLink="true">https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/</guid>
-      <pubDate>Mon, 05 Oct 2026 14:23:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49965308</comments>
+🔗 Read more: https://dbushell.com/2026/10/03/deno-to-node/</description>
+      <guid isPermaLink="true">https://dbushell.com/2026/10/03/deno-to-node/</guid>
+      <pubDate>Mon, 05 Oct 2026 22:30:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49971719</comments>
     </item>
     <item>
-      <title>Incident with Actions</title>
-      <link>https://www.githubstatus.com/incidents/3q1yb5m7ltvb</link>
-      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+      <title>AI tutoring with Khanmigo in a two-year school experiment</title>
+      <link>https://edworkingpapers.com/ai26-1551</link>
+      <description>📝 14 standard deviations. Messages that students did send were mostly bare answers or clicks on suggested prompts. Keywords Artificial intelligence; AI tutoring; Khanmigo; computer-assisted learning; educational technology; field experiment; math achievement; student engagement; response to intervention Education level K-12 Education Topics Student Learning Tags Generative artificial intelligence (AI) in education, Student engagement, Tutoring Download 08/2026 Document Object Identifier (DOI) 10.
 
-🔗 Read more: https://www.githubstatus.com/incidents/3q1yb5m7ltvb</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/incidents/3q1yb5m7ltvb</guid>
-      <pubDate>Mon, 05 Oct 2026 20:09:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49969961</comments>
+🔗 Read more: https://edworkingpapers.com/ai26-1551</description>
+      <guid isPermaLink="true">https://edworkingpapers.com/ai26-1551</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49972419</comments>
     </item>
     <item>
-      <title>The Future of Mathematics</title>
-      <link>https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/</link>
-      <description>📝 The fact that many of us find mathematics aesthetically pleasing doesn’t diminish its practical utility, but rather is explained by it: I expect that the reason that doing mathematics feels so good is that it is the exercise of capacities that are so fundamental to our survival as a species that they are wired into our DNA. ) Can every interesting mathematical question be answered that way. Probably not, and even questions that can may have more interesting and satisfying solutions that invoke novel ideas and insights.
+      <title>ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons</title>
+      <link>https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/</link>
+      <description>📝 A cartoon generated by ChatGPT and signed with Brendan Loper’s signature that was posted to Twitter on August 26, 2026. ” Loper isn’t the only New Yorker cartoonist whose signature has been reproduced by ChatGPT. Not every image came with a signature, and some included pen names that were gibberish.
 
-🔗 Read more: https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/</description>
-      <guid isPermaLink="true">https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/</guid>
-      <pubDate>Mon, 05 Oct 2026 19:22:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49969256</comments>
+🔗 Read more: https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/</description>
+      <guid isPermaLink="true">https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/</guid>
+      <pubDate>Mon, 05 Oct 2026 22:46:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49971846</comments>
     </item>
     <item>
-      <title>Anthropic reported diary entry to police, woman faces felony charge</title>
-      <link>https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html</link>
-      <description>📝 She later said that she uses Anthropic's chatbot like a "diary. Last month, it was reported that OpenAI and Sam Altman are being sued by British Columbia over claims that the company could have prevented a mass shooting in the Canadian province. In June, Florida also sued OpenAI and Altman, alleging that ChatGPT had contributed to real-world harms, including the 2025 Florida State University shooting.
+      <title>Global Solar Atlas: summary of solar power potential globally</title>
+      <link>https://globalsolaratlas.info/</link>
+      <guid isPermaLink="true">https://globalsolaratlas.info/</guid>
+      <pubDate>Mon, 05 Oct 2026 22:37:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49971782</comments>
+    </item>
+    <item>
+      <title>Samon: Designing a Zen Garden Raking Puzzle</title>
+      <link>https://gwern.net/doc/design/2026-10-03-gwern-samon.html</link>
+      <description>📝 The rake lines are the path’s shape: a cell traversed straight gets parallel grooves; a cell where the path turns gets concentric quarter-circles; the cell where the rake was set down gets the groove’s start. “Turns” counts every cell where the stroke changes direction, including leaving through the gate. Garden Valid rakings Par (min.
 
-🔗 Read more: https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html</description>
-      <guid isPermaLink="true">https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html</guid>
-      <pubDate>Mon, 05 Oct 2026 05:37:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49961057</comments>
+🔗 Read more: https://gwern.net/doc/design/2026-10-03-gwern-samon.html</description>
+      <guid isPermaLink="true">https://gwern.net/doc/design/2026-10-03-gwern-samon.html</guid>
+      <pubDate>Mon, 05 Oct 2026 23:35:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49972211</comments>
     </item>
     <item>
-      <title>Linux containers in 500 lines of code (2016)</title>
-      <link>https://blog.lizzie.io/linux-containers-in-500-loc.html</link>
-      <description>📝 I'll go into this more later. But unfortunately compiling the kernel with user namespaces enabled complicates things. =&gt; trying a user namespace.
+      <title>Resurrecting iChat Audio and Video Conferencing</title>
+      <link>https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/</link>
+      <description>📝 That version of iChat works with XMPP (Jabber) servers, so we each set it up with an account on jabb. iChat makes a UDP request to that SNATMAP server to get its own public IP address. Apple's SNATMAP server doesn't respond anymore.
 
-🔗 Read more: https://blog.lizzie.io/linux-containers-in-500-loc.html</description>
-      <guid isPermaLink="true">https://blog.lizzie.io/linux-containers-in-500-loc.html</guid>
-      <pubDate>Mon, 05 Oct 2026 14:09:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49965118</comments>
+🔗 Read more: https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/</description>
+      <guid isPermaLink="true">https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/</guid>
+      <pubDate>Tue, 06 Oct 2026 03:39:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49973878</comments>
     </item>
     <item>
-      <title>Our approach to EU text provenance rules</title>
-      <link>https://openai.com/index/eu-text-provenance/</link>
-      <description>📝 Text watermarking will remain off by default in the API. We’re opening applications to access our text watermark detector. BenchmarkUnwatermarked text (Astra, max)Watermarked text (Astra, max)Artificial Analysis Intelligence Index49.
+      <title>Ephemeral Testing</title>
+      <link>https://lemire.me/blog/2026/10/05/ephemeral-testing/</link>
+      <guid isPermaLink="true">https://lemire.me/blog/2026/10/05/ephemeral-testing/</guid>
+      <pubDate>Mon, 05 Oct 2026 23:06:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49972008</comments>
+    </item>
+    <item>
+      <title>Texas city demands $2M for public records on Flock usage</title>
+      <link>https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/</link>
+      <description>📝 Klein’s Flock abuse—along with another cop’s—was outed after USA Today submitted a public records request that sparked a probe, then his arrest. Consider that the Tribune reported that the state Department of Public Safety has sought help from “the Attorney General’s Office to allow it to withhold the entirety” of Flock data that the Texas Tribune has requested. Flock misuse recently ruled unconstitutional Flock maintains that its automated license plate readers (ALPR) are designed for public safety, while courts have largely agreed that cops can reasonably access Flock databases without infringing Fourth Amendment rights.
 
-🔗 Read more: https://openai.com/index/eu-text-provenance/</description>
-      <guid isPermaLink="true">https://openai.com/index/eu-text-provenance/</guid>
-      <pubDate>Mon, 05 Oct 2026 15:38:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49966293</comments>
+🔗 Read more: https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/</description>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/</guid>
+      <pubDate>Mon, 05 Oct 2026 22:05:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49971523</comments>
     </item>
     <item>
-      <title>Qualcomm licenses patents on Huawei’s LogicFolding chip tech</title>
-      <link>https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech</link>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech</guid>
-      <pubDate>Mon, 05 Oct 2026 07:46:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49961861</comments>
-    </item>
-    <item>
-      <title>The lamps in my house</title>
-      <link>https://arslan.io/2026/10/05/the-lamps-in-my-house/</link>
-      <description>📝 IKEA and many other companies have made lamps that look very similar. Akari 16AThis was the first Akari I bought. Akari 75AThe Akari 75A is the biggest lamp in my house.
+      <title>High Diesel Prices Bankrupted 16 Trucking Companies in Just 30 Days</title>
+      <link>https://www.thedrive.com/news/high-diesel-prices-bankrupted-16-trucking-companies-in-just-30-days</link>
+      <description>📝 Some were small, single-operator outfits. Others were larger, operating dozens of vehicles. One outfit that filed for Chap.
 
-🔗 Read more: https://arslan.io/2026/10/05/the-lamps-in-my-house/</description>
-      <guid isPermaLink="true">https://arslan.io/2026/10/05/the-lamps-in-my-house/</guid>
-      <pubDate>Mon, 05 Oct 2026 14:12:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49965152</comments>
+🔗 Read more: https://www.thedrive.com/news/high-diesel-prices-bankrupted-16-trucking-companies-in-just-30-days</description>
+      <guid isPermaLink="true">https://www.thedrive.com/news/high-diesel-prices-bankrupted-16-trucking-companies-in-just-30-days</guid>
+      <pubDate>Tue, 06 Oct 2026 00:24:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49972607</comments>
     </item>
     <item>
-      <title>WSL containers is now generally available</title>
-      <link>https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/</link>
-      <description>📝 Here are a few highlights, and you can view the full change logs on our releases page: wslc container restart — restart a running container wslc container cp — copy files in and out via tar archive wslc system info — see the state of your container environment at a glance wslc network connect and wslc network disconnect — attach and detach containers from networks wslc network create now supports arbitrary network driver options wslc events – Streams real time container activity Container health checks are now supported --stop-timeout on wslc create and wslc run, including -1 for an infinite timeout --mount support during wslc create and wslc run A configurable storage path for the default wslc session, so you can put your container storage on the drive you want. WSL containers registry allow list – For WSL containers enterprise adoption, organizations need stronger controls over the container images that can be introduced into their environment. VS Code dev container support: Use wslc as your default driver for creating and interacting with VS Code dev containers Aspire: Aspire can use WSL Containers as first-class container runtime VS Code container extension: A popular extension to manage your containers in VS Code, now supports wslc.
-
-🔗 Read more: https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/</description>
-      <guid isPermaLink="true">https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/</guid>
-      <pubDate>Mon, 05 Oct 2026 20:49:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49970507</comments>
-    </item>
-    <item>
-      <title>Norway Eyes Partial Ban of Smart Glasses</title>
-      <link>https://www.barrons.com/news/norway-eyes-partial-ban-of-smart-glasses-e65dc239</link>
-      <guid isPermaLink="true">https://www.barrons.com/news/norway-eyes-partial-ban-of-smart-glasses-e65dc239</guid>
-      <pubDate>Mon, 05 Oct 2026 18:15:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49968402</comments>
-    </item>
-    <item>
-      <title>A third way of using Linux</title>
-      <link>https://hisvirusness.com/third-is-the-way</link>
-      <description>📝 What we've never seen is a unifying system that treated the TUI itself as the primary user experience. Users are now urging devs to optimize their applications and are largely working with what they have, because you never know when your memory could start to fail. However, they are still GUIs, not true text mode.
-
-🔗 Read more: https://hisvirusness.com/third-is-the-way</description>
-      <guid isPermaLink="true">https://hisvirusness.com/third-is-the-way</guid>
-      <pubDate>Mon, 05 Oct 2026 20:17:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49970073</comments>
-    </item>
-    <item>
-      <title>2026 Nobel Prize in Physiology or Medicine: Deisseroth, Hegemann, Nagel</title>
-      <link>https://www.nobelprize.org/prizes/medicine/2026/summary/</link>
-      <description>📝 Niklas Elmehed © Nobel Prize Outreach Karl Deisseroth Prize share: 1/3 Ill. Niklas Elmehed © Nobel Prize Outreach Peter Hegemann Prize share: 1/3 Ill. Niklas Elmehed © Nobel Prize Outreach Georg Nagel Prize share: 1/3 The Nobel Prize in Physiology or Medicine 2026 was awarded jointly to Karl Deisseroth, Peter Hegemann and Georg Nagel "for their discoveries concerning light-gated ion channels and optogenetics.
-
-🔗 Read more: https://www.nobelprize.org/prizes/medicine/2026/summary/</description>
-      <guid isPermaLink="true">https://www.nobelprize.org/prizes/medicine/2026/summary/</guid>
-      <pubDate>Mon, 05 Oct 2026 09:33:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49962572</comments>
-    </item>
-    <item>
-      <title>After bankruptcy, he was banned from sports betting sites. Then he found Kalshi</title>
-      <link>https://www.npr.org/2026/10/02/nx-s1-5981420/kalshi-betting-prediction-markets-gambling-addiction</link>
-      <description>📝 After bankruptcy, he was banned from sports betting sites. "But sports gambling was different. "Some have also self-excluded from sportsbooks and then fell into prediction markets.
-
-🔗 Read more: https://www.npr.org/2026/10/02/nx-s1-5981420/kalshi-betting-prediction-markets-gambling-addiction</description>
-      <guid isPermaLink="true">https://www.npr.org/2026/10/02/nx-s1-5981420/kalshi-betting-prediction-markets-gambling-addiction</guid>
-      <pubDate>Mon, 05 Oct 2026 19:30:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49969375</comments>
-    </item>
-    <item>
-      <title>Greenvolt begins building 600 MW/2.4 GWh BESS in Poland</title>
-      <link>https://www.ess-news.com/2026/09/25/greenvolt-begins-building-600-mw-2-4-gwh-bess-in-poland/</link>
-      <description>📝 4 GWh battery energy storage system (BESS) in Poland, with commercial operations targeted for the end of 2027. BYD Energy Storage will supply the battery technology. Brian Publicover Jul 30, 2026 View article Projects &amp; Applications Greenvolt opens 200 MW battery storage plant in Poland Greenvol.
-
-🔗 Read more: https://www.ess-news.com/2026/09/25/greenvolt-begins-building-600-mw-2-4-gwh-bess-in-poland/</description>
-      <guid isPermaLink="true">https://www.ess-news.com/2026/09/25/greenvolt-begins-building-600-mw-2-4-gwh-bess-in-poland/</guid>
-      <pubDate>Mon, 05 Oct 2026 18:38:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=49968708</comments>
+      <title>Photopea creator weighs in on Photosuite project</title>
+      <link>https://github.com/eolix/photosuite/issues/77</link>
+      <guid isPermaLink="true">https://github.com/eolix/photosuite/issues/77</guid>
+      <pubDate>Tue, 06 Oct 2026 00:41:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=49972730</comments>
     </item>
   </channel>
 </rss>
