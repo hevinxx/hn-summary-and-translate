@@ -6,108 +6,222 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Oct 2026 10:17:31 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 20:59:06 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Type-safe HTML templating in Zig</title>
-      <link>https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html</link>
-      <description>📝 I’ve dealt with dynamic languages enough in my life, and I don’t want to deal with runtime template errors anymore. User; const pages = @import("templates/pages. What I like the most is that template errors are just Zig compiler errors.
+      <title>Codex CLI installs a persistent, self-updating background daemon by default</title>
+      <link>https://github.com/openai/codex/issues/48195</link>
+      <description>📝 0, just opening an interactive codex session: Starts a persistent background daemon (codex app-server --managed-daemon). It runs in its own session with no TTY and keeps running after every Codex window is closed (reparented to PID 1) until codex app-server daemon stop or a reboot. Workaround I'm using: codex features disable daemon_auto_start codex app-server daemon stop pkill -f 'app-server daemon pid-update-loop' # not stopped by `daemon stop` rm -rf ~/.
 
-🔗 Read more: https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html</description>
-      <guid isPermaLink="true">https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html</guid>
-      <pubDate>Mon, 12 Oct 2026 05:02:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50051573</comments>
+🔗 Read more: https://github.com/openai/codex/issues/48195</description>
+      <guid isPermaLink="true">https://github.com/openai/codex/issues/48195</guid>
+      <pubDate>Mon, 12 Oct 2026 18:29:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50060694</comments>
     </item>
     <item>
-      <title>Postgres isn't slow, your storage is</title>
-      <link>https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is</link>
-      <description>📝 3-billion-row PostgreSQL workload on baseline gp3 EBS and local NVMe. Inconsistent read latency. The benchmark: Local NVMe vs.
-
-🔗 Read more: https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is</description>
-      <guid isPermaLink="true">https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is</guid>
-      <pubDate>Mon, 12 Oct 2026 06:36:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50052163</comments>
+      <title>GLM-Legal</title>
+      <link>https://z.ai/blog/glm-legal</link>
+      <guid isPermaLink="true">https://z.ai/blog/glm-legal</guid>
+      <pubDate>Mon, 12 Oct 2026 16:11:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50058507</comments>
     </item>
     <item>
-      <title>Running the unmodified Linux amdgpu driver on an iPad</title>
-      <link>https://github.com/Geramy/LemonSeed-Studio</link>
-      <description>📝 LemonSeed Studio is a single iPad app. Layout third_party/mac_linuxgpu GPU driver (submodule) third_party/LSE inference engine (submodule) third_party/amdgpu_mtopg GPU monitor (submodule) Getting the source git clone --recurse-submodules &lt;repository&gt; Or, in an existing clone: git submodule update --init mac_linuxgpu fetches its own pinned Linux sources sparsely on first build, so its nested kernel submodule does not need to be cloned recursively. Bundled and submodule components keep their own licenses; see THIRD_PARTY.
+      <title>A Modern Web App in C</title>
+      <link>https://prophitt.me/writing/a-modern-web-app-in-c</link>
+      <description>📝 There's no separate database server. CGI gives you a single web server that calls your business logic directly. Vim ships with native sup.
 
-🔗 Read more: https://github.com/Geramy/LemonSeed-Studio</description>
-      <guid isPermaLink="true">https://github.com/Geramy/LemonSeed-Studio</guid>
-      <pubDate>Sun, 11 Oct 2026 10:18:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50041573</comments>
+🔗 Read more: https://prophitt.me/writing/a-modern-web-app-in-c</description>
+      <guid isPermaLink="true">https://prophitt.me/writing/a-modern-web-app-in-c</guid>
+      <pubDate>Mon, 12 Oct 2026 16:13:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50058528</comments>
     </item>
     <item>
-      <title>Fable Took My Job</title>
-      <link>https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html</link>
-      <description>📝 These models lack the taste that makes for effective product decision making. And, I agree with Shopify. What they have done is convince those with money to spend differently on their fellow humans.
+      <title>AI coding agents generate more code, but not more software</title>
+      <link>https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/</link>
+      <description>📝 But all that extra code doesn’t translate directly into improved software output on the firm level. The reason for that discrepancy can be found directly in the code review process, which takes markedly longer on average after the introduction of AI coding agents. Credit: Chen and Stratton While AI could also theoretically help with this review process, the researchers found that, so far, that impact has been marginal.
 
-🔗 Read more: https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html</description>
-      <guid isPermaLink="true">https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html</guid>
-      <pubDate>Mon, 12 Oct 2026 08:30:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50053216</comments>
+🔗 Read more: https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/</description>
+      <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/</guid>
+      <pubDate>Mon, 12 Oct 2026 17:14:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50059523</comments>
     </item>
     <item>
-      <title>Show HN: PS2 games statically recompiled to WebAssembly</title>
-      <link>https://github.com/snuri00/ps2-web-recomp</link>
-      <description>📝 The game's Emotion Engine machine code is translated ahead of time into C++, compiled to WebAssembly, and linked against a reimplementation of the PS2's operating system and hardware that draws with WebGPU. Most of a PS2 game's 3D work happens in microprograms the game uploads to vector unit 1. Lessons from making it fast The first race ran at 3 frames per second natively, with a software rasterizer and an interpreter for vector unit 1.
-
-🔗 Read more: https://github.com/snuri00/ps2-web-recomp</description>
-      <guid isPermaLink="true">https://github.com/snuri00/ps2-web-recomp</guid>
-      <pubDate>Mon, 12 Oct 2026 06:46:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50052251</comments>
+      <title>Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents</title>
+      <link>https://news.ycombinator.com/item?id=50059096</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=50059096</guid>
+      <pubDate>Mon, 12 Oct 2026 16:46:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50059096</comments>
     </item>
     <item>
-      <title>Zod 4.6.6 compromised by malware?</title>
-      <link>https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467</link>
-      <description>📝 json+1-1Lines changed: 1 addition &amp; 1 deletionOriginal file line numberDiff line numberDiff line change@@ -1,6 +1,6 @@11{22 "name": "@zod/mini",3- "version": "4. json+3-1Lines changed: 3 additions &amp; 1 deletionOriginal file line numberDiff line numberDiff line change@@ -1,6 +1,6 @@11{22 "name": "@zod/mini",3- "version": "4. json+1-1Lines changed: 1 addition &amp; 1 deletionOriginal file line numberDiff line numberDiff line change@@ -1,6 +1,6 @@11{22 "name": "@zod/zod",3- "version": "4.
+      <title>Hackers activate automatic defrosting in supermarket fridges across Europe</title>
+      <link>https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident</link>
+      <description>📝 Electronic shelf labels have also been compromised, disrupting in-store pricing. Reply Another case of something that shouldn't be online. /s Reply This should be a (late) wake-up call to those that have not been paying attention.
 
-🔗 Read more: https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467</description>
-      <guid isPermaLink="true">https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467</guid>
-      <pubDate>Mon, 12 Oct 2026 07:47:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50052814</comments>
+🔗 Read more: https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident</description>
+      <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident</guid>
+      <pubDate>Mon, 12 Oct 2026 12:16:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50055304</comments>
     </item>
     <item>
-      <title>Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'</title>
-      <link>https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html</link>
-      <description>📝 Key PointsResearch firm New Constructs wrote in a note on Tuesday that Anthropic's IPO would be "the most ridiculous IPO of 2026," posing a historic risk to financial markets. That number has since swelled to $83 billion. However, the firm cited figures that have been reported, including from the New York Times, which reported in September that the company was on pace to generate $100 billion in annualized revenue by the end of 2026.
+      <title>Writing a Demoscene Intro for the ZX Spectrum</title>
+      <link>https://www.markround.com/blog/2026/zx-spectrum-intro</link>
+      <description>📝 There’s something for everyone here. The music from this is burned into my brain. Another cool logo, sine-wave scroller, starfield and boasting text.
 
-🔗 Read more: https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html</description>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html</guid>
-      <pubDate>Mon, 12 Oct 2026 05:03:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50051583</comments>
+🔗 Read more: https://www.markround.com/blog/2026/zx-spectrum-intro</description>
+      <guid isPermaLink="true">https://www.markround.com/blog/2026/zx-spectrum-intro</guid>
+      <pubDate>Mon, 12 Oct 2026 19:40:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50061859</comments>
     </item>
     <item>
-      <title>Doory – Open-Source Canva</title>
-      <link>https://github.com/shaongitbd/doory</link>
-      <description>📝 Every design and upload stays under your control. py seed_gallery # template categories docker compose exec api python manage. py sync_fonts --popular 100 docker compose exec api python manage.
+      <title>Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver</title>
+      <link>https://github.com/h0m3us3r/w1700k-sdr</link>
+      <description>📝 The Stream panel shows the link carrying 9. 75 Gbit/s, half of the slices packed, and every sample transformed. 10/24 9216 # the 10 GbE stream link host/stream/build/w1700k-stream &amp; # the stream, for every consumer on this host host/spectrum/build/w1700k-spectrum --controller "host/bin/w1700k serve" --listen 0.
 
-🔗 Read more: https://github.com/shaongitbd/doory</description>
-      <guid isPermaLink="true">https://github.com/shaongitbd/doory</guid>
-      <pubDate>Mon, 12 Oct 2026 00:48:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50049872</comments>
+🔗 Read more: https://github.com/h0m3us3r/w1700k-sdr</description>
+      <guid isPermaLink="true">https://github.com/h0m3us3r/w1700k-sdr</guid>
+      <pubDate>Mon, 12 Oct 2026 12:41:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50055593</comments>
     </item>
     <item>
-      <title>Local Indexing to reduce tool calling and token usage</title>
-      <link>https://tedhaley.ca/pensieve/</link>
-      <description>📝 In the benchmark below, agents with Pensieve averaged 2. With Pensieve it finds more of them, with fewer tool calls, and costs less per lookup in every repo. Pensieve used 16% fewer tokens.
+      <title>Citroen revives the 2CV for an electric age</title>
+      <link>https://www.bbc.com/news/articles/c620r33plgppo</link>
+      <description>📝 As they face mounting competition from Chinese manufacturers, Citroen and other European brands are exploiting their heritage as a means of selling modern motors. BMW's Minis have always carried styling designed to hark back to the very British original. "Finding new ways to make cars appealing has become more important than ever, at a time when European manufacturers are facing growing competition from Chinese brands.
 
-🔗 Read more: https://tedhaley.ca/pensieve/</description>
-      <guid isPermaLink="true">https://tedhaley.ca/pensieve/</guid>
-      <pubDate>Mon, 12 Oct 2026 00:03:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50049508</comments>
+🔗 Read more: https://www.bbc.com/news/articles/c620r33plgppo</description>
+      <guid isPermaLink="true">https://www.bbc.com/news/articles/c620r33plgppo</guid>
+      <pubDate>Mon, 12 Oct 2026 12:09:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50055220</comments>
     </item>
     <item>
-      <title>Will Linux phones become a viable alternative to the Android/iOS duopoly?</title>
-      <link>https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/</link>
-      <description>📝 Five years ago, it looked like mobile Linux had finally arrived. Plasma Mobile and Phosh were advancing fast as mobile interfaces. The mobile Linux operating systems live on, although they are less visible today.
+      <title>Muse Wonder</title>
+      <link>https://research.meta.ai/blog/muse-wonder</link>
+      <description>📝 MuteResearchers introduce Muse Wonder and discuss its capabilities. Muse Wonder is available today through the Meta Model API and Muse Code, and Muse Wonder Full is available today for Muse Code subscribers. Muse Wonder and Muse Wonder Full deliver frontier coding performance, supporting projects from small applications to complex software.
 
-🔗 Read more: https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/</description>
-      <guid isPermaLink="true">https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/</guid>
-      <pubDate>Mon, 12 Oct 2026 04:54:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50051530</comments>
+🔗 Read more: https://research.meta.ai/blog/muse-wonder</description>
+      <guid isPermaLink="true">https://research.meta.ai/blog/muse-wonder</guid>
+      <pubDate>Mon, 12 Oct 2026 16:48:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50059115</comments>
+    </item>
+    <item>
+      <title>Introducing OpenFatigue</title>
+      <link>https://openfatigue.ai/</link>
+      <description>📝 Our door is always open. ” None of those are open source. Please do not open the claw.
+
+🔗 Read more: https://openfatigue.ai/</description>
+      <guid isPermaLink="true">https://openfatigue.ai/</guid>
+      <pubDate>Mon, 12 Oct 2026 19:08:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50061278</comments>
+    </item>
+    <item>
+      <title>Publishers Killed the Paperback, Then Blamed Readers</title>
+      <link>https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback</link>
+      <description>📝 At that point, the books under that banner were recognizable but lacking the vitality and freshness that had first driven them to national attention in the twentieth century. But when these cheap little books dubbed “mass-market paperbacks” began showing up, they were a hit. America’s Pocket Books launched in 1939 and sold 8.
+
+🔗 Read more: https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback</description>
+      <guid isPermaLink="true">https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback</guid>
+      <pubDate>Mon, 12 Oct 2026 18:27:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50060674</comments>
+    </item>
+    <item>
+      <title>Thinking will become a hobby</title>
+      <link>https://www.spinellis.gr/blog/20261008/?li261008</link>
+      <description>📝 Governments will try to clip AI’s wings through regulation and taxation. My take is that cognitive work will diminish. Machines transformed much of physical activity from necessity into choice; similarly, AI will decouple human thinking from its economic purpose.
+
+🔗 Read more: https://www.spinellis.gr/blog/20261008/?li261008</description>
+      <guid isPermaLink="true">https://www.spinellis.gr/blog/20261008/?li261008</guid>
+      <pubDate>Mon, 12 Oct 2026 16:54:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50059204</comments>
+    </item>
+    <item>
+      <title>Kevin Kelly's 2016 AI Predictions, 10 Years Later</title>
+      <link>https://taylor.town/kk-ai-2026</link>
+      <description>📝 There are so many search companies. ” My prediction: By 2026, Google’s main product will not be search but AI. A cloud that serves AI will obey the same law.
+
+🔗 Read more: https://taylor.town/kk-ai-2026</description>
+      <guid isPermaLink="true">https://taylor.town/kk-ai-2026</guid>
+      <pubDate>Mon, 12 Oct 2026 15:16:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50057668</comments>
+    </item>
+    <item>
+      <title>My Reddit AMA on the Law of Web Scraping</title>
+      <link>https://blog.ericgoldman.org/archives/2026/10/my-reddit-ama-on-the-law-of-web-scraping.htm</link>
+      <description>📝 Some background about me: I am an OG Internet Law expert. I got my first client question about scraping probably around 1997. I routinely test on scraping in my Internet Law course.
+
+🔗 Read more: https://blog.ericgoldman.org/archives/2026/10/my-reddit-ama-on-the-law-of-web-scraping.htm</description>
+      <guid isPermaLink="true">https://blog.ericgoldman.org/archives/2026/10/my-reddit-ama-on-the-law-of-web-scraping.htm</guid>
+      <pubDate>Mon, 12 Oct 2026 18:02:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50060296</comments>
+    </item>
+    <item>
+      <title>Feds got warrants to use fake cell towers to hunt down Don Lemon's producer</title>
+      <link>https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/</link>
+      <description>📝 ”Agents also applied for cell-site simulator warrants targeting the phones of Fort and Jamael Lundy, then a Minnesota State Senate candidate. The records reviewed by WIRED do not establish whether investigators actually deployed a cell-site simulator to locate Richardson or whether judges approved the applications targeting Fort and Lundy. Cell-site simulators impersonate cell phone towers to locate a target’s phone.
+
+🔗 Read more: https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/</description>
+      <guid isPermaLink="true">https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/</guid>
+      <pubDate>Mon, 12 Oct 2026 17:08:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50059446</comments>
+    </item>
+    <item>
+      <title>Epic Games tells employees to use AI to get Disney game done</title>
+      <link>https://www.avclub.com/epic-games-disney-ai-delay</link>
+      <description>📝 By Drew Gillis | October 12, 2026 | 3:31pm Image: Epic Games Games News Epic Games Copy to clipboard × Copy Link Facebook X Reddit Bluesky 0 It seems as though Epic Games has gotten itself in a bit of a pickle. Predictably, this news is not being received especially warmly within the Epic Games staff, which has still been working hard despite losing hundreds of their colleagues. Last week, when the powers that be in the company announced that there would be “No more hand-written code” and that the game will be “generated with full AI workflows,” employees were reportedly “stunned,” which many hoped the news was some kind of sick joke.
+
+🔗 Read more: https://www.avclub.com/epic-games-disney-ai-delay</description>
+      <guid isPermaLink="true">https://www.avclub.com/epic-games-disney-ai-delay</guid>
+      <pubDate>Mon, 12 Oct 2026 20:07:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50062237</comments>
+    </item>
+    <item>
+      <title>QGIS enacts moratorium on AI contributions</title>
+      <link>https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387</link>
+      <description>📝 Sorry, something went wrong. Please reload this page. Please reload this page.
+
+🔗 Read more: https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387</description>
+      <guid isPermaLink="true">https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387</guid>
+      <pubDate>Mon, 12 Oct 2026 11:22:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50054751</comments>
+    </item>
+    <item>
+      <title>I Found a $90k Remote Code Execution Vulnerability in Google</title>
+      <link>https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce</link>
+      <description>📝 Session integrity was gone. seconds,)) Same forged session every time, only the number changed: time. Valid signature, no flow entry: Invalid request state.
+
+🔗 Read more: https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce</description>
+      <guid isPermaLink="true">https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce</guid>
+      <pubDate>Mon, 12 Oct 2026 07:28:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50052638</comments>
+    </item>
+    <item>
+      <title>(Post-Quantum) Cryptographic Right Answers</title>
+      <link>https://words.filippo.io/right-answers/</link>
+      <description>📝 Otherwise, XAES-256-GCM or XChaCha20Poly1305 with random nonces. 256-bit random numbers. Otherwise, XAES-256-GCM or XChaCha20Poly1305 with random nonces.
+
+🔗 Read more: https://words.filippo.io/right-answers/</description>
+      <guid isPermaLink="true">https://words.filippo.io/right-answers/</guid>
+      <pubDate>Mon, 12 Oct 2026 12:26:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50055409</comments>
+    </item>
+    <item>
+      <title>Reverse engineer anything with agents, from app behavior down to native binaries</title>
+      <link>https://github.com/morluto/rea</link>
+      <description>📝 Quick start Set up your agent With Node. Restart your agent afterward. If you use npx, update your agent setup with: npx rea-agents@latest setup Review the setup changes and restart your agent.
+
+🔗 Read more: https://github.com/morluto/rea</description>
+      <guid isPermaLink="true">https://github.com/morluto/rea</guid>
+      <pubDate>Mon, 12 Oct 2026 16:31:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50058850</comments>
+    </item>
+    <item>
+      <title>Incident with Actions, Pull Requests and Issues</title>
+      <link>https://www.githubstatus.com/incidents/93njd414rpbx</link>
+      <description>📝 Resend OTP By subscribing you agree to our Privacy Policy. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+🔗 Read more: https://www.githubstatus.com/incidents/93njd414rpbx</description>
+      <guid isPermaLink="true">https://www.githubstatus.com/incidents/93njd414rpbx</guid>
+      <pubDate>Mon, 12 Oct 2026 12:23:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50055375</comments>
     </item>
   </channel>
 </rss>
