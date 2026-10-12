@@ -6,157 +6,108 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:16:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 10:17:31 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Whatever became of holography? (2011)</title>
-      <link>https://www.americanscientist.org/article/whatever-became-of-holography</link>
-      <guid isPermaLink="true">https://www.americanscientist.org/article/whatever-became-of-holography</guid>
-      <pubDate>Sun, 11 Oct 2026 23:50:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50049411</comments>
-    </item>
-    <item>
-      <title>Cartographers of North Korea</title>
-      <link>https://cartographers-nk.wonyoung.so/</link>
-      <guid isPermaLink="true">https://cartographers-nk.wonyoung.so/</guid>
-      <pubDate>Sun, 11 Oct 2026 19:46:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50047091</comments>
-    </item>
-    <item>
-      <title>Recursive self-improvement through collective intelligence</title>
-      <link>https://pub.sakana.ai/mass/</link>
-      <description>📝 Their judgments are withheld from MASS. MASS uses workflow optimization to elicit collective intelligence, then distills the team's experience into the shared model. The model evaluates and judges for itself which workflow is optimal.
+      <title>Type-safe HTML templating in Zig</title>
+      <link>https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html</link>
+      <description>📝 I’ve dealt with dynamic languages enough in my life, and I don’t want to deal with runtime template errors anymore. User; const pages = @import("templates/pages. What I like the most is that template errors are just Zig compiler errors.
 
-🔗 Read more: https://pub.sakana.ai/mass/</description>
-      <guid isPermaLink="true">https://pub.sakana.ai/mass/</guid>
-      <pubDate>Sun, 11 Oct 2026 22:22:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50048522</comments>
+🔗 Read more: https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html</description>
+      <guid isPermaLink="true">https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html</guid>
+      <pubDate>Mon, 12 Oct 2026 05:02:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50051573</comments>
     </item>
     <item>
-      <title>Google Data Centers around the world</title>
-      <link>https://datacenters.google/locations/</link>
-      <description>📝 7400, "inDevelopment": true, "continentFeatured": false, "topicsFeatured":[], "eyebrow": "", "shortDescription": "", "featuredImage": {}, "detailPage": "", "linkText": "", "continent": "Asia", "topics":[], "calloutBlocks":[]},{ "location": "Armstrong County, Texas", "latitude": null, "longitude": null, "inDevelopment": true, "continentFeatured": false, "topicsFeatured":[], "eyebrow": "", "shortDescription": "", "featuredImage": {}, "detailPage": ". /locations/texas/", "linkText": "", "continent": "North America", "topics":[], "calloutBlocks":[]},{ "location": "Berkeley County, South Carolina", "latitude": null, "longitude": null, "inDevelopment": false, "continentFeatured": false, "topicsFeatured":[], "eyebrow": "", "shortDescription": "", "featuredImage": {}, "detailPage": ". /locations/georgia/", "linkText": "", "continent": "North America", "topics":[], "calloutBlocks":[]},{ "location": "Columbus, Ohio", "latitude": null, "longitude": null, "inDevelopment": false, "continentFeatured": false, "topicsFeatured":[], "eyebrow": "", "shortDescription": "", "featuredImage": {}, "detailPage": ".
+      <title>Postgres isn't slow, your storage is</title>
+      <link>https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is</link>
+      <description>📝 3-billion-row PostgreSQL workload on baseline gp3 EBS and local NVMe. Inconsistent read latency. The benchmark: Local NVMe vs.
 
-🔗 Read more: https://datacenters.google/locations/</description>
-      <guid isPermaLink="true">https://datacenters.google/locations/</guid>
-      <pubDate>Sun, 11 Oct 2026 22:45:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50048768</comments>
+🔗 Read more: https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is</description>
+      <guid isPermaLink="true">https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is</guid>
+      <pubDate>Mon, 12 Oct 2026 06:36:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50052163</comments>
     </item>
     <item>
-      <title>The gap in shared understanding of LLM capability is widening</title>
-      <link>https://twitter.com/karpathy/status/2109361546505966046</link>
-      <description>📝 Even many professionals outside of math&amp;code are in this tier. Somewhere around 20M people (0. This aspect primarily drives the area (e.
+      <title>Running the unmodified Linux amdgpu driver on an iPad</title>
+      <link>https://github.com/Geramy/LemonSeed-Studio</link>
+      <description>📝 LemonSeed Studio is a single iPad app. Layout third_party/mac_linuxgpu GPU driver (submodule) third_party/LSE inference engine (submodule) third_party/amdgpu_mtopg GPU monitor (submodule) Getting the source git clone --recurse-submodules &lt;repository&gt; Or, in an existing clone: git submodule update --init mac_linuxgpu fetches its own pinned Linux sources sparsely on first build, so its nested kernel submodule does not need to be cloned recursively. Bundled and submodule components keep their own licenses; see THIRD_PARTY.
 
-🔗 Read more: https://twitter.com/karpathy/status/2109361546505966046</description>
-      <guid isPermaLink="true">https://twitter.com/karpathy/status/2109361546505966046</guid>
-      <pubDate>Sun, 11 Oct 2026 20:20:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50047422</comments>
+🔗 Read more: https://github.com/Geramy/LemonSeed-Studio</description>
+      <guid isPermaLink="true">https://github.com/Geramy/LemonSeed-Studio</guid>
+      <pubDate>Sun, 11 Oct 2026 10:18:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50041573</comments>
     </item>
     <item>
-      <title>Fingerprints Are the New Cookies</title>
-      <link>https://royfish.dev/fingerprints-are-the-new-cookies</link>
-      <description>📝 What does that make you then. That often reveals your location. It’s called farbling and that’s what Brave does to make your fingerprint inconsistent.
+      <title>Fable Took My Job</title>
+      <link>https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html</link>
+      <description>📝 These models lack the taste that makes for effective product decision making. And, I agree with Shopify. What they have done is convince those with money to spend differently on their fellow humans.
 
-🔗 Read more: https://royfish.dev/fingerprints-are-the-new-cookies</description>
-      <guid isPermaLink="true">https://royfish.dev/fingerprints-are-the-new-cookies</guid>
-      <pubDate>Sun, 11 Oct 2026 22:33:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50048642</comments>
+🔗 Read more: https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html</description>
+      <guid isPermaLink="true">https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html</guid>
+      <pubDate>Mon, 12 Oct 2026 08:30:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50053216</comments>
     </item>
     <item>
-      <title>So, You’d Like To Sell Your Print Issues Of The Onion?</title>
-      <link>https://theonion.com/archivehunt/</link>
-      <description>📝 How To Identify Your Issues. Special issues may list the volume &amp; issue numbers as “22-01” instead of “Volume 22 Issue 1”. 21 Issue 12 (1992) Vol.
+      <title>Show HN: PS2 games statically recompiled to WebAssembly</title>
+      <link>https://github.com/snuri00/ps2-web-recomp</link>
+      <description>📝 The game's Emotion Engine machine code is translated ahead of time into C++, compiled to WebAssembly, and linked against a reimplementation of the PS2's operating system and hardware that draws with WebGPU. Most of a PS2 game's 3D work happens in microprograms the game uploads to vector unit 1. Lessons from making it fast The first race ran at 3 frames per second natively, with a software rasterizer and an interpreter for vector unit 1.
 
-🔗 Read more: https://theonion.com/archivehunt/</description>
-      <guid isPermaLink="true">https://theonion.com/archivehunt/</guid>
-      <pubDate>Sun, 11 Oct 2026 19:43:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50047055</comments>
+🔗 Read more: https://github.com/snuri00/ps2-web-recomp</description>
+      <guid isPermaLink="true">https://github.com/snuri00/ps2-web-recomp</guid>
+      <pubDate>Mon, 12 Oct 2026 06:46:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50052251</comments>
     </item>
     <item>
-      <title>Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes</title>
-      <link>https://github.com/plimsollmark/plimsoll</link>
-      <description>📝 plimsoll plimsoll runs untrusted code, such as code an AI agent wrote, inside a sandbox, and every result says how strong that sandbox was. RunJavaScript(ctx, sandbox. Isolation reports the boundary that actually ran.
+      <title>Zod 4.6.6 compromised by malware?</title>
+      <link>https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467</link>
+      <description>📝 json+1-1Lines changed: 1 addition &amp; 1 deletionOriginal file line numberDiff line numberDiff line change@@ -1,6 +1,6 @@11{22 "name": "@zod/mini",3- "version": "4. json+3-1Lines changed: 3 additions &amp; 1 deletionOriginal file line numberDiff line numberDiff line change@@ -1,6 +1,6 @@11{22 "name": "@zod/mini",3- "version": "4. json+1-1Lines changed: 1 addition &amp; 1 deletionOriginal file line numberDiff line numberDiff line change@@ -1,6 +1,6 @@11{22 "name": "@zod/zod",3- "version": "4.
 
-🔗 Read more: https://github.com/plimsollmark/plimsoll</description>
-      <guid isPermaLink="true">https://github.com/plimsollmark/plimsoll</guid>
-      <pubDate>Sun, 11 Oct 2026 23:47:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50049388</comments>
+🔗 Read more: https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467</description>
+      <guid isPermaLink="true">https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467</guid>
+      <pubDate>Mon, 12 Oct 2026 07:47:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50052814</comments>
     </item>
     <item>
-      <title>A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her</title>
-      <link>https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963</link>
-      <guid isPermaLink="true">https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963</guid>
-      <pubDate>Sun, 11 Oct 2026 21:07:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50047825</comments>
-    </item>
-    <item>
-      <title>Ask HN: Do you want a router that has DD-WRT pre-installed?</title>
-      <link>https://news.ycombinator.com/item?id=50039291</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=50039291</guid>
-      <pubDate>Sun, 11 Oct 2026 02:37:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50039291</comments>
-    </item>
-    <item>
-      <title>Governments are mishandling the affordability crisis</title>
-      <link>https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis</link>
-      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis</guid>
-      <pubDate>Sun, 11 Oct 2026 23:40:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50049302</comments>
-    </item>
-    <item>
-      <title>Passkeys are a trap. Do not use them</title>
-      <link>https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them</link>
-      <guid isPermaLink="true">https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them</guid>
-      <pubDate>Sun, 11 Oct 2026 21:59:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50048312</comments>
-    </item>
-    <item>
-      <title>Google is illegaly cutting forest to build data centers</title>
-      <link>https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment</link>
-      <description>📝 Photograph: Alessandro Rampazzo/AFP/Getty ImagesGoogle told to halt work on datacentres in Finland over environmental concernsOrder on two construction sites comes after Google failed to carry out environmental impact assessmentsGoogle has been ordered to temporarily stop work on two datacentres in Finland after failing to carry out the necessary environmental impact assessments on its construction sites. It comes after it emerged that Tuike Finland Oy, the company representing Google, had felled 330 hectares (815 acres) of forest in Muhos without completing an environmental impact assessment (EIA). ”skip past newsletter promotionafter newsletter promotionIs the environmental impact of datacentres finally cutting through.
+      <title>Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'</title>
+      <link>https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html</link>
+      <description>📝 Key PointsResearch firm New Constructs wrote in a note on Tuesday that Anthropic's IPO would be "the most ridiculous IPO of 2026," posing a historic risk to financial markets. That number has since swelled to $83 billion. However, the firm cited figures that have been reported, including from the New York Times, which reported in September that the company was on pace to generate $100 billion in annualized revenue by the end of 2026.
 
-🔗 Read more: https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment</description>
-      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment</guid>
-      <pubDate>Sun, 11 Oct 2026 22:33:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50048638</comments>
+🔗 Read more: https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html</guid>
+      <pubDate>Mon, 12 Oct 2026 05:03:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50051583</comments>
     </item>
     <item>
-      <title>Illustration Beyond Proof</title>
-      <link>https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/</link>
-      <description>📝 AI has broken that scarcity. The Illustrating Mathematics community developed from this tradition of drawing and making mathematical objects. These pictures show mathematics that has not been explored, rather than explaining what is already known.
+      <title>Doory – Open-Source Canva</title>
+      <link>https://github.com/shaongitbd/doory</link>
+      <description>📝 Every design and upload stays under your control. py seed_gallery # template categories docker compose exec api python manage. py sync_fonts --popular 100 docker compose exec api python manage.
 
-🔗 Read more: https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/</description>
-      <guid isPermaLink="true">https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/</guid>
-      <pubDate>Sun, 11 Oct 2026 23:22:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50049133</comments>
+🔗 Read more: https://github.com/shaongitbd/doory</description>
+      <guid isPermaLink="true">https://github.com/shaongitbd/doory</guid>
+      <pubDate>Mon, 12 Oct 2026 00:48:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50049872</comments>
     </item>
     <item>
-      <title>ClickHouse C – Talk to ClickHouse using its native binary protocol</title>
-      <link>https://github.com/ClickHouse/clickhouse-c</link>
-      <description>📝 c -o demo */ #define CHC_PROVIDE_STDLIB_ALLOC #define CHC_IMPLEMENTATION #include "clickhouse. h" #include "clickhouse-posix-io. h" #include "clickhouse-posix-io.
+      <title>Local Indexing to reduce tool calling and token usage</title>
+      <link>https://tedhaley.ca/pensieve/</link>
+      <description>📝 In the benchmark below, agents with Pensieve averaged 2. With Pensieve it finds more of them, with fewer tool calls, and costs less per lookup in every repo. Pensieve used 16% fewer tokens.
 
-🔗 Read more: https://github.com/ClickHouse/clickhouse-c</description>
-      <guid isPermaLink="true">https://github.com/ClickHouse/clickhouse-c</guid>
-      <pubDate>Sun, 11 Oct 2026 23:08:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50049003</comments>
+🔗 Read more: https://tedhaley.ca/pensieve/</description>
+      <guid isPermaLink="true">https://tedhaley.ca/pensieve/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:03:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50049508</comments>
     </item>
     <item>
-      <title>Rubber Duck: An AI interviewer for the knowledge in your head</title>
-      <link>https://rubberduck.talk/sign-in</link>
-      <guid isPermaLink="true">https://rubberduck.talk/sign-in</guid>
-      <pubDate>Sun, 11 Oct 2026 23:01:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50048937</comments>
-    </item>
-    <item>
-      <title>Shredding JSON columns gave Logfire up to 1000x faster queries</title>
-      <link>https://pydantic.dev/articles/dynamic-shredding-2026-01-26</link>
-      <description>📝 Feels basically instant now", says an early access customer This technical blog post details how we achieved this through dynamic shredding, an optimization for querying semi-structured attributes data. #Logfire Data Model OpenTelemetry data (the data that Logfire ingests) is semi-structured data. Some attributes like http.
+      <title>Will Linux phones become a viable alternative to the Android/iOS duopoly?</title>
+      <link>https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/</link>
+      <description>📝 Five years ago, it looked like mobile Linux had finally arrived. Plasma Mobile and Phosh were advancing fast as mobile interfaces. The mobile Linux operating systems live on, although they are less visible today.
 
-🔗 Read more: https://pydantic.dev/articles/dynamic-shredding-2026-01-26</description>
-      <guid isPermaLink="true">https://pydantic.dev/articles/dynamic-shredding-2026-01-26</guid>
-      <pubDate>Sun, 11 Oct 2026 22:18:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50048490</comments>
+🔗 Read more: https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/</description>
+      <guid isPermaLink="true">https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/</guid>
+      <pubDate>Mon, 12 Oct 2026 04:54:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50051530</comments>
     </item>
   </channel>
 </rss>
