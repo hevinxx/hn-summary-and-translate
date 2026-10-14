@@ -6,178 +6,260 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 14 Oct 2026 14:22:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 19:13:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Iosevka は、オープンソースのサンセリフおよびスラブセリフの等幅フォントです。</title>
-      <link>https://typeof.net/Iosevka/</link>
-      <description>📝 競合他社と比較して、同じ画面幅内により多くの列を収めることができます。 Iosevka は、Normal と Extended の 2 つの幅を提供します。キャラクター間の風をもっと楽しみたい場合は、「拡張」を選択してお楽しみください。
+      <title>AI agents aren't 'going rogue.' Frontier labs are skipping security basics</title>
+      <link>https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</link>
+      <description>📝 ’” “You can tell that their security teams are fairly nascent,” Lee says. “Folks on the cybersecurity containment side do argue that the majority of reasons that we’re seeing containment breached is that it’s not set up correctly. ” Divorcing safety from security One barrier to persuading frontier labs to up their security game is the intense focus they have on what they call “safety,” which they don’t extend to traditional cybersecurity practices.
 
-
-🔤 Original: Iosevka is an open-source, sans-serif and slab-serif, monospace font
-
-🔗 Read more: https://typeof.net/Iosevka/</description>
-      <guid isPermaLink="true">https://typeof.net/Iosevka/</guid>
-      <pubDate>Wed, 14 Oct 2026 08:27:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084240</comments>
+🔗 Read more: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</description>
+      <guid isPermaLink="true">https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</guid>
+      <pubDate>Wed, 14 Oct 2026 17:45:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091788</comments>
     </item>
     <item>
-      <title>Pg_vectorsearch: pgvector の IVFFlat および HNSW よりも高速なインデックス</title>
-      <link>https://github.com/timescale/pg_vectorsearch</link>
-      <description>📝 既存の pgvector テーブル。プリズムを使用してアイテムのインデックスを作成します (vec32_l2_ops を埋め込みます)。 -- 0 = auto (~0. CREATE EXTENSION pg_vectorsearch; CREATE INDEX document_embedding_prism ONDocuments USING prism (embedding vec32_l2_ops); -- クエリは以前と同様に機能し続けます。
+      <title>Fire at Starlink site in Bulgaria after suspected sabotage in Poland</title>
+      <link>https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</link>
+      <description>📝 war medtop:20000062 conflict dpasubject:114 internet dpasubject:377 fire medtop:20000150 Bulgaria dpacountry:31 Russia dpacountry:139 Ukraine dpacountry:181 Poland dpacountry:135 updateme dpauserneed:updateme Fire at Starlink site in Bulgaria after suspected sabotage in Poland 14. Pro-Western opposition parties said they suspected Russia was linked to the attack. Sabotage suspectedBulgarian officials stressed that the Starlink facility near Sofia was privately owned.
 
-
-🔤 Original: Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW
-
-🔗 Read more: https://github.com/timescale/pg_vectorsearch</description>
-      <guid isPermaLink="true">https://github.com/timescale/pg_vectorsearch</guid>
-      <pubDate>Wed, 14 Oct 2026 11:47:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086165</comments>
+🔗 Read more: https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</description>
+      <guid isPermaLink="true">https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:37:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092730</comments>
     </item>
     <item>
-      <title>エリック・ビニオンよ、安らかに</title>
-      <link>https://ma.tt/2026/10/rip-eric/</link>
-      <description>📝 言葉があまりないので、数か月前、エリックが化学療法を受けていたときに私のキューブを渡したときに私がエリックに書いたものを共有します。エリックはいつもそうしていたので、ただ戦い抜くだけだ。これを共有します: Tumblr で共有 (新しいウィンドウで開きます) Tumblr X で共有 (新しいウィンドウで開きます) Facebook で共有 (新しいウィンドウで開きます) Facebook LinkedIn で共有 (新しいウィンドウで開きます) LinkedIn Telegram で共有 (新しいウィンドウで開きます) Telegram リンクを友人に電子メールで送信 (新しいウィンドウで開きます) 電子メール関連。
+      <title>Better HTTP/1 connection reuse in Go 1.27</title>
+      <link>https://go.dev/blog/http-connection-reuse</link>
+      <description>📝 Connection reuse To avoid paying this setup cost on every request, HTTP clients and servers try to reuse existing connections across multiple requests when possible. When connection reuse fails In HTTP/1 (both HTTP/1. ) Where failed connection reuse hurts This subtlety of HTTP/1 connection reuse can cause silent performance degradation in seemingly innocuous code.
 
-
-🔤 Original: RIP Eric Binnion
-
-🔗 Read more: https://ma.tt/2026/10/rip-eric/</description>
-      <guid isPermaLink="true">https://ma.tt/2026/10/rip-eric/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:58:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087044</comments>
+🔗 Read more: https://go.dev/blog/http-connection-reuse</description>
+      <guid isPermaLink="true">https://go.dev/blog/http-connection-reuse</guid>
+      <pubDate>Wed, 14 Oct 2026 16:29:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090369</comments>
     </item>
     <item>
-      <title>ESUG 2026 での Pulsar (新しい Smalltalk IDE)</title>
-      <link>https://blog.lorenzano.eu/pulsar-at-esug-2026/</link>
-      <description>📝 Pulsar は、非常に単純なアイデアから生まれました。プログラミング ツールは、プログラマーがシステムを理解し、操作し、変更し、その間コードに近づくのに役立つものでなければなりません。生成ツールは確かに役立ちますが、それらの機能の重要性が低下するとは思いません。むしろ、それらはより重要なものになります。
+      <title>How the Military Will Hack the Election</title>
+      <link>https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</link>
+      <description>📝 But that hasn’t stopped the federal government from designating election security the number one “operational priority” — a mission that insiders are calling “no fail. ”Despite this underground war, the officer questions the growing military involvement in safeguarding voting. ” It was a wholly partisan letter with a predictable dose of Donald Trump this and Donald Trump that.
 
-
-🔤 Original: Pulsar at ESUG 2026 (new Smalltalk IDE)
-
-🔗 Read more: https://blog.lorenzano.eu/pulsar-at-esug-2026/</description>
-      <guid isPermaLink="true">https://blog.lorenzano.eu/pulsar-at-esug-2026/</guid>
-      <pubDate>Wed, 14 Oct 2026 10:26:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085306</comments>
+🔗 Read more: https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</description>
+      <guid isPermaLink="true">https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</guid>
+      <pubDate>Wed, 14 Oct 2026 18:43:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092847</comments>
     </item>
     <item>
-      <title>アマゾンがインターネット全体で価格をつり上げる</title>
-      <link>https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</link>
-      <description>📝 アマゾンは大幅な取り分を得る。彼らは価格を上げなければなりません。 — そうしないと、Amazon での売上を失うリスクがあります。
+      <title>Submarine cable resilience</title>
+      <link>https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</link>
+      <description>📝 ケーブルはケーブル陸揚げ局で浮上します。図 3 — ケーブル陸揚げ局。ケーブルの配線 ケーブルの配線もインポです。
 
-
-🔤 Original: Amazon pushes up prices across the Internet
-
-🔗 Read more: https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</description>
-      <guid isPermaLink="true">https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:28:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084757</comments>
+🔗 Read more: https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</description>
+      <guid isPermaLink="true">https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:31:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50089229</comments>
     </item>
     <item>
-      <title>アーロンソン・オラクル</title>
-      <link>https://aaronsonoracle.com/</link>
-      <description>📝 ハーゲルバーガーは自分のマシンを SEER (SEquence Extrapolating Robot) と呼びました。 3 つの「はい」または「いいえ」の事実から 8 つの状況が考えられ、マシンは 8 つのそれぞれについて、同じプレイがうまくいったかどうかを記憶しました。 2 台のマシンが相互にプレイしたため、どちらのマシンが優れているのか疑問に思う人がいることは必然でした。
+      <title>銀行は現在、引き受けたばかりのAIデータセンターの負債を肩代わりしようとしている</title>
+      <link>https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</link>
+      <description>📝 現在、同じ銀行の一部がその負債を帳簿から帳消しにしようとしている。 CCIRがまとめた債券市場データによると、銀行は自信のある債券を売却しない。その水準はハイパースケーラーがリースする債券の875％だ。
 
 
-🔤 Original: The Aaronson Oracle
+🔤 Original: Banks are now trying to offload the AI data center debt they just underwrote
 
-🔗 Read more: https://aaronsonoracle.com/</description>
-      <guid isPermaLink="true">https://aaronsonoracle.com/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:16:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086484</comments>
+🔗 Read more: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</description>
+      <guid isPermaLink="true">https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:32:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092664</comments>
     </item>
     <item>
-      <title>Show HN: コードに組み込まれたガイド付き 3D レオナルド ダ ヴィンチ博物館</title>
-      <link>https://museumofages.org/w/vinci</link>
-      <description>📝 特定の単語は、文書化されたもの、再構成されたもの、推測されたもの、未知のものを区別します。美術館は絵画ではなく複製にラベルを付けます。レオナルド・ダ・ヴィンチ | レオナルド・ダ・ヴィンチ時代の博物館、デジタル博物館 レオナルド・ダ・ヴィンチ | レオナルド・ダ・ヴィンチ時代の博物館、アイン ディジタル博物館 レオナルド ダ ヴィンチ | レオナルド ダ ヴィンチレオナルド・ダ・ヴィンチ時代の博物館、ヌメリク美術館 | レオナルド・ダ・ヴィンチの博物館レオナルド・ダ・ヴィンチ時代博物館、デジタル博物館 | レオナルド・ダ・ヴィンチレオナルド・ダ・ヴィンチの時代博物館、デジタル博物館レオナルド・ダ・ヴィンチの時代博物館、デジタル博物館時代の博物館、дигитален музей。
+      <title>Neckbeard – エージェント用の DevOps/プラットフォーム/SRE プラグイン</title>
+      <link>https://github.com/bealesh/neckbeard</link>
+      <description>📝 Neckbeard ネックビアードがインフラを処理するので、あなたが行う必要はありません。エージェントがインフラストラクチャを発明することはありません。アプリを読み取り、何が必要かを判断し、それをカタログ入力にマッピングします。これには、アプリが主張するすべての証拠が含まれます。
 
 
-🔤 Original: Show HN: A guided 3D Leonardo da Vinci museum, built in code
+🔤 Original: Neckbeard – a DevOps/platform/SRE plugin for your agent
 
-🔗 Read more: https://museumofages.org/w/vinci</description>
-      <guid isPermaLink="true">https://museumofages.org/w/vinci</guid>
-      <pubDate>Wed, 14 Oct 2026 10:00:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085022</comments>
+🔗 Read more: https://github.com/bealesh/neckbeard</description>
+      <guid isPermaLink="true">https://github.com/bealesh/neckbeard</guid>
+      <pubDate>Wed, 14 Oct 2026 17:45:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091794</comments>
     </item>
     <item>
-      <title>AIエージェントが編集素材を消去した後、TV4が番組を延期</title>
-      <link>https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage</link>
-      <guid isPermaLink="true">https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage</guid>
-      <pubDate>Wed, 14 Oct 2026 10:28:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085323</comments>
+      <title>イランが攻撃を強化、ホルムズ海峡でコンテナ船沈没</title>
+      <link>https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</link>
+      <description>📝 シンガポール海事港湾局によると、船の乗組員21人は安全に避難し、負傷者は報告されていない。シンガポール海事港湾局によると、船の乗組員21人は安全に避難し、負傷者はいなかったという。ホルムズ経由の輸出は平均8件。
+
+
+🔤 Original: Container ship sinks in Strait of Hormuz as Iran steps up attacks
+
+🔗 Read more: https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</guid>
+      <pubDate>Wed, 14 Oct 2026 18:20:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092415</comments>
     </item>
     <item>
-      <title>スイス、未成年者に対するプロファイリングに基づく広告の禁止を提案</title>
-      <link>https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</link>
-      <description>📝 プレスリリース2026年10月14日発行通信プラットフォーム：連邦議会は青少年保護の強化を希望ベルン、2026年14日 — 10月14日の会議で、連邦議会は通信プラットフォームと検索エンジンに関する新法に関する協議プロセスの結果に留意し、連邦環境・運輸・エネルギー・通信省（DETEC）に対し、2027年末までに指令書を作成するよう指示した。詳細情報ビデオ: プレス会議協議の文書と回答 (de、fr、it)通信プラットフォームおよび検索エンジンに関する新法: 協議手続きの開始(2025 年 10 月 29 日付プレスリリース)デジタル仲介者と通信プラットフォーム公共コミュニケーションとガバナンスへのアプローチへの影響。
+      <title>ICE、1億ドルの「悪夢」国内スパイ計画を計画</title>
+      <link>https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</link>
+      <description>📝 諜報専門家らによると、その中には政敵も含まれるという。リストン氏によると、軍事諜報員も同様の調査をまとめているという。エージェントは、収集した情報をどう扱うかについて決定を下すことはありません。
 
 
-🔤 Original: Switzerland proposes banning profiling-based ads to minors
+🔤 Original: ICE Planning $100M 'Nightmare' Domestic Spy Program
 
-🔗 Read more: https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</description>
-      <guid isPermaLink="true">https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</guid>
-      <pubDate>Wed, 14 Oct 2026 13:20:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087328</comments>
+🔗 Read more: https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</description>
+      <guid isPermaLink="true">https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:24:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090246</comments>
     </item>
     <item>
-      <title>Strafe: Discord に代わる、新しいオープンソース、E2E 暗号化、フェデレーションの代替手段</title>
-      <link>https://strafe.chat/</link>
-      <description>📝 あなたの会話は常にプライベートに保たれます。コミュニティに合わせて拡張できる低遅延メッセージング。完全なコントロール、完全なプライバシー、あなたのルール。
-
-
-🔤 Original: Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord
-
-🔗 Read more: https://strafe.chat/</description>
-      <guid isPermaLink="true">https://strafe.chat/</guid>
-      <pubDate>Wed, 14 Oct 2026 03:28:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50082021</comments>
+      <title>Google は、ログインしているすべてのアカウント間であなたの電話番号をサイレントにリンクしています</title>
+      <link>https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/</link>
+      <guid isPermaLink="true">https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:28:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090349</comments>
     </item>
     <item>
-      <title>量子コンピューターの AI レーザー ロック: QuEra がどのように自動化するか</title>
-      <link>https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</link>
-      <description>📝 両方ともボールがゾーンから出ることはありません。この例では、各ディップはボールが落ち着くことができる固定モードです。このプロセスは、Ti:sapphire モードホップ リカバリとして知られています。
+      <title>テスラのロボタクシーが学区を爆破、NHTSA請願で主張</title>
+      <link>https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</link>
+      <description>📝 クレジット: Daniel Lu/Wikimedia Commons 連邦安全規制当局は、テスラのロボタクシーがアクティブなスクールゾーンを高速で通過するという主張を検討しています。嘆願書は、約1,000台のモデルYロボタクシーとサイバーキャブが、アクティブなスクールゾーンで定められた制限速度を超えていると主張している。 NHTSAの請願審査だけでは、テスラのロボタクシーが法律に違反したことや、駆動システムに欠陥があることは確認されていない。
 
 
-🔤 Original: AI Laser Locking for Quantum Computers: How QuEra Automates It
+🔤 Original: Tesla's Robotaxis Blow Through School Zones, NHTSA Petition Alleges
 
-🔗 Read more: https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</description>
-      <guid isPermaLink="true">https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</guid>
-      <pubDate>Wed, 14 Oct 2026 10:26:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085302</comments>
+🔗 Read more: https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</description>
+      <guid isPermaLink="true">https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</guid>
+      <pubDate>Wed, 14 Oct 2026 16:45:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090662</comments>
     </item>
     <item>
-      <title>ワイスの「厳選」編集者がCBSスタッフを脅迫した会議から詳細がリーク</title>
-      <link>https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</link>
-      <description>📝 「ウィリアムズさんは、改正は強制的なもので交渉の余地はないと知らされたと述べ、レイスさんもそれを認めた。「あのような疑惑は余興だ」と続け、最近イスラエルを訪れた際のことにも言及し、そこでその話について「誰も本当に気にしていない」と感じたと述べた。
+      <title>HN を表示: Graphicle、コーディング エージェント用のメモリを備えた Graphify の Rust ポート</title>
+      <link>https://github.com/graphicle-ai/graphicle</link>
+      <description>📝 機能 コードグラフ。グラフィックグラフ抽出後。メモリはコードに関連付けられています。
 
 
-🔤 Original: Details Leak from Meeting Where Weiss's 'Handpicked' Editor Threatened CBS Staff
+🔤 Original: Show HN: Graphicle, a Rust port of Graphify with memory for coding agents
 
-🔗 Read more: https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</description>
-      <guid isPermaLink="true">https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:20:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087336</comments>
+🔗 Read more: https://github.com/graphicle-ai/graphicle</description>
+      <guid isPermaLink="true">https://github.com/graphicle-ai/graphicle</guid>
+      <pubDate>Wed, 14 Oct 2026 15:00:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088713</comments>
     </item>
     <item>
-      <title>9月のCPI-Uは年率7.2%上昇（前年比3.7%）</title>
-      <link>https://www.bls.gov/news.release/cpi.nr0.htm</link>
-      <guid isPermaLink="true">https://www.bls.gov/news.release/cpi.nr0.htm</guid>
-      <pubDate>Wed, 14 Oct 2026 12:40:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086794</comments>
+      <title>アメリカはレアアース産業を失ったわけではない。売れた</title>
+      <link>https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</link>
+      <description>📝 私たちは、米国がそれを目の当たりにしてきました。代わりに、経済的および政治的ハードルの両方をクリアできる資金調達手段を提案します。それは、中国が供給を武器化した場合に所有権に転換する偶発的転換証券です。現在、中国は世界のレアアースの 90 パーセント以上、重レアアースの 99 パーセント近くを精製しています。
+
+
+🔤 Original: America Didn't Lose Its Rare Earth Industry. It Sold It
+
+🔗 Read more: https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</description>
+      <guid isPermaLink="true">https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</guid>
+      <pubDate>Wed, 14 Oct 2026 17:50:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091875</comments>
     </item>
     <item>
-      <title>レジャー暗号ウォレットにバックドアを仕掛けているのは誰ですか?</title>
-      <link>https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</link>
-      <description>📝 インプラントがレジャーウォレットで発見されたのはこれが初めてではない。また、他の販売者からデバイスを購入したレジャー所有者からも資金が盗まれたかどうかは不明です。しかし、ヨハネスさんは別の MediaMar から 2 つ目の Ledger ウォレットを購入しました。
+      <title>Show HN: Petal、オープンソースの CoScreen/ScreenHero がついに無料化</title>
+      <link>https://petal.live/</link>
+      <description>📝 共有ウィンドウはデスクトップ上のウィンドウとして表示されます。すべての共有ウィンドウ上のラベル付きユーザー カーソル。複数のユーザーが同時にウィンドウを共有できます。
 
 
-🔤 Original: Who Is Planting Backdoors in Ledger Crypto Wallets?
+🔤 Original: Show HN: Petal, open-source CoScreen/ScreenHero finally free
 
-🔗 Read more: https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</description>
-      <guid isPermaLink="true">https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:37:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084838</comments>
+🔗 Read more: https://petal.live/</description>
+      <guid isPermaLink="true">https://petal.live/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:23:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092470</comments>
+    </item>
+    <item>
+      <title>使い捨て VM を使用して Linux から Windows デスクトップ テストを実行する</title>
+      <link>https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</link>
+      <description>📝 Appium はネイティブ Windows アプリを処理します。 Linux ランナー ポッドはテスト コード (@qawolf/flows/windows) を実行します。 123456ステップ 1/6 テストは Linux ランナー ポッドで開始され、Windows デバイスを要求します。
+
+
+🔤 Original: Running Windows desktop tests from Linux with disposable VMs
+
+🔗 Read more: https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</description>
+      <guid isPermaLink="true">https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</guid>
+      <pubDate>Wed, 14 Oct 2026 14:55:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088643</comments>
+    </item>
+    <item>
+      <title>ストランド決定者: なぜエンコーダーではないのか?</title>
+      <link>https://brooker.co.za:443/blog/2026/10/04/encoders.html</link>
+      <description>📝 e1b は、JevBench の精度で v19 をわずかに上回っています (ただし、v19 の実行ごとの差異の範囲内) が、キャリブレーションはわずかに悪く、JF100 のキャリブレーションではパフォーマンスがわずかに劣っていますが、同点です。これは、優れた中央値パフォーマンスと一致しています。このサイズのこの種の作品では、どちらも完全な勝者とは思えません。
+
+
+🔤 Original: Strands Decider: Why Not an Encoder?
+
+🔗 Read more: https://brooker.co.za:443/blog/2026/10/04/encoders.html</description>
+      <guid isPermaLink="true">https://brooker.co.za:443/blog/2026/10/04/encoders.html</guid>
+      <pubDate>Wed, 14 Oct 2026 14:40:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088447</comments>
+    </item>
+    <item>
+      <title>米国の報告書が「壊滅的な」出会い系アプリ詐欺の規模を詳述</title>
+      <link>https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</link>
+      <description>📝 ハッサンは「マッチにはまだやるべきことがある」と語った。ハッサンは「マッチにはまだやるべきことがある」と語った。 Match Group は、Tinder、Hinge、Plenty of Fish、Match (旧 Match.
+
+
+🔤 Original: US report details extent of 'devastating' dating-app scams
+
+🔗 Read more: https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</description>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</guid>
+      <pubDate>Wed, 14 Oct 2026 17:31:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091519</comments>
+    </item>
+    <item>
+      <title>Nvidia の最初の GPU: GeForce 256</title>
+      <link>https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</link>
+      <description>📝 Nvidia GeForce 256 を最初の GPU にした理由。 1999 年の GeForce 256 は、Nvidia が GPU として販売した最初の製品でした。 Nvidia の後続の GeForce GPU は好調でした。
+
+
+🔤 Original: Nvidia's first GPU: GeForce 256
+
+🔗 Read more: https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</description>
+      <guid isPermaLink="true">https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</guid>
+      <pubDate>Wed, 14 Oct 2026 12:05:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50086363</comments>
+    </item>
+    <item>
+      <title>科学者たちは鳥たちに失われた歌を歌うよう教えている</title>
+      <link>https://e360.yale.edu/digest/teaching-birds-lost-songs</link>
+      <description>📝 アカエリスズメ。しかし、新しい研究は、鳥に失われた歌を教えることが可能であることを示唆しています。鳥がこれらのモチーフを使用する方法は、鳥が進化した環境を反映しています。
+
+
+🔤 Original: Scientists Are Teaching Birds to Sing Lost Songs
+
+🔗 Read more: https://e360.yale.edu/digest/teaching-birds-lost-songs</description>
+      <guid isPermaLink="true">https://e360.yale.edu/digest/teaching-birds-lost-songs</guid>
+      <pubDate>Wed, 14 Oct 2026 13:20:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50087337</comments>
+    </item>
+    <item>
+      <title>AI が教えてくれる</title>
+      <link>https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</link>
+      <description>📝 コンセンサス ブログには AI が伝えます小さな AI が伝える検出器は、優れた文章の作成を促進するのに役立ちます。皆様のご支援によりこのような記事が可能になります。しかし、The Consensus フィードに入力されるすべての記事に対して Pangram を実行することは財政的に不可能です。
+
+
+🔤 Original: Has AI Tells
+
+🔗 Read more: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</description>
+      <guid isPermaLink="true">https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</guid>
+      <pubDate>Wed, 14 Oct 2026 16:52:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090799</comments>
+    </item>
+    <item>
+      <title>HN を表示: 受信トレイごとに送信者を 1 人だけ受け入れる電子メール アプリを作成しました</title>
+      <link>https://clova.email/</link>
+      <description>📝 受信箱は無限なので、誰もあなたの本当のアドレスを知ることはありません。各アドレスは依然として最初の送信者にロックされています。電子メールでは、電子メール アドレス、名前、プロフィール写真のみを受け取ります。アドレスは、あなたであることを当社が知る方法であり、名前と写真はプロフィールに記入され、変更または削除できます。
+
+
+🔤 Original: Show HN: I wrote an email app that accepts only one sender per inbox
+
+🔗 Read more: https://clova.email/</description>
+      <guid isPermaLink="true">https://clova.email/</guid>
+      <pubDate>Wed, 14 Oct 2026 17:00:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090932</comments>
     </item>
   </channel>
 </rss>

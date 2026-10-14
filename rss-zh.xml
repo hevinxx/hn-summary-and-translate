@@ -6,178 +6,263 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Oct 2026 14:22:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 19:13:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Iosevka 是一种开源、无衬线和板衬线、等宽字体</title>
-      <link>https://typeof.net/Iosevka/</link>
-      <description>📝 与竞争对手相比，您可以在相同的屏幕宽度内容纳更多的列。 Iosevka 提供两种宽度：正常宽度和扩展宽度。如果您希望角色之间有更多的联系，请选择“扩展”并享受。
+      <title>AI agents aren't 'going rogue.' Frontier labs are skipping security basics</title>
+      <link>https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</link>
+      <description>📝 ’” “You can tell that their security teams are fairly nascent,” Lee says. “Folks on the cybersecurity containment side do argue that the majority of reasons that we’re seeing containment breached is that it’s not set up correctly. ” Divorcing safety from security One barrier to persuading frontier labs to up their security game is the intense focus they have on what they call “safety,” which they don’t extend to traditional cybersecurity practices.
 
-
-🔤 Original: Iosevka is an open-source, sans-serif and slab-serif, monospace font
-
-🔗 Read more: https://typeof.net/Iosevka/</description>
-      <guid isPermaLink="true">https://typeof.net/Iosevka/</guid>
-      <pubDate>Wed, 14 Oct 2026 08:27:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084240</comments>
+🔗 Read more: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</description>
+      <guid isPermaLink="true">https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</guid>
+      <pubDate>Wed, 14 Oct 2026 17:45:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091788</comments>
     </item>
     <item>
-      <title>pg_vectorsearch：比pgvector的IVFFlat和HNSW更快的索引</title>
-      <link>https://github.com/timescale/pg_vectorsearch</link>
-      <description>📝 现有的 pgvector 表。使用 prism 在项目上创建索引（嵌入 vec32_l2_ops）； -- 0 = auto (~0. CREATE EXTENSION pg_vectorsearch; CREATE INDEX Documents_embedding_prism ON Documents USING prism (embedding vec32_l2_ops); -- 您的查询继续像以前一样工作。
+      <title>Fire at Starlink site in Bulgaria after suspected sabotage in Poland</title>
+      <link>https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</link>
+      <description>📝 war medtop:20000062 conflict dpasubject:114 internet dpasubject:377 fire medtop:20000150 Bulgaria dpacountry:31 Russia dpacountry:139 Ukraine dpacountry:181 Poland dpacountry:135 updateme dpauserneed:updateme Fire at Starlink site in Bulgaria after suspected sabotage in Poland 14. Pro-Western opposition parties said they suspected Russia was linked to the attack. Sabotage suspectedBulgarian officials stressed that the Starlink facility near Sofia was privately owned.
 
-
-🔤 Original: Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW
-
-🔗 Read more: https://github.com/timescale/pg_vectorsearch</description>
-      <guid isPermaLink="true">https://github.com/timescale/pg_vectorsearch</guid>
-      <pubDate>Wed, 14 Oct 2026 11:47:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086165</comments>
+🔗 Read more: https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</description>
+      <guid isPermaLink="true">https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:37:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092730</comments>
     </item>
     <item>
-      <title>安息吧埃里克·宾尼恩</title>
-      <link>https://ma.tt/2026/10/rip-eric/</link>
-      <description>📝 我的话不多，所以我会分享几个月前我写给埃里克的一些话，当时我在埃里克接受化疗时给了他我的立方体。只是要坚持下去，因为埃里克总是这样做。分享此： 在 Tumblr 上分享（在新窗口中打开） Tumblr 在 X 上分享（在新窗口中打开） X 在 Facebook 上分享（在新窗口中打开） Facebook 在 LinkedIn 上分享（在新窗口中打开） LinkedIn 在 Telegram 上分享（在新窗口中打开） Telegram 通过电子邮件将链接发送给朋友（在新窗口中打开） 电子邮件相关。
+      <title>Better HTTP/1 connection reuse in Go 1.27</title>
+      <link>https://go.dev/blog/http-connection-reuse</link>
+      <description>📝 Connection reuse To avoid paying this setup cost on every request, HTTP clients and servers try to reuse existing connections across multiple requests when possible. When connection reuse fails In HTTP/1 (both HTTP/1. ) Where failed connection reuse hurts This subtlety of HTTP/1 connection reuse can cause silent performance degradation in seemingly innocuous code.
 
-
-🔤 Original: RIP Eric Binnion
-
-🔗 Read more: https://ma.tt/2026/10/rip-eric/</description>
-      <guid isPermaLink="true">https://ma.tt/2026/10/rip-eric/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:58:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087044</comments>
+🔗 Read more: https://go.dev/blog/http-connection-reuse</description>
+      <guid isPermaLink="true">https://go.dev/blog/http-connection-reuse</guid>
+      <pubDate>Wed, 14 Oct 2026 16:29:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090369</comments>
     </item>
     <item>
-      <title>ESUG 2026 上的 Pulsar（新的 Smalltalk IDE）</title>
-      <link>https://blog.lorenzano.eu/pulsar-at-esug-2026/</link>
-      <description>📝 Pulsar 源于一个相当简单的想法：编程工具应该帮助程序员理解系统、导航系统、更改系统，并在执行此操作时密切关注代码。生成工具当然可以提供帮助，但我不认为它们会降低这些功能的重要性。如果说有什么不同的话，那就是它们让它们变得更加重要。
+      <title>军方将如何入侵选举</title>
+      <link>https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</link>
+      <description>📝 But that hasn’t stopped the federal government from designating election security the number one “operational priority” — a mission that insiders are calling “no fail. ”Despite this underground war, the officer questions the growing military involvement in safeguarding voting. ” It was a wholly partisan letter with a predictable dose of Donald Trump this and Donald Trump that.
 
 
-🔤 Original: Pulsar at ESUG 2026 (new Smalltalk IDE)
+🔤 Original: How the Military Will Hack the Election
 
-🔗 Read more: https://blog.lorenzano.eu/pulsar-at-esug-2026/</description>
-      <guid isPermaLink="true">https://blog.lorenzano.eu/pulsar-at-esug-2026/</guid>
-      <pubDate>Wed, 14 Oct 2026 10:26:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085306</comments>
+🔗 Read more: https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</description>
+      <guid isPermaLink="true">https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</guid>
+      <pubDate>Wed, 14 Oct 2026 18:43:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092847</comments>
     </item>
     <item>
-      <title>亚马逊推高互联网价格</title>
-      <link>https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</link>
-      <description>📝 亚马逊收取了很大的佣金。他们必须提高价格。 ——否则就有失去亚马逊销售额的风险。
+      <title>Submarine cable resilience</title>
+      <link>https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</link>
+      <description>📝 The cable surfaces at a cable landing station. Figure 3 — Cable landing station. Cable routing Cable routing is also impo.
 
-
-🔤 Original: Amazon pushes up prices across the Internet
-
-🔗 Read more: https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</description>
-      <guid isPermaLink="true">https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:28:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084757</comments>
+🔗 Read more: https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</description>
+      <guid isPermaLink="true">https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:31:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50089229</comments>
     </item>
     <item>
-      <title>阿伦森神谕</title>
-      <link>https://aaronsonoracle.com/</link>
-      <description>📝 Hagelbarger 将他的机器称为 SEER，即序列外推机器人。三个是或否的事实给出了八种可能的情况，对于这八种情况中的每一种，机器都会记住玩同样的游戏是否有效。两台机器互相较量，不可避免地有人想知道哪台机器更好。
+      <title>银行现在正试图摆脱他们刚刚承保的人工智能数据中心债务</title>
+      <link>https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</link>
+      <description>📝 现在，这些银行中的一些正试图将这些债务从账簿上剔除。银行不会出售他们有信心的债务。根据 CCIR 编制的债券市场数据，超大规模租赁债券占 875%。
 
 
-🔤 Original: The Aaronson Oracle
+🔤 Original: Banks are now trying to offload the AI data center debt they just underwrote
 
-🔗 Read more: https://aaronsonoracle.com/</description>
-      <guid isPermaLink="true">https://aaronsonoracle.com/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:16:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086484</comments>
+🔗 Read more: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</description>
+      <guid isPermaLink="true">https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:32:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092664</comments>
     </item>
     <item>
-      <title>Show HN：用代码构建的 3D 达芬奇导览博物馆</title>
-      <link>https://museumofages.org/w/vinci</link>
-      <description>📝 确定性词区分记录的、重建的、推测的和未知的。博物馆给复制品贴上标签，而不是画作。列奥纳多·达·芬奇 |时代博物馆，数字博物馆达芬奇|时代博物馆，数字博物馆 列奥纳多·达·芬奇博物馆 |时代博物馆，列奥纳多·达·芬奇博物馆 |时代博物馆，达芬奇数字博物馆 |时代博物馆，数字达芬奇博物馆 |时代博物馆，数字博物馆 | 列奥纳多·达·芬奇 |时代博物馆，дигитален музей。
+      <title>Neckbeard – 为您的代理提供的 DevOps/平台/SRE 插件</title>
+      <link>https://github.com/bealesh/neckbeard</link>
+      <description>📝 颈须 颈须负责处理您的基础设施，因此您无需这样做。代理从不发明基础设施。它会读取您的应用程序，找出它需要什么，并将其映射到目录输入中 - 并为它提出的每项声明提供证据。
 
 
-🔤 Original: Show HN: A guided 3D Leonardo da Vinci museum, built in code
+🔤 Original: Neckbeard – a DevOps/platform/SRE plugin for your agent
 
-🔗 Read more: https://museumofages.org/w/vinci</description>
-      <guid isPermaLink="true">https://museumofages.org/w/vinci</guid>
-      <pubDate>Wed, 14 Oct 2026 10:00:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085022</comments>
+🔗 Read more: https://github.com/bealesh/neckbeard</description>
+      <guid isPermaLink="true">https://github.com/bealesh/neckbeard</guid>
+      <pubDate>Wed, 14 Oct 2026 17:45:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091794</comments>
     </item>
     <item>
-      <title>AI 代理删除编辑过的材料后 TV4 推迟节目</title>
-      <link>https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage</link>
-      <guid isPermaLink="true">https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage</guid>
-      <pubDate>Wed, 14 Oct 2026 10:28:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085323</comments>
+      <title>伊朗加大攻击力度 集装箱船在霍尔木兹海峡沉没</title>
+      <link>https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</link>
+      <description>📝 据新加坡海事及港务局称，船上 21 名船员已安全疏散，没有人员受伤的报告。据新加坡海事及港务局称，船上 21 名船员已安全疏散，没有人员受伤的报告。通过霍尔木兹的出口平均为 8。
+
+
+🔤 Original: Container ship sinks in Strait of Hormuz as Iran steps up attacks
+
+🔗 Read more: https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</guid>
+      <pubDate>Wed, 14 Oct 2026 18:20:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092415</comments>
     </item>
     <item>
-      <title>瑞士提议禁止向未成年人投放基于分析的广告</title>
-      <link>https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</link>
-      <description>📝 新闻稿发布于 2026 年 10 月 14 日通信平台：联邦委员会希望加强青少年保护伯尔尼，2026 年 14 月 — 在 10 月 14 日的会议上，联邦委员会注意到有关通信平台和搜索引擎的新法律的磋商结果，并指示联邦环境、运输、能源和通信部 (DETEC) 在 2027 年底前起草一份通知。更多信息视频：新闻发布会文件和回应咨询（de、fr、it）关于通信平台和搜索引擎的新法律：启动咨询程序（2025 年 10 月 29 日发布的新闻稿）数字中介和通信平台对公共通信和治理方法的影响。
+      <title>ICE 计划耗资 1 亿美元的“噩梦”国内间谍计划</title>
+      <link>https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</link>
+      <description>📝 情报专家表示，其中包括政敌。里斯顿说，军事情报人员也进行了同样类型的研究。特工不会就如何处理他们收集的信息做出任何决定。
 
 
-🔤 Original: Switzerland proposes banning profiling-based ads to minors
+🔤 Original: ICE Planning $100M 'Nightmare' Domestic Spy Program
 
-🔗 Read more: https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</description>
-      <guid isPermaLink="true">https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</guid>
-      <pubDate>Wed, 14 Oct 2026 13:20:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087328</comments>
+🔗 Read more: https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</description>
+      <guid isPermaLink="true">https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:24:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090246</comments>
     </item>
     <item>
-      <title>Strafe：Discord 的新开源、端到端加密和联合替代方案</title>
-      <link>https://strafe.chat/</link>
-      <description>📝 您的谈话始终保持私密。可随您的社区扩展的低延迟消息传递。完全控制，完全隐私，你的规则。
-
-
-🔤 Original: Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord
-
-🔗 Read more: https://strafe.chat/</description>
-      <guid isPermaLink="true">https://strafe.chat/</guid>
-      <pubDate>Wed, 14 Oct 2026 03:28:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50082021</comments>
+      <title>Google 会在所有登录帐户中悄悄关联您的电话号码</title>
+      <link>https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/</link>
+      <guid isPermaLink="true">https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:28:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090349</comments>
     </item>
     <item>
-      <title>用于量子计算机的 AI 激光锁定：QuEra 如何实现自动化</title>
-      <link>https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</link>
-      <description>📝 总之，球永远不会离开该区域。在此示例中，每次下蹲都是球可以进入的固定模式。此过程称为钛宝石跳模恢复。
+      <title>美国国家公路交通安全管理局请愿书称，特斯拉的机器人出租车席卷了学校区域</title>
+      <link>https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</link>
+      <description>📝 图片来源：Daniel Lu/Wikimedia Commons 联邦安全监管机构正在审查有关特斯拉机器人出租车快速穿过活跃学校区域的说法。请愿书称，大约 1,000 辆 Model Y Robotaxis 和 Cyber​​cabs 超过了活跃学区公布的速度限制。就其本身而言，美国国家公路交通安全管理局的请愿书审查并未确认特斯拉的机器人出租车违反了法律或其驾驶系统存在缺陷。
 
 
-🔤 Original: AI Laser Locking for Quantum Computers: How QuEra Automates It
+🔤 Original: Tesla's Robotaxis Blow Through School Zones, NHTSA Petition Alleges
 
-🔗 Read more: https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</description>
-      <guid isPermaLink="true">https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</guid>
-      <pubDate>Wed, 14 Oct 2026 10:26:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085302</comments>
+🔗 Read more: https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</description>
+      <guid isPermaLink="true">https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</guid>
+      <pubDate>Wed, 14 Oct 2026 16:45:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090662</comments>
     </item>
     <item>
-      <title>韦斯“精心挑选”的编辑威胁哥伦比亚广播公司员工的会议细节泄露</title>
-      <link>https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</link>
-      <description>📝 ” 威廉姆斯说，她已被告知，这些修改是强制性的，不能进行谈判，赖斯承认这一点。“这些指控只是一个插曲，”赖斯说。“她接着提到了最近的以色列之行，在那里她观察到“没有人真正关心”这个故事。
+      <title>Show HN：Graphicle，Graphify 的 Rust 端口，具有用于编码代理的内存</title>
+      <link>https://github.com/graphicle-ai/graphicle</link>
+      <description>📝 它的作用 代码图。图形图提取后。内存与您的代码相关联。
 
 
-🔤 Original: Details Leak from Meeting Where Weiss's 'Handpicked' Editor Threatened CBS Staff
+🔤 Original: Show HN: Graphicle, a Rust port of Graphify with memory for coding agents
 
-🔗 Read more: https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</description>
-      <guid isPermaLink="true">https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:20:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087336</comments>
+🔗 Read more: https://github.com/graphicle-ai/graphicle</description>
+      <guid isPermaLink="true">https://github.com/graphicle-ai/graphicle</guid>
+      <pubDate>Wed, 14 Oct 2026 15:00:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088713</comments>
     </item>
     <item>
-      <title>9 月份 CPI 年率上涨 7.2%（同比上涨 3.7%）</title>
-      <link>https://www.bls.gov/news.release/cpi.nr0.htm</link>
-      <guid isPermaLink="true">https://www.bls.gov/news.release/cpi.nr0.htm</guid>
-      <pubDate>Wed, 14 Oct 2026 12:40:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086794</comments>
+      <title>美国并没有失去稀土工业。它卖掉了它</title>
+      <link>https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</link>
+      <description>📝 我们亲眼目睹了美国所做的事情。相反，我们提出了一种可以清除经济和政治障碍的融资工具：一种或有可转换证券，如果北京将供应武器化，则可以将其转换为所有权。如今，中国精炼了全球 90% 以上的稀土和近 99% 的重稀土。
+
+
+🔤 Original: America Didn't Lose Its Rare Earth Industry. It Sold It
+
+🔗 Read more: https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</description>
+      <guid isPermaLink="true">https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</guid>
+      <pubDate>Wed, 14 Oct 2026 17:50:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091875</comments>
     </item>
     <item>
-      <title>谁在 Ledger 加密钱包中植入后门？</title>
-      <link>https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</link>
-      <description>📝 这种植入并不是第一个出现在 Ledger 钱包上的。目前还不清楚从其他卖家那里购买设备的 Ledger 所有者的资金是否也被盗。 ”但是 Johannes 从另一个 MediaMar 购买了第二个 Ledger 钱包。
+      <title>Show HN：Petal，开源 CoScreen/ScreenHero 终于免费了</title>
+      <link>https://petal.live/</link>
+      <description>📝 共享窗口在桌面上显示为窗口。所有共享窗口上标记的用户光标。多个用户可以同时共享他们的窗口。
 
 
-🔤 Original: Who Is Planting Backdoors in Ledger Crypto Wallets?
+🔤 Original: Show HN: Petal, open-source CoScreen/ScreenHero finally free
 
-🔗 Read more: https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</description>
-      <guid isPermaLink="true">https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:37:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084838</comments>
+🔗 Read more: https://petal.live/</description>
+      <guid isPermaLink="true">https://petal.live/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:23:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092470</comments>
+    </item>
+    <item>
+      <title>使用一次性虚拟机从 Linux 运行 Windows 桌面测试</title>
+      <link>https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</link>
+      <description>📝 Appium 处理本机 Windows 应用程序。 Linux 运行程序 Pod 运行测试代码 (@qawolf/flows/windows)。 123456第 1 步（共 6 步）测试在 Linux 运行器容器中开始，该容器需要 Windows 设备。
+
+
+🔤 Original: Running Windows desktop tests from Linux with disposable VMs
+
+🔗 Read more: https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</description>
+      <guid isPermaLink="true">https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</guid>
+      <pubDate>Wed, 14 Oct 2026 14:55:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088643</comments>
+    </item>
+    <item>
+      <title>Strands Decider：为什么不使用编码器？</title>
+      <link>https://brooker.co.za:443/blog/2026/10/04/encoders.html</link>
+      <description>📝 e1b 在 JevBench 精度上稍微优于 v19（但在 v19 的运行间方差之内），但校准稍差一些，并且在 JF100 上的校准上表现平平，但性能稍弱。这与出色的中值表现一致。对于这种规模的此类工作来说，两者似乎都不是大获全胜的赢家。
+
+
+🔤 Original: Strands Decider: Why Not an Encoder?
+
+🔗 Read more: https://brooker.co.za:443/blog/2026/10/04/encoders.html</description>
+      <guid isPermaLink="true">https://brooker.co.za:443/blog/2026/10/04/encoders.html</guid>
+      <pubDate>Wed, 14 Oct 2026 14:40:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088447</comments>
+    </item>
+    <item>
+      <title>美国报告详细介绍了“毁灭性”约会应用诈骗的程度</title>
+      <link>https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</link>
+      <description>📝 哈桑表示“Match 还需要做更多的事情”。哈桑表示“Match 还需要做更多的事情”。 Match Group 运营 Tinder、Hinge、Plenty of Fish、Match（以前称为 Match.
+
+
+🔤 Original: US report details extent of 'devastating' dating-app scams
+
+🔗 Read more: https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</description>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</guid>
+      <pubDate>Wed, 14 Oct 2026 17:31:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091519</comments>
+    </item>
+    <item>
+      <title>Nvidia 第一个 GPU：GeForce 256</title>
+      <link>https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</link>
+      <description>📝 是什么让 Nvidia GeForce 256 成为第一个 GPU。 1999 年的 GeForce 256 是 Nvidia 第一款作为 GPU 销售的产品。 Nvidia 的后续 GeForce GPU 表现出色。
+
+
+🔤 Original: Nvidia's first GPU: GeForce 256
+
+🔗 Read more: https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</description>
+      <guid isPermaLink="true">https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</guid>
+      <pubDate>Wed, 14 Oct 2026 12:05:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50086363</comments>
+    </item>
+    <item>
+      <title>科学家正在教鸟类唱失传的歌曲</title>
+      <link>https://e360.yale.edu/digest/teaching-birds-lost-songs</link>
+      <description>📝 一只红领麻雀。但新的研究表明，教授鸟类失去的歌曲是可能的。鸟类使用这些图案的方式反映了鸟类进化的环境。
+
+
+🔤 Original: Scientists Are Teaching Birds to Sing Lost Songs
+
+🔗 Read more: https://e360.yale.edu/digest/teaching-birds-lost-songs</description>
+      <guid isPermaLink="true">https://e360.yale.edu/digest/teaching-birds-lost-songs</guid>
+      <pubDate>Wed, 14 Oct 2026 13:20:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50087337</comments>
+    </item>
+    <item>
+      <title>有人工智能告诉你</title>
+      <link>https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</link>
+      <description>📝 共识博客有人工智能告诉一点人工智能告诉探测器可以帮助我们促进良好的写作。您的支持使得这样的文章成为可能。但对进入共识提要的每一篇文章运行 Pangram 在经济上是不可能的。
+
+
+🔤 Original: Has AI Tells
+
+🔗 Read more: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</description>
+      <guid isPermaLink="true">https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</guid>
+      <pubDate>Wed, 14 Oct 2026 16:52:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090799</comments>
+    </item>
+    <item>
+      <title>Show HN：我编写了一个电子邮件应用程序，每个收件箱仅接受一个发件人</title>
+      <link>https://clova.email/</link>
+      <description>📝 无限的收件箱，所以没有人知道您的真实地址。每个地址仍然锁定其第一个发件人。电子邮件仅接收您的电子邮件地址、您的姓名和个人资料照片：地址是我们识别您的方式，姓名和照片填写在您的个人资料中，您可以在其中更改或删除它们。
+
+
+🔤 Original: Show HN: I wrote an email app that accepts only one sender per inbox
+
+🔗 Read more: https://clova.email/</description>
+      <guid isPermaLink="true">https://clova.email/</guid>
+      <pubDate>Wed, 14 Oct 2026 17:00:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090932</comments>
     </item>
   </channel>
 </rss>

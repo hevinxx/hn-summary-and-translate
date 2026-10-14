@@ -6,142 +6,215 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 14:22:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 19:13:13 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>Iosevka is an open-source, sans-serif and slab-serif, monospace font</title>
-      <link>https://typeof.net/Iosevka/</link>
-      <description>📝 Compared to the competitors, you could fit more columns within the same screen width. Iosevka provides two widths, Normal and Extended. If you prefer more breeze between the character, choose Extended and enjoy.
+      <title>AI agents aren't 'going rogue.' Frontier labs are skipping security basics</title>
+      <link>https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</link>
+      <description>📝 ’” “You can tell that their security teams are fairly nascent,” Lee says. “Folks on the cybersecurity containment side do argue that the majority of reasons that we’re seeing containment breached is that it’s not set up correctly. ” Divorcing safety from security One barrier to persuading frontier labs to up their security game is the intense focus they have on what they call “safety,” which they don’t extend to traditional cybersecurity practices.
 
-🔗 Read more: https://typeof.net/Iosevka/</description>
-      <guid isPermaLink="true">https://typeof.net/Iosevka/</guid>
-      <pubDate>Wed, 14 Oct 2026 08:27:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084240</comments>
+🔗 Read more: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</description>
+      <guid isPermaLink="true">https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</guid>
+      <pubDate>Wed, 14 Oct 2026 17:45:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091788</comments>
     </item>
     <item>
-      <title>Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW</title>
-      <link>https://github.com/timescale/pg_vectorsearch</link>
-      <description>📝 Existing pgvector tables. CREATE INDEX ON items USING prism (embedding vec32_l2_ops); -- 0 = auto (~0. CREATE EXTENSION pg_vectorsearch; CREATE INDEX documents_embedding_prism ON documents USING prism (embedding vec32_l2_ops); -- Your queries keep working as before.
+      <title>Fire at Starlink site in Bulgaria after suspected sabotage in Poland</title>
+      <link>https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</link>
+      <description>📝 war medtop:20000062 conflict dpasubject:114 internet dpasubject:377 fire medtop:20000150 Bulgaria dpacountry:31 Russia dpacountry:139 Ukraine dpacountry:181 Poland dpacountry:135 updateme dpauserneed:updateme Fire at Starlink site in Bulgaria after suspected sabotage in Poland 14. Pro-Western opposition parties said they suspected Russia was linked to the attack. Sabotage suspectedBulgarian officials stressed that the Starlink facility near Sofia was privately owned.
 
-🔗 Read more: https://github.com/timescale/pg_vectorsearch</description>
-      <guid isPermaLink="true">https://github.com/timescale/pg_vectorsearch</guid>
-      <pubDate>Wed, 14 Oct 2026 11:47:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086165</comments>
+🔗 Read more: https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</description>
+      <guid isPermaLink="true">https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:37:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092730</comments>
     </item>
     <item>
-      <title>RIP Eric Binnion</title>
-      <link>https://ma.tt/2026/10/rip-eric/</link>
-      <description>📝 I don’t have many words so I’ll share something I wrote to Eric a few months ago when I gave him my cube when he was going through chemo. Just going to soldier through because that’s what Eric always did. Share this: Share on Tumblr (Opens in new window) Tumblr Share on X (Opens in new window) X Share on Facebook (Opens in new window) Facebook Share on LinkedIn (Opens in new window) LinkedIn Share on Telegram (Opens in new window) Telegram Email a link to a friend (Opens in new window) Email Related.
+      <title>Better HTTP/1 connection reuse in Go 1.27</title>
+      <link>https://go.dev/blog/http-connection-reuse</link>
+      <description>📝 Connection reuse To avoid paying this setup cost on every request, HTTP clients and servers try to reuse existing connections across multiple requests when possible. When connection reuse fails In HTTP/1 (both HTTP/1. ) Where failed connection reuse hurts This subtlety of HTTP/1 connection reuse can cause silent performance degradation in seemingly innocuous code.
 
-🔗 Read more: https://ma.tt/2026/10/rip-eric/</description>
-      <guid isPermaLink="true">https://ma.tt/2026/10/rip-eric/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:58:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087044</comments>
+🔗 Read more: https://go.dev/blog/http-connection-reuse</description>
+      <guid isPermaLink="true">https://go.dev/blog/http-connection-reuse</guid>
+      <pubDate>Wed, 14 Oct 2026 16:29:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090369</comments>
     </item>
     <item>
-      <title>Pulsar at ESUG 2026 (new Smalltalk IDE)</title>
-      <link>https://blog.lorenzano.eu/pulsar-at-esug-2026/</link>
-      <description>📝 Pulsar comes from a fairly simple idea: programming tools should help programmers understand the system, navigate it, change it, and stay close to the code while doing so. Generative tools can certainly help, but I do not think they make those capabilities less important. If anything, they make them more important.
+      <title>How the Military Will Hack the Election</title>
+      <link>https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</link>
+      <description>📝 But that hasn’t stopped the federal government from designating election security the number one “operational priority” — a mission that insiders are calling “no fail. ”Despite this underground war, the officer questions the growing military involvement in safeguarding voting. ” It was a wholly partisan letter with a predictable dose of Donald Trump this and Donald Trump that.
 
-🔗 Read more: https://blog.lorenzano.eu/pulsar-at-esug-2026/</description>
-      <guid isPermaLink="true">https://blog.lorenzano.eu/pulsar-at-esug-2026/</guid>
-      <pubDate>Wed, 14 Oct 2026 10:26:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085306</comments>
+🔗 Read more: https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</description>
+      <guid isPermaLink="true">https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election</guid>
+      <pubDate>Wed, 14 Oct 2026 18:43:57 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092847</comments>
     </item>
     <item>
-      <title>Amazon pushes up prices across the Internet</title>
-      <link>https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</link>
-      <description>📝 Amazon takes a big cut. They have to raise their prices. — or risk losing their Amazon sales.
+      <title>Submarine cable resilience</title>
+      <link>https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</link>
+      <description>📝 The cable surfaces at a cable landing station. Figure 3 — Cable landing station. Cable routing Cable routing is also impo.
 
-🔗 Read more: https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</description>
-      <guid isPermaLink="true">https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:28:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084757</comments>
+🔗 Read more: https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</description>
+      <guid isPermaLink="true">https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:31:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50089229</comments>
     </item>
     <item>
-      <title>The Aaronson Oracle</title>
-      <link>https://aaronsonoracle.com/</link>
-      <description>📝 Hagelbarger called his machine SEER, for SEquence Extrapolating Robot. Three yes-or-no facts give eight possible situations, and for each of the eight the machine remembered whether playing the same had been working. The two machines played each other Inevitably, someone wondered which machine was better.
+      <title>Banks are now trying to offload the AI data center debt they just underwrote</title>
+      <link>https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</link>
+      <description>📝 Now some of the same banks are trying to get that debt off their books. Banks do not sell down debt they are confident in. 875% that hyperscaler-leased bonds command, per bond market data compiled by CCIR.
 
-🔗 Read more: https://aaronsonoracle.com/</description>
-      <guid isPermaLink="true">https://aaronsonoracle.com/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:16:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086484</comments>
+🔗 Read more: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</description>
+      <guid isPermaLink="true">https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:32:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092664</comments>
     </item>
     <item>
-      <title>Show HN: A guided 3D Leonardo da Vinci museum, built in code</title>
-      <link>https://museumofages.org/w/vinci</link>
-      <description>📝 Certainty words distinguish documented, reconstructed, conjectural and not known. The museum labels the reproduction, not the painting. Leonardo da Vinci | Museum of Ages, a digital museum Leonardo da Vinci | Museum of Ages, ein digitales Museum Leonardo da Vinci | Museum of Ages, un musée numérique Leonardo da Vinci | Museum of Ages, un museo digitale Leonardo da Vinci | Museum of Ages, un museo digital Leonardo da Vinci | Museum of Ages, um museu digital Leonardo da Vinci | Museum of Ages, дигитален музей.
+      <title>Neckbeard – a DevOps/platform/SRE plugin for your agent</title>
+      <link>https://github.com/bealesh/neckbeard</link>
+      <description>📝 neckbeard The neckbeard handles your infra so you don't have to. The agent never invents infrastructure. It reads your app, figures out what it needs, and maps that onto catalog inputs — with evidence for every claim it makes.
 
-🔗 Read more: https://museumofages.org/w/vinci</description>
-      <guid isPermaLink="true">https://museumofages.org/w/vinci</guid>
-      <pubDate>Wed, 14 Oct 2026 10:00:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085022</comments>
+🔗 Read more: https://github.com/bealesh/neckbeard</description>
+      <guid isPermaLink="true">https://github.com/bealesh/neckbeard</guid>
+      <pubDate>Wed, 14 Oct 2026 17:45:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091794</comments>
     </item>
     <item>
-      <title>TV4 postpones show after AI agent erases edited material</title>
-      <link>https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage</link>
-      <guid isPermaLink="true">https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage</guid>
-      <pubDate>Wed, 14 Oct 2026 10:28:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085323</comments>
-    </item>
-    <item>
-      <title>Switzerland proposes banning profiling-based ads to minors</title>
-      <link>https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</link>
-      <description>📝 Press releasePublished on 14 October 2026Communication platforms: Federal Council wishes to strengthen youth protectionBerne, 14. 2026 — At its meeting on 14 October, the Federal Council took note of the results of the consultation process on the new law on communication platforms and search engines, and instructed the Federal Department of the Environment, Transport, Energy and Communications (DETEC) to draw up a dispatch by the end of 2027. Further informationVideo: press conferenceDocuments and responses from the consultation (de, fr, it)New law on communication platforms and search engines: Start of the consultation proceedings (Press release dated 29 October 2025)Digital intermediaries and communication platforms Impact on public communication and approaches to governance.
+      <title>Container ship sinks in Strait of Hormuz as Iran steps up attacks</title>
+      <link>https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</link>
+      <description>📝 The ship's 21 crew members were safely evacuated and no injuries have been reported, according to the Maritime and Port Authority of Singapore. The ship's 21 crew members were safely evacuated and no injuries were reported, according to the Maritime and Port Authority of Singapore. Exports through Hormuz averaged 8.
 
-🔗 Read more: https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</description>
-      <guid isPermaLink="true">https://www.admin.ch/en/newnsb/NMn5s24l8NjQ</guid>
-      <pubDate>Wed, 14 Oct 2026 13:20:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087328</comments>
+🔗 Read more: https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html</guid>
+      <pubDate>Wed, 14 Oct 2026 18:20:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092415</comments>
     </item>
     <item>
-      <title>Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord</title>
-      <link>https://strafe.chat/</link>
-      <description>📝 Your conversations stay private, always. Low latency messaging that scales with your community. Full control, full privacy, your rules.
+      <title>ICE Planning $100M 'Nightmare' Domestic Spy Program</title>
+      <link>https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</link>
+      <description>📝 That includes political enemies, intelligence experts said. Military intelligence agents compile the same type of research, Wriston said. The agents will not make any decisions about what to do with the information they compile.
 
-🔗 Read more: https://strafe.chat/</description>
-      <guid isPermaLink="true">https://strafe.chat/</guid>
-      <pubDate>Wed, 14 Oct 2026 03:28:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50082021</comments>
+🔗 Read more: https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</description>
+      <guid isPermaLink="true">https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:24:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090246</comments>
     </item>
     <item>
-      <title>AI Laser Locking for Quantum Computers: How QuEra Automates It</title>
-      <link>https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</link>
-      <description>📝 Together, the ball never leaves the zone. In this example, each dip is a fixed mode the ball can settle into. This process is known as a Ti:sapphire mode-hop recovery.
+      <title>Google is silently linking your phone number across all signed-in accounts</title>
+      <link>https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/</link>
+      <guid isPermaLink="true">https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:28:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090349</comments>
+    </item>
+    <item>
+      <title>Tesla's Robotaxis Blow Through School Zones, NHTSA Petition Alleges</title>
+      <link>https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</link>
+      <description>📝 Credit: Daniel Lu/Wikimedia Commons Federal safety regulators are reviewing claims that Tesla's robotaxis speed through active school zones. The petition alleges that roughly 1,000 Model Y Robotaxis and Cybercabs exceed posted speed limits in active school zones. On its own, an NHTSA petition review doesn't confirm that Tesla's robotaxis broke the law or that its driving systems are defective.
 
-🔗 Read more: https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</description>
-      <guid isPermaLink="true">https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</guid>
-      <pubDate>Wed, 14 Oct 2026 10:26:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50085302</comments>
+🔗 Read more: https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</description>
+      <guid isPermaLink="true">https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges</guid>
+      <pubDate>Wed, 14 Oct 2026 16:45:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090662</comments>
     </item>
     <item>
-      <title>Details Leak from Meeting Where Weiss's 'Handpicked' Editor Threatened CBS Staff</title>
-      <link>https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</link>
-      <description>📝 ” Williams said she had been informed that the revisions were mandatory and not open to negotiation, which Raice acknowledged. “Those allegations are a sideshow,” Raice said. ” She went on to mention a recent trip to Israel where she observed that “nobody really cares” about that story.
+      <title>Show HN: Graphicle, a Rust port of Graphify with memory for coding agents</title>
+      <link>https://github.com/graphicle-ai/graphicle</link>
+      <description>📝 What it does Code graph. After graphicle graph extract. Memory tied to your code.
 
-🔗 Read more: https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</description>
-      <guid isPermaLink="true">https://www.mediaite.com/media/news/details-leak-from-explosive-meeting-where-bari-weisss-handpicked-editor-threatened-cbs-staff-legal-grounds-for-firing/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:20:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50087336</comments>
+🔗 Read more: https://github.com/graphicle-ai/graphicle</description>
+      <guid isPermaLink="true">https://github.com/graphicle-ai/graphicle</guid>
+      <pubDate>Wed, 14 Oct 2026 15:00:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088713</comments>
     </item>
     <item>
-      <title>CPI-U rises 7.2% annualized in September (3.7% YoY)</title>
-      <link>https://www.bls.gov/news.release/cpi.nr0.htm</link>
-      <guid isPermaLink="true">https://www.bls.gov/news.release/cpi.nr0.htm</guid>
-      <pubDate>Wed, 14 Oct 2026 12:40:55 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50086794</comments>
-    </item>
-    <item>
-      <title>Who Is Planting Backdoors in Ledger Crypto Wallets?</title>
-      <link>https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</link>
-      <description>📝 The implants are not the first to be found on Ledger wallets. And it's not clear if funds were also stolen from Ledger owners who purchased their devices from other sellers. ”But Johannes, who purchased a second Ledger wallet from another MediaMar.
+      <title>America Didn't Lose Its Rare Earth Industry. It Sold It</title>
+      <link>https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</link>
+      <description>📝 We have seen firsthand that what the U. Instead, we propose a financing instrument that could clear both economic and political hurdles: a contingent convertible security that converts into ownership if Beijing weaponizes supply. China refines more than 90 percent of the world’s rare earths and close to 99 percent of heavy rare earths today.
 
-🔗 Read more: https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</description>
-      <guid isPermaLink="true">https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:37:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50084838</comments>
+🔗 Read more: https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</description>
+      <guid isPermaLink="true">https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it</guid>
+      <pubDate>Wed, 14 Oct 2026 17:50:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091875</comments>
+    </item>
+    <item>
+      <title>Show HN: Petal, open-source CoScreen/ScreenHero finally free</title>
+      <link>https://petal.live/</link>
+      <description>📝 Shared windows appear as windows on your desktop. Labeled user cursors on all shared windows. Several users can share their windows at the same time.
+
+🔗 Read more: https://petal.live/</description>
+      <guid isPermaLink="true">https://petal.live/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:23:14 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50092470</comments>
+    </item>
+    <item>
+      <title>Running Windows desktop tests from Linux with disposable VMs</title>
+      <link>https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</link>
+      <description>📝 Appium handles native Windows apps. A Linux runner pod runs the test code (@qawolf/flows/windows). 123456Step 1 of 6The test starts in a Linux runner pod, which asks for a Windows device.
+
+🔗 Read more: https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</description>
+      <guid isPermaLink="true">https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation</guid>
+      <pubDate>Wed, 14 Oct 2026 14:55:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088643</comments>
+    </item>
+    <item>
+      <title>Strands Decider: Why Not an Encoder?</title>
+      <link>https://brooker.co.za:443/blog/2026/10/04/encoders.html</link>
+      <description>📝 e1b slightly beats v19 on JevBench accuracy (but within the run-to-run variance on v19), with slightly worse calibration, and ties on calibration on JF100 with slightly weaker performance. This is consistent with the great median performance. Neither seems like a slam-dunk winner for this kind of work at this size.
+
+🔗 Read more: https://brooker.co.za:443/blog/2026/10/04/encoders.html</description>
+      <guid isPermaLink="true">https://brooker.co.za:443/blog/2026/10/04/encoders.html</guid>
+      <pubDate>Wed, 14 Oct 2026 14:40:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088447</comments>
+    </item>
+    <item>
+      <title>US report details extent of 'devastating' dating-app scams</title>
+      <link>https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</link>
+      <description>📝 Hassan said there was ‘still more that Match needs to do’. Hassan said there was ‘still more that Match needs to do’. Match Group operates apps such as Tinder, Hinge, Plenty of Fish, Match (formerly Match.
+
+🔗 Read more: https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</description>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/oct/14/dating-app-scams-us-congress</guid>
+      <pubDate>Wed, 14 Oct 2026 17:31:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091519</comments>
+    </item>
+    <item>
+      <title>Nvidia's first GPU: GeForce 256</title>
+      <link>https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</link>
+      <description>📝 What made the Nvidia GeForce 256 the first GPU. The GeForce 256 from 1999 was the first product Nvidia marketed as a GPU. Nvidia’s follow-up GeForce GPUs fared well.
+
+🔗 Read more: https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</description>
+      <guid isPermaLink="true">https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/</guid>
+      <pubDate>Wed, 14 Oct 2026 12:05:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50086363</comments>
+    </item>
+    <item>
+      <title>Scientists Are Teaching Birds to Sing Lost Songs</title>
+      <link>https://e360.yale.edu/digest/teaching-birds-lost-songs</link>
+      <description>📝 A rufous-collared sparrow. But new research suggests it is possible to teach birds lost songs. The way that birds use these motifs reflects the environment in which the birds evolved.
+
+🔗 Read more: https://e360.yale.edu/digest/teaching-birds-lost-songs</description>
+      <guid isPermaLink="true">https://e360.yale.edu/digest/teaching-birds-lost-songs</guid>
+      <pubDate>Wed, 14 Oct 2026 13:20:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50087337</comments>
+    </item>
+    <item>
+      <title>Has AI Tells</title>
+      <link>https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</link>
+      <description>📝 The Consensus BlogHas AI tellsA little AI tells detector helps us promote good writing. Your support makes articles like this possible. But running Pangram against every article that enters The Consensus feed is financially impossible.
+
+🔗 Read more: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</description>
+      <guid isPermaLink="true">https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1</guid>
+      <pubDate>Wed, 14 Oct 2026 16:52:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090799</comments>
+    </item>
+    <item>
+      <title>Show HN: I wrote an email app that accepts only one sender per inbox</title>
+      <link>https://clova.email/</link>
+      <description>📝 Infinite inboxes, so nobody ever gets your real address. Each address still locks to its first sender. Email receives only your email address, your name and your profile photo: the address is how we know it is you, and the name and photo fill in your profile, where you can change or remove them.
+
+🔗 Read more: https://clova.email/</description>
+      <guid isPermaLink="true">https://clova.email/</guid>
+      <pubDate>Wed, 14 Oct 2026 17:00:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090932</comments>
     </item>
   </channel>
 </rss>
