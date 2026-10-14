@@ -3,17 +3,54 @@
 import logging
 import time
 from typing import Dict, List, Optional, Tuple
-from deep_translator import GoogleTranslator, LibreTranslator, MyMemoryTranslator
+import requests
+from deep_translator import LibreTranslator, MyMemoryTranslator
+from deep_translator.constants import GOOGLE_LANGUAGES_TO_CODES
 from deep_translator.exceptions import TranslationNotFound, LanguageNotSupportedException
 
 logger = logging.getLogger(__name__)
+
+
+class GoogleWebAPITranslator:
+    """
+    Google Translate client using the translate.googleapis.com web API.
+
+    deep-translator's GoogleTranslator scrapes translate.google.com/m, which
+    Google now redirects to a CAPTCHA page, so every request fails.
+    """
+
+    API_URL = 'https://translate.googleapis.com/translate_a/single'
+    TIMEOUT = 10
+
+    def __init__(self, source: str = 'en', target: str = 'ko'):
+        self.source = source
+        self.target = target
+
+    def translate(self, text: str) -> str:
+        """Translate text, raising on HTTP or response format errors."""
+        response = requests.post(
+            self.API_URL,
+            params={'client': 'gtx', 'sl': self.source, 'tl': self.target, 'dt': 't'},
+            data={'q': text},
+            timeout=self.TIMEOUT
+        )
+        response.raise_for_status()
+
+        # Response shape: [[[translated, original, ...], ...], ...] split by sentence
+        segments = response.json()[0]
+        if not segments:
+            raise TranslationNotFound(text)
+        return ''.join(segment[0] for segment in segments if segment[0])
+
+    def get_supported_languages(self) -> List[str]:
+        return list(GOOGLE_LANGUAGES_TO_CODES.values())
 
 
 class MultiTranslator:
     """Multi-language translator with multiple provider support."""
 
     PROVIDERS = {
-        'google': GoogleTranslator,
+        'google': GoogleWebAPITranslator,
         'libre': LibreTranslator,
         'mymemory': MyMemoryTranslator
     }
@@ -43,6 +80,8 @@ class MultiTranslator:
         self.source_language = source_language
         self.target_languages = self._normalize_language_codes(target_languages)
         self.translators = {}
+        self.attempt_count = 0
+        self.failure_count = 0
         self._initialize_translators()
 
     def _normalize_language_codes(self, languages: List[str]) -> List[str]:
@@ -112,21 +151,28 @@ class MultiTranslator:
                 logger.debug(f"Truncating text from {len(text)} to {max_length} chars")
                 text = text[:max_length]
 
+            self.attempt_count += 1
             translated = translator.translate(text)
 
             # Validate translation
-            if translated and translated != text:
-                logger.debug(f"Translated {len(text)} chars to {target_lang}")
-                return translated
-            else:
-                logger.warning(f"Translation returned empty or same text for {target_lang}")
+            if not translated:
+                self.failure_count += 1
+                logger.warning(f"Translation returned empty text for {target_lang}")
+                return text
+            if translated == text:
+                logger.debug(f"Translation returned same text for {target_lang}")
                 return text
 
+            logger.debug(f"Translated {len(text)} chars to {target_lang}")
+            return translated
+
         except (TranslationNotFound, LanguageNotSupportedException) as e:
+            self.failure_count += 1
             logger.warning(f"Translation not available: {e}")
             return text
 
         except Exception as e:
+            self.failure_count += 1
             logger.error(f"Translation error for {target_lang}: {e}")
             return text
 

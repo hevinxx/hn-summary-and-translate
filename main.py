@@ -3,6 +3,7 @@
 
 import argparse
 import logging
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -195,6 +196,7 @@ class HNRSSTranslator:
                 len(new_items) - self.stats['items_generated']
             )
             print_processing_summary(stats)
+            self._report_translation_failures()
 
             logger.info("✅ Translation pipeline completed successfully!")
 
@@ -249,6 +251,7 @@ class HNRSSTranslator:
 
                 # Translate
                 translations = {}
+                translation_failed = False
                 for lang_config in self.config['translation']['target_languages']:
                     lang_code = lang_config['code']
                     skip_translation = lang_config.get('skip_translation', False)
@@ -261,11 +264,13 @@ class HNRSSTranslator:
                         }
                         logger.debug(f"Skipping translation for {lang_config['name']} (using original)")
                     else:
-                        # Check cache first
+                        # Check cache first (entries equal to the original are failed
+                        # translations cached by earlier versions, so treat them as misses)
                         cached_title = self.model_cache.get_translation(item['title'], lang_code)
                         cached_summary = self.model_cache.get_translation(summary, lang_code)
 
-                        if cached_title and cached_summary:
+                        if (cached_title and cached_title != item['title']
+                                and cached_summary and cached_summary != summary):
                             translations[lang_code] = {
                                 'title': cached_title,
                                 'description': cached_summary
@@ -273,6 +278,7 @@ class HNRSSTranslator:
                         else:
                             # Translate with rate limiting
                             self.rate_limiter.wait()
+                            failures_before = self.translator.failure_count
                             translated_title = self.translator.translate_text(item['title'], lang_code)
                             translated_summary = self.translator.translate_text(summary, lang_code)
 
@@ -281,9 +287,14 @@ class HNRSSTranslator:
                                 'description': translated_summary
                             }
 
-                            # Cache translations
-                            self.model_cache.set_translation(item['title'], lang_code, translated_title)
-                            self.model_cache.set_translation(summary, lang_code, translated_summary)
+                            if self.translator.failure_count > failures_before:
+                                translation_failed = True
+
+                            # Cache only actual translations so failures are retried next run
+                            if translated_title != item['title']:
+                                self.model_cache.set_translation(item['title'], lang_code, translated_title)
+                            if translated_summary != summary:
+                                self.model_cache.set_translation(summary, lang_code, translated_summary)
                             self.stats['items_translated'] += 1
 
                 # Store processed item
@@ -297,14 +308,33 @@ class HNRSSTranslator:
 
                 processed_items.append(processed_item)
 
-                # Update cache
-                self.cache_manager.set(item['guid'], processed_item)
+                # Update cache (skip items with failed translations so they are retried next run)
+                if translation_failed:
+                    logger.warning(f"Translation failed for {item['title'][:50]}..., not caching item")
+                else:
+                    self.cache_manager.set(item['guid'], processed_item)
 
             except Exception as e:
                 logger.error(f"Failed to process item {item.get('title', 'Unknown')}: {e}")
                 continue
 
         return processed_items
+
+    def _report_translation_failures(self):
+        """Warn when every translation request failed; the feeds are still published."""
+        attempts = self.translator.attempt_count
+        failures = self.translator.failure_count
+        if attempts == 0:
+            return
+
+        logger.info(f"Translation requests: {attempts - failures}/{attempts} succeeded")
+        if failures == attempts:
+            message = (f"All {attempts} translation requests failed; "
+                       "feeds were published with untranslated text")
+            logger.warning(message)
+            if os.environ.get('GITHUB_ACTIONS') == 'true':
+                # Shows up as an annotation on the workflow run summary
+                print(f"::warning title=Translation failed::{message}")
 
     def _get_cached_items(self) -> List[Dict]:
         """
