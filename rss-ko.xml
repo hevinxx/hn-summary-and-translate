@@ -6,13 +6,16 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 14 Oct 2026 23:44:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 03:22:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Things to know when you get cancer – 2026 Edition</title>
+      <title>암에 걸렸을 때 알아야 할 것들</title>
       <link>https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/</link>
-      <description>📝 Look and get through this yourself to see what the options are based on how things have progressed. They also have an interactive navigator. They are great and have good materials and questions to ask your doctors.
+      <description>📝 Look and get through this yourself to see what the options are based on how things have progressed. 또한 대화형 네비게이터도 있습니다. 그들은 훌륭하고 의사에게 물어볼 좋은 자료와 질문을 가지고 있습니다.
+
+
+🔤 Original: Things to know when you get cancer
 
 🔗 Read more: https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/</description>
       <guid isPermaLink="true">https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/</guid>
@@ -20,9 +23,12 @@
       <comments>https://news.ycombinator.com/item?id=50093568</comments>
     </item>
     <item>
-      <title>OpenCode 2.0</title>
+      <title>오픈코드 2.0</title>
       <link>https://anoma.ly/notes/opencode-2-0/</link>
-      <description>📝 execute{ code }›opencode. execute{ code }›opencode. ensure() const client = OpenCode.
+      <description>📝 {코드}&gt;opencode를 실행합니다. {코드}&gt;opencode를 실행합니다. verify() const 클라이언트 = OpenCode.
+
+
+🔤 Original: OpenCode 2.0
 
 🔗 Read more: https://anoma.ly/notes/opencode-2-0/</description>
       <guid isPermaLink="true">https://anoma.ly/notes/opencode-2-0/</guid>
@@ -30,19 +36,12 @@
       <comments>https://news.ycombinator.com/item?id=50094994</comments>
     </item>
     <item>
-      <title>We’re releasing Jev 1.14.0 along with experimental features for dreamers</title>
-      <link>https://typesafe.ai/blog/jev-1-14</link>
-      <description>📝 We made huge leaps and bounds on this one recently, so we’re enabling this only for jev-1. Always favor your own experimentation and evals with your use cases. This is likely biased towards our models.
-
-🔗 Read more: https://typesafe.ai/blog/jev-1-14</description>
-      <guid isPermaLink="true">https://typesafe.ai/blog/jev-1-14</guid>
-      <pubDate>Wed, 14 Oct 2026 21:11:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50095353</comments>
-    </item>
-    <item>
-      <title>Tiny Little Office</title>
+      <title>작은 사무실</title>
       <link>https://tinylittleoffice.com/</link>
-      <description>📝 Tiny Little Office A tiny office suite where the link is the document. Tiny Little Office needs JavaScript to show a document. Agents: https://tinylittleoffice.
+      <description>📝 Tiny Little Office 링크가 문서인 작은 사무실 제품군입니다. Tiny Little Office에서 문서를 표시하려면 JavaScript가 필요합니다. 에이전트: https://tinylittleoffice.
+
+
+🔤 Original: Tiny Little Office
 
 🔗 Read more: https://tinylittleoffice.com/</description>
       <guid isPermaLink="true">https://tinylittleoffice.com/</guid>
@@ -50,39 +49,51 @@
       <comments>https://news.ycombinator.com/item?id=50096142</comments>
     </item>
     <item>
-      <title>Passkeys are not a trap</title>
-      <link>https://scotthelme.co.uk/passkeys-are-not-a-trap/</link>
-      <description>📝 This is the problem that passkeys solve. What You Should DoKeep using passkeys. I wrote about Security considerations when using Passkeys on your website.
+      <title>우리는 몽상가들을 위한 실험적 기능과 함께 Jev 1.14.0을 출시합니다.</title>
+      <link>https://typesafe.ai/blog/jev-1-14</link>
+      <description>📝 우리는 최근 이 기능에 큰 도약을 이루었기 때문에 jev-1에만 이 기능을 활성화하고 있습니다. 항상 자신의 사용 사례에 대한 실험과 평가를 선호하세요. 이는 우리 모델에 편향되어 있을 가능성이 높습니다.
 
-🔗 Read more: https://scotthelme.co.uk/passkeys-are-not-a-trap/</description>
-      <guid isPermaLink="true">https://scotthelme.co.uk/passkeys-are-not-a-trap/</guid>
-      <pubDate>Wed, 14 Oct 2026 15:15:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50088935</comments>
+
+🔤 Original: We’re releasing Jev 1.14.0 along with experimental features for dreamers
+
+🔗 Read more: https://typesafe.ai/blog/jev-1-14</description>
+      <guid isPermaLink="true">https://typesafe.ai/blog/jev-1-14</guid>
+      <pubDate>Wed, 14 Oct 2026 21:11:03 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50095353</comments>
     </item>
     <item>
-      <title>Better HTTP/1 connection reuse in Go 1.27</title>
-      <link>https://go.dev/blog/http-connection-reuse</link>
-      <description>📝 Connection reuse To avoid paying this setup cost on every request, HTTP clients and servers try to reuse existing connections across multiple requests when possible. When connection reuse fails In HTTP/1 (both HTTP/1. ) Where failed connection reuse hurts This subtlety of HTTP/1 connection reuse can cause silent performance degradation in seemingly innocuous code.
+      <title>LFM2.5-24B-A2B: 빠른 온디바이스 에이전트용으로 제작됨</title>
+      <link>https://www.liquid.ai/blog/lfm2-5-24b-a2b</link>
+      <description>📝 5-24B-A2B는 Qwen3과 경쟁적입니다. 5-24B-A2B 교육 후 레시피 교사 전문화 과정 중 LFM2. 5-24B-A2B 벤치마크 성능*.
 
-🔗 Read more: https://go.dev/blog/http-connection-reuse</description>
-      <guid isPermaLink="true">https://go.dev/blog/http-connection-reuse</guid>
-      <pubDate>Wed, 14 Oct 2026 16:29:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50090369</comments>
+
+🔤 Original: LFM2.5-24B-A2B: Built for fast on-device agents
+
+🔗 Read more: https://www.liquid.ai/blog/lfm2-5-24b-a2b</description>
+      <guid isPermaLink="true">https://www.liquid.ai/blog/lfm2-5-24b-a2b</guid>
+      <pubDate>Wed, 14 Oct 2026 23:59:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50097369</comments>
     </item>
     <item>
-      <title>Containment and monitoring failures are to blame for AI hacking reports: experts</title>
-      <link>https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</link>
-      <description>📝 ’” “You can tell that their security teams are fairly nascent,” Lee says. “Folks on the cybersecurity containment side do argue that the majority of reasons that we’re seeing containment breached is that it’s not set up correctly. ” Divorcing safety from security One barrier to persuading frontier labs to up their security game is the intense focus they have on what they call “safety,” which they don’t extend to traditional cybersecurity practices.
+      <title>이중 방향 스택 할당자</title>
+      <link>https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/</link>
+      <description>📝 메모리 할당은 가변적인 양의 메모리가 필요한 성능이 중요한 코드에 대한 큰 주제입니다. 그보다 더 빨라지지는 않습니다. 스택 할당자의 또 다른 장점은 다중 스레드 환경에서 작동할 수 있다는 것입니다.
 
-🔗 Read more: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</description>
-      <guid isPermaLink="true">https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</guid>
-      <pubDate>Wed, 14 Oct 2026 17:45:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50091788</comments>
+
+🔤 Original: The Double Headed Stack Allocator
+
+🔗 Read more: https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/</description>
+      <guid isPermaLink="true">https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/</guid>
+      <pubDate>Thu, 15 Oct 2026 02:06:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50098274</comments>
     </item>
     <item>
-      <title>Americans' social activity has steeply declined in the past 30 years</title>
+      <title>미국인의 사회 활동은 지난 30년 동안 급격히 감소했습니다.</title>
       <link>https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years</link>
-      <description>📝 Tracking data from the American Time Use Survey shows that Americans are spending more time alone and less time with friends than they were two decades ago. This survey finds significant, double-digit declines in Americans’ participation in key social activities from 1995 to 2026. This analysis adds to existing public data on America’s social decline.
+      <description>📝 미국 시간 사용 설문조사(American Time Use Survey)의 추적 데이터에 따르면 미국인들은 20년 전보다 혼자 보내는 시간은 늘어나고 친구들과 보내는 시간은 줄어드는 것으로 나타났습니다. 이 조사에서는 1995년부터 2026년까지 미국인의 주요 사회 활동 참여가 두 자릿수로 크게 감소한 것으로 나타났습니다. 이 분석은 미국의 사회적 쇠퇴에 대한 기존 공개 데이터에 추가됩니다.
+
+
+🔤 Original: Americans' social activity has steeply declined in the past 30 years
 
 🔗 Read more: https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years</description>
       <guid isPermaLink="true">https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years</guid>
@@ -90,9 +101,38 @@
       <comments>https://news.ycombinator.com/item?id=50089921</comments>
     </item>
     <item>
-      <title>Fancy Curl Sites</title>
+      <title>Go 1.27에서 더 나은 HTTP/1 연결 재사용</title>
+      <link>https://go.dev/blog/http-connection-reuse</link>
+      <description>📝 연결 재사용 모든 요청에 ​​대해 이러한 설정 비용을 지불하지 않기 위해 HTTP 클라이언트와 서버는 가능하면 여러 요청에 걸쳐 기존 연결을 재사용하려고 합니다. HTTP/1에서 연결 재사용이 실패하는 경우(HTTP/1 모두.) 실패한 연결 재사용이 해를 끼치는 경우 이러한 HTTP/1 연결 재사용의 미묘함은 겉으로는 무해해 보이는 코드에서 소리 없이 성능 저하를 일으킬 수 있습니다.
+
+
+🔤 Original: Better HTTP/1 connection reuse in Go 1.27
+
+🔗 Read more: https://go.dev/blog/http-connection-reuse</description>
+      <guid isPermaLink="true">https://go.dev/blog/http-connection-reuse</guid>
+      <pubDate>Wed, 14 Oct 2026 16:29:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50090369</comments>
+    </item>
+    <item>
+      <title>AI 해킹 신고는 봉쇄 및 모니터링 실패 탓: 전문가들</title>
+      <link>https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</link>
+      <description>📝 ’” “그들의 보안 팀이 상당히 초기 단계라는 것을 알 수 있습니다.”라고 Lee는 말합니다. “사이버 보안 격리 측면에 있는 사람들은 우리가 격리 실패를 보고 있는 대부분의 이유가 올바르게 설정되지 않았기 때문이라고 주장합니다. ” 보안과 안전의 분리 첨단 연구실이 보안 게임을 강화하도록 설득하는 데 있어 장벽 중 하나는 그들이 "안전"이라고 부르는 것에 집중하는 것인데, 이는 전통적인 사이버 보안 관행으로 확장되지 않습니다.
+
+
+🔤 Original: Containment and monitoring failures are to blame for AI hacking reports: experts
+
+🔗 Read more: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</description>
+      <guid isPermaLink="true">https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html</guid>
+      <pubDate>Wed, 14 Oct 2026 17:45:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50091788</comments>
+    </item>
+    <item>
+      <title>멋진 컬 사이트</title>
       <link>https://nytpu.com/gemlog/2026-03-18</link>
-      <description>📝 com/gemlog/2026-03-18 # or curl nytpu. And not my fault that in Powershell you have to use curl. exe instead of curl because Powershell inexplicably aliases that to Invoke-WebRequest.
+      <description>📝 com/gemlog/2026-03-18 # 또는 컬 nytpu. 그리고 Powershell에서 컬을 사용해야 한다는 것은 내 잘못이 아닙니다. Powershell이 ​​Invoke-WebRequest에 대한 별칭을 설명할 수 없기 때문에 컬 대신 exe를 사용합니다.
+
+
+🔤 Original: Fancy Curl Sites
 
 🔗 Read more: https://nytpu.com/gemlog/2026-03-18</description>
       <guid isPermaLink="true">https://nytpu.com/gemlog/2026-03-18</guid>
@@ -100,19 +140,12 @@
       <comments>https://news.ycombinator.com/item?id=50093612</comments>
     </item>
     <item>
-      <title>Anthropic's Scion is heavily inspired by Mononoke</title>
-      <link>https://sunshowers.io/posts/anthropic-mononoke/</link>
-      <description>📝 Here is Anthropic describing (archive link) yesterday how their new version control system, Scion, uses a concept called “derived data” to make operations like blames more efficient:How Anthropic describes Scion’s derived data. The fact that Sapling was only credited for “hard-won lessons”, and that Mononoke was not mentioned at all, borders on plagiarism. The post comes off as Anthropic claiming that Claude designed all this, while the reality is that our (extraordinary) team at Meta came up with many of the insights that Claude dutifully applied almost a decade later.
-
-🔗 Read more: https://sunshowers.io/posts/anthropic-mononoke/</description>
-      <guid isPermaLink="true">https://sunshowers.io/posts/anthropic-mononoke/</guid>
-      <pubDate>Wed, 14 Oct 2026 20:30:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50094694</comments>
-    </item>
-    <item>
-      <title>Fire at Starlink site in Bulgaria after suspected sabotage in Poland</title>
+      <title>폴란드에서 파괴 행위가 의심되어 불가리아 Starlink 사이트에서 화재 발생</title>
       <link>https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</link>
-      <description>📝 war medtop:20000062 conflict dpasubject:114 internet dpasubject:377 fire medtop:20000150 Bulgaria dpacountry:31 Russia dpacountry:139 Ukraine dpacountry:181 Poland dpacountry:135 updateme dpauserneed:updateme Fire at Starlink site in Bulgaria after suspected sabotage in Poland 14. Pro-Western opposition parties said they suspected Russia was linked to the attack. Sabotage suspectedBulgarian officials stressed that the Starlink facility near Sofia was privately owned.
+      <description>📝 war medtop:20000062 conflict dpasubject:114 internet dpasubject:377 fire medtop:20000150 Bulgaria dpacountry:31 러시아 dpacountry:139 우크라이나 dpacountry:181 폴란드 dpacountry:135 updateme dpauserneed:updateme 폴란드에서 파괴 행위가 의심된 후 불가리아의 Starlink 사이트에서 화재가 발생했습니다. 14. 친서방 야당은 러시아가 연관되어 있다고 의심했다고 말했습니다. 공격에. 방해 행위가 의심되는 불가리아 관리들은 소피아 근처의 Starlink 시설이 개인 소유라고 강조했습니다.
+
+
+🔤 Original: Fire at Starlink site in Bulgaria after suspected sabotage in Poland
 
 🔗 Read more: https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</description>
       <guid isPermaLink="true">https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/</guid>
@@ -120,19 +153,12 @@
       <comments>https://news.ycombinator.com/item?id=50092730</comments>
     </item>
     <item>
-      <title>Yandex outage: data shows that instead of going dark, malicious bots moved</title>
-      <link>https://blog.cloudflare.com/yandex-outage/</link>
-      <description>📝 That was expected: nearly all traffic from Yandex Search and Yandex. Impact on Yandex Search ASN (AS13238): less search crawlingThe decline on Yandex Search ASN was almost entirely search crawling. Sampled requests showed that 78.
-
-🔗 Read more: https://blog.cloudflare.com/yandex-outage/</description>
-      <guid isPermaLink="true">https://blog.cloudflare.com/yandex-outage/</guid>
-      <pubDate>Wed, 14 Oct 2026 20:29:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50094673</comments>
-    </item>
-    <item>
-      <title>Submarine cable resilience</title>
+      <title>해저 케이블 탄력성</title>
       <link>https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</link>
-      <description>📝 The cable surfaces at a cable landing station. Figure 3 — Cable landing station. Cable routing Cable routing is also impo.
+      <description>📝 케이블 랜딩 스테이션의 케이블 표면입니다. 그림 3 - 케이블 랜딩 스테이션. 케이블 라우팅 케이블 라우팅도 임포입니다.
+
+
+🔤 Original: Submarine cable resilience
 
 🔗 Read more: https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</description>
       <guid isPermaLink="true">https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</guid>
@@ -140,9 +166,38 @@
       <comments>https://news.ycombinator.com/item?id=50089229</comments>
     </item>
     <item>
-      <title>Virtual Oxide Labs: Emulating a Full Oxide Rack</title>
+      <title>Anthropic's Scion은 Mononoke에서 많은 영감을 받았습니다.</title>
+      <link>https://sunshowers.io/posts/anthropic-mononoke/</link>
+      <description>📝 다음은 어제 새로운 버전 제어 시스템인 Scion이 "파생 데이터"라는 개념을 사용하여 비난과 같은 작업을 보다 효율적으로 만드는 방법을 설명하는 Anthropic의 설명입니다(아카이브 링크). Anthropic이 Scion의 파생 데이터를 설명하는 방법. 묘목이 "힘들게 얻은 교훈"으로만 인정받고 모노노케가 전혀 언급되지 않았다는 사실은 표절에 가깝습니다. 게시물은 Claude가 이 모든 것을 설계했다고 주장하는 Anthropic으로 나왔지만 현실은 Meta의 우리 (특별한) 팀이 Claude가 거의 10년 후에 성실하게 적용한 많은 통찰력을 생각해 냈다는 것입니다.
+
+
+🔤 Original: Anthropic's Scion is heavily inspired by Mononoke
+
+🔗 Read more: https://sunshowers.io/posts/anthropic-mononoke/</description>
+      <guid isPermaLink="true">https://sunshowers.io/posts/anthropic-mononoke/</guid>
+      <pubDate>Wed, 14 Oct 2026 20:30:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50094694</comments>
+    </item>
+    <item>
+      <title>패스키는 함정이 아닙니다</title>
+      <link>https://scotthelme.co.uk/passkeys-are-not-a-trap/</link>
+      <description>📝 이것은 암호키가 해결하는 문제입니다. 해야 할 일암호 키를 사용하여 유지하십시오. 귀하의 웹사이트에서 암호키를 사용할 때의 보안 고려사항에 대해 글을 썼습니다.
+
+
+🔤 Original: Passkeys are not a trap
+
+🔗 Read more: https://scotthelme.co.uk/passkeys-are-not-a-trap/</description>
+      <guid isPermaLink="true">https://scotthelme.co.uk/passkeys-are-not-a-trap/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:15:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50088935</comments>
+    </item>
+    <item>
+      <title>Virtual Oxide Labs: 전체 산화물 랙 에뮬레이션</title>
       <link>https://oxide.computer/blog/voxel-labs</link>
-      <description>📝 14 Oct 2026Virtual Oxide Labs: Emulating a Full Oxide RackSteve KaramProduct AssuranceThe trouble with testing and developing for rack-scale hardware is that rack-scale is not all that easy to come by. That actually makes things easier. /target/debug/voxel image create --from-tuf.
+      <description>📝 2026년 10월 14일Virtual Oxide Labs: 완전 산화물 랙 에뮬레이션Steve Karam제품 보증랙 규모 하드웨어를 테스트하고 개발할 때의 문제는 랙 규모를 쉽게 얻을 수 없다는 것입니다. 그러면 실제로 일이 더 쉬워집니다. /target/debug/voxel 이미지 생성 --from-tuf.
+
+
+🔤 Original: Virtual Oxide Labs: Emulating a Full Oxide Rack
 
 🔗 Read more: https://oxide.computer/blog/voxel-labs</description>
       <guid isPermaLink="true">https://oxide.computer/blog/voxel-labs</guid>
@@ -150,9 +205,25 @@
       <comments>https://news.ycombinator.com/item?id=50092423</comments>
     </item>
     <item>
-      <title>Suicide rates highest ever among middle-aged men</title>
+      <title>모든 합리주의 블로그 게시물이 너무 긴 이유는 무엇입니까?</title>
+      <link>https://alexwennerberg.com/blog/2026-10-13-long.html</link>
+      <description>📝 모든 합리주의 블로그 게시물이 너무 긴 이유는 무엇입니까? 합리주의 블로거들은 일반적으로 이러한 충동을 갖고 있지 않은 것 같습니다. 이 생태계에서 내가 읽은 거의 모든 블로그 게시물은 심지어 좋은 아이디어가 포함된 드문 게시물이라도 고통스러울 정도로 길고 매우 지루합니다.
+
+
+🔤 Original: Why is every rationalist blog post way too long?
+
+🔗 Read more: https://alexwennerberg.com/blog/2026-10-13-long.html</description>
+      <guid isPermaLink="true">https://alexwennerberg.com/blog/2026-10-13-long.html</guid>
+      <pubDate>Wed, 14 Oct 2026 06:02:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50083028</comments>
+    </item>
+    <item>
+      <title>중년 남성 자살률 역대 최고</title>
       <link>https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/</link>
-      <description>📝 3 deaths per 100,000 people. ”The data show a growing gap in suicide rates between middle-aged men and those aged 25 to 44. 4 among those aged 75 or older.
+      <description>📝 10만명당 사망자는 3명. ”이 데이터는 중년 남성과 25~44세 사이의 자살률 격차가 점점 커지고 있음을 보여줍니다. 75세 이상 남성의 경우 4.
+
+
+🔤 Original: Suicide rates highest ever among middle-aged men
 
 🔗 Read more: https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/</description>
       <guid isPermaLink="true">https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/</guid>
@@ -160,14 +231,17 @@
       <comments>https://news.ycombinator.com/item?id=50093180</comments>
     </item>
     <item>
-      <title>Why is every rationalist blog post way too long?</title>
-      <link>https://alexwennerberg.com/blog/2026-10-13-long.html</link>
-      <description>📝 Why is every rationalist blog post way too long. Rationalist bloggers do not generally appear to have this impulse. Nearly every blog post I have read in this ecosystem, even the rare one that contains some good ideas, is painfully long and extremely tedious.
+      <title>Yandex 중단: 데이터에 따르면 어두워지는 대신 악성 봇이 움직였습니다.</title>
+      <link>https://blog.cloudflare.com/yandex-outage/</link>
+      <description>📝 예상했던 대로 Yandex Search 및 Yandex에서 거의 모든 트래픽이 발생했습니다. Yandex Search ASN(AS13238)에 미치는 영향: 검색 크롤링 감소 Yandex Search ASN의 감소는 거의 전적으로 검색 크롤링이었습니다. 샘플링된 요청은 78개로 나타났습니다.
 
-🔗 Read more: https://alexwennerberg.com/blog/2026-10-13-long.html</description>
-      <guid isPermaLink="true">https://alexwennerberg.com/blog/2026-10-13-long.html</guid>
-      <pubDate>Wed, 14 Oct 2026 06:02:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50083028</comments>
+
+🔤 Original: Yandex outage: data shows that instead of going dark, malicious bots moved
+
+🔗 Read more: https://blog.cloudflare.com/yandex-outage/</description>
+      <guid isPermaLink="true">https://blog.cloudflare.com/yandex-outage/</guid>
+      <pubDate>Wed, 14 Oct 2026 20:29:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50094673</comments>
     </item>
   </channel>
 </rss>
