@@ -6,119 +6,176 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 10:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 16:09:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>Meta의 새로운 상업 용어는 뉴스 사이트의 스크랩을 허용합니다: 전문가</title>
-      <link>https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/</link>
-      <description>📝 업데이트된 약관에는 Meta가 관련 웹사이트에서 수집한 콘텐츠를 사용하여 Meta 제품을 "훈련"할 수 있음이 명시적으로 명시되어 있습니다. Meta는 업데이트된 약관에 관한 질문 목록에 답변을 거부했습니다. 또한 업데이트에는 Meta가 비즈니스 계정과 연결된 웹사이트를 긁어내기 위해 "테스트 자격 증명"을 생성할 수 있다고 명시되어 있습니다.
+      <title>Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD</title>
+      <link>https://calif.io/research/big-fish</link>
+      <description>📝 Repeatedly forking a process with shared memory attachment records could push that counter past its maximum value of 32,767, causing it to wrap to a negative value. Clean up shared memory accounting and restore the overwritten kernel pointer to obtain a root shell. Exploit mitigation While OpenBSD's KARL relinks the kernel binary to randomize both function and data addresses, the kernel's memory allocators remain deterministic.
 
-
-🔤 Original: Meta’s new commercial terms will allow the scraping of news sites: experts
-
-🔗 Read more: https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/</description>
-      <guid isPermaLink="true">https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/</guid>
-      <pubDate>Thu, 15 Oct 2026 23:37:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50111852</comments>
+🔗 Read more: https://calif.io/research/big-fish</description>
+      <guid isPermaLink="true">https://calif.io/research/big-fish</guid>
+      <pubDate>Fri, 16 Oct 2026 14:44:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118977</comments>
     </item>
     <item>
-      <title>당신이 할 수 있는 내부자 거래</title>
-      <link>https://coached.com/essays/the-insider-trading-youre-allowed-to-do/</link>
-      <description>📝 돈을 거래하는 대신, 그들은 자신의 경력을 “거래”했습니다. 이 그림을 로드할 수 없습니다. 거의 모든 사람이 자신이 알고 있는 것과 이에 대해 수행하는 것 사이에 격차가 있습니다. 이는 정상적인 현상입니다.
+      <title>What on Earth Is Dekton?</title>
+      <link>https://www.worksinprogress.news/p/porcelain</link>
+      <description>📝 The first is that Dekton is an artificial material invented by the Spanish company Cosentino in 2013 that is amazingly heat-, pressure-, scratch-, shatter-, and stain-resistant – a high-tech substance that would have been almost impossible to fashion even thirty years ago. The other answer, equally true, is that Dekton is basically porcelain. Potters learned that subjecting this soft, white, unremarkable-looking mud to extreme temperatures produced startling effects.
 
-
-🔤 Original: The insider trading you're allowed to do
-
-🔗 Read more: https://coached.com/essays/the-insider-trading-youre-allowed-to-do/</description>
-      <guid isPermaLink="true">https://coached.com/essays/the-insider-trading-youre-allowed-to-do/</guid>
-      <pubDate>Fri, 16 Oct 2026 07:12:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50115144</comments>
+🔗 Read more: https://www.worksinprogress.news/p/porcelain</description>
+      <guid isPermaLink="true">https://www.worksinprogress.news/p/porcelain</guid>
+      <pubDate>Fri, 16 Oct 2026 14:31:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118828</comments>
     </item>
     <item>
-      <title>RPKI는 이제 인터넷 경로의 70%를 보호합니다.</title>
-      <link>https://ipinfo.io/blog/rpki-protects-70-internet-routes</link>
-      <description>📝 이제 네트워크가 충분히 확인되었으므로 잘못된 경로를 삭제합니다. 회색: RPKI가 유효하지 않은 국가의 라우팅 IPv4 접두사 비율입니다. 파란색: 유효하지 않은 경로의 IPv4 주소 공유. 각 경로를 볼 수 있는 유리한 지점 수에 따라 가중치가 부여됩니다.
+      <title>Apple ML Research: Muse Spark Open with MLX on Mac Studio</title>
+      <link>https://machinelearning.apple.com/research/mlx-distributed-inference</link>
+      <description>📝 Muse Spark Open Decode SpeedContext size of 8,192 tokensFigure 1: Muse Spark Open decode speed in tokens per second, on Mac Studio with M5 Ultra, at a context size of 8,192 tokens. In Figure 2, we compare their inference performance on a single Mac Studio with 512GB of RAM, both on M3 Ultra and M5 Ultra. Here again, that translates directly into generation speed (see Figure 3), with the Mac Studio with M5 Ultra reporting 1.
 
-
-🔤 Original: RPKI now protects 70% of internet routes
-
-🔗 Read more: https://ipinfo.io/blog/rpki-protects-70-internet-routes</description>
-      <guid isPermaLink="true">https://ipinfo.io/blog/rpki-protects-70-internet-routes</guid>
-      <pubDate>Fri, 16 Oct 2026 00:52:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50112330</comments>
+🔗 Read more: https://machinelearning.apple.com/research/mlx-distributed-inference</description>
+      <guid isPermaLink="true">https://machinelearning.apple.com/research/mlx-distributed-inference</guid>
+      <pubDate>Fri, 16 Oct 2026 13:43:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118320</comments>
     </item>
     <item>
-      <title>폴더 프로그래밍 언어</title>
-      <link>https://danieltemkin.com/esolangs/folders</link>
-      <guid isPermaLink="true">https://danieltemkin.com/esolangs/folders</guid>
-      <pubDate>Fri, 16 Oct 2026 05:11:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50114342</comments>
+      <title>I Love Software Rendering</title>
+      <link>https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</link>
+      <description>📝 I love software rendering. It’s how the games were built. Doom and the Build engine games were designed around their software renderers from the start.
+
+🔗 Read more: https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</description>
+      <guid isPermaLink="true">https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</guid>
+      <pubDate>Fri, 16 Oct 2026 12:52:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50117746</comments>
     </item>
     <item>
-      <title>Mac, iPhone, iPad의 모든 창</title>
-      <link>https://github.com/Saffsanity/sill</link>
-      <description>📝 Mac, iPhone 및 iPad의 모든 창을 닫습니다. Sill은 iPhone 또는 iPad에서 Mac 또는 전체 데스크탑의 창을 표시합니다. 근처의 기기는 로컬 네트워크에서 Bonjour가 있는 Mac을 찾습니다.
+      <title>Show HN: Gemini 4 Argon plays StarCraft</title>
+      <link>https://starskirmish.com/bench/v0-2/</link>
+      <description>📝 StarSkirmish Bench v0. StarSkirmish Bench vs. Win rates vs the top human written bots Average win rate of each model's 5 bots against top human written bots Stardust, PurpleWave, and BananaBrain.
 
-
-🔤 Original: Any window from your Mac, on your iPhone and iPad
-
-🔗 Read more: https://github.com/Saffsanity/sill</description>
-      <guid isPermaLink="true">https://github.com/Saffsanity/sill</guid>
-      <pubDate>Fri, 16 Oct 2026 01:43:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50112739</comments>
+🔗 Read more: https://starskirmish.com/bench/v0-2/</description>
+      <guid isPermaLink="true">https://starskirmish.com/bench/v0-2/</guid>
+      <pubDate>Fri, 16 Oct 2026 14:18:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118688</comments>
     </item>
     <item>
-      <title>고마워요, 데노</title>
-      <link>https://www.vlt.io/blog/competition-keeps-javascript-moving</link>
-      <description>📝 Darcy ClarkeDarcy Clarke2026년 10월 14일Ryan Dahl은 지난 주 Deno 팀이 Cloudflare에 합류한다고 발표했습니다. 데노는 깔끔한 휴식으로 시작했다. 종속성은 URL이었습니다.
+      <title>How to Formalize All of Mathematics</title>
+      <link>https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</link>
+      <description>📝 If done well, a large-scale, coordinated formalization effort could enormously expand mathematical exploration and discovery. We prefer to see formalization done well. The concerns Let’s start with the observation that a formal artifact is not worth much if nobody uses it.
 
-
-🔤 Original: Thank You, Deno
-
-🔗 Read more: https://www.vlt.io/blog/competition-keeps-javascript-moving</description>
-      <guid isPermaLink="true">https://www.vlt.io/blog/competition-keeps-javascript-moving</guid>
-      <pubDate>Fri, 16 Oct 2026 00:52:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50112331</comments>
+🔗 Read more: https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</description>
+      <guid isPermaLink="true">https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</guid>
+      <pubDate>Fri, 16 Oct 2026 14:01:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118512</comments>
     </item>
     <item>
-      <title>Google과 Igalia의 Chromium 개발 비교</title>
-      <link>https://lwn.net/Articles/1094721/</link>
-      <description>📝 구글은 기관투자가들이 소유한 반면, 이갈리아는 직원들이 소유한 것이라며 청중들은 박수를 보냈다. Chrome은 Google 브랜드와 색상이 포함된 Google 제품인 반면, Chromium은 누구나 브라우저를 구축하는 데 사용할 수 있는 오픈 소스 프로젝트입니다. 분명히 독점 부분은 다른 곳에서 처리되지만 그녀와 다른 Google Chrome 개발자는 해당 코드와 상호 작용할 필요가 거의 없습니다.
-
-
-🔤 Original: Comparing Chromium Development at Google and Igalia
-
-🔗 Read more: https://lwn.net/Articles/1094721/</description>
-      <guid isPermaLink="true">https://lwn.net/Articles/1094721/</guid>
-      <pubDate>Fri, 16 Oct 2026 01:56:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50112887</comments>
+      <title>Is Liquid Metal Killing Our PCs? Scientific Analysis and a 2-Year Test [video]</title>
+      <link>https://www.youtube.com/watch?v=eF6bMSjPepM</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=eF6bMSjPepM</guid>
+      <pubDate>Thu, 15 Oct 2026 23:23:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50111752</comments>
     </item>
     <item>
-      <title>AI를 사용하여 하드웨어 리버스 엔지니어링</title>
-      <link>https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/</link>
-      <description>📝 스캐너의 칩셋이 Linux에서 더 이상 지원되지 않는 칩셋으로 변경되었음을 발견했습니다. 수천 줄의 USB 캡처를 읽을 수 있으며, 한 바이트 변경 시 시퀀스가 ​​반복되는 것을 확인하고 해당 바이트의 의미를 제안할 수 있습니다. 자신의 드라이버를 사용하여 Linux에서 동일한 작업을 반복하고 동일한 방식으로 캡처합니다.
+      <title>RFC8950: Announce IPv4 with an IPv6 next-hop</title>
+      <link>https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</link>
+      <description>📝 An IP transit backbone can run IPv6 only while exchanging IPv4 routes with its customers/peers/upstream over IPv6 sessions. Multi-protocol BGP (MP-BGP) supports announcement of IPv4 routes over IPv6 sessions with IPv4 next-hops and IPv6 routes over IPv4 sessions with IPv6 next-hops. RFC8950 extends this feature for IPv4 to have IPv6 next-hops.
 
-
-🔤 Original: Using AI to reverse engineer hardware
-
-🔗 Read more: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/</description>
-      <guid isPermaLink="true">https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/</guid>
-      <pubDate>Thu, 15 Oct 2026 14:35:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50104299</comments>
+🔗 Read more: https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</description>
+      <guid isPermaLink="true">https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:38:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118267</comments>
     </item>
     <item>
-      <title>BeBox는 Be Inc.의 BeBox를 에뮬레이트하는 Haiku 응용 프로그램입니다.</title>
-      <link>https://github.com/johnrash/bebox</link>
-      <description>📝 이는 개발자 릴리스 6부터 R5까지의 PowerPC용 BeOS를 사용하여 원래 부팅 ROM에서 두 PowerPC 모델을 모두 실행합니다. 또한 두 개의 AT&amp;T Hobbit 프로세서를 중심으로 구축된 이전의 Hobbit 프로토타입을 실행하며 Be의 1993-94 시스템은 남아 있는 디스크에서 사용됩니다. 최신 부팅 ROM은 아직 부팅 볼륨이 설정되지 않은 경우 부팅 메뉴에서 중지됩니다. Return 키를 누르세요.
+      <title>Show HN: OneDeploy – Managed open-source apps with nightly backups and TLS</title>
+      <link>https://onedeploy.co</link>
+      <description>📝 88 open-source apps · Live in minutesThe apps your team wants, on a server that’s only yoursPick an app, a region and a plan. Delete anytime and billing stops. SearchDeploy an appBrowse all appsNo per-user feesNightly backups includedDelete anytime.
 
+🔗 Read more: https://onedeploy.co</description>
+      <guid isPermaLink="true">https://onedeploy.co</guid>
+      <pubDate>Fri, 16 Oct 2026 15:38:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50119752</comments>
+    </item>
+    <item>
+      <title>America's Wumao: Inside Polymarket's Paid Quote-Retweet Esports Program</title>
+      <link>https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation</link>
+      <description>📝 I’ll also include some outtakes from this story: reporting that just didn’t make sense for this particular piece. Polymarket, the prediction market platform, is paying social media users to quote-retweet content from its branded esports accounts. Polymarket offers two products: Polymarket Global, which is inaccessible to bettors in the United States, and Polymarket US, which is subject to U.
 
-🔤 Original: BeBox is a Haiku application that emulates Be Inc.'s BeBox
+🔗 Read more: https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation</description>
+      <guid isPermaLink="true">https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation</guid>
+      <pubDate>Fri, 16 Oct 2026 15:56:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50120010</comments>
+    </item>
+    <item>
+      <title>How to make System 1 LLMs show System 2 competencies?</title>
+      <link>https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113</link>
+      <guid isPermaLink="true">https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113</guid>
+      <pubDate>Fri, 16 Oct 2026 14:16:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118662</comments>
+    </item>
+    <item>
+      <title>What was a Token Ring network?</title>
+      <link>https://dfarq.homeip.net/what-was-a-token-ring-network/</link>
+      <description>📝 Ethernet versus Token RingThis Intel Token Ring card can pass for Ethernet. Ethernet never used that. Of course Ethernet won.
 
-🔗 Read more: https://github.com/johnrash/bebox</description>
-      <guid isPermaLink="true">https://github.com/johnrash/bebox</guid>
-      <pubDate>Thu, 15 Oct 2026 23:22:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50111742</comments>
+🔗 Read more: https://dfarq.homeip.net/what-was-a-token-ring-network/</description>
+      <guid isPermaLink="true">https://dfarq.homeip.net/what-was-a-token-ring-network/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:43:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118318</comments>
+    </item>
+    <item>
+      <title>Hello Toronto – Waymo Is En Route</title>
+      <link>https://waymo.com/blog/2026/10/waymo-in-toronto/</link>
+      <description>📝 Waymo is officially heading to Canada. ”To serve Toronto, we’re partnering with Element Fleet Management, a Toronto-headquartered company and global leader in intelligent fleet and mobility solutions that will provide end-to-end fleet management services. Waymo arrive officiellement au Canada.
+
+🔗 Read more: https://waymo.com/blog/2026/10/waymo-in-toronto/</description>
+      <guid isPermaLink="true">https://waymo.com/blog/2026/10/waymo-in-toronto/</guid>
+      <pubDate>Fri, 16 Oct 2026 14:44:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118981</comments>
+    </item>
+    <item>
+      <title>Bark: The Toll-Free BBS for 90s Teens</title>
+      <link>https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens</link>
+      <description>📝 Our family's second computer came from Sam's Club. (Nostalgic Modem Noises) Most importantly, it came with a dial-up modem. These were computers connected to phone lines.
+
+🔗 Read more: https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens</description>
+      <guid isPermaLink="true">https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens</guid>
+      <pubDate>Fri, 16 Oct 2026 12:22:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50117504</comments>
+    </item>
+    <item>
+      <title>Show HN: Grimoire for Biology</title>
+      <link>https://grimoire.bio</link>
+      <guid isPermaLink="true">https://grimoire.bio</guid>
+      <pubDate>Fri, 16 Oct 2026 14:41:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118950</comments>
+    </item>
+    <item>
+      <title>Tesla Unveils 'Flying' Roadster with SpaceX Thrusters [video]</title>
+      <link>https://www.youtube.com/watch?v=eqOfmtTJD1A</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=eqOfmtTJD1A</guid>
+      <pubDate>Fri, 16 Oct 2026 14:12:15 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118624</comments>
+    </item>
+    <item>
+      <title>Show HN: rStation – A shared research lab for your AI agents</title>
+      <link>https://rstation.ai/</link>
+      <description>📝 A Research Community for AI AgentsIndependent agents discuss research problems and publish reviewed papers. Humans welcome to observe. Send your agent to rStationChoose a problemA rational Diophantine septuple Epoch AIThe Earth–Moon problem Epoch AINo three in a line Epoch AIRiemann hypothesis Millennium Prize ProblemsHodge conjecture Millennium Prize ProblemsStrongly regular graphs Brouwer’s graph tablesMath · AI · Computer science · General · Reviewed papers.
+
+🔗 Read more: https://rstation.ai/</description>
+      <guid isPermaLink="true">https://rstation.ai/</guid>
+      <pubDate>Fri, 16 Oct 2026 14:35:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118876</comments>
+    </item>
+    <item>
+      <title>My old job feels distant now</title>
+      <link>https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/</link>
+      <description>📝 Tab completion was more natural. But this was different. Agentic programming came soon next.
+
+🔗 Read more: https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/</description>
+      <guid isPermaLink="true">https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:18:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118048</comments>
     </item>
   </channel>
 </rss>
