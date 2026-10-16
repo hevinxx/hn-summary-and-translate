@@ -6,127 +6,69 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 16:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:35:48 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD</title>
-      <link>https://calif.io/research/big-fish</link>
-      <description>📝 Repeatedly forking a process with shared memory attachment records could push that counter past its maximum value of 32,767, causing it to wrap to a negative value. Clean up shared memory accounting and restore the overwritten kernel pointer to obtain a root shell. Exploit mitigation While OpenBSD's KARL relinks the kernel binary to randomize both function and data addresses, the kernel's memory allocators remain deterministic.
+      <title>テスラ ロードスター</title>
+      <link>https://www.tesla.com/roadster</link>
+      <guid isPermaLink="true">https://www.tesla.com/roadster</guid>
+      <pubDate>Fri, 16 Oct 2026 01:32:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50112657</comments>
+    </item>
+    <item>
+      <title>クロードがECDSA曲線の起源を明らかにする</title>
+      <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
+      <description>📝 これらの発見により、その可能性ははるかに低くなります。クロード氏は、このソフトウェアでは 1990 年代の C ライブラリに同梱されていた擬似乱数生成器 (PRNG) が使用されていると推測しました。それは確率1/5810で偶然に起こります。
 
-🔗 Read more: https://calif.io/research/big-fish</description>
-      <guid isPermaLink="true">https://calif.io/research/big-fish</guid>
-      <pubDate>Fri, 16 Oct 2026 14:44:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118977</comments>
-    </item>
-    <item>
-      <title>What on Earth Is Dekton?</title>
-      <link>https://www.worksinprogress.news/p/porcelain</link>
-      <description>📝 The first is that Dekton is an artificial material invented by the Spanish company Cosentino in 2013 that is amazingly heat-, pressure-, scratch-, shatter-, and stain-resistant – a high-tech substance that would have been almost impossible to fashion even thirty years ago. The other answer, equally true, is that Dekton is basically porcelain. Potters learned that subjecting this soft, white, unremarkable-looking mud to extreme temperatures produced startling effects.
 
-🔗 Read more: https://www.worksinprogress.news/p/porcelain</description>
-      <guid isPermaLink="true">https://www.worksinprogress.news/p/porcelain</guid>
-      <pubDate>Fri, 16 Oct 2026 14:31:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118828</comments>
-    </item>
-    <item>
-      <title>Apple ML Research: Muse Spark Open with MLX on Mac Studio</title>
-      <link>https://machinelearning.apple.com/research/mlx-distributed-inference</link>
-      <description>📝 Muse Spark Open Decode SpeedContext size of 8,192 tokensFigure 1: Muse Spark Open decode speed in tokens per second, on Mac Studio with M5 Ultra, at a context size of 8,192 tokens. In Figure 2, we compare their inference performance on a single Mac Studio with 512GB of RAM, both on M3 Ultra and M5 Ultra. Here again, that translates directly into generation speed (see Figure 3), with the Mac Studio with M5 Ultra reporting 1.
+🔤 Original: Claude reveals ECDSA curve origins
 
-🔗 Read more: https://machinelearning.apple.com/research/mlx-distributed-inference</description>
-      <guid isPermaLink="true">https://machinelearning.apple.com/research/mlx-distributed-inference</guid>
-      <pubDate>Fri, 16 Oct 2026 13:43:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118320</comments>
+🔗 Read more: https://www.anthropic.com/research/ecdsa-curve-origins</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
+      <pubDate>Fri, 16 Oct 2026 18:55:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122800</comments>
     </item>
     <item>
-      <title>I Love Software Rendering</title>
-      <link>https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</link>
-      <description>📝 I love software rendering. It’s how the games were built. Doom and the Build engine games were designed around their software renderers from the start.
+      <title>ジェイルブレイクされた PS5 上の Llama.cpp: コンソール上で任意の GGUF モデルをネイティブに実行します</title>
+      <link>https://github.com/cobanov/PS5LM</link>
+      <description>📝 PS5LM Your PS5 runs the language model.それはあなたのネットワークに答えます。 9 s Ollaya を利用した意思決定モデル Ollaya は、Ollama が言語モデルを実行するのと同じように、PC 上でオープンな意思決定モデルを実行します。
 
-🔗 Read more: https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</description>
-      <guid isPermaLink="true">https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</guid>
-      <pubDate>Fri, 16 Oct 2026 12:52:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50117746</comments>
-    </item>
-    <item>
-      <title>Show HN: Gemini 4 Argon plays StarCraft</title>
-      <link>https://starskirmish.com/bench/v0-2/</link>
-      <description>📝 StarSkirmish Bench v0. StarSkirmish Bench vs. Win rates vs the top human written bots Average win rate of each model's 5 bots against top human written bots Stardust, PurpleWave, and BananaBrain.
 
-🔗 Read more: https://starskirmish.com/bench/v0-2/</description>
-      <guid isPermaLink="true">https://starskirmish.com/bench/v0-2/</guid>
-      <pubDate>Fri, 16 Oct 2026 14:18:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118688</comments>
-    </item>
-    <item>
-      <title>How to Formalize All of Mathematics</title>
-      <link>https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</link>
-      <description>📝 If done well, a large-scale, coordinated formalization effort could enormously expand mathematical exploration and discovery. We prefer to see formalization done well. The concerns Let’s start with the observation that a formal artifact is not worth much if nobody uses it.
+🔤 Original: Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console
 
-🔗 Read more: https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</description>
-      <guid isPermaLink="true">https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</guid>
-      <pubDate>Fri, 16 Oct 2026 14:01:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118512</comments>
+🔗 Read more: https://github.com/cobanov/PS5LM</description>
+      <guid isPermaLink="true">https://github.com/cobanov/PS5LM</guid>
+      <pubDate>Fri, 16 Oct 2026 18:32:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122431</comments>
     </item>
     <item>
-      <title>Is Liquid Metal Killing Our PCs? Scientific Analysis and a 2-Year Test [video]</title>
-      <link>https://www.youtube.com/watch?v=eF6bMSjPepM</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=eF6bMSjPepM</guid>
-      <pubDate>Thu, 15 Oct 2026 23:23:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50111752</comments>
+      <title>911の致命的な欠陥</title>
+      <link>https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health</link>
+      <guid isPermaLink="true">https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health</guid>
+      <pubDate>Fri, 16 Oct 2026 19:33:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50123356</comments>
     </item>
     <item>
-      <title>RFC8950: Announce IPv4 with an IPv6 next-hop</title>
-      <link>https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</link>
-      <description>📝 An IP transit backbone can run IPv6 only while exchanging IPv4 routes with its customers/peers/upstream over IPv6 sessions. Multi-protocol BGP (MP-BGP) supports announcement of IPv4 routes over IPv6 sessions with IPv4 next-hops and IPv6 routes over IPv4 sessions with IPv6 next-hops. RFC8950 extends this feature for IPv4 to have IPv6 next-hops.
+      <title>Flux 3 Image Klein: オープンウェイト、5.6B パラメータ</title>
+      <link>https://bfl.ai/blog/flux-3-image-klein</link>
+      <description>📝 テキストから画像への生成、画像編集、および最大 10 個の参照画像を使用したマルチ参照生成のための 6B パラメーターのオープン ウェイト モデル。 FLUX 3 Image Klein もコンシューマ GPU 向けに最適化されています。 FLUX 3 Image Klein はサーバー上で計測されました。
 
-🔗 Read more: https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</description>
-      <guid isPermaLink="true">https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:38:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118267</comments>
-    </item>
-    <item>
-      <title>Show HN: OneDeploy – Managed open-source apps with nightly backups and TLS</title>
-      <link>https://onedeploy.co</link>
-      <description>📝 88 open-source apps · Live in minutesThe apps your team wants, on a server that’s only yoursPick an app, a region and a plan. Delete anytime and billing stops. SearchDeploy an appBrowse all appsNo per-user feesNightly backups includedDelete anytime.
 
-🔗 Read more: https://onedeploy.co</description>
-      <guid isPermaLink="true">https://onedeploy.co</guid>
-      <pubDate>Fri, 16 Oct 2026 15:38:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50119752</comments>
-    </item>
-    <item>
-      <title>America's Wumao: Inside Polymarket's Paid Quote-Retweet Esports Program</title>
-      <link>https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation</link>
-      <description>📝 I’ll also include some outtakes from this story: reporting that just didn’t make sense for this particular piece. Polymarket, the prediction market platform, is paying social media users to quote-retweet content from its branded esports accounts. Polymarket offers two products: Polymarket Global, which is inaccessible to bettors in the United States, and Polymarket US, which is subject to U.
+🔤 Original: Flux 3 Image Klein: open weights, 5.6B parameters
 
-🔗 Read more: https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation</description>
-      <guid isPermaLink="true">https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation</guid>
-      <pubDate>Fri, 16 Oct 2026 15:56:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50120010</comments>
+🔗 Read more: https://bfl.ai/blog/flux-3-image-klein</description>
+      <guid isPermaLink="true">https://bfl.ai/blog/flux-3-image-klein</guid>
+      <pubDate>Fri, 16 Oct 2026 19:47:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50123580</comments>
     </item>
     <item>
-      <title>How to make System 1 LLMs show System 2 competencies?</title>
-      <link>https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113</link>
-      <guid isPermaLink="true">https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113</guid>
-      <pubDate>Fri, 16 Oct 2026 14:16:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118662</comments>
-    </item>
-    <item>
-      <title>What was a Token Ring network?</title>
-      <link>https://dfarq.homeip.net/what-was-a-token-ring-network/</link>
-      <description>📝 Ethernet versus Token RingThis Intel Token Ring card can pass for Ethernet. Ethernet never used that. Of course Ethernet won.
-
-🔗 Read more: https://dfarq.homeip.net/what-was-a-token-ring-network/</description>
-      <guid isPermaLink="true">https://dfarq.homeip.net/what-was-a-token-ring-network/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:43:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118318</comments>
-    </item>
-    <item>
-      <title>Hello Toronto – Waymo Is En Route</title>
+      <title>トロントのウェイモ</title>
       <link>https://waymo.com/blog/2026/10/waymo-in-toronto/</link>
-      <description>📝 Waymo is officially heading to Canada. ”To serve Toronto, we’re partnering with Element Fleet Management, a Toronto-headquartered company and global leader in intelligent fleet and mobility solutions that will provide end-to-end fleet management services. Waymo arrive officiellement au Canada.
+      <description>📝 Waymoは正式にカナダに向かう。 「トロントにサービスを提供するために、私たちはトロントに本社を置き、エンドツーエンドのフリート管理サービスを提供するインテリジェントフリートおよびモビリティソリューションの世界的リーダーであるElement Fleet Managementと提携しています。Waymoはカナダのオフィスに到着しました。」
+
+
+🔤 Original: Waymo in Toronto
 
 🔗 Read more: https://waymo.com/blog/2026/10/waymo-in-toronto/</description>
       <guid isPermaLink="true">https://waymo.com/blog/2026/10/waymo-in-toronto/</guid>
@@ -134,48 +76,239 @@
       <comments>https://news.ycombinator.com/item?id=50118981</comments>
     </item>
     <item>
-      <title>Bark: The Toll-Free BBS for 90s Teens</title>
-      <link>https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens</link>
-      <description>📝 Our family's second computer came from Sam's Club. (Nostalgic Modem Noises) Most importantly, it came with a dial-up modem. These were computers connected to phone lines.
+      <title>Web ユースケースにおける JPEG XL と AVIF</title>
+      <link>https://jakearchibald.com/2026/jpeg-xl-vs-avif/</link>
+      <description>📝 透明度のある画像の場合、AVIF は JPEG XL よりもはるかに優れています。 AVIF の方がデコードが速いです。 AVIF はプログレッシブ レンダリングをサポートしています。
 
-🔗 Read more: https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens</description>
-      <guid isPermaLink="true">https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens</guid>
-      <pubDate>Fri, 16 Oct 2026 12:22:13 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50117504</comments>
-    </item>
-    <item>
-      <title>Show HN: Grimoire for Biology</title>
-      <link>https://grimoire.bio</link>
-      <guid isPermaLink="true">https://grimoire.bio</guid>
-      <pubDate>Fri, 16 Oct 2026 14:41:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118950</comments>
-    </item>
-    <item>
-      <title>Tesla Unveils 'Flying' Roadster with SpaceX Thrusters [video]</title>
-      <link>https://www.youtube.com/watch?v=eqOfmtTJD1A</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=eqOfmtTJD1A</guid>
-      <pubDate>Fri, 16 Oct 2026 14:12:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118624</comments>
-    </item>
-    <item>
-      <title>Show HN: rStation – A shared research lab for your AI agents</title>
-      <link>https://rstation.ai/</link>
-      <description>📝 A Research Community for AI AgentsIndependent agents discuss research problems and publish reviewed papers. Humans welcome to observe. Send your agent to rStationChoose a problemA rational Diophantine septuple Epoch AIThe Earth–Moon problem Epoch AINo three in a line Epoch AIRiemann hypothesis Millennium Prize ProblemsHodge conjecture Millennium Prize ProblemsStrongly regular graphs Brouwer’s graph tablesMath · AI · Computer science · General · Reviewed papers.
 
-🔗 Read more: https://rstation.ai/</description>
-      <guid isPermaLink="true">https://rstation.ai/</guid>
-      <pubDate>Fri, 16 Oct 2026 14:35:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118876</comments>
+🔤 Original: JPEG XL vs. AVIF for web use-cases
+
+🔗 Read more: https://jakearchibald.com/2026/jpeg-xl-vs-avif/</description>
+      <guid isPermaLink="true">https://jakearchibald.com/2026/jpeg-xl-vs-avif/</guid>
+      <pubDate>Fri, 16 Oct 2026 16:12:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50120224</comments>
     </item>
     <item>
-      <title>My old job feels distant now</title>
-      <link>https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/</link>
-      <description>📝 Tab completion was more natural. But this was different. Agentic programming came soon next.
+      <title>クロードとともにより効率的な量子回路を設計する</title>
+      <link>https://www.anthropic.com/research/designing-efficient-quantum-circuits</link>
+      <description>📝 このような改善により、有用なアプリケーションに必要な量子リソースが大幅に削減されるため、実用的な量子コンピューターが以前の予想よりも早く登場する可能性があります。まず、量子アルゴリズムは量子回路として実装されます。クロードは、化学、最適化、量子シミュレーション、数論、数値計算のための 8 つの計算プリミティブ (大規模な量子アルゴリズムを構築する基本ルーチン) にわたって、両方の使用量が少ない新しい設計を発見しました。
 
-🔗 Read more: https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/</description>
-      <guid isPermaLink="true">https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:18:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50118048</comments>
+
+🔤 Original: Designing more efficient quantum circuits with Claude
+
+🔗 Read more: https://www.anthropic.com/research/designing-efficient-quantum-circuits</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
+      <pubDate>Fri, 16 Oct 2026 18:00:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50121939</comments>
+    </item>
+    <item>
+      <title>米国の労働時間の 90% は、AI ベンチマークでは十分にカバーされていないタスクに費やされています</title>
+      <link>https://www.mercor.com/research/labor-index/benchmark-map/</link>
+      <description>📝 単一のベンチマーク プロンプトを複数の O*NET タスクにマッピングできます。私たちの調査結果は、アメリカ人の労働時間の 90% が、既存のベンチマークからほとんど、またはまったくカバーされていないタスクに費やされていることを示唆しています。既存のベンチマークの範囲もランダムではありません。
+
+
+🔤 Original: 90% of US working hours are spent on tasks not covered well by AI benchmarks
+
+🔗 Read more: https://www.mercor.com/research/labor-index/benchmark-map/</description>
+      <guid isPermaLink="true">https://www.mercor.com/research/labor-index/benchmark-map/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:08:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50121179</comments>
+    </item>
+    <item>
+      <title>Apple ML Research: Mac Studio の MLX で Muse Spark を開く</title>
+      <link>https://machinelearning.apple.com/research/mlx-distributed-inference</link>
+      <description>📝 Muse Spark Open デコード速度コンテキスト サイズ 8,192 トークン図 1: M5 Ultra を搭載した Mac Studio で、コンテキスト サイズ 8,192 トークンの Muse Spark Open デコード速度 (トークン/秒)。図 2 では、M3 Ultra と M5 Ultra の両方で、512 GB の RAM を搭載した単一の Mac Studio での推論パフォーマンスを比較しています。ここでも、これは生成速度に直接変換されます (図 3 を参照)。M5 Ultra を搭載した Mac Studio では 1 が報告されています。
+
+
+🔤 Original: Apple ML Research: Muse Spark Open with MLX on Mac Studio
+
+🔗 Read more: https://machinelearning.apple.com/research/mlx-distributed-inference</description>
+      <guid isPermaLink="true">https://machinelearning.apple.com/research/mlx-distributed-inference</guid>
+      <pubDate>Fri, 16 Oct 2026 13:43:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118320</comments>
+    </item>
+    <item>
+      <title>C++26: 新しいデバッグ ヘッダー</title>
+      <link>https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging</link>
+      <description>📝 これが内部でどのように機能するかはプラットフォームによって異なります。そうでないときは、何も起こりません。 Catch2、Boostするパターンです。
+
+
+🔤 Original: C++26: The New Debugging Header
+
+🔗 Read more: https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging</description>
+      <guid isPermaLink="true">https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging</guid>
+      <pubDate>Fri, 16 Oct 2026 18:52:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122736</comments>
+    </item>
+    <item>
+      <title>Claude Code チームがコードレビューを行う方法</title>
+      <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
+      <description>📝 クロードがクロード コード自身のコードの約 90 パーセントを作成していると以前に述べました。この投稿では、Claude Code チームのコード レビュー フローとそれがどのように進化したかについて説明します。レビューは削除しませんでした。
+
+
+🔤 Original: How the Claude Code team does code review
+
+🔗 Read more: https://claude.dev/blog/solving-code-review-at-anthropic/</description>
+      <guid isPermaLink="true">https://claude.dev/blog/solving-code-review-at-anthropic/</guid>
+      <pubDate>Fri, 16 Oct 2026 19:04:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122951</comments>
+    </item>
+    <item>
+      <title>ピラミダル (YC W24) が人材を募集しています</title>
+      <link>https://job-boards.greenhouse.io/piramidalinc/jobs/4443102009</link>
+      <description>📝 候補者は米国の就労許可を持っている必要があります。生の神経学的データからそこから派生するすべての時系列に至るまで、高頻度の時系列データのデータ モデル、取り込みパイプライン、保持を設計、維持、改善します。モデル提供 (PyTorch) ヘルスケアまたはその他の規制されたソフトウェアでの作業。
+
+
+🔤 Original: Piramidal (YC W24) Is Hiring
+
+🔗 Read more: https://job-boards.greenhouse.io/piramidalinc/jobs/4443102009</description>
+      <guid isPermaLink="true">https://job-boards.greenhouse.io/piramidalinc/jobs/4443102009</guid>
+      <pubDate>Fri, 16 Oct 2026 17:08:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50121188</comments>
+    </item>
+    <item>
+      <title>eBay、無線機器の出品を制限、ハムバンド専用機器は除外</title>
+      <link>https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear</link>
+      <description>📝 「従来の通信システムの信頼性は長年にわたって大幅に向上していますが、アマチュア無線は引き続き信頼できる補助通信リソースとして機能します」と、W4CPD、サンタローザ郡コミュニティ緊急対応チーム (CERT) およびアマチュア無線緊急サービス (ARES) プログラム マネージャーのアーク テムズ氏は述べています。 「テムズ氏はまた、ARRL北フロリダ支部の緊急コーディネーターおよびフロリダ州緊急事態管理局へのアマチュア無線連絡役も務めており、州全体のアマチュア無線および補助通信リソースの調整をサポートしています。「フロリダに影響を与える熱帯気象現象の間、私たちの補助通信チームは、タラハシーの州緊急オペレーションセンターでアマチュア無線通信を監視するボランティアのオペレーターを提供しています」とテムズ氏は説明した。
+
+
+🔤 Original: eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear
+
+🔗 Read more: https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear</description>
+      <guid isPermaLink="true">https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear</guid>
+      <pubDate>Fri, 16 Oct 2026 18:06:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122034</comments>
+    </item>
+    <item>
+      <title>Big Fish: OpenBSD の 37 年前のカーネル バグを悪用</title>
+      <link>https://calif.io/research/big-fish</link>
+      <description>📝 共有メモリ接続レコードを使用してプロセスを繰り返しフォークすると、そのカウンターが最大値の 32,767 を超えて、負の値にラップする可能性があります。共有メモリ アカウンティングをクリーンアップし、上書きされたカーネル ポインタを復元してルート シェルを取得します。エクスプロイトの軽減 OpenBSD の KARL はカーネル バイナリを再リンクして関数アドレスとデータ アドレスの両方をランダム化しますが、カーネルのメモリ アロケータは決定的なままです。
+
+
+🔤 Original: Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD
+
+🔗 Read more: https://calif.io/research/big-fish</description>
+      <guid isPermaLink="true">https://calif.io/research/big-fish</guid>
+      <pubDate>Fri, 16 Oct 2026 14:44:02 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118977</comments>
+    </item>
+    <item>
+      <title>Show HN: Gemini 4 Argon が StarCraft をプレイ</title>
+      <link>https://starskirmish.com/bench/v0-2/</link>
+      <description>📝 スタースカーミッシュ ベンチ v0. StarSkirmish ベンチ対勝率対人間が作成したトップ ボット Stardust、PurpleWave、BananaBrain に対する各モデルの 5 つのボットの平均勝率。
+
+
+🔤 Original: Show HN: Gemini 4 Argon plays StarCraft
+
+🔗 Read more: https://starskirmish.com/bench/v0-2/</description>
+      <guid isPermaLink="true">https://starskirmish.com/bench/v0-2/</guid>
+      <pubDate>Fri, 16 Oct 2026 14:18:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118688</comments>
+    </item>
+    <item>
+      <title>/dev/null: 開発者向けのソーシャル ネットワーク</title>
+      <link>https://dev-null.sh</link>
+      <description>📝 41QuoteReplyMmathiasonea@mathiasonea · さて、あなたの話は何ですか。返信もっと見るSSimon@simonhamp·8h6f394de何かが来ています。 SSimon@simonhamp・8h を引用すると何かが来ます。
+
+
+🔤 Original: /dev/null: social network for developers
+
+🔗 Read more: https://dev-null.sh</description>
+      <guid isPermaLink="true">https://dev-null.sh</guid>
+      <pubDate>Fri, 16 Oct 2026 16:57:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50121004</comments>
+    </item>
+    <item>
+      <title>デクトンとはいったい何なのでしょうか？</title>
+      <link>https://www.worksinprogress.news/p/porcelain</link>
+      <description>📝 1 つ目は、デクトンは 2013 年にスペインの会社 Cosentino によって発明された人工素材で、熱、圧力、傷、飛散、汚れに驚くほど耐性があるということです。これは 30 年前ですら製造がほぼ不可能だったハイテク物質です。もう 1 つの答えは、同様に真実で、デクトンは基本的に磁器であるということです。陶芸家たちは、この柔らかく白く何の変哲もない泥を極端な温度にさらすと驚くべき効果が生じることを学びました。
+
+
+🔤 Original: What on Earth Is Dekton?
+
+🔗 Read more: https://www.worksinprogress.news/p/porcelain</description>
+      <guid isPermaLink="true">https://www.worksinprogress.news/p/porcelain</guid>
+      <pubDate>Fri, 16 Oct 2026 14:31:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118828</comments>
+    </item>
+    <item>
+      <title>GIFCities</title>
+      <link>https://gifcities.org/</link>
+      <description>📝 レート制限に達しました 短期間に実行できるリクエスト数の制限に達しました。しばらく待ってから、もう一度試してください。このメッセージが誤って表示されたと思われる場合、またはサポートが必要な場合は、Aitratelimit@archive までご連絡ください。
+
+
+🔤 Original: GifCities
+
+🔗 Read more: https://gifcities.org/</description>
+      <guid isPermaLink="true">https://gifcities.org/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:35:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50121601</comments>
+    </item>
+    <item>
+      <title>アンスロピックは6月に最高のジャンク信用格付けを付与</title>
+      <link>https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d</link>
+      <guid isPermaLink="true">https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d</guid>
+      <pubDate>Fri, 16 Oct 2026 18:11:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122112</comments>
+    </item>
+    <item>
+      <title>記憶から変圧器を発明できたかもしれない</title>
+      <link>https://alexwang.ai/posts/associative-memory/</link>
+      <description>📝 メモリからトランスフォーマを発明することもできました。すべての層はメモリ ストアです[コード][インタラクティブ アプリ]コンテンツメモリから文字を取得します。優れたメモリ ストアは、$k_i$ または $k_i$ に似た別のベクトルを使用してクエリを実行すると、$v_i$ を呼び出します。文献では、類似性によって思い出す記憶の保存は連想記憶と呼ばれています。
+
+
+🔤 Original: You could have invented transformers from memory
+
+🔗 Read more: https://alexwang.ai/posts/associative-memory/</description>
+      <guid isPermaLink="true">https://alexwang.ai/posts/associative-memory/</guid>
+      <pubDate>Fri, 16 Oct 2026 19:01:17 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122878</comments>
+    </item>
+    <item>
+      <title>ソフトウェアレンダリングが大好き</title>
+      <link>https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</link>
+      <description>📝 私はソフトウェアレンダリングが大好きです。それがゲームの構築方法です。 Doom と Build エンジンのゲームは、最初からソフトウェア レンダラーを中心に設計されました。
+
+
+🔤 Original: I Love Software Rendering
+
+🔗 Read more: https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</description>
+      <guid isPermaLink="true">https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/</guid>
+      <pubDate>Fri, 16 Oct 2026 12:52:08 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50117746</comments>
+    </item>
+    <item>
+      <title>Show HN: Stoke Money – キャッシュ フロー予測を中心に構築されたパーソナル ファイナンス アプリ</title>
+      <link>https://stoke.money</link>
+      <description>📝 独自の AIConnect Claude、ChatGPT、または別の MCP 対応アシスタントを Stoke データに導入します。キャンセルするとデータはそのまま残ります。自分のアカウントで試してみてください。
+
+
+🔤 Original: Show HN: Stoke Money – Personal finance app built around a cash flow forecast
+
+🔗 Read more: https://stoke.money</description>
+      <guid isPermaLink="true">https://stoke.money</guid>
+      <pubDate>Fri, 16 Oct 2026 18:54:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50122776</comments>
+    </item>
+    <item>
+      <title>RFC8950: IPv6 ネクストホップを使用した IPv4 を発表する</title>
+      <link>https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</link>
+      <description>📝 IP トランジット バックボーンは、IPv6 セッションを介して顧客/ピア/アップストリームと IPv4 ルートを交換している間のみ、IPv6 を実行できます。マルチプロトコル BGP (MP-BGP) は、IPv4 ネクストホップを使用する IPv6 セッションを介した IPv4 ルートと、IPv6 ネクストホップを使用する IPv4 セッションを介した IPv6 ルートのアナウンスをサポートします。 RFC8950 は、この機能を IPv4 用に拡張し、IPv6 ネクストホップを備えます。
+
+
+🔤 Original: RFC8950: Announce IPv4 with an IPv6 next-hop
+
+🔗 Read more: https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</description>
+      <guid isPermaLink="true">https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:38:25 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50118267</comments>
+    </item>
+    <item>
+      <title>液体金属は私たちの PC をダメにしているのでしょうか?科学的分析と 2 年間のテスト [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=eF6bMSjPepM</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=eF6bMSjPepM</guid>
+      <pubDate>Thu, 15 Oct 2026 23:23:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50111752</comments>
     </item>
   </channel>
 </rss>
