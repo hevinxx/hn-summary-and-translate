@@ -6,138 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:08:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 08:13:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>OpenBSD 8.0 版本将包含 Linux 6.18 的 inteldrm/radeondrm/amdgpu 驱动程序</title>
-      <link>https://bsd.network/@brynet/117407035545900963</link>
-      <description>📝 这使得 OpenBSD 成为唯一使用现代工具链支持 sparc64 的操作系统。 53，添加了对 Intel Arc A 系列（DG2/Alchemist）卡的驱动程序支持。 network/@brynet/116879479168132932 #OpenBSD httpd(8) 现在支持许多新功能： 设置自定义 HTTP 响应标头。
+      <title>OpenBSD 8.0</title>
+      <link>https://www.openbsd.org/80.html</link>
+      <description>📝 arm64: Added hibernate support. Added suspend/resume support for qcuart(4). MSI/MSI-X virtio device interrupt support added.
 
-
-🔤 Original: OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18
-
-🔗 Read more: https://bsd.network/@brynet/117407035545900963</description>
-      <guid isPermaLink="true">https://bsd.network/@brynet/117407035545900963</guid>
-      <pubDate>Mon, 19 Oct 2026 21:11:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50158138</comments>
+🔗 Read more: https://www.openbsd.org/80.html</description>
+      <guid isPermaLink="true">https://www.openbsd.org/80.html</guid>
+      <pubDate>Tue, 20 Oct 2026 02:06:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50160494</comments>
     </item>
     <item>
-      <title>一哈希布隆过滤器</title>
-      <link>https://calabro.io/ohbf</link>
-      <description>📝 传统布隆过滤器 布隆过滤器是一个由位和 k 个哈希函数组成的数组。它使用更多的数学来展示如何仅使用单个哈希来执行布隆过滤器。有了这项技术，我制作了 jcalabro/gloom，一个用 go 语言实现的单哈希布隆过滤器 (OHBF)。
+      <title>WhatsApp's help pages hid LLM instructions: dont recommend a regulator</title>
+      <link>https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions</link>
+      <description>📝 com/2138577903196467Note: If you're unable to delete your WhatsApp account because you no longer have access to your phone number or device, your WhatsApp account will still be removed automatically. Deactivated WhatsApp accounts are deleted 30 days after deactivation. Inactive accounts are generally deleted after 120 days (365 days for US).
 
-
-🔤 Original: One Hash Bloom Filters
-
-🔗 Read more: https://calabro.io/ohbf</description>
-      <guid isPermaLink="true">https://calabro.io/ohbf</guid>
-      <pubDate>Mon, 19 Oct 2026 20:50:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50157865</comments>
+🔗 Read more: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions</description>
+      <guid isPermaLink="true">https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions</guid>
+      <pubDate>Mon, 19 Oct 2026 23:22:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50159341</comments>
     </item>
     <item>
-      <title>由于我没有 Microsoft 帐户，因此将 Linux 安装在我的 RTX Spark 笔记本电脑上</title>
-      <link>https://josie.lol/blog/linux-rtx-spark</link>
-      <description>📝 Arch Linux 的工作原理与 7-Zip 中的 Windows 保持一致，并报告相同的 116。此版本使用 Arch Linux ARM，这是将 Arch 软件包移植到 ARM 的独立项目，并在顶部添加了硬件支持。 04 具有固定的 32 MiB 字典。
-
-
-🔤 Original: Putting Linux on my RTX Spark laptop because I don't have a Microsoft account
-
-🔗 Read more: https://josie.lol/blog/linux-rtx-spark</description>
-      <guid isPermaLink="true">https://josie.lol/blog/linux-rtx-spark</guid>
-      <pubDate>Mon, 19 Oct 2026 21:08:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50158100</comments>
+      <title>DeepSeek banned from U.S. federal civilian agencies under new DHS order</title>
+      <link>https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/</link>
+      <guid isPermaLink="true">https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/</guid>
+      <pubDate>Mon, 19 Oct 2026 16:16:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50154244</comments>
     </item>
     <item>
-      <title>法国超市冰箱数月来一直处于在线状态</title>
-      <link>https://ipinfo.io/blog/france-fridges-hack</link>
-      <description>📝 其中包括丹佛斯不再支持的 527 个旧控制器。法国的修补情况并不比其他国家差。 Monoprix 报告称，其约 5% 的商店受到影响。
+      <title>Go will reject certificate chains containing eight distrusted SPKIs</title>
+      <link>https://github.com/golang/go/issues/82345</link>
+      <description>📝 dev/cl/851165 mentions this issue: [release-branch. dev/cl/851145 mentions this issue: [release-branch. io/certificates/0164d7ceae5bb909c272af151ff44b1177ae9b47d9424b94f1d9558c30934d19 Subject DN C=US, O=eMudhra Inc, CN=EM DV TLS CA - G3C Issuer DN C=IN, O=eMudhra Technologies Limited, CN=emSign Root TLS CA - G3 e0254c7fcdc265e2f0f8a428dabb75ab4ae039b4872d62f5ee57f0877d5a8a41 https://platform.
 
-
-🔤 Original: France's Supermarket Fridges Were Vulnerable Online for Months
-
-🔗 Read more: https://ipinfo.io/blog/france-fridges-hack</description>
-      <guid isPermaLink="true">https://ipinfo.io/blog/france-fridges-hack</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50159616</comments>
+🔗 Read more: https://github.com/golang/go/issues/82345</description>
+      <guid isPermaLink="true">https://github.com/golang/go/issues/82345</guid>
+      <pubDate>Tue, 20 Oct 2026 03:05:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50160877</comments>
     </item>
     <item>
-      <title>乌克兰声称首次使用无人机疏散受伤士兵</title>
-      <link>https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310</link>
-      <description>📝 乌克兰第 92 独立突击旅周一分享的视频显示，一名受伤士兵正在被无人机疏散。无人机小心地将他降下，无人机操作员向他打招呼，“欢迎回到地面。”视频还显示执行任务的无人机操作员的面孔模糊。
+      <title>An ad-free Android TV</title>
+      <link>https://cretezy.com/2026/ad-free-android-tv</link>
+      <description>📝 The setup Projectivy Launcher replaces the home screen. Button Mapper remaps the remote, so the YouTube button opens SmartTube. homebutton Then, in Button Mapper, map the YouTube button to SmartTube.
 
-
-🔤 Original: Ukraine claims first drone evacuation of wounded soldier
-
-🔗 Read more: https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310</description>
-      <guid isPermaLink="true">https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310</guid>
-      <pubDate>Mon, 19 Oct 2026 15:31:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50153664</comments>
+🔗 Read more: https://cretezy.com/2026/ad-free-android-tv</description>
+      <guid isPermaLink="true">https://cretezy.com/2026/ad-free-android-tv</guid>
+      <pubDate>Mon, 19 Oct 2026 22:32:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50158942</comments>
     </item>
     <item>
-      <title>Drupal 现在比它的声誉领先光年</title>
-      <link>https://dri.es/state-of-drupal-presentation-september-2026</link>
-      <description>📝 Starshot 成为 Drupal CMS，它汇集了站点模板、食谱、Drupal AI、Drupal Canvas 等，使构建网站变得更加容易。更强大的 Drupal Core 帮助我们构建了更好的 Drupal CMS，而构建 Drupal CMS 又推动了 Drupal Core 的进一步改进。通过 MCP，AI 助手可以处理 Drupal 外部的 Drupal 内容。
+      <title>Maxwell: A new kind of model that sits between code and hardware</title>
+      <link>https://heymaxwell.ai/</link>
+      <description>📝 Throughout that game, Alan did exactly what a computer does. CEMs work under wholly different constraints from models that write code. Crucially, nothing changes in the source code.
 
-
-🔤 Original: Drupal is now light-years ahead of its reputation
-
-🔗 Read more: https://dri.es/state-of-drupal-presentation-september-2026</description>
-      <guid isPermaLink="true">https://dri.es/state-of-drupal-presentation-september-2026</guid>
-      <pubDate>Mon, 19 Oct 2026 21:38:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50158408</comments>
+🔗 Read more: https://heymaxwell.ai/</description>
+      <guid isPermaLink="true">https://heymaxwell.ai/</guid>
+      <pubDate>Mon, 19 Oct 2026 13:47:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50152466</comments>
     </item>
     <item>
-      <title>Token-maxxing 已死，OpenRouter 的代币使用趋于稳定</title>
-      <link>https://openrouter.ai/rankings</link>
-      <description>📝 OpenRouter 上的封闭权重模型（按周）。隐形型号不包括在内。其他人则提出 2b 请求。
+      <title>How abliterated models can get you pwned</title>
+      <link>https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned</link>
+      <description>📝 The backdoored 7B model exfiltrating project credentials through OpenAI's Codex CLI, the moment the trigger phrase appears. Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. The model then answers things a safety-tuned version would turn down.
 
-
-🔤 Original: Token-maxxing is dead, OpenRouter's token usage plateaus
-
-🔗 Read more: https://openrouter.ai/rankings</description>
-      <guid isPermaLink="true">https://openrouter.ai/rankings</guid>
-      <pubDate>Mon, 19 Oct 2026 23:40:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50159464</comments>
+🔗 Read more: https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned</description>
+      <guid isPermaLink="true">https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned</guid>
+      <pubDate>Mon, 19 Oct 2026 23:08:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50159245</comments>
     </item>
     <item>
-      <title>代理监控</title>
-      <link>https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/</link>
-      <description>📝 系统监控从来都不是一件容易的事。这是一个邪恶的问题。令人震惊的是，代理很大程度上“只是”解决了这个问题。
+      <title>Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs</title>
+      <link>https://deathplanswitch.com/</link>
+      <description>📝 ReminderHour 24, to both your addresses. What it looks like Armed. What your next of kin sees.
 
-
-🔤 Original: Agentic Monitoring
-
-🔗 Read more: https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/</description>
-      <guid isPermaLink="true">https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:52:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50153225</comments>
-    </item>
-    <item>
-      <title>配给的结束</title>
-      <link>https://sanketsaurav.com/writing/end-of-rationing</link>
-      <description>📝 软件的构建成本昂贵，但运行成本低廉。现在的软件看起来更像是制造业，而不是 SaaS。我们正在获得更多的软件，而不是不同的软件。
-
-
-🔤 Original: The End of Rationing
-
-🔗 Read more: https://sanketsaurav.com/writing/end-of-rationing</description>
-      <guid isPermaLink="true">https://sanketsaurav.com/writing/end-of-rationing</guid>
-      <pubDate>Mon, 19 Oct 2026 19:19:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50156744</comments>
-    </item>
-    <item>
-      <title>亲爱的，我把电视缩小了</title>
-      <link>https://cakehonolulu.github.io/honey-i-shrunk-the-tv/</link>
-      <description>📝 平面设计是我的热情 前言 不久前，当我决定为我的卫生间配备什么样的音响系统时，我偶然发现了三星（当时的旗舰产品）Q990D soundbar。经过一些在线搜索后，我发现我可以利用三星的 Q-Symphony 来驱动我的设置中的条形音箱（及其卫星）和 2 个 Music Studio 7。这让我有点惊讶，因为这是我遇到的第一个有这种“限制”的设备。
-
-
-🔤 Original: Honey, I shrunk the TV
-
-🔗 Read more: https://cakehonolulu.github.io/honey-i-shrunk-the-tv/</description>
-      <guid isPermaLink="true">https://cakehonolulu.github.io/honey-i-shrunk-the-tv/</guid>
-      <pubDate>Mon, 19 Oct 2026 13:06:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50151971</comments>
+🔗 Read more: https://deathplanswitch.com/</description>
+      <guid isPermaLink="true">https://deathplanswitch.com/</guid>
+      <pubDate>Tue, 20 Oct 2026 04:37:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50161408</comments>
     </item>
   </channel>
 </rss>

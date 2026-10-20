@@ -6,138 +6,85 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:08:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 08:13:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>OpenBSD 8.0 リリースには、Linux 6.18 の inteldrm/radeondrm/amdgpu ドライバーが含まれます</title>
-      <link>https://bsd.network/@brynet/117407035545900963</link>
-      <description>📝 これにより、OpenBSD は最新のツールチェーンで sparc64 をサポートする唯一のオペレーティング システムになります。 53、Intel Arc A シリーズ (DG2/Alchemist) カードのドライバー サポートを追加。 network/@brynet/116879479168132932 #OpenBSD httpd(8) は、多くの新機能をサポートするようになりました: カスタム HTTP 応答ヘッダーの設定。
+      <title>OpenBSD 8.0</title>
+      <link>https://www.openbsd.org/80.html</link>
+      <description>📝 arm64: Added hibernate support. Added suspend/resume support for qcuart(4). MSI/MSI-X virtio device interrupt support added.
 
-
-🔤 Original: OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18
-
-🔗 Read more: https://bsd.network/@brynet/117407035545900963</description>
-      <guid isPermaLink="true">https://bsd.network/@brynet/117407035545900963</guid>
-      <pubDate>Mon, 19 Oct 2026 21:11:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50158138</comments>
+🔗 Read more: https://www.openbsd.org/80.html</description>
+      <guid isPermaLink="true">https://www.openbsd.org/80.html</guid>
+      <pubDate>Tue, 20 Oct 2026 02:06:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50160494</comments>
     </item>
     <item>
-      <title>ワンハッシュブルームフィルター</title>
-      <link>https://calabro.io/ohbf</link>
-      <description>📝 従来のブルーム フィルター ブルーム フィルターは、ビットの配列と k 個のハッシュ関数です。これは、さらに多くの数学を使用して、単一のハッシュのみを使用してブルーム フィルターを実行する方法を示しています。このテクニックを活用して、Go での 1 ハッシュ ブルーム フィルター (OHBF) 実装である jcalabro/gloom を作成しました。
+      <title>WhatsApp's help pages hid LLM instructions: dont recommend a regulator</title>
+      <link>https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions</link>
+      <description>📝 com/2138577903196467Note: If you're unable to delete your WhatsApp account because you no longer have access to your phone number or device, your WhatsApp account will still be removed automatically. Deactivated WhatsApp accounts are deleted 30 days after deactivation. Inactive accounts are generally deleted after 120 days (365 days for US).
 
-
-🔤 Original: One Hash Bloom Filters
-
-🔗 Read more: https://calabro.io/ohbf</description>
-      <guid isPermaLink="true">https://calabro.io/ohbf</guid>
-      <pubDate>Mon, 19 Oct 2026 20:50:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50157865</comments>
+🔗 Read more: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions</description>
+      <guid isPermaLink="true">https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions</guid>
+      <pubDate>Mon, 19 Oct 2026 23:22:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50159341</comments>
     </item>
     <item>
-      <title>Microsoft アカウントを持っていないため、RTX Spark ラップトップに Linux をインストールしています</title>
-      <link>https://josie.lol/blog/linux-rtx-spark</link>
-      <description>📝 Arch Linux は動作し、7-Zip で Windows に追いつき、同じ 116 を報告します。このビルドは、Arch パッケージを ARM に移植し、ハードウェア サポートを追加する別のプロジェクトである Arch Linux ARM を使用します。 04 には 32 MiB の辞書が固定されています。
-
-
-🔤 Original: Putting Linux on my RTX Spark laptop because I don't have a Microsoft account
-
-🔗 Read more: https://josie.lol/blog/linux-rtx-spark</description>
-      <guid isPermaLink="true">https://josie.lol/blog/linux-rtx-spark</guid>
-      <pubDate>Mon, 19 Oct 2026 21:08:18 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50158100</comments>
+      <title>DeepSeek banned from U.S. federal civilian agencies under new DHS order</title>
+      <link>https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/</link>
+      <guid isPermaLink="true">https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/</guid>
+      <pubDate>Mon, 19 Oct 2026 16:16:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50154244</comments>
     </item>
     <item>
-      <title>フランスのスーパーマーケットの冷蔵庫は数か月間オンラインで脆弱だった</title>
-      <link>https://ipinfo.io/blog/france-fridges-hack</link>
-      <description>📝 これには、Danfoss がサポートしなくなった 527 個の古いコントローラーが含まれます。フランスは他の国よりも悪いパッチを当てませんでした。モノプリは、店舗の約5％が影響を受けたと報告した。
+      <title>Go will reject certificate chains containing eight distrusted SPKIs</title>
+      <link>https://github.com/golang/go/issues/82345</link>
+      <description>📝 dev/cl/851165 mentions this issue: [release-branch. dev/cl/851145 mentions this issue: [release-branch. io/certificates/0164d7ceae5bb909c272af151ff44b1177ae9b47d9424b94f1d9558c30934d19 Subject DN C=US, O=eMudhra Inc, CN=EM DV TLS CA - G3C Issuer DN C=IN, O=eMudhra Technologies Limited, CN=emSign Root TLS CA - G3 e0254c7fcdc265e2f0f8a428dabb75ab4ae039b4872d62f5ee57f0877d5a8a41 https://platform.
 
-
-🔤 Original: France's Supermarket Fridges Were Vulnerable Online for Months
-
-🔗 Read more: https://ipinfo.io/blog/france-fridges-hack</description>
-      <guid isPermaLink="true">https://ipinfo.io/blog/france-fridges-hack</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50159616</comments>
+🔗 Read more: https://github.com/golang/go/issues/82345</description>
+      <guid isPermaLink="true">https://github.com/golang/go/issues/82345</guid>
+      <pubDate>Tue, 20 Oct 2026 03:05:07 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50160877</comments>
     </item>
     <item>
-      <title>ウクライナ、初のドローンによる負傷兵救出を主張</title>
-      <link>https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310</link>
-      <description>📝 ウクライナの第92独立強襲旅団が月曜日に共有したビデオには、ドローンで避難する負傷兵の姿が写っている。ドローンが慎重に彼を降ろし、ドローン操縦者が「地上へようこそ」と挨拶する映像には、ミッションを遂行したドローン操縦者のぼやけた顔も映っている。
+      <title>An ad-free Android TV</title>
+      <link>https://cretezy.com/2026/ad-free-android-tv</link>
+      <description>📝 The setup Projectivy Launcher replaces the home screen. Button Mapper remaps the remote, so the YouTube button opens SmartTube. homebutton Then, in Button Mapper, map the YouTube button to SmartTube.
 
-
-🔤 Original: Ukraine claims first drone evacuation of wounded soldier
-
-🔗 Read more: https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310</description>
-      <guid isPermaLink="true">https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310</guid>
-      <pubDate>Mon, 19 Oct 2026 15:31:34 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50153664</comments>
+🔗 Read more: https://cretezy.com/2026/ad-free-android-tv</description>
+      <guid isPermaLink="true">https://cretezy.com/2026/ad-free-android-tv</guid>
+      <pubDate>Mon, 19 Oct 2026 22:32:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50158942</comments>
     </item>
     <item>
-      <title>Drupal は現在、その評判よりも数光年先を行っています</title>
-      <link>https://dri.es/state-of-drupal-presentation-september-2026</link>
-      <description>📝 Starshot は Drupal CMS となり、サイト テンプレート、レシピ、Drupal AI、Drupal Canvas などをまとめて Web サイトの構築を容易にしました。より強力な Drupal コアは、より優れた Drupal CMS の構築に役立ちますが、Drupal CMS の構築により Drupal コアのさらなる改善が促進されました。 MCP を通じて、AI アシスタントは Drupal の外部から Drupal コンテンツを操作できます。
+      <title>Maxwell: A new kind of model that sits between code and hardware</title>
+      <link>https://heymaxwell.ai/</link>
+      <description>📝 Throughout that game, Alan did exactly what a computer does. CEMs work under wholly different constraints from models that write code. Crucially, nothing changes in the source code.
 
-
-🔤 Original: Drupal is now light-years ahead of its reputation
-
-🔗 Read more: https://dri.es/state-of-drupal-presentation-september-2026</description>
-      <guid isPermaLink="true">https://dri.es/state-of-drupal-presentation-september-2026</guid>
-      <pubDate>Mon, 19 Oct 2026 21:38:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50158408</comments>
+🔗 Read more: https://heymaxwell.ai/</description>
+      <guid isPermaLink="true">https://heymaxwell.ai/</guid>
+      <pubDate>Mon, 19 Oct 2026 13:47:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50152466</comments>
     </item>
     <item>
-      <title>トークン最大化は廃止され、OpenRouter のトークン使用量は頭打ち</title>
-      <link>https://openrouter.ai/rankings</link>
-      <description>📝 OpenRouter のクローズドウェイト モデル (週ごと)。ステルスモデルは除きます。他の人は 2b リクエストでリードします。
+      <title>How abliterated models can get you pwned</title>
+      <link>https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned</link>
+      <description>📝 The backdoored 7B model exfiltrating project credentials through OpenAI's Codex CLI, the moment the trigger phrase appears. Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. The model then answers things a safety-tuned version would turn down.
 
-
-🔤 Original: Token-maxxing is dead, OpenRouter's token usage plateaus
-
-🔗 Read more: https://openrouter.ai/rankings</description>
-      <guid isPermaLink="true">https://openrouter.ai/rankings</guid>
-      <pubDate>Mon, 19 Oct 2026 23:40:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50159464</comments>
+🔗 Read more: https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned</description>
+      <guid isPermaLink="true">https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned</guid>
+      <pubDate>Mon, 19 Oct 2026 23:08:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50159245</comments>
     </item>
     <item>
-      <title>エージェントの監視</title>
-      <link>https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/</link>
-      <description>📝 システムの監視は決して簡単ではありませんでした。これは厄介な問題です。驚くべきことに、エージェントは主にこの問題を「解決するだけ」です。
+      <title>Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs</title>
+      <link>https://deathplanswitch.com/</link>
+      <description>📝 ReminderHour 24, to both your addresses. What it looks like Armed. What your next of kin sees.
 
-
-🔤 Original: Agentic Monitoring
-
-🔗 Read more: https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/</description>
-      <guid isPermaLink="true">https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:52:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50153225</comments>
-    </item>
-    <item>
-      <title>配給の終わり</title>
-      <link>https://sanketsaurav.com/writing/end-of-rationing</link>
-      <description>📝 ソフトウェアは構築に費用がかかり、実行には安価でした。ソフトウェアは現在、SaaS よりも製造業に似ています。さまざまなソフトウェアではなく、より多くのソフトウェアを入手しています。
-
-
-🔤 Original: The End of Rationing
-
-🔗 Read more: https://sanketsaurav.com/writing/end-of-rationing</description>
-      <guid isPermaLink="true">https://sanketsaurav.com/writing/end-of-rationing</guid>
-      <pubDate>Mon, 19 Oct 2026 19:19:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50156744</comments>
-    </item>
-    <item>
-      <title>ハニー、テレビを小さくしました</title>
-      <link>https://cakehonolulu.github.io/honey-i-shrunk-the-tv/</link>
-      <description>📝 グラフィック デザインは私の情熱です はじめに 少し前、トイレにどのサウンド システムが欲しいかを考えていたとき、サムスン (当時はフラッグシップ) の Q990D サウンドバーを見つけました。オンラインで検索した結果、Samsung の Q-Symphony を利用して、セットアップ上のサウンドバー (そしてサテライト) と 2 台の Music Studio 7 の両方を駆動できることがわかりました。このような「制限」があるデバイスは初めて出会ったので、ちょっと驚きました。
-
-
-🔤 Original: Honey, I shrunk the TV
-
-🔗 Read more: https://cakehonolulu.github.io/honey-i-shrunk-the-tv/</description>
-      <guid isPermaLink="true">https://cakehonolulu.github.io/honey-i-shrunk-the-tv/</guid>
-      <pubDate>Mon, 19 Oct 2026 13:06:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50151971</comments>
+🔗 Read more: https://deathplanswitch.com/</description>
+      <guid isPermaLink="true">https://deathplanswitch.com/</guid>
+      <pubDate>Tue, 20 Oct 2026 04:37:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50161408</comments>
     </item>
   </channel>
 </rss>
