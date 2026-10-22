@@ -6,18 +6,35 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to English</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 03:26:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 11:14:02 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-en.xml"/>
     <item>
-      <title>mitmproxy adds --emudhra option</title>
-      <link>https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b</link>
-      <description>📝 File treeExpand file treeCollapse file treeOpen diff view settingsFilter optionsCHANGELOG. tsExpand file treeCollapse file treeOpen diff view settingsCollapse file‎CHANGELOG. default_chain_certs[0]504+ self.
+      <title>CVE-2026-111943: Compromised Intermediate Certificate Authority</title>
+      <link>https://nvd.nist.gov/vuln/detail/cve-2026-111943</link>
+      <guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/cve-2026-111943</guid>
+      <pubDate>Thu, 22 Oct 2026 08:51:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50192900</comments>
+    </item>
+    <item>
+      <title>Faster than earcut: triangulating 3.7M map polygons in 489 ms</title>
+      <link>https://globus.software/blog/2026/10/16/cutting-map-polygons/</link>
+      <description>📝 These blocks hold 331 polygons with 5,151 vertices, and they become 4,514 triangles. "Constrained" means that the polygon's own edges must stay edges of the triangulation, even where the circle rule would flip them away. In 1975 Gary Meisters proved that every simple polygon with more than three vertices has at least two ears that don't overlap.
 
-🔗 Read more: https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b</description>
-      <guid isPermaLink="true">https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b</guid>
-      <pubDate>Wed, 21 Oct 2026 23:51:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50189232</comments>
+🔗 Read more: https://globus.software/blog/2026/10/16/cutting-map-polygons/</description>
+      <guid isPermaLink="true">https://globus.software/blog/2026/10/16/cutting-map-polygons/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:31:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50193170</comments>
+    </item>
+    <item>
+      <title>WorldTUI: I trained a 360M model to pretend to be a terminal</title>
+      <link>https://simedw.com/2026/10/21/world-model-terminal/</link>
+      <description>📝 TL;DR: I fine-tuned a 360M-parameter language model to act as a terminal. 5B, fine-tuned on terminal sessions recorded from real programs running inside Docker. That doesn't map well to a terminal.
+
+🔗 Read more: https://simedw.com/2026/10/21/world-model-terminal/</description>
+      <guid isPermaLink="true">https://simedw.com/2026/10/21/world-model-terminal/</guid>
+      <pubDate>Thu, 22 Oct 2026 02:18:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50190363</comments>
     </item>
     <item>
       <title>The recently proposed o(n log n) integer multiplication algorithm [pdf]</title>
@@ -30,23 +47,6 @@
       <comments>https://news.ycombinator.com/item?id=50190455</comments>
     </item>
     <item>
-      <title>There isn't an easy exploit for this PHP vulnerability</title>
-      <link>https://eliastaylor.com/noexploit/</link>
-      <description>📝 I don't think this PHP vulnerability is that exploitable. And this was before LLMs. That is because they haven't independently made this decision.
-
-🔗 Read more: https://eliastaylor.com/noexploit/</description>
-      <guid isPermaLink="true">https://eliastaylor.com/noexploit/</guid>
-      <pubDate>Wed, 21 Oct 2026 23:13:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50188948</comments>
-    </item>
-    <item>
-      <title>Epic vs. Apple AU:Court Orders Alt App Stores,Sideloading and 3rd Party Payments</title>
-      <link>https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552</link>
-      <guid isPermaLink="true">https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552</guid>
-      <pubDate>Thu, 22 Oct 2026 01:52:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50190168</comments>
-    </item>
-    <item>
       <title>Security Disclosure</title>
       <link>https://blog.railway.com/p/security-disclosure-wednesday-october-21st</link>
       <description>📝 Jacob CooperOct 21, 2026Earlier this morning, Railway detected anomalous activity involving systems that store customer environment variables. We apologize for this inconvenience. Follow this incident to be notified when builds resume.
@@ -57,24 +57,34 @@
       <comments>https://news.ycombinator.com/item?id=50188228</comments>
     </item>
     <item>
-      <title>LLM Agents Play Pokemon Showdown</title>
-      <link>https://olivergrabner.com/research/pokemon/</link>
-      <description>📝 8-27B teammates (excerpts). Watch the full battle with team chat. 8-27B team with free talk, against OpponentWin rate Qwen3.
+      <title>Achieving AI-style reasoning without an LLM</title>
+      <link>https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/</link>
+      <description>📝 Minotaur AI Deep Dive: Achieving Reasoning Without a Language Modelby Edward ChalkOctober 22, 2026Minotaur AI Deep Dive: Achieving Reasoning Without a Language Model In the last post we introduced Minotaur, an AI that reasons with no language model and no GPU. So a language model mirrors the way people think. Seventy Years of Trying Something Else People tried to build machines that reason for some sixty years before language models.
 
-🔗 Read more: https://olivergrabner.com/research/pokemon/</description>
-      <guid isPermaLink="true">https://olivergrabner.com/research/pokemon/</guid>
-      <pubDate>Thu, 22 Oct 2026 02:13:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50190334</comments>
+🔗 Read more: https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/</description>
+      <guid isPermaLink="true">https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/</guid>
+      <pubDate>Thu, 22 Oct 2026 08:46:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50192868</comments>
     </item>
     <item>
-      <title>Using LLM for confidence scoring is a bad idea</title>
-      <link>https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html</link>
-      <description>📝 Their confidence comes from the information that they use. They have no information about that day yet. All that they have is the past.
+      <title>OpenAI CLI</title>
+      <link>https://github.com/openai/openai-cli</link>
+      <description>📝 openai help COMMAND shows the same page. txt" --purpose user_data openai files get file-example openai files download file-example --output "downloaded copy. txt" openai files download file-example &gt; copy.
 
-🔗 Read more: https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html</description>
-      <guid isPermaLink="true">https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html</guid>
-      <pubDate>Wed, 21 Oct 2026 04:27:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50176082</comments>
+🔗 Read more: https://github.com/openai/openai-cli</description>
+      <guid isPermaLink="true">https://github.com/openai/openai-cli</guid>
+      <pubDate>Thu, 22 Oct 2026 05:23:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50191507</comments>
+    </item>
+    <item>
+      <title>mitmproxy adds --emudhra option</title>
+      <link>https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b</link>
+      <description>📝 File treeExpand file treeCollapse file treeOpen diff view settingsFilter optionsCHANGELOG. tsExpand file treeCollapse file treeOpen diff view settingsCollapse file‎CHANGELOG. default_chain_certs[0]504+ self.
+
+🔗 Read more: https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b</description>
+      <guid isPermaLink="true">https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b</guid>
+      <pubDate>Wed, 21 Oct 2026 23:51:37 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50189232</comments>
     </item>
     <item>
       <title>Show HN: Omnara – Open-source alternative to Claude Managed Agents</title>
@@ -87,24 +97,14 @@
       <comments>https://news.ycombinator.com/item?id=50183892</comments>
     </item>
     <item>
-      <title>I reverse engineered a board game</title>
-      <link>https://wuemeli.com/blog/reversing-hitster-game/</link>
-      <description>📝 digest(bytes), "AES"); } public static String o( byte[] bArr, byte[] bArr2, SecretKeySpec secretKeySpec ) throws BadPaddingException, NoSuchPaddingException, IllegalBlockSizeException, NoSuchAlgorithmException, InvalidKeyException, InvalidAlgorithmParameterException { Cipher cipher = Cipher. getInstance("AES/GCM/NoPadding"); cipher. Focused, bArr) ); byte[] bArrDoFinal = cipher.
+      <title>There isn't an easy exploit for this PHP vulnerability</title>
+      <link>https://eliastaylor.com/noexploit/</link>
+      <description>📝 I don't think this PHP vulnerability is that exploitable. And this was before LLMs. That is because they haven't independently made this decision.
 
-🔗 Read more: https://wuemeli.com/blog/reversing-hitster-game/</description>
-      <guid isPermaLink="true">https://wuemeli.com/blog/reversing-hitster-game/</guid>
-      <pubDate>Wed, 21 Oct 2026 13:40:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50180799</comments>
-    </item>
-    <item>
-      <title>Postgres recovery_prefetch can cause outages</title>
-      <link>https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/</link>
-      <description>📝 I wouldn’t have any issue with that. The read IOPS amplification combined with Postgres design for synchronous replication is what turns recovery_prefetch into an actual outage-inducing killer. It really is this easy to consistently reproduce this outage.
-
-🔗 Read more: https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/</description>
-      <guid isPermaLink="true">https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/</guid>
-      <pubDate>Wed, 21 Oct 2026 22:33:08 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50188614</comments>
+🔗 Read more: https://eliastaylor.com/noexploit/</description>
+      <guid isPermaLink="true">https://eliastaylor.com/noexploit/</guid>
+      <pubDate>Wed, 21 Oct 2026 23:13:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50188948</comments>
     </item>
   </channel>
 </rss>
