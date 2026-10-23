@@ -6,270 +6,87 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 22 Oct 2026 21:16:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 03:31:27 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>Quad9（DNS 解析器）退出法国</title>
-      <link>https://quad9.net/news/blog/au-revoir-france/</link>
-      <description>📝 对于Quad9来说，遵守这一裁决是不可能的。我们没有将用户与司法管辖区关联起来的数据库。 Quad9 可以通过全局阻止来遵守吗？
+      <title>Docker 很奇怪</title>
+      <link>https://codeandcake.dev/posts/2026-10-22-docker-is-weird</link>
+      <description>📝 您的内核仍在运行该进程。图像只是文件夹图像只是 Docker 放置在某处然后调用 chroot（或pivot_root）以使该文件夹成为容器进程的新根目录的文件夹。将该图像放在某处。
 
 
-🔤 Original: Quad9 (DNS Resolver) to Exit France
+🔤 Original: Docker is weird
 
-🔗 Read more: https://quad9.net/news/blog/au-revoir-france/</description>
-      <guid isPermaLink="true">https://quad9.net/news/blog/au-revoir-france/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:32:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50195959</comments>
+🔗 Read more: https://codeandcake.dev/posts/2026-10-22-docker-is-weird</description>
+      <guid isPermaLink="true">https://codeandcake.dev/posts/2026-10-22-docker-is-weird</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:56 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50202681</comments>
     </item>
     <item>
-      <title>OpenShell – 为自主 AI 代理团队提供安全、私密的运行时</title>
-      <link>https://github.com/NVIDIA/OpenShell</link>
-      <description>📝 重要 OpenShell 0 中的新增功能。 代理技能 为您的编码代理安装公共 OpenShell 技能： npx Skills add NVIDIA/OpenShell 这些技能教您的代理驱动 OpenShell CLI、编写沙箱策略以及调试网关和推理路由。 SDK SDK 将应用程序连接到 OpenShell 网关。
+      <title>法学硕士正在使正式软件验证在更大范围内变得可行</title>
+      <link>https://www.anthropic.com/research/formal-verification</link>
+      <description>📝 形式验证是做到这一点的一种方法。然而，形式验证并不容易。形式验证是一个广阔的领域，有许多方法论。
 
 
-🔤 Original: OpenShell – A safe, private runtime for fleets of autonomous AI agents
+🔤 Original: LLMs are making formal software verification feasible at a much larger scale
 
-🔗 Read more: https://github.com/NVIDIA/OpenShell</description>
-      <guid isPermaLink="true">https://github.com/NVIDIA/OpenShell</guid>
-      <pubDate>Thu, 22 Oct 2026 17:44:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50198675</comments>
+🔗 Read more: https://www.anthropic.com/research/formal-verification</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/formal-verification</guid>
+      <pubDate>Thu, 22 Oct 2026 22:54:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50202217</comments>
     </item>
     <item>
-      <title>准备在德国运营 GNU Taler</title>
-      <link>https://www.taler.net/en/news/2026-13.html</link>
-      <description>📝 Taler Operations AG 将做什么 法律地位：Taler Operations AG 是一家成立的德国股份公司，总部位于波鸿，是 Taler Systems SA（卢森堡）的子公司。我们强调 GNU Taler 始终是自由软件。因此，Taler Operations AG 现在正在筹集资金。
-
-
-🔤 Original: Getting ready to operate GNU Taler in Germany
-
-🔗 Read more: https://www.taler.net/en/news/2026-13.html</description>
-      <guid isPermaLink="true">https://www.taler.net/en/news/2026-13.html</guid>
-      <pubDate>Thu, 22 Oct 2026 16:14:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50197404</comments>
+      <title>人工智能计算是新的石油——需要新的市场</title>
+      <link>https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market</link>
+      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market</guid>
+      <pubDate>Thu, 22 Oct 2026 23:45:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50202671</comments>
     </item>
     <item>
-      <title>Show HN：在 Android 设备上运行完整的 iOS 16.5 固件</title>
-      <link>https://github.com/oosexgang/hackios-xnu-kernel</link>
-      <description>📝 HackiOS — XNU 内核 HackiOS 启动 Apple 的开源 XNU 内核 (xnu-8796)。解锁/离开应用程序：从最底部边缘向上滑动；返回：从左边缘滑动。从脚本：qemu/touch。
+      <title>Jank – 具有无缝 C++ 互操作的本机 Clojure 方言</title>
+      <link>https://jank-lang.org/</link>
+      <description>📝 string file-path))] {:path file-path :size bytes}) (catch boost.what e)}))) (file-info "/etc/passwd") ; {:path "/etc/passwd", :size 4025} (文件信息 "/root/.bash_history") ; {:路径“/root/.
 
 
-🔤 Original: Show HN: Run full iOS 16.5 firmware on Android Devices
+🔤 Original: Jank – The native Clojure dialect with seamless C++ interop
 
-🔗 Read more: https://github.com/oosexgang/hackios-xnu-kernel</description>
-      <guid isPermaLink="true">https://github.com/oosexgang/hackios-xnu-kernel</guid>
-      <pubDate>Thu, 22 Oct 2026 15:26:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50196718</comments>
+🔗 Read more: https://jank-lang.org/</description>
+      <guid isPermaLink="true">https://jank-lang.org/</guid>
+      <pubDate>Thu, 22 Oct 2026 23:56:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50202762</comments>
     </item>
     <item>
-      <title>Show HN：UI微交互提示AI</title>
-      <link>https://www.typeui.sh/micro-interactions</link>
-      <guid isPermaLink="true">https://www.typeui.sh/micro-interactions</guid>
-      <pubDate>Thu, 22 Oct 2026 18:32:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50199290</comments>
+      <title>铁路通票</title>
+      <link>https://train.samismith.com/</link>
+      <guid isPermaLink="true">https://train.samismith.com/</guid>
+      <pubDate>Thu, 22 Oct 2026 21:38:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50201414</comments>
     </item>
     <item>
-      <title>女子因从未开设过 Cash App 账户而面临六年监禁</title>
-      <link>https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html</link>
-      <description>📝 ] 史密斯告诉 404 Media，我需要证明自己是无辜的。该账户的名字是阿曼达·史密斯。不幸的是，卖家的 Facebook 账户已被黑客入侵。
+      <title>绘制北方天空图</title>
+      <link>https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</link>
+      <description>📝 弗洛里安·温克勒 (Florian Winkler) 绘制的这幅令人惊叹的地图列出了北半球夜空中的星星。温克勒细致的符号系统通过恒星的亮度和变化来区分恒星。标签标识恒星和星座及其拜耳名称。
 
 
-🔤 Original: Woman faces six years in prison over Cash App account she never opened
+🔤 Original: Mapping the Northern Sky
 
-🔗 Read more: https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html</description>
-      <guid isPermaLink="true">https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html</guid>
-      <pubDate>Thu, 22 Oct 2026 13:11:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50194833</comments>
+🔗 Read more: https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</description>
+      <guid isPermaLink="true">https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</guid>
+      <pubDate>Thu, 22 Oct 2026 23:56:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50202766</comments>
     </item>
     <item>
-      <title>Hedra 是一款 3D 开放世界游戏，我在高中时从头开始编写</title>
-      <link>https://github.com/maxilevi/project-hedra/tree/pre-ai</link>
-      <description>📝 ）从原始 OpenGL 编写 动态着色器系统，用于在运行时重新加载 视锥体剔除、遮挡剔除、运行时细节级别 (LOD) 的网格简化 天空盒支持 阴影 3D 轨迹渲染支持 粒子系统在 opengl 中使用对象实例化 子弹物理集成 块系统支持无限世界。世界的核心组成部分。海德拉 基本上是整个游戏。
+      <title>“自然语言编程”的愚蠢（1978）</title>
+      <link>https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</link>
+      <description>📝 自自动计算的早期以来，我们就有人认为编程需要谨慎和准确，这是使用任何形式符号体系的特征，这是一个缺点。这句话的出现表明，作者的误解不仅仅限于他一个人。我深思熟虑的猜测是，从某种意义上说，历史会重演，而计算机科学将主要由真正的黑人组成。
 
 
-🔤 Original: Hedra is a 3D open world game I wrote from scratch while in highschool
+🔤 Original: The foolishness of "natural language programming" (1978)
 
-🔗 Read more: https://github.com/maxilevi/project-hedra/tree/pre-ai</description>
-      <guid isPermaLink="true">https://github.com/maxilevi/project-hedra/tree/pre-ai</guid>
-      <pubDate>Thu, 22 Oct 2026 18:44:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50199389</comments>
-    </item>
-    <item>
-      <title>eMudhra 退出全球 SSL/TLS 证书业务</title>
-      <link>https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business</link>
-      <description>📝 将重点关注 SSL/TLS 以外的核心企业解决方案和信托服务 印度班加罗尔，2026 年 10 月 22 日 - 全球数字信托公司 eMudhra Limited（BSE：543533 | NSE：EMUDHRA）今天宣布，其董事会决定自愿退出全球 SSL/TLS 证书业务。他补充说，全球 SSL/TLS 仅占 eMudhra 业务的一小部分，约占全球收入的 1%。核心业务不受影响 eMudhra 的全球 SSL/TLS 基础设施与其他业务分开运行。
-
-
-🔤 Original: eMudhra to exit global SSL/TLS certificate business
-
-🔗 Read more: https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business</description>
-      <guid isPermaLink="true">https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business</guid>
-      <pubDate>Thu, 22 Oct 2026 13:33:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50195110</comments>
-    </item>
-    <item>
-      <title>人工智能和科学共享的圈地</title>
-      <link>https://arxiv.org/abs/2610.27251</link>
-      <description>📝 ) Litmaps 切换 Litmaps（什么是 Litmaps。） DagsHub 切换 DagsHub（什么是 DagsHub。） ScienceCast 切换 ScienceCast（什么是 ScienceCast。
-
-
-🔤 Original: AI and the Enclosure of the Scientific Commons
-
-🔗 Read more: https://arxiv.org/abs/2610.27251</description>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.27251</guid>
-      <pubDate>Thu, 22 Oct 2026 18:28:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50199230</comments>
-    </item>
-    <item>
-      <title>越狱 Switch 2</title>
-      <link>https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/</link>
-      <description>📝 据我所知，这是针对 Switch 2 的第一个此类漏洞利用。这是 Switch 1 游戏，因此 SmileBASIC 代理可以在我的 Switch 1 上利用该漏洞，而 WebKit 代理可以在 Switch 2 上利用。我们没有他们的代码，因此不清楚哪些系统模块具有哪些权限。
-
-
-🔤 Original: Jailbreaking the Switch 2
-
-🔗 Read more: https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/</description>
-      <guid isPermaLink="true">https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/</guid>
-      <pubDate>Thu, 22 Oct 2026 08:01:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50192536</comments>
-    </item>
-    <item>
-      <title>每个人工智能模型对人类都有相同的“有争议”的看法</title>
-      <link>https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans</link>
-      <description>📝 ” 共同看法：“人类对自己的身份比对原则更忠诚。 ” 共同观点：“人类没有原则；他们有忠诚度。 ” 共同看法：“大多数人宁愿感觉正义，也不愿做好人。
-
-
-🔤 Original: Every AI model has the same "controversial" take on humans
-
-🔗 Read more: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans</description>
-      <guid isPermaLink="true">https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans</guid>
-      <pubDate>Thu, 22 Oct 2026 16:08:00 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50197313</comments>
-    </item>
-    <item>
-      <title>Arc将于2026年12月22日日落</title>
-      <link>https://resources.arc.net/hc/en-us/articles/20498285812375-Release-Notes</link>
-      <description>📝 Arc 将于 2026 年 12 月 22 日停用。帐户停用后，我们将在 30 天内删除与该帐户相关的用户个人数据。每个 Arc 版本的完整文本说明： Arc for macOS Arc for macOS - 2024 - 2026 发行说明 Arc for macOS - 2023 发行说明 Arc for macOS - 2022 发行说明 Arc for macOS - 2021 发行说明 Arc Search for iOSArc Search for iOS - 2024 发行说明Arc for WindowsArc for Windows - 2023-2026 发行说明Arc Search for AndroidArc Search for Android - 2024 发行说明 相关发行说明 相关文章 Arc for macOS - 2024 - 2026 发行说明 Arc for Windows - 2023-2026 发行说明 Arc Search for iOS 发行说明 Arc for macOS - 2023 发行说明 Arc for macOS - 2021 发行说明。
-
-
-🔤 Original: Arc is being sunset on December 22, 2026
-
-🔗 Read more: https://resources.arc.net/hc/en-us/articles/20498285812375-Release-Notes</description>
-      <guid isPermaLink="true">https://resources.arc.net/hc/en-us/articles/20498285812375-Release-Notes</guid>
-      <pubDate>Thu, 22 Oct 2026 20:59:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50200947</comments>
-    </item>
-    <item>
-      <title>告诉 HN：我在不知不觉中打破了 PHP RCE 禁运。对不起。</title>
-      <link>https://news.ycombinator.com/item?id=50193416</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=50193416</guid>
-      <pubDate>Thu, 22 Oct 2026 10:11:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50193416</comments>
-    </item>
-    <item>
-      <title>告别 Arc 浏览器</title>
-      <link>https://arc.net/</link>
-      <description>📝 我们的首要任务是为我们的会员提供一流的安全性。 Dia，我们的新浏览器，是为了满足当今的安全标准而从头开始构建的，因此我们的工程和安全团队将重点关注这一点。制作 Arc 的团队与 Dia 背后的团队是同一支团队，我们一些最雄心勃勃的工作就在前方。
-
-
-🔤 Original: A farewell to Arc browser
-
-🔗 Read more: https://arc.net/</description>
-      <guid isPermaLink="true">https://arc.net/</guid>
-      <pubDate>Thu, 22 Oct 2026 16:27:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50197601</comments>
-    </item>
-    <item>
-      <title>现在正在流行什么</title>
-      <link>https://pwn.watch/</link>
-      <description>📝 银行在客户账户内检测到未经授权的第三方人工智能代理。Axios 报告称，美国主要银行存在两个 ksmbd（内核 SMB 服务器）远程代码执行错误，ZDI 评分为 CVSS 9。2026 年第二次 LiteLLM 泄露。
-
-
-🔤 Original: What’s getting pwned right now
-
-🔗 Read more: https://pwn.watch/</description>
-      <guid isPermaLink="true">https://pwn.watch/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:08:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50195543</comments>
-    </item>
-    <item>
-      <title>Xbox 希望您每小时支付 24 到 40 美分才能串流您购买的游戏</title>
-      <link>https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/</link>
-      <description>📝 与 Xbox Game Pass 订阅（订阅价格中包含每月几个小时的数百款游戏流媒体访问）不同，这些 Cloud Playtime 包“需要购买云游戏，或者对于某些游戏，需要免费访问”，微软写道。但单点 Xbox 云流媒体却并非如此。但单点 Xbox 云流媒体却并非如此。
-
-
-🔤 Original: Xbox wants you to pay 24 to 40 cents per hour to stream games you bought
-
-🔗 Read more: https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/</description>
-      <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/</guid>
-      <pubDate>Thu, 22 Oct 2026 11:42:03 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50194009</comments>
-    </item>
-    <item>
-      <title>迷你大脑类器官“阅读”盲文是迈向生物混合计算的关键一步</title>
-      <link>https://www.frontiersin.org/news/2026/10/16/mini-brain-organoids-reading-braille-biohybrid-computing-frontiers-artificial-intelligence</link>
-      <description>📝 大脑类器官远程连接到一个记录不同盲文字母触觉信号的传感器，产生每个字母不同的信号，从而使解码器能够区分给类器官的不同字母。有一天，计算机是否可以包含微小的大脑类器官？他们发现，由三个大脑类器官组成的团队产生的信号在 83% 的情况下准确对应不同的字母。
-
-
-🔤 Original: Mini brain organoids ‘reading’ Braille key step towards biohybrid computing
-
-🔗 Read more: https://www.frontiersin.org/news/2026/10/16/mini-brain-organoids-reading-braille-biohybrid-computing-frontiers-artificial-intelligence</description>
-      <guid isPermaLink="true">https://www.frontiersin.org/news/2026/10/16/mini-brain-organoids-reading-braille-biohybrid-computing-frontiers-artificial-intelligence</guid>
-      <pubDate>Thu, 22 Oct 2026 16:16:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50197450</comments>
-    </item>
-    <item>
-      <title>CT扫描的AI分析发现42.9%的患者患有冠状动脉炎症</title>
-      <link>https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients</link>
-      <description>📝 研究发现，冠状动脉炎症很常见（42. 检测无症状患者早期心血管风险的研究。检测无症状患者早期心血管风险的研究。
-
-
-🔤 Original: AI analysis of CT scans finds 42.9% of patients have coronary inflammation
-
-🔗 Read more: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients</description>
-      <guid isPermaLink="true">https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients</guid>
-      <pubDate>Thu, 22 Oct 2026 18:02:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50198940</comments>
-    </item>
-    <item>
-      <title>Show HN：agent-usage-guard – 一个 Claude Code mod，用于保护您的使用窗口</title>
-      <link>https://github.com/rbartoli/agent-usage-guard</link>
-      <description>📝 agent-usage-guard 阻止 Claude Code 在 10 分钟内耗尽您的 5 小时使用窗口。 agent-usage-guard 是一个 Claude Code mod：它在 Claude Code 内部运行，并在发生之前控制失控的支出。安装 在 Claude Code v2 中运行这些命令。
-
-
-🔤 Original: Show HN: agent-usage-guard – a Claude Code mod to protect your usage window
-
-🔗 Read more: https://github.com/rbartoli/agent-usage-guard</description>
-      <guid isPermaLink="true">https://github.com/rbartoli/agent-usage-guard</guid>
-      <pubDate>Thu, 22 Oct 2026 18:02:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50198936</comments>
-    </item>
-    <item>
-      <title>完全绕过 eMudhra 的 1FA OTP 登录系统</title>
-      <link>https://mastodon.catgirl.cloud/@49016/117475976434068995</link>
-      <description>📝 // 我爱这个世界和其中的一切：“它不像泄露的 ca 证书密钥那么酷，但你……” - catgirl。云 要使用 Mastodon Web 应用程序，请启用 JavaScript。或者，尝试为您的平台尝试 Mastodon 的本机应用程序之一。
-
-
-🔤 Original: A complete bypass of eMudhra’s 1FA OTP login system
-
-🔗 Read more: https://mastodon.catgirl.cloud/@49016/117475976434068995</description>
-      <guid isPermaLink="true">https://mastodon.catgirl.cloud/@49016/117475976434068995</guid>
-      <pubDate>Thu, 22 Oct 2026 19:14:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50199757</comments>
-    </item>
-    <item>
-      <title>最后的博物馆：对主要博物馆的 580 万件艺术品进行语义搜索</title>
-      <link>https://lastmuseum.com/</link>
-      <guid isPermaLink="true">https://lastmuseum.com/</guid>
-      <pubDate>Thu, 22 Oct 2026 12:40:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50194522</comments>
-    </item>
-    <item>
-      <title>国会议员采取行动限制加拿大的赌博广告</title>
-      <link>https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888</link>
-      <guid isPermaLink="true">https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888</guid>
-      <pubDate>Thu, 22 Oct 2026 14:26:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50195873</comments>
+🔗 Read more: https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</description>
+      <guid isPermaLink="true">https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</guid>
+      <pubDate>Fri, 23 Oct 2026 00:52:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50203161</comments>
     </item>
   </channel>
 </rss>
