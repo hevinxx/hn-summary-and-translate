@@ -6,87 +6,145 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Oct 2026 03:31:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:06:25 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>도커가 이상해요</title>
-      <link>https://codeandcake.dev/posts/2026-10-22-docker-is-weird</link>
-      <description>📝 커널은 여전히 ​​해당 프로세스를 실행 중입니다. 이미지는 단지 폴더일 뿐입니다. 이미지는 Docker가 어딘가에 놓은 다음 chroot(또는 피벗_루트)를 호출하여 해당 폴더를 컨테이너 프로세스의 새 루트 디렉터리로 만드는 폴더일 뿐입니다. 그 이미지를 어딘가에 넣어보세요.
+      <title>지역 위키피디아: 위키피디아(단, 도보로 30분 거리에 있는 항목만 해당)</title>
+      <link>https://edjefferson.com/localwiki/</link>
+      <description>📝 지역 위키피디아는 위키피디아이지만 도보로 30분 거리에 있는 것들만 해당됩니다. 로컬 콘텐츠는 Wikipedia에서 직접 가져온 것입니다(지오코딩된 페이지만 해당). 항목이 500개가 넘으면 가장 가까운 500개만 포함됩니다.
 
 
-🔤 Original: Docker is weird
+🔤 Original: Local Wikipedia: Wikipedia, but only for things a half hour walk from you
 
-🔗 Read more: https://codeandcake.dev/posts/2026-10-22-docker-is-weird</description>
-      <guid isPermaLink="true">https://codeandcake.dev/posts/2026-10-22-docker-is-weird</guid>
-      <pubDate>Thu, 22 Oct 2026 23:45:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50202681</comments>
+🔗 Read more: https://edjefferson.com/localwiki/</description>
+      <guid isPermaLink="true">https://edjefferson.com/localwiki/</guid>
+      <pubDate>Thu, 22 Oct 2026 23:01:18 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50202285</comments>
     </item>
     <item>
-      <title>LLM은 훨씬 더 큰 규모로 공식적인 소프트웨어 검증을 가능하게 만들고 있습니다.</title>
-      <link>https://www.anthropic.com/research/formal-verification</link>
-      <description>📝 공식적인 검증은 이를 수행하는 한 가지 방법입니다. 하지만 정식 검증은 쉽지 않습니다. 형식 검증은 다양한 방법론이 포함된 광범위한 분야입니다.
+      <title>Fable 5.1은 이미지의 메시지를 어떻게 숨깁니까?</title>
+      <link>https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images</link>
+      <description>📝 이미지마다 풍경만 달라집니다. 그런 다음 이미지가 정보를 인코딩하는지 확인합니다. -rw-r--r-- 1 루트 루트 94643 10월 14일 14:11 이미지.
 
 
-🔤 Original: LLMs are making formal software verification feasible at a much larger scale
+🔤 Original: How does Fable 5.1 hide messages in images?
 
-🔗 Read more: https://www.anthropic.com/research/formal-verification</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/formal-verification</guid>
-      <pubDate>Thu, 22 Oct 2026 22:54:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50202217</comments>
+🔗 Read more: https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images</description>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images</guid>
+      <pubDate>Thu, 22 Oct 2026 21:41:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50201445</comments>
     </item>
     <item>
-      <title>AI 컴퓨팅은 새로운 석유이며 새로운 시장이 필요합니다</title>
-      <link>https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market</link>
-      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market</guid>
-      <pubDate>Thu, 22 Oct 2026 23:45:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50202671</comments>
+      <title>제브의 흥망성쇠</title>
+      <link>https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm</link>
+      <description>📝 4년간의 혁명적인 점진적인 개선 후에도 우리가 여전히 놓치고 있는 것. 그 작업은 ChatGPT에 대한 연구로 끝났습니다. 참고: RLCD는 "전통적인" 방법과 운율이 높습니다. RLHF: 인간 피드백을 통한 강화 학습RLVR: 검증 가능한 보상을 통한 강화 학습그들은 심지어 다음과 같이 주장합니다. Jev는 작지도 LLM도 아니므로 지능 파레토 곡선에서 벗어납니다.
+
+
+🔤 Original: The Rise and Fall of Jev
+
+🔗 Read more: https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm</description>
+      <guid isPermaLink="true">https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm</guid>
+      <pubDate>Fri, 23 Oct 2026 09:21:00 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50206361</comments>
     </item>
     <item>
-      <title>Jank – 원활한 C++ 상호 운용성을 갖춘 기본 Clojure 방언</title>
-      <link>https://jank-lang.org/</link>
-      <description>📝 string file-path))] {:path file-path :size bytes}) (catch Boost.what e)}))) (file-info "/etc/passwd") ; {:path "/etc/passwd", :size 4025} (file-info "/root/.bash_history") ; {:경로 "/루트/.
+      <title>과학의 외계 공간: 일관되지만 인지적으로는 접근할 수 없는 방향</title>
+      <link>https://arxiv.org/abs/2603.01092</link>
+      <description>📝 ) 연결된 문서 Toggle Connected Papers(연결된 문서란 무엇입니까?) Litmaps Toggle Litmaps(Litmaps란 무엇입니까?) DagsHub Toggle DagsHub(DagsHub란 무엇입니까?
 
 
-🔤 Original: Jank – The native Clojure dialect with seamless C++ interop
+🔤 Original: The alien space of science: Coherent but cognitively unavailable directions
 
-🔗 Read more: https://jank-lang.org/</description>
-      <guid isPermaLink="true">https://jank-lang.org/</guid>
-      <pubDate>Thu, 22 Oct 2026 23:56:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50202762</comments>
+🔗 Read more: https://arxiv.org/abs/2603.01092</description>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.01092</guid>
+      <pubDate>Thu, 22 Oct 2026 13:25:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50195002</comments>
     </item>
     <item>
-      <title>철도패스</title>
-      <link>https://train.samismith.com/</link>
-      <guid isPermaLink="true">https://train.samismith.com/</guid>
-      <pubDate>Thu, 22 Oct 2026 21:38:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50201414</comments>
+      <title>HTML-in-Canvas API 오리진 트라이얼</title>
+      <link>https://developer.chrome.com/blog/html-in-canvas-origin-trial</link>
+      <description>📝 텍스트 선택, 복사/붙여넣기 및 마우스 오른쪽 버튼 클릭: 사용자는 기본적으로 3D 장면 내의 텍스트를 강조 표시하거나 상황에 맞는 메뉴를 마우스 오른쪽 버튼으로 클릭할 수 있습니다. 접근성: 캔버스 내부에 렌더링된 콘텐츠는 접근성 트리에 노출됩니다. 확장 통합: 브라우저 확장은 기본적으로 작동합니다.
+
+
+🔤 Original: The HTML-in-Canvas API origin trial
+
+🔗 Read more: https://developer.chrome.com/blog/html-in-canvas-origin-trial</description>
+      <guid isPermaLink="true">https://developer.chrome.com/blog/html-in-canvas-origin-trial</guid>
+      <pubDate>Thu, 22 Oct 2026 19:54:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50200164</comments>
     </item>
     <item>
-      <title>북쪽 하늘 매핑</title>
-      <link>https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</link>
-      <description>📝 Florian Winkler가 제작한 이 멋진 지도에는 북반구 밤하늘의 별 목록이 나와 있습니다. Winkler의 세심한 기호는 밝기와 다양성으로 별을 구별합니다. 라벨은 별과 별자리는 물론 바이엘 명칭도 식별합니다.
+      <title>나는 이것을 믿는다(1952)</title>
+      <link>https://www.awakin.org/v2/read/view.php?tid=468</link>
+      <description>📝 나는 그들의 결점을 알고 있으며, 그들의 미덕이 그들의 결점보다 훨씬 크다는 것을 알고 있습니다. 저는 마이크 신부님을 믿습니다. 나는 거의 모든 정치인이 정직하다고 믿는다.
 
 
-🔤 Original: Mapping the Northern Sky
+🔤 Original: This I Believe (1952)
 
-🔗 Read more: https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</description>
-      <guid isPermaLink="true">https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</guid>
-      <pubDate>Thu, 22 Oct 2026 23:56:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50202766</comments>
+🔗 Read more: https://www.awakin.org/v2/read/view.php?tid=468</description>
+      <guid isPermaLink="true">https://www.awakin.org/v2/read/view.php?tid=468</guid>
+      <pubDate>Fri, 23 Oct 2026 02:19:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50203759</comments>
     </item>
     <item>
-      <title>"자연어 프로그래밍"의 어리석음(1978)</title>
-      <link>https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</link>
-      <description>📝 자동 컴퓨팅의 초기부터 우리는 프로그래밍이 형식적 상징 사용의 특징인 주의와 정확성을 필요로 한다는 점을 단점으로 느끼는 사람들을 보아 왔습니다. 이 문장의 출현은 저자의 오해가 그에게만 국한된 것이 아님을 암시합니다. 내가 곰곰히 생각해 본 바에 따르면 역사는 어떤 의미에서 반복되었을 것이고 컴퓨터 과학은 주로 흑인들로 구성되었을 것입니다.
+      <title>Show HN: OnKey – 저는 노래를 잘 못해서 제가 음조에서 벗어난 부분을 보여주는 앱을 만들었습니다.</title>
+      <link>https://github.com/dsmurrell/onkey</link>
+      <description>📝 OnKey는 음악을 제공, 스트리밍 또는 다운로드하지 않습니다. 당신의 음악 앱이 그것을 재생합니다. 음악을 저장하기 위해 OnKey를 수정하지 마세요.
 
 
-🔤 Original: The foolishness of "natural language programming" (1978)
+🔤 Original: Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key
 
-🔗 Read more: https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</description>
-      <guid isPermaLink="true">https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</guid>
-      <pubDate>Fri, 23 Oct 2026 00:52:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50203161</comments>
+🔗 Read more: https://github.com/dsmurrell/onkey</description>
+      <guid isPermaLink="true">https://github.com/dsmurrell/onkey</guid>
+      <pubDate>Thu, 22 Oct 2026 14:04:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50195488</comments>
+    </item>
+    <item>
+      <title>네덜란드 정부가 재러드 쿠슈너의 휴대폰을 해킹했다.</title>
+      <link>https://twitter.com/jaredkushner/status/2113376217415958767</link>
+      <description>📝 Jared Kushner@jaredkushner이 발췌문은 터무니없고 명백히 잘못된 주장이 담긴 책에서 발췌한 것입니다. 이러한 특별한 비난을 뒷받침하는 은행 명세서, 전신 송금 기록, 계좌 번호, 거래 날짜 또는 기타 확인 가능한 세부 정보는 제공되지 않았습니다. 배니티페어가 이런 터무니없는 비난을 독립적인 검증도 없이 발표했다는 점은 매우 실망스럽습니다.
+
+
+🔤 Original: Dutch government had hacked into Jared Kushner's phone
+
+🔗 Read more: https://twitter.com/jaredkushner/status/2113376217415958767</description>
+      <guid isPermaLink="true">https://twitter.com/jaredkushner/status/2113376217415958767</guid>
+      <pubDate>Fri, 23 Oct 2026 10:41:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50206914</comments>
+    </item>
+    <item>
+      <title>Show HN: 스마트 TV를 멍청하게, 그리고 스마트하게 만들기</title>
+      <link>https://github.com/anubhavmalhotra/r2d2-tv</link>
+      <description>📝 모델 추론은 호스트에 유지됩니다. json --browser-key-file 브라우저. 해당 파일과 이를 사용하여 만든 모든 빌드를 비공개로 유지하세요.
+
+
+🔤 Original: Show HN: Making a smart TV dumb and then smart
+
+🔗 Read more: https://github.com/anubhavmalhotra/r2d2-tv</description>
+      <guid isPermaLink="true">https://github.com/anubhavmalhotra/r2d2-tv</guid>
+      <pubDate>Fri, 23 Oct 2026 00:10:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50202865</comments>
+    </item>
+    <item>
+      <title>HN에게 물어보세요: 모델이 그렇게 좋다면 OpenAI는 왜 100개 회사를 시작하지 않는 걸까요?</title>
+      <link>https://news.ycombinator.com/item?id=50200997</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=50200997</guid>
+      <pubDate>Thu, 22 Oct 2026 21:03:55 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50200997</comments>
+    </item>
+    <item>
+      <title>pgrust 제거: 항목이 부정 행위입니다.</title>
+      <link>https://github.com/ClickHouse/ClickBench/pull/2165</link>
+      <description>📝 벤치마크에서 #2106의 4-미리보기). 4-미리보기 릴리스 바이너리(pgrust.ru/'; SELECT AVG(UserID + 1) FROM 조회수; SELECT SUM(ResolutionWidth * 2) FROM 조회수; SELECT MAX(length(URL)) FROM 조회수; SELECT COUNT(*) FROM 조회수 WHERE strpos(URL, 'google') &gt; 0; SELECT COUNT(*) FROM (SELECT UserID FROM 조회수 GROUP BY UserID) t; SELECT SearchPhrase, COUNT(*) AS c FROM 조회수 WHERE SearchPhrase &lt;&gt; '' GROUP BY SearchPhrase HAVING SUM(IsRefresh) &gt; 10 ORDER BY c DESC LIMIT 10(Referer, '^https.
+
+
+🔤 Original: Remove pgrust: the entry is cheating
+
+🔗 Read more: https://github.com/ClickHouse/ClickBench/pull/2165</description>
+      <guid isPermaLink="true">https://github.com/ClickHouse/ClickBench/pull/2165</guid>
+      <pubDate>Fri, 23 Oct 2026 08:05:33 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50205816</comments>
     </item>
   </channel>
 </rss>
