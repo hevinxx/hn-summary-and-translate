@@ -6,23 +6,29 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 24 Oct 2026 10:21:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 15:27:50 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>I Don't Understand Quantum Physics</title>
-      <link>https://www.southampton.ac.uk/~doug/quantum_physics/index.html</link>
-      <description>📝 QUANTUM_PHYSICS I DON'T UNDERSTAND QUANTUM PHYSICS by Douglas Ross COMPLETE ARTICLE FOREWORD INTRODUCTION CLASSICAL PHYSICS EXPERIMENTS THAT SHOOK THE WORLD WAVE-PARTICLE DUALITY MATTER WAVES PARTICLES AND FIELDS HEISENBERG'S UNCERTAINTY PRINCIPLE WAVEFUNCTIONS QUANTUM TUNNELLING QUANTUM STATES AND SUPERPOSITION TWO STATE SYSTEMS WAVEFUNTION COLLAPSE INTERPRETATIONS OF QUANTUM PHYSICS TWO ENIGMATIC THOUGHT EXPERIMENTS HIDDEN VARIABLES WHY IS THE QUANTUM WORLD SO SMALL. PROBABILISTIC DETERMINISM IS QUANTUM PHYSICS CORRECT AND COMPLETE. GLOSSARY MATHEMATICAL FORMULAE REFERENCES.
+      <title>구글, 핀란드 데이터센터 건설 위해 나무 25만 그루 불법 벌목</title>
+      <link>https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/</link>
+      <description>📝 AFP via Getty Images 5 Google의 새로운 데이터 센터로 지정된 부지가 9월 핀란드 Vaala에서 보입니다. AFP via Getty Images 5 화가 난 주민들은 Google에 전화를 걸어 이전에 토지에서 기술 확장으로 인해 지역 사회가 입은 손실을 갚을 수 있도록 회사에 구제를 요청했습니다. AFP via Getty Images 데이터 센터 반대자들은 구글이 사기를 치기 위해 서두르고 있다고 믿습니다.
 
-🔗 Read more: https://www.southampton.ac.uk/~doug/quantum_physics/index.html</description>
-      <guid isPermaLink="true">https://www.southampton.ac.uk/~doug/quantum_physics/index.html</guid>
-      <pubDate>Sat, 24 Oct 2026 09:53:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50219666</comments>
+
+🔤 Original: Google illegally cut down 250K trees in Finland for data center
+
+🔗 Read more: https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/</description>
+      <guid isPermaLink="true">https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/</guid>
+      <pubDate>Sat, 24 Oct 2026 14:38:34 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50221676</comments>
     </item>
     <item>
-      <title>OBS Studio 33</title>
+      <title>OBS 스튜디오 33</title>
       <link>https://github.com/obsproject/obs-studio/releases/tag/33.0.0</link>
-      <description>📝 Filter Loading Sorry, something went wrong. 0 Bug Fixes Added a startup error if obs-transitions failed to load [notr1ch] (#13321) Improved file splitting for Hybrid MP4/MOV [derrod] (#13386) Fixed outputs getting stuck running when a bad rescale output resolution is set [suogesi] (#13375) Fixed monitoring icon state getting desynced when using third-party tools or websockets [prgmitchell] (#13822) Fixed a crash on macOS 27. 2 when starting OBS Studio [RytoEX] (#14070) Fixed potential crash when shader cache file is invalid [notr1ch] (#13538) Fixed a potential crash on Linux when USB mic is removed [R0te/RytoEX] (#13922) Fixed a potential crash when renaming a source with the Add Source window open [Warchamp7] (#13800) Fixed a potential deadlock during video/audio tasks [exeldro] (#13579) Fixed an issue with B-frame offset calculation in AMF that could cause streams to disconnect [lexano-ivs] (#13762) Fixed PipeWire screencast sources being duplicated in studio mode [tytan652] (#13673) Fixed a potential crash when switching off a newly created profile [Warchamp7] (#13182) Fixed a source toolbar crash when source type is missing [Penwy] (#13539) Fixed profile import failing on paths with a trailing slash [Ushkalovk] (#13863) 33.
+      <description>📝 필터 로드 중 죄송합니다. 문제가 발생했습니다. 0 버그 수정 obs-transitions를 로드하지 못한 경우 시작 오류 추가[notr1ch](#13321) 하이브리드 MP4/MOV에 대한 파일 분할 개선 [derrod](#13386) 잘못된 크기 조정 출력 해상도가 설정된 경우 출력 실행이 중단되는 문제 수정 [suogesi](#13375) 타사 도구 또는 웹소켓을 사용할 때 모니터링 아이콘 상태가 동기화되지 않는 문제 수정 [prgmitchell] (#13822) OBS Studio를 시작할 때 macOS 27.2에서 발생하는 충돌을 수정했습니다. [RytoEX] (#14070) 셰이더 캐시 파일이 유효하지 않을 때 발생할 수 있는 충돌을 수정했습니다. [notr1ch] (#13538) USB 마이크가 제거될 때 Linux에서 발생할 수 있는 충돌을 수정했습니다. [R0te/RytoEX] (#13922) 소스 추가 창을 연 상태에서 소스 이름을 변경할 때 발생할 수 있는 충돌을 수정했습니다. [Warchamp7] (#13800) 비디오/오디오 작업 중 잠재적인 교착 상태를 수정했습니다. [exeldro] (#13579) 스트림 연결이 끊길 수 있는 AMF의 B 프레임 오프셋 계산 문제를 수정했습니다. [lexano-ivs] (#13762) PipeWire 스크린캐스트 소스가 스튜디오 모드에서 중복되는 문제를 수정했습니다. [tytan652] (#13673) 새로 생성된 프로필을 끌 때 발생할 수 있는 충돌 문제를 수정했습니다. 소스 유형이 누락된 경우 소스 도구 모음 충돌 문제 수정 [Penwy] (#13539) 후행 슬래시가 있는 경로에서 프로필 가져오기 실패 수정 [Ushkalovk] (#13863) 33.
+
+
+🔤 Original: OBS Studio 33
 
 🔗 Read more: https://github.com/obsproject/obs-studio/releases/tag/33.0.0</description>
       <guid isPermaLink="true">https://github.com/obsproject/obs-studio/releases/tag/33.0.0</guid>
@@ -30,29 +36,12 @@
       <comments>https://news.ycombinator.com/item?id=50218430</comments>
     </item>
     <item>
-      <title>ThinkRail from JetBrains</title>
-      <link>https://thinkrail.ai/</link>
-      <description>📝 curl -fsSL https://raw. com/JetBrains/thinkrail/main/install. com/JetBrains/thinkrail/main/install.
-
-🔗 Read more: https://thinkrail.ai/</description>
-      <guid isPermaLink="true">https://thinkrail.ai/</guid>
-      <pubDate>Sat, 24 Oct 2026 08:08:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50219186</comments>
-    </item>
-    <item>
-      <title>How close can pure functional programming get to C?</title>
-      <link>https://rtfeldman.com/fp-vs-c</link>
-      <description>📝 57 MB/s compressing dickens (median across 15 runs) libdeflate at L1 compression 248. 31 MB/s compressing mozilla (median across 15 runs) libdeflate at L1 compression 312. 68 MB/s compressing dickens (median across 15 runs) libdeflate at L2 compression 184.
-
-🔗 Read more: https://rtfeldman.com/fp-vs-c</description>
-      <guid isPermaLink="true">https://rtfeldman.com/fp-vs-c</guid>
-      <pubDate>Sat, 24 Oct 2026 03:43:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50218195</comments>
-    </item>
-    <item>
-      <title>Around a dozen banking apps began specifically permitting GrapheneOS</title>
+      <title>약 12개의 뱅킹 앱이 GrapheneOS를 특별히 허용하기 시작했습니다.</title>
       <link>https://grapheneos.social/@GrapheneOS/117492375462459244</link>
-      <description>📝 GrapheneOS: "@maya@gs. io @b…" - GrapheneOS Mastodon To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the native apps for Mastodon for your platform.
+      <description>📝 GrapheneOS: "@maya@gs.io @b…" - GrapheneOS Mastodon Mastodon 웹 애플리케이션을 사용하려면 JavaScript를 활성화하십시오. 또는 귀하의 플랫폼에 맞는 Mastodon용 기본 앱 중 하나를 사용해 보세요.
+
+
+🔤 Original: Around a dozen banking apps began specifically permitting GrapheneOS
 
 🔗 Read more: https://grapheneos.social/@GrapheneOS/117492375462459244</description>
       <guid isPermaLink="true">https://grapheneos.social/@GrapheneOS/117492375462459244</guid>
@@ -60,48 +49,96 @@
       <comments>https://news.ycombinator.com/item?id=50217495</comments>
     </item>
     <item>
-      <title>Apple Security Research Device</title>
-      <link>https://security.apple.com/research-device/</link>
-      <description>📝 How to apply for a Security Research Device. A limited number of Apple Security Research Devices are available each year. Apply for a Security Research Device.
+      <title>Node2Shell은 HTTP2Shell로 발전하며 폭발 반경은 많은 HTTP 라이브러리 및 앱에 영향을 미칩니다.</title>
+      <link>https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</link>
+      <description>📝 Brotli 결함(CVE-2026-111497) 폭발 반경은 HTTP를 사용하는 많은 라이브러리 및 앱에 영향을 미칩니다. Brotli 결함(CVE-2026-111497) 폭발 반경은 HTTP를 사용하는 많은 라이브러리 및 앱에 영향을 미칩니다. 이는 Brotli를 번들로 제공하는 모든 프로젝트가 자체 업데이트를 제공해야 함을 의미합니다.
 
-🔗 Read more: https://security.apple.com/research-device/</description>
-      <guid isPermaLink="true">https://security.apple.com/research-device/</guid>
-      <pubDate>Sat, 24 Oct 2026 02:36:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50217903</comments>
+
+🔤 Original: Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps
+
+🔗 Read more: https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</description>
+      <guid isPermaLink="true">https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</guid>
+      <pubDate>Sat, 24 Oct 2026 08:06:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50219177</comments>
     </item>
     <item>
-      <title>Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended</title>
+      <title>나는 양자물리학을 이해하지 못한다 (2018)</title>
+      <link>https://www.southampton.ac.uk/~doug/quantum_physics/index.html</link>
+      <description>📝 QUANTUM_PHYSICS 나는 Douglas Ross의 양자 물리학을 이해하지 못합니다. 기사 서문 소개 세계를 뒤흔든 고전 물리학 실험 파동 입자 이중성 물질 파동 입자 및 장 하이젠베르크의 불확실성 원리 파동함수 양자 터널링 양자 상태 및 중첩 두 상태 시스템 파동 함수 붕괴 양자 물리학의 해석 두 가지 수수께끼의 사고 실험 숨겨진 변수 양자 세계가 왜 그렇게 작은가. 확률론적 결정론은 양자 물리학이 정확하고 완전합니다. 용어집 수학 공식 참조.
+
+
+🔤 Original: I Don't Understand Quantum Physics (2018)
+
+🔗 Read more: https://www.southampton.ac.uk/~doug/quantum_physics/index.html</description>
+      <guid isPermaLink="true">https://www.southampton.ac.uk/~doug/quantum_physics/index.html</guid>
+      <pubDate>Sat, 24 Oct 2026 09:53:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50219666</comments>
+    </item>
+    <item>
+      <title>순수 함수형 프로그래밍은 C에 얼마나 가까워질 수 있나요?</title>
+      <link>https://rtfeldman.com/fp-vs-c</link>
+      <description>📝 L1 압축 248에서 libdeflate 57MB/s 압축 L1 압축 248. 31MB/s Mozilla 압축(15개 실행 간 중앙값) L1 압축 312에서 libdeflate L2 압축 184에서 libdeflate 압축 68MB/s
+
+
+🔤 Original: How close can pure functional programming get to C?
+
+🔗 Read more: https://rtfeldman.com/fp-vs-c</description>
+      <guid isPermaLink="true">https://rtfeldman.com/fp-vs-c</guid>
+      <pubDate>Sat, 24 Oct 2026 03:43:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50218195</comments>
+    </item>
+    <item>
+      <title>HN 표시: CVE-2022-22706을 통한 Tcl Android TV의 자율 루트</title>
+      <link>https://gitlab.com/c4psu13/mali-pagecache-root</link>
+      <guid isPermaLink="true">https://gitlab.com/c4psu13/mali-pagecache-root</guid>
+      <pubDate>Sat, 24 Oct 2026 10:51:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50220042</comments>
+    </item>
+    <item>
+      <title>GPU 잠금 해제: Nvidia 3000 카드의 FP/BF16 명령 발행률</title>
+      <link>https://github.com/Zagitta/gpu-unlock</link>
+      <description>📝 com/Zagitta/gpu-unlock cd gpu-unlock make install 그런 다음 gpu_unlock을 추가합니다. 아치를 만들고, deb를 만들고, rpm만 빌드하도록 하세요. 설치 시 이미지가 다시 빌드됩니다.
+
+
+🔤 Original: GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards
+
+🔗 Read more: https://github.com/Zagitta/gpu-unlock</description>
+      <guid isPermaLink="true">https://github.com/Zagitta/gpu-unlock</guid>
+      <pubDate>Sat, 24 Oct 2026 09:58:27 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50219700</comments>
+    </item>
+    <item>
+      <title>Z-Library의 AI 지원 논문에서 존재하지 않는 TorrentFreak 기사 인용</title>
+      <link>https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/</link>
+      <description>📝 그러나 우리는 해당 제목의 기사를 게재한 적이 없습니다. ” 해당 보도자료의 제목도 존재하지 않습니다. 하지만 그렇다고 해서 그것이 정확하다는 의미는 아닙니다.
+
+
+🔤 Original: AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist
+
+🔗 Read more: https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/</description>
+      <guid isPermaLink="true">https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/</guid>
+      <pubDate>Sat, 24 Oct 2026 11:18:54 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50220204</comments>
+    </item>
+    <item>
+      <title>해커, 삼성 TV를 뒤집고 내장 AI 청취 OpenAI 계정 정지 발견</title>
       <link>https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/</link>
       <guid isPermaLink="true">https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/</guid>
       <pubDate>Sat, 24 Oct 2026 05:49:57 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=50218633</comments>
     </item>
     <item>
-      <title>How Block Blast harvests its players for ad money</title>
-      <link>https://ayoships.com/breakdowns/block-blast</link>
-      <description>📝 1 million over the same months (Sensor Tower estimates). Most of Block Blast isn’t in the app you install We started with the Android app, version 10. Block Blast is built from small modules the code calls traits, and each trait has variants called arms.
+      <title>Apple 보안 연구 장치</title>
+      <link>https://security.apple.com/research-device/</link>
+      <description>📝 보안연구기기 신청방법 매년 제한된 수의 Apple 보안 연구 기기를 사용할 수 있습니다. 보안 연구 장비를 신청하세요.
 
-🔗 Read more: https://ayoships.com/breakdowns/block-blast</description>
-      <guid isPermaLink="true">https://ayoships.com/breakdowns/block-blast</guid>
-      <pubDate>Sat, 24 Oct 2026 02:43:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50217946</comments>
-    </item>
-    <item>
-      <title>One Man's Pan Am 747 Replica [video]</title>
-      <link>https://www.youtube.com/watch?v=vAFwHGGfPz4</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=vAFwHGGfPz4</guid>
-      <pubDate>Fri, 23 Oct 2026 21:46:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50215828</comments>
-    </item>
-    <item>
-      <title>Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps</title>
-      <link>https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</link>
-      <description>📝 Brotli flaw (CVE-2026-111497) blast radius affects many libraries &amp; apps using HTTPs. Brotli flaw (CVE-2026-111497) blast radius affects many libraries &amp; apps using HTTPs. That means every project that bundles Brotli has to ship its own update.
 
-🔗 Read more: https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</description>
-      <guid isPermaLink="true">https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</guid>
-      <pubDate>Sat, 24 Oct 2026 08:06:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50219177</comments>
+🔤 Original: Apple Security Research Device
+
+🔗 Read more: https://security.apple.com/research-device/</description>
+      <guid isPermaLink="true">https://security.apple.com/research-device/</guid>
+      <pubDate>Sat, 24 Oct 2026 02:36:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50217903</comments>
     </item>
   </channel>
 </rss>
