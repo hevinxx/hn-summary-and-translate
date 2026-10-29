@@ -6,30 +6,62 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:38:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:25:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>GitLab Security Incident: Attempted Exploitation of CVE-2026-97229</title>
-      <link>https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html</link>
-      <description>📝 We have seen automated login attempts against our GitLab with passwords leaked from other sites. This crashed GitLab worker processes 8 times. The October 21 stable releases (3.
+      <title>Qwenputer：Qwen3.5 内运行的确定性 RISC-V CPU</title>
+      <link>https://divagr.com/blog/qwenputer</link>
+      <description>📝 每个头都保存一个状态矩阵，并且增量规则保持更新。这是构建整个模型的基础。通过此修改，我们解锁了该实验的下一部分。
 
-🔗 Read more: https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html</description>
-      <guid isPermaLink="true">https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html</guid>
-      <pubDate>Wed, 28 Oct 2026 23:45:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50282544</comments>
+
+🔤 Original: Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5
+
+🔗 Read more: https://divagr.com/blog/qwenputer</description>
+      <guid isPermaLink="true">https://divagr.com/blog/qwenputer</guid>
+      <pubDate>Thu, 29 Oct 2026 00:25:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50282838</comments>
     </item>
     <item>
-      <title>StackOverflow now gets fewer than 1000 questions a month</title>
+      <title>打造仅存在逻辑错误的 Microsoft Edge 全链</title>
+      <link>https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/</link>
+      <description>📝 这也可能是这家连锁店获得今年 Pwnie 奖提名并赢得史诗成就奖的原因。不管怎样，我开始深入研究导航节流阀，并检查 Google Chrome 和 Microsoft Edge 是如何实现它们的。要触发此限制，您必须从特定的 Microsoft 拥有的来源（例如登录）启动导航。
+
+
+🔤 Original: Forging a Microsoft Edge Full Chain with Logic Bugs Only
+
+🔗 Read more: https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/</description>
+      <guid isPermaLink="true">https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/</guid>
+      <pubDate>Thu, 29 Oct 2026 06:47:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50285319</comments>
+    </item>
+    <item>
+      <title>零点击、静默、远程 Android DoS</title>
+      <link>https://smsofdeath.com/</link>
+      <description>📝 Android 上的手机会挂断正在进行的呼叫（包括紧急呼叫），而受害者的交互为零。 ⚠ 工作概念验证，仅限授权测试。该存储库包含一个概念验证，可以远程破坏和破坏移动电话。
+
+
+🔤 Original: Zero click, silent, remote Android DoS
+
+🔗 Read more: https://smsofdeath.com/</description>
+      <guid isPermaLink="true">https://smsofdeath.com/</guid>
+      <pubDate>Thu, 29 Oct 2026 07:08:50 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50285452</comments>
+    </item>
+    <item>
+      <title>StackOverflow 现在每月收到的问题少于 1000 个</title>
       <link>https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1</link>
       <guid isPermaLink="true">https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1</guid>
       <pubDate>Wed, 28 Oct 2026 23:35:02 +0000</pubDate>
       <comments>https://news.ycombinator.com/item?id=50282454</comments>
     </item>
     <item>
-      <title>A Health Update</title>
+      <title>健康更新</title>
       <link>https://furbo.org/2026/10/28/a-health-update/</link>
-      <description>📝 But by the weekend, that wore off and I felt like shit. When you’re doing chemo, add feeling like absolute shit to that list. That low point was in March.
+      <description>📝 但到了周末，这种感觉就消失了，我感觉很糟糕。当你在做化疗时，把感觉绝对糟糕的感觉添加到这个列表中。最低点是在三月份。
+
+
+🔤 Original: A Health Update
 
 🔗 Read more: https://furbo.org/2026/10/28/a-health-update/</description>
       <guid isPermaLink="true">https://furbo.org/2026/10/28/a-health-update/</guid>
@@ -37,29 +69,45 @@
       <comments>https://news.ycombinator.com/item?id=50280974</comments>
     </item>
     <item>
-      <title>The case of the 9 bit AES key</title>
-      <link>https://v12.sh/blog/the-case-of-the-9bit-aes-key</link>
-      <description>📝 In MuPDF, only 9 bits of random state affect the actual AES-256 key. The issue is that the higher bits of the state never affect the lower bits. That leaves 25 bits that can affect the output.
-
-🔗 Read more: https://v12.sh/blog/the-case-of-the-9bit-aes-key</description>
-      <guid isPermaLink="true">https://v12.sh/blog/the-case-of-the-9bit-aes-key</guid>
-      <pubDate>Wed, 28 Oct 2026 20:51:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50280722</comments>
+      <title>古巴将跳过 2026 年 11 月 1 日的时钟更改，并继续实行夏令时至 2027 年</title>
+      <link>https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html</link>
+      <guid isPermaLink="true">https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html</guid>
+      <pubDate>Thu, 29 Oct 2026 07:52:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50285714</comments>
     </item>
     <item>
-      <title>Get Ready for Touch on Mac</title>
-      <link>https://developer.apple.com/touch-on-mac/</link>
-      <description>📝 Get ready for Touch on Mac Learn how to optimize your apps. Coming soon Documentation resources Learn how to build and optimize your app for touch input. Gestures Designing for macOS Pointing devices Apple Design Resources.
+      <title>GitLab 安全事件：尝试利用 CVE-2026-97229</title>
+      <link>https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html</link>
+      <description>📝 我们已经看到有人尝试使用从其他网站泄露的密码来自动登录我们的 GitLab。这导致 GitLab 工作进程崩溃了 8 次。 10 月 21 日稳定版本 (3.
 
-🔗 Read more: https://developer.apple.com/touch-on-mac/</description>
-      <guid isPermaLink="true">https://developer.apple.com/touch-on-mac/</guid>
-      <pubDate>Wed, 28 Oct 2026 23:58:20 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50282650</comments>
+
+🔤 Original: GitLab Security Incident: Attempted Exploitation of CVE-2026-97229
+
+🔗 Read more: https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html</description>
+      <guid isPermaLink="true">https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html</guid>
+      <pubDate>Wed, 28 Oct 2026 23:45:46 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50282544</comments>
     </item>
     <item>
-      <title>Formlabs Studio 1 $699 Resin Printer</title>
+      <title>Claude Code 定期将每个后台特工的成绩单发送给其模型</title>
+      <link>https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce</link>
+      <description>📝 js claude daemon stop --any BUN_OPTIONS="${BUN_OPTIONS:+$BUN_OPTIONS }--preload $HOME/.js" claude 要使其对每个 Claude Code 进程永久有效，请参阅安装。因此claude daemon stop --any。
+
+
+🔤 Original: Claude Code regularly sends each background agent’s transcript to its model
+
+🔗 Read more: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce</description>
+      <guid isPermaLink="true">https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce</guid>
+      <pubDate>Thu, 29 Oct 2026 03:33:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50284255</comments>
+    </item>
+    <item>
+      <title>Formlabs Studio 1 树脂打印机 699 美元</title>
       <link>https://formlabs.com/products/form-studio-1-basic-founders-edition/</link>
-      <description>📝 3D PrintersSLA 3D PrintersPrinters (SLA)Form Studio 1Form 4Form 4B MedicalForm 4LForm 4BL MedicalDental PrintersPost-ProcessingForm WashForm CureForm Wash LForm Cure LForm Studio Wash+CureAutomationForm AutoSLS 3D PrintersPrinters (SLS)Fuse 1+Fuse X1Post-ProcessingFuse SiftFuse BlastService PlansFactory SolutionsDeveloper PlatformContact a 3D Printing Expert.
+      <description>📝 3D 打印机SLA 3D 打印机打印机 (SLA)Form Studio 1Form 4Form 4B MedicalForm 4LForm 4BL 医疗牙科打印机后处理Form WashForm CureForm Wash LForm Cure LForm Studio Wash+Cure自动化Form AutoSLS 3D 打印机打印机 (SLS)Fuse 1+Fuse X1后处理Fuse SiftFuse Blast服务计划工厂解决方案开发者平台联系3D打印专家。
+
+
+🔤 Original: Formlabs Studio 1 $699 Resin Printer
 
 🔗 Read more: https://formlabs.com/products/form-studio-1-basic-founders-edition/</description>
       <guid isPermaLink="true">https://formlabs.com/products/form-studio-1-basic-founders-edition/</guid>
@@ -67,9 +115,12 @@
       <comments>https://news.ycombinator.com/item?id=50281044</comments>
     </item>
     <item>
-      <title>Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel</title>
+      <title>Nango (YC W23) 正在招聘工程师、FDE、营销、DevRel 人员</title>
       <link>https://nango.dev/careers</link>
-      <description>📝 VIEW OPEN POSITIONS Work alongside engineers from Why join. VIEW OPEN POSITIONS Fully remote Our global team operates remotely with modern tools, valuing outcomes over hours. Expert-led We are veterans from developer infrastructure companies.
+      <description>📝 查看空缺职位 与 Why join 的工程师一起工作。查看空缺职位 完全远程 我们的全球团队使用现代工具进行远程操作，在数小时内评估结果。专家主导 我们是来自开发商基础设施公司的资深人士。
+
+
+🔤 Original: Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel
 
 🔗 Read more: https://nango.dev/careers</description>
       <guid isPermaLink="true">https://nango.dev/careers</guid>
@@ -77,16 +128,12 @@
       <comments>https://news.ycombinator.com/item?id=50280824</comments>
     </item>
     <item>
-      <title>Leak website releases data on DHS employees</title>
-      <link>https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/</link>
-      <guid isPermaLink="true">https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/</guid>
-      <pubDate>Wed, 28 Oct 2026 20:46:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50280662</comments>
-    </item>
-    <item>
-      <title>Scaling Hierarchical Networks</title>
+      <title>扩展分层网络</title>
       <link>https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1</link>
-      <description>📝 Altogether, our results provide evidence that H-Nets are a foundational architecture that truly aligns with the bitter lesson, learning meaning directly from raw data and significantly improving efficiency and scalability. In the context of language modeling, the idea is to build new learning primitives that allow models to recursively chunk low-level data into higher-level meaning: characters into words, words into phrases, phrases into concepts. Furthermore, the signature characterization of H-Nets is that they hierarchically perform this chunking end-to-end.
+      <description>📝 总而言之，我们的结果证明 H-Net 是一种基础架构，真正符合惨痛的教训，直接从原始数据中学习意义，并显着提高效率和可扩展性。在语言建模的背景下，我们的想法是构建新的学习原语，使模型能够递归地将低级数据分解为高级含义：将字符分解为单词，将单词分解为短语，将短语分解为概念。此外，H-Net 的特征是它们分层地端到端地执行这种分块。
+
+
+🔤 Original: Scaling Hierarchical Networks
 
 🔗 Read more: https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1</description>
       <guid isPermaLink="true">https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1</guid>
@@ -94,11 +141,11 @@
       <comments>https://news.ycombinator.com/item?id=50278253</comments>
     </item>
     <item>
-      <title>Archive.today links going forward</title>
-      <link>https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/</guid>
-      <pubDate>Wed, 28 Oct 2026 15:31:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50275373</comments>
+      <title>Zillow 支付 2.125 亿美元解决房地产企业集体诉讼</title>
+      <link>https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/</link>
+      <guid isPermaLink="true">https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/</guid>
+      <pubDate>Thu, 29 Oct 2026 03:48:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50284342</comments>
     </item>
   </channel>
 </rss>
