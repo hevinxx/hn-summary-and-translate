@@ -6,320 +6,126 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 21:47:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 05:53:36 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>AWS、ついに独自の AWS エミュレータを構築</title>
-      <link>https://github.com/aws/aws-emulator</link>
-      <description>📝 AWS エミュレータの README AWS エミュレータは、AWS API のローカル エミュレータです。 「AWS エミュレータのセキュリティ」を参照してください。埋め込みモードのビルド コスト 埋め込みモードでは、エミュレータがテスト バイナリにコンパイルされるため、プロジェクトの最初のカーゴ テストでは、独自のコードと一緒にエミュレータのサービス クレートがビルドされます。
+      <title>ペイントの飛び散りの 93% は有効な Perl プログラムです (2019)</title>
+      <link>https://www.mcmillen.dev/sigbovik/</link>
+      <description>📝 私たちは光学式文字認識 (OCR) ソフトウェアを使用した経験的なアプローチを採用しており、その結果、塗料の飛び散りのわずか 93% が有効な Perl として解析されることがわかりました。ペイント スプラッタ Perl プログラムの特性を分析し、有効な Perl プログラムではないペイント スプラッタの 7 つの例を示します。 ;、Perl では文字列 c として評価されます: 最後に、このイメージは文字列 ;E,'__' として認識され、Perl: では文字列 E__ として評価されます。
 
 
-🔤 Original: AWS Finally Built Its Own AWS Emulator
+🔤 Original: 93% of paint splatters are valid Perl programs (2019)
 
-🔗 Read more: https://github.com/aws/aws-emulator</description>
-      <guid isPermaLink="true">https://github.com/aws/aws-emulator</guid>
-      <pubDate>Wed, 11 Nov 2026 18:21:38 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50456631</comments>
+🔗 Read more: https://www.mcmillen.dev/sigbovik/</description>
+      <guid isPermaLink="true">https://www.mcmillen.dev/sigbovik/</guid>
+      <pubDate>Wed, 11 Nov 2026 22:34:23 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50459745</comments>
     </item>
     <item>
-      <title>ティム・ピータースが死去</title>
-      <link>https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028</link>
-      <description>📝 Python に対するティムの影響を過大評価するのは困難です。ティムは、最初のリリースから間もなく Python を見つけました。彼の最初の行動は、ほとんどのユーザーがそのように動作することを期待しているため、Python は int と float の混合算術をサポートすべきであると私を説得することでした。
+      <title>Apache HTTP サーバーの重大な RCE 脆弱性</title>
+      <link>https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability</link>
+      <description>📝 Apache HTTP Server の HTTP/2 モジュール (mod_http2) で、同期に関する重大な脆弱性 (CVE-2026-119618) が確認されました。導入のアップグレードApache HTTP Server のアップグレード: 影響を受けるインストールを Apache HTTP Server バージョン 2 に更新します。参考Apache HTTP Server リリース ノートタグ#Research#Security。
 
 
-🔤 Original: Tim Peters has died
+🔤 Original: Critical RCE Vulnerability in Apache HTTP Server
 
-🔗 Read more: https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028</description>
-      <guid isPermaLink="true">https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028</guid>
-      <pubDate>Wed, 11 Nov 2026 07:03:17 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50450488</comments>
+🔗 Read more: https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability</description>
+      <guid isPermaLink="true">https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability</guid>
+      <pubDate>Thu, 12 Nov 2026 02:11:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50462177</comments>
     </item>
     <item>
-      <title>誤作動の煙警報器により、ジェーン・ストリート唯一のニューヨーク市データセンターが水没するところだった</title>
-      <link>https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/</link>
-      <description>📝 ジェーン・ストリートの素晴らしさは誰もが聞いたことがあるでしょう。この物語をスタートレック: ジェーン・ストリートのローワー・デックスの視点と呼んでください。ジェーン・ストリートは長い間、自社の機械室を立会場の近くに置くことにこだわってきた。
-
-
-🔤 Original: A false smoke alarm almost drowned Jane Street's only NYC datacenter
-
-🔗 Read more: https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/</description>
-      <guid isPermaLink="true">https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/</guid>
-      <pubDate>Wed, 11 Nov 2026 16:38:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50455394</comments>
+      <title>Nvidiaはジェンセン・ファン氏の追放を準備中</title>
+      <link>https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad</link>
+      <guid isPermaLink="true">https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad</guid>
+      <pubDate>Wed, 11 Nov 2026 22:31:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50459703</comments>
     </item>
     <item>
-      <title>AWS エミュレータとエージェントがコードを書くときのエンジニアの仕事</title>
-      <link>https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html</link>
-      <description>📝 その洞察がダイナモにつながり、スワミはその設計を支援しました。彼が、AWS の多くのサービスの背後にある基本的な分散システムの作業と、エージェントがコードを作成するときにエンジニアの作業がどのように変化するかについてゲスト投稿を書きたいと考えていたことを光栄に思います。当時、分散システムをテストするための最良のアイデアは、大規模システム テストとカオス ベースのテストでした。
+      <title>GitHub アクションをロックする</title>
+      <link>https://hugovk.dev/blog/2026/lock-github-actions/</link>
+      <description>📝 github/ワークフロー/lint。 github/ワークフロー/lint。 github/ワークフロー/lint。
 
 
-🔤 Original: AWS Emulator and the engineer's job when agents write the code
+🔤 Original: Lock Your GitHub Actions
 
-🔗 Read more: https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html</description>
-      <guid isPermaLink="true">https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html</guid>
-      <pubDate>Wed, 11 Nov 2026 18:28:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50456740</comments>
+🔗 Read more: https://hugovk.dev/blog/2026/lock-github-actions/</description>
+      <guid isPermaLink="true">https://hugovk.dev/blog/2026/lock-github-actions/</guid>
+      <pubDate>Wed, 11 Nov 2026 22:16:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50459485</comments>
     </item>
     <item>
-      <title>Show HN: Papers Please を再作成しましたが、どの YC スタートアップに資金を提供するか決めているのはあなたです</title>
-      <link>https://termsheetplease.com/</link>
-      <description>📝 NEXTNEWEXTENDVERIFY次の創設者に電話する 16:121 デモ日の翌日 アクト 01 メールノート 17:00 パスファンド保留決定シートを机の上に置く 検査する 紙の事実をクリック · 0 / 2 タームシート、お願いSTORY作成者 Bo Lau JavaScript を有効にして再生してください。
+      <title>ユナイテッド航空、AIエージェントが旅行者に代わって航空券を予約することを禁止</title>
+      <link>https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/</link>
+      <description>📝 ユナイテッド航空は水曜日、安全上のリスクとそのような行為が連邦規則に違反する可能性を理由に、人工知能エージェントが旅行者に代わって航空券を予約することを禁止すると発表した。 「フライト検索には航空会社の費用がかかり、ユナイテッド航空は間違いなくAIボットによるフライト検索の急増に伴う出費を避けたいと考えている。ユナイテッド航空の運賃は引き続きKayak、Hopper、Google Flightsなどのフライトアグリゲーターを通じて予約可能である」とハートベルト氏は述べ、「消費者がその航空会社で良い運賃を見つけるのがこれ以上難しいとは思わないはずだ」と付け加えた。
 
 
-🔤 Original: Show HN: I recreated Papers Please but you're deciding which YC startups to fund
+🔤 Original: United Airlines bans AI agents from booking flights on behalf of travelers
 
-🔗 Read more: https://termsheetplease.com/</description>
-      <guid isPermaLink="true">https://termsheetplease.com/</guid>
-      <pubDate>Wed, 11 Nov 2026 19:12:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50457230</comments>
+🔗 Read more: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/</description>
+      <guid isPermaLink="true">https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/</guid>
+      <pubDate>Wed, 11 Nov 2026 21:24:35 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50458900</comments>
     </item>
     <item>
-      <title>Gemini 意思決定 API</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</link>
-      <description>📝 Gemini Decisions API: 高速で調整されたマルチモーダルな意思決定 2026 年 11 月 11 日 | ×。 com Facebook LinkedIn Mail リンクをコピー 新しい Gemini Decision 1 モデルを利用した Gemini Decisions API を紹介します。出力トークンの請求がゼロであるため、Decisions API を備えた Gemini Decision 1 は、共有ベンチマーク スイート全体で Gemini 3 よりも 5 倍近く安くなります。
+      <title>最愛の開発最新情報 – 2026 年第 4 四半期</title>
+      <link>https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/</link>
+      <description>📝 今年はそれが変わりました。 ARM64 サポートDarling は初期の ARM64 サポートを備えています。 ARM64 サポートがなければ、Darling は Apple 自体が移行しつつあるアーキテクチャに限定されることになります。
 
 
-🔤 Original: Gemini Decisions API
+🔤 Original: Darling Development Update – Q4 2026
 
-🔗 Read more: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</description>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</guid>
-      <pubDate>Wed, 11 Nov 2026 18:32:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50456791</comments>
+🔗 Read more: https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/</description>
+      <guid isPermaLink="true">https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/</guid>
+      <pubDate>Thu, 12 Nov 2026 04:32:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50463103</comments>
     </item>
     <item>
-      <title>Webhook、アクションなどによる GitHub インシデント</title>
-      <link>https://www.githubstatus.com/incidents/dvy0t3mvh1lg</link>
-      <description>📝 OTP を再送信 購読すると、当社のプライバシー ポリシーに同意したものとみなされます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。このサイトは reCAPTCHA によって保護されており、Google プライバシー ポリシーと利用規約が適用されます。
+      <title>x86-64 PC 用の汎用 Apple Silicon レイヤー</title>
+      <link>https://github.com/tylertms/Stela</link>
+      <description>📝 /stela セットアップ (Linux、macOS) または stela をダブルクリックします。 /stela セットアップ更新 stela (Linux、macOS) または stela。 exe セットアップ更新ステラ (Windows)。
 
 
-🔤 Original: GitHub Incident with Webhooks, Actions, etc.
+🔤 Original: A general purpose Apple Silicon layer for x86-64 PCs
 
-🔗 Read more: https://www.githubstatus.com/incidents/dvy0t3mvh1lg</description>
-      <guid isPermaLink="true">https://www.githubstatus.com/incidents/dvy0t3mvh1lg</guid>
-      <pubDate>Wed, 11 Nov 2026 20:54:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50458532</comments>
+🔗 Read more: https://github.com/tylertms/Stela</description>
+      <guid isPermaLink="true">https://github.com/tylertms/Stela</guid>
+      <pubDate>Wed, 11 Nov 2026 23:02:38 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50460154</comments>
     </item>
     <item>
-      <title>魔法の時代の Emacs</title>
-      <link>https://commandlinesystems.com/magic.txt</link>
-      <description>📝 RMS が CSAIL で不調だったとき、テキスト エディターで入力した内容を画面にエコー バックさせるだけでも大きな成果だと考えられていました。プログラミングという行為がどれほど快適になったかを考えると、ルールベースのパラダイムなら、ENIAC が必要とする工数よりもはるかに少ない工数で、感覚を持った知性を装うのに十分な世界をエンコードできると人々は考えました。 AI に適したプログラミング言語は、人間の文法に固有の再帰と並行するものでなければならないでしょう。
+      <title>無駄のないグリモア</title>
+      <link>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/</link>
+      <description>📝 7 月に遡り、私は最新のコーディング エージェントを使用して多数の数学的視覚化アプレットを構築する実験を開始しました。楽しみのために、さまざまなゲーム要素がファンタジーをテーマにしたフレーバー テキストを使用して描かれる「ファンタジー モード」でプレイするオプションも追加しました (たとえば、数学的記述が「ポーション」になり、数式が「巻物」になるなど)。これを共有します: 印刷 (新しいウィンドウで開きます) 印刷 友人にリンクを電子メールで送信 (新しいウィンドウで開きます) メールでもっと見る WhatsApp で共有 (新しいウィンドウで開きます) WhatsApp Bluesky で共有 (新しいウィンドウで開きます) Bluesky Share on Nextdoor (新しいウィンドウで開きます) Nextdoor Share on Threads (新しいウィンドウで開きます) Threads Share on Tumblr (新しいウィンドウで開きます) Tumblr Share on Telegram (新しいウィンドウで開きます) Telegram Share on LinkedIn (新しいウィンドウで開きます) LinkedIn Share on X (新しいウィンドウで開きます) X Share on Facebook (新しいウィンドウで開きます) Facebook Share on Reddit (新しいウィンドウで開きます) Reddit Share on Mastodon (新しいウィンドウで開きます) Mastodon Share on Pinterest (新しいウィンドウで開きます) Pinterest いいね！
 
 
-🔤 Original: Emacs in the Age of Magic
+🔤 Original: Lean Grimoire
 
-🔗 Read more: https://commandlinesystems.com/magic.txt</description>
-      <guid isPermaLink="true">https://commandlinesystems.com/magic.txt</guid>
-      <pubDate>Wed, 11 Nov 2026 20:26:32 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50458208</comments>
+🔗 Read more: https://terrytao.wordpress.com/2026/11/11/lean-grimoire/</description>
+      <guid isPermaLink="true">https://terrytao.wordpress.com/2026/11/11/lean-grimoire/</guid>
+      <pubDate>Thu, 12 Nov 2026 02:36:48 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50462375</comments>
     </item>
     <item>
-      <title>より良い、より効率的な RAG のためのより高速な取得</title>
-      <link>https://machinelearning.apple.com/research/faster-retrieval</link>
-      <description>📝 クエリ ベクトルが与えられると、MIPS システムは何百万もの候補キー ベクトルのデータベース内でクエリに最もよく一致するベクトルを検索します。サポート関数としての MIPS 機械学習の観点から MIPS が興味深いのは、MIPS が、この研究以前にはほとんど見落とされていた数学的構造に基づいて構築されているということです。クエリをセット内の任意のキーとの最大内積にマッピングする関数は、そのセットのサポート関数であり、凸解析でよく研究されているオブジェクトです。第 2 に、任意のクエリにおけるサポート関数の勾配は、最も一致するキー自体を返します。
+      <title>AI エージェントがマップされていない Maya サイトを見つけましたか?</title>
+      <link>https://pietromiotti.com/latest/maya-site</link>
+      <description>📝 [1] そこでエージェントは LIDAR データを探し始めました。 LIDAR からの 3D サイト。 10月21日、INAHは、記録を調べたところ、その場所に登録された考古学的遺跡は見つからなかったと回答した。
 
 
-🔤 Original: Faster Retrieval for Better, More Efficient RAG
+🔤 Original: My AI agents found an unmapped Maya site?
 
-🔗 Read more: https://machinelearning.apple.com/research/faster-retrieval</description>
-      <guid isPermaLink="true">https://machinelearning.apple.com/research/faster-retrieval</guid>
-      <pubDate>Wed, 11 Nov 2026 16:57:45 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50455633</comments>
+🔗 Read more: https://pietromiotti.com/latest/maya-site</description>
+      <guid isPermaLink="true">https://pietromiotti.com/latest/maya-site</guid>
+      <pubDate>Wed, 11 Nov 2026 12:05:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50452455</comments>
     </item>
     <item>
-      <title>ファーウェイ、ローカル推論用の内部量子化器 MACaQ をリリース</title>
-      <link>https://github.com/huawei-csl/MACaQ</link>
-      <description>📝 テキストを超えたモデルに依存しない量子化。ラマを使用してテキスト、画像、ビデオ、オーディオのモデルを量子化して実行します。インストール、クオンタイズ、生成 → モデルの説明 Qwen/Qwen3-4B 高密度 Qwen3 ワークフロー Qwen/Qwen3。
-
-
-🔤 Original: Huawei releases MACaQ, its internal quantizer for local inference
-
-🔗 Read more: https://github.com/huawei-csl/MACaQ</description>
-      <guid isPermaLink="true">https://github.com/huawei-csl/MACaQ</guid>
-      <pubDate>Wed, 11 Nov 2026 20:23:57 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50458166</comments>
-    </item>
-    <item>
-      <title>IBM Quantum Nighthawk が新たなレベルの速度と品質を実証</title>
-      <link>https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027</link>
-      <description>📝 「Nighthawk r2: 現実世界のワークロードにスピードを提供 9 月に導入された IBM Quantum Nighthawk r2 は、120 量子ビット上で 7,500 以上の量子演算による正確な計算をサポートしながら、毎秒最大 100,000 サンプルを提供します。IBM とそのパートナーが 7 月に公開した量子アドバンテージ実験は、最初に IBM Quantum Heron で実行され、回路と結果は独立系ユーザーに公開されました」 Nighthawk r3: 1,000 量子ビット以上へのスケーリング Nighthawk r2 で実証されたパフォーマンスに基づいて、Nighthawk r3 は同じ高速アーキテクチャをより大きな量子コンピューターに拡張します。
-
-
-🔤 Original: IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality
-
-🔗 Read more: https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027</description>
-      <guid isPermaLink="true">https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027</guid>
-      <pubDate>Wed, 11 Nov 2026 19:47:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50457669</comments>
-    </item>
-    <item>
-      <title>WebGL2 を使用した超リアルな砂</title>
-      <link>https://av.github.io/safe-sand/</link>
-      <description>📝 砂 |ブラウザで超リアルな砂シミュレーター Sand超リアルな砂シミュレーターWebGL2 と JavaScript で構築されています。指で粒を押したり、携帯電話を傾けて粒を滑らせたり、振って粒を散らしたりできます。注ぐ平らに置く・傾ける・振る・描く 砂をさらに注ぐ 砂 砂の下に新しい砂を注ぐ サウンドオン ハプティクスオン。
-
-
-🔤 Original: Hyper-Realistic Sand with WebGL2
-
-🔗 Read more: https://av.github.io/safe-sand/</description>
-      <guid isPermaLink="true">https://av.github.io/safe-sand/</guid>
-      <pubDate>Wed, 11 Nov 2026 13:39:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50453288</comments>
-    </item>
-    <item>
-      <title>Show HN: ヨーグルト – グラノーラに代わる無料、プライベート、オープンソースの代替品</title>
-      <link>https://github.com/FrigadeHQ/yogurt</link>
-      <description>📝 プライベート AI 会議メモ。 Mac · Windows · Linux 用にダウンロード ヨーグルトは、会議にボットを追加せずに通話を記録します。 4+ (Apple Silicon) · Windows 10 2004+ (x64) · Ubuntu 22。
-
-
-🔤 Original: Show HN: Yogurt – Free, private, open-source alternative to Granola
-
-🔗 Read more: https://github.com/FrigadeHQ/yogurt</description>
-      <guid isPermaLink="true">https://github.com/FrigadeHQ/yogurt</guid>
-      <pubDate>Wed, 11 Nov 2026 15:33:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50454625</comments>
-    </item>
-    <item>
-      <title>Apple サポート コミュニティは 2026 年 11 月 20 日に完全に閉鎖されます</title>
-      <link>https://discussions.apple.com/welcome</link>
-      <description>📝 ユーザーのユーザープロフィール: John Galt 不要な通知を停止する 「Mac の画面の右上に、次のようなポップアップ通知が表示されますか。」 John Galt ユーザー レベル: レベル 10 162,806 ポイント 全文を読む不要な通知を停止します。
-
-
-🔤 Original: The Apple Support Community will permanently close on November 20, 2026
-
-🔗 Read more: https://discussions.apple.com/welcome</description>
-      <guid isPermaLink="true">https://discussions.apple.com/welcome</guid>
-      <pubDate>Wed, 11 Nov 2026 03:26:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50449440</comments>
-    </item>
-    <item>
-      <title>Atuin スレッド: すべてのマシン上のすべてのエージェント セッション</title>
-      <link>https://blog.atuin.sh/threads-agent-sessions/</link>
-      <description>📝 エージェント セッションにはその多くが保存されます。 Atuin 18 以降。エージェント セッションのキャプチャもオプトインです。
-
-
-🔤 Original: Atuin Threads: All your agent sessions on every machine
-
-🔗 Read more: https://blog.atuin.sh/threads-agent-sessions/</description>
-      <guid isPermaLink="true">https://blog.atuin.sh/threads-agent-sessions/</guid>
-      <pubDate>Wed, 11 Nov 2026 14:10:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50453637</comments>
-    </item>
-    <item>
-      <title>退職後の貯蓄がAIバブルを加速</title>
-      <link>https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/</link>
-      <description>📝 データセンターに抗議する個人の多くは、自分たちの退職金がこれらのプロジェクトを担当する企業の資金調達に使われていることを知りません。その悪化はすでにクレジット市場に現れている。従業員は雇用主に対し、自分の資金を規制されていない金融資産に移さない資産運用会社を見つけるよう要求することができる。
-
-
-🔤 Original: Retirement Savings Are Fueling the AI Bubble
-
-🔗 Read more: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/</description>
-      <guid isPermaLink="true">https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/</guid>
-      <pubDate>Wed, 11 Nov 2026 19:06:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50457164</comments>
-    </item>
-    <item>
-      <title>大規模な言語モデルの魂を探索するためのツール</title>
-      <link>https://oshea00.github.io/posts/tinygpt-visualizer/</link>
-      <description>📝 彼らはダリオ・アモデイが提供できなかった指導を必要としていたようだ。整った感情を見つけることができるでしょうか。そうすれば、それらは数字に表れるでしょう。
-
-
-🔤 Original: Tools for exploring the souls of large language models
-
-🔗 Read more: https://oshea00.github.io/posts/tinygpt-visualizer/</description>
-      <guid isPermaLink="true">https://oshea00.github.io/posts/tinygpt-visualizer/</guid>
-      <pubDate>Wed, 11 Nov 2026 20:45:50 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50458434</comments>
-    </item>
-    <item>
-      <title>ユタ州のティーポット</title>
-      <link>https://graphics.cs.utah.edu/teapot/</link>
-      <description>📝 ユタ ティーポットはコンピューター グラフィックスの象徴です。ユタ ティーポットに関するウィキペディアのページを参照してください。 Martin Newell、Jim Blinn、Cem Yuksel は、1976 年の SIGGRAPH でのユタ ティーポットの初登場から 50 周年を記念する SIGGRAPH 2026 でユタ ティーポットの物語を語ります。
-
-
-🔤 Original: The Utah Teapot
-
-🔗 Read more: https://graphics.cs.utah.edu/teapot/</description>
-      <guid isPermaLink="true">https://graphics.cs.utah.edu/teapot/</guid>
-      <pubDate>Wed, 11 Nov 2026 19:45:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50457618</comments>
-    </item>
-    <item>
-      <title>HN: Pomerado (YC F26) を開始 – あらゆる Web サイトをエージェント向けの MCP に変える</title>
-      <link>https://pomerado.ai/</link>
-      <description>📝 Pomerado は、あらかじめ作成された Pomerado API を呼び出す Codex をカバーしています。 Pomerado で Anthem のプロバイダー ポータルを確認してみます。 comPublishedポメラドと呼ばれます。
-
-
-🔤 Original: Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents
-
-🔗 Read more: https://pomerado.ai/</description>
-      <guid isPermaLink="true">https://pomerado.ai/</guid>
-      <pubDate>Wed, 11 Nov 2026 17:11:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50455811</comments>
-    </item>
-    <item>
-      <title>なぜ私たちはまだこんなに一生懸命働いているのでしょうか？</title>
-      <link>https://wilsoniumite.com/2026/11/11/why-are-we-still-working-this-hard/</link>
-      <description>📝 これまで必要とされていた 40 時間ごとに、24 時間が解放されました。このエッセイは私が見つけたものです。それは自然の法則ではありません。
-
-
-🔤 Original: Why are we still working this hard?
-
-🔗 Read more: https://wilsoniumite.com/2026/11/11/why-are-we-still-working-this-hard/</description>
-      <guid isPermaLink="true">https://wilsoniumite.com/2026/11/11/why-are-we-still-working-this-hard/</guid>
-      <pubDate>Wed, 11 Nov 2026 20:05:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50457939</comments>
-    </item>
-    <item>
-      <title>もっとヤギの犠牲が必要だ</title>
-      <link>https://www.experimental-history.com/p/we-need-more-goat-sacrifices</link>
-      <description>📝 3 年後の独立した評価では、プログラムがそれらのことをまったく行っていないことが判明しました。重要なのは、これらの効果は大きくあるべきであり、実際には存在しないということです。真鍮の法則: プログラムが人々を変えることを目的としているほど、そのプログラムの影響はゼロになる可能性が高くなります。
-
-
-🔤 Original: We need more goat sacrifices
-
-🔗 Read more: https://www.experimental-history.com/p/we-need-more-goat-sacrifices</description>
-      <guid isPermaLink="true">https://www.experimental-history.com/p/we-need-more-goat-sacrifices</guid>
-      <pubDate>Wed, 11 Nov 2026 12:29:48 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50452652</comments>
-    </item>
-    <item>
-      <title>WebAssembly を使用したブラウザー内の Pharo</title>
-      <link>https://massimo-nocentini.github.io/pharo-vm/world.html</link>
-      <description>📝 com/pharo-project/pharo。プロキシはコードとそれを通過する認証情報を認識するため、実行または信頼できるものだけを選択してください。プッシュで要求されるユーザー名とトークンは、My プロキシのみを経由するか、None を指定してホストに直接送信され、サイトのデフォルトは決して経由されません。 [なし] を指定すると、リクエストはリポジトリ自体に送信され、このページを許可するサーバー (CORS) に対してのみ機能します。
-
-
-🔤 Original: Pharo in the Browser with WebAssembly
-
-🔗 Read more: https://massimo-nocentini.github.io/pharo-vm/world.html</description>
-      <guid isPermaLink="true">https://massimo-nocentini.github.io/pharo-vm/world.html</guid>
-      <pubDate>Wed, 11 Nov 2026 14:21:27 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50453763</comments>
-    </item>
-    <item>
-      <title>ソフトウェア エンジニアリングにおける AI、アクティビティ、および成果</title>
-      <link>https://cabird.com/talks/shipping-faster/</link>
-      <description>📝 論文 チャ、バデア、バイム、バード、バトラー、マーフィーヒル、ハドリー。 org/papers/w35275 チョウドゥリ、バトラー、バード、バデア、ホック、サルマ。 13668 チョードリ、鳥、バデア、ゲローサ、サルマ。
-
-
-🔤 Original: AI, activity, and outcomes in software engineering
-
-🔗 Read more: https://cabird.com/talks/shipping-faster/</description>
-      <guid isPermaLink="true">https://cabird.com/talks/shipping-faster/</guid>
-      <pubDate>Wed, 11 Nov 2026 16:33:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50455332</comments>
-    </item>
-    <item>
-      <title>コンピュータ グラフィックスの知識の本</title>
-      <link>https://www.cs.cmu.edu/~ph/nyit/masson/history.htm</link>
-      <description>📝 コンピュータ グラフィックス知識の本 コンピュータ グラフィックス (CG) の歴史 コンピュータ グラフィックス (CG) は、1950 年代に政府および企業の研究センター (ベル研究所やボーイングなど) の科学者や技術者のための視覚化ツールとして初めて作成されました。まさに最初のラジオシティ画像。 1951年 MIT の Whirlwind コンピュータに Vectorscope タイプのグラフィックスが表示される。
-
-
-🔤 Original: The Computer Graphics Book of Knowledge
-
-🔗 Read more: https://www.cs.cmu.edu/~ph/nyit/masson/history.htm</description>
-      <guid isPermaLink="true">https://www.cs.cmu.edu/~ph/nyit/masson/history.htm</guid>
-      <pubDate>Wed, 11 Nov 2026 15:50:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50454823</comments>
+      <title>ジェンセン・ファンは自分の直属の幹部と関係があったと述べた</title>
+      <link>https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html</guid>
+      <pubDate>Wed, 11 Nov 2026 22:03:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50459321</comments>
     </item>
   </channel>
 </rss>
