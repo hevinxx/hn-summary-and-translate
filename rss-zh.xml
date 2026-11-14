@@ -6,198 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2026 05:04:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 13:00:43 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>ggml v1.0.0</title>
-      <link>https://github.com/ggml-org/ggml/releases/tag/v1.0.0</link>
-      <description>📝 过滤器加载 抱歉，出了点问题。 com 并使用 GitHub 的验证签名进行签名。 API 更改 修剪了已弃用的 API 并删除了旧版 DIAG_MASK_INF/DIAG_MASK_ZERO 操作，修改了 RPC 协议以拒绝不兼容的对等点（llama/29801、llama/31946） 添加了 ggml_rope_set_truncate/ggml_rope_get_truncate 来控制 YaRN 校正边界舍入（llama/30206、 llama/30802) 实现了 TRI 的向后传递 (llama/30712) 为 ggml_prec_set_acc 添加了 MUL_MAT src1 精度测试和门控 (llama/31896, llama/31851) 将 RPC 协议提升到 v9，在无法访问的端点或握手失败时提供更快的加载和优雅的失败 (llama/29413, llama/30415) 核心更改 调度程序跳过上传未读取的输入，仅预取早期拆分生成的输入 (llama/31419、llama/32100) MoE 缓存可以计算 CPU 上的缓存未命中份额，并将结果异步复制回来 (llama/30966) 元后端提高了张量较少的缓冲区的计算视图限制 (llama/31447) 后端更改CUDA 添加了批量大小为 2-24 的少行 MMQ 和 BF16 少行 matmuls 的 MMVF（llama/31533、llama/31959） 添加了 OCP FP8 支持，并在 MMQ 中将 NVFP4 门/向上 matmuls 与 GLU 融合（llama/28413、llama/31296） 使用 sm70 head-size-256 配置扩展了 FlashAttention MMA 头大小 40/72（llama/27997、llama/30285）改进的图形处理：跳过重用时的兼容性检查、重新实例化 cluster-dim 更改、移动图形状态（llama/32004、llama/31284、llama/32001） MoE：跳过空 MMQ 流 k 块、线性化 MoE 布局并清理后偏置 NaN （llama/32067、llama/31047、llama/31005）添加了调试缓冲池，并通过保留重试将 VMM 池预留减半（llama/31919、llama/30542） HIP：使用固定的 BLAS 工作区并为 CDNA2 添加 MFMA 闪电索引器（llama/31838、llama/29050）添加了d_state=64 SSM_SCAN 快速路径并使基数 Top-K 对于关系具有确定性（llama/31818、llama/31084） 金属熔丝 MoE 路由并将可熔节点组保留在单个命令缓冲区内（llama/31615、llama/31688）使基数 Top-K 对于关系具有确定性，为 32&lt;=K&lt;64 添加 mul_mm，并切换选择 TRI（llama/31084、llama/30982、llama/30711） 修复了 FA 输出和 SOLVE_TRI 内核中 ne03&gt;1 的 GROUP_NORM 和越界访问（llama/31852、llama/31662、llama/32103） Vulkan 添加了 Intel FlashAttention 预填充内核(llama/29357) 添加了批量张量副本、测试融合接口和 ReBAR 检测 (llama/31418、llama/30769、llama/31658) 在较新的 AMD 驱动程序上启用了带有 CM2、YaRN 截断、RDNA3/4 Large-tile split-K 和大型 coopmat matmul 的反量化 KV (llama/31526、 llama/30802、llama/30280、llama/31587) 为块宽度超过 512 的块添加了平铺转置 concat 着色器和 FWHT 内核（llama/30591、llama/29772） 修复了 MoltenVK 越界访问、GROUP_NORM 工作组限制和 FA 临时大小调整（llama/31890、 llama/31930, llama/30487) 高通上大头的 8 行上限标量 FlashAttention (llama/30829) SYCL 添加了设备端 MoE 调度程序 (llama/30156) 为 Alchemist 在 head_dim=64 处制作了 oneDNN FA 缓存线程安全且非门控融合 SDPA (llama/31138, llama/31574) 缓存设备 ID 并拒绝超出 VRAM 的缓冲区（llama/31126、llama/32013、llama/31285） 将 CPY 的精确舍入添加到 Q4_1/Q5_1/Q8_0、跨步 CLAMP 和 f16 SWIGLU_OAI（llama/31465、llama/31784、 llama/30857) 修复了 4GB 以上分配的 AOT (llama/31873) OpenCL 添加了分解的 Adreno FlashAttention 并改进了解码性能 (llama/32046、llama/31633) 添加了 q6_k 平铺、q8_0 和 f32/q5_k 多列 GEMV 内核和 f32 MUL_MAT_ID (llama/31758、 llama/30947、llama/31783) 为 f16/i32/i16/bf16 和 DSV4 HC 前/后内核添加了 arange、非连续 sigmoid、重复 (llama/31829、llama/31687、llama/31782、llama/31623) 默认启用多列 GEMV Adreno X2 (llama/31694) WebGPU 添加了批量张量 API 支持并从 get_max_size 返回了 maxBufferSize (llama/31473、llama/31348) 添加了 GROUP_NORM、MEAN、COUNT_EQUAL 和 PAD_REFLECT_1D 内核 (llama/31490、llama/31591、llama/31578、 llama/31877) 支持 YaRN 截断配置 (llama/30802) Hexagon 添加了 Q。
+      <title>猴岛：所有 13 个版本并排</title>
+      <link>https://monkeyisland.pages.dev/</link>
+      <description>📝 TXT 关于这些屏幕 除了来自 Hatari 模拟器的 Atari ST 单色屏幕外，每个屏幕都是在 ScummVM 中捕获的。 35 此处为 4:3，在同一许可下共享。每个版本都是从最接近其自身的显示器上的本机像素绘制的，在尺寸允许的情况下，每个扫描线都有完整的屏幕像素数。
 
 
-🔤 Original: Ggml v1.0.0
+🔤 Original: Monkey Island: all 13 versions side by side
 
-🔗 Read more: https://github.com/ggml-org/ggml/releases/tag/v1.0.0</description>
-      <guid isPermaLink="true">https://github.com/ggml-org/ggml/releases/tag/v1.0.0</guid>
-      <pubDate>Sat, 14 Nov 2026 02:28:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50493062</comments>
-    </item>
-    <item>
-      <title>美国联邦航空局 (FAA) 发布国家地面停止指令 – 4.5 小时后解除</title>
-      <link>https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</link>
-      <description>📝 穆林周五早些时候表示，唐纳德·特朗普总统听取了有关地面停留的简报。达菲表示，SMART 系统与周五出现问题的设备“完全断开”。
-
-
-🔤 Original: FAA issues national ground stop – lifted 4.5 hours later
-
-🔗 Read more: https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</description>
-      <guid isPermaLink="true">https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</guid>
-      <pubDate>Fri, 13 Nov 2026 21:05:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489641</comments>
-    </item>
-    <item>
-      <title>据称，英伟达通过资助人工智能初创公司购买其 GPU 来制造稀缺性</title>
-      <link>https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</link>
-      <guid isPermaLink="true">https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</guid>
-      <pubDate>Sat, 14 Nov 2026 02:52:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50493251</comments>
-    </item>
-    <item>
-      <title>不花费单元格的终端边界</title>
-      <link>https://www.joshka.net/cell-borders/</link>
-      <description>📝 该屏幕截图中的每一行都是单元格边框。通过单元格边框，它们位于窗格的顶部边缘。对于单元格边框，它们位于点之间的单元格边缘。
-
-
-🔤 Original: Terminal borders that don't cost a cell
-
-🔗 Read more: https://www.joshka.net/cell-borders/</description>
-      <guid isPermaLink="true">https://www.joshka.net/cell-borders/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:06:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491423</comments>
-    </item>
-    <item>
-      <title>3Com 到底怎么了？</title>
-      <link>https://dfarq.homeip.net/what-happened-to-3com/</link>
-      <description>📝 3Com 发生了什么事。此后，3Com 并没有发生什么好事。而且他们的卡很贵。
-
-
-🔤 Original: What Happened to 3Com?
-
-🔗 Read more: https://dfarq.homeip.net/what-happened-to-3com/</description>
-      <guid isPermaLink="true">https://dfarq.homeip.net/what-happened-to-3com/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:48:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491830</comments>
-    </item>
-    <item>
-      <title>KORS 所有频率的现场广播频段。加利福尼亚州维多利亚也停了下来</title>
-      <link>https://orcasairband.com/</link>
-      <guid isPermaLink="true">https://orcasairband.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 22:04:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50490593</comments>
-    </item>
-    <item>
-      <title>显示 HN：今晚 FAA 全国地面停留期间美国航班的实时地图</title>
-      <link>https://grounds.top/</link>
-      <description>📝 查看跟踪数据，而不是官方公告。预计自美国东部时间下午 3:30 起错过的商业航班：根据跟踪数据，一周前同一时间的计数减去本周的计数。该条是一周前同一时间的份额。
-
-
-🔤 Original: Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop
-
-🔗 Read more: https://grounds.top/</description>
-      <guid isPermaLink="true">https://grounds.top/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:17:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491545</comments>
-    </item>
-    <item>
-      <title>Unsloth Qwen3.8-27B 量化 – 动态 v3.1 更新</title>
-      <link>https://unsloth.ai/docs/models/qwen3.8</link>
-      <description>📝 8-27B GGUF 使用我们更新的 Unsloth Dynamic V3。大多数从 2 位到 6 位的量化都会更新。 GSQ-RCO 结果具有误导性对于 LiveCodeBench，GSQ-RCO 显示 Unsloth UD3 量化指标的表现始终比 ISTA 差。
-
-
-🔤 Original: Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update
-
-🔗 Read more: https://unsloth.ai/docs/models/qwen3.8</description>
-      <guid isPermaLink="true">https://unsloth.ai/docs/models/qwen3.8</guid>
-      <pubDate>Sat, 14 Nov 2026 00:06:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491980</comments>
-    </item>
-    <item>
-      <title>大象被发现越来越孤立，导致社交网络破裂</title>
-      <link>https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</link>
-      <description>📝 edu 分享：在 Linkedin 上分享这个故事 在 Facebook 上分享这个故事 在 Threads 上分享这个故事 在 Twitter 上分享这个故事 通过电子邮件分享这个故事 文章内容 要点 加州大学圣地亚哥分校的研究人员十多年来对斯里兰卡数百头亚洲象的社会动态进行了研究。人类和许多其他社会性动物在完善的社区网络中茁壮成长。研究人员的分析表明了社会结构的临界点。
-
-
-🔤 Original: Elephants found to be increasingly isolated leading to fractured social networks
-
-🔗 Read more: https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</description>
-      <guid isPermaLink="true">https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</guid>
-      <pubDate>Sat, 14 Nov 2026 02:02:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492860</comments>
-    </item>
-    <item>
-      <title>Amtrak 预订系统在全国 FAA 地面停靠期间遇到重大问题</title>
-      <link>https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</link>
-      <description>📝 此次停电发生在美国联邦航空局（FAA）全国范围内的地面停留期间，该地面停留现已取消。华盛顿 - Amtrak 表示，在美国联邦航空局 (FAA) 在全国范围内进行地面停车期间发生网络中断后，其预订系统正在恢复正常。官员们表示，预订系统正在恢复正常。
-
-
-🔤 Original: Amtrak booking system experiencing major issues amid nationwide FAA ground stop
-
-🔗 Read more: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</description>
-      <guid isPermaLink="true">https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</guid>
-      <pubDate>Sat, 14 Nov 2026 00:52:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492315</comments>
-    </item>
-    <item>
-      <title>Nvidia 董事在黄仁勋丑闻发生前几周出售了近 10 亿美元的股票</title>
-      <link>https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</link>
-      <description>📝 第二次出售从 9 月开始，史蒂文斯仍持有约 27 美元。13 日，Nvidia 的交易价格约为每股 163 美元。
-
-
-🔤 Original: Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal
-
-🔗 Read more: https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</description>
-      <guid isPermaLink="true">https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</guid>
-      <pubDate>Sat, 14 Nov 2026 02:21:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492993</comments>
-    </item>
-    <item>
-      <title>Jonathan Blow – 如果人工智能解决了编码问题，为什么我的软件还是一样？ [视频]</title>
-      <link>https://www.youtube.com/watch?v=IRK8h67ol7Q</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=IRK8h67ol7Q</guid>
-      <pubDate>Fri, 13 Nov 2026 15:08:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484658</comments>
-    </item>
-    <item>
-      <title>如何不构建音乐播放器</title>
-      <link>https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</link>
-      <description>📝 我不知道其他音乐播放器，例如我的朋友在写这篇文章时向我指出的 foobar2000。继续开发我的音乐播放器。在这段艰难的时期，它确实给我带来了巨大的快乐。
-
-
-🔤 Original: How Not to Build a Music Player
-
-🔗 Read more: https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</description>
-      <guid isPermaLink="true">https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:04:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491400</comments>
-    </item>
-    <item>
-      <title>菲利普·罗斯和大卫·雷姆尼克私交 (2001)</title>
-      <link>https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</link>
-      <description>📝 2000 年，雷姆尼克试图对罗斯进行侧写。在现实生活中，雷姆尼克带着青少年时期的紧张兴奋接近罗斯。罗斯对粗鲁的阿梅尔表示遗憾。
-
-
-🔤 Original: Philip Roth and David Remnick getting personal (2001)
-
-🔗 Read more: https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</description>
-      <guid isPermaLink="true">https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</guid>
-      <pubDate>Sat, 14 Nov 2026 00:21:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492098</comments>
-    </item>
-    <item>
-      <title>世界各地的安全机构被发现使用基于广告的监控系统</title>
-      <link>https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</link>
-      <description>📝 发布日期 2026 年 11 月 12 日 主题 大规模监控 有针对性的监控广告情报，webloc 提及 Wolfie Christl 分享 彭博社对 Penlink 基于广告的监控系统 Webloc 的调查建立在 Citizen Lab 研究的基础上，确定了跟踪技术的其他客户。 Webloc 已被多个国家/地区的安全机构收购的调查结果与我们在 4 月份报告中确定的潜在客户一致。 2026 年 10 月 19 日定向监视活动 [BOOK TALK] 全球中国如何治理其侨民同意和胁迫 2026 年 11 月 9 日新闻 + 更新 → 新闻 美国政客
-
-
-🔤 Original: Security Agencies Worldwide Found to Use Ad-Based Surveillance System
-
-🔗 Read more: https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</description>
-      <guid isPermaLink="true">https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</guid>
-      <pubDate>Sat, 14 Nov 2026 02:15:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492950</comments>
-    </item>
-    <item>
-      <title>目前美国所有机场均已停飞</title>
-      <link>https://twitter.com/flightradar24/status/2121347654714077605</link>
-      <description>📝 Flightradar24@flightradar24 美国联邦航空管理局 (FAA) 刚刚发布消息称，美国所有机场目前均已停飞。这意味着没有航班可能飞往美国机场。这与美国联邦航空管理局的设备故障有关。
-
-
-🔤 Original: All US airports are currently ground stopped
-
-🔗 Read more: https://twitter.com/flightradar24/status/2121347654714077605</description>
-      <guid isPermaLink="true">https://twitter.com/flightradar24/status/2121347654714077605</guid>
-      <pubDate>Fri, 13 Nov 2026 21:06:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489652</comments>
+🔗 Read more: https://monkeyisland.pages.dev/</description>
+      <guid isPermaLink="true">https://monkeyisland.pages.dev/</guid>
+      <pubDate>Sat, 14 Nov 2026 04:23:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493904</comments>
     </item>
   </channel>
 </rss>

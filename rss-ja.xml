@@ -6,195 +6,21 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Nov 2026 05:04:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 13:00:43 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>Ggml v1.0.0</title>
-      <link>https://github.com/ggml-org/ggml/releases/tag/v1.0.0</link>
-      <description>📝 フィルタの読み込み中 申し訳ありませんが、問題が発生しました。 com にアクセスし、GitHub の検証済み署名で署名しました。 API の変更 非推奨の API を削除し、従来の DIAG_MASK_INF/DIAG_MASK_ZERO 演算を削除し、RPC プロトコルを強化して互換性のないピアを拒否しました (llama/29801、llama/31946) YaRN 修正限界丸めを制御するための ggml_rope_set_truncate/ggml_rope_get_truncate を追加しました (llama/30206、 llama/30802) TRI のバックワード パスを実装しました (llama/30712) MUL_MAT src1 精度テストと ggml_prec_set_acc のゲートを追加しました (llama/31896、llama/31851) RPC プロトコルを v9 に引き上げ、より高速な読み込みと、到達不能なエンドポイントまたは失敗したハンドシェイクでの正常な失敗を実現しました (llama/29413、 llama/30415) コアの変更 スケジューラは、読み取られていない入力のアップロードをスキップし、以前の分割によって生成された入力のみをプリフェッチします (llama/31419、llama/32100) MoE キャッシュは、CPU 上のキャッシュ ミスのシェアを計算し、結果を非同期でコピーして戻すことができます (llama/30966) メタ バックエンドは、テンソルが少ないバッファのコンピューティング ビュー制限を引き上げます(llama/31447) バックエンドの変更 CUDA バッチ サイズ 2 ～ 24 の数行 MMQ と BF16 の数行 matmul 用の MMVF を追加しました (llama/31533、llama/31959) OCP FP8 サポートを追加し、MMQ の GLU と NVFP4 ゲート/アップ matmul を融合しました (llama/28413、llama/31296) sm70 ヘッドサイズ 256 設定および MMA ヘッド サイズ 40/72 (llama/27997、llama/30285) グラフ処理の改善: 再利用時の互換性チェックのスキップ、cluster-dim 変更時の再インスタンス化、グラフ状態の移動 (llama/32004、llama/31284、llama/32001) MoE: 空の MMQ ストリーム k をスキップタイル、MoE レイアウトの線形化、ポストバイアス NaN のサニタイズ (llama/32067、llama/31047、llama/31005) デバッグ バッファー プールを追加し、リザーブ リトライによる VMM プール予約を半分にしました (llama/31919、llama/30542) HIP: 固定 BLAS ワークスペースを使用し、CDNA2 の MFMA ライトニング インデクサーを追加しました(llama/31838、llama/29050) d_state=64 SSM_SCAN 高速パスを追加し、結合の基数 Top-K を決定的にしました (llama/31818、llama/31084) メタル融合 MoE ルーティングと、単一のコマンド バッファ内に融合可能なノード グループを保持しました (llama/31615、llama/31688) 基数 Top-K になりました同点の場合は決定的、32&lt;=K&lt;64 の場合は mul_mm を追加、TRI を選択に切り替え (llama/31084、llama/30982、llama/30711) ne03&gt;1 の GROUP_NORM と、FA 出力および SOLVE_TRI カーネルの範囲外アクセスを修正しました (llama/31852、llama/31662、 llama/32103) Vulkan Intel FlashAttendant prefill カーネルを追加しました (llama/29357) バッチ化されたテンソル コピー、テスト融合インターフェイス、ReBAR 検出を追加しました (llama/31418、llama/30769、llama/31658) CM2、YaRN truncation、RDNA3/4 ラージ タイル スプリット K、およびラージ クープマットによる逆量子化 KV を有効にしました新しい AMD ドライバーの matmul (llama/31526、llama/30802、llama/30280、llama/31587) タイル転置連結シェーダーと 512 を超えるブロック幅用の FWHT カーネルを追加しました (llama/30591、llama/29772) MoltenVK の境界外アクセスを修正しました。 GROUP_NORM ワークグループ制限、および FA スクラッチ サイズ設定 (llama/31890、llama/31930、llama/30487) Qualcomm のラージ ヘッドに対してスカラー FlashAttend を 8 行に制限 (llama/30829) SYCL デバイス側 MoE スケジューラを追加 (llama/30156) oneDNN FA キャッシュをスレッド セーフおよび非ゲート型融合にしましたhead_dim=64 の Alchemist 用 SDPA (llama/31138、llama/31574) デバイス ID をキャッシュし、VRAM を超えるバッファーを拒否 (llama/31126、llama/32013、llama/31285) Q4_1/Q5_1/Q8_0、ストライド CLAMP、および f16 に CPY の正確な丸めを追加SWIGLU_OAI (llama/31465、llama/31784、llama/30857) 4GB を超える割り当ての AOT を修正 (llama/31873) OpenCL 分解された Adreno FlashAttendant を追加し、デコード パフォーマンスを向上 (llama/32046、llama/31633) q6_k tiled、q8_0、および f32/q5_k を追加マルチカラム GEMV カーネルと f32 MUL_MAT_ID (llama/31758、llama/30947、llama/31783) 範囲、不連続シグモイド、f16/i32/i16/bf16 のリピート、および DSV4 HC プレ/ポスト カーネルを追加しました (llama/31829、 llama/31687、llama/31782、llama/31623) Adreno X2 (llama/31694) WebGPU のマルチカラム GEMV をデフォルトで有効にしました バッチ化された tensor API サポートを追加し、get_max_size から maxBufferSize を返しました (llama/31473、llama/31348) GROUP_NORM、MEAN、を追加しましたCOUNT_EQUAL、および PAD_REFLECT_1D カーネル (llama/31490、llama/31591、llama/31578、llama/31877) YaRN 切り捨て設定をサポートしました (llama/30802) Hexagon Q を追加しました。
-
-🔗 Read more: https://github.com/ggml-org/ggml/releases/tag/v1.0.0</description>
-      <guid isPermaLink="true">https://github.com/ggml-org/ggml/releases/tag/v1.0.0</guid>
-      <pubDate>Sat, 14 Nov 2026 02:28:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50493062</comments>
-    </item>
-    <item>
-      <title>FAA が国家地上停止を発令 – 4.5 時間後に解除</title>
-      <link>https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</link>
-      <description>📝 マリン氏は金曜日初め、ドナルド・トランプ大統領が地上停止について説明を受けたと述べた。ダフィー氏は、SMARTシステムは金曜日に問題が発生した機器から「完全に切り離されている」と述べた。
+      <title>Monkey Island: 全 13 バージョンを並べて表示</title>
+      <link>https://monkeyisland.pages.dev/</link>
+      <description>📝 TXT これらの画面について Atari ST モノクロ画面を除き、すべての画面は ScummVM でキャプチャされました。Atari ST モノクロ画面は Hatari エミュレータからのものです。 35 は 4:3 で、同じライセンスの下で共有されています。各バージョンは、サイズが許す限り、各スキ​​ャンラインの整数の画面ピクセルを使用して、そのバージョンに最も近いモニター上のネイティブ ピクセルから描画されます。
 
 
-🔤 Original: FAA issues national ground stop – lifted 4.5 hours later
+🔤 Original: Monkey Island: all 13 versions side by side
 
-🔗 Read more: https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</description>
-      <guid isPermaLink="true">https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</guid>
-      <pubDate>Fri, 13 Nov 2026 21:05:53 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489641</comments>
-    </item>
-    <item>
-      <title>Nvidia が AI スタートアップに資金を提供して自社の GPU を購入することで、希少性を操作したとされる</title>
-      <link>https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</link>
-      <guid isPermaLink="true">https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</guid>
-      <pubDate>Sat, 14 Nov 2026 02:52:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50493251</comments>
-    </item>
-    <item>
-      <title>携帯電話の費用がかからないターミナル境界線</title>
-      <link>https://www.joshka.net/cell-borders/</link>
-      <description>📝 このスクリーンショットのすべての行はセルの境界線です。セル境界の場合、それらはペインの上端に配置されます。セル境界がある場合、それらはドット間のセルの端に位置します。
-
-
-🔤 Original: Terminal borders that don't cost a cell
-
-🔗 Read more: https://www.joshka.net/cell-borders/</description>
-      <guid isPermaLink="true">https://www.joshka.net/cell-borders/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:06:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491423</comments>
-    </item>
-    <item>
-      <title>3Comはどうなったのか？</title>
-      <link>https://dfarq.homeip.net/what-happened-to-3com/</link>
-      <description>📝 スリーコムに何が起こったのか。その後、3Com に良いことは何も起こりませんでした。そして彼らのカードは高価でした。
-
-
-🔤 Original: What Happened to 3Com?
-
-🔗 Read more: https://dfarq.homeip.net/what-happened-to-3com/</description>
-      <guid isPermaLink="true">https://dfarq.homeip.net/what-happened-to-3com/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:48:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491830</comments>
-    </item>
-    <item>
-      <title>KORS の全周波数でのライブ エアバンド。カリフォルニア州ビクトリア州も地上停止</title>
-      <link>https://orcasairband.com/</link>
-      <guid isPermaLink="true">https://orcasairband.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 22:04:24 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50490593</comments>
-    </item>
-    <item>
-      <title>HN を表示: 今夜の FAA 全国地上停止中の米国便のライブマップ</title>
-      <link>https://grounds.top/</link>
-      <description>📝 公式発表からではなく、追跡データから読み取ってください。東部標準時午後 3 時 30 分以降に欠航した商業出発の推定数: 追跡データによる、1 週間前の同じ時間数から今週の数を引いた数。バーは1週間前の同時期のシェアです。
-
-
-🔤 Original: Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop
-
-🔗 Read more: https://grounds.top/</description>
-      <guid isPermaLink="true">https://grounds.top/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:17:39 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491545</comments>
-    </item>
-    <item>
-      <title>Unsloth Qwen3.8-27B 量子化 – 動的 v3.1 アップデート</title>
-      <link>https://unsloth.ai/docs/models/qwen3.8</link>
-      <description>📝 更新された Unsloth Dynamic V3 を使用した 8-27B GGUF。 2 ビットから 6 ビットまでのほとんどのクォントが更新されます。 GSQ-RCO の結果は誤解を招くLiveCodeBench の場合、GSQ-RCO は、Unsloth UD3 クオンツのパフォーマンスが ISTA よりも一貫して悪い結果を示しました。
-
-
-🔤 Original: Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update
-
-🔗 Read more: https://unsloth.ai/docs/models/qwen3.8</description>
-      <guid isPermaLink="true">https://unsloth.ai/docs/models/qwen3.8</guid>
-      <pubDate>Sat, 14 Nov 2026 00:06:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491980</comments>
-    </item>
-    <item>
-      <title>ゾウの孤立化が進み、社会ネットワークの崩壊につながっていることが判明</title>
-      <link>https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</link>
-      <description>📝 edu これを共有する: Linkedin でこのストーリーを共有 Facebook でこのストーリーを共有 このストーリーをスレッドで共有 このストーリーを Twitter で共有 このストーリーを電子メールで共有 記事の内容 重要なポイント カリフォルニア大学サンディエゴ校の研究者は、スリランカで 10 年以上にわたり、数百頭のアジアゾウの社会動態を研究しました。人間や他の多くの社会的動物は、確立されたコミュニティ ネットワークの中で繁栄しています。研究者の分析は、社会構造の転換点を示しています。
-
-
-🔤 Original: Elephants found to be increasingly isolated leading to fractured social networks
-
-🔗 Read more: https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</description>
-      <guid isPermaLink="true">https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</guid>
-      <pubDate>Sat, 14 Nov 2026 02:02:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492860</comments>
-    </item>
-    <item>
-      <title>全国的なFAA地上停止の影響でアムトラックの予約システムに重大な問題が発生</title>
-      <link>https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</link>
-      <description>📝 この停電は、FAA による全国的な地上停止措置が解除された最中に発生した。ワシントン - アムトラックは、全国的なFAA地上停止と同時に発生したネットワーク障害の後、予約システムが通常に戻りつつあると発表した。当局者は、予約システムは通常に戻りつつあると述べた。
-
-
-🔤 Original: Amtrak booking system experiencing major issues amid nationwide FAA ground stop
-
-🔗 Read more: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</description>
-      <guid isPermaLink="true">https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</guid>
-      <pubDate>Sat, 14 Nov 2026 00:52:29 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492315</comments>
-    </item>
-    <item>
-      <title>Nvidia取締役は、ジェンセン・ファンスキャンダルの数週間前に10億ドル近くの株式を売却した</title>
-      <link>https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</link>
-      <description>📝 スティーブンスは9月から続いた2回目の売却でまだ約27.13株を保有しており、エヌビディアは1株当たり約163ドルで取引されていた。
-
-
-🔤 Original: Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal
-
-🔗 Read more: https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</description>
-      <guid isPermaLink="true">https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</guid>
-      <pubDate>Sat, 14 Nov 2026 02:21:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492993</comments>
-    </item>
-    <item>
-      <title>Jonathan Blow – AI がコーディングを解決したのに、なぜ私のソフトウェアは依然として同じなのでしょうか? [ビデオ]</title>
-      <link>https://www.youtube.com/watch?v=IRK8h67ol7Q</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=IRK8h67ol7Q</guid>
-      <pubDate>Fri, 13 Nov 2026 15:08:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484658</comments>
-    </item>
-    <item>
-      <title>音楽プレーヤーを作らない方法</title>
-      <link>https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</link>
-      <description>📝 この記事を書いているときに友人が教えてくれた foobar2000 などの他の音楽プレーヤーについては知りませんでした。音楽プレーヤーでの作業を続行します。この大変な時期に、それは本当に私に計り知れない喜びをもたらしてくれました。
-
-
-🔤 Original: How Not to Build a Music Player
-
-🔗 Read more: https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</description>
-      <guid isPermaLink="true">https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</guid>
-      <pubDate>Fri, 13 Nov 2026 23:04:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50491400</comments>
-    </item>
-    <item>
-      <title>フィリップ・ロスとデヴィッド・レムニックが個人的な関係になる (2001)</title>
-      <link>https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</link>
-      <description>📝 2000年、レムニックはロスのプロファイリングを試みた。実生活では、レムニックは十代の緊張した興奮を持ってロスに近づきました。ロスは粗野なアメルを嘆いた。
-
-
-🔤 Original: Philip Roth and David Remnick getting personal (2001)
-
-🔗 Read more: https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</description>
-      <guid isPermaLink="true">https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</guid>
-      <pubDate>Sat, 14 Nov 2026 00:21:26 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492098</comments>
-    </item>
-    <item>
-      <title>世界中の治安機関が広告ベースの監視システムを使用していることが判明</title>
-      <link>https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</link>
-      <description>📝 発行日 2026 年 11 月 12 日 トピック 大量監視 ターゲットを絞った監視の広告インテリジェンス、webloc について Wolfie Christl Share について言及 ペンリンクの広告ベースの監視システムに対するブルームバーグによる調査 ウェブロックは、シチズン ラボの調査を基にして、追跡テクノロジーの追加顧客を特定しています。 Webloc が多くの国のセキュリティ機関に買収されているという調査結果は、4 月のレポートで特定した潜在的な顧客と一致しています。 2026年10月19日 対象を絞った監視イベント [ブックトーク] 世界の中国がディアスポラの同意と強制をどのように統治するか 2026年11月9日 ニュース + 最新情報 → ニュース 米国の政治家
-
-
-🔤 Original: Security Agencies Worldwide Found to Use Ad-Based Surveillance System
-
-🔗 Read more: https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</description>
-      <guid isPermaLink="true">https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</guid>
-      <pubDate>Sat, 14 Nov 2026 02:15:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50492950</comments>
-    </item>
-    <item>
-      <title>現在、米国のすべての空港は地上停止になっています</title>
-      <link>https://twitter.com/flightradar24/status/2121347654714077605</link>
-      <description>📝 Flightradar24@flightradar24つい先ほどFAAによって発行され、現在米国のすべての空港が地上停止になっています。これは、米国の空港に出発するフライトがないことを意味します。これはFAAの機器の停止に関連しています。
-
-
-🔤 Original: All US airports are currently ground stopped
-
-🔗 Read more: https://twitter.com/flightradar24/status/2121347654714077605</description>
-      <guid isPermaLink="true">https://twitter.com/flightradar24/status/2121347654714077605</guid>
-      <pubDate>Fri, 13 Nov 2026 21:06:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489652</comments>
+🔗 Read more: https://monkeyisland.pages.dev/</description>
+      <guid isPermaLink="true">https://monkeyisland.pages.dev/</guid>
+      <pubDate>Sat, 14 Nov 2026 04:23:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493904</comments>
     </item>
   </channel>
 </rss>
