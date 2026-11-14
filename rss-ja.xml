@@ -6,354 +6,195 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 21:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 05:04:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>大手テクノロジー企業が私たちを失望させるためにここに来ています</title>
-      <link>https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</link>
-      <description>📝 これが実際に 2 日に渡って問題になっているという事実は、Microsoft のような企業にとって情けないことです。欧州の多くの国家機関はすでに Microsoft からオープンソースの代替製品への移行を開始しています。 Microsoft サービスがダウンした場合と同様、それを修復することはできません。
+      <title>Ggml v1.0.0</title>
+      <link>https://github.com/ggml-org/ggml/releases/tag/v1.0.0</link>
+      <description>📝 フィルタの読み込み中 申し訳ありませんが、問題が発生しました。 com にアクセスし、GitHub の検証済み署名で署名しました。 API の変更 非推奨の API を削除し、従来の DIAG_MASK_INF/DIAG_MASK_ZERO 演算を削除し、RPC プロトコルを強化して互換性のないピアを拒否しました (llama/29801、llama/31946) YaRN 修正限界丸めを制御するための ggml_rope_set_truncate/ggml_rope_get_truncate を追加しました (llama/30206、 llama/30802) TRI のバックワード パスを実装しました (llama/30712) MUL_MAT src1 精度テストと ggml_prec_set_acc のゲートを追加しました (llama/31896、llama/31851) RPC プロトコルを v9 に引き上げ、より高速な読み込みと、到達不能なエンドポイントまたは失敗したハンドシェイクでの正常な失敗を実現しました (llama/29413、 llama/30415) コアの変更 スケジューラは、読み取られていない入力のアップロードをスキップし、以前の分割によって生成された入力のみをプリフェッチします (llama/31419、llama/32100) MoE キャッシュは、CPU 上のキャッシュ ミスのシェアを計算し、結果を非同期でコピーして戻すことができます (llama/30966) メタ バックエンドは、テンソルが少ないバッファのコンピューティング ビュー制限を引き上げます(llama/31447) バックエンドの変更 CUDA バッチ サイズ 2 ～ 24 の数行 MMQ と BF16 の数行 matmul 用の MMVF を追加しました (llama/31533、llama/31959) OCP FP8 サポートを追加し、MMQ の GLU と NVFP4 ゲート/アップ matmul を融合しました (llama/28413、llama/31296) sm70 ヘッドサイズ 256 設定および MMA ヘッド サイズ 40/72 (llama/27997、llama/30285) グラフ処理の改善: 再利用時の互換性チェックのスキップ、cluster-dim 変更時の再インスタンス化、グラフ状態の移動 (llama/32004、llama/31284、llama/32001) MoE: 空の MMQ ストリーム k をスキップタイル、MoE レイアウトの線形化、ポストバイアス NaN のサニタイズ (llama/32067、llama/31047、llama/31005) デバッグ バッファー プールを追加し、リザーブ リトライによる VMM プール予約を半分にしました (llama/31919、llama/30542) HIP: 固定 BLAS ワークスペースを使用し、CDNA2 の MFMA ライトニング インデクサーを追加しました(llama/31838、llama/29050) d_state=64 SSM_SCAN 高速パスを追加し、結合の基数 Top-K を決定的にしました (llama/31818、llama/31084) メタル融合 MoE ルーティングと、単一のコマンド バッファ内に融合可能なノード グループを保持しました (llama/31615、llama/31688) 基数 Top-K になりました同点の場合は決定的、32&lt;=K&lt;64 の場合は mul_mm を追加、TRI を選択に切り替え (llama/31084、llama/30982、llama/30711) ne03&gt;1 の GROUP_NORM と、FA 出力および SOLVE_TRI カーネルの範囲外アクセスを修正しました (llama/31852、llama/31662、 llama/32103) Vulkan Intel FlashAttendant prefill カーネルを追加しました (llama/29357) バッチ化されたテンソル コピー、テスト融合インターフェイス、ReBAR 検出を追加しました (llama/31418、llama/30769、llama/31658) CM2、YaRN truncation、RDNA3/4 ラージ タイル スプリット K、およびラージ クープマットによる逆量子化 KV を有効にしました新しい AMD ドライバーの matmul (llama/31526、llama/30802、llama/30280、llama/31587) タイル転置連結シェーダーと 512 を超えるブロック幅用の FWHT カーネルを追加しました (llama/30591、llama/29772) MoltenVK の境界外アクセスを修正しました。 GROUP_NORM ワークグループ制限、および FA スクラッチ サイズ設定 (llama/31890、llama/31930、llama/30487) Qualcomm のラージ ヘッドに対してスカラー FlashAttend を 8 行に制限 (llama/30829) SYCL デバイス側 MoE スケジューラを追加 (llama/30156) oneDNN FA キャッシュをスレッド セーフおよび非ゲート型融合にしましたhead_dim=64 の Alchemist 用 SDPA (llama/31138、llama/31574) デバイス ID をキャッシュし、VRAM を超えるバッファーを拒否 (llama/31126、llama/32013、llama/31285) Q4_1/Q5_1/Q8_0、ストライド CLAMP、および f16 に CPY の正確な丸めを追加SWIGLU_OAI (llama/31465、llama/31784、llama/30857) 4GB を超える割り当ての AOT を修正 (llama/31873) OpenCL 分解された Adreno FlashAttendant を追加し、デコード パフォーマンスを向上 (llama/32046、llama/31633) q6_k tiled、q8_0、および f32/q5_k を追加マルチカラム GEMV カーネルと f32 MUL_MAT_ID (llama/31758、llama/30947、llama/31783) 範囲、不連続シグモイド、f16/i32/i16/bf16 のリピート、および DSV4 HC プレ/ポスト カーネルを追加しました (llama/31829、 llama/31687、llama/31782、llama/31623) Adreno X2 (llama/31694) WebGPU のマルチカラム GEMV をデフォルトで有効にしました バッチ化された tensor API サポートを追加し、get_max_size から maxBufferSize を返しました (llama/31473、llama/31348) GROUP_NORM、MEAN、を追加しましたCOUNT_EQUAL、および PAD_REFLECT_1D カーネル (llama/31490、llama/31591、llama/31578、llama/31877) YaRN 切り捨て設定をサポートしました (llama/30802) Hexagon Q を追加しました。
 
-
-🔤 Original: Big tech is here to let us down
-
-🔗 Read more: https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</description>
-      <guid isPermaLink="true">https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</guid>
-      <pubDate>Fri, 13 Nov 2026 20:20:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489083</comments>
+🔗 Read more: https://github.com/ggml-org/ggml/releases/tag/v1.0.0</description>
+      <guid isPermaLink="true">https://github.com/ggml-org/ggml/releases/tag/v1.0.0</guid>
+      <pubDate>Sat, 14 Nov 2026 02:28:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493062</comments>
     </item>
     <item>
-      <title>Nvidia ハードウェアの 1,140 万ドルがカリフォルニア州からテキサス州への輸送中に消失</title>
-      <link>https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</link>
-      <description>📝 オークランド警察、捜査を確認 オークランド警察署は FreightWaves に次の声明を提供しました: 「オークランド警察署 (OPD) は、東オークランドで発生した大規模な盗難を捜査しています。NVIDIA 製品に関連した過去の盗難 オークランドの捜査は、北カリフォルニアでの NVIDIA 製品に関連した他の重大な盗難に続いて行われます。NVIDIA 製品は 500 万件。」
+      <title>FAA が国家地上停止を発令 – 4.5 時間後に解除</title>
+      <link>https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</link>
+      <description>📝 マリン氏は金曜日初め、ドナルド・トランプ大統領が地上停止について説明を受けたと述べた。ダフィー氏は、SMARTシステムは金曜日に問題が発生した機器から「完全に切り離されている」と述べた。
 
 
-🔤 Original: $11.4M in Nvidia hardware vanishes during shipment from CA to TX
+🔤 Original: FAA issues national ground stop – lifted 4.5 hours later
 
-🔗 Read more: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</description>
-      <guid isPermaLink="true">https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</guid>
-      <pubDate>Fri, 13 Nov 2026 18:40:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487864</comments>
+🔗 Read more: https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</description>
+      <guid isPermaLink="true">https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</guid>
+      <pubDate>Fri, 13 Nov 2026 21:05:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50489641</comments>
     </item>
     <item>
-      <title>FM-1 ワークベンチ</title>
-      <link>https://open.m-vave.com/fm1-workbench</link>
-      <description>📝 01 · 3 分上手のネットワーク上部とマシンのホーム画面に最新バージョンが表示されます。マシンのアニメーションは約 1 秒、ボタンまたはスピンはスキップできますが、マシンは自動放送されません。 FM1 には 8 条のトラック、6 種類のオーディオ、16各ホイールは 16、32、48、または 64 ステップをサポートしており、通常の操作では単一のボタンを使用し、完全にマスター コントロールに保存されています。適切な場所に置くと、ホーム ボタンまたはプレイですぐに再生でき、事前に設定する必要はありません。 PRESETS／SELECT 直接読み込み、PLAY でブロードキャスト。 SAVE を押すと保存、白ボタン 1 ～ 16 で直接設定を選択することもできます。 サウンドを変更します。現在の音色を切り替えて、再度EDITに戻します。オーディオを切り替え、全体変換ALGORITHMまたはK2で、適用を保存します。演奏を変更します。選択、OCT-/OCT+ 回転。ALGORITHM 回転の一番下のパラメーター、白鍵 1 ～ 8 静音、9 ～ 16 単独演奏、SELECT 選択、K1 ～ K4再度 GLO または HOME に戻ります。保存します。SAVE、SELECT USER スロットを選択し、再度 SAVE 保存；他の既存のスロットを覆うと確認が表示され、成功すると自動的に戻ります。ネットワークトップ部の「デバイスに保存」は直接スロット保存を選択できます。「このデバイスに保存」は本体のデバイスのみを保存します。「コンテンツファイルの出力」はデバイススロットを作成します。
-
-
-🔤 Original: FM-1 Workbench
-
-🔗 Read more: https://open.m-vave.com/fm1-workbench</description>
-      <guid isPermaLink="true">https://open.m-vave.com/fm1-workbench</guid>
-      <pubDate>Fri, 13 Nov 2026 19:14:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488325</comments>
+      <title>Nvidia が AI スタートアップに資金を提供して自社の GPU を購入することで、希少性を操作したとされる</title>
+      <link>https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</link>
+      <guid isPermaLink="true">https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</guid>
+      <pubDate>Sat, 14 Nov 2026 02:52:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493251</comments>
     </item>
     <item>
-      <title>600回の実験を経て、JEPA世界モデルについて私が発見したことは次のとおりです。</title>
-      <link>https://haddyalchaer.com/jepa</link>
-      <description>📝 JEPA 世界モデルの 3 つの部分。次に、両方のバージョンに、目標が 75 ステップ先にあるという長期的なタスクと、同じサブ目標 (専門家のデモンストレーションからのフレームを 25 ステップごとに 1 フレーム) を与えました。 25 ステップ離れたサブゴールを計画する 公開されているとおりに使用すると、LeWM は目標が 75 ステップ離れた長期タスクの 22% で成功します。
+      <title>携帯電話の費用がかからないターミナル境界線</title>
+      <link>https://www.joshka.net/cell-borders/</link>
+      <description>📝 このスクリーンショットのすべての行はセルの境界線です。セル境界の場合、それらはペインの上端に配置されます。セル境界がある場合、それらはドット間のセルの端に位置します。
 
 
-🔤 Original: After 600 experiments, here's what I discovered about JEPA world models
+🔤 Original: Terminal borders that don't cost a cell
 
-🔗 Read more: https://haddyalchaer.com/jepa</description>
-      <guid isPermaLink="true">https://haddyalchaer.com/jepa</guid>
-      <pubDate>Fri, 13 Nov 2026 17:55:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487185</comments>
+🔗 Read more: https://www.joshka.net/cell-borders/</description>
+      <guid isPermaLink="true">https://www.joshka.net/cell-borders/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:06:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491423</comments>
     </item>
     <item>
-      <title>Coway 空気清浄機をリバース エンジニアリングしてクラウドを排除する</title>
-      <link>https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</link>
-      <description>📝 Home Assistant はそれを Apple Home に橋渡しします…出来上がりです。これに加えて、Coway がこのサービスを永久に維持する可能性は低いと思われます。とはいえ、大きく 2 つのことが変わりました。
+      <title>3Comはどうなったのか？</title>
+      <link>https://dfarq.homeip.net/what-happened-to-3com/</link>
+      <description>📝 スリーコムに何が起こったのか。その後、3Com に良いことは何も起こりませんでした。そして彼らのカードは高価でした。
 
 
-🔤 Original: Reverse engineering my Coway air purifier to ditch the cloud
+🔤 Original: What Happened to 3Com?
 
-🔗 Read more: https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</description>
-      <guid isPermaLink="true">https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</guid>
-      <pubDate>Thu, 12 Nov 2026 22:03:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50474959</comments>
+🔗 Read more: https://dfarq.homeip.net/what-happened-to-3com/</description>
+      <guid isPermaLink="true">https://dfarq.homeip.net/what-happened-to-3com/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:48:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491830</comments>
     </item>
     <item>
-      <title>Autonomous (YC F25) は、資産を管理する AI エージェントを構築するために MTS を採用しています</title>
-      <link>https://atg.science/careers</link>
-      <description>📝 キャリア | Autonomous Technologies Groupホームジャーナルキャリアチームに参加して、考え、推論し、行動するシステムを作成します。私たちは、幅広い分野や背景を持つ好奇心旺盛な人材を求めています。
-
-
-🔤 Original: Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth
-
-🔗 Read more: https://atg.science/careers</description>
-      <guid isPermaLink="true">https://atg.science/careers</guid>
-      <pubDate>Fri, 13 Nov 2026 21:01:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489589</comments>
+      <title>KORS の全周波数でのライブ エアバンド。カリフォルニア州ビクトリア州も地上停止</title>
+      <link>https://orcasairband.com/</link>
+      <guid isPermaLink="true">https://orcasairband.com/</guid>
+      <pubDate>Fri, 13 Nov 2026 22:04:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50490593</comments>
     </item>
     <item>
-      <title>Perplexity Decider v1.3: トレーニング、評価、およびユースケース</title>
-      <link>https://www.perplexity.ai/hub/blog/perplexity-decider</link>
-      <guid isPermaLink="true">https://www.perplexity.ai/hub/blog/perplexity-decider</guid>
-      <pubDate>Fri, 13 Nov 2026 19:24:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488464</comments>
+      <title>HN を表示: 今夜の FAA 全国地上停止中の米国便のライブマップ</title>
+      <link>https://grounds.top/</link>
+      <description>📝 公式発表からではなく、追跡データから読み取ってください。東部標準時午後 3 時 30 分以降に欠航した商業出発の推定数: 追跡データによる、1 週間前の同じ時間数から今週の数を引いた数。バーは1週間前の同時期のシェアです。
+
+
+🔤 Original: Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop
+
+🔗 Read more: https://grounds.top/</description>
+      <guid isPermaLink="true">https://grounds.top/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:17:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491545</comments>
     </item>
     <item>
-      <title>Show HN: アイソメトリック SF – SF ベイエリアのピクセルアート マップ</title>
-      <link>https://isometricsf.com/</link>
-      <description>📝 地図データ © OpenStreetMap contributors, ODbL Google Maps から取得した画像 フォトリアリスティック 3D タイル 土地被覆 © ESA WorldCover project 2021 / ESA WorldCover コンソーシアムによって処理された修正済みの Copernicus Sentinel データ (2021) が含まれています、CC BY 4. 0 Copernicus WorldDEM-30 を使用して作成された標高 © DLR e. 2010 ～ 2014 年および © Airbus Defense and Space GmbH 2014 ～ 2018 は、欧州連合および ESA によって COPERNICUS に基づいて提供されました。全著作権所有 場所: Wikivoyage 寄稿者、CC BY-SA 4.
+      <title>Unsloth Qwen3.8-27B 量子化 – 動的 v3.1 アップデート</title>
+      <link>https://unsloth.ai/docs/models/qwen3.8</link>
+      <description>📝 更新された Unsloth Dynamic V3 を使用した 8-27B GGUF。 2 ビットから 6 ビットまでのほとんどのクォントが更新されます。 GSQ-RCO の結果は誤解を招くLiveCodeBench の場合、GSQ-RCO は、Unsloth UD3 クオンツのパフォーマンスが ISTA よりも一貫して悪い結果を示しました。
 
 
-🔤 Original: Show HN: Isometric SF – A pixel-art map of the SF Bay Area
+🔤 Original: Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update
 
-🔗 Read more: https://isometricsf.com/</description>
-      <guid isPermaLink="true">https://isometricsf.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:58:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487228</comments>
+🔗 Read more: https://unsloth.ai/docs/models/qwen3.8</description>
+      <guid isPermaLink="true">https://unsloth.ai/docs/models/qwen3.8</guid>
+      <pubDate>Sat, 14 Nov 2026 00:06:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491980</comments>
     </item>
     <item>
-      <title>Ctrl+C、Ctrl+v、Ctrl+cve: Android のクリップボード読み取りセキュリティ対策をバイパスする</title>
-      <link>https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</link>
-      <guid isPermaLink="true">https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</guid>
-      <pubDate>Fri, 13 Nov 2026 18:23:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487605</comments>
+      <title>ゾウの孤立化が進み、社会ネットワークの崩壊につながっていることが判明</title>
+      <link>https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</link>
+      <description>📝 edu これを共有する: Linkedin でこのストーリーを共有 Facebook でこのストーリーを共有 このストーリーをスレッドで共有 このストーリーを Twitter で共有 このストーリーを電子メールで共有 記事の内容 重要なポイント カリフォルニア大学サンディエゴ校の研究者は、スリランカで 10 年以上にわたり、数百頭のアジアゾウの社会動態を研究しました。人間や他の多くの社会的動物は、確立されたコミュニティ ネットワークの中で繁栄しています。研究者の分析は、社会構造の転換点を示しています。
+
+
+🔤 Original: Elephants found to be increasingly isolated leading to fractured social networks
+
+🔗 Read more: https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</description>
+      <guid isPermaLink="true">https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</guid>
+      <pubDate>Sat, 14 Nov 2026 02:02:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492860</comments>
     </item>
     <item>
-      <title>発見：炎症を引き起こすことなく老化を促進するタンパク質</title>
-      <link>https://www.nature.com/articles/d41586-026-03638-3</link>
-      <description>📝 1 号あたり 90 枚 さらに詳しく この記事をレンタルまたは購入する 価格は記事の種類によって異なります $1。デンマーク コペンハーゲン大学 フレデリクスバーグ キャンパス コペンハーゲン大学 植物環境科学科 CIBCAS の戦略科学者、優秀な若手研究者、博士研究員のポジション CIB は、著名な戦略科学者、優秀な若手研究者、博士研究員を招聘しています。ドーハ (QA) シドラ医学カタール。
+      <title>全国的なFAA地上停止の影響でアムトラックの予約システムに重大な問題が発生</title>
+      <link>https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</link>
+      <description>📝 この停電は、FAA による全国的な地上停止措置が解除された最中に発生した。ワシントン - アムトラックは、全国的なFAA地上停止と同時に発生したネットワーク障害の後、予約システムが通常に戻りつつあると発表した。当局者は、予約システムは通常に戻りつつあると述べた。
 
 
-🔤 Original: Found: A protein that drives ageing without unleashing inflammation
+🔤 Original: Amtrak booking system experiencing major issues amid nationwide FAA ground stop
 
-🔗 Read more: https://www.nature.com/articles/d41586-026-03638-3</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-03638-3</guid>
-      <pubDate>Fri, 13 Nov 2026 19:25:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488470</comments>
+🔗 Read more: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</description>
+      <guid isPermaLink="true">https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:52:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492315</comments>
     </item>
     <item>
-      <title>Haskell エコシステムの技術的ビジョン</title>
-      <link>https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</link>
-      <description>📝 私たちは、資金提供と実行が必要だと思われる取り組みや提案を積極的に展開していきます。そのためには、企業、請負業者、ボランティアの協力が必要です。これらすべてを実現しながら、より強力な保証とより優れたパフォーマンスを提供します。
+      <title>Nvidia取締役は、ジェンセン・ファンスキャンダルの数週間前に10億ドル近くの株式を売却した</title>
+      <link>https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</link>
+      <description>📝 スティーブンスは9月から続いた2回目の売却でまだ約27.13株を保有しており、エヌビディアは1株当たり約163ドルで取引されていた。
 
 
-🔤 Original: A technical vision for the Haskell ecosystem
+🔤 Original: Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal
 
-🔗 Read more: https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</description>
-      <guid isPermaLink="true">https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</guid>
-      <pubDate>Fri, 13 Nov 2026 14:43:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484235</comments>
+🔗 Read more: https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</description>
+      <guid isPermaLink="true">https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</guid>
+      <pubDate>Sat, 14 Nov 2026 02:21:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492993</comments>
     </item>
     <item>
-      <title>モデルが重み空間でウイルスを感染できるようになりました</title>
-      <link>https://www.alphaxiv.org/abs/2611.weight-space-misfolding</link>
-      <description>📝 この論文では、大規模なエディターが中間モデルに影響を与え、オプションのさらなる段階を通じて下流のターゲットに影響を与えるという仮説的なルートも概略的に説明されています。そのルートは提案されたものであり、実証されたものではありません。 [p4] これがどこにあるか 著者らの初期の IWIBench は、エディタ モデルが他の正しい動作を維持しながら、承認された目的を満たすようにターゲットの重みを変更できるかどうかを測定します。
-
-
-🔤 Original: Models can now transmit viruses in weight-space
-
-🔗 Read more: https://www.alphaxiv.org/abs/2611.weight-space-misfolding</description>
-      <guid isPermaLink="true">https://www.alphaxiv.org/abs/2611.weight-space-misfolding</guid>
-      <pubDate>Fri, 13 Nov 2026 18:33:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487762</comments>
+      <title>Jonathan Blow – AI がコーディングを解決したのに、なぜ私のソフトウェアは依然として同じなのでしょうか? [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=IRK8h67ol7Q</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=IRK8h67ol7Q</guid>
+      <pubDate>Fri, 13 Nov 2026 15:08:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50484658</comments>
     </item>
     <item>
-      <title>AI のスロップなし: マニフェスト</title>
-      <link>https://www.slopmanifesto.com/</link>
-      <description>📝 AIを使用しても、必ずしも何かがうまくいかないわけではありません。コードでは、AI 以前であっても、問題を正しく解決するのではなく回避策を繰り返すと、スロップが急増します。私たちのほとんどは、ある時点で同じメモを必要としたことがあります。
+      <title>音楽プレーヤーを作らない方法</title>
+      <link>https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</link>
+      <description>📝 この記事を書いているときに友人が教えてくれた foobar2000 などの他の音楽プレーヤーについては知りませんでした。音楽プレーヤーでの作業を続行します。この大変な時期に、それは本当に私に計り知れない喜びをもたらしてくれました。
 
 
-🔤 Original: No AI Slop: A Manifesto
+🔤 Original: How Not to Build a Music Player
 
-🔗 Read more: https://www.slopmanifesto.com/</description>
-      <guid isPermaLink="true">https://www.slopmanifesto.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:51:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488769</comments>
+🔗 Read more: https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</description>
+      <guid isPermaLink="true">https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:04:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491400</comments>
     </item>
     <item>
-      <title>AI が数百の証明された定理が含まれていると言われるゲーデルのノートのロックを解除する</title>
-      <link>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</link>
-      <description>📝 彼の不完全性定理は、すべての数学体系には証明も反証もできない真の命題が存在することを示しています。そうそう、ゲーデルの謎めいた速記ページを読み始めます。ゲーデルはコーエンのフィールズメダルに反応して、自分はalrだと述べた。
+      <title>フィリップ・ロスとデヴィッド・レムニックが個人的な関係になる (2001)</title>
+      <link>https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</link>
+      <description>📝 2000年、レムニックはロスのプロファイリングを試みた。実生活では、レムニックは十代の緊張した興奮を持ってロスに近づきました。ロスは粗野なアメルを嘆いた。
 
 
-🔤 Original: AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems
+🔤 Original: Philip Roth and David Remnick getting personal (2001)
 
-🔗 Read more: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</description>
-      <guid isPermaLink="true">https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</guid>
-      <pubDate>Fri, 13 Nov 2026 17:30:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486748</comments>
+🔗 Read more: https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</description>
+      <guid isPermaLink="true">https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</guid>
+      <pubDate>Sat, 14 Nov 2026 00:21:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492098</comments>
     </item>
     <item>
-      <title>学生が iPad で PowerPoint を開くには 16 回のクリックが必要</title>
-      <link>https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</guid>
-      <pubDate>Fri, 13 Nov 2026 18:18:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487522</comments>
+      <title>世界中の治安機関が広告ベースの監視システムを使用していることが判明</title>
+      <link>https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</link>
+      <description>📝 発行日 2026 年 11 月 12 日 トピック 大量監視 ターゲットを絞った監視の広告インテリジェンス、webloc について Wolfie Christl Share について言及 ペンリンクの広告ベースの監視システムに対するブルームバーグによる調査 ウェブロックは、シチズン ラボの調査を基にして、追跡テクノロジーの追加顧客を特定しています。 Webloc が多くの国のセキュリティ機関に買収されているという調査結果は、4 月のレポートで特定した潜在的な顧客と一致しています。 2026年10月19日 対象を絞った監視イベント [ブックトーク] 世界の中国がディアスポラの同意と強制をどのように統治するか 2026年11月9日 ニュース + 最新情報 → ニュース 米国の政治家
+
+
+🔤 Original: Security Agencies Worldwide Found to Use Ad-Based Surveillance System
+
+🔗 Read more: https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</description>
+      <guid isPermaLink="true">https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</guid>
+      <pubDate>Sat, 14 Nov 2026 02:15:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492950</comments>
     </item>
     <item>
-      <title>ミネソタのギタリストによる「パームフレット」の発明が新たな響きをもたらす</title>
-      <link>https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</link>
-      <description>📝 その夜、ランソンは何年も研究してきたことを明らかにした。ランソンが何かが変わったと言い出したのはその時だった。学習曲線 ランソンはパームフレットを設計する際にいくつかのルールを設けていました。
+      <title>現在、米国のすべての空港は地上停止になっています</title>
+      <link>https://twitter.com/flightradar24/status/2121347654714077605</link>
+      <description>📝 Flightradar24@flightradar24つい先ほどFAAによって発行され、現在米国のすべての空港が地上停止になっています。これは、米国の空港に出発するフライトがないことを意味します。これはFAAの機器の停止に関連しています。
 
 
-🔤 Original: Minnesota guitarist's "palmfrets" invention strikes a new chord
+🔤 Original: All US airports are currently ground stopped
 
-🔗 Read more: https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</description>
-      <guid isPermaLink="true">https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</guid>
-      <pubDate>Fri, 13 Nov 2026 15:08:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484650</comments>
-    </item>
-    <item>
-      <title>Lonewolf 0.3 – Rust で書かれたスタンドアロン XMPP サーバー</title>
-      <link>https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</link>
-      <description>📝 フィルターの読み込み中 申し訳ありませんが、問題が発生しました。このページをリロードしてください。ローンウルフは証明書のみによってピアを認証します。
-
-
-🔤 Original: Lonewolf 0.3 – A standalone XMPP server written in Rust
-
-🔗 Read more: https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</description>
-      <guid isPermaLink="true">https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</guid>
-      <pubDate>Fri, 13 Nov 2026 14:28:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484007</comments>
-    </item>
-    <item>
-      <title>OpenAI、一般モデルがロボットを実行し始めるため、ロボット工学チームを解散</title>
-      <link>https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</link>
-      <description>📝 OpenAIはスタンドアロンロボットチームを解散し、研究者を他のチームに移した。同社の広報担当者は、組織再編にもかかわらず、OpenAIは汎用ロボットを世に送り出すことに引き続き取り組んでいると述べた。しかし、それ以来、GPT-6 Astraを含む同社の汎用フロンティアモデルはロボット工学に直接適用できることが示された、と同社の広報担当者は述べた。
-
-
-🔤 Original: OpenAI disbands its robotics team as its general models start running robots
-
-🔗 Read more: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</description>
-      <guid isPermaLink="true">https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:55:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487184</comments>
-    </item>
-    <item>
-      <title>検索問題としてのテクノロジー</title>
-      <link>https://www.construction-physics.com/p/technology-as-a-search-problem</link>
-      <description>📝 これを、テクノロジーが活用できるさまざまな現象の数に関する (非常に大まかな) 推定値として使用すると、膨大な数のテクノロジーが作成される可能性があることを意味します。そして、一部のテクノロジーが利用できる規則性は 272 個よりもはるかに多く存在する可能性があります。 (これに関する進行中の作業の一部は、私がまだ完了していないものの、少なくとも数千個あることを示唆しています。
-
-
-🔤 Original: Technology as a Search Problem
-
-🔗 Read more: https://www.construction-physics.com/p/technology-as-a-search-problem</description>
-      <guid isPermaLink="true">https://www.construction-physics.com/p/technology-as-a-search-problem</guid>
-      <pubDate>Fri, 13 Nov 2026 19:27:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488490</comments>
-    </item>
-    <item>
-      <title>誰かがこのブログになりすましています</title>
-      <link>https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</link>
-      <description>📝 知名度のあるサイトから盗んでいるわけではありません。確かに彼らは私よりSEOの知識が豊富です。このサイトは私やマタロアとは関係ありません。
-
-
-🔤 Original: Someone's Impersonating This Blog
-
-🔗 Read more: https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</description>
-      <guid isPermaLink="true">https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:41:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488664</comments>
-    </item>
-    <item>
-      <title>Apify のセキュリティ インシデント</title>
-      <link>https://status.apify.com/incidents/sxd1dj5j6749</link>
-      <description>📝 これに変更が生じた場合は、追加のお客様に直接ご連絡いたします。次の更新は 24 時間以内に行われます。 - プロンプトが表示されたら、統合を再接続します。
-
-
-🔤 Original: Apify Security Incident
-
-🔗 Read more: https://status.apify.com/incidents/sxd1dj5j6749</description>
-      <guid isPermaLink="true">https://status.apify.com/incidents/sxd1dj5j6749</guid>
-      <pubDate>Fri, 13 Nov 2026 16:55:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486258</comments>
-    </item>
-    <item>
-      <title>CERN、大型ハドロン衝突型加速器の次世代磁石を構築</title>
-      <link>https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</link>
-      <description>📝 EnergyJournal WatchNews CERN が大型ハドロン衝突型加速器の次世代磁石をどのように構築したか 11.3 テスラ超伝導磁石の背後に新しい材料とプロセスがあるミシェル・ハンプソン2026 年 11 月 10 日3 分読むCERN の研究者は、大型ハドロン衝突型加速器の継続的なアップグレードの一環として、新しい超伝導 Nb₃Sn 磁石コイルの開発とテストを行っています。フローレンス・エリザベス・トンプソン/CERN。
-
-
-🔤 Original: CERN Built the Large Hadron Collider's Next-Gen Magnets
-
-🔗 Read more: https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</guid>
-      <pubDate>Fri, 13 Nov 2026 14:25:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50483959</comments>
-    </item>
-    <item>
-      <title>LibreOffice は実際には 1 年 365 日稼働します</title>
-      <link>https://twitter.com/LibreOffice/status/2121205272479998268</link>
-      <description>📝 X 上の LibreOffice: "LibreOffice は実際、1 年 365 日動作します。"ConversationLibreOffice@LibreOfficeLibreOffice は実際、1 年 365 日動作します。 4KLibreOffice@LibreOfficeLibreOffice は実際には 365 日稼働しています。
-
-
-🔤 Original: LibreOffice actually works 365 days a year
-
-🔗 Read more: https://twitter.com/LibreOffice/status/2121205272479998268</description>
-      <guid isPermaLink="true">https://twitter.com/LibreOffice/status/2121205272479998268</guid>
-      <pubDate>Fri, 13 Nov 2026 17:09:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486482</comments>
-    </item>
-    <item>
-      <title>Microsoft のサービス停止により、お客様はレドモンドに依存して短期集中コースを受講することになります</title>
-      <link>https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</link>
-      <description>📝 影響を受ける Microsoft の顧客にとって、この混乱は歓迎されないプレビューを提供することになりました。 Exchange Online が転倒しました。 「本当の懸念は、Microsoft がサービス停止に見舞われたことではありません。
-
-
-🔤 Original: Microsoft outage gives customers a crash course in dependence on Redmond
-
-🔗 Read more: https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</description>
-      <guid isPermaLink="true">https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</guid>
-      <pubDate>Fri, 13 Nov 2026 18:29:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487688</comments>
-    </item>
-    <item>
-      <title>FreeBSD でのライブ マイグレーションのサポートと Bhyve の提供が予定されています</title>
-      <link>https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</link>
-      <description>📝 このプロジェクトは、FreeBSD 15 での bhyve ゲストのライブ マイグレーションの最初の動作状態を示します。 これが重要な理由 ライブ マイグレーションは、エンタープライズ仮想化の重要な構成要素です。 GO の前に、失敗した移行によってソース ゲストが再開される可能性があります。
-
-
-🔤 Original: Live-migration support in FreeBSD and bhyve coming
-
-🔗 Read more: https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</description>
-      <guid isPermaLink="true">https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:58:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488835</comments>
-    </item>
-    <item>
-      <title>同時シェルコマンドキュー</title>
-      <link>https://emmer.dev/blog/concurrent-shell-command-queues/</link>
-      <description>📝 以下は、実行するシェル コマンドを受け入れるコマンド キューを作成するコードです。 bash 1# このシェルのコマンドキューを開始します。 = *i* ]]; then 66 トラップ '出口 129' HUP 67 トラップ '出口 130' INT 68 トラップ '出口 143' TERM 69 fi 70} 71 72# このシェルのコマンド キューにコマンドをキューに入れます。
-
-
-🔤 Original: Concurrent Shell Command Queues
-
-🔗 Read more: https://emmer.dev/blog/concurrent-shell-command-queues/</description>
-      <guid isPermaLink="true">https://emmer.dev/blog/concurrent-shell-command-queues/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:13:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486521</comments>
-    </item>
-    <item>
-      <title>ブラジルのカイシャ保険会社の侵害により、760万人の顧客全員の名前と納税者番号が流出</title>
-      <link>https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</link>
-      <description>📝 ���Ã� ~���L&amp;^�'� � �/�e�z���O�� �� �{ ��oM8� |&amp;��������&gt;�˅w��~&lt;&lt;�。 }���zB� �H�5a�b3@���Q���d� g0$� ˈ�� = �I�I0��� ���륄�=X�h�2 ����$A2 $S�|�/�q4� � � ��� ��ѽw� O�S&gt;�$��*f�I4�{|� O$v�T��. ����[ � ~�ƏƷ�p�B�:���G� -� K� = � =9:��еu�#�� e�:�֏nH�。
-
-
-🔤 Original: Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers
-
-🔗 Read more: https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</description>
-      <guid isPermaLink="true">https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</guid>
-      <pubDate>Fri, 13 Nov 2026 15:52:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50485295</comments>
-    </item>
-    <item>
-      <title>なぜ Google は AI を使用しない学校からの検索を遮断するのでしょうか?ここにいくつかの理論があります</title>
-      <link>https://text.npr.org/nx-s1-6029408</link>
-      <description>📝 NPR &gt; K-12 教育 なぜ Google は AI フリーの学校からの検索を遮断するのか。同社によると、学校が生徒が同社の主力検索ツールを使用する際にAI概要の表示を望まない場合、学校はGoogle検索に完全にアクセスできなくなるという。出版社らは独占禁止法に基づいて訴訟を起こしており、彼らの主張はAI OverviewsがGoogle検索とは別の製品であると裁判所に納得させるかどうかにかかっていた。
-
-
-🔤 Original: Why is Google cutting off Search from AI-free schools? Here are some theories
-
-🔗 Read more: https://text.npr.org/nx-s1-6029408</description>
-      <guid isPermaLink="true">https://text.npr.org/nx-s1-6029408</guid>
-      <pubDate>Fri, 13 Nov 2026 15:29:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484960</comments>
+🔗 Read more: https://twitter.com/flightradar24/status/2121347654714077605</description>
+      <guid isPermaLink="true">https://twitter.com/flightradar24/status/2121347654714077605</guid>
+      <pubDate>Fri, 13 Nov 2026 21:06:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50489652</comments>
     </item>
   </channel>
 </rss>

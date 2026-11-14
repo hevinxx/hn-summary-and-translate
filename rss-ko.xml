@@ -6,354 +6,195 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Nov 2026 21:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 05:04:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>거대 기술이 우리를 실망시키러 왔습니다</title>
-      <link>https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</link>
-      <description>📝 이것이 실제로 이틀에 걸쳐 문제가 되었다는 사실은 Microsoft와 같은 회사에게는 한심한 일입니다. 많은 유럽 국가 기관에서는 이미 Microsoft에서 오픈 소스 대안으로 전환하기 시작했습니다. Microsoft 서비스가 다운되면 이를 수정할 수 없습니다.
+      <title>Ggml v1.0.0</title>
+      <link>https://github.com/ggml-org/ggml/releases/tag/v1.0.0</link>
+      <description>📝 필터 로드 중 죄송합니다. 문제가 발생했습니다. com으로 GitHub의 검증된 서명으로 서명되었습니다. API 변경 더 이상 사용되지 않는 API를 정리하고 기존 DIAG_MASK_INF/DIAG_MASK_ZERO 작업을 제거하여 RPC 프로토콜을 충돌시켜 호환되지 않는 피어를 거부하도록 했습니다(llama/29801, llama/31946). YaRN 수정 바인딩 반올림을 제어하기 위해 ggml_rope_set_truncate/ggml_rope_get_truncate를 추가했습니다(llama/30206, llama/30802) TRI에 대한 역방향 패스 구현(llama/30712) ggml_prec_set_acc에 대한 MUL_MAT src1 정밀 테스트 및 게이팅 추가(llama/31896, llama/31851) 더 빠른 로딩 및 도달할 수 없는 끝점 또는 실패한 핸드셰이크에 대한 정상적인 실패로 RPC 프로토콜을 v9로 변경했습니다(llama/29413, llama/30415) 핵심 변경 사항 스케줄러는 읽지 않은 입력 업로드를 건너뛰고 이전 분할에서 생성된 입력만 프리페치합니다(llama/31419, llama/32100) MoE 캐시는 CPU에서 캐시 누락의 일부를 계산하고 결과를 비동기식으로 다시 복사할 수 있습니다(llama/30966) 메타 백엔드는 텐서 수가 적은 버퍼에 대한 컴퓨팅 뷰 제한을 높입니다(llama/31447) 백엔드 변경 사항 CUDA 배치 크기 2-24에 대한 소수 행 MMQ 추가 및 BF16 소수 행 matmuls용 MMVF 추가(llama/31533, llama/31959) OCP FP8 지원 추가 및 MMQ의 GLU와 융합된 NVFP4 게이트/업 matmuls(llama/28413, llama/31296) sm70을 통한 확장된 FlashAttention head-size-256 구성 및 MMA 헤드 크기 40/72(llama/27997, llama/30285) 향상된 그래프 처리: 재사용 시 호환성 검사 건너뛰기, Cluster-Dim 변경 시 다시 인스턴스화, 그래프 상태 이동(llama/32004, llama/31284, llama/32001) MoE: 빈 MMQ 스트림-k 타일 건너뛰기, MoE 선형화 포스트 바이어스 NaN 레이아웃 및 삭제(llama/32067, llama/31047, llama/31005) 디버그 버퍼 풀을 추가하고 예약 재시도를 통해 VMM 풀 예약을 절반으로 줄였습니다(llama/31919, llama/30542) HIP: 고정 BLAS 작업 공간을 사용하고 CDNA2용 MFMA 라이트닝 인덱서를 추가합니다(llama/31838, llama/29050) d_state=64 SSM_SCAN 빠른 경로를 추가하고 동점에 대해 기수 Top-K를 결정적으로 만들었습니다(llama/31818, llama/31084) Metal Fused MoE 라우팅 및 단일 명령 버퍼 내부에 융합 가능한 노드 그룹을 유지했습니다(llama/31615, llama/31688) 동점에 대해 기수 Top-K를 결정적으로 만들었습니다. 32&lt;=K&lt;64, TRI를 선택하도록 전환(llama/31084, llama/30982, llama/30711) ne03&gt;1에 대한 GROUP_NORM 및 FA 출력 및 SOLVE_TRI 커널의 범위를 벗어난 액세스 수정(llama/31852, llama/31662, llama/32103) Vulkan Intel 추가 FlashAttention 사전 채우기 커널(llama/29357) 일괄 텐서 복사본 추가, 테스트 융합 인터페이스 및 ReBAR 감지(llama/31418, llama/30769, llama/31658) 최신 AMD 드라이버에서 CM2, YaRN 잘림, RDNA3/4 대형 타일 분할 K 및 대형 coopmat matmul을 사용하여 역양자화 KV 활성화 (llama/31526, llama/30802, llama/30280, llama/31587) 512를 초과하는 블록 너비에 대한 타일 전치 concat 셰이더 및 FWHT 커널을 추가했습니다. (llama/30591, llama/29772) MoltenVK가 경계를 벗어난 액세스, GROUP_NORM 작업 그룹 제한 및 FA 스크래치 크기 조정을 수정했습니다. (llama/31890, llama/31930, llama/30487) Qualcomm의 대형 헤드에 대해 8행의 제한 스칼라 FlashAttention(llama/30829) SYCL 장치측 MoE 스케줄러 추가(llama/30156) head_dim=64에서 Alchemist용 oneDNN FA 캐시를 스레드로부터 안전하고 게이트되지 않은 융합 SDPA로 만들었습니다. (llama/31138, llama/31574) 장치 ID를 캐시하고 VRAM을 초과하는 거부 버퍼(llama/31126, llama/32013, llama/31285) Q4_1/Q5_1/Q8_0, strided CLAMP 및 f16 SWIGLU_OAI에 CPY에 대한 정확한 반올림을 추가했습니다(llama/31465, llama/31784, llama/30857) 4GB 이상의 할당에 대한 AOT 수정(llama/31873) OpenCL 분해된 Adreno FlashAttention 추가 및 디코드 성능 개선(llama/32046, llama/31633) q6_k 타일, q8_0 및 f32/q5_k 다중 열 GEMV 커널 및 f32 추가 MUL_MAT_ID(llama/31758, llama/30947, llama/31783) f16/i32/i16/bf16 및 DSV4 HC 사전/사후 커널에 대해 범위, 비연속 시그모이드, 반복이 추가되었습니다(llama/31829, llama/31687, llama/31782, llama/31623) Adreno X2에 대해 기본적으로 다중 열 GEMV를 활성화했습니다(llama/31694) WebGPU 배치 텐서 API 지원을 추가하고 get_max_size에서 maxBufferSize를 반환했습니다(llama/31473, llama/31348) GROUP_NORM, MEAN, COUNT_EQUAL 및 PAD_REFLECT_1D 커널을 추가했습니다. (llama/31490, llama/31591, llama/31578, llama/31877) YaRN 잘림 구성 지원 (llama/30802) Hexagon Q를 추가했습니다.
 
-
-🔤 Original: Big tech is here to let us down
-
-🔗 Read more: https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</description>
-      <guid isPermaLink="true">https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</guid>
-      <pubDate>Fri, 13 Nov 2026 20:20:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489083</comments>
+🔗 Read more: https://github.com/ggml-org/ggml/releases/tag/v1.0.0</description>
+      <guid isPermaLink="true">https://github.com/ggml-org/ggml/releases/tag/v1.0.0</guid>
+      <pubDate>Sat, 14 Nov 2026 02:28:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493062</comments>
     </item>
     <item>
-      <title>CA에서 TX로 배송하는 동안 Nvidia 하드웨어 1,140만 달러가 사라집니다.</title>
-      <link>https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</link>
-      <description>📝 오클랜드 경찰은 조사 확인 오클랜드 경찰국은 FreightWaves에 다음과 같은 성명을 제공했습니다: "오클랜드 경찰국(OPD)은 동부 오클랜드에서 발생한 대규모 절도를 조사하고 있습니다. NVIDIA 제품과 관련된 이전 절도 오클랜드 조사는 북부 캘리포니아에서 NVIDIA 상품과 관련된 다른 심각한 절도에 이어 발생합니다. NVIDIA 제품 500만 개.
+      <title>FAA, 국내 지상 정지 명령 발령 – 4시간 30분 후에 해제</title>
+      <link>https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</link>
+      <description>📝 멀린은 금요일 오전 도널드 트럼프 대통령이 지상 정지에 대한 브리핑을 받았다고 말했습니다. 그런 것 같지는 않다”고 말했다. 더피는 SMART 시스템이 금요일 문제를 겪은 장비와 “완전히 연결이 끊어졌다”고 말했다.
 
 
-🔤 Original: $11.4M in Nvidia hardware vanishes during shipment from CA to TX
+🔤 Original: FAA issues national ground stop – lifted 4.5 hours later
 
-🔗 Read more: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</description>
-      <guid isPermaLink="true">https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</guid>
-      <pubDate>Fri, 13 Nov 2026 18:40:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487864</comments>
+🔗 Read more: https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</description>
+      <guid isPermaLink="true">https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</guid>
+      <pubDate>Fri, 13 Nov 2026 21:05:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50489641</comments>
     </item>
     <item>
-      <title>FM-1 작업대</title>
-      <link>https://open.m-vave.com/fm1-workbench</link>
-      <description>📝 01 · 开机动画约 1秒，按键或旋钮可跳过;开机不会自动播放。 FM1에는 8 条轨道、6 种音源、16 个内置工程。每轨支持 16、32、48或 64 步;常用操作使用单键，完整细调放在长按菜单和网页里。 准备试听。实机把 MASTER放재중의 位置;网页点琴键或播放即可发声，无需额外开关。先听一个预设。재홈 总览直接转 사전 설정切换整套预设，按 PLAY 播放。也可按 HOME 打开列表，转 PRESETS／SELECT 直接载入，PLAY 载入播放。SAVE打开项目保存，白键 1–16 也能直接选对应预设。改声览后 SELECT 选轨，短按 EDIT 进入常用参数; EDIT 页转 PRESETS 换当前轨소리색，再按 EDIT 返回。想换Music源，in 总览转 ALGORITHM 或 K2，SAVE 应用。改节奏。按 SEQ，基础页 K3选音符或鼓声부，白键开关步;Presets 选步，OCT−/OCT+ 翻页。ALGORITHM翻底부 参数页，细节와节奏直接可调。调平衡。按 GLO 进入混음，白键 1–8 静音、9–16 独奏;SELECT 选轨，K1–K4调四轨음량。再按 GLO 或 HOME 返回。保存。按 SAVE，SELECT 选 USER 槽，再按 SAVE保存;覆盖其他已有槽会提示确认，成功后自动返回。网页顶부분“保存到设备”可直接选槽保存;“存到此浏览器”只存本机浏览器;“导出项目文件”生成电脑备份。实机SAVE 保存到设备槽。.
-
-
-🔤 Original: FM-1 Workbench
-
-🔗 Read more: https://open.m-vave.com/fm1-workbench</description>
-      <guid isPermaLink="true">https://open.m-vave.com/fm1-workbench</guid>
-      <pubDate>Fri, 13 Nov 2026 19:14:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488325</comments>
+      <title>Nvidia는 AI 스타트업에 GPU 구매를 위한 자금을 지원하여 희소성을 설계했다고 합니다.</title>
+      <link>https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</link>
+      <guid isPermaLink="true">https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</guid>
+      <pubDate>Sat, 14 Nov 2026 02:52:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493251</comments>
     </item>
     <item>
-      <title>600번의 실험 끝에 JEPA 세계 모델에 대해 제가 발견한 내용은 다음과 같습니다.</title>
-      <link>https://haddyalchaer.com/jepa</link>
-      <description>📝 JEPA 세계 모델의 세 부분. 그런 다음 두 버전 모두 동일한 하위 목표와 함께 75단계를 목표로 하는 장거리 작업을 제공했습니다. 전문가 시연의 프레임은 25단계마다 하나씩입니다. 25단계 떨어진 하위 목표를 통해 계획 게시된 대로 정확하게 사용하면 LeWM은 목표가 75단계 떨어져 있는 장거리 작업의 22%에서 성공합니다.
+      <title>셀 비용이 들지 않는 터미널 경계</title>
+      <link>https://www.joshka.net/cell-borders/</link>
+      <description>📝 해당 스크린샷의 모든 줄은 셀 테두리입니다. 셀 테두리를 사용하면 창의 위쪽 가장자리에 위치합니다. 셀 테두리를 사용하면 점 사이의 셀 가장자리에 위치합니다.
 
 
-🔤 Original: After 600 experiments, here's what I discovered about JEPA world models
+🔤 Original: Terminal borders that don't cost a cell
 
-🔗 Read more: https://haddyalchaer.com/jepa</description>
-      <guid isPermaLink="true">https://haddyalchaer.com/jepa</guid>
-      <pubDate>Fri, 13 Nov 2026 17:55:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487185</comments>
+🔗 Read more: https://www.joshka.net/cell-borders/</description>
+      <guid isPermaLink="true">https://www.joshka.net/cell-borders/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:06:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491423</comments>
     </item>
     <item>
-      <title>클라우드를 버리기 위해 코웨이 공기청정기를 리버스 엔지니어링</title>
-      <link>https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</link>
-      <description>📝 홈어시스턴트는 이를 Apple Home에 연결해 주고... 짜잔. 게다가 코웨이가 이 서비스를 영원히 유지할 가능성은 낮아 보인다. 즉, 두 가지 주요 사항이 변경되었습니다.
+      <title>3Com에 무슨 일이 일어났나요?</title>
+      <link>https://dfarq.homeip.net/what-happened-to-3com/</link>
+      <description>📝 3Com에 무슨 일이 일어났나요? 그 후 3Com에는 아무런 좋은 일도 일어나지 않았습니다. 그리고 그들의 카드는 비쌌습니다.
 
 
-🔤 Original: Reverse engineering my Coway air purifier to ditch the cloud
+🔤 Original: What Happened to 3Com?
 
-🔗 Read more: https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</description>
-      <guid isPermaLink="true">https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</guid>
-      <pubDate>Thu, 12 Nov 2026 22:03:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50474959</comments>
+🔗 Read more: https://dfarq.homeip.net/what-happened-to-3com/</description>
+      <guid isPermaLink="true">https://dfarq.homeip.net/what-happened-to-3com/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:48:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491830</comments>
     </item>
     <item>
-      <title>Autonomous(YC F25)는 귀하의 부를 관리하는 AI 에이전트를 구축하기 위해 MTS를 고용하고 있습니다.</title>
-      <link>https://atg.science/careers</link>
-      <description>📝 채용 | Autonomous Technologies Group홈저널채용팀에 합류하기 생각하고, 추론하고, 행동하는 시스템을 만드세요. 우리는 다양한 분야와 배경을 가진 호기심 많은 인재를 찾고 있습니다.
-
-
-🔤 Original: Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth
-
-🔗 Read more: https://atg.science/careers</description>
-      <guid isPermaLink="true">https://atg.science/careers</guid>
-      <pubDate>Fri, 13 Nov 2026 21:01:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489589</comments>
+      <title>KORS의 모든 주파수를 실시간으로 방송합니다. 캘리포니아주 빅토리아도 지상 정지</title>
+      <link>https://orcasairband.com/</link>
+      <guid isPermaLink="true">https://orcasairband.com/</guid>
+      <pubDate>Fri, 13 Nov 2026 22:04:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50490593</comments>
     </item>
     <item>
-      <title>Perplexity Decider v1.3: 훈련, 평가 및 사용 사례</title>
-      <link>https://www.perplexity.ai/hub/blog/perplexity-decider</link>
-      <guid isPermaLink="true">https://www.perplexity.ai/hub/blog/perplexity-decider</guid>
-      <pubDate>Fri, 13 Nov 2026 19:24:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488464</comments>
+      <title>HN 표시: 오늘 밤 FAA 전국 지상 정거장 동안 미국 항공편의 실시간 지도</title>
+      <link>https://grounds.top/</link>
+      <description>📝 공식 공지가 아닌 추적 데이터를 읽어보세요. 동부 표준시 기준 오후 3시 30분 이후 놓친 예상 상업 출발 시간: 추적 데이터에서 이번 주 시간을 뺀 일주일 전 동일한 시간의 계산입니다. 바는 일주일 전 같은 시간의 점유율이다.
+
+
+🔤 Original: Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop
+
+🔗 Read more: https://grounds.top/</description>
+      <guid isPermaLink="true">https://grounds.top/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:17:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491545</comments>
     </item>
     <item>
-      <title>HN 표시: 등각 SF – SF 베이 지역의 픽셀 아트 지도</title>
-      <link>https://isometricsf.com/</link>
-      <description>📝 지도 데이터 © OpenStreetMap 기여자, Google 지도에서 캡처한 ODbL 이미지 사실적인 3D 타일 토지 표지 © ESA WorldCover 프로젝트 2021 / ESA WorldCover 컨소시엄에서 처리한 수정된 Copernicus Sentinel 데이터(2021) 포함, CC BY 4. 0 Copernicus WorldDEM-30을 사용하여 생성된 고도 © DLR e. 2010-2014 및 © Airbus Defense and Space GmbH 2014-2018, COPERNICUS에 따라 유럽 연합 및 ESA에서 제공; 모든 권리 보유 장소: Wikivoyage 기여자, CC BY-SA 4.
+      <title>Unsloth Qwen3.8-27B 양자화 – 동적 v3.1 업데이트</title>
+      <link>https://unsloth.ai/docs/models/qwen3.8</link>
+      <description>📝 업데이트된 Unsloth Dynamic V3를 사용하는 8-27B GGUF. 2비트부터 6비트까지의 대부분의 퀀트가 업데이트됩니다. GSQ-RCO 결과는 오해의 소지가 있습니다. LiveCodeBench의 경우 GSQ-RCO는 Unsloth UD3 퀀트가 ISTA보다 일관되게 나쁜 성능을 보이는 것으로 나타났습니다.
 
 
-🔤 Original: Show HN: Isometric SF – A pixel-art map of the SF Bay Area
+🔤 Original: Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update
 
-🔗 Read more: https://isometricsf.com/</description>
-      <guid isPermaLink="true">https://isometricsf.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:58:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487228</comments>
+🔗 Read more: https://unsloth.ai/docs/models/qwen3.8</description>
+      <guid isPermaLink="true">https://unsloth.ai/docs/models/qwen3.8</guid>
+      <pubDate>Sat, 14 Nov 2026 00:06:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491980</comments>
     </item>
     <item>
-      <title>Ctrl+C, Ctrl+v, Ctrl+cve: Android의 클립보드 읽기 보안 조치 우회</title>
-      <link>https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</link>
-      <guid isPermaLink="true">https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</guid>
-      <pubDate>Fri, 13 Nov 2026 18:23:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487605</comments>
+      <title>코끼리는 점점 더 고립되어 소셜 네트워크가 분열되는 것으로 밝혀졌습니다.</title>
+      <link>https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</link>
+      <description>📝 edu 공유하기: Linkedin에서 이 이야기 공유 Facebook에서 이 이야기 공유 Threads에서 이 이야기 공유 Twitter에서 이 이야기 공유 이메일로 이 이야기 공유 기사 내용 주요 시사점 UC San Diego 연구원들은 스리랑카에서 10년 이상에 걸쳐 수백 마리의 아시아 코끼리의 사회적 역학을 연구했습니다. 인간과 기타 많은 사회적 동물은 잘 확립된 커뮤니티 네트워크에서 번창합니다. 연구자들의 분석은 사회 구조의 전환점을 나타냅니다.
+
+
+🔤 Original: Elephants found to be increasingly isolated leading to fractured social networks
+
+🔗 Read more: https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</description>
+      <guid isPermaLink="true">https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</guid>
+      <pubDate>Sat, 14 Nov 2026 02:02:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492860</comments>
     </item>
     <item>
-      <title>발견: 염증을 일으키지 않고 노화를 촉진하는 단백질</title>
-      <link>https://www.nature.com/articles/d41586-026-03638-3</link>
-      <description>📝 호당 90개 자세히 알아보기 이 기사를 대여하거나 구입하세요. 가격은 기사 유형에 따라 다릅니다. $1. Frederiksberg Campus, University of Copenhagen, 덴마크 코펜하겐 대학교, 식물 및 환경 과학부 전략 과학자, 뛰어난 젊은 연구원 및 CIBCAS 박사후 연구원 CIB에서는 저명한 전략 과학자, 뛰어난 젊은 연구원 및 박사후 연구원을 초대합니다. 도하(QA) Sidra Medicine 카타르.
+      <title>전국 FAA 지상 정지로 인해 Amtrak 예약 시스템에 큰 문제가 발생함</title>
+      <link>https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</link>
+      <description>📝 이번 정전은 전국적인 FAA 지상 정지 조치가 해제된 가운데 발생했습니다. 워싱턴 - Amtrak은 전국적인 FAA 지상 정지와 동시에 발생한 네트워크 중단 이후 예약 시스템이 정상으로 돌아오고 있다고 말했습니다. 관계자들은 예약 시스템이 정상으로 돌아오고 있다고 말했다.
 
 
-🔤 Original: Found: A protein that drives ageing without unleashing inflammation
+🔤 Original: Amtrak booking system experiencing major issues amid nationwide FAA ground stop
 
-🔗 Read more: https://www.nature.com/articles/d41586-026-03638-3</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-03638-3</guid>
-      <pubDate>Fri, 13 Nov 2026 19:25:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488470</comments>
+🔗 Read more: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</description>
+      <guid isPermaLink="true">https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:52:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492315</comments>
     </item>
     <item>
-      <title>Haskell 생태계를 위한 기술적 비전</title>
-      <link>https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</link>
-      <description>📝 우리는 자금 조달과 실행이 필요하다고 생각되는 이니셔티브와 제안을 적극적으로 개발할 것입니다. 이를 위해서는 도움을 줄 회사, 계약자 및 자원봉사자가 필요합니다. 그리고 더욱 강력한 보증과 더 나은 성능을 제공합니다.
+      <title>Nvidia 이사는 Jensen Huang 스캔들 몇 주 전에 거의 10억 달러에 달하는 주식을 매각했습니다.</title>
+      <link>https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</link>
+      <description>📝 9월부터 두 번째 매각이 진행되었습니다. Stevens는 여전히 약 27.13을 보유하고 있으며 Nvidia는 주당 약 163달러에 거래되었습니다.
 
 
-🔤 Original: A technical vision for the Haskell ecosystem
+🔤 Original: Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal
 
-🔗 Read more: https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</description>
-      <guid isPermaLink="true">https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</guid>
-      <pubDate>Fri, 13 Nov 2026 14:43:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484235</comments>
+🔗 Read more: https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</description>
+      <guid isPermaLink="true">https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</guid>
+      <pubDate>Sat, 14 Nov 2026 02:21:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492993</comments>
     </item>
     <item>
-      <title>모델은 이제 무게 공간에서 바이러스를 전송할 수 있습니다.</title>
-      <link>https://www.alphaxiv.org/abs/2611.weight-space-misfolding</link>
-      <description>📝 또한 이 논문에서는 대규모 편집기가 중간 모델에 영향을 미치고 선택적 추가 단계를 통해 다운스트림 대상에 영향을 미치는 가정된 경로를 스케치합니다. 해당 경로는 제안된 것이지 시연된 것이 아닙니다. [p4] 이것이 어디에 있는지 저자의 초기 IWIBench는 편집자 모델이 다른 올바른 동작을 유지하면서 승인된 목표를 충족하기 위해 대상의 가중치를 변경할 수 있는지 여부를 측정합니다.
-
-
-🔤 Original: Models can now transmit viruses in weight-space
-
-🔗 Read more: https://www.alphaxiv.org/abs/2611.weight-space-misfolding</description>
-      <guid isPermaLink="true">https://www.alphaxiv.org/abs/2611.weight-space-misfolding</guid>
-      <pubDate>Fri, 13 Nov 2026 18:33:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487762</comments>
+      <title>조나단 블로우(Jonathan Blow) – AI가 코딩을 해결했다면 내 소프트웨어는 왜 그대로 유지됩니까? [동영상]</title>
+      <link>https://www.youtube.com/watch?v=IRK8h67ol7Q</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=IRK8h67ol7Q</guid>
+      <pubDate>Fri, 13 Nov 2026 15:08:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50484658</comments>
     </item>
     <item>
-      <title>AI 슬롭 없음: 선언문</title>
-      <link>https://www.slopmanifesto.com/</link>
-      <description>📝 AI를 사용한다고 해서 반드시 문제가 발생하는 것은 아닙니다. 코드에서는 AI 이전에도 문제를 올바르게 해결하는 대신 문제를 반복적으로 해결하면 슬롭이 확산됩니다. 우리 중 대부분은 어느 시점에서 동일한 메모가 필요했습니다.
+      <title>뮤직 플레이어를 만들지 않는 방법</title>
+      <link>https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</link>
+      <description>📝 이 글을 쓰면서 친구가 방금 알려준 foobar2000 같은 다른 뮤직 플레이어에 대해서는 전혀 몰랐습니다. 내 음악 플레이어 작업을 계속하려면 이 힘든 시기에 정말 큰 기쁨을 가져다 주었습니다.
 
 
-🔤 Original: No AI Slop: A Manifesto
+🔤 Original: How Not to Build a Music Player
 
-🔗 Read more: https://www.slopmanifesto.com/</description>
-      <guid isPermaLink="true">https://www.slopmanifesto.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:51:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488769</comments>
+🔗 Read more: https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</description>
+      <guid isPermaLink="true">https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:04:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491400</comments>
     </item>
     <item>
-      <title>AI는 수백 개의 증명된 정리가 포함되어 있다고 알려진 괴델의 노트를 잠금 해제합니다.</title>
-      <link>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</link>
-      <description>📝 그의 불완전성 정리는 모든 수학적 체계에는 증명할 수도 반증할 수도 없는 참인 진술이 있다는 것을 보여줍니다. 아, 네, 괴델의 수수께끼 같은 속기 페이지를 읽기 시작하겠습니다. Gödel은 Cohen의 Fields 메달에 대해 자신이 alr을 가지고 있다고 말하면서 반응했습니다.
+      <title>필립 로스와 데이비드 렘닉이 개인적인 관계를 맺다(2001)</title>
+      <link>https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</link>
+      <description>📝 2000년에 Remnick은 Roth의 프로필을 작성하려고 시도했습니다. 실제로 Remnick은 십대의 긴장된 흥분으로 Roth에게 접근했습니다. Roth는 조잡한 Amer를 개탄했습니다.
 
 
-🔤 Original: AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems
+🔤 Original: Philip Roth and David Remnick getting personal (2001)
 
-🔗 Read more: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</description>
-      <guid isPermaLink="true">https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</guid>
-      <pubDate>Fri, 13 Nov 2026 17:30:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486748</comments>
+🔗 Read more: https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</description>
+      <guid isPermaLink="true">https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</guid>
+      <pubDate>Sat, 14 Nov 2026 00:21:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492098</comments>
     </item>
     <item>
-      <title>학생이 iPad에서 PowerPoint를 열려면 16번의 클릭이 필요합니다</title>
-      <link>https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</guid>
-      <pubDate>Fri, 13 Nov 2026 18:18:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487522</comments>
+      <title>전 세계 보안 기관에서 광고 기반 감시 시스템을 사용하는 것으로 밝혀졌습니다.</title>
+      <link>https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</link>
+      <description>📝 게시 날짜 2026년 11월 12일 주제 대량 감시 표적 감시 광고 인텔리전스, webloc 언급 Wolfie Christl 공유 Penlink의 광고 기반 감시 시스템에 대한 Bloomberg의 조사 Webloc은 Citizen Lab 연구를 기반으로 추적 기술의 추가 고객을 식별합니다. 여러 국가의 보안 기관이 Webloc을 인수했다는 조사 결과는 4월 보고서에서 확인한 잠재 고객과 일치합니다. 2026년 10월 19일 표적 감시 이벤트 [BOOK TALK] 글로벌 중국이 디아스포라 동의 및 강제를 관리하는 방법 2026년 11월 9일 뉴스 + 업데이트 → 미국의 뉴스 정치인
+
+
+🔤 Original: Security Agencies Worldwide Found to Use Ad-Based Surveillance System
+
+🔗 Read more: https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</description>
+      <guid isPermaLink="true">https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</guid>
+      <pubDate>Sat, 14 Nov 2026 02:15:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492950</comments>
     </item>
     <item>
-      <title>미네소타 기타리스트의 "팜프렛" 발명품이 새로운 화음을 불러일으켰습니다.</title>
-      <link>https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</link>
-      <description>📝 그날 밤, 랜슨은 자신이 수년간 작업해 왔던 일을 공개했습니다. Ranson이 뭔가 바뀌었다고 말한 것은 그 당시였습니다. 학습 곡선 Ranson은 팜프렛을 디자인할 때 몇 가지 규칙을 가지고 있었습니다.
+      <title>미국의 모든 공항은 현재 지상 정지 상태입니다.</title>
+      <link>https://twitter.com/flightradar24/status/2121347654714077605</link>
+      <description>📝 Flightradar24@flightradar24방금 전 FAA에서 발표한 내용에 따르면 미국의 모든 공항은 현재 지상 정지 상태입니다. 이는 미국 공항으로 출발하는 항공편이 없음을 의미합니다. 이는 FAA 장비 가동 중단과 관련이 있습니다.
 
 
-🔤 Original: Minnesota guitarist's "palmfrets" invention strikes a new chord
+🔤 Original: All US airports are currently ground stopped
 
-🔗 Read more: https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</description>
-      <guid isPermaLink="true">https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</guid>
-      <pubDate>Fri, 13 Nov 2026 15:08:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484650</comments>
-    </item>
-    <item>
-      <title>Lonewolf 0.3 – Rust로 작성된 독립형 XMPP 서버</title>
-      <link>https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</link>
-      <description>📝 필터 로드 중 죄송합니다. 문제가 발생했습니다. 이 페이지를 새로고침하세요. Loneolf는 인증서로만 피어를 인증합니다.
-
-
-🔤 Original: Lonewolf 0.3 – A standalone XMPP server written in Rust
-
-🔗 Read more: https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</description>
-      <guid isPermaLink="true">https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</guid>
-      <pubDate>Fri, 13 Nov 2026 14:28:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484007</comments>
-    </item>
-    <item>
-      <title>OpenAI는 일반 모델이 로봇을 실행하기 시작하면서 로봇 팀을 해체합니다.</title>
-      <link>https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</link>
-      <description>📝 OpenAI는 독립형 로봇 팀을 해체하고 연구원을 다른 팀으로 옮겼습니다. 회사 대변인은 조직 개편에도 불구하고 OpenAI는 범용 로봇을 세상에 선보이기 위해 계속 노력하고 있다고 말했습니다. 하지만 이후 GPT-6 아스트라 등 자사의 범용 프론티어 모델이 로봇공학에 직접 적용될 수 있음을 보여줬다고 회사 대변인은 말했다.
-
-
-🔤 Original: OpenAI disbands its robotics team as its general models start running robots
-
-🔗 Read more: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</description>
-      <guid isPermaLink="true">https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:55:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487184</comments>
-    </item>
-    <item>
-      <title>검색 문제로서의 기술</title>
-      <link>https://www.construction-physics.com/p/technology-as-a-search-problem</link>
-      <description>📝 이것을 기술이 활용할 수 있는 다양한 현상의 수에 대한 (매우 대략적인) 추정으로 사용한다면, 이는 생성될 수 있는 가능한 기술의 수가 엄청나게 많다는 것을 의미합니다. 그리고 일부 기술은 272보다 더 많은 규칙성을 활용할 수 있습니다. (아직 완료하지 않은 일부 진행 중인 작업에 따르면 최소 수천 개가 있는 것으로 나타났습니다.
-
-
-🔤 Original: Technology as a Search Problem
-
-🔗 Read more: https://www.construction-physics.com/p/technology-as-a-search-problem</description>
-      <guid isPermaLink="true">https://www.construction-physics.com/p/technology-as-a-search-problem</guid>
-      <pubDate>Fri, 13 Nov 2026 19:27:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488490</comments>
-    </item>
-    <item>
-      <title>누군가가 이 블로그를 사칭하고 있습니다.</title>
-      <link>https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</link>
-      <description>📝 이름 인식이 가능한 사이트에서 물건을 훔치는 것과는 다릅니다. 확실히 그들은 나보다 더 많은 SEO 주스를 가지고 있습니다. 사이트는 나와 mataroa와 관련이 없습니다.
-
-
-🔤 Original: Someone's Impersonating This Blog
-
-🔗 Read more: https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</description>
-      <guid isPermaLink="true">https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:41:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488664</comments>
-    </item>
-    <item>
-      <title>Apify 보안 사고</title>
-      <link>https://status.apify.com/incidents/sxd1dj5j6749</link>
-      <description>📝 변경사항이 있는 경우 추가 고객에게 직접 연락드리겠습니다. 24시간 이내에 다음 업데이트를 진행하세요. - 메시지가 표시되면 통합을 다시 연결하세요.
-
-
-🔤 Original: Apify Security Incident
-
-🔗 Read more: https://status.apify.com/incidents/sxd1dj5j6749</description>
-      <guid isPermaLink="true">https://status.apify.com/incidents/sxd1dj5j6749</guid>
-      <pubDate>Fri, 13 Nov 2026 16:55:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486258</comments>
-    </item>
-    <item>
-      <title>CERN, 대형 강입자 충돌기의 차세대 자석 제작</title>
-      <link>https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</link>
-      <description>📝 EnergyJournal WatchNews CERN이 대형 강입자 충돌기의 차세대 자석을 구축한 방법 11.3 테슬라 초전도 자석 뒤에는 새로운 재료와 프로세스가 있습니다. Michelle Hampson2026년 11월 10일 읽기CERN 연구원들은 대형 강입자 충돌기의 지속적인 업그레이드의 일환으로 새로운 초전도 Nb₃Sn 자석 코일을 개발하고 테스트해 왔습니다. 플로렌스 엘리자베스 톰슨/CERN.
-
-
-🔤 Original: CERN Built the Large Hadron Collider's Next-Gen Magnets
-
-🔗 Read more: https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</guid>
-      <pubDate>Fri, 13 Nov 2026 14:25:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50483959</comments>
-    </item>
-    <item>
-      <title>LibreOffice는 실제로 1년 365일 작동합니다.</title>
-      <link>https://twitter.com/LibreOffice/status/2121205272479998268</link>
-      <description>📝 X의 LibreOffice: "LibreOffice는 실제로 1년 365일 작동합니다. "ConversationLibreOffice@LibreOfficeLibreOffice는 실제로 1년 365일 작동합니다. 4KLibreOffice@LibreOfficeLibreOffice는 실제로 1년 365일 작동합니다.
-
-
-🔤 Original: LibreOffice actually works 365 days a year
-
-🔗 Read more: https://twitter.com/LibreOffice/status/2121205272479998268</description>
-      <guid isPermaLink="true">https://twitter.com/LibreOffice/status/2121205272479998268</guid>
-      <pubDate>Fri, 13 Nov 2026 17:09:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486482</comments>
-    </item>
-    <item>
-      <title>Microsoft 중단으로 인해 고객은 Redmond에 의존하는 집중 코스를 제공합니다.</title>
-      <link>https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</link>
-      <description>📝 영향을 받은 Microsoft 고객에게는 이러한 중단으로 인해 반갑지 않은 미리 보기가 제공되었습니다. Exchange Online이 무너졌습니다. "진정한 우려는 마이크로소프트가 서비스 중단을 겪었다는 사실이 아니다.
-
-
-🔤 Original: Microsoft outage gives customers a crash course in dependence on Redmond
-
-🔗 Read more: https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</description>
-      <guid isPermaLink="true">https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</guid>
-      <pubDate>Fri, 13 Nov 2026 18:29:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487688</comments>
-    </item>
-    <item>
-      <title>FreeBSD 및 bhyve의 실시간 마이그레이션 지원 예정</title>
-      <link>https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</link>
-      <description>📝 이 프로젝트는 FreeBSD 15에서 bhyve 게스트의 실시간 마이그레이션을 위한 첫 번째 작업 상태를 제시합니다. 이것이 중요한 이유 실시간 마이그레이션은 엔터프라이즈 가상화의 중요한 구성 요소입니다. GO 이전에는 실패한 마이그레이션으로 인해 소스 게스트가 재개될 수 있습니다.
-
-
-🔤 Original: Live-migration support in FreeBSD and bhyve coming
-
-🔗 Read more: https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</description>
-      <guid isPermaLink="true">https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:58:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488835</comments>
-    </item>
-    <item>
-      <title>동시 쉘 명령 대기열</title>
-      <link>https://emmer.dev/blog/concurrent-shell-command-queues/</link>
-      <description>📝 실행할 셸 명령을 받아들이는 명령 대기열을 생성하는 코드는 다음과 같습니다. bash 1# 이 쉘의 명령 대기열을 시작합니다. = *i* ]]; then 66 Trap 'exit 129' HUP 67 Trap 'exit 130' INT 68 Trap 'exit 143' TERM 69 fi 70} 71 72# 이 쉘의 명령 대기열에 명령을 대기열에 넣습니다.
-
-
-🔤 Original: Concurrent Shell Command Queues
-
-🔗 Read more: https://emmer.dev/blog/concurrent-shell-command-queues/</description>
-      <guid isPermaLink="true">https://emmer.dev/blog/concurrent-shell-command-queues/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:13:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486521</comments>
-    </item>
-    <item>
-      <title>브라질 Caixa 보험사 위반으로 760만 고객 모두의 이름과 세금 ID 노출</title>
-      <link>https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</link>
-      <description>📝 ������ ~����L&amp;^�'� � ��/�e�z����O�� � �{ ��oM8� |&amp;��������&gt;�˅w��~&lt;&lt;�. }���zB� ��H�5a��b3@����Q���d� g0$� ˈ�� = �I�I0��� ����륄�=X�h�2 ����$A2 $S�|�/�q4�� � �� ��� ��ѽw� O�S&gt;�$��*f�I4�{|� O$v�T��. ����[ � ~�ãu�p�B�:��G� -� K� = �� =9:��еu�#�� e�:�nH�.
-
-
-🔤 Original: Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers
-
-🔗 Read more: https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</description>
-      <guid isPermaLink="true">https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</guid>
-      <pubDate>Fri, 13 Nov 2026 15:52:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50485295</comments>
-    </item>
-    <item>
-      <title>Google이 AI가 없는 학교에서 검색 기능을 차단하는 이유는 무엇인가요? 다음은 몇 가지 이론입니다.</title>
-      <link>https://text.npr.org/nx-s1-6029408</link>
-      <description>📝 NPR &gt; K-12 교육 Google이 AI가 없는 학교에서 검색 기능을 차단하는 이유는 무엇입니까? 학교가 학생들이 주력 검색 도구를 사용할 때 AI 개요가 표시되는 것을 원하지 않으면 학교는 Google 검색에 대한 액세스 권한을 완전히 잃게 될 것이라고 회사는 말했습니다. 게시자는 독점금지법에 따라 소송을 제기했으며, 그들의 주장은 AI 개요가 Google 검색과 별도의 제품이라는 점을 법원에서 설득하는 데 달려 있었습니다.
-
-
-🔤 Original: Why is Google cutting off Search from AI-free schools? Here are some theories
-
-🔗 Read more: https://text.npr.org/nx-s1-6029408</description>
-      <guid isPermaLink="true">https://text.npr.org/nx-s1-6029408</guid>
-      <pubDate>Fri, 13 Nov 2026 15:29:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484960</comments>
+🔗 Read more: https://twitter.com/flightradar24/status/2121347654714077605</description>
+      <guid isPermaLink="true">https://twitter.com/flightradar24/status/2121347654714077605</guid>
+      <pubDate>Fri, 13 Nov 2026 21:06:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50489652</comments>
     </item>
   </channel>
 </rss>

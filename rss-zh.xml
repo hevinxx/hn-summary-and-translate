@@ -6,354 +6,198 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Nov 2026 21:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 05:04:47 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>大型科技让我们失望</title>
-      <link>https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</link>
-      <description>📝 对于像微软这样的公司来说，这实际上是连续两天出现的问题，这一事实是可悲的。许多欧洲国家机构已经开始从微软转向开源替代品。当微软服务出现故障时，你无法修复它。
+      <title>ggml v1.0.0</title>
+      <link>https://github.com/ggml-org/ggml/releases/tag/v1.0.0</link>
+      <description>📝 过滤器加载 抱歉，出了点问题。 com 并使用 GitHub 的验证签名进行签名。 API 更改 修剪了已弃用的 API 并删除了旧版 DIAG_MASK_INF/DIAG_MASK_ZERO 操作，修改了 RPC 协议以拒绝不兼容的对等点（llama/29801、llama/31946） 添加了 ggml_rope_set_truncate/ggml_rope_get_truncate 来控制 YaRN 校正边界舍入（llama/30206、 llama/30802) 实现了 TRI 的向后传递 (llama/30712) 为 ggml_prec_set_acc 添加了 MUL_MAT src1 精度测试和门控 (llama/31896, llama/31851) 将 RPC 协议提升到 v9，在无法访问的端点或握手失败时提供更快的加载和优雅的失败 (llama/29413, llama/30415) 核心更改 调度程序跳过上传未读取的输入，仅预取早期拆分生成的输入 (llama/31419、llama/32100) MoE 缓存可以计算 CPU 上的缓存未命中份额，并将结果异步复制回来 (llama/30966) 元后端提高了张量较少的缓冲区的计算视图限制 (llama/31447) 后端更改CUDA 添加了批量大小为 2-24 的少行 MMQ 和 BF16 少行 matmuls 的 MMVF（llama/31533、llama/31959） 添加了 OCP FP8 支持，并在 MMQ 中将 NVFP4 门/向上 matmuls 与 GLU 融合（llama/28413、llama/31296） 使用 sm70 head-size-256 配置扩展了 FlashAttention MMA 头大小 40/72（llama/27997、llama/30285）改进的图形处理：跳过重用时的兼容性检查、重新实例化 cluster-dim 更改、移动图形状态（llama/32004、llama/31284、llama/32001） MoE：跳过空 MMQ 流 k 块、线性化 MoE 布局并清理后偏置 NaN （llama/32067、llama/31047、llama/31005）添加了调试缓冲池，并通过保留重试将 VMM 池预留减半（llama/31919、llama/30542） HIP：使用固定的 BLAS 工作区并为 CDNA2 添加 MFMA 闪电索引器（llama/31838、llama/29050）添加了d_state=64 SSM_SCAN 快速路径并使基数 Top-K 对于关系具有确定性（llama/31818、llama/31084） 金属熔丝 MoE 路由并将可熔节点组保留在单个命令缓冲区内（llama/31615、llama/31688）使基数 Top-K 对于关系具有确定性，为 32&lt;=K&lt;64 添加 mul_mm，并切换选择 TRI（llama/31084、llama/30982、llama/30711） 修复了 FA 输出和 SOLVE_TRI 内核中 ne03&gt;1 的 GROUP_NORM 和越界访问（llama/31852、llama/31662、llama/32103） Vulkan 添加了 Intel FlashAttention 预填充内核(llama/29357) 添加了批量张量副本、测试融合接口和 ReBAR 检测 (llama/31418、llama/30769、llama/31658) 在较新的 AMD 驱动程序上启用了带有 CM2、YaRN 截断、RDNA3/4 Large-tile split-K 和大型 coopmat matmul 的反量化 KV (llama/31526、 llama/30802、llama/30280、llama/31587) 为块宽度超过 512 的块添加了平铺转置 concat 着色器和 FWHT 内核（llama/30591、llama/29772） 修复了 MoltenVK 越界访问、GROUP_NORM 工作组限制和 FA 临时大小调整（llama/31890、 llama/31930, llama/30487) 高通上大头的 8 行上限标量 FlashAttention (llama/30829) SYCL 添加了设备端 MoE 调度程序 (llama/30156) 为 Alchemist 在 head_dim=64 处制作了 oneDNN FA 缓存线程安全且非门控融合 SDPA (llama/31138, llama/31574) 缓存设备 ID 并拒绝超出 VRAM 的缓冲区（llama/31126、llama/32013、llama/31285） 将 CPY 的精确舍入添加到 Q4_1/Q5_1/Q8_0、跨步 CLAMP 和 f16 SWIGLU_OAI（llama/31465、llama/31784、 llama/30857) 修复了 4GB 以上分配的 AOT (llama/31873) OpenCL 添加了分解的 Adreno FlashAttention 并改进了解码性能 (llama/32046、llama/31633) 添加了 q6_k 平铺、q8_0 和 f32/q5_k 多列 GEMV 内核和 f32 MUL_MAT_ID (llama/31758、 llama/30947、llama/31783) 为 f16/i32/i16/bf16 和 DSV4 HC 前/后内核添加了 arange、非连续 sigmoid、重复 (llama/31829、llama/31687、llama/31782、llama/31623) 默认启用多列 GEMV Adreno X2 (llama/31694) WebGPU 添加了批量张量 API 支持并从 get_max_size 返回了 maxBufferSize (llama/31473、llama/31348) 添加了 GROUP_NORM、MEAN、COUNT_EQUAL 和 PAD_REFLECT_1D 内核 (llama/31490、llama/31591、llama/31578、 llama/31877) 支持 YaRN 截断配置 (llama/30802) Hexagon 添加了 Q。
 
 
-🔤 Original: Big tech is here to let us down
+🔤 Original: Ggml v1.0.0
 
-🔗 Read more: https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</description>
-      <guid isPermaLink="true">https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</guid>
-      <pubDate>Fri, 13 Nov 2026 20:20:30 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489083</comments>
+🔗 Read more: https://github.com/ggml-org/ggml/releases/tag/v1.0.0</description>
+      <guid isPermaLink="true">https://github.com/ggml-org/ggml/releases/tag/v1.0.0</guid>
+      <pubDate>Sat, 14 Nov 2026 02:28:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493062</comments>
     </item>
     <item>
-      <title>价值 1140 万美元的 Nvidia 硬件在从加州运往德克萨斯州的过程中消失了</title>
-      <link>https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</link>
-      <description>📝 奥克兰警方确认调查 奥克兰警察局向 FreightWaves 提供了以下声明：“奥克兰警察局 (OPD) 正在调查东奥克兰发生的一起重大盗窃案。此前曾发生涉及 NVIDIA 产品的盗窃案。在奥克兰调查之前，北加州发生了其他涉及 NVIDIA 商品的重大盗窃案。其中 500 万件 NVIDIA 产品被盗。”
+      <title>美国联邦航空局 (FAA) 发布国家地面停止指令 – 4.5 小时后解除</title>
+      <link>https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</link>
+      <description>📝 穆林周五早些时候表示，唐纳德·特朗普总统听取了有关地面停留的简报。达菲表示，SMART 系统与周五出现问题的设备“完全断开”。
 
 
-🔤 Original: $11.4M in Nvidia hardware vanishes during shipment from CA to TX
+🔤 Original: FAA issues national ground stop – lifted 4.5 hours later
 
-🔗 Read more: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</description>
-      <guid isPermaLink="true">https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</guid>
-      <pubDate>Fri, 13 Nov 2026 18:40:44 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487864</comments>
+🔗 Read more: https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</description>
+      <guid isPermaLink="true">https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</guid>
+      <pubDate>Fri, 13 Nov 2026 21:05:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50489641</comments>
     </item>
     <item>
-      <title>FM-1工作台</title>
-      <link>https://open.m-vave.com/fm1-workbench</link>
-      <description>📝 01 · 三分钟上手网页顶部和实机 HOME 页显示当前版本。开机启动约 1 ，按键或旋钮可跳过；开机不会自动播放。FM1 有 8 条轨道、6 种音源、16 个内置工程键。每轨支持 16、32、48 或 64 步；常用操作使用单项，完整细调放在长按菜单和网页里。准备试听。实机把 MASTER放在适中的位置；网页点琴键或播放即可发声，无需额外开关。先听一个预设。在HOME总览直接转PRESETS切换整套预设，按PLAY播放。也可按HOME打开列表，转PRESETS／SELECT直接加载，PLAY加载播放。SAVE打开项目保存，白键1–16也能直接选默认默认。改声音。回总览后SELECT选轨，短按EDIT进入常用参数；在EDIT 页转 PRESETS 换当前轨音色，再按 EDIT 返回。想换音源，在总览转 ALGORITHM 或 K2，SAVE 应用。改节奏。按 SEQ，基础页 K3 选音符或鼓声部，白键切换步；PRESETS 选步，OCT−／OCT+ 翻页。ALGORITHM 翻底部参数页，细节和直接调节。调节平衡。按 GLO 进入混音，白键1–8静音、9–16独奏；选择选轨，K1–K4调节四轨音量。再按GLO或HOME返回。保存。按SAVE，选择USER槽，再按SAVE保存；覆盖其他已有槽会提示确认，成功后自动返回。网页顶部“保存到设备”可直接选槽保存；“存到此浏览器”只存本机浏览器；“导出项目文件”生成电脑备份。实机SAVE保存到设备槽。
-
-
-🔤 Original: FM-1 Workbench
-
-🔗 Read more: https://open.m-vave.com/fm1-workbench</description>
-      <guid isPermaLink="true">https://open.m-vave.com/fm1-workbench</guid>
-      <pubDate>Fri, 13 Nov 2026 19:14:02 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488325</comments>
+      <title>据称，英伟达通过资助人工智能初创公司购买其 GPU 来制造稀缺性</title>
+      <link>https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</link>
+      <guid isPermaLink="true">https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</guid>
+      <pubDate>Sat, 14 Nov 2026 02:52:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50493251</comments>
     </item>
     <item>
-      <title>经过 600 次实验，以下是我对 JEPA 世界模型的发现</title>
-      <link>https://haddyalchaer.com/jepa</link>
-      <description>📝 JEPA 世界模型的三个部分。然后，我给这两个版本都分配了长期任务，目标是 75 步之遥，以及相同的子目标：来自专家演示的框架，每 25 步一个。通过相距 25 步的子目标进行规划 与发布的内容完全相同，LeWM 在 22% 的长期任务上取得了成功，其中目标相距 75 步。
+      <title>不花费单元格的终端边界</title>
+      <link>https://www.joshka.net/cell-borders/</link>
+      <description>📝 该屏幕截图中的每一行都是单元格边框。通过单元格边框，它们位于窗格的顶部边缘。对于单元格边框，它们位于点之间的单元格边缘。
 
 
-🔤 Original: After 600 experiments, here's what I discovered about JEPA world models
+🔤 Original: Terminal borders that don't cost a cell
 
-🔗 Read more: https://haddyalchaer.com/jepa</description>
-      <guid isPermaLink="true">https://haddyalchaer.com/jepa</guid>
-      <pubDate>Fri, 13 Nov 2026 17:55:28 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487185</comments>
+🔗 Read more: https://www.joshka.net/cell-borders/</description>
+      <guid isPermaLink="true">https://www.joshka.net/cell-borders/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:06:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491423</comments>
     </item>
     <item>
-      <title>对我的 Coway 空气净化器进行逆向工程以消除云</title>
-      <link>https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</link>
-      <description>📝 Home Assistant 将其连接到 Apple Home，然后……瞧。除此之外，Coway 似乎不太可能永远维持这项服务。话虽如此，有两件事发生了变化。
+      <title>3Com 到底怎么了？</title>
+      <link>https://dfarq.homeip.net/what-happened-to-3com/</link>
+      <description>📝 3Com 发生了什么事。此后，3Com 并没有发生什么好事。而且他们的卡很贵。
 
 
-🔤 Original: Reverse engineering my Coway air purifier to ditch the cloud
+🔤 Original: What Happened to 3Com?
 
-🔗 Read more: https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</description>
-      <guid isPermaLink="true">https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</guid>
-      <pubDate>Thu, 12 Nov 2026 22:03:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50474959</comments>
+🔗 Read more: https://dfarq.homeip.net/what-happened-to-3com/</description>
+      <guid isPermaLink="true">https://dfarq.homeip.net/what-happened-to-3com/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:48:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491830</comments>
     </item>
     <item>
-      <title>Autonomous (YC F25) 正在聘请 MTS 来构建人工智能代理来管理您的财富</title>
-      <link>https://atg.science/careers</link>
-      <description>📝 职业生涯 |自主技术小组主页期刊职业加入我们的团队创建能够思考、推理和行动的系统。我们正在寻找来自不同学科和背景的好奇心。
-
-
-🔤 Original: Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth
-
-🔗 Read more: https://atg.science/careers</description>
-      <guid isPermaLink="true">https://atg.science/careers</guid>
-      <pubDate>Fri, 13 Nov 2026 21:01:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50489589</comments>
+      <title>KORS 所有频率的现场广播频段。加利福尼亚州维多利亚也停了下来</title>
+      <link>https://orcasairband.com/</link>
+      <guid isPermaLink="true">https://orcasairband.com/</guid>
+      <pubDate>Fri, 13 Nov 2026 22:04:24 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50490593</comments>
     </item>
     <item>
-      <title>Perplexity Decider v1.3：训练、评估和用例</title>
-      <link>https://www.perplexity.ai/hub/blog/perplexity-decider</link>
-      <guid isPermaLink="true">https://www.perplexity.ai/hub/blog/perplexity-decider</guid>
-      <pubDate>Fri, 13 Nov 2026 19:24:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488464</comments>
+      <title>显示 HN：今晚 FAA 全国地面停留期间美国航班的实时地图</title>
+      <link>https://grounds.top/</link>
+      <description>📝 查看跟踪数据，而不是官方公告。预计自美国东部时间下午 3:30 起错过的商业航班：根据跟踪数据，一周前同一时间的计数减去本周的计数。该条是一周前同一时间的份额。
+
+
+🔤 Original: Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop
+
+🔗 Read more: https://grounds.top/</description>
+      <guid isPermaLink="true">https://grounds.top/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:17:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491545</comments>
     </item>
     <item>
-      <title>Show HN：等距 SF – 旧金山湾区的像素艺术地图</title>
-      <link>https://isometricsf.com/</link>
-      <description>📝 地图数据 © OpenStreetMap 贡献者、ODbL 从 Google 地图拍摄的真实 3D 瓷砖图像 土地覆盖 © ESA WorldCover 项目 2021 / 包含由 ESA WorldCover 联盟处理的修改版哥白尼哨兵数据 (2021)，CC BY 4. 0 使用 Copernicus WorldDEM-30 生成的高程 © DLR e. 2010-2014 和 © Airbus Defence and Space GmbH 2014-2018 由欧盟和 ESA 根据 COPERNICUS 提供；保留所有权利地点：Wikivoyage 贡献者，CC BY-SA 4。
+      <title>Unsloth Qwen3.8-27B 量化 – 动态 v3.1 更新</title>
+      <link>https://unsloth.ai/docs/models/qwen3.8</link>
+      <description>📝 8-27B GGUF 使用我们更新的 Unsloth Dynamic V3。大多数从 2 位到 6 位的量化都会更新。 GSQ-RCO 结果具有误导性对于 LiveCodeBench，GSQ-RCO 显示 Unsloth UD3 量化指标的表现始终比 ISTA 差。
 
 
-🔤 Original: Show HN: Isometric SF – A pixel-art map of the SF Bay Area
+🔤 Original: Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update
 
-🔗 Read more: https://isometricsf.com/</description>
-      <guid isPermaLink="true">https://isometricsf.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:58:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487228</comments>
+🔗 Read more: https://unsloth.ai/docs/models/qwen3.8</description>
+      <guid isPermaLink="true">https://unsloth.ai/docs/models/qwen3.8</guid>
+      <pubDate>Sat, 14 Nov 2026 00:06:04 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491980</comments>
     </item>
     <item>
-      <title>Ctrl+C、Ctrl+v、Ctrl+cve：绕过 Android 的剪贴板读取安全措施</title>
-      <link>https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</link>
-      <guid isPermaLink="true">https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</guid>
-      <pubDate>Fri, 13 Nov 2026 18:23:49 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487605</comments>
+      <title>大象被发现越来越孤立，导致社交网络破裂</title>
+      <link>https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</link>
+      <description>📝 edu 分享：在 Linkedin 上分享这个故事 在 Facebook 上分享这个故事 在 Threads 上分享这个故事 在 Twitter 上分享这个故事 通过电子邮件分享这个故事 文章内容 要点 加州大学圣地亚哥分校的研究人员十多年来对斯里兰卡数百头亚洲象的社会动态进行了研究。人类和许多其他社会性动物在完善的社区网络中茁壮成长。研究人员的分析表明了社会结构的临界点。
+
+
+🔤 Original: Elephants found to be increasingly isolated leading to fractured social networks
+
+🔗 Read more: https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</description>
+      <guid isPermaLink="true">https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks</guid>
+      <pubDate>Sat, 14 Nov 2026 02:02:42 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492860</comments>
     </item>
     <item>
-      <title>发现：一种在不引发炎症的情况下促进衰老的蛋白质</title>
-      <link>https://www.nature.com/articles/d41586-026-03638-3</link>
-      <description>📝 每期 90 份 了解更多 租用或购买本文 价格因文章类型而异 1 美元。丹麦哥本哈根大学腓特烈斯贝校区 哥本哈根大学植物与环境科学系战略科学家、杰出青年研究员、CIBCAS博士后职位 CIB诚邀杰出战略科学家、杰出青年研究员、博士后研究员。多哈 (QA) Sidra Medicine 卡塔尔。
+      <title>Amtrak 预订系统在全国 FAA 地面停靠期间遇到重大问题</title>
+      <link>https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</link>
+      <description>📝 此次停电发生在美国联邦航空局（FAA）全国范围内的地面停留期间，该地面停留现已取消。华盛顿 - Amtrak 表示，在美国联邦航空局 (FAA) 在全国范围内进行地面停车期间发生网络中断后，其预订系统正在恢复正常。官员们表示，预订系统正在恢复正常。
 
 
-🔤 Original: Found: A protein that drives ageing without unleashing inflammation
+🔤 Original: Amtrak booking system experiencing major issues amid nationwide FAA ground stop
 
-🔗 Read more: https://www.nature.com/articles/d41586-026-03638-3</description>
-      <guid isPermaLink="true">https://www.nature.com/articles/d41586-026-03638-3</guid>
-      <pubDate>Fri, 13 Nov 2026 19:25:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488470</comments>
+🔗 Read more: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</description>
+      <guid isPermaLink="true">https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:52:29 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492315</comments>
     </item>
     <item>
-      <title>Haskell 生态系统的技术愿景</title>
-      <link>https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</link>
-      <description>📝 我们将积极制定我们认为需要资金和执行的举措和提案。为此，我们需要公司、承包商和志愿者的帮助。所有这一切同时提供更强有力的保证和更好的性能。
+      <title>Nvidia 董事在黄仁勋丑闻发生前几周出售了近 10 亿美元的股票</title>
+      <link>https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</link>
+      <description>📝 第二次出售从 9 月开始，史蒂文斯仍持有约 27 美元。13 日，Nvidia 的交易价格约为每股 163 美元。
 
 
-🔤 Original: A technical vision for the Haskell ecosystem
+🔤 Original: Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal
 
-🔗 Read more: https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</description>
-      <guid isPermaLink="true">https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</guid>
-      <pubDate>Fri, 13 Nov 2026 14:43:12 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484235</comments>
+🔗 Read more: https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</description>
+      <guid isPermaLink="true">https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html</guid>
+      <pubDate>Sat, 14 Nov 2026 02:21:36 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492993</comments>
     </item>
     <item>
-      <title>模型现在可以在重量空间中传播病毒</title>
-      <link>https://www.alphaxiv.org/abs/2611.weight-space-misfolding</link>
-      <description>📝 该论文还描绘了一条假设的路线，其中大型编辑器影响中间模型，并通过可选的进一步阶段影响下游目标。该路线是提议的，而不是演示的。 [p4] 这是作者早期的 IWIBench 衡量编辑器模型是否可以更改目标的权重以满足授权目标，同时保留其他正确行为的方法。
-
-
-🔤 Original: Models can now transmit viruses in weight-space
-
-🔗 Read more: https://www.alphaxiv.org/abs/2611.weight-space-misfolding</description>
-      <guid isPermaLink="true">https://www.alphaxiv.org/abs/2611.weight-space-misfolding</guid>
-      <pubDate>Fri, 13 Nov 2026 18:33:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487762</comments>
+      <title>Jonathan Blow – 如果人工智能解决了编码问题，为什么我的软件还是一样？ [视频]</title>
+      <link>https://www.youtube.com/watch?v=IRK8h67ol7Q</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=IRK8h67ol7Q</guid>
+      <pubDate>Fri, 13 Nov 2026 15:08:44 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50484658</comments>
     </item>
     <item>
-      <title>没有人工智能障碍：宣言</title>
-      <link>https://www.slopmanifesto.com/</link>
-      <description>📝 使用人工智能并不一定会让事情变得糟糕。在代码中，即使在人工智能出现之前，当我们反复解决问题而不是正确解决问题时，错误就会激增。我们大多数人在某些时候都需要同样的注释。
+      <title>如何不构建音乐播放器</title>
+      <link>https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</link>
+      <description>📝 我不知道其他音乐播放器，例如我的朋友在写这篇文章时向我指出的 foobar2000。继续开发我的音乐播放器。在这段艰难的时期，它确实给我带来了巨大的快乐。
 
 
-🔤 Original: No AI Slop: A Manifesto
+🔤 Original: How Not to Build a Music Player
 
-🔗 Read more: https://www.slopmanifesto.com/</description>
-      <guid isPermaLink="true">https://www.slopmanifesto.com/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:51:56 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488769</comments>
+🔗 Read more: https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</description>
+      <guid isPermaLink="true">https://alichraghi.github.io/blog/how-not-to-build-a-music-player/</guid>
+      <pubDate>Fri, 13 Nov 2026 23:04:30 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50491400</comments>
     </item>
     <item>
-      <title>人工智能解锁哥德尔笔记本，据说其中包含数百个已证明的定理</title>
-      <link>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</link>
-      <description>📝 他的不完备性定理表明，在所有数学系统中都存在既不能被证明也不能被反驳的真实陈述。哦，是的，我将开始阅读哥德尔神秘的速记页。哥德尔对科恩获得菲尔兹奖的反应是，他已经获得了菲尔兹奖。
+      <title>菲利普·罗斯和大卫·雷姆尼克私交 (2001)</title>
+      <link>https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</link>
+      <description>📝 2000 年，雷姆尼克试图对罗斯进行侧写。在现实生活中，雷姆尼克带着青少年时期的紧张兴奋接近罗斯。罗斯对粗鲁的阿梅尔表示遗憾。
 
 
-🔤 Original: AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems
+🔤 Original: Philip Roth and David Remnick getting personal (2001)
 
-🔗 Read more: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</description>
-      <guid isPermaLink="true">https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</guid>
-      <pubDate>Fri, 13 Nov 2026 17:30:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486748</comments>
+🔗 Read more: https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</description>
+      <guid isPermaLink="true">https://salmagundi.skidmore.edu/articles/2001-philip-roth-david-remnick</guid>
+      <pubDate>Sat, 14 Nov 2026 00:21:26 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492098</comments>
     </item>
     <item>
-      <title>学生只需点击 16 次即可在 iPad 上打开 PowerPoint</title>
-      <link>https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</guid>
-      <pubDate>Fri, 13 Nov 2026 18:18:37 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487522</comments>
+      <title>世界各地的安全机构被发现使用基于广告的监控系统</title>
+      <link>https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</link>
+      <description>📝 发布日期 2026 年 11 月 12 日 主题 大规模监控 有针对性的监控广告情报，webloc 提及 Wolfie Christl 分享 彭博社对 Penlink 基于广告的监控系统 Webloc 的调查建立在 Citizen Lab 研究的基础上，确定了跟踪技术的其他客户。 Webloc 已被多个国家/地区的安全机构收购的调查结果与我们在 4 月份报告中确定的潜在客户一致。 2026 年 10 月 19 日定向监视活动 [BOOK TALK] 全球中国如何治理其侨民同意和胁迫 2026 年 11 月 9 日新闻 + 更新 → 新闻 美国政客
+
+
+🔤 Original: Security Agencies Worldwide Found to Use Ad-Based Surveillance System
+
+🔗 Read more: https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</description>
+      <guid isPermaLink="true">https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/</guid>
+      <pubDate>Sat, 14 Nov 2026 02:15:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50492950</comments>
     </item>
     <item>
-      <title>明尼苏达州吉他手的“棕榈树”发明引起了新的共鸣</title>
-      <link>https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</link>
-      <description>📝 那天晚上，兰森透露了他多年来一直在研究的事情。正是在那段时间，兰森说事情发生了变化。学习曲线 Ranson 在设计棕榈树时有一些规则。
+      <title>目前美国所有机场均已停飞</title>
+      <link>https://twitter.com/flightradar24/status/2121347654714077605</link>
+      <description>📝 Flightradar24@flightradar24 美国联邦航空管理局 (FAA) 刚刚发布消息称，美国所有机场目前均已停飞。这意味着没有航班可能飞往美国机场。这与美国联邦航空管理局的设备故障有关。
 
 
-🔤 Original: Minnesota guitarist's "palmfrets" invention strikes a new chord
+🔤 Original: All US airports are currently ground stopped
 
-🔗 Read more: https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</description>
-      <guid isPermaLink="true">https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord</guid>
-      <pubDate>Fri, 13 Nov 2026 15:08:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484650</comments>
-    </item>
-    <item>
-      <title>Lonewolf 0.3 – 用 Rust 编写的独立 XMPP 服务器</title>
-      <link>https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</link>
-      <description>📝 过滤器加载 抱歉，出了点问题。请重新加载此页面。 Lonewolf 仅通过证书对对等点进行身份验证。
-
-
-🔤 Original: Lonewolf 0.3 – A standalone XMPP server written in Rust
-
-🔗 Read more: https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</description>
-      <guid isPermaLink="true">https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</guid>
-      <pubDate>Fri, 13 Nov 2026 14:28:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484007</comments>
-    </item>
-    <item>
-      <title>随着通用模型开始运行机器人，OpenAI 解散了机器人团队</title>
-      <link>https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</link>
-      <description>📝 OpenAI 解散了其独立的机器人团队，将其研究人员转移到其他团队。该公司发言人表示，尽管进行了重组，OpenAI仍然致力于将通用机器人带入世界。但从那时起，该公司发言人表示，该公司的通用前沿模型，包括 GPT-6 Astra，已经表明可以直接应用于机器人技术。
-
-
-🔤 Original: OpenAI disbands its robotics team as its general models start running robots
-
-🔗 Read more: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</description>
-      <guid isPermaLink="true">https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:55:23 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487184</comments>
-    </item>
-    <item>
-      <title>技术作为搜索问题</title>
-      <link>https://www.construction-physics.com/p/technology-as-a-search-problem</link>
-      <description>📝 如果我们用它作为对一项技术可以利用的不同现象数量的（非常粗略的）估计，则意味着可以创建大量可能的技术。某些技术可以利用的规律可能比 272 多得多。（我尚未完成的一些正在进行的工作表明至少有数千个。
-
-
-🔤 Original: Technology as a Search Problem
-
-🔗 Read more: https://www.construction-physics.com/p/technology-as-a-search-problem</description>
-      <guid isPermaLink="true">https://www.construction-physics.com/p/technology-as-a-search-problem</guid>
-      <pubDate>Fri, 13 Nov 2026 19:27:15 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488490</comments>
-    </item>
-    <item>
-      <title>有人冒充此博客</title>
-      <link>https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</link>
-      <description>📝 他们并不是从一个有知名度的网站上窃取信息。当然他们比我有更多的 SEO 能力。网站，它与我或马塔罗阿无关。
-
-
-🔤 Original: Someone's Impersonating This Blog
-
-🔗 Read more: https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</description>
-      <guid isPermaLink="true">https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:41:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488664</comments>
-    </item>
-    <item>
-      <title>Apify安全事件</title>
-      <link>https://status.apify.com/incidents/sxd1dj5j6749</link>
-      <description>📝 如果情况发生变化，我们将直接联系任何其他客户。下次更新将在 24 小时内进行。 - 如果出现提示，请重新连接您的集成。
-
-
-🔤 Original: Apify Security Incident
-
-🔗 Read more: https://status.apify.com/incidents/sxd1dj5j6749</description>
-      <guid isPermaLink="true">https://status.apify.com/incidents/sxd1dj5j6749</guid>
-      <pubDate>Fri, 13 Nov 2026 16:55:59 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486258</comments>
-    </item>
-    <item>
-      <title>CERN 建造了大型强子对撞机的下一代磁铁</title>
-      <link>https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</link>
-      <description>📝 EnergyJournal WatchNews CERN 如何建造大型强子对撞机的下一代磁体 11. 3 特斯拉超导磁体背后的新材料和工艺米歇尔·汉普森 20263 年 11 月 10 日分钟阅读 CERN 研究人员一直在开发和测试新型超导 Nb₃Sn 磁体线圈，作为大型强子对撞机持续升级的一部分。弗洛伦斯·伊丽莎白·汤普森/欧洲核子研究组织。
-
-
-🔤 Original: CERN Built the Large Hadron Collider's Next-Gen Magnets
-
-🔗 Read more: https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</description>
-      <guid isPermaLink="true">https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets</guid>
-      <pubDate>Fri, 13 Nov 2026 14:25:46 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50483959</comments>
-    </item>
-    <item>
-      <title>LibreOffice 实际上一年 365 天都在工作</title>
-      <link>https://twitter.com/LibreOffice/status/2121205272479998268</link>
-      <description>📝 X 上的 LibreOffice：“LibreOffice 实际上一年 365 天都在工作。”ConversationLibreOffice@LibreOfficeLibreOffice 实际上一年 365 天都在工作。 4KLibreOffice@LibreOfficeLibreOffice 实际上一年 365 天都在工作。
-
-
-🔤 Original: LibreOffice actually works 365 days a year
-
-🔗 Read more: https://twitter.com/LibreOffice/status/2121205272479998268</description>
-      <guid isPermaLink="true">https://twitter.com/LibreOffice/status/2121205272479998268</guid>
-      <pubDate>Fri, 13 Nov 2026 17:09:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486482</comments>
-    </item>
-    <item>
-      <title>微软的停电为客户提供了依赖雷蒙德的速成课程</title>
-      <link>https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</link>
-      <description>📝 对于受影响的微软客户来说，这次中断带来了不受欢迎的预兆。 Exchange Online fell over. “真正令人担忧的并不是微软遭遇了宕机。
-
-
-🔤 Original: Microsoft outage gives customers a crash course in dependence on Redmond
-
-🔗 Read more: https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</description>
-      <guid isPermaLink="true">https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805</guid>
-      <pubDate>Fri, 13 Nov 2026 18:29:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50487688</comments>
-    </item>
-    <item>
-      <title>FreeBSD 和 bhyve 即将推出实时迁移支持</title>
-      <link>https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</link>
-      <description>📝 该项目展示了 FreeBSD 15 上 bhyve 来宾实时迁移的第一个工作状态。 为什么这很重要 实时迁移是企业虚拟化的重要构建块。在 GO 之前，失败的迁移可以恢复源 guest 虚拟机。
-
-
-🔤 Original: Live-migration support in FreeBSD and bhyve coming
-
-🔗 Read more: https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</description>
-      <guid isPermaLink="true">https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</guid>
-      <pubDate>Fri, 13 Nov 2026 19:58:42 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50488835</comments>
-    </item>
-    <item>
-      <title>并发 Shell 命令队列</title>
-      <link>https://emmer.dev/blog/concurrent-shell-command-queues/</link>
-      <description>📝 下面的代码创建了一个命令队列，该队列接受要执行的 shell 命令。 bash 1# 启动此 shell 的命令队列。 = *我* ]]; then 66 trap 'exit 129' HUP 67 trap 'exit 130' INT 68 trap 'exit 143' TERM 69 fi 70} 71 72# 将命令放入该 shell 的命令队列中。
-
-
-🔤 Original: Concurrent Shell Command Queues
-
-🔗 Read more: https://emmer.dev/blog/concurrent-shell-command-queues/</description>
-      <guid isPermaLink="true">https://emmer.dev/blog/concurrent-shell-command-queues/</guid>
-      <pubDate>Fri, 13 Nov 2026 17:13:01 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50486521</comments>
-    </item>
-    <item>
-      <title>巴西 Caixa 保险公司的数据泄露事件暴露了所有 760 万客户的姓名和税号</title>
-      <link>https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</link>
-      <description>📝 ��� ~���L&amp;^�'� ��/�e�z����O�� �{ ��oM8� |&amp;��������&gt;�˅w��~&lt;&lt;�. }���zB� �H�5a�b3@���Q���d� g0$� ˈ�� = �I�I0��� ����륄�=X�h�2 ����$A2 $S�|�/�q4�� �� ��� ��ѽw� O��S&gt;�$��*f�I4�{|� O$v�T��. ����[ � ~�Əַ�p�B�:���G� -� K� = �� =9:��еu�#�� e�:�֏nH�.
-
-
-🔤 Original: Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers
-
-🔗 Read more: https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</description>
-      <guid isPermaLink="true">https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e</guid>
-      <pubDate>Fri, 13 Nov 2026 15:52:04 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50485295</comments>
-    </item>
-    <item>
-      <title>为什么谷歌要切断没有人工智能的学校的搜索服务？这是一些理论</title>
-      <link>https://text.npr.org/nx-s1-6029408</link>
-      <description>📝 NPR &gt; K-12 教育 为什么谷歌要从没有人工智能的学校中切断搜索服务。该公司表示，如果学校不希望学生使用其旗舰搜索工具时出现人工智能概述，他们将完全无法访问谷歌搜索。出版商根据反垄断法提起诉讼，他们的论点取决于让法院相信 AI Overviews 是与 Google 搜索不同的产品。
-
-
-🔤 Original: Why is Google cutting off Search from AI-free schools? Here are some theories
-
-🔗 Read more: https://text.npr.org/nx-s1-6029408</description>
-      <guid isPermaLink="true">https://text.npr.org/nx-s1-6029408</guid>
-      <pubDate>Fri, 13 Nov 2026 15:29:10 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50484960</comments>
+🔗 Read more: https://twitter.com/flightradar24/status/2121347654714077605</description>
+      <guid isPermaLink="true">https://twitter.com/flightradar24/status/2121347654714077605</guid>
+      <pubDate>Fri, 13 Nov 2026 21:06:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50489652</comments>
     </item>
   </channel>
 </rss>
