@@ -6,106 +6,151 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 15 Nov 2026 10:26:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 18:31:45 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>アポロ計画の一部で手榴弾発射装置が搭載されたのはなぜですか?</title>
-      <link>https://space.stackexchange.com/questions/37775</link>
-      <guid isPermaLink="true">https://space.stackexchange.com/questions/37775</guid>
-      <pubDate>Sun, 15 Nov 2026 09:06:43 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50505271</comments>
+      <title>AI によって生成されたコードはすべてオープンソースである必要があります</title>
+      <link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link>
+      <description>📝 これは厳しい見方かもしれませんが、私は AI によって生成されたすべてのコードはオープンソースであるべきだと強く信じています。この集合的な知識を独自のクローズドソースコードに変えることは、ライセンスロンダリングのように感じられます。プロンプトの作成以外に人間がほとんど労力を費やさないこのようなコードは、間違いなくオープンソースであるべきです。
+
+
+🔤 Original: All AI-generated code should be Open Source
+
+🔗 Read more: https://jakub.jankiewicz.org/blog/ai-code-open-source/</description>
+      <guid isPermaLink="true">https://jakub.jankiewicz.org/blog/ai-code-open-source/</guid>
+      <pubDate>Sun, 15 Nov 2026 14:46:58 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50507303</comments>
     </item>
     <item>
-      <title>裁判所はDRAM価格操作訴訟の却下を求める申し立てを却下</title>
-      <link>https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal</link>
-      <description>📝 「裁判所は、そうではないと判断した」とワイズ判事は書いた。ワイズ判事は、タイミングのずれによって並行行動が損なわれるとする両社の主張を棄却した。彼女は、告訴状で、供給を削減し、DDR5 などの従来の DRAM から HBM に生産を移行し、DDR4 を縮小した際に 3 社が並行して行動したと主張するもっともらしい内容であると判断しました。
+      <title>MacBook ProのOLED PWM問題: 「優れた」ディスプレイが使いにくくなるとき</title>
+      <link>https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/</link>
+      <description>📝 Apple はタンデム OLED テクノロジーを MacBook Pro に導入し、2021 年からこのシリーズに提供されている (Apple が引き続き販売している) Mini-LED ディスプレイに加わりました。しかし、それが本当のポイントではありません。 PROLED XDR ディスプレイを搭載した MacBook Pro は、予算の画面を備えた安価なラップトップではないことを強調します。
 
 
-🔤 Original: Court denies motion to dismiss DRAM price fixing case
+🔤 Original: The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use
 
-🔗 Read more: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal</description>
-      <guid isPermaLink="true">https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal</guid>
-      <pubDate>Sun, 15 Nov 2026 01:18:36 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50502988</comments>
+🔗 Read more: https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/</description>
+      <guid isPermaLink="true">https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/</guid>
+      <pubDate>Sun, 15 Nov 2026 13:15:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50506719</comments>
     </item>
     <item>
-      <title>NetBSD でのディスク暗号化 – 機密性の確保</title>
-      <link>https://netbsd.org/~nia/disk-encrypt/</link>
-      <description>📝 ユーザーは、そのようなシステム ファイルを含むディレクトリを読み取り専用にすることもできます。オペレーティング システムは、起動するためにファイルをロードできる必要があります。この構成では、NetBSD を暗号化されていない小さなルート ファイル システムにインストールします。
+      <title>Emacs は私のブラウザです</title>
+      <link>https://joshblais.com/blog/emacs-as-my-browser/</link>
+      <description>📝 ) Emacs 内で直接サポートします。 eww-browse-url))) ;;フォールバック設定をそのままにしておきます(setqbrowse-url-secondary-browser-function 'browse-url-genericbrowse-url-generic-program "chromium") (with-eval-after-load 'eww (define-key eww-mode-map (kbd "=") #'text-scale-increase) (define-key eww-mode-map (kbd "-") #'text-scale-decrease) (define-key eww-mode-map (kbd "0") #'text-scale-adjust)) (setq shr-width 100)(setq shr-max-width 120)(setq shr-indentation 4) (setq shr-use-fonts nil)(setq shr-max-image-size '(800. " (対話型) (let ((url (または (get-text-property (point) 'image-url) (get-text-property (point) 'shr-url)))) (if (not url) (メッセージ "ポイントに画像がありません") (let* ((filename (file-name-nondirectory (url-filename (url-generic-parse-url url))))) (dest (expand-file-name filename eww-download-directory))) (url-copy-file url dest t) (message "保存: %s" dest))))) ;; Keybinds(with-eval-after-load 'eww (define-key eww-mode-map (kbd "b") #'eww-back-url) (define-key eww-mode-map (kbd "a") #'eww-add-bookmark) (define-key eww-mode-map (kbd "U") #'shr-copy-url) (define-key eww-mode-map (kbd "D") #'my/eww-download-image-at-point)) (provide 'browser) 私のデフォルトの検索エンジンは独自の Searx インスタンスで、他のすべての検索エンジンを統合したプライバシーを尊重したフロントエンドです。
 
 
-🔤 Original: Disk encryption on NetBSD – achieving secrecy
+🔤 Original: Emacs Is My Browser
 
-🔗 Read more: https://netbsd.org/~nia/disk-encrypt/</description>
-      <guid isPermaLink="true">https://netbsd.org/~nia/disk-encrypt/</guid>
-      <pubDate>Sun, 15 Nov 2026 05:29:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50504277</comments>
+🔗 Read more: https://joshblais.com/blog/emacs-as-my-browser/</description>
+      <guid isPermaLink="true">https://joshblais.com/blog/emacs-as-my-browser/</guid>
+      <pubDate>Sun, 15 Nov 2026 15:21:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50507553</comments>
     </item>
     <item>
-      <title>私のお気に入りの最新の NES ゲーム</title>
-      <link>https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/</link>
-      <description>📝 このゲームは本当に宝石です。アルワの目覚め（トップに戻る）がかゆいです。ハードウェアの厳しい制限のもとで作られた興味深い体験です。
+      <title>ターボ パスカルより小さいもの (2011)</title>
+      <link>https://prog21.dadgum.com/116.html</link>
+      <description>📝 それは自分のアイデアを実行できるかどうかです。 MS-DOS 用の Turbo Pascal 3 は 1986 年 9 月にリリースされました。Turbo Pascal 3 全体。
 
 
-🔤 Original: My favourite modern NES games
+🔤 Original: Things That Turbo Pascal Is Smaller Than (2011)
 
-🔗 Read more: https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/</description>
-      <guid isPermaLink="true">https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/</guid>
-      <pubDate>Sun, 15 Nov 2026 02:41:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50503465</comments>
+🔗 Read more: https://prog21.dadgum.com/116.html</description>
+      <guid isPermaLink="true">https://prog21.dadgum.com/116.html</guid>
+      <pubDate>Sun, 15 Nov 2026 13:44:16 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50506894</comments>
     </item>
     <item>
-      <title>Kiri – 最新のコンテナ ランタイム</title>
-      <link>https://runkiri.com/</link>
-      <description>📝 Kiri は 1 つのデーモンで Docker コンテナを実行します。 kari run と Kiri ps は、双子の docker のように機能します。 Kiri が開いていると、通常の docker コマンドが Kiri 上で実行されます。
+      <title>最新の LLM における位置埋め込みを理解する</title>
+      <link>https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</link>
+      <description>📝 位置情報が LLM に入る場所全体的なアーキテクチャから始めましょう。位置情報は後から付加されます。 1 なぜ位置情報を追加するのか。
 
 
-🔤 Original: Kiri – The Modern Container Runtime
+🔤 Original: Understanding Positional Embeddings in Modern LLMs
 
-🔗 Read more: https://runkiri.com/</description>
-      <guid isPermaLink="true">https://runkiri.com/</guid>
-      <pubDate>Sun, 15 Nov 2026 04:40:41 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50504077</comments>
+🔗 Read more: https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</description>
+      <guid isPermaLink="true">https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</guid>
+      <pubDate>Sun, 15 Nov 2026 12:14:06 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50506376</comments>
     </item>
     <item>
-      <title>Show HN: Gawain – すべての Python 変数に型ヒントが必要です</title>
-      <link>https://github.com/matheuzgomes/gawain</link>
-      <description>📝 items = アイテムがショップに到着します。インストール 必要なタイプ チェッカーを追加してインストールします。警告ガインの使用には注意してください。
+      <title>「鳥脳」は誤称です。カラスは私たちよりも早く決断を下します</title>
+      <link>https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</link>
+      <description>📝 今回、鳥類が驚くほど迅速な決断を下し、人間や人間以外の霊長類の鳥類を簡単に打ち破ることができることも明らかになった。彼らの精巧なメロディーは、彼らの認知能力を反映していない特殊な適応であると考えられていました。アクセスを確認するまでしばらくお待ちください。
 
 
-🔤 Original: Show HN: Gawain – Require type hints on all Python variables
+🔤 Original: 'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can
 
-🔗 Read more: https://github.com/matheuzgomes/gawain</description>
-      <guid isPermaLink="true">https://github.com/matheuzgomes/gawain</guid>
-      <pubDate>Sun, 15 Nov 2026 04:39:25 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50504072</comments>
+🔗 Read more: https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</description>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</guid>
+      <pubDate>Sun, 15 Nov 2026 17:53:31 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50509023</comments>
     </item>
     <item>
-      <title>私たちは控訴裁判所に対し、ALPR捜査の令状を要求するよう求めています</title>
-      <link>https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches</link>
-      <description>📝 スターディバント事件は、警察が自動ナンバー プレート リーダー (ALPR) データを使用して容疑者の動きを無許可で追跡した事件です。 ALPRの証拠隠蔽を求める申し立てに直面して、地方裁判所は、同氏の判決を下した。つい先月、連邦地方裁判所は、ALPRは合衆国憲法修正第4条に違反する可能性のある「無差別大量監視の一形態」であることに同意し、判決を下した。
+      <title>Odinで書かれたNESエミュレータ</title>
+      <link>https://lucypero.com/lucynes.html</link>
+      <description>📝 追加のオーディオ機能が付属しているものもありますが、私はそれを実装していません。オーディン このプロジェクトを作成している間に、オーディンについて多くのことを学びました。私を驚かせたのは、Odin には自動整数昇格がないことです。
 
 
-🔤 Original: We're Asking an Appeals Court to Require a Warrant for ALPR Searches
+🔤 Original: A NES emulator written in Odin
 
-🔗 Read more: https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches</description>
-      <guid isPermaLink="true">https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches</guid>
-      <pubDate>Sun, 15 Nov 2026 02:00:54 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50503255</comments>
+🔗 Read more: https://lucypero.com/lucynes.html</description>
+      <guid isPermaLink="true">https://lucypero.com/lucynes.html</guid>
+      <pubDate>Sun, 15 Nov 2026 12:51:47 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50506588</comments>
     </item>
     <item>
-      <title>HN を表示: Turbo-Browser-MCP – バッチ フォーム、DOM デルタ、MCP のサブミット ガード</title>
-      <link>https://github.com/Tthanh2k6/turbo-browser-mcp</link>
-      <description>📝 各ターンで、増大する会話履歴がモデルに再送信されます。 snapshot() -&gt; フル ARIA (~3,568 tok) ループ フィールド、選択、チェックボックス、アップロード全体で 10 回以上繰り返します。 Agent-&gt;&gt;Std: fill / select_option / click Std--&gt;&gt;Agent: full ARIA または確認が履歴に再追加されます。 Agent-&gt;&gt;Std: 12. インラインでアップロードするか、セレクターをクリックします。 Agent、Turbo についてのメモ:turbo-browser-mcp (合計、デルタ、および 2 LLM ターン)インライン スナップショット) エージェント-&gt;&gt;ターボ: 1.
+      <title>ハイパーテキスト転送プロトコルのステータス コード 483 (私は冷凍庫ではありません)</title>
+      <link>https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/</link>
+      <description>📝 ハイパーテキスト転送プロトコルのステータス コード 483 (私はフリーザーではありません)draft-banffy-httpbis-not-a-freezer-00 ステータス電子メールの拡張履歴バージョン: この文書はインターネット ドラフト (I-D) です。ステータス コード 418 との関係。この文書では、ステータス コード 483 (I'm Not a Freezer) を定義することで、その曖昧さに対処しています。
 
 
-🔤 Original: Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP
+🔤 Original: The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)
 
-🔗 Read more: https://github.com/Tthanh2k6/turbo-browser-mcp</description>
-      <guid isPermaLink="true">https://github.com/Tthanh2k6/turbo-browser-mcp</guid>
-      <pubDate>Sun, 15 Nov 2026 04:09:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50503930</comments>
+🔗 Read more: https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/</description>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/</guid>
+      <pubDate>Sun, 15 Nov 2026 14:31:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50507206</comments>
+    </item>
+    <item>
+      <title>ラトニック氏、家業と重なるチップ規定の緩和を推進</title>
+      <link>https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html</link>
+      <description>📝 チップを中国企業に直接供給する。政府は国際データセンターへのチップ販売に対する監督を強化する。アクセスを確認するまでしばらくお待ちください。
+
+
+🔤 Original: Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business
+
+🔗 Read more: https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html</description>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html</guid>
+      <pubDate>Sun, 15 Nov 2026 11:40:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50506180</comments>
+    </item>
+    <item>
+      <title>電話が世界を変えた</title>
+      <link>https://lithub.com/how-the-telephone-changed-the-world/</link>
+      <description>📝 「ありがとう、ジミー。」とビルが言うと、「その通りです。電話を発明したのは彼です。」とビルは答えた。
+
+
+🔤 Original: The Telephone Changed the World
+
+🔗 Read more: https://lithub.com/how-the-telephone-changed-the-world/</description>
+      <guid isPermaLink="true">https://lithub.com/how-the-telephone-changed-the-world/</guid>
+      <pubDate>Sat, 14 Nov 2026 22:56:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50501887</comments>
+    </item>
+    <item>
+      <title>HN を表示: db-branch – ZFS 経由で AI エージェントと CI のデータベース ブランチを数秒で実行します</title>
+      <link>https://github.com/db-branch/db-branch</link>
+      <description>📝 db-branch は、何もコピーせずに、大規模なデータベースのコピーオンライト ブランチを数秒で作成します。ブランチ リセットはブランチを作成状態に戻します。 --ttl を指定すると自動的に削除されます。最初のブランチ db-branch ランタイムは postgres@18 をインストールします。
+
+
+🔤 Original: Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS
+
+🔗 Read more: https://github.com/db-branch/db-branch</description>
+      <guid isPermaLink="true">https://github.com/db-branch/db-branch</guid>
+      <pubDate>Sun, 15 Nov 2026 13:50:51 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50506940</comments>
     </item>
   </channel>
 </rss>
