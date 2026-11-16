@@ -6,151 +6,179 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 15 Nov 2026 18:31:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 00:48:07 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>AI によって生成されたコードはすべてオープンソースである必要があります</title>
-      <link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link>
-      <description>📝 これは厳しい見方かもしれませんが、私は AI によって生成されたすべてのコードはオープンソースであるべきだと強く信じています。この集合的な知識を独自のクローズドソースコードに変えることは、ライセンスロンダリングのように感じられます。プロンプトの作成以外に人間がほとんど労力を費やさないこのようなコードは、間違いなくオープンソースであるべきです。
+      <title>古い Bitly リンクがハイジャックされている</title>
+      <link>https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/</link>
+      <description>📝 ランサムニュースは、公共アーカイブから取得した、2009年から2013年までのドナルド・トランプ氏のツイート内の97件のBitlyリンクもチェックした。変わったのは、そのリンクがどこに行くかです。 Bitly では、すべての短いリンクについて公開情報ページを保持しています。
 
 
-🔤 Original: All AI-generated code should be Open Source
+🔤 Original: Old Bitly Links Are Being Hijacked
 
-🔗 Read more: https://jakub.jankiewicz.org/blog/ai-code-open-source/</description>
-      <guid isPermaLink="true">https://jakub.jankiewicz.org/blog/ai-code-open-source/</guid>
-      <pubDate>Sun, 15 Nov 2026 14:46:58 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50507303</comments>
+🔗 Read more: https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/</description>
+      <guid isPermaLink="true">https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/</guid>
+      <pubDate>Sun, 15 Nov 2026 22:11:43 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50511395</comments>
     </item>
     <item>
-      <title>MacBook ProのOLED PWM問題: 「優れた」ディスプレイが使いにくくなるとき</title>
-      <link>https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/</link>
-      <description>📝 Apple はタンデム OLED テクノロジーを MacBook Pro に導入し、2021 年からこのシリーズに提供されている (Apple が引き続き販売している) Mini-LED ディスプレイに加わりました。しかし、それが本当のポイントではありません。 PROLED XDR ディスプレイを搭載した MacBook Pro は、予算の画面を備えた安価なラップトップではないことを強調します。
+      <title>30年にわたるサロンジャーナリズムの継承</title>
+      <link>https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/</link>
+      <description>📝 31年の歴史を経て、『サロン』が廃刊を発表した。 com、そして 1999 年からはサロン。サロン アーカイブを探索します。サロン エクスプローラーにアクセスするか、サロンを参照してください。
 
 
-🔤 Original: The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use
+🔤 Original: Preserving 30 Years of Salon Journalism
 
-🔗 Read more: https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/</description>
-      <guid isPermaLink="true">https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/</guid>
-      <pubDate>Sun, 15 Nov 2026 13:15:22 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50506719</comments>
+🔗 Read more: https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/</description>
+      <guid isPermaLink="true">https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/</guid>
+      <pubDate>Sun, 15 Nov 2026 23:00:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50511806</comments>
     </item>
     <item>
-      <title>Emacs は私のブラウザです</title>
-      <link>https://joshblais.com/blog/emacs-as-my-browser/</link>
-      <description>📝 ) Emacs 内で直接サポートします。 eww-browse-url))) ;;フォールバック設定をそのままにしておきます(setqbrowse-url-secondary-browser-function 'browse-url-genericbrowse-url-generic-program "chromium") (with-eval-after-load 'eww (define-key eww-mode-map (kbd "=") #'text-scale-increase) (define-key eww-mode-map (kbd "-") #'text-scale-decrease) (define-key eww-mode-map (kbd "0") #'text-scale-adjust)) (setq shr-width 100)(setq shr-max-width 120)(setq shr-indentation 4) (setq shr-use-fonts nil)(setq shr-max-image-size '(800. " (対話型) (let ((url (または (get-text-property (point) 'image-url) (get-text-property (point) 'shr-url)))) (if (not url) (メッセージ "ポイントに画像がありません") (let* ((filename (file-name-nondirectory (url-filename (url-generic-parse-url url))))) (dest (expand-file-name filename eww-download-directory))) (url-copy-file url dest t) (message "保存: %s" dest))))) ;; Keybinds(with-eval-after-load 'eww (define-key eww-mode-map (kbd "b") #'eww-back-url) (define-key eww-mode-map (kbd "a") #'eww-add-bookmark) (define-key eww-mode-map (kbd "U") #'shr-copy-url) (define-key eww-mode-map (kbd "D") #'my/eww-download-image-at-point)) (provide 'browser) 私のデフォルトの検索エンジンは独自の Searx インスタンスで、他のすべての検索エンジンを統合したプライバシーを尊重したフロントエンドです。
+      <title>プロトマップ: 自己ホスト型のマップ タイルが安くて簡単になりました</title>
+      <link>https://bruceroettgers.eu/blog/protomaps/</link>
+      <description>📝 ストレージは 055/GB/月 (最大レプリケ​​ーション)。次に、rclone をインストールすると、ファイルをダウンロードして Bunny ストレージ ゾーンにストリーミングできます。また、[キャッシュ] で [大きなオブジェクト配信の最適化] が有効になっていることも確認してください。これにより、範囲リクエストをキャッシュできるようになります。
 
 
-🔤 Original: Emacs Is My Browser
+🔤 Original: Protomaps: Self-hosting map tiles has gotten cheap and easy
 
-🔗 Read more: https://joshblais.com/blog/emacs-as-my-browser/</description>
-      <guid isPermaLink="true">https://joshblais.com/blog/emacs-as-my-browser/</guid>
-      <pubDate>Sun, 15 Nov 2026 15:21:21 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50507553</comments>
+🔗 Read more: https://bruceroettgers.eu/blog/protomaps/</description>
+      <guid isPermaLink="true">https://bruceroettgers.eu/blog/protomaps/</guid>
+      <pubDate>Sun, 15 Nov 2026 19:26:22 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50509837</comments>
     </item>
     <item>
-      <title>ターボ パスカルより小さいもの (2011)</title>
-      <link>https://prog21.dadgum.com/116.html</link>
-      <description>📝 それは自分のアイデアを実行できるかどうかです。 MS-DOS 用の Turbo Pascal 3 は 1986 年 9 月にリリースされました。Turbo Pascal 3 全体。
+      <title>Show HN: The Last Complication、ザクトロニクス スタイルの時計製造パズル ゲーム</title>
+      <link>https://lastcomplication.com/</link>
+      <description>📝 投げると、ちょうどその数の家と同じ数のカウンターが 1 つ移動します。すべてのカウンターは 26 ハウスで止まります。 27 番目は水です。そこに着地したカウンターは 15 番目に戻ります。
 
 
-🔤 Original: Things That Turbo Pascal Is Smaller Than (2011)
+🔤 Original: Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game
 
-🔗 Read more: https://prog21.dadgum.com/116.html</description>
-      <guid isPermaLink="true">https://prog21.dadgum.com/116.html</guid>
-      <pubDate>Sun, 15 Nov 2026 13:44:16 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50506894</comments>
+🔗 Read more: https://lastcomplication.com/</description>
+      <guid isPermaLink="true">https://lastcomplication.com/</guid>
+      <pubDate>Sun, 15 Nov 2026 22:48:52 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50511718</comments>
     </item>
     <item>
-      <title>最新の LLM における位置埋め込みを理解する</title>
-      <link>https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</link>
-      <description>📝 位置情報が LLM に入る場所全体的なアーキテクチャから始めましょう。位置情報は後から付加されます。 1 なぜ位置情報を追加するのか。
-
-
-🔤 Original: Understanding Positional Embeddings in Modern LLMs
-
-🔗 Read more: https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</description>
-      <guid isPermaLink="true">https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</guid>
-      <pubDate>Sun, 15 Nov 2026 12:14:06 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50506376</comments>
+      <title>エルニーニョの仕組みに関する簡単な説明 [ビデオ]</title>
+      <link>https://www.youtube.com/watch?v=7_JF3etiAv8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=7_JF3etiAv8</guid>
+      <pubDate>Sun, 15 Nov 2026 18:23:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50509308</comments>
     </item>
     <item>
-      <title>「鳥脳」は誤称です。カラスは私たちよりも早く決断を下します</title>
-      <link>https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</link>
-      <description>📝 今回、鳥類が驚くほど迅速な決断を下し、人間や人間以外の霊長類の鳥類を簡単に打ち破ることができることも明らかになった。彼らの精巧なメロディーは、彼らの認知能力を反映していない特殊な適応であると考えられていました。アクセスを確認するまでしばらくお待ちください。
+      <title>シード生成された地形を使用した WebGL Flight Simulator</title>
+      <link>https://baron.by.dai.studio/</link>
+      <description>📝 離陸から接地までは白い矢印に従ってください。 ← → カテゴリ · ↑ ↓ 選択 · ドラッグして周囲を見回します · Esc 戻る タブとカードをタップします · 平面をドラッグして周囲を見回します ブラウザまたはグラフィックス ドライバは WebGL 2 をサポートしていません。ブラウザはグラフィックス コンテキストをリセットしました。
 
 
-🔤 Original: 'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can
+🔤 Original: WebGL Flight Simulator with seed generated terrain
 
-🔗 Read more: https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</description>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</guid>
-      <pubDate>Sun, 15 Nov 2026 17:53:31 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50509023</comments>
+🔗 Read more: https://baron.by.dai.studio/</description>
+      <guid isPermaLink="true">https://baron.by.dai.studio/</guid>
+      <pubDate>Sun, 15 Nov 2026 20:20:05 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50510296</comments>
     </item>
     <item>
-      <title>Odinで書かれたNESエミュレータ</title>
-      <link>https://lucypero.com/lucynes.html</link>
-      <description>📝 追加のオーディオ機能が付属しているものもありますが、私はそれを実装していません。オーディン このプロジェクトを作成している間に、オーディンについて多くのことを学びました。私を驚かせたのは、Odin には自動整数昇格がないことです。
+      <title>Mini.nvim が Tangled に登場</title>
+      <link>https://tangled.org/nvim-mini.org/mini.nvim</link>
+      <description>📝 nvim mini-nvim nvim nvim-plugin lua +4 more mini-nvim nvim nvim-plugin lua スター スター付きスター 27 問題が発生しました。 nvim (メイン) https://tangled. nvim (ミラー) https://codeberg.
 
 
-🔤 Original: A NES emulator written in Odin
+🔤 Original: Mini.nvim Is Now on Tangled
 
-🔗 Read more: https://lucypero.com/lucynes.html</description>
-      <guid isPermaLink="true">https://lucypero.com/lucynes.html</guid>
-      <pubDate>Sun, 15 Nov 2026 12:51:47 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50506588</comments>
+🔗 Read more: https://tangled.org/nvim-mini.org/mini.nvim</description>
+      <guid isPermaLink="true">https://tangled.org/nvim-mini.org/mini.nvim</guid>
+      <pubDate>Sun, 15 Nov 2026 23:55:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50512231</comments>
     </item>
     <item>
-      <title>ハイパーテキスト転送プロトコルのステータス コード 483 (私は冷凍庫ではありません)</title>
-      <link>https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/</link>
-      <description>📝 ハイパーテキスト転送プロトコルのステータス コード 483 (私はフリーザーではありません)draft-banffy-httpbis-not-a-freezer-00 ステータス電子メールの拡張履歴バージョン: この文書はインターネット ドラフト (I-D) です。ステータス コード 418 との関係。この文書では、ステータス コード 483 (I'm Not a Freezer) を定義することで、その曖昧さに対処しています。
+      <title>手書き、フォントとして</title>
+      <link>https://ductus.sorenblank.com</link>
+      <description>📝 Ductus · あなたの手書き文字をフォントとしてあなたのフォントでnan oaonan oaoafter上についてafter上について小さなaを書いてくださいa小文字1 of 26bbccddeeffgghhii文字を見つけるドロップしてフォントを開きますDuctusのみで作成されたフォント。このコンピュータデバイス上でチェックされ、アップロードされることはありません。小さな a、26 の 1 を小文字で書きます。
 
 
-🔤 Original: The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)
+🔤 Original: Handwriting, as a Font
 
-🔗 Read more: https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/</description>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/</guid>
-      <pubDate>Sun, 15 Nov 2026 14:31:52 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50507206</comments>
+🔗 Read more: https://ductus.sorenblank.com</description>
+      <guid isPermaLink="true">https://ductus.sorenblank.com</guid>
+      <pubDate>Sun, 15 Nov 2026 19:42:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50509972</comments>
     </item>
     <item>
-      <title>ラトニック氏、家業と重なるチップ規定の緩和を推進</title>
-      <link>https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html</link>
-      <description>📝 チップを中国企業に直接供給する。政府は国際データセンターへのチップ販売に対する監督を強化する。アクセスを確認するまでしばらくお待ちください。
+      <title>Microsoft 365の停止で宿泊客15人が塩素ガス中毒に</title>
+      <link>https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html</link>
+      <description>📝 15 Gäste wurden verletzt.ファンタジアランドの戦いとの戦い。クロルガスとファンタジアランド WDR の間のフェルレツンゲン。
 
 
-🔤 Original: Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business
+🔤 Original: Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests
 
-🔗 Read more: https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html</description>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html</guid>
-      <pubDate>Sun, 15 Nov 2026 11:40:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50506180</comments>
+🔗 Read more: https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html</description>
+      <guid isPermaLink="true">https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html</guid>
+      <pubDate>Sun, 15 Nov 2026 18:36:10 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50509411</comments>
     </item>
     <item>
-      <title>電話が世界を変えた</title>
-      <link>https://lithub.com/how-the-telephone-changed-the-world/</link>
-      <description>📝 「ありがとう、ジミー。」とビルが言うと、「その通りです。電話を発明したのは彼です。」とビルは答えた。
+      <title>Eclipse Mosquitto – オープンソースの MQTT ブローカー</title>
+      <link>https://github.com/eclipse-mosquitto/mosquitto</link>
+      <description>📝 org/api/ ソースからのビルド ソースからビルドする場合、エンド ユーザーに推奨されるルートは、https://mosquitto からアーカイブをダウンロードすることです。ビルドの依存関係 cJSON - 必須 c-ares (Debian ベースのシステムでは libc-ares-dev) - オプション、WITH_SRV=yes で有効にする libedit - mosquitto_ctrl 対話型シェルの場合 - オプション、WITH_EDITLINE=no で無効にする libmicrohttpd - ブローカー http API サポートの場合 - オプション、WITH_HTTP_API=no で無効にする openssl (Debian ベースのシステムの libssl-dev) -オプションで、WITH_TLS=no pthreads で無効にします - クライアント ライブラリのスレッド サポートの場合。 mosquitto の構築 - vcpkg の使用 vcpkg 依存関係マネージャー (git clone https://github) を使用して、mosquitto をダウンロードしてインストールできます。
 
 
-🔤 Original: The Telephone Changed the World
+🔤 Original: Eclipse Mosquitto – An open source MQTT broker
 
-🔗 Read more: https://lithub.com/how-the-telephone-changed-the-world/</description>
-      <guid isPermaLink="true">https://lithub.com/how-the-telephone-changed-the-world/</guid>
-      <pubDate>Sat, 14 Nov 2026 22:56:09 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50501887</comments>
+🔗 Read more: https://github.com/eclipse-mosquitto/mosquitto</description>
+      <guid isPermaLink="true">https://github.com/eclipse-mosquitto/mosquitto</guid>
+      <pubDate>Sun, 15 Nov 2026 18:36:40 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50509416</comments>
     </item>
     <item>
-      <title>HN を表示: db-branch – ZFS 経由で AI エージェントと CI のデータベース ブランチを数秒で実行します</title>
-      <link>https://github.com/db-branch/db-branch</link>
-      <description>📝 db-branch は、何もコピーせずに、大規模なデータベースのコピーオンライト ブランチを数秒で作成します。ブランチ リセットはブランチを作成状態に戻します。 --ttl を指定すると自動的に削除されます。最初のブランチ db-branch ランタイムは postgres@18 をインストールします。
+      <title>HN に質問: Stripe は 1,500 ドルの請求書を 1 枚受け取っただけで営業を終了しましたが、証拠の提出は求められませんでした</title>
+      <link>https://news.ycombinator.com/item?id=50510042</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=50510042</guid>
+      <pubDate>Sun, 15 Nov 2026 19:49:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50510042</comments>
+    </item>
+    <item>
+      <title>バルカンロケット、帰還打ち上げ中に失敗、アマゾンの衛星40機を失う</title>
+      <link>https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch</link>
+      <description>📝 バルカン・ケンタウロスは今日午後12時40分、フロリダ州のケープカナベラル宇宙軍基地から打ち上げられた。 「 United Launch Alliance のバルカン ケンタウルスは、11 月にフロリダから 40 機のアマゾン インターネット衛星を打ち上げます。今日の打ち上げは、バルカン ケンタウロスにとってそのようなミッションの最初のものであり、ULA がこの打ち上げに命名した「バルカン レオ 1」の由来となっています。
 
 
-🔤 Original: Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS
+🔤 Original: Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost
 
-🔗 Read more: https://github.com/db-branch/db-branch</description>
-      <guid isPermaLink="true">https://github.com/db-branch/db-branch</guid>
-      <pubDate>Sun, 15 Nov 2026 13:50:51 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50506940</comments>
+🔗 Read more: https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch</description>
+      <guid isPermaLink="true">https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch</guid>
+      <pubDate>Sun, 15 Nov 2026 20:37:28 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50510442</comments>
+    </item>
+    <item>
+      <title>Clice v1.0 リリース: 最新 C++ へようこそ</title>
+      <link>https://ykiko.me/en/articles/2105384023094834022/</link>
+      <description>📝 目次 cliceとは？ # つまり、clice は最新の C++ で書かれた C/C++ 言語サーバーですが、単なる言語サーバーではありません。モジュールと共有キャッシュ: clice は C++20 名前付きモジュールを完全にサポートしています。
+
+
+🔤 Original: Clice v1.0 Released: Welcome to Modern C++
+
+🔗 Read more: https://ykiko.me/en/articles/2105384023094834022/</description>
+      <guid isPermaLink="true">https://ykiko.me/en/articles/2105384023094834022/</guid>
+      <pubDate>Sun, 15 Nov 2026 17:22:32 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50508715</comments>
+    </item>
+    <item>
+      <title>ボーイング・ロッキードロケットが飛行中に失敗、アマゾン衛星のペイロードを破壊</title>
+      <link>https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15/</link>
+      <guid isPermaLink="true">https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15/</guid>
+      <pubDate>Sun, 15 Nov 2026 21:38:11 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50511072</comments>
+    </item>
+    <item>
+      <title>ジェンスン・フアンがCEOとしてNVIDIAに戻る可能性</title>
+      <link>https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/</link>
+      <guid isPermaLink="true">https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/</guid>
+      <pubDate>Sun, 15 Nov 2026 23:24:53 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50511982</comments>
     </item>
   </channel>
 </rss>
