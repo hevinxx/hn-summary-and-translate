@@ -6,74 +6,168 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Chinese (Simplified)</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Nov 2026 02:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 10:58:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-zh.xml"/>
     <item>
-      <title>三名患者注射病毒阻止了胰腺癌</title>
-      <link>https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</guid>
-      <pubDate>Thu, 19 Nov 2026 17:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50563066</comments>
+      <title>Frostbite：由 AI 发现、设计和验证的新 CPU 架构</title>
+      <link>https://architectlabs.com/blog/frostbite</link>
+      <description>📝 Frostbite 利用交互网络的特性，即每个步骤都是本地的、每个依赖关系都是显式的、每个值都有一个所有者，以实现长期停滞不前的 CPU 性能的阶跃函数增益。这迫使 CPU 维持每个核心都看到相同内存的错觉，而保持这种错觉的一致性和高性能需要深层缓存层次结构和一致性协议，这些协议会占用空间和功耗，并且扩展性较差。 Interaction nets1 采用不同的方法。
+
+
+🔤 Original: Frostbite: A new CPU architecture discovered, designed and verified by AI
+
+🔗 Read more: https://architectlabs.com/blog/frostbite</description>
+      <guid isPermaLink="true">https://architectlabs.com/blog/frostbite</guid>
+      <pubDate>Fri, 20 Nov 2026 10:01:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572503</comments>
     </item>
     <item>
-      <title>Gemini 4 Neon 成为模型工程指数新的第一名</title>
-      <link>https://git-aarvin.github.io/mei/</link>
-      <description>📝 性能、成本或代币。 1 TerraWonder FullWonderV4。 6-Pro6露娜30405060702×0。
+      <title>OpenSSL：EVP_EncodeBlock() 中的缓冲区溢出（CVE-2026-121481、CVSS 9.8）</title>
+      <link>https://github.com/openssl/openssl/pull/33652</link>
+      <description>📝 请重新加载此页面。 nmouha 将 cve-2026-121481 分支从 b632810 强制推送到 efc46cb 比较 2026 年 11 月 11 日 13:28 nhorman 将其从 To triage 移至 NSF Issues 中的审查 2026 年 11 月 11 日 nhorman 将其添加到开发板 2026 年 11 月 11 日 nhorman 将其移至开发委员会的等待审查 11 月2026 年 11 月 11 日 nhorman 之前批准了这些更改 2026 年 11 月 11 日 查看已审核的更改 jogme 请求的更改 2026 年 11 月 12 日 查看已审核的更改 jogme 留下了评论 复制链接 复制 Markdown 贡献者 隐藏此评论时出现问题。选择隐藏此评论的原因 将显示原因以向其他人描述此评论。
 
 
-🔤 Original: Gemini 4 Neon is the new #1 on the Models Engineering Index
+🔤 Original: OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)
 
-🔗 Read more: https://git-aarvin.github.io/mei/</description>
-      <guid isPermaLink="true">https://git-aarvin.github.io/mei/</guid>
-      <pubDate>Thu, 19 Nov 2026 23:35:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50568130</comments>
+🔗 Read more: https://github.com/openssl/openssl/pull/33652</description>
+      <guid isPermaLink="true">https://github.com/openssl/openssl/pull/33652</guid>
+      <pubDate>Fri, 20 Nov 2026 02:01:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569226</comments>
     </item>
     <item>
-      <title>Synology 安全警告</title>
-      <link>https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</link>
-      <description>📝 5 关键正在进行 DSM 7. 2 关键正在进行（升级到 7. 1 关键正在进行（升级到 7.
+      <title>FFmpeg 9.1“高斯”</title>
+      <link>https://ffmpeg.org/download.html#release_9.1</link>
+      <description>📝 git 浏览主 FFmpeg Git 存储库 https://git。 org/ffmpeg-web 主要 ffmpeg。 100 下载 xz tarball PGP 签名 PQ 签名 下载 bzip2 tarball PGP 签名 PQ 签名 下载 gzip tarball PGP 签名 PQ 签名 变更日志 发行说明 FFmpeg 9.
 
 
-🔤 Original: Synology Security Advisory
+🔤 Original: FFmpeg 9.1 'Gauss'
 
-🔗 Read more: https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</description>
-      <guid isPermaLink="true">https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</guid>
-      <pubDate>Thu, 19 Nov 2026 22:13:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50567209</comments>
+🔗 Read more: https://ffmpeg.org/download.html#release_9.1</description>
+      <guid isPermaLink="true">https://ffmpeg.org/download.html#release_9.1</guid>
+      <pubDate>Fri, 20 Nov 2026 04:02:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569998</comments>
     </item>
     <item>
-      <title>RegExr：暂时离线</title>
-      <link>https://regexr.com/</link>
-      <description>📝 RegExr 的代码库正在老化，随着人工智能黑客攻击，我们决定保护您的数据的最佳方法是关闭该网站，直到我们有机会对其进行现代化和保护。对于此次停电，我们深表歉意。希望我们很快就能回来。
-
-
-🔤 Original: RegExr: Temporarily Offline
-
-🔗 Read more: https://regexr.com/</description>
-      <guid isPermaLink="true">https://regexr.com/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:27:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50567374</comments>
+      <title>Postgres 19 Repack：更快的内置表膨胀清理</title>
+      <link>https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</link>
+      <guid isPermaLink="true">https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</guid>
+      <pubDate>Fri, 20 Nov 2026 02:43:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569516</comments>
     </item>
     <item>
-      <title>Visa、万事达卡和摩根大通客户数据被黑客泄露</title>
-      <link>https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87</link>
-      <guid isPermaLink="true">https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87</guid>
-      <pubDate>Thu, 19 Nov 2026 23:32:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50568082</comments>
+      <title>“我可以告诉你这是你自己写的”</title>
+      <link>https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</link>
+      <description>📝 不使用它你就会处于不利地位。尽可能多地考虑事情。之后就热衷于谈论这件事。
+
+
+🔤 Original: "I can tell you wrote this yourself"
+
+🔗 Read more: https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</description>
+      <guid isPermaLink="true">https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</guid>
+      <pubDate>Fri, 20 Nov 2026 07:13:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50571189</comments>
     </item>
     <item>
-      <title>重建我的本地语音助手管道</title>
-      <link>https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</link>
-      <description>📝 microwakeword（本地）语音转文本助手。 openai（云）- 助手。 microwakeword（本地）语音转文本助手。
+      <title>如果你不能用简单的语言解释某件事，那么你就没有理解它（2017）</title>
+      <link>https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</link>
+      <description>📝 这意味着我们并没有真正理解它。重要的是，当他不理解某些东西时，或者当科学家作为一个群体不理解某些东西时，他也不羞于承认。苹果书籍 大卫·古德斯坦·费曼的失落讲座 约翰·格鲁伯物理学 理查德·费曼科学 费曼物理学讲座 最喜欢 · 0 分享 打开帖子 复制链接 翻译 Bluesky Mastodon Reddit 线程 电子邮件 文本/短信 WhatsApp。
 
 
-🔤 Original: Rebuilding my local voice assistant pipeline
+🔤 Original: If you can't explain something in simple terms, you don't understand it (2017)
 
-🔗 Read more: https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</description>
-      <guid isPermaLink="true">https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</guid>
-      <pubDate>Thu, 19 Nov 2026 20:57:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50566261</comments>
+🔗 Read more: https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</description>
+      <guid isPermaLink="true">https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</guid>
+      <pubDate>Fri, 20 Nov 2026 09:43:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572355</comments>
+    </item>
+    <item>
+      <title>柔术入门</title>
+      <link>https://ethanlowman.com/posts/jj-primer/</link>
+      <description>📝 com&gt; (2026-11-15 12:10:46) 提交者：Ethan Lowman &lt;ethan@example.com com&gt; (2026-11-15 12:10:46) 调整配置差异 --git a/config.com工作副本（@）：kpqxywon 849165bc（空）（无描述集）父提交（@-）：royxmykx 2bea5e3d main |调整配置 jj diff 的工作方式与 git diff 非常相似。
+
+
+🔤 Original: Jujutsu Primer
+
+🔗 Read more: https://ethanlowman.com/posts/jj-primer/</description>
+      <guid isPermaLink="true">https://ethanlowman.com/posts/jj-primer/</guid>
+      <pubDate>Fri, 20 Nov 2026 05:46:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50570628</comments>
+    </item>
+    <item>
+      <title>PostgreSQL 19</title>
+      <link>https://www.postgresql.org/docs/release/19.0/</link>
+      <description>📝 pg_upgrade 将禁止使用 btree_gist inet/cidr 索引升级集群。禁止在 COPY FROM 中使用系统列。通过此更改，启用并行工作线程和基于成本的延迟的 VACUUM 运行速度可能会比以前的版本慢。
+
+🔗 Read more: https://www.postgresql.org/docs/release/19.0/</description>
+      <guid isPermaLink="true">https://www.postgresql.org/docs/release/19.0/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:45:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569890</comments>
+    </item>
+    <item>
+      <title>Vint Cerf 解释为什么 TCP/IP 从未获得专利</title>
+      <link>https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</link>
+      <description>📝 第一位嘉宾是Vint Cerf。毕竟他是文特·瑟夫。所以他们问 Vint 是否可以使用他的。
+
+
+🔤 Original: Vint Cerf on why TCP/IP was never patented
+
+🔗 Read more: https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</description>
+      <guid isPermaLink="true">https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</guid>
+      <pubDate>Fri, 20 Nov 2026 01:06:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50568861</comments>
+    </item>
+    <item>
+      <title>AGI之后会发生什么？</title>
+      <link>https://institute.deepmind.com/essays/what-comes-after-agi/</link>
+      <description>📝 人类水平的通用人工智能只是这一范围内的一个点。过去十年每年 5 倍。想象一下这种趋势持续存在。
+
+
+🔤 Original: What Comes After AGI?
+
+🔗 Read more: https://institute.deepmind.com/essays/what-comes-after-agi/</description>
+      <guid isPermaLink="true">https://institute.deepmind.com/essays/what-comes-after-agi/</guid>
+      <pubDate>Fri, 20 Nov 2026 02:44:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569519</comments>
+    </item>
+    <item>
+      <title>嘉年华游轮排放的硫氧化物比所有欧洲汽车多十倍</title>
+      <link>https://ecohustler.com/article/one-corporation-to-pollute-them-all/</link>
+      <description>📝 T&amp;E 航运政策经理 Faig Abbasov 表示：“豪华游轮是漂浮的城市，由一些可能最脏的燃料提供动力。Faig Abbasov 总结道：“有足够成熟的技术来清理游轮。标记为：航运业污染公司的激进主义。
+
+
+🔤 Original: Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars
+
+🔗 Read more: https://ecohustler.com/article/one-corporation-to-pollute-them-all/</description>
+      <guid isPermaLink="true">https://ecohustler.com/article/one-corporation-to-pollute-them-all/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:13:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572116</comments>
+    </item>
+    <item>
+      <title>英国冰箱在全国秘密行动中免受黑客攻击</title>
+      <link>https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</link>
+      <description>📝 “从商业角度来看，这可能会因业务中断和供应链问题而造成潜在的破坏性。我们的仓库里有价值数百万英镑的食物，如果任何黑客发现这种攻击方法，这些食物可能会被损坏，”他们补充道。今年到目前为止，制冷温度控制器已发生三波黑客攻击：8月，少数美国军事基地的冰箱受到影响。10月11日至12日，丹佛斯温度控制系统遭到攻击，法国数百家超市和食品加工场所受到攻击。11月1日至2日，七个欧洲国家的数十家超市受到攻击，其中比利时和卢森堡受影响最严重。
+
+
+🔤 Original: UK fridges secured from hackers in secret nationwide operation
+
+🔗 Read more: https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</guid>
+      <pubDate>Fri, 20 Nov 2026 09:52:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572430</comments>
+    </item>
+    <item>
+      <title>ChatGPT SNES 版</title>
+      <link>https://www.bxfoundry.com/chatgpt_snes/</link>
+      <description>📝 ChatGPT for SNES ChatGPT for SNES Pure：每个单词都来自模型。在键盘上输入。一个大约 2 的小型语言模型。
+
+
+🔤 Original: ChatGPT for SNES
+
+🔗 Read more: https://www.bxfoundry.com/chatgpt_snes/</description>
+      <guid isPermaLink="true">https://www.bxfoundry.com/chatgpt_snes/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:25:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50568548</comments>
     </item>
   </channel>
 </rss>

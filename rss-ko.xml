@@ -6,74 +6,171 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Korean</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Nov 2026 02:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 10:58:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml"/>
     <item>
-      <title>환자 3명 바이러스 주사로 췌장암 발병 중단</title>
-      <link>https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</guid>
-      <pubDate>Thu, 19 Nov 2026 17:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50563066</comments>
+      <title>Frostbite: AI가 발견, 설계, 검증한 새로운 CPU 아키텍처</title>
+      <link>https://architectlabs.com/blog/frostbite</link>
+      <description>📝 Frostbite는 상호 작용 네트워크의 속성, 즉 모든 단계가 로컬이고, 모든 종속성이 명시적이며, 모든 값에 정확히 한 명의 소유자가 있다는 속성을 활용하여 오랫동안 정체되어 있던 CPU 성능의 단계적 이득을 달성합니다. 이로 인해 CPU는 모든 코어가 동일한 메모리를 본다는 환상을 유지하게 되며, 이러한 환상을 일관되고 성능 좋게 유지하려면 면적과 전력 비용이 많이 들고 확장성이 떨어지는 깊은 캐시 계층 구조와 일관성 프로토콜이 필요합니다. 상호작용망1은 다른 접근 방식을 취합니다.
+
+
+🔤 Original: Frostbite: A new CPU architecture discovered, designed and verified by AI
+
+🔗 Read more: https://architectlabs.com/blog/frostbite</description>
+      <guid isPermaLink="true">https://architectlabs.com/blog/frostbite</guid>
+      <pubDate>Fri, 20 Nov 2026 10:01:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572503</comments>
     </item>
     <item>
-      <title>Gemini 4 Neon은 모델 엔지니어링 지수의 새로운 1위입니다.</title>
-      <link>https://git-aarvin.github.io/mei/</link>
-      <description>📝 성능, 비용 또는 토큰. 1 TerraWonder FullWonderV4. 6-Pro6 루나 30405060702×0.
+      <title>OpenSSL: EVP_EncodeBlock()의 버퍼 오버플로(CVE-2026-121481, CVSS 9.8)</title>
+      <link>https://github.com/openssl/openssl/pull/33652</link>
+      <description>📝 이 페이지를 새로고침하세요. nmouha가 cve-2026-121481 분기를 b632810에서 efc46cb로 강제 푸시했습니다. 비교 2026년 11월 11일 13:28 nhorman이 이것을 To triage에서 In Review로 NSF 문제에서 검토 중으로 옮겼습니다. 2026년 11월 11일 nhorman이 이것을 개발 보드에 추가했습니다. 2026년 11월 11일 nhorman이 이것을 개발 보드의 대기 검토로 옮겼습니다. 2026 nhorman이 이전에 이러한 변경 사항을 승인했습니다. 2026년 11월 11일 검토된 변경 사항 보기 jogme가 변경을 요청했습니다. 2026년 11월 12일 검토된 변경 사항 보기 jogme가 댓글을 남겼습니다. 링크 복사 Markdown 기여자 복사 이 댓글을 숨기는 데 문제가 발생했습니다. 이 댓글을 숨기는 이유를 선택하세요. 이 댓글을 다른 사람에게 설명하기 위해 이유가 표시됩니다.
 
 
-🔤 Original: Gemini 4 Neon is the new #1 on the Models Engineering Index
+🔤 Original: OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)
 
-🔗 Read more: https://git-aarvin.github.io/mei/</description>
-      <guid isPermaLink="true">https://git-aarvin.github.io/mei/</guid>
-      <pubDate>Thu, 19 Nov 2026 23:35:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50568130</comments>
+🔗 Read more: https://github.com/openssl/openssl/pull/33652</description>
+      <guid isPermaLink="true">https://github.com/openssl/openssl/pull/33652</guid>
+      <pubDate>Fri, 20 Nov 2026 02:01:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569226</comments>
     </item>
     <item>
-      <title>Synology 보안 권고</title>
-      <link>https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</link>
-      <description>📝 5 Critical OnGoing DSM 7. 2 Critical OnGoing(7.1 Critical OnGoing으로 업그레이드)
+      <title>FFmpeg 9.1 '가우스'</title>
+      <link>https://ffmpeg.org/download.html#release_9.1</link>
+      <description>📝 git 메인 FFmpeg Git 저장소 https://git 찾아보기. org/ffmpeg-web 메인 ffmpeg. 100 xz tarball PGP 서명 PQ 서명 다운로드 bzip2 tarball PGP 서명 PQ 서명 다운로드 gzip tarball PGP 서명 PQ 서명 다운로드 변경 로그 릴리스 노트 FFmpeg 9.
 
 
-🔤 Original: Synology Security Advisory
+🔤 Original: FFmpeg 9.1 'Gauss'
 
-🔗 Read more: https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</description>
-      <guid isPermaLink="true">https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</guid>
-      <pubDate>Thu, 19 Nov 2026 22:13:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50567209</comments>
+🔗 Read more: https://ffmpeg.org/download.html#release_9.1</description>
+      <guid isPermaLink="true">https://ffmpeg.org/download.html#release_9.1</guid>
+      <pubDate>Fri, 20 Nov 2026 04:02:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569998</comments>
     </item>
     <item>
-      <title>RegExr: 일시적으로 오프라인</title>
-      <link>https://regexr.com/</link>
-      <description>📝 RegExr의 코드베이스는 노후화되었으며 AI 해킹으로 인해 데이터를 안전하게 보관하는 가장 좋은 방법은 사이트를 현대화하고 보호할 수 있을 때까지 사이트를 폐쇄하는 것이라고 결정했습니다. 서비스 중단에 대해 진심으로 사과드립니다. 곧 돌아올 수 있기를 바랍니다.
-
-
-🔤 Original: RegExr: Temporarily Offline
-
-🔗 Read more: https://regexr.com/</description>
-      <guid isPermaLink="true">https://regexr.com/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:27:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50567374</comments>
+      <title>Postgres 19 재포장: 더 빠르고 내장된 테이블 팽창 정리</title>
+      <link>https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</link>
+      <guid isPermaLink="true">https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</guid>
+      <pubDate>Fri, 20 Nov 2026 02:43:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569516</comments>
     </item>
     <item>
-      <title>Visa, Mastercard 및 JPMorgan 고객 데이터가 해커에 의해 유출되었습니다.</title>
-      <link>https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87</link>
-      <guid isPermaLink="true">https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87</guid>
-      <pubDate>Thu, 19 Nov 2026 23:32:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50568082</comments>
+      <title>"이 글은 당신이 직접 썼다는 걸 알 수 있어요"</title>
+      <link>https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</link>
+      <description>📝 사용하지 않음으로써 불이익을 받는다는 것입니다. 가능한 한 많이 생각하십시오. 그 후에 그것에 대해 이야기하고 싶습니다.
+
+
+🔤 Original: "I can tell you wrote this yourself"
+
+🔗 Read more: https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</description>
+      <guid isPermaLink="true">https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</guid>
+      <pubDate>Fri, 20 Nov 2026 07:13:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50571189</comments>
     </item>
     <item>
-      <title>내 로컬 음성 지원 파이프라인 재구축</title>
-      <link>https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</link>
-      <description>📝 마이크로웨이크워드(로컬)음성-텍스트-어시스턴트. openai (클라우드)- 조수. 마이크로웨이크워드(로컬)음성-텍스트-어시스턴트.
+      <title>간단한 말로 설명할 수 없으면 이해하지 못한 것이다(2017)</title>
+      <link>https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</link>
+      <description>📝 그것은 우리가 그것을 정말로 이해하지 못한다는 것을 의미합니다. 비판적으로, 그는 또한 자신이 무언가를 이해하지 못할 때, 또는 과학자 그룹이 무언가를 이해하지 못할 때 인정하는 데 주저하지 않습니다. Apple 도서 David Goodstein Feynman의 잃어버린 강의 John Gruber 물리학 Richard Feynman 과학 Feynman 물리학 강의 인기 · 0 공유 게시물 열기 복사 링크 번역 Bluesky Mastodon Reddit 스레드 이메일 텍스트/SMS WhatsApp.
 
 
-🔤 Original: Rebuilding my local voice assistant pipeline
+🔤 Original: If you can't explain something in simple terms, you don't understand it (2017)
 
-🔗 Read more: https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</description>
-      <guid isPermaLink="true">https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</guid>
-      <pubDate>Thu, 19 Nov 2026 20:57:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50566261</comments>
+🔗 Read more: https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</description>
+      <guid isPermaLink="true">https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</guid>
+      <pubDate>Fri, 20 Nov 2026 09:43:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572355</comments>
+    </item>
+    <item>
+      <title>유술 입문서</title>
+      <link>https://ethanlowman.com/posts/jj-primer/</link>
+      <description>📝 com&gt; (2026-11-15 12:10:46) 커미터: Ethan Lowman &lt;ethan@example.com&gt; com&gt; (2026-11-15 12:10:46) config diff 조정 --git a/config. 작업 사본(@) : kpqxywon 849165bc(비어 있음)(설명 세트 없음) 상위 커밋(@-): royxmykx 2bea5e3d main | 조정 구성 jj diff는 git diff와 매우 유사하게 작동합니다.
+
+
+🔤 Original: Jujutsu Primer
+
+🔗 Read more: https://ethanlowman.com/posts/jj-primer/</description>
+      <guid isPermaLink="true">https://ethanlowman.com/posts/jj-primer/</guid>
+      <pubDate>Fri, 20 Nov 2026 05:46:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50570628</comments>
+    </item>
+    <item>
+      <title>포스트그레SQL 19</title>
+      <link>https://www.postgresql.org/docs/release/19.0/</link>
+      <description>📝 pg_upgrade는 btree_gist inet/cidr 인덱스가 있는 클러스터의 업그레이드를 허용하지 않습니다. COPY FROM에서 시스템 열이 사용되는 것을 허용하지 않습니다. 이러한 변경으로 인해 병렬 작업자 및 비용 기반 지연이 활성화된 VACUUM은 이전 릴리스보다 느리게 실행될 수 있습니다.
+
+
+🔤 Original: PostgreSQL 19
+
+🔗 Read more: https://www.postgresql.org/docs/release/19.0/</description>
+      <guid isPermaLink="true">https://www.postgresql.org/docs/release/19.0/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:45:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569890</comments>
+    </item>
+    <item>
+      <title>TCP/IP가 특허를 받지 못한 이유에 대한 Vint Cerf</title>
+      <link>https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</link>
+      <description>📝 첫 번째 손님은 Vint Cerf입니다. 그는 결국 Vint Cerf입니다. 그래서 그들은 Vint에게 그의 것을 사용해도 되는지 물었습니다.
+
+
+🔤 Original: Vint Cerf on why TCP/IP was never patented
+
+🔗 Read more: https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</description>
+      <guid isPermaLink="true">https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</guid>
+      <pubDate>Fri, 20 Nov 2026 01:06:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50568861</comments>
+    </item>
+    <item>
+      <title>AGI 다음에는 무엇이 올까요?</title>
+      <link>https://institute.deepmind.com/essays/what-comes-after-agi/</link>
+      <description>📝 인간 수준의 AGI는 해당 스펙트럼의 한 지점일 뿐입니다. 지난 10년간 매년 5회. 이러한 추세가 유지된다고 상상해 보십시오.
+
+
+🔤 Original: What Comes After AGI?
+
+🔗 Read more: https://institute.deepmind.com/essays/what-comes-after-agi/</description>
+      <guid isPermaLink="true">https://institute.deepmind.com/essays/what-comes-after-agi/</guid>
+      <pubDate>Fri, 20 Nov 2026 02:44:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569519</comments>
+    </item>
+    <item>
+      <title>카니발 크루즈는 유럽 전체 자동차보다 10배 더 많은 황산화물을 배출합니다.</title>
+      <link>https://ecohustler.com/article/one-corporation-to-pollute-them-all/</link>
+      <description>📝 T&amp;E의 운송 정책 관리자인 Faig Abbasov는 "고급 크루즈선은 가능한 가장 더러운 연료로 구동되는 떠다니는 도시입니다. Faig Abbasov는 "크루즈선을 청소할 수 있는 성숙한 기술이 충분히 있습니다. ” 태그됨: 선박 크루즈 산업 오염 기업 활동.
+
+
+🔤 Original: Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars
+
+🔗 Read more: https://ecohustler.com/article/one-corporation-to-pollute-them-all/</description>
+      <guid isPermaLink="true">https://ecohustler.com/article/one-corporation-to-pollute-them-all/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:13:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572116</comments>
+    </item>
+    <item>
+      <title>영국 냉장고, 전국 비밀 작전으로 해커들로부터 확보</title>
+      <link>https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</link>
+      <description>📝 "비즈니스 관점에서 볼 때 이는 비즈니스 중단 및 공급망 문제로 인해 잠재적으로 파괴적일 수 있습니다. 해커가 이러한 공격 방법을 발견할 경우 우리 창고에는 수백만 파운드 상당의 식품이 손상될 수 있습니다."라고 덧붙였습니다. 올해 들어 지금까지 냉장 온도 조절기에 대한 해킹이 세 번 있었습니다. 8월에는 소수의 미군 기지에 있는 냉장고가 영향을 받았습니다. 10월 11일과 12일에는 Danfoss 온도 조절 시스템이 표적이 되었을 때 프랑스에 있는 수백 개의 슈퍼마켓과 식품 가공 현장이 공격을 받았습니다. 11월 1일과 2일에는 유럽 7개국의 수십 개의 슈퍼마켓이 공격을 받았고, 벨기에와 룩셈부르크가 가장 큰 피해를 입었습니다.
+
+
+🔤 Original: UK fridges secured from hackers in secret nationwide operation
+
+🔗 Read more: https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</guid>
+      <pubDate>Fri, 20 Nov 2026 09:52:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572430</comments>
+    </item>
+    <item>
+      <title>SNES용 ChatGPT</title>
+      <link>https://www.bxfoundry.com/chatgpt_snes/</link>
+      <description>📝 SNES용 ChatGPT SNES Pure용 ChatGPT: 모든 단어는 모델에서 나옵니다. 키보드로 입력하세요. 약 2개의 작은 언어 모델입니다.
+
+
+🔤 Original: ChatGPT for SNES
+
+🔗 Read more: https://www.bxfoundry.com/chatgpt_snes/</description>
+      <guid isPermaLink="true">https://www.bxfoundry.com/chatgpt_snes/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:25:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50568548</comments>
     </item>
   </channel>
 </rss>

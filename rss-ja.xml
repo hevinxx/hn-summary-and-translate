@@ -6,74 +6,168 @@
     <link>https://hevinxx.github.io/hn-summary-and-translate</link>
     <description>Hacker News articles summarized and translated to Japanese</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Nov 2026 02:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 10:58:26 +0000</lastBuildDate>
     <generator>HN RSS Translator</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://hevinxx.github.io/hn-summary-and-translate/rss-ja.xml"/>
     <item>
-      <title>3人の患者の膵臓がんがウイルス注射で進行を阻止</title>
-      <link>https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</guid>
-      <pubDate>Thu, 19 Nov 2026 17:25:33 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50563066</comments>
+      <title>Frostbite: AI によって発見、設計、検証された新しい CPU アーキテクチャ</title>
+      <link>https://architectlabs.com/blog/frostbite</link>
+      <description>📝 Frostbite は、インタラクション ネットの特性、つまり、すべてのステップがローカルであり、すべての依存関係が明示的で、すべての値の所有者が 1 人だけであるという特性を利用して、長らく停滞していた CPU パフォーマンスのステップ関数の向上を達成します。これにより、CPU はすべてのコアが同じメモリを認識しているという錯覚を維持することになり、その錯覚を一貫してパフォーマンスを維持するには、深いキャッシュ階層とコヒーレンス プロトコルが必要になり、面積と電力がかかり、拡張性も低くなります。インタラクション ネット 1 は異なるアプローチを採用しています。
+
+
+🔤 Original: Frostbite: A new CPU architecture discovered, designed and verified by AI
+
+🔗 Read more: https://architectlabs.com/blog/frostbite</description>
+      <guid isPermaLink="true">https://architectlabs.com/blog/frostbite</guid>
+      <pubDate>Fri, 20 Nov 2026 10:01:41 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572503</comments>
     </item>
     <item>
-      <title>Gemini 4 Neon はモデル エンジニアリング インデックスで新たに第 1 位になりました</title>
-      <link>https://git-aarvin.github.io/mei/</link>
-      <description>📝 パフォーマンス、コスト、トークン。 1 テラワンダーFullWonderV4。 6-Pro6 ルナ 30405060702×0。
+      <title>OpenSSL: EVP_EncodeBlock() でのバッファ オーバーフロー (CVE-2026-121481、CVSS 9.8)</title>
+      <link>https://github.com/openssl/openssl/pull/33652</link>
+      <description>📝 このページをリロードしてください。 nmouha は、cve-2026-121481 ブランチを b632810 から efc46cb に強制プッシュしました 比較 2026 年 11 月 11 日 13:28 nhorman が、これを NSF 問題の To triage から In Review に移動しました 2026 年 11 月 11 日 nhorman がこれを開発委員会に追加しました 2026 年 11 月 11 日 nhorman がこれを開発委員会の待機中のレビューに移動しました2026 年 11 月 11 日 nhorman は以前にこれらの変更を承認しました 2026 年 11 月 11 日 レビュー済みの変更を表示 jogme が変更を要求しました 2026 年 11 月 12 日 レビュー済みの変更を表示 jogme がコメントを残しました リンクをコピー Markdown 寄稿者 このコメントを非表示にする問題が発生しました。このコメントを非表示にする理由を選択してください このコメントを他の人に説明するために理由が表示されます。
 
 
-🔤 Original: Gemini 4 Neon is the new #1 on the Models Engineering Index
+🔤 Original: OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)
 
-🔗 Read more: https://git-aarvin.github.io/mei/</description>
-      <guid isPermaLink="true">https://git-aarvin.github.io/mei/</guid>
-      <pubDate>Thu, 19 Nov 2026 23:35:35 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50568130</comments>
+🔗 Read more: https://github.com/openssl/openssl/pull/33652</description>
+      <guid isPermaLink="true">https://github.com/openssl/openssl/pull/33652</guid>
+      <pubDate>Fri, 20 Nov 2026 02:01:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569226</comments>
     </item>
     <item>
-      <title>Synology セキュリティ アドバイザリー</title>
-      <link>https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</link>
-      <description>📝 5 Critical OnGoing DSM 7. 2 Critical OnGoing (7.1 にアップグレード中) Critical OnGoing (7 にアップグレード中)
+      <title>FFmpeg 9.1「ガウス」</title>
+      <link>https://ffmpeg.org/download.html#release_9.1</link>
+      <description>📝 git メイン FFmpeg Git リポジトリ https://git を参照します。 org/ffmpeg-web メインの ffmpeg。 100 ダウンロード xz tarball PGP 署名 PQ 署名 bzip2 tarball PGP 署名 PQ 署名 ダウンロード gzip tarball PGP 署名 PQ 署名 変更ログ リリース ノート FFmpeg 9。
 
 
-🔤 Original: Synology Security Advisory
+🔤 Original: FFmpeg 9.1 'Gauss'
 
-🔗 Read more: https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</description>
-      <guid isPermaLink="true">https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</guid>
-      <pubDate>Thu, 19 Nov 2026 22:13:40 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50567209</comments>
+🔗 Read more: https://ffmpeg.org/download.html#release_9.1</description>
+      <guid isPermaLink="true">https://ffmpeg.org/download.html#release_9.1</guid>
+      <pubDate>Fri, 20 Nov 2026 04:02:39 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569998</comments>
     </item>
     <item>
-      <title>RegExr: 一時的にオフライン</title>
-      <link>https://regexr.com/</link>
-      <description>📝 RegExr のコードベースは老朽化しており、AI ハッキングにより、データを安全に保管する最善の方法は、最新化して保護する機会が得られるまでサイトを閉鎖することであると判断しました。サービス停止について心よりお詫び申し上げます。すぐに戻ってくることを願っています。
-
-
-🔤 Original: RegExr: Temporarily Offline
-
-🔗 Read more: https://regexr.com/</description>
-      <guid isPermaLink="true">https://regexr.com/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:27:07 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50567374</comments>
+      <title>Postgres 19 の再パック: 内蔵テーブルの肥大化をより高速にクリーンアップ</title>
+      <link>https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</link>
+      <guid isPermaLink="true">https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</guid>
+      <pubDate>Fri, 20 Nov 2026 02:43:49 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569516</comments>
     </item>
     <item>
-      <title>ビザ、マスターカード、JPモルガンの顧客データがハッカーによって流出</title>
-      <link>https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87</link>
-      <guid isPermaLink="true">https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87</guid>
-      <pubDate>Thu, 19 Nov 2026 23:32:11 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50568082</comments>
+      <title>「あなたがこれを自分で書いたと言えます」</title>
+      <link>https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</link>
+      <description>📝 使わないと不利益を被るということ。できるだけ物事を考えてください。その後、それについて話したいと思っています。
+
+
+🔤 Original: "I can tell you wrote this yourself"
+
+🔗 Read more: https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</description>
+      <guid isPermaLink="true">https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/</guid>
+      <pubDate>Fri, 20 Nov 2026 07:13:21 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50571189</comments>
     </item>
     <item>
-      <title>ローカル音声アシスタント パイプラインを再構築する</title>
-      <link>https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</link>
-      <description>📝 microwakeword (ローカル)Speech-to-text-アシスタント。 openai (クラウド) - アシスタント。 microwakeword (ローカル)Speech-to-text-アシスタント。
+      <title>何かを簡単な言葉で説明できないなら、それは理解できていません (2017)</title>
+      <link>https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</link>
+      <description>📝 つまり、私たちはそれを本当に理解していないということです。批判的に言えば、彼は自分が何かを理解していないとき、あるいは科学者全体が何かを理解していないとき、それを認めることを恥ずかしがりません。 Apple ブック デビッド グッドスタイン ファインマンの失われた講義 ジョン グルーバーの物理学 リチャード ファインマン 科学 ファインマンの物理学講義 お気に入り · 0 シェア 投稿を開く リンクをコピー 翻訳 Bluesky Mastodon Reddit スレッド 電子メール テキスト/SMS WhatsApp。
 
 
-🔤 Original: Rebuilding my local voice assistant pipeline
+🔤 Original: If you can't explain something in simple terms, you don't understand it (2017)
 
-🔗 Read more: https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</description>
-      <guid isPermaLink="true">https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</guid>
-      <pubDate>Thu, 19 Nov 2026 20:57:14 +0000</pubDate>
-      <comments>https://news.ycombinator.com/item?id=50566261</comments>
+🔗 Read more: https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</description>
+      <guid isPermaLink="true">https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</guid>
+      <pubDate>Fri, 20 Nov 2026 09:43:19 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572355</comments>
+    </item>
+    <item>
+      <title>柔術入門</title>
+      <link>https://ethanlowman.com/posts/jj-primer/</link>
+      <description>📝 com&gt; (2026-11-15 12:10:46) コミッター: Ethan Lowman &lt;ethan@example. com&gt; (2026-11-15 12:10:46) config diff --git a/config を調整します。作業コピー (@) : kpqxywon 849165bc (空) (説明が設定されていません) 親コミット (@-) : royxmykx 2bea5e3d main | config jj diff の調整は git diff と同じように機能します。
+
+
+🔤 Original: Jujutsu Primer
+
+🔗 Read more: https://ethanlowman.com/posts/jj-primer/</description>
+      <guid isPermaLink="true">https://ethanlowman.com/posts/jj-primer/</guid>
+      <pubDate>Fri, 20 Nov 2026 05:46:01 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50570628</comments>
+    </item>
+    <item>
+      <title>PostgreSQL 19</title>
+      <link>https://www.postgresql.org/docs/release/19.0/</link>
+      <description>📝 pg_upgrade は、btree_gist inet/cidr インデックスを持つクラスターのアップグレードを禁止します。 COPY FROM でのシステム列の使用を禁止します。この変更により、並列ワーカーとコストベースの遅延が有効になっている VACUUM の実行が以前のリリースより遅くなる可能性があります。
+
+🔗 Read more: https://www.postgresql.org/docs/release/19.0/</description>
+      <guid isPermaLink="true">https://www.postgresql.org/docs/release/19.0/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:45:45 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569890</comments>
+    </item>
+    <item>
+      <title>TCP/IP が特許を取得されなかった理由についてヴィント・サーフが語る</title>
+      <link>https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</link>
+      <description>📝 最初のゲストはヴィント・サーフ。結局のところ、彼はヴィント・サーフです。そこで彼らはヴィントに彼のものを使ってもいいかと尋ねました。
+
+
+🔤 Original: Vint Cerf on why TCP/IP was never patented
+
+🔗 Read more: https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</description>
+      <guid isPermaLink="true">https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</guid>
+      <pubDate>Fri, 20 Nov 2026 01:06:12 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50568861</comments>
+    </item>
+    <item>
+      <title>AGIの次に何が来るのか?</title>
+      <link>https://institute.deepmind.com/essays/what-comes-after-agi/</link>
+      <description>📝 人間レベルの AGI は、そのスペクトルの 1 点にすぎません。過去 10 年間で年間 5 回。この傾向が当てはまると想像してください。
+
+
+🔤 Original: What Comes After AGI?
+
+🔗 Read more: https://institute.deepmind.com/essays/what-comes-after-agi/</description>
+      <guid isPermaLink="true">https://institute.deepmind.com/essays/what-comes-after-agi/</guid>
+      <pubDate>Fri, 20 Nov 2026 02:44:13 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50569519</comments>
+    </item>
+    <item>
+      <title>カーニバル・クルーズは、ヨーロッパのすべての自動車の 10 倍の硫黄酸化物を排出します</title>
+      <link>https://ecohustler.com/article/one-corporation-to-pollute-them-all/</link>
+      <description>📝 T&amp;E社の海運政策マネージャー、ファイグ・アバソフ氏は、「豪華クルーズ船は、可能な限り最も汚れた燃料を燃料とする水上都市である。ファイグ・アバソフ氏は、「クルーズ船を浄化するのに十分な成熟した技術がある」と結論付けた。 」 タグ付き: 海運 クルーズ産業 公害企業の活動。
+
+
+🔤 Original: Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars
+
+🔗 Read more: https://ecohustler.com/article/one-corporation-to-pollute-them-all/</description>
+      <guid isPermaLink="true">https://ecohustler.com/article/one-corporation-to-pollute-them-all/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:13:09 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572116</comments>
+    </item>
+    <item>
+      <title>英国の冷蔵庫、全国的に秘密裏に運用されハッカーから確保</title>
+      <link>https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</link>
+      <description>📝 「ビジネスの観点から見ると、事業の中断やサプライチェーンの問題で壊滅的な事態になる可能性があった。当社の倉庫には数百万ポンド相当の食品が保管されており、もしハッカーがこの攻撃方法を知っていたら、腐敗していた可能性がある」と彼らは付け加えた。今年はこれまでに冷蔵温度制御装置に対するハッキングの波が3回あった。8月には少数の米軍基地の冷蔵庫が被害を受けた。10月11日と12日にはダンフォスの温度制御システムが標的となり、フランスの何百ものスーパーマーケットと食品加工場が被害を受けた。11月1日と2日にはヨーロッパ7か国の数十のスーパーマーケットが被害に遭い、ベルギーとルクセンブルクが最も被害を受けた。
+
+
+🔤 Original: UK fridges secured from hackers in secret nationwide operation
+
+🔗 Read more: https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</description>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</guid>
+      <pubDate>Fri, 20 Nov 2026 09:52:20 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50572430</comments>
+    </item>
+    <item>
+      <title>SNES用ChatGPT</title>
+      <link>https://www.bxfoundry.com/chatgpt_snes/</link>
+      <description>📝 ChatGPT for SNES ChatGPT for SNES Pure: すべての言葉はモデルから来ています。キーボードで入力します。 2つほどの小さな言語モデル。
+
+
+🔤 Original: ChatGPT for SNES
+
+🔗 Read more: https://www.bxfoundry.com/chatgpt_snes/</description>
+      <guid isPermaLink="true">https://www.bxfoundry.com/chatgpt_snes/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:25:59 +0000</pubDate>
+      <comments>https://news.ycombinator.com/item?id=50568548</comments>
     </item>
   </channel>
 </rss>
